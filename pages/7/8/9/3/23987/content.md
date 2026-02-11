@@ -4546,7 +4546,29 @@ Nov 2025
 
 ### Feb 2026
 
-* {#AntzFeb2025} 25 Feb 20206
+
+* {#GolubFeb2026} 11 Feb 2026
+
+  [[Nikita Golub]] (St. Petersburg State University):
+
+  **Generalizations of minimal models in rational homotopy and applications**
+
+  >  In this seminar, we explore the generalization of [[rational homotopy theory]] to [[presheaves]] of [[topological space|spaces]]. We extend the classical [[Sullivan model|Sullivan theory of minimal models]] to a broad class of finite [[diagrams]] of spaces, including those that appear in [[equivariant homotopy theory|equivariant]], [[stratified space|stratified]] [[homotopy theories]].
+
+  > We introduce two distinct types of minimal models: algebraically minimal models, based on a generalized notion of decomposability of differentials for diagrams of differential graded algebras, and geometrically minimal models, whose construction is dual to [[Postnikov towers]]. Unlike classical theory, these two notions of minimality are generally distinct, in contrast to classical theory. We will see that the [[obstruction]] to their equivalence is governed by the rational [[cohomological dimension]] of the indexing category. This leads to a new rational homotopy property of algebraicity for diagrams, exhibiting behavior analogous to [[formality]].
+
+  > As applications, we establish criteria for the rational splitting of [[H-space]] [[diagrams]] into [[products]] of [[Eilenberg-MacLane space|Eilenberg–MacLane]] diagrams.
+
+  > We will also show that for a broad class of diagrams of [[smooth manifolds]] (e.g., diagrams of [[fixed point]] [[submanifolds]]), the [[rational homotopy type|real homotopy type]] is faithfully encoded in the associated system of [[de Rham complexes]]. We present some calculations of equivariant relative [[model category|model structures]] in the context of equivariant [[fibrations]].
+
+  > Furthermore, we demonstrate that the real equivariant homotopy type (in the sense of [[Bredon cohomology|Bredon equivariant theory]]) of an equivariant [[isometry]] of a [[Riemannian manifold|Riemannian]] [[G-manifold|$G$-manifold]] is precisely determined by its behavior on the system of [[real cohomology]] of [[fixed point]] [[submanifolds]].  
+
+
+\linebreak
+
+
+
+* {#AntzFeb2025} 25 Feb 2026
 
   [[Samuel Adrian Antz]] (Dalian University of Technology):
 
