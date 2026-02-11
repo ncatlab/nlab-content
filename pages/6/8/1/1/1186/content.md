@@ -382,7 +382,7 @@ The statement of [[Dugger's theorem]] -- of which the characterization of locall
 
 Further textbook account:
 
-* {#Cisinski19} [[Denis-Charles Cisinski]], Section 7.11 in: _Higher category theory and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 7.11 in: _Higher categories and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 Exposition and review:
 
