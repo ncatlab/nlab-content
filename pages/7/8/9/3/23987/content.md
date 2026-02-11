@@ -4553,6 +4553,8 @@ Nov 2025
 
   **Generalizations of minimal models in rational homotopy and applications**
 
+  slides [[Golub-CQTS-Feb2026.pdf:file]]
+
   >  In this seminar, we explore the generalization of [[rational homotopy theory]] to [[presheaves]] of [[topological space|spaces]]. We extend the classical [[Sullivan model|Sullivan theory of minimal models]] to a broad class of finite [[diagrams]] of spaces, including those that appear in [[equivariant homotopy theory|equivariant]], [[stratified space|stratified]] [[homotopy theories]].
 
   > We introduce two distinct types of minimal models: algebraically minimal models, based on a generalized notion of decomposability of differentials for diagrams of differential graded algebras, and geometrically minimal models, whose construction is dual to [[Postnikov towers]]. Unlike classical theory, these two notions of minimality are generally distinct, in contrast to classical theory. We will see that the [[obstruction]] to their equivalence is governed by the rational [[cohomological dimension]] of the indexing category. This leads to a new rational homotopy property of algebraicity for diagrams, exhibiting behavior analogous to [[formality]].
@@ -4568,7 +4570,7 @@ Nov 2025
 
 
 
-* {#AntzFeb2025} 25 Feb 2026
+* {#AntzFeb2025} 25 Feb 2026 (upcoming)
 
   [[Samuel Adrian Antz]] (Dalian University of Technology):
 
