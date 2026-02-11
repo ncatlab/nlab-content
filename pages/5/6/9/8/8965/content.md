@@ -153,7 +153,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined b
 
 That this is the right definition (and a special case of the general principle of [[inductive types]]) was clearly understood around [Martin-Löf (1984)](#Martin-Löf84), [pp. 38](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=44); [Coquand & Paulin (1990, p. 52-53)](#CoquandPaulin90); [Paulin-Mohring (1993, §1.3)](#Paulin-Mohring93); [Dybjer (1994, §3)](#Dybjer94). For review see also, e.g., [Pfenning (2009, §2)](#Pfenning); [UFP (2013, §1.9)](#UFP13); [Söhnen (2018, §2.4.5)](#Söhnen18).
 
-In [[Coq]]-[[syntax]] the [[natural numbers]] are the [[inductive type]] defined &lbrack;cf. [Paulin-Mohring (2014, p. 6)](#Paulin-Mohring14)&rbrack; by:
+In [[Rocq]]-[[syntax]] the [[natural numbers]] are the [[inductive type]] defined &lbrack;cf. [Paulin-Mohring (2014, p. 6)](#Paulin-Mohring14)&rbrack; by:
 
     Inductive nat : Type :=
      | zero : nat
@@ -966,7 +966,7 @@ Original articles with emphasis on the nature of $\mathbb{N}$ as an [[inductive 
 
 * {#Dybjer94} [[Peter Dybjer]], §3 in: *Inductive families*, Formal Aspects of Computing **6** (1994) 440–465 $[$[doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [doi:10.1007/BF01211308](https://doi.org/10.1007/BF01211308), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.pdf)$]$
 
-The syntax in [[Coq]]:
+The syntax in [[Rocq]]:
 
 * {#Paulin-Mohring14} [[Christine Paulin-Mohring]], p. 6 in: *Introduction to the Calculus of Inductive Constructions*, contribution to: *Vienna Summer of Logic* (2014) &lbrack;[hal:01094195](https://hal.inria.fr/hal-01094195), [pdf](https://hal.inria.fr/hal-01094195/document), [pdf slides](https://easychair.org/smart-program/VSL2014/APPA-invited-slides-6.pdf)&rbrack;
 
