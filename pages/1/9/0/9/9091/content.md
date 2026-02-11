@@ -3,7 +3,7 @@
 
 ## Idea
 
-*Polylogairthms* $Li_n(x)$ generlize [[dilogarithms]]. 
+*Polylogarithms* $Li_n(x)$ generalize [[dilogarithms]]. 
 
 There are also multiple polylogarithms of many variables, where the index $n$ is replaced by a [[partition]] of number $n$.
 
