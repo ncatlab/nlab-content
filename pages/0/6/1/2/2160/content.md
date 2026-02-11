@@ -30,6 +30,7 @@ The dilogarithm has remarkable relations to many areas of mathematics and [[math
 ## Related entries
 
 * [[quantum dilogarithm]]
+* [[polylogarithm]]
 
 ## References
 
