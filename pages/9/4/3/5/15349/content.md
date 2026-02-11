@@ -37,7 +37,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 ## Examples
 
-> The first example of an &#233;tendue seems to have been the [[space of moduli]] of algebraic curves, which is prevented from being globally a space due to the action of the [[Galois groups]] within each point. Yes, something vaguely reminiscent of particle spin is going on in such spaces, and the most naked form is that for any group G, the category $\mathcal{S}^G$ is an &#233;tendue with only one point! This is easily seen from the observations that $\mathcal{S}^G/G\cong\mathcal{S}^G$ and that $G\twoheadrightarrow 1$ where the last two $G$'s denote the regular representation.      ([Lawvere 1976](#Lawvere76), pp.129-130)
+> The first example of an &#233;tendue seems to have been the [[space of moduli]] of algebraic curves, which is prevented from being globally a space due to the action of the [[Galois groups]] within each point. Yes, something vaguely reminiscent of particle spin is going on in such spaces, and the most naked form is that for any group G, the category $\mathcal{S}^G$ is an &#233;tendue with only one point! This is easily seen from the observations that $\mathcal{S}^G/G\cong\mathcal{S}$ and that $G\twoheadrightarrow 1$ where the last two $G$'s denote the regular representation.      ([Lawvere 1976](#Lawvere76), pp.129-130)
 
 * The [[Sierpinski topos]] $\mathcal{S}^{\cdot\rightarrow\cdot}$, as the sheaf topos on the [[Sierpinski space]], is an &#233;tendue.
 
