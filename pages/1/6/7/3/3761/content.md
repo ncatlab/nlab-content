@@ -123,9 +123,10 @@ All the above definitions can be found in [Day-Street 97](#DS97), except for the
 
 
 ## References
+
 A concise unifying review, eliminating some extra conditions, plus, recovering KV definition from tricategories:
 
-[[Fatimah Rita Ahmadi]] *Monoidal 2-Categories: A Review* ([arXiv:2011.02830v3](https://arxiv.org/pdf/2011.02830))
+* [[Fatimah Rita Ahmadi]] *Monoidal 2-Categories: A Review* ([arXiv:2011.02830v3](https://arxiv.org/pdf/2011.02830))
 
 Slightly different definitions of these various structures can be found in the following sequence of papers:
 
