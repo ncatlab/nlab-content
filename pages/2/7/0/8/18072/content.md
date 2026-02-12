@@ -84,6 +84,10 @@ Lecture notes:
 
 * Chrysoula Markou: *An introduction to string states and their interactions* &lbrack;[arXiv:2602.05173](https://arxiv.org/abs/2602.05173)&rbrack;
 
+With emphasis on the [[background field|background]] [[effective field theory]]:
+
+* [[Arkady A. Tseytlin]]: *Sigma model approach to string theory* &lbrack;[arXiv:2602.10977](https://arxiv.org/abs/2602.10977)&rbrack;
+
 See the references at _[[string theory]]_ for more.
 
 
