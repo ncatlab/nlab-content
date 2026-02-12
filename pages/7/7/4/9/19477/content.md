@@ -30,39 +30,54 @@ A basic fact of [[category theory]] says that the [[limit]] or [[colimit]] of a 
 **(limits of presheaves are computed objectwise)**
 
 Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]]. Let moreover $\mathcal{D}$ be a [[small category]] and consider any [[functor]]
-
-$$
-  F \;\colon\; \mathcal{D} \longrightarrow [\mathcal{C}^{op}, Set]
-  \,,
-$$
-
+$$F\colon \mathcal{D} \longrightarrow [\mathcal{C}^{op}, Set],$$
 hence a $\mathcal{D}$-shaped [[diagram]] in the [[category of presheaves]]. 
 
 Then
 
 1. The [[limit]] of $F$ exists, and is the [[presheaf]] which over any [[object]] $c \in \mathcal{C}$ is given by the [[limit]] in [[Set]] of the values of the presheaves at $c$:
-
    $$
      \left(
        \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
        F(d)
      \right)(c)
-     \;\simeq\;
+     \;\cong\;
      \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
-      F(d)(c)
+      F(d)(c).
+   $$
+Furthermore, given a morphism $f\colon c\to c'$,
+the structure map $(\lim F)(f)$ of $\lim F$ is given by the [[limit]] of structure maps of the individual presheaves at $f$:
+   $$
+     \left(
+       \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
+       F(d)
+     \right)(f)
+     \;\cong\;
+     \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
+      F(d)(f).
    $$
 
 
 1. The [[colimit]] of $F$ exists, and is the [[presheaf]] which over any [[object]] $c \in \mathcal{C}$ is given by the [[colimit]] in [[Set]] of the values of the presheaves at $c$:
-
    $$
      \left(
        \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
        F(d)
      \right)(c)
-     \;\simeq\;
+     \;\cong\;
      \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
       F(d)(c)
+   $$
+Furthermore, given a morphism $f\colon c\to c'$,
+the structure map $(colim F)(f)$ of $colim F$ is given by the [[colimit]] of structure maps of the individual presheaves at $f$:
+   $$
+     \left(
+       \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
+       F(d)
+     \right)(f)
+     \;\cong\;
+     \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
+      F(d)(f)
    $$
 
 =--
