@@ -49,6 +49,10 @@ On defect branes in [[D=4 N=4 SYM]] via [[AdS/CFT]]:
 
 * Hongliang Jiang, [[Arkady A. Tseytlin]], *On co-dimension 2 defect anomalies in $\mathcal{N}=4$ SYM and $(2,0)$ theory via brane probes in AdS/CFT* &lbrack;[arXiv:2402.07881](https://arxiv.org/abs/2402.07881)&rbrack;
 
+On the [[bosonic string]] [[sigma-model]] With emphasis on the [[background field|background]] [[effective field theory]]:
+
+* [[Arkady A. Tseytlin]]: *Sigma model approach to string theory* &lbrack;[arXiv:2602.10977](https://arxiv.org/abs/2602.10977)&rbrack;
+
 
 
 
