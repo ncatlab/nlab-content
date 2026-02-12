@@ -224,6 +224,8 @@ More on application to ([[strange metal|strange]]) [[metals]]:
 
 * Enrico Cinti, [[Sebastian De Haro]], Mark Golden, Umut Gürsoy, Henk T. C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
 
+* Lucas Acito, Nicolas Grandi: *Holographic metals at finite volume* &lbrack;[arXiv:2602.10460](https://arxiv.org/abs/2602.10460)&rbrack;
+
 
 
 
