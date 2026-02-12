@@ -22,9 +22,9 @@ Recall the notion of _[[chain complex]]_, of _[[chain map]]_ between chain compl
 
 Call a [[chain complex]] $C_\bullet$
 
-* **bounded below** if there is $k \in \mathbb{N}$ such that $C_{n \leq k} = 0$;
+* **bounded below** if there is $k \in \mathbb{Z}$ such that $C_{n \leq k} = 0$;
 
-* **bounded above** if there is $k \in \mathbb{N}$ such that $C_{n \geq k} = 0$;
+* **bounded above** if there is $k \in \mathbb{Z}$ such that $C_{n \geq k} = 0$;
 
 * **bounded** if it is bounded below and bounded above.
 We have 
