@@ -498,6 +498,12 @@ See also:
 
 * {#HaslbauerKroupaJerabkova23} Moritz Haslbauer, Pavel Kroupa, Tereza Jerabkova, *The cosmological star formation history from the Local Volume of galaxies and constraints on the matter homogeneity* &lbrack;[arXiv:2306.16436](https://arxiv.org/abs/2306.16436)&rbrack;
 
+* Joann Jones, Craig J. Copi, Glenn D. Starkman, Yashar Akrami: *The Universe is not statistically isotropic* &lbrack;[arXiv:2310.12859](https://arxiv.org/abs/2310.12859)&rbrack;
+
+* Alan H. Guth, Mohammad Hossein Namjoo: *Statistical isotropy of the universe and the look-elsewhere effect* &lbrack;[arXiv:2602.10178](https://arxiv.org/abs/2602.10178)&rbrack;
+
+
+
 
 
 [[!redirects inhomogeneous cosmologies]]
