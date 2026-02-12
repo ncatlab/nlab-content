@@ -419,7 +419,7 @@ Further review:
 
 ### Blog posts, talk slides, and other material
 
-* {#Hedges18} [[Jules Hedges]], _Lenses for philosophers_ (2018) &lbrack;[blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)&rbrack;
+* {#Hedges18} [[Jules Hedges]], _Lenses for philosophers_ (2018) &lbrack;[blog post](https://obsoletewallstreet.wordpress.com/2018/08/16/lenses-for-philosophers/)&rbrack;
 
 * {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
 
