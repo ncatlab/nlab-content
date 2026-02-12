@@ -217,7 +217,7 @@ The concept of [[sigma-models]] originates with the introduction of the [[σ-mes
 * [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
 
 
-A standard reference on 2-dimensional [[string]] $\sigma$-models is 
+On 2-dimensional [[string]] $\sigma$-models
 
 
 * [[Pierre Deligne]], [[Dan Freed]], _Classical field theory_ , chapter 5, page 211 
@@ -228,8 +228,10 @@ A standard reference on 2-dimensional [[string]] $\sigma$-models is
   
   in
 
-  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+* [[Arkady A. Tseytlin]]: *Sigma model approach to string theory* &lbrack;[arXiv:2602.10977](https://arxiv.org/abs/2602.10977)&rbrack;
+
 
 General exposition of $n$-dimensional $\sigma$-models, including the fact that these are [[renormalization|non-renormalizable]] for $n\geq 3$:
 
