@@ -519,7 +519,7 @@ as well as with [Vogt (1973)](#Vogt73) and with
 
 * [[Michael Boardman]], [[Rainer Vogt]], *Homotopy invariant algebraic structures on topological spaces*, Lec. Notes in Math. __347__ Springer (1973) &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
 
-Poof of an [[equivalence of categories|equivalence]] between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the [[homotopy category]] of [[homotopy coherent diagrams]]:
+Proof of an [[equivalence of categories|equivalence]] between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the [[homotopy category]] of [[homotopy coherent diagrams]]:
 
 * {#Vogt73} [[Rainer Vogt]], *Homotopy limits and colimits*, Math. Z. __134__ (1973) 11-52 &lbrack;[eudml:171965](https://eudml.org/doc/171965), [doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090)&rbrack;
 
