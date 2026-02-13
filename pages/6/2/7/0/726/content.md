@@ -1,5 +1,5 @@
 
-The book
+This page is to record the reference:
 
 * [[Paul Taylor]]:
 
@@ -13,11 +13,11 @@ The book
 
   Cambridge University Press (1999)
 
-  ISBN 0-521-63107-6
+  [ISBN:0-521-63107-6](https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/practical-foundations-mathematics?format=HB&isbn=9780521631075)
 
-  [webpage](http://www.paultaylor.eu/~pt/prafm/index.html)
+  [online version](http://www.paultaylor.eu/~pt/prafm/index.html)
 
-is a description of how (in Taylor\'s opinion) the [[foundations]] of mathematics should really be done, with an eye towards matching how mathematics is done in practice (with the consequence that the system is no stronger than necessary).
+on a formulation of the [[foundations of mathematics]], with an eye towards the actual practice of [[mathematics]] (with the consequence that the system is no stronger than necessary).
 
 The result is actually a series of foundations, most [[constructive mathematics|constructive]], suitable for different sorts of mathematics.  Ultimately, these are described as [[internal logic|logic in]] categories defined by [[sketch]]es and equipped with distinguished [[pullback]]-stable classes of _display morphisms_.
 
