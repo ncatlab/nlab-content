@@ -725,16 +725,14 @@ The notion of principal $\infty$-bundle (often addressed in the relevant literat
 
 * [[Rick Jardine]], Z. Luo: *Higher order principal bundles*, Mathematical Proceedings of the Cambridge Philosophical Society **140** 2 (2006) 221-243 &lbrack;[doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911), web.archive:[pdf](https://web.archive.org/web/20050212221131id_/http://www.math.uwo.ca:80/~jardine/papers/cocycles8.pdf)&rbrack;
 
-* [[Rick Jardine]]: _Cocycle categories_, in *Algebraic Topology* Abel Symposia **4**  (2009) &lbrack;[arXiv:math.AT/0605198](http://arxiv.org/abs/math.AT/0605198), [doi:10.1007/978-3-642-01200-6_8](https://doi.org/10.1007/978-3-642-01200-6_8)&rbrack;
+* [[John F. Jardine]]: _Cocycle categories_, in *Algebraic Topology* Abel Symposia **4**  (2009) &lbrack;[arXiv:math.AT/0605198](http://arxiv.org/abs/math.AT/0605198), [doi:10.1007/978-3-642-01200-6_8](https://doi.org/10.1007/978-3-642-01200-6_8)&rbrack;
 
-An earlier description in terms of simplicial objects is
+An earlier description in terms of simplicial objects:
 
 * P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra **25** 1 (1982)  33-105 &lbrack;<a href="https://doi.org/10.1016/0022-4049(82)90094-9">doi:10.1016/0022-4049(82)90094-9</a>&rbrack;
+  > (where not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it)
 
-In that article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
-
-See the remarks at [[principal 2-bundle]].
-
+See the remarks at *[[principal 2-bundle]]*.
 
 See also
 
@@ -742,9 +740,9 @@ See also
 
 on [[associated ∞-bundles]].
 
-The fully general abstract formalization in [[(∞,1)-topos theory]] as discussed here was first indicated in 
+{#ReferencesInternal} The fully general abstract formalization of $\infty$-bundles [[internalization|internal]] to [[(∞,1)-topos theory]], as discussed above, was first indicated in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:Twisted Differential String and Fivebrane Structures]]* (2009)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]: *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics, **315**  1 (2012) 169-213 &lbrack;[doi:10.1007/s00220-012-1510-3](https://doi.org/10.1007/s00220-012-1510-3), [arXiv:0910.4001](https://arxiv.org/abs/0910.4001)&rbrack;
 
 * [[Urs Schreiber]], [[Zoran Škoda]], [§7.1](https://arxiv.org/pdf/1004.2472.pdf#page=20) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
 
@@ -754,7 +752,7 @@ with more comprehensive accounts in:
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-bundles]]*, Cambridge University Press (2026)  &lbrack;ISBN:9781009698559, [arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 For some additional developments and applications to ∞-group extensions, see also
 
