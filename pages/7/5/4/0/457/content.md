@@ -31,9 +31,9 @@ The term 'inhabited' comes from [[constructive mathematics]]. In constructive ma
 
 ### In type theory
 
-In [[type theory]] there are two possible notions of **inhabited type**: a type $X$ whose [[propositional truncation]] $\Vert X \Vert$ has an element (or [[term]]), or a type $X$ that *itself* has an element (or [[term]]).  The former is what corresponds to the above notion of inhabitedness in set theory, since $\Vert X \Vert$ is the [[propositions as types]] interpretation of $\exists x:X$.  The latter is more like the notion of a [[pointed set]].
+In [[type theory]] there are two possible notions of **inhabited type**: a type $X$ whose [[propositional truncation]] ${\Vert X \Vert}$ has an element (or [[term]]), or a type $X$ that *itself* has an element (or [[term]]).  The former is what corresponds to the above notion of inhabitedness in set theory, since ${\Vert X \Vert}$ is the [[propositions as types]] interpretation of $\exists x:X$.  The latter is more like the notion of a [[pointed set]].
 
-The assertion $\forall X, (\Vert X \Vert \to X)$ is a mildly nonconstructive logical principle called the [[propositional axiom of choice]].  It follows from [[excluded middle]], but in the internal logics of some toposes, it can fail, so that these two notions of "inhabited type" really are different.
+The assertion $\forall X, ({\Vert X \Vert} \to X)$ is a mildly nonconstructive logical principle called the [[propositional axiom of choice]].  It follows from [[excluded middle]], but in the internal logics of some toposes, it can fail, so that these two notions of "inhabited type" really are different.
 
 
 ### Inhabited objects
