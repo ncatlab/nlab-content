@@ -165,7 +165,59 @@ The Yoneda embedding $y \colon \mathcal{C} \longrightarrow Func(\mathcal{C}^{op}
 \end{proposition}
 
 \begin{proof}
-  By [[created limit#evaluationFunctorsCollectivelyStrictlyCreateLimits|this remark]], the forgetful functor $U \colon Func(\mathcal{C}^{op}, Set) \to Set^{ob(\mathcal{C}^{op})}$ strictly creates limits, and thus reflects them. Thus, to show $y$ preserves limits, it suffices to show that $U \circ y$ does, by [[preserved limit#compositePreservesAndSecondReflectsImpliesFirstPreserves|this remark]]. Since $U \circ y$ is a product of functors, it suffices to show each individual functor $U_c \circ y \colon \mathcal{C} \to Set$ preserves limits (see [[preserved limit#productPreservesIffComponentsPreserve|here]]). But these are just the hom-functors $Hom(c, -) \colon \mathcal{C} \to Set$, and so we can apply [[hom-functor preserves limits]] to finish.
+This follows directly by combining the facts that  (1.) [[hom-functors preserve limits]] and (2.) [[limits of presheaves are computed objectwise]]. On limiting objects this immediately yields the following [[natural isomorphisms]]:
+$$
+  \begin{aligned}
+    y\big(
+      \underset{
+        \underset
+          {i \in I}
+          {\longleftarrow}
+       }{\lim}
+       \,
+      c_i
+    \big)
+    &\equiv
+    Hom\big(
+      -
+      ,\,
+      \underset{
+        \underset
+          {i \in I}
+          {\longleftarrow}
+       }{\lim}
+       \,
+      c_i
+    \big)
+    \\
+    &\simeq
+    \underset{
+      \underset
+        {i \in I}
+        {\longleftarrow}
+     }{\lim}
+     \,
+    Hom\big(
+      -
+      ,\,
+      c_i
+    \big)
+    \\
+    &\simeq
+    \underset{
+      \underset
+        {i \in I}
+        {\longleftarrow}
+     }{\lim}
+     \,
+     y(c_i)
+     \,.
+  \end{aligned}
+$$
+
+Another, maybe more precise way to say this:
+
+  By [[created limit#evaluationFunctorsCollectivelyStrictlyCreateLimits|this remark]], the [[forgetful functor]] $U \colon Func(\mathcal{C}^{op}, Set) \to Set^{ob(\mathcal{C}^{op})}$ strictly  [[created limit|creates limits]], and thus [[reflected limit|reflects]] them. Thus, to show $y$ preserves limits, it suffices to show that $U \circ y$ does, by [[preserved limit#compositePreservesAndSecondReflectsImpliesFirstPreserves|this remark]]. Since $U \circ y$ is a [[composition]] of functors, it suffices to show each individual functor $U_c \circ y \colon \mathcal{C} \to Set$ preserves limits (see [[preserved limit#productPreservesIffComponentsPreserve|here]]). But these are just the [[hom-functors]] $Hom(c, -) \colon \mathcal{C} \to Set$, and so we can apply [[hom-functor preserves limits]] to finish.
 \end{proof}
 
 \begin{remark}
@@ -227,6 +279,5 @@ Subsequent references that use this notation include:
 * [[Fosco Loregian]], p. 4 of _This is the (co)end, my only (co)friend_ ([arXiv:1501.02503](https://arxiv.org/pdf/1501.02503.pdf#page=4)) 
 
 * [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], p. 53 of _Equivariant stable homotopy theory and the Kervaire invariant problem_, ([web](https://web.math.rochester.edu/people/faculty/doug/mybooks/esht.pdf#page=53)) 
-
 
 [[!redirects Yoneda embeddings]]
