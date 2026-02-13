@@ -885,6 +885,7 @@ On the $\nu = 5/2$ FQH state:
 
 * R L Willett: *The quantum Hall effect at $5/2$ filling factor*, Rep. Prog. Phys. **76** (2013) 076501 &lbrack;[doi:10.1088/0034-4885/76/7/076501](https://iopscience.iop.org/article/10.1088/0034-4885/76/7/076501)&rbrack;
 
+* Mitali Banerjee, Moty Heiblum, Vladimir Umansky, Dima E. Feldman, Yuval Oreg, [[Ady Stern]]: *Observation of half-integer thermal Hall conductance*, Nature **559** (2018) 205–210 &lbrack;[doi:10.1038/s41586-018-0184-1](https://doi.org/10.1038/s41586-018-0184-1)&rbrack;
 
 * Ken K. W. Ma, Michael R. Peterson, V. W. Scarola, Kun Yang: *Fractional quantum Hall effect at the filling factor $\nu = 5/2$*, Encyclopedia of Condensed Matter 2nd ed. **1** (2024) 324-365 &lbrack;[arXiv:2208.07908](https://arxiv.org/abs/2208.07908), [doi:10.1016/B978-0-323-90800-9.00135-9](https://doi.org/10.1016/B978-0-323-90800-9.00135-9)&rbrack;
 
