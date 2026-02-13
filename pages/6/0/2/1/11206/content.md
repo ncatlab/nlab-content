@@ -69,7 +69,7 @@ based on
 * {#Bauer00} [[Andrej Bauer]], _The Realizability Approach to
 Computable Analysis and Topology_, PhD thesis CMU (2000) ([pdf](http://math.andrej.com/wp-content/uploads/2006/04/thesis.pdf))
 
-* Peter Lietz, _From Constructive Mathematics to Computable Analysis via the Realizability Interpretation_ ([pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/THESES/lietz.pdf.gz))
+* Peter Lietz, _From Constructive Mathematics to Computable Analysis via the Realizability Interpretation_ ([pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/THESES/lietz.pdf))
 
 
 For [[computable analysis]] see
