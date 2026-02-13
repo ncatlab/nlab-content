@@ -16,13 +16,13 @@ Research interests:
    *  Symbolic AI
    *  Neuro-symbolic AI
 * Nonlinear Systems Theory
-   *  Nonlinear Systems Identification
+   *  Nonlinear System Identification
    *  Topological Signal Processing
    *  Geometric Control Theory
 * Abstract structures
    *  Fuzzy automata
-   *  Fuzzy logic
-   *  Clifford algebras and hypercomplex spaces
+   *  Fuzzy Logic and Fuzzy Type Theory
+   *  Clifford algebras, simplicial complexes, and hypercomplex spaces
 
 
 ## Zero copyright or copyleft restrictions
