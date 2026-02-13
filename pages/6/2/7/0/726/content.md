@@ -26,7 +26,7 @@ The book includes a self-contained, though dense, introduction to [[category the
 
 ## Resources
 
-The text is available on tbe author's website ([www.PaulTaylor.EU/Practical-Foundations/index.html](http://www.PaulTaylor.EU/Practical-Foundations/index.html)) though with many mathematical symbols and formulas failing g to render.
+The text is available on the author's website ([www.PaulTaylor.EU/Practical-Foundations/index.html](http://www.PaulTaylor.EU/Practical-Foundations/index.html)) though with many mathematical symbols and formulas failing to render.
 
 There is also a summary ([www.paultaylor.eu/~pt/prafm/summary.html](http://www.paultaylor.eu/~pt/prafm/summary.html)) with better typesetting. This is basically an expanded table of contents together with an abbreviated introduction, with a link into the above-mentioned online text for each section.
 
