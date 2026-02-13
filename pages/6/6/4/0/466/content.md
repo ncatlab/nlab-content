@@ -214,7 +214,7 @@ It is easy to check that this isomorphism is in fact the action of $\mathbf{y}$ 
 
 The Yoneda lemma has the following direct consequences. As the Yoneda lemma itself, these are as easily established as they are useful and important.
 
-### corollary I: Yoneda embedding
+### I: Yoneda embedding
 
 The Yoneda lemma implies that the [[Yoneda embedding]] functor $y \colon C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
 
@@ -223,7 +223,7 @@ $$
 $$
 
 
-### corollary II: uniqueness of representing objects 
+### II: Uniqueness of representing objects 
 
 Since the [[Yoneda embedding]] is a [[full and faithful functor]], an [[isomorphism]] of [[representable functor|representable presheaves]] $y(c) \simeq y(d)$ must come from an [[isomorphism]] of the representing objects $c \simeq d$:
 
@@ -232,7 +232,7 @@ $$
   c \simeq d
 $$
 
-### corollary III: universality of representing objects
+### III: Universality of representing objects
 
 A [[presheaf|presheaf]] $X \colon C^{op} \to Set$ is [[representable functor|representable]] precisely if its [[category of elements]] has a [[terminal object]]. If a [[terminal object]] is $(d, g \in X(d))$ then $X \simeq y(d)$, with $g$ providing one half of the natural isomorphism $y(d) \Rightarrow X$.
 
@@ -253,16 +253,16 @@ Hence $el(P)((c,f \in X(c)), (d, g \in X(d))) \simeq pt$ says precisely that $X(
 
 For emphasis, here is the interpretation of these three corollaries in words:
 
-* **corollary I** says that the interpretation of presheaves on $C$ as generalized objects probeable by objects $c$ of $C$ is consistent: the probes of $X$ by $c$ are indeed the maps of generalized objects from $c$ into $X$;
+* **Corollary I** says that the interpretation of presheaves on $C$ as generalized objects probeable by objects $c$ of $C$ is consistent: the probes of $X$ by $c$ are indeed the maps of generalized objects from $c$ into $X$.
 
-* **corollary II** says that probes by objects of $C$ are sufficient to distinguish objects of $C$: two objects of $C$ are the same if they have the same probes by other objects of $C$.
+* **Corollary II** says that probes by objects of $C$ are sufficient to distinguish objects of $C$: two objects of $C$ are the same if they have the same probes by other objects of $C$.
 
-* **corollary III** characterizes [[representable functor|representable functors]] by a [[universal property]] and is hence the bridge between the notion of [[representable functor]] and [[universal construction|universal constructions]].
+* **Corollary III** characterizes [[representable functor|representable functors]] by a [[universal property]] and is hence the bridge between the notion of [[representable functor]] and [[universal construction|universal constructions]].
 
 
 ## Generalizations
 
-The Yoneda lemma tends to carry over to all important generalizations of the context of [[locally small category|categories]]:
+The Yoneda lemma tends to carry over to all important generalizations of the context of [[locally small categories]]:
 
 * There is an analog of the Yoneda lemma in [[enriched category theory]]. See [[enriched Yoneda lemma]].
 
@@ -287,7 +287,7 @@ A finite counter-example is given by the category with two objects $A$ and $B$, 
 On the other hand, there have been examples of locally finite categories where naturality is not necessary. For example, [Lovász 1967, Theorem 3.6 (iv)](#Lovasz1967) states precisely that finite relational structures $A$ and $B$ are isomorphic if, and only if, $Hom(C,A) \cong Hom(C,B)$ for every finite relational structure $C$. Later, [Pultr 1973, Theorem 2.2](#Pultr1973) generalised the result to finitely well-powered, locally finite categories with (extremal epi, mono) [[factorization system]].
 
 
-## The Yoneda lemma in semicategories
+## In semicategories
 
 An interesting phenomenon arises in the case of [[semicategory|semicategories]] i.e. "categories" (possibly) lacking [[identity morphisms]]: 
 
