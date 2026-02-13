@@ -135,7 +135,7 @@ $$
 $$
 
 
-Then observe that taking the limit of each "horizontal row" in such a diagram indead does yield a presheaf on $\mathcal{C}$, in that the construction extends from objects to morphisms, and uniquely so:
+Then observe that taking the limit of each "horizontal row" in such a diagram indeed yields a presheaf on $\mathcal{C}$, in that the construction extends from objects to morphisms, and uniquely so:
 This is because for any [[morphism]] $c_1 \overset{g}{\to} c_2$ in $\mathcal{C}$, a [[cone]] over $F(-)(c_2)$ induces a cone over $F(-)(c_1)$, by vertical composition with $F(-)(g)$
 
 $$
