@@ -119,7 +119,7 @@ $$
   \,,
 $$
 
-but in general the constitutive [[relation]] can be a non-linear or even be a "[[multi-valued function]]" (namely when there are hysteresis effects in the [[dielectric medium]]).
+but in general the constitutive [[relation]] can be a non-linear or even be a "[[multi-valued function]]" (namely when there are *hysteresis* effects in the [[dielectric medium]]).
 
 Similarly (interestingly), in the presence of [[background field|background]] [[gravity]] (such as for [[electromagnetic fields]] in and around a star) there is a linear such relation depending on the [[pseudo-Riemannian metric]]. This is most transparently expressed in terms of the [[Hodge star operator]] acting on the electromagnetic fields re-packaged as a [[Faraday tensor]] [[differential 2-form]] (see [below](#InTermsOfFaradayTensor)).
 
