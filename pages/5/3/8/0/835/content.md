@@ -113,13 +113,7 @@ $$
 
 The 3-[[coskeletal]]-condition says that every boundary of a 4-[[simplex]] made up of five such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation:
 
-$$
- \array{\arrayopts{\rowalign{center}}
- \array{\begin{svg}
- [[!include monoidal category > pentagonator]]
- \end{svg}} 
- }
-$$
+[[!include monoidal category > pentagonator]]
 
 This says that any of the possible ways to use several of the 3-simpleces to compose a bunch of compsable 2-morphisms are actually equal.
 
