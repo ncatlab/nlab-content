@@ -275,8 +275,8 @@ See [[higher parallel transport]] for details.
 
 (...)
 
-### In terms of parallel transport
- {#ReferencesInTermsOfParallelTransport}
+### Connections via parallel transport
+ {#ConnectionsViaParallelTransport}
 
 There are many equivalent statements of the ordinary definition of a [[connection on a bundle]]. The following lists references related to the statement that the connection is equivalently encoded in terms of its [[parallel transport]].
 
