@@ -62,7 +62,7 @@ Since this $\mathcal{H}$ is a [[cohesive (∞,1)-topos]] we may think of its obj
 
 ### $G$-Gerbes
 
-We discuss gerbes that have a "strucure group" $G$ akin to a [[principal bundle]]. Indeed, while not the same concept, these _$G$-gerbes_ are [[equivalence in an (∞,1)-category|equivalent]] to $AUT(G)$-[[principal 2-bundle]]s, for $AUT(G)$ the [[automorphism 2-group]] of $G$.
+We discuss gerbes that have a "structure group" $G$ akin to a [[principal bundle]]. Indeed, while not the same concept, these _$G$-gerbes_ are [[equivalence in an (∞,1)-category|equivalent]] to $AUT(G)$-[[principal 2-bundle]]s, for $AUT(G)$ the [[automorphism 2-group]] of $G$.
 
 
 +-- {: .num_remark #RelationToEMObjects}
