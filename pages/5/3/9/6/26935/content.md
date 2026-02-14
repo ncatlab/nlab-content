@@ -25,7 +25,7 @@ Brouwer's continuity principle holds in Johnstone's [[topological topos]]. It al
 
 There are a few different continuity principles which are sometimes called Brouwer's continuity principle. 
 
-* One of them states that all functions from the [[Baire space]] $\mathbb{N}^\mathbb{N}$ to the natural numbers are continuous. 
+* One of them states that all functions from the [[Baire space of sequences]] $\mathbb{N}^\mathbb{N}$ to the natural numbers are continuous. 
 
 * Another one states that all functions from the [[Cantor space]] $\mathbb{2}^\mathbb{N}$ to the natural numbers are continuous. 
 
@@ -35,7 +35,7 @@ There are a few different continuity principles which are sometimes called Brouw
 
 In the definitions of the different notions of continuous function one sees the phrase "there exist", which is usually represented by the [[existential quantifier]]. In [[dependent type theory]] one can instead use the [[dependent sum type]], resulting in untruncated versions of Brouwer's continuity principles. Due to the [[type theoretic principle of choice]] (i.e. the fact that dependent sum types distribute over dependent product types), this means that each continuous function comes with a choice of modulus of continuity in the untruncated versions of Brouwer's continuity principles. 
 
-* The statement that all functions from the [[Baire space]] $\mathbb{N}^\mathbb{N}$ to the natural numbers have a choice of modulus of pointwise continuity is inconsistent. 
+* The statement that all functions from the [[Baire space of sequences]] $\mathbb{N}^\mathbb{N}$ to the natural numbers have a choice of modulus of pointwise continuity is inconsistent. 
 
 * The statement that all functions from the [[Cantor space]] $\mathbb{2}^\mathbb{N}$ to the natural numbers have a choice of modulus of uniform continuity is equivalent to the statement that functions from the [[Cantor space]] to the natural numbers are uniformly continuous (i.e. the untruncated and truncated versions are equivalent to each other). 
 
