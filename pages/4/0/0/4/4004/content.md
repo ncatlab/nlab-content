@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,7 +46,11 @@ A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its 
 
 ## Generic morphisms
 
-Central to the theory of parametric right adjoints is the notion of *$T$-generic* morphisms.  For any [[functor]] $T$, a morphism $f \colon B\to T A$ is (strictly) **$T$-generic** if any [[commutative square]] of the following form:
+Central to the theory of parametric right adjoints is the notion of *$T$-generic* morphisms:
+
+\begin{definition}
+\label{TGenericMorphisms}
+For any [[functor]] $T$, a morphism $f \colon B\to T A$ is (strictly) **$T$-generic** if any [[commutative square]] of the following form:
 $$
   \array{
     B 
@@ -66,7 +71,11 @@ $$
     T Z
   }
 $$
-has a unique [[lift|filler]] of the form $T\delta \colon T A \longrightarrow T X$.  
+has a (unique) [[lift]] of the form $T\delta \colon T A \longrightarrow T X$ such that also $\gamma \circ \delta = \beta$; this lift then called a *$T$-fill*.  
+\end{definition}
+(cf. [Weber 2004 Def 5.2](#Weber2004)).
+
+\begin{definition}
 A **generic factorization** of a map $f\colon B\to T A$ is a factorization
 $$ 
   B 
@@ -75,7 +84,11 @@ $$
     \overset{T h}{\longrightarrow} 
   T A 
 $$
-such that $g$ is $T$-generic.  Note that by the definition of genericity, generic factorizations are unique whenever they exist.  If $T$ is a monad and any map $B \to T A$ has a generic factorization, then there is an induced [[orthogonal factorization system]] on the [[Kleisli category]] of $T$ in which $T$-generic maps are the left class and the right class are the "free" maps, i.e. those which factor through the unit of $T$.
+such that $g$ is $T$-generic (Def. \ref{TGenericMorphisms}).
+\end{definition}
+(cf. [Weber 2004 Def 5.4](#Weber2004)).
+
+Note that by the definition of genericity, generic factorizations are unique whenever they exist.  If $T$ is a monad and any map $B \to T A$ has a generic factorization, then there is an induced [[orthogonal factorization system]] on the [[Kleisli category]] of $T$ in which $T$-generic maps are the left class and the right class are the "free" maps, i.e. those which factor through the unit of $T$.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -141,9 +154,9 @@ Parametric right adjoints were introduced in:
 
 See also:
 
-* [[Mark Weber]], _Generic morphisms, parametric representations, and weakly cartesian monads_, Theory and Applications of Categories, Vol. 13, 2004, No. 14, pp 191-234. ([tac](http://www.tac.mta.ca/tac/volumes/13/14/13-14abs.html))
+* {#Weber2004} [[Mark Weber]]: _Generic morphisms, parametric representations, and weakly cartesian monads_, Theory and Applications of Categories **13** 14 (2004) 191-234. &lbrack;[tac:13-14](http://www.tac.mta.ca/tac/volumes/13/14/13-14abs.html)&rbrack;
 
-* {#Weber08} [[Mark Weber]], _Familial 2-functors and parametric right adjoints_, Theory and Applications of Categories, Vol. 18, 2007, No. 22, pp 665-732. ([tac](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html))
+* {#Weber08} [[Mark Weber]]: _Familial 2-functors and parametric right adjoints_, Theory and Applications of Categories **18** 22 (2007) 665-732 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html)&rbrack;
  
 * {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_, Journal of Pure and Applied Algebra **216**, 2011. ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064), [doi:10.1016/j.jpaa.2012.02.039](https://doi.org/10.1016/j.jpaa.2012.02.039))
 
