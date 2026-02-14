@@ -95,6 +95,10 @@ For "path groupoids" in [[simplicial sets]], aka *[[Dwyer-Kan loop groupoids]]* 
 
 * [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
+For groupoids of [[thin homotopy]] [[equivalence class|classes]] of [[smooth function|smooth]] paths in a [[smooth manifold]] see [references](parallel+transport#ConnectionsViaParallelTransport) at *[[parallel transport]]*, such as:
+
+* [[Urs Schreiber]], [[Konrad Waldorf]]; Def. 2.4 in: _Parallel Transport and Functors_, J. Homotopy Relat. Struct. **4** (2009) 187-244 &lbrack;[arXiv:0705.0452](https://arxiv.org/abs/0705.0452), [JHRS:n1a10](https://www.emis.de/journals/JHRS/volumes/2009/n1a10/abstract.htm), [pdf](https://tcms.org.ge/Journals/JHRS/xvolumes/2009/n1a10/v4n1a10hl.pdf)&rbrack; 
+
 
 [[!redirects path goupoid]]
 [[!redirects path groupoids]]
