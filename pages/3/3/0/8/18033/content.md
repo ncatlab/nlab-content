@@ -154,6 +154,8 @@ See also:
 
 * [[Shai M. Chester]], Rishi Mouland, Jesse van Muiden, Clément Virally: *Extremal couplings and gluon scattering in M-theory* &lbrack;[arXiv:2512.04057](https://arxiv.org/abs/2512.04057)&rbrack;
 
+* Francesco Aprile, Hynek Paul, Michele Santagata: *Quantum Gravity on $AdS_3 \times S^3$ from CFT: Bootstrapping $n=21$* &lbrack;[arXiv:2602.11254](https://arxiv.org/abs/2602.11254)&rbrack;
+
 
 
 
