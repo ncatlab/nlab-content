@@ -115,7 +115,7 @@ The 3-[[coskeletal]]-condition says that every boundary of a 4-[[simplex]] made 
 
 [[!include monoidal category > pentagonator]]
 
-This says that any of the possible ways to use several of the 3-simpleces to compose a bunch of compsable 2-morphisms are actually equal.
+This says that any of the possible ways to use several of the 3-simplices to compose a bunch of composable 2-morphisms are actually equal.
 
 ### Homotopy 2-types
 
