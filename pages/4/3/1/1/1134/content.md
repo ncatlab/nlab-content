@@ -86,18 +86,22 @@ With the obvious morphisms of [[ringed space]] this forms the [[category]] [[SDi
 
     * [[odd line]]
 
-+-- {: .num_example }
-###### Example
 
-For $E \to X$ a smooth finite-rank [[vector bundle]] the [[manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the sections  of the dual bundle
+\begin{example}
+\label{OddVectorBundle}
+For $E \to X$ a smooth [[finite number|finite]]-[[rank of a vector bundle|rank]] [[vector bundle]], the [[smooth manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the [[space of sections]] of the [[dual vector bundle]]
 
 $$
   O_X(U) \coloneqq \Gamma (\wedge^\bullet(E^*))
 $$
 
-is a supermanifold. This is usually denoted by $\Pi E$.
+is a supermanifold. As such, this is commonly denoted by 
+$$
+  \Pi E
+$$ 
+and referred to as the *shifted vector bundle* or *odd vector bundle*, or similar
 
-=--
+\end{example}
 
 +-- {: .num_example }
 ###### Example
@@ -122,11 +126,11 @@ for the corresponding supermanifold.
 ###### Theorem
 **(Batchelor's theorem)**
 
-Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ where $E$ is an ordinary smooth [[vector bundle]].
+Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ (Ex. \ref{OddVectorBundle}) where $E$ is an ordinary smooth [[vector bundle]].
 
 =--
 
-([Batchelor 1979](#Batchelor79) reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07), see also [Gawędzki 1977 §3 Thm 1 (p 342)](#Gawędzki77), [Manin 1988, §2 Thm 2 & Cor 7 (pp 188)](#Manin88))
+(This is due to [Batchelor 1979](#Batchelor79), reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07), see also [Gawędzki 1977 §3 Thm 1 (p 342)](#Gawędzki77), [Manin 1988, §2 Thm 2 & Cor 7 (pp 188)](#Manin88).)
 
 
 
