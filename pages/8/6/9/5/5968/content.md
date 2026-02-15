@@ -446,9 +446,9 @@ Discussion in the convenient context of [[smooth sets]]:
 
 * {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §6 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
-On a generalization of symmetries valued in Lie groups for which the conservation equation becomes potentially nonabelian and does not give rise to symplectomorphisms:
+Generalization of Noether's theorem to [[Poisson-Lie group]] [[symmetries]], not necessarily acting by [[symplectomorphisms]], for which the [[conserved charges]] may be nonabelian:
 
-* Florian Girelli, Christopher Pollack, Aldo Riello. *Beyond Noether: A Covariant Study of Poisson-Lie Symmetries in Low Dimensional Field Theory* (2025). ([arXiv:2505.14942](https://arxiv.org/abs/2505.14942)).
+* [[Florian Girelli]], Christopher Pollack, Aldo Riello: *Beyond Noether: A Covariant Study of Poisson-Lie Symmetries in Low Dimensional Field Theory* &lbrack;[arXiv:2505.14942](https://arxiv.org/abs/2505.14942)&rbrack;
 
 
 
