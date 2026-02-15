@@ -20,6 +20,10 @@ On [[Snyder spacetimes]] and [[Lie triple systems]]:
 
 * {#Girelli10} [[Florian Girelli]]: _Snyder space-time: K-loop and Lie triple system_, SIGMA Symmetry Integrability Geom. Methods Appl. __6__ 074 (2010) &lbrack;[sigma:2010/074](http://www.emis.de/journals/SIGMA/2010/074), [pdf](http://www.emis.de/journals/SIGMA/2010/074/sigma10-074.pdf), [arxiv/1009.4762](http://arxiv.org/abs/1009.4762)&rbrack;
 
+Generalization of [[Noether's theorem]] to [[Poisson-Lie group]] [[symmetries]], not necessarily acting by [[symplectomorphisms]], for which the [[conserved charges]] may be nonabelian:
+
+* [[Florian Girelli]], Christopher Pollack, Aldo Riello: *Beyond Noether: A Covariant Study of Poisson-Lie Symmetries in Low Dimensional Field Theory* &lbrack;[arXiv:2505.14942](https://arxiv.org/abs/2505.14942)&rbrack;
+
 
 See also:
 
