@@ -299,7 +299,7 @@ Projects:
 
   Cambridge University Press 
 
-  (2025, in press)
+  (2026, in press)
 
 > **In this book** we prove classification results for 
 stable [[nLab:equivariant principal bundle|equivariant $\Gamma$-principal bundles]] in the case when the underlying [[nLab:homotopy type]] $\esh \, \Gamma$ of the [[nLab:topological group|topological]] [[nLab:structure group]] $\Gamma$ is [[nLab:n-truncated|truncated]], meaning that its [[nLab:homotopy groups]] vanish in and above some degree $n$. We discuss how this coincides with the classification of equivariant [[nLab:2-gerbe|higher]] [[nLab:non-abelian gerbes]] and generally of equivariant *[[nLab:principal infinity-bundles|principal $\infty$-bundles]]* with [[nLab:structure group|structure]] [[nLab:n-group|$n$-group]] $\esh  \Gamma$; and we show how the [[nLab:equivariant homotopy groups]] of the respective classifying $G$-spaces are given by the [[nLab:non-abelian cohomology|non-abelian]] [[nLab:group cohomology]] of the equivariance group with coefficients in $\esh  \Gamma$.
@@ -315,11 +315,16 @@ In particular we prove that all the intricate [equivariant local triviality cond
 
 \linebreak
 
+
+<div style="float:right;margin:-10px 0px 0px 20px;">
+<a href="/schreiber/show/Geometric+Orbifold+Cohomology"><img src="/schreiber/files/GeometricOrbifoldCohomology-ProtoTitle.png" width="300"></a> 
+</div>
+
 * **[[schreiber:Geometric Orbifold Cohomology]]**
 
   (with [[Hisham Sati|H. Sati]])
 
-  World Scientific 
+  CRC Press 
 
   (2026, in press)
   
