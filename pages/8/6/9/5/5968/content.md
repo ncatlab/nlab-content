@@ -78,7 +78,7 @@ $$
     \delta \phi
    \right)        
   \end{aligned}
-  \,,
+  \,
 $$
 
 where in the second step the total derivative was introduced via the [[product rule]] of [[differentiation]] $f (\nabla g) = -(\nabla f) g + \nabla (f g)$.
