@@ -14,8 +14,6 @@
 =--
 
 
-
-# The Isbell Envelope of a Category
 * table of contents
 {: toc}
 
