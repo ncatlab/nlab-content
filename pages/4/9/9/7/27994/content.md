@@ -30,6 +30,6 @@ Research interests:
 All of my contributions to the [[HomePage|nLab]] are available under [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) unless otherwise noted.
 
 
-> [[Kourouklides/Sandbox|Personal sandbox]] - please ignore
+> [[Kourouklides/Sandbox|Personal notes]] - please ignore
 
 category: people
