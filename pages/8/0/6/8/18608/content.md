@@ -120,6 +120,8 @@ Further comments:
 
 * Lorenzo Sadun: *Yang-Mills existence and mass gap*, talk at *2001 University of Texas Lectures on the Millennium Problems* &lbrack;video:[YT](https://youtu.be/6sDJWSjEE8Y)&rbrack;
 
+* [[Michael R. Douglas]]: *The Yang–Mills Millennium problem*, Nature Reviews Physics **8** (2026) 86–97 &lbrack;[doi:10.1038/s42254-025-00909-2](https://doi.org/10.1038/s42254-025-00909-2)&rbrack;
+
 Notes reviewing more technical details of the problem:
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
