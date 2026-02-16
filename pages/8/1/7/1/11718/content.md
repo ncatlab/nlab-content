@@ -33,6 +33,10 @@ On [[irreducible representations]] of the [[BMS group]]:
 
 * [[Xavier Bekaert]], Laura Donnay, Yannick Herfray: *BMS particles* &lbrack;[arXiv:2412.06002](https://arxiv.org/abs/2412.06002)&rbrack;
 
+On the [[BMS group]]:
+
+* [[Xavier Bekaert]], Yannick Herfray, Lea Mele, Noémie Parrini: *A geometrical invitation to BMS group theory* &lbrack;[arXiv:2602.12965](https://arxiv.org/abs/2602.12965)&rbrack;
+
 
 
 ## Related entries
