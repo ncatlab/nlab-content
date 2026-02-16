@@ -25,11 +25,14 @@ Named after:
 * [[Rainer K. Sachs]]: *Asymptotic Symmetries in Gravitational Theory*, Phys. Rev. **128** (1962) 2851 &lbrack;[doi:10.1103/PhysRev.128.2851](https://doi.org/10.1103/PhysRev.128.2851)&rbrack;
 
 
-Lecture notes:
+Lecture notes and introductions:
 
 * Níckolas de Aguiar Alves: *Lectures on the Bondi--Metzner--Sachs group and related topics in infrared physics* &lbrack;[arXiv:2504.12521](https://arxiv.org/abs/2504.12521)&rbrack;
 
 * [[Simone Speziale]]: *A short introduction to boundary symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
+
+* [[Xavier Bekaert]], Yannick Herfray, Lea Mele, Noémie Parrini: *A geometrical invitation to BMS group theory* &lbrack;[arXiv:2602.12965](https://arxiv.org/abs/2602.12965)&rbrack;
+
 
 In relation to the [[Wheeler-DeWitt equation]]:
 
