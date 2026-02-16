@@ -442,7 +442,7 @@ An introductory discussion aimed towards [[stable derivator]]s is also in
 
 Other references include:
 
-* {#RadBan06} Andrei Radulescu Banu, Cofibrations in Homotopy Theory, [arXiv:math/0610009](https://arxiv.org/abs/math/0610009), 2006
+* {#RadBan06} Andrei R&#x0103;dulescu-Banu, Cofibrations in Homotopy Theory, [arXiv:math/0610009](https://arxiv.org/abs/math/0610009), 2006
 
 * {#Lenz} Tobias Lenz, Homotopy (Pre-)Derivators of Cofibration Categories and Quasi-Categories, Algebr. Geom. Topol. 18 No. 6 (2018), pp. 3601–3646. [arXiv:1712.07845](https://arxiv.org/abs/1712.07845)
 
