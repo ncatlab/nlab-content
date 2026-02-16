@@ -32,6 +32,15 @@ Lecture notes:
   
 
 
-See also
+See also:
 
 * [[Vaughan Jones]], _Index for subfactors_, Invent. Math. __72__, I (I983); _A polynomial invariant for links via yon Neumann algebras_, Bull. AMS __12__, 103 (1985); _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
+
+Via [[factorization homology]]:
+
+* [[Kevin Costello]], [[John Francis]], [[Owen Gwilliam]]: *Chern-Simons factorization algebras and knot polynomials* \[<a href="https://arxiv.org/abs/2602.12412">arXiv:2602.12412</a>\]
+
+
+
+
+
