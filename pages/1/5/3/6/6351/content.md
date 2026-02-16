@@ -1,5 +1,15 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Michael_R._Douglas)
+Michael R. Douglas
+
+* [instiute page](https://cgisvr.physics.rutgers.edu/cgi-bin/physdb/genpip.pl?Douglas)
+
+* [institute page](https://cmsa.fas.harvard.edu/ss_people/michael-douglas/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_R._Douglas)
+
+* [inSpire page](https://inspirehep.net/authors/1011468)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=p-8ZaooAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -27,9 +37,13 @@ On [[chiral fermions]] in [[intersecting D-brane models]]:
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes intersecting at angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
-On the [[mass gap]]-problem in [[Yang-Mills theory]]:
+On the [[Yang-Mills mass gap]]-problem:
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
+
+
+* [[Michael R. Douglas]]: *The Yang–Mills Millennium problem*, Nature Reviews Physics **8** (2026) 86–97 &lbrack;[doi:10.1038/s42254-025-00909-2](https://doi.org/10.1038/s42254-025-00909-2)&rbrack;
+
 
 
 On [[F-theory on K3]]:
