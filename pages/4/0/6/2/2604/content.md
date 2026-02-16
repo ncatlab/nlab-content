@@ -21,17 +21,27 @@ A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]
 
 
 * [[crossing number]]
+
 * [[bridge number]]
+
 * [[unknotting number]]
+
 * [[colorability]]
+
 * [[knot group]]= the [[fundamental group]] of the complement of the knot.
+
 * [[quandles]] and [[racks]]
-* [[knot genus]]
+
 * [[Jones polynomial]]
+
 * [[HOMFLY polynomial]]
+
 * [[Alexander polynomial]]
+
 * [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]]
+
 * [[Khovanov homology]]
+
 * [[Kauffman bracket]] (an invariant of [[framed links]] closely related to the [[Jones polynomial]])
 
 
