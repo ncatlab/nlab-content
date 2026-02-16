@@ -1,6 +1,6 @@
 > [[Kourouklides]]
 
-### Personal sandbox - please ignore
+### Personal notes - please ignore
 
 ===
 
