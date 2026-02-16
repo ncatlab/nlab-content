@@ -30,6 +30,10 @@ On [[generalized global symmetries]] via [[factorization algebras]] and [[classi
 
 * [[Owen Gwilliam]]: *Remarks on the locality of generalized global symmetries* &lbrack;[arXiv:2504.05626](https://arxiv.org/abs/2504.05626)&rbrack;
 
+On the [[Jones polynomial]] from [[quantization of Chern-Simons theory]] via [[factorization homology]]:
+
+* [[Kevin Costello]], [[John Francis]], [[Owen Gwilliam]]: *Chern-Simons factorization algebras and knot polynomials* \[<a href="https://arxiv.org/abs/2602.12412">arXiv:2602.12412</a>\]
+
 
 
 ## Related entries
