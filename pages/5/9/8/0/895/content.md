@@ -117,6 +117,8 @@ Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant
 * [[Markus Land]], [[Thomas Nikolaus]], [[Karol Szumiło]], Localization of cofibration categories and groupoid C∗-algebras. Algebr. Geom. Topol. 17 (2017), no. 5, 3007–3020.
 [doi](https://doi.org/10.2140/agt.2017.17.3007)
 
+* Andrei R&#x0103;dulescu-Banu, Cofibrations in Homotopy Theory,  ArXiv 0610009, [pdf](https://arxiv.org/pdf/math/0610009.pdf)
+
 [[!redirects cofibration categories]]
 
 [[!redirects category with cofibrations]]
