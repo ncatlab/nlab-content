@@ -524,7 +524,7 @@ The general idea of categorical semantics of dependent types goes back at least 
 
 * {#Taylor87} [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[[Taylor-IndexedCategoryTheory.pdf:file]]&rbrack;
 
-* {#Taylor99} [[Paul Taylor]], Section 8.3 in: _[[Practical Foundations of Mathematics]]_, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
+* {#Taylor99} [[Paul Taylor]], Section 8.3 in: Practical Foundations of Mathematics, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
 
 General overview:
 
