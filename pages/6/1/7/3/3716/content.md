@@ -92,6 +92,14 @@ Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:580
 * [[Anton Alekseev]], [[Ctirad Klimčík]], [[Arkady Tseytlin]], _Quantum Poisson-Lie T-duality and WZNW model_, Nucl. Phys. B458:430-444 (1996) [hep-th/9509123](http://arxiv.org/abs/hep-th/9509.3123)
 * David Li-Bland, [[Pavol Ševera]], _On deformation quantization of Poisson-Lie groups and moduli spaces of flat connections_, [arXiv/1307.2047](http://arxiv.org/abs/1307.2047)
 
+
+Generalization of [[Noether's theorem]] to Poisson-Lie group [[symmetries]], not necessarily acting by [[symplectomorphisms]], for which the [[conserved charges]] may be nonabelian:
+
+* [[Florian Girelli]], Christopher Pollack, Aldo Riello: *Beyond Noether: A Covariant Study of Poisson-Lie Symmetries in Low Dimensional Field Theory* &lbrack;[arXiv:2505.14942](https://arxiv.org/abs/2505.14942)&rbrack;
+
+
+
+
 [[!redirects Poisson-Lie group]]
 [[!redirects Lie Poisson group]]
 [[!redirects Lie-Poisson group]]
