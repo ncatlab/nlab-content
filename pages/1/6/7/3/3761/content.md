@@ -171,6 +171,9 @@ Relation to [[differential linear logic]] and [[analytic functors]]:
 
 * [[Marcelo Fiore]], [[Nicola Gambino]], [[Martin Hyland]], _Monoidal bicategories, differential linear logic, and analytic functors_ &lbrack;[arXiv:2405.05774](https://arxiv.org/abs/2405.05774)&rbrack;
 
+A treatment as [[Ek-algebras|Ek-monoids]] in the cartesian monoidal $(\infty, 1)$-category of [[bicategories]]:
+
+* [[Raffael Stenzel]], _The higher algebra and geometry of monoidal bicategories_ &lbrack;[arXiv:2602.14424](https://arxiv.org/abs/2602.14424)&rbrack;
 
 See also:
 
