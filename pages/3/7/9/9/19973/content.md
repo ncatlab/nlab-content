@@ -181,11 +181,16 @@ Beyond the [[standard model of particle physics|standard model]]:
 * [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
 
 
-See also
+See also:
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Flavour_(particle_physics)">Flavour (particle physcs)</a>
 
 * Fernando Abreu de Souza, Gero von Gersdorff, _A Random Clockwork of Flavor_ ([arxiv:1911.08476](https://arxiv.org/abs/1911.08476))
+
+* Mario Fernández Navarro: *Theories of flavour from the Planck scale to the electroweak scale* &lbrack;[arXiv:2406.18411](https://arxiv.org/abs/2406.18411)&rbrack;
+
+
+
 
 On [[flavour physics]] and [[flavour anomalies]] seen at the [[LHCb experiment]]:
 
