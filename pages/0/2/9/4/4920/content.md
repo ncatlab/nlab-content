@@ -47,6 +47,8 @@ See also at _[[doctrine]]_.
 
 * [[Noson Yanofsky]], _Coherence, Homotopy and 2-Theories_, K-Theory 23: Pgs 203 - 235. (2001) ([arXiv:math.CT/0007033](https://arxiv.org/abs/math/0007033))
 
+* Tomáš Perutka, _2-dimensional Lawvere theories: commutativity and lax phenomena_ &lbrack;[arXiv:2602.14332](https://arxiv.org/abs/2602.14332)&rbrack;
+
 [[!redirects 2-Lawvere theories]]
 
 [[!redirects Lawvere 2-theory]]
