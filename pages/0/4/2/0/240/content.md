@@ -135,6 +135,7 @@ In fact, given that $\mathcal{E}$ is a [[finitely complete category]], we could 
 
 * [[ETCS]]
 * [[concrete category]]
+* [[cocomplete well-pointed topos]]
 
 ## References
 
