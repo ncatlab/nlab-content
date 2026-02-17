@@ -123,7 +123,7 @@ $$
   \array{
     \rho &\overset{\phi}{\longrightarrow}& \rho'
     \\
-    {}^{\mathllap{eta_\rho}}\downarrow 
+    {}^{\mathllap{\eta_\rho}}\downarrow 
       && 
     \downarrow^{\mathrlap{\eta_{\rho'}}}
     \\
