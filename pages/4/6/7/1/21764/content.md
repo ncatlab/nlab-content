@@ -12,5 +12,8 @@ On [[(infinity,1)-sites|$(\infty,1)$-sites]]:
 
 * [[Raffael Stenzel]], *Notions of $(\infty,1)$-sites and related formal structures* &lbrack;[arXiv:2306.06619](https://arxiv.org/abs/2306.06619)&rbrack;
 
+On varieties of [[monoidal bicategory]] as [[Ek-algebras|Ek-monoids]] in the cartesian monoidal $(\infty, 1)$-category of [[bicategories]]:
+
+* [[Raffael Stenzel]], _The higher algebra and geometry of monoidal bicategories_ &lbrack;[arXiv:2602.14424](https://arxiv.org/abs/2602.14424)&rbrack;
 
 category: people
