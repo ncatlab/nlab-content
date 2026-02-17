@@ -377,6 +377,8 @@ $$
 
 ## Related concepts
 
+* [[representable functor theorem]]
+
 * ([[cocontinuous functor|co]])[[continuous functor]]
 
 * [[indexed adjoint functor theorem]]
