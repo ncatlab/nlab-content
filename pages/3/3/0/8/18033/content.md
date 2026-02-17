@@ -89,6 +89,11 @@ Relation to [[reflection positivity]]:
 
 * Leandro Lanosa, Mauricio Leston, Mario Passaglia, *Interplay between reflection positivity and crossing symmetry in the bootstrap approach to CFT* ([arXiv:2112.00232](https://arxiv.org/abs/2112.00232))
 
+See also:
+
+* Rajeev S. Erramilli, Matthew S. Mitchell: *Towards 3D CFT Cartography with the Stress Tensor Bootstrap* &lbrack;[arXiv:2602.13383](https://arxiv.org/abs/2602.13383)&rbrack;
+
+
 
 ### Superconformal bootstrap
  {#ReferencesSuperconformal}
