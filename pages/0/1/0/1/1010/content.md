@@ -222,7 +222,7 @@ The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small
 
 SGA uses universes and much of modern results in algebraic geometry use general results from SGA, including Wiles proof of Fermat's theorem. Colin McLarty discusses how to remove the need for universes in Wiles' proof in
 
-* [[Colin McLarty]], _What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory
+* [[Colin McLarty]], _What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory. ([euclid](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.full))
 
 category: foundational axiom
 
