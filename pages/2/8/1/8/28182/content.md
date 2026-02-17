@@ -88,11 +88,11 @@ This rule allows the construction of a function term of type $A \to B$ from a te
 
 #### Term elimination
 
-The [[term elimination]] rule can be defined as
+The application rule ([[term elimination]] rule) can be defined as
 
 $$
   \frac{\Gamma \vdash f : A \to B \qquad \Gamma \vdash a : A}
-  {\Gamma \vdash f\,a : B}.
+  {\Gamma \vdash f\, a : B}.
 $$
 
 This rule permits applying a function $f$ of type $A \to B$ to an argument $a$ of type $A$, yielding a term of type $B$.
