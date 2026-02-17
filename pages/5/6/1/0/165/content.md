@@ -60,7 +60,7 @@ Grothendieck writes in his 1984 [[Esquisse d'un programme]] (English translation
 
 Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{x\})$ is simply  the [[fundamental group]] $\pi_1(X,x)$. 
 
- Basically, $\Pi_1(X,A)$  allows for the _computation of homotopy 1-types_; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional  [[homotopy theory]], for example for [[covering space]]s,  and, in the later edition,  for [[orbit spaces]]. spring
+ Basically, $\Pi_1(X,A)$  allows for the _computation of homotopy 1-types_; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional  [[homotopy theory]], for example for [[covering space]]s,  and, in the later edition,  for [[orbit spaces]].
 
 ### Fundamental groupoid and monodromy principle
 
