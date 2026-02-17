@@ -272,6 +272,9 @@ On the chiral graviton mode in FCIs:
 
 * Min Long, Zeno Bacciconi, Hongyu Lu, Hernan B. Xavier, Zi Yang Meng, Marcello Dalmonte: *Chiral Graviton Modes in Fermionic Fractional Chern Insulators* &lbrack;[arXiv:2601.05196](https://arxiv.org/abs/2601.05196)&rbrack;
 
+* Yi-Hsien Du: *Controlled Theory of Skyrmion Chern Bands in Moiré Quantum Materials: Quantum Geometry and Collective Dynamics* &lbrack;[arXiv:2602.15016](https://arxiv.org/abs/2602.15016)&rbrack;
+
+
 
 
 
