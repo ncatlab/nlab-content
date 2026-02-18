@@ -5,7 +5,7 @@
 
 On non-abelian ([[parafermion|parafermionic]] [[Majorana zero mode]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
 
-* [[Netanel H. Lindner]], [[Erez Berg]], Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana fermions: non-abelian statistics on the edges of abelian quantum Hall states*, Phys. Rev. X **2** (2012) 041002 \[<a href="https://doi.org/10.1103/PhysRevX.2.041002">doi:10.1103/PhysRevX.2.041002</a>[arXiv:1204.5733](https://arxiv.org/abs/1204.5733)\]
+* [[Netanel H. Lindner]], [[Erez Berg]], Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana fermions: non-abelian statistics on the edges of abelian quantum Hall states*, Phys. Rev. X **2** (2012) 041002 \[<a href="https://doi.org/10.1103/PhysRevX.2.041002">doi:10.1103/PhysRevX.2.041002</a>, [arXiv:1204.5733](https://arxiv.org/abs/1204.5733)\]
 
 * [[David J. Clarke]], [[Jason Alicea]], [[Kirill Shtengel]]: *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) \[<a href="https://www.nature.com/articles/ncomms2340">ncomms:2340</a>, [arXiv:1204.5479](https://arxiv.org/abs/1204.5479)\]
 
