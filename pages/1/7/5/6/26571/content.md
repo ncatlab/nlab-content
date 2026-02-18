@@ -13,7 +13,7 @@ On [[asymptotic symmetries]] and the [[BMS group]]:
 
 * Antoine Rignon-Bret, [[Simone Speziale]]: *General covariance and boundary symmetry algebras* &lbrack;[arXiv:2403.00730](https://arxiv.org/abs/2403.00730)&rbrack;
 
-* [[Simone Speziale]]: *A short introduction to boundary symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
+* [[Simone Speziale]]: *GGI lectures on boundary and asymptotic symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
 
 On [[gravitational waves]]:
 
