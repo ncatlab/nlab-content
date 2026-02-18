@@ -675,6 +675,9 @@ Concerning the modern formulation of QCD via [[AdS/CFT duality]]:
 
 * Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons*, published as: *Holographic hadron masses in the language of quantum mechanics*,  European Journal of Physics **42** 6 (2021) 065801 &lbrack;[arXiv:2106.13136](https://arxiv.org/abs/2106.13136), [doi:10.1088/1361-6404/ac1abb](https://iopscience.iop.org/article/10.1088/1361-6404/ac1abb)&rbrack;
 
+* Lauren Greenspan: *Holography, Application, and String Theory's Changing Nature*, Studies in History and Philosophy of Science **94** (2022) 72-86 &lbrack;[arXiv:2205.05159](https://arxiv.org/abs/2205.05159), [doi:10.1016/j.shpsa.2022.05.004](https://doi.org/10.1016/j.shpsa.2022.05.004)&rbrack;
+
+
 With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to the description of [[neutron stars]]:
 
 * [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur. Phys. J. C. **56** (2021) &lbrack;[arXiv:2110.08281](https://arxiv.org/abs/2110.08281), [doi:10.1140/epjc/s10052-022-10227-x](https://doi.org/10.1140/epjc/s10052-022-10227-x)&rbrack;
@@ -1437,11 +1440,11 @@ See also
 
 * Akash Singh, K. P. Yogendran: *Condensate phases of nuclear matter from AdS Hardwall models* &lbrack;[arXiv:2502.05666](https://arxiv.org/abs/2502.05666)&rbrack;
 
-* Bruno Toniato, David Dudal, Subhash Mahapatra, Roldao da Rocha, Siddhi Swarupa Jena: *Holographic QCD model for heavy and exotic mesons at finite density: A self-consistent dynamical approach* &lbrack;[arXiv:2502.12694](https://arxiv.org/abs/2502.12694)&rbrack;
+* Bruno Toniato, David Dudal, Subhash Mahapatra, [[Roldão da Rocha]], Siddhi Swarupa Jena: *Holographic QCD model for heavy and exotic mesons at finite density: A self-consistent dynamical approach* &lbrack;[arXiv:2502.12694](https://arxiv.org/abs/2502.12694)&rbrack;
 
 * Jesús Cruz Rojas, Tuna Demircik, Christian Ecker, Matti Järvinen: *Towards holographic color superconductivity in QCD* &lbrack;[arXiv:2505.06338](https://arxiv.org/abs/2505.06338)&rbrack;
 
-* Octavio C. Junqueira, Roldao da Rocha: *Confinement/deconfinement at low temperatures and rotation in the exact soft wall model* &lbrack;[arXiv:2507.03835](https://arxiv.org/abs/2507.03835)&rbrack;
+* Octavio C. Junqueira, [[Roldão da Rocha]]: *Confinement/deconfinement at low temperatures and rotation in the exact soft wall model* &lbrack;[arXiv:2507.03835](https://arxiv.org/abs/2507.03835)&rbrack;
 
 
 
