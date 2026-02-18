@@ -58,7 +58,9 @@ Projects:
 
 3. [[schreiber:Quantum Language via Linear Homotopy Types|Quantum language via linear homotopy types]].
 
+
 \linebreak
+
 
 ## Selected talks
  {#SelectedTalks}
@@ -73,6 +75,15 @@ Projects:
 
 * (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
 
+<div style="float:right;margin:-50px 0px 00px 20px;">
+<a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO-CoverSlideSlim-260218.png" width="370"></a> 
+</div>
+
+* (upcoming) **[[schreiber:WIKO 2026|The &#36;1 Million Puzzle: Hadrons and Quantum Computers]]** *Why Modern Physics Needs a New Global Mathematics*, 
+
+  public evening lecture
+
+  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/), Greifswald May 2026
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
@@ -316,8 +327,8 @@ In particular we prove that all the intricate [equivariant local triviality cond
 \linebreak
 
 
-<div style="float:right;margin:-10px 0px 0px 20px;">
-<a href="/schreiber/show/Geometric+Orbifold+Cohomology"><img src="/schreiber/files/GeometricOrbifoldCohomology-ProtoTitle.png" width="300"></a> 
+<div style="float:right;margin:-70px 0px 0px 20px;">
+<a href="/schreiber/show/Geometric+Orbifold+Cohomology"><img src="/schreiber/files/GeometricOrbifoldCohomology-ProtoTitle.png" width="400"></a> 
 </div>
 
 * **[[schreiber:Geometric Orbifold Cohomology]]**
