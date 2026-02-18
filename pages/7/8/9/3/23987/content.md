@@ -4568,6 +4568,14 @@ Nov 2025
 
 \linebreak
 
+* 18 Feb 2026 
+
+  [[Markus Dierigl]] (CERN):
+
+  **Bordisms, Anomalies, and Global Symmetries**
+
+\linebreak
+
 
 
 * {#AntzFeb2025} 25 Feb 2026 (upcoming)
