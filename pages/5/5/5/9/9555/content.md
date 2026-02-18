@@ -28,6 +28,12 @@ On the [[quantum dimer model]]:
 
 * [[Subir Sachdev]], *[Quantum dimer model](http://qpt.physics.harvard.edu/qdimer.html)*
 
+More on [[holographic CMT]]:
+
+* Xiaoyang Huang, [[Subir Sachdev]], [[Andrew Lucas]]:
+*Disordered quantum critical fixed points from holography*, Phys. Rev. Lett. **131** (2023) 141601 &lbrack;[arXiv:2306.03130](https://arxiv.org/abs/2306.03130), [doi:10.1103/PhysRevLett.131.141601](https://doi.org/10.1103/PhysRevLett.131.141601)&rbrack;
+
+
 On [[phase transitions]] of [[metals]] including [[strange metals]]:
 
 * [[Subir Sachdev]]: *Lectures on the quantum phase transitions of metals* &lbrack;[arXiv:2407.15919](https://arxiv.org/abs/2407.15919)&rbrack;
@@ -35,6 +41,7 @@ On [[phase transitions]] of [[metals]] including [[strange metals]]:
 On [[quantum spin liquids]]:
 
 * [[Subir Sachdev]]: *Lectures on insulating and conducting quantum spin liquids* &lbrack;[arXiv:2512.23962](https://arxiv.org/abs/2512.23962)&rbrack;
+
 
 
 
