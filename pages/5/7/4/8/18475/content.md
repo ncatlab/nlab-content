@@ -115,7 +115,6 @@ and further discussion along these lines (for more referenceson holographic supe
 * [[Matteo Baggioli]], Section 4.3 of: *Applied Holography -- A Practical Mini-Course*, Springer Briefs in Physics, Springer (2019) &lbrack;[doi:10.1007/978-3-030-35184-7](https://doi.org/10.1007/978-3-030-35184-7)&rbrack;
 
 
-* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory*,  J. High Energ. Phys. **2022** 133 (2022) &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442), <a href="https://doi.org/10.1007/JHEP08(2022)133">doi:10.1007/JHEP08(2022)133</a>&rbrack;
 
 
 
@@ -159,7 +158,10 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 * Mike Blake, Yingfei Gu, [[Sean A. Hartnoll]], Hong Liu, [[Andrew Lucas]], Krishna Rajagopal, [[Brian Swingle]], [[Beni Yoshida]], *Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes* &lbrack;[arXiv:2203.04718](https://arxiv.org/abs/2203.04718)&rbrack;
 
 
-* [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
+* [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* &lbrack;[arXiv:2205.02285](https://arxiv.org/abs/2205.02285)&rbrack;
+
+* Lauren Greenspan: *Holography, Application, and String Theory's Changing Nature*, Studies in History and Philosophy of Science **94** (2022) 72-86 &lbrack;[arXiv:2205.05159](https://arxiv.org/abs/2205.05159), [doi:10.1016/j.shpsa.2022.05.004](https://doi.org/10.1016/j.shpsa.2022.05.004)&rbrack;
+
 
 * [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]*  &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
 
@@ -225,6 +227,9 @@ More on application to ([[strange metal|strange]]) [[metals]]:
 * Enrico Cinti, [[Sebastian De Haro]], Mark Golden, Umut Gürsoy, Henk T. C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
 
 * Lucas Acito, Nicolas Grandi: *Holographic metals at finite volume* &lbrack;[arXiv:2602.10460](https://arxiv.org/abs/2602.10460)&rbrack;
+
+* Xiaoyang Huang, [[Subir Sachdev]], [[Andrew Lucas]]:
+*Disordered quantum critical fixed points from holography*, Phys. Rev. Lett. **131** (2023) 141601 &lbrack;[arXiv:2306.03130](https://arxiv.org/abs/2306.03130), [doi:10.1103/PhysRevLett.131.141601](https://doi.org/10.1103/PhysRevLett.131.141601)&rbrack;
 
 
 
@@ -317,17 +322,35 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]], *Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
 
+* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory*,  J. High Energ. Phys. **2022** 133 (2022) &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442), <a href="https://doi.org/10.1007/JHEP08(2022)133">doi:10.1007/JHEP08(2022)133</a>&rbrack;
+
 * Dong Wang, Xiongying Qiao, Qiyuan Pan, Chuyu Lai, Jiliang Jing, *Holographic entanglement entropy and complexity for the excited states of holographic superconductors* &lbrack;[arXiv:2301.00513](https://arxiv.org/abs/2301.00513)&rbrack;
   > (relation to [[holographic entanglement entropy]])
 
-* Chi-Hsien Tai, Wen-Yu Wen, *A study of layered holographic superconductor* &lbrack;[arXiv:2405.07535](https://arxiv.org/abs/2405.07535)&rbrack;
+* [[Roldão da Rocha]]: *Generalized extremal branes in AdS/CMT and holographic superconductors*, Annals Phys. **465** (2024) 169663 &lbrack;[arXiv:2310.07860](https://arxiv.org/abs/2310.07860), [doi:10.1016/j.aop.2024.169663](https://doi.org/10.1016/j.aop.2024.169663)&rbrack;
+
+* Manuel de la Cruz-López, Jhony A. Herrera-Mendoza, Roberto Cartas-Fuentevilla, Alfredo Herrera-Aguilar: *Exploring the UV and IR of a type-II holographic superconductor using a dyonic black hole*, Eur. Phys. J. Plus **139** 786 (2024) &lbrack;[arXiv:2402.12476](https://arxiv.org/abs/2402.12476), [doi:10.1140/epjp/s13360-024-05585-2](https://doi.org/10.1140/epjp/s13360-024-05585-2)&rbrack;
+
+* Chi-Hsien Tai, Wen-Yu Wen, *A study of layered holographic superconductor*, Chinese Journal of Physics **90** (2024) 643-650 &lbrack;[arXiv:2405.07535](https://arxiv.org/abs/2405.07535), [doi:10.1016/j.cjph.2024.06.003](https://doi.org/10.1016/j.cjph.2024.06.003)&rbrack;
 
 * Jhony A. Herrera-Mendoza, Alfredo Herrera-Aguilar, Daniel F. Higuita-Borja, Julio A. Méndez-Zavaleta, Felipe Pérez-Rodríguez, Jia-Xin Yin, *Effects of rotation and anisotropy on the properties of type-II holographic superconductors* &lbrack;[arXiv:2406.05351](https://arxiv.org/abs/2406.05351)&rbrack;
 
+* Zhi-Hong li, Huai-Fan Li: *Holographic Superfluid Ring with a Weak Link*, Sci. China Phys. Mech. Astron. **67** 110412 (2024) &lbrack;[arXiv:2406.07988](https://arxiv.org/abs/2406.07988), [doi:10.1007/s11433-024-2434-1](https://doi.org/10.1007/s11433-024-2434-1)&rbrack;
+
+
 * Makoto Natsuume: *What is the dual Ginzburg-Landau theory for holographic superconductors?* &lbrack;[arXiv:2407.13956](https://arxiv.org/abs/2407.13956)&rbrack;
+
+* Xing-Kun Zhang, Xin Zhao, Zhang-Yu Nie, Ya-Peng Hu, Yu-Sen An: *Diving into a holographic multi-band superconductor*, Phys. Lett. B **868** (2025) 139684 &lbrack;[arXiv:2411.07693](https://arxiv.org/abs/2411.07693), [doi:10.1016/j.physletb.2025.139684](https://doi.org/10.1016/j.physletb.2025.139684)&rbrack;
 
 * Souvik Paul, Sunandan Gangopadhyay: *Noncommutative $p$-wave holographic superconductors* &lbrack;[arXiv:2502.08275](https://arxiv.org/abs/2502.08275)&rbrack;
 
+* Xing-Kun Zhang, Xin Zhao, Zhang-Yu Nie, Ya-Peng Hu, Yu-Sen An: *Interior structure of the holographic $s + p$ superconductor and chaotic-stable transition near the black hole singularity*, Phys. Lett. B **872** (2026) 140110 &lbrack;[arXiv:2506.19419](https://arxiv.org/abs/2506.19419), [doi:10.1016/j.physletb.2025.140110](https://doi.org/10.1016/j.physletb.2025.140110)&rbrack;
+
+* Chi-Hsien Tai, Wen-Yu Wen: *Time-Crystalline Phase in a Single-Band Holographic Superconductor* &lbrack;[arXiv:2512.13252](https://arxiv.org/abs/2512.13252)&rbrack;
+
+* Weiping Yao, Yifu Cai, Zehua Tian: *Holographic superconductor with dark matter probed by entanglement entropy in higher dimensional AdS spacetime* &lbrack;[arXiv:2505.20677](https://arxiv.org/abs/2505.20677)&rbrack;
+
+* Zhe Yang, Fang-Jing Cheng, Guoyang Fu, Yi Ling, Peng Liu, Jian-Pin Wu: *Quantum criticality and mixed-state entanglement in holographic superconductor--insulator transitions* &lbrack;[arXiv:2602.14446](https://www.arxiv.org/abs/2602.14446)&rbrack;
 
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
