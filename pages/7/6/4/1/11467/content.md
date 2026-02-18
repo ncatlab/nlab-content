@@ -70,8 +70,10 @@ Textbook review includes (16.49) in
 
 See also:
 
-
 * Nicholas Geiser, Lukas W. Lindwasser, *Generalized Veneziano and Virasoro amplitudes* &lbrack;[arXiv:2210.14920](https://arxiv.org/abs/2210.14920)&rbrack;
+
+* Gareth Mansfield: *Positivity of the Veneziano Amplitude in Ten Dimensions* &lbrack;[arXiv:2502.20372](https://arxiv.org/abs/2502.20372)&rbrack;
+
 
 
 
