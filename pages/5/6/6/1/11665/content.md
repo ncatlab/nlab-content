@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-This is the direct generalization of $U(1)$-[[D=3 Chern-Simons theory]] of the abelian [[D=7 Chern-Simons theory]], and all three are related by [[holography]] to the [[self-dual higher gauge field]] in dimension 2,6, and 10, respectively.
+This is the direct generalization of $U(1)$-[[D=3 Chern-Simons theory]], of the abelian [[D=7 Chern-Simons theory]], and all three are related by [[holography]] to the [[self-dual higher gauge field]] in dimension 2,6, and 10, respectively.
 
 However, for applications in [[string theory]] more refined versions of these theories matter. For instance in 7d  the full [[6d (2,0)-superconformal QFT]] contains not just a single abelian [[higher self-dual gauge field]] and accordingly the corresponding [[D=7 Chern-Simons theory]] is richer, namely is, by [AdS7/CFT6](#AdS-CFT#AdS7CFT6), the [[KK-compactification]] of [[11-dimensional supergravity]] on $S^4$. Similarly, in 10-dimensions the [[RR-field]] of [[type II superstring theory]] is a [[higher self-dual gauge field]] whose quantization law is of the form that makes it qualify ([Moore-Witten 99](#MooreWitten99)) as the holographic boundary theory of an D=11 Chern-Simons theory. However, as a configuration of the [[RR-field]] is a [[cocycle]] in [[twisted differential K-theory]], so there should be an D=11 Chern-Simons theory given ([Belov-Moore 06](#BelovMoore06)) by the [[fiber integration in differential cohomology]] of the [[cup product in differential cohomology]] in K-theory.
 
