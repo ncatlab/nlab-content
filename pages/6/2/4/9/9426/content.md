@@ -43,7 +43,12 @@ It is open whether there exists a more direct proof, in particular a proof using
 
 * [[eom]]: [Fermat's last theorem](http://www.encyclopediaofmath.org/index.php?title=p/f110070)
 
-* {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bull. Symbolic Logic __16__ (2010), no. 3, 359&#8211;377 [jstor](http://www.jstor.org/stable/20749620)
+
+On the need, or not, for [[Grothendieck universes]] in [[Andrew Wiles|Wiles]]' proof of Fermat's last theorem:
+
+* {#McLarty10} [[Colin McLarty]]: *What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory*, Bulletin of Symbolic Logic **16** 3 (2010) 359--377  &lbrack;[doi:10.2178/bsl/1286284558](https://doi.org/10.2178/bsl/1286284558), [jstor:20749620](http://www.jstor.org/stable/20749620), [euclid](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.full)&rbrack;
+
+
 
 ### Applications
 
