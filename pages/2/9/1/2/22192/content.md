@@ -1,6 +1,11 @@
 
+* [institute page](https://th-dep.web.cern.ch/roster/dierigl-markus)
 
-* [Institute page](https://live-sas-physics.pantheon.sas.upenn.edu/people/markus-dierigl)
+* [institute page](https://www.theorie.physik.uni-muenchen.de/MATH/members/asc/sci_mem/dierigl_markus/index.html) (old)
+
+* [inSpire page](https://inspirehep.net/authors/1298934)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=bOhCDeQAAAAJ&hl=en)
 
 ## Selected writings
 
