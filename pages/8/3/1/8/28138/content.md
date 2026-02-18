@@ -15,5 +15,8 @@ On [[area-preserving diffeomorphisms]] as ([[gauge symmetry|gauge]]) [[symmetrie
 
 * {#Du2025} [[Yi-Hsien Du]]: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
 
+* [[Yi-Hsien Du]]: *Controlled Theory of Skyrmion Chern Bands in Moiré Quantum Materials: Quantum Geometry and Collective Dynamics* &lbrack;[arXiv:2602.15016](https://arxiv.org/abs/2602.15016)&rbrack;
+
+
 category: people
 
