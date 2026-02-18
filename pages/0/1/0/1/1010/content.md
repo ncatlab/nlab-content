@@ -220,9 +220,11 @@ The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small
 * {#Williams} N. H. Williams, _On Grothendieck universes_, Compositio Mathematica, tome 21 no 1 (1969) ([numdam]( http://www.numdam.org/item?id=CM_1969__21_1_1_0))
  
 
-SGA uses universes and much of modern results in algebraic geometry use general results from SGA, including Wiles proof of Fermat's theorem. Colin McLarty discusses how to remove the need for universes in Wiles' proof in
+[[SGA]] uses universes and much of modern results in [[algebraic geometry]] use general results from SGA, including [[Andrew Wiles|Wiles]]' proof of [[Fermat's last theorem]]. 
 
-* [[Colin McLarty]], _What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory. ([euclid](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.full))
+On how to remove the need for universes in Wiles' proof:
+
+* [[Colin McLarty]]: *What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory*, Bulletin of Symbolic Logic **16** 3 (2010) 359--377  &lbrack;[doi:10.2178/bsl/1286284558](https://doi.org/10.2178/bsl/1286284558), [jstor:20749620](http://www.jstor.org/stable/20749620), [euclid](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.full)&rbrack;
 
 category: foundational axiom
 
