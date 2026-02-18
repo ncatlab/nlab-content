@@ -27,24 +27,23 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (accepted for publication in [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062))
+* _Rigid models for 2-gerbes I: Chern-Simons geometry_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) (2026), doi:[10.1007/s40062-025-00381-w](https://doi.org/10.1007/s40062-025-00381-w), [arXiv:2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+
+* _Homotopy types of topological stacks of categories_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 30 (2024), 940-955, [journal version](https://nyjm.albany.edu/j/2024/30-41.html), [arXiv:2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). 
 
 
-* _Homotopy types of topological stacks of categories_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 30 (2024), 940-955, [journal version](https://nyjm.albany.edu/j/2024/30-41.html), arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). 
+* _Substructural fixed-point theorems and the diagonal argument: theme and variations_, [Compositionality](https://compositionality.episciences.org) **5**, 8 (2023), doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8), [arXiv:2110.00239](https://arxiv.org/abs/2110.00239). 
 
-
-* _Substructural fixed-point theorems and the diagonal argument: theme and variations_, [Compositionality](https://compositionality.episciences.org) **5**, 8 (2023), doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8), arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). 
-
-* _Many finite-dimensional lifting bundle gerbes are torsion_, Bulletin of the Australian Mathematical Society **105** Issue 2 (2022) 323–338, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936).
+* _Many finite-dimensional lifting bundle gerbes are torsion_, Bulletin of the Australian Mathematical Society **105** Issue 2 (2022) 323–338, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X), [arXiv:2104.07936](https://arxiv.org/abs/2104.07936).
 
 * _Extending Whitney's extension theorem: nonlinear function spaces_, Annales de l’Institut Fourier **71** no. 3 (2021) 1241–1286, doi:[10.5802/aif.3424](https://doi.org/10.5802/aif.3424), [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
 
-* _The elementary construction of formal anafunctors_, Categories and General Algebraic Structures with Applications vol **15** issue 1 (2021) 183–229, doi:[10.52547/cgasa.15.1.183](https://doi.org/10.52547/cgasa.15.1.183), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552). (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title). 
+* _The elementary construction of formal anafunctors_, Categories and General Algebraic Structures with Applications vol **15** issue 1 (2021) 183–229, doi:[10.52547/cgasa.15.1.183](https://doi.org/10.52547/cgasa.15.1.183), [arXiv:1808.04552](https://arxiv.org/abs/1808.04552). (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title). 
 
 * _(Re)constructing code loops_, American Mathematical Monthly **128** Issue 2 (2021) 151–161, doi:[10.1080/00029890.2021.1852047](https://doi.org/10.1080/00029890.2021.1852047), [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
 
-* _Topological sectors for heterotic M5-brane charges under Hypothesis H_  J. High Energ. Phys. **2020** no. 52 (2020) doi:[10.1007/JHEP06(2020)052](https://doi.org/10.1007/JHEP06%282020%29052) (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832).
+* _Topological sectors for heterotic M5-brane charges under Hypothesis H_  J. High Energ. Phys. **2020** no. 52 (2020) doi:[10.1007/JHEP06(2020)052](https://doi.org/10.1007/JHEP06%282020%29052) (2020), [arXiv:2003.09832](https://arxiv.org/abs/2003.09832).
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
@@ -85,7 +84,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 ### Notes/Other
 
 
-* _Explicit String bundles_ (2014/2022) arXiv:[2203.04544](https://arxiv.org/abs/2203.04544). (Notes from a talk delivered at Herriot-Watt University on 26 June 2014 at the Workshop on Higher Gauge Theory and Higher Quantization) 
+* _Explicit String bundles_ (2014/2022) [arXiv:2203.04544](https://arxiv.org/abs/2203.04544). (Notes from a talk delivered at Herriot-Watt University on 26 June 2014 at the Workshop on Higher Gauge Theory and Higher Quantization) 
 
 * _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019), doi:[10.37282/991819.19.2](https://doi.org/10.37282/991819.19.2). This article was subsequently reprinted for the special collection "A Christmas [Chrestomathy](https://en.wiktionary.org/wiki/chrestomathy), 2014–2020", in vol **5** Issue 4.
 
