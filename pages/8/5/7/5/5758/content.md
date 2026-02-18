@@ -100,7 +100,7 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 
 See also
 
-* {#BarthelMayRiehl14} [[Tobias Barthel]], [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](http://www.math.harvard.edu/~eriehl/six.pdf))
+* {#BarthelMayRiehl14} [[Tobias Barthel]], [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](https://emilyriehl.github.io/files/six.pdf))
 
 Discussion as a model for [[rational parameterized stable homotopy theory]] is due to
 
