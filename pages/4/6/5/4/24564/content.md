@@ -121,11 +121,13 @@ Discussion in the context of [[topological quantum computation]]:
 General review and experimental status:
 
 * [[Sergey M. Frolov]], *How do we discover MAJORANA PARTICLES in NANOWIRES?*, talk via [ Instituto de Física, Universidade de São Paulo](http://portal.if.usp.br/ifusp/) (May 2021) &lbrack;[video](https://www.youtube.com/watch?v=7btnPqmSh_0)&rbrack;
-
   > [41:25](https://youtu.be/7btnPqmSh_0?t=2485): No, we have not discovered Majorana particles in nanowires. Yes, we should be able to do it.
 
 
 * {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana*, Nature Physics **19** (2023) 165-170 &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365), [doi:10.1038/s41567-022-01900-9](https://doi.org/10.1038/s41567-022-01900-9)&rbrack;
+
+* Leo Kouwenhoven: *Perspective on Majorana bound-states in hybrid superconductor-semiconductor nanowires*, Modern Physics Letters B **39** 03 (2025) 2540002 &lbrack;[doi:10.1142/S0217984925400020](https://doi.org/10.1142/S0217984925400020)&rbrack;
+
 
 
 
