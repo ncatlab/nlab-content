@@ -207,6 +207,12 @@ As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall system
 
 * {#Du2025} [[Yi-Hsien Du]]: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
 
+Analog for 3d VPDs:
+
+* Giandomenico Palumbo:
+*Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects* &lbrack;[arXiv:2602.15664](https://arxiv.org/abs/2602.15664)&rbrack;
+
+
 
 
 [[!redirects volume preserving diffeomorphisms]]
