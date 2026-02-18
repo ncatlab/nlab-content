@@ -20,7 +20,7 @@
 
 Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In the context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[∞-Lie groupoid]]s these generalize to [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. Accordingly **[[∞-Chern-Weil theory]]** deals with these higher connections and their relation to [[ordinary differential cohomology]].
 
-Here we describe some introdutcory basics of the general theory in concrete terms.
+Here we describe some introductory basics of the general theory in concrete terms.
 
 See <a href="http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory#Motivation">∞-Chern-Weil theory -- motivation</a> for some motivation.
 
