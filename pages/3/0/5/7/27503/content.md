@@ -97,7 +97,7 @@ See also:
 * Sharad Mishra, Kinjal Banerjee, Jishnu Bhattacharyya: *Asymptotic Symmetries at Spatial Infinity* &lbrack;[arXiv:2504.19910](https://arxiv.org/abs/2504.19910), [doi:10.1088/1361-6382/ae1096](https://doi.org/10.1088/1361-6382/ae1096)
 &rbrack;
 
-* [[Simone Speziale]]: *A short introduction to boundary symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
+* [[Simone Speziale]]: *GGI lectures on boundary and asymptotic symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
 
 
 
