@@ -178,7 +178,7 @@ has both a left and a right adjoint (which are equivalent in the bicategorical c
 Roughly speaking, the left adjoint strictifies a Grothendieck fibration
 by adding formal pullbacks of objects, which themselves pullback strictly,
 whereas the right adjoint strictifies a Grothendieck fibration
-by equipping object with a functorial choice of a pullback for each possible morphism.
+by equipping objects with a functorial choice of a pullback for each possible morphism.
 See [[Grothendieck construction]] for more details.
 
 These two adjunctions can be turned into [[Quillen equivalences]] of [[model categories]].
