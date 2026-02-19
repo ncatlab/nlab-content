@@ -650,6 +650,12 @@ Discussion relating to [[axions]]:
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
+In [[D=6 supergravity]]/[[F-theory]]:
+
+* {#DOS2023} [[Markus Dierigl]], Paul-Konstantin Oehlmann, Thorsten Schimannek: *The discrete Green-Schwarz mechanism in 6D F-Theory and Elliptic Genera of Non-Critical Strings*,  J. High Energ. Phys. **2023** 90 (2023) &lbrack;[arXiv:2212.04503](https://arxiv.org/abs/2212.04503), <a href="https://doi.org/10.1007/JHEP03(2023)090">doi:10.1007/JHEP03(2023)090</a>&rbrack;
+
+* {#DieriglTartaglia2025} [[Markus Dierigl]], Michelangelo Tartaglia: *(Quadratically) Refined Discrete Anomaly Cancellation* &lbrack;[arXiv:2504.02934](https://arxiv.org/abs/2504.02934)&rbrack;
+
 
 
 [[!include higher gauge theory of the Green-Schwarz mechanism -- references]]
