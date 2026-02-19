@@ -38,13 +38,15 @@ A useful survey of some of the topics discussed there is also in:
 which is an exposition of Taylor's *[[Abstract Stone Duality]]*.
 
 
+**Historical discussion (2012) about publishing access involved a discussion of copyright infringement and fair use predelineated as free speech; illegal links now removed.**
+
+
 ## Related entries
 
 * [[Robert Harper]]: _[[Practical Foundations for Programming Languages]]_, Cambridge University Press (2016) &lbrack;[webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB)&rbrack;
 
 
 * [[William Lawvere]], [[Robert Rosebrugh]]: _[[Sets for Mathematics]]_,  Cambridge University Press (2003) &lbrack;[book homepage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf)&rbrack;
-
 
 
 category: reference
