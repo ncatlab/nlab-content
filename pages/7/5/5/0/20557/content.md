@@ -1,6 +1,17 @@
 
+* [personal page](https://people.maths.ox.ac.uk/beem/)
 
-*[webpage](https://www.maths.ox.ac.uk/people/christopher.beem)
+* [institute page](https://www.maths.ox.ac.uk/people/christopher.beem)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=163770)
+
+* [inSpire page](https://inspirehep.net/authors/1044665)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=0n9JMc0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Christopher-Beem-2)
+
+
 
 ## Selected writings
 
@@ -20,6 +31,10 @@ On [[conformal bootstrap]] for [[SCFT]]:
 Discussion of [[topological quantum field theory]] with an eye towards [[supersymmetry|supersymmetric]] field theory, in terms of the [[ordinary homology]] of [[configuration spaces of points]] (see also at _[[correlators as differential forms on configuration spaces of points]]_):
 
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
+
+On [[W-algebra]] in [[SCFT]]: 
+
+* Harshal Kulkarni, [[Christopher Beem]]: *Towards a classification of graded unitary $\mathcal{W}_3$ algebras* &lbrack;[arXiv:2602.15944](https://arxiv.org/abs/2602.15944)&rbrack;
 
 
 category: people
