@@ -104,6 +104,10 @@ Textbook accounts:
 
 * {#Stong68} [[Robert Stong]]: _Notes on Cobordism theory_, (1968) $[$[toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html)\]
 
+See also:
+
+* Naoki Kuroda: *A refinement of the Pontryagin-Thom theorem for unstable Thom spectra and its applications* \[<a href="https://arxiv.org/abs/2602.16270">arXiv:2602.16270</a>\]
+
 
 
 
