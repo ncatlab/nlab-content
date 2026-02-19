@@ -4553,7 +4553,7 @@ Neumann algebras**
 
   **Generalizations of minimal models in rational homotopy and applications**
 
-  slides [[Golub-CQTS-Feb2026.pdf:file]]
+  slides: [[Golub-CQTS-Feb2026.pdf:file]]
 
   >  In this seminar, we explore the generalization of [[rational homotopy theory]] to [[presheaves]] of [[topological space|spaces]]. We extend the classical [[Sullivan model|Sullivan theory of minimal models]] to a broad class of finite [[diagrams]] of spaces, including those that appear in [[equivariant homotopy theory|equivariant]], [[stratified space|stratified]] [[homotopy theories]].
 
@@ -4573,6 +4573,12 @@ Neumann algebras**
   [[Markus Dierigl]] (CERN):
 
   **Bordisms, Anomalies, and Global Symmetries**
+
+  slides: [[Dierigl-CQTS-Feb2026.pdf:file]]
+
+  cf.: [arXiv:2302.00007](swampland#DDHM2023), [arXiv:2212.04503](Green-Schwarz+mechanism#DOS2023), [arXiv:2504.02934](Green-Schwarz+mechanism#DieriglTartaglia2025)
+
+  > In this talk I will explain the importance of [[deformation classes]] of [[spacetime]] [[manifolds]], classified by [[bordism groups]], in [[quantum gravity]]. First, they capture the [[symmetry breaking|breaking]] of [[symmetries]] at the [[quantum physics|quantum]] level, i.e., [[quantum anomaly|anomalies]], and can render the underlying theory inconsistent in case the symmetry is [[gauge symmetry|gauged]]. Second, they themselves describe [[conserved charges]] and therefore correspond to ([[generalized global symmetry|generalized]]) [[global symmetries]] which are [believed to be absent](quantum+gravity#ReferencesLocalGaugingOfGlobalSymmetries) in [[quantum gravity]]. Finally, I will put these principles to the test in the context of various [[supergravity]] theories.
 
 \linebreak
 
