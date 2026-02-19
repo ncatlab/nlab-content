@@ -118,7 +118,9 @@ On [[conformal blocks]] in $\mathcal{W}_3$-Algebra CFT:
 
 * V. Belavin, Mikhail Pavlov: *Towards $\mathcal{W}_3$ classical blocks with semi-degenerate operators* &lbrack;[arXiv:2512.23868](https://arxiv.org/abs/2512.23868)&rbrack;
 
+See also:
 
+* Harshal Kulkarni, [[Christopher Beem]]: *Towards a classification of graded unitary $\mathcal{W}_3$ algebras* &lbrack;[arXiv:2602.15944](https://arxiv.org/abs/2602.15944)&rbrack;
 
 
 ### In Fractional Quantum Hall systems
