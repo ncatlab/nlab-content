@@ -300,3 +300,7 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
 
 [[!redirects deformation]]
 [[!redirects deformations]]
+
+[[!redirects deformation class]]
+[[!redirects deformation classes]]
+
