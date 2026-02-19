@@ -210,6 +210,8 @@ The [[automorphism group]] of the Heisenberg group is the [[symplectic group]].
 
 * [[Heisenberg Lie algebra]]
 
+* [[Heisenberg manifold]]
+
 * [[quantomorphism group]]
 
 * [[integer Heisenberg group]]
