@@ -32,6 +32,9 @@ On the [[swampland cobordism conjecture]]:
 
 * [[Markus Dierigl]], [[Jonathan Heckman]]: _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D (2021) 066006 \[<a href="https://arxiv.org/abs/2012.00013">arXiv:2012.00013</a>, <a href="https://doi.org/10.1103/PhysRevD.103.066006">doi:10.1103/PhysRevD.103.066006</a>\]
 
+* Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
+
+
 On [[spin chain]]-aspected claimed to appear in [[D=6 N=(2,0) SCFT]] in the [[BMN limit]] of the [[AdS-CFT duality|dual]] [[anti de Sitter spacetime|$AdS_7 \times S^4/\Gamma_{ADE}$]]:
 
 * Florent Baume, [[Jonathan J. Heckman]], Craig Lawrie, *6D SCFTs, 4D SCFTs, Conformal Matter, and Spin Chains*, Nuclear Physics B **967** (2021) 115401 &lbrack;[doi:10.1016/j.nuclphysb.2021.115401](https://doi.org/10.1016/j.nuclphysb.2021.115401), [arXiv:2007.07262](https://arxiv.org/abs/2007.07262)&rbrack;
