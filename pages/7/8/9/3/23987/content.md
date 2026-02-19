@@ -4486,7 +4486,8 @@ Neumann algebras**
 
 \linebreak
 
-Nov 2025
+
+### Nov 2025
 
 * {#KubotaNov2025} 5 Nov 2025
 
@@ -4502,7 +4503,6 @@ Nov 2025
 
 \linebreak
 
-### Nov 2025
 
 * {#BolsNov2025} 12 Nov 2025
 
@@ -4568,7 +4568,7 @@ Nov 2025
 
 \linebreak
 
-* 18 Feb 2026 
+* {#DieriglFeb2026} 18 Feb 2026 
 
   [[Markus Dierigl]] (CERN):
 
