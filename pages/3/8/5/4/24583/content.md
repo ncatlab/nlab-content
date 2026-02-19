@@ -37,6 +37,8 @@ On [[simplicial type theory]]:
 
 * [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+* [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
+
 On the category of [[Peter Aczel]]'s iterative sets in [[homotopy type theory]]:
 
 * [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 945-970  &lbrack;[doi:10.1017/S0960129524000288](https://doi.org/10.1017/S0960129524000288), [arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
