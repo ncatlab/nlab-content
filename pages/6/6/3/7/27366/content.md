@@ -1228,6 +1228,8 @@ The analogous statement of surfaces with one [[boundary of a manifold|boundary]]
 
 * [[Heisenberg group]]
 
+* [[Heisenberg manifold]]
+
 * [2-Cohomotopy moduli of surfaces](cohomotopy#CohomotopyModuliOfSurfaces)
 
 
