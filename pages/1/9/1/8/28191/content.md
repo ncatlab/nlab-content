@@ -49,6 +49,3 @@ which is an exposition of Taylor's *[[Abstract Stone Duality]]*.
 
 category: reference
 
-[[!redirects Practical Foundations]]
-[[!redirects Practical Foundations of Mathematics]]
-[[!redirects PFM]]
