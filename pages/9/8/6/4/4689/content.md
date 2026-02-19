@@ -383,8 +383,9 @@ Derivation of [[graviton]]-[[scattering amplitudes]] from [[string field theory]
 
 * [[Taejin Lee]], _Four-Graviton Scattering and String Path Integral in the Proper-time gauge_ ([arXiv:1806.02702](https://arxiv.org/abs/1806.02702))
 
-### Local Gauging of global symmetries
 
+### Local Gauging of global symmetries
+ {#ReferencesLocalGaugingOfGlobalSymmetries}
 
 It is being argued that after embedding into consistent [[quantum gravity]], all [[global symmetries]] must become [[local symmetries]].
 
