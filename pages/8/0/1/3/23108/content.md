@@ -26,6 +26,9 @@ On a variant of the [[string orientation of tmf]] for the case of [[Tmf(n)|with 
 
 On the [[swampland cobordism conjecture]]:
 
+* [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]]: *The Chronicles of IIBordia: Dualities, Bordisms, and the Swampland* \[<a href="https://arxiv.org/abs/2302.00007">arXiv:2302.00007</a>\]
+  > (in the context of [[type IIB string theory]])
+
 * Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
 
 
