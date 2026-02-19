@@ -1,4 +1,4 @@
-**[[Riemannian geometry]]**
+**[[Riemannian geometry]]** ([[sub-Riemannian geometry]])
 
 ## Basic definitions
 
