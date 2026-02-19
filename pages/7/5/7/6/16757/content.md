@@ -25,11 +25,11 @@ An _ADE singularity_ is an [[orbifold]] [[fixed point]] locally of the form $\ma
 
 The [[blow-up]] of an ADE-singularity is given by a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the [[Dynkin diagram]] whose A-D-E label corresponds to that of the given [[finite subgroup of SU(2)]].
 
-This statement is originally due to ([duVal 1934 I, p. 1-3 (453-455)](#duVal1934I)). A description in terms of [[hyper-Kähler geometry]] is due to [Kronheimer 89a](#Kronheimer89a).
+This statement is originally due to [duVal 1934 I, p. 1-3 (453-455)](#duVal1934I). A description in terms of [[hyper-Kähler geometry]] is due to [Kronheimer 1989a](#Kronheimer89a).
 
-Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodowy 80](#Slodowy80).
+Quick survey of this fact is in [Reid 1987](#Reid87), a textbook account is [Slodowy 80](#Slodowy80).
 
-{#InStringTheory} In [[string theory]] this fact is interpreted in terms of [[gauge enhancement]] of the [[M-theory]]-lift of coincident [[black brane|black]] [[D6-branes]] to an  [[MK6]] at an ADE-singularity ([Sen 97](enhanced+gauge+symmetry#Sen97)):
+{#InStringTheory} In [[string theory]] this fact is interpreted in terms of [[gauge enhancement]] of the [[M-theory]]-lift of coincident [[black brane|black]] [[D6-branes]] to an [[MK6]] at an ADE-singularity ([Sen 1997](enhanced+gauge+symmetry#Sen97)):
 
 \begin{center}
 \begin{imagefromfile}
@@ -38,7 +38,7 @@ Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodo
 \end{imagefromfile}
 \end{center}
 
-> graphics grabbed from [HSS18](#HSS18)
+> (graphics from [HSS18](#HSS18))
  
 See at _[[M-theory lift of gauge enhancement on D6-branes]]_ for more.
 
