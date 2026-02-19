@@ -68,6 +68,10 @@ This [[orbifold quotient]] is a non-singular (Seifert-fibered) [[smooth manifold
 ([Bonahon & Siebenmann 2010 p 36 (18 of 67)](#BonahonSiebenmann10))
 
 
+## Examples
+
+* [[Heisenberg manifold]]
+
 
 ## Related concepts
 
