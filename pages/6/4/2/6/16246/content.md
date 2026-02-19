@@ -32,6 +32,10 @@ On the [[swampland cobordism conjecture]]:
 
 * [[Markus Dierigl]], [[Jonathan Heckman]]: _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D (2021) 066006 \[<a href="https://arxiv.org/abs/2012.00013">arXiv:2012.00013</a>, <a href="https://doi.org/10.1103/PhysRevD.103.066006">doi:10.1103/PhysRevD.103.066006</a>\]
 
+* [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]]: *The Chronicles of IIBordia: Dualities, Bordisms, and the Swampland* \[<a href="https://arxiv.org/abs/2302.00007">arXiv:2302.00007</a>\]
+  > (in the context of [[type IIB string theory]])
+
+
 * Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
 
 
