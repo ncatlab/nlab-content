@@ -24,9 +24,11 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
 
 ## Examples
 
-* A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie groups]] this is also called [[Klein geometry]].
+* A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie groups]] this is also called *[[Klein geometry]]*.
 
 * Specifically for $G$ a [[compact Lie group]] and $T\hookrightarrow G$ a [[maximal torus]], then the coset $G/T$ play a central role in [[representation theory]] and [[cohomology]], for instance in the [[splitting principle]].
+
+* If $G$ here is a [[nilpotent group|nilpotent]] [[Lie group]] then one speaks of *[[nilmanifolds]]*.
 
 * In [[analysis]] and [[number theory]], certain functions on certain coset spaces play a role as _[[automorphic forms]]_ (e.g. [[modular forms]]). See there for more.
 
