@@ -14,7 +14,7 @@
 
 ## Definition
 
-A *nilmanifold* is a [[differentiable manifold]] which admits a [[smooth function|smooth]] [[transitive action]] by a [[nilpotent group|nilpotent]] [[Lie group]] $G$, hence which is [[diffeomorphism|diffeomorphic]] to a [[coset space]] ([[homogeneous space]]) $G/Gamma$ for $\Gamma \subset G$ a [[closed subgroup]] of a [[nilpotent group|nilpotent]] [[Lie group]].
+A *nilmanifold* is a [[differentiable manifold]] which admits a [[smooth function|smooth]] [[transitive action]] by a [[nilpotent group|nilpotent]] [[Lie group]] $G$, hence which is [[diffeomorphism|diffeomorphic]] to a [[coset space]] ([[homogeneous space]]) $G/\Gamma$ for $\Gamma \subset G$ a [[closed subgroup]] of a [[nilpotent group|nilpotent]] [[Lie group]].
 
 ## Examples
 
