@@ -31,7 +31,12 @@ Review:
 
 * {#Blumenhagen23} [[Ralph Blumenhagen]], *Nullifying Cobordism in Quantum Gravity*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BlumenhagenMar2023), slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=jLlE_jSH0lk)\]
 
+In the context of [[type IIB string theory]]:
+
+* {#DDHM2023} [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]]: *The Chronicles of IIBordia: Dualities, Bordisms, and the Swampland* \[<a href="https://arxiv.org/abs/2302.00007">arXiv:2302.00007</a>\]
+
 
 A more concrete consequence of this conjecture is claimed ([McNamara & Vafa 2019](#McNamaraVafa19), [Sec. 5.2, 2nd paragr.](https://arxiv.org/pdf/1909.10355.pdf#page=31)) to be the statement that -- paraphrasing/extrapolating somewhat (in line with [Blumenhagen & Cribiori 2022](#BlumenhagenCribiori22); [Blumenhagen et al. 2023](#BCKM23); [Blumenhagen 2023](#Blumenhagen23), [p. 23](/nlab/files/Blumenhagen-at-QFTAndCobordism2023.pdf#page=45)): *Certain topological [[Dirac charge quantization|brane charges are quantized]] in [[Cobordism cohomology]]*; so that, in particular *[[tadpole cancellation]] of brane charges is to happen in [[Cobordism cohomology]].* This kind of statement is also discussed, as a consequence of [[Hypothesis H]], in (see [p. 83](https://arxiv.org/pdf/2103.01877.pdf#page=83)):
 
 * {#SatiSchreiber21a} [[Hisham Sati]], [[Urs Schreiber]], $\,$_[[schreiber:M-Theory as Mf-Theory|M/F-Theory as Mf-Theory]]_, Rev. Math. Phys. **35** 10 (2023) \[<a href="https://arxiv.org/abs/2103.01877">arXiv:2103.01877</a>, <a href="https://doi.org/10.1142/S0129055X23500289">doi:10.1142/S0129055X23500289</a>\]
+
