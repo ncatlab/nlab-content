@@ -21,7 +21,7 @@ This entry provides hyperlinks for central keywords of the text
 
   _Structured Spaces_ 
 
-  ([arXiv:0905.0459](http://arxiv.org/abs/0905.0459), [pdf](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf))
+  ([arXiv:0905.0459](http://arxiv.org/abs/0905.0459))
 
 which develops the generalization of the notion of a [[ringed topos]] from [[topos theory]] to [[(∞,1)-topos theory]] and formulates basic notions of [[geometry]] in this context ("[[higher geometry]]"). 
 
