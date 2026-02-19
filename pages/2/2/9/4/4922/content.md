@@ -363,6 +363,10 @@ $$
 =--
 
 
+### Further examples
+
+* [[nilmanifolds]]
+
 
 ## Related concepts
 
@@ -405,7 +409,7 @@ On coset spaces with the same [[rational cohomology]] as a [[product space|produ
 
 Discussion in [[(infinity,1)-topos theory|$\infty$-topos theory]]:
 
-* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Ex. 3.2.35 ([p. 104](https://arxiv.org/pdf/2112.13654.pdf#page=104)) of: *[[schreiber:Equivariant principal infinity-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Ex. 3.2.35 ([p. 104](https://arxiv.org/pdf/2112.13654.pdf#page=104)) of: *[[schreiber:Equivariant Principal infinity-Bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
 
