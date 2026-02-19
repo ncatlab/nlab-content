@@ -24,6 +24,13 @@ On a variant of the [[string orientation of tmf]] for the case of [[Tmf(n)|with 
 
 * [[Arun Debray]], [[Matthew Yu]]: *Type IIA String Theory and tmf with Level Structure* &lbrack;[arXiv:2411.07299](https://arxiv.org/abs/2411.07299)&rbrack;
 
+On the [[swampland cobordism conjecture]]:
+
+* Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
+
+
+
+
 
 category: people
 
