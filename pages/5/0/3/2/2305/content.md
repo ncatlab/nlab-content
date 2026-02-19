@@ -252,7 +252,7 @@ Discussion in [[algebraic geometry]]
 
 A useful introduction is 
 
-* Kiran Kedlaya, _$p$-adic cohomology, from theory to practice_ ([pdf](http://swc.math.arizona.edu/aws/2007/KedlayaNotes11Mar.pdf))
+* Kiran Kedlaya, _$p$-adic cohomology, from theory to practice_ ([pdf](https://swc-math.github.io/aws/2007/KedlayaNotes11Mar.pdf))
 
 A classical reference on the algebraic version is
 
