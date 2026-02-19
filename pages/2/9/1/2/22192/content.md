@@ -16,7 +16,7 @@ On [[flux compactification]] of [[D=6 supergravity]] on the [[pillowcase orbifol
 
 On the [[swampland cobordism conjecture]]:
 
-* [[Markus Dierigl]], [[Jonathan Heckman]], _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D 2021 ([arXiv:2012.00013](https://arxiv.org/abs/2012.00013))
+* [[Markus Dierigl]], [[Jonathan Heckman]]: _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D (2021) 066006 \[<a href="https://arxiv.org/abs/2012.00013">arXiv:2012.00013</a>, <a href="https://doi.org/10.1103/PhysRevD.103.066006">doi:10.1103/PhysRevD.103.066006</a>\]
 
 
 
