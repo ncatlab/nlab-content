@@ -49,7 +49,7 @@ which is a [[Hilbert W*-module]] over $A$.
 
 {#Blecher1997} [[David Blecher]], _On Selfdual Hilbert Modules_, Fields Institute Communications, 13, 1997
 
-{#BlecherMerdy2004} [[David Blecher]], [[Christian Le Merdy]], _Operator and Their Modules---an operator space approach_, Vol. 30, London Mathematical Society Mongraphs
+{#BlecherMerdy2004} [[David Blecher]], [[Christian Le Merdy]], _Operator Algebras and Their Modules: An operator space approach_, Vol. 30, London Mathematical Society Monographs, 2004
 
 [[!redirects Hilbert W*-modules]]
 [[!redirects W*-modules]]
