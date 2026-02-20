@@ -262,7 +262,7 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 
 * [[Emily Riehl]]: _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
-* {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
+* {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2602.02218](https://arxiv.org/abs/2602.02218))
 
 For [[synthetic domain theory]] in simplicial type theory:
 
