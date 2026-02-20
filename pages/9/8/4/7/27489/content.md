@@ -18,7 +18,6 @@
 =--
 
 
-
 \tableofcontents
 
 
@@ -35,9 +34,9 @@ $$
 $$
 
 \begin{imagefromfile}
-    "file_name": "BraidOn2Sphere.png",
+    "file_name": "BraidOn2Sphere-2.png",
     "float": "right",
-    "width": 150,
+    "width": 180,
     "unit": "px",
     "margin": {
         "top": -60,
@@ -49,7 +48,7 @@ $$
 
 is the [[fundamental group]] $\pi_1(-)$ of the [[configuration spaces of points|configuration space of $n$-points]], $Conf_n(-)$, on the [[2-sphere]].
 
-Illustrated on the right is the element $b_2 b_1 \in Br_3(S^2)$ (where $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation), cf. Prop. \ref{AsQuotientOfPlainBraidGroup}.)
+Illustrated on the right is the element $b_2 b_1 b_2 b_1 b_2 \in Br_3(S^2)$ (where $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation), cf. Prop. \ref{AsQuotientOfPlainBraidGroup}.)
 
 
 \linebreak
