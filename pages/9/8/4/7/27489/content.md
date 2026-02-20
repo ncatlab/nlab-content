@@ -34,7 +34,7 @@ $$
 $$
 
 \begin{imagefromfile}
-    "file_name": "BraidOn2Sphere-2.png",
+    "file_name": "BraidOn2Sphere-2-labeled.png",
     "float": "right",
     "width": 180,
     "unit": "px",
@@ -43,7 +43,8 @@ $$
         "bottom": 20,
         "right": 0, 
         "left": 25
-    }
+    },
+    "caption": "(graphics from [SS26](#SS26))"
 \end{imagefromfile}
 
 is the [[fundamental group]] $\pi_1(-)$ of the [[configuration spaces of points|configuration space of $n$-points]], $Conf_n(-)$, on the [[2-sphere]].
@@ -185,6 +186,9 @@ On [[subgroups]] of spherical braid groups:
 
 * {#GoncalvesGuaschi11} [[Daciberg Lima Gonçalves]], [[John Guaschi]]: *The classification of the virtually cyclic subgroups of the sphere braid groups*, Briefs in Mathematics, Springer (2013) &lbrack;[arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [doi:10.1007/978-3-319-00257-6](https://doi.org/10.1007/978-3-319-00257-6),  [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf)&rbrack;
 
+In the context of [[superconductor|superconducting]] [[defects]] in [[FQH liquids]]:
+
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQH with Islands|Nonabelian Anyons attached to Superconducting Islands in FQH Liquids]]* (2026)
 
 [[!redirects spherical braid groups]]
 
