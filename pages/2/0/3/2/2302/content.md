@@ -25,6 +25,11 @@ This entry provides hyperlinks for central keywords of the text
 
 which develops the generalization of the notion of a [[ringed topos]] from [[topos theory]] to [[(∞,1)-topos theory]] and formulates basic notions of [[geometry]] in this context ("[[higher geometry]]"). 
 
+A substantially revised version of this text has since appeared as Part VI of
+
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_
+
+
 Precursor in 1-[[category theory]] include
 
 * [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972) ([doi:10.1007/978-3-662-59155-0](https://www.springer.com/gp/book/9783540055730))
@@ -32,10 +37,6 @@ Precursor in 1-[[category theory]] include
 * [[Cole's theory of spectrum]]
 
 The theory is general, but the focus of the examples and applications is on [[derived algebraic geometry]]/[[E-∞ geometry]].
-
-Apparently a version of this is to eventually appear as:
-
-* [[Jacob Lurie]], part I _Fundamentals of Spectral Algebraic Geometry_, of: _[[Spectral Algebraic Geometry]]_
 
 ## Survey ##
 
