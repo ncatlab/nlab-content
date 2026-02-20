@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -88,9 +86,13 @@ See theorem 6.1.5 (p. 98) in [Glimm & Jaffe 1981](#GlimmJaffe81).
 
 ## References
 
-The original article:
+The original article, whose proof turned out to be flawed:
 
-* {#OsterwalderSchrader73} [[Konrad Osterwalder]], [[Robert Schrader]], _Axioms for Euclidean Green's functions_, Comm. Math. Phys. Volume 31, Number 2 (1973), 83-112 ([Euclid:1103858969](https://projecteuclid.org/euclid.cmp/1103858969))
+* {#OsterwalderSchrader73} [[Konrad Osterwalder]], [[Robert Schrader]]: _Axioms for Euclidean Green's functions_, Comm. Math. Phys. **31** 2 (1973) 83-112 &lbrack;[doi:10.1007/BF01645738](https://doi.org/10.1007/BF01645738), [euclid:1103858969](https://projecteuclid.org/euclid.cmp/1103858969)&rbrack;
+
+and the followup article fixing the proof at the cost of a further assumption:
+
+* [[Konrad Osterwalder]], [[Robert Schrader]]: *Axioms for Euclidean Green's functions II*,  Commun.Math. Phys. **42** (1975) 281–305 &lbrack;[doi:10.1007/BF01608978](https://doi.org/10.1007/BF01608978)&rbrack;
 
 Discussion for compact/periodic Euclidean time, as needed for [[thermal quantum field theory]]:
 
@@ -105,7 +107,13 @@ Exposition:
 
 * Dirk Schlingemann: _From euclidean field theory to quantum field theory_ &lbrack;[arXiv:hep-th/9802035](http://arxiv.org/abs/hep-th/9802035)&rbrack;
 
+Highlighting that the OS theorem depends on a *linear growth condition* which may be hard to verify (such as in [[conformal bootstrap]] applications), and reproof for [[conformal field theories]] without this condition:
 
+* Petr Kravchuk, Jiaxin Qiao, [[Slava Rychkov]]: *Distributions in CFT II. Minkowski Space*, J. High Energ. Phys. **2021** 94 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2021)094">doi:10.1007/JHEP08(2021)094</a>, [arXiv:2104.02090](https://arxiv.org/abs/2104.02090)&rbrack;
+
+Review with further critical comments on the state of the literature, going back to the original OS article:
+
+* [[Slava Rychkov]]: *CFT Osterwalder-Schrader theorem*, talk at *[Simons Collaboration on the Nonperturbative Bootstrap Annual Meeting 2019](https://www.simonsfoundation.org/event/simons-collaboration-on-the-nonperturbative-bootstrap-annual-meeting-2019/)* &lbrack;[video](https://vimeo.com/374405947?fl=pl&fe=cm)&rbrack;
 
 
 
