@@ -236,6 +236,7 @@ Since the category $CommMon$ of commutative monoids (in $Set$) is cocartesian, t
 ## Related concepts
 
 * [[monoid]], [[commutative monoid]]
+* [[tensor product of commutative monoids]]
 * [[monoid in a monoidal category]]
 * [[category of monoids]]
 * [[module over a monoid]]
