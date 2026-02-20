@@ -7,7 +7,7 @@
 
 ***
 
-[[Dierigl-CQTS-Feb2026.pdf:file]]
+[[BraidOn2Sphere-2.png:file]]
 
 
 ### Idea
