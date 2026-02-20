@@ -38,7 +38,7 @@ is the [[semidirect product group]] of
    $$
      g \big((h_s)_{s \in S}\big)
      \;\coloneqq\;
-     \big(h_{g^{-1}(s)}\big)_{s \in S}
+     \big(h_{g^{-1}(s)} \big)_{s \in S}
      \,.
    $$
 
