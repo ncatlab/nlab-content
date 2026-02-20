@@ -7,7 +7,7 @@
 
 ***
 
-[[BraidOn2Sphere-2.png:file]]
+[[BraidOn2Sphere-2-labeled.png:file]]
 
 
 ### Idea
