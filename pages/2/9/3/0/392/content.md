@@ -19,7 +19,7 @@ When examples of the red herring principle appear, it is usually due to a defici
 
 ## Examples
 
-* A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
+* A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary".
 
 * In [[linear algebra]], an [[associative algebra|algebra]] is usually defined to be associative, so a [[nonassociative algebra]] is not an algebra in this sense.  This leads to the technically redundant use of "associative algebra".  Furthermore, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
 
