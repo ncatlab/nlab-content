@@ -190,7 +190,7 @@ category: category
 
 $(\infty,1)Cat$ (called $Cat$ in the paper), is defined in [[simplicial type theory]] in:
 
-* {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
+* {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2602.02218](https://arxiv.org/abs/2602.02218))
 
 [[!redirects (∞,1)Cat]]
 
