@@ -5,18 +5,16 @@
 
 ## Idea
 
-The mathematical **red herring principle** is the principle that in [[mathematics]], a "red herring" need not, in general, be either red or a herring.
+The mathematical **red herring principle** is the principle that in [[mathematics]], a "red herring" need not, in general, be red or a herring.
 
-Frequently, in fact, it is conversely true that all herrings are red herrings.  This often leads to mathematicians speaking of "non-red herrings," and sometimes even to a redefinition of "herring" to include both the red and non-red versions.
+Given an adjective "foo", and a term "bar", the term "foo bar" is an example of the red herring principle if and only if at least one object referred to by the term "foo bar" fails to be both foo and a bar.
 
 
 ## Notes
 
-* Clearly, the term "red herring" here is not to be confused with the usual meaning, which typically refers to a deliberate attempt to divert or throw one off track, as for example a rhetorical tactic for this purpose, or a novelistic device. 
+"Red herring", as used here, is to be interpreted neutrally: it refers to a name of a concept which might throw the reader off-track, by accident as it were. This should not to be conflated with its usual usage, which typically refers to a *deliberate* attempt to divert or throw one off track (for instance, as a rhetorical tactic). One should also avoid taking it as perjorative (indicating, for example, ineptitude or lack-of-care in naming). It may be that some term "bar" once meant one thing, but – over time – had its meaning changed. In that case, there may be terms of the form "foo bar" that seem strange according to bar's modern definition, but made much better sense under the older (but mostly forgotten) meaning of "bar".
 
-* It should also not be thought that "red herring" as used here signals a pejorative, indicating for example ineptitude or lack of care in naming. For example, it may be that "foo" once meant a "bar", but over time the meaning of "foo" changed, so that while "weak $*$-foo" might seem strange if "foo" is taken in the modern sense, it made much better sense under the older (but mostly forgotten) meaning of "foo". 
-
-Thus, "red herring" as used here is to be interpreted neutrally: it refers to a name of a concept which might throw the reader off-track, by accident as it were. 
+When examples of the red herring principle appear, it is usually due to a deficiency in existing terminology. Most commonly, one finds that "herring" is defined in such a way that all herrings are red herrings. If the associated *near*-herrings (objects that would be herrings, if only they were red) are interesting in their own right, this can lead to mathematicians speaking about the "non-red herrings", despite the fact that – strictly speaking – no such things exist. When this happens, it is usually an indication that the definition of "herring" should be revised to include both red and non-red herrings.
 
 
 ## Examples
@@ -60,7 +58,7 @@ Some uses of terminology are similar in some ways, but don't quite fall under th
 
 * Algebraic topologists usually work with a [[convenient category of topological spaces]] rather than the category of all [[topological spaces]], but usually they simply say "space" to mean an object of their chosen convenient category.  Some algebraic topologists (particularly of the MIT school) take this even further and say "space" to mean [[simplicial set]]. In the Chicago school, this is occasionally stretched even further, with "space" meaning [[spectrum]] (although this is arguably more of a joke than a common usage).
 
-These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring."  However, since the actual definitions of terms like "ring" and "topological space" is generally accepted to be unchanged (as opposed to the commonly used abbreviations), these are not true red herrings.
+These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring". However, since it is generally accepted that the use of such abbreviations does not change the actual definitions of terms like "ring" and "topological space", these are not true red herrings.
 
 
 ### Semi-non-examples
