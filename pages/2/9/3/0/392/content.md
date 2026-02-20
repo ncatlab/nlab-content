@@ -10,7 +10,7 @@ The mathematical **red herring principle** is the principle that in [[mathematic
 Given an adjective "foo", and a term "bar", the term "foo bar" is an example of the red herring principle if and only if at least one object referred to by the term "foo bar" fails to be both foo and a bar.
 
 
-## Notes
+## Notes {#notes}
 
 "Red herring", as used here, is to be interpreted neutrally: it refers to a name of a concept which might throw the reader off-track, by accident as it were. This should not to be conflated with its usual usage, which typically refers to a *deliberate* attempt to divert or throw one off track (for instance, as a rhetorical tactic). One should also avoid taking it as perjorative (indicating, for example, ineptitude or lack-of-care in naming). It may be that some term "bar" once meant one thing, but – over time – had its meaning changed. In that case, there may be terms of the form "foo bar" that seem strange according to bar's modern definition, but made much better sense under the older (but mostly forgotten) meaning of "bar".
 
@@ -37,9 +37,9 @@ When examples of the red herring principle appear, it is usually due to a defici
 
 * A [[planar ternary ring]] is not a [[ring]].  A general ring is not a planar ternary ring either; their "intersection" is the class of [[division rings]].
 
-Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax," but others, such as "weak," have different meanings in different contexts.
+Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax", but others, such as "weak", have different meanings in different contexts.
 
-* A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led some people to the use of [[orthogonal factorization system]] in place of the classical term "factorization system."
+* A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led some people to the use of [[orthogonal factorization system]] in place of the classical term "factorization system".
 
 * A [[weak limit]] is not a [[limit]] in a similar way: it satisfies only existence but not uniqueness.
 
@@ -51,6 +51,8 @@ Sometimes a red herring is only a red herring in degenerate cases, perhaps only 
 
 
 ## Non-examples
+
+* The term "red herring principle" is a non-example of the red herring principle. Following the disclaimer in [[red herring principle#notes|this page's notes section]], the adjective "red herring", when used to describe this principle, will be misleading if taken in the usual sense. Of course, this makes the usage of "red herring" in "red herring principle" a red herring. The red herring principle is thus both a red herring and a principle, and so the term "red herring principle", used to describe the red herring principle, is not an example of the red herring principle.
 
 Some uses of terminology are similar in some ways, but don't quite fall under the same category.  For instance, in a number of cases mathematicians working in a particular field tend to omit [[dichotomy between nice objects and nice categories|niceness]] adjectives, e.g.:
 
