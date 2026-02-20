@@ -15,4 +15,8 @@ Introducing what came to be known as the *[[Osterwalder-Schrader theorem]]* on [
 * {#OsterwalderSchrader73} [[Konrad Osterwalder]], [[Robert Schrader]]: _Axioms for Euclidean Green's functions_, Comm. Math. Phys. **31** 2 (1973) 83-112 &lbrack;[doi:10.1007/BF01645738](https://doi.org/10.1007/BF01645738), [euclid:1103858969](https://projecteuclid.org/euclid.cmp/1103858969)&rbrack;
 
 
+* [[Konrad Osterwalder]], [[Robert Schrader]]: *Axioms for Euclidean Green's functions II*,  Commun.Math. Phys. **42** (1975) 281–305 &lbrack;[doi:10.1007/BF01608978](https://doi.org/10.1007/BF01608978)&rbrack;
+
+
+
 category: people
