@@ -349,7 +349,8 @@ On mapping class groups in the generality of [[orbifold|orbifolded]]-[[surfaces]
 
 * Jonas Flechsig: *Mapping class groups for 2-orbifolds* &lbrack;[arXiv:2305.04272](https://arxiv.org/abs/2305.04272)&rbrack;
 
-* Jonas Flechsig: *Braid groups and mapping class groups for 2-orbifolds* &lbrack;[arXiv:2305.04273](https://arxiv.org/abs/2305.04273)&rbrack;
+* Jonas Flechsig: *Braid groups and mapping class groups for 2-orbifolds*, Bulletin des Sciences Mathématiques
+**204** (2025) 103705 &lbrack;[arXiv:2305.04273](https://arxiv.org/abs/2305.04273), [doi:10.1016/j.bulsci.2025.103705](https://doi.org/10.1016/j.bulsci.2025.103705)&rbrack;
 
 
 
