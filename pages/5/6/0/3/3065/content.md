@@ -17,7 +17,7 @@
 
 ## Definition
 
-A __simply connected topological space__ is a [[n-connected space|1-connected]] [[topological space]] $X$: a [[connected space]] whose [[fundamental group]] is the [[trivial group]]:
+A __simply connected topological space__ is a [[n-connected space|1-connected]] [[topological space]] $X$: a [[connected space|path-connected space]] whose [[fundamental group]] is the [[trivial group]]:
 
 $\pi_1(X) = \{\mathrm{e}\}$.
 
