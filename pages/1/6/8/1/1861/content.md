@@ -1644,7 +1644,16 @@ Cohomotopy sets of [[projective spaces]]:
 
 * {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
 
-Cohomotopy sets of [[4-manifolds]]:
+On 2-cohomotopy sets of [[3-manifolds]] in the context of the [[Skyrme-Fadeev model]]:
+
+* [[Dave Auckly]], [[Lev Kapitanski]]: *Analysis of $S^2$-valued maps and the Faddeev model*, Commun. Math. Phys. **256**  (2005) 611–620 &lbrack;[arXiv:math-ph/0403025](https://arxiv.org/abs/math-ph/0403025), [doi:10.1007/s00220-005-1289-6](https://doi.org/10.1007/s00220-005-1289-6)&rbrack;
+
+* [[Lev Kapitanski]]: *Geometry and Analysis of the Faddeev model*, talk at *[Operator Theory and Spectral Analysis](https://www.maths.dur.ac.uk/lms/082/)*, Durham (2005) &lbrack;[pdf](https://www.maths.dur.ac.uk/lms/082/Talks/kapitanski.pdf), [[Kapitanski-FadeevModel.pdf:file]]&rbrack;
+
+* [[Dave Auckly]], [[Lev Kapitanski]]: *The Pontrjagin-Hopf invariants for Sobolev maps*,  Communications in Contemporary Mathematics **12** 01 (2010) 121-181 &lbrack;[arXiv:0711.0546](https://arxiv.org/abs/0711.0546), [doi:10.1142/S0219199710003695](https://doi.org/10.1142/S0219199710003695)&rbrack;
+
+
+On cohomotopy sets of [[4-manifolds]]:
 
 * Nobuo Shimada, _Homotopy classification of mappings of a 4-dimensional complex into a 2-dimensional sphere_, Nagoya Math. J., Volume 5 (1953), 127-144 ([euclid:nmj/1118799399](https://projecteuclid.org/euclid.nmj/1118799399))
 
