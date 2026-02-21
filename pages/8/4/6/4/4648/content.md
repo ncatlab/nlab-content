@@ -128,15 +128,15 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 ### Original
  {#ReferencesOriginal}
 
-The conjecture goes back to 
+The conjecture goes back to:
 
 * {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of _Quantization of the Hitchin system and Hecke eigensheaves_, ([pdf](https://math.uchicago.edu/~drinfeld/langlands/QuantizationHitchin.pdf), [other pdf link](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
 
-based on
+based on:
 
 * {#Laumon87} [[Gérard Laumon]], sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309-359
 
-Proof in the abelian case is due to
+Proof in the abelian case is due to:
 
 * {#Laumon85} [[Gérard Laumon]], _Transformation de Fourier g&#233;om&#233;trique_ Preprint IHES/85/M/52 (1985)
 
@@ -148,17 +148,17 @@ Proof in the abelian case is due to
 
   _Correction to: "Sheaves with connection on abelian varieties." Duke Math. J., 87(1):205&#8211;211, 1997.
 
-Proof that the original version of the conjecture is false in general is due to
+Proof that the original version of the conjecture is false in general is due to:
 
 * {#Lafforgue09} [[Vincent Lafforgue]], _Quelques calculs reli&#233;s &#224; la correspondance de Langlands g&#233;om&#233;trique pour $\mathbb{P}^1$ (version provisoire)_ 2009 ([web](http://www.math.jussieu.fr/~vlafforg/), [pdf](http://vlafforg.perso.math.cnrs.fr/geom.pdf))
 
-The refined version of the conjecture stated in [[derived algebraic geometry]], called the [[categorical geometric Langlands conjecture]], is due to
+The refined version of the conjecture stated in [[derived algebraic geometry]], called the [[categorical geometric Langlands conjecture]], is due to:
 
 * {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _[[Notes on geometric Langlands]], ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
 * {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
 
-Other comments on the relation to [[TQFT]] include
+Other comments on the relation to [[TQFT]] include:
 
 * {#Kapranov95} [[Mikhail Kapranov]], _Analogies between the Langlands Correspondence and Topological Quantum Field Theory_, in _Functional Analysis on the Eve of the 21st Century_ Progress in Mathematics Volume 131/132, 1995, pp 119-151
 
@@ -201,7 +201,10 @@ Review:
 
 * [[Dennis Gaitsgory]]: *On the Proof of the Geometric Langlands Correspondance*, IHES News (5 August 2024) &lbrack;[www.ihes.fr/en/gaitsgory-glc](https://www.ihes.fr/en/gaitsgory-glc)&rbrack;
 
+On whether the proposed [interpretation in string theory](#ReferencesInterpretationInStringTheory) was of help in the proof:
 
+* *Interview with MPIM Director [[Dennis Gaitsgory]]* (Jan 2026) &lbrack;[video](https://youtu.be/0A3eFYJjh3s)&rbrack;
+> [6:40-](https://youtu.be/0A3eFYJjh3s?t=400): "It may not necessarily be the case that I understood what \[Witten\] told me, but somehow, as a result of this conversation, something clicked and we understood the basic structure of how \[geometric Langlands\] is supposed to work. That was purely inspirational".
 
 
 
