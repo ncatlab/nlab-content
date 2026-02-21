@@ -33,10 +33,9 @@ The original articles are
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
 
 
-Review includes
+Review:
 
-* Dave Auckly, Sergiy Koshkin, _Introduction to the Gopakumar-Vafa Large $N$ Duality_, Geom. Topol. Monogr. 8 (2006) 195-456 ([arXiv:0701568](https://arxiv.org/abs/math/0701568))
-
-  (relation to [[perturbative quantization of 3d Chern-Simons theory]], [[weight systems]] on [[chord diagrams]], etc.)
+* [[Dave Auckly]], Sergiy Koshkin: _Introduction to the Gopakumar-Vafa Large $N$ Duality_, Geom. Topol. Monogr. **8** (2006) 195-456 &lbrack;[arXiv:0701568](https://arxiv.org/abs/math/0701568), [pdf](https://msp.org/gtm/2006/08/gtm-2006-08-009s.pdf)&rbrack;
+  > (relation to [[perturbative quantization of 3d Chern-Simons theory]], [[weight systems]] on [[chord diagrams]], etc.)
 
 
