@@ -12,6 +12,16 @@
 
 ## Selected writings
 
+The [[Osterwalder-Schrader theorem]] (on [[Wick rotation]]) for [[fermion]]/[[spinor]] [[field (physics)|fields]]:
+
+* [[Jürg Fröhlich]], [[Konrad Osterwalder]]: *Is There a Euclidean Field Theory for Fermions*, Helv. Phys. Acta **47** (1975) 781 &lbrack;[doi:10.5169/seals-114595](https://doi.org/10.5169/seals-114595), [spire:1330](https://inspirehep.net/literature/1330), [[FrohlichOsterwalder1975.pdf:file]]&rbrack;
+
+On [[constructive quantum field theory]] for [[gauge theories]]:
+
+* David Brydges, [[Jürg Fröhlich]], [[Erhard Seiler]]: *On the construction of quantized gauge fields. I. General results*, Annals of Physics **121** 1–2 (1979) 227-284 \[<a href="https://doi.org/10.1016/0003-4916(79)90098-8
+">doi:10.1016/0003-4916(79)90098-8</a>\]
+
+
 On [[Anderson localization]]:
 
 * [[Jürg Fröhlich]], Thomas Spencer: *A rigorous approach to Anderson localization*, Physics Reports **103** 1–4 (1984) 9-25 \[<a href="https://doi.org/10.1016/0370-1573(84)90061-9">doi:10.1016/0370-1573(84)90061-9</a>\]
