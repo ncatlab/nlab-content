@@ -76,6 +76,12 @@ The concept was introduced in
 
 ([Wilson 1974](#Wilson74) envisioned to take the continuum limit by way of [[block spin transformations]], but [Creutz 1979](#Creutz79) successfully applied [[Monte Carlo methods]], and that has been the method of choice ever since.)
 
+Early rigorous discussion:
+
+* [[Konrad Osterwalder]], [[Erhard Seiler]]: *Gauge field theories on a lattice*, Annals of Physics **110** 2 (1978) 440-471 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90039-8">doi:10.1016/0003-4916(78)90039-8</a>&rbrack;
+
+* [[Erhard Seiler]]: *Lattice Gauge Theories*, chapter in: *Gauge Theories as a Problem of Constructive Quantum Field Theory and Statistical Mechanics*, Lecture Notes in Physics **159**, Springer (1982) &lbrack;[doi:10.1007/3-540-11559-5_2](https://doi.org/10.1007/3-540-11559-5_2)&rbrack; 
+  > (in the context of [[constructive field theory]])
 
 Introduction and review:
 
@@ -288,6 +294,9 @@ The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactif
 [[!redirects lattice field theory]]
 [[!redirects lattice field theories]]
 
+[[!redirects lattice quantum field theory]]
+[[!redirects lattice quantum field theories]]
+
 
 [[!redirects lattice QCD]]
 
@@ -295,3 +304,6 @@ The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactif
 
 
 [[!redirects lattice quantum chromodynamics]]
+
+
+
