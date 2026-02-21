@@ -17,6 +17,15 @@ Introducing what came to be known as the *[[Osterwalder-Schrader theorem]]* on [
 
 * [[Konrad Osterwalder]], [[Robert Schrader]]: *Axioms for Euclidean Green's functions II*,  Commun.Math. Phys. **42** (1975) 281–305 &lbrack;[doi:10.1007/BF01608978](https://doi.org/10.1007/BF01608978)&rbrack;
 
+and the version for [[fermion]]/[[spinor]] [[field (physics)|fields]]:
+
+* [[Jürg Fröhlich]], [[Konrad Osterwalder]]: *Is There a Euclidean Field Theory for Fermions*, Helv. Phys. Acta **47** (1975) 781 &lbrack;[doi:10.5169/seals-114595](https://doi.org/10.5169/seals-114595), [spire:1330](https://inspirehep.net/literature/1330), [[FrohlichOsterwalder1975.pdf:file]]&rbrack;
+
+On rigorous formulation of [[lattice gauge field theory]]:
+
+* [[Konrad Osterwalder]], [[Erhard Seiler]]: *Gauge field theories on a lattice*, Annals of Physics **110** 2 (1978) 440-471 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90039-8">doi:10.1016/0003-4916(78)90039-8</a>&rbrack;
+
 
 
 category: people
+
