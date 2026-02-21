@@ -39,6 +39,11 @@ Review:
 * [[Dennis Gaitsgory]]: *On the Proof of the Geometric Langlands Correspondance*, IHES News (5 August 2024) &lbrack;[www.ihes.fr/en/gaitsgory-glc](https://www.ihes.fr/en/gaitsgory-glc)&rbrack;
 
 
+## Interviews
+
+* {#GaisgoryInterview2026} *Interview with MPIM Director Dennis Gaitsgory* (Jan 2026) &lbrack;[video](https://youtu.be/0A3eFYJjh3s)&rbrack;
+
+
 [[!redirects D. Gaitsgory]]
 
 category: people
