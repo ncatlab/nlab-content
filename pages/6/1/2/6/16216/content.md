@@ -17,23 +17,29 @@
 =--
 =--
 
-
-
 \tableofcontents
 
 ## Idea
 
-The _categorical geometric Langlands conjecture_ is a [[higher category theory|higher category theoretic]] version of the [[geometric Langlands conjecture]].  It is formulated as an [[equivalence of (infinity,1)-categories|equivalence]] of [[stable (infinity,1)-categories]] of
+The _categorical geometric Langlands conjecture_ is a [[higher category theory|higher category theoretic]] version of the [[geometric Langlands conjecture]].  It is formulated as an [[equivalence of (infinity,1)-categories|equivalence]] of [[stable (infinity,1)-categories|stable $\infty$-categories]] between:
 
-* [[D-modules]] on the [[derived stack]] of [[G-bundles]] on a [[curve]] $X$,
+1. [[D-modules]] on the [[derived stack]] of [[G-bundles]] on a [[curve]] $X$,
 
-and
+2. [[ind-coherent sheaves]] on the [[derived stack]] of $G^\vee$-equivariant [[local systems]] on $X$,
 
-* [[ind-coherent sheaves]] on the [[derived stack]] of $G^\vee$-equivariant [[local systems]] on $X$,
+where 
 
-where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic zero]], and $G$ is a [[reductive group]] and $G^\vee$ is its [[Langlands dual]].
+* $X$ is a smooth complete [[algebraic curve]] [[ground field|over]] a [[field]] of [[characteristic zero]], 
+
+* $G$ is a [[reductive group]], 
+
+* $G^\vee$ denotes its [[Langlands dual]].
+
+This was proven by [[Dennis Gaitsgory]] et al. in 2025, cf. the references [below](#Proof).
 
 ## References
+
+### General
 
 * Gurbir Dhillon, _An informal introduction to categorical representation theory and the local geometric Langlands program_ ([arXiv:2205.14578](https://arxiv.org/abs/2205.14578))
 
@@ -45,7 +51,8 @@ where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic ze
 
 * *A precise statement of the categorical version of geometric Langlands conjecture* (2011) &lbrack;[MO:q56571](https://mathoverflow.net/q/56571/381)&rbrack;
 
-Proof:
+### Proof
+ {#Proof}
 
 * {#GaitsgoryGLCWebpage} [[Dennis Gaitsgory]]: *Proof of the geometric Langlands conjecture* (2025) &lbrack;[webpage](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)&rbrack;
 
@@ -67,4 +74,6 @@ On whether the proposed [interpretation in string theory](geometric+Langlands+co
 
 * {#GaisgoryInterview2026} *Interview with MPIM Director [[Dennis Gaitsgory]]* (Jan 2026) &lbrack;[video](https://youtu.be/0A3eFYJjh3s)&rbrack;
 > [6:40-](https://youtu.be/0A3eFYJjh3s?t=400): "It may not necessarily be the case that I understood what \[Witten\] told me, but somehow, as a result of this conversation, something clicked and we understood the basic structure of how \[geometric Langlands\] is supposed to work. That was purely inspirational."
+
+\linebreak
 
