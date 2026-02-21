@@ -26,6 +26,10 @@ It might be noteworthy that for the established rigorous construction of [[pertu
 
 ## Related concepts
 
+* [[nonperturbative quantum field theory]]
+
+* [[lattice gauge field theory]]
+
 * [[AQFT]], [[FQFT]]
 
 
@@ -35,14 +39,21 @@ It might be noteworthy that for the established rigorous construction of [[pertu
 
 Introduction and review:
 
-* [[Arthur S. Wightman]]: *Constructive Field Theory Introduction to the Problems*, in: *Fundamental Interactions in Physics and Astrophysics*, Studies in the Natural Sciences **3**Springer (1973) &lbrack;[doi:10.1007/978-1-4613-4586-2_1](https://doi.org/10.1007/978-1-4613-4586-2_1)&rbrack; 
+* [[Arthur S. Wightman]]: *Constructive Field Theory Introduction to the Problems*, in: *Fundamental Interactions in Physics and Astrophysics*, Studies in the Natural Sciences **3**, Springer (1973) &lbrack;[doi:10.1007/978-1-4613-4586-2_1](https://doi.org/10.1007/978-1-4613-4586-2_1)&rbrack; 
 
 * [[Stephen J. Summers]]: _A Perspective on Constructive Quantum Field Theory_ &lbrack;[arXiv:1203.3991](http://arxiv.org/abs/1203.3991), [pdf](https://www.eolss.net/sample-chapters/c05/E6-07-07.pdf)&rbrack;
 
 * {#Jaffe} [[Arthur Jaffe]], _Constructive quantum field theory_ &lbrack;[pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf), [[Jaffe-CQFT.pdf:file]]&rbrack;
 
-
 * Wikipedia: *[Constructive quantum field theory](https://en.wikipedia.org/wiki/Constructive_quantum_field_theory)*
+
+On constructive [[gauge field theory]]:
+
+* David Brydges, [[Jürg Fröhlich]], [[Erhard Seiler]]: *On the construction of quantized gauge fields. I. General results*, Annals of Physics **121** 1–2 (1979) 227-284 \[<a href="https://doi.org/10.1016/0003-4916(79)90098-8
+">doi:10.1016/0003-4916(79)90098-8</a>\]
+
+* [[Erhard Seiler]]: *Gauge Theories as a Problem of Constructive Quantum Field Theory and Statistical Mechanics*, Lecture Notes in Physics **159**, Springer (1982) &lbrack;[doi:10.1007/3-540-11559-5](https://doi.org/10.1007/3-540-11559-5)&rbrack; 
+
 
 
 See also:
