@@ -1,5 +1,3 @@
-[[!redirects Depreciated page]]
-
 This page is to record the reference:
 
 * [[Paul Taylor]]:
