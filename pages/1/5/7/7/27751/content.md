@@ -91,6 +91,14 @@ Variants:
 * Yuki Amari, Nobuyuki Sawado: *$SU(3)$ Knot Solitons: Hopfions in the $F_2$ Skyrme-Faddeev-Niemi model*, Physics Letters B
 **784** (2018) 294-300 &lbrack;[arXiv:1805.10008](https://arxiv.org/abs/1805.10008), [doi:10.1016/j.physletb.2018.08.020](https://doi.org/10.1016/j.physletb.2018.08.020)&rbrack;
 
+Discussion for more general [[3-manifold]] domains ([[Cohomotopy]] of 3-manifolds):
+
+* [[Dave Auckly]], [[Lev Kapitanski]]: *Analysis of $S^2$-valued maps and the Faddeev model*, Commun. Math. Phys. **256**  (2005) 611–620 &lbrack;[arXiv:math-ph/0403025](https://arxiv.org/abs/math-ph/0403025), [doi:10.1007/s00220-005-1289-6](https://doi.org/10.1007/s00220-005-1289-6)&rbrack;
+
+* [[Lev Kapitanski]]: *Geometry and Analysis of the Faddeev model*, talk at *[Operator Theory and Spectral Analysis](https://www.maths.dur.ac.uk/lms/082/)*, Durham (2005) &lbrack;[pdf](https://www.maths.dur.ac.uk/lms/082/Talks/kapitanski.pdf), [[Kapitanski-FadeevModel.pdf:file]]&rbrack;
+
+* [[Dave Auckly]], [[Lev Kapitanski]]: *The Pontrjagin-Hopf invariants for Sobolev maps*,  Communications in Contemporary Mathematics **12** 01 (2010) 121-181 &lbrack;[arXiv:0711.0546](https://arxiv.org/abs/0711.0546), [doi:10.1142/S0219199710003695](https://doi.org/10.1142/S0219199710003695)&rbrack;
+
 
 
 [[!redirects Hopfions]]
