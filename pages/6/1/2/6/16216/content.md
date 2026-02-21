@@ -63,3 +63,8 @@ Review:
 
 * [[Dennis Gaitsgory]]: *On the Proof of the Geometric Langlands Correspondance*, IHES News (5 August 2024) &lbrack;[www.ihes.fr/en/gaitsgory-glc](https://www.ihes.fr/en/gaitsgory-glc)&rbrack;
 
+On whether the proposed [interpretation in string theory](geometric+Langlands+conjecture#ReferencesInterpretationInStringTheory) was of help in the proof:
+
+* {#GaisgoryInterview2026} *Interview with MPIM Director [[Dennis Gaitsgory]]* (Jan 2026) &lbrack;[video](https://youtu.be/0A3eFYJjh3s)&rbrack;
+> [6:40-](https://youtu.be/0A3eFYJjh3s?t=400): "It may not necessarily be the case that I understood what \[Witten\] told me, but somehow, as a result of this conversation, something clicked and we understood the basic structure of how \[geometric Langlands\] is supposed to work. That was purely inspirational."
+
