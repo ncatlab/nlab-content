@@ -220,8 +220,6 @@ Introductions and surveys:
 
 * {#Espiru94} D. Espriu, section 7 of _Perturbative QCD_ ([arXiv:hep-ph/9410287](http://arxiv.org/abs/hep-ph/9410287))
 
-* Erhard Seiler, _The Confinement Problem_ ([pdf](http://physik.uni-graz.at/~dk-user/talks/Seiler20081113-14.pdf))
-
 * Roman Pasechnik, Michal Šumbera, *Different faces of confinement*, Universe 7 (2021) 9, 330 ([arXiv:2109.07600](https://arxiv.org/abs/2109.07600), [doi:10.3390/universe7090330](https://doi.org/10.3390/universe7090330))
 
 See also: 
