@@ -69,6 +69,15 @@ Sometimes, adding an adjective does not destroy the property that the noun has, 
 
 * A [[contravariant functor]] from $C$ to $D$ _is_ still a functor, however not from $C$ to $D$, but from $C^{op}$ to $D$ (or equivalently from $C$ to $D^{op}$).
 
+
+## References
+ {#References}
+
+Early discussion making the terminological issue explicit:
+
+* Mark Dominus: *[Nonstandard adjectives in mathematics](https://blog.plover.com/math/partial-function.html)*, blog entry (Jan 2008)
+
+
 [[!redirects red herring]]
 [[!redirects red herring principle]]
 [[!redirects the red herring principle]]
