@@ -271,6 +271,26 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * More generally, [[factorization systems over a subcategory]] can be identified with distributive laws in [[Prof]].  Ordinary [[orthogonal factorization systems]] are a special case.  The latter can also be obtained by other weakenings; see for instance [this discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html).
 
+## Commutative distributive laws
+
+If $S$ and $T$ are [[commutative monads]], the composite $ST$ need not be itself commutative. The free ring is a canonical counterexample. 
+
+Writing $t_{A,B} \colon TA \otimes B \to T(A \otimes B)$ and $t'_{A,B} \colon A \otimes TB \to T(A \otimes B)$ for the left and right strengths of $T$, and $s, s'$ for those of $S$, we say that a distributive law $\lambda$ is _commutative_ if
+the following diagram commutes:
+
+$$\array{
+TA \otimes SB &\xrightarrow{t}& T(A \otimes SB) &\xrightarrow{T(s')}& TS(A \otimes B) \\
+&\searrow^{\mathrlap{s'}} && & \downarrow^{\lambda} \\
+&& S(TA \otimes B) &\xrightarrow{S(t)}& ST(A \otimes B)
+}$$
+
++-- {: .num_theorem}
+###### Theorem (Wolff 1975)
+If $S$ and $T$ are [[commutative monad|commutative]] monads, then the composite monad $ST$ is commutative if and only if the distributive law $\lambda$ is commutative.
+=--
+
+For example, if $T$ is an [[action monad]], there is a canonical commutative distributive law with any other monad. Thus for instance if $T$ is an action monad for a commutative monoid, and $S$ is any other commutative monad, then there is a commutative monad structure on $ST$. The analogous situation applies for $S$ a [[function monad]].
+
 ## Related concepts
 
 * [[weak distributive law]]
@@ -305,6 +325,10 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
+`
+Commutative distributive laws: 
+
+* {#Wolff75} [[Harvey Wolff]], _Commutative distributive laws_, J. Austral. Math. Soc. **19** (Series A) (1975), 180–195. [doi:10.1017/S1446788700029487](https://doi.org/10.1017/S1446788700029487)
 
 For a study of distributive laws between monads and (pointed) endofunctors, see:
 
