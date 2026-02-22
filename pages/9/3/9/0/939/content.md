@@ -234,7 +234,8 @@ given by the (co-)[[Kleisli extension|bind-operation]] on the factors connected 
     }
 \end{imagefromfile}
 
-## Algebras for a distributive law
+
+### Algebras for a distributive law
 
 Given a composite monad $T S$ arising from a distributive law $l : S T \Rightarrow T S$, an algebra for $T S$ comprises an object $A$ with both $S$- and $T$-algebra structures $s : S A \to A$ and $t : T A \to A$ satisfying the following compatibility law.
 \begin{tikzcd}
@@ -273,21 +274,35 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 ## Commutative distributive laws
 
-If $S$ and $T$ are [[commutative monads]], the composite $ST$ need not be itself commutative. The free ring is a canonical counterexample. 
+If $S$ and $T$ are [[commutative monads]], the composite $S T$ need not be itself commutative. The free ring is a canonical counterexample. 
 
-Writing $t_{A,B} \colon TA \otimes B \to T(A \otimes B)$ and $t'_{A,B} \colon A \otimes TB \to T(A \otimes B)$ for the left and right strengths of $T$, and $s, s'$ for those of $S$, we say that a distributive law $\lambda$ is _commutative_ if
+Writing $t_{A,B} \colon T A \otimes B \to T(A \otimes B)$ and $t'_{A,B} \colon A \otimes T B \to T(A \otimes B)$ for the left and right strengths of $T$, and $s, s'$ for those of $S$, we say that a distributive law $\lambda$ is _commutative_ if
 the following diagram commutes:
 
-$$\array{
-TA \otimes SB &\xrightarrow{t}& T(A \otimes SB) &\xrightarrow{T(s')}& TS(A \otimes B) \\
-&\searrow^{\mathrlap{s'}} && & \downarrow^{\lambda} \\
-&& S(TA \otimes B) &\xrightarrow{S(t)}& ST(A \otimes B)
-}$$
+$$
+\array{
+  T A \otimes SB 
+    &\xrightarrow{t}& 
+  T(A \otimes SB) 
+    &\xrightarrow{T(s')}& 
+  T S(A \otimes B) 
+  \\
+    &\searrow^{\mathrlap{s'}} 
+  && & 
+  \downarrow\mathrlap{^{\lambda}} 
+  \\
+  && 
+  S(TA \otimes B) 
+    &\xrightarrow{S(t)}& 
+  S T(A \otimes B)
+  \mathrlap{\,.}
+}
+$$
 
-+-- {: .num_theorem}
-###### Theorem (Wolff 1975)
-If $S$ and $T$ are [[commutative monad|commutative]] monads, then the composite monad $ST$ is commutative if and only if the distributive law $\lambda$ is commutative.
-=--
+\begin{theorem}\label{WolffTheorem}
+**([Wolff 1975](#Wolff75))**
+If $S$ and $T$ are [[commutative monad|commutative]] monads, then the composite monad $S T$ is commutative if and only if the distributive law $\lambda$ is commutative.
+\end{theorem}
 
 For example, if $T$ is an [[action monad]], there is a canonical commutative distributive law with any other monad. Thus for instance if $T$ is an action monad for a commutative monoid, and $S$ is any other commutative monad, then there is a commutative monad structure on $ST$. The analogous situation applies for $S$ a [[function monad]].
 
@@ -328,7 +343,7 @@ For example, if $T$ is an [[action monad]], there is a canonical commutative dis
 `
 Commutative distributive laws: 
 
-* {#Wolff75} [[Harvey Wolff]], _Commutative distributive laws_, J. Austral. Math. Soc. **19** (Series A) (1975), 180–195. [doi:10.1017/S1446788700029487](https://doi.org/10.1017/S1446788700029487)
+* {#Wolff75} [[Harvey Wolff]]: _Commutative distributive laws_, J. Austral. Math. Soc. Series A **19** (1975)  180–195 &lbrack;[doi:10.1017/S1446788700029487](https://doi.org/10.1017/S1446788700029487)&rbrack;
 
 For a study of distributive laws between monads and (pointed) endofunctors, see:
 
