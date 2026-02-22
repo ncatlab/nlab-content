@@ -641,7 +641,7 @@ See also:
 
 The above discussion follows:
 
-* {#CQTS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology|The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
+* {#CQTS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Quantum Monadology|The Quantum Monadology]]*, Quantum Studies: Mathematics and Foundations **12** 25 (2025) &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735), [doi:10.1007/s40509-025-00368-5](https://doi.org/10.1007/s40509-025-00368-5)&rbrack;
 
 
 [[!redirects quantum reader monads]]
