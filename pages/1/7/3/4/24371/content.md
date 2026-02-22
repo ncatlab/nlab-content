@@ -253,10 +253,17 @@ Review:
 * [[Arnold Neumaier]]: *The Born rule -- 100 years ago and today* &lbrack;[arXiv:2502.08545](https://arxiv.org/abs/2502.08545)&rbrack;
 
 
-    
 See also:
 
 * Wikipedia, *[Born rule](https://en.wikipedia.org/wiki/Born_rule)*
+
+
+On [[category theory|category theoretic]] formulations of the Born rule:
+
+* [[Hisham Sati]], [[Urs Schreiber]]; equations (9), (222) in: *[[schreiber:The Quantum Monadology|The Quantum Monadology]]*, Quantum Studies: Mathematics and Foundations **12** 25 (2025) &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735), [doi:10.1007/s40509-025-00368-5](https://doi.org/10.1007/s40509-025-00368-5)&rbrack;
+
+* Boyu Yang, [[James Fullwood]]: *The Born rule as a natural transformation of functors*, Found Phys **56** 16 (2026) &lbrack;[arXiv:2509.08323](https://arxiv.org/abs/2509.08323), [doi:10.1007/s10701-026-00918-w](https://doi.org/10.1007/s10701-026-00918-w)&rbrack;
+
 
 
 [[!redirects Born-Pauli rule]]
