@@ -18,6 +18,11 @@ On [[Bayesian inversion]] for [[quantum systems]] (via [[quantum channels]] and 
 
 * [[Arthur J. Parzygnat]], [[James Fullwood]]: *Time-symmetric correlations for open quantum systems* &lbrack;[arXiv:2407.11123](https://arxiv.org/abs/2407.11123)&rbrack;
 
+On [[category theory|category theoretic]] formulation of the [[Born rule]] in [[quantum physics]] as a [[natural transformation]]:
+
+* Boyu Yang, [[James Fullwood]]: *The Born rule as a natural transformation of functors*, Found Phys **56** 16 (2026) &lbrack;[arXiv:2509.08323](https://arxiv.org/abs/2509.08323), [doi:10.1007/s10701-026-00918-w](https://doi.org/10.1007/s10701-026-00918-w)&rbrack;
+
+
 
 category: people
 
