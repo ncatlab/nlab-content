@@ -1,3 +1,4 @@
+
 This page is to record the reference:
 
 * [[Paul Taylor]]:
@@ -49,4 +50,5 @@ category: reference
 
 [[!redirects Practical Foundations]]
 [[!redirects Practical Foundations of Mathematics]]
+[[!redirects Practical Foundations of Mathematics (Taylor)]]
 [[!redirects PFM]]
