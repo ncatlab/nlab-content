@@ -139,7 +139,8 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 * [[Steve Awodey]], _[Category Theory](http://www.andrew.cmu.edu/course/80-413-713/) -- lecture 7_ ([pdf](http://www.andrew.cmu.edu/course/80-413-713/notes/chap07.pdf))
  {#Awodey}
 
-* [[Yves Lafont]], Towards an algebraic theory of Boolean circuits, February 12, 2013.  ([pdf](http://iml.univ-mrs.fr/~lafont/pub/circuits.pdf))
+* [[Yves Lafont]], Towards an algebraic theory of Boolean circuits, February 12, 2013.  ([pdf](https://www.i2m.univ-amu.fr/perso/yves.lafont/pub/circuits.pdf)) ([doi](https://doi.org/10.1016/S0022-4049%2803%2900069-0))
+
 
 * {#Grandis01} [[Marco Grandis]], _Finite sets and symmetric simplicial sets_, Theory and Applications of Categories 8 (2001): 244-252 ([pdf](http://www.tac.mta.ca/tac/volumes/8/n8/n8.pdf))
 
