@@ -160,15 +160,16 @@ General introduction to Euclidean and thermal field theory includes [Thoma 00, s
 
 * [[infinite-temperature thermal field theory]]
 
+
 ## References
 
 ### General
 
-General introduction to Euclidean field theory includes
+General introduction to Euclidean field theory:
 
 * {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
 
-A systematic development of Euclidean [[renormalization|renormalized]] [[perturbative quantum field theory]] with [[correlators as differential forms on configuration spaces of points]] is described in
+A systematic development of Euclidean [[renormalization|renormalized]] [[perturbative quantum field theory]] with [[correlators as differential forms on configuration spaces of points]]:
 
 * {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_ ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633))
 
@@ -180,6 +181,7 @@ A systematic development of Euclidean [[renormalization|renormalized]] [[perturb
 * {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
 
 
+
 ### Thermal quantum field theory
 
 Introductions:
@@ -188,7 +190,12 @@ Introductions:
 
 * Alberto Salvio: *Introduction to Thermal Field Theory* &lbrack;[arXiv:2411.02498](https://arxiv.org/abs/2411.02498)&rbrack;
 
-The idea of Wick rotating thermal relativistic field theory to compact periodic Euclidean time apparently goes back to 
+Axiomatics:
+
+* Jacques Bros, [[Detlev Buchholz]]: *Axiomatic Analyticity Properties and Representations of Particles in Thermal Quantum Field Theory*, Annales de l'I.H.P. Physique théorique **64** 4 (1996) 495-521  &lbrack;[arXiv:hep-th/9606046](https://arxiv.org/abs/hep-th/9606046), [numdam:AIHPA_1996__64_4_495_0](https://www.numdam.org/item/?id=AIHPA_1996__64_4_495_0), [eudml:76729](https://eudml.org/doc/76729)&rbrack;
+
+
+The idea of [[Wick rotation|Wick rotating]] thermal relativistic field theory to compact periodic Euclidean time apparently goes back to 
 
 * {#Bloch58} Claude Bloch, _Sur la détermination de l'état fondamental d'un système de particules_,  Nucl. Phys. 7 (1958) 451
 
@@ -196,7 +203,7 @@ This has maybe first been made precise, for the case of 1+1 dimensions, in
 
 * {#HoeghKrohn74} [[Raphael Høegh-Krohn]], _Relativistic Quantum Statistical Mechanics in two-dimensional Space-Time_, Communications in Mathematical Physics 38.3 (1974): 195-224 ([pdf](https://www.duo.uio.no/bitstream/handle/10852/44072/1973-22.pdf))
 
-A systematic discussion of the [[Osterwalder-Schrader theorem]] on [[Wick rotation]] for the case of thermal field theory/periodic Euclidean time is in 
+Systematic discussion of the [[Osterwalder-Schrader theorem]] on [[Wick rotation]] for the case of thermal field theory/periodic Euclidean time:
 
 * {#KleinLandau81} Abel Klein, Lawrence Landau, _Periodic Gaussian Osterwalder-Schrader positive processes and the two-sided Markov property on the circle_, Pacific Journal of Mathematics, Vol. 94, No. 2, 1981 ([
 DOI: 10.2140/pjm.1981.94.341](https://msp.org/pjm/1981/94-2/p12.xhtml), [pdf](https://msp.org/pjm/1981/94-2/pjm-v94-n2-p12-s.pdf))
