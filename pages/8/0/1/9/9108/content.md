@@ -51,6 +51,9 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 * Jongmin Park, Jaewon Shin, Hyun Seok Yang, *Unification of Einstein Manifolds* &lbrack;[arXiv:2109.00001](https://arxiv.org/abs/2109.00001)&rbrack;
 
+* David Kokoška, Marcello Ortaggio: *On type II(D) Einstein spacetimes in six dimensions* &lbrack;[arXiv:2602.18074](https://arxiv.org/abs/2602.18074)&rbrack;
+
+
 
 [[!redirects Einstein manifolds]]
 
