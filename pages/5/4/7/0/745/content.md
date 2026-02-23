@@ -190,6 +190,10 @@ For a proof, see
 
 * [[functors and comma categories]]
 
+### Comma categories and topoi
+
+When $C,D$ are [[topoi]] and $f:C\to D$ preserves pullbacks, $1_D/f$ is a topos too - see [[Artin gluing]] for details. This is a generalisation of the fact that slice categories of topoi are topoi.
+
 ## Related concepts
 
 * [[Quillen's theorem A]]
