@@ -118,6 +118,9 @@ A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant
 
 * [[Stefan Bauer]]: *A stable cohomotopy refinement of Seiberg-Witten invariants: II*,  Invent. math. **155** (2004) 21–40 &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267), [doi:10.1007/s00222-003-0289-4](https://doi.org/10.1007/s00222-003-0289-4)&rbrack;
 
+* [[Markus Szymik]]: *Characteristic cohomotopy classes for families of 4-manifolds*, Forum Math. **22** (2010) 509--523 &lbrack;[arXiv:2002.01738](https://arxiv.org/abs/2002.01738), [doi:10.1515/forum.2010.027](https://doi.org/10.1515/forum.2010.027)&rbrack;
+
+
 Review:
 
 * Ming Xu: *The Bauer-Furuta invariant and a Cohomotopy refined Ruberman invariant*, PhD thesis, Stony Brook (2004) &lbrack;[[Xu-BauerFurutaInvariant.pdf:file]], [pdf](https://www.math.stonybrook.edu/alumni/2004-Ming-Xu.pdf)&rbrack;
