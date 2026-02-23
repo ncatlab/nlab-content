@@ -111,7 +111,7 @@ The interpretation of def. \ref{ComprehensionCategory} is as follows:
 
 In a comprehension category, we may regard the objects of $C$ as [[contexts]], and the [[fiber]] $E^\Gamma$ of $E\to C$ over an object $\Gamma$ as the category of [[dependent types]] in context $\Gamma$.  If the comprehension category is split (def. \ref{FullAndSplitComprehensionCategory}), then such dependent types have strictly [[associativity|associative]] [[substitution]].
 
-The functor $E\to C^I$ assigns to each "type $A$ in context $\Gamma$" a new context which we think of as $\Gamma$ *extended* by a fresh [[variable]] of type $A$, and write as $\Gamma.A$.  This new context $\Gamma.A$ comes with a projection $\Gamma.A\to \Gamma$ (which forgets the fresh variable), and all substitutions in $E$ are realized as pullbacks in $C$.
+The functor $E\to C^I$ assigns to each "type $A$ in context $\Gamma$" a new context which we think of as $\Gamma$ *extended* by a fresh [[variable]] of type $A$, and write as $\Gamma \cdot A$.  This new context $\Gamma \cdot A$ comes with a projection $\Gamma \cdot A\to \Gamma$ (which forgets the fresh variable), and all substitutions in $E$ are realized as pullbacks in $C$.
 
 =--
 
@@ -193,7 +193,7 @@ in type theory.
 +-- {: .num_remark}
 ###### Remark
 
-A [[term]] of the form (eq:cmpcterm) can equivalently be regarded as a term of the form (eq:cwfterm) by replacing $\Gamma$ by the extended context $\Gamma.A$, and $B$ by its substitution along the projection $\Gamma.A \to \Gamma$.
+A [[term]] of the form (eq:cmpcterm) can equivalently be regarded as a term of the form (eq:cwfterm) by replacing $\Gamma$ by the extended context $\Gamma \cdot A$, and $B$ by its substitution along the projection $\Gamma \cdot A \to \Gamma$.
 
 =--
 
@@ -278,7 +278,7 @@ Recall that
 ###### Definition
 
 
-If $C$ is a [[comprehension category]] (def. \ref{ComprehensionCategory}), $\Gamma\in C$ is a "context" and $A\in E^\Gamma$ is a "type" in context $\Gamma$, then we denote by $\Gamma.A$ the "extended context" in $C$ (remark \ref{MeaningOfComprehensionCategory}).
+If $C$ is a [[comprehension category]] (def. \ref{ComprehensionCategory}), $\Gamma\in C$ is a "context" and $A\in E^\Gamma$ is a "type" in context $\Gamma$, then we denote by $\Gamma \cdot A$ the "extended context" in $C$ (remark \ref{MeaningOfComprehensionCategory}).
 
 =--
 
@@ -288,8 +288,8 @@ If $C$ is a [[comprehension category]] (def. \ref{ComprehensionCategory}), $\Gam
 A **[[contextual category]]** ([Cartmell 86](#Cartmell86), [Streicher 91](#Streicher91)) or **C-system** ([Voevodsky 15](#Voevodsky15a)) is a category with attributes $C$ (def. \ref{CategoryWithAttributes}) together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
 
 1. There is a unique object of length $0$, which is a [[terminal object]].
-1. For any $\Gamma\in C$ and $A\in E^\Gamma$, we have $\ell(\Gamma.A) = \ell(\Gamma)+1$.
-1. For any $\Delta\in C$ with $\ell(\Delta)\gt 0$, there exists a unique $\Gamma\in C$ and $A\in E^\Gamma$ such that $\Delta = \Gamma.A$ (with notation as in def. \ref{NotationForExtendedContexts}).
+1. For any $\Gamma\in C$ and $A\in E^\Gamma$, we have $\ell(\Gamma \cdot A) = \ell(\Gamma)+1$.
+1. For any $\Delta\in C$ with $\ell(\Delta)\gt 0$, there exists a unique $\Gamma\in C$ and $A\in E^\Gamma$ such that $\Delta = \Gamma \cdot A$ (with notation as in def. \ref{NotationForExtendedContexts}).
 
 =--
 
