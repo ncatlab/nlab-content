@@ -1,5 +1,11 @@
 
-* [webpage](http://www.math.ntnu.no/~markussz)
+* [personal page](https://szymik.github.io/)
+
+* [institute page](https://sheffield.ac.uk/mps/people/all-academic-staff/markus-szymik)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=74651)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=rxId9ZgAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -8,6 +14,11 @@ On [[Brauer ∞-groups]]
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_, Manifolds and K-theory. Contemp. Math. 682 (2017) 189-208 ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
+
+On [[stable Cohomotopy]] in [[Seiberg-Witten theory]] ([Bauer-Furuta invariants](Seiberg-Witten+theory#ReferencesSeibergWittenInvariantsInStableHomotopy)):
+
+* [[Markus Szymik]]: *Characteristic cohomotopy classes for families of 4-manifolds*, Forum Math. **22** (2010) 509--523 &lbrack;[arXiv:2002.01738](https://arxiv.org/abs/2002.01738), [doi:10.1515/forum.2010.027](https://doi.org/10.1515/forum.2010.027)&rbrack;
+
 
 On [[K3-spectra]]:
 
