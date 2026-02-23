@@ -108,6 +108,11 @@ The version for [[fermion]]/[[spinor]] [[field (physics)|fields]]:
 
 * [[Jürg Fröhlich]], [[Konrad Osterwalder]]: *Is There a Euclidean Field Theory for Fermions*, Helv. Phys. Acta **47** (1975) 781 &lbrack;[doi:10.5169/seals-114595](https://doi.org/10.5169/seals-114595), [spire:1330](https://inspirehep.net/literature/1330), [[FrohlichOsterwalder1975.pdf:file]]&rbrack;
 
+Further discussion: 
+
+* Yu. M. Zinoviev: *Equivalence of the Euclidean and Wightman Field Theories*, Commun. Math. Phys. **174** (1995) 1-28 &lbrack;[arXiv:hep-th/9408009](https://arxiv.org/abs/hep-th/9408009), [doi:10.1007/3-540-59190-7_25](https://doi.org/10.1007/3-540-59190-7_25)&rbrack;
+
+
 Exposition:
 
 * Dirk Schlingemann: _From euclidean field theory to quantum field theory_, Rev. Math. Phys. **11** (1999) 1151-1178 &lbrack;[arXiv:hep-th/9802035](http://arxiv.org/abs/hep-th/9802035), [doi:10.1142/S0129055X99000362](https://doi.org/10.1142/S0129055X99000362)&rbrack;
