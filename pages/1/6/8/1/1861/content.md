@@ -1642,7 +1642,7 @@ On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] 
 
 Cohomotopy sets of [[projective spaces]]:
 
-* {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
+* {#West71} Robert West: _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal **20** 9 (1971) 807-827 &lbrack;[jstor:24890146](https://www.jstor.org/stable/24890146)&rbrack;
 
 On 2-cohomotopy sets of [[3-manifolds]] in the context of the [[Skyrme-Fadeev model]]:
 
@@ -1663,16 +1663,16 @@ On cohomotopy sets of [[4-manifolds]]:
 
 Cohomotopy sets of [[Thom spaces]]:
 
-* [[Thomas Rot]], _Homotopy classes of proper maps out of vector bundles_,  Arch. Math. 114, 107–117 (2020 ([arXiv:1808.08073](https://arxiv.org/abs/1808.08073), [doi:10.1007/s00013-019-01372-z](https://doi.org/10.1007/s00013-019-01372-z))
+* [[Thomas Rot]]: _Homotopy classes of proper maps out of vector bundles_,  Arch. Math. **114** (2020) 107–117 &lbrack;[arXiv:1808.08073](https://arxiv.org/abs/1808.08073), [doi:10.1007/s00013-019-01372-z](https://doi.org/10.1007/s00013-019-01372-z)&rbrack;
 
 In relation to [[quaternionic line bundles]] over [[5-manifolds]]:
 
-* [[Panagiotis Konstantis]], _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications Volume 23 (2021) Number 1 ([arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9))
+* [[Panagiotis Konstantis]]: _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications **23** 1 (2021) &lbrack;[arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9)&rbrack;
 
 
 Cohomotopy sets of [[spin structure|spin]]-manifolds in co-degree 1:
 
-* [[Panagiotis Konstantis]], _A counting invariant for maps into spheres and for zero loci of sections of vector bundles_,  Abh. Math. Semin. Univ. Hambg. (2020) ([arXiv:1911.03214](https://arxiv.org/abs/1911.03214), [doi:10.1007/s12188-020-00228-6](https://doi.org/10.1007/s12188-020-00228-6))
+* [[Panagiotis Konstantis]]: _A counting invariant for maps into spheres and for zero loci of sections of vector bundles_,  Abh. Math. Semin. Univ. Hambg. (2020) &lbrack;[arXiv:1911.03214](https://arxiv.org/abs/1911.03214), [doi:10.1007/s12188-020-00228-6](https://doi.org/10.1007/s12188-020-00228-6)&rbrack;
 
 On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to [[equivariant Cohomotopy]]:
 
