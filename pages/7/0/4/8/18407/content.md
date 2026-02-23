@@ -1,4 +1,6 @@
 
+Morris William Hirsch
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Morris_Hirsch)
 
 ## Selected writings
