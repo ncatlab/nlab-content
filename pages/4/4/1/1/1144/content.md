@@ -1230,12 +1230,13 @@ Generalization to [[deck transformation|deck]]-[[Borel-equivariant rational homo
 * {#BrownSzczarba93} [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
 * {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
-
   > (also discussing [[real homotopy theory]]);
 
 * [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0))
 
 * [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
+
+* Eleftherios Chatzitheodoridis: *A modern perspective on rational homotopy theory* &lbrack;[arXiv:2505.23322](https://arxiv.org/abs/2505.23322)&rbrack;
 
 
 On this non-nilpotent generalization see also:
