@@ -1654,11 +1654,16 @@ Original articles:
 * [[Lawrence Breen]], Th&#233;orie de Schreier sup&#233;rieure, Ann. Sci. &#201;cole Norm. Sup. (4) 25 (1992), no. 5, 465--514 [numdam](http://www.numdam.org/item?id=ASENS_1992_4_25_5_465_0). 
 
 
-Textbooks accounts
+Textbooks accounts:
 
-* A. G. Kurosh, Theory of groups 
+* A. G. Kurosh (translated by K. Hirsch): *Theory of Groups*, Chelsea Publishing (1960, 1965) &lbrack;[ark:/13960/s201vm968q1](https://archive.org/details/a.-g.-kurosh-the-theory-of-groups-volume-1-1960), [pdf](http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf)&rbrack;
 
 * [[Kenneth Brown]]: _Cohomology of Groups_, Graduate Texts in Mathematics **87**, Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
+
+* {#Rotman1995} [[Joseph J. Rotman]]; chapter 7 of: *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
+
+* David S. Dummit, Richard M. Foote; p. 384 of: *Abstract Algebra*, Wiley (2003) &lbrack;[ISBN:978-0-471-43334-7](https://www.wiley.com/en-us/Abstract+Algebra%2C+3rd+Edition-p-9780471433347), [pdf](https://rksmvv.ac.in/wp-content/uploads/2021/04/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf)&rbrack;
+
 
 Lecture and course notes, etc.:
 
