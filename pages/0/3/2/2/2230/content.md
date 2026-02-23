@@ -32,7 +32,12 @@ In [[group theory]], by the "*holomorph*" $Hol(G)$ of a ([[discrete group|discre
 ## References
 
 * [[Marshall Hall]], §6.3 in: *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:978-0-4868-1690-6](https://store.doverpublications.com/products/9780486816906)&rbrack;
-* A. G. Kurosh, _Teorija grupp_ (Теория групп), 2 vols., Nauka 1944, 2nd edition 1953. English transl. _The theory of groups_, Chelsea, NY 1960 [archive](https://archive.org/embed/theoryofgroups0002kuro)
+
+* A. G. Kurosh (translated by K. Hirsch); §13 in: *Theory of Groups*, Chelsea Publishing (1960, 1965) &lbrack;[ark:/13960/s201vm968q1](https://archive.org/details/a.-g.-kurosh-the-theory-of-groups-volume-1-1960), [pdf](http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf)&rbrack;
+
+
+See also:
+
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Holomorph_(mathematics)">Holomorph (mathematics)</a>*
 
 * [[Groupprops]], *[Holomorph of a group](https://groupprops.subwiki.org/wiki/Holomorph_of_a_group)* 
