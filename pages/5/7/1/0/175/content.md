@@ -59,6 +59,8 @@ in general:
 
 * [[Marshall Hall]], *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
 
+* A. G. Kurosh (translated by K. Hirsch): *Theory of Groups*, Chelsea Publishing (1960, 1965) &lbrack;[ark:/13960/s201vm968q1](https://archive.org/details/a.-g.-kurosh-the-theory-of-groups-volume-1-1960), [pdf](http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf)&rbrack;
+
 * Israel Grossman, [[Wilhelm Magnus]]: *[[Groups and Their Graphs]]*, Random House (1964), reprinted by: Anneli Lax New Mathematical Library **14** MMA (1992) &lbrack;[jstor:10.4169/j.ctt19b9mc7](https://www.jstor.org/stable/10.4169/j.ctt19b9mc7)&rbrack;
 
 * John S. Rose: *A Course on Group Theory*, Cambridge University Press (1978) &lbrack;[ISBN:9780521291422](https://www.cambridge.org/ae/universitypress/subjects/mathematics/algebra/course-group-theory?format=PB&isbn=9780521291422), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rose%20a-course-on-group-theory.pdf)&rbrack;
