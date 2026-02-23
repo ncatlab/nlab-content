@@ -443,7 +443,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#stone_markov} Dexter Kozen, Kim G. Larsen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of LICS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/mfcs2013.pdf))
 
-* {#markov_logid} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
+* {#markov_logic} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
 
 * {#krn_ext} Dexter Kozen, Alexandra Silva, Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
 
@@ -519,7 +519,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#independence} [[Alex Simpson]], _Category-theoretic structure for independence and conditional independence_, ENTCS, 2018. ([link](https://www.sciencedirect.com/science/article/pii/S1571066118300318))
 
-* {#atomic_sheaf} [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logid_, Proceedings of LICS, 2024. ([arXiv](https://arxiv.org/abs/2405.11073))
+* {#atomic_sheaf} [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logic_, Proceedings of LICS, 2024. ([arXiv](https://arxiv.org/abs/2405.11073))
 
 * {#string_graded} Ralph Sarkis and [[Fabio Zanasi]], _String Diagram for Graded Monoidal Theories with an Application to Imprecise Probability_, 2025. ([arXiv](https://arxiv.org/abs/2501.18404))
 
