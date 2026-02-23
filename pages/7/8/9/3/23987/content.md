@@ -1724,7 +1724,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   **Topological Defects in Floquet Circuits**
 
-  > I will discuss how one may construct Floquet models from a [[fusion category]], and how this formalism is a natural way to construct [[topological defects]]: non-local operators that can be deformed in the space and time direction without changing the physics. One of these topological defects is the "duality defect" that implements the Kramers-Wannier duality transformation and is a "non-invertible symmetry" as it projects out states of a given parity. I will highlight the consequence of the duality defect on Floquet time-evolution, first for the exactly solvable Floquet-Ising model, and then by adding integrability breaking perturbations to the model.
+  > I will discuss how one may construct [[Floquet theory|Floquet]] models from a [[fusion category]], and how this formalism is a natural way to construct [[topological defects]]: non-local operators that can be deformed in the space and time direction without changing the physics. One of these topological defects is the "duality defect" that implements the Kramers-Wannier duality transformation and is a "non-invertible symmetry" as it projects out states of a given parity. I will highlight the consequence of the duality defect on Floquet time-evolution, first for the exactly solvable Floquet-Ising model, and then by adding integrability breaking perturbations to the model.
 
 
 * Nadia Boutabba (Institute of Applied Technology, FCHS):
@@ -3277,7 +3277,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > To date, the error rates of the best single-qubit and multi-qubit operations in these systems are of order 1 in 10000 to 1 in 1000. However, resource estimates for the most promising quantum algorithms indicate that we will need error rates of order 1 in 1 billion or less for useful quantum computation. Quantum error correction is the key to filling the seemingly large gap between these resource estimates and the state of the art in quantum hardware. In this talk, I will discuss quantum computation using [[quantum error correction|error-corrected qubits]], providing a survey of recently published experimental results and highlighting opportunities for further exploration, including in research, software and hardware development, and pedagogy.
 
-  
+
+\linebreak
+
+* {#ZhouFeb2026} 23 Feb 2026
+
+  Longwen Zhou (Ocean University of China):
+
+  **Floquet Topology at Quantum Criticality**
+
+  cf.: [arXiv:2602.12588](https://arxiv.org/abs/2602.12588)
+
+  > Periodically driven ([[Floquet theory|Floquet]]) systems have attracted growing attention due to the emergence of intriguing phenomena that are absent in equilibrium physics. In this talk, I will present a new class of Floquet criticality discovered in our recent work. For generic driven Majorana fermion chains with chiral symmetry, we analytically demonstrate that Floquet driving can enrich the transition point, resulting in topologically distinct quantum critical lines that are absent in undriven systems. Furthermore, we provide an intuitive physical explanation for the underlying mechanism of the nontrivial topology at Floquet criticality and generalize our results to higher dimensions. This work not only extends the scope of topological physics in Floquet systems but also deepens our understanding of gapless [[topological phases of matter]].
+ 
 
 \linebreak
 
