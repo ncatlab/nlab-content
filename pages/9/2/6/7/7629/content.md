@@ -1,5 +1,11 @@
 
-* [webpage](http://www.theorie.physik.uni-goe.de/~buchholz/)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Detlev_Buchholz)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=108660)
+
+* [inSpire page](https://inspirehep.net/authors/1015072)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=BryR9J4AAAAJ&hl=de)
 
 ## Selected writings
 
@@ -13,6 +19,12 @@ On the [[Gauss law]] in relation to non-[[local field theory|locality]] of charg
 * [[Giovanni Morchio]], [[Franco Strocchi]], *Localization and symmetries*, J. Phys. A **40** (2007) 3173-3188 &lbrack;[arXiv:math-ph/0607015](https://arxiv.org/abs/math-ph/0607015), [doi:10.1088/1751-8113/40/12/S17](https://doi.org/10.1088/1751-8113/40/12/S17)&rbrack;
 
 * [[Detlev Buchholz]], Fabio Ciolli, [[Giuseppe Ruzzi]], Ezio Vasselli, *Gauss's law, the manifestations of gauge fields, and their impact on local observables* &lbrack;[arXiv:2212.11009](https://arxiv.org/abs/2212.11009)&rbrack;
+
+On axiomatic [[thermal quantum field theory]]:
+
+* Jacques Bros, [[Detlev Buchholz]]: *Axiomatic Analyticity Properties and Representations of Particles in Thermal Quantum Field Theory*, Annales de l'I.H.P. Physique théorique **64** 4 (1996) 495-521  &lbrack;[arXiv:hep-th/9606046](https://arxiv.org/abs/hep-th/9606046), [numdam:AIHPA_1996__64_4_495_0](https://www.numdam.org/item/?id=AIHPA_1996__64_4_495_0), [eudml:76729](https://eudml.org/doc/76729)&rbrack;
+
+
 
 Examples of [[non-perturbative quantum field theory|non-perturbative]] [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] (in particular in $d \geq 4$):
 
