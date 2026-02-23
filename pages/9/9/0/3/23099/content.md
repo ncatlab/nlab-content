@@ -101,6 +101,7 @@ Further discussion of fiberwise rational homotopy theory:
 
 * [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], Thm. 16 of:  *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
 
+* Eleftherios Chatzitheodoridis: *A modern perspective on rational homotopy theory* &lbrack;[arXiv:2505.23322](https://arxiv.org/abs/2505.23322)&rbrack;
 
 
 
