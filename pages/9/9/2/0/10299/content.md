@@ -185,14 +185,13 @@ Discussion of the [[Witten genus]] of Cayley plane-[[fiber bundles]] is in
 
 Indications that [[M-theory]] in 10+1 dimensions may be understood as the [[KK-compactification]] on Cayley-plane [[fibers]] of some kind of [[bosonic M-theory]] in 26+1 dimensions:
 
-* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, Commun. Num. Theor. Phys **3** (2009) 495-530 &lbrack;[arXiv:0807.4899](https://arxiv.org/abs/0807.4899)&rbrack;
 
 * [[Hisham Sati]], _On the geometry of the supermultiplet in M-theory_, Int. J. Geom. Meth. Mod. Phys. 8 (2011) 1-33 ([arXiv:0909.4737](https://arxiv.org/abs/0909.4737))
 
-* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
-([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+* [[Michael Rios]], [[Alessio Marrani]], [[David Chester]]: _Exceptional Super Yang-Mills in $D = 27 + 3$ and Worldvolume M-Theory_, Phys. Lett. B **808** (2020) 135674 &lbrack;[arXiv:1906.10709](https://arxiv.org/abs/1906.10709), [doi:10.1016/j.physletb.2020.135674](https://doi.org/10.1016/j.physletb.2020.135674)&rbrack;
 
-* {#Mimura67} Mamoru Mimura, _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. 6 (2) 131 - 176, 1967. [https://doi.org/10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)
+* {#Mimura67} Mamoru Mimura: _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. 6 (2) 131 - 176, 1967. [https://doi.org/10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)
 
 
 [[!redirects Cayley planes]]
