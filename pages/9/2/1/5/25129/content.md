@@ -37,9 +37,6 @@ Generalization to [[initial algebra of a presentable (infinity,1)-monad|homotopy
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 $[$[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)$]$
 
 
-* {#vdBergMoerdijk13} [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_, Mathematical Structures in Computer Science **25** Special Issue 5: *From type theory and homotopy theory to Univalent Foundations of Mathematics* (2015) 1100-1115  &lbrack;[arXiv:1307.2765](http://arxiv.org/abs/1307.2765), [doi:10.1017/S0960129514000516](https://doi.org/10.1017/S0960129514000516)&rbrack;
-
-
 Towards combining generalization to dependent and homotopical W-types:
 
 * [[Christian Sattler]], _On relating indexed W-types with ordinary ones_, in *[Types for Proofs and Programs -- TYPES 2015](https://cs.ioc.ee/types15/abstracts-book/)* (2015) 71-72 $[$[pdf](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf), [[Sattler-WTypes.pdf:file]]$]$
