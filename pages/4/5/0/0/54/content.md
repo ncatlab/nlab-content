@@ -34,6 +34,8 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Urs_Schreiber)
 
+* [Grokipedia entry](https://grokipedia.com/page/urs_schreiber)
+
 \linebreak
 
 ## Contact
