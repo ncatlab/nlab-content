@@ -30,7 +30,7 @@ A clan is a [[category]] with a [[terminal object]] equipped with a sub-[[class]
 
 1. for every [[object]] $X$ the [[terminal object|terminal map]] $X \to \ast$ is in $Fib$ (hence all objects are [[fibrant object|fibrant]], cf. *[[category of fibrant objects]]*),
 
-1. for $f \in Fib$ and $h$ any [[cospan|coincident]] morphism, the [[base change]] ([[pullback]])  $h^\ast f$ exits and is in $Fib$ (this interprets [[context extension]])
+1. for $f \in Fib$ and $h$ any [[cospan|coincident]] morphism, the [[base change]] ([[pullback]])  $h^\ast f$ exists and is in $Fib$ (this interprets [[substitution]] of types)
 
 1. for composable $f,g \in Fib$ also their [[composition]] $g \circ f \in Fib$ (this interprets [[dependent pair type]]-[[type formation]])
 
