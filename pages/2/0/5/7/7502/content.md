@@ -845,8 +845,13 @@ General properties of the pushout product are described in Sections 4 and 5 of
 
 where the definition of $\widehat{\otimes}$ from $\otimes$ is called the **Leibniz construction**.
 
+The pushout-product for [[wild categories]] in [[homotopy type theory]] and [[Segal types]] in [[simplicial type theory]] is discussed in:
+
+* {#JKL26} [[Tom de Jong]], [[Nicolai Kraus]], [[Axel Ljungström]], *The Leibniz adjunction in homotopy type theory, with an application to simplicial type theory* ([arXiv:2601.21843](https://arxiv.org/abs/2601.21843))
+
 [[!redirects pushout product]]
 [[!redirects pushout-products]]
 [[!redirects pushout products]]
 [[!redirects Leibniz construction]]
 [[!redirects Leibniz constructions]]
+
