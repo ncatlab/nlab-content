@@ -405,6 +405,9 @@ In view of [[electric-magnetic duality]] ("[[S-duality]]"):
 
 The [[lattice gauge theory|lattice]] formulation:
 
+* Changnan Peng, [[Maria Cristina Diamantini]], Lena Funcke, Syed Muhammad Ali Hassan, Karl Jansen, Stefan Kühn, Di Luo, Pranay Naredi: *Hamiltonian Lattice Formulation of Compact Maxwell-Chern-Simons Theory* &lbrack;[arXiv:2407.20225](https://arxiv.org/abs/2407.20225)&rbrack;
+
+
 * Ze-An Xu, Jing-Yuan Chen: *Lattice Chern-Simons-Maxwell Theory and its Chirality*, JHEP 08 (2025) 062 \[<a href="https://doi.org/10.1007/JHEP08(2025)062">doi:10.1007/JHEP08(2025)062</a>, [arXiv:2410.11034](https://arxiv.org/abs/2410.11034)\]
 
 * Yo Ikeda: *A Lattice $U(1)$ Chern-Simons Theory via Lattice Deligne-Beilinson Cohomology* &lbrack;[arXiv:2601.15939](https://arxiv.org/abs/2601.15939)&rbrack;
