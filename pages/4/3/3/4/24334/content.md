@@ -206,7 +206,7 @@ In [Rasekh 25](#Rasekh25), the author showed that there are other $(\infty,1)$-c
 
 There are many generalizations of simplicial type theory, where the [[directed interval]] is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
 
-* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] for the [[directed interval]] in their versions of simplicial type theory called [[triangulated type theory]]. The theory has semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
+* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] for the [[directed interval]] in their versions of simplicial type theory called [[triangulated type theory]]. [de Jong, Kraus, & Ljungström 2026](#JKL26) also use a distributive lattice in their version of simplicial type theory. The theory has semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
 
 * [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] for the [[directed interval]] in their version of simplicial type theory for [[synthetic domain theory]]. The synthetic quasi-coherence axiom is not required for the results of this paper, which instead assumes only [[Phoa's principle]] (which is equivalent to quasi-coherence for free finitely generated algebras).
 
@@ -261,6 +261,8 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 * {#Rasekh25} [[Nima Rasekh]], *Simplicial Homotopy Type Theory is not just Simplicial: What are $\infty$-Categories?* &lbrack;[arXiv:2508.07737](https://arxiv.org/abs/2508.07737)&rbrack;
 
 * [[Emily Riehl]]: _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
+
+* {#JKL26} [[Tom de Jong]], [[Nicolai Kraus]], [[Axel Ljungström]], *The Leibniz adjunction in homotopy type theory, with an application to simplicial type theory* ([arXiv:2601.21843](https://arxiv.org/abs/2601.21843))
 
 * {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2602.02218](https://arxiv.org/abs/2602.02218))
 
