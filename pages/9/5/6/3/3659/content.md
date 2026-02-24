@@ -30,7 +30,7 @@ In this sense the Osterwalder--Schrader theorem states and proves conditions tha
 ## Axioms of euclidean field theory
 
 The axioms of euclidean field theory are the euclidean analogue of the [[Wightman axioms]] on Minkowski spacetime.
-The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$. In the original paper of Osterwalder and Schrader the axioms are given in terms of the Schwinger functions. Here the axioms are given in a form more directly related to the measure on field space and its characteristic function, rather than the Schwinger functions themselves. This form was first presented by [[Jürg Fröhlich]].
+The axioms may be formulated for tempered distributions, but we follow the lines of [Glimm & Jaffe 1981](#GlimmJaffe81) and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$. In the original paper of Osterwalder and Schrader the axioms are given in terms of the Schwinger functions. Here the axioms are given in a form more directly related to the measure on field space and its characteristic function, rather than the Schwinger functions themselves. This form was first presented by [[Jürg Fröhlich]].
 We define the generating functional on $\mathcal{D}(\mathbb{R}^d)$
 $$
   S(f) 
@@ -119,7 +119,8 @@ Exposition:
 
 Monograph in the context of [[constructive field theory]]:
 
-* {#GlimmJaffe81} [[James Glimm]], [[Arthur Jaffe]]: *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*,  Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
+* {#GlimmJaffe81} [[James Glimm]], [[Arthur Jaffe]]; Sections 6.1 and 19 in: *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*,  Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
+  > (use stronger axioms, cf. Ftn. 81 on p. 80 in [KQS21](#KQS21))
 
 
 Discussion for compact/periodic Euclidean time, as in [[thermal quantum field theory]]:
@@ -129,7 +130,7 @@ Discussion for compact/periodic Euclidean time, as in [[thermal quantum field th
 
 Highlighting that the OS theorem depends on a *linear growth condition* which may be hard to verify (such as in [[conformal bootstrap]] applications), and reproof for [[conformal field theories]] without this condition:
 
-* Petr Kravchuk, Jiaxin Qiao, [[Slava Rychkov]]: *Distributions in CFT II. Minkowski Space*, J. High Energ. Phys. **2021** 94 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2021)094">doi:10.1007/JHEP08(2021)094</a>, [arXiv:2104.02090](https://arxiv.org/abs/2104.02090)&rbrack;
+* {#KQS21} Petr Kravchuk, Jiaxin Qiao, [[Slava Rychkov]]: *Distributions in CFT II. Minkowski Space*, J. High Energ. Phys. **2021** 94 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2021)094">doi:10.1007/JHEP08(2021)094</a>, [arXiv:2104.02090](https://arxiv.org/abs/2104.02090)&rbrack;
 
 Review with further critical comments on the state of the literature, going back to the original [OS '73](#OsterwalderSchrader73):
 
