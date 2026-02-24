@@ -101,6 +101,8 @@ Many of these examples are corollaries of the theory of _lex colimits_.
 
 * A. Brugui&#232;res, _On a tannakian theorem due to Nori_, [pdf](http://imag.umontpellier.fr/~bruguieres/docs/ntan.pdf); _Th&#233;orie tannakienne non commutative_, Comm. Algebra __22__, 5817&#8211;5860, 1994 
 
+* Tony Zorman, _Categorical Reconstruction Theory_ &lbrack;[arXiv:2602.19860](https://arxiv.org/abs/2602.19860)&rbrack;
+
 Lex colimits are discussed in:
 
 * [[Richard Garner]] and [[Stephen Lack]]. _Lex colimits_. Journal of Pure and Applied Algebra 216.6 (2012): 1372-1396.
