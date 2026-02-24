@@ -69,6 +69,10 @@ On [[Kronholm's freeness theorem]] in [[cyclic group of order 2|$\mathbb{Z}/2$]]
 
 * [[Daniel Dugger]], [[Christy Hazel]], [[Clover May]], *Equivariant $\mathbb{Z}/\ell$-modules for the cyclic group $C_2$*, Journal of Pure and Applied Algebra **228** 3 (2024) 107473 &lbrack;[arXiv:2203.05287](https://arxiv.org/abs/2203.05287), [doi:10.1016/j.jpaa.2023.107473](https://doi.org/10.1016/j.jpaa.2023.107473)&rbrack;
 
+On [[Bredon cohomology]]:
+
+* [[Daniel Dugger]], [[Christy Hazel]]: *The Bredon equivariant cohomology of a point for cyclic groups* &lbrack;[arXiv:2602.18680](https://arxiv.org/abs/2602.18680)&rbrack;
+
 
 ## Related entries
 
