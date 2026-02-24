@@ -82,6 +82,11 @@ See also:
 
 * Avi Wadhwa: *Soft Theorems in Chern-Simons Matter Theories* &lbrack;[arXiv:2509.02542](https://arxiv.org/abs/2509.02542)&rbrack;
 
+In the context of [[2-group]] [[global symmetry]]:
+
+* Jonah Berean-Dutcher, Maria Derda, Julio Parra-Martinez: *Soft Theorems from Higher Symmetries* &lbrack;[arXiv:2505.03566](https://arxiv.org/abs/2505.03566)&rbrack;
+
+
 
 
 [[!redirects soft graviton theorems]]
