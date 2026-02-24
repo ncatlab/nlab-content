@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[mathematical physics]]: [[topology]] ([[differential geometry|differential]]) [[geometry]] and [[gauge fields]]:
+On [[mathematical physics]]: [[topology]] ([[differential geometry|differential]]) [[geometry]] and [[gauge fields]] (cf. *[[fiber bundles in physics]]*):
 
 * [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
 
