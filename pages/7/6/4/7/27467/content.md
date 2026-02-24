@@ -1,4 +1,6 @@
 
+Maria Cristina Diamantini 
+
 * [institute page](https://www.unipg.it/personale/maria.diamantini/en/)
 
 * [inSpire page](https://inspirehep.net/authors/1011859)
@@ -17,6 +19,11 @@ On an experimentally accessible analog of [[confinement]], observed in [[superin
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], Valeri M. Vinokur: *Confinement and Asymptotic Freedom with Cooper pairs*, Nature Comm. Phys. **1** 77 (2018) &lbrack;[arXiv:1807.01984](https://arxiv.org/abs/1807.01984), [doi:10.1038/s42005-018-0073-9](https://doi.org/10.1038/s42005-018-0073-9)&rbrack;
 
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]]: *Superinsulators: a toy realization of QCD in condensed matter*, Ch. 23 in *Roman Jackiw -- 80th Birthday Festschrift*, World Scientific (2020) 275-286 &lbrack;[arXiv:2008.12541](https://arxiv.org/abs/2008.12541)&rbrack;
+
+
+On the [[lattice gauge theory|lattice]] formulation of [[Maxwell-Chern-Simons theory]]:
+
+* Changnan Peng, [[Maria Cristina Diamantini]], Lena Funcke, Syed Muhammad Ali Hassan, Karl Jansen, Stefan Kühn, Di Luo, Pranay Naredi: *Hamiltonian Lattice Formulation of Compact Maxwell-Chern-Simons Theory* &lbrack;[arXiv:2407.20225](https://arxiv.org/abs/2407.20225)&rbrack;
 
 
 category: people
