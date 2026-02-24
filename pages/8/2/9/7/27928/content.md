@@ -345,6 +345,10 @@ Review:
 
 * [[Gregory Moore]]; §2.2.3 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
 
+In the context of [[effective field theory|effective description]] of [[superconductivity]]:
+
+* [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
+
 
 In the context of [[effective field theory]] for [[FQH systems]] (cf. *[abelian Chern-Simons theory for FQH systems](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE)*):
 
