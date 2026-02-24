@@ -1,7 +1,9 @@
 
+\tableofcontents
+
 ## Definition
 
-A **wild category** is a 1-dimensional approximation of an [[nlab:infinity-category]] that is definable in [[Book HoTT]].  It consists of
+A **wild category** is a 1-dimensional approximation of an [[(infinity,1)-category|$(\infty,1)$-category]] that is definable in [[homotopy type theory]]. It consists of
 
 * A type $ob A$ of objects
 * For objects $x,y$ a type $A(x,y)$ of morphisms
@@ -21,3 +23,8 @@ For example, we can define an *initial object* in a wild category to be an objec
 * Nicolai Kraus, Jakob von Raumer, _Path Spaces of Higher Inductive Types in Homotopy Type Theory_, [arxiv](https://arxiv.org/abs/1901.06022), 2019
 
 * Mike Shulman, _Impredicative Encodings, Part 3_, [blog post](https://homotopytypetheory.org/2018/11/26/impredicative-encodings-part-3/), 2018
+
+* {#JKL26} [[Tom de Jong]], [[Nicolai Kraus]], [[Axel Ljungström]], *The Leibniz adjunction in homotopy type theory, with an application to simplicial type theory* ([arXiv:2601.21843](https://arxiv.org/abs/2601.21843))
+
+[[!redirects wild category]]
+[[!redirects wild categories]]
