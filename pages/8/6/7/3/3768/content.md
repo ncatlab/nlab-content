@@ -60,7 +60,7 @@ In summary/preview, the analogy is this:
 
 Let 
 
-* $\Sigma$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] 2 -- a real [[surface]];
+* $X$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] 2 -- a real [[surface]];
 
 * $G$ a [[connected topological space|connected]] [[topological group]].
 
