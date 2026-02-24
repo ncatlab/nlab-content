@@ -804,6 +804,10 @@ The original informal discussion for RG-flow along [[scaling transformations]] i
 
 * {#Symanzik70} [[Kurt Symanzik]],  _Small distance behaviour in field theory and power counting_, Communications in Mathematical Physics. 18 (3): 227–246 ([doi:10.1007/BF01649434](https://doi.org/10.1007/BF01649434))
 
+Formulation within the framework of [[functorial field theory]] appeared in the work
+
+* {#GritskovLosev25} Maxim Gritskov, Andrey Losev, _Beta function without ultraviolet divergences_, Journal of High Energy Physics Volume 2025, Issue 10, 14 October 2025, Article number 111 (<a href="https://doi.org/10.1007/JHEP10(2025)111">doi:10.1007/JHEP10(2025)111</a>)
+
 Formulation in the rigorous context of [[causal perturbation theory]]/[[pAQFT]], via the [[main theorem of perturbative renormalization]], is due to
 
 * {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
