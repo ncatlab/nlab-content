@@ -73,7 +73,7 @@ If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; c
 
 The set of covering sieves of an object $c$ is denoted $J(c)$. 
 
-A category equipped with a Grothendieck topology is called a **[[site]]** .
+A category equipped with a Grothendieck topology is called a **[[site]]**.
 
 
 +-- {: .num_remark}
@@ -134,7 +134,7 @@ In [[Elephant|Sketches of an Elephant]], Peter Johnstone introduced the term __c
 
 * _Local operator_ (used by Johnstone).
 
-* _Local modality_ or _geometric modality_, since in the [[internal logic]] of the topos, it represents a [[modal operator]] with the intutive meaning of "it is locally the case that...".
+* _Local modality_ or _geometric modality_, since in the [[internal logic]] of the topos, it represents a [[modal operator]] with the intuitive meaning of "it is locally the case that...".
 
 * _Lawvere-Tierney operator_ or _Lawvere-Tierney modality_ to avoid possible conflict with other uses of "local" or "geometric" in modal logic.
 
