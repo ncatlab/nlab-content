@@ -352,6 +352,8 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Zhe Yang, Fang-Jing Cheng, Guoyang Fu, Yi Ling, Peng Liu, Jian-Pin Wu: *Quantum criticality and mixed-state entanglement in holographic superconductor--insulator transitions* &lbrack;[arXiv:2602.14446](https://www.arxiv.org/abs/2602.14446)&rbrack;
 
+* Hoang Van Quyet: *Criticality and Phase Structures of Excited Holographic Superconductors in Nonlinear Electrodynamics* &lbrack;[arXiv:2602.18924](https://arxiv.org/abs/2602.18924)&rbrack;
+
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
