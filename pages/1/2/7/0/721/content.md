@@ -49,7 +49,7 @@ Every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\
 
 =--
 
-If we drop the second and third conditions, we obtain something a bit stronger than a [[coverage]]; at the page [[coverage]] this notion is called a *cartesian coverage*.  Conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
+Note that the second and third conditions imply that if $\{U_i\to U\}$ is a covering family and we choose an isomorphism $U^\prime_i\to U_i$ for each $i$, then $\{U^\prime_i\to U\}$ is also a covering family. In particular, in condition 1 the choice of fiber product $f^* U_i=U_i\times_U V$ is not relevant. On the other hand, if we drop the second and third conditions, we obtain something a bit stronger than a [[coverage]]; at the page [[coverage]] this notion is called a *cartesian coverage*.  Conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
 
 
 +-- {: .num_defn}
