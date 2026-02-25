@@ -149,7 +149,7 @@ Further discussion:
 
 * Laurence G. Yaffe, _Large $N$ limits as classical mechanics_, Rev. Mod. Phys. __54__, 407--435 (1982) ([pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1))
 
-* [[Alexander A. Migdal]], _Loop equations and $1/N$ expansion_, Physics Reports **102** (4) 199-290 (1983) &lbrack;<a href="https://doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a>&rbrack;
+* [[Alexander A. Migdal]], _Loop equations and $1/N$ expansion_, Physics Reports **102** 4 (1983) 199-290 \[<a href="https://doi.org/10.1016/0370-1573(83)90076-5">doi:10.1016/0370-1573(83)90076-5</a>\]
 
 
 * M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59--72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
@@ -157,8 +157,7 @@ Further discussion:
 * [[Gary Horowitz]], [[Hirosi Ooguri]], _Spectrum of large $N$ gauge theory from supergravity_, hep-th/9802116
 
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
-
-  (for [[Chern-Simons theory as a topological string theory]])
+  > (for [[Chern-Simons theory as a topological string theory]])
 
 * Hiroyuki Fuji, Yutaka Ookouchi, _Confining Phase Superpotentials for $SO/Sp$ Gauge Theories via Geometric Transition_, JHEP 0302:028, 2003 ([arXiv:hep-th/0205301](https://arxiv.org/abs/hep-th/0205301))
 
@@ -167,6 +166,11 @@ Further discussion:
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_,  J. High Energ. Phys. 2014, 133 (2014) <a href="https://doi.org/10.1007JHEP01(2014)133">doi</a> [arXiv:1309.7333](https://arxiv.org/abs/1309.7333)
 
 * Jan Albert, Johan Henriksson, [[Leonardo Rastelli]], Alessandro Vichi, *Bootstrapping mesons at large $N$: Regge trajectory from spin-two maximization* &lbrack;[arXiv:2312.15013](https://arxiv.org/abs/2312.15013)&rbrack;
+
+* [[Alexander Migdal]]: *Geometric QCD I: The Hodge-Dual Surface and Quark Confinement* &lbrack;[arXiv:2511.13688](https://arxiv.org/abs/2511.13688)&rbrack;
+
+* [[Alexander Migdal]]: *Geometric QCD II: The Confining Twistor String and Meson Spectrum* &lbrack;[arXiv:2602.21129](https://arxiv.org/abs/2602.21129)&rbrack;
+
 
 
 On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
