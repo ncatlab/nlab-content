@@ -22,9 +22,14 @@ Early discussion of [[flux tubes]]/[[Wilson lines]] as effective [[strings]] in 
   > "So the [[world sheet]] of [[string]] should be interpreted as the color magnetic dipole sheet. The string itself should be interpreted as the electric [[flux tube]] in the [[monopole]] plasma."
 
 
-On the [[large-N limit]]:
+On the [[large-N limit]] of [[QCD]]:
 
 * [[Alexander A. Migdal]], _Loop equations and $1/N$ expansion_, Physics Reports **102** 4 (1983) 199-290 \[<a href="https://doi.org/10.1016/0370-1573(83)90076-5">doi:10.1016/0370-1573(83)90076-5</a>\]
+
+* [[Alexander Migdal]]: *Geometric QCD I: The Hodge-Dual Surface and Quark Confinement* &lbrack;[arXiv:2511.13688](https://arxiv.org/abs/2511.13688)&rbrack;
+
+* [[Alexander Migdal]]: *Geometric QCD II: The Confining Twistor String and Meson Spectrum* &lbrack;[arXiv:2602.21129](https://arxiv.org/abs/2602.21129)&rbrack;
+
 
 On [[hydrodynamics]] and [[quantum chromodynamics]] formulated on [[free loop space]]:
 
