@@ -64,16 +64,17 @@ A **Grothendieck topology** $J$ on a [[category]] $C$ is an assignment to each o
 1. (Stability under [[base change]].)
 If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
 
-1. (Local character condition.)
-If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ contains a covering sieve of $c$, then $F$ itself covers $c$. 
+1. (Local character condition.) Let $F, F^\prime$ be sieves on $c$. Suppose $F$ covers $c$ and $g^*F^\prime$ covers $d$ for every morphism $g:d\to c$ in $F$. Then $F^\prime$ covers $c$.
 
 1. The [[maximal sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
 
 =--
 
-The set of covering sieves of an object $c$ is denoted $J(c)$. 
+The set of covering sieves of an object $c$ is denoted $J(c)$, and it has the following properties: if $F,F^\prime\in J(c)$, then $F\cap F^\prime\in J(c)$, and if $S$ is a sieve on $c$ with $S\supset F$, then $S\in J(c)$, see [Mac Lane and Moerdijk, pp. 110-111](#MacLaneMoerdijk94).
 
 A category equipped with a Grothendieck topology is called a **[[site]]**.
+
+The local character condition in the definition of a Grothendieck topology can be equivalently replaced by the following: If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ contains a covering sieve of $c$, then $F$ itself covers $c$.
 
 
 +-- {: .num_remark}
@@ -168,7 +169,7 @@ The definition in terms of [[sieves]] is found in
 
 Standard books include
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* {#MacLaneMoerdijk94} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Volume 3.
 
