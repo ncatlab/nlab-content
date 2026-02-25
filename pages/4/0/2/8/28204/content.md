@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Reissner-Nordström-de Sitter spacetime_ ( _RNdS spacetime_ for short, $\Lambda\gt 0$) and _Reissner-Nordström-anti de Sitter spacetime_ ( _RNAdS spacetime_ for short, $\Lambda\lt 0$) are generalizations of the [[Reissner-Nordström spacetime]] ($\Lambda=0$) when additionally considering [[dark energy]] described by the [[cosmological constant]] $\Lambda$.
+The _Reissner-Nordström-de Sitter spacetime_ (*RNdS spacetime*, for short, $\Lambda\gt 0$) and _Reissner-Nordström-anti de Sitter spacetime_ (*RNAdS spacetime* for short, $\Lambda\lt 0$) are generalizations of the [[Reissner-Nordström spacetime]] ($\Lambda=0$) when additionally considering [[dark energy]] described by the [[cosmological constant]] $\Lambda$.
 
 ## Formulation
 
