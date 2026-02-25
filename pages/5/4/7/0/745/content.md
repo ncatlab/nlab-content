@@ -167,7 +167,7 @@ In terms of the imagery of [[loop space objects]], the comma category is the cat
 
 ## Examples 
 
-* If $f$ and $g$ are both the identity functor of a category $C$, then $(f/g)$ is the category $C ^{\mathbf{2}} $ of arrows  in $C$.
+* If $f$ and $g$ are both the identity functor of a category $C$, then $(f/g)$ is the [[arrow category]] $C ^{\mathbf{2}} $.
 
 * If $f$ is the identity functor of $C$ and $g$ is the inclusion $1\to C$ of an object $c\in C$, then $(f/g)$ is the [[over category|slice category]] $C/c$.
 
