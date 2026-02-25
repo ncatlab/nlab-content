@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Schwarzschild-de Sitter spacetime_ ( _SdS spacetime_ for short, $\Lambda\gt 0$) and _Schwarzschild-anti de Sitter spacetime_ ( _SAdS spacetime_ for short, $\Lambda\lt 0$) are generalizations of the [[Schwarzschild spacetime]] ($\Lambda=0$) when additionally considering [[dark energy]] described by the [[cosmological constant]] $\Lambda$.
+The _Schwarzschild-de Sitter spacetime_ (*SdS spacetime* for short, $\Lambda\gt 0$) and _Schwarzschild-anti de Sitter spacetime_ (*SAdS spacetime* for short, $\Lambda\lt 0$) are generalizations of the [[Schwarzschild spacetime]] ($\Lambda=0$) when additionally considering [[dark energy]] described by the [[cosmological constant]] $\Lambda$.
 
 ## Formulation
 
