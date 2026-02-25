@@ -1049,6 +1049,8 @@ Coupled to a [[Higgs field]]:
 
 * Yoonbai Kim, O-Kab Kwon, Hanwool Song, Chanju Kim: *Inhomogeneous Abelian Chern-Simons Higgs Model with New Inhomogeneous BPS Vacuum and Solitons* &lbrack;[arXiv:2409.11978](https://arxiv.org/abs/2409.11978)&rbrack;
 
+* Vaibhav Wasnik: *Correlator-Level Verification of Mass and Current Maps in Abelian Chern-Simons Dualities* &lbrack;[arXiv:2602.20604](https://arxiv.org/abs/2602.20604)&rbrack;
+
 
 ### Wilson loop observables
  {#ReferencesWilsonLoopObservables}
