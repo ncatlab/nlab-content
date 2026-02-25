@@ -41,7 +41,7 @@ where $g(y)$ is $o({|y - x|})$ (see [[o-notation]]). We say in that case that $f
 
 We say $f: \mathbb{R}^n \to \mathbb{R}$ is *differentiable* if it is differentiable at every point $x$ of its [[domain]]. In that case, we get a global derivative function $\mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ which takes a pair $(x, h)$ to $d f_x(h)$. We can then ask whether this function is itself differentiable, i.e., whether the differentiation process can be iterated. The *$n$-th derivative* is the result of differentiating $n$ times (the $0$-th derivative of $f$ is just $f$). We say that $f: \mathbb{R}^n \to \mathbb{R}$ is *infinitely differentiable* (or more briefly, that $f$ is *smooth*) if it has an $n$-th derivative for each [[natural number]] $n$. 
 
-Notice that a differentiable function is necessarily [[continuous map|continuous]] (indeed, it is locally a [[Lipschitz function]]). One denotes the class of functions having a *continuous*[^1] $n^{th}$ derivative by $C^n(\mathbb{R}^n)$. Thus continuous functions $f: \mathbb{R}^n \to \mathbb{R}$ form a filtration 
+Notice that a differentiable function is necessarily [[continuous map|continuous]] (indeed, it is locally a [[Lipschitz function]]). One denotes the class of functions having a *continuous*[^1] $n^{th}$ derivative by $C^n(\mathbb{R}^k)$. Thus continuous functions $f: \mathbb{R}^k \to \mathbb{R}$ form a filtration 
 
 $$\ldots \subset C^n(\mathbb{R}^k) \subset \ldots \subset C^1(\mathbb{R}^k) \subset C^0(\mathbb{R}^k)$$ 
 
