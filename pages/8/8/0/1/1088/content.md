@@ -107,7 +107,7 @@ $$
   \,,
 $$
 
-where $U$ is an object in $S$ and $Y$ is the [[Yoneda embedding]]. These come from covering [[sieves]] of a [[Grothendieck topology]] on $S$: for $U \in S$ and $\{V_i \to U\}_i$ a covering [[sieve]] on $U$, the coresponding local isomorphism is the presheaf which is the [[image]] of the joint injection map
+where $U$ is an object in $S$ and $Y$ is the [[Yoneda embedding]]. These come from covering [[sieves]] of a [[Grothendieck topology]] on $S$: for $U \in S$ and $\{V_i \to U\}_i$ a covering [[sieve]] on $U$, the corresponding local isomorphism is the presheaf which is the [[image]] of the joint injection map
 
 $$
   \sqcup_i Y(V_i) \to Y(U)
@@ -139,7 +139,7 @@ Notice that local isomorphism with codomain a representable already induce gener
 +-- {: .un_prop}
 ###### Proposition
 
-If $A \in PSh(S)$ is a [[local object]] with respect to local isomorphisms whose codomain is a representable, then every morphism $X \to Y$ of presheaves such that for every representble $U$ and every morphism $U \to Y$ the pullback
+If $A \in PSh(S)$ is a [[local object]] with respect to local isomorphisms whose codomain is a representable, then every morphism $X \to Y$ of presheaves such that for every representable $U$ and every morphism $U \to Y$ the pullback
 $X \times_Y U  \to U$ is a local isomorphism, the canonical morphism
 $$
   Hom(Y,A) \to Hom(X,A)
@@ -187,7 +187,7 @@ is a limit over isomorphisms, hence an isomorphism.
 
 This is in section 16.2 of
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_ .
+* Kashiwara-Schapira, _[[Categories and Sheaves]]_.
 
 See in particular exercise 16.5 there for the characterization of [[Grothendieck topology|Grothendieck topologies]] in terms of local isomorphisms.
 
