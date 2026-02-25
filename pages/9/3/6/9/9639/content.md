@@ -1017,6 +1017,12 @@ Introducing **[[abelian Chern-Simons theory]]** to the picture:
 [[!include abelian Chern-Simons for fractional quantum Hall effect -- references]]
 
 
+On an effective toroidal sigma model:
+
+* C. A. Lütken: *Elliptic mirror of the quantum Hall effect* &lbrack;[arXiv:2602.20174](https://arxiv.org/abs/2602.20174)&rbrack;
+
+
+
 
 [[!include quantum Hall effect via noncommutative geometry -- references]]
 
