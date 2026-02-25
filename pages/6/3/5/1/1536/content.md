@@ -360,7 +360,7 @@ $$
   Lax(F, \Delta X) \simeq [{\textstyle \int} F, X]
 $$
 
-that is natural in $X$, where $\Delta X$ is the constant functor with value $X$.  (See [[oplax colimit]] for an explanation of why *lax* natural transformations appear in the definition of an *oplax* colimit.)
+where $Lax$ denotes the category of [[pseudofunctors]] and [[lax natural transformations]], that is natural in $X$, where $\Delta X$ is the constant functor with value $X$.  (See [[oplax colimit]] for an explanation of why *lax* natural transformations appear in the definition of an *oplax* colimit.)
 
 A [[lax natural transformation]] $\alpha$ from $F$ to $\Delta X$ is given by
 
