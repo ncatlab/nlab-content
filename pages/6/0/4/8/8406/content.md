@@ -85,7 +85,11 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 * _[[geometry of physics]]_
 
-See also
+See also:
 
 * Wikipedia, _[Maxwell equations in curved spacetime](http://en.wikipedia.org/wiki/Maxwell%27s_equations_in_curved_spacetime)_
+
+
+* Gianfranco De Simone: *Near-Horizon Symmetries in Einstein-Maxwell theory* &lbrack;[arXiv:2511.11136](https://arxiv.org/abs/2511.11136)&rbrack;
+
 
