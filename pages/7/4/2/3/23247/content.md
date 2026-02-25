@@ -1,5 +1,5 @@
 
-* [webpage](https://www-thphys.physics.ox.ac.uk/people/SteveSimon/)
+* [personal page](https://www-thphys.physics.ox.ac.uk/people/SteveSimon/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Steven_H._Simon)
 
