@@ -30,7 +30,7 @@ An even weaker notion than a Grothendieck pretopology, which also generates a Gr
 
 ## Definition
 
-See Definition II.1.3 in [[SGA]] 4.
+See [SGA 4, Exposé II, Definition 1.3](#SGA4).
 
 +-- {: .num_defn}
 ###### Definition
@@ -60,10 +60,12 @@ The [[Grothendieck topology]] on $C$ _generated_ from a basis of covering famili
 
 =--
 
+By [SGA 4, Exposé II, Proposition 1.4](#SGA4), this definition coincides with the one [[Grothendieck topology#DefinitionTopologyGeneratedByFamilies|for some given collections of families of morphisms]].
+
 
 ## Properties
 
-Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which generates it: this has as covering families precisely thoses families of morphisms that generate a covering sieve under completion under precomposition.
+Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which generates it: this has as covering families precisely those families of morphisms that generate a covering sieve under completion under precomposition.
 
 
 ## Examples 
@@ -99,7 +101,12 @@ An example of a [[coverage]] that is not a pretopology is the coverage of [[good
 
 The definition appears for instance as definition 2 on page 111 of
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_.
+
+See also Exposé II, Sect. 1 in:
+
+* {#SGA4} [[SGA]] 4: Théorie des topos et cohomologie étale des schémas.
+
 * MO questions:
   * [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition);
   * [colimits-of-covers](http://mathoverflow.net/questions/44893/colimits-of-covers);
