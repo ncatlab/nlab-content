@@ -127,6 +127,9 @@ See also
 
 * Adwait Gaikwad, Tanay Kibe, Sam van Leuven, Kayleigh Mathieson: *To gauge or to double gauge? Matrix models, global symmetry, and black hole cohomologies* &lbrack;[arXiv:2512.02103](https://arxiv.org/abs/2512.02103)&rbrack;
 
+* Eunwoo Lee: *BMN-like Matrix Models* &lbrack;[arXiv:2602.22163](https://arxiv.org/abs/2602.22163)&rbrack;
+
+
 
 
 
