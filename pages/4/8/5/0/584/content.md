@@ -304,7 +304,7 @@ In that article a proof of the [[cobordism hypothesis]] is indicated. A review i
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Available [on the arxiv](http://arxiv.org/abs/1011.0110). 
 
-Other discussions of higher categories of cobordismsL
+Other discussions of higher categories of cobordisms:
 
 * [[Marco Grandis]], _[[Cospans in Algebraic Topology]]_
 
