@@ -773,6 +773,10 @@ See also:
 
 * Gautam Mandal, Ajay Mohan, Rushikesh Suroshe: *2D or not 2D: a "holographic dictionary" for Lowest Landau Levels* &lbrack;[arXiv:2511.01630](https://arxiv.org/abs/2511.01630)&rbrack;
 
+For time-dependent magnetic fields:
+
+* [[T. R. Govindarajan]], [[V. Parameswaran Nair]]: *Time-dependent Magnetic Fields and the Quantum Hall Effect* &lbrack;[arXiv:2602.21323](https://arxiv.org/abs/2602.21323)&rbrack;
+
 
 
 ### Integral quantum Hall effect
