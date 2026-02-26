@@ -58,7 +58,9 @@ On [[A. P. Balachandran]]:
 
 * [[V. P. Nair]]: *A.P. Balachandran: Living in Physics* &lbrack;[arXiv:2509.06139](https://arxiv.org/abs/2509.06139)&rbrack;
 
+On the [[quantum Hall effect]] for time-dependent magnetic fields:
 
+* [[T. R. Govindarajan]], [[V. Parameswaran Nair]]: *Time-dependent Magnetic Fields and the Quantum Hall Effect* &lbrack;[arXiv:2602.21323](https://arxiv.org/abs/2602.21323)&rbrack;
 
 category: people
 
