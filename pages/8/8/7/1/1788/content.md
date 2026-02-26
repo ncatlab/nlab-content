@@ -3,8 +3,9 @@
 
 \linebreak
 
-
 ***
+
+Let $C$ be a site, let $c$ be an object of $C$. A family of morphisms $\{f_i:d_i\to c\}$, $i\in I$, *covers* $c$ if the [[sieve#SieveGeneratedByAFamily|sieve it generates]] is a covering sieve.
 
 [[Antz-CQTS-Feb2026.pdf:file]]
 
@@ -90,22 +91,5 @@ In the category of [[smooth manifolds]], the full subcategory whose objects are 
 
 Proof: The restricted Yoneda to the full subcategory spanned by ${\{R\}}$ is faithful, hence so is when restricted to the subcat spanned by $\{R,R^2\}$. To see fullness when restricted to the subcat spanned by $\{R,R^2\}$, suppose we are given a morphism $\operatorname{Hom}(-,M)\Rightarrow\operatorname{Hom}(-,N)$ of presheaves on $\mod_{\{R,R^2\}}$. Given $x\in M$, write $z_x\in N$ for the image of $1\in R$ of the induced map $R\to N$ from $R\to M,1\mapsto x$. Write $[x,y]:R^2\to M$ for the map sending $(1,0)$ and $(0,1)$ to $x$ and $y$, respectively, and write $z_{[x,y]}:R^2\to N$ for the induced map. Then $z_{[x,y]}=[z_x,z_y]$ by compatibility with the $i$-th component map $c_i:R\to R^2$, $i=1,2$. Thus, compatibility with the diagonal map $\Delta:R\to R^2$ gives $z_{x+y}=\Delta^*z_{[x,y]}=\Delta^*[z_x,z_y]=z_x+z_y$. On the other hand, given $r\in R$, compatibility with $r: k\to k$ gives $z_{r x}=rz_x$. Thus $x\mapsto z_x$ defines a map $f:M\to N$ of $R$-modules such that $f^*:\operatorname{Hom}(-,M)\Rightarrow\operatorname{Hom}(-,N)$ is the morphism we began with.
 
-
-A **Grothendieck topology** $J$ on a [[category]] $C$ is an assignment to each object $c \in C$ of a collection of [[sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
-
-1. (Stability under [[base change]].)
-If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
-
-1. (Local character condition.) Let $F, F^\prime$ be sieves on $c$. Suppose $F$ covers $c$ and $g^*F^\prime$ covers $d$ for every morphism $g:d\to c$ in $F$. Then $F^\prime$ covers $c$.
-
-1. The [[maximal sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
-
-=--
-
-The set of covering sieves of an object $c$ is denoted $J(c)$.
-
-A category equipped with a Grothendieck topology is called a **[[site]]**.
-
-The second condition can be equivalently replaced by the following: If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ contains a covering sieve of $c$, then $F$ itself covers $c$.
 
 
