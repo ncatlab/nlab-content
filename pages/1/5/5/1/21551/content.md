@@ -14,6 +14,7 @@ means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of cours
 
 Limits of functions could be defined for functions between various mathematical structures, such as subsets of the [[real numbers]], [[metric spaces]] and [[topological spaces]]. In all cases, there are two different definitions of limit of a function, depending on whether one uses the definition by [[Nicolas Bourbaki]] or the historical definition, first defined by [[Karl Weierstrass]] in the context of partial functions on the real numbers and later generalized to metric spaces and topological spaces. Bourbaki's definition is commonly used in the French language, while Weierstrass's definition is commonly used in the English language. Weierstrass's definition is also referred to as the *punctured limit* of a function ("limite épointée" in French), because it uses [[accumulation points]] and [[punctured neighborhoods]] instead of [[adherent points]] and [[neighborhoods]]. 
 
+
 ### In metric spaces
 
 Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$. Then
@@ -45,7 +46,7 @@ $$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod
 Such a function $\omega$ is called a __[[modulus of continuity|modulus]]__ of the limit.  Its existence is automatic in [[classical mathematics]], but in [[constructive analysis]] the definition with the [[dependent sum type]] is stronger than the definition with the [[existential quantifier]].
 
 
-### In uniform spaces
+### In uniform spaces
 
 The definition of a limit of a function as defined by Bourbaki can be generalized from [[metric spaces]] to [[uniform spaces]]:
 
@@ -66,7 +67,7 @@ $$\sum_{\omega:\mathcal{U}(Y) \to \mathcal{U}(X) }\prod_{E:\mathcal{U}(Y)} \prod
 Again, this function $\omega$ may be called a __modulus__ of the limit, and exists in classical mathematics but not necessarily constructively.
 
 
-### In topological spaces
+### In topological spaces {#top}
 
 Let $X$ and $Y$ be [[topological spaces]], let $f$ be a [[partial function]] from $X$ to $Y$ (*not* assumed continuous or anything else), let $c$ be a [[limit point]] of the domain $D$ of $f$ in $X$, and let $L$ be a point in $Y$.
 
@@ -123,7 +124,7 @@ We may generalize further from relations to [[spans]].  Let $X$ and $Y$ be topol
 +-- {: .num_defn #spans}
 ###### Definition
 
-$L$ is a __limit__ of the span $(g,f)$ approaching $c$ if, for each neighbourhood $V$ of $L$, for some [punctured] neighbourhood $U$ of $c$, for each element $\gamma$ of the [[preimage]] $g^*(U \cap D)$, we have $f(\gamma) \in V$.
+$L$ is a __limit__ of the span $(g,f)$ approaching $c$ (or the __limit__ of $f$ as $g$ approaches $c$) if, for each neighbourhood $V$ of $L$, for some [punctured] neighbourhood $U$ of $c$, for each element $\gamma$ of the [[preimage]] $g^*(U)$, we have $f(\gamma) \in V$.
 =--
 
 Once again, there are both Bourbaki-style and Weierstrass-style versions of the definition.  And this too can be defined as the limit of a filter $f(g^*(\mathcal{N}_c))$ or $f(g^*(\dot{\mathcal{N}}_c))$, where $g^*(\mathcal{F})$ consists of the [[preimages]] $g^*(A)$ for $A \in \mathcal{F}$.  In particular, limits of spans to a Hausdorff space are unique.
@@ -132,7 +133,7 @@ Limits of spans are no more general than limits of relations:
 +-- {: .num_prop #spansrelations}
 ###### Proposition
 
-$L$ is a limit of the span $(g,f)$ approaching $c$ if and only if $L$ is a limit of the [[range]] $\ran(g,f) = \{ g(\gamma), f(\gamma) \;|\; \gamma \in \Gamma \}$ approaching $c$.
+$L$ is a limit of $f$ as $g$ approaches $c$ if and only if $L$ is a limit of the [[range]] $\ran(g,f) = \{ g(\gamma), f(\gamma) \;|\; \gamma \in \Gamma \}$ approaching $c$.
 =--
 (But often the span is more convenient to refer to than its range.)
 
@@ -140,7 +141,7 @@ Finally, we may impose restrictions on the limit:
 +-- {: .num_defn #restricted}
 ###### Definition
 
-Let $C$ be a [[subset]] of $X$, and suppose that $c$ is a limit (adherent or accumulation) point of $C$.  Then $L$ is a __limit__ of the function $f$ (or the relation $R$, or the span $(g,f)$) approaching $c$ in $C$ if $L$ is a limit of the [[restriction]] $f|_C$ of $f$ to $D \cap C$ (or the restriction $R \cap (C \times Y)$ of $R$, or the restriction $(g|_{g^*(C)},f|_{g^*(C)})$ of $(g,f)$).  In the case of the limit of a span, we can also let $C$ be a subset of $\Gamma$; then the limit in question is the limit of $(g|_C,f|_C)$.
+Let $C$ be a [[subset]] of $X$, and suppose that $c$ is a limit (adherent or accumulation) point of $C$.  Then $L$ is a __limit__ of the function $f$ (or the relation $R$, or the span $(g,f)$) approaching $c$ in $C$ if $L$ is a limit of the [[restriction]] $f|_C$ of $f$ to $D \cap C$ (or the restriction $R \cap (C \times Y)$ of $R$, or the restriction $(g|_{g^*(C)},f|_{g^*(C)})$ of $(g,f)$).  In the case of the limit of a span, we can also let $C$ be a subset of $\Gamma$; then the limit in question is the limit of $(g|_C,f|_C)$ (as a span with domain $C$).
 =--
 
 Yet again, there are both Bourbaki-style and Weierstrass-style versions, although these are equivalent when $c \notin C$.  And once more, this is the limit of a filter, since it reduces to a previous definition.
@@ -149,7 +150,7 @@ This concept allows us to define the Weierstrass version of limit directly as a 
 +-- {: .num_prop}
 ###### Proposition
 
-$L$ is a limit (in the Weierstrass sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C$ if and only if $L$ is a limit (in the Bourbaki sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C \setminus \{c\}$.
+$L$ is a limit (in the Weierstrass sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C$ if and only if $L$ is a limit (in the Bourbaki sense) of $f$ (or $R$, or $(g,f)$) approaching $c$ in $C \setminus \{c\}$ (or in $C \setminus g^*({c})$).
 =--
 
 To go more general than this would seem to require referring directly to a [[net]] $\nu$ or [[filter]] $\mathcal{F}$ on $X$, at which point we may as well just talk about the [[limit of the net]] $f \circ \nu$ or the [[limit of the filter]] $f(\mathcal{F})$ (or of the filter $R(\mathcal{F})$ or of the filter $f(g^*(\mathcal{F}))$).
@@ -185,14 +186,14 @@ L \in \underset{g(\gamma) \to c \atop \gamma \in C}{Lim} f(\gamma) ,\\
 f(\gamma) \underset{g(\gamma) \to c \atop \gamma \in C}{\to} L } $$
 all mean that $L$ is a limit of $(g,f)$ approaching $c$ in $C$.  Thus the most general notion of limit appearing here is to say that $f(\gamma)$ approaches $L$ as $g(\gamma)$ approaches $c$ while $\gamma \in C$.
 
-It would be nice to have notation to distinguish the Bourbaki and Weierstrass versions of limit.  One way would be to adopt the Bourbaki definition by default and add the restriction $x \ne c$ to produce the Weierstrass version.  Unfortunately, the Weierstrass definition is the default in most of the world, and then there is no slick way to denote the Bourbaki version.
+It would be nice to have notation to distinguish the Bourbaki and Weierstrass versions of limit.  One way would be to adopt the Bourbaki definition by default and add the restriction $x \ne c$ to produce the Weierstrass version.  (For the limit of a span, the restriction to add is that $g(\gamma) \ne c$.)  Unfortunately, the Weierstrass definition is the default in most of the world, and then there is no slick way to denote the Bourbaki version.
 
 
 ## Examples
 
 A function $f$ is [[continuous function|continuous]] at a point $c$ in its domain $D$, if and only if $f(c)$ is a limit of $f$ approaching $c$ by the Bourbaki definition; $f$ is continuous at $c$ if and only if, if $c$ is an accumulation point of $D$, then $f(c)$ is a limit of $f$ approaching $c$ by the Weierstrass definition.  (If $c$ is an [[isolated point]] of $D$, then of course $f$ is continuous there.)
 
-Given a [[real number|real]]-valued function $F$ defined on a real [[interval]] $[a,b]$, we can speak of tagged partitions of $[a,b]$ and consider the [[Riemann sum|Riemann sums]] of $F$ on these tagged partitions.  Let $X$ and $Y$ each be the [[real line]], let $\Gamma$ be the set of tagged partitions of $[a,b]$, let $g\colon \Gamma \to X$ map a partition to the maximum length of its parts (often called the norm or mesh of the partition), and let $f\colon \Gamma \to Y$ map a tagged partition to the Riemann sum of $F$ on it.  Then the [[Riemann integral]] of $F$ on $[a,b]$ is defined to be the limit of the span $(f,g)$ approaching $0$.  That is, the Riemann integral of a function on an interval is the limit of the Riemann sum of the function on a tagged partition of the interval as the mesh of the partition approaches zero.
+Given a [[real number|real]]-valued function $F$ defined on a real [[interval]] $[a,b]$, we can speak of tagged partitions of $[a,b]$ and consider the [[Riemann sum|Riemann sums]] of $F$ on these tagged partitions.  Let $X$ and $Y$ each be the [[real line]], let $\Gamma$ be the set of tagged partitions of $[a,b]$, let $g\colon \Gamma \to X$ map a partition to the maximum length of its parts (often called the norm or mesh of the partition), and let $f\colon \Gamma \to Y$ map a tagged partition to the Riemann sum of $F$ on it, and let $c$ be the real number $0$.  Then the [[Riemann integral]] of $F$ on $[a,b]$ is defined to be the limit of $f$ as $g$ approaches $c$.  That is, the Riemann integral of a function on an interval is the limit of the Riemann sum of the function on a tagged partition of the interval as the mesh of the partition approaches zero.
 
 Let $A$ be a [[directed set]] and let $\nu\colon A \to Y$ be a [[net]] in $Y$.  Give $A$ the [[discrete topology]], and let $X$ be the [[disjoint union]] (as a set) of $A$ and $\{\infty\}$, made into a [[proset]] with $x \lt \infty$ for $x \in A$, and made into a topological space with the neighbourhoods of $\infty$ being the [[upper sets]] of $X$.  Interpret $\nu$ as a partial function from $X$ to $Y$.  Then the limits of $\nu$ approaching $\infty$ are precisely the [[limit of a net|limits]] of $\nu$ as a net.  That is, $\lim \nu = \lim_{x \to \infty} \nu_x$.
 
