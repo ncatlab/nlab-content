@@ -63,6 +63,13 @@ See also:
 
 * Wikipedia, _[Localization formula for equivariant cohomology](https://en.m.wikipedia.org/wiki/Localization_formula_for_equivariant_cohomology)
 
+In [[supergravity]]:
+
+* James Sparks: *Localization in supergravity* &lbrack;[arXiv:2602.21782](https://arxiv.org/abs/2602.21782)&rbrack;
+
+
+
+
 [[!redirects localization in equivariant cohomology]] 
 
 [[!redirects Atiyah-Bott localization theorem]]
