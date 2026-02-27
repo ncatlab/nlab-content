@@ -4596,7 +4596,7 @@ Neumann algebras**
 
 
 
-* {#AntzFeb2025} 25 Feb 2026 (upcoming)
+* {#AntzFeb2025} 25 Feb 2026
 
   [[Samuel Adrian Antz]] (Dalian University of Technology):
 
