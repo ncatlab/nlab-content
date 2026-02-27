@@ -9,9 +9,19 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+## Idea
+
+(...)
+
+## Examples
+
+| **[[wormhole]] [[spacetimes]]** |  **vanishing [[angular momentum]]** |
+|--|--|
+| **vanishing [[charge]]** | [[Schwarzschild wormhole]] |
+| **[[positive number|positive]] [[charge]]** | [[Reissner-Nordström wormhole]] |
 
 ## Related pages
 
