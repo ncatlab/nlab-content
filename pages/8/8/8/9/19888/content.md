@@ -32,11 +32,12 @@ The abelian case of what later came to be called [[nonabelian Poincaré duality]
 
 On [[graph-indexed configuration spaces of points]]:
 
-* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], [YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
+* [[Sadok Kallel]]: *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], [YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
+  > (on part 2 of [Kallel 2025](#Kallel25))
 
 Review of [[configuration spaces of points]] and their relation to [[Cohomotopy]] via the [[scanning map]]:
 
-* {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
+* {#Kallel25} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
 
 
 
