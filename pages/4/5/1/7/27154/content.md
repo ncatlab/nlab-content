@@ -30,7 +30,7 @@ If this admits a left 2-adjoint $(-)' : T-Alg_w \to T-Alg_s$, we call this the *
 
 Weak morphism classifiers exist if and only if certain [[codescent objects]] exist in $T-Alg_s$.
 
-Under minimal assumptions, the $w$-weak morphism classifier 2-adjunction is [[lax-idempotent 2-adjunction|$w$-idempotent]] ([Blackwell 1976](#Blackwell)).
+Under minimal assumptions, the $w$-weak morphism classifier 2-adjunction is [[lax-idempotent 2-adjunction|$w$-idempotent]] (see Theorem 1.2 of [Blackwell 1976](#Blackwell)).
 
 ## Related pages
 
