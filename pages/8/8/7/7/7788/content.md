@@ -249,6 +249,7 @@ See also:
 
 * [[Peter West]]: *Local symmetry and extended spacetime* &lbrack;[arXiv:2504.18229](https://arxiv.org/abs/2504.18229)&rbrack;
 
+* [[Guillaume Bossard]], [[Nicolas Boulanger]], Josh O'Connor: *Higher dualities in E11 exceptional field theory* &lbrack;[arXiv:2602.22491](https://arxiv.org/abs/2602.22491)&rbrack;
 
 
 
