@@ -104,7 +104,7 @@ Two notions of such unsaturated collections of morphisms inducing Grothendieck t
 
 *  [[coverage]].
 
-+-- {: .num_defn}
++-- {: .num_defn #IntersectionTopology}
 ###### Definition
 
 Let $J_\alpha$, $\alpha\in\Lambda$ be a collection of Grothendieck topologies on $C$. The *intersection topology* $\bigcap_{\alpha}J_\alpha$ is defined by $(\bigcap_{\alpha}J_\alpha)(c)=\bigcap_{\alpha}J_\alpha(c)$, for each $c$ in $C$.
