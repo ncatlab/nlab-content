@@ -414,17 +414,17 @@ In view of [[integrable model|integrability]]:
 
 Interpretation of the 3d WZW term as defining a [[2d CFT]]
 
-* {#Witten84} [[Edward Witten]], _Non-Abelian bosonization in two dimensions_ Commun. Math. Phys. 92, 455 (1984)
+* {#Witten84} [[Edward Witten]]: _Non-Abelian bosonization in two dimensions_, Commun. Math. Phys. **92** (1984) 455 &lbrack;[doi:10.1007/BF01215276](https://doi.org/10.1007/BF01215276)&rbrack;
 
-* {#KnizhnikZamolodchikov85} [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess-Zumino model in two dimensions_, Nucl. Phys. B 247, 83-103 (1984)
+* {#KnizhnikZamolodchikov85} [[Vadim Knizhnik]], [[Alexander Zamolodchikov]]: _Current algebra and Wess-Zumino model in two dimensions_, Nucl. Phys. B **247** (1984) 83-103 \[<a href="https://doi.org/10.1016/0550-3213(84)90374-2">doi:10.1016/0550-3213(84)90374-2</a>\]
 
 and hence as part of a [[perturbative string theory vacuum]]/[[target space]] 
 
-* [[Doron Gepner]], [[Edward Witten]], _String theory on group manifolds_, Nucl. Phys. B 278, 493-549 (1986) ([spire:230076](http://inspirehep.net/record/230076))
+* [[Doron Gepner]], [[Edward Witten]]: _String theory on group manifolds_, Nucl. Phys. B **278** (1986) 493--549 &lbrack;[inSpire:230076](http://inspirehep.net/record/230076)&rbrack;
 
-The WZ term on $\Sigma_2$ was understood in terms of an integral of a 3-form over a cobounding manifold $\Sigma_3$ in 
+The WZ term on $\Sigma_2$ was understood in terms of an integral of a 3-form over a cobounding manifold $\Sigma_3$ in:
 
-* [[Edward Witten]], _Global aspects of current algebra_, Nucl. Phys. B223, 422 (1983) ([spire:13234](http://inspirehep.net/record/13234), <a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>, [pdf](https://www.phys.sinica.edu.tw/~spring8/users/jychen/pub/reference/NPB_v223_422.pdf))
+* [[Edward Witten]]: *Global aspects of current algebra*, Nucl. Phys. B **223** 422 (1983) \[<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>, [spire:13234](http://inspirehep.net/record/13234), [web.archive](https://web.archive.org/web/20170809003647/https://www.phys.sinica.edu.tw/~spring8/users/jychen/pub/reference/NPB_v223_422.pdf)\]
 
 for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally, in terms of [[surface holonomy]] of [[bundle gerbes]]/[[circle 2-bundles with connection]] in
 
