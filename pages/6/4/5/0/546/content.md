@@ -41,7 +41,7 @@ Let $A$ be a [[category]] with [[pullbacks]]. A __cocategory__ $C$ is a category
    *  coassociativity law: $(\Delta \sqcup \mathrm{id}) \circ \Delta \;=\;
  (\mathrm{id} \sqcup \Delta) \circ \Delta \;:\; C_1 \longrightarrow C_1 \sqcup_{C_0} C_1 \sqcup_{C_0} C_1$,
 where the two iterated [[pushouts]] are identified via the canonical [[associativity]] isomorphism;
-   *  counitality law: $(\varepsilon \sqcup \mathrm{id}) \circ \Delta = \mathrm{id}_{C_1} = (\mathrm{id} \sqcup \varepsilon) \circ \Delta.$
+   *  counitality law: $(s \circ \varepsilon \sqcup \mathrm{id}) \circ \Delta = \mathrm{id}_{C_1} = (\mathrm{id} \sqcup t \circ \varepsilon) \circ \Delta.$
 
 
 ### Cocomposition
