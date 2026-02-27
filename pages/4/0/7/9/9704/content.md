@@ -10,22 +10,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Cosmic monopoles
+## Idea
 
-
-In a [[gauge theory]] with a degenerate [[vacuum]] (such as when a [[Higgs mechanism]] applies), the [[moduli space]] of [[vacua]] is the [[quotient]] $G/H$ (the [[coset]]) of the [[gauge group]] $G$ by the [[stabilizer subgroup]] $H \hookrightarrow G$ of any of these vacua ([[spontaneous symmetry breaking]]).
-
-This means that gauge equivalence classes of vaccum configurations on a [[spacetime]] $X$ are given by [[homotopy]] classes of maps $X \to \Pi(G/H)$ (where the notation on the right denotes the underlying [[homotopy type]] of the [[coset]] space, $\Pi$ is the [[shape modality]]).
-
-If [[spacetime]] is locally to be taken of the form $\mathbb{R} \times (\mathbb{R}^3 - D^3 \times \mathbb{R}^0)$, hence with a 3-dimensional ball-like piece taken out, them homotopy classes of maps $X \to \Pi(G/H)$ are classified by the second [[homotopy group]] $\pi_2(G/H)$. For a given nontrivial element here the correponding [[vacuum]] is said to contain a **cosmic monopole defect**. ("Cosmic" just because this effect is thought to be most relevant on scales of [[cosmology]].)
-
-In other words this means that the vacuum strcture changes continuously as one moves around the string, but has a [[singularity]] on the locus of the string itself.
-
-For more see at _[[QFT with defects]]_ the section _[Topological defects from spontaneously broken symmetry](http://ncatlab.org/nlab/show/QFT+with+defects#DefectsFromBrokenSymmetry)_.
+In [[gauge theory]] a *monopole* is a singular pointlike source of [[flux]].
 
 ## Examples
 
@@ -78,7 +67,20 @@ $$
   \,.
 $$
 
-However, in ([Cho-Maison](#ChoMaison)) it is claimed that the true topology of the moduli space of vacua in electroweak symmetry breaking is topologically more interesting. The corresponding phenomenology of vacuum defect monopoles of this kind is discussed in ([Cho-Kim-Yoon13](#ChoKimYoon13)).
+However, [Cho & Maison](#ChoMaison) claimed that the true topology of the moduli space of vacua in electroweak symmetry breaking is topologically more interesting. The corresponding phenomenology of vacuum defect monopoles of this kind is discussed by [Cho, Kim & Yoon 2013](#ChoKimYoon13).
+
+### Cosmic monopoles
+
+In a [[gauge theory]] with a degenerate [[vacuum]] (such as when a [[Higgs mechanism]] applies), the [[moduli space]] of [[vacua]] is the [[quotient]] $G/H$ (the [[coset]]) of the [[gauge group]] $G$ by the [[stabilizer subgroup]] $H \hookrightarrow G$ of any of these vacua ([[spontaneous symmetry breaking]]).
+
+This means that gauge equivalence classes of vaccum configurations on a [[spacetime]] $X$ are given by [[homotopy]] classes of maps $X \to \Pi(G/H)$ (where the notation on the right denotes the underlying [[homotopy type]] of the [[coset]] space, $\Pi$ is the [[shape modality]]).
+
+If [[spacetime]] is locally to be taken of the form $\mathbb{R} \times (\mathbb{R}^3 - D^3 \times \mathbb{R}^0)$, hence with a 3-dimensional ball-like piece taken out, them homotopy classes of maps $X \to \Pi(G/H)$ are classified by the second [[homotopy group]] $\pi_2(G/H)$. For a given nontrivial element here the correponding [[vacuum]] is said to contain a **cosmic monopole defect**. ("Cosmic" just because this effect is thought to be most relevant on scales of [[cosmology]].)
+
+In other words this means that the vacuum strcture changes continuously as one moves around the string, but has a [[singularity]] on the locus of the string itself.
+
+For more see at _[[QFT with defects]]_ the section _[Topological defects from spontaneously broken symmetry](http://ncatlab.org/nlab/show/QFT+with+defects#DefectsFromBrokenSymmetry)_.
+
 
 
 ## Related concepts
@@ -114,6 +116,9 @@ Monographs:
 
 * [[Roberto Percacci]], section 2.7 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
 
+Mathematical introduction to magnetic monopoles with an eye towards the role of [[Dirac charge quantization]] and [[fiber bundles in physics]] in the broader generality of [[Yang-Mills theory]]:
+
+* [[Samuel Adrian Antz]]: *Mathematical Approach to Magnetic Monopoles with Yang–Mills theory*, [talk at](CQTS#AntzFeb2025) [[CQTS]] @ NYU Abu Dhabi (Feb 2026) &lbrack;slides:[[Antz-CQTS-Feb2026.pdf:file]]&rbrack;
 
 The original argument that magentic monopoles may appear in [[grand unified theories]]:
 
