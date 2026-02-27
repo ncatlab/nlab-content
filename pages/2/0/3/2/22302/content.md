@@ -10,7 +10,7 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *A master exceptional field theory*,  J. High Energ. Phys. **2021** 185 (2021) &lbrack;[arXiv:2103.13411](https://arxiv.org/abs/2103.13411), <a href="https://doi.org/10.1007/JHEP06(2021)185">doi:10.1007/JHEP06(2021)185</a>&rbrack;
 
-
+* [[Guillaume Bossard]], [[Nicolas Boulanger]], Josh O'Connor: *Higher dualities in E11 exceptional field theory* &lbrack;[arXiv:2602.22491](https://arxiv.org/abs/2602.22491)&rbrack;
 
 
 On [[E9]]-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
