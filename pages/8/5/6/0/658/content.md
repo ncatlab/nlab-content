@@ -221,7 +221,7 @@ Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes 
 
 Textbook account:
 
-* [[Francis Borceux]], Sec. 7.7 _[[Handbook of Categorical Algebra]] I_, Cambridge UP 1994. 
+* [[Francis Borceux]]; Sec. 7.8 of: _[[Handbook of Categorical Algebra]] I -- Basic Category Theory_, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
 * [[Fosco Loregian]]. Profunctors. In: (Co)End Calculus. London Mathematical Society Lecture Note Series. Cambridge University Press; 2021:126-160. ([doi](https://doi.org/10.1017/9781108778657.006)).
 
