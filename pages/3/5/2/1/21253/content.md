@@ -10,10 +10,9 @@ The [[gauged WZW model|gauged]] [[WZW term]] of [[chiral perturbation theory]]/[
 
 The original articles:
 
-* [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous Ward identities_, Phys. Lett. B 37 (1971) 95-97 ([spire:67330](https://inspirehep.net/literature/67330), <a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>)
+* [[Julius Wess]], [[Bruno Zumino]]: *Consequences of anomalous Ward identities*, Phys. Lett. B **37** (1971) 95--97 \[<a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>, [spire:67330](https://inspirehep.net/literature/67330)\]
 
-
-* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
+* {#Witten83a} [[Edward Witten]]: *Global aspects of current algebra*, Nucl. Phys. B **223** 422 (1983) \[<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>, [spire:13234](http://inspirehep.net/record/13234), [web.archive](https://web.archive.org/web/20170809003647/https://www.phys.sinica.edu.tw/~spring8/users/jychen/pub/reference/NPB_v223_422.pdf)\]
 
 See also:
 
