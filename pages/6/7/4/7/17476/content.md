@@ -35,6 +35,10 @@ On [[celestial holography]] via [[topological strings]] on [[twistor space]]:
 
 * Niklas Garner, [[Natalie M. Paquette]], *Twistorial monopoles & chiral algebras* &lbrack;[arXiv:2305.00049](https://arxiv.org/abs/2305.00049)&rbrack;
 
+On the [[BFSS matrix model]] and [[IKKT matrix model]]:
+
+* Fabian Hahner, [[Natalie M. Paquette]]: *Twisting BFSS & IKKT* &lbrack;[arXiv:2602.22318](https://arxiv.org/abs/2602.22318)&rbrack;
+
 
 ## Related entries
 
