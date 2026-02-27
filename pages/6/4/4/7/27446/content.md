@@ -24,6 +24,11 @@ On [[path integral]] [[quantization]] of [[symplectic manifold|symplectic]] [[ph
 
 * [[Thomas Basile]], [[Nicolas Boulanger]], Arghya Chattopadhyay: *Reframing classical mechanics: An AKSZ sigma model perspective* &lbrack;[arXiv:2504.18826](https://arxiv.org/abs/2504.18826)&rbrack;
 
+On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
+
+* [[Guillaume Bossard]], [[Nicolas Boulanger]], Josh O'Connor: *Higher dualities in E11 exceptional field theory* &lbrack;[arXiv:2602.22491](https://arxiv.org/abs/2602.22491)&rbrack;
+
+
 
 
 category: people
