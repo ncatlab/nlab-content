@@ -336,6 +336,9 @@ See also:
 
 * [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan: *Matrix Theory Reloaded: A BPS Road to Holography* &lbrack;[arXiv:2410.03591](https://arxiv.org/abs/2410.03591)&rbrack;
 
+* Fabian Hahner, [[Natalie M. Paquette]]: *Twisting BFSS & IKKT* &lbrack;[arXiv:2602.22318](https://arxiv.org/abs/2602.22318)&rbrack;
+
+
 
 ### Cosmology
  {#Cosmology}
