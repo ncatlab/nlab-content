@@ -71,11 +71,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A], y:[A] \vdash \mathrm{tr
 
 * Elimination rules for bracket types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\prod_{x:A} \prod_{y:B(x)} \prod_{z:B(x)} y =_{B(x)} z \quad \Gamma \vdash f:\prod_{x:A} B([x])}{\Gamma, x:[A] \vdash \mathrm{ind}_{[A]}^{B(-)}(p, f, x):B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:[A] \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\prod_{x:A} \prod_{y:B(x)} \prod_{z:B(x)} y =_{B(x)} z \quad \Gamma \vdash f:\prod_{x:A} B([x])}{\Gamma, x:[A] \vdash \mathrm{ind}_{[A]}^{B(-)}(p, f, x):B(x)}$$
 
 * Computation rules for bracket types
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\prod_{x:A} \prod_{y:B(x)} \prod_{z:B(x)} y =_{B(x)} z \quad \Gamma \vdash f:\prod_{x:A} B([x]) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{[A]}^{B(-)}(p, f, [a]) \equiv f(a):B([a])}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:[A] \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\prod_{x:A} \prod_{y:B(x)} \prod_{z:B(x)} y =_{B(x)} z \quad \Gamma \vdash f:\prod_{x:A} B([x]) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{[A]}^{B(-)}(p, f, [a]) \equiv f(a):B([a])}$$
 
 ### With a type of all propositions
 
