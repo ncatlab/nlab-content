@@ -1,5 +1,5 @@
 
-This entry is about the article
+This entry is to record the reference:
 
 
 * [[Daniel Dugger]]:
