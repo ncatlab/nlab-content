@@ -593,8 +593,9 @@ Notice that much of the traditional literature discusses (just) the right adjoin
 
 #### The left adjoint
 
-The [[left adjoint]] is the functor
+Reference: [Hollander](#Hollander), Section 3.
 
+The [[left adjoint]] is the functor
 $$
   L 
     \colon 
@@ -604,24 +605,19 @@ $$
     (-)/p \colon C^{op} \to Cat
   \big) 
 $$
-
 that assigns to a functor $p$ the presheaf which sends $c \in C$ to the [[comma category]] $c/p$ with objects given by pairs $(e, c \to p(e))$ and morphisms by commutative triangles
-
 $$
   \array{
       && c &&
       \\
       & \swarrow && \searrow &
       \\
-      p(e_1) &&\to&& p(e_2)
+      p(e_1) &&\to&& p(e_2),
   }
 $$
-
-i.e.
-
+i.e.,
 $$
-  L(E \stackrel{p}{\to}C) : c \mapsto c/p
-  \,.
+  L(E \stackrel{p}{\to}C) : c \mapsto c/p.
 $$
 
 This functor may equivalently be expressed as follows.
@@ -758,22 +754,17 @@ with the [[left adjoint]] given by hom-objects in a pushout object as above is t
 
 #### The right adjoint
 
+Reference: [Hollander](#Hollander), Section 2.
+
 We also have an adjunction
 $$
-  (\textstyle{\int} \vdash R) 
-  \;\colon\; 
-  Fib(C) 
-  \rightleftarrows 
-  [C^{op}, Cat]
-  \,,
+  (\textstyle{\int} \vdash R)\colon Fib(C) 
+  \rightleftarrows [C^{op}, Cat],
 $$
 where the [[right adjoint]] $R$ sends a [[Grothendieck fibration]] $F$ over $C$
 to the [[presheaf]]
 $$
-  c
-   \;\mapsto\; 
-  Hom(\textstyle{\int} y(c), F)
-  \,,
+  c \mapsto Hom(\textstyle{\int} y(c), F),
 $$
 where $\int y(c)$ is the Grothendieck construction applied to the
 representable presheaf of sets (hence [[discrete categories]]) on $c$
@@ -1378,9 +1369,13 @@ The [[geometric realization of categories|geometric realization]] of Grothendiec
 
 * {#Thomason79} [[R. W. Thomason]], _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
 
-The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
+The left and right adjoints to the Grothendieck construction, including the corresponding enhancements to [[Quillen adjunctions]], are discussed in
 
-* [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_
+* [[Sharon Hollander]], _Diagrams indexed by Grothendieck constructions_, Homology, Homotopy and Applications 10:3 (2008), 193–221.
+
+The left adjoint to the Grothendieck construction is discussed in Section 3.1.1 of
+
+* [[Georges Maltsiniotis]], _La théorie de l'homotopie de Grothendieck_, Astérisque 301 (2005), 146 pp. 
 
 On limits and colimits in Grothendieck constructions:
 
