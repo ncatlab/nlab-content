@@ -342,7 +342,7 @@ Review:
 
 * [[Herman Gluck]], [[Frank Warner]], [[Chung Tao Yang]], Section 6 of: _Division algebras, fibrations of spheres by great spheres and the topological determination of space by the gross behavior of its geodesics_, Duke Math. J. **50** 4 (1983) 1041-1076 &lbrack;[euclid:dmj/1077303489](https://projecteuclid.org/euclid.dmj/1077303489)&rbrack;
 
-* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
+* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]]: _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986) 173-198 &lbrack;[doi:10.5169/seals-55085](https://doi.org/10.5169/seals-55085), [ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
 
 * [[Theodore Frankel]], §22.4c in: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition&rbrack;
 
