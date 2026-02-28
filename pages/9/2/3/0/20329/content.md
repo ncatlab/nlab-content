@@ -94,12 +94,13 @@ Moreover, in [[Riemannian geometry]] and [[spin geometry]] one considers the cen
 
 * {#Gorenstein80} D. Gorenstein, p. 29 of _Finite Groups_, New York (1980)
 
-See also
+See also:
 
 * Wikipedia, _[Central product](https://en.wikipedia.org/wiki/Central_product)_
 
 * GroupProps, _[External central product](https://groupprops.subwiki.org/wiki/External_central_product)_
 
+For more references see at *[[Sp(n).Sp(1)]]*.
 
 [[!redirects central products of groups]]
 
