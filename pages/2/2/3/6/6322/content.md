@@ -134,7 +134,9 @@ Textbooks:
 
 with emphasis on [[phenomenology]]:
 
-* {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
+* {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley (1984) &lbrack;[pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf)&rbrack;
+
+* R. Keith Ellis, W. J Sterling, B. R. Webber: *QCD and Collider Physics*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511628788](https://doi.org/10.1017/CBO9780511628788)&rbrack;
 
 On QCD's [[running coupling constant]]:
 
