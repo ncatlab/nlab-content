@@ -480,9 +480,10 @@ is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#Cadek
 
 Very early appearances of the notation $Sp(n)\cdot Sp(1)$ are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
 
-* {#Gray69} [[Alfred Gray]], [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
+* {#Gray69} [[Alfred Gray]]: *A Note on Manifolds Whose Holonomy Group is a Subgroup of $Sp(n) \cdot Sp(1)$*, Michigan Math. J. **16** 2 (1969) 125-128 &lbrack;[doi:10.1307/mmj/1029000212](http://doi.org/10.1307/mmj/1029000212), [euclid:mmj/1029000212](https://projecteuclid.org/euclid.mmj/1029000212)&rbrack;
 
-* {#Alekseevskii68} [[Dmitri Alekseevskii]], [_Riemannian spaces with exceptional holonomy groups_](https://link.springer.com/article/10.1007%2FBF01075943), Functional Analalysis and its Applications (1968) 2: 97.
+* {#Alekseevskii68} [[Dmitri Alekseevskii]]: *Riemannian spaces with exceptional holonomy groups*,  Funct Anal Its Appl **2** (1968) 97–105 &lbrack;[doi:10.1007/BF01075943](https://doi.org/10.1007/BF01075943)&rbrack;
+
 
 However, the even earlier paper:
 
