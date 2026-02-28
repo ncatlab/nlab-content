@@ -13,13 +13,12 @@
 
 On [[G-structure]]:
 
-
 * {#Alekseevskii} [[Dmitry Alekseevsky]], _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
 
 
 On [[Sp(n).Sp(1)]]-[[special holonomy]]:
 
-* {#Alekseevskii68} [[Dmitri Alekseevskii]], [_Riemannian spaces with exceptional holonomy groups_](https://link.springer.com/article/10.1007%2FBF01075943), Functional Analalysis and its Applications (1968) 2: 97.
+* {#Alekseevskii68} [[Dmitri Alekseevskii]]: *Riemannian spaces with exceptional holonomy groups*,  Funct Anal Its Appl **2** (1968) 97–105 &lbrack;[doi:10.1007/BF01075943](https://doi.org/10.1007/BF01075943)&rbrack;
 
 On [[quaternionic manifolds]] and [[quaternion-Kähler manifolds]] in terms of [[G-structure]]:
 
