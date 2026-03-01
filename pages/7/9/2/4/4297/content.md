@@ -67,6 +67,6 @@ See also
 
 The analog of the Poincaré conjecture in higher dimensions:
 
-* {#Newman66} M. H. A. Newman, Theorem 7 in: *The Engulfing Theorem for Topological Manifolds*, Annals of Mathematics Second Series, *84** 3 (1966) 555-571  ([jstor:1970460](https://www.jstor.org/stable/1970460))
+* {#Newman66} [[M. H. A. Newman]], Theorem 7 in: *The Engulfing Theorem for Topological Manifolds*, Annals of Mathematics Second Series, *84** 3 (1966) 555-571  ([jstor:1970460](https://www.jstor.org/stable/1970460))
 
 [[!redirects Poincare conjecture]]
