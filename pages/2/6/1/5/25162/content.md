@@ -14,7 +14,7 @@
 
 ## Definition
 
-Given sets $A$ and $B$, the **injection set** $\mathrm{Inj}(A, B)$ is the set of [[injection]] between the set $A$ and $B$. In the [[foundations]] of mathematics, the existence of such a set may be taken to follow from the existence of [[power sets]], from the axiom of [[subset collection]], from the existence of [[function sets]], or as an axiom (the __axiom of injection sets__) in its own right.
+Given sets $A$ and $B$, the **injection set** $\mathrm{Inj}(A, B)$ is the set of [[injections]] between the set $A$ and $B$. In the [[foundations]] of mathematics, the existence of such a set may be taken to follow from the existence of [[power sets]], from the axiom of [[subset collection]], from the existence of [[function sets]], or as an axiom (the __axiom of injection sets__) in its own right.
 
 ## Properties
 
