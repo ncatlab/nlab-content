@@ -47,6 +47,13 @@ Beware the similarity to and difference with [[free action]]: a free action is e
 
 ## References
 
+Original reference for Newman's theorem:
+
+* [[M. H. A. Newman]], _A theorem on periodic transformations of spaces_, The Quarterly Journal of Mathematics os-2:1 (1931), 1-8.  [DOI](https://doi.org/10.1093/qmath/os-2.1.1-a).
+
+
+See also
+
 * {#Dress1969} [[Andreas Dress]]: *Newman's theorems on transformation groups*, Topology **8** 2 (1969) 203-207 \[<a href="https://doi.org/10.1016/0040-9383(69)90010-X">doi:10.1016/0040-9383(69)90010-X</a>\]
 
 [[!redirects effective group actions]]
