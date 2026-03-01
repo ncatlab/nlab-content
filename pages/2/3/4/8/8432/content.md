@@ -16,6 +16,8 @@ Introducing what came to be called [[Birman-Hilden theory]] on [[mapping class g
 
 * [[Joan S. Birman]], [[Hugh M. Hilden]]: *On isotopies of homeomorphisms of Riemann surfaces*, Annals of Mathematics **97** 3 (1973) 424-439 &lbrack;[doi:10.2307/1970830](https://doi.org/10.2307/1970830), [jstor:1970830](https://www.jstor.org/stable/1970830)&rbrack;
 
+* {#BirmanHilden2017} [[Joan Birman]], [[Hugh Hilden]]: *Erratum to "Isotopies of homeomorphisms of Riemann surfaces"*, Ann. of Math. **185** 1 (2017) 345-345 &lbrack;[doi:10.4007/annals.2017.185.1.9](https://doi.org/10.4007/annals.2017.185.1.9), [pdf](https://annals.math.princeton.edu/wp-content/uploads/annals-v185-n1-p09-p.pdf)&rbrack;
+
 recalled in
 
 * [[Joan S. Birman]]: *My favorite paper*, Celebratio Mathematica (Jan 2018) &lbrack;[celebratio:470](https://celebratio.org/Birman_JS/article/470)&rbrack;
