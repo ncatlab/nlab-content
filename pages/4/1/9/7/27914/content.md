@@ -27,9 +27,18 @@
 
 The original articles:
 
-* [[Joan S. Birman]], [[Hugh M. Hilden]]: *On the Mapping Class Group of Closed Surfaces as Covering Spaces*, in: *Advances in the Theory of Riemann Surfaces*, Annals of Mathematics Studies **66**, Princeton University Press (1971) 81-115 &lbrack;[doi:10.1515/9781400822492-007](https://www.degruyterbrill.com/document/doi/10.1515/9781400822492-007)&rbrack;
+* {#BirmanHilden1971} [[Joan S. Birman]], [[Hugh M. Hilden]]: *On the Mapping Class Group of Closed Surfaces as Covering Spaces*, in: *Advances in the Theory of Riemann Surfaces*, Annals of Mathematics Studies **66**, Princeton University Press (1971) 81-115 &lbrack;[doi:10.1515/9781400822492-007](https://www.degruyterbrill.com/document/doi/10.1515/9781400822492-007)&rbrack;
 
-* [[Joan S. Birman]], [[Hugh M. Hilden]]: *On isotopies of homeomorphisms of Riemann surfaces*, Annals of Mathematics **97** 3 (1973) 424-439 &lbrack;[doi:10.2307/1970830](https://doi.org/10.2307/1970830), [jstor:1970830](https://www.jstor.org/stable/1970830)&rbrack;
+* {#BirmanHilden1973} [[Joan S. Birman]], [[Hugh M. Hilden]]: *On isotopies of homeomorphisms of Riemann surfaces*, Annals of Mathematics **97** 3 (1973) 424-439 &lbrack;[doi:10.2307/1970830](https://doi.org/10.2307/1970830), [jstor:1970830](https://www.jstor.org/stable/1970830)&rbrack;
+
+Beware that the statements of Lem. 5.1 and Thm. 5 of [Birman & Hilden 1973](#BirmanHilden1973) are lacking a crucial assumption, discovered 43 years later:
+
+* {#GhaswalaWinarski2017} Tyrone Ghaswala, [[Rebecca R. Winarski]]: *Lifting Homeomorphisms and Cyclic Branched Covers of Spheres*, Michigan Math. J. **66** 4 (2017) 885-890 &lbrack;[arXiv:1607.06060](https://arxiv.org/abs/1607.06060), [doi:10.1307/mmj/1508810819](https://doi.org/10.1307/mmj/1508810819)&rbrack;
+
+* {#BirmanHilden2017} [[Joan Birman]], [[Hugh Hilden]]: *Erratum to "Isotopies of homeomorphisms of Riemann surfaces"*, Ann. of Math. **185** 1 (2017) 345-345 &lbrack;[doi:10.4007/annals.2017.185.1.9](https://doi.org/10.4007/annals.2017.185.1.9), [pdf](https://annals.math.princeton.edu/wp-content/uploads/annals-v185-n1-p09-p.pdf)&rbrack;
+
+
+
 
 Historical recollection:
 
@@ -45,9 +54,6 @@ Review:
 
 * {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]]: *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
 
-See also:
-
-* Tyrone Ghaswala, [[Rebecca R. Winarski]]: *Lifting Homeomorphisms and Cyclic Branched Covers of Spheres*, Michigan Math. J. **66** 4 (2017) 885-890 &lbrack;[arXiv:1607.06060](https://arxiv.org/abs/1607.06060), [doi:10.1307/mmj/1508810819](https://doi.org/10.1307/mmj/1508810819)&rbrack;
 
 
 The case of [[3-manifolds]] instead of [[surfaces]]:
