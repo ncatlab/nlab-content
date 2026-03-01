@@ -42,7 +42,7 @@ More generally:
 
 * an [[ring over a ring|$R$-ring]] is a [[monoid object]] [[internalization|in]] the category [[Bimod|$R BiMod$]] of $R$-[[bimodules]] equipped with, crucially, the [[tensor product of bimodules]].
 
-Less generally, a **[[commutative algebra]]** (where [[associativity]] and [[unitality]] are usually assumed) is a [[commutative monoid in a symmetric monoidal category|commutative monoid objecy]] [[internalization|in]] [[Mod|$R Mod$]].
+Less generally, a **[[commutative algebra]]** (where [[associativity]] and [[unitality]] are usually assumed) is a [[commutative monoid in a symmetric monoidal category|commutative monoid object]] [[internalization|in]] [[Mod|$R Mod$]].
 
 For a given ring the algebras form a category, [[Alg]], and the commutative algebras a subcategory, [[CommAlg]].
 
