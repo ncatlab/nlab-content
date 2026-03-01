@@ -29,8 +29,15 @@ A [[group action]] of a [[group]] ([[group object]]) $G$ on a  [[set]] ([[object
 
 Beware the similarity to and difference with [[free action]]: a free action is effective, but an effective action need not be free.
 
-## Related concepts
+## Properties
 
+\begin{proposition}\label{NewmanTheorem}
+**(Newman's theorem)** Given an effective action of a [[finite group]] $G$ on a [[connected topological space|connected]] [[manifold]] $X$ by [[homeomorphisms]], then the [[subset]] $X_{reg} \subset X$ of points with [[trivial group|trivial]] [[stabilizer group]] is [[open subset|open]] and everywhere [[dense subset|dense]].
+\end{proposition}
+(cf. [Dress 1969 Thm. 1](#Dress1969))
+
+
+## Related concepts
 
 * [[transitive action]], [[free action]], [[semi-free action]], [[regular action]],
 
@@ -38,4 +45,11 @@ Beware the similarity to and difference with [[free action]]: a free action is e
 
 * [[effective orbifold]]
 
+## References
 
+* {#Dress1969} [[Andreas Dress]]: *Newman's theorems on transformation groups*, Topology **8** 2 (1969) 203-207 \[<a href="https://doi.org/10.1016/0040-9383(69)90010-X">doi:10.1016/0040-9383(69)90010-X</a>\]
+
+[[!redirects effective group actions]]
+
+[[!redirects Newman's theorem]]
+[[!redirects Newman theorem]]
