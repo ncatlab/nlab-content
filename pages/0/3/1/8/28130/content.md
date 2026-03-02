@@ -188,6 +188,10 @@ On VPD symmetry of the actual [[M5-brane]] [[sigma-model]]:
 
 * [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
 
+See also:
+
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism* &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443)&rbrack;
+
 
 
 ### As symmetries of fractional quantum Hall systems
