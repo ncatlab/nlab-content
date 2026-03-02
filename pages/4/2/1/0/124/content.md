@@ -22,16 +22,16 @@
 ## Idea 
  {#Idea}
 
-There are various different perspectives on the notion of _topos_.   One is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphisms]] over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
+There are various different perspectives on the notion of _topos_.   One is that a topos is a [[category]] that looks like a category of [[spaces]] that sit by [[local homeomorphisms]] over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
 
-The archetypical class of examples is that of [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[étale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
+The archetypical class of examples is that of [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[étale spaces]] over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
 
 When $X = *$ is the [[point]], this is just the category [[Set]] of all [[sets]]: spaces that are _modeled on the point_. This is the archetypical topos itself. 
 
 What makes the notion of topos powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than &#233;tale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance, in every topos, all finite [[limits]] and [[colimits]] exist, and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs [[internalization|internal to]] every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
 
 On the one hand, this may be thought of as saying that toposes are _very nice categories of spaces_, in that whatever construction on spaces one thinks of 
--- for instance, formation of [[quotient]]s or of [[fiber product]]s or of [[mapping space]]s --
+-- for instance, formation of [[quotients]] or of [[fiber products]] or of [[mapping spaces]] --
 the resulting space with the expected general abstract properties will exist in the topos. In this sense, toposes are _convenient categories_ for geometry -- as in: [[convenient category of topological spaces]], but even more convenient than that.
 
 On the other hand, by de-emphasizing the geometric interpretation of their objects and just using their good abstract properties, this means that toposes are contexts with a powerful [[internal logic]]. The internal logic of toposes is [[intuitionistic logic|intuitionistic]] [[higher order logic]]. This means that, while the [[law of excluded middle]] and the [[axiom of choice]] may fail, apart from that, every logical statement not depending on these does hold [[internalization|internal to]] _every_ topos.
