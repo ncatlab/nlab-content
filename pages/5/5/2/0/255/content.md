@@ -164,7 +164,7 @@ such that the diagrams
 	\arrow["{\mu t}"', from=1-1, to=2-1]
 	\arrow["t\mu", from=1-1, to=1-2]
 \end{tikzcd}](https://q.uiver.app/#q=WzAsNCxbMCwwLCJ0dHQiXSxbMSwwLCJ0dCJdLFswLDEsInR0Il0sWzEsMSwidCJdLFsxLDMsIlxcbXUiXSxbMiwzLCJcXG11IiwyXSxbMCwyLCJcXG11IHQiLDJdLFswLDEsInRcXG11Il1d)
-commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
+commute (where certain [[coherence]] [[isomorphisms]] have been omitted).
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a [[monoid object]] in the endomorphism category $K(a,a)$. Alternatively, monads can be taken as more fundamental, and a [[monoid in a monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
 
