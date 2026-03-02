@@ -193,6 +193,9 @@ Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizo
 [[!redirects * algebra]]
 [[!redirects * algebras]]
 
+[[!redirects *-subalgebra]]
+[[!redirects *-subalgebras]]
+
 [[!redirects star-ring]]
 [[!redirects star-rings]]
 [[!redirects star ring]]
