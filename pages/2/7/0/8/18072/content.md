@@ -72,6 +72,9 @@ See the reference [below](#ReferencesSymplecticGeometryAndGeometricQuantization)
 
 ## References
 
+> For more see the references at _[[string theory]]_ and at *[[Polyakov action]]* and *[[Nambu-Goto action]]*. 
+
+
 ### General
 
 The [[Polyakov action]] (but see there for more) for the bosonic string (and relation to [[Liouville theory]] in the non-critical case):
@@ -88,7 +91,10 @@ With emphasis on the [[background field|background]] [[effective field theory]]:
 
 * [[Arkady A. Tseytlin]]: *Sigma model approach to string theory* &lbrack;[arXiv:2602.10977](https://arxiv.org/abs/2602.10977)&rbrack;
 
-See the references at _[[string theory]]_ for more.
+
+In view of [[area-preserving diffeomorphisms]]:
+
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism* &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443)&rbrack;
 
 
 
