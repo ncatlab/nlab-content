@@ -1,5 +1,5 @@
 
-* [institute page](https://www.aus.edu/faculty/dr-sadok-kallel) (Sharjah)
+* [institute page](https://www.aus.edu/faculty/dr-sadok-kallel) (American University of Sharjah)
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18622)
 
