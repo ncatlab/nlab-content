@@ -169,6 +169,10 @@ Original articles:
 
 * [[David Mumford]], _Towards an enumerative geometry of the moduli space of curves_, Arithmetic and geometry, Vol. II, Birkh&#228;user Boston, Boston, MA, 1983, pp. 271&#8211;328, [MR85j:14046](http://www.ams.org/mathscinet-getitem?mr=85j:14046)
 
+Lecture notes:
+
+* Alessandro Giacchetto, Danilo Lewański: *Les Houches lecture notes on moduli spaces of Riemann surfaces*, SciPost Phys. Lect. Notes **111** (2026) &lbrack;[arXiv:2410.13273](https://arxiv.org/abs/2410.13273), [doi:10.21468/SciPostPhysLectNotes.111](https://doi.org/10.21468/SciPostPhysLectNotes.111)&rbrack;
+
 
 On [[moduli spaces of curves]]/[[moduli spaces of Riemann surfaces]] with emphasis on their [[orbifold]]-structure:
 
