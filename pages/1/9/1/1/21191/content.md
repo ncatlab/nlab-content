@@ -1,5 +1,9 @@
 
-* [webpage](http://www.kyoto-u.ac.jp/static/en/research/forefronts/archives/kawai.html)
+* [research group page](http://www.kyoto-u.ac.jp/static/en/research/forefronts/archives/kawai.html)
+
+* [inSpire page](https://inspirehep.net/authors/1003401)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Hikaru-Kawai-2)
 
 
 ## Selected writings
@@ -33,6 +37,10 @@ and to [[closed string field theory]]:
 and to [[general relativity]]:
 
 * [[Pei-Ming Ho]], [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
+
+On [[volume-preserving diffeomorphisms]] in [[bosonic string]] and [[brane]] [[sigma models]]:
+
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism* &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443)&rbrack;
 
 
 
