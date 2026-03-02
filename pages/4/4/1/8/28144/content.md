@@ -36,6 +36,10 @@ On emergent [[gravity]] ([[general relativity]]) in the [[IKKT matrix model]]:
 
 * [[Pei-Ming Ho]], [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
 
+On [[volume-preserving diffeomorphisms]] in [[bosonic string]] and [[brane]] [[sigma models]]:
+
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism* &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443)&rbrack;
+
 
 ## Related entries
 
