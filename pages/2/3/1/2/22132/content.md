@@ -1,7 +1,9 @@
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Ady_Stern)
+* [personal page](https://webhome.weizmann.ac.il/home/stern/)
 
-* [Institute page](https://webhome.weizmann.ac.il/home/stern/)
+* [institute page](https://www.weizmann.ac.il/physics/prof-ady-stern)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ady_Stern)
 
 * [inSpire page](https://inspirehep.net/authors/1872934)
 
