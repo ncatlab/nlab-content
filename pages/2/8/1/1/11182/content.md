@@ -1,19 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Higher geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 =--
 =--
-
 
 \tableofcontents
 
@@ -226,7 +224,7 @@ The hypotheses of this theorem are a bit restrictive, but they include both the 
 
 * Forms such as $\sqrt{\mathrm{d}x}$, whose genuine integral also diverges.  These are excluded by requirement (2).
 
-There are, however, some cogerm forms that are not 1-cojet forms, nor are they $o(dx)$, yet their geniune integrals exist.  An example is $\sqrt{\mathrm{d}^2x}$, whose genuine integral over a curve $c:[a,b]\to X$ is essentially $\int_{t=a}^b \sqrt{(x\circ c)''(t)} \,\mathrm{d}t$.  There is probably a generalization of the above existence theorem to $k$-cojet forms, involving somewhat more complicated vanishing and differentiability conditions.
+There are, however, some cogerm forms that are not 1-cojet forms, nor are they $\mathrm{o}(\mathrm{d}x)$, yet their genuine integrals exist.  An example is $\frac {|{(\mathrm{d}x \cdot \mathrm{d}x) \,\mathrm{d}^2x - (\mathrm{d}x \cdot \mathrm{d}^2x) \,\mathrm{d}x}|} {|\mathrm{d}x|^3}$, whose genuine integral over a curve is the total curvature along the curve.  There is probably a generalization of the above existence theorem to $k$-cojet forms, involving somewhat more complicated vanishing and differentiability conditions.
 
 
 ### Parametrization invariance
