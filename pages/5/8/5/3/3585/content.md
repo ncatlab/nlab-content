@@ -1,16 +1,32 @@
 
-#Contents#
-* table of contents
-{:toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
 
-##Idea
-The theory of hyperfunctions, created by the Japanese school of [[Mikio Sato]], [[Masaki Kashiwara]] et al. is one of the many variants of the theory of [[generalized functions]]. Unlike the earlier theory of [[distributions]] of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of [[holomorphic functions]]. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
+
+\tableofcontents
+
+
+## Idea
+
+The theory of *hyperfunctions*, created by the Japanese school of [[Mikio Sato]], [[Masaki Kashiwara]] et al. is one of the many variants of the theory of [[generalized functions]]. Unlike the earlier theory of [[distributions]] of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of [[holomorphic functions]]. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
 
 Hyperfunctions are a very useful tool in the study of [[D-modules]], holonomic systems of differential equations, and especially some aspects of [[symplectic geometry]] and [[harmonic analysis]] that are part of [[microlocal analysis]], especially [[algebraic microlocalization]]. 
 
 This page is about hyperfunctions of one variable only, for the multiple variable case see [[hyperfunction of multiple variables]].
 
 ## Abstract
+
 We define hyperfunctions and explain some basic properties.
 
 The theory of hyperfunctions of one variable is considerably easier than the one for multiple variables, for this reason we will split the exposition to handle the one dimensional case first, and then generalize to multiple dimensions: [[hyperfunction of multiple variables]].
@@ -21,7 +37,7 @@ The exposition of the one dimensional theory will try to illuminate the followin
 
 A basic strategy of the exposition will therefore be to stress both similarities and differences of hyperfunctions and distributions (real analytic and smooth setting).
 
-2. Hyperfunctions require less technical machinery, at least in one dimension, since they can be defined and studied with basic complex analysis only. That will nevertheless make it possible to give a rigorous definitions of otherwise only formal expressions that are often used by engineers and physicists, like $\int_a^b \delta (x) dx$.
+2. Hyperfunctions require less technical machinery, at least in one dimension, since they can be defined and studied with basic [[complex analysis]] only. That will nevertheless make it possible to give a rigorous definitions of otherwise only formal expressions that are often used by engineers and physicists, like $\int_a^b \delta (x) dx$.
 
 3. Hyperfunctions and their [[microfunction]]s both form [[flabby sheaves]], which is the starting point of a study of singularities of hyperfunctions and the [[algebraic analysis]] of systems of [[differential equations]].
 
@@ -43,7 +59,8 @@ Let $U^+ \coloneqq \{u \in U : \operatorname{Im}(u) \gt 0 \}$ and $U^- \coloneqq
 
 In the following we will often write $F = (F^+, F^-)$ for a hyperfunction $F$, with $(F^+, F^-)$ being a representative of the equivalence class that is $F$ in $\mathcal{B}$ on some complex neighbourhood. If the algebraic expression of $F^+$ and $F^-$ coincides we can further simplify the notation and simply write $[F]$.
 
-###Examples
+### Examples
+
 The $\delta$ distribution can be represented by $\delta = [\frac{i}{2 \pi z}]$. We can prove that this equality is simply a restatement of Cauchy's integral formula after we define the concept of integration for a compactly supported hyperfunction below. 
 
 The Heaviside function $H(x)$ has as a representation:
@@ -271,26 +288,40 @@ The singular support does not help much: The $\delta$ distribution cannot be squ
 
 * [[microlocal analysis]], [[wave front set]]
 
-##References
 
-* Springer Online Enc. of Math.: [hyperfunction](http://eom.springer.de/h/h048420.htm)
+## References
 
-A gentle introduction with examples is the booklet
+The original articles:
 
-* K. Yosida, _Operational calculus. A theory of hyperfunctions_, Applied Mathematical Sciences, 55. Springer-Verlag, New York, 1984. x+170 pp.
+* [[Mikio Sato]]: *On a generalization of the concept of functions*, Proc. Japan Acad. **34** 3 (1958) 126-130 &lbrack;[doi:10.3792/pja/1195524746](http://doi.org/10.3792/pja/1195524746)&rbrack; 
 
-* [[Mikio Sato]], _Theory of hyperfunctions I_, [pdf scan](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=39927&file_id=19&file_no=1)
+* [[Mikio Sato]]: *Theory of hyperfunctions I*, Journal of the Faculty of Science, University of Tokyo (1959) 139–193 &lbrack;[pdf scan](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=39927&file_id=19&file_no=1)&rbrack;
 
-* M. [[Kashiwara]],   T. Kawai,   T. Kimura,  _Foundation of algebraic analysis_, Princeton Univ. Press  (1986)  ((translated from the Japanese))
+* [[Mikio Sato]]: *Theory of hyperfunctions II*, Journal of the Faculty of Science, University of Tokyo (1960) 387–437 &lbrack;[pdf](https://repository.dl.itc.u-tokyo.ac.jp/record/39925/files/jfs080207.pdf)&rbrack;
 
-* Mitsuo Morimoto: _An introduction to Sato's hyperfunctions._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0811.46034&format=complete)) 
 
-* A. Eida, S. Pilipovi&#263;, _On the microlocal decomposition of same classes of hyperfunctions_, Math. Proc. Camb. Phil. Soc. __125__, 455-461 (1999)
+Introductions:
 
-It is possible to use hyperfunctions as an introduction to generalized functions for physicists and engineers with a minimal background in complex analysis, see
+* Kôsaku Yosida: *Operational calculus. A theory of hyperfunctions*, Applied Mathematical Sciences **55**, Springer (1984) &lbrack;[doi:10.1007/978-1-4612-1118-1](https://doi.org/10.1007/978-1-4612-1118-1)&rbrack;
 
-* Urs Graf: _Introduction to hyperfunctions and their integral transforms_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete) [pdf](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B_dBawvWxGGQODUyNDhjNzktNjM3Mi00NzM0LTg4ZDYtMWIzNGIwNWZkMzdi&hl=en_US)
+* Mitsuo Morimoto: _An introduction to Sato's hyperfunctions_, Translations of Mathematical Monographs **129** (1993) &lbrack;[ams:MMONO/129](https://bookstore.ams.org/MMONO/129), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0811.46034&format=complete)&rbrack;
+
+* Urs Graf: *Introduction to hyperfunctions and their integral transforms*, Springer (2010) &lbrack;[doi:10.1007/978-3-0346-0408-6](https://doi.org/10.1007/978-3-0346-0408-6), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete)&rbrack;
+
+On application to [[quantum field theory]] and [[mathematical physics]]:
+
+* C. A. McCranie: *Applications of Hyperfunctions in Quantum Field Theory and Mathematical Physics* PhD thesis, University of Colorado at Boulder (2025)
+
+See also:
+
+* [[Masaki Kashiwara]],   T. Kawai,   T. Kimura:  _Foundation of algebraic analysis_, Princeton Univ. Press  (1986)  
+
+* A. Eida, S. Pilipovi&#263;, _On the microlocal decomposition of same classes of hyperfunctions_, Math. Proc. Camb. Phil. Soc. __125__ (1999) 455-461
+
+
+
 category: analysis
+
 [[!redirects hyperfunction]]
 [[!redirects hyperfunctions]]
 [[!redirects Sato's hyperfunction]]
