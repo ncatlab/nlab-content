@@ -20,8 +20,7 @@ The theory of [[microlocalization]] of (ind)-sheaves was developed in the follow
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
-complete account of the theory.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a complete account of the theory.
 
 
 On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
@@ -33,6 +32,12 @@ On [[category theory]] and [[sheaf and topos theory]]:
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 * {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
+
+On [[Mikio Sato]]:
+
+* [[Pierre Schapira]]: *Mikio Sato, a visionary of mathematics*, Notices of the AMS **54** 2 (2007) &lbrack;[pdf](https://www.ams.org/notices/200702/comm-schapira.pdf), full issue: [pdf](https://www.ams.org/notices/200702/200702FullIssue.pdf)&rbrack;
+
+* [[Pierre Schapira]]: *Mikio Sato, a visionary of mathematics*, Notices of the AMS (2024) &lbrack;[arXiv:2402.15553](https://arxiv.org/abs/2402.15553)&rbrack;
 
 
 On [[Alexander Grothendieck]]'s *[[Récoltes et semailles]]*:
