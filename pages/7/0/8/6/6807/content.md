@@ -196,6 +196,9 @@ See also:
 
 * Oscar J.C. Dias, [[Jorge E. Santos]]: *Localized states of BFSS super quantum mechanics* &lbrack;[arXiv:2510.07379](https://arxiv.org/abs/2510.07379)&rbrack;
 
+* Ethan Torres: *A Matrix Theory Construction of the IIA/IIB Wall* &lbrack;[arXiv:2603.02199](https://arxiv.org/abs/2603.02199)&rbrack;
+
+
 
 
 
