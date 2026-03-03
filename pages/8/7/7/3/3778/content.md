@@ -2,11 +2,25 @@
 
 Much of his research is related to the study of singularities and related research in Hodge theory where he substantially extended the foundations. The similarities of that research to [[B. A. Dubrovin]]'s noton of Frobenius manifolds  has been further developed by Klaus Hertling. He applied some of the methods to mathematical physics ([[integrable systems]], solitons and wave equations...). 
 
-* interview in [Notices AMS](http://www.ams.org/notices/200702/fea-sato-2.pdf)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Mikio_Sato) 
 
-* [wikipedia](http://en.wikipedia.org/wiki/Mikio_Sato) 
+* *Interview with Mikio Sato*, Notices of the AMS **54** 2 (2007) &lbrack;full issue: [pdf](https://www.ams.org/notices/200702/200702FullIssue.pdf)&rbrack;
+
+* [[Pierre Schapira]]: *Mikio Sato, a visionary of mathematics*, Notices of the AMS **54** 2 (2007) &lbrack;[pdf](https://www.ams.org/notices/200702/comm-schapira.pdf), full issue: [pdf](https://www.ams.org/notices/200702/200702FullIssue.pdf)&rbrack;
+
+* [[Pierre Schapira]]: *Mikio Sato, a visionary of mathematics*, Notices of the AMS (2024) &lbrack;[arXiv:2402.15553](https://arxiv.org/abs/2402.15553)&rbrack;
+
 
 ## Selected writings
+
+Introducing the concept of [[hyperfunctions]]:
+
+* [[Mikio Sato]]: *On a generalization of the concept of functions*, Proc. Japan Acad. **34** 3 (1958) 126-130 &lbrack;[doi:10.3792/pja/1195524746](http://doi.org/10.3792/pja/1195524746)&rbrack; 
+
+* [[Mikio Sato]]: *Theory of hyperfunctions I*, Journal of the Faculty of Science, University of Tokyo (1959) 139–193 &lbrack;[pdf scan](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=39927&file_id=19&file_no=1)&rbrack;
+
+* [[Mikio Sato]]: *Theory of hyperfunctions II*, Journal of the Faculty of Science, University of Tokyo (1960) 387–437 &lbrack;[pdf](https://repository.dl.itc.u-tokyo.ac.jp/record/39925/files/jfs080207.pdf)&rbrack;
+
 
 On [[holonomic quantum fields]]:
 
