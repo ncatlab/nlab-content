@@ -490,7 +490,7 @@ This makes $\mathcal{C}^{\ast/}$ itself a [[closed monoidal category]], which is
 
 =--
 
-([Elmendorf-Mandell 07, lemma 4.20](#ElmendorfMandell07))
+([Elmendorf-Mandell 09, lemma 4.20](#ElmendorfMandell07))
 
 +-- {: .num_remark}
 ###### Remark
