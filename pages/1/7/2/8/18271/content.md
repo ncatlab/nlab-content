@@ -33,5 +33,3 @@ Then $X$ is [[paracompact topological space]].
 * [[paracompact Hausdorff spaces are normal]]
 
 * [[second-countable regular spaces are paracompact]]
-
-* [[second-countable regular spaces are paracompact]]
