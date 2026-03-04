@@ -17,7 +17,7 @@
 
 ## Idea
 
-$n\times n$ matrices with entries in a unital ring $R$ form a unital ring $Mat_{n \times n}(R)$ with unit $I_n$ (diagonal matrix whose each entry at the main diagonal is $1_R$). A matrix $A\in Mat_{n \times n}(R)$ is invertible (also said regular) if it has a two-sided inverse $A^{-1}$ in that unital ring, called the matrix inverse (or inverse matrix) of $A$. In other words, it is a matrix satisfying $A A^{-1} = I_n = A^{-1} A$.
+$n\times n$ matrices with entries in a unital ring $R$ form a unital ring $Mat_{n \times n}(R)$ with unit $I_n$ (diagonal matrix whose each entry at the main diagonal is $1_R$). A matrix $A\in Mat_{n \times n}(R)$ is __invertible__ (also said __regular__) if it has a two-sided inverse $A^{-1}$ in that unital ring, called the matrix inverse (or inverse matrix) of $A$. In other words, it is a matrix satisfying $A A^{-1} = I_n = A^{-1} A$.
 
 ## Variants
 
@@ -49,6 +49,8 @@ If $R = k$ is a field, $n \in \mathbb{N}$ and $A \in Mat_{n \times n}(k)$ a [[sq
 
 =--
 
+One of the methods to calculate the inverse is [[Faddeev-LeVerrier algorithm|Faddeev--LeVerrier algorithm]] (also called Frame--Faddeev algorithm) which also calculates the entire characteristic polynomial of a matrix along the way. 
+
 ## Related concepts
 
 * [[quasideterminant]]
@@ -73,7 +75,7 @@ Formulas for inverses of [[block matrices]] see shortly at [[Schur complement]] 
 
 * D. Krob, B. Leclerc, Sec 2 in: _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. **169** (1995) 1-23 &lbrack;[doi:10.1007/BF02101594](https://doi.org/10.1007/BF02101594), [arXiv:hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)&rbrack;đ
 
-* Chapter 13 (e.g. 13.8), Block LU factorization, in: Nicholas J. Higham, _Accuracy and stability of numerical algorithms_, Society for Industrial and Applied Mathematics, Year: 2002
+* Chapter 13 (e.g. 13.8), _Block LU factorization_, in: Nicholas J. Higham, _Accuracy and stability of numerical algorithms_, Society for Industrial and Applied Mathematics, Year: 2002
 
 * Tzon-Tzer Lu, Sheng-Hua Shiou, *Inverses of $2 \times 2$ block matrices*, Computers & Mathematics with Applications **43** 1–2 (2002) 119-129 &lbrack;<a href="https://doi.org/10.1016/S0898-1221(01)00278-4">doi:10.1016/S0898-1221(01)00278-4</a>&rbrack;
 
@@ -84,6 +86,8 @@ Formulas for inverses of [[block matrices]] see shortly at [[Schur complement]] 
 
 [[!redirects invertible matrix]]
 [[!redirects invertible matrices]]
+[[!redirects regular matrix]]
+[[!redirects regular matrices]]
 
 [[!redirects matrix inverse]]
 
