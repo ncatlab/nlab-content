@@ -202,6 +202,10 @@ A standard textbook reference in the context of 1-[[topos theory]] is:
 
 * [[Peter Johnstone]], _[[Sketches of an elephant]] - a topos theory compendium_, Section C.2.2, proof of proposition 2.2.6, p.551
 
+See also:
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, III.5 
+
 Remarks on the plus-construction in [[(infinity,1)-topos theory]] is in section 6.5.3 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
