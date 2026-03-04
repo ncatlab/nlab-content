@@ -25,6 +25,8 @@ Commonly considered are lifts through the [[Whitehead tower]] of the [[orthogona
 
 * [[fivebrane structure]] - [[fivebrane bordism]]
 
+* [[ninebrane structure]] - [[ninebrane bordism]]
+
 etc.
 
 ## Examples
