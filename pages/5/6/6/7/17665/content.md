@@ -19,7 +19,7 @@ A __stochastic process__ describes a [[dynamical system]] evolving over a [[line
 
 By a __random process__ physicists usually mean the same, but mathematicians sometimes allow random processes indexed by more general sets, not usually with meaning of time or equipped with a [[linear order]]. 
 
-The most studied examples include *[[Brownian motion]]*, *[[Ornstein-Uhlenbeck processes]]* and *[[Lévy processes]]*. The most elementary stochastic process (to define) is an  __indivisible stochastic process__ which [Barandes 2025](#Barendes25)  has used to give an [[indivisible stochastic process interpretation of quantum mechanics]].
+The most studied examples include Markov processes (defined below), *[[Brownian motion]]*, *[[Ornstein-Uhlenbeck processes]]* and *[[Lévy processes]]*. The most elementary stochastic process (to define) is an  __indivisible stochastic process__ which [Barandes 2025](#Barendes25)  has used to give an [[indivisible stochastic process interpretation of quantum mechanics]].
 
 
 ## Definitions
@@ -102,6 +102,10 @@ An __indivisible stochastic process__ is a stochastic process which is not divis
 
 An indivisible [[stochastic process]] is a very general type of [[stochastic process]] which can exhibit wild behavior because, for any $\epsilon \gt 0$, the two dynamics laws $\Gamma_t$ and $\Gamma_{t+\epsilon}$ need not have any relationship between them.  For example, even if $\Omega$ was a [[standard Borel space]] and for every $U \in \Sigma_{\Omega}$ all the measurable functions $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ and $\Omega_0 \xrightarrow{\Gamma_{t+\epsilon}(U | \bullet)} [0,1]$ were  continuous functions the two probability measures obtained by composition with an initial probability measure on $\Omega_0$, $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_t} \Omega_t$ and $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_{t+\epsilon}} \Omega_{t+\epsilon}$, can vary significantly.  Such a process is in stark contrast to a [[Markov process]] on a [[standard Borel space]] where continuous [[Markov kernels]] yield a continuously varying probability measure on the [[measurable space]] $\Omega$. 
 
+## Hidden Markov Models
+
+ When a non-Markov stochastic process can be re-expressed as a Markov stochastic process by formally augmenting its states with a suitable collection of unobservable variables, then the resulting process is called a Hidden Markov Model.  The unobservable variables added to make the process look Markov are said to be latent or hidden variables.  For example, Pilot-Wave theories can be viewed as Hidden Markov Models.[Barandes 2026](#Barandes26)
+
 ## Examples
 
 \begin{example}
@@ -165,6 +169,10 @@ where $\omega$ is a constant.
 * Xiao-qing Meng, *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis ([[Meng.djvu|djvu:file]])
 
 * {#Barendes25} [[Jacob Barandes]], *Quantum Systems as Indivisible Stochastic Processes* &lbrack;[arXiv:2507.21192](https://arxiv.org/abs/2507.21192)&rbrack;
+
+* {#Barandes26} [[Jacob Barandes]], *Pilot-Wave Theories as Hidden Markov Models* &lbrack; 
+[arXiv:2602.10569]
+(https://arxiv.org/abs/2602.10569)&rbrack;
 
 With an eye towards [[quantum noise]];
 
