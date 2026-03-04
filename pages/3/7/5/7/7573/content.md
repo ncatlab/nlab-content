@@ -206,6 +206,8 @@ See also:
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, III.5 
 
+* [[SGA]] 4: Théorie des topos et cohomologie étale des schémas. Exp. II, 3.0.5, where $(-)^+$ is denoted by $L$.
+
 Remarks on the plus-construction in [[(infinity,1)-topos theory]] is in section 6.5.3 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
