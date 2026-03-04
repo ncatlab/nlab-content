@@ -121,6 +121,23 @@ For two [[lax monoidal functors]] $L \dashv R$ between monoidal categories to be
 
 See at _[[oplax monoidal functor]]_ and at _[[monoidal adjunction]]_ for more details.
 
+## Doctrinal adjunction for free algebras
+
+The following is Theorem 3.4 of [Paré 2021](#Pare21).
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $f : A \to B$ be a 1-cell in a [[2-category]] $K$ and let $T$ be a [[2-monad]]. Then the following are equivalent.
+
+* $T f$ admits a right adjoint in $K$.
+* $T f$ admits a right adjoint in the [[category of algebras|2-category of algebras]] $T$-$Alg_s$.
+* $T f \circ \eta_B$ admits a right adjoint in the [[Kleisli 2-category]].
+
+=--
+
+From doctrinal adjunction, we know that if $T f$ admits a right adjoint in $K$, the adjunction lives in the 2-category $T$-$Alg_l$. [[Paré]]'s result states that the lax morphism structure is moreover invertible.
+
 ## Related concepts
 
 * [[monoidal adjunction]]
@@ -128,6 +145,8 @@ See at _[[oplax monoidal functor]]_ and at _[[monoidal adjunction]]_ for more de
 ## References
 
 * {#Kelly} [[Max Kelly]], _Doctrinal Adjunction_ Lecture Notes in Mathematics, (1974), Volume 420/1974, doi:[10.1007/BFb0063105](https://dx.doi.org/10.1007/BFb0063105)
+
+* {#Pare21} [[Robert Paré]], _Three Easy Pieces: Imaginary seminar talks in honour of Bob Rosebrugh_, Theory and Applications of Categories, Vol. 36, No. 6, 2021, pp. 171-200. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/36/6/36-06abs.html)&rbrack;
 
 The following article explains the double category perspective:
 
