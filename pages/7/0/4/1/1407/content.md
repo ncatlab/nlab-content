@@ -413,7 +413,9 @@ Textbooks on [[string theory]] and [[M-theory]] (for more see at _[[books about 
 
   ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
-Lectures and lecture notes:
+Lecture notes:
+
+* [[Luis Alvarez-Gaumé]], M.A. Vazquez-Mozo: *Topics in String Theory and Quantum Gravity*, 1992 Les Houches lecture notes &lbrack;[arXiv:hep-th/9212006](https://arxiv.org/abs/hep-th/9212006)&rbrack;
 
 * [[David Tong]]: *Lectures on String Theory* &lbrack;[arxiv:0908.0333](https://arxiv.org/abs/0908.0333), [webpage](https://www.damtp.cam.ac.uk/user/tong/string.html)&rbrack;
 
