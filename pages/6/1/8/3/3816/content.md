@@ -45,7 +45,7 @@ proteins.
 
 
 
-## Refereneces
+## References
 
 > (See also the general references at *[[non-perturbative quantum field theory]]*.)
 
@@ -79,6 +79,9 @@ proteins.
 * Shuang-Yong Zhou: *Non-topological solitons and quasi-solitons* &lbrack;[arXiv:2411.16604](https://arxiv.org/abs/2411.16604)&rbrack;
 
 * [[Roberto Percacci]], Section 2 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
+* D. Miguélez-Caballero: *Evolution and scattering of excited topological defects: Interaction between internal modes* &lbrack;[arXiv:2603.03003](https://arxiv.org/abs/2603.03003)&rbrack;
+
 
 In the context of [[hadrodynamics]] ([[Skyrmions]]):
 
