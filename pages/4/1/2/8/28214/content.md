@@ -27,3 +27,9 @@ $\sigma_\n\neq 0$ and its inverse $A^{-1}$ is
 $$
 A^{-1} = \frac{B_{n-1}}{\sigma_n}.
 $$
+
+## References
+
+* Urbain Le Verrier, _Sur les variations séculaires des éléments des orbites pour les sept planètes principales_, J. de Math. (1) 5, 230 (1840).  [PDF](http://gallica.bnf.fr/ark:/12148/bpt6k163849/f228n35.capture).
+
+* D. K. Faddeev, I. S. Sominskii, _Problems in Higher Algebra_, (translated from the Russian by J. L. Brenner), W. H. Freeman and Company, 1965.
