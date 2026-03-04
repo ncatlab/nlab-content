@@ -134,9 +134,9 @@ A $R$-$S$-linear map $f:A \to B$ is [[invertible]] or an **$R$-$S$-bimodule isom
 
 ### Tensor product of bimodules
 
-Given [[rings]] $R, S, T$ and an $R$-$S$ bimodule $A$ and an $S$-$T$ bimodule $B$, the tensor product of $A$ and $B$ is formed as a [[quotient]] $A \otimes_N B$ of the [[tensor product of abelian groups]] $A\otimes B$. This is a special case of a more general construction:  
+Given [[rings]] $R, S, T$ and an $R$-$S$ bimodule $A$ and an $S$-$T$ bimodule $B$, the tensor product of $A$ and $B$ is formed as a [[quotient]] $A \otimes_S B$ of the [[tensor product of abelian groups]] $A\otimes B$. This is a special case of a more general construction:  
 
-Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodules $A$ and a $N$-$P$-bimodule $B$, we denote the monoid actions as $\lambda^{A}:M \otimes A \rightarrow A$, $\rho^{A}:A \otimes N \rightarrow N$, $\lambda^{B}:N \otimes B \rightarrow N$ and $\rho^{B}:B \otimes P \rightarrow P$. The tensor product, $A \otimes_{N} B$ is defined as this coequalizer:
+Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodule $A$ and a $N$-$P$-bimodule $B$, we denote the monoid actions as $\lambda^{A}:M \otimes A \rightarrow A$, $\rho^{A}:A \otimes N \rightarrow N$, $\lambda^{B}:N \otimes B \rightarrow N$ and $\rho^{B}:B \otimes P \rightarrow P$. The tensor product, $A \otimes_{N} B$ is defined as this coequalizer:
 
 \begin{tikzcd}
 A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right] &  & A \otimes B \arrow[r, "\pi_{A,B}"] & A \otimes_{N} B
