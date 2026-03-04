@@ -85,6 +85,9 @@ doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 
 * {#Arkor22Thesis} [[Nathanael Arkor]], *Monadic and Higher-Order Structure*, PhD thesis, Cambridge (2022) &lbrack;[doi:10.17863/CAM.86347](https://doi.org/10.17863/CAM.86347), [pdf](https://www.repository.cam.ac.uk/bitstreams/666be4fb-957b-4c2e-83fc-8124621f0c43/download), [[Arkor-MonadicAndHigherStructure.pdf:file]]&rbrack;
 
+* [[Jiří Rosický]], Giacomo Tendas, _Towards enriched universal algebra_, Selecta Mathematica New Series, 32:21, 2026.  [arXiv](https://arxiv.org/abs/2310.11972).
+
+
 [[!redirects enriched Lawvere theories]]
 [[!redirects enriched algebraic theory]]
 [[!redirects enriched algebraic theories]]
