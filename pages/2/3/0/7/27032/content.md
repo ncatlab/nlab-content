@@ -18,13 +18,13 @@ $$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x, P(x)) \vee \neg(\for
 Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
 $$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x, P(x)) \vee \neg(\neg \exists x, P(x)).$$
 
-If one takes the domains of quantification to be subsingletons, one get [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
+If one takes the domains of quantification to be subsingletons, one gets [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
 
 ## In the internal logic
 
 In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
 
-* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in A$ and $y \in A$, $x = y$. 
+* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in P$ and $y \in P$, $x = y$. 
 
 * The internal proposition *[[true]]* is a [[singleton]] $\top$. 
 
