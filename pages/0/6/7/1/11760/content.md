@@ -41,3 +41,8 @@ On a space with [[Fivebrane structure]] a _ninebrane structure_ is a trivializat
 
 [[!redirects Ninebrane structure]]
 [[!redirects Ninebrane structures]]
+
+[[!redirects ninebrane manifold]]
+[[!redirects Ninebrane manifold]]
+[[!redirects ninebrane manifolds]]
+[[!redirects Ninebrane manifolds]]
