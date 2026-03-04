@@ -33,7 +33,7 @@ These theorems are
 
 * the [[Kochen-Specker theorem]] ([Kochen-Specker 68](#KochenSpecker68)).
 
-One well-developed attempt to construct a hidden variable theory is [[Bohmian mechanics]]; this makes hidden variables out of the entire [[wavefunction]] and violates the assumption of [[locality]].
+One well-developed attempt to construct a hidden variable theory is [[Bohmian mechanics]]; this makes hidden variables out of the entire [[wavefunction]] and violates the assumption of [[locality]].  ([Barandes26](#Barandes26))  argues that the deBroglie-Bohm pilot wave theory is best understood as a hidden Markov [[stochastic process]] model, and that the configuration-space wave function, which serves as the pilot wave for the theory, is optimally interpreted as consisting of a set of latent variables for that hidden Markov model.  Hidden Markov models are just a formal way of representing [[stochastic processes]] whose dynamics are non-Markovian as Markov processes by adding latent variables (hidden variables).
 
 
 ## Related concepts
@@ -41,6 +41,8 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 * [[quantum contextuality]]
 
 * [[interpretation of quantum mechanics]]
+
+* [[indivisible stochastic process interpretation of quantum mechanics]]
 
 * [[Einstein-Podolsky-Rosen paradox]]
 
@@ -84,6 +86,10 @@ Discussion of hidden variable theories in terms of [[quantum logic]] is in secti
 * Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
 Giuntini and Francesco Paoli, _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
   {#CCGP09}
+
+The view of a pilot wave theory as a hidden Markov model is discussed in
+
+* [[Jacob Barandes]], _Pilot-Wave Theories as Hidden Markov Models_ 2026. &lbrack; [arXiv:2602.10569](https:\\arXiv.org\abs\2602.10569) &rbrack;
 
 
 [[!redirects hidden variable theory]]
