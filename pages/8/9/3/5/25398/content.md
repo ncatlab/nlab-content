@@ -3,7 +3,7 @@ Matteo Capucci applies categorical ideas to systems theory, especially the theor
 
 He's completing his PhD at University of Strathclyde, under the direction of [[Neil Ghani]]. 
 
-* [personal page](https://matteocapucci.wordpress.com/)
+* [personal page](https://matteocapucci.eu/)
 
 ## Selected writings
 
