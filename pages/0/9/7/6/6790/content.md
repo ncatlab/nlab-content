@@ -28,6 +28,10 @@ On the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalizat
 
 * [[Luis Alvarez-Gaumé]], J. M. F. Labastida, A. V. Ramallo, *A note on perturbative Chern-Simons theory*, Nuclear Physics B **334** 1 (1990) 103-124 (<a href="https://doi.org/10.1016/0550-3213(90)90658-Z">doi:10.1016/0550-3213(90)90658-Z</a>)
 
+On [[string theory]]:
+
+* [[Luis Alvarez-Gaumé]], M.A. Vazquez-Mozo: *Topics in String Theory and Quantum Gravity*, 1992 Les Houches lecture notes &lbrack;[arXiv:hep-th/9212006](https://arxiv.org/abs/hep-th/9212006)&rbrack;
+
 
 On [[T-duality]]:
 
