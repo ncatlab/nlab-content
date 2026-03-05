@@ -491,7 +491,7 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 * {#Day74} [[Brian Day]], _On adjoint-functor factorisation_, Lecture Notes in Math. 420 (1974), 1-19. ([springer](https://link.springer.com/content/pdf/10.1007/BFb0063097.pdf))
 
-* {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei, _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999) 25--33 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+* {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei, _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999) 25--33 ([pdf](https://www.ub.edu/topologia/casacuberta/articles/cfre1.pdf))
 
 
 and for [[enriched category theory]] in 
