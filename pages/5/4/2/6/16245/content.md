@@ -95,11 +95,11 @@ A different possibility (sometimes called the **coercion interpretation** of jud
 
 ## References
 
-* {#Reynolds80} [[John C. Reynolds]], _Using Category Theory to Design Implicit Conversions and Generic Operators_, In Proceedings of the Aarhus Workshop on Semantics-Directed Compiler Generation (January 14-18, 1980), Springer-Verlag. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2276&context=compsci))
+* {#Reynolds80} [[John C. Reynolds]], _Using Category Theory to Design Implicit Conversions and Generic Operators_, In Proceedings of the Aarhus Workshop on Semantics-Directed Compiler Generation (January 14-18, 1980), Springer-Verlag. ([pdf](https://doi.org/10.1184/R1/6612623))
 
 * {#Reynolds91} John C. Reynolds, _The Coherence of Languages with Intersection Types_. TACS 1991. ([ps](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/tempdir/coherence.ps))
 
-* {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. [[BRICS]] Report RS-00-32, Aarhus University (2000) &lbrack;[pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci)&rbrack;
+* {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. [[BRICS]] Report RS-00-32, Aarhus University (2000) &lbrack;[pdf](https://doi.org/10.1184/R1/6610688)&rbrack;
 
 * {#Luo99} [[Zhaohui Luo]], Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
 
