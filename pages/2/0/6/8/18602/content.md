@@ -180,6 +180,8 @@ Further [[lattice QCD]]-simulation increasingly points to there not being an ano
 
 * [Aliberti et al 2025](#AlibertiEtAl25)
 
+* *BMW/DMZ calculation of the hadronic vacuum polarisation for the muon magnetic moment* &lbrack;[arXiv:2603.03835](https://arxiv.org/abs/2603.03835)&rbrack;
+
 But the situation remains murky:
 
 * CernCourier: *[There’s more $g-2$ physics over the horizon](https://cerncourier.com/a/theres-more-g-2-physics-over-the-horizon/)* (Jan 2026)
