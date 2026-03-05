@@ -1094,6 +1094,9 @@ See also:
 
 * Keiichiro Hori, Hideo Suganuma, Hiroki Kanda, *Numerical analysis of a baryon and its dilatation modes in holographic QCD* &lbrack;[arXiv:2307.16590](https://arxiv.org/abs/2307.16590)&rbrack;
 
+* [[Shigeki Sugimoto]], Taichi Tsukamoto: *Energy-Momentum Tensor and D-term of Baryons in Top-down Holographic QCD* &lbrack;[arXiv:2503.19492](https://arxiv.org/abs/2503.19492)&rbrack;
+
+
 
 
 #### Baryons as wrapped branes 
