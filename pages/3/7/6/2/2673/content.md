@@ -99,6 +99,9 @@ see also:
 
 * Giovanni Canepa, [[Alberto Cattaneo]], *Corner Structure of Four-Dimensional General Relativity in the Coframe Formalism*, Annales Henri Poincaré **25** (2024) 2585–2639 &lbrack;[arXiv:2202.08684](https://arxiv.org/abs/2202.08684), [doi:10.1007/s00023-023-01360-8](https://doi.org/10.1007/s00023-023-01360-8)&rbrack;
 
+* Simon Langenscheidt: *Chern-Simons corner phase space in 4D gravity from BF-BB theory* &lbrack;[arXiv:2603.03429](https://arxiv.org/abs/2603.03429)&rbrack;
+
+
 
 Reviewed in:
 
