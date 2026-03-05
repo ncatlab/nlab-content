@@ -101,6 +101,10 @@ Discussion in the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro A. Grassi]]: *The Integral Form of Supergravity*,  J. High Energ. Phys. **2016** 49 (2016) &lbrack;<a href="https://doi.org/10.1007/JHEP10(2016)049">doi:10.1007/JHEP10(2016)049</a>, [arXiv:1607.05193](https://arxiv.org/abs/1607.05193)&rbrack;
 
+See also:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]]: *Poincaré Duality and Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+
 
 ### Branes
 
