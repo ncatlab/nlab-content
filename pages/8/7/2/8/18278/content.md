@@ -48,8 +48,14 @@ for its [[hom-functor]]. This [[preserved limit|preserves]] [[limits]] in both i
 In more detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ be a [[diagram]]. Then:
 
 1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ the functor $Hom_{\mathcal{C}}(Y, -)$ preserves this limit.
+$$
+\Hom_\mathcal{C}\left(Y, \underset{\longleftarrow}{\lim}_i X_i\right) \simeq \underset{\longleftarrow}{\lim}_i \Hom_\mathcal{C}(Y,X_i)
+$$
 
 2. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ the functor $Hom_{\mathcal{C}}(-, Y)$ preserves it (viewing it as a limit over $X_\bullet^{op}$).
+$$
+\Hom_\mathcal{C}\left(\underset{\longrightarrow}{\lim}_i X_i, Y\right) \simeq \underset{\longrightarrow}{\lim}_i \Hom_C(X_i,Y)
+$$
 
 
 \end{proposition}
