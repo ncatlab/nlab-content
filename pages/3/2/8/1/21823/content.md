@@ -43,6 +43,8 @@ See at _[[M-string elliptic genus]]_.
 
 ## Related concepts
 
+* [[self-dual string]]
+
 [[!include brane bound states -- table]]
 
 ## References
