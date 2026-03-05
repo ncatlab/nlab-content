@@ -47,10 +47,14 @@ On the [[nuclear matrix model]]:
 
 Computing the [[D-term]] of [[hadrons]] via [[holographic QCD]]:
 
-* {#FHSU22} Mitsutoshi Fujita, Yoshitaka Hatta, [[Shigeki Sugimoto]], Takahiro Ueda, *Nucleon D-term in holographic QCD* $[$[arXiv:2206.06578](https://arxiv.org/abs/2206.06578)$]$
+* {#FHSU22} Mitsutoshi Fujita, Yoshitaka Hatta, [[Shigeki Sugimoto]], Takahiro Ueda, *Nucleon D-term in holographic QCD* &lbrack;[arXiv:2206.06578](https://arxiv.org/abs/2206.06578)&rbrack;
+
+On [[baryons]] in [[holographic QCD]]:
+
+* [[Shigeki Sugimoto]], Taichi Tsukamoto: *Energy-Momentum Tensor and D-term of Baryons in Top-down Holographic QCD* &lbrack;[arXiv:2503.19492](https://arxiv.org/abs/2503.19492)&rbrack;
 
 
-## Related $n$Lab entries
+## Related Lab entries
 
 * [[AdS-QCD correspondence]]
 
