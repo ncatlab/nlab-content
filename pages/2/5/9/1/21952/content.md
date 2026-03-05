@@ -25,7 +25,7 @@ On [[differential forms on supermanifolds]]:
 
 On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity algebras]]:
 
-* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], §16 in: *Poincaré Duality for Supermanifolds, Higher Cartan Geometry and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]]: *Poincaré Duality and Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 On [[super multiplets]] via [[derived geometry]] on [[pure spinor]] [[algebraic variety|varieties]] (and [[adinkras]]):
 
