@@ -30,6 +30,8 @@ The [[elliptic genus]] of the self-dual string at the boundary of the [[M2-brane
 
 ## Related concepts
 
+* [[M-string]]
+
 * [[3-brane in 6d]]
 
 
@@ -55,10 +57,9 @@ As a [[black brane]] ("soliton") solution to the equations of motion on the [[M5
 As a [[Green-Schwarz sigma-model]] the [[brane scan]]-cocycle for the superstring in 6d is given in
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], (III.7.15) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+  > (in [[D'Auria-Fré formulation of supergravity]])
 
-  (in [[D'Auria-Fré formulation of supergravity]])
-
-As the [[brane intersection]] of [[M2-branes]] onto an [[M5-brane]]:
+As the [[brane intersection]] of [[M2-branes]] onto an [[M5-brane]] (cf. *[[M-string]]*):
 
 * [[Anirban Basu]], [[Jeffrey A. Harvey]], §3.2 in: *The M2-M5 Brane System and a Generalized Nahm's Equation*, Nucl. Phys. B **713** (2005) 136-150 &lbrack;[arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310), [doi:10.1016/j.nuclphysb.2005.02.007](https://doi.org/10.1016/j.nuclphysb.2005.02.007)&rbrack;
 
