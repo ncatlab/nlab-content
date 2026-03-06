@@ -7,6 +7,8 @@
 
 The _Grothendieck-Teichm&#252;ller tower_ construction involves [[moduli spaces]] outlined in [[Grothendieck]]'s _[[Esquisse d'un programme]]_ and then developed by [[Vladimir Drinfel'd]] and others. It involves the [[Teichmüller groupoids]] which are the [[fundamental groupoids]] of [[moduli stacks]] of [[genus]] $g$ [[curves]] with $n$ points removed. It is a basis for the definition of the _Grothendieck-Teichm&#252;ller group_ which is by the definition inertia-preserving [[automorphism group]] of the Grothendieck-Teichm&#252;ller tower. 
 
+The Grothendieck-Teichmüller group is the full automorphism group of the tower -- survey [Collas26, Theorem 3.1](#Collas26).
+
 ## Definitions
 
 ...
@@ -55,8 +57,9 @@ The GT group acts freely on the set of [[Drinfeld associators]].
 **(Drinfeld, Ihara, Deligne)**
 
 There is an inclusion of the [[absolute Galois group]] of the [[rational numbers]] into the Grothendieck-Teichm&#252;ller group (recalled e.g. [Stix 04, theorem 6](#Stix04)).
-
 =--
+
+Anabelian methods applied to GT (Hoshi, Mochizuki, Tsujimura) gives a full combinatorial description of the absolute Galois group ( survey [Collas26, Theorem 4.5](#Collas26)).
 
 
 ### Relation to the motivic Galois group
@@ -130,10 +133,12 @@ The Drinfeld conjecture is stated in
 
 See also:
  
+* [[Anton Alekseev]], Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [arxiv/0802.4300](http://arxiv.org/abs/0802.4300)
+
+### Relation to arithmetic anabelian geometry
+* {#Collas26} [[Benjamin Collas]]. _Anabelian perspectives in Galois-Teichmüller theory_ [arXiv:2603.02848](https://arxiv.org/abs/2603.02848), March 2026
 
 * {#Stix04} [[Jakob Stix]], _The Grothendieck-Teichm&#252;ller group and Galois theory of the rational numbers_, 2004 ([[StiXGaloisAndGT.pdf:file]])
-
-* [[Anton Alekseev]], Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [arxiv/0802.4300](http://arxiv.org/abs/0802.4300)
 
 
 ### Relation to graph complexes
