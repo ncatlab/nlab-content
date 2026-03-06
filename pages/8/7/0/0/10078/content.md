@@ -167,6 +167,9 @@ Further development:
 
 * Vincent F. He, Julio Parra-Martinez: *Generalized Unitarity Method for Worldline Field Theory* &lbrack;[arXiv:2510.00989](https://arxiv.org/abs/2510.00989)&rbrack;
 
+* Riccardo Gonzo, Gustav Mogull: *Canonical Quantisation of Bound and Unbound WQFT* &lbrack;[arXiv:2603.05237](https://arxiv.org/abs/2603.05237)&rbrack;
+
+
 
 
 
