@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _ninebrane spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[ninebrane group]]. Their limit over the infinite ninebrane group is of particular interest since its [[generalized homology theory]] describes ninebrane bordisms.
+A _ninebrane spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[ninebrane group]]. Their limit over the infinite ninebrane group is of particular interest since its [[generalized homology theory]] describes [[ninebrane bordisms]].
 
 ## Definition
 
@@ -66,7 +66,7 @@ $$
 
 ## Properties
 
-According to [[Thom's theorem]], there is an isomorphism:
+According to [[Thom's theorem]], there is an isomorphism to [[ninebrane bordism groups]]:
 $$
 \Omega_n^{Ninebrane}
 \cong\pi_n MNinebrane
