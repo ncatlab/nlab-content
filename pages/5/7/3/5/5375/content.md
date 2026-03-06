@@ -25,6 +25,10 @@ An early conjecture motivating the theory (in [Grothendieck 84](#Grothendieck)) 
 
 Grothendieck also conjectured the existence of higher-dimensional anabelian varieties, but these are still very mysterious.
 
+## Absolute Galois group of rational numbers and Grothendieck-Teichmüller group
+Survey and references in:
+* Benjamin Collas. _Anabelian perspectives in Galois-Teichmüller theory_ [arXiv:2603.02848](https://arxiv.org/abs/2603.02848), March 2026
+
 ## &#201;tale homotopy types
 
 * [[Alexander Schmidt]], [[Jakob Stix]], _Anabelian geometry with &#233;tale homotopy types_, ([pdf](https://www.mathi.uni-heidelberg.de/~schmidt/papers/anab-hotype.pdf)).
