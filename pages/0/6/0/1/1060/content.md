@@ -303,6 +303,8 @@ With an eye towards apication in [[2d CFT]] (to [[representations]] of [[vertex 
 
 * [[Jürgen Fuchs]], [[Gregor Schaumann]], [[Christoph Schweigert]], [[Simon Wood]], *Grothendieck-Verdier duality in categories of bimodules and weak module functors* &lbrack;[arXiv:2306.17668](https://arxiv.org/abs/2306.17668)&rbrack;
 
+* {#DP83} [[Albrecht Dold]] and [[Dieter Puppe]], _Duality, trace and transfer_ (1983), Trudy Matematicheskogo ([pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/dold-puppe2.pdf))
+
 For enriched *-autonomous categories, and *-autonomy for [[promonoidal categories]], see:
 
 * [[Brian Day]] and [[Ross Street]], _Quantum categories, star autonomy, and quantum groupoids_ [arXiv:math/0301209](https://arxiv.org/abs/math/0301209) ([pdf](http://science.mq.edu.au/~street/Qcat.pdf)) (2003).
