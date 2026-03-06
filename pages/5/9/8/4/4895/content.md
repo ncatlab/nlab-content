@@ -362,6 +362,9 @@ Review:
 
 * R. Bousso, _The holographic principle_, Rev. Mod. Phys. __74__ (2002) 825-874 &lbrack;[MR2003m:83048](http://www.ams.org/mathscinet-getitem?mr=1925130), [doi](http://link.aps.org/doi/10.1103/RevModPhys.74.825), [arXiv:hep-th/0203101](http://arxiv.org/abs/hep-th/0203101)&rbrack;
 
+* Nele Callebaut: *Introduction to holography* &lbrack;[arXiv:2603.05186](https://arxiv.org/abs/2603.05186)&rbrack;
+
+
 See also
 
 * [Oxford Holography Group](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/group_members.html), _[Background material for holography](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/material.html)_
