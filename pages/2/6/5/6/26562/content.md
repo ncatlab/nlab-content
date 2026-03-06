@@ -164,7 +164,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[entropy|Entropy]] from the point of view of [[topos theory]]: [Constantin-Döring'20](#entropy_topos).
 
-* [[entropy|Entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'24](#markov_entropy).
+* [[entropy|Entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'24](#markov_entropy), with a complete characterization given in [Sarkis-Zanasi'26](#string_entropy).
 
 * A book on the relationship between [[metrics]], [[entropy]] and diversity in ecology, with a category-theoretic mindset: [Leinster'21](#entropy_diversity).
 
@@ -522,6 +522,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#atomic_sheaf} [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logic_, Proceedings of LICS, 2024. ([arXiv](https://arxiv.org/abs/2405.11073))
 
 * {#string_graded} Ralph Sarkis and [[Fabio Zanasi]], _String Diagram for Graded Monoidal Theories with an Application to Imprecise Probability_, 2025. ([arXiv](https://arxiv.org/abs/2501.18404))
+
+* {#string_entropy} Ralph Sarkis and [[Fabio Zanasi]], _Complete Diagrammatic Axiomatisations of Relative Entropy_, 2026. ([arXiv](https://arxiv.org/abs/2603.04530))
 
 * {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
 
