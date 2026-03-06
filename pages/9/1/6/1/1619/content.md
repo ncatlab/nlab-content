@@ -458,3 +458,13 @@ A study of (flat) string structures encoded in the bicategory of flat 2-group bu
 
 [[!redirects string structures]]
 [[!redirects String structures]]
+
+[[!redirects string manifold]]
+[[!redirects string manifolds]]
+[[!redirects string-manifold]]
+[[!redirects string-manifolds]]
+
+[[!redirects String manifold]]
+[[!redirects String manifolds]]
+[[!redirects String-manifold]]
+[[!redirects String-manifolds]]
