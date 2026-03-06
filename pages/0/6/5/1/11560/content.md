@@ -55,7 +55,7 @@ The foundations of the theory are developed in
 
 A textbook account is developing in 
 
-* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_ ([pdf]( https://people.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
 
 
 See also
