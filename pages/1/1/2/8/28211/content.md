@@ -35,7 +35,23 @@ with the canonical inclusion $k\colon Ninebrane(n)\rightarrow Ninebrane(n+1)$ is
 
 ## Ninebrane bordism groups
 
-Under the [[equivalence relation]] of fivebrane bordism, all $n$-dimensional closed [[fivebrane manifolds]] form the *fivebrane bordism group* $\Omega_n^\mathrm{Fivebrane}$, which as the [[disjoint union]] as composition, the empty manifold as neutral element and the inversion of [[orientation]] as inversion.
+Under the [[equivalence relation]] of fivebrane bordism, all $n$-dimensional closed [[fivebrane manifolds]] form the *fivebrane bordism group* $\Omega_n^\mathrm{Fivebrane}$, which as the [[disjoint union]] as composition, the empty manifold as neutral element and the inversion of [[orientation]] as inversion. According to [[Thom's theorem]], ninebrane bordism groups are exactly the [[stable homotopy groups]] of the [[Thom spectrum]] [[MNinebrane]]:
+$$
+\Omega_n^Ninebrane
+\cong\pi_n MNinebrane
+=\lim_{k\rightarrow\infty}\pi_{n+k}MNinebrane_k.
+$$
+
+Since $BFivebrane=BO\langle 16\rangle$ is $15$-connected, the first fifteen fivebrane bordism groups ($0\leq n\leq 14$) coincide with the [[framed bordism groups]]:
+
+* $\Omega_0^Ninebrane\cong\Omega_0^fr\cong\mathbb{Z}$
+* $\Omega_1^Ninebrane\cong\Omega_1^fr\cong\mathbb{Z}_2$
+* $\Omega_2^Ninebrane\cong\Omega_2^fr\cong\mathbb{Z}_2$
+* $\Omega_3^Ninebrane\cong\Omega_3^fr\cong\mathbb{Z}_24$
+* $\Omega_4^Ninebrane\cong\Omega_4^fr\cong 1$
+* $\Omega_5^Ninebrane\cong\Omega_5^fr\cong 1$
+* $\Omega_6^Ninebrane\cong\Omega_6^fr\cong\mathbb{Z}_2$
+* $\Omega_7^Ninebrane\cong\Omega_7^fr\cong\mathbb{Z}_240$
 
 ## Ninebrane bordism ring
 
@@ -50,8 +66,14 @@ which has the cartesian product as additional composition and the singleton as a
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
+[[!redirects Ninebrane bordism]]
+[[!redirects ninebrane bordisms]] 
+[[!redirects Ninebrane bordisms]]
+
 [[!redirects ninebrane cobordism]] 
 [[!redirects Ninebrane cobordism]]
+[[!redirects ninebrane cobordisms]] 
+[[!redirects Ninebrane cobordisms]]
 
 [[!redirects ninebrane bordism group]] 
 [[!redirects Ninebrane bordism group]]
