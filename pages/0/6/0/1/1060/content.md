@@ -121,7 +121,7 @@ $$
   (A \otimes B)^\ast \cong A^\ast \otimes B^\ast
 $$
 
-is a [[compact closed category]].  This follows from a stronger result of Dold and Puppe [DP83]{#DP83}.
+is a [[compact closed category]].  This follows from a stronger result of Dold and Puppe [DP83](#DP83).
 =--
 
 More generally, even if the $\ast$-autonomous category is not compact closed, then by this linear "[[de Morgan duality]]" the tensor product induces a second binary operation
