@@ -20,6 +20,8 @@ On [[Pontryagin's theorem]] (the unstable and framed version of the [[Pontryagin
 
 * [[Arf-Kervaire invariant problem]]
 
+* [[Kervaire-Milnor group]]
 
 [[!redirects Kervaire]]
+
 category:people
