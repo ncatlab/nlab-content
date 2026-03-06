@@ -611,6 +611,8 @@ S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/
 
 * [[Antoine Van Proeyen]]: *Matter Couplings in Supergravity. The first 10 years* &lbrack;[arXiv:2503.12510](https://arxiv.org/abs/2503.12510)&rbrack;
 
+* Pran Nath: *50 Years of SUSY and SUGRA, circa 1974-2024, and Future Prospects* &lbrack;[arXiv:2603.04664](https://arxiv.org/abs/2603.04664)&rbrack;
+
 
 See also:
 
