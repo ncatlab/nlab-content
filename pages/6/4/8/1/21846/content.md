@@ -6,43 +6,22 @@
 
 * [[MFr]]
 
-* [[MO]], [[MSO]], [[MSpin]], [[MString]], [[MFivebrane]], [[MNinebrane]] ...
+* [[MO]], [[MSO]], [[MSpin]], [[MSpin^c|MSpin<sup><i>c</i></sup>]], [[MSpin^h|MSpin<sup><i>h</i></sup>]] [[MString]], [[MFivebrane]], [[MNinebrane]] (see also [[spin bordism]], [[spinᶜ bordism]], [[spinʰ bordism]], [[string bordism]], [[fivebrane bordism]], [[ninebrane bordism]])
 
-* [[MU]], [[MSU]], ...
+* [[MU]], [[MSU]], [[Ravenel's spectrum|MΩΩSU(n)]]
 
-  [[Ravenel's spectrum|MΩΩSU(n)]]
-
-  [[MP-theory|MP]], [[MR-theory|MR]]
-
-* [[MSpin^c|MSpin<sup><i>c</i></sup>]], [[MSpin^h|MSpin<sup><i>h</i></sup>]]
+* [[MP-theory|MP]], [[MR-theory|MR]]
 
 * [[MSp]]
 
 * [[MTO]], [[MTSO]]
 
+* relative bordism theories: [[MOFr]], [[MUFr]], [[MSUFr]]
 
-relative bordism theories:
+* [[equivariant bordism homology theory|equivariant bordism theory]]: [[equivariant MFr]], [[equivariant MO]], [[equivariant MU]]
 
-* [[MOFr]], [[MUFr]], [[MSUFr]]
+* [[global equivariant bordism homology theory|global equivariant bordism theory]]: [[global equivariant mO]], [[global equivariant mU]]
 
-
-[[equivariant bordism homology theory|equivariant bordism theory]]:
-
-* [[equivariant MFr]]
-
-* [[equivariant MO]]
-
-* [[equivariant MU]]
-
-[[global equivariant bordism homology theory|global equivariant bordism theory]]:
-
-* [[global equivariant mO]], 
-
-* [[global equivariant mU]]
-
-algebraic:
-
-* [[algebraic cobordism]]
+* algebraic: [[algebraic cobordism]]
  
-
 [[!redirects cobordism cohomology theories -- contents]]
