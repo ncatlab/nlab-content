@@ -1058,6 +1058,9 @@ Accounts of the early history of the concept of supersymmetry:
 
 * [[Peter West]]: *Memories of [[Abdus Salam]] and the early days of supersymmetry* &lbrack;[arXiv:2403.13453](https://arxiv.org/abs/2403.13453)&rbrack;
 
+* Pran Nath: *50 Years of SUSY and SUGRA, circa 1974-2024, and Future Prospects* &lbrack;[arXiv:2603.04664](https://arxiv.org/abs/2603.04664)&rbrack;
+
+
 
 See also at _[supergravity -- History](supergravity#History)_.
 
