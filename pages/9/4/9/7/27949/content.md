@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _fivebrane spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[fivebrane group]]. Their limit over the infinite fivebrane group is of particular interest since its [[generalized homology theory]] describes fivebrane bordisms.
+A _fivebrane spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[fivebrane group]]. Their limit over the infinite fivebrane group is of particular interest since its [[generalized homology theory]] describes [[fivebrane bordisms]].
 
 ## Definition
 
@@ -66,7 +66,7 @@ $$
 
 ## Properties
 
-According to [[Thom's theorem]], there is an isomorphism:
+According to [[Thom's theorem]], there is an isomorphism to [[fivebrane bordism groups]]:
 $$
 \Omega_n^{Fivebrane}
 \cong\pi_n MFivebrane
