@@ -90,6 +90,31 @@ On [[infinite-dimensional Lie groups]]:
 
 * [[good open cover]]
 
+* [[Friedlander-Milnor isomorphism conjecture]]
+
+* [[Kervaire-Milnor group]]
+
+* [[Milnor K-theory]]
+
+* [[Milnor algebra]]
+
+* [[Milnor construction]]
+
+* [[Milnor fiber]]
+
+* [[Milnor mu-bar invariant]]
+
+* [[Milnor slide trick]]
+
+* [[Milnor's conjecture]]
+
+* [[Milnor's theorem]]
+
+* [[Milnor-Moore theorem]]
+
+* [[Milnor-Quillen theorem on MU]]
+
+* [[lim^1 and Milnor sequences]]
 
 [[!redirects John W. Milnor]]
 [[!redirects J. Milnor]]
