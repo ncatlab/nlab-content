@@ -511,6 +511,8 @@ Via [[exceptional field theory]]:
 * [[Sebastian De Haro]], [[Jeremy Butterfield]], section 9.3 of: 
 *The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
+* Nele Callebaut: *Introduction to holography* &lbrack;[arXiv:2603.05186](https://arxiv.org/abs/2603.05186)&rbrack;
+
 
 Review of [[Yangian]] symmetry:
 
