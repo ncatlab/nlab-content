@@ -97,7 +97,7 @@ Meanwhile the perspective has become popular in [[theoretical physics]] under va
 
 and "symmetry TFT", for instance:
 
-* Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
+* [[Fabio Apruzzi]] [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
 
 * {#ABBGN2024} Riccardo Argurio, Francesco Benini, Matteo Bertolini, Giovanni Galati, Pierluigi Niro: *On the Symmetry TFT of Yang-Mills-Chern-Simons theory*,  J. High Energ. Phys. **2024** 130 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2024)130">doi:10.1007/JHEP07(2024)130</a>, [arXiv:2404.06601](https://arxiv.org/abs/2404.06601)&rbrack;
 
