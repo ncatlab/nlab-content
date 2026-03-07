@@ -5,6 +5,11 @@
 
 ***
 
+* Christopher Couzens, Alice Lüscher, James Sparks: *Localizing punctures in M-theory* &lbrack;[arXiv:2511.03397](https://arxiv.org/abs/2511.03397)&rbrack;
+
+
+\linebreak
+
 +-- {: .num_defn #DefinitionTopologyGeneratedByFamilies}
 ###### Definition
 
