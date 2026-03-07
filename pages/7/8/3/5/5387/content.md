@@ -50,6 +50,8 @@ An iso-inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **co-iso-i
 [[!redirects strict isoinserters]]
 [[!redirects co-isoinserter]]
 [[!redirects co-isoinserters]]
+[[!redirects coisoinserter]]
+[[!redirects coisoinserters]]
 [[!redirects strict co-isoinserter]]
 [[!redirects strict co-isoinserters]]
 [[!redirects iso-inserter]]
