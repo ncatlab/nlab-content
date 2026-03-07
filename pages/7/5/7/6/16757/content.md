@@ -141,7 +141,7 @@ Families of examples of [[G₂ orbifolds]] with ADE singularities are constructe
 
 [[Riemannian geometry]] of manifolds with ADE singularities is discussed in 
 
-* Boris Botvinnik, [[Jonathan Rosenberg]], _Positive scalar curvature on manifolds with fibered singularities_ ([arXiv:1808.06007](https://arxiv.org/abs/1808.06007))
+* [[Boris Botvinnik]], [[Jonathan Rosenberg]], _Positive scalar curvature on manifolds with fibered singularities_ ([arXiv:1808.06007](https://arxiv.org/abs/1808.06007))
 
 See also 
 
