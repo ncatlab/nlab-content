@@ -149,16 +149,15 @@ The first discussion of this compactification is possibly
 
 in the context of the [[M-theory lift of gauge enhancement on D6-branes]].
 
-
 The original articles focusing on this situation:
 
-* {#FLO99} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
+* {#FLO99} [[Michael Faux]], [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
 
-* {#FLO00a} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Local Anomaly Cancellation, M-Theory Orbifolds and Phase-Transitions_, Nucl. Phys. B589: 269-291, 2000 ([arXiv:hep-th/0005251](https://arxiv.org/abs/hep-th/0005251))
+* {#FLO00a} [[Michael Faux]], [[Dieter Lüst]], [[Burt Ovrut]], _Local Anomaly Cancellation, M-Theory Orbifolds and Phase-Transitions_, Nucl. Phys. B589: 269-291, 2000 ([arXiv:hep-th/0005251](https://arxiv.org/abs/hep-th/0005251))
 
-* {#FLO00b} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _An M-Theory Perspective on Heterotic K3 Orbifold Compactifications_, Int. J. Mod. Phys. A18:3273-3314, 2003 ([arXiv:hep-th/0010087](https://arxiv.org/abs/hep-th/0010087))
+* {#FLO00b} [[Michael Faux]], [[Dieter Lüst]], [[Burt Ovrut]], _An M-Theory Perspective on Heterotic K3 Orbifold Compactifications_, Int. J. Mod. Phys. A18:3273-3314, 2003 ([arXiv:hep-th/0010087](https://arxiv.org/abs/hep-th/0010087))
 
-* {#FLO00c} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Twisted Sectors and Chern-Simons Terms in M-Theory Orbifolds_, Int. J. Mod. Phys. A18: 2995-3014, 2003 ([arXiv:hep-th/0011031](https://arxiv.org/abs/hep-th/0011031))
+* {#FLO00c} [[Michael Faux]], [[Dieter Lüst]], [[Burt Ovrut]], _Twisted Sectors and Chern-Simons Terms in M-Theory Orbifolds_, Int. J. Mod. Phys. A18: 2995-3014, 2003 ([arXiv:hep-th/0011031](https://arxiv.org/abs/hep-th/0011031))
 
 * {#KSTY99} [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
 
@@ -207,11 +206,11 @@ As [[type I' string theory]] with [[D6-branes]]:
 * Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Masato Taki, Futoshi Yagi: *A new 5d description of 6d D-type minimal conformal matter*, JHEP 1508:097 (2015) &lbrack;[arXiv:1505.04439](https://arxiv.org/abs/1505.04439)&rbrack;
 
 
-* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+* [[Ibrahima Bah]], [[Achilleas Passias]], [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
 and in [[massive type IIA string theory]] with [[D6-D8 brane bound states]]:
 
-* Fabio Apruzzi, [[Marco Fazzi]], _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+* [[Fabio Apruzzi]], [[Marco Fazzi]], _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
 
 
 ### As $I'$-theory with ADE-singularities
@@ -248,7 +247,7 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 
-* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+* [[Ibrahima Bah]], [[Achilleas Passias]], [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
 * Santiago Cabrera, [[Amihay Hanany]], [[Marcus Sperling]], _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
 
