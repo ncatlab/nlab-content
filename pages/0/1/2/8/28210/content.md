@@ -66,6 +66,14 @@ which has the cartesian product as additional composition and the singleton as a
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
+## References
+
+* {#SSS2} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Fivebrane structures]]_, Reviews in Mathematical Physics, **21** 10 (2009) 1197-1240 &lbrack;[arXiv:0805.0564](http://arxiv.org/abs/0805.0564), [doi:10.1142/S0129055X09003840](https://doi.org/10.1142/S0129055X09003840)&rbrack;
+
+* {#DouglasHenriquesHill14} [[Christopher Douglas]], [[André Henriques]], Michael Hill, _Homological obstructions to string orientations_ ([arXiv:0810.2131](http://arxiv.org/abs/0810.2131))
+
+* {#BotvinnikLabbi14} [[Boris Botvinnik]], [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 &lbrack;[arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4)&rbrack;
+
 [[!redirects Fivebrane bordism]]
 [[!redirects fivebrane bordisms]] 
 [[!redirects Fivebrane bordisms]]
