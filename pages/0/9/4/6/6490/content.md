@@ -108,6 +108,6 @@ chapter 4 of
 * F. Farrell, Pedro Ontaneda, _The Teichm&#252;ller space of pinched negatively curved metrics on a hyperbolic manifold
 is not contractible_ ([pdf](http://annals.math.princeton.edu/wp-content/uploads/annals-v170-n1-p02-p.pdf))
 
-* Boris Botvinnik, Bernhard Hanke, [[Thomas Schick]], and Mark Walsh, _Homotopy groups of the space of metrics of positive scalar curvature_ ([pdf](http://www.math.uni-augsburg.de/de/prof/diff/arbeitsgruppe/hanke/Arbeiten/bhsw-06.pdf))
+* [[Boris Botvinnik]], [[Bernhard Hanke]], [[Thomas Schick]], and Mark Walsh, _Homotopy groups of the space of metrics of positive scalar curvature_ ([pdf](http://www.math.uni-augsburg.de/de/prof/diff/arbeitsgruppe/hanke/Arbeiten/bhsw-06.pdf))
 
 [[!redirects moduli spaces of Riemannian metrics]]
