@@ -191,7 +191,7 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 &lbrack;[arXiv:1509.03300](https://arxiv.org/abs/1509.03300)&rbrack;
 
-* [[Ibrahima Bah]], Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+* [[Ibrahima Bah]], [[Achilleas Passias]], [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
 
 #### Engineering of topological order on M5s
