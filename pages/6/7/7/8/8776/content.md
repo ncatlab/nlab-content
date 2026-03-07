@@ -281,7 +281,7 @@ Embedding into [[type II supergravity]]:
 
 * Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _Consistent Type IIB Reductions to Maximal 5D Supergravity_ &lbrack;[arXiv:1506.01385](https://arxiv.org/abs/1506.01385)&rbrack;
 
-* Christopher Couzens, Niall T. Macpherson, Achilleas Passias: *A plethora of Type IIA embeddings for   minimal supergravity*,  J. High Energ. Phys. **2023** 47 (2023) &lbrack;[arXiv:2209.15540](https://arxiv.org/abs/2209.15540), <a href="https://doi.org/10.1007/JHEP01(2023)047">doi:10.1007/JHEP01(2023)047</a>&rbrack;
+* Christopher Couzens, Niall T. Macpherson, [[Achilleas Passias]]: *A plethora of Type IIA embeddings for   minimal supergravity*,  J. High Energ. Phys. **2023** 47 (2023) &lbrack;[arXiv:2209.15540](https://arxiv.org/abs/2209.15540), <a href="https://doi.org/10.1007/JHEP01(2023)047">doi:10.1007/JHEP01(2023)047</a>&rbrack;
 
 
 ### Gauged sugra
