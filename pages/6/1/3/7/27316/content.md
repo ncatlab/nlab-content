@@ -181,7 +181,7 @@ Open problems about Yang-Mills-unstable manifolds include:
 * {#BourguignonLawson81} Jean-Pierre Bourguignon and H. Blaine Lawson Jr., _Stability and Isolation Phenomena for Yang-Mills Fields_ (March 1981), Communications in Mathematical Physics **79**, pp. 189–230, [doi:10.1007/BF01942061](https://doi.org/10.1007/BF01942061)
 * {#KobayashiOhnitaTakeuchi86} S. Kobayashi, Y. Ohnita and M. Takeuchi, _On instability of Yang-Mills connections_ (1986), Mathematische Zeitschrift **193**, pp. 165–189, [doi:10.1007/BF01174329](https://link.springer.com/article/10.1007/BF01174329)
 * {#Kawai86} Shigeo Kawai, _A remark on the stability of Yang-Mills connections_, Kodai Mathematical Journal **9**, pp. 117–122, [doi:10.2996/kmj/1138037154](https://doi.org/10.2996/kmj/1138037154)
-* {#Chiang13} Yuan-Jen Chiang, _Developments of Harmonic Maps, Wave Maps and Yang-Mills Fields into Biharmonic Maps, Biwave Maps and Bi-Yang-Mills Fields_, [ISBN 978-3034805339](https://link.springer.com/book/10.1007/978-3-0348-0534-6)
+* {#Chiang13} [[Yuan-Jen Chiang]], _Developments of Harmonic Maps, Wave Maps and Yang-Mills Fields into Biharmonic Maps, Biwave Maps and Bi-Yang-Mills Fields_, [ISBN 978-3034805339](https://link.springer.com/book/10.1007/978-3-0348-0534-6)
 
 See also:
 
