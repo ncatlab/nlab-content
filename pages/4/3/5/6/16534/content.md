@@ -139,7 +139,7 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 * [[Francesco Benini]], [[Sergio Benvenuti]], [[Yuji Tachikawa]], _Webs of five-branes and $\mathcal{N}=2$ superconformal field theories_, JHEP 0909:052 (2009) &lbrack;[arXiv:0906.0359](https://arxiv.org/abs/0906.0359)&rbrack;
 
-* Sung-Soo Kim, Masato Taki, Futoshi Yagi, _Tao Probing the End of the World_, Prog. Theor. Exp. Phys. 2015, 083B02 ([arXiv:1504.03672](https://arxiv.org/abs/1504.03672))
+* [[Sung-Soo Kim]], Masato Taki, Futoshi Yagi, _Tao Probing the End of the World_, Prog. Theor. Exp. Phys. 2015, 083B02 ([arXiv:1504.03672](https://arxiv.org/abs/1504.03672))
 
 * Brice Bastian, Stefan Hohenegger, _Five-Brane Webs and Highest Weight Representations_ ([arXiv:1706.08750](https://arxiv.org/abs/1706.08750))
 
@@ -148,7 +148,7 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 * [[Michael Gutperle]], Andrea Trivella, Christoph F. Uhlemann, _Type IIB 7-branes in warped $AdS_6$: partition functions, brane webs and probe limit_, JHEP04 (2018) 135 &lbrack;[arXiv:1802.07274](https://arxiv.org/abs/1802.07274)&rbrack;
 
-* Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _Dualities and 5-brane webs for 5d rank 2 SCFTs_,     JHEP 12 (2018) 016 &lbrack;[arXiv:1806.10569](https://arxiv.org/abs/1806.10569), <a href="https://doi.org/10.1007/JHEP12(2018)016">doi:10.1007/JHEP12(2018)016</a>&rbrack;
+* Hirotaka Hayashi, [[Sung-Soo Kim]], [[Kimyeong Lee]], Futoshi Yagi: _Dualities and 5-brane webs for 5d rank 2 SCFTs_,     JHEP 12 (2018) 016 &lbrack;[arXiv:1806.10569](https://arxiv.org/abs/1806.10569), <a href="https://doi.org/10.1007/JHEP12(2018)016">doi:10.1007/JHEP12(2018)016</a>&rbrack;
 
 [[!redirects brane intersections]]
 
