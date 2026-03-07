@@ -24,7 +24,7 @@ The proof is fairly easy to construct and is 'well known'.
 
 The case we are really interested in is when we replace the general set, $X$, by the underlying set of a group, $G$. (As is often done, we will not introduce a special notation for the underlying set of $G$, just writing $G$ for it.) In this case, we have the simplicial set $E(G)$  and the group, $G$, acts freely on $E(G)$ by
 
-$$g\cdot(g_0,\ldots , g_p) = (gg_0,\ldots, gg_p).$$
+$$g\cdot(g_0,\ldots , g_p) = (g{}g_0,\ldots, g{}g_p).$$
 
 (Here we have used a left action of $G$, and leave you to check that the evident right action could equally well be used.)
 
@@ -77,6 +77,5 @@ The simplicial set, $V(G,\mathcal{H})$, will be called the _Volodin space_ of $(
 *  A. A. [[Suslin]] and M. Wodzicki, _Excision in algebraic K-theory_, The Annals of Mathematics, 
 136, (1992), 51 &#8211; 122.
 
-* [[I. Volodin]], _Algebraic K-theory as extraordinary homology theory on the category of associative 
-rings with unity_, Izv. Akad. Nauk. SSSR, 35, (Translation: Math. USSR Izvestija Vol. 5 (1971) 
+* [[I. Volodin]], _Algebraic K-theory as extraordinary homology theory on the category of associative rings with unity_, Izv. Akad. Nauk. SSSR, 35, (Translation: Math. USSR Izvestija Vol. 5 (1971) 
 No. 4, 859-887)
