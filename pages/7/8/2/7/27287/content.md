@@ -85,7 +85,7 @@ Yang-Mills connections are weakly Bi-Yang-Mills connections.
 
 ## References
 
-* {#Chiang13} Yuan-Jen Chiang, _Developments of Harmonic Maps, Wave Maps and Yang-Mills Fields into Biharmonic Maps, Biwave Maps and Bi-Yang-Mills Fields_, [ISBN 978-3034805339](https://link.springer.com/book/10.1007/978-3-0348-0534-6)
+* {#Chiang13} [[Yuan-Jen Chiang]], _Developments of Harmonic Maps, Wave Maps and Yang-Mills Fields into Biharmonic Maps, Biwave Maps and Bi-Yang-Mills Fields_, [ISBN 978-3034805339](https://link.springer.com/book/10.1007/978-3-0348-0534-6)
 
 See also:
 
