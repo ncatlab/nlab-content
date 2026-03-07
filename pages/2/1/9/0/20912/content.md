@@ -56,7 +56,7 @@ On [[G2-manifolds|$G_2$-manifolds]] via [[D=4 N=1 super Yang-Mills theory|$D=4$,
 
 On [[symmetry TFTs]] in [[string theory]]:
 
-* Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
+* [[Fabio Apruzzi]], [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
 
 
 category: people
