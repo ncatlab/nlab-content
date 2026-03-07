@@ -22,7 +22,7 @@ On [[string networks]] in relation to the [[D=6 N=(2,0) SCFT]] on [[M5-branes]]:
 
 On [[D4-D8-brane bound states]]:
 
-* Hee-Cheol Kim, Sung-Soo Kim, [[Kimyeong Lee]]: _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 &lbrack;[arXiv:1206.6781](https://arxiv.org/abs/1206.6781)&rbrack;
+* Hee-Cheol Kim, [[Sung-Soo Kim]], [[Kimyeong Lee]]: _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 &lbrack;[arXiv:1206.6781](https://arxiv.org/abs/1206.6781)&rbrack;
 
 
 On [[T-duality]] in [[little string theory]]:
@@ -32,7 +32,7 @@ On [[T-duality]] in [[little string theory]]:
 
 On [[heterotic M-theory on ADE-orbifolds]]:
 
-* Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Masato Taki, Futoshi Yagi: *A new 5d description of 6d D-type minimal conformal matter*, JHEP 1508:097 (2015) &lbrack;[arXiv:1505.04439](https://arxiv.org/abs/1505.04439)&rbrack;
+* Hirotaka Hayashi, [[Sung-Soo Kim]], [[Kimyeong Lee]], Masato Taki, Futoshi Yagi: *A new 5d description of 6d D-type minimal conformal matter*, JHEP 1508:097 (2015) &lbrack;[arXiv:1505.04439](https://arxiv.org/abs/1505.04439)&rbrack;
 
 
 On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection|ending on]] [[M5-branes]]:
@@ -42,12 +42,12 @@ On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection
 
 On [[(p,q)5-brane]] [[brane intersection|webs]]:
 
-* Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _Dualities and 5-brane webs for 5d rank 2 SCFTs_,     JHEP 12 (2018) 016 &lbrack;[arXiv:1806.10569](https://arxiv.org/abs/1806.10569), <a href="https://doi.org/10.1007/JHEP12(2018)016">doi:10.1007/JHEP12(2018)016</a>&rbrack;
+* [[Hirotaka Hayashi]], [[Sung-Soo Kim]], [[Kimyeong Lee]], Futoshi Yagi: _Dualities and 5-brane webs for 5d rank 2 SCFTs_,     JHEP 12 (2018) 016 &lbrack;[arXiv:1806.10569](https://arxiv.org/abs/1806.10569), <a href="https://doi.org/10.1007/JHEP12(2018)016">doi:10.1007/JHEP12(2018)016</a>&rbrack;
 
 
 On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]]:
 
-* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 &lbrack;[arXiv:1509.03300](https://arxiv.org/abs/1509.03300)&rbrack;
+* {#HKLY15} [[Hirotaka Hayashi]], [[Sung-Soo Kim]], [[Kimyeong Lee]], Futoshi Yagi: _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 &lbrack;[arXiv:1509.03300](https://arxiv.org/abs/1509.03300)&rbrack;
 
 On [[rational 2d conformal field theory]]:
 
