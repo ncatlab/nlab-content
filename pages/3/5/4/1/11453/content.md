@@ -340,13 +340,13 @@ Lift to [[M-theory]] ([[MO5]], [[MO9]]):
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
-* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+* {#HKLY15} [[Hirotaka Hayashi]], [[Sung-Soo Kim]], [[Kimyeong Lee]], Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 The [[brane intersection|intersection]] with [[(p,q)5-brane webs]]:
 
-* Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _More on 5d descriptions of 6d SCFTs_, JHEP10 (2016) 126 ([arXiv:1512.08239](https://arxiv.org/abs/1512.08239))
+* [[Hirotaka Hayashi]], [[Sung-Soo Kim]], [[Kimyeong Lee]], Masato Taki, Futoshi Yagi, _More on 5d descriptions of 6d SCFTs_, JHEP10 (2016) 126 ([arXiv:1512.08239](https://arxiv.org/abs/1512.08239))
 
 * [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
 
