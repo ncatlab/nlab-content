@@ -22,7 +22,7 @@ The emergence of flavor in these
 
 Reviewed in:
 
-* {#ApruzziFazzi17} Fabio Apruzzi, [[Marco Fazzi]], Section 2.1 of: _$AdS_7/CFT_6$ with orientifolds_, J. High Energ. Phys. (2018) 2018: 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+* {#ApruzziFazzi17} [[Fabio Apruzzi]], [[Marco Fazzi]], Section 2.1 of: _$AdS_7/CFT_6$ with orientifolds_, J. High Energ. Phys. (2018) 2018: 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
 
 See also:
 
