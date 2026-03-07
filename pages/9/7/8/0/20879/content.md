@@ -51,7 +51,7 @@ With derivation of the [[s-rule]]:
 
 * Akikazu Hashimoto, Peter Ouyang, Masahito Yamazaki, Section 3.6 of: _Boundaries and Defects of N=4 SYM with 4 Supercharges, Part II: Brane Constructions and 3d N=2 Field Theories_, JHEP 1410 : 108, 2014 ([arXiv:1406.5501](https://arxiv.org/abs/1406.5501))
 
-* Federico Carta, Hirotaka Hayashi, _Hilbert series and mixed branches of $T[SU(N)]$ theory_, JHEP 02 (2017) 037 ([arXiv:1609.08034](https://arxiv.org/abs/1609.08034))
+* Federico Carta, [[Hirotaka Hayashi]], _Hilbert series and mixed branches of $T[SU(N)]$ theory_, JHEP 02 (2017) 037 ([arXiv:1609.08034](https://arxiv.org/abs/1609.08034))
 
 Review and highlighting of the [[fuzzy funnel]] geometry with [[fuzzy 2-sphere]] sections:
 
