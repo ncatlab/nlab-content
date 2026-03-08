@@ -113,6 +113,11 @@ Discussion of [[geometric string structure|geometric]] string bordism in degree 
 [[!redirects string cobordism]] 
 [[!redirects String cobordism]]
 
+[[!redirects string bordisms]]
+[[!redirects String bordisms]]
+[[!redirects string cobordisms]] 
+[[!redirects String cobordisms]]
+
 [[!redirects string bordism group]] 
 [[!redirects String bordism group]]
 [[!redirects string bordism groups]] 
@@ -129,8 +134,6 @@ Discussion of [[geometric string structure|geometric]] string bordism in degree 
 [[!redirects String cobordism cohomology]]
 [[!redirects string cobordism cohomology theory]] 
 [[!redirects String cobordism cohomology theory]]
-
-[[!redirects MString]]
 
 
 
