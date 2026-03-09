@@ -64,14 +64,30 @@ $$
 MO\langle 16\rangle\rightarrow MNinebrane\rightarrow MFivebrane.
 $$
 
-## Properties
+## Ninebrane bordism homology theory
 
 According to [[Thom's theorem]], there is an isomorphism to [[ninebrane bordism groups]]:
 $$
-\Omega_n^{Ninebrane}
+\Omega_n^Ninebrane
 \cong\pi_n MNinebrane
 =\lim_{k\rightarrow\infty}\pi_k MNinebrane_{n+k}.
 $$
+More general, [[MNinebrane]] defines a [[generalized homology theory]] (formally also denoted $\widetilde{MNinebrane}_*$) given by:
+$$
+\Omega_n^Ninebrane(X)
+\coloneqq\pi_n^stab(X_+\wedge MNinebrane)
+\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MNinebrane_k)
+$$
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^Ninebrane=\Omega_n^Ninebrane(*)$. Geometrically, $\Omega_n^Ninebrane(X)$ can also be described by $n$-dimensional [[ninebrane manifolds]] representing cycles and $n+1$-dimensional [[ninebrane bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[ninebrane bordism]].
+
+## Ninebrane cobordism cohomology theory
+
+[[MNinebrane]] also defines a [[generalized cohomology theory]] given by:
+$$
+\widetilde{MNinebrane}^n(X)
+\coloneqq\lim_{k\rightarrow\infty}[\Sigma^k X,MNinebrane_{n+k}]
+$$
+for all [[topological spaces]] $X$. It can also be described geometrically with [[ninebrane structures]].
 
 ## Related concepts
 
