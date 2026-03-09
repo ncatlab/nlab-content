@@ -54,7 +54,7 @@ MString
 \coloneqq\lim_{n\rightarrow\infty}MString(n).
 $$
 
-## Properties
+## String bordism homology theory
 
 According to [[Thom's theorem]], there is an isomorphism to [[string bordism groups]]:
 $$
@@ -62,6 +62,22 @@ $$
 \cong\pi_n MString
 =\lim_{k\rightarrow\infty}\pi_k MString_{n+k}.
 $$
+More general, [[MString]] defines a [[generalized homology theory]] (formally also denoted $\widetilde{MString}_*$) given by:
+$$
+\Omega_n^String(X)
+\coloneqq\pi_n^stab(X_+\wedge MNinebrane)
+\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MNinebrane_k)
+$$
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^Ninebrane=\Omega_n^Ninebrane(*)$. Geometrically, $\Omega_n^Ninebrane(X)$ can also be described by $n$-dimensional [[ninebrane manifolds]] representing cycles and $n+1$-dimensional [[ninebrane bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[ninebrane bordism]].
+
+## String cobordism cohomology theory
+
+[[MString]] also defines a [[generalized cohomology theory]] given by:
+$$
+\widetilde{MString}^n(X)
+\coloneqq\lim_{k\rightarrow\infty}[\Sigma^k X,MString_{n+k}]
+$$
+for all [[topological spaces]] $X$. It can also be described geometrically with [[string structures]].
 
 ## Related concepts
 
