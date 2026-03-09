@@ -31,7 +31,7 @@ A family of [[axioms]] in [[constructive mathematics]] which are provable from t
 
 ## Definition
 
-Let $\mathbb{N}^*$ denote the [[list]] of [[natural numbers]]. A [[bar]] is a subset $P \subseteq \mathbb{N}^*$ such that for all sequences $\alpha$ of natural numbers, there exists a natural number $n$ such that the list of all $\alpha(i)$ for all $i \lt n$ is in $P$. A bar $P$ is *inductive* if for all lists $a \in \mathbb{N}^*$ and all natural numbers $n \in \mathbb{N}$, if the concatenation of $a$ with $n$ is in $P$, then $a$ is in $P$. Finally, a bar $P$ is *monotone* if for all lists $a, b \in \mathbb{N}^*$, if $a$ is in $P$, then the concatenation of $a$ and $b$ is in $P$. 
+Let $\mathbb{N}^*$ denote the set of [[list|lists]] of [[natural numbers]]. A [[bar]] is a subset $P \subseteq \mathbb{N}^*$ such that for all sequences $\alpha$ of natural numbers, there exists a natural number $n$ such that the list of all $\alpha(i)$ for all $i \lt n$ is in $P$. A bar $P$ is *inductive* if for all lists $a \in \mathbb{N}^*$ and all natural numbers $n \in \mathbb{N}$, if the concatenation of $a$ with $n$ is in $P$, then $a$ is in $P$. Finally, a bar $P$ is *monotone* if for all lists $a, b \in \mathbb{N}^*$, if $a$ is in $P$, then the concatenation of $a$ and $b$ is in $P$. 
 
 * The principle of **decidable bar induction** or **decidable bar theorem** states that every bar which is a [[detachable subset]] of $\mathbb{N}^*$ is inductive. 
 
