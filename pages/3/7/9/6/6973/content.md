@@ -18,7 +18,7 @@ On [[categorical semantics]] of ([[dependent type theory|dependent]]) [[type the
 
 On [[intensional type theory]]:
 
-* [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
+* [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Ludwig-Maximilians-Universit&auml;t M&uuml;nchen (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
 Introducing the [[homotopy type theory]]-interpretation of [[identity types]] (the "groupoid model") 
 
