@@ -103,7 +103,7 @@ Let $C$ be an infinitary [[extensive category]], then
 \begin{proof}
 The "only if" is clear, so we just prove the "if". 
 
-We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary product $X + 0 = X$, then the canonical map 
+We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary coproduct $X + 0 = X$, then the canonical map 
 
 $$\hom(X, X) + \hom(X, 0) \to \hom(X, X)$$ 
 
