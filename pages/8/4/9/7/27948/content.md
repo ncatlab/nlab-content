@@ -76,14 +76,30 @@ MSpin^\mathrm{h}(2)
 \cong MU(2).
 $$
 
-## Properties
+## Spinʰ bordism homology theory
 
-According to [[Thom's theorem]], there is an isomorphism:
+According to [[Thom's theorem]], there is an isomorphism to [[spinʰ bordism groups]]:
 $$
 \Omega_n^{Spin^\mathrm{h}}
 \cong\pi_n MSpin^\mathrm{h}
 =\lim_{k\rightarrow\infty}\pi_k MSpin^\mathrm{h}_{n+k}.
 $$
+More general, [[MSpinʰ]] defines a [[generalized homology theory]] (formally also denoted $\widetilde{MSpin^\mathrm{h}}_*$) given by:
+$$
+\Omega_n^{Spin^\mathrm{h}}(X)
+\coloneqq\pi_n^stab(X_+\wedge MSpin^\mathrm{h})
+\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MSpin^\mathrm{h}_k)
+$$
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^{Spin^\mathrm{h}}=\Omega_n^{Spin^\mathrm{h}}(*)$. Geometrically, $\Omega_n^{Spin^\mathrm{h}}(X)$ can also be described by $n$-dimensional [[spinʰ manifolds]] representing cycles and $n+1$-dimensional [[spinʰ bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[spinʰ bordism]].
+
+## Spinʰ cobordism cohomology theory
+
+[[MSpinʰ]] also defines a [[generalized cohomology theory]] given by:
+$$
+\widetilde{MSpin^\mathrm{h}}^n(X)
+\coloneqq\lim_{k\rightarrow\infty}[\Sigma^k X,MSpin^\mathrm{h}_{n+k}]
+$$
+for all [[topological spaces]] $X$. It can also be described geometrically with [[spinʰ structures]].
 
 ## Related concepts
 
