@@ -19,7 +19,6 @@
 =--
 
 
-# Finite lists and free monoids
 * table of contents
 {: toc}
 
