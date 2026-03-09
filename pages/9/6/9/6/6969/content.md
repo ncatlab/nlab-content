@@ -55,7 +55,7 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
 
 * {#Martin-Löf75} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, in: H. E. Rose, J. C. Shepherdson (eds.), *Logic Colloquium '73, Proceedings of the Logic Colloquium*, Studies in Logic and the Foundations of Mathematics **80** Pages 73-118,  Elsevier 1975 (<a href="https://doi.org/10.1016/S0049-237X(08)71945-1">doi:10.1016/S0049-237X(08)71945-1</a>, [CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
-* {#Streicher93} [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
+* {#Streicher93} [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Ludwig-Maximilians-Universit&auml;t M&uuml;nchen (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
   
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of
