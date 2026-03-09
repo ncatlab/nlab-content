@@ -234,7 +234,7 @@ For more history see
 
 ### General
   
-* [[Pietro Fré ]], *The Branes: Three Viewpoints*, Chater 7  in: *Gravity, a Geometrical Course*, Springer (2013) &lbrack;[spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7)&rbrack;
+* [[Pietro Fré ]], *The Branes: Three Viewpoints*, Chapter 7  in: *Gravity, a Geometrical Course*, Springer (2013) &lbrack;[spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7)&rbrack;
 
 * [[Greg Moore]], _What is... a brane?_, Notices of the AMS **52** 2 (2005) &lbrack;[pdf](http://www.ams.org/notices/200502/what-is.pdf)&rbrack;
 
@@ -242,7 +242,7 @@ For more history see
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
 
-* J. X. Lu: *Branes in String/M-Theory* &lbrack;[arXiv:2502.11575](https://arxiv.org/abs/2502.11575)&rbrack;
+* [[Jian Xin Lu]]: *Branes in String/M-Theory*, Commun. Theor. Phys. **77** (2025) 097001 &lbrack;[arXiv:2502.11575](https://arxiv.org/abs/2502.11575), [doi:10.1088/1572-9494/adcc02](http://doi.org/10.1088/1572-9494/adcc02)&rbrack;
 
 
 
