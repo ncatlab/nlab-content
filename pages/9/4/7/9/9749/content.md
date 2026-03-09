@@ -280,6 +280,7 @@ The proof is straightforward using the previous lemma.
 Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
+
 Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
 \begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
@@ -327,7 +328,9 @@ His representation for the algebras is based upon the idea that we want continuo
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
 
-Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra. (In contrast, discrete measurable spaces $\mathbf{X}$ do have $G$-algebras $G{\mathbf{X}} \rightarrow \mathbf{X}$.)
+Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow X$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra. (In contrast, discrete standard measurable spaces $X=\mathbf{n}$, where $\mathbf{n}$ is a countable set, do have $G$-algebras $G{\mathbf{n}} \rightarrow \mathbf{n}$ defined by 
+$\sum_{i=1}^{n} p_i \delta_i \mapsto \min \{ i \, \textrm{ such that } p_i \gt 0 \}$
+where $\mathbf{n}$ has the (discrete) convex space structure $\frac{1}{2} i + \frac{1}{2} j = min(i,j)$.) 
 
 
 ## Related constructions
