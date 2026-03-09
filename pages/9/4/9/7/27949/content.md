@@ -64,7 +64,7 @@ $$
 MNinebrane\rightarrow MFivebrane\rightarrow MString.
 $$
 
-## Properties
+## Fivebrane bordism homology theory
 
 According to [[Thom's theorem]], there is an isomorphism to [[fivebrane bordism groups]]:
 $$
@@ -72,6 +72,22 @@ $$
 \cong\pi_n MFivebrane
 =\lim_{k\rightarrow\infty}\pi_k MFivebrane_{n+k}.
 $$
+More general, [[MFivebrane]] defines a [[generalized homology theory]] (formally also denoted $\widetilde{MFivebrane}_*$) given by:
+$$
+\Omega_n^Fivebrane(X)
+\coloneqq\pi_n^stab(X_+\wedge MFivebrane)
+\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MFivebrane_k)
+$$
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^Fivebrane=\Omega_n^Fivebrane(*)$. Geometrically, $\Omega_n^Fivebrane(X)$ can also be described by $n$-dimensional [[fivebrane manifolds]] representing cycles and $n+1$-dimensional [[fivebrane bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[fivebrane bordism]].
+
+## Fivebrane cobordism cohomology theory
+
+[[MFivebrane]] also defines a [[generalized cohomology theory]] given by:
+$$
+\widetilde{MFivebrane}^n(X)
+\coloneqq\lim_{k\rightarrow\infty}[\Sigma^k X,MFivebrane_{n+k}]
+$$
+for all [[topological spaces]] $X$. It can also be described geometrically with [[fivebrane structures]].
 
 ## Related concepts
 
