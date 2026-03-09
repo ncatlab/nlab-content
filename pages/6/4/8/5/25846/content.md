@@ -15,6 +15,11 @@ On [[D-brane]] [[brane intersection|intersections]]:
 
 * {#Lu06} [[Jian Xin Lu]], *$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories*, JHEP 0108:049 (2001) &lbrack;[arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056), [doi:10.1088/1126-6708/2001/08/049](https://doi.org/10.1088/1126-6708/2001/08/049)&rbrack;
 
+On [[branes]] in [[string theory|string]]/[[M-theory]]:
+
+* [[Jian Xin Lu]]: *Branes in String/M-Theory*, Commun. Theor. Phys. **77** (2025) 097001 &lbrack;[arXiv:2502.11575](https://arxiv.org/abs/2502.11575), [doi:10.1088/1572-9494/adcc02](http://doi.org/10.1088/1572-9494/adcc02)&rbrack;
+
+
 
 [[!redirects Jian X. Lu]]
 
