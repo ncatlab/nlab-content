@@ -70,7 +70,7 @@ The Freyd completion of $Rel$, which is equivalent to the category of basic pair
 ### In the double category of relations###
 
 If you insert the category $Rel$ into the [[double category]]
-$\mathrm{RRel}$ of sets, mappings and relations, one has a double
+$\mathbb{R}\mathbf{Rel}$ of sets, mappings and relations, one has a double
 category with all [[double limits]] and colimits. For instance, the
 obvious cartesian product $a \times b : X \times Y \to X' \times Y'$ (resp. sum
 $a+b : X + Y \to X' + Y'$) of two relations is indeed a product
