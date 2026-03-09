@@ -279,6 +279,7 @@ The proof is straightforward using the previous lemma.
 
 Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
+
 Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
 \begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
@@ -325,22 +326,8 @@ Concerning $P$ algebras, the above method of using generalized points can be use
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
-As an example of $P$-algebras, represented via convex spaces, Doberkat gives the example of closed and bounded convex subsets of some Euclidean space, and shows that the construction of a barycenter yields an algebra.  We summarize that construction here.
 
-Fix $X \subset \mathbb{R}^n$ as a bounded, closed, and convex subset of the Euclidean space $\mathbb{R}^n$.
-A vector $x_{\star} \in \mathbb{R}^n$ is called a barycenter of the probability measure $\tau \in P(X)$ iff, for all linear 
-functionals $g$ on $\mathbb{R}^n$, the property $g(x_{\star}) = \int_X g(x) d\tau$ holds.
-Since every linear functional on $\mathbb{R}^n$ is given by $g(\cdot)=\langle x, \cdot \rangle$ for a unique $x \in \mathbb{R}^n$, the defining property of a barycenter (for convex subsets of $\mathbb{R}^n$) given above is equivalent to saying that, for all $x \in \mathbb{R}^n$, the property $\langle x, x_{\star} \rangle = \int_{y \in  X} \langle x, y\rangle d\tau$ holds.
- 
-\begin{lemma}
-The barycenter of $\tau \in P(X)$ exists, it is uniquely determined, and it is an element of $X$.
-\end{lemma}
-
-\begin{theorem}
-Let $h(\tau)$ be the barycenter of $\tau \in P(X)$.  Then $(X,h)$ is an algebra for the $P$-monad.
-\end{theorem}
-
-Finally, we note that Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra.
+Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra. (In contrast, discrete measurable spaces $\mathbf{X}$ do have $G$-algebras $G{\mathbf{X}} \rightarrow \mathbf{X}$.)
 
 
 ## Related constructions
