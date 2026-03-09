@@ -108,9 +108,9 @@ In this sense, a cartesian monad is really *locally* cartesian.
 
 * The free strict $\omega$-[[strict omega-category|category]] monad acting on [[globular set]]s, $T: Set^{G^{op}} \to Set^{G^{op}}$, is cartesian. 
 
-* The [[free strict monoidal category]] monad on $\mathrm{Cat}$ is cartesian.
+* The free [[strict monoidal category]] monad on $\mathrm{Cat}$ is cartesian.
 
-* The [[free symmetric strict monoidal category]] monad on $\mathrm{Cat}$ -- where all coherence cells are required to be identities _except_ the symmetries $A\otimes B \cong B \otimes A$ -- is cartesian.
+* The free [[symmetric strict monoidal category]] monad on $\mathrm{Cat}$ -- where all coherence cells are required to be identities _except_ the symmetries $A\otimes B \cong B \otimes A$ -- is cartesian.
 
 BUT:
 
