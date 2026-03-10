@@ -300,7 +300,7 @@ There is a [[fully faithful functor]] $\Delta \to \overline{\Box}$ from the [[si
 
 #### Cartesian cubes with connections and reversals
 
-[Buchholtz and Morehouse (2017)](#BuchholtzMorehouse2017) consider the cube categories with symmetries, diagonals, connections, and reversals (on top of faces and degenerecies) given by the Lawvere theories of [[De Morgan algebras]], [[Kleene algebras]], and [[Boolean algebras]], the differences between them being in the equational theory of morphisms.
+[Buchholtz and Morehouse (2017)](#BuchholtzMorehouse2017) consider the cube categories with symmetries, diagonals, connections, and reversals (on top of faces and degeneracies) given by the Lawvere theories of [[De Morgan algebras]], [[Kleene algebras]], and [[Boolean algebras]], the differences between them being in the equational theory of morphisms.
 
 The Kleene cube category is the choice that makes the evident functor $\Box \to Top$ faithful.
 The De Morgan cube category is used in the model of [[cubical type theory]] of [Cohen, Coquand, Huber & Mörtberg (2015)](#CohenCoquandHuberMoertberg2017), but the construction also works with Kleene and Boolean cubes.
