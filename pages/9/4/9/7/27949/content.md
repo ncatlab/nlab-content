@@ -80,6 +80,16 @@ $$
 $$
 for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^Fivebrane=\Omega_n^Fivebrane(*)$. Geometrically, $\Omega_n^Fivebrane(X)$ can also be described by $n$-dimensional [[fivebrane manifolds]] representing cycles and $n+1$-dimensional [[fivebrane bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[fivebrane bordism]].
 
+A $n$-dimensional [[fivebrane manifold]] $X$ has a *fivebrane [[fundamental class]]* $[X]\in\Omega_n^Fivebrane(X)$. Let $i\colon X\hookrightarrow\mathbb{R}^{n+k}\hookrightarrow S^{n+k}$ be an [[embedding]] (which always exists due to the [[Whitney embedding theorem]]), then its [[Pontrjagin-Thom collapse map]] is:
+$$
+S^{n+k}\rightarrow X_+\wedge Th(N_i X)
+$$
+with the [[normal bundle]] $N_i X\coloneqq TS^{n+k}/i^*TX$. Since the [[fivebrane structure]] of $X$ transfers over to its [[stable normal bundle]] ($N_i X$ for $k\rightarrow\infty$), postcomposition yields the map:
+$$
+S^{n+k}\rightarrow X_+\wedge MFivebrane_k
+$$
+representing the fivebrane [[fundamental class]] $[X]\in\Omega_n^Fivebrane(X)$. Geometrically, it's represented by the [[identity]] $id\colon X\rightarrow X$.
+
 ## Fivebrane cobordism cohomology theory
 
 [[MFivebrane]] also defines a [[generalized cohomology theory]] given by:
