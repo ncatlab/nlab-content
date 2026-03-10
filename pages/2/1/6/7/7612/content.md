@@ -124,7 +124,7 @@ The general idea of verified programming via [[dependent type theory|dependent]]
 
 * [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
 
-* {#Streicher93} [[Thomas Streicher]], p. 1-2 of: *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
+* {#Streicher93} [[Thomas Streicher]], p. 1-2 of: *Investigations into Intensional Type Theory*, Habilitation Thesis, Ludwig-Maximilians-Universit&auml;t M&uuml;nchen (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
 
 
