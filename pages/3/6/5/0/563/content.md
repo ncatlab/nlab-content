@@ -77,20 +77,20 @@ and
    commute.
 
 *  For each quadruple $w,x,y,z$ of $C$-objects,
-<!-- https://q.uiver.app/#q=WzAsNixbMCwwLCJQX3t5LHp9XFxjaXJjIChQX3t4LHl9KGcpXFxjaXJjIFBfe3cseH0oZikpIl0sWzAsMiwiUF97eSx6fShoKVxcY2lyYyBQX3t3LHl9KGdcXGNpcmMgZikiXSxbMCw0LCJQX3t3LHp9KGhcXGNpcmMoZ1xcY2lyYyBmKSkiXSxbMiwwLCIoUF97eSx6fShoKVxcY2lyYyBQX3t4LHl9KGcpKVxcY2lyYyBQX3t3LHh9KGYpIl0sWzIsMiwiUF97eCx6fShoXFxjaXJjIGcpXFxjaXJjIFBfe3cseH0oZikiXSxbMiw0LCJQX3t3LHp9KChoXFxjaXJjIGcpXFxjaXJjIGYpIl0sWzAsMywiXFxhbHBoYV97UF97dyx6fShmKSxQX3t4LHl9KGcpLFBfe3ksen0oaCl9Il0sWzAsMSwiXFxvcGVyYXRvcm5hbWV7aWR9X3tQX3t5LHp9KGgpfSAqIFBfe2YsZ30iLDIseyJsZXZlbCI6Mn1dLFsxLDIsIlBfe2dcXGNpcmMgZiwgaH0iLDJdLFsyLDUsIlBfe3csen0oXFxhbHBoYV97ZixnLGh9KSIsMl0sWzMsNCwiUF97ZyxofVxcY2lyYyBcXG9wZXJhdG9ybmFtZXtpZH1fe1Bfe3cseH0oZil9Il0sWzQsNSwiUF97ZiwgaFxcY2lyYyBnfSJdXQ== -->
+<!-- https://q.uiver.app/#q=WzAsNixbMCwwLCJQX3t5LHp9KGgpXFxjaXJjIChQX3t4LHl9KGcpXFxjaXJjIFBfe3cseH0oZikpIl0sWzAsMiwiUF97eSx6fShoKVxcY2lyYyBQX3t3LHl9KGdcXGNpcmMgZikiXSxbMCw0LCJQX3t3LHp9KGhcXGNpcmMoZ1xcY2lyYyBmKSkiXSxbMiwwLCIoUF97eSx6fShoKVxcY2lyYyBQX3t4LHl9KGcpKVxcY2lyYyBQX3t3LHh9KGYpIl0sWzIsMiwiUF97eCx6fShoXFxjaXJjIGcpXFxjaXJjIFBfe3cseH0oZikiXSxbMiw0LCJQX3t3LHp9KChoXFxjaXJjIGcpXFxjaXJjIGYpIl0sWzAsMywiXFxhbHBoYV97UF97dyx6fShmKSxQX3t4LHl9KGcpLFBfe3ksen0oaCl9IiwwLHsibGV2ZWwiOjJ9XSxbMCwxLCJcXG9wZXJhdG9ybmFtZXtpZH1fe1Bfe3ksen0oaCl9ICogUF97ZixnfSIsMix7ImxldmVsIjoyfV0sWzEsMiwiUF97Z1xcY2lyYyBmLCBofSIsMix7ImxldmVsIjoyfV0sWzIsNSwiUF97dyx6fShcXGFscGhhX3tmLGcsaH0pIiwyLHsibGV2ZWwiOjJ9XSxbMyw0LCJQX3tnLGh9XFxjaXJjIFxcb3BlcmF0b3JuYW1le2lkfV97UF97dyx4fShmKX0iLDAseyJsZXZlbCI6Mn1dLFs0LDUsIlBfe2YsIGhcXGNpcmMgZ30iLDAseyJsZXZlbCI6Mn1dXQ== -->
 \begin{centre}
-\begin{tikzcd}
-	{P_{y,z}\circ (P_{x,y}(g)\circ P_{w,x}(f))} && {(P_{y,z}(h)\circ P_{x,y}(g))\circ P_{w,x}(f)} \\
+\[\begin{tikzcd}
+	{P_{y,z}(h)\circ (P_{x,y}(g)\circ P_{w,x}(f))} && {(P_{y,z}(h)\circ P_{x,y}(g))\circ P_{w,x}(f)} \\
 	\\
 	{P_{y,z}(h)\circ P_{w,y}(g\circ f)} && {P_{x,z}(h\circ g)\circ P_{w,x}(f)} \\
 	\\
 	{P_{w,z}(h\circ(g\circ f))} && {P_{w,z}((h\circ g)\circ f)}
-	\arrow["{\alpha_{P_{w,z}(f),P_{x,y}(g),P_{y,z}(h)}}", from=1-1, to=1-3]
+	\arrow["{\alpha_{P_{w,x}(f),P_{x,y}(g),P_{y,z}(h)}}", Rightarrow, from=1-1, to=1-3]
 	\arrow["{\operatorname{id}_{P_{y,z}(h)} * P_{f,g}}"', Rightarrow, from=1-1, to=3-1]
-	\arrow["{P_{g,h}\circ \operatorname{id}_{P_{w,x}(f)}}", from=1-3, to=3-3]
-	\arrow["{P_{g\circ f, h}}"', from=3-1, to=5-1]
-	\arrow["{P_{f, h\circ g}}", from=3-3, to=5-3]
-	\arrow["{P_{w,z}(\alpha_{f,g,h})}"', from=5-1, to=5-3]
+	\arrow["{P_{g,h}\circ \operatorname{id}_{P_{w,x}(f)}}", Rightarrow, from=1-3, to=3-3]
+	\arrow["{P_{g\circ f, h}}"', Rightarrow, from=3-1, to=5-1]
+	\arrow["{P_{f, h\circ g}}", Rightarrow, from=3-3, to=5-3]
+	\arrow["{P_{w,z}(\alpha_{f,g,h})}"', Rightarrow, from=5-1, to=5-3]
 \end{tikzcd}
 \end{centre}
    commutes.
