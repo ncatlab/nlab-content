@@ -51,6 +51,9 @@ On using the [[Lean]] [[proof assistant]] for problems in high energy physics:
 
 * {#Tooby-Smith24} [[Joseph Tooby-Smith]], *HepLean: Digitalising high energy physics* &lbrack;[arXiv:2405.08863](https://arxiv.org/abs/2405.08863)&rbrack;
 
+* [[Joseph Tooby-Smith]]: *Formalizing the stability of the two Higgs doublet model potential into Lean: identifying an error in the literature* &lbrack;[arXiv:2603.08139](https://arxiv.org/abs/2603.08139)&rbrack;
+
+
 
 [[!redirects high-energy physics]]
 
