@@ -647,6 +647,9 @@ Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
 * Patrick Copinger, Pablo Morales, _Schwinger Pair Production in $SL(2,\mathbb{C})$  Topologically Non-Trivial Fields via Non-Abelian Worldline Instantons_ ([arXiv:2011.12526](https://arxiv.org/abs/2011.12526))
 
+* Hidetoshi Taya: *Schwinger effect in QCD and nuclear physics* &lbrack;[arXiv:2603.07847](https://arxiv.org/abs/2603.07847)&rbrack;
+
+
 
 
 In [[quantum hadrodynamics]]:
