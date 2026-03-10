@@ -13,9 +13,15 @@ On [[abelian Chern-Simons theory]] via [[path integrals]] over [[ordinary differ
 
 * [[Enore Guadagnini]], [[Frank Thuillier]]: *Path-integral invariants in abelian Chern–Simons theory*, Nuclear Physics B **882** (2014) 450-484 &lbrack;[doi:10.1016/j.nuclphysb.2014.03.009](https://doi.org/10.1016/j.nuclphysb.2014.03.009), [arXiv:1402.3140](https://arxiv.org/abs/1402.3140)&rbrack;
 
-and relation to the [[Reshetikhin-Turaev construction]]:
+and in relation to the [[Reshetikhin-Turaev construction]]:
 
 * Philippe Mathieu, [[Frank Thuillier]]: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
+
+and for [[product group|product]] [[gauge group]] $U(1)^n$:
+
+* Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
+
+* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
 
 
 
