@@ -950,7 +950,6 @@ General discussion of abelian Chern-Simons theory:
 
 * Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
 
-* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
 
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
@@ -1023,7 +1022,7 @@ On [[lattice gauge theory|lattice formulation]] of abelian Chern-Simons theory:
 * Yo Ikeda: *A Lattice $U(1)$ Chern-Simons Theory via Lattice Deligne-Beilinson Cohomology* &lbrack;[arXiv:2601.15939](https://arxiv.org/abs/2601.15939)&rbrack;
 
 
-and its canonical [[quantization of D=3 Chern-Simons theory|quantization]]:
+and [[quantization of D=3 Chern-Simons theory|its]] [[canonical quantization|canonical]] [[quantization]]:
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Canonical quantization of lattice Chern-Simons theory*, High Energ. Phys. **2024** (2024) 87 &lbrack;[arXiv:2401.09597](https://arxiv.org/abs/2401.09597), <a href="https://doi.org/10.1007/JHEP11(2024)087">doi:10.1007/JHEP11(2024)087</a>&rbrack;
 
@@ -1074,6 +1073,9 @@ Discussion of [[Wilson loop]] [[quantum observables]] in abelian Chern-Simons th
 * {#Hahn04b} [[Atle Hahn]]: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
 
 * [Guadagnini & Thuillier 2008](#GuadagniniThuillier08)
+
+* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
+
 
 Review:
 
