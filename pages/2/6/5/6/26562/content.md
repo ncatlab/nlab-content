@@ -88,6 +88,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
+* The [[central limit theorem]] in terms of [[enriched categories]]: [BFGFW'26](#clt).
+
 * [[conditional expectation|Conditional expectations]]: first expressed categorically in [Panangaden](#panangaden_condexp)  and [CDPP'09](#approx_markov), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) then using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), [FP'20](#pev) and [FGPR'23](#fritz_representable), and finally in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger) and [Perrone-Van Belle'24](#dagger_martingales).
 
 * [[De Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) and [CFGKL](#aldous_hoover) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
@@ -283,6 +285,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#entropy_bayes} [[John Baez]] and [[Tobias Fritz]], _A Bayesian characterization of relative entropy_, Theory and Application of Categories, 29(16), 2014. ([arXiv](https://arxiv.org/abs/1402.3067))
 
 * {#entropy_infloss} [[John Baez]], [[Tobias Fritz]] and [[Tom Leinster]], _A characterization of entropy in terms of information loss_, Entropy 13(2), 2011. ([arXiv](https://arxiv.org/abs/1106.1791))
+
+* {#clt} Henning Basold, Oisín Flynn-Connolly, Chase Ford, Hao Wang, _Central Limits via Dilated Categories_, 2026. ([arXiv](https://arxiv.org/abs/2603.08266))
 
 * {#bohinen} Mika Bohinen and [[Paolo Perrone]], _Categorical algebra of conditional probability_, 2025. ([arXiv](https://arxiv.org/abs/2502.14941))
 
