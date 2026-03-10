@@ -162,6 +162,9 @@ Discussion of Wilson loop observables in [[abelian Chern-Simons theory]] via [[p
 
 * {#GuadagniniThuillier08} [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
 
+* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
+
+
 Review:
 
 * {#Kaul99} [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
