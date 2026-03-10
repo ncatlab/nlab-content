@@ -360,7 +360,7 @@ The cartesian cube category (of \ref{CartesianCubes}) is an Eilenberg--Zilber ca
 
 =--
 
-A Reedy category is always [[Cauchy complete category|Cauchy complete]], so for cube categories with diagonals and connections we may need to consider their Cauchy completions.
+A Reedy category is always [[Cauchy complete category|Cauchy complete]] ([Bergner and Rezk 2012, Lemma 3.9](#BergnerRezk2012)), so for cube categories with diagonals and connections we may need to consider their Cauchy completions.
 
 +-- {: .num_defn}
 ###### Proposition
@@ -454,6 +454,8 @@ Cubes with diagonals:
 On Eilenberg--Zilber structures:
 
 * {#Campion2023} [[Tim Campion]], _Cubical sites as Eilenberg-Zilber categories_, 2023, [arXiv:2303.06206](https://arxiv.org/abs/2303.06206)
+
+* {#BergnerRezk2012} [[Julia Bergner]] and [[Charles Rezk]], _Reedy categories and the $\Theta$-construction_, 2012, [arXiv:1110.1066](https://arxiv.org/abs/1110.1066)
 
 Cubes with monotone interval-preserving maps:
 
