@@ -33,46 +33,66 @@ An older terminology, which should probably be avoided at all costs, uses "homom
 Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__, or just __functor__) $P:C \to D$ consists of:
 
 *  A function
-$$
+\[
 P:Ob_C\to Ob_D.
-$$
+\]
 *  For each [[hom-category]] $C(x,y)$ in $C$, a [[functor]] 
-$$
+\[
 P_{x,y}\colon C(x,y) \rightarrow D(P_x,P_y).
-$$
+\]
 *  For each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell)
-$$
+\[
 P_{\id_x}\colon \id_{P_x} \Rightarrow P_{x,x}(\id_x).
-$$
+\]
 *  For each triple $x,y,z$ of $C$-objects, an [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) 
-$$
-P_{f,g}\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)
-$$
+\[
+P_{f,g}\colon P_{y,z}(g)\circ P_{x,y}(f) \Rightarrow P_{x,z}(g\circ f)
+\]
 *  For each hom-category $C(x,y)$,
-   $$ \array {
-                                  &                                         & \id_{P_x} ; P_{x,y}(f) \\
-                                  & {}^{P_{\id_x};\id_{P_{x,y}(f)}}\swArrow &                        & \seArrow^{\lambda_{P_{x,y}(f)}} \\
-      P_{x,x}(\id_x) ; P_{x,y}(f) &                                         &                        &                                 & P_{x,y}(f) \\
-                                  & {}_{P_{x,x,y}(\id_x,f)}\seArrow         &                        & \neArrow_{P_{x,y}(\lambda_f)} \\
-                                  &                                         & P_{x,y}(\id_x;f) \\
-   } $$
-   and
-   $$ \array {
-                                  &                                         & P_{x,y}(f) ; \id_{P_y} \\
-                                  & {}^{\id_{P_{x,y}(f)};P_{\id_y}}\swArrow &                        & \seArrow^{\rho_{P_{x,y}(f)}} \\
-      P_{x,y}(f) ; P_{y,y}(\id_y) &                                         &                        &                              & P_{x,y}(f) \\
-                                  & {}_{P_{x,y,y}(f,\id_y)}\seArrow         &                        & \neArrow_{P_{x,y}(\rho_f)} \\
-                                  &                                         & P_{x,y}(f;\id_y) \\
-   } $$
+<!-- https://q.uiver.app/#q=WzAsNCxbMCwwLCJQX3t4LCB5fShmKVxcY2lyYyBcXG9wZXJhdG9ybmFtZXtpZH1fe1BfeH0iXSxbMiwwLCJQX3t4LCB5fShmKSJdLFsyLDIsIlBfe3gseX0oZlxcY2lyYyBcXG9wZXJhdG9ybmFtZXtpZH1feCkiXSxbMCwyLCJQX3t4LHl9KGYpXFxjaXJjIFBfe3gseH0oXFxvcGVyYXRvcm5hbWV7aWR9X3gpIl0sWzAsMSwiXFxsYW1iZGFfe1Bfe3gseX0oZil9IiwwLHsibGV2ZWwiOjJ9XSxbMCwzLCJcXG9wZXJhdG9ybmFtZXtpZH1fe1Bfe3gseX0oZil9KlBfe1xcb3BlcmF0b3JuYW1le2lkfV94fSIsMix7ImxldmVsIjoyfV0sWzMsMiwiUF97eCx4LHl9KFxcb3BlcmF0b3JuYW1le2lkfV94LGYpIiwyLHsibGV2ZWwiOjJ9XSxbMiwxLCJQX3t4LHl9KFxcbGFtYmRhX2YpIiwyLHsibGV2ZWwiOjJ9XV0= -->
+\begin{centre}
+    \begin{tikzcd}
+	{P_{x, y}(f)\circ \operatorname{id}_{P_x}} && {P_{x, y}(f)} \\
+	\\
+	{P_{x,y}(f)\circ P_{x,x}(\operatorname{id}_x)} && {P_{x,y}(f\circ \operatorname{id}_x)}
+	\arrow["{\lambda_{P_{x,y}(f)}}", Rightarrow, from=1-1, to=1-3]
+	\arrow["{\operatorname{id}_{P_{x,y}(f)}*P_{\operatorname{id}_x}}"', Rightarrow, from=1-1, to=3-1]
+	\arrow["{P_{f, \operatorname{id}_x}(\operatorname{id}_x,f)}"', Rightarrow, from=3-1, to=3-3]
+	\arrow["{P_{x,y}(\lambda_f)}"', Rightarrow, from=3-3, to=1-3]
+\end{tikzcd}
+\end{centre}
+and
+<!-- https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXG9wZXJhdG9ybmFtZXtpZH1fe1BfeX0gXFxjaXJjIFBfe3gseX0oZikiXSxbMCwyLCJQX3t5LHl9KFxcb3BlcmF0b3JuYW1le2lkfV95KVxcY2lyYyBQX3t4LHl9KGYpIl0sWzIsMiwiUF97eCx5fShcXG9wZXJhdG9ybmFtZXtpZH1feVxcY2lyYyBmKSJdLFsyLDAsIlBfe3gseX0oZikiXSxbMCwzLCJcXHJob197UF97eCx5fShmKX0iLDAseyJsZXZlbCI6Mn1dLFswLDEsIlBfe1xcb3BlcmF0b3JuYW1le2lkfV95fSAqIFxcb3BlcmF0b3JuYW1le2lkfV97UF97eCx5fShmKX0iLDIseyJsZXZlbCI6Mn1dLFsxLDIsIlBfe2YsIFxcb3BlcmF0b3JuYW1le2lkfV95fShcXG9wZXJhdG9ybmFtZXtpZH1feVxcY2lyYyBmKSIsMix7ImxldmVsIjoyfV0sWzIsMywiUF97eCx5fShcXHJob19mKSIsMix7ImxldmVsIjoyfV1d -->
+\begin{centre}
+    \begin{tikzcd}
+	{\operatorname{id}_{P_y} \circ P_{x,y}(f)} && {P_{x,y}(f)} \\
+	\\
+	{P_{y,y}(\operatorname{id}_y)\circ P_{x,y}(f)} && {P_{x,y}(\operatorname{id}_y\circ f)}
+	\arrow["{\rho_{P_{x,y}(f)}}", Rightarrow, from=1-1, to=1-3]
+\arrow["{P_{\operatorname{id}_y} * \operatorname{id}_{P_{x,y}(f)}}"', Rightarrow, from=1-1, to=3-1]
+	\arrow["{P_{f, \operatorname{id}_y}(\operatorname{id}_y\circ f)}"', Rightarrow, from=3-1, to=3-3]
+	\arrow["{P_{x,y}(\rho_f)}"', Rightarrow, from=3-3, to=1-3]
+    \end{tikzcd}
+\end{centre}
    commute.
+
 *  For each quadruple $w,x,y,z$ of $C$-objects,
-   $$ \array {
-      \big(P_{w,x}(f) ; P_{x,y}(g)\big) ; P_{y,z}(h)       & \overset{\alpha_{P_{w,x}(f),P_{x,y}(g),P_{y,z}(h)}}\Rightarrow & P_{w,x}(f) ; \big(P_{x,y}(g) ; P_{y,z}(h)\big) \\
-      \mathllap{P_{w,x,y}(f,g);\id_{P_{y,z}(h)}}\Downarrow &                                                                & \Downarrow\mathrlap{\id_{P_{w,x}(f)};P_{x,y,z}(g,h)} \\
-      P_{w,y}(f;g) ; P_{y,z}(h)                            &                                                                & P_{w,x}(f) ; P_{x,z}(g;h) \\
-      \mathllap{P_{w,y,z}(f;g,h)}\Downarrow                &                                                                & \Downarrow\mathrlap{P_{w,x,z}(f,g;h)} \\
-      P_{w,z}\big((f;g);h\big)                             & \underset{P_{w,z}(\alpha_{f,g,h})}\Rightarrow                  & P_{w,z}\big(f;(g;h)\big) \\
-   } $$
+<!-- https://q.uiver.app/#q=WzAsNixbMCwwLCJQX3t5LHp9XFxjaXJjIChQX3t4LHl9KGcpXFxjaXJjIFBfe3cseH0oZikpIl0sWzAsMiwiUF97eSx6fShoKVxcY2lyYyBQX3t3LHl9KGdcXGNpcmMgZikiXSxbMCw0LCJQX3t3LHp9KGhcXGNpcmMoZ1xcY2lyYyBmKSkiXSxbMiwwLCIoUF97eSx6fShoKVxcY2lyYyBQX3t4LHl9KGcpKVxcY2lyYyBQX3t3LHh9KGYpIl0sWzIsMiwiUF97eCx6fShoXFxjaXJjIGcpXFxjaXJjIFBfe3cseH0oZikiXSxbMiw0LCJQX3t3LHp9KChoXFxjaXJjIGcpXFxjaXJjIGYpIl0sWzAsMywiXFxhbHBoYV97UF97dyx6fShmKSxQX3t4LHl9KGcpLFBfe3ksen0oaCl9Il0sWzAsMSwiXFxvcGVyYXRvcm5hbWV7aWR9X3tQX3t5LHp9KGgpfSAqIFBfe2YsZ30iLDIseyJsZXZlbCI6Mn1dLFsxLDIsIlBfe2dcXGNpcmMgZiwgaH0iLDJdLFsyLDUsIlBfe3csen0oXFxhbHBoYV97ZixnLGh9KSIsMl0sWzMsNCwiUF97ZyxofVxcY2lyYyBcXG9wZXJhdG9ybmFtZXtpZH1fe1Bfe3cseH0oZil9Il0sWzQsNSwiUF97ZiwgaFxcY2lyYyBnfSJdXQ== -->
+\begin{centre}
+\begin{tikzcd}
+	{P_{y,z}\circ (P_{x,y}(g)\circ P_{w,x}(f))} && {(P_{y,z}(h)\circ P_{x,y}(g))\circ P_{w,x}(f)} \\
+	\\
+	{P_{y,z}(h)\circ P_{w,y}(g\circ f)} && {P_{x,z}(h\circ g)\circ P_{w,x}(f)} \\
+	\\
+	{P_{w,z}(h\circ(g\circ f))} && {P_{w,z}((h\circ g)\circ f)}
+	\arrow["{\alpha_{P_{w,z}(f),P_{x,y}(g),P_{y,z}(h)}}", from=1-1, to=1-3]
+	\arrow["{\operatorname{id}_{P_{y,z}(h)} * P_{f,g}}"', Rightarrow, from=1-1, to=3-1]
+	\arrow["{P_{g,h}\circ \operatorname{id}_{P_{w,x}(f)}}", from=1-3, to=3-3]
+	\arrow["{P_{g\circ f, h}}"', from=3-1, to=5-1]
+	\arrow["{P_{f, h\circ g}}", from=3-3, to=5-3]
+	\arrow["{P_{w,z}(\alpha_{f,g,h})}"', from=5-1, to=5-3]
+\end{tikzcd}
+\end{centre}
    commutes.
 
 A pseudofunctor is **strict** if the structural isomorphisms for identities of 1-cells and composites are identity 2-cells.
