@@ -65,10 +65,20 @@ $$
 More general, [[MString]] defines a [[generalized homology theory]] (formally also denoted $\widetilde{MString}_*$) given by:
 $$
 \Omega_n^String(X)
-\coloneqq\pi_n^stab(X_+\wedge MNinebrane)
-\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MNinebrane_k)
+\coloneqq\pi_n^stab(X_+\wedge MString)
+\coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MString_k)
 $$
-for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^Ninebrane=\Omega_n^Ninebrane(*)$. Geometrically, $\Omega_n^Ninebrane(X)$ can also be described by $n$-dimensional [[ninebrane manifolds]] representing cycles and $n+1$-dimensional [[ninebrane bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[ninebrane bordism]].
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^String=\Omega_n^String(*)$. Geometrically, $\Omega_n^String(X)$ can also be described by $n$-dimensional [[ninebrane manifolds]] representing cycles and $n+1$-dimensional [[string bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[string bordism]].
+
+A $n$-dimensional [[string manifold]] $X$ has a *string [[fundamental class]]* $[X]\in\Omega_n^String(X)$. Let $i\colon X\hookrightarrow\mathbb{R}^{n+k}\hookrightarrow S^{n+k}$ be an [[embedding]] (which always exists due to the [[Whitney embedding theorem]]), then its [[Pontrjagin-Thom collapse map]] is:
+$$
+S^{n+k}\rightarrow X_+\wedge Th(N_i X)
+$$
+with the [[normal bundle]] $N_i X\coloneqq TS^{n+k}/i^*TX$. Since the [[string structure]] of $X$ transfers over to its [[stable normal bundle]] ($N_i X$ for $k\rightarrow\infty$), postcomposition yields the map:
+$$
+S^{n+k}\rightarrow X_+\wedge MString_k
+$$
+representing the string [[fundamental class]] $[X]\in\Omega_n^String(X)$. Geometrically, it's represented by the [[identity]] $id\colon X\rightarrow X$.
 
 ## String cobordism cohomology theory
 
