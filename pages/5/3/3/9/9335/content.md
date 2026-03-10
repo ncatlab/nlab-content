@@ -118,11 +118,6 @@ $$A_1\otimes A_2=(A_1\times A_2)/(\{*\}\times A_2\cup A_1\times \{*\}).$$
 ## Generalized Reedy structure
 
 The category $\Gamma$ is not a [[Reedy category]] because it has nontrivial automorphisms.
-However, it is a dualizable generalized Reedy category and an Eilenberg–Zilber category in the sense of [Berger–Moerdijk](#BergerMoerdijk).
-
-## Generalized Reedy structure
-
-The category $\Gamma$ is not a [[Reedy category]] because it has nontrivial automorphisms.
 However, it is a dualizable generalized Reedy category and an [[Eilenberg–Zilber category]] in the sense of [Berger–Moerdijk](#BergerMoerdijk).
 
 The degree function on $\Gamma$ and $\Gamma^{op}$ sends an object $c\in\Gamma$ to its cardinality as a finite set.
