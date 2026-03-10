@@ -92,6 +92,16 @@ $$
 $$
 for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^{Spin^\mathrm{h}}=\Omega_n^{Spin^\mathrm{h}}(*)$. Geometrically, $\Omega_n^{Spin^\mathrm{h}}(X)$ can also be described by $n$-dimensional [[spinʰ manifolds]] representing cycles and $n+1$-dimensional [[spinʰ bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[spinʰ bordism]].
 
+A $n$-dimensional [[spinʰ manifold]] $X$ has a *spinʰ [[fundamental class]]* $[X]\in\Omega_n^{Spin^\mathrm{h}}(X)$. Let $i\colon X\hookrightarrow\mathbb{R}^{n+k}\hookrightarrow S^{n+k}$ be an [[embedding]] (which always exists due to the [[Whitney embedding theorem]]), then its [[Pontrjagin-Thom collapse map]] is:
+$$
+S^{n+k}\rightarrow X_+\wedge Th(N_i X)
+$$
+with the [[normal bundle]] $N_i X\coloneqq TS^{n+k}/i^*TX$. Since the [[spinʰ structure]] of $X$ transfers over to its [[stable normal bundle]] ($N_i X$ for $k\rightarrow\infty$), postcomposition yields the map:
+$$
+S^{n+k}\rightarrow X_+\wedge MSpin^\mathrm{h}_k,
+$$
+which represents the spinʰ [[fundamental class]] $[X]\in\Omega_n^{Spin^\mathrm{h}}(X)$. Geometrically, it's represented by the [[identity]] $id\colon X\rightarrow X$.
+
 ## Spinʰ cobordism cohomology theory
 
 [[MSpinʰ]] also defines a [[generalized cohomology theory]] given by:
