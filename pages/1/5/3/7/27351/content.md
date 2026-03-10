@@ -950,6 +950,8 @@ General discussion of abelian Chern-Simons theory:
 
 * Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
 
+* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
+
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
 
