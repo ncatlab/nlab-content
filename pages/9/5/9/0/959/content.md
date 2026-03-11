@@ -31,9 +31,9 @@ The given point serves as an equivalence between $(-1)$-morphisms (for now, see 
 
 ### Homotopy-theoretic
 
-Invoking the homotopy hypothesis, we define a __[[k-tuply monoidal n-groupoid]]__ to be an _$E_k$-$n$-type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an action by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it).  The $k$-tuply groupal $n$-groupoids can then be identified with the [[grouplike topological monoid|grouplike]] $E_k$-[[E-k-space|spaces]].
+Invoking the homotopy hypothesis, we define a __[[k-tuply monoidal n-groupoid]]__ to be an _$E_k$-$n$-type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an action by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it).  The $k$-tuply groupal $n$-groupoids can then be identified with the grouplike [[Ek-algebra|$E_k$-]]spaces.
 
-It is a classical theorem of homotopy theory that grouplike $E_k$-spaces are the same as $k$-fold [[loop space]]s (see J.P. May, _The Geometry of Iterated Loop Spaces_).  This is the topological version of the delooping hypothesis (from which, of course, it takes its name).
+It is a classical theorem of homotopy theory that grouplike $E_k$-spaces are the same as $k$-fold [[loop spaces]] (the *[[May recognition theorem]]*, [May 1972](#May72)). This is the topological version of the delooping hypothesis (from which, of course, it takes its name).
 
 
 ### Special cases
@@ -70,6 +70,10 @@ The [[homotopy theory]] of $k$-tuply groupal $n$-groupoids is discussed in
 
 
 * [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_, Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 (<a href="https://doi.org/10.1016/S0022-4049(98)00143-1">doi:10.1016/S0022-4049(98)00143-1</a>) 
+
+See also:
+
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) \[<a href="https://link.springer.com/book/10.1007/BFb0067491">doi:10.1007/BFb0067491</a>, scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)\]
 
 
 [[!redirects k-tuply groupal n-groupoid]]
