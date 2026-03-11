@@ -28,7 +28,7 @@ An **absolutely dense functor** $F \colon A \to B$ is a [[functor]] which is equ
 $$ \int_{b \in B} G(b, b) \cong \int_{a \in A} G(F a, F a) $$
 (This is a notion of [[final functor|initiality]] for [[ends]].)
 
-1. For every morphism $f : b \to b'$ in $B$, the category of $F$-factorisations of $f$ (which has objects triples $(a \in A, f_1 : b \to f a, f_2 : f a \to b')$ such that $f_2 f_1 = f$) is [[connected]]. ([MathOverflow answer](https://mathoverflow.net/a/354097))
+1. For every morphism $f : b \to b'$ in $B$, the category of $F$-factorisations of $f$ (which has objects triples $(a \in A, f_1 : b \to f a, f_2 : f a \to b')$ such that $f_2 f_1 = f$) is [[connected|connected category]]. ([MathOverflow answer](https://mathoverflow.net/a/354097))
 
 More generally, an **absolutely dense morphism** in a [[proarrow equipment]] $K \to M$ is a 1-cell $f : a \to b$ in $K$ for which the counit $f_* \circ f^* \cong 1_b$.
 
