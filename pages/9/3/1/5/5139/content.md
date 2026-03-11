@@ -107,33 +107,32 @@ See _[[symmetric monoidal (∞,n)-category]]_.
 
 ## References
 
-* [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
-{#May}
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 * {#MCO} [[James E. McClure]], [[Jeffrey H. Smith]], _Multivariable cochain operations and little $n$-cubes__,[arXiv](https://arxiv.org/abs/math/0106024), [Journal of the AMS 16:3 (2003), 681–704](https://doi.org/10.1090/S0894-0347-03-00419-3).
 
-* [[Mike Mandell]], _Cochains and homotopy type_, Publ. Math. IHES (2006) 103: 213&#8211;246.  ([arXiv](https://arxiv.org/abs/math/0311016)) 
-{#Mandell}
+* {#Mandell} [[Mike Mandell]], _Cochains and homotopy type_, Publ. Math. IHES (2006) 103: 213&#8211;246.  ([arXiv](https://arxiv.org/abs/math/0311016)) 
 
-* [[Martin Markl]], Steve Shnider, [[Jim Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
-{#MarklShniderStasheff}
+
+* {#MarklShniderStasheff} [[Martin Markl]], Steve Shnider, [[Jim Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
+
 
 In the context of [[(infinity,1)-operad]]s $E_\infty$-algebras are discussed in
 
-* [[Jacob Lurie]], _[[Ek-Algebras]]_
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Ek-Algebras]]_
+
 
 
 A systematic study of [[model category]] structures on operads and their algebras is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
-{#BergerMoerdijkHomotopy}
+* {#BergerMoerdijkHomotopy} [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
+
 
 
 The induced model structures and their properties on [[algebras over operads]] are discussed in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
-{#BergerMoerdijkAlgebras}
+* {#BergerMoerdijkAlgebras} [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
+
 
 
 [[!redirects E-infinity-algebra]]
