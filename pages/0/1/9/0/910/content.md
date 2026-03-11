@@ -435,7 +435,7 @@ Early discussion in the context of [[geometric realization of simplicial topolog
 
 and briefly in:
 
-* {#May72} [[Peter May]], Section 1 of: *The geometry of iterated loop spaces*, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
+* {#May72} [[Peter May]]; Section 1 of: *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 More history and early references, with emphasis on [[category theory|category-theoretic]] aspects:
 
