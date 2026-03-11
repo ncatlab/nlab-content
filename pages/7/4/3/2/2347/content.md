@@ -60,7 +60,7 @@ that makes $A$ into a [[Lie algebra]] such that for each element $a \in A$ the o
 
 This definition readily generalized to symmetric monoidal categories. For example, a real _super Poisson algebra_ is a graded-commutative [[superalgebra]] equipped with the compatible structure of a [[super Lie algebra]].
 
-A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of (super) Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
+A _[[homomorphism]]_ $(A, \cdot, [-,-]) \to (B, \cdot, [-,-])$ of (super) Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
 
 Write [[Poiss]] for the resulting category of 
 (super) Poisson algebras. 
