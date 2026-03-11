@@ -311,7 +311,7 @@ between the homotopy category of grouplike Swiss cheese algebras and the homotop
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Lecture Notes in Mathematics, Springer 1972 ([doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 * {#May74} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_, New Developments in Topology, London Math. Soc. Lecture Note Series 11 (1974) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
