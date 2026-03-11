@@ -397,7 +397,7 @@ $$
 
 =--
 
-This appears for instance as ([May 1972, Cor. 11.6](#May72)).  See also the proof that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]], at [[geometric realization]] ([here](geometric+realization#GeometricRealizationIsLeftExact)).
+This appears for instance as [May 1972, Cor. 11.6](#May72).  See also the proof [here](geometric+realization#GeometricRealizationIsLeftExact) at *[[geometric realization]]*, that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]].
 
 \begin{remark}
 It is essential in Prop. \ref{RealizationPreservesPullbacks} to work in a category $Top$ such as [[compactly generated topological spaces]] (also "k-spaces"): in the category of *all* topological spaces the proposition would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
@@ -1095,7 +1095,7 @@ The detailed [[coend]] formula for and the relevance of [[compactly generated to
 
 Further details, including proof of the preservation not just of binary products but also of pullbacks appears in:
 
-* {#May72} [[Peter May]], Section 11 of: *The geometry of iterated loop spaces*, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
+* {#May72} [[Peter May]]; section 11 of: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 The notion of *good* simplicial spaces is due to 
 
