@@ -169,7 +169,7 @@ This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
 
 =--
 
-Specifically for $\mathcal{X} = Top$, this refines to the classical theorem by ([May](#May)).
+Specifically for $\mathcal{X} = Top$, this refines to the classical theorem by [May 1972](#May72).
 
 +-- {: .un_theorem}
 ###### Theorem (May recognition theorem)
@@ -261,7 +261,7 @@ Review includes
 
 A standard textbook reference is chapter 4 of 
 
-* {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 The equivalence to the [[Fulton-MacPherson operad]] is due to 
 
