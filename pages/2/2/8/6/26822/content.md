@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -15,7 +14,7 @@
 
 ## Definition
 
-The *Arens-Fort space* is the set $\mathbb{N}^2$ of [[pairs]] of [[natural numbers]] with all [[subsets]] *not* containing $(0,0)$ being [[open subset|open]] and all [[subsets]] containing $(0,0)$ and containing almost all (all but finitely many) points in almosts all columns being open.
+The *Arens-Fort space* is the set $\mathbb{N}^2$ of [[pairs]] of [[natural numbers]] with all [[subsets]] *not* containing $(0,0)$ being [[open subset|open]] and all [[subsets]] containing $(0,0)$ and containing almost all (all but finitely many) points in almost all columns being open.
 
 (E.g. [Joshi 83, Chapter 4, Section 2, Example 10](#Joshi83))
 
