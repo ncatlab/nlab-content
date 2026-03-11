@@ -1585,7 +1585,7 @@ On topological complexity of [[configuration space]]:
 
 The [[Cohomotopy charge map]] ("electric field map", "scanning map") and hence the relation of configuration spaces to [[Cohomotopy]] goes back to 
 
-* {#May72} [[Peter May]], *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf)&rbrack;
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 * {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. **21** (1973) 213-221  &lbrack;[doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377&rbrack;
 
