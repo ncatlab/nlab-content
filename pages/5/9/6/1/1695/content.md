@@ -66,7 +66,7 @@ with basepoint provided by the right vertical arrow.
 
 A loop space is an example of a [[A-∞ space]]. In particular, it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
-The description of this structure on loop spaces was the very motivation for the introduction of the notion of an [[operad]] and an [[algebra over an operad]] in ([May](#May)).
+The description of this structure on loop spaces was the very motivation for the introduction of the notion of an [[operad]] and an [[algebra over an operad]] in [May 1972](#May72).
 
 
 An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of the loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a [[topological group]] structure $G$, and $Y$ is the [[classifying space]] of $G$. 
@@ -166,14 +166,13 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
 ### General
 
+* H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal (1955) 419-425
+
 * {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53
 
-* {#Stasheff} [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
-
-* {#May} [[Peter May]], _The geometry of iterated loop spaces_ Lecture Notes in Mathematics 271 (1970) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* {#Stasheff} [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. **108** (1963) 275-312 
  
-
-* H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 The simplicial loop group functor is discussed in chapter V, section 5 of
 
