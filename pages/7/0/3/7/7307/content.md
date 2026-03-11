@@ -196,7 +196,7 @@ We list some examples of [[Set]]-enriched symmetric operads.
 
 An original source is
 
-* [[Peter May]], _The geometry of iterated loop spaces_, Lectures Notes in Mathematics, Vol. 271, Springer-Verlag, Berlin-New York, (1972).
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) \[<a href="https://link.springer.com/book/10.1007/BFb0067491">doi:10.1007/BFb0067491</a>, scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)\]
 
 A survey of the basic notions of symmetric operads is for instance in section 1 of
 
