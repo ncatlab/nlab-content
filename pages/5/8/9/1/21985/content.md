@@ -81,7 +81,7 @@ A general [[equivariant Pontrjagin theorem]] -- relating [[equivariant Cohomotop
 
 In [[negative number|negative]] [[codimension]], the [[Cohomotopy charge map]] from the [[Pontrjagin theorem]] gives the [May-Segal theorem](configuration+space+of+points#LoopSpacesOfSuspensions), now identifying [[Cohomotopy]] _[[cocycle spaces]]_ with [[configuration spaces of points]]:
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) \[<a href="https://link.springer.com/book/10.1007/BFb0067491">doi:10.1007/BFb0067491</a>, scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)\]
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 c
