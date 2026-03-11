@@ -144,9 +144,16 @@ $$R: Set^{\Delta^{op}} \to Space$$
 
 is a left [[exact functor]] in that it preserves [[finite limits]]. 
 
-It is important that we use some such "convenience" assumption, because for example 
+It is important that we use some such "[[convenient category of topological spaces|convenience]]" assumption, because for example 
 
-$${|(-)|}: Set^{\Delta^{op}} \to Top,$$
+$$
+  \big|(-)\big| 
+    \;\colon\; 
+  Set^{\Delta^{op}} 
+    \longrightarrow 
+  Top
+  \mathrlap{\,,}
+$$
 
 valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k \colon Haus \to CGHaus$ to [[Hausdorff space|Hausdorff]] and [[compactly generated topological spaces]]. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that ${|X \times Y|} \cong {|X|} \times_k {|Y|} \coloneqq k({|X|} \times {|Y|})$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
 
