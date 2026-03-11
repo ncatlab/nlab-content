@@ -385,7 +385,7 @@ We discuss how geometric realization interacts with [[limits]] of simplicial top
 ###### Proposition
 **(geometric realization prerserves pullbacks)** \linebreak
 
-In the category [[Top]] of [[compactly generated topological spaces]],
+In the category of [[compactly generated weak Hausdorff spaces]],
 geometric realization of simplicial spaces [[preserved limit|preserves]] [[pullbacks]]: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphisms]]
 
 $$
@@ -397,11 +397,8 @@ $$
 
 =--
 
-This appears for instance as [May 1972, Cor. 11.6](#May72).  See also the proof [here](geometric+realization#GeometricRealizationIsLeftExact) at *[[geometric realization]]*, that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]].
-
-\begin{remark}
-It is essential in Prop. \ref{RealizationPreservesPullbacks} to work in a category $Top$ such as [[compactly generated topological spaces]] (also "k-spaces"): in the category of *all* topological spaces the proposition would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
-\end{remark}
+This appears as [May 1972, Cor. 11.6](#May72). (The (weak) Hausdorff property is needed there to guarantee that the image of the diagonal of a space is closed, so that it follows that the fiber product, being a preimage of the image of a diagonal, is a closed subspace of the product and hence compatible with quotients.)
+See also the proof [here](geometric+realization#GeometricRealizationIsLeftExact) at *[[geometric realization]]*, that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]].
 
 It follows that:
 
@@ -1081,7 +1078,7 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 The realization construction of simplicial topological spaces is implicit in classical discussion of [[classifying spaces]] $B G$, in particular
 
-* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
+* {#Milgram67} [[R. James Milgram]]: *The bar construction and abelian H-spaces*, Illinois J. Math. **11** 2 (1967) 242-250 &lbrack;[doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full)&rbrack;
 
 which may be understood as the realization of the [[nerves]] of their [[topological groupoid|topological]] [[delooping groupoids]] $G \rightrightarrows \ast$,
 
@@ -1177,6 +1174,10 @@ On geometric realization of general [[Cech nerves]]:
 On geometric realization of simplicial spaces as a [[left Quillen functor]] on the [[Reedy model category]] of [[Top]]:
 
 * [[Lars Hesselholt]], *Reedy model structure on the category of simplicial spaces; geometric realization is a left Quillen functor*, Lecture 11 in [Algebraic Topology I](https://www.math.nagoya-u.ac.jp/~larsh/teaching/S2008/), 2008 ([pdf](https://www.math.nagoya-u.ac.jp/~larsh/teaching/S2008/lecture11.pdf), [[Hesselholt_RealSimpSpOnReedy.pdf:file]])
+
+See also:
+
+* Clément de Seguins Pazzis: *The geometric realization of a simplicial Hausdorff space is Hausdorff*, Topology and its Applications **160** (2013) 1621–1632 &lbrack;[doi:10.1016/j.topol.2013.06.007](https://doi.org/10.1016/j.topol.2013.06.007)&rbrack;
 
 
 ### (Non-)Compatibility with homotopy pullbacks
