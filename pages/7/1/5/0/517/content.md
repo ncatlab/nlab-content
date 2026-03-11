@@ -21,9 +21,9 @@ On [[simplicial objects]] in [[algebraic topology]] ([[simplicial homotopy theor
 
 * [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
-On [[infinite loop spaces]]:
+On [[iterated loop spaces]]:
 
-* {#May1972} [[Peter May]], _The geometry of iterated loop spaces_, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491)&rbrack;
 
 * [[Peter May]], _Infinite loop space theory_, Bull. Amer. Math. Soc. Volume 83, Number 4 (1977), 456-494. ([Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891))
 
