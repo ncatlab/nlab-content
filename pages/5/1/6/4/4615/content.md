@@ -46,9 +46,8 @@ As with simplicial objects in general, simplicial spaces may serve to model [[in
 
 ## References
 
-A standard textbook reference is chapter 11 of
 
-* {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* {#May72} [[Peter May]]; chapter 11 of: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
 
 [[!redirects simplicial topological spaces]]
