@@ -1,8 +1,16 @@
-__Anton Kapustin__ is a Russian mathematical physicist, now a Professor at Caltech University in USA. His works include the study of noncommutative analogues of ADHM construction, [[homological mirror symmetry]], derived categories of [[coherent sheaves]] on algebraic varieties, Landau-Ginzburg models, TQFT-s and Langlands duality.
+__Anton N. Kapustin__ is a Russian mathematical physicist, now a Professor at Caltech University in USA. His works include the study of noncommutative analogues of ADHM construction, [[homological mirror symmetry]], derived categories of [[coherent sheaves]] on algebraic varieties, Landau-Ginzburg models, TQFT-s and Langlands duality.
 
-* [homepage](https://antonkapustin.caltech.edu/) at Caltech
+* [institute page](https://antonkapustin.caltech.edu/) at Caltech
 
-* [wikipedia](http://en.wikipedia.org/wiki/Anton_Kapustin)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Anton_Kapustin)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=307960)
+
+* [inSpire page](https://inspirehep.net/authors/1003665)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ZtYnfsIAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
