@@ -336,7 +336,7 @@ On the [[Morava K-theory]] of iterated loop spaces of [[n-spheres]]:
 
 In relation to [[configuration spaces of points]]:
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491)&rbrack;
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. **21** (1973) 213-221. MR 0331377 &lbrack;[pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), [doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197)&rbrack;
 
