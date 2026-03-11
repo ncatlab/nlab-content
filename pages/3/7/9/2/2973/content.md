@@ -30,7 +30,7 @@ The notion also also makes sense as stated for [[locales]].  Where their theory 
 
 Write CGWH for the category of [[compactly generated topological spaces|compactly generated]] weakly Hausdorff topological spaces, and $CGH$ for compactly generated [[Hausdorff topological spaces]]. Both are [[convenient categories of topological spaces]] that both admit a [[homotopy hypothesis]]-comparison to [[simplicial sets]], but CGWH has a key further property:
 
->The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _The Geometry of Iterated Loop Spaces_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
+> The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _[The Geometry of Iterated Loop Spaces](#May72)_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
 
 ([[Peter May]], [MO answer, April 2015](http://mathoverflow.net/a/204221/))
 
@@ -48,7 +48,12 @@ as a more convenient setting than Steenrod's compactly generated Hausdorff space
 
 * [[André Henriques]] et al, _Why the “W” in CGWH (compactly generated weakly Hausdorff spaces)?_, [MO discussion](http://mathoverflow.net/q/47702/), 2010.
 
-A survey is in 
+See also:
+
+* {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) \[<a href="https://link.springer.com/book/10.1007/BFb0067491">doi:10.1007/BFb0067491</a>, scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)\]
+
+
+Survey:
 
 * {#Strickland} Neil Strickland, _The category of CGWH spaces_ (2009) (<a class='existingWikiWord' href='/nlab/files/StricklandCGHWSpaces.pdf' title='The category of CGWH spaces'>pdf</a>)
 
