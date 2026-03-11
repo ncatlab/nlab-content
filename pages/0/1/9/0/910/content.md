@@ -505,9 +505,9 @@ Review in this generality of CG weakly Hausdorff spaces:
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf), [[StricklandCGHWSpaces.pdf:file]])
 
-* {#Schwede12} [[Stefan Schwede]], Section A.2 of: _[[Symmetric spectra]]_ (2012)
+* {#Schwede12} [[Stefan Schwede]], Section A.2 of: _[[Symmetric spectra]]_ (2012) &lbrack;[pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf)&rbrack;
 
-* [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
+* [[Charles Rezk]], *Compactly Generated Spaces* (2018) &lbrack;[pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]]&rbrack;
 
 Brief review in preparation of the [[model structure on compactly generated topological spaces]]:
 
