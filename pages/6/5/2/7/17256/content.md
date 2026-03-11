@@ -1,13 +1,17 @@
 
-This page collects material related to the lecture notes
+This page is to record the the lecture notes
 
-* [[Stefan Schwede]], 
+* [[Stefan Schwede]]:
 
-  _Symmetric spectra_, 
+  \linebreak
+
+  **Symmetric Spectra**
+
+  \linebreak
 
   2012 
 
-  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+  [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf)
 
 on [[stable homotopy theory]] in terms of [[symmetric spectra]].
 
