@@ -90,13 +90,7 @@ For a [[principal connection]] $B\in\Omega^1_{conn}(P)$, one can consider the *i
 
 ## Related concepts
 
-* [[Yang-Mills instanton]]
-
-* [[Yang-Mills monopole]]
-
-* [[F-Yang-Mills equation]]
-
-* [[Bi-Yang-Mills equation]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
