@@ -6,7 +6,7 @@
 ## Idea
 
 
-[[supergravity]] in [[dimension]] 9
+[[supergravity]] in [[dimension]] 9, hence on a [[9-manifold]]
 
 ## Properties
 
