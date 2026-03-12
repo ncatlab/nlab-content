@@ -336,12 +336,11 @@ also
 
 * {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], _Eleven-dimensional supergravity on the mass shell in superspace_, Phys. Lett. , B91:384&#8211;386, 1980
 
-Discussion of possible deformations of the torsion constraint ([[M-theory]] corrections) includes
+Discussion of possible deformations of the torsion constraint ([[M-theory|M-theoretic]] [higher curvature corrections](D%3D11+N%3D1+supergravity#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity)):
 
-* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 ([arXiv:hep-th/0010042](http://arxiv.org/abs/hep-th/0010042))
+* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 \[<a hrf="http://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
 
-
-* [[Paul Howe]], [[Dimitrios Tsimpis]], _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129))
+* [[Paul Howe]], [[Dimitrios Tsimpis]]: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 \[<a href="http://doi.org/10.1088/1126-6708/2003/09/038"></a>, [arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129)\]
 
 ### For 10d heterotic supergravity
 
