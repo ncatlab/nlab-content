@@ -23,11 +23,7 @@
 
 ## Related entries
 
-* [[D=4 super Yang-Mills theory]]
-
-* [[D=5 super Yang-Mills theory]]
-
-* [[D=10 super Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
 * [[D=6 N=(1,0) SCFT]]
 
