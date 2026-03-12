@@ -49,11 +49,9 @@ The topological Yang-Mills action also appears in the [[generalized Chern-Simons
 
 ## Related concepts
 
+[[!include Yang-Mills theory -- table]]
+
 * [[theta angle]]
-
-* [[D=4 Yang-Mills theory]]
-
-* [[topologically twisted D=4 super Yang-Mills theory]]
 
 ## References
 
