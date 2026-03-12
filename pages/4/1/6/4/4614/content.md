@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -380,30 +379,265 @@ A recent paper treating the special case where $X_\bullet$ is the nerve of a [[t
 We discuss how geometric realization interacts with [[limits]] of simplicial topological spaces.
 
 #### Ordinary geometric realization
+ {#OrdinateRealizationPreservesFiniteLimits}
 
-+-- {: .num_prop #RealizationPreservesPullbacks}
-###### Proposition
-**(geometric realization prerserves pullbacks)** \linebreak
+The [[topological realization]] of [[simplicial object|simplicial]] [[compactly generated Hausdorff spaces]] [[preserved limit|preserves]] [[fiber products]]. The traditional reference for this claim is [May 1972 Cor 11.6](#May72). However, the actual proof is omitted there (on the pretext that it is "easy") and the role of the Hausdorffness assumption is not mentioned.
 
-In the category of [[compactly generated weak Hausdorff spaces]],
-geometric realization of simplicial spaces [[preserved limit|preserves]] [[pullbacks]]: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphisms]]
+We spell out a  proof, observe that it holds more generally, such as also in the context of [[D-topological spaces]], and clarify that the Hausdorff assumption is needed (only) on the base space. 
 
+So consider in the following a [[Cartesian closed category]], $\mathrm{cTop}$, of topological spaces, such as [[compactly generated topological space|compactly generated]] or [[Delta-generated topological space|Delta-generated]] ([[D-topological space|D-topologixal]]) spaces. In this category, consider a [[cospan]] [[diagram]] of [[simplicial objects]]
+\[
+  \label{TheCospanOfMaps}
+  \begin{array}{cccc}
+    X && && Y
+    \\
+    & 
+    \mathllap{_f}\searrow 
+    && 
+    \swarrow\mathrlap{_g}
+    \\
+    && 
+    B
+  \end{array}
+  \;\;\;
+  \in 
+  \mathrm{cTop}^{\Delta^{\mathrm{op}}}
+\]
+such that each $B_n$ is [[Hausdorff space|Hausdorff]], hence with [[closed subset|closed]] [[diagonal map|diagonal]] [[image]]:
+\[\label{ClosedDiagonalImage}
+  diag(B_n)
+    \xhookrightarrow{\phantom{-} clsd \phantom{-}}
+  B_n \times B_n
+  \mathrlap{\,.}
+\]
+
+We want to show that [[topological realization]]
+\[
+  \label{TopologicalRealization}
+  {\vert-\vert}
+  \,\colon\,
+  \mathrm{cTop}^{\Delta^{\mathrm{op}}}
+    \longrightarrow
+  \mathrm{cTop}
+\]
+[[preserved limit|preserves]] the [[fiber product]] of (eq:TheCospanOfMaps). We prove this as Prop. \ref{PreservationOfFiberProducts} below, after establishing a few lemmas.
+
+\begin{lemma}
+\label{OnDegreewiseClosedSubspaceInclusions}
+We have degreewise closed subspace inclusions
+  \[\label{DegreewiseClosedSubspaceInclusion}
+    (X \times_{B} Y)_n
+    \xhookrightarrow{\phantom{---}}
+    (X \times Y)_n
+  \]
+\end{lemma}
+\begin{proof} 
+By definition of the [[fiber product]], this [[subspace]] is the [[preimage]] under $f_n \times g_n$ of the [[diagonal map|diagonal]] [[image]] $\mathrm{diag}(B_n)$. The latter is [[closed subspace|closed]] by assumption (eq:ClosedDiagonalImage) and hence its [[preimage]] is [[closed subspace|closed]]:
 $$
-  {|X_\bullet|} \,\times_{|Y_\bullet|}\, {|Z_\bullet|}
+  \begin{array}{ccc}
+    X_n \times_{B_n} Y_n
+    &\xrightarrow{\phantom{----}}&
+    B_n
+    \\
+    \big\downarrow 
+      &^{\mathclap{_{(pb)}}}& 
+    \big\downarrow\mathrlap{^{diag}}
+    \\
+    X_n \times Y_n
+    &
+    \xrightarrow{ f_n \times g_n }
+    &
+    B_n \times B_n
+    \mathrlap{\,.}
+  \end{array}
+$$
+\end{proof}
+
+For any [[simplicial topological space|simplicial space]], denote its *[[latching object|latching spaces]]* by
+$$
+  L_n({-})
+  \coloneqq
+  \big(
+    (-)_n \times \partial \Delta^n
+  \big)
+  \cup
+  \big(
+    s\bracket({(-)_{n-1}})
+    \times \Delta^n
+  \big)
+  \mathrlap{\,,}
+$$
+where $s(-)$ denotes the joint image of all [[degeneracy maps]]. 
+\begin{lemma}
+We have closed subspace inclusions
+$$
+  L_n ( X \times_B Y )
+  \xhookrightarrow{\phantom{---}}
+  L_n ( X \times Y )
+  \mathrlap{\,.}
+$$
+\end{lemma}
+\begin{proof}
+Observe that this [[subspace]] is the [[intersection]]
+$$
+  L_n( X \times_B Y )
   \simeq
-  {|X_\bullet \,\times_{Y_\bullet}\, Z_\bullet|}
-  \,.
+  \big(
+    L_n( X \times Y )
+  \big)
+  \cap
+  \big(
+    ( X \times_B Y )_n \times \Delta^n
+  \big)
+  \mathrlap{\,.}
 $$
+Therefore the claim follows since $( X \times_B Y )_n \times \Delta^n$ is a closed subspace of $( X \times Y )_n \times \Delta^n$ by Lem. \ref{OnDegreewiseClosedSubspaceInclusions}.
+\end{proof}
 
-=--
+For any [[simplicial topological space|simplicial space]], denote by
+$$
+  \coprod_m (-)_m \times \Delta^m
+  \xrightarrow{\phantom{-} q \phantom{-}}
+  {\vert (-) \vert}
+$$
+the [[quotient]] [[coprojection]] to the [[topological realization]], and consider the corresponding [[filtered object|filtration]] stages
+$$
+  F_n{\vert (-) \vert}
+  \coloneqq
+  q \big( (-)_n \big)
+  \subset
+  {\vert (-) \vert}
+  \mathrlap{\,.}
+$$
+Observe that these form [[pushouts]]:
+$$
+  \begin{array}{ccc}
+    L_n(-)
+    &\longrightarrow&
+    F_{n-1} {\vert (-) \vert}
+    \\
+    \big\downarrow
+     &\mathclap{_{(po)}}&
+    \big\downarrow
+    \\
+    (-)_n \times \Delta^n
+    &\longrightarrow&
+    F_{n} {\vert (-) \vert}
+    \mathrlap{\,.}
+  \end{array}
+$$
+\begin{lemma}
+\label{FilterStageInclusionsAreClosed}
+The inclusions
+$$
+  F_n {\vert X \times_B Y \vert}
+  \xhookrightarrow{\phantom{---}}
+  F_n {\vert X \times Y \vert}
+$$
+are [[closed map|closed]].
+\end{lemma}
+\begin{proof}
+We proceed by [[induction]].
+For $n = 0$ this is (eq:DegreewiseClosedSubspaceInclusion).
+Now assume the claim holds holds for $n-1$. Considering a [[closed subset]] $C \subset F_n {\vert X \times_B Y \vert}$, we need to show that its [[image]] in $F_n {\vert X \times Y \vert}$ is [[closed subset|closed]]. Notice that a [[subset]] of a [[pushout]] is [[closed subset|closed]] iff its two [[preimages]] are [[closed subset|closed]]. So $C$ being [[closed subset|closed]] means that its [[preimages]] in $F_{n-1} {\vert X \times_B Y \vert}$ and in $(X \times_B Y )_n \times \Delta^n$ are [[closed subset|closed]], respectively. But both of these preimages have closed images in $F_{n-1}  {\vert X \times Y \vert}$ (by induction assumption) and in $(X \times Y)_n \times \Delta^n$ (by (eq:DegreewiseClosedSubspaceInclusion)), hence also the image of $C$ is closed, as claimed.
+\end{proof}
 
-This appears as [May 1972, Cor. 11.6](#May72). (The (weak) Hausdorff property is needed there to guarantee that the image of the diagonal of a space is closed, so that it follows that the fiber product, being a preimage of the image of a diagonal, is a closed subspace of the product and hence compatible with quotients.)
-See also the proof [here](geometric+realization#GeometricRealizationIsLeftExact) at *[[geometric realization]]*, that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]].
+\begin{lemma}
+  In the situation (eq:TheCospanOfMaps), 
+  the canonical map
+  \[
+    \label{RealizationOfFiberProductsIsSubspaceOfThatOfProduct}
+      {\vert
+        X \times_B Y
+      \vert}
+      \xhookrightarrow{\phantom{---}}
+      {\vert X \times Y \vert}
+  \]
+  is a [[subspace]] [[inclusion]]. 
+\end{lemma}
+\begin{proof}
+  Since this map is the [[colimit]] over the closed [[filtered object|filtration stages]] from Lem. \ref{FilterStageInclusionsAreClosed} it is itself closed. As a closed injection, it is a subspace inclusion (cf. [here](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings)). 
+\end{proof}
+
+\begin{proposition}
+  \label{PreservationOfFiberProducts}
+  [[topological realization|Topological realization]] in the situation (eq:TheCospanOfMaps) [[preserved limit|preserves]] the [[fiber product]]: 
+  $$
+    {\vert X \times_B F \vert}
+    \simeq
+    \vert X \vert 
+      \times_{\vert B \vert}
+    \vert Y \vert 
+    \mathrlap{\,.}
+  $$
+\end{proposition}
+\begin{proof}
+  [[functor|Functoriality]] of [[topological realization|realization]] gives a [[continuous|continuous]] comparison map:
+  $$
+    \big(
+      {\vert \mathrm{pr}_X \vert}
+      ,
+      {\vert \mathrm{pr}_Y \vert} 
+    \big)
+    \,\colon\,
+    {\vert X \times_B Y \vert}
+    \xrightarrow{\phantom{---}}
+    \vert X \vert
+      \times_{\vert B \vert}
+    \vert Y \vert
+    \mathrlap{\,.}
+  $$
+  Since we know that [[topological realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[fiber products]] (cf. [here](geometric realization#GeometricRealizationIsLeftExact)), this is a [[bijection]] on [[underlying sets]]. We need to show is that the [[inverse]] 
+  $
+    \big(
+      {\vert \mathrm{pr}_X \vert}
+      ,
+      {\vert \mathrm{pr}_Y \vert}
+    \big)^{-1}
+  $
+  is [[continuous map|continuous]].
+
+  This is equivalent to its [[composition|composite]]
+  $$
+      {\vert X \vert}
+        \times_{\vert B \vert}
+      {\vert Y \vert}
+      \xrightarrow{
+        \big(
+          {\vert \mathrm{pr}_X \vert}
+          ,
+          {\vert \mathrm{pr}_Y \vert}
+        \big)^{-1}        
+      }
+      {\vert X \times_B Y \vert}
+      \xhookrightarrow{\phantom{---}}
+      {\vert X \times Y \vert}
+  $$
+  with the [[subspace]] [[inclusion]] (eq:RealizationOfFiberProductsIsSubspaceOfThatOfProduct) being [[continuous map|continuous]]. But that's the case, because this is the [[restriction]] along the [[subspace]] [[inclusion]] 
+  $ 
+    {\vert X \vert}
+      \times_{\vert B \vert}
+    {\vert Y \vert}
+    \hookrightarrow
+    {\vert X \times Y \vert}
+  $
+  of the [[homeomorphism]]
+  $$
+    {\vert X \vert}
+    \times
+    {\vert Y \vert}
+    \xrightarrow{\phantom{---}}
+    {\vert X \times Y \vert}
+  $$
+  given by the [[Cartesian closed category|Cartesian closure]] of the ambient category.
+\end{proof}
+
+
 
 It follows that:
 
 \begin{prop}\label{GeometricRealizationPreservesFiniteLimits}
-  Geometric realization of simplicial compactly-generated topological spaces preserves all [[finite limits]].
+  [[topological realization|Topological realization]] of [[simplicial topological space|simplicial]] [[compactly generated topological space|compactly-generated]]/[[Delta-generated topological space|Delta-generated]] [[Hausdorff spaces]] [[preserved limit|preserves]] [[finite limits]].
 \end{prop}
 \begin{proof}
 
@@ -412,7 +646,7 @@ It follows that:
 
   1. the [[terminal object]] is preserved, which here is evidently the case;
 
-  1. [[pullbacks]] are preserved, which is the case by Prop. \ref{RealizationPreservesPullbacks}.
+  1. [[pullbacks]] are preserved, which is the case by Prop. \ref{PreservationOfFiberProducts}.
 
 \end{proof}
 
