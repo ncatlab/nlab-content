@@ -153,7 +153,7 @@ For $0\leq d_{F'}\leq\frac{1}{6}$, every non-flat $F$-Yang-Mills connection over
 
 ## Related concepts
 
-* [[Bi-Yang-Mills equation]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
