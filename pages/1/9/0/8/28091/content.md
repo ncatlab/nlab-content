@@ -30,18 +30,15 @@ Spin^\mathrm{c}(6)
 $$
 With $U(4)\cong\big(SU(4)\times U(1)\big)/\mathbb{Z}_4$ one has a [[double cover]] $Spin^\mathrm{c}(6)\twoheadrightarrow U(4)$.
 
+## Related concepts
+
+[[!include Seiberg-Witten theory -- table]]
+
 ## References 
 
 * {#DeğirmenciBulut10} [[Nedim Değirmenci]] and [[Şenay Karapazar Bulut]], _Seiberg-Witten-like equations on 6-dimensional SU(3)-manifolds _ (2010) &lbrack;[pdf](https://www.emis.de/ft/8794)&rbrack;
 
 * {#Tanaka14} [[Yuuji Tanaka]], _Seiberg-Witten type equations on compact symplectic 6-manifolds_ (2014) &lbrack;[arXiv:1407.1934](https://arxiv.org/abs/1407.1934)&rbrack;
-
-## Related concepts
-
-* [[D=7 Seiberg-Witten theory]] (on [[G₂-manifolds]])
-* [[D=8 Seiberg-Witten theory]] (on [[Spin(7)-manifolds]])
-* [[pseudo-Riemannian Seiberg-Witten theory]]
-* [[quaternionic Seiberg-Witten theory]]
 
 [[!redirects D=6 SW theory]]
 [[!redirects D = 6 Seiberg-Witten theory]]
