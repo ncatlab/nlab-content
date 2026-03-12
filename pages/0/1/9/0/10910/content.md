@@ -59,6 +59,10 @@ $$
 
 The [[KK-compactification]] of $D=10$ super-Yang-Mills to the point is a [[theory (physics)|theory]] whose [[field (physics)|fields]] are simply elements of the gauge [[Lie algebra]], hence [[matrices]] if we have a [[matrix Lie algebra]]. The theory defined by this reduction is called the _[[IKKT matrix model]]_.
 
+## Related concepts
+
+[[!include Yang-Mills theory -- table]]
+
 ## References
 
 
