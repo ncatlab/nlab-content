@@ -23,7 +23,7 @@
 
 ## Idea
 
-$N=1$ [[supergravity]] in $d = 11$.
+$N=1$ [[supergravity]] in $d = 11$, hence on an [[11-manifold]].
 
 > for the moment see the respective section at [[D'Auria-Fre formulation of supergravity]]
 
