@@ -128,7 +128,8 @@ $$
 
 ## Related entries
 
-* [[Yang-Mills flow]]
+[[!include Yang-Mills theory -- table]]
+
 * [[Seiberg-Witten flow]]
 
 ## References
