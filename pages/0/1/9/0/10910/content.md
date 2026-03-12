@@ -20,7 +20,7 @@
 
 ## Idea
 
-[[super Yang-Mills theory]] in [[spacetime]] [[dimension]] 10.
+[[super Yang-Mills theory]] in [[spacetime]] [[dimension]] 10, hence on a [[10-manifold]].
 
 ## Properties
 
