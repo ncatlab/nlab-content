@@ -14,19 +14,7 @@
 
 ## Related concepts
 
-* [[D=4 Yang-Mills theory]]
-
-* [[super Yang-Mills theory]]
-
-  * [[N=2 D=4 super Yang-Mills theory]]
-
-  * [[N=4 D=3 super Yang-Mills theory]]
-
-  * [[N=4 D=4 super Yang-Mills theory]] 
-
-  * [[D=5 super Yang-Mills theory]]
-
-  * [[topologically twisted D=4 super Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
 * [[geometric engineering of quantum field theory]]
 
