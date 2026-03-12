@@ -24,7 +24,7 @@
 
 ## Idea
 
-The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7.
+The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7, hence on a [[7-manifold]].
 
 ## Examples
 
