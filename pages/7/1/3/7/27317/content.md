@@ -153,8 +153,7 @@ Let $(A,\Phi)$ be a weakly stable YMH pair on $S^n$.
 
 ## See also
 
-* [[stable Yang-Mills connection]]
-* [[Yang-Mills-Higgs equations]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
