@@ -26,6 +26,10 @@
 
 The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimension]] 3 and with $\mathcal{N}=1$ [[number of supersymmetries]].
 
+## Related concepts
+
+[[!include Yang-Mills theory -- table]]
+
 ## References
 
 ### General
