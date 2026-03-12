@@ -54,7 +54,7 @@ a [[homotopy]] between their classifying maps $M\rightarrow K(\mathbb{Z}_2,9)$ i
 
 * {#Sati14} [[Hisham Sati]], _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
 
-[[!redirects 2-Orientations]]
+[[!redirects 2-Orientation]]
 [[!redirects 2-orientations]]
 [[!redirects 2-Orientations]]
 
