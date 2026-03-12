@@ -18,7 +18,7 @@
 
 ## Idea
 
-An _11-manifold_ is a [[manifold]] of [[dimension]] 11. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].)
+An _15-manifold_ is a [[manifold]] of [[dimension]] 15. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].)
 
 ## Examples
 
