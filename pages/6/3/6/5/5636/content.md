@@ -25,15 +25,7 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 ## Related concepts
 
-* [[D=6 Seiberg-Witten theory]]
-
-* [[D=7 Seiberg-Witten theory]] (on [[G₂-manifolds]])
-
-* [[D=8 Seiberg-Witten theory]] (on [[Spin(7)-manifolds]])
-
-* [[quaternionic Seiberg-Witten theory]]
-
-* [[pseudo-Riemannian Seiberg-Witten theory]]
+[[!include Seiberg-Witten theory -- table]]
 
 * [[N=2 D=4 super Yang-Mills theory]]
 
