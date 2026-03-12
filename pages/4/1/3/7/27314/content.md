@@ -272,9 +272,7 @@ For a [[principal connection]] $B\in\Omega^1_{conn}(P)$ and a [[smooth section]]
 
 ## Related entries
 
-* [[stable Yang-Mills-Higgs pair]]
-
-* [[Einstein-Yang-Mills-Dirac-Higgs theory]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
