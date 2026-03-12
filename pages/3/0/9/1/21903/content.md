@@ -21,7 +21,7 @@
 
 ## Idea
 
-[[Supersymmetry]] in total [[spacetime]] [[dimension]] 14, of interest for [[spacetime signature]] $11+3$, hence super-extending [[Spin(11,3)]].
+[[Supersymmetry]] in total [[spacetime]] [[dimension]] 14, hence on a [[14-manifold]], of interest for [[spacetime signature]] $11+3$, hence super-extending [[Spin(11,3)]].
 
 ## References
 
