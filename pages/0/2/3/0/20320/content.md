@@ -1,7 +1,7 @@
 
-> This article is about the notion of multiverse in [[set theory]]. For other notions of multiverse, see [[multiverse]]. 
+> This entry is about the notion in [[set theory]]. For other notions of multiverse, see at *[[multiverse]]*. 
 
-----
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,10 +13,9 @@
 =--
 =--
 
-# The set-theoretic multiverse
 
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -39,6 +38,8 @@ The set-theoretic multiverse is at least informally analogous to such categorica
 ## References
 
 * {#Hamkins12} [[Joel David Hamkins]]: *The set-theoretic multiverse*, Review of Symbolic Logic **5** 3 (2012) 416-449 &lbrack;[arXiv:1108.4223](https://arxiv.org/abs/1108.4223), [doi:10.1017/S1755020311000359](https://doi.org/10.1017/S1755020311000359)&rbrack;
+
+* [[Claudio Ternullo]],l: *Maddy on the Multiverse*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019) &lbrack;[doi:10.1007/978-3-030-15655-8_3](https://doi.org/10.1007/978-3-030-15655-8_3), [pdf](https://www.claudioternullo.com/_files/ugd/8787da_7474d586e9034716b2eea201b3e00191.pdf)&rbrack;
 
 
 * [n-Cafe blog discussion](https://golem.ph.utexas.edu/category/2011/08/the_settheoretic_multiverse.html)
