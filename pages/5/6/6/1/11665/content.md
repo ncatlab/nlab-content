@@ -23,7 +23,7 @@
 
 ## Idea
 
-The most basic version of [[higher dimensional Chern-Simons theory]] over a ([[compact topological space|compact]]) [[smooth manifold]] $X$ of [[dimension]] 11 has as [[field (physics)|fields]] [[cocycles]] $\hat D \colon X \to \mathbf{B}^5 U(1)_{conn}$ in degree-5 [[ordinary cohomology]] and whose [[action functional]] is given by the [[fiber integration in ordinary differential cohomology]] of the [[cup product in ordinary differential cohomology]] of such a field with itself:
+The most basic version of [[higher dimensional Chern-Simons theory]] over a ([[compact topological space|compact]]) [[smooth manifold|smooth]] [[11-manifold]] $X$ has as [[field (physics)|fields]] [[cocycles]] $\hat D \colon X \to \mathbf{B}^5 U(1)_{conn}$ in degree-5 [[ordinary cohomology]] and whose [[action functional]] is given by the [[fiber integration in ordinary differential cohomology]] of the [[cup product in ordinary differential cohomology]] of such a field with itself:
 
 $$
   \hat D \mapsto \exp\left(\tfrac{i}{\hbar}\int_X \hat D \cup \hat D\right)
