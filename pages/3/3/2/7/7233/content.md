@@ -368,7 +368,7 @@ Codimension-4 ADE singularities in $G_2$-manifolds are discussed by [Acharya & G
 +-- {: .num_prop }
 ###### Proposition
 
-A 7-manifold admits a $G_2$-structure, def. \ref{G2Structure}, precisely if it admits an [[orientation]] and a [[spin structure]].
+A [[7-manifold]] admits a $G_2$-structure, def. \ref{G2Structure}, precisely if it admits an [[orientation]] and a [[spin structure]].
 
 =--
 
