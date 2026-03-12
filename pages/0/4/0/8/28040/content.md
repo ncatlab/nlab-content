@@ -122,23 +122,7 @@ $$
 
 ## Related concepts
 
-Particular [[principal bundles]]:
-
-* [[double cover]] (principal O(1)-bundle)
-* [[principal O(2)-bundle]]
-* [[principal U(1)-bundle]] (principal SO(2)-bundle)
-* **principal U(2)-bundle** (principal $Spin^\mathrm{c}(3)$-bundle, principal $Spin^\mathrm{h}(2)$-bundle)
-* [[principal U(3)-bundle]]
-* [[principal SO(3)-bundle]]
-* [[principal SO(4)-bundle]]
-* [[principal SO(5)-bundle]]
-* [[principal SO(6)-bundle]]
-* [[principal SO(7)-bundle]]
-* [[principal SO(8)-bundle]]
-* [[principal SU(2)-bundle]] (principal Sp(1)-bundle, principal Spin(3)-bundle)
-* [[principal SU(3)-bundle]]
-* [[principal SU(4)-bundle]] (principal Spin(6)-bundle)
-* [[principal Sp(2)-bundle]] (principal Spin(5)-bundle)
+[[!include particular principal bundles -- table]]
 
 ## References
 
@@ -161,12 +145,12 @@ in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/
 [[!redirects Spinc(3)-principal bundles]]
 
 [[!redirects principal Spin^c(3)-bundle]]
- [[!redirects principal Spin^c(3)-bundles]]
+[[!redirects principal Spin^c(3)-bundles]]
 [[!redirects Spin^c(3)-principal bundle]]
 [[!redirects Spin^c(3)-principal bundles]]
 
 [[!redirects principal Spinᶜ(3)-bundle]]
- [[!redirects principal Spinᶜ(3)-bundles]]
+[[!redirects principal Spinᶜ(3)-bundles]]
 [[!redirects Spinᶜ(3)-principal bundle]]
 [[!redirects Spinᶜ(3)-principal bundles]]
 
@@ -176,11 +160,11 @@ in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/
 [[!redirects Spinh(2)-principal bundles]]
 
 [[!redirects principal Spin^h(2)-bundle]]
- [[!redirects principal Spin^h(2)-bundles]]
+[[!redirects principal Spin^h(2)-bundles]]
 [[!redirects Spin^h(2)-principal bundle]]
 [[!redirects Spin^h(2)-principal bundles]]
 
 [[!redirects principal Spinʰ(2)-bundle]]
- [[!redirects principal Spinʰ(2)-bundles]]
+[[!redirects principal Spinʰ(2)-bundles]]
 [[!redirects Spinʰ(2)-principal bundle]]
 [[!redirects Spinʰ(2)-principal bundles]]
