@@ -447,7 +447,7 @@ The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequ
 ### Definite forms
  {#DefiniteForms}
 
-The concept of extending a closed [[differential form]] defined on a [[Cartesian space]] $\mathbb{R}^n$ to a _[[definite form]]_ on an $n$-dimensional manifold is familiar from [[special holonomy]] manifolds. For instance a definite globalization of the [[associative 3-form]] on $\mathbb{R}^7$ to a 7-manifold induces and is induced by a [[G₂-structure]]. But by the discussion at _[[geometry of physics -- prequantum geometry]]_, whenever we see a closed differential form we have to ask whether it is the [[curvature]] of a [[cocycle]] in [[differential cohomology]], hence we have to ask for a higher [[prequantization]]. Here we consider the concept of [[definite forms]] prequantized to such _[[definite globalizations of WZW terms]]_. 
+The concept of extending a closed [[differential form]] defined on a [[Cartesian space]] $\mathbb{R}^n$ to a _[[definite form]]_ on an $n$-dimensional manifold is familiar from [[special holonomy]] manifolds. For instance a definite globalization of the [[associative 3-form]] on $\mathbb{R}^7$ to a [[7-manifold]] induces and is induced by a [[G₂-structure]]. But by the discussion at _[[geometry of physics -- prequantum geometry]]_, whenever we see a closed differential form we have to ask whether it is the [[curvature]] of a [[cocycle]] in [[differential cohomology]], hence we have to ask for a higher [[prequantization]]. Here we consider the concept of [[definite forms]] prequantized to such _[[definite globalizations of WZW terms]]_. 
 
 
 +-- {: .num_prop #FunctionsOnTotalSpacesAreSectionsOfFunctionBundle}
