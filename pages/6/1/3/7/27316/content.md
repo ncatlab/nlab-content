@@ -174,7 +174,7 @@ Open problems about Yang-Mills-unstable manifolds include:
 
 ## See also
 
-* [[stable Yang-Mills-Higgs pair]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
