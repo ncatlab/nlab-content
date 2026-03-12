@@ -60,17 +60,13 @@ where
 
 ## Related concepts
 
+[[!include Yang-Mills theory -- table]]
+
 * [[charged black hole]]
 
 * [[Einstein-Hilbert action]]
 
 * [[Einstein-Maxwell theory]]
-
-* **Einstein-Yang-Mills theory**
-
-* [[Einstein-Yang-Mills-Dirac theory]]
-
-* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 [[!include standard model of fundamental physics - table]]
 
