@@ -246,6 +246,8 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
 ## Related concepts
 
+[[!include Yang-Mills theory -- table]]
+
 * [[theta vacuum]], [[instanton sea]]
 
 * [[instanton]]
