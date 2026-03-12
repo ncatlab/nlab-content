@@ -49,17 +49,7 @@ A [[topological twist]] of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Wit
 
 ## Related concepts
 
-* [[D=3 Yang-Mills theory]]
-
-* [[3d superconformal gauge field theory]]
-
-  * [[D=3 N=4 super Yang-Mills theory]]
-
-* [[3d-3d correspondence]]
-
-* [[N=2 D=4 super Yang-Mills theory]]
-
-* [[N=4 D=4 super Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
