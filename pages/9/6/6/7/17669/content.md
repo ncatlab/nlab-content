@@ -5,7 +5,7 @@
 
 ## Idea
 
-[[super Yang-Mills theory]] in [[dimension]] $7 = 6+1$.
+[[super Yang-Mills theory]] in [[dimension]] $7 = 6+1$, hence on a [[7-manifold]].
 
 The [[worldvolume]] theory of [[Chan-Paton gauge fields]] on [[D6-branes]].
 
