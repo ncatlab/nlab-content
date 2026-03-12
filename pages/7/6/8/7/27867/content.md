@@ -96,7 +96,8 @@ $$
 
 ## Related entries
 
-* [[Yang-Mills-Higgs flow]]
+[[!include Yang-Mills theory -- table]]
+
 * [[Seiberg-Witten flow]]
 
 ## References
