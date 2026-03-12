@@ -22,18 +22,11 @@
 
 ## Related entries
 
-* [[D=3 super Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
 * [[D=3 Yang-Mills-Chern-Simons theory]]
 
 * [[Maxwell-Chern-Simons theory]]
-
-* [[D=2 Yang-Mills theory]]
-
-* [[D=4 Yang-Mills theory]]
-
-* [[D=5 Yang-Mills theory]]
-
 
 ## References
  {#References}
@@ -67,8 +60,7 @@ Further discussion:
 
 
 [[!redirects D=3 Yang-Mills theories]]
-
-[[!rediects 3D Yang-Mills theory]]
-[[!rediects 3D Yang-Mills theories]]
+[[!redirects 3D Yang-Mills theory]]
+[[!redirects 3D Yang-Mills theories]]
 
 
