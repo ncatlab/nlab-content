@@ -26,10 +26,7 @@ For a [[Spin(7)-manifold]], the [[structure group]] of its [[orientable]] [[tang
 
 ## Related concepts
 
-* [[D=6 Seiberg-Witten theory]]
-* [[D=7 Seiberg-Witten theory]] (on [[G₂-manifolds]])
-* [[pseudo-Riemannian Seiberg-Witten theory]]
-* [[quaternionic Seiberg-Witten theory]]
+[[!include Seiberg-Witten theory -- table]]
 
 ## References
 
