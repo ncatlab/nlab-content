@@ -95,6 +95,8 @@ are a *Seiberg-Witten flow*.
 
 ## Related entries
 
+[[!include Seiberg-Witten theory -- table]]
+
 * [[Yang-Mills flow]]
 * [[Yang-Mills-Higgs flow]]
 
