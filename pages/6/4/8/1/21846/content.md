@@ -6,7 +6,7 @@
 
 * [[MFr]]
 
-* [[MO]], [[MSO]], [[MSpin]], [[MSpin^c|MSpin<sup><i>c</i></sup>]], [[MSpin^h|MSpin<sup><i>h</i></sup>]] [[MString]], [[MFivebrane]], [[MNinebrane]] (see also [[spin bordism]], [[spinᶜ bordism]], [[spinʰ bordism]], [[string bordism]], [[fivebrane bordism]], [[ninebrane bordism]])
+* [[MO]], [[MSO]], [[MSpin]], [[MSpin^c|MSpin<sup><i>c</i></sup>]], [[MSpin^h|MSpin<sup><i>h</i></sup>]] [[MString]], [[MFivebrane]], [[M2-Orient]], [[M2-Spin]], [[MNinebrane]] (see also [[spin bordism]], [[spinᶜ bordism]], [[spinʰ bordism]], [[string bordism]], [[fivebrane bordism]], [[2-oriented bordism]], [[2-spin bordism]], [[ninebrane bordism]])
 
 * [[MU]], [[MSU]], [[Ravenel's spectrum|MΩΩSU(n)]]
 
