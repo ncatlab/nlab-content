@@ -189,6 +189,8 @@ $$
 
 ## Related entries
 
+[[!include Seiberg-Witten theory -- table]]
+
 * [[Yang-Mills moduli space]] (instanton moduli space)
 
 ## References
