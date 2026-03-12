@@ -34,19 +34,11 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 
 ## Related entries
 
-* [[D=4 super Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
-* $D=5$ super Yang-Mills theory
-
-  * [[D=5 Yang-Mills theory]]
-
-  * [[D=5 Maxwell theory]]
+* [[D=5 Maxwell theory]]
   
-  * [[D=5 Einstein-Maxwell theory]]
-
-* [[D=6 super Yang-Mills theory]]
-
-* [[D=10 super Yang-Mills theory]]
+* [[D=5 Einstein-Maxwell theory]]
 
 [[!include superconformal symmetry -- table]]
 
