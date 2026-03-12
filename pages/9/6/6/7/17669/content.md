@@ -9,6 +9,10 @@
 
 The [[worldvolume]] theory of [[Chan-Paton gauge fields]] on [[D6-branes]].
 
+## Related concepts
+
+[[!include Yang-Mills theory -- table]]
+
 ## References
 
 * Christoph L&#252;deling, _Seven-Dimensional Super-Yang-Mills Theory in $N=1$ Superfields_ ([arXiv:1102.0285](http://arxiv.org/abs/1102.0285))
