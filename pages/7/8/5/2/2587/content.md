@@ -214,3 +214,5 @@ For relation to [[conformal nets]] see
 * Bas Janssens, _Notes on Defects & String Group_ ([pdf](http://www.bjadres.nl/WorkInProgress/Defect&String.pdf))
 
 [[!redirects String group]]
+[[!redirects string groups]]
+[[!redirects String groups]]
