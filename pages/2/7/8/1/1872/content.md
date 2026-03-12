@@ -59,15 +59,11 @@ As a [[nonabelian cohomology|nonabelian]] [[Čech cohomology|Čech cocycle]] the
 
 ## Related entries
 
+[[!include Yang-Mills theory -- table]]
+
 * [[gauge field]]
 
 * [[gauge theory]]
-
-* [[Yang-Mills theory]]
-
-* [[Yang-Mill equation]]
-
-* [[Yang-Mills instanton]]
 
 
 [[!redirects Yang--Mills field]]
