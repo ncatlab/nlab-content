@@ -8,20 +8,20 @@ Discussion of [[higher curvature corrections]] to [[11-dimensional supergravity]
 
 * [[Arkady Tseytlin]], _$R^4$ terms in 11 dimensions and conformal anomaly of (2,0) theory_, Nucl. Phys. B584: 233-250, 2000 ([arXiv:hep-th/0005072](https://arxiv.org/abs/hep-th/0005072))
 
+#### Via relaxed torsion constraints
+
+Via relaxed [[superspace]] [[torsion constraints in supergravity|torsion constraints]]:
+
+* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 \[<a hrf="http://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
+
+* [[Paul Howe]], [[Dimitrios Tsimpis]]: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 \[<a href="http://doi.org/10.1088/1126-6708/2003/09/038"></a>, [arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129)\]
+
 #### Via 11d superspace cohomology
 
 Via 11d [[superspace]]-cohomology (or mostly):
 
 
-* [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ ([arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182))
-
-* H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019, 2004 ([arXiv:hep-th/0312002](https://arxiv.org/abs/hep-th/0312002))
-
-  (specifically for [[M-theory on G₂-manifolds]])
-
-* H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075, 2005 ([arXiv:hep-th/0410176](https://arxiv.org/abs/hep-th/0410176))
-
-  (specifically for [[M-theory on G₂-manifolds]])
+* [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ \[<a href="https://arxiv.org/abs/hep-th/0010182">arXiv:hep-th/0010182</a>\]
 
 * [[Paul S. Howe]], [[Dimitrios Tsimpis]], *On higher-order corrections in M theory*,  JHEP 0309 (2003) 038 \[<a href="https://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129)\]
 
@@ -30,6 +30,12 @@ Via 11d [[superspace]]-cohomology (or mostly):
 * {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_, contribution to *[Deserfest: A Celebration of the Life and Works of Stanley Deser](https://inspirehep.net/conferences/976239)* (2004) 137-149 \[<a href="https://inspirehep.net/literature/657136">inspire:657136</a>, [arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177)\]
 
 * {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], *Supersymmetric Corrections to Eleven-Dimensional Supergravity*, JHEP 0505:052 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/05/052">doi;10.1088/1126-6708/2005/05/052</a>, [arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)\]
+
+* H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019 (2004) \[<a href="https://arxiv.org/abs/hep-th/0312002">arXiv:hep-th/0312002</a>\]
+  > (specifically for [[M-theory on G₂-manifolds]])
+
+* H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075 (2005) \[<a href="https://arxiv.org/abs/hep-th/0410176">arXiv:hep-th/0410176</a>\]
+  > (specifically for [[M-theory on G₂-manifolds]])
 
 * [[Yoshifumi Hyakutake]], Sachiko Ogushi: *$R^4$ Corrections to Eleven Dimensional Supergravity via Supersymmetry*, Phys. Rev. D **74** (2006) 025022 \[<a href="https://doi.org/10.1103/PhysRevD.74.025022">doi:10.1103/PhysRevD.74.025022</a>, [arXiv:hep-th/0508204](https://arxiv.org/abs/hep-th/0508204)\]
 
@@ -55,7 +61,7 @@ Via analysis of would-be [[superparticle]] [[scattering amplitudes]] on [[D=11 s
 
 Via [[geodesic]] motion on the [[coset space]] of the [[U-duality]] [[Kac-Moody group]] [[E10|$E_{10}$]] by its "maximal compact" subgroup $K(E_{10})$:
 
-* [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 &lbrack;[arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153), [doi:10.1088/0264-9381/22/14/003](https://doi.org/10.1088/0264-9381/22/14/003)&rbrack;
+* [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 \[<a href="https://doi.org/10.1088/0264-9381/22/14/003">doi:10.1088/0264-9381/22/14/003</a>, [arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153)\]
   > (relating to [[higher curvature corrections]])
 
 
@@ -85,7 +91,7 @@ See also:
 
 From the [[ABJM  model]] for the [[M2-brane]]:
 
-* Damon J. Binder, [[Shai Chester]], Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ &lbrack;[arXiv:1808.10554](https://arxiv.org/abs/1808.10554)&rbrack;
+* Damon J. Binder, [[Shai Chester]], Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_, J. High Energ. Phys. **2020** 52 (2020) \[<a href="https://doi.org/10.1007/JHEP04(2020)052">doi:10.1007/JHEP04(2020)052</a>, [arXiv:1808.10554](https://arxiv.org/abs/1808.10554)\]
 
 In terms of [[D=4 supergravity]]:
 
