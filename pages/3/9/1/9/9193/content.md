@@ -34,11 +34,11 @@ The [[theory (physics)|theory]] in [[physics]] which describes the fundamental p
 
 ## Related concepts
 
+[[!include Yang-Mills theory -- table]]
+
 * [[Einstein-Hilbert action]]
 
 * [[Einstein-Maxwell theory]]
-
-* [[Einstein-Yang-Mills theory]]
 
 * [[standard model of particle physics]]
 
