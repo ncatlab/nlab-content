@@ -81,7 +81,7 @@ Yang-Mills connections are weakly Bi-Yang-Mills connections.
 
 ## Related concepts
 
-* [[F-Yang-Mills equation]]
+[[!include Yang-Mills theory -- table]]
 
 ## References
 
