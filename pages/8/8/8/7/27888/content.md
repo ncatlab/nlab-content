@@ -118,6 +118,8 @@ $$
 
 ## Related entries
 
+[[!include Yang-Mills theory -- table]]
+
 * [[Seiberg-Witten moduli space]] (monopole moduli space)
 
 ## References
