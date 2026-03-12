@@ -52,30 +52,21 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## Related concepts
 
-* [[D=4 Yang-Mills theory]]
+[[!include Yang-Mills theory -- table]]
 
 * [[quiver gauge theory]], [[fractional D-brane]]
 
-* [[super Yang-Mills theory]]
+* [[chiral ring]], [[quantum cohomology]]
 
-  * [[N=4 D=4 super Yang-Mills theory]]
+* [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
 
-  * [[N=4 D=3 super Yang-Mills theory]]
-
-  * [[topologically twisted D=4 super Yang-Mills theory]]
-
-    * [[chiral ring]], [[quantum cohomology]]
-
-  * [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
-
-  * [[AGT correspondence]]  
+* [[AGT correspondence]]  
 
 * [[spectral network]]
 
 * [[geometric engineering of quantum field theory]]
 
 [[!include superconformal symmetry -- table]]
-
 
 ## References
 
