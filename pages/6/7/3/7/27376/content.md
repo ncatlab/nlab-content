@@ -53,6 +53,10 @@ Review of [[fractional quantum Hall systems]]:
 
 * [[Zlatko Papić]], [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
 
+On [collective excitations](quantum+Hall+effect#CollectiveExcitations) of [[FQH liquids]] on the [[2-sphere]]:
+
+* Rakesh K. Dora, [[Ajit C. Balram]]: *Static structure factor and the dispersion of the Girvin-MacDonald-Platzman density mode for fractional quantum Hall fluids on the Haldane sphere*, Phys. Rev. B **111** (2025) 115132 &lbrack;[arXiv:2410.00165](https://arxiv.org/abs/2410.00165), [doi:10.1103/PhysRevB.111.115132](https://doi.org/10.1103/PhysRevB.111.115132)&rbrack;
+
 
 
 category: people
