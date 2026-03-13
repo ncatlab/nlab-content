@@ -5,257 +5,164 @@
 
 ***
 
-The [[topological realization]] of [[simplicial object|simplicial]] [[compactly generated Hausdorff spaces]] [[preserved limit|preserves]] [[fiber products]]. The traditional reference for this claim is [May 1972 Cor 11.6](#May72). However, the actual proof is omitted there (on the pretext that it is "easy") and the role of the Hausdorffness assumption is not mentioned.
+Consider a [[path-connected topological space]] $\mathcal{A}$ admitting the [[structure]] of a [[CW-complex]].
 
-We spell out a  proof, observe that it holds more generally, such as also in the context of [[D-topological spaces]], and clarify that the Hausdorff assumption is needed (only) on the base space. 
-
-So consider in the following a [[Cartesian closed category]], $\mathrm{cTop}$, of topological spaces, such as [[compactly generated topological space|compactly generated]] or [[Delta-generated topological space|Delta-generated]] ([[D-topological space|D-topologixal]]) spaces. In this category, consider a [[cospan]] [[diagram]] of [[simplicial objects]]
-\[
-  \label{TheCospanOfMaps}
-  \begin{array}{cccc}
-    X && && Y
-    \\
-    & 
-    \mathllap{_f}\searrow 
-    && 
-    \swarrow\mathrlap{_g}
-    \\
-    && 
-    B
-  \end{array}
-  \;\;\;
-  \in 
-  \mathrm{cTop}^{\Delta^{\mathrm{op}}}
-\]
-such that each $B_n$ is [[Hausdorff space|Hausdorff]], hence with [[closed subset|closed]] [[diagonal map|diagonal]] [[image]]:
-\[\label{ClosedDiagonalImage}
-  diag(B_n)
-    \xhookrightarrow{\phantom{-} clsd \phantom{-}}
-  B_n \times B_n
-  \mathrlap{\,.}
-\]
-
-We want to show that [[topological realization]]
-\[
-  \label{TopologicalRealization}
-  {\vert-\vert}
-  \,\colon\,
-  \mathrm{cTop}^{\Delta^{\mathrm{op}}}
-    \longrightarrow
-  \mathrm{cTop}
-\]
-[[preserved limit|preserves]] the [[fiber product]] of (eq:TheCospanOfMaps). We prove this as Prop. \ref{PreservationOfFiberProducts} below, after establishing a few lemmas.
-
-\begin{lemma}
-\label{OnDegreewiseClosedSubspaceInclusions}
-We have degreewise closed subspace inclusions
-  \[\label{DegreewiseClosedSubspaceInclusion}
-    (X \times_{B} Y)_n
-    \xhookrightarrow{\phantom{---}}
-    (X \times Y)_n
-  \]
-\end{lemma}
-\begin{proof} 
-By definition of the [[fiber product]], this [[subspace]] is the [[preimage]] under $f_n \times g_n$ of the [[diagonal map|diagonal]] [[image]] $\mathrm{diag}(B_n)$. The latter is [[closed subspace|closed]] by assumption (eq:ClosedDiagonalImage) and hence its [[preimage]] is [[closed subspace|closed]]:
+Fixing any [[base points]] $0 \in \mathcal{A}$ and $0 \in S^1$,
+we will be concerned with the *[[free loop space]]*
 $$
-  \begin{array}{ccc}
-    X_n \times_{B_n} Y_n
-    &\xrightarrow{\phantom{----}}&
-    B_n
-    \\
-    \big\downarrow 
-      &^{\mathclap{_{(pb)}}}& 
-    \big\downarrow\mathrlap{^{diag}}
-    \\
-    X_n \times Y_n
-    &
-    \xrightarrow{ f_n \times g_n }
-    &
-    B_n \times B_n
-    \mathrlap{\,.}
-  \end{array}
-$$
-\end{proof}
-
-For any [[simplicial topological space|simplicial space]], denote its *[[latching object|latching spaces]]* by
-$$
-  L_n({-})
+  \mathcal{L}
+  \mathcal{A}
   \coloneqq
-  \big(
-    (-)_n \times \partial \Delta^n
-  \big)
-  \cup
-  \big(
-    s\bracket({(-)_{n-1}})
-    \times \Delta^n
-  \big)
-  \mathrlap{\,,}
+  \mathrm{Map}({
+    S^1, 
+    \mathcal{A}
+  })
 $$
-where $s(-)$ denotes the joint image of all [[degeneracy maps]]. 
-\begin{lemma}
-We have closed subspace inclusions
+and the *[[based loop space]]*
 $$
-  L_n ( X \times_B Y )
-  \xhookrightarrow{\phantom{---}}
-  L_n ( X \times Y )
+  \Omega
+  \mathcal{A}
+  \coloneqq
+  \mathrm{Map}^\ast({
+    S^1, 
+    \mathcal{A}
+  })
   \mathrlap{\,.}
 $$
-\end{lemma}
-\begin{proof}
-Observe that this [[subspace]] is the [[intersection]]
+
+Their [[sets]] of [[connected components]] are
+the *[[fundamental group]] of $\mathcal{A}$
 $$
-  L_n( X \times_B Y )
+  G
+  \coloneqq
+  \pi_1(\mathcal{A})
+  \equiv
+  \pi_0({\Omega\mathcal{A}})
+$$
+and its set of [[conjugacy classes]]: 
+$$
+  \mathrm{Conj}(G)
   \simeq
-  \big(
-    L_n( X \times Y )
-  \big)
-  \cap
-  \big(
-    ( X \times_B Y )_n \times \Delta^n
-  \big)
+  \pi_0({\mathcal{L}\mathcal{A}})
   \mathrlap{\,.}
 $$
-Therefore the claim follows since $( X \times_B Y )_n \times \Delta^n$ is a closed subspace of $( X \times Y )_n \times \Delta^n$ by Lem. \ref{OnDegreewiseClosedSubspaceInclusions}.
-\end{proof}
-
-For any [[simplicial topological space|simplicial space]], denote by
-$$
-  \coprod_m (-)_m \times \Delta^m
-  \xrightarrow{\phantom{-} q \phantom{-}}
-  {\vert (-) \vert}
-$$
-the [[quotient]] [[coprojection]] to the [[topological realization]], and consider the corresponding [[filtered object|filtration]] stages
-$$
-  F_n{\vert (-) \vert}
-  \coloneqq
-  q \big( (-)_n \big)
-  \subset
-  {\vert (-) \vert}
-  \mathrlap{\,.}
-$$
-Observe that these form [[pushouts]]:
-$$
-  \begin{array}{ccc}
-    L_n(-)
-    &\longrightarrow&
-    F_{n-1} {\vert (-) \vert}
-    \\
-    \big\downarrow
-     &\mathclap{_{(po)}}&
-    \big\downarrow
-    \\
-    (-)_n \times \Delta^n
-    &\longrightarrow&
-    F_{n} {\vert (-) \vert}
-    \mathrlap{\,.}
-  \end{array}
-$$
-\begin{lemma}
-\label{FilterStageInclusionsAreClosed}
-The inclusions
-$$
-  F_n {\vert X \times_B Y \vert}
-  \xhookrightarrow{\phantom{---}}
-  F_n {\vert X \times Y \vert}
-$$
-are [[closed map|closed]].
-\end{lemma}
-\begin{proof}
-We proceed by [[induction]].
-For $n = 0$ this is (eq:DegreewiseClosedSubspaceInclusion).
-Now assume the claim holds holds for $n-1$. Considering a [[closed subset]] $C \subset F_n {\vert X \times_B Y \vert}$, we need to show that its [[image]] in $F_n {\vert X \times Y \vert}$ is [[closed subset|closed]]. Notice that a [[subset]] of a [[pushout]] is [[closed subset|closed]] iff its two [[preimages]] are [[closed subset|closed]]. So $C$ being [[closed subset|closed]] means that its [[preimages]] in $F_{n-1} {\vert X \times_B Y \vert}$ and in $(X \times_B Y )_n \times \Delta^n$ are [[closed subset|closed]], respectively. But both of these preimages have closed images in $F_{n-1}  {\vert X \times Y \vert}$ (by induction assumption) and in $(X \times Y)_n \times \Delta^n$ (by (eq:DegreewiseClosedSubspaceInclusion)), hence also the image of $C$ is closed, as claimed.
-\end{proof}
-
-\begin{lemma}
-  In the situation (eq:TheCospanOfMaps), 
-  the canonical map
-  \[
-    \label{RealizationOfFiberProductsIsSubspaceOfThatOfProduct}
-      {\vert
-        X \times_B Y
-      \vert}
-      \xhookrightarrow{\phantom{---}}
-      {\vert X \times Y \vert}
-  \]
-  is a [[subspace]] [[inclusion]]. 
-\end{lemma}
-\begin{proof}
-  Since this map is the [[colimit]] over the closed [[filtered object|filtration stages]] from Lem. \ref{FilterStageInclusionsAreClosed} it is itself closed. As a closed injection, it is a subspace inclusion (cf. [here](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings)). 
-\end{proof}
 
 \begin{proposition}
-  \label{PreservationOfFiberProducts}
-  [[topological realization|Topological realization]] in the situation (eq:TheCospanOfMaps) [[preserved limit|preserves]] the [[fiber product]]: 
-  $$
-    {\vert X \times_B F \vert}
+  In every [[connected component]] $[g] \in \mathrm{Conj}(G) \simeq \pi_0(\mathcal{L}\mathcal{A})$, the [[image]] of $\pi_1({\mathcal{L}\mathcal{A}})$ in $G$ is the centralizer group of $g$:
+  \[
+    \label{ImageOfTopologicalMonodromyInG}
+    \pi_1(\mathrm{ev})
+    \big({
+      \pi_1({
+        \mathcal{L}\mathcal{A}
+      })
+    }\big)
     \simeq
-    \vert X \vert 
-      \times_{\vert B \vert}
-    \vert Y \vert 
+    Z_G(g)
+    \subset 
+    G
     \mathrlap{\,.}
-  $$
+  \]
+  Moreover, when $\mathcal{A}$ has trivial $\pi_2$, then $\pi_1({\mathcal{L}\mathcal{A}})$ is isomorphic to the centralizer 
+  \[
+    \label{ParameterMonodromyCoindicingWithCentralizer}
+    \mathllap{
+    \pi_2(\mathcal{A}) \simeq \ast
+    \;\;\;\;\;
+    \Rightarrow
+    \;\;\;\;\;
+    }
+    \pi_1({
+      \mathcal{L}\mathcal{A}
+    })
+    \simeq
+    Z_G(g)
+    \mathrlap{\,.}
+  \]
 \end{proposition}
 \begin{proof}
-  [[functor|Functoriality]] of [[topological realization|realization]] gives a [[continuous|continuous]] comparison map:
-  $$
-    \big(
-      {\vert \mathrm{pr}_X \vert}
-      ,
-      {\vert \mathrm{pr}_Y \vert} 
-    \big)
-    \,\colon\,
-    {\vert X \times_B Y \vert}
-    \xrightarrow{\phantom{---}}
-    \vert X \vert
-      \times_{\vert B \vert}
-    \vert Y \vert
-    \mathrlap{\,.}
-  $$
-  Since we know that [[topological realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[fiber products]] (cf. [here](geometric realization#GeometricRealizationIsLeftExact)), this is a [[bijection]] on [[underlying sets]]. We need to show is that the [[inverse]] 
-  $
-    \big(
-      {\vert \mathrm{pr}_X \vert}
-      ,
-      {\vert \mathrm{pr}_Y \vert}
-    \big)^{-1}
-  $
-  is [[continuous map|continuous]].
+Consider any loop $\gamma \in \Omega \mathcal{A}$ which represents the local topological phase $[g]$: 
 
-  This is equivalent to its [[composition|composite]]
-  $$
-      {\vert X \vert}
-        \times_{\vert B \vert}
-      {\vert Y \vert}
-      \xrightarrow{
-        \big(
-          {\vert \mathrm{pr}_X \vert}
-          ,
-          {\vert \mathrm{pr}_Y \vert}
-        \big)^{-1}        
-      }
-      {\vert X \times_B Y \vert}
-      \xhookrightarrow{\phantom{---}}
-      {\vert X \times Y \vert}
-  $$
-  with the [[subspace]] [[inclusion]] (eq:RealizationOfFiberProductsIsSubspaceOfThatOfProduct) being [[continuous map|continuous]]. But that's the case, because this is the [[restriction]] along the [[subspace]] [[inclusion]] 
-  $ 
-    {\vert X \vert}
-      \times_{\vert B \vert}
-    {\vert Y \vert}
-    \hookrightarrow
-    {\vert X \times Y \vert}
-  $
-  of the [[homeomorphism]]
-  $$
-    {\vert X \vert}
-    \times
-    {\vert Y \vert}
-    \xrightarrow{\phantom{---}}
-    {\vert X \times Y \vert}
-  $$
-  given by the [[Cartesian closed category|Cartesian closure]] of the ambient category.
+\begin{tikzcd}[sep=0pt]
+    G
+    \ar[rr, "{ \sim }"]
+    &&
+    \pi_0({\Omega\mathcal{A}})
+    \ar[rr]
+    &&
+    \pi_0({
+      \mathcal{L}\mathcal{A}
+    })
+    \ar[rr, "{ \sim }"]
+    &&
+    \mathrm{Conj}(G)
+    \\
+    g
+    &\leftrightarrow&
+    {[\gamma]}
+    &\mapsto&
+    {[\gamma]} 
+      &\leftrightarrow& 
+    {[g]}
+    \mathrlap{\,,}
+  \end{tikzcd}
+
+
+and with that used as the base point, consider the homotopy long exact sequence 
+induced by the map $\mathrm{ev}$ that evaluates a loop at its base point:
+$$
+  \Omega X
+  \longrightarrow
+  \mathcal{L}X
+  \xrightarrow{\phantom{-} ev \phantom{-}}
+  X
+  \mathrlap{\,,}
+$$
+of this form:
+
+\begin{imagefromfile}
+    "file_name": "CentralizerInHomotopyLES.png",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+On the right we are claiming that the [[connecting homomorphism]] $\partial$ [[conjugation action|acts by conjugation]] on $g \in G$. To see this, recall that $\partial$ is generally given on the class of a based loop $\ell \in P_0 \mathcal{A}$ by first lifting it through $\mathrm{ev}$ to a based path $\widehat \ell \in P_{[g]} \mathcal{L}\mathcal{A}$ and then evaluating that at its endpoint:
+$$
+  \partial\bracket({[\ell]})
+  =
+  \bracket[{\widehat{\ell}_1}]
+  \mathrlap{\,.}
+$$
+Here we may take $\widehat{\ell}$ to be given by 
+$$
+  \widehat{\ell}_t
+  \coloneqq
+  \mathrm{conc}\big({
+    \overline{\ell}(t-),
+    \gamma, 
+    \ell(t-)
+  }\big)
+$$
+(where "$\mathrm{conc}$" denotes [[concatenation]] and an overline denotes reversal of paths $[0,1] \to \mathcal{A}$), which implies the above equality of exact sequences.
+
+From this, the first claim (eq:ImageOfTopologicalMonodromyInG) follows by [[exact sequence|exactness]]: The [[image]] of $\pi_1(\mathrm{ev})$ is now identified with the [[kernel]] of $\mathrm{Ad}_{(-)}(g)$, and that is the centralizer $C_G(g)$, by definition. (Beware here that the copy of "$G$" in the bottom right above is the [[underlying set]] of the group, pointed by the element $g$.)
+
+Similarly for the second claim (eq:ParameterMonodromyCoindicingWithCentralizer): If $\pi_2(\mathcal{A}) = \pi_1(\Omega \mathcal{A})$ is trivial, then exactness gives that $\pi_1(\mathrm{ev})$ is [[injective]] and hence an [[isomorphism]] onto its image.
 \end{proof}
 
+For example, given any group $G$, we may consider $\mathcal{A} \coloneqq K(G,1)$, the [[Eilenberg-MacLane space]]. By definition, this has $\pi_1(\mathcal{A}) \simeq G$ and $\pi_2(\mathcal{A}) \simeq \ast$, and hence
+$$
+  \pi_1\big( \mathcal{L}\mathcal{A}, \gamma \big)
+  \simeq
+  C_G(g)
+  \mathrlap{\,.}
+$$
 
 
 \linebreak
