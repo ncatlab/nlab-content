@@ -283,12 +283,12 @@ Similarly for the second claim (eq:ParameterMonodromyCoindicingWithCentralizer):
 
 \begin{example}
 Given any group $G$, we may consider the [[Eilenberg-MacLane space]] $X \coloneqq K(G,1)$. By definition, this has $\pi_1(X) \simeq G$ and $\pi_2(X) \simeq \ast$, and hence Prop. \ref{CentralizerInHomotopyLES} gives that the centralizers of elements of $G$ are obtained as the fundamental groups
-$$
+$
   \pi_1\big( \mathcal{L}X, \gamma \big)
   \simeq
   C_G(g)
   \mathrlap{\,.}
-$$
+$
 \end{example}
 
 
