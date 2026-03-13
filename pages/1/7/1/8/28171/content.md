@@ -30,8 +30,13 @@ Suggestion to consider the [[Yang-Mills mass gap]] problem for 3D YMCS theory:
 Claim of establishing the mass gap for YMCS theory at a non-[[constructive field theory|constructive]] level:
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. P. Nair]]: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
+  > (based on analogous claims for pure [[D=3 Yang-Mills theory]], see [there](3D+Yang-Mills+theory#References)).
 
-(based on analogous claims for pure [[D=3 Yang-Mills theory]], see [there](3D+Yang-Mills+theory#References)).
+In the context of [[extended functorial field theory]]:
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
+
 
 [[!redirects D=3 Yang-Mills-Chern-Simons theories]]
 
