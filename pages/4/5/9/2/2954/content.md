@@ -140,6 +140,12 @@ On a relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
 
+On localizing [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]] to a fully [[extended functorial field theory]]:
+
+* [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
 
 ## Related entries
 
