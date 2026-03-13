@@ -155,6 +155,22 @@ On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in  [[fractional Chern
 
 * [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the $W_\infty$ Algebra*, Phys. Rev. B **85** (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
 
+On the [[sphere]]:
+
+* Rakesh K. Dora, [[Ajit C. Balram]]: *Dispersion of collective modes in spinful fractional quantum Hall states on the sphere* \[<a href="https://arxiv.org/abs/2509.13100">arXiv:2509.13100</a>\] 
+
+* Rakesh K. Dora, [[Ajit C. Balram]]: *Static structure factor and the dispersion of the Girvin-MacDonald-Platzman density mode for fractional quantum Hall fluids on the Haldane sphere*, Phys. Rev. B **111** (2025) 115132 &lbrack;[arXiv:2410.00165](https://arxiv.org/abs/2410.00165), [doi:10.1103/PhysRevB.111.115132](https://doi.org/10.1103/PhysRevB.111.115132)&rbrack;
+
+
+and in relation to the [[fuzzy sphere]]:
+
+* Yin-Chen He: *Free real scalar CFT on fuzzy sphere: spectrum, algebra and wavefunction ansatz* &lbrack;[arXiv:2506.14904](https://arxiv.org/abs/2506.14904)&rbrack;
+
+
+* Luisa Eck, [[Zhenghan Wang]]: *3d Conformal Field Theories via Fuzzy Sphere Algebra* &lbrack;[arXiv:2602.15025](https://arxiv.org/abs/2602.15025)&rbrack;
+
+
+
 
 ### In String/M-theory
 
