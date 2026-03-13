@@ -79,10 +79,19 @@ Relation to the [[Crane-Yetter model]]:
 
 * {#BarrettGarciIslasMartins04} [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
   
+Localization to a fully [[extended functorial field theory]]:
+
+* [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
 
 
 [[!redirects Reshetikhin-Turaev construction]]
 [[!redirects Reshetikhin--Turaev construction]]
+
+[[!redirects Reshetikhin-Turaev theory]]
+[[!redirects Reshetikhin--Turaev theory]]
 
 [[!redirects Reshetikin-Turaev model]]
 [[!redirects Reshetikhin-Turaev model]]
