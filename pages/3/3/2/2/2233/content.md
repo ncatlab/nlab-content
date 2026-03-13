@@ -174,11 +174,16 @@ Presented at the AMS Meeting 876, held in Dayton, Ohio, on October 31, 1992.
 * [[Shawn X. Cui]], *Higher Categories and Topological Quantum Field Theories*, Quantum Topology **10** 4 (2019) 593-676 &lbrack;[arXiv:1610.07628] (https://arxiv.org/abs/1610.07628), [doi:10.4171/QT/128](https://doi.org/10.4171/QT/128)&rbrack;
 
 
-With an eye towards the full extension of [[Chern-Simons theory]]:
+On the full extension of [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]]:
 
-* [[Daniel S. Freed]], _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
+* [[Daniel S. Freed]]: _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
 
 * [[Daniel S. Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
+
+* [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
 
 Review:
 
