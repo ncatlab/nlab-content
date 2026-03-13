@@ -1080,13 +1080,18 @@ Discussion of quantum Chern-Simons theory as a 3-2-1 [[extended TQFT]] is for in
 
 * R. Gelca, _Topological quantum field theory with corners based on the Kauffman bracket_ ([pdf](http://www.math.ttu.edu/~rgelca/bra3.pdf))
 
-Discussion as a (relative) 3-2-1-0 [[extended TQFT]] is in
+Discussion as a (relative) 3-2-1-0 [[extended TQFT]]:
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
 * {#Henriques15} [[André Henriques]], _What Chern-Simons theory assigns to a point_ ([arXiv:1503.06254](http://arxiv.org/abs/1503.06254))
+
+* [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
 
 A gentle introduction leading up to one proposal for what Chern-Simons theory assigns to a point (a category of [[positive energy representations]] of the based [[loop group]]) is in
 
