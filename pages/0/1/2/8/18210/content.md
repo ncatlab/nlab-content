@@ -10,9 +10,8 @@
 =--
 
 
-# Contents 
-* table of contents 
-{:toc} 
+\tableofcontents
+
 
 ## Statement and proof 
 
@@ -59,7 +58,7 @@ Given a space $X$ satisfying this property, let $(C_i)_{i \in I}$ be any collect
 
 Given that collection, construct a space $Y$ whose underlying set ${|Y|}$ is formed by adjoining a point $\infty$ to the [[underlying set]] ${\vert X \vert}$ of $X$ (so ${|Y|} \coloneqq {|X|} \sqcup \{\infty\}$), and topologized by taking [[sub-base of a topology|subbasis]] elements to consist of _any_ [[subset]] of $X$ (not necessarily [[open]]) and any subset of the form $C_i \cup \{\infty\}$. 
 
-(Thus we are [[topological embedding|embedding]] the "[[discrete topological space|discretification]]" of $X$ in a larger space $Y$. But the following argument works even if *no* subsets of $X$ were included in the subbasis, as the work in the following is all done by the open subsets generated from the $C_i \cup \{\infty\}$.) 
+(Thus we are [[topological embedding|embedding]] the "[[discrete topological space|discretification]]" of $X$ in a larger space $Y$. But the following argument works even if *no* subsets of $X$ were included in the subbasis of $Y$, as the work in the following is all done by the open subsets generated from the $C_i \cup \{\infty\}$.) 
 
 Let $K \subseteq Y \times X$ be the [[topological closure]] of the set $\Delta = \big\{(x, x) \colon x \in {|X|}\big\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But then it must also contain $\infty$ because the [[finite intersection property]] of the collection $(C_i)$ guarantees that $\infty$ is not an [[open point]] of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
 
