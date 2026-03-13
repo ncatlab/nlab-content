@@ -100,11 +100,13 @@ Argument realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume]
 
 * [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
 
-
 On [[quantum adiabatic theorem|adiabatic transformations]] of certain 2d [[topological insulators]]:
 
 * David Aasen, [[Zhenghan Wang]], [[Matthew B. Hastings]], *Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes* &lbrack;[arXiv:2203.11137](https://arxiv.org/abs/2203.11137)&rbrack;
 
+On 3d [[CFT]], [[fuzzy spheres]] and [[FQH]] [collective excitations](quantum+Hall+effect#CollectiveExcitations):
+
+* Luisa Eck, [[Zhenghan Wang]]: *3d Conformal Field Theories via Fuzzy Sphere Algebra* &lbrack;[arXiv:2602.15025](https://arxiv.org/abs/2602.15025)&rbrack;
 
 
 ## Related entries
