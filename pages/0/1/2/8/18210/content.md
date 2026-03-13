@@ -57,14 +57,21 @@ If $X$ is a [[topological space]] with the property that the [[projection]] $\pi
 
 Given a space $X$ satisfying this property, let $(C_i)_{i \in I}$ be any collection of [[closed subsets]] of $X$ having the [[finite intersection property]], that any intersection of finitely many $C_i$ is [[inhabited set|inhabited]]. Compactness of $X$ will follow if we can show $\bigcap_{i \in I} C_i$ is inhabited (by [this prop.](compact+space#fip)). 
 
-Given that collection, construct a space $Y$ whose underlying set ${|Y|}$ is formed by adjoining a point $\infty$ to the underlying set of $X$ (so ${|Y|} = {|X|} \sqcup \{\infty\}$), and topologized by taking [[sub-base of a topology|subbasis]] elements to consist of _any_ subset of $X$ (not necessarily open) and any subset of the form $C_i \cup \{\infty\}$. (Thus we are embedding the "[[discrete topological space|discretification]]" of $X$ in a larger space $Y$.) Let $K \subseteq Y \times X$ be the [[topological closure]] of the set $\Delta = \{(x, x): x \in {|X|}\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But then it must also contain $\infty$ because the [[finite intersection property]] of the collection $(C_i)$ guarantees that $\infty$ is not an [[open point]] of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
+Given that collection, construct a space $Y$ whose underlying set ${|Y|}$ is formed by adjoining a point $\infty$ to the [[underlying set]] ${\vert X \vert}$ of $X$ (so ${|Y|} \coloneqq {|X|} \sqcup \{\infty\}$), and topologized by taking [[sub-base of a topology|subbasis]] elements to consist of _any_ [[subset]] of $X$ (not necessarily [[open]]) and any subset of the form $C_i \cup \{\infty\}$. 
+
+(Thus we are [[topological embedding|embedding]] the "[[discrete topological space|discretification]]" of $X$ in a larger space $Y$. But the following argument works even if *no* subsets of $X$ were included in the subbasis, as the work in the following is all done by the open subsets generated from the $C_i \cup \{\infty\}$.) 
+
+Let $K \subseteq Y \times X$ be the [[topological closure]] of the set $\Delta = \big\{(x, x) \colon x \in {|X|}\big\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But then it must also contain $\infty$ because the [[finite intersection property]] of the collection $(C_i)$ guarantees that $\infty$ is not an [[open point]] of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
 
 This means that every [[neighborhood]] $(C_i \cup \{\infty\}) \times U$ of $(\infty, x)$ intersects the [[diagonal]] $\Delta$ in an inhabited set. In other words, $C_i \cap U$ is inhabited. But this means that $x \in C_i$ for every $i$, for if $x \notin C_i$ for some $i$, then by closure of $C_i$ we could find an open neighborhood $U$ of $x$ such that $C_i \cap U = \emptyset$. Hence $x \in \bigcap_{i \in I} C_i$, making this intersection inhabited, as required. 
+
 =-- 
 
 +-- {: .num_remark #Acknowledgement} 
 ###### Remark 
-I ([[Todd Trimble]]) learned of this particular arrangement of proof during an email exchange with [[Tom Leinster]], who told me he learned it from [[Ioan James]]. I don't know who first invented it though. Pedagogically it is attractive because it avoids any need to discuss nets or ultrafilters or filters; it's just straight-up topology of the kind taught at typical American undergraduate institutions. 
+
+[[Todd Trimble]] learned of the [above](#ifProof) proof during an email exchange with [[Tom Leinster]], who said he learned it from [[Ioan James]]. Pedagogically it is attractive because it avoids any need to discuss [[nets]] or [[ultrafilters]] or [[filters]]; it's just straight-up topology of the kind taught at typical American undergraduate institutions. 
+
 =-- 
 
 ### Variant proofs 
