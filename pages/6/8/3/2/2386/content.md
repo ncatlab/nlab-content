@@ -1,7 +1,17 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="https://math.berkeley.edu/~teleman/pictures/police.jpg" alt="Constantin Teleman" /></div>
 
 
-* [website](http://math.berkeley.edu/~teleman/)
+* [personal page](http://math.berkeley.edu/~teleman/)
+
+* [institute page](https://math.berkeley.edu/people/faculty/constantin-teleman)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Constantin_Teleman)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=63055)
+
+* [inSpire page](https://inspirehep.net/authors/1051611)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Constantin-Teleman)
 
 ## Selected writings
 
@@ -80,6 +90,12 @@ On [[quantum anomalies]] of gapped theories via [[invertible field theories]]:
 On a relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+On localizing [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]] to a fully [[extended functorial field theory]]:
+
+* [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
+
+* [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
 
 
 
