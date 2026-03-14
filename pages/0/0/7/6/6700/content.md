@@ -282,7 +282,7 @@ Original formulations:
 
 Lectures and reviews:
 
-* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
+* {#BakalovKirillov} * [[Bojko Bakalov]], [[Alexandre Kirillov]]; chapter 5 of: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillov2000.pdf:file]]&rbrack;
 
 * {#Gawedzki99} [[Krzysztof Gawedzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
