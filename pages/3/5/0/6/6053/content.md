@@ -111,6 +111,10 @@ On representation theory of the quantum double of a finite group
 
 * [[Shahn Majid]], Leo Sean McCormack, _Quantum geometric Wigner construction for $D(G)$ and braided racks_, [arXiv:2407.11835](https://arxiv.org/abs/2407.11835)
 
+On the [[fusion ring]]:
+
+* Wenqi Li: *Fusion Rings over Drinfeld Doubles*, Journal of Algebra and Its ApplicationsVol. **25** 07 (2026) 2650052  &lbrack;[doi:10.1142/S0219498826500520](https://doi.org/10.1142/S0219498826500520), [arXiv:2306.05560](https://arxiv.org/abs/2306.05560)&rbrack;
+
 [[!redirects Drinfel'd doubles]]
 
 [[!redirects Drinfeld double]]
