@@ -56,7 +56,7 @@ Discussion in the context of the [hypergeometric integral construction](Knizhnik
 
 * {#Varchenko95} [[Alexander Varchenko]], *Multidimensional Hypergeometric Functions and Representation Theory of Lie Algebras and Quantum Groups*, Advanced Series in Mathematical Physics **21**, World Scientific (1995) ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
-* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
+* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov, Jr.]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
 
 [[!redirects Pochhammer loops]]
 
