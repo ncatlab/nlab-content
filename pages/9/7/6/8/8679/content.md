@@ -26,7 +26,7 @@ Turaev-Viro model is something like the "norm square" of the [[Reshetikhin-Turae
 
 For $G$ a [[finite group]] and $\mathcal{C} = Vect_G$ the [[category]] of $G$-[[graded vector spaces]] the Turaev-Viro model describes the $G$-[[Dijkgraaf-Witten theory]], also the [[Levin-Wen model]].
 
-See for instance the introduction of ([Kirillov-Balsam 10](#KirillovBalson10)) for a review.
+See for instance the introduction of ([Kirillov-Balsam 10](#KirillovBalsam10)) for a review.
 
 
 
@@ -66,7 +66,7 @@ Relation to the [[Crane-Yetter model]]:
 
 Refinement of the construction to an [[extended TQFT]] is in 
 
-* {#KirillovBalsam10} [[Alexander Kirillov]] Jr., [[Benjamin Balsam]], _Turaev-Viro invariants as an extended TQFT_ ([arXiv:1004.1533](http://arxiv.org/abs/1004.1533))
+* {#KirillovBalsam10} [[Alexander Kirillov, Jr.]], [[Benjamin Balsam]]: _Turaev-Viro invariants as an extended TQFT_ &lbrack;[arXiv:1004.1533](http://arxiv.org/abs/1004.1533)&rbrack;
 
 * {#Balsam10a} [[Benjamin Balsam]], _Turaev-Viro invariants as an extended TQFT II_ ([arXiv:1010.1222](http://arxiv.org/abs/1010.1222))
 
@@ -78,9 +78,9 @@ Discussion that relates the [[quantization of 3d Chern-Simons theory]] to the [[
  
 and references cited there.
 
-A relation to the [[Levin-Wen model]] is discussed in
+On [[string-net model]] realization related to the [[Levin-Wen model]]:
 
-* Alexander Kirillov Jr, _String-net model of Turaev-Viro invariants_ ([arXiv:1106.6033](http://arxiv.org/abs/1106.6033))
+* [[Alexander Kirillov, Jr.]]: _String-net model of Turaev-Viro invariants_ ([arXiv:1106.6033](http://arxiv.org/abs/1106.6033))
 
 Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]], and the phenomenon of [[Kramers-Wannier duality]], is in:
 
