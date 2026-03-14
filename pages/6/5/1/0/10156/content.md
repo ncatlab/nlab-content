@@ -836,11 +836,11 @@ For general references see at _[[orbit method]]_ and at _[[geometric quantizatio
 
 Reviews with an emphasis on the quantization of the 2-sphere include
 
-section 3.1 of 
+section 3.1 of: 
 
-* [[Alexander Kirillov]], _[[Lectures on the Orbit Method]]_
+* [[Alexandre Kirillov]]: _[[Lectures on the Orbit Method]]_, Graduate Studies in Mathematics **64**, American Mathematical Society (2004) &lbrack;[doi:10.1090/gsm/064](https://doi.org/10.1090/gsm/064)&rbrack;
 
-section 7 of
+section 7 of:
 
 * J. Maes, _An introduction to the orbit method_, Master thesis (2011) ([pdf](http://web.science.uu.nl/itf/Teaching/2011/JeroenMaes.pdf), [pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](https://dspace.library.uu.nl/handle/1874/205802))
 
