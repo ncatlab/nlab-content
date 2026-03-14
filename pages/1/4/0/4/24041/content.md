@@ -20,6 +20,8 @@
 {:toc}
 
 
+
+
 ## Idea
 
 In [[condensed matter theory]], *string-net models* were introduced as [[lattice model|lattice]] [[model (in theoretical physics)|models]] for 2-dimensional [[topological phases of matter]] exhibiting [[topological order]]. The name essentially derives from the fact that the main [[degrees of freedom]] are located on the lattice [[edges]]. 
@@ -50,14 +52,18 @@ Textbook account:
 
 In terms of [[tensor networks]]:
 
-* O. Buerschaper, M. Aguado, G. Vidal, *Explicit tensor network representation for the ground states of string-net models*, Phys. Rev. B **79** (2009) 085119 $[$[arXiv:0809.2393](https://arxiv.org/abs/0809.2393), [doi:10.1103/PhysRevB.95.195110](https://doi.org/10.1103/PhysRevB.95.195110)$]$
+* O. Buerschaper, M. Aguado, G. Vidal, *Explicit tensor network representation for the ground states of string-net models*, Phys. Rev. B **79** (2009) 085119 &lbrack;[arXiv:0809.2393](https://arxiv.org/abs/0809.2393), [doi:10.1103/PhysRevB.95.195110](https://doi.org/10.1103/PhysRevB.95.195110)&rbrack;
 
+* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 &lbrack;[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)&rbrack;
 
-* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
+On string-net model realization of [[Turaev-Viro invariants]] related to the [[Levin-Wen model]]:
+
+* [[Alexander Kirillov, Jr.]]: _String-net model of Turaev-Viro invariants_ &lbrack;[arXiv:1106.6033](http://arxiv.org/abs/1106.6033)&rbrack;
+
 
 Further development:
 
-* Ling-Yan Hung, Yidun Wan, *String-Net Models with $\mathbb{Z}_N$ Fusion Algebra*, Phys. Rev. B **86** (2012) 235132 $[$[arXiv:1207.6169](https://arxiv.org/abs/1207.6169)$]$
+* Ling-Yan Hung, Yidun Wan, *String-Net Models with $\mathbb{Z}_N$ Fusion Algebra*, Phys. Rev. B **86** (2012) 235132 &lbrack;[arXiv:1207.6169](https://arxiv.org/abs/1207.6169)&rbrack;
 
 * Chien-Hung Lin, *Multi-flavor string-net models*, Phys. Rev. B **95** 195110 (2017) $[$[arXiv:1611.08288](https://arxiv.org/abs/1611.08288), [doi:10.1103/PhysRevB.95.195110](https://doi.org/10.1103/PhysRevB.95.195110)$]$
 
