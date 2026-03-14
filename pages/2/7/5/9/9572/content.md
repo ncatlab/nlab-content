@@ -199,10 +199,18 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 
 ## Examples
 
-### $Vec_G$
 
-For $G$ a [[group]], let $Vec_G$ denote the monoidal category of $G$-[[graded vector space|graded vector spaces]]. Then the objects in $\mathcal{Z}(Vec_G )$ consist of pairs $(C,V)$ for $C$ a finite conjugacy class of $G$, along with $V$ a [[finite-dimensional vector space|finite]] [[irreducible representation]] of the [[centralizer]] of $g\in C$. This is Example 8.5.4. in [EGNO 2010](#EGNO10).
+\begin{example}
+**($G$-[[graded vector spaces]])**
+\linebreak
+For $G$ a [[group]], let $Vec_G$ denote the [[tensor category]] of $G$-[[graded vector spaces]]. Then the objects in $\mathcal{Z}(Vec_G )$ consist of [[pairs]] $(C,V)$ for 
 
+* $C$ a finite [[conjugacy class]] of $G$, 
+
+* $V$ a [[finite-dimensional vector space|finite]] [[irreducible representation]] of the [[centralizer]] of $g\in C$. 
+
+\end{example}
+This is Example 8.5.4. in [EGNO 2015](#EGNO15).
 
 
 ## Related concepts
@@ -233,7 +241,8 @@ Textbook accounts:
 
 * [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
 
-* {#EGNO10} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]. (2010). *Tensor Categories* (Vol. 205). American Mathematical Soc.
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
+
 
 A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-categories]] (which reduces to the above for the 2-category [[Cat]] with its [[cartesian product]]) is in 
 
