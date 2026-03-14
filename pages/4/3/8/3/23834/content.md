@@ -43,7 +43,7 @@ Review:
 
 * [[Ivan Cherednik]], Section 8.2 of: *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
 
-* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
+* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov, Jr.]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) \[<a href="https://bookstore.ams.org/surv-58">ams:surv-58</a>, [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)\]
 
 * [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  $[$[doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf)$]$
 
