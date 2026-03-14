@@ -14,10 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -165,7 +162,12 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
 * the [[tensor product]] is given by 
  
   $$
-    (X, \Phi) \otimes (Y, \Psi) = (X \otimes Y, (\Phi \otimes id) \circ (id \otimes \Psi))
+    (X, \Phi) \otimes (Y, \Psi) 
+      \;=\; 
+    \big(
+       X \otimes Y, 
+      (\Phi \otimes id_Y) \circ (id_X \otimes \Psi)
+    \big)
     \,.
   $$
 
