@@ -360,7 +360,7 @@ Textbook accounts:
 
 * [[Philippe Di Francesco]], Pierre Mathieu, David S&#233;n&#233;chal, Part C of: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
 
-* [[Bojko Bakalov]], [[Alexander Kirillov]], *Wess-Zumino-Witten model*, chapter 7 of: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[[BakalovKirillov-WZWModel-Ch7OfTensorCat.pdf:file]], [web](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21)&rbrack;
+* [[Bojko Bakalov]], [[Alexander Kirillov, Jr.]], *Wess-Zumino-Witten model*, chapter 7 of: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[[BakalovKirillov-WZWModel-Ch7OfTensorCat.pdf:file]], [web](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21)&rbrack;
 
 * [[Ralph Blumenhagen]], [[Erik Plauschinn]], Chapter 3 of: *Introduction to Conformal Field Theory -- With Applications to String Theory*, Lecture Notes in Physics **779**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-00450-6](https://doi.org/10.1007/978-3-642-00450-6)&rbrack;
 
