@@ -1,6 +1,7 @@
-**Alexandre Aleksandrovich Kirillov** (&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088; &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;&#1086;&#1074;&#1080;&#1095; &#1050;&#1080;&#1088;&#1080;&#1083;&#1083;&#1086;&#1074;) is a professor of mathematics at the University of Pennsylvania. He invented the orbit method in [[representation theory]], developed in other flavours also by Kostant and Souriau. He was a student of [[Israel Gelfand]] and they together lead a famous journal _Functional Analysis and its Applications_. 
 
-* [personal page](https://www.math.stonybrook.edu/~kirillov/)
+> Not to be confused with *[[Alexander Kirillov, Jr.]]*.
+
+**Alexandre Aleksandrovich Kirillov** (&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088; &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;&#1086;&#1074;&#1080;&#1095; &#1050;&#1080;&#1088;&#1080;&#1083;&#1083;&#1086;&#1074;) is a professor of mathematics at the University of Pennsylvania. He invented the orbit method in [[representation theory]], developed in other flavours also by Kostant and Souriau. He was a student of [[Israel Gelfand]] and they together lead a famous journal _Functional Analysis and its Applications_. 
 
 * [institute page](https://www2.math.upenn.edu/~kirillov/)
 
@@ -24,11 +25,12 @@ On [[geometric quantization]]:
 
 On [[Reshetikhin-Turaev theory]] constructing [[modular functors]] from [[modular tensor categories|modular]] [[tensor categories]]:
 
-* [[Bojko Bakalov]], [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_, University Lecture Series **21**, Amer. Math. Soc. (2001) ([ISBN:978-1-4704-2168-7](https://bookstore.ams.org/ulect-21), [webpage](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
+* [[Bojko Bakalov]], [[Alexandre Kirillov]]: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillov2000.pdf:file]]&rbrack;
 
-On [[Lie groups]] and [[Lie algebras]]:
+On the [[orbit method]]:
 
-* [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+* [[Alexandre Kirillov]]: *[[Lectures on the Orbit Method]]*, Graduate Studies in Mathematics **64**, American Mathematical Society (2004) &lbrack;[doi:10.1090/gsm/064](https://doi.org/10.1090/gsm/064)&rbrack;
+
 
 
 
