@@ -149,7 +149,6 @@ Relation to [[theta functions]]:
 
 
 
-
 [[!include hypergeometric KZ-solutions -- references]]
 
 
