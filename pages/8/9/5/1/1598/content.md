@@ -278,7 +278,7 @@ Further discussion:
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
 
-* [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+* [[Alexander Kirillov, Jr.]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
 
 * [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
 
