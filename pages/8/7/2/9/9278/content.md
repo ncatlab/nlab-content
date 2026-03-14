@@ -240,7 +240,7 @@ Under addition a Lie-Poisson manifold becomes a _[[Poisson Lie group]]_, see the
 
 ## References
 
-The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by [[Felix Berezin]] and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
+The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by [[Felix Berezin]] and by [[Alexandre Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
 
 General accounts:
 
