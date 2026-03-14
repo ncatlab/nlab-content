@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -72,8 +71,7 @@ and, in addition, often
 
 * {#Davydov98} [[Alexei Davydov]]: *Monoidal categories and functors*, Chapter 1 in: *Monoidal Categories*, J. Math. Sci.(New York) **88** (1998) 457-519 &lbrack;[doi:10.1007/BF02365309](https://doi.org/10.1007/BF02365309)&rbrack;
 
-* [[Bojko Bakalov]], [[Alexander Kirillov]], *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [pdf](http://math.bu.edu/people/jackwalt/research/tqft-seminar/refs/tensor_cat_mod_func.pdf)&rbrack;
-
+* [[Bojko Bakalov]], [[Alexandre Kirillov]]: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillov2000.pdf:file]]&rbrack;
   > (focus on [[Reshetikhin-Turaev construction]] of [[modular functors]] from [[modular tensor categories]])
 
 * {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], Section 4 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
