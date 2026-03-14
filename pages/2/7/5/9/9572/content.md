@@ -129,10 +129,12 @@ And so forth. Writing this out in terms of $(\mathcal{C}, \otimes)$ yields the f
 
 Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center** is a [[monoidal category]] $Z(\mathcal{C})$ whose
 
-* [[objects]] are pairs $(X, \Phi)$ of an object $X \in \mathcal{C}$ and a [[natural isomorphism]] (braiding morphism)
+* [[objects]] are pairs $(X, \Phi)$ of an object $X \in \mathcal{C}$ and a [[natural isomorphism]] (the *half-braiding*)
 
   $$
-    \Phi \colon X \otimes (-) \to (-) \otimes X
+    \Phi_{(-)}
+      \;\colon\; 
+    X \otimes (-) \longrightarrow (-) \otimes X
   $$
 
   such that for all $Y \in \mathcal{C}$ we have 
@@ -140,21 +142,23 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
   $$
     \Phi_{Y \otimes Z}
     =
-    (id \otimes \Phi_Z) \circ (\Phi_Y \otimes id) 
+    \big(id_Y \otimes \Phi_Z\big) 
+      \circ   
+    \big(\Phi_Y \otimes id_Z \big) 
   $$
 
 * [[morphisms]] are given by
 
   $$
-    Hom((X, \Phi), (Y,\Psi))
+    Hom\big((X, \Phi), (Y,\Psi)\big)
     =
-   \left\{
+   \Big\{
      f \in Hom_{\mathcal{C}}(X,Y)
-     \;|\;
+     \;\big|\;
      (id \otimes f) \circ \Phi_Z
      = 
      \Psi_Z \circ (f \otimes id), \; \forall Z \in \mathcal{C}
-   \right\}
+   \Big\}
    \,.
   $$
 
@@ -243,7 +247,7 @@ Textbook accounts:
 
 * {#BakalovKirillov2001} [[Bojko Bakalov]], [[Alexandre Kirillov]]; section 3.2 in: *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillov2000.pdf:file]]&rbrack;
 
-* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]: *Tensor Categories*, Mathematical Surveys and Monographs **205**, AMS (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
 
 A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-categories]] (which reduces to the above for the 2-category [[Cat]] with its [[cartesian product]]) is in 
 
