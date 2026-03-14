@@ -86,7 +86,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * A. Joseph, _Quantum groups and their primitive ideals_, Springer (1995)
 
-* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press (1995, 2000)
+* [[Shahn Majid]]: *Foundations of quantum group theory*, Cambridge University Press (1995, 2000) &lbrack;[doi:10.1017/CBO9780511613104](https://doi.org/10.1017/CBO9780511613104)&rbrack;
 
 * [[Alexander Varchenko]]: _Hypergeometric functions and representation theory of Lie algebras and quantum groups_, Advanced Series in Mathematical Physics **21**, World Scientific (1995) 
 
@@ -103,7 +103,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 * [[Pavel Etingof]], O. Schiffmann, _Lectures on Quantum Groups_, Lectures in Math. Phys., International Press (1998)
 
 
-* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) &lbrack;[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)&rbrack;
+* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov, Jr.]], *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) &lbrack;[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)&rbrack;
 
 * [[Ross Street]]: *Quantum Groups --- A Path to Current Algebra*, Cambridge University Press (2007) &lbrack;[doi:10.1017/CBO9780511618505](https://doi.org/10.1017/CBO9780511618505), [pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
 
