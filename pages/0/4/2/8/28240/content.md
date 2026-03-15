@@ -23,6 +23,7 @@ An _15-manifold_ is a [[manifold]] of [[dimension]] 15. (Generally a [[topologic
 ## Examples
 
 * [[15-sphere]]
+* [[real projective space]] $\mathbb{R}P^15$
 * O(6)
 * [[SO(6)]]
 * [[Spin(6)]]$\cong$[[SU(4)]]
