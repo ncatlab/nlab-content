@@ -28,35 +28,41 @@ Composing pullback of cohomology classes with fiber integration yields the notio
 ## Definition
 
 ### Fiberwise integration of ordinary differential forms
+ {#FiberwiseIntegrationOfOrdinaryDifferentialForms}
 
 Consider a smooth [[submersion]]
-$$f\colon T\to B$$
-of [[smooth manifolds]],
-whose fibers have dimension $d$.
-The fiberwise integration of [[differential forms]]
-is a map
-$$f_*\colon\Omega^n(T)\to\Omega^{n-d}(B)$$
-defined as follows.
-Given $\omega\in\Omega^n(T)$,
-the differential $(n-d)$-form $f_*(\omega)$ is constructed as follows.
+$$
+  f \colon T \longrightarrow B
+$$
+of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimension]] $d$.
 
-The value of $f_*(\omega)$ at some
-collection of $(n-d)$ tangent vector fields $v_1$, …, $v_{n-d}$
-is computed as follows.
+For any [[smooth manifold]] $X$, denote the set of [[smooth differential n-forms]] on $X$ by $\Omega^n(X)$, as usual.
 
-First, lift each $v_i$ to a section of the quotient bundle
-$T(T)/T(f)$, where $T(f)$ is the [[relative tangent bundle]].
-Lift these sections to sections $u_i$ of $T(T)$ in some arbitrary way.
-Substitute the resulting vector fields on $T$ into the differential
-$n$-form $\omega$, obtaining a differential $d$-form $\psi$.
-Pull back $\psi$ to each of the fibers of the map $f\colon T\to B$,
-obtaining a $d$-form on each of these fibers,
-which does not depend on the choices of liftings $u_i$.
-Now integrate the resulting $d$-form over each of these fibers.
-This gives a number for each $b\in B$, which depends smoothly on $b$.
-This is the value of $f_*(\omega)$ on $v_1$, …, $v_{n-d}$.
+The *fiberwise integration of differential forms* along $f$ is a map
+$$
+  f_* 
+    \,\colon\,
+  \Omega^n(T) \longrightarrow \Omega^{n-d}(B)
+  \mathrlap{\,,}
+$$
+where for $\omega \in \Omega^n(T)$, the differential $(n-d)$-form $f_*(\omega)$ is constructed as follows:
 
-See Greub, Halperin, and Vanstone, Volume I, Section VII.7.12.
+To construct the value of $f_*(\omega)$ at some collection of $(n-d)$ [[tangent vector]] [[vector field|fields]] $v_1, \cdots, v_{n-d}$:
+
+1. First, lift each $v_i$ to a [[section]] of the quotient bundle $T(T)/T(f)$, where $T(f)$ is the [[relative tangent bundle]]. 
+
+1. Lift these to sections $u_i$ of $T(T)$ in some arbitrary way. 
+
+1. Substitute the resulting vector fields on $T$ into the differential $n$-form $\omega$, obtaining a differential $d$-form $\psi$. 
+
+1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon T\to B$, obtaining a $d$-form on each of these fibers, which does not depend on the choices of liftings $u_i$. 
+
+1. Finally (if possible) [[integration of differential forms|integrate]] the resulting $d$-form over each of these fibers.
+This gives a number for each $b\in B$, which depends smoothly on $b$. 
+
+This is the value of $f_*(\omega)$ on $v_1, \cdots, v_{n-d}$.
+
+Cf. [Greub, Halperin & Vanstone 1973 vol I, Section VII.7.12](GreubHalperinVanstone1973).
 
 ### In generalized cohomology via Pontryagin-Thom collapse maps
 
@@ -635,9 +641,10 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-Fiber integration of differential forms is discussed in section VII of volume I of
+On fiber integration of differential forms:
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+* {#GreubHalperinVanstone1973} [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]]; section VII of *De Rham Cohomology of Manifolds and Vector Bundles*, voume I of: _[[Connections, Curvature, and Cohomology]]_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)
+&rbrack;
 
 A quick summary can be found from [slide 14](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=14) on in
 
@@ -731,3 +738,5 @@ Formulation of this in [[linear homotopy-type theory]] is discussed in
 
 [[!redirects fiberwise integral]]
 [[!redirects fiberwise integrals]]
+
+[[!redirects fiber integration of differential forms]]
