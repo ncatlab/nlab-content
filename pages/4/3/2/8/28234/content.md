@@ -23,6 +23,7 @@ An _9-manifold_ is a [[manifold]] of [[dimension]] 9. (Generally a [[topological
 ## Examples
 
 * 9-[[sphere]]
+* [[real projective space]] $\mathbb{R}P^9$
 * U(3)
 * Spinʰ(4)
 
