@@ -34,7 +34,7 @@ Consider a smooth [[submersion]]
 $$
   f \colon T \longrightarrow B
 $$
-of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimension]] $d$.  For simplicity, we assume the fibers to be [[orientable]] below.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]], as discussed in the next section.
+of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimension]] $d$.  For simplicity, we assume the fibers to be [[orientable]] below.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]]/[[pseudoforms]], as discussed in the next section.
 
 For any [[smooth manifold]] $X$, denote the set of [[smooth differential n-forms]] on $X$ by $\Omega^n(X)$, as usual.
 
