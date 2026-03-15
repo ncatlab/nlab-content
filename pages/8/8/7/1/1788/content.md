@@ -5,164 +5,239 @@
 
 ***
 
-Consider a [[path-connected topological space]] $\mathcal{A}$ admitting the [[structure]] of a [[CW-complex]].
+By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \mathbb{C}}\big)$ we denote the [[monoidal category]] of [[finite-dimensional vector space|finite-dimensional]] [[complex vector spaces]] with the usual [[tensor product of vector spaces]]. For $G$ a [[group]], the monoidal category $\mathrm{Vec}_G$ of *$G$-[[graded vector spaces]]* has:
 
-Fixing any [[base points]] $0 \in \mathcal{A}$ and $0 \in S^1$,
-we will be concerned with the *[[free loop space]]*
-$$
-  \mathcal{L}
-  \mathcal{A}
-  \coloneqq
-  \mathrm{Map}({
-    S^1, 
-    \mathcal{A}
-  })
-$$
-and the *[[based loop space]]*
-$$
-  \Omega
-  \mathcal{A}
-  \coloneqq
-  \mathrm{Map}^\ast({
-    S^1, 
-    \mathcal{A}
-  })
-  \mathrlap{\,.}
-$$
+1. as [[objects]] [[vector spaces]] $V \in \mathrm{Vec}$ equipped with $G$-[[indexed set|indexed]] [[direct sum]] decomposition
 
-Their [[sets]] of [[connected components]] are
-the *[[fundamental group]] of $\mathcal{A}$
-$$
-  G
+   $$  
+     V
+     \equiv
+     \bigoplus_{g \in G}
+     V_g
+     \mathrlap{\,,}
+   $$
+
+1. as [[morphisms]] [[linear maps]] that respect the $G$-grading,
+
+1.  as [[monoidal category|monoidal]] [[structure]] the [[tensor product of vector spaces|ordinary tensor product]] equipped with the [[convolution]] grading:
+   $$
+     (V \otimes W)_g
+     \coloneqq
+     \bigoplus_{k \in G}
+     \big({
+       V_{k} \otimes W_{k^{-1} g}
+     }\big)
+     \mathrlap{\,.}
+   $$
+
+For example, with $X \in \mathrm{Vec}$ an ungraded vector space and $g_0 \in G$ a group element, we write
+\[
+  \label{GradedVectorSpaceConcentratedInSingleDegree}
+  X \delta_{g_0}
+  \in 
+  \mathrm{Vec}_G
+  \,,
+  \;\;\;
+  ({X \delta_{g_0}})_g
   \coloneqq
-  \pi_1(\mathcal{A})
-  \equiv
-  \pi_0({\Omega\mathcal{A}})
-$$
-and its set of [[conjugacy classes]]: 
-$$
-  \mathrm{Conj}(G)
-  \simeq
-  \pi_0({\mathcal{L}\mathcal{A}})
+  \left\{
+  \begin{array}{ll}
+    X & \text{if}\;g = g_0
+    \\
+    0 & \text{otherwise}
+  \end{array}
+  \right.
+\]
+for the $G$-graded vector space which is concentrated on $X$ in degree $g_0$.
+
+Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general definition, the [[monoidal category]] which has:
+
+1. as [[objects]] [[pairs]], $(V,\beta)$, consisting of a $V \in \mathrm{Vec}_G$ and a [[natural isomorphism]] (the \emph{half-braiding})
+
+   \[
+     \label{TheHalfBraiding}
+     \beta_{(-)}
+     :
+     (-) \otimes V
+     \xrightarrow{ \sim }
+     V \otimes (-)
+     \mathrlap{\,,}
+   \]
+
+   satisfying for all $W, W' \in \mathrm{Vec}_G$ the relation
+   \[
+     \label{CoherenceOfHalfBraiding}
+     \beta_{W \otimes W'}
+     =
+     \big({
+       \beta_{W} \otimes \mathrm{id}_{W'}
+     }\big)
+       \circ
+     \big({
+       \mathrm{id}_{W} \otimes \beta_{W'}
+     }\big)
+     \mathrlap{\,,}
+   \]
+
+1. as [[morphisms]] $(V,\beta) \to (V',\beta')$ [[linear maps]] $f \colon V \to V'$ such that for all $W \in \mathrm{Vec}_G$ we have
+  \[
+    \label{ConditionOnMorphismsInDrinfeldCenter}
+    \beta'_W
+    \circ
+    \big(
+      id_W \otimes f
+    \big)
+    =
+    \big(
+      f \otimes id_{W}
+    \big)
+    \circ
+    \beta_W
+    \mathrlap{\,,}
+  \]
+
+1. as [[tensor product]] the operation
+   \[
+     (V,\beta)
+     \otimes
+     (V',\beta')
+     =
+     \big({
+       V \otimes V',
+       (\mathrm{id}_{V} \otimes \beta')
+       \circ
+       (\beta \otimes \mathrm{id}_{V'})
+     }\big)
+     \mathrlap{\,.}
+   \]
+
+But this general definition of Drinfeld center may be simplified in the present case: 
+
+Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] of copies of [[complex numbers|$\mathbb{C}$]], the linear maps $\beta_{(-)}$ (eq:TheHalfBraiding) are determined already by their values on $\mathbb{C} \delta_{g_0}$ (eq:GradedVectorSpaceConcentratedInSingleDegree); and if we understand that $\mathbb{C} \otimes V = V$, then, by degree reasons, their $g_0 g$-components must be [[linear isomorphisms]] $g_0 \cdot (-)$ of this form:
+
+\begin{tikzcd}
+    \big({
+      \mathbb{C} \delta_{g_0}
+        \otimes 
+      V 
+    }\big)_{g_0 g}
+    \ar[
+      r,
+      "{ 
+        ({
+          \beta_{\mathbb{C}\delta_{g_0}} 
+        })_{g_0 g}
+      }"
+    ]
+    \ar[d, equals]
+    &
+    \big({
+      V
+        \otimes 
+      \mathbb{C}\delta_{g_0} 
+    }\big)_{g_0 g}
+    \ar[d, equals]
+    \\
+    V_{g} 
+    \ar[r, "{ g_0\cdot(-) }"]
+      &
+    V_{g_0 g g_0^{-1}}
+    \mathrlap{\,.}
+\end{tikzcd}
+
+For these, the coherence condition (eq:CoherenceOfHalfBraiding) reduces to the *[action property](action#ActionPropertyOfGroupActions)*
+\[
+  g_2 \cdot ({g_1 \cdot (-)})
+  =
+  (g_2 g_1) \cdot (-)
   \mathrlap{\,.}
+\]
+This way, the objects of $\mathcal{Z}({\mathrm{Vec}_G})$ are [[bijection|bijectively]] identified with (complex, finite-dimensional) *[[groupoid representations]]* of the [[action groupoid]]
 $$
+  \Lambda G
+  \colomneqq
+  G\sslash_{\!\mathrm{Ad}} G
+$$
+of the [[adjoint action]] of $G$ (its *[[inertia groupoid]]*):
+
+\begin{tikzcd}[sep=0pt]
+    \Lambda G
+    \ar[
+      rr
+    ]
+    &&
+    \mathrm{Vec}
+    \\
+    g
+    \ar[
+      d,
+      "{ g_1 }"
+    ]
+    &\mapsto&
+    V_g
+    \ar[
+      d,
+      "{ g_1 \cdot }"
+    ]
+    \\[20pt]
+    g_1
+    g 
+    g_1^{-1}
+    &\mapsto&
+    V_{g_1 g g_1^{-1}}
+    \mathrlap{\,.}
+\end{tikzcd}
+
+In this representation-theoretic description, the morphisms (eq:ConditionOnMorphismsInDrinfeldCenter) of $\mathcal{Z}(\mathrm{Vec}_G)$ are equivalently the [[homomorphisms]] of [[groupoid representations]] (the *[[intertwiners]]*). This shows that:
 
 \begin{proposition}
-  In every [[connected component]] $[g] \in \mathrm{Conj}(G) \simeq \pi_0(\mathcal{L}\mathcal{A})$, the [[image]] of $\pi_1({\mathcal{L}\mathcal{A}})$ in $G$ is the centralizer group of $g$:
+  \label{DrinfeldCenterAsAdjointActionGroupoidRepresentations}
+  For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{Vec}_G$]] is [[equivalence of categories|equivalently]] the [[representation category]] of the [[inertia groupoid]] of $G$:
   \[
-    \label{ImageOfTopologicalMonodromyInG}
-    \pi_1(\mathrm{ev})
-    \big({
-      \pi_1({
-        \mathcal{L}\mathcal{A}
-      })
-    }\big)
+    \mathcal{Z}({\mathrm{Vec}_G})
     \simeq
-    Z_G(g)
-    \subset 
-    G
-    \mathrlap{\,.}
-  \]
-  Moreover, when $\mathcal{A}$ has trivial $\pi_2$, then $\pi_1({\mathcal{L}\mathcal{A}})$ is isomorphic to the centralizer 
-  \[
-    \label{ParameterMonodromyCoindicingWithCentralizer}
-    \mathllap{
-    \pi_2(\mathcal{A}) \simeq \ast
-    \;\;\;\;\;
-    \Rightarrow
-    \;\;\;\;\;
-    }
-    \pi_1({
-      \mathcal{L}\mathcal{A}
+    \mathrm{Rep}({
+      \Lambda G
     })
-    \simeq
-    Z_G(g)
     \mathrlap{\,.}
   \]
 \end{proposition}
-\begin{proof}
-Consider any loop $\gamma \in \Omega \mathcal{A}$ which represents the local topological phase $[g]$: 
 
-\begin{tikzcd}[sep=0pt]
-    G
-    \ar[rr, "{ \sim }"]
-    &&
-    \pi_0({\Omega\mathcal{A}})
-    \ar[rr]
-    &&
-    \pi_0({
-      \mathcal{L}\mathcal{A}
-    })
-    \ar[rr, "{ \sim }"]
-    &&
-    \mathrm{Conj}(G)
-    \\
-    g
-    &\leftrightarrow&
-    {[\gamma]}
-    &\mapsto&
-    {[\gamma]} 
-      &\leftrightarrow& 
-    {[g]}
-    \mathrlap{\,,}
-  \end{tikzcd}
-
-
-and with that used as the base point, consider the homotopy long exact sequence 
-induced by the map $\mathrm{ev}$ that evaluates a loop at its base point:
-$$
-  \Omega X
-  \longrightarrow
-  \mathcal{L}X
-  \xrightarrow{\phantom{-} ev \phantom{-}}
-  X
-  \mathrlap{\,,}
-$$
-of this form:
-
-\begin{imagefromfile}
-    "file_name": "CentralizerInHomotopyLES.png",
-    "width": 700,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 0, 
-        "left": 30
-    }
-\end{imagefromfile}
-
-On the right we are claiming that the [[connecting homomorphism]] $\partial$ [[conjugation action|acts by conjugation]] on $g \in G$. To see this, recall that $\partial$ is generally given on the class of a based loop $\ell \in P_0 \mathcal{A}$ by first lifting it through $\mathrm{ev}$ to a based path $\widehat \ell \in P_{[g]} \mathcal{L}\mathcal{A}$ and then evaluating that at its endpoint:
-$$
-  \partial\bracket({[\ell]})
-  =
-  \bracket[{\widehat{\ell}_1}]
-  \mathrlap{\,.}
-$$
-Here we may take $\widehat{\ell}$ to be given by 
-$$
-  \widehat{\ell}_t
+Prop. \ref{DrinfeldCenterAsAdjointActionGroupoidRepresentations} implies at once that *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
+\[
+  [g]
   \coloneqq
-  \mathrm{conc}\big({
-    \overline{\ell}(t-),
-    \gamma, 
-    \ell(t-)
-  }\big)
-$$
-(where "$\mathrm{conc}$" denotes [[concatenation]] and an overline denotes reversal of paths $[0,1] \to \mathcal{A}$), which implies the above equality of exact sequences.
-
-From this, the first claim (eq:ImageOfTopologicalMonodromyInG) follows by [[exact sequence|exactness]]: The [[image]] of $\pi_1(\mathrm{ev})$ is now identified with the [[kernel]] of $\mathrm{Ad}_{(-)}(g)$, and that is the centralizer $C_G(g)$, by definition. (Beware here that the copy of "$G$" in the bottom right above is the [[underlying set]] of the group, pointed by the element $g$.)
-
-Similarly for the second claim (eq:ParameterMonodromyCoindicingWithCentralizer): If $\pi_2(\mathcal{A}) = \pi_1(\Omega \mathcal{A})$ is trivial, then exactness gives that $\pi_1(\mathrm{ev})$ is [[injective]] and hence an [[isomorphism]] onto its image.
-\end{proof}
-
-For example, given any group $G$, we may consider $\mathcal{A} \coloneqq K(G,1)$, the [[Eilenberg-MacLane space]]. By definition, this has $\pi_1(\mathcal{A}) \simeq G$ and $\pi_2(\mathcal{A}) \simeq \ast$, and hence
-$$
-  \pi_1\big( \mathcal{L}\mathcal{A}, \gamma \big)
+  \big\{
+    k^{-1} g k
+  \big\vert
+    k \in G
+  \big\}
+  \mathrlap{\,,}
+\]
+where they form a [[groupoid representation]] of the [[connected component]] $[g] \sslash_{\!\mathrm{Ad}} G \subset G\sslash_{\!\mathrm{Ad}} G$. Since these connected groupoids are equivalent to the [[delooping groupoid|delooping]] of their [[isotropy group]], $[g] \sslash_{\!\mathrm{Ad}} G \simeq \mathbf{B}Z_G(g)$ (cf. [this prop.](groupoid#EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings)), these [[groupoid representations]] are [[equivalence of categories|equivalently]] [[linear representations]] of the [[centralizer group]] $Z_G(g)$:
+\[
+  \Big\{
+    \text{simple objects}
+  \Big\}
   \simeq
-  C_G(g)
+  \Big\{
+      [g] \sslash_{\!\mathrm{Ad}}G
+      \to
+      \mathrm{Vec}
+   \Big\vert
+      [g] \in \mathrm{Conj}(G)
+  \Big\}
+  \simeq
+  \Big\{
+      \mathbf{B}Z_G(g)
+      \to
+      \mathrm{Vec}
+  \Big\vert
+      [g] \in \mathrm{Conj}(G)
+  \Big\}
   \mathrlap{\,.}
-$$
+\]
+
 
 
 \linebreak
@@ -181,7 +256,6 @@ Let $C$ be a category. Suppose for each $c\in C$ we are given a collection of fa
 
 =--
 
-[[Antz-CQTS-Feb2026.pdf:file]]
 
 **Floquet theory**
 
