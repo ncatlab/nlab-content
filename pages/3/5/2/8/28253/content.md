@@ -20,6 +20,10 @@
 * table of contents
 {:toc}
 
+## Related concepts
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
 ## References
 
 * {#Sati14} [[Hisham Sati]], _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
