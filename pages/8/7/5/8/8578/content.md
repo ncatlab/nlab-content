@@ -232,11 +232,14 @@ $$
 
 ## Properties
 
-* _[[Stokes theorem]]_
+* [[Stokes theorem]]
 
 * [[kernel of integration is the exact differential forms]]
 
+
 ## Related concepts
+
+* [fiber integration of differential forms](fiber+integration#FiberwiseIntegrationOfOrdinaryDifferentialForms)
 
 * [[Lie integration]]
 
@@ -247,6 +250,7 @@ $$
 * [[absolute differential form]], [[cogerm differential form]]
 
 * [[motivic integration]], [[p-adic integration]]
+
 
 ## References
 
