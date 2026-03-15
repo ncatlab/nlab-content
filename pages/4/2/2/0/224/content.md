@@ -13,9 +13,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -224,6 +224,8 @@ Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces ma
 
 
 ## Related concepts
+
+* [Drinfeld center of $Vec_G$](Drinfeld+center#DrinfeldCenterOfGGradedVectorSpaces)
 
 * [[graded set]], [[graded object]]
 
