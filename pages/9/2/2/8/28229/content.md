@@ -16,6 +16,8 @@
 =--
 =--
 
+> Not to be confused with *[[M-string]]*.
+
 #Contents#
 * table of contents
 {:toc}
