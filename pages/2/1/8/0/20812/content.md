@@ -144,7 +144,7 @@ The suggestion originates in
 
 Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include
 
-* {#HopkinsSinger02} [[Michael Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
+* {#HopkinsSinger02} [[Michael Hopkins]], [[Isadore Singer]]: *[[Quadratic Functions in Geometry, Topology, and M-Theory]]*  J. Differential Geom. **70** 3 (2005) 329-452  &lbrack;[euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908), [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)&rbrack;
 
 * {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press (2007) &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
 
