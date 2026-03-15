@@ -20,6 +20,11 @@
 
 An _11-manifold_ is a [[manifold]] of [[dimension]] 11. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].) 11-manifolds are of particular interest as underlying [[spacetime]] in [[M-theory]] and its low energy limit in [[D=11 supergravity]].
 
+## Examples
+
+* 11-[[sphere]]
+* [[real projective space]] $\mathbb{R}P^11$
+
 ## Properties
 
 \begin{proposition}
