@@ -411,6 +411,9 @@ For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{
     })
     \mathrlap{\,.}
   \]
+(Beware that this equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is \emph{not} a [[nlab:strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in \eqref{TensorProductOnGradedVectorSpaces}.)
+
+
 
 The [[equivalence of categories|equivalence]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) implies at once that *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
 \[
@@ -446,6 +449,9 @@ where they form a [[groupoid representation]] of the [[connected component]] $[g
   \Big\}
   \mathrlap{\,.}
 \]
+
+However, the above [[equivalence of categories]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is *not* one of [[monoidal categories]]...
+
 
 \end{example}
 
