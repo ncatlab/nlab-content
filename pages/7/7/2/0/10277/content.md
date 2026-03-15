@@ -1,7 +1,24 @@
 
-* [webpage](http://www.math.ucla.edu/~vsv/)
+Veeravalli Seshadri Varadarajan (1937--2019)
+
+* [personal page](http://www.math.ucla.edu/~vsv/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Veeravalli_S._Varadarajan)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36691)
+
+* [inSpire page](https://inspirehep.net/authors/2358906)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Veeravalli-Varadarajan)
+
+
 
 ## Selected writings
+
+On [[mathematical physics|mathematical]] [[quantum mechanics]]:
+
+* [[Veeravalli S. Varadarajan]]: *Geometry of Quantum Theory*, Springer (1968) &lbrack;[doi:10.1007/978-0-387-49386-2](https://doi.org/10.1007/978-0-387-49386-2)&rbrack;
+  > "Over the years, the mathematics of quantum theory has become more abstract and, consequently, simpler."
 
 On [[supersymmetry]]:
 
@@ -30,3 +47,5 @@ On [[Spin(7)]]-[[subgroups]] of [[Spin(8)]]:
 
 
 category: people
+
+[[!redirects Veeravalli S. Varadarajan]]
