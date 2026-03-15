@@ -1,14 +1,22 @@
-# Contents
-* this block creates the table of contents, leave as is
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
 
 ## Idea
 
-A _pseudoform_ is a [[differential form]] that has been [[differential form|twisted]] by the [[pseudoscalar]] bundle.
+A _pseudoform_ is like a [[differential form]] that has been "twisted" by the [[pseudoscalar]] [[bundle]].
 
-Concretely, this means that when written in two (local) systems of
-coordinates, the form transforms by an additional factor of $-1$
-when the coordinate systems have opposite [[orientations]].
+Concretely, this means that when written in two (local) systems of coordinates, the form transforms by an additional factor of $-1$ when the coordinate systems have opposite [[orientations]].
 For a top-dimension pseudoform, this has the effect that at any given point,
 the form has a consistent sign regardless of the [[orientation]] of the coordinates.
 
