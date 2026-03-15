@@ -23,6 +23,7 @@ A _13-manifold_ is a [[manifold]] of [[dimension]] 13. (Generally a [[topologica
 ## Examples
 
 * [[13-sphere]], which appears in the octonionic [[Arnold-Kuiper-Massey theorem]] $\mathbb{O}P^2/Sp(1)\cong S^{13}$.
+* [[real projective space]] $\mathbb{R}P^13$
 * Spinʰ(5)
 
 ## Related concepts
