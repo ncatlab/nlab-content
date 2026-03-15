@@ -24,6 +24,8 @@ A _14-manifold_ is a [[manifold]] of [[dimension]] 14. (Generally a [[topologica
 
 * 14-[[sphere]]
 * Unique exotic 14-sphere (the [[Kervaire-Milnor group]] is $\Theta_14\cong\mathbb{Z}_2$)
+* [[real projective space]] $\mathbb{R}P^14$
+* [[complex projective space]] $\mathbb{C}P^7$
 
 ## Related concepts
 
