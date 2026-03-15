@@ -23,6 +23,8 @@ An _10-manifold_ is a [[manifold]] of [[dimension]] 10. (Generally a [[topologic
 ## Examples
 
 * 10-[[sphere]]
+* [[real projective space]] $\mathbb{R}P^10$
+* [[complex projective space]] $\mathbb{C}P^5$
 * O(5)
 * [[SO(5)]]
 * [[Spin(5)]]$\cong$[[Sp(2)]]
