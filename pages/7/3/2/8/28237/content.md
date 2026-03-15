@@ -20,6 +20,13 @@
 
 A _12-manifold_ is a [[manifold]] of [[dimension]] 12. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].)
 
+## Examples
+
+* 12-[[sphere]]
+* [[real projective space]] $\mathbb{R}P^12$
+* [[complex projective space]] $\mathbb{C}P^6$
+* [[complex projective space]] $\mathbb{H}P^3$
+
 ## Properties
 
 \begin{proposition}
