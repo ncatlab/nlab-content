@@ -17,6 +17,7 @@
 \tableofcontents
 
 
+
 ## Idea
 
 The notion of the _center of a monoidal category_ or the _Drinfeld center_ is a [[categorification]] of the notion of the [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
@@ -209,12 +210,18 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 ## Examples
  {#Examples}
 
-The archetypical example of Drinfeld centers is the following Drinfeld center of the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces]] (cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)), also known as the representation category of the *[[Drinfeld double]]* of $G$:
+### Of $G$-graded vector spaces
+ {#DrinfeldCenterOfGGradedVectorSpaces}
 
-\begin{example}
-\label{DrinfeldCenterOfGGradedVectorSpaces}
-**(Drinfeld center of $G$-[[graded vector spaces]])**
+The archetypical example of Drinfeld centers is that of the of the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces]] for a group $G$.
+
+This is also known as the representation category of the *[[Drinfeld double]]* of $G$. 
+
+We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which may not be in the literature, but cf. [Li 2026](Drinfeld+double#Li2026)).
+
 \linebreak
+
+We start by recalling definitions:
 
 By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \mathbb{C}}\big)$ we denote the [[monoidal category]] of [[finite-dimensional vector space|finite-dimensional]] [[complex vector spaces]] with the usual [[tensor product of vector spaces]]. For $G$ a [[group]], the monoidal category $\mathrm{Vec}_G$ of *$G$-[[graded vector spaces]]* has:
 
@@ -268,7 +275,7 @@ Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general de
    \[
      \label{TheHalfBraiding}
      \beta_{(-)}
-     :
+     \,\colon\,
      (-) \otimes V
      \xrightarrow{ \sim }
      V \otimes (-)
@@ -358,7 +365,7 @@ Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] o
 
 For these, the coherence condition (eq:CoherenceOfHalfBraiding) reduces to the *[action property](action#ActionPropertyOfGroupActions)*
 \[
-  g_2 \cdot ({g_1 \cdot (-)})
+  g_2 \cdot \big({g_1 \cdot (-)}\big)
   =
   (g_2 g_1) \cdot (-)
   \mathrlap{\,.}
@@ -366,7 +373,7 @@ For these, the coherence condition (eq:CoherenceOfHalfBraiding) reduces to the *
 This way, the objects of $\mathcal{Z}({\mathrm{Vec}_G})$ are [[bijection|bijectively]] identified with (complex, finite-dimensional) *[[groupoid representations]]* of the [[action groupoid]]
 $$
   \Lambda G
-  \colomneqq
+  \coloneqq
   G\sslash_{\!\mathrm{Ad}} G
 $$
 of the [[adjoint action]] of $G$ (its *[[inertia groupoid]]*):
@@ -401,6 +408,7 @@ of the [[adjoint action]] of $G$ (its *[[inertia groupoid]]*):
 
 In this representation-theoretic description, the morphisms (eq:ConditionOnMorphismsInDrinfeldCenter) of $\mathcal{Z}(\mathrm{Vec}_G)$ are equivalently the [[homomorphisms]] of [[groupoid representations]] (the *[[intertwiners]]*). This shows that:
 
+\begin{proposition}
 For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{Vec}_G$]] is [[equivalence of categories|equivalently]] the [[representation category]] of the [[inertia groupoid]] of $G$:
   \[
     \label{DrinfeldCenterAsAdjointActionGroupoidRepresentations}
@@ -411,49 +419,151 @@ For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{
     })
     \mathrlap{\,.}
   \]
-(Beware that this equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is \emph{not} a [[nlab:strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in \eqref{TensorProductOnGradedVectorSpaces}.)
+\end{proposition}
+\begin{remark}
+Beware that this equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is \emph{not} a [[strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in \eqref{TensorProductOnGradedVectorSpaces}.
+\end{remark}
 
-
-
-The [[equivalence of categories|equivalence]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) implies at once that *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
+The [[equivalence of categories|equivalence]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) implies at once that the *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
 \[
   [g]
   \coloneqq
   \big\{
-    k^{-1} g k
+    g^k
+     \coloneqq
+    k g k^{-1}
   \big\vert
     k \in G
   \big\}
   \mathrlap{\,,}
 \]
-where they form a [[groupoid representation]] of the [[connected component]] $[g] \sslash_{\!\mathrm{Ad}} G \subset G\sslash_{\!\mathrm{Ad}} G$. Since these connected groupoids are equivalent to the [[delooping groupoid|delooping]] of their [[isotropy group]], $[g] \sslash_{\!\mathrm{Ad}} G \simeq \mathbf{B}Z_G(g)$ (cf. [this prop.](groupoid#EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings)), these [[groupoid representations]] are [[equivalence of categories|equivalently]] [[linear representations]] of the [[centralizer group]] $Z_G(g)$:
+where they form an ([[irreducible representation|irreducible]]) [[groupoid representation]] of the [[connected component]] $[g] \sslash_{\!\mathrm{Ad}} G \subset G\sslash_{\!\mathrm{Ad}} G$. 
+Since these connected groupoids are [[equivalence of categories|equivalent]] to the [[delooping groupoid|delooping]] of their [[isotropy group]], $[g] \sslash_{\!\mathrm{Ad}} G \simeq \mathbf{B}Z_G(g)$ (cf. [this prop.](groupoid#EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings)), these [[groupoid representations]] are [[equivalence of categories|equivalently]] [[irreducible representation|irreducible]] [[linear representations]] of the [[centralizer group]] $Z_G(g)$:
+
+\begin{proposition}
+\label{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}
+The [[simple objects]] of $\mathcal{Z}\bracket({\mathrm{Vec}_G})$ are [[pairs]] $([g],\rho)$ consisting of a [[conjugacy class]] $[g]$ and an [[irrep]] of [[centralizer subgroup|$Z_G(g)$]]:
+
 \[
   \Big\{
     \text{simple objects}
   \Big\}
-  \simeq
-  \Big\{
-      [g] \sslash_{\!\mathrm{Ad}}G
-      \to
-      \mathrm{Vec}
-   \Big\vert
-      [g] \in \mathrm{Conj}(G)
-  \Big\}
-  \simeq
-  \Big\{
-      \mathbf{B}Z_G(g)
-      \to
-      \mathrm{Vec}
-  \Big\vert
-      [g] \in \mathrm{Conj}(G)
-  \Big\}
+  \;\simeq\;
+  \bigsqcup_{\mathclap{
+    \substack{
+      [g] \in
+      \\
+      \mathrm{Conj}(g)
+    }
+  }}
+  \mathrm{Irr}\big({
+    [g]\sslash_{\!\mathrm{Ad}}
+    G
+  }\big)
+  \;\simeq\;
+  \bigsqcup_{\mathclap{
+    \substack{
+      [g] \in
+      \\
+      \mathrm{Conj}(g)
+    }
+  }}
+  \mathrm{Irr}\big({
+    Z_G(g)
+  }\big)
   \mathrlap{\,.}
 \]
+\end{proposition}
 
-However, the above [[equivalence of categories]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is *not* one of [[monoidal categories]]...
 
+To determine the convolution tensor product ("[[fusion category|fusion]]") of a pair of such simple objects, we first need:
+\begin{lemma}
+  \label{OnTheDecompositionOfProductOrbits}
+  For $g,g' \in G$, with $[g] \times [g'] \subset G^2$ denoting the [[Cartesian product]] of their [[conjugacy classes]] (eq:ConjugacyClass), the [[action groupoid]] of the [[diagonal action|diagonal]] [[adjoint action]] is [[equivalence of categories|equivalent]] to the following [[disjoint union]] of [[delooping groupoids]]:
+\[
+  \label{DecompositionProductOrbits}
+  \big({
+    [g]
+      \times
+    [g']
+  }\big)
+  \sslash_{\!\mathrm{Ad}} G
+  \;\;\simeq\;\;
+  \bigsqcup_{\mathclap{
+    \substack{
+      [c] \in
+      \\
+      \mathrm{Conj}(G)
+    }
+  }}
+  \;\;\;
+  \bigsqcup_{
+    \substack{
+      [k,k'] \in R
+      \\
+      g^k g'^{k'} = c
+    }
+  }
+  \mathbf{B}\big({
+    Z_G(g)^k \cap Z_G(g')^{k'} 
+  }\big)
+  \mathrlap{\,,}
+\]
+where $R$ denotes the following [[double coset]]:
+\[
+  \label{DoubleCosetInProductOrbitDecomposition}
+  R
+  \coloneqq
+  Z_G(c) 
+    \backslash  
+  G^2 
+    / 
+  \big( Z_G(g) \times Z_G(g') \big)
+  \mathrlap{\,.}
+\]
+\end{lemma}
+\begin{proof}
+Consider the [[binary operation|group multiplication]] map
+$
+  {[g]} \times {[g']}
+  \xrightarrow{ (-) \cdot (-) }
+  G
+$. Since this is $G$-[[equivariant map|equivariant]] for the ([[diagonal action|diagonal]]) [[adjoint action]], the [[set]] of $G$-[[orbits]] in $[g] \times [g']$ is partitioned into [[subsets]] labeled by [[conjugacy classes]] $[c] \in \mathrm{Conj}(G)$. An [[orbit]] in $[g] \times [g']$ is in the subset labeled by $[c]$ iff it contains an element $(g^k, g'^{k'})$ such that $g^k g'^{k'} = c$, for some $(k,k') \in G^2$. With the representative $c$ of $[c]$ held fixed, the latter pair has a unique class $[k,k'] \in G^2/\big({ Z_G(g) \times Z_G(g') }\big)$, and hence the set of orbits labeled by $[c]$ is in bijection to $R$ (eq:DoubleCosetInProductOrbitDecomposition). 
 
-\end{example}
+This shows that the disjoint union on the right of (eq:DecompositionProductOrbits) is indexed by the set of orbits of the groupoid on the left. It just remains to observe that the [[stabilizer group]] of $(g^k, g'^{k'})$ under the diagonal adjoint action is $Z_G(g)^k \cap Z_G(g')^{k'}$, clearly.
+\end{proof}
+
+It follows that:
+
+\begin{proposition}
+\label{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}
+The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rho_2)}\big)$ contains a simple object $\big({[g],\rho}\big)$ with multiplicity:
+\begin{equation}
+  N_{ ([g_1],\rho_1), ([g_2],\rho_2)}^{([g],\rho)}
+  \;=\;
+  \sum_{\mathclap{
+    \substack{
+      [k_1,k_2] \in R
+      \\
+      g_1^{k_1} g_2^{k_2} = g
+    }
+  }}
+  \;
+  \mathrm{dim}\,
+  \mathrm{Hom}_{
+    Z_G(g_1)^{k_1}
+      \cap
+    Z_G(g_2)^{k_2}
+  }
+  \big({
+    \rho_1^{k_1}
+    \otimes
+    \rho_2^{k_2},
+    \rho
+  }\big)
+  \mathrlap{\,.}
+\end{equation}
+\end{proposition}
 
 
 
@@ -462,6 +572,7 @@ However, the above [[equivalence of categories]] (eq:DrinfeldCenterAsAdjointActi
 * [[center of a category]], [[center of an additive category]]
 
 * [[Drinfeld double]]
+
 
 
 ## References
