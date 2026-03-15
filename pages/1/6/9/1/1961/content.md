@@ -998,6 +998,8 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 
 * [[synthetic tangent bundle]], [[kinematic tangent bundle]], [[operational tangent bundle]]
 
+* [[vertical tangent bundle]]
+
 * [[cotangent bundle]]
 
 * [[normal bundle]]
