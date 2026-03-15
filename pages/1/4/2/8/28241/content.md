@@ -24,6 +24,9 @@ A _16-manifold_ is a [[manifold]] of [[dimension]] 16. (Generally a [[topologica
 
 * 16-[[sphere]]
 * Unique exotic 16-sphere (the [[Kervaire-Milnor group]] is $\Theta_16\cong\mathbb{Z}_2$)
+* [[real projective space]] $\mathbb{R}P^16$
+* [[complex projective space]] $\mathbb{C}P^8$
+* [[complex projective space]] $\mathbb{H}P^4$
 * U(4)
 * [[Spinᶜ(6)]]
 
