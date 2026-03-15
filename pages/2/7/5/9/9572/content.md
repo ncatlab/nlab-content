@@ -16,6 +16,7 @@
 
 \tableofcontents
 
+
 ## Idea
 
 The notion of the _center of a monoidal category_ or the _Drinfeld center_ is a [[categorification]] of the notion of the [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
@@ -201,22 +202,253 @@ See also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](#DrinfeldGelakiNik
 
 Under [[Tannaka duality]], forming the Drinfeld center of a [[category of modules]] of some [[Hopf algebra]] corresponds to forming the category of modules over the corresponding [[Drinfeld double]] algebra. See there for more.
 
+
 [[!include structure on algebras and their module categories - table]]
 
-## Examples
 
+## Examples
+ {#Examples}
+
+The archetypical example of Drinfeld centers is the following Drinfeld center of the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces]] (cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)), also known as the representation category of the *[[Drinfeld double]]* of $G$:
 
 \begin{example}
-**($G$-[[graded vector spaces]])**
+\label{DrinfeldCenterOfGGradedVectorSpaces}
+**(Drinfeld center of $G$-[[graded vector spaces]])**
 \linebreak
-For $G$ a [[group]], let $Vec_G$ denote the [[tensor category]] of $G$-[[graded vector spaces]]. Then the objects in $\mathcal{Z}(Vec_G )$ consist of [[pairs]] $(C,V)$ for 
 
-* $C$ a finite [[conjugacy class]] of $G$, 
+By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \mathbb{C}}\big)$ we denote the [[monoidal category]] of [[finite-dimensional vector space|finite-dimensional]] [[complex vector spaces]] with the usual [[tensor product of vector spaces]]. For $G$ a [[group]], the monoidal category $\mathrm{Vec}_G$ of *$G$-[[graded vector spaces]]* has:
 
-* $V$ a [[finite-dimensional vector space|finite]] [[irreducible representation]] of the [[centralizer]] of $g\in C$. 
+1. as [[objects]] [[vector spaces]] $V \in \mathrm{Vec}$ equipped with $G$-[[indexed set|indexed]] [[direct sum]] decomposition
+
+   $$  
+     V
+     \equiv
+     \bigoplus_{g \in G}
+     V_g
+     \mathrlap{\,,}
+   $$
+
+1. as [[morphisms]] [[linear maps]] that respect the $G$-grading,
+
+1.  as [[monoidal category|monoidal]] [[structure]] the [[tensor product of vector spaces|ordinary tensor product]] equipped with the [[convolution]] grading:
+   $$
+     (V \otimes W)_g
+     \coloneqq
+     \bigoplus_{k \in G}
+     \big({
+       V_{k} \otimes W_{k^{-1} g}
+     }\big)
+     \mathrlap{\,.}
+   $$
+
+For example, with $X \in \mathrm{Vec}$ an ungraded vector space and $g_0 \in G$ a group element, we write
+\[
+  \label{GradedVectorSpaceConcentratedInSingleDegree}
+  X \delta_{g_0}
+  \in 
+  \mathrm{Vec}_G
+  \,,
+  \;\;\;
+  ({X \delta_{g_0}})_g
+  \coloneqq
+  \left\{
+  \begin{array}{ll}
+    X & \text{if}\;g = g_0
+    \\
+    0 & \text{otherwise}
+  \end{array}
+  \right.
+\]
+for the $G$-graded vector space which is concentrated on $X$ in degree $g_0$.
+
+Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general definition (Def. \ref{CompDef}, but we now change the conventuion for the handedness of the half-braiding in order to end up with *left* group actions), the [[monoidal category]] which has:
+
+1. as [[objects]] [[pairs]], $(V,\beta)$, consisting of a $V \in \mathrm{Vec}_G$ and a [[natural isomorphism]] (the \emph{half-braiding})
+
+   \[
+     \label{TheHalfBraiding}
+     \beta_{(-)}
+     :
+     (-) \otimes V
+     \xrightarrow{ \sim }
+     V \otimes (-)
+     \mathrlap{\,,}
+   \]
+
+   satisfying for all $W, W' \in \mathrm{Vec}_G$ the relation
+   \[
+     \label{CoherenceOfHalfBraiding}
+     \beta_{W \otimes W'}
+     =
+     \big({
+       \beta_{W} \otimes \mathrm{id}_{W'}
+     }\big)
+       \circ
+     \big({
+       \mathrm{id}_{W} \otimes \beta_{W'}
+     }\big)
+     \mathrlap{\,,}
+   \]
+
+1. as [[morphisms]] $(V,\beta) \to (V',\beta')$ [[linear maps]] $f \colon V \to V'$ such that for all $W \in \mathrm{Vec}_G$ we have
+  \[
+    \label{ConditionOnMorphismsInDrinfeldCenter}
+    \beta'_W
+    \circ
+    \big(
+      id_W \otimes f
+    \big)
+    =
+    \big(
+      f \otimes id_{W}
+    \big)
+    \circ
+    \beta_W
+    \mathrlap{\,,}
+  \]
+
+1. as [[tensor product]] the operation
+   \[
+     (V,\beta)
+     \otimes
+     (V',\beta')
+     =
+     \big({
+       V \otimes V',
+       (\mathrm{id}_{V} \otimes \beta')
+       \circ
+       (\beta \otimes \mathrm{id}_{V'})
+     }\big)
+     \mathrlap{\,.}
+   \]
+
+But this general definition of Drinfeld center may be simplified in the present case: 
+
+Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] of copies of [[complex numbers|$\mathbb{C}$]], the linear maps $\beta_{(-)}$ (eq:TheHalfBraiding) are determined already by their values on $\mathbb{C} \delta_{g_0}$ (eq:GradedVectorSpaceConcentratedInSingleDegree); and if we understand that $\mathbb{C} \otimes V = V$, then, by degree reasons, their $g_0 g$-components must be [[linear isomorphisms]] $g_0 \cdot (-)$ of this form:
+
+\begin{tikzcd}
+    \big({
+      \mathbb{C} \delta_{g_0}
+        \otimes 
+      V 
+    }\big)_{g_0 g}
+    \ar[
+      r,
+      "{ 
+        ({
+          \beta_{\mathbb{C}\delta_{g_0}} 
+        })_{g_0 g}
+      }"
+    ]
+    \ar[d, equals]
+    &
+    \big({
+      V
+        \otimes 
+      \mathbb{C}\delta_{g_0} 
+    }\big)_{g_0 g}
+    \ar[d, equals]
+    \\
+    V_{g} 
+    \ar[r, "{ g_0\cdot(-) }"]
+      &
+    V_{g_0 g g_0^{-1}}
+    \mathrlap{\,.}
+\end{tikzcd}
+
+For these, the coherence condition (eq:CoherenceOfHalfBraiding) reduces to the *[action property](action#ActionPropertyOfGroupActions)*
+\[
+  g_2 \cdot ({g_1 \cdot (-)})
+  =
+  (g_2 g_1) \cdot (-)
+  \mathrlap{\,.}
+\]
+This way, the objects of $\mathcal{Z}({\mathrm{Vec}_G})$ are [[bijection|bijectively]] identified with (complex, finite-dimensional) *[[groupoid representations]]* of the [[action groupoid]]
+$$
+  \Lambda G
+  \colomneqq
+  G\sslash_{\!\mathrm{Ad}} G
+$$
+of the [[adjoint action]] of $G$ (its *[[inertia groupoid]]*):
+
+\begin{tikzcd}[sep=0pt]
+    \Lambda G
+    \ar[
+      rr
+    ]
+    &&
+    \mathrm{Vec}
+    \\
+    g
+    \ar[
+      d,
+      "{ g_1 }"
+    ]
+    &\mapsto&
+    V_g
+    \ar[
+      d,
+      "{ g_1 \cdot }"
+    ]
+    \\[20pt]
+    g_1
+    g 
+    g_1^{-1}
+    &\mapsto&
+    V_{g_1 g g_1^{-1}}
+    \mathrlap{\,.}
+\end{tikzcd}
+
+In this representation-theoretic description, the morphisms (eq:ConditionOnMorphismsInDrinfeldCenter) of $\mathcal{Z}(\mathrm{Vec}_G)$ are equivalently the [[homomorphisms]] of [[groupoid representations]] (the *[[intertwiners]]*). This shows that:
+
+For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{Vec}_G$]] is [[equivalence of categories|equivalently]] the [[representation category]] of the [[inertia groupoid]] of $G$:
+  \[
+    \label{DrinfeldCenterAsAdjointActionGroupoidRepresentations}
+    \mathcal{Z}({\mathrm{Vec}_G})
+    \simeq
+    \mathrm{Rep}({
+      \Lambda G
+    })
+    \mathrlap{\,.}
+  \]
+
+The [[equivalence of categories|equivalence]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) implies at once that *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
+\[
+  [g]
+  \coloneqq
+  \big\{
+    k^{-1} g k
+  \big\vert
+    k \in G
+  \big\}
+  \mathrlap{\,,}
+\]
+where they form a [[groupoid representation]] of the [[connected component]] $[g] \sslash_{\!\mathrm{Ad}} G \subset G\sslash_{\!\mathrm{Ad}} G$. Since these connected groupoids are equivalent to the [[delooping groupoid|delooping]] of their [[isotropy group]], $[g] \sslash_{\!\mathrm{Ad}} G \simeq \mathbf{B}Z_G(g)$ (cf. [this prop.](groupoid#EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings)), these [[groupoid representations]] are [[equivalence of categories|equivalently]] [[linear representations]] of the [[centralizer group]] $Z_G(g)$:
+\[
+  \Big\{
+    \text{simple objects}
+  \Big\}
+  \simeq
+  \Big\{
+      [g] \sslash_{\!\mathrm{Ad}}G
+      \to
+      \mathrm{Vec}
+   \Big\vert
+      [g] \in \mathrm{Conj}(G)
+  \Big\}
+  \simeq
+  \Big\{
+      \mathbf{B}Z_G(g)
+      \to
+      \mathrm{Vec}
+  \Big\vert
+      [g] \in \mathrm{Conj}(G)
+  \Big\}
+  \mathrlap{\,.}
+\]
 
 \end{example}
-This is Example 8.5.4. in [EGNO 2015](#EGNO15).
+
 
 
 ## Related concepts
