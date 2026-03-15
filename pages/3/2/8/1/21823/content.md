@@ -14,12 +14,11 @@
 =--
 =--
 
+> Not to be confused with *[[MString]]*.
 
 #Contents#
 * table of contents
 {:toc}
-
-
 
 ## Idea
 
