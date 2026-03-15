@@ -16,13 +16,12 @@ On [[Dijkgraaf-Witten theory]]:
 
 * {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]]: *Topological Gauge Theories and Group Cohomology*, Commun. Math. Phys. **129** (1990) 393 &lbrack;[doi:10.1007/BF02096988](https://doi.org/10.1007/BF02096988), [euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full), [pdf](/nlab/files/DW.pdf)&rbrack;
 
-* [[Robbert Dijkgraaf]], V. Pasquier, P. Roche, _Quasi-Hopf algebras, group cohomology and orbifold models_, Nucl. Phys. B Proc. Suppl. __18B__ (1990), 60-72; _Quasi-quantum groups related to orbifold models_, Modern quantum field theory (Bombay, 1990), 375&#8211;383, World Sci. 1991
+and the [[Drinfeld double]] [[quantum group]] of a [[finite group]], motivated from [[rational conformal field theory|rational]] [[orbifold]] [[conformal field theory]]:
 
-On [[Drinfeld doubles]] of [[quasi-Hopf algebras]], motivated from [[rational conformal field theory|rational]] [[orbifold]] [[conformal field theories]]:
+* {#DijkgraafPasquierRoche90} [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], *Quasi Hopf algebras, group cohomology and orbifold models*, Nucl. Phys. B Proc. Suppl **18** (1990) 60--72 &lbrack;<a href="https://doi.org/10.1016/0920-5632(91)90123-V">doi:10.1016/0920-5632(91)90123-V</a>&rbrack;
 
-* [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], *QuasiHopf algebras, group cohomology and orbifold models*, Nucl. Phys. B Proc. Suppl **18** (1990) 60-72 &lbrack;<a href="https://doi.org/10.1016/0920-5632(91)90123-V">doi:10.1016/0920-5632(91)90123-V</a>&rbrack;
+* [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], _Quasi-quantum groups related to orbifold models_, *International Colloquium on Modern Quantum Field Theory* (Bombay, 1990), 375--383, World Sci. (1991) &lbrack;[cds:206306](https://cds.cern.ch/record/206306?ln=ka), [[DPR-QuasiQuantumGroups.pdf:file]]&rbrack;
 
-* [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], _Quasi-quantum groups related to orbifold models_, *International Colloquium on Modern Quantum Field Theory* (Bombay, 1990), 375-383, World Sci. (1991) &lbrack;[cds:206306](https://cds.cern.ch/record/206306?ln=ka), [[DPR-QuasiQuantumGroups.pdf:file]]&rbrack;
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
