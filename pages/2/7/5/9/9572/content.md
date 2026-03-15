@@ -565,6 +565,7 @@ The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rh
 \end{equation}
 \end{proposition}
 
+\linebreak
 
 
 ## Related concepts
