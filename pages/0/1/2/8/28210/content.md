@@ -62,6 +62,26 @@ $$
 $$
 which has the cartesian product as additional composition and the singleton as an additional neutral element.
 
+## Properties
+
+\begin{proposition}
+Every $n$-dimensional [[fivebrane manifold]] is fivebrane bordant to a $\min\left\{8,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[fivebrane manifold]], equivalently meaning that every fivebrane bordism homology class in $\Omega_n^Fivebrane$ can be represented by such a [[fivebrane manifold]]. (For $n\geq 17$, the result stabilizes at a [[n-connected space|8-connected]] [[fivebrane manifold]].)
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (1)](#BotvinnikLabbi14))
+
+\begin{proposition}
+For $n$-dimensional $\min\left\{8,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[fivebrane manifolds]] $M$ and $N$, a fivebrane bordism $W\colon M\rightsquigarrow N$ exists with $M\hookrightarrow W$ also $\min\left\{8,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]].
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (2)](#BotvinnikLabbi14))
+
+\begin{proposition}
+If a $n$-dimensional $k$-[[n-connected space|connected]] [[compact]] [[fivebrane manifold]] $M$ with $k\leq 7$ and $n\geq 2k+3$ is fivebrane bordant to another [[compact]] [[fivebrane manifold]] $N$, then $M$ can be obtained from $N$ by [[surgery]] of [[codimension]] at least $k+2$.
+\end{proposition}
+
+([Botvinnik & Labbi 14, Prop. 3.4 & Crl. 3.6](#BotvinnikLabbi14))
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
