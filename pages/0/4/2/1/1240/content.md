@@ -569,7 +569,7 @@ With this in hand we have an equivalent but "more obvious" re-statement of the e
 
 \begin{proposition}
 **(resolved left induced representation)**
-  The functor $\widehat{\mathbf{B}\iota}$ (eq:ResolutionOfBIota) has a [[left adjoint]] $\big(\widehat{\mathbf{B}\iota}\big)_! \,\colon\, Func\big( G \sslash\!\sslash G/H ,\, Vect \big) \longrightarrow Func\big(G \sslash\!\sslash \{\ast\},\, Vect\big)$ given by
+  The functor $\widehat{\mathbf{B}\iota}$ (eq:ResolutionOfBIota) has a [[left adjoint]] $\big(\widehat{\mathbf{B}\iota}\big)_! \,\colon\, Func\big( G \backslash\!\backslash G/H ,\, Vect \big) \longrightarrow Func\big(G \backslash\!\backslash \{\ast\},\, Vect\big)$ given by
 \[
   \label{ResolvedLeftInducedRepresentation}
   \mathscr{V}
