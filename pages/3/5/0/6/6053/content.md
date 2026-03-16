@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -114,6 +113,11 @@ On representation theory of the quantum double of a finite group
 On the [[fusion ring]]:
 
 * {#Li2026} Wenqi Li: *Fusion Rings over Drinfeld Doubles*, Journal of Algebra and Its ApplicationsVol. **25** 07 (2026) 2650052  &lbrack;[doi:10.1142/S0219498826500520](https://doi.org/10.1142/S0219498826500520), [arXiv:2306.05560](https://arxiv.org/abs/2306.05560)&rbrack;
+
+In the context of [[lattice models]] for [[anyons]]:
+
+* {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*,  Annals Phys. **303** (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
+
 
 [[!redirects Drinfel'd doubles]]
 
