@@ -219,7 +219,8 @@ This is also known as the representation category of the *[[Drinfeld double]]* o
 
 We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which may not be in the literature, but cf. [Li 2026](Drinfeld+double#Li2026)).
 
-\linebreak
+
+#### The simple objects
 
 We start by recalling definitions:
 
@@ -238,7 +239,7 @@ By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \ma
 1. as [[morphisms]] [[linear maps]] that respect the $G$-grading,
 
 1.  as [[monoidal category|monoidal]] [[structure]] the [[tensor product of vector spaces|ordinary tensor product]] equipped with the [[convolution]] grading:
-   $$
+   \[\label{TensorProductOnGradedVectorSpaces}
      (V \otimes W)_g
      \coloneqq
      \bigoplus_{k \in G}
@@ -246,7 +247,7 @@ By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \ma
        V_{k} \otimes W_{k^{-1} g}
      }\big)
      \mathrlap{\,.}
-   $$
+   \]
 
 For example, with $X \in \mathrm{Vec}$ an ungraded vector space and $g_0 \in G$ a group element, we write
 \[
@@ -420,9 +421,7 @@ For $G$ a [[group]], the [[Drinfeld center]] of [[graded vector spaces|$\mathrm{
     \mathrlap{\,.}
   \]
 \end{proposition}
-\begin{remark}
-Beware that this equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is \emph{not} a [[strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in \eqref{TensorProductOnGradedVectorSpaces}.
-\end{remark}
+
 
 The [[equivalence of categories|equivalence]] (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) implies at once that the *[[simple objects]]* in $\mathcal{Z}({\mathrm{Vec}_G})$ (those admitting no nontrivial [[direct sum]] decomposition) are [[support|supported]] on [[conjugacy classes]] of group elements
 \[
@@ -476,6 +475,11 @@ The [[simple objects]] of $\mathcal{Z}\bracket({\mathrm{Vec}_G})$ are [[pairs]] 
 \end{proposition}
 
 
+
+#### The fusion product
+
+Beware that the above equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is *not* a [[strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in (eq:TensorProductOnGradedVectorSpaces).
+
 To determine the convolution tensor product ("[[fusion category|fusion]]") of a pair of such simple objects, we first need:
 \begin{lemma}
   \label{OnTheDecompositionOfProductOrbits}
@@ -505,7 +509,7 @@ To determine the convolution tensor product ("[[fusion category|fusion]]") of a 
     }
   }
   \mathbf{B}\big({
-    Z_G(g)^k \cap Z_G(g')^{k'} 
+    Z_G(g^k,g'^{l'}) 
   }\big)
   \mathrlap{\,,}
 \]
@@ -530,7 +534,7 @@ $
   G
 $. Since this is $G$-[[equivariant map|equivariant]] for the ([[diagonal action|diagonal]]) [[adjoint action]], the [[set]] of $G$-[[orbits]] in $[g] \times [g']$ is partitioned into [[subsets]] labeled by [[conjugacy classes]] $[c] \in \mathrm{Conj}(G)$. An [[orbit]] in $[g] \times [g']$ is in the subset labeled by $[c]$ iff it contains an element $(g^k, g'^{k'})$ such that $g^k g'^{k'} = c$, for some $(k,k') \in G^2$. With the representative $c$ of $[c]$ held fixed, the latter pair has a unique class $[k,k'] \in G^2/\big({ Z_G(g) \times Z_G(g') }\big)$, and hence the set of orbits labeled by $[c]$ is in bijection to $R$ (eq:DoubleCosetInProductOrbitDecomposition). 
 
-This shows that the disjoint union on the right of (eq:DecompositionProductOrbits) is indexed by the set of orbits of the groupoid on the left. It just remains to observe that the [[stabilizer group]] of $(g^k, g'^{k'})$ under the diagonal adjoint action is $Z_G(g)^k \cap Z_G(g')^{k'}$, clearly.
+This shows that the disjoint union on the right of (eq:DecompositionProductOrbits) is indexed by the set of orbits of the groupoid on the left. Since the disjoint union is over the [[delooping groupoids]] of the [[isotropy groups]] of these orbits, the claim follows.
 \end{proof}
 
 It follows that:
@@ -564,6 +568,9 @@ The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rh
   \mathrlap{\,.}
 \end{equation}
 \end{proposition}
+\begin{proof}
+  ...
+\end{proof}
 
 \linebreak
 
