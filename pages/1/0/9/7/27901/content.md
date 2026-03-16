@@ -18,6 +18,10 @@ Discussion of [[anyon]] [[fusion categories]] via [[string-localized quantum fie
 
 * Matthew Cha, [[Pieter Naaijkens]], [[Bruno Nachtergaele]]: *On the stability of charges in infinite quantum spin systems*, Commun. Math. Phys. **373** (2020) 219–264 \[<a href="https://doi.org/10.1007/s00220-019-03630-1">doi:10.1007/s00220-019-03630-1</a>, [arXiv:1804.03203](https://arxiv.org/abs/1804.03203)\]
 
+On the [[quantum double model]] via [[AQFT]]:
+
+* [[Pieter Naaijkens]]: *Kitaev's quantum double model from a local quantum physics point of view*, in: *Advances in Algebraic Quantum Field Theory*, Mathematical Physics Studies, Springer (2015) \[<a href="https://doi.org/10.1007/978-3-319-21353-8_9">doi:10.1007/978-3-319-21353-8_9</a>, [arXiv:1508.07170](https://arxiv.org/abs/1508.07170)\]
+
 
 On the [[Levin-Wen model]]:
 
