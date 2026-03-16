@@ -62,6 +62,26 @@ $$
 $$
 which has the cartesian product as additional composition and the singleton as an additional neutral element.
 
+## Properties
+
+\begin{proposition}
+Every $n$-dimensional [[ninebrane manifold]] is ninebrane bordant to a $\min\left\{15,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[ninebrane manifold]], equivalently meaning that every ninebrane bordism homology class in $\Omega_n^Ninebrane$ can be represented by such a [[ninebrane manifold]]. (For $n\geq 31$, the result stabilizes at a [[n-connected space|15-connected]] [[ninebrane manifold]].)
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (1)](#BotvinnikLabbi14))
+
+\begin{proposition}
+For $n$-dimensional $\min\left\{15,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[ninebrane manifolds]] $M$ and $N$, a ninebrane bordism $W\colon M\rightsquigarrow N$ exists with $M\hookrightarrow W$ also $\min\left\{15,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]].
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (2)](#BotvinnikLabbi14))
+
+\begin{proposition}
+If a $n$-dimensional $k$-[[n-connected space|connected]] [[compact]] [[ninebrane manifold]] $M$ with $k\leq 14$ and $n\geq 2k+3$ is ninebrane bordant to another [[compact]] [[ninebrane manifold]] $N$, then $M$ can be obtained from $N$ by [[surgery]] of [[codimension]] at least $k+2$.
+\end{proposition}
+
+([Botvinnik & Labbi 14, Prop. 3.4](#BotvinnikLabbi14))
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
