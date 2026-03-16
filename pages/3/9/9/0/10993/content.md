@@ -263,7 +263,7 @@ The [[presheaf category]]-construction $(\mathbb{C}\mapsto [{\mathbb{C}}^{\mathr
 \end{example}
 
 \begin{example}
-A [[monad with arities|monad on $\mathbf C$ with arities in $A\subseteq \mathbf C$]] is the same thing as a relative monad for the embedding $A\to \mathbf C$. (Here $A\subseteq E$ is required to be a [[dense subcategory]], so that to give a functor $A\subseteq E$ is to give a functor $E\toE$ preserving $J$-absolute colimits.)
+A [[monad with arities|monad on $\mathbf C$ with arities in $A\subseteq \mathbf C$]] is the same thing as a relative monad for the embedding $A\to \mathbf C$. (Here $A\subseteq E$ is required to be a [[dense subcategory]], so that to give a functor $A\subseteq E$ is to give a functor $E \to E$ preserving $J$-absolute colimits.)
 \end{example}
 
 ### Specific examples
