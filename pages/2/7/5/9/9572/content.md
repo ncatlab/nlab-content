@@ -222,7 +222,7 @@ We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleOb
 
 #### The simple objects
 
-We start by recalling definitions:
+We start by recalling definitions and establishing notation:
 
 By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \mathbb{C}}\big)$ we denote the [[monoidal category]] of [[finite-dimensional vector space|finite-dimensional]] [[complex vector spaces]] with the usual [[tensor product of vector spaces]]. For $G$ a [[group]], the monoidal category $\mathrm{Vec}_G$ of *$G$-[[graded vector spaces]]* has:
 
@@ -238,9 +238,9 @@ By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \ma
 
 1. as [[morphisms]] [[linear maps]] that respect the $G$-grading,
 
-1.  as [[monoidal category|monoidal]] [[structure]] the [[tensor product of vector spaces|ordinary tensor product]] equipped with the [[convolution]] grading:
+1.  as [[monoidal category|monoidal]] [[structure]] $\widetilde \otimes$ the  [[tensor product of vector spaces|ordinary tensor product]] but equipped with the [[convolution]] grading:
    \[\label{TensorProductOnGradedVectorSpaces}
-     (V \otimes W)_g
+     \big(V \widetilde\otimes W\big)_g
      \coloneqq
      \bigoplus_{k \in G}
      \big({
@@ -248,6 +248,8 @@ By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \ma
      }\big)
      \mathrlap{\,.}
    \]
+
+   We will be referring to $\widetilde\otimes$, and its incarnation (eq:TensorProductInDrinfeldCenterOfVecG) in the Drinfeld center, as the *fusion product*, to be distinguished from the degreewise tensor product (cf. also Rem. \ref{DrinfeldCenterNotMonoidallyEquivalent} below).
 
 For example, with $X \in \mathrm{Vec}$ an ungraded vector space and $g_0 \in G$ a group element, we write
 \[
@@ -277,23 +279,23 @@ Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general de
      \label{TheHalfBraiding}
      \beta_{(-)}
      \,\colon\,
-     (-) \otimes V
+     (-) \widetilde\otimes V
      \xrightarrow{ \sim }
-     V \otimes (-)
+     V \widetilde\otimes (-)
      \mathrlap{\,,}
    \]
 
    satisfying for all $W, W' \in \mathrm{Vec}_G$ the relation
    \[
      \label{CoherenceOfHalfBraiding}
-     \beta_{W \otimes W'}
+     \beta_{W \widetilde\otimes W'}
      =
      \big({
-       \beta_{W} \otimes \mathrm{id}_{W'}
+       \beta_{W} \widetilde\otimes \mathrm{id}_{W'}
      }\big)
        \circ
      \big({
-       \mathrm{id}_{W} \otimes \beta_{W'}
+       \mathrm{id}_{W} \widetilde\otimes \beta_{W'}
      }\big)
      \mathrlap{\,,}
    \]
@@ -304,28 +306,28 @@ Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general de
     \beta'_W
     \circ
     \big(
-      id_W \otimes f
+      id_W \widetilde\otimes f
     \big)
     =
     \big(
-      f \otimes id_{W}
+      f \widetilde\otimes id_{W}
     \big)
     \circ
     \beta_W
     \mathrlap{\,,}
   \]
 
-1. as [[tensor product]] the operation
-   \[
+1. as [[tensor product]] $\widetilde\otimes$ the operation which on the graded vector spaces is the convolution product $\widetilde\otimes$ from (eq:TensorProductOnGradedVectorSpaces), extended to the half-braiding as follows:
+   \[\label{TensorProductInDrinfeldCenterOfVecG}
      (V,\beta)
-     \otimes
+     \widetilde\otimes
      (V',\beta')
      =
      \big({
-       V \otimes V',
-       (\mathrm{id}_{V} \otimes \beta')
+       V \widetilde\otimes V',
+       (\mathrm{id}_{V} \widetilde\otimes \beta')
        \circ
-       (\beta \otimes \mathrm{id}_{V'})
+       (\beta \widetilde\otimes \mathrm{id}_{V'})
      }\big)
      \mathrlap{\,.}
    \]
@@ -337,7 +339,7 @@ Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] o
 \begin{tikzcd}
     \big({
       \mathbb{C} \delta_{g_0}
-        \otimes 
+        \widetilde\otimes 
       V 
     }\big)_{g_0 g}
     \ar[
@@ -352,7 +354,7 @@ Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] o
     &
     \big({
       V
-        \otimes 
+        \widetilde\otimes 
       \mathbb{C}\delta_{g_0} 
     }\big)_{g_0 g}
     \ar[d, equals]
@@ -441,7 +443,7 @@ Since these connected groupoids are [[equivalence of categories|equivalent]] to 
 
 \begin{proposition}
 \label{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}
-The [[simple objects]] of $\mathcal{Z}\bracket({\mathrm{Vec}_G})$ are [[pairs]] $([g],\rho)$ consisting of a [[conjugacy class]] $[g]$ and an [[irrep]] of [[centralizer subgroup|$Z_G(g)$]]:
+The [[simple objects]] of $\mathcal{Z}({\mathrm{Vec}_G})$ are [[pairs]] $([g],\rho)$ consisting of a [[conjugacy class]] $[g]$ and an [[irrep]] of [[centralizer subgroup|$Z_G(g)$]]:
 
 \[
   \Big\{
@@ -478,9 +480,65 @@ The [[simple objects]] of $\mathcal{Z}\bracket({\mathrm{Vec}_G})$ are [[pairs]] 
 
 #### The fusion product
 
+\begin{remark}\label{DrinfeldCenterNotMonoidallyEquivalent}
 Beware that the above equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) is *not* a [[strong monoidal functor|monoidal]] equivalence, as the standard tensor product on groupoid representations is degree-wise, not convolutive as in (eq:TensorProductOnGradedVectorSpaces).
+\end{remark}
 
-To determine the convolution tensor product ("[[fusion category|fusion]]") of a pair of such simple objects, we first need:
+Instead, the fusion product in the Drinfeld center is category-theoretically given as follows:
+\begin{lemma}\label{FusionViaPullPush}
+  For a pair of objects $F_1,F_2 \in \mathrm{Rep}(\Lambda G) \simeq \mathcal{Z}({\mathrm{Vec}_G})$ (eq:DrinfeldCenterEquivalentToInertiaGroupoidReps), their fusion tensor product $\widetilde\otimes$ (eq:TensorProductInDrinfeldCenter) is equivalently given by the following pull-tensor-push operation:
+  $$
+    \begin{array}{ccc}
+      ({
+        G\sslash_{\!\mathrm{Ad}}G
+      })
+      \times
+      ({
+        G\sslash_{\!\mathrm{Ad}}G
+      })
+      &
+      \xleftarrow{
+          (\mathrm{pr}_1,\mathrm{pr}_2)
+        }
+      &
+      ({G \times G})
+      \sslash_{\!\mathrm{Ad}}G
+      &
+      \xrightarrow{ 
+          m \coloneqq
+          (-)\cdot(-) 
+        }
+      &
+      G\sslash_{\!\mathrm{Ad}}G
+      \\
+      ({F,F'})
+      &\mapsto&
+      &\mapsto&
+      m_!\big({
+        ({\mathrm{pr}_1^\ast F})
+        \otimes
+        ({\mathrm{pr}_2^\ast F})
+      }\big)
+    \end{array}
+  $$
+  in that there is a [[natural isomorphism]]
+  \[
+    F_1 \widetilde\otimes F_2
+    \simeq
+      m_!\big({
+        ({\mathrm{pr}_1^\ast F})
+        \otimes
+        ({\mathrm{pr}_2^\ast F})
+      }\big)    
+    \mathrlap{\,.}
+  \]
+\end{lemma}
+\begin{proof}
+  Since the functor $m$ is a Kan fibration, the left base change $m_!$ is given by forming the direct sum over fibers. (It is immediate to check the universal property of the left adjoint explicitly.) This reproduces the definition (eq:TensorProductOnGradedVectorSpaces). The induced $G$-action on these direct sums is the diagonal one, which under the equivalence (eq:DrinfeldCenterAsAdjointActionGroupoidRepresentations) reproduces the definition (eq:TensorProductInDrinfeldCenterOfVecG). 
+\end{proof}
+
+
+To determine concretely the convolution tensor product $\widetilde{\otimes}$ of a pair of such simple objects, we first need:
 \begin{lemma}
   \label{OnTheDecompositionOfProductOrbits}
   For $g,g' \in G$, with $[g] \times [g'] \subset G^2$ denoting the [[Cartesian product]] of their [[conjugacy classes]] (eq:ConjugacyClass), the [[action groupoid]] of the [[diagonal action|diagonal]] [[adjoint action]] is [[equivalence of categories|equivalent]] to the following [[disjoint union]] of [[delooping groupoids]]:
@@ -541,8 +599,8 @@ It follows that:
 
 \begin{proposition}
 \label{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}
-The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rho_2)}\big)$ contains a simple object $\big({[g],\rho}\big)$ with multiplicity:
-\begin{equation}
+The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rho_2)}\big)$ contains any simple object $\big({[g],\rho}\big)$ with the following multiplicity:
+\[\label{TheFusionCoefficientsInDrinfeldCenterOfGVectorSpaces}
   N_{ ([g_1],\rho_1), ([g_2],\rho_2)}^{([g],\rho)}
   \;=\;
   \sum_{\mathclap{
@@ -566,10 +624,56 @@ The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rh
     \rho
   }\big)
   \mathrlap{\,.}
-\end{equation}
+\]
 \end{proposition}
 \begin{proof}
-  ...
+  By Lem. \ref{FusionViaPullPush} we have that the fusion product is given by pull-push through
+  $$
+      [g]\sslash_{\!\mathrm{Ad}}
+      \times
+      [g']\sslash_{\!\mathrm{Ad}}
+      \longleftarrow
+      \big({
+        [g]\times [g']
+      }\big)\sslash_{\!\mathrm{Ad}}
+      \longrightarrow
+      G \sslash_{\!\mathrm{Ad}} G
+      \mathrlap{\,.}
+  $$
+  
+By Lemma \ref{OnTheDecompositionOfProductOrbits}, this yields on the orbit $[g]$ the isotropy representation
+\begin{equation}
+  \bigoplus_{\mathclap{
+    \substack{
+      [k_1, k_2] \in R
+      \\
+      g_1^{k_1} g_2^{k_2} = g
+    }
+  }}
+  \,
+  \mathrm{Ind}
+    _{Z_G(g_1^{k_1}, g_2^{k_2})}
+    ^{Z_G(g)}
+  \left({
+    \mathrm{Res}
+      ^{Z_G(g_1^{k_1}, g_2^{k_2})}
+      _{Z_G(g)}
+    \big({
+      \rho_1^{k_1}
+    }\big)
+    \otimes
+    \mathrm{Res}
+      ^{Z_G(g_1^{k_1}, g_2^{k_2})}
+      _{Z_G(g)}
+    \big({
+      \rho_2^{k_2}
+    }\big)
+  }\right)
+  \mathrlap{\,,}
+\end{equation}
+where we are using that on group representations the left base change $m_!$ is given by forming [[induced representations]].
+
+This yields the claim: By [[Schur's lemma]], the multiplicity of the irrep $\rho$ in this expression is the dimension of the hom-space from the latter to the former. Finally, by Frobenius reciprocity the induction is left adjoint to restriction, whence we have (eq:TheFusionCoefficientsInDrinfeldCenterOfGVectorSpaces).
 \end{proof}
 
 \linebreak
