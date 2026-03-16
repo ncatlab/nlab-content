@@ -627,13 +627,13 @@ The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rh
 \begin{proof}
   By Lem. \ref{FusionViaPullPush} we have that the fusion product is given by pull-push through
   $$
-      [g]\sslash_{\!\mathrm{Ad}}
+      \big([g]\sslash_{\!\mathrm{Ad}} G\big)
       \times
-      [g']\sslash_{\!\mathrm{Ad}}
+      \big([g']\sslash_{\!\mathrm{Ad}} G\big)
       \longleftarrow
       \big({
         [g]\times [g']
-      }\big)\sslash_{\!\mathrm{Ad}}
+      }\big)\sslash_{\!\mathrm{Ad}} G
       \longrightarrow
       G \sslash_{\!\mathrm{Ad}} G
       \mathrlap{\,.}
