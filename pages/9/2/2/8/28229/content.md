@@ -70,7 +70,7 @@ $$
 \coloneqq\pi_n^stab(X_+\wedge MString)
 \coloneqq\lim_{k\rightarrow\infty}\pi_{n+k}(X_+\wedge MString_k)
 $$
-for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^String=\Omega_n^String(*)$. Geometrically, $\Omega_n^String(X)$ can also be described by $n$-dimensional [[ninebrane manifolds]] representing cycles and $n+1$-dimensional [[string bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[string bordism]].
+for all [[topological spaces]] $X$ with the [[disjoint union]] $X_+\coloneqq X+\{*\}$. Since $\{*\}_+\cong S^0$ is the neutral element of the [[wedge product]], one has $\Omega_n^String=\Omega_n^String(*)$. Geometrically, $\Omega_n^String(X)$ can also be described by $n$-dimensional [[string manifolds]] representing cycles and $n+1$-dimensional [[string bordisms]] representing homologous cycles, which are mapped [[continuous]] into $X$. For a detailed explanation see [[string bordism]].
 
 A $n$-dimensional [[string manifold]] $X$ has a *string [[fundamental class]]* $[X]\in\Omega_n^String(X)$. Let $i\colon X\hookrightarrow\mathbb{R}^{n+k}\hookrightarrow S^{n+k}$ be an [[embedding]] (which always exists due to the [[Whitney embedding theorem]]), then its [[Pontrjagin-Thom collapse map]] is:
 $$
