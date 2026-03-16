@@ -281,6 +281,4 @@ On fusion categories [[invertible object|invertible]] with respect to the [[Deli
 
 [[!redirects fusion]]
 
-[[!redirects fusion rule]]
-[[!redirects fusion rules]]
 
