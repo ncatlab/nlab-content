@@ -66,11 +66,35 @@ $$
 $$
 which has the cartesian product as additional composition and the singleton as an additional neutral element.
 
+## Properties
+
+\begin{proposition}
+Every $n$-dimensional [[spin manifold]] is spin bordant to a $\min\left\{3,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[spin manifold]], equivalently meaning that every spin bordism homology class in $\Omega_n^Spin$ can be represented by such a [[spin manifold]]. (For $n\geq 7$, the result stabilizes at a [[n-connected space|3-connected]] [[spin manifold]].)
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (1)](#BotvinnikLabbi14))
+
+\begin{proposition}
+For $n$-dimensional $\min\left\{3,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[spin manifolds]] $M$ and $N$, a spin bordism $W\colon M\rightsquigarrow N$ exists with $M\hookrightarrow W$ also $\min\left\{3,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]].
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (2)](#BotvinnikLabbi14))
+
+\begin{proposition}
+If a $n$-dimensional $k$-[[n-connected space|connected]] [[compact]] [[spin manifold]] $M$ with $k\leq 2$ and $n\geq 2k+3$ is spin bordant to another [[compact]] [[spin manifold]] $N$, then $M$ can be obtained from $N$ by [[surgery]] of [[codimension]] at least $k+2$.
+\end{proposition}
+
+([Botvinnik & Labbi 14, Prop. 3.4](#BotvinnikLabbi14))
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
 ## References
+
+About general $BO\langle\ell\rangle$ bordisms:
+
+* {#BotvinnikLabbi14} [[Boris Botvinnik]], [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 &lbrack;[arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4)&rbrack;
 
 * [Manifold Atlas](https://web.archive.org/web/20241113183734/http://www.map.mpim-bonn.mpg.de/Main_Page), _[Spin bordism](https://web.archive.org/web/20241113183732/http://www.map.mpim-bonn.mpg.de/Spin_bordism)_
 
