@@ -79,6 +79,26 @@ $$
 $$
 which has the cartesian product as additional composition and the singleton as an additional neutral element.
 
+## Properties
+
+\begin{proposition}
+Every $n$-dimensional [[string manifold]] is string bordant to a $\min\left\{7,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[string manifold]], equivalently meaning that every string bordism homology class in $\Omega_n^String$ can be represented by such a [[string manifold]]. (For $n\geq 15$, the result stabilizes at a [[n-connected space|7-connected]] [[string manifold]].)
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (1)](#BotvinnikLabbi14))
+
+\begin{proposition}
+For $n$-dimensional $\min\left\{7,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[string manifolds]] $M$ and $N$, a string bordism $W\colon M\rightsquigarrow N$ exists with $M\hookrightarrow W$ also $\min\left\{7,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]].
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (2)](#BotvinnikLabbi14))
+
+\begin{proposition}
+If a $n$-dimensional $k$-[[n-connected space|connected]] [[compact]] [[string manifold]] $M$ with $k\leq 6$ and $n\geq 2k+3$ is string bordant to another [[compact]] [[string manifold]] $N$, then $M$ can be obtained from $N$ by [[surgery]] of [[codimension]] at least $k+2$.
+\end{proposition}
+
+([Botvinnik & Labbi 14, Prop. 3.4 & Crl. 3.5](#BotvinnikLabbi14))
+
 ## Related concepts
 
 * [[Witten genus]]
@@ -90,6 +110,10 @@ which has the cartesian product as additional composition and the singleton as a
 ## References
 
 * [Manifold Atlas](https://web.archive.org/web/20241113202449/http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](https://web.archive.org/web/20241113202449/http://www.map.mpim-bonn.mpg.de/String_bordism)_
+
+About general $BO\langle\ell\rangle$ bordisms:
+
+* {#BotvinnikLabbi14} [[Boris Botvinnik]], [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 &lbrack;[arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4)&rbrack;
 
 Discussion of relation to the [[Witten genus]]:
 
