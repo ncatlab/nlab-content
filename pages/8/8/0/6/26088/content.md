@@ -44,6 +44,10 @@ The [[internal logic]] of symmetric monoidal closed categories is the (intuition
   Any [[cartesian closed category]] is symmetric monoidal closed.
 \end{example}
 
+\begin{example}\label{ExampleRMod}
+  Given a [[commutative ring]] $R$, its [[category of modules]], $R Mod$, is symmetric monoidal closed (see [there](Mod#RModIsClosedMonoidalCategory)).
+\end{example}
+
 \begin{example}
  A *[[Bénabou cosmos]]* (a good [[base for enrichment]] in [[enriched category theory]]) is defined to be a [[bicomplete category|bicomplete]] symmetric monoidal closed category.
 \end{example}
@@ -52,9 +56,6 @@ The [[internal logic]] of symmetric monoidal closed categories is the (intuition
   A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a commutative [[quantale]].
 \end{example}
 
-\begin{example}
-  For any commutative [[ring]] $R$, the category of [[Mod#RModIsClosedMonoidalCategory| $R$-modules is a symmetric monoidal closed category ]]
-\end{example}
 
 
 
