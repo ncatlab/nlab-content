@@ -72,11 +72,28 @@ Cf. [Greub, Halperin & Vanstone 1973 vol I, Section VII.7.12](GreubHalperinVanst
 
 Somewhat more generally, if the fibers are not oriented (or orientable), we can still define integrals of __fiberwise pseudoforms__.
 
-Suppose $f\colon X\to B$ is a [[submersion]]. The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\Lambda^n T^*X \times_{\mathbf{Z}/2} Or(T_f) \to X$, where $Or(T_f)$ denotes the principal $\mathbf{Z}/2$ bundle of fiberwise orientations defined above.
-Its vector space of sections is denoted by $\tilde\Omega^n(f)$. 
+Suppose $f\colon X\to B$ is a [[submersion]]. The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\tilde\Lambda^n T^*X=\Lambda^n T^*X \times_{\mathbf{Z}/2} Or(T_f) \to X$, where $Or(T_f)$ denotes the principal $\mathbf{Z}/2$ bundle of fiberwise orientations defined above.
+A __differential n-pseudoform__ is a section of $\tilde\Lambda^n T^*X$.
+The vector space of such sections is denoted by $\tilde\Omega^n(f)$. 
 
 As above, we can define a subspace $\tilde\Omega^n_\int(f)\subset \tilde\Omega^n(f)$ of __fiberwise integrable differential $n$-pseudoforms__ and the integration map
-$$\tilde\Omega^n_\int(f)\to \Omega^{n-d}(B).$$
+$$\int\colon\tilde\Omega^n_\int(f)\to \Omega^{n-d}(B).$$
+
+Given $\omega\in\tilde\Omega^n(f)$ and $n-d$ [[tangent vector]] [[vector field|fields]] $v_1, \ldots, v_{n-d}$, the value $f_*\omega(v_1,\ldots,v_{n-d})$ is defined as follows.
+First, produce a smooth family of differential $d$-forms on fibers, as described above.
+Then perform the following two steps.
+
+1. First, lift each $v_i$ to a [[section]] of the quotient bundle $T X/T_f$, where $T_f \to X$ is the [[relative tangent bundle]], i.e., the kernel of the [[tangent map]] $T f\colon T X\to T B$.
+
+1. Lift these to sections $u_i$ of $T X$ in some arbitrary way. 
+
+1. Substitute the resulting vector fields on $X$ into the fiberwise differential $n$-pseudoform $\omega$, obtaining a fiberwise differential $d$-pseudoform $\psi$. 
+
+1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon X\to B$, obtaining a $d$-pseudoform on each of these fibers, which does not depend on the choices of liftings $u_i$.
+
+1. If the resulting 1-density is [[integration of differential forms|integrable]] over each fiber (which is always true for properly supported pseudoforms), we say that $\omega$ is __fiberwise integrable__ and write $\omega\in\tilde\Omega^n_\int(X)$.  Then the fiberwise integral gives a number for each $b\in B$, which depends smoothly on $b$. 
+
+This is the value of $f_*(\omega)$ on $v_1, \cdots, v_{n-d}$.
 
 
 ### In generalized cohomology via Pontryagin-Thom collapse maps
