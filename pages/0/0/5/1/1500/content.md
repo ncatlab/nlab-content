@@ -66,7 +66,6 @@ More generally, for
 
 the above construction but with [[associator]] multiplied by the 3-cocycle applied to the $G$-degrees of the 3 factors is again a fusion category
 
-
 $$
   Vect_{G, \omega}^{fdim}
   \,.
@@ -79,6 +78,15 @@ For $\mathbb{K}$ a [[field]] and
 $G$ a [[finite group]] (or [finite super-group](supergroup#finite_supergroups)), whose [[order of a group|order]] is [[coprime integer|relatively prime]] to the [[characteristic of a field|characteristic]] of $\mathbb{K}$, then the [[category of representations]] $Rep(G, \mathbb{K})$ is a fusion category. 
 \end{example}
 ([Etingof, Nikshych & Ostrik 2005, item 2. on p. 584](#EtingofNikshychOstrik05))
+
+\begin{example}
+\label{DrinfeldCenterOfFusionCategoryIsFusion}
+If $\mathcal{C}$ is a [[fusion category]] 
+over an [[algebraically closed field]] of [[characteristic zero]],
+then its [[Drinfeld center]] $Z(\mathcal{C})$ is also naturally a fusion category.
+\end{example}
+
+([Etingof, Nikshych & Ostrik 2005, Thm. 2.15](Drinfeld+center#EtingofNikshychOstrik05), review in [Davydov, Mueger, Nikshych & Ostrik 2003, Sec. 2.3](Drinfeld+center##DavydovMuegerNikshychOstrik03), see also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](Drinfeld+center##DrinfeldGelakiNikshychOstrik10), [Mueger 2003](Drinfeld+center##Mueger03), [EGNO 2015, Thm. 9.3.2](Drinfeld+center##EtingofNikshychOstrik05)).
 
 
 ## Properties
@@ -273,4 +281,6 @@ On fusion categories [[invertible object|invertible]] with respect to the [[Deli
 
 [[!redirects fusion]]
 
+[[!redirects fusion rule]]
+[[!redirects fusion rules]]
 
