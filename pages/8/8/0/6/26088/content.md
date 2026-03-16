@@ -52,6 +52,10 @@ The [[internal logic]] of symmetric monoidal closed categories is the (intuition
   A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a commutative [[quantale]].
 \end{example}
 
+\begin{example}
+  For any commutative [[ring]] $R$, the category of [[Mod#RModIsClosedMonoidalCategory| $R$-modules is a symmetric monoidal closed category ]]
+\end{example}
+
 
 
 ## Related concepts
