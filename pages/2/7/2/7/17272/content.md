@@ -41,7 +41,7 @@ $$
   \pi_\bullet(X)
   \coloneqq
   \underset{\longrightarrow}{\lim}_k
-  \pi_{\bullet+k}({ X_n })
+  \pi_{\bullet+k}({ X_k })
   \,.
 $$
 
