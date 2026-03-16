@@ -54,7 +54,3 @@ Review includes
 [[!redirects conifolds]]
 
 
-
-[[!redirects conifold tansition]]
-
-
