@@ -27,37 +27,39 @@ Composing pullback of cohomology classes with fiber integration yields the notio
 
 ## Definition
 
+Consider a smooth [[submersion]]
+$$
+  f \colon X \longrightarrow B
+$$
+of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimension]] $d$.
+
 ### Fiberwise integration of ordinary differential forms
  {#FiberwiseIntegrationOfOrdinaryDifferentialForms}
 
-Consider a smooth [[submersion]]
-$$
-  f \colon T \longrightarrow B
-$$
-of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimension]] $d$.  For simplicity, we assume the fibers to be [[orientable]] below.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]]/[[pseudoforms]], as discussed in the next section.
+ For simplicity, we assume the fibers to be [[orientable]] in this subsection.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]]/[[pseudoforms]], as discussed in the next subsection.
 
-For any [[smooth manifold]] $X$, denote the set of [[smooth differential n-forms]] on $X$ by $\Omega^n(X)$, as usual.
+For any [[smooth manifold]] $M$, denote the set of [[smooth differential n-forms]] on $M$ by $\Omega^n(M)$, as usual.
 
 The *fiberwise integration of differential forms* along $f$ is a map
 $$
   f_* 
     \,\colon\,
-  \Omega^n_\int(T) \longrightarrow \Omega^{n-d}(B)
+  \Omega^n_\int(X) \longrightarrow \Omega^{n-d}(B)
   \mathrlap{\,,}
 $$
 where
-$\Omega^n_\int(T)\subset \Omega^n(T)$ denotes the subspace of __fiberwise integrable__ differential $n$-forms, defined below.
-For $\omega \in \Omega^n_\int(T)$, the value of the differential $(n-d)$-form $f_*(\omega)$ at some collection of $(n-d)$ [[tangent vector]] [[vector field|fields]] $v_1, \cdots, v_{n-d}$ is defined as follows.
+$\Omega^n_\int(X)\subset \Omega^n(X)$ denotes the subspace of __fiberwise integrable__ differential $n$-forms, defined below.
+For $\omega \in \Omega^n_\int(X)$, the value of the differential $(n-d)$-form $f_*(\omega)$ at some collection of $(n-d)$ [[tangent vector]] [[vector field|fields]] $v_1, \cdots, v_{n-d}$ is defined as follows.
 
-1. First, lift each $v_i$ to a [[section]] of the quotient bundle $T(T)/T(f)$, where $T(f)$ is the [[relative tangent bundle]]. 
+1. First, lift each $v_i$ to a [[section]] of the quotient bundle $T X/T_f$, where $T_f \to X$ is the [[relative tangent bundle]], i.e., the kernel of the [[tangent map]] $T f\colon T X\to T B$.
 
-1. Lift these to sections $u_i$ of $T(T)$ in some arbitrary way. 
+1. Lift these to sections $u_i$ of $T X$ in some arbitrary way. 
 
-1. Substitute the resulting vector fields on $T$ into the differential $n$-form $\omega$, obtaining a differential $d$-form $\psi$. 
+1. Substitute the resulting vector fields on $X$ into the differential $n$-form $\omega$, obtaining a differential $d$-form $\psi$. 
 
-1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon T\to B$, obtaining a $d$-form on each of these fibers, which does not depend on the choices of liftings $u_i$. 
+1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon X\to B$, obtaining a $d$-form on each of these fibers, which does not depend on the choices of liftings $u_i$. 
 
-1. If the resulting $d$-form is [[integration of differential forms|integrable]] over each fiber, we say that $\omega$ is __fiberwise integrable__ and write $\omega\in\Omega^n_\int$.  Then the fiberwise integral gives a number for each $b\in B$, which depends smoothly on $b$. 
+1. If the resulting $d$-form is [[integration of differential forms|integrable]] over each fiber, we say that $\omega$ is __fiberwise integrable__ and write $\omega\in\Omega^n_\int(X)$.  Then the fiberwise integral gives a number for each $b\in B$, which depends smoothly on $b$. 
 
 This is the value of $f_*(\omega)$ on $v_1, \cdots, v_{n-d}$.
 
@@ -68,13 +70,11 @@ Cf. [Greub, Halperin & Vanstone 1973 vol I, Section VII.7.12](GreubHalperinVanst
 
 Somewhat more generally, if the fibers are not oriented (or orientable), we can still define integrals of __fiberwise pseudoforms__.
 
-Suppose $f\colon T\to B$ is a [[submersion]].
-Denote by $T_f$ the [[relative tangent bundle]] of $f$, i.e., the kernel of the [[tangent map]] $T f$.
-The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\Lambda^n T^*T \otimes Or(T f)$.
+Suppose $f\colon X\to B$ is a [[submersion]]. The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\Lambda^n T^*X \otimes Or(T_f) \to X$.
 Its vector space of sections is denoted by $\tilde\Omega^n(f)$. 
 
 As above, we can define a subspace $\tilde\Omega^n_\int(f)\subset \tilde\Omega^n(f)$ of __fiberwise integrable differential $n$-pseudoforms__ and the integration map
-$$\tilde\Omega^n_\int(f)\to \Omega^{n-\dim f}(B).$$
+$$\tilde\Omega^n_\int(f)\to \Omega^{n-d}(B).$$
 
 
 ### In generalized cohomology via Pontryagin-Thom collapse maps
