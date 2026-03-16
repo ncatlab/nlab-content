@@ -36,7 +36,7 @@ of [[smooth manifolds]], whose [[fibers]] have [[dimension of a manifold|dimensi
 ### Fiberwise integration of ordinary differential forms
  {#FiberwiseIntegrationOfOrdinaryDifferentialForms}
 
- For simplicity, we assume the fibers to be [[orientable]] in this subsection.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]]/[[pseudoforms]], as discussed in the next subsection.
+For simplicity, we assume the fibers to be [[oriented]] in this subsection.  That is, we are given a section of the principal $\mathbf{Z}/2$-bundle $Or(T_f)$ of fiberwise orientations, defined as the quotient of $\Lambda^d T_f$ by the Lie group $\mathbf{R}_{\gt0}$.  More generally, we can integrate __fiberwise pseudoforms__, analogously to the usual notion of integral of [[densities]]/[[pseudoforms]], as discussed in the next subsection.
 
 For any [[smooth manifold]] $M$, denote the set of [[smooth differential n-forms]] on $M$ by $\Omega^n(M)$, as usual.
 
@@ -57,9 +57,11 @@ For $\omega \in \Omega^n_\int(X)$, the value of the differential $(n-d)$-form $f
 
 1. Substitute the resulting vector fields on $X$ into the differential $n$-form $\omega$, obtaining a differential $d$-form $\psi$. 
 
-1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon X\to B$, obtaining a $d$-form on each of these fibers, which does not depend on the choices of liftings $u_i$. 
+1. [[pullback of differential forms|Pull back]] $\psi$ to each of the [[fibers]] of the map $f\colon X\to B$, obtaining a $d$-form on each of these fibers, which does not depend on the choices of liftings $u_i$.
 
-1. If the resulting $d$-form is [[integration of differential forms|integrable]] over each fiber, we say that $\omega$ is __fiberwise integrable__ and write $\omega\in\Omega^n_\int(X)$.  Then the fiberwise integral gives a number for each $b\in B$, which depends smoothly on $b$. 
+1. Multiply the resulting $d$-forms by the given orientations of the fibers, obtaining a 1-[[density]] on each fiber.
+
+1. If the resulting 1-density is [[integration of differential forms|integrable]] over each fiber (which is always true for properly supported forms), we say that $\omega$ is __fiberwise integrable__ and write $\omega\in\Omega^n_\int(X)$.  Then the fiberwise integral gives a number for each $b\in B$, which depends smoothly on $b$. 
 
 This is the value of $f_*(\omega)$ on $v_1, \cdots, v_{n-d}$.
 
@@ -70,7 +72,7 @@ Cf. [Greub, Halperin & Vanstone 1973 vol I, Section VII.7.12](GreubHalperinVanst
 
 Somewhat more generally, if the fibers are not oriented (or orientable), we can still define integrals of __fiberwise pseudoforms__.
 
-Suppose $f\colon X\to B$ is a [[submersion]]. The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\Lambda^n T^*X \otimes Or(T_f) \to X$.
+Suppose $f\colon X\to B$ is a [[submersion]]. The [[vector bundle]] of __fiberwise differential $n$-pseudoforms__ along $f$ is defined as $\Lambda^n T^*X \times_{\mathbf{Z}/2} Or(T_f) \to X$, where $Or(T_f)$ denotes the principal $\mathbf{Z}/2$ bundle of fiberwise orientations defined above.
 Its vector space of sections is denoted by $\tilde\Omega^n(f)$. 
 
 As above, we can define a subspace $\tilde\Omega^n_\int(f)\subset \tilde\Omega^n(f)$ of __fiberwise integrable differential $n$-pseudoforms__ and the integration map
