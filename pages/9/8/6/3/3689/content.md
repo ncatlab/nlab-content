@@ -330,7 +330,7 @@ Write $[N_1,N_2] \in R Mod$ for the resulting $R$-module structure.
 
 Equipped with the [[tensor product of modules]], $R Mod$ becomes a [[monoidal category]] (in fact a [[distributive monoidal category]]). The tensor unit is $R$ regarded canonically as an $R$-module over itself.
 
-This is a [[closed monoidal category]], the [[internal hom]] is given by the hom-modules of def. \ref{HomModule}.
+This is a [[closed monoidal category]] (hence a [[symmetric closed monoidal category]]): the [[internal hom]] is given by the hom-modules of def. \ref{HomModule}.
 
 =--
 
