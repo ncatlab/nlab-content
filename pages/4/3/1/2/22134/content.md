@@ -4,7 +4,8 @@
 
 The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] with [[anyon]] [[braiding]] [[defects]] is due to:
 
-* {#Kitaev03} [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_,  Annals Phys. 303 (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
+* {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*,  Annals Phys. **303** (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
+  > (via [[quantum double]] [[fusion rules]])
 
 * {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 \[<a href="https://doi.org/10.1073/pnas.95.1.9">doi:10.1073/pnas.95.1.9</a>\]
 
