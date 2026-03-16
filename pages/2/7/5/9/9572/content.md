@@ -194,9 +194,7 @@ over an [[algebraically closed field]] of [[characteristic zero]],
 then the Drinfeld center $Z(\mathcal{C})$ is also naturally a fusion category.
 \end{proposition}
 
-([Etingof, Nikshych & Ostrik 2005, Thm. 2.15](#EtingofNikshychOstrik05), review in [Davydov, Mueger, Nikshych & Ostrik 2003, Sec. 2.3](#DavydovMuegerNikshychOstrik03))
-
-See also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](#DrinfeldGelakiNikshychOstrik10),  [Mueger 2003](#Mueger03).
+([Etingof, Nikshych & Ostrik 2005, Thm. 2.15](#EtingofNikshychOstrik05), review in [Davydov, Mueger, Nikshych & Ostrik 2003, Sec. 2.3](#DavydovMuegerNikshychOstrik03), see also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](#DrinfeldGelakiNikshychOstrik10), [Mueger 2003](#Mueger03), [EGNO 2015, Thm. 9.3.2](#EGNO15)).
 
 
 ### Relation to Drinfeld double under Tannaka duality
