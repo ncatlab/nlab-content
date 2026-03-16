@@ -34,7 +34,7 @@ This was found and discussed in the context of [[string theory]] but the phenome
 
 ## Related concepts
 
-* [[conifold tansition]]
+* [[conifold transition]]
 
 * [[moduli space of Calabi-Yau spaces]]
 
