@@ -28,15 +28,15 @@ Consider
 
 * $G$ a [[Lie group]] and $\mathfrak{g}$ its [[Lie algebra]],
 
-* $X$ an [[orientable]] [[Riemannian manifold]] with Riemannian metric $g$ and volume form $vol_g$,
+* $X$ an [[orientable]] [[Riemannian manifold]] with [[Riemannian metric]] $g$ and [[volume form]] $vol_g$,
 
 * $P\twoheadrightarrow X$ a [[principal bundle|principal $G$-bundle]] and $Ad(P)\coloneqq P\times_G\mathfrak{g}\twoheadrightarrow B$ its [[adjoint bundle]],
 
-* $\Phi\in\Omega_{Ad}^0(P,\mathfrak{g})\cong\Omega^0(X,Ad(P))\cong\Gamma^\infty(X,Ad(P))$ a smooth section,
+* $\Phi\in\Omega^0(X,Ad(P))\cong\Gamma^\infty(X,Ad(P))$ a smooth section,
 
-* $A\in\Omega_{\operatorname{Ad}}^1(P,\mathfrak{g})\cong\Omega^1(X,Ad(P))$ a [[principal connection]],
+* $A\in\Omega_{\operatorname{Ad}}^1(P,\mathfrak{g})$ ([[affine space]] over $\Omega^1(X,Ad(P))$) a [[principal connection]],
 
-* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\Omega_{Ad}^2(P,\mathfrak{g})\cong\Omega^2(X,Ad(P))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
+* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\cong\Omega^2(X,Ad(P))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
 
 ## Definition
 
