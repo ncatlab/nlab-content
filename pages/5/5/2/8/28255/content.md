@@ -12,6 +12,26 @@
 * table of contents
 {:toc}
 
+## Properties
+
+\begin{proposition}
+Every $n$-dimensional [[2-orient manifold]] is 2-orient bordant to a $\min\left\{9,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[2-orient manifold]], equivalently meaning that every 2-orient bordism homology class in $\Omega_n^{2\text{-}Orient}$ can be represented by such a [[2-orient manifold]]. (For $n\geq 19$, the result stabilizes at a [[n-connected space|9-connected]] [[2-orient manifold]].)
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (1)](#BotvinnikLabbi14))
+
+\begin{proposition}
+For $n$-dimensional $\min\left\{9,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]] [[2-orient manifolds]] $M$ and $N$, a 2-orient bordism $W\colon M\rightsquigarrow N$ exists with $M\hookrightarrow W$ also $\min\left\{9,\left\lceil\frac{n}{2}-1\right\rceil\right\}$-[[n-connected space|connected]].
+\end{proposition}
+
+([Botvinnik & Labbi 14, Lem. 3.2 (2)](#BotvinnikLabbi14))
+
+\begin{proposition}
+If a $n$-dimensional $k$-[[n-connected space|connected]] [[compact]] [[2-orient manifold]] $M$ with $k\leq 8$ and $n\geq 2k+3$ is 2-orient bordant to another [[compact]] [[2-orient manifold]] $N$, then $M$ can be obtained from $N$ by [[surgery]] of [[codimension]] at least $k+2$.
+\end{proposition}
+
+([Botvinnik & Labbi 14, Prop. 3.4](#BotvinnikLabbi14))
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
