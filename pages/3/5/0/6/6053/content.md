@@ -75,6 +75,17 @@ Survery:
 
 * [[Piotr Hajac]], *On and around the Drinfeld double* (2009) &lbrack;[pdf](http://www.impan.pl/~burgunde/WSBC09/Ddouble_Hajac.pdf), [[Hajac-DrinfeldDouble.pdf:file]]&rbrack;
 
+* Giovanna Carnovale, Nicola Ciccoli, Elena Collacciani: *The versatility of the Drinfeld double of a finite group* &lbrack;[arXiv:2410.11978](https://arxiv.org/abs/2410.11978)&rbrack;
+
+On the [[Verlinde formula]]/[[fusion coefficients]]:
+
+* T. H. Koornwinder, [[Bernd J. Schroers]], J. K. Slingerland, F. A. Bais: *Fourier transform and the Verlinde formula for the quantum double of a finite group*, J. Phys. A **32** (1999) 8539-8549 \[<a href="https://doi.org/10.1088/0305-4470/32/48/313">doi:10.1088/0305-4470/32/48/313</a>, [arXiv:math/9904029](https://arxiv.org/abs/math/9904029)\]
+
+* {#Li2026} Wenqi Li: *Fusion Rings over Drinfeld Doubles*, Journal of Algebra and Its ApplicationsVol. **25** 07 (2026) 2650052  &lbrack;[doi:10.1142/S0219498826500520](https://doi.org/10.1142/S0219498826500520), [arXiv:2306.05560](https://arxiv.org/abs/2306.05560)&rbrack;
+
+
+
+
 The generalization of the double construction to [[quasi-Hopf algebras]] motivated by 
 
 * {#DijkgraafPasquierRoche90} [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], *QuasiHopf algebras, group cohomology and orbifold models*, Nucl. Phys. B Proc. Suppl **18** (1990) 60--72 &lbrack;<a href="https://doi.org/10.1016/0920-5632(91)90123-V">doi:10.1016/0920-5632(91)90123-V</a>&rbrack;
@@ -112,9 +123,6 @@ On representation theory of the quantum double of a finite group
 
 * [[Shahn Majid]], Leo Sean McCormack, _Quantum geometric Wigner construction for $D(G)$ and braided racks_, [arXiv:2407.11835](https://arxiv.org/abs/2407.11835)
 
-On the [[fusion ring]]:
-
-* {#Li2026} Wenqi Li: *Fusion Rings over Drinfeld Doubles*, Journal of Algebra and Its ApplicationsVol. **25** 07 (2026) 2650052  &lbrack;[doi:10.1142/S0219498826500520](https://doi.org/10.1142/S0219498826500520), [arXiv:2306.05560](https://arxiv.org/abs/2306.05560)&rbrack;
 
 ### Quantum double model for anyons
  {#ReferencesQuantumDoubleModel}
