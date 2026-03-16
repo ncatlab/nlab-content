@@ -61,7 +61,7 @@ In particular, [[compact regular locales]] are locally compact, hence automatica
 2. Every [[coherent locale]] is spatial.
 In particular, [[Stone locales]], [[Stonean locales]], and [[hyperstonean locales]] are spatial.
 
-3. The meet of a countable family of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
+3. The meet of a countable family of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial (Picado–Pultr, Corollary VII.7.3).
 
 4. The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
 
