@@ -101,6 +101,8 @@ The COMPACT collaboration:
 
 * COMPACT Collaboration: *Cosmic topology. Part IIb. Eigenmodes, correlation matrices, and detectability of non-orientable Euclidean manifolds* &lbrack;[arXiv:2510.05030](https://arxiv.org/abs/2510.05030)&rbrack;
 
+* COMPACT Collaboration: *Quantum Signatures of Cosmic Topology: How Casimir Backreaction Transmits Isotropy Violation* &lbrack;[arXiv:2603.12319](https://arxiv.org/abs/2603.12319)&rbrack;
+
 
 See also:
 
