@@ -22,6 +22,13 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 
 * [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
 
+On the [[covariant phase space]]:
+
+* M. Golshani, [[Mohammad Sheikh-Jabbari]], V. Taghiloo, M. H. Vahidinia: *Geometric Aspects of Covariant Phase Space Formalism: Solution Space Slicings and Surface Charge Integrability* &lbrack;[arXiv:2603.14439](https://arxiv.org/abs/2603.14439)&rbrack;
+
+
+
+
 category: people
 
 [[!redirects Mohammad M. Sheikh-Jabbari]]
