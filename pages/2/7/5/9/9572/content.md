@@ -25,6 +25,7 @@ The notion of the _center of a monoidal category_ or the _Drinfeld center_ is a 
 Where the [[center]] of a monoid is just a sub-monoid with the [[property]] that it commutes with everything else, under categorification this becomes a [[stuff, structure, property|structure]], since we have to specify _how_ the objects in the Drinfeld center commute ([[braided monoidal category|braid]]) with everything else.
 
 ## Definition
+ {#Definition}
 
 We first give the general-abstract definition
 
@@ -212,11 +213,11 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 ### Of $G$-graded vector spaces
  {#DrinfeldCenterOfGGradedVectorSpaces}
 
-The archetypical example of Drinfeld centers is that of the of the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces]] for a group $G$.
+The archetypical example of [Drinfeld centers](#Definition) is that of the of the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces]] for a group $G$.
 
 This is also known as the representation category of the *[[Drinfeld double]]* of $G$. 
 
-We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which may not be in the literature, but cf. [Li 2026](Drinfeld+double#Li2026)).
+We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which, by other means, were given only recently in [Li 2026](Drinfeld+double#Li2026)).
 
 
 #### The fusion category
@@ -691,8 +692,14 @@ By Lemma \ref{OnTheDecompositionOfProductOrbits}, this yields on the orbit $[g]$
 \end{equation}
 where we are using that on group representations the left base change $m_!$ is given by forming [[induced representations]].
 
-This yields the claim: By [[Schur's lemma]], the multiplicity of the irrep $\rho$ in this expression is the dimension of the hom-space from the latter to the former. Finally, by Frobenius reciprocity the induction is left adjoint to restriction, whence we have (eq:TheFusionCoefficientsInDrinfeldCenterOfGVectorSpaces).
+This yields the claim: By [[Schur's lemma]], the multiplicity of the irrep $\rho$ in this expression is the dimension of the [[hom space]] from the latter to the former. Finally, by [[Frobenius reciprocity]], $Ind \dashv Res$, the induction is [[left adjoint]] to restriction, whence we get (eq:TheFusionCoefficientsInDrinfeldCenterOfGVectorSpaces) from the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
 \end{proof}
+
+\begin{remark}
+  Up to immediate translation, Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces} coincides with [Li 2026 Thm. 3.2](Drinfeld+double#Li2026), proven there by different methods ([[Mackey theory]] applied to the [[Drinfeld double]] of $G$). As remarked there, this is in turn the untwisted specialization of a formula given by [Goff 2012 Thm. 4.5](Drinfeld+double#Goff2012).
+\end{remark}
+
+
 
 \linebreak
 
