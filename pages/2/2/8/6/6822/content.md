@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -118,11 +116,14 @@ $$
 
 ## Related concepts
 
+* [[pin⁺ bordism]], [[pin⁻ bordism]], [[pinᶜ bordism]]
+
 [[!include table of orthogonal groups and related]]
 
 [[!include low dimensional rotation groups -- table]]
 
 * [[pseudoscalar representation]], [[pseudovector representation]]
+
 
 ## References
 
@@ -145,4 +146,11 @@ The following article discusses which of the Pin groups are in fact compatible w
 [[!redirects Pin groups]]
 
 
+[[!redirects pin⁺ group]]
+[[!redirects pin⁺ groups]]
 
+[[!redirects pin⁻ group]]
+[[!redirects pin⁻ groups]]
+
+[[!redirects pinᶜ group]]
+[[!redirects pinᶜ groups]]
