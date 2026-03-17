@@ -27,9 +27,30 @@ $$
 \coloneqq\bigoplus_{n\in\mathbb{N}}\Omega_n^{Spin^\mathrm{c}}.
 $$
 
+## Definition
+
+Let $M$ and $N$ be $n$-dimensional [[spinᶜ manifolds]] with respective [[spinᶜ structures]] $\tau_M\colon M\rightarrow BSpin^c(n)$ and $\tau_N\colon N\rightarrow BSpin^c(n)$. A $n+1$-dimensional [[spinᶜ manifold]] $W$ with [[spinᶜ structure]] $\tau_W\colon W\rightarrow BSpin^c(n+1)$ together with inclusions $i\colon M\hookrightarrow\partial W$ and $j\colon N\hookrightarrow\partial W$ so that:
+$$
+\partial W
+=i(M)+j(N);
+$$
+$$
+\mathcal{B}k\circ\tau_M
+=\tau_W\circ i;
+$$
+$$
+\mathcal{B}k\circ\tau_N
+=\tau_W\circ j
+$$
+with the canonical inclusion $k\colon Spin^c(n)\rightarrow Spin^c(n+1)$ is a *spinᶜ bordism* between $M$ and $N$. It is fully denoted by $(W,M,N,i,j)$, but usually $W$ is sufficient from context.
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
+
+## References
+
+* {#BuchananMcKean26} [[Jonathan Buchanan]], [[Stephen McKean]]: _KSp-characteristic classes determine Spin cobordism_, Algebr. Geom. Topol. **26** (2026) 485-551 &lbrack;[arXiv:2312.08209](http://arxiv.org/abs/2312.08209), [doi:10.2140/agt.2026.26.485](https://doi.org/10.2140/agt.2026.26.485)&rbrack;
 
 [[!redirects Spinᶜ bordism]]
 [[!redirects spinᶜ cobordism]] 
