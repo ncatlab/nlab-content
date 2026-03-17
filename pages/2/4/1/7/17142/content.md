@@ -356,7 +356,7 @@ to $t = 1$.
 +-- {: .num_defn #BordismRelation}
 ###### Definition
 
-Two closed manifolds of [[dimension]] $n$ equipped with normal $\mathcal{B}$-structure $(X_1, i_1, \hat g_1)$ and $(X_2,i_2,\hat g_2)$ ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)) are called **bordant** if there exists a [[manifold with boundary]] $W$ of dimension $n+1$ equipped with $\mathcal{B}$-strcuture $(W,i_W, \hat g_W)$ if its [[boundary]] with $\mathcal{B}$-structure restricted to that boundary is the [[disjoint union]] of $X_1$ with the negative of $X_2$, according to def. \ref{NegativeOfManifoldWithBfStructure}
+Two closed manifolds of [[dimension]] $n$ equipped with normal $\mathcal{B}$-structure $(X_1, i_1, \hat g_1)$ and $(X_2,i_2,\hat g_2)$ ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)) are called **bordant** if there exists a [[manifold with boundary]] $W$ of dimension $n+1$ equipped with $\mathcal{B}$-strcuture $(W,i_W, \hat g_W)$ such that its [[boundary]] with $\mathcal{B}$-structure restricted to that boundary is the [[disjoint union]] of $X_1$ with the negative of $X_2$, according to def. \ref{NegativeOfManifoldWithBfStructure}
 
 $$
   \partial(W,i_W,\hat g_W)
@@ -381,7 +381,7 @@ Write $\Omega^\mathcal{B}_{\bullet}$ for the $\mathbb{N}$-graded set of $\mathca
 +-- {: .num_prop #BordismGroupAndBordismRing}
 ###### Proposition
 
-Under [[disjoint union]] of manifolds, then the set of $\mathcal{B}$-bordism equivalence classes of def. \ref{BordismIsAnEquivalenceRelation} becomes an $\mathbb{Z}$-graded [[abelian group]]
+Under [[disjoint union]] of manifolds, the set of $\mathcal{B}$-bordism equivalence classes of def. \ref{BordismIsAnEquivalenceRelation} then becomes a $\mathbb{Z}$-graded [[abelian group]]
 
 $$
   \Omega^{\mathcal{B}}_\bullet \in Ab^{\mathbb{Z}}
@@ -464,7 +464,7 @@ $$
 which exhibits $Th(V)$ as the [[coproduct]] of $X$ with the point, hence as $X$ with a basepoint freely adjoined.
 
 $$
-  Th(X \times \mathbb{R}^0) = Th(X) \simeq X_+
+  Th(X \times \mathbb{R}^0) = Th(V) \simeq X_+
   \,.
 $$
 
