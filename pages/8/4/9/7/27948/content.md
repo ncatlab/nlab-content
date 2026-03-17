@@ -111,9 +111,33 @@ $$
 $$
 for all [[topological spaces]] $X$. It can also be described geometrically with [[spinʰ structures]].
 
+## Properties
+
+\begin{proposition}
+There is a 2-local homotopy equivalence of spectra:
+$$
+MSpin\wedge\Sigma^{-3}MSO_3\rightarrow MSpin^\mathrm{h}
+$$
+\end{proposition}
+
+([Mills 23, Lem. 3.1](#Mills23))
+
+\begin{proposition}
+There is an isomorphism of $MSpin$ module spectra:
+$$
+MSpin\wedge\Sigma^{-3}MSO_3\rightarrow MSpin^\mathrm{h}
+$$
+\end{proposition}
+
+([Mills 23, Crl. 3.2](#Mills23))
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
+
+## References
+
+* {#Mills23} [[Keith Mills]], _The Structure of the Spin^h Bordism Spectrum_ (2023) &lbrack;[arXiv:2306.17709v2](https://arxiv.org/abs/2306.17709v2)&rbrack;
 
 [[!redirects MSpin^h]]
 [[!redirects Spinʰ spectrum]]
