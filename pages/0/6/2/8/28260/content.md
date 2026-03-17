@@ -14,4 +14,9 @@ On the [[double dimensional reduction]] of the [[M5-brane]] [[Bianchi identities
 
 * [[Pinak Banerjee]]: *M5 brane to D4 brane via cyclification of rational relative 3-cohomotopy*, JHEP (2026, in press) &lbrack;[arXiv:2601.02293](https://arxiv.org/abs/2601.02293)&rbrack;
 
+On [[superembedding approach|superembedding]] and [[flux quantization]] of [[M-string]]-[[probe brane|probes]] of [[M5-brane]] [[probe brane|probes]] of [[11D SuGra]]:
+
+* [[Pinak Banerjee]], [[Hisham Sati]], [[Urs Schreiber]]: *Flux Quantization on M-Strings* &lbrack;[arXiv:2603.14440](https://arxiv.org/abs/2603.14440)&rbrack;
+
+
 category: people
