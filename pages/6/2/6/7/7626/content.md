@@ -292,9 +292,9 @@ The concept of [[anyons]] satisfying [[braid group statistics]] originated indep
 
 * {#LeinaasMyrheim77} [[Jon Magne Leinaas]], [[Jan Myrheim]], _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
-* {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) &lbrack;[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)&rbrack; 
+* {#GoldinMenikoffSharp81} [[Gerald A. Goldin]], R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) &lbrack;[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)&rbrack; 
 
-* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)&rbrack;
+* {#Wilczek82a} [[Frank Wilczek]]: _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)&rbrack;
 
 The term *anyon* was introduced in:
 
@@ -347,7 +347,7 @@ See also:
 
 On the history of the concept:
 
-* Gerald A. Goldin: *The Prediction of Anyons: Its History and Wider Implications*, SciPost Phys. Proc. **14** 005 (2023)  &lbrack;[arXiv:2212.12632](https://arxiv.org/abs/2212.12632), [doi: 10.21468/SciPostPhysProc.14.005](https://scipost.org/SciPostPhysProc.14.005)&rbrack;
+* [[Gerald A. Goldin]]: *The Prediction of Anyons: Its History and Wider Implications*, SciPost Phys. Proc. **14** 005 (2023)  &lbrack;[arXiv:2212.12632](https://arxiv.org/abs/2212.12632), [doi: 10.21468/SciPostPhysProc.14.005](https://scipost.org/SciPostPhysProc.14.005)&rbrack;
 
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
