@@ -12,6 +12,19 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A *2-spin bordism* is a [[B-bordism]] for the [[tangential structure]] ([[(B,f)-structure]]) being the [[2-spin structure]]. Its [[bordism homology theory]] and [[cobordism cohomology theory]] are described by the [[Thom spectrum]] [[M2-Spin]]. Its definition is fully analogous to that of similar bordisms like [[spin bordism]]. Similarily, there are *2-spin bordism groups* and the *2-spin bordism ring*:
+$$
+\Omega_n^{2\text{-}Spin}
+\coloneqq\pi_n M2\text{-}Spin
+=\lim_{k\rightarrow\infty}\pi_{n+k} M2\text{-}Spin_k;
+$$
+$$
+\Omega^{2\text{-}Spin}
+\coloneqq\bigoplus_{n\in\mathbb{N}}\Omega_n^{2\text{-}Spin}.
+$$
+
 ## Properties
 
 \begin{proposition}
