@@ -12,7 +12,7 @@
 
 ## Idea
 
-([[cobordism|co]])[[bordism]]  with [[pin⁺ group]] [[tangential structure]]
+A *pin⁺ bordism* is a [[B-bordism]] for the [[tangential structure]] ([[(B,f)-structure]]) being the pin⁺ structure. Its [[bordism homology theory]] and [[cobordism cohomology theory]] are described by the [[Thom spectrum]] MPin⁺.
 
 ## Pin⁺ bordism groups
 
@@ -29,8 +29,7 @@
 
 ## Related entries
 
-* [[pin⁻ bordism]], [[pinᶜ bordism]]
-
+[[!include flavours of cobordism cohomology theories -- table]]
 
 ## References
 
