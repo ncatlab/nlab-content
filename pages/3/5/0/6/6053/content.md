@@ -39,7 +39,7 @@ The [[category of modules]] over a quantum double of a finite-dimensional Hopf a
 
 ### Relation to Drinfeld center
 
-For $H$ a [[Hopf algebra]] arising as the [[groupoid convolution algebra]] of a finite [[groupoid]], the [[category of modules]] of its Drinfeld double is equivalently the [[Drinfeld center]] of the category of modules of the original algebra.
+For $H$ a [[Hopf algebra]] arising as the [[groupoid convolution algebra]] of a finite [[groupoid]], the [[category of modules]] of its Drinfeld double is equivalently the [[Drinfeld center]] of the category of modules of the original algebra (cf. [EGNO15, §7.14](#EGNO15)).
 
 More generally, the analog of this statement holds for [[orbifolds]] ([Hinich (2007)](#Hinich07)).
 
@@ -71,11 +71,17 @@ Circ. Mat. Palermo., Series II, 26 (1991) 197--206
 * [[Shahn Majid]], _Some remarks on the quantum double_, Czechoslovak J. Phys. __44__ 11-12 (1994) 1059-1071 &lbrack;[arXiv:hep-th/9409056](https://arxiv.org/abs/hep-th/9409056), [doi:10.1007/BF01690458](https://doi.org/10.1007/BF01690458)&rbrack;
 
 
-Survery:
+Survey:
 
 * [[Piotr Hajac]], *On and around the Drinfeld double* (2009) &lbrack;[pdf](http://www.impan.pl/~burgunde/WSBC09/Ddouble_Hajac.pdf), [[Hajac-DrinfeldDouble.pdf:file]]&rbrack;
 
 * Giovanna Carnovale, Nicola Ciccoli, Elena Collacciani: *The versatility of the Drinfeld double of a finite group* &lbrack;[arXiv:2410.11978](https://arxiv.org/abs/2410.11978)&rbrack;
+
+Textbook account:
+
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]: *The quantum double construction for Hopf algebras*, section 7.14 in: *Tensor Categories*, Mathematical Surveys and Monographs **205**, AMS (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
+
+
 
 On the [[Verlinde formula]]/[[fusion coefficients]]:
 
