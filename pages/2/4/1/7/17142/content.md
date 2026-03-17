@@ -552,7 +552,7 @@ Therefore a general Thom space may be thought of as a "twisted suspension", with
 +-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
 ###### Proposition
 
-For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space (def. \ref{ThomSpace}) is the [[smash product]] of the individual Thom spaces:
+For $V_1 \to X_1$ and $V_2 \to X_2$ two vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space (def. \ref{ThomSpace}) is the [[smash product]] of the individual Thom spaces:
 
 $$
   Th(V_1 \boxtimes V_2)
@@ -855,7 +855,7 @@ $$
 from the [[normal bundle]] (def. \ref{ClassifyingMapOfNormalBundle}) given by
 
 $$
-  (i(x),v) \mapsto (i(x), \epsilon (1-e^{- {\vert v\vert}}) v )
+  (i(x),v) \mapsto i(x) + \epsilon (1-e^{- {\vert v\vert}}) v 
 $$
 
 is a [[diffeomorphism]]. 
@@ -873,7 +873,7 @@ For every [[embedding]] of [[smooth manifolds]], there exists a [[tubular neighb
 +-- {: .num_remark #IngredientsOfPontrjaginThomConstruction}
 ###### Remark
 
-Given an embedding $i \colon X \hookrightarrow \mathbb{R}^k$ with a tubuluar neighbourhood $\tau_i X \hookrigtharrow \mathbb{R}^k$ (def. \ref{TubularNeighbourhood}) then by construction:
+Given an embedding $i \colon X \hookrightarrow \mathbb{R}^k$ with a tubular neighbourhood $\tau_i X \hookrightarrow \mathbb{R}^k$ (def. \ref{TubularNeighbourhood}) then by construction:
 
 1. the [[Thom space]] (def. \ref{ThomSpace}) of the [[normal bundle]] (def. \ref{ClassifyingMapOfNormalBundle}) is [[homeomorphism|homeomorphic]] to the [[quotient topological space]] of the [[topological closure]] of the tubular neighbourhood by its [[boundary]]:
 
