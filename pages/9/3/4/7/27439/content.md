@@ -19,9 +19,15 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 
 * {#NakamuraEtAl20} [[James Nakamura]] et al.: *Direct observation of anyonic braiding statistics*, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>, [arXiv:2006.14115](https://arxiv.org/abs/2006.14115)\]
 
+Early review:
+
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News (July 10, 2020)  \[<a href="https://phys.org/news/2020-07-evidence-anyons.html">phys.org/news/2020-07</a>\]
 
 * Davide Castelvecchi: *Welcome anyons! Physicists find best evidence yet for long-sought 2D structures*, Nature News, **583** (03 July 2020) 176-177 \[<a href="https://doi.org/10.1038/d41586-020-01988-0">doi:10.1038/d41586-020-01988-0</a>\]
+
+* [Feldman & Halperin 2021](FQH#FeldmanHalperin2021)
+
+Further measurements:
 
 * [[James Nakamura]] et al.: *Impact of bulk-edge coupling on observation of anyonic braiding statistics in quantum Hall interferometers*, Nature Communications **13** 344 (2022) \[<a href="https://doi.org/10.1038/s41467-022-27958-w">doi:10.1038/s41467-022-27958-w</a>, [arXiv:2107.02136](https://arxiv.org/abs/2107.02136)\]
 
