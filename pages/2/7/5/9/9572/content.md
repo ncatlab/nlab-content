@@ -197,9 +197,10 @@ then the Drinfeld center $Z(\mathcal{C})$ is also naturally a fusion category.
 ([Etingof, Nikshych & Ostrik 2005, Thm. 2.15](#EtingofNikshychOstrik05), review in [Davydov, Mueger, Nikshych & Ostrik 2003, Sec. 2.3](#DavydovMuegerNikshychOstrik03), see also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](#DrinfeldGelakiNikshychOstrik10), [Mueger 2003](#Mueger03), [EGNO 2015, Thm. 9.3.2](#EGNO15)).
 
 
-### Relation to Drinfeld double under Tannaka duality
+### Relation to Drinfeld double
+ {#RelationToDrinfeldDouble}
 
-Under [[Tannaka duality]], forming the Drinfeld center of a [[category of modules]] of some [[Hopf algebra]] corresponds to forming the category of modules over the corresponding [[Drinfeld double]] algebra. See there for more.
+Under [[Tannaka duality]], forming the Drinfeld center of a [[category of modules]] of some [[Hopf algebra]] corresponds to forming the category of modules over the corresponding [[Drinfeld double]] algebra (cf. [EGNO15, §7.14](#EGNO15)).
 
 
 [[!include structure on algebras and their module categories - table]]
@@ -218,7 +219,7 @@ This is also known as the representation category of the *[[Drinfeld double]]* o
 We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which may not be in the literature, but cf. [Li 2026](Drinfeld+double#Li2026)).
 
 
-#### The simple objects
+#### The fusion category
 
 We start by recalling definitions and establishing notation:
 
@@ -248,6 +249,21 @@ By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \ma
    \]
 
    We will be referring to $\widetilde\otimes$, and its incarnation (eq:TensorProductInDrinfeldCenterOfVecG) in the Drinfeld center, as the *fusion product*, to be distinguished from the degreewise tensor product (cf. also Rem. \ref{DrinfeldCenterNotMonoidallyEquivalent} below).
+
+Equivalently, with 
+
+$$
+  C(G) \in HopfAlg
+$$
+
+denoting the [[Hopf algebra|Hopf]] [[algebra of functions]] $G \to \mathbb{C}$ (with product the pointwise product of functions and with [[coproduct]] induced by [[precomposition]] of functions with the [[binary operation|group multiplication]]), we have that $Vec_G$ is [[equivalence of categories|equivalent]] (as a [[monoidal category]]) to the [[category of modules]] of $C(G)$:
+
+$$
+  Vec_G \simeq Mod\big(C(G))
+  \mathrlap{\,.}
+$$
+
+(The pointwise product in $C(G)$ induces the $G$-grading and the coproduct induces the [[convolution product|convolution]] in (eq:TensorProductOnGradedVectorSpaces).)
 
 For example, with $X \in \mathrm{Vec}$ an ungraded vector space and $g_0 \in G$ a group element, we write
 \[
@@ -330,7 +346,11 @@ Now, the *Drinfeld center* $\mathcal{Z}({\mathrm{Vec}_G})$ is, by its general de
      \mathrlap{\,.}
    \]
 
-But this general definition of Drinfeld center may be simplified in the present case: 
+
+
+#### Simple objects as inertia irreps
+
+The above general definition of Drinfeld center applied to the case of $Vec_G$ may be further simplified:
 
 Since every [[vector space]] is [[isomorphism|isomorphic]] to a [[direct sum]] of copies of [[complex numbers|$\mathbb{C}$]], the linear maps $\beta_{(-)}$ (eq:TheHalfBraiding) are determined already by their values on $\mathbb{C} \delta_{g_0}$ (eq:GradedVectorSpaceConcentratedInSingleDegree); and if we understand that $\mathbb{C} \otimes V = V$, then, by degree reasons, their $g_0 g$-components must be [[linear isomorphisms]] $g_0 \cdot (-)$ of this form:
 
