@@ -5,11 +5,17 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Robion_Kirby)
 
-## selected writings
+
+## Selected writings
 
 Introducing [[Kirby calculus]]:
 
 * {#Kirby78} [[Rob Kirby]], _A Calculus for Framed Links in $S^3$_. Inventiones Mathematicae, vol. 45 (1978), pp. 35–56 ([dml:142535](https://eudml.org/doc/142535))
+
+On [[pin⁺ bordism]]:
+
+* {#KirbyTaylor90} [[Robion Kirby]], [[Laurence Taylor]]: _A calculation of $Pin^+$ bordism groups_, Commentarii Mathematici Helvetici **65** (1990) 434–447 &lbrack;[doi:10.1007/BF02566617](https://link.springer.com/article/10.1007/BF02566617), [pdf](https://math.berkeley.edu/~kirby/papers/Kirby%20and%20Taylor%20-%20A%20calculation%20of%20Pin%5E+%20bordism%20groups%20-%20MR1069818.pdf)&rbrack;
+
 
 On the [[E8 manifold|$E_8$ manifold]]:
 
