@@ -89,6 +89,10 @@ On the [[Verlinde formula]]/[[fusion coefficients]]:
 
 * {#Li2026} Wenqi Li: *Fusion Rings over Drinfeld Doubles*, Journal of Algebra and Its ApplicationsVol. **25** 07 (2026) 2650052  &lbrack;[doi:10.1142/S0219498826500520](https://doi.org/10.1142/S0219498826500520), [arXiv:2306.05560](https://arxiv.org/abs/2306.05560)&rbrack;
 
+and in twisted generalization:
+
+* {#Goff2012} Christopher Goff: *Fusion rules for abelian extensions of Hopf algebras*, Algebra & Number Theory **6** 2 (2012) 327–339 &lbrack;[doi:10.2140/ant.2012.6.327](http://dx.doi.org/10.2140/ant.2012.6.327), [euclid](https://projecteuclid.org/journals/algebra-and-number-theory/volume-6/issue-2/Fusion-rules-for-abelian-extensions-of-Hopf-algebras/10.2140/ant.2012.6.327.full)&rbrack;
+
 
 
 
