@@ -8,14 +8,11 @@
 =--
 =--
 
-
-
 \tableofcontents
 
 ## Idea
 
-([[cobordism|co]])[[bordism]]  with [[pinᶜ group]] [[tangential structure]]
-
+A *pinᶜ bordism* is a [[B-bordism]] for the [[tangential structure]] ([[(B,f)-structure]]) being the pinᶜ structure. Its [[bordism homology theory]] and [[cobordism cohomology theory]] are described by the [[Thom spectrum]] MPinᶜ.
 
 ## Pinᶜ bordism groups
 
@@ -32,10 +29,7 @@
 
 ## Related entries
 
-* [[spinᶜ structure]]
-
-* [[pin⁺ bordism]], [[pin⁻ bordism]]
-
+[[!include flavours of cobordism cohomology theories -- table]]
 
 ## References
 
