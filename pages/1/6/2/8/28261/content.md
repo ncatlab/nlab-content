@@ -8,9 +8,14 @@
 =--
 =--
 
-#Contents#
-* tabe of contents
-{:toc}
+
+
+\tableofcontents
+
+## Idea
+
+([[cobordism|co]])[[bordism]]  with [[pinᶜ group]] [[tangential structure]]
+
 
 ## Pinᶜ bordism groups
 
@@ -25,9 +30,16 @@
 
 ([Debray 20, Thrm. 0.1](#Debray20))
 
+## Related entries
+
+* [[spinᶜ structure]]
+
+* [[pin⁺ bordism]], [[pin⁻ bordism]]
+
+
 ## References
 
-* {#Debray20} [[Arun Debray]], _Fun with E(1)-modules: A computation of pinᶜ bordism_ (2020) [pdf](https://adebray.github.io/lecture_notes/roundabout_pinc.pdf)
+* {#Debray20} [[Arun Debray]]: _Fun with $E(1)$-modules: A computation of pinᶜ bordism_ (2020) &lbrack;[pdf](https://adebray.github.io/lecture_notes/roundabout_pinc.pdf), [[Debray-pinc.pdf:file]]&rbrack;
 
 [[!redirects pinc bordism]]
 [[!redirects Pinᶜ bordism]]
