@@ -9,7 +9,12 @@
 
 On the [Furuta-Bauer invariant](Seiberg-Witten+theory#ReferencesSeibergWittenInvariantsInStableHomotopy) lifting [[Seiberg-Witten invariants]] to ([[equivariant homotopy group|equivariant]]) [[stable homotopy groups of spheres]]:
 
+On [[pinᶜ bordism]]:
+
 * [[Arun Debray]]: *Furuta's $10/8$ Theorem* (2019) &lbrack;[pdf](https://adebray.github.io/lecture_notes/s19_furuta.pdf), [[Debray-FurutaTheorem.pdf:file]]&rbrack;
+
+
+* {#Debray20} [[Arun Debray]]: _Fun with $E(1)$-modules: A computation of pinᶜ bordism_ (2020) &lbrack;[pdf](https://adebray.github.io/lecture_notes/roundabout_pinc.pdf), [[Debray-pinc.pdf:file]]&rbrack;
 
 
 On [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[differential cohomology]] via [[sheaves of spectra]]:
