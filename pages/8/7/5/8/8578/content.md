@@ -12,13 +12,12 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
-Here we discuss the [[integration]] of a [[differential form]] (possibly twisted in some way) on a [[topological manifold]] (possibly with additional structure) over an appropriately structured [[submanifold]] (or [[formal linear combination]] thereof).
+Here we discuss the [[integration]] of a [[differential form]] (possibly twisted in some way) on a [[differential manifold|differential]]/[[smooth manifold]] (possibly with additional [[structure]]) over an appropriately structured [[submanifold]] (or [[formal linear combination]] thereof).
 
 
 ## Description
@@ -29,7 +28,7 @@ See at _[[differential form]]_ for basic definitions.
 
 ### Integration of top-dimension pseudoforms (pseudoforms to measures)
 
-Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[continuous map|continuous]] $n$-pseudoform on $X$.  Suppose that $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate [[partition of unity]] and a continuous coordinate chart on each patch.  (When $X$ is [[differentiable manifold|differentiable]], or even [[smooth manifold|smooth]], then these may also be chosen to be differentiable or smooth, which may be convenient but is not necessary.)  Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
+Let $X$ be an $n$-dimensional [[differential manifold|differential]]/[[smooth manifold]], and let $\omega$ be a [[differentiable map|differentiable]]/[[smooth map|smoth]] $n$-[[pseudoform]] on $X$.  By assumption, $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate [[partition of unity]] and a [[coordinate chart]] on each patch. Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
 
 *  On each coordinate patch $U$, fix the orientation given by the coordinates to turn $\omega$ into an untwisted $n$-form $\hat{\omega}$; then write $\hat{\omega}$ in coordinates as
    $$ \hat{\omega} = \omega_U \wedge \mathrm{d}x^1 \wedge \cdots \wedge \mathrm{d}x^n .$$
@@ -41,7 +40,7 @@ Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[
    \[ \label{absvalposs} \int_U \omega = \int_U \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,\]
    where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]].
 
-*  Using the partition of unity, write
+*  Using the [[partition of unity]], write
    $$ \omega = \sum_U w_U \omega_U ,$$
    where $w_U$ is a weight function defined on $U$ and $\omega_U$ is the [[restriction]] of $\omega$ to $U$.
    Then we have
@@ -55,7 +54,7 @@ _A priori_, this definition depends not only on the particular coordinate patche
 
 +-- {: .num_theorem #IntegrationTheorem}
 ###### Theorem
-When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-pseudoforms to measures is linear.
+When $\omega$ is an $n$-[[pseudoform]], the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-[[pseudoforms]] to measures is linear.
 =--
 
 Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
