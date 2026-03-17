@@ -130,19 +130,29 @@ On representation theory of the quantum double of a finite group
 * [[Shahn Majid]], Leo Sean McCormack, _Quantum geometric Wigner construction for $D(G)$ and braided racks_, [arXiv:2407.11835](https://arxiv.org/abs/2407.11835)
 
 
+
 ### Quantum double model for anyons
  {#ReferencesQuantumDoubleModel}
 
-In the context of [[lattice models]] for [[anyons]] (the *[[toric code]]* for $G = \mathbb{Z}_{/2}$):
+In the context of [[lattice models]] for [[anyons]], the quantum doubles of finite groups labels local [[operators]] in the *Kitaev quantum double model* (which is the *[[toric code]]* for $G = \mathbb{Z}_{/2}$), originally due to:
 
 * {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*,  Annals Phys. **303** (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
 
+Review:
+
+* {#Simon23} [[Steven H. Simon]]; *Kitaev Quantum Double Model*, section 29 in: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
+
+Discussion via methods of [[AQFT]], such as [[Doplicher-Roberts reconstruction]]:
+
 * [[Pieter Naaijkens]]: *Kitaev's quantum double model from a local quantum physics point of view*, in: *Advances in Algebraic Quantum Field Theory*, Mathematical Physics Studies, Springer (2015) \[<a href="https://doi.org/10.1007/978-3-319-21353-8_9">doi:10.1007/978-3-319-21353-8_9</a>, [arXiv:1508.07170](https://arxiv.org/abs/1508.07170)\]
-  > (via [[AQFT]])
+
+* [[Alex Bols]], Siddharth Vadnerkar: *Classification of the anyon sectors of Kitaev's quantum double model*, Commun. Math. Phys. **406** 188 (2025) \[<a href="https://doi.org/10.1007/s00220-025-05363-w">doi:10.1007/s00220-025-05363-w</a>, [arXiv:2310.19661](https://arxiv.org/abs/2310.19661)\]
+
+See also:
 
 * *Hopf Algebras in Kitaev's Quantum Double Models* &lbrack;[pirsa:c17029](https://pirsa.org/c17029)&rbrack;
 
-* [[Alex Bols]], Siddharth Vadnerkar: *Classification of the anyon sectors of Kitaev's quantum double model*, Commun. Math. Phys. **406** 188 (2025) \[<a href="https://doi.org/10.1007/s00220-025-05363-w">doi:10.1007/s00220-025-05363-w</a>, [arXiv:2310.19661](https://arxiv.org/abs/2310.19661)\]
+
 
 
 [[!redirects Drinfel'd doubles]]
