@@ -67,6 +67,7 @@ A generalization of the Verlinde formula to [[logarithmic 2d CFTs]]:
 [[!redirects fusion rule]]
 [[!redirects fusion rules]]
 
-
+[[!redirects fusion coefficient]]
+[[!redirects fusion coefficients]]
 
 
