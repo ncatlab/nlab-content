@@ -34,8 +34,6 @@ $$
 $$
 is a module over the [[spin bordism]] ring, and likewise MSpinʰ is an MSpin-module spectrum.
 
-
-
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
@@ -45,6 +43,8 @@ is a module over the [[spin bordism]] ring, and likewise MSpinʰ is an MSpin-mod
 * {#FreedHopkins} [[Daniel S. Freed]] and [[Michael J. Hopkins]], _Reflection positivity and invertible topological phases_, Geometry and Topology 25 (2021). [arXiv:1604.06527](https://arxiv.org/abs/1604.06527), &lbrack;[doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
 
 * {#AlbaneseMilivojević} [[Michael Albanese]] and [[Aleksandar Milivojević]], _Spinʰ and further generalisations of spin_, Journal of Geometry and Physics 164 (2021). [arXiv:2008.04934](https://arxiv.org/abs/2008.04934), &lbrack;[doi:10.1016/j.geomphys.2021.104174](https://doi.org/10.1016/j.geomphys.2021.104174)&rbrack;
+
+* {#Mills23} [[Keith Mills]], _The Structure of the Spin^h Bordism Spectrum_ (2023) &lbrack;[arXiv:2306.17709v2](https://arxiv.org/abs/2306.17709v2)&rbrack;
 
 [[!redirects Spinʰ bordism]]
 [[!redirects spinʰ cobordism]] 
