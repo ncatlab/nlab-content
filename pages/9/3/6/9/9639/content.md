@@ -841,10 +841,11 @@ Review and survey of the FQHE:
 
 * {#HalperinJain20} [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
-* Moty Heiblum, D. E. Feldman: *Edge probes of topological order*, Int. J. Mod. Phys. A **35** 18 (2020) 2030009 &lbrack;[arXiv:1910.07046](https://arxiv.org/abs/1910.07046), [doi:10.1142/S0217751X20300094](https://doi.org/10.1142/S0217751X20300094)&rbrack;
+* Moty Heiblum, [[Dima E. Feldman]]: *Edge probes of topological order*, Int. J. Mod. Phys. A **35** 18 (2020) 2030009 &lbrack;[arXiv:1910.07046](https://arxiv.org/abs/1910.07046), [doi:10.1142/S0217751X20300094](https://doi.org/10.1142/S0217751X20300094)&rbrack;
   > (also chapter 1 in [Halperin & Jain 2020](#HalperinJain20))
 
-* D. E. Feldman, [[Bertrand I. Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
+* {#FeldmanHalperin2021} [[Dima E. Feldman]], [[Bertrand I. Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
+  > (focus on [experimental signatures of anyons](#ObservationOfAnyonsInFQH))
 
 * [[Tudor D. Stanescu]], *Effective theory of Abelian fractional quantum Hall liquids*, Section 6.2.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9781032126524)&rbrack;
 
@@ -896,7 +897,7 @@ On the $\nu = 5/2$ FQH state:
 * Hiroyuki Inoue, Anna Grivnin, Yuval Ronen, Moty Heiblum, Vladimir Umansky, Diana Mahalu: *Proliferation of neutral modes in fractional quantum Hall states*, Nature Communications **5** 4067 (2014) &lbrack;[doi:10.1038/ncomms5067](https://doi.org/10.1038/ncomms5067)&rbrack;
   > (highlighting instability making the [[topological quantum computing|TQC]] application doubtful)
 
-* Mitali Banerjee, Moty Heiblum, Vladimir Umansky, Dima E. Feldman, Yuval Oreg, [[Ady Stern]]: *Observation of half-integer thermal Hall conductance*, Nature **559** (2018) 205–210 &lbrack;[doi:10.1038/s41586-018-0184-1](https://doi.org/10.1038/s41586-018-0184-1)&rbrack;
+* Mitali Banerjee, Moty Heiblum, Vladimir Umansky, [[Dima E. Feldman]], Yuval Oreg, [[Ady Stern]]: *Observation of half-integer thermal Hall conductance*, Nature **559** (2018) 205–210 &lbrack;[doi:10.1038/s41586-018-0184-1](https://doi.org/10.1038/s41586-018-0184-1)&rbrack;
 
 * Ken K. W. Ma, Michael R. Peterson, V. W. Scarola, Kun Yang: *Fractional quantum Hall effect at the filling factor $\nu = 5/2$*, Encyclopedia of Condensed Matter 2nd ed. **1** (2024) 324-365 &lbrack;[arXiv:2208.07908](https://arxiv.org/abs/2208.07908), [doi:10.1016/B978-0-323-90800-9.00135-9](https://doi.org/10.1016/B978-0-323-90800-9.00135-9)&rbrack;
 
