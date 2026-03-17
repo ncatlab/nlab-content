@@ -430,7 +430,8 @@ Further review:
 
 * M. J. Gotay, J. Isenberg, R. Montgomery, J. E. Marsden, _Momentum Maps and Classical Fields, Part I: Covariant Field Theory_ [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.6137&rep=rep1&type=pdf)
 
-A discussion in the context of the [[variational bicomplex]] with further pointers to the use in [[physics]] is in 
+
+In the context of the [[variational bicomplex]] with further pointers to the use in [[physics]]:
 
 * E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267-1286
 
@@ -451,6 +452,10 @@ On the relation between covariant phase space methods and [[multisymplectic geom
 * {#BridgesHydonLawson} Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson, _Multisymplectic structures and the variational bicomplex_ &lbrack;[doi](http://dx.doi.org/10.1017/S0305004109990259)&rbrack;
  
 * {#ForgerRomero04} [[Michael Forger]], [[Sandro Romero]], *Covariant Poisson brackets in geometric field theory*, Commun. Math. Phys. **256** (2005) 375-410 &lbrack;[arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008), [doi:10.1007/s00220-005-1287-8](https://doi.org/10.1007/s00220-005-1287-8)&rbrack;
+
+With attention to [[diffeomorphisms]] and [[symplectomorphisms]]:
+
+* M. Golshani, [[Mohammad Sheikh-Jabbari]], V. Taghiloo, M. H. Vahidinia: *Geometric Aspects of Covariant Phase Space Formalism: Solution Space Slicings and Surface Charge Integrability* &lbrack;[arXiv:2603.14439](https://arxiv.org/abs/2603.14439)&rbrack;
  
 
 
