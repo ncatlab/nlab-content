@@ -78,13 +78,13 @@ The terminology of *generalized global symmetries* is due to:
 
 * {#GaiottoKapustinSeibergWillett14} [[Davide Gaiotto]], [[Anton Kapustin]], [[Nathan Seiberg]], [[Brian Willett]], *Generalized Global Symmetries*  J. High Energ. Phys. **2015** 172 (2015) &lbrack;[arXiv:1412.5148](https://arxiv.org/abs/1412.5148), <a href="https://doi.org/10.1007/JHEP02(2015)172">doi:10.1007/JHEP02(2015)172</a>&rbrack;
 
-Survey of the "field":
+Survey and introductions:
 
 * [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], [[Shu-Heng Shao]], *Snowmass White Paper: Generalized Symmetries in Quantum Field Theory and Beyond* &lbrack;[arXiv:2205.09545](https://arxiv.org/abs/2205.09545)&rbrack;
 
-Lecture notes:
+* [[Clay Cordova]], [[Michele Del Zotto]], [[Daniel Freed]], [[David Jordan]], [[Kantaro Ohmori]]: *Simons Lectures on Categorical Symmetries* (2024) &lbrack;[arXiv:2411.09082](https://arxiv.org/abs/2411.09082)&rbrack;
 
-* [[Clay Cordova]], [[Michele Del Zotto]], [[Daniel Freed]], [[David Jordan]], [[Kantaro Ohmori]]. *Simons Lectures on Categorical Symmetries* (2024). ([arXiv:2411.09082](https://arxiv.org/abs/2411.09082)).
+* [[Justin Kaidi]]: *Introduction to Generalized Symmetries* &lbrack;[arXiv:2603.08798](https://arxiv.org/abs/2603.08798)&rbrack;
 
 
 Further suggestion for mathematical formalization of what [GKSW14](#GaiottoKapustinSeibergWillett14) had in mind (purely at the quantum level, with caveats):
