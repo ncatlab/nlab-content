@@ -354,6 +354,9 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Hoang Van Quyet: *Criticality and Phase Structures of Excited Holographic Superconductors in Nonlinear Electrodynamics* &lbrack;[arXiv:2602.18924](https://arxiv.org/abs/2602.18924)&rbrack;
 
+* Jovan Potrebić, Dragoljub Gočanin: *Twisted Holographic Superfluids in External Magnetic Field* &lbrack;[arXiv:2603.15572](https://arxiv.org/abs/2603.15572)&rbrack;
+
+
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
