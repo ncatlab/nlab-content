@@ -12,6 +12,19 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A *2-oriented bordism* is a [[B-bordism]] for the [[tangential structure]] ([[(B,f)-structure]]) being the [[2-orientation]]. Its [[bordism homology theory]] and [[cobordism cohomology theory]] are described by the [[Thom spectrum]] [[M2-Orient]]. Its definition is fully analogous to that of similar bordisms like [[oriented bordism]]. Similarily, there are *2-oriented bordism groups* and the *2-oriented bordism ring*:
+$$
+\Omega_n^{2\text{-}Orient}
+\coloneqq\pi_n M2\text{-}Orient
+=\lim_{k\rightarrow\infty}\pi_{n+k} M2\text{-}Orient_k;
+$$
+$$
+\Omega^{2\text{-}Orient}
+\coloneqq\bigoplus_{n\in\mathbb{N}}\Omega_n^{2\text{-}Orient}.
+$$
+
 ## Properties
 
 \begin{proposition}
