@@ -26,6 +26,10 @@ Coinage of the term "delicate topological phase":
 
 * [[Aleksandra Nelson]]: *Delicate topological insulators: a new world of phases between trivial and fragile*, PhD thesis, Zürich (2022) $[$[webpage](https://www.tomasbzdusek.com/publication/delicate-topological-insulators-a-new-world-of-phases-between-trivial-and-fragile/), [[Nelson-DelicateInsulators.pdf:file]]\]
 
+With focus on [[Bloch Hamiltonian]] [[classifying spaces]] with non-abelian [[fundamental groups]]:
+
+* QuanSheng Wu, Alexey A. Soluyanov, [[Tomáš Bzdušek]]: *Non-Abelian band topology in noninteracting metals*, Science **365** (2019) 1273-1277 \[<a href="https://doi.org/10.1126/science.aau8740">doi:10.1126/science.aau8740</a>, [arXiv:1808.07469](https://arxiv.org/abs/1808.07469)\]
+
 
 Applications:
 
@@ -39,8 +43,8 @@ Expositions with an eye towards non-abelian [braiding of band nodes in momentum 
 
 * [[Adrien Bouhon]]: *Non-Abelian and Euler multi-gap topologies in crystalline materials*, [talk at](CQTS#BouhonMay2023): *[Quantum Information and Quantum Matter](CQTS#QuantumConference2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) $[$[[Bouhon-MultiGapTopolgies.pdf:file]]\]
 
-Further discussion:
 
+Further discussion:
 
 * Barry Bradlyn, Zhijun Wang, Jennifer Cano, [[B. Andrei Bernevig]]: *Disconnected Elementary Band Representations, Fragile Topology, and Wilson Loops as Topological Indices: An Example on the Triangular Lattice*, Phys. Rev. B **99** (2019) 045140 \[<a href="https://doi.org/10.1103/PhysRevB.99.045140">doi:10.1103/PhysRevB.99.045140</a>, [arXiv:1807.09729](https://arxiv.org/abs/1807.09729)\]
 
