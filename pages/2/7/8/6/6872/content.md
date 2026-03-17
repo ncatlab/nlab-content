@@ -10,6 +10,7 @@ On [[quasideterminants]] and [[quantum determinants]]:
 
 * [[Daniel Krob]], [[Bernard Leclerc]], _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. **169** (1995) 1-23 &lbrack;[doi:10.1007/BF02101594](https://doi.org/10.1007/BF02101594), [arXiv:hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)&rbrack;
 
+* [[Bernard Leclerc]], [[Andrei Zelevinsky]], _Quasicommuting families of quantum Pluecker coordinates_, In G. I. Olshanski et al. Kirillov’s seminar on representation theory, Adv. Math. Sci. 181. Amer. Math. Soc. 1998
 
 On noncommutative symmetric functions
 
