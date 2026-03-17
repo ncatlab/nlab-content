@@ -434,6 +434,9 @@ See also
 
 [[!redirects spinᶜ structures]]
 
+[[!redirects spinᶜ manifold]]
+[[!redirects spinᶜ manifolds]]
+
 [[!redirects spin^c structure]]
 [[!redirects spin^c structures]]
 [[!redirects Spin^c structure]]
