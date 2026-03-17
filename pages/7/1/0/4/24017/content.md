@@ -5,7 +5,7 @@
 
 * [inSpire page](https://inspirehep.net/authors/1971299)
 
-* [GoogleScholar page](https://scholar.google.com/citations?user=cRgGh1oAAAAJ&hl=sk)
+* [GoogleScholar page](https://scholar.google.com/citations?user=cRgGh1oAAAAJ&hl=en)
 
 ## Selected writings
 
