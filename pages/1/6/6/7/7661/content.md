@@ -96,6 +96,10 @@ About general $BO\langle\ell\rangle$ bordisms:
 
 * {#BotvinnikLabbi14} [[Boris Botvinnik]], [[Mohammed Labbi]], _Highly connected manifolds of positive $p$-curvature_, Transactions of the AMS, Trans. Amer. Math. Soc. 366 (2014), 3405-3424 &lbrack;[arXiv:1201.1849](http://arxiv.org/abs/1201.1849), [doi:10.1090/S0002-9947-2014-05939-4](https://doi.org/10.1090/S0002-9947-2014-05939-4)&rbrack;
 
+* {#BuchananMcKean26} [[Jonathan Buchanan]], [[Stephen McKean]]: _KSp-characteristic classes determine Spin cobordism_, Algebr. Geom. Topol. **26** (2026) 485-551 &lbrack;[arXiv:2312.08209](http://arxiv.org/abs/2312.08209), [doi:10.2140/agt.2026.26.485](https://doi.org/10.2140/agt.2026.26.485)&rbrack;
+
+See also:
+
 * [Manifold Atlas](https://web.archive.org/web/20241113183734/http://www.map.mpim-bonn.mpg.de/Main_Page), _[Spin bordism](https://web.archive.org/web/20241113183732/http://www.map.mpim-bonn.mpg.de/Spin_bordism)_
 
 [[!redirects Spin bordism]]
