@@ -34,6 +34,23 @@ $$
 $$
 is a module over the [[spin bordism]] ring, and likewise MSpinʰ is an MSpin-module spectrum.
 
+## Definition
+
+Let $M$ and $N$ be $n$-dimensional [[spinʰ manifolds]] with respective [[spinʰ structures]] $\tau_M\colon M\rightarrow BSpin^h(n)$ and $\tau_N\colon N\rightarrow BSpin^h(n)$. A $n+1$-dimensional [[spinʰ manifold]] $W$ with [[spinʰ structure]] $\tau_W\colon W\rightarrow BSpin^h(n+1)$ together with inclusions $i\colon M\hookrightarrow\partial W$ and $j\colon N\hookrightarrow\partial W$ so that:
+$$
+\partial W
+=i(M)+j(N);
+$$
+$$
+\mathcal{B}k\circ\tau_M
+=\tau_W\circ i;
+$$
+$$
+\mathcal{B}k\circ\tau_N
+=\tau_W\circ j
+$$
+with the canonical inclusion $k\colon Spin^h(n)\rightarrow Spin^h(n+1)$ is a *spinʰ bordism* between $M$ and $N$. It is fully denoted by $(W,M,N,i,j)$, but usually $W$ is sufficient from context.
+
 ## Related concepts
 
 [[!include flavours of cobordism cohomology theories -- table]]
@@ -45,6 +62,8 @@ is a module over the [[spin bordism]] ring, and likewise MSpinʰ is an MSpin-mod
 * {#AlbaneseMilivojević} [[Michael Albanese]] and [[Aleksandar Milivojević]], _Spinʰ and further generalisations of spin_, Journal of Geometry and Physics 164 (2021). [arXiv:2008.04934](https://arxiv.org/abs/2008.04934), &lbrack;[doi:10.1016/j.geomphys.2021.104174](https://doi.org/10.1016/j.geomphys.2021.104174)&rbrack;
 
 * {#Mills23} [[Keith Mills]], _The Structure of the Spin^h Bordism Spectrum_ (2023) &lbrack;[arXiv:2306.17709v2](https://arxiv.org/abs/2306.17709v2)&rbrack;
+
+* {#BuchananMcKean26} [[Jonathan Buchanan]], [[Stephen McKean]]: _KSp-characteristic classes determine Spin cobordism_, Algebr. Geom. Topol. **26** (2026) 485-551 &lbrack;[arXiv:2312.08209](http://arxiv.org/abs/2312.08209), [doi:10.2140/agt.2026.26.485](https://doi.org/10.2140/agt.2026.26.485)&rbrack;
 
 [[!redirects Spinʰ bordism]]
 [[!redirects spinʰ cobordism]] 
