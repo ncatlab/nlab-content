@@ -8,9 +8,11 @@
 =--
 =--
 
-#Contents#
-* tabe of contents
-{:toc}
+\tableofcontents
+
+## Idea
+
+([[cobordism|co]])[[bordism]]  with [[pin⁺ group]] [[tangential structure]]
 
 ## Pin⁺ bordism groups
 
@@ -25,9 +27,14 @@
 
 ([Kirby & Taylor 90, Crl. 2](#KirbyTaylor90))
 
+## Related entries
+
+* [[pin⁻ bordism]], [[pinᶜ bordism]]
+
+
 ## References
 
-* {#KirbyTaylor90} [[Robion Kirby]], [[Laurence Taylor]], _A calculation of Pin + bordism groups_, Commentarii Mathematici Helvetici, Volume 65, pages 434–447, (1990) &lbrack; [doi:10.1007/BF02566617](https://link.springer.com/article/10.1007/BF02566617) [pdf](https://math.berkeley.edu/~kirby/papers/Kirby%20and%20Taylor%20-%20A%20calculation%20of%20Pin%5E+%20bordism%20groups%20-%20MR1069818.pdf)&rbrack
+* {#KirbyTaylor90} [[Robion Kirby]], [[Laurence Taylor]]: _A calculation of $Pin^+$ bordism groups_, Commentarii Mathematici Helvetici **65** (1990) 434–447 &lbrack;[doi:10.1007/BF02566617](https://link.springer.com/article/10.1007/BF02566617), [pdf](https://math.berkeley.edu/~kirby/papers/Kirby%20and%20Taylor%20-%20A%20calculation%20of%20Pin%5E+%20bordism%20groups%20-%20MR1069818.pdf)&rbrack;
 
 [[!redirects pin+ bordism]]
 [[!redirects Pin⁺ bordism]]
