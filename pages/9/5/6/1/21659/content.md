@@ -126,6 +126,9 @@ Applications in physics:
 [[!redirects spinʰ structure]]
 [[!redirects spinʰ structures]]
 
+[[!redirects spinʰ manifold]]
+[[!redirects spinʰ manifolds]]
+
 [[!redirects spin^h structure]]
 [[!redirects spin^h structures]]
 
