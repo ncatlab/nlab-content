@@ -349,13 +349,13 @@ An online proof may be found [here](https://ncatlab.org/toddtrimble/published/Mo
 
 Suppose a [[topos]] $\mathcal{E}$ has a [[connected component|connected components functor]] $\Pi$ [[left adjoint]] to $\Delta\dashv \Gamma$ assigning to an object $X$ the set of it connected components. We call $X$ [[connected object|connected]] if $\Pi(X)$ is a [[singleton]] and [[contractible space|contractible]] if $\Pi(X^Y)$ is connected for all $Y\in\mathcal{E}$. It can be shown that provided $\Pi$ preserves [[finite products]], $\Omega$ is contractible iff $\Omega$ is connected which in turn implies the same for all other [[injective object|injective objects]] (see at [[sufficiently cohesive topos]]).
 
-Now the subobject classifier $\Omega$ has always two disjoint points $\mathsf{true}$, $\mathsf{false}$ whence provided it is connected we can view it (together with its Heyting algebra structure) has a (highly nonlinear) generalized [[interval object]] and define a notion of [[homotopy]] relative to $\Omega$. The intuition here is that [[true|truth]] and [[false|falsity]] are continuously connected in such toposes and blend into each other, endowing (the logic in) $\mathcal{E}$ with a certain [[Hegel|Hegelian]] flavor. The contractability of $\Omega$ was taken as a key property of a [[gros topos]] of spaces by [[William Lawvere]]. Further information on this particular class of [[cohesive topos|cohesive toposes]] and discussion of properties of $\Omega$ relevant in this context is at [[sufficiently cohesive topos]].
+Now the subobject classifier $\Omega$ has always two disjoint points $\mathsf{true}$, $\mathsf{false}$ whence provided it is connected we can view it (together with its Heyting algebra structure) has a (highly nonlinear) generalized [[interval object]] and define a notion of [[homotopy]] relative to $\Omega$. The intuition here is that [[true|truth]] and [[false|falsity]] are continuously connected in such toposes and blend into each other, endowing (the logic in) $\mathcal{E}$ with a certain [[Hegel|Hegelian]] flavor. The contractibility of $\Omega$ was taken as a key property of a [[gros topos]] of spaces by [[William Lawvere]]. Further information on this particular class of [[cohesive topos|cohesive toposes]] and discussion of properties of $\Omega$ relevant in this context is at [[sufficiently cohesive topos]].
 
 ## Categories without subobject classifiers
 
 As the previous section indicates, having a subobject classifier is a very strong property of a category and "most" categories with finite limits don't have one.
 
-For example, there is an easy condition ensuring a category[^1] with a terminal object can't have a subobject classifier: if there are no nonidentity morphisms out of the terminal object. This includes the following examples. 
+For example, there is an easy condition ensuring a category[^1] with a terminal object can't have a subobject classifier: if all morphisms out of the terminal object are isomorphisms. This includes the following examples. 
 
 [^1]: We mean a nontrivial category, obviously, where "trivial" here means every object is terminal. 
 
