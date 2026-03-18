@@ -12,7 +12,7 @@
 
 ## Idea
 
-*Pin⁺ bordism* is the [[B-bordism]] theory for manifolds with pin⁺ [[tangential structure]] ([[(B,f)-structure]]). This is defined to be a lift of the principal $O_n$-bundle of frames across the double cover $\mathrm{Pin}_n^+\to O_n$. This can also be characterized using [[Stiefel-Whitney class|Stiefel-Whitney classes]] as follows:
+*Pin⁺ bordism* is the [[B-bordism]] theory for manifolds with [[pin⁺ group|pin⁺]] [[tangential structure]] ([[(B,f)-structure]]). This is defined to be a lift of the principal $O_n$-bundle of frames across the double cover $\mathrm{Pin}_n^+\to O_n$. This can also be characterized using [[Stiefel-Whitney class|Stiefel-Whitney classes]] as follows:
 \begin{lemma}([Stolz 1988](#Stolz88), Corollary 6.4)
 \label{w2_pinp}
 A vector bundle $V\to X$ has a pin⁺ structure if and only if $w_2(V) = 0$ in $H^2(X;\mathbb{Z}/2)$.
