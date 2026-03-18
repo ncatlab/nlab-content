@@ -102,6 +102,8 @@ Introduction and review:
 
 * [[Franz Gross]], [[Eberhard Klempt]] et al., Chapter 4 of: *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
 
+* Heng-Tong Ding: *Lattice QCD at finite temperature and density* &lbrack;[arXiv:2603.16230](https://arxiv.org/abs/2603.16230)&rbrack;
+
 
 Rigorous discussion in view of the [[mass gap problem]]:
 
