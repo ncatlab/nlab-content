@@ -83,6 +83,11 @@ See also:
 
 * Jiasheng Lin: *Constructive Quantum Field Theory on Curved Surfaces and Related Topics* &lbrack;[arXiv:2507.21655](https://arxiv.org/abs/2507.21655)&rbrack;
 
+[[formal methods|Formalization]] in [[Lean]] of the construction of the [[free field theory|free]] [[scalar field|scalar]] [[quantum field theory|quantum field]]:
+
+* [[Michael R. Douglas]], Sarah Hoback, Anna Mei, Ron Nissim: *Formalization of QFT* &lbrack;[arXiv:2603.15770](https://arxiv.org/abs/2603.15770)&rbrack;
+
+
 
 
 ### For 2D YM theory
