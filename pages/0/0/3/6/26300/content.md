@@ -46,7 +46,7 @@ Maps in the image of $j_!$ are known as __etale maps__.
 
 ## Applications
 
-For any object $U\in E$, we define the __[[petit topos]]__ of $U$ as $E_{/U}$ and the __[[gros topos]]__ of $U$ as $F_{j_! U}$.
+For any object $U\in E$, we define the __[[petit topos]]__ of $U$ as $E_{/U}$ and the __[[gros topos]]__ of $U$ as $F_{/j_! U}$.
 
 ## Examples
 
