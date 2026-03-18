@@ -82,6 +82,9 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 
 * {#RumyninTaylor2022} Dmitriy Rumynin, James Taylor: *Real Representations of $C_2$-Graded Groups: The Linear and Hermitian Theories*, Higher Structures **6** 1 (2022) 359-374. &lbrack;[doi:10.21136/HS.2022.07](https://dx.doi.org/10.21136/HS.2022.07), [arXiv:2008.07846](https://arxiv.org/abs/2008.07846)&rbrack;
 
+* Lucas C.P.A.M. Müssnich, Renato Vasconcellos Vieira: *The weakly interacting tenfold way* &lbrack;[arXiv:2603.16799](https://arxiv.org/abs/2603.16799)&rbrack;
+
+
 Review:
 
 * [[John Baez]], _The Tenfold Way_ (2020) &lbrack;[webpage](https://math.ucr.edu/home/baez/tenfold.html)&rbrack;
