@@ -58,6 +58,10 @@ On [[KK-compactification]] in [[string theory]]:
 
 * [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
 
+[[formal methods|Formalization]] in [[Lean]] of the [[constructive field theory|construction]] of the [[free field theory|free]] [[scalar field|scalar]] [[quantum field theory|quantum field]]:
+
+* [[Michael R. Douglas]], Sarah Hoback, Anna Mei, Ron Nissim: *Formalization of QFT* &lbrack;[arXiv:2603.15770](https://arxiv.org/abs/2603.15770)&rbrack;
+
 category: people
 
 [[!redirects Michael R. Douglas]]
