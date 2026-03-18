@@ -24,14 +24,10 @@ Given an [[action]] $G\times X\to X$ of a ([[discrete group|discrete]]) [[group]
 
 ### Category of orbits
 
-The _category of orbits_ of a [[group]] $G$ is the full subcategory
-of the category of sets with an action of $G$.
+The _category of orbits_ of a [[group]] $G$ is the [[full subcategory]] of the category of [[G-set|sets with an action of $G$]].
 
 Since any orbit of $G$ is isomorphic to the orbit $G/H$
-for some group $H$, the category of $G$-orbits admits the following
-alternative description: its objects are subgroups $H$ of $G$
-and morphisms $H_1\to H_2$ are elements $[g]\in G/H_2$
-such that $H_1\subset g^{-1} H_2 g$.
+for some group $H$, the category of $G$-orbits admits the following alternative description: its objects are [[subgroups]] $H$ of $G$ and morphisms $H_1\to H_2$ are elements $[g]\in G/H_2$ such that $H_1\subset g^{-1} H_2 g$.
 
 In particular, the group of automorphisms of a $G$-orbit $G/H$
 is $N_G(H)/H$, where $N_G(H)$ is the [[normalizer]] of $H$ in $G$.
