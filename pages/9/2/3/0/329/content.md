@@ -118,10 +118,38 @@ satisfying the following properties:
 1.  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h\colon a \to b$ and $i\colon b \to c$, the vertical composite $(i \triangleright \theta) \bullet (i \triangleright \eta)$ equals the [[whiskering]] $i \triangleright (\theta \bullet \eta)$,
 1.  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the left [[whiskerings]] $\eta \triangleleft (g \circ f)$ and $(\eta \triangleleft g) \triangleleft f$ are equal,
 1.  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the right [[whiskerings]] $i \triangleright (h \triangleright \eta)$ and $(i \circ h) \triangleright \eta$ are equal,
+
 1.  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the [[whiskerings]] $i \triangleright (\eta \triangleleft f)$ and $(i \triangleright \eta) \triangleleft f$ are equal, and
+
 1.  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \bullet (\theta \triangleleft f)$ and $(\theta \triangleleft g) \bullet (h \triangleright \eta)$ are equal.
 
 The construction in the last axiom is the _[[horizontal composition|horizontal composite]]_ $\theta \circ \eta\colon h \circ f \to i \circ g$.  It is possible (and probably more common) to take the [[horizontal composition|horizontal composite]] as basic and the [[whiskerings]] as derived operations.  This results in fewer, but more complicated, axioms.
+
+This equivalent definition is as follows. The stuff is the same as before. We require the following structure:
+
+*  for each object $a$, an _[[identity morphism|identity]]_ $1_a\colon a \to a$ or $\id_a\colon a \to a$,
+
+*   for each $a,b,c$, $f\colon a \to b$, and $g\colon b \to c$, a _composite_ $f ; g\colon a \to c$ or $g \circ f\colon a \to c$,
+
+*  for each $f\colon a \to b$, an _identity_ $1_f\colon f \Rightarrow f$ or $\Id_f\colon f \Rightarrow f$,
+
+*  for each $f,g,h\colon a \to b$, $\eta\colon f \Rightarrow g$, and $\theta\colon g \Rightarrow h$, a _[[vertical composition|vertical composite]]_ $\theta \bullet \eta\colon f \Rightarrow h$,
+
+*  for each $a,b,c,d$, $f,g\colon a \to b$, $h,i\colon b \to c$ and $\eta\colon f \Rightarrow g$, $\theta\colon h \Rightarrow i$, an _[[horizontal composition|horizontal composite]]_ $\theta \circ \eta\colon h \circ f \rightarrow i \circ g$,
+
+satisfying the following properties:
+
+1.  for each $f\colon a \to b$, the composites $f \circ \id_a$ and $\id_b \circ f$ each equal $f$,
+
+1.  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the composites $h \circ (g \circ f)$ and $(h \circ g) \circ f$ are equal,
+1.  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\eta \bullet \Id_f$ and $\Id_g \bullet \eta$ both equal $\eta$,
+1.  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h \overset{\iota}\Rightarrow i\colon a \to b$, the vertical composites $\iota \bullet (\theta \bullet \eta)$ and $(\iota \bullet \theta) \bullet \eta$ are equal,
+1. for each $a \overset{f}\to b \overset{g}\to c$, the horizontal composite $\Id_g \circ \Id_f$ equals $\Id_{g \circ f}$,
+1. for each $f \overset{\alpha}\Rightarrow g \overset{\beta}\Rightarrow h\colon a \to b$ and $i \overset{\gamma}\Rightarrow j \overset{\delta}\Rightarrow k\colon b \rightarrow c$, the horizontal composite $(\delta \bullet \gamma) \circ (\beta \bullet \alpha)$ equals the vertical composite $(\delta \circ \beta) \bullet (\gamma \circ \alpha)$,
+1. for each $\alpha\colon f\Rightarrow g\colon a\to b$, the horizontal composites $\alpha \circ \Id_{\id_a}$ and $\Id_{\id_b} \circ \alpha$ both equal $\alpha$,
+1. for each $\alpha\colon f \Rightarrow g\colon a\to b$, $\beta\colon h \Rightarrow i\colon b\to c$ and $\gamma\colon j\Rightarrow k\colon c\to d$, the horizontal composites $(\gamma \bullet \beta) \bullet \alpha$ and $\gamma \bullet (\beta \bullet \alpha)$ are equal.
+
+Note that for the structure, the four first items are the same as before whereas the two preceding items for whiskerings are replaced by the item for horizontal composition. For the properties, the four first items are the same as before whereas the preceding eight items for whiskerings have been replaced by four items for horizontal composition.
 
 ## 2-categories as sesquicategories 
  {#AsSesquicategories}
