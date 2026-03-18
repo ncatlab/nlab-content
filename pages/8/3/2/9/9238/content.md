@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -546,6 +544,10 @@ Discussion on Euclidean manifolds and in terms of [[BV-formalism]] is in
 * {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([[GwilliamThesis.pdf:file]])
 
 * [[Owen Gwilliam]], [[Rune Haugseng]], _Linear Batalin-Vilkovisky quantization as a functor of ∞-categories_ ([arXiv:1608.01290](https://arxiv.org/abs/1608.01290))
+
+[[formal methods|Formalization]] in [[Lean]] of the [[constructive field theory|construction]] of the [[free field theory|free]] [[scalar field|scalar]] [[quantum field theory|quantum field]]:
+
+* [[Michael R. Douglas]], Sarah Hoback, Anna Mei, Ron Nissim: *Formalization of QFT* &lbrack;[arXiv:2603.15770](https://arxiv.org/abs/2603.15770)&rbrack;
  
 
 [[!redirects free field theories]]
