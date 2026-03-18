@@ -149,7 +149,7 @@ satisfying the following properties:
 1. for each $\alpha\colon f\Rightarrow g\colon a\to b$, the horizontal composites $\alpha \circ \Id_{\id_a}$ and $\Id_{\id_b} \circ \alpha$ both equal $\alpha$,
 1. for each $\alpha\colon f \Rightarrow g\colon a\to b$, $\beta\colon h \Rightarrow i\colon b\to c$ and $\gamma\colon j\Rightarrow k\colon c\to d$, the horizontal composites $(\gamma \bullet \beta) \bullet \alpha$ and $\gamma \bullet (\beta \bullet \alpha)$ are equal.
 
-Note that for the structure, the four first items are the same as before whereas the two preceding items for whiskerings are replaced by the item for horizontal composition. For the properties, the four first items are the same as before whereas the preceding eight items for whiskerings have been replaced by four items for horizontal composition.
+Note that for the structure, the first four items are the same as before whereas the preceding two items for whiskerings are replaced by the item for horizontal composition. For the properties, the first four items are the same as before whereas the preceding eight items for whiskerings have been replaced by four items for horizontal composition.
 
 ## 2-categories as sesquicategories 
  {#AsSesquicategories}
