@@ -5,6 +5,9 @@
 
 ***
 
+[[BuchananMcKean-SpinCobordismGroups.png:file]]
+
+
 By $\mathrm{Vec} \coloneqq \big({\mathrm{FD}\mathbb{C}\mathrm{Vec}, \otimes, \mathbb{C}}\big)$ we denote the [[monoidal category]] of [[finite-dimensional vector space|finite-dimensional]] [[complex vector spaces]] with the usual [[tensor product of vector spaces]]. For $G$ a [[group]], the monoidal category $\mathrm{Vec}_G$ of *$G$-[[graded vector spaces]]* has:
 
 1. as [[objects]] [[vector spaces]] $V \in \mathrm{Vec}$ equipped with $G$-[[indexed set|indexed]] [[direct sum]] decomposition
