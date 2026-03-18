@@ -1,5 +1,11 @@
 
-* [webpage](http://www.math.kobe-u.ac.jp/home-j/yamaday-e.html)
+* [institute page](http://www.math.kobe-u.ac.jp/home-j/yamaday-e.html)
+
+* [inSpire page](https://inspirehep.net/authors/982935)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=fxOx7ckAAAAJ&hl=ja)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Yasuhiko-Yamada-2163178904)
 
 ## Selected writings
 
