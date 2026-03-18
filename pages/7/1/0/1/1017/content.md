@@ -1,9 +1,10 @@
 
-# Points
-* table of contents
-{: toc}
+> Specifically for the [[topological space|topological]] [[point space]], see there.
 
-## The abstract point
+\tableofcontents
+
+
+## Idea
 
 The **point** is what is shown here:
 
