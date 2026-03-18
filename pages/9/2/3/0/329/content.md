@@ -135,7 +135,7 @@ This equivalent definition is as follows. The stuff is the same as before. We re
 
 *  for each $f,g,h\colon a \to b$, $\eta\colon f \Rightarrow g$, and $\theta\colon g \Rightarrow h$, a _[[vertical composition|vertical composite]]_ $\theta \bullet \eta\colon f \Rightarrow h$,
 
-*  for each $a,b,c,d$, $f,g\colon a \to b$, $h,i\colon b \to c$ and $\eta\colon f \Rightarrow g$, $\theta\colon h \Rightarrow i$, an _[[horizontal composition|horizontal composite]]_ $\theta \circ \eta\colon h \circ f \rightarrow i \circ g$,
+*  for each $a,b,c$, $f,g\colon a \to b$, $h,i\colon b \to c$ and $\eta\colon f \Rightarrow g$, $\theta\colon h \Rightarrow i$, an _[[horizontal composition|horizontal composite]]_ $\theta \circ \eta\colon h \circ f \rightarrow i \circ g$,
 
 satisfying the following properties:
 
