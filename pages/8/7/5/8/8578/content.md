@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,12 +13,12 @@
 =--
 =--
 
-
 \tableofcontents
+
 
 ## Idea
 
-Here we discuss the [[integration]] of a [[differential form]] (possibly twisted in some way) on a [[differential manifold|differential]]/[[smooth manifold]] (possibly with additional [[structure]]) over an appropriately structured [[submanifold]] (or [[formal linear combination]] thereof).
+Here we discuss the [[integration]] of a [[differential form]] (possibly twisted in some way) on a [[differentiable manifold]] (possibly with additional [[structure]]) over an appropriately structured [[submanifold]] (or [[formal linear combination]] thereof).
 
 
 ## Description
@@ -28,7 +29,7 @@ See at _[[differential form]]_ for basic definitions.
 
 ### Integration of top-dimension pseudoforms (pseudoforms to measures)
 
-Let $X$ be an $n$-dimensional [[differential manifold|differential]]/[[smooth manifold]], and let $\omega$ be a [[differentiable map|differentiable]]/[[smooth map|smoth]] $n$-[[pseudoform]] on $X$.  By assumption, $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate [[partition of unity]] and a [[coordinate chart]] on each patch. Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
+Let $X$ be an $n$-dimensional [[differentiable manifold]], and let $\omega$ be a [[continuous map|continuous]] $n$-[[pseudoform]] on $X$.  By assumption, $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate [[partition of unity]] and a differentiable [[coordinate chart]] on each patch. Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
 
 *  On each coordinate patch $U$, fix the orientation given by the coordinates to turn $\omega$ into an untwisted $n$-form $\hat{\omega}$; then write $\hat{\omega}$ in coordinates as
    $$ \hat{\omega} = \omega_U \wedge \mathrm{d}x^1 \wedge \cdots \wedge \mathrm{d}x^n .$$
@@ -38,7 +39,7 @@ Let $X$ be an $n$-dimensional [[differential manifold|differential]]/[[smooth ma
 
 *  The coordinates on $U$ define a [[diffeomorphism]] between $U$ and an open subset of $\mathbf{R}^n$ that we\'ll also call $U$; so use the latter formula to interpret
    \[ \label{absvalposs} \int_U \omega = \int_U \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,\]
-   where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]].
+   where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]], or equivalently as a [[Riemann integral]].
 
 *  Using the [[partition of unity]], write
    $$ \omega = \sum_U w_U \omega_U ,$$
@@ -54,15 +55,17 @@ _A priori_, this definition depends not only on the particular coordinate patche
 
 +-- {: .num_theorem #IntegrationTheorem}
 ###### Theorem
-When $\omega$ is an $n$-[[pseudoform]], the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-[[pseudoforms]] to measures is linear.
+When $\omega$ is a continuous $n$-[[pseudoform]], the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from continuous $n$-[[pseudoforms]] to measures is linear.
 =--
 
 Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
 
+We can drop the requirement that $\omega$ is continuous at the cost that the integrals in (eq:absvalposs) might not exist.  If they do, then we say that $\omega$ is __integrable__, and the map from integrable $n$-pseudoforms to measures continues to be linear.
+
 
 ### Measures to pseudoforms
 
-It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
+It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is a [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
 
 *  Given a point $a$, choose one of the two local orientations at $a$.
 *  Given $n$ linearly independent vectors $(v_1,\ldots,v_n)$ at $a$, develop them into a coordinate system on a neighbourhood $U$ of $a$.
@@ -71,7 +74,13 @@ It may also be enlightening to consider how to go back from a measure to an $n$-
 *  If the coordinate system on $U$ is positively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $L$; if the coordinate system on $U$ is negatively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $-L$.
 *  Extend the definition to $n$ arbitrary vectors by continuity (which necessarily maps a linearly dependent tuple of vectors to zero).
 
-Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors); or if that\'s not true, then we messed up and need to add further restrictions to the absolutely continuous Radon measure $\omega$.  The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).  Instead, this would define an [[absolute differential form]] (which is equivalent to a pseudoform when, as here, the degree equals the dimension).
+Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors), but the limits $L$ might not exist.  However, we have this guarantee:
++-- {: .num_theorem #DensityTheorem}
+###### Theorem
+If $X$ is a [[smooth manifold]] and $\omega$ is an [[absolutely continuous measure|absolutely continuous]] Radon measure on $X$, then the construction above defines an $n$-[[pseudoform]] [[almost everywhere]] on $X$, which (when extended arbitrarily wherever the necessary limits do not exist) is integrable, and recovers the original measure $\omega$ upon being integrated.
+=--
+
+The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).  Instead, this would define an [[absolute differential form]] (which is equivalent to a pseudoform when, as here, the rank equals the dimension).
 
 
 ### Integration of more general forms
