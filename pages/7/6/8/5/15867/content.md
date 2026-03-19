@@ -122,6 +122,9 @@ See also:
 
 * Harshal Kulkarni, [[Christopher Beem]]: *Towards a classification of graded unitary $\mathcal{W}_3$ algebras* &lbrack;[arXiv:2602.15944](https://arxiv.org/abs/2602.15944)&rbrack;
 
+* [[Thomas Creutzig]], Niklas Garner, Byeonggi Go, Heeyeon Kim: *W-algebras of the Deligne-Cvitanović Exceptional series and the minimal 3d $\mathcal{N}=4$ SCFT* &lbrack;[arXiv:2603.17394](https://arxiv.org/abs/2603.17394)&rbrack;
+
+
 
 ### In Fractional Quantum Hall systems
  {#ReferencesInQuantumHallSystems}
