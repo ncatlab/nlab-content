@@ -174,6 +174,17 @@ Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center**
     \,.
   $$
 
+* the [[braiding]] is given (cf. [EGNO15 (8.15)](#EGNO15)) by:
+
+  $$
+    b_{
+     (X,\Phi), (Y,\Psi)
+    }
+    =
+    \Psi_X
+    \mathrlap{\,.}
+  $$
+
 =--
 
 ## Properties
