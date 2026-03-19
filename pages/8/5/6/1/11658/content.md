@@ -112,6 +112,9 @@ Further discussion:
 
 * Gregory J. Loges, *A new infinite class of 6d, $\mathcal{N}=(1,0)$ supergravities* &lbrack;[arXiv:2402.04371](https://arxiv.org/abs/2402.04371)&rbrack;
 
+* Guglielmo Lockhart, Yann Proto: *Rational points in the 6d supergravity landscape and simple current extensions* &lbrack;[arXiv:2603.17713](https://arxiv.org/abs/2603.17713)&rbrack;
+
+
 
 {#ReferencesFourZero} For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
