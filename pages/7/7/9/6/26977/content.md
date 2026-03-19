@@ -4,7 +4,7 @@
 
 ## Idea
 
-Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. There are kind of geometric [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
+Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. They are kind of geometric [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
 
 
 ## Definition 
