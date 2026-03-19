@@ -1,12 +1,11 @@
-# Contents
-* this block creates the table of contents, leave as is
-{: toc}
 
+
+\tableofcontents
 
 
 ## Idea
 
-The notion of _regular directed complex_, introduced by [[Amar Hadzihasanovic|Hadzihasanovic]], is a notion of [[pasting diagram]] shape. There, a pasting diagram is encoded as a kind of "directed [[cell complex]]", that is, a cell complex together with an orientation on each cell, which divides its boundary into two halves: an *input* half and an *output* half.
+The notion of _regular directed complex_, introduced by [Hadzihasanovic 2024](#Hadzihasanovic2024), is a notion of [[pasting diagram]] shape. There, a pasting diagram is encoded as a kind of "directed [[cell complex]]", that is, a cell complex together with an orientation on each cell, which divides its boundary into two halves: an *input* half and an *output* half.
 
 
 
@@ -604,6 +603,13 @@ with $\mathrm{lydim} U^{(i)} \lt k$. Then by induction, each $U^{(i)}$ is a comp
     The proof works equally well by structural induction.
 \end{remark}
 
+
+
+## Related concepts
+
+* [[diagrammatic set]]
+
+
 ## References
 
 The main reference on regular directed complexes:
@@ -613,3 +619,5 @@ The main reference on regular directed complexes:
 For a computational perspective on regular directed complexes:
 
 * {#KesslerHadzihasanovic2023} Diana Kessler, Amar Hadzihasanovic, _Higher-dimensional subdiagram matching_, LICS 2023 ([link](https://ieeexplore.ieee.org/abstract/document/10175726))
+
+[[!redirects regular directed complexes]]
