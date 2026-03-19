@@ -17,7 +17,7 @@ A classic text with links to the theory of modules is
 * C. U. Jensen, 1972, _Les foncteurs d&#233;riv&#233;s de Lim et leurs applications en th&#233;orie de modules_, volume 254 of Springer Lecture Notes in Maths.
 
 
-A proof that derived limit functors give invariants of a corresponding pro-obect can be found in
+A proof that derived limit functors give invariants of a corresponding pro-object can be found in
 
 * [[John Duskin]], _Pro-objects (after Verdier)_, S&#233;m. Heidelberg- Strasbourg1966 -67, Expos&#233; 6, I.R.M.A.Strasbourg.
 
