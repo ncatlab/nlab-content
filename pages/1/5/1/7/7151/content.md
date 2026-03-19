@@ -67,9 +67,11 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinity-bundle|connections]] on principal 3-bundles:
 
+* Gianni Gagliardo, [[Christian Saemann]], Roberto Tellez-Dominguez: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
 
-## Related $n$Lab entries
+## Related  entries
 
 * [[M2-brane 3-algebra]]
 
