@@ -31,4 +31,10 @@ For $G = \mathbf{B}^2 U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infini
 
 * [[nonabelian bundle 2-gerbe]]
 
+## References
+
+On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinity-bundle|connections]] on principal 3-bundles:
+
+* Gianni Gagliardo, [[Christian Saemann]], Roberto Tellez-Dominguez: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
+
 [[!redirects principal 3-bundles]]
