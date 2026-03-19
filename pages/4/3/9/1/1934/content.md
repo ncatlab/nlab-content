@@ -161,7 +161,6 @@ A discussion and comparison of big vs little approaches to $(\infty,1)$-topos th
 
 * [Cohesive (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html) and [Petit (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/petit_1toposes.html).
 
-
 [[!redirects big topos]]
 [[!redirects big toposes]]
 [[!redirects big topoi]]
