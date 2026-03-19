@@ -47,7 +47,7 @@ With this notation, MTPin⁻ = MPin⁺.
 * $\Omega_5^{Pin^-}\cong 0$
 * $\Omega_6^{Pin^-}\cong \mathbb{Z}/16$
 * $\Omega_7^{Pin^-}\cong 0$
-* $\Omega_8^{Pin^-} \cong \mathbb{Z}/2$.
+* $\Omega_8^{Pin^-} \cong \mathbb{Z}/2 \oplus \mathbb{Z}/2$.
 
 As a corollary, $\Omega_*^{Pin^-}$ cannot be a graded ring: in any graded ring, the degree-$n$ elements are a module over the degree-$0$ ones, but $\Omega_2^{Pin^-}$ is not a $\mathbb{Z}/2$-module.
 
