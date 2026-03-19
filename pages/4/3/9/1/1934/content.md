@@ -52,11 +52,12 @@ Recall that a [[fractured (∞,1)-topos]] is a [[left adjoint]] [[(∞,1)-functo
 
 Now for any object $U\in E$, we define the __petit topos__ of $U$ as $E_{/U}$ and the __gros topos__ of $U$ as $F_{/j_! U}$.
 
+
 ## Axiomatizations
 
 * If a site $S$ is given by a [[Grothendieck pretopology]], then one can define an associated notion of a [[little site]] associated to any object of $S$, and hence both a little topos and a big topos, which are related as above.
 
-* One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]] (cf. [Lawvere 1986, Axioms 0-1](#Lawvere86)).
+* One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]] (cf. [Lawvere 1986, Axioms 0-1](#Lawvere86), [Lawvere 1989, p. 261, 263](#Law89a)).
 
 * In his early papers in the 80s, [[Lawvere]] emphasized the existence of a contractible [[subobject classifier]], a concept which together with the [[adjoint quadruple]] goes under the name [[sufficiently cohesive topos]] in the later axiomatization (modulo some fineprint).
 
