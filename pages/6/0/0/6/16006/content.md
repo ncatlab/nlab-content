@@ -101,3 +101,10 @@ The corresponding [[adjoint modalities]] are $(q_!\cdot i_!)\cdot (i^\ast \cdot 
 
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
+[[!redirects levels of a topos]]
+[[!redirects levels of toposes]]
+[[!redirects levels of topoi]]
+
+[[!redirects essential localization]]
+[[!redirects essential localizations]]
+
