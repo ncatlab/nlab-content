@@ -53,7 +53,7 @@ A standard textbook account is
 
 See the references at _[[analytic geometry]]_ for more details.
 
-Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of of [[analytic geometry]] is in 
+Discussion of affinoid algebras as a [[site]] for a more [[topos]]-theoretic formulation of [[analytic geometry]] is in 
 
 * {#BenBassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
