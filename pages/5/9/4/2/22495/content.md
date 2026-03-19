@@ -36,5 +36,9 @@ On [[braided monoidal category|braided]] [[tensor categories]] arising as [[repr
 
 * [[Thomas Creutzig]], [[Simon Lentner]], [[Matthew Rupert]], *Characterizing braided tensor categories associated to logarithmic vertex operator algebras* ([arXiv:2104.13262](https://arxiv.org/abs/2104.13262))
 
+On [[W-algebra]] in 3D [[SCFT]]:
+
+* [[Thomas Creutzig]], Niklas Garner, Byeonggi Go, Heeyeon Kim: *W-algebras of the Deligne-Cvitanović Exceptional series and the minimal 3d $\mathcal{N}=4$ SCFT* &lbrack;[arXiv:2603.17394](https://arxiv.org/abs/2603.17394)&rbrack;
+
 
 category: people
