@@ -1,24 +1,39 @@
-# Contents
-* this block creates the table of contents, leave as is
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
 
 ## Idea
 
-Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. They are kind of geometric [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
+*Diagrammatic sets* are [[presheaf|presheaves]] over the [[atom category]]. They are a kind of geometric [[polygraphs]] and may serve as a [[geometric shape for higher structures]].
 
 
 ## Definition 
 
 \begin{definition}
 **(diagrammatic set)**\linebreak
-A **diagrammatic set** $X$ is a presheaf over $\odot$, the [[atom category|category of atoms]] and cartesian maps. Diagrammatic sets and [[natural transformations]] form the category $\odot\mathbf{Set}$
+A **diagrammatic set** $X$ is a [[presheaf]] over $\odot$, the [[atom category|category of atoms]] with cartesian maps between them. Diagrammatic sets with [[natural transformations]] between them form the category $\odot\mathbf{Set}$
 \end{definition}
 
 
 ## Properties
 
 
-Let $\mathbf{RDCpx}$ be the category of [[regular directed complex|regular directed complexes]] and cartesian maps. Since atoms are regular directed complexes, there is a [[full subcategory]] inclusion $i \colon \odot \hookrightarrow \mathbf{RDCpx}$. Moreover, any regular directed complex $P$ is canonically a colimit of its atoms, in the sense that there is a functor
+Let $\mathbf{RDCpx}$ be the category of [[regular directed complexes]] and cartesian maps. Since atoms are regular directed complexes, there is a [[full subcategory]] inclusion $i \colon \odot \hookrightarrow \mathbf{RDCpx}$. Moreover, any regular directed complex $P$ is canonically a colimit of its atoms, in the sense that there is a functor
 $$
     P^* \colon P \to \mathbf{RDCpx} 
 $$
@@ -63,7 +78,7 @@ Again, those two ways coincide in the sense that $i^*(\partial U) = \partial yU$
 
 ## Diagrammatic sets and higher category theory
 
-The richness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live make them a good candidate for modelling [[higher category theory|higher categories]]. In this perspective, in a diagrammatic set $X$, a natural transformation $x \colon U \to X$ whose domain is an $n$-dimensional atom, correspond to an **[[k-morphism|$n$-cell]]** in $X$. If $U$ is more generally an $n$-dimensional molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of a **round $n$-diagram**.
+The richness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live make them a good candidate for modelling [[higher categories]]. In this perspective, in a diagrammatic set $X$, a natural transformation $x \colon U \to X$ whose [[domain]] is an $n$-dimensional atom, corresponds to an **[[n-morphism|$n$-morphism]]** in $X$. If $U$ is more generally an $n$-dimensional molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of a **round $n$-diagram**.
 
 Before the more conjectural case of weak higher categories, we can deal with the case of higher groupoids.
 
