@@ -462,7 +462,7 @@ In constrast, arguments that cosmic inhomogeneity can not be the cause of any si
 * {#Moffat16} [[John Moffat]], _Inhomogeneous Cosmology Redux_ ([arXiv:1608.00534](https://arxiv.org/abs/1608.00534))
 
 
-See also 
+See also:
 
 * Wikipedia, _[Lemaître–Tolman metric](https://en.wikipedia.org/wiki/Lema%C3%AEtre%E2%80%93Tolman_metric)_
 
@@ -501,6 +501,8 @@ See also:
 * Joann Jones, Craig J. Copi, Glenn D. Starkman, Yashar Akrami: *The Universe is not statistically isotropic* &lbrack;[arXiv:2310.12859](https://arxiv.org/abs/2310.12859)&rbrack;
 
 * Alan H. Guth, Mohammad Hossein Namjoo: *Statistical isotropy of the universe and the look-elsewhere effect* &lbrack;[arXiv:2602.10178](https://arxiv.org/abs/2602.10178)&rbrack;
+
+* David Benisty, Antonino Del Popolo: *Islands in Simulated Cosmos: Probing the Hubble Flow around Groups and Clusters* &lbrack;[arXiv:2510.11382](https://arxiv.org/abs/2510.11382)&rbrack;
 
 
 
