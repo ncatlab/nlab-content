@@ -23,6 +23,127 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
  {#LatestsEvents}
 
 
+* 2026, August 17-21
+
+  **QPL 2026**
+
+  (23rd International Conference on Quantum Physics and Logic)
+
+  home page: [qplconference.org](https://qplconference.org)
+
+  Amsterdam (Netherlands)
+
+* 2026, July 27-31
+
+  **TACL 2026**
+
+  (Topology, Algebra, and Categories in Logic)
+
+  home page: [iphils.uj.edu.pl/tacl](https://iphils.uj.edu.pl/tacl/)
+
+  Kraków (Poland)
+
+* 2026, July 13-18
+
+  **CT 2026**
+
+  (International Category Theory Conference)
+
+  home page: [ct2026.com](https://ct2026.com)
+
+  Baltimore (USA)
+
+* 2026, July 6-10
+
+  **ACT 2026**
+
+  (9th International Conference on Applied Category Theory)
+
+  home page: [appliedcategorytheory.org](https://appliedcategorytheory.org)
+
+  Tallinn (Estonia)
+
+* 2026, July 1-4
+
+  **CatAlg2026**
+
+  (Workshop on the Interactions Between Algebra and Category Theory)
+
+  home page: [sites.google.com/view/catalg2026](https://sites.google.com/view/catalg2026)
+
+  Edolo (Italy)
+
+* 2026, March 28-29
+
+  **PSSL 112**
+
+  (112th Peripatetic Seminar on Sheaves and Logic)
+
+  home page: [sites.google.com/view/pssl112](https://sites.google.com/view/pssl112/)
+
+  Nottingham (United Kingdom)
+
+* 2025, July 14-18
+
+  **QPL 2025**
+
+  (22nd International Conference on Quantum Physics and Logic)
+
+  home page: [qpl2025.github.io](https://qpl2025.github.io)
+
+  Varna (Bulgaria)
+
+* 2025, July 13-19
+
+  **CT 2025**
+
+  (International Category Theory Conference)
+
+  home page: [archive.math.muni.cz/conference/ct2025](https://archive.math.muni.cz/conference/ct2025)
+
+  Brno (Czech Republic)
+
+* 2025, June 17-20
+
+  **FMCS 2025**
+
+  (32nd Foundational Methods in Computer Science)
+
+  home page: [sites.google.com/view/fmcs-ottawa](https://sites.google.com/view/fmcs-ottawa)
+
+  Ottawa (Canada)
+
+* 2025, June 2-6
+
+  **ACT 2025**
+
+  (8th International Conference on Applied Category Theory)
+
+  home page: [appliedcategorytheory.org](https://appliedcategorytheory.org)
+
+  Gainesville, Florida (USA)
+
+* 2025, April 24-25
+
+  **SYCO 13**
+
+  (Thirteenth Symposium on Compositional Structures)
+
+  home page: [cl.cam.ac.uk/events/syco/13](https://www.cl.cam.ac.uk/events/syco/13/)
+
+  London (UK)
+
+* 2024, November 15-17
+
+  **PSSL 109**
+
+  (109th Peripatetic Seminar on Sheaves and Logic)
+
+  home page: [dutchcats.github.io/PSSL-2024](https://dutchcats.github.io/PSSL-2024/)
+
+  Leiden (Netherlands)
+
+
 * 2024, July 15-19
 
   **QPL 2024**
