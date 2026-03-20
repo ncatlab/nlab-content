@@ -120,7 +120,7 @@ There is a natural bijective correspondence between congruences on a quantale $Q
 
 Aside from being "noncommutative frames", a different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
 
-For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a symmetric and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y,d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
+For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a reflexive and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y,d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
 
 When $Q$ is a commutative affine quantale, $Q$-Cat is both cartesian and monoidal closed: the categorical and the monoidal products of $(X,d_X)$ and $(Y,d_Y)$ are given respectively by $(X\times Y, d^\wedge_{X\times Y})$ and $(X\times Y, d^\otimes_{X\times Y})$ where 
 
