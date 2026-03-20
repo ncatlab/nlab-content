@@ -47,6 +47,14 @@ The concept is defined in
 
 * {#Weber07} [[Mark Weber]], _Familial 2-functors and parametric right adjoints_, Theory Appl. Categ. 18 (2007), No. 22, 665–732, ([tac](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html)))
 
+and generalised in:
+
+* [[Charles Walker]], _Lax Familial Representability and Lax Generic Factorizations_, Theory and Applications of Categories 35.37 (2020): 1424-1475 ([url](http://www.tac.mta.ca/tac/volumes/35/37/35-37abs.html))
+
+A closely related notion is contained in:
+
+* [[Jason Brown]], _2-categorical Fam constructions_, PhD thesis, Macquarie University, 2025 ([url](https://figshare.mq.edu.au/articles/thesis/2-categorical_fam_constructions/26794186))
+
 As a way to encode the shape of higher categories:
 
 * {#Shapiro21} [[Brandon Shapiro]], _Familial Monads as Higher Category Theories_ ([arXiv:2111.14796](https://arxiv.org/abs/2111.14796))
