@@ -78,6 +78,14 @@ Application of type 0 strings to [[holographic QCD]]:
 
 * Mohammad Akhond, Adi Armoni, Stefano Speziali, _Phases of $U(N_c)$ $QCD_3$ from Type 0 Strings and Seiberg Duality_ ([arxiv:1908.04324](https://arxiv.org/abs/1908.04324))
 
+Proposed relation to [[M-theory]] [[Kaluza-Klein compactification|KK-compactified]] on the [[wedge sum]] of two [[circles]]:
+
+* Zihni Kaan Baykara, Emilian Dudas, [[Cumrun Vafa]]: *M-theory on as Type 0A* &lbrack;[arXiv:2603.13468](https://arxiv.org/abs/2603.13468)&rbrack;
+
+
+
+
+
 [[!redirects type 0 string theories]]
 
 
