@@ -120,14 +120,13 @@ And so forth. Writing this out in terms of $(\mathcal{C}, \otimes)$ yields the f
 =--
 
 
-
 ### In components
  {#DefinitionInComponents}
 
 +-- {: .num_defn #CompDef}
 ###### Definition
 
-Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center** is a [[monoidal category]] $Z(\mathcal{C})$ whose
+Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center** is (cf. [EGNO15 §7.13](#EGNO15)) the [[braided monoidal category|braided]] [[monoidal category]] $Z(\mathcal{C})$ whose
 
 * [[objects]] are pairs $(X, \Phi)$ of an object $X \in \mathcal{C}$ and a [[natural isomorphism]] (the *half-braiding*)
 
