@@ -13,9 +13,8 @@
 
 ***
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -1213,7 +1212,9 @@ For more see at _[[Lie differentiation]]_.
  {#StructureSheaves}
  {#CotangentBundles}
 
-We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale (∞,1)-topos]] $Sh_{\mathbf{H}_{th}}(X)$.
+We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale (∞,1)-topos]] $Sh_{\mathbf{H}_{th}}(X)$, which is a version of its [[petit topos]] inside its [[gros topos]] $\mathbf{H}_{th}/X$.
+
+> (This discussion is from §5.3.4 ([pp. 537](https://ncatlab.org/schreiber/files/dcct170811.pdf#page=563)) of [Schreiber 2017](#Schreiber2013v2), cf. [Sati & Schreiber 2026 §9.1.2.3](#SatiSchreiber2026).)
 
 
 For $X \in \mathbf{H}_{th}$ any object in a differential cohesive $\infty$-topos, we formulate
@@ -2514,21 +2515,26 @@ See at _[[differential cohesion and idelic structure]]_.
 [[!include cohesion - table]]
 
 
+
 ## References
 
+The notion of *differential cohesive* (or *elastic*) topoi is due to:
 
-The material discussed here corresponds to the most part to sections 3.5 and 3.10 of
+* {#Schreiber2013}  [[Urs Schreiber]]; §3.5, §3.10 of: _[[schreiber:Differential Cohomology in a Cohesive ∞-Topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+   {#Schreiber2013v2} and §5.3.4 ([pp. 537](https://ncatlab.org/schreiber/files/dcct170811.pdf#page=563)) in [version 2](https://ncatlab.org/schreiber/files/dcct170811.pdf) (2017)
+
+* [[nLab:Urs Schreiber]]: *[Elastic Toposes](geometry+of+physics+--+categories+and+toposes#ElasticToposes)*, section 5.2 in:  *[[schreiber:Categories and Toposes]] -- Differential cohesive higher Toposes*, lecture series at _Modern Mathematics Methods in Physics_: _[Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](https://web.archive.org/web/20170712104119/http://www.nesinkoyleri.org/eng/events-detail.php?egitimkod=203)_, [Nesin Mathematics Village](http://www.nesinkoyleri.org/eng/index.php) — Şirince, Izmir, Turkey (June 18-29, 2018) &lbrack;view: [[nLab:geometry of physics -- categories and toposes|web]], [pdf](/nlab/files/CategoriesAndToposes-20250501.pdf)&rbrack; 
+
+* {#SatiSchreiber2026} [[Hisham Sati]], [[Urs Schreiber]]; §9.1.2 in: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026) &lbrack;ISBN:9781041147510&rbrack;
 
 Exposition:
 
-* {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes, Dec. 2019  ([pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]])
-
+* {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes (Dec. 2019)  &lbrack;[pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]]&rbrack;
 
 For references on the general notion of _[[cohesive (∞,1)-topos]]_, see there.
 
-The following literature is related to or subsumes by the discussion here.
+The following literature is related to or subsumed by the discussion here.
 
 Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  of
@@ -2572,6 +2578,8 @@ Discussion for [[derived differential geometry]]:
 [[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]] 
 
 [[!redirects differentially cohesive topos]]
+[[!redirects differentially cohesive topoi]]
+[[!redirects differentially cohesive toposes]]
 
 [[!redirects elastic topos]]
 [[!redirects elastic toposes]]
