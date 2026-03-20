@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -39,7 +39,6 @@ Under the [[duality in string theory|duality]] between [[M-theory]] and [[type I
 
 This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge groups]] at the [[heterotic string theory|heterotic]] boundary of [[Horava-Witten theory]]:
 
-[[ViaO8GaugeEnhancementOnM9.jpg:file]]
 
 <img src="https://ncatlab.org/nlab/files/ViaO8GaugeEnhancementOnM9.jpg" width="600"/>
 
@@ -84,13 +83,11 @@ Further discussion:
 
 
 
+A proposal for a description of the M9 as a [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]]:
 
+* Takeshi Sato: *A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory*, Phys. Lett. B **477** (2000) 457-468 &lbrack;[arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030), <a href="https://doi.org/10.1016/S0370-2693(00)00229-X">doi:10.1016/S0370-2693(00)00229-X</a>&rbrack;
 
-A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
-
-* Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_, Phys. Lett. B477 (2000) 457-468 ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
-
-Discussion of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[tachyon condensation]] is in
+Discussion of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[tachyon condensation]]:
 
 * [[Laurent Houart]], [[Yolanda Lozano]], _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](http://arxiv.org/abs/hep-th/0001170))
 
