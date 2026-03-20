@@ -89,3 +89,7 @@ exposition:
 [[!redirects fractured (infinity,1)-toposes]]
 [[!redirects fractured (∞,1)-topos]]
 [[!redirects fractured (∞,1)-toposes]]
+
+[[!redirects fractured topos]]
+[[!redirects fractured toposes]]
+[[!redirects fractured topoi]]
