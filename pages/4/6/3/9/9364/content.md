@@ -80,6 +80,9 @@ The class of discrete [[Conduche functors]] with ordered finite fibers is *almos
 
 Identifying the classes of morphisms corresponding to standard polynomial monads like these also tells us how to identify when a polynomial monad is induced by a [[club]] (or more generally a [[generalized multicategory]]) over them: when the $g$ for that monad belongs to the appropriate class, compatibly.  For instance, if $S$ is the monad for cartesian strict monoidal categories, then a polynomial monad on $Cat$ is an $S$-club just when the morphism $g$ in its defining polynomial is a discrete fibration with ordered finite fibers, and its composition and unit respect that structure.
 
+## See also
+
+* [[familial 2-monad]]
 
 ## References
 
