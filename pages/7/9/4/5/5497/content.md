@@ -14,11 +14,26 @@
 =--
 =--
 
+This page is to record the reference
+
+* [[Joseph A. Goguen]]: 
+
+  \linebreak
+
+  **A Categorical Manifesto** 
+
+  \linebreak
+
+  Mathematical Structures in Computer Science **1** 1 (1991), 49-67
+
+  [doi:10.1017/S0960129500000050](https://doi.org/10.1017/S0960129500000050)
+
+promoting the use of [[category theory]] in [[computer science]]. 
+
+> **Abstract:** This paper tries to explain why and how [[category theory]] is useful in [[computer science|computing science]], by giving guidelines for applying seven basic categorical concepts: [[category]], [[functor]], [[natural transformation]], [[limit]], [[adjoint]], [[colimit]] and [[comma category]]. Some examples, intuition, and references are given for each concept, but completeness is not attempted. Some additional categorical concepts and some suggestions for further research are also mentioned. The paper concludes with some philosophical discussion.
 
 
-[_A Categorical Manifesto_]( http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362 ) is an article  written by [[Joseph Goguen]], encouraging the use of [[category theory]] in [[computer science]]. 
-
-To quote from his introduction:
+From the introduction:
 
 > This paper tries to explain why [[category theory]] is useful in [[computer science|computing science]]. The basic answer is that computing science is a young field that is growing rapidly, is poorly organised, and needs all the help it can get, and that [[category theory]] can provide help with at least the following:
 
@@ -34,17 +49,11 @@ To quote from his introduction:
 
 > * Unification. Computing science is very fragmented, with many different sub-disciplines having many different schools within them. Hence, we badly need the kind of conceptual unification that category theory can provide.
 
-### Abstract ###
 
-> This paper tries to explain why and how [[category theory]] is useful in [[computer science|computing science]], by giving guidelines for applying seven basic categorical concepts: [[category]], [[functor]], [[natural transformation]], [[limit]], [[adjoint]], [[colimit]] and [[comma category]]. Some examples, intuition, and references are given for each concept, but completeness is not attempted. Some additional categorical concepts and some suggestions for further research are also mentioned. The paper concludes with some philosophical discussion.
 
 ## Related entries
 
 * [[computational trinitarianism]]
-
-## Reference
-
-* [[Joseph A. Goguen]], _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67, doi:[10.1017/S0960129500000050](https://doi.org/10.1017/S0960129500000050), [CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362). 
 
 
 
