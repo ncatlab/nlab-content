@@ -232,6 +232,10 @@ Introducing the [[swampland cobordism conjecture]]:
 
 * [[Miguel Montero]], [[Cumrun Vafa]], _Cobordism Conjecture, Anomalies, and the String Lamppost Principle_, J. High Energ. Phys. 2021, 63 (2021) ([arXiv:2008.11729](https://arxiv.org/abs/2008.11729))
 
+Proposed relation of [[type 0 string theory]] to [[M-theory]] [[Kaluza-Klein compactification|KK-compactified]] on the [[wedge sum]] of two [[circles]]:
+
+* Zihni Kaan Baykara, Emilian Dudas, [[Cumrun Vafa]]: *M-theory on as Type 0A* &lbrack;[arXiv:2603.13468](https://arxiv.org/abs/2603.13468)&rbrack;
+
 
 
 ## Selected talks
@@ -249,7 +253,9 @@ On [[Ray-Singer torsion]] in relation to the  [[topological string]] and [[black
 * [[Cumrun Vafa]], *Ray-Singer Torsion, Topological Strings and Black Holes* &lbrack;[arXiv:2401.12816](https://arxiv.org/abs/2401.12816)&rbrack;
 
 
-## Related $n$Lab entries
+
+
+## Related entries
 
 * [[string theory]]
 
