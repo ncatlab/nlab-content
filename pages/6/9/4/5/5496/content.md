@@ -1,7 +1,7 @@
 
 <div style="float:right;margin:-30px 0px 10px 40px;"><img src="http://cseweb.ucsd.edu/~goguen/images/jgoguen.jpg" alt="Photo of Joseph Goguen" /></div>
 
-Joseph Amadee Goguen (1941--2006) was a [[computer science|computer scientist]] and applied [[category theory|category theorist]]. His theoretical work included the algebraic theory of abstract [[data types]], initial model semantics, [[institutions]], order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics of concurrent interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. Goguen wrote [[A Categorical Manifesto|_A Categorical Manifesto_]], which tried to encourage the use of category theory in computer science.
+Joseph Amadee Goguen (1941--2006) was a [[computer science|computer scientist]] and applied [[category theory|category theorist]]. His theoretical work included the algebraic theory of abstract [[data types]], initial model semantics, [[institutions]], order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics of concurrent interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. 
 
 * [institute page](http://cseweb.ucsd.edu/~goguen)
 
@@ -13,8 +13,12 @@ Joseph Amadee Goguen (1941--2006) was a [[computer science|computer scientist]] 
 
 * [ResearchGate page](https://www.researchgate.net/scientific-contributions/Joseph-Goguen-2119763627)
 
+
 ## Selected writings
 
+Promoting the use of [[category theory]] in [[computer science]]. 
+
+* [[Joseph A. Goguen]]: *[[A Categorical Manifesto]]*, Mathematical Structures in Computer Science **1** 1 (1991) 49-67 &lbrack;[doi:10.1017/S0960129500000050](https://doi.org/10.1017/S0960129500000050)&rbrack;
 
 Introducing [[indexed categories]] as a tool of [[categorical semantics]] in [[computer science]], with fundamental results such as the existence and construction of [(co)limits in Grothendieck constructions](Grothendieck+construction#CoLimitsInAGrothendieckConstruction):
 
@@ -23,7 +27,7 @@ Introducing [[indexed categories]] as a tool of [[categorical semantics]] in [[c
 
 On [[categorical logic]] for [[dynamical systems]]:
 
-* [[Joseph Goguen]]: *[[Sheaf Semantics for Concurrent Interacting Objects]]*, in: _Mathematical Structures in Computing Science_ **2** (1992) 159-91 &lbrack;[doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420) [[Goguen-SheafSemantics.pdf:file]]&rbrack;
+* [[Joseph Goguen]]: *[[Sheaf Semantics for Concurrent Interacting Objects]]*, Mathematical Structures in Computing Science **2** (1992) 159-91 &lbrack;[doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420) [[Goguen-SheafSemantics.pdf:file]]&rbrack;
 
 A discussion of various treatments of the notion of a *concept* in category-theoretic terms:
 
