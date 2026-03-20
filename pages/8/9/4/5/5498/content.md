@@ -10,7 +10,7 @@ This page is to record the reference
 
   \linebreak
 
-  in: _Mathematical Structures in Computing Science_ **2** (1992) 159-91
+  Mathematical Structures in Computing Science **2** (1992) 159-91
 
   [doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420) [[Goguen-SheafSemantics.pdf:file]]
 
@@ -21,7 +21,7 @@ Goguen uses [[sheaf|sheaves]] to represent the behaviours of individual objects,
 > **Abstract.** This paper uses concepts from sheaf theory to explain phenomena in  concurrent systems, including object, inheritance, deadlock, and non-interference, as used in computer security. The approach is very general, and applies not only to concurrent object oriented systems, but also to systems of differential equations, electrical circuits, hardware description languages, and much more. Time can be discrete or continuous, linear or branching, and distribution is allowed over space as well as time. Concepts from category theory help to achieve this generality: objects are modelled by sheaves; inheritance by sheaf morphisms; systems by diagrams; and interconnection by diagrams of diagrams. In addition, behaviour is given by limit, and the result of interconnection by colimit. The approach is illustrated with many examples, including a semantics for a simple concurrent object-based programming language.
 
 
-In [[A Categorical Manifesto]], Goguen writes that:
+In *[[A Categorical Manifesto]]*, Goguen writes that:
 
 > Given a species of structure, say widgets, then the result of interconnecting a system of widgets to form a super-widget corresponds to taking the colimit of the diagram of widgets in which the morphisms show how they are interconnected.
 
