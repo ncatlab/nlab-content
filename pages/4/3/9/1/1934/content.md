@@ -9,6 +9,7 @@
 =--
 =--
 
+
 \tableofcontents
 
 
@@ -19,15 +20,15 @@ True to their [proverbial multifacetedness](Sketches+of+an+Elephant#TheElephantA
 
 1. On the one hand, every topos $\mathcal{X}$ may *itself* be regarded as a generalized [[topological space]] (specifically a generalized [[locale]]), in which case the [[maps]] between these generalized spaces correspond to the [[geometric morphisms]] between the toposes. Actual [[topological spaces]]/[[locales]] $X$ are embodied in this manner by the [[category of sheaves]] $\mathcal{X} = Sh(X) \coloneqq Sh(Op_X)$ over (the [[site of open subsets]]) of $X$.
 
-1. On the other hand, a topos $\mathcal{T}$ may be regarded a a category *of* generalized geometric spaces, namely regarding each of its [[objects]] as a geometric space with the [[maps]] between these being the [[morphisms]] in the topos. 
+1. On the other hand, a topos $\mathcal{T}$ may also be regarded as a category *of* generalized *geometric spaces*, namely regarding each of its [[objects]] as a geometric space with the [[maps]] between these being the [[morphisms]] in the topos. 
 
-Broadly and informally, one speaks of a *big topos* (original French: *gros topos*) when thinking of a *category of space* and of a *little topos* when thinking of a *category as a space*.
+Broadly and informally, one speaks of a *big topos* (original French: *gros topos*) when thinking of a *category of spaces* and of a *little topos* when thinking of a *category as a space*.
 
-Beware that every topos always has both of these aspects and how it is addressed depends on the context.
+Beware that every topos always has both of these aspects to it, and that how it is addressed depends on the context.
 
-For instance, in the archetypical case of the the category [[Set]] of [[sets]], when regarded as a little topos it is the [[point space]] $\ast$, since $Set \simeq Sh(\ast)$, while when regarded as a big topos it is the category all [[discrete  topological spaces]]. These two perspectives are related: Discrete topological spaces are precisely those whose structure is reflected in their *probes by points*, namely by the systems of ways of mapping the point space into them.
+For example, in the archetypical case of the the category [[Set]] of [[sets]], when regarded as a little topos it is the [[point space]] $\ast$, since $Set \simeq Sh(\ast)$, while when regarded as a big topos it is the category all [[discrete  topological spaces]]. These two perspectives are related: Discrete topological spaces are precisely those whose structure is detected by their *probes by points*, namely by the system of ways of mapping the point space into them.
 
-More generally, the petit topos $Sh(X)$ of a topological space $X$ [is equivalently](étale+space#RelationToSheaves) the "gros" category of all [[étale spaces]] fibered over $X$. 
+More generally, the little topos $Sh(X)$ of a topological space $X$ [is equivalently](étale+space#RelationToSheaves) the "big" category of all [[étale spaces]] fibered over $X$. Again, these two perspective are related: [[étale spaces]] over $X$ are just those spaces over $X$ whose structure is detected by their *probes by open subsets of $X$*, namely by the systems of ways of mapping open subsets of $X$ into them, over $X$.
 
 Of course, the actual category of all [[topological spaces]], [[Top]], fails to be a [[topos]]. But it may be completed to a topos in a straightforward way, by regarding it as a ([[large site|large]]) [[site]] (whose [[coverings]] are [[families]] of jointly surjective [[open embeddings]]), and then passing to the [[sheaf topos]] $Sh(Top)$ over that (of which [[Top]] is a [[full subcategory]], via the [[Yoneda embedding]]).
 
@@ -37,18 +38,53 @@ This $Sh(Top)$ is the original *gros topos* according to [SGA4](#SGA4) (1960s-70
 
 * of the [[slice topos]] $Sh(Top_{/X})$ as the "gros topos"
 
-of $X$, the latter being a category "generalized topological spaces fibered over $X$". This is the "gros topos" of $X$ in contrast to its "petit topos" $Sh(X)$.
+of $X$, the latter being a category of "generalized topological spaces fibered over $X$". This is the "gros topos" of $X$ in contrast to its "petit topos" $Sh(X)$.
 
 Directly analogous constructions may be considered starting with other categories of spaces. Notably when replacing [[Top]] here with the category [[Sch]] of all [[schemes]] (over some [[ground field]]), then for any $X \in Sch$ we have its gros topos $Sh(Sch_{/X})$.
 
-This raises the question for characterization of the relation between *gros* and *petit* toposes more generally and in the abstract. 
+This raises the question for characterization of the relation between *little* and *big* toposes more generally and in the abstract. 
 
-Early exploration along these lines led [Lawvere 1986](#Lawvere86), [1989](#Law89a) to the notion of *[[cohesive toposes]]*. These are *very big* toposes in that their petit topos aspect is negligible: being [[strongly connected topos|strongly connected]] and [[local topos|local]], the spatial aspect of a cohesive topos is just that of a "thickened point". Hence [[cohesive toposes]] are variants of $Sh(Top)$ (which itself is not even cohesive either, but for instance the topos of "[[D-topological infinity-groupoid|D-topological sets]]" $Sh(CartSp_{top})$ is), but not of $Sh(Top_{/X})$ for extended $X$. But the general notion of gros/petit topoi may be formalized within [[differentially cohesive topoi]] $\mathbf{H}$ (see [there](differentially+cohesive+topos#StructureSheaves)) which allows to speak for every object $X \in \mathbf{H}$ of its *gros topos* $\mathbf{H}_{/X}$ and its *petit topos* $\mathbf{H}^{&eacute;t}_{/H} \subset \mathbf{H}_{/X}$ ([Schreiber 2017 §5.3.4](#Schreiber2017), [Sati & Schreiber  2026 §9.1.2.6](#SatiSchreiber2026)).
+Early exploration along these lines led [Lawvere 1986](#Lawvere86), [1989](#Law89a) to the notion of *[[cohesive toposes]]*. [^FootnoteOnSufficientCohesion] These are *very big* toposes in that their petit topos aspect is negligible: being [[strongly connected topos|strongly connected]] and [[local topos|local]], the spatial aspect of a cohesive topos is just that of a "thickened point". Hence [[cohesive toposes]] are variants of $Sh(Top)$ (which itself is not even cohesive either, but for instance the topos of "[[D-topological infinity-groupoid|D-topological sets]]" $Sh(CartSp_{top})$ is), but not of $Sh(Top_{/X})$ for extended $X$. But the general notion of gros/petit topoi may be formalized within [[differentially cohesive topoi]] $\mathbf{H}$ (see [there](differentially+cohesive+topos#StructureSheaves)) which allows to speak for every object $X \in \mathbf{H}$ of its *gros topos* $\mathbf{H}_{/X}$ and its *petit topos* $\mathbf{H}^{&eacute;t}_{/H} \subset \mathbf{H}_{/X}$ ([Schreiber 2017 §5.3.4](#Schreiber2017), [Sati & Schreiber  2026 §9.1.2.6](#SatiSchreiber2026)).
 
-More recently, the notion of [[fractured topoi]] aims for a formalization of the gros/petit distinction closer in spirit to the original construction from [SGA4](#SGA4). This allows again to systematically speak, for any object $X$ in a [[fractured topos]] of its gros and its petit topos.
+[^FootnoteOnSufficientCohesion]: In fact, these early articles ([Lawvere 1986](#Lawvere86), [1989](#Law89a)) proposed one  further axiom for big toposes, the contractibility of the [[subobject classifier]]. This extra condition makes a [[cohesive topos]] be "[[sufficiently cohesive topos|sufficiently cohesive]]". 
+
+More recently, the notion of *[[fractured topoi]]* ([Lurie 2018](#Lurie2018), following [Carchedi 2020](#Carchedi2020)) aims for a formalization of the gros/petit distinction closer in spirit to the original construction from [SGA4](#SGA4): Here the axioms aim to directly capture the inclusion functor between little/big topoi of an object $X$, which is induced by a non-[[full functor|full functor]] of [[sites]] that behaves like the inclusion of [[étale maps]] among all ambient maps. This axiomatics allows again to systematically speak, for any object $X$ in a [[fractured topos]], of its gros and its petit topos, see [below](#DefinitionInFracturedTopoi).
 
 
-## Relationships
+
+## Definitions
+
+
+### Via fractured topoi
+ {#DefinitionInFracturedTopoi}
+
+A definition of the notion of *gros* and *petit toposes* via *[[fractured topoi]]* or analogously via *[[fractured (∞,1)-topoi]]* (due to [Carchedi 2020](#Carchedi2020), and [Lurie 2018](#Lurie2018), going back to Joyal & Moerdijk and Dubuc):
+
+Recall that a [[fractured (∞,1)-topos]] is a [[left adjoint]] [[(∞,1)-functor]] $j_!\colon E\to F$ between [[(∞,1)-toposes]] such that $F$ is generated by the image of $E$ under [[(∞,1)-colimits]], the right adjoint of $j_!$ preserves [[(∞,1)-colimits]], for every $U\in E$, the induced left adjoint $(j_!)_{/U}\colon E_{/U}\to F_{/j_!U}$ is fully faithful, and maps in the image of $j_!$ are stable under base changes along maps with domain in the image of $j_!$.
+
+Now for any object $U\in E$, we define the __petit topos__ of $U$ as $E_{/U}$ and the __gros topos__ of $U$ as $F_{/j_! U}$.
+
+
+### Via differential cohesive topoi
+
+> For the time being, see [here](differentially+cohesive+topos#StructureSheaves) at *[[differentially cohesive topos]]*, or [Sati & Schreiber  2026 §9.1.2.6](#SatiSchreiber2026).
+
+
+
+## Examples
+
+For $X$ a [[topological space]], the _little topos_ that it defines is the [[category of sheaves]] $Sh(X) \coloneqq Sh(Op(X))$ on the [[category of open subsets]] of $X$. A general object in this topos can be regarded as an [[etale space]] over $X$. The space $X$ itself is incarnated as the [[terminal object]] $X = * \in Sh(X)$.
+
+On the other hand, a _big topos_ in which $X$ is incarnated is a [[category of sheaves]] on a [[site]] of test spaces with which $X$ may be probed. For instance for $C =$ [[Top]], or [[Diff]] or [[CartSp]] with their standard [[coverage]]s, $Sh(C)$ is such a big topos. See for instance, [[topological topos]] and the [[quasi-topos]] of [[quasitopological space]]s.
+
+In good cases, the intrinsic properties of $X$ do not depend on whether one regards it as a little topos or as an object of a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
+
+
+## Further remarks
+
+The following is some leftover material from a previous version of this page, which is now partially redundant.
+
+\begin{remark}
 
 Objects in a big topos $Sh(S)$ may be thought of as [[space]]s _modeled on $S$_, in the sense described at [[motivation for sheaves, cohomology and higher stacks]] and at [[space]].
 
@@ -56,10 +92,11 @@ On the other hand, the objects of a petit topos, such as $Sh(X)$, can also be re
 
 From the "little topos" perspective, it can be helpful to think of a "big topos" as a "fat point," which is not "spread out" very much spatially itself, but contains within that point lots of different types of "local data," so that even spaces which are "rigidly" modeled on that point can have a lot of interesting cohesion and local structure.  (One should not be misled by this into thinking that a big topos has *only* one [[point of a topos|point]], although it is usually a [[local topos]] and hence has an [[initial object|initial]] point.)
 
+\end{remark}
 
-## The big and little topos of an object
+\begin{remark}
 
-If $X$ is a topological space, then the canonical little topos associated to $X$ is the sheaf topos $Sh(X)$.  On the other hand, if $S$ is a site of probes enabling us to regard $X$ as an object of a big topos $H = Sh(S)$, then we can also consider the topos $H/X$ as a representative of $X$.  These two toposes are often called the **little topos of $X$** (or **petit topos of $X$**) and the **big topos of $X$** (or **gros topos of $X$**) respectively.
+If $X$ is a topological space, then the canonical little topos associated to $X$ is the [[sheaf topos]] $Sh(X)$.  On the other hand, if $S$ is a site of probes enabling us to regard $X$ as an object of a big topos $H = Sh(S)$, then we can also consider the topos $H/X$ as a representative of $X$.  These two toposes are often called the **little topos of $X$** (or **petit topos of $X$**) and the **big topos of $X$** (or **gros topos of $X$**) respectively.
 
 There might be some debate about whether $H/X$ is, itself, "a little topos" or "a big topos."  While it certainly contains information about the space $X$ specifically, its objects are not "spaces locally modeled on $X$" but rather spaces locally modeled on the big site $S$ which happen to have a map to $X$.  The standard phrase "the big topos of $X$" is the most descriptive.
 
@@ -67,32 +104,7 @@ Note that if $X$ is actually an *object* of the site $S$, then $H/X$ can be iden
 
 Note that when $S=Top$ with its local-homeomorphism topology, there is a canonical functor $Op(X) \to S/X$ which preserves finite limits and both [[cover-preserving functor|preserves]] and [[cover-reflecting functor|reflects]] covering families.  Therefore, it induces both a geometric morphism $H/X \to Sh(X)$ and one $Sh(X) \to H/X$, of which the latter is the left adjoint of the former in [[Topos]].  In other words, the geometric morphism $H/X \to Sh(X)$ is [[local geometric morphism|local]], and in particular a [[homotopy equivalence of toposes]].  This fact relating the big and little toposes of $X$ also holds in other cases.
 
-
-## Definition
-
-A modern definition of the gros and petit toposes can be given using the notion of a [[fractured topos]] (more generally, [[fractured (∞,1)-topos]]), due to
-Joyal–Moerdijk, Dubuc, Carchedi, and Lurie.
-
-Recall that a [[fractured (∞,1)-topos]] is a [[left adjoint]] [[(∞,1)-functor]] $j_!\colon E\to F$ between [[(∞,1)-toposes]] such that $F$ is generated by the image of $E$ under [[(∞,1)-colimits]], the right adjoint of $j_!$ preserves [[(∞,1)-colimits]], for every $U\in E$, the induced left adjoint $(j_!)_{/U}\colon E_{/U}\to F_{/j_!U}$ is fully faithful, and maps in the image of $j_!$ are stable under base changes along maps with domain in the image of $j_!$.
-
-Now for any object $U\in E$, we define the __petit topos__ of $U$ as $E_{/U}$ and the __gros topos__ of $U$ as $F_{/j_! U}$.
-
-
-## Axiomatizations
-
-* If a site $S$ is given by a [[Grothendieck pretopology]], then one can define an associated notion of a [[little site]] associated to any object of $S$, and hence both a little topos and a big topos, which are related as above.
-
-* One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]] (cf. [Lawvere 1986, Axioms 0-1](#Lawvere86), [Lawvere 1989, p. 261, 263](#Law89a)).
-
-* In his early papers in the 80s, [[Lawvere]] emphasized the existence of a contractible [[subobject classifier]], a concept which together with the [[adjoint quadruple]] goes under the name [[sufficiently cohesive topos]] in the later axiomatization (modulo some fineprint).
-
-## Examples
-
-For $X$ a [[topological space]], the _little topos_ that it defines is the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ on the [[category of open subsets]] of $X$. A general object in this topos can be regarded as an [[etale space]] over $X$. The space $X$ itself is incarnated as the [[terminal object]] $X = * \in Sh(X)$.
-
-On the other hand, a _big topos_ in which $X$ is incarnated is a [[category of sheaves]] on a [[site]] of test spaces with which $X$ may be probed. For instance for $C =$ [[Top]], or [[Diff]] or [[CartSp]] with their standard [[coverage]]s, $Sh(C)$ is such a big topos. See for instance, [[topological topos]] and the [[quasi-topos]] of [[quasitopological space]]s.
-
-In good cases, the intrinsic properties of $X$ do not depend on whether one regards it as a little topos or as an object of a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
+\end{remark}
 
 ## Related entries
 
@@ -177,7 +189,10 @@ Another definition of gros vs petit toposes and remarks on applications in [[Gal
 
 The notion of [[fractured topoi]]:
 
-* [[Jacob Lurie]]: *Fractured $\infty$-Topoi*, chapter 20 of: _[[Spectral Algebraic Geometry]]_ &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
+* {#Carchedi2020} [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
+
+* {#Lurie2018} [[Jacob Lurie]]: *Fractured $\infty$-Topoi*, chapter 20 of: _[[Spectral Algebraic Geometry]]_ (2018) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
+
 
 See also:
 
