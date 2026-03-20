@@ -237,6 +237,9 @@ Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces ma
 
 ## References
 
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]; Example 2.3.6 in: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
+
+
 * {#AragonEtAl97} G. Aragón, J.L. Aragón, M.A. Rodríguez, _Clifford Algebras and Geometric Algebra_, Advances in Applied Clifford Algebras **7** 2 (1997) 91–102, &lbrack;[doi:10.1007/BF03041220](https://doi.org/10.1007/BF03041220)&rbrack;
 
 [[!redirects graded vector space]]
