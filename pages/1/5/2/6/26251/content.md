@@ -73,6 +73,14 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   Edolo (Italy)
 
+* 2026, April 6-8
+
+   **Symposium on Differentiation in category theory and program semantics**
+
+   home page: [https://sites.google.com/view/differential-kyoto-2026](https://sites.google.com/view/differential-kyoto-2026)
+
+   Kyoto (Japan)
+
 * 2026, March 28-29
 
   **PSSL 112**
