@@ -13,14 +13,39 @@
 
 
 ## Idea
+ {#Idea}
 
-There are two different (related) relationships between [[Grothendieck topoi]] and a notion of _generalized [[space]]_.  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
+True to their [proverbial multifacetedness](Sketches+of+an+Elephant#TheElephantAnalogy), there are two different ways in which [[toposes]] (by which here we understand [[Grothendieck toposes|Grothendieck]] [[sheaf toposes]], as usual) encode [[spaces]] (and the same comments apply to [[higher topos theory|higher topoi]]):
 
-On the one hand, we can regard the topos *itself* as a generalized space.  This tends to be a useful point of view when the site $S$ is the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ (or some [[manifold]] or the like), or some other site which we regard as containing data from only "one space."  In this case, we refer to $T$ as a **little topos**, or (if we fail to translate the original French) a **petit topos**.
+1. On the one hand, every topos $\mathcal{X}$ may *itself* be regarded as a generalized [[topological space]] (specifically a generalized [[locale]]), in which case the [[maps]] between these generalized spaces correspond to the [[geometric morphisms]] between the toposes. Actual [[topological spaces]]/[[locales]] $X$ are embodied in this manner by the [[category of sheaves]] $\mathcal{X} = Sh(X) \coloneqq Sh(Op_X)$ over (the [[site of open subsets]]) of $X$.
 
-On the other hand, we can view a topos $T$ as a well-behaved category whose *objects* are generalized spaces.  This tends to be a useful point of view when the site $S$ is a category of _all test [[space]]s_ in some sense, such as [[Top]], [[Diff]], or [[CartSp]].  In this case, we refer to $T$ as a **big topos**, or (in French) a **gros topos**.
+1. On the other hand, a topos $\mathcal{T}$ may be regarded a a category *of* generalized geometric spaces, namely regarding each of its [[objects]] as a geometric space with the [[maps]] between these being the [[morphisms]] in the topos. 
 
-These distinctions carry over in a straightforward way to higher topoi such as [[(∞,1)-topoi]].
+Broadly and informally, one speaks of a *big topos* (original French: *gros topos*) when thinking of a *category of space* and of a *little topos* when thinking of a *category as a space*.
+
+Beware that every topos always has both of these aspects and how it is addressed depends on the context.
+
+For instance, in the archetypical case of the the category [[Set]] of [[sets]], when regarded as a little topos it is the [[point space]] $\ast$, since $Set \simeq Sh(\ast)$, while when regarded as a big topos it is the category all [[discrete  topological spaces]]. These two perspectives are related: Discrete topological spaces are precisely those whose structure is reflected in their *probes by points*, namely by the systems of ways of mapping the point space into them.
+
+More generally, the petit topos $Sh(X)$ of a topological space $X$ [is equivalently](étale+space#RelationToSheaves) the "gros" category of all [[étale spaces]] fibered over $X$. 
+
+Of course, the actual category of all [[topological spaces]], [[Top]], fails to be a [[topos]]. But it may be completed to a topos in a straightforward way, by regarding it as a ([[large site|large]]) [[site]] (whose [[coverings]] are [[families]] of jointly surjective [[open embeddings]]), and then passing to the [[sheaf topos]] $Sh(Top)$ over that (of which [[Top]] is a [[full subcategory]], via the [[Yoneda embedding]]).
+
+This $Sh(Top)$ is the original *gros topos* according to [SGA4](#SGA4) (1960s-70s, cf. [pp. 161 here](https://www.normalesup.org/~forgogozo/SGA4/tomes/SGA4.pdf#page=169)), where the terminology originates. Or rather, more generally and in the spirit of the [[relative point of view]], these original authors speak for any $X \in Top$
+
+* of the [[slice site]] $Top_{/X}$ as the "gros site", and
+
+* of the [[slice topos]] $Sh(Top_{/X})$ as the "gros topos"
+
+of $X$, the latter being a category "generalized topological spaces fibered over $X$". This is the "gros topos" of $X$ in contrast to its "petit topos" $Sh(X)$.
+
+Directly analogous constructions may be considered starting with other categories of spaces. Notably when replacing [[Top]] here with the category [[Sch]] of all [[schemes]] (over some [[ground field]]), then for any $X \in Sch$ we have its gros topos $Sh(Sch_{/X})$.
+
+This raises the question for characterization of the relation between *gros* and *petit* toposes more generally and in the abstract. 
+
+Early exploration along these lines led [Lawvere 1986](#Lawvere86), [1989](#Law89a) to the notion of *[[cohesive toposes]]*. These are *very big* toposes in that their petit topos aspect is negligible: being [[strongly connected topos|strongly connected]] and [[local topos|local]], the spatial aspect of a cohesive topos is just that of a "thickened point". Hence [[cohesive toposes]] are variants of $Sh(Top)$ (which itself is not even cohesive either, but for instance the topos of "[[D-topological infinity-groupoid|D-topological sets]]" $Sh(CartSp_{top})$ is), but not of $Sh(Top_{/X})$ for extended $X$. But the general notion of gros/petit topoi may be formalized within [[differentially cohesive topoi]] $\mathbf{H}$ (see [there](differentially+cohesive+topos#StructureSheaves)) which allows to speak for every object $X \in \mathbf{H}$ of its *gros topos* $\mathbf{H}_{/X}$ and its *petit topos* $\mathbf{H}^{&eacute;t}_{/H} \subset \mathbf{H}_{/X}$ ([Schreiber 2017 §5.3.4](#Schreiber2017), [Sati & Schreiber  2026 §9.1.2.6](#SatiSchreiber2026)).
+
+More recently, the notion of [[fractured topoi]] aims for a formalization of the gros/petit distinction closer in spirit to the original construction from [SGA4](#SGA4). This allows again to systematically speak, for any object $X$ in a [[fractured topos]] of its gros and its petit topos.
 
 
 ## Relationships
@@ -90,13 +115,13 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 ## References
 
-The notion of a _gros topos_ of a _topological space_ is due to [[Jean Giraud]]. Some early results from the Grothendieck school appear in 
+The notion of a _gros topos_ of a _topological space_ is due to [[Jean Giraud]], with early discussion in:
 
-* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM **269** (1972). (expos&#233; IV, 2.5 pp.316-318, 4.10 pp.358-365)
+* {#SGA4} [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM **269** (1972). (expos&#233; IV, 2.5 pp.316-318, 4.10 pp.358-365, [pp. 161 here](https://www.normalesup.org/~forgogozo/SGA4/tomes/SGA4.pdf#page=169))
 
 In this context see also
 
-* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], pp. 113, 325, 416 in: *[[Sheaves in Geometry and Logic]]*, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0) &rbrack;
+* [[Saunders Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], pp. 113, 325, 416 in: *[[Sheaves in Geometry and Logic]]*, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0) &rbrack;
 
 In the context of a discussion of the [[big Zariski topos]] [Lawvere (1976, p. 110)](#Lawvere76) calls the gros-petit distinction '_a surprising twist of logic that is not yet fully clarified_':
 
@@ -134,24 +159,29 @@ The [[left adjoint]]  in a cohesive topos is also mentioned in
 
 * [[Bill Lawvere]], [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14) of: _Taking categories seriously_, Revista Colombiana de Matematicas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
 
-
 Under the term _categories of cohesion_ these axioms are discussed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories **19** 3 (2007) 41-49 &lbrack;[tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf)&rbrack;
 
+A formalization of gros/petit toposes of objects in [[differentially cohesive topoi]]:
+
+* {#Schreiber2017}  [[Urs Schreiber]]; §5.3.4 ([pp. 537](https://ncatlab.org/schreiber/files/dcct170811.pdf#page=563)) in [version 2](https://ncatlab.org/schreiber/files/dcct170811.pdf) of: _[[schreiber:Differential Cohomology in a Cohesive ∞-Topos]]_ (2017) 
+ 
+
+* {#SatiSchreiber2026} [[Hisham Sati]], [[Urs Schreiber]]: *&Eacute;tale toposes*, §9.1.2.6 in: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026) &lbrack;ISBN:9781041147510&rbrack;
 
 
-Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
+Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]]:
 
-* Nick Duncan, _Gros and petit toposes_ ([pdf](http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
+* Nick Duncan: _Gros and petit toposes_ &lbrack;[pdf](http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf)&rbrack;
 
-and yet another one is in 
+The notion of [[fractured topoi]]:
 
-* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_, chapter 20 "Fractured $\infty$-Topoi" ([pdf](http://www.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+* [[Jacob Lurie]]: *Fractured $\infty$-Topoi*, chapter 20 of: _[[Spectral Algebraic Geometry]]_ &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
 
-There is also something relevant in this article:
+See also:
 
-* [[Mathieu Anel]], _Grothendieck topologies from unique factorization systems_ ([arXiv:0902.1130](http://arxiv.org/abs/0902.1130))
+* [[Mathieu Anel]]: _Grothendieck topologies from unique factorization systems_ &lbrack;[arXiv:0902.1130](http://arxiv.org/abs/0902.1130)&rbrack;
 
 * [[Mamuka Jibladze]], _Homotopy types for "gros" toposes_, thesis, [pdf](http://www.rmi.ge/~jib/pubs/thesis.pdf)
 
