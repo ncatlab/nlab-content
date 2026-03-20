@@ -48,7 +48,7 @@ Let [[CartSp]]${}_{top}$ be the [[site]] whose underlying [[category]] has as [[
 Define
 
 $$
-  ETop \infty Grpd := (\infty,1)Sh(CartSp_{top})
+  ETop \infty Grpd \coloneqq (\infty,1)Sh(CartSp_{top})
 $$
 
 to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
