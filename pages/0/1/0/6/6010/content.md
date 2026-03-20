@@ -113,7 +113,7 @@ a#t the points where it just touches itself, the pre-images under $f$ of open su
 
 As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2$. While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$.
 
-> graphics grabbed from <a href="https://books.google.de/books?id=xygVcKGPsNwC&lpg=PP1&pg=PA86&redir_esc=y#v=onepage&q&f=false">Lee</a>
+> graphics grabbed from [Lee](#Lee12)
 
 
 =--
