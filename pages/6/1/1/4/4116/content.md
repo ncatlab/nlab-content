@@ -8,24 +8,30 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
-The category $Top$ of topological spaces notoriously lacks some desirable features. There are therefore quite a few attempts to define "big" categories that contain (all) interesting topological spaces but are better behaved categorically. The **topological topos** was proposed in this vein by [[Peter Johnstone]] in the seventies. As it is conceptually based on sequential convergence it plays an important role in constructive mathematics.
+The [[category]] [[Top]] of [[topological spaces]] notoriously lacks some desirable features. There are therefore quite a few attempts to define "big" categories that contain (all) interesting topological spaces but are better behaved categorically. The **topological topos** was proposed in this vein by [Johnstone 1977](#Johnstone1977), [1979](#Johnstone1977). As it is conceptually based on sequential convergence it plays an important role in constructive mathematics.
 
 
 ## Definition
 
-Let [[Top]] be the [[category]] of [[topological space]]s, and let $\Sigma$ be the [[full subcategory]] whose only two [[object]]s are a one-point space and $\mathbb{N}^+$, the [[one-point compactification]] of the [[discrete space]] of [[natural number]]s. Let $J$ be the [[canonical Grothendieck topology]] on $\Sigma$.
+Let [[Top]] denote the [[category]] of [[topological spaces]], and let $\Sigma \hookrightarrow Top$ denote the [[full subcategory]] whose only two [[objects]] are a [[point space]] and $\mathbb{N}^+$, the [[one-point compactification]] of the [[discrete space]] of [[natural numbers]]. Let $J$ be the [[canonical Grothendieck topology]] on $\Sigma$.
 
-Johnstone's **topological topos** (specifically, the one described in the [eponymous paper](#Johnstone79)) is the [[topos]] of canonical [[sheaves]] $Sh_J(\Sigma)$ on $\Sigma$. The functor
+The **topological topos** (specifically, the one described in the eponymous paper [Johnstone 1979](#Johnstone1979)) is the [[topos]] of canonical [[sheaves]] $Sh_J(\Sigma)$ on $\Sigma$. 
+The [[functor]]
 
-$$Top \to Set^{\Sigma^{op}}: X \mapsto Top(-, X)$$
+$$
+  \begin{array}{ccc}
+    Top &\longrightarrow& Set^{\Sigma^{op}}
+    \\
+    X &\mapsto& Top(-, X)
+  \end{array}
+$$
 
-is [[faithful functor|faithful]] and factors through $Sh_J(\Sigma)$, and its restriction to the category of [[sequential space|sequential spaces]] is full.
+is [[faithful functor|faithful]] and factors through $Sh_J(\Sigma)$, and its [[restriction]] to the category of [[sequential spaces]] is [[full functor|full]].
 
 The category of [[subsequential spaces]] can also be found as a full subcategory of this topos (in fact, it consists of the separated objects for the [[double negation|double negation topology]]  $\neg\neg$).  A general object of the topos can be thought of as being like a subsequential space, but such that a given sequence can converge to a given point in "more than one way."
 
@@ -98,9 +104,9 @@ Finally, since $((z_{n,k})_k)_n$ converges to $w_k$ in the object of Cauchy *seq
 
 The topological topos was introduced in:
 
-* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; exercise 0.10, p.21)
+* {#Johnstone1977} [[Peter Johnstone]]: _Topos Theory_, Academic Press New York (1977) (Dover reprint 2014; exercise 0.10, p.21)
 
-* {#Johnstone79} [[Peter Johnstone]], _On a topological topos_ , Proc. London Math. Soc. (3) **38** (1979) 237-271 &lbrack;[pdf](http://plms.oxfordjournals.org/content/s3-38/2/237.full.pdf)&rbrack;
+* {#Johnstone1979} [[Peter Johnstone]]: _On a topological topos_, Proc. London Math. Soc. **3** **38** (1979) 237-271 &lbrack;[pdf](http://plms.oxfordjournals.org/content/s3-38/2/237.full.pdf)&rbrack;
 
 Review (with somewhat terminology):
 
