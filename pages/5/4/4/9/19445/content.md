@@ -1,5 +1,15 @@
 
-* [webpage](http://www.ihes.fr/~celliott/)
+Christopher Elliott
+
+* [personal page](https://chrisjelliott.github.io/)
+
+* [institute page](people.math.umass.edu/~celliott)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=206842)
+
+* [inSpire page](https://inspirehep.net/authors/1632626)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=LyMto6kAAAAJ&hl=en)
 
 
 ## Selected writings
