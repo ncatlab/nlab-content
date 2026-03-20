@@ -1,5 +1,6 @@
-[[!redirects Sheaf semantics of concurrent interacting objects]]
-[_Sheaf Semantics for Concurrent Interacting Objects_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4296) is a paper by [[Joseph Goguen]], which formulates the behaviour of
+
+
+_Sheaf Semantics for Concurrent Interacting Objects_ is a paper by [[Joseph Goguen]], which formulates the behaviour of
 systems of concurrent interacting objects categorically. Goguen uses [[sheaf|sheaves]] to represent the behaviours of individual objects, and [[limits]] to combine the behaviours of objects into that of the system. The approach is very general, and is not restricted to "objects" in the sense of object-oriented programming, or indeed to computation. 
 
 I intend this page to refer to Goguen's formulation and its relatives, rather than just his paper. I've given it this long title, rather than something shorter such as "Sheaf semantics", to avoid ambiguity because I suspect that sheaves have been used to describe other semantics. E.g. in topos theory? 
@@ -34,8 +35,6 @@ Moreover, if one is having trouble designing a system to describe or run simulat
 
 ### Reference ###
 
-Joseph A. Goguen, _Sheaf Semantics for Concurrent Interacting Objects_, in _Mathematical Structures in Computing Science_, volume 2, pages 159-91, 1992.
+* [[Joseph A. Goguen]], _Sheaf Semantics for Concurrent Interacting Objects_, in _Mathematical Structures in Computing Science_, volume 2, pages 159-91, 1992, doi:[10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420), ([ps](https://cseweb.ucsd.edu/~goguen/pps/sheaf.ps)).
 
-### Link ###
-
-[_Sheaf Semantics for Concurrent Interacting Objects_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4296). CiteSeerX page.
+[[!redirects Sheaf semantics of concurrent interacting objects]]
