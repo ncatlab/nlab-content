@@ -71,6 +71,8 @@ A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-alg
 
 * [[operad]] / [[(∞,1)-operad]]
 
+* [[familial 2-monad]]
+
 ## References
 
 * R. Blackwell, G. M. Kelly, and A. J. Power, _Two-dimensional monad theory_, Jour. Pure Appl. Algebra 59 (1989), 1--41
