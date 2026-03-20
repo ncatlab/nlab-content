@@ -1,5 +1,14 @@
 
-* [personal page](https://sites.google.com/view/brianrwilliams/research)
+Brian R. Williams
+
+
+* [personal page](https://brianrwilliams.github.io/)
+
+* [personal page](https://sites.google.com/view/brianrwilliams) (old)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=242142)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=RV9we8UAAAAJ&hl=en)
 
 ## Selected writings
 
