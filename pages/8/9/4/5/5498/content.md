@@ -12,7 +12,7 @@ This page is to record the reference
 
   Mathematical Structures in Computing Science **2** (1992) 159-91
 
-  [doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420) [[Goguen-SheafSemantics.pdf:file]]
+  [doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420), [[Goguen-SheafSemantics.pdf:file]]
 
 which aims to formulate with [[category theory]] the behaviour of "systems of concurrent interacting objects. 
 
