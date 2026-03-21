@@ -138,16 +138,22 @@ at every point for all principal curvatures $\lambda_i$, then all weakly stable 
 This includes the previous theorem as a special case.
 
 \begin{theorem}
-Every weakly stable $\operatorname{SU}(2)$- or $\operatorname{SU}(3)$-Yang-Mills field on $S^4$ is either [[D=4 Yang-Mills theory|selfdual]] or [[D=4 Yang-Mills theory|anti-selfdual]].
+Every weakly stable $SU(2)$-, $SU(3)$- or $U(2)$-Yang-Mills field on $S^4$ is either [[D=4 Yang-Mills theory|selfdual]] or [[D=4 Yang-Mills theory|anti-selfdual]].
 \end{theorem}
 
 ([Bourguignon & Lawson 81, Theorem B](#BourguignonLawson81), [Chiang 213, Theorem 3.1.10](#Chiang13))
 
 \begin{theorem}
-All weakly stable Yang-Mills connections on a [[compact]] [[orientable]] [[homogeneous space|homogeneous]] Riemannian $4$-manifold with [[structure group]] $\operatorname{SU}(2)$ are either [[D=4 Yang-Mills theory|selfdual]], [[D=4 Yang-Mills theory|antiselfdual]] or reduce to an abelian field.
+All weakly stable Yang-Mills connections on a [[compact]] [[orientable]] [[homogeneous space|homogeneous]] Riemannian $4$-manifold with [[structure group]] $SU(2)$ are either [[D=4 Yang-Mills theory|selfdual]], [[D=4 Yang-Mills theory|antiselfdual]] or reduce to an abelian field.
 \end{theorem}
 
 ([Bourguignon & Lawson 81, Theorem B'](#BourguignonLawson81), [Chiang 213, Theorem 3.1.11](#Chiang13))
+
+\begin{theorem}
+For a [[connected]] [[compact]] [[Lie group]] with a [[simple Lie algebra]], every weakly stable irreducible Yang-Mills field on $S^4$ is either [[D=4 Yang-Mills theory|selfdual]] or [[D=4 Yang-Mills theory|anti-selfdual]].
+\end{theorem}
+
+([Ge & Xiao 26, Thrm. 1.3](#GeXiao26))
 
 ## Yang-Mills-unstable manifolds
 
@@ -182,6 +188,7 @@ Open problems about Yang-Mills-unstable manifolds include:
 * {#KobayashiOhnitaTakeuchi86} S. Kobayashi, Y. Ohnita and M. Takeuchi, _On instability of Yang-Mills connections_ (1986), Mathematische Zeitschrift **193**, pp. 165–189, [doi:10.1007/BF01174329](https://link.springer.com/article/10.1007/BF01174329)
 * {#Kawai86} Shigeo Kawai, _A remark on the stability of Yang-Mills connections_, Kodai Mathematical Journal **9**, pp. 117–122, [doi:10.2996/kmj/1138037154](https://doi.org/10.2996/kmj/1138037154)
 * {#Chiang13} [[Yuan-Jen Chiang]], _Developments of Harmonic Maps, Wave Maps and Yang-Mills Fields into Biharmonic Maps, Biwave Maps and Bi-Yang-Mills Fields_, [ISBN 978-3034805339](https://link.springer.com/book/10.1007/978-3-0348-0534-6)
+* {#GeXiao26} [[Jianquan Ge]], [[Lixin Xiao]], _Weakly stable irreducible Yang-Mills fields over $S^4$_ (2026) &lbrack;[arXiv:2603.17352](https://arxiv.org/abs/2603.17352)&rbrack;
 
 See also:
 
