@@ -118,7 +118,7 @@ Further comments:
 
 * [[David Gross]]: *Millennium Prize Problem: Yang Mills Theory*, talk at *Kavli Institute for Theoretical Physics* (Jan 2018) &lbrack;video:[YT](https://youtu.be/vMiY7zlBOFI)&rbrack;
 
-* Lorenzo Sadun: *Yang-Mills existence and mass gap*, talk at *2001 University of Texas Lectures on the Millennium Problems* &lbrack;video:[YT](https://youtu.be/6sDJWSjEE8Y)&rbrack;
+* [[Lorenzo Sadun]]: *Yang-Mills existence and mass gap*, talk at *2001 University of Texas Lectures on the Millennium Problems* &lbrack;video:[YT](https://youtu.be/6sDJWSjEE8Y)&rbrack;
 
 * [[Michael R. Douglas]]: *The Yang–Mills Millennium problem*, Nature Reviews Physics **8** (2026) 86–97 &lbrack;[doi:10.1038/s42254-025-00909-2](https://doi.org/10.1038/s42254-025-00909-2)&rbrack;
 
