@@ -5,14 +5,31 @@
 
 ***
 
-\begin{example}
+\begin{example}\label{FreeLoopSpaceOfTopologicalGroup}
   For $G$ a [[topological group]], the free loop space of its [[underlying]] [[topological space]] is [[homeomorphism|homeomorphic]] to the [[product space]] of $G$ with its [[based loop space]]:
 $$
   \mathcal{L}G
   \simeq
   G \times \Omega G
+  \mathrlap{\,,}
+$$
+where the [[base point]] of $G$ is taken to be the [[neutral element]].
+
+Moreover, this [[homeomorphism]] is also a [[group homomorphism]] with respect to the pointwise group operation on $\mathcal{L}G$ and $\Omega G$ and the following [[semidirect product group]] [[structure]] $G \ltimes \Omega G$:
+
+$$
+  (g_1,\ell_1) (g_2, \ell_2)
+  \coloneqq
+  \Big(
+    g_1 g_2,
+    \big(
+      t \mapsto
+      g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+    \big)
+  \Big)
   \mathrlap{\,.}
 $$
+
 \end{example}
 \begin{proof}
   Let the loops be parameterized over $[0,1]$.
@@ -43,7 +60,7 @@ $$
     (g, \ell) 
       &\mapsto&
     \big(
-      t \mapsto g \cdot \ell(t)
+      t \mapsto g \ell(t)
     \big)
   \end{array}
 $$
@@ -93,8 +110,49 @@ $$
     \\
     & = 
     (g, \ell)
+    \mathrlap{\,.}
   \end{aligned}
 $$
+
+Similarly, it is immediate to check that $\overline{\Phi}$ is a group homomorphism as claimed:
+$$
+  \begin{aligned}
+    \overline{\Phi}\big(
+      (g_1,\ell_1) (g_2, \ell_2)
+    \big)
+    & =
+    \overline{\Phi}\bigg(
+      \Big(
+        g_1 g_2, 
+        \big(
+          t \mapsto g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+        \big)
+      \Big)
+    \bigg)
+    \\
+    & =
+    \big(
+      t \mapsto
+        g_1 g_2 g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+    \big)
+    \\
+    & =
+    \big(
+      t \mapsto
+        g_1 \ell_1(t) g_2 \ell_2(t)
+    \big)
+    \\
+    & =
+    \overline{\Phi}(
+      g_1, \ell_1
+    )
+    \overline{\Phi}(
+      g_2, \ell_2
+    )
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
 \end{proof}
 
 
