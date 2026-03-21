@@ -9,9 +9,10 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -50,7 +51,7 @@ $$
 
 ### Based loop group extension
 
-###### Proposition
+\begin{proposition}
   For $G$ a [[topological group]], the free loop space of its [[underlying]] [[topological space]] is [[homeomorphism|homeomorphic]] to the [[product space]] of $G$ with its [[based loop space]]:
 $$
   \mathcal{L}G
@@ -74,7 +75,7 @@ $$
   \Big)
   \mathrlap{\,.}
 $$
-
+\end{proposition}
 \begin{proof}
   Let the loops be parameterized over $[0,1]$.
   Consider the maps
