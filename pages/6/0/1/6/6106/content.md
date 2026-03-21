@@ -48,6 +48,158 @@ $$
 
 =--
 
+### Based loop group extension
+
+###### Proposition
+  For $G$ a [[topological group]], the free loop space of its [[underlying]] [[topological space]] is [[homeomorphism|homeomorphic]] to the [[product space]] of $G$ with its [[based loop space]]:
+$$
+  \mathcal{L}G
+  \simeq
+  G \times \Omega G
+  \mathrlap{\,,}
+$$
+where the [[base point]] of $G$ is taken to be the [[neutral element]].
+
+Moreover, this [[homeomorphism]] is also a [[group homomorphism]] with respect to the pointwise group operation on $\mathcal{L}G$ and the following [[semidirect product group]] [[structure]] on $G \times \Omega G$:
+
+$$
+  (g_1,\ell_1) (g_2, \ell_2)
+  \coloneqq
+  \Big(
+    g_1 g_2,
+    \big(
+      t \mapsto
+      g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+    \big)
+  \Big)
+  \mathrlap{\,.}
+$$
+
+\begin{proof}
+  Let the loops be parameterized over $[0,1]$.
+  Consider the maps
+$$
+  \begin{array}{ccc}
+    \mathcal{L} G
+      &\xrightarrow{\phantom{--} \Phi \phantom{--}}& 
+    G \times \Omega G
+    \\
+    \gamma 
+      &\mapsto& 
+    \Big( 
+      \gamma(0),  
+      \big(
+        t \mapsto \gamma(0)^{-1}\gamma(t)
+      \big)
+   \Big)
+  \end{array}
+$$
+and
+$$
+  \begin{array}{ccc}
+    G \times \Omega G
+      &\xrightarrow{\phantom{--} \overline{\Phi} \phantom{--}}& 
+    \mathcal{L} G
+    \\
+    (g, \ell) 
+      &\mapsto&
+    \big(
+      t \mapsto g \ell(t)
+    \big)
+  \end{array}
+$$
+These maps are both [[continuous map|continuous]] since the operations of forming [[binary map|products]] and [[inverses]] in $G$ are continuous, by assumption on $G$. So it remains to check that the maps are [[inverses]] of each other. Indeed, unwinding the definitions, we have:
+$$
+  \begin{aligned}
+    \overline{\Phi}\big(\Phi(\gamma)\big)
+    & =
+    \overline{\Phi}\Big(
+      \gamma(0), 
+      \big( t \mapsto \gamma(0)^{-1}\gamma(t) \big)
+    \Big)
+    \\
+    & =
+    \big(
+      t \mapsto \gamma(0) \gamma(0)^{-1}\gamma(t)
+    \big)
+    \\
+    & =
+    \gamma
+  \end{aligned}
+$$
+and
+$$
+  \begin{aligned}
+    \Phi\big(\overline{\Phi}(g,\ell)\big)
+    & =
+    \Phi\big(
+      t \mapsto g \ell(t)
+    \big)
+    \\
+    & =
+    \bigg(
+      g \ell(0), 
+      \Big(
+        t \mapsto \big(g \ell(0)\big)^{-1} g \ell(t)
+      \Big)
+    \bigg)
+    \\
+    & =
+    \Big(
+      g , 
+      \big(
+        t \mapsto \ell(t)
+      \big)
+    \Big)
+    \\
+    & = 
+    (g, \ell)
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
+Similarly, it is immediate to check that $\overline{\Phi}$ is a group homomorphism as claimed:
+$$
+  \begin{aligned}
+    \overline{\Phi}\big(
+      (g_1,\ell_1) (g_2, \ell_2)
+    \big)
+    & =
+    \overline{\Phi}\bigg(
+      \Big(
+        g_1 g_2, 
+        \big(
+          t \mapsto g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+        \big)
+      \Big)
+    \bigg)
+    \\
+    & =
+    \big(
+      t \mapsto
+        g_1 g_2 g_2^{-1} \ell_1(t) g_2 \ell_2(t)
+    \big)
+    \\
+    & =
+    \big(
+      t \mapsto
+        g_1 \ell_1(t) g_2 \ell_2(t)
+    \big)
+    \\
+    & =
+    \overline{\Phi}(
+      g_1, \ell_1
+    )
+    \overline{\Phi}(
+      g_2, \ell_2
+    )
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
+\end{proof}
+
+
 ### Complexification
 
 Let $G$ be a [[compact Lie group]].
