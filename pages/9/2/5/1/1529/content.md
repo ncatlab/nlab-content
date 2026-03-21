@@ -1,4 +1,17 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Idea
 
 Given a collection of "parameterized objects", i.e. a [[functor]] $F : C \to D$, it is often of interest to consider the category whose objects are [[generalized elements]] of the objects of $D$ in the image of $F$, and whose morphisms are the maps between these generalized elements induced by the value of $F$ on morphisms in $C$.
 
@@ -7,7 +20,7 @@ For $D = $ [[Set]] and and with [[generalized element]] read as "ordinary elemen
 Moreover, the description of of the [[category of elements]] of a presheaf in terms of a pullback of a [[generalized universal bundle]] generalizes directly to categories of generalized elements. 
 
 
-#Definition#
+## Definition
 
 Let $D$ be a [[pointed object]] in [[Cat]], i.e. a [[category]] equipped with a choice $pt_D : {*} \to D$ of one of its objects.
 
@@ -83,7 +96,7 @@ This means:
   for all morphisms $f : c \to c'$ in $C$.
 
 
-#Examples#
+## Examples
 
 ##ordinary category of elements##
 
@@ -130,6 +143,9 @@ $$
 
 As described there, $V//G \to \mathbf{B}G$ is the [[groupoid]] incarnation of the vector bundle that is associated via $\rho$ to the universal $G$-bundle on the [[classifying space]] $B G$.
 
-##References##
+## References
 
 * [Exploding a Category](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017574)
+
+
+[[!redirects categories of generalized elements]]
