@@ -39,7 +39,7 @@ Let $X$ be an $n$-dimensional [[differentiable manifold]], and let $\omega$ be a
 
 *  The coordinates on $U$ define a [[diffeomorphism]] between $U$ and an open subset of $\mathbf{R}^n$ that we\'ll also call $U$; so use the latter formula to interpret
    \[ \label{absvalposs} \int_U \omega = \int_U \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,\]
-   where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]], or equivalently as a [[Riemann integral]].
+   where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]], or equivalently (because $\omega_U$ is continuous) as a [[Riemann integral]].
 
 *  Using the [[partition of unity]], write
    $$ \omega = \sum_U w_U \omega_U ,$$
