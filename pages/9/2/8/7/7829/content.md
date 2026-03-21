@@ -32,17 +32,18 @@
 +-- {: .num_defn #SeriesDefinition}
 ###### Definition
 
-Given a [[self-adjoint operator]] $D$ (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a [[closed manifold|closed]] [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
+Given a [[self-adjoint operator]] $D$ (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a [[closed manifold|closed]] [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]] expression
 
 $$
   \begin{aligned}
     \eta(s) 
      & \coloneqq
     \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{ {\vert \lambda_n\vert}^s}
+  \mathrlap{\,,}
   \end{aligned}
 $$
 
-expression wherever this [[convergence|converges]], and extended by [[analytic continuation]] from there.
+wherever this [[convergence|converges]] and extended from there by [[analytic continuation]].
 
 =--
 
@@ -56,7 +57,7 @@ At the [[special values of L-functions|special value]] $s = 1$ the series in def
 +-- {: .num_remark}
 ###### Remark
 
-The eta function of $D$ is related to the [[zeta function of an elliptic differential operator]] $H = D^2$ (regarding $D$ as a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root of $H$) see [below](#RelationToTheZetaFunction).
+The eta function of $D$ is related to the [[zeta function of an elliptic differential operator]] $H = D^2$ (regarding $D$ as a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root of $H$), see [below](#RelationToTheZetaFunction).
 
 =--
 
@@ -68,7 +69,7 @@ The _eta invariant_ of $D$ is the [[special values of L-functions|special value]
 
 =--
 
-(e.g. [Richardson, first page](#Richardson))
+(cf. [Richardson, first page](#Richardson))
 
 +-- {: .num_remark }
 ###### Remark
@@ -79,7 +80,7 @@ Def. \ref{EtaInvariant} means that $\eta_0$ is the
 =--
 
 
-(Notice that if $D$ itself happens to have only positive [[eigenvalues]], then its eta function already is on the notre the [[zeta function of an elliptic differential operator]].)
+(Notice that if $D$ itself happens to have only positive [[eigenvalues]], then its eta function already is the [[zeta function of an elliptic differential operator]].)
 
 
 ## Properties
@@ -100,7 +101,7 @@ $$
   \,.
 $$
 
-e.g. ([M&#252;ller 94 (0.2)](#M&#252;ller94)).
+(cf. [M&#252;ller 94 (0.2)](#M&#252;ller94)).
 
 
 ### Relation to the zeta function {#RelationToTheZetaFunction}
@@ -124,7 +125,7 @@ where on the left we have the [[zeta function of an elliptic differential operat
 
 (e.g. [Richardson prop. 2](#Richardson)).
 
-In particular this means that under the above assumptions the [[functional determinant]] of $D^2$ is given by
+In particular this means that, under the above assumptions, the [[functional determinant]] of $D^2$ is given by
 
 $$
   det (D^2) 
@@ -138,12 +139,12 @@ $$
 #### On odd-dimensional manifolds
  {#OnOddDimensionalManifolds}
 
-Under suitable conditions the exponentiated $\eta$-invariant $\exp(\pi i \eta(0))$ equals the [[Selberg zeta function]] of odd type.  ([Millson 78](#Millson78), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)).
+Under suitable conditions the [[exponential|exponentiated]] $\eta$-invariant $\exp(\pi i \eta(0))$ equals the [[Selberg zeta function]] of odd type.  ([Millson 78](#Millson78), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)).
 
 ### Relation with L-function
  {#AnalogyWithLSeries}
 
-Relation of eta functions to [[Dirichlet L-functions]] includes ([Atiyah-Donelly-Singer 83](#AtiyahDonellySinger83), [Podesta 14](#Podesta14))
+Discussion of the relation of eta functions to [[Dirichlet L-functions]] includes [Atiyah, Donelly & Singer 1983](#AtiyahDonellySinger83)and [Podesta 2014](#Podesta14).
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
@@ -160,7 +161,7 @@ $$
   \,.
 $$
 
-e.g. ([M&#252;ller 94, below (0.3)](#M&#252;ller94))
+(cf. [M&#252;ller 94, below (0.3)](#M&#252;ller94))
 
 Define then the exponentiated eta-invariant to be the element
 
@@ -194,21 +195,21 @@ $$
 
 (Here it is maybe noteworthy that, by the [above](#OnOddDimensionalManifolds), $\zeta_S = \exp(i \pi\, \eta_X(0))$ is the [[Selberg zeta function]].)
 
-In fact this is a smooth [[section]] of the [[determinant line bundle]] as $X$ varies. 
+In fact, this is a smooth [[section]] of the [[determinant line bundle]] as $X$ varies. 
 
 +-- {: .num_prop #ExponentiatedEtaSatisfiesSewing}
 ###### Proposition
 
-These sections given by the exponentiated eta invariant satisfy the [[sewing law]].
+These sections, given by the exponentiated eta invariant, satisfy the [[sewing law]].
 
 =--
 
-This is due to ([Dai-Freed 94](#DaiFreed94)), reviewed in ([Freed 95a](#Freed95a)). See also ([Witten 15](#Witten15)) for discussion in relation to [[anomaly cancellation]] of [[fermions]] (specifically for the eta invariant in the [[Green-Schwarz mechanism]] see [Witten 99, section 2.2](Green-Schwarz+mechanism#Witten99)).
+This is due to [Dai & Freed 1994](#DaiFreed94), reviewed  by [Freed 1995a](#Freed95a). See also [Witten 2015](#Witten15) for discussion in relation to [[anomaly cancellation]] of [[fermions]] (specifically for the eta invariant in the [[Green-Schwarz mechanism]] see [Witten 99, section 2.2](Green-Schwarz+mechanism#Witten99)).
 
 +-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{ExponentiatedEtaSatisfiesSewing} means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a [[Riemannian metric|metric]]), a point of view highlighted in ([Bunke 94](#Bunke94)).  
+Prop. \ref{ExponentiatedEtaSatisfiesSewing} means that the eta-invariant satisfies something like the Atiyah-axioms for [[TQFT]] (but of course $\eta$ depends on a [[Riemannian metric|metric]]), a point of view highlighted by [Bunke 1994](#Bunke94).  
 Indeed, this exponentiated eta invariant is one factor (together with [[analytic torsion]] and the classical CS invariant) of the [[perturbation theory|perturbative]] [[path integral quantization]] of [[Chern-Simons theory]] ([Witten 89 (2.17) (2.23)](#Witten89)), see at _[Chern-Simons theory -- Perturbative path integral quantization](Chern-Simons+theory#PerturbativePathIntegralQuantization)_.
 
 =--
@@ -274,9 +275,9 @@ Further discussion of the relation to [[holonomy]] is in
 
 * _Eta invariant and Selberg  zeta function of odd type over convex co-compact hyperbolic manifolds_ ([pdf](http://www.imar.ro/~sergium/fisiere/Eta-Selberg2501.pdf))
 
-Discussion of relation to [[L-functions]] includes
+Discussion in relation to [[L-functions]]:
 
-* {#AtiyahDonellySinger83} [[Michael Atiyah]],  H. Donnelly; , [[Isadore Singer]], _Eta invariants, signature defects of cusps, and values of L-functions_, Annals of Mathematics. Second Series 118 (1): 131&#8211;177 (1983) doi:10.2307/2006957, ISSN 0003-486X, MR 707164
+* {#AtiyahDonellySinger83} [[Michael Atiyah]],  H. Donnelly, [[Isadore Singer]]: _Eta invariants, signature defects of cusps, and values of L-functions_, Annals of Mathematics. Second Series 118 (1): 131&#8211;177 (1983) &lbrack;doi:10.2307/2006957, ISSN 0003-486X, MR 707164&rbrack;
 
 * {#Podesta14} Ricardo A. Podest&#225;, _The eta function and eta invariant of Z2r-manifolds_ ([ariv:1407.7454](http://arxiv.org/abs/1407.7454))
 
@@ -309,7 +310,10 @@ Discussion of the eta-invariant on manifolds with boundary is in
 
 * {#Bunke94} [[Ulrich Bunke]], _The $\eta$-Invariant as a Lagrangian of a Topological Quantum Field Theory_ ([arXiv:hep-th/9408162](http://arxiv.org/abs/hep-th/9408162))
 
-* {#Witten15} [[Edward Witten]], _Anomalies revisited_, talk at [Strings2015](https://strings2015.icts.res.in) ([pdf slides](https://strings2015.icts.res.in/talkDocuments/6-2.00-2.30-Edward-Witten.pdf))
+* {#Witten15} [[Edward Witten]]: _Anomalies revisited_, talk at [Strings2015](https://strings2015.icts.res.in) &lbrack;[pdf slides](https://strings2015.icts.res.in/talkDocuments/6-2.00-2.30-Edward-Witten.pdf)&rbrack;
+
+* [[Edward Witten]]: *Fermion Path Integrals And Topological Phases*, 
+Rev. Mod. Phys. **88** 35001 (2016) &lbrack;[https://arxiv.org/abs/1508.04715](https://arxiv.org/abs/1508.04715), [doi:10.1103/RevModPhys.88.035001](https://doi.org/10.1103/RevModPhys.88.035001)&rbrack;
 
 and regarding the result as taking values in the determinant line over the boundary is due to
 
@@ -319,10 +323,15 @@ and regarding the result as taking values in the determinant line over the bound
 
 with review and streamlined results in
 
-* {#Freed95a} [[Daniel Freed]], _Determinant line bundles revisited_ ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+* {#Freed95a} [[Daniel Freed]]: _Determinant line bundles revisited_ &lbrack;[dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002)&rbrack;
 
 
 * {#Freed95b} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
+
+Mote on the role in [[solid state physics]]:
+
+* Hidenori Fukaya, Tetsuya Onogi, Satoshi Yamaguchi: *Atiyah-Patodi-Singer index from the domain-wall fermion Dirac operator*, Phys. Rev. D 96 (2017) 125004 &lbrack;[doi:10.1103/PhysRevD.96.125004](https://doi.org/10.1103/PhysRevD.96.125004)&rbrack;
+
 
 
 
