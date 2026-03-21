@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -68,3 +68,6 @@ See also
 * Wikipedia, *[Complex Lie group](https://en.wikipedia.org/wiki/Complex_Lie_group)*
 
 [[!redirects complex Lie groups]]
+
+[[!redirects complexification of a Lie group]]
+[[!redirects complexifications of Lie groups]]
