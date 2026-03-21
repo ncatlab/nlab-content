@@ -201,6 +201,13 @@ The description via [[BV-complexes]] is amplified in the context of [[factorizat
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  {#CostelloGwilliam}
 
+### Non-self-dual Yang-Mills connections
+
+* {#SibnerSibnerUhlenbeck89} [[Lesley Sibner]], [[Robert Sibner]], [[Karen Uhlenbeck]], _Solutions to Yang-Mills equations that are not self-dual_ (1989) &lbrack;[doi:10.1073/pnas.86.22.8610](https://doi.org/10.1073/pnas.86.22.8610) [pdf](https://www.pnas.org/doi/pdf/10.1073/pnas.86.22.8610)&rbrack;
+
+* {#SadunSegert92} [[Lorenzo Sadun]], [[Jan Segert]], _Non-self-dual Yang-Mills connections with nonzero Chern number_, Bull. Amer. Math. Soc., **24** (1991), 163-170.
+
+* {#SadunSegert92} [[Lorenzo Sadun]], [[Jan Segert]], _Non-self-dual Yang-Mills connections with quadrupole symmetry_, Commun. Math. Phys., **145** (2) (1992), 363-391. &lbrack;[doi:10.1007/BF02099143](https://link.springer.com/article/10.1007/BF02099143)&rbrack;
 
 [[!redirects self-dual Yang-Mills equation]]
 [[!redirects self-dual Yang-Mills equations]]
