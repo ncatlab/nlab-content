@@ -14,9 +14,9 @@ This page is to record the reference
 
   [doi:10.1017/S0960129500001420](https://doi.org/10.1017/S0960129500001420), [[Goguen-SheafSemantics.pdf:file]]
 
-which aims to formulate with [[category theory]] the behaviour of "systems of concurrent interacting objects. 
+which aims to formulate with [[category theory]] the behaviour of "systems of concurrent interacting objects". 
 
-Goguen uses [[sheaf|sheaves]] to represent the behaviours of individual objects, and [[limits]] to combine the behaviours of objects into that of the system. The approach is very general, and is not restricted to computation. 
+The article uses [[sheaves]] to represent the behaviours of individual objects, and [[limits]] to combine the behaviours of objects into that of the system. The approach is very general, and is not restricted to [[computation]]. 
 
 > **Abstract.** This paper uses concepts from sheaf theory to explain phenomena in  concurrent systems, including object, inheritance, deadlock, and non-interference, as used in computer security. The approach is very general, and applies not only to concurrent object oriented systems, but also to systems of differential equations, electrical circuits, hardware description languages, and much more. Time can be discrete or continuous, linear or branching, and distribution is allowed over space as well as time. Concepts from category theory help to achieve this generality: objects are modelled by sheaves; inheritance by sheaf morphisms; systems by diagrams; and interconnection by diagrams of diagrams. In addition, behaviour is given by limit, and the result of interconnection by colimit. The approach is illustrated with many examples, including a semantics for a simple concurrent object-based programming language.
 
