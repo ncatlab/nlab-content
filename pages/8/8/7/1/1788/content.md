@@ -5,6 +5,100 @@
 
 ***
 
+\begin{example}
+  For $G$ a [[topological group]], the free loop space of its [[underlying]] [[topological space]] is [[homeomorphism|homeomorphic]] to the [[product space]] of $G$ with its [[based loop space]]:
+$$
+  \mathcal{L}G
+  \simeq
+  G \times \Omega G
+  \mathrlap{\,.}
+$$
+\end{example}
+\begin{proof}
+  Let the loops be parameterized over $[0,1]$.
+  Consider the maps
+$$
+  \begin{array}{ccc}
+    \mathcal{L} G
+      &\xrightarrow{\phantom{--} \Phi \phantom{--}}& 
+    G \times \Omega G
+    \\
+    \gamma 
+      &\mapsto& 
+    \Big( 
+      \gamma(0),  
+      \big(
+        t \mapsto \gamma(0)^{-1}\gamma(t)
+      \big)
+   \Big)
+  \end{array}
+$$
+and
+$$
+  \begin{array}{ccc}
+    G \times \Omega G
+      &\xrightarrow{\phantom{--} \overline{\Phi} \phantom{--}}& 
+    \mathcal{L} G
+    \\
+    (g, \ell) 
+      &\mapsto&
+    \big(
+      t \mapsto g \cdot \ell(t)
+    \big)
+  \end{array}
+$$
+These maps are both [[continuous map|continuous]] since the operations of forming [[binary map|products]] and [[inverses]] in $G$ are continuous, by assumption on $G$. So it remains to check that the maps are [[inverses]] of each other. Indeed, unwinding the definitions, we have:
+$$
+  \begin{aligned}
+    \overline{\Phi}\big(\Phi(\gamma)\big)
+    & =
+    \overline{\Phi}\Big(
+      \gamma(0), 
+      \big( t \mapsto \gamma(0)^{-1}\gamma(t) \big)
+    \Big)
+    \\
+    & =
+    \big(
+      t \mapsto \gamma(0) \gamma(0)^{-1}\gamma(t)
+    \big)
+    \\
+    & =
+    \gamma
+  \end{aligned}
+$$
+and
+$$
+  \begin{aligned}
+    \Phi\big(\overline{\Phi}(g,\ell)\big)
+    & =
+    \Phi\big(
+      t \mapsto g \ell(t)
+    \big)
+    \\
+    & =
+    \bigg(
+      g \ell(0), 
+      \Big(
+        t \mapsto \big(g \ell(0)\big)^{-1} g \ell(t)
+      \Big)
+    \bigg)
+    \\
+    & =
+    \Big(
+      g , 
+      \big(
+        t \mapsto \ell(t)
+      \big)
+    \Big)
+    \\
+    & = 
+    (g, \ell)
+  \end{aligned}
+$$
+\end{proof}
+
+
+***
 
 * Christopher Couzens, Alice Lüscher, James Sparks: *Localizing punctures in M-theory* &lbrack;[arXiv:2511.03397](https://arxiv.org/abs/2511.03397)&rbrack;
 
