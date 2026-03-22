@@ -50,6 +50,8 @@ Further discussion:
 
 * {#AhnParkYang19} [[Junyeong Ahn]], Sungjoon Park, Bohm-Jung Yang, *Failure of Nielsen-Ninomiya theorem and fragile topology in two-dimensional systems with space-time inversion symmetry: application to twisted bilayer graphene at magic angle*, Phys. Rev. X **9** (2019) 021013 \[<a href="https://doi.org/10.1103/PhysRevX.9.021013">doi:10.1103/PhysRevX.9.021013</a>,  [arXiv:1808.05375](https://arxiv.org/abs/1808.05375)\]
 
+* Yoonseok Hwang, Junyeong Ahn, Bohm-Jung Yang: *Fragile Topology Protected by Inversion Symmetry: Diagnosis, Bulk-Boundary Correspondence, and Wilson Loop*, Phys. Rev. B **100** (2019) 205126 \[<a href="https://doi.org/10.1103/PhysRevB.100.205126">doi:10.1103/PhysRevB.100.205126</a>, [arXiv:1905.08128](https://arxiv.org/abs/1905.08128)\]
+
 * Zhi-Da Song, Luis Elcoro, [[B. Andrei Bernevig]]: *Real Space Invariants: Twisted Bulk-Boundary Correspondence of Fragile Topology*, Science **367** 6479
 (2020) 794-797 \[<a href="https://doi.org/10.1126/science.aaz7650">doi:10.1126/science.aaz7650</a>, [arXiv:1910.06869](https://arxiv.org/abs/1910.06869)\]
 
