@@ -36,7 +36,7 @@ Consider
 
 * $A\in\Omega_{\operatorname{Ad}}^1(P,\mathfrak{g})$ ([[affine space]] over $\Omega^1(X,Ad(P))$) a [[principal connection]],
 
-* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\cong\Omega^2(X,Ad(P))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
+* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\Omega^2(X,Ad(P))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
 
 ## Definition
 
@@ -145,17 +145,17 @@ Let $(A,\Phi)$ be a weakly stable YMH pair on $S^n$.
 
 ([Han, Jin & Wen 23](#HanJinWen23))
 
-## References
-
-* {#HuHu15} Zhi Hu and Sen Hu, _Degenerate and Stable Yang-Mills-Higgs Pair_ (2015), [arxiv:1502.01791](https://arxiv.org/abs/1502.01791)
-* {#Cheng21} Da Rong Cheng, _Stable Solutions to the Abelian Yang–Mills–Higgs Equations on $S^2$ and $T^2$_ (2021), Journal of Geometric Analysis **31**, pp. 9551–9572, [doi:10.1007/s12220-021-00619-y](https://doi.org/10.1007/s12220-021-00619-y)
-* {#HanJinWen23} Xiaoli Han, Xishen Jin and Yang Wen; _Stability and energy identity for Yang-Mills-Higgs pairs_ (2023), Journal of Mathematical Physics **64**, [arxiv:2303.00270](https://arxiv.org/abs/2303.00270)
-
 ## See also
 
 [[!include Yang-Mills theory -- table]]
 
 ## References
+
+* {#HuHu15} [[Zhi Hu]], [[Sen Hu]]; _Degenerate and Stable Yang-Mills-Higgs Pair_ (2015) &lbrack;[arxiv:1502.01791](https://arxiv.org/abs/1502.01791)&rbrack;
+
+* {#Cheng21} [[Da Rong Cheng]], _Stable Solutions to the Abelian Yang–Mills–Higgs Equations on $S^2$ and $T^2$_ (2021), Journal of Geometric Analysis **31**, pp. 9551–9572, &lbrack;[doi:10.1007/s12220-021-00619-y](https://doi.org/10.1007/s12220-021-00619-y)&rbrack;
+
+* {#HanJinWen23} [[Xiaoli Han]], [[Xishen Jin]], [[Yang Wen]]; _Stability and energy identity for Yang-Mills-Higgs pairs_ (2023), Journal of Mathematical Physics **64**, &lbrack;[arxiv:2303.00270](https://arxiv.org/abs/2303.00270) [doi:10.1063/5.0130905](https://doi.org/10.1063/5.0130905)&rbrack;
 
 See also:
 
