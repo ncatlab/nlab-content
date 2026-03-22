@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -22,7 +22,7 @@ The cellular _$n$-globe_ is the globular analog of the cellular $n$-[[simplex]].
 The **cellular $n$-globe** $G_n$ is the [[globular set]] represented by the object $[n]$ in the [[globe category]] $G$:
 
 $$
-  G_n := Hom_G(-,[n])
+  G_n \coloneqq Hom_G(-,[n])
   \,.
 $$
 
