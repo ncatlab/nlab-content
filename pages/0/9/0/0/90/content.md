@@ -36,6 +36,10 @@ The 3-globe looks like this
 
 <img src="http://www.math.uni-hamburg.de/home/schreiber/pics/3globe.gif" alt=""/>
 
+or equivalently with different notation
+
+<center><img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "200"></center>
+
 
 ## Properties
 
