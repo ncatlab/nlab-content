@@ -54,18 +54,24 @@ A more fundamental approach to [[confinement|confined]] [[QCD]]/[[Yang-Mills the
 
 ## References
 
-### The mass gap problem
+### The Yang-Mills mass gap problem
  {#ReferencesMassGapProblem}
 
 Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
-* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_ (2000)
+* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_, [Millennium Prize Problems](https://www.claymath.org/millennium-problems/) (2000)
 
 * {#Witten2002} [[Edward Witten]]; pp. 4 of: *Physical Law and the Quest for Mathematical Understanding*, Bulletin of the AMS **40** 1 (2002) 21-29 &lbrack;[doi:10.1090/S0273-0979-02-00969-2](https://doi.org/10.1090/S0273-0979-02-00969-2), [pdf](https://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00969-2/S0273-0979-02-00969-2.pdf), [[Witten-PhysicalLaw.pdf:file]]&rbrack;
   > "Prove the existence and mass gap of quantum Yang-Mills theory on $\mathbb{R}^4$, with gauge group a compact simple non-abelian Lie group $G$."
 
 
 * {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]]: *Quantum Yang-Mills theory*, in: J. Carlson, [[Arthur Jaffe|A. Jaffe]], [[Andrew Wiles|A. Wiles]] (eds.): *The Millennium Prize Problems*, CMI & AMS (2006) 129-152 &lbrack;[ISBN:978-1-4704-7460-7](https://bookstore.ams.org/MPRIZE), [pdf](https://www.claymath.org/library/monographs/MPPc.pdf),  [pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
+
+* {#Douglas04} [[Michael Douglas]]: _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
+
+* {#Witten2008} [[Edward Witten]]: *The Problem Of Gauge Theory*, talk at *[Geometric Analysis: Present and Future](https://legacy-www.math.harvard.edu/conferences/yau_2008/index.html)* ([[Shing-Tung Yau|Yau]] 60th celebration), Harvard (2008) &lbrack;[arXiv:0812.4512](https://arxiv.org/abs/0812.4512)&rbrack;
+
+More visionary comments on potential approaches:
 
 * {#Atiyah2000} [[Michael Atiyah]], *The millennium prize problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
 
@@ -106,9 +112,7 @@ Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 > [43:09](https://youtu.be/trxjCOmg8GY?t=2589) The big challenge [for] mathematics and the physicists of the 21st century is to really make progress along this program by whatever method they can. Good luck to you.
 
 
-Early report on the progress (essentially none):
 
-* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
 
 Further comments:
 
