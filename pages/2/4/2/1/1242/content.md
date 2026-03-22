@@ -184,7 +184,7 @@ is a [[quasi-isomorphism]].
 ### Short exact sequences and quotients
  {#SESAndQuotients}
 
-The following are some basic lemmas that show how given a long exact sequence one obtains short exact sequences from forming [[quotients]]/[[cokernels]]. 
+The following are some basic lemmas that show how, given a long exact sequence, one obtains short exact sequences by forming [[quotients]]/[[cokernels]]. 
 
 
 \begin{lemma}\label{TruncatingExactSequences}
