@@ -58,6 +58,8 @@ See also:
 
 * [[connected object]]
 
+* [[strongly connected category]]
+
 
 category: people
 
