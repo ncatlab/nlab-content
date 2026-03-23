@@ -17,9 +17,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -187,6 +187,7 @@ In this diagram now
 
 * [[homotopy analysis method]]
 
+
 ## References
 
 ### General
@@ -196,6 +197,17 @@ General accounts:
 * [[Jean-François Pommaret]], *Partial Differential Equations and Group Theory*, Springer (1994) &lbrack;[doi:10.1007/978-94-017-2539-2](https://doi.org/10.1007/978-94-017-2539-2)&rbrack;
 
 * [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 &lbrack;[pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf)&rbrack;
+
+* [[Lars Hörmander]]: _The analysis of linear partial differential operators_, Springer [series:7609](https://link.springer.com/series/7609)
+
+  I. *Distribution theory and Fourier analysis* (2003) &lbrack;[doi:10.1007/978-3-642-61497-2](https://doi.org/10.1007/978-3-642-61497-2)&rbrack;
+
+  II. *Differential operators with constant coefficients* (2005) &lbrack;[doi:10.1007/b138375](https://doi.org/10.1007/b138375)&rbrack;
+
+  III. *Pseudo-differential operators* (2007) &lbrack;[doi:10.1007/978-3-540-49938-1](https://doi.org/10.1007/978-3-540-49938-1)&rbrack;
+
+  IV. *Fourier integral operators* (2009) &lbrack;[doi:10.1007/978-3-642-00136-9](https://doi.org/10.1007/978-3-642-00136-9)&rbrack;
+
 
 * Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_ &lbrack;[pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)&rbrack;
 
