@@ -195,16 +195,28 @@ $$
 
 * [[Spencer cohomology]]
 
+
 ## References
 
-A coordinate-free definition of a linear differential operator suitable for [[algebraic geometry]] was introduced by [[Grothendieck]] in Proposition IV.16.8.8(b) of
+A coordinate-free definition of a linear differential operators suitable for [[algebraic geometry]] was introduced by [[Grothendieck]] in Proposition IV.16.8.8(b) of
 
-* [[A. Grothendieck]], [[J. Dieudonné]]. _[[Éléments de géométrie algébrique]] IV. Étude locale des schémas et des morphismes des schémas, Quatrième partie_, Publications Mathematiques de l’IHÉS 32, 5–361, 1967.
+* [[A. Grothendieck]], [[J. Dieudonné]]. _[[Éléments de géométrie algébrique]] IV. Étude locale des schémas et des morphismes des schémas, Quatrième partie_, Publications Mathematiques de l’IHÉS 32, 5–361 (1967)
+
+Further discussion:
+
+* [[Lars Hörmander]]: _The analysis of linear partial differential operators_, Springer [series:7609](https://link.springer.com/series/7609)
+
+  I. *Distribution theory and Fourier analysis* (2003) &lbrack;[doi:10.1007/978-3-642-61497-2](https://doi.org/10.1007/978-3-642-61497-2)&rbrack;
+
+  II. *Differential operators with constant coefficients* (2005) &lbrack;[doi:10.1007/b138375](https://doi.org/10.1007/b138375)&rbrack;
+
+  III. *Pseudo-differential operators* (2007) &lbrack;[doi:10.1007/978-3-540-49938-1](https://doi.org/10.1007/978-3-540-49938-1)&rbrack;
+
+  IV. *Fourier integral operators* (2009) &lbrack;[doi:10.1007/978-3-642-00136-9](https://doi.org/10.1007/978-3-642-00136-9)&rbrack;
 
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
-
-  (notice that prop. 1.3 there holds only when the equalizer exists in the first place)
+  > (beware that prop. 1.3 there holds only when the equalizer exists in the first place)
 
 * {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
