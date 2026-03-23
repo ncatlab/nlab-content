@@ -49,6 +49,8 @@ Note that the [[empty category]] is not connected.  For other purposes, one can 
 
 * [[connected homotopy type]]
 
+* [[strongly connected]]
+
 
 
 ## References
