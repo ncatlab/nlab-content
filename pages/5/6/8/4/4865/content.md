@@ -385,9 +385,12 @@ Discussion of [[black hole]] horizons:
 
 * [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
 
-See also
+See also:
 
-* Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
+* Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ &lbrack;[arXiv:1805.07506](https://arxiv.org/abs/1805.07506)&rbrack;
+
+* Emanuele Di Bella, Willem A. de Graaf, Andrea Santi: *Some rigidity results for supergravity backgrounds in 11 dimensions* &lbrack;[arXiv:2603.19923](https://arxiv.org/abs/2603.19923)&rbrack;
+
 
 Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
 
