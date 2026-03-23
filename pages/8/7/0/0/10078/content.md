@@ -102,7 +102,10 @@ Review:
 * James P. Edwards, [[Christian Schubert]],
 *Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
 
-* Siddarth Ajith, Yuchen Du, Ravisankar Rajagopal, Diana Vaman: *Worldline Formalism, Eikonal Expansion and the Classical Limit of Scattering Amplitudes* &lbrack;[arXiv:2409.17866](https://arxiv.org/abs/2409.17866)^rbrack;
+* Siddarth Ajith, Yuchen Du, Ravisankar Rajagopal, Diana Vaman: *Worldline Formalism, Eikonal Expansion and the Classical Limit of Scattering Amplitudes* &lbrack;[arXiv:2409.17866](https://arxiv.org/abs/2409.17866)&rbrack;
+
+* Filippo Fecit: *Advances in the Worldline Approach to Quantum Field Theory: Strong Fields, Amplitudes and Gravity* &lbrack;[arXiv:2603.19726](https://arxiv.org/abs/2603.19726)&rbrack;
+
 
 Exposition with an eye towards [[quantum gravity]]:
 
