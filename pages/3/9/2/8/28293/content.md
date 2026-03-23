@@ -1,28 +1,48 @@
-# Contents
-* table of contents
-{:toc}
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Definition
 
-A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]] and for any pair of objects $A,B$ there is a morphism $A \to B$ or a morphism $B \to A$.
+A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]] and for any [[pair]] of [[objects]] $A,B$ there is a [[morphism]] $A \to B$ or a morphism $B \to A$.
 
-## Results
+## Properties
 
-* Every strongly connected category is [[connected category]].
+* Every strongly connected category is a [[connected category]].
+
 * Every inhabited connected [[groupoid]] is strongly connected.
-* Every inhabited category with [[zero morphism|zero morphisms]] is strongly connected.
+
+* Every inhabited category with [[zero morphisms]] is strongly connected.
 
 ## Examples
 
-* The [[Set|category of sets]]
-* The [[Ab|category of abelian groups]]
-* Every inhabited linear order, considered as a [[thin category]].
+Among strongly connected categories are:
+
+* the [[Set|category of sets]],
+
+* the [[Ab|category of abelian groups]],
+
+* every [[inhabited set|inhabited]] [[linear order]], considered as a [[thin category]].
 
 ## Counterexamples
 
-* The [[CRing|category of commutative rings]]
-* The [[empty category]]
-* The [[product category]] $Set \times Set$
+Not strongly connected are:
+
+* the [[CRing|category of commutative rings]],
+
+* the [[empty category]],
+
+* the [[product category]] $Set \times Set$.
 
 ## Related concepts
 
@@ -30,9 +50,12 @@ A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]
 
 ## References
 
-The terminology has been introduced in
+The terminology was introduced in:
 
-* Marta Bunge, [Categories of set valued functors](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html)
+* [[Marta Bunge]]: *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
 
-[[!redirects strongly connected category]]
+  Reprints in Theory and Applications of Categories **30** (2024) 1-84 &lbrack;[tac:tr39abs](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/30/tr30.pdf)&rbrack;
+
 [[!redirects strongly connected categories]]
+
+[[!redirects strongly connected]]
