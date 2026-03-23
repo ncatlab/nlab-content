@@ -11,9 +11,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -94,13 +93,27 @@ The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the [
 
 ## References
 
-* Wikipedia on [pseudodifferential operator] (http://en.wikipedia.org/wiki/Pseudo-differential_operator)
+Introduction:
 
-An elementary and short introduction can be found here:
+* Xavier Saint Raymond: _Elementary Introduction to the Theory of Pseudodifferential Operators_, Routledge (1991) &lbrack;[isbn:9780849371585](https://www.routledge.com/Elementary-Introduction-to-the-Theory-of-Pseudodifferential-Operators/Raymond/p/book/9780849371585), [zmath] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0847.47035&format=complete)&rbrack;
 
-* Xavier Saint Raymond: _Elementary Introduction to the Theory of Pseudodifferential Operators_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0847.47035&format=complete))
-* Sylvain Carpentier, Alberto De Sole, [[Victor G. Kac]], _Some algebraic properties of differential operators_, [arxiv/1201.1992](http://arxiv.org/abs/1201.1992)
-* [[Lars Hörmander]], _The analysis of linear partial differential operators_, in 4 vols.: I. Distribution theory and Fourier analysis, II. Differential operators with constant coefficients, III. Pseudo-differential operators, IV. Fourier integral operators.
+Monographs:
+
+* Mikhail A. Shubin: *Pseudodifferential Operators and Spectral Theory* (2001) &lbrack;[doi:10.1007/978-3-642-56579-3](https://doi.org/10.1007/978-3-642-56579-3)&rbrack;
+
+* [[Lars Hörmander]]: *Pseudo-differential operators*, part III of: *The analysis of linear partial differential operators*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-49938-1_3](https://doi.org/10.1007/978-3-540-49938-1_3)&rbrack;
+
+
+
+
+See also:
+
+
+* Wikipedia: *[Pseudodifferential operator] (http://en.wikipedia.org/wiki/Pseudo-differential_operator)*
+
+
+* Sylvain Carpentier, Alberto De Sole, [[Victor G. Kac]]: _Some algebraic properties of differential operators_ &lbrack;[arxiv/1201.1992](http://arxiv.org/abs/1201.1992)&rbrack;
+
 
 [[!redirects pseudodifferential operators]]
 
