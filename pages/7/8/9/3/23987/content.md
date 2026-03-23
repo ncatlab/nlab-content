@@ -3289,7 +3289,18 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   cf.: [arXiv:2602.12588](https://arxiv.org/abs/2602.12588)
 
   > Periodically driven ([[Floquet theory|Floquet]]) systems have attracted growing attention due to the emergence of intriguing phenomena that are absent in equilibrium physics. In this talk, I will present a new class of Floquet criticality discovered in our recent work. For generic driven Majorana fermion chains with chiral symmetry, we analytically demonstrate that Floquet driving can enrich the transition point, resulting in topologically distinct quantum critical lines that are absent in undriven systems. Furthermore, we provide an intuitive physical explanation for the underlying mechanism of the nontrivial topology at Floquet criticality and generalize our results to higher dimensions. This work not only extends the scope of topological physics in Floquet systems but also deepens our understanding of gapless [[topological phases of matter]].
- 
+
+\linebreak
+
+* {#YangMar2026} 23 Mar 2026
+
+  [Kang Yang](https://en.westlake.edu.cn/faculty/Kang-Yang.html) (Westlake University, China):
+
+  **Tunneling real and complex energy bands via dissipation: Chern-Euler duality rule in spontaneous parity-time symmetry breaking**
+
+  cf.: [arXiv:2503.21861](https://arxiv.org/abs/2503.21861)
+
+  > [[symmetry|Symmetry]] plays fundamental roles in [[physics|physical]] phenomena. [[energy band|Energy bands]] with different [[symmetries]] exhibit very distinct properties. Conventionally, transition of [[topological phase of matter|topological]] [[energy mand|bands]] is characterized by an abrupt change in the [[topological index]] belonging to a fixed symmetry class. Here we present a different paradigm for parity-time [[symmetry breaking]] induced by [[dissipation]] in [[topological photonics|photonic]] systems, where the [[topology]] must remain conserved, but its manifestation changes from [[Euler number]] characterizing [[Dirac points]] to [[Chern number]] characterizing anomalous boundary modes. The [[nonabelian group|non-Abelian]] [[Berry curvature]] exhibits a sharp transition in forms of [[quantization]] across the [[spontaneous symmetry breaking]]. Such an unconventional transition originates from coexistence of two different [[gauge theory|gauge]] structures, [[orthogonal groups]] for symmetry-preserving bands and [[unitary groups]] for symmetry-breaking bands, in such systems. Their coexistence renders the system beyond Cartan’s [[symmetric spaces]] and [[Bott periodicity|Bott clock]]. These systems are described by more generic [[homogeneous spaces]] interpolating different [[10-fold way|Altland-Zirnbaurer symmetry classes]]. This might lead to new ideas to engineer and measure [[topological phase of matter|topological phenomena]] via [[dissipation]].
 
 \linebreak
 
