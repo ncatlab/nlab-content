@@ -5,7 +5,7 @@ This entry is about the document
 * [[Tim Porter]], _The Crossed Menagerie: an introduction to crossed gadgetry and cohomology in algebra and topology_. (Notes, in part, prepared for the  _XVI Encuentro Rioplatense de Algebra y Geometr&#237;a Algebraica_, in Buenos Aires, 12-15 December 2006, and for course MATH5312, Spring-Summer term 2007, 
 University of Ottawa) ([[menagerie14.pdf|pdf:file]])
 
-This is an ongoing set of notes outlining an approach to [[nonabelian cohomology]], [[stack]]s, etc., and Grothendieck's conjectured extension of 'Galois-Poincar&#233; theory'. The title refers to the array of strange beasties that occur as generalisations of [[crossed modules]]. (The present version is over 1004 pages long, and is changing quite often. A fairly stable version (but up-dates are planned shortly!) is available as a download,  [[menagerie12a.pdf|here:file]].
+This is an ongoing set of notes discussing some ideas on  [[nonabelian cohomology]], [[stack]]s, etc., and Grothendieck's conjectured extension of 'Galois-Poincar&#233; theory'. The title refers to the array of strange beasties that occur as generalisations of [[crossed modules]]. (The present version is over 1004 pages long, and is changing quite often. A fairly stable version (but up-dates are planned shortly!) is available as a download,  [[menagerie12a.pdf|here:file]].
 
 These notes, or at least the first few chapters of them, acted as course notes for a 4 lecture course in Buenos Aires, and later on for a course on cohomology in Ottawa. 
 
