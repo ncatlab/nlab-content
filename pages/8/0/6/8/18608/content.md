@@ -59,7 +59,7 @@ A more fundamental approach to [[confinement|confined]] [[QCD]]/[[Yang-Mills the
 
 Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
-* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_, [Millennium Prize Problems](https://www.claymath.org/millennium-problems/) (2000)
+* [Clay Mathematics Institute](http://www.claymath.org/): _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_, [Millennium Prize Problems](https://www.claymath.org/millennium-problems/) (2000)
 
 * {#Witten2002} [[Edward Witten]]; pp. 4 of: *Physical Law and the Quest for Mathematical Understanding*, Bulletin of the AMS **40** 1 (2002) 21-29 &lbrack;[doi:10.1090/S0273-0979-02-00969-2](https://doi.org/10.1090/S0273-0979-02-00969-2), [pdf](https://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00969-2/S0273-0979-02-00969-2.pdf), [[Witten-PhysicalLaw.pdf:file]]&rbrack;
   > "Prove the existence and mass gap of quantum Yang-Mills theory on $\mathbb{R}^4$, with gauge group a compact simple non-abelian Lie group $G$."
