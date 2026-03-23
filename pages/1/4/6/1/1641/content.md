@@ -100,6 +100,8 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
 
 *  Outside of topology, the category of [[measurable spaces]] is topological over $Set$.
 
+* The category [[PreOrd]] of [[preordered sets]] is topological over $Set$. Given a family of preordered sets $\{(S_i, \prec_i)\}$ and a family of $\{f_i \colon X \to S_i\}$, the induced preorder is $(\leq) \subseteq X^2 = \{(x,x') \mid \forall i \cdot f_i(x) \prec_i f_i(x') \}$.
+
 *  The category of [[topological groups]] is topological over [[Grp]], the category of [[topological vector spaces]] is topological over $\mathbb{R}$-[[Vect]], etc.
 
 
