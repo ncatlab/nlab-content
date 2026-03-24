@@ -10,6 +10,11 @@
 
 ## Selected writings
 
+On [[topological insulators]] with focus on [[edge modes]] and the [[bulk-boundary correspondence]] [[K-theory classification of topological phases of matter|via topological K-theory]] and in the presence of disorder:
+
+* [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
+
+
 Explicit formulas for [[Dirac operators]] parameterized by [[n-spheres]] and regarded as [[Fredholm operators]] representing [[topological K-theory]], with an eye towards the [[K-theory classification of topological phases of matter]]:
 
 * [[Hermann Schulz-Baldes]], Tom Stoiber: *The generators of the $K$-groups of the sphere*, Expositiones Mathematicae **41** 4 (2023) 125519 &lbrack;[arXiv:2403.18944](https://arxiv.org/abs/2403.18944), [doi:10.1016/j.exmath.2023.125519](https://doi.org/10.1016/j.exmath.2023.125519)&rbrack;
