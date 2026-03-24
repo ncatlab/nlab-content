@@ -5,6 +5,40 @@
 
 ***
 
+\begin{tikzcd}
+  X' 
+  \ar[rr]
+  \ar[dd]
+  \ar[dr]
+  && 
+  Z'
+  \ar[dr]
+  \ar[dd]
+  \\
+  & 
+  Y'
+  \ar[rr, crossing over]
+  && 
+  W'
+  \ar[dd]
+  \\
+  X 
+  \ar[rr]
+  \ar[dr]
+  &&
+  Z
+  \ar[dr]
+  \\
+  &
+  Y
+  \ar[rr] 
+  \ar[from=uu, crossing over]
+  &&
+  W
+\end{tikzcd}
+
+\linebreak
+
 **Bulk-Boundary correspondence**
 
 In [[solid state physics]], specifically in the discussion of [[topological phases of matter]], the *bulk-boundary correspondence* (or *bulk-edge correspondence*, due to its historical roots in 2D systems such as exhibiting the [[quantum Hall effect]]) states broadly that for [[topological phase of matter|topological systems]] on a [[manifold with boundary|domain with boundary]] the topological [[bulk]] [[quantum observables|observables]] correspond to certain [[boundary]] [[quantum observables|observables]] (*[[edge modes]]*).
