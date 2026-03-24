@@ -109,10 +109,10 @@ Examples:
 
 * Jacob Shapiro: *The Bulk-Edge Correspondence in Three Simple Cases*, Reviews in Mathematical Physics **32** 03 (2020) 2030003 (2020) \[<a href="https://doi.org/10.1142/S0129055X20300034">doi:10.1142/S0129055X20300034</a>, [arXiv:1710.10649](https://arxiv.org/abs/1710.10649)\]
 
-Further discussion:
+For [[quantum Hall systems]]:
 
+* [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
 
-* Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
 
 Via [[Kasparov K-theory]]:
 
@@ -120,6 +120,10 @@ Via [[Kasparov K-theory]]:
   > (for [[quantum Hall systems]])
 
 * [[Chris Bourne]], Johannes Kellendonk, [[Adam Rennie]]: *The K-theoretic bulk-edge correspondence for topological insulators*,  Ann. Henri Poincaré 18 (2017) 1833–1866  \[<a href="https://doi.org/10.1007/s00023-016-0541-2">doi:10.1007/s00023-016-0541-2</a>, [arXiv:1604.02337](https://arxiv.org/abs/1604.02337)\]
+
+See also:
+
+* Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
 
 
 
