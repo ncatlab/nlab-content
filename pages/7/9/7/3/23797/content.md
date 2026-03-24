@@ -66,10 +66,17 @@ Review:
 
 * {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
+In view of the [[bulk-edge correspondence]]:
+
+* [[Johannes Kellendonk]], Thomas Richter, [[Hermann Schulz-Baldes]]: *Edge current channels and Chern numbers in the integer quantum Hall effect*, Rev. Math. Phys. **14** 1 (2002) 87–119 \[<a href="https://doi.org/10.1142/S0129055X02001107">doi:10.1142/S0129055X02001107</a>\] 
+
+* [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Quantization of edge currents for continuous magnetic operators*, J. Funct. Anal. **209** (2004) 388-413 \[<a href="https://doi.org/10.1016/S0022-1236(03)00174-5">doi:10.1016/S0022-1236(03)00174-5</a>, [arXiv:math-ph/0405021](https://arxiv.org/abs/math-ph/0405021)\]
+
+* [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Boundary maps for $C^\ast$-crossed products with $\mathbb{R}$ with an application to the quantum Hall effect*, Commun. Math. Phys. **249** (2004) 611-637 \[<a href="https://doi.org/10.1007/s00220-004-1122-7">doi:10.1007/s00220-004-1122-7</a>, [arXiv:math-ph/0405022](https://arxiv.org/abs/math-ph/0405022)\]
+
 Monograph:
 
 * [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
-  > (with focus on the [[bulk-boundary correspondence]])
 
 
 In the generality of higher dimensional [[integer quantum Hall systems]] and relating to [[area-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
