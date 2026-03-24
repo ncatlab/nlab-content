@@ -22,9 +22,9 @@ Specifically, when the [[double complex]] that goes into the snake lemma is rega
 $$
   \cdots
    \to
-  H_n(A) \to H_n(B) \to H_n(C) 
-   \stackrel{\delta_n}{\to}
-  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)   
+  H_n(A) \longrightarrow H_n(B) \longrightarrow H_n(C) 
+   \stackrel{\delta_n}{\longrightarrow}
+  H_{n-1}(A) \longrightarrow H_{n-1}(B) \longrightarrow H_{n-1}(C)   
    \to
   \cdots
   \,.
@@ -267,6 +267,10 @@ $$
 is called a _[[nLab:Bockstein homomorphism]]_.
 
 =--
+
+\begin{example}
+  In the context of [[topological phases of matter]]: cf. *[[bulk-boundary correspondence]]*.
+\end{examples}
 
 ## Properties
 
