@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -63,6 +62,12 @@ Review:
 * A. M. Chang: *Chiral Luttinger liquids at the fractional quantum Hall edge*, Rev. Mod. Phys. **75** (2003) 1449 &lbrack;[doi:10.1103/RevModPhys.75.1449](https://doi.org/10.1103/RevModPhys.75.1449)&rbrack;
 
 * {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
+
+Monograph:
+
+* [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
+  > (with focus on the [[bulk-boundary correspondence]])
+
 
 In the generality of higher dimensional [[integer quantum Hall systems]] and relating to [[area-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
 
