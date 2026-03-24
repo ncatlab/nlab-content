@@ -1,4 +1,6 @@
 
+Alan Lawrence Carey
+
 * [personal page](https://maths-people.anu.edu.au/~acarey/)
 
 * [institute page](https://maths.anu.edu.au/people/alan-carey)
@@ -27,6 +29,12 @@ On [[twisted differential K-theory]]:
 
 * [[Alan Carey]], [[Jouko Mickelsson]], [[Bai-Ling Wang]], _Differential Twisted K-theory and Applications_, Journal of Geometry and Physics, Volume 59, Issue 5, May 2009, Pages 632-653 ([arXiv:0708.3114](https://arxiv.org/abs/0708.3114), [doi:10.1016/j.geomphys.2009.02.002](https://doi.org/10.1016/j.geomphys.2009.02.002))
 
+On the [[bulk-edge correspondence]] for [[quantum Hall systems]] using [[Kasparov K-theory]]:
+
+* Chris Bourne, [[Alan L. Carey]], Adam Rennie: *The bulk-edge correspondence for the quantum Hall effect in Kasparov theory*, Lett Math Phys **105** (2015) 1253–1273 \[<a href="https://doi.org/10.1007/s11005-015-0781-y">doi:10.1007/s11005-015-0781-y</a>, [arXiv:1411.7527](https://arxiv.org/abs/1411.7527)\]
+
+
+
 
 ## Related entries
 
@@ -39,3 +47,6 @@ On [[twisted differential K-theory]]:
 * [[quantum anomaly]]
 
 category: people
+
+[[!redirects Alan L. Carey]]
+
