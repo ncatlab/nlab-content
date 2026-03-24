@@ -9,9 +9,10 @@
 =--
 =--
 
-# Adhesive categories
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -30,11 +31,39 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
 1. (If $C$ is small) $C$ has pullbacks, and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[Grothendieck topos]] preserving pullbacks and pushouts of monomorphisms.
 
-1. $C$ has pullbacks, and pushouts of monomorphisms, and in any cubical diagram:
+1. {#ViaVanKampenColimits} $C$ has [[pullbacks]], and [[pushouts]] of [[monomorphisms]], and in any cubical [[diagram]] as follows, if (i) $X\to Y$ is a [[monomorphism]], (ii) the bottom square is a [[pushout]], and (iii) the left and back faces are [[pullbacks]], then the top face is a pushout if and only if the front and right face are pullbacks (in other words, pushouts of monomorphisms are *[[van Kampen colimits]]*):
 
-   ![cube](https://i.imgur.com/doD9CSD.png)
-
-   if $X\to Y$ is a monomorphism, the bottom square is a pushout, and the left and back faces are pullbacks, then the top face is a pushout if and only if the front and right face are pullbacks.  In other words, pushouts of monomorphisms are [[van Kampen colimits]].
+\begin{tikzcd}
+  X' 
+  \ar[rr]
+  \ar[dd]
+  \ar[dr]
+  && 
+  Z'
+  \ar[dr]
+  \ar[dd]
+  \\
+  & 
+  Y'
+  \ar[rr, crossing over]
+  && 
+  W'
+  \ar[dd]
+  \\
+  X 
+  \ar[rr]
+  \ar[dr]
+  &&
+  Z
+  \ar[dr]
+  \\
+  &
+  Y
+  \ar[rr] 
+  \ar[from=uu, crossing over]
+  &&
+  W
+\end{tikzcd}
 
 =--
 
