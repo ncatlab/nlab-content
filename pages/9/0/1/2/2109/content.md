@@ -148,7 +148,7 @@ $$\array{A & \overset{U_A}{\to} & A\\
   B & \underset{U_B}{\to} & B}
 $$
 are both equal to $U_f$.  And using the uniqueness of factorization through the universal squares, we can conclude moreover that the composites
-$$\array{A & \overset{U_A}{\to} & A & \overset{B(1,f)}{\to} & A\\
+$$\array{A & \overset{U_A}{\to} & A & \overset{B(1,f)}{\to} & B\\
   ^{id}\downarrow &\Downarrow & \downarrow^{f} & \Downarrow & \downarrow^{id}\\
   A & \underset{B(1,f)}{\to} & B & \underset{U_B}{\to} & B}
 \qquad\text{and}\qquad
