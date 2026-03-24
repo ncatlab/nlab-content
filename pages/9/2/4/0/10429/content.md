@@ -152,6 +152,8 @@ Indeed, the [[dynamics]] of the [[electrons]] in graphene is "$T I$"-symmetric, 
 
 * [[K-theory classification of topological phases of matter]]
 
+* [[bulk-boundary correspondence]]
+
 * [[unstable topological phases of matter]]
 
 * [[topological field theory]]
@@ -385,6 +387,7 @@ Via [[higher gauge theory|higher]] [[lattice gauge theory]]:
 * [Center for topological matter](https://sites.google.com/site/ctmsrc) (Korea)
 * [Microsoft Research Station Q](http://research.microsoft.com/en-us/labs/stationq) (KITP, Santa Barbara)
 
+
 ### Conference and seminar cycles
 
 * Markus Garst, Achim Rosch, [[Simon Trebst]]: *[Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)*
@@ -406,7 +409,5 @@ Via [[higher gauge theory|higher]] [[lattice gauge theory]]:
 
 [[!redirects topological matter]]
 
-[[!redirects bulk-boundary correspondence]]
-[[!redirects bulk-boundary correspondences]]
 
 
