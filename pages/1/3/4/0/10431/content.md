@@ -66,6 +66,8 @@ In experimental practice, topological insulators are often engineered by startin
 
 * [[Majorana zero mode]]
 
+* [[bulk-boundary correspondence]]
+
 ## References
 
 ### General
