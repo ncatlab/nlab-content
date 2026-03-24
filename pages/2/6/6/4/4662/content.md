@@ -29,6 +29,11 @@ On [[twisted differential K-theory]]:
 
 * [[Alan Carey]], [[Jouko Mickelsson]], [[Bai-Ling Wang]], _Differential Twisted K-theory and Applications_, Journal of Geometry and Physics, Volume 59, Issue 5, May 2009, Pages 632-653 ([arXiv:0708.3114](https://arxiv.org/abs/0708.3114), [doi:10.1016/j.geomphys.2009.02.002](https://doi.org/10.1016/j.geomphys.2009.02.002))
 
+On [[spectral triples]] and [[index theory]]:
+
+* [[Alan L. Carey]], John Philips, [[Adam Rennie]]: _Spectral Triples: Examples and Index Theory_, in Alan Carey (ed.) _Noncommutative Geometry and Physics, Renormalization, Motives, Index theory_, Lectures in Mathematics and Physics, European Mathematical Society (2011) *&lbrack;[doi:10.4171/008-1/5](https://doi.org/10.4171/008-1/5), [ems:esi/95/1859](https://ems.press/books/esi/95/1859), [pdf](https://rennieillawarramath.com/website-pdfs/BookChapters/2011CPRPrepub.pdf)&rbrack;
+
+
 On the [[bulk-edge correspondence]] for [[quantum Hall systems]] using [[Kasparov K-theory]]:
 
 * Chris Bourne, [[Alan L. Carey]], Adam Rennie: *The bulk-edge correspondence for the quantum Hall effect in Kasparov theory*, Lett Math Phys **105** (2015) 1253–1273 \[<a href="https://doi.org/10.1007/s11005-015-0781-y">doi:10.1007/s11005-015-0781-y</a>, [arXiv:1411.7527](https://arxiv.org/abs/1411.7527)\]
