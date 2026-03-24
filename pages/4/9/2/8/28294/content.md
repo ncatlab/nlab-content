@@ -111,11 +111,15 @@ Examples:
 
 Further discussion:
 
-* Chris Bourne, [[Alan L. Carey]], Adam Rennie: *The bulk-edge correspondence for the quantum Hall effect in Kasparov theory*, Lett Math Phys **105** (2015) 1253–1273 \[<a href="https://doi.org/10.1007/s11005-015-0781-y">doi:10.1007/s11005-015-0781-y</a>, [arXiv:1411.7527](https://arxiv.org/abs/1411.7527)\]
-  > (for [[quantum Hall systems]] using [[Kasparov K-theory]])
-
 
 * Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
+
+Via [[Kasparov K-theory]]:
+
+* [[Chris Bourne]], [[Alan L. Carey]], [[Adam Rennie]]: *The bulk-edge correspondence for the quantum Hall effect in Kasparov theory*, Lett Math Phys **105** (2015) 1253–1273 \[<a href="https://doi.org/10.1007/s11005-015-0781-y">doi:10.1007/s11005-015-0781-y</a>, [arXiv:1411.7527](https://arxiv.org/abs/1411.7527)\]
+  > (for [[quantum Hall systems]])
+
+* [[Chris Bourne]], Johannes Kellendonk, [[Adam Rennie]]: *The K-theoretic bulk-edge correspondence for topological insulators*,  Ann. Henri Poincaré 18 (2017) 1833–1866  \[<a href="https://doi.org/10.1007/s00023-016-0541-2">doi:10.1007/s00023-016-0541-2</a>, [arXiv:1604.02337](https://arxiv.org/abs/1604.02337)\]
 
 
 
