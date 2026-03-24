@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -112,6 +110,9 @@ Monographs:
 * Shun-Qing Shen, *Topological Insulators*, Springer (2012) &lbrack;[doi:10.1007/978-3-642-32858-9](https://link.springer.com/book/10.1007/978-3-642-32858-9)&rbrack;
 
 * [[B. Andrei Bernevig]], [[Taylor L. Hughes]]: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
+
+* [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
+  > (with focus on [[edge modes]] and the [[bulk-boundary correspondence]])
 
 * Panagiotis Kotetes: *Topological Insulators*, IOP Science (2019) &lbrack;[ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6)&rbrack;
 
