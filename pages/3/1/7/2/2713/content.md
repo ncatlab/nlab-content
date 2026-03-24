@@ -255,7 +255,7 @@ One variation uses [[von Neumann algebras]] instead of [[C-star algebras]].
 
 This goes back to ([Carey-Philips 98](#CareyPhilips98)) and 
 
-* Alan L Carey, John Phillips, Fyodor Sukochev, _On unbounded $p$-summable Fredholm modules_ ([arXiv:math/9908091](http://arxiv.org/abs/math/9908091))
+* Alan L. Carey, John Phillips, Fyodor Sukochev, _On unbounded $p$-summable Fredholm modules_ ([arXiv:math/9908091](http://arxiv.org/abs/math/9908091))
 
 See also
 
@@ -273,7 +273,7 @@ Relation to [[K-theory]] and [[KK-theory]] is discussed in
 
 * [[Bram Mesland]], _Spectral triples and KK-theory: A survey_ ([arXiv:1304.3802](http://arxiv.org/abs/1304.3802))
 
-* [[Alan Carey]], John Philips, Adam Rennie, _Spectral triples: examples and index theory_, in Alan Carey (ed.) _Noncommutative geometry and physics, Renormalization, Motives, Index theory_ (2011)
+* [[Alan L. Carey]], John Philips, [[Adam Rennie]]: _Spectral Triples: Examples and Index Theory_, in Alan Carey (ed.) _Noncommutative Geometry and Physics, Renormalization, Motives, Index theory_, Lectures in Mathematics and Physics, European Mathematical Society (2011) *&lbrack;[doi:10.4171/008-1/5](https://doi.org/10.4171/008-1/5), [ems:esi/95/1859](https://ems.press/books/esi/95/1859), [pdf](https://rennieillawarramath.com/website-pdfs/BookChapters/2011CPRPrepub.pdf)&rbrack;
 
 ### Examples
 
