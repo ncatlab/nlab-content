@@ -26,6 +26,9 @@ On the early history of [[string theory]]:
 
 * [[Andrea Cappelli]], Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
+On the [[bulk-edge correspondence]] in [[quantum Hall systems]]:
+
+* [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
 
 
 
