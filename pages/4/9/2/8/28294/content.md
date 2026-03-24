@@ -22,7 +22,9 @@
 =--
 
 
+
 \tableofcontents
+
 
 ## Idea
 
@@ -30,7 +32,7 @@ In [[solid state physics]], specifically in the discussion of [[topological phas
 
 The general physics intuition is that the nontrivial topological twist in the [[bulk]] must somehow "unwind" at the boundary in order to interpolate to the trivial topological situation beyond the boundary. That "unwinding" is exhibited by "[[edge mode]]" dynamics on the boundary, which hence corresponds to the [[bulk]] [[topological phase of matter|topological phase]].
 
-A general mathematical formalization of the correspondence is usually discussed in the context of the [[K-theory classification of topological phases of matter]]: Concretely, one considers a [[short exact sequence]] of [[C-star algebras|$C^\ast$-algebras]] (typically a Toeplitz extension, cf. [Arici & Mesland 2020](#AriciMesland2020))
+A general mathematical formalization of the correspondence goes back to [Kellendonk, Richter & Schulz-Baldes2002](#KellendonkRichterSchulz-Baldes2002), in the context of the [[K-theory classification of topological phases of matter]]: Here one considers a [[short exact sequence]] of [[C-star algebras|$C^\ast$-algebras]] (typically a Toeplitz extension, cf. [Arici & Mesland 2020](#AriciMesland2020))
 
 \[
   \label{SESOfCStarAlgebras}
@@ -46,7 +48,7 @@ A general mathematical formalization of the correspondence is usually discussed 
   \mathrlap{\,,}
 \]
 
-whose entries are meant to reflect (cf. [Prodan & Schulz-Baldes 2016 §3](#ProdanSchulz-Baldes2016)), respectively the ([[noncommutative geometry|noncommutative]]) [[geometry]] of the bulk ($A_{blk}$) and the boundary ($A_{bdr}$) inside the full bulk-boundary system ($A_{full}$). Then in the induced [[long exact sequence]] in [[operator K-theory]] (called the *Pimsner–Voiculescu exact sequence* when (eq:SESOfCStarAlgebras) is a Toeptlitz extension)
+whose entries are meant to reflect (cf. [Prodan & Schulz-Baldes 2016 §3](#ProdanSchulz-Baldes2016)), respectively the ([[noncommutative geometry|noncommutative]]) [[geometry]] of the bulk ($A_{blk}$) and the boundary ($A_{bdr}$) inside the full bulk-boundary system ($A_{full}$). Then in the induced [[long exact sequence]] in [[operator K-theory]] (discussed by  [Pimsner & Voiculescu 1980](#PimsnerVoiculescu1980) when (eq:SESOfCStarAlgebras) is a Toeptlitz extension)
 
 $$
   \cdots
@@ -107,11 +109,17 @@ More on the [[C-star algebra|$C^\ast$-algebras]] involved:
 
 Original discussion for [[integer quantum Hall systems]]:
 
-* [[Johannes Kellendonk]], Thomas Richter, [[Hermann Schulz-Baldes]]: *Edge current channels and Chern numbers in the integer quantum Hall effect*, Rev. Math. Phys. **14** 1 (2002) 87–119 \[<a href="https://doi.org/10.1142/S0129055X02001107">doi:10.1142/S0129055X02001107</a>\] 
+* {#KellendonkRichterSchulz-Baldes2002} [[Johannes Kellendonk]], Thomas Richter, [[Hermann Schulz-Baldes]]: *Edge current channels and Chern numbers in the integer quantum Hall effect*, Rev. Math. Phys. **14** 1 (2002) 87–119 \[<a href="https://doi.org/10.1142/S0129055X02001107">doi:10.1142/S0129055X02001107</a>\] 
 
 * [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Quantization of edge currents for continuous magnetic operators*, J. Funct. Anal. **209** (2004) 388-413 \[<a href="https://doi.org/10.1016/S0022-1236(03)00174-5">doi:10.1016/S0022-1236(03)00174-5</a>, [arXiv:math-ph/0405021](https://arxiv.org/abs/math-ph/0405021)\]
 
 * [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Boundary maps for $C^\ast$-crossed products with $\mathbb{R}$ with an application to the quantum Hall effect*, Commun. Math. Phys. **249** (2004) 611-637 \[<a href="https://doi.org/10.1007/s00220-004-1122-7">doi:10.1007/s00220-004-1122-7</a>, [arXiv:math-ph/0405022](https://arxiv.org/abs/math-ph/0405022)\]
+
+using:
+
+* {#PimsnerVoiculescu1980} M. Pimsner and D. Voiculescu: *Exact sequences for K-groups of certain cross-products of $C^\ast$-algebras*, J. Op. Theory **4** (1980) 93–118 &lbrack;[pdf](https://www.theta.ro/jot/archive/1980-004-001/1980-004-001-005.pdf), [[PimsnerVoiculescu-LES.pdf:file]]&rbrack;
+
+Further discussion for [[quantum Hall systems]]:
 
 * [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
 
