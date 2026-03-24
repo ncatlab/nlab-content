@@ -97,7 +97,7 @@ On [[cobordism theory]] of [[manifolds with corners]]:
 
 * {#Genauer12} Josh Genauer, _Cobordism categories of manifolds with corners_, Transactions of the American Mathematical Society Vol. 364, No. 1 (2012), pp. 519-550 ([arXiv:0810.0581](https://arxiv.org/abs/0810.0581), [jstor:41407770](https://www.jstor.org/stable/41407770), [doi:10.1090/S0002-9947-2011-05474-7](https://doi.org/10.1090/S0002-9947-2011-05474-7))
 
-Concerning [[quantum field theory]] and particularly ([[quantum gravity|quantum]])[[gravity]] on manifolds with corners (cf. *[[extended field theory]]*):
+Concerning [[quantum field theory]] and particularly ([[quantum gravity|quantum]]) [[gravity]] on manifolds with corners (cf. *[[extended field theory]]*):
 
 * {#CanepaCattaneo24} Giovanni Canepa, [[Alberto S. Cattaneo]], *Corner Structure of Four-Dimensional General Relativity in the Coframe Formalism*, Annales Henri Poincaré **25** (2024) 2585-2639 &lbrack;[arXiv:2202.08684](https://arxiv.org/abs/2202.08684), [doi:10.1007/s00023-023-01360-8](https://doi.org/10.1007/s00023-023-01360-8)&rbrack;
 
@@ -105,7 +105,8 @@ Concerning [[quantum field theory]] and particularly ([[quantum gravity|quantum]
 
 * Luca Ciambelli, Jerzy Kowalski-Glikman, Ludovic Varrin. *Quantum Corner Symmetry: Representations and Gluing* &lbrack;[arXiv:2406.07101](https://arxiv.org/abs/2406.07101)&rbrack;
 
-and references therein.
+* Ludovic Varrin: *At the Corner of Quantum and Gravity* &lbrack;[arXiv:2603.21941](https://arxiv.org/abs/2603.21941)&rbrack;
+
 
 
 [[!redirects manifold with boundaries]]
