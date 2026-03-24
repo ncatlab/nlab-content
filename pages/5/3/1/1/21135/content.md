@@ -71,6 +71,11 @@ Review:
 
 * {#vanNigtevecht19} [[Sven van Nigtevecht]], *Topological phases and K-theory*, Amsterdam (2019) $[$[web](https://svann.science/publication/bachelors), [pdf](https://webspace.science.uu.nl/~0554804/publications/bachelor.pdf)\]
 
+With focus on [[edge modes]] and the [[bulk-boundary correspondence]] and in the presence of disorder:
+
+* [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-29351-6">doi:10.1007/978-3-319-29351-6</a>\]
+
+
 Generalization of the K-theory classification of free topological pgases to include interacting [[topological order]]:
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
