@@ -28,6 +28,7 @@ In [[physics]] on [[manifolds with boundary]] or with [[domain walls]], [[branes
 
 [[!include field theory with boundaries and defects - table]]
 
+* [[bulk-boundary correspondence]]
 
 [[!redirects bulks]]
 
