@@ -23,6 +23,9 @@ In [[solid state physics]], *edge modes* are excitations (of [[electrons]] or [[
 
 A notable example are edge modes of [[topological insulators]]: As their name suggests, these [[topological phases of matter]] are in fact [[insulator|insulating]] in their [[bulk]], but on their [[boundary]] they behave like [[conductors]]/[[metals]], due to "edge modes" which may carry [[electric current]].
 
+## Related concepts
+
+* [[bulk-boundary correspondence]]
 
 ## References
  {#References}
