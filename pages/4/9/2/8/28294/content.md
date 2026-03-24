@@ -105,13 +105,20 @@ More on the [[C-star algebra|$C^\ast$-algebras]] involved:
 
 * {#AriciMesland2020} Francesca Arici, [[Bram Mesland]]: *Toeplitz extensions in noncommutative topology and mathematical physics*, in: *Geometric Methods in Physics XXXVIII*, Trends in Mathematics, Birkhäuser (2020) \[<a href="https://doi.org/10.1007/978-3-030-53305-2_1">doi:10.1007/978-3-030-53305-2_1</a>, [arXiv:1911.05823](https://arxiv.org/abs/1911.05823)\]
 
-Examples:
+Original discussion for [[integer quantum Hall systems]]:
 
-* Jacob Shapiro: *The Bulk-Edge Correspondence in Three Simple Cases*, Reviews in Mathematical Physics **32** 03 (2020) 2030003 (2020) \[<a href="https://doi.org/10.1142/S0129055X20300034">doi:10.1142/S0129055X20300034</a>, [arXiv:1710.10649](https://arxiv.org/abs/1710.10649)\]
+* [[Johannes Kellendonk]], Thomas Richter, [[Hermann Schulz-Baldes]]: *Edge current channels and Chern numbers in the integer quantum Hall effect*, Rev. Math. Phys. **14** 1 (2002) 87–119 \[<a href="https://doi.org/10.1142/S0129055X02001107">doi:10.1142/S0129055X02001107</a>\] 
 
-For [[quantum Hall systems]]:
+* [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Quantization of edge currents for continuous magnetic operators*, J. Funct. Anal. **209** (2004) 388-413 \[<a href="https://doi.org/10.1016/S0022-1236(03)00174-5">doi:10.1016/S0022-1236(03)00174-5</a>, [arXiv:math-ph/0405021](https://arxiv.org/abs/math-ph/0405021)\]
+
+* [[Johannes Kellendonk]], [[Hermann Schulz-Baldes]]: *Boundary maps for $C^\ast$-crossed products with $\mathbb{R}$ with an application to the quantum Hall effect*, Commun. Math. Phys. **249** (2004) 611-637 \[<a href="https://doi.org/10.1007/s00220-004-1122-7">doi:10.1007/s00220-004-1122-7</a>, [arXiv:math-ph/0405022](https://arxiv.org/abs/math-ph/0405022)\]
 
 * [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
+
+
+Further examples:
+
+* Jacob Shapiro: *The Bulk-Edge Correspondence in Three Simple Cases*, Reviews in Mathematical Physics **32** 03 (2020) 2030003 (2020) \[<a href="https://doi.org/10.1142/S0129055X20300034">doi:10.1142/S0129055X20300034</a>, [arXiv:1710.10649](https://arxiv.org/abs/1710.10649)\]
 
 
 Via [[Kasparov K-theory]]:
