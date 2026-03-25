@@ -1,5 +1,11 @@
 
+Roman Wladimir Jackiw
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Roman_Jackiw)
+
+* [inSpire page](https://inspirehep.net/authors/1004658)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Roman-Jackiw-2051261629)
 
 On Jackiw's work on [[Chern-Simons theory]]:
 
@@ -14,6 +20,9 @@ Introducing [[Maxwell-Chern-Simons theory]]:
 
 * [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
 
+Introducing what came to be called [[Floreanini-Jackiw theory]] for [[chiral bosons]]:
+
+* {#FloreaniniJackiw1987} [[Roberto Floreanini]], [[Roman Jackiw]]: *Self-dual fields as charge-density solitons*, Phys. Rev. Lett. **59** (1987) 1873 &lbrack;[doi:10.1103/PhysRevLett.59.1873](https://doi.org/10.1103/PhysRevLett.59.1873)&rbrack;
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
@@ -28,5 +37,7 @@ On [[Jackiw-Teitelboim gravity]]:
 
 * {#Jackiw85} [[Roman Jackiw]], _Lower dimensional gravity_, Nuclear Physics B
 Volume 252, 1985, Pages 343-356 (<a href="https://doi.org/10.1016/0550-3213(85)90448-1">doi:10.1016/0550-3213(85)90448-1</a>)
+
+[[!redirects Roman W. Jackiw]]
 
 category: people
