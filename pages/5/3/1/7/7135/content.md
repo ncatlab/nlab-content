@@ -1,9 +1,11 @@
 
-Paul K. Townsend is professor for theoretical [[physics]] at Cambridge.
+Paul Kinglsley Townsend is professor for [[theoretical physics]] at Cambridge.
 
 * [institute page](http://www.damtp.cam.ac.uk/people/p.k.townsend)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=103859)
 
 * [inSpire page](https://inspirehep.net/authors/985767)
 
@@ -141,7 +143,9 @@ On [[supersymmetry and division algebras]], the corresponding [twistor space](tw
 
 * [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
 
+A manifestly [[Lorentz group]]-[[invariant]] reformulation of [[Floreanini-Jackiw theory]]:
 
+* {#Townsend202} [[Paul K. Townsend]]: *Manifestly Lorentz invariant chiral boson action*, Phys. Rev. Lett. **124** (2020) 101604 \[<a href="https://doi.org/10.1103/PhysRevLett.124.101604">doi:10.1103/PhysRevLett.124.101604</a>, [arXiv:1912.04773](https://arxiv.org/abs/1912.04773)\]
 
 
 
