@@ -503,7 +503,7 @@ Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive act
 \end{example}
 
 
-### Coproduct compeletion of extensive categories
+### Coproduct completion of extensive categories
 
 \begin{example}\label{CoproductCompletionOfExtensiveCategories}
 **(coproduct completion of extensive categories)**
