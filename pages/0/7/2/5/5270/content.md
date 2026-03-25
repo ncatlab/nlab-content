@@ -46,6 +46,8 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
 
+* Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
+
 
 On [[non-perturbative quantum field theory]]:
 
