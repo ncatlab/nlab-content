@@ -10,28 +10,27 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea 
+ {#Idea}
 
-A _symmetric monoidal category_ is a category with a product operation -- a [[monoidal category]] -- for which the product is _as commutative as possible_.
+A _symmetric monoidal category_ is a [[category]] carrying with a [[tensor product]] operation $\otimes$ (hence a *[[monoidal category]]*), and equipped with a notion of swapping the order of factors in the tensor product (hence a *[[braided monoidal category]]*), for which the [[tensor product]] $\otimes$ is completely [[invariant]] under this exchange, hence for which the tensor product is "as [[commutativity|commutative]] as possible".
 
 The point is that there are different degrees to which higher categorical products may be commutative. While a bare [[monoid]] is either commutative or not, a [[monoidal category]] may be a [[braided monoidal category]] -- which already means that the order of products may be reversed up to some [[isomorphism]] -- without being _symmetric_ monoidal -- which means that changing the order of a product twice, from $a \otimes b$ to $b \otimes a$ back to $a \otimes b$, indeed does yield a result [[equality|equal]] to the original.
 
-For higher monoidal categories there are accordingly ever more shades of the notion of "commutativity" of the monoidal product (also known as [[tensor product]], often denoted by the infix operator ⊗). This is described in detail at [[k-tuply monoidal n-category]]. 
+For higher monoidal categories there are accordingly ever more shades of the notion of "commutativity" of the tensor product. This is described further at *[[k-tuply monoidal n-category|$k$-tuply monoidal $n$-category]]. 
 
 In general, the term _symmetric monoidal_ is used for the maximally commutative case. See for instance [[symmetric monoidal (∞,1)-category]]. Notably, a symmetric monoidal [[∞-groupoid]] is, under the [[homotopy hypothesis]], the same as a [[spectrum|connective spectrum]].
 
 A symmetric monoidal category is a special case of the notion of [[symmetric pseudomonoid]] in a [[sylleptic monoidal 2-category]].
 
+
 ## Definition
 
 +-- {: .num_defn} 
 ###### Definition
-
 
 A **symmetric monoidal category** is a [[braided monoidal category]] for which the [[braiding]] 
 
