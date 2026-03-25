@@ -979,6 +979,8 @@ Via the [[Reshetikhin-Turaev construction]]:
 
 * Philippe Mathieu, [[Frank Thuillier]]: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
 
+* [[Michail Tagaris]], [[Frank Thuillier]]: *Reshetikhin-Turaev construction and $\mathrm{U}(1)^n$ Chern-Simons partition function* &lbrack;[arXiv:2507.08587](https://arxiv.org/abs/2507.08587)&rbrack;
+
 
 On abelian Chern-Simons theory via ([[Riemann theta function|Riemann's]]) [[theta functions]] and the [[representation theory]] of the [[integer Heisenberg group]]:
 
