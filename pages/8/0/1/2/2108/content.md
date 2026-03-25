@@ -1333,6 +1333,8 @@ Relation to [[path integral quantization]] is discussed in
 
 * Laurent Charles, _Feynman path integral and Toeplitz Quantization_ ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
 
+* [[Patrick Iglesias-Zemmour]], _Geometric Quantization by Paths_ ([Part-I: The simply connected case](https://arxiv.org/abs/2508.11337)) ([Part-II: The general case](https://arxiv.org/abs/2512.24627)) ([Part-III: The metaplectic anomaly](https://arxiv.org/abs/2601.23259))
+
 
 ### Geometric BRST quantization
  {#ReferencesBRST}
