@@ -246,7 +246,7 @@ If we modify Def. \ref{CategoryWithFamilies} by requiring only that the functors
 1. a morphism $Tm \to Ty$ in the category of [[presheaves]] on $C$ which is a [[representable morphism]].
 =--
 
-The category $C$ models the category of contexts and substitutions, and the morphism $Tm \to Ty$ models the bundle of (context-dependent) terms over (context-dependent) types. The representability models the extension of a context with a new typed variable.
+The category $C$ models the category of contexts and substitutions (this name being due to ([Taylor 1999](#Taylor99))), and the morphism $Tm \to Ty$ models the bundle of (context-dependent) terms over (context-dependent) types. The representability models the extension of a context with a new typed variable.
 
 The condition that $Tm \to Ty$ is a representable morphism in presheaves can be reformulated in terms of adjoints as follows: $Tm \to Ty$ is representable just if the associated functor ${\int Tm} \to {\int Ty}$ has a right adjoint.  Thus a natural model can be equivalently described as a category $C$ equipped with a natural transformation of presheaves $Tm \to Ty$ for which ${\int Tm} \to {\int Ty}$ has a right adjoint. 
 
