@@ -56,6 +56,7 @@ Both of these results (faithfulness and self-duality) depend on the fact that we
 
 It also follows that $U$ is a [[Grothendieck fibration]] and opfibration.
 
+
 ### Amnestic version
 
 Since initial lifts have a universal property, they are unique up to unique isomorphism.  However, it is traditional in some literature to ask that they be literally unique (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]].  A drawback (from an [[nPOV]]) is that this condition violates the [[principle of equivalence]], and arguably doesn't add anything mathematically important.
@@ -94,13 +95,13 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
    *  the category of [[uniform spaces]] or of [[Cauchy spaces]],
    *  lots more in this vein.
 
-*  In contrast, the category of [[locales]] is *not* topological over $Set$, apparently not even the category of *spatial* locales (equivalent to the category of [[sober spaces]]), essentially because soberification of a topological space may not preserve the underlying set.
+*  In contrast, the category of [[locales]] is *not* topological over $Set$; not even the category of *spatial* locales (equivalent to the category of [[sober spaces]]) is topological, essentially because soberification of a topological space may not preserve the underlying set.
 
 *  Also, the category [[Diff]] of [[smooth manifolds]] is not topological but most categories of [[generalized smooth space]]s are.
 
 *  Outside of topology, the category of [[measurable spaces]] is topological over $Set$.
 
-* The category [[PreOrd]] of [[preordered sets]] is topological over $Set$. Given a family of preordered sets $\{(S_i, \prec_i)\}$ and a family of $\{f_i \colon X \to S_i\}$, the induced preorder is $(\leq) \subseteq X^2 = \{(x,x') \mid \forall i \cdot f_i(x) \prec_i f_i(x') \}$.
+* The category [[PreOrd]] of [[preordered sets]] (equivalent to the category of [[Alexandroff topology|Alexandroff spaces]]) is topological over $Set$.  Given a family of preordered sets $\{(S_i, \prec_i)\}$ and a family of $\{f_i \colon X \to S_i\}$, the induced preorder is $(\leq) \subseteq X^2 = \{(x,x') \mid \forall i \cdot f_i(x) \prec_i f_i(x') \}$.
 
 *  The category of [[topological groups]] is topological over [[Grp]], the category of [[topological vector spaces]] is topological over $\mathbb{R}$-[[Vect]], etc.
 
@@ -125,7 +126,8 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
 
 *  If $D$ is [[concrete category|concrete]], then so is $C$.  More generally, if $D$ has a [[generator]], then $C$ is concrete over $D$.
 
-*  In particular, if $D$ is [[Set]], then $C$ is a concrete category that is complete, cocomplete, well powered, and well copowered.
+*  In particular, if $D$ is [[Set]], then $C$ is a concrete category that is complete, cocomplete, well powered, and well copowered and has a factorization structure for sinks.
+
 
 ## Functors
 
@@ -148,9 +150,11 @@ U(T)                             & \overset{\sim}\underset{g}\rightarrow & X    
 
 *  If $X$ is a [[regular monomorphism|regular]] [[subobject|subalgebra]] of some $U(S)$, then the inclusion homomorphism makes $X$ into a _[[subspace]]_ of $S$, which is also a subobject in $C$.  Every regular subobject of $S$ is of this form; note however that there may be nonregular subobjects in $C$ even if all subobjects in $D$ are regular.
 
+
 ## Familiarly fibrations
 
 The theory of topological functors can be developed along the lines of Grothendieck's theory of fibrations, where  _cartesian morphisms_  are replaced by  _cartesian families_. In this way just as by definition  "A functor is a _fibration_ if it creates cartesian morphisms and cartesian morphism compose", there is the definition "A functor is _topological_  if it creates cartesian families and cartesian families compose". 
+
 
 ## References
 
@@ -168,6 +172,7 @@ The theory of topological functors can be developed along the lines of Grothendi
 [arXiv](https://arxiv.org/abs/math/0611701) (2006)
 
 * J. Martin Harvey, _Topological functors from factorization_, Categorical Topology: Proceedings of the International Conference, Berlin, August 27th to September 2nd, 1978. Springer Berlin Heidelberg, 1979.
+
 
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
