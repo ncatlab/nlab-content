@@ -227,7 +227,7 @@ The archetypical example of [Drinfeld centers](#Definition) is that of the of th
 
 This is also known as the representation category of the *[[Drinfeld double]]* of $G$. 
 
-We spell out the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which, by other means, were given only recently in [Li 2026](Drinfeld+double#Li2026)).
+We spell out (following [SS26 §A.3](#SS26)) the characterization of the [[simple objects]] (Prop. \ref{SimpleObjectsInDrinfeldCenterOfGGradedVectorSpaces}, which is classical, cf. [EGNO 2015 Example 8.5.4. in](#EGNO15)) and also the fusion coefficients (Prop. \ref{FusionCoefficientInDrinfeldCenterOfGVectorSpaces}, which, by other means, were given only recently in [Li 2026](Drinfeld+double#Li2026)).
 
 
 #### The fusion category
@@ -655,6 +655,7 @@ The fusion product of a pair of simple objects $\big({([g_1],\rho_1), ([g_2],\rh
   \mathrlap{\,.}
 \]
 \end{proposition}
+(cf. [SS26 Prop. A.8](#SS26))
 \begin{proof}
   By Lem. \ref{FusionViaPullPush} we have that the fusion product is given by pull-push through
   $$
@@ -762,6 +763,10 @@ In relation to [[spectra of tensor triangulated categories]]:
 Relation to [[Frobenius monoidal functors]]:
 
 * Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* &lbrack;[arXiv:2410.08702](https://arxiv.org/abs/2410.08702)&rbrack;
+
+Explicit derivation of the [[fusion rules]] in the Drinfeld center of $Vec_G$:
+
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: §A.3.3 in: *[[schreiber:Drinfeld Center as Local Bloch Monodromy|Drinfeld Center as Quantum State Monodromy over Bloch Hamiltonians around Defects]]* &lbrack;[arXiv:2603.22029](https://arxiv.org/abs/2603.22029)&rbrack;
 
 
 
