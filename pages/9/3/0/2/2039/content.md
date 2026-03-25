@@ -50,7 +50,7 @@ whose [[categorical homotopy groups in an (infinity,1)-topos|categorical homotop
 Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}^{Orb_G^{op}}$ with coefficients in $K(n,A)$:
 
 $$
-  H_G^n(X,A) \simeq \pi_0 \mathbf{H}^{Orb_G^{op}}(X,A)
+  H_G^n(X,A) \simeq \pi_0 \mathbf{H}^{Orb_G^{op}}(X,K(n,A))
 $$
 
 (see the general discussion at _[[cohomology]]_).
