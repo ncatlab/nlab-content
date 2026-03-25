@@ -740,6 +740,14 @@ This largely concludes the traditional justification for the effective abelian C
 
 \linebreak
 
+**Edge modes.**
+
+In correspondence of how the [[effective field theory]] for [[fractional quantum Hall systems]] in the [[bulk]] is abelian Chern-Simons theory, so the corresponding [[effective field theory]] for the FQH [[edge modes]] is [[Floreanini-Jackiw theory]] ([Wen 1992 §2.5](#Wen92), [1995 §3.3](#Wen95)).
+
+
+
+\linebreak
+
 
 #### Hierarchical K-matrix formalism
  {#HierarchicalKMatrixFormalism}
