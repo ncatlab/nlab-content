@@ -140,7 +140,9 @@ Discussion of modal operators explicitly in [[dependent type theory]] (and with 
 
 * [[Daniel Gratzer]], [[G. Alex Kavvos]], [[Andreas Nuyts]], [[Lars Birkedal]]: _Multimodal Dependent Type Theory_, Logical Methods in Computer Science **17** 3 (2021) lmcs:7713 &lbrack;[arXiv:2011.15021](https://arxiv.org/abs/2011.15021), <a href="https://doi.org/10.46298/lmcs-17(3:11)2021">doi:10.46298/lmcs-17(3:11)2021</a>&rbrack;
 
-* [[Mike Shulman]], _Semantics of multimodal adjoint type theory_ ([arXiv:2303.02572](https://arxiv.org/abs/2303.02572)) 
+* [[Daniel Gratzer]], [[Evan Cavallo]], [[G. A. Kavvos]], [[Adrien Guatto]], and [[Lars Birkedal]]. 2022. _Modalities and Parametric Adjoints_. ACM Trans. Comput. Logic 23, 3, Article 18 (July 2022), 29 pages. [doi](https://doi.org/10.1145/3514241)
+
+* [[Mike Shulman]], _Semantics of multimodal adjoint type theory_, ENTICS 2023, [doi](https://doi.org/10.46298/entics.12300), [arXiv:2303.02572](https://arxiv.org/abs/2303.02572) 
 
 * [[Daniel Gratzer]], *Syntax and semantics of modal type theory*, PhD Aarhus (2023) &lbrack;[pdf](https://jozefg.github.io/papers/phd-thesis.pdf)&rbrack;
 
