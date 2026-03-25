@@ -23,6 +23,7 @@ and for [[product group|product]] [[gauge group]] $U(1)^n$:
 
 * Han-Miru Kim, Philippe Mathieu, [[Michail Tagaris]], [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality*, J. Math. Phys. **66** 042301 (2025) &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734), [doi:10.1063/5.023925](https://doi.org/10.1063/5.023925)&rbrack;
 
+* [[Michail Tagaris]], [[Frank Thuillier]]: *Reshetikhin-Turaev construction and $\mathrm{U}(1)^n$ Chern-Simons partition function* &lbrack;[arXiv:2507.08587](https://arxiv.org/abs/2507.08587)&rbrack;
 
 * [[Michail Tagaris]], [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
 
