@@ -23,7 +23,7 @@ On relation to [[octahedron recurrence]]
 
 * [[Israel Gelfand]], Sergei Gelfand, [[Vladimir Retakh]], Robert Lee Wilson, _Quasideterminants_, Advances in Mathematics 193 (2005) 56--141 [doi](https://doi.org/10.1016/j.aim.2004.03.018)
 
-* [[Doron Zeilberger]], _Dodgson's determinant-evaluation rule proved by two-timing men and women_, Electron. J. Comb. 4 (2), art. R22 [doi][https://doi.org/10.37236/1337)
+* [[Doron Zeilberger]], _Dodgson's determinant-evaluation rule proved by two-timing men and women_, Electron. J. Comb. 4 (2), art. R22 [doi]([https://doi.org/10.37236/1337)
 
 * MathOverflow: [geometric-interpretation-of-the-desnanot-jacobi-identity](https://mathoverflow.net/questions/203102/geometric-interpretation-of-the-desnanot-jacobi-identity)
 
