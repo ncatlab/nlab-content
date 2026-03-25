@@ -15,6 +15,10 @@ On the [[action]] of [[diffeomorphisms]] on [[spin structures]]:
 
 * L. Dąbrowski, [[Roberto Percacci]]: *Spinors and diffeomorphisms*,  Comm. Math. Phys. **106** 4 (1986) 691-704  &lbrack;[euclid:cmp/1104115859](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-4/Spinors-and-diffeomorphisms/cmp/1104115859.full)&rbrack;
 
+Early discussion of [[D=5 Chern-Simons theory]]:
+
+* [[Roberto Floreanini]], [[Roberto Percacci]]: *Higher dimensional abelian Chern-Simons theory*, Physics Letters B **224** 3 (1989) 29 \[<a href="https://doi.org/10.1016/0370-2693(89)91232-X">doi:10.1016/0370-2693(89)91232-X</a>, [inSpire:280512](https://inspirehep.net/literature/280512)\]
+
 
 On [[asymptotic safety]]:
 
