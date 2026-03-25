@@ -1,6 +1,8 @@
 Paul Taylor works on the [[foundations]] of mathematics and [[computer science]].
 
-*  [home page](http://www.paultaylor.eu/)
+* [personal page](http://www.paultaylor.eu/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=71404)
 
 
 ## Selected writings
