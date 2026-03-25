@@ -15,5 +15,12 @@ On [[braided monoidal category|braided]] [[fusion categories]]:
 
 * {#DrinfeldGelakiNikshychOstrik10} [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
 
+On [[fusion 2-categories]]:
+
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
+
+
+
+
 
 category: people
