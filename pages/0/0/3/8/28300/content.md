@@ -1,0 +1,20 @@
+
+
+* [inSpire page](https://inspirehep.net/authors/1009800)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/R-Floreanini-2045846943)
+
+
+## Selected writings
+
+Introducing what came to be called [[Floreanini-Jackiw theory]] for the [[chiral boson]]:
+
+* {#FloreaniniJackiw1987} [[Roberto Floreanini]], [[Roman Jackiw]]: *Self-dual fields as charge-density solitons*, Phys. Rev. Lett. **59** (1987) 1873 &lbrack;[doi:10.1103/PhysRevLett.59.1873](https://doi.org/10.1103/PhysRevLett.59.1873)&rbrack;
+
+Early discussion of [[D=5 Chern-Simons theory]]:
+
+* [[Roberto Floreanini]], [[Roberto Percacci]]: *Higher dimensional abelian Chern-Simons theory*, Physics Letters B **224** 3 (1989) 29 \[<a href="https://doi.org/10.1016/0370-2693(89)91232-X">doi:10.1016/0370-2693(89)91232-X</a>, [inSpire:280512](https://inspirehep.net/literature/280512)\]
+
+
+
+category: people
