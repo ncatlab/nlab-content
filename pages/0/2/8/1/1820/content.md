@@ -654,6 +654,11 @@ See also
 
 * {#Low14} [[Zhen Lin Low]], _The heart of a combinatorial model category_, Theory and Applications of Categories, Vol. 31, 2016, No. 2, pp 31-62 ([arXiv:1402.6659](http://arxiv.org/abs/1402.6659))
 
+On the cade of [[monoidal model category|monoidal]] combinatorial model categories:
+
+* Kensuke Arakawa: *On the equivalence of two approaches to multiplicative homotopy theories* &lbrack;[arXiv:2603.23018](https://arxiv.org/abs/2603.23018)&rbrack;
+
+
 [[!redirects Smith's theorem]]
 [[!redirects Smith theorem]]
 [[!redirects Smith's theorem]]
