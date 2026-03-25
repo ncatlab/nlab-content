@@ -86,7 +86,7 @@ For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Sim
 
 * see [there](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE).
 
-More on [[edge modes]] via the abelian [[WZW model]] [[chiral boson]] on the [[boundary field theory|boundary]] of abelian Chern-Simons theory:
+More on [[edge modes]] via the abelian [[WZW model]]/[[Floreanini-Jackiw theory]] [[chiral boson]] on the [[boundary field theory|boundary]] of [[abelian Chern-Simons theory]]:
 
 * {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
 
@@ -116,6 +116,8 @@ Amplification of the [K-matrix formalism](abelian+Chern-Simons+theory#Hierarchic
 Further developments:
 
 * Dmitriy Belov, [[Gregory W. Moore]], §7 of: *Classification of abelian spin Chern-Simons theories* \[<a href="https://arxiv.org/abs/hep-th/0505235">arXiv:hep-th/0505235</a>\]
+
+* Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
 
 * Christian Fräßdorf: *Abelian Chern-Simons Theory for the Fractional Quantum Hall Effect in Graphene*, Phys. Rev. B **97** 115123 (2018) \[<a href="https://doi.org/10.1103/PhysRevB.97.115123">doi:10.1103/PhysRevB.97.115123</a>, [arXiv:1712.03595](https://arxiv.org/abs/1712.03595)\]
 
