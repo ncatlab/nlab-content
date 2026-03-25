@@ -5,129 +5,159 @@
 
 ***
 
-\begin{tikzcd}
-  X' 
-  \ar[rr]
-  \ar[dd]
-  \ar[dr]
-  && 
-  Z'
-  \ar[dr]
-  \ar[dd]
-  \\
-  & 
-  Y'
-  \ar[rr, crossing over]
-  && 
-  W'
-  \ar[dd]
-  \\
-  X 
-  \ar[rr]
-  \ar[dr]
-  &&
-  Z
-  \ar[dr]
-  \\
-  &
-  Y
-  \ar[rr] 
-  \ar[from=uu, crossing over]
-  &&
-  W
-\end{tikzcd}
+\tableofcontents
 
-\linebreak
 
-**Bulk-Boundary correspondence**
+## Idea
 
-In [[solid state physics]], specifically in the discussion of [[topological phases of matter]], the *bulk-boundary correspondence* (or *bulk-edge correspondence*, due to its historical roots in 2D systems such as exhibiting the [[quantum Hall effect]]) states broadly that for [[topological phase of matter|topological systems]] on a [[manifold with boundary|domain with boundary]] the topological [[bulk]] [[quantum observables|observables]] correspond to certain [[boundary]] [[quantum observables|observables]] (*[[edge modes]]*).
+The *Floreanini-Jackiw Lagrangian* (FL, due to [Floreanini & Jackiw 1987](#FloreaniniJackiw1987)) is a [[Lagrangian density]] for a [[scalar field]] in 2-dimensions whose [[equations of motion]] single out (essentially) just the "right moving" ("chiral") half of solutions of the usual [[relativistic field theory|relativistic]] [[wave equation]]. As such, the FJ-Lagrangian density is an approach, in low dimension, to the notoriously subtle problem of finding [[Lagrangian densities]] for [[self-dual higher gauge fields]].
 
-The general physics intuition is that the nontrivial topological twist in the [[bulk]] must somehow "unwind" at the boundary in order to interpolate to the trivial topological situation beyond the boundary. That "unwinding" is exhibited by "[[edge mode]]" dynamics on the boundary, which hence corresponds to the bulk topological phase.
+The FL-Lagrangian arises also as the [[effective field theory|effective]] [[boundary field theory]] of [[abelian Chern-Simons theory]] ([Wen 1992 §2.5](#Wen1992), [1995 §3.3](#Wen1995), cf. [Tong 2016 §6.1.2](#Tong2016)). This realizes the FL theory as the abelian case of [[Wess-Zumino-Witten theory]] (cf. [[CS/WZW correspondence]]) and witnesses it as the [[effective field theory]] of [[edge modes]] in [[fractional quantum Hall systems]].
 
-A general mathematical formalization of the correspondence is usually discussed in the context of the [[K-theory classification of topological phases of matter]]: Concretely, one considers a [[short exact sequence]] of [[C-star algebras|$C^\ast$-algebras]] (typically a Toeplitz extension, cf. [Arici & Mesland 2020](#AriciMesland2020))
+## From abelian Chern-Simons theory
+
+The [[Lagrangian density]] of [[abelian Chern-Simons theory]] with [[gauge field]] [[differential 1-form|1-form]] $a$ is 
 
 \[
-  \label{SESOfCStarAlgebras}
-  0 
-    \to 
-  A_{bdr}
-    \longrightarrow
-  A_{full}
-    \longrightarrow
-  A_{blk}
-    \to 
-  0
+  \propto \tfrac{1}{2} a \wedge \mathrm{d}a
+  \mathrlap{\,.}
+\]
+
+Setting
+
+\[
+  a = \mathrm{d}\phi
+\]
+
+and on the 3D [[spacetime]] [[manifold with boundary|with boundary]] $\mathbb{R}^{0,1} \times \mathbb{R}^2_{y \leq 0}$ gives, by [[Stokes' theorem]], the [[boundary field theory|boundary]] Lagrangian density for $\phi$ ([Wen 1992 (2.62)](#Wen1992))
+
+\[
+  L(\phi) 
+    = 
+  \tfrac{1}{2} (\partial_x \phi) (\partial_{t'}\phi) 
+\]
+
+for $t'$ and $x$ two [[coordinate functions]] on the 2D [[spacetime]] $\mathbb{R}^2$. Understanding ([Wen '92 (2.64)](#Wen1992))
+
+\[
+  t' \coloneqq t - c x
+\]
+
+as a [[lightcone gauge]] coordinate, this is
+
+\[
+  L(\phi) 
+    = 
+  \tfrac{1}{2} (\partial_x \phi) 
+  \big(
+    \partial_{t} - c \partial_x\phi 
+  \big) 
+  \mathrlap{\,.}
+\]
+
+This is the FL-Lagrangian density:
+
+## Lagrangian and Equations of motion
+
+For $\phi$ a [[scalar field]] on $\mathbb{R}^2$ (the latter equipped with its canonical [[coordinate functions]], here denoted $t$ for *[[time]]* and $x$ for *[[space]]*), the FL [[Lagrangian density]] is ([FL '87 (20)](#FloreaniniJackiw1987)):
+
+\[
+  L(\phi)
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  (\partial_x\phi) 
+  \big(
+    \partial_t \phi
+      - 
+    c
+    \partial_x \phi
+  \big)
   \mathrlap{\,,}
 \]
 
-whose entries are meant to reflect (cf. [Prodan & Schulz-Baldes 2016 §3](#ProdanSchulz-Baldes2016)), respectively the ([[noncommutative geometry|noncommutative]]) [[geometry]] of the bulk ($A_{blk}$) and the boundary ($A_{bdr}$) inside the full bulk-boundary system ($A_{full}$). Then in the induced [[long exact sequence]] in [[operator K-theory]] (called the *Pimsner–Voiculescu exact sequence* when (eq:SESOfCStarAlgebras) is a Toeptlitz extension)
+where $c \in \mathbb{R} \setminus \{0\}$ is a constant which sets the [[velocity]] (the [[speed of light]], often set to $c = 1$).
 
-$$
-  \cdots
-    \to
-  K_{n}(A_{bdr})
-    \longrightarrow
-  K_{n}(A_{full})
-    \longrightarrow
-  K_{n}(A_{blk})
-    \overset{ \partial }{\longrightarrow}
-  K_{n-1}(A_{bdr})
-    \longrightarrow
-  K_{n-1}(A_{full})
-    \longrightarrow
-  K_{n-1}(A_{blk})
-$$
+The corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is 
 
-the [[connecting homomorphism]]
-
-$$
-  K_{0}(A_{blk})
-    \overset{ \partial }{\longrightarrow}
-  K_{-1}(A_{bdr})
-$$
-
-maps bulk observables to boundary observables. With due care, the image of this [[connecting homomorphism]] under (schematically) certain [[trace]] operations $\mathcal{T}$ becomes an [[equality]] between bulk and boundary "invariants":
-
-$$
-  \mathcal{T}(\partial)
-  \,\colon\,
-  \mathcal{T}\big( K_{0}(A_{blk}) \big)
-  =
-  \mathcal{T}\big( K_{-1}(A_{bdr}) \big)
+\[
+  \big(
+    \partial_t - c \partial_x
+  \big)
+  \partial_x
+  \phi
+  = 0
   \mathrlap{\,.}
-$$
+\]
 
-(cf. [P&S-B '16 Thm. 5.5.1](#ProdanSchulz-Baldes2016))
+The general solutions to this equation are of the form
 
+\[
+  \label{TheEquationOfMotion}
+  \phi(t,x)
+  = 
+  \phi_c(x + c t)
+  + 
+  g(t)
+\]
 
-## Related concepts
+where $g$ is an arbitrary ([[smooth function|smooth]]) function of just the temporal coordinate $t$ (hence is a "spatial zero mode"), while $\phi_c$ is a solution of the *chiral/right-moving wave equation*
 
-* [[asymptotic symmetry]]
+\[
+  \big(
+    \partial_t - c \partial_x
+  \big)
+  \phi_c
+  = 0
+  \mathrlap{\,.}
+\]
+
+## As effective theory of FQH edge modes
+
+When the the FL theory is understood as an [[effective field theory]] for [[edge modes]] of [[fractional quantum Hall liquids]] ([Wen 1992 §2.5](#Wen1992), review in  [Tong 2016](#Tong2016) [p. 207](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=209)), it is the spatial derivative
+
+\[
+  \rho \coloneqq \partial_x \phi
+\]
+
+which represents the [[current density]] on the edge, and by (eq:TheEquationOfMotion) this again satisfies the chiral wave equation
+
+\[
+  \big(
+    \partial_t - c \partial x
+  \big)
+  \rho
+  = 0
+  \mathrlap{\,.}
+\]
+
 
 
 ## References
 
 ### General
 
-Monograph:
+The original article:
 
-* {#ProdanSchulz-Baldes2016} [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
+* {#FloreaniniJackiw1987} [[Roberto Floreanini]], [[Roman Jackiw]]: *Self-dual fields as charge-density solitons*, Phys. Rev. Lett. **59** (1987) 1873 &lbrack;[doi:10.1103/PhysRevLett.59.1873](https://doi.org/10.1103/PhysRevLett.59.1873)&rbrack;
+  > (the FR-Lagrangian appears in equation (20))
 
-More on the [[C-star algebra|$C^\ast$-algebras]] involved:
+A manifestly [[Lorentz group]]-[[invariant]] re-formulation:
 
-* {#AriciMesland2020} Francesca Arici, [[Bram Mesland]]: *Toeplitz extensions in noncommutative topology and mathematical physics*, in: *Geometric Methods in Physics XXXVIII*, Trends in Mathematics, Birkhäuser (2020) \[<a href="https://doi.org/10.1007/978-3-030-53305-2_1">doi:10.1007/978-3-030-53305-2_1</a>, [arXiv:1911.05823](https://arxiv.org/abs/1911.05823)\]
+* {#Townsend202} [[Paul K. Townsend]]: *Manifestly Lorentz invariant chiral boson action*, Phys. Rev. Lett. **124** (2020) 101604 \[<a href="https://doi.org/10.1103/PhysRevLett.124.101604">doi:10.1103/PhysRevLett.124.101604</a>, [arXiv:1912.04773](https://arxiv.org/abs/1912.04773)\]
 
-Examples:
+### As EFT for FQH edge modes
 
-* Jacob Shapiro: *The Bulk-Edge Correspondence in Three Simple Cases*, Reviews in Mathematical Physics **32** 03 (2020) 2030003 (2020) \[<a href="https://doi.org/10.1142/S0129055X20300034">doi:10.1142/S0129055X20300034</a>, [arXiv:1710.10649](https://arxiv.org/abs/1710.10649)\]
+Review as the [[boundary field theory]] of [[abelian Chern-Simons theory]], in the context of [[effective field theory]] for [[edge modes]] of [[fractional quantum Hall systems]]:
 
-Further discussion:
+* {#Wen1992} [[Xiao-Gang Wen]]; §2.5 in: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840), [[Wen-EdgeStatesEffective.pdf:file]]&rbrack;
 
-* Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
+* {#Wen1995} [[Xiao-Gang Wen]]; §3.3 in: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+
+reviewed in:
+
+* {#Tong2016} [[David Tong]]; §6.1.2 in: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 
-[[!include T-duality in K-theory classification of topological phases -- references]]
 
 
 \linebreak
