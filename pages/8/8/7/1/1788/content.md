@@ -5,7 +5,50 @@
 
 ***
 
++-- {: .num_prop#SiftedIffFinalDiag}
+###### Proposition
+
+An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the [[diagonal]] functor 
+  
+$$
+  D \to D \times D
+$$
+
+is a [[final functor]].
+
+=--
+
+This is due to ([GabrielUlmer](#GabrielUlmer))
+
++-- {: .num_prop #SiftedIffFinalDiag}
+###### Proposition
+
+Let $D$ be a small category. The following are equivalent:
+
+1. $D$ is sifted.
+
+2. $D$ is non-empty and for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
+
+3. The diagonal functor $D\to D^S$ is final, where $S$ is a finite set.
+
+4. For every finite family of objects $d_1,\dots,d_n\in D$, the category $Sink_D(d_1,\dots,d_n)$ of sinks in $D$ with sources $d_1,\dots,d_n$ is connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivalence between 1 and 2 is just the restatement of \ref{SiftedIffFinalDiag}. The equivalence between 3 and 4 is obvious. Trivially, 2 implies 4. We see the converse.
+
+Assume 4. In particular we have that the category of sinks $Sink_D(\emptyset)$ over the empty family of objects in $D$ is connected and thus inhabited, so $D$ is non-empty.
+
+Now let's see that $Sink_D(d_1,\dots,d_n)$ is non-empty. If $n=0$, this is because $D$ is non-empty. If $n=1$, we always have the identity sink $d_1\to d_1$. We show $Sink_D(d_1,\dots,d_n)$ is non-empty for $n\geq 2$ by induction on $n$. The base case $n=2$ is our assumption. For each $1\leq i\lt n$, pick a cospan $d_1\to c_i\leftarrow d_{i+1}$. By induction, there is a sink $\{c_i\to e\}_{1\leq i\lt n}$. Thus $\{d_1\to c_1\to e\}\cup\{d_{i+1}\to c_i\to e\}_{1\leq i\lt n}$ is a sink with sources $d_1,\dots,d_n$. Now we show there is a zig-zag of morphisms between any two objects of $Sink_D(d_1,\dots,d_n)$. In the case $n=0$, this is our assumption. Let $n\geq 1$. Given two sinks $\{d_i\to c\}_{1\leq i \leq n}$, $\{d_i\to e\}_{1\leq i \leq n}$, the assumption gives a cospan $c\to a\leftarrow e$, 
+
+=--
+
 \tableofcontents
+
+
 
 
 ## Idea
