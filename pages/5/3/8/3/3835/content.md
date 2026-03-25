@@ -81,14 +81,15 @@ On [[diffeological groupoids]]:
 
 * [[Patrick Iglesias-Zemmour]]: *Groupoids in Diffeology* &lbrack;[arXiv:2508.17484](https://arxiv.org/abs/2508.17484)&rbrack;
 
-On [[geometric quantization]] and [[diffeology]]:
+On [[geometric quantization]] in relation to [[path integrals]] and using [[diffeological spaces]]:
 
-* [[Patrick Iglesias-Zemmour]], *Geometric Quantization by Paths-I: The Simply Connected Case* [Preprint 2025] (https://arxiv.org/abs/2508.11337).
+* [[Patrick Iglesias-Zemmour]]: *Geometric Quantization by Paths* 
 
-* [[Patrick Iglesias-Zemmour]], *Geometric Quantization by Paths-II: The General Case* [Preprint 2025] (https://arxiv.org/abs/2512.24627).
+  *Part I: The Simply Connected Case* &lbrack;[arXiv:2508.11337](https://arxiv.org/abs/2508.11337)&rbrack; 
 
-* [[Patrick Iglesias-Zemmour]], *Geometric Quantization by Paths-III: The Metaplectic Anomaly* [Preprint 2026] (https://arxiv.org/abs/2601.23259).
+  *Part II: The general case* &lbrack;[arXiv:2512.24627](https://arxiv.org/abs/2512.24627)&rbrack;
 
+  *Part III: The metaplectic anomaly* &lbrack;[arXiv:2601.23259](https://arxiv.org/abs/2601.23259)&rbrack;
 
 
 ## Related entries
