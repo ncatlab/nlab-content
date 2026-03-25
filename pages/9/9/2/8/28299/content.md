@@ -19,6 +19,7 @@ The *Floreanini-Jackiw Lagrangian* (FL, due to [Floreanini & Jackiw 1987](#Flore
 
 The FL-Lagrangian arises also as the [[effective field theory|effective]] [[boundary field theory]] of [[abelian Chern-Simons theory]] ([Wen 1992 §2.5](#Wen1992), [1995 §3.3](#Wen1995), cf. [Tong 2016 §6.1.2](#Tong2016)). This realizes the FL theory as the abelian case of [[Wess-Zumino-Witten theory]] (cf. [[CS/WZW correspondence]]) and witnesses it as the [[effective field theory]] of [[edge modes]] in [[fractional quantum Hall systems]].
 
+
 ## From abelian Chern-Simons theory
 
 The [[Lagrangian density]] of [[abelian Chern-Simons theory]] with [[gauge field]] [[differential 1-form|1-form]] $a$ is 
@@ -28,13 +29,13 @@ The [[Lagrangian density]] of [[abelian Chern-Simons theory]] with [[gauge field
   \mathrlap{\,.}
 \]
 
-Setting
+Setting ([Wen 1992 above (2.62)](#Wen1992), [1995 above (3.44)](#Wen1995), [Tong 2016 below (6.9)](#Tong2016), [Lopez & Fradkin 2001 (3.4)](#LopezFradkin2001), [Wolf, Read & Teh 2023 above (2.15)](#WolfReadTeh2023))
 
 \[
   a = \mathrm{d}\phi
 \]
 
-and on the 3D [[spacetime]] [[manifold with boundary|with boundary]] $\mathbb{R}^{0,1} \times \mathbb{R}^2_{y \leq 0}$ gives, by [[Stokes' theorem]], the [[boundary field theory|boundary]] Lagrangian density for $\phi$ ([Wen 1992 (2.62)](#Wen1992))
+on the 3D [[spacetime]] [[manifold with boundary|with boundary]] $\mathbb{R}^{0,1} \times \mathbb{R}^2_{y \leq 0}$ gives, by [[Stokes' theorem]], the [[boundary field theory|boundary]] Lagrangian density for a field $\phi$ on $\mathbb{R}^{0,1} \times \mathbb{R}^1$ ([Wen 1992 (2.62)](#Wen1992))
 
 \[
   L(\phi) 
@@ -161,6 +162,19 @@ Interpretation as the [[boundary field theory]] of [[abelian Chern-Simons theory
 reviewed in:
 
 * {#Tong2016} [[David Tong]]; §6.1.2 in: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
+
+In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism)) FQH systems:
+
+* {#LopezFradkin2001} [[Ana Lopez]], [[Eduardo Fradkin]]; equation (3.10) in: *Effective field theory for the bulk and edge states of quantum Hall states in unpolarized single layer and bilayer systems*, Phys. Rev. B **63** (2001) 085306 \[<a href="https://doi.org/10.1103/PhysRevB.63.085306">doi:10.1103/PhysRevB.63.085306</a>, [arXiv:cond-mat/0008219](https://arxiv.org/abs/cond-mat/0008219)\]
+
+* {#Levin13} [[Michael Levin]]; (22) in: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
+
+Including non-relativistic corrections (Newton-Cartan geometry):
+
+
+* {#WolfReadTeh2023} William J. Wolf, James Read, Nicholas Teh; (2.15) of: *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect*, Found Phys 53, 3 (2023) &lbrack;[arXiv:2111.08052](https://arxiv.org/abs/2111.08052), [doi:10.1007/s10701-022-00615-4](https://doi.org/10.1007/s10701-022-00615-4)&rbrack;
+
 
 
 [[!redirects Floreanini-Jackiw Lagrangian]]
