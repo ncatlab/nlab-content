@@ -721,6 +721,11 @@ That relative operads model $(\infty,1)$-operads is proved in:
 
 * {#ACP25} [[Kensuke Arakawa]], [[Victor Carmona]], [[Francesca Pratali]]: *Relative operads model $\infty$-operads* &lbrack;[arXiv:2512.16374](https://arxiv.org/abs/2512.16374)&rbrack;
 
+On the enriched case:
+
+* Kensuke Arakawa: *On the equivalence of Brantner's and Chu--Haugseng's approaches to enriched \infty-operads* &lbrack;[arXiv:2603.23019](https://arxiv.org/abs/2603.23019)&rbrack;
+
+
 
 [[!redirects (∞,1)-operad]]
 [[!redirects (∞,1)-operads]]
