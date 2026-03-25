@@ -38,6 +38,8 @@ The [[CFT|Fuchs-Runkel-Schweigert-construction]] builds from the RT-construction
 
 ## References
 
+### General
+
 Original articles:
 
 * {#ReshetikhinTuraev91} [[Nikolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([doi:10.1007/BF01239527](https://doi.org/10.1007/BF01239527), [pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
@@ -84,6 +86,16 @@ Localization to a fully [[extended functorial field theory]]:
 * [[Daniel S. Freed]], [[Claudia I. Scheimbauer]], [[Constantin Teleman]]: *Fully local Reshetikhin-Turaev theories* &lbrack;[arXiv:2601.05518](https://arxiv.org/abs/2601.05518)&rbrack;
 
 * [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
+
+### Abelian case
+
+For [[abelian Chern-Simons theory]]:
+
+* [[Enore Guadagnini]], Francesco Mancarella: *Abelian link invariants and homology*, J. Math. Phys. **51** (2010) 062301 &lbrack;[arXiv:1004.5211](https://arxiv.org/abs/1004.5211)&rbrack;
+
+* Philippe Mathieu, [[Frank Thuillier]]: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
+
+* [[Michail Tagaris]], [[Frank Thuillier]]: *Reshetikhin-Turaev construction and $\mathrm{U}(1)^n$ Chern-Simons partition function* &lbrack;[arXiv:2507.08587](https://arxiv.org/abs/2507.08587)&rbrack;
 
 
 
