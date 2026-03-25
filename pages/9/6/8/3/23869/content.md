@@ -42,6 +42,10 @@ On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
 
 * [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
 
+On [[fusion 2-categories]]:
+
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
+
 
 
 
