@@ -23,6 +23,9 @@ In [[solid state physics]], *edge modes* are excitations (of [[electrons]] or [[
 
 A notable example are edge modes of [[topological insulators]]: As their name suggests, these [[topological phases of matter]] are in fact [[insulator|insulating]] in their [[bulk]], but on their [[boundary]] they behave like [[conductors]]/[[metals]], due to "edge modes" which may carry [[electric current]].
 
+In correspondence of how the [[effective field theory]] for [[fractional quantum Hall systems]] in the [[bulk]] is ([[Maxwell-Chern-Simons theory|Maxwell]]-)[[Chern-Simons theory]] (cf. at *[[abelian Chern-Simons theory]]*), so the corresponding [[effective field theory]] for the FQH edge modes is [[Floreanini-Jackiw theory]] ([Wen 1992 §2.5](#Wen1992), [1995 §3.3](#Wen1995)).
+
+
 ## Related concepts
 
 * [[bulk-boundary correspondence]]
@@ -45,9 +48,9 @@ Original articles:
 
 * [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
 
-* [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840)&rbrack;
+* {#Wen1992} [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840)&rbrack;
 
-* [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+* {#Wen1995} [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
 On edge mode [[quantum tunneling|tunneling]]:
 
