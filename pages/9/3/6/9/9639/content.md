@@ -1085,6 +1085,10 @@ category: physics
 [[!redirects fractional quantum Hall system]]
 [[!redirects fractional quantum Hall systems]]
 
+[[!redirects fractional quantum Hall liquid]]
+[[!redirects fractional quantum Hall liquids]]
+
+
 [[!redirects FQH liquid]]
 [[!redirects FQH liquids]]
 
