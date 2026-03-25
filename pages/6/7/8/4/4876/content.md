@@ -345,6 +345,7 @@ on [[quantization]] of the WZW model, see at
 
 * [[Gepner model]]
 
+* [[Floreanini-Jackiw theory]]
 
 
 ## References
