@@ -21,7 +21,7 @@ A _symmetric monoidal category_ is a category with a product operation -- a [[mo
 
 The point is that there are different degrees to which higher categorical products may be commutative. While a bare [[monoid]] is either commutative or not, a [[monoidal category]] may be a [[braided monoidal category]] -- which already means that the order of products may be reversed up to some [[isomorphism]] -- without being _symmetric_ monoidal -- which means that changing the order of a product twice, from $a \otimes b$ to $b \otimes a$ back to $a \otimes b$, indeed does yield a result [[equality|equal]] to the original.
 
-For higher monoidal categories there are accordingly ever more shades of the notion of "commutativity" of the monoidal product. This is described in detail at [[k-tuply monoidal n-category]]. 
+For higher monoidal categories there are accordingly ever more shades of the notion of "commutativity" of the monoidal product (also known as [[tensor product]], often denoted by the infix operator ⊗). This is described in detail at [[k-tuply monoidal n-category]]. 
 
 In general, the term _symmetric monoidal_ is used for the maximally commutative case. See for instance [[symmetric monoidal (∞,1)-category]]. Notably, a symmetric monoidal [[∞-groupoid]] is, under the [[homotopy hypothesis]], the same as a [[spectrum|connective spectrum]].
 
