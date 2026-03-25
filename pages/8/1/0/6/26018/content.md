@@ -45,15 +45,17 @@ with fiber functor $F$ from the Hopf category $End(F)$.
 
 * {#Green23} David Green, *Tannaka-Krein reconstruction for fusion 2-categories* (2023) &lbrack;[arXiv:2309.05591](https://arxiv.org/abs/2309.05591)&rbrack;
 
-* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]. *The Classification of Fusion 2-Categories* (2024). ([arXiv:2411.05907](https://arxiv.org/abs/2411.05907)).
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
+
+* [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
 
 On the classification of fermionic strongly fusion 2-categories:
 
-* [[Thibault Decoppet]] with an appendix joint with [[Theo Johnson-Freyd]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories*, SIGMA **20**, 092 (2024). &lbrack;[arXiv:2403.03211](https://arxiv.org/abs/2403.03211), [doi.org/10.3842/SIGMA.2024.092](https://doi.org/10.3842/SIGMA.2024.092)&rbrack;
+* [[Thibault Decoppet]] with an appendix joint with [[Theo Johnson-Freyd]]: *Extension Theory and Fermionic Strongly Fusion 2-Categories*, SIGMA **20**, 092 (2024). &lbrack;[arXiv:2403.03211](https://arxiv.org/abs/2403.03211), [doi.org/10.3842/SIGMA.2024.092](https://doi.org/10.3842/SIGMA.2024.092)&rbrack;
 
 In the context of "[[generalized global symmetries]]":
 
-* Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
+* Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen: *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
 
 See also:
 
