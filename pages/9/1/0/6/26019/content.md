@@ -1,5 +1,14 @@
 
+Thibault D. Décoppet
+
 * [personal page](https://www.thibaultdecoppet.com/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=301569)
+
+* [inspire page](https://inspirehep.net/authors/1892009)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Thibault-D-Decoppet-2187415768)
+
 
 ## Selected writings
 
@@ -7,9 +16,12 @@ On [[fiber functor|fiber]] [[2-functors]] for [[fusion 2-categories]]:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*, Commun. Math. Phys. **406**, 64 (2025) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117), [doi.org/10.1007/s00220-025-05249-x](https://doi.org/10.1007/s00220-025-05249-x)&rbrack;
 
-On the classification of fermionic strongly [[fusion 2-categories]]:
+On the classification of [[fusion 2-categories]]:
 
 * {#D24} [[Thibault Decoppet]] with an appendix joint with [[Theo Johnson-Freyd]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories*, SIGMA **20**, 092 (2024). &lbrack;[arXiv:2403.03211](https://arxiv.org/abs/2403.03211), [doi.org/10.3842/SIGMA.2024.092](https://doi.org/10.3842/SIGMA.2024.092)&rbrack;
+
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
+
 
 On the [[fully dualizable object|full dualizability]] of certain [[tensor categories]]:
 
