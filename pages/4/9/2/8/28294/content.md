@@ -123,6 +123,7 @@ Further discussion for [[quantum Hall systems]]:
 
 * [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
 
+* {#Tong16} [[David Tong]]: §6.2 in: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 Further examples:
 
