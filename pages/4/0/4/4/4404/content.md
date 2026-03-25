@@ -181,9 +181,12 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 
 * Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
 
-* {#Amabel17} , _Exotic spheres_ ([pdf](https://math.mit.edu/~araminta/Exotic.pdf))
+* {#Amabel17} _Exotic spheres_ ([pdf](https://math.mit.edu/~araminta/Exotic.pdf))
 
 * {#DRL10} C. Duran, A. Rigas, Llohann D. Sperança, _Bootstrapping Ad-equivariant maps, diffeomorphisms and involutions_, Matematica Contemporanea, 35:27–39, 2010 ([pdf](http://www.ime.unicamp.br/~rigas/bootstrapping))
+
+* Tilman Bauer, J.D. Quigley: *Infinite families of very exotic spheres with free $S^1$- and $S^3$-actions* &lbrack;[arXiv:2603.23241](https://arxiv.org/abs/2603.23241)&rbrack;
+
 
 
 On the open issue of exotic [[4-spheres]]:
