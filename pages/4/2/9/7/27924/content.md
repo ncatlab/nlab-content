@@ -1,4 +1,6 @@
 
+* [institute page](https://lapth.cnrs.fr/en/presentation-en/members/researcha-faculty-staff/12-thuillier)
+
 * [inSpire page](https://inspirehep.net/authors/986126)
 
 * [ResearchGate page](https://www.researchgate.net/profile/Frank-Thuillier-2)
@@ -19,9 +21,10 @@ and in relation to the [[Reshetikhin-Turaev construction]]:
 
 and for [[product group|product]] [[gauge group]] $U(1)^n$:
 
-* Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
+* Han-Miru Kim, Philippe Mathieu, [[Michail Tagaris]], [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality*, J. Math. Phys. **66** 042301 (2025) &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734), [doi:10.1063/5.023925](https://doi.org/10.1063/5.023925)&rbrack;
 
-* Michail Tagaris, [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
+
+* [[Michail Tagaris]], [[Frank Thuillier]]: *Observables in $\mathrm{U}(1)^n$ Chern-Simons theory* &lbrack;[arXiv:2603.08632](https://arxiv.org/abs/2603.08632)&rbrack;
 
 
 
