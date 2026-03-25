@@ -579,6 +579,9 @@ See also:
 
 * {#White17} [[David White]], *Model Structures on Commutative Monoids in General Model Categories*, Journal of Pure and Applied Algebra, **221** 12 (2017) 3124-3168 &lbrack;[arXiv:1403.6759](https://arxiv.org/abs/1403.6759), [doi:10.1016/j.jpaa.2017.03.001](https://doi.org/10.1016/j.jpaa.2017.03.001)&rbrack;
 
+* Kensuke Arakawa: *On the equivalence of two approaches to multiplicative homotopy theories* &lbrack;[arXiv:2603.23018](https://arxiv.org/abs/2603.23018)&rbrack;
+
+
 
 [[!redirects monoidal model categories]]
 [[!redirects monoidal model structure]]
