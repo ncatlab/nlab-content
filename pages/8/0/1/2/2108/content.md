@@ -1329,11 +1329,19 @@ For a basic comparative review of both see also section 1 of
 
 ### Relation to path integral quantization
 
-Relation to [[path integral quantization]] is discussed in
+On relations of geometric quantization to [[path integral quantization]]:
 
-* Laurent Charles, _Feynman path integral and Toeplitz Quantization_ ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
+* Laurent Charles: _Feynman path integral and Toeplitz Quantization_, Helvetica Physics Acta **72** 5-6 (1999) &lbrack;[doi:10.5169/seals-117184](https://doi.org/10.5169/seals-117184), [pdf](https://www.e-periodica.ch/cntmng?pid=hpa-001%3A1999%3A72%3A%3A555)&rbrack;
 
-* [[Patrick Iglesias-Zemmour]], _Geometric Quantization by Paths_ ([Part-I: The simply connected case](https://arxiv.org/abs/2508.11337)) ([Part-II: The general case](https://arxiv.org/abs/2512.24627)) ([Part-III: The metaplectic anomaly](https://arxiv.org/abs/2601.23259))
+and in the generality of [[diffeological spaces]]:
+
+* {#Iglesias-Zemmour2025} [[Patrick Iglesias-Zemmour]]: *Geometric Quantization by Paths* 
+
+  *Part I: The Simply Connected Case* &lbrack;[arXiv:2508.11337](https://arxiv.org/abs/2508.11337)&rbrack; 
+
+  *Part II: The general case* &lbrack;[arXiv:2512.24627](https://arxiv.org/abs/2512.24627)&rbrack;
+
+  *Part III: The metaplectic anomaly* &lbrack;[arXiv:2601.23259](https://arxiv.org/abs/2601.23259)&rbrack;
 
 
 ### Geometric BRST quantization
