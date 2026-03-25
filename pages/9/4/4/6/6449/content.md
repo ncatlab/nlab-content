@@ -469,13 +469,13 @@ For higher dimensional non-abelian Chern-Simons theory see for instance
 
 For the formulation of abelian Chern-Simons theory by fiber integration over cup products in [[ordinary differential cohomology]] see
 
-* Enore Guadagnini, Frank Thuillier, _Deligne-Beilinson cohomology and abelian links invariants_ SIGMA 4 (2008), 078, 30 ([arXiv:0801.1445](http://arxiv.org/abs/0801.1445))
-  {#GT}
+* {#GT} Enore Guadagnini, Frank Thuillier, _Deligne-Beilinson cohomology and abelian links invariants_ SIGMA 4 (2008), 078, 30 ([arXiv:0801.1445](http://arxiv.org/abs/0801.1445))
 
-* R. Floreanini, R. Percacci, _Higher dimensional abelian Chern-Simons theory_ Physics Letters B Volume 224, Issue 3, 29 (1989)
+* [[Roberto Floreanini]], [[Roberto Percacci]]: _Higher dimensional abelian Chern-Simons theory_, Physics Letters B **224**3 (1989) 29 \[<a href="https://doi.org/10.1016/0370-2693(89)91232-X">doi:10.1016/0370-2693(89)91232-X</a>, [inSpire:280512](https://inspirehep.net/literature/280512)\]
+  > ([[D=5 Chern-Simons theory]])
 
-* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _The Uncertainty of Fluxes_ ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
-  {#FMS}
+* {#FMS} [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _The Uncertainty of Fluxes_ ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
+  
 
 ### Relation to self-dual theories
 
