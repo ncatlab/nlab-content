@@ -367,6 +367,11 @@ Finally, the first equation of motion (eq:EoMof5dMCS) says that the component fo
 
 ## References
 
+Original discussion:
+
+* [[Roberto Floreanini]], [[Roberto Percacci]]: *Higher dimensional abelian Chern-Simons theory*, Physics Letters B **224** 3 (1989) 29 \[<a href="https://doi.org/10.1016/0370-2693(89)91232-X">doi:10.1016/0370-2693(89)91232-X</a>, [inSpire:280512](https://inspirehep.net/literature/280512)\]
+
+
 In the context of [[D=5 Yang-Mills theory|$D=5$]] [[quantum electrodynamics]] (5d [[Maxwell-Chern-Simons theory]]):
 
 * [[Christopher T. Hill]]: *Anomalies, Chern-Simons Terms and Chiral Delocalization in Extra Dimensions*, Phys. Rev. D **73** (2006) 085001 &lbrack;[arXiv:hep-th/0601154](https://arxiv.org/abs/hep-th/0601154), [doi:10.1103/PhysRevD.73.085001](https://doi.org/10.1103/PhysRevD.73.085001)&rbrack;
