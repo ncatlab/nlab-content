@@ -30,6 +30,7 @@ In correspondence of how the [[effective field theory]] for [[fractional quantum
 
 * [[bulk-boundary correspondence]]
 
+
 ## References
  {#References}
 
@@ -52,6 +53,18 @@ Original articles:
 
 * {#Wen1995} [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
+Review:
+
+* A. M. Chang: *Chiral Luttinger liquids at the fractional quantum Hall edge*, Rev. Mod. Phys. **75** (2003) 1449 &lbrack;[doi:10.1103/RevModPhys.75.1449](https://doi.org/10.1103/RevModPhys.75.1449)&rbrack;
+
+* {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
+
+In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism)) FQH systems:
+
+* [[Ana Lopez]], [[Eduardo Fradkin]]: *Effective field theory for the bulk and edge states of quantum Hall states in unpolarized single layer and bilayer systems*, Phys. Rev. B **63** (2001) 085306 \[<a href="https://doi.org/10.1103/PhysRevB.63.085306">doi:10.1103/PhysRevB.63.085306</a>, [arXiv:cond-mat/0008219](https://arxiv.org/abs/cond-mat/0008219)\]
+
+
+
 On edge mode [[quantum tunneling|tunneling]]:
 
 * [[Claudio Chamon]], [[Xiao-Gang Wen]]: *Resonant tunneling in the fractional quantum Hall regime*, Phys. Rev. Lett. **70** (1993) 2605 &lbrack;[doi:10.1103/PhysRevLett.70.2605](https://doi.org/10.1103/PhysRevLett.70.2605)&rbrack;
@@ -63,11 +76,6 @@ On edge mode [[quantum tunneling|tunneling]]:
 * G. Dolcetto, S. Barbarino, D. Ferraro, N. Magnoli, M. Sassetti: *Tunneling between helical edge states through extended contacts*, Phys. Rev. B **85** (2012) 195138 &lbrack;[arXiv:1203.4486](https://arxiv.org/abs/1203.4486), [doi:10.1103/PhysRevB.85.195138](https://doi.org/10.1103/PhysRevB.85.195138)&rbrack;
 
 
-Review:
-
-* A. M. Chang: *Chiral Luttinger liquids at the fractional quantum Hall edge*, Rev. Mod. Phys. **75** (2003) 1449 &lbrack;[doi:10.1103/RevModPhys.75.1449](https://doi.org/10.1103/RevModPhys.75.1449)&rbrack;
-
-* {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 In view of the [[bulk-edge correspondence]]:
 
@@ -85,6 +93,15 @@ Monograph:
 In the generality of higher dimensional [[integer quantum Hall systems]] and relating to [[area-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
 
 * [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *The effective action for edge states in higher dimensional quantum Hall systems*, Nucl. Phys. B **679** (2004) 427-446 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.11.020">doi:10.1016/j.nuclphysb.2003.11.020</a>, [arXiv:hep-th/0307281](https://arxiv.org/abs/hep-th/0307281)\]
+
+Including non-relativistic corrections (Newton-Cartan geometry):
+
+* William J. Wolf, James Read, Nicholas Teh: *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect*, Found Phys 53, 3 (2023) &lbrack;[arXiv:2111.08052](https://arxiv.org/abs/2111.08052), [doi:10.1007/s10701-022-00615-4](https://doi.org/10.1007/s10701-022-00615-4)&rbrack;
+
+See also:
+
+* Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
+
 
 
 ### In topological insulators
