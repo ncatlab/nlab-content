@@ -62,6 +62,16 @@ On [[tmf]] in relation to [[elliptic genera]] as [[partition functions]] of [[2d
 
 * [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
 
+On [[fusion 2-categories]]:
+
+* [[Thibault Decoppet]] with an appendix joint with [[Theo Johnson-Freyd]]: *Extension Theory and Fermionic Strongly Fusion 2-Categories*, SIGMA **20**, 092 (2024). &lbrack;[arXiv:2403.03211](https://arxiv.org/abs/2403.03211), [doi.org/10.3842/SIGMA.2024.092](https://doi.org/10.3842/SIGMA.2024.092)&rbrack;
+
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
+
+* [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
+
+
+
 
 
 
