@@ -179,6 +179,12 @@ A 2-dimensional [[higher structure|higher]] variant ([[categorification]]) of th
 
 * Lucio Simone Cirio, [[João Faria Martins]]: *Categorifying the Knizhnik–Zamolodchikov connection*, Differential Geometry and its Applications **30** 3 (2012) 238-261 \[<a href="https://doi.org/10.1016/j.difgeo.2012.03.004">doi:10.1016/j.difgeo.2012.03.004</a>, [arXiv:1106.0042](https://arxiv.org/abs/1106.0042)\]
 
+* Cameron James Deverall Kemp: *Cartier integration of infinitesimal 2-braidings via 2-holonomy of the CMKZ 2-connection, I: Hexagonators and the Breen polytope* &lbrack;[arXiv:2508.01944](https://arxiv.org/abs/2508.01944)&rbrack;
+
+
+* Cameron Kemp: *Cartier integration of infinitesimal 2-braidings via 2-holonomy of the CMKZ 2-connection, II: The pentagonator* &lbrack;[arXiv:2603.22694](https://arxiv.org/abs/2603.22694)&rbrack;
+
+
 
 
 [[!include hypergeometric KZ-solutions -- references]]
