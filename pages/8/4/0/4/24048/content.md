@@ -52,7 +52,7 @@ Such a category is also known as a [[locally strongly finitely presentable categ
 
 * Kęstutis Česnavičius and Peter Scholze, *Purity for Flat Cohomology*
 
-* {#AdamekRosickyVitale10} [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC **23** (2010) pp. 251&#8211;260. ([web](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html)) 
+* {#AdamekRosicky01}[[Jiri Adamek]], [[Jiri Rosicky]], _On sifted colimits and generalized varieties_, TAC **8** (2001) pp 33&#8211;53. ([web](http://www.tac.mta.ca/tac/volumes/8/n3/8-03abs.html))
 
 ## Related concepts
 
