@@ -41,7 +41,7 @@ Let $f\colon A\to B$ be a [[tight morphism]] and $g\colon A \nrightarrow B$ a [[
 	\arrow["\psi", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=2]
 	\arrow["\phi", shorten <=4pt, shorten >=4pt, Rightarrow, from=1, to=3]
 \end{tikzcd}
-such that $\phi \circ_\tau \psi = id_{g}$ and $\phi \circ_\lambda \psi = id_{f}$, where $\circ_\tau$ and $\circ_\lambda$ denote, respectively, loose and tight composition of 2-cells.
+such that $\phi \odot \psi = id_{g}$ and $\phi \psi = id_{f}$, where $\odot$ denotes the loose composition, and the juxtaposition the tight composition of 2-cells.
 
 Given such a companion pair, we say that $f$ and $g$ are **companions** of each other.
 A double category for which every tight morphism admits a companion may be called **companionable**.
