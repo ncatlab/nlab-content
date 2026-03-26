@@ -53,9 +53,11 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 The original article on the CS/WZW correspondence is
 
-* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351399 &lbrack;[euclid:.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), [doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), MR0990772&rbrack;
+* {#Witten89} [[Edward Witten]]: _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351399 &lbrack;[euclid:.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), [doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), MR0990772&rbrack;
 
 More details worked out:
+
+* Paul A. Griffin: *Transverse Lattice Construction of $2+1$ Chern-Simons Theory*, Modern Physics Letters A **07** 07 (1992) 601-610 &lbrack;[doi:10.1142/S0217732392000574](https://doi.org/10.1142/S0217732392000574)&rbrack;
 
 * [[Daniel C. Cabra]], [[Gerardo L. Rossini]], *Explicit connection between conformal field theory and 2+1 Chern-Simons theory*, Mod. Phys. Lett. A **12** (1997) 1687-1697 &lbrack;[arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054), [doi:10.1142/S0217732397001722](https://doi.org/10.1142/S0217732397001722)&rbrack;
   > (with motivation from [[Laughlin wavefunctions]] for [[anyons]] in [[condensed matter theory]])
@@ -72,7 +74,7 @@ Reviews:
 
 The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]];
 
-* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the $AdS_3/CFT_2$ Correspondence_, in: [[Mikhail Shifman]] et al.  (eds.) _From fields to strings_, vol. 2, 1606-1647, 2004 ([arXiv:hep-th/0403225](https://arxiv.org/abs/hep-th/0403225))
+* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]]: *Chern-Simons Gauge Theory and the $AdS_3/CFT_2$ Correspondence*, in: [[Mikhail Shifman]] et al. (eds.): *[From Fields to Strings: Circumnavigating Theoretical Physics](https://doi.org/10.1142/5621)*, vol. 2 (2004) 1606-1647 &lbrack;[doi:10.1142/9789812775344_0036](https://doi.org/10.1142/9789812775344_0036), [arXiv:hep-th/0403225](https://arxiv.org/abs/hep-th/0403225)&rbrack;
  
 * Kristan Jensen, _Chiral anomalies and AdS/CMT in two dimensions_, JHEP 1101:109,2011 ([arXiv:1012.4831](https://arxiv.org/abs/1012.4831))
 
