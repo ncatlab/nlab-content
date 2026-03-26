@@ -10,10 +10,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -58,15 +55,18 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 * [[quantum topology]]
 
 
+
 ## References
 
+The original article:
 
-* {#Drinfeld87} [[Vladimir Drinfeld]], _Quantum groups_, in: A. Gleason (ed.) *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798--820 &lbrack;[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
+* {#Drinfeld87} [[Vladimir Drinfeld]]: _Quantum groups_, in: A. Gleason (ed.), *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798--820 &lbrack;article:[[Drinfeld-QuantumGroups.pdf:file]], proceedings:[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
 
   expanded version:
 
   Journal of Soviet Mathematics **41** (1988) 898--915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
 
+Further discussion:
 
 * [[André Joyal]], [[Ross Street]]: *An introduction to Tannaka duality and quantum groups*, in *Category theory (Como, 1990)*,  Lecture Notes in Math. __1488__, Springer (1991) 413-492 &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235), [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)&rbrack;
 
