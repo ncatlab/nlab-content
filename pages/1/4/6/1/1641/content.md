@@ -9,8 +9,7 @@
 =--
 =--
 
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Warning
 
@@ -26,15 +25,20 @@ A _topological category_ is a [[concrete category]] with nice features matching 
 
 ### Default version
 
-Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$. Sometimes, when $D$ is in fact [[Set]], the category $C$ satisfying the properties described belows is called a _topological construct_ [(Preuss)](#Preuss). Usually $C$ and $D$ will be [[large categories]].
+Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$. Sometimes, when $D$ is in fact [[Set]], the category $C$ satisfying the properties described below is called a _topological construct_ [(Preuss)](#Preuss). Usually $C$ and $D$ will be [[large categories]].
 
-By a _space_ we will mean an object of $C$, and by an _algebra_ we will mean an object of $D$.  By a _map_ we will mean a morphism in $C$, and by a _homomorphism_ we will mean a morphism in $D$.  (The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
+By a _space_ we will mean an [[object]] of $C$, and by an _algebra_ we will mean an object of $D$.  By a _map_ we will mean a [[morphism]] in $C$, and by a _homomorphism_ we will mean a morphism in $D$.  
 
-Then $C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists an [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
+(The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
+
+\begin{definition}
+$C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists an [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
 
 *  a space $T$ such that $U(T)=X$, and maps $m_i\colon T \to S_i$ such that $U(m_i) = f_i$, and
 
 *  given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each composite $g' ; f_i$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) = g'$ and $n ; m_i = m'_i$.
+
+\end{definition}
 
 Here are some illustrative commutative diagrams (if you can read them):
 $$ \array {
