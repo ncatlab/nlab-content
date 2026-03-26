@@ -752,9 +752,19 @@ In correspondence of how the [[effective field theory]] for [[fractional quantum
 #### Hierarchical K-matrix formalism
  {#HierarchicalKMatrixFormalism}
 
-Following the hierarchical picture of [[FQH systems]] at non-unit filling fraction (due to [Haldane 1983](quantum+Hall+effect#Haldane83) and [Halperin 1984](quantum+Hall+effect#Halperin1984), whence "HH-hierachy"), where [[quasiparticles]] at unit filling fractions are imagined to support themselves a secondary FQH effect with secondary quasi-particles, and so on  (a picture that faces various experimental challenges, cf. [Jain 2007 §12.1](quantum+Hall+effect#Jain07), [Jain 2014, esp. p 8](quantum+Hall+effect#Jain14) and Rem. \ref{PhenomenologyOfKMatrixFormalism} below), authors consider abelian Chern Simons theory of multiple gauge fields that are hierarchically coupled to each other, called the "K-matrix formalism" ([Blok & Wen 1990](#BlokWen90), [Wen & Zee 1992](#WenZee92Classification), early review in [Wen 1995 §2.1](#Wen95), textbook account in [Wen 2007 §7.3.3](#Wen07)).
+There is "hierarchy model" of [[FQH systems]] at non-unit filling fractions (due to [Haldane 1983](quantum+Hall+effect#Haldane83) and [Halperin 1984](quantum+Hall+effect#Halperin1984), whence "HH-hierachy"), where [[quasiparticles]] at unit filling fractions are imagined to themselves  exhibit a *secondary* FQH effect with secondary quasi-particles, and so on. (NB.: this picture faces various experimental challenges, cf. [Jain 2007 §12.1](quantum+Hall+effect#Jain07), [Jain 2014, esp. p 8](quantum+Hall+effect#Jain14) and Rem. \ref{PhenomenologyOfKMatrixFormalism} below. It does however seem to be better fit to describe genuine multi-component systems.) 
 
-The basic idea is to observe that the above step from (i) introducing a gauge potential (eq:AuxiliaryGaugePotential) for the electron current density $J$ to (ii) the effective Chern-Simons action (eq:TheEffectiveLagrangianDensity) with quasi-particle current density $j$ may be repeated by next introducing also a gauge potential for the quasi-particle current (cf. [Wen 2007 (7.3.13)](#Wen07)), and so on.
+In elaboration of this hierarchica picture to [[effective field theory]] consider abelian Chern Simons theory of multiple gauge fields --- $U(1)^n$-Chern-Simons theory --- that are hierarchically coupled to each other. Since the coupling matrix here is traditionally denoted "$K$" (since it generalizes the single [[Chern-Simons level]] "$k$" for $U(1)$-Chern-Simons theory), this has come to be called the "*K-matrix formalism*" ([Blok & Wen 1990](#BlokWen90), [Wen & Zee 1992](#WenZee92Classification), early review is in [Wen 1995 §2.1](#Wen95), a textbook account is in [Wen 2007 §7.3.3](#Wen07)).
+
+The basic idea is to observe that the above step from 
+
+(i) introducing a [[gauge potential]] (eq:AuxiliaryGaugePotential) for the [[electron]] [[current density]] $J$ 
+
+to 
+
+(ii) the [[effective field theory|effective]] Chern-Simons action (eq:TheEffectiveLagrangianDensity) with quasi-particle current density $j$ 
+
+may be repeated, by next introducing also a gauge potential for the quasi-particle current (cf. [Wen 2007 (7.3.13)](#Wen07)), and so on, iteratively.
 
 Concretely, postulating that the quasi-particle current $j$ (eq:QuasiParticleCoupling) is itself the field strength of a secondary auxiliary gauge field $a^{(2)}$
 
