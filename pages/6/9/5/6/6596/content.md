@@ -19,7 +19,12 @@
 
 ## Definition
 
-In [[Riemannian geometry]], the **divergence** of a 
+If $M$ is a [[smooth manifold]] of dimension $n$ together with a choice of nowhere vanishing differential $n$-form $\omega$ (section of $\wedge^n T^* M$), viewed as a [[volume form]], then the divergence of a vector field $X$ is defined as the unique smooth function $div_\omega X\in C^\infty(M)$ such that
+$$
+\mathcal{L}_X(\omega) = (div_\omega X)\omega.
+$$
+
+In particular, in [[Riemannian geometry]], the volume form is induced by the metric and the **divergence** of a 
 [[vector field]] $X$ over a [[Riemannian manifold]] $(M,g)$ is the real valued [[smooth function]] $div(X)$ defined by
 
 $$
