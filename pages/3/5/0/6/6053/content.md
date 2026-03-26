@@ -59,11 +59,12 @@ More generally, the analog of this statement holds for [[orbifolds]] ([Hinich (2
 
 The original articles:
 
-* {#Drinfeld87} [[Vladimir Drinfeld]], _Quantum groups_, in: A. Gleason (ed.) *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798-820 &lbrack;[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
+
+* {#Drinfeld87} [[Vladimir Drinfeld]]: _Quantum groups_, in: A. Gleason (ed.), *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798--820 &lbrack;article:[[Drinfeld-QuantumGroups.pdf:file]], proceedings:[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
 
   expanded version:
 
-  Journal of Soviet Mathematics **41** (1988) 898–915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
+  Journal of Soviet Mathematics **41** (1988) 898--915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
 
 * [[Shahn Majid]], _Doubles of quasitriangular Hopf algebras_, Comm. Algebra __19__ 11 (1991) 3061-3073 &lbrack;[MR92k:16052](http://www.ams.org/mathscinet-getitem?mr=1132774) [doi:10.1080/00927879108824306](https://doi.org/10.1080/00927879108824306)&rbrack; 
 * [[Shahn Majid]], _Representations, duals and quantum doubles of monoidal categories_, Suppl. Rend.
