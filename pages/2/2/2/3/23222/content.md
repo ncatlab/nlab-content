@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _locally strongly finitely presentable category_ is like a [[locally finitely presentable category]], but where the class of [[filtered colimits]] (respectively the class of [[finite limits]]) is replaced by the class of [[sifted colimits]] (respectively the class of [[finite products]]).
+A _locally strongly finitely presentable category_ is like a [[locally finitely presentable category]], but where the class of [[filtered colimits]] (respectively the class of [[finite limits]]) is replaced by the class of [[sifted colimits]] (respectively the class of [[finite products]]). Write $C_{sfp}$ for the full subcategory of $C$ consisting of the [[compact projective object|strongly finitely presentable]] objects.
 
 Locally strongly finitely presentable category are precisely those categories equivalent to [[varieties of algebras]].
 
@@ -32,7 +32,7 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 1. $C$ has all small [[colimit|colimits]], the category $C_{sfp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[sifted colimit]] of the canonical diagram of strongly finitely presentable objects mapping into it.
 1. $C$ is the category of models for an [[algebraic theory]].
 1. $C$ is the category of models for a finite product [[sketch]].
-1. $C_{sfp}$ has finite coproducts, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{sfp}^{op},Set]$ identifies $C$ with the category of finite-product-preserving functors $C_{fp}^{op} \to Set$.
+1. $C_{sfp}$ has finite coproducts, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{sfp}^{op},Set]$ identifies $C$ with the category of finite-product-preserving functors $C_{sfp}^{op} \to Set$.
 
 ## Related pages
 
