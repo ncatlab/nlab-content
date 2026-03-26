@@ -336,11 +336,19 @@ See [[ABJM theory]].
 
 ## Related concepts
 
+* [[AdS/CFT correspondence]]
+
 * [[holographic entanglement entropy]]
 
 * [[holographic principle of higher category theory]]
 
+* [[asymptotic symmetry]]
+
+* [[bulk-boundary correspondence]]
+
 * [[firewall problem]]
+
+
 
 ## References
 
