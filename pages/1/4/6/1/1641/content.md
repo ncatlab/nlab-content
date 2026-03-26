@@ -11,92 +11,206 @@
 
 \tableofcontents
 
-## Warning
 
-The term 'topological category' is traditional, and comes from the frequent examples in [[topology]].  It does *not* mean an [[internal category]] or [[enriched category]] in [[Top]] (a [[topologically enriched category]])!  (Fortunately the term [[topological groupoid]] is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$ is [[terminal category|trivial]].  On the other hand, there is use of the term 'topological functor', which  we tend to  avoid other than below.)
+> **Terminology warning.** Here the term *topological category* is understood in a tradition motivated by examples of [[concrete categories]] in [[topology]] and does *not* refer to [[internal category|categories internal to]] or [[enriched category|enriched in]] in [[Top]] (cf. *[[topologically enriched category]]* instead).  The term *[[topological groupoid]]* (which *is* an [[internal groupoid]] in [[Top]]) is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$, in the sense used here, is [[terminal category|trivial]].  On the other hand, there is use of the term 'topological functor', which  we tend to avoid other than below.
 
 
 ## Idea
 
-A _topological category_ is a [[concrete category]] with nice features matching the ability to form [[weak topology|weak]] and [[strong topology|strong]] topologies in [[Top]].
+A _topological category_ is a [[concrete category]] with nice features matching the ability to form [[weak topology|weak]] and [[strong topology|strong]] [[topologies]] in [[Top]].
 
 
 ## Definition
 
-### Default version
+The following definition \ref{TheDefinition} relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), which one may think of as exhibiting $C$ as a [[bundle]] over $D$. 
 
-Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$. Sometimes, when $D$ is in fact [[Set]], the category $C$ satisfying the properties described below is called a _topological construct_ [(Preuss)](#Preuss). Usually $C$ and $D$ will be [[large categories]].
+Sometimes, when $D =$ [[Set]], the category $C$ satisfying the properties described below is called a _topological construct_ [Preuss 2002](#Preuss2002). Usually $C$ and $D$ will be [[large categories]].
 
-By a _space_ we will mean an [[object]] of $C$, and by an _algebra_ we will mean an object of $D$.  By a _map_ we will mean a [[morphism]] in $C$, and by a _homomorphism_ we will mean a morphism in $D$.  
+In this context one also says:
 
-(The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
+* _spaces_ for the [[objects]] of $C$, 
 
-\begin{definition}
-$C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists an [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
+* _algebras_ for the [[objects]] of $D$,  
 
-*  a space $T$ such that $U(T)=X$, and maps $m_i\colon T \to S_i$ such that $U(m_i) = f_i$, and
+* _maps_ for the [[morphism]] in $C$, 
 
-*  given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each composite $g' ; f_i$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) = g'$ and $n ; m_i = m'_i$.
+* _homomorphisms_ for the [[morphisms]] in $D$. 
+
+This alludes to the typical example situation where $C$ is a category of [[spaces]] with some kind of [[topological space|topological]] [[structure]] while $D$ is, if not [[Set]] then some kind of algebraic category.
+
+We now first state the default definition (Def. \ref{TheDefinition}) and then comment on some variants (Rem. \ref{AmnesticVersion} and Rem. \ref{WeakVersion}).
+
+\begin{definition}\label{TheDefinition}
+Given a [[functor]] $U \colon C \longrightarrow D$, it exhibits its [[domain]] [[category]] $C$ as a __topological category__ over $D$ if, given 
+
+1. any [[object]] $X \in D$ (an "algebra") 
+
+1. any (possibly [[large set|large]]) [[indexed set]] $\big\{S_i \in C\big\}_{i \in I}$ (of "spaces") 
+
+1. [[homomorphisms]] $f_i \colon X \to U(S_i)$ (that is, a "$U$-structured [[sink|source]] from $X$"), 
+
+then there exists an [[initial lift]] (think: "smallest topology rendering the $f_i$ continuous"), which is to say
+
+1. a "space" $T \in C$ such that $U(T) = X$, and maps $m_i \colon T \to S_i$ such that $U(m_i) = f_i$, 
+
+1. given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each [[composition|composite]] $f_i \circ g$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) = g'$ and $m_i \circ n = m'_i$:
+
+\begin{tikzcd}
+  T'
+  \ar[
+    dd, dashed, "{ \exists!\, n }"{swap}
+  ] 
+  \ar[
+    ddr, "{ m'_i }"
+  ]
+  && & 
+  U(T')
+  \ar[
+    dd, "{ U(n) }"{swap}
+  ] 
+  \ar[
+    ddr, "{ g' }"
+  ]
+  \ar[
+    ddrr, "{ U(m'_i) }"
+  ]
+  &[-50pt]
+  \\
+  && \mapsto
+  \\
+  T
+  \ar[
+    r, "{ m_i }"{swap}
+  ]
+  &
+  S_i
+  &&
+  U(T)
+  \ar[
+    rr, bend right=20, "{ U(m_i) }"{swap}
+  ]
+  \ar[r, equals]
+  & 
+  X
+  \ar[r, "{ f_i }"]
+  &
+  U(S_i)
+  \mathrlap{\,.}
+\end{tikzcd}
 
 \end{definition}
 
-Here are some illustrative commutative diagrams (if you can read them):
-$$ \array {
-T' \\
-n \downarrow \downarrow n' & \searrow^{m'_i} \\
-T                          & \underset{m_i}\rightarrow & S_i
-} \;\;\; \stackrel{U}\mapsto \;\;\; \array {
-U(T') \\
-U(n) \downarrow \downarrow U(n') & \searrow^{g'}                         &                                  & \searrow^{U(m'_i)} \\
-U(T)                             & = & X                                & \underset{f_i}\rightarrow & U(S_i) \\
-                                 &                                       & \underset{U(m_i)}\longrightarrow
-} $$
 
-It follows by a clever argument that $U\colon C \to D$ must be [[faithful functor|faithful]]; see Theorem 21.3 of [ACC][acc].  That is also often included in the definition, in which case the uniqueness of $n$ can be left out.  Thus we may think of objects of $C$ as objects of $D$ equipped with [[extra structure]].  The idea is then that $T$ is $X$ equipped with the __initial structure__ or __[[weak structure]]__ determined by the requirement that the homomorphisms $f_i$ be structure-preserving maps.
+The conditions in Def. \ref{TheDefinition} imply the following crucial further property (which is often included as an assumption in the definition, in which case the uniqueness of $n$ can be left out):
 
-The dual concept could be called a _cotopological category_.  However, this is not actually anything new; $U\colon C \to D$ is topological if and only if $U^op\colon C^op \to D^op$ is.  This is a [[categorification]] of the theorem that any complete [[semilattice]] is a [[complete lattice]].  Thus, every topological category also has __final__ (not usually called _terminal_) or __[[strong structure|strong]]__ structures, each determined by a family of homomorphisms $f_i\colon U(S_i) \to X$ (a $U$-structured [[sink]] to $X$).
+\begin{proposition}\label{FaithfulnessIsImplies}
+  If a functor $U\colon C \to D$ exhibits a topological category in the sense of Def. \ref{TheDefinition}, then it is [[faithful functor|faithful]] and in this sense exhibits $C$ as a *[[concrete category]]* over $D$.
+\end{proposition}
+\begin{proof}
+  See Theorem 21.3 of [Adámek, Herrlich & Strecker 1990](#AdámekHerrlichStrecker90). \end{proof}
 
-Both of these results (faithfulness and self-duality) depend on the fact that we have allowed the family $\{S_i\}$ to be potentially *large*.  Counterexamples are easy to find.  For instance, if $C$ is a large category with all (small) products, then the functor $C \to 1$ to the [[terminal category]] satisfies the above lifting property for small families $\{S_i\}$.  However, it need not satisfy the dual property (unless $C$ also has all small coproducts) nor need it be faithful.
+Thus we may think of objects of a topological category $C$ as objects of $D$ equipped with [[extra structure]]. The idea is then that $T$ is $X$ equipped with the __initial structure__ or __[[weak structure]]__ determined by the requirement that the homomorphisms $f_i$ be structure-preserving maps.
 
-It also follows that $U$ is a [[Grothendieck fibration]] and opfibration.
+The following says that the notion is "self-[[formal duality|dual]]":
+
+\begin{proposition}\label{SelfDuality}
+A functor $U\colon C \to D$ is topological, in the sense of Def. \ref{TheDefinition}, if and only if the [[opposite functor]] $U^op\colon C^op \to D^op$ is so.  
+\end{proposition}
+
+(This may be understood as a [[categorification]] of the theorem that any complete [[semilattice]] is a [[complete lattice]].)
+
+Thus, every topological category also has __final__ (not usually called _terminal_) or __[[strong structure|strong]]__ structures, each determined by a family of homomorphisms $f_i\colon U(S_i) \to X$ (a $U$-structured [[sink]] to $X$).
+
+\begin{remark}
+Both of these results (faithfulness, Prop. \ref{FaithfulnessIsImplies}, and self-duality, Prop. \ref{SelfDuality}) depend on the assumption in Def. \ref{TheDefinition} that the family $\{S_i\}$ is allowed to be *[[large]]*. 
+
+Otherwise, there exists [[counterexamples]]: For instance, if $C$ is a [[large category]] with all (small) [[products]], then the functor $C \to 1$ to the [[terminal category]] satisfies the lifting property in Def. \ref{TheDefinition} for small families $\{S_i\}$.  However, it need not satisfy the dual property (unless $C$ also has all small coproducts) nor need it be faithful.
+\end{remark}
+
+It also follows that:
+
+\begin{proposition}\label{GrothendieckFibrancyImplies}
+If $U \colon C \longrightarrow D$ exhibits a topological category (Def. \ref{TheDefinition}), then $U$ is a [[Grothendieck fibration]] and an [[opfibration]].
+\end{proposition}
 
 
-### Amnestic version
 
-Since initial lifts have a universal property, they are unique up to unique isomorphism.  However, it is traditional in some literature to ask that they be literally unique (this is done for instance in [ACC][acc]). This is tantamount to deciding that $U$ should be an [[amnestic functor]].  A drawback (from an [[nPOV]]) is that this condition violates the [[principle of equivalence]], and arguably doesn't add anything mathematically important.
+\begin{remark}\label{AmnesticVersion}
+**(amnestic version)**
+Since initial lifts have a [[universal property]], they are unique up to unique [[isomorphism]].  However, some authors (such as [AHS90](#AdámekHerrlichStrecker90)) ask that they be literally unique. This is tantamount to deciding that $U$ should be an [[amnestic functor]].  A drawback (from an [[nPOV]]) is that this condition violates the [[principle of equivalence]], and arguably doesn't add anything mathematically important.
 
 Thus, although it occurs in the literature, here we will consider it purely optional. (It is possible that some results recorded here about topological categories will depend on this assumption, but only results not respecting the [[principle of equivalence]] could be affected.)
+\end{remark}
 
 
-### Weak version
-
-On the other hand, the default definition above does already refer to equality of objects in the condition $U(T)=X$; thus as stated it *already* violates the [[principle of equivalence]], just as the notion of [[Grothendieck fibration]] does.  But (also as for Grothendieck fibrations) this other use of equality of objects is really more of a "typing judgment", which can be made precise by working with [[displayed categories]] instead.  (In the context of [[homotopy type theory]], the amnestic condition is equivalent to "fiberwise [[internal category in homotopy type theory|univalence]]".)
+\begin{remark}\label{WeakVersion}
+**(weak version)**
+\linebreak
+On the other hand, the default definition \ref{TheDefinition} does already refer to [[equality]] of objects in the condition $U(T) = X$; thus as stated it *already* violates the [[principle of equivalence]], just as the notion of [[Grothendieck fibration]] does.  But (also as for Grothendieck fibrations) this other use of equality of objects is really more of a "[[type|typing]] [[judgment]]", which can be made precise by working with [[displayed categories]] instead.  (In the context of [[homotopy type theory]], the amnestic condition is equivalent to "fiberwise [[internal category in homotopy type theory|univalence]]".)
 
 However, if we want to, we can also formulate a "fully isomorphism-invariant" version of the definition, corresponding to the weakened bicategorical notion of [[Street fibration]].  In this case, an initial lift consists of:
 
-*  a space $T$, an [[isomorphism]] $g\colon U(T) \to X$, and maps $m_i\colon T \to S_i$ such that each [[composite]] $g ; f_i$ equals $U(m_i)$ and,
+* a space $T$, an [[isomorphism]] $g\colon U(T) \to X$, and maps $m_i\colon T \to S_i$ such that $f_i \circ g = U(m_i)$ for all $i \in I$ and,
 
-*  given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each composite $g' ; f_i$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) ; g = g'$ and $n ; m_i = m'_i$.
+* given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if $f_i \circ g' = U(m'_i)$ for all $i \in I$, then there exists a unique map $n\colon T' \to T$ such that $g \circ U(n) = g'$ and $m_i \circ n = m'_i$:
 
-$$ \array {
-T' \\
-n \downarrow \downarrow n' & \searrow^{m'_i} \\
-T                          & \underset{m_i}\rightarrow & S_i
-} \;\;\; \stackrel{U}\mapsto \;\;\; \array {
-U(T') \\
-U(n) \downarrow \downarrow U(n') & \searrow^{g'}                         &                                  & \searrow^{U(m'_i)} \\
-U(T)                             & \overset{\sim}\underset{g}\rightarrow & X                                & \underset{f_i}\rightarrow & U(S_i) \\
-                                 &                                       & \underset{U(m_i)}\longrightarrow
-} $$
+\begin{tikzcd}
+  T'
+  \ar[
+    dd, dashed, "{ \exists!\, n }"{swap}
+  ] 
+  \ar[
+    ddr, "{ m'_i }"
+  ]
+  && & 
+  U(T')
+  \ar[
+    dd, "{ U(n) }"{swap}
+  ] 
+  \ar[
+    ddr, "{ g' }"
+  ]
+  \ar[
+    ddrr, "{ U(m'_i) }"
+  ]
+  &[-50pt]
+  \\
+  && \mapsto
+  \\
+  T
+  \ar[
+    r, "{ m_i }"{swap}
+  ]
+  &
+  S_i
+  &&
+  U(T)
+  \ar[
+    rr, bend right=20, "{ U(m_i) }"{swap}
+  ]
+  \ar[r, shorten=-4pt, "{ \sim }"{swap}, "{ g }"]
+  & 
+  X
+  \ar[r, "{ f_i }"]
+  &
+  U(S_i)
+  \mathrlap{\,.}
+\end{tikzcd}
 
+
+\end{remark}
 
 
 ## Examples
 
 *  The name 'topological category' comes from these examples from point-set [[topology]]; these are all topological over [[Set]]:
+
    *  the category [[Top]] of [[topological spaces]],
+
    *  the category of [[convergence spaces]] (or of [[pseudotopological space|pseudotopological]] or of [[pretopological space|pretopological]] spaces),
+
    *  the category of [[uniform spaces]] or of [[Cauchy spaces]],
+
    *  lots more in this vein.
 
 *  In contrast, the category of [[locales]] is *not* topological over $Set$; not even the category of *spatial* locales (equivalent to the category of [[sober spaces]]) is topological, essentially because soberification of a topological space may not preserve the underlying set.
@@ -162,20 +276,16 @@ The theory of topological functors can be developed along the lines of Grothendi
 
 ## References
 
-* [[Jiří Adámek]], Horst Herrlich, & George E. Strecker; 1990; Abstract and Concrete Categories; originally published John Wiley & Sons ISBN 0-471-60922-6; [free on-line edition][acc].
+* J. Martin Harvey: _Topological functors from factorization_, in: *Categorical Topology*, Lecture Notes in Mathematics **719**, Springer (1979) &lbrack;[doi:10.1007/BFb0065263](https://doi.org/10.1007/BFb0065263)&rbrack;
 
-[acc]: http://katmat.math.uni-bremen.de/acc "Abstract and Concrete Categories"
+* {#AdámekHerrlichStrecker90} [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]: *[[Abstract and Concrete Categories -- The Joy of Cats]]*, Wiley (1990), reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 &lbrack;[tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf)&rbrack;
 
-
-* {#Preuss} Gerhard Preuss; 2002; _Foundations of Topology: An Approach to Convenient Topology_; Kluwer ISBN 1-4020-0891-0, doi:[10.1007/978-94-010-0489-3](https://doi.org/10.1007/978-94-010-0489-3).
+* {#Preuss2002} Gerhard Preuß: _Foundations of Topology: An Approach to Convenient Topology_; Kluwer (2002) &lbrack;ISBN 1-4020-0891-0, [doi:10.1007/978-94-010-0489-3](https://doi.org/10.1007/978-94-010-0489-3)&rbrack;
  
+* [[Richard Garner]], *Topological functors as total categories*, Theory and Applications of Categories **29** 15 (2014) 406-421 &lbrack;[tac:29-15](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)&rbrack;
 
-* [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html).
+* [[Eduardo J. Dubuc]], Luis Espa&#241;ol, *Topological functors as familiarly fibrations* &lbrack;[arXiv:0611701](https://arxiv.org/abs/math/0611701)&rbrack;
 
-* [[Eduardo J. Dubuc]], Luis Espa&#241;ol, *Topological functors as familiarly fibrations* 
-[arXiv](https://arxiv.org/abs/math/0611701) (2006).
-
-* J. Martin Harvey, _Topological functors from factorization_, Categorical Topology: Proceedings of the International Conference, Berlin, August 27th to September 2nd, 1978. Springer Berlin Heidelberg, 1979.
 
 
 [[!redirects topological concrete category]]
