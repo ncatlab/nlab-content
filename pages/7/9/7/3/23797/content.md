@@ -110,6 +110,12 @@ On edges modes in [[topological insulators]]:
 
 * Lukasz Fidkowski, T. S. Jackson, Israel Klich, *Edge modes in band topological insulators* &lbrack;[arXiv:1101.0320](https://arxiv.org/abs/1101.0320)&rbrack;
 
+See also:
+
+* {#CLM12} Gil Young Cho, Yuan-Ming Lu, [[Joel E. Moore]]: *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) &lbrack;[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)&rbrack;
+
+
+
 ### Via Chern-Simons theory & other TQFT
 
 On edge modes via the (abelian) [[WZW model]] on the [[boundary field theory|boundart]] of ([[abelian Chern-Simons theory|abelian]]) [[Chern-Simons theory]] (cf. also *[[AdS3-CFT2 and CS-WZW correspondence]]*):
