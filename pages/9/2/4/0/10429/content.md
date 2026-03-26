@@ -19,9 +19,8 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -202,8 +201,9 @@ Textbook accounts:
 
 * [[Tudor D. Stanescu]], Part II of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)&rbrack;
 
-Review and survey:
+* [[Roderich Moessner]], [[Joel E. Moore]]: *Topological Phases of Matter --- New Particles, Phenomena and Ordering Principles*, Cambridge University Press (2021) &lbrack;[doi:10.1017/9781316226308](https://doi.org/10.1017/9781316226308)&rbrack;
 
+Review and survey:
 
 * Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_,  APS Physics 1, 6 (2008) [doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)
 
