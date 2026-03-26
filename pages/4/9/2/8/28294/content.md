@@ -32,7 +32,7 @@ In [[solid state physics]], specifically in the discussion of [[topological phas
 
 The general physics intuition is that the nontrivial topological twist in the [[bulk]] must somehow "unwind" at the boundary in order to interpolate to the trivial topological situation beyond the boundary. That "unwinding" is exhibited by "[[edge mode]]" dynamics on the boundary, which hence corresponds to the [[bulk]] [[topological phase of matter|topological phase]].
 
-A general mathematical formalization of the correspondence goes back to [Kellendonk, Richter & Schulz-Baldes2002](#KellendonkRichterSchulz-Baldes2002), in the context of the [[K-theory classification of topological phases of matter]]: Here one considers a [[short exact sequence]] of [[C-star algebras|$C^\ast$-algebras]] (typically a Toeplitz extension, cf. [Arici & Mesland 2020](#AriciMesland2020))
+A general mathematical formalization of the correspondence goes back to [Kellendonk, Richter & Schulz-Baldes 2002](#KellendonkRichterSchulz-Baldes2002), in the context of the [[K-theory classification of topological phases of matter]]: Here one considers a [[short exact sequence]] of [[C-star algebras|$C^\ast$-algebras]] (typically a Toeplitz extension, cf. [Arici & Mesland 2020](#AriciMesland2020))
 
 \[
   \label{SESOfCStarAlgebras}
@@ -94,12 +94,15 @@ $$
 
 * [[asymptotic symmetry]]
 
+* [[holographic principle]]
 
 ## References
 
 ### General
 
-Monograph:
+Monographs:
+
+* [[B. Andrei Bernevig]], [[Taylor L. Hughes]]: *Hall Conductance and Edge Modes: The Bulk-Edge Correspondence*, chapter 6 in: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
 
 * {#ProdanSchulz-Baldes2016} [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
 
