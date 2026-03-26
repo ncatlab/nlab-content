@@ -582,7 +582,7 @@ Further fractonalization of quasi-hole states into *Gaffnian states*:
 
 * Ha Quang Trung, Bo Yang: *Fractionalisation and dynamics of anyons at $\nu = n + 1/3$ in fractional quantum Hall effect and their experimental signatures*, Phys. Rev. Lett. **127** (2021) 046402 &lbrack;[arXiv:2009.14214](https://arxiv.org/abs/2009.14214), [doi:10.1103/PhysRevLett.127.046402](https://doi.org/10.1103/PhysRevLett.127.046402)&rbrack;
 
-* Byungmin Kang, Joel E. Moore: *The Neutral Excitations in the Gaffnian State*, Phys. Rev. B **95** (2017) 245117 &lbrack;[arXiv:1606.05353](https://arxiv.org/abs/1606.05353), [doi:10.1103/PhysRevB.95.245117](https://doi.org/10.1103/PhysRevB.95.245117)&rbrack;
+* Byungmin Kang, [[Joel E. Moore]]: *The Neutral Excitations in the Gaffnian State*, Phys. Rev. B **95** (2017) 245117 &lbrack;[arXiv:1606.05353](https://arxiv.org/abs/1606.05353), [doi:10.1103/PhysRevB.95.245117](https://doi.org/10.1103/PhysRevB.95.245117)&rbrack;
 
 
 ### For FQH Bose-Einstein condensates
