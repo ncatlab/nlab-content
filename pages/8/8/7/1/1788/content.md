@@ -5,6 +5,50 @@
 
 ***
 
+\begin{tikzcd}
+  T'
+  \ar[
+    dd, shift left=5pt, "{ n }"
+  ] 
+  \ar[
+    dd, shift right=5pt, "{ n' }"{swap}
+  ] 
+  \ar[
+    ddr, "{ m'_i }"
+  ]
+  && & 
+  U(T')
+  \ar[
+    dd, shift left=5pt, "{ U(n) }"
+  ] 
+  \ar[
+    dd, shift right=5pt, "{ U(n') }"{swap}
+  ] 
+  \ar[
+    ddr, "{ U(m'_i) }"
+  ]
+  \\
+  && \mapsto
+  \\
+  T
+  \ar[
+    r, "{ m_i }"{swap}
+  ]
+  &
+  S_i
+  &&
+  \mathllap{X = \;}
+  U(T)
+  \ar[r, "{ f_i }"]
+  &
+  U(S_i)
+\end{tikzcd}
+
+
+
+***
+
+
 +-- {: .num_prop#SiftedIffFinalDiag}
 ###### Proposition
 
