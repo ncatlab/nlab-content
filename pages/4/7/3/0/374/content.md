@@ -10,9 +10,7 @@
 =--
 
 
-# Topological spaces
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -312,6 +310,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 [[!redirects topological spaces]]
 [[!redirects topological structure]]
 [[!redirects topological structures]]
+
+[[!redirects topologies]]
 
 [[!redirects small topology]]
 [[!redirects small topologies]]
