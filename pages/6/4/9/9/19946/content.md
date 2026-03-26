@@ -11,6 +11,12 @@
 =--
 
 
+\tableofcontents
+
+## Idea
+
+(...)
+
 ## Related concepts
 
 * [[quantum physics]]
@@ -21,9 +27,11 @@
 
 ### General
 
-See also
+See also:
 
 * Wikipedia, _[Quantum tunneling](https://en.wikipedia.org/wiki/Quantum_tunnelling)_
+
+For references on tunneling of [[edge modes]] in [[fractional quantum Hall systems]] see [there](edge+mode#ReferencesFQHTunneling).
 
 ### Quantum halos
  {#ReferencesQuantumHalos}
