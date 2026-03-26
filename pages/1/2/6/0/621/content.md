@@ -25,7 +25,7 @@
 
 Given an [[endomorphism]] $f\colon A\to A$ in a [[traced monoidal category]] $\mathscr{C}$ there is a natural notion of its _trace_ $\tr(f) \colon 1\to 1$, where $1$ denotes the [[tensor unit]]. 
 
-When $\mathscr{C}$ is a $\mathbb{C}$-linear category for which the tensor unit (e.g. a [[fusion category]]), we can canonically identity $\tr(f)$ with a [[complex number]]. 
+When $\mathscr{C}$ is a $\mathbb{C}$-linear category for which the tensor unit (e.g. a [[fusion category]]), we can canonically identify $\tr(f)$ with a [[complex number]]. 
 
 That is, the trace of $f$ is the unique [[scalar]] $\lambda \in End(1)$ such that
 
