@@ -65,7 +65,7 @@ In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#Hie
 
 
 
-On edge mode [[quantum tunneling|tunneling]]:
+{#ReferencesFQHTunneling} On edge mode [[quantum tunneling|tunneling]]:
 
 * [[Claudio Chamon]], [[Xiao-Gang Wen]]: *Resonant tunneling in the fractional quantum Hall regime*, Phys. Rev. Lett. **70** (1993) 2605 &lbrack;[doi:10.1103/PhysRevLett.70.2605](https://doi.org/10.1103/PhysRevLett.70.2605)&rbrack;
 
