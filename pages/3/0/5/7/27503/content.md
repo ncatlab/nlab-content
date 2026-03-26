@@ -59,6 +59,7 @@ $$
 
 * [[bulk-boundary correspondence]]
 
+* [[holographic principle]]
 
 ## References
 
