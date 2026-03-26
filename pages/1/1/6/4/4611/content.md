@@ -118,14 +118,14 @@ The [[opposite category]] of the [[simplex category]] is sifted.
 +-- {: .num_example}
 ###### Example
 
-Every [[filtered category]] is sifted.
+Every [[filtered category]] is sifted. Every sifted [[thin category|thin]] category is filtered.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since [[filtered colimits]] commute even with all [[finite limits]] in Set, they in particular commute with [[finite products]].
+Since [[filtered colimits]] commute even with all [[finite limits]] in Set, they in particular commute with [[finite products]]. Conversely, a thin category is filtered if and only if any two objects have a cospan. But the category of cospans on any two objects in a sifted category is connected and thus inhabited.
 
 =--
 
