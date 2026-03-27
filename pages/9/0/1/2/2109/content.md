@@ -49,7 +49,345 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
 For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite 
-\[ A \xrightarrow{B(1, f)} B \xrightarrow{H} D \xrightarrow{D(g, 1)} C \].  
+\[ A \xrightarrow{B(1, f)} B \xrightarrow{H} D \xrightarrow{D(g, 1)} C \].
+We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
+
+Note that in the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+
+
+#### Terminology
+
+We refer to the entire structure defined above as a **2-category equipped with proarrows** or a **2-category proarrow equipment**.  Those working in the field often use the term **proarrow equipment** or simply **equipment** for the entire structure.  We prefer "2-category equipped with proarrows" (or, equivalently, "pro-morphisms") for the following reasons:
+
+* It conveys that we are talking about extra stuff added to a 2-category.  (Actually, it is "eka-stuff" or "2-stuff" in the sense of [stuff, structure, property](http://ncatlab.org/nlab/show/stuff,+structure,+property).)
+* It includes the word "proarrow" which tells people what the extra stuff consists of, namely a generalization of [[profunctors]].
+* It includes the word "equipment" which signals what is meant to readers who are familiar with that term.
+
+We do sometimes avail ourselves of the shorter terminology "proarrow equipment," however, once we are clear what is under discussion.
+
+
+#### Examples
+
+For example, if $V$ is a (Benabou) [[cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
+
+The other most common sorts of generalized category, such as [[internal categories]] in some category with pullbacks, and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
+
+
+### Definition as a double category {#DefinitionAsDoubleCategory}
+
+We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
+
+Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
+\begin{tikzcd}
+  A
+  \arrow[r,  "H", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
+
+In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
+
+One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  One can then recover $K$ and $M$ as the 
+[[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
+
+Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
+\begin{tikzcd}
+  A
+   \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+\end{tikzcd}
+there exists a "universal" or "cartesian" filler square
+\begin{tikzcd}
+  A
+  \arrow[r,  "{J(g, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+with the property that any other square 
+\begin{tikzcd}
+  X
+  \arrow[r,  "", ""{name=U, below}]
+  \arrow[d, "h"']
+  & Y
+  \arrow[d, "k"]
+  \\
+  A
+  \arrow[d, "f"']
+  &C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+factors through the universal one uniquely:
+\begin{tikzcd}
+ X
+ \arrow[d, "h"']
+  \arrow[r, ""', ""{name=T, below}]
+ &Y
+ \arrow[d, "k"]
+ \\
+  A
+  \arrow[r,  "{J(g, f)}", ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+  \arrow[Rightarrow, from=T, to=U1, "\exists !"']
+\end{tikzcd}
+The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
+
+By factoring the identity square
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "U_f"']
+\end{tikzcd}
+through the universal fillers
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "{B(1, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & B
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  B
+  \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+that define $B(1,f)$ and $B(f,1)$, we obtain additional squares
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "{B(f, 1)}"', ""{name=D, above}]
+  & A
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  A
+  \arrow[r, "{B(1,f)}"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+such that the composites
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "{B(f, 1)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+   \arrow[d, "id"']
+  & A
+ \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+   A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "{B(1, f)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+   \arrow[d, "f"']
+  & A
+ \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+are both equal to $U_f$.  And using the uniqueness of factorization through the universal squares, we can conclude moreover that the composites
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+ A
+   \arrow[r,  "U_A", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & B
+  \arrow[d, "id"]
+ \\
+ A
+   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "U_B"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+ B
+   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "U_A", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & A
+  \arrow[d, "id"]
+ \\
+ B
+   \arrow[r,  "U_B"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
+ & A
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These are the defining equations of a companion and a conjoint.
+
+Finally, we record the following.
+
++-- {: .num_lemma}
+###### Central Lemma
+There is a natural bijection between squares of the form
+\begin{tikzcd}
+  A_0
+  \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
+  \arrow[d, "f_1"']
+  & B_0
+  \arrow[d, "g_1"]
+  \\
+  A_1
+  \arrow[d, "f_2"']
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[d, "f_3"']
+   & B_2
+ \arrow[d, "g_3"]
+  \\
+  A_3
+ \arrow[r, "J"', ""{name=D, above, yshift=10pt}]
+  & B_3
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+and squares of the form
+\begin{tikzcd}
+  A_1
+  \arrow[r, "{A_1(f_1, 1)}"]
+  \arrow[d, "f_2"']
+  & A_0
+  \arrow[r,  "H", ""{name=U, below}]
+  & B_0
+  \arrow[r, "{B_1(1, g_1)}"]
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[r, "{A_3(1, f_3)}"']
+  & A_3
+ \arrow[r, "J"', ""{name=D, above}]
+  & B_3
+  \arrow[r, "{B_3(g_3, 1)}"']
+  & B_2
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+
+=--
+
+One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
+\[J(g,f) \cong C(1,f) \odot J \odot D(g,1) \label{coyon} \]
+
 We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
 
 Note that in the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
