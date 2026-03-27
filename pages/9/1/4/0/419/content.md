@@ -558,8 +558,11 @@ The monoidal model structure on the [[Borel model structure]] $\mathcal{E}^{\mat
 
 Relation to [[symmetric monoidal (infinity,1)-categories]] (in particular, that every locally presentable symmetric monoidal $(\infty,1)$-category arises from a symmetric monoidal model category) is discussed in 
 
-* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_ ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
+* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_. Algebr. Geom. Topol. 17 (2017), no. 5, 3189--3212. ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
+The essential uniqueness of such a presentation is discussed in
+
+* {#Arakawa26} [[Kensuke Arakawa]], _On the equivalence of two approaches to multiplicative homotopy theories_ ([arXiv:2603.23018](https://arxiv.org/abs/2603.23018))
 
 Monoidal Reedy model structures are discussed in
 
