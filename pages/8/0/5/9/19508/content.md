@@ -38,7 +38,7 @@ $$
 
 is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category|homotopy category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. 
 
-A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories ([[(infinity,1)-categories|$(\infty,1)$-categories]]), is now claimed in [Pavlov 2021](#Pavlov21).
+A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories ([[(infinity,1)-categories|$(\infty,1)$-categories]]) now appears in [Pavlov 2025](#Pavlov25). A symmetric monoidal version of Pavlov's result also appears in [Arakawa 2026](#Arakawa26).
 
 An anlogous equivalence, but with presentable [[derivators]] and just at the level of [[homotopy 2-categories]], is due to  [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
 
@@ -216,7 +216,11 @@ The equivalence of the [[homotopy 2-category]] of [[combinatorial model categori
 
 The equivalence of the full homotopy theory (in particular the [[homotopy 2-category]]) of [[combinatorial model categories]] with [[presentable (infinity,1)-categories|presentable $\infty$-categories]] is due to
 
-* {#Pavlov21} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories*, Journal of Pure and Applied Algebra 229:2 (2025), 107860, 1–39.  ([arXiv:2110.04679](https://arxiv.org/abs/2110.04679), [doi:10.1016/j.jpaa.2024.107860](https://doi.org/10.1016/j.jpaa.2024.107860))
+* {#Pavlov25} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories*, Journal of Pure and Applied Algebra 229:2 (2025), 107860, 1–39.  ([arXiv:2110.04679](https://arxiv.org/abs/2110.04679), [doi:10.1016/j.jpaa.2024.107860](https://doi.org/10.1016/j.jpaa.2024.107860))
+
+A symmetric monoidal version of [Pavlov25]{#Pavlov25} appears in
+
+* {#Arakawa26} [[Kensuke Arakawa]], _On the equivalence of two approaches to multiplicative homotopy theories_ ([arXiv:2603.23018](https://arxiv.org/abs/2603.23018))
 
 [^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. While  [[Dugger's theorem]] (Rem. \ref{LocalPresentationOfCombinatorialModelCategories}) ensures that every combinatorial model category is Quillen equivalent to a left proper one, it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
 
