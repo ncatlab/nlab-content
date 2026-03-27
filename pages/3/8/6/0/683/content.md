@@ -1066,7 +1066,7 @@ This appears as theorem 1.5 in
 
 Classical references:
 
-* {#BousfieldKan} [[Aldridge K. Bousfield]] and [[Daniel M. Kan]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
+* {#BousfieldKan} [[Aldridge K. Bousfield]], [[Daniel M. Kan]];  Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics **304**, Springer(1972; 1987) &lbrack;[doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4)&rbrack;
 
 * {#Vogt73} [[Rainer Vogt]], *Homotopy limits and colimits*, Math. Z. __134__ (1973) 11-52 &lbrack;[eudml:171965](https://eudml.org/doc/171965), [doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090)&rbrack;
 
