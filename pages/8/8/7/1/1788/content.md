@@ -1,5 +1,31 @@
 > This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
 
+\begin{tikzcd}
+  A
+  \arrow[r,  "{B(1, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & B
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+
+\begin{tikzcd}
+  B
+  \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+
 
 \linebreak
 
