@@ -154,6 +154,10 @@ Relation to [[monoidal model categories]] (in particular, that every locally pre
 
 * {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_. Algebr. Geom. Topol. 17 (2017), no. 5, 3189--3212. ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
+The essential uniqueness of such a presentation is discussed in
+
+* {#Arakawa26} [[Kensuke Arakawa]], _On the equivalence of two approaches to multiplicative homotopy theories_ ([arXiv:2603.23018](https://arxiv.org/abs/2603.23018))
+
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
