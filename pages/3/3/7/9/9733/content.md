@@ -87,6 +87,11 @@ In relation to [[Drinfeld centers]]:
 
 * Kent B. Vashaw, _Balmer spectra and Drinfeld centers_ ([arXiv:2010.11287](https://arxiv.org/abs/2010.11287))
 
+See also:
+
+* [[Tobias Barthel]], Logan Hyslop, Maxime Ramzi: *Geometric Points in Tensor Triangular Geometry* &lbrack;[arXiv:2603.25664](https://arxiv.org/abs/2603.25664)&rbrack;
+
+
 
 [[!redirects spectra of tensor triangulated categories]]
 
