@@ -10,10 +10,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -44,17 +41,16 @@ and thus
   (since all its connected components are homotopy equivalent to the unit component, which is a connected H-space).
 
 
-(See [May-Ponto 12, p. 49 (77 of 542)](#MayPonto12))
+(cf. [May & Ponto 2012, p. 49 (77 of 542)](#MayPonto12))
 
 * For $G$ a [[nilpotent group|nilpotent]] [[Lie group]], the [[classifying space]] $B G$ is a nilpotent space.
 
-(See [Hilton 82, Section 3](#Hilton82)).
+(cf. [Hilton 1982, Section 3](#Hilton82)).
 
 
 
 ## Properties
  {#Properties}
-
 
 Nilpotency is involved in sufficient conditions for many important constructions in ([[stable homotopy theory|stable]]) [[homotopy theory]], see for instance at 
 
@@ -101,23 +97,26 @@ Nilpotency is involved in sufficient conditions for many important constructions
 
 ## References
 
-* {#Hilton82} [[Peter Hilton]], _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques Vol. 26, No. 3 (1982), pp. 47-78 ([jstor:43741908](https://www.jstor.org/stable/43741908))
+The notion originates with:
 
-* {#MayPonto12} [[Peter May]], [[Kate Ponto]], _More Concise Algebraic Topology_, University of Chicago Press (2012) ([pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+* {#Dror1971} [[Emmanuel Dror]]; §4.3 in: *A Generalization of the Whitehead Theorem*, in: *Symposium on Algebraic Topology*, Lecture Notes in Mathematics **249**, Springer (1971) 13-22 &lbrack;[doi:10.1007/BFb0060891](https://doi.org/10.1007/BFb0060891), [[Dror-WhiteheadTheorem.pdf:file]]&rbrack;
 
-* {#Riehl14} [[Emily Riehl]], def. 14.4.9 in: _[[Categorical Homotopy Theory]]_, New Mathematical Monographs 24, Cambridge University Press 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+* {#BousfieldKan1972} [[Aldridge K. Bousfield]], [[Daniel M. Kan]]; §4.3 in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics **304**, Springer(1972; 1987) &lbrack;[doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4)&rbrack;
+
+Further discussion:
+
+* {#Hilton82} [[Peter Hilton]]: _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908)&rbrack;
+
+* {#MayPonto12} [[Peter May]], [[Kate Ponto]]: _[[A Concise Course in Algebraic Topology|More Concise Algebraic Topology]]_, University of Chicago Press (2012) &lbrack;[pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
+
+* {#Riehl14} [[Emily Riehl]]; def. 14.4.9 in: _[[Categorical Homotopy Theory]]_, New Mathematical Monographs **24**, Cambridge University Press (2014) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457)&rbrack;
 
 
-See also 
+See also: 
 
 * Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
 
-See also
-
-* Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
-
-
-The [[rational homotopy theory]] of nilpotent topological spaces is discussed in
+O the [[rational homotopy theory]] of nilpotent topological spaces:
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, section 9.1 of _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
@@ -125,7 +124,7 @@ The [[rational homotopy theory]] of nilpotent topological spaces is discussed in
 
 Discussion in [[homotopy type theory]]:
 
-* {#Scoccola19} Luis Scoccola, _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
+* {#Scoccola19} Luis Scoccola: _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ &lbrack;[arXiv:1903.03245](https://arxiv.org/abs/1903.03245)&rbrack;
 
 
 
