@@ -926,7 +926,7 @@ Finally, we define a *natural transformation* between such functors $f,g:C\to D$
   \arrow[d, "f_x"]
   \\
   e(g(x))
-  \arrow[rr, "{hom_D(f(x), f(y))}"', ""{name=D, above}]
+  \arrow[rr, "{hom_D(f(x), g(x))}"', ""{name=D, above}]
   && e(f(x))
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
