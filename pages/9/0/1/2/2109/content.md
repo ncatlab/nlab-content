@@ -76,10 +76,18 @@ The other most common sorts of generalized category, such as [[internal categori
 We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
 
 Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
-$$\array{A & \overset{H}{\to} & C \\
-  ^f\downarrow & \Downarrow & \downarrow^g\\
-  B& \underset{J}{\to} & D}
-$$
+\begin{tikzcd}
+  A
+  \arrow[r,  "H", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
 
 In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
@@ -88,74 +96,240 @@ One way to state this characterization is that they are those in which every ver
 [[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
 
 Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
-
-$$\array{A & & B\\
-  ^f\downarrow & & \downarrow^g\\
-  C& \underset{J}{\nrightarrow} & D}
-$$
+\begin{tikzcd}
+  A
+   \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+\end{tikzcd}
 there exists a "universal" or "cartesian" filler square
-$$
-\array{A & \overset{J(g,f)}{\to} & B\\
-  ^f\downarrow & \Downarrow & \downarrow^g\\
-  C& \underset{J}{\nrightarrow} & D}
-$$
+\begin{tikzcd}
+  A
+  \arrow[r,  "{J(g, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 with the property that any other square 
-$$
-  \array{X & \nrightarrow & Y\\
-  ^{f h}\downarrow & \Downarrow & \downarrow^{g k}\\
-  C& \underset{J}{\nrightarrow} & D}
-$$
+\begin{tikzcd}
+  X
+  \arrow[r,  "", ""{name=U, below}]
+  \arrow[d, "h"']
+  & Y
+  \arrow[d, "k"]
+  \\
+  A
+  \arrow[d, "f"']
+  &C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 factors through the universal one uniquely:
-$$
- \array{X & \nrightarrow & Y\\
-  ^{h}\downarrow & \exists! \Downarrow  & \downarrow^{k}\\
-  A & \overset{J(g,f)}{\to} & B\\
-  ^f\downarrow & \Downarrow & \downarrow^g\\
-  C& \underset{J}{\nrightarrow} & D}
-$$
+\begin{tikzcd}
+ X
+ \arrow[d, "h"']
+  \arrow[r, ""', ""{name=T, below}]
+ &Y
+ \arrow[d, "k"]
+ \\
+  A
+  \arrow[r,  "{J(g, f)}", ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+  \arrow[Rightarrow, from=T, to=U1, "\exists !"']
+\end{tikzcd}
 The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
 
 By factoring the identity square
-$$\array{A & \overset{U_A}{\to} & A\\
-  ^f\downarrow & ^{U_f}\Downarrow & \downarrow^f\\
-  B  & \underset{U_B}{\to} & B}$$
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "U_f"']
+\end{tikzcd}
 through the universal fillers
-$$\array{A & \overset{B(1,f)}{\to} & B\\
-  ^f\downarrow &\Downarrow & \downarrow^{id}\\
-  B & \underset{U_B}{\to} & B} \qquad\text{and}\qquad
-\array{B & \overset{B(f,1)}{\to} & A\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
-  B & \underset{U_B}{\to} & B}
-  $$
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "{B(1, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & B
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  B
+  \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
 that define $B(1,f)$ and $B(f,1)$, we obtain additional squares
-$$\array{A & \overset{U_A}{\to} & A\\
-  ^f\downarrow &\Downarrow & \downarrow^{id}\\
-  B & \underset{B(f,1)}{\to} & A} \qquad\text{and}\qquad
-\array{A & \overset{U_A}{\to} & A\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
-  A & \underset{B(1,f)}{\to} & B}
-  $$
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "{B(f, 1)}"', ""{name=D, above}]
+  & A
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  A
+  \arrow[r, "{B(1,f)}"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
 such that the composites
-$$\array{A & \overset{U_A}{\to} & A\\
-  ^{f}\downarrow &\Downarrow & \downarrow^{id}\\
-  B & \overset{B(f,1)}{\to} & A\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
-  B & \underset{U_B}{\to} & B} \qquad\text{and}\quad
-\array{A & \overset{U_A}{\to} & A\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
-  A & \underset{B(1,f)}{\to} & B\\
-  ^f\downarrow &\Downarrow & \downarrow^{id}\\
-  B & \underset{U_B}{\to} & B}
-$$
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "{B(f, 1)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+   \arrow[d, "id"']
+  & A
+ \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+   A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "{B(1, f)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+   \arrow[d, "f"']
+  & A
+ \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
 are both equal to $U_f$.  And using the uniqueness of factorization through the universal squares, we can conclude moreover that the composites
-$$\array{A & \overset{U_A}{\to} & A & \overset{B(1,f)}{\to} & B\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f} & \Downarrow & \downarrow^{id}\\
-  A & \underset{B(1,f)}{\to} & B & \underset{U_B}{\to} & B}
-\qquad\text{and}\qquad
-\array{B & \overset{B(f,1)}{\to} & A & \overset{U_A}{\to} & A\\
-  ^{id}\downarrow &\Downarrow & \downarrow^{f} & \Downarrow & \downarrow^{id}\\
-  B & \underset{U_B}{\to} & B & \underset{B(f,1)}{\to} & A}
-$$
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+ A
+   \arrow[r,  "U_A", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & B
+  \arrow[d, "id"]
+ \\
+ A
+   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "U_B"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+ B
+   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "U_A", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & A
+  \arrow[d, "id"]
+ \\
+ B
+   \arrow[r,  "U_B"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
+ & A
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+</tr>
+</table>
 are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These are the defining equations of a companion and a conjoint.
 
 Finally, we record the following.
@@ -163,19 +337,49 @@ Finally, we record the following.
 +-- {: .num_lemma}
 ###### Central Lemma
 There is a natural bijection between squares of the form
-$$\array{A_0 & \overset{H}{\to} & B_0\\
-  ^{f_1}\downarrow && \downarrow^{g_1}\\
-  A_1 && B_1\\
-  ^{f_2}\downarrow & \Downarrow & \downarrow^{g_2}\\
-  A_2 && B_2\\
-  ^{f_3}\downarrow && \downarrow^{g_3}\\
-  A_3 & \underset{J}{\to} & B_3 }
-$$
+\begin{tikzcd}
+  A_0
+  \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
+  \arrow[d, "f_1"']
+  & B_0
+  \arrow[d, "g_1"]
+  \\
+  A_1
+  \arrow[d, "f_2"']
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[d, "f_3"']
+   & B_2
+ \arrow[d, "g_3"]
+  \\
+  A_3
+ \arrow[r, "J"', ""{name=D, above, yshift=10pt}]
+  & B_3
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 and squares of the form
-$$\array{A_1 & \overset{A_1(f_1 ,1)}{\to} & A_0 & \overset{H}{\to} & B_0 & \overset{B_1(1,g_1)}{\to} & B_1\\
-  ^{f_2}\downarrow && &\Downarrow & && \downarrow^{g_2}\\
-  A_2 & \underset{A_3(1,f_3)}{\to} & A_3 & \underset{J}{\to} & B_3 & \underset{B_3(g_3 ,1)}{\to} & B_2.}
-$$
+\begin{tikzcd}
+  A_1
+  \arrow[r, "{A_1(f_1, 1)}"]
+  \arrow[d, "f_2"']
+  & A_0
+  \arrow[r,  "H", ""{name=U, below}]
+  & B_0
+  \arrow[r, "{B_1(1, g_1)}"]
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[r, "{A_3(1, f_3)}"']
+  & A_3
+ \arrow[r, "J"', ""{name=D, above}]
+  & B_3
+  \arrow[r, "{B_3(g_3, 1)}"']
+  & B_2
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 
 =--
 
@@ -225,17 +429,44 @@ We now give a few examples of how to do category theory internal to a proarrow e
 ### Homset definition of adjunctions {#HomsetAdjn}
 
 We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ are adjoint (in $\mathcal{V}(\underline{X})$) if and only if we have an isomorphism $B(f,1)\cong A(1,g)$.  Why?  Well, an adjunction $f\dashv g$ comes with a unit and a counit, which (expressed in $\underline{X}$) are of the form
-$$\array{A & \overset{U_A}{\to} & A\\
-  ^f\downarrow && \downarrow\\
-  B & \overset{\eta}{\Leftarrow} & \downarrow^{id} \\
-  ^g\downarrow && \downarrow\\
-  A& \underset{U_A}{\to} & A} \qquad\text{and}\qquad
-\array{B & \overset{U_B}{\to} & B\\
-  \downarrow && \downarrow^g\\
-  ^{id}\downarrow & \overset{\varepsilon}{\Leftarrow} & A \\
-  \downarrow && \downarrow^f\\
-  B& \underset{U_B}{\to} & B.}
-$$
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A"]
+  \arrow[d, "f"']
+  & A
+  \arrow[dd, "id", ""{name=R, left}]
+  \\
+  B
+    \arrow[d, "g"']
+    \arrow[Rightarrow, from=R, "\eta"']
+  \\
+  A
+  \arrow[r, "U_A"']
+  & A
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  B
+  \arrow[r,  "U_B"]
+  \arrow[dd, "id"',  ""{name=L, right}]
+  & B
+  \arrow[d, "g"]
+  \\
+  & A
+    \arrow[d, "f"]
+    \arrow[Rightarrow, to=L, "\varepsilon"']
+  \\
+  B
+  \arrow[r, "U_B"']
+  & B
+\end{tikzcd}
+</td>
+</tr>
+</table>
 Applying the bijection of the Central Lemma, we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of an adjunction, in a purely formal way.
 
 
@@ -330,17 +561,35 @@ So far we have not used the ordinary arrows, so many authors have studied only t
 * a function $f:ob(C)\to ob(D)$,
 * for each object $x$ of $C$ an arrow $f_x:e(x)\to e(f(x))$ in $W$,
 * for each pair of objects $x$ and $y$, a square
-$$\array{e(y) & \overset{hom_C(x,y)}{\to} & e(x)\\
-  ^{f_y}\downarrow & \Downarrow & \downarrow^{f_x}\\
-  e(f(y))& \underset{hom_D(f(x),f(y))}{\to} & e(f(x))}$$
+\begin{tikzcd}
+  e(y)
+  \arrow[rr,  "{hom_C(x, y)}", ""{name=U, below}]
+  \arrow[d, "f_y"']
+  && e(x)
+  \arrow[d, "f_x"]
+  \\
+  e(f(y))
+  \arrow[rr, "{hom_D(f(x), f(y))}"', ""{name=D, above}]
+  && e(f(x))
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 * satisfying functoriality axioms.
 
 Finally, we define a *natural transformation* between such functors $f,g:C\to D$ to consist of
 
 * squares
-$$\array{e(x) & \overset{U_{e(x)}}{\to} & e(x)\\
-  ^{g_x}\downarrow & \Downarrow & \downarrow^{f_x}\\
-  e(g(x))& \underset{hom_D(f(x),f(y))}{\to} & e(f(x))}$$
+\begin{tikzcd}
+  e(x)
+  \arrow[rr,  "{U_{e(x)}}", ""{name=U, below}]
+  \arrow[d, "g_x"']
+  && e(x)
+  \arrow[d, "f_x"]
+  \\
+  e(g(x))
+  \arrow[rr, "{hom_D(f(x), f(y))}"', ""{name=D, above}]
+  && e(f(x))
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 * satisfying a naturality axiom.
 
 By choosing $W$ appropriately, categories enriched in an equipment include most types of generalized category:
