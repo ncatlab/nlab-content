@@ -2,6 +2,10 @@
 
 * [personal page](https://sites.google.com/view/tobiasbarthel/home)
 
+* [institute page](https://www.mpim-bonn.mpg.de/node/9537)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Tobias-Barthel-2057929403)
+
 ## Selected writings
 
 
@@ -17,6 +21,10 @@ On [[chromatic homotopy theory]]:
 On [[model category]] [[structures]] on the [[category]] [[Set]] of [[sets]]:
 
 * [[Omar Antolín-Camarena]], [[Tobias Barthel]]: *The nine model category structures on the category of sets* &lbrack;[arXiv:2508.15731](https://arxiv.org/abs/2508.15731)&rbrack;
+
+On [[spectra of tensor triangulated categories]]:
+
+* [[Tobias Barthel]], Logan Hyslop, Maxime Ramzi: *Geometric Points in Tensor Triangular Geometry* &lbrack;[arXiv:2603.25664](https://arxiv.org/abs/2603.25664)&rbrack;
 
 
 category: people
