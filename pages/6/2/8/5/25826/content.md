@@ -20,7 +20,7 @@ On [[black brane]] [[M2-M5 brane bound states]]:
 
 * [[Vasilis Niarchos]], [[Konstadinos Siampos]], *Entropy of the self-dual string soliton*, Journal of High Energy Physics **2012** 134 (2012) &lbrack;[arXiv:1206.2935](https://arxiv.org/abs/1206.2935), <a href="https://doi.org/10.1007/JHEP07(2012)134">doi:10.1007/JHEP07(2012)134</a>&rbrack;
 
-* [[Vasilis Niarchos]], [[Konstadinos Siampos]], *The black M2-M5 ring intersection spins* &lbrack;[arXiv:1302.0854](https://arxiv.org/abs/1302.0854)&rbrack;
+* [[Vasilis Niarchos]], [[Konstadinos Siampos]]: *The black M2-M5 ring intersection spins*, [PoS 177 (2013)](https://pos.sissa.it/177) &lbrack;[arXiv:1302.0854](https://arxiv.org/abs/1302.0854), [pdf](https://pos.sissa.it/177/088/pdf)&rbrack;
 
 * [[Vasilis Niarchos]], *Localizing the black M2-M5 intersection* (2012) &lbrack;[pdf](https://hep.physics.uoc.gr/Slides/Fall_2012/VasilisNiarchos.pdf), [[Niarchos-BlackM2M5Branes.pdf:file]]&rbrack;
 
