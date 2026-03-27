@@ -1,5 +1,9 @@
 > This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
 
+This is how you place two tikzcd diagrams side by side:
+<table>
+<tr>
+<td style="border: none;">
 \begin{tikzcd}
   A
   \arrow[r,  "{B(1, f)}", ""{name=U, below}]
@@ -12,7 +16,8 @@
   & B
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
-
+</td>
+<td style="border: none;">
 \begin{tikzcd}
   B
   \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
@@ -25,7 +30,9 @@
   & B
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
-
+</td>
+</tr>
+</table>
 
 \linebreak
 
