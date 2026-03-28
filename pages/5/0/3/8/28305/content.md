@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ## Idea
 
 (Propositional) _dynamic logic_ is an extension of [[propositional logic]] where [[propositions]] can be annotated by [[modal logic|modal]] constructions in order to reason about computer [[programs]].
