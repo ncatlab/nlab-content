@@ -15,28 +15,45 @@ A **conjunction** (sometimes called **adjunction**, e.g. by [[Marco Grandis|Gran
 
 Let $f\colon A \to B$ be a tight arrow and $g\colon B \nrightarrow A$ a loose arrow in a double category.  These arrows are said to be a **conjunction** if they come equipped with 2-cells:
 
+<table>
+<tr>
+<td style="border: none;">
 \begin{tikzcd}
-	A & B && B & B \\
-	A & A && A & B
-	\arrow[""{name=0, anchor=center, inner sep=0}, "g", "\shortmid"{marking}, from=1-1, to=1-2]
-	\arrow[Rightarrow, no head, from=1-1, to=2-1]
-	\arrow["f", from=1-2, to=2-2]
-	\arrow[""{name=1, anchor=center, inner sep=0}, "\shortmid"{marking}, Rightarrow, no head, from=1-4, to=1-5]
-	\arrow["f"', from=1-4, to=2-4]
-	\arrow[Rightarrow, no head, from=1-5, to=2-5]
-	\arrow[""{name=2, anchor=center, inner sep=0}, "\shortmid"{marking}, Rightarrow, no head, from=2-1, to=2-2]
-	\arrow[""{name=3, anchor=center, inner sep=0}, "g"', "\shortmid"{marking}, from=2-4, to=2-5]
-	\arrow["\varepsilon", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=2]
-	\arrow["\eta", shorten <=4pt, shorten >=4pt, Rightarrow, from=1, to=3]
+  B
+  \arrow["\shortmid"{marking}, r,  "g", ""{name=U, below}]
+  \arrow[d, Rightarrow, no head,  ""]
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow["\shortmid"{marking}, Rightarrow, no head, r, ""', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "\varepsilon"]
 \end{tikzcd}
-
-such that $\varepsilon \eta = id_f$ and $\eta \odot \varepsilon = id_g$, where $\odot$ denotes the loose composition, and the juxtaposition the tight composition of 2-cells.
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow["\shortmid"{marking}, Rightarrow, no head, r,  "", ""{name=U, below}]
+  \arrow[d,  "f"']
+  & A
+  \arrow[d, Rightarrow, no head, ""]
+  \\
+  B
+  \arrow["\shortmid"{marking}, r, "g"', ""{name=D, above}]
+  & A
+  \arrow[Rightarrow, from=U, to=D, "\eta"]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+such that $\varepsilon \eta = id_f$ and $\eta \odot \varepsilon = id_g$, where $\odot$ denotes the loose composition, and the juxtaposition the tight composition (in diagram order) of 2-cells.
 
 Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each other, and that $g$ is the **right conjoint** of $f$ and that $f$ is the **left conjoint** of $g$.
 \begin{tikzcd}
-	A
+	B
 	\arrow["\shortmid"{marking}, r, bend left, "g"]
-	& B
+	& A
 	\arrow[l, bend left, "f"]
 \end{tikzcd}
 
