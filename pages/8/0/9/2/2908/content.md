@@ -68,7 +68,7 @@ Note that this is a weakening of the condition that the forgetful functor $U$ is
 
 ## Properties
 
-Every monadic category is algebraic; an algebraic category is monadic if and only if the forgetful functor $U$ preserves [[congruences]].  (AHS 23.41)
+Every monadic category is algebraic; an algebraic category is monadic if and only if the forgetful functor $U$ reflects [[congruences]].  (AHS 23.41)
 
 A category is algebraic if and only if it is a [[reflective subcategory]] of a monadic category with [[regular epimorphism|regular epic]] reflector; given an algebraic category, this monadic category is the [[Eilenberg–Moore category]] of the monad $U \circ F$.  (AHS 24.3)
 
