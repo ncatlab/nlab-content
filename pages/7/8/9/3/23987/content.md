@@ -1908,7 +1908,7 @@ Talks:
 
 17 Apr 2025
 
-**Quantum Industry Day**
+**Quantum Industry Day**, World Quantum Day, International Year of Quantum
 
 [www.q-innovision.com/quantum-industry-day-april-2025](https://www.q-innovision.com/quantum-industry-day-april-2025)
 
