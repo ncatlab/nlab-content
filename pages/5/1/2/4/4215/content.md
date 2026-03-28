@@ -33,6 +33,12 @@ Let $f\colon A \to B$ be a tight arrow and $g\colon B \nrightarrow A$ a loose ar
 such that $\varepsilon \eta = id_f$ and $\eta \odot \varepsilon = id_g$, where $\odot$ denotes the loose composition, and the juxtaposition the tight composition of 2-cells.
 
 Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each other, and that $g$ is the **right conjoint** of $f$ and that $f$ is the **left conjoint** of $g$.
+\begin{tikzcd}
+	A
+	\arrow["\shortmid"{marking}, r, bend left, "g"]
+	& B
+	\arrow[l, bend left, "f"]
+\end{tikzcd}
 
 ## Examples
 
