@@ -173,24 +173,82 @@ It is also natural to generalize further to categories enriched in a (possibly w
 * for each $x\in X$, an object $p(x)$ of $D$,
 * for each $x,y\in X$, a horizontal arrow $\hom(x, y)\colon p(x) \to p(y)$ in $D$, 
 * for each $x,y,z\in X$, a 2-cell in $D$:
-  $$\array{p(x) & \overset{hom(x,y)}{\to} & p(y) & \overset{hom(y,z)}{\to} & p(z) \\
-  \Vert && \circ_{x,y,z} && \Vert\\
-  p(x) && \underset{hom(x,z)}{\to} && p(z)}$$
+\begin{tikzcd}
+	p(x)
+	\arrow[r, "{hom(x,y)}"]
+	\arrow[rr, ""', ""{name=U, below}, phantom]
+	\arrow[d, Rightarrow, no head, ""]
+	& p(y)
+	\arrow[r, "{hom(y, z)}"]
+	& p(z)
+	\arrow[d, Rightarrow, no head, ""]
+	\\
+	p(x)
+	\arrow[rr, "{hom(x, z)}"', ""{name=D, above}]
+	&& p(z)
+	\arrow[d, Rightarrow, from=U, to=D, shorten <=3pt, "{\circ_{x,y,z}}"]
+\end{tikzcd}
 * for each $x\in X$, a 2-cell in $D$:
-  $$\array{p(x) & \overset{id}{\to} & p(x)\\
-    \Vert && \Vert\\
-    p(x) & \underset{hom(x,x)}{\to} & p(x)}$$
-
+\begin{tikzcd}
+	p(x)
+	\arrow[r, "id", ""{name=U, below}]
+	\arrow[d, Rightarrow, no head, ""]
+	& p(x)
+	\arrow[d, Rightarrow, no head, ""]
+	\\
+	p(x)
+	\arrow[r, "{hom(x, x)}"', ""{name=D, above}]
+	& p(x)
+	\arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 satisfying analogues of the associativity and unit conditions.  Note that is is exactly the same as a category enriched in the horizontal bicategory of $D$; the vertical arrows of $D$ play no role in the definition.  However, they *do* play a role when it comes to define functors between $D$-enriched categories.  Namely, if $\mathbf{X}$ and $\mathbf{Y}$ are $D$-enriched categories, then a $D$-functor $f\colon \mathbf{X}\to \mathbf{Y}$ consists of:
 
 * a function $f\colon X\to Y$,
 * for each $x\in X$ a vertical arrow $f_x\colon p_X(x) \to p_Y(f(x))$ in $D$,
 * for each $x,y\in X$ a 2-cell in $D$:
-  $$\array{p(x) & \overset{hom_X(x,y)}{\to} & p(y)\\
-    ^{f_x}\downarrow && \downarrow^{f_y}\\
-    p(f(x))& \underset{hom_Y(f(x),f(y))}{\to} & p(f(y))}$$
-
+\begin{tikzcd}
+	p(x)
+	\arrow[rr, "{hom_X(x, y)}", ""{name=U, below}]
+	\arrow[d,  "f_x"]
+	&& p(y)
+	\arrow[d, "f_y"]
+	\\
+	p(f(x))
+	\arrow[rr, "{hom_Y(f(x), f(y))}"', ""{name=D, above}]
+	&& p(f(y))
+	\arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
 satisfying suitable equations.  If $D$ is vertically discrete, i.e. just a bicategory $B$ with no nonidentity vertical arrows, then this is just the same as a $B$-functor as defined above.  However, for many $D$ this notion of functor is more general and natural.
+
+Finally, we define a *natural transformation* between such functors $f,g:X\to Y$ to consist of
+
+* squares
+ \begin{tikzcd}
+  p(x)
+  \arrow[rr,  "id", ""{name=U, below}]
+  \arrow[d, "f_x"']
+  && p(x)
+  \arrow[d, "g_x"]
+  \\
+  p(f(x))
+  \arrow[rr, "{hom_Y(f(x), g(x))}"', ""{name=D, above}]
+  && p(g(x))
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+* satisfying a naturality axiom.
+
+By choosing $D$ appropriately, categories enriched in a double category include most types of generalized category:
+
+* If $D$ is a monoidal category $V$, regarded as a one-object bicategory and thence as a double category with only one ordinary arrow (so the objects of $V$ are the proarrows of $D$), then $D$-enriched categories, functors, and natural transformations are the same as $V$-enriched ones.
+
+* If $S$ has pullbacks, there is an equipment $Span(S)$ whose objects  and arrows are those of $S$ and whose proarrows are spans.  A category enriched in $Span(S)$ which has one object is the same as an internal category in $S$, and likewise for functors and transformations.  (Here it is essential to use an equipment, rather than merely a bicategory, to get the right notion of functor.)
+
+* Arbitrary $Span(S)$-enriched categories can be identified with "locally small fibrations" over $S$, aka "locally internal categories" over $S$.
+
+Other choices of $D$ give "categories which are both enriched and internal," for example:
+
+* For a suitably nice category $S$ (such as a [[Grothendieck topos]]) there is an equipment $Ab(S)$ whose objects and arrows are those of $S$, and whose proarrows $A\to B$ are internal abelian group objects in $S/(B\times A)$.  An $Ab(S)$-enriched category with one object can be regarded as an "internal [[Ab-enriched category]]" in $S$.
+
 
 ### Other bases of enrichment
 
