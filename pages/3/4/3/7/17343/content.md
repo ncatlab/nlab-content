@@ -2127,7 +2127,7 @@ such that
 
 1. The pairs $(W \cap Cof\;,\; Fib)$ and $(Cof\;,\; W\cap Fib)$ are both [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
 
-One says:
+{#ModelMorphismsTerminology} One says:
 
 * elements in $W$ are _[[weak equivalences]]_,
 
@@ -2137,13 +2137,11 @@ One says:
 
 * elements in $W\cap Cof$ are _[[acyclic cofibrations]]_,
 
-* elements in $W \cap Fib$ are _[[acyclic fibrations]]_.
+* elements in $W \cap Fib$ are _[[acyclic fibrations]]_,
 
-An object $X\in \mathcal{C}$ is 
+* objects for which the unique morphism to the terminal object is a fibration are *[[fibrant objects]]*,
 
-* _[[fibrant object | fibrant]]_, if the unique morphism $X\to \ast$ is a fibration,
-
-* _[[cofibrant object | cofibrant]]_, if the unique morphism $\emptyset \to X$ is a cofibration. 
+* objects for which the unique morphism from the initial object is a cofibration are *[[cofibrant objects]]*.
 
 =--
 
