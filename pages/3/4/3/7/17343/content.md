@@ -2139,6 +2139,12 @@ One says:
 
 * elements in $W \cap Fib$ are _[[acyclic fibrations]]_.
 
+An object $X\in \mathcal{C}$ is 
+
+* _[[fibrant object | fibrant]]_, if the unique morphism $X\to \ast$ is a fibration,
+
+* _[[cofibrant object | cofibrant]]_, if the unique morphism $\emptyset \to X$ is a cofibration. 
+
 =--
 
 The form of def. \ref{ModelCategory} is due to ([Joyal, def. E.1.2](#Joyal)). It implies various other conditions that ([Quillen 67](#Quillen67)) demands explicitly, see prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{WeakEquivalencesAreClosedUnderRetracts} below.
