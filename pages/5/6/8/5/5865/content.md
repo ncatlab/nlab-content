@@ -3403,7 +3403,7 @@ by the [above observation](#DiffCohIsWellDefined) this
 only adds multiple copies of the homotopy types of the connected 
 components of $\mathbf{H}_{diff}(X, \mathbf{B}^n A)$.
 
-For a detailed discussion of the relation to [[ordinary differential cohomology]] see at _[[smooth ∞-groupoid]]_ the section <a href="http://nlab.mathforge.org/nlab/show/smooth infinity-groupoid#DiffCohomologyAbstractProperties">Abstract properties of differential cohomology</a>.
+For a detailed discussion of the relation to [[ordinary differential cohomology]] see at _[[smooth ∞-groupoid]]_ the section <a href="https://ncatlab.org/nlab/show/smooth+infinity-groupoid+--+structures#DiffCohomologyAbstractProperties"> Abstract properties</a>.
 
 =--
 
