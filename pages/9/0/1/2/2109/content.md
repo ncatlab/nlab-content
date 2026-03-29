@@ -887,64 +887,6 @@ $$\array{ & \to \to \dots \to &\\
 So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of [[virtual equipment]].  Most of category theory can be done in a virtual equipment just as well as in an equipment.
 
 
-## Categories enriched in an equipment {#CategoriesEnrichedInAnEquipment}
-
-For any equipment $W$ one can define a notion of **$W$-enriched category**.  (See also at _[[category enriched in a bicategory]]_.) This consists of
-
-* a collection $ob(C)$ of objects,
-* for each object $x$ an *extent* $e(x)$ which is an object of $W$,
-* for each pair of objects $x,y$ a proarrow $hom_C(x,y):e(x)\to e(y)$,
-* composition and identity-assigning 2-cells obeying associativity and unit axioms.
-
-So far we have not used the ordinary arrows, so many authors have studied only the notion of "category enriched in a bicategory."  (Note that any 2-category $M$ can be regarded as the proarrow 2-category of an equipment in which the only ordinary arrows are identites.)  However, we need the extra structure when we define a *functor* $f:C\to D$ between $W$-enriched categories, which consists of:
-
-* a function $f:ob(C)\to ob(D)$,
-* for each object $x$ of $C$ an arrow $f_x:e(x)\to e(f(x))$ in $W$,
-* for each pair of objects $x$ and $y$, a square
-\begin{tikzcd}
-  e(y)
-  \arrow[rr,  "{hom_C(x, y)}", ""{name=U, below}]
-  \arrow[d, "f_y"']
-  && e(x)
-  \arrow[d, "f_x"]
-  \\
-  e(f(y))
-  \arrow[rr, "{hom_D(f(x), f(y))}"', ""{name=D, above}]
-  && e(f(x))
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-* satisfying functoriality axioms.
-
-Finally, we define a *natural transformation* between such functors $f,g:C\to D$ to consist of
-
-* squares
-\begin{tikzcd}
-  e(x)
-  \arrow[rr,  "{U_{e(x)}}", ""{name=U, below}]
-  \arrow[d, "g_x"']
-  && e(x)
-  \arrow[d, "f_x"]
-  \\
-  e(g(x))
-  \arrow[rr, "{hom_D(f(x), g(x))}"', ""{name=D, above}]
-  && e(f(x))
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-* satisfying a naturality axiom.
-
-By choosing $W$ appropriately, categories enriched in an equipment include most types of generalized category:
-
-* If $W$ is a monoidal category $V$, regarded as a one-object bicategory and thence as an equipment with only one ordinary arrow (so the objects of $V$ are the proarrows of $W$), then $W$-enriched categories, functors, and natural transformations are the same as $V$-enriched ones.
-
-* If $S$ has pullbacks, there is an equipment $Span(S)$ whose objects  and arrows are those of $S$ and whose proarrows are spans.  A category enriched in $Span(S)$ which has one object is the same as an internal category in $S$, and likewise for functors and transformations.  (Here it is essential to use an equipment, rather than merely a bicategory, to get the right notion of functor.)
-
-* Arbitrary $Span(S)$-enriched categories can be identified with "locally small fibrations" over $S$, aka "locally internal categories" over $S$.
-
-Other choices of $W$ give "categories which are both enriched and internal," for example:
-
-* For a suitably nice category $S$ (such as a [[Grothendieck topos]]) there is an equipment $Ab(S)$ whose objects and arrows are those of $S$, and whose proarrows $A\to B$ are internal abelian group objects in $S/(B\times A)$.  An $Ab(S)$-enriched category with one object can be regarded as an "internal [[Ab-enriched category]]" in $S$.
-
-
 ## References
 
 * {#Wood82} [[Richard J. Wood]], *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982)  279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
