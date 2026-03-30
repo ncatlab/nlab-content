@@ -27,21 +27,18 @@ However, these definitions obscure the essential symmetry of the concepts.  We t
 
 We may picture a 2-cell in a double category as a square:
 
-$$
-  \begin{matrix}
-    x_0 
-    &\stackrel{f}{\to} &
-    x_1  
-    \\
-    {}^{\mathllap{\alpha_0}}\downarrow
-    &\Downarrow^{\mathrlap{\phi}}&
-    \downarrow^{\mathrlap{\alpha_1}}
-    \\
-    y_0  
-    &\underset{g}{\to} &
-    y_1 
- \end{matrix}  
-$$
+\begin{tikzcd}
+  x_0
+  \arrow[r,  "f", ""{name=U, below}]
+  \arrow[d, "\alpha_0"']
+  & x_1
+  \arrow[d, "\alpha_1"]
+  \\
+  y_0
+  \arrow[r, "g"', ""{name=D, above}]
+  & y_1
+  \arrow[Rightarrow, from=U, to=D, "\phi"]
+\end{tikzcd}
 
 Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
 
