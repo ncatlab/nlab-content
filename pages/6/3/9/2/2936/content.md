@@ -228,7 +228,7 @@ In his study of wild knots, [Kulnikov](#Kulnikov) studied the space of [[embeddi
 
 $$ d(f,g) = \sup_{x \in X} d(f(x),g(x))  $$
 
-where the supremum is well-defined because $X$ is compact.  The topology coming from this metric is called the ''uniform topology''.
+where the supremum is finite because $X$ is compact.  The topology induced by this metric is called the  "uniform topology''.
 
 +-- {: .num_prop} 
 ###### Proposition
@@ -240,7 +240,7 @@ If $X$ is a compact Polish space and $Y$ is a Polish space, then $Y^X$ with the 
 Given any compact metric space $X$ and metric space $Y$, the uniform topology on $Y^X$ agrees with the compact-open topology.  If $X$ is any locally compact Polish space and $Y$ is a Polish space, $Y^X$ with its compact-open topology is a Polish space, by A.10 of [Kerr and Li](#KerrLi2016).
 =--
 
-We then have:
+We also have:
 
 +-- {: .num_prop} 
 ###### Proposition 
