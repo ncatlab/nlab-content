@@ -253,9 +253,9 @@ Since $X$ is compact and $Y$ is Hausdorff, a map $f : X \to Y$ is an embedding, 
 
 $$ \mathrm{Emb}(X,Y) = \{ f \in Y^X\; \vert \; (\forall x, y \in X) \; x \ne y \Rightarrow f(x) \ne f(y) \} $$
 
-To show $\mathrm{Emb}(X,Y)$ is a Polish space it is sufficient to show that is a $G_\delta$, i.e. a countable intersection of open subsets of $Y^X$ ([Marker](#Marker), Theorem 1.33).  For this we consider the sets
+To show $\mathrm{Emb}(X,Y)$ is a Polish space it is sufficient to show that is a $G_\delta$, i.e. a countable intersection of open subsets of $Y^X$ ([Marker](#Marker), Theorem 1.33).  Let $d$ be a metric for $X$, and consider the sets
 
-$$ O_m = \{ f \in Y^X \; \vert \; \forall x, y \in X \; d(x,y) \ge 1/m \implies f(x) \ne f(y) \} $$
+$$ O_m = \{ f \in Y^X \; \vert \; \forall x, y \in X \; d(x,y) \ge 1/m \implies f(x) \ne f(y) \}. $$
 
 If each set $O_m$ is open then $\mathrm{Emb}(X,Y)$ is a $G_\delta$, since 
 
@@ -271,13 +271,13 @@ $$\array{
 U_m & = & \{(x, y, f) \in X^2 \times Y^X \; \vert \; d(x,y) \ge 1/m \implies f(x) \neq f(y) \} \\
 & = & \{(x, y, f) \in X^2 \times Y^X \; \vert \; d(x, y) \lt 1/m \vee f(x) \neq f(y)\}}$$
 
-is open in $X^2 \times Y^X$.  Then we use a lemma (the overt space version of the [[tube lemma]]): if $K$ is a compact topological space and $A$ is an arbitrary topological space, and $U \subseteq K \times A$ is open, then
+is open in $X^2 \times Y^X$.  Now use a lemma (the overt space version of the [[tube lemma]]): if $K$ is a compact topological space and $A$ is an arbitrary topological space, and $U \subseteq K \times A$ is open, then
 
 $$   \{ a \in A \; \vert \; \forall k \in K \;\; (k,a) \in U \} $$
 
 is open.  Thanks to this and the fact that $K = X^2$ is compact, the set
 
-$$ O_m = \{ f \in C(X,Y) \; \vert \; \forall (x,y) \in X^2 \;\; (x, y, f) \in U_m \} $$ 
+$$ O_m = \{ f \in Y^X \; \vert \; \forall (x,y) \in X^2 \;\; (x, y, f) \in U_m \} $$ 
 
 is indeed open.
 =-- 
