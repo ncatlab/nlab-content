@@ -38,7 +38,7 @@ Assuming the [[principle of excluded middle]], the statement of prop. \ref{Proje
 +-- {: .num_prop #Alternative}
 ###### Proposition
 
-let $\forall_p: P(X \times Y) \to P(X)$ be the [[right adjoint]] to $p^\ast: P(X) \to P(X \times Y)$. (In [[classical logic]], $\forall_p = \neg \exists_p \neg$.) Then 
+Let $\forall_p: P(X \times Y) \to P(X)$ be the [[right adjoint]] to $p^\ast: P(X) \to P(X \times Y)$. (In [[classical logic]], $\forall_p = \neg \exists_p \neg$.) Then 
 
 * If $Y$ is compact, then $\forall_p: P(X \times Y) \to P(X)$ takes [[open sets]] in $X \times Y$ to open sets in $X$. (Compare [[overt space]].) 
 
