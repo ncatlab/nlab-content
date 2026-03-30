@@ -23,6 +23,9 @@ On non-abelian ([[parafermion|parafermionic]] [[Majorana zero mode]]) [[defect]]
 
 * Gustavo M. Yoshitome, Pedro R. S. Gomes: *Non-Abelian Zero Modes in Fractional Quantum Hall-Superconductor Heterostructure* \[<a href="https://arxiv.org/abs/2511.15547">arXiv:2511.15547</a>\]
 
+* Enderalp Yakaboylu, Thomas L. Schmidt: *Fractionally Charged Vortices at Superconductor-Chern Insulator Interfaces* &lbrack;[arXiv:2501.12908](https://arxiv.org/abs/2501.12908)&rbrack;
+
+
 Experimental realization:
 
 * Önder Gül et al.: *Andreev reflection in the fractional quantum Hall state*, Physical Review X **12** 2 (2022) 021057 \[<a href="https://doi.org/10.1103/PhysRevX.12.021057">doi:10.1103/PhysRevX.12.021057</a>, [arXiv:2009.07836](https://arxiv.org/abs/2009.07836)\]
