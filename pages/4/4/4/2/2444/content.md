@@ -115,9 +115,9 @@ The following observation will be used in examples constructed below.
 \begin{example}
 \label{oddone}
 Consider real or complex smooth supermanifolds of superdimension $n|1$.
-An isomorphisms of such supermanifolds (real or complex) induces an isomorphism of their algebras of functions, in particular, an isomorphism of their odd degrees as modules over even degrees.
-Since the odd dimension is 1, the odd degrees contain precisely the sections of the corresponding vector bundle coming from Batchelor's theorem.
-By the [[Serre–Swan theorem]], such isomorphisms are induced by isomorphisms of the corresponding vector bundles.
+A morphism of such supermanifolds (real or complex) induces a morphism of their algebras of functions, in particular, a morphism of their odd degrees as modules over even degrees.
+Since the odd dimension is 1, the odd degrees contain precisely the module sections $\Gamma(L^*)$ of the dual of the line bundle $L$ provided by [[Batchelor's theorem]].
+By the smooth [[Serre–Swan theorem]], such morphisms are induced by morphisms of the corresponding line bundles.
 Thus, the category of smooth supermanifolds of odd dimension 1 is equivalent to the category of line bundles over smooth manifolds.
 \end{example}
 
