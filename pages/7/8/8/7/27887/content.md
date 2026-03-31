@@ -181,10 +181,36 @@ dim\widetilde\mathcal{M}_\eta
 -b_+(M)
 =\frac{1}{4}(c_1^2(\mathfrak{s})[M]-2\chi(M)-3\sigma(M))+1.
 $$
-(Some literature uses the convention $L^2=\det(W^\pm)$ since it is indeed the square of a line bundle, which makes the above formula not include a factor in front of the [[Chern class]].) Hence for $b_+(M)$ even, $dim\mathcal{M}_\eta$ is also even and the [[Seiberg-Witten invariants]], which are independent of the [[Riemannian metric]] $g$ and the perturbation $\eta$ [Kronheimer & Mrowka 2007, Thrm 1.5.2.](#KronheimerMrowka07)  as argued above for the latter, can then be defined as: ([Donaldson 1996, Eq. (6)](#Donaldson96), [Gompf & Stipcisz 99, Def. 2.4.2](#GompfStipcisz99), [Nicolaescu 2000, p. 113](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.5.3. & 1.5.4.](#KronheimerMrowka07))
+(Some literature uses the convention $L^2=\det(W^\pm)$ since it is indeed the square of a line bundle, which makes the above formula not include a factor in front of the [[Chern class]].) Hence for $b_+(M)$ even, $dim\mathcal{M}_\eta$ is also even and the [[Seiberg-Witten invariants]], which are independent of the [[Riemannian metric]] $g$ and the perturbation $\eta$ [Kronheimer & Mrowka 2007, Thrm 1.5.2.](#KronheimerMrowka07) as argued above for the latter, can then be defined as: ([Donaldson 1996, Eq. (6)](#Donaldson96), [Gompf & Stipcisz 99, Def. 2.4.2](#GompfStipcisz99), [Nicolaescu 2000, p. 113](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.5.3. & 1.5.4.](#KronheimerMrowka07))
 $$
 SW(M,\mathfrak{s})
 \coloneqq\langle c_1(\mathcal{M}_\eta)^{\frac{dim\widetilde\mathcal{M}_\eta}{2}},[\widetilde\mathcal{M}_\eta]\rangle.
+$$
+
+## Examples
+
+### Seiberg-Witten moduli space of $\mathbb{C}P^2$
+
+The second [[complex projective space]] $\mathbb{C}P^2$ has [[Euler characteristic]] $\chi(\mathbb{C}P^2)=3$ and [[signature]] $\sigma(\mathbb{C}P^2)=1$, so $(2\chi+3\sigma)(\mathbb{C}P^2)=9$. Its first [[Chern class]] fulfills $c_1(\mathbb{C}P^2)=3c_1(S^5)$ (with the latter being the first [[Chern class]] of the [[principal U(1)-bundle]] $S^5\twoheadrightarrow\mathbb{C}P^2$ and a generator $c_1(S^5)\in H^2(\mathbb{C}P^2,\mathbb{Z})\cong\mathbb{Z}$). Its second [[Stiefel-Whitney class]] fulfills $w_2(\mathbb{C}P^2)=c_1(\mathbb{C}P^2) mod 2=3c_1(S^5) mod 2$, meaning that $3c_1(S^5)$ is an integral lift. Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_n)=(2n+3)c_1(S^5)$ (so that $\mathfrak{s}_0$ corresponds to $S^5\twoheadrightarrow\mathbb{C}P^2$), then:
+$$
+\dim\mathcal{M}_{\mathbb{C}P^2,\mathfrak{s}_n}
+=\frac{1}{4}((2n+3)^2-9)
+=n^2+3n
+\in 2\mathbb{Z}.
+$$
+
+([Nicolaescu 2000, p. 168](#Nicolaescu00))
+
+Due to non-vanishing [[Seiberg-Witten invariants]] for $n\geq 0$ despite a positive-dimensional [[Seiberg-Witten moduli space]], $\mathbb{C}P^2$ with self-dual [[Betti number]] $b_2^+(\mathbb{C}P^2)=1$ shows why the Seiberg-Witten simple type conjecture requires $b_2^+\geq 2$.
+
+### Seiberg-Witten moduli space of $\overline{\mathbb{C}P^2}$
+
+The [[orientation]]-reversed second [[complex projective space]] $\overline{\mathbb{C}P^2}$ has self-dual [[Betti number]] $b_2^+(\overline{\mathbb{C}P^2})=0$, so the [[Seiberg-Witten moduli space]] depends on the chosen metric, which already disqualifies consideration. It has [[Euler characteristic]] $\chi(\overline{\mathbb{C}P^2})=3$ and [[signature]] $\sigma(\overline{\mathbb{C}P^2})=-1$, so $(2\chi+3\sigma)(\mathbb{C}P^2)=3$. Its first [[Chern class]] fulfills $c_1(\overline{\mathbb{C}P^2})=-3c_1(S^5)$ and its second [[Stiefel-Whitney class]] fulfills $w_2(\overline{\mathbb{C}P^2})=c_1(\overline{\mathbb{C}P^2}) mod 2=-3c_1(S^5) mod 2$, meaning that $-3c_1(S^5)$ is an integral lift. Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_n)=(2n-3)c_1(S^5)$, then (using the negative sign in its intersection form):
+$$
+\dim\mathcal{M}_{\overline{\mathbb{C}P^2},\mathfrak{s}_n}
+=\frac{1}{4}(-(2n-3)^2-3)
+=-n^2+3n-3
+\in 2\mathbb{Z}+1.
 $$
 
 ## Related entries
