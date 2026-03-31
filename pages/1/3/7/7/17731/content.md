@@ -2653,6 +2653,9 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 Named after *[[Ettore Majorana]]*.
 
+* Francesco Vissani: *From Hole Theory to Quantum Field Theory: Relativistic Fermions and the Role of Ettore Majorana (1933-1937)* &lbrack;[arXiv:2603.28538](https://arxiv.org/abs/2603.28538)&rbrack;
+
+
 The traditional component discussion in terms of a [[charge conjugation matrix]] is discussed for instance in 
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
