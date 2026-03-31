@@ -57,7 +57,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Logical Methods in Computer Science](https://lmcs.episciences.org/)|self|[[Valeria de Paiva|de Paiva]]; Jagadeesan; Schröder|open|logic and TCS|
 |[New York Journal of Mathematics](http://nyjm.albany.edu/)|self|[[Michael Hopkins|Hopkins]]|open|general|
 |[Extracta Mathematicae](https://publicaciones.unex.es/index.php/EM)|IMUEX|[[Philippe Gaucher]], [[Antonio M. Cegarra]], [[Tim Porter]]|open|general|
-|[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
+|[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]];[[Marino Gran]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
 |[Journal of the Australian Mathematical Society](https://www.austms.org.au/Journal+of+the+Australian+Mathematical+Society)|Cambridge University Press|[[Nora Ganter|Ganter]]|subscription|general|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
