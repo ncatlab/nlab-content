@@ -25,7 +25,9 @@ On message-passing:
 
 * [[J. R. B. Cockett]], Craig Pastro, _The logic of message-passing_ ([arXiv:math/0703713](https://arxiv.org/abs/math/0703713)).
 
+On characterizing [[dagger categories]] in terms of inner product categories:
 
+* [[Robin Cockett]], Durgesh Kumar, Priyaa Varshinee Srinivasan, *Unitary, Inner product, and Dagger categories* &lbrack;[arXiv:2603.27614](https://arxiv.org/abs/2603.27614)&rbrack;
 
 [[!redirects J.R.B. Cockett]]
 [[!redirects J.R.B.Cockett]]
