@@ -3304,6 +3304,20 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Mar 2026
+
+* {#PalumboMar2026} 30 Mar 2026
+
+  [[Giandomenico Palumbo]]: 
+
+  **Noncommutative Geometry and Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects**
+
+  cf.: [arXiv:2602.15664](https://arxiv.org/abs/2602.15664)
+ 
+  > In two-dimensional [[quantum Hall systems]], the [Girvin-MacDonald-Platzman (GMP) algebra](W+algebra#ReferencesInQuantumHallSystems) encodes the [[noncommutative geometry]] of guiding-center coordinates of point-like particles and organizes the structure of [collective excitations](quantum+Hall+effect#CollectiveExcitations). In this talk, I will present a [[geometry|geometric]] and [[effective field theory|field-theoretic]] extension of this framework to three-dimensional quantum Hall fluids of extended objects in the presence of a strong and constant background [[B-field|three-form $H$ field]]. I will consider quasi-[[strings]] coupled to a [[Kalb-Ramond field|Kalb-Ramond]] two-form $B$ with [[curvature]] $H = d B$, naturally associated with a [[bundle gerbe]]. In the strong-field regime, I will show that fast internal degrees of freedom are frozen, and the low-energy theory is governed by generalized guiding-center variables involving both vectorial and antisymmetric tensorial coordinates. I will derive their projected algebra and [[noncommutative geometry]] that give rise to a three-dimensional generalization of the [GMP algebra](W+algebra#ReferencesInQuantumHallSystems) for projected density operators. I will also explain how, in the long-[[wavelength]] limit, this structure realizes [[volume-preserving diffeomorphisms]] in an associative tensorial framework, and how the same guiding-center algebra is reproduced by the canonical quantization of a 3+1-dimensional [[BF theory|BF+BB]] [[topological field theory]]. In this correspondence, the quantized level is identified with the [[Dixmier-Douady class|Dixmier-Douady invariant]] of the underlying [[bundle gerbe|gerbe]] structure. The result provides a higher-form geometric perspective on incompressible quantum Hall-type phases in three spatial dimensions and clarifies the interplay between extended excitations, noncommutative geometry, and topological field theory.
+
+\linebreak
+
 
 
 ***
