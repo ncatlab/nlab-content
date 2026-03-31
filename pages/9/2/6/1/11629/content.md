@@ -88,6 +88,10 @@ On [[quantum anomaly]]-cancellation in [[type I string theory]] via [[RR-field]]
 
 * Saghar S. Hosseini, [[Yuji Tachikawa]], Hao Y. Zhang: *Type I anomaly cancellation revisited* \[<a href="https://arxiv.org/abs/2505.07933">arXiv:2505.07933</a>\]
 
+On [[heterotic string theory]]:
+
+* [[Yuji Tachikawa]]: *On the trivalent junction of three non-tachyonic heterotic string theories* &lbrack;[arXiv:2603.28133](https://arxiv.org/abs/2603.28133)&rbrack;
+
 
 
 
