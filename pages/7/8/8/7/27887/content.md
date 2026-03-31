@@ -213,6 +213,25 @@ $$
 \in 2\mathbb{Z}+1.
 $$
 
+### Seiberg-Witten moduli space of $S^2\times S^2$
+
+The [[complex surface]] $S^2\times S^2\cong\mathbb{C}P^1\times\mathbb{C}P^1$ has self-dual [[Betti number]] $b_2^+(S^2\times S^2)=0$, so the [[Seiberg-Witten moduli space]] depends on the chosen metric, which already disqualifies consideration. It has [[Euler characteristic]] $\chi(S^2\times S^2)=4$ and [[signature]] $\sigma(S^2\times S^2)=0$, so $(2\chi+3\sigma)(S^2\times S^2)=8$. Its first [[Chern class]] fulfills $c_1(S^2\times S^2)=2(a+b)$ with generators $a,b\in H^2(S^2\times S^2,\mathbb{Z})\cong\mathbb{Z}^2$ and its second [[Stiefel-Whitney class]] fulfills $w_2(S^2\times S^2)=c_1(S^2\times S^2) mod 2=0$, meaning that $S^2\times S^2$ is a [[spin manifold]]. Let $\mathfrak{s}_{m,n}$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_{m,n})=2(ma+nb)$, then:
+$$
+\dim\mathcal{M}_{S^2\times S^2,\mathfrak{s}_{m,n}}
+=\frac{1}{4}\left(4\begin{pmatrix}
+m \\
+n
+\end{pmatrix}^T\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}\begin{pmatrix}
+m \\
+n
+\end{pmatrix}-8\right)
+=2(mn-1)
+\in 2\mathbb{Z}.
+$$
+
 ## Related entries
 
 [[!include Seiberg-Witten theory -- table]]
