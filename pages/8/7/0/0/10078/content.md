@@ -92,6 +92,10 @@ Review:
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
+* James P. Edwards, [[Christian Schubert]],*Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
+
+  > (with emphasis on modern developments)
+
 * Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
 
   > (with emphasis on [[spinning particles]])
@@ -99,8 +103,7 @@ Review:
 
 * James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration*, SIGMA 17 (2021), 065, 19 pages ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
 
-* James P. Edwards, [[Christian Schubert]],
-*Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
+
 
 * Siddarth Ajith, Yuchen Du, Ravisankar Rajagopal, Diana Vaman: *Worldline Formalism, Eikonal Expansion and the Classical Limit of Scattering Amplitudes* &lbrack;[arXiv:2409.17866](https://arxiv.org/abs/2409.17866)&rbrack;
 
@@ -121,13 +124,23 @@ See also:
 * [[Thanu Padmanabhan]], *World-line Path integral for the Propagator expressed as an ordinary integral: Concept and Applications*, Found Phys., 51 35 (2021) ([arXiv:2104.07041](https://arxiv.org/abs/2104.07041), [doi:10.1007/s10701-021-00447-8]( https://doi.org/10.1007/s10701-021-00447-8))
 
 
-Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
+Discussion of the [[Schwinger effect]] via [[worldline formalism]] in constant electromagnetic background fields:
 
 * [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas S. Manton]], _Pair Production At Strong Coupling In Weak External Fields_, Nuclear Physics B Volume 197 (1982) 509 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
 * [[Christian Schubert]], *The worldline formalism in strong-field QED* &lbrack;[arXiv:2304.07404](https://arxiv.org/abs/2304.07404)&rbrack; 
+
+Extension of the [[worldline formalism]] to processes in plane wave and similar backgrounds:
+
+* James P. Edwards, [[Christian Schubert]], *N-photon amplitudes in a plane-wave background*, Phys. Lett. B 822 (2021) 136696 &lbrack;[arXiv:2105.08173](https://arxiv.org/abs/2105.08173)&rbrack; 
+
+* Patrick Copinger, James P. Edwards, Anton Ilderton and Karthik Rajeev, *Master formulas for N-photon tree level amplitudes in plane wave backgrounds*, Phys. Rev. D 109 (2024) 6, 065003 &lbrack;[arXiv:2311.14638](https://arxiv.org/abs/2311.14638)&rbrack;
+ 
+* Patrick Copinger, James P. Edwards and Karthik Rajeev, *Scattering in strong field QED in a non-null background*,  &lbrack;[arXiv:2603.28665](https://arxiv.org/abs/2603.28665)&rbrack;
+
+    
 
 
 Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
