@@ -15,6 +15,9 @@ On using the [[Lean]] [[proof assistant]] for problems in [[high energy physics]
 
 * [[Joseph Tooby-Smith]]: *Formalizing the stability of the two Higgs doublet model potential into Lean: identifying an error in the literature* &lbrack;[arXiv:2603.08139](https://arxiv.org/abs/2603.08139)&rbrack;
 
+
+* Sven Krippendorf, [[Joseph Tooby-Smith]]: *Physics as Code: From Scans to Theorems with ITP APIs in $SU(5)$ Model Building* &lbrack;[arXiv:2603.28406](https://arxiv.org/abs/2603.28406)&rbrack;
+
 Formalization of [[Wick's theorem]] in the [[proof assistant]] [[Lean]]:
 
 * [[Joseph Tooby-Smith]]: *Digitalizing Wick's theorem* &lbrack;[arXiv:2505.07939](https://arxiv.org/abs/2505.07939)&rbrack;
