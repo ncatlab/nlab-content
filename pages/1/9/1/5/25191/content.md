@@ -15,6 +15,10 @@ On [[projective spaces]] in [[synthetic algebraic geometry]]:
 
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry* &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
 
+On the [[universal fibration of (infinity,1)-categories]]:
+
+* [[Christian Sattler]], [[David Wärn]]: *A synthetic construction of universal cocartesian fibrations* &lbrack;[arXiv:2603.28688](https://arxiv.org/abs/2603.28688)&rbrack;
+
 
 
 category: people
