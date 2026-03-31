@@ -1,4 +1,6 @@
 
+>For more see at *[[free coproduct completion]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,10 +11,7 @@
 =--
 =--
 
-# Family fibration
-
-* toc
-{: toc}
+\tableofcontents
 
 ## Definition
 
