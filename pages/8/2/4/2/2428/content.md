@@ -39,9 +39,14 @@ See also:
 
 * [[Imma Gálvez-Carrillo]], Joachim Kock, [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
-* Nicolas Behr, Joachim Kock, _Tracelet Hopf algebras and decomposition spaces_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
+* Nicolas Behr, [[Joachim Kock]], _Tracelet Hopf algebras and decomposition spaces_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
 
 > Tracelets are the intrinsic carriers of causal information in categorical [[rewriting system]]s. In this work, we assemble tracelets into a symmetric monoidal decomposition space, inducing a cocommutative Hopf algebra of tracelets. This Hopf algebra captures important combinatorial and algebraic aspects of rewriting theory, and is motivated by applications of its representation theory to stochastic rewriting systems such as chemical reaction networks. 
+
+On [[categorified]] [[linear algebra]] with negative values:
+
+* [[Joachim Kock]], [[Jesper Michael Møller]], *Signs in objective linear algebra, exemplified with exterior powers and determinants* &lbrack;[arXiv:2603.19437](https://arxiv.org/abs/2603.19437)&rbrack;
+
 
 category: people
 
