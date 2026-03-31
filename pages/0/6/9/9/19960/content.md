@@ -1251,6 +1251,9 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
 * Cornélio Rodrigues Filho, _Glueballs in the Klebanov-Strassler Theory: Pseudoscalars vs Scalars_ ([arXiv:2011.12689](https://arxiv.org/abs/2011.12689))
 
+* Thales Azevedo, Henrique Boschi-Filho: *The connection between a classical vibrating drumhead and the masses of glueballs* &lbrack;[arXiv:2603.26966](https://arxiv.org/abs/2603.26966)&rbrack;
+
+
 
 
 
