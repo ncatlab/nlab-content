@@ -11,9 +11,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -92,17 +91,13 @@ Review:
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
-* James P. Edwards, [[Christian Schubert]],*Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
-
+* [[James P. Edwards]], [[Christian Schubert]]: *Quantum mechanical path integrals in the first quantised approach to quantum field theory* &lbrack;[arXiv:1912.10004](https://arxiv.org/abs/1912.10004)&rbrack;
   > (with emphasis on modern developments)
 
-* Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
-
+* Olindo Corradini, [[Christian Schubert]], [[James P. Edwards]], Naser Ahmadiniaz: *Spinning Particles in Quantum Mechanics and Quantum Field Theory* &lbrack;[arXiv:1512.08694](https://arxiv.org/abs/1512.08694)&rbrack;
   > (with emphasis on [[spinning particles]])
 
-
-* James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration*, SIGMA 17 (2021), 065, 19 pages ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
-
+* [[James P. Edwards]], C. Moctezuma Mata, U. Müller, [[Christian Schubert]]: *New techniques for worldline integration*, SIGMA **17** (2021) 065 &lbrack;[arXiv:2106.12071](https://arxiv.org/abs/2106.12071), [doi:10.3842/SIGMA.2021.065](https://doi.org/10.3842/SIGMA.2021.065)&rbrack;
 
 
 * Siddarth Ajith, Yuchen Du, Ravisankar Rajagopal, Diana Vaman: *Worldline Formalism, Eikonal Expansion and the Classical Limit of Scattering Amplitudes* &lbrack;[arXiv:2409.17866](https://arxiv.org/abs/2409.17866)&rbrack;
@@ -128,19 +123,19 @@ Discussion of the [[Schwinger effect]] via [[worldline formalism]] in constant e
 
 * [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas S. Manton]], _Pair Production At Strong Coupling In Weak External Fields_, Nuclear Physics B Volume 197 (1982) 509 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
 
-* [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
+* [[Gerald Dunne]], [[Christian Schubert]]: _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
-* [[Christian Schubert]], *The worldline formalism in strong-field QED* &lbrack;[arXiv:2304.07404](https://arxiv.org/abs/2304.07404)&rbrack; 
+* [[Christian Schubert]]: *The worldline formalism in strong-field QED* &lbrack;[arXiv:2304.07404](https://arxiv.org/abs/2304.07404)&rbrack; 
 
-Extension of the [[worldline formalism]] to processes in plane wave and similar backgrounds:
+Extension of the [[worldline formalism]] to processes in [[plane wave]] and similar backgrounds:
 
-* James P. Edwards, [[Christian Schubert]], *N-photon amplitudes in a plane-wave background*, Phys. Lett. B 822 (2021) 136696 &lbrack;[arXiv:2105.08173](https://arxiv.org/abs/2105.08173)&rbrack; 
+* [[James P. Edwards]], [[Christian Schubert]]: *$N$-photon amplitudes in a plane-wave background*, Phys. Lett. B **822** (2021) 136696 &lbrack;[arXiv:2105.08173](https://arxiv.org/abs/2105.08173), [doi:10.1016/j.physletb.2021.136696](https://doi.org/10.1016/j.physletb.2021.136696)&rbrack; 
 
-* Patrick Copinger, James P. Edwards, Anton Ilderton and Karthik Rajeev, *Master formulas for N-photon tree level amplitudes in plane wave backgrounds*, Phys. Rev. D 109 (2024) 6, 065003 &lbrack;[arXiv:2311.14638](https://arxiv.org/abs/2311.14638)&rbrack;
+* Patrick Copinger, [[James P. Edwards]], Anton Ilderton, Karthik Rajeev: *Master formulas for $N$-photon tree level amplitudes in plane wave backgrounds*, Phys. Rev. D **109** 6 (2024) 065003 &lbrack;[arXiv:2311.14638](https://arxiv.org/abs/2311.14638), [doi:10.1103/PhysRevD.109.065003](https://doi.org/10.1103/PhysRevD.109.065003)&rbrack;
  
-* Patrick Copinger, James P. Edwards and Karthik Rajeev, *Scattering in strong field QED in a non-null background*,  &lbrack;[arXiv:2603.28665](https://arxiv.org/abs/2603.28665)&rbrack;
+* Patrick Copinger, [[James P. Edwards]], Karthik Rajeev: *Scattering in strong field QED in a non-null background* &lbrack;[arXiv:2603.28665](https://arxiv.org/abs/2603.28665)&rbrack;
 
-    
+
 
 
 Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
@@ -167,15 +162,15 @@ Further development:
 
 * Olindo Corradini, Maurizio Muratori, _String-inspired Methods and the Worldline Formalism in Curved Space_ ([arXiv:1808.05401](https://arxiv.org/abs/1808.05401))
 
-* James P. Edwards, Urs Gerber, [[Christian Schubert]], Maria Anabel Trejo, Thomai Tsiftsi, Axel Weber, _Applications of the worldline Monte Carlo formalism in quantum mechanics_,  ([arXiv:1903.00536](https://arxiv.org/abs/1903.00536))
+* [[James P. Edwards]], Urs Gerber, [[Christian Schubert]], Maria Anabel Trejo, Thomai Tsiftsi, Axel Weber: _Applications of the worldline Monte Carlo formalism in quantum mechanics_, Annals of Physics **411** (2019) 167966 &lbrack;[arXiv:1903.00536](https://arxiv.org/abs/1903.00536), [doi:10.1016/j.aop.2019.167966](https://doi.org/10.1016/j.aop.2019.167966)&rbrack;
 
 * Olindo Corradini, Maurizio Muratori, _A Monte Carlo Approach to the Worldline Formalism in Curved Space_ ([arXiv:2006.02911](https://arxiv.org/abs/2006.02911))
 
-* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 1: Off-shell amplitudes_ ([arXiv:2004.01391](https://arxiv.org/abs/2004.01391)) 
+* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, [[James P. Edwards]], [[Christian Schubert]]: _Worldline master formulas for the dressed electron propagator, part 1: Off-shell amplitudes_ &lbrack;[arXiv:2004.01391](https://arxiv.org/abs/2004.01391)&rbrack;
 
-* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 2: On-shell amplitudes_ ([arXiv:2107.00199](https://arxiv.org/abs/2107.00199)) 
+* Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, [[James P. Edwards]], [[Christian Schubert]]: _Worldline master formulas for the dressed electron propagator, part 2: On-shell amplitudes_,  J. High Energ. Phys. **2022** 50 (2022) &lbrack;[arXiv:2107.00199](https://arxiv.org/abs/2107.00199), <a href=" https://doi.org/10.1007/JHEP01(2022)050">doi:10.1007/JHEP01(2022)050</a>&rbrack;
 
-* [[Christian Schubert]] et al., *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585) &rbrack;
+* [[Christian Schubert]] et al.: *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585) &rbrack;
 
 * [[Christian Schubert]] et al.: *Worldline integration of photon amplitudes*, talk at *[Loops and Legs in Quantum Field Theory (LL2024)](https://inspirehep.net/conferences/2693400)* &lbrack;[arXiv:2407.07383](https://arxiv.org/abs/2407.07383)&rbrack;
 
