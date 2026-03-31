@@ -34,6 +34,12 @@ A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in
 
 * [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
+On the [[universal fibration of (infinity,1)-categories]]:
+
+* [[Christian Sattler]], [[David Wärn]]: *A synthetic construction of universal cocartesian fibrations* &lbrack;[arXiv:2603.28688](https://arxiv.org/abs/2603.28688)&rbrack;
+
+
+
 ## Related entries
 
 * [[nlabmeta:technical board]]
