@@ -258,6 +258,9 @@ See also:
 * [[Eric A. Bergshoeff]], Kevin T. Grosvenor, Luca Romano, Ziqi Yan: *Heterotic String Sigma Models: Discrete Light Cone Quantization and Its Current-Current Deformation* &lbrack;[arXiv:2505.07458](https://arxiv.org/abs/2505.07458)&rbrack;
   > (on [[discrete light cone quantization]])
 
+* [[Yuji Tachikawa]]: *On the trivalent junction of three non-tachyonic heterotic string theories* &lbrack;[arXiv:2603.28133](https://arxiv.org/abs/2603.28133)&rbrack;
+
+
 
 
 
