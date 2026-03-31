@@ -565,9 +565,18 @@ for the moment see
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
+On the [[(infinity,1)-Grothendieck construction]] via [[straightening and unstraightening]] entirely within the context of [[quasi-categories]]:
+
+* [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], *The universal coCartesian fibration* &lbrack;[arXiv:2210.08945](https://arxiv.org/abs/2210.08945)&rbrack;
+
 Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
 
 * [[Louis Martini]], *Cocartesian fibrations and straightening internal to an ∞-topos* &lbrack;[arXiv:2204.00295](https://arxiv.org/abs/2204.00295)&rbrack;
+
+A synthetic treatment of universal cocartesian fibrations
+
+* [[Christian Sattler]], [[David Wärn]], *A synthetic construction of universal cocartesian fibrations* &lbrack;[arXiv:2603.28688](https://arxiv.org/abs/2603.28688)&rbrack;
+
 
 
 
