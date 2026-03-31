@@ -465,6 +465,11 @@ concerning abstract characterization:
 
 Certain specially nice $\dagger$-categories, such as [[C-star-category|$C^*$-categories]] and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
 
+For an alternate characterization of dagger categories in terms of inner product categories:
+
+* [[Robin Cockett]], Durgesh Kumar, Priyaa Varshinee Srinivasan, *Unitary, Inner product, and Dagger categories* &lbrack;[arXiv:2603.27614](https://arxiv.org/abs/2603.27614)&rbrack;
+
+
 ### Higher dagger categories
  {#ReferencesHigherDagger}
 
