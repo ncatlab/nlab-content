@@ -25,12 +25,66 @@ An important aspect of [[group theory]] is the study of [[normal subgroups]]. A 
 
 (Taken from [Bourn04](#Bourn04))
 
-Consider any [[finitely complete category]] $\mathcal{C}$ and denote by $Pt\mathcal{C}$ the category whose objects are the [[split epimorphisms]] in $\mathcal{C}$ with a given splitting and morphisms the commutative squares between these data. Denote by $\pi: Pt\mathcal{C} \to \mathcal{C}$ the functor associating its [[codomain]] to any split epimorphism. Since the category $\mathcal{C}$ has [[pullbacks]], the functor $\pi$ is a [[fibration]] which is called the [[fibration of points]].
+Consider any [[finitely complete category]] $\mathcal{C}$ and denote by $Pt\mathcal{C}$ the category whose objects are the [[split epimorphisms]] in $\mathcal{C}$ with a given splitting and whose morphisms are the commutative squares between these data.
 
-Any map $f: X \to Y$ induces, by pullbacks, a [[base change]] functor denoted
-$f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C}$ between the fibres above $Y$ and $X$.
+For all objects $X$ in $\mathcal{C}$, the category $Pt_X \mathcal{C}$ has as objects all split epimorphisms over $X$, and morphisms the commutative triangles.
 
-Then a [[left exact category]] $\mathcal{C}$ is said to be **protomodular** when the fibration $\pi$ has [[conservative functor|conservative]] base change functors, i.e., ones that reflect isomorphisms. A protomodular category is necessarily [[Mal'cev category|Mal'cev]].
+If $\mathcal{C}$ has pullbacks, any morphism $f: X \to Y$ in $\mathcal{C}$ induces a [[base change]] functor
+\[
+f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C},
+\]
+which takes the pullback of a split epimorphism over $Y$ along $f$.
+
+Denote by $\pi: Pt\mathcal{C} \to \mathcal{C}$ the functor associating to a split epimorphism its [[codomain]]. Since $\mathcal{C}$ has [[pullbacks]], the functor $\pi$ is a [[fibration]], called the [[fibration of points]].
+
+\begin{theorem}
+Let $\mathcal{C}$ be a pointed, finitely complete category. The following are equivalent:
+
+1\. The **Split Short Five Lemma** holds. That is, given any commutative diagram
+\begin{tikzcd}
+A \arrow[r,"f"] \arrow[d,"\alpha"'] & B \arrow[r,"g"] \arrow[d,"\beta"'] & C \arrow[d,"\gamma"'] \\
+A' \arrow[r,"f'"'] & B' \arrow[r,"g'"'] & C'
+\end{tikzcd}
+in $\mathcal{C}$ where $f=\ker g$ and $f'=\ker g'$. If $g,g'$ are split epimorphisms and $\alpha, \gamma$ are isomorphisms, then $\beta$ is also an isomorphism; 
+
+2\. For any object $Y$ in $\mathcal{C}$, the kernel functor
+\[
+1^{\ast}: Pt_Y \mathcal{C} \to Pt_1 \mathcal{C}
+\]
+is [[conservative functor|conservative]] (reflects isomorphisms); 
+
+3\. For any morphism $f: X \to Y$ in $\mathcal{C}$, the change-of-base functor
+\[
+f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C}
+\]
+reflects isomorphisms;
+
+4\. For any pullback of split epimorphisms,
+\begin{tikzcd}
+X\times_Y B \arrow[r,"q"] \arrow[d,"p'"'] 
+& B \arrow[d,"p"] \\
+X \arrow[r,"f"'] 
+& Y
+\arrow[phantom, from=1-1, to=2-2, "\lrcorner"]
+\end{tikzcd}
+with $s: Y \to B$ the splitting of $p$, the pair $(q,s)$ is jointly [[extremal epimorphism|extremally epic]];
+
+5\. For any commutative diagram
+\begin{tikzcd}
+A \arrow[r,"q"] \arrow[d,"p'"'] 
+& B \arrow[r,"q'"] \arrow[d,"p"'] 
+& C \arrow[d,"h"] \\
+X \arrow[r,"f"'] 
+& Y \arrow[r,"f'"'] 
+& Z
+\end{tikzcd}
+
+in which $p,p'$ are split epimorphisms, the left-hand square and the outer rectangle are pullbacks, then so is the right-hand square.
+\end{theorem}
+
+\begin{definition}
+A finitely complete category $\mathcal{C}$ is **protomodular** if it satisfies any of the equivalent conditions $(3)$--$(5)$ above. Moreover, when $\mathcal{C}$ is pointed, it is protomodular if it satisfies any of the equivalent conditions above.
+\end{definition}
 
 ## Examples
 
