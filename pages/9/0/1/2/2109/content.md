@@ -336,7 +336,7 @@ Using the uniqueness of factorization through the universal squares, we can conc
 </td>
 </tr>
 </table>
-are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  Together these are the defining equations of a companion and a conjoint.
+are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a companion and a conjoint.
 
 Finally, we record the following.
 
