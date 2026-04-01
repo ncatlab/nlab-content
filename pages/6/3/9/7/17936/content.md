@@ -18,9 +18,11 @@ On [[homotopy theory]]:
 
 * [[Jesper Michael Møller]], _Homotopy theory for beginners_, 2015 ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf), [[Moller_HomotopyTheory.pdf:file]])
 
-On [[categorified]] [[linear algebra]] with negative values:
+On [[categorified]] [[linear algebra]] with negative and other values:
 
 * [[Joachim Kock]], [[Jesper Michael Møller]], *Signs in objective linear algebra, exemplified with exterior powers and determinants* &lbrack;[arXiv:2603.19437](https://arxiv.org/abs/2603.19437)&rbrack;
+
+* [[Joachim Kock]], [[Jesper Michael Møller]], *Groupoid G-spans and matrices over group rings* &lbrack;[arXiv:2603.20787](https://arxiv.org/abs/2603.20787)&rbrack;
 
 
 
