@@ -159,7 +159,9 @@ factors through the universal one uniquely:
   \arrow[Rightarrow, from=U, to=D]
   \arrow[Rightarrow, from=T, to=U1, "\exists !"']
 \end{tikzcd}
-The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
+The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  
+
+We show that they are a companion and conjoint of $f$, respectively, as follows.
 
 By factoring the identity square
 \begin{tikzcd}
@@ -240,7 +242,7 @@ that define $B(1,f)$ and $B(f,1)$, we obtain additional squares
 </td>
 </tr>
 </table>
-such that the composites
+such that the vertical composites
 <table>
 <tr>
 <td style="border: none;">
@@ -287,7 +289,9 @@ such that the composites
 </td>
 </tr>
 </table>
-are both equal to $U_f$.  And using the uniqueness of factorization through the universal squares, we can conclude moreover that the composites
+are both equal to $U_f$.  
+
+Using the uniqueness of factorization through the universal squares, we can conclude moreover that the horizontal composites
 <table>
 <tr>
 <td style="border: none;">
@@ -332,7 +336,7 @@ are both equal to $U_f$.  And using the uniqueness of factorization through the 
 </td>
 </tr>
 </table>
-are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These are the defining equations of a companion and a conjoint.
+are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  Together these are the defining equations of a companion and a conjoint.
 
 Finally, we record the following.
 
