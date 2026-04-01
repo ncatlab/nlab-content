@@ -22,6 +22,7 @@ On a higher dimensional analog of [[FQH liquids]]:
 
 * [[Giandomenico Palumbo]]: *Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects* &lbrack;[arXiv:2602.15664](https://arxiv.org/abs/2602.15664)&rbrack;
 
+* [[Giandomenico Palumbo]]: *Noncommutative Geometry and Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects*, [talk at](CQTS#PalumboMar2026) [[CQTS]] @ NYU Abu Dhabi (Mar 2026) &lbrack;[[Palumbo-CQTS2026.pdf:file]]&rbrack;
 
 
 category: people
