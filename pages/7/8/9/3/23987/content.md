@@ -3312,6 +3312,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Noncommutative Geometry and Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects**
 
+  slides: [[Palumbo-CQTS2026.pdf:file]]
+
   cf.: [arXiv:2602.15664](https://arxiv.org/abs/2602.15664)
  
   > In two-dimensional [[quantum Hall systems]], the [Girvin-MacDonald-Platzman (GMP) algebra](W+algebra#ReferencesInQuantumHallSystems) encodes the [[noncommutative geometry]] of guiding-center coordinates of point-like particles and organizes the structure of [collective excitations](quantum+Hall+effect#CollectiveExcitations). In this talk, I will present a [[geometry|geometric]] and [[effective field theory|field-theoretic]] extension of this framework to three-dimensional quantum Hall fluids of extended objects in the presence of a strong and constant background [[B-field|three-form $H$ field]]. I will consider quasi-[[strings]] coupled to a [[Kalb-Ramond field|Kalb-Ramond]] two-form $B$ with [[curvature]] $H = d B$, naturally associated with a [[bundle gerbe]]. In the strong-field regime, I will show that fast internal degrees of freedom are frozen, and the low-energy theory is governed by generalized guiding-center variables involving both vectorial and antisymmetric tensorial coordinates. I will derive their projected algebra and [[noncommutative geometry]] that give rise to a three-dimensional generalization of the [GMP algebra](W+algebra#ReferencesInQuantumHallSystems) for projected density operators. I will also explain how, in the long-[[wavelength]] limit, this structure realizes [[volume-preserving diffeomorphisms]] in an associative tensorial framework, and how the same guiding-center algebra is reproduced by the canonical quantization of a 3+1-dimensional [[BF theory|BF+BB]] [[topological field theory]]. In this correspondence, the quantized level is identified with the [[Dixmier-Douady class|Dixmier-Douady invariant]] of the underlying [[bundle gerbe|gerbe]] structure. The result provides a higher-form geometric perspective on incompressible quantum Hall-type phases in three spatial dimensions and clarifies the interplay between extended excitations, noncommutative geometry, and topological field theory.
@@ -4630,6 +4632,16 @@ Neumann algebras**
   slides: [[Antz-CQTS-Feb2026.pdf:file]]
 
   > [[magnetic monopole|Magnetic monopoles]] have never been observed, but have interesting implications: In [[physics]], [[magnetic monopoles]] complete the deep symmetry of [[Maxwell's equations]] given by [[electric-magnetic duality]] and also imply the [[charge quantization|quantization of]] [[electric charge]], which has indeed been observed. In [[mathematics]], [[magnetic monopoles]] naturally lead to the [[fiber bundles in physics|description by]] [[principal bundles]] required by local triviality and global non-triviality as well as a larger space necessary to glue them together using the underlying [[symmetry]]. In the framework of [[principal bundles]] and in particular [[connection on a principal bundle|connections on them]], the [[Yang-Mills equations]] then provide a strong generalization of [[Maxwell's equations]]. Since these are non-linear in general, the [[Yang-Mills equations]] can be used to describe self-interactions in physics, which includes the [[strong nuclear force|strong interaction]] in [[quantum chromodynamics]] and also [[gravity]] in [[general relativity]].
+
+\linebreak
+
+* {#Tellez-DominguezApr2026} 01 Apr 2026
+
+  Roberto Tellez-Dominguez (CEU San Pablo University, Spain):
+
+  **T2-Duality: Lifting Geometric T-Duality to M-theory via adjusted Lie 3-groups**
+
+  > Recent work of [Nikolaus-Waldorf](T-fold#ReferencesViaHigherGeometry) and [Kim-Sämann](adjusted Weil algebra#References) has provided a description of topology-changing [[T-duality|T-dualities]] in terms of adjusted [[Lie 2-groups]]. This framework has the advantage of giving explicit [[cocycle]] data for the construction of the dual [[Riemannian metric|metric]] and [[Kalb-Ramond fields]], generalizing the [[Buscher rules]] to general topology, and allowing for practical construction of examples. In this talk I will cover joint work with Sämann and Gagliardo, in which we have used adjusted [[Lie 3-groups]] to define a topology-changing transformation of [[supergravity C-field|C-fields]] over [[torus]] [[fibrations]]. It admits a [[dimensional reduction]] to [[T-duality]], and it incorporates [[S-duality]], in the sense that it is [[equivarance|equivariant]] under the [[modular group]] of the torus. Therefore, it constitutes a first step towards the construction of [[U-duality|U-folds]].
 
 \linebreak
 
