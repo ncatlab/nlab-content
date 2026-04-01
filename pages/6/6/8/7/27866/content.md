@@ -32,7 +32,7 @@ the [[spinᶜ structure]] $\mathfrak{s}$ consists of two complex plane bundles $
 
 ## Seiberg-Witten invariants
 
-Let $\mathcal{M}_{M,\mathfrak{s},g,\eta}^\mathrm{SW}$ (or just $\mathcal{M}$ in the following) be the [[moduli space]] of the [[disturbed Seiberg-Witten equations]], hence the space of its solution up to gauge, depending on the manifold $M$, the [[spinᶜ structure]] $\mathfrak{s}$, the metric $g$ and the disturbation $\eta$. Using the [[Atiyah-Singer index theorem]], its [[dimension]] is given by the [[Euler characteristic]] and the [[signature]] of the underlying manifold as:
+Let $\mathcal{M}_{M,\mathfrak{s},g,\eta}^\mathrm{SW}$ (or just $\mathcal{M}$ in the following) be the [[moduli space]] of the [[perturbed Seiberg-Witten equations]], hence the space of its solution up to gauge, depending on the manifold $M$, the [[spinᶜ structure]] $\mathfrak{s}$, the metric $g$ and the disturbation $\eta$. Using the [[Atiyah-Singer index theorem]], its [[dimension]] is given by the [[Euler characteristic]] and the [[signature]] of the underlying manifold as:
 $$
 \dim\mathcal{M}
 =\frac{1}{4}\left(
@@ -64,6 +64,70 @@ c^2
 \geq 2\chi(M)
 +3\sigma(M).
 $$
+
+## Properties
+
+\begin{proposition}
+On a smooth [[4-manifold]] $M$ with $b_2^+(M)=1$, which admits a [[Riemannian metric]] of positive [[scalar curvature]], all [[Seiberg-Witten invariants]] vanish.
+\end{proposition}
+
+([Nicolaescu 00, Crl. 2.3.8](#Nicolaescu00))
+
+\begin{proposition}
+Let $M$ be a [[closed manifold|closed]] [[oriented]] [[Riemannian manifold|Riemannian]] [[4-manifold]] with $b_2^+(M)\geq 2$.
+
+* If $SW_M(\mathfrak{s})=0$ for all [[spinᶜ structures]] $\mathfrak{s}$, then $M$ doesn't admit [[symplectic structures]].
+
+* If $|SW_M(\mathfrak{s})|\neq 1$ for all [[spinᶜ structures]] $\mathfrak{s}$, then $M$ doesn't admit [[symplectic structures]].
+
+\end{proposition}
+
+([Nicolaescu 00, Crl. 3.3.33](#Nicolaescu00))
+
+A combination of both previous results shows that if $M$ has a [[Riemannian metric]] of positive [[scalar curvature]], it doesn't admit [[symplectic structures]].
+
+\begin{proposition}
+For two [[compact]] [[oriented]] [[Riemannian manifold|Riemannian]] [[4-manifolds]] $M$ and $N$ with $b_2^+(M),b_2^+(N)\geq 1$, one has:
+$$
+SW_{M#N}(\mathfrak{s})
+=0
+$$
+for all [[spinᶜ structures]] $\mathfrak{s}$.
+\end{proposition}
+
+([Nicolaescu 00, Thrm. 4.6.1](#Nicolaescu00))
+
+A combination of both previous results shows that [[symplectic manifolds]] don't decompose as a [[connected sum]] $M#N$ with $b_2^+(M),b_2^+(N)\geq 1$. ([Nicolaescu 00, Crl. 4.6.2](#Nicolaescu00)) Since the classification of [[4-manifolds]] is extremely difficult and still unresolved, many attempts have therefore focussed on [[symplectic manifolds]].
+
+Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] on the [[orientation]]-reveresed second [[complex projective space]] $\overline{\mathbb{C}P^2}$ with $c_1(\mathfrak{s}_n)=(2n+1)c_1(S^5)$ (with the latter being the first [[Chern class]] of the [[principal U(1)-bundle]] $S^5\twoheadrightarrow\mathbb{C}P^2$ and a generator $c_1(S^5)\in H^2(\mathbb{C}P^2,\mathbb{Z})\cong\mathbb{Z}$).
+\begin{proposition}
+**(Blow-up formula)**
+For a [[compact]] [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] $M$ with a [[spinᶜ structure]] $\mathfrak{s}$, one has:
+$$
+|SW_{M#\overline{\mathbb{C}P^2},\mathfrak{s}#\mathfrak{s}_n}|
+=\begin{cases}
+0 & dim\mathcal{M}_{M,\mathfrak{s}}\lt\pm n(n+1) \\
+|SW_M(\mathfrak{s})| & dim\mathcal{M}_{M,\mathfrak{s}}\geq n(n+1)
+\end{cases}
+$$
+\end{proposition}
+
+([Nicolaescu 00, Thrm. 4.6.7](#Nicolaescu00))
+
+\begin{proposition}
+For a [[Kähler surface]] $M$ with canonical [[spinᶜ structure]] $\mathfrak{s}_0$, one has:
+$$
+SW_M(\mathfrak{s}_0)
+=1;
+$$
+$$
+SW_M^+(\mathfrak{s}_0)
+=1
+$$
+for $b_2^+(M)\geq 2$ and $b_2^+(M)=1$, respectively. If $M$ is a [[K3 surface]], then $\overline\mathfrak{s}_0=\mathfrak{s}_0$ and it is the only basic class.
+\end{proposition}
+
+([Nicolaescu 00, Thrm. 3.3.2 & Crl. 3.3.3](#Nicolaescu00))
 
 ## Related concepts
 
