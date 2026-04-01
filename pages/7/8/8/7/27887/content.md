@@ -187,6 +187,32 @@ SW(M,\mathfrak{s})
 \coloneqq\langle c_1(\mathcal{M}_\eta)^{\frac{dim\widetilde\mathcal{M}_\eta}{2}},[\widetilde\mathcal{M}_\eta]\rangle.
 $$
 
+## Properties
+
+\begin{proposition}
+Under a change of the [[spinᶜ structure]], one has:
+$$
+dim\mathcal{M}_{M,\mathfrak{s}\otimes L}
+=dim\mathcal{M}_{M,\mathfrak{s}}
++c_1(L)(c_1(\mathfrak{s})+c_1(L))[M].
+$$
+\end{proposition}
+\begin{proof}
+One has $c_1(\mathfrak{s}\otimes L)=c_1(\mathfrak{s})+2c_1(L)$ and therefore $c_1^2(\mathfrak{s}\otimes L)=c_1^2(\mathfrak{s})+4c_1(L)(c_1(\mathfrak{s})+c_1(L))$.
+\end{proof}
+\begin{proposition}
+Under a [[connected sum]], one has:
+$$
+dim\mathcal{M}_{M#N,\mathfrak{s}#\mathfrak{t}}
+=dim\mathcal{M}_{M,\mathfrak{s}}
++dim\mathcal{M}_{N,\mathfrak{t}}
++1.
+$$
+\end{proposition}
+\begin{proof}
+One has $Q_{M#N}=Q_M\oplus Q_N$ for the [[intersection forms]] and therefore $c_1^2(\mathfrak{s}#\mathfrak{t})[M#N]=c_1^2(\mathfrak{s})[M]+c_1^2(\mathfrak{t})[N]$. One has  $\chi(M#N)=\chi(M)+\chi(N)-2$ and $\sigma(M#N)=\sigma(M)+\sigma(N)$.
+\end{proof}
+
 ## Examples
 
 ### Seiberg-Witten moduli space of $\mathbb{C}P^2$
