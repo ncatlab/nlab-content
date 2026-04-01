@@ -217,13 +217,14 @@ One has $Q_{M#N}=Q_M\oplus Q_N$ for the [[intersection forms]] and therefore $c_
 
 ### Seiberg-Witten moduli space of $\mathbb{C}P^2$
 
-The second [[complex projective space]] $\mathbb{C}P^2$ has [[Euler characteristic]] $\chi(\mathbb{C}P^2)=3$ and [[signature]] $\sigma(\mathbb{C}P^2)=1$, so $(2\chi+3\sigma)(\mathbb{C}P^2)=9$. Its first [[Chern class]] fulfills $c_1(\mathbb{C}P^2)=3c_1(S^5)$ (with the latter being the first [[Chern class]] of the [[principal U(1)-bundle]] $S^5\twoheadrightarrow\mathbb{C}P^2$ and a generator $c_1(S^5)\in H^2(\mathbb{C}P^2,\mathbb{Z})\cong\mathbb{Z}$). Its second [[Stiefel-Whitney class]] fulfills $w_2(\mathbb{C}P^2)=c_1(\mathbb{C}P^2) mod 2=3c_1(S^5) mod 2$, meaning that $3c_1(S^5)$ is an integral lift. Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_n)=(2n+3)c_1(S^5)$ (so that $\mathfrak{s}_0$ corresponds to $S^5\twoheadrightarrow\mathbb{C}P^2$), then:
+The second [[complex projective space]] $\mathbb{C}P^2$ has [[Euler characteristic]] $\chi(\mathbb{C}P^2)=3$ and [[signature]] $\sigma(\mathbb{C}P^2)=1$, so $(2\chi+3\sigma)(\mathbb{C}P^2)=9$. Its first [[Chern class]] fulfills $c_1(\mathbb{C}P^2)=3c_1(S^5)$ (with the latter being the first [[Chern class]] of the [[principal U(1)-bundle]] $S^5\twoheadrightarrow\mathbb{C}P^2$ and a generator $c_1(S^5)\in H^2(\mathbb{C}P^2,\mathbb{Z})\cong\mathbb{Z}$). Its second [[Stiefel-Whitney class]] fulfills $w_2(\mathbb{C}P^2)=c_1(\mathbb{C}P^2) mod 2=3c_1(S^5) mod 2$, meaning that $3c_1(S^5)$ is an integral lift. Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_n)=(2n+3)c_1(S^5)$ (so that $\mathfrak{s}_{-1}$ corresponds to $S^5,\gamma_\mathbb{C}^{1,1}\twoheadrightarrow\mathbb{C}P^2$ and $\mathfrak{s}_0$ corresponds to $T\mathbb{C}P^2\twoheadrightarrow\mathbb{C}P^2$), then:
 $$
-\dim\mathcal{M}_{\mathbb{C}P^2,\mathfrak{s}_n}
+dim\mathcal{M}_{\mathbb{C}P^2,\mathfrak{s}_n}
 =\frac{1}{4}((2n+3)^2-9)
 =n^2+3n
 \in 2\mathbb{Z}.
 $$
+For $n=-3,0$, one has $\dim\mathcal{M}_{\mathbb{C}P^2,\mathfrak{s}_n}=0$.
 
 ([Nicolaescu 2000, p. 168](#Nicolaescu00))
 
@@ -233,17 +234,18 @@ Due to non-vanishing [[Seiberg-Witten invariants]] for $n\geq 0$ despite a posit
 
 The [[orientation]]-reversed second [[complex projective space]] $\overline{\mathbb{C}P^2}$ has self-dual [[Betti number]] $b_2^+(\overline{\mathbb{C}P^2})=0$, so the [[Seiberg-Witten moduli space]] depends on the chosen metric, which already disqualifies consideration. It has [[Euler characteristic]] $\chi(\overline{\mathbb{C}P^2})=3$ and [[signature]] $\sigma(\overline{\mathbb{C}P^2})=-1$, so $(2\chi+3\sigma)(\mathbb{C}P^2)=3$. Its first [[Chern class]] fulfills $c_1(\overline{\mathbb{C}P^2})=-3c_1(S^5)$ and its second [[Stiefel-Whitney class]] fulfills $w_2(\overline{\mathbb{C}P^2})=c_1(\overline{\mathbb{C}P^2}) mod 2=-3c_1(S^5) mod 2$, meaning that $-3c_1(S^5)$ is an integral lift. Let $\mathfrak{s}_n$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_n)=(2n-3)c_1(S^5)$, then (using the negative sign in its intersection form):
 $$
-\dim\mathcal{M}_{\overline{\mathbb{C}P^2},\mathfrak{s}_n}
+dim\mathcal{M}_{\overline{\mathbb{C}P^2},\mathfrak{s}_n}
 =\frac{1}{4}(-(2n-3)^2-3)
 =-n^2+3n-3
 \in 2\mathbb{Z}+1.
 $$
+For $n=1,2$, one has $dim\mathcal{M}_{\overline{\mathbb{C}P^2},\mathfrak{s}_n}=-1$ and therefore $dim\mathcal{M}_{M#\overline{\mathbb{C}P^2},\mathfrak{s}#\mathfrak{s}_n}=dim\mathcal{M}_{M,\mathfrak{s}}$ according to the above [[connected sum]] formula. For $n=0,3$, one has $dim\mathcal{M}_{\overline{\mathbb{C}P^2},\mathfrak{s}_n}=-3$ and therefore $dim\mathcal{M}_{M#\overline{\mathbb{C}P^2},\mathfrak{s}#\mathfrak{s}_n}=dim\mathcal{M}_{M,\mathfrak{s}}-2$ according to the above [[connected sum]] formula.
 
 ### Seiberg-Witten moduli space of $S^2\times S^2$
 
 The [[complex surface]] $S^2\times S^2\cong\mathbb{C}P^1\times\mathbb{C}P^1$ has self-dual [[Betti number]] $b_2^+(S^2\times S^2)=0$, so the [[Seiberg-Witten moduli space]] depends on the chosen metric, which already disqualifies consideration. It has [[Euler characteristic]] $\chi(S^2\times S^2)=4$ and [[signature]] $\sigma(S^2\times S^2)=0$, so $(2\chi+3\sigma)(S^2\times S^2)=8$. Its first [[Chern class]] fulfills $c_1(S^2\times S^2)=2(a+b)$ with generators $a,b\in H^2(S^2\times S^2,\mathbb{Z})\cong\mathbb{Z}^2$ and its second [[Stiefel-Whitney class]] fulfills $w_2(S^2\times S^2)=c_1(S^2\times S^2) mod 2=0$, meaning that $S^2\times S^2$ is a [[spin manifold]]. Let $\mathfrak{s}_{m,n}$ be the [[spinᶜ structure]] with the other integral lifts $c_1(\mathfrak{s}_{m,n})=2(ma+nb)$, then:
 $$
-\dim\mathcal{M}_{S^2\times S^2,\mathfrak{s}_{m,n}}
+dim\mathcal{M}_{S^2\times S^2,\mathfrak{s}_{m,n}}
 =\frac{1}{4}\left(4\begin{pmatrix}
 m \\
 n
