@@ -43,9 +43,11 @@ See also:
 
 > Tracelets are the intrinsic carriers of causal information in categorical [[rewriting system]]s. In this work, we assemble tracelets into a symmetric monoidal decomposition space, inducing a cocommutative Hopf algebra of tracelets. This Hopf algebra captures important combinatorial and algebraic aspects of rewriting theory, and is motivated by applications of its representation theory to stochastic rewriting systems such as chemical reaction networks. 
 
-On [[categorified]] [[linear algebra]] with negative values:
+On [[categorified]] [[linear algebra]] with negative and other values:
 
 * [[Joachim Kock]], [[Jesper Michael Møller]], *Signs in objective linear algebra, exemplified with exterior powers and determinants* &lbrack;[arXiv:2603.19437](https://arxiv.org/abs/2603.19437)&rbrack;
+
+* [[Joachim Kock]], [[Jesper Michael Møller]], *Groupoid G-spans and matrices over group rings* &lbrack;[arXiv:2603.20787](https://arxiv.org/abs/2603.20787)&rbrack;
 
 
 category: people
