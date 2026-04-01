@@ -338,6 +338,53 @@ Using the uniqueness of factorization through the universal squares, we can conc
 </table>
 are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a companion and a conjoint.
 
+The unit and counit of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the horizontal composites:
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+ A
+   \arrow[r,  "U_A", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "U_A", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & A
+  \arrow[d, "id"]
+ \\
+ A
+   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+ B
+   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & B
+  \arrow[d, "id"]
+ \\
+ B
+   \arrow[r,  "U_B"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "U_B"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+
+
 Finally, we record the following.
 
 +-- {: .num_lemma}
