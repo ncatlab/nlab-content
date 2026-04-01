@@ -17,6 +17,10 @@ On the [[Gray tensor product]] in the context of [[(∞,2)-categories]]:
 
 * [[Félix Loubaton]], [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
 
+A treatment of [[Day convolution]] for [[algebraic patterns]]:
+
+* Thomas Blom, [[Félix Loubaton]], [[Jaco Ruit]], *Day convolution for algebraic patterns* &lbrack;[arXiv:2603.29815](https://arxiv.org/abs/2603.29815)&rbrack;
+
 ## See also
 
 * [[straightening functor]]
