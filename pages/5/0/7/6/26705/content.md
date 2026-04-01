@@ -7,7 +7,7 @@
 
 ## Idea
 
-An [[algebraic pattern]] is a blueprint for a notion of functors on a fixed category satisfying a [[Segal condition]], suitable for formalizing homotopy-coherent algebra in the Cartesian setting.
+An **algebraic pattern** is a blueprint for a notion of functors on a fixed category satisfying a [[Segal condition]], suitable for formalizing homotopy-coherent algebra in the Cartesian setting.
 
 ## Definitions
 
@@ -144,4 +144,11 @@ Slice patterns and morita equivalences appear in:
 
 * [[Shaul Barkan]], _Arity Approximation of ∞-Operads_, (2022) ([arXiv:2207.07200](https://arxiv.org/abs/2207.07200))
 
+A treatment of [[Day convolution]] for algebraic patterns:
+
+* Thomas Blom, [[Félix Loubaton]], [[Jaco Ruit]], *Day convolution for algebraic patterns* &lbrack;[arXiv:2603.29815](https://arxiv.org/abs/2603.29815)&rbrack;
+
+
 [[!redirects segal object]]
+
+[[!redirects algebraic patterns]]
