@@ -16,6 +16,10 @@ On the [[Gray tensor product]] in the context of [[(∞,2)-categories]]:
 
 * [[Félix Loubaton]], answer to: *The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book* (Jul 2025) &lbrack;[MO:a/497541](https://mathoverflow.net/a/497541/)&rbrack;
 
+A treatment of [[Day convolution]] for [[algebraic patterns]]:
+
+* Thomas Blom, [[Félix Loubaton]], [[Jaco Ruit]], *Day convolution for algebraic patterns* &lbrack;[arXiv:2603.29815](https://arxiv.org/abs/2603.29815)&rbrack;
+
 category: people
 
 [[!redirects Flix Loubaton]]
