@@ -73,7 +73,7 @@ The stability of all colimits is one of [[Giraud's axioms]] that characterize [[
 
 * First observe that colimits are stable in $C =$ [[Set]].
 * Now colimits are stable for $C =$ a [[presheaf]] category $[S^{op},Set]$, since colimits in such $C$ are computed objectwise in $Set$.  (See [[limits and colimits by example]].)
-* Finally, stability of colimits is preserved in reflective subcategories, since the reflector preserves both colimits and pullbacks.
+* Finally, stability of colimits is preserved in left exact reflective subcategories, since the reflector preserves both colimits and pullbacks.
 
 For [[(∞,1)-toposes]], this is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (3) ii)]]
 
