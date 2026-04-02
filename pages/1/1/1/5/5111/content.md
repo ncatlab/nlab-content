@@ -59,7 +59,7 @@ Given an additive cocontinuous functor $F \colon Mod_R \to Mod_S$, the reconstru
 +-- {: .num_remark}
 ###### Remark
 
-The theorem holds for nonunital rings as well, but then $B$ reconstructs as $F(R_1)$ where $R_1$ is the extension of $R$ by adjoining the unit element (the tensor product is still over the original $R$). If $F$ is a [[flat functor]] then $F(R_1)$ is a [[flat module]] over $R$. 
+The theorem holds for nonunital rings as well, but then $N$ reconstructs as $F(R_1)$ where $R_1$ is the extension of $R$ by adjoining the unit element (the tensor product is still over the original $R$). If $F$ is a [[flat functor]] then $F(R_1)$ is a [[flat module]] over $R$. 
 
 =--
 
