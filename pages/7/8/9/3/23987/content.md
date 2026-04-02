@@ -4637,11 +4637,13 @@ Neumann algebras**
 
 * {#Tellez-DominguezApr2026} 01 Apr 2026
 
-  Roberto Tellez-Dominguez (CEU San Pablo University, Spain):
+  [[Roberto Téllez Domínguez]] (CEU San Pablo University, Spain):
 
-  **T2-Duality: Lifting Geometric T-Duality to M-theory via adjusted Lie 3-groups**
+  **$T_2$-Duality: Lifting Geometric T-Duality to M-theory via adjusted Lie 3-groups**
 
-  > Recent work of [Nikolaus-Waldorf](T-fold#ReferencesViaHigherGeometry) and [Kim-Sämann](adjusted Weil algebra#References) has provided a description of topology-changing [[T-duality|T-dualities]] in terms of adjusted [[Lie 2-groups]]. This framework has the advantage of giving explicit [[cocycle]] data for the construction of the dual [[Riemannian metric|metric]] and [[Kalb-Ramond fields]], generalizing the [[Buscher rules]] to general topology, and allowing for practical construction of examples. In this talk I will cover joint work with Sämann and Gagliardo, in which we have used adjusted [[Lie 3-groups]] to define a topology-changing transformation of [[supergravity C-field|C-fields]] over [[torus]] [[fibrations]]. It admits a [[dimensional reduction]] to [[T-duality]], and it incorporates [[S-duality]], in the sense that it is [[equivarance|equivariant]] under the [[modular group]] of the torus. Therefore, it constitutes a first step towards the construction of [[U-duality|U-folds]].
+  cf.: [arXiv:2505.13368](https://arxiv.org/abs/2505.13368)
+
+  > Recent work of [Nikolaus-Waldorf](T-fold#NikolausWaldorf18) and [Kim-Sämann](adjusted+Weil+algebra#KimSaemann20) has provided a description of topology-changing [[T-duality|T-dualities]] in terms of adjusted [[Lie 2-groups]]. This framework has the advantage of giving explicit [[cocycle]] data for the construction of the dual [[Riemannian metric|metric]] and [[Kalb-Ramond fields]], generalizing the [[Buscher rules]] to general topology, and allowing for practical construction of examples. In this talk I will cover joint work with Sämann and Gagliardo, in which we have used adjusted [[Lie 3-groups]] to define a topology-changing transformation of [[supergravity C-field|C-fields]] over [[torus]] [[fibrations]]. It admits a [[dimensional reduction]] to [[T-duality]], and it incorporates [[S-duality]], in the sense that it is [[equivariant]] under the [[modular group]] of the torus. Therefore, it constitutes a first step towards the construction of [[U-duality|U-]][[T-fold|folds]].
 
 \linebreak
 
