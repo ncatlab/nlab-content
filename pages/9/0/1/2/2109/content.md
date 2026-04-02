@@ -338,6 +338,7 @@ Using the uniqueness of factorization through the universal squares, we can conc
 </table>
 are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a companion and a conjoint.
 
+
 The unit and counit of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the horizontal composites:
 <table>
 <tr>
@@ -722,6 +723,7 @@ are both equal to $U_f$.  And using the uniqueness of factorization through the 
 </tr>
 </table>
 are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These are the defining equations of a companion and a conjoint.
+
 
 Finally, we record the following.
 
