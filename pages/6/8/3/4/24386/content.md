@@ -104,7 +104,7 @@ Classification of adjustments for [[center|central]] [[crossed modules]]:
 
 For [[principal 3-bundles]]:
 
-* Gianni Gagliardo, [[Christian Saemann]], Roberto Tellez-Dominguez: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
+* Gianni Gagliardo, [[Christian Saemann]], [[Roberto Téllez Domínguez]]: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
 
 
 
