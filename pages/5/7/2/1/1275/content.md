@@ -265,4 +265,10 @@ Cotensor products play a prominent role in various treatments of [[Galois theory
 
 * [[Tomasz Maszczyk]], Noncommutative geometry through monoidal categories I, [arXiv:0707.1542](http://front.math.ucdavis.edu/0707.1542)
 
+Cotensor product over corings is studied in
+
+* J. Gómez-Torrecillas, _Separable functors in corings_,
+Intern. J. Math. & Math. Sci. __30__:4 (2002) 193--255
+[doi](https://doi.org/10.1155/S016117120201270X)
+
 [[!redirects cotensor products]]
