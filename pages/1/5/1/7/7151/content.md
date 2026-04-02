@@ -1,5 +1,13 @@
 
-* [webpage](http://christiansaemann.de/)
+* [personal page](http://christiansaemann.de/)
+
+* [institute page](https://researchportal.hw.ac.uk/en/persons/christian-saemann/)
+
+* [inSpire page](inspirehep.net/authors/1024179)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=EI5A3_EAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Christian-Saemann-2)
 
 ## Selected writings
 
@@ -67,9 +75,9 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
-On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinity-bundle|connections]] on principal 3-bundles:
+On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinity-bundle|connections]] on [[principal 3-bundles]]:
 
-* Gianni Gagliardo, [[Christian Saemann]], Roberto Tellez-Dominguez: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
+* Gianni Gagliardo, [[Christian Saemann]], [[Roberto Téllez Domínguez]]: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
 
 ## Related  entries
 
