@@ -42,9 +42,9 @@ See also:
 
 * Nefton Pali, *Chern connections and Chern curvature of the tangent bundle of almost complex manifolds* &lbrack;[arXiv:math/0402028](https://arxiv.org/abs/math/0402028)&rbrack;
 
-Discussion for [[holomorphic bundle gerbes]] with an eye twoards [[string 2-connections]]:
+Discussion for [[holomorphic bundle gerbes]] with an eye towards [[string 2-connections]]:
 
-* Roberto Tellez-Dominguez, *Chern correspondence for higher principal bundles* &lbrack;[arXiv:2310.12738](https://arxiv.org/abs/2310.12738)&rbrack;
+* [[Roberto Téllez Domínguez]]: *Chern correspondence for higher principal bundles*,  Commun. Math. Phys. **406** (2025) 313 &lbrack;[arXiv:2310.12738](https://arxiv.org/abs/2310.12738), [doi:10.1007/s00220-025-05490-4](https://doi.org/10.1007/s00220-025-05490-4)&rbrack;
 
 
 
