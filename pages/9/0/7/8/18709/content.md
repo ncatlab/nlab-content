@@ -458,6 +458,11 @@ On sphere bundles with [[formal dg-algebra|formal]] [[Sullivan models]]:
 
 * Jiawei Zhou, *Formality of Sphere Bundles* &lbrack;[arXiv:2304.09594](https://arxiv.org/abs/2304.09594)&rbrack;
 
+On [[loop spaces]] of [[sphere bundles]]:
+
+* Wen Shen: *Loop Space Splittings of Sphere Bundles over Highly Connected Poincaré Complexes* &lbrack;[https://arxiv.org/abs/2604.00406](https://arxiv.org/abs/2604.00406)&rbrack;
+
+
 
 
 
