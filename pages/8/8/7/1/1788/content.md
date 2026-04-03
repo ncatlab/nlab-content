@@ -2,6 +2,8 @@
 
 ***
 
+
+
 [[Palumbo-CQTS2026.pdf:file]]
 
 This is how you place two tikzcd diagrams side by side:
@@ -371,3 +373,6 @@ The [[reduction theory]] for [[von Neumann algebras]] can be extended to the cas
   *  shows that “abstract” and “concrete” extended von Neumann algebras are the same
 
   *  proves that extended von Neumann algebras are precisely those [[extended C*-algebras]] whose bounded part is a [[von Neumann algebra]]
+
+\[ A \].
+
