@@ -29,6 +29,10 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+On limits on [[computation]] in relation to [[Bekenstein-Hawking entropy]]:
+ 
+* [[Leron Borsten]], [[Hyungrok Kim]]: *Limits to Computational Acceleration Imposed by Quantum Field Theory and Quantum Gravity* &lbrack;[arXiv:2604.00182](https://arxiv.org/abs/2604.00182)&rbrack;
+
 
 
 ## Related entries
