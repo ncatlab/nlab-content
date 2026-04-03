@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,15 +8,15 @@
 =--
 =--
 
-# Contents
-* automatic table of contents goes here
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
-A **2-category equipped with proarrows**, also called a *proarrow equipment* or simply an *equipment*, is a [[2-category]] together with extra "proarrows" which enable one to reproduce more category theory inside it than is possible in a general 2-category. The ur-example is [[Cat]] equipped with [[profunctors]].
+A **2-category equipped with proarrows**, also called a *proarrow equipment* or simply an *equipment*, is a [[2-category]] equipped with a notion of "proarrows" which enable one to reproduce more [[category theory]] inside it (cf. *[[formal category theory]]*) than is possible in a general [[2-category]]. The ur-example is [[Cat]] equipped with [[profunctors]].
 
-See also [[framed bicategory]].
+See also at *[[framed bicategory]]*.
 
 
 ## Motivation
@@ -32,30 +31,58 @@ What is missing is that the 2-category $V Cat$ doesn't natively supply any infor
 
 There are several not-quite-equivalent ways to describe this extra structure. One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$. The notion of a *proarrow equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows. One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
 
+## Definitions 
+ {#Definitions}
 
-## Definitions {#Definitions}
+We give several equivalent definitions of proarrow equipments:
 
-There are several equivalent ways to define proarrow equipments on a 2-category.
+1. [As 2-functors](#DefinitionAsA2Functor) which are bijective on objects, locally fully faithful, and map every 1-morphism to one having a right adjoint.
+
+1. [As double categories](#DefinitionAsDoubleCategory) in which every vertical arrow has a companion and a conjoint.
+
+1. As double categories in which every niche has a cartesian filler.
+
+While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the [[3-category]] of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See [Verity 2011](#Verity2011) and [Shulman 2008](#Shulman2008).)  It also generalizes better to situations in which not all proarrows have composites; see "[[virtual equipments]]," below.
 
 
-### Definition as a 2-functor {#DefinitionAsA2Functor}
+### As 2-functors
+ {#DefinitionAsA2Functor}
  
+\begin{definition}
+  \label{TheDefinitionAsA2Functor}
 Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows**.
 
-* A 2-category $M$, whose arrows are called *proarrows*.
-* A functor $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
-* For each arrow $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a [[right adjoint]] in $M$, which we write as $B(f,1)$.
+* A [[2-category]] $M$, whose [[1-morphisms]] are called *proarrows*.
 
-As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
+* A [[2-functor]] $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
+
+* For each [[1-morphism]] $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a [[right adjoint]] in $M$, which we write as $B(f,1)$.
+
+\end{definition}
+
+> As usual on the nLab, here by *[[2-categories]]* we mean *weak 2-categories (aka *[[bicategories]]*) and by *[[2-functors]]* we mean weak 2-functors (aka *[[pseudofunctors]]*).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
 For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite 
-\[ A \xrightarrow{B(1, f)} B \xrightarrow{H} D \xrightarrow{D(g, 1)} C \]
+\[ 
+  A 
+    \xrightarrow{B(1, f)} 
+  B 
+    \xrightarrow{H} 
+  D 
+    \xrightarrow{D(g, 1)} 
+  C
+  \mathrlap{\,.} 
+\]
 We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
 
-Note that in the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\begin{remark}
+In the case where proarrows are [[profunctors]], $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\end{remark}
 
 
-#### Terminology
+
+\begin{remark}
+**(terminology)**
 
 We refer to the entire structure defined above as a **2-category equipped with proarrows** or a **2-category proarrow equipment**.  Those working in the field often use the term **proarrow equipment** or simply **equipment** for the entire structure.  We prefer "2-category equipped with proarrows" (or, equivalently, "pro-morphisms") for the following reasons:
 
@@ -64,20 +91,26 @@ We refer to the entire structure defined above as a **2-category equipped with p
 * It includes the word "equipment" which signals what is meant to readers who are familiar with that term.
 
 We do sometimes avail ourselves of the shorter terminology "proarrow equipment," however, once we are clear what is under discussion.
+\end{remark}
 
 
-#### Examples
+\begin{example}
+For $V$ is a [[Bénabou cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
+\end{example}
 
-For example, if $V$ is a (Benabou) [[cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
+\begin{example}
+The other most common sorts of generalized category, such as [[internal categories]] in some category with [[pullbacks]], and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
+\end{example}
 
-The other most common sorts of generalized category, such as [[internal categories]] in some category with pullbacks, and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
 
 
-### Definition as a double category {#DefinitionAsDoubleCategory}
 
-We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
+### As double categories
+  {#DefinitionAsDoubleCategory}
 
-Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
+We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with [[extra structure]]. 
+
+Given a 2-category $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
 \begin{tikzcd}
   A
   \arrow[r,  "H", ""{name=U, below}]
@@ -148,7 +181,12 @@ factors through the universal one uniquely:
  \arrow[d, "k"]
  \\
   A
-  \arrow[r,  "{J(g, f)}", ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+  \arrow[
+    r,  
+    "{J(g, f)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
+  ]
   \arrow[d, "f"']
   & C
   \arrow[d, "g"]
@@ -159,9 +197,11 @@ factors through the universal one uniquely:
   \arrow[Rightarrow, from=U, to=D]
   \arrow[Rightarrow, from=T, to=U1, "\exists !"']
 \end{tikzcd}
+
 The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  
 
-We show that they are a companion and conjoint of $f$, respectively, as follows.
+
+We show that they are a [[companion]] and [[conjoint]] of $f$, respectively, as follows.
 
 By factoring the identity square
 \begin{tikzcd}
@@ -254,8 +294,13 @@ such that the vertical composites
   \arrow[d, "id"]
   \\
   B
-  \arrow[r, "{B(f, 1)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
-   \arrow[d, "id"']
+  \arrow[
+    r, 
+    "{B(f, 1)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
+  ]
+  \arrow[d, "id"']
   & A
  \arrow[d, "f"]
   \\
@@ -275,7 +320,12 @@ such that the vertical composites
   \arrow[d, "f"]
   \\
   B
-  \arrow[r, "{B(1, f)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
+  \arrow[
+    r, 
+    "{B(1, f)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
+  ]
    \arrow[d, "f"']
   & A
  \arrow[d, "id"]
@@ -291,7 +341,7 @@ such that the vertical composites
 </table>
 are both equal to $U_f$.  
 
-Using the uniqueness of factorization through the universal squares, we can conclude moreover that the horizontal composites
+Using the uniqueness of factorization through the universal squares, we can conclude moreover that the [[horizontal composition|horizontal composites]]
 <table>
 <tr>
 <td style="border: none;">
@@ -336,10 +386,9 @@ Using the uniqueness of factorization through the universal squares, we can conc
 </td>
 </tr>
 </table>
-are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a companion and a conjoint.
+are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a [[companion]] and a [[conjoint]].
 
-
-The unit and counit of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the horizontal composites:
+The [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the horizontal composites:
 <table>
 <tr>
 <td style="border: none;">
@@ -386,11 +435,10 @@ The unit and counit of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the 
 </table>
 
 
-Finally, we record the following.
+Finally, we record the following **central lemma**.
 
-+-- {: .num_lemma}
-###### Central Lemma
-There is a natural bijection between squares of the form
+\begin{lemma}\label{CentralLemma}
+There is a [[natural bijection]] between squares of the form
 \begin{tikzcd}
   A_0
   \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
@@ -435,18 +483,33 @@ and squares of the form
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
 
-=--
+\end{lemma}
 
-One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
-\[J(g,f) \cong C(1,f) \odot J \odot D(g,1) \label{coyon} \]
+\begin{remark}
+One way to think of this Lemma \ref{CentralLemma} is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
+\[
+  \label{coyon}
+  J(g,f) 
+    \cong 
+  C(1,f) 
+    \odot 
+  J 
+    \odot 
+  D(g,1)
+  \mathrlap{\,,} 
+\]
+which was what we took as the the definition of $J(g,f)$ with the original Def. \ref{TheDefinitionAsA2Functor} of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [[Yoneda reduction]]
+\end{remark}
 
 We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
 
-Note that in the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\begin{remark}
+In the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\end{remark}
 
 
-#### Terminology
-
+\begin{remark}
+**(terminology)**
 We refer to the entire structure defined above as a **2-category equipped with proarrows** or a **2-category proarrow equipment**.  Those working in the field often use the term **proarrow equipment** or simply **equipment** for the entire structure.  We prefer "2-category equipped with proarrows" (or, equivalently, "pro-morphisms") for the following reasons:
 
 * It conveys that we are talking about extra stuff added to a 2-category.  (Actually, it is "eka-stuff" or "2-stuff" in the sense of [stuff, structure, property](http://ncatlab.org/nlab/show/stuff,+structure,+property).)
@@ -454,372 +517,28 @@ We refer to the entire structure defined above as a **2-category equipped with p
 * It includes the word "equipment" which signals what is meant to readers who are familiar with that term.
 
 We do sometimes avail ourselves of the shorter terminology "proarrow equipment," however, once we are clear what is under discussion.
+\end{remark}
 
 
-#### Examples
+### As categories internal to $Cat$
+ {#AsInternalCategories}
 
-For example, if $V$ is a (Benabou) [[cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
-
-The other most common sorts of generalized category, such as [[internal categories]] in some category with pullbacks, and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
-
-
-### Definition as a double category {#DefinitionAsDoubleCategory}
-
-We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
-
-Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
-\begin{tikzcd}
-  A
-  \arrow[r,  "H", ""{name=U, below}]
-  \arrow[d, "f"']
-  & C
-  \arrow[d, "g"]
-  \\
-  B
-  \arrow[r, "J"', ""{name=D, above}]
-  & D
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
-
-In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
-
-One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  One can then recover $K$ and $M$ as the 
-[[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
-
-Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
-\begin{tikzcd}
-  A
-   \arrow[d, "f"']
-  & C
-  \arrow[d, "g"]
-  \\
-  B
-  \arrow[r, "J"', ""{name=D, above}]
-  & D
-\end{tikzcd}
-there exists a "universal" or "cartesian" filler square
-\begin{tikzcd}
-  A
-  \arrow[r,  "{J(g, f)}", ""{name=U, below}]
-  \arrow[d, "f"']
-  & C
-  \arrow[d, "g"]
-  \\
-  B
-  \arrow[r, "J"', ""{name=D, above}]
-  & D
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-with the property that any other square 
-\begin{tikzcd}
-  X
-  \arrow[r,  "", ""{name=U, below}]
-  \arrow[d, "h"']
-  & Y
-  \arrow[d, "k"]
-  \\
-  A
-  \arrow[d, "f"']
-  &C
-  \arrow[d, "g"]
-  \\
-  B
-  \arrow[r, "J"', ""{name=D, above}]
-  & D
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-factors through the universal one uniquely:
-\begin{tikzcd}
- X
- \arrow[d, "h"']
-  \arrow[r, ""', ""{name=T, below}]
- &Y
- \arrow[d, "k"]
- \\
-  A
-  \arrow[r,  "{J(g, f)}", ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
-  \arrow[d, "f"']
-  & C
-  \arrow[d, "g"]
-  \\
-  B
-  \arrow[r, "J"', ""{name=D, above}]
-  & D
-  \arrow[Rightarrow, from=U, to=D]
-  \arrow[Rightarrow, from=T, to=U1, "\exists !"']
-\end{tikzcd}
-The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
-
-By factoring the identity square
-\begin{tikzcd}
-  A
-  \arrow[r,  "U_A", ""{name=U, below}]
-  \arrow[d, "f"']
-  & A
-  \arrow[d, "f"]
-  \\
-  B
-  \arrow[r, "U_B"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=U, to=D, "U_f"']
-\end{tikzcd}
-through the universal fillers
-<table>
-<tr>
-<td style="border: none;">
-\begin{tikzcd}
-  A
-  \arrow[r,  "{B(1, f)}", ""{name=U, below}]
-  \arrow[d, "f"']
-  & B
-  \arrow[d, "id"]
-  \\
-  B
-  \arrow[r, "U_B"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-<td style="border: none;">
-\begin{tikzcd}
-  B
-  \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
-  \arrow[d, "id"']
-  & A
-  \arrow[d, "f"]
-  \\
-  B
-  \arrow[r, "U_B"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-</tr>
-</table>
-that define $B(1,f)$ and $B(f,1)$, we obtain additional squares
-<table>
-<tr>
-<td style="border: none;">
-\begin{tikzcd}
-  A
-  \arrow[r,  "U_A", ""{name=U, below}]
-  \arrow[d, "f"']
-  & A
-  \arrow[d, "id"]
-  \\
-  B
-  \arrow[r, "{B(f, 1)}"', ""{name=D, above}]
-  & A
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-<td style="border: none;">
-\begin{tikzcd}
-  A
-  \arrow[r,  "U_A", ""{name=U, below}]
-  \arrow[d, "id"']
-  & A
-  \arrow[d, "f"]
-  \\
-  A
-  \arrow[r, "{B(1,f)}"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-</tr>
-</table>
-such that the composites
-<table>
-<tr>
-<td style="border: none;">
-\begin{tikzcd}
-  A
-  \arrow[r,  "U_A", ""{name=T, below}]
-  \arrow[d, "f"']
-  & A
-  \arrow[d, "id"]
-  \\
-  B
-  \arrow[r, "{B(f, 1)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
-   \arrow[d, "id"']
-  & A
- \arrow[d, "f"]
-  \\
-  B
-  \arrow[r, "U_B"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=T, to=U1]
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-<td style="border: none;">
-\begin{tikzcd}
-   A
-  \arrow[r,  "U_A", ""{name=T, below}]
-  \arrow[d, "id"']
-  & A
-  \arrow[d, "f"]
-  \\
-  B
-  \arrow[r, "{B(1, f)}", , ""{name=U, below}, ""{name=U1, above, yshift=5pt}]
-   \arrow[d, "f"']
-  & A
- \arrow[d, "id"]
-  \\
-  B
-  \arrow[r, "U_B"', ""{name=D, above}]
-  & B
-  \arrow[Rightarrow, from=T, to=U1]
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-</td>
-</tr>
-</table>
-are both equal to $U_f$.  And using the uniqueness of factorization through the universal squares, we can conclude moreover that the composites
-<table>
-<tr>
-<td style="border: none;">
-\begin{tikzcd}
- A
-   \arrow[r,  "U_A", ""{name=U1, below}]
-   \arrow[d, "id"']
-& A
-  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
-  \arrow[d, "f"]
- & B
-  \arrow[d, "id"]
- \\
- A
-   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
- & B
-   \arrow[r,  "U_B"', ""{name=D2, above}]
- & B
-  \arrow[Rightarrow, from=U1, to=D1]
-  \arrow[Rightarrow, from=U2, to=D2]
-\end{tikzcd}
-</td>
-<td style="border: none;">
-\begin{tikzcd}
- B
-   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
-   \arrow[d, "id"']
-& A
-  \arrow[r,  "U_A", ""{name=U2, below}]
-  \arrow[d, "f"]
- & A
-  \arrow[d, "id"]
- \\
- B
-   \arrow[r,  "U_B"', ""{name=D1, above}]
- & B
-   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
- & A
-  \arrow[Rightarrow, from=U1, to=D1]
-  \arrow[Rightarrow, from=U2, to=D2]
-\end{tikzcd}
-</td>
-</tr>
-</table>
-are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These are the defining equations of a companion and a conjoint.
-
-
-Finally, we record the following.
-
-+-- {: .num_lemma}
-###### Central Lemma
-There is a natural bijection between squares of the form
-\begin{tikzcd}
-  A_0
-  \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
-  \arrow[d, "f_1"']
-  & B_0
-  \arrow[d, "g_1"]
-  \\
-  A_1
-  \arrow[d, "f_2"']
-  & B_1
-  \arrow[d, "g_2"]
-  \\
-  A_2
-  \arrow[d, "f_3"']
-   & B_2
- \arrow[d, "g_3"]
-  \\
-  A_3
- \arrow[r, "J"', ""{name=D, above, yshift=10pt}]
-  & B_3
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-and squares of the form
-\begin{tikzcd}
-  A_1
-  \arrow[r, "{A_1(f_1, 1)}"]
-  \arrow[d, "f_2"']
-  & A_0
-  \arrow[r,  "H", ""{name=U, below}]
-  & B_0
-  \arrow[r, "{B_1(1, g_1)}"]
-  & B_1
-  \arrow[d, "g_2"]
-  \\
-  A_2
-  \arrow[r, "{A_3(1, f_3)}"']
-  & A_3
- \arrow[r, "J"', ""{name=D, above}]
-  & B_3
-  \arrow[r, "{B_3(g_3, 1)}"']
-  & B_2
-  \arrow[Rightarrow, from=U, to=D]
-\end{tikzcd}
-
-=--
-
-One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
-\[J(g,f) \cong C(1,f) \odot J \odot D(g,1) \label{coyon} \]
-which was what we took as the the definition of $J(g,f)$ with the original definition of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [Yoneda reduction](http://ncatlab.org/nlab/show/Yoneda+reduction).
-
-In conclusion, we have three definitions of proarrow equipment:
-
-* A 2-functor which is bijective on objects, locally fully faithful, and maps every 1-morphism to one having a right adjoint.
-* A double category in which every vertical arrow has a companion and a conjoint.
-* A double category in which every niche has a cartesian filler.
-
-While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the 3-category of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See Dominic Verity's thesis and Mike Shulman's paper on framed bicategories.)  It also generalizes better to situations in which not all proarrows have composites; see "virtual equipments," below.
-
-
-### As a category internal to $Cat$
-
-We discuss how a 2-category with proarrow equipment is an [[internal category]] in the [[(2,1)-category]] [[Cat]] in the sense of the theory of _[[internal (∞,1)-categories]]_. 
+We discuss how 2-categories with proarrow equipment are equivalently [[internal categories]] in the [[(2,1)-category]] [[Cat]], in the sense of the theory of _[[internal (∞,1)-categories]]_. 
 
 (...)
 
-For the moment see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
 
-### Related notions
-
-There are a number of variations on the notion.
-
-* [[virtual proarrow equipment]]
-* [[1-category proarrow equipment]]
-* [[(1,2)-category proarrow equipment]]
-
-Some related concepts include:
-
-* [[cartesian bicategory]]
-* [[bicategory of relations]]
-* [[allegory]]
-
-See also at [[Segal space]], the section _[Examples -- In 1Grpd](Segal+space#ExamplesInIGrpd)_.
+For the time being see at _[Segal space -- Examples -- In 1Grpd](Segal+space#ExamplesInIGrpd)_.
 
 
-## Category theory in a proarrow equipment
 
-We now give a few examples of how to do category theory internal to a proarrow equipment.
+## Category theory in proarrow equipments
+
+We now give a few examples of how to do [[formal category theory]] internal to proarrow equipments.
 
 
-### Homset definition of adjunctions {#HomsetAdjn}
+### Homset definition of adjunctions 
+  {#HomsetAdjn}
 
 We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ are adjoint (in $\mathcal{V}(\underline{X})$) if and only if we have an isomorphism $B(f,1)\cong A(1,g)$.  Why?  Well, an adjunction $f\dashv g$ comes with a unit and a counit, which (expressed in $\underline{X}$) are of the form
 <table>
@@ -862,7 +581,8 @@ We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ 
 </td>
 </tr>
 </table>
-Applying the bijection of the Central Lemma, we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of an adjunction, in a purely formal way.
+Applying the bijection of the Central Lemma (\ref{CentralLemma}), we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of [[adjunctions]], in a purely formal way.
+
 
 
 ### Fully faithful arrows
@@ -926,38 +646,54 @@ $$
 which is what we want.
 
 
-## Graphs and cographs
+### Graphs and cographs
 
 As noted above, in the case of ordinary categories, the profunctors can in fact be recovered from the 2-category $Cat$.  Specifically, profunctors $A\to B$ can be identified with two-sided discrete fibrations from $B$ to $A$ (that is, spans $B \leftarrow C \to A$ such that $C \to B$ is a [[Grothendieck fibration|(Grothendieck) fibration]], $C\to A$ is an opfibration, the two structures are compatible, and each fiber of $C\to B\times A$ is discrete).  The two-sided fibration corresponding to a profunctor is also called its [[graph of a profunctor|graph]].  The same is true for internal categories, but not for enriched categories.
 
 However the $V$-profunctors $A\to B$ *can* be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided [[codiscrete cofibrations]] from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  The two-sided cofibration corresponding to a profunctor is, unsurprisingly, its [[cograph of a profunctor|cograph]], and also its [[collage]].  This was first noticed by Street and subsequently expanded on by other authors.  In particular, one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to equip it with proarrows, and axioms on a proarrow equipment guaranteeing that it arises from codiscrete cofibrations.
 
-
-## Virtual equipments
+### Virtual equipments
 
 One can formulate a generalized notion of equipment which includes $V Cat$ for _any_ monoidal category $V$ (and in fact, any [[multicategory]]), and $Cat(S)$ for any category $S$ with pullbacks.  The precise definition is complicated, but the basic idea is not: we start from the double-category definition, and instead of composites of the horizontal (pro)arrows, we allow the squares to have domains that are arbitrary composable strings, like so:
 $$\array{ & \to \to \dots \to &\\
   \downarrow & \Downarrow & \downarrow\\
   & \underset{}{\to}& .}$$
-So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of [[virtual equipment]].  Most of category theory can be done in a virtual equipment just as well as in an equipment.
+So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of *[[virtual equipments]]*.  Most of category theory can be done in a virtual equipment just as well as in an equipment.
+
+
+## Related concepts
+
+Variant concepts:
+
+* [[virtual proarrow equipment]]
+
+* [[1-category proarrow equipment]]
+
+* [[(1,2)-category proarrow equipment]]
+
+Related concepts:
+
+* [[cartesian bicategory]]
+
+* [[bicategory of relations]]
+
+* [[allegory]]
 
 
 ## References
 
-* {#Wood82} [[Richard J. Wood]], *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982)  279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
+* {#Wood82} [[Richard J. Wood]]: *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982) 279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
 
 * {#Wood85} [[Richard J. Wood]], *Proarrows II*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **26** 2 (1985) 135-168 &lbrack;[numdam:CTGDC_1985__26_2_135_0](http://www.numdam.org/item/CTGDC_1985__26_2_135_0)&rbrack; 
-
-
-and "Proarrows II" (the original definitions), and a number of following papers.
 
 * [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
 
 * [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
 
-* [[Dominic Verity]], "Enriched categories, internal categories, and change of base", Ph.D. Thesis.  (The connection with double categories.)
+* {#Verity2011} [[Dominic Verity]]: _Enriched categories, internal categories and change of base_, PhD. thesis, Cambridge University (1992), reprinted as: Reprints in Theory and Applications of Categories **20** (2011) 1-266 &lbrack;[tac:tr20](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)&rbrack;
 
-* {#Shulman} [[Michael Shulman]], "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
+* {#Shulman2008} [[Mike Shulman]]: *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650-738 &lbrack;[tac:20-18](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)&rbrack;
+  > (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
 * [[Geoff Cruttwell]], [[Michael Shulman]], "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
@@ -976,6 +712,9 @@ On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[dou
 An [[(∞,1)-category theory|(∞,1)-category theoretic]] version of proarrow equipments is in
 
 * Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
+
+
+
 
 
 
