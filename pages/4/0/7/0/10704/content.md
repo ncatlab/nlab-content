@@ -260,8 +260,11 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[Emily Riehl]], §14.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
+* Manfred Stelzer: *Pointed integral coalgebras and $R$-local homotopy theory* &lbrack;[arXiv:2604.00713](https://arxiv.org/abs/2604.00713)&rbrack;
 
-See also
+
+
+See also:
 
 * Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
 
