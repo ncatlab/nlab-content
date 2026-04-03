@@ -78,12 +78,15 @@ In relation to twisted [[Chen-Ruan cohomology|Chen-ruan]] [[orbifold cohomology]
 * [[Yongbin Ruan]], *Discrete torsion and twisted orbifold cohomology*, J. Sympl. Geom. 2 (2003), 1–24 ([arXiv:math/0005299](https://arxiv.org/abs/math/0005299))
 
 
-See also
+See also:
 
 * [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
 
 
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
+
+* Philip Boyle Smith, [[Yuji Tachikawa]]: *On Generalised Discrete Torsion* &lbrack;[arXiv:2604.01225](https://arxiv.org/abs/2604.01225)&rbrack;
+
 
 On the case of [[heterotic string theory]]:
 
