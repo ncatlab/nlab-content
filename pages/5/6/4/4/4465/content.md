@@ -130,7 +130,7 @@ Further developments:
 * Aidan M. McSharry, Harvey S. Reall: *On the third law of black hole mechanics for supersymmetric black holes* &lbrack;[arXiv:2507.06870](https://arxiv.org/abs/2507.06870)&rbrack;
 
 
-A discussion of the "black hole firewall problem":
+A discussion of the "[[black hole firewall problem]]":
 
 * [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, *Black holes: complementarity or firewalls?*, &lbrack;[arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)&rbrack;
 
@@ -139,6 +139,9 @@ On black hole entropy in [[supergravity]]:
 
 * [[Mirjam Cvetic]], [[Malcolm J. Perry]]: *Quantization of Black Hole Entropy for Black Holes in Subtracted Geometry* &lbrack;[arXiv:2504.14247](https://arxiv.org/abs/2504.14247)&rbrack;
 
+In relation to [[computation]]:
+
+* [[Leron Borsten]], [[Hyungrok Kim]]: *Limits to Computational Acceleration Imposed by Quantum Field Theory and Quantum Gravity* &lbrack;[arXiv:2604.00182](https://arxiv.org/abs/2604.00182)&rbrack;
 
 
   
