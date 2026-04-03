@@ -49,6 +49,10 @@ On [[categorified]] [[linear algebra]] with negative and other values:
 
 * [[Joachim Kock]], [[Jesper Michael Møller]], *Groupoid G-spans and matrices over group rings* &lbrack;[arXiv:2603.20787](https://arxiv.org/abs/2603.20787)&rbrack;
 
+For an extension of the counting construction at [[class equation]] to a [[homotopy equivalence]] of [[infinity-groupoids]] see
+
+* [[Joachim Kock]], Thomas Jan Mikhail, *Free loop spaces and the Cauchy--Frobenius Lemma* &lbrack;[arXiv:2507.01637](https://arxiv.org/abs/2507.01637)&rbrack;
+
 
 category: people
 
