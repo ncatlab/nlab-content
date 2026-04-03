@@ -17,7 +17,7 @@ More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1
 
 On [[enriched category theory]] and [[internal categories]]:
 
-* _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
+* [[Dominic Verity]]: _Enriched categories, internal categories and change of base_, PhD. thesis, Cambridge University (1992), reprinted as: Reprints in Theory and Applications of Categories **20** (2011) 1-266 &lbrack;[tac:tr20](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)&rbrack;
 
 Introducing the notion of [[traced monoidal categories]]:
 
