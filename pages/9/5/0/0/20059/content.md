@@ -234,7 +234,7 @@ On equivalences with the model structure on simplicial sets:
 
 * {#hrInduced} [[Philip Hackney]] and [[Martina Rovelli]], *Induced model structures for ∞-categories and ∞-groupoids*, $[$[arXiv:2102.01104](https://arxiv.org/abs/2102.01104)$]$, [Proc. Amer. Math. Soc., June 10, 2022](https://www.ams.org/journals/proc/0000-000-00/S0002-9939-2022-15982-6/home.html)
 
-* {#swCuSi} [[Thomas Streicher]] and [[Jonathan Weinberger]], *Simplicial sets inside cubical sets* $[$[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)$]$, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
+* {#swCuSi} [[Thomas Streicher]] and [[Jonathan Weinberger]], *Simplicial sets inside cubical sets* $[$[arXiv:1911.09594](https://arxiv.org/abs/1911.09594)$]$, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
 
 
 Proofs of the [[Frobenius condition#InWeakFactorizationSystems|Frobenius condition]]:
