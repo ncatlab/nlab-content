@@ -1,6 +1,12 @@
 
 
-* [webpage](http://member.ipmu.jp/yuji.tachikawa/)
+* [personal page](http://member.ipmu.jp/yuji.tachikawa/)
+
+* [institute page](https://www.ias.edu/scholars/yuji-tachikawa) (old)
+
+* [inSpire page](https://inspirehep.net/authors/1042654)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=HlCvzfIAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -91,6 +97,10 @@ On [[quantum anomaly]]-cancellation in [[type I string theory]] via [[RR-field]]
 On [[heterotic string theory]]:
 
 * [[Yuji Tachikawa]]: *On the trivalent junction of three non-tachyonic heterotic string theories* &lbrack;[arXiv:2603.28133](https://arxiv.org/abs/2603.28133)&rbrack;
+
+On [[discrete torsion]]:
+
+* Philip Boyle Smith, [[Yuji Tachikawa]]: *On Generalised Discrete Torsion* &lbrack;[arXiv:2604.01225](https://arxiv.org/abs/2604.01225)&rbrack;
 
 
 
