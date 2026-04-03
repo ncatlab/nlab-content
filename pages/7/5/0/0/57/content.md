@@ -883,6 +883,11 @@ and commutative Hopf algebroids,
 
 * Alessandro Ardizzoni, Laiachi El Kaoutit, Paolo Saracco, _Towards differentiation and integration between Hopf algebroids and Lie algebroids_, [arXiv:1905.10288](https://arxiv.org/abs/1905.10288)
 
+See also:
+
+* Paolo Antonini, Alessio Giannotta: *On the equivalence of the integrability obstructions for transitive Lie algebroids* &lbrack;[arXiv:2604.01839](https://arxiv.org/abs/2604.01839)&rbrack;
+
+
 [[!redirects Lie integrations]]
 
 [[!redirects higher Lie integration]]
