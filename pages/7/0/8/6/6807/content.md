@@ -198,6 +198,9 @@ See also:
 
 * Ethan Torres: *A Matrix Theory Construction of the IIA/IIB Wall* &lbrack;[arXiv:2603.02199](https://arxiv.org/abs/2603.02199)&rbrack;
 
+* Korin Aldam-Tajima, Vatche Sahakian: *On Entropic Gravity from BFSS Matrix Theory* &lbrack;[arXiv:2604.00193](https://arxiv.org/abs/2604.00193)&rbrack;
+
+
 
 
 
