@@ -73,7 +73,7 @@ On [[Kripke-Joyal semantics]] and [[forcing]] in [[homotopy type theory]]:
 
 On the [[model category]] structure on the category of cartesian [[cubical sets]]:
 
-* [[Steve Awodey]], _Cartesian cubical model categories_ ([arXiv:2305.00893](https://arxiv.org/abs/2305.00893))
+* [[Steve Awodey]], _Cartesian cubical model categories_ ([arXiv:2305.00893](https://arxiv.org/abs/2305.00893)) Lecture Notes in Mathematics 2385, Springer. 
 
 On [[categorical logic]]:
 
