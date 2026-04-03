@@ -249,6 +249,14 @@ The concept of differential forms (and their [[exterior algebra]]), at least on 
 
 * [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
 
+Élie Cartan is responsible for mainstreaming differential forms in his work
+
+* [[Élie Cartan]], _Sur certaines expressions différentielles et le problème de Pfaff_, Annales scientifiques de l'École normale supérieure 16 (1899), 239-332.  [DOI](https://doi.org/10.24033/asens.467).
+
+Another early account is
+
+* [[Cesare Burali-Forti]], _Introduction à la Géométrie Différentielle: Suivant la Méthode de H. Grassmann_, Paris, Gauthier-Villars et fils, 1897.
+
 Textbook accounts:
 
 * [[Raoul Bott]], [[Loring Tu]]: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
