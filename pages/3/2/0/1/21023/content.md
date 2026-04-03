@@ -119,6 +119,8 @@ See also:
 
 * Arkapal Mondal, Sarthak Parikh, Pulak Pradhan, Ritu Sengar: *Toward Holography on Biregular Trees* &lbrack;[arXiv:2507.20886](https://arxiv.org/abs/2507.20886)&rbrack;
 
+* An Huang, Christian Jepsen: *One-loop -adic string theory and the Néron local height function* &lbrack;[arXiv:2604.00970](https://arxiv.org/abs/2604.00970)&rbrack;
+
 
 
 
