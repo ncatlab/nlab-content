@@ -128,11 +128,11 @@ Suggestion that the [[disk]] [[worldsheet]] of the [[open string|open]] [[p-adic
 Volume 123, Number 3 (1989), 463-483 ([euclid.cmp/1104178891](https://projecteuclid.org/euclid.cmp/1104178891))
 
 
-Discussion of [[tachyon condensation]] in $p$-adic string theory includes
+On [[tachyon condensation]] in $p$-adic string theory:
 
 * {#Cottrell02} William Cottrell, _$p$-adic Strings and Tachyon Condensation_, 2002 ([pdf](http://jfi.uchicago.edu/~tten/teaching/Phys.291/Cottrell_Freund_2002.pdf))
 
-See also
+See also:
 
 * {#BGZ16} Miriam Bocardo-Gaspar, H. García-Compeán, W. A. Zúñiga-Galindo, _Regularization of p-adic String Amplitudes, and Multivariate Local Zeta Functions_ ([arXiv:1611.03807](https://arxiv.org/abs/1611.03807))
 
@@ -156,7 +156,14 @@ See also:
 
 On the zeta string, a proposal for a unifying framework for all $p$:
 
-* Branko Dragovich. *From $p$-Adic to Zeta Strings*. (2020). ([arXiv:2007.13628](https://arxiv.org/abs/2007.13628)).
+* Branko Dragovich. *From $p$-Adic to Zeta Strings* &lbrack;[arXiv:2007.13628](https://arxiv.org/abs/2007.13628)&rbrack;
+
+In relation to the [[p-adic AdS/CFT correspondence]]:
+
+* An Huang, Christian Jepsen: *One-loop -adic string theory and the Néron local height function* &lbrack;[arXiv:2604.00970](https://arxiv.org/abs/2604.00970)&rbrack;
+
+
+
 
 
 [[!redirects p-adic string theories]]
