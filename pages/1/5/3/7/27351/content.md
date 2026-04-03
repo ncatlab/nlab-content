@@ -968,6 +968,11 @@ General discussion of abelian Chern-Simons theory:
 
 * Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality*, J. Math. Phys. **66** 042301 (2025) &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734), [doi:10.1063/5.023925](https://doi.org/10.1063/5.023925)&rbrack;
 
+* [[Daniel Galviz]]: *Toral Chern-Simons TQFT via Geometric Quantization in Real Polarization* &lbrack;[arXiv:2604.01016](https://arxiv.org/abs/2604.01016)&rbrack;
+
+* [[Daniel Galviz]]: *A Rigorous Functional-Integral Construction of Toral Chern-Simons Theory* &lbrack;[arXiv:2604.02013](https://arxiv.org/abs/2604.02013)&rbrack;
+
+
 
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
