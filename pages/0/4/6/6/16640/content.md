@@ -199,6 +199,9 @@ For more see
 
 * _Burnside's lemma_, [Wikipedia](https://en.wikipedia.org/wiki/Burnside%27s_lemma).
 
+For an extension of these ideas to a [[homotopy equivalence]] of [[infinity-groupoids]] see
+
+* [[Joachim Kock]], Thomas Jan Mikhail, *Free loop spaces and the Cauchy--Frobenius Lemma* &lbrack;[arXiv:2507.01637](https://arxiv.org/abs/2507.01637)&rbrack;
 
 
 [[!redirects class equations]]
