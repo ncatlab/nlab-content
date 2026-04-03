@@ -1,12 +1,220 @@
-> This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### 2-Category theory
++-- {: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
 
-***
+
+\tableofcontents
+
+## Idea
+
+A **2-category equipped with proarrows**, also called a *proarrow equipment* or simply an *equipment*, is a [[2-category]] equipped with a notion of "proarrows" which enable one to reproduce more [[category theory]] inside it (cf. *[[formal category theory]]*) than is possible in a general [[2-category]]. The ur-example is [[Cat]] equipped with [[profunctors]].
+
+See also at *[[framed bicategory]]*.
+
+
+## Motivation
+
+Just as ordinary [[category theory]] provides a framework in which one can do "formal mathematics," one of the (many) purposes of [[higher category theory]] is to provide a framework in which one can do [[formal category theory]]. In particular, many concepts in ordinary category theory can be interpreted internally in a [[2-category]], in a way which specializes to the original concept in [[Cat]].  Examples of such concepts include [[adjunctions]], [[monads]], [[Grothendieck fibrations]], [[Kan extensions]], and [[fully faithful morphisms]].
+
+However, these internalizations are not always "correct" in every 2-category. For instance, in the 2-category $V Cat$ of [[enriched categories|categories enriched]] in a [[monoidal category]] $V$, internal adjunctions and monads give the correct notion of a $V$-adjunction and a $V$-monad, but internal fully-faithfulness for a $V$-functor is weaker than the "correct" notion of $V$-fully-faithfulness. More technically, in many cases the naive notion of a Kan extension is not sufficient and one needs "pointwise" Kan extensions; with some more work, these can also be defined in a 2-category, but the resulting notion (though correct in $Cat$) is not always correct in $V Cat$.
+
+Furthermore, some concepts of category theory are difficult to interpret at all in a 2-category. The notion of a [[limit]] in ordinary category theory can be interpreted in a 2-category by identifying the limit of a functor $D\to C$ as its Kan extension along the unique functor $D\to *$.  However, in enriched category theory, the more important notion is that of a [[weighted limit]], and there is no straightforward way to interpret this in $V Cat$.
+
+What is missing is that the 2-category $V Cat$ doesn't natively supply any information about the $V$-valued hom-functors in a 2-category. (In $Cat$ these hom-functors can be recovered by looking at [[comma categories]], which can be interpreted internally as [[comma objects]]---in some sense this is what all the above internalizations are secretly doing.) Thus, all of these problems can be remedied by equipping a 2-category with extra structure which describes these hom-functors, or more generally describes a notion of a [[profunctor]].
+
+There are several not-quite-equivalent ways to describe this extra structure. One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$. The notion of a *proarrow equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows. One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
+
+## Definitions 
+
+We give several equivalent definitions of proarrow equipments:
+
+1. [As 2-functors](#DefinitionAsA2Functor) which are bijective on objects, locally fully faithful, and map every 1-morphism to one having a right adjoint.
+
+1. [As double categories](#DefinitionAsDoubleCategory) in which every vertical arrow has a companion and a conjoint.
+
+1. As double categories in which every niche has a cartesian filler.
+
+While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the [[3-category]] of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See [Verity 2011](#Verity2011) and [Shulman 2008](#Shulman2008).)  It also generalizes better to situations in which not all proarrows have composites; see "[[virtual equipments]]," below.
+
+
+### As 2-functors
+ {#DefinitionAsA2Functor}
+ 
+\begin{definition}
+  \label{TheDefinitionAsA2Functor}
+Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows**.
+
+* A [[2-category]] $M$, whose [[1-morphisms]] are called *proarrows*.
+
+* A [[2-functor]] $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
+
+* For each [[1-morphism]] $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a [[right adjoint]] in $M$, which we write as $B(f,1)$.
+
+\end{definition}
+
+> As usual on the nLab, here by *[[2-categories]]* we mean *weak 2-categories (aka *[[bicategories]]*) and by *[[2-functors]]* we mean weak 2-functors (aka *[[pseudofunctors]]*).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
+
+For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite 
+\[ 
+  A 
+    \xrightarrow{B(1, f)} 
+  B 
+    \xrightarrow{H} 
+  D 
+    \xrightarrow{D(g, 1)} 
+  C
+  \mathrlap{\,.} 
+\]
+We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
+
+\begin{remark}
+In the case where proarrows are [[profunctors]], $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\end{remark}
 
 
 
-[[Palumbo-CQTS2026.pdf:file]]
+\begin{remark}
+**(terminology)**
 
-This is how you place two tikzcd diagrams side by side:
+We refer to the entire structure defined above as a **2-category equipped with proarrows** or a **2-category proarrow equipment**.  Those working in the field often use the term **proarrow equipment** or simply **equipment** for the entire structure.  We prefer "2-category equipped with proarrows" (or, equivalently, "pro-morphisms") for the following reasons:
+
+* It conveys that we are talking about extra stuff added to a 2-category.  (Actually, it is "eka-stuff" or "2-stuff" in the sense of [stuff, structure, property](http://ncatlab.org/nlab/show/stuff,+structure,+property).)
+* It includes the word "proarrow" which tells people what the extra stuff consists of, namely a generalization of [[profunctors]].
+* It includes the word "equipment" which signals what is meant to readers who are familiar with that term.
+
+We do sometimes avail ourselves of the shorter terminology "proarrow equipment," however, once we are clear what is under discussion.
+\end{remark}
+
+
+\begin{example}
+For $V$ is a [[Bénabou cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
+\end{example}
+
+\begin{example}
+The other most common sorts of generalized category, such as [[internal categories]] in some category with [[pullbacks]], and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
+\end{example}
+
+
+
+
+### As double categories
+  {#DefinitionAsDoubleCategory}
+
+We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with [[extra structure]]. 
+
+Given a 2-category $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
+\begin{tikzcd}
+  A
+  \arrow[r,  "H", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
+
+In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
+
+One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  One can then recover $K$ and $M$ as the 
+[[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
+
+Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
+\begin{tikzcd}
+  A
+   \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+\end{tikzcd}
+there exists a "universal" or "cartesian" filler square
+\begin{tikzcd}
+  A
+  \arrow[r,  "{J(g, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+with the property that any other square 
+\begin{tikzcd}
+  X
+  \arrow[r,  "", ""{name=U, below}]
+  \arrow[d, "h"']
+  & Y
+  \arrow[d, "k"]
+  \\
+  A
+  \arrow[d, "f"']
+  &C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+factors through the universal one uniquely:
+\begin{tikzcd}
+ X
+ \arrow[d, "h"']
+  \arrow[r, ""', ""{name=T, below}]
+ &Y
+ \arrow[d, "k"]
+ \\
+  A
+  \arrow[
+    r,  
+    "{J(g, f)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
+  ]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D]
+  \arrow[Rightarrow, from=T, to=U1, "\exists !"']
+\end{tikzcd}
+
+The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  
+
+
+We show that they are a [[companion]] and [[conjoint]] of $f$, respectively, as follows.
+
+By factoring the identity square
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "U_f"']
+\end{tikzcd}
+through the universal fillers
 <table>
 <tr>
 <td style="border: none;">
@@ -39,340 +247,472 @@ This is how you place two tikzcd diagrams side by side:
 </td>
 </tr>
 </table>
-
-\linebreak
-
-***
-
+that define $B(1,f)$ and $B(f,1)$, we obtain additional squares
+<table>
+<tr>
+<td style="border: none;">
 \begin{tikzcd}
-  T'
-  \ar[
-    dd, shift left=5pt, "{ n }"
-  ] 
-  \ar[
-    dd, shift right=5pt, "{ n' }"{swap}
-  ] 
-  \ar[
-    ddr, "{ m'_i }"
-  ]
-  && & 
-  U(T')
-  \ar[
-    dd, shift left=5pt, "{ U(n) }"
-  ] 
-  \ar[
-    dd, shift right=5pt, "{ U(n') }"{swap}
-  ] 
-  \ar[
-    ddr, "{ U(m'_i) }"
-  ]
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
   \\
-  && \mapsto
+  B
+  \arrow[r, "{B(f, 1)}"', ""{name=D, above}]
+  & A
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
   \\
-  T
-  \ar[
-    r, "{ m_i }"{swap}
+  A
+  \arrow[r, "{B(1,f)}"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+such that the vertical composites
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[
+    r, 
+    "{B(f, 1)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
   ]
-  &
-  S_i
-  &&
-  \mathllap{X = \;}
-  U(T)
-  \ar[r, "{ f_i }"]
-  &
-  U(S_i)
+  \arrow[d, "id"']
+  & A
+ \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+   A
+  \arrow[r,  "U_A", ""{name=T, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[
+    r, 
+    "{B(1, f)}"{description}, 
+    ""{name=U, below}, 
+    ""{name=U1, above, yshift=5pt}
+  ]
+   \arrow[d, "f"']
+  & A
+ \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=T, to=U1]
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+are both equal to $U_f$.  
+
+Using the uniqueness of factorization through the universal squares, we can conclude moreover that the [[horizontal composition|horizontal composites]]
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+ A
+   \arrow[r,  "U_A", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & B
+  \arrow[d, "id"]
+ \\
+ A
+   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "U_B"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+ B
+   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "U_A", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & A
+  \arrow[d, "id"]
+ \\
+ B
+   \arrow[r,  "U_B"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
+ & A
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively. Together these are the defining equations of a [[companion]] and a [[conjoint]].
+
+The [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of the adjunction $B(1, f) \dashv B(f, 1)$ are given by the horizontal composites:
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+ A
+   \arrow[r,  "U_A", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "U_A", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & A
+  \arrow[d, "id"]
+ \\
+ A
+   \arrow[r,  "{B(1,f)}"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "{B(f, 1)}"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+ B
+   \arrow[r,  "{B(f, 1)}", ""{name=U1, below}]
+   \arrow[d, "id"']
+& A
+  \arrow[r,  "{B(1, f)}", ""{name=U2, below}]
+  \arrow[d, "f"]
+ & B
+  \arrow[d, "id"]
+ \\
+ B
+   \arrow[r,  "U_B"', ""{name=D1, above}]
+ & B
+   \arrow[r,  "U_B"', ""{name=D2, above}]
+ & B
+  \arrow[Rightarrow, from=U1, to=D1]
+  \arrow[Rightarrow, from=U2, to=D2]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+
+
+Finally, we record the following **central lemma**.
+
+\begin{lemma}\label{CentralLemma}
+There is a [[natural bijection]] between squares of the form
+\begin{tikzcd}
+  A_0
+  \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
+  \arrow[d, "f_1"']
+  & B_0
+  \arrow[d, "g_1"]
+  \\
+  A_1
+  \arrow[d, "f_2"']
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[d, "f_3"']
+   & B_2
+ \arrow[d, "g_3"]
+  \\
+  A_3
+ \arrow[r, "J"', ""{name=D, above, yshift=10pt}]
+  & B_3
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+and squares of the form
+\begin{tikzcd}
+  A_1
+  \arrow[r, "{A_1(f_1, 1)}"]
+  \arrow[d, "f_2"']
+  & A_0
+  \arrow[r,  "H", ""{name=U, below}]
+  & B_0
+  \arrow[r, "{B_1(1, g_1)}"]
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[r, "{A_3(1, f_3)}"']
+  & A_3
+ \arrow[r, "J"', ""{name=D, above}]
+  & B_3
+  \arrow[r, "{B_3(g_3, 1)}"']
+  & B_2
+  \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
 
+\end{lemma}
+
+\begin{remark}
+One way to think of this Lemma \ref{CentralLemma} is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
+\[
+  \label{coyon}
+  J(g,f) 
+    \cong 
+  C(1,f) 
+    \odot 
+  J 
+    \odot 
+  D(g,1)
+  \mathrlap{\,,} 
+\]
+which was what we took as the the definition of $J(g,f)$ with the original Def. \ref{TheDefinitionAsA2Functor} of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [[Yoneda reduction]]
+\end{remark}
+
+We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
+
+\begin{remark}
+In the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
+\end{remark}
 
 
-***
+\begin{remark}
+**(terminology)**
+We refer to the entire structure defined above as a **2-category equipped with proarrows** or a **2-category proarrow equipment**.  Those working in the field often use the term **proarrow equipment** or simply **equipment** for the entire structure.  We prefer "2-category equipped with proarrows" (or, equivalently, "pro-morphisms") for the following reasons:
+
+* It conveys that we are talking about extra stuff added to a 2-category.  (Actually, it is "eka-stuff" or "2-stuff" in the sense of [stuff, structure, property](http://ncatlab.org/nlab/show/stuff,+structure,+property).)
+* It includes the word "proarrow" which tells people what the extra stuff consists of, namely a generalization of [[profunctors]].
+* It includes the word "equipment" which signals what is meant to readers who are familiar with that term.
+
+We do sometimes avail ourselves of the shorter terminology "proarrow equipment," however, once we are clear what is under discussion.
+\end{remark}
 
 
-+-- {: .num_prop#SiftedIffFinalDiag}
-###### Proposition
+### As categories internal to $Cat$
+ {#AsInternalCategories}
 
-An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the [[diagonal]] functor 
-  
+We discuss how 2-categories with proarrow equipment are equivalently [[internal categories]] in the [[(2,1)-category]] [[Cat]], in the sense of the theory of _[[internal (∞,1)-categories]]_. 
+
+(...)
+
+
+For the time being see at _[Segal space -- Examples -- In 1Grpd](Segal+space#ExamplesInIGrpd)_.
+
+
+
+## Category theory in proarrow equipments
+
+We now give a few examples of how to do [[formal category theory]] internal to proarrow equipments.
+
+
+### Homset definition of adjunctions 
+  {#HomsetAdjn}
+
+We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ are adjoint (in $\mathcal{V}(\underline{X})$) if and only if we have an isomorphism $B(f,1)\cong A(1,g)$.  Why?  Well, an adjunction $f\dashv g$ comes with a unit and a counit, which (expressed in $\underline{X}$) are of the form
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A"]
+  \arrow[d, "f"']
+  \arrow[dd, "", ""{name=L, right}, phantom]
+  & A
+  \arrow[dd, "id", ""{name=R, left}]
+  \\
+  B
+    \arrow[d, "g"']
+  \\
+  A
+  \arrow[r, "U_A"']
+  & A
+    \arrow[Rightarrow, from=R, to=L, "\eta"']
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  B
+  \arrow[r,  "U_B"]
+  \arrow[dd, "id"',  ""{name=L, right}]
+  & B
+  \arrow[d, "g"]
+  \arrow[dd, "", ""{name=R, left}, phantom]
+  \\
+  & A
+    \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"']
+  & B
+   \arrow[Rightarrow, from=R, to=L, "\varepsilon"']
+\end{tikzcd}
+</td>
+</tr>
+</table>
+Applying the bijection of the Central Lemma (\ref{CentralLemma}), we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of [[adjunctions]], in a purely formal way.
+
+
+
+### Fully faithful arrows
+
+An arrow $f:A\to B$ in a 2-category equipped with proarrows is said to be **fully faithful** if the canonical morphism $U_A\to B(f,f)$ is an isomorphism of proarrows $A\to A$.  In $V Cat$ this recaptures the correct notion of $V$-fully-faithful $V$-functor.
+
+It is not hard to see, using the fact that $K\to M$ is locally fully faithful, that any fully-faithful arrow $f\colon A\to B$ is, in fact, internally fully-faithful in $K$ in the sense that $K(X,A)\to K(X,B)$ is fully faithful for all $X\in K$.  However, the converse fails in general.  But it is not hard to show that the two are equivalent if $f\colon A\to B$ has a left or right adjoint, using the above characterization of adjunctions.
+
+
+### Limits
+
+The notion of limit we end up in a 2-category equipped with proarrows with is actually more general than what you're probably used to, but this extra generality turns out to be useful.  Let $d\colon D\to C$ be an arrow and let $J\colon D\nrightarrow A$ be a proarrow; we're going to define what it means for an arrow $\ell\colon A\to C$ to be the *$J$-weighted limit* of $d$.  In the proarrow-equipped 2-category $V Cat$ of $V$-enriched categories, if $A$ is the [unit](http://ncatlab.org/nlab/show/unit+enriched+category) $V$-category $I$, then this will recover the usual notion of [weighted limit](http://ncatlab.org/nlab/show/weighted+limit).  Of course, in a general proarrow equipment we may not have a "unit object," so that extra generality is unavoidable; it's like using generalized elements in ordinary category theory.
+
+To make things easier, let's assume that our proarrow equipment is *closed*, in the sense that composition of proarrows has adjoints in each variable
+$$ \mathcal{H}(\underline{X})(H\odot K,L) \cong \mathcal{H}(\underline{X})(H,K\rhd L) \cong \mathcal{H}(\underline{X})(K,L\lhd H).$$
+The Central Lemma implies that analogously to \eqref{coyon}, we have
+\[K(g,f) \cong D(1,g)\rhd K \lhd C(f,1). \label{yon} \]
+In $V\text{-}Prof$, the adjoints are given by the [ends](http://ncatlab.org/nlab/show/end)
+$$ (K\rhd L)(b,a) = \int_{c\in C} [K(c,b), L(c,a)] $$
+and
+$$ (L \lhd H)(c,b) = \int_{a\in A} [H(b,a), L(c,a)]. $$
+Therefore, \eqref{yon} is an abstract form of the Yoneda lemma, just as \eqref{coyon} is an abstract form of Yoneda reduction.
+
+Now recall that for $V$-categories $D$ and $C$, an object $\ell\in C$ is a $J$-weighted limit of $d\colon D\to C$ if we have a natural isomorphism
 $$
-  D \to D \times D
+\begin{aligned}
+C(c,\ell) &\cong [D,V](J, C(c,d(-)))\\
+&= \int_{x\in D} [J(x), C(c,d(x))].
+\end{aligned}
 $$
+Thus it makes sense to define, in a closed proarrow equipment, an arrow $\ell\colon A\to C$ to be the $J$-weighted limit of $d$ if we have an isomorphism
+$$ C(1,\ell) \cong C(1,d) \lhd J. $$
+(If our proarrow equipment is not closed, we simply assert that $C(1,\ell)$ has the universal property that $C(1,d) \lhd J$ would have if it existed.  In other terminology, we assert that $C(1,\ell)$ is a *right lifting* of $C(1,d)$ along $J$ in the 2-category of proarrows.)  In particular, when $A$ is the unit $V$-category, this recovers the classical notion.  But even in $V Cat$ there are interesting examples for other values of $A$.  If we take $J = D(j,1)$ for some functor $j\colon A\to D$, then \eqref{coyon} and \eqref{yon} imply that
+$$
+\begin{aligned}
+C(1,d) \lhd J &= C(1,d) \lhd D(j,1)\\
+& \cong j^* C(1,d)\\
+& \cong D(1,j) \odot C(1,d)\\
+& \cong C(1,d j) 
+\end{aligned}
+$$
+so that $\ell = d j$ is the $J$-weighted limit of $d$.  That is, $D(j,1)$-weighted limits are just given by composition with $j$.
 
-is a [[final functor]].
-
-=--
-
-This is due to ([GabrielUlmer](#GabrielUlmer))
-
-+-- {: .num_prop #SiftedIffFinalDiag}
-###### Proposition
-
-Let $D$ be a small category. The following are equivalent:
-
-1. $D$ is sifted.
-
-2. $D$ is non-empty and for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
-
-3. The diagonal functor $D\to D^S$ is final, where $S$ is a finite set.
-
-4. For every finite family of objects $d_1,\dots,d_n\in D$, the category $Sink_D(d_1,\dots,d_n)$ of sinks in $D$ with sources $d_1,\dots,d_n$ is connected.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The equivalence between 1 and 2 is just the restatement of \ref{SiftedIffFinalDiag}. The equivalence between 3 and 4 is obvious. Trivially, 2 implies 4. We see the converse.
-
-Assume 4. In particular we have that the category of sinks $Sink_D(\emptyset)$ over the empty family of objects in $D$ is connected and thus inhabited, so $D$ is non-empty.
-
-Now let's see that $Sink_D(d_1,\dots,d_n)$ is non-empty. If $n=0$, this is because $D$ is non-empty. If $n=1$, we always have the identity sink $d_1\to d_1$. We show $Sink_D(d_1,\dots,d_n)$ is non-empty for $n\geq 2$ by induction on $n$. The base case $n=2$ is our assumption. For each $1\leq i\lt n$, pick a cospan $d_1\to c_i\leftarrow d_{i+1}$. By induction, there is a sink $\{c_i\to e\}_{1\leq i\lt n}$. Thus $\{d_1\to c_1\to e\}\cup\{d_{i+1}\to c_i\to e\}_{1\leq i\lt n}$ is a sink with sources $d_1,\dots,d_n$. Now we show there is a zig-zag of morphisms between any two objects of $Sink_D(d_1,\dots,d_n)$. In the case $n=0$, this is our assumption. Let $n\geq 1$. Given two sinks $\{d_i\to c\}_{1\leq i \leq n}$, $\{d_i\to e\}_{1\leq i \leq n}$, the assumption gives a cospan $c\to a\leftarrow e$, 
-
-=--
-
-\tableofcontents
+More interestingly, one can show that if $J = D(1,k)$ for some $k\colon D\to A$, then $J$-weighted limits specialize to *pointwise* right Kan extensions along $k$.  That is, the extra data of a proarrow equipment lets us define the good notion of Kan extension (even in the enriched case) as a special case of a general notion of limit.  Thus, in a general 2-category equipped with proarrows, we *define* a "pointwise right Kan extension" along an arrow $k\colon D\to A$ to be a $D(1,k)$-weighted limit.  It is easy to show that any pointwise Kan extension is, in particular, an internal Kan extension in $K$, but as we have seen the converse fails in $V Cat$.
 
 
+### Right adjoints preserve limits
+
+Suppose that $\ell\colon A\to C$ is a $J$-weighted limit of $d\colon D\to C$ in the above sense, and let $g\colon C\to B$ be an arrow with a left adjoint $f\colon B\to C$.  We want to show that $g\ell$ is a $J$-weighted limit of $g d$.  But we have
+$$
+\begin{aligned}
+B(1,g\ell) &\cong C(1,\ell) \odot B(1,g)\\
+&\cong \big(C(1,d) \lhd J\big) \odot C(f,1)\\
+&\cong C(1,f) \rhd \big(C(1,d) \lhd J\big)\\
+&\cong \big(C(1,f) \rhd C(1,d)\big) \lhd J\\
+&\cong \big(C(1,d) \odot C(f,1)\big) \lhd J\\
+&\cong \big(C(1,d) \odot B(1,g)\big) \lhd J\\
+&\cong B(1,g d) \lhd J.
+\end{aligned}
+$$
+which is what we want.
 
 
-## Idea
+### Graphs and cographs
 
-The *Floreanini-Jackiw Lagrangian* (FL, due to [Floreanini & Jackiw 1987](#FloreaniniJackiw1987)) is a [[Lagrangian density]] for a [[scalar field]] in 2-dimensions whose [[equations of motion]] single out (essentially) just the "right moving" ("chiral") half of solutions of the usual [[relativistic field theory|relativistic]] [[wave equation]]. As such, the FJ-Lagrangian density is an approach, in low dimension, to the notoriously subtle problem of finding [[Lagrangian densities]] for [[self-dual higher gauge fields]].
+As noted above, in the case of ordinary categories, the profunctors can in fact be recovered from the 2-category $Cat$.  Specifically, profunctors $A\to B$ can be identified with two-sided discrete fibrations from $B$ to $A$ (that is, spans $B \leftarrow C \to A$ such that $C \to B$ is a [[Grothendieck fibration|(Grothendieck) fibration]], $C\to A$ is an opfibration, the two structures are compatible, and each fiber of $C\to B\times A$ is discrete).  The two-sided fibration corresponding to a profunctor is also called its [[graph of a profunctor|graph]].  The same is true for internal categories, but not for enriched categories.
 
-The FL-Lagrangian arises also as the [[effective field theory|effective]] [[boundary field theory]] of [[abelian Chern-Simons theory]] ([Wen 1992 §2.5](#Wen1992), [1995 §3.3](#Wen1995), cf. [Tong 2016 §6.1.2](#Tong2016)). This realizes the FL theory as the abelian case of [[Wess-Zumino-Witten theory]] (cf. [[CS/WZW correspondence]]) and witnesses it as the [[effective field theory]] of [[edge modes]] in [[fractional quantum Hall systems]].
+However the $V$-profunctors $A\to B$ *can* be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided [[codiscrete cofibrations]] from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  The two-sided cofibration corresponding to a profunctor is, unsurprisingly, its [[cograph of a profunctor|cograph]], and also its [[collage]].  This was first noticed by Street and subsequently expanded on by other authors.  In particular, one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to equip it with proarrows, and axioms on a proarrow equipment guaranteeing that it arises from codiscrete cofibrations.
 
-## From abelian Chern-Simons theory
+### Virtual equipments
 
-The [[Lagrangian density]] of [[abelian Chern-Simons theory]] with [[gauge field]] [[differential 1-form|1-form]] $a$ is 
-
-\[
-  \propto \tfrac{1}{2} a \wedge \mathrm{d}a
-  \mathrlap{\,.}
-\]
-
-Setting
-
-\[
-  a = \mathrm{d}\phi
-\]
-
-and on the 3D [[spacetime]] [[manifold with boundary|with boundary]] $\mathbb{R}^{0,1} \times \mathbb{R}^2_{y \leq 0}$ gives, by [[Stokes' theorem]], the [[boundary field theory|boundary]] Lagrangian density for $\phi$ ([Wen 1992 (2.62)](#Wen1992))
-
-\[
-  L(\phi) 
-    = 
-  \tfrac{1}{2} (\partial_x \phi) (\partial_{t'}\phi) 
-\]
-
-for $t'$ and $x$ two [[coordinate functions]] on the 2D [[spacetime]] $\mathbb{R}^2$. Understanding ([Wen '92 (2.64)](#Wen1992))
-
-\[
-  t' \coloneqq t - c x
-\]
-
-as a [[lightcone gauge]] coordinate, this is
-
-\[
-  L(\phi) 
-    = 
-  \tfrac{1}{2} (\partial_x \phi) 
-  \big(
-    \partial_{t} - c \partial_x\phi 
-  \big) 
-  \mathrlap{\,.}
-\]
-
-This is the FL-Lagrangian density:
-
-## Lagrangian and Equations of motion
-
-For $\phi$ a [[scalar field]] on $\mathbb{R}^2$ (the latter equipped with its canonical [[coordinate functions]], here denoted $t$ for *[[time]]* and $x$ for *[[space]]*), the FL [[Lagrangian density]] is ([FL '87 (20)](#FloreaniniJackiw1987)):
-
-\[
-  L(\phi)
-  \;\coloneqq\;
-  \tfrac{1}{2}
-  (\partial_x\phi) 
-  \big(
-    \partial_t \phi
-      - 
-    c
-    \partial_x \phi
-  \big)
-  \mathrlap{\,,}
-\]
-
-where $c \in \mathbb{R} \setminus \{0\}$ is a constant which sets the [[velocity]] (the [[speed of light]], often set to $c = 1$).
-
-The corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is 
-
-\[
-  \big(
-    \partial_t - c \partial_x
-  \big)
-  \partial_x
-  \phi
-  = 0
-  \mathrlap{\,.}
-\]
-
-The general solutions to this equation are of the form
-
-\[
-  \label{TheEquationOfMotion}
-  \phi(t,x)
-  = 
-  \phi_c(x + c t)
-  + 
-  g(t)
-\]
-
-where $g$ is an arbitrary ([[smooth function|smooth]]) function of just the temporal coordinate $t$ (hence is a "spatial zero mode"), while $\phi_c$ is a solution of the *chiral/right-moving wave equation*
-
-\[
-  \big(
-    \partial_t - c \partial_x
-  \big)
-  \phi_c
-  = 0
-  \mathrlap{\,.}
-\]
-
-## As effective theory of FQH edge modes
-
-When the the FL theory is understood as an [[effective field theory]] for [[edge modes]] of [[fractional quantum Hall liquids]] ([Wen 1992 §2.5](#Wen1992), review in  [Tong 2016](#Tong2016) [p. 207](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=209)), it is the spatial derivative
-
-\[
-  \rho \coloneqq \partial_x \phi
-\]
-
-which represents the [[current density]] on the edge, and by (eq:TheEquationOfMotion) this again satisfies the chiral wave equation
-
-\[
-  \big(
-    \partial_t - c \partial x
-  \big)
-  \rho
-  = 0
-  \mathrlap{\,.}
-\]
-
+One can formulate a generalized notion of equipment which includes $V Cat$ for _any_ monoidal category $V$ (and in fact, any [[multicategory]]), and $Cat(S)$ for any category $S$ with pullbacks.  The precise definition is complicated, but the basic idea is not: we start from the double-category definition, and instead of composites of the horizontal (pro)arrows, we allow the squares to have domains that are arbitrary composable strings, like so:
+$$\array{ & \to \to \dots \to &\\
+  \downarrow & \Downarrow & \downarrow\\
+  & \underset{}{\to}& .}$$
+So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of *[[virtual equipments]]*.  Most of category theory can be done in a virtual equipment just as well as in an equipment.
 
 
 ## References
 
-### General
+* {#Wood82} [[Richard J. Wood]]: *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982) 279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
 
-The original article:
+* {#Wood85} [[Richard J. Wood]], *Proarrows II*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **26** 2 (1985) 135-168 &lbrack;[numdam:CTGDC_1985__26_2_135_0](http://www.numdam.org/item/CTGDC_1985__26_2_135_0)&rbrack; 
 
-* {#FloreaniniJackiw1987} [[Roberto Floreanini]], [[Roman Jackiw]]: *Self-dual fields as charge-density solitons*, Phys. Rev. Lett. **59** (1987) 1873 &lbrack;[doi:10.1103/PhysRevLett.59.1873](https://doi.org/10.1103/PhysRevLett.59.1873)&rbrack;
-  > (the FR-Lagrangian appears in equation (20))
+* [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
 
-A manifestly [[Lorentz group]]-[[invariant]] re-formulation:
+* [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
 
-* {#Townsend202} [[Paul K. Townsend]]: *Manifestly Lorentz invariant chiral boson action*, Phys. Rev. Lett. **124** (2020) 101604 \[<a href="https://doi.org/10.1103/PhysRevLett.124.101604">doi:10.1103/PhysRevLett.124.101604</a>, [arXiv:1912.04773](https://arxiv.org/abs/1912.04773)\]
+* {#Verity2011} [[Dominic Verity]]: _Enriched categories, internal categories and change of base_, PhD. thesis, Cambridge University (1992), reprinted as: Reprints in Theory and Applications of Categories **20** (2011) 1-266 &lbrack;[tac:tr20](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)&rbrack;
 
-### As EFT for FQH edge modes
+* {#Shulman2008} [[Mike Shulman]]: *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650-738 &lbrack;[tac:20-18](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)&rbrack;
+  > (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
-Review as the [[boundary field theory]] of [[abelian Chern-Simons theory]], in the context of [[effective field theory]] for [[edge modes]] of [[fractional quantum Hall systems]]:
+* [[Geoff Cruttwell]], [[Michael Shulman]], "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
-* {#Wen1992} [[Xiao-Gang Wen]]; §2.5 in: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840), [[Wen-EdgeStatesEffective.pdf:file]]&rbrack;
+* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
 
-* {#Wen1995} [[Xiao-Gang Wen]]; §3.3 in: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+A blog post surveying ideas of proarrow equipments, much of which has been copied over to this page:
 
-reviewed in:
+* [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html))
 
-* {#Tong2016} [[David Tong]]; §6.1.2 in: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
+On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
 
+* {#Myers16} [[David Jaz Myers]], _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
 
+* [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
+An [[(∞,1)-category theory|(∞,1)-category theoretic]] version of proarrow equipments is in
 
-\linebreak
-
-
-## Nonconservative mathematical adjectives
-
-In the practice of the naming of concepts in [[mathematics]], it happens that an adjective added to a term not just qualifies that term but actually contradicts it. 
-
-For instance "[[partial functions]]" are not special kinds of functions but are, generally, not functions at all. (More examples are listed below.) This is in contrast to cases like "[[abelian groups]]", which are indeed special kinds of [[groups]].
-
-Hence such *nonconservative adjectives* are modifiers in mathematical terminology that fundamentally alter, negate, or expand the defining axioms of a base term, rather than simply restricting them.
-
-In linguistics one speaks in such cases of *[privative adjectives](https://en.wikipedia.org/wiki/Privative_adjective)*. For example a "fake X" is not an "X", hence "fake" is a privative adjective in the English language.
-
-While strict logic may suggest to avoid nonconservative/privative adjectives, their use in mathematics is pragmatic and the meaning is typically suggestive and readily grasped, instead of misleading. For instance the intended meaning of "[[manifolds with boundary]]" is clear, and yet (if the boundary is non-empty) these are not strictly speaking "[[manifolds]]", whence "with boundary" is a nonconservative qualifier.
-
-Accordingly, an earlier suggestion in this entry to refer to nonconservatively qualified terminology as "red herrings" is (while it may have gained some popularity, though maybe for the wrong reason) not really appropriate, as "red herrings" in the figurative sense are deliberately misleading.
+* Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
 
 
 
-### FQH Excitation modes
 
 
 
-On multiple modes resolving the would-be single GMP mode for [FQH excitations](quantum+Hall+effect#CollectiveExcitations) 
+## Related concepts
 
-near filling fraction $\nu = 1/4$:
+Variant concepts:
 
-* Dung Xuan Nguyen, [[F. D. M. Haldane]], [[Edward H. Rezayi]], [[Dam Thanh Son]], Kun Yang: *Multiple Magnetorotons and Spectral Sum Rules in Fractional Quantum Hall Systems*, Phys. Rev. Lett. **128** (2022) 246402 \[<a href="https://doi.org/10.1103/PhysRevLett.128.246402">doi:10.1103/PhysRevLett.128.246402</a>, [arXiv:2111.10593](https://arxiv.org/abs/2111.10593), suppl:[pdf](https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.128.246402/Supp.pdf)\]
+* [[virtual proarrow equipment]]
 
-at [Jain filling fractions](quantum+Hall+effect#CompositeParticlePicture) $n/(2 p n \pm 1)$ with ${\vert n \vert}\geq 2$ (e.g. $\nu = 2/5, 3/7, 2/9, 2/7$):
+* [[1-category proarrow equipment]]
 
-* [[Ajit C. Balram]], Zhao Liu, [[Andrey Gromov]], [[Zlatko Papić]]: *Very-High-Energy Collective States of Partons in Fractional Quantum Hall Liquids*, Phys. Rev. X **12** (2022) 021008 \[<a href="https://doi.org/10.1103/PhysRevX.12.021008">doi:10.1103/PhysRevX.12.021008</a>, [arXiv:2111.10395](https://arxiv.org/abs/2111.10395)\]
+* [[(1,2)-category proarrow equipment]]
 
-at filling fractions $\nu  = n/(4 n \pm 1)$:
+Related concepts:
 
-* [[Ajit C. Balram]], G. J. Sreejith, [[Jainendra K. Jain]]: *Splitting of Girvin-MacDonald-Platzman density wave and the nature of chiral gravitons in fractional quantum Hall effect*, Phys. Rev. Lett. **133** (2024) 246605 \[<a href="https://doi.org/10.1103/PhysRevLett.133.246605">doi:10.1103/PhysRevLett.133.246605</a>, [arXiv:2406.02730](https://arxiv.org/abs/2406.02730)\]
+* [[cartesian bicategory]]
 
-in FQH liquids that are not fully spin-polarized:
+* [[bicategory of relations]]
 
-* Rakesh K. Dora, [[Ajit C. Balram]]: *Dispersion of collective modes in spinful fractional quantum Hall states on the sphere* \[<a href="https://arxiv.org/abs/2509.13100">arXiv:2509.13100</a>\] 
+* [[allegory]]
 
-\linebreak
-
-\begin{example}
-In the category of [[schemes]] the subcategory of [[affine schemes]] is dense, see [[affine scheme#AffineSchemesFullSubcategoryOfOppositeOfRings|here]].
-\end{example}
-
-\begin{example}
-In the category of [[smooth manifolds]], the full subcategory whose objects are given by $\mathbb{R}^n$ for $n\geq 1$ with the standard smooth structure, is dense.
-\end{example}
-
-Proof: The restricted Yoneda to the full subcategory spanned by ${\{R\}}$ is faithful, hence so is when restricted to the subcat spanned by $\{R,R^2\}$. To see fullness when restricted to the subcat spanned by $\{R,R^2\}$, suppose we are given a morphism $\operatorname{Hom}(-,M)\Rightarrow\operatorname{Hom}(-,N)$ of presheaves on $\mod_{\{R,R^2\}}$. Given $x\in M$, write $z_x\in N$ for the image of $1\in R$ of the induced map $R\to N$ from $R\to M,1\mapsto x$. Write $[x,y]:R^2\to M$ for the map sending $(1,0)$ and $(0,1)$ to $x$ and $y$, respectively, and write $z_{[x,y]}:R^2\to N$ for the induced map. Then $z_{[x,y]}=[z_x,z_y]$ by compatibility with the $i$-th component map $c_i:R\to R^2$, $i=1,2$. Thus, compatibility with the diagonal map $\Delta:R\to R^2$ gives $z_{x+y}=\Delta^*z_{[x,y]}=\Delta^*[z_x,z_y]=z_x+z_y$. On the other hand, given $r\in R$, compatibility with $r: k\to k$ gives $z_{r x}=rz_x$. Thus $x\mapsto z_x$ defines a map $f:M\to N$ of $R$-modules such that $f^*:\operatorname{Hom}(-,M)\Rightarrow\operatorname{Hom}(-,N)$ is the morphism we began with.
-
-
-
-## Definition
-
-A complex (or real) [[extended C*-algebra]] whose bounded part is a [[von Neumann algebra]].
-
-Equivalently (by a theorem due to Dixon and Zakirov–Chilin), a complex (or real) [[*-algebra]] $A$ of closed densely defined unbounded operators on a [[Hilbert space]] closed under the operations of strong sum, strong multiplication, passing to adjoints, contains all scalar multiples of the identity operator, for every $x\in A$ we have $(1+x^*x)^{-1}\in A$ (equivalently, $x$ is affiliated with $A_b$), and the [[*-subalgebra]] $A_b$ of bounded operators in $A$ is a [[von Neumann algebra]].
-
-## Properties
-
-For any [[von Neumann algebra]] there is a unique (up to a unique isomorphism) maximal extended von Neumann algebra that has $A$ as its bounded part, namely, the extended von Neumann algebra of locally measurable operators affiliated with $A$.
-
-The [[reduction theory]] for [[von Neumann algebras]] can be extended to the case of extended von Neumann algebras.
-
-## References
-
-* P. G. Dixon, _Generalized B*-algebras_, Proceedings of the London Mathematical Society s3-21:4 (1970), 693-715.  [DOI](https://doi.org/10.1112/plms/s3-21.4.693).
-
-  **  establishes functional calculus for commutative extended C*-algebras and Gelfand-Neumark theorem for noncommutative extended C*-algebras
-  ** defines “concrete” C*-algebras in Definition 7.1
-  ** shows that “abstract” and “concrete” extended C*-algebras are the same notion, see Theorem 7.13
-
-* P. G. Dixon, _Unbounded operator algebras_, Proceedings of the London Mathematical Society s3-23:1 (1971), 53-69.  [DOI](https://doi.org/10.1112/plms/s3-23.1.53).
-
-  **  defines “concrete” extended von Neumann algebras (called EW*-algebras there) in Definition 1.2
-  ** develops reduction theory in Section 3
-  ** studies measurable operators in Section 4 and 5
-  ** studies locally measurable operators in Section 6 and 7
-
-* B. S. Zakirov, V. I. Chilin, _Abstract characterization of EW*-algebras_, Functional Analysis and Its Applications 25:1 (1991), 63-64.  [DOI](https://doi.org/10.1007/bf01090683).
-
-  *  shows that “abstract” and “concrete” extended von Neumann algebras are the same
-
-  *  proves that extended von Neumann algebras are precisely those [[extended C*-algebras]] whose bounded part is a [[von Neumann algebra]]
-
-\[ A \].
 
