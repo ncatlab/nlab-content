@@ -829,16 +829,17 @@ We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ 
   A
   \arrow[r,  "U_A"]
   \arrow[d, "f"']
+  \arrow[dd, "", ""{name=L, right}, phantom]
   & A
   \arrow[dd, "id", ""{name=R, left}]
   \\
   B
     \arrow[d, "g"']
-    \arrow[Rightarrow, from=R, "\eta"']
   \\
   A
   \arrow[r, "U_A"']
   & A
+    \arrow[Rightarrow, from=R, to=L, "\eta"']
 \end{tikzcd}
 </td>
 <td style="border: none;">
@@ -848,14 +849,15 @@ We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ 
   \arrow[dd, "id"',  ""{name=L, right}]
   & B
   \arrow[d, "g"]
+  \arrow[dd, "", ""{name=R, left}, phantom]
   \\
   & A
     \arrow[d, "f"]
-    \arrow[Rightarrow, to=L, "\varepsilon"']
   \\
   B
   \arrow[r, "U_B"']
   & B
+   \arrow[Rightarrow, from=R, to=L, "\varepsilon"']
 \end{tikzcd}
 </td>
 </tr>
