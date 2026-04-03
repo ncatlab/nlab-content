@@ -33,6 +33,6 @@ If $B$ is [[cartesian monoidal category|cartesian monoidal]], then monoidal fibr
 
 ## References
 
-* [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
+* [[Mike Shulman]]: *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650-738 &lbrack;[tac:20-18](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)&rbrack;
 
 [[!redirects monoidal fibrations]]
