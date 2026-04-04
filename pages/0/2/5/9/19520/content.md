@@ -10,9 +10,8 @@
 
 *This page is about double categories. For the use of 'tight' and 'loose' in the context of [[F-categories]], see there.*
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -78,11 +77,20 @@ Other references:
 
 * {#Lein04} [[Tom Leinster]], *Higher operads, higher categories*, London Math. Soc. Lec. Note Series **298**, Cambridge University Press (2004) &lbrack;[math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896)&rbrack;
 
+
 [[!redirects horizontal morphism]]
 [[!redirects horizontal morphisms]]
+[[!redirects horizontal 1-morphism]]
+[[!redirects horizontal 1-morphisms]]
+[[!redirects horizontal 1-cell]]
+[[!redirects horizontal 1-cells]]
 
 [[!redirects vertical morphism]]
 [[!redirects vertical morphisms]]
+[[!redirects vertical 1-morphism]]
+[[!redirects vertical 1-morphisms]]
+[[!redirects vertical 1-cell]]
+[[!redirects vertical 1-cells]]
 
 
 [[!redirects tight morphism]]
