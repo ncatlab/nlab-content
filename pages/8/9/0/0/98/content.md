@@ -311,7 +311,7 @@ If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|
 
 ## References
 
-An elementary introduction for CE-algebras of Lie algebras is at the beginning of
+An elementary introduction for CE-algebras of Lie algebras is at the beginning of:
 
 * [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
 
@@ -320,6 +320,13 @@ More details are in  of
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6.7 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_ , Cambridge monographs of mathematical physics, (1995)
 
 See also almost any text on [[Lie algebra cohomology]] (see the list of references there).
+
+On Chevalley-Eilenberg algebras of [[L-infinity algebras|$L_\infty$-algebras]] see there.
+
+On [[Poisson n-algebra|Poisson $n$-algebra]] [[structures]] on Chevalley-Eilenberg algebras of [[Lie 2-algebras]]:
+
+* Cameron Kemp, Robert Laugwitz, [[Alexander Schenkel]]: *Shifted Poisson structures on higher Chevalley-Eilenberg algebras*, Lett. Math. Phys. **116** 19 (2026) &lbrack;[arXiv:2412.12804](https://arxiv.org/abs/2412.12804), [doi:10.1007/s11005-026-02053-z](https://doi.org/10.1007/s11005-026-02053-z)&rbrack;
+
 
 [[!redirects Chevalley--Eilenberg algebra]]
 [[!redirects Chevalley–Eilenberg algebra]]
@@ -332,4 +339,3 @@ See also almost any text on [[Lie algebra cohomology]] (see the list of referenc
 
 [[!redirects Chevalley-Eilenberg differential]]
 [[!redirects Chevalley-Eilenberg differentials]]
-V. B. Marques and A. Mertens, 2024, Templicial nerve of an A-infinity category, URL https://arxiv.org/abs/2411.19751.mo
