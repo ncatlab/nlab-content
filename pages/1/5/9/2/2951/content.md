@@ -1,4 +1,7 @@
-<div style="float:right;margin:0 20px 10px 20px;" markdown="1"><img width = "250" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Graeme_Segal.jpeg/225px-Graeme_Segal.jpeg" alt="Graeme Segal in Berkely, 1982" /><br />[Wikimedia Commons image](http://commons.wikimedia.org/wiki/File:Graeme_Segal.jpeg), taken by [[George Bergman]] in 1982</div>
+<div style="float:right;margin:-40px 20px 10px 20px;" markdown="1"><img width = "300" src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Graeme_Segal.jpeg" alt="Graeme Segal in Berkely, 1982" /><br />[Wikimedia Commons image](http://commons.wikimedia.org/wiki/File:Graeme_Segal.jpeg), taken by [[George Bergman]] in 1982</div>
+
+
+Graeme Bryce Segal
 
 
 * [institute page](https://www.maths.ox.ac.uk/people/graeme.segal)
@@ -12,7 +15,7 @@
 
 On [[classifying spaces]] and [[spectral sequences]] (and introducing, following [Grothendicek 61](Segal+condition#Grothendieck61), the "[[Segal conditions]]", see also at _[[complete Segal space|complete]] [[Segal space]]_):
 
-* {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
+* [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
 
 On the [[representation rings]] of [[compact Lie groups]]:
 
@@ -25,6 +28,13 @@ On [[equivariant K-theory]]:
 On the [[Atiyah-Segal completion theorem]]:
 
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. **3** 1-2 (1969) 1-18 &lbrack;[euclid:jdg/1214428815](http://projecteuclid.org/euclid.jdg/1214428815)&rbrack;
+
+On the proper definition of [[group cohomology]] for [[topological groups]]:
+
+* [[Graeme Segal]]: *Cohomology of topological groups*, in: Symposia Mathematica **IV** (INDAM, Rome, 1968/69)  Academic Press (1970) 377-387 &lbrack;[[Segal-TopGroupCohomology.pdf:file]]&rbrack;
+
+* [[Graeme Segal]]: *A classifying space of a topological group in the Gel'fand-Fuks sense*, Functional Analysis and its Applications **9** (1975) 131-133 &lbrack;[doi:10.1007/BF01075450](https://doi.org/10.1007/BF01075450)&rbrack;
+
 
 On [[equivariant stable homotopy theory]] and the isomorphism between the [[Burnside ring]] and the [[equivariant stable Cohomotopy]] of the point:
 
