@@ -44,6 +44,10 @@ Proposal for understanding [[D=6 N=(1,0) SCFTs]] as [[higher gauge theories]] fo
   > (on the [[self-dual higher gauge theory|self-duality condition]] on the [[M5-brane]] [[worldvolume]]:
 )
 
+On [[L-infinity algebras|$L-\infty$-algebras]] in the [[BV-BRST formalism]] for [[classical field theory]]:
+
+* [[Branislav Jurčo]], Lorenzo Raspollini, [[Christian Saemann]], [[Martin Wolf]]: *$L_\infty$-Algebras of Classical Field Theories and the Batalin-Vilkovisky Formalism*,  	Fortschr. Phys. **67** (2019) 1900025 \[<a href="https://doi.org/10.1002/prop.201900025">doi:10.1002/prop.201900025</a>, [arXiv:1809.09899](https://arxiv.org/abs/1809.09899)\]
+
 
 On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebra]]:
 
