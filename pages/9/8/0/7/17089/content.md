@@ -30,9 +30,13 @@ See also
 
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
  
-Comprehensive survey with emphasis on [[L-infinity algebra cohomology|$L_\infty$-algebra cohomology]]:
+Introduction and survey:
 
-* Ben Reinhold, *$L_\infty$-algebras and their cohomology*, Emergent Scientist **3** 4 (2019) &lbrack;[doi:10.1051/emsci/2019003](https://doi.org/10.1051/emsci/2019003)&rbrack;
+* Ben Reinhold, *$L_\infty$-algebras and their cohomology*, Emergent Scientist **3** 4 (2019) \[<a href="https://doi.org/10.1051/emsci/2019003">doi:10.1051/emsci/2019003</a>\]
+  > (focus on [[L-infinity algebra cohomology|$L_\infty$-algebra cohomology]])
+
+* Andreas Kraft, Jonas Schnitzer: *An Introduction to $L_\infty$-Algebras and their Homotopy Theory*,     Rev. Math. Phys. **36** 01 (2024) 2330006 \[<a href="https://doi.org/10.1142/S0129055X23300066">doi:10.1142/S0129055X23300066</a>, [arXiv:2207.01861](https://arxiv.org/abs/2207.01861)\]
+
 
 Review for the special case of [[Lie 2-algebras]] with emphasis on the perspective of [[categorification]]:
 
@@ -86,7 +90,7 @@ The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré forma
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of: _[[schreiber:L-infinity algebra connections|$L_\infty$ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 \[<a href="http://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)\]
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Int. J. of Geometric Methods in Modern Physics **12** 02 (2015) 1550018 &lbrack;[arXiv:1308.5264](http://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](https://doi.org/10.1142/S0219887815500188)&rbrack;
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Int. J. of Geometric Methods in Modern Physics **12** 02 (2015) 1550018 \[<a href="https://doi.org/10.1142/S0219887815500188">doi:10.1142/S0219887815500188</a>, [arXiv:1308.5264](http://arxiv.org/abs/1308.5264)\]
 
 connecting them to the [[higher WZW terms]] of the [[Green-Schwarz sigma models]] of fundamental [[super p-branes]] ([[schreiber:The brane bouquet]]).
 
@@ -96,7 +100,7 @@ Further exposition and review of the (dual) identification of supergravity "FDAs
 
 * [[Urs Schreiber]],  _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_, PhysicsForums-Insights (2015)
 
-* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]: _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** 8-9 (2019) 1910001 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]: _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** 8-9 (2019) 1910001 \[<a href="https://doi.org/10.1002/prop.201910001">doi:10.1002/prop.201910001</a>, [arXiv:1903.02807](https://arxiv.org/abs/1903.02807)\]
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The rational higher structure of M-theory|The rational higher structure of M-theory]]*, in *[[Higher Structures in M-Theory 2018]]*, Fortschr. der Physik **67** 8-9 (2019) 1910017 \[<a href="https://arxiv.org/abs/1903.02834">arXiv:1903.02834</a>, <a href="https://doi.org/10.1002/prop.201910017">doi:10.1002/prop.201910017</a>\]
 
@@ -161,7 +165,11 @@ The [[L-∞ algebroid]]-structure is also made explicit in ([def. 4.1 of v1](htt
 
 The extraction of [[L-infinity algebras|$L_\infty$-algebras]] from the formal neighbourhood of a [[derived critical locus]] is maybe first made explicit in:
 
-* [[Maxim Grigoriev]], [[Dmitry Rudinsky]], *Notes on the $L_\infty$-approach to local gauge field theories* $[$[arXiv2303.08990](https://arxiv.org/abs/2303.08990)$]$
+* [[Maxim Grigoriev]], [[Dmitry Rudinsky]], *Notes on the $L_\infty$-approach to local gauge field theories* \[<a href="https://arxiv.org/abs/2303.08990">arXiv:2303.08990</a>\]
+
+More recent development:
+
+* [[Branislav Jurčo]], Lorenzo Raspollini, [[Christian Saemann]], [[Martin Wolf]]: *$L_\infty$-Algebras of Classical Field Theories and the Batalin-Vilkovisky Formalism*,  	Fortschr. Phys. **67** (2019) 1900025 \[<a href="https://doi.org/10.1002/prop.201900025">doi:10.1002/prop.201900025</a>, [arXiv:1809.09899](https://arxiv.org/abs/1809.09899)\]
 
 
 #### In string field theory
