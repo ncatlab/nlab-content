@@ -658,9 +658,10 @@ Surveys are in
 * A. Carboni and [[Ross Street]], _Order ideal in categories_ Pacific J. Math., 124:275&#8211;288, 1986.
  {#CarboniStreet}
 
-Further references include for instance
+Further references:
 
-* {#J1989} S. R. Johnson, _Small Cauchy completions_ , JPAA **62** (1989) pp.35-45.  ([web](https://www.sciencedirect.com/science/article/pii/0022404989900194))
+
+* {#J1989} [[Scott R. Johnson]]: _Small Cauchy completions_, Journal of Pure and Applied Algebra **62** (1989) 35-45 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90019-4">doi:10.1016/0022-4049(89)90019-4</a>&rbrack;
 
 * R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
 
@@ -668,9 +669,12 @@ Further references include for instance
 
 * {#NST2020} Branko Nikolić, [[Ross Street]], [[Giacomo Tendas]], _Cauchy completeness for DG-categories_, Theory and Applications of Categories, 37(28):940-963, 2021 [link](http://www.tac.mtI found a link explaining that the category additionally has biproducts, given by the componentwise product of semilattices.a.ca/tac/volumes/37/28/37-28abs.html).
 
+* [[Scott Johnson]]: *Cauchy completion in enriched categories*, PhD thesis, Australian National University (1993) &lbrack;[hdl:1885/139391](http://hdl.handle.net/1885/139391)&rbrack;
+
+
 * {#LT2022} [[Stephen Lack]], [[Giacomo Tendas]], _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. [arXiv:2107.08612](https://arxiv.org/abs/2107.08612), [doi](https://doi.org/10.1016/j.aim.2022.108381).
 
-Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in 
+On Cauchy completion of [[internalization|internal]] [[prosets]]:
 
 * G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
  {#Rosolini}
