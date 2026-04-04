@@ -185,9 +185,9 @@ Papers developing general theorems in (intramural) formal category theory:
 
 Papers developing general theorems in (extramural) formal category theory:
 
-* [[Ross Street]], "Fibrations in bicategories", [Numdam](http://www.numdam.org/item/?id=CTGDC_1980__21_2_111_0), and [correction](http://www.ams.org/mathscinet-getitem?mr=903151).
+* [[Ross Street]]: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111--160 &lbrack;[numdam:CTGDC_1980__21_2_111_0](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
 
-* [[Aurelio Carboni]] and [[Scott Johnson]] and [[Ross Street]] and [[Dominic Verity]], "Modulated bicategories" (MB) [MR](http://www.ams.org/mathscinet-getitem?mr=1285544).
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
 
 * [[Bob Rosebrugh]] and [[Richard Wood]], "Proarrows and cofibrations" (PC), [MR](http://www.ams.org/mathscinet-getitem?mr=961365)
 
@@ -195,9 +195,7 @@ Papers developing general theorems in (extramural) formal category theory:
 
 * [[Bob Rosebrugh]] and [[Richard Wood]], "Pullback preserving functors". Journal of Pure and Applied Algebra 73.1 (1991): 73-90.
 
-* [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], _Modulated bicategories_
-
-* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, _Variation through enrichment_
+* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], [[Robert Walters]]: *Variation through enrichment*, Journal of Pure and Applied Algebra **29** 2 (1983) 109-127 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90100-7">doi:10.1016/0022-4049(83)90100-7</a>&rbrack;
 
 * [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
 
