@@ -1,5 +1,13 @@
 
-* [webpage](http://www2.yukawa.kyoto-u.ac.jp/~tadashi.takayanagi/eindex.html)
+* [personal page](http://www2.yukawa.kyoto-u.ac.jp/~tadashi.takayanagi/eindex.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Tadashi_Takayanagi)
+
+* [inSpire page](https://inspirehep.net/authors/986765)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=YQau8AQAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Tadashi-Takayanagi)
 
 
 ## Selected writings
