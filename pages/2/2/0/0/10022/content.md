@@ -279,7 +279,7 @@ Review:
 
 * {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Holographic Entanglement Entropy: An Overview*, J. Phys. A **42** 504008 (2009) &lbrack;[arXiv:0905.0932](https://arxiv.org/abs/0905.0932), [doi:10.1088/1751-8113/42/50/504008](https://iopscience.iop.org/article/10.1088/1751-8113/42/50/504008)&rbrack;
 
-* Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
+* [[Matthew Headrick]]: _Lectures on entanglement entropy in field theory and holography_ &lbrack;[arXiv:1907.08126](https://arxiv.org/abs/1907.08126)&rbrack;
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
@@ -310,8 +310,6 @@ Survey talks:
 
 * Juan Jottar, _(Entanglement) Entropy in three-dimensional higher spin theories_ ([pdf slides](http://www.hip.fi/holograv13/talk_folder/Jottar-HologravWorkshop-March2013.pdf))
 
-* Matthew Headrick, _Entanglement entropies in holographic field theory_ ([pdf slides](http://www.ggi.fi.infn.it/talks/talk1853.pdf))
-
 * {#Hartmann14} Tom Hartmann, _Entanglement entropy and geometry_, talk slides, 2014 ([pdf](http://online.kitp.ucsb.edu/online/qft14/hartman/pdf/Hartman_QFT14_KITP.pdf))
 
 An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
@@ -334,7 +332,10 @@ Discussion of the corresponding continuum theory, formulated via [[local nets of
 
 See also:
 
-* Matthew Headrick, Veronika E. Hubeny, *Covariant bit threads* &lbrack;[arXiv:2208.10507](https://arxiv.org/abs/2208.10507)&rbrack;
+* [[Matthew Headrick]], [[Veronika E. Hubeny]], Albion Lawrence, [[Mukund Rangamani]]: *Causality & holographic entanglement entropy*,  J. High Energ. Phys. **2014** 162 (2014) &lbrack;<a href="https://doi.org/10.1007/JHEP12(2014)162">doi:10.1007/JHEP12(2014)162</a>, <a href="https://arxiv.org/abs/1408.6300">arXiv:1408.6300 hep-th</a>&rbrack;
+  > (on aspects of [[causal structure]])
+
+* [[Matthew Headrick]], [[Veronika E. Hubeny]], *Covariant bit threads*,  J. High Energ. Phys. **2023** 180 (2023) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2023)180">doi:10.1007/JHEP07(2023)180</a>, [arXiv:2208.10507](https://arxiv.org/abs/2208.10507)&rbrack;
 
 * Eugenia Colafranceschi, [[Xi Dong]], [[Donald Marolf]], Zhencheng Wang, *Algebras and Hilbert spaces from gravitational path integrals: Understanding Ryu-Takayanagi/HRT as entropy without invoking holography* &lbrack;[arXiv:2310.02189](https://arxiv.org/abs/2310.02189)&rbrack;
 
@@ -392,7 +393,7 @@ Further development of these tensor networks:
 
 The bit-thread proposal for associating holographic entanglement entropy with [[geodesic]] [[flow]] in [[hyperbolic space]]:
 
-* {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]], *Bit threads and holographic entanglement*, Comm. Math. Phys. 352, 407 (2017) ([arXiv:1604.00354](https://arxiv.org/abs/1604.00354))
+* {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]]: *Bit threads and holographic entanglement*, Comm. Math. Phys. **352** 407 (2017) &lbrack;[arXiv:1604.00354](https://arxiv.org/abs/1604.00354), [doi:10.1007/s00220-016-2796-3](https://doi.org/10.1007/s00220-016-2796-3)&rbrack;
 
 Embedding of the [[HaPPY code]] and the bit-thread models in more general [[Majorana dimer codes]]:
 
