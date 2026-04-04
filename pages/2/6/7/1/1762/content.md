@@ -1,8 +1,14 @@
-Ross Street is a major member of the Australian school of [[higher category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. 
-
-* [homepage](http://www.maths.mq.edu.au/~street)
+Ross Howard Street is a major member of the Australian school of [[higher category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. 
 
 His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum groups]], [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
+
+* [institute page](https://researchers.mq.edu.au/en/persons/ross-street/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ross_Street)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=32936)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=1fe_NekAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -21,6 +27,13 @@ On [[enriched category theory]] and [[cosmoi]]:
 * {#Street74} [[Ross Street]],  *Elementary cosmoi I.* in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
 
 * {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
+
+On [[fibrations in 2-categories]]:
+
+* [[Ross Street]]: _Fibrations and Yoneda's lemma in a 2-category_, Lecture Notes in Mathematics **420** (1974) 104–133. &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
+
+* [[Ross Street]]: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111--160 &lbrack;[numdam:CTGDC_1980__21_2_111_0](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
+
 
 On [[sketches]] in the generality of [[internalization]] into [[2-categories]]:
 
@@ -105,6 +118,10 @@ On the [[Yoneda lemma]] in [[formal category theory]], internal to suitable [[2-
 
 * [[Ross Street]]: _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
 
+On a [[2-category]] analog of [[regular categories]]:
+
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
+
 
 Introducing [[skew-closed categories]]:
 
@@ -117,10 +134,7 @@ Further:
 
 * [[André Joyal|A. Joyal]], R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
 
-
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
-
-* R.H. Street, _Fibrations in bicategories_, Cahiers de topologie et géométrie différentielle XXI (1980) 111–160
 
 * R.H. Street, _Two dimensional sheaf theory_, J. Pure and Appl. Algebra __24__ (1982) [MR617138](https://mathscinet.ams.org/mathscinet-getitem?mr=617138)
 
