@@ -236,6 +236,8 @@ This is a (rigorous) state of affairs reminiscent of the "[[ER = EPR]]" slogan.
 
 * [[holographic Renyi entropy]]
 
+* [[entanglement wedge]]
+
 * gravitational entropy
 
   * [[Bekenstein-Hawking entropy]]
