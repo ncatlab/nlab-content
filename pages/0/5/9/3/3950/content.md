@@ -9,9 +9,9 @@
 =--
 =--
 
-# Contents
-* automatic table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -203,9 +203,9 @@ An equippable 2-category with $\mathcal{E} =$ liberal cofaithfuls = liberals is 
 
 ## References
 
-* [[Ross Street]], "Fibrations in bicategories", [Numdam](http://www.numdam.org/item/?id=CTGDC_1980__21_2_111_0), and [correction](http://www.ams.org/mathscinet-getitem?mr=903151).
+* [[Ross Street]]: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111--160 &lbrack;[numdam:CTGDC_1980__21_2_111_0](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
 
-* [[Aurelio Carboni]] and [[Scott Johnson]] and [[Ross Street]] and [[Dominic Verity]], "Modulated bicategories" (MB) [MR](http://www.ams.org/mathscinet-getitem?mr=1285544).
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
 
 * [[Bob Rosebrugh]] and [[Richard Wood]], "Proarrows and cofibrations" (PC), [MR](http://www.ams.org/mathscinet-getitem?mr=961365)
 
