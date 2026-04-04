@@ -109,9 +109,9 @@ Because by the [[(∞,1)-Grothendieck construction]]
 
 For ordinary and [[enriched category theory|enriched]] categories, cographs were studied (and used to characterize profunctors) by:
 
-* [[Ross Street]], "Fibrations in bicategories"
+* [[Ross Street]]: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111--160 &lbrack;[numdam:CTGDC_1980__21_2_111_0](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
 
-* Carboni and Johnson and Street and Verity, "Modulated bicategories"
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
 
 The $(\infty,1)$-category theoretic notion ("correspondence") is the topic of section 2.3.1 of
 
