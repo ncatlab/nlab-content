@@ -42,7 +42,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Predicates and Fibrations|[[Duško Pavlović]]|1990|[Scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
 |Dialectica Categories|[[Valeria de Paiva]]|1991|[Computer Lab Technical Report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.html)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
-|Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
+|Cauchy completion in enriched categories| [[Scott Russell Johnson]] |1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
 |Linear Logic, Bimodules, and Full Coherence for Autonomous Categories|[[Todd Trimble]]|1994| | |
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995|| | 
