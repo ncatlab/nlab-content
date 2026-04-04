@@ -9,6 +9,8 @@
 =--
 
 
+
+
 \tableofcontents
 
 
@@ -36,13 +38,19 @@ There are several not-quite-equivalent ways to describe this extra structure. On
 
 We give several equivalent definitions of proarrow equipments:
 
-1. [As 2-functors](#DefinitionAsA2Functor) which are bijective on objects, locally fully faithful, and map every 1-morphism to one having a right adjoint.
+1. [as 2-functors](#DefinitionAsA2Functor) which are bijective on objects, locally fully faithful, and map every 1-morphism to one having a right adjoint,
 
-1. [As double categories](#DefinitionAsDoubleCategory) in which every vertical arrow has a companion and a conjoint.
+1. [as double categories](#DefinitionAsDoubleCategory) in which 
 
-1. As double categories in which every niche has a cartesian filler.
+   1. [every vertical arrow has a companion and a conjoint](#CharacterizationViaCompanionsAndConjoints),
 
-While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the [[3-category]] of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See [Verity 2011](#Verity2011) and [Shulman 2008](#Shulman2008).)  It also generalizes better to situations in which not all proarrows have composites; see "[[virtual equipments]]," below.
+   1. [every niche has a cartesian filler](#CharacterizationViaCartesianNicheFillers),
+
+1. [as categories internal to $Cat$](#AsInternalCategories).
+
+Here, the first definition is perhaps the simplest or most immediate.  
+
+But for some purposes the second definition is preferable: For instance, the definition of the [[3-category]] of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories (cf. [Verity 2011](#Verity2011) and [Shulman 2008](#Shulman2008)). The perspective of double categories also generalizes better to situations in which not all proarrows have composites; see on *[[virtual equipments]]* [below](#VirtualEquipments).
 
 
 ### As 2-functors
@@ -95,11 +103,11 @@ We do sometimes avail ourselves of the shorter terminology "proarrow equipment,"
 
 
 \begin{example}
-For $V$ is a [[Bénabou cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by the 2-category $M=V Mod$ of $V$-enriched profunctors, where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
+For $V$ is a [[Bénabou cosmos]], the [[2-category]] [[V Cat|$K= V Cat$]] of $V$-[[enriched categories]] is equipped with proarrows by the 2-category $M=V Mod$ of $V$-[[enriched profunctors]], where $B(1,f)$ and $B(f,1)$ are the two ways of regarding a $V$-functor $f \colon A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$ (hence the notation in the general case).  Composition of $V$-profunctors is by [[tensor product]], i.e. by [[coends]] (note that we require $V$ to be [[cocomplete category|cocomplete]] with colimits preserved by $\otimes$ on both sides in order to form such associative tensor products).  In [[V Cat|$V Cat$]], $H(g,f)$ is the result of [[precomposition|precomposing]] the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.
 \end{example}
 
 \begin{example}
-The other most common sorts of generalized category, such as [[internal categories]] in some category with [[pullbacks]], and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
+The other most common sorts of generalized category, such as [[internal categories]] in some category with [[pullbacks]], and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For [[internal categories]] in $S$, we require $S$ to have [[finite limits]] and [[coequalizers]] [[preserved limit|preserved]] by [[pullback]] in order for the bicategory of [[internal profunctors]] to have [[associativity|associative]] [[compositions]].  (See on *[[virtual equipments]]* [below](#VirtualEquipments), for a context which avoids some of these restrictions on $V$ and $S$.)
 \end{example}
 
 
@@ -110,7 +118,8 @@ The other most common sorts of generalized category, such as [[internal categori
 
 We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with [[extra structure]]. 
 
-Given a 2-category $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
+\begin{definition}\label{TheAssociatedDoubleCategory}
+Given a [[2-category]] $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same [[objects]] as $K$, whose [[vertical 1-cells]] are the arrows, whose [[horizontal 1-cells]] are the proarrows, and whose squares
 \begin{tikzcd}
   A
   \arrow[r,  "H", ""{name=U, below}]
@@ -123,14 +132,32 @@ Given a 2-category $K$ equipped with proarrows according to Def. \ref{TheDefinit
   & D
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
-are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
+are the [[2-cells]] $H \to J(g,f)$.  
+\end{definition}
 
-In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
+\begin{remark}
+If $K$ is a [[strict 2-category]], then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
+\end{remark}
 
-One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  One can then recover $K$ and $M$ as the 
-[[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
+\begin{example}
+In [[V Cat|$V Cat$]], the squares of the above form (Def. \ref{TheAssociatedDoubleCategory}) are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  
+Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  
+\end{example}
 
-Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
+#### Via companions and conjoints
+ {#CharacterizationViaCompanionsAndConjoints}
+
+More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category of Def. \ref{TheAssociatedDoubleCategory}, and we can characterize the double categories that arise in this way.
+
+One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  
+
+One can then recover $K$ and $M$ as the [[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
+
+
+#### Via cartesian niche fillers
+ {#CharacterizationViaCartesianNicheFillers}
+
+Another, perhaps even more natural, way to characterize these double categories (Def. \ref{TheAssociatedDoubleCategory}) is as those with the following property: given any "niche"
 \begin{tikzcd}
   A
    \arrow[d, "f"']
@@ -151,10 +178,10 @@ there exists a "universal" or "cartesian" filler square
   \\
   B
   \arrow[r, "J"', ""{name=D, above}]
-  & D
+  & D \mathrlap{\,,}
   \arrow[Rightarrow, from=U, to=D]
 \end{tikzcd}
-with the property that any other square 
+namely with the property that any other square 
 \begin{tikzcd}
   X
   \arrow[r,  "", ""{name=U, below}]
@@ -199,7 +226,6 @@ factors through the universal one uniquely:
 \end{tikzcd}
 
 The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  
-
 
 We show that they are a [[companion]] and [[conjoint]] of $f$, respectively, as follows.
 
@@ -435,6 +461,8 @@ The [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of the
 </table>
 
 
+#### The Central Lemma
+
 Finally, we record the following **central lemma**.
 
 \begin{lemma}\label{CentralLemma}
@@ -653,6 +681,7 @@ As noted above, in the case of ordinary categories, the profunctors can in fact 
 However the $V$-profunctors $A\to B$ *can* be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided [[codiscrete cofibrations]] from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  The two-sided cofibration corresponding to a profunctor is, unsurprisingly, its [[cograph of a profunctor|cograph]], and also its [[collage]].  This was first noticed by Street and subsequently expanded on by other authors.  In particular, one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to equip it with proarrows, and axioms on a proarrow equipment guaranteeing that it arises from codiscrete cofibrations.
 
 ### Virtual equipments
+ {#VirtualEquipments}
 
 One can formulate a generalized notion of equipment which includes $V Cat$ for _any_ monoidal category $V$ (and in fact, any [[multicategory]]), and $Cat(S)$ for any category $S$ with pullbacks.  The precise definition is complicated, but the basic idea is not: we start from the double-category definition, and instead of composites of the horizontal (pro)arrows, we allow the squares to have domains that are arbitrary composable strings, like so:
 $$\array{ & \to \to \dots \to &\\
@@ -686,18 +715,22 @@ Related concepts:
 
 * {#Wood85} [[Richard J. Wood]], *Proarrows II*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **26** 2 (1985) 135-168 &lbrack;[numdam:CTGDC_1985__26_2_135_0](http://www.numdam.org/item/CTGDC_1985__26_2_135_0)&rbrack; 
 
-* [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
+* [[Ross Street]]: *Fibrations in bicategories*, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111--160 &lbrack;[numdam:CTGDC_1980__21_2_111_0](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
+  > (construction of $V Mod$ from $V Cat$)
 
-* [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
+ > (improved construction of $V Mod$ from $V Cat$)
 
 * {#Verity2011} [[Dominic Verity]]: _Enriched categories, internal categories and change of base_, PhD. thesis, Cambridge University (1992), reprinted as: Reprints in Theory and Applications of Categories **20** (2011) 1-266 &lbrack;[tac:tr20](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)&rbrack;
 
 * {#Shulman2008} [[Mike Shulman]]: *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650-738 &lbrack;[tac:20-18](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)&rbrack;
   > (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
-* [[Geoff Cruttwell]], [[Michael Shulman]], "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
+* {#CruttwellShulman10} [[Geoff Cruttwell]], [[Mike Shulman]]: *A unified framework for generalized multicategories*, Theory Appl. Categ. **24** 21 (2010) 580-655 &lbrack;[arxiv/0907.2460](http://arxiv.org/abs/0907.2460), [TAC:24-21](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
+  > (currently the only reference for [[virtual equipments]])
 
-* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
+* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], [[Robert Walters]]: *Variation through enrichment*, Journal of Pure and Applied Algebra **29** 2 (1983) 109-127 &lbrack;<a href="https://doi.org/10.1016/0022-4049(83)90100-7">doi:10.1016/0022-4049(83)90100-7</a>&rbrack;
+  > (locally small fibrations as $Span$-enriched categories)
 
 A blog post surveying ideas of proarrow equipments, much of which has been copied over to this page:
 
@@ -705,7 +738,7 @@ A blog post surveying ideas of proarrow equipments, much of which has been copie
 
 On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
 
-* {#Myers16} [[David Jaz Myers]], _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
+* {#Myers16} [[David Jaz Myers]]: _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
 
 * [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
