@@ -260,12 +260,11 @@ This follows from the essential uniqueness of the [[global section]] [[(∞,1)-g
 
 =--
 
-+-- {: .num_prop }
-###### Observation
+\begin{remark}
 
 The functor $i_!$ here is the [[forgetful functor]] that forgets [[smooth structure]] and only remembers [[Euclidean topology]]-structure.
 
-=--
+\end{remark}
 
 
 #### Infinitesimal cohesion
@@ -384,49 +383,41 @@ Smooth $\infty$-groupoids and related cohesive structures play a central role in
 
 For standard references on [[differential geometry]] and [[Lie groupoids]] see there. 
 
-The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
+Discussion of the $(\infty,1)$-topos $Smooth \infty Grpd$ over [[CartSp]] as such is due to
 
-* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]; §A of: *[[Čech Cocycles for Differential Characteristic Classes]]*, Adv. Theor. Math. Phys. **16** (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
 
-following
+* {#Schreiber13} [[Urs Schreiber]]; §3.3. of: _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]* Cambridge University Press (2026) &lbrack;ISBN:9781009698559&rbrack;
+
+* {#SatiSchreiber2026} [[Hisham Sati]], [[Urs Schreiber]]; Ex. 9.1.19 in: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026) &lbrack;ISBN:9781041147510&rbrack;
+
+following:
 
 * [[Daniel Dugger]]: _Sheaves and homotopy theory_ (1998) &lbrack;[[DuggerSheavesAndHomotopyTheory.pdf:file]]&rbrack;
 
+The results on differentiable [[Lie group cohomology]] used above are in:
 
-A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ and the presentaton of the $\infty$-Chern-Weil homomorphism on these is in
+* {#Blanc} P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985) 113-130.
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
-
-For references on  [[Chern-Weil theory in Smooth∞Grpd]] and [[connection on a smooth principal ∞-bundle]], see there.
-
-The results on differentiable [[Lie group cohomology]] used above are in 
-
-* {#Blanc} P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
-
-
-and
-
-* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
-{#Brylinski}
+* {#Brylinski} [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
 which parallels 
 
-* {#Segal} [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+* {#Segal} [[Graeme Segal]]: *Cohomology of topological groups*, in: Symposia Mathematica **IV** (INDAM, Rome, 1968/69)  Academic Press (1970) 377-387 &lbrack;[[Segal-TopGroupCohomology.pdf:file]]&rbrack;
+
+reviewed also in
+
+* {#SchommerPries} [[Chris Schommer-Pries]]; section 4 of: _A finite-dimensional String 2-group_ &lbrack;[arXiv:0911.2483](http://arxiv.org/abs/0911.2483)&rbrack;
 
 
-A review is in section 4 of 
+Classification of topological [[principal 2-bundles]] is discussed in 
 
-* {#SchommerPries} [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
-
-
-
-Classification of topological [[principal 2-bundle]]s is discussed in 
-
-* {#BaezStevenson} [[John Baez]], [[Danny Stevenson]], _The classifying space of a topological 2-group_ Algebraic Topology
+* {#BaezStevenson} [[John Baez]], [[Danny Stevenson]]: _The classifying space of a topological 2-group_ Algebraic Topology
 Abel Symposia, 2009, Volume 4, 1-31 ([arXiv:0801.3843](http://arxiv.org/abs/0801.3843))
  
-
-and the generalization to classification of smooth [[principal 2-bundle]]s is in 
+and the generalization to classification of smooth [[principal 2-bundles]] is in 
 
 * {#NikolausWaldorf} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
  
