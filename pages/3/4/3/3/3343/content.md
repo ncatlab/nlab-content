@@ -15,7 +15,14 @@
 
 On [[quantum optics]]:
 
-* Jan Pe&#345;ina, Zden&#283;k Hradil, Branislav Jurčo, [[Quantum optics and fundamentals of physics]], Kluwer, Dodrecht-Boston 1994
+On [[coherent states]], [[Iwasawa decomposition]] and dressing orbits for [[quantum groups]]:
+
+* [[Branislav Jurčo]], P. Šťovíček, _Quantum dressing orbits on compact groups_, Commun. Math. Physics __152__ (1993) 97--126 [doi](https://doi.org/10.1007/BF02097059)
+
+* [[Branislav Jurčo]], P. &#352;tovi&#269;ek, [Coherent states for quantum compact groups](http://projecteuclid.org/euclid.cmp/1104288026), Comm. Math. Phys. __182__ (1996) 221--251; [hep-th/9403114](https://arXiv.org/abs/hep-th/9403114); 
+
+
+* Jan Pe&#345;ina, Zden&#283;k Hradil, Branislav Jurčo, [[Quantum optics and fundamentals of physics]], Kluwer, Dodrecht-Boston (1994)
 
 and [[integrable systems]]:
 
@@ -65,6 +72,9 @@ On [[higher structures]] in [[string theory]] and [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8-9 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
 
+On [[L-infinity algebras|$L-\infty$-algebras]] in the [[BV-BRST formalism]] for [[classical field theory]]:
+
+* [[Branislav Jurčo]], Lorenzo Raspollini, [[Christian Saemann]], [[Martin Wolf]]: *$L_\infty$-Algebras of Classical Field Theories and the Batalin-Vilkovisky Formalism*,  	Fortschr. Phys. **67** (2019) 1900025 \[<a href="https://doi.org/10.1002/prop.201900025">doi:10.1002/prop.201900025</a>, [arXiv:1809.09899](https://arxiv.org/abs/1809.09899)\]
 
 
 On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
@@ -84,10 +94,6 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
-On coherent states, Iwasawa decomposition and dressing orbits for quantum groups
-
-* [[Branislav Jurčo]], P. Šťovíček, _Quantum dressing orbits on compact groups_, Commun. Math. Physics __152__ (1993) 97--126 [doi](https://doi.org/10.1007/BF02097059)
-* [[Branislav Jurčo]], P. &#352;tovi&#269;ek, [Coherent states for quantum compact groups](http://projecteuclid.org/euclid.cmp/1104288026), Comm. Math. Phys. __182__ (1996) 221--251; [hep-th/9403114](https://arXiv.org/abs/hep-th/9403114); 
 
 
 category: people
