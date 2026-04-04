@@ -9,9 +9,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -55,6 +55,27 @@ from the [[product]] of the [[real line]] with a $(dim X - 1)$-[[dimension|dimen
 =--
 
 A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice of [[orientation]] of the factor $\mathbb{R}$ under the above homeomorphism.
+
+## Examples
+ {#Examples}
+
+Globally hyperbolic are:
+
+* [[Minkowski spacetime]]
+
+* [[Schwarzschild spacetime]] 
+
+* [[de Sitter spacetime]]
+
+* [[pp-wave spacetime]]
+
+* any [[entanglement wedge]]
+
+*Not* globally hyperbolic are
+
+* [[anti de Sitter spacetime]]
+
+* [[Kerr spacetime|Kerr]] and [[Reissner-Nordström spacetimes]] (except outside their inner [[event horizon]])
 
 
 ## Related concepts
