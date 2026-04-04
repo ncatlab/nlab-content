@@ -13,7 +13,13 @@ More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=OA4oBRkAAAAJ&hl=en)
 
+
 ## Selected writings
+
+On a [[2-category]] analog of [[regular categories]]:
+
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]]: *Modulated bicategories*, Journal of Pure and Applied Algebra **94** 3 (1994) 229-282 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>, [MR:1285544](http://www.ams.org/mathscinet-getitem?mr=1285544)&rbrack;
+
 
 On [[enriched category theory]] and [[internal categories]]:
 
