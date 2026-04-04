@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -1008,10 +1008,9 @@ A classical reference that considers the cohomology of Lie groups as topological
 
 A corrected definition of topological group cohomology has been given by Segal
 
-* [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
+* [[Graeme Segal]]: *Cohomology of topological groups*, in: Symposia Mathematica **IV** (INDAM, Rome, 1968/69)  Academic Press (1970) 377-387 &lbrack;[[Segal-TopGroupCohomology.pdf:file]]&rbrack;
 
-* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
-9(2):48{50, (1975).
+* [[Graeme Segal]]: *A classifying space of a topological group in the Gel'fand-Fuks sense*, Functional Analysis and its Applications **9** (1975) 131-133 &lbrack;[doi:10.1007/BF01075450](https://doi.org/10.1007/BF01075450)&rbrack;
 
 For [[reductive algebraic groups]]:
 
