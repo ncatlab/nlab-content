@@ -96,8 +96,12 @@ and for further references along these lines see at _[[factorization algebra]]_.
 
 For general discusison of the relation to [[E-n algebras]] see
 
-* MO discussion, _[Poisson algebras as deformations vs. Poisson algebras in algebraic topology](http://mathoverflow.net/questions/74405/poisson-algebras-as-deformations-vs-poisson-algebras-in-algebraic-topology/75194#75194)_
- {#MODiscussion}
+* {#MODiscussion} MO discussion, _[Poisson algebras as deformations vs. Poisson algebras in algebraic topology](http://mathoverflow.net/questions/74405/poisson-algebras-as-deformations-vs-poisson-algebras-in-algebraic-topology/75194#75194)_
+ 
+On Poisson $n$-algebra structures on [[Chevalley-Eilenberg algebras]] of [[Lie 2-algebras]]:
+
+* Cameron Kemp, Robert Laugwitz, [[Alexander Schenkel]]: *Shifted Poisson structures on higher Chevalley-Eilenberg algebras*, Lett. Math. Phys. **116** 19 (2026) &lbrack;[arXiv:2412.12804](https://arxiv.org/abs/2412.12804), [doi:10.1007/s11005-026-02053-z](https://doi.org/10.1007/s11005-026-02053-z)&rbrack;
+
 
 [[!redirects Poisson n-algebras]]
 
