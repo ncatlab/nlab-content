@@ -9,9 +9,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -33,13 +34,24 @@ More generally, such string-shaped vortices are considered in [[Yang-Mills theor
 
 * [[defect brane]]
 
+
 ## References
 
 ### In electromagnetism
 
-Vortex strings were originally considered in the abelian gauge theory of [[electromagnetism]] as [[Abrikosov vortices]] in [[type II superconductors]].
+Vortex strings were originally considered in the abelian gauge theory of [[electromagnetism]] as *[[Abrikosov vortices]]* in [[type II superconductors]].
 
-* {#Abrikosov57a} [[Alexei Abrikosov]], _On the Magnetic properties of superconductors of the second group_, Sov. Phys. JETP 5 (1957) 1174-1182, Zh. Eksp. Teor. Fiz. 32 (1957) 1442-1452 ([spire:9138](https://inspirehep.net/literature/9138))
+* {#Abrikosov57a} [[Alexei Abrikosov]]: *On the Magnetic properties of superconductors of the second group*, Sov. Phys. JETP **5** (1957) 1174-1182, Zh. Eksp. Teor. Fiz. **32** (1957) 1442-1452 &lbrack;[spire:9138](https://inspirehep.net/literature/9138), [[Abrikosov-MagneticPropertiesOfSuperconductors.pdf:file]]&rbrack;
+
+Further discussion:
+
+* M. Franz, C. Kallin, P. I. Soininen, A. J. Berlinsky, A. L. Fetter: *Vortex state in a $d$-wave superconductor*, Phys. Rev. B **53** (1996) 5795 &lbrack;[doi:10.1103/PhysRevB.53.5795](https://doi.org/10.1103/PhysRevB.53.5795), [arXiv:cond-mat/9509154](https://arxiv.org/abs/cond-mat/9509154)&rbrack;
+
+On the experimental detection:
+
+* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley: *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008), <a href="https://arxiv.org/abs/0807.2401">arXiv:0807.2401 cond-mat.supr-con</a>&rbrack;
+
+
 
 The suggestion that these vortex flux tube could be thought of as dynamical [[strings]] much as in [[string theory]]:
 
