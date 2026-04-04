@@ -132,6 +132,10 @@ Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[de
 
 * [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
 
+On [[Poisson n-algebra|Poisson $n$-algebra]] [[structures]] on Chevalley-Eilenberg algebras of [[Lie 2-algebras]]:
+
+* Cameron Kemp, Robert Laugwitz, [[Alexander Schenkel]]: *Shifted Poisson structures on higher Chevalley-Eilenberg algebras*, Lett. Math. Phys. **116** 19 (2026) &lbrack;[arXiv:2412.12804](https://arxiv.org/abs/2412.12804), [doi:10.1007/s11005-026-02053-z](https://doi.org/10.1007/s11005-026-02053-z)&rbrack;
+
 
 
 ## Related entries
