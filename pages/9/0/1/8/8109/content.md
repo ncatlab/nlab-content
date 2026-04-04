@@ -170,9 +170,9 @@ Historical introduction:
 
 Comprehensive lecture notes:
 
-* {#LurieLectures} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* {#LurieLectures} [[Jacob Lurie]]: _[[Chromatic Homotopy Theory]]_, Lecture series (2010) &lbrack;[lecture notes](http://www.math.harvard.edu/~lurie/252x.html)&rbrack;
  
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]]: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing **347** (2004) &lbrack;[ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf)&rbrack;
 
 Survey:
 
