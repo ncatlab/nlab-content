@@ -1,6 +1,37 @@
 > This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
 
 ***
+\begin{tikzpicture}[scale=2, >=latex]
+  % Quadrant fills (centered at origin)
+  \fill[blue!15]   (-1,0) rectangle (0,1);
+  \fill[teal!20]   (0,0) rectangle (1,1);
+  \fill[orange!20] (-1,-1) rectangle (0,0);
+  \fill[violet!15] (0,-1) rectangle (1,0);
+
+  % Border
+  \draw[gray!60] (-1,-1) rectangle (1,1);
+
+  % Central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) (phi) {$\phi$};
+
+  % Arrows
+  \draw[->, line width=0.6pt] (-1,0) -- (phi);
+  \draw[->, line width=0.6pt] (phi) -- (1,0);
+  \draw[->, line width=0.6pt] (phi) -- (0,-1);
+  \draw[->, line width=0.6pt] (0,1) -- (phi);
+
+  % Labels
+  \node[left]  at (-1,0) {$\alpha_0$};
+  \node[right] at (1,0)  {$\alpha_1$};
+  \node[above] at (0,1)  {$f$};
+  \node[below] at (0,-1) {$g$};
+  \node at (-0.5, 0.5) {$x_0$};
+  \node at ( 0.5, 0.5) {$x_1$};
+  \node at (-0.5,-0.5) {$y_0$};
+  \node at ( 0.5,-0.5) {$y_1$};
+\end{tikzpicture}
+
+***
 
 ## Idea
 
