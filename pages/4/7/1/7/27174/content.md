@@ -5,7 +5,7 @@
 * [InSpire page](https://inspirehep.net/authors/1040332)
 
 
-Selected writings:
+## Selected writings
 
 
 On the [[M-algebra]] and [[D=11 supergravity]]:
@@ -14,8 +14,12 @@ On the [[M-algebra]] and [[D=11 supergravity]]:
 
 * {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
-
 * [[Oscar Varela]]: *Symmetry and holonomy in M Theory*, PhD thesis, Valencia (2006) &lbrack;[arXiv:hep-th/0607088](https://arxiv.org/abs/hep-th/0607088), [hdl:10550/15484](https://hdl.handle.net/10550/15484),  [spire:1397691](https://inspirehep.net/literature/1397691)&rbrack;
+
+On the [[equations of motion]] of [[D=11 supergravity]]:
+
+* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
+
 
 On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simons theory]]:
 
