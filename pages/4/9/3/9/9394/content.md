@@ -50,6 +50,9 @@ On the [[M-algebra]] and [[D=11 supergravity]]:
 
 * {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
+On the [[equations of motion]] of [[D=11 supergravity]]:
+
+* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
 
 
 
