@@ -84,7 +84,7 @@ Survey and introductions:
 
 * [[Clay Cordova]], [[Michele Del Zotto]], [[Daniel Freed]], [[David Jordan]], [[Kantaro Ohmori]]: *Simons Lectures on Categorical Symmetries* (2024) &lbrack;[arXiv:2411.09082](https://arxiv.org/abs/2411.09082)&rbrack;
 
-* [[Justin Kaidi]]: *Introduction to Generalized Symmetries* &lbrack;[arXiv:2603.08798](https://arxiv.org/abs/2603.08798)&rbrack;
+* [[Justin Kaidi]]: *Introduction to Generalized Symmetries* &lbrack;[arXiv:2603.08798 hep-th](https://arxiv.org/abs/2603.08798)&rbrack;
 
 
 Further suggestion for mathematical formalization of what [GKSW14](#GaiottoKapustinSeibergWillett14) had in mind (purely at the quantum level, with caveats):
