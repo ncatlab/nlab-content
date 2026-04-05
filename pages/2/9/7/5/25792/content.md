@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -293,7 +292,7 @@ Monographs:
 
 * {#DelphenichBook} [[David H. Delphenich]], *Pre-Metric Electromagnetism* &lbrack;part I:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/intro-chap_vi.pdf), part II:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/chapter_vii-xii.pdf), full:[[Delphenich-PreMetricElectromagnetism.pdf:file]]&rbrack;
 
-* {#HehlObukhov03} [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
+* {#HehlObukhov03} [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[doi:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
 
 The general principle of the pre-metric formulation, understood as a form of [[self-dual higher gauge theory]], also appears in:
 
