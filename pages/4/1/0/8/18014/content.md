@@ -105,7 +105,7 @@ The notion originates with:
 
 Further discussion:
 
-* {#Hilton82} [[Peter Hilton]]: _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908)&rbrack;
+* {#Hilton82} [[Peter Hilton]]: *Nilpotency in group theory and topology*, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908), [numdam:SPHM_1976___3_A1_0](https://www.numdam.org/item/SPHM_1976___3_A1_0)&rbrack;
 
 * {#MayPonto12} [[Peter May]], [[Kate Ponto]]: _[[A Concise Course in Algebraic Topology|More Concise Algebraic Topology]]_, University of Chicago Press (2012) &lbrack;[pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
