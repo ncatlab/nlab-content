@@ -29,48 +29,56 @@ We may picture a 2-cell in a double category as a square:
 
 \begin{tikzcd}
   x_0
-  \arrow[r,  "f", ""{name=U, below}]
-  \arrow[d, "\alpha_0"']
+  \arrow[r,  "J", ""{name=U, below}]
+  \arrow[d, "f"']
   & x_1
-  \arrow[d, "\alpha_1"]
+  \arrow[d, "g"]
   \\
   y_0
-  \arrow[r, "g"', ""{name=D, above}]
+  \arrow[r, "K"', ""{name=D, above}]
   & y_1
   \arrow[Rightarrow, from=U, to=D, "\phi"]
 \end{tikzcd}
 
-Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
+Here $x_i,y_i$ are objects, $J$ and $K$ are horizontal arrows, $f$ and $g$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
 
 Alternatively one can apply [[Poincaré duality]] to obtain a [[string diagram]] representation for 2-cells, similar to the one obtained for [[2-category|2-categories]] ([Myers 16](#Myers16)):
 
-\begin{centre}
-    \begin{tikzpicture}[scale=2]
-        \usetikzlibrary{positioning,calc,decorations.pathmorphing,decorations.pathreplacing,decorations.markings,patterns}
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+\tikzset{mid->/.style={
+  decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+  postaction={decorate}
+}}
 
-        \tikzset{fwd/.style={decoration={markings,mark=at position 0.7 with {\arrow{>}}},postaction={decorate}}}
-        \tikzset{bwd/.style={decoration={markings,mark=at position 0.5 with {\arrow{<}}},postaction={decorate}}}
+  % Quadrant fills (centered at origin)
+  \fill[blue!15]   (-1,0) rectangle (0,1);
+  \fill[teal!20]   (0,0) rectangle (1,1);
+  \fill[orange!20] (-1,-1) rectangle (0,0);
+  \fill[violet!15] (0,-1) rectangle (1,0);
 
-        \path[fill={rgb,255:red,212; green,166; blue,204}] (0,0) rectangle (.5,.5);
-        \path[fill={rgb,255:red,152; green,209; blue,162}] (.5,0) rectangle (1,.5);
-        \path[fill={rgb,255:red,248; green,168; blue,156}] (0,.5) rectangle (.5,1);
-        \path[fill={rgb,255:red,243; green,237; blue,155}] (.5,.5) rectangle (1,1);
-        \draw[gray] (0,0) rectangle (1,1);
-        \node[circle,draw,inner sep=1.5pt,fill=white] at (.5,.5) (alpha) {$\phi$};
-        \draw[fwd] (0,.5) -- (alpha);
-        \draw[fwd] (alpha) -- (1,.5);
-        \draw[bwd] (.5,0) -- (alpha);
-        \draw[bwd] (alpha) -- (.5,1);
-        \node at (-.2,.5) {$\alpha_0$};
-        \node at (1.2,.5) {$\alpha_1$};
-        \node at (.5,1.2) {$f$};
-        \node at (.5,-.2) {$g$};
-        \node at (.25,.75) {$x_0$};
-        \node at (.75,.75) {$x_1$};
-        \node at (.25,.25) {$y_0$};
-        \node at (.75,.25) {$y_1$};
-    \end{tikzpicture}
-\end{centre}
+  % Border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % Central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) (phi) {$\phi$};
+
+  % Arrows
+  \draw[mid->, line width=0.6pt] (-1,0) -- (phi);
+  \draw[mid->, line width=0.6pt] (phi) -- (1,0);
+  \draw[mid->, line width=0.6pt] (phi) -- (0,-1);
+  \draw[mid->, line width=0.6pt] (0,1) -- (phi);
+
+  % Labels
+  \node[left]  at (-1,0) {$f$};
+  \node[right] at (1,0)  {$g$};
+  \node[above] at (0,1)  {$J$};
+  \node[below] at (0,-1) {$K$};
+  \node at (-0.5, 0.5) {$x_0$};
+  \node at ( 0.5, 0.5) {$x_1$};
+  \node at (-0.5,-0.5) {$y_0$};
+  \node at ( 0.5,-0.5) {$y_1$};
+\end{tikzpicture}
 
 The vertical and horizontal arrows form categories (called **edge categories**), and the squares have two category structures which respect the edge category structures.  
 
