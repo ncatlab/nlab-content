@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -177,7 +175,7 @@ Connections on 2-bundles with vanishing 2-form curvature and arbitrary 3-form cu
 
 expanding on
 
-* [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_ ([arXiv:math/0511710](http://arxiv.org/abs/math/0511710)) ([web](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references/#BaezSchreiber))
+* [[John Baez]], [[Urs Schreiber]]: *Higher Gauge Theory*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431**, AMS (2007) 7-30 &lbrack;[arXiv:math/0511710](http://arxiv.org/abs/math/0511710), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431) [ams:conm-431](https://bookstore.ams.org/conm-431)&rbrack;
 
 Much further discussion and illustration and relation to [[tensor networks]] is in
 
