@@ -347,7 +347,7 @@ See also:
 
 On the history of the concept:
 
-* [[Gerald A. Goldin]]: *The Prediction of Anyons: Its History and Wider Implications*, SciPost Phys. Proc. **14** 005 (2023)  &lbrack;[arXiv:2212.12632](https://arxiv.org/abs/2212.12632), [doi: 10.21468/SciPostPhysProc.14.005](https://scipost.org/SciPostPhysProc.14.005)&rbrack;
+* [[Gerald A. Goldin]]: *The Prediction of Anyons: Its History and Wider Implications*, SciPost Phys. Proc. **14** 005 (2023)  &lbrack;[doi: 10.21468/SciPostPhysProc.14.005](https://scipost.org/SciPostPhysProc.14.005), [arXiv:2212.12632 physics.hist-ph](https://arxiv.org/abs/2212.12632)&rbrack;
 
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
