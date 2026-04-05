@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -118,13 +118,13 @@ Quick surveys:
 
 Lecture notes:
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _Spectra and stable homotopy theory_ (2012) &lbrack;[pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]]&rbrack;
 
-* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_, Bonn 2016
+* [[Urs Schreiber]]: _[[Introduction to Stable homotopy theory]]_, lecture notes, Bonn (2016)
 
-* [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_, Cambridge University Press 2020 ([doi:10.1017/9781108636575](https://doi.org/10.1017/9781108636575))
+* [[David Barnes]], [[Constanze Roitzheim]]: *Foundations of Stable Homotopy Theory*, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108636575](https://doi.org/10.1017/9781108636575)&rbrack;
 
-* [[Denis Nardin]], _Introduction to stable homotopy theory_, Regensburg 2021 ([webpage](https://homepages.uni-regensburg.de/~nad22969/stable-homotopy-theory2020.php), [pdf](https://homepages.uni-regensburg.de/~nad22969/stable-homotopy-2020/stable-homotopy.pdf), [video](https://www.youtube.com/watch?v=v5Rr_Z8QsOs&list=PLQuS12Ap6va-VgI5cdIjdHquIH3sLCLdJ))
+* [[Denis Nardin]]: *Introduction to stable homotopy theory*, lecture notes, Regensburg (2021) &lbrack;[webpage](https://hellus.app.uni-regensburg.de/KVV/abruflink.php?id=736), [[Nardin-StableHomotopyTheory.pdf:file]], [video](https://youtu.be/v5Rr_Z8QsOs)&rbrack;
 
 
 See also:
