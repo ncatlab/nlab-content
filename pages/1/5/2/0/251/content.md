@@ -70,10 +70,10 @@ Alternatively one can apply [[Poincaré duality]] to obtain a [[string diagram]]
   \draw[mid->, line width=0.6pt] (0,1) -- (phi);
 
   % Labels
-  \node[left]  at (-1,0) {$f$};
-  \node[right] at (1,0)  {$g$};
-  \node[above] at (0,1)  {$J$};
-  \node[below] at (0,-1) {$K$};
+  \node[left]  at (-1,0) {$J$};
+  \node[right] at (1,0)  {$K$};
+  \node[above] at (0,1)  {$f$};
+  \node[below] at (0,-1) {$g$};
   \node at (-0.5, 0.5) {$x_0$};
   \node at ( 0.5, 0.5) {$x_1$};
   \node at (-0.5,-0.5) {$y_0$};
