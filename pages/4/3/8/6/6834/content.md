@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -223,6 +223,11 @@ See at *[[schreiber:infinity-Chern-Simons theory]]*
 
 ### General
 
+Original discussion via [[connections on 2-bundles]] (see there for more references):
+
+* [[John Baez]], [[Urs Schreiber]]: *Higher Gauge Theory*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431**, AMS (2007) 7-30 &lbrack;[arXiv:math/0511710 math.DG](http://arxiv.org/abs/math/0511710), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431) [ams:conm-431](https://bookstore.ams.org/conm-431)&rbrack;
+
+
 Introduction and exposition:
 
 * {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7** (2002) 129-194  &lbrack;[arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)&rbrack;
@@ -235,7 +240,7 @@ Introduction and exposition:
 
 * [[Luigi Alfonsi]], §2 & §4 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**  Elsevier (2024) 39-61 &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3), [ISBN:978-0-323-95703-8](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
-* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4** (2025) 159-185 &lbrack;[doi:10.1016/B978-0-323-95703-8.00217-2](https://doi.org/10.1016/B978-0-323-95703-8.00217-2), [arXiv:2401.05275 hep-th](https://arxiv.org/abs/2401.05275)&rbrack;
 
 * PhysicsForums-Insights _[Why higher category theory in physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
 
