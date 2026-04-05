@@ -4379,7 +4379,7 @@ $$
   Hom_{\mathcal{D}}(d, R(c))
 $$
 
-for all objects $d\in \mathcal{D}$ and $c \in \mathcal{C}$. This being natural means that $\phi \colon Hom_{\mathcal{D}}(L(-),-) \Rightarrow Hom_{\mathcal{C}}(-, R(-))$ is a [[natural transformation]], hence that for all morphisms $g \colon d_2 \to d_1$ and $f \colon c_1 \to c_2$ the following is a [[commuting square]]:
+for all objects $d\in \mathcal{D}$ and $c \in \mathcal{C}$. This being natural means that $\phi \colon Hom_{\mathcal{C}}(L(-),-) \Rightarrow Hom_{\mathcal{D}}(-, R(-))$ is a [[natural transformation]], hence that for all morphisms $g \colon d_2 \to d_1$ and $f \colon c_1 \to c_2$ the following is a [[commuting square]]:
 
 $$
   \array{
