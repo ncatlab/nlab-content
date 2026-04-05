@@ -188,10 +188,14 @@ For $C$ a [[small category]], the category of [[point of a topos|topos points]] 
 
 Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equivalences, so called [[germs]]. Filtered limits in [[Set]] and [[Top]] are given as families of compatible elements, so called [[threads]].
 
+### In finite categories
+
+A [[finite category]] has filtered colimits if and only if it is [[Cauchy complete category|Cauchy complete]]. See this [MathOverflow answer](https://mathoverflow.net/a/509858) by [[Simon Henry]].
+
 
 ### More
 
-(More was/is to be written here, including an application to [[geometric realization]], relation to [[Diaconescu's theorem]], and perhaps more.) 
+(More was/is to be written here, including an application to [[geometric realization]], relation to [[Diaconescu's theorem]], and perhaps more.)
 
 
 ## Related concepts
