@@ -107,7 +107,7 @@ The idea that on $N$ coincident D-branes there is gauge enhancement to $U(N)$-ga
 
 * {#Witten95} [[Edward Witten]], section 3 of: _Bound States Of Strings And $p$-Branes_, Nucl. Phys. B **460** (1996) 335-350 \[<a href="https://doi.org/10.1016/0550-3213(95)00610-9">doi:10.1016/0550-3213(95)00610-9</a>, [arXiv:hep-th/9510135](https://arxiv.org/abs/hep-th/9510135)\]
 
-There, this is an "obvious guess" (first line on [p. 8](https://arxiv.org/pdf/hep-th/9510135#page=8)). 
+There, this is an "obvious guess" (first line on [p. 7](https://arxiv.org/pdf/hep-th/9510135#page=8)). 
 
 Subsequently,  most authors cite this obvious guess as a fact; for instance the review:
 
