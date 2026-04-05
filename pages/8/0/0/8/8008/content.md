@@ -133,7 +133,7 @@ Review:
 
 Comparative review of notions of strict deformation quantization:
 
-* {#Hawkins08a} [[Eli Hawkins]], Section 2 of: *An Obstruction to Quantization of the Sphere*, Communications in Mathematical Physics **283** (2008) 675–699  &lbrack;[arXiv:0706.2946](http://arxiv.org/abs/0706.2946), [doi:10.1007/s00220-008-0517-2](https://doi.org/10.1007/s00220-008-0517-2)&rbrack;
+* {#Hawkins08a} [[Eli Hawkins]], Section 2 of: *An Obstruction to Quantization of the Sphere*, Communications in Mathematical Physics **283** (2008) 675–699  &lbrack;[arXiv:0706.2946 math-ph](http://arxiv.org/abs/0706.2946), [doi:10.1007/s00220-008-0517-2](https://doi.org/10.1007/s00220-008-0517-2)&rbrack;
  
 Discussion of strict deformation quantization in terms of [[geometric quantization of symplectic groupoids]] via [[polarization|polarized]] twisted [[groupoid convolution algebras]] is in
 
