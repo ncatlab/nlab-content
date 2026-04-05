@@ -1162,7 +1162,7 @@ Review:
 
 See also:
 
-* [[Igor Bandos]], [[José de Azcárraga]] , M. Picon, O. Varela, Section 2 of: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
+* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]; Section 2 of: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
 
 
 Discussion of [[gauged supergravity]] in this way:
