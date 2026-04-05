@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -22,7 +22,7 @@ The nonunital variant of _[[Ek-algebra]]_, hence the generalization of the conce
 ### Relation to augmented $\mathbb{E}_k$-algebra
  {#RelationToAugmentedEkAlgebras}
 
-Nonunital $\mathbb{E}_k$-algebras in a stable symmetric monoidal $\infty$-category are equivalent to unital $\mathbb{E}_k$-algebras sliced over the free $\mathbb{E}_k$-algebra on a single generator.
+Nonunital $\mathbb{E}_k$-algebras in a [[stable (infinity,1)-category|stable]] [[symmetric monoidal (infinity,1)-category|symmetric monoidal $\infty$-category]] are [[equivalence of (infinity,1)-categories|equivalent]] to unital $\mathbb{E}_k$-algebras [[slice (infinity,1)-category|sliced]] over the free $\mathbb{E}_k$-algebra on a single generator.
 
 In particular nonunital [[E-∞ algebras]] are [[equivalence of (∞,1)-categories|equivalent]] to unital $E_\infty$-algebras sliced over the [[sphere spectrum]]:
 
