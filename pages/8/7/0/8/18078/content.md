@@ -1,3 +1,65 @@
+\begin{definition}\label{TheAssociatedDoubleCategory}
+Given a [[2-category]] $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same [[objects]] as $K$, whose [[vertical 1-cells]] are the arrows, whose [[horizontal 1-cells]] are the proarrows, and whose squares
+\begin{tikzcd}
+  A
+  \arrow[r,  "H", ""{name=U, below}]
+  \arrow[d, "f"']
+  & C
+  \arrow[d, "g"]
+  \\
+  B
+  \arrow[r, "J"', ""{name=D, above}]
+  & D
+  \arrow[Rightarrow, from=U, to=D, "\alpha"]
+\end{tikzcd}
+are the [[2-cells]] $H \to J(g,f)$.  
+\end{definition}
+
+\begin{remark}
+
+Dually, the 2-cells can be also represented as [[string diagram|string diagrams]] ([Myers 2016](#Myers16)).
+
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+\tikzset{mid->/.style={
+  decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+  postaction={decorate}
+}}
+
+  % Quadrant fills (centered at origin)
+  \fill[blue!15]   (-1,0) rectangle (0,1);
+  \fill[teal!20]   (0,0) rectangle (1,1);
+  \fill[orange!20] (-1,-1) rectangle (0,0);
+  \fill[violet!15] (0,-1) rectangle (1,0);
+
+  % Border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % Central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) (alpha) {$\alpha$};
+
+  % Arrows
+  \draw[line width=0.6pt] (-1,0) -- (alpha);
+  \draw[line width=0.6pt] (alpha) -- (1,0);
+  \draw[mid->, line width=0.6pt] (alpha) -- (0,-1);
+  \draw[mid->, line width=0.6pt] (0,1) -- (alpha);
+
+  % Labels
+  \node[left]  at (-1,0) {$H$};
+  \node[right] at (1,0)  {$J$};
+  \node[above] at (0,1)  {$f$};
+  \node[below] at (0,-1) {$g$};
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  \node at (-0.5,-0.5) {$C$};
+  \node at ( 0.5,-0.5) {$D$};
+\end{tikzpicture}
+\end{remark}
+
+***
+
+
+
 \begin{lemma}\label{CentralLemma}
 There is a [[natural bijection]] between squares of the form
 
@@ -171,43 +233,7 @@ Illustrated in terms of brane diagrams, this bijection is often called the spide
 
 \end{tikzpicture}
 
-\begin{tikzpicture}[scale=2, >=latex]
-  \usetikzlibrary{decorations.markings}
-\tikzset{mid->/.style={
-  decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
-  postaction={decorate}
-}}
-
-  % Quadrant fills (centered at origin)
-  \fill[blue!15]   (-1,0) rectangle (0,1);
-  \fill[teal!20]   (0,0) rectangle (1,1);
-  \fill[orange!20] (-1,-1) rectangle (0,0);
-  \fill[violet!15] (0,-1) rectangle (1,0);
-
-  % Border
-  \draw[gray] (-1,-1) rectangle (1,1);
-
-  % Central node
-  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) (phi) {$\phi$};
-
-  % Arrows
-  \draw[mid->, line width=0.6pt] (-1,0) -- (phi);
-  \draw[mid->, line width=0.6pt] (phi) -- (1,0);
-  \draw[mid->, line width=0.6pt] (phi) -- (0,-1);
-  \draw[mid->, line width=0.6pt] (0,1) -- (phi);
-
-  % Labels
-  \node[left]  at (-1,0) {$\alpha_0$};
-  \node[right] at (1,0)  {$\alpha_1$};
-  \node[above] at (0,1)  {$f$};
-  \node[below] at (0,-1) {$g$};
-  \node at (-0.5, 0.5) {$x_0$};
-  \node at ( 0.5, 0.5) {$x_1$};
-  \node at (-0.5,-0.5) {$y_0$};
-  \node at ( 0.5,-0.5) {$y_1$};
-\end{tikzpicture}
-
-
+***
 
 $$\displaystyle \underbrace{aaaaaaaaaaaaaaaaa}_{b}$$
 
@@ -219,4 +245,8 @@ $$\displaystyle \underbrace{aaaaaaaaaaaaaaaaa}_{b}$$
 | $g_{\theta\theta}$ | $r^2$ | $r^2$ | $\rho^2$ |
 | $g_{\phi\phi}$ | $r^2 \sin^2(\theta)$ | $r^2 \sin^2(\theta)$ | $(r^2 + a^2 + \frac{2 m r a^2 \sin^2(\theta)}{\rho^2}) \sin^2{\theta}$ |
 | $g_{ij}$ $i \neq j$ | all zero | all zero | all zero except $g_{t \phi} = g_{\phi t} = - \frac{2 m r a \sin^2(\theta)}{\rho^2}$ |
+
+
+
+* {#Myers16} [[David Jaz Myers]]: _String Diagrams For Double Categories and (Virtual) Equipments_ &lbrack;[arXiv:1612.02762](https://arxiv.org/abs/1612.02762)&rbrack;
 
