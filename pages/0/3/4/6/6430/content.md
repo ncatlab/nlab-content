@@ -47,6 +47,11 @@ On the [[algebraic topology]] (e.g. the [[topological K-theory]]) of [[Calabi-Ya
 * [[Charles F. Doran]], [[John W. Morgan]]: *Algebraic Topology of Calabi-Yau Threefolds in Toric Varieties*, Geom. Topol. **11** (2007) 597-642 &lbrack;[arXiv:math/0605074](https://arxiv.org/abs/math/0605074), [arXiv:10.2140/gt.2007.11.597](https://doi.org/10.2140/gt.2007.11.597)&rbrack;
 
 
+On [[Ricci flow]] and (the proof of) the [[Poincaré conjecture]]:
+
+* [[John W. Morgan]], [[Gang Tian]]: _Ricci Flow and the Poincaré Conjecture_, Clay Mathematics Monographs __3__ (2007) &lbrack;[arXiv:math/0607607](https://arxiv.org/abs/math/0607607), [webpage](https://www.claymath.org/resource/ricci-flow-and-the-poincare-conjecture/), [pdf](https://www.claymath.org/wp-content/uploads/2022/03/Ricci-pdf.pdf)&rbrack;
+
+
 On [[rational homotopy theory]]:
 
 * {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]], *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
