@@ -357,7 +357,7 @@ such that
 By definition of super-extension, the underlying super vector space of $\mathfrak{s}$ is necessarily of the form
 
 $$
-  \mathfrak{s}_{even} = \underset{\mathfrak{s}_{even}}{\underbrace{\mathfrak{g}}} \oplus \underset{\mathfrak{s}_{odd}}{\underbrace{S}}
+  \mathfrak{s} = \underset{\mathfrak{s}_{even}}{\underbrace{\mathfrak{g}}} \oplus \underset{\mathfrak{s}_{odd}}{\underbrace{S}}
 $$
 
 for some vector space $S$.
