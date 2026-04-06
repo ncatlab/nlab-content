@@ -12,6 +12,11 @@ John Nathan Kirkpatrick Francis
 
 ## Selected writings
 
+On [[integral transforms]], [[derived loop spaces]] and [[Drinfeld centers]] in [[derived algebraic geometry]]:
+
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]]: *Integral transforms and Drinfeld centers in derived algebraic geometry*, Jour. Amer. Math. Soc. **23** (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157), [doi:10.1090/S0894-0347-10-00669-7](http://dx.doi.org/10.1090/S0894-0347-10-00669-7)&rbrack;
+
+
 On [[tmf]]:
 
 * [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]], _Topological Modular Forms_, Mathematical Surveys and Monographs **201**, AMS (2014)  &lbrack;[ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201)&rbrack;
