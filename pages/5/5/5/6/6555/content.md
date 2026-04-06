@@ -36,17 +36,18 @@ In [Rubinstein-Sinclair](#RubinsteinSinclair) a typical such Ricci flow with pin
 
 ### General
 
-A quick survey is in the slides
+Review:
 
-* Annibale Magni, _Perelman's dilaton_ ([pdf](http://www.sissa.it/fa/difftop2010/dwnld/Magni.pdf)).
+* Annibale Magni: _Perelman's dilaton_ &lbrack;[pdf](http://www.sissa.it/fa/difftop2010/dwnld/Magni.pdf)&rbrack;
 
-and a detailed survey is in 
+* [[Terry Tao]]: _Ricci flow as a gradient flow, log-Sobolev inequalities, and Perelman entropy_ &lbrack;[blog post](http://terrytao.wordpress.com/2008/04/24/285a-lecture-8-ricci-flow-as-a-gradient-flow-log-sobolev-inequalities-and-perelman-entropy/)&rbrack;
 
-* [[Terry Tao]], _Ricci flow as a gradient flow, log-Sobolev inequalities, and Perelman entropy_ ([blog post](http://terrytao.wordpress.com/2008/04/24/285a-lecture-8-ricci-flow-as-a-gradient-flow-log-sobolev-inequalities-and-perelman-entropy/))
+* [[John W. Morgan]], [[Gang Tian]]: _Ricci Flow and the Poincaré Conjecture_, Clay Mathematics Monographs __3__ (2007) &lbrack;[arXiv:math/0607607](https://arxiv.org/abs/math/0607607), [webpage](https://www.claymath.org/resource/ricci-flow-and-the-poincare-conjecture/), [pdf](https://www.claymath.org/wp-content/uploads/2022/03/Ricci-pdf.pdf)&rbrack;
 
-Visualization is in 
 
-* {#RubinsteinSinclair} J. Hyam Rubinstein and Robert Sinclair. "Visualizing Ricci Flow of Manifolds of Revolution", Experimental Mathematics v. 14 n. 3, pp. 257&#8211;384.
+Visualization:
+
+* {#RubinsteinSinclair} J. Hyam Rubinstein, Robert Sinclair: *Visualizing Ricci Flow of Manifolds of Revolution*, Experimental Mathematics **14** 3 (2005) 257-384 &lbrack;[arXiv:math/0406189](https://arxiv.org/abs/math/0406189), [eudml:52110](https://eudml.org/doc/52110)&rbrack;
 
 The monotonicity of the Ricci flow for the [[string]] [[sigma-model]] in [[dilaton gravity]] background was established in 
 
