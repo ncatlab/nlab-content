@@ -1,5 +1,15 @@
 __Gang Tian__ is a Chinese-American differential geometer. With [[Yongbin Ruan]], he is one of the pioneers of differential geometric formalization of [[quantum cohomology]]. 
 
+* [personal page](https://tian.bicmr.pku.edu.cn/)
+
+* [institute page](https://faculty.princeton.edu/people/gang-tian)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Tian_Gang)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=37749)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Gang-Tian-2115649930)
+
 ## Selected writings
 
 Introducing a mathematical definition of [[quantum cohomology rings]]:
@@ -28,9 +38,9 @@ On [[special holonomy]]:
 * [[Jeff Cheeger]], [[Gang Tian]], _Anti-self-duality of curvature and degeneration of metrics with special holonomy_, Commun. Math. Phys. __255__, 391--417 (2005) [doi](https://doi.org/10.1007/s00220-004-1279-0)
 * Paolo de Bartolomeis, [[Gang Tian]], _Stability of complex vector bundles_, J. Diff. Geometry __43__:2 (1996) [pdf](https://www.intlpress.com/JDG/archive/1996/43-2-231.pdf)
 
-A monograph on Perelman's solution of geometrization conjecture is 
+On [[Ricci flow]] and (the proof of) the [[Poincaré conjecture]]:
 
-* John W. Morgan, Gang Tian, _Ricci Flow and the Poincare Conjecture_, Clay Mathematics Monographs __3__, 2007
-By 
+* [[John W. Morgan]], [[Gang Tian]]: _Ricci Flow and the Poincaré Conjecture_, Clay Mathematics Monographs __3__ (2007) &lbrack;[arXiv:math/0607607](https://arxiv.org/abs/math/0607607), [webpage](https://www.claymath.org/resource/ricci-flow-and-the-poincare-conjecture/), [pdf](https://www.claymath.org/wp-content/uploads/2022/03/Ricci-pdf.pdf)&rbrack;
+ 
 
 category: people
