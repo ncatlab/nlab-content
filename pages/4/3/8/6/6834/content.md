@@ -172,7 +172,7 @@ Consider
 
 * $\vec \mu$ an [[invertible matrix|invertible]] $I \times I$-[[matrix]] 
 
-then the corresponding **higher Maxwell-type equations** on these [[differential forms]]/[[flux densities]] are, in [[duality-symmetric higher gauge theory|duality-symmetric form]] (cf. [SS23](#SS23)): 
+then the corresponding **higher Maxwell-type equations** on these [[differential forms]]/[[flux densities]] are, in [[duality-symmetric higher gauge theory|duality-symmetric form]] (cf. [SS 2025](#SS25-PhaseSpace)): 
 
 1. the system of [[Bianchi identity]] [[differential equations]] (cf. at *[[Gauss law]]*)
 
@@ -273,11 +273,15 @@ In the context of [[flux quantization laws]]:
 
 * [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
 
-* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
+* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009), [doi:10.1007/s00023-024-01438-x](https://doi.org/10.1007/s00023-024-01438-x)&rbrack;
 
-* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
+* {#SS25-PhaseSpace} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization on Phase Space]]*, Annales Henri Poincaré **26** (2025) 895–919 \[<a href="https://doi.org/10.1007/s00023-024-01438-x">doi:10.1007/s00023-024-01438-x</a>, [arXiv:2312.12517](https://arxiv.org/abs/2312.12517)\]
 
-More on the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, [[nLab:Encyclopedia of Mathematical Physics 2nd ed]] **4**, Academic Press (2025) 281-324 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00078-1">doi:10.1016/B978-0-323-95703-8.00078-1</a>, [arXiv:](https://arxiv.org/abs/2402.18473)\]
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]*, [SciPost Physics](https://scipost.org/submissions/2512.12431v1) (2026) \[<a href="https://arxiv.org/abs/2512.12431">arXiv:2512.12431</a>\]
+
+More on the [[RR-field]] as a higher gauge field (for more see at *[[D-brane charge quantization in K-theory]]*):
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
