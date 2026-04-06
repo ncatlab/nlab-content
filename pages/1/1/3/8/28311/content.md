@@ -14,6 +14,9 @@ On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinit
 
 * Gianni Gagliardo, [[Christian Saemann]], [[Roberto Téllez Domínguez]]: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
 
+and application to a kind of [[topological T-duality]] for the [[supergravity C-field]]:
+
+* [[Roberto Téllez Domínguez]]: *$T_2$-Duality: Lifting Geometric T-Duality to M-theory via adjusted Lie 3-groups*, [talk at](CQTS#Tellez-DominguezApr2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[TellezDominguez-CQTS2026.pdf:file]]&rbrack;
 
 
 category: people
