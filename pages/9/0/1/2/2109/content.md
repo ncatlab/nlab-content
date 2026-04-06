@@ -566,7 +566,7 @@ There is a [[natural bijection]] between squares of the form
 
 \begin{remark}
 \label{SpiderLemmaStringDiagram}
-Illustrated in terms of [[string diagram|"brane" diagrams]], the Central Lemma \ref{CentralLemma} is also called the *Spider Lemma* ([Myers 2016 Lemma 1.2.3](#Myers16)):
+Illustrated in terms of [[string diagram|string diagrams]], the Central Lemma \ref{CentralLemma} is also called the *Spider Lemma* ([Myers 2016 Lemma 1.2.3](#Myers16)):
 
 \begin{tikzpicture}[scale=2.5, >=latex]
   \usetikzlibrary{decorations.markings}
