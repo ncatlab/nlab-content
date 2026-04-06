@@ -1,8 +1,19 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Amer_Iqbal)
 
-## Selected writings
+* [Grokipedia entry](https://grokipedia.com/page/amer_iqbal)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=130057)
+
+* [inSpire page](https://inspirehep.net/authors/1004913)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=5kgMOd0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Amer-Iqbal-7741544)
+
+
+
+## Selected writings
 
 
 On [[string junctions]] in relation to [[Lie algebras]] and [[Lie algebra representations]]:
@@ -36,7 +47,7 @@ On [[E-strings]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[mysterious duality]]
 
