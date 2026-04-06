@@ -334,11 +334,17 @@ This proposes a general abstract way to construct [[path integral]] quantization
 
 * [[Jacob Lurie]], _Finiteness and ambidexterity in $K(n)$-local stable homotopy theory_, talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
 
-See also
+See also:
 
-* [[Thomas Nikolaus]], _Equivariant Dijkgraaf-Witten theory_, a talk at Muenster ([pdf](http://www.math.uni-hamburg.de/home/nikolaus/Muenster.pdf))
+* [[Thomas Nikolaus]], _Equivariant Dijkgraaf-Witten theory_, talk notes, Muenster &lbrack;[pdf](http://www.math.uni-hamburg.de/home/nikolaus/Muenster.pdf)&rbrack;
 
-For more on this see the discussion on the [n-Forum](http://nforum.mathforge.org/discussion/1046/path-category-vs-cobordisms-for-bundles/?Focus=8337#Comment_8337).
+* discussion on the [n-Forum](http://nforum.mathforge.org/discussion/1046/path-category-vs-cobordisms-for-bundles/?Focus=8337#Comment_8337)
+
+* Yuan Xue, Eric Y. Yang: *On Lagrangians of Non-abelian Dijkgraaf-Witten Theories* &lbrack;[arXiv:2604.02414](https://arxiv.org/abs/2604.02414)&rbrack;
+
+
+
+
 
 ### Via Kan extensions
 
