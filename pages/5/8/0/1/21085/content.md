@@ -58,7 +58,7 @@ Articles:
 
 * {#Riley18} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738), video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
 
-* {#CEGLMPR20} [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics: a categorical update_, Compositionality **6** 1 (2024) ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488), [doi:10.32408/compositionality-6-1](https://doi.org/10.32408/compositionality-6-1))
+* {#CEGLMPR20} [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]]: _Profunctor optics: a categorical update_, Compositionality **6** 1 (2024) &lbrack;[arXiv:2001.07488](https://arxiv.org/abs/2001.07488), [doi:10.32408/compositionality-6-1](https://doi.org/10.32408/compositionality-6-1)&rbrack;
 
 * {#Roman} [[Mario Román]], _Open Diagrams via Coend Calculus_, Electronic Proceedings in Theoretical Computer Science **333** (2021) 65-78 ([doi:10.4204/EPTCS.333.5](https://doi.org/10.4204/EPTCS.333.5))
 
