@@ -221,7 +221,14 @@ See at *[[schreiber:infinity-Chern-Simons theory]]*
 
 ## References
 
-### General
+There are really two variants of formulating higher gauge theories:
+
+1. [[categorification]] of the notion of [[principal connections]] where the [[L-infinity algebra|$L_\infty$-algebra]] of the [[infinity-group|higher]] [[gauge group]] serves as the [[coefficients]] of the [[gauge potentials]],
+ 
+1. [[nonabelian differential cohomology]] where a [[nilpotent L-infinity algebra|nilpotent $L_\infty$-algebra]] serves as the [[coefficients]] of the [[flux densities]].
+
+
+### For $L_\infty$-algebras of gauge potentials
 
 Original discussion via [[connections on 2-bundles]] (see there for more references):
 
@@ -230,13 +237,7 @@ Original discussion via [[connections on 2-bundles]] (see there for more referen
 
 Introduction and exposition:
 
-* {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7** (2002) 129-194  &lbrack;[arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)&rbrack;
-
-* [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
-
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _An invitation to higher gauge theory_, General Relativity and Gravitation **43** (2011) 2335-2392 &lbrack;[arXiv:1003.4485](https://arxiv.org/abs/1003.4485), [doi:10.1007/s10714-010-1070-9](https://doi.org/10.1007/s10714-010-1070-9)&rbrack;
-
-* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
 
 * [[Luigi Alfonsi]], §2 & §4 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**  Elsevier (2024) 39-61 &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3), [ISBN:978-0-323-95703-8](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
@@ -244,26 +245,15 @@ Introduction and exposition:
 
 * PhysicsForums-Insights _[Why higher category theory in physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
 
-
 * _[[geometry of physics]]_
 
 * _[[twisted smooth cohomology in string theory]]_
 
 * _[Examples of prequantum field theories II: Higher gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-ii-higher-gauge-fields/)
 
-More on the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
-
-
-
-* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
-
 Deriving [[higher gauge symmetries]] through the [[variational bicomplex]]:
 
 * [[Igor Khavkine]], *Topology, rigid cosymmetries and linearization instability in higher gauge theories*, Annales Henri Poincaré **16** (2015) 255–288, &lbrack;[arXiv:1303.2406](https://arxiv.org/abs/1303.2406), [doi:10.1007/s00023-014-0321-9](https://doi.org/10.1007/s00023-014-0321-9)&rbrack;
-
-The aspect of [[flux quantization laws]]:
-
-* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
 
 Foundations of higher [[prequantum field theory]]:
@@ -274,11 +264,29 @@ For foundations of higher gauge theory formalized in [[homotopy type theory]] se
 
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
+
+### For $L_\infty$-algebras of flux densities
+
+In the context of [[flux quantization laws]]:
+
+* {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7** (2002) 129-194  &lbrack;[arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)&rbrack;
+
+* [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
+
+* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
+
+* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
+
+More on the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
+
+### In condensed matter physics
+
 On higher gauge theory in [[condensed matter physics]]:
 
-* [[Chenchang Zhu]], Tian Lan, [[Xiao-Gang Wen]], _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_ &lbrack;[arXiv:1808.09394](https://arxiv.org/abs/1808.09394)&rbrack;
-
-* J.P. Ang, Abhishodh Prakash, _Higher categorical groups and the classification of topological defects and textures_, ([ arXiv:1810.12965](https://arxiv.org/abs/1810.12965))
+* J. P. Ang, Abhishodh Prakash: _Higher categorical groups and the classification of topological defects and textures_ &lbrack;[ arXiv:1810.12965](https://arxiv.org/abs/1810.12965)&rbrack;
 
 Specifically on [[topological phases of matter]] via higher  [[lattice gauge theory]]:
 
@@ -286,9 +294,17 @@ Specifically on [[topological phases of matter]] via higher  [[lattice gauge the
 
 * [[Joe Huxford]], [[Steven H. Simon]], *Excitations in the Higher Lattice Gauge Theory Model for Topological Phases I: Overview* &lbrack;[arXiv:2202.08294](https://arxiv.org/abs/2202.08294)&rbrack;
 
-Further on higher [[lattice gauge theory]]:
-
 * [[Juan Orendain]], [[José A. Zapata]], *Higher homotopy and lattice gauge fields* &lbrack;[arXiv:2311.02363](https://arxiv.org/abs/2311.02363)&rbrack;
+
+On higher gauge theory for the description of [[topological order]]:
+
+* R. Costa de Almeida, J. P. Ibieta-Jimenez, J. Lorca Espiro, P. Teotonio-Sobrinho: *Topological Order from a Cohomological and Higher Gauge Theory perspective* &lbrack;[arXiv:1711.04186](https://arxiv.org/abs/1711.04186)&rbrack;
+
+* [[Chenchang Zhu]], Tian Lan, [[Xiao-Gang Wen]]: _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_ &lbrack;[arXiv:1808.09394](https://arxiv.org/abs/1808.09394), [doi:10.1103/PhysRevB.100.045105](https://doi.org/10.1103/PhysRevB.100.045105)&rbrack;
+
+* Clement Delcamp, Apoorv Tiwari: *From gauge to higher gauge models of topological phases*, J. High Energ. Phys. **2018** 49 (2018) &lbrack;[arXiv:1802.10104](https://arxiv.org/abs/1802.10104), <a href="https://doi.org/10.1007/JHEP10(2018)049">doi:10.1007/JHEP10(2018)049</a>&rbrack;
+
+
 
 
 
