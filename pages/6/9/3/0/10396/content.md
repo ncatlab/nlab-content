@@ -1,5 +1,15 @@
 
-* [webpage](http://www.ma.utexas.edu/users/uhlen/)
+Karen Keskulla Uhlenbeck
+
+* [personal page](http://www.ma.utexas.edu/users/uhlen/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Karen_Uhlenbeck) (en)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Karen_Uhlenbeck) (de)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=4834)
+
+* [inSpire page](https://inspirehep.net/authors/1049958)
 
 ## Selected writings
 
