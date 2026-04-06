@@ -14,7 +14,9 @@
 
 ## Idea
 
-*Uhlenbeck's compactness theorem* is a theorem about sequences of (weak Yang-Mills) connections with uniformly bounded curvature having weakly or uniformly convergent subsequences up to [[gauge]]. It is an important theorem used in the [[compactification]] of the anti self-dual [[Yang-Mills moduli space]] (ASDYM moduli space), which is central to the construction of [[Donaldson invariants]] on [[4-manifolds]] or [[monopole Floer homology]] on [[3-manifolds]]. 
+*Uhlenbeck's compactness theorem* is a theorem about [[sequences]] of (weak [[Yang-Mills field|Yang-Mills]]) [[connections]] with uniformly bounded [[curvature]] having weakly or uniformly [[convergence|convergent]] subsequences up to [[gauge]]. 
+
+This is an important theorem used in the [[compactification]] of the anti self-dual [[Yang-Mills moduli space]] (ASDYM moduli space), which is central to the construction of [[Donaldson invariants]] on [[4-manifolds]] or [[monopole Floer homology]] on [[3-manifolds]]. 
 
 [[Uhlenbeck's singularity theorem]] was also first published in the same journal, *Communications in Mathematical Physics*. In 2019, [[Karen Uhlenbeck]], after whom the theorem is named, became the first woman to be awarded the Abel Prize, in part for her contributions to [[partial differential equations]] and [[gauge theory]].
 
