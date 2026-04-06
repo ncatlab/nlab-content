@@ -113,11 +113,14 @@ Relation to [[semi-topological 4d Chern-Simons theory]]:
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], _Unifying Lattice Models, Links and Quantum Geometric Langlands via Branes in String Theory_ ([arXiv:1910.01134](https://arxiv.org/abs/1910.01134))
 
-See also
+See also:
 
 * Peter Koroteev, Daniel S. Sage, [[Anton Zeitlin]], _$(SL(N),q$)-opers, the $q$-Langlands correspondence, and quantum/classical duality_ ([arXiv:1811.09937](https://arxiv.org/abs/1811.09937))
 
 * [[Davide Gaiotto]], [[Jörg Teschner]], *Quantum Analytic Langlands Correspondence* &lbrack;[arXiv:2402.00494](https://arxiv.org/abs/2402.00494)&rbrack;
+
+* Peter Koroteev, Myungbo Shim, Rahul Singh: *$q$-Opers and Bethe Ansatz for Open Spin Chains I* &lbrack;[arXiv:2512.23174](https://arxiv.org/abs/2512.23174)&rbrack;
+
 
 
 [[!redirects quantum geometric Langlands duality]]
