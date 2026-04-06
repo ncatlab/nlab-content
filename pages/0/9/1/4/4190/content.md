@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[Uhlenbeck's compactness theorem]]:
+
+* {#Wehrheim03} [[Katrin Wehrheim]], _Uhlenbeck compactness_, EMS Series of Lectures in Mathematics. Vol. 1 (2003) &lbrack;[doi:10.4171/004](https://ems.press/books/elm/1) [ISBN 978-3-03719-004-3](https://ems.press/books/elm/1)&rbrack;
+
 On the [[symplectic category]]:
 
 * [[Katrin Wehrheim]], [[Chris T. Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, Quantum Topology **1** 2 (2010) 129-170 &lbrack;[doi:10.4171/qt/4](https://doi.org/10.4171/qt/4), [arXiv:0708.2851](https://arxiv.org/abs/0708.2851)&rbrack;
