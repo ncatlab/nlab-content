@@ -13,11 +13,15 @@
 
 ## Selected writings
 
+On [[Uhlenbeck's singularity theorem]] in higher dimensions:
+
+* {#TaoTian02} [[Terence Tao]], [[Gang Tian]], _A singularity removal theorem for Yang-Mills fields in higher dimensions_ (2002) &lbrack;[arXiv:math/0209352](https://arxiv.org/abs/math/0209352)&rbrack;
+
 * Vitaly Bergelson, [[Terence Tao]]: *Multiple recurrence in quasirandom groups* &lbrack;[arXiv:1211.6372](https://arxiv.org/abs/1211.6372)&rbrack;
 
 On [[measure theory]] via (secretly) [[Boolean toposes]]:
 
-* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
+* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](https://arxiv.org/abs/arXiv:2010.00681))
 
 On [[proof assistants]] in relation to [[machine learning]]:
 
