@@ -57,7 +57,7 @@ There is a [[natural bijection]] between squares of the form
 
 \end{lemma}
 
-In terms of brane diagrams, this bijection is often called the spider lemma
+Illustrated in terms of brane diagrams, this bijection is often called the spider lemma
 
 \begin{tikzpicture}[scale=2.5, >=latex]
   \usetikzlibrary{decorations.markings}
