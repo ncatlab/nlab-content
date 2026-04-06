@@ -81,4 +81,8 @@ On [[holomorphic function|Holomorphic]] Floer Theory:
 
 See also
 
-* [wikipedia](http://en.wikipedia.org/wiki/Floer_homology)
+* Wikipedia: *[Floer homology](http://en.wikipedia.org/wiki/Floer_homology)*
+
+
+[[!redirects monopole Floer homology]]
+
