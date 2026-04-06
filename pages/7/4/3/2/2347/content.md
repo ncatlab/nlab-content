@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -249,6 +249,7 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 * [[generating function in classical mechanics]], 
 
 
+
 ## References
 
 The origin of [[Newton's laws of motion]]:
@@ -265,7 +266,11 @@ Classical textbooks:
 * [[Ralph Abraham]], [[Jerrold E. Marsden]]: _[[Foundations of Mechanics]]_, Second Edition, Addison-Wesley (1978) &lbrack;ISBN:978-0-8218-4438-0, [pdf](http://authors.library.caltech.edu/25029/1/FoM2.pdf)&rbrack;  Reprinted: Chelsea Publishing **364**, AMS (1978)  &lbrack;[doi:10.1090/chel/364](https://doi.org/10.1090/chel/364)&rbrack;
 * [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the *[[Course of Theoretical Physics]]*
 
-* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
+* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ &lbrack;[pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf)&rbrack;
+
+Further textbooks:
+
+* [[Walter Greiner]]: *Classical Mechanics -- Point Particles and Relativity*, Classical Theoretical Physics, Springer (2004) &lbrack;[doi:10.1007/b97649](https://doi.org/10.1007/b97649), [ark:13960/t9c57gw0h](https://archive.org/details/springer_10.1007-b97649)&rbrack;
 
 See also:
 
@@ -275,8 +280,7 @@ See also:
 Detailed exposition with emphasis on the [[principle of extremal action]]:
 
 
-
-* [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
+* [[Douglas Cline]]: *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
 
 
 Discussion with an eye also towards [[quantum mechanics]] is in
