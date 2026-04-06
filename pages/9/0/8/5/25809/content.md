@@ -15,6 +15,10 @@ Related work on technique of virtual classes
 
 * [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, J. Diff. Geometry __42__ 2 (1995) 259-367 &lbrack;[doi:10.4310/jdg/1214457234](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-42/issue-2/A-mathematical-theory-of-quantum-cohomology/10.4310/jdg/1214457234.full)&rbrack;
 
+On [[Uhlenbeck's singularity theorem]] in higher dimensions:
+
+* {#TaoTian02} [[Terence Tao]], [[Gang Tian]], _A singularity removal theorem for Yang-Mills fields in higher dimensions_ (2002) &lbrack;[arXiv:math/0209352](https://arxiv.org/abs/math/0209352)&rbrack;
+
 On [[D=8 Seiberg-Witten theory]]:
 
 * {#GaoTian00} [[Yi-hong Gao]] and [[Gang Tian]], _Instantons and the monopole-like equations in eight dimensions_ (2000) &lbrack;[arXiv:hep-th/0004167](https://arxiv.org/abs/hep-th/0004167), [DOI:10.1088/1126-6708/2000/05/036](https://doi.org/10.1088/1126-6708/2000/05/036)&rbrack;
