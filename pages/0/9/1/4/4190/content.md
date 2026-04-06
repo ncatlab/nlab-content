@@ -1,5 +1,19 @@
 
-* [website](http://www-math.mit.edu/~katrin/)
+Katrin Wehrheim
+
+* [personal page](https://math.berkeley.edu/~katrin/)
+
+* [institute page](https://math.berkeley.edu/people/faculty/katrin-wehrheim)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Katrin_Wehrheim) (en)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Katrin_Wehrheim) (de)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=120235)
+
+* [inSpire page](https://inspirehep.net/authors/1045672)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Katrin-Wehrheim-13737281)
 
 ## Selected writings
 
