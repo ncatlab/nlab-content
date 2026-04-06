@@ -130,11 +130,51 @@ Given a [[2-category]] $K$ equipped with proarrows according to Def. \ref{TheDef
   B
   \arrow[r, "J"', ""{name=D, above}]
   & D
-  \arrow[Rightarrow, from=U, to=D]
+  \arrow[Rightarrow, from=U, to=D, "\alpha"]
 \end{tikzcd}
 are the [[2-cells]] $H \to J(g,f)$.  
 \end{definition}
 
+\begin{remark}
+
+Dually, the 2-cells can be also represented as [[string diagram|string diagrams]] ([Myers 2016](#Myers16)).
+
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+\tikzset{mid->/.style={
+  decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+  postaction={decorate}
+}}
+
+  % Quadrant fills (centered at origin)
+  \fill[blue!15]   (-1,0) rectangle (0,1);
+  \fill[teal!20]   (0,0) rectangle (1,1);
+  \fill[orange!20] (-1,-1) rectangle (0,0);
+  \fill[violet!15] (0,-1) rectangle (1,0);
+
+  % Border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % Central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) (alpha) {$\alpha$};
+
+  % Arrows
+  \draw[line width=0.6pt] (-1,0) -- (alpha);
+  \draw[line width=0.6pt] (alpha) -- (1,0);
+  \draw[mid->, line width=0.6pt] (alpha) -- (0,-1);
+  \draw[mid->, line width=0.6pt] (0,1) -- (alpha);
+
+  % Labels
+  \node[left]  at (-1,0) {$H$};
+  \node[right] at (1,0)  {$J$};
+  \node[above] at (0,1)  {$f$};
+  \node[below] at (0,-1) {$g$};
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  \node at (-0.5,-0.5) {$C$};
+  \node at ( 0.5,-0.5) {$D$};
+\end{tikzpicture}
+\end{remark}
 \begin{remark}
 If $K$ is a [[strict 2-category]], then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
 \end{remark}
