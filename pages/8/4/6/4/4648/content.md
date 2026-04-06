@@ -14,9 +14,10 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+
 
 ## Idea
  {#Idea}
@@ -123,6 +124,7 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
   * [[quantum geometric Langlands correspondence]]
 
+
 ## References
 
 ### Original
@@ -214,10 +216,10 @@ On whether the proposed [interpretation in string theory](#ReferencesInterpretat
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 
-* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
-conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
-
+* [[Ron Donagi]], [[Tony Pantev]]: _Lectures on the geometric Langlands conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
   > (with an eye towards [[nonabelian Hodge theory]])
+
+* [[David Ben-Zvi]]: *What is the Geometric Langlands Correspondence About?* (2026) &lbrack;[pdf](https://web.ma.utexas.edu/users/benzvi/CurrentEvents021426.pdf)&rbrack;
 
 More on the relation to [[string theory]] and [[S-duality]]:
 
