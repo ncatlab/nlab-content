@@ -307,6 +307,11 @@ Application to mathematical analysis of [[duality between M-theory and type IIA 
 Further development:
 
 * [[Yves Félix]], [[Aniceto Murillo]], Alejandro Saiz: *A new approach to rational stable parametrized homotopy theory* &lbrack;[arXiv:2509.11393](https://arxiv.org/abs/2509.11393)&rbrack;
+
+Application to [[topological Hochschild homology]]:
+
+* Florian Naef, Robin Stoll: *A rational model for the fiberwise THH transfer I: Sullivan algebras* &lbrack;[arXiv:2604.02516](https://arxiv.org/abs/2604.02516)&rbrack;
+
   
 
 
