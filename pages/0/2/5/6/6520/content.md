@@ -15,9 +15,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -121,13 +119,13 @@ based on
 
 A generalization is discussed in 
 
-* [[Edward Frenkel]], [[A. Losev]], [[Nikita Nekrasov]], _Instantons beyond topological theory I_ ([arXiv:hep-th/0610149](https://arxiv.org/abs/hep-th/0610149))
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory I_ ([arXiv:hep-th/0610149](https://arxiv.org/abs/hep-th/0610149))
 
-* [[Edward Frenkel]], [[A. Losev]], [[Nikita Nekrasov]], _Instantons beyond topological theory II_ ([arXiv:hep-th/0610149](https://arxiv.org/abs/0803.3302))
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory II_ ([arXiv:hep-th/0610149](https://arxiv.org/abs/0803.3302))
 
 Expositions and summaries of this are in 
 
-* [[Edward Frenkel]], [[A. Losev]], [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](https://arxiv.org/abs/hep-th/0702137))
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](https://arxiv.org/abs/hep-th/0702137))
 
 * [[Jacques Distler]], _Localized_ (2006) ([blog post](https://golem.ph.utexas.edu/~distler/blog/archives/001030.html))
 
