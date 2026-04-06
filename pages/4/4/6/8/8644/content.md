@@ -18,16 +18,17 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 In [[QCD]] [[instanton]] configurations of the [[gauge field]] control the experimentally observed [[vacuum]] structure of the theory.
 
 One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to a Euclidean $\mathbb{R}^4$ and assumes the [[field strength]] to [[vanish at infinity]]. This makes the gauge field configurations be equivalently $SU(3)$-[[principal connections]] on the 4-[[sphere]] $S^4$. The [[second Chern class]] of the underlying [[principal SU(3)-bundle]] is called the [[Yang-Mills instanton]]-number of the gauge field configuration. The theoretical/experimentally observed [[vacuum]] of [[QCD]] is some [[superposition]] of gauge fields in various instanton number sectors.
 
-In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see notably ([Schaefer-Shuryak](#SchaeferShuryak)) for a survey.
+In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] ([[ground state]]) of QCD is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see notably [Schaefer & Shuryak 1998 §III D](#SchaeferShuryak98) for survey of the theory, and [Athenodorou et al. 2018](#AthenodorouEtAl2018) for [[lattice QCD]] confirmation.
 
 This instanton sea model suffers however from infrared divergencies that either require a finite-volume cutoff or appeal to other effects (e.g. [Witten 98](#Witten98)). 
 
-But [[lattice gauge field theory]] simulations demonstrate numerically that the QCD vacuum is filled with instantons (e.g. [Gruber 13, esp. sections 5 and 7](#Gruber13)). Whether or not their density and distribution may be or has been theoretically derived from first principles is still being discussed (e.g. [Schaefer 02](#Schaefer02))
+But [[lattice gauge field theory]] simulations demonstrate numerically that the QCD vacuum is filled with instantons (e.g. [Gruber 13, esp. sections 5 and 7](#Gruber13)). Whether or not their density and distribution may be or has been theoretically derived from first principles is still being discussed (e.g. [Schaefer 2002](#Schaefer02))
 
 The _Witten-Veneziano formula_ ([Witten 79](#Witten79), [Veneziano 79](#Veneziano79)) relates topological instanton charge to the mass of the $\eta'$-[[particle]] in the limiting case that the gauge group is $SU(N)$ for $N \to \infty$. Discussion of this relation for the experimentally observed finite case of $N = 3$ includes ([Creutz 11](#Creutz11)).
 
@@ -35,7 +36,7 @@ The _Witten-Veneziano formula_ ([Witten 79](#Witten79), [Veneziano 79](#Venezian
 
 An instanton vacuum is argued to account for
 
-* formation of the gluon condensate ([[Mikhail Shifman]], [[Arkady Vainshtein]] and [[Vladimir Zakharov]], Nucl. Phys. B 147 (1979) 385).
+* formation of the gluon condensate ([[Mikhail Shifman]], [[Arkady Vainshtein]], Vladimir Zakharov, Nucl. Phys. B 147 (1979) 385).
 
 * spontaneous [[chiral symmetry breaking]] ([Diakonov 96](#Diakonov96))
 
@@ -134,7 +135,7 @@ and the fairly detailed account (with lots of pointers to the literature)
 
 * {#SchaeferShuryak98} [[Thomas Schaefer]], [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
   
-  {#SchaeferShuryak} section III D: relation to [[confinement]]
+  relation to [[confinement]] in section III D
   
 
 * Dmitri Diakonov, _Instantons at work_ ([arXiv:hep-ph/0212026](http://arxiv.org/abs/hep-ph/0212026))
@@ -222,13 +223,17 @@ Relation to the [[scanning map]] and [[configuration spaces of points]] in:
 
 * {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
 
+Discussion via [[lattice QCD]]:
+
+* {#AthenodorouEtAl2018} A. Athenodorou, Ph. Boucaud, F. De Soto, J. Rodríguez-Quintero, S. Zafeiropoulos: *Instanton liquid properties from lattice QCD*, J. High Energ. Phys. **2018** 140 (2018) &lbrack;<a href=" https://doi.org/10.1007/JHEP02(2018)140">doi:10.1007/JHEP02(2018)140</a>, [arXiv:1801.10155](https://arxiv.org/abs/1801.10155)&rbrack;
+
+
 
 ### Relation to skyrmions, calorons, monopoles
 
-
 The construction of [[Skyrmions]] from [[instantons]] is due to 
 
-* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholar S. Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas S. Manton]]: _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
 The relation between [[skyrmions]], [[instantons]], [[calorons]], [[solitons]] and [[monopoles]] is usefully reviewed and further developed in 
 
