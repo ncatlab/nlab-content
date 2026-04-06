@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -221,7 +219,7 @@ exhibits the total space of the tautological bundle as the "[[blow-up]]" of the 
 
 \begin{imagefromfile}
   "file_name": "TautologicalLineBundleOverRP1.jpg",
-  "width": 700
+  "width": 800
 \end{imagefromfile}
 
 
