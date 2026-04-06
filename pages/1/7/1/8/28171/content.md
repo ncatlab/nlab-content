@@ -20,6 +20,10 @@
 
 The [[Lagrangian field theory]] obtained by adding the [[Lagrangian densities]] for [[D=3 Yang-Mills theory]] and of [[Chern-Simons theory]], defined on the same [[gauge field]]/[[connection on a principal bundle|connection]] is *3D Yang-Mills-Chern-Simons theory* (YMCS). For [[abelian group|abelian]] [[gauge group]] this reduces to *[[Maxwell-Chern-Simons theory]]* (MCS).
 
+## Related entries
+
+[[!include Yang-Mills theory -- table]]
+
 
 ## References
 
