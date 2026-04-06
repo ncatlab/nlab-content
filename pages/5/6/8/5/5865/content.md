@@ -3815,7 +3815,7 @@ More generally, let
 Write
 
 $$
-  \phi^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n+1} A) 
+  \phi^* : \mathbf{H}_{diff}(X, \mathbf{B}^{n} A) 
     \to 
   \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n A)
    \simeq
@@ -3839,7 +3839,7 @@ $$
      \downarrow
      \\
      \mathbf{H}(\Sigma, \mathbf{B}^n A) &\to&
-     \mathbf{H}_{dR}(X, \mathbf{B}^{n+1} A)
+     \mathbf{H}_{dR}(\Sigma, \mathbf{B}^{n+1} A)
      &\leftarrow&
      *     
   }
