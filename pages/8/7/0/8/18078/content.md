@@ -1,8 +1,65 @@
+\begin{lemma}\label{CentralLemma}
+There is a [[natural bijection]] between squares of the form
 
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A_0
+  \arrow[r,  "H", ""{name=U, below, yshift=-10pt}]
+  \arrow[d, "f_1"']
+  & B_0
+  \arrow[d, "g_1"]
+  \\
+  A_1
+  \arrow[d, "f_2"']
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[d, "f_3"']
+   & B_2
+ \arrow[d, "g_3"]
+  \\
+  A_3
+ \arrow[r, "J"', ""{name=D, above, yshift=10pt}]
+  & B_3
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+≅
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A_1
+  \arrow[r, "{A_1(f_1, 1)}"]
+  \arrow[d, "f_2"']
+  & A_0
+  \arrow[r,  "H", ""{name=U, below}]
+  & B_0
+  \arrow[r, "{B_1(1, g_1)}"]
+  & B_1
+  \arrow[d, "g_2"]
+  \\
+  A_2
+  \arrow[r, "{A_3(1, f_3)}"']
+  & A_3
+ \arrow[r, "J"', ""{name=D, above}]
+  & B_3
+  \arrow[r, "{B_3(g_3, 1)}"']
+  & B_2
+  \arrow[Rightarrow, from=U, to=D]
+\end{tikzcd}
+</td>
+</tr>
+</table>
 
-The spider lemma:
+\end{lemma}
 
-\begin{tikzpicture}[scale=3, >=latex]
+In terms of brane diagrams, this bijection is often called the spider lemma
+
+\begin{tikzpicture}[scale=2.5, >=latex]
   \usetikzlibrary{decorations.markings}
 
   % color definitions
