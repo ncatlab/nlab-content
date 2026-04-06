@@ -151,6 +151,10 @@ On the topological Hochschild homology of the [[Lubin-Tate theory|Lubin-Tate rin
 
 * [[Geoffroy Horel]], *Higher Hochschild homology of the Lubin-Tate ring spectrum*, Algebr. Geom. Topol. **15** (2015) 3215-3252 &lbrack;[arXiv:1311.2805](https://arxiv.org/abs/1311.2805), [doi:10.2140/agt.2015.15.3215](https://doi.org/10.2140/agt.2015.15.3215)&rbrack;
 
+In [[rational parameterized stable homotopy theory]]:
+
+* Florian Naef, Robin Stoll: *A rational model for the fiberwise THH transfer I: Sullivan algebras* &lbrack;[arXiv:2604.02516](https://arxiv.org/abs/2604.02516)&rbrack;
+
 
 
 [[!redirects topological Hochschild homology]]
