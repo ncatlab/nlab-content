@@ -972,6 +972,9 @@ General discussion of abelian Chern-Simons theory:
 
 * [[Daniel Galviz]]: *A Rigorous Functional-Integral Construction of Toral Chern-Simons Theory* &lbrack;[arXiv:2604.02013](https://arxiv.org/abs/2604.02013)&rbrack;
 
+* [[Daniel Galviz]]: *Classification of Extended Abelian Chern-Simons Theories* &lbrack;[arXiv:2604.02929](https://arxiv.org/abs/2604.02929)&rbrack;
+
+
 
 
 
