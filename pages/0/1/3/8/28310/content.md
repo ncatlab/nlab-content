@@ -30,6 +30,9 @@ f\colon
 \mathcal{A}\oplus\Gamma^\infty(S^+)\rightarrow\Omega_+^2(M,\mathfrak{u}(1))\oplus\Gamma^\infty(S^-),
 (A,\psi)\mapsto(F_A^+-\sigma(\psi),\partial_A\psi).
 $$
+
+([Naber 11, Eq. (A.4.23)](#Naber11B))
+
 $(A,\psi)\in\mathcal{A}$ is a solution of the [[Seiberg-Witten equations]] if and only if $f(A,\psi)=0$. the differential of the Seiberg-Witten map in it is given by:
 $$
 D_{(A,\psi)}f
@@ -39,6 +42,8 @@ d_+ & -D_\psi \\
 \end{pmatrix}\colon
 \Omega^1(M,\mathfrak{u}(1))\oplus\Gamma^\infty(S^+)\rightarrow\Omega_+^2(M,\mathfrak{u}(1))\oplus\Gamma^\infty(S^-).
 $$
+
+([Nicolaescu 00, Eq. (2.2.18)](#Nicolaescu00), [Naber 11, Eq. (A.4.24)](#Naber11B))
 
 ## Linearized Seiberg-Witten equations
 
@@ -77,7 +82,7 @@ $$
 H^2(\mathcal{E}(A,\phi))
 =(\Omega_+^2(M,\mathfrak{u}(1))\oplus\Gamma^\infty(S^-))/img(D_{(A,\psi)}f).
 $$
-$H^0(\mathcal{E}(A,\phi))$ can be identified with the [[tangent space]] $T_1 Stab_{(A,\phi)}(\mathcal{G})$, so that $H^0(\mathcal{E}(A,\psi))=\{0\}$ is equivalent to $(A,\psi)$ being irreducible or $\psi\neq 0$. $H^1(\mathcal{E}(A,\psi))$ can be identified with the [[tangent space]] $T_{[A,\psi]}\mathcal{M}$ of the [[Seiberg-Witten moduli space]].
+$H^0(\mathcal{E}(A,\phi))$ can be identified with the [[tangent space]] $T_1 Stab_{(A,\phi)}(\mathcal{G})$, so that $H^0(\mathcal{E}(A,\psi))=\{0\}$ is equivalent to $(A,\psi)$ being irreducible or $\psi\neq 0$. ([Nicolaescu 00, Crl. 2.2.12](#Nicolaescu00), [Naber 11, p. 393](#Naber11B)) $H^1(\mathcal{E}(A,\psi))$ can be identified with the [[tangent space]] $T_{[A,\psi]}\mathcal{M}$ of the [[Seiberg-Witten moduli space]].
 $$
 ind\mathcal{E}(A,\psi)
 =-\dim H^0(\mathcal{E}(A,\psi))
@@ -86,11 +91,20 @@ ind\mathcal{E}(A,\psi)
 =\dim H^1(\mathcal{E}(A,\psi))
 =dim T_{[A,\psi]}\mathcal{M}
 $$
+
+([Naber 11, p. 394](#Naber11B))
+
 (For finite-dimensional [[vector spaces]] in the complex, these can replace the cohomology [[vector spaces]] in the index due to the [[homomorphism theorem]].) The [[Atiyah-Singer index theorem]] assures this [[analytic index]] to be equal to the [[topological index]], which depends only on [[topological invariants]].
 
 ## Related concepts
 
 [[!include Seiberg-Witten theory -- table]]
+
+## References
+
+* {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
+
+* {#Naber11B} [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** (2011) &lbrack;[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)&rbrack;
 
 [[!redirects Seiberg-Witten equations]]
 [[!redirects SW equation]]
