@@ -75,6 +75,7 @@ In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#Hie
 
 * G. Dolcetto, S. Barbarino, D. Ferraro, N. Magnoli, M. Sassetti: *Tunneling between helical edge states through extended contacts*, Phys. Rev. B **85** (2012) 195138 &lbrack;[arXiv:1203.4486](https://arxiv.org/abs/1203.4486), [doi:10.1103/PhysRevB.85.195138](https://doi.org/10.1103/PhysRevB.85.195138)&rbrack;
 
+* M. Ruelle et al. *Time-domain braiding of anyons*, Science **389** (2025) 6755 &lbrack;[doi:10.1126/science.adm7695](https://doi.org/10.1126/science.adm7695)&rbrack;
 
 
 In view of the [[bulk-edge correspondence]]:
