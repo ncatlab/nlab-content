@@ -18,7 +18,11 @@ Vladimir Drinfel'd introduced $\chi$ in order to suggest a procedure of twisting
 
 In the original Drinfel'd's work 2-cocycles for twisting quasi-Hopf algebras were also considered. 
 
-[[bialgebroid 2-cocycle|Bialgebroid 2-cocycles]] are a subtle generalization for bialgebroids over noncommutative base ([[Ping Xu 1999](#PingXu99)). 
+A more nontrivial generalization are so called dynamical twists which entail a parameter.
+
+[[bialgebroid 2-cocycle|Bialgebroid 2-cocycles]] are a subtle generalization for bialgebroids over noncommutative base ([Ping Xu 1999](#PingXu99)). 
+
+Dynamical twists of Hopf algebras can alternatively be presented via the associated bialgebroids.
 
 ## Literature
 
