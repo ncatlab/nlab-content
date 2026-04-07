@@ -1,17 +1,28 @@
 
-* [webpage](http://www.physics.ucsb.edu/people/academic/joseph-polchinski)
+Joseph Gerard Polchinski (1954-2018)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Joseph_Polchinski)
+* [institute page](https://www.kitp.ucsb.edu/joep)
 
-* _Memoirs_ ([arXiv:1708.09093](https://arxiv.org/abs/1708.09093))
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Joseph_Polchinski)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=45758)
+
+* _Memoirs_ &lbrack;[arXiv:1708.09093](https://arxiv.org/abs/1708.09093)&rbrack;
 
 * [[Raphael Bousso]], [[Fernando Quevedo]], [[Steven Weinberg]]: _Joseph Polchinski: A Biographical Memoir_ &lbrack;[arXiv:2002.02371](https://arxiv.org/abs/2002.02371)&rbrack;
 
-
 * UC Santa Barbara, Special Research Collections: *[Joseph Polchinski papers, 1973-2017](https://oac.cdlib.org/findaid/ark:%2F13030%2Fc8gt5vw1)* 
+
+* [inSpire page](https://inspirehep.net/authors/993079)
 
 
 ## Selected writings
+
+Formulating the [[string/black hole correspondence principle]]:
+
+* {#HorowitzPolchinski1997} [[Gary T. Horowitz]], [[Joseph Polchinski]]: *A Correspondence Principle for Black Holes and Strings*, Phys. Rev. D **55** (1997) 6189-6197 &lbrack;[arXiv:hep-th/9612146](https://arxiv.org/abs/hep-th/9612146)&rbrack;
+
+* [[Gary T. Horowitz]], [[Joseph Polchinski]]: *Self Gravitating Fundamental Strings*, Phys. Rev. D **55** (1997) 6189-6197 &lbrack;[arXiv:hep-th/9612146](https://arxiv.org/abs/hep-th/9612146), [doi:10.1103/PhysRevD.55.6189](https://doi.org/10.1103/PhysRevD.55.6189)&rbrack;
 
 
 
