@@ -59,7 +59,7 @@ The definition of a __right $A$-bialgebroid__ differs by the $A$-bimodule struct
 
 ## Literature
 
-Related notions: [[Hopf algebroid]]
+Related notions: [[Hopf algebroid]], [[bialgebroid 2-cocycle]], [[weak bialgebra]]
 
 #### Commutative case
 
