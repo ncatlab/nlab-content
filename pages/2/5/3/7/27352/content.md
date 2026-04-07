@@ -94,6 +94,11 @@ More on [[edge modes]] via the abelian [[WZW model]]/[[Floreanini-Jackiw theory]
 
 * [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
 
+and in view of the [[bulk-edge correspondence]]:
+
+* Jennifer Cano, [[Meng Cheng]], Michael Mulligan, [[Chetan Nayak]], Eugeniu Plamadeala, Jon Yard: *Bulk-Edge Correspondence in $2+1$-Dimensional Abelian Topological Phases*, Phys. Rev. B **89** (2014) 115116 \[<a href="https://doi.org/10.1103/PhysRevB.89.115116">doi:10.1103/PhysRevB.89.115116</a>, [arXiv:1310.5708](https://arxiv.org/abs/1310.5708)\]
+
+
 
 The [[symmetry protected topological phase|symmetry protected]] situation:
 
