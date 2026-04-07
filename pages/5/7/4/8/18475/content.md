@@ -255,6 +255,9 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Sebastián Bahamondes, Ignacio Salazar Landea, Rodrigo Soto-Garrido: *Out-of-bounds hydrodynamics in holographic anisotropic Dirac semimetals* &lbrack;[arXiv:2507.13497](https://arxiv.org/abs/2507.13497)&rbrack;
 
+* Hwajin Eom, Yunseok Seo: *D-instanton Effects on the Holographic Weyl Semimetals* &lbrack;[arXiv:2604.04424](https://arxiv.org/abs/2604.04424)&rbrack;
+
+
 
 Review:
 
