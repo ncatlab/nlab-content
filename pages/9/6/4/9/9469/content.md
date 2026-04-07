@@ -31,4 +31,6 @@ A _singular foliation_ is a kind of _[[foliation]]_ in which the [[dimension]] o
 
 * [[Iakovos Androulidakis]], [[Georges Skandalis]], _The holonomy groupoid of a singular foliation_ ([arXiv:math/0612370](http://arxiv.org/abs/math/0612370))
 
+* [[Camille Laurent-Gengoux]], [[Ruben Louis]], [[Leonid Ryvkin]], _What is a singular foliation?_ in Advances in Poisson Geometry, Advanced Courses in Mathematics – CRM Barcelona, Birkhäuser (2025). ([doi:10.1007/978-3-031-86657-9_3](https://doi.org/10.1007/978-3-031-86657-9_3))
+
 [[!redirects singular foliations]]
