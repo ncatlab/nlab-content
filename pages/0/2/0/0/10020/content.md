@@ -188,6 +188,9 @@ See also:
 
 * Zhe-fei Yu: *On the CFT dual of superstring on $AdS_3$* &lbrack;[arXiv:2504.20227](https://arxiv.org/abs/2504.20227)&rbrack;
 
+* [[Jan de Boer]], Joshua Kames-King, Boris Post: *Surgery and statistics in 3d gravity* &lbrack;[arXiv:2506.04151](https://arxiv.org/abs/2506.04151)&rbrack;
+
+
 
 Relating to [[random matrix theory]]:
 
