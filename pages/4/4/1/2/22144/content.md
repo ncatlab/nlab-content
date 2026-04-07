@@ -7,6 +7,7 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=WRL78vEAAAAJ&hl=en)
 
+
 ## Selected writings
 
 On [[2d CFT|2d]] [[logarithmic CFT]] for generalized [[Laughlin wavefunctions]]:
@@ -31,6 +32,11 @@ On [[topological quantum computation]] with [[anyons]]:
 On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] with a [[symmetric group]] as analogs of ([[anyon]]) [[braid groups]] in [[dimension of a manifold|dimension]] $\gt 2$:
 
 * [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
+On the [[bulk-edge correspondence]] for [[quantum Hall systems]] via [[abelian Chern-Simons theory]]:
+
+* Jennifer Cano, [[Meng Cheng]], Michael Mulligan, [[Chetan Nayak]], Eugeniu Plamadeala, Jon Yard: *Bulk-Edge Correspondence in $2+1$-Dimensional Abelian Topological Phases*, Phys. Rev. B **89** (2014) 115116 &lbrack;[arXiv:1310.5708](https://arxiv.org/abs/1310.5708), [doi:10.1103/PhysRevB.89.115116](https://doi.org/10.1103/PhysRevB.89.115116)&rbrack;
+
 
 
 On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
