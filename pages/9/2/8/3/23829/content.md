@@ -1,12 +1,24 @@
 
 * [personal page](https://meng-cheng.github.io/)
 
+* [institute page](https://physics.yale.edu/people/meng-cheng)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=3lyNWR0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Meng-Cheng-14)
+
 
 ## Selected writings
 
+On the [[bulk-edge correspondence]] for [[quantum Hall systems]] via [[abelian Chern-Simons theory]]:
+
+* Jennifer Cano, [[Meng Cheng]], Michael Mulligan, [[Chetan Nayak]], Eugeniu Plamadeala, Jon Yard: *Bulk-Edge Correspondence in $2+1$-Dimensional Abelian Topological Phases*, Phys. Rev. B **89** (2014) 115116 &lbrack;[arXiv:1310.5708](https://arxiv.org/abs/1310.5708), [doi:10.1103/PhysRevB.89.115116](https://doi.org/10.1103/PhysRevB.89.115116)&rbrack;
+
+
+
 Introducing [[Majorana dimers]] for [[Ising anyons]]:
 
-* Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
+* Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B **94** 115127 (2016) &lbrack;[arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127)&rbrack;
 
 On the [[adiabatic quantum computation|adiabaticity]] of [[topological quantum computation]] by [[braid group|braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects):
 
