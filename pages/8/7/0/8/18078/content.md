@@ -6,83 +6,229 @@ This can be illustrated using string diagrams. The companion and conjoint of $f$
 <table>
 <tr>
 <td style="border: none;">
-
 \begin{tikzpicture}[scale=1]
-  \usetikzlibrary{decorations.markings, arrows.meta, calc}
+  \usetikzlibrary{decorations.markings, arrows.meta}
   \tikzset{
-    >=Latex,
-    mid<-/.style={
-      decoration={markings, mark=at position 0.55 with {\arrowreversed[scale=1.5]{Latex}}},
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
       postaction={decorate}
     }
   }
-
   \colorlet{colorA}{teal!20}
   \colorlet{colorB}{orange!20}
-
   \coordinate (W) at (-1, 0);
   \coordinate (E) at ( 1, 0);
-
   % fills
   \fill[colorA] (-1,0) rectangle (1,1);
   \fill[colorB] (-1,0) rectangle (1,-1);
-
   % border
   \draw[gray] (-1,-1) rectangle (1,1);
-
-  % arrow
-  \draw[mid<-] (W) -- (E);
-
+  % arrow points W
+  \draw[mid->] (E) -- (W);
   % area labels
   \node at (0,  0.5) {$A$};
   \node at (0, -0.5) {$B$};
-
   % edge label
   \node[left] at (W) {$B(1, f)$};
-
 \end{tikzpicture}
 </td>
 <td style="border: none;">
-
-
 \begin{tikzpicture}[scale=1]
-  \usetikzlibrary{decorations.markings, arrows.meta, calc}
+  \usetikzlibrary{decorations.markings, arrows.meta}
   \tikzset{
-    >=Latex,
     mid->/.style={
-      decoration={markings, mark=at position 0.55 with {\arrow[scale=1.5]{Latex}}},
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
       postaction={decorate}
     }
   }
-
   \colorlet{colorA}{orange!20}
   \colorlet{colorB}{teal!20}
-
   \coordinate (W) at (-1, 0);
   \coordinate (E) at ( 1, 0);
-
   % fills
   \fill[colorA] (-1,0) rectangle (1,1);
   \fill[colorB] (-1,0) rectangle (1,-1);
-
   % border
   \draw[gray] (-1,-1) rectangle (1,1);
-
-  % arrow
+  % arrow points E
   \draw[mid->] (W) -- (E);
-
   % area labels
   \node at (0,  0.5) {$B$};
   \node at (0, -0.5) {$A$};
-
   % edge label
   \node[right] at (E) {$B(f, 1)$};
-
 \end{tikzpicture}
-
 </td>
 </tr>
 </table>
+
+equipped with 2-cells
+
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (SE) at ( 1, -1);
+  \coordinate (S)  at ( 0, -1);
+  \coordinate (E)  at ( 1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorA] (-1,-1) rectangle (1,1);
+  \fill[colorB] (SE) -- (S) -- (C) -- (E) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid<-] (S) -- (C);
+  \draw[mid->] (E) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_p$};
+  % area labels
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5,-0.5) {$B$};
+  % real edge labels
+  \node[below] at (S) {$f$};
+  \node[right] at (E) {$B(1,f)$};
+  % phantom edge labels for alignment
+  \node[above, opacity=0] at (0, 1) {$f$};
+  \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (NW) at (-1,  1);
+  \coordinate (N)  at ( 0,  1);
+  \coordinate (W)  at (-1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (NW) -- (N) -- (C) -- (W) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid->] (N) -- (C);
+  \draw[mid<-] (W) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_p$};
+  % area labels
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5,-0.5) {$B$};
+  % real edge labels
+  \node[above] at (N) {$f$};
+  \node[left]  at (W) {$B(1,f)$};
+  % phantom edge labels for alignment
+  \node[below, opacity=0] at (0, -1) {$f$};
+  \node[right, opacity=0] at (1,  0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (SW) at (-1, -1);
+  \coordinate (S)  at ( 0, -1);
+  \coordinate (W)  at (-1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (SW) -- (S) -- (C) -- (W) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid<-] (S) -- (C);
+  \draw[mid->] (W) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_j$};
+  % area labels
+  \node at (-0.5,-0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  % real edge labels
+  \node[below] at (S) {$f$};
+  \node[left]  at (W) {$B(f,1)$};
+  % phantom edge labels for alignment
+  \node[above, opacity=0] at (0,  1) {$f$};
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (NE) at ( 1,  1);
+  \coordinate (N)  at ( 0,  1);
+  \coordinate (E)  at ( 1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorA] (-1,-1) rectangle (1,1);
+  \fill[colorB] (NE) -- (N) -- (C) -- (E) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid->] (N) -- (C);
+  \draw[mid<-] (E) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_j$};
+  % area labels
+  \node at (-0.5,-0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  % real edge labels
+  \node[above] at (N) {$f$};
+  \node[right] at (E) {$B(f,1)$};
+  % phantom edge labels for alignment
+  \node[below, opacity=0] at (0, -1) {$f$};
+  \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+</tr>
+</table>
+
+whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\eta_j \epsilon_j = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
 
 ***
 
@@ -143,6 +289,8 @@ Dually, the 2-cells can be also represented as [[string diagram|string diagrams]
   \node at ( 0.5,-0.5) {$D$};
 \end{tikzpicture}
 \end{remark}
+
+
 
 ***
 
