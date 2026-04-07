@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -44,6 +42,7 @@
 
 * [[quantum material]]
 
+
 ## References
 
 ### General
@@ -64,7 +63,11 @@ On the phase diagram of [[quantum chromodynamics]]:
 
 * {#Hands01} Simon Hands, _The Phase Diagram of QCD_, Contemp. Phys. 42:209-225, 2001 ([arXiv:physics/0105022](https://arxiv.org/abs/physics/0105022))
 
-* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
+* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ &lbrack;[arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068)&rbrack;
+
+* Larry McLerran: *Two Lectures on the Phase Diagram of QCD* &lbrack;[arXiv:2604.03849](https://arxiv.org/abs/2604.03849)&rbrack;
+
+
 
 Via [[holographic QCD]]:
 
