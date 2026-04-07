@@ -1322,8 +1322,12 @@ The dual monoidal Dold-Kan correspondence is discussed in
 
 The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in section 1.2 of
 
-* [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf))
-{#Kock}
+* {#Kock} [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf))
+
+
+In relation to [[Lie-Rinehart pairs]]:
+
+* [[Camille Laurent-Gengoux]], [[Ruben Louis]]: _Lie-Rinehart algebras ≃ acyclic Lie ∞-algebroids_, Journal of Algebra **594** (2022) 1–53  &lbrack;[doi:10.1016/j.jalgebra.2021.11.023](https://doi.org/10.1016/j.jalgebra.2021.11.023)&rbrack;
 
 
 [[!redirects L-infinity-algebroid]]
