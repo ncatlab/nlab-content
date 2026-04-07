@@ -204,14 +204,16 @@ Review:
 * [[Eckhard Meinrenken]], *Lie Algebroids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03034](https://arxiv.org/abs/2401.03034)&rbrack;
 
 
-For an infinite-dimensional version used in stochastic analysis see
+An infinite-dimensional version used in stochastic analysis:
 
 * R&#233;mi L&#233;andre, _A Lie algebroid on the Wiener space_, Adv. Math. Phys. 2010, Art. ID 146719, 17 pp. [MR2011j:58064](http://www.ams.org/mathscinet-getitem?mr=2594930) 
 
-There is also a recent "hom-version"
+See also:
 
-* Camille Laurent-Gengoux, Joana Teles, _Hom-Lie algebroids_, [arxiv/1211.2263](http://arxiv.org/abs/1211.2263)
+* [[Camille Laurent-Gengoux]], Joana Teles: _Hom-Lie algebroids_, [arxiv/1211.2263](http://arxiv.org/abs/1211.2263)
   
+* [[Ruben Louis]]: _On Nash resolution of (singular) Lie algebroids_, Mathematische Zeitschrift **311** (2025) 24 &lbrack;[doi:10.1007/s00209-025-03817-4](https://doi.org/10.1007/s00209-025-03817-4)&rbrack;
+
 [[!redirects Lie algebroids]]
 
 [[!redirects anchor map]]
