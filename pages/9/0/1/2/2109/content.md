@@ -568,10 +568,20 @@ There is a [[natural bijection]] between squares of the form
 \label{SpiderLemmaStringDiagram}
 Illustrated in terms of [[string diagram|string diagrams]], the Central Lemma \ref{CentralLemma} is also called the *Spider Lemma* ([Myers 2016 Lemma 1.2.3](#Myers16)):
 
-\begin{tikzpicture}[scale=2.5, >=latex]
-  \usetikzlibrary{decorations.markings}
+\begin{tikzpicture}[scale=2.5]
+  \usetikzlibrary{decorations.markings, arrows.meta, calc}
+  \tikzset{
+    >=Latex,
+    mid->/.style={
+      decoration={markings, mark=at position 0.55 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.55 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
 
-  % color definitions
   \colorlet{colorA0}{red!20}
   \colorlet{colorA1}{orange!30}
   \colorlet{colorA2}{yellow!40}
@@ -581,103 +591,136 @@ Illustrated in terms of [[string diagram|string diagrams]], the Central Lemma \r
   \colorlet{colorB2}{red!10}
   \colorlet{colorB3}{green!15}
 
-  \tikzset{
-    mid->/.style={
-      decoration={markings, mark=at position 0.55 with {\arrow[scale=1.5]{>}}},
-      postaction={decorate}
-    },
-    mid<-/.style={
-      decoration={markings, mark=at position 0.55 with {\arrowreversed[scale=1.5]{>}}},
-      postaction={decorate}
-    }
-  }
+  % --- LEFT SQUARE ---
+  \coordinate (NW)  at (-1,  1);
+  \coordinate (NE)  at ( 1,  1);
+  \coordinate (SW)  at (-1, -1);
+  \coordinate (SE)  at ( 1, -1);
+  \coordinate (W)   at (-1,  0);
+  \coordinate (E)   at ( 1,  0);
+  \coordinate (C)   at ( 0,  0);
+  \coordinate (NNW) at (-0.6,  1);
+  \coordinate (N)   at ( 0,    1);
+  \coordinate (NNE) at ( 0.6,  1);
+  \coordinate (SSW) at (-0.6, -1);
+  \coordinate (S)   at ( 0,   -1);
+  \coordinate (SSE) at ( 0.6, -1);
 
-% --- LEFT SQUARE ---
-  \fill[colorA0] (-1,1) -- (-0.6,1) to[out=270, in=130] (0,0) to[out=180, in=0] (-1,0) -- cycle;
-  \fill[colorA1] (-0.6,1) to[out=270, in=130] (0,0) to[out=90, in=270] (0,1) -- cycle;
-  \fill[colorA2] (0,1) to[out=270, in=90] (0,0) to[out=50, in=270] (0.6,1) -- cycle;
-  \fill[colorA3] (0.6,1) to[out=270, in=50] (0,0) to[out=0, in=180] (1,0) -- (1,1) -- cycle;
-  \fill[colorB0] (-1,-1) -- (-1,0) to[out=0, in=180] (0,0) to[out=230, in=90] (-0.6,-1) -- cycle;
-  \fill[colorB1] (-0.6,-1) to[out=90, in=230] (0,0) to[out=270, in=90] (0,-1) -- cycle;
-  \fill[colorB2] (0,-1) to[out=90, in=270] (0,0) to[out=310, in=90] (0.6,-1) -- cycle;
-  \fill[colorB3] (0.6,-1) to[out=90, in=310] (0,0) to[out=0, in=180] (1,0) -- (1,-1) -- cycle;
+  % fills
+  \fill[colorA0] (NW)  -- (NNW) to[out=270, in=130] (C) to[out=180, in=0] (W)   -- cycle;
+  \fill[colorA1] (NNW) to[out=270, in=130] (C) to[out=90,  in=270] (N)   -- cycle;
+  \fill[colorA2] (N)   to[out=270, in=90]  (C) to[out=50,  in=270] (NNE) -- cycle;
+  \fill[colorA3] (NNE) to[out=270, in=50]  (C) to[out=0,   in=180] (E)   -- (NE) -- cycle;
+  \fill[colorB0] (SW)  -- (W)   to[out=0,   in=180] (C) to[out=230, in=90]  (SSW) -- cycle;
+  \fill[colorB1] (SSW) to[out=90,  in=230] (C) to[out=270, in=90]  (S)   -- cycle;
+  \fill[colorB2] (S)   to[out=90,  in=270] (C) to[out=310, in=90]  (SSE) -- cycle;
+  \fill[colorB3] (SSE) to[out=90,  in=310] (C) to[out=0,   in=180] (E)   -- (SE) -- cycle;
 
-  \draw[gray] (-1,-1) rectangle (1,1);
-  \draw[mid->] (-0.6, 1) to[out=270, in=130] (0,0);
-  \draw[mid->] ( 0,   1) to[out=270, in=90]  (0,0);
-  \draw[mid->] ( 0.6, 1) to[out=270, in=50]  (0,0);
-  \draw[mid->] (0,0) to[out=230, in=90] (-0.6,-1);
-  \draw[mid->] (0,0) to[out=270, in=90] ( 0,  -1);
-  \draw[mid->] (0,0) to[out=310, in=90] ( 0.6,-1);
-  \draw (-1,0) -- (0,0);
-  \draw (0,0)  -- (1,0);
+  % border
+  \draw[gray] (SW) rectangle (NE);
 
-  \node[circle, draw, fill=white, inner sep=3pt] at (0,0) {};
+  % arrows
+  \draw[mid->] (NNW) to[out=270, in=130] (C);
+  \draw[mid->] (N)   to[out=270, in=90]  (C);
+  \draw[mid->] (NNE) to[out=270, in=50]  (C);
+  \draw[mid->] (C) to[out=230, in=90] (SSW);
+  \draw[mid->] (C) to[out=270, in=90] (S);
+  \draw[mid->] (C) to[out=310, in=90] (SSE);
+  \draw (W) -- (C);
+  \draw (C) -- (E);
 
-  \node[above] at (-0.6, 1) {$f_1$};
-  \node[above] at ( 0,   1) {$f_2$};
-  \node[above] at ( 0.6, 1) {$f_3$};
-  \node[below] at (-0.6,-1) {$g_1$};
-  \node[below] at ( 0,  -1) {$g_2$};
-  \node[below] at ( 0.6,-1) {$g_3$};
-  \node[left]  at (-1,   0) {$H$};
-  \node[right] at ( 1,   0) {$J$};
-  \node at (-0.75, 0.75) {$A_0$};
-  \node at (-0.2,  0.75) {$A_1$};
-  \node at ( 0.2,  0.75) {$A_2$};
-  \node at ( 0.75, 0.75) {$A_3$};
-  \node at (-0.75,-0.75) {$B_0$};
-  \node at (-0.2, -0.75) {$B_1$};
-  \node at ( 0.2, -0.75) {$B_2$};
-  \node at ( 0.75,-0.75) {$B_3$};
+  % central node
+  \node[circle, draw, fill=white, inner sep=3pt] at (C) {};
 
+  % edge labels
+  \node[above] at (NNW) {$f_1$};
+  \node[above] at (N)   {$f_2$};
+  \node[above] at (NNE) {$f_3$};
+  \node[below] at (SSW) {$g_1$};
+  \node[below] at (S)   {$g_2$};
+  \node[below] at (SSE) {$g_3$};
+  \node[left]  at (W)   {$H$};
+  \node[right] at (E)   {$J$};
+
+  % area labels
+  \node at ($(NW)!0.5!(NNW)+(0,-0.25)$) {$A_0$};
+  \node at ($(NNW)!0.5!(N) +(0,-0.25)$) {$A_1$};
+  \node at ($(N)!0.5!(NNE) +(0,-0.25)$) {$A_2$};
+  \node at ($(NNE)!0.5!(NE)+(0,-0.25)$) {$A_3$};
+  \node at ($(SW)!0.5!(SSW)+(0, 0.25)$) {$B_0$};
+  \node at ($(SSW)!0.5!(S) +(0, 0.25)$) {$B_1$};
+  \node at ($(S)!0.5!(SSE) +(0, 0.25)$) {$B_2$};
+  \node at ($(SSE)!0.5!(SE)+(0, 0.25)$) {$B_3$};
+
+  % isomorphism symbol
   \node at (1.7, 0) {$\cong$};
 
   % --- RIGHT SQUARE ---
   \begin{scope}[xshift=4cm]
 
-    \fill[colorA1] (-1,1) -- (0,1) to[out=270, in=90] (0,0) to[out=140, in=0] (-1,0.6) -- cycle;
-    \fill[colorA0] (-1,0) -- (-1,0.6) to[out=0, in=140] (0,0) to[out=180, in=0] (-1,0) -- cycle;
-    \fill[colorA2] (0,1) -- (1,1) -- (1,0.6) to[out=180, in=40] (0,0) to[out=90, in=270] (0,1) -- cycle;
-    \fill[colorA3] (0,0) to[out=40, in=180] (1,0.6) -- (1,0) to[out=180, in=0] (0,0) -- cycle;
-    \fill[colorB0] (-1,0) to[out=0, in=180] (0,0) to[out=220, in=0] (-1,-0.6) -- cycle;
-    \fill[colorB1] (-1,-1) -- (0,-1) to[out=90, in=270] (0,0) to[out=220, in=0] (-1,-0.6) -- cycle;
-    \fill[colorB3] (0,0) to[out=320, in=180] (1,-0.6) -- (1,0) to[out=180, in=0] (0,0) -- cycle;
-    \fill[colorB2] (0,-1) -- (1,-1) -- (1,-0.6) to[out=180, in=320] (0,0) to[out=270, in=90] (0,-1) -- cycle;
+    \coordinate (NW)  at (-1,  1);
+    \coordinate (NE)  at ( 1,  1);
+    \coordinate (SW)  at (-1, -1);
+    \coordinate (SE)  at ( 1, -1);
+    \coordinate (W)   at (-1,  0);
+    \coordinate (E)   at ( 1,  0);
+    \coordinate (C)   at ( 0,  0);
+    \coordinate (N)   at ( 0,  1);
+    \coordinate (S)   at ( 0, -1);
+    \coordinate (WNW) at (-1,  0.6);
+    \coordinate (WSW) at (-1, -0.6);
+    \coordinate (ENE) at ( 1,  0.6);
+    \coordinate (ESE) at ( 1, -0.6);
 
-    \draw[gray] (-1,-1) rectangle (1,1);
+    % fills
+    \fill[colorA1] (NW)  -- (N)   to[out=270, in=90]  (C) to[out=140, in=0] (WNW) -- cycle;
+    \fill[colorA0] (W)   -- (WNW) to[out=0,   in=140] (C) to[out=180, in=0] (W)   -- cycle;
+    \fill[colorA2] (N)   -- (NE)  -- (ENE) to[out=180, in=40]  (C) to[out=90,  in=270] (N)   -- cycle;
+    \fill[colorA3] (C) to[out=40,  in=180] (ENE) -- (E)   to[out=180, in=0]   (C) -- cycle;
+    \fill[colorB0] (W)   to[out=0,   in=180] (C) to[out=220, in=0]   (WSW) -- cycle;
+    \fill[colorB1] (SW)  -- (S)   to[out=90,  in=270] (C) to[out=220, in=0]   (WSW) -- cycle;
+    \fill[colorB3] (C) to[out=320, in=180] (ESE) -- (E)   to[out=180, in=0]   (C) -- cycle;
+    \fill[colorB2] (S)   -- (SE)  -- (ESE) to[out=180, in=320] (C) to[out=270, in=90]  (S)   -- cycle;
 
-    \draw[mid->] (0, 1) to[out=270, in=90]  (0,0);
-    \draw[mid->] (0,0)  to[out=270, in=90]  (0,-1);
-    \draw[mid->] (-1,  0.6) to[out=0, in=140] (0,0);
-    \draw        (-1,  0)   to[out=0, in=180]  (0,0);
-    \draw[mid<-] (-1, -0.6) to[out=0, in=220] (0,0);
-    \draw[mid<-] (0,0) to[out=40,  in=180] (1,  0.6);
-    \draw        (0,0) to[out=0,   in=180]  (1,  0);
-    \draw[mid->] (0,0) to[out=320, in=180] (1, -0.6);
+    % border
+    \draw[gray] (SW) rectangle (NE);
 
-    \node[circle, draw, fill=white, inner sep=3pt] at (0,0) {};
+    % arrows
+    \draw[mid->] (N)   to[out=270, in=90]  (C);
+    \draw[mid->] (C)   to[out=270, in=90]  (S);
+    \draw[mid->] (WNW) to[out=0,   in=140] (C);
+    \draw        (W)   to[out=0,   in=180]  (C);
+    \draw[mid<-] (WSW) to[out=0,   in=220] (C);
+    \draw[mid<-] (C) to[out=40,  in=180] (ENE);
+    \draw        (C) to[out=0,   in=180]  (E);
+    \draw[mid->] (C) to[out=320, in=180] (ESE);
 
-    \node[above] at (0,  1) {$f_2$};
-    \node[below] at (0, -1) {$g_2$};
-    \node[left]  at (-1,  0.6) {$A_1(f_1, 1)$};
-    \node[left]  at (-1,  0)   {$H$};
-    \node[left]  at (-1, -0.6) {$B_1(1, g_1)$};
-    \node[right] at (1,  0.6) {$A_3(1, f_3)$};
-    \node[right] at (1,  0)   {$J$};
-    \node[right] at (1, -0.6) {$B_3(g_3, 1)$};
-    \node at (-0.6,  0.85) {$A_1$};
-    \node at (-0.6,  0.3)  {$A_0$};
-    \node at ( 0.6,  0.3)  {$A_3$};
-    \node at ( 0.6,  0.85) {$A_2$};
-    \node at (-0.6, -0.85) {$B_1$};
-    \node at (-0.6, -0.3)  {$B_0$};
-    \node at ( 0.6, -0.3)  {$B_3$};
-    \node at ( 0.6, -0.85) {$B_2$};
+    % central node
+    \node[circle, draw, fill=white, inner sep=3pt] at (C) {};
+
+    % edge labels
+    \node[above] at (N)   {$f_2$};
+    \node[below] at (S)   {$g_2$};
+    \node[left]  at (WNW) {$A_1(f_1, 1)$};
+    \node[left]  at (W)   {$H$};
+    \node[left]  at (WSW) {$B_1(1, g_1)$};
+    \node[right] at (ENE) {$A_3(1, f_3)$};
+    \node[right] at (E)   {$J$};
+    \node[right] at (ESE) {$B_3(g_3, 1)$};
+
+    % area labels
+    \node at ($(NW)!0.5!(WNW)+(0.3, 0)$)  {$A_1$};
+    \node at ($(W)!0.5!(WNW) +(0.3, 0)$)  {$A_0$};
+    \node at ($(NE)!0.5!(ENE)+(-0.3,0)$)  {$A_2$};
+    \node at ($(E)!0.5!(ENE) +(-0.3,0)$)  {$A_3$};
+    \node at ($(W)!0.5!(WSW) +(0.3, 0)$)  {$B_0$};
+    \node at ($(SW)!0.5!(WSW)+(0.3, 0)$)  {$B_1$};
+    \node at ($(E)!0.5!(ESE) +(-0.3,0)$)  {$B_3$};
+    \node at ($(SE)!0.5!(ESE)+(-0.3,0)$)  {$B_2$};
 
   \end{scope}
-\end{tikzpicture}
 
+\end{tikzpicture}
 \end{remark}
 
 
