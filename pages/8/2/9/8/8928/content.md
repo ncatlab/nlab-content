@@ -14,14 +14,12 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
-## Black hole entropy
+## String/Black hole correspondence principle
 
-In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenstein-Hawking entropy]] associated to a macroscopic [[black hole]]  finds an explanation as follows:
+In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenstein-Hawking entropy]] associated to a macroscopic [[black hole]]  finds an explanation as follows, known as the *string/black hole correspondence principle* ([Horowitz & Polchinski 1997](#HorowitzPolchinski1997)):
 
 The [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the [[string coupling]] is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
 
@@ -72,14 +70,14 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 ## References
  {#References}
 
-A careful non-technical exposition is in
+
+### Introductions and Review
+
 
 * Sebastian De Haro, Jeroen van Dongen, Manus Visser, [[Jeremy Butterfield]], _Conceptual Analysis of Black Hole Entropy in String Theory_ ([arXiv:1904.03232](https://arxiv.org/abs/1904.03232))
 
 * Jeroen van Dongen, Sebastian De Haro, Manus Visser, [[Jeremy Butterfield]], _Emergence and Correspondence for String Theory Black Holes_ ([arXiv:1904.03234](https://arxiv.org/abs/1904.03234))
 
-
-### Introductions and Review
 
 * [[Juan Maldacena]], _Black Holes in String Theory_, PhD thesis 1996 ([arXiv:hep-th/9607235](http://arxiv.org/abs/hep-th/9607235))
 
@@ -128,15 +126,35 @@ A careful non-technical exposition is in
 
 
 ### Original articles
+ {#OriginalArticles}
 
-The argument that properties of [[BPS states]] are preserved as the coupling increases beyond [[perturbation theory]] and are not destroyed by [[non-perturbative effects]] originates in 
+Early precursor suggestions:
 
-* {#Witten95} [[Edward Witten]], section 2.3 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* Mark J. Bowick, Lee Smolin, L.C.R. Wijewardhana: *Role of String Excitations in the Last Stages of Black Hole Evaporation*, Phys. Rev. Lett. **56** (1986) 424 &lbrack;[doi:10.1103/PhysRevLett.56.424](https://doi.org/10.1103/PhysRevLett.56.424), [doi:10.1103/PhysRevLett.56.424](https://doi.org/10.1103/PhysRevLett.56.424)&rbrack;
+
+* [[Leonard Susskind]]: *Some Speculations about Black Hole Entropy in String Theory*, in: *The Black Hole, 25 Years After* (1998) 118-131  &lbrack;[inSpire:36167](https://inspirehep.net/literature/36167), [doi:10.1142/9789814447232_0007](https://doi.org/10.1142/9789814447232_0007)&rbrack;
+
+* E. Halyo, A. Rajaraman, [[Leonard Susskind]]: *Braneless Black Holes*, Phys. Lett. B **392** (1997) 319-322 &lbrack;[arXiv:hep-th/9605112](https://arxiv.org/abs/hep-th/9605112), <a href="https://doi.org/10.1016/S0370-2693(96)01544-4">doi:10.1016/S0370-2693(96)01544-4</a>&rbrack;
 
 
-The original computations of stringy black hole entropy using this argument are due to
+The original argument that properties of [[BPS states]] are preserved as the coupling increases beyond [[perturbation theory]] and are not destroyed by [[non-perturbative effects]]: 
 
-* [[Ashoke Sen]], _Extremal black holes and elementary string states_,  Mod. Phys. Lett. A10: 2081-2094, 1995 ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
+* {#Witten95} [[Edward Witten]], section 2.3 of: _String Theory Dynamics In Various Dimensions_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)&rbrack;
+
+The further formulation of the *correspondence principle* (and introducing that term):
+
+* {#HorowitzPolchinski1997} [[Gary T. Horowitz]], [[Joseph Polchinski]]: *A Correspondence Principle for Black Holes and Strings*, Phys. Rev. D **55** (1997) 6189-6197 &lbrack;[arXiv:hep-th/9612146](https://arxiv.org/abs/hep-th/9612146)&rbrack;
+
+* [[Gary T. Horowitz]], [[Joseph Polchinski]]: *Self Gravitating Fundamental Strings*, Phys. Rev. D **55** (1997) 6189-6197 &lbrack;[arXiv:hep-th/9612146](https://arxiv.org/abs/hep-th/9612146), [doi:10.1103/PhysRevD.55.6189](https://doi.org/10.1103/PhysRevD.55.6189)&rbrack;
+
+* [[Thibault Damour]], [[Gabriele Veneziano]]: *Self-gravitating fundamental strings and black-holes*, Nucl. Phys. B **568** (2000) 93-119 &lbrack;[arXiv:hep-th/9907030](https://arxiv.org/abs/hep-th/9907030), <a href="https://doi.org/10.1016/S0550-3213(99)00596-9">doi:10.1016/S0550-3213(99)00596-9</a>&rbrack;
+
+* [[Ashoke Sen]]: *How to Expose a Black Hole* &lbrack;[arXiv:2604.03720](https://arxiv.org/abs/2604.03720)&rbrack;
+
+
+The original computations of stringy black hole entropy using this argument:
+
+* [[Ashoke Sen]], _Extremal black holes and elementary string states_,  Mod. Phys. Lett. A **10** (1995) 2081-2094 &lbrack;[arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147)&rbrack;
 
 * {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_, Phys. Lett. B379: 99-104, 1996 ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
@@ -298,3 +316,5 @@ Discussion of black hole microstates via the [[topological string]]'s [[Gopakuma
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127), [bibcode:1998hep.th...12127G](https://ui.adsabs.harvard.edu/abs/1998hep.th...12127G))
 
 [[!redirects black hole in string theory]]
+
+[[!redirects string/black hole correspondence principle]]
