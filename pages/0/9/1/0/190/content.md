@@ -64,11 +64,14 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 ### Cartesian closed structure 
  {#CartesianClosedStructure}
 
-The category $Cat$, at least in its traditional version comprising small categories only, is [[cartesian closed]]: the [[exponential objects]] are [[functor categories]].  Direct proofs can be found in:
+The category $Cat$, at least in its traditional version comprising small categories only, is [[cartesian closed]]: the [[exponential objects]] are [[functor categories]]. This is mentioned in
 
-* p. 98 of [[Categories Work]], 2nd ed.
-* remark below Definition 4.3.9 in [[Category Theory in Context]]
-* [[Steve Awodey]], *Category Theory*, Second Edition, Sections 7.5-7.7.
+* p. 98 of [[Categories Work]], 2nd ed. (the exponential object is said to be the functor category, no other details);
+* remark below Definition 4.3.9 in [[Category Theory in Context]] (this just points to the earlier Exercise 1.7.vii, which established the key technical part of the proof);
+
+and a detailed direct proof is given in 
+
+* [[Steve Awodey]], *Category Theory*, Second Edition,  Proposition 7.13 and Lemma 7.14.
 
 A more indirect proof could proceed by identifying $Cat$ via the [[nerve]] construction as a [[reflective subcategory]] of [[sSet]], which is cartesian closed as it is a [[presheaf category]], and showing that this subcategory is an [[exponential ideal]].
 
