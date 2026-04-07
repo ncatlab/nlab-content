@@ -18,7 +18,7 @@ Vladimir Drinfel'd introduced $\chi$ in order to suggest a procedure of twisting
 
 In the original Drinfel'd's work 2-cocycles for twisting quasi-Hopf algebras were also considered. 
 
-There is also a subtle generalization for bialgebroids over nonassociative base due Ping Xu. 
+[[bialgebroid 2-cocycle|Bialgebroid 2-cocycles]] are a subtle generalization for bialgebroids over noncommutative base ([[Ping Xu 1999](#PingXu99)). 
 
 ## Literature
 
@@ -28,14 +28,14 @@ The original references are
 * V. G. Drinfel'd, _Quasi-Hopf algebras_, Algebra i Analiz, 1:6 (1989) 114-148; Leningrad Math. J., 1:6 (1990) 1419-1457 ([pdf](https://www.mathnet.ru/php/getFT.phtml?jrnid=aa&paperid=53&what=fullt&option_lang=eng) in Russian)
 * V. G. Drinfel'd, _Almost commutative Hopf algebras_, Algebra i Analiz, 1:2 (1989) 30-46; Leningrad Math. J., 1:2 (1990) 321-342 [mathnet.ru](https://www.mathnet.ru/eng/aa1)
 
-Drinfeld twist and Drinfeld associator have been reproduced as special cases of higher bialgebra cocycles in works of Majid,
+Drinfeld twist and Drinfeld associator have been reproduced as special cases of higher [[bialgebra cocycle]]s in works of Majid,
 
 * [[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, in H.-D. Doebner, V.K. Dobrev, A.G. Ushveridze, eds., Generalized symmetries in Physics. World Sci. (1994) 13-41; ([arXiv:hep.th/9311184](http://front.math.ucdavis.edu/9311.3184))
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge UP
 
-The bialgebroid generalization is described in
+A generalization for associative [[bialgebroid]]s, the [[bialgebroid 2-cocycle]]s were introduced in 
 
-* [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys. __216__ (2001) 539--581 arXiv:[q-alg/9905192](https://arxiv.org/abs/math/9905192)
+* {#PingXu99} [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys. __216__ (2001) 539--581 arXiv:[q-alg/9905192](https://arxiv.org/abs/math/9905192)
 
 category: algebra
 
