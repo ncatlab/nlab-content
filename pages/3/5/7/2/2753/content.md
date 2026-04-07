@@ -137,6 +137,10 @@ On the [[homotopical algebra]] of higher Lie-Rhinehart pairs:
 
 * Damjan Pištalo: *Homotopical algebra of Lie-Rinehart pairs* &lbrack;[arXiv:2601.02895](https://arxiv.org/abs/2601.02895)&rbrack;
 
+In relation to [[Lie ∞-algebroids]]:
+
+* [[Camille Laurent-Gengoux]], [[Ruben Louis]]: _Lie-Rinehart algebras ≃ acyclic Lie ∞-algebroids_, Journal of Algebra **594** (2022) 1–53  &lbrack;[doi:10.1016/j.jalgebra.2021.11.023](https://doi.org/10.1016/j.jalgebra.2021.11.023)&rbrack;
+
 
 
 [[!redirects Lie-Rinehart pairs]]
