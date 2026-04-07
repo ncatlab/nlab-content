@@ -1,5 +1,91 @@
 Diagrams for [[2-category equipped with proarrows]]
 
+
+This can be illustrated using string diagrams. The companion and conjoint of $f$ are the horizontal arrows
+
+<table>
+<tr>
+<td style="border: none;">
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta, calc}
+  \tikzset{
+    >=Latex,
+    mid<-/.style={
+      decoration={markings, mark=at position 0.55 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % arrow
+  \draw[mid<-] (W) -- (E);
+
+  % area labels
+  \node at (0,  0.5) {$A$};
+  \node at (0, -0.5) {$B$};
+
+  % edge label
+  \node[left] at (W) {$B(1, f)$};
+
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta, calc}
+  \tikzset{
+    >=Latex,
+    mid->/.style={
+      decoration={markings, mark=at position 0.55 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+
+  \colorlet{colorA}{orange!20}
+  \colorlet{colorB}{teal!20}
+
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % arrow
+  \draw[mid->] (W) -- (E);
+
+  % area labels
+  \node at (0,  0.5) {$B$};
+  \node at (0, -0.5) {$A$};
+
+  % edge label
+  \node[right] at (E) {$B(f, 1)$};
+
+\end{tikzpicture}
+
+</td>
+</tr>
+</table>
+
+***
+
 \begin{definition}\label{TheAssociatedDoubleCategory}
 Given a [[2-category]] $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same [[objects]] as $K$, whose [[vertical 1-cells]] are the arrows, whose [[horizontal 1-cells]] are the proarrows, and whose squares
 \begin{tikzcd}
