@@ -7,9 +7,14 @@
 
 ## Selected writings
 
+
+
 Suggestion to understand the [[Veneziano amplitude]] in [[quantum hadrodynamics]] as the [[scattering amplitude]] of chains of particles with  [[harmonic oscillator|harmonic]] nearest-neighbour interaction, in the continuum limit described by the [[Polyakov action]], this becoming one of the arguments initiating [[string theory]] (alongside [[Polyakov gauge-string duality]]):
 
 * [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
+
+* E. Halyo, A. Rajaraman, [[Leonard Susskind]]: *Braneless Black Holes*, Phys. Lett. B **392** (1997) 319-322 &lbrack;[arXiv:hep-th/9605112](https://arxiv.org/abs/hep-th/9605112), <a href="https://doi.org/10.1016/S0370-2693(96)01544-4">doi:10.1016/S0370-2693(96)01544-4</a>&rbrack;
+
 
 Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding the [[color charge|color]]-[[flux tubes]] as [[string]]-like dynamical degrees of freedoms (cf. [gauge/string duality](AdS-QCD+correspondence#PolyakovGaugeStringDualityReferences)):
 
@@ -35,9 +40,13 @@ Introducing the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum me
 
 * [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
-In view of [[flat space holography]]:
+and in view of [[flat space holography]]:
 
 * [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
+
+Early suggestin of what came to be known as the [[string/black hole correspondence principle]]:
+
+* [[Leonard Susskind]]: *Some Speculations about Black Hole Entropy in String Theory*, in: *The Black Hole, 25 Years After* (1998) 118-131  &lbrack;[inSpire:36167](https://inspirehep.net/literature/36167), [doi:10.1142/9789814447232_0007](https://doi.org/10.1142/9789814447232_0007)&rbrack;
 
 
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
