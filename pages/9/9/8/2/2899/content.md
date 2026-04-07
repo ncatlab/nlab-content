@@ -325,7 +325,7 @@ The local structure theorems are discussed in
 
 Discussion of etale morphisms between [[E-infinity rings]]/[[spectral schemes]] is in 
 
-* [[Jacob Lurie]], section 8.5 of _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 7.5 of _[[Higher Algebra]]_
 
 and generally in [[E-∞ geometry]] in 
 
