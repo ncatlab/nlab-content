@@ -14,7 +14,7 @@
 
 ## Idea
 
-*Uhlenbeck's singularity theorem* is a theorem about the removal of a [[singularity]] of a four-dimensional [[Yang-Mills fields]] with finite [[energy]] using a suitable [[gauge fixing]]. It states as a consequence that [[Yang-Mills fields]] with finite [[energy]] on flat [[euclidean space]] $\mathbb{R}^4$ arise from [[Yang-Mills fields]] on the curved sphere $S^4$, its [[one-point compactification]]. 
+*Uhlenbeck's singularity theorem* is a theorem about the removal of a [[singularity]] in four-dimensional [[Yang-Mills fields]] with finite [[energy]] using a suitable [[gauge fixing]]. It states as a consequence that [[Yang-Mills fields]] with [[finite number|finite]] [[energy]] on [[euclidean space]] $\mathbb{R}^4$ arise from [[Yang-Mills fields]] on its [[one-point compactification]], the [[4-sphere]] $S^4$. 
 
 [[Uhlenbeck's compactness theorem]] was also first published in the same journal, *Communications in Mathematical Physics*. In 2019, [[Karen Uhlenbeck]], after whom the theorem is named, became the first woman to be awarded the Abel Prize, in part for her contributions to [[partial differential equations]] and [[gauge theory]]. 
 
