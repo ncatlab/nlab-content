@@ -4,6 +4,67 @@
 
 ***
 
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrow points W
+  \draw[mid->] (E) -- (W);
+  % area labels
+  \node at (0,  0.5) {$A$};
+  \node at (0, -0.5) {$B$};
+  % edge label
+  \node[left] at (W) {$B(1, f)$};
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{orange!20}
+  \colorlet{colorB}{teal!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrow points E
+  \draw[mid->] (W) -- (E);
+  % area labels
+  \node at (0,  0.5) {$B$};
+  \node at (0, -0.5) {$A$};
+  % edge label
+  \node[right] at (E) {$B(f, 1)$};
+\end{tikzpicture}
+</td>
+</tr>
+</table>
+
+***
+
 
 
 \begin{tikzpicture}[scale=2, >=latex]
