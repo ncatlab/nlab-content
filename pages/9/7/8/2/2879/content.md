@@ -154,11 +154,15 @@ Further examples and counterexamples
 
 On [[Hopf-Galois extension|Hopf-Galois extensions]] of Hopf algebroids
 
-* Xiao Han, Peter Schauenburg. *Hopf Galois extensions of Hopf algebroids* (2024). ([arXiv:2406.11058](https://arxiv.org/abs/2406.11058)).
+* Xiao Han, [[Peter Schauenburg]], _Hopf-Galois extensions of Hopf algebroids_ ([arXiv:2406.11058](https://arxiv.org/abs/2406.11058)).
 
 On a [[star-algebra|*-structure]] on Hopf algebroids
 
 * Edwin Beggs, Xiao Han, [[Shahn Majid]]. $*$*-Hopf algebroids* (2024). ([arXiv:2412.21089](https://arxiv.org/abs/2412.21089)).
+
+If $H$ is a Hopf $A$-algebroid with invertible antipode $S$ in the sense of Böhm--Szlachányi and $F$ a Drinfeld--Xu counital bialgebroid 2-cocycle, then the bialgebroid twist of $H$ (in the sense of [[Ping Xu]]) has an antipode $S_F$ given by the conjugation formula $S_F(-) = V_F^{-1} S(-) V_F$ where $V_F = \cdot(S\otimes id)F$ provided $V_F$ is invertible. The proof is in  
+
+* [[Zoran Škoda]], _Drinfeld--Xu bialgebroid 2-cocycles twist the antipode_, [arXiv:2604.04813](https://arxiv.org/abs/2604.04813)
 
 
 category: algebra
