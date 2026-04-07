@@ -1,9 +1,22 @@
 
-* [webpage](http://www.ihes.fr/~damour/)
+* [personal page](http://www.ihes.fr/~damour/)
+
+* [institute page](https://www.ihes.fr/en/professeur/thibault-damour-2/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Thibault_Damour)
+
+* [MathGenealogy page](https://mail.mathgenealogy.org/id.php?id=327972)
+
+* [inSpire page](https://inspirehep.net/authors/1012482)
 
 Damour made the theoretical prediction ([Buonanno-Damour 98](#BuonannoDamour98), see [Damour 10](#Damour10)) of the [[gravitational wave]]-signal emitted by inspiralling [[relativistic binaries]] which has later been observed by [[LIGO]].
 
 ## Selected writings
+
+Early discussion of the [[string/black hole correspondence principle]]:
+
+* [[Thibault Damour]], [[Gabriele Veneziano]]: *Self-gravitating fundamental strings and black-holes*, Nucl. Phys. B **568** (2000) 93-119 &lbrack;[arXiv:hep-th/9907030](https://arxiv.org/abs/hep-th/9907030), <a href="https://doi.org/10.1016/S0550-3213(99)00596-9">doi:10.1016/S0550-3213(99)00596-9</a>&rbrack;
+
 
 On [[E10]] [[U-duality]]-symmetric [[M-theory]]:
 
