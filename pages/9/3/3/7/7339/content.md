@@ -1,5 +1,15 @@
 
-* [webpage](http://staff.science.uva.nl/~jdeboer/)
+* [personal page](http://staff.science.uva.nl/~jdeboer/)
+
+* [institute page](https://www.uva.nl/en/profile/b/o/j.deboer/j.deboer.html?cb#Publications)
+
+* <a href="https://en.wikipedia.org/wiki/Jan_de_Boer_(physicist)">Wikipedia entry</a>
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=51399)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ahcAnl0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jan-Boer-3/3)
 
 ## Selected writings
 
@@ -59,6 +69,10 @@ On the [[K-theory classification of topological phases of matter]] for the case 
 Approaching [[3d quantum gravity]] on [[asymptotic boundary|asymptotically]] [[anti de Sitter spacetime|$AdS_3$-spacetimes]] via [[AdS/CFT duality]] as described by [[statistical ensembles]] of [[2d CFTs]]:
 
 * Alexandre Belin, [[Jan de Boer]], [[Daniel Louis Jafferis]], [[Pranjal Nayak]], [[Julian Sonner]]: *Approximate CFTs and Random Tensor Models* &lbrack;[arXiv:2308.03829](https://arxiv.org/abs/2308.03829)&rbrack;
+
+On [[AdS3/CFT2 duality]] and [[surgery]]:
+
+* [[Jan de Boer]], Joshua Kames-King, Boris Post: *Surgery and statistics in 3d gravity* &lbrack;[arXiv:2506.04151](https://arxiv.org/abs/2506.04151)&rbrack;
 
 
 
