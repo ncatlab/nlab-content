@@ -20,6 +20,9 @@ On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
 * [[Gary Horowitz]], Alan R. Steif, _Singular string solutions with nonsingular initial data_, Physics Letters B Volume 258, Issues 1–2, 4 April 1991, Pages 91-96 (<a href="https://doi.org/10.1016/0370-2693(91)91214-G">doi:10.1016/0370-2693(91)91214-G</a>)
 
+Formulating the [[string/black hole correspondence principle]]:
+
+* {#HorowitzPolchinski1997} [[Gary T. Horowitz]], [[Joseph Polchinski]]: *A Correspondence Principle for Black Holes and Strings*, Phys. Rev. D **55** (1997) 6189-6197 &lbrack;[arXiv:hep-th/9612146](https://arxiv.org/abs/hep-th/9612146)&rbrack;
 
 
 On [[AdS/CFT duality]]:
