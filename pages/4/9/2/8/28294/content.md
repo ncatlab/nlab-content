@@ -124,9 +124,14 @@ using:
 
 Further discussion for [[quantum Hall systems]]:
 
-* [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
+* Jennifer Cano, [[Meng Cheng]], Michael Mulligan, [[Chetan Nayak]], Eugeniu Plamadeala, Jon Yard: *Bulk-Edge Correspondence in $2+1$-Dimensional Abelian Topological Phases*, Phys. Rev. B **89** (2014) 115116 &lbrack;[arXiv:1310.5708](https://arxiv.org/abs/1310.5708), [doi:10.1103/PhysRevB.89.115116](https://doi.org/10.1103/PhysRevB.89.115116)&rbrack;
 
 * {#Tong16} [[David Tong]]: §6.2 in: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
+
+* [[Andrea Cappelli]], Lorenzo Maffi: *Bulk-Boundary Correspondence in the Quantum Hall Effect*, J. Phys. A: Math. Theor. **51** (2018) 365401 \[<a href="https://doi.org/10.1088/1751-8121/aad0ab">doi:10.1088/1751-8121/aad0ab</a>, [arXiv:1801.03759](https://arxiv.org/abs/1801.03759)\]
+
+
+
 
 Further examples:
 
