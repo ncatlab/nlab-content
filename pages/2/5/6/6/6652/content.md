@@ -1,5 +1,13 @@
 
+* [personal page](https://home.icts.res.in/~sen/)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Ashoke_Sen)
+
+* [inSpire page](https://inspirehep.net/authors/989341)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=aXfgCusAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Ashoke-Sen-5935600)
 
 ## Selected writings
 
@@ -71,6 +79,10 @@ On [[string field theory]]:
 On [[defect branes]] and other [[exotic branes]]:
 
 * [[Ashoke Sen]]: *Exotic Branes and Symmetries of String Theory* &lbrack;[arXiv:2512.19068](https://arxiv.org/abs/2512.19068)&rbrack;
+
+On the [[string/black hole correspondence principle]]:
+
+* [[Ashoke Sen]]: *How to Expose a Black Hole* &lbrack;[arXiv:2604.03720](https://arxiv.org/abs/2604.03720)&rbrack;
 
 
 
