@@ -1,3 +1,5 @@
+Diagrams for [[2-category equipped with proarrows]]
+
 \begin{definition}\label{TheAssociatedDoubleCategory}
 Given a [[2-category]] $K$ equipped with proarrows according to Def. \ref{TheDefinitionAsA2Functor}, we can construct a [[double category]] having the same [[objects]] as $K$, whose [[vertical 1-cells]] are the arrows, whose [[horizontal 1-cells]] are the proarrows, and whose squares
 \begin{tikzcd}
