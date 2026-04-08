@@ -3981,7 +3981,7 @@ Stone-von Neumann**
 
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
-  > [[Hilbert spaces]] form more than a category: their morphisms maps can be composed, but also every morphism $f : X \to Y$ has a distinguished "[[adjoint operator|adjoint]]" $f^\dagger : Y \to X$, making it into a "[[dagger category]]". This extra data is important for axiomatizing [[functional analysis]], [[quantum mechanics]], [[quantum information theory]]... However, the assignment $f \mapsto f^\dagger$ is unsatisfying from a [[higher category theory|higher category theorist]]'s perspective because it is "evil", i.e. it violates the [[principle of equivalence]]: a category [[equivalence of categories|equivalent]] to a [[dagger category]] may not admit a dagger structure. This in particular interferes with generalizing the notion of dagger category to the (non-strict) [[higher categories]] necessary for axiomatizing [[extended field theory|fully-local quantum field theory]]. In this talk I will propose a manifestly non-evil definition of "dagger $(\infty,n)$-category". The same machinery also produce a non-evil definitions of "pivotal $(\infty,n)$-category" and helps to clarify the relationship between [[reflection positivity]] and [[spin-statistics theorem|spin-statistics]]. This is based on joint work with [[Bruce Bartlett|B. Bartlett]], G. Ferrar, B. Hungar, C. Krulewski, [[Lukas Müller|L. Müller]], N. Nivedita, [[David Penneys|D. Penneys]], [[David Reutter|D. Reutter]], [[Claudia Scheimbauer|C. Scheimbauer]], [[Luuk Stehouwer|L. Stehouwer]], and C. Vuppulury.
+  > [[Hilbert spaces]] form more than a category: their morphisms maps can be composed, but also every morphism $f : X \to Y$ has a distinguished "[[adjoint operator|adjoint]]" $f^\dagger : Y \to X$, making it into a "[[dagger category]]". This extra data is important for axiomatizing [[functional analysis]], [[quantum mechanics]], [[quantum information theory]]... However, the assignment $f \mapsto f^\dagger$ is unsatisfying from a [[higher category theory|higher category theorist]]'s perspective because it is "evil", i.e. it violates the [[principle of equivalence]]: a category [[equivalence of categories|equivalent]] to a [[dagger category]] may not admit a dagger structure. This in particular interferes with generalizing the notion of dagger category to the (non-strict) [[higher categories]] necessary for axiomatizing [[extended field theory|fully-local quantum field theory]]. In this talk I will propose a manifestly non-evil definition of "dagger $(\infty,n)$-category". The same machinery also produce a non-evil definitions of "pivotal $(\infty,n)$-category" and helps to clarify the relationship between [[reflection positivity]] and [[spin-statistics theorem|spin-statistics]]. This is based on joint work with [[Bruce Bartlett|B. Bartlett]], G. Ferrar, B. Hungar, [[Carmen Krulewski|C. Krulewski]], [[Lukas Müller|L. Müller]], [[Nivedita]], [[David Penneys|D. Penneys]], [[David Reutter|D. Reutter]], [[Claudia Scheimbauer|C. Scheimbauer]], [[Luuk Stehouwer|L. Stehouwer]], and C. Vuppulury.
 
 \linebreak
 
@@ -4635,6 +4635,9 @@ Neumann algebras**
 
 \linebreak
 
+### Apr 2026
+
+
 * {#Tellez-DominguezApr2026} 01 Apr 2026
 
   [[Roberto Téllez Domínguez]] (CEU San Pablo University, Spain):
@@ -4647,17 +4650,21 @@ Neumann algebras**
 
   > Recent work of [Nikolaus-Waldorf](T-fold#NikolausWaldorf18) and [Kim-Sämann](adjusted+Weil+algebra#KimSaemann20) has provided a description of topology-changing [[T-duality|T-dualities]] in terms of adjusted [[Lie 2-groups]]. This framework has the advantage of giving explicit [[cocycle]] data for the construction of the dual [[Riemannian metric|metric]] and [[Kalb-Ramond fields]], generalizing the [[Buscher rules]] to general topology, and allowing for practical construction of examples. In this talk I will cover joint work with Sämann and Gagliardo, in which we have used adjusted [[Lie 3-groups]] to define a topology-changing transformation of [[supergravity C-field|C-fields]] over [[torus]] [[fibrations]]. It admits a [[dimensional reduction]] to [[T-duality]], and it incorporates [[S-duality]], in the sense that it is [[equivariant]] under the [[modular group]] of the torus. Therefore, it constitutes a first step towards the construction of [[U-duality|U-]][[T-fold|folds]].
 
+
 \linebreak
 
-### Apr 2026
 
-* {#Krulewski2026} [[Cameron Krulewski]] (Dalhousie University):
+* {#Krulewski2026} 08 Apr 2026
+
+  [[Cameron Krulewski]] (Dalhousie University):
 
   **Invertible Field Theory Models for SPTs in the Bott Spiral**
 
+  slides: [[Krulewski-CQTS2026.pdf:file]]
+
   cf.: [arXiv:2410.10031](https://arxiv.org/abs/2410.10031)
 
-  > Fully extended [[reflection positivity|reflection-positive]] [[invertible field theories]] serve as [[homotopy type|homotopical models]] for [[symmetry-protected topological phases]]. To study [[fermion field|fermionic]] [[SPTs]], we use [[invertible field theories]] on [[manifolds]] with [[twisted spin structures]] as encoded by [[fermionic group|fermionic groups]], allowing us to compare with [[K-theory classification of topological phases of matter|K-theoretic classifications]] of free fermion SPTs. We carry out computations in the interesting example case of the "Bott spiral" studied by [Queiroz--Khalaf--Stern](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.206405), which highlights several subtleties, including that the [[twisted spin structure]] produced from a [[fermionic group]] is not an [[invariant]] of the [[Morita equivalence|Morita]] [[equivalence class|class]] of the [[fermionic group|fermionic]] [[group algebra|group superalgebra]].
+  > Fully [[extended field theory|extended]] [[reflection positivity|reflection-positive]] [[invertible field theories]] serve as [[homotopy type|homotopical models]] for [[symmetry-protected topological phases]]. To study [[fermion field|fermionic]] [[SPTs]], we use [[invertible field theories]] on [[manifolds]] with [[twisted spin structures]] as encoded by [[fermionic group|fermionic groups]], allowing us to compare with [[K-theory classification of topological phases of matter|K-theoretic classifications]] of free fermion SPTs. We carry out computations in the interesting example case of the "Bott spiral" studied by [Queiroz--Khalaf--Stern](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.206405), which highlights several subtleties, including that the [[twisted spin structure]] produced from a [[fermionic group]] is not an [[invariant]] of the [[Morita equivalence|Morita]] [[equivalence class|class]] of the [[fermionic group|fermionic]] [[group algebra|group superalgebra]].
 
 \linebreak
 
