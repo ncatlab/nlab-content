@@ -19,9 +19,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -399,6 +397,10 @@ Observation in [[experiment]]:
 * [[Alexei Kitaev]], _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874)
 
 [[!redirects symmetry protected topological phases]]
+
+[[!redirects symmetry-protected topological phase]]
+[[!redirects symmetry-protected topological phases]]
+
 
 [[!redirects symmetry protected topological phase of matter]]
 [[!redirects symmetry protected topological phases of matter]]
