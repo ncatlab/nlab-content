@@ -15,9 +15,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -183,7 +182,6 @@ The first full proof of this statement seems to be that due to [Bargmann 1964, Â
 
 ## Related theorems
 
-
 Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
@@ -211,6 +209,7 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 * [[K-theory classification of topological phases of matter]]
 
+* [[fermionic group]]
 
 
 ## References
