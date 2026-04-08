@@ -13,10 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## Idea
 
@@ -48,12 +46,14 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 
 * ...
 
+
 ## Related concepts
 
 * [[Bott periodicity]]
 
 * [[K-theory classification of topological phases of matter]]
 
+* [[fermionic group]]
 
 ## References
 
@@ -81,6 +81,9 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 * {#RumyninTaylor2021} Dmitriy Rumynin, James Taylor: *Real Representations of $C_2$-Graded Groups: The Antilinear Theory*, Linear Algebra and its Applications **610** (2021) 135-168. &lbrack;[doi:10.1016/j.laa.2020.09.040](https://doi.org/10.1016/j.laa.2020.09.040), [arXiv:2006.09765](https://arxiv.org/abs/2006.09765)&rbrack;
 
 * {#RumyninTaylor2022} Dmitriy Rumynin, James Taylor: *Real Representations of $C_2$-Graded Groups: The Linear and Hermitian Theories*, Higher Structures **6** 1 (2022) 359-374. &lbrack;[doi:10.21136/HS.2022.07](https://dx.doi.org/10.21136/HS.2022.07), [arXiv:2008.07846](https://arxiv.org/abs/2008.07846)&rbrack;
+
+* [[Luuk Stehouwer]]: *Free phases of Majorana fermions: Tenfold ways compared* &lbrack;[arXiv:2507.08694](https://arxiv.org/abs/2507.08694)&rbrack;
+
 
 * Lucas C.P.A.M. Müssnich, Renato Vasconcellos Vieira: *The weakly interacting tenfold way* &lbrack;[arXiv:2603.16799](https://arxiv.org/abs/2603.16799)&rbrack;
 
