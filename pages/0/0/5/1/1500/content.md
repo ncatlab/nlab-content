@@ -259,6 +259,10 @@ On a notion of [[fusion 2-categories]]:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
+* [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Cameron Krulewski]], [[Nivedita]], [[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
+
+
+
 On fusion categories [[invertible object|invertible]] with respect to the [[Deligne tensor product of abelian categories|Deligne tensor product]]:
 
 * Sean Sanford, [[Noah Snyder]]: *Invertible Fusion Categories* &lbrack;[arXiv:2407.02597](https://arxiv.org/abs/2407.02597)&rbrack;
