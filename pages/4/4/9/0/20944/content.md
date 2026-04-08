@@ -22,6 +22,8 @@ An invertible ([[extended functorial field theory|extended]]) [[functorial field
 
 ## References
 
+### General
+
 The proposal to understand [[quantum anomalies]] of lower-dimensional non-invertible (and possibly non-topological) [[quantum field theories]] as invertible topological field theories:
 
 * {#FreedMoore06} [[Daniel S. Freed]], [[Gregory W. Moore]], Def. 5.7 in: *Setting the quantum integrand of M-theory*, Commun. Math. Phys. **263** (2006) 89-132 &lbrack;[arXiv:hep-th/0409135](https://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
@@ -31,8 +33,6 @@ The proposal to understand [[quantum anomalies]] of lower-dimensional non-invert
 * {#Freed13} [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013), Proc. Symp. Pure Math, Proc. Sympos. Pure Math. **88**, Amer. Math. Soc. (2014) 25–45 &lbrack;[arXiv.1404.7224](https://arxiv.org/abs/1404.7224)&rbrack;
 
 * [[Daniel S. Freed]]: *What is an anomaly?*, talk at *[Mathematical Picture Language Seminar, Feb 2023](https://mathpicture.fas.harvard.edu/files/mathpicture/files/23-2-7_dan_freed_seminar.pdf)* &lbrack;[arXiv:2307.08147](https://arxiv.org/abs/2307.08147), video:[YT](https://www.youtube.com/watch?v=meOQXoN0QRc), slides:[pdf](https://people.math.harvard.edu/~dafr/Anomaly.pdf)&rbrack;
-
-
 
 As formalizing [[short-range entanglement]] in [[topological phases of matter]]:
 
@@ -66,10 +66,16 @@ Relation to [[cutting and pasting of manifolds]]:
 
 Application to anomalies of gapped systems:
 
-* [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]:
-*Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
+* [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]: *Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
 
 
+### Application to SPTs
+
+Further on the application to the description of [[short-range entanglement|short-range entangled]] [[symmetry protected topological phase|symmetry protected]] [[topological phases of matter]]:
+
+* [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
+
+* [[Cameron Krulewski]]: *Invertible Field Theory Models for SPTs in the Bott Spiral*, [talk at](CQTS#Krulewski2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[Krulewski-CQTS2026.pdf:file]]&rbrack;
 
 
 [[!redirects invertible field theories]]
