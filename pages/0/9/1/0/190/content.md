@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -61,19 +59,22 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 
 ## Properties
 
-### Cartesian closed structure 
+### Cartesian closure 
  {#CartesianClosedStructure}
 
-The category $Cat$, at least in its traditional version comprising small categories only, is [[cartesian closed]]: the [[exponential objects]] are [[functor categories]]. This is mentioned in
+The category $Cat$ (in its traditional version comprising [[small categories]] only), is [[cartesian closed]]: the [[exponential objects]] are the [[functor categories]]. 
 
-* p. 98 of [[Categories Work]], 2nd ed. (the exponential object is said to be the functor category, no other details);
-* remark below Definition 4.3.9 in [[Category Theory in Context]] (this just points to the earlier Exercise 1.7.vii, which established the key technical part of the proof);
+This is mentioned without proof in:
 
-and a detailed direct proof is given in 
+* [MacLane 1997 p. 98](#MacLane1997) (the exponential object is said to be the [[functor category]], no further details given);
 
-* [[Steve Awodey]], *Category Theory*, Second Edition,  Proposition 7.13 and Lemma 7.14.
+* [Riehl 2017 rem. below def. 4.3.9](#Riehl2017)  (this just points to the earlier Exercise 1.7.vii, which established the key technical part of the proof);
 
-A more indirect proof could proceed by identifying $Cat$ via the [[nerve]] construction as a [[reflective subcategory]] of [[sSet]], which is cartesian closed as it is a [[presheaf category]], and showing that this subcategory is an [[exponential ideal]].
+A detailed direct proof is given in:
+
+* [Awodey 2010 prop. 7.13 & lem. 7.14](#Awodey2010) 
+
+A more indirect proof could proceed by identifying $Cat$ via the [[nerve]] construction as a [[reflective subcategory]] of [[sSet]], which is cartesian closed as it is a [[presheaf category]] (cf. *[[closed monoidal structure on presheaves]]*), and showing that this subcategory is an [[exponential ideal]].
 
 ### Size issues
 
@@ -131,15 +132,17 @@ Dedicated discussion in the spirit of [[formal category theory]]:
 * [[John Gray]], _[[Adjointness for 2-Categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics, **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack;
 
 
-See also most references at _[[category]]_ and at _[[category theory]]_, such as:
+{#TextbookReferences} See also most references at _[[category]]_ and at _[[category theory]]_, such as these textbook accounts:
 
 * [[Horst Schubert]], §3 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
-
   > (with size issues dealt with via [[Grothendieck universes]])
 
-* [[Saunders MacLane]], §II.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
-
+* {#MacLane1997} [[Saunders MacLane]], §II.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
   > (size issues ignored by considering only the category of [[small categories]])
+
+* {#Awodey2010} [[Steve Awodey]]: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180)&rbrack;
+
+* {#Riehl2017} [[Emily Riehl]]: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038), [pdf](https://emilyriehl.github.io/files/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)&rbrack;
 
 
 On [[colimits]] in the [[1-category]] of small categories:
@@ -147,7 +150,6 @@ On [[colimits]] in the [[1-category]] of small categories:
 [[coequalizers]]:
 
 * {#BednarczykBorzyszkowskiPawlowski99} [[Marek A. Bednarczyk]], [[Andrzej M. Borzyszkowski]], [[Wieslaw Pawlowski]], Section 4 of: *Generalized congruences -- epimorphisms in $\mathcal{C}at$*, Theory and Applications of Categories **5** 11 (1999) 266-280 &lbrack;[tac:5-11](http://www.tac.mta.ca/tac/volumes/1999/n11/5-11abs.html), [dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5)&rbrack;
-
 
 certain [[pushouts]]:
 
