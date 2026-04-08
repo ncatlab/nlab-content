@@ -1,5 +1,11 @@
 
-* [personal webpage](http://cakrulewski.github.io/)
+* [personal page](http://cakrulewski.github.io/)
+
+* [inSpire page](https://inspirehep.net/authors/2704868)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Hob7nDsAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Cameron-Krulewski)
 
 ## Selected writings
 
