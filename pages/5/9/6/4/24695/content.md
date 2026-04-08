@@ -27,13 +27,18 @@ Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
 * [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
 
 
-
-
-
-
 On [[dagger categories]]:
 
 * [[Luuk Stehouwer]], [[Jan Steinebrunner]], *Dagger categories via anti-involutions and positivity* &lbrack;[arXiv:2304.02928](https://arxiv.org/abs/2304.02928)&rbrack;
+
+On [[symmetry protected topological phases]]:
+
+* [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
+
+
+On the [[10-fold way]] of [[K-theory classification of topological phases of matter]]:
+
+* [[Luuk Stehouwer]]: *Free phases of Majorana fermions: Tenfold ways compared* &lbrack;[arXiv:2507.08694](https://arxiv.org/abs/2507.08694)&rbrack;
 
 
 
