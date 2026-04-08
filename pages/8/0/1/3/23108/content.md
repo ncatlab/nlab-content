@@ -36,6 +36,9 @@ On the [[swampland cobordism conjecture]]:
 
 * Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
 
+On [[symmetry protected topological phases]]:
+
+* [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
 
 
 
