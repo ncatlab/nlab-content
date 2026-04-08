@@ -56,7 +56,7 @@ Some authors regard surjection as a synonym of [[split epimorphism]], and only u
 
 +-- {: .num_prop}
 ###### Proposition
-In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism $!:A\rightarrow 1$ is a surjection for every object $A$. 
+In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism $!:A\rightarrow 1$ is a surjection for every object $A$ having a global element $x:1\rightarrow A$. 
 =--
 
 +-- {: .proof}
