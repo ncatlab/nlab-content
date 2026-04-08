@@ -4,6 +4,18 @@
 
 ***
 
+\linebreak
+
+
+**Bulk-Edge Correspondence via Higher Gauge Theory**
+
+More profound than [[bulk]] [[topological order]] of [[quantum materials]] is only its unwinding via [[edge mode|gapless chiral currents]] along [[boundary field theory|boundaries]] of the sample. We newly formalize this *[[bulk-edge correspondence]]* --- for the [experimentally relevant case](/nlab/show/quantum+Hall+effect#ObservationOfAnyonsInFQH) of [[fractional quantum Hall systems]] --- via [[higher gauge theory]] for [[loop space|loop]] [[infinity-group|$\infty$-groups]] of [[spheres]]. Then we [[geometric engineering of QFT|geometrically engineer]] this situation by [[schreiber:Complete Topological Quantization|complete topological quantization]] of [[M-string|M1]]@[[M5-brane]] [[probe brane|probes]] of [[11D supergravity]] [[M-theory|globally completed]] by [[geometry of physics -- flux quantization|proper flux quantization]] in [[twisted Cohomotopy|twisted]] [[equivariant Cohomotopy|equivariant]] [[differential Cohomotopy|differential]] ([[schreiber:TED cohomology|TED]]) [[Cohomotopy]].
+
+\linebreak
+
+***
+
+
 <table>
 <tr>
 <td style="border: none;">
@@ -63,7 +75,6 @@
 </tr>
 </table>
 
-***
 
 
 
@@ -105,7 +116,6 @@
 
 
 
-***
 
 
 This is how you place two tikzcd diagrams side by side:
@@ -143,49 +153,6 @@ This is how you place two tikzcd diagrams side by side:
 </table>
 
 \linebreak
-
-***
-
-\begin{tikzcd}
-  T'
-  \ar[
-    dd, shift left=5pt, "{ n }"
-  ] 
-  \ar[
-    dd, shift right=5pt, "{ n' }"{swap}
-  ] 
-  \ar[
-    ddr, "{ m'_i }"
-  ]
-  && & 
-  U(T')
-  \ar[
-    dd, shift left=5pt, "{ U(n) }"
-  ] 
-  \ar[
-    dd, shift right=5pt, "{ U(n') }"{swap}
-  ] 
-  \ar[
-    ddr, "{ U(m'_i) }"
-  ]
-  \\
-  && \mapsto
-  \\
-  T
-  \ar[
-    r, "{ m_i }"{swap}
-  ]
-  &
-  S_i
-  &&
-  \mathllap{X = \;}
-  U(T)
-  \ar[r, "{ f_i }"]
-  &
-  U(S_i)
-\end{tikzcd}
-
-
 
 ***
 
