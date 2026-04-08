@@ -17,7 +17,7 @@ On [[groupoids]]:
 
 * [[Omar Antolín-Camarena]], [[Ronnie Brown]]: *Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem", J. Homotopy and Related Structures 1 (2006) 175-183* &lbrack;[arXiv:1404.0556](https://arxiv.org/abs/1404.0556), [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf)&rbrack;
 
-On [[symmetry protected topological phases]]:
+On [[symmetry protected topological phases]] via [[invertible field theories]]:
 
 * [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
 
