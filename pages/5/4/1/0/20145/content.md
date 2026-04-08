@@ -32,7 +32,7 @@ More on [[fusion 2-categories]]:
 
 * [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
 
-* [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
+* [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Cameron Krulewski]], [[Nivedita]], [[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
 
 
 
