@@ -206,7 +206,7 @@ $$
   Q^*(M) = Q^*(R)\otimes_R M
 $$
 
-is given by forming the [[tensor product of modules]] with the localizatin of the ring $R$, regarded as a module over itself.
+is given by forming the [[tensor product of modules]] with the localization of the ring $R$, regarded as a module over itself.
 
 If the localization is a left [[Ore localization]] or [[commutative localization]] at a set $S\subset R$ then $Q^*(R) = S^{-1} R$ is the [[localization of a ring|localization of the ring]] itself 
 and hence in this case the localization of the module 
