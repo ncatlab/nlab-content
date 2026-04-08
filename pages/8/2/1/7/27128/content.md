@@ -7,6 +7,7 @@
 
 * [ResearchGate page](https://www.researchgate.net/profile/Cameron-Krulewski)
 
+
 ## Selected writings
 
 On the [[spin-statistics theorem]] via [[hermitian functorial field theory]]:
@@ -18,10 +19,11 @@ Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
 
 * [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
 
-On [[symmetry protected topological phases]]:
+On [[symmetry protected topological phases]] via [[invertible field theories]]:
 
 * [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
 
+* [[Cameron Krulewski]]: *Invertible Field Theory Models for SPTs in the Bott Spiral*, [talk at](CQTS#Krulewski2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[Krulewski-CQTS2026.pdf:file]]&rbrack;
 
 On [[fusion categories]] and [[fusion 2-categories]]:
 
