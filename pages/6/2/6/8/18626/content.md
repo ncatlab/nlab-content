@@ -11,13 +11,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-In [[quantum field theory]] _reflection positivity_ is the incarnation of unitarity under [[Wick rotation]].
+In [[quantum field theory]] _reflection positivity_ is the incarnation of unitarity under [[Wick rotation]] via a form of the [[Osterwalder-Schrader theorem]].
 
 ## References
 
