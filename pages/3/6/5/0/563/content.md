@@ -79,7 +79,7 @@ and
 *  For each quadruple $w,x,y,z$ of $C$-objects,
 <!-- https://q.uiver.app/#q=WzAsNixbMCwwLCJQX3t5LHp9KGgpXFxjaXJjIChQX3t4LHl9KGcpXFxjaXJjIFBfe3cseH0oZikpIl0sWzAsMiwiUF97eSx6fShoKVxcY2lyYyBQX3t3LHl9KGdcXGNpcmMgZikiXSxbMCw0LCJQX3t3LHp9KGhcXGNpcmMoZ1xcY2lyYyBmKSkiXSxbMiwwLCIoUF97eSx6fShoKVxcY2lyYyBQX3t4LHl9KGcpKVxcY2lyYyBQX3t3LHh9KGYpIl0sWzIsMiwiUF97eCx6fShoXFxjaXJjIGcpXFxjaXJjIFBfe3cseH0oZikiXSxbMiw0LCJQX3t3LHp9KChoXFxjaXJjIGcpXFxjaXJjIGYpIl0sWzAsMywiXFxhbHBoYV97UF97dyx6fShmKSxQX3t4LHl9KGcpLFBfe3ksen0oaCl9IiwwLHsibGV2ZWwiOjJ9XSxbMCwxLCJcXG9wZXJhdG9ybmFtZXtpZH1fe1Bfe3ksen0oaCl9ICogUF97ZixnfSIsMix7ImxldmVsIjoyfV0sWzEsMiwiUF97Z1xcY2lyYyBmLCBofSIsMix7ImxldmVsIjoyfV0sWzIsNSwiUF97dyx6fShcXGFscGhhX3tmLGcsaH0pIiwyLHsibGV2ZWwiOjJ9XSxbMyw0LCJQX3tnLGh9XFxjaXJjIFxcb3BlcmF0b3JuYW1le2lkfV97UF97dyx4fShmKX0iLDAseyJsZXZlbCI6Mn1dLFs0LDUsIlBfe2YsIGhcXGNpcmMgZ30iLDAseyJsZXZlbCI6Mn1dXQ== -->
 \begin{centre}
-\[\begin{tikzcd}
+\begin{tikzcd}
 	{P_{y,z}(h)\circ (P_{x,y}(g)\circ P_{w,x}(f))} && {(P_{y,z}(h)\circ P_{x,y}(g))\circ P_{w,x}(f)} \\
 	\\
 	{P_{y,z}(h)\circ P_{w,y}(g\circ f)} && {P_{x,z}(h\circ g)\circ P_{w,x}(f)} \\
