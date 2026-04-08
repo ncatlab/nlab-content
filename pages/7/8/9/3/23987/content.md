@@ -4649,6 +4649,16 @@ Neumann algebras**
 
 \linebreak
 
+### Apr 2026
+
+* [[Cameron Krulewski]] (Dalhousie University):
+
+  **Invertible Field Theory Models for SPTs in the Bott Spiral**
+
+  > Fully extended [[reflection positivity|reflection-positive]] [[invertible field theories]] serve as [[homotopy type|homotopical models]] for [[symmetry-protected topological phases]]. To study [[fermion field|fermionic]] [[SPTs]], we use [[invertible field theories]] on [[manifolds]] with [[twisted spin structures]] as encoded by [[fermionic group|fermionic groups]], allowing us to compare with [[K-theory classification of topological phases of matter|K-theoretic classifications]] of free fermion SPTs. We carry out computations in the interesting example case of the "Bott spiral" studied by Queiroz--Khalaf--Stern, which highlights several subtleties, including that the [[twisted spin structure]] produced from a [[fermionic group]] is not an [[invariant]] of the [[Morita equivalence|Morita]] [[equivalence class|class]] of the [[fermionic group|fermionic]] [[group algebra|group superalgebra]].
+
+\linebreak
+
 
 
 \linebreak  
