@@ -1,4 +1,6 @@
 
+Jürg Martin Fröhlich
+
 * [institute page](https://ethz.ch/de/die-eth-zuerich/organisation/who-is-who/emeritierte-professorinnen-und-professoren/details.NzczMzA=.TGlzdC80MDEsMTk1NzY4MzcwOQ==.html)
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/J%C3%BCrg_Fr%C3%B6hlich)
