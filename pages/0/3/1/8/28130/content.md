@@ -21,6 +21,7 @@ A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian
 
 If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms* (APD).
 
+
 ## Properties
 
 Volume preserving diffeomorphisms form a [[topological group|topological]] [[subgroup]] 
@@ -210,6 +211,8 @@ As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall system
 * [[Yi-Hsien Du]], [[Umang Mehta]], [[Dam Thanh Son]]: *Noncommutative gauge symmetry in the fractional quantum Hall effect*, J. High Energ. Phys. **2024** 125 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2024)125">doi:10.1007/JHEP08(2024)125</a>, [arXiv:2110.13875](https://arxiv.org/abs/2110.13875)&rbrack;
 
 * {#Du2025} [[Yi-Hsien Du]]: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Non-Perturbative SDiff Covariance of Fractional Quantum Hall Excitations]]*, European Physics Letters **154** (2026) 16002 &lbrack;[arXiv:2602.02292 cond-mat.str-el](https://arxiv.org/abs/2602.02292), [doi:10.1209/0295-5075/ae57d7](https://doi.org/10.1209/0295-5075/ae57d7)&rbrack;
 
 Analog for 3d VPDs:
 
