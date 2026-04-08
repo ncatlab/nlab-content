@@ -488,9 +488,12 @@ In relation to [[modular tensor categories]]:
 
 * {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 &lbrack;[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)&rbrack;
 
+* [[Xiao-Gang Wen]]: *Topological order: from long-range entangled quantum matter to an unification of light and electrons*,  International Scholarly Research Notices **2013** 198710 (2013)  \[<a href="https://doi.org/10.1155/2013/198710">doi:10.1155/2013/198710</a>, [arXiv:1210.1281 cond-mat.str-el](https://arxiv.org/abs/1210.1281)\]
+
 * [[Jason Alicea]], [[Matthew Fisher]], [[Marcel Franz]], [[Yong-Baek Kim]],  *Strongly Interacting Topological Phases*, report on Banff workshop [15w5051](http://www.birs.ca/events/2015/5-day-workshops/15w5051) (2015) &lbrack;[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf), [[AliceaEtAl-InteractingTopPhases.pdf:file]]&rbrack;
 
 * [[Xiao-Gang Wen]], *Zoo of quantum-topological phases of matter*, Rev. Mod. Phys. **89** 41004 (2017) &lbrack;[arXiv:1610.03911](https://arxiv.org/abs/1610.03911), [doi:10.1103/RevModPhys.89.041004](https://doi.org/10.1103/RevModPhys.89.041004)&rbrack;
+
 
 
 Textbook accounts:
