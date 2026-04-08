@@ -393,6 +393,10 @@ On the [[quantum states]] of (tacitly) [[renormalization|renormalized]] 3D MCS t
 
 * {#Pickrell2022} [[Doug Pickrell]]; §10 of: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
 
+and making this explicit:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Non-Perturbative SDiff Covariance of Fractional Quantum Hall Excitations]]*, European Physics Letters **154** (2026) 16002 &lbrack;[arXiv:2602.02292 cond-mat.str-el](https://arxiv.org/abs/2602.02292), [doi:10.1209/0295-5075/ae57d7](https://doi.org/10.1209/0295-5075/ae57d7)&rbrack;
+
 
 
 With [[boundary field theory|boundaries]]:
