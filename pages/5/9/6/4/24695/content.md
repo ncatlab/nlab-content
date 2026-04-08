@@ -1,6 +1,8 @@
 
 * [personal page](https://luukstehouwer.com/)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=318550)
+
 * [GoogleScholar page](https://scholar.google.com/citations?user=ouelDL8AAAAJ&hl=en)
 
 * [inSpire page](https://inspirehep.net/authors/1944937)
@@ -31,7 +33,7 @@ On [[dagger categories]]:
 
 * [[Luuk Stehouwer]], [[Jan Steinebrunner]], *Dagger categories via anti-involutions and positivity* &lbrack;[arXiv:2304.02928](https://arxiv.org/abs/2304.02928)&rbrack;
 
-On [[symmetry protected topological phases]]:
+On [[symmetry protected topological phases]] via [[invertible field theory]]:
 
 * [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
 
