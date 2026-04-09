@@ -191,7 +191,7 @@ More generally, if $K$ is any 2-category equipped with proarrows, we can reconst
 
 One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).
 
-This can be illustrated using string diagrams. The companion and conjoint of $f$ are the horizontal arrows
+This can be illustrated using [[string diagrams]], as follows. The companion and conjoint of $f$ are the horizontal arrows
 
 <table>
 <tr>
