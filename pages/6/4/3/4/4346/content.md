@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea ##
@@ -27,10 +26,17 @@ The notion of a _net of $C^*$-systems_ combines the notion of a [[C-star system]
 Let $\mathcal{A}_I$ be a [[local net]] of [[C-star algebras]]. Let $G$ be a [[locally compact space|locally compact]] [[topological group]] and $\alpha_G$ a [[representation]] of $G$ on the quasi-local algebra $\mathcal{A}$, that is
 
 $$
-\mathcal{A} := clo_{\| \cdot \|} \bigl( \bigcup_{i \in I} \mathcal{A}_i \bigr) 
+  \mathcal{A} 
+    \coloneqq 
+  clo_{\| \cdot \|} 
+  \left( 
+    \textstyle{\bigcup_{i \in I}} 
+    \mathcal{A}_i 
+  \right) 
+  \mathrlap{\,,}
 $$
 
-so that $(\mathcal{A}, \alpha_G)$ is a [[C-star system]].
+so that $(\mathcal{A}, \alpha_G)$ is a [[C-star system|$C^$-system]].
 
 +-- {: .num_defn}
 ###### Definition 
@@ -54,7 +60,7 @@ This definition makes sense also if the net consists of [[star-algebras]] only, 
 
 Chapter 6 of:
 
-* [[Hellmut Baumgärtel]], Manfred Wollenberg: _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
+* [[Hellmut Baumgärtel]], Manfred Wollenberg: *Causal nets of operator algebras --- Mathematical aspects of algebraic quantum field theory*, Mathematische Lehrbücher und Monographien. II. Abteilung: Mathematische Monographien **80**, Akademie Verlag (1992) &lbrack;[zbmath:0749.46038] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038)&rbrack;
 
 
 
