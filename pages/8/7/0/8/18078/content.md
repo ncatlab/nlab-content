@@ -228,7 +228,7 @@ equipped with 2-cells
 </tr>
 </table>
 
-whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\eta_j \epsilon_j = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
+whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \epsilon_j = id_f$ ???, $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
 
 ***
 
