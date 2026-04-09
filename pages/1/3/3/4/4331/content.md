@@ -69,7 +69,7 @@ The set of invariant states is convex, weak-$*$ closed and weak-$*$ compact.
 
 * [[Hellmut Baumgärtel]], Manfred Wollenberg, _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
-* chapter 6 in Gerd Petersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_, J. Funct. Analysis __167__, 243--344 (1999) [pdf](http://www.math.ru.nl/~mueger/ped2.pdf)
+* chapter 6 in Gerd Pedersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_, J. Funct. Analysis __167__, 243--344 (1999) [pdf](http://www.math.ru.nl/~mueger/ped2.pdf)
 
 category: operator algebras
 [[!redirects C-star-system]]
