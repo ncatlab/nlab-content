@@ -20,6 +20,9 @@ On [[modular functors]] and [[mapping class group]] [[representations]]:
 
 * [[Lukas Woike]]: *An Introduction to Quantum Representations of Mapping Class Groups* (2024) &lbrack;[tqf.math.technico.ulisboa.pt:7134](https://tqft.math.tecnico.ulisboa.pt/seminars?id=7134)&rbrack;
 
+On applications of the [[microcosm principle]] in [[quantum topology]]:
+
+* [[Lukas Woike]], *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
 
 ## Related entries
 
