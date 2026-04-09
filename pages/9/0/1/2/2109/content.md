@@ -189,7 +189,240 @@ Arguably, this double category is a more fundamental and natural object than the
 
 More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category of Def. \ref{TheAssociatedDoubleCategory}, and we can characterize the double categories that arise in this way.
 
-One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  
+One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).
+
+This can be illustrated using string diagrams. The companion and conjoint of $f$ are the horizontal arrows
+
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrow points W
+  \draw[mid->] (E) -- (W);
+  % area labels
+  \node at (0,  0.5) {$A$};
+  \node at (0, -0.5) {$B$};
+  % edge label
+  \node[left] at (W) {$B(1, f)$};
+\end{tikzpicture}
+</td>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{orange!20}
+  \colorlet{colorB}{teal!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrow points E
+  \draw[mid->] (W) -- (E);
+  % area labels
+  \node at (0,  0.5) {$B$};
+  \node at (0, -0.5) {$A$};
+  % edge label
+  \node[right] at (E) {$B(f, 1)$};
+\end{tikzpicture}
+</td>
+</tr>
+</table>
+
+equipped with 2-cells
+
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (SE) at ( 1, -1);
+  \coordinate (S)  at ( 0, -1);
+  \coordinate (E)  at ( 1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorA] (-1,-1) rectangle (1,1);
+  \fill[colorB] (SE) -- (S) -- (C) -- (E) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid<-] (S) -- (C);
+  \draw[mid->] (E) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_p$};
+  % area labels
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5,-0.5) {$B$};
+  % real edge labels
+  \node[below] at (S) {$f$};
+  \node[right] at (E) {$B(1,f)$};
+  % phantom edge labels for alignment
+  \node[above, opacity=0] at (0, 1) {$f$};
+  \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (NW) at (-1,  1);
+  \coordinate (N)  at ( 0,  1);
+  \coordinate (W)  at (-1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (NW) -- (N) -- (C) -- (W) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid->] (N) -- (C);
+  \draw[mid<-] (W) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_p$};
+  % area labels
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5,-0.5) {$B$};
+  % real edge labels
+  \node[above] at (N) {$f$};
+  \node[left]  at (W) {$B(1,f)$};
+  % phantom edge labels for alignment
+  \node[below, opacity=0] at (0, -1) {$f$};
+  \node[right, opacity=0] at (1,  0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (NE) at ( 1,  1);
+  \coordinate (N)  at ( 0,  1);
+  \coordinate (E)  at ( 1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorA] (-1,-1) rectangle (1,1);
+  \fill[colorB] (NE) -- (N) -- (C) -- (E) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid->] (N) -- (C);
+  \draw[mid<-] (E) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_j$};
+  % area labels
+  \node at (-0.5,-0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  % real edge labels
+  \node[above] at (N) {$f$};
+  \node[right] at (E) {$B(f,1)$};
+  % phantom edge labels for alignment
+  \node[below, opacity=0] at (0, -1) {$f$};
+  \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
+\end{tikzpicture}
+</td>
+
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (SW) at (-1, -1);
+  \coordinate (S)  at ( 0, -1);
+  \coordinate (W)  at (-1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (SW) -- (S) -- (C) -- (W) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid<-] (S) -- (C);
+  \draw[mid->] (W) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_j$};
+  % area labels
+  \node at (-0.5,-0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  % real edge labels
+  \node[below] at (S) {$f$};
+  \node[left]  at (W) {$B(f,1)$};
+  % phantom edge labels for alignment
+  \node[above, opacity=0] at (0,  1) {$f$};
+\end{tikzpicture}
+</td>
+</tr>
+</table>
+
+whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \epsilon_j = id_f$, $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
+
 
 One can then recover $K$ and $M$ as the [[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
 
