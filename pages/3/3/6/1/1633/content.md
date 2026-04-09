@@ -9,9 +9,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
 
 ## Idea 
 
@@ -200,6 +200,12 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 **(non-example)**
 The space of [[rational numbers]] as a subspace of the [[real numbers]] with the Euclidean topology is not locally compact since its compact subsets all have empty interior.
 \end{example}
+
+\begin{example}\label{LocallyFiniteCWComplexes}
+A [[CW complex]] is locally compact if and only if it is [[locally finite cell complex|locally finite]].
+\end{example}
+(cf. [Geoghegan 2008](locally+finite+cell+complex#Geoghegan08) , Prop. 10.1.8)
+
 
 ## Properties
 
