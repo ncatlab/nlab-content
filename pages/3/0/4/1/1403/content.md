@@ -96,3 +96,7 @@ Other formalizations can be found in
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
+
+With applications to [[quantum topology]]:
+
+* [[Lukas Woike]], *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
