@@ -14,9 +14,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -31,6 +31,7 @@ Shor's algorithm is [[prime factorization]] [[algorithm]] for [[quantum computer
 * [[quantum complexity theory]]
 
 * [[quantum supremacy]]
+
 
 ## References
  {#References}
@@ -81,12 +82,14 @@ On (requirements for) actual implementation of Shor's algorithm on a [[quantum c
 * Austin G. Fowler, Lloyd C. L. Hollenberg: *Scalability of Shor’s algorithm with a limited set of rotation gates*, Phys. Rev. A **70** (2007) 032329 &lbrack;[doi:10.1103/PhysRevA.70.032329](https://doi.org/10.1103/PhysRevA.70.032329)&rbrack;
 
 * {#GidneyEkerå21} [[Craig Gidney]], Martin Ekerå, *How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits*, Quantum **5** (2021) 433 &lbrack;[doi:10.22331/q-2021-04-15-433](https://doi.org/10.22331/q-2021-04-15-433), [pdf](https://quantum-journal.org/papers/q-2021-04-15-433/pdf/), video:[YT](https://youtu.be/upTipX9yXNg)&rbrack;
-  > &lbrack;[p. 2](https://quantum-journal.org/papers/q-2021-04-15-433/pdf#page=2):&rbrack; Although Shor’s algorithms run in polynomial time, and although there has been significant historical work focusing on reducing the cost of Shor’s algorithms and large scale quantum computing architectures, the constant factors hidden by the asymptotic notation remain substantial. These constant factors must be overcome, by heavy optimization at all levels, in order to make the algorithms practical.
+  > &lbrack;[p. 2](https://quantum-journal.org/papers/q-2021-04-15-433/pdf#page=2):&rbrack; "Although Shor’s algorithms run in polynomial time, and although there has been significant historical work focusing on reducing the cost of Shor’s algorithms and large scale quantum computing architectures, the constant factors hidden by the asymptotic notation remain substantial. These constant factors must be overcome, by heavy optimization at all levels, in order to make the algorithms practical.
   > Current quantum computers are far from being capable of executing Shor’s algorithms for cryptographically relevant problem sizes."
 
 * Dennis Willsch et al.: *The State of Factoring on Quantum Computers* &lbrack;[arXiv:2410.14397](https://arxiv.org/abs/2410.14397)&rbrack;
 
+* [[John Preskill]] et al.: *Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits* &lbrack;[arXiv:2603.28627](https://arxiv.org/abs/2603.28627)&rbrack;
 
+* R. Babbush et al.: *Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations* &lbrack;[arXiv:2603.28846](https://arxiv.org/abs/2603.28846)&rbrack;
 
 [[!redirects Shor algorithm]]
 
