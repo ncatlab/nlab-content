@@ -1,6 +1,6 @@
 
 
-* [webpage](http://www.cse.chalmers.se/~simonhu/)
+* [webpage](https://simhu.github.io/)
 
 ## related $n$Lab entries
 
