@@ -22,9 +22,9 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definitions
 
@@ -355,15 +355,19 @@ See also:
 
 * Wikipedia, _[$C^\ast$-algebra](https://en.wikipedia.org/wiki/C*-algebra)_
 
-For [[operator algebra]]-theory see there and see
+For [[operator algebra]]-theory see there and:
 
 * [[Stanisław Woronowicz]], _Unbounded elements affiliated with $C^\ast$-algebras and non-compact quantum groups. Commun. Math. Phys. 136, 399&#8211;432 (1991)
 
 * [[Stanisław Woronowicz]], K. Napi&#243;rkowski, _[[Operator theory in the C*-algebra framework]]_, Reports on Mathematical Physics Volume 31, Issue 3, June 1992, Pages 353&#8211;371 ([publisher](http://www.sciencedirect.com/science/article/pii/003448779290025V), [pdf](http://www.fuw.edu.pl/~slworono/PDF-y/OP.pdf))
 
-On category-theoretic properties:
+On [[category theory|category-theoretic]] properties:
 
-* {#PelletierRosicky93} J Wick Pelletier,  J Rosicky, *On the equational theory of $C^*$-algebras*, Algebra Universalis **30** (1993) 275-284
+* {#PelletierRosicky93} J. Wick Pelletier, [[Jiří Rosický]]: *On the equational theory of $C^*$-algebras*, Algebra Universalis **30** (1993) 275-284
+
+Specifically on [[pullbacks]] and [[pushouts]]
+
+* [[Gert K. Pedersen]]: *Pullback and pushout constructions in $C^\ast$-algebra theory*, J. Funct. Analysis __167__ (1999) 243--344 &lbrack;[doi:10.1006/jfan.1999.3456](https://doi.org/10.1006/jfan.1999.3456), [pdf](http://www.math.ru.nl/~mueger/ped2.pdf)&rbrack;
 
 
 A characterizations of injections of commutative sub-$C^*$-algebras -- hence of the [[poset of commutative subalgebras]] of a $C^*$-algebra -- is in
@@ -379,7 +383,7 @@ Specifically [[pullback]] and [[pushout]] of $C^\ast$-algebras is discussed in
 
 * Gerd Petersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_ ([pdf](http://www.math.ru.nl/~mueger/ped2.pdf))
 
-See also 
+See also:
 
 * {#Amini04} [[Massoud Amini]], *Locally Compact Pro-$C^\ast$-Algebras*, Canadian Journal of Mathematics **56** 1 (2004) 3-22  &lbrack;[arXiv:math/0205253](https://arxiv.org/abs/math/0205253), [doi:10.4153/CJM-2004-001-6](https://doi.org/10.4153/CJM-2004-001-6)&rbrack;
 
