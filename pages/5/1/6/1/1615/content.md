@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -288,17 +286,20 @@ Early suggestion of a notion of [[non-abelian cohomology]] of local nets of obse
 
 ### General
 
-The axioms of local nets on general spacetimes were first articulated in
+The axioms of local nets on general spacetimes were first articulated in:
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
- {#BrunettiFredenhagen}
+* {#BrunettiFredenhagen} [[Romeo Brunetti]], [[Klaus Fredenhagen]]: *Quantum Field Theory on Curved Backgrounds* &lbrack;[arXiv:0901.2063](http://arxiv.org/abs/0901.2063)&rbrack;
+ 
 
-A comprehensive review, with plenty of background information, is in
+Review:
+
+* [[Hellmut Baumgärtel]], Manfred Wollenberg: *Causal nets of operator algebras --- Mathematical aspects of algebraic quantum field theory*, Mathematische Lehrbücher und Monographien. II. Abteilung: Mathematische Monographien **80**, Akademie Verlag (1992) &lbrack;[zbmath:0749.46038] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038)&rbrack;
 
 * {#BaerFredenhagen} [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
+
   
 
-Discussion of Einstein locality of a net of observables equivalently as a [[descent]] condition on the system of [[Bohr toposes]] induced by the [[algebras of observables]] is in 
+Discussion of [[Einstein locality]] of a net of observables equivalently as a [[descent]] condition on the system of [[Bohr toposes]] induced by the [[algebras of observables]] is in 
 
 * {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218 ([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))  
 
