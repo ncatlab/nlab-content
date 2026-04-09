@@ -106,6 +106,10 @@ On [[quantum information theory]]:
 
   chapter 10: *Quantum Shannon Theory* &lbrack;[arXiv:1604.07450](https://arxiv.org/abs/1604.07450)&rbrack;
 
+On implemnting [[Shor's algorithm]]:
+
+* [[John Preskill]] et al.: *Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits* &lbrack;[arXiv:2603.28627](https://arxiv.org/abs/2603.28627)&rbrack;
+
 
 \linebreak
 
