@@ -1053,7 +1053,179 @@ We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ 
 </td>
 </tr>
 </table>
-Applying the bijection of the Central Lemma (\ref{CentralLemma}), we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of [[adjunctions]], in a purely formal way.
+Applying the bijection of the Central Lemma (\ref{CentralLemma}), we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \coordinate (Nf) at (-0.5, 1);
+  \coordinate (Ng) at ( 0.5, 1);
+  \coordinate (C)  at ( 0,   0);
+
+  % fills
+  \fill[colorA] (-1,-1) rectangle (1,1);
+  \fill[colorB] (Nf) to[out=270, in=130] (C) to[out=50, in=270] (Ng) -- cycle;
+
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % arrows
+  \draw[mid->] (Nf) to[out=270, in=130] (C);
+  \draw[mid->] (Ng) to[out=270, in=50]  (C);
+
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {};
+
+  % area labels
+  \node at (0,  0.6) {$B$};
+  \node at (0, -0.5) {$A$};
+
+  % real edge labels
+  \node[above] at (Nf) {$f$};
+  \node[above] at (Ng) {$g$};
+
+  % phantom edge labels for alignment
+  \node[left,  opacity=0] at (-1, 0) {$B(f,1)$};
+  \node[right, opacity=0] at ( 1, 0) {$A(1,g)$};
+
+  % cong
+  \node at (1.7, 0) {$\cong$};
+
+  % --- RIGHT DIAGRAM ---
+  \begin{scope}[xshift=4.5cm]
+
+    \coordinate (W) at (-1, 0);
+    \coordinate (E) at ( 1, 0);
+    \coordinate (C) at ( 0, 0);
+
+    % fills
+    \fill[colorB] (-1,-1) rectangle (1,1);
+    \fill[colorA] (-1,-1) rectangle (1,0);
+
+    % border
+    \draw[gray] (-1,-1) rectangle (1,1);
+
+    % arrows
+    \draw[mid->] (W) -- (C);
+    \draw[mid->] (E) -- (C);
+
+    % central node
+    \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {};
+
+    % area labels
+    \node at (0,  0.5) {$B$};
+    \node at (0, -0.5) {$A$};
+
+    % real edge labels
+    \node[left]  at (W) {$B(f,1)$};
+    \node[right] at (E) {$A(1,g)$};
+
+    % phantom edge labels for alignment
+    \node[above, opacity=0] at (-0.5, 1) {$f$};
+    \node[above, opacity=0] at ( 0.5, 1) {$g$};
+
+  \end{scope}
+
+\end{tikzpicture}
+
+
+
+and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$ 
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \coordinate (Sg) at (-0.5, -1);
+  \coordinate (Sf) at ( 0.5, -1);
+  \coordinate (C)  at ( 0,   0);
+
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (Sg) to[out=90, in=230] (C) to[out=310, in=90] (Sf) -- cycle;
+
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % arrows: center to S, bent
+  \draw[mid<-] (Sg) to[out=90, in=230] (C);
+  \draw[mid<-] (Sf) to[out=90, in=310] (C);
+
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {};
+
+  % area labels
+  \node at (0,  0.5) {$B$};
+  \node at (0, -0.6) {$A$};
+
+  % real edge labels
+  \node[below] at (Sg) {$g$};
+  \node[below] at (Sf) {$f$};
+
+  % phantom edge labels for alignment
+  \node[left,  opacity=0] at (-1, 0) {$A(1,g)$};
+  \node[right, opacity=0] at ( 1, 0) {$B(f,1)$};
+
+  % cong
+  \node at (1.7, 0) {$\cong$};
+
+  % --- RIGHT DIAGRAM ---
+  \begin{scope}[xshift=4.5cm]
+
+    \coordinate (W) at (-1, 0);
+    \coordinate (E) at ( 1, 0);
+    \coordinate (C) at ( 0, 0);
+
+    % fills
+    \fill[colorA] (-1,-1) rectangle (1,1);
+    \fill[colorB] (-1, 0) rectangle (1,1);
+
+    % border
+    \draw[gray] (-1,-1) rectangle (1,1);
+
+    % arrows: C to W and C to E
+    \draw[mid<-] (W) -- (C);
+    \draw[mid<-] (E) -- (C);
+
+    % central node
+    \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {};
+
+    % area labels
+    \node at (0,  0.5) {$B$};
+    \node at (0, -0.5) {$A$};
+
+    % real edge labels
+    \node[left]  at (W) {$A(1,g)$};
+    \node[right] at (E) {$B(f,1)$};
+
+    % phantom edge labels for alignment
+    \node[below, opacity=0] at (-0.5,-1) {$g$};
+    \node[below, opacity=0] at ( 0.5,-1) {$f$};
+
+  \end{scope}
+
+\end{tikzpicture}
+
+
+The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of [[adjunctions]], in a purely formal way.
 
 
 
