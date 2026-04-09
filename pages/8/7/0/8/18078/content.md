@@ -1,5 +1,66 @@
 Diagrams for [[2-category equipped with proarrows]]
 
+<table>
+<tr>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  A
+  \arrow[r, "{B(1,f)}"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "\eta_p"]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "{B(1, f)}", ""{name=U, below}]
+  \arrow[d, "f"']
+  & B
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "\epsilon_p"]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  A
+  \arrow[r,  "U_A", ""{name=U, below}]
+  \arrow[d, "f"']
+  & A
+  \arrow[d, "id"]
+  \\
+  B
+  \arrow[r, "{B(f, 1)}"', ""{name=D, above}]
+  & A
+  \arrow[Rightarrow, from=U, to=D, "\eta_j"]
+\end{tikzcd}
+</td>
+<td style="border: none;">
+\begin{tikzcd}
+  B
+  \arrow[r,  "{B(f, 1)}", ""{name=U, below}]
+  \arrow[d, "id"']
+  & A
+  \arrow[d, "f"]
+  \\
+  B
+  \arrow[r, "U_B"', ""{name=D, above}]
+  & B
+  \arrow[Rightarrow, from=U, to=D, "\epsilon_j"]
+\end{tikzcd}
+</td>
+</tr>
+</table>
+
 
 This can be illustrated using string diagrams. The companion and conjoint of $f$ are the horizontal arrows
 
@@ -106,6 +167,7 @@ equipped with 2-cells
   \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
 \end{tikzpicture}
 </td>
+
 <td style="border: none;">
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
@@ -146,45 +208,7 @@ equipped with 2-cells
   \node[right, opacity=0] at (1,  0) {$B(1,f)$};
 \end{tikzpicture}
 </td>
-<td style="border: none;">
-\begin{tikzpicture}[scale=1]
-  \usetikzlibrary{decorations.markings, arrows.meta}
-  \tikzset{
-    mid->/.style={
-      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
-      postaction={decorate}
-    },
-    mid<-/.style={
-      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
-      postaction={decorate}
-    }
-  }
-  \colorlet{colorA}{teal!20}
-  \colorlet{colorB}{orange!20}
-  \coordinate (SW) at (-1, -1);
-  \coordinate (S)  at ( 0, -1);
-  \coordinate (W)  at (-1,  0);
-  \coordinate (C)  at ( 0,  0);
-  % fills
-  \fill[colorB] (-1,-1) rectangle (1,1);
-  \fill[colorA] (SW) -- (S) -- (C) -- (W) -- cycle;
-  % border
-  \draw[gray] (-1,-1) rectangle (1,1);
-  % arrows
-  \draw[mid<-] (S) -- (C);
-  \draw[mid->] (W) -- (C);
-  % central node
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_j$};
-  % area labels
-  \node at (-0.5,-0.5) {$A$};
-  \node at ( 0.5, 0.5) {$B$};
-  % real edge labels
-  \node[below] at (S) {$f$};
-  \node[left]  at (W) {$B(f,1)$};
-  % phantom edge labels for alignment
-  \node[above, opacity=0] at (0,  1) {$f$};
-\end{tikzpicture}
-</td>
+
 <td style="border: none;">
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
@@ -213,7 +237,7 @@ equipped with 2-cells
   \draw[mid->] (N) -- (C);
   \draw[mid<-] (E) -- (C);
   % central node
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_j$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\eta_j$};
   % area labels
   \node at (-0.5,-0.5) {$A$};
   \node at ( 0.5, 0.5) {$B$};
@@ -225,10 +249,50 @@ equipped with 2-cells
   \node[left,  opacity=0] at (-1, 0) {$B(1,f)$};
 \end{tikzpicture}
 </td>
+
+<td style="border: none;">
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (SW) at (-1, -1);
+  \coordinate (S)  at ( 0, -1);
+  \coordinate (W)  at (-1,  0);
+  \coordinate (C)  at ( 0,  0);
+  % fills
+  \fill[colorB] (-1,-1) rectangle (1,1);
+  \fill[colorA] (SW) -- (S) -- (C) -- (W) -- cycle;
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrows
+  \draw[mid<-] (S) -- (C);
+  \draw[mid->] (W) -- (C);
+  % central node
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (C) {$\epsilon_j$};
+  % area labels
+  \node at (-0.5,-0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  % real edge labels
+  \node[below] at (S) {$f$};
+  \node[left]  at (W) {$B(f,1)$};
+  % phantom edge labels for alignment
+  \node[above, opacity=0] at (0,  1) {$f$};
+\end{tikzpicture}
+</td>
 </tr>
 </table>
 
-whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \epsilon_j = id_f$ ???, $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
+whose compositions satisfy the following laws: $\eta_p \epsilon_p = id_f$, $\epsilon_p \odot \eta_p = id_{B(1, f)}$, and $\eta_j \epsilon_j = id_f$, $\eta_j \odot \epsilon_j = id_{B(f, 1)}$
 
 ***
 
