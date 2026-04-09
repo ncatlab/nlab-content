@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -42,16 +46,17 @@ The axiom [[WISC]] has an equivalent statement (that works in any Boolean [[topo
 One can view this as really a statement about the [[Grothendieck fibration]] over [[Set]] with fibre over $X$ the full subcategory of $Set/X$ on the surjections: every fibre has a [[weakly initial object]].
 
 ## In other categories
-Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a:1\rightarrow A$, one could define surjections in any category $\mathcal{C}$ with a [[terminal object]] $1$:
+
+Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a \colon1\rightarrow A$, it makes sense to define surjections in any category $\mathcal{C}$ with a [[terminal object]] $1$:
 
 +-- {: .num_defn}
 ###### Definition
-A morphism $f:A\rightarrow B$ in a category $\mathcal{C}$ with a [[terminal object]] $1$ is called a __surjection__. a __surjective morphism__, or an __onto morphism__ if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
+A morphism $f \colon A\rightarrow B$ in a category $\mathcal{C}$ with a [[terminal object]] $1$ is called a __surjection__, a __surjective morphism__, or an __onto morphism__ if, given any global element $y \colon 1\rightarrow B$, there exists a global element $x \colon 1\rightarrow A$ such that $y = f \circ x$. 
 =--
 
 +-- {: .num_remark} 
 ###### Remark 
-Some authors regard surjection as a synonym of [[split epimorphism]], and only use 'onto' for the definition above. 
+Some authors regard surjections as a synonymous to *[[split epimorphisms]]*, and only use 'onto' for the definition above. 
 =--
 
 +-- {: .num_prop}
@@ -61,7 +66,7 @@ In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism 
 
 +-- {: .proof}
 ###### Proof
-By definition of a terminal object, for every object $A$ there exists a unique morphism $!:A\rightarrow 1$, and the identity morphism is the unique global element $1_{1}:1\rightarrow 1$. The composite of a global element $x:1\rightarrow A$ with the function $!:A\rightarrow 1$ results in a function $! \circ x:1\rightarrow 1$, which by definition of a terminal object is the same as $1_{1}:1\rightarrow 1$. Since $! \circ x = 1_{1}$, for every object $A$, $!:A\rightarrow 1$ is a surjection. 
+By definition of a terminal object, for every object $A$ there exists a unique morphism $! \colon A\rightarrow 1$, and the identity morphism is the unique global element $1_{1} \colon1\rightarrow 1$. The composite of a global element $x \colon 1\rightarrow A$ with the function $! \colon A\rightarrow 1$ results in $! \circ x:1\rightarrow 1$, which by definition of a terminal object is the same as $1_{1} \colon 1\rightarrow 1$. Since $! \circ x = 1_{1}$, for every object $A$, $!:A\rightarrow 1$ is a surjection. 
 =--
 
 +-- {: .num_prop}
