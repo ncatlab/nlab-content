@@ -21,9 +21,9 @@ A [[cell complex]] (such as a [[CW-complex]]) is _locally finite_ if each cell i
 ## Properties
 
 \begin{proposition}
-A [[CW complex]] is locally finite if and only if it is locally compact.
+A [[CW complex]] is locally finite if and only if it is [[locally compact topological space|locally compact]].
 \end{proposition}
-([Geoghegan 2008](#Geoghegan08) , Prop. 10.1.8)
+(cf. [Geoghegan 2008](#Geoghegan08) , Prop. 10.1.8)
 
 ## Related concepts
 
@@ -33,7 +33,7 @@ A [[CW complex]] is locally finite if and only if it is locally compact.
 
 ## References
 
-* {#Geoghegan08} Ross Geoghegan: _Locally finite CW Complexes and Proper Homotopy_, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10)&rbrack;
+* {#Geoghegan08} Ross Geoghegan: *Locally finite CW Complexes and Proper Homotopy*, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10)&rbrack;
 
 [[!redirects locally finite cell complexes]]
 
