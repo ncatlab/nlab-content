@@ -11,9 +11,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -101,11 +99,11 @@ Exposition in view of [[synthetic homotopy theory]]:
 
 Original articles on the BCH model:
 
-* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
+* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_ (September 2013) &lbrack;[pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf)&rbrack;
 
-* {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013). ([doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107))
+* {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013) &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf)&rbrack;
 
-* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_, Journal of Automated Reasoning, 63, 2019. ([doi:10.1007/s10817-018-9472-6](https://dx.doi.org/10.1007/s10817-018-9472-6), [arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: _The univalence axiom in cubical sets_, Journal of Automated Reasoning **63** (2019) &lbrack;[doi:10.1007/s10817-018-9472-6](https://dx.doi.org/10.1007/s10817-018-9472-6), [arXiv:1710.10941](https://arxiv.org/abs/1710.10941)&rbrack;
 
 On the CCHM model and type theory:
 
@@ -121,11 +119,16 @@ On the cartesian cubical model and type theory:
 
 * [[Carlo Angiuli]], _Computational Semantics of Cartesian Cubical Type Theory_, Ph.D. Thesis. ([pdf](https://www.cs.cmu.edu/~cangiuli/thesis/thesis.pdf))
 
+On [[homotopy canonicity]]:
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: _Homotopy canonicity for cubical type theory_, 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019) &lbrack;[doi:10.4230/LIPIcs.FSCD.2019.11](https://dx.doi.org/10.4230/LIPIcs.FSCD.2019.11), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: *Canonicity and homotopy canonicity for cubical type theory*, Logical Methods in Computer Science **18** 1 (2022) lmcs:9043 &lbrack;[doi:10.46298/lmcs-18%281%3A28%292022](https://doi.org/10.46298/lmcs-18%281%3A28%292022), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
+
 On comparing the models:
 
 * [[Evan Cavallo]], [[Anders Mörtberg]], [[Andrew W Swan]], _Unifying Cubical Models of Univalent Type Theory_, 28th EACSL Annual Conference on Computer Science Logic (CSL 2020). ([doi:10.4230/LIPIcs.CSL.2020.14](https://dx.doi.org/10.4230/LIPIcs.CSL.2020.14))
-
-* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]], _Homotopy canonicity for cubical type theory_, 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019). ([doi:10.4230/LIPIcs.FSCD.2019.11](https://dx.doi.org/10.4230/LIPIcs.FSCD.2019.11), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572))
 
 * {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, Mathematical Structures in Computer Science, 31, 2021. ([doi:10.1017/S096012952200007X](https://doi.org/10.1017/S096012952200007X), [arXiv:1911.05844](https://arxiv.org/abs/1911.05844))
 
