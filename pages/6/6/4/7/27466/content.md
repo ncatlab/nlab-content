@@ -11,6 +11,7 @@ On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in [[fractional quantu
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
 
 * [[Andrea Cappelli]], [[Gerald V. Dunne]], [[Carlo A. Trugenberger]], G. R. Zemba: *Conformal Symmetry and Universal Properties of Quantum Hall States*, Nucl. Phys. B **398** (1993) 531-567 \[<a href="https://doi.org/10.1016/0550-3213(93)90603-M">doi:10.1016/0550-3213(93)90603-M</a>, [arXiv:hep-th/9211071](https://arxiv.org/abs/hep-th/9211071)\]
+  > (including [[Floreanini-Jackiw theory|Floreanini-Jackiw]]  [[edge mode]] theory)
 
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Classification of Quantum Hall Universality Classes by $W_{1+\infty}$ symmetry*, Phys. Rev. Lett. **72** (1994) 1902-1905 \[<a href="https://doi.org/10.1103/PhysRevLett.72.1902">doi:10.1103/PhysRevLett.72.1902</a>, [arXiv:hep-th/9310181](https://arxiv.org/abs/hep-th/9310181)\]
 
