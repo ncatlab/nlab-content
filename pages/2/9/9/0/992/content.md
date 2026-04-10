@@ -201,7 +201,7 @@ In direct analogy to how a general [[(âˆž,1)-category]] may be [[presentable (âˆ
 
 * [[stable model category]];
 
-* stable [[quasicategory]] (as devloped by [[Lurie]] in Chapter 1 of [[Higher Algebra]]);
+* stable [[quasicategory]] (as developed by [[Lurie]] in Chapter 1 of [[Higher Algebra]]);
 
 * pre-triangulated [[spectral category]].
 
