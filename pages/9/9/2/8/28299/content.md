@@ -155,7 +155,15 @@ A manifestly [[Lorentz group]]-[[invariant]] re-formulation:
 
 Interpretation as the [[boundary field theory]] of [[abelian Chern-Simons theory]], in the context of [[effective field theory]] for [[edge modes]] of [[fractional quantum Hall systems]]:
 
+* [[Jürg Fröhlich]], [[Anthony Zee]]; §5 of: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+
+* Michael Stone; pp. 45 in: *Edge waves in the quantum Hall effect*, Annals of Physics **207** 1 (1991) 38-52 \[<a href="https://doi.org/10.1016/0003-4916(91)90177-A">doi:10.1016/0003-4916(91)90177-A</a>\]
+
 * {#Wen1992} [[Xiao-Gang Wen]]; §2.5 in: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840), [[Wen-EdgeStatesEffective.pdf:file]]&rbrack;
+
+
+* [[Andrea Cappelli]], [[Gerald V. Dunne]], [[Carlo A. Trugenberger]], G. R. Zemba; §5 of: *Conformal Symmetry and Universal Properties of Quantum Hall States*, Nucl. Phys. B **398** (1993) 531-567 \[<a href="https://doi.org/10.1016/0550-3213(93)90603-M">doi:10.1016/0550-3213(93)90603-M</a>, [arXiv:hep-th/9211071](https://arxiv.org/abs/hep-th/9211071)\]
+
 
 * {#Wen1995} [[Xiao-Gang Wen]]; §3.3 in: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
