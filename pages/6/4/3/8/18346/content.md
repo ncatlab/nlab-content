@@ -17,10 +17,17 @@ On a version of the [[Homotopy Type System]] with application to [[semi-simplici
 * [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; 
 
 
-
 On the [[fibration category of semi-simplicial sets]]:
 
 * {#Sattler18} [[Christian Sattler]], *Constructive homotopy theory of marked semisimplicial sets* ([arXiv:1809.11168](https://arxiv.org/abs/1809.11168))
+
+On [[homotopy canonicity]] for [[cubical type theory]]:
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: _Homotopy canonicity for cubical type theory_, 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019) &lbrack;[doi:10.4230/LIPIcs.FSCD.2019.11](https://dx.doi.org/10.4230/LIPIcs.FSCD.2019.11), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: *Canonicity and homotopy canonicity for cubical type theory*, Logical Methods in Computer Science **18** 1 (2022) lmcs:9043 &lbrack;[doi:10.46298/lmcs-18%281%3A28%292022](https://doi.org/10.46298/lmcs-18%281%3A28%292022), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
+
 
 On the [[constructive model structure on simplicial sets]]:
 
