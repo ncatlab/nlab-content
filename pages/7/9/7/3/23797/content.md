@@ -30,6 +30,8 @@ In correspondence of how the [[effective field theory]] for [[fractional quantum
 
 * [[bulk-boundary correspondence]]
 
+* [[Floreanini-Jackiw theory]]
+
 
 ## References
  {#References}
@@ -47,7 +49,11 @@ On edge modes in [[fractional quantum Hall systems]]:
 
 Original articles:
 
+* [[Bertrand I. Halperin]]: *Quantized Hall conductance, current-carrying edge states, and the existence of extended states in a two-dimensional disordered potential*, Phys. Rev. B **25** (1982) 2185 &lbrack;[doi:10.1103/PhysRevB.25.2185](https://doi.org/10.1103/PhysRevB.25.2185)&rbrack;
+
 * [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
+
+* Michael Stone: *Edge waves in the quantum Hall effect*, Annals of Physics **207** 1 (1991) 38-52 \[<a href="https://doi.org/10.1016/0003-4916(91)90177-A">doi:10.1016/0003-4916(91)90177-A</a>\]
 
 * {#Wen1992} [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 &lbrack;[doi:10.1142/S0217979292000840](https://doi.org/10.1142/S0217979292000840)&rbrack;
 
