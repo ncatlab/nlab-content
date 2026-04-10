@@ -502,15 +502,15 @@ Cubical [[singular homology]] is discussed in
 
 An axiomatization of cubical sets in [[constructive set theory]]/[[type theory]] (with the aim of building models of [[homotopy type theory]]) is in
 
-* {#BezemCoquandHuber13} Marc Bezem, [[Thierry Coquand]], [[Simon Huber]], _A model of type theory in cubical sets_, 2013  ([web](http://drops.dagstuhl.de/opus/volltexte/2014/4628/), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf))
+* {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: *A model of type theory in cubical sets* (2013), TYPES 2013 &lbrack;[drps:2014/4628](http://drops.dagstuhl.de/opus/volltexte/2014/4628), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf)&rbrack;
 
-* {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
+* {#KaposiAltenkirch14} [[Ambrus Kaposi]], [[Thorsten Altenkirch]], _A syntax for cubical type theory_ &lbrack;[pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf)&rbrack;
 
 * {#Docherty14} Simon Docherty, _A model of type theory in cubical sets with connection_, 2014 ([pdf](http://www.illc.uva.nl/Research/Publications/Reports/MoL-2014-12.text.pdf))
 
 See also
 
-* [[Dan Licata]], [[Guillaume Brunerie]], _A cubical approach to synthetic homotopy theory_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf))
+* [[Dan Licata]], [[Guillaume Brunerie]]: _A cubical approach to synthetic homotopy theory_ &lbrack;[pdf](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf)&rbrack;
 
 For more on this see at _[[relation between category theory and type theory]]_.
 
