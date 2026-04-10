@@ -77,9 +77,9 @@ Considering the undisturbed Seiberg-Witten equations with a vanishing spinor fie
 
 * {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
 
-* {#Perutz02} Tim Perutz, _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
+* {#Perutz02} [[Tim Perutz]], _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
 
-* {#EinhornFriedrich} Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 * {#Donaldson} [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
