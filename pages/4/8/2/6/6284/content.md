@@ -1,7 +1,14 @@
 
-John C. Moore
+John Coleman Moore (1925-2016)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/John_Coleman_Moore)
+> (not to be confused with [[John Douglas Moore]])
+
+* [institute page](https://www.math.princeton.edu/people/john-c-moore)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Coleman_Moore)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=4350)
+
 
 ## Selected writings
 
