@@ -96,6 +96,11 @@ Monograph:
 
 * [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators -- From K-Theory to Physics*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
 
+Experimental detection:
+
+* Ramon Guerrero-Suarez et al.: *Universal Anyon Tunneling in a Chiral Luttinger Liquid*, Nature Physics **21** (2025) 1787–1793 &lbrack;[doi:10.1038/s41567-025-03039-9](https://doi.org/10.1038/s41567-025-03039-9), [arXiv:2502.20551 cond-mat.mes-hall](https://arxiv.org/abs/2502.20551)&rbrack;
+  > "Despite many years of experimental investigation fractional quantum Hall edge modes remain enigmatic with significant discrepancies between experimental observations and detailed predictions of chiral Luttinger liquid theory."
+
 
 In the generality of higher dimensional [[integer quantum Hall systems]] and relating to [[area-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
 
