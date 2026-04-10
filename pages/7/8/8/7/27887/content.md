@@ -190,6 +190,18 @@ $$
 ## Properties
 
 \begin{proposition}
+For suitable perturbations $\eta$, the Seiberg-Witten moduli space $\mathcal{M}_\eta$ is [[compact]].
+\end{proposition}
+
+([Nicolaescu 00, Prop. 2.2.2](#Nicolaescu00))
+
+\begin{proposition}
+For generic perturbations $\eta$, the Seiberg-Witten moduli space $\mathcal{M}_\eta$ is [[orientable]].
+\end{proposition}
+
+([Nicolaescu 00, Prop. 2.2.25](#Nicolaescu00))
+
+\begin{proposition}
 Under a change of the [[spinᶜ structure]], one has:
 $$
 dim\mathcal{M}_{M,\mathfrak{s}\otimes L}
@@ -274,11 +286,11 @@ $$
 
 * {#Nicolaescu00} [[Liviu Nicolaescu]], _Notes on Seiberg-Witten Theory_ (2000), &lbrack;[pdf](https://www3.nd.edu/~lnicolae/swnotes.pdf)&rbrack;
 
-* {#Perutz02} Tim Perutz, _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
+* {#Perutz02} [[Tim Perutz]], _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
 
 * {#KronheimerMrowka07} [[Peter Kronheimer]], [[Tomasz Mrowka]], _Monopoles and Three-Manifolds_ (2007), &lbrack;[ISBN:978-0-521-88022-0](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kronmrowka.pdf)&rbrack;
 
-* {#Moore10} John Douglas Moore, _Lecture Notes on Seiberg-Witten Invariants (Revised Second Edition)_, &lbrack;[pdf](https://web.math.ucsb.edu/~moore/seibergwittenrev2edition.pdf)&rbrack;
+* {#Moore10} [[John Douglas Moore]], _Lecture Notes on Seiberg-Witten Invariants (Revised Second Edition)_, &lbrack;[pdf](https://web.math.ucsb.edu/~moore/seibergwittenrev2edition.pdf)&rbrack;
 
 * {#Naber11} [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
 
