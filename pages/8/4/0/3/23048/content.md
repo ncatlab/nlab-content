@@ -28,17 +28,19 @@ What is called the *ptoton radius problem* or *proton radius puzzle* is an appar
 ## References
 
 
-* Gil Paz, *The Proton Radius Puzzle* ([arXiv:1909.08108](https://arxiv.org/abs/1909.08108))
+* Gil Paz, *The Proton Radius Puzzle* &lbrack;[arXiv:1909.08108](https://arxiv.org/abs/1909.08108)&rbrack;
 
-* Clara Peset, Antonio Pineda, Oleksandr Tomalak, *The proton radius (puzzle?) and its relatives* ([arXiv:2106.00695](https://arxiv.org/abs/2106.00695))
+* Clara Peset, Antonio Pineda, Oleksandr Tomalak, *The proton radius (puzzle?) and its relatives* &lbrack;[arXiv:2106.00695](https://arxiv.org/abs/2106.00695)&rbrack;
 
 See also:
 
-* Wikipedia, *[Proton radius puzzle](https://en.m.wikipedia.org/wiki/Proton_radius_puzzle)*
+* Wikipedia: *[Proton radius puzzle](https://en.m.wikipedia.org/wiki/Proton_radius_puzzle)*
 
 Claim of resolution of the puzzle (it was a measurement error): 
 
 * Lothar Maisenbacher, Vitaly Wirthl, Arthur Matveev, Alexey Grinin, Randolf Pohl, Theodor W. Hänsch & Thomas Udem: *Sub-part-per-trillion test of the Standard Model with atomic hydrogen*, Nature (2026) &lbrack;[doi:10.1038/s41586-026-10124-3](https://doi.org/10.1038/s41586-026-10124-3)&rbrack;
+
+* New Scientist: *[Physicists resolve a long-standing puzzle over the size of a proton](https://www.newscientist.com/article/2522294-physicists-resolve-a-long-standing-puzzle-over-the-size-of-a-proton/)* (10 April 2026 )
 
     
 
