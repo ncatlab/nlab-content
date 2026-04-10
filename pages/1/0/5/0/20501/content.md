@@ -1,5 +1,15 @@
 
+* [personal page](https://www.kitp.ucsb.edu/zee)
+
+* [institute page](https://www.physics.ucsb.edu/people/anthony-zee)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Anthony_Zee)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=201001)
+
+* [inSpire page](https://inspirehep.net/authors/982296)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=6JE3GOYAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -33,6 +43,9 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Quantum statistics and superconductivity in two spatial dimensions*, Nuclear Physics B -- Proceedings Supplements **15** (1990) 135-156 \[<a href="https://doi.org/10.1016/0920-5632(90)90014-L">doi:10.1016/0920-5632(90)90014-L</a>\]
 
 * [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+  > (including [[Floreanini-Jackiw theory|Floreanini-Jackiw]] [[edge mode]] theory)
+
+
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
 
