@@ -30,6 +30,8 @@ On the [[6-sphere]] and its [[almost complex structure]]:
 
 * {#AgrikolaBorowkaFriedrich17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]]: *$S^6$ and the geometry of nearly Kähler 6-manifolds*, Differential Geometry and its Applications **57** (2018) 75-86 &lbrack;[arXiv:1707.08591](https://arxiv.org/abs/1707.08591), [doi:10.1016/j.difgeo.2017.10.007](https://doi.org/10.1016/j.difgeo.2017.10.007)&rbrack;
 
+On [[Seiberg-Witten theory]]:
 
+* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 category: people
