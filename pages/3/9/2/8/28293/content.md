@@ -14,29 +14,39 @@
 
 ## Definition
 
-A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]] and for any [[pair]] of [[objects]] $A,B$ there is a [[morphism]] $A \to B$ or a morphism $B \to A$.
+A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]] and for any [[pair]] of [[objects]] $A,B$ there is a [[morphism]] $A \to B$. That is, each [[hom-set]] is inhabited.
+
+This terminology is borrowed from [[graph|graph theory]]: a [[directed graph]] is called strongly connected when it is inhabited and for every two vertices $u,v$ there is a directed path from $u$ to $v$. Hence, a category is strongly connected precisely when its underlying directed graph is strongly connected.
+
+If we merely require that for all objects $A,B$ there is a morphism $A \to B$ or a morphism $B \to A$, we call $C$ **semi-strongly connected**. This is no standard terminology, though, and in fact in Bunge's thesis (cited below) this property has been (somewhat confusingly) called *strongly connected*.
 
 ## Properties
 
-* Every strongly connected category is a [[connected category]].
+* Every strongly connected category is semi-strongly connected.
 
-* Every inhabited connected [[groupoid]] is strongly connected.
+* Every semi-strongly connected category is a [[connected category]].
+
+* Every connected [[groupoid]] is strongly connected.
 
 * Every inhabited category with [[zero morphisms]] is strongly connected.
 
 ## Examples
 
-Among strongly connected categories are:
+Among semi-strongly connected categories are:
 
 * the [[Set|category of sets]],
 
-* the [[Ab|category of abelian groups]],
-
 * every [[inhabited set|inhabited]] [[linear order]], considered as a [[thin category]].
 
+Among strongly connected categories are:
+
+* the [[Ab|category of abelian groups]],
+
+* the category of non-empty sets.
+ 
 ## Counterexamples
 
-Not strongly connected are:
+Not semi-strongly connected are:
 
 * the [[CRing|category of commutative rings]],
 
@@ -59,3 +69,9 @@ The terminology was introduced in:
 [[!redirects strongly connected categories]]
 
 [[!redirects strongly connected]]
+
+[[!redirects semi-strongly connected]]
+
+[[!redirects semi-strongly connected category]]
+
+[[!redirects semi-strongly connected categories]]
