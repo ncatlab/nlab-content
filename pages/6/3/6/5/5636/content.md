@@ -60,7 +60,7 @@ Review:
 
 * [[Taro Kimura]], *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
 
-* Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 * [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
@@ -117,7 +117,7 @@ Review:
 
 * Ming Xu: *The Bauer-Furuta invariant and a Cohomotopy refined Ruberman invariant*, PhD thesis, Stony Brook (2004) &lbrack;[[Xu-BauerFurutaInvariant.pdf:file]], [pdf](https://www.math.stonybrook.edu/alumni/2004-Ming-Xu.pdf)&rbrack;
 
-* Tim Perutz: MO comment &lbrack;[MO:a/139921](https://mathoverflow.net/a/139921/381)&rbrack;
+* [[Tim Perutz]]: MO comment &lbrack;[MO:a/139921](https://mathoverflow.net/a/139921/381)&rbrack;
 
 * [[Arun Debray]]: *Furuta's $10/8$ Theorem* (2019) &lbrack;[pdf](https://adebray.github.io/lecture_notes/s19_furuta.pdf), [[Debray-FurutaTheorem.pdf:file]]&rbrack;
 
