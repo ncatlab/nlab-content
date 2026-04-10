@@ -87,7 +87,7 @@ Let $R$ be a compact Hausdorff totally disconnected ring. For each open neighbor
 
 +-- {: .proof} 
 ###### Proof 
-By Lemma \ref{opengroup}, there is an open additive subgroup $O \subseteq V$. Let $I = \{x \in R: R x R \subseteq O\}$. It is evident that $0 \in I$ and $I$ is an ideal of $R$. Now hold $x \in I$ fixed. For each $(a, b) \in R \times R$, continuity of multiplication implies there are open neighborhoods $W_{(a, b)}$ of $a$, $W_{(a, b)}'$ of $b$, and $V_{(a, b)}$ of $x$ such that $W_{(a, b)} V_{(a, b)} W_{(a, b)}' \subseteq O$. By compactness of $R \times R$, finitely many sets of the form $W_{(a, b)} \times W_{(a, b)}'$ cover $R \times R$. The corresponding finite intersection $\bigcap_{i=1}^n V_{(a_i, b_i)}$ is an open neighborhood of $x$ that is contained in $I$, thus completing the proof. 
+By Lemma \ref{opengroup}, there is an open additive subgroup $O \subseteq V$. Let $I = \{x \in R: R x R \subseteq O\}$. It is evident that $0 \in I$ and $I$ is an ideal of $R$ and $I \subseteq O \subseteq V$. To prove $I$ is open, hold $x \in I$ fixed. For each $(a, b) \in R \times R$, continuity of multiplication implies there are open neighborhoods $W_{(a, b)}$ of $a$, $W_{(a, b)}'$ of $b$, and $V_{(a, b)}$ of $x$ such that $W_{(a, b)} V_{(a, b)} W_{(a, b)}' \subseteq O$. By compactness of $R \times R$, finitely many sets of the form $W_{(a, b)} \times W_{(a, b)}'$ cover $R \times R$. The corresponding finite intersection $\bigcap_{i=1}^n V_{(a_i, b_i)}$ is an open neighborhood of $x$ that is contained in $I$, thus completing the proof. 
 =-- 
 
 ## Compact rings are profinite 
