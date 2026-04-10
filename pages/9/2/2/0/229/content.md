@@ -102,7 +102,7 @@ $$
 
 The [[exchange law]] for the composition of [[2-morphisms]] in a [[2-category]] forces the product on the $a \in A$ here to be commutative. This reasoning is known as the [[Eckmann-Hilton argument]] and is the same as the reasoning that finds that the second [[homotopy group]] of a space has to be abelian.
 
-So the identitfication of abelian groups with one-object, one-morphism 2-groupoids may also be thought of as an identification with 2-[[truncated]] and 2-[[connected]] [[homotopy types]].
+So the identification of abelian groups with one-object, one-morphism 2-groupoids may also be thought of as an identification with 2-[[truncated]] and 2-[[connected]] [[homotopy types]].
 
 ### Relation to other concepts
 
