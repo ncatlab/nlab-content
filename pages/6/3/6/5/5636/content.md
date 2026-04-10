@@ -15,9 +15,9 @@
 
 
 
-#Contents#
-* table of contents
-{:toc} 
+\tableofcontents
+
+
 
 ## Idea
 
@@ -53,14 +53,14 @@ The original articles:
   Erratum-ibid. B **430** (1994) 485-486,  ([arXiv:hep-th/9407087](https://arxiv.org
 /abs/hep-th/9407087))
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, duality and chiral symmetry breaking in $N=2$
-supersymmetric QCD, Nucl. Phys. B431 (1994) 484-550 &lbrack;[hep-th/9408099](https://arxiv.org/abs/hep-th/9408099)&rbrack;
+* [[Nathan Seiberg]], [[Edward Witten]]: _Monopoles, duality and chiral symmetry breaking in $N=2$
+supersymmetric QCD, Nucl. Phys. B **431** (1994) 484-550 &lbrack;[hep-th/9408099](https://arxiv.org/abs/hep-th/9408099)&rbrack;
 
 Review:
 
-* [[Taro Kimura]], *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
+* {#EinhornFriedrich} [[Jürgen Eichhorn]], [[Thomas Friedrich]]: _Seiberg-Witten theory_, in: Symplectic Singularities and Geometry of Gauge Fields, Banach Center Publications **39**, Polish Academy of Sciences (1997) 231--267 &lbrack;[pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf)&rbrack;
 
-* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* [[Taro Kimura]], *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
 
 * [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
