@@ -1,11 +1,18 @@
 
+Bertrand I. Halperin
+
 * [institute page](https://www.physics.harvard.edu/people/facpages/halperin)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Bertrand_Halperin)
 
-* [InSpire page](https://inspirehep.net/authors/1006910)
+* [inSpire page](https://inspirehep.net/authors/1006910)
 
 ## Selected writings
+
+Early discussion of [[edge modes]] of [[quantum Hall systems]]:
+
+* [[Bertrand I. Halperin]]: *Quantized Hall conductance, current-carrying edge states, and the existence of extended states in a two-dimensional disordered potential*, Phys. Rev. B **25** (1982) 2185 &lbrack;[doi:10.1103/PhysRevB.25.2185](https://doi.org/10.1103/PhysRevB.25.2185)&rbrack;
+
 
 Early discussion of the [[fractional quantum Hall effect]]:
 
