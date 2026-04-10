@@ -2,7 +2,7 @@
 
 * [webpage](https://simhu.github.io/)
 
-## related $n$Lab entries
+## Related entries
 
 * [[cubical set]]
 
