@@ -15,6 +15,11 @@ Thomas Friedrich (1949-2018)
 
 ## Selected writings
 
+On [[Seiberg-Witten theory]]:
+
+* {#EinhornFriedrich} [[Jürgen Eichhorn]], [[Thomas Friedrich]]: _Seiberg-Witten theory_, in: Symplectic Singularities and Geometry of Gauge Fields, Banach Center Publications **39**, Polish Academy of Sciences (1997) 231--267 &lbrack;[pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf)&rbrack;
+
+
 On [[Dirac operators]] in [[Riemannian geometry]]:
 
 * {#Friedrich97} [[Thomas Friedrich]]: *Dirac operators in Riemannian geometry*, Graduate Studies in Mathematics **25**,  AMS (2000) &lbrack;ISBN:978-0-8218-2055-1, [ams:gsm-25](https://bookstore.ams.org/gsm-25)&rbrack;
@@ -30,8 +35,5 @@ On the [[6-sphere]] and its [[almost complex structure]]:
 
 * {#AgrikolaBorowkaFriedrich17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]]: *$S^6$ and the geometry of nearly Kähler 6-manifolds*, Differential Geometry and its Applications **57** (2018) 75-86 &lbrack;[arXiv:1707.08591](https://arxiv.org/abs/1707.08591), [doi:10.1016/j.difgeo.2017.10.007](https://doi.org/10.1016/j.difgeo.2017.10.007)&rbrack;
 
-On [[Seiberg-Witten theory]]:
-
-* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 category: people
