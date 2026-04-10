@@ -1,7 +1,15 @@
 Thierry Coquand is a professor in computer science at the University of Gothenburg, Sweden.
 
 
-* [webpage](http://www.cse.chalmers.se/~coquand/)
+* [personal page](http://www.cse.chalmers.se/~coquand/)
+
+* [institute page](https://www.gu.se/en/about/find-staff/thierrycoquand)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Thierry_Coquand)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=137164)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Thierry-Coquand)
 
 
 ## Selected writings
@@ -30,6 +38,13 @@ On [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]):
 * [[Thierry Coquand]], slides 26-28 of: *Equality and dependent type theory* (2011) &lbrack;[pdf](https://www.cse.chalmers.se/~coquand/equality.pdf), [[Coquand-EqualityAndDependentTypeTheory.pdf:file]]&rbrack;
 
 
+Early discussion of [[cubical type theory]] with [[categorical semantics]] in [[cubical sets]]:
+
+* {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013) &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf)&rbrack;
+
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: _The univalence axiom in cubical sets_, Journal of Automated Reasoning **63** (2019) &lbrack;[doi:10.1007/s10817-018-9472-6](https://dx.doi.org/10.1007/s10817-018-9472-6), [arXiv:1710.10941](https://arxiv.org/abs/1710.10941)&rbrack;
+
+
 On the [[structure identity principle]]:
 
 * [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
@@ -37,6 +52,13 @@ On the [[structure identity principle]]:
 On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy type theory]]:
 
 * [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
+
+On [[homotopy canonicity]] for [[cubical type theory]]:
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: _Homotopy canonicity for cubical type theory_, 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019) &lbrack;[doi:10.4230/LIPIcs.FSCD.2019.11](https://dx.doi.org/10.4230/LIPIcs.FSCD.2019.11), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: *Canonicity and homotopy canonicity for cubical type theory*, Logical Methods in Computer Science **18** 1 (2022) lmcs:9043 &lbrack;[doi:10.46298/lmcs-18%281%3A28%292022](https://doi.org/10.46298/lmcs-18%281%3A28%292022), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
+
 
 On [[synthetic algebraic geometry]]:
 
