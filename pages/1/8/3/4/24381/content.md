@@ -1,7 +1,10 @@
 
+* [personal page](https://www.sergei-o-ivanov.com/)
+
 * [institute page](https://math-cs.spbu.ru/en/people/sergei-ivanov/)
 
-* [personal page](https://www.sergei-o-ivanov.com/)
+* [GoogleScholar page](https://scholar.google.com/citations?user=c_hvuhYAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -12,6 +15,11 @@ On [[fr-codes]] in [[homological algebra]]:
 * {#IvanovMikhailov17} [[Sergei O. Ivanov]], [[Roman Mikhailov]]: *Higher limits, homology theories and $\mathbf{fr}$-codes*, in: *Combinatorial and Toric Homotopy*, Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore (2017) 229-261  &lbrack;[arXiv:1510.09044](https://arxiv.org/abs/1510.09044), [doi:10.1142/9789813226579_0004](https://doi.org/10.1142/9789813226579_0004)&rbrack;
 
 * [[Sergei O. Ivanov]], [[Roman Mikhailov]], Fedor Pavutnitskiy:  *Limits, standard complexes and $\mathbf{fr}$-codes*,  Sb. Math. **211** (2020) 1568 &lbrack;[arXiv:1906.08793](https://arxiv.org/abs/1906.08793), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348)&rbrack;
+
+
+Proof that all higher [[homotopy groups]] [[homotopy groups of spheres|of]] the [[2-sphere]] are non-trivial:
+
+* [[Sergei O. Ivanov]], [[Roman Mikhailov]], Jie Wu: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
 
 
 
