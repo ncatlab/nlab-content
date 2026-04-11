@@ -775,7 +775,7 @@ is an $H$-[[principal bundle]] ([hence](Hurewicz+fibration#NumerableFiberBundles
 =--
 
 This is a direct corollary of prop. \ref{QuotientProjectionForCompactLieGroupActingFreelyOnManifoldIsPrincipa}.
-Originally this statement is due to ([Samelson 41](#Samelson41)). 
+Originally this statement is due to [Samelson 1941](#Samelson41). 
 
 +-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
 ###### Proposition
