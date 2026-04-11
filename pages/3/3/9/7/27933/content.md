@@ -85,7 +85,9 @@ Monographs on [[category theory]]:
 
 * [[Nicolae Popescu]], Liliana Popescu: _Theory of categories_, Sijthoff & Noordhoff International Publishers (1979) \[<a href="https://doi.org/10.1007/978-94-009-9550-5">doi:10.1007/978-94-009-9550-5</a>\]
 
-* {#Geroch85} [[Robert Geroch]]: _Mathematical Physics_, University of Chicago Press (1985) \[<a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html">ISBN:9780226223063</a>, [ark:/13960/t10p8v264](https://archive.org/details/mathematicalphys0000gero/mode/2up)\]
+* [[Ioan Mackenzie James]]; §1 in: *General Topology and Homotopy Theory*, Springer (1984) \[<a href="https://doi.org/10.1007/978-1-4613-8283-6">doi:10.1007/978-1-4613-8283-6</a>\]
+
+* {#Geroch85} [[Robert Geroch]]: _Mathematical Physics_, University of Chicago Press (1985) \[<a href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html">ISBN:9780226223063</a>, [ark:/13960/t10p8v264](https://archive.org/details/mathematicalphys0000gero)\]
   > (introduces categories by examples arising in [[mathematical physics]])
 
 * {#AdámekHerrlichStrecker90} [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]: *[[Abstract and Concrete Categories -- The Joy of Cats]]*, Wiley (1990), reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 \[<a href="http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html">tac:tr17</a>, [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf)\]
