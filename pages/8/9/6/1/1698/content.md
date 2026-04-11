@@ -17,9 +17,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -1047,11 +1046,14 @@ The first exhaustive study of these is due to
 whence the terminology _Puppe sequences_.
 
 
-Classical textbook accounts include
+Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], around 2.57 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
+
+* [[Jeffrey Strom]]; section 8.2 of: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>, <a href="https://www.nzdr.ru/data/media/biblio/kolxoz/M/MD/MDat/Strom%20J.%20Modern%20homotopy%20theories%20(draft,%20Univ.%20of%20Michigan,%202010)(363s)_MDat_.pdf">pdf</a>\]
+
 
 Lecture notes:
 
