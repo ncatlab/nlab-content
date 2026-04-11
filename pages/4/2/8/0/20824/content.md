@@ -167,9 +167,9 @@ Discussion of possible lift of [[massive type IIA string theory]] to [[M-theory]
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 * {#Hull98} [[Chris Hull]], *Massive String Theories From M-Theory and F-Theory*, JHEP 9811:027 (1998) &lbrack;[arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021), [doi:10.1088/1126-6708/1998/11/027](https://iopscience.iop.org/article/10.1088/1126-6708/1998/11/027)&rbrack;
-> Our purpose here is to argue that although the Romans supergravity theory may not be derivable from 11-dimensional supergravity, or any covariant massive deformation thereof, the massive IIA superstring, whose low energy limit is the Romans theory, can be obtained from M-theory.
+> "Our purpose here is to argue that although the Romans supergravity theory may not be derivable from 11-dimensional supergravity, or any covariant massive deformation thereof, the massive IIA superstring, whose low energy limit is the Romans theory, can be obtained from M-theory.
 
-> The type IIB supergravity theory also cannot be obtained from 11-dimensional supergravity, but the type IIB string theory can be obtained from M-theory by compactifying on a 2-torus and taking a limit
+> The type IIB supergravity theory also cannot be obtained from 11-dimensional supergravity, but the type IIB string theory can be obtained from M-theory by compactifying on a 2-torus and taking a limit"
 
 
 * {#LoweNastaeRamgoolam03} D. A. Lowe, [[Horatiu Nastase]], [[Sanyaje Ramgoolam]], _Massive IIA String Theory and Matrix Theory Compactification_, Nucl. Phys. B 667 (2003) 55-89 ([cern:609880](http://cds.cern.ch/record/609880), <a href="https://doi.org/10.1016/S0550-3213(03)00547-9">doi:10.1016/S0550-3213(03)00547-9</a>)
