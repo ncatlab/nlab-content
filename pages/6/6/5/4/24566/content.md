@@ -168,7 +168,9 @@ In [[quantum simulation]] of the [[Schrödinger equation]]:
 
 * Seeking a quantum advantage for machine learning*, Nature Machine Intelligence **5** (2023) 813 &lbrack;[doi:10.1038/s42256-023-00710-9](https://doi.org/10.1038/s42256-023-00710-9)&rbrack;
 
-* Hayata Yamasaki, Natsuto Isogai, Mio Murao: *Advantage of Quantum Machine Learning from General Computational Advantages* &lbrack;[arXiv:2312.03057](https://arxiv.org/abs/2312.03057)&rbrack:
+* Hayata Yamasaki, Natsuto Isogai, Mio Murao: *Advantage of Quantum Machine Learning from General Computational Advantages* &lbrack;[arXiv:2312.03057](https://arxiv.org/abs/2312.03057)&rbrack;
+
+* H. Zhao et al.: *Exponential quantum advantage in processing massive classical data* &lbrack;[arXiv:2604.07639](https://arxiv.org/abs/2604.07639)&rbrack;
 
 
 
