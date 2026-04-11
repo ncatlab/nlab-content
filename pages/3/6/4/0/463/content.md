@@ -50,7 +50,7 @@ On the [[relative Langlands program]]
 
 On the [[geometric Langlands correspondence]]:
 
-* [[David Ben-Zvi]]: *What is the Geometric Langlands Correspondence About?* (2026) &lbrack;[pdf](https://web.ma.utexas.edu/users/benzvi/CurrentEvents021426.pdf)&rbrack;
+* [[David Ben-Zvi]]: *What is the Geometric Langlands Correspondence About?*, AMS Current Events Bulletin (2026) 4--36 &lbrack;[pdf](https://www.ams.org/meetings/lectures/CEB-2026-ePDF.pdf), [pdf](https://web.ma.utexas.edu/users/benzvi/CurrentEvents021426.pdf)&rbrack;
 
 
 Further:
