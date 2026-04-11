@@ -51,7 +51,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
-* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>\]
+* [[Jeffrey Strom]]: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>, <a href="https://www.nzdr.ru/data/media/biblio/kolxoz/M/MD/MDat/Strom%20J.%20Modern%20homotopy%20theories%20(draft,%20Univ.%20of%20Michigan,%202010)(363s)_MDat_.pdf">pdf</a>\]
 
 * [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7329-0">doi:10.1007/978-1-4419-7329-0</a>\]
 
@@ -135,14 +135,15 @@ On [[constructive mathematics|constructive]] methods ([[constructive algebraic t
 
 Lecture notes:
 
-* {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
+* {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]): _Algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
 
 * [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
 
 * [[James F. Davis]], [[Paul Kirk]]: *Lecture notes in algebraic topology*, Graduate Studies in Mathematics **35**, AMS (2001) \[<a href="https://doi.org/10.1090/gsm/035">doi:10.1090/gsm/035</a>, [ams:gsm/035](https://www.ams.org/books/gsm/035), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/davkir.pdf)\]
 
 * [[Gereon Quick]]: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_ (2014)
- 
+
+* Pavel Sechin (notes by A. Pröls): *Algebraic Topology II*, lecture notes, Regensburg (2021) \[<a href="https://homepages.uni-regensburg.de/~sep03286/AT2-notes-Proels.pdf">pdf</a>\]
  
 Survey of various subjects in algebraic topology:
 
