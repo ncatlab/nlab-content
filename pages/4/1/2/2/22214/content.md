@@ -153,6 +153,11 @@ Critical discussion:
 * Pablo Bermejo, Paolo Braccia, Manuel S. Rudolph, Zoë Holmes, Lukasz Cincio, M. Cerezo: *Quantum Convolutional Neural Networks are (Effectively) Classically Simulable* &lbrack;[arXiv:2408.12739](https://arxiv.org/abs/2408.12739)&rbrack;
   > "We present this as a challenge to the community and argue that until the viability of QCNNs for \[not classically simulable\] datasets can be demonstrated there is no reason to believe QCNNs will be useful. \[...\] Hence we boldly claim: *There is currently no evidence that QCNNs will work on classically non-trivial tasks, and their place in the upper echelon of promising QML architectures should be seriously revised.*"
 
+In contrast, claim of provable [[quantum advantage]]:
+
+* H. Zhao et al.: *Exponential quantum advantage in processing massive classical data* &lbrack;[arXiv:2604.07639](https://arxiv.org/abs/2604.07639)&rbrack;
+
+
 ### Applications
 
 There are or will be innumerable applications. Here are some:
