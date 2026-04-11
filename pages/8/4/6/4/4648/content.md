@@ -219,7 +219,7 @@ On whether the proposed [interpretation in string theory](#ReferencesInterpretat
 * [[Ron Donagi]], [[Tony Pantev]]: _Lectures on the geometric Langlands conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
   > (with an eye towards [[nonabelian Hodge theory]])
 
-* [[David Ben-Zvi]]: *What is the Geometric Langlands Correspondence About?* (2026) &lbrack;[pdf](https://web.ma.utexas.edu/users/benzvi/CurrentEvents021426.pdf)&rbrack;
+* [[David Ben-Zvi]]: *What is the Geometric Langlands Correspondence About?*, AMS Current Events Bulletin (2026) 4--36 &lbrack;[pdf](https://www.ams.org/meetings/lectures/CEB-2026-ePDF.pdf), [pdf](https://web.ma.utexas.edu/users/benzvi/CurrentEvents021426.pdf)&rbrack;
 
 More on the relation to [[string theory]] and [[S-duality]]:
 
