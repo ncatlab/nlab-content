@@ -54,8 +54,7 @@ Further textbook accounts:
 
 and leading over to [[homotopy theory]]:
 
-* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 
-([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
+* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer (1984) \[<a href="https://doi.org/10.1007/978-1-4613-8283-6">doi:10.1007/978-1-4613-8283-6</a>\]
 
 On [[counterexamples]] in topology:
 
@@ -92,9 +91,13 @@ frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen 2018 ([pdf](https://www.math.ru.nl/~mueger/topology.pdf))
 
-Introduction aimed at [[physics|physicists]]:
+Introductions aimed at [[physics|physicists]]:
+
+* [[Albert S. Schwarz]]; chapters 0-1 of: *Topology for Physicists*, Grundlehren der mathematischen Wissenschaften **308**, Springer (1994) \[<a href="https://doi.org/10.1007/978-3-662-02998-5">doi:10.1007/978-3-662-02998-5</a>\] 
 
 * [[Helmut Eschrig]], Section 2 of: *Topology and Geometry for Physics*, Lecture Notes in Physics, Springer (2011) \[<a href="https://doi.org/10.1007/978-3-642-14700-5">doi:10.1007/978-3-642-14700-5</a>\] 
+
+
 
 On basic topology set up in [[intuitionistic mathematics]]:
 
