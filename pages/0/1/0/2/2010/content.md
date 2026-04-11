@@ -62,13 +62,18 @@ There is also the term _set-theoretic topology_, but that tends to allude to add
 Many textbooks on _[[topology]]_ are really about "general topology". Examples with that exact title:
 
 * [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+  > (the origin of the term)
 
 * {#Kelley75} [[John Kelley]]: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251), <a href="https://cjhb.site/Files.php/books/(Uncategorized)/General%20Topology-John%20L.Kelley.pdf">pdf</a>&rbrack;
 
+* [[Ioan Mackenzie James]]: *General Topology and Homotopy Theory*, Springer (1984) \[<a href="https://doi.org/10.1007/978-1-4613-8283-6">doi:10.1007/978-1-4613-8283-6</a>\]
+  > (towards topological [[homotopy theory]])
 
-Further to general point-set topology:
 
-* [[Urs Schreiber]]: _[[Introduction to Topology -- 1]]_
+
+Lecture notes on the $n$Lab:
+
+* [[Urs Schreiber]]: *[[Introduction to Topology -- 1]]* (2017)
 
 
 
