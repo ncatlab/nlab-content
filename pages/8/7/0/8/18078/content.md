@@ -1,27 +1,3 @@
-\begin{tikzcd}
-A \otimes A \otimes N
-  \arrow[r, "id_A \otimes \lambda"]
-  \arrow[d, "\cdot \otimes id_N"']
-& A \otimes N
-  \arrow[d, "\lambda"]
-\\
-A \otimes N
-  \arrow[r, "\lambda"]
-& N
-\end{tikzcd}
-
-\begin{tikzcd}
-I \otimes N
-  \arrow[rr, "e \otimes id_N"]
-  \arrow[dr]
-&& A \otimes N
-  \arrow[dl, "\lambda"]
-\\
-& N
-\end{tikzcd}
-
-***
-
 
 \begin{tikzpicture}[scale=2.5]
   \usetikzlibrary{decorations.markings, arrows.meta, calc}
