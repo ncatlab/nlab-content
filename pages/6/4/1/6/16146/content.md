@@ -59,28 +59,29 @@ A (left) **module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
 
 such that this satisfies the axioms of an [[action]], in that the following are [[commuting diagrams]] in $\mathcal{V}$:
 
-$$
-  \array{
-     A \otimes A \otimes N &\stackrel{id_A \otimes \lambda}{\to}& A \otimes N
-     \\
-     \downarrow^{\mathrlap{\cdot \otimes id_N}} && \downarrow^{\mathrlap{\lambda}}
-     \\
-     A \otimes N &\stackrel{\lambda}{\to}& N
-  }
-$$
+\begin{tikzcd}
+A \otimes A \otimes N
+  \arrow[r, "id_A \otimes \lambda"]
+  \arrow[d, "\cdot \otimes id_N"']
+& A \otimes N
+  \arrow[d, "\lambda"]
+\\
+A \otimes N
+  \arrow[r, "\lambda"]
+& N
+\end{tikzcd}
 
 and
 
-$$
-  \array{   
-     I \otimes N &&\stackrel{e \otimes id_N}{\to}&& A \otimes N
-     \\
-     & \searrow && \swarrow_{\mathrlap{\lambda}}
-     \\
-     && N
-  }
-  \,.
-$$
+\begin{tikzcd}
+I \otimes N
+  \arrow[rr, "e \otimes id_N"]
+  \arrow[dr]
+&& A \otimes N
+  \arrow[dl, "\lambda"]
+\\
+& N
+\end{tikzcd}
 
 =--
 
@@ -98,28 +99,29 @@ $$
 
 such that this satisfies the axioms of a (right) [[action]], in that the following are [[commuting diagrams]] in $\mathcal{V}$:
 
-$$
-  \array{
-     N \otimes A \otimes A &\stackrel{\rho \otimes id_A}{\to}& N \otimes A
-     \\
-     \downarrow^{\mathrlap{\cdot \otimes id_N}} && \downarrow^{\mathrlap{\rho}}
-     \\
-     N \otimes A &\stackrel{\rho}{\to}& N
-  }
-$$
+\begin{tikzcd}
+N \otimes A \otimes A
+  \arrow[r, "\rho \otimes id_A"]
+  \arrow[d, "id_N \otimes \cdot"']
+& N \otimes A
+  \arrow[d, "\rho"]
+\\
+N \otimes A
+  \arrow[r, "\rho"]
+& N
+\end{tikzcd}
 
 and
 
-$$
-  \array{   
-     N \otimes I &&\stackrel{id_N \otimes e}{\to}&& N \otimes A
-     \\
-     & \searrow && \swarrow_{\mathrlap{\rho}}
-     \\
-     && N
-  }
-  \,.
-$$
+\begin{tikzcd}
+N \otimes I
+  \arrow[rr, "id_N \otimes e"]
+  \arrow[dr]
+&& N \otimes A
+  \arrow[dl, "\rho"]
+\\
+& N
+\end{tikzcd}
 \end{definition}
 
 ## Examples
@@ -166,18 +168,17 @@ A **module** $N$ over a ring $R$ is
 
 1. such that the [[diagram]]
 
-   $$
-     \array{
-        R \otimes R \otimes N 
-        &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
-        \\
-        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
-        && 
-        \downarrow^{\mathrlap{\alpha}}
-        \\
-        R \otimes N &\to& N 
-     }
-   $$
+\begin{tikzcd}
+   R \otimes R \otimes N
+     \arrow[r, "\cdot_R \otimes id_N"]
+     \arrow[d, "id_R \otimes \alpha"']
+   & R \otimes N
+     \arrow[d, "\alpha"]
+   \\
+   R \otimes N
+     \arrow[r, "\alpha"]
+   & N
+\end{tikzcd}
 
    [[commuting diagram|commutes]] in [[Ab]],  which means that for all elements as before we have
 
@@ -188,15 +189,15 @@ A **module** $N$ over a ring $R$ is
 
 1. such that the diagram
 
-   $$
-     \array{
-        1 \otimes N &&\stackrel{1 \otimes id_N}{\to}&& R \otimes N
-        \\
-        & \searrow && \swarrow_{\mathrlap{\alpha}}
-        \\
-        && N
-     }
-   $$
+\begin{tikzcd}
+1 \otimes N
+  \arrow[rr, "1 \otimes id_N"]
+  \arrow[dr]
+&& R \otimes N
+  \arrow[dl, "\alpha"]
+\\
+& N
+\end{tikzcd}
      
    commutes, which means that on elements as above 
 
@@ -252,15 +253,15 @@ such that
 
 1. the neutral element acts trivially
 
-   $$
-     \array{
-        * \times S &&\stackrel{\simeq}{\to}&& S
-        \\  
-        & {}_{(e,id_S)}\searrow && \nearrow_{\mathrlap{\lambda}}
-        \\
-        && G \times S
-     }
-   $$
+\begin{tikzcd}
+* \times S
+  \arrow[rr, "\simeq"]
+  \arrow[dr, "{(e, id_S)}"']
+&& S
+\\
+& G \times S
+  \arrow[ur, "\lambda"]
+\end{tikzcd}
 
 1. the action property holds: for all $g_1, g_2 \in G$ and $s \in S$ we have $\lambda(g_1,\lambda(g_2, s)) = \lambda(g_1 \cdot g_2, s)$.
 
