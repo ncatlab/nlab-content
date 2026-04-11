@@ -28,7 +28,7 @@
 ### For mathematical structures
  {#ForMathematicalStructure}
 
-According to [Lawvere 1984](#Lawvere84), [[codiscrete objects]], i.e. those in the [[image]] of a [[right adjoint]] to a [[forgetful functor]], may be though of as "chaotic" with repect to whatever [[mathematical structure]] was forgotten by the forgetful functor.
+According to [Lawvere 1984](#Lawvere84), [[codiscrete objects]], i.e. those in the [[image]] of a [[right adjoint]] to a [[forgetful functor]], may be though of as "chaotic" with respect to whatever [[mathematical structure]] was forgotten by the forgetful functor.
 
 This convention matches/subsumes more-or-less common  terminology such as *[[chaotic topology]]* or *[[chaotic groupoid]]*.
 
@@ -65,7 +65,7 @@ where it is used for [[Grothendieck topologies]], from which it was, apparently,
 
 General formalization of the concept in terms of [[right adjoints]] to [[forgetful functors]] is due to:
 
-* {#Lawvere84} [[William Lawvere]], _Functorial Remarks on the General Concept of Chaos_, IMA Preprint 87, 1984 ([pdf](https://www.ima.umn.edu/sites/default/files/87s.pdf))
+* {#Lawvere84} [[William Lawvere]], _Functorial Remarks on the General Concept of Chaos_, IMA Preprint 87, 1984 ([pdf](https://lawverearchives.com/wp-content/uploads/2024/12/1984-functorial-remarks-on-the-general-concept-of-chaos.pdf))
 
 [[!redirects chaos theory]]
 
