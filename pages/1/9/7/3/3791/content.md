@@ -18,7 +18,7 @@ __Albert Solomonowich Schwarz__ is a mathematician and a theoretical physicist b
 (See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
 
 
-On [[homotopy theory]] and [[algebraic topology]] for application to [[topological quantum field theory]] and [[topological phases of matter]]:
+On [[general topology|general]] [[topology]], [[homotopy theory]] and [[algebraic topology]] for application to [[topological quantum field theory]] and [[topological phases of matter]]:
 
 * [[Albert S. Schwarz]]: *Topology for Physicists*, Grundlehren der mathematischen Wissenschaften **308**, Springer (1994) \[<a href="https://doi.org/10.1007/978-3-662-02998-5">doi:10.1007/978-3-662-02998-5</a>\] 
 
