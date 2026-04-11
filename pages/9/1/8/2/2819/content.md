@@ -154,12 +154,11 @@ Every [[covering space]] projection is a Hurewicz fibration, by [this prop.](cov
 \begin{prop}\label{NumerableFiberBundlesAreSerreFibrations}
 **([[numerable fiber bundles]] are Hurewicz fibrations)** \linebreak
 
-Every [[numerable fiber bundle]], hence in particular every [[fiber bundle]] over a [[paracompact topological space]], is a Serre fibration.
+Every [[numerable fiber bundle]], hence in particular every [[fiber bundle]] over a [[paracompact topological space]], is a [[Serre fibration]].
 
 \end{prop}
 \begin{proof}
-  By definition of local triviality, 
-  for a [[numerable fiber bundle]] $p \colon E \to B$ -- such as a [[fiber bundle]] over a [[paracompact topological space]] -- there exists a [[numerable open cover]] $\phi \colon U \to B$ such that the [[pullback bundle]] $\phi^\ast p$ is trivial, i.e. is the [[Cartesian product]] [[projection]]
+  By definition of local triviality, for a [[numerable fiber bundle]] $p \colon E \to B$ -- such as a [[fiber bundle]] over a [[paracompact topological space]] -- there exists a [[numerable open cover]] $\phi \colon U \to B$ such that the [[pullback bundle]] $\phi^\ast p$ is trivial, i.e. is the [[Cartesian product]] [[projection]]
 
 $$
   \phi^\ast p \;\colon\; U \times F \longrightarrow U
