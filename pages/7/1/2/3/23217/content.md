@@ -15,6 +15,10 @@ On [[fr-codes]] in [[homological algebra]]:
 
 * [[Sergei O. Ivanov]], [[Roman Mikhailov]], Fedor Pavutnitskiy:  *Limits, standard complexes and $\mathbf{fr}$-codes*,  Sb. Math. **211** (2020) 1568 &lbrack;[arXiv:1906.08793](https://arxiv.org/abs/1906.08793), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348)&rbrack;
 
+Proof that all higher [[homotopy groups]] [[homotopy groups of spheres|of]] the [[2-sphere]] are non-trivial:
+
+* [[Sergei O. Ivanov]], [[Roman Mikhailov]], Jie Wu: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
+
 
 On aspects of [[group theory]] seen inside [[homotopy theory]]/[[infinity-group|$\infty$-group theory]]:
 
