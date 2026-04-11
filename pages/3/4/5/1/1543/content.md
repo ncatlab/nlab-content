@@ -731,7 +731,7 @@ $$
   X \longrightarrow X/G
 $$
 
-is a $G$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
+is a $G$-[[principal bundle]] ([hence](Hurewicz+fibration#NumerableFiberBundlesAreSerreFibrations) in particular a [[Serre fibration]]).
 
 =--
 
@@ -770,7 +770,7 @@ $$
   G \longrightarrow G/H
 $$
 
-is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).  
+is an $H$-[[principal bundle]] ([hence](Hurewicz+fibration#NumerableFiberBundlesAreSerreFibrations) in particular a [[Serre fibration]]).  
 
 =--
 
