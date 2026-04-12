@@ -18,7 +18,7 @@ A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]
 
 This terminology is borrowed from [[graph|graph theory]]: a [[directed graph]] is called strongly connected when it is inhabited and for every two vertices $u,v$ there is a directed path from $u$ to $v$. Hence, a category is strongly connected precisely when its underlying directed graph is strongly connected.
 
-If we merely require that for all objects $A,B$ there is a morphism $A \to B$ or a morphism $B \to A$, we call $C$ **semi-strongly connected**. This is no standard terminology, though, and in fact in Bunge's thesis (cited below) this property has been (somewhat confusingly) called *strongly connected*.
+If we merely require that for all objects $A,B$ there is a morphism $A \to B$ or a morphism $B \to A$, we call $C$ **semi-strongly connected**. This is no standard terminology, though, and in fact in Bunge's thesis (cited below) this property has been called *strongly connected*.
 
 ## Properties
 
