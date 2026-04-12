@@ -532,9 +532,14 @@ The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]
 
 * Davidson, Nicholas, _Modules Over Localized Group Rings for Groups Mapping Onto Free Groups_ (2011). Boise State University Theses and Dissertations. Paper 170. ([web](http://scholarworks.boisestate.edu/td/170/))
 
-On the case of profinite groups:
+On the case of [[profinite groups]]:
 
 * A. Brumer, _Pseudocompact algebras, profinite groups and class formations_,  J. Algebra __4__ (1966) 442-470, [MR202790](http://www.ams.org/mathscinet-getitem?mr=202790), <a href="http://dx.doi.org/10.1016/0021-8693(66)90034-2">doi</a> [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/33410/0000811.pdf?sequence=1)
+
+On the group algebra of [[symmetric group]]:
+
+* [[Darij Grinberg]]: *An introduction to the symmetric group algebra* (2025) &lbrack;[arXiv:2507.20706](https://arxiv.org/abs/2507.20706)&rbrack;
+
 
 ### In physics
 
@@ -575,9 +580,6 @@ Group algebras play a role in the relation between [[ordered abelian groups]] an
 
 * {#Gilmer92}[[Robert Gilmer]]: *Multiplicative Ideal Theory*, Queen's Papers in Pure and Applied Mathematics (1992)
 
-On the group algebra of [[symmetric group]]:
-
-* Darij Grinberg. *An introduction to the symmetric group algebra* (2025). ([arXiv:2507.20706](https://arxiv.org/abs/2507.20706)).
 
 [[!redirects group algebras]]
 
