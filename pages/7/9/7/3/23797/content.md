@@ -51,7 +51,7 @@ Original articles:
 
 * [[Bertrand I. Halperin]]: *Quantized Hall conductance, current-carrying edge states, and the existence of extended states in a two-dimensional disordered potential*, Phys. Rev. B **25** (1982) 2185 &lbrack;[doi:10.1103/PhysRevB.25.2185](https://doi.org/10.1103/PhysRevB.25.2185)&rbrack;
 
-* [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
+* {#Wen1990} [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
 
 * Michael Stone: *Edge waves in the quantum Hall effect*, Annals of Physics **207** 1 (1991) 38-52 \[<a href="https://doi.org/10.1016/0003-4916(91)90177-A">doi:10.1016/0003-4916(91)90177-A</a>\]
 
@@ -68,6 +68,25 @@ Review:
 In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism)) FQH systems:
 
 * [[Ana Lopez]], [[Eduardo Fradkin]]: *Effective field theory for the bulk and edge states of quantum Hall states in unpolarized single layer and bilayer systems*, Phys. Rev. B **63** (2001) 085306 \[<a href="https://doi.org/10.1103/PhysRevB.63.085306">doi:10.1103/PhysRevB.63.085306</a>, [arXiv:cond-mat/0008219](https://arxiv.org/abs/cond-mat/0008219)\]
+
+* {#Bacciconi2021} Zeno Bacciconi: *Fractional Quantum Hall edge dynamics from a Quantum Optics perspective* &lbrack;[arXiv:2111.05858](https://arxiv.org/abs/2111.05858)&rbrack;
+
+
+
+On edge model [[spectral flow]]:
+
+* [Wen 1990 §III](#Wen1990)
+
+* [[Jürg Fröhlich]], T. Kerler; pp 395--396, 400--402 in: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
+
+
+* Ivan P. Levkivskyi, [[Jürg Fröhlich]], Eugene V. Sukhorukov; pages 9--10, 15--18: *Theory of fractional quantum Hall interferometers*, Phys. Rev. B **86** 245105 (2012) \[<a href="https://doi.org/10.1103/PhysRevB.86.245105">doi:10.1103/PhysRevB.86.245105</a>, [arXiv:1005.5703](https://arxiv.org/abs/1005.5703)\]
+
+* Charles-Edouard Bardyn, Michele Filippone, Thierry Giamarchi; pages 3--4: *Bulk Pumping in 2D Topological Phases*, Phys. Rev. B **99** 035150 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.99.035150">doi:10.1103/PhysRevB.99.035150</a>, [arXiv:1807.01710](https://arxiv.org/abs/1807.01710)\]
+
+* [Bacciconi 2021 §1.4.4 \& §1.2.4](#Bacciconi2021)
+
+
 
 
 
