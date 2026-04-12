@@ -17,7 +17,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 and for [[KO]]:
 
-* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]]: *Twisted differential KO-theory*, Tunisian Journal of Mathematics **8** 2 (2026) 265--304 &lbrack;[arXiv:1905.09085](https://arxiv.org/abs/1905.09085), [doi:10.2140/tunis.2026.8.265](https://doi.org/10.2140/tunis.2026.8.265)&rbrack;
 
 On [[differential cohomotopy|differential]] [[Cohomotopy]] and [[Hypothesis H]]:
 
