@@ -401,7 +401,7 @@ That in the context of the [[axiom of choice]], the [[symmetric group]] of an [[
 
 On the [[group algebra]] of symmetric groups
 
-* Darij Grinberg. *An introduction to the symmetric group algebra* (2025). ([arXiv:2507.20706](https://arxiv.org/abs/2507.20706)).
+* [[Darij Grinberg]]: *An introduction to the symmetric group algebra* (2025) &lbrack;[arXiv:2507.20706](https://arxiv.org/abs/2507.20706)&rbrack;
 
 [[!redirects symmetric groups]]
 
