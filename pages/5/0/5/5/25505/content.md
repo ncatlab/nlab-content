@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -54,7 +52,21 @@ $$
 $$
 
 
+## Partial generalization to modules
+  {#PartialGeneralizationToModules}
+
+
+While the rank-nullity theorem does not fully generalize from [[vector spaces]] over [[fields]] to [[modules]] over [[rings]], some aspects do carry over. For instance:
+
+\begin{proposition}\label{OrzechTheorem}
+  Let $M$ be a [[finitely generated module]] over a [[unital ring|unital]] [[commutative ring]], and $N \subset M$ a [[submodule]]. Then [[surjective]] module [[homomorphisms]] $N \longrightarrow M$ are already [[isomorphisms]].
+\end{proposition}
+This was claimed in [Orzech 1971](#Orzech1971), though with a gap in the proof (cf. [Grinberg 2014](#Grinberg2014)). A full proof was given by [Grinberg 2016](#Grinberg2016). For the special case $N = M$ see also [SP 05G8](#StacksProject05G8).
+
+
 ## References
+
+### Ordinary
 
 Textbook accounts:
 
@@ -68,4 +80,20 @@ See also:
 
 * Wikipedia, *[Rank-nullity theorem](https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem)*
 
+### Partial generalization to modules
+ {#ReferencesPartialGenealizationToModules}
+
+* {#Orzech1971} Morris Orzech: *Onto Endomorphisms are Isomorphisms*, The American Mathematical Monthly **78** 4 (1971) 357-362 \[<a href="https://doi.org/10.2307/2316897">doi:10.2307/2316897</a>, [jstor:2316897](https://www.jstor.org/stable/2316897)\]
+
+* {#Grinberg2014} [[Darij Grinberg]]: *Is Orzech's generalization of the surjective-endomorphism-is-injective theorem correct?* (2014) &lbrack;[MO:q/1065786](https://math.stackexchange.com/q/1065786/58526)&rbrack;
+
+* {#Grinberg2016} [[Darij Grinberg]]: *A constructive proof of Orzech’s theorem* (2016) &lbrack;[pdf](https://www.cip.ifi.lmu.de/~grinberg/algebra/orzech.pdf), [[Grinberg-OrzechTheorem.pdf:file]]&rbrack;
+
+* {#StacksProject05G8} [[The Stacks Project]]: [Tag 05G8](https://stacks.math.columbia.edu/tag/05G8)
+
+
 [[!redirects fundamental theorem of linear maps]]
+
+[[!redirects Orzech's theorem]]
+[[!redirects Orzech theorem]]
+
