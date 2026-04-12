@@ -16,9 +16,11 @@
 
 A [[category]] $C$ is **strongly connected** if it is [[inhabited set|inhabited]] and for any [[pair]] of [[objects]] $A,B$ there is a [[morphism]] $A \to B$. That is, each [[hom-set]] is inhabited.
 
-This terminology is borrowed from [[graph|graph theory]]: a [[directed graph]] is called strongly connected when it is inhabited and for every two vertices $u,v$ there is a directed path from $u$ to $v$. Hence, a category is strongly connected precisely when its underlying directed graph is strongly connected.
+This terminology is borrowed from [[graph theory]]: a [[directed graph]] is called strongly connected when it is inhabited and for every two vertices $u,v$ there is a directed path from $u$ to $v$. Hence, a category is strongly connected precisely when its underlying directed graph is strongly connected.
 
-If we merely require that for all objects $A,B$ there is a morphism $A \to B$ or a morphism $B \to A$, we call $C$ **semi-strongly connected**. This is no standard terminology, though, and in fact in Bunge's thesis (cited below) this property has been called *strongly connected*.
+If we merely require that for all [[pairs]] of objects $A,B$ there is a morphism $A \to B$ *or* a morphism $B \to A$, we call $C$ **semi-strongly connected**. This is not standard terminology, though; in fact [Bunge 1966 p 16](#Bunge1966) called this condition *strongly connected*.
+
+In any case, both these conditions are indeed stronger than that on a *[[connected category]]*, where for each pair of objects there is only required to be a [[zig-zag]] of morphisms connecting them.
 
 ## Properties
 
@@ -62,7 +64,7 @@ Not semi-strongly connected are:
 
 The terminology was introduced in:
 
-* [[Marta Bunge]]: *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
+* {#Bunge1966} [[Marta Bunge]]: *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
 
   Reprints in Theory and Applications of Categories **30** (2024) 1-84 &lbrack;[tac:tr39abs](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/30/tr30.pdf)&rbrack;
 
