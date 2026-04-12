@@ -8,9 +8,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -74,7 +74,7 @@ More detailed discussion of twisted differential K-theory for [[KU]]/[[KO]] and 
 
 * {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, Advances in Theoretical and Mathematical Physics **26** 5 (2022) &lbrack;[doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2), [arXiv:1903.08843](https://arxiv.org/abs/1903.08843)&rbrack;
 
-* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]]: *Twisted differential KO-theory*, Tunisian Journal of Mathematics **8** 2 (2026) 265--304 &lbrack;[arXiv:1905.09085](https://arxiv.org/abs/1905.09085), [doi:10.2140/tunis.2026.8.265](https://doi.org/10.2140/tunis.2026.8.265)&rbrack;
 
 * [[Fabio Ferrari Ruffino]], [[Juan Carlos Rocha Barriga]], _Twisted differential K-characters and D-branes_, Nuclear Physics B Volume 960, November 2020, 115169 ([arXiv:2009.04223](https://arxiv.org/abs/2009.04223). [doi:10.1016/j.nuclphysb.2020.115169](https://doi.org/10.1016/j.nuclphysb.2020.115169))
 
