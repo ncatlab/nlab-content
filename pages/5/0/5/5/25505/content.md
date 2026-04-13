@@ -59,51 +59,193 @@ $$
 While the rank-nullity theorem does not fully generalize from [[vector spaces]] over [[fields]] to [[modules]] over [[rings]], some aspects do carry over. For instance:
 
 \begin{proposition}\label{OrzechTheorem}
-  Let $M$ be a [[finitely generated module]] over a [[unital ring|unital]] [[commutative ring]], and $N \subset M$ a [[submodule]]. Then [[surjective]] module [[homomorphisms]] $N \longrightarrow M$ are already [[isomorphisms]].
+  Let $M$ be a [[finitely generated module]] over a [[unital ring|unital]] [[commutative ring]], and $N \subset M$ a [[submodule]]. Then [[surjective]] module [[homomorphisms]] $f \colon N \twoheadrightarrow M$ are already [[isomorphisms]].
 \end{proposition}
 
 This was claimed in [Orzech 1971](#Orzech1971), though with a gap in the proof (cf. [Grinberg 2014](#Grinberg2014)). A full proof was given by [Grinberg 2016](#Grinberg2016). For the special case $N = M$ see also [SP 05G8](#StacksProject05G8).
 
-\begin{proof}
-The following proof reproduces a [proof by Thomas Browning](https://math.stackexchange.com/a/5120133/58526) using the [[Cayley-Hamilton theorem]].
+\begin{proof}\label{ProofOfOrzechTheorem}
+The following proof essentially reproduces a [proof by Thomas Browning](https://math.stackexchange.com/a/5120133/58526) using the [[Cayley-Hamilton theorem]].
 
-Let $M=\langle m_1,\ldots,m_k\rangle$ with $m_i=f(n_i)$ and $n_i=\sum_j a_{i j} m_j$.
-Set $A=(a_{i j})$, so that $\vec{n}=A\vec{m}$.
-
-By the [[Cayley-Hamilton theorem]], $A$ satisfies a [[polynomial]] equation
-$$A^k+c_{k-1}A^{k-1}+\cdots+c_2A^2+c_1A+c_0 I=0.$$
-
-Applying this to $\vec{m}$ gives
+Let $(m_i \in M)_{i = 1}^k$ be the assumed [[finite set|finite]] [[tuple]] of generators of the module $M$, so that  
 $$
-  A^k\vec{m}+c_{k-1}A^{k-1}\vec{m}+\cdots+c_2A^2\vec{m}+c_1A\vec{m}+c_0\vec{m}=0.
+  M 
+    = 
+  \langle m_1,\ldots,m_k\rangle
+  \mathrlap{\,.}
+$$ 
+By the assumption that $f$ is [[surjective]], there must be [[preimages]] $(n_i \in N)_{i =1}^k$, 
+hence with 
+$$
+  m_i 
+    = 
+  f(n_i)
+  \mathrlap{\,.}
+$$ 
+Moreover, by the assumption that $N$ is a [[submodule]] of $M$, these preimages must be [[linear combinations]] of the generators, 
+$$
+  n_i 
+   = 
+  \textstyle{\sum_j} 
+    a_{i j} m_j
+$$
+with [[coefficient]] [[matrix]]
+$$
+  A = (a_{i j})
+  \mathrlap{\,,}
+$$ 
+so that 
+$$
+  \vec{n}=A\vec{m}
+  \mathrlap{\,.} 
 $$
 
-Substituting $A\vec{m}=\vec{n}$ gives
+Now, by [[Cayley-Hamilton theorem]], the [[matrix]] $A$ satisfies its own [[characteristic polynomial]] [[equation]]:
 $$
-  A^{k-1}\vec{n}+c_{k-1}A^{k-2}\vec{n}+\cdots+c_2A\vec{n}+c_1\vec{n}+c_0\vec{m}=0.
+  A^k 
+    + 
+  c_{k-1} A^{k-1}
+    +
+  \cdots
+    +
+  c_2 A^2
+    +
+  c_1 A
+    +
+  c_0 I
+   \;=\;
+  0
+  \mathrlap{\,.}
 $$
 
-Applying $f$ component-wise gives
+Applying this equation to $\vec{m}$ gives
 $$
-  A^{k-1}\vec{m}+c_{k-1}A^{k-2}\vec{m}+\cdots+c_2A\vec{m}+c_1\vec{m}+f(c_0\vec{m})=0.
+  A^k\vec{m}
+    +
+  c_{k-1} A^{k-1}\vec{m}
+    +
+  \cdots
+    +
+  c_2 A^2 \vec{m}
+    +
+  c_1 A\vec{m}
+    +
+  c_0\vec{m}
+   \;=\;
+  0
+  \mathrlap{\,.}
 $$
 
-Substituting $A\vec{m}=\vec{n}$ gives
+Now consider the step of first substituting $A\vec{m}=\vec{n}$
 $$
-  A^{k-2}\vec{n}+c_{k-1}A^{k-3}\vec{n}+\cdots+c_2\vec{n}+c_1\vec{m}+f(c_0\vec{m})=0.
+  A^{k-1}\vec{n}
+    +
+  c_{k-1} A^{k-2}\vec{n}
+    +
+  \cdots
+    +
+  c_2A\vec{n}
+    +
+  c_1\vec{n}
+    +
+  c_0\vec{m}
+   \;=\;
+  0
+  \mathrlap{\,.}
+$$
+and then applying $f$ component-wise, to obtain:
+$$
+  A^{k-1}\vec{m}
+    +
+  c_{k-1}A^{k-2}\vec{m}
+    +
+  \cdots
+    +
+  c_2A\vec{m}
+    +
+  c_1\vec{m}
+    +
+  f(c_0\vec{m})
+    \;=\;
+  0
+  \mathrlap{\,.}
 $$
 
-Applying $f$ component-wise gives
-$$A^{k-2}\vec{m}+c_{k-1}A^{k-3}\vec{m}+\cdots+c_2\vec{m}+f(c_1\vec{m}+f(c_0\vec{m}))=0.$$
+Observe that this has had the effect of reducing the order of the powers of $A$. So, applying the same kind of step again, 
+by first substituting $A\vec{m}=\vec{n}$ 
+$$
+  A^{k-2}\vec{n}
+    +
+  c_{k-1}A^{k-3}\vec{n}
+    +
+  \cdots
+    + 
+  c_2\vec{n}
+    + 
+  c_1\vec{m}
+    +
+  f(c_0\vec{m})
+  \;=\;
+  0
+$$
+and then applying $f$ component-wise, reduces the order by another unit, to yield:
+$$
+  A^{k-2}\vec{m}
+    +
+  c_{k-1}A^{k-3}\vec{m}
+    +
+  \cdots
+    +
+  c_2\vec{m}
+    +
+  f\big(
+    c_1\vec{m}
+    +
+    f(c_0\vec{m})
+  \big)
+    \;=\;
+  0
+  \mathrlap{\,.}
+$$
 
-Iterating this will eventually give the identity
-$$\vec{m}+f(c_{k-1}\vec{m}+f(c_{k-2}\vec{m}+f(\cdots))=0.$$
+Hence by [[recursion|iteration]] of this step we eventually deduce an identity of the form
+$$
+  \vec{m}
+    +
+  f\Big(
+    c_{k-1}\vec{m}
+    +
+   f\big(
+     c_{k-2}\vec{m}
+     +
+     f(\cdots)
+   \big)
+  \Big)
+  \;=\;
+  0
+  \mathrlap{\,.}
+$$
 
-By taking [[linear combinations]], this same identity holds for all $x\in M$, so
-$$x+f(c_{k-1}x+f(c_{k-2}x+f(\cdots))=0.$$
+But since the $\vec m = (m_i)$ are generators, this same identity thus holds for arbitrary $x \in M$, by forming  [[linear combinations]]:
 
-Plugging in $x\in\ker f$ forces $x=0$.
-Thus, $f$ is [[injective]].
+$$
+  x
+  +
+  f\Big(
+    c_{k-1}x
+    +
+    f\big(
+      c_{k-2}x
+      +
+      f(\cdots)
+    \big)
+  \Big)
+  \;=\;
+  0
+  \mathrlap{\,.}
+$$
+
+Evaluating this for any element $x \in \ker(f)$ in the [[kernel]] of $f$ clearly causes the nested terms to vanish iteratively and hence implies $x = 0$, whence the kernel is trivial. This means that the surjective map $f$ is also [[injective]] and  [therefore](balanced+category#AbelianCategoriesAreBalanced) a  module [[isomorphism]], as claimed.
 \end{proof}
 
 ## References
@@ -121,6 +263,7 @@ A [[formal proof]] of the rank-nullity theorem in the [[Isabelle]] [[proof assis
 See also:
 
 * Wikipedia, *[Rank-nullity theorem](https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem)*
+
 
 ### Partial generalization to modules
  {#ReferencesPartialGenealizationToModules}
