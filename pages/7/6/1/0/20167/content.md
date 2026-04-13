@@ -685,7 +685,7 @@ The statement over [[manifolds]] is due to:
 
 reprinted in:
 
-* *Selecta Heinz Hopf* Springer (1964) 80-94 &lbrack;[doi:10.1007/978-3-662-25046-4_6](https://doi.org/10.1007/978-3-662-25046-4_6)&rbrack;
+* *Selecta Heinz Hopf*, Springer (1964) 80-94 &lbrack;[doi:10.1007/978-3-662-25046-4_6](https://doi.org/10.1007/978-3-662-25046-4_6)&rbrack;
 
 and the generalization to [[CW-complexes]] is due to:
 
