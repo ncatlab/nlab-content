@@ -3320,6 +3320,26 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Apr 2026
+
+* 13 Apr 2026
+
+  Dario Jukić (University of Zagreb):
+
+  **Topology Beyond Conventional Band Theory in Photonic Systems**
+
+  cf.: [arXiv:2205.07285](https://arxiv.org/abs/2205.07285)
+
+  > [[topological phase of matter|Topological phases]] are traditionally characterized by [[bulk]] [[energy band|band]] [[invariants]] that predict [[edge modes|boundary states]] through the [[bulk-boundary correspondence]]. In this talk, I will present theoretical results that extend this framework, supported by realizations in [[topological photonics|photonic systems]].
+
+  > I will begin with sub-symmetry, which isolates the minimal symmetry needed for boundary‑state protection, allowing a boundary mode to remain robust even when the global topological invariant is destroyed. Building on this, I will show how sub-symmetry enables topological bound states in the continuum, where localized boundary modes coexist with extended states.
+
+> I will then introduce multi-topological phases, arising from constrained inter-cell coupling. These phases host multiple hidden topological invariants and can undergo topological transitions without band‑gap closing, thereby going beyond the conventional bulk–boundary correspondence. I will also briefly touch on earlier work on the interplay of nonlinearity and topology, where nonlinear dynamics can couple energy into topologically protected states and generate inherited or emergent nonlinear features.
+
+> Together, these results reveal boundary phenomena that lie outside the scope of standard band theory, while photonic implementations offer a flexible setting for exploring them. If time permits, I will discuss how related ideas may extend beyond photonic systems, including a perspective in which physical quantities such as electric charge emerge as topological singularities.
+
+\linebreak
+
 
 
 ***
