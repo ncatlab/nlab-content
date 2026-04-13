@@ -1027,6 +1027,10 @@ On an effective toroidal sigma model:
 * C. A. Lütken: *Elliptic mirror of the quantum Hall effect* &lbrack;[arXiv:2602.20174](https://arxiv.org/abs/2602.20174)&rbrack;
 
 
+### Nonabelian Chern-Simons theory for FQH
+
+* Taegon Lee, Gil Young Cho, Donghae Seo: *$U(2)$ Chern-Simons-Ginzburg-Landau Theory of Fractional Quantum Hall Hierarchies* &lbrack;[arXiv:2604.09542](https://arxiv.org/abs/2604.09542)&rbrack;
+
 
 
 [[!include quantum Hall effect via noncommutative geometry -- references]]
