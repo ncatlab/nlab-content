@@ -304,6 +304,10 @@ See also:
 
 * Zhen Bi, *Physical Properties and Experimental Platform of Symmetry Protected Topological Phases* (2017) &lbrack;[escholarship:37q1k2rj](https://escholarship.org/uc/item/37q1k2rj)&rbrack;
 
+* Ziteng Wang, Xiangdong Wang, Zhichan Hu, Domenico Bongiovanni, [[Dario Jukić]], Liqin Tang, Daohong Song, Roberto Morandotti, Zhigang Chen, Hrvoje Buljan: *Sub-symmetry protected topological states*, Nature Physics **19** (2023) 992-998 \[<a href="https://doi.org/10.1038/s41567-023-02011-9">doi:10.1038/s41567-023-02011-9</a>, [arXiv:2205.07285](https://arxiv.org/abs/2205.07285)\]
+  > (focus on [[edge modes]])
+
+
 Some of the above material is taken from:
 
 * {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Topological Quantum Computation in TED-K]]* 
