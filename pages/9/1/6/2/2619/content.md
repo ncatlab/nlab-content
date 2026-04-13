@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny** or  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)) if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]]. It is called **absolutely presentable** if the functor preserves all colimits.
+Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny**,  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)), or **absolutely presentable** if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]].
 
 More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) \colon E \to V$ preserves all small colimits.
 =--
