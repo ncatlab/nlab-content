@@ -3322,9 +3322,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Apr 2026
 
-* 13 Apr 2026
+* {#JukicApr2026} 13 Apr 2026
 
-  Dario Jukić (University of Zagreb):
+  [[Dario Jukić]] (University of Zagreb):
 
   **Topology Beyond Conventional Band Theory in Photonic Systems**
 
@@ -3334,9 +3334,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > I will begin with sub-symmetry, which isolates the minimal symmetry needed for boundary‑state protection, allowing a boundary mode to remain robust even when the global topological invariant is destroyed. Building on this, I will show how sub-symmetry enables topological bound states in the continuum, where localized boundary modes coexist with extended states.
 
-> I will then introduce multi-topological phases, arising from constrained inter-cell coupling. These phases host multiple hidden topological invariants and can undergo topological transitions without band‑gap closing, thereby going beyond the conventional bulk–boundary correspondence. I will also briefly touch on earlier work on the interplay of nonlinearity and topology, where nonlinear dynamics can couple energy into topologically protected states and generate inherited or emergent nonlinear features.
+  > I will then introduce multi-topological phases, arising from constrained inter-cell coupling. These phases host multiple hidden topological invariants and can undergo topological transitions without band‑gap closing, thereby going beyond the conventional [[bulk-boundary correspondence]]. I will also briefly touch on earlier work on the interplay of nonlinearity and topology, where nonlinear dynamics can couple energy into topologically protected states and generate inherited or emergent nonlinear features.
 
-> Together, these results reveal boundary phenomena that lie outside the scope of standard band theory, while photonic implementations offer a flexible setting for exploring them. If time permits, I will discuss how related ideas may extend beyond photonic systems, including a perspective in which physical quantities such as electric charge emerge as topological singularities.
+  > Together, these results reveal boundary phenomena that lie outside the scope of standard [[electronic band structure|band theory]], while [[topological photonics|photonic implementations]] offer a flexible setting for exploring them. If time permits, I will discuss how related ideas may extend beyond photonic systems, including a perspective in which physical quantities such as [[electric charge]] emerge as topological singularities.
 
 \linebreak
 
