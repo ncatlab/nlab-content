@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Definition#
 
@@ -49,13 +48,13 @@ $$
   (-)\times O \quad \dashv\quad (-)^O \quad \dashv\quad  (-)^{1/O}
 $$
 
-## References#
+## References
 
 The ubiquity of right adjoints to exponential functors in the context of [[synthetic differential geometry]] was first pointed out in Lawvere (1980). Lawvere (2004) suggests to augment [[lambda calculus]] with such fractional operators. Thorough discussion of the concept is in Yetter (1987) and Kock&Reyes (1999). Moerdijk&Reyes (1991) have a succinct overview in the context of SDG as does Lawvere (1997).
 
-* [[William Lawvere]], _Toward the Description in a Smooth Topos of the Dynamically Possible Motions and Deformations of a Continuous Body_, Cah.Top.G&#233;om.Diff.Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_4/CTGDC_1980__21_4_377_0/CTGDC_1980__21_4_377_0.pdf))
+* [[William Lawvere]]; p. 388 of: _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, [[Cahiers]] **21** 4 (1980) 377-392 ([numdam:CTGDC_1980__21_4_377_0](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
 
-* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997.
+* {#Lawvere97} [[William Lawvere]]: _[[Toposes of laws of motion]]_, transcript of a talk in Montreal (1997) &lbrack;[[Lawvere-ToposesOfLawsOfMotion.pdf:file]]&rbrack; 
 
 * {#Law04} [[William Lawvere]], _Left and right adjoint operations on spaces and data types_ , Theor. Comp. Sci. **316** (2004) pp.105-111.
 
