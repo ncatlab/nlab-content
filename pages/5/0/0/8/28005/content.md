@@ -138,6 +138,12 @@ See also:
 
 * Wikipedia: *[Su--Schrieffer--Heeger model](https://en.wikipedia.org/wiki/Su%E2%80%93Schrieffer%E2%80%93Heeger_model)*
 
+
+Realization in [[topological photonics]]:
+
+* Shiqi Xia, Ziteng Wang, Domenico Bongiovanni, [[Dario Jukić]], Daohong Song, Liqin Tang, Jingjun Xu, Roberto Morandotti, Hrvoje Buljan, Zhigang Chen: *Topological photonics in one-dimensional settings* &lbrack;[arXiv:2602.08011](https://arxiv.org/abs/2602.08011)&rbrack;
+
+
 [[!redirects Su-Schrieffer-Heeger models]]
 
 [[!redirects Su--Schrieffer--Heeger model]]
