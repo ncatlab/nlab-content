@@ -33,7 +33,7 @@ $$
 
 In terms of [[presentable (infinity,1)-category|presentations]] this means:
 
-for $E \overset{p}{\longrightarrow} B$ a [[fibration]] in the [[classical model structure on topological spaces]] (a [[Serre fibration]]) or in the [[classical model structure on simplicial sets]] (a [[Kan fibration]]), and for $F \overset{i}{\longrightarrow}$ the ordinary [[fiber]] of [[topological spaces]] or [[simplicial sets]], respectively, we have such a long exact sequence.
+for $E \overset{p}{\longrightarrow} B$ a [[fibration]] in the [[classical model structure on topological spaces]] (a [[Serre fibration]]) or in the [[classical model structure on simplicial sets]] (a [[Kan fibration]]), and for $F \overset{i}{\longrightarrow} E$ the ordinary [[fiber]] of [[topological spaces]] or [[simplicial sets]], respectively, we have such a long exact sequence.
 
 {#TheConnectingHomomorphism} Here the [[connecting homomorphisms]] $\partial_n$ takes a loop $\ell$ of $n$-spheres in $B$ to the endpoint $n$-sphere $\widehat{\ell}_{\vert \{1\}}$ in $F$ of any based path $\widehat{\ell}$ of $n$ spheres in $E$ that covers the loop, $p \circ \widehat{\ell} = \ell$:
 
