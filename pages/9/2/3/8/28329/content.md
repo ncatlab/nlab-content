@@ -13,6 +13,9 @@ On [[edge modes]] in [[symmetry protected topological phases of matter]] with re
 
 * Ziteng Wang, Xiangdong Wang, Zhichan Hu, Domenico Bongiovanni, [[Dario Jukić]], Liqin Tang, Daohong Song, Roberto Morandotti, Zhigang Chen, Hrvoje Buljan: *Sub-symmetry protected topological states*, Nature Physics **19** (2023) 992-998 \[<a href="https://doi.org/10.1038/s41567-023-02011-9">doi:10.1038/s41567-023-02011-9</a>, [arXiv:2205.07285](https://arxiv.org/abs/2205.07285)\]
 
+* [[Dario Jukić]]: *Topology Beyond Conventional Band Theory in Photonic Systems*, [talk at](CQTS#JukicApr2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[Jukic-CQTS_Apr2026.pdf:file]]&rbrack;
+
+
 
 On [[topological photonics]] and the [[SSH model]]:
 
