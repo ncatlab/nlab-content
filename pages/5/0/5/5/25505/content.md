@@ -65,29 +65,45 @@ While the rank-nullity theorem does not fully generalize from [[vector spaces]] 
 This was claimed in [Orzech 1971](#Orzech1971), though with a gap in the proof (cf. [Grinberg 2014](#Grinberg2014)). A full proof was given by [Grinberg 2016](#Grinberg2016). For the special case $N = M$ see also [SP 05G8](#StacksProject05G8).
 
 \begin{proof}
-The following proof reproduces a [proof by Thomas Browning](https://math.stackexchange.com/questions/1065786/is-orzechs-generalization-of-the-surjective-endomorphism-is-injective-theorem-c/5120133#5120133) using the [[Cayley-Hamilton theorem]].
+The following proof reproduces a [proof by Thomas Browning](https://math.stackexchange.com/a/5120133/58526) using the [[Cayley-Hamilton theorem]].
 
-Let $M=\langle m_1,\ldots,m_k\rangle$ with $m_i=f(n_i)$ and $n_i=\sum_ja_{ij}m_j$.
-Set $A=(a_{ij})$, so that $\vec{n}=A\vec{m}$.
+Let $M=\langle m_1,\ldots,m_k\rangle$ with $m_i=f(n_i)$ and $n_i=\sum_j a_{i j} m_j$.
+Set $A=(a_{i j})$, so that $\vec{n}=A\vec{m}$.
 
-By the Cayley-Hamilton theorem, $A$ satisfies a polynomial equation
-$$A^k+c_{k-1}A^{k-1}+\cdots+c_2A^2+c_1A+c_0I=0.$$
-Plugging in $\vec{m}$ gives
-$$A^k\vec{m}+c_{k-1}A^{k-1}\vec{m}+\cdots+c_2A^2\vec{m}+c_1A\vec{m}+c_0\vec{m}=0.$$
+By the [[Cayley-Hamilton theorem]], $A$ satisfies a [[polynomial]] equation
+$$A^k+c_{k-1}A^{k-1}+\cdots+c_2A^2+c_1A+c_0 I=0.$$
+
+Applying this to $\vec{m}$ gives
+$$
+  A^k\vec{m}+c_{k-1}A^{k-1}\vec{m}+\cdots+c_2A^2\vec{m}+c_1A\vec{m}+c_0\vec{m}=0.
+$$
+
 Substituting $A\vec{m}=\vec{n}$ gives
-$$A^{k-1}\vec{n}+c_{k-1}A^{k-2}\vec{n}+\cdots+c_2A\vec{n}+c_1\vec{n}+c_0\vec{m}=0.$$
+$$
+  A^{k-1}\vec{n}+c_{k-1}A^{k-2}\vec{n}+\cdots+c_2A\vec{n}+c_1\vec{n}+c_0\vec{m}=0.
+$$
+
 Applying $f$ component-wise gives
-$$A^{k-1}\vec{m}+c_{k-1}A^{k-2}\vec{m}+\cdots+c_2A\vec{m}+c_1\vec{m}+f(c_0\vec{m})=0.$$
+$$
+  A^{k-1}\vec{m}+c_{k-1}A^{k-2}\vec{m}+\cdots+c_2A\vec{m}+c_1\vec{m}+f(c_0\vec{m})=0.
+$$
+
 Substituting $A\vec{m}=\vec{n}$ gives
-$$A^{k-2}\vec{n}+c_{k-1}A^{k-3}\vec{n}+\cdots+c_2\vec{n}+c_1\vec{m}+f(c_0\vec{m})=0.$$
+$$
+  A^{k-2}\vec{n}+c_{k-1}A^{k-3}\vec{n}+\cdots+c_2\vec{n}+c_1\vec{m}+f(c_0\vec{m})=0.
+$$
+
 Applying $f$ component-wise gives
 $$A^{k-2}\vec{m}+c_{k-1}A^{k-3}\vec{m}+\cdots+c_2\vec{m}+f(c_1\vec{m}+f(c_0\vec{m}))=0.$$
+
 Iterating this will eventually give the identity
 $$\vec{m}+f(c_{k-1}\vec{m}+f(c_{k-2}\vec{m}+f(\cdots))=0.$$
-By taking linear combinations, this same identity holds for all $x\in M$, so
+
+By taking [[linear combinations]], this same identity holds for all $x\in M$, so
 $$x+f(c_{k-1}x+f(c_{k-2}x+f(\cdots))=0.$$
+
 Plugging in $x\in\ker f$ forces $x=0$.
-Thus, $f$ is injective.
+Thus, $f$ is [[injective]].
 \end{proof}
 
 ## References
