@@ -57,4 +57,8 @@ Review:
 
 * Charles Choi, _Topological Photonics: What It Is and Why We Need It_, IEEE Spectrum, Mar 2020 ([web](https://spectrum.ieee.org/semiconductors/optoelectronics/topological-photonics-what-it-is-why-we-need-it))
 
+* Shiqi Xia, Ziteng Wang, Domenico Bongiovanni, [[Dario Jukić]], Daohong Song, Liqin Tang, Jingjun Xu, Roberto Morandotti, Hrvoje Buljan, Zhigang Chen: *Topological photonics in one-dimensional settings* &lbrack;[arXiv:2602.08011](https://arxiv.org/abs/2602.08011)&rbrack;
+  > (focus on [[SSH model]] realizations)
+
+
 
