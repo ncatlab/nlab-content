@@ -142,6 +142,8 @@ This implies that $R \left( \underset{\longleftarrow}{\lim}_i X_i \right) \cong 
 
 * [[limits and colimits by example]]
 
+* [[adjoint functor theorem]]
+
 
 [[!redirects left adjoints preserve colimits and right adjoints preserve limits]]
 [[!redirects right adjoints preserve limits and left adjoints preserve colimits]]
