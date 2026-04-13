@@ -9,16 +9,16 @@
 =--
 =--
 
-# Contents
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
-_Adjoint functor theorems_ are theorems stating that under certain conditions a [[functor]] that preserves [[limit]]s is a [[right adjoint]], and that a functor that preserves [[colimit]]s is a [[left adjoint]].
+_Adjoint functor theorems_ are theorems stating that under certain conditions a [[functor]] that [[preserved limit|preserves]] [[limits]] is a [[right adjoint]], and that a functor that [[preserved colimit|preserves]] [[colimits]] is a [[left adjoint]].
 
 
-A basic result of [[category theory]] is that right [[adjoint functors]] [[preserved limit|preserve]] all [[limits]] that exist in their [[domain]], and, dually, left adjoints preserve all [[colimits]].  An _adjoint functor theorem_ is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
+A basic result of [[category theory]] is that right [[adjoint functors]] [[preserved limit|preserve]] all [[limits]] that exist in their [[domain]], and, dually, left adjoints preserve all [[colimits]], cf. *[[adjoints preserve (co-)limits]]*.  So an _adjoint functor theorem_ is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
 
 
 The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limits]] over [[small category|small]] and [[large category|large]] [[diagrams]], then for $R : D \to C$ a [[functor]] that [[preserved limit|preserves]] all these limits we might define its would-be left adjoint $L$ by  taking  $L c$ to be the limit
