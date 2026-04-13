@@ -26,10 +26,11 @@ equals
 
 * the [[dimension]] $d_V \coloneqq dim(V)$ of the [[domain]] space $V$:
 
-$$
+\[
+  \label{RankNullityTheorem}
   d_V \;=\; rk(f) + nl(f)
   \,.
-$$
+\]
 
 This rank-nullity theorem is the [[decategorification]] (under the [[dimension of a vector space|dimension]] [[functor]] $dim \colon FinDimVect \to \mathbb{Z}$) of the stronger statement that $V$ itself is the [[direct sum]] of its [[kernel]] and [[image]] [[vector spaces]]:
 
@@ -56,7 +57,7 @@ $$
   {#PartialGeneralizationToModules}
 
 
-While the rank-nullity theorem does not fully generalize from [[vector spaces]] over [[fields]] to [[modules]] over [[rings]], some aspects do carry over. For instance:
+While the rank-nullity theorem (eq:RankNullityTheorem) does not fully generalize from [[vector spaces]] over [[fields]] to [[modules]] over [[rings]], some aspects do carry over. For instance:
 
 \begin{proposition}\label{OrzechTheorem}
   Let $M$ be a [[finitely generated module]] over a [[unital ring|unital]] [[commutative ring]], and $N \subset M$ a [[submodule]]. Then [[surjective]] module [[homomorphisms]] $f \colon N \twoheadrightarrow M$ are already [[isomorphisms]].
@@ -247,6 +248,18 @@ $$
 
 Evaluating this for any element $x \in \ker(f)$ in the [[kernel]] of $f$ clearly causes the nested terms to vanish iteratively and hence implies $x = 0$, whence the kernel is trivial. This means that the surjective map $f$ is also [[injective]] and  [therefore](balanced+category#AbelianCategoriesAreBalanced) a  module [[isomorphism]], as claimed.
 \end{proof}
+
+
+The following special case is important in practice and may still be proven essentially by recourse to the ordinary rank-nullity theorem:
+
+\begin{example}\label{ForMapsZnToZn}
+  A surjective linear map of the form $\mathbb{Z}^n \longrightarrow \mathbb{Z}^n$ is already an [[isomorphism]].
+\end{example}
+\begin{proof}
+  The linear map is represented by a [[square matrix]] with [[integer]] [[coefficients]], and it being surjective means that this matrix has full [rank](rank#RankOfALinearMap). But under the canonical inclusion $\mathbb{Z} \subset \mathbb{R}$ we may regard this also as a [[real numbers|real]] [[matrix]]. As such it still has full rank, and hence vanishing kernel by the rank-nullity theorem (eq:RankNullityTheorem), hence is [[injective]].
+\end{proof}
+
+
 
 ## References
 
