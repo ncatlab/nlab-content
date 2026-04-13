@@ -9,9 +9,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -139,20 +137,23 @@ The following are equivalent:
 
 * $f$ is a [[monomorphism]] in the [[opposite category]] $C^{op}$;
 
-* precomposition with $f$ is a monomorphism in [[Set]]: that is, for all $c \in C$, $- \circ f : Hom(y,c) \to Hom(x,c)$ is an [[injection]];
+* [[precomposition]] with $f$ is a monomorphism in [[Set]]: that is, for all $c \in C$, $- \circ f : Hom(y,c) \to Hom(x,c)$ is an [[injection]];
 
-* the [[commuting diagram]] 
-  $$
-    \array{
-      x &\stackrel{f}{\to}& y
-      \\
-      {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Id}}
-     \\
-     y &\underset{Id}{\to}& y
-    }
-  $$
+* the following [[commuting diagram]] is a [[pushout]] diagram:
 
-  is a [[pushout]] diagram.
+\begin{tikzcd}
+  x 
+  \ar[r, "f"] 
+  \ar[d, "{f}"{swap}]
+  & 
+  y
+  \ar[d, equals]
+  \\
+  y
+  \ar[r, equals] 
+  & 
+  y
+\end{tikzcd}
 
 \end{prop}
 
