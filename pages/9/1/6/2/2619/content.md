@@ -10,9 +10,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Definition
@@ -20,38 +19,38 @@
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny**,  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)), or **absolutely presentable** if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]].
+Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)), or **absolutely presentable** if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]].
 
-More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) \colon E \to V$ preserves all small colimits.
+More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called small-projective if $E(e,-) \colon E \to V$ preserves all small colimits.
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Since being an [[epimorphism]] is a "colimit-property" (a morphism is epic iff its [[pushout]] with itself consists of identities), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
+Since being an [[epimorphism]] is a "colimit-property" (a morphism is epi iff its [[pushout]] with itself is the [[identity morphism]], cf. [there](epimorphism#BasicCharacterizationOfEpimorphisms)), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
 
 =--
 
+Notice that if $E$ is [[locally presentable category|locally presentable]] then $E(e,-)$ preserving colimits is equivalent to its having a [[right adjoint]] (by the [[adjoint functor theorem]], see [there](adjoint+functor+theorem#StatementForLocPresCategories)). Alternatively one may take this to be the defining property of interest:
 
 +-- {: .num_defn #Atomic} 
 ###### Definition
 
-If $E$ is [[cartesian closed category|cartesian closed]] and the 
-[[inner hom]] $(-)^e$ has a [[right adjoint]] (and hence preserves all colimits), $e$ is called (internally) **atomic** or [[infinitesimal object|infinitesimal]]. 
+If $E$ is [[cartesian closed category|cartesian closed]] and the  [[internal hom]] $[e,-]$ has a [[right adjoint]] (and [[adjoints preserve (co-)limits|hence]] preserves all colimits), $e$ is called (internally) **tiny** ([Yetter 1987 Def. 01](#Yetter1987)) or **atomic** ([Lawvere 1997](#Lawvere97)) or *[[infinitesimal object|infinitesimal]]*. 
 
 =--
 
-(See for instance [Lawvere 97](#Lawvere97).)
 
 +-- {: .num_remark}
 ###### Remark
 
-The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]]. 
+The [[right adjoint]] in def. \ref{Atomic} has been called an "[[amazing right adjoint]]" ([Lawvere 1980 p 388](#Lawvere1980)), in the context of [[synthetic differential geometry]]. 
 
 =--
 
 +-- {: .num_remark} 
 ###### Remark 
+
 Various terminological discrepancies in the literature hinge on the distinction between internal notions and external notions. Thus, if $E$ is a [[cartesian closed category]] with small colimits, we may say $e \in Ob(E)$ is *internally* tiny if the functor $(-)^e: E \to E$ preserves small colimits. Relatedly, the word "atomic" has been used in both an external sense where $E(e, -): E \to Set$ has a right adjoint, as in Bunge's thesis, and in an internal sense, as when Lawvere refers to $e$ as an a.t.o.m. ("amazingly tiny object model") if $(-)^e: E \to E$ has a right adjoint. But under certain hypotheses, the two notions coincide; see for instance Proposition \ref{coincide}. 
 =-- 
 
@@ -374,19 +373,24 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 
 * {#BorceuxDejean} [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) &lbrack;[numdam:CTGDC_1986__27_2_133_0](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0)&rbrack;
   
+* {#Yetter1987} [[David Yetter]]: _On right adjoints to exponential functors_, Journal of Pure and Applied Algebra **45** 3 (1987) 287-304 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90077-6">doi:10.1016/0022-4049(87)90077-6</a>&rbrack;
 
-* [[David Yetter]]: _On right adjoints to exponential functors_, Journal of Pure and Applied Algebra **45** 3 (1987) 287-304 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90077-6">doi:10.1016/0022-4049(87)90077-6</a>&rbrack;
+The terminology "atomic object", or rather "a.t.o.m", characterized by an "[[amazing right adjoint]]" is suggested in:
 
-The term "atomic object" or rather "a.t.o.m" is suggested in 
+* {#Lawvere1980} [[William Lawvere]]; p. 388 of: _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, [[Cahiers]] **21** 4 (1980) 377-392 ([numdam:CTGDC_1980__21_4_377_0](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
 
-* {#Lawvere97} [[William Lawvere]], _[[Toposes of laws of motion]]_ (1997)
+* {#Lawvere97} [[William Lawvere]]: _[[Toposes of laws of motion]]_, transcript of a talk in Montreal (1997) &lbrack;[[Lawvere-ToposesOfLawsOfMotion.pdf:file]]&rbrack; 
+
+Discussion in the context of [[algebra]]:
+
+* [[Qiaochu Yuan]]: *[Tiny Objects](https://qchu.wordpress.com/2015/05/07/tiny-objects/)*, blog post (May 2015)
+
  
 A [[modal type theory]] for tiny objects:
 
 * [[Mitchell Riley]], *A Type Theory with a Tiny Object* &lbrack;[arXiv:2403.01939](https://arxiv.org/abs/2403.01939)&rbrack;
 
 * [[Mitchell Riley]]: *Tiny Objects in Type Theory*, [talk at](CQTS#RileyTinyApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]] @ NYU Abu Dhabi (Apr 2024) &lbrack;slides:[[Riley-TinyTypes-Apr2024.pdf:file]], video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_31zdfvgi?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_31zdfvgi)&rbrack;
-
 
 
 
