@@ -226,7 +226,7 @@ Lecture notes University of Chicago 1975.
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
   > (on a formalization of the concept of [[chaos]])
 
-* _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
+* _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, [[Cahiers]] **21** 4 (1980) 377-392 ([numdam:CTGDC_1980__21_4_377_0](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
   > (contains a section with some remarks on Lagrangian mechanics)
 
 * with [[Stephen Schanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics **1174**, Springer (1986) &lbrack;[doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928)&rbrack;
