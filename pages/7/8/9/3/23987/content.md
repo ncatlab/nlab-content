@@ -3328,6 +3328,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Topology Beyond Conventional Band Theory in Photonic Systems**
 
+  slides: [[Jukic-CQTS_Apr2026.pdf:file]]
+
   cf.: [arXiv:2205.07285](https://arxiv.org/abs/2205.07285)
 
   > [[topological phase of matter|Topological phases]] are traditionally characterized by [[bulk]] [[energy band|band]] [[invariants]] that predict [[edge modes|boundary states]] through the [[bulk-boundary correspondence]]. In this talk, I will present theoretical results that extend this framework, supported by realizations in [[topological photonics|photonic systems]].
