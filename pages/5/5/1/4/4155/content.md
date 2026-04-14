@@ -65,7 +65,7 @@ $$
 
 ## References
 
-* {#Haagerup} [[Uffe Haagerup]], [$L^p$-spaces associated with an arbitrary von Neumann algebra](https://dmitripavlov.org/haagerup.pdf).  Algèbres d'opérateurs et leurs applications en physique mathématique.  Colloques Internationaux du Centre National de la Recherche Scientifique 274, 175–184.
+* {#Haagerup} [[Uffe Haagerup]], [$L^p$-spaces associated with an arbitrary von Neumann algebra](https://dmitripavlov.org/scans/haagerup.pdf).  Algèbres d'opérateurs et leurs applications en physique mathématique.  Colloques Internationaux du Centre National de la Recherche Scientifique 274, 175–184.
 
 * {#Yamagami} [[Shigeru Yamagami]], _Algebraic aspects in modular theory_, Publications of the Research Institute for Mathematical Sciences 28:6 (1992), 1075-1106.  [doi](http://dx.doi.org/10.2977/prims/1195167738).
 
