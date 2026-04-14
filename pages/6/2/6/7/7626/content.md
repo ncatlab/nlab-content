@@ -15,9 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Anyon braiding
@@ -326,15 +325,19 @@ The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essential
 
 * {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 &lbrack;[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)&rbrack;
 
-More comprehensive accounts of anyons:
+More comprehensive accounts and review of anyons:
 
-* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
+* {#Wilczek90} [[Frank Wilczek]]: *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
 
-* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005), [arXiv:cond-mat/0506438](https://arxiv.org/abs/cond-mat/0506438)&rbrack;
+* Alberto Lerda: *Anyons -- Quantum Mechanics of Particles with Fractional Statistics*,  Lecture Notes in Physics Monographs **14**, Springer (1992) \[<a href="https://doi.org/10.1007/978-3-540-47466-1">doi:10.1007/978-3-540-47466-1</a>\]
 
-* [[Eduardo Fradkin]], *Anyon superconductivity*, Chapter 11 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) 414-431 &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509.013](https://doi.org/10.1017/CBO9781139015509.013)&rbrack;
+* {#Kitaev06} [[Alexei Kitaev]]: *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005), [arXiv:cond-mat/0506438](https://arxiv.org/abs/cond-mat/0506438)&rbrack;
+
+* [[Eduardo Fradkin]]: *Anyon superconductivity*, Chapter 11 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) 414-431 &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509.013](https://doi.org/10.1017/CBO9781139015509.013)&rbrack;
 
 * [[Eduardo C. Marino]]: *Non-Abelian Statistics and Quantum Computation*, chapter 30 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+* Avinash Khare: *Fractional Statistics and Quantum Theory*, World Scientific (2005) \[<a href="https://doi.org/10.1142/5752">doi:10.1142/5752</a>\]
 
 
 See also:
