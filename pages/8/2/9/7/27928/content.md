@@ -399,9 +399,12 @@ and making this explicit:
 
 
 
-With [[boundary field theory|boundaries]]:
+With [[boundary field theory|boundaries]] and [[edge modes]]:
 
 * A. Blasi, N. Maggiore, N. Magnoli, S. Storace: *Maxwell-Chern-Simons Theory With Boundary*, Class. Quant. Grav. **27** (2010) 165018 &lbrack;[arXiv:1002.3227](https://arxiv.org/abs/1002.3227), [doi:10.1088/0264-9381/27/16/165018](https://doi.org/10.1088/0264-9381/27/16/165018)&rbrack;
+
+* J. Fernando Barbero G., Bogar Díaz, Juan Margalef-Bentabol, Eduardo J.S. Villaseñor: *Edge observables of the Maxwell-Chern-Simons theory*, Physical Review D, **106** (2022) 025011 \[<a href="https://doi.org/10.1103/PhysRevD.106.025011">doi:10.1103/PhysRevD.106.025011</a>, [arXiv:2204.06073](https://arxiv.org/abs/2204.06073)\]
+
 
 In view of [[electric-magnetic duality]] ("[[S-duality]]"):
 
