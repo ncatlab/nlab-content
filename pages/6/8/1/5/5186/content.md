@@ -294,6 +294,9 @@ See also:
 
 * Benjamin Koch, Enrique Muñoz, _Path integral of the relativistic point particle in Minkowski space_ ([arXiv:2012.15242](https://arxiv.org/abs/2012.15242))
 
+* Liubin Wang, Xin Wu: *Discussion on the equivalence of two relativistic point-particle Lagrangians* &lbrack;[arXiv:2604.10876](https://arxiv.org/abs/2604.10876)&rbrack;
+
+
 
 
 [[!redirects relativistic particles]]
