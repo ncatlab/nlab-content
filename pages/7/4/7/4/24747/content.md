@@ -41,7 +41,9 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL 111](https://progetto-itaca.github.io/pssl111/) (2025, Bologna) [schedule and abstracts](https://progetto-itaca.github.io/pssl111/programme.html)
 
-* [PSSL 112](https://sites.google.com/view/pssl112/)
+* [PSSL 112](https://sites.google.com/view/pssl112/) (2026, Nottingham) [schedule and abstracts](https://sites.google.com/view/pssl112/program)
+
+* PSSL 113 (2026, Louvain-la-Neuve)
 
 ## Related pages
 
