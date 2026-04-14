@@ -73,7 +73,7 @@ In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#Hie
 
 
 
-On edge model [[spectral flow]]:
+On edge mode [[spectral flow]]:
 
 * [Wen 1990 §III](#Wen1990)
 
