@@ -5920,7 +5920,7 @@ $$
     \array{
       d \, g_4 = 0\,,\,
       \\
-      d\, g_7 + \tfrac{1}{2} g_4 \wedge _4 = 0
+      d\, g_7 + \tfrac{1}{2} g_4 \wedge g_4 = 0
     }
   \right\}
   \,.
