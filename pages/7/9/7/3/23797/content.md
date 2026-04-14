@@ -63,6 +63,8 @@ Review:
 
 * A. M. Chang: *Chiral Luttinger liquids at the fractional quantum Hall edge*, Rev. Mod. Phys. **75** (2003) 1449 &lbrack;[doi:10.1103/RevModPhys.75.1449](https://doi.org/10.1103/RevModPhys.75.1449)&rbrack;
 
+* [[Eduardo Fradkin]]: *Physics at the Edge*, Chapter 15 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509), [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)&rbrack;
+
 * {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism)) FQH systems:
@@ -132,6 +134,10 @@ Including non-relativistic corrections (Newton-Cartan geometry):
 See also:
 
 * Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
+
+* J. Fernando Barbero G., Bogar Díaz, Juan Margalef-Bentabol, Eduardo J.S. Villaseñor: *Edge observables of the Maxwell-Chern-Simons theory*, Physical Review D, **106** (2022) 025011 \[<a href="https://doi.org/10.1103/PhysRevD.106.025011">doi:10.1103/PhysRevD.106.025011</a>, [arXiv:2204.06073](https://arxiv.org/abs/2204.06073)\]
+  > (via [[Maxwell-Chern-Simons theory]])
+
 
 
 
