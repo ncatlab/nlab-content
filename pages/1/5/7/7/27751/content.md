@@ -65,6 +65,8 @@ Review:
 
 * Paul Jennings: *The Skyrme-Faddeev model*, talk notes (2014) &lbrack;[pdf](https://www.maths.dur.ac.uk/users/studentseminar/seminar/1415/paul_jennings_061014_skyrme_faddeev_seminar.pdf), [[Jennings-SkyrmeFadeevModel.pdf:file]]&rbrack;
 
+* [hopfion.com](https://hopfion.com): *Hopf solitons in modern mathematical physics*
+
 Textbook account:
 
 * {#MantonSutcliffe04} [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire:660150](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
