@@ -25,8 +25,7 @@ A subfield $K \subset L \subset \bar K$ is called **separable over $K$** if each
 Let $K$ be a [[field]] and $\bar K$ an [[algebraic closure]] of $K$. The **separable closure**  $K_S$ of $K$ is defined by
 
 $$
-  K_S \simeq \{x \in \bar K | x \; is \; separable \; over \; K\}
-  \,.
+  K_S \simeq \{x \in \bar K \mid x \, \text{ is separable over }\, K\}.
 $$
 
 =--
