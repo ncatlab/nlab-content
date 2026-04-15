@@ -92,7 +92,7 @@ Let $\mathcal{E}$ be an elementary topos and $\alpha:U\to X\,$ a generalized ele
 
 1. $U\models \varphi(\alpha)\wedge \psi(\alpha)$ iff $U\models \varphi(\alpha)$ and $U\models \psi(\alpha)\,$.
 
-1. $U\models \varphi(\alpha)\vee \psi(\alpha)$ iff there exists maps $g:U_1\to U$ and $g_2:U_2\to U$ with $g_1+g_2:U_1+U_2\to U$ epic and such that $U_1\models \varphi(\alpha\circ g_1)$ and $U_2\models \psi(\alpha\circ g_2)\,$.
+1. $U\models \varphi(\alpha)\vee \psi(\alpha)$ iff there exists maps $g_1:U_1\to U$ and $g_2:U_2\to U$ with $g_1+g_2:U_1+U_2\to U$ epic and such that $U_1\models \varphi(\alpha\circ g_1)$ and $U_2\models \psi(\alpha\circ g_2)\,$.
 
 1. $U\models \varphi(\alpha)\Rightarrow \psi(\alpha)$ iff for any $g:V\to U\,$, $V\models \varphi(\alpha\circ g)$ implies $V\models\psi(\alpha\circ g)\,$.
 
