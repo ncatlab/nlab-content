@@ -812,6 +812,9 @@ Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theor
 
 References discussing independence of string field theories on the [[CFT]] ([[sigma-model]] background) in terms of which they are written down.
 
+* Bhanu Narra, James Read, Matěj Krátký: *Is string field theory background independent?* &lbrack;[arXiv:2509.21159](https://arxiv.org/abs/2509.21159)&rbrack;
+
+
 
 
 #### For closed string field theory
