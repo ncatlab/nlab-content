@@ -36,6 +36,8 @@ In correspondence of how the [[effective field theory]] for [[fractional quantum
 ## References
  {#References}
 
+### General 
+
 > For the time being see any of the main references at *[[topological insulator]]* and at *[[fractional quantum Hall systems]]*.
 
 See also:
@@ -71,7 +73,7 @@ In the generality of multi-component ([K-matrix](abelian+Chern-Simons+theory#Hie
 
 * [[Ana Lopez]], [[Eduardo Fradkin]]: *Effective field theory for the bulk and edge states of quantum Hall states in unpolarized single layer and bilayer systems*, Phys. Rev. B **63** (2001) 085306 \[<a href="https://doi.org/10.1103/PhysRevB.63.085306">doi:10.1103/PhysRevB.63.085306</a>, [arXiv:cond-mat/0008219](https://arxiv.org/abs/cond-mat/0008219)\]
 
-* {#Bacciconi2021} Zeno Bacciconi: *Fractional Quantum Hall edge dynamics from a Quantum Optics perspective* &lbrack;[arXiv:2111.05858](https://arxiv.org/abs/2111.05858)&rbrack;
+* {#Bacciconi2021} Zeno Bacciconi: *Fractional Quantum Hall edge dynamics from a Quantum Optics perspective* &lbrack;[arXiv:2111.05858 cond-mat.mes-hall](https://arxiv.org/abs/2111.05858)&rbrack;
 
 
 
@@ -82,11 +84,11 @@ On edge mode [[spectral flow]]:
 * [[Jürg Fröhlich]], T. Kerler; pp 395--396, 400--402 in: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
 
 
-* Ivan P. Levkivskyi, [[Jürg Fröhlich]], Eugene V. Sukhorukov; pages 9--10, 15--18: *Theory of fractional quantum Hall interferometers*, Phys. Rev. B **86** 245105 (2012) \[<a href="https://doi.org/10.1103/PhysRevB.86.245105">doi:10.1103/PhysRevB.86.245105</a>, [arXiv:1005.5703](https://arxiv.org/abs/1005.5703)\]
+* Ivan P. Levkivskyi, [[Jürg Fröhlich]], Eugene V. Sukhorukov; pages 9--10, 15--18 in: *Theory of fractional quantum Hall interferometers*, Phys. Rev. B **86** 245105 (2012) \[<a href="https://doi.org/10.1103/PhysRevB.86.245105">doi:10.1103/PhysRevB.86.245105</a>, [arXiv:1005.5703 cond-mat.mes-hall](https://arxiv.org/abs/1005.5703)\]
 
-* Charles-Edouard Bardyn, Michele Filippone, Thierry Giamarchi; pages 3--4: *Bulk Pumping in 2D Topological Phases*, Phys. Rev. B **99** 035150 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.99.035150">doi:10.1103/PhysRevB.99.035150</a>, [arXiv:1807.01710](https://arxiv.org/abs/1807.01710)\]
+* Charles-Edouard Bardyn, Michele Filippone, Thierry Giamarchi; pages 3--4 in: *Bulk Pumping in 2D Topological Phases*, Phys. Rev. B **99** 035150 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.99.035150">doi:10.1103/PhysRevB.99.035150</a>, [arXiv:1807.01710 cond-mat.mes-hall](https://arxiv.org/abs/1807.01710)\]
 
-* [Bacciconi 2021 §1.4.4 \& §1.2.4](#Bacciconi2021)
+* [Bacciconi 2021 §1.4.4 & §1.2.4](#Bacciconi2021)
 
 
 
