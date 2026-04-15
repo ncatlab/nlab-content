@@ -2,6 +2,8 @@ Ross Howard Street is a major member of the Australian school of [[higher catego
 
 His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum groups]], [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
 
+* [personal webpage](http://www.math.mq.edu.au/~street)
+
 * [institute page](https://researchers.mq.edu.au/en/persons/ross-street/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ross_Street)
