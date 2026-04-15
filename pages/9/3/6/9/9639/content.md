@@ -14,9 +14,9 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -794,7 +794,7 @@ Original experimental detection:
 
 While an intuitive understanding for the quantization of the Hall conductance has been given in
 
-* [[Robert B. Laughlin]], *Quantized Hall conductivity in two dimensions*, Phys. Rev. B **23** 5632(R) (1981) &lbrack;[doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632)&rbrack;
+* [[Robert B. Laughlin]]: *Quantized Hall conductivity in two dimensions*, Phys. Rev. B **23** 5632(R) (1981) &lbrack;[doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632)&rbrack;
 
 a theoretical derivation of the effect was obtained only much later in
 
@@ -821,7 +821,6 @@ Review of this theory behind the quantum Hall effect:
 
 
 #### General
-
 
 Review and survey of the FQHE:
 
@@ -851,10 +850,14 @@ Review and survey of the FQHE:
 
 * [[Zlatko Papić]], [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
 
+Original proposal of the [[Laughlin wavefunction]]:
+
+* [[Robert B. Laughlin]]: *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 \[<a href="https://doi.org/10.1103/PhysRevLett.50.1395">doi:10.1103/PhysRevLett.50.1395</a>\]
 
 See also:
 
 * Wikipedia, *[Fractional Quantum Hall Effect](https://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)*
+
 
 
 A quick review of the description via [[abelian Chern-Simons theory]] with further pointers is in the introduction of:
