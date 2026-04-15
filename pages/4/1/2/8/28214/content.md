@@ -28,7 +28,7 @@ A_2 = A B_1 & \sigma_2 = \frac{1}{2}tr A_2 & B_1 = A_2 - \sigma_2 I \\
 \vdots &\vdots &\vdots \\
 A_k = A B_{k-1}& \sigma_k = \frac{1}{k}tr A_k & B_k = A_k -\sigma_k I\\
 \vdots &\vdots &\vdots\\
-A_n = A B_{n-1}& \sigma_k = \frac{1}{k}tr A_n & B_n = A_n -\sigma_n I
+A_n = A B_{n-1}& \sigma_k = \frac{1}{n}tr A_n & B_n = A_n -\sigma_n I
 \mathrlap{\,.}
 \end{matrix}
 $$
