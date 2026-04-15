@@ -1,7 +1,14 @@
 
-* [website](http://www.ulb.ac.be/sciences/ptm/pmif/membres/henneaux.html)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Marc_Henneaux)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=212203)
+
+* [inSpire page](https://inspirehep.net/authors/1006213)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=FulgkwYAAAAJ&hl=fr)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Marc-Henneaux-3220368)
 
 
 
@@ -41,6 +48,13 @@ On [[local BRST cohomology]] and [[BV-formalism]]:
 and application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills theory]]):
 
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in Einstein-Yang-Mills theory_, Nucl. Phys. B **455** (1995) 357-408 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00471-4">doi:10.1016/0550-3213(95)00471-4</a>[arXiv:hep-th/9505173](https://arxiv.org/abs/hep-th/9505173)&rbrack;
+
+On [[higher dimensional Chern-Simons theory]]:
+
+* [[Máximo Bañados]], Luis Garay, [[Marc Henneaux]]: *Existence of local degrees of freedom for higher dimensional pure Chern-Simons theories*, Phys. Rev. D **53** (1996) R593(R) &lbrack;[doi:10.1103/PhysRevD.53.R593](https://doi.org/10.1103/PhysRevD.53.R593), [arXiv:hep-th/9506187](https://arxiv.org/abs/hep-th/9506187)&rbrack;
+
+* [[Máximo Bañados]], Luis Garay, [[Marc Henneaux]]: *The dynamical structure of higher dimensional Chern-Simons theory*, Nuclear Physics B **476** 3 (1996) 611-635 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00384-7">doi:10.1016/0550-3213(96)00384-7</a>, [arXiv:hep-th/9605159](http://arxiv.org/abs/hep-th/9605159)&rbrack;
+
 
 On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[group]] as a potential model for the [[M-theory]]-completion of [[11D supergravity]]: 
 
@@ -83,5 +97,7 @@ On the [[conserved current]] of [[BRST operators]]:
 * [[BV-BRST formalism]]
 
 * [[local BRST cohomology]]
+
+* [[D=5 Chern-Simons theory]]
 
 category: people
