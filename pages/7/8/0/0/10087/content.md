@@ -124,6 +124,9 @@ See also:
 
 * Zhongjian Zhu, Jianzhong Pan: *Homotopy types of $S^{2k-1}$-bundles over $S^{2k}$* &lbrack;[arXiv:2508.13800](https://arxiv.org/abs/2508.13800)&rbrack;
 
+* Sebastian Chenery, Stephen Theriault: *Pullbacks of Sphere Fibrations over Connected Sums* &lbrack;[arXiv:2604.12586](https://arxiv.org/abs/2604.12586)&rbrack;
+
+
 
 ### In rational homotopy theory
 
