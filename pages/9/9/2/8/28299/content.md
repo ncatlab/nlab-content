@@ -73,7 +73,7 @@ Now ([Wen 1992 above (2.62)](#Wen1992), [1995 above (3.44)](#Wen1995), [Tong 201
 
    where $(x^i)_{i = 1}^{2}$ denote [[coordinate chart|local]] [[coordinate functions]] on $X^2$.
 
-Then, by [[Stokes' theorem]], the CS [[Lagrangian density]] (eq:CSLagrangianDensity) becomes a [[boundary field theory|boundary]] [[Lagrangian density]] for $\phi$ on $X^{1,0} \times \partial X^2$ as follows ([Wen 1992 (2.62)](#Wen1992)):
+Then, by [[Stokes' theorem]], the CS [[Lagrangian density]] (eq:CSLagrangianDensity) becomes a [[boundary field theory|boundary]] [[Lagrangian density]] for $\phi$ on $X^{1,0} \times \partial X^2$ as follows (indicated in [Wen 1992 (2.62)](#Wen1992)):
 
 $$
   \begin{array}{rll}
