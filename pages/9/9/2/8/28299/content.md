@@ -61,7 +61,7 @@ as a [[lightcone gauge]] coordinate, this is
   \mathrlap{\,.}
 \]
 
-This is the FL-Lagrangian density:
+This is the FL-Lagrangian density.
 
 ## Lagrangian and Equations of motion
 
