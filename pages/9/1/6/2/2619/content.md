@@ -377,7 +377,7 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 
 The terminology "atomic object", or rather "a.t.o.m", characterized by an "[[amazing right adjoint]]" is suggested in:
 
-* {#Lawvere1980} [[William Lawvere]]; p. 388 of: _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, [[Cahiers]] **21** 4 (1980) 377-392 ([numdam:CTGDC_1980__21_4_377_0](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
+* {#Lawvere1980} [[William Lawvere]]; p. 388 of: _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, [[Cahiers]] **21** 4 (1980) 377-392 &lbrack;[numdam:CTGDC_1980__21_4_377_0](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0)&rbrack;
 
 * {#Lawvere97} [[William Lawvere]]: _[[Toposes of laws of motion]]_, transcript of a talk in Montreal (1997) &lbrack;[[Lawvere-ToposesOfLawsOfMotion.pdf:file]]&rbrack; 
 
