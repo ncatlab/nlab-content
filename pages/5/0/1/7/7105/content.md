@@ -18,26 +18,25 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Ideas
 
-_Mayer-Vietoris sequence_ is the term for the [[fiber sequence]] -- or often for the corresponding [[long exact sequence of homotopy groups]] -- induced from an [[(∞,1)-pullback]] (or for a [[homotopy pullback]] presenting it).
+By _Mayer-Vietoris sequences_ one refers to those [[homotopy fiber sequences]] -- or typically to just their corresponding [[long exact sequences of homotopy groups]] -- which are induced from [[(∞,1)-pullbacks]]/[[homotopy pullbacks]].
 
 ## Definition
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-limits]] and let $X, Y, B$ be [[pointed objects]] and
 
 $$
-  f : X \to B
+  f \colon X \longrightarrow B
 $$
 
 and
 
 $$
-  g : Y \to B
+  g \colon Y \longrightarrow B
 $$
 
 be any two [[morphisms]] with common [[codomain]] preserving the base points. Let $X \times_B Y$ be the [[(∞,1)-pullback]]
@@ -45,16 +44,20 @@ be any two [[morphisms]] with common [[codomain]] preserving the base points. Le
 $$
 
   \array{
-    X \times_B Y &\to& Y
+    X \times_B Y 
+      & \longrightarrow & 
+    Y
     \\
-    \downarrow &\swArrow_\simeq& \downarrow^{\mathrlap{g}}
+    \big\downarrow 
+      &\swArrow_\simeq& 
+    \big\downarrow^{\mathrlap{g}}
     \\
-    X &\stackrel{f}{\to}& B
+    X &\underset{f}{\longrightarrow}& B
   }
   \,.
 $$
 
-The corresponding **Mayer-Vietoris sequence** is the [[fiber sequence]] of the induced morphism $X \times_B Y \to X \times Y$. Often the term is used (only) for the corresponding [[long exact sequence of homotopy groups]].
+The corresponding **Mayer-Vietoris sequence** is the [[homotopy fiber sequence]] of the induced morphism $X \times_B Y \longrightarrow X \times Y$. Often the term is used (only) for the corresponding [[long exact sequence of homotopy groups]].
 
 ## Properties
 
@@ -70,11 +73,14 @@ Then $X \times_B Y$, which by definition sits in
 
 $$
   \array{
-    X \times_B Y &\to& Y
+    X \times_B Y &\longrightarrow& Y
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{g}}
+    \big\downarrow 
+      &\swArrow_{\simeq}& 
+    \big\downarrow^{\mathrlap{g}}
     \\
-    X  &\stackrel{f}{\to}& B
+    X  &\underset{f}{\longrightarrow}& B
+    \mathrlap{\,,}
   }
 $$ 
 
@@ -82,11 +88,15 @@ is equivalently also the following [[(∞,1)-pullback]]
 
 $$
   \array{
-    X \times_B Y &\to& B
+    X \times_B Y &\longrightarrow& B
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\Delta_B}}
+    \big\downarrow 
+      &\swArrow_{\simeq}& 
+    \big\downarrow{\mathrlap{{}^{_{\Delta_B}}}}
     \\
-    X \times Y &\stackrel{(f,g)}{\to}& B \times B
+    X \times Y 
+      &\underset{(f,g)}{\longrightarrow}& 
+    B \times B
   }
   \,,
 $$
@@ -102,28 +112,44 @@ See also at _[[homotopy pullback]]_ [this corollary](homotopy+pullback#HomotopyP
 +-- {: .proof}
 ###### Proof
 
-The first statement one checks for instance by choosing a presentation by a [[combinatorial model category]] and then proceeding as below in the discussion _[Presentation by fibrant objects](#PresentationByFibrantObjects)_.
-Then by the [[pasting law]] for $(\infty,1)$-pullbacks it follows that with the left square in 
+The first statement may be checked by choosing a presentation by a [[combinatorial model category]] and then proceeding as below in the discussion _[Presentation by fibrant objects](#PresentationByFibrantObjects)_.
+Then by the [[pasting law for pullbacks|pasting law]] for [[(infinity,1)-pullbacks|$(\infty,1)$-pullbacks]] it follows that with the left square in 
 
 $$
   \array{
-    \Omega B &\to& X \times_B Y &\to & B
+    \Omega B 
+      &\longrightarrow& 
+    X \times_B Y 
+      &\longrightarrow& 
+    B
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow &\swArrow_{\simeq}& \downarrow
+    \big\downarrow 
+      &\swArrow_{\simeq}& 
+    \big\downarrow 
+      &\swArrow_{\simeq}& 
+    \big\downarrow
     \\
-    * &\to& X \times Y &\stackrel{(f,g)}{\to}& B \times B
+    \ast 
+      &\longrightarrow& 
+    X \times Y 
+      &\underset{(f,g)}{\longrightarrow}& 
+    B \times B
   }
 $$
 
-an $(\infty,1)$-pullback, so is the total outer rectangle. But again by the first statement, this is equivalent to the $(\infty,1)$-pullback
+being an $(\infty,1)$-pullback, so is the total outer rectangle. But again by the first statement, this is equivalent to the $(\infty,1)$-pullback
 
 $$
   \array{
-    \Omega B &\to& * 
+    \Omega B &\longrightarrow& \ast 
     \\
-    \downarrow &\swArrow_{\simeq}& \downarrow
+    \big\downarrow 
+      &\swArrow_{\simeq}& 
+    \big\downarrow
     \\
-    * &\to& B
+    \ast 
+      &\longrightarrow& 
+    B
   }
   \,,
 $$
@@ -135,11 +161,15 @@ which is the defining pullback for the [[loop space object]].
 Therefore the Mayer-Vietoris [[homotopy fiber sequence]] is of the form
 
 $$
-  \Omega B \to X \times_B Y \to X \times Y
+  \Omega B 
+    \longrightarrow 
+  X \times_B Y 
+    \longrightarrow 
+  X \times Y
   \,.
 $$
 
-For $\mathcal{C} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], this point of view is amplified in ([Dyer-Roitberg 80](#DyerRoitberg80)).
+For $\mathcal{C} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], this point of view is amplified by [Dyer & Roitberg 1980](#DyerRoitberg80).
 
 
 +-- {: .num_cor #LongExactSequenceOfHomotopyGroups}
@@ -158,7 +188,7 @@ $$
 
 =--
 
-This is what has historically been the definition of Mayer-Vietoris sequences ([Eckmann-Hilton 64](#EckmannHilton)).
+This is what has historically been the definition of Mayer-Vietoris sequences (cf. [Eckmann & Hilton 1964](#EckmannHilton)).
 
 ### Presentation by fibrant objects
  {#PresentationByFibrantObjects}
@@ -202,30 +232,40 @@ This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X 
 
 We consider now the case where $B$ carries the structure of an  [[∞-group]] (or just a grouplike [[H-space]] object) in a [[presentable (∞,1)-category]] or [[locally Cartesian closed (∞,1)-category]] $\mathcal{C}$.
 
-In this case (as discussed in a moment), we have an [[(∞,1)-pullback]]
+In this case (as discussed in a moment), we have an [[(∞,1)-pullback]] of the form
 
 $$
   \array{
-    B &\to& *
+    B &\longrightarrow& \ast
     \\
-    \downarrow^{\mathrlap{\Delta_B}} 
-    &\swArrow_{\simeq}& 
-    \downarrow^{\mathrlap{e}}
+    \big\downarrow{\mathrlap{^{_{\Delta_B}}}} 
+      &\swArrow_{\simeq}& 
+    \big\downarrow{\mathrlap{^{_e}}}
     \\
     B \times B
-    &\stackrel{(-)\cdot (-)^{-1}}{\to}&
+      &
+       \underset{
+         (-)\cdot (-)^{-1}
+       }{\longrightarrow}
+      &
     B
+    \mathrlap{\,,}
   }
-  \,,
 $$
 
 where the bottom horizontal morphism is the composite
 
 $$
-  (-)\cdot (-)^{-1} : B \times B \stackrel{(id, (-)^{-1})}{\to} B \times B \stackrel{\cdot}{\to} B
+  (-)\cdot (-)^{-1} 
+    \;\colon\; 
+  B \times B 
+    \overset{\big(id, (-)^{-1}\big)}{\longrightarrow} 
+  B \times B 
+    \overset{(-)\cdot(-)}{\longrightarrow} 
+  B
 $$
 
-of a morphism that sends the second argument to its inverse with the group composition operation.
+of inverting the second argument (via the group law) followed by the [[binary operation|group operation]].
 
 It then follows by the [[pasting law]] and prop. \ref{SequenceFromDiagonal} that in this case the morphism $X \times_B Y \to X \times Y$ in the Mayer-Vietoris sequence is itself the homotopy fiber of $X \times Y \stackrel{f \cdot g^{-1}}{\longrightarrow} B$, hence that we have a long homotopy fiber sequence of the form
 
@@ -561,11 +601,14 @@ $$
   \array{
      G  &\longrightarrow& \ast
      \\
-     \downarrow^{\mathrlap{\Delta}} && \downarrow^{\mathrlap{e}}
+     \big\downarrow{\mathrlap{^{_\Delta}}} 
+      && \downarrow{\mathrlap{^{_e}}}
      \\
-     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
+     G \times G 
+      &\underset{(-)\cdot (-)^{-1}}{\longrightarrow}& 
+     G
+     \mathrlap{\,.}
   }
-  \,.
 $$
 
 Then use the [[pasting law]] as above.
@@ -637,25 +680,37 @@ By duality (see [[universal coefficient theorem]]) an analogous statement holds 
 
 * [[Brown-Gersten property]]
 
+
 ## References
 
-An original reference is
+Mayer-Vietoris sequences are named after:
 
-* {#EckmannHilton} [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
- 
+* Walther Mayer: *Über abstrakte Topologie*, Monatshefte f&uuml; Mathematik und Physik **36** (1929) 1–42 \[<a href="https://doi.org/10.1007/BF02307601">doi:10.1007/BF02307601</a>\]
 
-A more modern review that emphasizes the role of [[homotopy fiber sequences]] is in
+* [[Leopold Vietoris]]: *Über die Homologiegruppen der Vereinigung zweier Komplexe*, Monatshefte f. Mathematik und Physik **37** (1930)  159–162 \[<a href="https://doi.org/10.1007/BF01696765">doi:10.1007/BF01696765</a>\]
 
-* {#DyerRoitberg80} [[Eldon Dyer]], Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
+but the formulation as [[exact sequences]] appeared only later:
 
-Discussion in the context of [[stable model categories]] includes
+* [[Samuel Eilenberg]], [[Norman Steenrod]]; §15 in: _Foundations of Algebraic Topology_, Princeton University Press (1952) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology)&rbrack;
 
-* [[Peter May]], lemma 5.7 of _The additivity of traces in triangulated categories_, Adv. Math., 163(1):34-73, 2001 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf))
+* {#EckmannHilton} [[Beno Eckmann]], [[Peter Hilton]]; §5 in: *Unions and intersections in homotopy theory*, Comment. Math. Helv. **3** 2 (1964) 93-307 &lbrack;[doi:10.1007/BF02566918](http://dx.doi.org/10.1007/BF02566918)&rbrack;
 
-Discussion in the context of [[homotopy type theory]] includes
 
-* E Cavallo et al, _Exactness of the Mayer-Vietoris Sequence
-in Homotopy Type Theory_ ([pdf](http://www.contrib.andrew.cmu.edu/~ecavallo/works/mayer-vietoris.pdf))
+A more modern review that emphasizes the role of [[homotopy fiber sequences]]:
+
+* {#DyerRoitberg80} [[Eldon Dyer]], Joseph Roitberg: *Note on Sequences of Mayer-Vietoris Type*, Proceedings of the AMS, **80** 4 (1980) &lbrack;[doi:10.2307/2043446](https://doi.org/10.2307/2043446), [jstor:2043446](https://www.jstor.org/stable/2043446),  [pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf)&rbrack;
+
+See also:
+
+* Wikipedia: *[Mayer-Vietoris sequence](https://en.wikipedia.org/wiki/Mayer%E2%80%93Vietoris_sequence)*
+
+Discussion in the context of [[stable model categories]]:
+
+* [[Peter May]]; lemma 5.7 in: _The additivity of traces in triangulated categories_, Adv. Math. **163** 1 (2001) 34-73 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf)&rbrack;
+
+Discussion in the context of [[homotopy type theory]]:
+
+* [[Evan Cavallo]] et al.: _Exactness of the Mayer-Vietoris Sequence in Homotopy Type Theory_ &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/mayer-vietoris.pdf), [[Cavally-MayerVietoris.pdf:file]]&rbrack;
 
 [[!redirects Mayer-Vietoris sequences]]
 [[!redirects Mayer-Vietoris long exact sequence]]
