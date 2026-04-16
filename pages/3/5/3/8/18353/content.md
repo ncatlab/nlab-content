@@ -18,13 +18,13 @@
 
 ## Idea
 
-The Kahn-Priddy theorem characterizes a comparison map between [[cohomology]] with [[coefficients]] in the [[suspension spectrum]] of the infinite [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$ and [[stable cohomotopy]].
+The *Kahn-Priddy theorem* characterizes a comparison map between [[cohomology]] with [[coefficients]] in the [[suspension spectrum]] of the infinite [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$ and [[stable cohomotopy]].
 
 ## Statement
 
 Write $\mathbb{R}P^\infty \in Ho(Top)$ for the [[homotopy type]] of [[real projective space]] (an object in the [[classical homotopy category]]), and write $\Sigma^\infty \mathbb{R}P^\infty_+ \in Ho(Spectra)$ for its [[suspension spectrum]] regarded as an [[H-group ring spectrum]] in the [[stable homotopy category]]. 
 
-For each $n$ there is a canonical inclusion (see [Whitehead 83, p. 20](#Whitehead83)).
+For each $n$ there is a canonical inclusion (see [Whitehead 1983, p. 20](#Whitehead83)).
 
 $$
   \mathbb{R}P^{n-1}
@@ -32,7 +32,7 @@ $$
   O(n)^+
 $$
 
-due to Hopf 35, which is compatible with the inclusions as $n$ varies
+due to Hopf 1935, which is compatible with the inclusions as $n$ varies
 
 $$
   \array{
@@ -111,4 +111,9 @@ Review is in
 The analogous statement for [[complex projective space]] and complex [[topological K-theory]] is due to
 
 * {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
+
+See also:
+
+* William Balderrama: *Kahn-Priddy theorems via the norm* &lbrack;[arXiv:2604.12679](https://arxiv.org/abs/2604.12679)&rbrack;
+
 
