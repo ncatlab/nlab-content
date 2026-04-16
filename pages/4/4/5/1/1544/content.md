@@ -80,7 +80,7 @@ $$
   tra : \mathbf{P}_1(X) \to At''(P)
 $$
 
-from the [[path groupoid]] of $X$ to the [[Atiyah Lie groupoid]] of $P$ that is smooth in a suitable sense and _splits the Atiyah sequence_ in that $\mathbf{P}_1(X) \stackrel{tra}{\to} At''(X) \to \mathbf{P}_1(X)$ (see the notation at [[Atiyah Lie groupoid]]).
+from the [[path groupoid]] of $X$ to the [[Atiyah Lie groupoid]] of $P$ that is smooth in a suitable sense and _splits the Atiyah sequence_ in that $\mathbf{P}_1(X) \stackrel{tra}{\to} At''(P) \to \mathbf{P}_1(X)$ (see the notation at [[Atiyah Lie groupoid]]).
 
 **Terminology**
 
