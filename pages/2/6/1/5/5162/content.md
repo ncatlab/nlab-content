@@ -25,7 +25,7 @@ On [[fiber bundles]]and [[principal bundles]]:
 
 On [[algebraic topology]]:
 
-* [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
+* [[Samuel Eilenberg]], [[Norman Steenrod]]: _Foundations of Algebraic Topology_, Princeton University Press (1952) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology)&rbrack;
 
 
 On [[extensions]] (such as in the [[Tietze extension theorem]]), [[ordinary cohomology]], [[Eilenberg-MacLane spaces]], [[cohomology operations]]:
