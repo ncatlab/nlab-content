@@ -1,11 +1,11 @@
 
-#Contents#
-* table of contents
-{:toc}
 
-##Idea##
+\tableofcontents
 
-In the 1920s homology and cohomology were known for simplicial complexes and there were attempts to extend the definitions to first of all compact metric spaces and then more general spaces.  [[Leopold Vietoris]] (1927) came up with a construction and then shortly after Alexandrov and &#268;ech gave a different one involving [[Čech nerve|the nerve that now bears Čech's name]]. The input of the  two methods is the same, we have a space $X$ and an open cover $\mathcal{U}$ of $X$.
+
+## Idea 
+
+In the 1920s homology and cohomology were known for simplicial complexes and there were attempts to extend the definitions to first of all compact metric spaces and then more general spaces. [Vietoris 1927](#Vietoris1927) came up with a construction and then shortly after Alexandrov and &#268;ech gave a different one involving [[Čech nerve|the nerve that now bears Čech's name]]. The input of the  two methods is the same, we have a space $X$ and an open cover $\mathcal{U}$ of $X$.
 
 It was noted that all the calculations of Vietoris homology gave the same answer as  &#268;ech homology.  In 1952, C. H. Dowker showed why.  His [[Dowker's theorem|result]] is a beautiful mix of  abstraction and concrete explicit calculation (and is not that well known unfortunately). 
 
@@ -74,15 +74,32 @@ Perhaps this fact is [[Dowker's Theorem]]?
 
 * [[persistent homotopy]]
 
+
 ## References
+
+The original article:
+
+* {#Vietoris1927} [[Leopold Vietoris]]: *Über den höheren Zusammenhang kompakter Räume und eine Klasse von zusammenhangstreuen Abbildungen*, Math. Ann. **97** (1927) 454–472 \[<a href="https://doi.org/10.1007/BF01447877">doi:10.1007/BF01447877</a>\]
+
+Related concepts were independently considered by Eliyahu Rips in unpublished word in the 1970-80s, referred to in:
+
+* [[Mikhail Gromov]]: *Hyperbolic Groups*, in: *Essays in Group Theory*, Mathematical Sciences Research Institute Publications, **8**, Springer (1987) &lbrack;[doi:10.1007/978-1-4613-9586-7_3](https://doi.org/10.1007/978-1-4613-9586-7_3), [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/657.pdf)&rbrack;
+
+> (Gromov does not use the term "Rips complex", he just uses the symbols $P_d(-)$.)
+
+The term "Vietoris-Rips complex" was introduced by:
+
+* Jean-Claude Hausmann: *On the Vietoris-Rips complexes and a Cohomology Theory for metric spaces*, in: *Prospects in Topology: Proceedings of a Conference in Honor of William Browder*, Princeton University Press (2016) 175-188 &lbrack;[doi:10.1515/9781400882588-013](https://doi.org/10.1515/9781400882588-013), [pdf](https://publish.illinois.edu/ymb/files/2020/03/Hausmann-1995-On-the-Vietoris-Rips-complexes-and-a-cohomology-th.pdf)&rbrack;
+
+Review:
+
+* Wikipedia, *[Vietoris-Rips complex](https://en.wikipedia.org/wiki/Vietoris–Rips_complex)*
 
 Discussion in [[persistent homotopy theory]]:
 
-* [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
+* [[J. F. Jardine]], *Data and homotopy types* &lbrack;[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)&rbrack;
 
 See also:
-
-* Wikipedia, *[Vietoris-Rips complex](https://en.wikipedia.org/wiki/Vietoris–Rips_complex)*
 
 * [[I. Volodin]], _Algebraic K-theory as extraordinary homology theory on the category of associative  rings with unity_, Izv. Akad. Nauk. SSSR, 35, (Translation: Math. USSR Izvestija Vol. 5 (1971) 
 No. 4, 859-887).
