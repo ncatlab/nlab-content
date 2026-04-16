@@ -1,5 +1,9 @@
 
-* [webpage](https://ecavallo.net/)
+* [personal page](https://ecavallo.net/)
+
+* [institute page](https://www.chalmers.se/en/persons/evanc/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=W_WV18UAAAAJ&hl=en)
 
 ## Selected writings and talks
 
@@ -33,7 +37,11 @@ On [[generalized (Eilenberg-Steenrod) cohomology]] formulated in [[homotopy type
 
 * [[Evan Cavallo]], *Synthetic Cohomology in Homotopy Type Theory* (2015). Master's Thesis. Carnegie Mellon University, USA. &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/thesis15.pdf), [[Cavallo-CohomologyInHoTT.pdf:file]]&rbrack;
 
-## Dissertation
+On the [[Mayer-Vietoris sequence]] in [[homotopy type theory]]:
+
+* [[Evan Cavallo]] et al.: _Exactness of the Mayer-Vietoris Sequence in Homotopy Type Theory_ &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/mayer-vietoris.pdf), [[Cavally-MayerVietoris.pdf:file]]&rbrack;
+
+Dissertation on [[higher inductive types]] in [[cubical type theory]]:
 
 * [[Evan Cavallo]], *Higher Inductive Types and Internal Parametricity for Cubical Type Theory* (2021). Ph. D. Dissertation. Carnegie Mellon University, USA. &lbrack;[doi:10.1184/r1/14555691](https://doi.org/10.1184/r1/14555691)&rbrack;
 
