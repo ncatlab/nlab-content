@@ -1,6 +1,6 @@
 __Mikhail Gromov__ (&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1051;&#1077;&#1086;&#1085;&#1080;&#1076;&#1086;&#1074;&#1080;&#1095; &#1043;&#1088;&#1086;&#1084;&#1086;&#1074;) is a Russian-French mathematician, a Professor at IHES, with deep contributions to many areas of mathematics. 
 
-* [home page](http://www.ihes.fr/~gromov)
+* [persinal page](http://www.ihes.fr/~gromov)
 
 * Wikipedia entries: [English](http://en.wikipedia.org/wiki/Mikhail_Gromov_%28mathematician%29), [Russian](http://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%BC%D0%BE%D0%B2,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87), [French](http://fr.wikipedia.org/wiki/Mikha%C3%AFl_Gromov)
 
@@ -22,6 +22,10 @@ On the [[h-principle]] and [[microflexible sheaves]]:
 * [[Mikhail Gromov]], _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221--225 ([djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf))
 
 * [[Mikhail Gromov]], Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
+
+On [[hyperbolic groups]] (and popularizing the Rips' discussion of what is now called the [[Vietoris-Rips complex]]):
+
+* [[Mikhail Gromov]]: *Hyperbolic Groups*, in: *Essays in Group Theory*, Mathematical Sciences Research Institute Publications, **8**, Springer (1987) &lbrack;[doi:10.1007/978-1-4613-9586-7_3](https://doi.org/10.1007/978-1-4613-9586-7_3), [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/657.pdf)&rbrack;
 
 
 On the [[Oka principle]]:
