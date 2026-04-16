@@ -16,7 +16,7 @@ I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful i
 
 ##  Work in progress and projects
 
-1. _Extracting an $\mathbb{N}$-filtered differential modality from a differential modality._ Status on 13 February 2024: almost completely written, should be on the arXiv in a few days.
+1. _Extracting an $\mathbb{N}$-filtered differential modality from a differential modality._ Status on 16 April 2024: submitted to the ArXiv.
 
 2. _Relative differential categories:_ replace the monad with a relative monad in the definition of a differential category. Status on 13 February 2024: will finish to write this after the extracting paper.
 
