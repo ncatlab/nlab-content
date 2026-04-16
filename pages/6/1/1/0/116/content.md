@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition ##
 
@@ -256,6 +255,8 @@ For more see *[[counterexamples in algebra]]*.
   * [[abelian group]], [[anabelian group]], 
 
     * [[group completion]]
+
+  * [[hyperbolic group]]
 
   * [[group commutator]], [[commutator subgroup]], [[abelianization]]
 
