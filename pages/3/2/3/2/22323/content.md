@@ -22,5 +22,8 @@ called [[transvectant]]s found by Gordan,
 * [[Pierre Bieliavsky]], X. Tang, Y. Yao, _Rankin--Cohen brackets and formal quantization_, Adv. Math. __212__:1 (2007) 293--314 [doi](https://doi.org/10.1016/j.aim.2006.10.007)
 * M. Samsonov, _Quantization of semi-classical twists and noncommutative geometry_, Lett. Math. Phys. __75__ (2006) 63–77 [doi](https://doi.org/10.1007/s11005-005-0038-2)
 * Y.-J. Choie, W. Eholzer, _Rankin--Cohen operators for Jacobi and Siegel forms_, J. Number Theory 68 (1998) 160--177
+* Toshiyuki Kobayashi, Michael Pevzner, _Rankin--Cohen brackets in representation theory_, arXiv:[2601.15750](https://arxiv.org/abs/2601.15750)
+* G. van Dijk, M. Pevzner, _Ring structures for holomorphic discrete series and Rankin--Cohen brackets_, J. Lie Theory __17__ (2007) 283--305 arXiv:[math.RT/0512096](https://arxiv.org/abs/math/0512096)
+
 
 [[!redirects Rankin-Cohen deformation]]
