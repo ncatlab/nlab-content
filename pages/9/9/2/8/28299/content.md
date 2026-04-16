@@ -21,47 +21,144 @@ The FL-Lagrangian arises also as the [[effective field theory|effective]] [[boun
 
 
 ## From abelian Chern-Simons theory
+ {#FromAbelianChernSimonsTheory}
 
 The [[Lagrangian density]] of [[abelian Chern-Simons theory]] with [[gauge field]] [[differential 1-form|1-form]] $a$ is 
 
 \[
-  \propto \tfrac{1}{2} a \wedge \mathrm{d}a
+  \label{CSLagrangianDensity}
+  L(a)
+  =
+  \tfrac{k}{4\pi}
+  a \wedge \mathrm{d}a
   \mathrlap{\,.}
 \]
 
-Setting ([Wen 1992 above (2.62)](#Wen1992), [1995 above (3.44)](#Wen1995), [Tong 2016 below (6.9)](#Tong2016), [Lopez & Fradkin 2001 (3.4)](#LopezFradkin2001), [Wolf, Read & Teh 2023 above (2.15)](#WolfReadTeh2023))
+Consider this now on a [[globally hyperbolic spacetime|globally hyperbolic]] 3D [[spacetime]] $X^{1,0} \times X^2$:
 
-\[
-  a = \mathrm{d}\phi
-\]
+1. with vanishing first [[de Rham cohomology]]
 
-on the 3D [[spacetime]] [[manifold with boundary|with boundary]] $\mathbb{R}^{0,1} \times \mathbb{R}^2_{y \leq 0}$ gives, by [[Stokes' theorem]], the [[boundary field theory|boundary]] Lagrangian density for a field $\phi$ on $\mathbb{R}^{0,1} \times \mathbb{R}^1$ ([Wen 1992 (2.62)](#Wen1992))
+   \[
+     \label{AssumingVanishingFirstDeRhamCohomology}
+     H^1_{dR}\big(X^2\big) = 0
+     \mathrlap{\,,}
+   \]
+
+1. [[manifold with boundary|with spatial boundary]] 
+
+   \[
+     X^{1,0} \times \partial X^2
+     \;\subset\;
+     X^{1,0} \times X^2
+     \mathrlap{\,.}
+   \]
+
+Now ([Wen 1992 above (2.62)](#Wen1992), [1995 above (3.44)](#Wen1995), [Tong 2016 below (6.9)](#Tong2016), [Lopez & Fradkin 2001 (3.4)](#LopezFradkin2001), [Wolf, Read & Teh 2023 above (2.15)](#WolfReadTeh2023)) 
+
+1. choose [[temporal gauge]]
+
+   \[
+     \label{TemporalGauge}
+     a_{\partial_{t'}} = 0
+     \mathrlap{\,,}
+   \]
+
+2. a potential 0-form $\phi$ solving the induced [[Gauss law]] [[constraint]] $\partial_i a_j - \partial_j a_i = 0$, by (eq:AssumingVanishingFirstDeRhamCohomology):
+
+   \[
+     \label{SpatialComponents}
+     a_i = \mathrm{d}_i\phi 
+     \,,
+   \]
+
+   where $(x^i)_{i = 1}^{2}$ denote [[coordinate chart|local]] [[coordinate functions]] on $X^2$.
+
+Then, by [[Stokes' theorem]], the CS [[Lagrangian density]] (eq:CSLagrangianDensity) becomes a [[boundary field theory|boundary]] [[Lagrangian density]] for $\phi$ on $X^{1,0} \times \partial X^2$ as follows ([Wen 1992 (2.62)](#Wen1992)):
+
+$$
+  \begin{array}{rll}
+    \tfrac{k}{4\pi} 
+    \int_{X^{1,0} \times X^2} 
+      a \wedge \mathrm{d} a
+    & = 
+    -
+    \tfrac{k}{4\pi}     
+    \int_{X^{1,0} \times X^2} 
+      \big(
+        a \wedge \partial_{t'} a  
+      \big) 
+    \mathrm{d}t'
+    &
+    \text{by}\;\text{(eq:TemporalGauge)}
+    \\
+    & =
+    -
+    \tfrac{k}{4\pi}     
+    \int_{X^{1,0} \times X^2} 
+      \epsilon^{i j}
+      (\partial_i \phi) (\partial_{t'} \partial_j \phi)
+    \mathrm{d}t' \wedge \mathrm{d} x^1 \wedge \mathrm{d}x^2
+    &
+    \text{by}\;\text{(eq:SpatialComponents)}
+    \\
+    & =
+    -
+    \tfrac{k}{4\pi}     
+    \int_{X^{1,0} \times X^2} 
+      \epsilon^{i j}
+      \partial_j
+      \big(
+        (\partial_i \phi) (\partial_{t'} \phi)
+      \big) 
+    \mathrm{d}t' \wedge \mathrm{d}x^1 \wedge \mathrm{d}x^2
+    &
+    \text{by Leibniz' rule}
+    \\
+    & =
+    \tfrac{k}{4\pi}     
+    \int_{X^{1,0} \times \partial X^2} 
+      \big(
+        (\partial_i \phi) (\partial_{t'} \phi)
+      \big) 
+    \mathrm{d}t' \wedge \mathrm{d}^i x
+    &
+    \text{by Stokes' theorem.}
+  \end{array}
+$$
+
+Often this is considered for $X^2$ the [[upper half plane]] with coordinate $x$ along the edge, in which case the [[boundary field theory|boundary]] [[Lagrangian density]] is hence
 
 \[
   L(\phi) 
     = 
-  \tfrac{1}{2} (\partial_x \phi) (\partial_{t'}\phi) 
+  \tfrac{k}{4\pi}     
+  (\partial_x \phi) (\partial_{t'}\phi) 
+  \mathrlap{\,.}
 \]
 
-for $t'$ and $x$ two [[coordinate functions]] on the 2D [[spacetime]] $\mathbb{R}^2$. Understanding ([Wen '92 (2.64)](#Wen1992))
+Now, understanding ([Wen '92 (2.64)](#Wen1992))
 
 \[
   t' \coloneqq t - c x
 \]
 
-as a [[lightcone gauge]] coordinate, this is
+as a [[lightcone gauge]] coordinate, this reads:
 
 \[
   L(\phi) 
     = 
-  \tfrac{1}{2} (\partial_x \phi) 
+  \tfrac{k}{4\pi} 
+  (\partial_x \phi) 
   \big(
     \partial_{t} - c \partial_x\phi 
   \big) 
   \mathrlap{\,.}
 \]
 
-This is the FL-Lagrangian density.
+This is, up to normalization, the Floreanini-Jackiw Lagrangian density.
+
+In applications to [[solid state physics]], the "[[speed of light]]", $c$, here is taken to be the propagation speed of [[edge mode]] [[currents]] and typically denoted "$v$", understood to be a free parameter.
+
 
 ## Lagrangian and Equations of motion
 
