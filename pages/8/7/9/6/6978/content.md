@@ -31,7 +31,7 @@ A **locally cartesian closed functor** is a [[functor]] between [[locally cartes
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
 
-* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
+* [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
 ## References
 
