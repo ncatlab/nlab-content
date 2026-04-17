@@ -14,22 +14,20 @@
 \tableofcontents
 
 
+
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
 
+\begin{definition}\label{SmallProjective}
 Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)), or **absolutely presentable** if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]].
 
 More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called small-projective if $E(e,-) \colon E \to V$ preserves all small colimits.
-=--
+\end{definition}
 
-+-- {: .num_remark}
-###### Remark
 
-Since being an [[epimorphism]] is a "colimit-property" (a morphism is epi iff its [[pushout]] with itself is the [[identity morphism]], cf. [there](epimorphism#BasicCharacterizationOfEpimorphisms)), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
-
-=--
+\begin{remark}\label{OnSmallProjectiveTerminology}
+Since being an [[epimorphism]] is a "colimit-property" (a morphism is epi iff its [[pushout]] with itself is the [[identity morphism]], cf. [there](epimorphism#BasicCharacterizationOfEpimorphisms)), if $e$ is small projective (Def. \ref{SmallProjective}) then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
+\end{remark}
 
 Notice that if $E$ is [[locally presentable category|locally presentable]] then $E(e,-)$ preserving colimits is equivalent to its having a [[right adjoint]] (by the [[adjoint functor theorem]], see [there](adjoint+functor+theorem#StatementForLocPresCategories)). Alternatively one may take this to be the defining property of interest:
 
