@@ -66,6 +66,12 @@ of the space of [[holomorphic sections]] of $L$:
 
 ## References
 
+The original eponymous discussion:
+
+* [[Michel A. Kervaire]]: *A manifold which does not admit any differentiable structure*, Commentarii Mathematici Helvetici **34** (1960) 257–270 &lbrack;[doi:10.1007/BF02565940](https://doi.org/10.1007/BF02565940)&rbrack;
+
+Further discussion:
+
 * W. Browder, _The Kervaire invariant of framed manifolds and its generalization_, Annals of Mathematics 90 (1969), 157&#8211;186.
 
 * John Jones, Elmer Rees, _A note on the Kervaire invariant_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/jonesrees2.pdf))
