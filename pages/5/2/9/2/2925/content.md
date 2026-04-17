@@ -120,8 +120,10 @@ If [[excluded middle]] is true, then the classical IVT follows from the above th
 +-- {: .proof}
 ###### Proof of Theorem \ref{classical}&#8288;
 
-By way of contradiction (applying the [[double negation]] law of [[classical logic]]), suppose that ${|f(c)|} \gt 0$ for every $c$ in $[0,1]$.  Then the extra hypothesis of Theorem \ref{hypothesis} is certainly satisfied, so there exists some $c$ such that $f(c) = 0$ after all.  (Constructively, this is enough to show that the classical theorem has no counterexample.)
+By way of contradiction (applying the [[double negation]] law of [[classical logic]]), suppose that ${|f(c)|} \gt 0$ for every $c$ in $[0,1]$. Then the extra hypothesis of Theorem \ref{hypothesis3} is certainly satisfied, so there exists some $c$ such that $f(c) = 0$ after all.  (Constructively, this is enough to show that the classical theorem has no counterexample.)
 =--
+
+In fact, we do not need the full [[excluded middle]], only the [[analytic limited principle of omniscience]], which implies that every continuous function is [[uniformly continuous]] via the usual [[limited principle of omniscience]] and thus satisfies the extra hypothesis of Theorem \ref{hypothesis3}. Then the conclusion follows from [[trichotomy]] of the order relation on the reals. 
 
 There is also another constructively valid version of the IVT, where the conclusion is classically the contrapositive of the classical IVT, but which is weaker constructively since the reverse contrapositive rule does not hold constructively:
 
@@ -135,7 +137,7 @@ This appeared in [Bauer 2016](#Bauer16).
 
 ### Constructive IVT with strengthened hypothesis
 
-+-- {: .num_theorem #hypothesis}
++-- {: .num_theorem #hypothesis1}
 ###### Theorem
 (constructive IVT with strengthened hypothesis, assuming the interval endpoints and the zero have [[locators]] and that the function is [[locally nonzero]])
 
@@ -143,7 +145,7 @@ For real numbers $a$ and $b$ with [[locators]], let $f\colon [a,b] \to \mathbb{R
 =--
 
 +-- {: .proof}
-###### Proof of Theorem \ref{hypothesis}&#8288;
+###### Proof of Theorem \ref{hypothesis1}&#8288;
 
 This proof originally appeared in [Booij 2018](#Booij18)
 
@@ -151,21 +153,21 @@ This proof originally appeared in [Booij 2018](#Booij18)
 
 =--
 
-+-- {: .num_theorem #hypothesis}
++-- {: .num_theorem #hypothesis2}
 ###### Theorem
 (constructive IVT with strengthened hypothesis, assuming [[weak countable choice]] and that the function is [[locally nonzero]])
 
 Assuming [[weak countable choice]], for real numbers $a$ and $b$, let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]] that is a [[locally nonzero function]], and suppose that $f(a) \leq 0$ and $f(b) \geq 0$. Then, there exists a point $c$ in $[a, b]$ with a locator such that $f(c) = 0$. 
 =--
 
-+-- {: .num_theorem #hypothesis}
++-- {: .num_theorem #hypothesis3}
 ###### Theorem
-(constructive IVT with strengthened hypothesis, assuming [[weak countable choice]] and that the function is [[uniformly continuous]])
+(constructive IVT with strengthened hypothesis, assuming that the function is [[uniformly continuous]])
 
-Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
+Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$. Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$. (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
 
-+-- {: .num_theorem #hypothesis}
++-- {: .num_theorem #hypothesis3}
 ###### Theorem
 (constructive IVT with strengthened hypothesis, assuming that the function is [[strictly monotonic]] with $0$ strictly between $f(0)$ and $f(1)$)
 
