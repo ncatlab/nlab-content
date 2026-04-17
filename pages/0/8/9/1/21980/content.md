@@ -15,9 +15,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -47,11 +47,11 @@ The explanation of the proof strategy via [[Pontryagin's theorem]] in [[cobordis
 
 * {#Pontrjagin38b} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication II_, Doklady Akademii Nauk SSSR 19(5) (1938), 361-363
 
-but there was a mistake in the proof left, fixed in [Pontryagin 50](#Pontryagin50) and, independently and by different means, in [Whitehead 50](#Whitehead50):
+But there was a mistake in the proof left, fixed in [Pontryagin 50](#Pontryagin50) and, independently and by different means, in [Whitehead 50](#Whitehead50):
  
-* {#Pontryagin50} [[Lev Pontryagin]], _[[Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]_, Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
+* {#Pontryagin50} [[Lev Pontryagin]]: _[[Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]_, Doklady Akad. Nauk SSSR (N.S.) **19** (1950) 957–959 &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf)&rbrack;
 
-* {#Whitehead50} [[George Whitehead]], _The $(n+2)$nd Homotopy Group of the $n$-Sphere_, Annals of Mathematics Second Series, Vol. 52, No. 2 (Sep., 1950), pp. 245-247  ([jstor:1969466](https://www.jstor.org/stable/1969466))
+* {#Whitehead50} [[George Whitehead]]: _The $(n+2)$nd Homotopy Group of the $n$-Sphere_, Annals of Mathematics Second Series, **52** 2 (1950) 245-247 &lbrack;[jstor:1969466](https://www.jstor.org/stable/1969466)&rbrack;
 
 A more comprehensive account of the computation and the [[cobordism theory]] behind it ([[Pontryagin's theorem]]) was then given in:
 
