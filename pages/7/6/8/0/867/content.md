@@ -186,7 +186,7 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 ### In univalent universes
 
-In [[homotopy type theory]], every [[type]] with a partial order in a [[univalent universe]] is a poset. ([Tosun](#Tosun), [Ahrens, North, Shulman, Tsementzis](#ANST))
+In [[homotopy type theory]], every [[type]] with a partial order in a [[univalent universe]] is a poset. ([Coquand & Tosun 2021](#CoquandTosun21), [Ahrens, North, Shulman, Tsementzis](#ANST))
 
 ### Finite posets and Birkhoff duality
  {#OppositeCategory}
@@ -277,7 +277,7 @@ Here are some references on [[directed homotopy theory]]:
 
 Posets in [[univalent universes]] in [[homotopy type theory]] are discussed in
 
-* {#Tosun} Ayberk Tosun, Formal Topology in Univalent Foundations [pdf](https://odr.chalmers.se/handle/20.500.12380/301098)
+* {#CoquandTosun21} [[Thierry Coquand]], [[Ayberk Tosun]], “Formal Topology and Univalent Foundations”. In: *Proof and Computation II*. 2021. Chap. 6, pp. 255–266. ([doi:10.1142/9789811236488_0006](https://doi.org/10.1142/9789811236488_0006)), [pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 * {#ANST21} [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* &lbrack;[abs:2102.06275](https://arxiv.org/abs/2102.06275)&rbrack;
 
