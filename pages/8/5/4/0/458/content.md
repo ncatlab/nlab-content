@@ -571,6 +571,10 @@ A [[model category]] of [[locales]] which makes the [[reflective subcategory|ref
 
 * {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], Thm. 4.45 in: *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
 
+Discussion of locales in [[homotopy type theory]]:
+
+* [[Ayberk Tosun]]: *Constructive and Predicative Locale Theory in Univalent Foundations* &lbrack;[arXiv:2603.01308](https://arxiv.org/abs/2603.01308)&rbrack;
+
 [[!redirects locale]]
 [[!redirects locales]]
 
