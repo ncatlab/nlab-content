@@ -9,9 +9,9 @@
 =--
 =--
 
-# Taboos
-* table of contents
-{: toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -117,7 +117,7 @@ to assume false, but we definitely do not want to be able to prove.
 > Certain basic principles of classical mathematics are taboo for the constructive mathematician. Bishop called them *principles of omniscience*.
 
 
-* {#Mandelkern89} [[Mark Mandelkern]], _Brouwerian Counterexamples_, Mathematics Magazine, vol. 62 no. 1, 1989 ([doi:10.2307/2689939](https://www.tandfonline.com/doi/abs/10.1080/0025570X.1989.11977404))
+* {#Mandelkern89} Mark Mandelkern: _Brouwerian Counterexamples_, Mathematics Magazine **62** 1 (1989) &lbrack;[doi:10.2307/2689939](https://www.tandfonline.com/doi/abs/10.1080/0025570X.1989.11977404)&rbrack;
 
 
 See also:
@@ -132,8 +132,7 @@ contradiction, an absurdity. If instead we show that it implies the decidability
 >  the full axiom of choice is a definite constructive taboo
 
 * {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], section 7.4 of *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
-
-> Brouwer’s fixed-point theorem is a fairly unusual property for an intuitionistic topos to have because it implies a constructive taboo, namely the so-called analytic Limited Lesser Principle of Omniscience (LLPO).
+  > "Brouwer’s fixed-point theorem is a fairly unusual property for an intuitionistic topos to have because it implies a constructive taboo, namely the so-called analytic Limited Lesser Principle of Omniscience (LLPO)."
 
 [[!redirects taboos]]
 [[!redirects constructive taboo]]
