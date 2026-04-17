@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -59,7 +58,7 @@ Besides the [[Poincaré lemma]] for piecewise polynomial forms, the proof uses:
 Given a PL form on the [[boundary of a simplex]], it extends to (hence is the [[pullback of differential forms|restriction of]]) a PL form on the full [[n-simplex]].
 \end{lemma}
 
-(e.g. [Griffiths & Morgan 2013, Lemma 9.6](#GriffithsMorgan13))
+(cf. [Griffiths & Morgan 2013, Lemma 9.6](#GriffithsMorgan13))
 
 \begin{proof}  Consider [barycentric coordinates](simplex#BarycentricCoordinates) for the given [[n-simplex]]
 
