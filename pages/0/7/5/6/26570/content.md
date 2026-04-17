@@ -33,6 +33,12 @@ $$\sum_{f:\mathbb{N} \to \mathrm{bool}} P \simeq \left[\sum_{x:\mathbb{N}}f(x) =
 
 of all boolean sequences $f$ for which $P$ is equivalent to there exists a natural number $x:\mathbb{N}$ such that $f(x) = 1$. 
 
+## Generalizations
+
+Semi-decidable propositions, which are not closed under [[existential quantification]] over the [[natural numbers]], can be generalized to **quasi-decidable propositions** ([Escardo 2020](#Escardo20)) or **Sierpiński-semidecidable propositions** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), which are the closure of semi-decidable propositions under the logical operations of finite [[conjunctions]] and [[existential quantification]] over the [[natural numbers]]. 
+
+The set of Sierpiński-semidecidable propositions is thus given by the [[Sierpinski space#Predicative|predicative version of Sierpinski space]] $\Sigma$, which, unlike the [[Rosolini dominance]], is always a [[dominance]]. This is in turn used to construct a version of the [[Dedekind real numbers]] using only Sierpiński-semidecidable subsets ($\mathrm{Q}^\Sigma \times \mathrm{Q}^\Sigma)$ of the rational numbers, which coincides with the [[Cauchy real numbers]] [[if and only if]] every Sierpiński-semidecidable proposition is (Rosolini) semidecidable in the usual sense. 
+
 ## Related concepts
 
 * [[decidable proposition]]
@@ -41,11 +47,15 @@ of all boolean sequences $f$ for which $P$ is equivalent to there exists a natur
 
 * [[synthetic topology]], [[dominance]]
 
-* [[quasidecidable proposition]]
-
 ## References
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], _Metric Spaces in Synthetic Topology_, 2010 ([pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf))
+
+* {#EK17} [[Martín Escardó]], [[Cory Knapp]]. *Partial Elements and Recursion via Dominances in Univalent Type Theory.* In 26th EACSL Annual Conference on Computer Science Logic (CSL 2017). Leibniz International Proceedings in Informatics (LIPIcs), Volume 82, pp. 21:1-21:16, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2017) &lbrack;[10.4230/LIPIcs.CSL.2017.21](https://doi.org/10.4230/LIPIcs.CSL.2017.21)&rbrack;
+
+* {#Escardo20} [[Martin Escardo]]. *Quasidecidable propositions*. [[Agda]] code with comments, 2020. ([URL](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)).
+
+* {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
 [[!redirects semi-decidable]]
 
@@ -68,3 +78,44 @@ of all boolean sequences $f$ for which $P$ is equivalent to there exists a natur
 
 [[!redirects semidecidable type]]
 [[!redirects semidecidable types]]
+
+[[!redirects quasi-decidable]]
+
+[[!redirects quasidecidable]]
+
+[[!redirects quasi-decidable proposition]]
+[[!redirects quasi-decidable propositions]]
+
+[[!redirects quasidecidable proposition]]
+[[!redirects quasidecidable propositions]]
+
+[[!redirects quasi-decidable truth value]]
+[[!redirects quasi-decidable truth values]]
+
+[[!redirects quasidecidable truth value]]
+[[!redirects quasidecidable truth values]]
+
+[[!redirects Sierpinski-semidecidable]]
+[[!redirects Sierpinski-semi-decidable]]
+[[!redirects Sierpiński-semidecidable]]
+[[!redirects Sierpiński-semi-decidable]]
+
+[[!redirects Sierpinski-semi-decidable proposition]]
+[[!redirects Sierpinski-semi-decidable propositions]]
+[[!redirects Sierpiński-semi-decidable proposition]]
+[[!redirects Sierpiński-semi-decidable propositions]]
+
+[[!redirects Sierpinski-semidecidable proposition]]
+[[!redirects Sierpinski-semidecidable propositions]]
+[[!redirects Sierpiński-semidecidable proposition]]
+[[!redirects Sierpiński-semidecidable propositions]]
+
+[[!redirects Sierpinski-semi-decidable truth value]]
+[[!redirects Sierpinski-semi-decidable truth values]]
+[[!redirects Sierpiński-semi-decidable truth value]]
+[[!redirects Sierpiński-semi-decidable truth values]]
+
+[[!redirects Sierpinski-semidecidable truth value]]
+[[!redirects Sierpinski-semidecidable truth values]]
+[[!redirects Sierpiński-semidecidable truth value]]
+[[!redirects Sierpiński-semidecidable truth values]]
