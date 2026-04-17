@@ -83,7 +83,7 @@ Work conducted in homotopy type theory:
 
 * Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], _Synthetic topology in Homotopy Type Theory for probabilistic programming_ ([arXiv:1912.07339](https://arxiv.org/abs/1912.07339))
 
-* Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
+* [[Thierry Coquand]], [[Ayberk Tosun]], “Formal Topology and Univalent Foundations”. In: *Proof and Computation II*. 2021. Chap. 6, pp. 255–266. ([doi:10.1142/9789811236488_0006](https://doi.org/10.1142/9789811236488_0006)), [pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 * [[Daniel Carranza]], Jonathan Chang, [[Chris Kapulkin]], Ryan Sandford, _2-adjoint equivalences in homotopy type theory_, ([arXiv:2008.12433](https://arxiv.org/abs/2008.12433))
 
