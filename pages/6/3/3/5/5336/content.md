@@ -21,6 +21,9 @@ The Russian school of [[constructive mathematics]], associated principally with 
    *  there exist continuous functions from $[0,1]$ (the [[unit interval]]) to $\mathbb{R}$ that are pointwise continuous but not [[uniformly continuous map|uniformly continuous]];
    *  there exist [[bounded subspace|bounded]] sets of real numbers with no [[supremum]] (given by [[Specker sequences]]).
 
+## References
+
+* {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 [[!redirects Russian constructivism]]
 [[!redirects Russian constructive mathematics]]
