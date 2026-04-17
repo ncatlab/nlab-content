@@ -142,7 +142,11 @@ For the definition of the irrational numbers in terms of non-repeating base 10 i
 
 * Marecek, Lynn, et al. Prealgebra 2e. OpenStax, Rice University, 2020. 
 
-That Cauchy irrational numbers have radix expansions in constructive mathematics
+The term *strongly irrational* in [[constructive mathematics]] is defined and used in section 5.3 of:
+
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
+That Cauchy strictly irrational numbers have radix expansions in constructive mathematics
 
 * {#Swan24} Andrew Swan (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics/near/456366041)
 
