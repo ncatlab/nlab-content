@@ -19,6 +19,12 @@ On [[anyons]] in [[fractional quantum Hall systems]]:
   > (focus on [experimental signatures of anyons](FQH#ObservationOfAnyonsInFQH))
 
 
+On interfeometry with [[edge modes]] in [[fractional quantum Hall systems]]:
+
+* Zezhu Wei, [[Dima E. Feldman]], [[Bertrand I. Halperin]]: *Quantum Hall interferometry at finite bias with multiple edge channels*, Phys. Rev. B **110** (2024) 075306 &lbrack;[arXiv:2405.05486](https://arxiv.org/abs/2405.05486), [doi:10.1103/PhysRevB.110.075306](https://doi.org/10.1103/PhysRevB.110.075306)&rbrack;
+
+
+
 
 category: people
 
