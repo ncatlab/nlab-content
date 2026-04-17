@@ -1,5 +1,5 @@
 
-* [institute page](https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=1043)
+* [institute page](https://www.mff.cuni.cz/en/faculty/organizational-structure/people?hdl=18740)
 
 * [homepage](https://jpulmann.github.io/)
 
