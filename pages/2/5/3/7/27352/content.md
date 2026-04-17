@@ -74,7 +74,7 @@ Further review and exposition:
 
 * {#Tong16} [[David Tong]] §5 of: *The Quantum Hall Effect*, lecture notes (2016) \[<a href="https://arxiv.org/abs/1606.06687">arXiv:1606.06687</a>, [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]\]
 
-* Josef Willsher; §2.3 of : *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
+* Josef Willsher; §2.3 of: *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
 Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>, [[Willsher-CSFQH.pdf:file]]\]
 
 * Diego Bragato: *Integer Quantum Hall Effect and Chern Si-
