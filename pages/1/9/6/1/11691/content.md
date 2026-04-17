@@ -18,9 +18,9 @@ On [[isometry|isometric]] [[Riemannian immersion|Riemannian]] [[embedding of smo
 * {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-50/issue-3/The-Gauss-equations-and-rigidity-of-isometric-embeddings/10.1215/S0012-7094-83-05039-1.short)&rbrack;
 
 
-On [[rational homotopy theory]]:
+On [[rational homotopy theory]] and [[differential forms]]:
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkh&auml;user (2013)
+* {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]]: *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
 On [[Isadore M. Singer]]:
