@@ -1,10 +1,8 @@
 
-Laurence Carl Siebenmann is a Canadian born mathematician who is based at Orsay (Paris sud). He is best known for his work in geometric topology. 
+Laurence (or Laurent) Carl Siebenmann is a Canadian born mathematician who is based at Orsay (Paris sud). He is best known for his work in geometric topology. 
 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Laurent_C._Siebenmann) 
-
-* [Equipe de Topologie et Dynamique (Orsay)](http://www.math.u-psud.fr/topodyn/accueil.php)
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=22446)
 
