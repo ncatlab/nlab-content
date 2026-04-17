@@ -1,11 +1,15 @@
 
-Bertrand I. Halperin
+Bertrand Israel Halperin
 
 * [institute page](https://www.physics.harvard.edu/people/facpages/halperin)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Bertrand_Halperin)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=97142)
+
 * [inSpire page](https://inspirehep.net/authors/1006910)
+
+
 
 ## Selected writings
 
@@ -43,6 +47,11 @@ On [[anyons]] in [[fractional quantum Hall effect|fractional quantum Hall system
 
 * [[Dima E. Feldman]], [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
   > (focus on [experimental signatures of anyons](FQH#ObservationOfAnyonsInFQH))
+
+
+On interfeometry with [[edge modes]] in [[fractional quantum Hall systems]]:
+
+* Zezhu Wei, [[Dima E. Feldman]], [[Bertrand I. Halperin]]: *Quantum Hall interferometry at finite bias with multiple edge channels*, Phys. Rev. B **110** (2024) 075306 &lbrack;[arXiv:2405.05486](https://arxiv.org/abs/2405.05486), [doi:10.1103/PhysRevB.110.075306](https://doi.org/10.1103/PhysRevB.110.075306)&rbrack;
 
 
 
