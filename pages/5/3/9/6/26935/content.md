@@ -19,7 +19,7 @@
 
 In [[constructive mathematics]], **Brouwer's continuity principle** ([Shulman 2018](#Shulman18)) states that all [[endofunctions]] on the (Dedekind) [[real numbers]] are [[pointwise continuous functions]]. It is inconsistent with [[excluded middle]] because excluded middle implies the [[analytic LPO]], from which one can construct the discontinuous [[floor]] and [[ceiling]] functions on the real numbers, contradicting Brouwer's continuity principle. 
 
-Brouwer's continuity principle holds in Johnstone's [[topological topos]]. It also holds for the cohesive types in [[real-cohesive homotopy type theory]], which has semantics in the [[cohesive infinity-topos]] of [[Euclidean-topological infinity-groupoids]]. 
+Brouwer's continuity principle holds in Johnstone's [[topological topos]]. It also holds for the cohesive types in [[real-cohesive homotopy type theory]], which has semantics in the [[cohesive infinity-topos]] of [[Euclidean-topological infinity-groupoids]]. It also holds in [[Russian constructivism]] under the name **Ceitin's theorem**, where the Dedekind real numbers coincide with the [[computable real numbers]]. 
 
 ## Variants
 
@@ -55,7 +55,7 @@ In the definitions of the different notions of continuous function one sees the 
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
 
-The [[elementary topos]] which appears in the following paper satisfies Brouwer's continuity principle for the [[Dedekind real numbers]], as indicated in theorem 7.7 of the paper, except that there it is called the "KLST theorem": 
+The statement of Brouwer's continuity principle for the [[Dedekind real numbers]] appears in section 7.3 of the paper: 
 
 * {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
@@ -66,3 +66,5 @@ The [[elementary topos]] which appears in the following paper satisfies Brouwer'
 
 [[!redirects continuity principle]]
 [[!redirects continuity axiom]]
+
+[[!redirects Ceitin's theorem]]
