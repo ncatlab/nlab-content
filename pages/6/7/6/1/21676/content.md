@@ -11,6 +11,7 @@
 
 
 
+
 \tableofcontents
 
 
@@ -57,9 +58,7 @@ Besides the [[Poincaré lemma]] for piecewise polynomial forms, the proof uses:
 **(extension lemma)**
 Given a PL form on the [[boundary of a simplex]], it extends to (hence is the [[pullback of differential forms|restriction of]]) a PL form on the full [[n-simplex]].
 \end{lemma}
-
-(cf. [Griffiths & Morgan 2013, Lemma 9.6](#GriffithsMorgan13))
-
+(cf. [Griffiths & Morgan 2013, Lemma 9.4](#GriffithsMorgan13))
 \begin{proof}  Consider [barycentric coordinates](simplex#BarycentricCoordinates) for the given [[n-simplex]]
 
 $$
@@ -73,7 +72,7 @@ $$
     \;\Big\vert\;
     \textstyle{\sum}_k x^k = 1 
     \,,
-    \forall_i \, x^i \geq 0
+    \forall_i \colon x^i \geq 0
     \,
   \right\}
 $$
@@ -81,9 +80,9 @@ $$
 such that the $i$th vertex is the point $v_i \in \Delta^n$ with coordinates
 
 $$
-  x^n(v_i)
+  x^k(v_i)
   \;=\;
-  \delta^n_i
+  \delta^k_i
 $$
 
 and the $i$th-face is the subset
@@ -118,7 +117,7 @@ With these coordinate expressions consider the functions
     &\longrightarrow&
     \sigma_i(\Delta^{n})
     \\
-    (x^k)_{k}
+    (x^k)_{k=0}^n
     &\mapsto&
     \left(
       \frac{x^k}{1-x^i}
@@ -142,11 +141,11 @@ is a differential form on $\Delta^n \setminus \{v_i\}$ such that
 
 1. $\widehat \alpha$ extends to $v_i$ (by zero) to give a polynomial differential form on all of $\Delta^n$;
 
-1. pulled back to the $i$th face, $\widehat \alpha$ coincides with $\alpha$ (there being the pullback of an identity map);
+2. pulled back to the $i$th face, $\widehat \alpha$ coincides with $\alpha$ (there being the pullback of an identity map);
 
-1. if $\alpha$ vanishes on the $j$-face in $\sigma(\Delta^n)$ then $\widehat{\alpha}$ vanishes on the $j$-face of $\Delta^n$ (there being a pullback of the former).
+3. if $\alpha$ vanishes on the $j$-face in $\sigma_i(\Delta^n)$ then $\widehat{\alpha}$ vanishes on the $j$-face of $\Delta^n$ (there being a pullback of the former).
 
-Now to complete the proof, consider a polynomial differential form $\omega$ on the [[boundary of a simplex|boundary]] $\partial \Delta^n$. We need to find an extension $\widehat \omega$ to all of $\Delta_n$.
+Now to complete the proof, consider a polynomial differential form $\omega$ on the [[boundary of a simplex|boundary]] $\partial \Delta^n$. We need to find an extension $\widehat \omega$ to all of $\Delta^n$.
 
 First consider the above construction (eq:PartialExtension)
 $$
@@ -164,10 +163,10 @@ $$
   \widehat{\omega}_0 \vert_{\partial \Delta^n}
 $$
 
-vanishes on $\sigma_0$ and coincides with $\omega$ on all other faces. Therefore consider next the above construction (eq:PartialExtension)
+vanishes on $\sigma_0(\Delta^n)$, by the second property above. Therefore consider next the above construction (eq:PartialExtension)
 
 $$
-  \widehat \omega_2
+  \widehat \omega_1
   \;\coloneqq\;
   \widehat{ \omega_1 \vert_{\sigma_1} }
 $$
@@ -182,7 +181,7 @@ $$
   \widehat{\omega}_1 \vert_{\partial \Delta^n}
 $$
 
-vanishes on the union of faces $\sigma_0 \cup \sigma_1$ and coincides with $\omega$ on all remaining faces. Proceeding in this fashion one arrives at
+vanishes on the union of faces $\sigma_0 \cup \sigma_1$ (on $\sigma_1$ by the second property above, and on $\sigma_0$ by the third property, using that $\omega_1$ vanishes on $\sigma_0$ as just established). Proceeding in this fashion one arrives at
 
 $$
   \omega
@@ -206,36 +205,41 @@ and hence the term over the brace is an extension as required.
 **(extension lemma for piecewise smooth differential forms)**
   The Extension Lemma \ref{ExtensionLemma} holds also for other flavors of differential forms over simplices:
 
-In (the proof of) [Griffiths & Morgan 2013, Cor. 9.9](#GriffithsMorgan13) this is observed for the case of smooth differential forms: Here the proof of Lemma \ref{ExtensionLemma} applies verbatim, except that the multiplication by $(1-x^i)^{N_i}$ in (eq:PartialExtension) needs to be replaced by multiplication with any [[bump function]] which vanishes in a neighbourhood of $x^i = 1$ and is unity for $x^i = 0$.
+In (the proof of) [Griffiths & Morgan 2013, Cor. 9.9](#GriffithsMorgan13) this is observed for the case of smooth differential forms: Here the proof of Lemma \ref{ExtensionLemma} applies verbatim, except that the multiplication by $(1-x^i)^{N_i}$ in (eq:PartialExtension) needs to be replaced by multiplication with any [[bump function]] $b \colon \mathbb{R} \longrightarrow \mathbb{R}$
+which vanishes in a neighbourhood of $x^i = 1$ and is unity for $x^i = 0$.
 
-Moreover, we may observe that this same argument then also applies to differential forms on "extended simplices" (see [this Def.](shape+via+cohesive+path+∞-groupoid#SmoothExtendedSimplices))
 
-$$
-  \Delta^n_{ext} 
-  \,\equiv\,
-  \left\{
-    \,
-    (x^0, \cdots, x^n)
-    \,\in\,
-    \mathbb{R}^{n+1}
-    \;\Big\vert\;
-    \textstyle{\sum}_k x^k = 1 
-    \,
-  \right\}
-  \,,
-$$
+This has the following further variants: 
 
-where the condition $\forall_i \, x^i \geq 0$ is dropped (which plays no role in the above proof). 
+* The same argument also applies to differential forms on "extended simplices" (see [this Def.](shape+via+cohesive+path+∞-groupoid#SmoothExtendedSimplices))
 
-This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that rational space encoded in a [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{a}$ is equivalently the [[shape modality|shape]] 
+   $$
+     \Delta^n_{ext} 
+     \,\equiv\,
+     \left\{
+       \,
+       (x^0, \cdots, x^n)
+       \,\in\,
+       \mathbb{R}^{n+1}
+       \;\Big\vert\;
+       \textstyle{\sum}_k x^k = 1 
+       \,
+     \right\}
+     \,,
+   $$
 
-$$
-  \esh 
-  \,
-  \Omega^1_{dR}(-;\mathfrak{a})_{flat}
-$$
+   where the condition $\forall_i \, x^i \geq 0$ is dropped (which plays no role in the above proof). 
 
-of the [[smooth set]] of [[flat L-infinity algebra valued differential forms|flat $\mathfrak{a}$-valued differential forms]].
+  This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that rational space encoded in a [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{a}$ is equivalently the [[shape modality|shape]] 
+
+   $$
+     \esh 
+     \,
+     \Omega^1_{dR}(-;\mathfrak{a})_{flat}
+   $$
+
+   of the [[smooth set]] of [[flat L-infinity algebra valued differential forms|flat $\mathfrak{a}$-valued differential forms]].
+
 \end{remark}
 
 ## Related statements
