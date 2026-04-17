@@ -1,3 +1,16 @@
+
+\tableofcontents
+
+## Definition
+
 Let $k$, $E$ be [[fields]], with $k \hookrightarrow E$ a [[field extension]], also written as $E/k$. The _transcendence degree_ of $E/k$ is the [[cardinality]] of a maximal set of elements of $E$ that are [[matroid|algebraically independent]] over $k$. 
 
 The transcendence degree is well-defined, i.e., independent of which maximal set of algebraically independent elements is used. This is often proven by invoking a Mac Lane-Steinitz *exchange condition*; see [[matroid]] for a general argument. 
+
+## Examples
+
+Given a [[countable set|countable]] field $K$ and any [[infinite set]] $S$, the transcendence degree of the [[field extension]] $K(S)$ will be the same as the cardinality of the generating set $S$, and any [[algebraic extension]] of $K(S)$ will have the same cardinality again.)
+
+## Related concepts
+
+* [[field extension]]
