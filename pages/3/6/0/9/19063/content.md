@@ -27,6 +27,11 @@ On the [[triangulation conjecture]] for [[topological manifolds]]:
 
 * {#KirbySiebenmann69} [[Robion C. Kirby]], [[Laurent C. Siebenmann]], *On the triangulation of manifolds and the Hauptvermutung*, Bull. Amer. Math. Soc. **75** 4 (1969) 742-749 &lbrack;[euclid:1183530633](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-75/issue-4/On-the-triangulation-of-manifolds-and-the-Hauptvermutung/bams/1183530633.full)&rbrack;
 
+and introducing the [[Kirby-Siebenmann invariant]]L
+
+* [[Robion C. Kirby]], [[Laurence C. Siebenmann]]: *Foundational Essays on Topological Manifolds, Smoothings and Triangulations*, Princeton University Press (1977) &lbrack;[doi:10.1515/9781400881505](https://doi.org/10.1515/9781400881505), [jstor:j.ctt1b9s024](https://www.jstor.org/stable/j.ctt1b9s024), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/ks.pdf)&rbrack;
+
+
 On canonical [[framed manifold|framings]] on [[3-manifolds]]:
 
 * [[Rob Kirby]], [[Paul Melvin]]: _Canonical framings for 3-manifolds_, Turkish Journal of Mathematics **23** 1 (1999) &lbrack;[[KirbyMelvon3Framings.pdf:file]]&rbrack;
