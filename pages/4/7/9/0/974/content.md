@@ -251,7 +251,7 @@ For notice that every [[set]] is the [[directed colimit]] over the [[poset]] of 
 
 Moreover, a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are [[aleph|$\aleph_0$]]-compact. 
 
-Hence a set of generators that exhibits $Set$ as a locally finitely complete category is given by the set containing one finite set of [[cardinality]] $n \in \mathbb{N}$ for all $n$.
+Hence a a set of generators that exhibits $Set$ as a locally finitely complete category is given by the set containing one finite set of [[cardinality]] $n \in \mathbb{N}$ for all $n$.
 
 =--
 
@@ -286,7 +286,7 @@ The category of [[coalgebras]] over a [[field]] $k$ is locally finitely presenta
 \end{example}
 
 \begin{example}
-A [[poset]], considered as a category, is locally finitely presentable precisely if it is an [[algebraic lattice]] (a [[complete lattice]] in which every element is a finite [[directed join]] of [[compact elements]]).
+A [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is [[algebraic lattice|algebraic]] (each element is a directed [[join]] of finite elements).
 \end{example}
 
 \begin{remark}
@@ -304,6 +304,13 @@ A [[poset]], considered as a category, is locally finitely presentable precisely
 
 
 ### Locally presentable categories
+
++-- {: .num_example }
+###### Example
+
+A [[poset]], considered as a category, is locally presentable precisely if it is a complete [[lattice]]. 
+
+=--
 
 \begin{example}\label{GrothAbCatsAreLocPresntbl}
 Every [[Grothendieck abelian category]] is locally presentable &lbrack;[Beke (2000), Prop. 3.10](#Beke00), cf. [Krause (2015), Cor. 5.2](#Krause15)&rbrack;.
