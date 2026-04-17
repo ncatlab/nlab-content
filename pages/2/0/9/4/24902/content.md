@@ -23,7 +23,7 @@ Traditionally, in mathematics and in [[formal topology]] the cover is a relation
 
 ### For arbitrary formal topologies
 
-Ayberk Tosun in [Tosun 2020](#Tosun20) defined a [[formal topology]] as a [[poset]] $(A, \leq)$ with families of types $x:A \vdash B(x)$, $x:A, y:B(x) \vdash C(x, y)$ and a dependent function 
+[Coquand & Tosun 2021](#CoquandTosun21) defined a [[formal topology]] as a [[poset]] $(A, \leq)$ with families of types $x:A \vdash B(x)$, $x:A, y:B(x) \vdash C(x, y)$ and a dependent function 
 
 $$d:\prod_{x:A} \prod_{y:B(x)} C(x, y) \to A$$
 
@@ -136,9 +136,13 @@ Every inductive cover on the [[real numbers]] is a pointwise cover on the [[real
 
 ## References
 
+* [[Thierry Coquand]], [[Giovanni Sambin]], [[Jan Smith]], and [[Silvio Valentini]]. *Inductively generated formal topologies*. In: Annals of Pure and Applied Logic 124.1 (2003), pp. 71–106. &lbrack;<a href="https://doi.org/10.1016/S0168-0072(03)00052-6">doi:10.1016/S0168-0072(03)00052-6</a>&rbrack;
+
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
-* {#Tosun20} Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
+* {#CoquandTosun21} [[Thierry Coquand]], [[Ayberk Tosun]], “Formal Topology and Univalent Foundations”. In: *Proof and Computation II*. 2021. Chap. 6, pp. 255–266. ([doi:10.1142/9789811236488_0006](https://doi.org/10.1142/9789811236488_0006)), [pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
+
+* [[Ayberk Tosun]], *Constructive and Predicative Locale Theory in Univalent Foundations* ([arXiv:2603.01308](https://arxiv.org/abs/2603.01308))
 
 [[!redirects inductive cover]]
 [[!redirects inductive covers]]
