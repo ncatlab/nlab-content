@@ -44,4 +44,6 @@ of the localic Stone duality and the spatiality of [[Stone locales]].
 
 ## References
 
+* [[Ayberk Tosun]], *Constructive and Predicative Locale Theory in Univalent Foundations* ([arXiv:2603.01308](https://arxiv.org/abs/2603.01308))
+
 [[!redirects Stone locales]]
