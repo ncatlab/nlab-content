@@ -135,10 +135,19 @@ Including non-relativistic corrections (Newton-Cartan geometry):
 
 See also:
 
+* Vipin Srivastava: *Coupled edge-currents in a mesoscopic quantum Hall system*, Physica B: Condensed Matter
+**212** 3 (1995) 299-304 \[<a href="https://doi.org/10.1016/0921-4526(95)00046-C">doi:10.1016/0921-4526(95)00046-C</a>\]
+
+
+* Stefan Kettemann: *Persistent Hall Voltage and Current in the Fractional Quantum Hall Regime*, Phys. Rev. B **55** (1997) 2512-22 \[<a href="https://doi.org/10.1103/PhysRevB.55.2512">doi:10.1103/PhysRevB.55.2512</a>, [arXiv:cond-mat/9704020](https://arxiv.org/abs/cond-mat/9704020)\]
+
+
 * Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
 
 * J. Fernando Barbero G., Bogar Díaz, Juan Margalef-Bentabol, Eduardo J.S. Villaseñor: *Edge observables of the Maxwell-Chern-Simons theory*, Physical Review D, **106** (2022) 025011 \[<a href="https://doi.org/10.1103/PhysRevD.106.025011">doi:10.1103/PhysRevD.106.025011</a>, [arXiv:2204.06073](https://arxiv.org/abs/2204.06073)\]
   > (via [[Maxwell-Chern-Simons theory]])
+
+* Zezhu Wei, [[Dima E. Feldman]], [[Bertrand I. Halperin]]: *Quantum Hall interferometry at finite bias with multiple edge channels*, Phys. Rev. B **110** (2024) 075306 &lbrack;[arXiv:2405.05486](https://arxiv.org/abs/2405.05486), [doi:10.1103/PhysRevB.110.075306](https://doi.org/10.1103/PhysRevB.110.075306)&rbrack;
 
 
 
