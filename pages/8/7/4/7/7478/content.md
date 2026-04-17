@@ -13,18 +13,18 @@
 =--
 =--
 
-# Compact/finite elements
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definition
 
-Let $P$ be a [[poset]] such that every [[directed set|directed]] [[subset]] of $P$ has a [[join]]; that is, $P$ is a [[dcpo]]. A __compact element__, or __finite element__, of $P$ is a [[compact object]] in $P$ regarded as a [[thin category]]; that is, homs out of it commute with these [[directed joins]].
+Let $P$ be a [[poset]] such that every [[directed set|directed]] [[subset]] of $P$ has a [[join]]; that is, $P$ is a [[dcpo]]. A __compact element__, or __finite element__, of $P$ is a [[compact object]] in $P$ [regarded as](partial+order#AsACategoryWithExtraProperties) a [[thin category]]; that is, homs out of it commute with these [[directed joins]].
 
 In other words, $c \in P$ is compact precisely if for every directed subset $\{d_i\}$ of $P$ we have
 $$
-  (c \leq \bigvee_i d_i )
-  \Leftrightarrow
+  \big(c \leq \textstyle{\bigvee_i} d_i \big)
+  \;\Leftrightarrow\;
   \exists_i (c \leq d_i)
   \,.
 $$
