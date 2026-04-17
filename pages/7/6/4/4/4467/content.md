@@ -124,7 +124,7 @@ In addition, the positivity predicate $S$ also needs to be separately defined.
 
 #### Cover relation
 
-Ayberk Tosun in [Tosun 2020](#Tosun20) defined a **formal topology** as a [[poset]] $(A, \leq)$ with families of types $x:A \vdash B(x)$, $x:A, y:B(x) \vdash C(x, y)$ and a dependent function 
+[Coquand & Tosun 2021](#CoquandTosun21) defined a **formal topology** as a [[poset]] $(A, \leq)$ with families of types $x:A \vdash B(x)$, $x:A, y:B(x) \vdash C(x, y)$ and a dependent function 
 
 $$d:\prod_{x:A} \prod_{y:B(x)} C(x, y) \to A$$
 
@@ -243,7 +243,7 @@ $$\frac{
 
 * [[Nicola Gambino]], [[Peter Schuster]], *Spatiality for formal topologies* Mathematical Structures in Computer Science. 2007;17(1):65-80. ([doi:10.1017/S0960129506005810](https://doi.org/10.1017/S0960129506005810)) 
 
-* {#Tosun20} Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
+* {#CoquandTosun21} [[Thierry Coquand]], [[Ayberk Tosun]], “Formal Topology and Univalent Foundations”. In: *Proof and Computation II*. 2021. Chap. 6, pp. 255–266. ([doi:10.1142/9789811236488_0006](https://doi.org/10.1142/9789811236488_0006)), [pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 [[!redirects formal topology]]
 [[!redirects formal topologies]]
