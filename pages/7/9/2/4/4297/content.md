@@ -47,12 +47,19 @@ See at _[[Ricci flow]]_ for more.
 
 ### In dimension 3
 
-* {#Perelman02} [[Grigori Perelman]], _The entropy formula for the Ricci flow and its geometric applications_ ([arXiv:math/0211159](http://arxiv.org/abs/math/0211159))
+The proof of the Poincaré conjecture is attributed to these unpublished articles:
+
+* {#Perelman02} [[Grigori Perelman]]: _The entropy formula for the Ricci flow and its geometric applications_ &lbrack;[arXiv:math/0211159](http://arxiv.org/abs/math/0211159)&rbrack;
+
+* {#Perelman03a} [[Grigori Perelman]]: *Ricci flow with surgery on three-manifolds* &lbrack;[arXiv:0303109](https://arxiv.org/abs/math/0303109)&rbrack;
+
+* {#Perelman03b} [[Grigori Perelman]]: *Finite extinction time for the solutions to the Ricci flow on certain three-manifolds* &lbrack;[arXiv:math/0307245](https://arxiv.org/abs/math/0307245)&rbrack;
+
+Further discussion:
 
 * {#BessiersEtAl} Laurent Bessieres, Gerard Besson, Michel Boileau, Sylvain Maillot, Joan Porti, _Geometrisation of 3-manifolds_ ([pdf](http://www-fourier.ujf-grenoble.fr/~besson/book.pdf))
 
 * [[John W. Morgan]], [[Gang Tian]]: _Ricci Flow and the Poincaré Conjecture_, Clay Mathematics Monographs __3__ (2007) &lbrack;[arXiv:math/0607607](https://arxiv.org/abs/math/0607607), [webpage](https://www.claymath.org/resource/ricci-flow-and-the-poincare-conjecture/), [pdf](https://www.claymath.org/wp-content/uploads/2022/03/Ricci-pdf.pdf)&rbrack;
-
 
 
 Notes from a survey talk: 
@@ -67,8 +74,14 @@ See also
 
 ### In higher dimesnions
 
-The analog of the Poincaré conjecture in higher dimensions:
+On the analog of the Poincaré conjecture in higher dimensions:
+
 
 * {#Newman66} [[M. H. A. Newman]], Theorem 7 in: *The Engulfing Theorem for Topological Manifolds*, Annals of Mathematics Second Series, *84** 3 (1966) 555-571  ([jstor:1970460](https://www.jstor.org/stable/1970460))
+
+* {#Siebenmann82} [[Laurent Siebenmann]]: *La conjecture de Poincaré topologique en dimension 4*, Séminaire Bourbaki volume 1981/82, exposés 579-596, Astérisque, no. 92-93 (1982), Talk no. 588 &lbrack;[numdam:SB_1981-1982__24__219_0](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)&rbrack;
+
+* [[Laurent Siebenmann]] (translation by M. H. Kim & M. Powell): _Topological Poincaré conjecture in dimension 4 (the work of M. H. Freedman)_, Celebratio Mathematica &lbrack;[celebratio:752](https://celebratio.org/Freedman_MH/article/752)&rbrack;
+
 
 [[!redirects Poincare conjecture]]
