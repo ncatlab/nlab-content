@@ -94,7 +94,7 @@ Synonymous discussion, but under the name *[[homotopy n-type|$n$-types]]*, is in
 
 See also:
 
-* [[Thierry Coquand]], Ayberk Tosun, *Formal Topology in Univalent Foundations*, Ch. 6 in:  *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification*, Wold Scientific (2021) &lbrack;[doi:10.1142/12263](https://doi.org/10.1142/12263)&rbrack;
+* [[Thierry Coquand]], [[Ayberk Tosun]], *Formal Topology in Univalent Foundations*, Ch. 6 in:  *Proof and Computation II -- From Proof Theory and Univalent Mathematics to Program Extraction and Verification*, Wold Scientific (2021) &lbrack;[doi:10.1142/12263](https://doi.org/10.1142/12263)&rbrack;
 
 
 
