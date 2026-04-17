@@ -68,13 +68,13 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 ## Predicative Sierpi&#324;ski space
 {#Predicative}
 
-In [[constructive mathematics]], there is also a distinct version of Sierpi&#324;ski space which is only a [[sigma-frame|$\sigma$-frame]] ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)). In general, this notion of Sierpi&#324;ski space will not coincide with the version defined above as a frame unless a classical axiom like [[excluded middle]] is assumed. This version of the Sierpi&#324;ski space is predicative in the sense that it does not require the use of impredicative definitions, and so can probably be called the *predicative Sierpi&#324;ski space* to distinguish it from the usual version of the Sierpi&#324;ski space defined above. 
+In [[constructive mathematics]], there is also a distinct version of Sierpi&#324;ski space which is only a [[sigma-frame|$\sigma$-frame]] ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). In general, this notion of Sierpi&#324;ski space will not coincide with the version defined above as a frame unless a classical axiom like [[excluded middle]] is assumed. This version of the Sierpi&#324;ski space is predicative in the sense that it does not require the use of impredicative definitions, and so can probably be called the *predicative Sierpi&#324;ski space* to distinguish it from the usual version of the Sierpi&#324;ski space defined above. 
 
-This version of the Sierpi&#324;ski space is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)) that is not provably equivalent to either the usual [[Dedekind real numbers]] or the [[Cauchy real numbers]] in the absence of [[excluded middle]] or [[countable choice]]. 
+This version of the Sierpi&#324;ski space is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)) that is not provably equivalent to either the usual [[Dedekind real numbers]] or the [[Cauchy real numbers]] in the absence of [[excluded middle]] or [[countable choice]]. It is also used to define quasidecidable or Sierpi&#324;ski-[[semidecidable propositions]] ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
 +-- {: .num_defn }
 ###### Definition
-The **Sierpi&#324;ski space** $\Sigma$ is defined in the following equivalent ways:
+The **Sierpi&#324;ski space** or **Sierpi&#324;ski type** $\Sigma$ is defined in the following equivalent ways:
 
 * as the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]
 * as the [[partial map classifier]] of [[generalized the|the]] set with one element, for the definition of the partial map classifier given in [Altinkirch, Danielsson, & Kraus 2016](#ADK16)
@@ -126,6 +126,8 @@ In [[classical mathematics]], and in [[constructive mathematics]] which accept t
 * {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
 * {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
+
+* {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
 [[!redirects Sierpinski space]]
 [[!redirects Sierpiński space]]
