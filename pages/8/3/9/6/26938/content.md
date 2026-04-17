@@ -87,6 +87,8 @@ Thus, one has a hierarchy of analytic lesser limited principles of omniscience, 
 
 * The analytic LLPO for [[Dedekind real numbers]] holds in Johnstone's [[topological topos]], as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
+* The analytic LLPO for [[Dedekind real numbers]] holds in the parameterized [[realizability topos]] constructed in [Bauer & Hanson 2024](#BauerHanson24). 
+
 * The analytic LLPO for [[Dedekind real numbers]] fails in the cohesive types of [[Mike Shulman]]'s [[real-cohesive homotopy type theory]], which model [[Euclidean-topological infinity-groupoids]]. However, the analytic LLPO for [[Cauchy real numbers]] holds in the cohesive types, since the analytic LPO for Cauchy real numbers hold and imply the analytic LLPO for Cauchy real numbers. 
 
 ## Related concepts
@@ -104,6 +106,8 @@ Thus, one has a hierarchy of analytic lesser limited principles of omniscience, 
 * [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
+
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects analytic LLPO]]
 [[!redirects analytic lesser limited principle of omniscience]]
