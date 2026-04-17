@@ -142,7 +142,7 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 * {#KervMil} [[Michel Kervaire]], ; [[John Milnor]],  (1963) "Groups of homotopy spheres: I", Ann. Math. 77, pp. 504 - 537.
 
 
-* {#KirbSieb} Kirby, R.; Siebenmann, L. (1977) _Foundational essays on topological manifolds, smoothings, and triangulations_, Ann. Math. Studies (Princeton University Press, Princeton).
+* {#KirbSieb} [[Robion C. Kirby]], [[Laurence C. Siebenmann]]: *Foundational Essays on Topological Manifolds, Smoothings and Triangulations*, Princeton University Press (1977) &lbrack;[doi:10.1515/9781400881505](https://doi.org/10.1515/9781400881505), [jstor:j.ctt1b9s024](https://www.jstor.org/stable/j.ctt1b9s024), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/ks.pdf)&rbrack;
 
 
 * {#Stallings62} John R. Stallings, _The piecewise-linear structure of Euclidean space_, Proceedings of the Cambridge Philosophical Society 58: 481&#8211;488 (1962) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallings2.pdf))
