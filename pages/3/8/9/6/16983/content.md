@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,7 +8,6 @@
 =--
 =--
 =--
-
 
 # Taboos
 * table of contents
@@ -96,6 +94,8 @@ These taboos are unprovable in discrete [[cohesive homotopy type theory]] (i.e. 
 
 * [[axiom of real cohesion]]
 
+* [[axiom of simplicial cohesion]]
+
 ## Related entries
 
 * [[constructive set theory]]
@@ -130,6 +130,10 @@ contradiction, an absurdity. If instead we show that it implies the decidability
 * [[Hannes Diener]], Section 0.3 and 0.4 of: *Constructive Reverse Mathematics*, 2018 ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 >  the full axiom of choice is a definite constructive taboo
+
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], section 7.4 of *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
+> Brouwer’s fixed-point theorem is a fairly unusual property for an intuitionistic topos to have because it implies a constructive taboo, namely the so-called analytic Limited Lesser Principle of Omniscience (LLPO).
 
 [[!redirects taboos]]
 [[!redirects constructive taboo]]
