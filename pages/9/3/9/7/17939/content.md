@@ -19,12 +19,21 @@
 
 This is also a special case of the [[Lefschetz fixed point theorem]], see [there](Lefschetz+trace+formula#ForContractibleCompactPolyhedra).
 
+## Models
+
+[[Brouwer]]'s fixed point theorem is provable in [[toposes]] other than the [[category of sets]]:
+
+* [[Brouwer]]'s fixed point theorem holds in the parameterized [[realizability topos]] constructed in [Bauer & Hanson 2024](#BauerHanson24). 
+
+* [[Brouwer]]'s fixed point theorem holds in the [[internal language]] of the [[topos]] of [[light condensed sets]] (see [Cherubini, Coquand, Geerligs & Moeneclaey 2024](#CCGM24)). 
 
 ## Related theorems
 
 * [[fixed point]]
 
 * [[topological invariance of dimension]]
+
+* [[intermediate value theorem]]
 
 * [[Tietze extension theorem]]
 
@@ -47,13 +56,15 @@ See also
 
 * Wikipedia, _[Brouwer fixed-point theorem](https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem)_
 
+Discussion of the Brouwer's fixed-point theorem in toposes other than the [[category of sets]]:
+
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
 Discussion in [[cohesive homotopy type theory]] is in
 
 * {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
-
-Discussion in [[synthetic Stone duality]] is in
-
-* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 [[!redirects Brouwer fixed point theorem]]
 
