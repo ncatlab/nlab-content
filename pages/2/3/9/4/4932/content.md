@@ -11,6 +11,7 @@ John Willard Milnor
 
 See also the *Collected Works of John Milnor* &lbrack;[gBooks](http://books.google.com/books?id=WyZeeEn8VFwC)&rbrack;
 
+
 Introducing [[link groups]]:
 
 * {#Milnor64} [[John Milnor]]: *Link groups*, Ann. of Math. **2** 59 (1954) 177-195 &lbrack;[doi:10.2307/1969685](https://doi.org/10.2307/1969685), [jstor:1969685](https://www.jstor.org/stable/1969685), [MR](http://www.ams.org/mathscinet-getitem?mr=71020)&rbrack;
@@ -20,6 +21,7 @@ On [[universal principal bundles]] via the *[[Milnor construction]]*:
 * [[John Milnor]], *Construction of Universal Bundles I*, Ann. of Math. __63__ 2 (1956) 272-284 &lbrack;[jstor:1969609](http://www.jstor.org/stable/1969609)&rbrack;
 
 * [[John Milnor]], _Construction of Universal Bundles II_, Ann. of Math. __63__ 3 (1956) 430-436 &lbrack;[jstor:1970012](http://www.jstor.org/stable/1970012)&rbrack;
+
 
 
 
@@ -35,6 +37,11 @@ On [[Morse theory]]:
 On [[spin structures]] over [[manifolds]]:
 
 * {#Milnor1963} [[John Milnor]]: *Spin Structures on Manifolds*, L'Enseignement Mathématique **9** (1963) 198-203 &lbrack;[doi:10.5169/seals-38784](http://doi.org/10.5169/seals-38784), [[Milnor-SpinStructures.pdf:file]]&rbrack;
+
+
+On [[homotopy spheres]] and introducing [[Kervaire-Milnor groups]]:
+
+* {#KervaireMilnor1963} [[Michel A. Kervaire]], [[John W. Milnor]]: *Groups of Homotopy Spheres I*, Annals of Mathematics **77** 3 (1963) &lbrack;[doi:10.2307/1970128](https://doi.org/10.2307/1970128), [jstor:1970128](https://www.jstor.org/stable/1970128),  [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kervmiln.pdf)&rbrack;
 
 
 
