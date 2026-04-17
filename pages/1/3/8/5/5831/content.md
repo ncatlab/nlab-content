@@ -59,6 +59,10 @@ On [[homotopy canonicity]] for [[cubical type theory]]:
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]]: *Canonicity and homotopy canonicity for cubical type theory*, Logical Methods in Computer Science **18** 1 (2022) lmcs:9043 &lbrack;[doi:10.46298/lmcs-18%281%3A28%292022](https://doi.org/10.46298/lmcs-18%281%3A28%292022), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572)&rbrack;
 
+On [[formal topology]] via [[homotopy type theory]]:
+
+* [[Thierry Coquand]], [[Ayberk Tosun]]: *Formal Topology and Univalent Foundations*, Chap. 6 in: *Proof and Computation II*, World Scientific (2021) 255–266 &lbrack;[doi:10.1142/9789811236488_0006](https://doi.org/10.1142/9789811236488_0006), [pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf)&rbrack;
+
 
 On [[synthetic algebraic geometry]]:
 
