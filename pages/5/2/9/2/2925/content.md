@@ -176,10 +176,19 @@ Let $f\colon [0,1] \to \mathbb{R}$ be a [[strictly monotonic]] from the [[unit i
 We construct [[Dedekind cuts]] $L = \{y \in [0,1] \vert f(y) \lt 0\}$ and $U = \{z \in [0,1] \vert f(z) \gt 0\}$ and by the Dedekind completeness of the real numbers, there is a unique $x \in [0, 1]$ such that $y \lt x \lt z$. 
 \end{proof}
 
+## Models
+
+The intermediate value theorem is provable in [[toposes]] other than the [[category of sets]]:
+
+* The intermediate value theorem holds for the [[Dedekind real numbers]] in the parameterized [[realizability topos]] constructed in [Bauer & Hanson 2024](#BauerHanson24). 
+
+* The intermediate value theorem holds for the [[real numbers]] in the [[internal language]] of the [[topos]] of [[light condensed sets]] (see [Cherubini, Coquand, Geerligs & Moeneclaey 2024](#CCGM24)). 
+
 ## See also
 
 * [[extreme value theorem]]
 * [[fundamental theorem of algebra]]
+* [[Brouwer's fixed point theorem]]
 
 ## References
 
@@ -195,6 +204,10 @@ and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7)
 * {#Booij18} [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
 * {#Bauer16} [[Andrej Bauer]], *Five Stages of Accepting Constructive Mathematics*, Bulletin of the American Mathematical Society, Volume 54, Number 3, July 2017, Pages 481–498. ([doi:10.1090/bull/1556](http://dx.doi.org/10.1090/bull/1556), [pdf](https://www.ams.org/journals/bull/2017-54-03/S0273-0979-2016-01556-4/S0273-0979-2016-01556-4.pdf))
+
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 On the intermediate value theorem in [[cohesive homotopy type theory]], see:
 
