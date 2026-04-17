@@ -36,7 +36,7 @@ Review:
 
 * [[Ady Stern]]: *Engineering Non-Abelian Quasi-Particles in Fractional Quantum Hall States -- A Pedagogical Introduction*, Ch. 9 in: *Fractional Quantum Hall Effects*, World Scientific (2020) 435-486 \[<a href="https://doi.org/10.1142/9789811217494_0009">doi:10.1142/9789811217494_0009</a>\]
 
-* D. E. Feldman, [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
+* [[Dima E. Feldman]], [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
 {#ReferencesFQHAsPotentialTQCHardware} On ([[anyons]] in) [[fractional quantum Hall systems]] as potential [[quantum materials|quantum hardware]] for [[topological quantum computing]]:
 
