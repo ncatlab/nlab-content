@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -60,9 +58,14 @@ A [[connected space|path-connected]], $n$-connected, orientable and closed $2n+1
 
 ## References
 
-* {#Siebenmann82} Laurent Siebenmann: *La conjecture de Poincaré topologique en dimension 4*, Séminaire Bourbaki : volume 1981/82, exposés 579-596, Astérisque, no. 92-93 (1982), Talk no. 588 &lbrack;[numdam:SB_1981-1982__24__219_0](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)&rbrack;
+* {#KervaireMilnor1963} [[Michel A. Kervaire]], [[John W. Milnor]]: *Groups of Homotopy Spheres I*, Annals of Mathematics **77** 3 (1963) &lbrack;[doi:10.2307/1970128](https://doi.org/10.2307/1970128), [jstor:1970128](https://www.jstor.org/stable/1970128),  [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kervmiln.pdf)&rbrack;
 
-*  Laurent Siebenmann (translation by M. H. Kim & M. Powell): _Topological Poincaré conjecture in dimension 4 (the work of M. H. Freedman)_, Celebratio Mathematica &lbrack;[webpage](https://celebratio.org/Freedman_MH/article/752/)&rbrack;
+
+* {#Siebenmann82} [[Laurent Siebenmann]]: *La conjecture de Poincaré topologique en dimension 4*, Séminaire Bourbaki volume 1981/82, exposés 579-596, Astérisque, no. 92-93 (1982), Talk no. 588 &lbrack;[numdam:SB_1981-1982__24__219_0](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)&rbrack;
+
+* [[Laurent Siebenmann]] (translation by M. H. Kim & M. Powell): _Topological Poincaré conjecture in dimension 4 (the work of M. H. Freedman)_, Celebratio Mathematica &lbrack;[celebratio:752](https://celebratio.org/Freedman_MH/article/752)&rbrack;
+
+
 
 
 [[!redirects homotopy spheres]]
