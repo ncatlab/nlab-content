@@ -55,6 +55,7 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 [[!redirects proset of truth values]]
 [[!redirects poset of truth values]]
 [[!redirects lattice of truth values]]
+[[!redirects sigma-frame of truth values]]
 [[!redirects frame of truth values]]
 [[!redirects algebra of truth values]]
 
