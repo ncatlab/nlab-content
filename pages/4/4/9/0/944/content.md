@@ -28,7 +28,7 @@ The __Sierpi&#324;ski space__ $\Sigma$ is the [[topological space]]
 
 (We could exchange "0" and "1" here, the result would of course be [[homeomorphism|homeomorphic]]).
 
-Equivalently we may think of the underlying [[set]] as the set of [[classical mathematics|classical]] [[truth values]]  $\{\bot, \top\}$, equipped with the [[specialization topology]], in which $\{\bot\}$ is [[closed subset|closed]] and $\{\top\}$ is an [[open subset|open]] but not conversely.
+Equivalently we may think of the underlying [[set]] as the set of [[classical mathematics|classical]] [[truth values]]  $\{\bot, \top\}$, equipped with the [[specialization topology]], in which $\{\bot\}$ is [[closed subset|closed]] and $\{\top\}$ is an [[open subset|open]] but not conversely. We may also think of the underlying [[set]] as the set of [[classical mathematics|classical]] [[truth values]]  $\{\bot, \top\}$ equipped with the [[Scott topology]]. 
 
 The corresponding [[locale]] is given by the three-element frame $\{\bot \lt \omega \lt \top\}$.
 
@@ -40,8 +40,7 @@ The corresponding [[locale]] is given by the three-element frame $\{\bot \lt \om
 
 In [[constructive mathematics]], the Sierpi&#324;ski locale is given by the free frame over one element. More concretely, its opens are $O_{p \le q}$ indexed by pairs of truth values $(p, q)$ such that $p \le q$. The partial order is given by $O_{p \le q} \le O_{p' \le q'}$ iff $p \le p'$ and $q \le q'$. This is also the [[specialization topology|Alexandroff locale]] over the poset of *classical* truth values.
 
-The corresponding topological space however, has the point set given by *all* truth values. The open subsets are $O_{p \le q} = \{\varphi \mid p \vee (q \wedge \varphi)\}$. Importantly, it is not homeomorphic to the Alexandroff topology on the set of truth values, or classical truth values.
-
+The corresponding topological space however, has the point set given by *all* truth values. The open subsets are $O_{p \le q} = \{\varphi \mid p \vee (q \wedge \varphi)\}$. Importantly, it is not homeomorphic to the Alexandroff topology on the set of truth values, or classical truth values. It is however homeomorphic to the [[Scott topology]] on the set of truth values. 
 =--
 
 ## Properties
@@ -83,6 +82,8 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
   * [[Sierpinski dominance]]
 
+* [[Phoa's principle]]
+
 ## References
 
 * Wikipedia, _[Sierpinski space](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_space)_
@@ -90,6 +91,8 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 * [[Paul Taylor]],  _Foundations for computable topology -- 7 The Sierpinski space_ ([html](http://www.paultaylor.eu/ASD/foufct/sierpinski.html))
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], *Metric spaces in synthetic topology* Annals of Pure and Applied Logic, Volume 163, Issue 2, February 2012, Pages 87-100 ([doi:10.1016/j.apal.2011.06.017](https://doi.org/10.1016/j.apal.2011.06.017))
+
+* *Constructive subtleties about the Sierpinski Space*, Mathematics StackExchange. ([web](https://math.stackexchange.com/questions/5085280/constructive-subtleties-about-the-sierpinski-space/5085447))
 
 [[!redirects Sierpinski space]]
 [[!redirects Sierpiński space]]
