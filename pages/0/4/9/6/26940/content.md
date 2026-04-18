@@ -75,23 +75,21 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
 \end{proof}
 
-Let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
+Let $\Sigma$ be the set of [[Sierpinski semi-decidable truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in Sierpinski semi-decidable truth values $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
 $$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 
 \begin{theorem}
-The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. 
+The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the set of [[Sierpinski semi-decidable truth values]] $\Sigma$. 
 \end{theorem}
 
 \begin{proof}
-By definition of initial $\sigma$-frame, there is at most one $\sigma$-frame homomorphism from the [[boolean domain]] $\mathbb{2}$ to the initial $\sigma$-frame $\Sigma$, which is given by the unique [[lattice]] homomorphism from $\mathbb{2}$ to $\Sigma$ since $\mathbb{2}$ is the initial [[distributive lattice]]. 
-
-The LPO for natural numbers is equivalent to the condition that $\mathbb{2}$ has $\mathbb{N}$-indexed joins such that for all sequences $s:\mathbb{N} \to \mathbb{2}$, $\bigvee_{n \in \mathbb{N}} s(n) = 1$ implies that there exists an $n \in \mathbb{N}$ such that $s(n) = 1$. This is only the case if the lattice homomorphism from $\mathbb{2}$ to $\Sigma$ is a $\sigma$-frame homomorphism. 
+[[Sierpinski semi-decidable truth values]] are closed under [[existential quantification]] over the [[natural numbers]]. If the set $\Sigma$ of Sierpinski semi-decidable truth values is equivalent to the [[boolean domain]] $\mathbb{2}$, then the booleans are closed under existential quantification over the natural numbers, which is precisely the LPO for natural numbers. 
 \end{proof}
 
-Thus, one can use the decidable Dedekind cuts $\mathbb{2}^\mathbb{Q} \times \mathbb{2}^\mathbb{Q}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is the initial $\sigma$-frame. 
+Thus, one can use the decidable Dedekind cuts $\mathbb{2}^\mathbb{Q} \times \mathbb{2}^\mathbb{Q}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is a sub-$\sigma$-frame of the $\sigma$-frame of truth values $\Omega$. 
 
 \begin{theorem}
-The LPO for natural numbers implies the analytic LPO for subset of Dedekind real numbers $\mathrm{R}_\Sigma \subseteq \mathbb{R}_D$ constructed out of Dedekind cuts in valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$.
+The LPO for natural numbers implies the analytic LPO for subset of Dedekind real numbers $\mathrm{R}_\Sigma \subseteq \mathbb{R}_D$ constructed out of Dedekind cuts in valued Sierpinski semi-decidable truth values $\Sigma \subseteq \Omega$.
 \end{theorem}
 
 \begin{proof}
@@ -113,7 +111,7 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 \end{theorem}
 
 \begin{proof}
-Analytic LPO for $R$ implies the LPO for natural numbers, which implies that $\mathbb{R}_C$ is equivalent to $\mathbb{R}_\Sigma$. Theorem 11.2.14 in [UFP 2013](#UFP13) states that given the initial $\sigma$-frame $\Sigma$, every Archimedean ordered field which is admissible for $\Sigma$ is a subfield of $\mathbb{R}_\Sigma$. The LPO for natural numbers implies the initial $\sigma$-frame is the boolean domain, which means that analytic LPO for $R$ implies that $R$ is admissible for the boolean domain, and hence a subfield of $\mathbb{R}_\Sigma$. This means that $R$ coincides with both $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]]. 
+Analytic LPO for $R$ implies the LPO for natural numbers, which implies that $\mathbb{R}_C$ is equivalent to $\mathbb{R}_\Sigma$. The set of Sierpinski semi-decidable truth values is a $\sigma$-subframe of the [[frame of truth values]]. Theorem 11.2.14 in [UFP 2013](#UFP13) states that given the set of Sierpinski semi-decidable truth values $\Sigma$, every Archimedean ordered field which is admissible for $\Sigma$ is a subfield of $\mathbb{R}_\Sigma$. The LPO for natural numbers implies the set of Sierpinski semi-decidable truth values is the boolean domain, which means that analytic LPO for $R$ implies that $R$ is admissible for the boolean domain, and hence a subfield of $\mathbb{R}_\Sigma$. This means that $R$ coincides with both $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]]. 
 \end{proof}
 
 \begin{lemma}
@@ -121,7 +119,7 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 \end{lemma}
 
 \begin{proof}
-Analytic LPO for $R$ implies that $R$ is equivalent to $\mathbb{R}_\Sigma$. Since $\mathbb{R}_\Sigma$ is constructed out of Dedekind cuts (valued in the initial $\sigma$-frame $\Sigma$), theorem 11.2.12 and corollary 11.2.13 of [UFP 2013](#UFP13) states that $\mathbb{R}_\Sigma$ is sequentially Cauchy complete, which then implies that $R$ is sequentially Cauchy complete. 
+Analytic LPO for $R$ implies that $R$ is equivalent to $\mathbb{R}_\Sigma$. Since $\mathbb{R}_\Sigma$ is constructed out of Dedekind cuts (valued in the set of Sierpinski semi-decidable truth values $\Sigma$), theorem 11.2.12 and corollary 11.2.13 of [UFP 2013](#UFP13) states that $\mathbb{R}_\Sigma$ is sequentially Cauchy complete, which then implies that $R$ is sequentially Cauchy complete. 
 \end{proof}
 
 Finally, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. Then, 
@@ -138,7 +136,7 @@ Since the LPO for natural numbers is equivalent to the analytic LPO for $\mathrm
 
 Thus, one has a hierarchy of analytic limited principles of omniscience, where
 
-* The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]], for the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]], and for the subset of the Dedekind real numbers whose Dedekind cuts are valued in the initial $\sigma$-frame, are all the weakest and equivalent to the LPO for the [[natural numbers]];
+* The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]], for the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]], and for the subset of the Dedekind real numbers whose Dedekind cuts are valued in the set of Sierpinski semi-decidable truth values $\Sigma$, are all the weakest and equivalent to the LPO for the [[natural numbers]];
 
 * The analytic LPO for the Dedekind real numbers is the strongest. 
 
