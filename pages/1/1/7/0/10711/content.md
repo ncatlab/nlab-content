@@ -1,11 +1,8 @@
 
-Edgar H. Brown
-
-(1926 - 2021)
+Edgar H. Brown, Jr. (1926 - 2021)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Edgar_H._Brown)
 
-* [webpage](http://www.brandeis.edu/facultyguide/person.html?emplid=1ea382383b3eafe98ed7fec4c23acf2f354e1c13)
 
 
 
@@ -41,6 +38,9 @@ based on (including discussion of globally [[Kan fibration|Kan fibrant]] [[simpl
 
 * [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
+On [[rational models of mapping spaces]]:
+
+* [[Edgar H. Brown, Jr.]], [[Robert H. Szczarba]]: *On the Rational Homotopy Type of Function Spaces*, Transactions of the American Mathematical Society **349** 12 (1997) 4931-4951 &lbrack;[jstor:2155493](https://www.jstor.org/stable/2155493)&rbrack;
 
 
 
@@ -58,6 +58,7 @@ based on (including discussion of globally [[Kan fibration|Kan fibrant]] [[simpl
 
 [[!redirects Edgar H. Brown]]
 
+[[!redirects Edgar H. Brown, Jr.]]
 
 category: people
 
