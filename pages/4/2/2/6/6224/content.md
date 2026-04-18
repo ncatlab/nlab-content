@@ -10,9 +10,9 @@
 =--
 
 
-# Nilpotent groups
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -132,7 +132,9 @@ Specifically:
 
 ## References
 
-* [[Peter Hilton]], _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques Vol. 26, No. 3 (1982), pp. 47-78 ([jstor:43741908](https://www.jstor.org/stable/43741908))
+* [[Peter Hilton]], [[Guido Mislin]], [[Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
+
+* [[Peter Hilton]]: _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908)&rbrack;
 
 * [[Peter May]], [[Kate Ponto]], §3.1 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
