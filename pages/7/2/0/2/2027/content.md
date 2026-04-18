@@ -63,6 +63,12 @@ A **discrete integral domain** is a Heyting integral domain with decidable equal
 
 Rings without zero divisors and discrete integral domains are both definable in [[coherent logic]]. However, Heyting integral domains can only be defined in [[first-order logic]]. 
 
+### Examples
+
+* The ring of real-valued [[polynomials]] $\mathbb{R}[x]$ for a given set of real numbers $\mathbb{R}$ is a Heyting integral domain. This set is a discrete integral domain if and only if [[analytic LPO]] holds, and is provably not a discrete integral domain if some axiom holds that contradicts [[analytic LPO]], such as [[Brouwer's continuity principle]] for the real numbers. 
+
+* The ring of real-valued [[formal power series]] $\mathbb{R}[[x]]$ for a given set of real numbers $\mathbb{R}$ is a Heyting integral domain. 
+
 ## Generalizations
 
 Sometimes, one may want the trivial ring to be an integral domain, resulting in the notion of *[[possibly trivial integral domain]]*. In [LombardiQuitté2010](#LombardiQuitté2010), the authors define an integral domain to be a possibly trivial integral domain. 
@@ -109,8 +115,6 @@ See also
 On [[limits]] of [[integral domains]] among [[commutative rings]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Limit closures of classes of commutative rings*, Theory Appl. Categories **30** (2015) 229–304 &lbrack;[tac:30-08](http://www.tac.mta.ca/tac/volumes/30/8/30-08abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/domrefl.pdf)&rbrack;
-
-
 
 [[!redirects ring without zero divisors]]
 [[!redirects rings without zero divisors]]
