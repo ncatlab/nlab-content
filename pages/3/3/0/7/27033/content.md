@@ -540,6 +540,26 @@ See [Diener 2018](#Diener18) for more statements that are inconsistent with $\ma
 
 * The LPO for natural numbers fails in the parameterized [[realizability topos]] constructed in [Bauer & Hanson 2024](#BauerHanson24). 
 
+## Generalizations to other sets of propositions
+
+One can consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then for a given set $A$, the __limited principle of omniscience__ $\mathrm{LPO}_{A, \Sigma}$ states that, given any [[function]] $f$ from $A$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
+
+$$\forall f:A \to \Sigma.\exists p \in \Sigma.p = \top \iff \exists x \in A.f(x) = \top$$
+
+The usual limited principle of omniscience is then $\mathrm{LPO}_{A, \mathbb{2}}$ for the [[booleans]] $\mathbb{2}$:
+$$\forall f:A \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in A.f(x) = \top)$$
+Now by recursion of the booleans we have either that $p = \bot$ or $p = \top$, so the statement 
+$$\forall f:A \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in A.f(x) = \top)$$ 
+is equivalent to 
+$$\forall f:A \to \mathbb{2}.(\top = \top) \iff (\exists x \in A.f(x) = \top) \vee (\bot = \top) \iff (\exists x \in A.f(x) = \top)$$
+and since $\top = \top$ is true and $\bot = \top$ is false, we have
+$$\forall f:A \to \mathbb{2}.(\exists x \in A.f(x) = \top) \vee \neg (\exists x \in A.f(x) = \top)$$
+which is precisely the usual limited principle of omniscience.
+
+For the [[natural numbers]] $\mathbb{N}$ and the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\mathbb{N}, \Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
+
+For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{A, \Omega}$ is always true for set $A$ because $\Omega$ is a [[frame]] and thus closed under existential quantification over $A$. 
+
 ## Related concepts
 
 * [[principle of omniscience]]
