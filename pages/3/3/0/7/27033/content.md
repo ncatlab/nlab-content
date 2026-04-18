@@ -90,6 +90,10 @@ meaning that the $\mathrm{LPO}_A$ using exclusive disjunction implies the disjun
 Thus, $\mathrm{LPO}_A$ holds if anad only if the disjunction-untruncated $\mathrm{LPO}_A$ holds. 
 \end{proof}
 
+\begin{theorem}
+The disjunction-untruncated $\mathrm{LPO}_A$ implies the fully-untruncated $\mathrm{LPO}_A$ if and only if the [[fiber]] of the function $f:A \to \mathbb{2}$ at $1$ has a [[choice operator]].
+\end{theorem}
+
 ## Properties
 
 ### LPO for a general set
@@ -269,6 +273,8 @@ The internal versions of the limited principles of omniscience, like all interna
 The term "limited principle of omniscience", without any specification of the set for which LPO holds, usually refers to the limited principle of omniscience for the natural numbers $\mathrm{LPO}_\mathbb{N}$. 
 
 The limited principle of omniscience for the natural numbers is also called **[[excluded middle]] for [[semidecidable truth values]]**, i.e. [[truth values]] of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, or **$\Sigma^0_1$-[[excluded middle]]** ([Diener 2018](#Diener18)) in the sense of the [[arithmetical hierarchy]] in [[computability theory]]. 
+
+One can also formulate the limited principle of omniscience for natural numbers in terms of [[streams]] of [[booleans]] instead of the [[function set]] $\mathbb{2}^\mathbb{N}$. Let $\mathrm{Stream}(A)$ be the set of streams of the set $A$, with head function $h:\mathrm{Stream}(A) \to A$ and tail function $t:\mathrm{Stream}(A) \to \mathrm{Stream}(A)$. Streams and sequences of any set $A$ are interdefinable with each other: given a stream $f \in \mathrm{Stream}(A)$, the sequence is given by $(h(t^n(f)))_{n \in \mathbb{N}}$, where $t^n$ is the $n$-th functional power of the tail function $t$, and the head and tail functions for the sequence set $A^\mathbb{N}$ are given by $f \mapsto f(0)$ and $f \mapsto (f(n + 1))_{n \in \mathbb{N}}$ respectively. Then the limited principle of omniscience for the natural numbers state that given a stream $f \in \mathrm{Stream}(\mathbb{2})$ of booleans, either there exists $n \in \mathbb{N}$ such that $h(t^n(f)) = 1$ or for all $n \in \mathbb{N}$, $h(t^n(f)) = 0$. 
 
 ### Statements equivalent to $\mathrm{LPO}_\mathbb{N}$
 
