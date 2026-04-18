@@ -118,7 +118,7 @@ A standard textbook reference is
 
 A summary of the basics is in 
 
-* [[Bertrand Guillou]], _Kan's $Ex^\infty$-functor_ ([pdf](http://www.math.uiuc.edu/~bertg/KanEx.pdf))
+* [[Bertrand Guillou]], _Kan's $Ex^\infty$-functor_ ([pdf](https://www.ms.uky.edu/~guillou/KanEx.pdf))
 
 Discussion in the context of [[simplicial presheaves]] is  section 3 of 
 
