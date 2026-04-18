@@ -59,7 +59,7 @@ Given an [[ordinal]] $\alpha$, there exists a notion of **$\alpha$-decidable pro
 
 ### Sierpiński semi-decidable propositions
 
-Semi-decidable propositions are not closed under [[existential quantification]] over the [[natural numbers]]. The closure of semi-decidable propositions under the logical operations of finite [[conjunctions]] and [[existential quantification]] over the [[natural numbers]] are the **quasi-decidable propositions** ([Escardo 2020](#Escardo20)) or **Sierpiński semi-decidable propositions** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
+Semi-decidable propositions are not closed under [[existential quantification]] over the [[natural numbers]]: Given a [[predicate]] $P$ over the [[natural numbers]] where each $P(n)$ is semi-decidable for all $n \in \mathbb{N}$, the existential quantifier $\exists n \in \mathbb{N}.P(n)$ is not always semi-decidable. The closure of semi-decidable propositions under the logical operations of finite [[conjunctions]] and [[existential quantification]] over the [[natural numbers]] are the **quasi-decidable propositions** ([Escardo 2020](#Escardo20)) or **Sierpiński semi-decidable propositions** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
 +-- {: .num_defn }
 ###### Definition
@@ -73,9 +73,9 @@ The **set of Sierpiński semi-decidable truth values** or **set of quasi-decidab
 
 Here a [[subobject|sub]]-$\sigma$-frame of $\Omega$ is one that is closed under [[existential quantifiers]] on the [[natural numbers]].  
 
-The set of Sierpiński semi-decidable truth values is also called **[[Sierpiński space]]** ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)) or the **Sierpiński type** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
+The set of Sierpiński semi-decidable truth values is also called **Sierpiński space** ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)) or the **Sierpiński type** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
-> Comment: since the set of Sierpiński semi-decidable truth values always forms a [[dominance]], perhaps it can be called the **Sierpinski dominance**, though this term is not yet used in the literature. The term *Sierpiński space* is overloaded since it is more commonly used to refer to the [[topological space]] of the [[set of truth values]] equipped with the [[Scott topology]], and the term *Sierpiński type* has type theoretic connotations that are not appropriate in [[set theory]] based foundations. 
+> Comment: since the set of Sierpiński semi-decidable truth values always forms a [[dominance]], perhaps it can be called the **Sierpinski dominance**, though this term is not yet used in the literature. The term *[[Sierpiński space]]* is overloaded since it is more commonly used to refer to the [[topological space]] of the [[set of truth values]] equipped with the [[Scott topology]], and the term *Sierpiński type* has type theoretic connotations that are not appropriate in [[set theory]] based foundations. 
 
 +-- {: .num_defn }
 ###### Definition
