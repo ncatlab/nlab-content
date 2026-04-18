@@ -280,6 +280,8 @@ One can also formulate the limited principle of omniscience for natural numbers 
 
 Apart from the equivalent statements stated above for the LPO for a general set $A$, there are various other results that are equivalent specifically to the limited principle of omniscience for the natural numbers. 
 
+#### Truncated and untruncated versions
+
 Let us begin with the equivalence of the various truncated versions of the $\mathrm{LPO}_\mathbb{N}$ with the usual untruncated version of the $\mathrm{LPO}_\mathbb{N}$. 
 
 \begin{theorem}
@@ -306,10 +308,12 @@ The disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$ implies the fully untrunca
 $\mathrm{LPO}_\mathbb{N}$ and fully untruncated $\mathrm{LPO}_\mathbb{N}$ are equivalent. 
 \end{theorem}
 
+#### Real analysis
+
 Next, we have the equivalence of the $\mathrm{LPO}_\mathbb{N}$ with the [[analytic LPO]] for various notions of [[real numbers]]. 
 
 \begin{theorem}
-The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma \subseteq \Omega$. 
+The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the set of [[Sierpinski semi-decidable truth values]] $\Sigma \subseteq \Omega$. 
 \end{theorem}
 
 Let $C$ denote the [[category]] of [[discrete field|discrete]] [[sequentially Cauchy complete]] [[Archimedean ordered fields]]. $C$ is a [[groupoid]] and a [[subsingleton]] [[principle of equivalence|up to]] [[uniqueness quantifier|unique]] [[isomorphism]]: for every two [[objects]] $R \in C$ and $R' \in C$ there exists a unique [[morphism]] between $R$ and $R'$ which is an [[isomorphism]]. 
@@ -336,7 +340,7 @@ The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansi
 See [Feldman (2010)](#Mehkeri10). 
 \end{proof}
 
-Here are a few others:
+#### Other statements
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
@@ -372,7 +376,9 @@ See [Diener 2018](#Diener18) for more statements that are implied by $\mathrm{LP
 
 ### Statements that imply $\mathrm{LPO}_\mathbb{N}$
 
-There are various other statements that imply $\mathrm{LPO}_\mathbb{N}$. 
+There are various other statements that imply $\mathrm{LPO}_\mathbb{N}$, some of which are listed in this section. See [Diener 2018](#Diener18) for more statements that imply $\mathrm{LPO}_\mathbb{N}$. 
+
+#### Universes and models of foundations
 
 The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
 
@@ -402,6 +408,8 @@ One can construct an element $\mathbb{R}:U$ representing the $U$-small type of r
 
 Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
+#### Choice principles
+
 Let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
 
 \begin{theorem}
@@ -428,7 +436,27 @@ The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean do
 The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$
 \end{theorem}
 
-See [Diener 2018](#Diener18) for more statements that imply $\mathrm{LPO}_\mathbb{N}$. 
+#### Constructive ordinals
+
+There are also some results from constructive [[ordinal]] theory:
+
+\begin{theorem}
+If every pair of [[ordinals]] $\alpha$ and $\beta$ has a binary [[meet]], then $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{proof}
+See the proof of Proposition 5.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
+\end{proof}
+
+\begin{theorem}
+If binary [[joins]] exist for non-successor [[ordinals]] $\alpha$ and $\beta$, then $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{proof}
+See the proof of Proposition 6.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
+\end{proof}
+
+#### Cubical objects
 
 In [[triangulated type theory]], certain properties of the [[directed interval]] imply the $\mathrm{LPO}_\mathbb{N}$. 
 
@@ -553,6 +581,8 @@ See [Diener 2018](#Diener18) for more statements that are inconsistent with $\ma
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
 
 * {#LombardiMahboubi24} [[Henri Lombardi]], [[Assia Mahboubi]], *Théories géométriques pour l'algèbre des nombres réels sans test de signe ni axiome de choix dépendant* ([arXiv:2406.15218](https://arxiv.org/abs/2406.15218))
+
+* {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
 This reference calls the fully untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the fully truncated version. 
 
