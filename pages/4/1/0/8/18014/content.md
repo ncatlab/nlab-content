@@ -105,6 +105,8 @@ The notion originates with:
 
 Further discussion:
 
+* [[Peter Hilton]], [[Guido Mislin]], [[Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
+
 * {#Hilton82} [[Peter Hilton]]: *Nilpotency in group theory and topology*, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908), [numdam:SPHM_1976___3_A1_0](https://www.numdam.org/item/SPHM_1976___3_A1_0)&rbrack;
 
 * {#MayPonto12} [[Peter May]], [[Kate Ponto]]: _[[A Concise Course in Algebraic Topology|More Concise Algebraic Topology]]_, University of Chicago Press (2012) &lbrack;[pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
@@ -116,7 +118,7 @@ See also:
 
 * Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
 
-O the [[rational homotopy theory]] of nilpotent topological spaces:
+On the [[rational homotopy theory]] of nilpotent topological spaces:
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, section 9.1 of _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
@@ -125,8 +127,6 @@ O the [[rational homotopy theory]] of nilpotent topological spaces:
 Discussion in [[homotopy type theory]]:
 
 * {#Scoccola19} Luis Scoccola: _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ &lbrack;[arXiv:1903.03245](https://arxiv.org/abs/1903.03245)&rbrack;
-
-
 
 
 
