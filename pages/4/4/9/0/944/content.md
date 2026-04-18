@@ -92,6 +92,8 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], *Metric spaces in synthetic topology* Annals of Pure and Applied Logic, Volume 163, Issue 2, February 2012, Pages 87-100 ([doi:10.1016/j.apal.2011.06.017](https://doi.org/10.1016/j.apal.2011.06.017))
 
+* [[Ayberk Tosun]], *Constructive and Predicative Locale Theory in Univalent Foundations* ([arXiv:2603.01308](https://arxiv.org/abs/2603.01308))
+
 * *Constructive subtleties about the Sierpinski Space*, Mathematics StackExchange. ([web](https://math.stackexchange.com/questions/5085280/constructive-subtleties-about-the-sierpinski-space/5085447))
 
 [[!redirects Sierpinski space]]
