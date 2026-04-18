@@ -235,13 +235,41 @@ $$ \array {           &          & \neg(\neg{P} \wedge \neg{\neg{P}}) \\
 
 * $P \leftarrow \neg{\neg{P}}$, $(\neg{P} \rightarrow \neg{P}) \wedge (P \leftarrow \neg{\neg{P}})$, and $P \vee \neg{P}$ are equivalent to excluded middle, since $P \leftarrow \neg{\neg{P}}$ is the [[double negation law]], which is equivalent to excluded middle, and $(\neg{P} \rightarrow \neg{P}) \wedge (P \leftarrow \neg{\neg{P}})$ is the [[conjunction]] of the double negation law with an intuitionistically true statement. 
 
-## Sharp excluded middle
+## In spatial type theory
 
-One could add to [[cohesive homotopy type theory]] a version of excluded middle called the **sharp law of excluded middle**, given by the following rule:
+Spatial type theory is a [[multimodal dependent type theory]] with a discrete mode $\mathrm{disc}$ and a spatial mode $\mathrm{sp}$, along with [[modalities]] $\mathrm{Disc}, \mathrm{coDisc}:\mathrm{sp} \to \mathrm{disc}$ and $\Gamma:\mathrm{disc} \to \mathrm{sp}$ and axioms making the three modalities an [[adjoint triple]] and the resulting dependent type theory the internal logic of a [[local (infinity,1)-topos]] and its [[base (infinity,1)-topos]]. 
 
-$$\frac{\Xi \vert \Gamma \vdash P \; \mathrm{type} \quad \Xi \vert \Gamma \vdash p:\mathrm{isProp}(P)}{\Xi \vert \Gamma \vdash \mathrm{lem}^\sharp:\sharp(P \vee \neg P)}$$
+> Note: the spatial mode has different names in different modal type theories. In [[cohesive homotopy type theory]] the spatial mode might be called the *cohesive mode*, in [[simplicial type theory]] and [[displayed type theory]], the spatial mode might be called the *simplicial mode*, in [[cubical type theory]] and [[triangulated type theory]], the spatial mode might be called the *cubical mode*. 
 
-where $A \vee B \coloneqq \left[A + B\right]$ and $\neg A \coloneqq A \to \mathbb{0}$, and $\sharp A$ is the [[sharp modality]] of $A$, $\left[A\right]$ is the [[propositional truncation]] of $A$ and $\mathbb{0}$ is the [[empty type]]. 
+One can add excluded middle to the discrete mode of [[spatial type theory]]: 
+
+$$\frac{\Gamma \vdash P \; \mathrm{type} \; \mathrm{at} \;  \mathrm{disc} \quad \Gamma \vdash p:\mathrm{isProp}(P) \; \mathrm{at} \;  \mathrm{disc}}{\Gamma \vdash \mathrm{lem}:(P \vee \neg P) \; \mathrm{at} \; \mathrm{disc}}$$
+
+In the presence of the [[sharp modality]] one can formulate an equivalent axiom in the spatial mode called the **sharp law of excluded middle**, given by the following rule:
+
+$$\frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \;  \mathrm{sp}}{\Gamma \vdash \mathrm{lem}^\sharp:\prod_{P:\Omega} \sharp(P \vee \neg P) \; \mathrm{at} \; \mathrm{sp}}$$
+
+where $\Omega$ is the [[type of all propositions]]. 
+
+In the presence of the [[flat modality]] one can formulate another equivalent axiom in the spatial mode called the **flat law of excluded middle**, given by the following rule:
+
+$$\frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \;  \mathrm{sp}}{\Gamma \vdash \mathrm{lem}^\flat:\prod_{P:\flat \Omega} (P_\flat \vee \neg P_\flat) \; \mathrm{at} \; \mathrm{sp}}$$
+
+The flat law of excluded middle is equivalent to saying that the discrete [[type of all propositions]] is equivalent to the [[booleans]] in the spatial mode:
+
+$$\flat \Omega \simeq \mathbb{2}$$
+
+This implies in the spatial mode the [[limited principle of omniscience]] for [[natural numbers]], and that the sets of propositions
+
+$$\mathbb{2} \subseteq \Sigma_0^1 \subseteq \Sigma \subseteq \flat \Omega$$
+
+all coincide with each other, where $\Sigma_0^1$ is the set of all [[semi-decidable propositions]] and $\Sigma$ is the set of all [[quasi-decidable propositions]]. 
+
+In [[real analysis]], this also implies in the spatial mode that the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[HoTT book real numbers]] $\mathbb{R}_H$, the quasi-decidable real numbers $\mathbb{R}_\Sigma$ (Dedekind real numbers using quasi-decidable Dedekind cuts $\mathbb{Q}^\Sigma \times \mathbb{Q}^\Sigma$), and the discrete [[Dedekind real numbers]] $\flat \mathbb{R}_D$ 
+
+$$\mathbb{R}_C \subseteq \mathbb{R}_H \subseteq \mathbb{R}_\Sigma \subseteq \flat \mathbb{R}_D$$
+
+are all equivalent to each other. 
 
 ## Related concepts
 
@@ -291,7 +319,7 @@ In [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], section 3.5 _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-In [[cohesive homotopy type theory]]:
+In [[spatial type theory]]:
 
 * Mike Shulman, *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
@@ -358,3 +386,8 @@ category: foundational axiom, logic
 [[!redirects sharp law of excluded middle]]
 [[!redirects sharp principle of excluded middle]]
 [[!redirects sharp axiom of excluded middle]]
+
+[[!redirects flat excluded middle]]
+[[!redirects flat law of excluded middle]]
+[[!redirects flat principle of excluded middle]]
+[[!redirects flat axiom of excluded middle]]
