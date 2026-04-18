@@ -9,9 +9,8 @@
 =--
 =--
 
-# Localization of a space
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -245,20 +244,20 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[John Frank Adams]], [[Zbigniew Fiedorowicz]], *Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy*, based on 1973 lectures by Adams &lbrack;[arXiv:1012.5020](https://arxiv.org/abs/1012.5020)&rbrack; 
 
+* [[Peter Hilton]], [[Guido Mislin]], [[Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
 
-* {#MayPonto} [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 * {#CasacubertaPeschke} [[Carles Casacuberta]], [[Georg Peschke]], *Localizing with respect to self maps of the circle*, Trans. Amer. Math. Soc. **339** (1993) 117-140  &lbrack;[doi:10.1090/S0002-9947-1993-1123451-X](https://doi.org/10.1090/S0002-9947-1993-1123451-X), [pdf](http://www.ub.edu/topologia/casacuberta/articles/cpes.pdf)&rbrack;
 
+* {#Bauer11} [[Tilman Bauer]]: _Bousfield localization and the Hasse square_ (2009) &lbrack;[[Bauer_BousfieldLocalization.pdf:file]]&rbrack;
 
-* {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+* {#Lurie} [[Jacob Lurie]]: _Bousfield localization_, lecture 20 in: *[[Chromatic Homotopy Theory]]*, Lecture series (2010)  &lbrack;[pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf)&rbrack;
 
+* {#LurieProper} [[Jacob Lurie]], section 4 of: _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
-* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+* {#MayPonto} [[Peter May]], [[Kate Ponto]]: *[[A Concise Course in Algebraic Topology|More concise algebraic topology: Localization, completion, and model categories]]*, University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf)&rbrack;
 
-* {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
-
-* [[Emily Riehl]], §14.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+* [[Emily Riehl]]; §14.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 * Manfred Stelzer: *Pointed integral coalgebras and $R$-local homotopy theory* &lbrack;[arXiv:2604.00713](https://arxiv.org/abs/2604.00713)&rbrack;
 
@@ -270,11 +269,11 @@ See also:
 
 and see at 
 
-* [[Bousfield localization of spectra]] for more.
+* *[[Bousfield localization of spectra]]* for more.
 
 Formalization in [[homotopy type theory]]:
 
-* [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
+* [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures **4** 1 (2020) 1-32 &lbrack;[arXiv:1807.04155](https://arxiv.org/abs/1807.04155)&rbrack;
 
 [[!redirects p-localization]]
 [[!redirects p-localizations]]
