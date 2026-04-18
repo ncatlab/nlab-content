@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,7 +18,7 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 ## Examples
 
-* The [[Sierpinski space#Predicative|Sierpinski space]] in [[synthetic topology]] is the [[initial object|initial]] $\sigma$-frame. 
+* The set of [[Sierpinski semi-decidable truth values]] is the [[initial object|initial]] $\sigma$-frame. 
 
 * The [[limited principle of omniscience]] implies that the [[boolean domain]] is a $\sigma$-frame. 
 
