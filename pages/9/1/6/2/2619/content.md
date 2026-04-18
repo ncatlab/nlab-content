@@ -14,9 +14,23 @@
 \tableofcontents
 
 
+## Idea
+ {#Idea}
+
+Recall that a *[[compact object]]* $C$ is an [[object]] (in some [[category]]) such that the [[hom-functor]] $Hom(C,-)$ out of it [[preserved limit|preserves]] [[filtered colimits]]. In this vein, the larger the class of [[colimits]] [[preserved limit|preserved]] by $Hom(C,-)$, the "smaller" the object is. In the extreme case, if $Hom(C,-)$ preserves *all* colimits, then $C$ is *tiny*. (Here we may still distinguish between the conditions of preserving all *[[small diagram|small]]* colimits, called *small-projectivity* below, and all colimits whatsoever.)
+
+To gain intuition for this abstract [[category theory|category theoretic]] characterization of smallness, think of a [[colimit]] $colim_i X_i$ as a generalized [[union]], producing a big object by gluing components $X_i$ to each other. That $Hom(C,-)$ preserves such a colimit, hence that the canonical comparison map (from applying $Hom(C,-)$ to the colimit's [[coprojections]])
+
+$$
+  colim_i Hom\big(C,X_i\big)
+  \overset{\sim}{\longrightarrow}
+  Hom\big(C, colim_i X_i \big)
+$$
+
+is a [[bijection]], means that the set of ways of mapping $C$ into the big object is equivalently the generalized union of the sets of ways of mapping $C$ into any of the components. But this in turn means that $C$ is "small enough" that its image always "fits inside" one of the components of the big target object, not "leaking out" over several components.
+ 
 
 ## Definition
-
 
 \begin{definition}\label{SmallProjective}
 Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)), or **absolutely presentable** if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]].
