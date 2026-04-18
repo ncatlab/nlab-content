@@ -359,6 +359,10 @@ and in view of [[linear homotopy type theory]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
+Impredicativity in linear dependent type theory:
+
+* [[Sam Speight]], [[Niels van der Weide]], *Impredicativity in Linear Dependent Type Theory* &lbrack;[arXiv:2602.08846](https://arxiv.org/abs/2602.08846)&rbrack;
+
 [[!redirects dependent linear type theories]]
 
 [[!redirects linear dependent type theory]]
