@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-Recall that a *[[compact object]]* $C$ is an [[object]] (in some [[category]]) such that the [[hom-functor]] $Hom(C,-)$ out of it [[preserved limit|preserves]] [[filtered colimits]]. In this vein, the larger the class of [[colimits]] [[preserved limit|preserved]] by $Hom(C,-)$, the "smaller" the object is. In the extreme case, if $Hom(C,-)$ preserves *all* colimits, then $C$ is *tiny*. (Here we may still distinguish between the conditions of preserving all *[[small diagram|small]]* colimits, called *small-projectivity* below, and all colimits whatsoever.)
+Recall that a *[[compact object]]* $C$ is an [[object]] (in some [[category]]) such that the [[hom-functor]] $Hom(C,-)$ out of it [[preserved limit|preserves]] [[filtered colimits]]. In this vein, the larger the class of [[colimits]] [[preserved limit|preserved]] by $Hom(C,-)$, the "smaller" the object is. In the extreme case, if $Hom(C,-)$ preserves *all* colimits, then $C$ is described as *tiny*. (Here we may still distinguish between the conditions of preserving all *[[small diagram|small]]* colimits, called *small-projectivity* below, and all colimits whatsoever.)
 
 To gain intuition for this abstract [[category theory|category theoretic]] characterization of smallness, think of a [[colimit]] $colim_i X_i$ as a generalized [[union]], producing a big object by gluing components $X_i$ to each other. That $Hom(C,-)$ preserves such a colimit, hence that the canonical comparison map (from applying $Hom(C,-)$ to the colimit's [[coprojections]])
 
