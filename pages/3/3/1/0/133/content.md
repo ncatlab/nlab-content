@@ -74,6 +74,8 @@ If a topos $C$ satisfies IAC, then so do all of its [[slice categories]], althou
 A [[Grothendieck topos]] satisfies the external axiom of choice iff it is equivalent to the [[category of sheaves]] on a [[complete Boolean algebra]]. 
 =-- 
 
+Note that this theorem holds [[if and only if]] the base [[category of sets]] satisfies the [[axiom of choice]]. Any [[singleton]] is a [[complete Boolean algebra]] (in fact, the [[terminal object|terminal]] [[complete Boolean algebra]]), and the [[category of sheaves]] on the [[singleton]] is equivalent to the base [[category of sets]]. 
+
 ## Equivalents 
 
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]).  This is a *very* short list; much longer lists can be found elsewhere, such as at [Wikipedia](http://en.wikipedia.org/wiki/Axiom_of_choice#Equivalents).  Some of the statements on this list, though, may be of interest to nLabbers but are not commonly mentioned as equivalents of choice.
