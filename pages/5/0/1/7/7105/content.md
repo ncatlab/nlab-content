@@ -698,7 +698,7 @@ but the formulation as [[exact sequences]] appeared only later:
 
 A more modern review that emphasizes the role of [[homotopy fiber sequences]]:
 
-* {#DyerRoitberg80} [[Eldon Dyer]], Joseph Roitberg: *Note on Sequences of Mayer-Vietoris Type*, Proceedings of the AMS **80** 4 (1980) &lbrack;[doi:10.2307/2043446](https://doi.org/10.2307/2043446), [jstor:2043446](https://www.jstor.org/stable/2043446),  [pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf)&rbrack;
+* {#DyerRoitberg80} [[Eldon Dyer]], [[Joseph Roitberg]]: *Note on Sequences of Mayer-Vietoris Type*, Proceedings of the AMS **80** 4 (1980) &lbrack;[doi:10.2307/2043446](https://doi.org/10.2307/2043446), [jstor:2043446](https://www.jstor.org/stable/2043446),  [pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf)&rbrack;
 
 See also:
 
