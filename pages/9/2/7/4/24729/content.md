@@ -1,5 +1,13 @@
 
-* [website](https://nmvdw.github.io/)
+* [personal page](https://nmvdw.github.io/)
+
+* [institute page](https://www.ru.nl/en/people/weide-n-van-der)
+
+* [github page](https://github.com/nmvdw)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=ojzs8y8AAAAJ&hl=de)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Niels-Van-Der-Weide)
 
 ## Publications
 
@@ -27,6 +35,11 @@ On [[univalent bicategory|univalent]] [[bicategories]] in [[homotopy type theory
 An [[internal language]] for [[comprehension categories]] is developed in:
 
 * [[Niyousha Najmaei]], [[Niels van der Weide]], [[Benedikt Ahrens]], [[Paige Randall North]], *A Type Theory for Comprehension Categories with Applications to Subtyping* ([arXiv:2503.10868](https://arxiv.org/abs/2503.10868))
+
+On [[impredicativity]] in [[linear dependent type theory]]:
+
+* [[Sam Speight]], [[Niels van der Weide]], *Impredicativity in Linear Dependent Type Theory* &lbrack;[arXiv:2602.08846](https://arxiv.org/abs/2602.08846)&rbrack;
+
 
 ## Related entries
 
