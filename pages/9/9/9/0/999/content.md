@@ -9,9 +9,10 @@
 =--
 =--
 
-# Contents 
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -46,7 +47,7 @@ $$
   Hom_C(X,-) \colon C \to Set
 $$
 
-[[preserved limit|preserves]] [[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
+[[preserved limit|preserves]]$\;$[[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
 
 $$
   \underset{\underset{d}{\to}}{\lim} C(X,F(d)) \xrightarrow{\simeq}
