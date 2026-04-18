@@ -1,9 +1,13 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Guido_Mislin)
 
-* [inbstitute page](https://people.math.ethz.ch/~mislin/)
+* [institute page](https://people.math.ethz.ch/~mislin/)
 
 ## Selected writings
+
+On [[localization of a space|localization]] of [[nilpotent spaces]]:
+
+* [[Peter Hilton]], [[Guido Mislin]], [[Joseph Roitberg|Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
 
 
 On [[equivariant K-theory]] and the [[Baum-Connes conjecture]]:
