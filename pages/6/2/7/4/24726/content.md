@@ -182,7 +182,7 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 ## External Links
 
-* [Website](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)
+* [Website](https://hottest-seminar.github.io/)
 
 * [Youtube channel](https://www.youtube.com/user/jdchristensen123)
 
