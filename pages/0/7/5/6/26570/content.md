@@ -25,8 +25,6 @@ A [[proposition]] or [[truth value]] $P$ is **semi-decidable** or **semidecidabl
 
 $$\mathrm{isSemiDecidable}(P) \coloneqq \exists f \in 2^\mathbb{N}.P \iff \exists x \in \mathbb{N}.f(x) = 1$$
 
-The set of all semi-decidable propositions is typically called the **[[Rosolini dominance]]**, though it may not be a [[dominance]] without certain assumptions such as [[countable choice]] or [[excluded middle]]. 
-
 If the [[foundations of mathematics]] has the [[Cauchy real numbers]] $\mathbb{R}_C$ as well, then $P$ is semideciable if and only if there exists a Cauchy real number $x \in \mathbb{R}_C$ such that $P$ if and only if $x \gt 0$.
 
 $$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 0$$
@@ -50,6 +48,20 @@ There is also a partially untruncated version of this, which is the type
 $$\sum_{f:\mathbb{N} \to \mathrm{bool}} P \simeq \left[\sum_{x:\mathbb{N}}f(x) =_{\mathrm{bool}} 1\right]$$
 
 of all boolean sequences $f$ for which $P$ is equivalent to there exists a natural number $x:\mathbb{N}$ such that $f(x) = 1$. 
+
+## Set of semi-decidable truth values
+
+The set of all semi-decidable truth values $\Sigma_0^1$ is defined as a [[subset]] of the [[set of truth values]] $\Omega$ containing all the semi-decidable truth values:
+
+$$\Sigma_0^1 \coloneqq \{P \in \Omega \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1$$
+
+In [[predicative mathematics]], the set of *all* [[truth values]] may not exist, so instead in order to construct the set of all semi-decidable truth values, we take any [[subobject|sub]]-[[sigma-frame|$\sigma$-frame]] of truth values $\Sigma$ and collect the ones that are semi-decidable:
+
+$$\Sigma_0^1 \coloneqq \{P \in \Sigma \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1$$
+
+Such [[sigma-frame|$\sigma$-frames]] $\Sigma$ are usually found by collecting the [[subsingletons]] of a [[universe of sets]] $U$ in the theory into a set $\Omega_U$, or minimally, by the set of quasi-decidable truth values defined later in this article. 
+
+The set of all semi-decidable truth values is typically called the **[[Rosolini dominance]]**, though it is a [[dominance]] [[if and only if]] semi-decidable truth values are closed under [[existential quantification]] over the [[natural numbers]], which follows from certain assumptions such as [[countable choice]] or [[excluded middle]]. 
 
 ## Generalizations
 
@@ -137,6 +149,12 @@ In [[classical mathematics]], and in [[constructive mathematics]] which accept t
 
 [[!redirects semidecidable truth value]]
 [[!redirects semidecidable truth values]]
+
+[[!redirects set of semi-decidable propositions]]
+[[!redirects set of semidecidable propositions]]
+
+[[!redirects set of semi-decidable truth values]]
+[[!redirects set of semidecidable truth values]]
 
 [[!redirects semi-decidable type]]
 [[!redirects semi-decidable types]]
