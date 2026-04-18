@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -281,6 +280,8 @@ In even dimensions:
 Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces of maps]]:
 
 * Samuel Bruce Smith, _Rational evaluation subgroups_, Math Z (1996) 221: 387 ([doi:10.1007/BF02622121](https://doi.org/10.1007/BF02622121))
+
+* [[Edgar H. Brown, Jr.]], [[Robert H. Szczarba]]: *On the Rational Homotopy Type of Function Spaces*, Transactions of the American Mathematical Society **349** 12 (1997) 4931-4951 &lbrack;[jstor:2155493](https://www.jstor.org/stable/2155493)&rbrack;
 
 * Gregory Lupton, Samuel Bruce Smith, _Rationalized Evaluation Subgroups of a Map and the Rationalized G-Sequence_ ([arXiv:math/0309432](https://arxiv.org/abs/math/0309432))
 
