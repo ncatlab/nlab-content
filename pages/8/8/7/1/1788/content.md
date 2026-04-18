@@ -4,6 +4,8 @@
 
 ***
 
+$\varprojlim$
+
 
 \begin{xymatrix}
 Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
