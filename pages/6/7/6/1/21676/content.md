@@ -256,6 +256,6 @@ This has the following further variants:
 
 Including the variant of piecewise smooth forms:
 
-* {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]], Chapter 9 of: *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
+* {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]], Chapter 9 of: *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser.  First Edition, 1981; Second Edition, 2013. &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
