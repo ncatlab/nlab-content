@@ -39,10 +39,9 @@ On [[homotopy theory]]:
 
 On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [[algebraic topology]]/[[homotopy theory]] and introducing the [[Eckmann-Hilton argument]]:
 
-* [[Beno Eckmann]], [[Peter Hilton]], Theorem 1.12: *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221
-([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+* [[Beno Eckmann]], [[Peter Hilton]], Theorem 1.12: *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 &lbrack;[doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory)&rbrack;
 
-* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. **145** (1962) 227–255 &lbrack;[doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367)&rbrack;
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
@@ -65,9 +64,11 @@ On [[generalized cohomology]], the [[Chern-Dold character]] and [[topological K-
 
 On [[homological algebra]]:
 
-* {#HiltonStammbach71} [[Peter Hilton]],  U. Stammbach, _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4.
+* {#HiltonStammbach71} [[Peter Hilton]],  U. Stammbach, _A course in homological algebra_, Springer (1971) Graduate Texts in Mathematics, Vol. 4.
 
 On [[nilpotent groups]], [[nilpotent modules]] and [[nilpotent topological spaces]]:
+
+* [[Peter Hilton]], [[Guido Mislin]], [[Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
 
 * {#Hilton82} [[Peter Hilton]]: *Nilpotency in group theory and topology*, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908), [numdam:SPHM_1976___3_A1_0](https://www.numdam.org/item/SPHM_1976___3_A1_0)&rbrack;
 
