@@ -80,6 +80,8 @@ The set of Sierpiński semi-decidable truth values is also called **[[Sierpińsk
 +-- {: .num_defn }
 ###### Definition
 A **Sierpiński semi-decidable proposition** or **quasi-decidable proposition** is a [[proposition]] $P$ such that there exist an element $p \in \Sigma$ such that $P$ holds [[if and only if]] $p = \top$, where $\top$ is the [[top]] of $\Sigma$. 
+
+$$\mathrm{isSierpinskiSemiDecidable}(P) \coloneqq \exists p \in \Sigma.P \iff p = \top$$
 =--
 
 The set of Sierpiński semi-decidable truth values $\Sigma$ sits in a hierarchy of subsets of the set of truth values:
