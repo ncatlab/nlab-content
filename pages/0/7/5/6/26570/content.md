@@ -67,6 +67,8 @@ $$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 
 
 This implies that the [[Cauchy real numbers]] are an [[Archimedean ordered field]] [[admissible Archimedean ordered field|admissible]] for the set of semi-decidable truth values $\Sigma_0^1$, and in fact that the [[Cauchy real numbers]] are the terminal [[Archimedean ordered field]] that is admissible for $\Sigma_0^1$. 
 
+Furthermore, this implies that any Archimedean ordered [[field extension]] of the Cauchy real numbers whose order relation $\lt$ is semi-decidable is isomorphic to the [[Cauchy real numbers]]. This can be used to make the [[Dedekind real numbers]] and Cauchy real numbers coincide, by stipulating that the order relation $\lt$ on the [[Dedekind real numbers]] is semi-decidable. 
+
 ## Generalizations
 
 ### Ordinal decidable propositions
