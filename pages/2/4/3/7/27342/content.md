@@ -29,11 +29,7 @@ In [[constructive mathematics]], not every proposition is a [[boolean]], which m
 
 ## Definition
 
-Given a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, an [[Archimedean ordered field]] $F$ is **$\Sigma$-admissible** if and only if there is a function $(-) \lt_\Sigma (-):F \times F \to \Sigma$ such that $(x \lt_\Sigma y) = \top$ if and only if $x \lt y$. 
-
-### In dependent type theory
-
-Let $(\Sigma, T)$ be a [[type of propositions]] that is closed under finite [[conjunctions]] and [[disjunctions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
+Given a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, an [[Archimedean ordered field]] $F$ is **$\Sigma$-admissible** if and only if there is a function $(-) \lt_\Sigma (-):F \times F \to \Sigma$ such that $(x \lt_\Sigma y) = \top$ [[if and only if]] $x \lt y$. 
 
 ## Examples
 
