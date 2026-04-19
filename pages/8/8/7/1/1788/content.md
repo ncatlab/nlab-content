@@ -4,7 +4,24 @@
 
 ***
 
-$\varprojlim$
+\begin{lemma}
+  The map
+  $$
+    \begin{array}{ccc}
+      \pi_0\big(X \times_B Y\big) 
+      &\longrightarrow&
+      \pi_0(X) \times_{\pi_0(B)} \pi_0(Y)
+      \\
+      [(x,y,\gamma)] 
+      &\mapsto&
+      ([x],[y])
+    \end{array}
+  $$
+  is surjective.
+\end{lemma}
+\begin{proof}
+  As indicated, here we think of the homotopy fiber product $X \times_B Y$ as presented, via the [factorization lemma](Introduction+to+Homotopy+Theory#FactorizationLemma), as the space of triples consisting of a point $x \in X$, a point $y \in Y$ and a path $\gamma$ in $B$ from $f(x)$ to $g(y)$. But if $x$ and $y$ are given so $([x],[y]) \in \pi_0(X) \times_{\pi_0(B)} \pi_0(Y)$ this means exactly that $f(x)$ and $g(y)$ are path connected, hence that $\gamma$ as above exists, hence that $([x],[y])$ in in the image of the above map.
+\end{proof}
 
 
 \begin{xymatrix}
