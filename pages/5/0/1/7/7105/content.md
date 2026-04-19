@@ -45,10 +45,10 @@ $$
 
   \array{
     X \times_B Y 
-      & \longrightarrow & 
+      & \overset{v}{\longrightarrow} & 
     Y
     \\
-    \big\downarrow 
+    \mathllap{^{_{u}}}\big\downarrow 
       &\swArrow_\simeq& 
     \big\downarrow^{\mathrlap{g}}
     \\
@@ -177,14 +177,37 @@ For $\mathcal{C} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], this point of view is
 
 The corresponding [[long exact sequence of homotopy groups]] is of the form
 
-$$
-  \cdots \to \pi_{n+1} B \to \pi_n (X \times_B Y) \stackrel{(f_*, g_*)}{\to} \pi_n X \oplus \pi_n Y \stackrel{f_* - g_*}{\to} \pi_n B \to \cdots 
-$$
-
-$$
-  \cdots \to \pi_2 B \to \pi_1 (X \times_B Y) \stackrel{(f_*, g_*)}{\to}  \pi_1 X \times \pi_1 Y \stackrel{f_* \cdot g_*^{-1}}{\to} \pi_1 B \to \pi_0 (X \times_B Y) \to \pi_0 (X \times Y)
+\[
+  \label{TheHomotopicalMVSequence}
+  \begin{array}{c}
+  \cdots 
+    \longrightarrow 
+  \pi_{n+1} B 
+    \longrightarrow 
+  \pi_n (X \times_B Y) 
+    \overset{(f_*, g_*)}{\longrightarrow} 
+  \pi_n X \oplus \pi_n Y 
+    \overset{f_* - g_*}{\longrightarrow} 
+  \pi_n B 
+    \longrightarrow 
+  \cdots 
+  \\
+  \cdots 
+    \longrightarrow
+  \pi_2 B 
+    \longrightarrow 
+  \pi_1 (X \times_B Y) 
+    \overset{(f_*, g_*)}{\longrightarrow}  
+  \pi_1 X \times \pi_1 Y 
+    \overset{f_* \cdot g_*^{-1}}{\longrightarrow} 
+  \pi_1 B 
+    \longrightarrow 
+  \pi_0 (X \times_B Y) 
+    \longrightarrow 
+  \pi_0(X) \times \pi_0(Y)
   \,.
-$$
+  \end{array}
+\]
 
 =--
 
@@ -226,6 +249,64 @@ $$
 $$
 
 This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X \times Y$ is the [[loop space object]] $\Omega B$, being the [[fiber]] of the [[path space object]] projection.
+
+{#ExtendingMVToTheRight}
+We can use this to usefully extend the tail end of the MV sequence by one step:
+
+\begin{lemma}
+  The [[image]] of the tail end map in (eq:TheHomotopicalMVSequence)
+  $$
+    \begin{array}{ccc}
+      \pi_0\big(X \times_B Y\big) 
+      &
+       \overset
+         { \big( \pi_0(u), \pi_0(v) \big) }
+         {\longrightarrow}
+      &
+      \pi_0(X) \times \pi_0(Y)
+      \\
+      \big[ (x,y,\gamma) \big] 
+      &\mapsto&
+      \big( [x],[y] \big)
+    \end{array}
+  $$
+  is the [[fiber product]] of [[connected components]]:
+  \[
+    im\big( \pi_0(u), \pi_0(v) \big)
+    \simeq
+    \pi_0(X) \times_{\pi_0(B)} \pi_0(Y)
+    \mathrlap{\,.}
+  \]
+\end{lemma}
+\begin{proof}
+  As indicated, here we think of the homotopy fiber product $X \times_B Y$ as presented, via the [factorization lemma](Introduction+to+Homotopy+Theory#FactorizationLemma), as the space of triples consisting of a point $x \in X$, a point $y \in Y$ and a path $\gamma$ in $B$ from $f(x)$ to $g(y)$. 
+This makes it manifest that the image consists of exactly those pairs $([x],[y])$ for which there exists a path in $B$ from $f(x)$ to $f(y)$, hence for which $f(x)$ and $f(y)$ are in the same connected component of $B$.
+\end{proof}
+
+\begin{corollary}
+\label{HomotopicalMVSequencesExtendedOneStepToTheRight}
+  The tail end of the homotopical MV sequence (eq:TheHomotopicalMVSequence) may be adjusted to extend one step further to the right, to a [[long exact sequence]] as follows:
+\[
+  \cdots 
+    \longrightarrow
+  \pi_2 B 
+    \longrightarrow 
+  \pi_1 (X \times_B Y) 
+    \overset{(f_*, g_*)}{\longrightarrow}  
+  \pi_1 X \times \pi_1 Y 
+    \overset{f_* \cdot g_*^{-1}}{\longrightarrow} 
+  \pi_1 B 
+    \longrightarrow 
+  \pi_0 (X \times_B Y) 
+    \longrightarrow 
+  \pi_0 (X) \times_{\pi_0(B)} \pi_0(Y)
+    \longrightarrow
+  \ast
+  \mathrlap{\,.}
+\]
+\end{corollary}
+
+
 
 ### Over an $\infty$-group
  {#OverAGroupObject}
