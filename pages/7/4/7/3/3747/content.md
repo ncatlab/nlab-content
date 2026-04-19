@@ -70,7 +70,7 @@ holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.
 
 ### As a terminal object
 
-The (sequential, modulated) [[Cauchy real numbers]] are the terminal [[Archimedean ordered field]] that is [[admissible Archimedean ordered field|admissible]] for the set of [[semi-decidable propositions]] $\Sigma_0^1$. 
+The (sequential, modulated) [[Cauchy real numbers]] are the [[terminal object|terminal]] [[Archimedean ordered field]] that is [[admissible Archimedean ordered field|admissible]] for the set of [[semi-decidable propositions]] $\Sigma_0^1$. 
 
 ### Cauchy approximations
 
