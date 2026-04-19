@@ -68,6 +68,10 @@ holds whenever $i \geq \alpha(\epsilon)$.  Once more, we can combine these condi
 $$ {|x_i - y_j|} \leq \delta + \epsilon $$
 holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.
 
+### As a terminal object
+
+The (sequential, modulated) [[Cauchy real numbers]] are the terminal [[Archimedean ordered field]] that is [[admissible Archimedean ordered field|admissible]] for the set of [[semi-decidable propositions]] $\Sigma_0^1$. 
+
 ### Cauchy approximations
 
 The modulated Cauchy real numbers could also be constructed through [[Cauchy approximations]] rather than sequences of rational numbers with a modulus of convergence. Let $\mathbb{Q}$ be the [[rational numbers]] $\mathbb{Q}$ and let 
