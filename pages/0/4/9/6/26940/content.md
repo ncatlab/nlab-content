@@ -54,9 +54,7 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 \end{theorem}
 
 \begin{proof}
-Every [[Archimedean ordered field]] is a subfield of the [[Dedekind real numbers]], which means that by [[coercion]] one can consider the elements of any Archimedean ordered field to be Dedekind real numbers, which are Dedekind cuts. Theorem 10.6.3 of [Booij 2020](#Booij20) says that any Dedekind real number (i.e. Dedekind cut) for which there exists a [[locator]] is a [[Cauchy real number]]. This implies that given an Archimedean ordered field $R$, if for every element in $R$ there exists a [[locator]], then every element in $R$ is a Cauchy real number, and $R$ is a [[subfield]] of the Cauchy real numbers. If $R$ is also a field extension of the [[Cauchy real numbers]], then $R$ is [[isomorphic]] to the Cauchy real numbers, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]] in the category of Archimedean ordered fields. 
-
-The analytic LPO implies that corollary 11.4.3 of [UFP 2013](#UFP13) can be proven: If analytic LPO holds then "$(x \lt y) \to (x \lt z) + (z \lt y)$ can be proved: either $x \lt z$ or $\neg(x \lt z)$. In the former case we are done, while in the latter we get $z \lt y$ because $z \leq x \lt y$." Therefore, we get a [[locator]] for every element of $R$, which then implies that $R$ is isomorphic to the Cauchy real numbers. 
+The analytic LPO implies that the [[Archimedean ordered field]] $R$ is [[admissible Archimedean ordered field|admissible]] for the [[booleans]], and thus admissible for the set of [[semi-decidable propositions]]. Since the [[Cauchy real numbers]] $\mathbb{R}_C$ are the [[terminal object|terminal]] [[Archimedean ordered field]] that is admissible for the set of [[semi-decidable propositions]], $R$ is isomorphic with the [[Cauchy real numbers]] $\mathbb{R}_C$. 
 \end{proof}
 
 \begin{theorem}
@@ -75,8 +73,8 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
 \end{proof}
 
-Let $\Sigma$ be the set of [[Sierpinski semi-decidable truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in Sierpinski semi-decidable truth values $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
-$$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
+Let $\Sigma \subseteq \Omega$ be the set of [[Sierpinski semi-decidable truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in Sierpinski semi-decidable truth values (see [Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)), where then one has subset inclusions
+$$\mathrm{R}_C \subseteq \mathrm{R}_\Sigma \subseteq \mathrm{R}_D$$
 
 \begin{theorem}
 The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the set of [[Sierpinski semi-decidable truth values]] $\Sigma$. 
@@ -192,6 +190,10 @@ $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x))
 ## References
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+* {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
+
+* {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
