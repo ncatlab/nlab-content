@@ -25,10 +25,6 @@ A [[proposition]] or [[truth value]] $P$ is **semi-decidable** or **semidecidabl
 
 $$\mathrm{isSemiDecidable}(P) \coloneqq \exists f \in 2^\mathbb{N}.P \iff \exists x \in \mathbb{N}.f(x) = 1$$
 
-If the [[foundations of mathematics]] has the [[Cauchy real numbers]] $\mathbb{R}_C$ as well, then $P$ is semideciable if and only if there exists a Cauchy real number $x \in \mathbb{R}_C$ such that $P$ if and only if $x \gt 0$.
-
-$$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 0$$
-
 The [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ implies that every semi-decidable proposition is a [[decidable proposition]]. 
 
 ### In dependent type theory
@@ -62,6 +58,14 @@ $$\Sigma_0^1 \coloneqq \{P \in \Sigma \vert \exists f \in 2^\mathbb{N}.(P = \top
 Such [[sigma-frame|$\sigma$-frames]] $\Sigma$ are usually found by collecting the [[subsingletons]] of a [[universe of sets]] $U$ in the theory into a set $\Omega_U$, or minimally, by the set of quasi-decidable truth values defined later in this article. 
 
 The set of all semi-decidable truth values is typically called the **[[Rosolini dominance]]**, though it is a [[dominance]] [[if and only if]] semi-decidable truth values are closed under [[existential quantification]] over the [[natural numbers]], which follows from certain assumptions such as [[countable choice]] or [[excluded middle]]. 
+
+## Relation to Cauchy real numbers
+
+Let $\mathbb{R}_C$ denote the [[Cauchy real numbers]]. Then a [[proposition]] $P$ is semideciable if and only if there exists a Cauchy real number $x \in \mathbb{R}_C$ such that $P$ if and only if $x \gt 0$.
+
+$$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 0$$
+
+This implies that the [[Cauchy real numbers]] are an [[Archimedean ordered field]] [[admissible Archimedean ordered field|admissible]] for the set of semi-decidable truth values $\Sigma_0^1$, and in fact that the [[Cauchy real numbers]] are the terminal [[Archimedean ordered field]] that is admissible for $\Sigma_0^1$. 
 
 ## Generalizations
 
