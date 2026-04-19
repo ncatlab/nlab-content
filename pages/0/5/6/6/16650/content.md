@@ -29,21 +29,37 @@ One could posit, instead of the [[property]] that for all $f \in A$ and $g \in A
 
 Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a, b$. There is no loss of generality in assuming it; every Euclidean domain admits such a degree function $d'$, defining $d'(a) = \min \{d(a b): b \in A, b \neq 0\}$. We'll use it freely below, if and when we need to. 
 
-### In constructive mathematics ###
+### In constructive mathematics 
 
 In constructive mathematics, there are different types of integral domains, yielding different types of Euclidean domains: the degree function, division, function, and remainder function are no longer valued in $A \setminus \{0\}$ in one variable, but in $\{x \in A \vert x \neq 0\}$, $\{x \in A \vert x \# 0\}$, or some other definition, depending on what the base [[integral domain]] ends up being (classical, Heyting, discrete, residue, et cetera). 
 
-The definition of the Euclidean domain further bifurcates in [[constructive mathematics]] due to the disjunctive condition above. These statements, which are equivalent in the presence of [[excluded middle]], include: 
+The definition of the Euclidean domain further bifurcates in [[constructive mathematics]] due to the disjunctive condition above: there are multiple different forms of the [[disjunction]], ranging in strength from the disjunction $P \vee Q$ to [[mutually exclusive propositions|mutual exclusion]] of their [[negations]] $\not(\not P \wedge \not Q)$. 
+
+One also have the [[antithesis interpretation]] in [[constructive mathematics]] where we consider affine logical operations on pairs of [[mutually exclusive propositions]] instead of intuitionistic logical operations on individual propositions. Important here is the pair of propositions $(r = 0, r \neq 0)$ for an element $r$ of an Euclidean field, which is only postulated in the general case to be mutually exclusive: $\not ((r = 0) \wedge (r \neq 0))$, though we can also have 
+
+* [[denial inequality]], i.e. $\not (r = 0) \to (r \neq 0)$, 
+
+* [[tight relation|tightness]], i.e. $\not (r \neq 0) \to (r = 0)$, 
+
+* [[stable equality|stability]], i.e. tightness and denial, and 
+
+* [[decidable equality|decidability]], i.e. $(r = 0) \vee (r \neq 0)$
+
+Combining these together, the various Euclidean domain conditions, which are equivalent in the presence of [[excluded middle]], include: 
 
 * $(r = 0) \vee (d(r) \lt d(g))$
-* $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ 
+* $((r \neq 0) \to (d(r) \lt d(g))) \wedge ((d(r) \geq d(g)) \to (r = 0))$
+* $(r \neq 0) \to (d(r) \lt d(g))$
 * $(d(r) \geq d(g)) \to (r = 0)$
+* $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ 
 
 or equivalently, 
 
 * $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ 
-* $\not((f\ \%\ g \neq 0) \wedge (d(f\ \%\ g) \geq d(g))$ 
+* $((f\ \%\ g \neq 0) \to (d(f\ \%\ g) \lt d(g))) \wedge ((d(f\ \%\ g) \geq d(g)) \to (f\ \%\ g = 0))$
+* $(f\ \%\ g \neq 0) \to (d(f\ \%\ g) \lt d(g))$  
 * $(d(f\ \%\ g) \geq d(g)) \to (f\ \%\ g = 0)$ 
+* $\not((f\ \%\ g \neq 0) \wedge (d(f\ \%\ g) \geq d(g))$
 
 ## Examples 
 
