@@ -1,11 +1,15 @@
 
-This page has material related to the article
+This page is to record the reference:
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]]: 
 
-  _On PL deRham theory and rational homotopy type_, 
+  \linebreak
 
-  Memoirs of the AMS, vol. 179 (1976) 
+  **On PL de Rham theory and rational homotopy type**
+
+  \linebreak 
+
+  Memoirs of the AMS **179** (1976) 
 
   [ams:memo-8-179](https://bookstore.ams.org/memo-8-179)
 
@@ -23,7 +27,7 @@ Review:
 
 * {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
-Generalization to [[equivariant rational homotopy theory]] ([[fundamental theorem of equivariant rational homotopy theory]]):
+Generalization to [[equivariant rational homotopy theory]] ([[fundamental theorem of dg-algebraic equivariant rational homotopy theory]]):
 
 * {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
