@@ -52,6 +52,7 @@ More generally, the analog of this statement holds for [[orbifolds]] ([Hinich (2
 
 * [[Drinfeld center]]
 
+* [[Heisenberg double]]
 
 ## References
 
