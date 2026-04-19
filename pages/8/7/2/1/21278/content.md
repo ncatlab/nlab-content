@@ -31,6 +31,8 @@ can be computed by [[fibrant resolution|fibrantly replacing]] each $A_i$
 and computing the (ordinary) [[Cartesian product]]
 of the resulting family $\{\mathrm{R}A_i\}_{i\in I}$ of [[fibrant objects]].
 
+In general, [[fibrant replacement]] cannot be avoided, even in the case of a [[proper model category]].  See [[homotopy coproduct]] for an example.
+
 ## Examples
 
 \begin{example}
