@@ -37,6 +37,8 @@ Thus, it is beneficial to be able to define a $\sigma$-frame of propositions $\S
 
 ## Definition
 
+### With a family of types
+
 A **$\sigma$-frame of propositions** consists of 
 
 * a type $\Sigma$ 
@@ -53,9 +55,29 @@ A **$\sigma$-frame of propositions** consists of
 
 * a function $V:(\mathbb{N} \to \Sigma) \to \Sigma$ such that for all sequences $f:\mathbb{N} \to \Sigma$, $T(V(f)) \simeq \exists n:\mathbb{N}.T(f(n))$
 
+### With a type and a function
+
+A **$\sigma$-frame of propositions** consists of 
+
+* a type $\Sigma$ and a type $T$ 
+
+* an [[embedding of types]] $t:T \to \Sigma$, 
+
+* satisfying the [[univalence axiom]]: for each element $P:\Sigma$ and $Q:\Sigma$, we have an equivalence of types between the identity type $P =_\Sigma Q$ and the [[type of equivalences]] between the [[fiber]] of $t$ at $P$ and the [[fiber]] of $t$ at $Q$, where the [[fiber]] of $t$ at $P$ is given by the type $\sum_{x:T} t(x) =_\Sigma P$. Note that each fiber of $t$ is a [[subsingleton]] because $t$ is an embedding. 
+
+* an element $\top:\Sigma$ such that the fiber of $t$ at $\top$ is an [[singleton]] or [[contractible type]]
+
+* a function $(-)\wedge(-):\Sigma \times \Sigma \to \Sigma$ such that for all $P:\Sigma$ and $Q:\Sigma$, the fiber of $t$ at $P \wedge Q$ is equivalent to the product of the fiber of $t$ at $P$ and the fiber of $t$ at $Q$. 
+
+* an element $\bot:\Sigma$ such that fiber of $t$ at $\bot$ is the empty type
+
+* a function $(-)\vee(-):\Sigma \times \Sigma \to \Sigma$ such that for all $P:\Sigma$ and $Q:\Sigma$, the fiber of $t$ at $P \vee Q$ is equivalent to the (-1)-truncated binary sum of the fiber of $t$ at $P$ and the fiber of $t$ at $Q$.
+
+* a function $V:(\mathbb{N} \to \Sigma) \to \Sigma$ such that for all sequences $f:\mathbb{N} \to \Sigma$, the fiber of $t$ at $V(f)$ is equivalent to the (-1)-truncated dependent sum of the sequence of fibers of $t$ at $f(n)$. 
+
 ## Examples
 
-* The [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] is the initial $\sigma$-frame of propositions. 
+* The type of [[Sierpinski semi-decidable propositions]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] of [[propositions]]. 
 
 * The [[type of all propositions]], if it exists, is the [[terminal object|terminal]] $\sigma$-frame of propositions. 
 
