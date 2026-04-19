@@ -41,7 +41,7 @@ Given a [[countable dense linear order]] $(B, \lt_B)$ such that $B \subseteq A$ 
 
 $$l \in \prod_{a \in B} \prod_{b \in B} \left([\mathrm{OpenInt}(a,c)] \uplus [\mathrm{OpenInt}(c,b)]\right)^{[\mathrm{OpenInt}(a,b)]}$$
 
-## In dependent type theory
+### In dependent type theory
 
 In dependent type theory, given a real number $r:\mathbb{R}$, a locator on the [[Dedekind real numbers]] is a [[dependent function]] 
 
@@ -53,23 +53,43 @@ $$l:\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} [\mathrm{OpenInt}(p, q)] \to ([\ma
 
 ## Properties 
 
-* A locator is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. This is stronger than merely being a [[modulated Cauchy real number]].
+### Relation to the Cauchy real numbers
 
-* That every [[Dedekind real number]] has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
+Every [[Cauchy real number]] merely has a rational-indexed locator; that is, for each Cauchy real number, the set of its rational-indexed locators is [[inhabited]]. This is different from every [[Cauchy real number]] carrying the structure of a rational-indexed locator, which implies the weak [[limited principle of omniscience]]. This is because a rational-indexed locator is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. On the other hand, a [[Cauchy real number]] by definition merely has a [[Cauchy sequence]] with [[modulus of convergence]]; that is, for each Cauchy real number, the set of its [[Cauchy sequence]] with [[modulus of convergence]] that converge on it is [[inhabited]]. 
 
-## Principle of locators
+In addition, we have the following theorems that say under what conditions the [[Dedekind real numbers]] coincide with the [[Cauchy real numbers]]:
 
-Note: The "principle of locators" or "axiom of locators" are placeholder names for a principle or axiom which may or may not have an already existing name in the mathematics literature. 
++-- {: .num_theorem}
+###### Theorem
+The following statements are equivalent:
 
-The **principle of locators** for a set of real numbers $\mathbb{R}$ state that every real number $x:\mathbb{R}$ merely has a locator (i.e. the [[support]] of the locator has an element), and implies that the [[Cauchy real numbers]] $\mathbb{R}_C$ coincides with $\mathbb{R}$. This is true for the [[Dedekind real numbers]] $\mathbb{R}_D$ in [[classical mathematics]], as is in [[constructive mathematics]] which also uses [[countable choice]]. 
+1. The [[Dedekind real numbers]] coincide with the [[Cauchy real numbers]].
 
-However, in general constructive mathematics, while theorem 6.10.3 of [Booij 2020](#Booij20) states that a real number is a [[Cauchy real number]] if and only if it merely has a locator, not every real number is necessarily a Cauchy real number, so it is not necessarily true that every real number in a given has a locator. In that case, this principle becomes the **axiom of locators** for a set of real numbers $\mathbb{R}$, which says that every element $x:\mathbb{R}$ of the set of real numbers $\mathbb{R}$ merely has a locator, making it coincide with the [[Cauchy real numbers]]. The axiom of locators is equivalent to the order relation on the real numbers $\mathbb{R}$ being [[semi-decidable]], as both imply that $\mathbb{R}$ coincides with the Cauchy real numbers. 
+1. Every [[Dedekind real number]] $r$ merely has a rational-indexed locator.
 
-The axiom of locators for the [[Sierpinski semi-decidable]] [[Dedekind real numbers]] $\mathbb{R}_\Sigma$, constructed using [[Sierpinski semi-decidable]] [[Dedekind cuts]] $\mathbb{Q}^\Sigma \times \mathbb{Q}^\Sigma$, is equivalent to the following statements:
+1. For all [[Dedekind real numbers]] $r$, the [[proposition]] $r \gt 0$ is [[semi-decidable]].
+=--
 
-* the [[existential quantification]] of a [[sequence]] of [[semi-decidable propositions]] is a semi-decidable proposition
+This means that any of these statements can be used to make the [[Cauchy real numbers]] and [[Dedekind real numbers]] coincide with each other. This is the case in [[classical mathematics]], as is in [[constructive mathematics]] which also uses [[countable choice]]. 
 
-* the [[lattice]] of semi-decidable propositions is a [[dominance]]. 
+We can also consider the subset of [[Sierpinski semi-decidable]] [[Dedekind real numbers]] $\mathbb{R}_\Sigma$, constructed using [[Sierpinski semi-decidable]] [[Dedekind cuts]] $\mathbb{Q}^\Sigma \times \mathbb{Q}^\Sigma$. 
+
++-- {: .num_theorem}
+###### Theorem
+The following statements are equivalent:
+
+1. The [[Sierpinski semi-decidable]] [[Dedekind real numbers]] coincide with the [[Cauchy real numbers]].
+
+1. Every [[Sierpinski semi-decidable]] [[Dedekind real number]] $r$ merely has a rational-indexed locator.
+
+1. For all [[Sierpinski semi-decidable]] [[Dedekind real numbers]] $r$, the [[proposition]] $r \gt 0$ is [[semi-decidable]].
+
+1. The [[existential quantification]] of a [[sequence]] of [[semi-decidable propositions]] is a semi-decidable proposition.
+
+1. The [[lattice]] of semi-decidable propositions is a [[dominance]], the [[Rosolini dominance]]. 
+=--
+
+This means that any of these statements can be used to make the [[Cauchy real numbers]] and [[Sierpinski semi-decidable]] [[Dedekind real numbers]] coincide with each other. 
 
 ## Related concepts
 
@@ -85,6 +105,3 @@ The axiom of locators for the [[Sierpinski semi-decidable]] [[Dedekind real numb
 * [[Steve Vickers]], *Locators point-free* ([pdf](https://www.cs.bham.ac.uk//~sjv/locatorsPF.pdf))
 
 [[!redirects locators]]
-
-[[!redirects principle of locators]]
-[[!redirects axiom of locators]]
