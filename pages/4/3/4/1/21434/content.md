@@ -13,14 +13,17 @@ in presence of additional structures such as [[model structures]].
 
 In any [[model category]], the homotopy coproduct
 of a family of objects $\{A_i\}_{i\in I}$
-can be computed by [[cofibrantly replacing]] each $A_i$
+can be computed by [[cofibrant replacement|cofibrantly replacing]] each $A_i$
 and computing the (ordinary) [[coproduct]]
 of the resulting family $\{QA_i\}_{i\in I}$ of [[cofibrant replacements]].
 
 If [[weak equivalences]] are closed under small [[coproducts]],
 then homotopy coproducts can be computed as ordinary coproducts,
-because the map $\coprod_{i\in I}QA_i\to \coprod_{i\in I}A_i$
-is a [[weak equivalence]].
+because the map $\coprod_{i\in I}QA_i\to \coprod_{i\in I}A_i$ is a [[weak equivalence]].
+
+In general, [[cofibrant replacement]] cannot be avoided, even in the case of a [[proper model category]].  For example, the model structure on [[simplicial commutative rings]] transferred along the forgetful functor to [[simplicial sets]] is proper, but the canonical map
+$$Q A \sqcup Q B \to A \sqcup B$$
+from the homotopy coproduct to the coproduct is not a weak equivalence if $A=B=\mathbf{Z}/2$, since the left side computes $Tor(A,B)$, which has nontrivial higher homotopy groups.
 
 ## Examples
 
