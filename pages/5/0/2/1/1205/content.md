@@ -1,41 +1,84 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
+
+
+\tableofcontents
+
 ## Definition
 
-Given a field $k$ and two $k$-[[bialgebra]]s $A$ and $B$ with [[Hopf pairing]] $\lt, \gt : A\otimes B\to k$, one defines a left [[Hopf action]] $\blacktriangleright$ of $B$ on $A$ by formulas
+Given a [[field]] $k$ and a [[pair]] $A$, $B$ of  $k$-[[bialgebras]] with [[Hopf pairing]] 
+
 $$
-b\blacktriangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \tau\Delta_A(a))
+  \langle - , - \rangle 
+  \;\colon\; 
+  B \otimes A 
+   \longrightarrow 
+  k
+  \mathrlap{\,,}
+$$ 
+
+one defines a left [[Hopf action]] $\blacktriangleright$ of $B$ on $A$ by the formulas
 $$
-The __Heisenberg double__ corresponding to these data is the [[crossed product algebra]] (Hopf algebraic "smash product") $A\sharp B$ associated to the Hopf action $\blacktriangleright$. 
+  b \blacktriangleright a 
+   \coloneqq 
+  \sum 
+  \big\langle b, a_{(2)} \big\rangle a_{(1)}
+    \coloneqq 
+  \big(
+     \langle-,-\rangle \otimes \id
+  \big)
+  \big(
+     b\otimes \tau\Delta_A(a)
+  \big)
+  \mathrlap{\,.}
+$$
+
+The __Heisenberg double__ corresponding to this data is the [[crossed product algebra]] (Hopf algebraic "smash product") $A\sharp B$ associated to the Hopf action $\blacktriangleright$. 
 
 ## Examples
 
-The motivating example is the following: when $A = S(V)$ is the symmetric (Hopf) algebra on a finite-dimensional vector space $V$, and $B$ its algebraic dual $(S(V))^*\cong \hat{S}(V^*)$, considered as its dual topological Hopf algebra, the result is the [[Weyl algebra]] of [[regular differential operators]], completed with respect to the filtration corresponding to the degree of differential operator. If $B$ is just the finite dual of $S(V)$ which is a usual Hopf algebra, then there is no completion, of course. 
+The motivating example is the following: when $A = S(V)$ is the symmetric (Hopf) algebra on a [[finite-dimensional vector space]] $V$, and $B$ its algebraic dual $(S(V))^*\cong \hat{S}(V^*)$, considered as its dual topological Hopf algebra, the result is the [[Weyl algebra]] of [[regular differential operators]], completed with respect to the [[filtration]] corresponding to the degree of differential operator. (If $B$ is just the finite dual of $S(V)$ which is a usual Hopf algebra, then there is no completion, of course.)
 
 ## Properties
 
 If $H$ is finite-dimensional then the Heisenberg double has a structure of a [[scalar extension bialgebroid]].
 
+## Related concepts
+
+* [[Drinfeld double]]
+
 ## Literature
 
-* [[Jiang-Hua Lu]], _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __74__ (1994) 763&#8211;776.
+* [[Jiang-Hua Lu]]: _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __74__ (1994) 763-776 \[<a href="http://doi.org/10.1215/S0012-7094-94-07428-0">doi:10.1215/S0012-7094-94-07428-0</a>\]
 
-In the following paper there is an example showing that the Heisenberg double $A^*\sharp A$ has a structure of a Hopf algebroid over $A^*$; moreover $A^*$ can be replaced by any module algebra over the [[Drinfel'd double]] $D(A)$:  
+In the following paper there is an example showing that the Heisenberg double $A^*\sharp A$ has a structure of a [[Hopf algebroid]] over $A^*$; moreover $A^*$ can be replaced by any module algebra over the [[Drinfel'd double]] $D(A)$:  
 
-* [[Jiang-Hua Lu]], _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](https://doi.org/10.1142/S0129167X96000050)
+* [[Jiang-Hua Lu]]: _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__ 1 (1996) 47-70 &lbrack;[q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [doi](https://doi.org/10.1142/S0129167X96000050), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037)&rbrack;
 
-An example of an infinite dimensional analogue coming from Lie algebras is treated in 
+An example of an infinite dimensional analogue coming from Lie algebras:
 
-* S. Meljanac, [[Z. Škoda]], _Lie algebra type noncommutative phase spaces are Hopf algebroids_, [arxiv:1409.8188](https://arxiv.org/abs/1409.8188)
+* S. Meljanac, [[Z. Škoda]]: _Lie algebra type noncommutative phase spaces are Hopf algebroids_ &lbrack;[arxiv:1409.8188](https://arxiv.org/abs/1409.8188)&rbrack;
 
-which partly refers to the following earlier paper (which however neglects the issues related to completions, and has some expositional errors)
+which partly refers to the following earlier paper (which however neglects the issues related to completions, and has some expositional errors):
 
-* [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845--4854, [arXiv:0909.3769](https://arxiv.org/abs/0909.3769), [doi](https://doi.org/10.1142/S0217751X11054772) 
+* [[Zoran Škoda]]: _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845--4854 &lbrack;[arXiv:0909.3769](https://arxiv.org/abs/0909.3769), [doi:10.1142/S0217751X11054772](https://doi.org/10.1142/S0217751X11054772)&rbrack; 
 
 The canonical element in the Heisenberg double satisfies a [[pentagon relation]], which is a version of pentagon relation for [[multiplicative unitaries]] of Baaj-Skandalis.  Kashaev has explained the pentagon relations for quantum [[dilogarithm]] as coming from the pentagon for the canonical element in the double.
 
 * R.M. Kashaev, _Heisenberg double and the pentagon relation_, St. Petersburg Math. J. 8 (1997) 585--592 [q-alg/9503005](https://arxiv.org/abs/q-alg/9503005).
+
 * [[Gigel Militaru]], _Heisenberg double, pentagon equation, structure and classification of finite-dimensional Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44--64 ([doi](https://doi.org/10.1112/S0024610703004897)).
 
-Miscellaneous articles on Heisenberg doubles
+Miscellaneous articles on Heisenberg doubles:
 
 * F. Panaite, _Doubles of (quasi) Hopf algebras and some examples of quantum groupoids and vertex groups related to them_, [math.QA/0101039](https://arxiv.org/abs/math/0101039)
 
