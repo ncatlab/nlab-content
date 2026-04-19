@@ -33,7 +33,7 @@ Given a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Sigma \s
 
 ### In dependent type theory
 
-Let $(\Sigma, T)$ be a [[lattice of propositions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
+Let $(\Sigma, T)$ be a [[type of propositions]] that is closed under finite [[conjunctions]] and [[disjunctions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
 
 ## Examples
 
@@ -53,7 +53,7 @@ Let $(\Sigma, T)$ be a [[lattice of propositions]]. An [[Archimedean ordered fie
 
 ## References
 
-Archimedean ordered fields admissible for $\Sigma$ are defined in section 11.2.3 of:
+Archimedean ordered fields admissible for a $\sigma$-frame $\Sigma$ are defined in section 11.2.3 of:
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
