@@ -67,7 +67,7 @@ The following statements are equivalent:
 
 1. Every [[Dedekind real number]] $r$ merely has a rational-indexed locator.
 
-1. For all [[Dedekind real numbers]] $r$, the [[proposition]] $r \gt 0$ is [[semi-decidable]].
+1. The order relation $\lt$ on the [[Dedekind real numbers]] is [[semi-decidable]].
 =--
 
 This means that any of these statements can be used to make the [[Cauchy real numbers]] and [[Dedekind real numbers]] coincide with each other. This is the case in [[classical mathematics]], as is in [[constructive mathematics]] which also uses [[countable choice]]. 
@@ -82,7 +82,7 @@ The following statements are equivalent:
 
 1. Every [[Sierpinski semi-decidable]] [[Dedekind real number]] $r$ merely has a rational-indexed locator.
 
-1. For all [[Sierpinski semi-decidable]] [[Dedekind real numbers]] $r$, the [[proposition]] $r \gt 0$ is [[semi-decidable]].
+1. The order relation $\lt$ on the [[Sierpinski semi-decidable]] [[Dedekind real numbers]] is [[semi-decidable]].
 
 1. The [[existential quantification]] of a [[sequence]] of [[semi-decidable propositions]] is a semi-decidable proposition.
 
