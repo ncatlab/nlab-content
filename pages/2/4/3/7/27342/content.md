@@ -23,25 +23,27 @@
 
 \tableofcontents
 
+## Idea
+
+In [[constructive mathematics]], not every proposition is a [[boolean]], which means that there is a hierarchy of [[subobject|sub]][[lattices]] $\Sigma$ of the [[frame of truth values]] $\Omega$ in which the [[pseudo-order]] relation of an [[Archimedean ordered field]] might take values in. 
+
 ## Definition
 
-### In set theory
-
-Given a [[subobject|sub]]-[[sigma-frame|$\sigma$-frame]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, an [[Archimedean ordered field]] $F$ is **$\Sigma$-admissible** if and only if there is a function $(-) \lt_\Sigma (-):F \times F \to \Sigma$ such that $(x \lt_\Sigma y) = \top$ if and only if $x \lt y$. 
+Given a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, an [[Archimedean ordered field]] $F$ is **$\Sigma$-admissible** if and only if there is a function $(-) \lt_\Sigma (-):F \times F \to \Sigma$ such that $(x \lt_\Sigma y) = \top$ if and only if $x \lt y$. 
 
 ### In dependent type theory
 
-Let $(\Sigma, T)$ be a [[sigma-frame of propositions|$\sigma$-frame of propositions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
+Let $(\Sigma, T)$ be a [[lattice of propositions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
 
-## Properties
+## Examples
 
-For any given $\sigma$-frame of propositions $(\Sigma, T)$, 
+* Every discrete Archimedean ordered field is admissible for the set of [[booleans]] $\mathbb{2}$. 
 
-* The [[initial object|initial]] Archimedean ordered field which is admissible for $\Sigma$ is the ordered field of [[rational numbers]]. 
+* The [[Cauchy real numbers]] is admissible for the set of [[semi-decidable propositions]] $\Sigma_0^1$, and is in fact the [[terminal object|terminal]] Archimedean ordered field which is admissible for $\Sigma_0^1$. 
 
-* The [[terminal object|terminal]] Archimedean ordered field which is admissible for $\Sigma$ is the ordered field of two-sided $\Sigma$-[[Dedekind real numbers]], which are constructed out of the [[Dedekind cuts]] valued in $\Sigma$. 
+* Given a $\sigma$-frame of propositions $\Sigma$, the ordered field $\mathbb{R}_\Sigma$ of two-sided [[Dedekind real numbers]] constructed out of the [[Dedekind cuts]] valued in $\Sigma$ is $\Sigma$-admissible, and is in fact [[terminal object|terminal]] Archimedean ordered field which is admissible for $\Sigma$. 
 
-* Assuming the [[limited principle of omniscience]], the [[boolean domain]] $\mathbb{2}$ is a $\sigma$-frame of propositions, which means that every [[discrete field|discrete]] [[Archimedean ordered field]] is admissible for the [[boolean domain]]. In addition, assuming [[LPO]], the [[Cauchy real numbers]], [[HoTT book real numbers]], and the lower, upper, and two-sided $\mathbb{2}$-[[Dedekind real numbers]] are all $\mathbb{2}$-admissible Archimedean ordered fields. 
+* Assuming the [[limited principle of omniscience]], the [[Cauchy real numbers]], [[HoTT book real numbers]], and the lower, upper, and two-sided $\mathbb{2}$-[[Dedekind real numbers]] are all $\mathbb{2}$-admissible Archimedean ordered fields. 
 
 ## Related concepts
 
