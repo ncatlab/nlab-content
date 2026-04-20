@@ -14,7 +14,7 @@
 =--
 =--
 
-> Not to be confused with *[[MString]]*.
+> Not to be confused with the [[Thom spectrum]] *[[MString]]*.
 
 #Contents#
 * table of contents
@@ -43,6 +43,9 @@ See at _[[M-string elliptic genus]]_.
 ## Related concepts
 
 * [[self-dual string]]
+
+* [[open membrane theory]]
+
 
 [[!include brane bound states -- table]]
 
