@@ -14,6 +14,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -31,8 +32,9 @@ The corresponding decoupling limit should hence be a *noncommutative open membra
 ## Properties
 
 ### Parellel/dissolved M2-branes
+ {#ParallelDissolvedM2Branes}
 
-In this OM theory limit, the angle vanishes between the [[M2-brane]] and the [[M5-brane]] that it intersects ([Berman & Sundell 2000 §3](#BermanSundell2000), [Michishita 2000 p 9](#Michishita2009)), making the M2-branes be parallel (lie entirely inside, be *dissolved* into) the M5 brane (not just their boundary [[M-strings]]).
+In this OM theory limit, the angle vanishes between the [[M5-brane]] and the open [[M2-brane]] that ends on it ([Berman & Sundell 2000 §3](#BermanSundell2000), [Michishita 2000 p 9](#Michishita2009)), making the M2-branes be parallel (lie entirely inside, be *dissolved* into) the M5 brane (not just their boundary [[M-strings]]). Cf. also [Hanazawa & Sakaguchi 2018 §4.1](#HanazawaSakaguchi2018).
 
 ## Related concepts
 
@@ -42,6 +44,9 @@ In this OM theory limit, the angle vanishes between the [[M2-brane]] and the [[M
 
 ## References
 
+### NCOS Theory
+ {#ReferencesNCOSTheory}
+
 The original observation of [[effective field theory|effective]] [[noncommutative geometry]] seen by [[open strings]] ending on [[D-branes]] with constant [[B-field]] [[gauge potential]]:
 
 * {#ChuHo1999} [[Chong-Sun Chu]], [[Pei-Ming Ho]]: *Noncommutative Open String and D-brane*, Nucl. Phys. B **550** (1999) 151-168 \[<a href="https://doi.org/10.1016/S0550-3213(99)00199-6">doi:10.1016/S0550-3213(99)00199-6</a>, [arXiv:hep-th/9812219](https://arxiv.org/abs/hep-th/9812219)\]
@@ -50,8 +55,6 @@ The original observation of [[effective field theory|effective]] [[noncommutativ
 
 
 * [[Chong-Sun Chu]], [[Pei-Ming Ho]]: *Constrained Quantization of Open String in Background $B$ Field and Noncommutative D-brane*, Nuclear Physics B **568** 1–2 (2000) 447-456 \[<a href="https://doi.org/10.1016/S0550-3213(99)00685-9">doi:10.1016/S0550-3213(99)00685-9</a>, [arXiv:hep-th/9906192](https://arxiv.org/abs/hep-th/9906192)\]
-
-
 
 
 * {#SeibergWitten1999} [[Nathan Seiberg]], [[Edward Witten]]: *String Theory and Noncommutative Geometry*, Journal of High Energy Physics, **1999** JHEP09 (1999) \[<a href="https://doi.org/10.1088/1126-6708/1999/09/032">doi:10.1088/1126-6708/1999/09/032</a>, [arXiv:hep-th/9908142](https://arxiv.org/abs/hep-th/9908142)\]
@@ -71,7 +74,15 @@ Further discussion:
 * J. G. Russo, [[Mohammad Sheikh-Jabbari]]: *On Noncommutative Open String Theories*, Journal of High Energy Physics **2000** JHEP07 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/07/052">doi:10.1088/1126-6708/2000/07/052</a>, [arXiv:hep-th/0006202](https://arxiv.org/abs/hep-th/0006202)\]
 
 
-The *OM theory* lift of NCOS to [[M-theory]]:
+### OM Theory
+ {#ReferencesOMTheory}
+
+Precursor discussion:
+
+* Mohsen Alishahiha, [[Yaron Oz]], [[Mohammad Sheikh-Jabbari]]: *Supergravity and Large $N$ Noncommutative Field Theories*, Journal of High Energy Physics **1999** JHEP11 (1999) \[<a href="https://doi.org/10.1088/1126-6708/1999/11/007">doi:10.1088/1126-6708/1999/11/007</a>, [arXiv:hep-th/9909215](https://arxiv.org/abs/hep-th/9909215)\]
+
+
+The original discussion of the *OM theory* lift of NCOS to [[M-theory]]:
 
 * {#BergshoeffBermanVdSchaarSundell2000} [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
 
@@ -87,6 +98,14 @@ Further discussion:
 * {#BermanSundell2000} [[David S. Berman]], [[Per Sundell]]: *Flowing from a noncommmutative (OM) five brane via its supergravity dual*, Journal of High Energy Physics **2000** JHEP10 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/10/014">doi:10.1088/1126-6708/2000/10/014</a>, [arXiv:hep-th/0007052](https://arxiv.org/abs/hep-th/0007052)\]
 
 * Shoichi Kawamoto, Naoki Sasakura: *Open membranes in a constant $C$-field background and noncommutative boundary strings*, Journal of High Energy Physics **2000** JHEP 07(2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/07/014">doi:10.1088/1126-6708/2000/07/014</a>, [arXiv:hep-th/0005123](https://arxiv.org/abs/hep-th/0005123)\]
+
+* [[Ulf Gran]]: *OM  theory*, section 8.3 of: *The Quest for M-theory*, PhD thesis, G&ouml;teborg (2001) &lbrack;[pdf](https://fy.chalmers.se/~tfebn/GranPhDthesis.pdf), [[Gran-QuestForMTheory.pdf:file]]&rbrack;
+
+* Sergei Barakin, [[Kirill Gubarev]], [[Edvard T. Musaev]]: *Membranes: OM theory*, section 3 in: *Brane bound states, deformations and OM*, Eur. Phys. J. C **86** (2026) 229 \[<a href="https://doi.org/10.1140/epjc/s10052-026-15435-3">doi:10.1140/epjc/s10052-026-15435-3</a>, [arXiv:2511.18899](https://arxiv.org/abs/2511.18899)\]
+
+* {#HanazawaSakaguchi2018} Sota Hanazawa, Makoto Sakaguchi: *Non-commutative M5-brane*, section 4.1 in: *Non-commutative M-branes from Open Pure Spinor Supermembrane*, Nuclear Physics B **927** (2018) 566-578 \[<a href="https://doi.org/10.1016/j.nuclphysb.2018.01.003">doi:10.1016/j.nuclphysb.2018.01.003</a>, [arXiv:1709.03711](https://arxiv.org/abs/1709.03711)\]
+  > (via [[pure spinor]] formalism)
+
 
 
 Review:
