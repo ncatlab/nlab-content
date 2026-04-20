@@ -43,6 +43,8 @@ There is
 
 ## Related entries
 
+* [[noncommutative open string theory]]
+
 * [[relativistic particle]]
 
 * [[relativistic string]]
