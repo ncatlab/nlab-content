@@ -14,9 +14,7 @@
 =--
 
 
-# Contents
-* table of contents 
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -232,8 +230,6 @@ With the advent of [[Higher Topos Theory]] abstract concepts of _space and quant
 * [[Isbell duality]]
 
 * [[Stone gamut]]
-
-* [[commune]]
 
 * [[space]]
 
