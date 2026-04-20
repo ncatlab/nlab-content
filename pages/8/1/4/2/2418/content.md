@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,7 +32,7 @@ Previous:
 
 * [[Axiomatic field theories and their motivation from topology]].
 
-* [[(1,1)-dimensional Euclidean field theories and K-theory]]
+* [[(1,1)-dimensional Euclidean field theories and K-theory|$(1\vert 1)$-dimensional Euclidean field theories and K-theory]]
 
 
 recall the big diagram from the end of the [[(1,1)-dimensional Euclidean field theories and K-theory|previous entry]].
@@ -185,3 +186,5 @@ A hint supporting the conjectured relation of [[2d SCFT]] to [[tmf]], vaguely in
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
+
+[[!redirects (2,1)-dimensional Euclidean field theories and tmf]]
