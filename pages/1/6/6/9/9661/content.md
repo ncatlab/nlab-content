@@ -20,10 +20,15 @@
 ## Algebraic geometry
 
 * [[noncommutative algebraic geometry]]
+
 * [[noncommutative scheme]]
+
 * [[noncommutative motive]]
+
 * [[quantum flag variety]]
+
 * [[quantum Schubert cell]]
+
 
 ## Homotopy theory
 
@@ -34,6 +39,7 @@
   * [[homotopical structure on C*-algebras]]
 
 * [[KK-theory]], [[E-theory]]
+
 * [[cyclic homology]]
 
 ## Relation to physics
@@ -43,5 +49,9 @@
 * [[algebra of observables]], [[local net of observables]]
 
 * [[Bohr topos]]
+
+* [[noncommutative quantum field theory]]
+
+* [[noncommutative open string theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/noncommutative+geometry+-+contents)</div>
