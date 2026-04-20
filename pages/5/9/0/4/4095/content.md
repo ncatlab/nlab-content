@@ -56,7 +56,7 @@ For [[categories]] $A,B,C$, the following types are [[equivalent]]:
 \end{lemma}
 
 \begin{proof}
-Given $F : A \times B \to C$, for any $a:A$ we obviously have a functor $F_a : B \to C$. This gives a function $A_0 \to (C^B)_0$. Next, for any $f: hom_A(a,a')$, we have for any $b:B$ the morphisms $F_{(a,b),(a',b')}(f,1_b):F_a(b) \to F_{a'}(b)$. 
+Given $F : A \times B \to C$, for any $a:A$ we obviously have a functor $F_a : B \to C$. This gives a function $A_0 \to (C^B)_0$. Next, for any $f: hom_A(a,a')$, we have for any $b:B$ the morphisms $F_{(a,b),(a',b)}(f,1_b):F_a(b) \to F_{a'}(b)$. 
 
 These are the components of a [[natural transformation]] $F_a \to F_{a'}$. Functoriality in $a$ is easy to check, so we have a functor $\hat{F} : A \to C^B$.
 
