@@ -7,11 +7,17 @@
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=116827)
 
+
 ## Selected writings
+
+On [[noncommutative field theory]] ([[QFT on noncommutative spacetimes]]):
+
+* [[Richard Szabo]]: _Quantum Field Theory on Noncommutative Spaces_, Physics Reports **378** 4 (2003) 207-299 \[<a href="https://doi.org/10.1016/S0370-1573(03)00059-0">doi;10.1016/S0370-1573(03)00059-0</a>, [arXiv:hep-th/0109162](http://arxiv.org/abs/hep-th/0109162)\]
+
 
 On [[Donaldson-Thomas theory]] and [[Hilbert schemes]]:
 
-* Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
+* Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B **809** 452-518 (2009) &lbrack;[arXiv:0803.4188](https://arxiv.org/abs/0803.4188)&rbrack;
 
 
 On abelian [[higher gauge theory]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]]:
