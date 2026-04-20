@@ -1,6 +1,8 @@
 
 
-* [webpage](https://www.tdejong.com/)
+* [personal page](https://www.tdejong.com/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=bcyoIN8AAAAJ&hl=en)
 
 
 ## Selected writings and talks
