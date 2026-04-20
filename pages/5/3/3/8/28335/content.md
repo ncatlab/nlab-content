@@ -28,11 +28,17 @@ At least for open strings on [[D4-branes]], this NCOS has a lift to [[M-theory]]
 
 The corresponding decoupling limit should hence be a *noncommutative open membrane theory* and as such ought to be abbreviated *NCOM* but has come to be known just as "OM theory" ([GMSS'00](#GopakumarMinwallaSeibergStrominger2000), apparently for the sake of [the pun](https://en.wikipedia.org/wiki/Om)).
 
-Incidentally, in this limit the angle vanishes between the [[M2-brane]] and the [[M5-brane]] that it intersects ([Michishita 2000 p 9](#Michishita2009)), making the M2-brane lie entirely inside the M5 (not just its boundary [[M-string]]).
+## Properties
+
+### Parellel/dissolved M2-branes
+
+In this OM theory limit, the angle vanishes between the [[M2-brane]] and the [[M5-brane]] that it intersects ([Berman & Sundell 2000 §3](#BermanSundell2000), [Michishita 2000 p 9](#Michishita2009)), making the M2-branes be parallel (lie entirely inside, be *dissolved* into) the M5 brane (not just their boundary [[M-strings]]).
 
 ## Related concepts
 
-* [[ Nambu-Poisson M5-brane model]]
+* [[Nambu-Poisson M5-brane model]]
+
+* [[M-string]], [[self-dual string]]
 
 ## References
 
@@ -78,6 +84,11 @@ Further discussion:
 * J. Antonio Garcia, Alberto Guijosa, J. David Vergara: *A Membrane Action for OM Theory*, Nuclear Physics B
 **630** 1–2 (2002) 178-202 \[<a href="https://doi.org/10.1016/S0550-3213(02)00175-X">doi:10.1016/S0550-3213(02)00175-X</a>, [arXiv:hep-th/0201140](https://arxiv.org/abs/hep-th/0201140)\]
 
+* {#BermanSundell2000} [[David S. Berman]], [[Per Sundell]]: *Flowing from a noncommmutative (OM) five brane via its supergravity dual*, Journal of High Energy Physics **2000** JHEP10 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/10/014">doi:10.1088/1126-6708/2000/10/014</a>, [arXiv:hep-th/0007052](https://arxiv.org/abs/hep-th/0007052)\]
+
+* Shoichi Kawamoto, Naoki Sasakura: *Open membranes in a constant $C$-field background and noncommutative boundary strings*, Journal of High Energy Physics **2000** JHEP 07(2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/07/014">doi:10.1088/1126-6708/2000/07/014</a>, [arXiv:hep-th/0005123](https://arxiv.org/abs/hep-th/0005123)\]
+
+
 Review:
 
 * [[Pei-Ming Ho]]: *A Concise Review on M5-brane in Large C-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445](https://arxiv.org/abs/0912.0445)&rbrack;
@@ -92,7 +103,9 @@ and tentatively relating this to [[geometric engineering of QFT|engineering]] of
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
 
-On the M2/M5-brane interaction angle, generally and in the OM theory limit (where the M2 lies inside the M5):
+On the M2/M5-brane interaction angle, generally and in the OM theory limit, where the M2 is parallel to (lies inside, "dissolves" into) the M5
+
+* [Berman & Sundell 2000 §3](#BermanSundell2000) 
 
 * {#Michishita2009} Yoji Michishita; p. 9 of: *The M2-brane Soliton on the M5-brane with Constant 3-Form*, Journal of High Energy Physics **2000** JHEP09 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/09/036">doi:10.1088/1126-6708/2000/09/036</a>, [arXiv:hep-th/0008247](https://arxiv.org/abs/hep-th/0008247)\]
 
