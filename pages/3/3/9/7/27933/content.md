@@ -124,7 +124,7 @@ Monographs on [[category theory]]:
 
 * {#RiehlCTInContext} [[Emily Riehl]]L _[[Category Theory in Context]]_, Dover Publications (2017) \[<a href="https://store.doverpublications.com/products/9780486809038">ISBN:https://store.doverpublications.com/products/9780486809038</a>, [pdf](https://emilyriehl.github.io/files/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)\]
 
-* [[Martin Brandenburg]], *Einführung in die Kategorientheorie*, Springer (2017) \[<a href="https://link.springer.com/book/10.1007/978-3-662-53521-9">doi:10.1007/978-3-662-53521-9</a>\]
+* [[Martin Brandenburg]]: *Einführung in die Kategorientheorie*, Springer (2017) \[<a href="https://link.springer.com/book/10.1007/978-3-662-53521-9">doi:10.1007/978-3-662-53521-9</a>\]
 
 * {#FongSpivak18} [[Brendan Fong]], [[David Spivak]]: _An invitation to applied category theory_ (2018) \[<a href="https://doi.org/10.1017/9781108668804">doi:10.1017/9781108668804</a>, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316), [web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf)\]
 
@@ -224,9 +224,10 @@ Discussion of the relation to and motivation from the [[philosophy of mathematic
 
 *  [[Colin McLarty]]: _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. (2007) \[<a href="http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf">pdf</a>\] 
 
-
 \subsection{Further resources and links}
  {#ReferencesCategoryTheoryFurtherResources}
+
+* [[Martin Brandenburg]]: *CatDat -- A comprehensive database of categories and their properties* \[<a href="https://catdat.app">catdat.app</a>\]
 
 * _[[networks of category theorists]]_.
 
