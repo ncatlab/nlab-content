@@ -1,7 +1,11 @@
 
 Rodolfo Russo is reader in theoretical [[physics]] at Queen Mary College, London.
 
-* [webpage](http://strings.ph.qmul.ac.uk/directory/r.russo)
+* [institute page](https://www.qmul.ac.uk/maths/profiles/rrusso.html)
+
+* [inSpire page](https://inspirehep.net/authors/990895)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Rodolfo-Russo-7008062)
 
 ## Selected writings
 
