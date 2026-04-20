@@ -421,4 +421,4 @@ $$
 
 * [[Stefan Stolz]], [[Peter Teichner]]: _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
-
+* [[Peter Ulrickson]], _Supersymmetric Euclidean Field Theories and K-theory_, Journal of Geometry and Physics 161 (2021), 104015.  [arXiv](https://arxiv.org/abs/1901.02110), [doi](https://doi.org/10.1016/j.geomphys.2020.104015).
