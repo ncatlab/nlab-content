@@ -136,9 +136,9 @@ On [[Poisson n-algebra|Poisson $n$-algebra]] [[structures]] on Chevalley-Eilenbe
 
 * Cameron Kemp, Robert Laugwitz, [[Alexander Schenkel]]: *Shifted Poisson structures on higher Chevalley-Eilenberg algebras*, Lett. Math. Phys. **116** 19 (2026) &lbrack;[arXiv:2412.12804](https://arxiv.org/abs/2412.12804), [doi:10.1007/s11005-026-02053-z](https://doi.org/10.1007/s11005-026-02053-z)&rbrack;
 
-On an [[duality in physics|equivalence]] between [[AQFT]] and [[FQFT]]:
+On an [[duality in physics|equivalence]] [[relation between algebraic and functorial field theory -- references|between]] [[AQFT]] and [[FQFT]]:
 
-* [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *An equivalence theorem for algebraic and functorial QFT* &lbrack;[arXiv:2504.15759](https://arxiv.org/abs/2504.15759)&rbrack;
+* [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]]: *An equivalence theorem for algebraic and functorial QFT* &lbrack;[arXiv:2504.15759](https://arxiv.org/abs/2504.15759)&rbrack;
 
 
 ## Related entries
