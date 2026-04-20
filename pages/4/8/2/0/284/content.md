@@ -373,7 +373,7 @@ For discussion in [[homotopy type theory]] see _[[internal category in homotopy 
 
 An introduction to [[higher category theory]] through $(\infty,1)$-categories:
 
-* [[Omar Antolín-Camarena]]: *A whirlwind tour of the world of $(\infty,1)$-categories*, in: *Mexican Mathematicians Abroad: Recent Contributions*, Contemporary Mathematics **657**, AMS (2016) &lbrack;[arXiv:1303.4669](http://arxiv.org/abs/1303.4669), [ams:conm/657](https://www.ams.org/books/conm/657)&rbrack;
+* [[Omar Antolín-Camarena]]: *A whirlwind tour of the world of $(\infty,1)$-categories*, in: *Mexican Mathematicians Abroad: Recent Contributions*, Contemporary Mathematics **657**, AMS (2016) &lbrack;[arXiv:1303.4669 math.CT](http://arxiv.org/abs/1303.4669), [ams:conm/657](https://www.ams.org/books/conm/657)&rbrack;
 
 Elementary exposition with an eye towards [[homotopy type theory]]:
 
