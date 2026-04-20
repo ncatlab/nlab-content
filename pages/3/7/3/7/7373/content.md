@@ -51,5 +51,9 @@ On [[tensor category]]-theory for [[algebraic geometry]]:
 * Tensor categorical foundations of algebraic geometry, PhD thesis, University of M&#252;nster, 2014, [arXiv](http://arxiv.org/abs/1410.1716)
 
   > Errata for PhD thesis: The reflectors in 5.8.17, 5.8.18, 5.8.20, 5.8.21, 5.10.6 are not correct in general and should be removed.
+
+## Other Projects
+
+* [CatDat](https://catdat.app), A comprehensive and searchable database of categories and their properties
  
 category: people
