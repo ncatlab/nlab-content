@@ -13,9 +13,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -60,22 +60,6 @@ for all $v, w \in V$ ([Grassmann 1844, &#167;37, &#167;55](#Grassmann1844)).  If
 
 The exterior algebra of a vector space is also called the **Grassmann algebra** or **alternating algebra**.  It is also denoted $\bigwedge V$, $\bigwedge^\bullet V$, or $Alt V$.
 
-Suppose $d= \dim V \lt \infty$. For $p\gt d$ it holds that $\Lambda^{p}V=\{ 0 \}$.  
-This is because
-$$
-\begin{aligned}
-v_{1} \wedge \cdots \wedge v_{p} 
-&= \sum_{n_{1}=1}^{d} \lambda^{1}_{n_{1}} e_{n_{1}} \wedge \cdots \wedge \sum_{n_{p}=1}^{d} \lambda^{p}_{n_{p}} e_{n_{p}} \\
-&= \sum_{n_{1}=1}^{d} \dots \sum_{n_{p}=1}^{d} \lambda^{1}_{n_{1}} \dots \lambda^{p}_{n_{p}}  e_{n_{1}}\wedge \cdots \wedge e_{n_{p}}
-\end{aligned}
-$$
-and $\forall j:e_{j} \wedge e_{j}=0$.
-
-Therefore the dimension of the exterior algebra is
-$$
-\dim \Lambda V = \sum_{k=1}^{d} \binom{d}{k} = 2^{d} - 1
-$$
-
 
 ### In general
 
@@ -104,6 +88,62 @@ $$  \Lambda V = \bigoplus_{n \ge 0} \Lambda^n V $$
 becomes a monoid object called the **exterior algebra** of $V$.
 
 If $C$ is a linear category over a field of positive characteristic (or more generally, over a [[commutative ring]] in which not every positive integer is invertible, that is which is not itself an [[associative algebra|algebra]] over the [[rational numbers]]), then we need a different construction of $\Lambda^n V$; we define ... (please complete this!).
+
+
+## Properties
+ {#Properties}
+
+Suppose that $V$ is a [[finite-dimensional vector space]] of [[dimension]] 
+$$
+  d 
+    \coloneqq 
+  \dim V 
+   \lt 
+  \infty
+  \mathrlap{\,.}
+$$ 
+For $p\gt d$ it holds that $\Lambda^{p}V=\{ 0 \}$.  
+This is because
+$$
+\begin{aligned}
+  v_{1} \wedge \cdots \wedge v_{p} 
+  &= 
+  \left(
+    \textstyle{\sum_{n_{1}=1}^{d}} 
+    \lambda^{1}_{n_{1}} e_{n_{1}} 
+  \right)
+  \wedge \cdots \wedge 
+  \left(
+    \textstyle{\sum_{n_{p}=1}^{d}} 
+    \lambda^{p}_{n_{p}} e_{n_{p}} 
+  \right)
+  \\
+  &= 
+  \textstyle{\sum_{n_{1}=1}^{d}} 
+    \dots 
+  \textstyle{\sum_{n_{p}=1}^{d}} 
+  \,
+    \lambda^{1}_{n_{1}} \dots \lambda^{p}_{n_{p}}  
+  \,
+    e_{n_{1}}\wedge \cdots \wedge e_{n_{p}}
+  \mathrlap{\,,}
+\end{aligned}
+$$
+and $\forall_j \,\colon\, e_{j} \wedge e_{j}=0$.
+
+Therefore the [[dimension]] of (the [[underlying]] [[vector space]] of) the exterior algebra is:
+\[
+  \begin{aligned}
+    \dim \Lambda V  
+      & = 
+    \textstyle{\sum_{k=0}^{d}} 
+      \binom{d}{k}
+    \\
+      & = 
+    2^{d}
+  \end{aligned}
+\]
+(where in the second line we [[sum]] over [[binomial coefficients]]).
 
 
 ## Examples
