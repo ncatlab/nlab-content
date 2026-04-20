@@ -135,7 +135,7 @@ With a view towards [[motives in physics]]:
 
 ### In string/M-theory
 
-Discussion of effective non-commutative geometry on [[M5-brane]] [[worldvolumes]] induced from a constant [[B-field]] [[flux density]]:
+Discussion of effective non-commutative geometry on [[M5-brane]] [[worldvolumes]] induced from a constant [[B-field]] [[flux density]] (cf. *[[noncommutative open string theory]]*):
 
 * [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
 
