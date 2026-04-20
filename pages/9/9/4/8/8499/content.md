@@ -1,5 +1,11 @@
 
-* [webpage](http://www.cs.nott.ac.uk/~psznk/)
+* [personal page](http://www.cs.nott.ac.uk/~psznk/)
+
+* [institute page](https://www.nottingham.ac.uk/computerscience/people/nicolai.kraus)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=271214)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=g2bTiKAAAAAJ&hl=en)
 
 ## Selected writings
 
