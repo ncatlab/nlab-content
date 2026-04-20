@@ -1,7 +1,22 @@
 
-* [webpage](http://www.ihes.fr/~nikita/)
+Nikita Alexandrovich Nekrasov
+
+* [personal page](http://www.ihes.fr/~nikita)
+
+* [inSpire page](https://inspirehep.net/authors/995909)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Nikita_Nekrasov)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=80896)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=bKV59LwAAAAJ&hl=en)
 
 ## Selected writings
+
+On [[noncommutative field theory]] ([[QFT on noncommutative spacetimes]]):
+
+* [[Michael R. Douglas]], [[Nikita A. Nekrasov]]: *Noncommutative Field Theory*, Rev. Mod. Phys. **73** 977  (2001) \[<a href="https://doi.org/10.1103/RevModPhys.73.977">doi:10.1103/RevModPhys.73.977</a>, [arXiv:hep-th/0106048](https://arxiv.org/abs/hep-th/0106048)\]
+
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
@@ -22,3 +37,5 @@ On [[Knizhnik-Zamolodchikov equations]] controlling [[codimension]]$=2$ [[defect
 
 
 category: people
+
+[[!redirects Nikita A. Nekrasov]]
