@@ -20,6 +20,10 @@
 
 The idea of generalizing [[quantum field theory]] from ordinary [[spacetimes]] to spacetimes in [[noncommutative geometry]].
 
+## Related entries
+
+* [[noncommutative open string theory]]
+
 ## References
 
 ### General
