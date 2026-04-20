@@ -1,7 +1,7 @@
 
 Michael R. Douglas
 
-* [instiute page](https://cgisvr.physics.rutgers.edu/cgi-bin/physdb/genpip.pl?Douglas)
+* [institute page](https://cgisvr.physics.rutgers.edu/cgi-bin/physdb/genpip.pl?Douglas)
 
 * [institute page](https://cmsa.fas.harvard.edu/ss_people/michael-douglas/)
 
@@ -37,6 +37,10 @@ On [[chiral fermions]] in [[intersecting D-brane models]]:
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes intersecting at angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
+On [[noncommutative field theory]] ([[QFT on noncommutative spacetimes]]):
+
+* [[Michael R. Douglas]], [[Nikita A. Nekrasov]]: *Noncommutative Field Theory*, Rev. Mod. Phys. **73** 977  (2001) \[<a href="https://doi.org/10.1103/RevModPhys.73.977">doi:10.1103/RevModPhys.73.977</a>, [arXiv:hep-th/0106048](https://arxiv.org/abs/hep-th/0106048)\]
+
 On the [[Yang-Mills mass gap]]-problem:
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
@@ -52,7 +56,7 @@ On [[F-theory on K3]]:
 
 On [[machine learning|large language models]]:
 
-* Michael R. Douglas, _Large language models_, [arXiv:2307.05782](https://arxiv.org/abs/2307.05782)
+* [[Michael R. Douglas]]: _Large language models_ &lbrack;[arXiv:2307.05782](https://arxiv.org/abs/2307.05782)&rbrack;
 
 On [[KK-compactification]] in [[string theory]]:
 
