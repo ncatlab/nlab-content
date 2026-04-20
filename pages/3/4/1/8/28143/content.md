@@ -24,6 +24,10 @@ The *Nambu-Poisson M5-brane model* (NP-M5 model, due to [Ho & Matsuo 2008](#HoMa
 
 The NP M5-model is in fact the [[BLG model]] for [[M2-branes]] on $\Sigma^{1,2}$, but with the latter's controlling [[M-brane 3-algebra]] taken to locally be the [[Nambu-Poisson bracket]] on the [[smooth functions]] over $\mathbb{R}^3$, globalized to $X^3$ by a [[gauge symmetry]] of [[volume-preserving diffeomorphisms]]. Since the vector space of [[smooth functions]] on $X^3$ is not [[finite dimensional vector space|finite-dimensional]], one interprets this construction as a kind of [[condensate|condensation]] of infinitely many [[coincident brane|coincident]] [[M2-branes]] which "polarize" into an [[M5-brane]] in an [[M-theory|M-theoretic]] version of the [[Myers effect]] (by which, ordinarily, [[D-branes|$D_{p-2}$-branes]] polarize to a [[D-brane|$D_p$-brane]] in a constant [[RR-field]] [[flux density]] [[background field|backgrounds]]).
 
+## Related concepts
+
+* [[noncommutative open string theory]]
+
 ## References
 
 [[!include NP-M5 model -- references]]
