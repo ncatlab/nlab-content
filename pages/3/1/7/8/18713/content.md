@@ -52,6 +52,10 @@ On [[connections on smooth principal infinity-bundles]] via splittings of [[L-in
 
 * [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441](https://arxiv.org/abs/2602.03441)&rbrack;
 
+On an [[duality in physics|equivalence]] between [[AQFT]] and [[FQFT]]:
+
+* [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *An equivalence theorem for algebraic and functorial QFT* &lbrack;[arXiv:2504.15759](https://arxiv.org/abs/2504.15759)&rbrack;
+
 
 
 category: people
