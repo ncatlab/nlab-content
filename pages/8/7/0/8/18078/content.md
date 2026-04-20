@@ -1,3 +1,64 @@
+
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+  \tikzset{mid->/.style={
+    decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+    postaction={decorate}
+  }}
+
+  % x coordinates
+  \def\XW{-1}
+  \def\XC{0}
+  \def\XE{1}
+
+  % y coordinates
+  \def\yO{1}   % y0 = top
+  \def\yi{0}   % y1
+  \def\yii{-1} % y2
+  \def\yiii{-2}% y3
+
+  % Quadrant fills
+  \fill[blue!15]   (\XW,\yi)  rectangle (\XC,\yO);
+  \fill[teal!20]   (\XC,\yi)  rectangle (\XE,\yO);
+  \fill[orange!20] (\XW,\yii) rectangle (\XC,\yi);
+  \fill[violet!15] (\XC,\yii) rectangle (\XE,\yi);
+  \fill[red!20]    (\XW,\yiii) rectangle (\XC,\yii);
+  \fill[orange!15] (\XC,\yiii) rectangle (\XE,\yii);
+
+  % Border
+  \draw[gray] (\XW,\yiii) rectangle (\XE,\yO);
+
+  % Nodes
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (\XC,\yi)  (alpha) {$\alpha$};
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (\XC,\yii) (beta)  {$\beta$};
+
+  % Arrows
+  \draw[line width=0.6pt] (\XW,\yi)  -- (alpha);
+  \draw[line width=0.6pt] (alpha) -- (\XE,\yi);
+  \draw[line width=0.6pt] (\XW,\yii) -- (beta);
+  \draw[line width=0.6pt] (beta)  -- (\XE,\yii);
+  \draw[mid->, line width=0.6pt] (\XC,\yO)   -- (alpha);
+  \draw[mid->, line width=0.6pt] (alpha) -- (beta);
+  \draw[mid->, line width=0.6pt] (beta)  -- (\XC,\yiii);
+
+  % Labels
+  \node[left]  at (\XW,\yi)  {$P$};
+  \node[right] at (\XE,\yi)  {$R$};
+  \node[left]  at (\XW,\yii) {$Q$};
+  \node[right] at (\XE,\yii) {$S$};
+  \node[above] at (\XC,\yO)  {$f$};
+  \node[left]  at (\XC,-0.5) {$g$};
+  \node[below] at (\XC,\yiii){$h$};
+  \node at (-0.5, 0.5) {$A$};
+  \node at ( 0.5, 0.5) {$B$};
+  \node at (-0.5,-0.5) {$C$};
+  \node at ( 0.5,-0.5) {$D$};
+  \node at (-0.5,-1.5) {$E$};
+  \node at ( 0.5,-1.5) {$F$};
+\end{tikzpicture}
+
+
+
 This can be illustrated using [[string diagrams]], as follows. The companion and conjoint of $f$ are the horizontal arrows
 
 <table>
@@ -8,6 +69,10 @@ This can be illustrated using [[string diagrams]], as follows. The companion and
   \tikzset{
     mid->/.style={
       decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
       postaction={decorate}
     }
   }
