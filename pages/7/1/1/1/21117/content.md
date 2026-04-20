@@ -146,6 +146,8 @@ In conclusion, the NISQ+QEC roadmap for achieving meaningful commercial value qu
 Of course, the initial problem at the base of this story is the instability of current qubit technology. The problem is akin to that of a bucket brigade which operates with extremely leaky buckets. In this picture, the QEC-style solution is like using ever more buckets together with sophisticated machinery that cleverly catches the leaked water only to fill it back into the buckets. 
 This analogy makes clear that an alternative strategy may be to actually fix the buckets. On the quantum technology side this corresponds to the approach of [[topological quantum computing]] (cf. [Das Sarma 2022](#DasSarma22)), where it is not runtime software redundancy that stabilizes shaky qubits, but intrinsic physical effects in topological quantum hardware. However, while such topological stabilization of quantum states and topological protection of quantum gates exists in theory (and even that theory is not well developed at this point) essentially no experience with practical engineering implementation exists to date. 
 
+* {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
+  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
 
 * {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
 
@@ -153,10 +155,11 @@ This analogy makes clear that an alternative strategy may be to actually fix the
 
 * {#riverlane2025} [riverlane](https://www.riverlane.com/): *[Quantum Error Correction](https://www.riverlane.com/quantum-error-correction)* (2025)
 
-* {#Erol2026} Volkan Erol: *[Quantum Computing is No Longer a Physics Problem. It is a Systems Engineering Nightmare](https://volkan-erol.medium.com/quantum-computing-is-no-longer-a-physics-problem-it-is-a-systems-engineering-nightmare-a1ecba474ecb)*, Medium (Jan 2026)
+* {#Erol2026} Volkan Erol: *[Quantum Computing is No Longer a Physics Problem. It is a Systems Engineering Nightmare](https://volkan-erol.medium.com/quantum-computing-is-no-longer-a-physics-problem-it-is-a-systems-engineering-nightmare-a1ecba474ecb)*, Medium (Jan 2026) &lbrack;[[Erol2026-QECProblem.pdf:file]]&rbrack;
 
-* {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
-  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
+* X. Croot et al.: *Enabling Technologies for Scalable Superconducting Quantum Computing* \[<a href="https://arxiv.org/abs/2512.15001">arXiv:2512.15001 quant-ph</a>\]
+  > "The i/o of signal between qubit and control electronics is a central bottleneck to scaling. \[...\] Many proposals for long-term fault-tolerant quantum computing require qubit numbers that are orders of magnitude greater than the capacity of available fridges, even when accounting for densification of components and reduction of thermal loads per qubit. \[...\] The qubit overheads for the best FT-QEC schemes are daunting, and the implementation of decoding on the time-scale of the quantum gates (clock cycle) remains an open challenge in many leading hardware platforms. \[...\] Systems of 100k qubits would demand large fractions of the yearly world production \[of Helium\] based on naive linear scaling."
+
 
 
 ## Example
@@ -762,6 +765,7 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 * Takaaki Kuwahara, Ryota Nasu, Gota Tanaka, Asato Tsuchiya: *Quantum error correction realized by the renormalization group in scalar field theories* &lbrack;[arXiv:2401.17795](https://arxiv.org/abs/2401.17795)&rbrack;
 
     
+
 
 [[!redirects quantum error correction code]]
 [[!redirects quantum error correction codes]]
