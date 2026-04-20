@@ -11,20 +11,21 @@ I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful i
 ## My papers
 
 1.  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_,  MFPS2023, [link](https://entics.episciences.org/paper/view/id/12290)
- 2. [[J-B Vienney|Jean-Baptiste Vienney]], _A bialgebraic characterization of symmetric powers in $\mathbb{Q}_{\ge 0}$-linear symmetric monoidal categories_, [ArXiv](https://arxiv.org/abs/2308.02094)
+2. [[J-B Vienney|Jean-Baptiste Vienney]], _A bialgebraic characterization of symmetric powers in $\mathbb{Q}_{\ge 0}$-linear symmetric monoidal categories_, [ArXiv](https://arxiv.org/abs/2308.02094)
 3. [[J-B Vienney|Jean-Baptiste Vienney]], _An algebra modality admitting countably many deriving transformations_, [ArXiv](https://arxiv.org/abs/2510.03953)
+4. [[J-B Vienney|Jean-Baptiste Vienney]], _Extracting an $\mathbb{N}$-filtered differential modality from a differential modality, [ArXiv](https://arxiv.org/abs/2604.16016)
 
-##  Work in progress and projects
+##  Work in progress, projects and ideas
 
-1. _Extracting an $\mathbb{N}$-filtered differential modality from a differential modality._ Status on 16 April 2024: submitted to the ArXiv.
+1. _Relative differential categories:_ replace the monad with a relative monad in the definition of a differential category. Status on 13 February 2024: will finish to write this after the extracting paper.
 
-2. _Relative differential categories:_ replace the monad with a relative monad in the definition of a differential category. Status on 13 February 2024: will finish to write this after the extracting paper.
+2. _Glueing an $\mathbb{N}$-filtered differential modality into a differential modality._ Status on 13 February 2024: did not start to write but I think it's going to work fine quickly.
 
-3. _Glueing an $\mathbb{N}$-filtered differential modality into a differential modality._ Status on 13 February 2024: did not start to write but I think it's going to work fine quickly.
+3. _Hasse-Schimdt differential categories:_ replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of a differential category. Status on 13 February 2024: will work on this once the extracting paper is finished. The higher-order rules from the extracting paper are needed to write down the definition of an Hasse-Schmidt differential category.
 
-4. _Hasse-Schimdt differential categories:_ replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of a differential category. Status on 13 February 2024: will work on this once the extracting paper is finished. The higher-order rules from the extracting paper are needed to write down the definition of an Hasse-Schmidt differential category.
+4. _Higher-order tangent categories:_ a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]]. Status on 13 February 2024: keeping this for later --- when I'll start to work seriously on tangent categories.
 
-5. _Higher-order tangent categories:_ a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]]. Status on 13 February 2024: keeping this for later --- when I'll start to work seriously on tangent categories.
+5. _Free divided power algebra, polynomial laws and differential categories_: Is the free divided power algebra in the symmetric monoidal category of modules over a commutative rig a differential modality? Do modules over a commutative rig and polynomial laws between them form a cartesian differential category?
 
 category: people
 
