@@ -200,9 +200,11 @@ See also:
 
 As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall systems]] (cf. *[supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)* and for more see at *[[W-infinity algebra|$W_\infty$-algebra]]*):
 
-
 * A. Cappelli, [[Carlo A. Trugenberger]], G. R. Zemba:
 *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
+
+* Chuan-Tsung Chan, Jen-Chi Lee: *Noncommutative Solitons and the $W_{1+\infty}$ Algebras in Quantum Hall Theory* \[<a href="https://arxiv.org/abs/hep-th/0107105">arXiv:hep-th/0107105</a>\]
+
 
 * [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *The effective action for edge states in higher dimensional quantum Hall systems*, Nucl. Phys. B **679** (2004) 427-446 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.11.020">doi:10.1016/j.nuclphysb.2003.11.020</a>, [arXiv:hep-th/0307281](https://arxiv.org/abs/hep-th/0307281)\]
 
