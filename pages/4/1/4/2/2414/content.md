@@ -35,14 +35,13 @@ Previous:
 
 Next
 
-* [[(2,1)-dimensional Euclidean field theories and tmf]]
-
-#Contents#
-* table of contents
-{:toc}
+* [[(2,1)-dimensional Euclidean field theories and tmf|$(2\vert 1)$-dimensional Euclidean field theories and tmf]]
 
 
-## $(1,1)d$ EFTs
+\tableofcontents
+
+
+## $(1\vert 1)d$ EFTs
 
 recall the **commercial for supergeometry**  with which we ended [[Axiomatic field theories and their motivation from topology|last time]]: the grading introduced by supergeometry makes it possible to have push-forward diagrams of the kind:
 
@@ -402,9 +401,9 @@ $$
 
 * [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
 
-* **(1,1)-dimensional Euclidean field theories and K-theory**
+* **$(1\vert 1)$-dimensional Euclidean field theories and K-theory**
   
-* [[(2,1)-dimensional Euclidean field theories and tmf]]
+* [[(2,1)-dimensional Euclidean field theories and tmf|$(2\vert 1)$-dimensional Euclidean field theories and tmf]]
 
 * [[2-spectral triple]]
 
@@ -422,3 +421,6 @@ $$
 * [[Stefan Stolz]], [[Peter Teichner]]: _Supersymmetric Euclidean field theories and generalized cohomology_ , in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) &lbrack;[arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [pdf](https://math.berkeley.edu/~teichner/Papers/Survey.pdf)&rbrack;
 
 * [[Peter Ulrickson]]: _Supersymmetric Euclidean Field Theories and K-theory_, Journal of Geometry and Physics **161** (2021), 104015 &lbrack;[arXiv:1901.02110](https://arxiv.org/abs/1901.02110), [doi:10.1016/j.geomphys.2020.104015](https://doi.org/10.1016/j.geomphys.2020.104015)&rbrack;
+
+[[!redirects (1,1)-dimensional Euclidean field theories and K-theory]]
+
