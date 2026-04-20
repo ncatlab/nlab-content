@@ -68,6 +68,7 @@ Here is a very incomplete list of software available for mathematics, especially
 * [[TwoVect]]
 * The [Fusion Atlas](http://tqft.net/wiki/Atlas_of_subfactors)
 * [[Catlab.jl]]
+* [CatDat](https://catdat.app)
 
 ### Globular n-categories
 
