@@ -60,6 +60,22 @@ for all $v, w \in V$ ([Grassmann 1844, &#167;37, &#167;55](#Grassmann1844)).  If
 
 The exterior algebra of a vector space is also called the **Grassmann algebra** or **alternating algebra**.  It is also denoted $\bigwedge V$, $\bigwedge^\bullet V$, or $Alt V$.
 
+Suppose $d= \dim V \lt \infty$. For $p\gt d$ it holds that $\Lambda^{p}V=\{ 0 \}$.  
+This is because
+$$
+\begin{aligned}
+v_{1} \wedge \cdots \wedge v_{p} 
+&= \sum_{n_{1}=1}^{d} \lambda^{1}_{n_{1}} e_{n_{1}} \wedge \cdots \wedge \sum_{n_{p}=1}^{d} \lambda^{p}_{n_{p}} e_{n_{p}} \\
+&= \sum_{n_{1}=1}^{d} \dots \sum_{n_{p}=1}^{d} \lambda^{1}_{n_{1}} \dots \lambda^{p}_{n_{p}}  e_{n_{1}}\wedge \cdots \wedge e_{n_{p}}
+\end{aligned}
+$$
+and $\forall j:e_{j} \wedge e_{j}=0$.
+
+Therefore the dimension of the exterior algebra is
+$$
+\dim \Lambda V = \sum_{k=1}^{d} \binom{d}{k} = 2^{d} - 1
+$$
+
 
 ### In general
 
