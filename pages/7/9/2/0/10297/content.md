@@ -61,6 +61,10 @@ As a [[Green-Schwarz sigma-model]] the [[brane scan]]-cocycle for the superstrin
 
 As the [[brane intersection]] of [[M2-branes]] onto an [[M5-brane]] (cf. *[[M-string]]*):
 
+* Yoji Michishita: *The M2-brane Soliton on the M5-brane with Constant 3-Form*, Journal of High Energy Physics **2000** JHEP09 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/09/036">doi:10.1088/1126-6708/2000/09/036</a>, [arXiv:hep-th/0008247](https://arxiv.org/abs/hep-th/0008247)\]
+
+* Donam Youm: *BPS Solitons in M5-Brane Worldvolume Theory with Constant Three-Form Field*, Phys. Rev. D **63** (2001) 045004 \[<a href="https://doi.org/10.1103/PhysRevD.63.045004">doi:10.1103/PhysRevD.63.045004</a>, [arXiv:hep-th/0009082](https://arxiv.org/abs/hep-th/0009082)\]
+
 * [[Anirban Basu]], [[Jeffrey A. Harvey]], §3.2 in: *The M2-M5 Brane System and a Generalized Nahm's Equation*, Nucl. Phys. B **713** (2005) 136-150 &lbrack;[arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310), [doi:10.1016/j.nuclphysb.2005.02.007](https://doi.org/10.1016/j.nuclphysb.2005.02.007)&rbrack;
 
 
@@ -70,7 +74,7 @@ Further discussion:
 
 * Vasilis Niarchos, Konstadinos Siampos, *Entropy of the self-dual string soliton*,  J. High Energ. Phys. **2012** 134 (2012).  &lbrack;[arXiv:1206.2935](https://arxiv.org/abs/1206.2935), <a href="https://doi.org/10.1007/JHEP07(2012)134">doi:10.1007/JHEP07(2012)134</a>&rbrack;
 
-* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arxiv.org/abs/1001.5020)&rbrack;
+* {#Sati10} [[Hisham Sati]]: _[[Geometric and topological structures related to M-branes]] -- part I_, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arxiv.org/abs/1001.5020)&rbrack;
 
 In view of [[M-strings]] and the [[M-string elliptic genus]]:
 
