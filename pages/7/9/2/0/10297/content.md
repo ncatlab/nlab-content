@@ -10,9 +10,10 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -31,6 +32,8 @@ The [[elliptic genus]] of the self-dual string at the boundary of the [[M2-brane
 ## Related concepts
 
 * [[M-string]]
+
+* [[open membrane theory]]
 
 * [[3-brane in 6d]]
 
