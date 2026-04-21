@@ -9,9 +9,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -84,6 +85,8 @@ specifically of  [[scattering amplitudes]] of [[bound states]]:
 
   Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
   
+* Shibo Xu et al.: *Non-Abelian braiding of Fibonacci anyons with a superconducting processor*, Nature Physics **20** (2024) 1469–1475 \[<a href="https://doi.org/10.1038/s41567-024-02529-6">doi:10.1038/s41567-024-02529-6</a>\]
+
 On [[quantum advantage]] for quantum simulation of the [[Schrödinger equation]]:
 
 * Andrew D. King et al.: *Beyond-classical computation in quantum simulation*, Science
