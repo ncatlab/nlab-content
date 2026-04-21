@@ -314,6 +314,8 @@ General review:
 
 * [[Constantin Bachas]], *D-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
+* [[Edvard T. Musaev]]: *Branes* &lbrack;[arXiv:2604.18488](https://arxiv.org/abs/2604.18488)&rbrack;
+
 
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
