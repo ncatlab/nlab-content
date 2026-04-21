@@ -26,7 +26,7 @@ A [[physical system]] is called **Liouville integrable** if it admits [[canonica
 
 ## Definition
 
-A [[physical system]] given by a [[phase space]] [[symplectic manifold]] $(X, \omega)$ and equipped with a [[Hamiltonian]] $H_0 \in C^\infty(C)$ (generating time evolution) is said to be **Liouville integrable** or to be an **[[integrable system]] in the sens of [[Liouville]]**  if 
+A [[physical system]] given by a [[phase space]] [[symplectic manifold]] $(X, \omega)$ and equipped with a [[Hamiltonian]] $H_0 \in C^\infty(C)$ (generating time evolution) is said to be **Liouville integrable** or to be an **[[integrable system]] in the sense of [[Liouville]]**  if 
 
 * there are $(dim X -1)$ other Hamiltonian functions $\{H_i\}_{i = 0}^{dim X -1}$ 
 
