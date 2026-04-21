@@ -70,6 +70,8 @@ then the [[W*-modules]] do not need to be countably generated.)
 
 * {#Neumann} [[John von Neumann]], _On Rings of Operators. Reduction Theory_, The Annals of Mathematics 50:2 (1949), 401.  [doi](http://dx.doi.org/10.2307/1969463).
 
+Section IV.8 in
+
 * {#Takesaki} [[Masamichi Takesaki]], _Theory of Operator Algebras.  I_, Springer, 1979.
 
 [[!redirects measurable field]]
