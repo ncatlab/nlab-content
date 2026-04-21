@@ -3342,6 +3342,22 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+* {#Kurochkin2026} 20 Apr 2026
+
+  [Yury Kurochkin](https://scholar.google.com/citations?user=xZwysUQAAAAJ&hl=ru) (Quantum Research Center, TII)
+
+  **Quantum networks: from beautiful concept to practical applications in UAE**
+
+  >  Recent advances in [[quantum algorithms]] have accelerated the development of [[quantum communication]], particularly [[quantum key distribution|Quantum Key Distribution]] (QKD) which uses single-[[photon]] [[quantum state|states]] to generate [[cryptography|cryptographic]] keys whose security is guaranteed by the fundamental laws of [[quantum mechanics]], rather than by assumptions of computational hardness. 
+
+  > My presentation is about transition from concept to laboratory experiments and then to deployable quantum communication systems. The most beautiful part of this work is the use of [[quantum entanglement]] which was used in 20th century to verify foundations of quantum theory, now a practical resource for generating correlated randomness and convert it to practical information security.
+
+  > Particular advantage of the entanglement based QKD is that it allows to build full-mesh quantum networks secure any-to-any connectivity. In parallel, we integrate quantum random number generation with passive state preparation techniques to improve scalability, reduce system complexity, and enhance cost-efficiency.
+
+  
+
+\linebreak
+
 
 
 ***
