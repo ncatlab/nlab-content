@@ -329,7 +329,7 @@ Mike Hopkins gave a nice story of the history and origins of the [[Kervaire inva
 
 * [[oberwolfach_june2009_hopkins.pdf|Notes by Bruce Bartlett:file]]
 
-* [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_12.pdf)
+* [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_12.pdf) ([archived](https://web.archive.org/web/20140913012958/http://www.math.northwestern.edu/~gabriel/notes/sum09/ow_june_11.pdf))
 
 * Andrew Ranicki's [webpage](http://www.maths.ed.ac.uk/~aar/exotic.htm) on exotic spheres 
 
