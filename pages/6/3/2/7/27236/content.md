@@ -22,7 +22,7 @@ An $(\infty,\mathbb{Z})$-category extends the concept of a [[(∞,∞)-category]
 
 ## References
 
-* David Kern, _Categorical spectra as pointed $(\infty,\mathbb{Z})$-categories_ &lbrack;[arXiv:2410.02578](https://arxiv.org/abs/2410.02578)&rbrack;
+* [[David Kern]], _Categorical spectra as pointed $(\infty,\mathbb{Z})$-categories_ &lbrack;[arXiv:2410.02578](https://arxiv.org/abs/2410.02578)&rbrack;
 
 
 
