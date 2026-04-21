@@ -244,13 +244,16 @@ For more history see
 
 * [[Jian Xin Lu]]: *Branes in String/M-Theory*, Commun. Theor. Phys. **77** (2025) 097001 &lbrack;[arXiv:2502.11575](https://arxiv.org/abs/2502.11575), [doi:10.1088/1572-9494/adcc02](http://doi.org/10.1088/1572-9494/adcc02)&rbrack;
 
+* [[Edvard T. Musaev]]: *Branes* &lbrack;[arXiv:2604.18488](https://arxiv.org/abs/2604.18488)&rbrack;
+
+
 
 
 ### Boundary conditions / D-branes
 
 (...)
 
-See [[D-brane]].
+See *[[D-brane]]*.
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
 
