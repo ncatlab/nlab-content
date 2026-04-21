@@ -90,13 +90,7 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 * Nils A. Baas, _Hyper-structures as a tool in nanotechnology_, Nanobiology, vol. 3 (1), pp. 49-60, 1994.
 
-
-Blog discussion:
-
-* [[David Corfield]]: [Category Theory and Biology](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
-
-* The birth of the idea of [[multispans]] as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165) by [[Urs Schreiber]]  
-Its application to the description of extended cobordisms and the [[generalized tangle hypothesis]] is topic of some thought chatted about at [this entry](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
+For a discussion of the idea of [[multispans]] as a formalization of hyperstructures, see the thread commencing from [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165) by [[Urs Schreiber]], and its possible application to the description of extended cobordisms and the [[generalized tangle hypothesis]] in [this comment](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
 
 
 
