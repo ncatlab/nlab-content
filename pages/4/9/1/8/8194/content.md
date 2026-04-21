@@ -7,7 +7,13 @@
 
 * [inSpire page](https://inspirehep.net/authors/2509886)
 
+
 ## Selected writings
+
+An idea for defining [[infinityn-categories with all adjoints|$(\infty,n)$-categories with all adjoints]] as something like [[sheaves]] on [[stratifolds]]:
+
+* [[Nick Rozenblyum]] (with [[David Ayala]]): _Manifolds, Higher Categories and Topological Field Theories_, talk at Northwestern University (2012) &lbrack;[[Rozenblyum-ManifoldsHigherCategories.pdf:file]]&rbrack;
+
 
 On the [[geometric Langlands conjecture]]:
 
