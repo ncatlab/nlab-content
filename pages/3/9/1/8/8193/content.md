@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -45,19 +44,18 @@ The notion appears first in section 2.3 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
-A model for $(\infty,n)$-categories with all adjoints in terms of [[(∞,1)-sheaves]] on a [[site]] of a variant of $n$-[[dimension|dimensional]] [[manifolds]] with [[embeddings]] between them is discussed in 
+{#AyalaRozenblyumModel} A model for $(\infty,n)$-categories with all adjoints in terms of [[(∞,1)-sheaves]] on a [[site]] of a variant of $n$-[[dimension|dimensional]] [[manifolds]] with [[embeddings]] between them:
 
-* [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories are sheaves on iterated submersions of $\leq n$-manifolds_ (in preparation)
+* [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories are sheaves on iterated submersions of $\leq n$-manifolds_ (in preparation?)
 
-* [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories with adjoints are sheaves on $n$-manifolds_ (in preparation)
+* [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories with adjoints are sheaves on $n$-manifolds_ (in preparation?)
  
-previewed in
+previewed in:
 
-* {#Ayala12} [[David Ayala]], _Higher categories are sheaves on manifolds_, talk at _[FRG Conference on Topology and Field Theories](http://www.nd.edu/~cmnd/conferences/topology/)_, U. Notre Dame (2012) ([video](http://www.youtube.com/watch?v=8nm2ByS5NnY))
+* {#Ayala12} [[David Ayala]]: _Higher categories are sheaves on manifolds_, talk at _[FRG Conference on Topology and Field Theories](http://www.nd.edu/~cmnd/conferences/topology/)_, U. Notre Dame (2012) &lbrack;video:[yt](https://youtu.be/8nm2ByS5NnY)&rbrack;
+  > **Abstract.** [[topological chiral homology|Chiral]]/[[factorization homology]] gives a procedure for constructing a [[topological field theory]] from the data of an [[En-algebra]]. I'll explain a multi-object version of this construction which produces a topological field theory from the data of an $n$-category with adjoints. This construction is a consequence of a more primitive result which asserts an equivalence between [[(infinity,n)-category|n-categories]] with adjoints and "transversality sheaves" on [[framed manifold|framed]] $n$-[[manifolds]] - of which there is an abundance of examples. 
 
-  **Abstract** [[topological chiral homology|Chiral]]/[[factorization homology]] gives a procedure for constructing a [[topological field theory]] from the data of an [[En-algebra]]. I'll explain a multi-object version of this construction which produces a topological field theory from the data of an $n$-category with adjoints. This construction is a consequence of a more primitive result which asserts an equivalence between [[(infinity,n)-category|n-categories]] with adjoints and "transversality sheaves" on [[framed manifold|framed]] $n$-[[manifolds]] - of which there is an abundance of examples. 
-
-* [[Nick Rozenblyum]], _Manifolds, Higher Categories and Topological Field Theories_, talk Northwestern University (2012) ([pdf slides](http://math.northwestern.edu/~nrozen/notes/jmm12.pdf))
+* [[Nick Rozenblyum]]: _Manifolds, Higher Categories and Topological Field Theories_, talk at Northwestern University (2012) &lbrack;[[Rozenblyum-ManifoldsHigherCategories.pdf:file]]&rbrack;
 
 [[!redirects (∞,n)-category with all adjoints]]
 [[!redirects (infinity,n)-category with all adjoints]]
@@ -65,3 +63,6 @@ previewed in
 [[!redirects (∞,n)-category with adjoints]]
 [[!redirects (∞,n)-categories with adjoints]]
 [[!redirects (infinity,n)-categories with adjoints]]
+
+[[!redirects infinityn-category with all adjoints]]
+[[!redirects infinityn-categories with all adjoints]]
