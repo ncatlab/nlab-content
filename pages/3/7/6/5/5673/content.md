@@ -11,6 +11,10 @@ An idea for defining [[infinityn-categories with all adjoints|$(\infty,n)$-categ
 
 * {#Ayala12} [[David Ayala]] (with [[Nick Rozenblyum]]): _Higher categories are sheaves on manifolds_, talk at _[FRG Conference on Topology and Field Theories](http://www.nd.edu/~cmnd/conferences/topology/)_, U. Notre Dame (2012) &lbrack;video:[yt](https://youtu.be/8nm2ByS5NnY)&rbrack;
 
+A generalization of the [[homotopy hypothesis]] to [[stratified spaces]]:
+
+* {#AFR15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis* &lbrack;[arXiv:1502.01713](https://arxiv.org/abs/1502.01713)&rbrack;
+
 
 On [[factorization homology]] and [[nonabelian Poincaré duality]] on [[topological manifolds]]:
 
