@@ -15,9 +15,7 @@
 
 
 
-#Contrents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -125,7 +123,7 @@ Similarly, the analysis of [[boundary conformal field theory]] describing [[open
 
 [Fredenhagen-Quella 05](#FredenhagenQuella05):
 
-> It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
+> "It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory."
 
 ### Lift to M-theory
  {#LiftToMTheory}
