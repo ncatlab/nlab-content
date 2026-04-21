@@ -104,10 +104,6 @@ Assuming an arbitrary set $A$,
 $\mathrm{LPO}_A$ holds if and only if for every function $f:A \to \mathbb{N}$ from $A$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $A$, $f(x) = 0$. 
 \end{theorem}
 
-\begin{theorem}
-$\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-overt $\emptyset$-overt [[dominance]]. 
-\end{theorem}
-
 Now, let us define an $A$-[[complete lattice]] to be a lattice which has all $A$-indexed joins, a lattice $L$ with a function 
 
 $$\bigvee_{t:A} (-)(t):(A \to L) \to L$$
@@ -129,6 +125,20 @@ We say that a $A$-[[frame homomorphism]] is a lattice homomorphism which also pr
 \begin{theorem}
 $\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-frame; i.e. the [[boolean domain]] is an $A$-frame and for every other $A$-frame $L$, [[uniqueness quantifier|there is a unique]] $A$-frame homomorphism from the [[boolean domain]] to $L$. 
 \end{theorem}
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-overt $\emptyset$-overt [[dominance]]. 
+\end{theorem}
+
+\begin{proof}
+We can rewrite the limited principle of omniscience for $A$ in the form of for all functions $f:A \to \mathbb{2}$, there exists a [[boolean]] $b \in \mathbb{2}$ such that $b = 1$ if and only if $\exists n \in A, f(n) = 1$. 
+
+By the induction principle of the [[booleans]], the set $\{b \in \mathbb{2} \vert (b = 1) \iff \exists n \in A, f(n) = 1\}$ has a [[choice operator]] given by a function from the [[subsingleton]] $\{x \in \mathbb{1} \vert \exists b \in \mathbb{2} (b = 1) \iff \exists n \in A, f(n) = 1\}$ to the set. This means that one can apply choice to get a specified boolean $b \in \mathbb{2}$ for all functions $f:A \to \mathbb{2}$, which by [[currying]] results in a function $V:\mathbb{2}^A \to \mathbb{2}$ such that $V(f) = 1$ if and only if $\exists n \in A, f(n) = 1$, meaning that $V$ is closed under $A$-indexed joins. 
+
+Since the [[booleans]] are a [[subobject|sub]][[lattice]] of the [[frame of truth values]] and the [[booleans]] are a [[dominance]], this implies that the booleans are $\emptyset$-overt, $A$-overt, and initial, since the initial $A$-overt dominance is by definition a subset of the [[frame of truth values]] and so coincide with the booleans under the limited principle of omniscience. Since [[existential quantification]] of [[booleans]] distributes over [[meets]] of [[booleans]], the $A$-complete lattice is an $A$-frame, and initiality of the $A$-frame comes from the fact that the booleans are a dominance. 
+
+Conversely, suppose that the [[booleans]] are the initial $\emptyset$-overt, $A$-overt [[dominance]] or the initial $A$-frame. The [[booleans]] are a [[subobject|sub]]-$A$-complete lattice of the [[frame of truth values]], so we can treat the $A$-indexed joins $V:\mathbb{2}^A \to \mathbb{2}$ as [[existential quantification]] over $A$. Then by the function $V:\mathbb{2}^A \to \mathbb{2}$ we have that for all functions $f:A \to \mathbb{2}$, $V(f) = 1$ if and only if $\exists n \in A, f(n) = 1$, which implies the limited principle of omniscience. 
+\end{proof}
 
 When the set $A$ is the [[natural numbers]] $\mathbb{N}$, this yields the familiar theorem that $\mathrm{LPO}_\mathbb{N}$ holds if and only if the [[boolean domain]] is the [[initial sigma-frame|initial $\sigma$-frame]]. 
 
