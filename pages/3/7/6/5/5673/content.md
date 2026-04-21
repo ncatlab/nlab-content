@@ -1,7 +1,16 @@
 
-* [website](http://www.math.montana.edu/dayala/)
+* [personal page](http://www.math.montana.edu/dayala/)
+
+* [institute page](https://math.montana.edu/directory/faculty/1582806/david-ayala)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=150444)
 
 ## Selected writings
+
+An idea for defining [[infinityn-categories with all adjoints|$(\infty,n)$-categories with all adjoints]] as something like [[sheaves]] on [[stratifolds]]:
+
+* {#Ayala12} [[David Ayala]] (with [[Nick Rozenblyum]]): _Higher categories are sheaves on manifolds_, talk at _[FRG Conference on Topology and Field Theories](http://www.nd.edu/~cmnd/conferences/topology/)_, U. Notre Dame (2012) &lbrack;video:[yt](https://youtu.be/8nm2ByS5NnY)&rbrack;
+
 
 On [[factorization homology]] and [[nonabelian Poincaré duality]] on [[topological manifolds]]:
 
