@@ -178,7 +178,7 @@ In particular, actual checks of the proposal that D-brane charge is given by K-t
 
 * {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]], *Generalised permutation branes*, JHEP 0511:004 (2005) \[<a href="https://arxiv.org/abs/hep-th/0509153">arXiv:hep-th/0509153</a>, <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/11/004">doi:10.1088/1126-6708/2005/11/004</a>\]
 
-  > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory. \[...\]  it is fair to say that a satisfactory answer is still missing.
+  > "It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory. \[...\]  it is fair to say that a satisfactory answer is still missing.:
 
 
 The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
