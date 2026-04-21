@@ -47,6 +47,14 @@ For instance $B$ might be an [[extended cobordism]] with three boundary componen
 
 Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term __hyperstructures__ for these. Some references are
 
+* [[Nils A. Baas]], _Higher Algebraic Structures and General Field Theories_ &lbrack;[arXiv:2111.11205](http://arxiv.org/abs/2111.11205)&rbrack;
+
+* [[Nils A. Baas]], _A Mathematical Approach to the Hierarchical Structure of Languages_ &lbrack;[arXiv:1806.05551](http://arxiv.org/abs/1806.05551)&rbrack;
+
+* [[Nils A. Baas]], _On the Mathematics of Higher Structures_ &lbrack;[arXiv:1805.11944](http://arxiv.org/abs/1805.11944)&rbrack;
+
+* [[Nils A. Baas]], _On the Philosophy of Higher Structures_ &lbrack;[arXiv:1805.11943](http://arxiv.org/abs/1805.11943)&rbrack;
+
 * Nils A. Baas, _On Higher Order Structures_, [arXiv:1509.00403](http://arxiv.org/abs/1509.00403) (2015), 15 pp.
 
 * Nils A. Baas, _Higher order architecture of collections of objects_, International Journal of General Systems vol. 44 (1), pp. 55-75, 2015. [arXiv:1409.0344](http://arxiv.org/abs/1409.0344)
@@ -83,7 +91,7 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 * David Corfield, [Category Theory and Biology](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
 
-  * The birth of the idea of [[multispans]] as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165). 
+  * The birth of the idea of [[multispans]] as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165) by [[Urs Schreiber]] . 
 Its application to the description of extended cobordisms and the [[generalized tangle hypothesis]] is topic of some thought chatted about at [this entry](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
 
 +--{.query}
