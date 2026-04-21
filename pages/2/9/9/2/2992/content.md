@@ -34,7 +34,7 @@ Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv
 
 It can then be proven from the ring axioms and the properties of the integers that every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
 
-### As an sequential colimit in CRing
+### As a sequential colimit in CRing
 
 Let $\mathbb{Z}[1/n!]$ be the [[localization of a commutative ring|localization]] of the [[integers]] $\mathbb{Z}$ [[localisation of a commutative ring away from an element|away from]] the [[factorial]] $n!$, and for each $i \in \mathbb{N}$, there is a unique commutative [[ring homomorphism]] $h_{i}:\mathbb{Z}[1/i!]\to\mathbb{Z}[1/(i + 1)!]$ defined by the [[universal property]] of localisation of $\mathbb{Z}[1/i!]$ away from $i + 1$. Then the commutative ring of __rational numbers__ $\mathbb{Q}$ is the [[sequential colimit]] of the [[diagram]]
 
@@ -120,7 +120,7 @@ The binary operation **addition** $(-)+(-):\mathbb{Q} \times \mathbb{Q} \to \mat
 
 $$a/b + c/d \coloneqq (a \cdot i(d) + c \cdot i(b))/(b \cdot d)$$
 
-for $a \ in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $c \in \mathbb{Z}$, $d \in \mathbb{Z}_{#0}$. 
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $c \in \mathbb{Z}$, $d \in \mathbb{Z}_{#0}$. 
 =--
 
 +--{: .num_prop}
