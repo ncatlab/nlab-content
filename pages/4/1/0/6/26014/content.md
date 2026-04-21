@@ -103,6 +103,14 @@ Gauging of generalized global symmetries of TQFTs:
 
 * [[Nils Carqueville]], *Orbifolds of topological quantum field theories*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2307.16674](https://arxiv.org/abs/2307.16674)&rbrack;
 
+For a closer look at the justification of dropping the invertibility of the symmetry operators, see:
+
+* Masaki Okada, [[Yuji Tachikawa]]. *Non-invertible symmetries act locally by quantum operations* (2024). ([arXiv:2403.20062](https://arxiv.org/abs/2403.20062)).
+
+* Thomas Bartsch, Yuhan Gai, [[Sakura Schäfer-Nameki]]. *Beyond Wigner: Non-Invertible Symmetries Preserve Probabilities* (2026). ([arXiv:2602.07110](https://arxiv.org/abs/2602.07110)).
+
+* [[Jonathan Heckman]], Rebecca J. Hicks, Chitraang Murdia. *Generalized Complexity Distances and Non-Invertible Symmetries* (2026). ([arXiv:2604.14275](https://arxiv.org/abs/2604.14275)).
+
 
 
 See also:
@@ -115,7 +123,7 @@ See also:
 
 * {#PutrovWang23} [[Pavel Putrov]], [[Juven Wang]], *Categorical Symmetry of the Standard Model from Gravitational Anomaly* &lbrack;[arXiv:2302.14862](https://arxiv.org/abs/2302.14862)&rbrack;
 
-* Masaki Okada, [[Yuji Tachikawa]]. *Non-invertible symmetries act locally by quantum operations* (2024). ([arXiv:2403.20062](https://arxiv.org/abs/2403.20062)).
+
 
 
 In the context of [[fusion 2-categories]]:
