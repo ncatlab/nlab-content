@@ -17,6 +17,10 @@ On [[exotic branes]] in [[exceptional field theory]]:
 
 * {#BMO19} [[David Berman]], [[Edvard Musaev]], [[Ray Otsuki]], _Exotic Branes in M-Theory_, contribution to: *[Dualities and Generalized Geometries, Corfu Summer Institute 2018](http://www.physics.ntua.gr/corfu2018/dg.html)* &lbrack;[arXiv:1903.10247](https://arxiv.org/abs/1903.10247)&rbrack;
 
+On [[branes]] ([[D-branes]]/[[M-branes]]) in [[string theory|string]]/[[M-theory]]:
+
+* [[Edvard T. Musaev]]: *Branes* &lbrack;[arXiv:2604.18488](https://arxiv.org/abs/2604.18488)&rbrack;
+
 
 
 ## Related entries
