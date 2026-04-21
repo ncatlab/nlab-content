@@ -73,6 +73,8 @@ Further discussion:
 
 * J. G. Russo, [[Mohammad Sheikh-Jabbari]]: *On Noncommutative Open String Theories*, Journal of High Energy Physics **2000** JHEP07 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/07/052">doi:10.1088/1126-6708/2000/07/052</a>, [arXiv:hep-th/0006202](https://arxiv.org/abs/hep-th/0006202)\]
 
+* [[Steven S. Gubser]], [[Sergei Gukov]], [[Igor R. Klebanov]], [[Mukund Rangamani]], [[Edward Witten]]: *The Hagedorn transition in non-commutative open string theory*, J. Math. Phys. **42** (2001) 2749-2764 \[<a href="https://doi.org/10.1063/1.1372176">doi:10.1063/1.1372176</a>, [arXiv;hep-th/0009140](https://arxiv.org/abs/hep-th/0009140)\]
+
 
 ### OM Theory
  {#ReferencesOMTheory}
