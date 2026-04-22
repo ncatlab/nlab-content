@@ -1,3 +1,69 @@
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset
+  {
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  \coordinate (N) at (0, 1);
+  \coordinate (S) at (0, -1);
+  % fills
+  \fill[colorA] (-1,1) rectangle (0,-1);
+  \fill[colorB] (0,1) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  % arrow points W
+  \draw[mid->] (N) -- (S);
+  % area labels
+  \node at (-0.5,  0) {$A$};
+  \node at (0.5, 0) {$B$};
+  % edge label
+  \node[above] at (N) {$f$};
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset
+  {
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+  \coordinate (W) at (-1, 0);
+  \coordinate (E) at ( 1, 0);
+  % fills
+  \fill[colorA] (-1,0) rectangle (1,1);
+  \fill[colorB] (-1,0) rectangle (1,-1);
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+  \draw[line width=0.6pt] (E) -- (W);
+  % area labels
+  \node at (0,  0.5) {$A$};
+  \node at (0, -0.5) {$B$};
+  % edge label
+  \node[left] at (W) {$P$};
+\end{tikzpicture}
+
+
+
 
 \begin{tikzpicture}[scale=2, >=latex]
   \usetikzlibrary{decorations.markings}
