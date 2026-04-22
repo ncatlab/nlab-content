@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -25,12 +24,21 @@ The [[categorical semantics]] of the multiplicative conjunction is as the [[tens
 
 There are various [[fragments]] of [[linear logic]] that contain the multiplicative conjunction.  For instance, _[[multiplicative linear logic]]_ (MLL) contains $\otimes$ along with its unit $\mathbf{1}$ and also the [[multiplicative disjunction]] $\parr$ and its unit $\bot$ and the linear [[negation]] $(-)^\bot$.  While _multiplicative intuitionistic linear logic_ (MILL)  contains $\otimes$ and $\mathbf{1}$ along with the linear implication $\multimap$.
 
-## Deduction rules
+## Inference rules
 
-In linear logic, the multiplicative conjunction is [[introduction rule|introduced]] using the following rule:
-$$\frac{\Gamma \vdash A \quad \Delta \vdash B}{\Gamma, \Delta \vdash A \otimes B}$$
+In [[linear logic]], the multiplicative conjunction is [[introduction rule|introduced]] using the following [[inference rule]]:
+$$
+  \frac
+    {\Gamma \vdash A \quad \Delta \vdash B}
+    {\Gamma, \Delta \vdash A \otimes B}
+$$
 and [[elimination rule|eliminated]] as follows: 
-$$\frac{\Gamma \vdash A \otimes B \quad \Delta, A, B \vdash C}{\Gamma, \Delta \vdash C}$$
+$$
+  \frac
+     {\Gamma \vdash A \otimes B \quad \Delta, A, B \vdash C}
+     {\Gamma, \Delta \vdash C}
+  \mathrlap{\,.}
+$$
 
 ## Related concepts
 
