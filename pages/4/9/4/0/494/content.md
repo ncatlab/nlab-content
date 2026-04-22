@@ -1138,6 +1138,8 @@ A partial converse to Prop. \ref{AdjointsPreserveCoLimits} is provided by the [[
 
 =--
 
+Every adjunction factors as the composite of a [[reflective adjunction]] and a [[coreflective adjunction]]: see [[envelope of an adjunction]] for details.
+
 +-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
 ###### Proposition
 
