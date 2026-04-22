@@ -275,6 +275,7 @@ See the references ([below](#UDualityReferences)).
 For the moment see the remarks/references on supergravity at _[[exceptional geometry]]_ and _[[exceptional generalized  geometry]]_.
 
 ## Examples
+ {#Examples}
 
 The usual [[folklore]] is that for supergravity Lagrangians "of ordinary type" it turns out that  
 
@@ -286,7 +287,7 @@ is the highest dimension possible, but see also at
 
 for some qualification.
 
-All lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
+Most lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
 
 * [[10-dimensional supergravity]] 
 
