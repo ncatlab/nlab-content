@@ -1,3 +1,6 @@
+<table>
+<tr>
+<td style="border: none;">
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
   \tikzset{
@@ -49,7 +52,8 @@
   \node at ( 0.5,-0.5) {$B$};
 
 \end{tikzpicture}
-
+</td>
+<td style="border: none;">
 
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
@@ -102,7 +106,8 @@
   \node at (-0.5,-0.5) {$A$};
 
 \end{tikzpicture}
-
+</td>
+</tr></table>
 
 
 
