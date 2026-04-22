@@ -148,6 +148,8 @@ For any [[topological space]] $X$, there is an idempotent adjunction between the
 
 * In an [[adjoint triple]], one of the two [[adjoint pairs]] is idempotent if and only if the other one is; see [there](adjoint+triple#Idempotent) for more.
 
+* [[envelope of an adjunction]]
+
 ## References
 
 The characterization of idempotent adjunctions is proven/due to:
