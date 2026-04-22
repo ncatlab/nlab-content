@@ -66,6 +66,8 @@ See Lemma 4.1 of [Pavlovic and Hughes](#PavlovicHughes).
 In particular, $Inv(F \dashv G)$ is the full subcategory of $Env(F \dashv G)$ whose objects $(c, d, f, g)$ have $f$ and $g$ isomorphisms.
 (See Lemma 12.1 of [Avery and Leinster](#AveryLeinster).)
 
+* An adjunction that furthermore factors through $Inv(F \dashv G)$ is precisely an [[idempotent adjunction]].
+
 * The envelope construction (respectively the [[fixed point of an adjunction|fixed point]] construction) can be seen as [[2-adjunctions]] between [[Cat]], and the 2-category of adjunctions (respectively the [[wide subcategory|wide]] sub-2-category of adjunctions whose morphisms $(P, Q, \alpha, \beta)$ have $\alpha$ and $\beta$ invertible)).
 \begin{tikzcd}
 	& {\mathrm{ADJ}} \\
