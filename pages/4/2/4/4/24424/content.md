@@ -1,4 +1,4 @@
-Welcome to my webpage! I'm too lazy to create a proper website so I'm using this nLab entry instead. (I'll try to add a picture of my face later.)
+Welcome to my webpage! 
 
 I'm a French [[math]] PhD student at the University of Ottawa. My supervisor is [[Rick Blute]]. [[Phil Scott]] was also my supervisor.
 
