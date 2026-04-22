@@ -75,7 +75,7 @@ Projects:
 <a href="https://sciforum.net/event/ICMMP2026?section=#Sessions"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
 </div>
 
-* (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
+* (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
 
 <div style="float:right;margin:-50px 0px 00px 20px;">
 <a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO-CoverSlideSlim-260218.png" width="370"></a> 
