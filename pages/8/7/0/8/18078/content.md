@@ -1,5 +1,114 @@
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \def\yT{1}
+  \def\yU{0.3}
+  \def\yL{-1.3}
+  \def\yB{-2}
+
+  \coordinate (Cp) at (0, \yU);
+  \coordinate (Cj) at (0, \yL);
+
+  % fills: A covers everything, B is the region bordered by the three arrows
+  \fill[colorA] (-1,\yB) rectangle (1,\yT);
+  \fill[colorB] (0,\yU) -- (1,\yU) -- (1,\yL) -- (0,\yL) -- cycle;
+
+  % border
+  \draw[gray] (-1,\yB) rectangle (1,\yT);
+
+  % f arrow between circles
+  \draw[mid->] (Cp) -- (Cj);
+
+  % horizontal arrows
+  \draw[mid->] (1,\yU) -- (Cp);
+  \draw[mid<-] (1,\yL) -- (Cj);
+
+  % nodes
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cp) {$\eta_p$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cj) {$\eta_j$};
+
+  % edge labels
+  \node[right] at (1,\yU) {$B(1,f)$};
+  \node[right] at (1,\yL) {$B(f,1)$};
+  \node[left]  at (0,-0.5) {$f$};
+
+  % area labels
+  \node at (-0.8, 0.8) {$A$};
+  \node at ( 0.5,-0.5) {$B$};
+
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \def\yT{1}
+  \def\yU{0.3}
+  \def\yL{-1.3}
+  \def\yB{-2}
+
+  \coordinate (Cj) at (0, \yU);   % epsilon_j on top (conjoint counit: N->C, C->E)
+  \coordinate (Cp) at (0, \yL);   % epsilon_p on bottom (companion counit: N->C, C->W)
+
+  % fills: B covers everything, A is the region bordered by the three arrows
+  \fill[colorB] (-1,\yB) rectangle (1,\yT);
+  \fill[colorA] (-1,\yU) -- (0,\yU) -- (0,\yL) -- (-1,\yL) -- cycle;
+
+  % border
+  \draw[gray] (-1,\yB) rectangle (1,\yT);
+
+  % f arrow between circles
+  \draw[mid->] (Cj) -- (Cp);
+
+  % horizontal arrows sticking out to the left
+  \draw[mid<-] (-1,\yU) -- (Cj);   % B(f,1) out of epsilon_j to W
+  \draw[mid->] (-1,\yL) -- (Cp);   % B(1,f) into epsilon_p from W
+
+  % nodes
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cj) {$\epsilon_j$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cp) {$\epsilon_p$};
+
+  % edge labels
+  \node[left] at (-1,\yU) {$B(f,1)$};
+  \node[left] at (-1,\yL) {$B(1,f)$};
+  \node[right] at (0,-0.5) {$f$};
+
+  % area labels
+  \node at ( 0.8, 0.8) {$B$};
+  \node at (-0.5,-0.5) {$A$};
+
+\end{tikzpicture}
+
+
+
+
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
   \tikzset
   {
     mid->/.style={
