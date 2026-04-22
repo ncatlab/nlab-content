@@ -251,7 +251,7 @@ $$
 This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X \times Y$ is the [[loop space object]] $\Omega B$, being the [[fiber]] of the [[path space object]] projection.
 
 {#ExtendingMVToTheRight}
-We can use this to usefully extend the tail end of the MV sequence by one step:
+With this, we may usefully extend the tail end of the MV sequence by one further step:
 
 \begin{lemma}
   The [[image]] of the tail end map in (eq:TheHomotopicalMVSequence)
