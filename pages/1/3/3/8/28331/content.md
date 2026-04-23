@@ -17,7 +17,7 @@
 
 ## Idea
 
-The *Kirby-Siebenmann invariant* controls the existence of [[PL manifold|PL structures]] on [[topological manifolds]]. The analogue concept controlling the existence of [[smooth structures]] on [[topological manifolds]] and [[PL manifold|piecewise linear (PL) manifolds]] are the [[Kervaire-Milnor groups]].
+The *Kirby-Siebenmann invariant* (or *Kirby-Siebenmann class*) controls the existence of [[PL manifold|PL structures]] on [[topological manifolds]]. The analogue concept controlling the existence of [[smooth structures]] on [[topological manifolds]] and [[PL manifold|piecewise linear (PL) manifolds]] are the [[Kervaire-Milnor groups]].
 
 ## Definition
 
@@ -31,6 +31,30 @@ PL
 \coloneqq\lim_{n\rightarrow\infty}PL_n.
 $$
 There is an induced canonical inclusion $PL\hookrightarrow Top$. Their [[classifying spaces]] can be now be regarded to study the different structures: For a [[topological manifold]] $X$, its [[tangent bundle]] $TX$ is also a [[topological manifold]], which is classified by a continuous map $X\rightarrow BTop$. Analogous for a PL manifold, there is a classifying map $X\rightarrow BPL$. The canonical inclusion $BPL\hookrightarrow BTop$ shows that every PL is a topological structure.
+
+The [[quotient group]] $PL/Top$ only has a single non-trivial [[homotopy group]]: ([Freed & Uhlenbeck 91, p. 12-13](#FreedUhlenbeck91))
+$$
+\pi_3(PL/Top)
+\cong\mathbb{Z}_2
+$$
+and hence is a model for the [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,3)$. The [[quotient group]] $BPL/BTop$ now also only has a single non-trivial [[homotopy group]] since the [[classifying space]] shifts these one up:
+$$
+\pi_4(BPL/BTop)
+\cong\mathbb{Z}_2.
+$$
+and hence is a model for the [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,4)$. For any [[topological space]] $X$, the [[fiber bundle]] $BPL\hookrightarrow BTop\twoheadrightarrow BPL/BTop\simeq K(\mathbb{Z}_2,4)$ induces a [[short exact sequence]]:
+$$
+[X,BPL]
+\rightarrow[X,BTop]
+\xrightarrow{\kappa}[X,BPL/BTop]
+\cong[X,K(\mathbb{Z}_2,4)]
+\cong H^4(X,\mathbb{Z}_2).
+$$
+For any [[topological manifold]] $X$, the [[homotopy class]] of its classifying map $X\rightarrow BTop$ is in the middle set. A compatible [[PL structure]] exists if it results from the restriction of the [[homotopy class]] of a classifying map $X\rightarrow BPL$ from the left set, hence is in the [[image]] of the former map. Due to exactness, this is equivalent to the latter map sending it to the trivial [[cohomology class]] in the right [[group]]. Now this map is the *Kirby-Siebenmann invariant* (or *Kirby-Siebenmann class*):
+$$
+\kappa\colon[X,BTop]\rightarrow H^4(X,\mathbb{Z}_2).
+$$
+A [[topological manifold]] $X$ has a compatible [[PL structure]] if and only if $\kappa(X)=0$. A particular interesting case is topological [[4-manifolds]] $X$ with $H^4(X,\mathbb{Z}_2)\cong\mathbb{Z}_2$ and therefore a binary Kirby-Siebenmann invariant.
 
 ## References
 
