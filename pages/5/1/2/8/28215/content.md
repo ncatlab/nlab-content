@@ -17,13 +17,13 @@
 
 ## Idea
 
-*Kervaire-Milnor groups* are the [[oriented]] [[h-cobordism]] [[equivalence classes|classes]] of [[homotopy spheres]] with the [[connected sum]] as [[group]] [[binary operation|operation]] and the reverse [[orientation]] as inversion. It controls the existence of [[smooth structures]] on [[topological manifold|topological]] and [[PL manifold|piecewise linear (PL) manifolds]]. The analogue concept controlling the existence of [[PL manifold|PL structures]] on [[topological manifold|topological]] is the *[[Kirby-Siebenmann invariant]]*.
+*Kervaire-Milnor groups* are the [[oriented]] [[h-cobordism]] [[equivalence classes|classes]] of [[homotopy spheres]] with the [[connected sum]] as [[group]] [[binary operation|operation]] and the reverse [[orientation]] as inversion. It controls the existence of [[smooth structures]] on [[topological manifolds]] and [[PL manifold|piecewise linear (PL) manifolds]]. The analogue concept controlling the existence of [[PL manifold|PL structures]] on [[topological manifold|topological]] is the *[[Kirby-Siebenmann invariant]]*.
 
 ## Definition
 
 An important property of [[spheres]] is their neutrality with respect to the [[connected sum]] of [[manifolds]]. Expanding this [[monoid]] structure with a [[composition]] and a [[neutral element]] to a [[group]] [[structure]] requires the restriction on manifolds, for which a connected sum can result in a sphere, hence which intuitively doesn't have holes. This is possible with [[homotopy spheres]], which are [[closed manifold|closed]] [[smooth manifolds]] with the same [[homotopy type]] as a sphere, with restriction to [[h-cobordism]] classes being useful for application. Inversion is then given by changing their [[orientation]], which results in a group structure.
 
-An alternative definition in five and more dimensions is given by the description of topological, PL and smooth structures. Let $Top_n$ be the [[topological group]] of [[homeomorphisms]], $PL_n$ the [[topological group]] of [[PL homeomorphisms]] and [[diffeomorphism group|$Diff_n$]] be the [[topological group]] of [[diffeomorphisms]] of [[Euclidean space]] $\mathbb{R}^n$. There are canonical inclusions $Diff_n\hookrightarrow PL_n\hookrightarrow Top_n$. Taking the [[cartesian product]] with the [[identity]] furthermore gives inclusions $Top_n\hookrightarrow Top_{n+1}$, $PL_n\hookrightarrow PL_{n+1}$ and $Diff_n\hookrightarrow Diff_{n+1}$. An [[inductive limit]] yields topological groups:
+An alternative definition in five and more dimensions is given by the description of topological, PL and smooth structures. Let $Top_n\coloneqq C^0(\mathbb{R}^n,\mathbb{R}^n)$ be the [[topological group]] of [[homeomorphisms]] ([[homeomorphism group]]), $PL_n$ the [[topological group]] of [[PL homeomorphisms]] and $Diff_n\coloneqq C^\infty(\mathbb{R}^n,\mathbb{R}^n)$ be the [[topological group]] of [[diffeomorphisms]] ([[diffeomorphism group]]) of [[Euclidean space]] $\mathbb{R}^n$. There are canonical inclusions $Diff_n\hookrightarrow PL_n\hookrightarrow Top_n$. Taking the [[cartesian product]] with the [[identity]] furthermore gives inclusions $Top_n\hookrightarrow Top_{n+1}$, $PL_n\hookrightarrow PL_{n+1}$ and $Diff_n\hookrightarrow Diff_{n+1}$. An [[inductive limit]] yields [[topological groups]]:
 $$
 Top
 \coloneqq\lim_{n\rightarrow\infty}Top_n;
@@ -79,9 +79,17 @@ $\Theta_1$, $\Theta_3$, $\Theta_5$ and $\Theta_61$ are the only trivial Kervaire
 
 ## References
 
-The eponymous original discussion:
+Named after the original discussion in:
 
 * {#KervaireMilnor1963} [[Michel A. Kervaire]], [[John W. Milnor]]: *Groups of Homotopy Spheres I*, Annals of Mathematics **77** 3 (1963) &lbrack;[doi:10.2307/1970128](https://doi.org/10.2307/1970128), [jstor:1970128](https://www.jstor.org/stable/1970128),  [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kervmiln.pdf)&rbrack;
+
+Further descriptions:
+
+* {#FreedUhlenbeck91} [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
+
+* {#Lück01} [[Wolfgang Lück]], _A Basic Introduction to Surgery Theory_ (2001) &lbrack;[pdf](https://math.uchicago.edu/~shmuel/tom-readings/Luck%20Surgery%20book.pdf)&rbrack;
+
+* {#WangXu17} [[Guozhen Wang]], [[Zhouli Xu]], _The triviality of the 61-stem in the stable homotopy groups of spheres_, Annals of Mathematics **186**, No. 2, 2017, pp. 501–580 &lbrack;[arXiv:1601.02184](https://arxiv.org/abs/1601.02184) [10.4007/annals.2017.186.2.3](https://annals.math.princeton.edu/2017/186-2/p03)&rbrack;
 
 See also:
 
