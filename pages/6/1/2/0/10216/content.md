@@ -19,6 +19,10 @@ On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit 
 
 * [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
 
+On [[surgery theory]]:
+
+* {#Lück01} [[Wolfgang Lück]], _A Basic Introduction to Surgery Theory_ (2001) &lbrack;[pdf](https://math.uchicago.edu/~shmuel/tom-readings/Luck%20Surgery%20book.pdf)&rbrack;
+
 On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
 * [[Wolfgang Lück]], *Survey on Classifying Spaces for Families of Subgroups*,  In: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects* Progress in Mathematics, **248** Birkhäuser (2005) ([arXiv:math/0312378](https://arxiv.org/abs/math/0312378), [doi:10.1007/3-7643-7447-0_7](https://doi.org/10.1007/3-7643-7447-0_7))
