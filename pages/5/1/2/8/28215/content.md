@@ -89,11 +89,11 @@ Named after the original discussion in:
 
 Further descriptions:
 
-* {#FreedUhlenbeck91} [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
+* {#FreedUhlenbeck91} [[Daniel Freed]], [[Karen Uhlenbeck]]: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer (1991) &lbrack;[doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8)&rbrack;
 
-* {#Lück01} [[Wolfgang Lück]], _A Basic Introduction to Surgery Theory_ (2001) &lbrack;[pdf](https://math.uchicago.edu/~shmuel/tom-readings/Luck%20Surgery%20book.pdf)&rbrack;
+* {#Lück01} [[Wolfgang Lück]]: _A Basic Introduction to Surgery Theory_ (2001) &lbrack;[pdf](https://math.uchicago.edu/~shmuel/tom-readings/Luck%20Surgery%20book.pdf)&rbrack;
 
-* {#WangXu17} [[Guozhen Wang]], [[Zhouli Xu]], _The triviality of the 61-stem in the stable homotopy groups of spheres_, Annals of Mathematics **186**, No. 2, 2017, pp. 501–580 &lbrack;[arXiv:1601.02184](https://arxiv.org/abs/1601.02184) [10.4007/annals.2017.186.2.3](https://annals.math.princeton.edu/2017/186-2/p03)&rbrack;
+* {#WangXu17} [[Guozhen Wang]], [[Zhouli Xu]]: _The triviality of the 61-stem in the stable homotopy groups of spheres_, Annals of Mathematics **186** 2 (2017) 501--580 &lbrack;[arXiv:1601.02184](https://arxiv.org/abs/1601.02184) [10.4007/annals.2017.186.2.3](https://annals.math.princeton.edu/2017/186-2/p03)&rbrack;
 
 See also:
 
