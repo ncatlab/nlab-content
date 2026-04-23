@@ -1,3 +1,10 @@
+
+* [institute page](https://www.uni-augsburg.de/de/fakultaet/mntf/math/prof/diff/team/prof-dr-jost-hinrich-eschenburg/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=21780)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jost-Eschenburg)
+
 ## Selected writings
 
 First discussion of [[Eschenburg spaces]]:
