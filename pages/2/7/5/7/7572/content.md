@@ -83,8 +83,6 @@ In [[locale theory]] and other approaches to [[point-free topology]], the open-c
 
 {#InDTT} In [[dependent type theory]], the open-cover definition of 'compact' holds as well, but one has to use the [[higher inductive type|higher]] [[inductive family]] of [[inductive covers]] instead of the usual pointwise definitions of covers ([UFP13, §11.5](#UFP13)). 
 
-
-
 ## Proofs
  {#Proofs}
 
@@ -243,6 +241,12 @@ A proof is spelled out for instance at
 On the [[Heine-Borel theorem]] not implying the [[fan theorem]] in the absence of [[countable choice]]:
 
 * [[Ieke Moerdijk]], *Heine-Borel Does Not Imply the Fan Theorem*, Journal of Symbolic Logic, vol. 49, no. 2, 1984, pp. 514–519. ([doi:10.2307/2274182](https://doi.org/10.2307/2274182))
+
+On the Heine-Borel theorem in constructive reverse mathematics:
+
+* {#Diener08} [[Hannes Diener]], *Compactness Under Constructive Scrutiny*, PhD Thesis ([pdf](https://ir.canterbury.ac.nz/server/api/core/bitstreams/74e691c4-f68a-4043-9e2c-d6f3d1afca2a/content))
+
+* {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 On constructing a compact locale from a CTB metric space:
 
