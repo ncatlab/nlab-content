@@ -1,4 +1,16 @@
-[Website](https://sites.google.com/view/xuzhouli/)
+
+
+* [personal page](https://sites.google.com/view/xuzhouli/)
+
+* [institute page](https://www.math.ucsd.edu/people/profiles/zhouli-xu)
+
+* [institute page](https://www.math.ucla.edu/people/ladder/xu)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=216251)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Zhouli_Xu)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=A6Ms3rEAAAAJ&hl=en)
 
 ## Selected writings
 
