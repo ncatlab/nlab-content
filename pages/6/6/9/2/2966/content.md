@@ -6,6 +6,10 @@ Nigel Hitchin is professor of pure [[mathematics]] at Oxford.
 
 ## Selected writings
 
+Formulation and proof of the [[Hitchin-Thorpe inequality]]:
+
+* {#Hitchin74} [[Nigel Hitchin]], _Compact four-dimensional Einstein manifolds_, J. Diff. Geom. **9** (3), pp. 435–442 (1974) &lbrack;[doi:10.4310/jdg/1214432419](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-9/issue-3/Compact-four-dimensional-Einstein-manifolds/10.4310/jdg/1214432419.full)&rbrack;
+
 Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;<a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
