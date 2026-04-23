@@ -154,6 +154,8 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
 
 * [[Matt Earnshaw]]: [repository of Lawvere's publications](https://github.com/mattearnshaw/lawvere) 
 
+* [[Anders Kock]]: [repository of lecture notes from Lawvere's lectures](https://github.com/conceptualmathematics/Naturality)
+
 (Some of Lawvere's writings don't exist as published articles, but circulate in some form or other. Notably the "[[Archive for Mathematical Sciences & Philosophy]]" run by [[Michael Wright]] has a lot of recordings or lectures by Lawvere, though presently few or none of the files in the archive are available online.)
 
 ### General
