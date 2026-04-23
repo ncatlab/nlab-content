@@ -1,7 +1,19 @@
 
-Nigel Hitchin is professor of pure [[mathematics]] at Oxford.
+Nigel James Hitchin is professor of pure [[mathematics]] at Oxford.
 
-* [website](http://people.maths.ox.ac.uk/~hitchin/)
+* [personal page](http://people.maths.ox.ac.uk/~hitchin/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Nigel_Hitchin)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=43911)
+
+* [MacTutor biography page](https://mathshistory.st-andrews.ac.uk/Biographies/Hitchin/)
+
+* [inSpire page](https://inspirehep.net/authors/1005885)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=vtJQFy0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Nigel-Hitchin-59268496)
 
 
 ## Selected writings
