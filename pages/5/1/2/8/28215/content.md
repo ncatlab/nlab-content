@@ -17,11 +17,11 @@
 
 ## Idea
 
-*Kervaire-Milnor groups* are the [[oriented]] [[h-cobordism]] [[equivalence classes|classes]] of [[homotopy spheres]] with the [[connected sum]] as [[group]] [[binary operation|operation]] and the reverse [[orientation]] as inversion. It controls the existence of [[smooth structures]] on [[topological manifolds]] and [[PL manifold|piecewise linear (PL) manifolds]]. The analogue concept controlling the existence of [[PL manifold|PL structures]] on [[topological manifold|topological]] is the *[[Kirby-Siebenmann invariant]]*.
+*Kervaire-Milnor groups* are the [[oriented]] [[h-cobordism]] [[equivalence classes|classes]] of [[homotopy spheres]] with the [[connected sum]] as [[group]] [[binary operation|operation]] and the reverse [[orientation]] as inversion. ([Kervaire & Milnor 63, Lem. 4.5, Thrm. 1.1](#KervaireMilnor63), [Lück 01, p. 119](#Lück01)) It controls the existence of [[smooth structures]] on [[topological manifolds]] and [[PL manifold|piecewise linear (PL) manifolds]]. The analogue concept controlling the existence of [[PL manifold|PL structures]] on [[topological manifold|topological]] is the *[[Kirby-Siebenmann invariant]]*.
 
 ## Definition
 
-An important property of [[spheres]] is their neutrality with respect to the [[connected sum]] of [[manifolds]]. Expanding this [[monoid]] structure with a [[composition]] and a [[neutral element]] to a [[group]] [[structure]] requires the restriction on manifolds, for which a connected sum can result in a sphere, hence which intuitively doesn't have holes. This is possible with [[homotopy spheres]], which are [[closed manifold|closed]] [[smooth manifolds]] with the same [[homotopy type]] as a sphere, with restriction to [[h-cobordism]] classes being useful for application. Inversion is then given by changing their [[orientation]], which results in a group structure.
+An important property of [[spheres]] is their neutrality with respect to the [[connected sum]] of [[manifolds]]. ([Kervaire & Milnor 63, p. 504](#KervaireMilnor63)) Expanding this [[monoid]] structure with a [[composition]] and a [[neutral element]] to a [[group]] [[structure]] requires the restriction on manifolds, for which a connected sum can result in a sphere, hence which intuitively doesn't have holes. This is possible with [[homotopy spheres]], which are [[closed manifold|closed]] [[smooth manifolds]] with the same [[homotopy type]] as a sphere, with restriction to [[h-cobordism]] classes being useful for application. Inversion is then given by changing their [[orientation]], which results in a group structure.
 
 An alternative definition in five and more dimensions is given by the description of topological, PL and smooth structures. Let $Top_n\coloneqq C^0(\mathbb{R}^n,\mathbb{R}^n)$ be the [[topological group]] of [[homeomorphisms]] ([[homeomorphism group]]), $PL_n$ the [[topological group]] of [[PL homeomorphisms]] and $Diff_n\coloneqq C^\infty(\mathbb{R}^n,\mathbb{R}^n)$ be the [[topological group]] of [[diffeomorphisms]] ([[diffeomorphism group]]) of [[Euclidean space]] $\mathbb{R}^n$. There are canonical inclusions $Diff_n\hookrightarrow PL_n\hookrightarrow Top_n$. Taking the [[cartesian product]] with the [[identity]] furthermore gives inclusions $Top_n\hookrightarrow Top_{n+1}$, $PL_n\hookrightarrow PL_{n+1}$ and $Diff_n\hookrightarrow Diff_{n+1}$. An [[inductive limit]] yields [[topological groups]]:
 $$
@@ -44,7 +44,7 @@ $$
 \cong\pi_n\left(PL/Diff\right)
 \cong\pi_n\left(Top/Diff\right)
 $$
-for $n\geq 5$. (The [[quotient group]] $PL/Top$ is an [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,3)$ and its single non-trivial [[homotopy group]] leads to the [[Kirby-Siebenmann invariant]].)
+for $n\geq 5$. ([Freed & Uhlenbeck 91, p. 12-13](#FreedUhlenbeck91)) (The [[quotient group]] $PL/Top$ is an [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,3)$ and its single non-trivial [[homotopy group]] leads to the [[Kirby-Siebenmann invariant]].)
 
 ## Examples
 
@@ -66,6 +66,8 @@ for $n\geq 5$. (The [[quotient group]] $PL/Top$ is an [[Eilenberg-MacLane space]
 
 * $\Theta_{61}\cong 1$
 
+([Kervaire & Milnor 63, p. 504](#KervaireMilnor63),[Freed & Uhlenbeck 91, p. 12-13](#FreedUhlenbeck91))
+
 ## Properties
 
 \begin{proposition}
@@ -77,11 +79,13 @@ This was shown for $n\neq 3$ by [Kervaire & Milnor 1963](#KervaireMilnor1963), w
 $\Theta_1$, $\Theta_3$, $\Theta_5$ and $\Theta_61$ are the only trivial Kervaire–Milnor groups in odd dimensions.
 \end{proposition}
 
+([Wang & Xu 17](WangXu17))
+
 ## References
 
 Named after the original discussion in:
 
-* {#KervaireMilnor1963} [[Michel A. Kervaire]], [[John W. Milnor]]: *Groups of Homotopy Spheres I*, Annals of Mathematics **77** 3 (1963) &lbrack;[doi:10.2307/1970128](https://doi.org/10.2307/1970128), [jstor:1970128](https://www.jstor.org/stable/1970128),  [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kervmiln.pdf)&rbrack;
+* {#KervaireMilnor63} [[Michel A. Kervaire]], [[John W. Milnor]]: *Groups of Homotopy Spheres I*, Annals of Mathematics **77** 3 (1963) &lbrack;[doi:10.2307/1970128](https://doi.org/10.2307/1970128), [jstor:1970128](https://www.jstor.org/stable/1970128),  [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kervmiln.pdf)&rbrack;
 
 Further descriptions:
 
