@@ -17,7 +17,7 @@ On [[equivariant homotopy theory]] and [[equivariant algebraic K-theory]]:
 
 On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit category]] (a [[naive G-spectrum]]):
 
-* [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
+* [[James Davis]], [[Wolfgang Lück]]: _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory **15** (1998) 201–252 &lbrack;[pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf)&rbrack;
 
 On [[surgery theory]]:
 
