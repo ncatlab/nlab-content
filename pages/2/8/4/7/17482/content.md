@@ -1,6 +1,12 @@
 
 
-* [webpage](https://pouiyter.github.io/)
+* [personal page](https://pouiyter.github.io/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=224367)
+
+* [Grokipedia entry](https://grokipedia.com/page/Guozhen_Wang)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Guozhen-Wang-2)
 
 
 ## Selected writings
