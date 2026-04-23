@@ -1138,11 +1138,14 @@ The appendix of the latter,
 
 focuses on sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]] (see at _[[signs in supergeometry]]_.)
 
-See also
+See also:
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
 * [[Antoine Van Proeyen]]: *Tools for supersymmetry*, Proceedings of *[Spring School on Quantum Field Theory. Supersymmetries and Superstrings](https://inspirehep.net/conferences/972589), Calimanesti, Romania, April 24-30, 1998*, Ann. U. Craiova Phys. **9** I (1999) 1-48 &lbrack;[arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030), [spire:508121](https://inspirehep.net/literature/508121)&rbrack;
+
+* Tetiana Obikhod: *Supersymmetry, Supergravity and Non--Perturbative Dynamics of Gauge Theories* &lbrack;[arXiv:2604.19817](https://arxiv.org/abs/2604.19817)&rbrack;
+
 
 
 Discussion of the relation between [[supersymmetry and division algebras]] includes
