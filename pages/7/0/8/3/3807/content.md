@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -29,6 +28,7 @@ An important special case over [[finite fields]] is called the **Riemann--Weil c
 
 * [[Riemann hypothesis and physics]]
 
+
 ## References
  {#General}
 
@@ -37,6 +37,8 @@ An important special case over [[finite fields]] is called the **Riemann--Weil c
 * [[Terence Tao]]: _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_ (2013)
 
 * [[Alain Connes]]: *An Essay on the Riemann Hypothesis: Past, Present and a Letter Through Time*, in: *Open Problems in Mathematics*, Springer (2016) &lbrack;[arXiv:2602.04022](https://arxiv.org/abs/2602.04022), [doi:10.1007/978-3-319-32162-2_5](https://doi.org/10.1007/978-3-319-32162-2_5)&rbrack;
+
+* [[Peter Sarnak]]: *The Riemann Hypothesis*, Millennium Prize Problems Lecture Series, Harvard (April 2026) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_41526/), video:[yt](https://youtu.be/DtaFyE9BcXw)&rbrack;
 
 
 See also
