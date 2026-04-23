@@ -100,7 +100,7 @@ Generalization of the construction to a large class of [[exotic 7-spheres]]:
 
 See also:
 
-* Jost-Hinrich Eschenburg, Martin Kerin, _Almost positive curvature on the Gromoll-Meyer sphere_,  Proc. Amer. Math. Soc ([arXiv:0711.2987](https://arxiv.org/abs/0711.2987))
+* {#EschenburgKerin07} [[Jost-Hinrich Eschenburg]], Martin Kerin, _Almost positive curvature on the Gromoll-Meyer sphere_,  Proc. Amer. Math. Soc ([arXiv:0711.2987](https://arxiv.org/abs/0711.2987))
 
 
 * Carlos Durán, Thomas Püttmann, _A minimal Brieskorn 5-sphere in the Gromoll-Meyer sphere and its applications_, Michigan Math. J. Volume 56, Issue 2 (2008), 419-451 ([euclid](https://projecteuclid.org/euclid.mmj/1224783521))
