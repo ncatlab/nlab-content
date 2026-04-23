@@ -12,20 +12,29 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
-An _7-manifold_ is a [[manifold]] of [[dimension]] 7. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].) 7-manifolds are of particular interest in the [[compactification]], mainly [[Freund-Rubin compactification]], of theories on [[11-manifolds]], mainly [[M-theory]] and its low energy limit in [[D=11 supergravity]], to the [[4-manifold]] observed for [[spacetime]]. It's also the lowest dimension in which the phenomenon of [[exotic spheres]] arises. [[G₂ manifolds]] are special [[7-manifolds]].
+An _7-manifold_ is a [[manifold]] of [[dimension of a manifold|dimension]] 7. (Generally a [[topological manifold]], but it can be specified to a [[PL manifold]] or a [[smooth manifold]].) 7-manifolds are of particular interest in the [[compactification]], mainly [[Freund-Rubin compactification]], of theories on [[11-manifolds]], mainly [[M-theory]] and its low energy limit in [[D=11 supergravity]], to the [[4-manifold]] observed for [[spacetime]]. It's also the lowest dimension in which the phenomenon of [[exotic spheres]] arises. [[G₂ manifolds]] are special [[7-manifolds]].
 
 ## Examples
+ {#Examples}
 
 * [[7-sphere]], which appears as total space in the [[quaternionic]] [[Hopf fibration]] $h_\mathbb{H}\colon S^7\twoheadrightarrow S^4$ and the [[quaternionic]] [[Arnold-Kuiper-Massey theorem]] $\mathbb{H}P^2/U(1)\cong S^7$. It is also given by the exceptional [[diffeomorphisms]] $S^7\cong Spin(5)/SU(2)\cong Spin(6)/SU(3)\cong Spin(7)/G_2$, see [[Spin(5)/SU(2) is the 7-sphere]] and [[Spin(7)/G₂ is the 7-sphere]].
+
 * [[exotic 7-sphere]], including the [[Gromoll-Meyer sphere]]
+
 * [[real projective space]] $\mathbb{R}P^7$
+
 * [[Spinᶜ(4)]]
+
+* [[Eschenburg space]]
+
+* [[Aloff-Wallach space]]
 
 ## Properties
 
