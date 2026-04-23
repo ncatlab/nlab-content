@@ -1,3 +1,20 @@
+
+Nolan Russell Wallach
+
+* [institute page](https://math.ucsd.edu/people/profiles/nolan-wallach)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Nolan_Wallach)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Nolan_Russell_Wallach) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=2875)
+
+* [inSpire page](https://inspirehep.net/authors/2735221)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=enlafh4AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Nolan-Wallach)
+
 ## Selected writings
 
 First discussion of [[Aloff-Wallach spaces]]:
