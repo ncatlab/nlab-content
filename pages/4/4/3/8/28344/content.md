@@ -1,3 +1,10 @@
+
+Simon Aloff
+
+* [institute page](https://directory.middlesexcollege.edu/?department=Mathematics)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=5823)
+
 ## Selected writings
 
 First discussion of [[Aloff-Wallach spaces]]:
