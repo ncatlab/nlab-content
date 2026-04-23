@@ -124,6 +124,9 @@ See also:
 
 * [[Thomas Creutzig]], Niklas Garner, Byeonggi Go, Heeyeon Kim: *W-algebras of the Deligne-Cvitanović Exceptional series and the minimal 3d $\mathcal{N}=4$ SCFT* &lbrack;[arXiv:2603.17394](https://arxiv.org/abs/2603.17394)&rbrack;
 
+* [[Thomas Creutzig]], Volodymyr Kovalchuk, Andrew R. Linshaw, Arim Song, Uhi Rinn Suh: *Universal 2-parameter $\mathcal{N}=2$ supersymmetric $\mathcal{W}_{\infty}$-algebra* &lbrack;[arXiv:2604.20750](https://arxiv.org/abs/2604.20750)&rbrack;
+
+
 
 
 ### In Fractional Quantum Hall systems
