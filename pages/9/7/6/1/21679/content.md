@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -454,6 +454,8 @@ Together this implies that the top rectangle commutes, which is the claim to be 
 
 
 ## Related concepts
+
+* [[extension lemma for differential forms]]
 
 * [[fundamental theorem of equivariant dg-algebraic rational homotopy theory]]
 
