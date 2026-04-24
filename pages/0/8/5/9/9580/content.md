@@ -2,6 +2,7 @@
 > *This page is about actions of tensor categories.
 > For [[categories of modules]] or [[actegory|actions of monoidal categories]], see there.*
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,13 +14,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
-A **module category** is a [[linear category]] equipped with an action of a [[tensor linear category]].
-That is, a module category is an [[actegory]] [[enriched category|enriched]] in $K\mathbf{Mod}$, or a [[pseudoaction]] in $K\mathbf{Mod}$-$\mathbf{Cat}$.
+A **module category** is a [[linear category]] equipped with an [[action]] of a [[tensor linear category]].
+That is, a module category is an [[actegory]] [[enriched category|enriched]] in [[category of modules|$K\mathbf{Mod}$]], or a [[pseudoaction]] [[internalization|internal to]] [[category of enriched categories|$K\mathbf{Mod}$-$\mathbf{Cat}$]].
 
 ## Related concepts
 
@@ -37,9 +36,9 @@ That is, a module category is an [[actegory]] [[enriched category|enriched]] in 
 
 ## References
 
-* Victor Ostrik, _Module categories, weak Hopf algebras and modular invariants_, ([doi](https://doi.org/10.1007/s00031-003-0515-6)), Transformation Groups, p.177-206, vol. 8, 2003, ([arXiv:0111139](https://arxiv.org/abs/math/0111139))
+* [[Victor Ostrik]]: *Module categories, weak Hopf algebras and modular invariants*, Transformation Groups **8** (2003)  177-206 &lbrack;[doi:10.1007/s00031-003-0515-6](https://doi.org/10.1007/s00031-003-0515-6), [arXiv:0111139](https://arxiv.org/abs/math/0111139)&rbrack;
 
-* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]]: _Dualizable tensor categories_ &lbrack;[arXiv:1312.7188](http://arxiv.org/abs/1312.7188)&rbrack;
 
 [[!redirects module categories]]
 
