@@ -17,7 +17,7 @@
 
 ## Idea
 
-The *extension lemma* for [[differential forms]] states that suitable [[differential forms]] on the [[boundary of a simplex|boundary of]] a [geometric](simplex#TopologicalSimplex) [[simplex]] extend to (hence are the [[pullback of differential forms|pullback]] along the boundary inclusion of) a differential form on the full simplex.
+The *extension lemma* for [[differential forms]] states that suitable [[differential forms]] on the [[boundary of a simplex|boundary of]] a [geometric](simplex#TopologicalSimplex) [[simplex]] [[extension|extend]] to (hence are the [[pullback of differential forms|pullback]] along the [[boundary]] inclusion of) a differential form on the full [[simplex]].
 
 This statement is a crucial ingredient in the [[fundamental theorem of dg-algebraic rational homotopy theory]]. With respect to the [[projective model structure on connective dgc-algebras]] used there, it is equivalent to the condition that the [[simplicial object|simplicial]] [[dgc-algebra]] of differential forms on simplices is a [[Reedy model category|Reedy]] [[fibrant object|fibrant]].
 
