@@ -35,7 +35,7 @@ A **unified topological space** is a [[set]] $A$ with a **unified topology** - t
 
   * if $x \bowtie U$, then $x \in U$ is false
 
-  * if $x \bowtie U$ and $U \subseteq V$, then $x \bowtie V$
+  * if $x \bowtie U$ and $U \supseteq V$, then $x \bowtie V$
 
   * $x \bowtie \emptyset$
 
