@@ -9,9 +9,9 @@
 =--
 =--
 
-# Differential forms
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -237,6 +237,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 * [[absolute differential form]], [[cogerm differential form]]
 
 * [[holomorphic differential form]]
+
+* [[extension lemma for differential forms]]
 
 * [[differential form with logarithmic singularities]]
 
