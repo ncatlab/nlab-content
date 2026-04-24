@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
  {#Idea}
@@ -975,6 +973,7 @@ _[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)
 
 * [[Joyal-Tierney calculus]]
 
+
 ## References 
 
 The original text is
@@ -983,7 +982,7 @@ The original text is
 
 Textbook accounts:
 
-* {#Hovey99} [[Mark Hovey]], Section 5.2 of: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+* {#Hovey99} [[Mark Hovey]], Section 5.2 of: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Chapter 15 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
@@ -994,7 +993,7 @@ Textbook accounts:
 
 An overview stressing the role of [[weighted colimit|weighted colimits]] is in
 
-* [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
+* [[Emily Riehl]], [[Dominic Verity]]: *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html), [arXiv:1304.6871 math.CT](https://arxiv.org/abs/1304.6871)&rbrack;
 
 
 Discussion of functoriality of Reedy model structures:
