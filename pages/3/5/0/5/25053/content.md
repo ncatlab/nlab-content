@@ -31,12 +31,12 @@ Expositions:
 * [[Grigorios Giotopoulos]]: *Sheaf Topos Theory as a setting for Physics*, talk at *[Workshop on Noncommutative and Generalized Geometry in String Theory](http://www.physics.ntua.gr/corfu2024/nc.html)*, Corfu Summer Institute (2024) &lbrack;[[Giotopoulos-ToposTheoryForPhysics.pdf:file]]&rbrack;
   > (also on [[super smooth sets]])
 
-* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory* &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095)&rbrack;
+* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory*, Proceedings of Science **490** (2025) &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095), [doi:10.22323/1.490.0300](https://doi.org/10.22323/1.490.0300)&rbrack;
 
 
 On [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field]] via [[superspace]]-formulation of [[on-shell]] [[D=11 supergravity]]:
 
-* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
+* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
 
 
 On [[geometry of physics -- flux quantization|flux quantization]] of the (non-linearly) [[self-dual higher gauge field]] on [[M5-brane]] [[worldvolumes]]:
