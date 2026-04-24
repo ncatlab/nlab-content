@@ -122,6 +122,11 @@ It is also a [[topological manifold]], even a [[smooth manifold]], except that o
 
 * Wikipedia, _[Line with two origins](https://topospaces.subwiki.org/wiki/Line_with_two_origins)_
 
+See also:
+
+* Igor Vlasenko, Sergiy Maksymenko: *One-dimensional non-Hausdorff manifolds and CW complexes* &lbrack;[arXiv:2604.21868](https://arxiv.org/abs/2604.21868)&rbrack;
+
+
 
 [[!redirects line with two origins]]
 [[!redirects lines with two origins]]
