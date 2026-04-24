@@ -94,6 +94,7 @@ In something like the [[dual]] sense of the above, *extension* is also used to i
 
 * [[extension of distributions]]
 
+
 ## Examples 
 
 ### Extension of functions
@@ -101,6 +102,10 @@ In something like the [[dual]] sense of the above, *extension* is also used to i
 The [[Tietze extension theorem]] is about *extensions of continuous maps* from a subspace to a normal toplogical space. 
 
 [[!include extension theorems -- table]]
+
+### Exension of differential forms
+
+See *[[extension lemma for differential forms]]*.
 
 ### Extension of representations
 
