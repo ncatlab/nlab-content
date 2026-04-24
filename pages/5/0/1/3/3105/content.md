@@ -647,8 +647,8 @@ Discussion of Whitehead products in [[rational homotopy theory]] ([[the co-binar
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J. C. Thomas, Prop. 13.16 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
-* Francisco Belchí, [[Urtzi Buijs]], José M. Moreno-Fernández, Aniceto Murillo, _Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL_, Linear Algebra and its Applications, Volume 520 (2017), pages 16-31 ([arXiv:1604.01478](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008))
-    
+* [[Francisco Belchí]], [[Urtzi Buijs]], [[José M. Moreno-Fernández]], [[Aniceto Murillo]]: *Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL*, Linear Algebra and its Applications **520** (2017) 16-31 &lbrack;[arXiv:1604.01478 math.AT](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008)&rbrack;
+        
 * Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
 
 The Whitehead product of $\mathbb{C}P^1 \vee \mathbb{C}P^1 \to \mathbb{C}P^\infty \times \mathbb{C}P^\infty$ in relation to the [[Dolbeault complex]]:
