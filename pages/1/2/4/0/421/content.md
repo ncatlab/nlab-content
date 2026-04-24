@@ -61,8 +61,7 @@ In the following, for $n \in \mathbb{N}$ we regard the [[Cartesian space]] $\mat
 ###### Definition
 
 For $n \in \mathbb{N}$, the **topological $n$-simplex** is, 
-up to [[homeomorphism]], the [[topological space]] whose underlying set is
-the [[subset]]
+up to [[homeomorphism]], the [[topological space]] whose [[underlying set]] is the [[subset]]
 
 $$
   \Delta^n 
@@ -70,7 +69,7 @@ $$
   \Big\{
     \vec x \in (\mathbb{R}_{\geq 0})^{n+1}
     \,\big|\,
-    \textstyle{\sum}_{i = 0 }^n x^i = 1 
+    \textstyle{\sum}_{i = 0 }^n x_i = 1 
   \Big\}
   \;\subset\; 
   \mathbb{R}^{n+1}
