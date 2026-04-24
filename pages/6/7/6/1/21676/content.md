@@ -55,7 +55,7 @@ $$
 Besides the [[Poincaré lemma]] for piecewise polynomial forms, the proof uses:
 
 \begin{lemma}\label{ExtensionLemma}
-**(extension lemma)**
+**([[extension lemma for differential forms|extension lemma]])**
 Given a PL form on the [[boundary of a simplex]], it extends to (hence is the [[pullback of differential forms|restriction of]]) a PL form on the full [[n-simplex]].
 \end{lemma}
 (cf. [Griffiths & Morgan 2013, Lemma 9.4](#GriffithsMorgan13))
@@ -252,7 +252,7 @@ This has the following further variants:
 
 ## References
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]]: _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS **179** (1976) &lbrack;[ams:memo-8-179](https://bookstore.ams.org/memo-8-179)&rbrack;
 
 Including the variant of piecewise smooth forms:
 
