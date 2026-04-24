@@ -2,7 +2,7 @@ Dominic Verity is a British [[higher category theory|higher]] [[category theory|
 
 Verity has worked on the theory of [[complicial sets]] and their [[weak complicial sets|weak analogues]], which followed up on ideas of [[John Roberts]] on cohomology and, effectively, [[omega-category]] theory.
 
-More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1)-category theory|$(\infty, 1)$-category theory]] seen through their [[homotopy 2-category]], and using the concept of [[∞-cosmoi]] to capture common structure of different presentations of $(\infty, 1)$-categories.
+More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1)-category theory|$(\infty, 1)$-category theory]] seen through their [[homotopy 2-category]], and using the concept of [[∞-cosmoi]] to capture common structure of different presentations of [[(infinity,1)-category|$(\infty,1)$-categories]].
 
 
 * [personal page](https://dom-verity.github.io/)
@@ -64,7 +64,7 @@ On [[(∞,1)-functors]] and [[(∞,1)-monads]]:
 
 On [[Reedy model structures]] via [[weighted colimits]]:
 
-* [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
+* [[Emily Riehl]], [[Dominic Verity]]: *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html), [arXiv:1304.6871 math.CT](https://arxiv.org/abs/1304.6871)&rbrack;
 
 
 On the [[Yoneda lemma for (∞,1)-categories]]:
