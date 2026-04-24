@@ -96,7 +96,7 @@ $$
     \,\in\,
     \mathbb{R}^{n+1}
     \,\left\vert\,
-    \sum_i x_i \,=\, 1
+    \textstyle{\sum_i} x_i \,=\, 1
     \right.
   \Big\}
   \;\subset\;
