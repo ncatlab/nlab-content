@@ -1,5 +1,11 @@
 
-* [website](http://mhovey.web.wesleyan.edu/)
+Mark Allen Hovey
+
+* [institute page](https://www.wesleyan.edu/about/directory/profile.html?id=mhovey)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=64874)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Mark-Hovey-13017005)
 
 ## Selected writings
 
@@ -20,7 +26,7 @@ On [[monoidal model categories]]:
 
 On [[model categories]]:
 
-* [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s),   [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+* [[Mark Hovey]]: _[[Model Categories]]_, Mathematical Surveys and Monographs **63**, AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s),   [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
 * {#Hovey99Err} [[Mark Hovey]], _Errata to Model Categories_ (1999) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf), [[Hovey-ModelCategories-Errata.pdf:file]]&rbrack;
 
