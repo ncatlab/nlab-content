@@ -452,9 +452,10 @@ The category of sheaves of the site of smooth manifolds is considered as a model
 * {#Cisinski} [[Denis-Charles Cisinski]], _Théories homotopiques dans les topos_, Journal of Pure and Applied Algebra 174:1 (2002), 43–82.  [doi:10.1016/s0022-4049(01)00176-1][CisinskiURL].
 [CisinskiURL]: https://doi.org/10.1016/s0022-4049(01)00176-1
 
-* {#Clough} [[Adrian Clough]], _The homotopy theory of differentiable sheaves_, [arXiv:2309.01757](https://arxiv.org/abs/2309.01757).
+* {#Pavlov} [[Dmitri Pavlov]]: *Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle*, Homology, Homotopy, and Applications **26** 2 (2024) 375–408 &lbrack;[arXiv:2210.12845](https://arxiv.org/abs/2210.12845), [doi:10.4310/HHA.2024.v26.n2.a18](https://doi.org/10.4310/HHA.2024.v26.n2.a18)&rbrack;
 
-* {#Pavlov} [[Dmitri Pavlov]], _Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle_, Homology, Homotopy, and Applications 26:2 (2024), 375–408.  [arXiv:2210.12845](https://arxiv.org/abs/2210.12845).
+* {#Clough} [[Adrian Clough]]: _The homotopy theory of differentiable sheaves_ &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
+
 
 and in the context of [[simplicial homotopy theory]] in:
 
@@ -509,7 +510,7 @@ Exposition:
 * [[Grigorios Giotopoulos]]: *Sheaf Topos Theory as a setting for Physics*, talk at *[Workshop on Noncommutative and Generalized Geometry in String Theory](http://www.physics.ntua.gr/corfu2024/nc.html)*, Corfu Summer Institute (2024) &lbrack;[[Giotopoulos-ToposTheoryForPhysics.pdf:file]]&rbrack;
   > (also on [[super smooth sets]])
 
-* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory* &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095)&rbrack;
+* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory*, Proceedings of Science **490** (2025) &lbrack;[arXiv:2504.08095 math-ph](https://arxiv.org/abs/2504.08095), [doi:10.22323/1.490.0300](https://doi.org/10.22323/1.490.0300)&rbrack;
 
 * [[Alberto Ibort]], Arnau Mas: *Smooth sets of fields: A pedagogical introduction*, Geometric Mechanics (2025) &lbrack;[arXiv:2510.20422](https://arxiv.org/abs/2510.20422), [doi:10.1142/S2972458925400052](https://doi.org/10.1142/S2972458925400052), [ResearchGate:394210704](https://www.researchgate.net/publication/394210704)&rbrack;
 
