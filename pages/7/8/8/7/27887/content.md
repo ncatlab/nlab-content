@@ -298,5 +298,8 @@ See also:
 
 * Wikipedia, _[Seiberg–Witten moduli space](https://en.wikipedia.org/wiki/Seiberg–Witten_moduli_space)_
 
+[[!redirects Seiberg-Witten moduli spaces]]
 [[!redirects SW moduli space]]
+[[!redirects SW moduli spaces]]
 [[!redirects monopole moduli space]]
+[[!redirects monopole moduli spaces]]
