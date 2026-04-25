@@ -475,6 +475,9 @@ equipped with 2-cells
 
 
 ***
+
+Spider lemma (corrected)
+
 \begin{tikzpicture}[scale=2.5]
   \usetikzlibrary{decorations.markings, arrows.meta, calc}
   \tikzset{
@@ -608,12 +611,12 @@ equipped with 2-cells
     % edge labels
     \node[above] at (N)   {$f_2$};
     \node[below] at (S)   {$g_2$};
-    \node[left]  at (WNW) {$A_1(f_1, 1)$};
+    \node[left]  at (WNW) {$A_1(1, f_1)$};
     \node[left]  at (W)   {$H$};
-    \node[left]  at (WSW) {$B_1(1, g_1)$};
-    \node[right] at (ENE) {$A_3(1, f_3)$};
+    \node[left]  at (WSW) {$B_1(g_1, 1)$};
+    \node[right] at (ENE) {$A_3(f_3, 1)$};
     \node[right] at (E)   {$J$};
-    \node[right] at (ESE) {$B_3(g_3, 1)$};
+    \node[right] at (ESE) {$B_3(1, g_3)$};
 
     % area labels
     \node at ($(NW)!0.5!(WNW)+(0.3, 0)$)  {$A_1$};
