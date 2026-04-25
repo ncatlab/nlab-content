@@ -200,10 +200,10 @@ The same argument also applies to [[smooth differential forms]] on "extended sim
 
  where the condition $\forall_i \, x^i \geq 0$ is dropped (which plays no role in the above proof). 
 
-This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that $\mathbb{R}$-[[rationalization]] $L^{\mathbb{R}} X$ of a [[nilpotent topological space]], encoded in its [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}X$ (over $\mathbb{R}$) is equivalently the [[shape modality|shape]] 
+This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that $\mathbb{R}$-[[rationalization]] $L^{\mathbb{R}} X$ of a [[nilpotent topological space]] of [[rational cohomology|rational]] [[finite type]], encoded in its [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}X$ (over $\mathbb{R}$) is equivalently the [[shape modality|shape]] 
 
 $$
-  L^{\mathbb{R}}
+  L^{\mathbb{R}}X
   \sim
   \esh 
    \,
@@ -231,6 +231,8 @@ $$
     \mathrlap{\,.}
   \end{array}
 $$
+
+In fact, the above proof of the extension lemma also immediately applies to differential forms on the [[product manifold]] of extended simplices with any [[smooth manifold]] $B$.
 
 \end{remark}
 
