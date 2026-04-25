@@ -1,5 +1,13 @@
 
+Clifford Henry Taubes
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Clifford_Taubes)
+
+* [MathGenealogy entry](https://www.mathgenealogy.org/id.php?id=18756)
+
+* [inSpire page](https://inspirehep.net/authors/1048255)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Clifford-Henry-Taubes-43445402)
 
 ## Selected writings
 
