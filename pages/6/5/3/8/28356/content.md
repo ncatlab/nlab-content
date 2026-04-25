@@ -1,5 +1,17 @@
-* [Google Scholar](https://scholar.google.com/citations?user=pPF9Um4AAAAJ&hl=en)
-* [Math Genealogy](https://www.mathgenealogy.org/id.php?id=37557)
+
+Thomas G. Leness
+
+* [institute page](https://case.fiu.edu/about/directory/profiles/leness-thomas.html)
+
+* [personal page](https://faculty.fiu.edu/~lenesst/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=pPF9Um4AAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=37557)
+
+* [inSpire page](https://inspirehep.net/authors/2262087)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Thomas-Leness)
 
 ## Selected writings
 
