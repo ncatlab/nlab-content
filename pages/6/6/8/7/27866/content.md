@@ -137,11 +137,17 @@ for $b_2^+(M)\geq 2$ and $b_2^+(M)=1$, respectively. If $M$ is a [[K3 surface]],
 
 * {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
 
-* {#EinhornFriedrich} [[Jürgen Einhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* {#EichhornFriedrich} [[Jürgen Eichhorn]], [[Thomas Friedrich]], _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 * [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
 * [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
+
+On [[Seiberg-Witten invariants]] and [[symplectic manifolds]]:
+
+* {#KotschickSWsymplectic95} [[Dieter Kotschick]], _The Seiberg-Witten invariants of symplectic four-manifolds_ (1995) &lbrack;[pdf](https://users.math.msu.edu/users/parker/993Spring11/Kotschick.pdf)&rbrack;
+
+* {#KotschickMorganTaubes95} [[Dieter Kotschick]], [[John Morgan]], and [[Clifford Taubes]], _Four-Manifold without symplectic structure but with non-trivial Seiberg-Witten invariants_, Mathematical Research Letters **2**, pp. 119–124 (1995) &lbrack;[doi:10.4310/MRL.1995.v2.n2.a1](https://doi.org/10.4310/MRL.1995.v2.n2.a1) [pdf](https://projecteuclid.org/journals/mathematical-research-letters/volume-2/issue-2/Four-manifolds-without-symplectic-structures-but-with-nontrivial-Seiberg-Witten/10.4310/MRL.1995.v2.n2.a1.pdf)&rbrack;
 
 See also:
 
