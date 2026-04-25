@@ -126,7 +126,7 @@ p_1 Ad(P_n)[X]
 =-4c_2(P_n)[X]
 =-4n.
 $$
-([Donaldson & Kronheimer 97, Eq. (2.1.39)](#DonaldsonKronheimer97)) (The [[adjoint representation]] $Ad\colon SU(2)\rightarrow SO(3)$ is the [[identity morphism|identity]].)
+([Donaldson & Kronheimer 97, Eq. (2.1.39)](#DonaldsonKronheimer97)) (The [[adjoint representation]] $Ad\colon SU(2)\rightarrow SO(3)$ is the [[double cover]].)
 
 For $X=S^4$, one has [[signature]] $\sigma(S^4)=0$ and [[Euler characteristic]] $\chi(S^4)=2$. Hence the dimension formulas give:
 $$
@@ -172,11 +172,11 @@ $$
 For $X=S^4$, one has [[signature]] $\sigma(S^4)=0$ and [[Euler characteristic]] $\chi(S^4)=2$. Hence the dimension formulas give:
 $$
 dim\mathcal{M}_{S^4,P_{w,n}}^SDYM
-=n-3;
+=2n-3;
 $$
 $$
 dim\mathcal{M}_{S^4,P_{w,n}}^ASDYM
-=n-3.
+=2n-3.
 $$
 
 ## Related entries
