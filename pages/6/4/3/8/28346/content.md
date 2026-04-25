@@ -46,7 +46,7 @@ $$
   \right\}
 $$
 
-such that the $i$th vertex is the point $v_i \in \Delta^n$ with coordinates
+such that the $i$th [[vertex]] is the point $v_i \in \Delta^n$ with [[coordinates]]
 
 $$
   x^k(v_i)
@@ -180,34 +180,57 @@ which vanishes in a neighbourhood of $x^i = 1$ and is unity for $x^i = 0$.
 
 This has the following further variants: 
 
-* The same argument also applies to differential forms on "extended simplices" (see [this Def.](shape+via+cohesive+path+∞-groupoid#SmoothExtendedSimplices))
+\begin{remark}
+The same argument also applies to [[smooth differential forms]] on "extended simplices" (see [this Def.](shape+via+cohesive+path+∞-groupoid#SmoothExtendedSimplices))
 
-   $$
-     \Delta^n_{ext} 
-     \,\equiv\,
-     \left\{
-       \,
-       (x^0, \cdots, x^n)
-       \,\in\,
-       \mathbb{R}^{n+1}
-       \;\Big\vert\;
-       \textstyle{\sum}_k x^k = 1 
-       \,
-     \right\}
-     \,,
-   $$
-
-   where the condition $\forall_i \, x^i \geq 0$ is dropped (which plays no role in the above proof). 
-
-  This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that rational space encoded in a [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{a}$ is equivalently the [[shape modality|shape]] 
-
-   $$
-     \esh 
+ $$
+   \Delta^n_{ext} 
+   \,\equiv\,
+   \left\{
      \,
-     \Omega^1_{dR}(-;\mathfrak{a})_{flat}
-   $$
+     (x^0, \cdots, x^n)
+     \,\in\,
+     \mathbb{R}^{n+1}
+     \;\Big\vert\;
+     \textstyle{\sum}_k x^k = 1 
+     \,
+   \right\}
+   \,,
+ $$
 
-   of the [[smooth set]] of [[flat L-infinity algebra valued differential forms|flat $\mathfrak{a}$-valued differential forms]].
+ where the condition $\forall_i \, x^i \geq 0$ is dropped (which plays no role in the above proof). 
+
+This is noteworthy, because it implies, with the discussion at *[[shape via cohesive path ∞-groupoid]]* and using the [[fundamental theorem of dg-algebraic rational homotopy theory]], that that $\mathbb{R}$-[[rationalization]] $L^{\mathbb{R}} X$ of a [[nilpotent topological space]], encoded in its [[Sullivan model]]/[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}X$ (over $\mathbb{R}$) is equivalently the [[shape modality|shape]] 
+
+$$
+  L^{\mathbb{R}}
+  \sim
+  \esh 
+   \,
+   \mathbf{\Omega}^1_{cl}\big(\ast;\mathfrak{l}X\big)
+ $$
+
+of the [[smooth set]] of [[flat L-infinity algebra valued differential forms|closed $\mathfrak{l}X$-valued differential forms]]:
+
+$$
+  \begin{array}{ccc}
+    CartSp^{op} 
+    &
+      \overset{
+        \mathbf{\Omega}^1_{cl}(\ast;\mathfrak{l}X)
+      }{\longrightarrow}
+    &
+    Set
+    \\
+    U 
+     &\mapsto&
+    Hom_{dgAlg}\big(
+      CE(\mathfrak{l}X),
+      \Omega^\bullet_{dR}(U)
+    \big)
+    \mathrlap{\,.}
+  \end{array}
+$$
 
 \end{remark}
 
