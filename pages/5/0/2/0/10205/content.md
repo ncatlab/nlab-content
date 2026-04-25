@@ -20,5 +20,11 @@ On the [[Yang-Mills-Higgs equations]]:
 
 * {#Taubes85} [[Clifford Taubes]], _Min-max theory for the Yang-Mills-Higgs equations_, Communications in Mathematical Physics **97** (1985) 295–297 &lbrack;[doi:10.1007/BF01221215](https://doi.org/10.1007/BF01221215)&rbrack;
 
+On [[Seiberg-Witten invariants]] and [[symplectic manifolds]]:
+
+* {#KotschickMorganTaubes95} [[Dieter Kotschick]], [[John Morgan]], and [[Clifford Taubes]], _Four-Manifold without symplectic structure but with non-trivial Seiberg-Witten invariants_, Mathematical Research Letters **2**, pp. 119–124 (1995) &lbrack;[doi:10.4310/MRL.1995.v2.n2.a1](https://doi.org/10.4310/MRL.1995.v2.n2.a1) [pdf](https://projecteuclid.org/journals/mathematical-research-letters/volume-2/issue-2/Four-manifolds-without-symplectic-structures-but-with-nontrivial-Seiberg-Witten/10.4310/MRL.1995.v2.n2.a1.pdf)&rbrack;
+
+* {#Clifford00} [[Clifford Taubes]], _Seiberg-Witten and 
+Gromov invariants for symplectic 4-manifolds_ &lbrack;[pdf](https://intlpress.com/site/pub/files/preview/bookpubs/00000312.pdf)&rbrack;
 
 category: people
