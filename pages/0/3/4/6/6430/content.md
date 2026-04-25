@@ -20,6 +20,10 @@ On [[complex surfaces]] and their [[elliptic fibrations]]:
 
 * {#FriedmanMorgan94} [[Robert Friedman]], [[John Morgan]], _Smooth Four-Manifolds and Complex Surfaces_, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics (1994) ([doi:10.1007/978-3-662-03028-8](https://www.springer.com/gp/book/9783540570585))
 
+On [[Seiberg-Witten invariants]] and [[symplectic manifolds]]:
+
+* {#KotschickMorganTaubes95} [[Dieter Kotschick]], [[John Morgan]], and [[Clifford Taubes]], _Four-Manifold without symplectic structure but with non-trivial Seiberg-Witten invariants_, Mathematical Research Letters **2**, pp. 119–124 (1995) &lbrack;[doi:10.4310/MRL.1995.v2.n2.a1](https://doi.org/10.4310/MRL.1995.v2.n2.a1) [pdf](https://projecteuclid.org/journals/mathematical-research-letters/volume-2/issue-2/Four-manifolds-without-symplectic-structures-but-with-nontrivial-Seiberg-Witten/10.4310/MRL.1995.v2.n2.a1.pdf)&rbrack;
+
 On [[quantum field theory]] and [[string theory]]:
 
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]], eds.  
