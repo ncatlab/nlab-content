@@ -1,3 +1,14 @@
+
+Robert Andrzej Bartnik (1956-2022)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Robert_Bartnik)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=58243)
+
+* [inSpire page](https://inspirehep.net/authors/1017216)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Robert-Bartnik-2044195515)
+
 ## Selected writings
 
 Solutions in [[Einstein-Yang-Mills theory]]:
