@@ -1,3 +1,16 @@
+
+Joel Allen Smoller
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Joel_Smoller)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=7806)
+
+* [inSpire page](https://inspirehep.net/authors/2206043)
+
+* [ResearchGate page](https://www.researchgate.net/profile/J-Smoller)
+
+## Selected writings
+
 Solutions in [[Einstein-Yang-Mills theory]]:
 
 * {#SmollerWassermanYauMcLeod92} [[Joel Smoller]], [[Arthur Wasserman]], [[Shing-Tung Yau]], J. Bryce McLeod, _Smooth static solutions of the Einstein-Yang/Mills equation_, Bull. Amer. Math. Soc. (N.S.) **27**, pp. 239-242 (1992) &lbrack;[arXiv:math/9210226](https://arxiv.org/abs/math/9210226) [doi:10.1007/BF02097002](https://doi.org/10.1007/BF02097002)&rbrack;
