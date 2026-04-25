@@ -1,5 +1,10 @@
 * [institute webpage](https://www.math.kyoto-u.ac.jp/en/people/profile/tkato)
+
 * [Math Genealogy](https://www.mathgenealogy.org/id.php?id=230588)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ZR6fMWcAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Tsuyoshi-Kato-39558862)
 
 ## Selected writings
 
