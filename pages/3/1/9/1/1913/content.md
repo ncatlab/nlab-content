@@ -280,12 +280,11 @@ Exposition with eye towards applications in [[mathematical physics]]:
 
 An introductory wiki-format textbook is
 
-* {#Dray_GDF} Tevian Dray, _The Geometry of Differential Forms_, [web](http://physics.oregonstate.edu/coursewikis/GDF/)
+* {#Dray_GDF} Tevian Dray, _The Geometry of Differential Forms_ &lbrack;[web](http://physics.oregonstate.edu/coursewikis/GDF/)&rbrack;
 
 published as half of
 
-* Tevian Dray, _Differential Forms and the Geometry of General Relativity_, A K Peters/CRC Press, 2014,
- [web](http://physics.oregonstate.edu/coursewikis/DFGGR/bookinfo/).
+* Tevian Dray, _Differential Forms and the Geometry of General Relativity_, A K Peters/CRC Press (2014) &lbrack;[web](http://physics.oregonstate.edu/coursewikis/DFGGR/bookinfo/)&rbrack;
 
 The equivalence between differential forms and smooth functors on the [[path groupoid]] in low degree is discussed in
 
@@ -294,8 +293,11 @@ The equivalence between differential forms and smooth functors on the [[path gro
 Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]], about whether integration of forms or pseudoforms is most fundamental (and about whether twisted forms in general are useful and interesting geometric objects or the bastard spawn of hell) may be found in [this giant Usenet thread](https://groups.google.com/group/sci.physics.research/browse_thread/thread/6a231426b3a313c0/2888a120a9b1f5ad).  More specifically:
 
 *  [John\'s alter ego the Wizard](https://groups.google.com/group/sci.physics.research/msg/3c6a1a7237b66c8c?dmode=source) explains why $n$-pseudoforms are the most natural things to integrate on an $n$-dimensional manifold;
+
 *  [applications of pseudoforms](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
+
 *  [the general notion of form](https://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
+
 *  [absolute values of forms](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them (near the end of the post, a precursor to [[absolute differential forms]]).
 
 
@@ -317,6 +319,9 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects p-forms]]
 [[!redirects n-form]]
 [[!redirects n-forms]]
+
+[[!redirects smooth differential form]]
+[[!redirects smooth differential forms]]
 
 [[!redirects differential n-form]]
 [[!redirects differential n-forms]]
