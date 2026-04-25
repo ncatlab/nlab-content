@@ -17,7 +17,10 @@ The _Hirzebruch-Riemann-Roch theorem_ identifies for a [[holomorphic vector bund
 
 ## References
 
-* [[Friedrich Hirzebruch]], _Topological methods in algebraic geometry_, russian translation, Mir, Moscow, 1973.
+* Wikipedia: _[Hirzebruch-Riemann-Roch theorem](https://en.wikipedia.org/wiki/Hirzebruch%E2%80%93Riemann%E2%80%93Roch_theorem)_
 
-* Wikipedia, _[Hirzebruch-Riemann-Roch theorem](https://en.wikipedia.org/wiki/Hirzebruch%E2%80%93Riemann%E2%80%93Roch_theorem)_
+* [[Friedrich Hirzebruch]]: _Topological methods in algebraic geometry_, Springer (1978), Classics in Mathematics, Springer (1995) &lbrack;[doi:10.1007/978-3-642-62018-8](https://doi.org/10.1007/978-3-642-62018-8), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v23/documents/978-3-642-62018-8.pdf)&rbrack;
 
+Review of the genesis of the theorem:
+
+* {#Kotschick13} [[Dieter Kotschick]]: _1953_, The Institute Letter, IAS (2013) &lbrack;[online](https://www.ias.edu/ideas/2013/kotschick-1953)&rbrack;
