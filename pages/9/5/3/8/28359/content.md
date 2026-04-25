@@ -1,4 +1,11 @@
+
+Kouichi Yasui
+
 * [institute webpage](https://www.ist.osaka-u.ac.jp/english/researcher/detail.php?id=2)
+
+* [institute page](http://www.math.sci.osaka-u.ac.jp/eng/staff_yasui.html)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Kouichi-Yasui-14728857)
 
 ## Selected writings
 
