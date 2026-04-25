@@ -1,3 +1,6 @@
+
+* [arXiv page](https://arxiv.org/search/gr-qc?searchtype=author&query=Fisher,+M)
+
 ## Selected writings
 
 On solutions in [[Einstein-Yang-Mills theory]]:
