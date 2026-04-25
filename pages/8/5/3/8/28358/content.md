@@ -1,5 +1,10 @@
-* [institute webpage](https://www.fmu.ac.jp/kenkyu/html/5952_en.html)
-* [Google Scholar](htps://scholar.google.com/citations?user=qR0rU4AAAAAJ&hl=ja)
+* [institute page](https://www.fmu.ac.jp/kenkyu/html/5952_en.html)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=248544)
+
+* [GoogleScholar page](htps://scholar.google.com/citations?user=qR0rU4AAAAAJ&hl=ja)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Nobuhiro-Nakamura)
 
 ## Selected writings
 
