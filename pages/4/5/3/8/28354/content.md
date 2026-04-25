@@ -1,3 +1,17 @@
+
+Todd A. Oliynyk
+
+* [institute page](https://research.monash.edu/en/persons/todd-oliynyk/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=56518&fChrono=1)
+
+* [inSpire page](https://inspirehep.net/authors/1059130)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=gSp7bk8AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Todd-Oliynyk)
+
+
 ## Selected writings
 
 On solutions in [[Einstein-Yang-Mills theory]]:
