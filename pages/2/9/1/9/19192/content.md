@@ -7,7 +7,7 @@
 
 ## Selected writings
 
-On [[algebraic topology]] woth [[semisimplicial sets]]:
+On [[algebraic topology]] with [[semisimplicial sets]]:
 
 * [[Klaus Lamotke]]: *Semisimpliziale Algebraische Topologie*, Grundlehren der Mathematischen Wissenschaften **147**, Springer (1968) \[<a href="https://doi.org/10.1007/978-3-662-12988-3">doi:10.1007/978-3-662-12988-3</a>\]
 
