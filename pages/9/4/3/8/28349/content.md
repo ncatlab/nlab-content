@@ -1,3 +1,14 @@
+
+* [institute page](https://www.uni-regensburg.de/mathematik/prof-dr-felix-finster)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Felix_Finster)
+
+* [inSpire page](https://inspirehep.net/authors/1009938)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=F7ppNroAAAAJ&hl=de)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Felix-Finster)
+
 ## Selected writings
 
 On [[Einstein-Yang-Mills-Dirac theory]]:
