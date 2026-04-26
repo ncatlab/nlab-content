@@ -51,6 +51,12 @@ The notion of replacing morphisms by _bonds_ is familiar and concretely realized
 Accordingly, the notion of [[multispan]] and [[multi-cospan]] may come close to exhibiting some crucial aspects of the idea that motivated the concept of hyperstructures.
 \end{remark}
 
+## Related concepts
+
+* [[cyclic operad]]
+
+* [[(infinity,n)-category with adjoints|$(\infty,n)$-category with adjoints]]
+
 
 ## References
 
