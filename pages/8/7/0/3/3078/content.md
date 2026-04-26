@@ -1,26 +1,45 @@
 
-Mikhail Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
+Mikhail M. Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
 
-* [old Yale website](http://www.math.yale.edu/~mk486/); [old Toronto website](http://www.math.toronto.edu/kapranov/)
+* [institute page](https://db.ipmu.jp/member/personal/2760en.html)
 
-* A list of publications [html](http://www.math.yale.edu/~mk486/publ.html)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mikhail_Kapranov)
 
-* lecture at msri 2000 _Noncommutative neighborhoods and noncommutative Fourier transform_: [link](http://msri.org/publications/ln/msri/2000/interact/kapranov/1/index.html)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=15018)
+
+* [inSpire page](https://inspirehep.net/authors/2248958)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Mikhail-Kapranov)
 
 ## Selected writings
+
+> (cf. also the publication list at [www.math.yale.edu/~mk486/publ.html](http://www.math.yale.edu/~mk486/publ.html)
 
 Introducing [[Serre functors]]:
 
 * {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716)&rbrack;
 
+Introducing the notion of [[cyclic operads]]:
+
+* {#GetzlerKapranov1995} [[Ezra Getzler]], [[Mikhail Kapranov]]: *Cyclic operads and cyclic homology*, in: *Geometry, topology and physics*, International Press (1995) 167-201 &lbrack;[pdf](http://sites.northwestern.edu/getzler/files/2019/08/cyclic.pdf), [intlpress:1698885469150470146](https://intlpress.com/BDetail?id=1698885469150470146)&rbrack;
+
 On [[algebraic K-theory]] and [[Morse theory]]:
 
 * [[Mikhail Kapranov]], [[Masahico Saito]]: *Hidden Stasheff polytopes in algebraic K-theory and in the space of Morse functions*, in: *Higher homotopy structure in topology and mathematical physics (Poughkeepsie, N.Y. 1996)*, Contemporary Mathematics **227**, AMS (1999) 191–225 &lbrack;[ams:CONM/227](https://bookstore.ams.org/CONM/227), [pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e527fb6b2fdd056c3da5e7d03cd9fb8ea93d45f1)&rbrack;
+
+Introducing [[modular operads]]:
+
+* {#GetzlerKapranov1998} [[Ezra Getzler]], [[Mikhail Kapranov]]: *Modular operads*,  Compositio Math.  **110** 1 (1998) 65--126 &lbrack;[doi:10.1023/A:1000245600345](http://dx.doi.org/10.1023/A:1000245600345), [arXiv:dg-ga/9408003](http://arxiv.org/abs/dg-ga/9408003), [MR99f:18009](http://www.ams.org/mathscinet-getitem?mr=99f:18009)&rbrack;
 
 
 On [[Rozansky-Witten invariants]]:
 
 * {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
+
+On [[noncommutative geometry]]:
+
+* [[Mikhail Kapranov]]: _Noncommutative neighborhoods and noncommutative Fourier transform_, lecture at MSRI (2000) &lbrack;[link](http://msri.org/publications/ln/msri/2000/interact/kapranov/1/index.html)&rbrack;
+
 
 On [[2-representations]]:
 
@@ -50,6 +69,8 @@ On [[higher Segal space]]s
 * [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Higher Segal spaces I_, [arxiv:1212.3563](https://arxiv.org/abs/1212.3563); now part of the book T. Dyckerhoff, M. Kapranov, _Higher Segal spaces_, Springer LNM 2244 (2019) [doi](https://doi.org/10.1007/978-3-030-27124-4)
 
 * [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
+
+
 
 ## Related entries
 
