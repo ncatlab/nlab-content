@@ -9,9 +9,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -150,6 +151,8 @@ $$
 
 * [[topological cyclic homology]]
 
+* [[cyclic operad]]
+
 * [[Hochschild homology]], [[topological Hochschild homology]]
 
 * [[Sullivan model of free loop space]]
@@ -264,6 +267,9 @@ and
 
 
 [[!redirects string cohomology]]
+
+[[!redirects cyclic complex]]
+[[!redirects cyclic complexs]]
 
 
 
