@@ -11,11 +11,7 @@
 =--
 
 
-
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -216,14 +212,13 @@ On potential implementation of lattice QCD on [[quantum computers]]:
 
 A proposal for a rigorous formulation of [[renormalization]] in lattice gauge theory is due to 
 
-* [[Tadeusz Balaban]], _Renormalization group approach to lattice gauge field theories: I. Generation of effective actions in a small field approximation and a coupling constant renormalization in four dimensions_, Communications in Mathematical Physics, Volume 109, Issue 2, pp.249-301 ([web](https://link.springer.com/article/10.1007%2FBF01215223))
+* {#Bałaban1987} [[Tadeusz Bałaban]]: *Renormalization group approach to lattice gauge field theories: I. Generation of effective actions in a small field approximation and a coupling constant renormalization in four dimensions*, Commun. Math. Phys. **109** (1987) 249–301 \[<a href="https://doi.org/10.1007/BF01215223">doi:10.1007/BF01215223</a>, <a href="https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-109/issue-2/Renormalization-group-approach-to-lattice-gauge-field-theories-I-Generation/cmp/1104116842.pdf">euclid:cmp/1104116842</a>\]
 
-* ...
+(for more see at *[[constructive field theory]] [for 4D YM theory](constructive+quantum+field+theory#For4DYMTheory))
 
-reviewed in 
+reviewed in:
 
-
-* [[Jonathan Dimock]], _The renormalization group according to Balaban, I. Small fields_, Rev. Math. Phys., 25, 1330010 (2013) ([doi:10.1142/S0129055X13300100](https://doi.org/10.1142/S0129055X13300100))
+* [[Jonathan Dimock]]: _The renormalization group according to Balaban, I. Small fields_, Rev. Math. Phys. **25** 1330010 (2013) &lbrack;[doi:10.1142/S0129055X13300100](https://doi.org/10.1142/S0129055X13300100)&rbrack;
 
 * ...
 
