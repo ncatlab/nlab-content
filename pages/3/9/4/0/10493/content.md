@@ -154,7 +154,7 @@ A polynomial $\infty$-functor of degree $k$ --- that is, a $k$-excisive functor 
 ###### Proposition
 
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with [[terminal object in an (∞,1)-category|terninal object]]. Let $\mathcal{D}$ be a [[pointed category|pointed]] [[Goodwillie-differentiable (∞,1)-category]]. Write $\mathcal{C}^{\ast/}$ for the [[pointed objects]] in $\mathcal{C}$.
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with [[terminal object in an (∞,1)-category|terminal object]]. Let $\mathcal{D}$ be a [[pointed category|pointed]] [[Goodwillie-differentiable (∞,1)-category]]. Write $\mathcal{C}^{\ast/}$ for the [[pointed objects]] in $\mathcal{C}$.
 
 Then for all natural numbers $n \geq 1$ composition with the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ induces an [[equivalence of (∞,1)-categories]]
 
