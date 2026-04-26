@@ -59,6 +59,18 @@ On the [[mirror map]]:
 
 * [[Bong H. Lian]], [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series II_, arXiv:[hep-th/9507153](https://arxiv.org/abs/hep-th/9507153) Nuclear Physics B - Proc. Suppl. __46__:1--3 (1996) 248--262 <a href="https://doi.org/10.1016/0920-5632(96)00026-6">doi</a>
 
+Solutions in [[Einstein-Yang-Mills theory]]:
+
+* {#SmollerWassermanYauMcLeod92} [[Joel Smoller]], [[Arthur Wasserman]], [[Shing-Tung Yau]], J. Bryce McLeod, _Smooth static solutions of the Einstein-Yang/Mills equation_, Bull. Amer. Math. Soc. (N.S.) **27**, pp. 239-242 (1992) &lbrack;[arXiv:math/9210226](https://arxiv.org/abs/math/9210226) [doi:10.1007/BF02097002](https://doi.org/10.1007/BF02097002)&rbrack;
+
+* {#SmollerWassermanYau93} [[Joel Smoller]], [[Arthur Wasserman]], [[Shing-Tung Yau]], _Existence of black hole solutions for the Einstein-Yang-Mills equations_, Commun. Math. Phys. **154**, pp. 377-401 (1993) &lbrack;[doi:10.1007/BF02097002](https://link.springer.com/article/10.1007/BF02097002) [pdf](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-154/issue-2/Existence-of-black-hole-solutions-for-the-Einstein-Yang-Mills/cmp/1104252975.pdf)&rbrack;
+
+On [[Einstein-Yang-Mills-Dirac theory]]:
+
+* {#FinsterSmollerYau00} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _The Interaction of Dirac Particles with Non-Abelian Gauge Fields and Gravity - Black Holes_, Michigan Math. J. **47**, p. 199-208 (2000) &lbrack;[arXiv:gr-qc/9910047](https://arxiv.org/abs/gr-qc/9910047) [doi:10.1307/mmj/1030374678](https://doi.org/10.1307/mmj/1030374678)&rbrack;
+
+* {#FinsterSmollerYau02} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Absence of Static, Spherically Symmetric Black Hole Solutions for Einstein-Dirac-Yang/Mills Equations with Complete Fermion Shells_, Adv. Theor. Math. Phys. **4**, pp. 1231-1257 (2002) &lbrack;[arXiv:gr-qc/0005028](https://arxiv.org/abs/gr-qc/0005028)&rbrack;
+
 ## Related entries
 
 * [[Calabi-Yau manifold]]
