@@ -9,9 +9,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -118,8 +118,9 @@ $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 Let $\Sigma \subseteq \Omega$ be a [[subobject|sub]]-[[sigma-frame|$sigma$-frame]] of the [[frame of truth values]]. Then an Archimedean ordered field $F$ is [[admissible Archimedean ordered field|admissible for $\Sigma$]] if the [[pseudo-order]] $(-)\lt(-):F \times F \to \Omega$ restricts to a binary function $(-)\lt(-):F \times F \to \Sigma$. 
 
 ## Category of Archimedean ordered fields
+ {#CategoryOfArchimedeanOrderedFields}
 
-The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are [[ring homomorphisms]] between Archimedean ordered fields. (Every ring homomorphism between Archimedean ordered field can be proven to be a [[strictly monotonic]] field [[homomorphism]]). 
+The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are order-preserving [[ring homomorphisms]]  
 
 The category of Archimedean ordered fields is a [[thin category]]. It is also a [[skeletal category]] and a [[gaunt category]], and impredicatively is the subset of the [[power set]] of [[real numbers]] which consists of all the Archimedean ordered [[subfields]] of the real numbers. 
 
