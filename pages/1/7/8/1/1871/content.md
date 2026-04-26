@@ -14,10 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -300,6 +298,6 @@ On the [[phase space]], [[Poisson brackets]] and their [[canonical quantization]
 [[!redirects Yang-Mills action]]
 [[!redirects Yang-Mills action functional]]
 
-
+[[!redirects 4D Yang-Mills theory]]
 
 
