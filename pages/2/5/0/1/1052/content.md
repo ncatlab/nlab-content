@@ -44,3 +44,4 @@ A __morphism of cocones__ $(e,u)\to (e',u')$ is a morphism $\gamma:e\to e'$ in $
 [[!redirects cocones]]
 [[!redirects co-cone]]
 [[!redirects co-cones]]
+[[!redirects ne]]
