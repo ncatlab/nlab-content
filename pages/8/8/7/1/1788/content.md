@@ -4,11 +4,6 @@
 
 ***
 
-**Electro-magnetic Flux Quantization Revisited -- Global Completion of Higher Gauge Theories**
-
-> Approaching the centennial of Dirac's understanding of magnetic flux quantization, the time has come to establish full *electro*-magnetic flux quantization, globally completing higher gauge theories such as higher dimensional supergravities. Beyond conjectural RR-flux quantization in K-theory, this concerns the global completion of 11D supergravity and its M-brane probes, with experimentally relevant applications to the geometric engineering of anyonic topological order in fractional quantum Hall systems.
-
-
 
 \begin{xymatrix}
 Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
