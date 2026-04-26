@@ -110,6 +110,8 @@ For this reason, many concepts from enriched category theory make sense for modu
 
 * [[J. R. B. Cockett]], Craig Pastro, _The logic of message-passing_ [arXiv:math/0703713](https://arxiv.org/abs/math/0703713).
 
+* Bojana Femić, _A bicategorical approach to actions of monoidal categories_, J. Alg.& its App. __22__:03, 2350073 (2023) [doi](https://doi.org/10.1142/S0219498823500731)
+
 A recent survey of many basic definitions and operations on actegories is
 
 * [[Matteo Capucci]], Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
