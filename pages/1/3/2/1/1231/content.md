@@ -65,37 +65,21 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 
 ## Koszul duality between D-modules and Ω-modules
 
-An important special case of Koszul duality
-establishes a Quillen equivalence between model categories of D-modules
-and Ω-modules.
+An important special case of Koszul duality establishes a Quillen equivalence between model categories of D-modules and Ω-modules.
 This was first observed by Kapranov.
 
-Here $D$ is the sheaf of differential operators
-on a smooth manifold or a smooth variety
-and $\Omega$ is the sheaf of differential forms on the same
-manifold or variety.
-Both $D$ and $\Omega$ are equipped with their canonical filtrations
-(differential operators of order at most~$k$
-respectively differential forms of degree at least~$k$)
-and all constructions below work with sheaves
-of filtered chain complexes.
+Here $D$ is the sheaf of differential operators on a smooth manifold or a smooth variety and $\Omega$ is the sheaf of differential forms on the same manifold or variety.
+Both $D$ and $\Omega$ are equipped with their canonical filtrations (differential operators of order at most $k$
+respectively differential forms of degree at least $k$)
+and all constructions below work with sheaves of filtered chain complexes.
 
-The equivalence is implemented by tensoring with a certain filtered
-$\Omega$-$D$-bimodule $DR$.
-If we discard the differential, $DR=\Omega\otimes D$ as a filtered graded bimodule.
-The differential is canonically determined by its degree 0
-component, where we take the coevaluation map $O\to \Omega^1\otimes D^1_0$,
-where $D^1_0$ denotes differential operators of order at most~1
-with vanishing constant term, i.e., vector fields.
+The equivalence is implemented by tensoring with a certain filtered $\Omega$-$D$-bimodule $DR$.
+If we discard the differential, $DR=\Omega\otimes_{\mathcal{O}} D$ as a filtered graded bimodule, where $\mathcal{O}$ is the structure sheaf.
+The differential is canonically determined by its degree 0 component, where we take the coevaluation map
+$$\mathcal{O}\to \Omega^1\otimes_{\mathcal{O}} D^{\le 1}_0\to  \Omega^1\otimes_{\mathcal{O}} D,$$
+where $D^{\le 1}_0$ denotes differential operators of order at most 1 with a vanishing constant term, i.e., vector fields.
 
-This equivalence allows one to define [[six operations]]
-on D-modules by transfering them from Ω-modules,
-where they can be defined in the usual manner,
-since differential forms can be pulled back along maps,
-unlike differential operators.
-
-This fully explains the somewhat unintuitive explicit
-formulas for the [[six operations]] on D-modules.
+This equivalence yields a conceptual definition of [[six operations]] on D-modules by transferring them from Ω-modules, where they can be defined in the usual manner, since differential forms can be pulled back along maps, unlike differential operators.
 
 ## Linear Koszul duality
 
