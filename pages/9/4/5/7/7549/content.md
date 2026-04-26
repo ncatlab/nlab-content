@@ -14,6 +14,11 @@ Jonathan Douglas Dimock
 
 ## Selected writings
 
+On [[renormalization]] of [[lattice gauge theory]] following [Bałaban 1987](lattice+gauge+theory#Bałaban1987):
+
+* [[Jonathan Dimock]]: _The renormalization group according to Balaban, I. Small fields_, Rev. Math. Phys. **25** 1330010 (2013) &lbrack;[doi:10.1142/S0129055X13300100](https://doi.org/10.1142/S0129055X13300100)&rbrack;
+
+
 On [[canonical quantization]] of [[Yang-Mills theory]]:
 
 * [[Jonathan Dimock]]: *Canonical Quantization of Yang-Mills on a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 &lbrack;[doi:10.1142/S0129055X96000044](https://doi.org/10.1142/S0129055X96000044)&rbrack;
