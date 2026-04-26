@@ -43,8 +43,11 @@ compact symmetric multicategories_, proceedings "Quantum Physics and Logic VI", 
 * [[Martin Markl]], [[Steven Shnider]], [[Jim Stasheff]], _Operads in algebra, topology and physics_, Mathematical Surveys and Monographs __96__, Amer. Math. Soc. 2002. x+349 pp. [MR2003f:18011](http://www.ams.org/mathscinet-getitem?mr=2003f:18011)(for Feynman transform see page 251)
 
 * Michael Slawinski, _The quantum $A_\infty$-relations on the elliptic curve_, [arxiv/1711.07940](https://arxiv.org/abs/1711.07940)
+  > "We define and prove the existence of the Quantum $A_\infty$-relations on the Fukaya category of the elliptic curve, using the notion of the Feynman transform of a modular operad, as defined by Getzler and Kapranov. Following Barannikov, these relations may be viewed as defining a solution to the quantum master equation of Batalin-Vilkovisky geometry.:
 
-> We define and prove the existence of the Quantum $A_\infty$-relations on the Fukaya category of the elliptic curve, using the notion of the Feynman transform of a modular operad, as defined by Getzler and Kapranov. Following Barannikov, these relations may be viewed as defining a solution to the quantum master equation of Batalin-Vilkovisky geometry. 
+[[!redirects Feynman transforms]]
 
-[[!redirects Feynman transform]]
 [[!redirects dual Feynman transform]]
+[[!redirects dual Feynman transforms]]
+
+
