@@ -11,6 +11,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -106,12 +107,23 @@ On rigorous construction of [[path integral]] [[measures]] for [[2D Yang-Mills t
 
 * [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
 
+### For 3D YM theory
+
+Prove of ultraviolet stability of [[3D Yang-Mills theory|3D Yang-Mills]] [[lattice gauge theory]]:
+
+* [[Tadeusz Bałaban]]: *Ultraviolet stability of three-dimensional lattice pure gauge field theories*, Commun. Math. Phys. **102** (1985) 255–275 \[<a href="https://doi.org/10.1007/BF01229380">doi:10.1007/BF01229380</a>, <a href="https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-102/issue-2/Ultraviolet-stability-of-three-dimensional-lattice-pure-gauge-field-theories/cmp/1104114382.full">euclid:cmp/1104114382</a>\]
+
 
 ### For 3D MCS theory
 
 A construction of what looks like [[Maxwell-Chern-Simons theory]]:
 
 * [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+
+argued to be understood as such in:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Non-Perturbative SDiff Covariance of Fractional Quantum Hall Excitations]]*, European Physics Letters **154** (2026) 16002 &lbrack;[arXiv:2602.02292 cond-mat.str-el](https://arxiv.org/abs/2602.02292), [doi:10.1209/0295-5075/ae57d7](https://doi.org/10.1209/0295-5075/ae57d7)&rbrack;
+
 
 ### For 3D YMCS theory
 
@@ -120,6 +132,20 @@ No rigorous construction of non-abelian [[3D Yang-Mills-Chern-Simon theory]] is 
 Comments on what is known and what is not, in comparison to the 2D case:
 
 * [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
+
+### For 4D YM theory
+ {#For4DYMTheory}
+
+Proof of ultraviolet stability for "small field" [[4D Yang-Mills theory|4D Yang-Mills]] [[lattice gauge theory]] via suitable [[renormalization]]:
+
+* [[Tadeusz Bałaban]]: *Renormalization group approach to lattice gauge field theories: I. Generation of effective actions in a small field approximation and a coupling constant renormalization in four dimensions*, Commun. Math. Phys. **109** (1987) 249–301 \[<a href="https://doi.org/10.1007/BF01215223">doi:10.1007/BF01215223</a>, <a href="https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-109/issue-2/Renormalization-group-approach-to-lattice-gauge-field-theories-I-Generation/cmp/1104116842.pdf">euclid:cmp/1104116842</a>\]
+
+* [[Tadeusz Bałaban]]: *Renormalization group approach to lattice gauge field theories. II. Cluster expansions*, Comm. Math. Phys. **116** 1 (1988) 1-22 \[<a href="https://doi.org/10.1007/BF01239022">doi:10.1007/BF01239022</a>, <a href="https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-116/issue-1/Renormalization-group-approach-to-lattice-gauge-field-theories-II-Cluster/cmp/1104161193.full">euclid:cmp/1104161193</a>\]
+
+Review:
+
+* [[Jonathan Dimock]]: _The renormalization group according to Balaban, I. Small fields_, Rev. Math. Phys. **25** 1330010 (2013) &lbrack;[doi:10.1142/S0129055X13300100](https://doi.org/10.1142/S0129055X13300100)&rbrack;
+
 
 
 
