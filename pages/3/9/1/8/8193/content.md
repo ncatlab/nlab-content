@@ -36,6 +36,7 @@ The [[internal language]] of $(\infty,n)$-categories with duals seems plausibly 
 
 * [[fully dualizable object]]
 
+* [[hyperstructure]]
 
 ## References
  {#References}
