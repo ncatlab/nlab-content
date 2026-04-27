@@ -1,4 +1,10 @@
 
+* [institute page](https://researchprofiles.herts.ac.uk/en/persons/hyungrok-kim/)
+
+* [inSpire page](https://inspirehep.net/authors/2031152)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Hyungrok-Kim-2166725185)
+
 ## Selected writings
 
 On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
@@ -30,6 +36,9 @@ On limits on [[computation]] in relation to [[Bekenstein-Hawking entropy]]:
  
 * [[Leron Borsten]], [[Hyungrok Kim]]: *Limits to Computational Acceleration Imposed by Quantum Field Theory and Quantum Gravity* &lbrack;[arXiv:2604.00182](https://arxiv.org/abs/2604.00182)&rbrack;
 
+On proper [[geometry of physics -- flux quantization|flux quantization]] in view of potential relation to [[generalized global symmetries]] and "[[swampland conjectures]]":
+
+* [[Luigi Alfonsi]], [[Hyungrok Kim]], William G. A. Luciani: *Generalised Symmetries and Swampland-Type Constraints from Charge Quantisation via Rational Homotopy Theory* \[<a href="https://arxiv.org/abs/2604.22656">arXiv:2604.22656</a>\]
 
 
 category: people
