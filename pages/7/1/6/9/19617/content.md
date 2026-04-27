@@ -2,6 +2,12 @@
 
 * [personal page](https://www.alfonsiluigi.com/)
 
+* [institute page](https://researchprofiles.herts.ac.uk/en/persons/luigi-alfonsi/)
+
+* [inSpire page](https://inspirehep.net/authors/1776881)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=0CxinEsAAAAJ&hl=en)
+
 #contents#
 * table of contents
 {:toc}
@@ -103,6 +109,9 @@ On [[higher structures]] in [[string dualities]]:
 
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
 
+On proper [[geometry of physics -- flux quantization|flux quantization]] in view of potential relation to [[generalized global symmetries]] and "[[swampland conjectures]]":
+
+* [[Luigi Alfonsi]], [[Hyungrok Kim]], William G. A. Luciani: *Generalised Symmetries and Swampland-Type Constraints from Charge Quantisation via Rational Homotopy Theory* \[<a href="https://arxiv.org/abs/2604.22656">arXiv:2604.22656</a>\]
 
 
 
