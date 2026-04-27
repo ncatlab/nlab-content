@@ -1,5 +1,17 @@
 
-* [webpage](https://math.osu.edu/people/yau.22)
+Donald Ying Wai Yau
+
+* [personal page](https://u.osu.edu/yau.22/main/)
+
+* [personal page](https://sites.google.com/view/donaldyau/home)
+
+* [institute page](https://math.osu.edu/people/yau.22)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=61519)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=xRhI0L0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Donald-Yau-43944728)
 
 ## Selected writings
 
@@ -17,7 +29,7 @@ On [[Mackey functors]] [[enriched]] over [[closed category|closed]] [[multicateg
 
 On an [[(∞,1)-operad]] version of [[modular operads]]:
 
-* [[Philip Hackney]], [[Marcy Robertson]], [[Donald Yau]], *A graphical category for higher modular operads* &lbrack;[arXiv:1906.01143](https://arxiv.org/abs/1906.01143)&rbrack;
+* [[Philip Hackney]], [[Marcy Robertson]], [[Donald Yau]]: *A graphical category for higher modular operads*, Advances in Mathematics **365** (2020) 107044 &lbrack;[doi:10.1016/j.aim.2020.107044](https://doi.org/10.1016/j.aim.2020.107044), [arXiv:1906.01143](https://arxiv.org/abs/1906.01143)&rbrack;
 
 
 
