@@ -3384,7 +3384,12 @@ Since the generalized [[nonabelian cohomology theory]] classified by the ([[homo
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) \[<a href="http://arxiv.org/abs/hep-th/9810188">arXiv:hep-th/9810188</a>, [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)\]
 
-(...)
+
+Further discussion:
+
+* [[Luigi Alfonsi]], [[Hyungrok Kim]], William G. A. Luciani: *Generalised Symmetries and Swampland-Type Constraints from Charge Quantisation via Rational Homotopy Theory* \[<a href="https://arxiv.org/abs/2604.22656">arXiv:2604.22656</a>\]
+  > (in view of potential relation to [[generalized global symmetries]] and "[[swampland conjectures]]")
+
 
 \linebreak
 
