@@ -1,13 +1,21 @@
 
-* [webpage](https://lsa.umich.edu/math/people/emeritus-faculty/awass.html)
+Arthur G. Wasserman
+
+* [institute page](https://lsa.umich.edu/math/people/emeritus-faculty/awass.html)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=13148&fChrono=1)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=mWBnupUAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Arthur-Wasserman)
 
 ## Selected writings
 
 On [[equivariant differential topology]]:
 
-* {#Wasserman69} [[Arthur Wasserman]], section 3 of: _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 (<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+* {#Wasserman69} [[Arthur Wasserman]]: _Equivariant differential topology_, Topology **8** (1969) 127--150 &lbrack;<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf)&rbrack;
 
-Solutions in [[Einstein-Yang-Mills theory]]:
+On solutions in [[Einstein-Yang-Mills theory]]:
 
 * {#SmollerWassermanYauMcLeod92} [[Joel Smoller]], [[Arthur Wasserman]], [[Shing-Tung Yau]], J. Bryce McLeod, _Smooth static solutions of the Einstein-Yang/Mills equation_, Bull. Amer. Math. Soc. (N.S.) **27**, pp. 239-242 (1992) &lbrack;[arXiv:math/9210226](https://arxiv.org/abs/math/9210226) [doi:10.1007/BF02097002](https://doi.org/10.1007/BF02097002)&rbrack;
 
@@ -21,7 +29,7 @@ Solutions in [[Einstein-Yang-Mills theory]]:
 
 * {#SmollerWasserman95} [[Joel Smoller]], [[Arthur Wasserman]], _Investigation of the Interior of Colored Black Holes and the Extendability of Solutions of the Einstein-Yang/Mills Equations_, Commun. Math. Phys. **194** pp. 707-732 (1998) &lbrack;[arXiv:gr-qc/9706039](https://arxiv.org/abs/gr-qc/9706039) [doi:10.1007/s002200050375](https://doi.org/10.1007/s002200050375)&rbrack;
 
-## Related $n$Lab entries
+## Related entries
 
 * [[differential topology]], [[equivariant homotopy theory]]
 
