@@ -54,6 +54,10 @@ On a generalisation of [[Fox's theorem]]:
 
 * [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories* &lbrack;[arXiv:2508.11615](https://arxiv.org/abs/2508.11615)&rbrack;
 
+On the relationship between [[presheaf category|presheaf constructions]] and [[free cocompletions]] in [[formal category theory]]:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+
 ## Related entries
 
 * [[formal category theory]]
