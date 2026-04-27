@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -113,9 +112,11 @@ Discussion via [[machine learning]] of [[connection on a bundle|connections]] on
 
 Appearance of heterotic line bundles via [[Hypothesis H]]:
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Twistorial Cohomotopy implies Green-Schwarz anomaly cancellation]]*, Reviews in Mathematical Physics **34** 05 (2022) 2250013 &lbrack;[arXiv:2008.08544](https://arxiv.org/abs/2008.08544), [doi:10.1142/S0129055X22500131](https://doi.org/10.1142/S0129055X22500131)&rbrack;
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]; remark on p 5 of: *[[schreiber:Twistorial Cohomotopy implies Green-Schwarz anomaly cancellation]]*, Reviews in Mathematical Physics **34** 05 (2022) 2250013 &lbrack;[arXiv:2008.08544](https://arxiv.org/abs/2008.08544), [doi:10.1142/S0129055X22500131](https://doi.org/10.1142/S0129055X22500131)&rbrack;
 
-(see commentary on p. 5).
+* [[Hisham Sati]], [[Urs Schreiber]]; §2.9 in: *M/F-Theory as $M f$-Theory*, Rev. Math. Phys. **35** 10 (2023) 2350028 \[<a href="https://doi.org/10.1142/S0129055X23500289">doi:10.1142/S0129055X23500289</a>, [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)\]
+
+
 
 
 [[!redirects heterotic line bundle]]
