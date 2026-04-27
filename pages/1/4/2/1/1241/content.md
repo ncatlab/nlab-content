@@ -369,6 +369,11 @@ On quasi-realistic "flipped" [[SU(5)|$SU(5)$]]-[[GUT]],  modeled in 4d [[heterot
 
 * {#AntoniadisNanopoulosRizos21a} [[Ignatios Antoniadis]], [[Dimitri Nanopoulos]], [[John Rizos]], *Particle physics and cosmology of the string derived no-scale flipped $SU(5)$*,  Eur. Phys. J. C **82** (2022) 377  &lbrack;[arXiv:2112.01211](https://arxiv.org/abs/2112.01211), [doi:10.1140/epjc/s10052-022-10353-6](https://doi.org/10.1140/epjc/s10052-022-10353-6)&rbrack;
 
+See also:
+
+* Masato Arai, Filip Blaschke, Minoru Eto, Masaki Kawaguchi: *Five benefits of grand unified $SU(5)$ brane world scenario* &lbrack;[arXiv:2604.22311](https://arxiv.org/abs/2604.22311)&rbrack;
+
+
 
 #### $SO(10)$-GUT
 
