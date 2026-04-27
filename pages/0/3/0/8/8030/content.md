@@ -30,7 +30,7 @@ Equivalently, since fast varying moduli appear as light or massless [[particles]
 
 In pure [[classical field theory|classical]] [[gravity]] KK-compactifications have been suggested ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable due to the [[Penrose-Hawking singularity theorem]]. 
 
-But a rigorous analysis in [Anderson-Blue-Wyatt-Yau 20](#AndersonBlueWyattYau20) claims to show that, in contrast, even vacuum spacetimes are stable under KK-compactification (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asymptotics).
+But a rigorous analysis in [Anderson-Blue-Wyatt-Yau 20](#AndersonBlueWyattYau20) claims to show that, in contrast, even vacuum spacetimes are stable under KK-compactification (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-[[asymptotic boundary|asymptotics]]).
 
 
 
@@ -87,11 +87,16 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was (informally) argued in two 
 
 The problem of generic in-stability of moduli of pure gravity KK-compactifications is highlighted in
 
-* {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire:608935](https://inspirehep.net/record/608935))
+* {#Penrose03} [[Roger Penrose]]; section 10.3 in: _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire:608935](https://inspirehep.net/record/608935))
 
-A rigorous [[proof]] that, in contrast, even vacuum spacetimes are stable under KK-compactification is claimed (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asymptotics) in
+Rigorous [[proof]] that, in contrast, even vacuum spacetimes are stable under KK-compactification:
 
-* {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]], _Global stability of spacetimes with supersymmetric compactifications_ ([arXiv:2006.00824](https://arxiv.org/abs/2006.00824))
+* {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]]: _Global stability of spacetimes with supersymmetric compactifications_, Analysis & PDE **16** 9 (2023) 2079–2107 &lbrack;[arXiv:2006.00824](https://arxiv.org/abs/2006.00824), [doi:10.2140/apde.2023.16.2079](https://doi.org/10.2140/apde.2023.16.2079)&rbrack;
+  > (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asymptotics)
+
+
+* Cécile Huneau, Annalaura Stingo, Zoe Wyatt: *The global stability of the Kaluza-Klein spacetime*, JEMS (2025) &lbrack;[arXiv:2307.15267](https://arxiv.org/abs/2307.15267), [doi:10.4171/jems/1663](https://doi.org/10.4171/jems/1663)&rbrack;
+  > (for the 5D KK spacetime)
 
 ### Freund-Rubin flux compactifications
  {#ReferencesFreundRubinCompactificationo}
