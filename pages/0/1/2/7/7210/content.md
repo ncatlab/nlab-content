@@ -7,6 +7,9 @@
 
 * [inspire page](https://inspirehep.net/authors/1012244)
 
+* *80 Jaar -- Bernard de Wit -- A tribute* (2025) &lbrack;[pdf](https://www.nikhef.nl/~t32/bernard80.pdf), [[DeWit-Tribute.pdf:file]]&rbrack; 
+
+
 
 ## Selected writings
 
