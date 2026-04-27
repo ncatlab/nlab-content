@@ -60,7 +60,7 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
 * In [[Top]], the standard cylinder $X\times [0,1]$ is a cylinder object for both the [[classical model structure on topological spaces]] $Top_{Quillen}$ (the one with [[Serre fibrations]]) as well as for the [[Strøm model structure]] $Top_{Strom}$ (the one with [[Hurewicz fibrations]]).
 
-  This standard cylinder is generally a "good cylinder" in the above sense only for $Top_{Stron}$  (in which case it is in fact a "very good cylinder").
+  This standard cylinder is generally a "good cylinder" in the above sense only for $Top_{Strom}$  (in which case it is in fact a "very good cylinder").
 
   In $Top_{Quillen}$ a sufficient condition for the standard cylinder $X\times I$ to be good is that $X$ is a [[CW-complex]].
 
