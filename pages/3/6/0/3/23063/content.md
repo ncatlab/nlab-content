@@ -101,7 +101,9 @@ Below, we list some fundamental theorems in category theory that have been formu
 
 * A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
-* A pullback theorem for [[monads]] and [[relative monads]] is proven in [Arkor & McDermott 2024](#AM24) (for [[virtual equipments]]).
+* A pullback/[[nerve theorem]] for [[monads]] and [[relative monads]] is proven in [Arkor & McDermott 2024](#AM24) (for [[virtual equipments]]).
+
+* [[free cocompletion|Free cocompletions]] are constructed using [[presheaf construction|presheaf objects]] in [Arkor & McDermott 2026](#AM26) (for [[virtual equipments]]).
 
 For instance, one motivation for the development of this theory in the setting of (augmented) [[virtual equipments]] is to develop [[enriched category theory]] without the assumptions taken, for instance, by [[Max Kelly|Kelly]] in [Basic concepts of enriched category theory](enriched+category#Kelly82). This therefore gives a development of enriched category theory for categories enriched in a nonsymmetric [[monoidal category]], a [[bicategory]], or even a [[virtual double category]].
 
@@ -182,6 +184,8 @@ Papers developing general theorems in (intramural) formal category theory:
 * {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 * {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
+
+* {#AM26} [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
 
 Papers developing general theorems in (extramural) formal category theory:
 
