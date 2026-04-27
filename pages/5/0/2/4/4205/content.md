@@ -48,6 +48,10 @@ Further discussion:
 * Martin Doubek, [[Branislav Jurčo]], Lada Peksová, Ján Pulmann, _Connected sum for modular operads and Beilinson-Drinfeld algebras_, [arXiv:2210.06517](https://arxiv.org/abs/2210.06517)
 * [[Jeffrey Giansiracusa]], _Moduli spaces and modular operads_, Morfismos __17__:2, 101--125 [journal](https://issuu.com/morfismos/docs/v17n2dic2013) [author pdf](https://cronfa.swan.ac.uk/Record/cronfa18942)
 
+For an [[(∞,1)-operad]] version of modular operads, see:
+
+* [[Philip Hackney]], [[Marcy Robertson]], [[Donald Yau]], *A graphical category for higher modular operads* &lbrack;[arXiv:1906.01143](https://arxiv.org/abs/1906.01143)&rbrack;
+
 
 
 [[!redirects modular operads]]
