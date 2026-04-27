@@ -15,6 +15,10 @@ On [[Mackey functors]] [[enriched]] over [[closed category|closed]] [[multicateg
 
 * [[Niles Johnson]], [[Donald Yau]], _Homotopy Theory of Enriched Mackey Functors_ ([arXiv:2212.04276](https://arxiv.org/abs/2212.04276))
 
+On an [[(∞,1)-operad]] version of [[modular operads]]:
+
+* [[Philip Hackney]], [[Marcy Robertson]], [[Donald Yau]], *A graphical category for higher modular operads* &lbrack;[arXiv:1906.01143](https://arxiv.org/abs/1906.01143)&rbrack;
+
 
 
 ## Related $n$Lab entries
