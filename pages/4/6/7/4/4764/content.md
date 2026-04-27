@@ -64,7 +64,7 @@ The original article:
 
 Generalization to cyclic [[(infinity,1)-operads|$(\infty,1)$-operads]] via cyclic [[dendroidal sets]]:
 
-* {#DohertyHackney2025} Brandon Doherty, Philip Hackney: *Models for cyclic infinity operads* &lbrack;[arXiv:2506.15622](https://arxiv.org/abs/2506.15622)&rbrack;
+* {#DohertyHackney2025} Brandon Doherty, [[Philip Hackney]]: *Models for cyclic infinity operads* &lbrack;[arXiv:2506.15622](https://arxiv.org/abs/2506.15622)&rbrack;
 
 
 See also:
