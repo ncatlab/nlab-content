@@ -1,6 +1,12 @@
 
 * [personal website](https://sites.google.com/view/juliasemikina/)
 
+* [institute page](https://www.uni-muenster.de/FB10/Service/show_perspage.shtml?id=1528)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=240032)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=3Gt8GYcAAAAJ&hl=en)
+
 ## Selected writings
 
 On [[scissors congruence]] via [[algebraic K-theory]]:
