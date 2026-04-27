@@ -241,19 +241,20 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * [[sind-object]]
 
+
 ## References
 
-The universal property of the [[presheaf category]] as being a free cocompletion was first proven in:
+The [[universal property]] of the [[presheaf category]] as being a free cocompletion was first proven in:
 
-* [[Michel André]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964, see also _Categories of Functors and Adjoint Functors_,American Journal of Mathematics, Vol. 88, No. 3 (Jul., 1966), pp. 529-543
+* [[Michel André]]: *Categories of Functors and Adjoint Functors*, Batelle Institute at Geneva (1964),  American Journal of Mathematics **88** 3 (1966) 529--543 &lbrack;[doi:10.2307/2373139](https://doi.org/10.2307/2373139), [jstor:2373139](https://www.jstor.org/stable/2373139), [pdf](https://www.jstor.org/stable/pdf/2373139.pdf)&rbrack;
 
-This was extended to enriched categories in:
+Generalization to [[enriched category theory]]:
 
-* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+* {#Kelly82} [[Max Kelly]]; §4.4 of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 Free cocompletions for categories enriched in (possibly [[monoidal category|non-symmetric monoidal categories]]) and [[categories enriched in bicategories]] are constructed in Theorem 9.45 of the following paper, which also gives a comprehensive survey of this topic in section 10.1:
 
-* [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+* [[Nathanael Arkor]], [[Dylan McDermott]]: *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
 
 Other general references:
 
