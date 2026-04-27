@@ -13,9 +13,9 @@
 =--
 =--
 
-# Functor categories
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -184,10 +184,14 @@ See most references at *[[category theory]]*, such as
 
 * [[Saunders MacLane]], §II.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-
 Discussion of [[locally presentable category|local presentability]]:
 
 * {#AdámekRosický94} [[Jiří Adámek]], [[Jiří Rosický]], Cor. 1.54 in: *[[Locally presentable and accessible categories]]*, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
+
+See also:
+
+* [[Michel André]]: *Categories of Functors and Adjoint Functors*, Batelle Institute at Geneva (1964),  American Journal of Mathematics **88** 3 (1966) 529--543 &lbrack;[doi:10.2307/2373139](https://doi.org/10.2307/2373139), [jstor:2373139](https://www.jstor.org/stable/2373139), [pdf](https://www.jstor.org/stable/pdf/2373139.pdf)&rbrack;
+
 
 
 [[!redirects functor category]]
