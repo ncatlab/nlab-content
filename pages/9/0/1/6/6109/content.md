@@ -88,7 +88,7 @@ $$
 
 the "pushforward": the [[fiber integration]] of differential forms.
 
-Then then standard path integral for the particle is given by 
+Then the standard path integral for the particle is given by 
 
 1. pulling back functions along $X^{in}$;
 
