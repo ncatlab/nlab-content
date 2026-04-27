@@ -51,12 +51,17 @@ If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-fun
 
 ## References
 
+[[free cocompletion|Free cocompletions]] of categories enriched in bicategories are constructed in section 9 of
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+
 Discussion of [[Kleisli objects]] (collages) for [[monads]] generalized to categories enriched in bicategories is in section 15.9 of
 
 * [[Richard Garner]], [[Michael Shulman]], _Enriched categories as a free cocompletion_ ([arXiv:1301.3191](http://arxiv.org/abs/1301.3191))
  {#GarnerShulman13}
 
 [[!redirects categories enriched in a bicategory]]
+[[!redirects categories enriched in bicategories]]
 [[!redirects category enriched over a bicategory]]
 [[!redirects categories enriched over a bicategory]]
 
@@ -64,6 +69,9 @@ Discussion of [[Kleisli objects]] (collages) for [[monads]] generalized to categ
 [[!redirects categories enriched in a 2-category]]
 [[!redirects category enriched over a 2-category]]
 [[!redirects categories enriched over a 2-category]]
+
+[[!redirects enrichment in a bicategory]]
+[[!redirects enrichment in bicategories]]
 
 [[!redirects bicategory-enriched category]]
 [[!redirects bicategory-enriched categories]]
