@@ -93,28 +93,29 @@ from the category of bimodules to that of colimit-preserving additive functors b
 
 ### For enriched categories
 
-Rings can be seen as one-object $V$-enriched categories where $V = Ab$ is the category of abelian groups made symmetric monoidal with the usual tensor product of abelian groups.   Similarly, bimodules between rings are the same as $V$-enriched [[profunctors]] between one-object $V$-enriched categories.  The category of right modules of a ring $R$ is the category of $V$-enriched presheaves on the corresponding one-object $V$-enriched category. Thus, we can ask if the Eilenberg-Watts theorem generalizes to $V$-enriched categories.  And indeed it does!  
+Rings can be seen as one-object $V$-enriched categories where $V = Ab$ is the category of abelian groups made symmetric monoidal with the usual tensor product of abelian groups.   Similarly, bimodules between rings are the same as $V$-enriched [[distributors]] between one-object $V$-enriched categories.  The category of right modules of a ring $R$ is the category of $V$-enriched presheaves on the corresponding one-object $V$-enriched category. Thus, we can ask if the Eilenberg-Watts theorem generalizes to $V$-enriched categories.  And indeed it does!  
 
-Suppose that $V$ is a [[Benabou cosmos]], i.e. a complete and cocomplete symmetric monoidal closed category.  Then there is a symmetric monoidal bicategory $V Mod$ where:
+Suppose that $\mathscr{V}$ is a complete and cocomplete right-[[closed monoidal category]]. (More generally, we can consider enrichment in a locally complete and locally cocomplete [[bicategory]] $\mathscr{W}$ with [[Kan lift|right lifts]]: see [[enrichment in a bicategory]] for more details.) Then there is a bicategory $\mathscr{V}\text{-}Dist$ where:
 
-* objects are small $V$-enriched categories,
-* morphisms are $V$-enriched profunctors,
-* 2-morphisms are $V$-enriched natural transformations between profunctors.
+* objects are small $\mathscr{V}$-enriched categories,
+* morphisms are $\mathscr{V}$-enriched distributors,
+* 2-morphisms are $\mathscr{V}$-enriched natural transformations between distributors.
 
-There is also a symmetric monoidal bicategory $V Cocont$ where:
+There is also a bicategory $\mathscr{V}\text{-}Cocont$ where:
 
-* objects are the $V$-enriched presheaf categories $[C^{op},V]$ where $C$ ranges over all small $V$-enriched categories,
-* morphisms are cocontinuous $V$-functors, i.e. $V$-functors preserving all $V$-enriched colimits,
-* 2-morphisms are $V$-enriched natural transformations between cocontinuous $V$-functors.
+* objects are the $\mathscr{V}$-enriched [[presheaf categories]] on small $\mathscr{V}$-enriched categories
+* morphisms are cocontinuous $\mathscr{V}$-functors, i.e. $\mathscr{V}$-functors preserving all [[weighted colimits]]
+* 2-morphisms are $\mathscr{V}$-enriched natural transformations between cocontinuous $\mathscr{V}$-functors.
 
-Then the following is surely true, though a reference would be helpful:
+The following then exhibits a generalized Eilenberg–Watts Theorem:
 
-+-- {: .num_theorem}
-###### Generalized Eilenberg-Watts' Theorem
+\begin{theorem}(Theorem 10.13 of [Arkor & McDermott 2026](#AM26))
+Given a locally complete and locally cocomplete bicategory $\mathscr{W}$ with right lifts, the bicategories $\mathscr{W}\text{-}Dist$ and $\mathscr{W}\text{-}Cocont$ are [[biequivalence|biequivalent]].
+\end{theorem}
 
-Given a Benabou cosmos $V$, the symmetric monoidal bicategories $V Prof$ and $V Cocont$ are equivalent.
+(The theorem ibid. is actually even more general, as it parameterised by the class of colimits.)
 
-=--
+(When $\mathscr{V}$ is a [[symmetric monoidal category]], the bicategories in question are furthermore [[symmetric monoidal bicategories]], relative to the [[tensor product of enriched categories]], and this biequivalence is symmetric monoidal. However, there does not appear to be an explicit reference for this in the literature yet.)
 
 
 ### For other internal monoids and internal modules
@@ -175,6 +176,10 @@ A generalized statement in which the codomain is not assumed to be a category of
 * A. Nyman, S. Paul Smith, _A generalization of Watts's Theorem: Right exact functors on module categories_, 
 Communications in Algebra __44__:7 (2016) 3160-3170 [arxiv/0806.0832](http://arxiv.org/abs/0806.0832) [doi](https://doi.org/10.1080/00927872.2015.1065873)
 
+Generalization to [[categories enriched in bicategories]] is given in section 10.4 of
+
+* {#AM26} [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+
 Generalization to [[homotopy theory]]/[[higher algebra]] is discussed in 
 
 * [[Mark Hovey]], _The Eilenberg-Watts theorem in homotopical algebra_ ([pdf](https://arxiv.org/pdf/0910.3842.pdf))
@@ -184,6 +189,7 @@ and
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
+
 
 [[!redirects Watts theorem]]
 [[!redirects Eilenberg-Watts' Theorem]]
