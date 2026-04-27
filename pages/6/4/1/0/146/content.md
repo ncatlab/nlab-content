@@ -256,5 +256,3 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 * [[Yoneda lemma]], [[Yoneda extension]]
 
 [[!redirects presheaves]]
-[[!redirects presheaf category]]
-[[!redirects presheaf categories]]
