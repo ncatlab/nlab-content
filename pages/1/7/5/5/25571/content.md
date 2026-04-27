@@ -110,6 +110,10 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#Hora2024} [[Ryuya Hora]], _Internal parameterization of hyperconnected quotients_, Theory and Applications of Categories 42.11 (2024): 263-313.
 
+Example 9.29 and 9.30 of
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+
 [[!redirects compact category]]
 [[!redirects compact categories]]
 
