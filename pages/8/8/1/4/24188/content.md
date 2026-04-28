@@ -26,10 +26,10 @@ As a [[higher inductive type]], the James construction type $J A$ of a [[pointed
 
 In [[Rocq]] pseudocode this becomes
 
-    Inductive JamesConstruction (A : PointedType) : Type
-      | epsilon : JamesConstruction A
-      | alpha : A -> JamesConstruction A -> JamesConstruction A
-      | delta : forall (x : JamesConstruction A) x = alpha point x
+    Inductive JamesConstruction (A : Type) (a : A) : Type
+      | epsilon : JamesConstruction A a
+      | alpha : A -> JamesConstruction A a -> JamesConstruction A a
+      | delta : forall (x : JamesConstruction A a), x = alpha a x
 
 We can see that $J A$ is simply the [[free monoid]] on $A$. The higher inductive type is recursive which can make it difficult to study. This however can be remedied by defining a sequence of types $(J_n A)_{n: \mathbb{N}}$ together with maps $(i_n : J_n A \to J_{n+1} A)_{n:\mathbb{N}}$ such that the type $J_\infty A$ defined as the [[sequential colimit]] of $(J_n A)_{n:\mathbb{N}}$ is equivalent to $J A$.
 
