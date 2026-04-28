@@ -37,7 +37,7 @@ Original argument that [[magnetic monopoles]] may appear in [[grand unified theo
 
 Early survey of aspects of the [[gauge theory]] involved in the [[standard model of particle physics]] ([[quantum electrodynamics]], [[quantum chromodynamics]] and [[weak nuclear force]]) and proposing the [[dual superconductor model of confinement]] (p. 4-5):
 
-* [[Gerard ’t Hooft]]: *Gauge Fields with Unified Weak, Electromagnetic, and Strong Interactions*, Rapporteur's talk at *[E.P.S. International Conference on High Energy Physics, Palermo, Sicily (June 1975)](https://inspirehep.net/conferences/963874)* &lbrack;[spire:2781](https://inspirehep.net/literature/2781), [pdf](https://webspace.science.uu.nl/~hooft101/gthpub/GaugeFields_75.pdf)m [[tHooft-GaugeFields.pdf:file]]&rbrack;
+* [[Gerard ’t Hooft]]: *Gauge Fields with Unified Weak, Electromagnetic, and Strong Interactions*, Rapporteur's talk at *[E.P.S. International Conference on High Energy Physics, Palermo, Sicily (June 1975)](https://inspirehep.net/conferences/963874)* &lbrack;[spire:2781](https://inspirehep.net/literature/2781), [pdf](https://webspace.science.uu.nl/~hooft101/gthpub/GaugeFields_75.pdf), [[tHooft-GaugeFields.pdf:file]]&rbrack;
 
 On [[naturalness]] and [[chiral symmetry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
 
