@@ -94,7 +94,7 @@ confines in the non-perturbative regime.
 \linebreak
 
 
-* {#Goldstein11} Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
+* {#Greensite11} [[Jeff Greensite]]: _An Introduction to the Confinement Problem_, Lecture Notes in Physics **821** (2011) ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
 
 > Because of the great importance of the standard model, and the central role it plays in our understanding of particle physics, it is unfortunate that, in one very important respect, we don’t really understand how it works. The problem lies in the sector dealing with the interactions of quarks and gluons, the sector known as Quantum Chromodynamics or QCD. We simply do not know for sure why quarks and gluons, which are the fundamental fields of the theory, don’t show up in the actual spectrum of the theory, as asymptotic particle states. There is wide agreement  about  what  must  be  happening  in  high  energy  particle  collisions:  the  formation of color electric flux tubes among quarks and antiquarks, and the eventual fragmentation of those flux tubes into mesons and baryons, rather than free quarks and gluons. But there is no general agreement about why this is happening, and that limitation exposes our general ignorance about the workings of non-abelian gauge theories in general, and QCD in particular, at large distance scales.
 
