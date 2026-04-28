@@ -5,6 +5,8 @@
 ***
 
 
+&Auml;
+
 \begin{xymatrix}
 Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
   B        \ar[r] & Q A \sqcup   B        \ar[r] & A \sqcup   B       \cr
