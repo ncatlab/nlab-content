@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -201,6 +201,12 @@ Relation to the [[3-brane in 6d]]:
 and via [[F-theory]] in
 
 * Robert de Mello Koch, Alastair Paulin-Campbell, Joao P. Rodrigues, _Monopole Dynamics in $\mathcal{N}=2$ super Yang-Mills Theory From a Threebrane Probe_, Nucl. Phys. B559 (1999) 143-164 ([arXiv:hep-th/9903207](https://arxiv.org/abs/hep-th/9903207))
+
+
+
+
+[[!include dual superconductor model -- references]]
+
 
 
 [[!redirects N=2 D=4 sYM]]
