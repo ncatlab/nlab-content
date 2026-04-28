@@ -39,6 +39,11 @@ Early survey of aspects of the [[gauge theory]] involved in the [[standard model
 
 * [[Gerard ’t Hooft]]: *Gauge Fields with Unified Weak, Electromagnetic, and Strong Interactions*, Rapporteur's talk at *[E.P.S. International Conference on High Energy Physics, Palermo, Sicily (June 1975)](https://inspirehep.net/conferences/963874)* &lbrack;[spire:2781](https://inspirehep.net/literature/2781), [pdf](https://webspace.science.uu.nl/~hooft101/gthpub/GaugeFields_75.pdf), [[tHooft-GaugeFields.pdf:file]]&rbrack;
 
+Expanding on the [[dual superconductor model of confinement]]:
+
+* {#tHooft1978} [[Gerard ’t Hooft]]: *On the phase transition towards permanent quark confinement*, Nuclear Physics B **138** 1 (1978) 1--25 \[<a href="https://doi.org/10.1016/0550-3213(78)90153-0">doi:10.1016/0550-3213(78)90153-0</a>\]
+
+
 On [[naturalness]] and [[chiral symmetry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
 
 * {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
@@ -64,7 +69,7 @@ Introducing the [[holographic principle]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Yang-Mills theory]]
 
