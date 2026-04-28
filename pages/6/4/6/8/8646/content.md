@@ -1,4 +1,3 @@
-[[!redirects weak nuclear force]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
