@@ -17,10 +17,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+
+\tableofcontents
 
 ## Definition
 
@@ -117,6 +116,8 @@ The maximal torus of the [[special orthogonal group]] $SO(2n)$ and $SO(2n+1)$ is
 
 ## Related concepts
 
+* [[splitting principle]]
+
 * [[maximal subgroup]]
 
 * [[maximal compact subgroup]]
@@ -128,6 +129,13 @@ The maximal torus of the [[special orthogonal group]] $SO(2n)$ and $SO(2n+1)$ is
 * [[Weyl group]]
 
 * [[orbit method]]
+
+In [[quantum field theory]]:
+
+* [[dual superconductor model of color confinement]]
+
+* [[heterotic line bundle]]
+
 
 ## References
 
