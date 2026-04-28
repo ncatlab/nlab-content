@@ -89,6 +89,8 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 * [[fiber bundles in physics]]
 
+* [[dual superconductor model of confinement]]
+
 * [[domain wall]], [[cosmic string]]
 
 * [[vortex]]
