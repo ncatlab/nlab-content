@@ -29,6 +29,8 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 * [[N=2 D=4 super Yang-Mills theory]]
 
+* [[dual superconductor model of confinement]]
+
 * [[Coulomb branch]], [[Higgs branch]]
 
 * [[Donaldson theory]]
