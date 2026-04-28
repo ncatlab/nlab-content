@@ -1,7 +1,13 @@
 
-* [website](http://web.mit.edu/physics/people/faculty/zwiebach_barton.html)
+* [institute page](http://web.mit.edu/physics/people/faculty/zwiebach_barton.html)
 
-  [Wikipedia entry](http://en.wikipedia.org/wiki/Barton_Zwiebach)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Barton_Zwiebach)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=52167)
+
+* [inSpire page](https://inspirehep.net/authors/981880)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Barton-Zwiebach)
 
 ## Selected writings
 
@@ -14,9 +20,9 @@ On [[bosonic string|bosonic]] [[closed string|closed]] [[string field theory]] a
 
 On [[string junctions]] in relation to [[Lie algebras]] and [[Lie algebra representations]]:
 
-* Oliver DeWolfe, [[Barton Zwiebach]], _String Junctions for Arbitrary Lie Algebra Representations_,  Nucl. Phys. B541 (1999) 509-565 ([arXiv:hep-th/9804210](https://arxiv.org/abs/hep-th/9804210))
+* [[Oliver DeWolfe]], [[Barton Zwiebach]]: *String Junctions for Arbitrary Lie Algebra Representations*,  Nucl. Phys. B **541** (1999) 509-565 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(98)00743-3">doi:10.1016/S0550-3213(98)00743-3</a>, [arXiv:hep-th/9804210](https://arxiv.org/abs/hep-th/9804210)&rbrack;
 
-* Oliver DeWolfe, Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]], _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 ([arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028))
+* [[Oliver DeWolfe]], Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]]: _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 \[<a href="https://doi.org/10.4310/ATMP.1999.v3.n6.a5">doi:10.4310/ATMP.1999.v3.n6.a5</a>, [arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028)\]
 
 On [[double field theory]]:
 
