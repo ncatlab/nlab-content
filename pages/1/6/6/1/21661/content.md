@@ -39,6 +39,10 @@ Considering these models has led to a little revolution in [[heterotic string th
 In the observable sector of [[heterotic M-theory]] the values $n = 4,5$ lead to good phenomenology, while for the [[hidden sector]] the value $n = 2$ is used (in [ADO 20a, Sec. 4.2](#ADO20a), [ADO 20a, Sec. 2.2](#ADO20a)).
  
 
+## Related concepts
+
+* [[dual superconductor model of color confinement]]
+
 ## References
 
 Heterotic line bundle models were first considered in
