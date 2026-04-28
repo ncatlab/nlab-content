@@ -16,9 +16,10 @@
 ## Selected writings
 
 
+
 On [[string junctions]] in relation to [[Lie algebras]] and [[Lie algebra representations]]:
 
-* Oliver DeWolfe, Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]], _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 ([arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028))
+* [[Oliver DeWolfe]], Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]]: _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 \[<a href="https://doi.org/10.4310/ATMP.1999.v3.n6.a5">doi:10.4310/ATMP.1999.v3.n6.a5</a>, [arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028)\]
 
 On a [[mysterious duality]]:
 
