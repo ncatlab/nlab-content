@@ -11,6 +11,11 @@ Introducing [[4d supergravity]]:
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
 
+On the stability of [[Freund-Rubin compactifications]]:
+
+* {#DWFGHM01} [[Oliver DeWolfe]], [[Daniel Z. Freedman]], [[Steven Gubser]], [[Gary Horowitz]], Indrajit Mitra: *Stability of $AdS_p \times M^q$ Compactifications Without Supersymmetry*, Phys. Rev. D **65** (2002) 064033 \[<a href="https://doi.org/10.1103/PhysRevD.65.064033">doi:10.1103/PhysRevD.65.064033</a>, [arXiv:hep-th/0105047](https://arxiv.org/abs/hep-th/0105047)\]
+
+
 Early discussion of [[quantum field theory]] [[quantum field theory on curved spacetimes|on]] [[anti de Sitter spacetimes]]:
 
 * Peter Breitenlohner, [[Daniel Z. Freedman]], *Positive energy in anti-de Sitter backgrounds and gauged extended supergravity*, Physics Letters B **115** 3 (1982) 197-201 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90643-8">doi:10.1016/0370-2693(82)90643-8</a>&rbrack;
