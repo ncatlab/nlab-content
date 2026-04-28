@@ -312,6 +312,9 @@ Application to [[topological Hochschild homology]]:
 
 * Florian Naef, Robin Stoll: *A rational model for the fiberwise THH transfer I: Sullivan algebras* &lbrack;[arXiv:2604.02516](https://arxiv.org/abs/2604.02516)&rbrack;
 
+* Florian Naef, Robin Stoll: *A rational model for the fiberwise THH transfer II: $A_\infty$-algebras* &lbrack;[arXiv:2604.24709](https://arxiv.org/abs/2604.24709)&rbrack;
+
+
   
 
 
