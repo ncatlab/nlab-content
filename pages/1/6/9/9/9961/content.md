@@ -100,8 +100,11 @@ Introduction and review:
 
 * Heng-Tong Ding: *Lattice QCD at finite temperature and density* &lbrack;[arXiv:2603.16230](https://arxiv.org/abs/2603.16230)&rbrack;
 
+On [[confinement]] in lattice gauge theory:
 
-Rigorous discussion in view of the [[mass gap problem]]:
+* {#Greensite2003} [[Jeff Greensite]]: *The Confinement Problem in Lattice Gauge Theory*, Prog. Part. Nucl. Phys. **51** (2003) 1 \[<a href="https://doi.org/10.1016/S0146-6410(03)90012-3">doi:10.1016/S0146-6410(03)90012-3</a>, [arXiv:hep-lat/0301023](https://arxiv.org/abs/hep-lat/0301023)\]
+
+and rigorous discussion in view of the [[mass gap problem]]:
 
 * {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2020 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
 
