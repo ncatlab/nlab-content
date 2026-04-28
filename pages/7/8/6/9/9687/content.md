@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 #### Differential cohomology
 +-- {: .hide}
@@ -15,9 +15,9 @@
 
 
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -169,6 +169,10 @@ See also at _[[glueball]]_.
 
 ## Related concepts
 
+* [[Yang-Mills mass gap]]
+
+* [[dual superconductor model of confinement]]
+
 * [[asymptotic freedom]]
 
 * [[quantization of Yang-Mills theory]]
@@ -185,10 +189,8 @@ See also at _[[glueball]]_.
 
 ## References
 
-### In Yang-Mills theory
+### In Yang-Mills theory -- General
  {#ReferencesInYangMillsTheory}
-
-#### General
 
 * {#Wilson74} [[Kenneth Wilson]],  *Confinement of quarks*, Phys. Rev. D **10** 2445 (1974) &lbrack;[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)&rbrack;
 
@@ -203,7 +205,7 @@ Textbook accounts:
 
 * [[David Griffiths]], chapter 8 of: _Introduction to Elementary Particles_ 2nd ed., Wiley-VCH  (2008) &lbrack;[pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf), [pdf](https://mikefragugliacom.wordpress.com/wp-content/uploads/2016/12/introduction-to-elementary-particles-gnv64.pdf), <a href="https://en.wikipedia.org/wiki/Introduction_to_Elementary_Particles_(book)">Wikipedia entry</a>&rbrack;
 
-* {#Greensite11} Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
+* {#Greensite11} [[Jeff Greensite]]: _An Introduction to the Confinement Problem_, Lecture Notes in Physics **821** (2011) &lbrack;[doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3)&rbrack;
 
 * Robert Iengo, section 9.1 of _Quantum Field Theory_ ([pdf](http://iopscience.iop.org/chapter/978-1-6432-7053-1/bk978-1-6432-7053-1ch9.pdf))
 
@@ -278,27 +280,7 @@ See also:
 
 * Gerrit Schierholz: *Renormalization Group Approach to Confinement* &lbrack;[arXiv:2509.10658](https://arxiv.org/abs/2509.10658)&rbrack;
 
-
-
-
-
-#### Via monopole condensation
- {#ViaMonopoleCondensation}
-
-An original suggestion that confinement in [[Yang-Mills theory]] may be understood via [[monopole]] [[condensate|condensation]] as a dual [[Meissner effect]] is due to 
-
-* {#Hooft75} [[Gerard 't Hooft]], in Proceed.of the Europ.Phys.Soc. 1975, ed.by A.Zichichi (Editrice Compositori, Bologna, 1976), p.1225.
-
-* {#Mandelstam76} S. Mandelstam, Phys.Rep. 23C (1976) 145;
-
-(That this is indeed the case has not yet been demonstarted for plain Yang-Mills theory, but it was later shown for [[N=2 D=4 super Yang-Mills theory]] in ([Seiberg-Witten 94](#SeibergWitten94)). What this does or does not imply for the case of [[QCD]] is discussed in ([Yung 00](#Yung00)) ).
-
-
-The relation to [[QCD instantons]]/[[monopole|monopoles]] in the [[QCD vacuum]] is discussed in  
-
-* {#SchaeferShuryak96} T. Schaefer, [[Edward Shuryak]], section III D of _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
-
-and analogously (at [[thermal field theory|positive temperature]]) relation to _[[calorons]]_:
+Discussion at [[thermal field theory|positive temperature]] in relation to _[[calorons]]_:
 
 * [Greensite 11, section 8.5](#Greensite11)
 
@@ -308,13 +290,7 @@ and analogously (at [[thermal field theory|positive temperature]]) relation to _
 
 * {#LarsenShuryak15} Rasmus Larsen, [[Edward Shuryak]], _Interacting Ensemble of the Instanton-dyons and Deconfinement Phase Transition in the SU(2) Gauge Theory_, Phys. Rev. D 92, 094022, 2015 ([arXiv:1504.03341](https://arxiv.org/abs/1504.03341))
 
-
-Further developments:
-
-* _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
-
-
-Discussion of confinement via an interacting field vacuum
+Discussion of confinement via an interacting field vacuum:
 
 * {#Rafelski90} [[Johann Rafelski]], _Vacuum structure -- An Essay_, in pages 1-29 of H. Fried, Berndt Müller (eds.) _Vacuum Structure in Intense Fields_, Plenum Press 1990 ([GBooks](https://books.google.de/books?id=5uXcBwAAQBAJ&pg=PA14&lpg=PA14&dq=confinement+%22interacting+vacuum%22&source=bl&ots=xPGYJ-JOc-&sig=AoYbqWQeNRMg6hMSRZjJ3nzq8B0&hl=en&sa=X&ved=0ahUKEwjIgK68-tnYAhVCESwKHThMDykQ6AEIKTAA#v=onepage&q=confinement%20%22interacting%20vacuum%22&f=false))
 
@@ -323,7 +299,7 @@ See also:
 * {#Simonov18} [[Yuri A. Simonov]], _Field Correlator Method for the confinement in QCD_, Phys. Rev. D 99, 056012 (2019) ([arXiv:1804.08946](https://arxiv.org/abs/1804.08946), [doi:10.1103/PhysRevD.99.056012](https://doi.org/10.1103/PhysRevD.99.056012))
 
 
-
+[[!include dual superconductor model -- references]]
 
 
 ### In super-insulators
@@ -340,7 +316,7 @@ Review:
 * [[Carlo A. Trugenberger]]: *Superinsulators, Bose Metals and High-$T_c$ Superconductors: The Quantum Physics of Emergent Magnetic Monopoles*, World Scientific (2022) &lbrack;[arXiv:10.1142/12688](https://doi.org/10.1142/12688)&rbrack;
 
 
-* [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS##TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
+* [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
 
 * [[Sebastian De Haro]], [[Jeremy Butterfield]], chaper 6 in: 
 *The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
