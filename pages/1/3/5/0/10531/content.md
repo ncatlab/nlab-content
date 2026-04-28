@@ -38,3 +38,5 @@ On [[homotopy limits]] of [[homotopy algebras]] and introducing the notion of th
 * [[chiral de Rham complex]]
 
 category: people
+
+[[!redirects V. Schechtman]]
