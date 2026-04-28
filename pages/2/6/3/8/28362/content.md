@@ -30,7 +30,7 @@ $$
   SU(n)
  \mathrlap{\,.}
 $$ 
-In such a [[gauge fixing|gauge]] one expects to see [[magnetic monopoles]] the way they are theoretically possible in [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
+Such a [[gauge fixing|gauge]] is expected to make manifest approximate [[magnetic monopoles]] the way they are theoretically possible in [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
 
 \[
   \pi_2\Big(
@@ -47,7 +47,9 @@ In such a [[gauge fixing|gauge]] one expects to see [[magnetic monopoles]] the w
 
 The [[condensate|condensation]] of these [[magnetic monopoles]] is then imagined to be an [[electric-magnetic duality|electromagnetic dual]] to the (experimentally well-observed) condensation of [[Cooper pairs]] in [[superconductors]], whence one speaks of a *[[superinsulator]]* phase. 
 
-But in [[superconductors]] it is well-known that the [[Meissner effect]] causes [[magnetic field|magnetic]] [[flux lines]] to (no longer spread out radially but) be bundled into [[flux tubes]] (through [[Abrikosov vortices]]). Hence by appeal to [[electric-magnetic duality]] one may expect that, dually, in such a [[magnetic monopole]] [[condensate]] [[superinsulator]] it is instead the [[color charge|color]]-*electric* flux lines which are bundled into [[flux tubes]]. But such [[color charge|color]]-*electric* [[flux tubes]] between [[quarks]] are exactly what, in turn, is expected (cf. *[[Polyakov gauge-string duality]]*) to conceptually explain the [[confinement]] of [[quarks]] inside [[mesons]] (and more generally inside [[baryons]], hence generally inside [[hadrons]]).
+Now, in ordinary [[superconductors]] it is well-known that the [[Meissner effect]] causes [[magnetic field|magnetic]] [[flux lines]] to (no longer spread out radially but) be bundled into [[flux tubes]] (through [[Abrikosov vortices]]). Hence by appeal to [[electric-magnetic duality]] one may expect that, dually, in such a [[magnetic monopole]] [[condensate]] [[superinsulator]] it is instead the [[color charge|color]]-*electric* flux lines which are bundled into [[flux tubes]]. 
+
+But such [[color charge|color]]-*electric* [[flux tubes]] between [[quarks]] are exactly what, in turn, is expected (cf. *[[Polyakov gauge-string duality]]*) to conceptually explain the [[confinement]] of [[quarks]] inside [[mesons]] (and more generally inside [[baryons]], hence generally inside [[hadrons]]).
 
 
 ## Comparison to lattice simulation
