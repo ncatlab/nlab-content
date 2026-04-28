@@ -227,6 +227,11 @@ On Kerr black holes in the context of the [[holographic principle]] and the [[Ad
 
 * [[Monica Guica]], [[Thomas Hartman]], Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_, Phys. Rev. D **80** (2009) 124008 &lbrack;[arXiv:0809.4266](http://arxiv.org/abs/0809.4266), [doi:10.1103/PhysRevD.80.124008](https://doi.org/10.1103/PhysRevD.80.124008)&rbrack;
 
+See also:
+
+* Nicholas Layden, Dipanjan Dey, Alan Coley: *A Complete Invariant Analysis of the Kerr Spacetime and its Photon Region* &lbrack;[arXiv:2604.23389](https://arxiv.org/abs/2604.23389)&rbrack;
+
+
 
 ### Phenomenology
  {#ReferencesObservation}
