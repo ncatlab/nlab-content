@@ -29,8 +29,11 @@ On [[AdS/CFT duality]]:
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
-
 * [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ ([gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037))
+
+On the stability of [[Freund-Rubin compactifications]]:
+
+* {#DWFGHM01} [[Oliver DeWolfe]], [[Daniel Z. Freedman]], [[Steven Gubser]], [[Gary Horowitz]], Indrajit Mitra: *Stability of $AdS_p \times M^q$ Compactifications Without Supersymmetry*, Phys. Rev. D **65** (2002) 064033 \[<a href="https://doi.org/10.1103/PhysRevD.65.064033">doi:10.1103/PhysRevD.65.064033</a>, [arXiv:hep-th/0105047](https://arxiv.org/abs/hep-th/0105047)\]
 
 
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
