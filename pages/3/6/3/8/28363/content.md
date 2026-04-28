@@ -16,6 +16,11 @@ Jeffrey Paul Greensite
 
 ## Selected writings
 
+On the [[dual superconductor model of confinement]]:
+
+* L. Del Debbio, M. Faber, [[Jeff Greensite]], S. Olejnik: *Some Cautionary Remarks on Abelian Projection and Abelian Dominance*, Nucl. Phys. Proc. Suppl. **53** (1997) 141--147 \[<a href="https://doi.org/10.1016/S0920-5632(96)00608-1">doi:10.1016/S0920-5632(96)00608-1</a>, [arXiv:hep-lat/9607053](https://arxiv.org/abs/hep-lat/9607053)\]
+
+
 On [[confinement]] in [[lattice gauge theory]]:
 
 * {#Greensite2003} [[Jeff Greensite]]: *The Confinement Problem in Lattice Gauge Theory*, Prog. Part. Nucl. Phys. **51** (2003) 1 \[<a href="https://doi.org/10.1016/S0146-6410(03)90012-3">doi:10.1016/S0146-6410(03)90012-3</a>, [arXiv:hep-lat/0301023](https://arxiv.org/abs/hep-lat/0301023)\]
