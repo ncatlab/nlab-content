@@ -17,6 +17,8 @@
 
 In [[solid state physics]], by *super-insulators* one refers to meaterials which at very low but non-vanishing [[temperature]] have effectively unbounded electrical [[resistance]]. This phenomenon may be understood as the "[[electric-magnetic duality|EM-dual]]" to that of *[[superconductors]]*.
 
+Generalized to [[color charge]], this notion plays a central role in the *[[dual superconductor model of confinement]]*.
+
 ## References
 
 See also: 
@@ -34,7 +36,7 @@ Review:
 
 * [[Carlo A. Trugenberger]]: *Superinsulators, Bose Metals and High-$T_c$ Superconductors: The Quantum Physics of Emergent Magnetic Monopoles*, World Scientific (2022) &lbrack;[arXiv:10.1142/12688](https://doi.org/10.1142/12688)&rbrack;
 
-* [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS##TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
+* [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
 
 
 [[!redirects superinsulators]]
