@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 
 ## Idea
@@ -40,7 +40,11 @@ At the same time, in their superconducting phase, [[magnetic fields]] are expell
 
 * [[colour superconductivity]]
 
-* [[electric-magnetic duality|EM-dual]]: [[superinsulator]]
+* [[electric-magnetic duality|EM-dual]]: 
+
+  * [[superinsulator]]
+
+  * [[dual superconductor model of confinement]]
 
 
 ## References
