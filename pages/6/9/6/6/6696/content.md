@@ -1,8 +1,20 @@
 
-* [webpage](http://www.staff.science.uu.nl/~hooft101/)
+Gerardus 't Hooft
+
+* [personal page](http://www.staff.science.uu.nl/~hooft101/)
+
+* [institute page](https://www.uu.nl/staff/GtHooft)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Gerard_%27t_Hooft)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=23240)
+
+* [inSpire page](https://inspirehep.net/authors/1019113)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Gerard-T-Hooft)
+
 
 ## Selected writings
-
 
 Proving the non-[[renormalizable interaction|renormalizability]] of Einstein-[[gravity]] ([[general relativity]]):
 
@@ -23,6 +35,9 @@ Original argument that [[magnetic monopoles]] may appear in [[grand unified theo
 
 * [[Gerard ’t Hooft]], *Magnetic Monopoles in Unified Gauge Theories*, Nucl. Phys. B **79** (1974) 276-284 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90486-6">doi:10.1016/0550-3213(74)90486-6</a>&rbrack;
 
+Early survey of aspects of the [[gauge theory]] involved in the [[standard model of particle physics]] ([[quantum electrodynamics]], [[quantum chromodynamics]] and [[weak nuclear force]]) and proposing the [[dual superconductor model of confinement]] (p. 4-5):
+
+* [[Gerard ’t Hooft]]: *Gauge Fields with Unified Weak, Electromagnetic, and Strong Interactions*, Rapporteur's talk at *[E.P.S. International Conference on High Energy Physics, Palermo, Sicily (June 1975)](https://inspirehep.net/conferences/963874)* &lbrack;[spire:2781](https://inspirehep.net/literature/2781), [pdf](https://webspace.science.uu.nl/~hooft101/gthpub/GaugeFields_75.pdf)m [[tHooft-GaugeFields.pdf:file]]&rbrack;
 
 On [[naturalness]] and [[chiral symmetry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
 
