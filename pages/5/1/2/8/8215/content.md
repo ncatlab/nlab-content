@@ -137,6 +137,14 @@ Homology for spaces  is discussed in chapter 2 of
 
 and this includes a discussion of the homology of simplicial complexes.
 
+
+
+An [[E-infinity coalgebra]] structure on chains is constructed in
+
+* [[Clemens Berger]], [[Benoit Fresse]], _Combinatorial operad actions on cochains_. Math. Proc. Camb.
+Philos. Soc., 137(1):135–174, 2004.  [doi](10.1017/s0305004103007138), [arXiv](http://arxiv.org/abs/math/0109158v2).
+
+
 [[!redirects chain on a simplicial set]]
 [[!redirects chains on a simplicial set]]
 
