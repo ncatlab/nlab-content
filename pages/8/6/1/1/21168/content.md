@@ -43,4 +43,17 @@ of cochains, as well as Steenrod's [[generalized cup products]].
 
 * [[singular cohomology]]
 
+## References
+
+An [[E-infinity algebra]] on simplicial cochains is constructed in
+
+* [[Albrecht Dold]], _Über die Steenrodschen Kohomologieoperationen_, Annals of Math. (2) 73 (1961), 258–294.
+
+* [[Vladimir Hinich]], [[Vadim Schechtman]], _On homotopy limit of homotopy algebras_. K-theory, arithmetic and
+geometry (Moscow, 1984–1986), 240–264, Lecture Notes in Mathematics 1289, Springer, 1987.
+
+* [[James McClure]], [[Jeffrey Smith]], _Multivariable cochain operations and little $n$-cubes_, Journal of the American Mathematical Society 16:3 (2003), 681-704.
+[doi](https://doi.org/10.1090/s0894-0347-03-00419-3), [arXiv](https://arxiv.org/abs/math/0106024).
+
+
 [[!redirects simplicial cochains]]
