@@ -19,7 +19,7 @@
 
 ## Idea
 
-In general, a _Freund-Rubin compactification_ &lbrack;[Freund & Rubin 1980](#FreundRubin80)&rbrack; is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to ([[higher gauge field|higher]]) [[gauge fields]] with [[flux]] ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (a basic example of [[moduli stabilization]] via [[flux compactification]]).
+In general, a _Freund-Rubin compactification_ &lbrack;[Freund & Rubin 1980](#FreundRubin80)&rbrack; is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to ([[higher gauge field|higher]]) [[gauge fields]] with [[flux]] ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (#DWFGHM01) (a basic example of [[moduli stabilization]] via [[flux compactification]]).
 
 One example are [[Kaluza-Klein compactifications]] of 6d [[Einstein-Maxwell theory]] with [[magnetic flux]] on a 2-dimensional [[fiber]] space ([[sphere]] or [[torus]]) ([RDSS 83](#RDSS83)). This serves these days as a toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
  
@@ -475,8 +475,12 @@ The class of Freund-Rubin compactifications of 6d [[Einstein-Maxwell theory]] do
 
 *  {#RDSS83} S. Randjbar-Daemi, [[Abdus Salam]] and J. A. Strathdee, _Spontaneous Compactification In Six-Dimensional Einstein-Maxwell Theory_, Nucl. Phys. B 214, 491 (1983) ([spire](https://inspirehep.net/record/182427/))
 
-now a popoular toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
+now a popular toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
 
+The stability of Freund-Rubin compactifications is discussed in: 
+
+* {#DWFGHM01} Oliver DeWolfe, [[Daniel Z. Freedman]], [[Steven Gubser]], [[Gary Horowitz]], Indrajit Mitra, Stability of $AdS_p \times M^q$ Compactifications
+Without Supersymmetry, Phys.Rev.D 65 (2002) 064033 ([arXiv:hep-th/0105047](https://arxiv.org/abs/hep-th/0105047))
 
 Textbook account (in [[D'Auria-Fre formulation of supergravity|D'Auria-Fré formulation]]):
 
