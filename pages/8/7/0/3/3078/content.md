@@ -11,6 +11,8 @@ Mikhail M. Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
 
 * [ResearchGate page](https://www.researchgate.net/profile/Mikhail-Kapranov)
 
+* Interview and MPIM Bonn (2025) &lbrack;[yt](https://youtu.be/eDkMHX7jBvQ)&rbrack;
+
 ## Selected writings
 
 > (cf. also the publication list at [www.math.yale.edu/~mk486/publ.html](http://www.math.yale.edu/~mk486/publ.html)
