@@ -334,9 +334,12 @@ See
 
 * {#Scholz} Erhard Scholz, _H. Weyl's and E. Cartan's proposals for infinitesimal geometry in the early 1920s_ ([pdf](http://www2.math.uni-wuppertal.de/~scholz/preprints/weyl_cartan.pdf))
 
-Early surveys include
+Early surveys:
 
-* {#Iliopoulos75} [[John Iliopoulos]], _Progress in Gauge Theories_, 1975 ([spire:3000](http://inspirehep.net/record/3000))
+* {#Iliopoulos75} [[John Iliopoulos]], _Progress in Gauge Theories_ (1975) &lbrack;[spire:3000](http://inspirehep.net/record/3000)&rbrack;
+
+* [[Gerard ’t Hooft]]: *Gauge Fields with Unified Weak, Electromagnetic, and Strong Interactions*, Rapporteur's talk at *[E.P.S. International Conference on High Energy Physics, Palermo, Sicily (June 1975)](https://inspirehep.net/conferences/963874)* &lbrack;[spire:2781](https://inspirehep.net/literature/2781), [pdf](https://webspace.science.uu.nl/~hooft101/gthpub/GaugeFields_75.pdf)m [[tHooft-GaugeFields.pdf:file]]&rbrack;
+
 
 Quick reviews include
 
