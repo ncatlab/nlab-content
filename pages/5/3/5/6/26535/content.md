@@ -17,5 +17,10 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+With [[adjusted Weil algebra|adjusted]] [[connection on a 2-bundle|2-connections]]:
+
+* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092](https://arxiv.org/abs/2203.00092)&rbrack;
+
+
 
 category: people
