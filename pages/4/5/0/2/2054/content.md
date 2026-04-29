@@ -49,6 +49,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \tau:\mathrm{isSet}(\mat
 
 ## Related concepts
 
+* [[fully residually free group]]
+
 * [[free monoid]]
 
 * [[free product of groups]]
@@ -58,6 +60,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \tau:\mathrm{isSet}(\mat
 * [[underlying type of free infinity-group]]
 
 * [[Fox derivative]]
+
 
 ## References
 
