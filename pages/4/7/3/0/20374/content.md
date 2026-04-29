@@ -59,11 +59,15 @@ The idea of semi-topological 4d CS theory, and its relation to [[Yangians]] and 
 
 Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
-* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ &lbrack;[arXiv:2008.01829](https://arxiv.org/abs/2008.01829)&rbrack;
+* [[Marco Benini]], [[Alexander Schenkel]], [[Benoit Vicedo]], _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ &lbrack;[arXiv:2008.01829](https://arxiv.org/abs/2008.01829)&rbrack;
 
 and via [[L-infinity algebras|$L_\infty$-algebras]]:
 
-* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo: *The homological algebra of 2d integrable field theories* &lbrack;[arXiv:2601.19993](https://arxiv.org/abs/2601.19993)&rbrack;
+* [[Marco Benini]], [[Alexander Schenkel]], [[Benoit Vicedo]]: *The homological algebra of 2d integrable field theories* &lbrack;[arXiv:2601.19993](https://arxiv.org/abs/2601.19993)&rbrack;
+
+and Generalized to higher dimensions:
+
+* [[Marco Benini]], Ryan A. Cullinan, [[Alexander Schenkel]], [[Benoit Vicedo]]: *On the structure of higher-dimensional integrable field theories* &lbrack;[arXiv:2604.24864](https://arxiv.org/abs/2604.24864)&rbrack;
 
 Review:
 
@@ -87,7 +91,7 @@ Relation to the [[Berkovits superstring]]:
 
 A [[higher gauge theory|higher gauge]] [[D=5 Chern-Simons theory]] analogous to semi-topological D=4 Chern-Simons theory:
 
-* [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
+* [[Alexander Schenkel]], [[Benoit Vicedo]]: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
 
 Relation of 4d semi-topological CS to special solutions of 4d [[gravity]]:
 
