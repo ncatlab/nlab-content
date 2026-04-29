@@ -206,6 +206,11 @@ Introductions:
 
 * Wolfgang Bietenholz, Uwe-Jens Wiese: *Uncovering Quantum Field Theory and the Standard Model*, Cambirdge University Press (2025) &lbrack;[ISBN:9781108472333](https://www.cambridge.org/highereducation/books/uncovering-quantum-field-theory-and-the-standard-model/D68C7687188CBD9111503A348A5E09FA)&rbrack;
 
+See also:
+
+* Alexandros Gezerlis: *Six textbook mistakes in quantum field theory* &lbrack;[arXiv:2604.24871](https://arxiv.org/abs/2604.24871)&rbrack;
+
+
 
 A standard textbook written from the perspective of [[effective field theory]]:
 
