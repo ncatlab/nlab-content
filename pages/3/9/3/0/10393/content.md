@@ -39,6 +39,10 @@ Review:
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]]: _Supersymmetric Dark Matter Candidates_, chapter 8 of: *Particle Dark Matter -- Observations, Models and Searches*, Cambridge University Press (2010) 142 - 163 &lbrack;[arXiv:1001.3651](http://arxiv.org/abs/1001.3651), [doi:10.1017/CBO9780511770739.009](https://doi.org/10.1017/CBO9780511770739.009)&rbrack;
 
+On the [[dual superconductor model of color confinement]]:
+
+* [[John Ellis]], N. E. Mavromatos: *Confinement in Gauge Theories from the Condensation of World-Sheet Defects in Liouville String*, Int . J. Mod. Phys. A **14** (1999) 3761--3788 \[<a href="https://doi.org/10.1142/S0217751X99001743">doi:10.1142/S0217751X99001743</a>, [arXiv:hep-th/9808172](https://arxiv.org/abs/hep-th/9808172)\]
+
 
 
 On the [[Starobinsky model of cosmic inflation]] 
