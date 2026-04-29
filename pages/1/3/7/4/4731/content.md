@@ -177,9 +177,9 @@ expanding on
 
 * [[John Baez]], [[Urs Schreiber]]: *Higher Gauge Theory*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431**, AMS (2007) 7-30 &lbrack;[arXiv:math/0511710](http://arxiv.org/abs/math/0511710), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431) [ams:conm-431](https://bookstore.ams.org/conm-431)&rbrack;
 
-Much further discussion and illustration and relation to [[tensor networks]] is in
+Further discussion and illustration and relation to [[tensor networks]]:
 
-* {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
+* {#Parzygnat18} [[Arthur Parzygnat]]: _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics **60** 043506 (2019) &lbrack;[arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532)&rbrack;
 
 
 
@@ -195,22 +195,28 @@ The [[cocycle]] data for 2-connections with coeffcients in [[automorphism 2-grou
 
 and 
 
-* Paolo Aschieri, Luigi Cantini, [[Branislav Jurco]], _Nonabelian Bundle Gerbes, their Differential Geometry and Gauge Theory_ , Communications in Mathematical Physics Volume 254, Number 2 (2005) 367-400,([arXiv:hep-th/0312154](http://arxiv.org/abs/hep-th/0312154)).
+* [[Paolo Aschieri]], Luigi Cantini, [[Branislav Jurco]], _Nonabelian Bundle Gerbes, their Differential Geometry and Gauge Theory_ , Communications in Mathematical Physics Volume 254, Number 2 (2005) 367-400,([arXiv:hep-th/0312154](http://arxiv.org/abs/hep-th/0312154)).
 
-A discussion of fully general local 2-connections is in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+A discussion of general (non fake-flat, now called "[[adjusted Weil algebra|adjusted]]") local 2-connections:
 
-and the globalization is in
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-infinity algebra connections|$L_\infty$-connections and applications to String- and Chern-Simons $n$-transport]]_, in *Quantum Field Theory*, Birh&auml;user (2009) 303--424 &lbrack;[doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480)&rbrack;
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
+and their globalization:
 
-For a discussion of all this in a more comprehensive context see section xy of
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149--250 &lbrack;[doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5), [arXiv:1011.4735](https://arxiv.org/abs/1011.4735)&rbrack;
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
- {#SchreiberCohesive}
+* {#SchreiberCohesive} [[Urs Schreiber]]: *[[schreiber:differential cohomology in a cohesive topos]]*
+  (cf. [[connection on an infinity-bundle]] for more general discussion)
 
-See also [[connection on an infinity-bundle]] for the general theory.
+Discussion of the [[adjusted Weil algebra|adjusted]] version (see there for more) in terms of [[crossed modules]]:
+
+* {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
+
+* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092](https://arxiv.org/abs/2203.00092)&rbrack;
+
+* [[Konrad Waldorf]]: *Adjusted connections on non-abelian bundle gerbes* \[<a href="https://arxiv.org/abs/2604.24513">arXiv:2604.24513</a>\]
+
 
 ### Applications to physics
 
