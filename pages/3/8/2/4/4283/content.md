@@ -104,6 +104,11 @@ Discussion in relation to [[asymptotic symmetries]] of [[gauge theories]]:
 
 * [[A. P. Balachandran]],  [[V. P. Nair]], A. Pinzul, [[A. F. Reyes-Lega]], S. Vaidya: *Superselection, boundary algebras, and duality in gauge theories*, Phys. Rev. D **106** (2022) 025001 &lbrack;[doi:10.1103/PhysRevD.106.025001](https://doi.org/10.1103/PhysRevD.106.025001), [arXiv:2112.08631](https://arxiv.org/abs/2112.08631)&rbrack;
 
+Discussion in [[AQFT]] via [[factorization algebra|prefactorization algebra]]:
+
+* [[Marco Benini]], Victor Carmona, [[Alexander Schenkel]]: *Prefactorization algebras of superselection sectors* &lbrack;[arXiv:2604.24865](https://arxiv.org/abs/2604.24865)&rbrack;
+
+
 
 
 
