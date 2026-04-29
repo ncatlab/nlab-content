@@ -59,4 +59,8 @@ By definition, $(\mathcal{H}_c,\mathfrak{l})$ is a Lie-infinity-algebra. Further
 
 General:
 
-* [[Hiroshige Kajiura]], [[Jim Stasheff]]. *Open-closed homotopy algebra in mathematical physics*. J. Math. Phys. 47, 023506 (2006). ([doi](https://doi.org/10.1063/1.2171524)).
+* [[Hiroshige Kajiura]], [[Jim Stasheff]], _Homotopy algebras inspired by classical open-closed string field theory_, Commun.Math.Phys. **263** (2006) 553-581 &lbrack;[arXiv:math/0410291](https://arxiv.org/abs/math/0410291v3), [doi:10.1007/s00220-006-1539-2](https://doi.org/10.1007/s00220-006-1539-2)&rbrack;
+
+* [[Hiroshige Kajiura]], [[Jim Stasheff]], _Open-closed homotopy algebra in mathematical physics_, J. Math. Phys. **47** 023506 (2006) &lbrack;[arXiv:hep-th/0510118](https://arxiv.org/abs/hep-th/0510118v2), [doi:10.1063/1.2171524](https://doi.org/10.1063/1.2171524)&rbrack;
+
+* [[Hiroshige Kajiura]], [[Jim Stasheff]], _Homotopy algebra of open-closed strings_, Geom. Topol. Monogr. **13** (2008) 229-259 &lbrack;[arXiv:hep-th/0606283](https://arxiv.org/abs/hep-th/0606283), [doi:10.2140/gtm.2008.13.229](https://doi.org/10.2140/gtm.2008.13.229)&rbrack;
