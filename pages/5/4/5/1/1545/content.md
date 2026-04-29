@@ -74,6 +74,10 @@ On classification of "[[adjusted Weil algebra|adjustments]]" for central [[cross
 
 * [[Matthias Ludewig]], [[Konrad Waldorf]]: *Classification of adjustments on central crossed modules* &lbrack;[arXiv:2510.19607](https://arxiv.org/abs/2510.19607)&rbrack;
 
+On [[adjusted Weil algebra|adjusted]] [[connection on a 2-bundle|2-connections]]:
+
+* [[Konrad Waldorf]]: *Adjusted connections on non-abelian bundle gerbes* \[<a href="https://arxiv.org/abs/2604.24513">arXiv:2604.24513</a>\]
+
 
 
 
