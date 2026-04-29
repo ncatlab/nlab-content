@@ -231,6 +231,9 @@ See also:
 
 * Nicholas Layden, Dipanjan Dey, Alan Coley: *A Complete Invariant Analysis of the Kerr Spacetime and its Photon Region* &lbrack;[arXiv:2604.23389](https://arxiv.org/abs/2604.23389)&rbrack;
 
+* Hyeong-Chan Kim: *Local Origin of Hidden Symmetry in Rotating Spacetimes* &lbrack;[arXiv:2603.08408](https://arxiv.org/abs/2603.08408)&rbrack;
+
+
 
 
 ### Phenomenology
