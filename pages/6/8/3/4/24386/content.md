@@ -10,10 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## Idea
 
@@ -81,6 +79,11 @@ Application to [[higher parallel transport]]:
 
 * {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
 
+and [[connections on 2-bundles]]:
+
+* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092](https://arxiv.org/abs/2203.00092)&rbrack;
+
+
 Relation to [[EL-infinity algebras|$E L_\infty$-algebras]] and [[tensor hierarchies]]:
 
 * {#BorstenKimSaemann21} [[Leron Borsten]], [[Hyungrok Kim]], [[Christian Saemann]].  *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies* &lbrack;[arXiv:2106.00108](https://arxiv.org/abs/2106.00108)&rbrack;
@@ -98,9 +101,12 @@ Application to geometric refinement of [[topological T-duality]]:
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
-Classification of adjustments for [[center|central]] [[crossed modules]]:
+Discussion for [[center|central]] [[crossed modules]]/[[Lie 2-groups]]:
 
 * [[Matthias Ludewig]], [[Konrad Waldorf]]: *Classification of adjustments on central crossed modules* &lbrack;[arXiv:2510.19607](https://arxiv.org/abs/2510.19607)&rbrack;
+
+* [[Konrad Waldorf]]: *Adjusted connections on non-abelian bundle gerbes* \[<a href="https://arxiv.org/abs/2604.24513">arXiv:2604.24513</a>\]
+
 
 For [[principal 3-bundles]]:
 
