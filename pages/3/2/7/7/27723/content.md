@@ -33,6 +33,10 @@ On the [[fractional quantum anomalous Hall effect]]:
 
 * [[Nicolas Regnault]] et al.: *Fractional topological states in rhombohedral multilayer graphene modulated by kagome superlattice* &lbrack;[arXiv:2502.17320](https://arxiv.org/abs/2502.17320)&rbrack;
 
+and in relation to [[anyons]]:
+
+* Kishore Iyer, Andreas Feuerpfeil, Valentin Crépel, [[Nicolas Regnault]], Christophe Mora: *Dispersion of Anyon Bloch Bands* &lbrack;[arXiv:2604.24859](https://arxiv.org/abs/2604.24859)&rbrack;
+
 
 
 category: people
