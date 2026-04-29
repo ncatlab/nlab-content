@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 [[!include Polyakov gauge-string duality -- section]]
@@ -26,6 +24,8 @@
 
 
 [[!include Polyakov gauge-string duality -- references]]
+
+[[!include dual superconductor model -- references]]
 
 
 
