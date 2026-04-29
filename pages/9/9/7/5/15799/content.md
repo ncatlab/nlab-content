@@ -144,6 +144,10 @@ On an [[duality in physics|equivalence]] [[relation between algebraic and functo
 
 * [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]]: *An equivalence theorem for algebraic and functorial QFT* &lbrack;[arXiv:2504.15759](https://arxiv.org/abs/2504.15759)&rbrack;
 
+On [[superselection sectors]] in [[AQFT]] via [[factorization algebra|prefactorization algebra]]:
+
+* [[Marco Benini]], Victor Carmona, [[Alexander Schenkel]]: *Prefactorization algebras of superselection sectors* &lbrack;[arXiv:2604.24865](https://arxiv.org/abs/2604.24865)&rbrack;
+
 
 ## Related entries
 
