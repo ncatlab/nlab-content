@@ -5,7 +5,13 @@
 
 #### General
 
-The original proposal of the [[dual superconductor model of color confinement]]:
+Precursor discussion identifying the [[Polyakov gauge-string duality|Polyakov dual]] [[flux tube]] [[strings]] as (akin to) [[vortices]] in a [[superconductor]] medium: 
+
+* {#NielsenOlesen73} [[Holger Bech Nielsen]], [[Poul Olesen]]: *Vortex-line models for dual strings*, Nuclear Physics B **61** (1973) 45-61 \[<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>\]
+
+* [[Yoichiro Nambu]]: *Strings, monopoles, and gauge fields*, Phys. Rev. D **10** (1974) 4262 \[<a href="https://doi.org/10.1103/PhysRevD.10.4262">doi:10.1103/PhysRevD.10.4262</a>\]
+
+The articles now credited with (independently) proposing the [[dual superconductor model of color confinement]]:
 
 * {#Mandelstam1975} [[Stanley Mandelstam]]: *Vortices and quark confinement in non-abelian gauge theories*, Physics Letters B **53** 5 (1975) 476--478 \[<a href="https://doi.org/10.1016/0370-2693(75)90221-X">doi:10.1016/0370-2693(75)90221-X</a>\]
 
@@ -15,7 +21,15 @@ The original proposal of the [[dual superconductor model of color confinement]]:
 
 Further discussion:
 
+* Grigorios I. Poulis: *Abelian dominance and adjoint sources in lattice QCD*, Phys. Rev.D **54** (1996) 6974--6985 \[<a href="https://doi.org/10.1103/PhysRevD.54.6974">doi:10.1103/PhysRevD.54.6974</a>, [arXiv:hep-lat/9601013](https://arxiv.org/abs/hep-lat/9601013)\]
+
 * L. Del Debbio, M. Faber, [[Jeff Greensite]], S. Olejnik: *Some Cautionary Remarks on Abelian Projection and Abelian Dominance*, Nucl. Phys. Proc. Suppl. **53** (1997) 141--147 \[<a href="https://doi.org/10.1016/S0920-5632(96)00608-1">doi:10.1016/S0920-5632(96)00608-1</a>, [arXiv:hep-lat/9607053](https://arxiv.org/abs/hep-lat/9607053)\]
+
+* Hiroko Ichie, [[Hideo Suganuma]]: *Abelian dominance for confinement and random phase property of off-diagonal gluons in the maximally abelian gauge*, Nuclear Physics B **548** 1–-3 (1999) 365-382 \[<a href="https://doi.org/10.1016/S0550-3213(99)00132-7">doi:10.1016/S0550-3213(99)00132-7</a>, [arXiv:hep-lat/9807025](https://arxiv.org/abs/hep-lat/9807025)\]
+
+* [[John Ellis]], N. E. Mavromatos: *Confinement in Gauge Theories from the Condensation of World-Sheet Defects in Liouville String*, Int . J. Mod. Phys. A **14** (1999) 3761--3788 \[<a href="https://doi.org/10.1142/S0217751X99001743">doi:10.1142/S0217751X99001743</a>, [arXiv:hep-th/9808172](https://arxiv.org/abs/hep-th/9808172)\]
+
+* K.-I. Kondo, A. Shibata, T. Shinohara, S. Kato: *Non-Abelian Dual Superconductor Picture for Quark Confinement*, Phys. Rev. D **83** (2011) 114016 \[<a href="https://doi.org/10.1103/PhysRevD.83.114016">doi:10.1103/PhysRevD.83.114016</a>, [arXiv:1007.2696](https://arxiv.org/abs/1007.2696)\]
 
 * Y. M. Cho: _Dimensional Transmutation by Monopole Condensation in QCD_, Phys. Rev. D. **87** (2013) 085025 \[<a href="https://doi.org/10.1103/PhysRevD.87.085025">doi:10.1103/PhysRevD.87.085025</a>, [arXiv:1206.6936](http://arxiv.org/abs/1206.6936)\]
 
@@ -46,11 +60,15 @@ On the [[dual superconductor model of confinement]] in view of [[lattice QCD]] c
 
 * {#Peskin1978} [[Michael E. Peskin]]: *Mandelstam 't Hooft Duality in Abelian Lattice Models*, Annals Phys. **113** (1978) 122 \[<a href="https://doi.org/10.1016/0003-4916(78)90252-X">doi:10.1016/0003-4916(78)90252-X</a>\]
 
+* Tsuneo Suzuki, Ichiro Yotsuyanagi: *Possible evidence for Abelian dominance in quark confinement*, Phys. Rev. D **42**  (1990) 4257(R) \[<a href="https://doi.org/10.1103/PhysRevD.42.4257">doi:10.1103/PhysRevD.42.4257</a>\]
+
 * {#CeaCosmai1993} [[Paolo Cea]], [[Leonardo Cosmai]]: *Lattice investigation of dual superconductor mechanism of confinement*, Nuclear Physics B - Proceedings Supplements **30** (1993) 572--575 \[<a href="https://doi.org/10.1016/0920-5632(93)90276-C">doi:10.1016/0920-5632(93)90276-C</a>\]
 
 * {#CeaCosmai1994} [[Paolo Cea]], [[Leonardo Cosmai]]: *Dual Superconductor Mechanism of Confinement on the Lattice*, Nuov Cim A **107** (1994) 541547 \[<a href="https://doi.org/10.1007/BF02768788">doi:10.1007/BF02768788</a>, [arXiv:hep-lat/9210030](https://arxiv.org/abs/hep-lat/9210030)\]
 
 * {#CeaCosmai1996} [[Paolo Cea]], [[Leonardo Cosmai]]: *The $SU(2)$ Confining Vacuum as a Dual Superconductor*, Nucl. Phys. Proc. Suppl. **47** (1996) 318--321 \[<a href="https://doi.org/10.1016/0920-5632(96)00065-5">doi:10.1016/0920-5632(96)00065-5</a>, [arXiv:hep-lat/9509007](https://arxiv.org/abs/hep-lat/9509007)\]
+
+* [[Hideo Suganuma]], H. Ichie, K. Amemiya: *Origin of Abelian Dominance in QCD in the Maximally Abelian Gauge*, in: *Quark Confinement and the Hadron Spectrum III*, World Scientific (2000) 207--210 \[<a href="https://doi.org/10.1142/9789812793713_0026">doi:10.1142/9789812793713_0026</a>\]
 
 * {#SuganumaSakumichi2014} [[Hideo Suganuma]], [[Naoyuki Sakumichi]]: *Perfect Abelian dominance of confinement in quark-antiquark potential in $SU(3)$ lattice QCD* \[<a href="https://arxiv.org/abs/1412.8489">arXiv:1412.8489</a>\]
  
@@ -93,6 +111,13 @@ Review:
 
 * [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) \[slides:[[Trugenberger-CQTSFeb2025.pdf:file]]\]
 
+#### Via holographics QCD
+
+Discussion of the [[dual superconductor model of color confinement]] via [[holographic QCD]]:
+
+* Tsung-Sheng Huang, Wen-Yu Wen: *Holographic Model of Dual Superconductor for Quark Confinement* \[<a href="https://arxiv.org/abs/1607.08171">arXiv:1607.08171</a>\]
+
+* Antón F. Faedo, [[Carlos Hoyos]], Javier G. Subils: *Monopoles and confinement in three dimensions from holography*,  J. High Energ. Phys. **2023** 218 (2023) \[<a href="https://doi.org/10.1007/JHEP03(2023)218">doi:10.1007/JHEP03(2023)218</a>, [arXiv:2212.04996](https://arxiv.org/abs/2212.04996)\]
 
 
 
