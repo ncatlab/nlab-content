@@ -1,11 +1,17 @@
 
+Jan W. Jaworowski (1928-2013)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Jan_Jaworowski)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=11313)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Jan-Jaworowski-2016337061)
 
 ## Selected writings
 
 On [[cohomotopy]]:
 
-* [[Jan Jaworowski]], _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae 50 (1962), 393-402 ([doi:10.4064/fm-50-4-333-340](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/4), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm50/fm50133.pdf))
+* {#Jaworowski1962} [[Jan Jaworowski]]: _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae **50** (1962) 393--402 &lbrack;[doi:10.4064/fm-50-4-393-402](http://doi.org/10.4064/fm-50-4-393-402), [[Jaworowski-GeneralizedCohomotopy.pdf:file]]&rbrack;
 
 On [[equivariant Tietze extension theorems]]:
 
