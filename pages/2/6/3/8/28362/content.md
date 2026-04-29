@@ -20,7 +20,7 @@
 
 The *dual superconductor model*  ([Mandelstam 1975](#Mandelstam1975), [’t Hooft 1975](#tHooft1975), [1978](#tHooft1978)) is a proposal for how to conceptually understand the mechanism of [[confinement]] in non-abelian [[Yang-Mills theories]] such as [[quantum chromodynamics]] (the *[[Yang-Mills mass gap]]* problem).
 
-The idea is to regard the theory in a "maximal abelian [[gauge fixing|gauge]]", where the [[SU(n)|$SU(n)$]] [[color charge|color]] [[gauge field]] is approximated by small nonabelian fluctuations around a [[Maxwell theory|Maxwell]]-like field with [[gauge group]] the [[maximal torus]] 
+The idea is to regard the theory in a "maximal abelian [[gauge fixing|gauge]]", where the [[SU(n)|$SU(n)$]] [[color charge|color]] [[gauge field]] is approximated by nonabelian fluctuations around a [[Maxwell theory|Maxwell]]-like field with [[abelian group|abelian]] [[gauge group]] the [[maximal torus]] 
 
 $$
   U(1)^{n-1} 
@@ -30,7 +30,9 @@ $$
   SU(n)
  \mathrlap{\,.}
 $$ 
-Such a [[gauge fixing|gauge]] is expected to make manifest approximate [[magnetic monopoles]] the way they are theoretically possible in [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
+
+
+Such a [[gauge fixing|gauge]] is expected to make manifest that the dynamics is dominated by the abelian field component (*abelian dominance*) and therefore well described by abelian [[magnetic monopole]] solutions (cf. *[[Dirac monopole]]*) --- the way they are theoretically possible in abelian [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
 
 \[
   \pi_2\Big(
@@ -93,3 +95,6 @@ The model compares favorably with [[lattice QCD]] simulations in suitable parame
 [[!redirects dual superconductor model]]
 [[!redirects dual superconductor]]
 [[!redirects 't Hooft-Mandelstam model]]
+
+[[!redirects abelian dominance]]
+
