@@ -89,6 +89,10 @@ Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[de
 
 * [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
 
+On [[superselection sectors]] in [[AQFT]] via [[factorization algebra|prefactorization algebra]]:
+
+* [[Marco Benini]], Victor Carmona, [[Alexander Schenkel]]: *Prefactorization algebras of superselection sectors* &lbrack;[arXiv:2604.24865](https://arxiv.org/abs/2604.24865)&rbrack;
+
 
 ## Related entries
 
