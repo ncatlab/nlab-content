@@ -1,6 +1,14 @@
 
 * [personal page](https://www.kurims.kyoto-u.ac.jp/~mayuko/english.html)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mayuko_Yamashita)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=291733)
+
+* [inSpire page](https://inspirehep.net/authors/2892213)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=wVlHHmAAAAAJ&hl=en)
+
 ## Selected writings
 
 
