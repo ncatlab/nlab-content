@@ -20,7 +20,7 @@ On [[higher structures]] in [[string theory]] and [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8-9 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
 
-On [[L-infinity algebras|$L-\infty$-algebras]] in the [[BV-BRST formalism]] for [[classical field theory]]:
+On [[L-infinity algebras|$L_\infty$-algebras]] in the [[BV-BRST formalism]] for [[classical field theory]]:
 
 * [[Branislav Jurčo]], Lorenzo Raspollini, [[Christian Saemann]], [[Martin Wolf]]: *$L_\infty$-Algebras of Classical Field Theories and the Batalin-Vilkovisky Formalism*,  	Fortschr. Phys. **67** (2019) 1900025 \[<a href="https://doi.org/10.1002/prop.201900025">doi:10.1002/prop.201900025</a>, [arXiv:1809.09899](https://arxiv.org/abs/1809.09899)\]
 
@@ -39,6 +39,11 @@ On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Y
 On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
+
+with [[adjusted Weil algebra|adjusted]] [[connection on a 2-bundle|2-connections]]:
+
+* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092](https://arxiv.org/abs/2203.00092)&rbrack;
+
 
 On [[extremal black holes]] via [[L-infinity algebras]]:
 
