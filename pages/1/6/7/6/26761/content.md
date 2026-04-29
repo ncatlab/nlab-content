@@ -13,6 +13,11 @@ On the [QCD phase diagram](QCD#PhaseDiagram) and the description of [[neutron st
 
 * [[Carlos Hoyos]], [[Niko Jokela]], Aleksi Vuorinen, *Holographic approach to compact stars and their binary mergers*, Prog. Part. Nucl. Phys. **126** (2022) 103972 &lbrack;[arXiv:2112.08422] (https://arxiv.org/abs/2112.08422), [doi:10.1016/j.ppnp.2022.103972](https://doi.org/10.1016/j.ppnp.2022.103972)&rbrack;
 
+On the [[dual superconductor model of color confinement]] via [[holographic QCD]]:
+
+* Antón F. Faedo, [[Carlos Hoyos]], Javier G. Subils: *Monopoles and confinement in three dimensions from holography*,  J. High Energ. Phys. **2023** 218 (2023) \[<a href="https://doi.org/10.1007/JHEP03(2023)218">doi:10.1007/JHEP03(2023)218</a>, [arXiv:2212.04996](https://arxiv.org/abs/2212.04996)\]
+
+
 Application of the [[nonabelian DBI action]] to the description of [[heavy flavor]] via [[holographic QCD]]:
 
 * [[Carlos Hoyos]], [[Niko Jokela]], Andrea Olzi: *Subtleties of non-Abelian D-brane actions and their effect on holographic heavy-light meson spectra* &lbrack;[arXiv:2511.17409](https://arxiv.org/abs/2511.17409)&rbrack;
