@@ -181,6 +181,9 @@ See also
 
 * [[Harold C. Steinacker]]: *Modified gravity at large scales on quantum spacetime in the IKKT model* &lbrack;[arXiv:2601.08031](https://arxiv.org/abs/2601.08031)&rbrack;
 
+* Yuhma Asano: *Path integral for the closed superstring and the matrix model* &lbrack;[arXiv:2604.25052](https://arxiv.org/abs/2604.25052)&rbrack;
+
+
 
 
 
@@ -219,6 +222,9 @@ Further:
 * *The emergence of expanding space-time in the Lorentzian type IIB matrix model with a novel regularization* &lbrack;[arXiv:2307.01681](https://arxiv.org/abs/2307.01681)&rbrack;
 
 * Henry Liao, Reishi Maeta: *A New Type of Saddle in Euclidean IKKT Matrix Model and Its Effective Geometry* &lbrack;[arXiv:2512.03161](https://arxiv.org/abs/2512.03161)&rbrack;
+
+* Konstantinos N. Anagnostopoulos, Takehiro Azuma, Mitsuaki Hirasawa, Jun Nishimura, Asato Tsuchiya, Naoyuki Yamamori: *Impact of supersymmetry on the dynamical emergence of the spacetime in the type IIB matrix model with the Lorentz symmetry "gauge fixed"* &lbrack;[arXiv:2604.25564](https://arxiv.org/abs/2604.25564)&rbrack;
+
 
 
 
