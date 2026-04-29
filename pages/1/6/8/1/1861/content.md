@@ -22,9 +22,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -1233,7 +1232,7 @@ $$
 #### The torus --- rederivation
  {#FundamentalGroupOf2CohomotopyOfTorusRederived}
 
-We give a shorter and more transparent re-derivation of the [above fact](#FundamentalGroupOf2CohomotopyOfTorusTraditional), which also generalizes to Cohomotopy in higher even degrees.
+We give a shorter and more transparent re-derivation ([KSS 2026](#KSS2026)) of the [above fact](#FundamentalGroupOf2CohomotopyOfTorusTraditional), which also generalizes to Cohomotopy in higher even degrees.
 
 So we want to show again that:
 
@@ -1604,7 +1603,7 @@ Original articles:
 
 * [[Franklin Peterson]], _Some Results on Cohomotopy Groups_, American Journal of Mathematics Vol. 78, No. 2 (Apr., 1956), pp. 243-258 ([jstor:2372514](https://www.jstor.org/stable/2372514))
 
-* [[Jan Jaworowski]], _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae 50 (1962), 393-402 ([doi:10.4064/fm-50-4-333-340](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/4), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm50/fm50133.pdf))
+* {#Jaworowski1962} [[Jan Jaworowski]]: _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae **50** (1962) 393--402 &lbrack;[doi:10.4064/fm-50-4-393-402](http://doi.org/10.4064/fm-50-4-393-402), [[Jaworowski-GeneralizedCohomotopy.pdf:file]]&rbrack;
 
 * A. Ch. Chigogidze: *$n$-Shapes and $n$-Cohomotopy of Groups of Compacta*, Math. USSR Sb. **66** 2 (1990) 329-342 &lbrack;[doi:10.1070/SM1990v066n02ABEH001316](https://doi.org/10.1070/SM1990v066n02ABEH001316)&rbrack;
   > (in the context of [[shape theory]])
@@ -1682,6 +1681,7 @@ On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximati
 
 
 
+
 ### Cohomotopy cocycle spaces
  {#CohomotopyCocycleSpaces}
 
@@ -1710,10 +1710,14 @@ and more generally on $n$-[[Cohomotopy]] [[cocycle spaces]] of $n$-[[manifolds]]
 
 * {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [arXiv:math-ph/0003010](https://arxiv.org/abs/math-ph/0003010)&rbrack; 
 
+A concise re-proof and generalization to higher dimensions:
+
+* {#KSS2026} [[Sadok Kallel]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Higher Anyons via Higher Cohomotopy|Higher-dimensional Anyons via Higher Cohomotopy]]* &lbrack;[arXiv:2601.03150](https://arxiv.org/abs/2601.03150)&rbrack;
+
+See also:
 
 * W. A. Sutherland: *Path-Components of Function Spaces*, The Quarterly Journal of Mathematics **34** 2 (1983) 223–233 &lbrack;[doi:10.1093/qmath/34.2.223](https://doi.org/10.1093/qmath/34.2.223)&rbrack;
 
-See also:
 
 * [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
 
