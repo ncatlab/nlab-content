@@ -134,7 +134,7 @@ such that
 
 1. the pairing $comp$ is [[associativity|associative]] and [[unital]] with the $f_{\epsilon_i}$-s the [[neutral elements]];
 
-1. for every $i \in I$ then $f_{\epsilon_i} = id_{X_i}$ is the [[identity morphism]] on the $i$-th obect;
+1. for every $i \in I$ then $f_{\epsilon_i} = id_{X_i}$ is the [[identity morphism]] on the $i$-th object;
 
 1. for every composable pair of morphisms 
 
