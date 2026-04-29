@@ -100,7 +100,12 @@ See also:
 
 Via [[semi-holomorphic 4d Chern-Simons theory]]:
 
-* [[Kevin Costello]], [[Edward Witten]], [[Masahito Yamazaki]], _Gauge theory and integrability I_, [arxiv:1709.09993](https://arxiv.org/abs/1709.09993)
+* [[Kevin Costello]], [[Edward Witten]], [[Masahito Yamazaki]], _Gauge theory and integrability I_ &lbrack;[arxiv:1709.09993](https://arxiv.org/abs/1709.09993)&rbrack;
+
+and its higher dimensional generalizations:
+
+* [[Marco Benini]], Ryan A. Cullinan, [[Alexander Schenkel]], [[Benoit Vicedo]]: *On the structure of higher-dimensional integrable field theories* &lbrack;[arXiv:2604.24864](https://arxiv.org/abs/2604.24864)&rbrack;
+
 
 Discussion in the context of [[harmonic maps]]: 
 
