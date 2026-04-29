@@ -258,6 +258,9 @@ On [[anyons]] in FQAH systems:
 
 * Tianhong Lu, Luiz H. Santos: *Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints* &lbrack;[arXiv:2601.14365](https://arxiv.org/abs/2601.14365)&rbrack;
 
+* Kishore Iyer, Andreas Feuerpfeil, Valentin Crépel, [[Nicolas Regnault]], Christophe Mora: *Dispersion of Anyon Bloch Bands* &lbrack;[arXiv:2604.24859](https://arxiv.org/abs/2604.24859)&rbrack;
+
+
 
 #### In view of TQC
 
