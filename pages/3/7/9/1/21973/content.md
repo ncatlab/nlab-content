@@ -53,9 +53,9 @@ On the experimental detection:
 
 
 
-The suggestion that these vortex flux tube could be thought of as dynamical [[strings]] much as in [[string theory]]:
+The suggestion that these vortex flux tube could be thought of as dynamical [[strings]] much as in [[string theory]] (cf. the *[[dual superconductor model of color confinement]]*):
 
-* {#NielsenOlesen73} [[Holger Bech Nielsen]], [[Poul Olesen]], *Vortex-line models for dual strings*, Nuclear Physics B **61** (1973) 45-61 \[<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>\]
+* {#NielsenOlesen73} [[Holger Bech Nielsen]], [[Poul Olesen]]: *Vortex-line models for dual strings*, Nuclear Physics B **61** (1973) 45-61 \[<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>\]
 
 * {#BeekmanZaanen11} [[Aron J. Beekman]], [[Jan Zaanen]], *Electrodynamics of Abrikosov vortices: the field theoretical formulation*, Front. Phys. **6** (2011) 357–369 &lbrack;[doi:10.1007/s11467-011-0205-0](https://doi.org/10.1007/s11467-011-0205-0)&rbrack;
 
