@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -104,6 +102,14 @@ Relation to [[higher dimensional WZW model|4d WZW theory]]:
 See also 
 
 * Wikipedia, _[Four-dimensional Chern–Simons theory](https://en.wikipedia.org/wiki/Four-dimensional_Chern%E2%80%93Simons_theory)_
+
+In relation to the [[Breitenloher-Maison model]]:
+
+* [[Meer Ashwinkumar]], [[Matthias Blau]]: *Integrable Deformations of the Breitenlohner-Maison Model from 4d Chern-Simons Theory* &lbrack;[arXiv:2604.26452](https://arxiv.org/abs/2604.26452)&rbrack;
+
+
+
+
 
 [[!redirects semi-topological 4d Chern-Simons theory]]
 [[!redirects semi-holomorphic D=4 Chern-Simons theory]]
