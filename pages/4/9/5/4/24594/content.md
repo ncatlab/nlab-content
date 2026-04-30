@@ -13,6 +13,10 @@ Introducing what came to be called the [[Skyrme-Fadeev model]] and its *[[Hopfio
 
 * {#FadeevNiemi97} [[Ludwig D. Faddeev]], [[Antti J. Niemi]]: *Stable knot-like structures in classical field theory* (preprint title: *Knots and Particles*), Nature **387** (1997) 58–61 &lbrack;[arXiv:hep-th/9610193](https://arxiv.org/abs/hep-th/9610193), [doi:10.1038/387058a0](https://doi.org/10.1038/387058a0)&rbrack;
 
+and relation to the [[dual superconductor model of color confinement]]:
+
+* [[Ludvig Faddeev]], [[Antti J. Niemi]]: *Partially Dual variables in $SU(2)$ Yang-Mills Theory*, Phys. Rev. Lett. **82** (1999) 1624--1627 \[<a href="https://doi.org/10.1103/PhysRevLett.82.1624">doi:10.1103/PhysRevLett.82.1624</a>, [arXiv:hep-th/9807069](https://arxiv.org/abs/hep-th/9807069)\]
+
 
 On [[anyon|anyonic]] [[vortices]] in [[Bose-Einstein condensates]]:
 
