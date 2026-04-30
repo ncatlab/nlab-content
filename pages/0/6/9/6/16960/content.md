@@ -141,6 +141,11 @@ For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification
 
 * [[Magdalena Kedziorek]], _An algebraic model for rational $SO(3)$–spectra_, Algebraic & Geometric Topology 17 (2017) 3095–3136 ([arXiv:1611.08415](https://arxiv.org/abs/1611.08415), [doi:10.2140/agt.2017.17.3095](https://doi.org/10.2140/agt.2017.17.3095))
 
+For $G=$ [[Sp(2)]]:
+
+* [[John Greenlees]]: *Rational $Sp(2)$-equivariant cohomology theories I: dominant subgroups* &lbrack;[arXiv:2604.25005](https://arxiv.org/abs/2604.25005)&rbrack;
+
+
 
 Discussion of [[commutative ring]]-structures with an eye towards [[rational equivariant K-theory]]:
 
