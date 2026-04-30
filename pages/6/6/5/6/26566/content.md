@@ -9,10 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+
+\tableofcontents
 
 ## Idea
 
@@ -152,4 +151,6 @@ category: probability
 [[!redirects couplings (probability)]]
 [[!redirects coupling (probability theory)]]
 [[!redirects couplings (probability) theory]]
+
+[[!redirects optimal transport]]
 
