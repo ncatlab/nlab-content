@@ -33,18 +33,20 @@ Further discussion:
 
 * [[Y. M. Cho]], D. G. Pak: *Dynamical Symmetry Breaking and Magnetic Confinement in QCD* \[<a href="https://arxiv.org/abs/hep-th/0006051">arXiv:hep-th/0006051</a>\]
 
-* K.-I. Kondo, A. Shibata, T. Shinohara, S. Kato: *Non-Abelian Dual Superconductor Picture for Quark Confinement*, Phys. Rev. D **83** (2011) 114016 \[<a href="https://doi.org/10.1103/PhysRevD.83.114016">doi:10.1103/PhysRevD.83.114016</a>, [arXiv:1007.2696](https://arxiv.org/abs/1007.2696)\]
+* [[Y. M. Cho]], D. G. Pak: *Monopole condensation in $SU(2)$ QCD*, Phys. Rev. D **65** (2002) 074027 \[<a href="https://doi.org/10.1103/PhysRevD.65.074027">doi:10.1103/PhysRevD.65.074027</a>, <a href="https://arxiv.org/abs/hep-th/0201179">arXiv:hep-th/0201179</a>\]
+
+* Kei-Ichi Kondo: *Gauge-invariant gluon mass, infrared Abelian dominance and stability of magnetic vacuum*, Phys. Rev. D **74** (2006) 125003 \[<a href="https://doi.org/10.1103/PhysRevD.74.125003">doi:10.1103/PhysRevD.74.125003</a>, [arXiv:hep-th/0609166](https://arxiv.org/abs/hep-th/0609166)\]
+ 
+* Kei-Ichi Kondo, A. Shibata, T. Shinohara, S. Kato: *Non-Abelian Dual Superconductor Picture for Quark Confinement*, Phys. Rev. D **83** (2011) 114016 \[<a href="https://doi.org/10.1103/PhysRevD.83.114016">doi:10.1103/PhysRevD.83.114016</a>, [arXiv:1007.2696](https://arxiv.org/abs/1007.2696)\]
 
 * [[Y. M. Cho]]: _Dimensional Transmutation by Monopole Condensation in QCD_, Phys. Rev. D. **87** (2013) 085025 \[<a href="https://doi.org/10.1103/PhysRevD.87.085025">doi:10.1103/PhysRevD.87.085025</a>, [arXiv:1206.6936](http://arxiv.org/abs/1206.6936)\]
 
 * [[Y. M. Cho]]: *Monopole Condensation and Mass Gap in $SU(3)$ QCD*, International Journal of Modern Physics A **29** 03n04 (2014) 1450013 \[<a href="https://doi.org/10.1142/S0217751X14500134">doi:10.1142/S0217751X14500134</a>\]
 
-* Michael L. Walker, [[Steven Duplij]]: *Cho-Duan-Ge decomposition of QCD in the constraintless Clairaut-type formalism*, Phys. Rev. D **91** 064022 (2015) \[<a href="https://doi.org/10.1103/PhysRevD.91.064022">doi:10.1103/PhysRevD.91.064022</a>, [arXiv:1411.6968](https://arxiv.org/abs/1411.6968)\]
-
 
 Review:
 
-* {#SchaeferShuryak96} [[Thomas Schaefer]], [[Edward Shuryak]], section III D of: _Instantons in QCD_, Rev. Mod. Phys. **70** (1998) 323--426 \[<a href="https://doi.org/10.1103/RevModPhys.70.323">doi:10.1103/RevModPhys.70.323</a>, [arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)\]
+* {#SchaeferShuryak96} [[Thomas Schaefer]], [[Edward Shuryak]]; section III D of: _Instantons in QCD_, Rev. Mod. Phys. **70** (1998) 323--426 \[<a href="https://doi.org/10.1103/RevModPhys.70.323">doi:10.1103/RevModPhys.70.323</a>, [arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)\]
 
 * [[Adriano Di Giacomo]]: *Confinement of Color by Dual Superconductivity*, Acta Physica Polonica B **28** 12 (1997) 
 
@@ -60,7 +62,53 @@ Review:
 
 * [[Adriano Di Giacomo]]: *The Dual Superconductor Picture for Confinement*, in: *Confinement, Duality, and Non-Perturbative Aspects of QCD*, NATO Science Series: B **368**, Springer (2002) 415--437 \[<a href="https://doi.org/10.1007/0-306-47056-X_15">doi:10.1007/0-306-47056-X_15</a>\]
 
+* {#KKSS2015} Kei-Ichi Kondo, Seikou Kato, Akihiro Shibata, Toru Shinohara: *Quark confinement: Dual superconductor picture based on a non-Abelian Stokes theorem and reformulations of Yang–Mills theory*, Physics Reports **579** (2015) 1--226 \[<a href="https://doi.org/10.1016/j.physrep.2015.03.002">doi:10.1016/j.physrep.2015.03.002</a>\]
+  > (emphasis on role of [[nonabelian Stokes theorem]])
+
 * Maxim Chernodub: *QCD Vacuum as Dual Superconductor: Quark Confinement and Topology*, Handbook of Nuclear Physics, Springer (2023) \[<a href="https://doi.org/10.1007/978-981-19-6345-2_23">doi:10.1007/978-981-19-6345-2_23</a>\]
+
+
+#### The DGC-decomposition
+ {#ReferencesDGCDecomposition}
+
+On decomposing, in a [[gauge invariance|gauge invariant]] way, the [[gauge potential]] into an abelian background and nonabelian fluctuations:
+
+The original articles:
+
+* Yi-Shi Duan, Mo-Lin Ge: *$SU(2)$ gauge theory and electrodynamics of $N$ moving magnetic monopoles*, Scientia Sinica Mathematica **9** 11 (1979) 1072–1081, reprinted in: Memorial Volume for Yi-Shi Duan, World Scientific (2018) 1-15 \[<a href="https://doi.org/10.1142/9789813237278_0001">doi:10.1142/9789813237278_0001</a>\]
+
+* [[Y. M. Cho]]: *Colored Monopoles*, Phys. Rev. Lett. **44** (1980) 1115, Erratum Phys. Rev. Lett. **44** (1980) 1566 \[<a href="https://doi.org/10.1103/PhysRevLett.44.1115">doi:10.1103/PhysRevLett.44.1115</a>\]
+
+* [Faddeev & Niemi 1999](#FaddeevNiemi1999)
+
+Further discussion:
+
+* {#Shabanov1999} Sergei V. Shabanov: *An effective action for monopoles and knot solitons in Yang-Mills theory*, Phys. Lett. B **458** (1999) 322--330 \[<a href="https://doi.org/10.1016/S0370-2693(99)00612-7">doi:10.1016/S0370-2693(99)00612-7</a>, [arXiv:hep-th/9903223](https://arxiv.org/abs/hep-th/9903223)\]
+
+* [Bae, Cho & Kim 2002](#BaeChoKim2002)
+
+* Michael L. Walker, [[Steven Duplij]]: *Cho-Duan-Ge decomposition of QCD in the constraintless Clairaut-type formalism*, Phys. Rev. D **91** 064022 (2015) \[<a href="https://doi.org/10.1103/PhysRevD.91.064022">doi:10.1103/PhysRevD.91.064022</a>, [arXiv:1411.6968](https://arxiv.org/abs/1411.6968)\]
+
+* Kei-Ichi Kondo, T. Murakami, T. Shinohara: *Yang-Mills theory constructed from Cho--Faddeev--Niemi decomposition*, Prog. Theor. Phys. **115** (2006) 201--216 \[<a href="https://doi.org/10.1143/PTP.115.201">doi:10.1143/PTP.115.201</a>, [arXiv:hep-th/0504107](https://arxiv.org/abs/hep-th/0504107)\]
+
+* Kei-Ichi Kondo, T. Murakami, T. Shinohara: *BRST symmetry of $SU(2)$ Yang-Mills theory in Cho--Faddeev--Niemi decomposition*, Eur. Phys. J.C **42** (2005) 475--481 \[<a href="https://doi.org/10.1140/epjc/s2005-02344-4">doi:10.1140/epjc/s2005-02344-4</a>, [arXiv:hep-th/0504198](https://arxiv.org/abs/hep-th/0504198)\]
+ > (via [[BRST cohomology]])
+
+Review:
+
+* [KKSS 2015 §3](#KKSS2015)
+
+#### Relation to Faddeev-Skyrme model
+ {#ReferencesRelationToFadeevSkyrmeModel}
+
+Relation (for [[gauge group]] [[SU(2)|$SU(2)$]], hence with [[coset space]] the [[2-sphere]] $\S^2 \simeq SU(2)/SU(1)$) to the [[Fadeev-Skyrme model]] and [[Hopfion]]-like  [[knot]] field configurations:
+
+* {#FaddeevNiemi1999} [[Ludvig Faddeev]], [[Antti J. Niemi]]: *Partially Dual variables in $SU(2)$ Yang-Mills Theory*, Phys. Rev. Lett. **82** (1999) 1624--1627 \[<a href="https://doi.org/10.1103/PhysRevLett.82.1624">doi:10.1103/PhysRevLett.82.1624</a>, [arXiv:hep-th/9807069](https://arxiv.org/abs/hep-th/9807069)\]
+
+* [Shabanov 1999](#Shabanov1999)
+
+* {#BaeChoKim2002} W. S. Bae, [[Y. M. Cho]], Sang-Woo Kim: *QCD versus Skyrme-Faddeev Theory*, Phys. Rev. D **65** (2002) 025005 \[<a href="https://doi.org/10.1103/PhysRevD.65.025005">doi:10.1103/PhysRevD.65.025005</a>, [arXiv:hep-th/0105163](https://arxiv.org/abs/hep-th/0105163)\]
+
 
 
 #### In lattice gauge theory
