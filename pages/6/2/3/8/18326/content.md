@@ -45,6 +45,25 @@ A Freyd category is given by
 
 These definitions arguably violate the [[principle of equivalence]], because they use an [[identity-on-objects functor]] in the definitions.  That is, if $\mathbb{V}$ is [[equivalent]] to some $\mathbb{V}'$, and $\mathbb{C}$ is equivalent to some $\mathbb{C}'$, while $J: \mathbb{V} \to \mathbb{C}$ is a Freyd category, there may be no way to make a Freyd category $\mathbb{V}' \to \mathbb{C}'$. A resolution of this is to regard a Freyd category as a single structure, with one set of objects, two sets of morphisms, and so on; see [[identity-on-objects functor]] and [[M-category]] for further discussion.
 
+### Distributive Freyd categories 
+
+Many Freyd categories have coproducts. A **distributive Freyd category** is:
+
+* a [[distributive category]] $\mathbb{V}$;
+* a category $\mathbb{C}$ with finite coproducts, that [[categories with the same collection of objects|has the same objects]] as $\mathbb{V}$[^sameObjs];
+* an [[action]] of $\mathbb{V}$ on $\mathbb{C}$ (with the finite products providing a [[symmetric monoidal category|symmetric monoidal structure]] for $\mathbb{V}$) that distributes over coproducts (i.e.~$a*b+a*c \to a*(b+c)$ is an isomorphism);
+* an [[identity-on-objects functor]] $J: \mathbb{V} \to \mathbb{C}$ that preserves the actions and coproducts.
+
+### Effectful categories
+
+An **effectful category** (following [Roman 22](#Roman22)) is the analogue of Freyd category where the base category $\mathbb{V}$ is not cartesian: 
+
+* a [[symmetric monoidal category]] $\mathbb{V}$
+* a category $\mathbb{C}$, that [[categories with the same collection of objects|has the same objects]] as $\mathbb{V}$[^sameObjs];
+* an [[action]] of $\mathbb{V}$ on $\mathbb{C}$
+* an [[identity-on-objects functor]] $J: \mathbb{V} \to \mathbb{C}$ that preserves the actions.
+
+
 
 ## Properties
 
@@ -136,6 +155,10 @@ The connection with [[monads]] in the [[bicategory]] of [[profunctors]] (a.k.a. 
 and 
 
 * Kazuyuki Asada. "Arrows are strong monads". Proceedings of MSFP '10. [preprint pdf](http://www-kb.is.s.u-tokyo.ac.jp/~asada/papers/arrStrMnd.pdf)
+
+The terminology 'effectful category' is proposed by Román: 
+
+* {#Roman22} [[Mario Román]]. "Promonads and String Diagrams for Effectful Categories". Proceedings ACT 2022, arXiv:2307.15519 . 
 
 [[!redirects Freyd categories]]
 [[!redirects Freyd-categories]]
