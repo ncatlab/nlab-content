@@ -13,6 +13,10 @@ Introducing what came to be called the [[Skyrme-Fadeev model]] and its *[[Hopfio
 
 * [[Ludwig D. Faddeev]]: *Knotted solitons*, Proceedings of the ICM, Beijing 2002, vol. 1, 235-244 &lbrack;[arXiv:math-ph/0212079](https://arxiv.org/abs/math-ph/0212079), [pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM2002.1/ICM2002.1.ocr.pdf)&rbrack;
 
+and relation to the [[dual superconductor model of color confinement]]:
+
+* [[Ludvig Faddeev]], [[Antti J. Niemi]]: *Partially Dual variables in $SU(2)$ Yang-Mills Theory*, Phys. Rev. Lett. **82** (1999) 1624--1627 \[<a href="https://doi.org/10.1103/PhysRevLett.82.1624">doi:10.1103/PhysRevLett.82.1624</a>, [arXiv:hep-th/9807069](https://arxiv.org/abs/hep-th/9807069)\]
+
 
 On [[discrete Heisenberg groups]] motivated from $U(1)$-[[current algebra]]:
 
