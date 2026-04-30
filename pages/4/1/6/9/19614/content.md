@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -120,6 +118,11 @@ Possible relation to [[dark energy]]:
 * Axel Maas, Simon Plätzer, Felix Pressler: *Hints for a Geon from Causal Dynamic Triangulations* &lbrack;[arXiv:2504.11047](https://arxiv.org/abs/2504.11047)&rbrack;
 
 
+### Further
+
+On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]]:
+
+* [[Carlo A. Trugenberger]]: *Networks as the fundamental constituents of the universe*, J. Phys. Complex. **6** (2025) 042001 &lbrack;[arXiv:2512.17676](https://arxiv.org/abs/2512.17676)&rbrack;
 
 
 
