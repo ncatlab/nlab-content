@@ -39,5 +39,9 @@ On [[Ray-Singer torsion]] and [[path integrals]]:
 
 * [[Matthias Blau]], Mbambu Kakona, [[George Thompson]], *On the Evaluation of the Ray-Singer Torsion Path Integral* &lbrack;[arXiv:2402.14437](https://arxiv.org/abs/2402.14437)&rbrack;
 
+On [[semi-holomorphic D=4 Chern-Simons theory]] in relation to the [[Breitenloher-Maison model]]:
+
+* [[Meer Ashwinkumar]], [[Matthias Blau]]: *Integrable Deformations of the Breitenlohner-Maison Model from 4d Chern-Simons Theory* &lbrack;[arXiv:2604.26452](https://arxiv.org/abs/2604.26452)&rbrack;
+
 
 category: people
