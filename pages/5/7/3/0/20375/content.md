@@ -27,8 +27,16 @@ reviewed in:
 
 * [[Meer Ashwinkumar]], *Matrix Quantization of Classical Nambu Brackets and Super $p$-Branes*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, New York University, Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Ashwinkumar2023)&rbrack;
 
+On [[semi-holomorphic Chern-Simons theory]] in relation to the [[Breitenloher-Maison model]]:
 
-## Related $n$Lab entries
+* [[Meer Ashwinkumar]], [[Matthias Blau]]: *Integrable Deformations of the Breitenlohner-Maison Model from 4d Chern-Simons Theory* &lbrack;[arXiv:2604.26452](https://arxiv.org/abs/2604.26452)&rbrack;
+
+On [[semi-holomorphic D=4 Chern-Simons theory]] in relation to the [[Breitenloher-Maison model]]:
+
+* [[Meer Ashwinkumar]], [[Matthias Blau]]: *Integrable Deformations of the Breitenlohner-Maison Model from 4d Chern-Simons Theory* &lbrack;[arXiv:2604.26452](https://arxiv.org/abs/2604.26452)&rbrack;
+
+
+## Related entries
 
 * [[semi-holomorphic 4d Chern-Simons theory]]
 
