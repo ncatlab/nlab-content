@@ -10,14 +10,12 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-A **Freyd category** is one way to axiomatize models of [[call-by-value]] [[programming languages]].
-It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a [[category]] $\mathbb{V}$ that models values and another category with the same [[objects]] $\mathbb{C}$ that models computations.
+**Freyd categories** are one kind of [[categorical semantics]] for [[call-by-value]] [[programming languages]].
+The notion abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a [[category]] $\mathbb{V}$ that models values and another category $\mathbb{C}$, with the same [[objects]], that models [[computations]].
 
 Freyd categories thus provide a [[categorical semantics]] for typed [[programming languages]] with [[side effects]] such as memory access or printing. This is in the spirit of the discussion at [[relation between type theory and category theory]], except that page is for non-side-effecting languages. The types of the programming language are interpreted as objects of the categories. A [[type|typed]] term (i.e., program expression) $\Gamma\vdash t \colon X$ is interpreted as a morphism $\Gamma \to X$ in $\mathbb{C}$. Among the terms, it is often very important to identify those that are "values", which in particular have no side effects, and these are interpreted as morphisms in $\mathbb{V}$. Freyd categories are based around [[premonoidal categories]], which captures the fact that reordering the execution of side effects is often subtle. 
 
@@ -25,6 +23,7 @@ Freyd categories resolve the following complaint about using [[monads]] and [[Kl
 
 ## Definition
 
+### Basic
 
 A **Freyd category** (following [Levy 04](#Levy04)) may be defined as
 
@@ -45,22 +44,29 @@ A Freyd category is given by
 
 These definitions arguably violate the [[principle of equivalence]], because they use an [[identity-on-objects functor]] in the definitions.  That is, if $\mathbb{V}$ is [[equivalent]] to some $\mathbb{V}'$, and $\mathbb{C}$ is equivalent to some $\mathbb{C}'$, while $J: \mathbb{V} \to \mathbb{C}$ is a Freyd category, there may be no way to make a Freyd category $\mathbb{V}' \to \mathbb{C}'$. A resolution of this is to regard a Freyd category as a single structure, with one set of objects, two sets of morphisms, and so on; see [[identity-on-objects functor]] and [[M-category]] for further discussion.
 
-### Distributive Freyd categories 
 
-Many Freyd categories have coproducts. A **distributive Freyd category** is:
+### Distributive
+
+Many Freyd categories have [[coproducts]]. A **distributive Freyd category** is:
 
 * a [[distributive category]] $\mathbb{V}$;
+
 * a category $\mathbb{C}$ with finite coproducts, that [[categories with the same collection of objects|has the same objects]] as $\mathbb{V}$[^sameObjs];
+
 * an [[action]] of $\mathbb{V}$ on $\mathbb{C}$ (with the finite products providing a [[symmetric monoidal category|symmetric monoidal structure]] for $\mathbb{V}$) that distributes over coproducts (i.e.~$a*b+a*c \to a*(b+c)$ is an isomorphism);
+
 * an [[identity-on-objects functor]] $J: \mathbb{V} \to \mathbb{C}$ that preserves the actions and coproducts.
 
-### Effectful categories
+### Effectful
 
-An **effectful category** (following [Roman 22](#Roman22)) is the analogue of Freyd category where the base category $\mathbb{V}$ is not cartesian: 
+An **effectful category** (following [Roman 22](#Roman22)) is the analogue of Freyd category where the base category $\mathbb{V}$ is not [[cartesian monoidal category|cartesian monoidal]]: 
 
 * a [[symmetric monoidal category]] $\mathbb{V}$
+
 * a category $\mathbb{C}$, that [[categories with the same collection of objects|has the same objects]] as $\mathbb{V}$[^sameObjs];
+
 * an [[action]] of $\mathbb{V}$ on $\mathbb{C}$
+
 * an [[identity-on-objects functor]] $J: \mathbb{V} \to \mathbb{C}$ that preserves the actions.
 
 
