@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -84,6 +84,7 @@ $$
 
 [[!include curvature in Riemannian geometry -- table]] 
 
+* [[Ollivier-Ricci curvature]]
 
 * [[Einstein-Hilbert action]]
 
