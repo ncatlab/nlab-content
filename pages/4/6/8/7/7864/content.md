@@ -11,8 +11,11 @@ On [[Lie integration]] of [[L-infinity algebras]] to [[smooth infinity-groups]] 
 
 * [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957](https://arxiv.org/abs/2409.08957)&rbrack;
 
-On descent categories in the sense of Behrend and Getzler, 
+On [[simplicial principal bundles]] in descent categories as models for (smooth) [[principal infinity-bundles|principal $\infty$-bundles]]:
 
-* [[Jesse Wolfson]], 2024, *On Simplicial Principal Bundles in Descent Categories*, ([arXiv:2305.01630] (https://arxiv.org/abs/2305.01630))
+* [[Jesse Wolfson]]: *On Simplicial Principal Bundles in Descent Categories* &lbrack;[arXiv:2305.01630](https://arxiv.org/abs/2305.01630)&rbrack;
+
+* [[Jesse Wolfson]]: *Descent for $n$-bundles*, Advances in Mathematics **288** (2016) 527--575 \[<a href="https://doi.org/10.1016/j.aim.2015.10.024">doi:10.1016/j.aim.2015.10.024</a>\]
+
 
 category: people
