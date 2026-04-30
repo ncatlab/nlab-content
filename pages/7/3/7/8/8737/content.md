@@ -16,9 +16,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -56,6 +54,10 @@ In the context of [[higher parallel transport]] in [[principal 2-bundles with co
 See also:
 
 * Seramika Ariwahjoedi, Freddy Permana Zen, *Alternative Derivation of the Non-Abelian Stokes Theorem in Two Dimensions*, Symmetry **2023** 15 11 (2000) &lbrack;[doi:10.3390/sym15112000]( https://doi.org/10.3390/sym15112000)&rbrack;
+
+Application to the [[dual superconductor model of color confinement]]:
+
+* {#KKSS2015} Kei-Ichi Kondo, Seikou Kato, Akihiro Shibata, Toru Shinohara: *Quark confinement: Dual superconductor picture based on a non-Abelian Stokes theorem and reformulations of Yang–Mills theory*, Physics Reports **579** (2015) 1--226 \[<a href="https://doi.org/10.1016/j.physrep.2015.03.002">doi:10.1016/j.physrep.2015.03.002</a>\]
 
 
 
