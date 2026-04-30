@@ -33,6 +33,11 @@ Review:
 
 * [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
 
+On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]]:
+
+* [[Carlo A. Trugenberger]]: *Networks as the fundamental constituents of the universe*, J. Phys. Complex. **6** (2025) 042001 &lbrack;[arXiv:2512.17676](https://arxiv.org/abs/2512.17676)&rbrack;
+
+
 
 
 
