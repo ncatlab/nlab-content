@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On fine print in the [[dual superconductor model of color confinement]]:
+
+* Michael L. Walker, [[Steven Duplij]]: *Cho-Duan-Ge decomposition of QCD in the constraintless Clairaut-type formalism*, Phys. Rev. D **91** 064022 (2015) \[<a href="https://doi.org/10.1103/PhysRevD.91.064022">doi:10.1103/PhysRevD.91.064022</a>, [arXiv:1411.6968](https://arxiv.org/abs/1411.6968)\]
+
+
 On [[geometric engineering of quantum field theories]]:
 
 * [[Steven Duplij]]: *Geometric Engineering*, in: *Concise Encyclopedia of Supersymmetry*, Springer (2017) 165-166 &lbrack;[doi:10.1007/1-4020-4522-0_216]( https://doi.org/10.1007/1-4020-4522-0_216)&rbrack;
