@@ -29,9 +29,18 @@ Further discussion:
 
 * [[John Ellis]], N. E. Mavromatos: *Confinement in Gauge Theories from the Condensation of World-Sheet Defects in Liouville String*, Int . J. Mod. Phys. A **14** (1999) 3761--3788 \[<a href="https://doi.org/10.1142/S0217751X99001743">doi:10.1142/S0217751X99001743</a>, [arXiv:hep-th/9808172](https://arxiv.org/abs/hep-th/9808172)\]
 
+* [[Y. M. Cho]], D. G. Pak: *Magnetic Confinement in QCD*, J. Korean Phys. Soc. **38** (2001) 151--154 \[<a href="https://arxiv.org/abs/hep-th/9906198">arXiv:hep-th/9906198</a>\]
+
+* [[Y. M. Cho]], D. G. Pak: *Dynamical Symmetry Breaking and Magnetic Confinement in QCD* \[<a href="https://arxiv.org/abs/hep-th/0006051">arXiv:hep-th/0006051</a>\]
+
 * K.-I. Kondo, A. Shibata, T. Shinohara, S. Kato: *Non-Abelian Dual Superconductor Picture for Quark Confinement*, Phys. Rev. D **83** (2011) 114016 \[<a href="https://doi.org/10.1103/PhysRevD.83.114016">doi:10.1103/PhysRevD.83.114016</a>, [arXiv:1007.2696](https://arxiv.org/abs/1007.2696)\]
 
-* Y. M. Cho: _Dimensional Transmutation by Monopole Condensation in QCD_, Phys. Rev. D. **87** (2013) 085025 \[<a href="https://doi.org/10.1103/PhysRevD.87.085025">doi:10.1103/PhysRevD.87.085025</a>, [arXiv:1206.6936](http://arxiv.org/abs/1206.6936)\]
+* [[Y. M. Cho]]: _Dimensional Transmutation by Monopole Condensation in QCD_, Phys. Rev. D. **87** (2013) 085025 \[<a href="https://doi.org/10.1103/PhysRevD.87.085025">doi:10.1103/PhysRevD.87.085025</a>, [arXiv:1206.6936](http://arxiv.org/abs/1206.6936)\]
+
+* [[Y. M. Cho]]: *Monopole Condensation and Mass Gap in $SU(3)$ QCD*, International Journal of Modern Physics A **29** 03n04 (2014) 1450013 \[<a href="https://doi.org/10.1142/S0217751X14500134">doi:10.1142/S0217751X14500134</a>\]
+
+* Michael L. Walker, [[Steven Duplij]]: *Cho-Duan-Ge decomposition of QCD in the constraintless Clairaut-type formalism*, Phys. Rev. D **91** 064022 (2015) \[<a href="https://doi.org/10.1103/PhysRevD.91.064022">doi:10.1103/PhysRevD.91.064022</a>, [arXiv:1411.6968](https://arxiv.org/abs/1411.6968)\]
+
 
 Review:
 
