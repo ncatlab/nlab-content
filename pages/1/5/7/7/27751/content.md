@@ -52,7 +52,7 @@ The original articles on the (Skyrme-)Fadeev model:
 
 * {#Fadeev75} [[Ludwig D. Faddeev]]: *Quantization of Solitons*, talk at [ICHEP 76](https://inspirehep.net/conferences/964007) (1975) &lbrack;[inSpire:2631](https://inspirehep.net/literature/2631)&rbrack;
 
-* {#FadeevNiemi97} [[Ludwig D. Faddeev]], [[Antti J. Niemi]]: *Knots and Particles*, Nature **387** (1997) 58–61 &lbrack;[arXiv:hep-th/9610193](https://arxiv.org/abs/hep-th/9610193), [doi:10.1038/387058a0](https://doi.org/10.1038/387058a0)&rbrack;
+* {#FadeevNiemi97} [[Ludwig D. Faddeev]], [[Antti J. Niemi]]: *Stable knot-like structures in classical field theory* (preprint title: *Knots and Particles*), Nature **387** (1997) 58–61 &lbrack;[arXiv:hep-th/9610193](https://arxiv.org/abs/hep-th/9610193), [doi:10.1038/387058a0](https://doi.org/10.1038/387058a0)&rbrack;
 
 Related early discussion identifying Hopfions in 1+2 dimensions with [[anyon]] [[worldlines]]:
 
@@ -80,6 +80,17 @@ Further discussion:
 * [[Paul Sutcliffe]]: *Knots in the Skyrme-Faddeev model*, Proc. R. Soc. A **463** (2007) 3001–3020 &lbrack;[arXiv:0705.1468](https://arxiv.org/abs/0705.1468), [doi:10.1098/rspa.2007.0038](https://doi.org/10.1098/rspa.2007.0038)&rbrack;
 
 
+Relation to the [[dual superconductor model of color confinement]]:
+
+* [[Ludvig Faddeev]], [[Antti J. Niemi]]: *Partially Dual variables in $SU(2)$ Yang-Mills Theory*, Phys. Rev. Lett. **82** (1999) 1624--1627 \[<a href="https://doi.org/10.1103/PhysRevLett.82.1624">doi:10.1103/PhysRevLett.82.1624</a>, [arXiv:hep-th/9807069](https://arxiv.org/abs/hep-th/9807069)\]
+
+* Sergei V. Shabanov: *An effective action for monopoles and knot solitons in Yang-Mills theory*, Phys. Lett. B **458** (1999) 322--330 \[<a href="https://doi.org/10.1016/S0370-2693(99)00612-7">doi:10.1016/S0370-2693(99)00612-7</a>, [arXiv:hep-th/9903223](https://arxiv.org/abs/hep-th/9903223)\]
+
+* W. S. Bae, [[Y. M. Cho]], Sang-Woo Kim: *QCD versus Skyrme-Faddeev Theory*, Phys. Rev. D **65** (2002) 025005 \[<a href="https://doi.org/10.1103/PhysRevD.65.025005">doi:10.1103/PhysRevD.65.025005</a>, [arXiv:hep-th/0105163](https://arxiv.org/abs/hep-th/0105163)\]
+
+
+
+
 Relation to [[homotopy of rational maps]]:
 
 * Wang-Chang Su: *Faddeev-Skyrme Model and Rational Maps*, Chin. J. Phys. **40** (2002) 516-525 &lbrack;[arXiv:hep-th/0107187](https://arxiv.org/abs/hep-th/0107187), [inSpire:560464](https://inspirehep.net/literature/560464)&rbrack;
@@ -103,10 +114,15 @@ Discussion for more general [[3-manifold]] domains ([[Cohomotopy]] of 3-manifold
 
 
 
+
 [[!redirects Hopfions]]
 
 [[!redirects Skyrme-Fadeev model]]
 [[!redirects Skyrme-Fadeev models]]
+
+[[!redirects Fadeev-Skyrme model]]
+[[!redirects Fadeev-Skyrme models]]
+
 
 [[!redirects Fadeev model]]
 [[!redirects Fadeev models]]
