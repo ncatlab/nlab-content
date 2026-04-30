@@ -482,7 +482,7 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
-* [[Saunders Mac Lane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
 
 * Goldblatt, _Topoi: the categorial analysis of logic_
 
