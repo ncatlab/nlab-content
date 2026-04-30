@@ -43,6 +43,10 @@ On [[D=2 quantum gravity]] via [[Liouville theory]]:
 
 * Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
 
+On [[Liouville theory]] and[[D=3 supergravity]]:
+
+* [[Lorenz Eberhardt]]: *The Super Virasoro Minimal String from 3d Supergravity* &lbrack;[arXiv:2604.26038](https://arxiv.org/abs/2604.26038)&rbrack;
+
 
 
 category: people
