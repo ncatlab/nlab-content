@@ -50,6 +50,12 @@ Review:
 
 * [[Rongvoram Nivesvivat]]: *Three-point connectivities of interfaces in 2D critical statistical models* [talk at](CQTS#NivesvivatApr2025) [[CQTS]] (30 Apr 2025) &lbrack;slides: [[Nivesvivat-CQTS-Apr2025.pdf:file]]&rbrack;
 
+In relation to [[superspheres]]:
+
+
+* {#GJS18} Etienne Granet, Jesper Lykke Jacobsen, Hubert Saleur, _Spontaneous symmetry breaking in 2D supersphere sigma models and applications to intersecting loop soups_, J. Phys. A: Math. Theor. **52** 345001 (2019) \[<a href="https://doi.org/10.1088/1751-8121/ab2aaa">doi:10.1088/1751-8121/ab2aaa</a>, [arXiv:1810.07807](https://arxiv.org/abs/1810.07807)\]
+
+
  
 [[!redirects Brownian loop soups]]
 
