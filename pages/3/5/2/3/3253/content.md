@@ -29,10 +29,12 @@ On [[equivariant elliptic genera]] in [[equivariant elliptic cohomology]]:
 
 * [[Matthew Ando]], [[John Greenlees]], _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
 
+On [[rational equivariant stable homotopy theory]] for $G=$ [[Sp(2)]]:
+
+* [[John Greenlees]]: *Rational $Sp(2)$-equivariant cohomology theories I: dominant subgroups* &lbrack;[arXiv:2604.25005](https://arxiv.org/abs/2604.25005)&rbrack;
 
 
-
-## Related $n$Lab entries
+## Related entries
 
 * [[equivariant stable homotopy theory]]
 
