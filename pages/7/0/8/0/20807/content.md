@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -429,8 +427,7 @@ Discussion of the [[spectral triple|spectral]] [[Riemannian geometry]] of the [[
 
 In the context of the [[IKKT matrix model]]:
 
-
-* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+* [[Harold Steinacker]]: _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 &lbrack;[arXiv:1109.5521](https://arxiv.org/abs/1109.5521)&rbrack;
 
 Concerning [[2d CFT]] on the fuzzy sphere:
 
@@ -442,7 +439,6 @@ Concerning [[2d CFT]] on the fuzzy sphere:
 See also:
 
 * Wikipedia, _[Fuzzy sphere](https://en.wikipedia.org/wiki/Fuzzy_sphere)_
-
 
 
 #### Observables via weight systems on chord diagrams
@@ -496,6 +492,24 @@ The [[fuzzy 6-sphere]] and higher:
 See also:
 
 * Denjoe O'Connor, Brian P. Dolan, *Exceptional fuzzy spaces and octonions* &lbrack;[arXiv:2210.14754](https://arxiv.org/abs/2210.14754)&rbrack;
+
+### Fuzzy superspheres
+ {#ReferencesFuzzySupersphere}
+
+Discussion of [[supergeometry|supergeometric]] fuzzy spheres, hence of fuzzy *[[superspheres]]*, 
+
+in the context of [[instantons]] in [[supersymmetry|supersymemtric]] [[quantum field theory]]:
+
+* [[Aiyalam P. Balachandran]], A. Pinzul, B. Qureshi: *SUSY anomalies break $\mathcal{N}=2$ to $\mathcal{N}=1$: The supersphere and the fuzzy supersphere*, Journal of High Energy Physics **2005** 12 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/12/002">arXiv:10.1088/1126-6708/2005/12/002</a>, [arXiv:hep-th/0506037](https://arxiv.org/abs/hep-th/0506037)\]
+
+
+in the context of [effective noncommutative geometry in](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE) 
+and [effective supersymmetry in](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall) [[fractional quantum Hall systems]]:
+
+* [[Kazuki Hasebe]]: *Supersymmetric Quantum-Hall Effect on a Fuzzy Supersphere*, Phys. Rev. Lett. **94** (2005) 206802 \[<a href="https://doi.org/10.1103/PhysRevLett.94.206802">doi:10.1103/PhysRevLett.94.206802</a>\]
+
+* [[Kazuki Hasebe]]: *Super Landau Model and Howe Duality: From Supermonopole Harmonics to Quantum Matrix Geometry* \[<a href="https://arxiv.org/abs/2604.24112">arXiv:2604.24112</a>\]
+
 
 
 [[!redirects fuzzy spheres]]
