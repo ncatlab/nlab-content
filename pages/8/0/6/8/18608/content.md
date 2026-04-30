@@ -145,11 +145,12 @@ Problem description in terms of [[probability theory|probabilistic]] [[lattice g
 * [[Sourav Chatterjee]]: *Yang-Mills Existence and Mass Gap*, talk at: *[Millennium Prize Problems Lecture Series](https://cmsa.fas.harvard.edu/millennium/)*, Center of Mathematical Science and Applications, Harvard (15 Oct 2025) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_101425/), video:[yt](https://youtu.be/qVoEUFvDqWk)&rbrack;
 
 
-See also
+See also:
 
-* Wikipedia, _[Mass gap](https://en.wikipedia.org/wiki/Mass_gap)_.
+* Wikipedia: _[Mass gap](https://en.wikipedia.org/wiki/Mass_gap)_.
 
-* Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
+* Wikipedia: _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
+
 
 
 
@@ -175,7 +176,9 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 
 * The STAR Collaboration, ftn. 2 in: *Probing QCD Confinement with Spin Entanglement* &lbrack;[arXiv:2506.05499](https://arxiv.org/abs/2506.05499)&rbrack;
 
+Related open questions about [[hadron]] [[bound states]]:
 
+* Wikipedia: *[EMC Effect](https://en.wikipedia.org/wiki/EMC_effect)*
 
 
 [[!include open problem of confinement -- references]]
