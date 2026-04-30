@@ -71,6 +71,10 @@ Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * {#Witten2008} [[Edward Witten]]: *The Problem Of Gauge Theory*, talk at *[Geometric Analysis: Present and Future](https://legacy-www.math.harvard.edu/conferences/yau_2008/index.html)* ([[Shing-Tung Yau|Yau]] 60th celebration), Harvard (2008) &lbrack;[arXiv:0812.4512](https://arxiv.org/abs/0812.4512)&rbrack;
 
+Decent overview:
+
+* Mayibongwe Madisa: *The Yang-Mills Existence and Mass Gap Problem*, Botswana (2026) \[<a href="https://doi.org/10.13140/RG.2.2.25938.21448">doi:10.13140/RG.2.2.25938.21448</a>\]
+
 More visionary comments on potential approaches:
 
 * {#Atiyah2000} [[Michael Atiyah]], *The millennium prize problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
