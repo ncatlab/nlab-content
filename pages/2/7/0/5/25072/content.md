@@ -71,6 +71,9 @@ On [[QCD]] [[flux tubes]] in view of the [[dual superconductor model of confinem
 
 * {#CCCP2017} Paolo Cea, Leonardo Cosmai, Francesca Cuteri, Alessandro Papa: *Flux tubes in the QCD vacuum*, Phys. Rev. D **95** (2017) 114511 \[<a href="https://doi.org/10.1103/PhysRevD.95.114511">doi:10.1103/PhysRevD.95.114511</a>, [arXiv:1702.06437 hep-lat](https://arxiv.org/abs/1702.06437)\]
 
+Computations in [[lattice gauge theory]]:
+
+* Pedro Bicudo, Marco Cardoso, Nuno Cardoso: *$SU(3)$ quark-antiquark QCD flux tube* \[<a href="https://arxiv.org/abs/1401.6008">arXiv:1401.6008</a>\]
 
 Analytic solutions for flux tubes between [[quarks]], at least in [[Proca theory]]:
 
