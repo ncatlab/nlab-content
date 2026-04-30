@@ -14,13 +14,14 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
 The *dual superconductor model*  ([Mandelstam 1975](#Mandelstam1975), [’t Hooft 1975](#tHooft1975), [1978](#tHooft1978)) is a proposal for how to conceptually understand the mechanism of [[confinement]] in non-abelian [[Yang-Mills theories]] such as [[quantum chromodynamics]] (the *[[Yang-Mills mass gap]]* problem).
 
-The idea is to regard the theory in a "maximal abelian [[gauge fixing|gauge]]", where the [[SU(n)|$SU(n)$]] [[color charge|color]] [[gauge field]] is approximated by nonabelian fluctuations around a [[Maxwell theory|Maxwell]]-like field with [[abelian group|abelian]] [[gauge group]] the [[maximal torus]] 
+The idea is to regard the theory in a "maximal abelian [[gauge fixing|gauge]]" or, [[gauge invariance|gauge invariantly]], via a [DGC field decompositition](#ReferencesDGCDecomposition), where the [[SU(n)|$SU(n)$]] [[color charge|color]] [[gauge field]] is approximated by nonabelian fluctuations around a [[Maxwell theory|Maxwell]]-like field whose [[abelian group|abelian]] [[gauge group]] the [[maximal torus]]
 
 $$
   U(1)^{n-1} 
@@ -31,8 +32,7 @@ $$
  \mathrlap{\,.}
 $$ 
 
-
-Such a [[gauge fixing|gauge]] is expected to make manifest that the dynamics is dominated by the abelian field component (*abelian dominance*) and therefore well described by abelian [[magnetic monopole]] solutions (cf. *[[Dirac monopole]]*) --- the way they are theoretically possible in abelian [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
+Such a [[gauge fixing|gauge]] is expected/argued to make manifest that the dynamics is dominated by the abelian field component (*abelian dominance*) and therefore well described by abelian [[magnetic monopole]] solutions (cf. *[[Dirac monopole]]*) --- the way they are theoretically possible in abelian [[Maxwell theory]] (cf. *[[Dirac charge quantization]]*), owing to the fact that the [[classifying space]] $B S\big(U(1)^n\big)$ (but not $B SU(n \geq 2)$) has nontrivial second [[homotopy group]], 
 
 \[
   \pi_2\Big(
@@ -53,12 +53,19 @@ Now, in ordinary [[superconductors]] it is well-known that the [[Meissner effect
 
 But such [[color charge|color]]-*electric* [[flux tubes]] between [[quarks]] are exactly what, in turn, is expected (cf. *[[Polyakov gauge-string duality]]*) to conceptually explain the [[confinement]] of [[quarks]] inside [[mesons]] (and more generally inside [[baryons]], hence generally inside [[hadrons]]).
 
+## Properties
 
-## Comparison to lattice simulation
+### Relation to Fadeev-Skyrme model
+ {#RelationToFadeevSkyrmeModel}
 
-The model compares favorably with [[lattice QCD]] simulations in suitable parameter ranges (cf. [Greensite 2003 §7.5](#Greensite2003), [CCCP 2017](#CCCP2017)).
+For [[gauge group]] [[SU(2)]] the [[coset space]] parameterizing the [[reduction of the structure group]] along to the [[maximal torus]] $U(1) \simeq S\big(U(1)^2\big)\hookrightarrow SU(2)$ is equivalently the [[2-sphere]] base of the [[complex Hopf fibration]], $S^2 \simeq SU(2)/SU(1)$. Accordingly, in this case there is a close relation between the dual superconductor model of [[QCD]] and the [[Fadeev-Skyrme model]], see references [below](#ReferencesRelationToFadeevSkyrmeModel).
 
-### Successes
+
+### Comparison to lattice simulation
+
+The dual superconductor model compares favorably with [[lattice QCD]] simulations in suitable parameter ranges (cf. [Greensite 2003 §7.5](#Greensite2003), [CCCP 2017](#CCCP2017)).
+
+#### Successes
 
 * **Abelian and Monopole Dominance:** In the maximally Abelian (MA) [[gauge fixing|gauge]], off-diagonal [[gluons]] acquire a large effective [[mass]] (around 1 [[GeV]]), which successfully reduces the infrared region of QCD into an Abelian-like theory ([Suganuma & Sakumichi 2018, p. 2](#SuganumaSakumichi2018)). Lattice simulations demonstrate "perfect Abelian dominance," where the Abelian part of the gauge field alone reproduces the full string tension for static quark-antiquark ($Q\bar{Q}$) systems on large physical-volume lattices ([Suganuma & Sakumichi 2014, p. 1](#SuganumaSakumichi2014); [Suganuma & Sakumichi 2018, p. 1](#SuganumaSakumichi2018)). This perfect Abelian dominance is also successfully verified for three-quark (3Q) systems ([Suganuma & Sakumichi 2018, p. 1](#SuganumaSakumichi2018)). 
 
@@ -68,7 +75,7 @@ The model compares favorably with [[lattice QCD]] simulations in suitable parame
 
 * **Order Parameters:** Using a corrected definition of the order parameter for dual superconductivity, simulations show that the confined phase is superconducting while the deconfined phase behaves as a normal medium ([Di Giacomo 2001, p. 1](#DiGiacomo2001)). Similarly, suitably defined monopole creation operators acquire a non-zero expectation value strictly in the confinement phase ([Greensite 2003, Sec. 7.5](#Greensite2003)).
 
-### Drawbacks and Limitations
+#### Drawbacks and Limitations
 
 * **Casimir Scaling and Representation Dependence:** The dual superconductor model predicts that the string tension should be strictly proportional to the $U(1)$ Abelian electric charge, which contradicts the intermediate-distance Casimir scaling observed in QCD ([Greensite 2003, Sec. 7.6.1](#Greensite2003)). Consequently, quarks in the adjoint representation, which have zero $U(1)$ electric charge, should not experience confinement under the monopole gas model, yet they are known to exhibit a linear confining potential up to the onset of color screening ([Greensite 2003, Sec. 7.6.1](#Greensite2003); [Del Debbio et al. 1997, p. 2](#DelDebbioEtAl1997)).
 
