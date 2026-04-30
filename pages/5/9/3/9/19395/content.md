@@ -49,7 +49,7 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 
 [[!include local and global geometry - table]]
 
-##References
+## References
 
 * A. F. Kleppe, Chris Wainwright, _Super coset space geometry_, ([arXiv:hep-th/0610039](https://arxiv.org/abs/hep-th/0610039))
 
@@ -57,7 +57,9 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 
 * Constantin Candu, Vladimir Mitev, Volker Schomerus, _Spectra of Coset Sigma Models_, ([arXiv:1308.5981](https://arxiv.org/abs/1308.5981))
 
-* {#GJS18} Etienne Granet, Jesper Lykke Jacobsen, Hubert Saleur, _Spontaneous symmetry breaking in 2D supersphere sigma models and applications to intersecting loop soups_, ([ arXiv:1810.07807](https://arxiv.org/abs/1810.07807))
+On [[superspheres]] in relation to [[Brownian loop soup]] models:
+
+* {#GJS18} Etienne Granet, Jesper Lykke Jacobsen, Hubert Saleur, _Spontaneous symmetry breaking in 2D supersphere sigma models and applications to intersecting loop soups_, J. Phys. A: Math. Theor. **52** 345001 (2019) \[<a href="https://doi.org/10.1088/1751-8121/ab2aaa">doi:10.1088/1751-8121/ab2aaa</a>, [arXiv:1810.07807](https://arxiv.org/abs/1810.07807)\]
 
 [[!redirects super Klein geometries]]
 
