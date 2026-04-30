@@ -12,12 +12,12 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
     "width": 400,
     "unit": "px",
     "margin": {
-        "top": -0,
+        "top": -25,
         "bottom": 10,
         "right": 0, 
         "left": 15
     },
-    "caption": "From [Veneziano 2012](string+theory#Veneziano12), Fig 2.9"
+    "caption": "(above graphics from [Veneziano 2012](string+theory#Veneziano12), Fig 2.9)"
 \end{imagefromfile}
 
 
@@ -27,17 +27,23 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
 
    $[$[Kogut & Susskind (1974)](#KogutSusskind74), [(1975)](#KogutSusskind75); [Wilson (1974)](#Wilson74); [Polyakov (1979)](#Polyakov79), [(1980)](#Polyakov80), [(1987)](#Polyakov80); [Makeenko & Migdal (1981)](#MakeenkoMigdal81), following [Nambu (1970)](Nambu-Goto+action#Nambu70), [Gotō (1971)](Nambu-Goto+action#Gotō71)\]
 
+   <div style="margin:-20px 0px 00px 20px;"><img src="/nlab/files/FluxTubeBindingQuarksInMeson.png" width="700"></div>
+
    Under this assumption it would be:
 
-   1. the [[flux tube]]/[[string]]'s [[tension]] which keeps the particles at theirs endpoints [[confinement|confined]], 
+   1. the [[flux tube]]/[[string]]'s [[tension]] which keeps the particles at theirs endpoints together and hence [[confinement|confined]], 
 
-   1. the excitation of these [[flux tubes]]/[[strings]] which follow [[Regge trajectories]] (such as of [[hadrons]]);
+   1. the fluctuations of these [[flux tubes]]/[[strings]] which follow [[Regge trajectories]] (such as of [[hadrons]]);
 
    1. the [[scattering]] of these [[flux tubes]]/[[strings]] which explains the observed [[Veneziano amplitudes]],
 
-   which are the main qualitative features to be explained.
+   which are the main qualitative features to be explained. 
 
-   This picture is further concretified by the *[[dual superconductor model of color confinement]]*.
+   \linebreak
+
+   This picture is further concretified by the *[[dual superconductor model of color confinement]]*, where it is a [[background field|background]] [[condensate]] of [[magnetic monopoles]] (revealed under [DGC decomposition](dual+superconductor+model+of+color+confinement#ReferencesDGCDecomposition) of the [[gluon]] [[field (physics)|field]]) which compresses the [[color charge|color]] [[flux lines]] to this [[flux tube]]/[[string]], by a [[electric-magnetic duality|dual]] [[Meissner effect]].
+
+   \linebreak
 
 
 1. {#QuantumFluxTubesProbeHigherDim} **quantum flux tubes probe effective higher dimensions**
@@ -75,3 +81,4 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
 {#NoticeTheDecisiveInsight} Notice the decisive early insight of [[Alexander Polyakov]] here: While the idea that [[strings]] somehow describe [[hadron|hadronic]] [[bound states]] was the very origin of [[string theory]] in the early 1970s ("dual resonance models"), the mainstream *abandoned* this perspective in the later 1970s when the critical dimension and the full spectrum of the string became fully understood (cf. *[[Goddard-Thorn no-ghost theorem]]*) and declared that *instead* String theory should be understood as a [[GUT|grand unified]] [[theory of everything]] including [[quantum gravity]] (see e.g. the historical review of [Veneziano (2012), esp. pp. 30-31](string+theory#Veneziano12) which still clings to this perspective). From here it was only through the long detour of first discovering, inside this grander theory: [[D-branes]] (and [[M5-branes]]) in the 1990s, then their [[near-horizon geometry|near-horizon]] [[AdS-CFT duality]] just before the 2000s and then another decade of exploring [[intersecting D-brane models]] that the community in the 2010s came back full circle to Polyakov's holographic perspective on [[QCD]], now dubbed *[[holographic QCD]]*, in which [[strings]] are [[flux tubes]] that propagate not (alone) in the observable 4 spacetime dimensions but in a primarily unobservable (meanwhile known as *[[Randall-Sundrum model|Randall-Sundrum]]*-like) higher-dimensional [[bulk]] spacetime -- a holographic description of reality that [Polyakov (1999)](#Polyakov99) referred to as the *wall of the cave*, in allusion to [[Plato]] (cf. also [Polyakov (2008), p. 6](#Polyakov08)). 
 
 Our whereabouts in this remarkable picture are still often misunderstood today: If string theory is a theory of nature, then, it seems, we see the wall but not the cave: we live on a $\sim$[[Minkowski spacetime|Minkowskian]] [[intersecting D-brane model|brane intersection]] at the ([[asymptotic boundary|asympotic]]) [[boundary]] of a primarily unobserved $\sim$[[anti de Sitter spacetime|anti de Sitter]] [[bulk]] -- which may better be thought of not as physical space but as a configuration space of quantum flux. 
+
