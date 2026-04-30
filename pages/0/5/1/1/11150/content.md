@@ -166,6 +166,10 @@ On *timelike* Liouville theory:
 * Dionysios Anninos, Thomas Hertog, Joel Karlsson: *Quantum Liouville Cosmology* &lbrack;[arXiv:2512.15969](https://arxiv.org/abs/2512.15969)&rbrack;
   > (as 2D [[quantum cosmology]])
 
+and relation to [[D=3 supergravity]]:
+
+* [[Lorenz Eberhardt]]: *The Super Virasoro Minimal String from 3d Supergravity* &lbrack;[arXiv:2604.26038](https://arxiv.org/abs/2604.26038)&rbrack;
+
 
 
 
