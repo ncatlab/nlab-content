@@ -1,4 +1,6 @@
 
+Carlo Andrea Trugenberger
+
 * [inSpire page](https://inspirehep.net/authors/985594)
 
 * [ResearchGate page](https://www.researchgate.net/profile/Carlo-Trugenberger)
@@ -33,7 +35,7 @@ Review:
 
 * [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
 
-On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]]:
+On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]] ([[piecewise flat spacetimes]]):
 
 * [[Carlo A. Trugenberger]]: *Networks as the fundamental constituents of the universe*, J. Phys. Complex. **6** (2025) 042001 &lbrack;[arXiv:2512.17676](https://arxiv.org/abs/2512.17676)&rbrack;
 
@@ -44,3 +46,4 @@ On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]]:
 category: people
 
 [[!redirects Carlo Trugenberger]]
+[[!redirects Carlo Andrea Trugenberger]]
