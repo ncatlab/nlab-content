@@ -241,9 +241,16 @@ Discussion of _topological_ simplicial principal bundles is in
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  {#Stevenson}
 
-Discussion of principal simplicial bundles in more general [[categories of simplicial presheaves]] (presenting [[(infinity,1)-toposes]]):
+Discussion of principal simplicial bundles in more general [[categories of simplicial presheaves]] (presenting [[(infinity,1)-toposes|$(\infty,1)$-topoi]]):
 
 * {#NSS12b} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Section 3.7.2 of: _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+
+See also:
+
+* [[Jesse Wolfson]]: *Descent for $n$-bundles*, Advances in Mathematics **288** (2016) 527--575 \[<a href="https://doi.org/10.1016/j.aim.2015.10.024">doi:10.1016/j.aim.2015.10.024</a>\]
+
+* [[Jesse Wolfson]]: *On Simplicial Principal Bundles in Descent Categories* &lbrack;[arXiv:2305.01630](https://arxiv.org/abs/2305.01630)&rbrack;
+
 
 
 
