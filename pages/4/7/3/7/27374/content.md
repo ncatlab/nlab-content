@@ -1,9 +1,15 @@
 
+* [ResearchMap page](https://researchmap.jp/read12345)
+
 * [inSpire page](https://inspirehep.net/authors/1006568)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Kazuki-Hasebe)
 
 ## Selected writings
 
-On hidden [[supersymmetry]] in [[fractional quantum Hall systems]]:
+
+Early proposal for [[effective field theory|effective]] [[supersymmetry]] in [[fractional quantum Hall systems]] 
+(cf. [here](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)) combined with [effective noncommutative geometry](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE) of [[supersphere|super-]][[fuzzy spheres]]:
 
 * [[Kazuki Hasebe]]: *Supersymmetric Quantum-Hall Effect on a Fuzzy Supersphere*, Phys. Rev. Lett. **94** (2005) 206802 \[<a href="https://doi.org/10.1103/PhysRevLett.94.206802">doi:10.1103/PhysRevLett.94.206802</a>\]
 
@@ -17,5 +23,8 @@ On hidden [[supersymmetry]] in [[fractional quantum Hall systems]]:
 
 * [[Kazuki Hasebe]]: *Supersymmetric Quantum Spin Model and Quantum Hall Effect*, Soryushiron Kenkyu Electronics **117** 6 (2010 ) F59- \[<a href="https://doi.org/10.24532/soken.117.6_F59">doi:10.24532/soken.117.6_F59</a>, [spire:1687527](https://inspirehep.net/literature/1687527)\]
 
+Further discussion:
+
+* [[Kazuki Hasebe]]: *Super Landau Model and Howe Duality: From Supermonopole Harmonics to Quantum Matrix Geometry* \[<a href="https://arxiv.org/abs/2604.24112">arXiv:2604.24112</a>\]
 
 category: people
