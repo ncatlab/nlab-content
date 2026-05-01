@@ -27,6 +27,10 @@ On [[manifold calculus]]:
 
 * [[Alexander Kupers]]: *Manifolds and Disc-presheaves*,  Proceedings of [ICM 2026](https://www.mathunion.org/icm/icm-2026) &lbrack;[arXiv:2509.26392](https://arxiv.org/abs/2509.26392)&rbrack;
 
+On [[h-cobordism]] between [[smooth manifold|smooth]] [[4-manifolds]]:
+
+* [[Alexander Kupers]], Mark Powell: *Some remarks on $h$-cobordisms between smooth 4-manifolds* &lbrack;[arXiv:2604.27635](https://arxiv.org/abs/2604.27635)&rbrack;
+
 
 
 category: people
