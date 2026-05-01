@@ -422,7 +422,7 @@ whose representations are exactly of the form \eqref{TopologicalTorusObservables
 
 > under construction
 
-* [[quantum Hall effect]]
+* [[fractional quantum Hall effect]]
 
 * [[non-abelian anyon|non-Abelian quantum Hall state]] (see [Wikipedia](http://en.wikipedia.org/wiki/Anyon#Non-abelian_anyons))
 
