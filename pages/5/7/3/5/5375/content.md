@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -84,7 +84,7 @@ A comprehensive introduction is in
 
 * [[Fedor Bogomolov]], [[Yuri Tschinkel]], *Introduction to birational anabelian geometry* &lbrack;[pdf](http://www.math.nyu.edu/~tschinke/papers/yuri/10msri/msri7.pdf), [arXiv:1011.0883](https://arxiv.org/abs/1011.0883)&rbrack;
 
-* [[Hoshi, Yuichiro]]. Introduction to Mono-anabelian Geometry. Publications mathématiques de Besançon. Algèbre et théorie des nombres (2021), pp. 5-44. doi : 10.5802/pmb.42. http://www.numdam.org/articles/10.5802/pmb.42/
+* Yuichiro Hoshi: *Introduction to Mono-anabelian Geometry* Publications mathématiques de Besançon. Algèbre et théorie des nombres (2021), pp. 5-44. doi : 10.5802/pmb.42. http://www.numdam.org/articles/10.5802/pmb.42/
 
 Examples are discussed in
 
@@ -118,6 +118,10 @@ See also
 * [[Taylor Duypuy]], _[Anabelian geometry](https://www.youtube.com/playlist?list=PLJmfLfPx1OedXBno8vlpGd89_3wsdfCEc)_
 
 * {#Morrow17} [[Jackson Morrow]], _Kummer classes and Anabelian geometry_, notes from Super [QVNTS](http://www.dms.umontreal.ca/%7Eqvnts/): [Kummer Classes and Anabelian Geometry](http://www.uvm.edu/%7Etdupuy/anabelian.html) 2017 ([pdf](https://www.dropbox.com/s/kiszgkrrsjrqu4p/VermontNotes_Final.pdf?dl=0))
+
+A project for formalization of anabelian geometry (aimed at [[IUT]]) in a [[proof assistant]] ([[Lean]]):
+
+* ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
 
 
 [[!redirects anabelian variety]]
