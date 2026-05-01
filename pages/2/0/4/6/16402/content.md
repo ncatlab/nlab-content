@@ -4,9 +4,14 @@
 * [MathematicsGenealogy page](https://www.mathgenealogy.org/id.php?id=150865)
 
 
+
 ## Selected writings
 
 * cf.: [list of arXiv preprints](http://arxiv.org/find/math/1/au:+Bourke_J/0/1/0/all/0/1)
+
+On [[codescent objects]] in [[2-category theory|2-dimensional]] [[universal algebra]]:
+
+* [[John Bourke]]: *Codescent objects in 2-dimensional universal algebra*, PhD thesis, Sydney (2010) &lbrack;[pdf](https://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf), [[Bourke-CodescentObjects.pdf:file]]&rbrack;
 
 On [[2-category theory|2-category theoretic]] notions of [[exact categories]]:
 
