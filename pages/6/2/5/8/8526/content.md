@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -7,9 +8,10 @@
 =--
 =--
 =--
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -111,6 +113,14 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 
 * [[Taylor Dupuy]], [[Anton Hilado]], _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, arXiv:[2004.13108](https://arxiv.org/abs/2004.13108)
 
+A project to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
+
+* ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
+
 [[!redirects IUTT]]
+[[!redirects IUT]]
 
 [[!redirects inter-universal Teichmueller theory]]
+
+
+
