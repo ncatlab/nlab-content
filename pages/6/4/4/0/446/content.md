@@ -14,14 +14,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea ##
 
-In [[category theory]], an _allegory_ is a [[category]] with properties meant to reflect properties that hold in a category [[Rel]] of [[relations]]. The notion was first introduced (as far as we know) and certainly first made famous in the book _[[Categories, Allegories]]_ ([Freyd-Scedrov](#FreydScedrov)). 
+In [[category theory]], an _allegory_ is a [[category]] with properties meant to reflect properties that hold in a category [[Rel]] of [[relations]]. The notion was first introduced (as far as we know) and certainly first made famous in the book _[[Categories, Allegories]]_ ([Freyd & Scedrov 1990](#FreydSkedrov1990)). 
 
 Freyd and Scedrov argue that a categorical calculus of relations is an alternative and often more amenable framework for developing concepts traditionally couched in "functional" language (i.e., concepts which apply to [[sets]] and [[functions]]); for instance, a principal _raison d'etre_ for [[regular categories]] is precisely that one can do [[relational calculus]] in them (as had been long known, e.g., [[Saunders MacLane]] showed how to calculate with relations to do [[diagram chasing|diagram chases]] in [[abelian categories]]). Allegories, and correlative notions such as [[bicategory of relations|bicategories of relations]], also offer a smooth approach to [[regular and exact completion|regular and exact completions]], as used for example in the construction of [[realizability topos|realizability toposes]]. 
 
@@ -100,7 +97,7 @@ A locally regular category has finite products if and only if its tabular allego
 
 Finally, a **unit** in an allegory is an object $U$ such that $1_U$ is the greatest morphism $U\to U$, and every object $X$ admits a morphism $\phi\colon X\to U$ such that $1_X\le \phi^o\phi$.  A locally regular category has a terminal object (hence is regular) if and only if its tabular allegory of relations has a unit.
 
-Thus, regular categories are equivalent to unital (or unitary) tabular allegories.  For more details, see [[Categories, Allegories]] ([Freyd-Scedrov](#FreydScedrov)), the [[Elephant]] ([Johnstone](#Johnstone)), or [[toddtrimble:Theory of units and tabulations in allegories]].
+Thus, regular categories are equivalent to unital (or unitary) tabular allegories.  For more details, see [[Categories, Allegories]] ([Freyd & Scedrov 1990](#FreydSkedrov1990)), the [[Elephant]] ([Johnstone](#Johnstone)), or [[toddtrimble:Theory of units and tabulations in allegories]].
 
 
 ## Division allegories 
@@ -121,7 +118,7 @@ $$(s/r)(b, c) \dashv \vdash \forall_{a \colon A} r(a, b) \Rightarrow s(a, c)$$
 
 where $r(a, b)$ is shorthand for "$(a, b)$ belongs to $r$". 
 
-The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[Heyting category]] (a "[[logos]]"), and conversely the bicategory of relations in a Heyting category is a unitary tabular division allegory. ([Freyd-Scedrov](#FreydScedrov), 2.32, p. 227.) 
+The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[Heyting category]] (a "[[logos]]"), and conversely the bicategory of relations in a Heyting category is a unitary tabular division allegory. ([FS '90 2.32, p. 227](#FreydSkedrov1990)) 
 
 ## Power allegories 
 
@@ -149,7 +146,7 @@ which internalizes an axiom of extensionality, which reads $\forall_{b \colon B}
 
 $$\chi_r \coloneqq (\ni_B \backslash r) \wedge (r\backslash \ni_B)^o,$$ 
 
-which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \ni_B b \Leftrightarrow r(a, b)$, and then show $\chi_r$ is a map. ([Freyd-Scedrov](#FreydScedrov), pp. 235-236.) 
+which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \ni_B b \Leftrightarrow r(a, b)$, and then show $\chi_r$ is a map. ([FS '90 pp. 235-236](##FreydSkedrov1990)) 
 
 The bicategory of relations in a [[topos]] is a power allegory; conversely, the category of maps in a unitary tabular power allegory is a topos. 
 
@@ -218,7 +215,7 @@ Let $T$ be a [[regular theory]].  There is then an allegory $\mathcal{A}_T$ give
 
 * the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \wedge S(\vec y, \vec z)$.
 
-That $\mathcal{A}_T$ is an allegory is B.311 in [Freyd--Scedrov](#FreydScedrov); that it is in fact unitary and pre-tabular is B.312.
+That $\mathcal{A}_T$ is an allegory is  [FS '90 B.311](#FreydScedrov1990); that it is in fact unitary and pre-tabular is B.312.
 
 Further structure on $T$ gives rise to further structure on $\mathcal{A}_T$ (B.313): if $T$ is a [[coherent theory|coherent]], [[first-order theory|first-order]] or [[higher-order logic|higher-order]] theory, then $\mathcal{A}_T$ will be a distributive, division or power allegory respectively.
 
@@ -305,13 +302,13 @@ Discussion of the relation between pretabular unitary allegories and bicategorie
 
 ## References
 
-The standard monograph is 
+The standard monograph: 
 
-* {#FreydScedrov}[[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
+* {#FreydSkedrov1990} [[Peter Freyd]], [[Andre Scedrov]]: *[[Categories, Allegories]]*, Mathematical Library **39** North-Holland (1990) &lbrack;[ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)&rbrack;
 
-The notion is discussed also in chapter A3 of
+See also:
 
-* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* {#Johnstone}[[Peter Johnstone]]; chapter A3 of: _[[Sketches of an Elephant]]_
 
 In
 
@@ -319,7 +316,7 @@ In
 
 it is shown that any [[bicategory of relations]] is an allegory.
 
-See also
+See also:
 
 * Wikipedia, _[Allegory](http://en.wikipedia.org/wiki/Allegory_%28category_theory%29)_
 
