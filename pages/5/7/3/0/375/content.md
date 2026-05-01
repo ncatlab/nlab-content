@@ -13,9 +13,11 @@
 =--
 =--
 
-# Contents
-* automatic table of contents goes here
-{: toc}
+
+
+
+\tableofcontents
+
 
 ## Definition
 
@@ -35,15 +37,22 @@ is an isomorphism.
 
 ## Examples
 
-* Any [[topos]] or [[quasitopos]], such as [[Set]], is cartesian closed.
+\begin{example}
+Any [[topos]] or [[quasitopos]], such as [[Set]], is cartesian closed. See also at *[[closed monoidal structure on presheaves]]*.
+\end{example}
 
-  See also [[closed monoidal structure on presheaves]].
+\begin{example}
+[[Cat]] is also cartesian closed. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane 1997]], or the remark below Definition 4.4.10 in [[Category Theory in Context|Riehl 2017]].)
+\end{example}
 
-* [[Cat]] is also cartesian closed. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed., or the remark below Definition 4.4.10 in [[Category Theory in Context|Riehl]].)
+\begin{example}
+Many [[nice category of spaces|nice categories of topological spaces]] are cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]] (by definition/construction).
+\end{example}
 
-* Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]].
+\begin{example}\label{CatPb}
+The [[1-category]] of [[categories]] with [[pullbacks]] and of [[functors]] [[preserved limit|preserving]] these pullbacks (not necessarily strictly) is an example of a cartesian closed category that does *not* have all [[finite limits]]. Its [[internal hom]] is the [[functor category]] of pullback preserving functors with [[cartesian natural transformations]] betweem them. (See [Bourke 2010 §5](#Bourke2010) for details.)
+\end{example}
 
-* The 1-category of categories with pullbacks and pullback preserving functors (not necessarily strictly) is an example of a cartesian closed category that does not have finite limits. The internal hom is given by pullback preserving functors and cartesian natural transformations. (See Chapter 5 of the [PhD thesis of John Bourke](https://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) for details.)
 
 ## Some basic consequences 
 
@@ -244,14 +253,18 @@ Discussion with focus on [[mapping spaces]] ([[compact-open topology]]) in [[top
 
 See also the references at *[[exponential object]]*.
 
-
 Establishing the [[syntax-semantics duality|syntax/semantics]] [[relation between category theory and type theory|relation between]] cartesian closed categories and [[simply-typed lambda calculi]]:
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], Part I of: *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
 A proof that a cartesian closed category is [[poset|posetal]] if it satisfies an equality of morphisms not satisfied in a free cartesian closed category:
 
-* Kosta Dosen, and Zoran Petric. _The maximality of the typed lambda calculus and of cartesian closed categories_ (1999), ([arXiv:math/9911073](https://arxiv.org/abs/math/9911073))
+* [[Kosta Došen]], Zoran Petric: _The maximality of the typed lambda calculus and of cartesian closed categories_ (1999), &lbrack;[arXiv:math/9911073](https://arxiv.org/abs/math/9911073)&rbrack;
+
+
+See also:
+
+* {#Bourke2010} [[John Bourke]]: *Codescent objects in 2-dimensional universal algebra*, PhD thesis, Sydney (2010) &lbrack;[pdf](https://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf), [[Bourke-CodescentObjects.pdf:file]]&rbrack;
 
 
 [[!redirects cartesian closed]]
