@@ -43,6 +43,8 @@ is an isomorphism.
 
 * Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]].
 
+* The 1-category of categories with pullbacks and pullback preserving functors (not necessarily strictly) is an example of a cartesian closed category that does not have finite limits. The internal hom is given by pullback preserving functors and cartesian natural transformations. (See Chapter 5 of the [PhD thesis of John Bourke](https://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) for details.)
+
 ## Some basic consequences 
 
 A category is cartesian closed if it has finite products and if for any two objects $X$, $Y$, there is an object $Y^X$ (thought of as a "space of maps from $X$ to $Y$") such that for any object $Z$, there is a bijection between the set of maps $Z \to Y^X$ and the set of maps $Z \times X \to Y$, and this bijection is natural in $Z$. 
