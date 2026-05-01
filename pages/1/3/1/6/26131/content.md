@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[synthetic mathematics|synthetic]]$\;$ [[algebraic geometry]]
+Synthetic algebraic geometry is the [[synthetic mathematics|synthetic]] approach to [[algebraic geometry]], which adds axioms that can be interpreted in the [[Zariski topos]] or its [[(infinity,1)-topos]] generalization.
 
 ## Related concepts
 
