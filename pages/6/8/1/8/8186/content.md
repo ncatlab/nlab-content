@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 This page is to record the refereces:
 
 * [[Peter Freyd]], [[Andre Scedrov]]:
@@ -9,11 +21,17 @@ This page is to record the refereces:
 
   \linebreak
 
-  Mathematical Library **39** North-Holland (1990). 
+  Mathematical Library **39** 
+
+  North-Holland (1990)
 
   [ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)
 
-on [[category theory]] and [[categorical algebra]], sometimes referred to colloquially as "Cats and Alligators" (cf the [[Elephant]] and the [[Baby Elephant]])
+  [math-library:vol/39/suppl/C](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/39/suppl/C)
+
+  [ark:/13960/s2mnkcjwggx](https://archive.org/details/categoriesallego0000frey)
+
+on [[category theory]] and [[categorical algebra]] (with discussion of [[allegories]]).
 
 On the [[category|Categories]] side, the book centers on that part of categorical algebra that studies [[exactness property|exactness properties]], or other properties enjoyed by nice or convenient categories such as [[topos|toposes]], and their relationship to [[logic]] (for example, [[geometric logic]]). A major theme throughout is the possibility of representation theorems (aka completeness theorems or embedding theorems) for various categorical structures, spanning back now about five decades (as of this writing) to the original embedding theorems for abelian categories, such as the [[Freyd-Mitchell embedding theorem]]. 
 
