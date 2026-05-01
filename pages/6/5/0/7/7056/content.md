@@ -17,6 +17,8 @@
 
 A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) if its only [[open neighbourhood]] is the entire space.
 
+Equivalently, a point is focal if it is a [[bottom]] element in the [[specialization preorder]] of the space.
+
 ## Examples 
 
 * The closed point $\bot$ of [[Sierpinski space]] $\mathbf{2}$ is a focal point. 
