@@ -27,6 +27,10 @@ On [[Skyrmions]] stabilized by [[omega-meson|$\omega$-mesons]]:
 
 * [[Derek Harland]], [[Paul Leask]], [[Martin Speight]], *Skyrmion crystals stabilized by $\omega$-mesons* &lbrack;[arXiv:2404.11287](https://arxiv.org/abs/2404.11287)&rbrack;
 
+On [[calorons]]:
+
+* [[Josh Cork]], [[Derek Harland]]: *A Nahm transform for rotating calorons* &lbrack;[arXiv:2604.27184](https://arxiv.org/abs/2604.27184)&rbrack;
+
 
 
 
