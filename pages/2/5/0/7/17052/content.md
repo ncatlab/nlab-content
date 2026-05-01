@@ -99,7 +99,7 @@ The concept was introduced in
 
 * {#HarringtonShepard78} Barry J. Harrington, Harvey K. Shepard, _Periodic Euclidean solutions and the finite-temperature Yang-Mills gas_, Phys. Rev. D 17, 2122 &#8211; April 1978 ([doi:10.1103/PhysRevD.17.2122](https://doi.org/10.1103/PhysRevD.17.2122))
 
-Further development includes
+Further developments:
 
 * {#Nahm_84} W. Nahm, _Self-dual monopoles and calorons_, in Group Theoretical Methods in Physics, Ed. G. Denardo, G. Ghirardi, and T. Weber,  Lecture Notes in Physics **201** (1984) pp 189-200. doi:[10.1007/BFb0016145](http://dx.doi.org/10.1007/BFb0016145)
 
@@ -108,6 +108,9 @@ Further development includes
 * {#KraanVanBaal98b} Thomas C. Kraan, Pierre van Baal, _Exact T-duality between Calorons and Taub-NUT spaces_, Phys.Lett.B428:268-276, 1998 ([arXiv:hep-th/9802049](https://arxiv.org/abs/hep-th/9802049))
 
 * {#LeeLu98} [[Kimyeong Lee]], Changhai Lu: _$SU(2)$ Calorons and Magnetic Monopoles_, Phys. Rev. D **58** (1998) 025011  &lbrack;[arXiv:hep-th/9802108](https://arxiv.org/abs/hep-th/9802108), [doi:10.1103/PhysRevD.58.025011](https://doi.org/10.1103/PhysRevD.58.025011)&rbrack;
+
+* [[Josh Cork]], [[Derek Harland]]: *A Nahm transform for rotating calorons* &lbrack;[arXiv:2604.27184](https://arxiv.org/abs/2604.27184)&rbrack;
+
 
 
 See also:
