@@ -15,10 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 
 ## Idea
@@ -348,7 +346,7 @@ Further development:
 
 * [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
 
-* [[Paul Sutcliffe]], *A Skyrme model with novel chiral symmetry breaking* &lbrack;[arXiv:2301.03021](https://arxiv.org/abs/2301.03021)&rbrack;
+* [[Paul Sutcliffe]]: *A Skyrme model with novel chiral symmetry breaking*, SIGMA **19** (2023) 051 &lbrack;[arXiv:2301.03021](https://arxiv.org/abs/2301.03021), [doi:10.3842/SIGMA.2023.051](https://doi.org/10.3842/SIGMA.2023.051)&rbrack;
 
 * Fabrizio Canfora, Scarlett C. Rebolledo-Caceres, *Skyrmions at Finite Density* &lbrack;[arXiv:2306.10226](https://arxiv.org/abs/2306.10226)&rbrack;
 
