@@ -52,7 +52,7 @@ where $\Omega$ is the [[frame of opens]] of the [[point]].
 
 * {#FreydSkedrov1990} [[Peter Freyd]], [[Andre Scedrov]]: *[[Categories, Allegories]]*, Mathematical Library **39** North-Holland (1990) &lbrack;[ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)&rbrack; 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant|Sketches of an Elephant – A Topos Theory Compendium]]_ (2002)
 
 [[!redirects focal points]]
 
