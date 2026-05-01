@@ -8,7 +8,9 @@
 
 On [[calorons]]:
 
-* {#Cork18a} [[Josh Cork]], _Calorons, symmetry, and the soliton trinity_, PhD thesis, University of Leeds 2018 ([web](http://etheses.whiterose.ac.uk/22097/))
+* {#Cork18a} [[Josh Cork]], _Calorons, symmetry, and the soliton trinity_, PhD thesis, University of Leeds (2018) &lbrack;[web](http://etheses.whiterose.ac.uk/22097/)&rbrack;
+
+* [[Josh Cork]], [[Derek Harland]]: *A Nahm transform for rotating calorons* &lbrack;[arXiv:2604.27184](https://arxiv.org/abs/2604.27184)&rbrack;
 
 On [[Skyrmions]]:
 
