@@ -9,13 +9,14 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
 
 ## Definition
 
-A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) if its only [[open neighbourhood]] is the entire space.
+A [[point]] of a [[topological space]] is called **focal** ([Freyd & Scedrov 1990](#FreydScedrov1990)) if its only [[open neighbourhood]] is the entire space.
 
 Equivalently, a point is focal if it is a [[bottom]] element in the [[specialization preorder]] of the space.
 
@@ -49,8 +50,8 @@ where $\Omega$ is the [[frame of opens]] of the [[point]].
 
 ## References
 
-* [[Peter Freyd]], A. Scedrov, _Geometric logic_, (North-Holland, Amsterdam)
- {#FreydScedrov}
+* {#FreydSkedrov1990} [[Peter Freyd]], [[Andre Scedrov]]: *[[Categories, Allegories]]*, Mathematical Library **39** North-Holland (1990) &lbrack;[ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)&rbrack; 
+
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
 
 [[!redirects focal points]]
