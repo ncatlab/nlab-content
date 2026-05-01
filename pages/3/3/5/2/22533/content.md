@@ -1,11 +1,24 @@
-Under construction! Please be patient.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
+=--
+=--
+
+
+
+> under construction.
+
+\tableofcontents
 
 ## Motivation
 
-The descent data of classical (Grothendieck's) [[descent theory]] are usually treated in the generality of [[fibered categories]]. They correspond to cartesian lifts to the total category of the simplicial objects in the base, which are typically produced from covers (in Čech picture; this is not fully general as it presupposes certain coproducts in the base). In 1-categorical situation these data depend essentially only of a 2-truncation of the simplicial set hence the lift in a total category presents a 2-truncated pseudo-simplicial object. Descent data organize into a category of descent data. This category may be co-represented in an appropriate 2-categorical sense by a category equipped with certain data. The same situation can happen without any direct reference to descent theory. We start with a 2-truncation of a pseudosimplicial object in a bicategory and consider additional object in that bicategory and 1-cells satisfying a universal property. It can be viewed as certain weighted colimit called a [[codescent object]]. The notion is dual to the notion of [[descent object]] as defined in
+The descent data of classical (Grothendieck's) [[descent theory]] are usually treated in the generality of [[fibered categories]]. They correspond to cartesian lifts to the total category of the simplicial objects in the base, which are typically produced from covers (in Čech picture; this is not fully general as it presupposes certain coproducts in the base). In 1-categorical situation these data depend essentially only of a 2-truncation of the simplicial set hence the lift in a total category presents a 2-truncated pseudo-simplicial object. Descent data organize into a category of descent data. This category may be co-represented in an appropriate 2-categorical sense by a category equipped with certain data. The same situation can happen without any direct reference to descent theory. We start with a 2-truncation of a pseudosimplicial object in a bicategory and consider additional object in that bicategory and 1-cells satisfying a universal property. It can be viewed as certain weighted colimit called a [[codescent object]]. The notion is dual to the notion of [[descent object]] as defined in [Street 1987](#Street1987)
 
-* [[Ross Street]], _Correction to “Fibrations in bicategories”_, 
-Cahiers de Topologie et Géométrie Différentielle Catégoriques __28__, no.1 (1987) 53--56 [numdam](http://www.numdam.org/item/?id=CTGDC_1987__28_1_53_0) 
 
 A bicolimit weakening of the notion of codescent object is a bicodescent object. 
 
@@ -15,11 +28,25 @@ The main example outside of descent theory is related to a comparison of the cat
 
 ## Literature
 
+* {#Street1987} [[Ross Street]], _Correction to “Fibrations in bicategories”_, Cahiers de Topologie et Géométrie Différentielle Catégoriques __28__, no.1 (1987) 53--56 [numdam](http://www.numdam.org/item/?id=CTGDC_1987__28_1_53_0) 
+
 * [[Ross Street]], _Categorical and combinatorial aspects of descent theory_, [arXiv:math.CT/0303175](http://arxiv.org/abs/math.CT/0303175)
+
 * [[Stephen Lack]], _Codescent objects and coherence_, Stephen Lack, J. Pure and Appl. Algebra __175__ (2002) 223-241 <a href="https://doi.org/10.1016/S0022-4049(02)00136-6">doi</a>
+
 * Alex Corner, _Codescent Objects and Coherence_, at Category Cafe [2014/06](https://golem.ph.utexas.edu/category/2014/06/codescent_objects_and_coherenc.html)
+
 * A.S. Corner, _Day convolution for monoidal bicategories_, PhD thesis, (2016)
-* A.S. Corner, _A universal characterisation of codescent objects_, 
-Theory and Applications of Categories 34 (24), 684-713 (2019)
+
+* A.S. Corner, _A universal characterisation of codescent objects_, Theory and Applications of Categories 34 (24), 684-713 (2019)
+
+On codescent objects in [[2-category theory|2-dimensional]] [[universal algebra]]:
+
+* [[John Bourke]]: *Codescent objects in 2-dimensional universal algebra*, PhD thesis, Sydney (2010) &lbrack;[pdf](https://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf), [[Bourke-CodescentObjects.pdf:file]]&rbrack;
+
 
 [[!redirects codescent objects]]
+
+
+
+
