@@ -1,6 +1,3 @@
-<table>
-<tr>
-<td style="border: none;">
 \begin{tikzpicture}[scale=1]
   \usetikzlibrary{decorations.markings, arrows.meta}
   \tikzset{
@@ -16,42 +13,143 @@
   \colorlet{colorA}{teal!20}
   \colorlet{colorB}{orange!20}
 
-  \def\yT{1}
-  \def\yU{0.3}
-  \def\yL{-1.3}
-  \def\yB{-2}
+  \coordinate (Cu) at (0,  0.7);   % eta_p (unit): B(1,f) from E, f goes C->S
+  \coordinate (Cc) at (0, -0.7);   % epsilon_p (counit): f goes N->C, B(1,f) C->W
 
-  \coordinate (Cp) at (0, \yU);
-  \coordinate (Cj) at (0, \yL);
-
-  % fills: A covers everything, B is the region bordered by the three arrows
-  \fill[colorA] (-1,\yB) rectangle (1,\yT);
-  \fill[colorB] (0,\yU) -- (1,\yU) -- (1,\yL) -- (0,\yL) -- cycle;
+  % fills
+  \fill[colorB] (-1, 0.7) rectangle (1, 1.5);   % above upper arrow, B
+  \fill[colorB] (-1,-0.7) rectangle (0, 0.7);   % left of middle arrow, B
+  \fill[colorA] ( 0,-0.7) rectangle (1, 0.7);   % right of middle arrow, A
+  \fill[colorA] (-1,-1.5) rectangle (1,-0.7);   % below lower arrow, A
 
   % border
-  \draw[gray] (-1,\yB) rectangle (1,\yT);
+  \draw[gray] (-1,-1.5) rectangle (1,1.5);
 
   % f arrow between circles
-  \draw[mid->] (Cp) -- (Cj);
+  \draw[mid->] (Cu) -- (Cc);
 
   % horizontal arrows
-  \draw[mid->] (1,\yU) -- (Cp);
-  \draw[mid<-] (1,\yL) -- (Cj);
+  \draw[mid->] (1,  0.7) -- (Cu);   % B(1,f) into eta_p from E
+  \draw[mid<-] (-1,-0.7) -- (Cc);   % B(1,f) out of epsilon_p to W
 
   % nodes
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cp) {$\eta_p$};
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cj) {$\eta_j$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cu) {$\eta_p$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cc) {$\epsilon_p$};
 
   % edge labels
-  \node[right] at (1,\yU) {$B(1,f)$};
-  \node[right] at (1,\yL) {$B(f,1)$};
-  \node[left]  at (0,-0.5) {$f$};
+  \node[right] at (1,  0.7) {$B(1,f)$};
+  \node[left]  at (-1,-0.7) {$B(1,f)$};
 
   % area labels
-  \node at (-0.8, 0.8) {$A$};
-  \node at ( 0.5,-0.5) {$B$};
+  \node at (-0.7, 1.2) {$B$};
+  \node at ( 0.7,-1.2) {$A$};
+
+  % equal sign
+  \node at (1.7, 0) {$=$};
+
+  % --- RIGHT DIAGRAM ---
+  \begin{scope}[xshift=3.2cm]
+
+    % fills
+    \fill[colorA] (-0.7,-1.5) rectangle (0.7, 0);
+    \fill[colorB] (-0.7,  0)  rectangle (0.7, 1.5);
+
+    % border
+    \draw[gray] (-0.7,-1.5) rectangle (0.7,1.5);
+
+    % horizontal arrow from E to W
+    \draw[mid->] (0.7, 0) -- (-0.7, 0);
+
+    % edge labels
+    \node[right] at (0.7, 0) {$B(1,f)$};
+
+    % area labels
+    \node at (0,  0.8) {$B$};
+    \node at (0, -0.8) {$A$};
+    
+  \end{scope}
 
 \end{tikzpicture}
+
+
+
+\begin{tikzpicture}[scale=1]
+  \usetikzlibrary{decorations.markings, arrows.meta}
+  \tikzset{
+    mid->/.style={
+      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
+      postaction={decorate}
+    },
+    mid<-/.style={
+      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
+      postaction={decorate}
+    }
+  }
+  \colorlet{colorA}{teal!20}
+  \colorlet{colorB}{orange!20}
+
+  \coordinate (Cu) at (-0.7, 0);
+  \coordinate (Cc) at ( 0.7, 0);
+
+  % fills
+  \fill[colorA] (-1.5,-1) rectangle (-0.7, 1);
+  \fill[colorA] (-0.7, 0) rectangle ( 0.7, 1);
+  \fill[colorB] (-0.7,-1) rectangle ( 0.7, 0);
+  \fill[colorB] ( 0.7,-1) rectangle ( 1.5, 1);
+
+  % border
+  \draw[gray] (-1.5,-1) rectangle (1.5,1);
+
+  % f arrows
+  \draw[mid<-] (-0.7,-1) -- (Cu);
+  \draw[mid->] ( 0.7, 1) -- (Cc);
+
+  % horizontal arrow pointing left
+  \draw[mid->] (Cc) -- (Cu);
+
+  % nodes
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cu) {$\eta_p$};
+  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cc) {$\epsilon_p$};
+
+  % edge labels
+  \node[below] at (-0.7,-1) {$f$};
+  \node[above] at ( 0.7, 1) {$f$};
+
+  % area labels
+  \node at (-1.1, 0.5) {$A$};
+  \node at ( 1.1,-0.5) {$B$};
+
+  % equal sign
+  \node at (2.0, 0) {$=$};
+
+  % --- RIGHT DIAGRAM ---
+  \begin{scope}[xshift=3.2cm]
+
+    % fills
+    \fill[colorA] (-0.7,-1) rectangle (0,1);
+    \fill[colorB] (0,-1)    rectangle (0.7,1);
+
+    % border
+    \draw[gray] (-0.7,-1) rectangle (0.7,1);
+
+    % vertical arrow
+    \draw[mid->] (0,1) -- (0,-1);
+
+    % edge labels
+    \node[above] at (0, 1) {$f$};
+
+    % area labels
+    \node at (-0.4, 0) {$A$};
+    \node at ( 0.4, 0) {$B$};
+
+  \end{scope}
+
+\end{tikzpicture}
+
+
+<table>
+<tr>
+<td style="border: none;">
 </td>
 <td style="border: none;">
 
