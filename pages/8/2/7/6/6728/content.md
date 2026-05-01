@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
 ## Idea ##
