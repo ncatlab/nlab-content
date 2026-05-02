@@ -8,8 +8,7 @@ and maps of classes as morphisms.
 In the [[Zermelo-Fraenkel set theory]],
 a [[class]] is a [[proposition]] $P$ with a designated [[free variable]] $x$.
 We interpret $P(x)$ as saying that $x$ belongs to the class $P$.
-We also write $x\in P$, while understanding that $P$ is not a set,
-but $x$ is.
+We also write $x\in P$, with the understanding that $P$ is not a set, but $x$ is.
 
 For example, any [[set]] $A$ is a [[class]],
 whose proposition is $a\in A$ and the designated [[free variable]] is $a$.
@@ -60,67 +59,47 @@ Secondly, we have a transition map
 $$tr\colon\{(t,h)\mid t\in T, h\in Mor(I), f(t)=dom(h)\}\to T,$$
 which is a map of classes such that $f(tr(t,h))=codom(h)$.
 (The [[domain]] of $tr$ is a [[class]] because $t$ and $h$ are [[sets]].)
-Finally, the transition map satisfies the usual axioms expected from a functor.
+Finally, the transition map must satisfy the usual axioms expected from a functor.
 
-For any [[large category]] $I$ and a class $C$ we can define
-the [[constant diagram]] indexed by $I$ with value $C$.
+For any [[large category]] $I$ and a class $C$ we can define the [[constant diagram]] indexed by $I$ with value $C$.
 We take $T=I\times C$ with $f\colon T\to I$ being the [[projection map]].
 The transition map sends $(t,h)\mapsto t$.
 
 ## Limits and colimits as adjoint functors
 
-For any [[large category]] $I$
-we have a [[constant diagram]] functor
-that sends a [[class]] $C$ to the [[constant diagram]] on $C$.
+For any [[large category]] $I$ we have a [[constant diagram]] functor that sends a [[class]] $C$ to the [[constant diagram]] on $C$.
 
-We can talk about left and right [[adjoint functors]] to this functor
-in the sense of a [[first-order logic]]
-with two sorts (objects and morphisms),
-augmented with symbols for the functor, its adjoint,
-together with [[unit]] and [[counit]] maps that satisfy the [[triangle identities]].
+We can talk about left and right [[adjoint functors]] to this functor in the sense of a [[first-order logic]] with two sorts (objects and morphisms), augmented with symbols for the functor, its adjoint, together with [[unit]] and [[counit]] maps that satisfy the [[triangle identities]].
 
 ## Limits
 
 The category of [[classes]] admits all [[small limits]].
 
-First, it admits [[equalizers]]: the equalizer of $f,g\colon A\to B$
-is the subclass $E$ of $A$ defined by $E(e)=(e\in A \wedge f(e)=g(e))$.
+First, it admits [[equalizers]]: the equalizer of $f,g\colon A\to B$ is the subclass $E$ of $A$ defined by $E(e)=(e\in A \wedge f(e)=g(e))$.
 
-Secondly, it admits [[small products]]: the [[small product]] of
-an $I$-indexed family of classes $f\colon T\to I$,
-where $I$ is an arbitrary [[set]] (considered as a [[class]] when used with $f$)
-can be constructed as the class $P$ such that $p\in P$
-if $p$ is a [[map of sets]] whose [[domain]] is $I$
-and for all $i\in I$ we have $p(i)\in T$ and $f(p(i))=i$.
+Secondly, it admits [[small products]]: the [[small product]] of an $I$-indexed family of classes $f\colon T\to I$, where $I$ is an arbitrary [[set]] (considered as a [[class]] when used with $f$) can be constructed as the class $P$ such that $p\in P$ if $p$ is a [[map of sets]] whose [[domain]] is $I$ and for all $i\in I$ we have $p(i)\in T$ and $f(p(i))=i$.
 (Observe that $P$ is indeed a class.)
 
 Finally, it admits all [[small limits]] because the usual
-reduction of [[small limits]] to [[equalizers]] of [[small products]]
-continues to work provided that we adhere to the above convention
-on the definition of families of classes.
+reduction of [[small limits]] to [[equalizers]] of [[small products]] continues to work provided that we adhere to the above convention on the definition of families of classes.
 
 ## Colimits
 
-The [[category]] of classes admits all [[colimits]] indexed
-by arbitrary [[large categories]] $I$, i.e., large colimits.
+The [[category]] of classes admits all [[colimits]] indexed by arbitrary [[large categories]] $I$, i.e., large colimits.
 
 First, the standard reduction of $I$-indexed [[colimits]]
 to a [[coequalizer]] of a pair of arrows between [[coproducts]] indexed by $Mor(I)$ and $Ob(I)$
 still works in this context since class-indexed families of classes can be pulled back
 along source and target maps $Mor(I)\to Ob(I)$.
 
-Secondly, class-indexed [[coproducts]] of [[classes]] can be computed simply by taking
-the total class $T$ of the corresponding class-indexed family $f\colon T\to I$ of classes.
+Secondly, class-indexed [[coproducts]] of [[classes]] can be computed simply by taking the total class $T$ of the corresponding class-indexed family $f\colon T\to I$ of classes.
 
 Thirdly, [[coequalizers]] of [[classes]] exist by [[Scott's trick]].
-Observe that given a pair of arrows $f,g:X\to Y$ between classes,
-we can define an [[equivalence relation]] on $Y$
+Observe that given a pair of arrows $f,g:X\to Y$ between classes, we can define an [[equivalence relation]] on $Y$
 by saying that $y~y'$ if there is a map $h:[0,n]\to Y$
-such that $h(0)=y$, $h(n)=y'$
-and for any $i\in[0,n)$ there is $x\in X$ such that $h(i)=f(x)$ and $h(i+1)=g(x)$
+such that $h(0)=y$, $h(n)=y'$ and for any $i\in[0,n)$ there is $x\in X$ such that $h(i)=f(x)$ and $h(i+1)=g(x)$
 or $h(i)=g(x)$ and $h(i+1)=f(x)$.
-The quotient of $Y$ by this equivalence relation exists by [[Scott's trick]]
-and is precisely the desired coequalizer.
+The quotient of $Y$ by this equivalence relation exists by [[Scott's trick]] and is precisely the desired coequalizer.
 
 ## Other categorical properties
 
