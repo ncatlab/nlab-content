@@ -55,7 +55,7 @@ Passing from a [[dg-category]] to its category of twisted complexes is a step to
 
 ## References
 
-* {#BondalKapranov90} [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
+* {#BondalKapranov90} [[Алексей Бондал]], [[Михаил Капранов]], _Оснащённые триангулированные категории_, Математический сборник 181:5 (1990), 669–683.  [Math-Net](https://www.mathnet.ru/rus/sm/v181/i5/p669).  English translation: [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced triangulated categories_, Mathematics of the USSR-Sbornik, 70:1 (1991), 93–107.  [doi](https://doi.org/10.1070/SM1991v070n01ABEH001253), ([[bondalKaprEnhTRiangCat.pdf:file]])
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, in Proceedings of the International Congress of Mathematicians (Zürich, 1994), Birkhäuser, 1995, pp. 120–139.  [arXiv](https://arxiv.org/abs/alg-geom/9411018).
 
