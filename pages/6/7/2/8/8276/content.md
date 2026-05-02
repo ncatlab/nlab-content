@@ -5,7 +5,10 @@
 
 On [[synthetic algebraic geometry]]:
 
-* [[Ingo Blechschmidt]], *Using the internal language of toposes in algebraic geometry*, PhD thesis (2017) &lbrack;[pdf](https://rawgit.com/iblech/internal-methods/master/notes.pdf), [[Blechschmidt-InternalLanguage.pdf:file]]&rbrack;
+* {#Blechschmidt15} [[Ingo Blechschmidt]]: _Using the internal language of toposes in algebraic geometry_, talk at *[Toposes at IHES](https://indico.math.cnrs.fr/event/747/)* (November 2015) &lbrack;[pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ)&rbrack;
+
+
+* [[Ingo Blechschmidt]]: *Using the internal language of toposes in algebraic geometry*, PhD thesis (2017) &lbrack;original:[pdf](https://ncatlab.org/nlab/files/Blechschmidt-InternalLanguage.pdf), [arXiv:2111.03685](https://arxiv.org/abs/2111.03685)&rbrack;
 
 On [[constructivism|constructive]] [[algebra]]:
 
