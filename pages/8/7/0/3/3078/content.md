@@ -93,7 +93,7 @@ category: people
 
 [[!redirects Mikhail Kapranov]]
 [[!redirects Kapranov]]
-[[!redirects Михайл Капранов]]
+[[!redirects Михаил Капранов]]
 [[!redirects Капранов]]
 [[!redirects M. Kapranov]]
 
