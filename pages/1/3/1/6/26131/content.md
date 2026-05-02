@@ -20,7 +20,7 @@
 
 *Synthetic algebraic geometry* is concerned with [[synthetic mathematics|synthetic]] formulations of [[algebraic geometry]], hence with systems of [[axioms]] akin to those for [[synthetic differential geometry]] but whose natural/intended [[categorical semantics]] is specifically in [[topoi]] from [[algebraic geometry]] (cf. [[Monique Hakim|Hakim 1972]]), such as notably the [[Zariski topos]].
 
-Concretely, in the formulation of [Cherubini, Coquand & Hutzler 2024](#CherubiniCoquandHutzler2024), [[axioms]] are added to [[homotopy type theory]] which are intended to have [[model of type theory in an (infinity,1)-topos|HoTT-like categorical semantics]] in the [[(infinity,1)-topos|$(\infty,1)$-topos]] version of the [[Zariski topos]]. (After a previous formulation, in [[schreiber:thesis Wellen|Wellen 2017-2024]], of [[synthetic differential geometry|synthetic differential]] [[Cartan geometry]] in a [[fragment]] of [[differential cohesion|differentially]] [[cohesive homotopy type theory]].)
+Concretely, in the formulation of [Cherubini, Coquand & Hutzler 2024](#CherubiniCoquandHutzler2024), [[axioms]] are added to [[homotopy type theory]] which are intended to have [[model of type theory in an (infinity,1)-topos|HoTT-like categorical semantics]] in the [[(infinity,1)-topos|$(\infty,1)$-topos]] version of the [[Zariski topos]]. (After a previous formulation, in [[schreiber:thesis Wellen|Wellen/Cherubini 2017-2024]], of [[synthetic differential geometry|synthetic differential]] [[Cartan geometry]] in a [[fragment]] of [[differential cohesion|differentially]] [[cohesive homotopy type theory]].)
 
 
 ## Related concepts
