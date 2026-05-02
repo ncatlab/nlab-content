@@ -1,72 +1,92 @@
-\begin{tikzpicture}[scale=1]
-  \usetikzlibrary{decorations.markings, arrows.meta}
-  \tikzset{
-    mid->/.style={
-      decoration={markings, mark=at position 0.5 with {\arrow[scale=1.5]{Latex}}},
-      postaction={decorate}
-    },
-    mid<-/.style={
-      decoration={markings, mark=at position 0.25 with {\arrowreversed[scale=1.5]{Latex}}},
-      postaction={decorate}
-    }
-  }
-  \colorlet{colorA}{teal!20}
-  \colorlet{colorB}{orange!20}
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+  \tikzset{mid->/.style={
+    decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+    postaction={decorate}
+  }}
 
-  \coordinate (Cu) at (0,  0.7);   % eta_p (unit): B(1,f) from E, f goes C->S
-  \coordinate (Cc) at (0, -0.7);   % epsilon_p (counit): f goes N->C, B(1,f) C->W
+  % --- THIRD DIAGRAM (left) ---
+  \coordinate (C) at (-0.5, 0);
 
   % fills
-  \fill[colorB] (-1, 0.7) rectangle (1, 1.5);   % above upper arrow, B
-  \fill[colorB] (-1,-0.7) rectangle (0, 0.7);   % left of middle arrow, B
-  \fill[colorA] ( 0,-0.7) rectangle (1, 0.7);   % right of middle arrow, A
-  \fill[colorA] (-1,-1.5) rectangle (1,-0.7);   % below lower arrow, A
+  \fill[blue!15]   (-1,1) to[out=270, in=130] (C) to[out=50,  in=270] (0,1)  -- cycle;
+  \fill[orange!20] (-1,-1) to[out=90, in=230]  (C) to[out=310, in=90]  (0,-1) -- cycle;
+  \fill[teal!20]   (0,1)  to[out=270, in=50]  (C) -- (1,0) -- (1,1)   -- cycle;
+  \fill[violet!15] (C) to[out=310, in=90] (0,-1) -- (1,-1) -- (1,0)   -- cycle;
 
-  % border
-  \draw[gray] (-1,-1.5) rectangle (1,1.5);
+  % borders
+  \draw[gray] (-2,-1) rectangle (1,1);
+  \draw[gray] (-2, 0) -- (-1, 0);
 
-  % f arrow between circles
-  \draw[mid->] (Cu) -- (Cc);
+  % arrows
+  \draw[mid->, line width=0.6pt] (-1, 1) to[out=270, in=130] (C);
+  \draw[mid->, line width=0.6pt] (C) to[out=230, in=90] (-1,-1);
+  \draw[mid->, line width=0.6pt] (0,  1) to[out=270, in=50]  (C);
+  \draw[mid->, line width=0.6pt] (C) to[out=310, in=90] (0, -1);
+  \draw[line width=0.6pt] (-2, 0) -- (C);
+  \draw[line width=0.6pt] (C) -- (1, 0);
 
-  % horizontal arrows
-  \draw[mid->] (1,  0.7) -- (Cu);   % B(1,f) into eta_p from E
-  \draw[mid<-] (-1,-0.7) -- (Cc);   % B(1,f) out of epsilon_p to W
+  % node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (C) {$\psi$};
 
-  % nodes
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cu) {$\eta_p$};
-  \node[circle, draw, fill=white, inner sep=1.5pt] at (Cc) {$\epsilon_p$};
-
-  % edge labels
-  \node[right] at (1,  0.7) {$B(1,f)$};
-  \node[left]  at (-1,-0.7) {$B(1,f)$};
-
-  % area labels
-  \node at (-0.7, 1.2) {$B$};
-  \node at ( 0.7,-1.2) {$A$};
-
+  % labels
+  \node[left]  at (-2, 0) {$L$};
+  \node[right] at ( 1, 0) {$J$};
+  \node[above] at (-1, 1) {$h$};
+  \node[below] at (-1,-1) {$k$};
+  \node[above] at ( 0, 1) {$f$};
+  \node[below] at ( 0,-1) {$g$};
+  \node at (-1.5,  0.5) {$X$};
+  \node at (-1.5, -0.5) {$Y$};
+  \node at (-0.5,  0.6) {$A$};
+  \node at (-0.5, -0.6) {$C$};
+  \node at ( 0.5,  0.5) {$B$};
+  \node at ( 0.5, -0.5) {$D$};
   % equal sign
-  \node at (1.7, 0) {$=$};
+  \node at (1.5, 0) {$=$};
 
-  % --- RIGHT DIAGRAM ---
-  \begin{scope}[xshift=3.2cm]
+  % --- SECOND DIAGRAM (right) ---
+  \begin{scope}[xshift=4cm]
+
+    \coordinate (psi) at (-1, 0);
+    \coordinate (alpha) at (0, 0);
 
     % fills
-    \fill[colorA] (-0.7,-1.5) rectangle (0.7, 0);
-    \fill[colorB] (-0.7,  0)  rectangle (0.7, 1.5);
+    \fill[blue!15]   (-1,0) rectangle (0,1);
+    \fill[teal!20]   (0,0)  rectangle (1,1);
+    \fill[orange!20] (-1,-1) rectangle (0,0);
+    \fill[violet!15] (0,-1)  rectangle (1,0);
+    % borders
+    \draw[gray] (-2,-1) rectangle (1,1);
+    \draw[gray] (-2, 0) -- (-1, 0);
 
-    % border
-    \draw[gray] (-0.7,-1.5) rectangle (0.7,1.5);
+    % arrows
+    \draw[mid->, line width=0.6pt] (-1, 1) -- (psi);
+    \draw[mid->, line width=0.6pt] (psi) -- (-1,-1);
+    \draw[mid->, line width=0.6pt] (0,  1) -- (alpha);
+    \draw[mid->, line width=0.6pt] (alpha) -- (0,-1);
+    \draw[line width=0.6pt] (-2, 0) -- (psi);
+    \draw[line width=0.6pt] (psi) -- (alpha);
+    \draw[line width=0.6pt] (alpha) -- (1, 0);
 
-    % horizontal arrow from E to W
-    \draw[mid->] (0.7, 0) -- (-0.7, 0);
+    % nodes
+    \node[circle,draw,fill=white,inner sep=1.5pt] at (psi)   {$\psi'$};
+    \node[circle,draw,fill=white,inner sep=1.5pt] at (alpha) {$\alpha$};
 
-    % edge labels
-    \node[right] at (0.7, 0) {$B(1,f)$};
+    % labels
+    \node[left]  at (-2, 0) {$L$};
+    \node[right] at ( 1, 0) {$J$};
+    \node[above] at (-1, 1) {$h$};
+    \node[below] at (-1,-1) {$k$};
+    \node[above] at ( 0, 1) {$f$};
+    \node[below] at ( 0,-1) {$g$};
+    \node at (-1.5,  0.5) {$X$};
+    \node at (-1.5, -0.5) {$Y$};
+    \node at (-0.5,  0.5) {$A$};
+    \node at ( 0.5,  0.5) {$B$};
+    \node at (-0.5, -0.5) {$C$};
+    \node at ( 0.5, -0.5) {$D$};
 
-    % area labels
-    \node at (0,  0.8) {$B$};
-    \node at (0, -0.8) {$A$};
-    
   \end{scope}
 
 \end{tikzpicture}
