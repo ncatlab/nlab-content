@@ -17,9 +17,9 @@
 =--
 =--
 
-# Contents
-* automatic table of contents goes here
-{: toc}
+
+\tableofcontents
+
 
 ## Idea 
 
@@ -521,11 +521,11 @@ On the [[internal language]] of [[locally cartesian closed (infinity,1)-categori
 ### Applications
  {#Applications}
 
-Discussion of fundamental constructions of [[algebraic geometry]] from the perspective of the internal logic of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]], [[etale topos]]) is in 
+Discussion of fundamental constructions of [[algebraic geometry]] from the perspective of the internal logic of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]], [[etale topos]]):
 
-* {#Blechschmidt15} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, talk at [Toposes at IHES](https://indico.math.cnrs.fr/event/747/), November 2015 ([pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ))
+* {#Blechschmidt15} [[Ingo Blechschmidt]]: _Using the internal language of toposes in algebraic geometry_, talk at *[Toposes at IHES](https://indico.math.cnrs.fr/event/747/)* (November 2015) &lbrack;[pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ)&rbrack;
 
-* {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
+* [[Ingo Blechschmidt]]: *Using the internal language of toposes in algebraic geometry*, PhD thesis (2017) &lbrack;original:[pdf](https://ncatlab.org/nlab/files/Blechschmidt-InternalLanguage.pdf), [arXiv:2111.03685](https://arxiv.org/abs/2111.03685)&rbrack;
 
 * [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
 
