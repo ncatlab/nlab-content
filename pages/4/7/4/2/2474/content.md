@@ -327,6 +327,8 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
   * [[state on an operator algebra]]
 
+* [[H-star algebra|$H^\ast$-algebra]]
+
 
 
 ## References
