@@ -60,6 +60,8 @@ On [[tensor category]]-theory for [[algebraic geometry]]:
 
 ## Other Projects
 
-* [CatDat](https://catdat.app), A comprehensive and searchable database of categories and their properties
+A compilation of [[categories]] and their properties:
+
+* *[[CatDat]] -- A comprehensive and searchable database of categories and their properties* &lbrack;[catdat.app](https://catdat.app)&rbrack;
  
 category: people
