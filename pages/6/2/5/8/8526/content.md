@@ -117,6 +117,9 @@ A project to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
 
 * ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
 
+* [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
+
+
 [[!redirects IUTT]]
 [[!redirects IUT]]
 
