@@ -77,6 +77,11 @@ Introducing the notion of [[short-range entanglement]] in [[quantum materials]] 
 
 * {#Kitaev19} [[Alexei Kitaev]]: *Topological quantum phases*, Talk at IAS (2019) &lbrack;[video](https://www.ias.edu/video/special/2019/1125-AlexeiKitaev)&rbrack;
 
+On the [[representation theory]] of the ([[projective special linear group|projective]]) [[special linear group]] $SL(2,\mathbb{R})$:
+
+* [[Alexei Kitaev]]: *Notes on $\widetilde{SL}(2,\mathbb{R})$ representations* &lbrack;[arXiv:1711.08169](https://arxiv.org/abs/1711.08169)&rbrack;
+
+
 Discussion of the [[Levin-Wen model]] as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]]:
 
 * [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ &lbrack;<a href="https://ncatlab.org/nlab/files/Kitaev-Kong.pdf">pdf</a>&rbrack;
