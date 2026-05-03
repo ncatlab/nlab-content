@@ -59,6 +59,10 @@ On [[D=8 Yang-Mills theory]]:
 in Eight Dimensions_ (1997), Dualities in Gauge and String Theories, pp. 365-373 (1998) &lbrack;[arXiv:hep-th/9705127](https://arxiv.org/abs/hep-th/9705127), [doi:10.1142/9789814447287_0011](
 https://doi.org/10.1142/9789814447287_0011)&rbrack;
 
+## Related entries
+
+* [[Ambrose-Singer theorem]]
+
 [[!redirects Isadore Manuel Singer]]
 [[!redirects Isadore M. Singer]]
 
