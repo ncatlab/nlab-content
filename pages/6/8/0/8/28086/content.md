@@ -71,13 +71,18 @@ A [[monoid in a monoidal category|monoid]] $(A, \mu, \eta)$ internal to [[Hilb|$
 
 (cf. [Abramsky & Heunen 2012](#AbramskyHeunen2012))
 
+
+## Related concepts
+
+* [[C-star algebra|$C^\ast$-algebra]]
+
 ## References
 
 The original article:
 
 * {#Ambrose1945} [[Warren Ambrose]]: *Structure Theorems for a special class of Banach Algebras*, Transactions of the American Mathematical Society **57** (1945) 364--386 &lbrack;[doi:10.2307/1990182](https://doi.org/10.2307/1990182), [jstor:1990182](https://www.jstor.org/stable/1990182),  [pdf](https://scispace.com/pdf/structure-theorems-for-a-special-class-of-banach-algebras-36z9t9hi9q.pdf)&rbrack;
 
-Discussion in relation to [[Frobenius algebra]]-structures in [[finite-dimensional Hilbert spaces]]:
+Discussion in relation to [[Frobenius algebra]]-[[structures]] on [[finite-dimensional Hilbert spaces]]:
 
 * {#AbramskyHeunen2012} [[Samson Abramsky]], [[Chris Heunen]]: *$H^\ast$-algebras and nonunital Frobenius algebras: first steps in infinite-dimensional categorical quantum mechanics*, in *Clifford Lectures*, AMS Proceedings of Symposia in Applied Mathematics **71** (2012) 1--24 &lbrack;[arXiv:1011.6123](https://arxiv.org/abs/1011.6123)&rbrack;
 
