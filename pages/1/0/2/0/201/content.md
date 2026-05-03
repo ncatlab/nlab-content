@@ -245,6 +245,10 @@ Categories [[enriched category|enriched]] over $Ab$ are called [[additive catego
 
 * [[sAb]]
 
+## References
+
+* {#CatDat} [[CatDat]]: *[category of abelian groups](https://catdat.app/category/Ab)*
+
 
 category: category
 
