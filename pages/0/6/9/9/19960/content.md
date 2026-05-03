@@ -14,9 +14,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -705,12 +703,11 @@ Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
 See also:
 
-* [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
+* [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs), machine transcript: [[Witten-SomeMilestones-AdSQCD-Transcript.pdf:file]]&rbrack;
 
 > [40:13](https://youtu.be/TvIz-6YOdKs?t=2413): "Personally, I think [[AdS/QCD|this setup]] really implies that pure [[Yang-Mills theory|$SU(N)$ gauge theory]] is [[gauge-string duality|dual]] to a [[string theory]]. The 'only' problem is that to get the pure gauge theory we need to make a relevant deformation and then take the limit that the deformation parameter is large..."
 
-* {#Klebanov25} [[Igor Klebanov]], first part of: *Strong Interactions, Confinement, and Strings*, APCTP Colloquium talk (Sep 2025) &lbrack;video:[YT](https://youtu.be/598kvRnhQqg)&rbrack;
-
+* {#Klebanov25} [[Igor Klebanov]], first part of: *Strong Interactions, Confinement, and Strings*, APCTP Colloquium talk (Sep 2025) &lbrack;video:[YT](https://youtu.be/598kvRnhQqg), machine transcript:[[Klebanov-StrongInteractions-Transcript.pdf:file]]&rbrack;
 
 
 
