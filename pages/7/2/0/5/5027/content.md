@@ -7,11 +7,16 @@ Chris Heunen is EPSRC research fellow in [[computer science]] at Oxford.
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=K_LnaH0AAAAJ&hl=en)
 
+
 ## Selected writings
 
 On [[Bohr toposes]]:
 
 * {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], *Bohrification of operator algebras and quantum logic*, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
+
+On [[H-star algebras|$H^\ast$-algebras]] and [[Frobenius algebras]]:
+
+* [[Samson Abramsky]], [[Chris Heunen]]: *$H^\ast$-algebras and nonunital Frobenius algebras: first steps in infinite-dimensional categorical quantum mechanics*, in *Clifford Lectures*, AMS Proceedings of Symposia in Applied Mathematics **71** (2012) 1--24 &lbrack;[arXiv:1011.6123](https://arxiv.org/abs/1011.6123)&rbrack;
 
 
 On [[monads]] on [[dagger categories]] with an eye towards [[quantum measurement]] expressed in [[finite quantum mechanics in terms of dagger-compact categories]]:
