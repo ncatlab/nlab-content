@@ -9,10 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## Definition
 
@@ -46,7 +44,15 @@ Elements of $PGL(n)$ are identified with the  automorphisms of the projective sp
 
 * Wikipedia, _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
 
+See also:
+
+* [[Alexei Kitaev]]: *Notes on $\widetilde{SL}(2,\mathbb{R})$ representations* &lbrack;[arXiv:1711.08169](https://arxiv.org/abs/1711.08169)&rbrack;
+
+
 [[!redirects projective general linear groups]]
 [[!redirects projective linear group]]
 
 [[!redirects projective group]]
+
+[[!redirects projective special linear group]]
+
