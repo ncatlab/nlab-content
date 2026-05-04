@@ -6,6 +6,11 @@ Jeff Giansiracusa is a professor at Swansea University in the Department of Math
 
 ## Selected writings
 
+On [[functor|functoriality]] of [[twisted K-theory]] of [[stacks]] (cf. twisted [[orbifold K-theory]]) via [[groupoid convolution algebra]]:
+
+* {#AlldridgeGiansiracusa2006} Alexander Alldridge, [[Jeffrey Giansiracusa]]: *Contravariant functoriality for twisted K-theory of stacks* (2006) &lbrack;[[AlldridgeGiansiracusa-Functoriality.pdf:file]]&rbrack;
+
+
 On the [[framed little 2-disk operad]]:
 
 * {#GiansiracusaSalvatore09} [[Jeffrey Giansiracusa]], [[Paolo Salvatore]], _Formality of the framed little 2-discs operad and semidirect products_ , in: _Homotopy theory of function spaces and related topics_, Cont. Math. 519, AMS, pp. 115-121  ([arxiv 0911.4428](http://arxiv.org/PS_cache/arxiv/abs/0911/0911.4428))
