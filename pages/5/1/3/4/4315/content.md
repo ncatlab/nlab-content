@@ -15,9 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -127,8 +126,8 @@ $$
     \downarrow &\swArrow& \downarrow
     \\
     \mathcal{G} &\to& \mathcal{K}
+    \mathrlap{\,.}
   }
-  \,.
 $$
 
 =--
