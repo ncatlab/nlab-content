@@ -77,6 +77,8 @@ Further on the application to the description of [[short-range entanglement|shor
 
 * [[Cameron Krulewski]]: *Invertible Field Theory Models for SPTs in the Bott Spiral*, [talk at](CQTS#Krulewski2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[Krulewski-CQTS2026.pdf:file]]&rbrack;
 
+* [[Arun Debray]], [[Cameron Krulewski]], [[Luuk Stehouwer]]: *Unraveling the Bott spiral* &lbrack;[arXiv:2605.00316](https://arxiv.org/abs/2605.00316)&rbrack;
+
 
 [[!redirects invertible field theories]]
 
