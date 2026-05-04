@@ -62,7 +62,12 @@ Discussion of [[black hole entropy]]:
 
 Discussion via [[AdS/CFT correspondence]]:
 
-* Sinya Aoki, Tetsuya Onogi, Shuichi Yokoyama, _What does a quantum black hole look like?_ ([arXiv:2004.03779](https://arxiv.org/abs/2004.03779))
+* Sinya Aoki, Tetsuya Onogi, Shuichi Yokoyama: _What does a quantum black hole look like?_ &lbrack;[arXiv:2004.03779](https://arxiv.org/abs/2004.03779)&rbrack;
+
+and in relation to topological charges and [[holographic QCD]]:
+
+* [[Nelson R. F. Braga]], William S. Cunha: *Topological charges and confined-deconfined phase transition in holography* &lbrack;[arXiv:2605.00203](https://arxiv.org/abs/2605.00203)&rbrack;
+
 
 
 
