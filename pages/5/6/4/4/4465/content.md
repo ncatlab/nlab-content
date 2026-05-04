@@ -121,6 +121,11 @@ and reviewed in
 
 * {#Carlip07} [[Steve Carlip]], _Symmetries, Horizons, and Black Hole Entropy_, Gen.Rel.Grav.39:1519-1523,2007; Int.J.Mod.Phys.D17:659-664,2008 ([arXiv:0705.3024](http://arxiv.org/abs/0705.3024))
 
+On topological classification:
+
+* Shao-Wen Wei, Yu-Xiao Liu: *Topology of black hole thermodynamics: A brief review* &lbrack;[arXiv:2605.00037](https://arxiv.org/abs/2605.00037)&rbrack;
+
+
 Further developments:
 
 * [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions_, JHEP04(2013)156 ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
@@ -142,6 +147,8 @@ On black hole entropy in [[supergravity]]:
 In relation to [[computation]]:
 
 * [[Leron Borsten]], [[Hyungrok Kim]]: *Limits to Computational Acceleration Imposed by Quantum Field Theory and Quantum Gravity* &lbrack;[arXiv:2604.00182](https://arxiv.org/abs/2604.00182)&rbrack;
+
+
 
 
   
