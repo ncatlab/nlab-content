@@ -22,6 +22,9 @@ On [[Cartan calculus]] for [[diffeological spaces]]:
 
 * [[Christian Blohmann]], _Elastic diffeological spaces_, [arXiv:2301.02583](https://arxiv.org/abs/2301.02583).
 
+On [[bornology|bornological]] [[groupoid convolution algebras]]:
+
+* David Aretz, [[Christian Blohmann]]: *Functoriality of bornological groupoid convolution* &lbrack;[arXiv:2508.11005](https://arxiv.org/abs/2508.11005)&rbrack;
 
 
 category: people
