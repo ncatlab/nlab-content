@@ -237,13 +237,15 @@ $$
 
 between 
 
-1. the [[(2,1)-category]] $DiffStack_{prop}$ of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them (in the sense of [Alldridge & Giansiracusa '06 Def. 0.2](#AlldridgeGiansiracusa2006), [Nuiten '13 Def. 2.2.35](#Nuiten13)),
+1. the [[(2,1)-category]] $DiffStack_{prop}$ of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them (in the sense of [Alldridge & Giansiracusa '06 Def. 0.2](#AlldridgeGiansiracusa2006), [Nuiten '13 Def. 2.2.35](#Nuiten13)) representable by [[bibundles]] both whose legs are [[submersions]] (this strong condition is imposed in [Nuiten '13 Def. 2.2.33](#Nuiten13)),
 
 1. the [[opposite 2-category|opposite]] [[(2,1)-category]] of [[C*-algebras]] with [[Hilbert bimodules]] between them and [[intertwiners]] between those.
 
 =--
 
-([Nuiten 13, theorem 3.3.1](#Nuiten13))
+This is due to [Nuiten 13, theorem 3.3.1](#Nuiten13).
+
+(Generalization beyond the strong condition of bibundles submersive on both sides exists in the context of [[bornological set|bornological]] convolution, cf. [Aretz & Blohmann 2025](#AretzBlohmann2025)).
 
 This way, much of [[noncommutative geometry]] is exhibited as actually being the [[higher geometry]] of [[differentiable stacks]] inside all [[smooth stacks]]. In particular, [[groupoid K-theory]] is realized as the [[KK-theory]] of convolution C*-algebras.
 
@@ -763,6 +765,11 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 
 * {#Meland} Bram Mesland, _Groupoid cocycles and K-theory_ ([arXiv:1005.3677](http://arxiv.org/abs/1005.3677))
  
+
+Generalization to bornological convolution:
+
+* {#AretzBlohmann2025} David Aretz, [[Christian Blohmann]]: *Functoriality of bornological groupoid convolution* &lbrack;[arXiv:2508.11005](https://arxiv.org/abs/2508.11005)&rbrack;
+
 
 
 
