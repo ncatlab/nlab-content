@@ -83,6 +83,12 @@ On [[non-perturbative effects]] in [[QCD]] ([[hadrodynamics]]) via [[operator pr
 
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
 
+On [[Hopfions]]:
+
+* Chao-Hsiang Sheu, [[Mikhail Shifman]]: *More on Classical Stability of Hopf-like Solitons of the Toroidal-Twisted type* &lbrack;[arXiv:2605.00757](https://arxiv.org/abs/2605.00757)&rbrack;
+
+
+
 category: people
 
 [[!redirects Mikhail A. Shifman]]
