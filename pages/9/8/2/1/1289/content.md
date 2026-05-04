@@ -94,6 +94,8 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * [[Lie integration]], which constructs a [[simply connected space|simply connected]] [[Lie group]] from a finite-dimensional real [[Lie algebra]]. The coreflector is Lie differentiation (taking a Lie group to its associated Lie algebra), and the [[counit]] is the natural map to a given Lie group $G$ from the universal [[covering space]] of the [[connected space|connected component]] at the identity of $G$. 
 
+* For a field $K$, the category $\mathbf{Var}_{K}$ of $K$-varieties is a coreflective subcategory of the category $\mathbf{Sch}^{\operatorname{sep,ft}}_{/K}$ of finite type and separated $K$-schemes. The coreflector is the reduction functor $(-)_{\operatorname{red}}$ which sends a $K$-scheme $X$ to its reduction $X_{\operatorname{red}}$. More generally and following the same pattern, for any base scheme $S$ the category $\mathbf{redSch}_{/S}$ of reduced $S$-schemes is a coreflective subcategory of the category $\mathbf{Sch}_{/S}$ of $S$-schemes. The coreflector is again given by the reduction functor.
+
 * In a [[recollement]] situation, we have several reflectors and coreflectors. We have a reflective and coreflective subcategory $i_*: A' \hookrightarrow A$ with reflector $i^*$ and coreflector $i^!$. The functor $j^*$ is both a reflector for the reflective subcategory $j_*: A'' \hookrightarrow A$, and a coreflector for the coreflective subcategory $j_!: A'' \hookrightarrow A$.
 
 ## Related concepts
