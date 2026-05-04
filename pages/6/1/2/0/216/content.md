@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -214,13 +213,13 @@ This is recalled at ([Connes 94, prop. 3 on p. 106](#Connes94)).
 
 With suitable definitions, this construction constitutes something at least close to a [[2-functor]] from [[differentiable stacks]] to [[C-star-algebras]] and [[Hilbert bimodules]] between them:
 
-In ([Mr&#269;un 99](#Mrcun99)) the convolution algebra construction for [[étale Lie groupoids]] is extended to groupoid [[bibundles]] and shown to produce a [[functor]] to [[C-star-algebras]] with (isomorphism classes of) [[bimodules]] between them. In ([Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun)) it is shown that if one remembers the additional [[Hopf algebroid]] structure on the convolution $C^\ast$-alegras (the algebraic analog of remebering the [[atlas]] of the [[differentiable stack]] of a Lie groupoid) then this construction becomes a [[full subcategory]] inclusion of &#233;tale Lie groupoids into their convolution Hopf algebroids.
+In [Mr&#269;un 99](#Mrcun99) the convolution algebra construction for [[étale Lie groupoids]] is extended to groupoid [[bibundles]] and shown to produce a [[functor]] to [[C-star-algebras]] with (isomorphism classes of) [[bimodules]] between them. In [Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun) it is shown that if one remembers the additional [[Hopf algebroid]] structure on the convolution $C^\ast$-algebras (the algebraic analog of remebering the [[atlas]] of the [[differentiable stack]] of a Lie groupoid) then this construction becomes a [[full subcategory]] inclusion of &#233;tale Lie groupoids into their convolution Hopf algebroids.
 
-In ([Muhly-Renault-Williams 87](#MuhleReaultWilliams87), [Landsman 00](#Landsman00)) the generalization of the construction of a $C^\ast$-bimodule from a groupoid [[bibundle]] to general [[Lie groupoids]] is discussed (not necessarily [[étale Lie groupoid|étale]]), but only equivalence-bibundles are considered and are shown to yield [[Morita equivalence]] bimodules (no discussion of composition and functoriality here).
+In [Muhly, Renault & Williams 87](#MuhleReaultWilliams87) and [Landsman 00](#Landsman00) the generalization of the construction of a $C^\ast$-bimodule from a groupoid [[bibundle]] to general [[Lie groupoids]] (not necessarily [[étale Lie groupoid|étale]]) is discussed, but only equivalence-bibundles are considered and are shown to yield [[Morita equivalence]] bimodules (no discussion of composition and functoriality here).
 
 =--
 
-A precise form of this statement is the following [Nuiten 13, theorem 3.3.1](#Nuiten13)
+A precise form of this statement is the following ([Nuiten 2013, theorem 3.3.1](#Nuiten13)):
 
 +-- {: .num_prop #GroupoidConvolutionIs2Functor}
 ###### Proposition
@@ -238,7 +237,7 @@ $$
 
 between 
 
-1. the [[(2,1)-category]] $DiffStack_{prop}$ of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them ([Nuiten 13, def. 2.2.35](#Nuiten13))
+1. the [[(2,1)-category]] $DiffStack_{prop}$ of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them (in the sense of [Alldridge & Giansiracusa '06 Def. 0.2](#AlldridgeGiansiracusa2006), [Nuiten '13 Def. 2.2.35](#Nuiten13)),
 
 1. the [[opposite 2-category|opposite]] [[(2,1)-category]] of [[C*-algebras]] with [[Hilbert bimodules]] between them and [[intertwiners]] between those.
 
@@ -616,12 +615,13 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 
 * [[bibundle]], [[bimodule]]
 
+
 ## References
 
 ### For partial orders
 
-* [[Gian-Carlo Rota]], _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
- {#Rota64}
+* {#Rota64} [[Gian-Carlo Rota]]: _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
+ 
 
 
 ### For discrete geometry
@@ -633,14 +633,14 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 
 The [[homotopy colimit]]-interpretation of category algebras over discrete categories is discussed in
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
- {#FHLT}
+* {#FHLT} [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]]: _[[Topological Quantum Field Theories from Compact Lie Groups]]_ &lbrack;[arXiv:0905.0731](http://arxiv.org/abs/0905.0731)&rbrack;
+ 
 
 Groupoid algebras of geometrically discrete groupoids twisted by [[principal 2-bundles]]/[[bundle gerbes]]/[[central extension of groupoids|groupoid central extension]] is reviewed in
 
 * Eitan Angel, _A Geometric Construction of Cyclic Cocycles on Twisted Convolution Algebras_, PhD thesis (2010)
 
-  Cyclic cocycles on twisted convolution algebras, ([arXiv.1103.0578](http://arxiv.org/abs/1103.0578)) 
+  Cyclic cocycles on twisted convolution algebras, &lbrack;[arXiv.1103.0578](http://arxiv.org/abs/1103.0578)&rbrack; 
 
 
 
@@ -683,12 +683,13 @@ Specifically of [[symplectic groupoids]] in the context of [[geometric quantizat
 
 * {#EH} [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
  
-
-
-
 See also:
 
-* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
+* {#AlldridgeGiansiracusa2006} Alexander Alldridge, [[Jeffrey Giansiracusa]]: *Contravariant functoriality for twisted K-theory of stacks* (2006) &lbrack;[[AlldridgeGiansiracusa-Functoriality.pdf:file]]&rbrack;
+
+
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, MSc thesis, Utrecht (August 2013)
+
 
 
 More along these lines is in
