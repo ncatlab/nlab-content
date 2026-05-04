@@ -112,6 +112,11 @@ Discussion for more general [[3-manifold]] domains ([[Cohomotopy]] of 3-manifold
 
 * [[Dave Auckly]], [[Lev Kapitanski]]: *The Pontrjagin-Hopf invariants for Sobolev maps*,  Communications in Contemporary Mathematics **12** 01 (2010) 121-181 &lbrack;[arXiv:0711.0546](https://arxiv.org/abs/0711.0546), [doi:10.1142/S0219199710003695](https://doi.org/10.1142/S0219199710003695)&rbrack;
 
+See also:
+
+* Chao-Hsiang Sheu, [[Mikhail Shifman]]: *More on Classical Stability of Hopf-like Solitons of the Toroidal-Twisted type* &lbrack;[arXiv:2605.00757](https://arxiv.org/abs/2605.00757)&rbrack;
+
+
 
 
 
