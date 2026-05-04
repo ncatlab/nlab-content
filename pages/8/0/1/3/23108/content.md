@@ -40,6 +40,8 @@ On [[symmetry protected topological phases]] via [[invertible field theory]]:
 
 * [[Omar Antolín Camarena]], [[Arun Debray]], [[Cameron Krulewski]], Natalia Pacheco-Tallaj, Daniel Sheinbaum, [[Luuk Stehouwer]]: *Weak topological phases in the presence of interactions* &lbrack;[arXiv:2410.10031](https://arxiv.org/abs/2410.10031)&rbrack;
 
+* [[Arun Debray]], [[Cameron Krulewski]], [[Luuk Stehouwer]]: *Unraveling the Bott spiral* &lbrack;[arXiv:2605.00316](https://arxiv.org/abs/2605.00316)&rbrack;
+
 
 
 
