@@ -19,7 +19,11 @@ On [[G-structures]] in [[M-theory]]:
 
 * [[Carlos S. Shahbazi]], _M-theory on non-Kähler manifolds_, JHEP 09 (2015) 178 &lbrack;[arXiv:1503.00733](https://arxiv.org/abs/1503.00733)&rbrack;
 
-On [[contact geometry]] in [[D=6 supergravity]]:
+On [[D=6 supergravity]]:
+
+* M. Garcia-Fernandez, [[Carlos S. Shahbazi]]: *Self-dual generalized metrics for pure $\mathcal{N}=1$ six-dimensional Supergravity* &lbrack;[arXiv:1505.03088](https://arxiv.org/abs/1505.03088), [inSpire:1369379](https://inspirehep.net/literature/1369379)&rbrack;
+
+and in relation to [[contact geometry]]:
 
 * [[Ángel Murcia]], [[Carlos S. Shahbazi]], *Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity*, Journal of Geometry and Physics **158** (2020) &lbrack;[arXiv:1912.08723](https://arxiv.org/abs/1912.08723), [doi:10.1016/j.geomphys.2020.103868](https://doi.org/10.1016/j.geomphys.2020.103868)&rbrack;
 
