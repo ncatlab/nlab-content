@@ -25,6 +25,9 @@ On [[symmetry protected topological phases]] via [[invertible field theories]]:
 
 * [[Cameron Krulewski]]: *Invertible Field Theory Models for SPTs in the Bott Spiral*, [talk at](CQTS#Krulewski2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[Krulewski-CQTS2026.pdf:file]]&rbrack;
 
+* [[Arun Debray]], [[Cameron Krulewski]], [[Luuk Stehouwer]]: *Unraveling the Bott spiral* &lbrack;[arXiv:2605.00316](https://arxiv.org/abs/2605.00316)&rbrack;
+
+
 On [[fusion categories]] and [[fusion 2-categories]]:
 
 * [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Cameron Krulewski]], [[Nivedita]], [[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
