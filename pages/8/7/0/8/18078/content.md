@@ -5,12 +5,6 @@
     postaction={decorate}
   }}
 
-  % fills
-  \fill[blue!15]   (-1,0) rectangle (0,1);
-  \fill[teal!20]   (0,0)  rectangle (1,1);
-  \fill[orange!20] (-1,-1) rectangle (0,0);
-  \fill[violet!15] (0,-1)  rectangle (1,0);
-
   % border
   \draw[gray] (-1,-1) rectangle (1,1);
 
@@ -34,6 +28,88 @@
   \node at ( 0.5, -0.5) {$C$};
 
 \end{tikzpicture}
+
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+  \tikzset{mid->/.style={
+    decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+    postaction={decorate}
+  }}
+
+  % --- LEFT DIAGRAM ---
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % central lines
+  \draw[line width=0.6pt] (-1,0) -- (1,0);
+  \draw[line width=0.6pt] (0,-1) -- (0,1);
+
+  % central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) {$\phi$};
+
+  % edge labels
+  \node[above] at (0,  1) {$\phi_A$};
+  \node[below] at (0, -1) {$g$};
+  \node[left]  at (-1, 0) {$\phi_B$};
+  \node[right] at ( 1, 0) {$f$};
+
+  % area labels
+  \node at (-0.5,  0.5) {$W$};
+  \node at ( 0.5,  0.5) {$A$};
+  \node at (-0.5, -0.5) {$B$};
+  \node at ( 0.5, -0.5) {$C$};
+
+  % equal sign
+  \node at (1.5, 0) {$=$};
+
+  % --- RIGHT DIAGRAM ---
+  \begin{scope}[xshift=3cm]
+
+    % node positions
+    \coordinate (PHI) at (-0.35,  0.35);
+    \coordinate (PI)  at ( 0.35, -0.35);
+
+    % border
+    \draw[gray] (-1,-1) rectangle (1,1);
+
+    % lines from phi' to edges
+    \draw[line width=0.6pt] (-1,   0.35) -- (PHI);
+    \draw[line width=0.6pt] (-0.35, 1)   -- (PHI);
+
+    % lines from pi to edges
+    \draw[line width=0.6pt] (PI) -- ( 1, -0.35);
+    \draw[line width=0.6pt] (PI) -- ( 0.35, -1);
+
+    % curved arcs between phi' and pi (strongly curved)
+    \draw[line width=0.6pt] (PHI) to[out=0,  in=90] (PI);  % upper arc, bulges up-right
+    \draw[line width=0.6pt] (PHI) to[out=270, in=180] (PI);  % lower arc, bulges down-left
+    % arc labels shifted outward
+    \node at ( 0.3,  0.2) {$\pi_A$};
+    \node at (-0.3, -0.2) {$\pi_B$};
+
+    % f/g label between circles
+    \node at (0, 0) {$f/g$};
+
+    % nodes
+    \node[circle,draw,fill=white,inner sep=1.5pt] at (PHI) {$\phi'$};
+    \node[circle,draw,fill=white,inner sep=1.5pt] at (PI)  {$\pi$};
+
+    % edge labels
+    \node[above] at (-0.35,  1) {$\phi'_A$};
+    \node[below] at ( 0.35, -1) {$g$};
+    \node[left]  at (-1,  0.35) {$\phi'_B$};
+    \node[right] at ( 1, -0.35) {$f$};
+
+    % area labels
+    \node at (-0.7,  0.7) {$W$};
+    \node at ( 0.7,  0.7) {$A$};
+    \node at (-0.7, -0.7) {$B$};
+    \node at ( 0.7, -0.7) {$C$};
+
+  \end{scope}
+
+\end{tikzpicture}
+
 
 ***
 
