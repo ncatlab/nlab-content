@@ -101,6 +101,8 @@ Further discussion:
 
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
+* M. Garcia-Fernandez, [[Carlos S. Shahbazi]]: *Self-dual generalized metrics for pure $\mathcal{N}=1$ six-dimensional Supergravity* &lbrack;[arXiv:1505.03088](https://arxiv.org/abs/1505.03088), [inSpire:1369379](https://inspirehep.net/literature/1369379)&rbrack;
+
 * [[Ángel Murcia]], [[Carlos S. Shahbazi]], *Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity*, Journal of Geometry and Physics **158** (2020) &lbrack;[arXiv:1912.08723](https://arxiv.org/abs/1912.08723), [doi:10.1016/j.geomphys.2020.103868](https://doi.org/10.1016/j.geomphys.2020.103868)&rbrack;
 
   > (relation to [[contact geometry]])
