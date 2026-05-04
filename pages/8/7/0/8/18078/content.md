@@ -5,6 +5,46 @@
     postaction={decorate}
   }}
 
+  % fills
+  \fill[blue!15]   (-1,0) rectangle (0,1);
+  \fill[teal!20]   (0,0)  rectangle (1,1);
+  \fill[orange!20] (-1,-1) rectangle (0,0);
+  \fill[violet!15] (0,-1)  rectangle (1,0);
+
+  % border
+  \draw[gray] (-1,-1) rectangle (1,1);
+
+  % central lines (no arrowheads)
+  \draw[line width=0.6pt] (-1,0) -- (1,0);
+  \draw[line width=0.6pt] (0,-1) -- (0,1);
+
+  % central node
+  \node[circle,draw,fill=white,inner sep=1.5pt] at (0,0) {$\pi$};
+
+  % edge labels
+  \node[above] at (0,  1) {$\pi_A$};
+  \node[below] at (0, -1) {$g$};
+  \node[left]  at (-1, 0) {$\pi_B$};
+  \node[right] at ( 1, 0) {$f$};
+
+  % area labels
+  \node at (-0.5,  0.5) {$f/g$};
+  \node at ( 0.5,  0.5) {$A$};
+  \node at (-0.5, -0.5) {$B$};
+  \node at ( 0.5, -0.5) {$C$};
+
+\end{tikzpicture}
+
+***
+
+
+\begin{tikzpicture}[scale=2, >=latex]
+  \usetikzlibrary{decorations.markings}
+  \tikzset{mid->/.style={
+    decoration={markings, mark=at position 0.6 with {\arrow[scale=1.5]{>}}},
+    postaction={decorate}
+  }}
+
   % --- THIRD DIAGRAM (left) ---
   \coordinate (C) at (-0.5, 0);
 
