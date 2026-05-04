@@ -55,7 +55,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 ), [arXiv:1506.07931](https://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. 
 
-* _Quasi-periodic paths and a string 2-group model from the free loop group_, [Journal of Lie Theory](https://www.heldermann.de/JLT/jltcover.htm), 27 (2017), No. 4, 1151-1177. [journal version](https://www.heldermann.de/JLT/JLT27/JLT274/jlt27058.htm) (paywall), [arXiv:1702.01514](https://arxiv.org/abs/1702.01514). Joint with [[Michael Murray]] and [[Christoph Wockel]].  
+* _Quasi-periodic paths and a string 2-group model from the free loop group_, [Journal of Lie Theory](https://jolt.centre-mersenne.org/), 27 (2017), No. 4, 1151-1177. doi:[10.5802/jolt.988](https://doi.org/10.5802/jolt.988), [arXiv:1702.01514](https://arxiv.org/abs/1702.01514). Joint with [[Michael Murray]] and [[Christoph Wockel]].  
 
 * _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923-942, doi:[10.1007/s40062-016-0160-0](https://doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl), [arXiv:1302.7019](https://arxiv.org/abs/1302.7019).
 
