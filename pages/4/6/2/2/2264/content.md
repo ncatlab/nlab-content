@@ -28,7 +28,7 @@ A __Malcev variety__ is the category of $T$-algebras for a Malcev theory $T$, th
 
 ## Proofs of equivalence 
 
-If $R \hookrightarrow X \times Y$ is a binary relation on sets, write $R(x, y)$ to say that $(x, y) \in R$. If $X$, $Y$ are $T$-algebras, then $R$ is an internal relation in $T$-$Alg$ if the conditions $R(x_1, y_1) \wedge \ldots \wedge R(x_n, y_n)$, and $\theta(x_1, \ldots, x_n) = x$, $\theta(y_1, \ldots, y_n) = y$ for any $n$-ary operation $\theta$ of $T$, jointly imply $R(x, y)$. 
+If $R \hookrightarrow X \times Y$ is a binary relation on sets, write $R(x, y)$ to say that $(x, y) \in R$. If $X$, $Y$ are $T$-algebras, then $R$ is an internal relation in $T$-$Alg$ if it forms a $T$-subalgebra of $X \times Y$. In other words, if $R$ is closed under the $T$-algebra operations; concretely, this means for any $n \in \mathbb{N}$ and for any $n$-ary operation $\theta$ of $T$, the condition $R(x_1, y_1) \wedge \ldots \wedge R(x_n, y_n)$ implies $R(\theta(x_1, \ldots, x_n), \theta(y_1, \ldots, y_n))$. 
 
 The set-theoretic composite of two internal relations in $T$-$Alg$ is also an internal relation, and the equality relation is always internal, so we may (and will) apply ordinary set-theoretic reasoning in our proofs below. 
 
@@ -72,11 +72,11 @@ If composition of internal equivalence relations in $T$-$Alg$ is commutative, th
 
 +-- {: .proof} 
 ######Proof
-According to the yoga of (Lawvere) [[Lawvere theory|algebraic theories]], $n$-ary operations are identified with elements of $F(n)$, the free $T$-algebra on $n$ generators (more precisely, the Lawvere theory is the category opposite to the category of finitely generated free $T$-algebras). Thus we must exhibit a suitable element $t$ of $F(3)$. 
+According to the yoga of (Lawvere) [[Lawvere theory|algebraic theories]], $n$-ary operations, considered as natural transformations $U^n \to U$ on the forgetful functor $U: T$-$Alg \to Set$, may be identified with elements of $F(n)$, the free $T$-algebra on $n$ generators (more precisely, the Lawvere theory is the category opposite to the category of finitely generated free $T$-algebras). The generators $x_i$ themselves, considered as elements of the free algebra, correspond to projection operations $\pi_i: U^n \to U$. The proof calls for us to exhibit a suitable element $t$ of $F(3)$. 
 
-Let $x, y, z$ be the generators of $F(3)$, and let $a, b$ be the generators of $F(2)$. Let $\phi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ and $y$ to $a$ and $z$ to $b$, and let $\psi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ to $a$ and $y$ and $z$ to $b$. An operation $t \in F(3)$ is Malcev precisely when 
+Let $x, y, z$ be the generators of $F(3)$, corresponding to the first, second, third projections $U^3 \to U$ respectively; let $a, b$ be the generators of $F(2)$, corresponding to the first and second projections $U^2 \to U$ respectively. Let $\phi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ and $y$ to $a$ and $z$ to $b$, and let $\psi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ to $a$ and $y$ and $z$ to $b$. An operation $t \in F(3)$ is Malcev precisely when 
 
-$$\phi(t) = b \qquad \psi(t) = a$$ 
+$$\phi(t) = b, \qquad \psi(t) = a.$$ 
 
 Let $R$ be the equivalence relation on $F(3)$ given by the kernel pair of $\phi$, and let $S$ be the kernel pair of $\psi$. Then $R(x, y)$ and $S(y, z)$, so $(S \circ R)(x, z)$. Then, since composition of equivalence relations is assumed commutative, $(R \circ S)(x, z)$. This means there exists $t$ such that $S(x, t)$ and $R(t, z)$, or that $\psi(x) = \psi(t)$ and $\phi(t) = \phi(z)$. This completes the proof. 
 =--
