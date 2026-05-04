@@ -67,6 +67,11 @@ Review:
 
 * Maxim Chernodub: *QCD Vacuum as Dual Superconductor: Quark Confinement and Topology*, Handbook of Nuclear Physics, Springer (2023) \[<a href="https://doi.org/10.1007/978-981-19-6345-2_23">doi:10.1007/978-981-19-6345-2_23</a>\]
 
+See also:
+
+* Tereza Mendes, Luis E. Oxman, Gustavo M. Simões, Rafael C. S. Tonhon: *Cartan Fluxes in $SU(3)$ Lattice Gauge Theory* \[<a href="https://arxiv.org/abs/2604.25003">arXiv:2604.25003</a>\]
+
+
 
 #### The DGC-decomposition
  {#ReferencesDGCDecomposition}
