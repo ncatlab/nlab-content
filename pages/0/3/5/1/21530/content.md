@@ -15,9 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -127,6 +126,7 @@ See also:
 
 * Carla Farsi: *K-Theoretical Index Theorems for Good Orbifolds*, Proceedings of the AMS **115** 3 (1992) 769-773 &lbrack;[doi:10.2307/2159225](https://doi.org/10.2307/2159225), [jstor:2159225](https://www.jstor.org/stable/2159225)&rbrack;
 
+* {#AlldridgeGiansiracusa2006} Alexander Alldridge, [[Jeffrey Giansiracusa]]: *Contravariant functoriality for twisted K-theory of stacks* (2006) &lbrack;[[AlldridgeGiansiracusa-Functoriality.pdf:file]]&rbrack;
 
 
 
