@@ -46,8 +46,12 @@ Simple Jordan superalgebras over an [[algebraically closed field]] of [[characte
 
 * M. E. Martin, _Classification of three-dimensional Jordan superalgebras_ ([arXiv:1708.01963](https://arxiv.org/abs/1708.01963))
 
-* M. L. Racine, E. I. Zel’manov, _An octonionic construction of the Kac superalgebra $K_10$_,
-Proc. Amer. Math. Soc. 143 (2015), 1075-1083, ([pdf](https://www.ams.org/journals/proc/2015-143-03/S0002-9939-2014-12327-6/S0002-9939-2014-12327-6.pdf)).
+* M. L. Racine, E. I. Zel’manov, _An octonionic construction of the Kac superalgebra $K_10$_, Proc. Amer. Math. Soc. **143** (2015), 1075-1083, &lbrack;[pdf](https://www.ams.org/journals/proc/2015-143-03/S0002-9939-2014-12327-6/S0002-9939-2014-12327-6.pdf)&rbrack;
+
+* [[Alessio Marrani]], Todor Popov: *Landau levels via Jordan superalgebras* &lbrack;[arXiv:2605.02847](https://arxiv.org/abs/2605.02847)&rbrack;
+
+
+
 
 [[!redirects super Jordan algebra]]
 [[!redirects Jordan superalgebras]]
