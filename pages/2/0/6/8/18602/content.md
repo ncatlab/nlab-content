@@ -194,9 +194,13 @@ The computation of the anomalous magnetic dipole moment of the [[electron]] in [
 
 * {#Scharf95} [[Günter Scharf]], section 3.10, culminating in (3.10.20), of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
-### QCD contribution
+### QCD contributions
 
 #### General
+
+Review:
+
+* Tobias Huber; Fig 1 in: *One-loop corrections in quantum electrodynamics* (2021) &lbrack;[pdf](https://www.hep.physik.uni-siegen.de/teaching/masterlab/manuals/QEDoneloophuber.pdf)&rbrack;
 
 Discussion of [[QCD]] contributions via [[lattice QCD]]:
 
