@@ -745,7 +745,7 @@ An abstract algebraic model of the algebra of Chern's characteristic classes and
 
 On the geometric interpretation of the Chern-Simons invariant for more general principal bundles:
 
-* [[Andreas Čap]], Keegan J. Flood, Thomas Mettler: *Flat extensions and the Chern-Simons 3-form* (2024) &lbrack;[arXiv:2409.12811](https://arxiv.org/abs/2409.12811)&rbrack;
+* [[Andreas Čap]], Keegan J. Flood, Thomas Mettler: *Flat extensions and the Chern-Simons 3-form*, Annales Henri Lebesgue, Volume 8 (2025), pp. 1037-1059. &lbrack;[doi.org/10.5802/ahl.255](https://doi.org/10.5802/ahl.255)&rbrack;&lbrack;[arXiv:2409.12811](https://arxiv.org/abs/2409.12811)&rbrack;
 
 
 [[!redirects Chern-Simons forms]]
