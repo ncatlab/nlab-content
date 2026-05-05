@@ -30,6 +30,9 @@ On the [[large-N limit]] of [[QCD]]:
 
 * [[Alexander Migdal]]: *Geometric QCD II: The Confining Twistor String and Meson Spectrum* &lbrack;[arXiv:2602.21129](https://arxiv.org/abs/2602.21129)&rbrack;
 
+* [[Alexander Migdal]]: *Geometric QCD III: Exact transition amplitudes and the glueball spectrum* &lbrack;[arXiv:2605.02373](https://arxiv.org/abs/2605.02373)^rbrack;
+
+
 
 On [[hydrodynamics]] and [[quantum chromodynamics]] formulated on [[free loop space]]:
 
