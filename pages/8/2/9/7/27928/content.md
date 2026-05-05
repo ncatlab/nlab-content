@@ -424,6 +424,9 @@ See also:
 
 * M. Henningson, *Canonical coordinates for Yang-Mills-Chern-Simons theory*, J. High Energ. Phys. **2024** 138 (2024) \[<a href="https://doi.org/10.1007/JHEP10(2024)138">doi:10.1007/JHEP10(2024)138</a>\]
 
+* F. S. Gama: *Higher-derivative $\mathcal{N}=1$ and $\mathcal{N}=2$ supersymmetric Maxwell-Chern-Simons theories at one loop in superspace* &lbrack;[arXiv:2605.01661](https://arxiv.org/abs/2605.01661)&rbrack;
+
+
 
 
 
