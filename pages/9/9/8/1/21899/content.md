@@ -48,6 +48,10 @@ On the [[octonionic projective plane]] ([[Cayley plane]]):
 
 * Daniele Corradetti, [[Alessio Marrani]], Francesco Zucconi: *A minimal and non-alternative realisation of the Cayley plane* &lbrack;[arXiv:2309.00967](https://arxiv.org/abs/2309.00967)&rbrack;
 
+On [[Jordan superalgebras]]:
+
+* [[Alessio Marrani]], Todor Popov: *Landau levels via Jordan superalgebras* &lbrack;[arXiv:2605.02847](https://arxiv.org/abs/2605.02847)&rbrack;
+
 
 
 category: people
