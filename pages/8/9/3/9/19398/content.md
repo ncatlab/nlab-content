@@ -497,7 +497,13 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 
 * {#Craciun13} Gheorghe Craciun, *Most homeomorphisms with a fixed point have a Cantor set of fixed points*, Archiv der Mathematik volume 100, pages 95–99 (2013) ([doi:10.1007/s00013-012-0466-z](https://doi.org/10.1007/s00013-012-0466-z))
 
-### Classification of free involutions:
+See also:
+
+* Ian Hambleton, Ergun Yalcin: *Equivariant CW-complexes homotopy equivalent to spheres: a survey* &lbrack;[arXiv:2605.02760](https://arxiv.org/abs/2605.02760)&rbrack;
+
+
+
+### Classification of free involutions
 
 * {#Livesay60} [[George R. Livesay]]:  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
 
