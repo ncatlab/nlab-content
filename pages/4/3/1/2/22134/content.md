@@ -142,6 +142,12 @@ See also:
 
 * Yuanjie Ren, [[Peter Shor]], *Topological quantum computation assisted by phase transitions* \[<a href="https://arxiv.org/abs/2311.00103">arXiv:2311.00103</a>\]
 
+* [[Sergey Mironov]], [[Andrey Morozov]]: *Entangling gates from cabling of knots*, Eur. Phys. J. C **85** 799 (2025) \[<a href="https://doi.org/10.1140/epjc/s10052-025-14492-4">doi:10.1140/epjc/s10052-025-14492-4</a>, [arXiv:2605.04016](https://arxiv.org/abs/2605.04016)\]
+
+* [[Sergey Mironov]], [[Andrey Morozov]]: *Entangling gates for the $SU(N)$ anyons* \[<a href="https://arxiv.org/abs/2605.04016">arXiv:2605.04016</a>\]
+
+
+
 
 
 \linebreak
