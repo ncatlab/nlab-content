@@ -33,7 +33,11 @@ Reviewed in:
 
 On the [[Verlinde formula]] for [[logarithmic CFTs]]:
 
-* [[David Ridout]], [[Simon Wood]], *The Verlinde formula in logarithmic CFT*,  J. Phys.: Conf. Ser. **597** 012065 $[$[arXiv:1409.0670](https://arxiv.org/abs/1409.0670), [doi:10.1088/1742-6596/597/1/012065](https://doi.org/10.1088/1742-6596/597/1/012065)$]$
+* [[David Ridout]], [[Simon Wood]], *The Verlinde formula in logarithmic CFT*,  J. Phys.: Conf. Ser. **597** 012065 &lbrack;[arXiv:1409.0670](https://arxiv.org/abs/1409.0670), [doi:10.1088/1742-6596/597/1/012065](https://doi.org/10.1088/1742-6596/597/1/012065)&rbrack;
+
+Further on [[logarithmic CFT]]:
+
+* Xueting Li, Damodar Rajbhandari, [[David Ridout]]: *Bosonic Ghost Correlators: A Case Study* &lbrack;[arXiv:2605.02941](https://arxiv.org/abs/2605.02941)&rbrack;
 
 
 
