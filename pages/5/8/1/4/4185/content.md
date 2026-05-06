@@ -73,6 +73,10 @@ On [[star-autonomous categories]] with an eye towards apication in [[2d CFT]] (t
 
 * [[Jürgen Fuchs]], [[Gregor Schaumann]], [[Christoph Schweigert]], [[Simon Wood]], *Grothendieck-Verdier duality in categories of bimodules and weak module functors* &lbrack;[arXiv:2306.17668](https://arxiv.org/abs/2306.17668)&rbrack;
 
+On the [[modular functor]] for [[string-net models]] via [[double categories]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]]: *Modular functors and CFT correlators via double categories* &lbrack;[arXiv:2605.03708](https://arxiv.org/abs/2605.03708)&rbrack;
+
 
 ## Related entries
 
