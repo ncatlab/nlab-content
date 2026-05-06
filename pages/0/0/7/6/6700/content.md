@@ -314,6 +314,10 @@ Relation to [[factorization homology]] of [[surfaces]]:
 
 * [[Adrien Brochier]], [[Lukas Woike]]: *A Classification of Modular Functors via Factorization Homology* &lbrack;[arXiv:2212.11259](https://arxiv.org/abs/2212.11259)&rbrack;
 
+On the modular functor for [[string-net]] models via [[double categories]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]]: *Modular functors and CFT correlators via double categories* &lbrack;[arXiv:2605.03708](https://arxiv.org/abs/2605.03708)&rbrack;
+
 
 
 [[!redirects modular functors]]
