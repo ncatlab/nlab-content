@@ -94,7 +94,14 @@ On the [[membrane]] analog related to the [[Yetter model]]  for [[strict 2-group
 
 * Alex Bullivant, [[Clement Delcamp]]. *Excitations in strict 2-group higher gauge models of topological phases* (2019). ([arXiv:1909.07937](https://arxiv.org/abs/1909.07937)).
 
-* [[Clement Delcamp]]. *Tensor network approach to electromagnetic duality in (3+1)d topological gauge models* (2021). ([arXiv:2112.08324](https://arxiv.org/abs/2112.08324)).
+* [[Clement Delcamp]]. *Tensor network approach to electromagnetic duality in (3+1)d topological gauge models* &lbrack;[arXiv:2112.08324](https://arxiv.org/abs/2112.08324)&rbrack;
+
+On the [[modular functor]] for string-net models via [[double categories]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]]: *Modular functors and CFT correlators via double categories* &lbrack;[arXiv:2605.03708](https://arxiv.org/abs/2605.03708)&rbrack;
+
+
+
 
 
 
