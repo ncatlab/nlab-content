@@ -105,6 +105,7 @@ See also:
 
 * Iao-Fai Io, Fu-Hsiang Huang, Chang-Tse Hsieh: *Non-Hermitian free-fermion critical systems and logarithmic conformal field theory* &lbrack;[arXiv:2602.02649](https://arxiv.org/abs/2602.02649)&rbrack;
 
+* Xueting Li, Damodar Rajbhandari, [[David Ridout]]: *Bosonic Ghost Correlators: A Case Study* &lbrack;[arXiv:2605.02941](https://arxiv.org/abs/2605.02941)&rbrack;
 
 
 
