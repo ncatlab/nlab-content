@@ -17,9 +17,18 @@ On [[indexed categories]]:
 
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
+On links between topos theory and cohomology jointly with [[André Joyal]]:
+
+* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **30** AMS 1984.
+
+* {#W83}[[Gavin Wraith]], _Toposes and simplicial sets: the cohomological connection_ , pp.281-290 in _Category theoretic methods in geometry_ , no.**35** Aarhus Univ. Var. Publ. Ser. 1983.
+
+
 ## Related entries
 
 * [[plethory]]
+
+* [[natural homotopy]]
 
 
 category: people
