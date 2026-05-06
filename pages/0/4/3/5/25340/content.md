@@ -37,5 +37,12 @@ On [[quantum measurement]] of [[anyons]]:
 
 * [[Andrey Morozov]], *On measuring the topological charge of anyons* &lbrack;[arXiv:2403.07847](https://arxiv.org/abs/2403.07847)&rbrack;
 
+On [[quantum entanglement|entangling]] [[quantum gates]] in [[topological quantum computing]]:
+
+* [[Sergey Mironov]], [[Andrey Morozov]]: *Entangling gates from cabling of knots*, Eur. Phys. J. C **85** 799 (2025) \[<a href="https://doi.org/10.1140/epjc/s10052-025-14492-4">doi:10.1140/epjc/s10052-025-14492-4</a>, [arXiv:2605.04016](https://arxiv.org/abs/2605.04016)\]
+
+* [[Sergey Mironov]], [[Andrey Morozov]]: *Entangling gates for the $SU(N)$ anyons* \[<a href="https://arxiv.org/abs/2605.04016">arXiv:2605.04016</a>\]
+
+
 
 category: people
