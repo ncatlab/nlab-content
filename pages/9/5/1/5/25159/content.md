@@ -16,5 +16,9 @@ Survey of [[algebra|algebraic]] [[structures]] in [[2d conformal field theory]] 
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
+On the [[modular functor]] for [[string-net models]] via [[double categories]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]]: *Modular functors and CFT correlators via double categories* &lbrack;[arXiv:2605.03708](https://arxiv.org/abs/2605.03708)&rbrack;
+
 
 category: people
