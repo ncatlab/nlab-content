@@ -89,7 +89,7 @@ Derivation from [[open string field theory]] is discussed in
 * [[Harold C. Steinacker]], [[Tung Tran]], *Spinorial description for Lorentzian $\mathfrak{hs}$-IKKT* &lbrack;[arXiv:2312.16110](https://arxiv.org/abs/2312.16110)&rbrack;
 
 
-Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
+Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model: 
 
 * H. Aoki, [[Noboyuki Ishibashi]], S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
@@ -109,7 +109,7 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 
 
-Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
+Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model:
 
 * M. Fukuma, [[Hikaru Kawai]], Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
 
@@ -182,6 +182,9 @@ See also
 * [[Harold C. Steinacker]]: *Modified gravity at large scales on quantum spacetime in the IKKT model* &lbrack;[arXiv:2601.08031](https://arxiv.org/abs/2601.08031)&rbrack;
 
 * Yuhma Asano: *Path integral for the closed superstring and the matrix model* &lbrack;[arXiv:2604.25052](https://arxiv.org/abs/2604.25052)&rbrack;
+
+* Tetsuyuki Muramatsu: *On the Algebraic Origin of Four-Dimensional Space-time in the IIB Matrix Model: Dimensional Selection via Rigid Supersymmetry* &lbrack;[arXiv:2605.03611](https://arxiv.org/abs/2605.03611)&rbrack;
+
 
 
 
