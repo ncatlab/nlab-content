@@ -129,6 +129,8 @@ See also
 
 * Eunwoo Lee: *BMN-like Matrix Models* &lbrack;[arXiv:2602.22163](https://arxiv.org/abs/2602.22163)&rbrack;
 
+* [[Badis Ydri]]: *Molien--Weyl Singlet Counting and BFSS_2--Factorization in Gaussian Matrix QM* &lbrack;[arXiv:2605.04621](https://arxiv.org/abs/2605.04621)&rbrack;
+
 
 
 
