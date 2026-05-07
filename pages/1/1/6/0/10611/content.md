@@ -163,7 +163,7 @@ $$
 ## References
  {#References}
 
-### In philosopy
+### In philosophy
 
 Origin in [[philosophy]]:
 
