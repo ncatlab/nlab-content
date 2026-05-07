@@ -21,6 +21,8 @@ On [[local field theory|locality]] of [[extended functorial field theory|extende
 
 On the [[cobordism hypothesis]] for [[extended functorial field theory|extended]] [[functorial field theory]] equipped with geometric structure (such as [[conformal field theory]] etc.):
 
+* [[Daniel Grady]], [[Dmitri Pavlov]]: *Higher categories of bordisms with geometric structures* &lbrack;[arXiv:2605.03453](https://arxiv.org/abs/2605.03453)&rbrack;
+
 * [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
 
 Review:
