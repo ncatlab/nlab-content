@@ -10,6 +10,7 @@
 
 ## Selected writings
 
+
 On [[generalized Spin(7)-manifold|generalized]] [[Spin(7)-manifolds]] and [[M-theory on G₂-manifolds]]:
 
 * [[Mariana Graña]], [[Carlos S. Shahbazi]], [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 &lbrack;[arXiv:1405.3698](http://arxiv.org/abs/1405.3698)&rbrack;
@@ -43,12 +44,11 @@ On variants of [[differential concretification|differentially concretified]] [[i
 
 * [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
 
-On [[differential spinors]] (such as [[Killing spinors]]):
+On [[differential spinors]] (such as [[Killing spinors]]) with respect to [[torsion of a metric connection|torsion]]  understood as [[connections on bundle gerbes]] (as occurs in in [[supergravity]]):
 
 * [[Carlos S. Shahbazi]], *Differential spinors and Kundt three-manifolds with skew-torsion* &lbrack;[arXiv:2405.03756](https://arxiv.org/abs/2405.03756)&rbrack;
 
 * [[Carlos S. Shahbazi]]: *Torsion parallel spinors on Lorentzian four-manifolds and supersymmetric evolution flows on bundle gerbes*, PhD thesis, Hamburg (2025) &lbrack;[arXiv:2507.06228](https://arxiv.org/abs/2507.06228)&rbrack;
-
 
 
 
