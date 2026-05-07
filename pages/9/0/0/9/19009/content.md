@@ -8,6 +8,10 @@
 
 ## Selected writings
 
+On [[D=4 N=2 supergravity]] and [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri: *$N=2$ Supergravity and $N=2$ Super Yang-Mills Theory on General Scalar Manifolds: Symplectic Covariance, Gaugings and the Momentum Map*, J. Geom. Phys. **23** (1997) 111--189 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)00002-8">doi:10.1016/S0393-0440(97)00002-8</a>, [arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032)&rbrack;
+
 Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of their [[AdS-CFT duality|AdS-CFT dual]] [[gravity]]/[[string theory]] incarnation:
 
 * [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
