@@ -44,7 +44,7 @@ $$
   \mathrlap{\,.}
 $$
 
-The contrapositive rule is valid in [[intuitionistic logic]], not just in [[classical logic]]; however, the reverse rule is valid only in classical logic. 
+The contrapositive rule is valid in [[intuitionistic logic]], not just in [[classical logic]]; however, the reverse rule is valid only in classical logic (apply the reverse rule to the consequent of $\neg{P}\to(\neg{Q}\to\neg{P})$; the dreaded $\neg\neg{P}\to{P}$ then easily follows from $\neg\neg{P}\to(\neg{P}\to\neg\neg\neg{P})$ with another use of the reverse rule).
 
 Another intuitionistically valid rule, this one reversible, is
 $$ 
