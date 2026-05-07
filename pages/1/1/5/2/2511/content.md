@@ -56,6 +56,10 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]] and identifying [[
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
+On [[D=4 N=2 supergravity]] and [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri: *$N=2$ Supergravity and $N=2$ Super Yang-Mills Theory on General Scalar Manifolds: Symplectic Covariance, Gaugings and the Momentum Map*, J. Geom. Phys. **23** (1997) 111--189 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)00002-8">doi:10.1016/S0393-0440(97)00002-8</a>, [arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032)&rbrack;
+
 On the [[M2-brane]] [[Green-Schwarz sigma-model|sigma-model]] on a [[target space|target]]-[[super AdS spacetime]]:
 
 * [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], §4.1 in: *The $Osp(8|4)$ singleton action from the supermembrane*, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](https://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
