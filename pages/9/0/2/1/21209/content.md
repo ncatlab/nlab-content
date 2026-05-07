@@ -7,4 +7,8 @@ Review of [[matrix models]] in [[string theory]]/[[M-theory]] ([[BFSS matrix mod
 
 * {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
+Further discussion:
+
+* [[Badis Ydri]]: *Molien--Weyl Singlet Counting and BFSS_2--Factorization in Gaussian Matrix QM* &lbrack;[arXiv:2605.04621](https://arxiv.org/abs/2605.04621)&rbrack;
+
 category: people
