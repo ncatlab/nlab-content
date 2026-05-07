@@ -292,6 +292,9 @@ On [[supergravity]] [[KK-compactification|KK-compactified]] (and [[branes]] [[wr
 
 * K. C. Matthew Cheung, Jacob H. T. Fry, [[Jerome P. Gauntlett]], [[James Sparks]], *M5-branes wrapped on four-dimensional orbifolds*, J. High Energ. Phys. **2022** 82 (2022) &lbrack;[arXiv:2204.02990](https://arxiv.org/abs/2204.02990), <a href="https://doi.org/10.1007/JHEP08(2022)082">doi:10.1007/JHEP08(2022)082</a>&rbrack;
 
+* Igal Arav, [[Jerome P. Gauntlett]], Jaeha Park, Matthew M. Roberts, Christopher Rosen: *Spindle solutions with hyperscalars in $D=4$ gauged supergravity* &lbrack;[arXiv:2605.04140](https://arxiv.org/abs/2605.04140)&rbrack;
+
+
 [[!redirects spindle orbifolds]]
 
 
