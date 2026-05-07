@@ -1,8 +1,8 @@
 
 
-* [personal page](https://gauss.math.yale.edu/~sr2532/)
+* [personal page](https://www.samraskin.net/)
 
-* [institute page](https://fas.yale.edu/sam-raskin)
+* [institute page](https://math.yale.edu/profile/sam-raskin)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=183268)
 
