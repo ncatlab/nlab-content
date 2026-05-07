@@ -58,6 +58,9 @@ On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau m
 * {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
 
 
+On [[D=4 N=2 supergravity]] and [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri: *$N=2$ Supergravity and $N=2$ Super Yang-Mills Theory on General Scalar Manifolds: Symplectic Covariance, Gaugings and the Momentum Map*, J. Geom. Phys. **23** (1997) 111--189 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)00002-8">doi:10.1016/S0393-0440(97)00002-8</a>, [arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032)&rbrack;
 
 More on the [[supergravity Lie 3-algebra]] (see also at *[[M-theory supersymmetry algebra]]*):
 
