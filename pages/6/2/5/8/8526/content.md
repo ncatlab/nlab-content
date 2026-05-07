@@ -113,11 +113,13 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 
 * [[Taylor Dupuy]], [[Anton Hilado]], _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, arXiv:[2004.13108](https://arxiv.org/abs/2004.13108)
 
-A project to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
+A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
 
 * ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
 
 * [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
+
+* Julian Thorne: *[A Glimpse of Resolution: Computer Formalization Targets Decades-Old Mathematical Dispute](https://www.bode-living.com/2026/04/10/a-glimpse-of-resolution-computer-formalization-targets-decades-old-mathematical-dispute/?srsltid=AfmBOorFe26a-hwbtFzsa4bJxiTvZdAxQ821n909ZF1hkhov9mx0BhAs)*, (April 10, 2026)
 
 
 [[!redirects IUTT]]
