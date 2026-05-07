@@ -39,6 +39,9 @@ On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau m
 
 * [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097), <a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>&rbrack;
 
+On [[D=4 N=2 supergravity]] and [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri: *$N=2$ Supergravity and $N=2$ Super Yang-Mills Theory on General Scalar Manifolds: Symplectic Covariance, Gaugings and the Momentum Map*, J. Geom. Phys. **23** (1997) 111--189 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)00002-8">doi:10.1016/S0393-0440(97)00002-8</a>, [arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032)&rbrack;
 
 On [[D=6 supergravity]]:
 
