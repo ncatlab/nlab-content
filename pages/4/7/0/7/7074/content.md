@@ -72,6 +72,23 @@ equivalences as separate data, but takes them to be the right homot
 equivs.  So for the type-theoretic arguments to apply, "univalent
 fibration" should be defined using right homot equivs.
 
+## Quotient types in programming languages
+
+Quotient Haskell is an extension of [[Haskell]] with support for lightweight quotient types.
+
+For example, the `List` [[functor]] can be defined in terms of the `Tree` functor by requiring that the node
+constructor is associative and has an identity element.
+
+```haskell
+data Tree a = Empty | Leaf a | Join (Tree a) (Tree a)
+
+data List a
+= Tree a
+|/ idl :: (x : List a) -> Join Empty x == x
+|/ idr :: (x : List a) -> Join x Empty == x
+|/ assoc :: (x : List a) -> (y : List a) -> (z : List a) -> Join (Join x y) z == Join x (Join y z)
+```
+
 ## Related concepts
 
 * [[setoid]]/[[Bishop set]]
