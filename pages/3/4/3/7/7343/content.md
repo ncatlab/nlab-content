@@ -1,4 +1,4 @@
-[[!redirects N=2 D=4 super Yang-Mills theory]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -72,6 +72,8 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ### Introductions and surveys
  {#Surveys}
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri: *$N=2$ Supergravity and $N=2$ Super Yang-Mills Theory on General Scalar Manifolds: Symplectic Covariance, Gaugings and the Momentum Map*, J. Geom. Phys. **23** (1997) 111--189 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)00002-8">doi:10.1016/S0393-0440(97)00002-8</a>, [arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032)&rbrack;
 
 
 * [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
@@ -208,6 +210,9 @@ and via [[F-theory]] in
 [[!include dual superconductor model -- references]]
 
 
+[[!redirects N=2 D=4 super Yang-Mills theory]]
+
+
 
 [[!redirects N=2 D=4 sYM]]
 
@@ -216,3 +221,5 @@ and via [[F-theory]] in
 
 [[!redirects N=2 super Yang-Mills theory]]
 [[!redirects N=2 super Yang-Mills theories]]
+
+
