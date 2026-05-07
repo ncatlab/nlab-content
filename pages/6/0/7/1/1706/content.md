@@ -857,6 +857,9 @@ Higher cobordisms with geometric [[structure]] (i.e. for non-topological [[exten
 
 * {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* &lbrack;[arXiv:2011.01208](https://arxiv.org/abs/2011.01208)&rbrack;
 
+* [[Daniel Grady]], [[Dmitri Pavlov]]: *Higher categories of bordisms with geometric structures* &lbrack;[arXiv:2605.03453](https://arxiv.org/abs/2605.03453)&rbrack;
+
+
 and full proof of the cobordism hypothesis in this geometric generality (hence for non-topological [[extended quantum field theory|extended]] [[FQFT]] such as [[conformal field theory]]) is claimed in:
 
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
