@@ -278,7 +278,7 @@ $$Ab^{op} \to CompAb$$
 
 $$CompAb^{op} \to Ab$$ 
 
-where [[Ab]] is the category of ([[discrete topological space|discrete topological]]) groups and $CompAb$ is the category of abelian [[Hausdorff space|Hausdorff]] [[compact topological groups]], each 
+where [[Ab]] is the category of ([[discrete topological space|discrete topological]]) abelian groups and $CompAb$ is the category of abelian [[Hausdorff space|Hausdorff]] [[compact topological groups]], each 
 embedded in $LocCompAb$ in the evident way. 
 
 The [[Fourier transform]] on abelian [[locally compact groups]] is formulated in terms of Pontrjagin duals (see below). 
