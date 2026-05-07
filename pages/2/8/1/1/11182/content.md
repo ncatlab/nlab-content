@@ -202,6 +202,9 @@ Suppose $\omega$ is a 1-cojet differential form and that
 
 Then the genuine integral of $\omega$ over any differentiable curve exists.
 =--
+
+There is probably a generalization of this to $k$-cojet forms, involving somewhat more complicated vanishing and differentiability conditions.
+
 +-- {: .proof}
 ###### Proof
 The Riemann sums in the definition of the genuine integral simplify in the case of a 1-cojet form to
@@ -224,7 +227,7 @@ The hypotheses of this theorem are a bit restrictive, but they include both the 
 
 * Forms such as $\sqrt{\mathrm{d}x}$, whose genuine integral also diverges.  These are excluded by requirement (2).
 
-There are, however, some cogerm forms that are not 1-cojet forms, nor are they $\mathrm{o}(\mathrm{d}x)$, yet their genuine integrals exist.  An example is $\frac {|{(\mathrm{d}x \cdot \mathrm{d}x) \,\mathrm{d}^2x - (\mathrm{d}x \cdot \mathrm{d}^2x) \,\mathrm{d}x}|} {|\mathrm{d}x|^3}$, whose genuine integral over a curve is the total curvature along the curve.  There is probably a generalization of the above existence theorem to $k$-cojet forms, involving somewhat more complicated vanishing and differentiability conditions.
+There are, however, some cogerm forms that are not 1-cojet forms, nor are they $\mathrm{o}(\mathrm{d}x)$, yet their genuine integrals exist.  An example is $\frac {|{(\mathrm{d}x \cdot \mathrm{d}x) \,\mathrm{d}^2x - (\mathrm{d}x \cdot \mathrm{d}^2x) \,\mathrm{d}x}|} {|\mathrm{d}x|^3}$, whose genuine integral over a curve is the total curvature along the curve.
 
 
 ### Parametrization invariance
