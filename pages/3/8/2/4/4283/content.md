@@ -93,7 +93,7 @@ Discussion via [[vertex operator algebras]]:
 
 Discussion in the context of [[holographic entanglement entropy]]:
 
-* Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ &lbrack;[arXiv:1905.10487](https://arxiv.org/abs/1905.10487)&rbrack;
+* [[Horacio Casini]], Marina Huerta, [[Javier M. Magan]], Diego Pontello: _Entanglement entropy and superselection sectors I. Global symmetries_,  J. High Energ. Phys. **2020** 14 (2020)  &lbrack;<a href="https://doi.org/10.1007/JHEP02(2020)014">doi:10.1007/JHEP02(2020)014</a>, [arXiv:1905.10487](https://arxiv.org/abs/1905.10487)&rbrack;
 
 In the context of the [[Aharonov-Bohm effect]]:
 
