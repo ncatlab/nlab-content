@@ -1,7 +1,7 @@
 | [[algebra|algebraic]] [[mathematical structure|structure]] | [[oidification]] |  
 |----------------|----------|
 |[[magma]]|[[magmoid]]|
-|[[pointed set|pointed]] [[magma]] with an [[endofunction]]|[[setoid]]/[[Bishop set]]|
+|[[pointed set|pointed]] [[magma]] with an [[endofunction]]|[[setoid]]/[[Bishop set]]/[[pseudo-equivalence relation]]|
 |[[unital magma]]|[[unital magmoid]]|
 |[[quasigroup]]|[[quasigroupoid]]|
 |[[loop (algebra)|loop]]|[[loopoid]]|
