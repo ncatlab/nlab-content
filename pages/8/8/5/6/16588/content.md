@@ -36,6 +36,9 @@ On the [[Starobinsky model of cosmic inflation]] and its embedding into [[superg
 * {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
 
 
+* [[Ignatios Antoniadis]], Chrysoula Markou, [[Dimitri V. Nanopoulos]]: *Ultraviolet completion of Starobinsky inflation* &lbrack;[arXiv:2605.05295](https://arxiv.org/abs/2605.05295)&rbrack;
+
+
 ## Related entries
 
 * [[Starobinsky model of cosmic inflation]]
