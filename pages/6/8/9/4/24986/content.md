@@ -13,5 +13,9 @@ On quasi-[[phenomenology|realistic]] "flipped" [[SU(5)|$SU(5)$]]-[[GUT]],  model
 
 * {#AntoniadisNanopoulosRizos21a} [[Ignatios Antoniadis]], [[Dimitri Nanopoulos]], [[John Rizos]], *Particle physics and cosmology of the string derived no-scale flipped $SU(5)$*,  Eur. Phys. J. C **82** (2022) 377  &lbrack;[arXiv:2112.01211](https://arxiv.org/abs/2112.01211), [doi:10.1140/epjc/s10052-022-10353-6](https://doi.org/10.1140/epjc/s10052-022-10353-6)&rbrack;
 
+On embedding the [[Starobinsky model of cosmic inflation]] into [[supergravity]]:
+
+* [[Ignatios Antoniadis]], Chrysoula Markou, [[Dimitri V. Nanopoulos]]: *Ultraviolet completion of Starobinsky inflation* &lbrack;[arXiv:2605.05295](https://arxiv.org/abs/2605.05295)&rbrack;
+
 category: people
 
