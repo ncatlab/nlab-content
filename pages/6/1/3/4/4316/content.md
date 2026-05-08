@@ -241,6 +241,13 @@ Approaches using DHR theory to rigorously derive [[anyon]] [[braided monoidal ca
 * [[Alex Bols]]: *Sector theory for Levin-Wen models*, [talk at](CQTS#BolsNov2025) *[[CQTS]]* (Nov 2025) &lbrack;slides:[[Bols-CQTS-Nov2025.pdf:file]]&rbrack;
   > (in the [[Levin-Wen model]])
 
+Discussion in relation to the [[chiral anomaly]] and to [[generalized global symmetries]]:
+
+* Valentin Benedetti, [[Horacio Casini]], [[Javier M. Magan]]: *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem*, SciPost Phys. **18** (2025) 041 &lbrack;[doi:10.21468/SciPostPhys.18.2.041](https://doi.org/10.21468/SciPostPhys.18.2.041), [arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
+
+* {#CasiniMagan2025} [[Horacio Casini]], [[Javier M. Magan]]: *A generalization of the DHR theorem for higher form symmetries* &lbrack;[arXiv:2511.21810](https://arxiv.org/abs/2511.21810)&rbrack;
+
+
 
 [[!redirects DHR analysis]]
 [[!redirects DHR theory]]
