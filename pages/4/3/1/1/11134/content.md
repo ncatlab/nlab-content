@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _state monad_ is the name for the [[monad in computer science]] which is used to implement the functionality of read/write on a global "mutable state" (a global variable) in the context of [[functional programming languages]].
+The (global) _state monad_ is the name for the [[monad in computer science]] which is used to implement the functionality of read/write on a global "mutable state" (a global variable) in the context of [[functional programming languages]].
 
 A [[functional program]] with 
 
@@ -123,6 +123,30 @@ which first reads-in the state of a global natural number variable and then over
 
 (This is essentially the example from [Benton, Hughes & Moggi 2002 p. 68 & 71](#BentonHughesMoggi02))
 
+## Algebras
+
+For a finite set $W$, the state monad on [[Set]] is the monad of free algebras for the following [[algebraic theory]] (If $W$ is not finite, then this may be considered as an infinitary algebraic theory):
+
+1. For each $w\in W$ a unary operation $write[w]$
+2. An operation of arity $W$ called $read$
+
+Satisfying the following equations:
+
+1. $write[w](write[w'](x)) = write[w'](x)$
+2. $read(\lambda w. write[w](x)) = x$
+3. $write[w](read(f)) = write[w](f(w))$
+
+Which intuitively encode properties of (single-threaded) stateful computation. (1) says that a second write overwrites the first. (2) says that reading the current state and then writing it back does nothing. (3) says that reads actually read the value that has most recently been written.
+
+An algebra of this theory can be called a ($W$-)state algebra.
+Stateful functions $W \to W \times X$ carry a state-algebra structure with
+
+1. $write[w](p)(w') = p(w)$
+2. $read(p)(w) = p(w)(w)$
+
+And this is the free state algebra on $X$. More generally, algebras of the state monad are equivalent to state algebras, as are homomorphisms.
+
+The algebraic theory of state for $W$ can be proven to be an extension of the algebraic theory of the [[reader monad]] with parameter $W$, corresponding to a [[monad morphism]] from the reader monad to the state monad, i.e., the inclusion of read-only state into read/write state.
 
 ## Properties
 
@@ -178,6 +202,7 @@ Original discussion of the state/side-effect monad as a [[monad in computer scie
 
 * {#BentonHughesMoggi02} [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], Ex. 42 in: *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
 
+A discussion of the algebraic theory of state:
 * {#PlotkinPower02} [[Gordon Plotkin]], [[John Power]], Section 3 of: *Notions of computation determine monads* In: M. Nielsen, U. Engberg, (eds.) FOSSACS 2002. LNCS, Lecture Notes in Computer Science **2303**,  Springer (2002) 342-356 &lbrack;[doi:10.1007/3-540-45931-6_24p](https://doi.org/10.1007/3-540-45931-6_24)&rbrack;
 
 Exposition:
