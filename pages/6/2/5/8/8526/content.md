@@ -78,6 +78,8 @@ TODO: FINISH
 
 ## References
 
+### General
+
 * {#IUTTI} [[Shinichi Mochizuki]], _Inter-universal Teichmüller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
 
 * {#IUTTII} [[Shinichi Mochizuki]], _Inter-universal Teichmüller theory II, Hodge-Arakelov-theoretic evaluation_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20II.pdf))
@@ -87,7 +89,7 @@ TODO: FINISH
 * {#IUTTIV} [[Shinichi Mochizuki]], _Inter-universal Teichmüller theory IV, Log-volume computations and set-theoretic foundations_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20IV.pdf))
  
 
-Surveys include
+Surveys:
 
 * [[Shinichi Mochizuki]], _Panoramic overview of inter-universal Teichmuller theory_, [pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Panoramic%20Overview%20of%20Inter-universal%20Teichmuller%20Theory.pdf)
 
@@ -113,6 +115,9 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 
 * [[Taylor Dupuy]], [[Anton Hilado]], _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, arXiv:[2004.13108](https://arxiv.org/abs/2004.13108)
 
+
+### Formalization attempts
+
 A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
 
 * ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
@@ -120,6 +125,11 @@ A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]
 * [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
 
 * Julian Thorne: *[A Glimpse of Resolution: Computer Formalization Targets Decades-Old Mathematical Dispute](https://www.bode-living.com/2026/04/10/a-glimpse-of-resolution-computer-formalization-targets-decades-old-mathematical-dispute/?srsltid=AfmBOorFe26a-hwbtFzsa4bJxiTvZdAxQ821n909ZF1hkhov9mx0BhAs)*, (April 10, 2026)
+
+However,
+
+* Yuichiro Hoshi, [March 2026](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f), [here](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f#:~:text=with%20regard%20to%20the%20logic):
+  > "with regard to the logic by which Corollary 3.12 is derived from Theorem 3.11 as I mentioned earlier, I must take seriously the fact that many members of the LANA Project still feel that there is some insurmountable wall there."
 
 
 [[!redirects IUTT]]
