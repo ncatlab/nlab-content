@@ -1,23 +1,23 @@
 The *Categories mailing list* is a [mailing list](https://en.wikipedia.org/wiki/Mailing_list) on the topic of *[[category theory]]*. 
 
-The list commenced in 1990. From 1990 to 2023 it was hosted by Mount Allison University (categories@mta.ca) and moderated by [[Bob Rosebrugh]]. In 2023 the mailing list was transitioned to Macquarie University (`categories@mq.edu.au`) and is currently moderated by [[Jean-Simon Lemay]].
+The list commenced in 1990. From 1990 to 2023 it was hosted by Mount Allison University (categories@mta.ca) and moderated by [[Bob Rosebrugh]]. In 2023 the mailing list was transitioned to Macquarie University (`categories-list@categories.org.au`) and is currently moderated by [[Jean-Simon Lemay]].
 
 The journal *[[Theory and Applications of Categories]]* was [launched on the mailing list in January 1995](https://www.mta.ca/~cat-dist/catlist/1999/elec-journal).
 
 ## Links
 
 
-The link for the current categories mailing list is available on [[Jean-Simon Lemay]]'s (current moderator) website:
+The categories mailing list is hosted at:
 
-* [sites.google.com/view/jspl-personal-webpage/](https://sites.google.com/view/jspl-personal-webpage/)
+* [categories.org.au/](https://categories.org.au/)
 
-To (un)subscribe, email "subscribe" ("unsubscribe") to: 
+From there, you can subscribe or unsubscribe or browse the archives. You can also (un)subscribe by sending an email to:
 
-* `js.lemay@mq.edu.au` 
+* `categories-list-join@categories.org.au` 
 
 or 
 
-* `categories-admin@mq.edu.au`
+* `categories-list-leave@categories.org.au`
 
 Mailing list emails are also appear on the [[Category Theory Zulip]].
 
