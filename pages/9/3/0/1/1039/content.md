@@ -71,6 +71,17 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 [[!include homotopy n-types - table]]
 
 
+## References
+
+See also:
+
+* Ponaki Das, Sainkupar Marwein Mawiong: *On Weakly Contractible Non-Contractible Finite Topological Spaces of Ten Points* &lbrack;[arXiv:2605.06155](https://arxiv.org/abs/2605.06155)&rbrack;
+
+
+
+
+
+
 [[!redirects contractible]]
 
 [[!redirects contractible space]]
