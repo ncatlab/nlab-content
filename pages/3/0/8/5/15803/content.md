@@ -106,9 +106,9 @@ A detailed mathematical derivation is in
 
 * [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of: _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
-See also:
+Discussion via the [[Doplicher-Roberts reconstruction theorem]] and rejecting claims that the chiral anomaly is related to a "[[noninvertible symmetry]]":
 
-* Valentin Benedetti, Horacio Casini, Javier M. Magan, *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem* &lbrack;[arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
+* Valentin Benedetti, [[Horacio Casini]], [[Javier M. Magan]]: *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem*, SciPost Phys. **18** (2025) 041 &lbrack;[doi:10.21468/SciPostPhys.18.2.041](https://doi.org/10.21468/SciPostPhys.18.2.041), [arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
 
 
 Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from [[chiral symmetry breaking]] :
