@@ -5,9 +5,9 @@
 
 ## Idea
 
-The trace of a [[category]] (or more generally of an endo[[bimodule]] or endo[[profunctor]]) is a [[categorification]] of the [[trace]] of a linear [[endomorphism]] on a finite dimensional [[vector space]] (that is a [[matrix]]). 
+The notion of *trace* of a [[category]] (or more generally of an endo-[[bimodule]] or endo-[[profunctor]]) is a [[categorification]] of that of the [[trace]] of a [[linear map|linear]] [[endomorphism]] on a [[finite dimensional vector space]] (hence equivalently of a square [[matrix]]). 
 
-A notion of trace is generally definable for maps in a [[compact closed category]] (even more generally in a [[traced monoidal category]]), and here the idea is to categorify this to the context of compact closed [[bicategories]], in particular the bicategory of bimodules between small categories.
+A notion of trace is generally definable for maps in a [[compact closed category]] (even more generally in a [[traced monoidal category]]), and here the idea is to categorify this to the context of compact closed [[bicategories]], in particular the bicategory of bimodules between [[small categories]].
 
 As an instance of the [[microcosm principle]], the trace of a category is the recipient of the *universal trace* function for morphisms *in* that category, and also supplies the necessary structure to define [[trace in a bicategory|bicategorical traces]] in the bicategory [[Prof]].
 
