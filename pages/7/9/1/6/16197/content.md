@@ -257,6 +257,9 @@ and is further developed in the following articles:
 
 * [[John Ellis]], Marcos A. G. Garcia, Natsumi Nagata, Dimitri V. Nanopoulos, [[Keith A. Olive]]: *Deformations of Starobinsky Inflation in No-Scale $SU(5)$ and $SO(10)$ GUTs* &lbrack;[arXiv:2508.13279](https://arxiv.org/abs/2508.13279)&rbrack;
 
+* [[Ignatios Antoniadis]], Chrysoula Markou, [[Dimitri V. Nanopoulos]]: *Ultraviolet completion of Starobinsky inflation* &lbrack;[arXiv:2605.05295](https://arxiv.org/abs/2605.05295)&rbrack;
+
+
 
 
 
