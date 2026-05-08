@@ -71,7 +71,7 @@ Relaxing the condition that Segal fibrations have underlying [[cocartesian fibra
 
 \end{definition}
 
-One of the main reasons to use algebraic patterns over the categorical patterns of [Higher Algbera](https://people.math.harvard.edu/~lurie/papers/HA.pdf) is the relative ease of constructing functoriality in families of examples.
+One of the main reasons to use algebraic patterns over the categorical patterns of [[Higher Algebra]] is the relative ease of constructing functoriality in families of examples.
 The central concept driving this is that of a Segal morphism.
 
 
