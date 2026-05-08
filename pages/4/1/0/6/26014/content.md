@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -180,6 +178,9 @@ Further activity:
 * {#CategoricalSymmetries23} *Categorical Symmetries in Quantum Field Theory* (28 Aug -1 Sept 2023) &lbrack;[indico:1131193](https://indico.cern.ch/event/1131193)&rbrack;
 
 Discussion via [[DHR superselection theory]]:
+
+* Valentin Benedetti, [[Horacio Casini]], [[Javier M. Magan]]: *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem*, SciPost Phys. **18** (2025) 041 &lbrack;[doi:10.21468/SciPostPhys.18.2.041](https://doi.org/10.21468/SciPostPhys.18.2.041), [arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
+  > (rejecting claims that the [[chiral anomaly]] is related to a [[noninvertible symmetry]])
 
 * {#CasiniMagan2025} [[Horacio Casini]], [[Javier M. Magan]]: *A generalization of the DHR theorem for higher form symmetries* &lbrack;[arXiv:2511.21810](https://arxiv.org/abs/2511.21810)&rbrack;
 
