@@ -10,13 +10,15 @@
 =--
 
 
-#Contents#
-* the following line creates the automatic table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea ##
-The DHR superselection theory is about [[superselection sectors]] in the [[Haag-Kastler approach]] to [[AQFT]].
+
+*DHR superselection theory* is about [[superselection sectors]] in the [[Haag-Kastler approach]] to [[AQFT]].
+
 As such, it has to state one or more conditions on representations of the given [[Haag-Kastler net]] that specify the representations of the quasi-local algebra that are deemed physically admissible. 
 
 It is named after [[Sergio Doplicher]], [[Rudolf Haag]] and [[John Roberts]].
@@ -218,7 +220,7 @@ Of particular relevance (besides the original work of Doplicher and Roberts) are
 
 Discussion in the context of [[holographic entanglement entropy]]:
 
-* {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
+* {#CHMP19} [[Horacio Casini]], Marina Huerta, [[Javier M. Magan]], Diego Pontello: _Entanglement entropy and superselection sectors I. Global symmetries_,  J. High Energ. Phys. **2020** 14 (2020)  &lbrack;<a href="https://doi.org/10.1007/JHEP02(2020)014">doi:10.1007/JHEP02(2020)014</a>, [arXiv:1905.10487](https://arxiv.org/abs/1905.10487)&rbrack;
 
 ### Applications
  {#ReferencesApplications}
