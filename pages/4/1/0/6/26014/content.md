@@ -179,6 +179,15 @@ Further activity:
 
 * {#CategoricalSymmetries23} *Categorical Symmetries in Quantum Field Theory* (28 Aug -1 Sept 2023) &lbrack;[indico:1131193](https://indico.cern.ch/event/1131193)&rbrack;
 
+Discussion via [[DHR superselection theory]]:
+
+* {#CasiniMagan2025} [[Horacio Casini]], [[Javier M. Magan]]: *A generalization of the DHR theorem for higher form symmetries* &lbrack;[arXiv:2511.21810](https://arxiv.org/abs/2511.21810)&rbrack;
+
+claiming proof that "non-invertible symmetries" essentially do not exist in $D \gt 2$:
+
+> &lbrack;[p. 5:](https://arxiv.org/pdf/2511.21810#page=6)&rbrack; "In a couple of interesting and influential articles &lbrack;[43](https://inspirehep.net/literature/2080021), [44](https://inspirehep.net/literature/2080611)&rbrack;, it was claimed that there exist genuine non-invertible 0-form symmetries in $D \gt 2$ dimensions, in particular in standard QED and pion electrodynamics in $D = 4$, see &lbrack;[14](https://arxiv.org/abs/2308.00747)&rbrack; for a review. This claim is in direct tension with the DHR theorem mentioned above, which states that 0-form symmetries ultimately descend from groups. This tension has received almost no attention in the literature, neither from the algebraic nor from the high-energy communities. In &lbrack;[24](https://arxiv.org/abs/2309.03264)&rbrack;, we investigated some of the particular scenarios where non-invertible symmetries were claimed to exist, such as QED, pion electrodynamics and electromagnetic duality. In all these examples we explicitly found the symmetry was a $U(1)$ group. Still, it was unclear whether non-invertible symmetries could potentially exist on basic grounds in $D \gt 2$, for example in SSB scenarios or for higher-form symmetries. This interesting debate also motivates a first principles analysis. Below we will find that the result of this analysis clarifies that more general symmetry categorical structures ultimately descend from groups (through quotients) in $D \gt 2$, and this differentiates them from the $D = 2$ scenario. In more precise terms, after DHR reconstruction all symmetries are in fact groups."
+
+
 
 [[!redirects generalized global symmetries]]
 
