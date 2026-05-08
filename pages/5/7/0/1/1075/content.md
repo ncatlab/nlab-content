@@ -229,7 +229,7 @@ $\,$
 
 ## References
 
-* Kashiwara-Schapira,  section 16 of _[[Categories and Sheaves]]_
+* Kashiwara-Schapira, chapter 16 of _[[Categories and Sheaves]]_
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], chapter III, section 8 of _[[Sheaves in Geometry and Logic]], Springer 1992
 
