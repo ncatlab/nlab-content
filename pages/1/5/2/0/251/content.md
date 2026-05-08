@@ -123,9 +123,15 @@ In pseudo double categories, the vertical and horizontal morphisms are often cal
 
 Luckily, every pseudo double category is equivalent to a double category of the usual sort, where composition of arrows in both directions is strictly associative.  This is Theorem 7.5 of Grandis and Par&#233;'s paper [Limits in double categories](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1999__40_3/CTGDC_1999__40_3_162_0/CTGDC_1999__40_3_162_0.pdf).
 
+### Doubly weak double categories
+
+There have been various attempts to define double categories that are "weak in both directions". A recent treatment is given in [Fairbanks and Shulman 2026](#FSDoublyWeak), in which [[doubly weak double categories]] are defined and compared to the other concepts listed below on this page.
+
+Doubly weak double categories have several equivalent definitions. A doubly weak double category can be defined as an [[implicit double category]] in which every path of arrows is isomorphic to a single arrow; this is in analogy to how a bicategory can be defined as an [[implicit 2-category]] in which every path of arrows is isomorphic to a single arrow. Doubly weak double categories can also be viewed as special cases of Verity's double bicategories or Garner's cubical bicategories (described below) satisfying additional "tidiness" conditions. There is also a more minimal definition in terms of squares with binary composition and identity operations and with associator and unitor coherence squares.
+
 ### Double bicategories
 
-One way to define a double category which is "weak in both directions" is a [[double bicategory]].  Double bicategories were defined in [[Dominic Verity]]'s thesis. The definition can also be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
+An earlier definition of a double category "weak in both directions" is a [[double bicategory]].  Double bicategories were defined in [[Dominic Verity]]'s thesis. The definition can also be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
 The definition of double bicategory takes as given two ordinary [[bicategories]], representing the vertical and horizontal bicategories, together with a set of squares which is "acted on" by both of these.  In the basic definition, there is no requirement that the 2-cells in the vertical (resp. horizontal) bicategory be exactly those squares whose vertical (resp. horizontal) 1-cell boundaries are identities, but such an axiom can easily be added.
 
@@ -385,6 +391,10 @@ An explicit description of what it means to be a one-object double category (i.e
 For [[univalent double categories]] in [[dependent type theory]]:
 
 * [[Niels van der Weide]], [[Nima Rasekh]], [[Benedikt Ahrens]], [[Paige Randall North]], *Univalent Double Categories* &lbrack;[arXiv:2310.09220](https://arxiv.org/abs/2310.09220)&rbrack;
+
+On [[doubly weak double categories]]:
+
+* {#FSDoublyWeak} [[Aaron David Fairbanks]] and [[Michael Shulman]], *Doubly weak double categories*, Applied Categorical Structures **34** 26 (2026) &lbrack;[arXiv:2506.23651](https://arxiv.org/abs/2506.23651), [doi:10.1007/s10485-026-09863-1](https://doi.org/10.1007/s10485-026-09863-1)&rbrack;
 
 On [[formal category theory]] within double categories:
 
