@@ -4,7 +4,16 @@
 
 ***
 
-h&ouml;
+$$
+  J 
+    \;=\;
+    \sum_i f_i \theta_i 
+      + 
+    \sum_j g_j d \theta_j 
+    f_i, g_j \in C^\infty(X)
+  \,.
+$$
+
 
 \begin{xymatrix}
 Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
