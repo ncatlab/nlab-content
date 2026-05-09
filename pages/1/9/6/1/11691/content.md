@@ -1,4 +1,5 @@
 
+Phillip Augustus Griffiths
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Phillip_Griffiths)
 
