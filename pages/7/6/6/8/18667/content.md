@@ -16,9 +16,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -31,9 +29,10 @@ Roughly, "integrating" a [[partial differential equation]] means to find a [[sol
 
 * [[integrable system]]
 
+
 ## References
 
-* {#Goldschmidt67} [[Hubert Goldschmidt]], _Integrability criteria for systems of nonlinear partial differential equations_, Journal of Differential Geometry 1 (1967) 269&#8211;307 ([Euclid](https://projecteuclid.org/euclid.jdg/1214428094))
+* {#Goldschmidt67} [[Hubert Goldschmidt]]: _Integrability criteria for systems of nonlinear partial differential equations_, Journal of Differential Geometry **1** (1967) 269--307 &lbrack;[euclid:1214428094](https://projecteuclid.org/euclid.jdg/1214428094)&rbrack;
 
 * [[Maciej Zworski]], _Numerical linear algebra and solvability of partial differential equations_, Communications in Mathematical Physics 229 (2002) 293&#8211;307
 
