@@ -17,9 +17,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -121,7 +121,7 @@ A [[(-1)-truncated]] morphism is precisely a [[monomorphism in an (∞,1)-catego
 
 A [[(-1)-connected]] morphism is one whose [[homotopy fiber]]s are [[inhabited]].
 
-In [[∞Grpd]] a morphism between _[[0-truncated]]_ [[object]]s ([[set]]s) 
+In [[∞Grpd]] a morphism between _[[0-truncated]]_ [[objects]] ([[sets]]):
 
 * is full and faithful precisely if it is an [[injection]];
 
