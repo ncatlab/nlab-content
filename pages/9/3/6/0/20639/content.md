@@ -1,8 +1,6 @@
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Definition
@@ -13,7 +11,7 @@ The ring of **Dickson invariants** is defined as the $GL(V)$-[[invariants]] $Sym
 
 This is a [[graded algebra|graded]] [[polynomial algebra]] on $n$ variables. The degrees of the generators are $q^n - q^i$ for $i=0,\dots,n-1$. 
 
-See [Wilkerson 83](#Wilkerson83).
+See [Wilkerson 1983](#Wilkerson83).
 
 ## Properties
 
@@ -31,8 +29,8 @@ The [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have mod 2 [
 
 Named after [[Leonard Dickson]].
 
-* {#Wilkerson83} [[Clarence Wilkerson]], _A primer on Dickson invariants_, in [[Haynes Miller]], [[Stewart Priddy]] (eds.) _Proceedings of the Northwestern Homotopy Theory Conference_, 1983  ([doi:10.1090/conm/019](https://doi.org/10.1090/conm/019)) ([pdf](https://web.archive.org/web/20190618085508/https://www.math.purdue.edu/~wilker/papers/dickson.pdf))
+* {#Wilkerson83} [[Clarence Wilkerson]]: _A primer on Dickson invariants_, in [[Haynes Miller]], [[Stewart Priddy]] (eds.): _Proceedings of the Northwestern Homotopy Theory Conference_ (1983)  &lbrack;[doi:10.1090/conm/019](https://doi.org/10.1090/conm/019), [[Wilkerson-DicksonInvariants.pdf:file]]&rbrack;
 
-*  {#DwyerWilkerson93} [[William Dwyer]], [[Clarence Wilkerson]], _A new finite loop space at the prime two_, J. Amer. Math. Soc. 6 (1993), 37-64  ([doi:10.1090/S0894-0347-1993-1161306-9](https://doi.org/10.1090/S0894-0347-1993-1161306-9))
+*  {#DwyerWilkerson93} [[William Dwyer]], [[Clarence Wilkerson]]: _A new finite loop space at the prime two_, J. Amer. Math. Soc. **6** (1993) 37-64  &lbrack;[doi:10.1090/S0894-0347-1993-1161306-9](https://doi.org/10.1090/S0894-0347-1993-1161306-9)&rbrack;
 
 [[!redirects Dickson invariants]]
