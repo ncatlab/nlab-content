@@ -1,7 +1,24 @@
 
-* [webpage](http://fds.duke.edu/db/aas/math/faculty/bryant/)
+Robert Leamon Bryant
+
+
+
+* [personal page](http://fds.duke.edu/db/aas/math/faculty/bryant/)
+
+* [institute page](https://scholars.duke.edu/person/bryant)
+
+* [institute page](https://math.berkeley.edu/people/faculty/robert-bryant)
+
+* <a href="https://en.wikipedia.org/wiki/Robert_Bryant_(mathematician)">Wikipedia entry</a>
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=22429)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=n7HjYQoAAAAJ&hl=en)
+
+
 
 ## Selected writings
+
 
 On [[twistor fibrations]]:
 
@@ -13,10 +30,18 @@ On [[isometry|isometric]] [[Riemannian immersion|Riemannian]] [[embedding of smo
 
 * {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-50/issue-3/The-Gauss-equations-and-rigidity-of-isometric-embeddings/10.1215/S0012-7094-83-05039-1.short)&rbrack;
 
+On [[exterior differential systems]]:
+
+* [[Robert L. Bryant]], [[Shiing-Shen Chern]], [[Robert B. Gardner]], [[Hubert L. Goldschmidt]], [[Phillip A. Griffiths]]: *Exterior Differential Systems*, Springer (1990) \[<a href="https://doi.org/10.1007/978-1-4613-9714-4">doi:10.1007/978-1-4613-9714-4</a>\]
+
+* [[Robert L. Bryant]]: *Nine Lectures on Exterior Differential Systems* (1999) &lbrack;[pdf](https://sites.math.duke.edu/~bryant/Eilenberg/MSRI_Lectures.pdf)&rbrack;
+
+* [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative: [[EDS-notes.pdf:file]]&rbrack;
+
 
 On the [[metric cone over complex projective 3-space]] and the [[twistor fibration]]:
 
-* [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
+* [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications **73** (2020) 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
 
 On the construction of [[G₂-manifolds]]:
@@ -40,6 +65,7 @@ On [[Isadore M. Singer]]:
 * [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
 
 
+[[!redirects Robert L. Bryant]]
 
 
 category: people
