@@ -300,9 +300,9 @@ Introductions and lecture notes:
 
 * [[Robert L. Bryant]]: *Nine Lectures on Exterior Differential Systems* (1999) &lbrack;[pdf](https://sites.math.duke.edu/~bryant/Eilenberg/MSRI_Lectures.pdf)&rbrack;
 
-* [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative: [[EDS-notes.pdf:file]]&rbrack;
+* [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative:[pdf](https://ncatlab.org/nlab/files/EDS-notes.pdf)&rbrack;
 
-* [[Benjamin McKay]]: *Introduction to exterior differential systems*, Banach Center Publications **117** (2019) 45--55  &lbrack;[arXiv:1706.09697](https://arxiv.org/abs/1706.09697), [doi:10.4064/bc117-2](https://doi.org/10.4064/bc117-2)&rbrack;
+* [[Benjamin McKay]]: *Introduction to exterior differential systems*, Banach Center Publications **117** (2019) 45--55  &lbrack;[arXiv:1706.09697 math.DG](https://arxiv.org/abs/1706.09697), [doi:10.4064/bc117-2](https://doi.org/10.4064/bc117-2)&rbrack;
 
 
 
