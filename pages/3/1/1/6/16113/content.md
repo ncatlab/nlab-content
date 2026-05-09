@@ -36,7 +36,7 @@ On [[exterior differential systems]]:
 
 * [[Robert L. Bryant]]: *Nine Lectures on Exterior Differential Systems* (1999) &lbrack;[pdf](https://sites.math.duke.edu/~bryant/Eilenberg/MSRI_Lectures.pdf)&rbrack;
 
-* [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative: [[EDS-notes.pdf:file]]&rbrack;
+* [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative:[pdf](https://ncatlab.org/nlab/files/EDS-notes.pdf)&rbrack;
 
 
 On the [[metric cone over complex projective 3-space]] and the [[twistor fibration]]:
