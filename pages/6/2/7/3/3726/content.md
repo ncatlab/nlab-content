@@ -8,9 +8,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -52,17 +52,17 @@ A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is called **$n$-connected*
 
 =--
 
-This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "[[n-connective object|$(n+1)$-connective]]".  Another possible term is "$n$-simply connected"; see [[n-connected space]] for discussion.
+This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "[[n-connective object|$(n+1)$-connective]]".  Another possible term is "$n$-simply connected"; see at *[[n-connected space]]* for further discussion.
 
-One adopts the following convenient terminology.
+One adopts the following convenient terminology:
 
 * Every object is $(-2)$-connected.
 
-* A $(-1)$-connected object is also called an [[inhabited object]].
+* A $(-1)$-connected object is also called an *[[inhabited object]]*.
 
-* A 0-connected object is simply called a **connected object**.
+* A 0-connected object is simply called a *connected object*.
 
-Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms. For more on this see _[[n-connected/n-truncated factorization system]]_.
+Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms. For more on this see at *[[n-connected/n-truncated factorization system]]*.
 
 
 
