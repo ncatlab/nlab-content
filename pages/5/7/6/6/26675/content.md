@@ -3,7 +3,14 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=pKkhl4wAAAAJ&hl=en)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=30660)
+
 ## Selected writings
+
+On [[exterior differential systems]]:
+
+* [[Benjamin McKay]]: *Introduction to exterior differential systems*, Banach Center Publications **117** (2019) 45--55  &lbrack;[arXiv:1706.09697](https://arxiv.org/abs/1706.09697), [doi:10.4064/bc117-2](https://doi.org/10.4064/bc117-2)&rbrack;
+
 
 On [[Cartan geometry]]:
 
