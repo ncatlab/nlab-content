@@ -11,7 +11,7 @@
 
 On [[Dickson invariants]]:
 
-* {#Wilkerson83} [[Clarence Wilkerson]], _A primer on Dickson invariants_, in [[Haynes Miller]], [[Stewart Priddy]] (eds.) _Proceedings of the Northwestern Homotopy Theory Conference_, 1983  ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019))
+* {#Wilkerson83} [[Clarence Wilkerson]]: _A primer on Dickson invariants_, in [[Haynes Miller]], [[Stewart Priddy]] (eds.): _Proceedings of the Northwestern Homotopy Theory Conference_ (1983)  &lbrack;[doi:10.1090/conm/019](https://doi.org/10.1090/conm/019), [[Wilkerson-DicksonInvariants.pdf:file]]&rbrack;
 
 On [[p-compact groups]]:
 
