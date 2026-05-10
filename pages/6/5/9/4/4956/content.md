@@ -17,9 +17,7 @@
 
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -395,6 +393,11 @@ This is the differential of $f$ regarded as a map of tangent bundles.
 ## References
 
 ### General
+
+A standard textbook, making explicit differentiation as a [[functor]] (p. 75):
+
+* {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+
 
 The [[Kock-Lawvere axiom]] for the [[axiom|axiomatization]] of differentiation in [[synthetic differential geometry]] was introduced in
 
