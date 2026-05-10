@@ -1,7 +1,7 @@
 
-This page is about the book
+This page is to record the reference:
 
-* [[John F. Jardine]]
+* [[John F. Jardine]]:
 
   \linebreak
 
@@ -13,7 +13,7 @@ This page is about the book
 
   [doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)
 
-on the abstract [[homotopy theory]] ([[model category]] theory) of [[presheaves]] of [[homotopy types]] and [[stable homotopy types]] ([[model structures on simplicial presheaves]], model structures on [[sheaves of spectra]], [[Brown-Gersten property]], etc.) with an eye towards [[motivic homotopy theory]].
+on the abstract [[homotopy theory]] ([[model category]] theory) of [[presheaves]] of [[homotopy types]] ([[presentable (infinity,1)-category|presenting]] [[(infinity,1)-topos|$(\infty,1)$-topoi]]) and [[stable homotopy types]] ([[model structures on simplicial presheaves]], model structures on [[sheaves of spectra]], [[Brown-Gersten property]], etc.) with an eye towards [[motivic homotopy theory]].
 
 Brief exposition in:
 
