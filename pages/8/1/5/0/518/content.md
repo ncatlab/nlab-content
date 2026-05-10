@@ -14,22 +14,31 @@
 =--
 
 
-This entry is about the article
+This page is to record the reference:
 
-* [[Ken Brown|Kenneth S. Brown]], 
+* [[Ken Brown|Kenneth S. Brown]]:
 
-  _[[BrownAbstractHomotopyTheory.pdf:file]]_, 
+  \linebreak
+
+  **Abstract Homotopy Theory and Generalized Sheaf Cohomology** 
+
+  \linebreak
+
+  Transactions of the American Mathematical Society 
+
+  **186** (1973) 419--458 
  
+  [doi:10.2307/1996573](http://dx.doi.org/10.2307/1996573)
 
-  Transactions of the American Mathematical Society, 
+  [jstor:1996573](http://www.jstor.org/stable/1996573)
 
-  **186** (1973) 419-458 
- 
-  ([jstor:1996573](http://www.jstor.org/stable/1996573)).
+  [pdf](/nlab/files/BrownAbstractHomotopyTheory.pdf)
+
+on [[categories of fibrant objects]] for [[simplicial presheaves]] modelling what is now called [[(infinity,1)-topos|$(\infty,1)$-topoi]] of [[infinity-stack|$\infty$-stacks]].
 
 Brown was a student of [[Dan Quillen]]. He expands in this article work from his thesis on a notion of [[homotopical category]] -- called a [[category of fibrant objects]] -- with a bit less structure than that of a full [[model category]], which he uses to study "generalized [[abelian sheaf cohomology]]": 
 
-Following, or rather as a precursor of, the [[nPOV]] on [[cohomology]] he studies precisely the cohomology within [[∞-stack]] [[(∞,1)-topos]]es and, in the second part of the article, that in [[(∞,1)-category|(∞,1)-categories]] of [[(∞,1)-sheaf|(∞,1)-sheaves]] of [[spectrum|spectra]], see at _[[sheaves of spectra]]_.
+Following, or rather as a precursor of, the [[nPOV]] on [[cohomology]] he studies precisely the cohomology within [[∞-stack]] [[(∞,1)-topoi]] and, in the second part of the article, that in [[(∞,1)-category|(∞,1)-categories]] of [[(∞,1)-sheaf|(∞,1)-sheaves]] of [[spectrum|spectra]], see at _[[sheaves of spectra]]_.
 
 As such, this article is a forerunner of the development of the full [[model category]] structures built for the purpose of [[models for ∞-stack (∞,1)-toposes|modelling ∞-stack (∞,1)-toposes]]: the [[model structure on simplicial presheaves|model structure on simplicial (pre)sheaves]] as first defined by [[Andre Joyal]] in his letter to Grothendieck and then later generalized from simplicial sheaves to [[simplicial presheaf|simplicial presheaves]] and developed in great detail by Jardine (in its injective version) and [[Dan Dugger]] (in its projective version). 
 
