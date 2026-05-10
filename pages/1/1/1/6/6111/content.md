@@ -15,7 +15,7 @@ Loring W. Tu
 
 ## Selected writings
 
-On [[differential geometry]] ([[smooth manifold]], [[de Rham complex]], ...):
+On [[differential geometry]] ([[smooth manifolds]], [[de Rham complex]], ...), making explicit concepts of [[category theory]]:
 
 * [[Loring Tu]]: *An Introduction to Manifolds*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7400-6">doi:10.1007/978-1-4419-7400-6</a>\]
 
