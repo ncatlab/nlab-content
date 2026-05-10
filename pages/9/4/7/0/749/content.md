@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -133,7 +131,7 @@ This implies the claim with the [above proposition](#PresentationOfhypercomplete
 
 The local model structure on simplicial sheaves was proposed in
 
-* {#Joyal1984} [[Andre Joyal]], Letter to [[Alexander Grothendieck]], 11.4.1984, ([pdf scan](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf)).
+* {#Joyal1984} [[André Joyal]]: Letter to [[Alexander Grothendieck]] (11. Apr 1984) &lbrack;retyped by [[Georges Maltsiniotis|G. Maltsiniotis]]:[[Joyal-letter-to-Grothendieck-retyped.pdf:file]]&rbrack;
 
 This is,  with [[BrownAHT]], among the first proposals for models for [[∞-stacks]] which eventually came to be used in the theory of [[(∞,1)-toposes]].
 
