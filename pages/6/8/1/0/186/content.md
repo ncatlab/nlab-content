@@ -93,7 +93,7 @@ Amplification that [[diffeological spaces]] form a [[quasi-topos]] and hence a f
 
 * [[Alexander Hoffnung]]: _From Smooth Spaces to Smooth Categories_, talk slides (2009) &lbrack;[[Hoffnung-Ottawa2009.pdf:file]]&rbrack;
 
-* [[John Baez]], [[Alexander Hoffnung]]: _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc. **363** 11 (2011) 5789-5825 &lbrack;[doi:10.1090/S0002-9947-2011-05107-X](https://doi.org/10.1090/S0002-9947-2011-05107-X), [arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html)&rbrack;
+* [[John Baez]], [[Alexander Hoffnung]]: _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc. **363** 11 (2011) 5789-5825 &lbrack;[doi:10.1090/S0002-9947-2011-05107-X](https://doi.org/10.1090/S0002-9947-2011-05107-X), [arXiv:0807.1704 math.DG](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html)&rbrack;
 
 * {#Stacey11} [[Andrew Stacey]]: _Comparative Smootheology_, Theory and Applications of Categories, **25** 4 (2011) 64-117, &lbrack;[tac:25-4](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html)), [arXiv:0802.2225](http://arxiv.org/abs/0802.2225)&rbrack;
 
