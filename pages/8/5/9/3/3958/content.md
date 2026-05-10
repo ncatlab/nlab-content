@@ -410,9 +410,11 @@ Textbook accounts:
 * [[Helmut Eschrig]], section 3 of: *Topology and Geometry for Physics*, Lecture Notes in Physics, Springer (2011) \[<a href="https://doi.org/10.1007/978-3-642-14700-5">doi:10.1007/978-3-642-14700-5</a>\] 
 
 * [[Loring Tu]]: *An Introduction to Manifolds*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7400-6">doi:10.1007/978-1-4419-7400-6</a>\]
+  > (making explicit concepts of [[category theory]])
 
 
 * {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+  > (making explicit concepts of [[category theory]])
 
 * [[Theodore Frankel]], chapter 1 of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
