@@ -2257,12 +2257,12 @@ The term "cohesion" and parts of its later axiomatization (p. 245) appears thoug
 
 Under the name _categories of cohesion_ a formal axiomatization is given in
 
-* {#LawvereAxiomatic} [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* {#LawvereAxiomatic} [[William Lawvere]]: _Axiomatic cohesion_, Theory and Applications of Categories **19** 3 (2007) 41--49 &lbrack;[tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf)&rbrack;
  
 
 (This does demand the conditions that "cohesive pieces have points" and that "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".)
 
-This builds on a series of precursors of attempts to identify axiomatics for [[gros topos]]es.
+This builds on a series of precursors of attempts to identify axiomatics for [[gros toposes]].
 
 In
 
