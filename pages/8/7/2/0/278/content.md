@@ -159,9 +159,10 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008) &lbrack;[pdf](https://www.mat.univie.ac.at/~michor/dgbook.pdf)&rbrack;
 
 * [[Loring Tu]]: *An Introduction to Manifolds*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7400-6">doi:10.1007/978-1-4419-7400-6</a>\]
-
+  > (making explicit concepts of [[category theory]])
 
 * {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+  > (making explicit concepts of [[category theory]])
 
 * [[Mikhail O. Katanaev]], *Geometrical methods in mathematical physics* (in Russian) &lbrack;[arXiv1311.0733](https://arxiv.org/abs/1311.0733)&rbrack;
 
