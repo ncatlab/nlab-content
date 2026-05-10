@@ -24,6 +24,11 @@ Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joy
 
 ## Selected writings
 
+Introducing the [[model structure on simplicial sheaves]]:
+
+* [[André Joyal]]: Letter to [[Alexander Grothendieck]] (11. Apr 1984) &lbrack;retyped by [[Georges Maltsiniotis|G. Maltsiniotis]]:[[Joyal-letter-to-Grothendieck-retyped.pdf:file]]&rbrack;
+
+
 On [[forcing]] via [[classifying toposes]] and the [[classifying topos of a localic groupoid]]:
 
 * {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
@@ -113,8 +118,6 @@ See also:
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
 
-
-* A. Joyal, Letter to [[Alexander Grothendieck]], 11.4.1984, [[lettrejoyal.pdf:file]].
 
 * A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997)  (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
 
