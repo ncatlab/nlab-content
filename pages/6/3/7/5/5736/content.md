@@ -1,7 +1,14 @@
-John Frederick Jardine or Rick Jardine is a 
+
+John Frederick (Rick) Jardine is a 
 [[homotopy theory|homotopy theorist]] at the University of Western Ontario in London, Canada. His work on [[model category]] structures [[model structure on simplicial presheaves|on simplicial presheaves]] is fundamental in the subject. His web pages have much course material in [[homotopy theory]], [[topos theory|sheaf theory]] and related subjects. 
 
-* [webpage](https://www.math.uwo.ca/faculty/jardine/)
+* [institute page](https://www.math.uwo.ca/faculty/jardine/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Rick_Jardine)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=32qOR9kAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=17633)
 
 ## Selected writings
 
@@ -16,7 +23,7 @@ On the [[simplicial approximation theorem]]:
 
 On [[model structures on simplicial presheaves]] with an eye to application in [[motivic homotopy theory]]:
 
-* [[John F. Jardine]], _Simplical presheaves_, Journal of Pure and Applied Algebra **47** 1 (1987) 35-87 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>&rbrack;
+* {#JardineLecture} [[John F. Jardine]]: _Simplicial presheaves_, Journal of Pure and Applied Algebra **47** (1987) 35--87 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>, [pdf](https://core.ac.uk/download/pdf/82485559.pdf)&rbrack;
 
 * {#Jardine07} [[J. F. Jardine]]: *Fields Lectures: Simplicial presheaves*, notes (2007) &lbrack;[pdf](https://www.math.uwo.ca/faculty/jardine/courses/fields/fields-01.pdf), [[Jardine-SimplicialPresheaves.pdf:file]], [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
 
