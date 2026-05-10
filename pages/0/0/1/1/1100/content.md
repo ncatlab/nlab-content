@@ -346,17 +346,20 @@ should be.
 
 In retrospect, at least the [[homotopy category of an (∞,1)-category|homotopy categories]] of [[(∞,1)-toposes]] have been known since
 
-* [[Kenneth Brown]], *[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]*,  Transactions of the American Mathematical Society,  Vol. 186 (1973), 419-458  ([jstor:1996573](http://www.jstor.org/stable/1996573)). 
+* [[Kenneth Brown]]: *[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]*,  Transactions of the American Mathematical Society **186** (1973) 419--458  &lbrack;[doi:10.2307/1996573](http://dx.doi.org/10.2307/1996573), [jstor:1996573](http://www.jstor.org/stable/1996573)&rbrack; 
 
-presented there via [[categories of fibrant objects]] among [[simplicial presheaves]]. The enhancement of this to [[model categories]] [[model structure on simplicial presheaves|of simplicial presheaves]] originates wit:h
+presented there via [[categories of fibrant objects]] among [[simplicial presheaves]]. The enhancement of this to [[model categories]] [[model structure on simplicial presheaves|of simplicial presheaves]] originates with
 
-* [[André Joyal]], Letter to [[Alexander Grothendieck]], 11. 4. 1984, ([pdf scan](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf)).
+* [[André Joyal]]: Letter to [[Alexander Grothendieck]] (11. Apr 1984) &lbrack;retyped by [[Georges Maltsiniotis|G. Maltsiniotis]]:[[Joyal-letter-to-Grothendieck-retyped.pdf:file]]&rbrack;
 
-* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](https://core.ac.uk/download/pdf/82485559.pdf))
+* {#JardineLecture} [[John F. Jardine]]: _Simplicial presheaves_, Journal of Pure and Applied Algebra **47** (1987) 35--87 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>, [pdf](https://core.ac.uk/download/pdf/82485559.pdf)&rbrack;
+
+* [[John F. Jardine]]: *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
 
 A more intrinsic characterization of these "[[model toposes]]" ([Rezk 2010](#Rezk10)) as $\infty$-toposes (the term seems to first appear here in [Simpson 1999](#Simpson99)) is due to:
 
-* {#Simpson99} [[Carlos Simpson]],  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+* {#Simpson99} [[Carlos Simpson]]:  *A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi* &lbrack;[arXiv:math/9903167](http://arxiv.org/abs/math/9903167)&rbrack;
 
 The generalization of these [[model toposes]] from 1-sites to [[simplicial site|simplicial]] [[model sites]] is due to
 
