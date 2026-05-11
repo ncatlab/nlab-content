@@ -6,6 +6,12 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 #### Algebraic geometry and mathematical physics
 
+* Caucher Birkar, Jia Jia, Artan Sheshmani, Sheaf stable pairs, Quot schemes and Birational geometry, Nagoya Mathematical Journal, Accepted (2026), 44 pages, arXiv:2406.00230
+
+* Yuxiang Liu, Artan Sheshmani, and Shing-Tung Yau, Rigid Schubert classes in partial flag varieties, Journal of Differential Geometry, Accepted (2026), 36 pages,  arXiv:2401.11375
+
+* Enno Kessler, Artan Sheshmani, Shing-Tung Yau and Dimitri Zvonkine, Super Gromov-Witten invariants via torus localizations, 69 pages, Journal of European Mathematical Society, Accepted (2026) arXiv:2311.09074.
+
 * Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]], Shifted Symplectic Structures on Derived Quot-Stacks II- Derived Quot-Schemes as DG manifolds, Advances in Mathematics, Vol 462, 10092  (2025), [arXiv:2312.02815]
 
 * Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]] and Shing-Tung Yau, Global shifted potentials for moduli stacks of sheaves on Calabi-Yau four-folds, American Journal of Mathematics, Accepted (2025), [arXiv:2007.13194].
