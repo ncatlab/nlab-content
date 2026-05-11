@@ -1804,7 +1804,7 @@ which says that "in the inside of $p|_X$, a wire has been bent to turn an output
 
 A particularly important conditional distribution is given by [[Bayesian inverses]].
 
-Let $p$ be a state on $X$ and let $f:X\to Y$ be a morphisms. A **[[Bayesian inverse]]** of $f$ with respect to $p$ is a morphism $f^\dagger:Y\to X$ such that the following equation holds, where $q=f\circ p$.
+Let $p$ be a state on $X$ and let $f:X\to Y$ be a morphism. A **[[Bayesian inverse]]** of $f$ with respect to $p$ is a morphism $f^\dagger:Y\to X$ such that the following equation holds, where $q=f\circ p$.
 
 \begin{tikzpicture}[%
 thick,%
@@ -1862,7 +1862,7 @@ which is in the usual form
 $$
 P(y) \, P(x|y) = P(x) \, P(y|x) ,
 $$
-which recovers the usual [[Bayesian inversion#discrete_case|Bayesian version for stochastic maps]].
+which recovers the usual [[Bayesian inversion#discrete_case|Bayesian inversion for stochastic maps]].
 
 * In *Stoch*, similarly, it says that for all measurable $A\subseteq X$ and $B\subseteq Y$,
 $$
@@ -2049,7 +2049,7 @@ Using the universal property of limits, this says that a joint distribution on $
 
 * *BorelStoch* has all countable Kolmogorov products by means of the [[Kolmogorov extension theorem]].
 
-* In *Set*, and in every [[cartesian monoidal category]], Kolmogorov products coincide with ordinary products (when they exist for those cardinality). 
+* In *Set*, and in every [[cartesian monoidal category]], Kolmogorov products coincide with ordinary products (when they exist for those cardinalities). 
 
 Because of this, a Kolmogorov product on $C$ restricts to a [[cartesian product]] in the category $C_det$ of deterministic morphisms.
 
@@ -2280,7 +2280,7 @@ The same category was studied independently by Chentsov ([Chentsov'65](#Chentsov
 
 
 
-Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which brings her name]].
+Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which bears her name]].
 Shortly after, computer scientists such as [[Eugenio Moggi|Moggi]] and [[Gordon Plotkin|Plotkin]] started considering monads in the context of effectful programming ([Moggi'89](#moggi89)), with probabilistic computation as a special case ([Jones-Plotkin'89](#jones_plotkin89)). (More details in [[monad (in computer science)]].)
 This is also the time when a number of [[probability monads]] were introduced, see there for more. 
 
