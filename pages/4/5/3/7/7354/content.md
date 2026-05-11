@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -86,8 +84,9 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 
 * {#Polchinski14} [[Joseph Polchinski]]: *Dualities of Fields and Strings*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
-* [[Sebastian De Haro]], [[Jeremy Butterfield]], chapter II.8 of: 
-*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], chapter II.8 of: *The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+
+* [[Sebastian De Haro]], Enrico Cinti; section 4 of: *Dualities in Physics*, Elements in the Foundations of Contemporary Physics, Cambridge University Press (2026) &lbrack;[arXiv:2509.15866](https://arxiv.org/abs/2509.15866), [doi:10.1017/9781009203845](https://doi.org/10.1017/9781009203845), ISBN: 9781009203845&rbrack;
 
 
 
