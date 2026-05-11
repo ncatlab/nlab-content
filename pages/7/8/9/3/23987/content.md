@@ -3354,7 +3354,36 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Particular advantage of the entanglement based QKD is that it allows to build full-mesh quantum networks secure any-to-any connectivity. In parallel, we integrate quantum random number generation with passive state preparation techniques to improve scalability, reduce system complexity, and enhance cost-efficiency.
 
-  
+
+\linebreak
+
+### May 2026
+
+* 4 May 2026
+
+  [[Amaria Javed]] (CQTS, New York University Abu Dhabi)
+
+  **Noise -- Induced Entropy Dynamics and Information Flow in Multipartite Quantum Systems**
+
+  > Understanding how environmental [[noise]] reshapes quantum correlations is central to both fundamental studies and practical quantum technologies. In this talk, I will present our recent work on the dynamics of noise-induced sector-resolved entropy (NISRE) in multipartite [[qubit]] systems subjected to classical Gaussian (Ornstein–Uhlenbeck) and non-Gaussian (Random Telegraph) noise.
+
+  > We investigate three-qubit systems prepared in GHZ, W, and mixed states under different system–environment coupling configurations, including independent, mixed, and common environments. Our results show that Gaussian Ornstein–Uhlenbeck noise leads to a monotonic increase and saturation of entropy, consistent with Markovian dynamics. In contrast, non-Gaussian random telegraph noise induces oscillatory behavior and partial revivals, providing clear signatures of non-Markovian memory effects and information backflow.
+
+  > A central aspect of this work is the use of sector-resolved entropy as a diagnostic tool to probe how correlations are redistributed across dynamically mixed sectors in the presence of symmetry-breaking noise. We show that this approach reveals features of information flow that are not directly captured by conventional global entropy measures. In particular, GHZ states exhibit enhanced robustness against noise-induced degradation compared to W states, while environmental correlations play a crucial role in governing entropy redistribution.
+
+  > These results highlight the role of noise statistics and environmental structure in shaping multipartite quantum dynamics and provide insight into designing noise-resilient quantum systems.
+
+\linebreak
+
+* {#AnwarMay2026} 11 May 2026
+
+  [Sabieh Anwar](https://physlab.org/muhammad-sabieh-anwar-personal/) (LUMS School of Science and Engineering, Pakistan)
+
+  **Photons for Quantum Education**
+
+  cf.: [physlab.org](https://physlab.org), [physlab.org/qmlab](https://physlab.org/qmlab), [isbn:978-0-7503-6315-0](https://iopscience.iop.org/book/mono/978-0-7503-6315-0)
+
+  > The talk will describe how single [[photons]] can be generated inside the laboratory to conduct a gambit of revealing [[experiments]] revolving around [[Bell inequality|nonlocality]], [[quantum entanglement]] and the demonstration of [[quantum interference|quantum interferometry]]. This enlivens the teaching of [[quantum physics]] and [[quantum information]] through research-grade yet tabletop experiments. Furthermore, some interesting ideas about teaching of [[fundamental physics]] with the use of modern smart devices and sensors such as smartphones, cameras and original software used to track the kinematics of [[rigid body dynamics|rigid]] as well as the shape analysis of [[fluid dynamics|nonrigid bodies]], such as blobs and balloons, will be shared. Finally the presentation will cover some research directions being traversed in the speaker's laboratory around ideas of quantum weak value measurement, and Brillouin light scattering.  
 
 \linebreak
 
@@ -5052,6 +5081,23 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
         "left": 10
     }
 \end{imagefromfile}
+
+\linebreak
+
+### May 2026
+
+<div style="float:right;margin:-50px 0px -10px 20px;">
+<a href="https://ncatlab.org/schreiber/files/ModPhysGloMath-260507.pdf#page=1"><img src="/schreiber/files/WIKO-CoverSlide-260218.png" width="400"></a></div>
+
+
+* *[[schreiber:WIKO 2026|The &#36;1 Million Puzzle: Hadrons and Quantum Computers]]*
+
+  *Why Modern Physics Needs a New Global Mathematics*, 
+
+  [public evening lecture](https://www.wiko-greifswald.de/en/programm/allgemeines/veranstaltungskalender/veranstaltung/n/das-1-millionen-dollar-raetsel-hadronen-quantencomputer-268629-1/)
+
+  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/), Greifswald (6 May 2026)
+
 
 
 \linebreak  
