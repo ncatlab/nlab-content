@@ -35,7 +35,7 @@ In measure-theoretic [[probability theory]], such a construction is provided by 
 ## Definition
 
 Let $(C,\otimes,I)$ be a [[symmetric monoidal category]] equipped with a distinguished map $del_X:X\to I$ for each object $I$. 
-(This happens for example if $C$ is [[cartesian monoidal category|cartesian]] [[semicartesian monoidal category|semicartesian]], or if it has a [[Markov category|Markov or copy-discard structure]].)
+(This happens for example if $C$ is [[cartesian monoidal category|cartesian]], [[semicartesian monoidal category|semicartesian]], or if it has a [[Markov category|Markov or copy-discard structure]].)
 
 Let $J$ be a possibly infinite set, and let $(X_i)_{i\in J}$ be a $J$-indexed collection of objects of $C$. 
 
