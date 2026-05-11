@@ -46,9 +46,11 @@ $$
   \,.
 $$  
 
-In an intuitionistic modal logic, one would also demand that $\diamondsuit$ preserves implication in a suitable sense, such as 
+In an intuitionistic modal logic, one would also demand that $\diamondsuit$ interacts appropriately with implication and $\Box$, such as in
 
 $$\Box(p\to q) \to (\diamondsuit p \to \diamondsuit q).$$
+
+which might be glossed as "if it is neccessarily the case that $p$ implies $q$ is true, then if $p$ is possibly true, $q$ is possibly true", taking $\Box$=necessarily and $\diamondsuit$=possibly.
 
 One may also ask for a further compatibility such as $(\diamondsuit p \to \Box q) \to \Box(p\to q)$, as [Simpson](#Simpson) does.
 
