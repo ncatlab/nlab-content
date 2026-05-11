@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -291,6 +289,9 @@ There is also a duality in the _description_ of physics:
 
 * [[Sebastian De Haro]], [[Jeremy Butterfield]]: 
 *The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+
+* [[Sebastian De Haro]], Enrico Cinti: *Dualities in Physics*, Elements in the Foundations of Contemporary Physics, Cambridge University Press (2026) &lbrack;[arXiv:2509.15866](https://arxiv.org/abs/2509.15866), [doi:10.1017/9781009203845](https://doi.org/10.1017/9781009203845), ISBN: 9781009203845&rbrack;
+
 
 
 ### As Morita equivalence
