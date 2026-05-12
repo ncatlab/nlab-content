@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -72,17 +72,24 @@ While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s doe
 
 ### Epimorphisms and coverings
 
-The [[surjection|surjective]] submersions (that is the submersions that are also [[epimorphisms]] in [[Diff]]) are [[regular epimorphism]]s.
+The [[surjection|surjective]] submersions (that is the submersions that are also [[epimorphisms]] in [[Diff]]) are [[regular epimorphisms]].
 
 Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]], and so may be used in [[internal category|internal]] [[category theory]] when using $Diff$ as the ambient category. They appear notably in the definition of [[Lie groupoids]].
 
-### Ehresmann's theorem
 
-[[Ehresmann's theorem]] states that a [[proper morphism|proper]] submersion is a [[locally trivial bundle|locally trivial]] [[fibration]].
+### Local form
 
-### Normal form
+\begin{proposition}\label{LocalForm}
+For $f : X \to Y$ a submersion, then around every point of $X$ there is an [[open neighbourhood]] on which $f$ restricts to a [[projection]] on one factor of a [[product manifold]].
+\end{proposition}
 
-For $f : X \to Y$ a submersion, then around every point of $X$ there is an [[open neighbourhood]] on which $f$ restricts to a [[projection]].
+(Cf. [Tu 2011 Thm. 11.5(ii)](#Tu2011). In [Lang 1991 p. 27](#Lang1991) this property is taken as the definition of *submersion*.)
+
+*[[Ehresmann's theorem]]* states moreover that:
+\begin{proposition}
+A [[proper morphism|proper]] submersion is even a [[locally trivial bundle|locally trivial]] [[fiber bundle]].
+\end{proposition}
+
 
 ### Characterization in infinitesimal cohesion
 
@@ -107,8 +114,10 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 * {#Boothby} [[William M. Boothby]], Def. III 4.3 in: *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
 
+* {#Lang1991} [[Serge Lang]]; p. 27 and chapter XIV in: *Fundamentals of differential geometry*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0541-8](https://doi.org/10.1007/978-1-4612-0541-8), [pdf](https://www.cmat.edu.uy/~lessa/tesis/fundamentals_of_differential_geometry_gtm_191_.pdf)&rbrack;
 
-* [[Serge Lang]], chapter XIV in: _Fundamentals of differential geometry_ Springer (1991)
+* {#Tu2011} [[Loring Tu]] §8.8 and §11.2 in: *An Introduction to Manifolds*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7400-6">doi:10.1007/978-1-4419-7400-6</a>\]
+
 
 Ehresmann's theorem is due to
 
