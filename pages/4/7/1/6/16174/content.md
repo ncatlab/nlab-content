@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -295,9 +293,14 @@ chapter 10 in: _[[Transformation Groups and Representation Theory]]_  ([pdf](htt
 
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
-Computational aspects are discussed in 
+Computational aspects:
 
 * Martin Kreuzer, _Computational aspects of Burnside rings, part I: the ring structure_, D.P. Beitr Algebra Geom (2017) 58: 427 ([doi:10.1007/s13366-016-0324-4](https://doi.org/10.1007/s13366-016-0324-4))
+
+Relation to the [[Galois group]] of [[G-spectra]]:
+
+* [[Niko Naumann]], [[Luca Pol]], [[Maxime Ramzi]]: *The Galois theory of -spectra and the Burnside ring* &lbrack;[arXiv:2605.10280](https://arxiv.org/abs/2605.10280)&rbrack;
+
 
 [[!redirects Burnside rings]]
 
