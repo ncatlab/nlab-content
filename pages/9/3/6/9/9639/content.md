@@ -943,6 +943,8 @@ Observation of the FQHE in $GaAS$:
 
 * D. C. Tsui, [[Horst L. Stormer]], A. C. Gossard: *Two-Dimensional Magnetotransport in the Extreme Quantum Limit*, Phys. Rev. Lett. **48** (1982) 1559 \[<a href="https://doi.org/10.1103/PhysRevLett.48.1559">doi:10.1103/PhysRevLett.48.1559</a>\]
 
+* Chen Zhimou et al.: *Cascade of fractional quantum Hall states in 2D system* &lbrack;[arXiv:2605.10147](https://arxiv.org/abs/2605.10147)&rbrack;
+
 in [[graphene]]:
 
 * Xu Du, Ivan Skachko, Fabian Duerr, Adina Luican, Eva Y. Andrei: *Fractional quantum Hall effect and insulating phase of Dirac electrons in graphene*, Nature **462** 192 (2009) \[<a href="https://doi.org/10.1038/nature08522">doi:10.1038/nature08522</a>, [arXiv:0910.2532](https://arxiv.org/abs/0910.2532)\]
@@ -956,6 +958,8 @@ in oxide interfaces:
 in $CdTe$:
 
 * B. A. Piot, J. Kunc, M. Potemski, D. K. Maude, C. Betthausen, A. Vogl, D. Weiss, G. Karczewski, T. Wojtowicz: *Fractional quantum Hall effect in $CdTe$*, PhysRev B. **82** (2010) 081307 (R) \[<a href="https://doi.org/10.1103/PhysRevB.82.081307">doi:10.1103/PhysRevB.82.081307</a>, [arXiv:1006.0908](https://arxiv.org/abs/1006.0908)\]
+
+
 
 
 
