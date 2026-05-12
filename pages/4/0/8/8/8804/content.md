@@ -12,8 +12,11 @@ On [[secondary characteristic classes]] in [[string cobordism cohomology theory]
 
 * [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_, Bulletin des Sciences Mathématiques, Volume 138, Issue 8, December 2014, Pages 912-970 ([doi:10.1016/j.bulsci.2014.05.002](https://doi.org/10.1016/j.bulsci.2014.05.002))
 
+Relation of the [[Burnside ring]] to the [[Galois group]] of [[G-spectra]]:
 
-## Related $n$Lab entries
+* [[Niko Naumann]], [[Luca Pol]], [[Maxime Ramzi]]: *The Galois theory of -spectra and the Burnside ring* &lbrack;[arXiv:2605.10280](https://arxiv.org/abs/2605.10280)&rbrack;
+
+## Related entries
 
 * [[moduli stack]] of [[formal groups]]
 
