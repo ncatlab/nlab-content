@@ -131,6 +131,9 @@ See also
 
 * [[Badis Ydri]]: *Molien--Weyl Singlet Counting and BFSS_2--Factorization in Gaussian Matrix QM* &lbrack;[arXiv:2605.04621](https://arxiv.org/abs/2605.04621)&rbrack;
 
+* Dibakar Roychowdhury: *Krylov state complexity for BMN matrix model* &lbrack;[arXiv:2605.10786](https://arxiv.org/abs/2605.10786)&rbrack;
+
+
 
 
 
