@@ -12,10 +12,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -195,7 +192,7 @@ For several years, Joyal has been preparing a textbook on the subject which has 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
 
-* [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
+* [[André Joyal]], *Notes on quasi-categories*, lecture notes, Fields Institute Toronto (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
 
 
 Meanwhile, [[Jacob Lurie]], building on Joyal's work, has pushed the theory considerably further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is in
