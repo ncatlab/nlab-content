@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -89,7 +89,7 @@ In relation to [[Drinfeld centers]]:
 
 See also:
 
-* [[Tobias Barthel]], Logan Hyslop, Maxime Ramzi: *Geometric Points in Tensor Triangular Geometry* &lbrack;[arXiv:2603.25664](https://arxiv.org/abs/2603.25664)&rbrack;
+* [[Tobias Barthel]], Logan Hyslop, [[Maxime Ramzi]]: *Geometric Points in Tensor Triangular Geometry* &lbrack;[arXiv:2603.25664](https://arxiv.org/abs/2603.25664)&rbrack;
 
 
 
