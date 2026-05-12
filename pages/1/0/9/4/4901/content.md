@@ -63,19 +63,22 @@ Also see [[free loop space object]] for more information.
 
 ## References
 
-The relevance of derived loop spaces was amplified in a series of articles by [[David Ben-Zvi]] and [[David Nadler]],
 
-* [[David Ben-Zvi]], [[David Nadler]],
+* [[David Ben-Zvi]], [[David Nadler]]:
 
   * _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322)) 
 
   * _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry _ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
-  * _Loop Spaces and Connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
-
-    This article uses To&#235;n's theory of [[function algebras on ∞-stacks]] for showing that the function complex on a derived loop space $\mathcal{L}X$ is under mild conditions the [[Hochschild homology]] complex of $X$ hence by [[Hochschild-Kostant-Rosenberg theorem]] the collection of [[Kähler differential]] forms on $X$, and that the functions on $\mathcal{L}X$ that are invariant under the canonical $S^1$-[[action]] on $\mathcal{L}X$ are the _closed_ forms. This also gives a geometric interpretation of the old observation by [[Maxim Kontsevich]] and others, that the differential and grading on the de Rham complex may be understood as induced from automorphisms of the [[odd line]].
-
   * _Loop Spaces and Representations_ ([arXiv:1004.5120](http://arxiv.org/abs/1004.5120))
+
+Using To&#235;n's theory of [[function algebras on ∞-stacks]] for showing that the function complex on a derived loop space $\mathcal{L}X$ is, under mild conditions, the [[Hochschild homology]] complex of $X$ hence by [[Hochschild-Kostant-Rosenberg theorem]] the collection of [[Kähler differential]] forms on $X$, and that the functions on $\mathcal{L}X$ that are invariant under the canonical $S^1$-[[action]] on $\mathcal{L}X$ are the _closed_ forms (this also gives a geometric interpretation of the old observation by [[Maxim Kontsevich]] and others, that the differential and grading on the de Rham complex may be understood as induced from automorphisms of the [[odd line]]):
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]]: *$S^1$-Equivariant simplicial algebras and de Rham theory* &lbrack;[arXiv:0904.3256](https://arxiv.org/abs/0904.3256)&rbrack;
+
+* [[David Ben-Zvi]], [[David Nadler]]: _Loop Spaces and Connections_, Journal of Topology **5** 2  (2012) &lbrack;[arXiv:1002.3636](http://arxiv.org/abs/1002.3636), [doi:10.1112/jtopol/jts007](https://doi.org/10.1112/jtopol/jts007)&rbrack;
+
+
 
 
 [[!redirects derived loop spaces]]
