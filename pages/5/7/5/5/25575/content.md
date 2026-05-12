@@ -1,6 +1,10 @@
 
 * [personal page](https://sites.google.com/view/lucapol/)
 
+* [institute page](https://elearning.uni-regensburg.de/course/index.php?categoryid=12432&lang=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Luca-Pol-2164602778)
+
 ## Selected writings
 
 On ([[monoidal localization|monoidal]]) [[Bousfield localization of model categories|Bousfield localization]] of [[stable model categories]]:
