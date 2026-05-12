@@ -1,5 +1,9 @@
 
-* [webpage](http://homepages.uni-regensburg.de/~nan25776/)
+* [personal page](http://homepages.uni-regensburg.de/~nan25776/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=83004)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Niko-Naumann-14900892)
 
 ## Selected writings
 
