@@ -27,7 +27,8 @@ Named after:
 
 Lecture notes and introductions:
 
-* Níckolas de Aguiar Alves: *Lectures on the Bondi--Metzner--Sachs group and related topics in infrared physics* &lbrack;[arXiv:2504.12521](https://arxiv.org/abs/2504.12521)&rbrack;
+* Níckolas de Aguiar Alves: *Lectures on the Bondi--Metzner--Sachs group and related topics in infrared physics*, 
+Eur. Phys. J. C **86** 5 (2026) 507 &lbrack;[arXiv:2504.12521](https://arxiv.org/abs/2504.12521), [doi:10.1088/1361-6404/ae4951](https://doi.org/10.1088/1361-6404/ae4951)&rbrack;
 
 * [[Simone Speziale]]: *A short introduction to boundary symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
 
