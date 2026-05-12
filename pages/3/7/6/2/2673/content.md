@@ -13,9 +13,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -125,6 +123,9 @@ More towards [[quantization]] ([[quantum gravity]]):
 * Fernando T. Brandt, J. Frenkel, S. Martins-Filho, D. G. C. McKeon, *Quantization of Einstein-Cartan theory in the first order form* &lbrack;[arXiv:2401.16343](https://arxiv.org/abs/2401.16343)&rbrack;
 
 * Fernando T. Brandt, J. Frenkel, S. Martins-Filho, D. G. C. McKeon: *On the equivalence of first and second order formulations of the Einstein-Hilbert theory* &lbrack;[arXiv:2510.17615](https://arxiv.org/abs/2510.17615)&rbrack;
+
+* S. Martins-Filho: *Covariant quantization of the Einstein-Hilbert theory in first-order form* &lbrack;[arXiv:2604.25117](https://arxiv.org/abs/2604.25117)&rbrack;
+
 
 
 
