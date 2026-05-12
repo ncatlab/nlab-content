@@ -46,6 +46,10 @@ On [[fusion 2-categories]]:
 
 * [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]: *The Classification of Fusion 2-Categories* &lbrack;[arXiv:2411.05907](https://arxiv.org/abs/2411.05907)&rbrack;
 
+On [[topological order]] described by [[braided fusion categories]] via [[local nets of observables]] in [[AQFT]]:
+
+* [[Pieter Naaijkens]], [[David Penneys]], Daniel Wallick: *Local topological order, Haag duality, and reflection positivity* \[<a href="https://arxiv.org/abs/2605.10693">arXiv:2605.10693</a>\]
+
 
 
 
