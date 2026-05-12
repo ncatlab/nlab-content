@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -350,16 +349,21 @@ Given a Lie groupoid $G_1\Rightarrow G_0$, we take the vector bundle $ker Ts|_{G
 
 ## References
 
-Lie differentiation of [[Lie n-groupoids]] was first considered in generality in 
+On Lie differentiation of [[Lie n-groupoids]]/[[smooth infinity-groupoids|smooth $\infty$-groupoids]]:
 
-* [[Pavol Ševera]], _$L_\infty$ algebras as 1-jets of simplicial manifolds (and a bit beyond)_ ([arXiv:0612349](http://arxiv.org/abs/math/0612349))
+* [[Pavol Ševera]]: _$L_\infty$ algebras as 1-jets of simplicial manifolds (and a bit beyond)_ &lbrack;[arXiv:0612349](http://arxiv.org/abs/math/0612349)&rbrack;
 
-See also theorem 8.28 of
+* [[Urs Schreiber]]; [§4.5.1](https://arxiv.org/pdf/1310.7930v1#page=552) in *[[schreiber:differential cohomology in a cohesive topos|Differential Cohomology in a Cohesive $\infty$-Topos]]* &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
-* Du Li, _Higher Groupoid Actions, Bibundles, and Differentiation_ ([arXiv:1512.04209](http://arxiv.org/abs/1512.04209))
+* Du Li; theorem 8.28 of: _Higher Groupoid Actions, Bibundles, and Differentiation_ &lbrack;[arXiv:1512.04209](http://arxiv.org/abs/1512.04209)&rbrack;
 
-Lie differentiation [in deformation contexts](#ForDeformationContexts) is formulated in section 1 of 
+* Lory Aintablian: *Differentiation of higher groupoid
+objects in tangent categories*, PhD thesis, Bonn (2024) &lbrack;[doi:10.48565/bonndoc-711](https://doi.org/10.48565/bonndoc-711), [pdf](https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/13688/8299.pdf)&rbrack;
 
-* {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_
+* [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Lie differentiation and infinitesimal symmetries*, section 3 in: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441](https://arxiv.org/abs/2602.03441)&rbrack;
+
+Lie differentiation [in deformation contexts](#ForDeformationContexts): 
+
+* {#Lurie} [[Jacob Lurie]]; section 1 of: _[[Formal moduli problems]]_ (2011)
  
 
