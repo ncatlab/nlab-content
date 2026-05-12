@@ -14,9 +14,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -297,6 +297,8 @@ See also [Félix-Halperin-Thomas 00, Example 1 on p. 178](#FelixHalperinThomas00
 
 
 ## References
+
+> For further discussion see at *[[Whitehead product]] ---  [References in RHT](https://ncatlab.org/nlab/show/Whitehead+product#ReferencesInRationalHomotopyTheory)*. 
 
 Under the general relation between the Sullivan model and the original Quillen model of [[rational homotopy theory]], the statement comes from
 
