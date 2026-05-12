@@ -144,17 +144,19 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 
 * [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) &lbrack;[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)&rbrack;
-
   > (with an eye towards [[mathematical physics]])
 
-
-* Thomas A. Ivey and J.M. Landsberg, *Cartan for Beginners: Differential Geometry via Moving Frames and Exterior Differential Systems*, Graduate Studies in Mathematics **61**, AMS (2003) &lbrack;[doi:10.1090/gsm/061](https://doi.org/10.1090/gsm/061), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf)&rbrack;
-
-* [[Michael Spivak]], _A comprehensive introduction to differential geometry_, 5 Volumes 2005
+* [[Serge Lang]]: *Fundamentals of differential geometry*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0541-8](https://doi.org/10.1007/978-1-4612-0541-8), [pdf](https://www.cmat.edu.uy/~lessa/tesis/fundamentals_of_differential_geometry_gtm_191_.pdf)&rbrack;
 
 * [[M M Postnikov]], _Lectures on geometry_ 2001 (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
+
+* Thomas A. Ivey, J. M. Landsberg, *Cartan for Beginners: Differential Geometry via Moving Frames and Exterior Differential Systems*, Graduate Studies in Mathematics **61**, AMS (2003) &lbrack;[doi:10.1090/gsm/061](https://doi.org/10.1090/gsm/061), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf)&rbrack;
+  > (focus on [[Cartan geometry]])
+
+
+* [[Michael Spivak]], _A comprehensive introduction to differential geometry_, 5 Volumes (2005)
 
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008) &lbrack;[pdf](https://www.mat.univie.ac.at/~michor/dgbook.pdf)&rbrack;
 
