@@ -24,7 +24,7 @@ A vector bundle $V\to X$ has a pin⁻ structure if and only if $w_2(V) = w_1(V)^
 
 Lemma \ref{w2_pinm} and the [[Whitney sum formula]] imply that, in general, the direct sum of two vector bundles with pin⁻ structures is not pin⁻, due to the presence of $w_1$ cross terms in the formula for $w_2$ of a direct sum. This has a few consequences.
 
-- The direct product of two pin⁻ manifolds need not have a pin⁺ structure: $\mathbb{RP}^2$ is pin⁻, but $\mathbb{RP}^2\times\mathbb{RP}^2$ is not. Usually bordism rings are defined using the direct product, so the pin⁻ bordism groups $\Omega_*^{\mathrm{Pin}^-}$ cannot be made into a graded ring in the usual way. (In fact, they cannot be made into a graded ring at all; see below.)
+- The direct product of two pin⁻ manifolds need not have a pin⁻ structure: $\mathbb{RP}^2$ is pin⁻, but $\mathbb{RP}^2\times\mathbb{RP}^2$ is not. Usually bordism rings are defined using the direct product, so the pin⁻ bordism groups $\Omega_*^{\mathrm{Pin}^-}$ cannot be made into a graded ring in the usual way. (In fact, they cannot be made into a graded ring at all; see below.)
 - If $V\to X$ is a pin⁻ vector bundle, the virtual bundle $-V\to X$ does not in general admit a pin⁻ structure, but rather a pin⁺ structure. Thus, a manifold admits a pin⁻ structure on its [[tangent bundle]] if and only if its [[stable normal bundle]] admits a pin⁺ structure! See [Giambalvo](#Giambalvo73), §1.
 
 Analogous facts are true for generic $(B, f)$-structures, but with the exception of pin⁺ and pin⁻ structures, the most commonly studied tangential structures do not have this issue.
