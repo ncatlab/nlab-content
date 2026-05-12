@@ -17,7 +17,7 @@
 
 ## Definition
 
-Let $F,G:C\to D$ be [[functors]].  A [[natural transformation]] $\alpha:F\to G$ is **cartesian** if for any [[morphism]] $f:x\to y$ in $C$, the naturality square
+Let $F,G:C\to D$ be [[functors]].  A [[natural transformation]] $\alpha:F\to G$ is **cartesian**, or **equifibered**, if for any [[morphism]] $f:x\to y$ in $C$, the naturality square
 
 $$\array{ F x & \overset{F f}{\to} & F y\\
   ^{\alpha_x}\downarrow & & \downarrow^{\alpha_y} \\
