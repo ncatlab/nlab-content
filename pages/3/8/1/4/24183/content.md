@@ -62,6 +62,9 @@ Approaches towards rigorous derivation of anyon fusion category structure via [[
 
 * [[Alex Bols]], [[Boris Kjaer]], [[Alvin Moon]]: *The double semion state in infinite volume*, Ann. Henri Poincaré **26** (2025) 1009–1053 \[<a href="https://doi.org/10.1007/s00023-024-01445-y">doi:10.1007/s00023-024-01445-y</a>, [arXiv:2306.13762](https://arxiv.org/abs/2306.13762)\]
 
+* [[Pieter Naaijkens]], [[David Penneys]], Daniel Wallick: *Local topological order, Haag duality, and reflection positivity* \[<a href="https://arxiv.org/abs/2605.10693">arXiv:2605.10693</a>\]
+
+
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
