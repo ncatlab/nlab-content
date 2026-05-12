@@ -14,9 +14,21 @@
 =--
 
 
-This entry provides some links concerning the notes
+This page is to record the reference
 
-* {#Lurie} [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+* {#Lurie} [[Jacob Lurie]]: 
+
+  \linebreak
+
+  **Formal moduli problems**
+
+  \linebreak
+
+  (2011) 
+
+  [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf)
+
+on [[formal moduli problems]] in terms of [[dg-Lie algebras]].
 
 #Contents#
 * table of contents
