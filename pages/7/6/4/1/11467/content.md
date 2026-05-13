@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -73,6 +71,9 @@ See also:
 * Nicholas Geiser, Lukas W. Lindwasser, *Generalized Veneziano and Virasoro amplitudes* &lbrack;[arXiv:2210.14920](https://arxiv.org/abs/2210.14920)&rbrack;
 
 * Gareth Mansfield: *Positivity of the Veneziano Amplitude in Ten Dimensions* &lbrack;[arXiv:2502.20372](https://arxiv.org/abs/2502.20372)&rbrack;
+
+* Shi-Lin Wan, Shuang-Yong Zhou: *Analytic Bootstrap of the Veneziano Amplitude* &lbrack;[arXiv:2605.11084](https://arxiv.org/abs/2605.11084)&rbrack;
+
 
 
 
