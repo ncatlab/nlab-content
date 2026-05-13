@@ -35,7 +35,7 @@ Here, _univalent foundations_ is in contrast to other (earlier) approaches of la
 
 The basic idea of univalent foundations is, simply, to allow for universes that reflect _all_ [[types]]/[[objects]]. Or rather -- to avoid the notorious [[inconsistencies]] of the form of [[Russell's paradox]]/[[Girard's paradox]] -- universes that reflect all those [[types]]/[[objects]] that are "small" compared to the universe. It is this technical subtlety -- due to which a [[type]]/[[object]] may not be reflected in a given universe (namely if it is too large) but if it is, then it is so essentially _uni_quely -- which motivates the term "_uni_valent".
 
-The term "univalent foundations" as such was coined by [Voevodsky 11](#Voevodsky11), much popularized with the textbook [UFIAS 12](#UFIAS12), and is usually taken to refer to [[mathematical foundations]] based on [[Martin-Löf dependent type theory]], or similar, with the [[univalence axiom]] imposed on the [[type universe]]. But the existence of (the [[categorical semantics]] of) such "univalent type universes" in higher analogues of [[toposes]] ("[[(∞,1)-toposes|∞-toposes]]") was observed (and published) earlier in [Lurie 09, Sec. 6.1.6](#Lurie09), there called _[[object classifiers]]_ and attributed to yet earlier private conversation with [[Charles Rezk]]. 
+The term "univalent foundations" as such was coined by [Voevodsky 11](#Voevodsky11) (see [Voevodsky 14](#Voevodsky14) for etymology), much popularized with the textbook [UFIAS 12](#UFIAS12), and is usually taken to refer to [[mathematical foundations]] based on [[Martin-Löf dependent type theory]], or similar, with the [[univalence axiom]] imposed on the [[type universe]]. But the existence of (the [[categorical semantics]] of) such "univalent type universes" in higher analogues of [[toposes]] ("[[(∞,1)-toposes|∞-toposes]]") was observed (and published) earlier in [Lurie 09, Sec. 6.1.6](#Lurie09), there called _[[object classifiers]]_ and attributed to yet earlier private conversation with [[Charles Rezk]]. 
 
 That both concepts, 
 
@@ -141,6 +141,8 @@ See also:
 * _[Univalent foundations webpage](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
 
 * {#Voevodsky11} [[Vladimir Voevodsky]],  _Univalent foundations_, talk at IAS 2011 ([pdf](https://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_UPenn.pdf))
+
+* {#Voevodsky14} [[Vladimir Voevodsky]], _Univalent foundations – new type-theoretic foundations of mathematics_, talk at IHP 2014 ([pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2014_04_22_slides.pdf))
 
 * {#UFIAS12} [[UF-IAS-2012|Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf), [[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534))
 
