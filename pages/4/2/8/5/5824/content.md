@@ -281,6 +281,8 @@ Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
 
 * [[Jacob Lurie]], Lemma 4.4.2.1 in *[[Higher Topos Theory]]*
 
+* [[Jacob Lurie]], [Tag 03FZ](https://kerodon.net/tag/03FZ) in [[Kerodon]]
+
 [[!redirects pasting law for pullbacks]]
 [[!redirects pasting law for pushouts]]
 
