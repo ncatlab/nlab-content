@@ -69,7 +69,7 @@ See at *[[cell structure of projective spaces]]*.
 ###### Proposition
 **([[homology]] of quaternionic projective space)**
 
-The [[ordinary homology]] [[homology groups|groups]] of quaternionic projective space $\mathbb{R}P^n$ can be calculated using its CW structure and are given by
+The [[ordinary homology]] [[homology groups|groups]] of quaternionic projective space $\mathbb{H}P^n$ can be calculated using its CW structure and are given by
 
 \[
   \label{ListOfHomotopyGroupsOfQuaternionicProjectiveSpace}
