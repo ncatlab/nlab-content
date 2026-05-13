@@ -72,24 +72,44 @@ Projects:
 \linebreak
 
 <div style="margin:-30px 0px 00px 30px;">
-<a href="https://sciforum.net/event/ICMMP2026?section=#Sessions"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
+<a href="https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
 </div>
 
-* (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
+* (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber)*, Hangzhou, 30 Oct--3 Nov 2026
 
-* (upcoming) guest appearance on the *[aboutlogic podcast](https://www.youtube.com/@aboutlogic)*
+<div style="float:left;margin:-50px 40px 00px 20px;">
+<a href="https://youtu.be/V7749J5-lho"><img src="/schreiber/files/aboutlogic-thumbnail.png" width="370"></a> 
+</div>
 
-  airing May 2026, teaser: [yt](https://youtu.be/rKmPa1fa7nE?t=3154)
+\linebreak
 
-<div style="float:right;margin:-50px 0px 00px 20px;">
+* *Quantum Physics, Topos Theory & Homotopy Type Theory*
+
+  guest appearance on the *[aboutlogic podcast](https://www.youtube.com/@aboutlogic)*
+
+  airing May 2026, 
+
+  teaser: [yt](https://youtu.be/rKmPa1fa7nE?t=3154)
+
+  \linebreak
+
+  \linebreak
+
+  \linebreak
+
+<div style="float:right;margin:-100px 0px 00px 20px;">
 <a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO-CoverSlideSlim-260218.png" width="370"></a> 
 </div>
 
-* **[[schreiber:WIKO 2026|The &#36;1 Million Puzzle: Hadrons and Quantum Computers]]** *Why Modern Physics Needs a New Global Mathematics*, 
+* **[[schreiber:WIKO 2026|The &#36;1 Million Puzzle: Hadrons and Quantum Computers]]** 
+
+  *Why Modern Physics Needs a New Global Mathematics*, 
 
   [public evening lecture](https://www.wiko-greifswald.de/en/programm/allgemeines/veranstaltungskalender/veranstaltung/n/das-1-millionen-dollar-raetsel-hadronen-quantencomputer-268629-1/)
 
-  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/), Greifswald (6 May 2026)
+  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
+
+  Greifswald (6 May 2026)
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
