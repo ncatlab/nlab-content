@@ -200,11 +200,15 @@ The definition in terms of [[sieves]] is found in
 
 * {#SGA4} [[SGA]] 4: Théorie des topos et cohomologie étale des schémas.
 
-Standard books include
+Lecture notes:
+
+*  [[Angelo Vistoli]]: _Notes on Grothendieck topologies, fibered categories and descent theory_ &lbrack;[math.AG/0412512](http://arxiv.org/abs/math/0412512), [pdf](https://homepage.sns.it/vistoli/descent.pdf), [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406)&rbrack;  in: [[Barbara Fantechi|Fantechi]] et al. (eds.): _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) 1--104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)&rbrack;  
+
+Textbook accounts:
 
 * {#MacLaneMoerdijk94} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-* {#Borceux94} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Volume 3: Categories of Sheaves.
+* {#Borceux94} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Volume 3: Categories of Sheaves
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
