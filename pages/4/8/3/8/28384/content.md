@@ -1,0 +1,1 @@
+Was a redirects categories
