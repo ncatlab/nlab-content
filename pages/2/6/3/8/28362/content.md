@@ -56,7 +56,11 @@ The [[condensate|condensation]] of these [[magnetic monopoles]] is then imagined
 
 Now, in ordinary [[superconductors]] it is well-known that the [[Meissner effect]] causes [[magnetic field|magnetic]] [[flux lines]] to (no longer spread out radially but) be bundled into [[flux tubes]] (through [[Abrikosov vortices]]). Hence by appeal to [[electric-magnetic duality]] one may expect that, dually, in such a [[magnetic monopole]] [[condensate]] [[superinsulator]] it is instead the [[color charge|color]]-*electric* flux lines which are bundled into [[flux tubes]]/[[string]] by a *dual [[Meissner effect]]*: 
 
+> (graphics from [[schreiber:WIKO 2026|Sc 2026]])
+
 But such [[color charge|color]]-*electric* [[flux tubes]] between [[quarks]] are exactly what, in turn, is expected (cf. *[[Polyakov gauge-string duality]]*) to conceptually explain the [[confinement]] of [[quarks]] inside [[mesons]] (and more generally inside [[baryons]], hence generally inside [[hadrons]]).
+
+
 
 ## Properties
 
