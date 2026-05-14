@@ -32,6 +32,9 @@ Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding
 
 > $[$[old personal page](https://phy.princeton.edu/people/alexander-polyakov)\]: "My main interests this year \[1993?\] were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
 
+* [[Alexander M. Polyakov]]: *String theory as a universal language*, Phys. Atom. Nucl. **64** (2001) 540--547; Yad.Fiz. **64** (2001) 594-601 \[<a href="https://doi.org/10.1134/1.1358479">doi:10.1134/1.1358479</a>, [arXiv:hep-th/0006132](https://arxiv.org/abs/hep-th/0006132)\]
+
+
 Cf. also
 
 * M. Lüscher: *Symmetry-breaking aspects of the roughening transition in gauge theories*, Nuclear Physics B **180** 2 (1981) 317-329 \[<a href="https://doi.org/10.1016/0550-3213(81)90423-5">doi:10.1016/0550-3213(81)90423-5</a>\]
@@ -90,7 +93,11 @@ A detailed monograph:
 
    *Effective String Theories (EST) of Yang-Mills Flux Tubes* \[<a hraf="https://doi.org/10.1007/978-3-031-35358-1_22">doi:10.1007/978-3-031-35358-1_22</a>, <a href="https://arxiv.org/abs/2312.10629">arXiv:2312.10629</a>\]
 
-Discussion of corrections of [[flux tube]]-dynamics beyond the [[Nambu-Goto action]]:
+Discussion of ([[higher derivative correction|higher derivative]]) corrections of [[flux tube]]-dynamics beyond the [[Nambu-Goto action]]:
+
+* {#DKT1999a} [[M. Cristina Diamantini]], [[Hagen Kleinert]], [[Carlo A. Trugenberger]]: *Strings with Negative Stiffness and Hyperfine Structure*, Phys. Rev. Lett. **82** (1999) 267--270 \[<a href="https://doi.org/10.1103/PhysRevLett.82.267">doi:10.1103/PhysRevLett.82.267</a>, [arXiv:hep-th/9810171](https://arxiv.org/abs/hep-th/9810171)\]
+
+* {#DKT1999b} [[M. Cristina Diamantini]], [[Hagen Kleinert]], [[Carlo A. Trugenberger]]: *Universality Class of Confining Strings*, Phys. Lett. B **457** (1999) 87--93 \[<a href="https://doi.org/10.1016/S0370-2693(99)00532-8">doi:10.1016/S0370-2693(99)00532-8</a>, [arXiv:hep-th/9903208](https://arxiv.org/abs/hep-th/9903208)\]
 
 * Michele Caselle, Nicodemo Magnoli, Alessandro Nada, Marco Panero, Dario Panfalone, Lorenzo Verzichelli: *Confining strings in three-dimensional gauge theories beyond the Nambu--Gotō approximation*, J. High Energ. Phys. **2024** 198 (2024) \[<a href="https://doi.org/10.1007/JHEP08(2024)198">doi:10.1007/JHEP08(2024)198</a>, [arXiv:2407.10678](https://arxiv.org/abs/2407.10678)\]
 
