@@ -14,9 +14,11 @@ On [[standard model of particle physics|standard model]] [[phenomenology]] withi
 
 and with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]], [[D-brane geometry]]):
 
-* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 &lbrack;[arXiv:1109.5521](https://arxiv.org/abs/1109.5521)&rbrack;
 
-* [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time* ([arXiv:2110.03936](https://arxiv.org/abs/2110.03936))
+* [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time* &lbrack;[arXiv:2110.03936](https://arxiv.org/abs/2110.03936)&rbrack;
+
+* [[Harold C. Steinacker]]: *Quantum spacetime and quantum fluctuations in the IKKT model at weak coupling* &lbrack;[arXiv:2605.13294](https://arxiv.org/abs/2605.13294)&rbrack;
 
 Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKKT matrix model]]:
 
