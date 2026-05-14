@@ -25,6 +25,10 @@ On the [[lattice gauge theory|lattice]] formulation of [[Maxwell-Chern-Simons th
 
 * Changnan Peng, [[Maria Cristina Diamantini]], Lena Funcke, Syed Muhammad Ali Hassan, Karl Jansen, Stefan Kühn, Di Luo, Pranay Naredi: *Hamiltonian Lattice Formulation of Compact Maxwell-Chern-Simons Theory* &lbrack;[arXiv:2407.20225](https://arxiv.org/abs/2407.20225)&rbrack;
 
+On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] with an eye towards the [[dual superconductor model of confinement]]:
+
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
 
 category: people
 
