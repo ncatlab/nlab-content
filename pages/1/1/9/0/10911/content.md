@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -184,6 +182,9 @@ See also
 * Yuhma Asano: *Path integral for the closed superstring and the matrix model* &lbrack;[arXiv:2604.25052](https://arxiv.org/abs/2604.25052)&rbrack;
 
 * Tetsuyuki Muramatsu: *On the Algebraic Origin of Four-Dimensional Space-time in the IIB Matrix Model: Dimensional Selection via Rigid Supersymmetry* &lbrack;[arXiv:2605.03611](https://arxiv.org/abs/2605.03611)&rbrack;
+
+* [[Harold C. Steinacker]]: *Quantum spacetime and quantum fluctuations in the IKKT model at weak coupling* &lbrack;[arXiv:2605.13294](https://arxiv.org/abs/2605.13294)&rbrack;
+
 
 
 
