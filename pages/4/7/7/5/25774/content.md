@@ -29,6 +29,8 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
 
    <div style="margin:-20px 0px 00px 20px;"><img src="/nlab/files/FluxTubeBindingQuarksInMeson.png" width="700"></div>
 
+   > (graphics from [[schreiber:WIKO 2026|Sc 2026]])
+
    Under this assumption it would be:
 
    1. the [[flux tube]]/[[string]]'s [[tension]] which keeps the particles at theirs endpoints together and hence [[confinement|confined]], 
