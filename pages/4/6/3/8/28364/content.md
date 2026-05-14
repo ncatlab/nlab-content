@@ -11,6 +11,10 @@ Precursor discussion identifying the [[Polyakov gauge-string duality|Polyakov du
 
 * [[Yoichiro Nambu]]: *Strings, monopoles, and gauge fields*, Phys. Rev. D **10** (1974) 4262 \[<a href="https://doi.org/10.1103/PhysRevD.10.4262">doi:10.1103/PhysRevD.10.4262</a>\]
 
+and discussion of monopole condensation (not yet under this name) in [[3d compact QED]]:
+
+* [[Alexander M. Polyakov]]: *Compact Gauge Fields and the Infrared Catastrophe*, Physics Letters B **59** 1 (1975) \[<a href="https://doi.org/10.1016/0370-2693(75)90162-8">doi:10.1016/0370-2693(75)90162-8</a>\]
+
 The articles now credited with (independently) proposing the [[dual superconductor model of color confinement]]:
 
 * {#Mandelstam1975} [[Stanley Mandelstam]]: *Vortices and quark confinement in non-abelian gauge theories*, Physics Letters B **53** 5 (1975) 476--478 \[<a href="https://doi.org/10.1016/0370-2693(75)90221-X">doi:10.1016/0370-2693(75)90221-X</a>\]
@@ -161,7 +165,7 @@ Reviews with discussion of the impact on confinement in plain YM:
 
 #### In solid state physics
 
-On experimentally accessible analogs of the [[dual superconductor model of confinement]] in [[solid state physics]]:
+On experimentally accessible analogs of the [[dual superconductor model of confinement]] in [[solid state physics]] (namely in *[[superinsulators]]*):
 
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], Valeri M. Vinokur: *Confinement and Asymptotic Freedom with Cooper pairs*, Nature Comm. Phys. **1** 77 (2018) \[<a href="https://doi.org/10.1038/s42005-018-0073-9">doi:10.1038/s42005-018-0073-9</a>, [arXiv:1807.01984](https://arxiv.org/abs/1807.01984)\]
 
@@ -172,6 +176,8 @@ Review:
 * [[Carlo A. Trugenberger]]: *Superinsulators, Bose Metals and High-$T_c$ Superconductors: The Quantum Physics of Emergent Magnetic Monopoles*, World Scientific (2022) \[<a href="https://doi.org/10.1142/12688">doi:10.1142/12688</a>\]
 
 * [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS#TrugenbergerFeb2025) [[CQTS]] (Feb 2025) \[slides:[[Trugenberger-CQTSFeb2025.pdf:file]]\]
+
+* [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], Valeri M. Vinokur: *Superinsulation*, in: *Encyclopedia of Condensed Matter Physics --- Second Edition* volume **2**, Academic Press (2024) 804--816 &lbrack;\[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00220-1">doi:10.1016/B978-0-323-90800-9.00220-1</a>, [ISBN:9780323914086](https://www.sciencedirect.com/referencework/9780323914086/encyclopedia-of-condensed-matter-physics)\]
 
 #### Via holographics QCD
 
