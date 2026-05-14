@@ -1,4 +1,3 @@
-[[!redirects higher curvature corrections]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,10 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -194,5 +190,12 @@ On higher curvature corrections to [[heterotic supergravity]]:
 [[!include DBI-action higher curvature corrections -- references]]
 
 
+[[!redirects higher curvature corrections]]
 
+[[!redirects higher order curvature correction]]
 [[!redirects higher order curvature corrections]]
+
+[[!redirects higher derivative correction]]
+[[!redirects higher derivative corrections]]
+
+
