@@ -5096,7 +5096,9 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 
   [public evening lecture](https://www.wiko-greifswald.de/en/programm/allgemeines/veranstaltungskalender/veranstaltung/n/das-1-millionen-dollar-raetsel-hadronen-quantencomputer-268629-1/)
 
-  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/), Greifswald (6 May 2026)
+  [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
+
+  Greifswald (6 May 2026)
 
 
 
