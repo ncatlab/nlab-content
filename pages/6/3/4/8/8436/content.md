@@ -94,6 +94,9 @@ Textbook accounts:
 
 * {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) &lbrack;[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)&rbrack;
 
+See also:
+
+* Tapash Chakraborty (ed.): *Encyclopedia of Condensed Matter Physics --- Second Edition*, Academic Press (2023) &lbrack;[ISBN:9780323914086](https://www.sciencedirect.com/referencework/9780323914086/encyclopedia-of-condensed-matter-physics)&rbrack;
 
 In terms of ([[effective quantum field theory|effective]]) [[quantum field theory]]:
 
