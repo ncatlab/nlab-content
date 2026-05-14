@@ -63,7 +63,7 @@ On [[Steven Weinberg]]:
 
 * [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Steven Weinberg: A Scientific Life*, Biographical Memoirs of Fellows of the Royal Society (2025) &lbrack;[arXiv:2502.10979](https://arxiv.org/abs/2502.10979)&rbrack;
 
-On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] with an eye towards the [[dual superconductor model of confinement]]:
+On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] for [[compact QED]], with an eye towards the [[dual superconductor model of confinement]]:
 
 * [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
