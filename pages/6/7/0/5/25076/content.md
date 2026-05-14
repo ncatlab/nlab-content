@@ -94,4 +94,6 @@ Discussion of corrections of [[flux tube]]-dynamics beyond the [[Nambu-Goto acti
 
 * Michele Caselle, Nicodemo Magnoli, Alessandro Nada, Marco Panero, Dario Panfalone, Lorenzo Verzichelli: *Effective String Theory of three-dimensional $SU(N)$ gauge theories beyond the Nambu--Gotō approximation* \[<a href="https://arxiv.org/abs/2412.14204">arXiv:2412.14204</a>\]
 
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
 
