@@ -35,7 +35,7 @@ A *unitary fusion category* is a [[C*-category|C*]]-[[fusion category]].
 
 ### General
 
-* [[David Penneys]], *Unitary fusion categories*, Section 3 in: *[Topological Phases of Matter](https://people.math.osu.edu/penneys.2/8800//Math8800Spring2021.html)* (2021) $[$[pdf](https://people.math.osu.edu/penneys.2/8800//Notes/FusionCats.pdf)$]$
+* [[David Penneys]], *Unitary fusion categories*, Section 3 in: *[Topological Phases of Matter](https://people.math.osu.edu/penneys.2/8800//Math8800Spring2021.html)* (2021) $[$[pdf](https://people.math.osu.edu/penneys.2/UQSL/ArchivedNotes/TPM/FusionCats.pdf)$]$
 
 * MO discussion: *Unitary structures on fusion categories* $[$[MO:q/131546/](https://mathoverflow.net/q/131546/381)$]$
 
