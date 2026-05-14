@@ -20,6 +20,8 @@ Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding
 
 * {#Polyakov79} [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 \[<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>\]
 
+* {#Polyakov1997b} [[Alexander Polyakov]]: *Confining strings*, Nuclear Physics B **486** 1--2 (1997) 23--33 \[<a href="https://doi.org/10.1016/S0550-3213(96)00601-3">doi:10.1016/S0550-3213(96)00601-3</a>\]
+
 * {#Polyakov80} [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171-188 \[<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>\]
   > "The basic idea is that gauge fields can be considered as chiral fields, defined on the space of all possible contours (the [[free loop space|loop space]]). The origin of the idea lies in the expectation that, in the confining phase of a gauge theory, [[closed strings]] should play the role of elementary excitations."
 
