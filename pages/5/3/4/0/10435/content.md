@@ -32,7 +32,7 @@ Let $X$ be a [[topological space]], and suppose that $X$ is [[hemicompact space|
 
 Consider the [[connected components]] of the [[complements]] $X \setminus K_i$.  An __end__ of $X$ is an infinite sequence that chooses one such connected component for each $i$.  Remarkably, the set of ends is independent of the sequence $K$ chosen (up to [[natural bijection]]).
 
-The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e = (U_1,U_2,\ldots)$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $U_i \subseteq V$ for some (hence almost every) $i$.
+The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e = (U_1,U_2,\ldots)$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $U_i \subseteq V$ for some (hence almost every) $i$. Note that if $X$ isn't connected and locally connected this space may not be compact
 
 
 ### Abstract
@@ -50,7 +50,7 @@ Let $X$ be a [[topological space]].  An __end__ of $X$ assigns, to each [[compac
 ## Examples
 
 \begin{example}
-A [[compact space]] has no ends, hence is its own end compactification.  The converse (that a space with no ends must be compact) seems to require the [[axiom of choice]] (although [[excluded middle]] and [[dependent choice]] suffice for hemicompact spaces).
+A [[compact space]] has no ends, hence is its own end compactification.  The converse, that a space with no ends must be compact, isn't true in general (eg $\mathbb{N}$). The proof in cases it does seem to require the [[axiom of choice]] (although [[excluded middle]] and [[dependent choice]] suffice for hemicompact spaces).
 \end{example}
 
 \begin{example}
