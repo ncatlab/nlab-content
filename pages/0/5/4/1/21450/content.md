@@ -343,6 +343,13 @@ is absent.
 
 > The fundamental and [literally million-dollar question](Yang-Mills+mass+gap#ReferencesMassGapProblem) is to understand the origin of these emergent [[hadron]] structures, e.g. [[mass]] and [[spin]], which arise as a consequence of [[quark]] [[confinement]]. \[...\] [[QCD]] [13], the theory of strong interactions, predicts that the strong force grows as the distance between partons increases, offering a qualitative explanation for confinement. However, as the distance scale approaches the typical length scale of a hadron, ∼ 1 [[fm]] ($10^{-15}$ meters), the complexity of first-principle QCD calculations becomes difficult to solve numerically at current computational power, due to the nature of low energy self-interacting gluons. This challenging regime, where simple approximations no longer work, is called nonperturbative QCD. Therefore, the detailed mechanisms through which confinement occurs from partons to hadrons, and how it manifests itself in hadron structure, remain unresolved puzzles [14].
 
+\linebreak
+
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
+> Understanding the mechanism of confinement in the strong interaction remains one of the central open problems of the Standard Model of particle physics.
+
+
 
 \linebreak
 
