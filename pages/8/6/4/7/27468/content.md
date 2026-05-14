@@ -31,12 +31,13 @@ See also:
 
 As an analog for the [[dual superconductor model of color confinement]]:
 
-
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], Valeri M. Vinokur: *Confinement and Asymptotic Freedom with Cooper pairs*, Nature Comm. Phys. **1** 77 (2018) \[<a href="https://doi.org/10.1038/s42005-018-0073-9">doi:10.1038/s42005-018-0073-9</a>, [arXiv:1807.01984](https://arxiv.org/abs/1807.01984)\]
 
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]]: *Superinsulators: a toy realization of QCD in condensed matter*, Ch. 23 in *Roman Jackiw -- 80th Birthday Festschrift*, World Scientific (2020) 275-286 \[<a href="https://arxiv.org/abs/2008.12541">arXiv:2008.12541</a>\]
 
 Review:
+
+* Argonne Press Release: *[Superinsulators to become scientists’ quark playgrounds](https://www.anl.gov/article/superinsulators-to-become-scientists-quark-playgrounds)* (2019)
 
 * [[Carlo A. Trugenberger]]: *Superinsulators, Bose Metals and High-$T_c$ Superconductors: The Quantum Physics of Emergent Magnetic Monopoles*, World Scientific (2022) \[<a href="https://doi.org/10.1142/12688">doi:10.1142/12688</a>\]
 
