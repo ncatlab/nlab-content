@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents 
-{:toc}
+\tableofcontents
 
 ## Idea ##
 
@@ -591,6 +589,15 @@ This implies that the dual Chevalley-Eilenberg cochain algebra $CE^\bullet(\math
 ### Model category structure 
 
 See [[model structure for L-∞ algebras]].
+
+
+### Relation to $A_\infty$-algebras
+ {#RelationToAInfinityAlgebras}
+
+\begin{proposition}
+The graded antisymmetrization of the operations in an [[A-infinity algebra|$A_\infty$-algebra]] ([[internalization|in]] [[chain complexes]]) [[functor|funtorially]] yields an $L_\infty$-algebra. 
+\end{proposition}
+([Lada & Markl 1994 Thm. 3.1](#LadaMarkl94)).
 
 ### Relation to dg-Lie algebras
 
