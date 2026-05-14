@@ -14,6 +14,16 @@ On coupling [[abelian Chern-Simons theory]] to 1+2D [[Maxwell theory]] (cf. *[[M
 
 * [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
 
+On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] for [[compact QED]], with an eye towards the [[dual superconductor model of confinement]]:
+
+* [[M. Cristina Diamantini]], [[Hagen Kleinert]], [[Carlo A. Trugenberger]]: *Strings with Negative Stiffness and Hyperfine Structure*, Phys. Rev. Lett. **82** (1999) 267--270 \[<a href="https://doi.org/10.1103/PhysRevLett.82.267">doi:10.1103/PhysRevLett.82.267</a>, [arXiv:hep-th/9810171](https://arxiv.org/abs/hep-th/9810171)\]
+
+* [[M. Cristina Diamantini]], [[Hagen Kleinert]], [[Carlo A. Trugenberger]]: *Universality Class of Confining Strings*, Phys. Lett. B **457** (1999) 87--93 \[<a href="https://doi.org/10.1016/S0370-2693(99)00532-8">doi:10.1016/S0370-2693(99)00532-8</a>, [arXiv:hep-th/9903208](https://arxiv.org/abs/hep-th/9903208)\]
+
+
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
+
 On an experimentally accessible analog of [[confinement]], observed in [[superinsulators]] (the [[electric-magnetic duality|dual]] to [[superconductors]]), where the role of [[quark]]-[[pairs]] is played by [[Cooper pairs]] (cf. *[[dual superconductor model of confinement]]*):
 
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], Valeri M. Vinokur: *Confinement and Asymptotic Freedom with Cooper pairs*, Nature Comm. Phys. **1** 77 (2018) &lbrack;[arXiv:1807.01984](https://arxiv.org/abs/1807.01984), [doi:10.1038/s42005-018-0073-9](https://doi.org/10.1038/s42005-018-0073-9)&rbrack;
@@ -29,9 +39,6 @@ On the [[lattice gauge theory|lattice]] formulation of [[Maxwell-Chern-Simons th
 
 * Changnan Peng, [[Maria Cristina Diamantini]], Lena Funcke, Syed Muhammad Ali Hassan, Karl Jansen, Stefan Kühn, Di Luo, Pranay Naredi: *Hamiltonian Lattice Formulation of Compact Maxwell-Chern-Simons Theory* &lbrack;[arXiv:2407.20225](https://arxiv.org/abs/2407.20225)&rbrack;
 
-On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] for [[compact QED]], with an eye towards the [[dual superconductor model of confinement]]:
-
-* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
 
 category: people
