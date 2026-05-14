@@ -108,7 +108,7 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 Survery: 
 
-* [[John Preskill]], *Magnetic Monopoles*, Ann. Rev. Nucl. Part. Sci. **34** (1984) 461-530 &lbrack;[doi:10.1146/annurev.ns.34.120184.002333](https://doi.org/10.1146/annurev.ns.34.120184.002333)&rbrack;
+* {#Preskill1984} [[John Preskill]], *Magnetic Monopoles*, Ann. Rev. Nucl. Part. Sci. **34** (1984) 461-530 &lbrack;[doi:10.1146/annurev.ns.34.120184.002333](https://doi.org/10.1146/annurev.ns.34.120184.002333)&rbrack;
 
 Monographs:
 
