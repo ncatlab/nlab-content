@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -468,4 +468,5 @@ see also in relation to [[infraparticles]]:
 [[!redirects electric Gauß law]]
 [[!redirects electric Gauß laws]]
 
-
+[[!redirects Gauss Law]]
+[[!redirects Gauss Laws]]
