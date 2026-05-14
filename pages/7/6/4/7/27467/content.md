@@ -20,6 +20,10 @@ On an experimentally accessible analog of [[confinement]], observed in [[superin
 
 * [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]]: *Superinsulators: a toy realization of QCD in condensed matter*, Ch. 23 in *Roman Jackiw -- 80th Birthday Festschrift*, World Scientific (2020) 275-286 &lbrack;[arXiv:2008.12541](https://arxiv.org/abs/2008.12541)&rbrack;
 
+On [[superinsulation]]:
+
+* [[M. Cristina Diamantini]], [[Carlo A. Trugenberger]], V. M. Vinokur: *Superinsulation*, in: *Encyclopedia of Condensed Matter Physics --- Second Edition* volume **2**, Academic Press (2024) 804--816 &lbrack;[doi:10.1016/B978-0-323-90800-9.00220-1](https://doi.org/10.1016/B978-0-323-90800-9.00220-1), [ISBN:9780323914086](https://www.sciencedirect.com/referencework/9780323914086/encyclopedia-of-condensed-matter-physics)&rbrack;
+
 
 On the [[lattice gauge theory|lattice]] formulation of [[Maxwell-Chern-Simons theory]]:
 
