@@ -1,5 +1,5 @@
 
-Carlo Andrea Trugenberger
+Carlo Andrea Trugenberger graduated in theoretical physics from the Swiss Federal Institute of Technology in Zurich, where he also obtained his PhD. After postdoctoral positions at MIT, Los Alamos National Laboratory, CERN, and Max Planck Institute in Munich he became associate professor of physics at Geneva university. He then quit academia to focus on founding two companies in the domain of artificial intelligence, one of which he stills leads today. He continues his fundamental physics research on the topics of [[quantum materials]] and [[quantum gravity]]. In 1996, in collaboration with [[M. Cristina Diamantini|M. C. Diamantini]] and P. Sodano he first predicted the existence of [[superinsulators]] and Bose (or anomalous) metals, both of which have now been confirmed. &lbrack;from [here](https://icsmforever.org/wp-content/uploads/2024/11/Flyer_Carlo-Trugenberger.pdf)&rbrack;
 
 * [inSpire page](https://inspirehep.net/authors/985594)
 
@@ -45,7 +45,7 @@ On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]] ([[pie
 
 * [[Carlo A. Trugenberger]]: *Networks as the fundamental constituents of the universe*, J. Phys. Complex. **6** (2025) 042001 &lbrack;[arXiv:2512.17676](https://arxiv.org/abs/2512.17676)&rbrack;
 
-On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] with an eye towards the [[dual superconductor model of confinement]]:
+On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] for [[compact QED]], with an eye towards the [[dual superconductor model of confinement]]:
 
 * [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
