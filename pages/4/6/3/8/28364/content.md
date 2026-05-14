@@ -11,9 +11,14 @@ Precursor discussion identifying the [[Polyakov gauge-string duality|Polyakov du
 
 * [[Yoichiro Nambu]]: *Strings, monopoles, and gauge fields*, Phys. Rev. D **10** (1974) 4262 \[<a href="https://doi.org/10.1103/PhysRevD.10.4262">doi:10.1103/PhysRevD.10.4262</a>\]
 
-and discussion of monopole condensation (not yet under this name) in [[3d compact QED]]:
+and discussion of confinement via monopole condensation (not yet under this name) in the abelian toy example of 3D [[compact QED]]:
 
 * [[Alexander M. Polyakov]]: *Compact Gauge Fields and the Infrared Catastrophe*, Physics Letters B **59** 1 (1975) \[<a href="https://doi.org/10.1016/0370-2693(75)90162-8">doi:10.1016/0370-2693(75)90162-8</a>\]
+
+* {#Polyakov1977} [[Alexander M. Polyakov]]: *Quark confinement and topology of gauge theories*, Nuclear Physics B **120** 3 (1977) 429--458 \[<a href="https://doi.org/10.1016/0550-3213(77)90086-4">doi:10.1016/0550-3213(77)90086-4</a>\]
+
+* {#Polyakov1997} [[Alexander Polyakov]]: *Confining strings*, Nuclear Physics B **486** 1--2 (1997) 23--33 \[<a href="https://doi.org/10.1016/S0550-3213(96)00601-3">doi:10.1016/S0550-3213(96)00601-3</a>\]
+
 
 The articles now credited with (independently) proposing the [[dual superconductor model of color confinement]]:
 
