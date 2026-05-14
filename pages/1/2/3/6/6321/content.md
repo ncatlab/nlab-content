@@ -14,9 +14,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -51,7 +49,10 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
 
 * [[axial anomaly]]
 
+
 ## Related concepts
+
+* [[compact QED]]
 
 * [[fine structure constant]]
 
