@@ -39,6 +39,9 @@ On discretized [[gravity]] via [[Ollivier-Ricci curvature]] of [[graphs]] ([[pie
 
 * [[Carlo A. Trugenberger]]: *Networks as the fundamental constituents of the universe*, J. Phys. Complex. **6** (2025) 042001 &lbrack;[arXiv:2512.17676](https://arxiv.org/abs/2512.17676)&rbrack;
 
+On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]] for [[flux tube]] [[strings]] in [[Polyakov gauge-string duality]] with an eye towards the [[dual superconductor model of confinement]]:
+
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
 
 
