@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -274,7 +272,10 @@ The concept of stable Cohomotopy as such:
 
 Discussion of stable Cohomotopy as [[framed manifold|framed]] [[cobordism cohomology theory]]:
 
-* {#Stong68} [[Robert Stong]], Chapter IV, Example 1, p. 40 of _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
+* {#Stong68} [[Robert Stong]], Chapter IV, Example 1, p. 40 of _Notes on Cobordism theory_, Princeton University Press (1968) &lbrack;[toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html)&rbrack;
+
+* Pengcheng Li, Jianzhong Pan, Jie Wu: *Stable Cohomotopy in Codimensions Two and Three: From Algebraic Characterizations to Bordism-Theoretic Interpretations* &lbrack;[arXiv:2605.13239](https://arxiv.org/abs/2605.13239)&rbrack;
+
 
 Discussion of stable Cohomotopy of [[Lie groups]]:
 
