@@ -52,7 +52,7 @@ Further discussion:
 * Orlando Oliveira, Lee C. Loveridge, Paulo J. Silva: *Compact QED: the photon propagator, confinement and positivity violation for the pure gauge theory*,  EPJ Web Conf.
 **274** 02004 (2022)  \[<a href="https://doi.org/10.1051/epjconf/202227402004">doi:10.1051/epjconf/202227402004</a>, [arXiv:2211.12593](https://arxiv.org/abs/2211.12593)\]
 
-* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+* {#DiamantiniQuevedoTrugenbergerZapata2026} [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
 
 [[!redirects compact quantum electrodynamics]]
