@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -268,11 +267,13 @@ where $\nabla$ is the spacetime vector derivative, $F$ is the Faraday bivector, 
 
 * [[Yang-Mills equations]]
 
+
 ## References
 
 For more see the references at *[[electromagnetism]]*.
 
 ### General
+ {#ReferencesGeneral}
 
 Maxwell's equations originate in:
 
@@ -280,7 +281,16 @@ Maxwell's equations originate in:
 
 * [[James Clerk Maxwell]], *A Treatise on Electricity and Magnetism*, Clarendon Press Series, Macmillan & Co. (1873),  Cambridge University Press (2010) &lbrack;[ark:/13960/t9s17v886](https://archive.org/details/electricandmagne01maxwrich), [doi:10.1017/CBO9780511709333](https://doi.org/10.1017/CBO9780511709333), [pdf](https://www.aproged.pt/biblioteca/MaxwellI.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Treatise_on_Electricity_and_Magnetism)&rbrack;
 
-Some history and reflection:
+there written as a system of 20 equations. A historical account of how this came about:
+
+* Giuseppe Pelosi, Stefano Selleri: *The Roots of Maxwell’s "A Dynamical Theory of the Electromagnetic Field"*, Firenze University Press (2023) &lbrack;[pdf](https://media.fupress.com/files/pdf/24/12906/37514)&rbrack;
+
+The condensation of Maxwell's 20 equations to the modern system of 4 equations (the two [[Gauss Laws]], Faraday's Law, and Ampère's Law with Maxwell's correction) is due, besides Heinrich Hertz, to the "Maxwellian's" FitzGerald, Ledge and [[Oliver Heaviside]]: 
+
+* Dipak Sengupta, Tapan K. Sarkar: *Maxwell, Hertz, the Maxwellians, and the Early History of Electromagnetic Waves*, IEEE Antennas and Propagation Magazine **45** 2 (2003) &lbrack;[pdf](https://www2.unifap.br/rsmatos/files/2013/10/Hertz_Maxwell_history.pdf), [[Hertz_Maxwell_history.pdf:file]]&rbrack;
+  
+
+Some more history and reflection:
 
 * A. C. T. Wu, [[Chen Ning Yang]]: *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
