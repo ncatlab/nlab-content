@@ -167,15 +167,13 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 Connections on 2-bundles with vanishing 2-form curvature and arbitrary 3-form curvature are defined in terms of their [[higher parallel transport]] are discussed in
 
-* [[Urs Schreiber]],  [[Konrad Waldorf]], 
+* [[Urs Schreiber]],  [[Konrad Waldorf]]: _Smooth Functors vs. Differential Forms_, Homology, Homotopy Appl. **13** 1 (2011) 143--203 &lbrack;[doi:10.4310/HHA.2011.v13.n1.a7](https://dx.doi.org/10.4310/HHA.2011.v13.n1.a7), [arXiv:0802.0663 math.DG](http://arxiv.org/abs/0802.0663)&rbrack;
 
-  _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+* [[Urs Schreiber]],  [[Konrad Waldorf]]: *Connections on non-abelian gerbes and their holonomy*, Theory and Applications of Categories **28** 17 (2013) 476--540 &lbrack;[tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923 math.DG](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>&rbrack;
 
-  _Connections on non-abelian gerbes and their holonomy_, Theory and Applications of Categories, Vol. 28, 2013, No. 17, pp 476-540. ([TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+expanding on:
 
-expanding on
-
-* [[John Baez]], [[Urs Schreiber]]: *Higher Gauge Theory*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431**, AMS (2007) 7-30 &lbrack;[arXiv:math/0511710](http://arxiv.org/abs/math/0511710), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431) [ams:conm-431](https://bookstore.ams.org/conm-431)&rbrack;
+* [[John Baez]], [[Urs Schreiber]]: *Higher Gauge Theory*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431**, AMS (2007) 7-30 &lbrack;[arXiv:math/0511710 math.DG](http://arxiv.org/abs/math/0511710), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431) [ams:conm-431](https://bookstore.ams.org/conm-431)&rbrack;
 
 Further discussion and illustration and relation to [[tensor networks]]:
 
@@ -204,7 +202,7 @@ A discussion of general (non fake-flat, now called "[[adjusted Weil algebra|adju
 
 and their globalization:
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149--250 &lbrack;[doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5), [arXiv:1011.4735](https://arxiv.org/abs/1011.4735)&rbrack;
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149--250 &lbrack;[doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5), [arXiv:1011.4735 math.AT](https://arxiv.org/abs/1011.4735)&rbrack;
 
 * {#SchreiberCohesive} [[Urs Schreiber]]: *[[schreiber:differential cohomology in a cohesive topos]]*
   (cf. [[connection on an infinity-bundle]] for more general discussion)
@@ -213,9 +211,9 @@ Discussion of the [[adjusted Weil algebra|adjusted]] version (see there for more
 
 * {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
 
-* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092](https://arxiv.org/abs/2203.00092)&rbrack;
+* [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Explicit Non-Abelian Gerbes with Connections*, J. Phys. A **59** (2026) 035201 &lbrack;[doi:10.1088/1751-8121/ae2e60](https://doi.org/10.1088/1751-8121/ae2e60), [arXiv:2203.00092 math.AT](https://arxiv.org/abs/2203.00092)&rbrack;
 
-* [[Konrad Waldorf]]: *Adjusted connections on non-abelian bundle gerbes* \[<a href="https://arxiv.org/abs/2604.24513">arXiv:2604.24513</a>\]
+* [[Konrad Waldorf]]: *Adjusted connections on non-abelian bundle gerbes* \[<a href="https://arxiv.org/abs/2604.24513">arXiv:2604.24513 math.DG</a>\]
 
 
 ### Applications to physics
