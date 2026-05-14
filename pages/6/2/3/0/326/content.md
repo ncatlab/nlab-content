@@ -209,3 +209,5 @@ where $j$ is the [[Yoneda embedding]]. Profunctors $\mathbf{F} : C^{op} \times C
 
 [[!redirects hom]]
 [[!redirects Hom]]
+
+[[!redirects hom profunctor]]
