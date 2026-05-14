@@ -93,7 +93,7 @@ On Euler-like vector fields:
 
 * [[Eckhard Meinrenken]]: *Euler-like vector fields, normal forms, and isotropic embeddings*, Indagationes Mathematicae **32** 1 (2021) 224-245, Indagationes Mathematicae &lbrack;[arXiv:2001.10518](https://arxiv.org/abs/2001.10518), [doi:10.1016/j.indag.2020.08.006](https://doi.org/10.1016/j.indag.2020.08.006)&rbrack;
 
-* Arthur Lei Qiu: *Euler-like vector fields* (2021) &lbrack;notes:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike.pdf), [[Qiu-EulerVFnotes.pdf:file]], slides:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike_Slides_annotated.pdf), [[Qiu-EulerVFslides.pdf:file]]&rbrack;
+* {#Qiu2021} Arthur Lei Qiu: *Euler-like vector fields* (2021) &lbrack;notes:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike.pdf), slides:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike_Slides_annotated.pdf)&rbrack;
 
 * L. A. Visscher: *Euler-like vector fields and normal forms*, Master thesis (2021) &lbrack;[pdf](https://webspace.science.uu.nl/~crain101/thesis-Luuk-Vischer.pdf), [[Visscher-EulerVectorFields.pdf:file]]&rbrack;
 
