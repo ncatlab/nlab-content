@@ -12,6 +12,11 @@
 
 ## Selected writings
 
+Discussion of [[confinement]] via [[monopole]] [[condensate|condensation]] in [[3D compact QED]] (an abelian toy model of what came to be called the *[[dual superconductor model of color confinement]]*):
+
+* [[Alexander M. Polyakov]]: *Compact Gauge Fields and the Infrared Catastrophe*, Physics Letters B **59** 1 (1975) \[<a href="https://doi.org/10.1016/0370-2693(75)90162-8">doi:10.1016/0370-2693(75)90162-8</a>\]
+
+
 Discussing what came to be called the *[[Polyakov action]]* for the [[bosonic string]] and the resulting [[Liouville theory]], in the non-critical case:
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
