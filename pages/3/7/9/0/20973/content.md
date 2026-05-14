@@ -37,7 +37,7 @@ On complex and Lorentzian analogs of [[Cayley forms]]:
 
 More on [[Cayley forms]]:
 
-* [[Kirill Krasnov]], *Dynamics of Cayley Forms* &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661)&rbrack;
+* [[Kirill Krasnov]], *Dynamics of Cayley Forms*, Pure and Applied Mathematics Quarterly, **21** 5 (2025) 1959--2003 &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661), [doi:10.4310/PAMQ.250421122254](https://doi.org/10.4310/PAMQ.250421122254)&rbrack;
 
 
 
