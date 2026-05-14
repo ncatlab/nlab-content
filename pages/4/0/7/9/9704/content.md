@@ -85,11 +85,15 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 ## Related concepts
 
-* [[Yang-Mills monopole]]
+* [[Dirac charge quantization]]
+
+* [[compact QED]]
+
+* [[dual superconductor model of confinement]]
 
 * [[fiber bundles in physics]]
 
-* [[dual superconductor model of confinement]]
+* [[Yang-Mills monopole]]
 
 * [[domain wall]], [[cosmic string]]
 
