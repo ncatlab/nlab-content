@@ -1,5 +1,5 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Markovich_Polyakov)
+Alexander Markovich Polyakov
 
 * [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton (archived [screenshot](https://ncatlab.org/nlab/files/APolyakovOldHomepage.jpg))
 
@@ -7,14 +7,24 @@
 
   > (cf. *[[Polyakov gauge-string duality]]*)
 
-* Valery Pokrovsky, *Hidden Sasha Polyakov’s life in Statistical and Condensed Matter Physics*, in: *Polyakov’s String: Twenty Five Years After*, Proceedings of an International Workshop at Chernogolovka (2005) 2-15 &lbrack;[arXiv:hep-th/0510214](https://arxiv.org/abs/hep-th/0510214)&rbrack;
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Markovich_Polyakov)
+
+* [Grokipedia page](https://grokipedia.com/page/Alexander_Markovich_Polyakov)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=135994)
+
+* [inSpire page](https://inspirehep.net/authors/993035)
+
+* Valery Pokrovsky: *Hidden Sasha Polyakov’s life in Statistical and Condensed Matter Physics*, in: *Polyakov’s String: Twenty Five Years After*, Proceedings of an International Workshop at Chernogolovka (2005) 2-15 &lbrack;[arXiv:hep-th/0510214](https://arxiv.org/abs/hep-th/0510214)&rbrack;
 
 
 ## Selected writings
 
-Discussion of [[confinement]] via [[monopole]] [[condensate|condensation]] in [[3D compact QED]] (an abelian toy model of what came to be called the *[[dual superconductor model of color confinement]]*):
+Discussion of [[confinement]] via [[monopole]] [[condensate|condensation]] in [[compact QED]] (an abelian toy model of what came to be called the *[[dual superconductor model of color confinement]]*):
 
 * [[Alexander M. Polyakov]]: *Compact Gauge Fields and the Infrared Catastrophe*, Physics Letters B **59** 1 (1975) \[<a href="https://doi.org/10.1016/0370-2693(75)90162-8">doi:10.1016/0370-2693(75)90162-8</a>\]
+
+* {#Polyakov1977} [[Alexander M. Polyakov]]: *Quark confinement and topology of gauge theories*, Nuclear Physics B **120** 3 (1977) 429--458 \[<a href="https://doi.org/10.1016/0550-3213(77)90086-4">doi:10.1016/0550-3213(77)90086-4</a>\]
 
 
 Discussing what came to be called the *[[Polyakov action]]* for the [[bosonic string]] and the resulting [[Liouville theory]], in the non-critical case:
@@ -37,15 +47,20 @@ Early discussion of [[renormalization]] of [[Wilson loop]] [[quantum observables
 
 Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD]] with the [[strings]] of [[string theory]], hence of the [[holographic principle]] in what came to be known as the [[AdS-QCD correspondence]] (see *[[Polyakov gauge-string duality]]*):
 
-* [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>&rbrack;
+* [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247--250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>&rbrack;
 
-* [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171-188 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>&rbrack;
+* {#Polyakov1997} [[Alexander Polyakov]]: *Confining strings*, Nuclear Physics B **486** 1--2 (1997) 23--33 \[<a href="https://doi.org/10.1016/S0550-3213(96)00601-3">doi:10.1016/S0550-3213(96)00601-3</a>\]
+
+* [[Alexander Polyakov]], *Gauge fields as rings of glue*, Nuclear Physics B **164** (1980) 171--188 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90507-6">doi:10.1016/0550-3213(80)90507-6</a>&rbrack;
 
 * [[Alexander Polyakov]], *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
 
 * {#Polyakov98} [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
+
+* [[Alexander M. Polyakov]]: *String theory as a universal language*, Phys. Atom. Nucl. **64** (2001) 540--547; Yad.Fiz. **64** (2001) 594-601 \[<a href="https://doi.org/10.1134/1.1358479">doi:10.1134/1.1358479</a>, [arXiv:hep-th/0006132](https://arxiv.org/abs/hep-th/0006132)\]
+
 
 eventually leading to the rules of the [[AdS-CFT correspondence]]:
 
