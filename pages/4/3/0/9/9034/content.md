@@ -113,7 +113,7 @@ See also at _[Spin Grassmannians](Spn.Sp1#SpinGrassmannians)_.
 
 * [[Mikhail Katz]], [[Steven Shnider]], _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](http://arxiv.org/abs/0801.0283))
 
-* [[Kirill Krasnov]], *Dynamics of Cayley Forms* &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661)&rbrack;
+* [[Kirill Krasnov]], *Dynamics of Cayley Forms*, Pure and Applied Mathematics Quarterly, **21** 5 (2025) 1959--2003 &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661), [doi:10.4310/PAMQ.250421122254](https://doi.org/10.4310/PAMQ.250421122254)&rbrack;
 
 
 On a complex and [[Lorentzian manifold|Lorentzian]] variant:
