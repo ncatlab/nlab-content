@@ -294,7 +294,7 @@ See also
 
 A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental theorem of algebra]] for the [[modulated Cauchy real numbers]] without countable choice:
 
-* Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* [[Wim Ruitenburg]], Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 Implementation of [[Errett Bishop|Bishop]]-style [[Cauchy real numbers]] in [[Agda]]:
 
