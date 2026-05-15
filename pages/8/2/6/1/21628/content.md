@@ -13,7 +13,7 @@
 =--
 =--
 
-This entry collects links related to the book
+This entry is to record the reference:
 
 * [[Egbert Rijke]]:
 
@@ -23,11 +23,14 @@ This entry collects links related to the book
 
   \linebreak
 
-  Cambridge Studies in Advanced Mathematics,
+  Cambridge Studies in Advanced Mathematics
 
-  Cambridge University Press, November 2025 
+  Cambridge University Press (November 2025)
 
-  ISBN: 9781108844161, [web](https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/introduction-homotopy-type-theory#about-the-authors),  (359 pages)
+  [ISBN: 9781108844161](https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/introduction-homotopy-type-theory)
+
+  (359 pages)
+
 
 which introduces [[homotopy type theory]] in general and in particular [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]]. 
 
