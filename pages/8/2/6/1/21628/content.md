@@ -13,7 +13,7 @@
 =--
 =--
 
-This entry collects links related to the forthcoming book
+This entry collects links related to the book
 
 * [[Egbert Rijke]]:
 
@@ -25,12 +25,15 @@ This entry collects links related to the forthcoming book
 
   Cambridge Studies in Advanced Mathematics,
 
-  Cambridge University Press 
+  Cambridge University Press, November 2025 
 
-  {#pdf} [arXiv:2212.11082](https://arxiv.org/abs/2212.11082) (359 pages)
-
+  ISBN: 9781108844161, [web](https://www.cambridge.org/us/universitypress/subjects/mathematics/logic-categories-and-sets/introduction-homotopy-type-theory#about-the-authors),  (359 pages)
 
 which introduces [[homotopy type theory]] in general and in particular [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]]. 
+
+A draft version of the book from 2022 can be found in pdf format on the arXiv at: 
+
+* {#pdf} [arXiv:2212.11082](https://arxiv.org/abs/2212.11082)
 
 The book is based on a course taught by the author at Carnegie Mellon University in the spring semester of 2018:
 
