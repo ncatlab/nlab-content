@@ -24,10 +24,8 @@
 
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -71,7 +69,7 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 
 ### General
 
-* [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys.Rev. D26 (1982) 1481 ([spire:11999](http://inspirehep.net/record/11999))
+* [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys. Rev. D **26** (1982) 1481 &lbrack;[spire:11999](http://inspirehep.net/record/11999)&rbrack;
 
 * [[Itzhak Bars]], _Supersymmetry, p-brane duality and hidden space-time dimensions_, Phys. Rev. D54, 5203 (1996) ([arXiv: hep-th/9604139](https://arxiv.org/abs/hep-th/9604139)). 
 
