@@ -79,5 +79,13 @@ The concept of a possibly trivial field appeared in
 
 where the possibly trivial Heyting fields are called "Heyting fields" and the possibly trivial discrete field are called "discrete fields". 
 
+The [[trivial ring]] is a field in:
+
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987)
+
+according to 
+
+* [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
+
 [[!redirects possibly trivial field]]
 [[!redirects possibly trivial fields]]
