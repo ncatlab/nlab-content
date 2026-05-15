@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -506,7 +506,7 @@ For more see at _[[M-theory on S1/G_HW times H/G_ADE]]_.
 
 [[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]] (see also at _[M2-branes -- Dyonic membranes](M2-brane#ReferencesDyonic)_)
 
-* {#MitraRoy00} Indranil Mitra, Shibaji Roy, _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026, 2001 ([arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236))
+* {#MitraRoy00} Indranil Mitra, Shibaji Roy: _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026 (2001) &lbrack;[arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236), [doi:10.1088/1126-6708/2001/02/026](https://doi.org/10.1088/1126-6708/2001/02/026)&rbrack;
 
 
 * {#AlishahihaOz00} Mohsen Alishahiha, Yaron Oz, _Supergravity and "New" Six-Dimensional Gauge Theories_, Phys.Lett.B495:418-426, 2000 ([arXiv:hep-th/0008172](https://arxiv.org/abs/hep-th/0008172))
