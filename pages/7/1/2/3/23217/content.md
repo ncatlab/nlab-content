@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On [[combinatorics|combinatorial]] descriptions of [[homotopy groups of spheres]]:
+
+* [[Roman Mikhailov]], [[Jie Wu]]: *A combinatorial description of homotopy groups of spheres* &lbrack;[arXiv:1108.3055](https://arxiv.org/abs/1108.3055)&rbrack;
+
+
 On [[fr-codes]] in [[homological algebra]]:
 
 * {#IvanovMikhailov15} [[Sergei O. Ivanov]], [[Roman Mikhailov]]: *A higher limit approach to homology theories*, Journal of Pure and Applied Algebra **219** 6 (2015) 1915-1939 &lbrack;[arXiv:1309.4920](https://arxiv.org/abs/1309.4920), [doi:10.1016/j.jpaa.2014.07.016](https://doi.org/10.1016/j.jpaa.2014.07.016)&rbrack;
@@ -17,7 +22,7 @@ On [[fr-codes]] in [[homological algebra]]:
 
 Proof that all higher [[homotopy groups]] [[homotopy groups of spheres|of]] the [[2-sphere]] are non-trivial:
 
-* [[Sergei O. Ivanov]], [[Roman Mikhailov]], Jie Wu: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
+* [[Sergei O. Ivanov]], [[Roman Mikhailov]], [[Jie Wu]]: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
 
 
 On aspects of [[group theory]] seen inside [[homotopy theory]]/[[infinity-group|$\infty$-group theory]]:
