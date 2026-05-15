@@ -17,9 +17,9 @@
 =--
 =--
 
-# Constructive mathematics
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -280,6 +280,7 @@ There is also
 
 * [[constructivism and idealism]]
 
+
 ## References
  {#References}
 
@@ -318,11 +319,15 @@ An more technical introduction to constructive reasoning in mathematics is (with
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-Other accounts:
+Further accounts:
+
 
 * [[Michael J. Beeson]], *Foundations of Constructive Mathematics*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **3** 6, Springer 1985 ([doi:10.1007/978-3-642-68952-9](https://link.springer.com/book/10.1007/978-3-642-68952-9), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-642-68952-9.pdf))
 
-* [[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
+* [[Douglas Bridges]], [[Fred Richman]]: _Varieties of constructive mathematics_ (1987)
+
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
+
 
 * [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society 128(9):2749-2752, March 2000. &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
 
