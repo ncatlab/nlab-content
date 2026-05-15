@@ -23,9 +23,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -197,7 +195,7 @@ From [SS 19c](#SS19c):
 * {#DFM03} E. Diaconescu, D. Freed, G. Moore,  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in: _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
 //doi.org/10.1017/CBO9780511721489))
 
-* {#MSa03} V. Mathai, H. Sati, _Some Relations between Twisted K-theory and E8 Gauge Theory_, JHEP 0403:016, 2004 ([arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://iopscience.iop.org/article/10.1088/1126-6708/2004/03/016))
+* {#MSa03} [[Varghese Mathai]], [[Hisham Sati]]: _Some Relations between Twisted K-theory and $E_8$ Gauge Theory_, JHEP 0403:016 (2004) &lbrack;[arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://iopscience.iop.org/article/10.1088/1126-6708/2004/03/016)&rbrack;
 
 * {#Sa13} H. Sati: *Framed M-branes, corners, and topological invariants*, J. Math. Phys. **59** (2018) 062304 &lbrack;[doi:10.1063/1.5007185](https://doi.org/10.1063/1.5007185), [arXiv:1310.1060](http://arxiv.org/abs/1310.1060)&rbrack;
 
