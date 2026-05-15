@@ -44,6 +44,9 @@ The original articles on the [[D'Auria-Fré-Regge formulation of supergravity]]:
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
   > ([[type IIA supergravity]])
 
+On [[D=12 supergravity]]:
+
+* [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys. Rev. D **26** (1982) 1481 &lbrack;[spire:11999](http://inspirehep.net/record/11999)&rbrack;
 
 On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
 
