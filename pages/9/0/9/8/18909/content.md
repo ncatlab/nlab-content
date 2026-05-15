@@ -10,10 +10,9 @@
 =--
 
 
-# Bishop's constructive mathematics
+\tableofcontents
 
-* table of contents
-{: toc}
+
 
 ## Overview
 
@@ -78,7 +77,7 @@ Books about or using Bishop's constructive mathematics include:
 
 * [[Errett Bishop]] and [[Douglas Bridges]], _Constructive Analysis_ (1985), a revised version of _FCA_, incorporating the measure theory of _CMT_.
 
-* [[Ray Mines]], [[Fred Richman]], and [[Wim Ruitenburg]], _A course in constructive algebra_ (1988)
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1988) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
 
 * [[Douglas Bridges]] and [[Luminiţa Vîţă]], _Apartness and Uniformity: A Constructive Development_ (2011)
 
