@@ -16,9 +16,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -90,7 +89,7 @@ and gauged [[D=5 supergravity]] in
 
 * [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
-*  M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
+*  [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B **259** (1985) 460 &lbrack;[spire:16067](https://inspirehep.net/record/16067)&rbrack;
 
 
 Discussion in the context of [[flux compactification]] of [[type II superstring theory]] includes
