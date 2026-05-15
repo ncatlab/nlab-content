@@ -10,7 +10,7 @@ On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] i
 
 On [[gauged supergravity|gauged]] [[D=7 supergravity]]:
 
-* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
+* [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]]: _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B **249** (1985) 381 &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>&rbrack;
 
 
 
