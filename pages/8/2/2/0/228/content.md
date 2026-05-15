@@ -9,9 +9,10 @@
 =--
 =--
 
-# Apartness relations
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -178,7 +179,8 @@ According to [Troelstra and van Dalen](#TvD):
 
 * {#TvD} Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988) uses apartness for the reals (volume 1), and general apartness relations in algebra (volume 2, chapter 8).  They say "preapartness" and "apartness" instead of "apartness" and "tight apartness" respectively.
 
-* Apartness plays a minimal role in _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
+* Apartness plays a minimal role in: [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1988) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
+
 
 * A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of [[Franka Waaldijk]], _[Modern intuitionistic topology](https://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996).
 
