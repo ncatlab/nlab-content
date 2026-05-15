@@ -17,9 +17,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -395,7 +395,7 @@ The supergravity Lie 6-algebra originates in:
 
 Brief review is in:
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], §4 of: *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], §4 of: *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
 * [[Pietro Fré]], [[Pietro Antonio Grassi]], §3 of: *Free Differential Algebras, Rheonomy, and Pure Spinors* &lbrack;[arXiv:0801.3076](http://arxiv.org/abs/0801.3076), [inspire:777785](https://inspirehep.net/literature/777785)&rbrack;
 
