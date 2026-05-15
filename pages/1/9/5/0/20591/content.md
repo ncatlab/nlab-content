@@ -58,7 +58,7 @@ More concisely, a Mealy machine as in Def. \ref{DefinitionInComponents} is (exce
   I \times S \longrightarrow O \times S
 \]
 
-As such this makes sense [[internalization|in]] any [[cartesian monoidal category]] other than [[Sets]]. 
+As such this makes sense [[internalization|in]] any [[cartesian monoidal category]], not only [[Sets]]. 
 
 In a *[[cartesian closed monoidal category|closed]]* cartesian monoidal category (such as [[Sets]]) with [[internal hom]] $[\text{-},\text{-}]$, such a map (eq:MealyMachineAsMapBetweenProducts) is equivalent to (namely: is the "[[currying|curried]]" [[internal hom]]-[[adjunct]] of) a map of the form
 
