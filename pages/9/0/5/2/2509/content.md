@@ -10,9 +10,13 @@
 
 ## Selected writings
 
+On [[D=12 supergravity]]:
+
+* [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys. Rev. D **26** (1982) 1481 &lbrack;[spire:11999](http://inspirehep.net/record/11999)&rbrack;
+
 On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
