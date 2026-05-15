@@ -17,9 +17,10 @@
 =--
 =--
 
-# Fields
-* table of contents
-{: toc}
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -198,7 +199,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * {#Moore93} [[E. Hastings Moore]] (1893), "A doubly-infinite system of simple groups", Bulletin of the American Mathematical Society, 3 (3): 73–78, $[$[doi:10.1090/S0002-9904-1893-00178-X](https://doi.org/10.1090%2FS0002-9904-1893-00178-X), [MR:1557275](https://mathscinet.ams.org/mathscinet-getitem?mr=1557275)$]$
 
-* {#MRR87} Ray Mines, [[Fred Richman]], Wim Ruitenburg,  _A course in constructive algebra_, Universitext, Springer, 1987.
+* {#MRR87} [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1988) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
 
 * {#Elephant} [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
  
