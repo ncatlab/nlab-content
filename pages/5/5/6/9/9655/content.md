@@ -4,7 +4,12 @@
 
 ## Selected writings
 
-(See also the [archive of Fred Richman's Documents](https://web.archive.org/web/20230811063327/https://math.fau.edu/richman/html/docs.htm).)
+> See also the [archive of Fred Richman's Documents](https://web.archive.org/web/20230811063327/https://math.fau.edu/richman/html/docs.htm).
+
+On [[constructive mathematics|constructive]] [[algebra]]:
+
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1988) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
+
 
 On the [[fundamental theorem of algebra]] in [[constructive mathematics]]:
 
