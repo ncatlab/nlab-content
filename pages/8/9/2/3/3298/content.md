@@ -751,7 +751,7 @@ $$
   (
    A \otimes_k A \otimes_k A
      \stackrel{\mu \otimes_k Id}{\to}
-   A
+   A \otimes_k A
   )
 $$
 
@@ -762,7 +762,7 @@ $$
   (
    A \otimes_k A \otimes_k A
      \stackrel{Id \otimes_k \mu}{\to}
-   A
+   A \otimes_k A
   )
 $$
 
@@ -773,7 +773,7 @@ $$
   (
    A \otimes_k A \otimes_k A
      \stackrel{\mu \otimes_k Id \circ \sigma_{2,3,1}}{\to}
-   A
+   A \otimes_k A
   )
   \,.
 $$
