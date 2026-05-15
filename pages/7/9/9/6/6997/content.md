@@ -104,7 +104,7 @@ In other words, antisubalgebras of an inequality algebra are equivalent to close
 
 According to [Troelstra and van Dalen](#TroelstraVanDalen88):
 
-> The study of algebraic structures in an intuitionistic setting was undertaken by Heyting ([1941](#Heyting1941))... in full generality, equipped with an apartness relation.  The notion of an antisubstructure, implicit in Heyting's treatment of ideals in polynomial rings, was formulated explicitly by D.S. Scott ([1979](#Scott1979)) (N.B. the first draft of this paper contains a good deal more than the published version).  Ruitenburg ([1982](#Ruitenberg1982Thesis), [1982A](#Ruitenberg1982)) deals with intuitionistic algebra in the spirit of Heyting and Scott.
+> The study of algebraic structures in an intuitionistic setting was undertaken by Heyting ([1941](#Heyting1941))... in full generality, equipped with an apartness relation.  The notion of an antisubstructure, implicit in Heyting's treatment of ideals in polynomial rings, was formulated explicitly by D.S. Scott ([1979](#Scott1979)) (N.B. the first draft of this paper contains a good deal more than the published version).  Ruitenburg ([1982](#Ruitenburg1982Thesis), [1982A](#Ruitenburg1982)) deals with intuitionistic algebra in the spirit of Heyting and Scott.
 
 * {#Heyting1941} [[Arend Heyting]], _Untersuchungen &#252;ber intuitionistische Algebra_, 1941
   
@@ -112,10 +112,10 @@ According to [Troelstra and van Dalen](#TroelstraVanDalen88):
 * {#Scott1979} [[Dana Scott]], _Identity and existence in intuitionistic logic_, 1979
   
 
-* {#Ruitenberg1982Thesis} [[Wim Ruitenberg]], _Intuitionistic Algebra_, Ph.D. Thesis, Rijksuniversiteit Utrecht, 1982
+* {#Ruitenburg1982Thesis} [[Wim Ruitenburg]], _Intuitionistic Algebra_, Ph.D. Thesis, Rijksuniversiteit Utrecht, 1982
   
 
-* {#Ruitenberg1982} [[Wim Ruitenberg]], _Primality and invertibility of polynomials_, 1982
+* {#Ruitenburg1982} [[Wim Ruitenburg]], _Primality and invertibility of polynomials_, 1982
   
 * {#TroelstraVanDalen88} [[Anne Sjerp Troelstra]], [[Dirk van Dalen]]: *Constructivism in Mathematics -- An introduction*, Volume II, Studies in Logic and the Foundations of Mathematics **123**: North Holland (1988) &lbrack;[ISBN:9780444703583](https://shop.elsevier.com/books/constructivism-in-mathematics-vol-2/troelstra/978-0-444-70358-3)&rbrack;
 
