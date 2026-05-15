@@ -13,6 +13,9 @@ Review of [[supergravity]]:
 
 * {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, **68,** (1981) 189-398 &lbrack;<a href="https://doi.org/10.1016/0370-1573(81)90157-5">doi:10.1016/0370-1573(81)90157-5</a>&rbrack;
 
+On [[D=12 supergravity]]:
+
+* [[Leonardo Castellani]], [[Pietro Fré]], [[F. Giani]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys. Rev. D **26** (1982) 1481 &lbrack;[spire:11999](http://inspirehep.net/record/11999)&rbrack;
 
 Secretly introducing [[super L-∞ algebras]] in their [[formal dual]] incarnation ("[[FDA]]"s in the [[supergravity]] literature):
 
@@ -29,11 +32,16 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 
 On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
-* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103 ([spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>)
+* [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: *Gauged Maximally Extended Supergravity in Seven Dimensions*, Phys. Lett. B **143** (1984) 103 &lbrack;[spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>&rbrack;
 
-* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
+* [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]]: _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B **249** (1985) 381 &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>&rbrack;
 
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_, Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
+
+On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
+
+*  [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B **259** (1985) 460 &lbrack;[spire:16067](https://inspirehep.net/record/16067)&rbrack;
+
 
 On [[D=3 supergravity]]:
 
