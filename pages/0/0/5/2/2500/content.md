@@ -413,7 +413,7 @@ Lecture notes:
 
 * P. Binetruy, G. Girardi, R. Grimm, _Supergravity couplings: a geometric formulation_, Phys.Rept.343:255-462,2001 ([arXiv:hep-th/0005225](http://arxiv.org/abs/hep-th/0005225))
 
-* [[Friedemann Brandt]], *Lectures on supergravity*, Fortsch. Phys. **50** (2002) 1126-1172 &lbrack;[arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035), <A href="https://doi.org/10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B">doi:10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B</a> &rbrack;
+* [[Friedemann Brandt]], *Lectures on supergravity*, Fortsch. Phys. **50** (2002) 1126-1172 &lbrack;[arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035), <a href="https://doi.org/10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B">doi:10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B</a>&rbrack;
 
 * [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
 
