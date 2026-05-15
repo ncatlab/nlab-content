@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -61,7 +59,7 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 Original constructions (mostly of [[type IIA supergravity|type IIA]]):
 
-* F. Giani, M. Pernici, *$N=2$ supergravity in ten dimensions*, Phys. Rev. D **30** (1984) 325 &lbrack;[doi:10.1103/PhysRevD.30.325](https://doi.org/10.1103/PhysRevD.30.325)&rbrack;
+* [[F. Giani]], [[Mario Pernici]]: *$N=2$ supergravity in ten dimensions*, Phys. Rev. D **30** (1984) 325 &lbrack;[doi:10.1103/PhysRevD.30.325](https://doi.org/10.1103/PhysRevD.30.325)&rbrack;
 
 * M. Huq, M. A. Namazie, *Kaluza-Klein supergravity in ten dimensions*, Classical and Quantum Gravity **2** 3 (1985) &lbrack;[doi:10.1088/0264-9381/2/3/007](https://iopscience.iop.org/article/10.1088/0264-9381/2/3/007)&rbrack;
 
@@ -73,9 +71,9 @@ Discussion on [[superspace]]:
 * James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
 **189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
 
-* [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
+* [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack;[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+* {#DFGT08} [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
 
 
 
@@ -83,14 +81,13 @@ Discussion on [[superspace]]:
 
 See also the general references at _[[supergravity]]_.
 
-* [[Joseph Polchinski]], chapter 12.1 of *[[String Theory]]* Vol 2: Superstring and beyond_, Cambridge Monographs on Mathematical Physics (1998)
+* [[Joseph Polchinski]], chapter 12.1 of *[[String Theory]]* *Vol 2: Superstring and beyond_, Cambridge Monographs on Mathematical Physics (1998)
 
 Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d supergravity]]:
 
 * M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293 ([spire:196711](https://inspirehep.net/literature/196711))
 
-* {#DFGT08} [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro Grassi]], Trigiante, _Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds_ [arXiv:0803.1703](https://arxiv.org/abs/0803.1703)
-
+* [DFGT08](#DFGT08)
 
 
 
@@ -179,6 +176,10 @@ Comprehensive discussion in [[higher differential geometry]]:
 
 [[!redirects D=10 type II supergravity]]
 [[!redirects D=10 type II supergravities]]
+
+[[!redirects 10D type II supergravity]]
+[[!redirects 10D type II supergravities]]
+
 
 [[!redirects type IIA supergravity]]
 [[!redirects type IIB supergravity]]
