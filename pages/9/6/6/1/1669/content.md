@@ -37,6 +37,8 @@ Note that the [[union]], exclusive union, and (internal, or external up to [[nat
 
 We also have the __[[symmetric difference]]__ of two sets, which is the same as the exclusive union.  But we see this operation as the addition in a [[Boolean ring]] and so actually interpret it in the usual way as an associative operation.  So the symmetric difference of $n$ sets indeed consists of those points that belong to an odd number of sets, and there is no infinitary symmetric difference.
 
+Similarly to how the [[biconditional]] $p \iff q$ is the [[equality]] $p = q$ in the [[set of truth values]] $\Omega$, exclusive disjunction $p \underline{\vee} q$ is the [[inequality]] [[relation]] $p \neq q$ in the [[set of truth values]]. In the [[antithesis interpretation]] of [[constructive mathematics]], one takes the equality-inequality pair of relations to be the combination of the biconditional and the exclusive disjunction, rendering the set of truth values $\Omega$ as an example of a set that is neither affirmative nor strong. 
+
 ### In dependent type theory
 
 In [[dependent type theory]], [[exclusive disjunction]] of two [[mere propositions]] $P$ and $Q$ is given by the statement that the [[sum type]] $P + Q$ is a [[contractible type]]:
@@ -85,6 +87,8 @@ For the literature on this subject, see [the Stanford Encylopedia entry](http://
 * [[logic gate]]
 
 * [[uniqueness quantifier]]
+
+* [[set of truth values]], [[type of propositions]]
 
 ## References
 
