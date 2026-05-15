@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -54,7 +53,7 @@ $$\array{& \mathrm{CRing} & \overset{L}\rightarrow & \mathrm{Prefield} & \\
 
 ## In constructive mathematics
 
-In constructive mathematics, the notion of field bifurcates into multiple notions. The definition given above results in a possibly trivial [[weak Heyting field]]. However, there are also possibly trivial [[Heyting fields]] and possibly trivial [[discrete fields]]. 
+In [[constructive mathematics]], the notion of field bifurcates into multiple notions. The definition given above results in a possibly trivial [[weak Heyting field]]. However, there are also possibly trivial [[Heyting fields]] and possibly trivial [[discrete fields]]. 
 
 ### Possibly trivial Heyting fields
 
@@ -67,8 +66,11 @@ A possibly trivial field is **discrete** if every element is either zero or inve
 ## See also
 
 * [[commutative ring]]
+
 * [[field]]
+
 * [[possibly trivial integral domain]]
+
 * [[weak local ring]]
 
 ## References
@@ -79,13 +81,13 @@ The concept of a possibly trivial field appeared in
 
 where the possibly trivial Heyting fields are called "Heyting fields" and the possibly trivial discrete field are called "discrete fields". 
 
-The [[trivial ring]] is a field in:
+The [[trivial ring]] counts as a field in the constructive context of:
 
-* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987)
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
 
-according to 
-
-* [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
+as highlighted in:
+ 
+* [[Michael Shulman]]; p. 35 of: *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic **28** 3 (2022) 327--386 &lbrack;[doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518)&rbrack;
 
 [[!redirects possibly trivial field]]
 [[!redirects possibly trivial fields]]
