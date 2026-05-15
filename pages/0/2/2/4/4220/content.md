@@ -36,7 +36,7 @@ In this formula, $\hat{b}$ is the sign of $b$, that is $b/{|b|}$; also, we must 
 
 ### Constructive issues
 
-Everything above is valid in weak forms of [[constructive mathematics]] if one takes $\mathbb{C} \coloneqq \mathbb{C}_C$ to be the [[modulated Cauchy real numbers|modulated Cauchy]] complex numbers, see [Ruitenberg (1991)](#Ruitenberg91). 
+Everything above is valid in weak forms of [[constructive mathematics]] if one takes $\mathbb{C} \coloneqq \mathbb{C}_C$ to be the [[modulated Cauchy real numbers|modulated Cauchy]] complex numbers, see [Ruitenburg (1991)](#Ruitenburg91). 
 
 However, if one takes $\mathbb{C} \coloneqq \mathbb{C}_D$ to be the [[Dedekind real numbers|Dedekind]] complex numbers, there is an interesting issue about whether $b^2 - 4a{c} \ne 0$. Everything above is valid in weak forms of [[constructive mathematics]] except for the statement that $\mathbb{C}_D$ is [[quadratic closure|quadratically closed]]. That claim follows from [[weak countable choice]] ($WCC$), which in turn will follow from either [[excluded middle]] or [[countable choice]]. Nevertheless, the statement
 $$ \forall\, a, b, c\colon \mathbb{C}_D,\; \exists\, r\colon \mathbb{C}_D,\; r^2 = b^2 - 4a{c} $$
@@ -66,7 +66,7 @@ This is valid even in characteristic $2$, but unfortunately then it is fairly us
 
 ## References
 
-* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* {#Ruitenburg91} [[Wim Ruitenburg]], Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 * [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 {#Richman}
