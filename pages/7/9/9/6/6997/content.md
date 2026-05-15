@@ -14,10 +14,7 @@
 =--
 
 
-# Antisubalgebras
-* table of contents
-{: toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -121,7 +118,7 @@ According to [Troelstra and van Dalen](#TroelstraVanDalen88):
 
 Surprisingly, antisubalgebras make hardly any appearence in 
 
-* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987)
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1988) &lbrack;[doi:10.1007/978-1-4419-8640-5](https://doi.org/10.1007/978-1-4419-8640-5)&rbrack;
 
 
 
