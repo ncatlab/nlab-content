@@ -18,9 +18,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -76,12 +75,12 @@ The maximally [[number of supersymmetries|N=4]] supersymmetric $SO(5)$-[[gauged 
 * [[Ergin Sezgin]], [[Abdus Salam]], *Maximal extended supergravity theory in seven dimensions*, Physics Letters B
 **118** 4–6 (1982) 359-364 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90204-0">doi:10.1016/0370-2693(82)90204-0</a>&rbrack;
 
-* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauged Maximally Extended Supergravity in Seven Dimensions*, Phys. Lett. B **143** (1984) 103-17 &lbrack;[spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>&rbrack;
+* [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]]: *Gauged Maximally Extended Supergravity in Seven Dimensions*, Phys. Lett. B **143** (1984) 103-17 &lbrack;[spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>&rbrack;
 
 
 There are also gaugings for non-compact groups
 
-* M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
+* [[Mario Pernici]], [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]]: _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B **249** (1985) 381 &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>&rbrack;
 
 The [[number of supersymmetries|N=2]] [[Sp(1)]]-gauged version:
 
