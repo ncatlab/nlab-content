@@ -29,6 +29,10 @@ When the set of truth values is equipped with the [[Scott topology]] (equivalent
 
 A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1)-groupoid|groupoid]]. It is also the best interpretation of the term '$(-1)$-[[(-1)-category|category]]', although this doesn\'t fit all the patterns of the [[periodic table]].
 
+Equality in the [[set of truth values]] is given by the truth of the [[biconditional]] that $P$ [[if and only if]] $Q$, $(P = Q) \iff (P \iff Q = \top)$. Meanwhile there are two notions of [[inequality]] in [[constructive mathematics]], a weak notion given by the negation of equality or falsehood of the biconditional, and a strong notion given by the truth of the [[exclusive disjunction]] of $P$ and $Q$, 
+$$(P \neq Q) \iff (P \iff Q = \bot)$$
+$$(P \# Q) \iff ((P \wedge \neg Q) \vee (Q \wedge \neg P) = \top)$$
+These notions coincide in [[classical mathematics]] by way of [[excluded middle]]. 
 
 ## Related concepts
 
