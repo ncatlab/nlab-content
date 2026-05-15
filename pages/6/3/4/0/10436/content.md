@@ -237,7 +237,7 @@ Further developments along these lines are in
 
 Another proof and generalization in the context of [[homotopy type theory]], which also recovers a basic result of [[Bass-Serre theory]] in such context, has been provided in
 
-* {#Wärn24} [[David Wärn]], _Path Spaces of Pushouts_ ([arXiv:2402.12339](https://arxiv.org/pdf/2402.12339))
+* {#Wärn24} [[David Wärn]], _Path Spaces of Pushouts_ ([arXiv:2402.12339](https://arxiv.org/abs/2402.12339))
 
 ### In shape theory
 
