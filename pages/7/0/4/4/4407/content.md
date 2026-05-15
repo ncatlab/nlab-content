@@ -122,7 +122,7 @@ However, the following weaker theorem is still true in constructive mathematics 
 Every [[unramifiable polynomial|unramifiable]] [[monic polynomial|monic]] [[polynomial function]] with coefficients in $\mathbb{C}$ has a [[simple root]] in $\mathbb{C}$.
 \end{theorem}
 
-A fully choice-free constructive proof of this theorem by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[analytic LPO]]). It is unknown if this weaker FTA is true of the [[Dedekind real number|Dedekind complex numbers]] as well. 
+A fully choice-free constructive proof of this theorem by [[Wim Ruitenburg]] ([Ruitenburg 1991](#Ruitenburg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[analytic LPO]]). It is unknown if this weaker FTA is true of the [[Dedekind real number|Dedekind complex numbers]] as well. 
 
 In the absence of $WCC$ or the [[analytic LPO]], [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
@@ -172,7 +172,7 @@ The Reverse Mathematical treatment is given in
 
 A [[constructive mathematics|constructive]] algebraic proof of the fundamental theorem of algebra for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
 
-* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* {#Ruitenburg91} [[Wim Ruitenburg]], Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 A full formalization in the [[Rocq]] [[proof assistant]] is in
 
