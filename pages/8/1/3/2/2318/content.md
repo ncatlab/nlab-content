@@ -16,9 +16,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -113,11 +112,12 @@ Since [[gauge theory]] is not just about [[principal bundle]]s, but about princi
 
 [[!include higher spin structure - table]]
 
+
 ## References
 
 The notion was introduced in:
 
-* {#SSS2} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Fivebrane structures]]_, Reviews in Mathematical Physics, **21** 10 (2009) 1197-1240 &lbrack;[arXiv:0805.0564](http://arxiv.org/abs/0805.0564), [doi:10.1142/S0129055X09003840](https://doi.org/10.1142/S0129055X09003840)&rbrack;
+* {#SSS2} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]: _[[schreiber:Fivebrane structures]]_, Reviews in Mathematical Physics, **21** 10 (2009) 1197-1240 &lbrack;[arXiv:0805.0564 math.AT](http://arxiv.org/abs/0805.0564), [doi:10.1142/S0129055X09003840](https://doi.org/10.1142/S0129055X09003840)&rbrack;
  
 
 Brief mentioning in:
