@@ -14,9 +14,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -219,25 +218,24 @@ A writeup finally appeared as:
 
 Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given in
 
-* {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](https://rezk.web.illinois.edu/freudenthal-and-blakers-massey.pdf).
+* {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_ (2014) &lbrack;[pdf](https://rezk.web.illinois.edu/freudenthal-and-blakers-massey.pdf)&rbrack;
 
 prompted by online discussion at
 
-* {#Schreiber14} [[Urs Schreiber]], _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 ([archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md))
-
-  (scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
+* {#Schreiber14} [[Urs Schreiber]]: _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 &lbrack;[archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md)&rbrack;
+  > (scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
 
 Further developments along these lines are in
 
-* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
-
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]]: _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 &lbrack;[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)&rbrack;
   > (generalizing to the case where the [[(n-connected, n-truncated) factorization system]] may be replaced by more general [[modal homotopy type theory|modalities]])
 
-* {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _Goodwillie's Calculus of Functors and Higher Topos Theory_ ([arXiv:1703.09632](https://arxiv.org/abs/1703.09632))
+* {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]]: _Goodwillie's Calculus of Functors and Higher Topos Theory_ &lbrack;[arXiv:1703.09632](https://arxiv.org/abs/1703.09632)&rbrack;
 
 Another proof and generalization in the context of [[homotopy type theory]], which also recovers a basic result of [[Bass-Serre theory]] in such context, has been provided in
 
-* {#Wärn24} [[David Wärn]], _Path Spaces of Pushouts_ ([arXiv:2402.12339](https://arxiv.org/abs/2402.12339))
+* {#Wärn24} [[David Wärn]]: _Path Spaces of Pushouts_ &lbrack;[arXiv:2402.12339](https://arxiv.org/abs/2402.12339)&rbrack;
+
 
 ### In shape theory
 
