@@ -105,7 +105,7 @@ Original discussion of $\pi_3(S^2)$ via the [[complex Hopf fibration]]:
 
 Proof that all the higher [[homotopy groups]] of the 2-sphere are non-trivial:
 
-* {#IvanovMikhailovWu2016} [[Sergei O. Ivanov]], [[Roman Mikhailov]], Jie Wu: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
+* {#IvanovMikhailovWu2016} [[Sergei O. Ivanov]], [[Roman Mikhailov]], [[Jie Wu]]: *On nontriviality of homotopy groups of spheres*, Homology, Homotopy and Applications **18** 2 (2016) \[<a href="https://doi.org/10.4310/HHA.2016.v18.n2.a18">doi:10.4310/HHA.2016.v18.n2.a18</a>, [arXiv:1506.00952](https://arxiv.org/abs/1506.00952)\]
 
 
 ### Loop space of the 2-sphere
