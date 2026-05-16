@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -255,11 +254,14 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 
 * Andrew Callister, _Topological BPS charges in 10- and 11-dimensional supergravity_, thesis 2010 ([spire](http://inspirehep.net/record/1221591?ln=en))
 
-
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](https://arxiv.org/abs/1312.0578))
 
+Textbook account:
 
-Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is discussion in 
+* [[Tomás Ortín]]: §17-18 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
+Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d:
 
 * {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)) also in [[Mike Duff]] (ed.) chapter 5 of _[[The World in Eleven Dimensions]]_
 
