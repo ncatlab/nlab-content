@@ -56,7 +56,10 @@ Introductions:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section I.4 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_ &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch I.4: [[CastellaniDAuriaFre-ChI4.pdf:file]]&rbrack;
 
-* [[Jorge Zanelli]], sections 4 and 5 of: _Lecture notes on Chern-Simons (super-)gravities. Second edition (February 2008)_, lectures at *Geometric and topological methods for quantum field theory*, Villa de Leyva (2001) &lbrack;[arXiv:hep-th/0502193](http://arxiv.org/abs/hep-th/0502193), [inspire:677203](https://inspirehep.net/literature/677203)&rbrack;
+* [[Jorge Zanelli]]; §4 and 5 of: _Lecture notes on Chern-Simons (super-)gravities. Second edition (February 2008)_, lectures at *Geometric and topological methods for quantum field theory*, Villa de Leyva (2001) &lbrack;[arXiv:hep-th/0502193](http://arxiv.org/abs/hep-th/0502193), [inspire:677203](https://inspirehep.net/literature/677203)&rbrack;
+
+* [[Tomás Ortín]]: §4.3 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
 
 * [[Pietro Fré]], §5 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
 
