@@ -27,7 +27,20 @@ The _Blakers-Massey theorem_ in the [[homotopy theory]] of [[pointed topological
 
 This [[obstruction]] is measured by triad homotopy groups $\pi_m(X;A,B)$ for a pointed space $X$ with two subspaces $A,B$ each containing the base point. Here the group structure is defined for $m \geq 3$ and is abelian for $m \geq 4$. There is an exact sequence 
 
-$$\cdots \to \pi_{n+1}(X;A,B) \to \pi_n (A, A \cap B) \to^{\epsilon} \pi_n( X,B) \to \pi_n(X;A,B) \to \cdots  $$
+$$
+  \cdots 
+    \to 
+  \pi_{n+1}(X;A,B) 
+    \longrightarrow
+  \pi_n (A, A \cap B) 
+    \longrightarrow^{\epsilon} 
+  \pi_n(X,B) 
+    \longrightarrow 
+  \pi_n(X;A,B) 
+    \longrightarrow
+  \cdots  
+  \mathrlap{\,,}
+$$
 where $\epsilon$ is the excision map. The main result of Blakers and Massey is as follows:
 
 +-- {: .num_theorem}
@@ -41,10 +54,10 @@ _is an isomorphism_.
 
 ([Blakers-Massey 51](#BlakersMassey51), [tomDieck 08, theorem 6.4.1](#tomDieck08)).
 
-+-- {: .num_remark #InTermsOfPushouts}
-###### Remark
+\begin{remark}
+\label{InTermsOfPushouts}
 
-A more intrinsic statement in the language of [[homotopy theory]] of the connectivity part of the theorem is that for $f_1$ and $f_2$ two [[maps]] out of the same [[domain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from that domain into the [[homotopy pullback]] of their [[homotopy pushout]]
+A more intrinsic statement in the language of [[homotopy theory]] of the connectivity part of the theorem is that for $f_1$ and $f_2$ two [[maps]] out of the same [[domain]] which are $n_1$- and $n_2$-[[n-connected morphism|connective]], respectively, then the canonical map from that domain into the [[homotopy pullback]] of their [[homotopy pushout]]
 
 $$
   \array{
@@ -58,7 +71,9 @@ $$
 
 is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
-=--
+(cf. [Goodwillie 1991](#Goodwillie91) [p. 309](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/goodwillie-calc2.pdf#page=309))
+
+\end{remark}
 
 +-- {: .num_remark}
 ###### Remark
@@ -124,14 +139,14 @@ The algebraic statement and proof:
 
 Textbook accounts:
 
-* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Section 15 of: *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Section 15 of: *Homotopietheorie*, Lecture Notes in Mathematics **157**, Springer (1970) &lbrack;[doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721)&rbrack;
 
 
-* {#Kochmann96} [[Stanley Kochmann]], theorem 3.2.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], theorem 3.2.4 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
 * {#Hatcher} [[Alan Hatcher]], theorem 4.23 _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
-* {#tomDieck08} [[Tammo tom Dieck]],  theorem 6.4.1 _Algebraic Topology_, EMS Textbooks in Mathematics, (2008) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+* {#tomDieck08} [[Tammo tom Dieck]],  theorem 6.4.1 of: _Algebraic Topology_, EMS Textbooks in Mathematics (2008) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf)&rbrack;
 
 
 
@@ -180,7 +195,8 @@ Discussion of Blakers-Massey connectivity for [[ring spectra]]/[[E-∞ rings]] a
 
 The higher cubical version of Blakers-Massey connectivity is due to 
 
-* {#Goodwillie91} [[Tom Goodwillie]], _Calculus II: Analytic functors_, K-Theory  01/1991; 5(4):295-332. DOI: 10.1007/BF00535644
+* {#Goodwillie91} [[Tom Goodwillie]]: _Calculus II: Analytic functors_, K-Theory  **5** 4 (1991/92) 295--332 &lbrack;[doi:10.1007/BF00535644](https://doi.org/10.1007/BF00535644)&rbrack;
+  > (otherwise about [[Goodwillie calculus]])
 
 a textbook account is in 
 
@@ -225,9 +241,9 @@ prompted by online discussion at
 * {#Schreiber14} [[Urs Schreiber]]: _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 &lbrack;[archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md)&rbrack;
   > (scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
 
-Further developments along these lines are in
+Further developments along these lines:
 
-* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]]: _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 &lbrack;[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)&rbrack;
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]]: _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 &lbrack;[arXiv:1703.09050 math.AT](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)&rbrack;
   > (generalizing to the case where the [[(n-connected, n-truncated) factorization system]] may be replaced by more general [[modal homotopy type theory|modalities]])
 
 * {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]]: _Goodwillie's Calculus of Functors and Higher Topos Theory_ &lbrack;[arXiv:1703.09632](https://arxiv.org/abs/1703.09632)&rbrack;
