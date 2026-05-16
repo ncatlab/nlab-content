@@ -829,7 +829,7 @@ Studies of the properties of $C^\infty$-rings include
 
 The notion of the spectrum of a $C^\infty$-ring and that of $C^\infty$-[[schemes]] is discussed in
 
-* [[Eduardo Dubuc]], _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) ([pdf](http://www.math.ist.utl.pt/~jroquet/Dubuc.pdf) [JSTOR](http://www.jstor.org/stable/select/2374046)).
+* [[Eduardo Dubuc]], _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) ([JSTOR](https://www.jstor.org/stable/pdf/2374046.pdf)).
 
 and more generally in
 
