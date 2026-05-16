@@ -41,6 +41,8 @@ Review and survey:
 
 * R. Aldrovandi, J. G. Pereira, K. H. Vu, _Gravitation without the equivalence principle_ ([arXiv:gr-qc/0304106](http://arxiv.org/abs/gr-qc/0304106))
 
+* [[Tomás Ortín]]: §4.6 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
 * Manuel Hohmann, *Teleparallel gravity*, in: *Signatures and experimental searches for modified and quantum gravity* &lbrack;[arXiv:2207.06438](https://arxiv.org/abs/2207.06438)&rbrack;
 
 
