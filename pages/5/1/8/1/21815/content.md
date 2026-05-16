@@ -1,9 +1,16 @@
 
+Tomás Ortín
+
 * [institute page](https://www.csic.es/en/node/165804)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=138542)
 
 * [inSpire page](https://inspirehep.net/authors/994759)
 
-* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=138542)
+* [GoogleScholar page](https://scholar.google.com/citations?user=Q4NB4kcAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Tomas-Ortin-13943253)
+
 
 ## Selected writings
 
@@ -42,7 +49,9 @@ On [[black holes]] and [[black strings]] in [[D=5 supergravity]]:
 
 * [[Patrick Meessen]], [[Tomás Ortín]], Jan Perz, [[Carlos S. Shahbazi]]: *Black holes and black strings of $N = 2$, $d = 5$ supergravity in the H-FGK formalism*, J. High Energ. Phys. **2012** 1 (2012) \[<a href="https://doi.org/10.1007/JHEP09(2012)001">doi:10.1007/JHEP09(2012)001</a>, [arXiv:1204.0507](https://arxiv.org/abs/1204.0507)\]
 
+On ([[supergravity|super]])[[gravity]] and [[string theory]]:
 
+* [[Tomás Ortín]]: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 
 category: people
