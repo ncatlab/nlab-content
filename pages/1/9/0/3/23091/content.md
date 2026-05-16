@@ -49,7 +49,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  \[ISBN 978-3-662-49361-8, [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8)\]
 
-* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
 
 * [[Jeffrey Strom]]: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>, <a href="https://www.nzdr.ru/data/media/biblio/kolxoz/M/MD/MDat/Strom%20J.%20Modern%20homotopy%20theories%20(draft,%20Univ.%20of%20Michigan,%202010)(363s)_MDat_.pdf">pdf</a>\]
 
