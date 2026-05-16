@@ -56,6 +56,8 @@ In particular, a [[simply connected]] [[oriented]] [[closed manifold|closed]] [[
 
 * [[Wu class]]
 
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 Named after 
