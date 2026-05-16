@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -75,6 +73,8 @@ Now
 
 
 ## Related concepts
+
+* [[Wall's theorem]]
 
 * [[Yang-Mills instanton]]
 
