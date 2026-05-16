@@ -123,6 +123,8 @@ The [[Kock-Lawvere axiom]] is the axiom of synthetic quasi-coherence for Artinia
 
 * [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
+
 [[!redirects quasicoherent algebra]]
 [[!redirects quasi-coherent algebra]]
 
