@@ -72,6 +72,10 @@ Q_{K3}
 $$
 It therefore has $b_2(K3)=22$ and $\sigma(K3)=16$, meaning the 11/8 conjecture is an equality for it. Taking [[connected sums]] $\#m K3$ including reversing [[orientation]] (corresponding to flipping the sign of $m$) furthermore produces examples for equalities for every $m\in\mathbb{Z}$.
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
