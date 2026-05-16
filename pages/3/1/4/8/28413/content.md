@@ -17,8 +17,7 @@ The *fake second [[complex projective space]]* is a [[topological manifold|topol
 
 ## Definition
 
-[[Freedman's classification]] shows, that up to [[homeomorphism]] there is a unique
-*fake second [[complex projective space]]* $*\mathbb{C}P^2$ and *orientation-reversed fake second [[complex projective space]]* $*\overline{\mathbb{C}P^2}\coloneqq\overline{*\mathbb{C}P^2}$, which are also [[simply connected]] [[closed manifold|closed]] [[topological manifold|topological]] [[4-manifolds]] with respective [[intersection form]] $Q_{\mathbb{C}P^2}=[+1]$ and $Q_{\overline{\mathbb{C}P^2}}=[-1]$, but have a switched [[Kirby-Siebenmann invariant]]:
+[[Freedman's classification]] shows, that up to [[homeomorphism]] there is a unique *fake second [[complex projective space]]* $*\mathbb{C}P^2$ and *orientation-reversed fake second [[complex projective space]]* $*\overline{\mathbb{C}P^2}\coloneqq\overline{*\mathbb{C}P^2}$, which are also [[simply connected]] [[closed manifold|closed]] [[topological manifold|topological]] [[4-manifolds]] with respective [[intersection form]] $Q_{\mathbb{C}P^2}=[+1]$ and $Q_{\overline{\mathbb{C}P^2}}=[-1]$, but have a switched [[Kirby-Siebenmann invariant]]:
 $$
 ks(*\mathbb{C}P^2)=1;
 $$
