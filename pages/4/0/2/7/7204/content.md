@@ -81,7 +81,7 @@ Discussion on [[superspace]]:
 
 See also the general references at _[[supergravity]]_.
 
-* [[Joseph Polchinski]], chapter 12.1 of *[[String Theory]]* *Vol 2: Superstring and beyond_, Cambridge Monographs on Mathematical Physics (1998)
+* [[Joseph Polchinski]], chapter 12.1 of: *[[String Theory]]* *Vol 2: Superstring and beyond*, Cambridge Monographs on Mathematical Physics (1998) &lbrack;[doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)&rbrack;
 
 Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d supergravity]]:
 
