@@ -73,6 +73,7 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 
 ### Introductions and Review
 
+* [[Tomás Ortín]]: *String black holes in four and five dimensions*,  §26 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 * Sebastian De Haro, Jeroen van Dongen, Manus Visser, [[Jeremy Butterfield]], _Conceptual Analysis of Black Hole Entropy in String Theory_ ([arXiv:1904.03232](https://arxiv.org/abs/1904.03232))
 
@@ -260,7 +261,9 @@ See also:
 
 Black holes in [[supergravity]]:
 
-* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_, ([hep-th/9812160](http://arxiv.org/abs/hep-th/9812160))
+* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_ &lbrack;[hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)&rbrack;
+
+* [[Tomás Ortín]]; *Supersymmetric black holes from supergravity*, §19 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 * Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
 
