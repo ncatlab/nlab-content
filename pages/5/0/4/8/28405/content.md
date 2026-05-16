@@ -76,6 +76,10 @@ For a [[simply connected]] [[topological manifold|topological]] [[4-manifolds]] 
 
 ([Scorpan 05, p. 153](#Scorpan74))
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 Named after:
