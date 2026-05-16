@@ -81,6 +81,10 @@ Review:
 
 * {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], §2.1 in: *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
+
+* [[Tomás Ortín]]: *From eleven to four dimensions* §22 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
 The actual [[double dimensional reduction]] over a non-trivial [[principal U(1)-bundle]] of the [[supergravity C-field]] [[flux densities]] $G_4$ and $G_7$ to the [[B-field]] and (most of) the [[RR-field]] [[flux densities]] ois worked out (only?) in:
 
 * {#MathaiSati04} [[Varghese Mathai]], [[Hisham Sati]], §4 in: *Some Relations between Twisted K-theory and $E_8$ Gauge Theory*, J. High Energ. Phys. **2004** 03 (2004) 016 &lbrack;[arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://doi.org/10.1088/1126-6708/2004/03/016)&rbrack;
