@@ -71,7 +71,11 @@ $$
 
 * Wikipedia, _[Gravitational instanton](http://en.wikipedia.org/wiki/Gravitational_instanton)_
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+* [[Tomás Ortín]]: §13 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
 
 Discussion in the context of [[M-theory on G₂-manifolds]] and [[gauge enhancement]]
 
