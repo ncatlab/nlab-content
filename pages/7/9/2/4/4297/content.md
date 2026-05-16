@@ -43,6 +43,8 @@ See at _[[Ricci flow]]_ for more.
 
 * [[geometrization conjecture]]
 
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 ### In dimension 3
