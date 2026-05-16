@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -469,7 +468,12 @@ Introducing what came to be known as the *Penrose limit* for producing pp-wave s
 
 * {#Penrose76} [[Roger Penrose]], *Any Space-Time has a Plane Wave as a Limit*, in *Differential Geometry and Relativity*, Mathematical Physics and Applied Mathematics **3**, Springer (1976) 271–275 &lbrack;[doi:10.1007/978-94-010-1508-0_23](https://doi.org/10.1007/978-94-010-1508-0_23), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-010-1508-0_23.pdf)&rbrack;
 
-Lecture notes
+Textbook account:
+
+* [[Tomás Ortín]]: §14 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
+Lecture notes:
 
 * {#Blau11} [[Matthias Blau]], _Plane waves and Penrose limits_ (2011) &lbrack;[pdf](http://www.blau.itp.unibe.ch/lecturesPP.pdf), [[BlauPlaneWavesAndPenroseLimit.pdf:file]]&rbrack;
 
