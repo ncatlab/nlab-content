@@ -52,3 +52,22 @@ See [[n-connected object of an (infinity,1)-topos]] for more.
 
 [[!redirects simply-connected homotopy type]]
 [[!redirects simply-connected homotopy types]]
+
+[[!redirects Simply connected space]]
+[[!redirects Simply connected spaces]]
+[[!redirects Simply-connected space]]
+[[!redirects Simply-connected spaces]]
+
+[[!redirects Simply connected topological space]]
+[[!redirects Simply connected topological spaces]]
+[[!redirects Simply-connected topological space]]
+[[!redirects Simply-connected topological spaces]]
+
+[[!redirects Simply connected]]
+[[!redirects Simply-connected]]
+
+[[!redirects Simply connected homotopy type]]
+[[!redirects Simply connected homotopy types]]
+
+[[!redirects Simply-connected homotopy type]]
+[[!redirects Simply-connected homotopy types]]
