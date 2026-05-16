@@ -7,6 +7,10 @@ There exists [[exotic smooth structure]] on the [[Euclidean space]] $\mathbb{R}^
 
 (For all other dimensions there is a unique smooth structure, the standard one, see at _[[smooth structure]]_).
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * Wikipedia, _[Exotic R4](https://en.wikipedia.org/wiki/Exotic_R4)_
