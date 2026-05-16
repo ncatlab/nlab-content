@@ -14,6 +14,10 @@
 
 *Dolgachev surfaces* provide countably infinitely many non-[[diffeomorphic]] [[smooth structures]] on the [[complex surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$, which is the nine-fold [[blow-up]] of the second [[complex projective space]].
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#Akbulut16} [[Selman Akbulut]], _4-manifolds_ (2016) &lbrack;[ISBN 978-0198784869](https://global.oup.com/academic/product/4-manifolds-9780198784869?cc=sg&lang=en)&rbrack;
