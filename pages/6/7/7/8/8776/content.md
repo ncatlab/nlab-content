@@ -228,6 +228,11 @@ Original discussion:
   > (via [[D'Auria-Fré formulation of supergravity]])
 
 
+Textbook account:
+
+* [[Tomás Ortín]]: §9 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
 Further discussion:
 
 * [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys. Rev. D **68** (2003) 025008 &lbrack;[arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060)&rbrack;
