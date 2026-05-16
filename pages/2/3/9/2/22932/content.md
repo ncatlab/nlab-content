@@ -64,9 +64,9 @@ For [[topological manifolds]] $X$ of [[dimension of a manifold|dimension]] $dim(
 
 [[!include triangulation theorems -- references]]
 
-
+[[!redirects Moise theorem]]
+[[!redirects Moise's theorem]]
 [[!redirects triangulation theorems]]
-
 [[!redirects triangulation conjecture]]
 [[!redirects triangulation conjectures]]
 
