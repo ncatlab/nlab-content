@@ -31,3 +31,8 @@ See also
 * Wikiedia, _[h-cobordism](https://en.wikipedia.org/wiki/H-cobordism)_
 
 [[!redirects h-cobordisms]]
+[[!redirects h-cobordant]]
+
+[[!redirects h-bordism]]
+[[!redirects h-bordisms]]
+[[!redirects h-bordant]]
