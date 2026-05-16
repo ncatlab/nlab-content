@@ -18,9 +18,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -55,6 +54,7 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 * [[3-dimensional supergravity]]
 
 
+
 ## References
 
 Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, in
@@ -66,6 +66,11 @@ See also at _[supergravity -- History](supergravity#History)_.
 and see:
 
 * [[Yuri Manin]], §5.7 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+
+Textbook account:
+
+
+* [[Tomás Ortín]]: §4-8 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 
 
