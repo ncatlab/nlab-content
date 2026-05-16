@@ -56,6 +56,10 @@ $$
 $$
 A [[topological manifold]] $X$ has a compatible [[PL structure]] if and only if $\kappa(X)=0$. A particular interesting case is topological [[4-manifolds]] $X$ with $H^4(X,\mathbb{Z}_2)\cong\mathbb{Z}_2$ and therefore a binary Kirby-Siebenmann invariant.
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 Named after the original discussion in:
