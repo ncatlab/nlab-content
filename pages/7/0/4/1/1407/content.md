@@ -31,9 +31,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -313,6 +311,7 @@ For more see
 
 * [[string theory results applied elsewhere]]
 
+
 ## References
 
 ### General
@@ -325,12 +324,12 @@ Popular exposition:
 
 * {#Green86} [[Michael Green]], _Superstrings_, Scientific American Vol. 255, No. 3 (September 1986), pp. 48-63 ([jstor:24976036](https://www.jstor.org/stable/24976036))
 
+
 Textbooks on [[string theory]] and [[M-theory]] (for more see at _[[books about string theory]]_):
 
 * {#GreenSchwarzWitten88} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics 1988 (Vol 1: [spire:250488](http://inspirehep.net/record/250488), [ISBN:9781107029118](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/superstring-theory-25th-anniversary-edition-volume-1?format=HB&isbn=9781107029118); Vol 2: [spire:1384879](http://inspirehep.net/record/1384879), [doi:10.1017/CBO9781139248570](https://doi.org/10.1017/CBO9781139248570))
 
-
-* [[Mike Duff]]
+* [[Mike Duff]]:
 
   _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and $M$-theory_, 
 
@@ -355,7 +354,14 @@ Textbooks on [[string theory]] and [[M-theory]] (for more see at _[[books about 
 
   _[[String theory and the real world]]_, 
 
-  Les Houches  Session LXXXVII 2007
+  Les Houches  Session LXXXVII (2007)
+
+
+* [[Tomás Ortín]]: 
+
+  *Gravity and Strings*, 
+
+  Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 
 * [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], 
