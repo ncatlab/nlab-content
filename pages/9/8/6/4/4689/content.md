@@ -249,9 +249,11 @@ Introduction, review and outlook:
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev. Relativ. **5** 1 (2002) 5 &lbrack;[arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5)&rbrack;
 
-* [[Cliff Burgess]], *Quantum Gravity in Everyday Life: General Relativity as an Effective Field Theory*, Living Rev. Rel. **7** 5 (2004) &lbrack;[arXiv:gr-qc/0311082](https://arxiv.org/abs/gr-qc/0311082), [doi:10.12942/lrr-2004-5](https://doi.org/10.12942/lrr-2004-5)&rbrack;
+* [[Cliff Burgess]]: *Quantum Gravity in Everyday Life: General Relativity as an Effective Field Theory*, Living Rev. Rel. **7** 5 (2004) &lbrack;[arXiv:gr-qc/0311082](https://arxiv.org/abs/gr-qc/0311082), [doi:10.12942/lrr-2004-5](https://doi.org/10.12942/lrr-2004-5)&rbrack;
 
-* [[Richard Woodard]], _Perturbative Quantum Gravity Comes of Age_,  International Journal of Modern Physics DVol. 23, No. 09, 1430020 (2014) ([arXiv:1407.4748](https://arxiv.org/abs/1407.4748))
+* [[Tomás Ortín]]: *A perturbative introduction to general relativity* §3 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+* [[Richard Woodard]]: _Perturbative Quantum Gravity Comes of Age_,  International Journal of Modern Physics DVol. 23, No. 09, 1430020 (2014) ([arXiv:1407.4748](https://arxiv.org/abs/1407.4748))
 
 * [[Ilya L. Shapiro]], *The background information about perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.12319](https://arxiv.org/abs/2210.12319)&rbrack;
 
