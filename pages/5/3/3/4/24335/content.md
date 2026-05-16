@@ -134,6 +134,8 @@ For synthetic $(\infty,1)$-categories in [[synthetic domain theory]]:
 
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
 
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
+
 [[!redirects formal (∞,1)-category theory]]
 [[!redirects formal infinity1-category theory]]
 
