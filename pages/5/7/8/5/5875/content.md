@@ -49,7 +49,7 @@ for $E \overset{p}{\longrightarrow} B$ a [[fibration]] in the [[classical model 
     }
 \end{imagefromfile}
 
-
+> (graphics form [SS26](bulk-boundary+correspondence#SS26))
 
 
 
