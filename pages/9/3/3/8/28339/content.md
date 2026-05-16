@@ -1,3 +1,4 @@
+[[!redirects Rokhlin&#39;s theorem]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -65,11 +66,16 @@ $$
 with the [[Arf invariant]] and [[Kirby-Siebenmann invariant]].
 \end{proposition}
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 See also:
 
 * Wikipedia, _[Rokhlin's theorem](https://en.wikipedia.org/wiki/Rokhlin%27s_theorem)_
 
+[[!redirects Rokhlin's theorem]]
 [[!redirects Kervaire-Milnor theorem]]
 [[!redirects Freedman-Kirby theorem]]
