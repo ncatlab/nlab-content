@@ -6,6 +6,10 @@
 
 ## Selected writings
 
+On the [[topological manifold|topological]] [[4-manifolds]]:
+
+* {#FreedmanQuinn90} [[Michael Freedman]], [[Frank Quinn]], _Topology of 4-Manifolds_ (1990) &lbrack;[doi:10.1515/9781400861064](https://doi.org/10.1515/9781400861064)&rbrack;
+
 On [[E-infinity spaces|$E_\infty$-spaces]] and [[E-infinity ring spectra|$E_\infty$-ring sectra]]:
 
 * [[Peter May]] with contributions by [[Frank Quinn]], [[Nigel Ray]] and [[Jørgen Tornehave]], _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
