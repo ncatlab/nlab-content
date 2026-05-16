@@ -42,6 +42,8 @@ On [[synthetic domain theory]] in [[homotopy type theory]]:
 
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
 
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
+
 and via [[classifying toposes]]:
 
 * [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* &lbrack;[arXiv:2505.13096](https://arxiv.org/abs/2505.13096)&rbrack;
