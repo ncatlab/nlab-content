@@ -19,8 +19,9 @@
 \begin{proposition}
 For a [[oriented]] [[closed manifold|closed]] [[topological manifold|topological]] [[4-manifold]] $M$, one has:
 $$
-x\smile x
-=w_2(TM)\smile x
+  x \smile x
+   =
+  w_2(T M)\smile x
 $$
 for all classes $x\in H^2(M,\mathbb{Z}_2)$.
 \end{proposition}
@@ -31,9 +32,9 @@ for all classes $x\in H^2(M,\mathbb{Z}_2)$.
 
 An important application of Wu's formula is the connection with the [[intersection form]] $Q_M\colon H^2(M,\mathbb{Z})\times H^2(M,\mathbb{Z})\rightarrow\mathbb{Z},(x,y)\mapsto\langle x\smile y,[M]\rangle$. Considering the reduction of its diagonal, one has:
 $$
-Q_M(x,x)mod 2
-=Q_M(x mod 2,x mod 2)
-=Q_M(w_2(TM),x mod 2)
+  Q_M(x,x)mod 2
+  =Q_M(x mod 2,x mod 2)
+  =Q_M(w_2(T M),x mod 2)
 $$
 for all classes $x\in H^2(M,\mathbb{Z})$. It leads to the following results:
 
@@ -51,7 +52,17 @@ In particular, a [[simply connected]] [[oriented]] [[closed manifold|closed]] [[
 
 ([Scorpan 05, p. 164](#Scorpan74))
 
+## Related concepts
+
+* [[Wu class]]
+
 ## References
+
+Named after 
+
+* [[Wen-Tsun Wu]]: _On Pontrjagin classes: II_, Sientia Sinica **4** (1955) 455--90
+
+See also:
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
 
