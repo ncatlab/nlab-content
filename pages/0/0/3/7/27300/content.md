@@ -15,7 +15,7 @@
 
 ## Idea ##
 
-A generalisation of various kinds of [[spaces]] equipped with a relation between its elements and its filters, such as [[filter spaces]], [[convergence spaces]], and [[cluster spaces]]. 
+A generalisation of various kinds of [[spaces]] equipped with a relation between its elements and its filters, such as [[filter spaces]], [[convergence spaces]], and [[cluster spaces]]. 情報量皆無のハゲ.
 
 +-- {: .query}
 WARNING: “Generalised filter space” is a placeholder name for a concept which may or may not have another name in the mathematics literature. If this concept already exists in the literature under another name, feel free to rename this page; alternatively, if "generalised filter space" is already being used for a different concept from the one described in this article, feel free to develop another name for this concept and move this article to that name. 
