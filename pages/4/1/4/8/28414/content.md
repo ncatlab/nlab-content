@@ -1,4 +1,4 @@
-Articles on four-dimensional geometry and topology:
+Articles on [[geometry]] and [[topology]] of [[4-manifolds]]:
 
 * Basic concepts:
 
