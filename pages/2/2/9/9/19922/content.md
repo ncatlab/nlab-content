@@ -20,7 +20,7 @@
 
 ## Idea 
 
-In [[proof theory]], **primitive recursive arithmetic**, or **PRA**, is a [[finitist mathematics|finitist]], [[quantifier]]-free (or more precisely a [[free variable theory]]) of the [[natural numbers]].
+In [[proof theory]], **primitive recursive arithmetic**, or **PRA**, is a [[finitist mathematics|finitist]], [[quantifier]]-free theory (or more precisely a [[free variable theory]]) of the [[natural numbers]].
 
 **PRA** can express arithmetic propositions involving natural numbers and any [[primitive recursive function]], including the operations of addition, multiplication, and exponentiation.
 
