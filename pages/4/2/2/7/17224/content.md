@@ -273,7 +273,7 @@ for $k \leq 2n$.
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.1 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#McCleary01} [[John McCleary]], example 5.D of_A User's Guide to Spectral Sequences_, Cambridge University Press (2001)
+* {#McCleary01} [[John McCleary]], example 5.D of: _A User's Guide to Spectral Sequences_, Cambridge University Press (2001)
 
 [[!redirects Serre long exact sequences]]
 
