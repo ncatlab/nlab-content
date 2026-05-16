@@ -59,6 +59,10 @@ $$
 
 If the manifold is additionally [[smooth manifold|smooth]] and [[closed manifold|closed]], then [[Rokhlin's theorem]] even assures $\sigma(Q)=0 mod 16$.
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
