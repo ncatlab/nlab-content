@@ -11,7 +11,7 @@ Michael Hartley Freedman
 
 ## Selected writings
 
-On the Fields Medal winning [[Freedman classification]]:
+On the Fields Medal winning [[Freedman classification]] of [[topological manifold|topological]] [[4-manifolds]]:
 
 * {#Freedman82} [[Michael Freedman]], _The topology of 4-manifolds_, J. Differential Geometry **17** 3 (1982), pp. 357–453 &lbrack;[doi:10.4310/jdg/1214437136](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-17/issue-3/The-topology-of-four-dimensional-manifolds/10.4310/jdg/1214437136.full) [ISSN 0022-040X](ttps://search.worldcat.org/de/search?q=n2:0022-040X) [MR 0679066](https://mathscinet.ams.org/mathscinet/relay-station?mr=0679066)&rbrack;
 
