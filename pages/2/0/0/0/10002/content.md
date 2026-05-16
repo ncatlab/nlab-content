@@ -40,6 +40,8 @@ A [[topological field theory|topological]] [[FQFT]]-formulation of Donaldson the
 
 * [[Kronheimer-Mrowka basic class]]
 
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#Donaldson83} [[Simon Donaldson]]. _An application of gauge theory to four-dimensional topology_. In: Journal of Differential Geometry. 18. Jahrgang, Nr. 2, 1. Januar 1983, [doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)
