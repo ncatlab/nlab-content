@@ -1,9 +1,6 @@
+## Related entries
 
-## Related concepts
-
-* [[signature]]
-
-* [[exotic smooth structure]]
+[[!include four-dimensional geometry and topology -- table]]
 
 ## References
 
