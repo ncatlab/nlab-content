@@ -32,15 +32,11 @@ This entry collects links related to the textbook
 
     [doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079)
 
-    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski1.pdf)
-
   * vol 2: **Superstring Theory and Beyond**
 
     [doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)
 
-    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski2.pdf)
-
-on [[string theory]], first [[bosonic string theory]], then [[superstring theory]] and with an outlook on [[M-theory]].
+on [[string theory]], first [[bosonic string theory]], then [[superstring theory]] with an outlook on [[M-theory]].
 
 See also:
 
