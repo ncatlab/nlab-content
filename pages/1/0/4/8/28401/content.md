@@ -55,6 +55,10 @@ The indefinite even intersection form $\pm 4E_8\oplus 5H$ isn't the [[intersecti
 
 ([Scorpan 05, p. 248](#Scorpan05))
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#Furuta95} [[Mikio Furuta]]: *Monopole Equation and the 11/8-Conjecture*, Mathematical Research Letters **8** (2001) 279-291 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a5](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
