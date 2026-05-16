@@ -15,9 +15,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -720,6 +720,7 @@ On D=5 [[number of supersymmetries|N = 2]] [[super Minkowski spacetime]] ([[5d s
 
 * [[Clebsch-Gordan coefficient]]
 
+
 ## References
 
 Named after [[Markus Fierz]].
@@ -746,9 +747,13 @@ see also
 
 * {#NaitoOsadaKukui86} S. Naito, K. Osada, T. Fukui, *Fierz Identities and Invariance of Eleven-dimensional Supergravity Action*, Phys. Rev. D **34** (1986) 536-552 &lbrack;[spire:236376](http://inspirehep.net/record/236376), [doi:10.1103/PhysRevD.34.536](https://doi.org/10.1103/PhysRevD.34.536)&rbrack;
 
-A textbook account of the representation ring method and summary of these results is in
+A textbook account of the representation ring method and summary of these results:
 
 * {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]]&rbrack;
+
+Further textbook account:
+
+* [[Tomás Ortín]]: §D in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
 See also:
 
