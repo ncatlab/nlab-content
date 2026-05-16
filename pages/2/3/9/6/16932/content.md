@@ -14,9 +14,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -129,6 +128,10 @@ Original articles:
 * [[Hans Reissner]], _Über die Eigengravitation des elektrischen Feldes nach der Einstein'schen Theorie_, Annalen der Physik 50 pp. 106–120, 1916 ([doi:10.1002/andp.19163550905]( https://doi.org/10.1002/andp.19163550905), [pdf](http://old.phys.huji.ac.il/~barak_kol/Courses/Black-holes/reading-papers/Reissner.pdf),  [atticus](https://www.atticusrarebooks.com/pages/books/1026/hans-reissner-jacob-also-jacob-johannes-reissner/uber-die-eigengravitation-des-elektrischen-feldes-nach-der-einstein-schen-theorie-offprint-from))
 
 Review: 
+
+
+* [[Tomás Ortín]]: §12 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
 
 * Jonatan Nordebo, _The Reissner-Nordström metric_, 2016 ([pdf](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf), [diva2:912393](http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A912393&dswid=7103))
  
