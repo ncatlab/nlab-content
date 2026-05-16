@@ -94,6 +94,7 @@ On a [[framed manifold]] the intersection pairing has a canonical [[quadratic re
 
 [[!include square roots of line bundles - table]]
 
+[[!include four-dimensional geometry and topology -- table]]
 
 ## References
 
