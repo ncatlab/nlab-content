@@ -18,9 +18,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -283,9 +281,11 @@ Review:
 * [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
   > (focus on [[topological T-duality]])
 
+* [[Tomás Ortín]]: *The string effective action and T-duality*, §21 in, and *The type-II T-duality Buscher rules*, §23.3.1 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
 * {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
-* [[Mathai Varghese]], _T-duality: A basic introduction_, 10th Geometry and Physics Conference _Quantum Geometry_, Anogia 2012 ([[Mathai12.pdf:file]])
+* [[Mathai Varghese]], _T-duality: A basic introduction_, 10th Geometry and Physics Conference _Quantum Geometry_, Anogia (2012) &lbrack;[[Mathai12.pdf:file]]&rbrack;
 
 * Jnanadeva Maharana, _The Worldsheet Perspective of T-duality Symmetry in String Theory_ ([arXiv:1302.1719](http://arxiv.org/abs/1302.1719))
 
