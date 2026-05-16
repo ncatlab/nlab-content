@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -29,7 +27,7 @@ $$
 for the [[Stiefel-Whitney classes]] of $X$. Moreover, write
 
 $$
-  \cup : H^k(X, \mathbb{Z}_2) \times H^l(X, \mathbb{Z}_2)
+  \cup \colon H^k(X, \mathbb{Z}_2) \times H^l(X, \mathbb{Z}_2)
   \to 
   H^{k+l}(X, \mathbb{Z}_2)
 $$
@@ -62,7 +60,7 @@ $$
 
 =--
 
-(e.g. [Milnor-Stasheff 74, p. 131-133](#MilnorStasheff74))
+(cf. [Milnor & Stasheff 74, p. 131--133](#MilnorStasheff74) and *[[Wu formula]]*)
 
 
 +-- {: .num_remark }
@@ -238,6 +236,8 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 ## Related concepts
 
+* [[Wu formula]]
+
 * [[integral Wu structure]], [[twisted Wu structure]]
 
 * [[shifted C-field flux quantization]]
@@ -246,11 +246,12 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 * [[Euler class]]
 
+
 ## References
 
-The original reference is 
+The original reference on the *[[Wu formula]]*
 
-* [[Wen-Tsun Wu]], _On Pontrjagin classes: II_ Sientia Sinica 4 (1955) 455-490
+* [[Wen-Tsun Wu]]: _On Pontrjagin classes: II_, Sientia Sinica **4** (1955) 455--90
 
 See also around p. 228 of
 
