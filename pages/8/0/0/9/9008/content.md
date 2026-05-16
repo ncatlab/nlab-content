@@ -6,6 +6,13 @@ Charles Terence Clegg Wall is a British mathematician, who was particularly invo
 
 ## Selected writings
 
+Establishing what came to be called *[[Wall's theorem]]* on [[4-manifolds]] and [[h-cobordism]]:
+
+* [[C. T. C. Wall]]: *Diffeomorphisms of 4-Manifolds* Journal of  London Mathematical Society **s1--39** 1 (1964) 131--140 \[<a href="https://doi.org/10.1112/jlms/s1-39.1.131">doi:10.1112/jlms/s1-39.1.131</a>\]
+
+* [[C. T. C. Wall]]: *On simply-connected 4-manifolds*, Journal of the London Mathematical Society **s1--39** 1 (1964) 141–-149 &lbrack;[doi:10.1112/jlms/s1-39.1.141](https://doi.org/10.1112/jlms/s1-39.1.141), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/w4.pdf)&rbrack;
+
+
 On [[surgery]] and introducing [[L-theory]] ([[Hermitian K-theory]]):
 
 * {#Wall69} [[C. T. C. Wall]] (ed. [[Andrew Ranicki]]), *Surgery on compact Manifolds*, Math. Surveys and Monographs **69** (1999) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/books/scm.pdf)&rbrack;
