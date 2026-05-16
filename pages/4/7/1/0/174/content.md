@@ -21,9 +21,8 @@
 ***
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea 
 
@@ -220,7 +219,7 @@ The corresponding table has been called the **[[brane scan]]**
 
 * {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics, Vol 39, No. 1, 1938
 
-See also
+See also:
 
 * Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
 
@@ -228,12 +227,15 @@ The terminology "$p$-brane" originates in
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
-For more history see
+For more history:
 
 * [[Mike Duff]], _Thirty years of Erice on the brane_, Based on lectures at the International Schools of Subnuclear Physics 1987-2017 and the International Symposium "60 Years of Subnuclear Physics at Bologna", University of Bologna, November 2018 ([arXiv:1812.11658](https://arxiv.org/abs/1812.11658))
 
 ### General
   
+* [[Tomás Ortín]]: *The extended objects of string theory*,  §25 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
 * [[Pietro Fré ]], *The Branes: Three Viewpoints*, Chapter 7  in: *Gravity, a Geometrical Course*, Springer (2013) &lbrack;[spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7)&rbrack;
 
 * [[Greg Moore]], _What is... a brane?_, Notices of the AMS **52** 2 (2005) &lbrack;[pdf](http://www.ams.org/notices/200502/what-is.pdf)&rbrack;
