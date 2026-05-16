@@ -43,6 +43,8 @@ For $n \geq 6$, a [[compact topological space|compact]] $n$-dimensional [[h-cobo
 
 * [[h-cobordism]]
 
+* [[Wall's theorems]]
+
 * [[exotic smooth structure]]
 
 * [[Poincaré conjecture]]
