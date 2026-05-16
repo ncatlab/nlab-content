@@ -156,12 +156,19 @@ The success of the Einstein-Hilbert [[action principle]] in the formulation of [
 
 ### General
 
-Lecture notes include
+> (See also most references at *[[gravity]]*.)
 
-* Edmund Bertschinger, _Symmetry transformations, the Einstein-Hilbert action, and gauge invariance_ 2002 ([pdf](http://web.mit.edu/edbert/GR/gr5.pdf))
- {#Bertschinger02}
+Lecture notes:
 
-Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ at
+* {#Bertschinger02} Edmund Bertschinger, _Symmetry transformations, the Einstein-Hilbert action, and gauge invariance_ 2002 ([pdf](http://web.mit.edu/edbert/GR/gr5.pdf))
+ 
+
+Textbook account:
+
+* [[Tomás Ortín]]: *Action principles for gravity*, §4 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
+Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ in
 
 * _[[geometry of physics]]_
 
