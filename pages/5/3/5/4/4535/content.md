@@ -29,6 +29,10 @@ Described for instance by [[Kruskal–Szekeres coordinates]].
 
 ## References
 
+
+* [[Tomás Ortín]]: §11 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
 * Wikipedia, _[Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)_
 
 With attention to its [[conformal geometry]] ([[conformal boundary]]):
