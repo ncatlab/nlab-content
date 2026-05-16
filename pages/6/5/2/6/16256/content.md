@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -225,9 +225,13 @@ Original articles:
 
 * A. L. Cavalcanti de Oliveira, E. R. Bezerra de Mello, _Kaluza-Klein Magnetic Monopole in Five-Dimensional Global Monopole Spacetime_, Class. Quant. Grav. 21 (2004) 1685-1694 ([arXiv:hep-th/0309189](http://arxiv.org/abs/hep-th/0309189))
 
-Review includes
+Review:
 
-* Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
+* Emre Sakarya, _Kaluza-Klein monopole_ (2007) &lbrack;[pdf](https://inspirehep.net/record/875942/files/875942.pdf)&rbrack;
+
+
+* [[Tomás Ortín]]: §15 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
 
 Discussion of [[topological T-duality]] for KK-monopoles is in
 
