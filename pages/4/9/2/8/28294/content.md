@@ -151,7 +151,9 @@ See also:
 
 * Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
 
+For [[topological order]] in [[fractional quantum Hall systems]]:
 
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: [[schreiber:Bulk-Edge Correspondence via Higher Gauge Theory]] &lbrack;[arXiv:2605.10232](https://arxiv.org/abs/2605.10232)&rbrack;
 
 ### Under T-Duality
 
