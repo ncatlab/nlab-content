@@ -12,7 +12,7 @@
 
 ## Idea
 
-*Wall's theorems* are four related results connecting the [[smooth structure]], self-[[diffeomorphisms]] and the [[intersection form]] of a [[smooth manifold|smooth]] [[4-manifolds]] with [[h-cobordisms]], stably [[diffeomorphisms]] and induced form [[automorphisms]].
+*Wall's theorems* are four related results connecting the [[smooth structure]], [[automorphism|auto]]-[[diffeomorphisms]] and the [[intersection form]] of a [[smooth manifold|smooth]] [[4-manifolds]] with [[h-cobordisms]], stably [[diffeomorphisms]] and induced form [[automorphisms]].
 
 ## Wall's theorem on h-cobordisms
 
@@ -77,6 +77,15 @@ For a [[simply connected]] [[topological manifold|topological]] [[4-manifolds]] 
 ([Scorpan 05, p. 153](#Scorpan74))
 
 ## References
+
+Named after:
+
+* [[C. T. C. Wall]]: *Diffeomorphisms of 4-Manifolds* Journal of  London Mathematical Society **s1--39** 1 (1964) 131--140 \[<a href="https://doi.org/10.1112/jlms/s1-39.1.131">doi:10.1112/jlms/s1-39.1.131</a>\]
+
+* [[C. T. C. Wall]]: *On simply-connected 4-manifolds*, Journal of the London Mathematical Society **s1--39** 1 (1964) 141–-149 &lbrack;[doi:10.1112/jlms/s1-39.1.141](https://doi.org/10.1112/jlms/s1-39.1.141), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/w4.pdf)&rbrack;
+
+ 
+See also:
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
 
