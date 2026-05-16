@@ -73,7 +73,7 @@ and as such
 is [[left adjoint]] to the [[forgetful functor]]
 
 $$
-  F
+  U
   \;\colon\;
   Cat \longrightarrow ReflxDGraph 
   \,.
