@@ -12,7 +12,7 @@
 
 ## Idea
 
-*Freedman's classification* is a deep connection between topology and algebra, providing the full classification of [[simply connected]] [[closed manifold|closed]] [[topological manifold|topological]] [[4-manifolds]] by their [[intersection form]] and their [[Kirby-Siebenmann invariant]]. It allows any symmetric unimodular [[bilinear form]] to be represented by such a manifold and translates isomorphism of these forms into [[homeomorphisms]] of such manifolds (for equal [[Kirby-Siebenmann invariant]] when it's odd). It in particular expanded the topological [[h-cobordism theorem]] to four dimensions and solved the topological [[Poincaré conjecture]] in four dimensions.
+*Freedman's classification* is a deep connection between [[topology]] and [[algebra]], providing the full classification of [[simply connected]] [[closed manifold|closed]] [[topological manifold|topological]] [[4-manifolds]] by their [[intersection form]] and their [[Kirby-Siebenmann invariant]]. It allows any symmetric unimodular [[bilinear form]] to be represented by such a manifold and translates isomorphism of these forms into [[homeomorphisms]] of such manifolds (for equal [[Kirby-Siebenmann invariant]] when it's odd). It in particular expanded the topological [[h-cobordism theorem]] to four dimensions and solved the topological [[Poincaré conjecture]] in four dimensions.
 
 Freedman's classification was published by [[Michael Freedman]] in [1982](#Freedman82) and earned him a Fields Medal in 1986. His proof was expanded in the collaborative textbook *The Disc Embedding Theorem*, on which multiple mathematicians began working on in 2013 and which was eventually published in 2021.
 
