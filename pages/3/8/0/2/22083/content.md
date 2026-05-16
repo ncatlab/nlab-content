@@ -28,9 +28,14 @@ In [[general relativity]] the _ADM mass_ is a notion of total [[mass]] contained
 
 ## References
 
-* Dan N. Vollick, _On the Meaning of Various Mass Definitions for Asymptotically Flat Spacetimes_ ([arXiv:2101.12570](https://arxiv.org/abs/2101.12570))
+* Dan N. Vollick, _On the Meaning of Various Mass Definitions for Asymptotically Flat Spacetimes_ &lbrack;[arXiv:2101.12570](https://arxiv.org/abs/2101.12570)&rbrack;
 
-See also
+Textbook account:
+
+* [[Tomás Ortín]]; *Conserved charges in general relativity*, §4.3 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[ADM formalism](https://en.m.wikipedia.org/wiki/ADM_formalism)
 
