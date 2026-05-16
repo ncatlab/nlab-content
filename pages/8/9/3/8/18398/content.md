@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -24,11 +22,15 @@ An _h-cobordism_ is a [[cobordism]] such that the two boundary inclusions$\Sigma
 
 The _[[h-cobordism theorem]]_ gives sufficient conditions for an h-cobordism to be equivalent to a [[cylinder]].
 
+## Related concepts
+
+* [[Wall's theorem]]
+
 ## References
 
 See also
 
-* Wikiedia, _[h-cobordism](https://en.wikipedia.org/wiki/H-cobordism)_
+* Wikipedia, _[h-cobordism](https://en.wikipedia.org/wiki/H-cobordism)_
 
 [[!redirects h-cobordisms]]
 [[!redirects h-cobordant]]
