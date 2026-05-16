@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -207,7 +205,7 @@ Streamlined review is in:
 
 Abstract characterization in [[cohesive homotopy theory]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836 math.AT](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
 
 
 [[!redirects Huan's inertia orbifolds]]
