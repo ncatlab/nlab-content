@@ -27,6 +27,10 @@ ks(*\overline{\mathbb{C}P^2})=1.
 $$
 Hence $*\mathbb{C}P^2$ and $*\overline{\mathbb{C}P^2}$ are not smoothable (as well as their products with $\mathbb{R}$ and $S^1$).
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ([Scorpan 05, p. 241-242](#Scorpan74))
 
 ## References
