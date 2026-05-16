@@ -4,6 +4,10 @@ Charles Terence Clegg Wall is a British mathematician, who was particularly invo
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/C._T._C._Wall)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=24418)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/C-T-C-Wall-79166144)
+
 ## Selected writings
 
 Establishing what came to be called *[[Wall's theorem]]* on [[4-manifolds]] and [[h-cobordism]]:
