@@ -66,6 +66,8 @@ Phoa's principle is named after [[Wesley Phoa]].
 
 * [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
+
 * *Constructive subtleties about the Sierpinski Space*, Mathematics StackExchange. ([web](https://math.stackexchange.com/questions/5085280/constructive-subtleties-about-the-sierpinski-space/5085447))
 
 [[!redirects Phoa's principle]]
