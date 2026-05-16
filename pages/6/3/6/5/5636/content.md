@@ -27,6 +27,10 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 [[!include Seiberg-Witten theory -- table]]
 
+[[!include four-dimensional geometry and topology -- table]]
+
+Other articles:
+
 * [[N=2 D=4 super Yang-Mills theory]]
 
 * [[dual superconductor model of confinement]]
