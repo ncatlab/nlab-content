@@ -134,7 +134,6 @@ Monographs:
 
 * [[Robert Geroch]]: *General Relativity -- 1972 Lecture Notes*, Minkowski Institute Press (2013) &lbrack;[ISBN:78-0-9879871-7-4](https://www.minkowskiinstitute.com/one/#!/products/r-0x2e--robert-geroch-0x2c--general-relativity), [pdf](http://strangebeautiful.com/other-texts/geroch-gr.pdf)&rbrack;
 
-
 * [[Steven Weinberg]]: *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*, Wiley  (1972, 2013) &lbrack;[ISBN:978-0-471-92567-5](https://www.wiley.com/en-us/Gravitation+and+Cosmology%3A+Principles+and+Applications+of+the+General+Theory+of+Relativity-p-9780471925675), [ark:/13960/t13n7rw1f](https://archive.org/details/WeinbergS.GravitationAndCosmology..PrinciplesAndApplicationsOfTheGeneralTheoryOf/page/n1/mode/2up), [spire:1410180](https://inspirehep.net/literature/1410180)&rbrack;
 
 * [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_ (1973)
@@ -144,6 +143,10 @@ Monographs:
 * [[Robert Wald]], *General Relativity*, University of Chicago Press (1984) &lbrack;[doi:10.7208/chicago/9780226870373.001.0001](https://doi.org/10.7208/chicago/9780226870373.001.0001), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Wald_GR.pdf)&rbrack;
 
 * [[Garth Warner]]: *Mathematical Aspects of General Relativity*, EPrint Collection, University Of Washington (2006) &lbrack;[hdl:1773/2637](http://hdl.handle.net/1773/2637), [pdf](https://sites.math.washington.edu//~warner/MAGR_Warner.pdf), [[Warner-GeneralRelativity.pdf:file]]&rbrack;
+
+* [[Tomás Ortín]]: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
+  > (with an eye towards [[supergravity]] and [[string theory]])
+
 
 * [[Thanu Padmanabhan]], *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
 
