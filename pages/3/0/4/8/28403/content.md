@@ -25,6 +25,10 @@ Every open (non-[[compact]] without boundary) [[topological manifold|topological
 
 ([Freedman & Quinn 90, p. 116](#FreedmanQuinn90) [Scorpan 05, p. 222](#Scorpan74))
 
+## Related entries
+
+[[!include four-dimensional geometry and topology -- table]]
+
 ## References
 
 * {#FreedmanQuinn90} [[Michael Freedman]], [[Frank Quinn]], _Topology of 4-Manifolds_ (1990) &lbrack;[doi:10.1515/9781400861064](https://doi.org/10.1515/9781400861064)&rbrack;
