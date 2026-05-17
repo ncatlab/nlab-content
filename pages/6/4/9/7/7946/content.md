@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -35,11 +34,21 @@ Analogous constructions apply when symplectic manifolds are generalized to [[n-p
  
 ## Related concepts
 
+
 A further subgroup is that of [[Hamiltonian symplectomorphisms]]. The [[group extension]] of that whose elements are pairs consisting of a Hamiltonian diffeomorphism and a choice of [[Hamiltonian]] for this is the [[quantomorphism group]]. 
 
 The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vector fields]].
 
 [[!include geometric quantization extensions - table]]
+
+
+* [[homeomorphism group]]
+
+* [[diffeomorphism group]], [[volume-preserving diffeomorphism group|volume-preserving]]
+
+* [[isometry group]], [[superisometry group]]
+
+* [[quantomorphism group]]
 
 
 
