@@ -9,13 +9,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
 The analog of the concept of [[isometry group]] in [[supergeometry]].
+
 
 ## Related concepts
 
@@ -26,6 +26,17 @@ The analog of the concept of [[isometry group]] in [[supergeometry]].
 * [[super-diffeomorphism]]
 
 * [[supersymmetry]]
+
+
+* [[homeomorphism group]]
+
+* [[diffeomorphism group]], [[volume-preserving diffeomorphism group|volume-preserving]]
+
+* [[isometry group]]
+
+* [[symplectomorphism group]]
+
+* [[quantomorphism group]]
 
 ## References
 
