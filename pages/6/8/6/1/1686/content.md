@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc} 
+
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -821,9 +820,12 @@ Textbook accounts:
 * [[Raoul Bott]], [[Loring Tu]], section 14 of _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
 
-* [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf)) .
+* [[Hal Schenck]], _Chapter 9 in: Cohomology and spectral sequences_ &lbrack;[pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf)&rbrack;
 
-* {#Hatcher} [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
+* [[Alan Hatcher]]: *Spectral Sequences* &lbrack;[pdf](https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf)&rbrack;
+
+* {#Hatcher} [[Alan Hatcher]]: _Spectral sequences in algebraic topology_ &lbrack;[webbapeg](https://pi.math.cornell.edu/~hatcher/SSAT/SSATpage.html)&rbrack;
+
  
 * {#Kochmann96} [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
