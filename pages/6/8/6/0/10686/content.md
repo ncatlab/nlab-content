@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 There are several theorems by [[Serre]] which deserve to be called "finiteness theorems".
@@ -65,12 +64,12 @@ The original proof is due to
 
 The statement is reviewed in
 
-* [[Douglas Ravenel]], Chapter I, Theorem 1.1.8 in: _[[Complex cobordism and stable homotopy groups of spheres]]_. Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing, Volume 347 (2004) ([ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf))
+* [[Douglas Ravenel]], Chapter I, Theorem 1.1.8 in: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press (1986) reprinted as: AMS Chelsea Publishing **347** (2004) &lbrack;[ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf)&rbrack;
  
 
 An entirely different proof, using only elementary concepts, is given in 
 
-* S. S. Podkorytov, _An Alternative Proof of a Weak Form of Serre's Theorem_, Journal of Mathematical Sciences July 2002, Volume 110, Issue 4, pp 2875&#8211;2881 ([doi:10.1023/A:1015370800473](https://doi.org/10.1023/A:1015370800473))
+* S. S. Podkorytov: _An Alternative Proof of a Weak Form of Serre's Theorem_, Journal of Mathematical Sciences **110** 4 (2002) 2875--2881 &lbrack;[doi:10.1023/A:1015370800473](https://doi.org/10.1023/A:1015370800473)&rbrack;
 
 [[!redirects Serre finiteness theorems]]
 
