@@ -221,6 +221,7 @@ between the [[ordinary homology]] of $X$ in degree $k$ and the ordinary homology
 
 =--
 
+(cf. [Miller 2020 Lem. 27.2](#Miller2020))
 
 +-- {: .proof}
 ###### Proof
@@ -271,10 +272,11 @@ for $k \leq 2n$.
 
 ## References
 
-* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.1 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.1 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7)&rbrack;
 
 * {#McCleary01} [[John McCleary]], example 5.D of: _A User's Guide to Spectral Sequences_, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511626289](https://doi.org/10.1017/CBO9780511626289), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v23/documents/mccleary-ugss.pdf)&rbrack;
 
+* {#Miller2020} [[Haynes Miller]]: *The Serre exact sequence and the Hurewicz theorem*, section 27 in: *Algebraic Topology II*, lecture notes, MIT OpenCourseWare (2020) &lbrack;full:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/e8a061a73ca1a451df8809c7a7fbc846_MIT18_906S20_notes.pdf), section:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/9c132d351322990b96fa38d1e2701edf_MIT18_906S20_ch4.pdf), [webpage](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/)&rbrack;
  
 
 
