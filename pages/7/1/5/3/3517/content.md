@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -240,23 +239,24 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 
 * [[horseshoe lemma]]
 
+
 ## References
 
 Early references of the 5-lemma:
 
-* (lemma (5,9) in) D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
+* [[David A. Buchsbaum]]; lemma (5,9) in: _Exact categories and duality_, Transactions of the American Mathematical Society **80** 1 (1955) 1-034 &lbrack;[jstor:1993003](http://www.jstor.org/stable/1993003)&rbrack;
 
-* (prop.1.1, page 5) Henri Cartan, Samuel Eilenberg, _Homological algebra_, Princeton Univ. Press 1956
+* [[Henri Cartan]], [[Samuel Eilenberg]]; prop.1.1 on page 5 of: _Homological algebra_, Princeton Univ. Press (1956)
 
-* (lemma 3.3 in chapter I) S. MacLane, _Homology_, Springer 1963, 1975
+* [[Saunders MacLane]]; lemma 3.3 in chapter I of _Homology_, Springer (1963, 1975)
 
-Modern
+Modern accounts:
 
 * [[Charles Weibel]], Ex. 1.3.3 in:  _[[An Introduction to Homological Algebra]]_ 
 
-* [[Nicolas Bourbaki]], _Homological algebra_ (Algebra ch. X) 1980
+* [[Nicolas Bourbaki]]; Algebra ch. X of: _Homological algebra_  (1980)
 
-In nonabelian contexts:
+The nonabelian generalization:
 
 * [[Francis Borceux]], [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
