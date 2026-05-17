@@ -273,7 +273,7 @@ for $k \leq 2n$.
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.1 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#McCleary01} [[John McCleary]], example 5.D of: _A User's Guide to Spectral Sequences_, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511626289](https://doi.org/10.1017/CBO9780511626289)&rbrack;
+* {#McCleary01} [[John McCleary]], example 5.D of: _A User's Guide to Spectral Sequences_, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511626289](https://doi.org/10.1017/CBO9780511626289), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v23/documents/mccleary-ugss.pdf)&rbrack;
 
  
 
