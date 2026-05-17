@@ -1,4 +1,4 @@
-__David Alvin Buchsbaum__ was an American algebraist, working mainly in commutative algebra and homological algebra. He was a student of Eilenberg with a Ph. D. thesis about [[Abelian category|Abelian categories]]. 
+David Alvin Buchsbaum (1929--2021) was an American algebraist, working mainly in commutative algebra and homological algebra. He was a student of Eilenberg with a Ph. D. thesis about [[Abelian category|Abelian categories]]. 
 
 * wikipedia: [David Buchsbaum](https://en.wikipedia.org/wiki/David_Buchsbaum), [Auslander-Buchsbaum theorem](https://en.wikipedia.org/wiki/Auslander%E2%80%93Buchsbaum_theorem), [Auslander-Buchsbaum formula](https://en.wikipedia.org/wiki/Auslander%E2%80%93Buchsbaum_formula)
 * mathematical [obituary](https://www.commalg.org/2021/01/11/david-buchsbaum-1929-2021)
@@ -20,3 +20,5 @@ In a 1959 article with Buchsbaum they proved the [[Auslander-Buchsbaum theorem]]
 category: people
 
 [[!redirects David Alvin Buchsbaum]]
+[[!redirects David A. Buchsbaum]]
+
