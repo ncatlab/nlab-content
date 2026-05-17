@@ -218,7 +218,7 @@ In general, functions from $\mathbb{I}$ to a type $A$ can be thought of as the [
 The recursion principle of the interval type allows for paths to be defined from a given [[identification]], and [[function application to identifications]] allows for identifications to be defined from a given path:
 
 \begin{theorem}
-Every [[identification]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated path $\mathrm{rec}_{\mathbb{I}}(a, b, p):\mathbb{I} \to A$, recursively defined by 
+Every [[identification]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated path $\mathrm{rec}_{\mathbb{I}}(a, b, q):\mathbb{I} \to A$, recursively defined by 
 
 * $\beta_\mathbb{I}^0(a, b, q):\mathrm{rec}_{\mathbb{I}}(a, b, q)(0) =_A a$
 * $\beta_\mathbb{I}^1(a, b, q):\mathrm{rec}_{\mathbb{I}}(a, b, q)(1) =_A b$
