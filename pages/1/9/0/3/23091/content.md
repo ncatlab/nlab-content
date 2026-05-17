@@ -121,8 +121,8 @@ Monographs:
 * Mahima Ranjan Adhikari: *Basic Algebraic Topology and Its Applications*, Springer (2016) \[<a href="https://doi.org/10.1007/978-81-322-2843-1">doi:10.1007/978-81-322-2843-1</a>, [pdf](https://agorism.dev/book/math/top/mahima-ranjan-adhikari-basic-algebraic-topology-and-its-applications-springer.pdf)\]
 
 * Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
-
-* [[Haynes Miller]]: *Lectures on Algebraic Topology*, World Scientifuc (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>\]
+ 
+* [[Haynes Miller]]: *Lectures on Algebraic Topology*, World Scientific (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>, [pdf](https://math.mit.edu/~hrm/papers/lectures-905-906.pdf)\]
 
 
 * Holger Kammeyer: *Introduction to Algebraic Topology*,   Compact Textbooks in Mathematics, Birkhäuser (2022) \[<a href="https://doi.org/10.1007/978-3-030-98313-0">doi:10.1007/978-3-030-98313-0</a>\]
