@@ -11,6 +11,24 @@ Joel Allen Smoller
 
 ## Selected writings
 
+On [[Einstein-Dirac theory]]:
+
+* {#FinsterSmollerYau99} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Particle-like solutions of the Einstein-Dirac equations_, Phys. Rev. D, **59** (1999) &lbrack;[arXiv:gr-qc/9801079 ](https://arxiv.org/abs/gr-qc/9801079) [doi:10.1103/PhysRevD.59.104020](https://doi.org/10.1103/PhysRevD.59.104020)&rbrack;
+
+* {#FinsterSmollerYau02} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Non-Existence of Black Hole Solutions to Static, Spherically Symmetric Einstein-Dirac Systems - a Critical Discussion_ (2002) &lbrack;[arXiv:gr-qc/0211043](https://arxiv.org/abs/gr-qc/0211043)&rbrack;
+
+On [[Einstein-Dirac-Maxwell theory]]:
+
+* {#FinsterSmollerYau99A} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Particle-like solutions of the Einstein-Dirac-Maxwell equations_, Phys. Lett., A 259 (1999), pp. 431-436. &lbrack;[arXiv:gr-qc/9802012](https://arxiv.org/abs/gr-qc/9802012) [doi:10.1016/S0375-9601%2899%2900457-0](https://doi.org/10.1016/S0375-9601%2899%2900457-0)&rbrack;
+
+* {#FinsterSmollerYau99B} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Non-existence of black hole solutions for a spherically symmetric, static Einstein-Dirac-Maxwell system_, Commun. Math. Phys., **205** (1999), pp. 249-262.
+
+* {#FinsterSmollerYau99C} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _The Coupling of Gravity to Spin and Electromagnetism_, Mod. Phys. Lett. A14 (1999), pp. 1053-1057 &lbrack;[arXiv:gr-qc/9906032](https://arxiv.org/abs/gr-qc/9906032) [doi:10.1142/S0217732399001115](https://doi.org/10.1142/S0217732399001115)&rbrack;
+
+* {#FinsterSmollerYau99D} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Non-Existence of Black Hole Solutions for a Spherically Symmetric, Static Einstein-Dirac-Maxwell System_, &lbrack;[arXiv:gr-qc/9810048](https://arxiv.org/abs/gr-qc/9810048) [doi:10.1007/s002200050675](https://doi.org/10.1007/s002200050675)&rbrack;
+
+* {#FinsterSmollerYau01} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _The Einstein-Dirac-Maxwell equation - black hole solutions_ (2001), Methods and applications of analysis. Vol. 8, No. 4, pp. 623-634, December 2001 &lbrack;[pdf](https://intlpress.com/site/pub/files/_fulltext/journals/maa/2001/0008/0004/MAA-2001-0008-0004-a012.pdf)&rbrack;
+
 Solutions in [[Einstein-Yang-Mills theory]]:
 
 * {#SmollerWassermanYauMcLeod92} [[Joel Smoller]], [[Arthur Wasserman]], [[Shing-Tung Yau]], J. Bryce McLeod, _Smooth static solutions of the Einstein-Yang/Mills equation_, Bull. Amer. Math. Soc. (N.S.) **27**, pp. 239-242 (1992) &lbrack;[arXiv:math/9210226](https://arxiv.org/abs/math/9210226) [doi:10.1007/BF02097002](https://doi.org/10.1007/BF02097002)&rbrack;
