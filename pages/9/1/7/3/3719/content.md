@@ -10,11 +10,16 @@
 =--
 
 
-This entry provides a hyperlinked index for the textbook
+This entry is to record the reference:
 
-* [[Charles Weibel]], 
+
+* [[Charles Weibel]]:
+
+  \linebreak
 
   **An Introduction to Homological Algebra**
+
+  \linebreak
 
   Cambridge University Press (1994)
 
@@ -22,7 +27,7 @@ This entry provides a hyperlinked index for the textbook
 
   [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)
 
-which gives a first exposition to central concepts in _[[homological algebra]]_.
+on central concepts of _[[homological algebra]]_.
 
 For a more comprehensive account of the theory see also chapters 8 and 12-18 of 
 
