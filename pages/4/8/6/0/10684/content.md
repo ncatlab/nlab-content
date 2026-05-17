@@ -14,11 +14,15 @@
 =--
 
 
-This entry collects pointers related to the book
+This entry is to record the reference:
 
-* [[Doug Ravenel]]
+* [[Doug Ravenel]]:
+
+  \linebreak
 
   **Complex cobordism and stable homotopy groups of spheres**
+
+  \linebreak
 
   Academic Press Orland (1986)
 
@@ -28,7 +32,7 @@ This entry collects pointers related to the book
 
   [ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h)
 
-  ([webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf))
+  [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf)
  
 
 on [[stable homotopy theory]] in general and in particular the computation of the [[homotopy groups of spheres]] via the [[Adams-Novikov spectral sequence]] and its use of [[complex cobordism cohomology theory]].
