@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -61,5 +59,15 @@ Special [[subgroups]] of isometry groups:
 * [[isometry]]
 
 * [[superisometry group]]
+
+* [[homeomorphism group]]
+
+* [[diffeomorphism group]] ([[volume-preserving diffeomorphism group|volume-preserving]])
+
+* [[symplectomorphism group]]
+
+* [[quantomorphism group]]
+
+
 
 [[!redirects isometry groups]]
