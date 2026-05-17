@@ -68,7 +68,7 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
    2. The trigonometric polynomials do form a topological basis.  The dual basis is given by taking the Fourier coefficients of a function.  However, it is not a Schauder basis as there are continuous functions which are not the uniform limit of their Fourier series.
 
-   3. The following is a Schauder basis.  Let $(d_n)$ be the sequence $\{0, 1, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \dots\}$.  Define $f_n$ to be the piecewise-linear function with the property that: $f_n(d_n) = 1$ and $f_n(d_k) = 0$ for $k \lt n$, and $f_n$ has the least "breaks".  Then $f_n$ forms a Schauder basis for $C([0,1],\mathbb{C})$.  This is the classical _Faber-Schader_ basis.
+   3. The following is a Schauder basis.  Let $(d_n)$ be the sequence $\{0, 1, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \dots\}$.  Define $f_n$ to be the [[piecewise-linear function]] with the property that: $f_n(d_n) = 1$ and $f_n(d_k) = 0$ for $k \lt n$, and $f_n$ has the least "breaks".  Then $f_n$ forms a Schauder basis for $C([0,1],\mathbb{C})$.  This is the classical _Faber-Schader_ basis.
 
 
 ## References
