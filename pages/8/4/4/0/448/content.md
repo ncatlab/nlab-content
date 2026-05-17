@@ -143,7 +143,7 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. (This is discussed in a bit more detail in the entry on [[classical triangulation]]. 
 
-There is another stronger notion of triangulable used by geometric topologists: a **piecewise-linear (PL) structure** on a [[topological manifold]] $X$ is given by a [[manifold|PL atlas]], where the transition functions are piecewise-linear homeomorphisms. (A homeomorphism $U \to V$ is **piecewise linear** if its graph is the intersection of $U \times V$ with a semilinear set $S$, meaning that $S$ is given by a finite Boolean combination of solution sets of linear inequalities.) A triangulation is then called compatible, if $h: |K| \to X$ is piecewise linear. Every PL manifold admits a compatible triangulation.
+There is another stronger notion of triangulable used by geometric topologists: a **piecewise-linear (PL) structure** on a [[topological manifold]] $X$ is given by a [[manifold|PL atlas]], where the transition functions are [[piecewise-linear homeomorphisms]]. (A homeomorphism $U \to V$ is **piecewise linear** if its graph is the intersection of $U \times V$ with a semilinear set $S$, meaning that $S$ is given by a finite Boolean combination of solution sets of linear inequalities.) A triangulation is then called compatible, if $h: |K| \to X$ is piecewise linear. Every PL manifold admits a compatible triangulation.
 
 
 
