@@ -278,7 +278,7 @@ for $k \leq 2n$.
 
 * {#Miller2020} [[Haynes Miller]]: *The Serre exact sequence and the Hurewicz theorem*, section 27 in: *Algebraic Topology II*, lecture notes, MIT OpenCourseWare (2020) &lbrack;full:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/e8a061a73ca1a451df8809c7a7fbc846_MIT18_906S20_notes.pdf), section:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/9c132d351322990b96fa38d1e2701edf_MIT18_906S20_ch4.pdf), [webpage](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/)&rbrack;
  
-
+* {#Miller2001} [[Haynes Miller]]; *The Serre exact sequence and the Hurewicz theorem*, section 65 in: *Lectures on Algebraic Topology*, World Scientific (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>, [pdf](https://math.mit.edu/~hrm/papers/lectures-905-906.pdf)\]
 
 
 
