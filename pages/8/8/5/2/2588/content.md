@@ -23,8 +23,14 @@ On [[homotopy theory]]:
 
 On [[algebraic topology]]:
 
-* [[Haynes Miller]]: *Lectures on Algebraic Topology*, World Scientifuc (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>\]
+* {#Miller2020} [[Haynes Miller]]: *Algebraic Topology II*, lecture notes, MIT OpenCourseWare (2020) &lbrack;full:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/e8a061a73ca1a451df8809c7a7fbc846_MIT18_906S20_notes.pdf), section:[pdf](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/9c132d351322990b96fa38d1e2701edf_MIT18_906S20_ch4.pdf), [webpage](https://ocw.mit.edu/courses/18-906-algebraic-topology-ii-spring-2020/)&rbrack;
+ 
+* [[Haynes Miller]]: *Lectures on Algebraic Topology*, World Scientific (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>, [pdf](https://math.mit.edu/~hrm/papers/lectures-905-906.pdf)\]
 
+
+## Related entries
+
+* [[Serre long exact sequence]]
 
 
 category: people
