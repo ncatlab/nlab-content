@@ -60,6 +60,18 @@ But **beware** that most of the physics literature considers this at the level o
 * the canonical [[group action]] of $SDiff(\Sigma^2)$ on [[quantum states]] of [[3D Maxwell-Chern-Simons theory]] is ([[continuous map|continuous]] but) not [[differentiable map|differentiable]], hence has no reflection on the level of Lie algebras ([Pickrell 2000](#Pickrell2000)).
 
 
+## Related entries
+
+* [[homeomorphism group]]
+
+* [[diffeomorphism group]]
+
+* [[isometry group]], [[superisometry group]]
+
+* [[symplectomorphism group]]
+
+* [[quantomorphism group]]
+
 
 ## References
 
