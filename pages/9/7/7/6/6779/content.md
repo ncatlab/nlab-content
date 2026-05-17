@@ -14,9 +14,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -190,9 +188,9 @@ The [[simplicial homotopy theory|simplicial]] version is due to
 
 * [[Daniel M. Kan]],  _The Hurewicz theorem_, 1958 Symposium internacional de topología algebraica (International symposium on algebraic topology), pp. 225–231 Universidad Nacional Autónoma de México and UNESCO, Mexico City.
 
-The basic statement is for instance in
+Textbook account:
 
-* [[Allen Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+* {#Hatcher02} [[Allen Hatcher]]; Thm. 4.32 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 Lecture notes:
 
