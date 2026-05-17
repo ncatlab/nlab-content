@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -265,13 +263,16 @@ If $X$ is Seifert via an $S^1$-action, then the component of $Diff(X)$ are typic
 
 * [[general covariance]]
 
+* [[homeomorphism group]]
+
 * [[volume-preserving diffeomorphism group]]
+
+* [[isometry group]]
 
 * [[symplectomorphism group]]
 
 * [[quantomorphism group]]
 
-* [[isometry group]]
 
 
 ## References
