@@ -93,7 +93,7 @@ Discussion of charge quantization in [[twisted K-theory]] for the case of non-va
 
 An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
-* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]]: *Orientifold Précis*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) \[<a href=""></a>, <a href="https://bookstore.ams.org/pspum-83">ams:pspum-83</a>, [arXiv:0906.0795 hep-th](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)\]
 
 More on this in:
 
