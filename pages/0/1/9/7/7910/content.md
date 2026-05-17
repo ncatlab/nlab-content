@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -140,6 +139,15 @@ $$
 * [[Hamiltonian action]], [[classical anomaly]]
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
+
+* [[homeomorphism group]]
+
+* [[diffeomorphism group]], [[volume-preserving diffeomorphism group|volume-preserving]]
+
+* [[isometry group]], [[superisometry group]]
+
+* [[symplectomorphism group]]
+
 
 
 [[!include higher Atiyah groupoid - table]]
