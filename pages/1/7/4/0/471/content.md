@@ -27,7 +27,7 @@ in the category [[Top]] of [[topological spaces]], where $[0,1]$ is the [[copair
 
 A bare interval object may be nothing more than such a diagram. If $C$ admits sufficiently many [[limit]]s and [[colimit]]s, then from this alone a lot of structure derives. The precise definition of further structure and property imposed on an interval object varies with the intended context and applications. 
 
-Notably in a large class of applications the interval object in $C$ supposed to be the right structure to ensure 
+Notably in a large class of applications the interval object in $C$ is supposed to be the right structure to ensure 
 
 1. that there is an object $I$ in $C$ such that for every object $X$ of $C$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path space object]] for $X$;
 
