@@ -82,7 +82,7 @@ Such finite-dimensional $G$-principal bundles, universal for base spaces of fixe
 
 * {#May99} [[Peter May]],  sec. 10.4 in: _[[A Concise Course in Algebraic Topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-* {#Hatcher02} [[Allen Hatcher]], Theorem 4.8, [p. 349](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=358) in: _Algebraic topology_, Cambridge Univ. Press 2002 ([web](http://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
+* {#Hatcher02} [[Allen Hatcher]], Theorem 4.8, [p. 349](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=358) in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 
 See also
