@@ -14,6 +14,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -252,7 +253,7 @@ Early references of the 5-lemma:
 
 Modern accounts:
 
-* [[Charles Weibel]], Ex. 1.3.3 in:  _[[An Introduction to Homological Algebra]]_ 
+* [[Charles Weibel]]; Ex. 1.3.3 in: _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994) \[<a href="https://doi.org/10.1017/CBO9781139644136">doi:10.1017/CBO9781139644136</a>\]
 
 * [[Nicolas Bourbaki]]; Algebra ch. X of: _Homological algebra_  (1980)
 
