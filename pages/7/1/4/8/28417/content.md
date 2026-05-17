@@ -8,11 +8,22 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
 A *homeomorphism group* is the [[group]] of [[homeomorphisms]] of a [[topological space]].
+
+## Related entries
+
+* [[diffeomorphism group]] ([[volume-preserving diffeomorphism group|volume-preserving]])
+
+* [[isometry group]], [[superisometry group]]
+
+* [[symplectomorphism group]]
+
+* [[quantomorphism group]]
 
 [[!redirects homeomorphism groups]]
 [[!redirects Homeomorphism group]]
