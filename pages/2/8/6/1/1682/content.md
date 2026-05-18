@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -456,11 +455,11 @@ The idea of a [[generalized cohomology theory]] with [[coefficients]] the ring o
 and produced as a [[homotopy limit]] of [[elliptic cohomology]] theories over the [[moduli stack of elliptic curves]] was originally announced, as joint work with [[Mark Mahowald]] and [[Haynes Miller]], in 
 
 * {#Hopkins94} [[Michael Hopkins]], section 9 of _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([[Hopkins_TopModFormsAtICM.pdf:file]], [doi:10.1007/978-3-0348-9078-6_49](https://doi.org/10.1007/978-3-0348-9078-6_49))
+  > (Here the spectrum was still called "$eo_2$" instead of "$tmf$".) 
 
-(There the spectrum was still called "$eo_2$" instead of "$tmf$".) The details of the definition then appeared in
+The details of the definition then appeared in:
 
-
-* {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
+* {#Hopkins02} [[Michael Hopkins]], section 4 of: _Algebraic topology and modular forms_, in: *Proceedings of the ICM, (2002, Beijing)* **1**, Higher Education Press (2002) 283--309 &lbrack;[arXiv:math/0212397](http://arxiv.org/abs/math/0212397), full:[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM2002.1/ICM2002.1.ocr.pdf), ISBN:7-04-008690-5&rbrack;
 
 A central tool that goes into the construction is the [[Goerss-Hopkins-Miller theorem]], see there for references on that.
 
