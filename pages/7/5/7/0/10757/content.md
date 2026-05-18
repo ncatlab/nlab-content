@@ -4,7 +4,7 @@
 * table of contents
 {:toc}
 
-###Disambigation
+##Disambiguation
 
 This entry is about 'generalized Eilenberg-Mac Lane spaces' as used in Stable Homotopy Theory. The same term is used for a related concept, namely the representing fibration for [[ twisted cohomology|cohomology with local coefficients]]. That cohomology is also called [[twisted cohomology]] so we have used the term [[twisted Eilenberg - Mac Lane space]] for this second use. 
 
@@ -27,7 +27,7 @@ Accordingly a _generalized Eilenberg-Mac Lane spectrum_ is a [[spectrum]] equiva
 * $H(0)$ is a contractible space, 
 * $H(R)$ is connected and for every $ n$ the projections $pr_k \colon R^n\to R$ induce a weak equivalence $ H(R^n) \stackrel{\simeq}{\to}  H(R)^n$ 
 
-then the space $ H(R)$ is weakly equivalent to a product $\prod_{i=1}^{\infty} K(M_i , i)}$ where $M_i$ is an $ R$-module. 
+then the space $ H(R)$ is weakly equivalent to a product $\prod_{i=1}^{\infty} K(M_i , i)$ where $M_i$ is an $ R$-module. 
 
 **Proof.** This is the main theorem of [Badzioch]
 
