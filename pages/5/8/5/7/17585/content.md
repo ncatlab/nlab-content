@@ -1000,7 +1000,7 @@ The original result is due to
 
 * {#VigueSullivan76} [[Micheline Vigué-Poirrier]], [[Dennis Sullivan]]: _The homology theory of the closed geodesic problem_, J. Differential Geometry **11** (1976) 633-644.
 
-* {#VigueBurghelea85} [[Micheline Vigué-Poirrier]], Dan Burghelea: *A model for cyclic homology and algebraic K-theory of 1-connected topological spaces*, J. Differential Geom. **22** 2 (1985) 243-253 &lbrack;[euclid:jdg/1214439821](https://projecteuclid.org/euclid.jdg/1214439821)&rbrack;
+* {#VigueBurghelea85} [[Micheline Vigué-Poirrier]], Dan Burghelea: *A model for cyclic homology and algebraic K-theory of 1-connected topological spaces*, J. Differential Geom. **22** 2 (1985) 243-253 &lbrack;[euclid:jdg/1214439821](https://projecteuclid.org/euclid.jdg/1214439821), [doi:10.4310/jdg/1214439821](http://doi.org/10.4310/jdg/1214439821)&rbrack;
 
 
 Examples:
