@@ -1,14 +1,13 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ian_R._Porteous)
 
-## selected writings
+## Selected writings
 
-* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
+On [[Clifford algebras]] and the [[classical Lie groups]], notably the [[spin groups]]:
 
+* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912)&rbrack;
 
-  (on [[Clifford algebra]], [[spin groups]] and the classical [[Lie groups]])
-
-## related $n$Lab entries
+## Related entries
 
 * [[Spin(5)]]
 
