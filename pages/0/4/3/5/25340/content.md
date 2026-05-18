@@ -43,6 +43,10 @@ On [[quantum entanglement|entangling]] [[quantum gates]] in [[topological quantu
 
 * [[Sergey Mironov]], [[Andrey Morozov]]: *Entangling gates for the $SU(N)$ anyons* \[<a href="https://arxiv.org/abs/2605.04016">arXiv:2605.04016</a>\]
 
+On [[SU(2)-anyons]]:
+
+* Artem Belov, [[Andrey Morozov]]: *Ising anyons in the $SU(2)_2$ Chern--Simons theory* &lbrack;[arXiv:2605.15268](https://arxiv.org/abs/2605.15268)&rbrack;
+
 
 
 category: people
