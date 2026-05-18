@@ -18,9 +18,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -1310,9 +1309,9 @@ and from the point of view of [[modal homotopy type theory|modal homotopy theory
 
 {#ReferencesFormalizationInCohesiveHoTT} Formalization in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
 
-* {#Myers21} [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+* {#Myers21} [[David Jaz Myers]]: _Modal Fracture of Higher Groups_,  talk at *[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2021) &lbrack;[pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]]&rbrack;
 
-* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390))
+* [[David Jaz Myers]]: _Modal Fracture of Higher Groups_, Differential Geometry and its Applications **96** (2024) 102176 &lbrack;[arXiv:2106.15390](https://arxiv.org/abs/2106.15390), [doi:10.1016/j.difgeo.2024.102176](https://doi.org/10.1016/j.difgeo.2024.102176)&rbrack;
 
 For discussion of the hexagon in an [[equivariant cohomology|equivariant]] setting, see 
 
