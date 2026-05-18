@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -306,11 +304,13 @@ Further discussion:
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. **30** 2 (1993) 179-202 &lbrack;[Euclid](http://projecteuclid.org/euclid.ojm/1200784357)&rbrack;
 
-* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) ([doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912))
+* {#Porteous95} [[Ian Porteous]]: _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912)&rbrack;
+
+* [[Mikio Nakahara]]; (9.62) in: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://www.stat.ucla.edu/~ywu/GTP.pdf">pdf</a>&rbrack;
 
 * {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, *Coset for Hopf fibration and Squashing*, Class. Quant. Grav. **26** 225007 (2009) &lbrack;[arXiv:0906.1025](https://arxiv.org/abs/0906.1025), [doi:10.1088/0264-9381/26/22/225007](https://doi.org/10.1088/0264-9381/26/22/225007)&rbrack;
 
-* [[Rustam Sadykov]], §8.3 in: _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]])
+* [[Rustam Sadykov]], §8.3 in: _Elements of Surgery Theory_ (2013) &lbrack;[pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]]&rbrack;
 
 * [[Tyrone Cutler]], p. 23 of: *Fibrations IV* (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20IV.pdf), [[Cutler-FibrationsIV.pdf:file]]&rbrack;
 
