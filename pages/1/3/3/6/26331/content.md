@@ -11,7 +11,7 @@ On [[Einstein-Cartan-Dirac theory]]:
 
 * {#InglisJarvis19} [[Shaun Inglis]], [[Peter Jarvis]], _The self-coupled Einstein–Cartan–Dirac equations in terms of Dirac bilinears_, J. Phys. A: Math. Theor. **52** 045301 (2019) &lbrack[arXiv:1711.04245](https://arxiv.org/abs/1711.04245) [doi:10.1088/1751-8121/aaf4e0](https://iopscience.iop.org/article/10.1088/1751-8121/aaf4e0)&rbrack
 
-On antisymmetric rank-2 [[field (physics)|fields]] (2-form field, [[Kalb-Ramond fields]]):
+On antisymmetric rank-2 [[field (physics)|fields]] (2-form fields, [[Kalb-Ramond fields]]):
 
 * [[Peter D. Jarvis]], [[Jean Thierry-Mieg]], *Antisymmetric tensor fields: actions, symmetries and first order Duffin-Kemmer-Petiau formulations* &lbrack;[arXiv:2311.01675](https://arxiv.org/abs/2311.01675)&rbrack;
 
