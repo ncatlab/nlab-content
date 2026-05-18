@@ -51,9 +51,9 @@ On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf
 * {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _The sigma orientation is an H-infinity map_, American Journal of Mathematics **126** 2 (2004) 247-334 &lbrack;[arXiv:math/0204053](http://arxiv.org/abs/math/0204053), [doi:10.1353/ajm.2004.0008](https://doi.org/10.1353/ajm.2004.0008)&rbrack;
 
 
-The details of the definition then appeared in
+The details of the definition then appeared in:
 
-* {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
+* {#Hopkins02} [[Michael Hopkins]], section 4 of: _Algebraic topology and modular forms_, in: *Proceedings of the ICM, (2002, Beijing)* **1**, Higher Education Press (2002) 283--309 &lbrack;[arXiv:math/0212397](http://arxiv.org/abs/math/0212397), full:[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM2002.1/ICM2002.1.ocr.pdf), ISBN:7-04-008690-5&rbrack;
 
 
 On [[complex oriented cohomology theory]] and [[stacks]]:
