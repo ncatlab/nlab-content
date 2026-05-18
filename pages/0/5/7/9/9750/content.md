@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -323,7 +322,7 @@ The above "brane scan" table showing the double dimensional reduction pattern of
 
 The [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
 
-* [[Paul Townsend]], _D-branes from M-branes_, Phys. Lett. B373 (1996) 68-75 ([arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062))
+* [[Paul Townsend]], _D-branes from M-branes_, Phys. Lett. B **373** (1996) 68--75 &lbrack;<a href="https://doi.org/10.1016/0370-2693(96)00104-9">doi:10.1016/0370-2693(96)00104-9</a>, [arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062)&rbrack;
 
 * {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of: *World-Volume Action of the M Theory Five-Brane*, Nucl. Phys. B **496** (1997) 191-214 &lbrack;[arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166), <a href="https://doi.org/10.1016/S0550-3213(97)00227-7">doi:10.1016/S0550-3213(97)00227-7</a>&rbrack;
 
