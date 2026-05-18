@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea ##
@@ -232,6 +230,9 @@ See also:
 * Nicholas Layden, Dipanjan Dey, Alan Coley: *A Complete Invariant Analysis of the Kerr Spacetime and its Photon Region* &lbrack;[arXiv:2604.23389](https://arxiv.org/abs/2604.23389)&rbrack;
 
 * Hyeong-Chan Kim: *Local Origin of Hidden Symmetry in Rotating Spacetimes* &lbrack;[arXiv:2603.08408](https://arxiv.org/abs/2603.08408)&rbrack;
+
+* Pierre Heidmann, Gela Patashuri: *Generating Rotation in a Snap
+Soumangsu Chakraborty* &lbrack;[arXiv:2605.15258](https://arxiv.org/abs/2605.15258)&rbrack;
 
 
 
