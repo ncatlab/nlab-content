@@ -211,7 +211,7 @@ This is recalled at ([Connes 94, prop. 3 on p. 106](#Connes94)).
 +-- {: .num_remark #ExtensionToBibundlesAndBimodules}
 ###### Remark
 
-With suitable definitions, this construction constitutes something at least close to a [[2-functor]] from [[differentiable stacks]] to [[C-star-algebras]] and [[Hilbert bimodules]] between them:
+With suitable definitions, this construction constitutes a [[2-functor]] from a non-full subcategory of [[differentiable stacks]] to [[C-star-algebras]] and [[Hilbert bimodules]] between them:
 
 In [Mr&#269;un 99](#Mrcun99) the convolution algebra construction for [[étale Lie groupoids]] is extended to groupoid [[bibundles]] and shown to produce a [[functor]] to [[C-star-algebras]] with (isomorphism classes of) [[bimodules]] between them. In [Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun) it is shown that if one remembers the additional [[Hopf algebroid]] structure on the convolution $C^\ast$-algebras (the algebraic analog of remebering the [[atlas]] of the [[differentiable stack]] of a Lie groupoid) then this construction becomes a [[full subcategory]] inclusion of &#233;tale Lie groupoids into their convolution Hopf algebroids.
 
@@ -223,21 +223,21 @@ A precise form of this statement is the following ([Nuiten 2013, theorem 3.3.1](
 
 +-- {: .num_prop #GroupoidConvolutionIs2Functor}
 ###### Proposition
-**([[groupoid convolution algebra]] is [[(2,1)-functor]] from [[differentiable stacks]] to [[C*-algebras]])**
+**([[groupoid convolution algebra]] is [[(2,1)-functor]] from the category of [[differentiable stacks]] and proper submersive bibundles to [[C*-algebras]])**
 
 The above construction of groupoid convolution algebras (def. \ref{ContinuousCategoryAlgebraWithHalfDensities}) extends to a [[(2,1)-functor]]
 
 $$
   C^\ast(-)
   \;\colon\;
-  DiffStack^{prop}
+  DiffStack^{prop,subm}
     \overset{\phantom{AAA}}{\longrightarrow}
   C^\ast Alg^{op}_{bim}
 $$
 
 between 
 
-1. the [[(2,1)-category]] $DiffStack_{prop}$ of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them (in the sense of [Alldridge & Giansiracusa '06 Def. 0.2](#AlldridgeGiansiracusa2006), [Nuiten '13 Def. 2.2.35](#Nuiten13)) representable by [[bibundles]] both whose legs are [[submersions]] (this strong condition is imposed in [Nuiten '13 Def. 2.2.33](#Nuiten13)),
+1. the [[(2,1)-category]] of [[differentiable stacks]] (i.e. [[Lie groupoids]] regarded as [[smooth stacks]]) with proper morphisms between them (in the sense of [Alldridge & Giansiracusa '06 Def. 0.2](#AlldridgeGiansiracusa2006), [Nuiten '13 Def. 2.2.35](#Nuiten13)) representable by [[bibundles]] that are [[submersions]] on the target [Nuiten '13 Def. 2.2.33](#Nuiten13),
 
 1. the [[opposite 2-category|opposite]] [[(2,1)-category]] of [[C*-algebras]] with [[Hilbert bimodules]] between them and [[intertwiners]] between those.
 
@@ -245,7 +245,9 @@ between
 
 This is due to [Nuiten 13, theorem 3.3.1](#Nuiten13).
 
-(Generalization beyond the strong condition of bibundles submersive on both sides exists in the context of [[bornological set|bornological]] convolution, cf. [Aretz & Blohmann 2025](#AretzBlohmann2025)).
+The condition for the bibundles to be proper and submersive is quite strong. (For ordinary manifolds such a bibundle is the same as a proper submersion, which is the same as the projection of a fiber bundle.) The condition to be proper excludes for example the stacky group structures of non-commutative tori or the Lie 2-group model of the string group. The condition to be submersive exludes points of the stack, which are the inclusions of the orbits of the Lie groupoid.
+
+Both conditions can be dropped for complete [[bornological set|bornological]] convolution, which is a [[(2,1)-functor]] from the category of [[differentiable stacks]] to the Morita 2-category of complete bornological algebras ([Aretz & Blohmann 2025, theorem 6.1.1](#AretzBlohmann2025)).
 
 This way, much of [[noncommutative geometry]] is exhibited as actually being the [[higher geometry]] of [[differentiable stacks]] inside all [[smooth stacks]]. In particular, [[groupoid K-theory]] is realized as the [[KK-theory]] of convolution C*-algebras.
 
