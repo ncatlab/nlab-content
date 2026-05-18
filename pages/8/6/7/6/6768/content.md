@@ -1,7 +1,5 @@
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -22,11 +20,16 @@ An arrangement of [[hyperplanes]] is a finite set of hyperplanes in a (finite-di
 
 Stanley's survey focuses instead more on combinatorics of the intersection poset of an arrangement (as well as arrangements in the case of vector space over a finite field):
 
-* [[Richard P. Stanley]], _An introduction to hyperplane arrangements_, in: Geometric combinatorics, 389&#8211;496, IAS/Park City Math. Ser., 13, Amer. Math. Soc. 2007, [pdf](http://www.math.umn.edu/~ezra/PCMI2004/stanley.jcp.pdf), [errata](http://www-math.mit.edu/~rstan/arrangements/errata.pdf)
+* [[Richard P. Stanley]], _An introduction to hyperplane arrangements_, in: Geometric combinatorics, 389--496, IAS/Park City Math. Ser., 13, Amer. Math. Soc. (2007) &lbrack;[pdf](http://www.math.umn.edu/~ezra/PCMI2004/stanley.jcp.pdf), [errata](http://www-math.mit.edu/~rstan/arrangements/errata.pdf)&rbrack;
 
-* Richard Randell, _Morse theory, Milnor fibers and minimality of hyperplane arrangements_, [math.AG/0011101](http://arxiv.org/abs/math/0011101)
+See also:
 
-* [[Daniel C. Cohen]], Michael Falk, Richard Randell, _Discriminantal bundles, arrangement groups, and subdirect products of free groups_, [arxiv/1008.0417](http://arxiv.org/abs/1008.0417)
+* Richard Randell, _Morse theory, Milnor fibers and minimality of hyperplane arrangements_ &lbrack;[math.AG/0011101](http://arxiv.org/abs/math/0011101)&rbrack;
+
+* [[Daniel C. Cohen]], Michael Falk, Richard Randell: _Discriminantal bundles, arrangement groups, and subdirect products of free groups_ &lbrack;[arxiv/1008.0417](http://arxiv.org/abs/1008.0417)&rbrack;
+
+* Takuya Saito, So Yamagata: *Non-vanishing of homotopy groups of Manin--Schechtman arrangements* &lbrack;[arXiv:2605.14536](https://arxiv.org/abs/2605.14536)&rbrack;
+
 
 
 ### Relating to configuration spaces of points
