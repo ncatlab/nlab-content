@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -34,7 +32,18 @@ $$
   \,
 $$
 
-one may think of this as a [[stabilization]] of generalized [[nonabelian cohomology]] theories (in the sense of [Lurie 14, Def. 6](nonabelian+cohomology#Lurie14), [FSS23, §2](nonabelian+cohomology#FSS20)) $U_n(X)$ whose classifying spaces are the [[unitary groups]] $U(n)$. For this reason, we may call the groups $[X,U(n)] \,\coloneqq\, \pi_0 Map\big(X,U(n)\big)$ the **unstable** $\tilde{K}^1$-theory groups of $X$, at stage $n$.
+one may think of this as a [[stabilization]] of generalized [[nonabelian cohomology]] theories (in the sense of [Lurie 14, Def. 6](nonabelian+cohomology#Lurie14), [FSS23, §2](nonabelian+cohomology#FSS20)) $U_n(X)$ whose classifying spaces are the [[unitary groups]] $U(n)$. For this reason, one may call the groups $[X,U(n)] \,\coloneqq\, \pi_0 Map\big(X,U(n)\big)$ the **unstable** $\tilde{K}^1$-theory groups of $X$, at stage $n$ ([Hamanaka & Kono 2003](#HamanakaKono2003), [2004](#HamanakaKono2004)).
+
+Similarly, the [[infinite loop space]] representing [[algebraic K-theory]] of a suitable [[ring]] $R$ is the [[colimit]]
+
+$$
+  K_0(R) 
+    \;\times\; 
+  \underset{\underset{n}{\longrightarrow}}{\lim} B GL(n,R)^+
+$$
+
+of the [[Quillen plus construction]] on the [[classifying spaces]] of the [[general linear groups]] $GL(n,R)$, and considering this instead for finite $n$ is the topic of *unstable algebraic K-theory* ([vd Kallen 1980 §1.2](#vdKallen1980), [Clausen & Jansen 2024 §1.3](#ClausenJansen2024)).
+
 
 
 ## Definition
@@ -59,11 +68,11 @@ From this definition one can see that, if $X$ is a finite-[[dimension|dimensiona
 
 ## Properties
 
-The following properties are proven in [Hamanaka and Kono 2003](#HK03):
+The following properties are proven in [Hamanaka & Kono 2003](#HamanakaKono2003):
 
 +-- {: .num_defn #LimitToKtheory}
 ###### Proposition
-(Theorem 1.1 of [op.cit.](#HK03)) 
+(Theorem 1.1 of [op.cit.](#HamanakaKono2003)) 
 \linebreak
 Let $\text{dim}(X)\leq 2n$. Then there exists an [[exact sequence]] of the form:
 
@@ -80,7 +89,7 @@ $$
   \,,
 $$
 
-or, put differently, defining $N_n (X) \coloneqq coker(\Theta)$ (see Section 3 of [op.cit.](#HK03) for the definition of $\Theta$):
+or, put differently, defining $N_n (X) \coloneqq coker(\Theta)$ (see Section 3 of [op.cit.](#HamanakaKono2003) for the definition of $\Theta$):
 
 $$
   1 \to N_n (X) \to U_n(X) \to \tilde{K}^1 (X) \to 1
@@ -93,7 +102,7 @@ In particular, Prop. \ref{LimitToKtheory} shows that in general $U_n(X)$ is neit
 
 +-- {: .num_defn #LimitToKtheory}
 ###### Proposition
-(Theorem 1.2 of [op.cit.](#HK03)) 
+(Theorem 1.2 of [op.cit.](#HamanakaKono2003)) 
 
 For $dim(X)\leq 2n$, the [[cokernel]] group $N_n(X)$ is a [[finite group|finite]] [[abelian group]] where the order of any element divides $n!$.
 
@@ -115,9 +124,6 @@ whereas $\tilde{K}^1 (S^{2n} ) =0$.
 
 =--
 
-## Algebraic K-theory
-
-For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
 
 ## Related concepts
 
@@ -130,15 +136,27 @@ For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
 
 ## References
 
-* {#HK03} [[Hiroaki Hamanaka]], [[Akira Kono]]: *On $[X, U(n)]$ when $\text{dim}(X)$ is $2n$*, Journal of Mathematics of Kyoto University **43** 2 (2003) 333-348 &lbrack;[doi:10.1215/kjm/1250283730](https://doi.org/10.1215/kjm/1250283730)&rbrack;
+On unstable [[topological K-theory]]:
 
-* [[Hiroaki Hamanaka]], [[Akira Kono]]: *An application of unstable K-theory*, Journal of Mathematics of Kyoto University **44** 2 (2004) 451-456 &lbrack;[doi:10.1215/kjm/1250283560](https://doi.org/10.1215/kjm/1250283560)&rbrack;
+* {#HamanakaKono2003} [[Hiroaki Hamanaka]], [[Akira Kono]]: *On $[X, U(n)]$ when $\text{dim}(X)$ is $2n$*, Journal of Mathematics of Kyoto University **43** 2 (2003) 333-348 &lbrack;[doi:10.1215/kjm/1250283730](https://doi.org/10.1215/kjm/1250283730)&rbrack;
 
 * {#Ham03} [[Hiroaki Hamanaka]]: *Adams $ e $-invariant, Toda bracket and $[X, U (n)]$*, Journal of Mathematics of Kyoto University **43** 4 (2003) 815-827 &lbrack;[doi:10.1215/kjm/1250281737](https://doi.org/10.1215/kjm/1250281737)&rbrack;
 
-On unstable algebraic K-theory:
+* {#HamanakaKono2004} [[Hiroaki Hamanaka]], [[Akira Kono]]: *An application of unstable K-theory*, Journal of Mathematics of Kyoto University **44** 2 (2004) 451-456 &lbrack;[doi:10.1215/kjm/1250283560](https://doi.org/10.1215/kjm/1250283560)&rbrack;
 
-* {#Jansen24} Mikala Ørsnes Jansen. *Unstable algebraic K-theory: homological stability and other observations* (2024). ([arXiv:2405.02065](https://arxiv.org/abs/2405.02065)).
+
+On unstable [[algebraic K-theory]]:
+
+* {#vdKallen1980} Wilberd van der Kallen: *Homology stability for linear groups*,  Invent Math **60** (1980) 269--295 \[<a href="https://doi.org/10.1007/BF01390018">doi:10.1007/BF01390018</a>\]
+
+* [[Soren Galatius]], [[Alexander Kupers]], [[Oscar Randal-Williams]]: *$E_\infty$-cells and general linear groups of infinite fields*, Duke Math. J. **174** 14  (2025) 2927--3046 &lbrack;[arXiv:2005.05620](https://arxiv.org/abs/2005.05620)&rbrack;
+
+
+* {#ClausenJansen2024} [[Dustin Clausen]], Mikala Ørsnes Jansen: *The reductive Borel-Serre compactification as a model for unstable algebraic K-theory*, Sel. Math. New Ser. **30** 10 (2024) &lbrack;[arXiv:2108.01924 math.KT](https://arxiv.org/abs/2108.01924), [doi:10.1007/s00029-023-00900-8](https://doi.org/10.1007/s00029-023-00900-8)&rbrack;
+
+* {#Jansen24} Mikala Ørsnes Jansen: *Unstable algebraic K-theory: homological stability and other observations* &lbrack;[arXiv:2405.02065](https://arxiv.org/abs/2405.02065)&rbrack;
 
 
 [[!redirects unstable topological K-theory]]
+
+[[!redirects unstable algebraic K-theory]]
