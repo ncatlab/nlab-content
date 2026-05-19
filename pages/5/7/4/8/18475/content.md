@@ -359,6 +359,9 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Jovan Potrebić, Dragoljub Gočanin: *Twisted Holographic Superfluids in External Magnetic Field* &lbrack;[arXiv:2603.15572](https://arxiv.org/abs/2603.15572)&rbrack;
 
+* Salvatore Santoro, Roberto Auzzi, Stefano Bolognesi: *Field Theory Models for a Holographic Superconductor in Two Dimensions* &lbrack;[arXiv:2605.18628](https://arxiv.org/abs/2605.18628)&rbrack;
+
+
 
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
