@@ -168,7 +168,10 @@ in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/
 
 * {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
-* {#Bais24} Valentina Bais, _On Dold-Whitney's parallelizability of 4-manifolds_ (2024) &lbrack;[arxiv:2410.22117](https://arxiv.org/abs/2410.22117) &rbrack;
+* {#Bais24} [[Valentina Bais]], _On Dold-Whitney's parallelizability of 4-manifolds_ (2024) &lbrack;[arxiv:2410.22117](https://arxiv.org/abs/2410.22117)&rbrack;
+
+* {#Liu25} [[Wancheng Liu]], _On the Classification of $S^3$-Bundles over $\mathbb{C}P^2$_ (2025) &lbrack;[arxiv:2511.22999](https://arxiv.org/abs/2511.22999) [doi:10.48550/arXiv.2511.22999](
+https://doi.org/10.48550/arXiv.2511.22999)&rbrack;
 
 [[!redirects principal SO(4)-bundles]]
 [[!redirects SO(4)-principal bundle]]
