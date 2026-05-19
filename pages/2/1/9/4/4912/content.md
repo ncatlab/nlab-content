@@ -11,6 +11,8 @@ Colin McLarty
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=B1ipnOQAAAAJ&hl=en)
 
+
+
 ## Selected writings
 
 
@@ -39,13 +41,15 @@ On [[The Rising Sea]]-analogy by [[Alexander Grothendieck]]:
 
 On [[Saunders MacLane]]:
 
-* [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. (2007) &lbrack;[pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf)&rbrack;
+* [[Colin McLarty]]: _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. (2007) &lbrack;[pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf)&rbrack;
 
 On the need, or not, for [[Grothendieck universes]] in [[Andrew Wiles|Wiles]]' proof of [[Fermat's last theorem]]:
 
 * [[Colin McLarty]]: *What does it take to prove Fermat's last theorem? -- Grothendieck and the logic of number theory*, Bulletin of Symbolic Logic **16** 3 (2010) 359--377  &lbrack;[doi:10.2178/bsl/1286284558](https://doi.org/10.2178/bsl/1286284558), [jstor:20749620](http://www.jstor.org/stable/20749620), [euclid](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.full)&rbrack;
 
+On [[Alexander Grothendieck]] and [[topos theory]]:
 
+* [[Colin McLarty]]: *The Life of Alexander Grothendieck & Topos Theory*, Curt Jaimungal podcast (2025) &lbrack;[video](https://youtu.be/81sPQGIWEfM)&rbrack;
 
 
 
