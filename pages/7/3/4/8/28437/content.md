@@ -1,9 +1,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
+#### Differential geometry
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
+[[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
@@ -11,8 +11,13 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-*Barlow surfaces* provide [[countable set|countably]] infinitely many non-[[diffeomorphic]] [[smooth structures]] on the [[complex surface]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$, which is the eight-fold [[blow-up]] of the second [[complex projective space]]. (One [[blow-up]] more yields the [[Dolgachev surfaces]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$.)
+The *Barlow surface* is a [[simply connected topological space|simply connected]] [[complex surface]] of general type that is [[homeomorphism|homeomorphic]] ([Barlow 1984](#Barlow84)) but not [[diffeomorphism|diffeomorphic]] ([Kotschick 1989](#Kotschick89)) to $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$ (the eight-fold [[blow-up]] of the [[complex projective plane]]), and thus the first known example of an  [[exotic smooth structure]] on this [[topological manifold]]. 
+
+While it is now established that the underlying [[topological manifold]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$ admits [[countable set|countably]] infinitely many non-[[diffeomorphism|diffeomorphic]] [[smooth structures]], these infinite families are generally constructed via later techniques (such as rational blowdowns or knot surgery) and are not themselves "Barlow surfaces".
+
+(For context, the topological manifold obtained by one further [[blow-up]] is $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$, which is the space famously underlying the [[Dolgachev surfaces]].)
 
 ## Related entries
 
