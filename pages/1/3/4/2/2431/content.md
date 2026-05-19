@@ -13,10 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+
+\tableofcontents
 
 ## Idea
 
@@ -849,9 +848,9 @@ Textbook accounts:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#AguilarGitlerPrito02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrito02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Sections 2.4, 2.5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]]; Sections 2.4, 2.5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society (2006) &lbrack;[ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
 
 Quick reviews include
@@ -865,10 +864,9 @@ Generalization to [[triangulated categories]] is discussed in
 
 * {#Neeman96} [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([AMS](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
 
-A [[model category]] version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
+A [[model category]] version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]]:
 
-* {#Jardine09} [[Rick Jardine]], _Representability theorems for simplicial
-presheaves_, 2009 ([pdf](http://ncatlab.org/nlab/files/JardineBrownrep.pdf)) 
+* {#Jardine09} [[John F. Jardine]]: _Representability theorems for simplicial presheaves_ (2009) &lbrack;[pdf](http://ncatlab.org/nlab/files/JardineBrownrep.pdf)&rbrack;
 
 A version in [[(infinity,1)-category theory]] is in 
 
