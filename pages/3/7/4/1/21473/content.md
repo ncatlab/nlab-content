@@ -59,27 +59,30 @@ where $\mathcal{H}_{A B} = \mathrm{diag}(\delta_{a b},\,\delta^{a b})$. This sim
 
 ## References
 
-### General
-
 The original [[Scherk-Schwarz mechanism]]:
 
-* {#ScherkSchwarz89} [[Joël Scherk]], [[John Schwarz]], _How to get masses from extra dimensions_, in: Supergravities in Diverse Dimensions, pp. 1282-1309 (1989)  ([doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083))
+* {#ScherkSchwarz89} [[Joël Scherk]], [[John Schwarz]]: _How to get masses from extra dimensions_, in: *Supergravities in Diverse Dimensions* (1989) 1282--1309   &lbrack;[doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083)&rbrack;
 
 The [[duality in string theory|duality]]-twisted generalized version:
 
-* [[Atish Dabholkar]], [[Chris Hull]], _Duality Twists, Orbifolds, and Fluxes_, JHEP 0309:054, 2003 ([arXiv:hep-th/0210209](https://arxiv.org/abs/hep-th/0210209))
+* [[Atish Dabholkar]], [[Chris Hull]]: _Duality Twists, Orbifolds, and Fluxes_, JHEP 0309:054, (2003) &lbrack;[arXiv:hep-th/0210209](https://arxiv.org/abs/hep-th/0210209)&rbrack;
 
 
-* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP 0510:065, 2005 ([arXiv:hep-th/0406102](https://arxiv.org/abs/hep-th/0406102))
+* [[Chris Hull]]: _A Geometry for Non-Geometric String Backgrounds_, JHEP 0510:065 (2005) &lbrack;[arXiv:hep-th/0406102](https://arxiv.org/abs/hep-th/0406102)&rbrack;
 
 
-### In M-theory
+A lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]]: 
 
-A lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]], is proposed in 
+* {#Hull98} [[Chris Hull]]: _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027 (1998) &lbrack;[arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021)&rbrack;
 
-* {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
+See also:
+
+* Zihni Kaan Baykara, Shi Chen, [[Cumrun Vafa]]: *Isolated Critical Points for Scherk-Schwarz Compactifications of M-theory* &lbrack;[arXiv:2605.16484](https://arxiv.org/abs/2605.16484)&rbrack;
+
 
 [[!redirects generalized Scherk-Schwarz mechanism]]
+
+[[!redirects Scherk-Schwarz compactification]]
 
 
 
