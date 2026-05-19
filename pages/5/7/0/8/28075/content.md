@@ -68,6 +68,8 @@ $$
 
 * {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
+* {#Opie23} [[Morgan Opie]], _A classification of complex rank 3 vector bundles on complex projective 5-space_ (2023) &lbrack;[arxiv:2301.04313](https://arxiv.org/abs/2301.04313) [doi:10.48550/arXiv.2301.04313](https://doi.org/10.48550/arXiv.2301.04313)&rbrack;
+
 [[!redirects principal U(3)-bundles]]
 [[!redirects U(3)-principal bundle]]
 [[!redirects U(3)-principal bundles]]
