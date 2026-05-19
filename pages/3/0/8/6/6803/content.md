@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -82,9 +82,14 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 As a [[Green-Schwarz sigma-model]]:
 
-* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]]: Section 6 of: _Dual D-Brane Actions_, Nucl. Phys. B **496** (1997) 215--230 &lbrack;[arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133)&rbrack;
 
 * {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 &lbrack;[arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143)&rbrack;
+
+
+Further discussion:
+
+* Jian-Ge Zhou; §3 in: *D-branes in B fields*, Nuclear Physics B **607** 1– (2001) 237--246 \[<a href="https://doi.org/10.1016/S0550-3213(01)00240-1">doi:10.1016/S0550-3213(01)00240-1</a>, [arXiv:hep-th/0102178](https://arxiv.org/abs/hep-th/0102178)\]
 
 
 ### Double dimensional reduction from M5-brane
@@ -135,7 +140,7 @@ Only [[D4-branes]] (possibly on [[O4-plane]] [[orientifolds]]):
 
 ### Matrix model
 
-The [[nuclear matrix]] model describes [[D4-branes]] bound to [[flavour brane|flavour]] [[D8-branes]] in the [[WSS-model]]:
+The [[nuclear matrix model]] describes [[D4-branes]] bound to [[flavour brane|flavour]] [[D8-branes]] in the [[WSS-model]]:
 
 * {#HashimotoIizukaYi10} [[Koji Hashimoto]], Norihiro Iizuka, Piljin Yi, _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
 
