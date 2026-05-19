@@ -12,7 +12,7 @@
 
 ## Idea
 
-*Dolgachev surfaces* provide [[countable set|countably]] infinitely many non-[[diffeomorphic]] [[smooth structures]] on the [[complex surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$, which is the nine-fold [[blow-up]] of the second [[complex projective space]].
+*Dolgachev surfaces* provide [[countable set|countably]] infinitely many non-[[diffeomorphic]] [[smooth structures]] on the [[complex surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$, which is the nine-fold [[blow-up]] of the second [[complex projective space]]. (One [[blow-up]] less yields the [[Barlow surfaces]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$.)
 
 ## Related entries
 
