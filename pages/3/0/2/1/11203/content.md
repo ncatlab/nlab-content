@@ -201,6 +201,8 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Makoto Natsuume: *What is the dual Ginzburg-Landau theory for holographic superconductors?* &lbrack;[arXiv:2407.13956](https://arxiv.org/abs/2407.13956)&rbrack;
 
+* Salvatore Santoro, Roberto Auzzi, Stefano Bolognesi: *Field Theory Models for a Holographic Superconductor in Two Dimensions* &lbrack;[arXiv:2605.18628](https://arxiv.org/abs/2605.18628)&rbrack;
+
 
 
 
