@@ -41,7 +41,9 @@ On [non-relativistic supergravity](supergravity#ReferencesNonRelativisticSupergr
 
 * Patrick Concha, [[Lucrezia Ravera]]: *Non-Lorentzian Supergravity and Kinematical Superalgebras*, JHEP 03 (2025) 032 &lbrack;[arXiv:2412.07665](https://arxiv.org/abs/2412.07665)&rbrack;
 
+## Talks
 
+* [[Lucrezia Ravera]]: *Relational Bundle Geometric Formulation of QM via the Dressing Field Method* (2026) \[<a href="https://youtu.be/wHbgicQw5Dk">video</a>\]
 
 
 ## Related  entries
