@@ -236,6 +236,10 @@ Proposed relation of [[type 0 string theory]] to [[M-theory]] [[Kaluza-Klein com
 
 * Zihni Kaan Baykara, Emilian Dudas, [[Cumrun Vafa]]: *M-theory on as Type 0A* &lbrack;[arXiv:2603.13468](https://arxiv.org/abs/2603.13468)&rbrack;
 
+On [[Scherk-Schwarz compactification]]:
+
+* Zihni Kaan Baykara, Shi Chen, [[Cumrun Vafa]]: *Isolated Critical Points for Scherk-Schwarz Compactifications of M-theory* &lbrack;[arXiv:2605.16484](https://arxiv.org/abs/2605.16484)&rbrack;
+
 
 
 ## Selected talks
