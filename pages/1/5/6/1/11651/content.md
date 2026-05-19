@@ -68,7 +68,7 @@ A higher analog of the connecting homomorphism above may be interpreted as being
 
 ## References
 
-* Wikipedia, _[Divisor (algebraic geometry)](http://en.wikipedia.org/wiki/Divisor_(algebraic_geometry)_
+* Wikipedia, _[Divisor (algebraic geometry)](https://en.wikipedia.org/wiki/Divisor_%28algebraic_geometry%29)_
 
 * [[The Stacks Project]], _[53 Divisors on Algebraic Spaces](http://stacks.math.columbia.edu/chapter/53)_
 
