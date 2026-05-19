@@ -8,7 +8,7 @@
 
 ## Selected writings
 
-On [[smooth structures]]:
+On [[smooth structures]] on the [[Barlow surface]]:
 
 * {#Kotschick89} [[Dieter Kotschick]], _On manifolds homeomorphic to $\mathbb{C}P^2\#8\overline{\mathbb{C}P^2}$_, Invent. Math. **95** 3, pp. 591-600 (1989) &lbrack;[doi:10.1007/BF01393892](https://link.springer.com/article/10.1007/BF01393892)&rbrack;
 
