@@ -11,9 +11,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -316,10 +315,14 @@ General review:
 
 * [[Edvard T. Musaev]]: *Branes* &lbrack;[arXiv:2604.18488](https://arxiv.org/abs/2604.18488)&rbrack;
 
+On the [[WZW term]]:
 
-A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
+* [[Bogdan Stefanski]]: *WZ Couplings of D-branes and O-planes*, in *Progress in String Theory and M-Theory*, NATO Science Series **564** Springer (2001) 401--404 &lbrack;[arXiv:hep-th/9909105](https://arxiv.org/abs/hep-th/9909105), [doi:10.1007/978-94-010-0852-5_31](http://dx.doi.org/10.1007/978-94-010-0852-5_31)&rbrack;
 
-* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)) 
+
+The conjecture that D-branes may be classified by [[Bridgeland stability conditions]] on [[derived categories]]:
+
+* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ &lbrack;[arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)&rbrack;
 
 Discussion with an eye towards [[string phenomenology]] is in
 
@@ -327,12 +330,11 @@ Discussion with an eye towards [[string phenomenology]] is in
 
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
-More recent similar material with the emphasis on the [[K-theory]] aspects is
+More recent similar material with the emphasis on the [[K-theory]] aspects:
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
-Comments on the role of D-branes in [[mathematical physics]] and [[mathematics]] is in 
-
+Comments on the role of D-branes in [[mathematical physics]] and [[mathematics]]:
 
 * [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
 
