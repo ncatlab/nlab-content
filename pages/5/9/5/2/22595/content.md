@@ -644,7 +644,7 @@ There is an element $1/10 \in \mathbb{Z}[1/10]$ such that $1/10 \cdot 10 = 1$ an
 ###### Proposition
 **(Powers of 10 are isomorphic to the integers)
 
-There is an injection $10^{(-)}: \mathbb{Z} \hookrightarrows \mathbb{Z}[1/10]$.
+There is an injection $10^{(-)}: \mathbb{Z} \hookrightarrow \mathbb{Z}[1/10]$.
 =--
 
 ### Order
