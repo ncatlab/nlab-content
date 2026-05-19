@@ -25,7 +25,7 @@
 ## Idea
  {#Idea}
 
-In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) is used to refer to phases of [[quantum materials]] where [[spectral gap|gapped]] [[quantum state|quantum]] [[ground states]] exhibit a "topological" (really: *homotopical*) dependence on system parameters.
+In [[solid state physics]], by *topological quantum order* or just *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) is used to refer to phases of [[quantum materials]] where [[spectral gap|gapped]] [[quantum state|quantum]] [[ground states]] exhibit a "topological" (really: *homotopical*) dependence on system parameters.
 
 > ("While ostensibly coined in 1989 by Xiao-Gang Wen, the term 'topological order' has been in use since 1972 to describe the behavior of the classical xy model. &lbrack;[arXiv:2308.01765](https://arxiv.org/abs/2308.01765)&rbrack;)
 
@@ -681,3 +681,6 @@ Discussion of [[quantum measurement]] of topologically ordered states:
 
 [[!redirects topological order]]
 [[!redirects topological orders]]
+
+[[!redirects topological quantum order]]
+[[!redirects topological quantum orders]]
