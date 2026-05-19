@@ -12,19 +12,47 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Definition
 
 ### In differential geometry
 
-Let $\pi : P \to X$ be a [[bundle]] in the category [[Diff]] of [[smooth manifold]]s. 
+Let $\pi \colon P \to X$ be a [[fiber bundle]] in the [[category]] [[Diff]] of [[smooth manifolds]]. 
 
-The [[dg-algebra]] $\Omega^\bullet_{vert}(P)$ of _vertical differential forms_ on $P$ is the quotient of the [[de Rham complex]] dg-algebra $\Omega^\bullet(P)$ of all forms on $P$, by the dg-ideal of [[horizontal differential forms]], hence of all those forms that vanish when any one vector in their arguments is a [[vertical vector field]] in that it is in the [[kernel]] of the [[differential]] $d \pi : T P \to T X$.
+The [[dg-algebra]] $\Omega^\bullet_{vert/X}(P)$ of _vertical differential forms_ on $P$ is the [[quotient object|quotient]] of the [[de Rham complex]] [[dg-algebra]] $\Omega^\bullet(P)$ of all [[differential forms]] on $P$, by the dg-ideal of [[horizontal differential forms]]:
 
-For a trivial bundle $P = X \times F$ the underlying complex of $\Omega^\bullet_{vert}(P)$ is $\wedge^\bullet_{C^\infty(X \times F)} \Gamma(T^* F)$.
+$$
+  \Omega^\bullet_{vert/X}\big(
+    P
+  \big)
+  \simeq
+  \Omega^\bullet\big(P\big)
+  \big/
+  \big\langle
+    \pi^\ast \Omega^1(X)
+  \big\rangle
+$$
+
+
+## Examples
+
+\begin{example}
+For a [[trivial fiber bundle]], $P \equiv X \times F \longrightarrow X$, the vertical differential forms are the smoothly $X$-parameterized differential forms on $F$:
+
+$$
+  \Omega^\bullet_{vert/X}\big(
+    X \times F
+  \big)
+  \simeq
+  C^\infty\big(
+    X, \Omega^\bullet(F)
+  \big)
+  \mathrlap{\,.}
+$$
+\end{example}
+
 
 ## Related concepts
 
