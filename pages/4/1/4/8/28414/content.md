@@ -10,10 +10,10 @@ Articles on [[geometry]] and [[topology]] of [[4-manifolds]]:
 
 * Important examples:
 
-  * [[Barlow surface]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$
-  * [[Dolgachev surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$
-  * [[E₈ manifold]] $M_{E_8}$
-  * [[exotic R^4]]
+  * [[Barlow surface]]$\;\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$
+  * [[Dolgachev surface]]$\;\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$
+  * [[E₈ manifold]]$\;M_{E_8}$
+  * [[exotic R^4|exotic $\mathbb{R}^n$]]
   * [[fake second complex projective space]] $\mathbb{C}P^2$
 
 * Central results:
