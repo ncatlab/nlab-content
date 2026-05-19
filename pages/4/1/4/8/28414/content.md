@@ -8,8 +8,9 @@ Articles on [[geometry]] and [[topology]] of [[4-manifolds]]:
   * [[Kirby-Siebenmann invariant]]
   * [[signature of a quadratic form|signature]]
 
-* Important examples
+* Important examples:
 
+  * [[Barlow surface]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$
   * [[Dolgachev surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$
   * [[E₈ manifold]] $M_{E_8}$
   * [[exotic R^4]]
