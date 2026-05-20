@@ -23,14 +23,12 @@
 
 
 
-# $E$-theory
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Idea
 
-_$E$-Theory_ is the name of a [[category]] whose [[objects]] are [[C*-algebras]] and whose [[hom-sets]] are homotopy classes of slightly generalized $C*$-homomorphisms, called _[[asymptotic C*-homomorphisms]]_. These hom-sets have the structure of an [[abelian group]] and are also called the _E-groups_ of their arguments. Since under [[Gelfand duality]] [[C*-algebras]] may be thought of as exhibiting [[noncommutative topology]], one also speaks of _[[noncommutative stable homotopy theory]]_.
+_$E$-Theory_ is the name of a [[category]] whose [[objects]] are [[C*-algebras]] and whose [[hom-sets]] are [[homotopy classes]] of slightly generalized $C*$-[[homomorphisms]], called _[[asymptotic C*-homomorphisms]]_. These [[hom-sets]] have the structure of an [[abelian group]] and are also called the _E-groups_ of their arguments. Since under [[Gelfand duality]] [[C*-algebras]] may be thought of as exhibiting [[noncommutative topology]], one also speaks of _[[noncommutative stable homotopy theory]]_.
 
 This construction may be understood as the universal improvement of [[KK-theory]] under [[excision]] ([Higson 90](#Higson90)). Accordingly, the $E$-groups behave like groups of a [[K-theory]]-like [[generalized cohomology theory]].
 
@@ -111,47 +109,50 @@ It follows that the Kasparov product in [[KK-theory]] is equivalently given by t
 
 ### General
 
-The idea of E-theory was introduced in 
+The idea of E-theory was introduced in: 
 
-* [[Alain Connes]], [[Nigel Higson]], _D&#233;formations, morphismes asymptotiques et $K$-th&#233;orie bivariante_, C. R. Acad. Sci. Paris S&#233;r. I Math. __311__ (1990), no. 2, 101&#8211;106, [MR91m:46114](http://www.ams.org/mathscinet-getitem?mr=1065438), [pdf](ftp://ftp.bnf.fr/578/N5781521_PDF_107_112DM.pdf)
- {#ConnesHigson90}
+* {#ConnesHigson90} [[Alain Connes]], [[Nigel Higson]]: _D&#233;formations, morphismes asymptotiques et $K$-th&#233;orie bivariante_, C. R. Acad. Sci. Paris S&#233;r. I Math. __311__ (1990), no. 2, 101&#8211;106, [MR91m:46114](http://www.ams.org/mathscinet-getitem?mr=1065438), [pdf](ftp://ftp.bnf.fr/578/N5781521_PDF_107_112DM.pdf)
+ 
 
-* [[Nigel Higson]], _Categories of fractions and excision in KK-theory_ J. Pure Appl. Algebra, 65(2):119&#8211;138, (1990) ([pdf](http://www.math.psu.edu/higson/math/Papers_files/Higson%20-%201990%20-%20Categories%20of%20fractions%20and%20excision%20in%20KK-theory.pdf))
- {#Higson90}
+* {#Higson90} [[Nigel Higson]]: _Categories of fractions and excision in KK-theory_ J. Pure Appl. Algebra, 65(2):119&#8211;138, (1990) ([pdf](http://www.math.psu.edu/higson/math/Papers_files/Higson%20-%201990%20-%20Categories%20of%20fractions%20and%20excision%20in%20KK-theory.pdf))
+ 
 
-Reviews and surveys include
+Reviews and surveys:
 
-* _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
- {#Introduction}
+* {#Introduction} _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
+ 
+Textbook account:
 
-A standard textbook account is in section 25 of 
+* [[Bruce Blackadar]]; section 25 in: _[[K-Theory for Operator Algebras]]_
 
-* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
-
-The [[stable homotopy theory|stable]] [[homotopy theory]] aspects are further discussed in
+Further discussion of the [[stable homotopy theory|stable]] [[homotopy theory]] aspects:
 
 * Martin Grensing, _Noncommutative stable homotopy theory_ ([arXiv:1302.4751](http://arxiv.org/abs/1302.4751))
 
-
 * Rasmus Bentmann, _Homotopy-theoretic E-theory and n-order_ ([arXiv:1302.6924](http://arxiv.org/abs/1302.6924))
 
-See also
+Relation to [[six functor formalism]]:
 
+* [[Ulrich Bunke]]: *$E$-theory of $X$-$C^\ast$-algebras and functor formalisms* &lbrack;[arXiv:2605.19863](https://arxiv.org/abs/2605.19863)&rbrack;
+
+
+See also:
 
 * web page of a project [Noncommutative topology - homotopy functors and E-theory ](http://www.math.ku.dk/~jg/papers/etheory.html)
 
 
-* [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
- {#Mahanta}
+* {#Mahanta} [[Snigdhayan Mahanta]]: _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+ 
 
 * [pdf](http://faculty.tcu.edu/epark/papers/ETheory_JFA.pdf)
+
 
 ### Relation to shape theory
 
 Relation to [[shape theory]] is discussed in 
 
-* [[Marius Dādārlat]], _Shape theory and asymptotic morphisms for $C^\ast$-algebras_, Duke Math. J. __73__ (3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [pdf](http://www.math.purdue.edu/~mdd/Publications/shape.pdf)
- {#Dadarlat94}
+* {#Dadarlat94} [[Marius Dādārlat]], _Shape theory and asymptotic morphisms for $C^\ast$-algebras_, Duke Math. J. __73__ (3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [pdf](http://www.math.purdue.edu/~mdd/Publications/shape.pdf)
+ 
 
 * Vladimir Manuilov, Klaus Thomsen, _Shape theory and extensions of $C^\ast$-algebras_, ([arxiv/1007.1663](http://arxiv.org/abs/1007.1663))
 
