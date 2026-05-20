@@ -54,7 +54,9 @@ Concretely, in the formulation of [Cherubini, Coquand & Hutzler 2024](#Cherubini
 
 * [[Felix Cherubini]], *A Foundation for Synthetic Algebraic Geometry*, talk at *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (Oct 2023) &lbrack;slides:[pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Cherubini-2023-10-18-HoTTEST.pdf), video:[YT](https://www.youtube.com/watch?v=lp4kcmQ0ueY)&rbrack;
 
-* {#SAG} *Synthetic Algebraic Geometry in the Zariski-Topos* ([Github](https://github.com/felixwellen/synthetic-zariski/blob/main/README.md))
+* [[Felix Cherubini]], [[Matthias Hutzler]], [[Hugo Moeneclaey]], [[David Wärn]]: *Differential Geometry of Synthetic Schemes* &lbrack;[arXiv:2504.08495](https://arxiv.org/abs/2504.08495)&rbrack;
+
+* {#SAG} *Synthetic Algebraic Geometry in the Zariski-Topos* &lbrack;[Github](https://github.com/felixwellen/synthetic-zariski/blob/main/README.md)&rbrack;
 
 On [[projective spaces]]:
 
