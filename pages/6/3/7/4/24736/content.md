@@ -1,8 +1,11 @@
 
+* [personal page](https://www.hugomoeneclaey.com/)
 
-* [website](https://www.hugo-moeneclaey.com/#publications)
+* [GoogleScholar page](https://scholar.google.com/citations?user=QHNY2uIAAAAJ&hl=fr)
 
-## Publications
+## Selected writings
+
+On [[higher inductive types]]:
 
 * [[Hugo Moeneclaey]], [[Peter Dybjer]], *Finitary higher inductive types in the groupoid model*, Electronic Notes in Theoretical Computer Science, Volume 336, pages 119-134, 2018 ([doi:10.1016/j.entcs.2018.03.019](https://doi.org/10.1016/j.entcs.2018.03.019))
 
@@ -13,6 +16,13 @@ On [[synthetic Stone duality]]:
 On Châtelet's theorem in [[synthetic algebraic geometry]]:
 
 * [[Thierry Coquand]], [[Hugo Moeneclaey]], *Chatelet's Theorem in Synthetic Algebraic Geometry* &lbrack;[arXiv:2504.08326](https://arxiv.org/abs/2504.08326)&rbrack;
+
+On [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Matthias Hutzler]], [[Hugo Moeneclaey]], [[David Wärn]]: *Differential Geometry of Synthetic Schemes* &lbrack;[arXiv:2504.08495](https://arxiv.org/abs/2504.08495)&rbrack;
+
+
+
 
 ## Talks
 
