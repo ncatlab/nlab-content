@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -84,6 +82,8 @@ This is [Lurie 09b, Theorem 1.3.6](#Lurie09b), [Lurie 17, Theorem 6.2.6.15](#Lur
 
 ## Related concepts
 
+* [[iterated loop space]]
+
 * [[looping and delooping]]
 
 * [[Quillen equivalence between simplicial groups and reduced simplicial sets]]
@@ -95,8 +95,9 @@ This is [Lurie 09b, Theorem 1.3.6](#Lurie09b), [Lurie 17, Theorem 6.2.6.15](#Lur
 
 * {#May72} [[Peter May]]: *The geometry of iterated loop spaces*, Lecture Notes in Mathematics **271**, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), scan: [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), retyped: [pdf](https://www.math.uchicago.edu/~may/BOOKS/gils.pdf)&rbrack;
 
-* {#Lurie09a} [[Jacob Lurie]], _[[Higher Topos Theory]]_ (2009)
+* {#Lurie09a} [[Jacob Lurie]]: _[[Higher Topos Theory]]_ (2009)
 
-* {#Lurie09b} [[Jacob Lurie]], _Derived Algebraic Geometry VI: $E_k$ Algebras_ ([arXiv:0911.0018](https://arxiv.org/abs/0911.0018))
+* {#Lurie09b} [[Jacob Lurie]]: _Derived Algebraic Geometry VI: $E_k$ Algebras_ &lbrack;[arXiv:0911.0018](https://arxiv.org/abs/0911.0018)&rbrack;
 
-* {#Lurie17} [[Jacob Lurie]], _[[Higher Algebra]]_ (2017)
+* {#Lurie17} [[Jacob Lurie]]: *Iteraded Loop Spaces* &lbrack;[[Lurie-HA-IteratedLoopSpaces.pdf:file]]&rbrack;, §5.2.6 in: *[[Higher Algebra]]* (2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)&rbrack;
+
