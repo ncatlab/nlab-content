@@ -1,6 +1,16 @@
-* [website](http://www.mathematik.uni-regensburg.de/Bunke/)
+
+
+* [personal page](https://bunke.app.uni-regensburg.de/)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Ulrich_Bunke) (de)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=22066)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Ulrich-Bunke)
 
 ## Selected writings
+
+> see also: [bunke.app.uni-regensburg.de/linkstopapers.html](https://bunke.app.uni-regensburg.de/linkstopapers.html)
 
 
 On [[topological T-duality]]:
