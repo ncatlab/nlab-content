@@ -1,5 +1,5 @@
 
-(previously: Felix Wellen)
+Felix Cherubini (previously: Felix Wellen)
 
 * [personal page](http://felix-cherubini.de)
 
@@ -46,6 +46,9 @@ On [[synthetic algebraic geometry]]:
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]]: *A foundation for synthetic algebraic geometry*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 1008-1053 &lbrack;[doi:10.1017/S0960129524000239](https://doi.org/10.1017/S0960129524000239), [arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
 
 * [[Felix Cherubini]], *A Foundation for Synthetic Algebraic Geometry*, talk at *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (Oct 2023) &lbrack;slides:[pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Cherubini-2023-10-18-HoTTEST.pdf), video:[YT](https://www.youtube.com/watch?v=lp4kcmQ0ueY)&rbrack;
+
+* [[Felix Cherubini]], [[Matthias Hutzler]], [[Hugo Moeneclaey]], [[David Wärn]]: *Differential Geometry of Synthetic Schemes* &lbrack;[arXiv:2504.08495](https://arxiv.org/abs/2504.08495)&rbrack;
+
 
 On [[projective spaces]] in [[synthetic algebraic geometry]]:
 
