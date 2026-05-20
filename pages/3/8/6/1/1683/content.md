@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -105,7 +103,7 @@ _KO-theory is the first Weiss-derivative (in [[orthogonal calculus]]) of the K-t
 
 The weak homotopy eqivalence $B U \to \Omega U$ is discussed in detail in
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, appendix B.2 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrito02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]]; appendix B.2 of: *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
 
 The incarnation of $KU$ and $KO$ as a [[symmetric spectrum]] is discussed in
 
