@@ -23,6 +23,8 @@
 
 In [[real analysis]], there is a principle on the [[Cauchy real numbers]] which is equivalent in strength to [[Markov's principle]] for [[natural numbers]], and states that the [[tight apartness relation]] on the [[Cauchy real numbers]] is a [[stable relation]]. This principle can be generalised from the Cauchy real numbers to all notions of [[real numbers]], such as the [[Dedekind real numbers]], and is hence called the *analytic Markov's principle*. In [[classical mathematics]], all of these are implied by [[excluded middle]]; however, in [[neutral constructive mathematics]], the different analytic Markov's principles are different principles of different strength, because the Cauchy and Dedekind real numbers and any other notion of real numbers between the Cauchy and Dedekind real numbers cannot be proven to coincide. 
 
+The analytic Markov's principle is important in [[constructive analysis]] because it states that for a set of [[real numbers]], the two notions of inequality, [[denial inequality]] and the [[tight apartness]], coincide with each other. This means that one can simply use intuitionistic [[negation]] to navigate between equality and inequality of real numbers instead of having to resort to the [[antithesis interpretation]] and its [[affine logic]] of [[mutually exclusive propositions]]. 
+
 ## Definition
 
 There are many different notions of real numbers in [[constructive mathematics]]. What all these real numbers have in common are that they are an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$; i.e. there are unique [[ring homomorphisms]] of ordered fields
