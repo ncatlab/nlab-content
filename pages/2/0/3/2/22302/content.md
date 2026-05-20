@@ -27,5 +27,9 @@ On maximal [[gauged supergravity|gauged]] [[D=2 supergravity]] via [[KK-reductio
 
 * [[Guillaume Bossard]], [[Franz Ciceri]], [[Gianluca Inverso]], [[Axel Kleinschmidt]], *Consistent truncation of eleven-dimensional supergravity on $S^8 \times S^1$* &lbrack;[arXiv:2309.07233](https://arxiv.org/abs/2309.07233)&rbrack;
 
+On [[D=8 supergravity]]:
+
+* [[Guillaume Bossard]], Bingxin Lao, [[Ruben Minasian]]: *Uniqueness of $D=8$ minimal supergravity with two vector multiplets* &lbrack;[arXiv:2605.19002](https://arxiv.org/abs/2605.19002)&rbrack;
+
 
 category: people
