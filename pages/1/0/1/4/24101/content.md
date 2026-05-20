@@ -10,15 +10,53 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
-## Definition ##
-In [[measure theory]], a __content__ on a [[distributive lattice]] $(L, \leq, \bot, \vee, \top, \wedge)$ is a [[valuation (measure theory)|valuation]] $\mu:L \to [0, \infty]$ to the non-negative [[one-sided real number|lower reals]] such that the valuation of the bottom element is zero and additive if the pair of elements is disjoint.
+\tableofcontents
 
-$$\forall a\in L. \forall b \in L. \mu(\bot) = 0$$
-$$\forall a\in L. \forall b \in L. (a \wedge b = \bot) \implies (\mu(a \vee b) = \mu(a) + \mu(b))$$
+
+## Definition 
+ {#Definition}
+
+In [[measure theory]], a __content__ on a [[distributive lattice]] $(L, \leq, \bot, \vee, \top, \wedge)$ is a [[function]] 
+
+$$
+  \mu 
+    \,\colon\, 
+  L \longrightarrow [0, \infty]
+$$ 
+
+to the non-[[negative real number|negative]] [[one-sided real number|lower reals]] satisfying:
+
+1. *strictness*, the [[bottom]] element is sent to zero:
+
+   $\mu(\bot) = 0$
+
+2. *additivity*:
+
+   $
+   \forall_{a,b\in L}
+    \;\;:\;\;
+   (a \wedge b = \bot) 
+     \implies 
+   \big(
+     \mu(a \vee b) = \mu(a) + \mu(b)
+   \big)
+   \mathrlap{\,.}
+  $
+
+
+A content that moreover satisfies the conditions
+
+3. *modularity*: 
+
+   $\mu(a) + \mu(b) = \mu(a \vee b) + \mu(a \wedge b)$
+
+4. *monotonicity*: 
+
+   $(a \leq b) \Rightarrow \big(\mu(a) \leq \mu(b)\big)$
+
+is called a *[[valuation (measure theory)|valuation]]*.
+
 
 ## See also ##
 
