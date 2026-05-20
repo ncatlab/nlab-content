@@ -234,7 +234,7 @@ See also:
 * Pierre Heidmann, Gela Patashuri: *Generating Rotation in a Snap
 Soumangsu Chakraborty* &lbrack;[arXiv:2605.15258](https://arxiv.org/abs/2605.15258)&rbrack;
 
-
+* Poul H. Damgaard, Hojin Lee, Kanghoon Lee, Tabasum Rahnuma: *Iterative Solution of the Kerr Black Hole Metric* &lbrack;[arXiv:2605.19948](https://arxiv.org/abs/2605.19948)&rbrack;
 
 
 ### Phenomenology
