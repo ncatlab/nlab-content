@@ -79,6 +79,10 @@ Experimental detection in non-magnetic [cadmium arsenide](https://en.wikipedia.o
 
 * Shinichi Nishihaya et al.: *Anomalous Hall effect in Dirac semimetal probed by in-plane magnetic field*, Phys. Rev. Lett. **135** (2025) 106603 &lbrack;[arXiv:2503.04195](https://arxiv.org/abs/2503.04195), [doi:10.1103/5d7l-mr7k](https://doi.org/10.1103/5d7l-mr7k)&rbrack;
 
+Discussion for [[Weyl semimetals]]:
+
+* R. Martínez von Dossow, A. Martín-Ruiz, Luis F. Urrutia: *Anomalous Hall effect in anisotropic type-II Weyl semimetals* &lbrack;[arXiv:2605.19315](https://arxiv.org/abs/2605.19315)&rbrack;
+
 
 
 [[!redirects anomalous Hall effects]]
