@@ -62,6 +62,10 @@ On [[coarse topology]]:
 
 * [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
 
+On [[E-theory]] in relation to [[six functor formalism]]:
+
+* [[Ulrich Bunke]]: *$E$-theory of $X$-$C^\ast$-algebras and functor formalisms* &lbrack;[arXiv:2605.19863](https://arxiv.org/abs/2605.19863)&rbrack;
+
 
 
 
