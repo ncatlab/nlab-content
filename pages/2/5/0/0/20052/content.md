@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -42,10 +41,13 @@ Let $L$ be a [[distributive lattice]] with a [[bottom]] element $\bottom$. A **v
 * **Modularity**: for all $x,y$ in $L$, 
 
 $$
-\nu(x) + \nu(y) = \nu(x \vee y) + \nu(x \wedge y) .
+  \nu(x) + \nu(y) = \nu(x \vee y) + \nu(x \wedge y) 
+  \mathrlap{\,.}
 $$
 
-Moreover, we call a valuation *continuous* if the following property holds, which is an instance of [[Scott topology|Scott continuity]], as well as of [[tau-additive measure|$\tau$-additivity]]:
+A weaker version of these axioms gives the notion of *[[content (measure theory)|content]]*.
+
+Moreover, a valuation is called *continuous* if the following further property holds, which is an instance of [[Scott topology|Scott continuity]], as well as of [[tau-additive measure|$\tau$-additivity]]:
 
 * **Continuity**: for every [[directed set|directed]] [[net]] $\{x_\lambda\}_{\lambda\in\Lambda}$ in $L$ admitting a supremum,
 
