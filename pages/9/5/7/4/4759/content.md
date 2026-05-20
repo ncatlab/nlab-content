@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -688,9 +687,14 @@ See at _[[characteristic class of a linear representation]]_ for more.
 
 In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern class]] (and minimal energy) are called [[instantons]]. The second Chern class is the _[[instanton number]]_ . For more on this see at _[SU(2)-instantons from the correct maths to the traditional physics story](BPST-instanton#FromTheMathsToThePhysicsStory)_.
 
+
 ## References
 
-Original articles:
+Chern classes are named after:
+
+* [[Shiing-Shen Chern]]: *Characteristic Classes of Hermitian Manifolds*, Annals of Mathematics **47** 1 (1946) 85--121 \[<a href="https://doi.org/10.2307/1969037">doi:10.2307/1969037</a>, [jstor:1969037](https://www.jstor.org/stable/1969037)\]
+
+Early further discussion:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
