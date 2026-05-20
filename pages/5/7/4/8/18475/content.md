@@ -299,6 +299,7 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * Meng Gao, Zhuan Ning, Yu Tian, Hongbao Zhang: *Holographic homogeneous superfluid on the sphere* &lbrack;[arXiv:2411.01572](https://arxiv.org/abs/2411.01572)&rbrack;
 
+* Yu-Kun Yan, Shanquan Lan, Yu Tian, Hongbao Zhang: *Transition of vortex dipole dynamics in holographic superfluids* &lbrack;[arXiv:2605.19348](https://arxiv.org/abs/2605.19348)&rbrack;
 
 
 
