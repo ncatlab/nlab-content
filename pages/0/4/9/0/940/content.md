@@ -119,14 +119,14 @@ Corings are in general useful for the treatment of [[descent in noncommutative a
 ### Coring of a projective module
 
 Suppose we are given ring $R,S$ and an $S$-$R$-bimodule, finitely generated as right projective $R$-module $M = {}_S M_R$. Clearly, $M^* = Hom_R(M,R)$ is an $R$-$S$-bimodule.
-Let $M$ be given as a direct summand of a free module $F = \oplus_i R_i$; the decomposition $F = M\oplus L$ induces projection $p:F\to M$, $\sum_i r_i\mapsto \sum_i r_i x_i$, a section $s: M\hookrightarrow F$, $s(m) = \sum_i x_i^*(m)\in\oplus_i R_i$, and [[dual basis]] $x_1,\ldots,x_n\in M$, $x_1^*,\ldots,x_n^*\in Hom_R(M,R)$ characterized by $m = \sum_i x_i^*(m) x_i$ for all $m\in M$. Then define an $R$-coring $C$ over $R$ as $R$-bimodule $M^*\otimes_S M$ with comultiplication
+Let $M$ be given as a direct summand of a free module $F = \oplus_i R_i$; the decomposition $F = M\oplus L$ induces projection $p:F\to M$, $\sum_i r_i\mapsto \sum_i r_i x_i$, a section $s: M\hookrightarrow F$, $s(m) = \sum_i x_i^*(m)\in\oplus_i R_i$, and a [[dual basis]] $x_1,\ldots,x_n\in M$, $x_1^*,\ldots,x_n^*\in Hom_R(M,R)$ characterized by $m = \sum_i x_i^*(m) x_i$ for all $m\in M$. Then define an $R$-coring $C$ over $R$ as $R$-bimodule $M^*\otimes_S M$ with comultiplication
 $$
 \Delta : M^*\otimes_S M\to (M^*\otimes_S M)\otimes_R(M^*\otimes_S M)
 $$
 $$
-\Delta(f\otimes m) = \sum_{i=1}^n f\otimes x_i^*\otimes x_i\otimes m
+\Delta(f\otimes m) = \sum_{i=1}^n f\otimes x_i\otimes x_i^*\otimes m
 $$
-and $\epsilon:M^*\otimes_S M, f\otimes m\mapsto f(m)\in R$.
+and $\epsilon:M^*\otimes_S M, f\otimes m\mapsto f(m)\in R$. This does not depend on a choice of a dual basis (equivalent to the fact that the coevaluation map does not).
 
 ### Matrix coring
 
