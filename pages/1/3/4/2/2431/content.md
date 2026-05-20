@@ -846,9 +846,9 @@ Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], theorem 8.42, theorem 9.27 in _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]]; section 3.4 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7)&rbrack;
 
-* {#AguilarGitlerPrito02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
+* {#AguilarGitlerPrito02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]]; Thm. 12.2.18 of: *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]]; Sections 2.4, 2.5 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society (2006) &lbrack;[ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
