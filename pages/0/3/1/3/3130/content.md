@@ -13,10 +13,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -320,7 +317,9 @@ Use the exponentional-formula for the [[Chern character]] with the  [[splitting 
 
 ### Chern character on K-theory
 
-Original Discussion of the Chern character on complex [[topological K-theory]]:
+
+
+Original discussion of the Chern character on complex [[topological K-theory]]:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Section 12.1 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
@@ -330,12 +329,12 @@ Original Discussion of the Chern character on complex [[topological K-theory]]:
 
 * {#Hilton71} [[Peter Hilton]], _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series 1, Cambridge University Press (1971) ([doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577))
 
-* {#Karoubi78} [[Max Karoubi]], Chapter V.3 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+* {#Karoubi78} [[Max Karoubi]], Chapter V.3 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
 
 Further discussion 
 
-* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_, Journal of Generalized Lie Theory and Applications, 2017, 11:1 ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060), [doi:10.4172/1736-4337.100025](https://www.hilarispublisher.com/open-access/notes-on-the-cherncharacter-.pdf))
+* {#Maakestad06} Helge Maakestad: *Notes on the Chern-character*, Journal of Generalized Lie Theory and Applications **11** 1 (2017) &lbrack;[arXiv:math/0612060 math.AG](https://arxiv.org/abs/math/0612060), [doi:10.4172/1736-4337.100025](https://www.hilarispublisher.com/open-access/notes-on-the-cherncharacter-.pdf)&rbrack;
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
 
