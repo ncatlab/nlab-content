@@ -105,6 +105,8 @@ On [[D=8 supergravity]]:
 
 * Bing-Xin Lao, [[Ruben Minasian]], *Consistency of eight-dimensional supergravities: Anomalies, Lattices and Counterterms* &lbrack;[arXiv:2306.07766](https://arxiv.org/abs/2306.07766)&rbrack;
 
+* [[Guillaume Bossard]], Bingxin Lao, [[Ruben Minasian]]: *Uniqueness of $D=8$ minimal supergravity with two vector multiplets* &lbrack;[arXiv:2605.19002](https://arxiv.org/abs/2605.19002)&rbrack;
+
 
 
 
