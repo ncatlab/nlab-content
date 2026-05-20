@@ -91,12 +91,17 @@ See also:
 
 * [[Tobias Barthel]], Logan Hyslop, [[Maxime Ramzi]]: *Geometric Points in Tensor Triangular Geometry* &lbrack;[arXiv:2603.25664](https://arxiv.org/abs/2603.25664)&rbrack;
 
+* [[Henning Krause]]: *Tensor triangular geometry --- Notes for an Oberwolfach Seminar* &lbrack;[arXiv:2605.19983](https://arxiv.org/abs/2605.19983)&rbrack;
+
+
 
 
 [[!redirects spectra of tensor triangulated categories]]
 
 [[!redirects spectrum of a triangulated category]]
 [[!redirects spectra of triangulated categories]]
+
+[[!redirects tensor triangulated geometry]]
 
 
 category: geometry, noncommutative geometry, triangulated categories
