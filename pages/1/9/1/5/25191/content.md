@@ -3,6 +3,10 @@
 
 * [institute page](https://www.chalmers.se/en/staff/Pages/warnd.aspx)
 
+* [GitHub page](https://github.com/dwarn)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/David-Waern-2240756321)
+
 ## Selected writings
 
 * {#Wärn24} [[David Wärn]], *On internally projective sheaves of groups* ([arXiv:2409.12835](https://arxiv.org/pdf/2409.12835))
@@ -18,6 +22,10 @@ On [[projective spaces]] in [[synthetic algebraic geometry]]:
 On the [[universal fibration of (infinity,1)-categories]]:
 
 * [[Christian Sattler]], [[David Wärn]]: *A synthetic construction of universal cocartesian fibrations* &lbrack;[arXiv:2603.28688](https://arxiv.org/abs/2603.28688)&rbrack;
+
+On [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Matthias Hutzler]], [[Hugo Moeneclaey]], [[David Wärn]]: *Differential Geometry of Synthetic Schemes* &lbrack;[arXiv:2504.08495](https://arxiv.org/abs/2504.08495)&rbrack;
 
 
 
