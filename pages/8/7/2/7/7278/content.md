@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -310,26 +308,29 @@ $$
 
 * [[relative loop space]]
 
+* [[May recognition theorem]]
+
+* [[looping and delooping]]
+
 [[!include k-monoidal table]]
 
 ## References
 
 ### General
 
-* [[Peter May]], _Infinite loop space theory_, Bull. Amer. Math. Soc. Volume 83, Number 4 (1977), 456-494. ([euclid:bams/1183538891](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891))
+* [[Peter May]]: _Infinite loop space theory_, Bull. Amer. Math. Soc. **83** 4 (1977) 456--494 &lbrack;[euclid:bams/1183538891](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891)&rbrack;
 
-  _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
+  _Infinite loop space theory revisited_ &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf)&rbrack;
 
-* {#Adams} [[John Frank Adams]], _Infinite loop spaces_, Hermann Weyl lectures at IAS, Princeton University Press (1978) ([ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259))
+* {#Adams} [[John Frank Adams]]: _Infinite loop spaces_, Hermann Weyl lectures at IAS, Princeton University Press (1978) &lbrack;[ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259)&rbrack;
  
+* [[Peter May]]: _The uniqueness of infinite loop space machines_, Topology **17** (1978) 205--224 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf)&rbrack;
 
-* [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
-
-* {#Lurie} [[Jacob Lurie]], Section 5.2.6 of _[[Higher Algebra]]_ 
+* {#Lurie17} [[Jacob Lurie]]: *Iteraded Loop Spaces* &lbrack;[[Lurie-HA-IteratedLoopSpaces.pdf:file]]&rbrack;, §5.2.6 in: *[[Higher Algebra]]* (2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)&rbrack;
 
 On the [[Morava K-theory]] of iterated loop spaces of [[n-spheres]]:
 
-* [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
+* [[Douglas Ravenel]]: *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.): *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS (1998)  &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220)&rbrack;
 
 
 ### Relation to configuration spaces of points
