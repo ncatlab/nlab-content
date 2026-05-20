@@ -7,11 +7,16 @@ Shiing-Shen Chern (1911-2004)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=YR_aEP0AAAAJ&hl=en)
 
+
 ## Selected writings
 
 On [[Euler forms]] and the [[Gauss-Bonnet theorem]]:
 
 * {#Chern44} [[Shiing-Shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_, Annals of Mathematics Second Series, Vol. 45, No. 4 (1944), pp. 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
+
+Introducing what came to be called *[[Chern classes]]*:
+
+* [[Shiing-Shen Chern]]: *Characteristic Classes of Hermitian Manifolds*, Annals of Mathematics **47** 1 (1946) 85--121 \[<a href="https://doi.org/10.2307/1969037">doi:10.2307/1969037</a>, [jstor:1969037](https://www.jstor.org/stable/1969037)\]
 
 On [[principal bundles]], their [[characteristic classes]] and introducing the [[Chern-Weil homomorphism]]:
 
