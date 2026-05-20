@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -194,6 +192,12 @@ MathOverflow comments:
 See also:
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], p. 7-8 in: _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
+
+On the nonexistence of Wick rotation at finite [[lattice field theory|lattice]] spacing:
+
+* B. P. Kosyakov, E. Yu. Popov, M. A. Vronsky, *Can Euclidean lattice quantum field theory be analytically continued into Minkowski space?* &lbrack;[arXiv:2605.18787](https://arxiv.org/abs/2605.18787)&rbrack;
+
+
 
 
 [[!redirects Wick rotations]]
