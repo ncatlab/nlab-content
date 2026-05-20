@@ -150,6 +150,10 @@ Comparison to [[holographic QCD]]:
 
 * {#KovenskySchmitt24} [[Nicolas Kovensky]], [[Andreas Schmitt]]: *Thermal pion condensation: holography meets lattice QCD* &lbrack;[arXiv:2407.12641](https://arxiv.org/abs/2407.12641)&rbrack;
 
+On the nonexistence of [[Wick rotation]] at finite lattice spacing:
+
+* B. P. Kosyakov, E. Yu. Popov, M. A. Vronsky, *Can Euclidean lattice quantum field theory be analytically continued into Minkowski space?* &lbrack;[arXiv:2605.18787](https://arxiv.org/abs/2605.18787)&rbrack;
+
 
 
 ### Computer simulations
