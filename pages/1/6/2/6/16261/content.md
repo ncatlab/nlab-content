@@ -13,10 +13,7 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -31,6 +28,10 @@ There are various conditions of various strengths considered in the literature. 
 * [[phantom dark energy]]
 
 ## References
+
+Review with focus on the situation in [[quantum gravity]]:
+
+* Jackson R. Fliss: *Modave lectures on energy conditions in quantum field theory and semi-classical gravity* &lbrack;[arXiv:2605.18964](https://arxiv.org/abs/2605.18964)&rbrack;
 
 
 
