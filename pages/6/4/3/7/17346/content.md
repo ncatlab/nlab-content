@@ -1457,7 +1457,7 @@ $$
 
    $$
      E \underoverset{\simeq}{\ell_E^{-1}}{\to} \mathbb{S} \wedge E
-       \overset{id \wedge e}{\longrightarrow}
+       \overset{e \wedge id}{\longrightarrow}
      E \wedge E
      \,,
    $$
