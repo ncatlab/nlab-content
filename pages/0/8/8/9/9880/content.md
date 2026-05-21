@@ -11,9 +11,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -158,6 +156,8 @@ becomes
 
 * [[non-perturbative quantum field theory]]
 
+* [[large gauge transformation]]
+
 * [[strict deformation quantization]]
 
 * [[transseries]], [[resurgence theory]]
@@ -186,6 +186,8 @@ becomes
 ## References
 
 ### In field theory
+
+* [[Roman Jackiw]]: *Nonperturbative and Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) 568--578 \[<a href="https://doi.org/10.1016/B0-12-512666-2/00304-7">doi:10.1016/B0-12-512666-2/00304-7</a>, [arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)\]
 
 * {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia, pp. 27--54, Belgrade Institute of Physics &lbrack;[arXiv:1102.2380](https://arxiv.org/abs/1102.2380), [ISBN 978-86-82441-30-4](http://www.proceedings.com/22646.html), [book webpage](http://www.mphys6.ipb.ac.rs/proceedings6.htm)&rbrack;
 
