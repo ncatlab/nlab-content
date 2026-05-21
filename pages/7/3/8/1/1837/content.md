@@ -225,13 +225,15 @@ Early lecture notes:
   > (in view of the [[standard model of particle physics]])
 
 
-Monographs
+Monographs:
+
+* [[Valery Rubakov]] (translated by S. S. Wilson): *Classical Theory of Gauge Fields*, Princeton University Press (2000) &lbrack;[spire:607929](https://inspirehep.net/literature/607929)<a href="https://students.iiserkol.ac.in/~mms15ms051/courses/PH4204/[Valery%20Rubakov,%20Stephen%20S%20Wilson]%20Classical%20Theory%20of%20Gauge%20Fields.pdf">pdf</a>&rbrack;
 
 * [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
-* [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+* [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
-* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
+* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley (2008) &lbrack;[ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364)&rbrack;
 
 
 Further on basics on [[fiber bundles in physics]]:
