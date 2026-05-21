@@ -35,8 +35,12 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 On [[Jackiw-Teitelboim gravity]]:
 
-* {#Jackiw85} [[Roman Jackiw]], _Lower dimensional gravity_, Nuclear Physics B
-Volume 252, 1985, Pages 343-356 (<a href="https://doi.org/10.1016/0550-3213(85)90448-1">doi:10.1016/0550-3213(85)90448-1</a>)
+* {#Jackiw85} [[Roman Jackiw]], _Lower dimensional gravity_, Nuclear Physics B **252** (1985) 343--356 &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90448-1">doi:10.1016/0550-3213(85)90448-1</a>&rbrack;
+
+On [[topology|topological]] ([[homotopy theory|homotopical]]) aspects of [[gauge theories]] ([[solitons]], [[large gauge transformations]], ...)
+
+* [[Roman Jackiw]]: *Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) &lbrack;[arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)&rbrack;
+
 
 [[!redirects Roman W. Jackiw]]
 
