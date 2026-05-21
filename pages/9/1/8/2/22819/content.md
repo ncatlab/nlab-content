@@ -92,7 +92,7 @@ Then:
 \end{proposition}
 The first statement appears, in the generality of [[(∞,1)-category theory]], as [[Higher Topos Theory|HTT, prop. 5.2.5.1]]. For discussion in [[model category|model category theory]] see at *[sliced Quillen adjunctions](slice+model+structure#SlicedQuillenAdjunction)*.
 \begin{proof}
-(in [[1-category|1-]][[category theory]])
+(in [[1-category|1-]][[category theory]]; see the proof of Proposition \ref{SliceAdjointsFurtherGeneralized} in the case of [[(∞,1)-categories]].)
 
 Recall that ([this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) the hom-isomorphism that defines an adjunction of functors ([this Def.](adjoint+functor#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) is equivalently given in terms of [[composition]] with 
 
@@ -548,3 +548,43 @@ Then there is an induced a pair of [[adjoint (∞,1)-functors|adjoint ∞-functo
 
 \end{proposition}
 
+Proposition \ref{SliceAdjointsGeneralized} (as well as [[Higher Topos Theory|HTT, lem. 5.2.5.2]]) can be deduced from the following general result (applied to the case where $\mathcal{X}$ and $\mathcal{Y}$ are the [[arrow categories|arrow categories]] of $\mathcal{C}$ and $\mathcal{D}$):
+
+\begin{proposition}\label{SliceAdjointsFurtherGeneralized}
+Let
+\begin{tikzcd}
+  {\mathcal{X}} & {\mathcal{Y}} \\
+  {\mathcal{C}} & {\mathcal{D}}
+  \arrow["L", from=1-1, to=1-2]
+  \arrow["U"', from=1-1, to=2-1]
+  \arrow["V", from=1-2, to=2-2]
+  \arrow["F"', from=2-1, to=2-2]
+\end{tikzcd}
+be a (strictly) commutative diagram of [[quasicategories|quasicategories]] (a model of [[(∞,1)-categories|(∞,1)-categories]]), where $U$ is a [[cartesian fibration|cartesian fibration]] and $V$ is a cocartesian fibration. 
+Suppose that $L$ and $F$ have right adjoints $R$ and $G$, and that the canonical map $U\circ R\to G\circ V$ is the identity natural transformation. 
+Let $\alpha \colon c\to G d$ be a morphism with transpose $\beta \colon F c \to d$. Then the composite
+
+$$
+\mathcal{X}_c\overset{L_c}{\to} \mathcal{Y}_{F c} \overset{\beta_!}{\to} \mathcal{Y}_d
+$$
+
+admits a right adjoint, given by the composite
+
+$$
+\mathcal{Y}_d \overset{R_d}{\to} \mathcal{X}_{G d} \overset{\alpha^*}{\to} \mathcal{X}_{c}.
+$$
+
+Here the subscripts indicate taking fibers, and $\alpha^*$ and $\beta_!$ are co/cartesian transports for $U$ and $V$.
+
+\end{proposition}
+
+\begin{proof}
+  We show that $\beta_!\circ L_c$ has a right adjoint; the description for the right adjoint follows by inspecting the proof.
+  By [[Higher Topos Theory|HTT, Proposition 5.2.4.1]], it suffices to show that for each $y\in \mathcal{Y}_d$, the $\infty$-category $\mathcal{X}_c \times_{\mathcal{Y}_d} \times (\mathcal{Y}_d)_/y$ has a terminal object.
+  For this, set $\mathcal{Y}_\beta =\Delta^1 \times _{\mathcal{D}} \mathcal{Y}$. The retraction $\mathcal{Y}_\beta \to \mathcal{Y}_d$ induces an equivalence $\mathcal{X}_c \times_{\mathcal{Y}_\beta} (\mathcal{Y}_\beta)_{/y} \overset{\simeq}{\to} \mathcal{X}_c \times_{\mathcal{Y}_d} (\mathcal{Y}_d)_{/y}$, so it suffices to show that $\mathcal{X}_c \times_{\mathcal{Y}_\beta} (\mathcal{Y}_\beta)_{/y}$ has a terminal object.
+  This $\infty$-category can be written as $(\mathcal{X}\times_{\mathcal{Y}}\mathcal{Y}_{/y})\times _{\mathcal{C}\times_{\mathcal{D}}\mathcal{D}_{/V y}}\{(c,\beta)\}$.
+  Using the fact that $U$ is a cartesian fibration and $\mathcal{Y}_{/y} \to \mathcal{Y}$ is a right fibration, we find that the projection $\mathcal{X}\times _{\mathcal{Y}}\mathcal{Y}_{/y} \to \mathcal{C}\times _{\mathcal{D}}\mathcal{D}_{/V y}$ is a cartesian fibration (with cartesian edges given by those whose images in $\mathcal{X}$ are cartesian). 
+  Moreover, $p$ preserves terminal objects by hypothesis. 
+  It follows that the fiber $p^{-1}(c,\alpha)$ has a terminal object, namely, the cartesian transport of the terminal object of $\mathcal{X}\times_{\mathcal{Y}}\mathcal{Y}_{/y}$. 
+  The claim follows.
+\end{proof}
