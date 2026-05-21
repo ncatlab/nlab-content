@@ -51,7 +51,7 @@ Reviews and surveys include
 
 * Wikipedia, _[Algebraic geometry and analytic geometry](http://en.wikipedia.org/wiki/Algebraic_geometry_and_analytic_geometry)_
 
-* Yan Zhao, _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_, 2013 ([pdf](http://pub.math.leidenuniv.nl/~jinj/2013/efg/gaga.pdf))
+* Yan Zhao, _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_, 2013 ([pdf](https://jinbijin.nl/2013/efg/gaga.pdf))
 
 * {#Demailly09} [[Jean-Pierre Demailly]], _Analytic methods in algebraic geometry_, lecture notes 2009  ([pdf](http://www-fourier.ujf-grenoble.fr/~demailly/manuscripts/analmeth.pdf))
 
