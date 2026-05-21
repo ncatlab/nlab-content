@@ -18,7 +18,7 @@
 
 When the [[theory]] of [[gravity]] in the form of _[[general relativity]]_ was developed at the beginning of the 20th century, the abstract notion of a [[smooth manifold]] independently of its [[coordinate charts]] was still unfamiliar. Theories like that of [[electromagnetism]] were traditionally all formulated with respect to what today would be called a choice of [[coordinate patch]]. The development of [[general relativity]] by [[Albert Einstein]] went through a phase in which what is now called the principle of _[[general covariance]]_ was only gradually understood.
 
-The "hole argument" or "hole [[paradox]]", which was put forward in ([Einstein-Grossmann](#EinsteinGrossmann)), is the observation that given a [[pseudo-Riemannian metric|pseudo]]-[[Riemannian metric]] $g$ on some [[spacetime]] $X$ -- hence a field configuration of [[gravity]], and given a point $x : * \to X$ and a [[diffeomorphism]] $\phi : X \stackrel{\simeq}{\to} X$, in general the value of $g$ around $x$ is entirely unrelated to the value of the [[pullback of a cotensor|pullback]] metric $\phi^* g$ at $x$. 
+The "hole argument" or "hole [[paradox]]", which was put forward in ([Einstein-Grossmann](#EinsteinGrossmann)), is the observation that given a [[pseudo-Riemannian metric|pseudo]]-[[Riemannian metric]] $g$ on some [[spacetime]] $X$ -- hence a field configuration of [gravity]], and given a point $x : * \to X$ and a [[diffeomorphism]] $\phi : X \stackrel{\simeq}{\to} X$, in general the value of $g$ around $x$ is entirely unrelated to the value of the pullback metric $\phi^* g$ at $x$. 
 
 This was regarded as a source of puzzlement for a while -- a "[[paradox]]" -- because if one thinks that the point $x$ in $X$ is absolutely fixed (the locus of an "observer" in spacetime) and that two metrics related by a [[diffeomorphism]] as above are equivalent field configurations, it would seem that the field of gravity "at $x$" is undetermined and undeterminable. For a while this reasoning was regarded as an obstacle to the idea of [[general covariance]] and indeed in ([Einstein-Grossmann](#EinsteinGrossmann)) the notion of general covariance was still rejected in view of this.
 
@@ -78,7 +78,7 @@ Review:
 
 A treatment in terms of [[HoTT]]:
 
-* [[John Dougherty]], _The Hole Argument, take n_, Foundations of Physics (2019), ([doi](https://doi.org/10.1007/s10701-019-00291-x)).
+* [[John Dougherty]]: _The Hole Argument, take n_, Foundations of Physics **50** (2019) 330--347 &lbrack;[doi:10.1007/s10701-019-00291-x](https://doi.org/10.1007/s10701-019-00291-x)&rbrack;
 
 
 
