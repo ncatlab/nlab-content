@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -252,6 +250,7 @@ On [[chiral symmetry breaking]]:
 
 * [[Ulf-G. Meißner]]: *Chiral dynamics: Quo vadis?* &lbrack;[arXiv:2501.03014](https://arxiv.org/abs/2501.03014)&rbrack;
 
+* A. V. Smilga: *Symmetries of massless QCD* &lbrack;[arXiv:2604.12826](https://arxiv.org/abs/2604.12826)&rbrack;
 
 
 
