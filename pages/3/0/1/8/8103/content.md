@@ -37,10 +37,9 @@ On [[Jackiw-Teitelboim gravity]]:
 
 * {#Jackiw85} [[Roman Jackiw]], _Lower dimensional gravity_, Nuclear Physics B **252** (1985) 343--356 &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90448-1">doi:10.1016/0550-3213(85)90448-1</a>&rbrack;
 
-On [[topology|topological]] ([[homotopy theory|homotopical]]) aspects of [[gauge theories]] ([[solitons]], [[large gauge transformations]], ...)
+On [[nonperturbative effect|nonperturbative]] and [[topology|topological]] ([[homotopy theory|homotopical]]) aspects of [[gauge theories]] ([[solitons]], [[large gauge transformations]], ...)
 
-* [[Roman Jackiw]]: *Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) &lbrack;[arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)&rbrack;
-
+* [[Roman Jackiw]]: *Nonperturbative and Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) 568--578 \[<a href="https://doi.org/10.1016/B0-12-512666-2/00304-7">doi:10.1016/B0-12-512666-2/00304-7</a>, [arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)\]
 
 [[!redirects Roman W. Jackiw]]
 
