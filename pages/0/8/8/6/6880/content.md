@@ -18,7 +18,12 @@ On [[vacuum decay]]:
 
 * [[Sidney Coleman]], _Fate of the false vacuum: Semiclassical theory_ , Phys. Rev. D 15, 2929&#8211;2936 (1977) ([doi:10.1103/PhysRevD.15.2929](https://doi.org/10.1103/PhysRevD.15.2929))
 
-* [[Sidney Coleman]], [[Frank De Luccia]], _Gravitational effects on and of vacuum decay_ , Phys. Rev. D 21, 3305&#8211;3315 (1980) ([doi:10.1103/PhysRevD.21.3305](https://doi.org/10.1103/PhysRevD.21.3305))
+* [[Sidney Coleman]], [[Frank De Luccia]], _Gravitational effects on and of vacuum decay_ , Phys. Rev. D 21, 3305&#8211;3315 (1980) &lbrack;[doi:10.1103/PhysRevD.21.3305](https://doi.org/10.1103/PhysRevD.21.3305)&rbrack;
+
+On [[symmetry]] in [[particle physics]]:
+
+* [[Sidney Coleman]]: *Aspects of symmetry*, Cambridge University Press (1985, 2010) &lbrack;[doi:10.1017/CBO9780511565045](https://doi.org/10.1017/CBO9780511565045), [pdf](https://rgjha.github.io/gallery/AOS_Coleman.pdf)&rbrack;
+
 
 
 
