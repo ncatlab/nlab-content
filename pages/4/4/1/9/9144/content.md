@@ -28,11 +28,20 @@ As opposed to other (small) gauge transformations, large gauge transformations c
 
 * [[nonperturbative effect]]
 
+
 ## References
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]; p. 30--31 in: *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
+
 
 * [[Roman Jackiw]]; p. 6 of: *Nonperturbative and Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) 568--578 \[<a href="https://doi.org/10.1016/B0-12-512666-2/00304-7">doi:10.1016/B0-12-512666-2/00304-7</a>, [arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)\]
 
 * [[David Tong]]; [p. 53](davidtong.org/pdfs/teaching/gauge-theory/gauge.pdf#page=53) of: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
+
+* [[John Dougherty]]: *Large gauge transformations and the strong CP problem*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics **69** (2020) 50--66 \[<a href="https://doi.org/10.1016/j.shpsb.2019.09.001">doi:10.1016/j.shpsb.2019.09.001</a>\]
+
+
+
 
 See also: 
 
