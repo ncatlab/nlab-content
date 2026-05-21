@@ -115,6 +115,8 @@ But for this string theory, at least, there are hints as to its non-perturbative
 
 * [[non-perturbative effect]]
 
+* [[large gauge transformation]]
+
 * [[Borel resummation]], [[resurgence theory]]
 
 * [[canonical quantization]]
@@ -134,6 +136,9 @@ But for this string theory, at least, there are hints as to its non-perturbative
  {#References}
 
 > (See also references at *[[non-perturbative effect]]*, *[[soliton]]* and *[[instanton]]*, particularly at *[[Yang-Mills instanton]]*.)
+
+* [[Roman Jackiw]]: *Nonperturbative and Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) 568--578 \[<a href="https://doi.org/10.1016/B0-12-512666-2/00304-7">doi:10.1016/B0-12-512666-2/00304-7</a>, [arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)\]
+
 
 Motivation via the generic [failure of convergence](perturbative+quantum+field+theory#ReferencesNonConvergenceOfThePerturbationSeries) of [[perturbative quantum field theory]]:
 
