@@ -26,18 +26,27 @@ As opposed to other (small) gauge transformations, large gauge transformations c
 
 * [[asymptotic symmetry]]
 
+* [[nonperturbative effect]]
+
 ## References
 
-On large gauge transformations as [[global symmetries]]:
-
-* [[Roman Jackiw]]; p. 6 of: *Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) &lbrack;[arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)&rbrack;
-
-* {#Strominger18} [[Andrew Strominger]]: *Large Gauge Symmetry*, section 2.7 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), [arXiv:1703.05448 hep-th](https://arxiv.org/abs/1703.05448)&rbrack;
-  > (in the context of [[asymptotic symmetries]] of [[electromagnetism]])
-
-
+* [[Roman Jackiw]]; p. 6 of: *Nonperturbative and Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) 568--578 \[<a href="https://doi.org/10.1016/B0-12-512666-2/00304-7">doi:10.1016/B0-12-512666-2/00304-7</a>, [arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)\]
 
 * [[David Tong]]; [p. 53](davidtong.org/pdfs/teaching/gauge-theory/gauge.pdf#page=53) of: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
+
+See also: 
+
+* Wikipedia: *[Large gauge transformation](https://en.wikipedia.org/wiki/Large_gauge_transformation)*
+
+
+In the context of [[asymptotic symmetries]] of [[electromagnetism]]/[[quantum electrodynamics]]
+
+* Barak Gabai, Amit Sever: *Large Gauge Symmetries and Asymptotic States in QED*, J. High Energ. Phys. **2016** 95 (2016) \[<a href="https://doi.org/10.1007/JHEP12(2016)095">doi:10.1007/JHEP12(2016)095</a>, [arXiv:1607.08599](https://arxiv.org/abs/1607.08599)\]
+
+* {#Strominger18} [[Andrew Strominger]]: *Large Gauge Symmetry*, section 2.7 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), [arXiv:1703.05448 hep-th](https://arxiv.org/abs/1703.05448)&rbrack;
+
+
+
 
 
 [[!redirects large gauge transformations]]
