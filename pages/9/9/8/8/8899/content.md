@@ -32,12 +32,18 @@ Here is a very incomplete list of software available for mathematics, especially
 
 ###General 
 
+#### Free and open source:
+* [[Sage]]
+* [Macaulay2](https://macaulay2.com)
+* [Singular](https://www.singular.uni-kl.de/)
+* [GNU Octave](https://octave.org/)
+* [[geogebra]] (dominantly used for educational purposes)
+* [Calcpad] (http://calcpad.net)
+
+#### Proprietary:
 * [[Mathematica]]
 * [Maple](http://www.maplesoft.com)
-* [[Sage]]
-* [[geogebra]] (dominantly used for educational purposes)
 * [MathCAD](https://www.ptc.com/en/products/mathcad)
-* [Calcpad] (http://calcpad.net)
 
 ###Computational Group Theory
 
