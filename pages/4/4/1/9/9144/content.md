@@ -1,4 +1,43 @@
 
-A [[gauge transformation]] is called **large** if it is not connected to the [[identity]] gauge transformation.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+## Idea
+
+In [[gauge theory]], a [[gauge transformation]] is called **large** if it is not [[connected component|connected]] to the [[identity]] gauge transformation.
+
+As opposed to other (small) gauge transformations, large gauge transformations count as [[global symmetries]].
+
+## Related concepts
+
+* [[asymptotic symmetry]]
+
+## References
+
+On large gauge transformations as [[global symmetries]]:
+
+* [[Roman Jackiw]]; p. 6 of: *Topological Aspects of Gauge Theories*, Encyclopedia of Mathematical Physics (2006) &lbrack;[arXiv:hep-th/0501178](https://arxiv.org/abs/hep-th/0501178)&rbrack;
+
+* {#Strominger18} [[Andrew Strominger]]: *Large Gauge Symmetry*, section 2.7 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), [arXiv:1703.05448 hep-th](https://arxiv.org/abs/1703.05448)&rbrack;
+  > (in the context of [[asymptotic symmetries]] of [[electromagnetism]])
+
+
+
+* [[David Tong]]; [p. 53](davidtong.org/pdfs/teaching/gauge-theory/gauge.pdf#page=53) of: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
+
 
 [[!redirects large gauge transformations]]
