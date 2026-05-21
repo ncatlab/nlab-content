@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -49,7 +49,6 @@ Historical articles
 * {#Klein1872} [[Felix Klein]], _Vergleichende Betrachtungen &#252;ber neuere geometrische Forschungen_ (1872)
 
   translation by M. W. Haskell, _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [[KleinRetyped.pdf:file]], [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
-
   > ([[Erlanger program]])
 
 * [[Hermann Weyl]], *Symmetry*, Journal of the Washington Academy of Sciences **28** 6 (1938) 253-271 &lbrack;[jstor:24530200](https://www.jstor.org/stable/24530200)&rbrack;
@@ -58,9 +57,13 @@ On [[transformation groups]]:
 
 * [[Willard Miller]], *Symmetry Groups and Their Applications*, Pure and Applied Mathematics **50** (1972) 16-60 &lbrack;[ISBN:9780080873657](https://www.elsevier.com/books/symmetry-groups-and-their-applications/miller/978-0-12-497460-9)&rbrack;
 
+In [[particle physics]]:
+
+* [[Sidney Coleman]]: *Aspects of symmetry*, Cambridge University Press (1985, 2010) &lbrack;[doi:10.1017/CBO9780511565045](https://doi.org/10.1017/CBO9780511565045), [pdf](https://rgjha.github.io/gallery/AOS_Coleman.pdf)&rbrack;
+
 On symmetry and introducing the language of [[homotopy type theory]] for [[univalent foundations of mathematics]]:
 
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: *[[Symmetry]]* (2021) &lbrack;[pdf](https://unimath.github.io/SymmetryBook/book.pdf)&rbrack;
 
 
 
