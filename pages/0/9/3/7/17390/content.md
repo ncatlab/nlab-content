@@ -5,7 +5,11 @@
 
 ## Idea
 
-(...)
+From [Judson](https://www.math.colostate.edu/~pries/467/Judson12.pdf)
+
+> Coding theory is an application of [[algebra]] that has become increasingly important over the last several decades. When we transmit data, we are concerned about sending a message over a channel that could be affected by “[[noise]].” We wish to be able to encode and decode the [[information]] in a manner that will allow the detection, and possibly the correction, of errors caused by noise. This situation arises in many areas of communications, including radio, telephone, television, computer communications, and even compact disc player technology. [[probability theory|Probability]], [[combinatorics]], [[group theory]], [[linear algebra]], and [[polynomial|polynomial rings]] over [[finite field|finite fields]] all play important roles in coding theory.
+
+_(links added by editor)_
 
 ## Related entries
 
@@ -33,6 +37,8 @@
 
 
 ## References
+
+* T. Judson, _Abstract Algebra: theory and applications_, Chapter 8: Algebraic Coding Theory, ([pdf](https://www.math.colostate.edu/~pries/467/Judson12.pdf))
 
 * T. Etzion, L. Storme, _Galois geometries and coding theory_, Designs, Codes and Cryptography 78:1 (2016) 311-350 [doi](https://doi.org/10.1007/s10623-015-0156-5)
 
