@@ -19,6 +19,7 @@ Early discussion of [[U-duality]]-covariant [[D=11 supergravity]] (later: "[[exc
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
+
 On [[area-preserving diffeomorphisms]] in the [[supermembrane]] ([[M2-brane]]) [[sigma-model]]:
 
 * [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
@@ -42,6 +43,11 @@ On [[super anti de Sitter spacetime|super-$AdS_4$]] ([[superspace|super]]-[[near
 On [[supergravity]] and [[duality in string theory]]:
 
 * [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
+
+On $SL_2$ [[S-duality]] in [[9D supergravity]]:
+
+* Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
+
 
 On [[U-duality]]:
 
