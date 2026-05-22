@@ -34,6 +34,20 @@ $$
 $$
 ($*\mathbb{C}P^2$ is the [[fake second complex projective space]], which is required instead of the second [[complex projective space]] $\mathbb{C}P^2$ to make the [[connected sum]] on the left side have vanishing [[Kirby-Siebenmann invariant]] like the right side.)
 
+As another example with the hyperbolic form $H=\begin{bmatrix}
+0 & 1 \\
+1 & 0
+\end{bmatrix}$, the [[intersection form]] of the [[complex surface]] $S^2\times S^2\cong\mathbb{C}P^1\times\mathbb{C}P^1$, one has $H\oplus[-1]\cong[+1]\oplus 2[-1]$ from Serre's classification, with [[Freedman's classification]] translating it into a [[homeomorphism]]:
+$$
+(S^2\times S^2)\#\overline{\mathbb{C}P^2}
+\cong\mathbb{C}P^2\# 2\overline{\mathbb{C}P^2}.
+$$
+It can be shown that it's even a [[diffeomorphism]], hence further gives a [[diffeomorphism]]:
+$$
+(S^2\times S^2)\# 7\overline{\mathbb{C}P^2}
+\cong\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}.
+$$
+
 ## Related entries
 
 [[!include four-dimensional geometry and topology -- table]]
