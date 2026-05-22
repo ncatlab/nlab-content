@@ -9,8 +9,8 @@
 
 * [GoogleScholar page](https://scholar.google.ca/citations?user=NSsKy2kAAAAJ&hl=en)
 
-## Selected writings
 
+## Selected writings
 
 Introducing what came to be called the *[[Nicolai map]]*:
 
@@ -77,6 +77,11 @@ On [[area-preserving diffeomorphisms]] in the [[supermembrane]] ([[M2-brane]]) [
 On [[D=3 supergravity]]:
 
 * [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B **392** (1993) 3-38 &lbrack;[arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074), <a href="https://doi.org/10.1016/0550-3213(93)90195-U">doi:10.1016/0550-3213(93)90195-U</a>&rbrack;
+
+On $SL_2$ [[S-duality]] in [[9D supergravity]]:
+
+* Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
+
 
 On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept of [[embedding tensors]]:
 
