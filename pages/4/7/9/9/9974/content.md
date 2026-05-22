@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -336,9 +336,9 @@ hitting the Donovan-Karoubi twists of K-theory. This is what in ([Freed-Distler-
 
 ## References
 
-Line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orientifolds]] are discussed (even if not quite explicitly in the language of higher bundles) in 
+On line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orientifolds]] are discussed (even if not quite explicitly in the language of higher bundles) in: 
 
-* {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
+* {#Freed12} [[Daniel Freed]]: _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna (2012) &lbrack;[[FreedESI2012.pdf:file]]&rbrack;
 
 based on the old results about the [[Picard 2-groupoid]] of complex [[super algebras]]
 
