@@ -10,6 +10,7 @@
 * [GoogleScholar page](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Greg+Moore&btnG=)
 
 
+
 ## Selected writings
 
 
@@ -85,6 +86,11 @@ On [[BPS states]] and [[wall crossing]] in [[D=4 N=4 super Yang-Mills theory]]:
 
 * *PiTP lectures on BPS states and wall-crossing in
 d = 4, $\mathcal{N} = 2$ theories* (2010) &lbrack;[pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)&rbrack;
+
+On [[D-brane charge quantization in K-theory]]:
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]]: *[Orientifold Précis](/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore)*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) \[<a href="https://bookstore.ams.org/pspum-83">ams:pspum-83</a>, [arXiv:0906.0795 hep-th](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)\]
+
 
 On the conjectural [[D=6 N=(2,0) SCFT]] on [[M5-branes]]:
 
