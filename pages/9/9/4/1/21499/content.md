@@ -19,9 +19,12 @@ It is by no means a comprehensive list, in strict alphabetic order.
 * [[Topos Institute]] ([home page](https://topos.institute)) -- an "independent scientific institute devoted to fundamental inquiry that shapes the technologies of tomorrow".
 
 
-* [YaMCATS](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/yorkshire-and-midlands-category-theory-seminar-yamcats) -- the Yorkshire and Midlands Category Theory Seminar,  is a category theory research network between the universities of Birmingham, Leeds, Leicester and Sheffield. The network is partially funded by the London Mathematical Society.
-Currently the network operates between Manchester, Sheffield and Leeds. Current page:
-(https://conferences.leeds.ac.uk/yamcats/) 
+* [YaMCATS](https://conferences.leeds.ac.uk/yamcats) -- the Yorkshire and Midlands Category Theory Seminar,  is a category theory research network between the universities of Birmingham, Leeds, Leicester and Sheffield. The network is partially funded by the London Mathematical Society.
+
+  Currently the network operates between Manchester, Sheffield and Leeds.
+
+  (Old link, now dead: [www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/yorkshire-and-midlands-category-theory-seminar-yamcats](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/yorkshire-and-midlands-category-theory-seminar-yamcats))
+ 
 
 
 
