@@ -14,6 +14,21 @@
 
 *Dolgachev surfaces* provide [[countable set|countably]] infinitely many non-[[diffeomorphic]] [[smooth structures]] on the [[complex surface]] $\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}$, which is the nine-fold [[blow-up]] of the second [[complex projective space]]. (One [[blow-up]] less yields the [[Barlow surfaces]] $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$.)
 
+## Description
+
+[[Freedman's classification]] provides:
+\begin{proposition}
+Every [[simply connected]] [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifold]] with [[intersection form]] $[-1]\oplus 8[+1]$ is [[homeomorphic]] to $\mathbb{C}P^2\# 8\overline{\mathbb{C}P^2}$.
+\end{proposition}
+(Instead of [[smooth manifold|smoothness]], a vanishing [[Kirby-Siebenmann invariant]] is also sufficient.)
+
+For example with the [[E₈]] form $E_8$, the [[intersection form]] of the [[E₈ manifold]], one has $-E_8\oplus[+1]\oplus[-1]\cong [+1]\oplus 9[-1]$ from Serre's classification theorem, with [[Freedman's classification]] translating it into a [[homeomorphism]]:
+$$
+\overline{M_{E_8}}\#*\mathbb{C}P^2\#\overline{\mathbb{C}P^2}
+\cong\mathbb{C}P^2\# 9\overline{\mathbb{C}P^2}.
+$$
+($*\mathbb{C}P^2$ is the [[fake second complex projective space]], which is required instead of the second [[complex projective space]] $\mathbb{C}P^2$ to make the [[connected sum]] have vanishing [[Kirby-Siebenmann invariant]] like the right side.)
+
 ## Related entries
 
 [[!include four-dimensional geometry and topology -- table]]
