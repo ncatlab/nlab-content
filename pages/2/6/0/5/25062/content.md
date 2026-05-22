@@ -6,6 +6,7 @@
 
 ## Selected writings
 
+
 On the [[Wess-Zumino-Witten model]]:
 
 * [[Patrick Meessen]], *Strings Moving on Group Manifolds: The WZW Model* &lbrack;[pdf](http://www.unioviedo.es/hepth/people/Patrick/fysica/zooi/WZW_ClassMunoz.pdf), [[Meessen-WZWModel.pdf:file]]&rbrack;
@@ -13,6 +14,11 @@ On the [[Wess-Zumino-Witten model]]:
 On [[D8-branes]] as [[black branes]] in [[massive type IIA string theory]]:
 
 * {#JanssenMeessenOrtin99} [[Bert Janssen]], [[Patrick Meessen]], [[Tomas Ortin]], _The D8-brane tied up: String and brane solutions in massive type IIA supergravity_, Phys. Lett. B453 (1999) 229-236 ([spire:494174](http://inspirehep.net/record/494174), <a href="https://doi.org/10.1016/S0370-2693(99)00315-9">doi:10.1016/S0370-2693(99)00315-9</a>)
+
+On $SL_2$ [[S-duality]] in [[9D supergravity]]:
+
+* [[Patrick Meessen]], [[Tomás Ortín]]: *An $Sl(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories*,  Nucl. Phys. B **541** (1999) 195--245 \[<a href="https://doi.org/10.1016/S0550-3213(98)00780-9">doi:10.1016/S0550-3213(98)00780-9</a>, [arXiv:hep-th/9806120](https://arxiv.org/abs/hep-th/9806120)\]
+
 
 On [[pp-wave]] [[Penrose limits]] of [[homogeneous space|homogeneous]] [[spacetimes]]:
 
