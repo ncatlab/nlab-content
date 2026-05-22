@@ -11,9 +11,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -86,6 +84,11 @@ proteins.
 In the context of [[hadrodynamics]] ([[Skyrmions]]):
 
 * [[Herbert Weigel]]: *Chiral Solitons* &lbrack;[arXiv:2503.20534](https://arxiv.org/abs/2503.20534)&rbrack;
+
+On [[quantum field theory|quantum]] solitons:
+
+* [[Jarah Evslin]]: *Krakow Lectures on Scalar Quantum Solitons* &lbrack;[arXiv:2605.22285](https://arxiv.org/abs/2605.22285)&rbrack;
+
 
 
 
