@@ -21,6 +21,10 @@ On [[D-branes]] in [[type 0 string theory]]:
 
 * [[Ralph Blumenhagen]], Anamaria Font, [[Dieter Lüst]]: *Non-Supersymmetric Gauge Theories from D-Branes in Type 0 String Theory*, Nucl. Phys. B **560** (1999) 66-92 &lbrack;[arXiv:hep-th/9906101](https://arxiv.org/abs/hep-th/9906101), <a href="https://doi.org/10.1016/S0550-3213(99)00443-5">doi:10.1016/S0550-3213(99)00443-5</a>&rbrack;
 
+On $SL_2$ [[S-duality]] in [[9D supergravity]]:
+
+* Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
+
 
 On [[heterotic M-theory on ADE-orbifolds]]:
 
