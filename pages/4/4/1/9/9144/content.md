@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[gauge theory]], a [[gauge transformation]] is called **large** if it is not [[connected component|connected]] to the [[identity]] gauge transformation.
+In [[gauge theory]], a [[gauge transformation]] is called **large** if it is not [[connected component|connected]] to the [[identity]] gauge transformation by a path in the gauge group.
 
 As opposed to other (small) gauge transformations, large gauge transformations count as [[global symmetries]].
 
