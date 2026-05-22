@@ -237,7 +237,7 @@ In non-additive contexts, the above definition is not right.  For instance, with
 ### Compact objects in $Top$
  {#CompactObjectsInTop}
 
-Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a [[topological space]] $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
+Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a [[topological space]] $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is far from right in general.
 
 A [[counterexample]] is given for instance in [Hovey (1999), page 49](#Hovey99), which itself was corrected by Don Stanley (see the [errata](http://hopf.math.purdue.edu/Hovey/model-err.pdf) of that book). See also the blog discussion 
 [here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790).
@@ -269,9 +269,7 @@ the comparison map
 \]
 is not surjective, and therefore not an isomorphism. 
 
-+--{.query}
-_[[Todd Trimble|Todd]]_ (posted from n-category cafe): I don't know if the story is any different for $X$ compact _Hausdorff_, but it could be worth considering. 
-=--
+Generally, such counterexamples are not hard to come by: it follows from the construction given in [this comment](https://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023818) that every topological space $X$ for which $Hom_Top(X,-):Top\to Set$ preserves even just sequential colimits is discrete, and with some more consideration that the compact objects in $Top$ are precisely the finite discrete spaces.
 
 But with a bit of care on the assumptions, similar results do hold:
 
@@ -291,6 +289,8 @@ Let $X$ denote the colimit of the diagram mapping out of the limit ordinal $\kap
 \end{proof} 
 
 This proof is essentially that given in [Hovey (1999), page 50](#Hovey99), where this result is needed towards the [[small object argument]] on the way to establishing the [[classical model structure on topological spaces]], see [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes).
+
+For the case where the colimit diagram consists of quotient maps instead of embeddings such results seems even harder to obtain: there exist sequential limits of compact Hausdorff spaces along quotient maps for which not every map to the colimit lifts to one of the spaces in the diagram. For example, the obvious quotient map exhibiting the unit interval as a quotient of the [[Cantor set]] can be factored into a sequence of steps where each map is a quotient map, each space is compact Hausdorff, and each space other than the unit interval is totally disconnected, so that the identity map on the unit interval can not be lifted to any earlier space in the diagram.
 
 ## Related concepts
 
