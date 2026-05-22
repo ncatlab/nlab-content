@@ -18,7 +18,7 @@ $$
 $$
 according to Serre's classification theorem with [[Rokhlin's theorem]] requiring an even number of definite $\pm E_8$ and indefiniteness requiring $n\geq 1$. [[Simon Donaldson]] furthermore showed, that if $m\neq 0$, then $n\geq 3$.
 
-It's assumed that Furuta's theorem can be improved, which is known as the [[11/8 conjecture]]. For this reason, Furuta's theorem is also called 10/8 conjecture and not 5/4 conjecture.
+It's assumed that Furuta's theorem can be improved, which is known as the [[11/8 conjecture]]. For this reason, Furuta's theorem is also called 10/8 theorem and not 5/4 theorem.
 
 ## Statement
 
