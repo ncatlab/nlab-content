@@ -3,6 +3,7 @@ __Jarah Evslin__ is an American [[nlab:string theory|string theorist]].
 
 * [webpage](http://tpcsf.ihep.ac.cn/english/jarah.html)
 
+
 ## Selected writings
 
 On [[Dirac charge quantization]] of [[D-brane charge]] in [[topological K-theory]]:
@@ -14,8 +15,11 @@ On the suggestion that an actual [[E8]]-[[principal bundle]] on 11d spacetime pl
 
 * Allan Adams, [[Jarah Evslin]], _The loop group of $E_8$ and K-theory from 11d_, JHEP 02 (2003) ([arXiv:hep-th/0203218](https://arxiv.org/abs/hep-th/0203218))
 
+On [[quantum field theory|quantum]] [[solitons]]:
 
-## Related $n$Lab entries
+* [[Jarah Evslin]]: *Krakow Lectures on Scalar Quantum Solitons* &lbrack;[arXiv:2605.22285](https://arxiv.org/abs/2605.22285)&rbrack;
+
+## Related entries
 
 * [[D-brane]]
 
