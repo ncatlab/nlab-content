@@ -53,17 +53,16 @@ On [[classical field theory|classical]] [[Chern-Simons theory]]:
 * [[Daniel Freed]]: *Classical Chern-Simons theory, Part I*, Adv. Math. **113** (1995) 237-303 &lbrack;[doi:10.1006/aima.1995.1039](https://doi.org/10.1006/aima.1995.1039), [arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021)&rbrack;
 
 
-
 On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersymmetry]]:
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
 * {#Freed99} [[Daniel Freed]], *[[Five lectures on supersymmetry]]*, AMS (1999) \[<a href="https://bookstore.ams.org/FLS">ISBN:978-0-8218-1953-1</a>, [spire:517862](https://inspirehep.net/literature/517862)\]
 
-
 and with focus on [[signs in supergeometry]]:
 
 * [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
+
 
 
 On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
@@ -107,9 +106,20 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
 
   ([arxiv:1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
 
+On [[D-brane charge quantization in K-theory]]:
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]]: *[Orientifold Précis](/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore)*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) \[<a href="https://bookstore.ams.org/pspum-83">ams:pspum-83</a>, [arXiv:0906.0795 hep-th](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)\]
+
+with more details in:
+
+* {#Freed12} [[Daniel Freed]]: _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna (2012) $[$[[FreedESI2012.pdf:file]]\]
+
+
+
+
 On the [[cobordism hypothesis]]:
 
-* [[Daniel Freed]], _The cobordism hypothesis_, Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100), [doi:10.1090/S0273-0979-2012-01393-9](https://doi.org/10.1090/S0273-0979-2012-01393-9))
+* [[Daniel Freed]], _The cobordism hypothesis_, Bulletin of the American Mathematical Society **50** (2013) 57--92, &lbrack;[arXiv:1210.5100](http://arxiv.org/abs/1210.5100), [doi:10.1090/S0273-0979-2012-01393-9](https://doi.org/10.1090/S0273-0979-2012-01393-9)&rbrack;
 
 On formalizing [[short-range entanglement]] in [[topological phases of matter]] via [[invertible topological field theories]]:
 
