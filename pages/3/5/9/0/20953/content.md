@@ -1,9 +1,9 @@
 
 > under construction
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -26,7 +26,7 @@ Discussion of differential [[stable Cohomotopy]]:
 
 Discussion of differential [[nonabelian cohomology|non-abelian]] (unstable) [[Cohomotopy]]:
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §4 in: *[[schreiber:The WZW term of the M5-brane and differential cohomotopy]]*, J. Math. Phys. **56** 102301 (2015) &lbrack;[arXiv:1506.07557](https://arxiv.org/abs/1506.07557), [doi:10.1063/1.4932618](https://doi.org/10.1063/1.4932618)&rbrack;
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §4 in: *[[schreiber:The WZW term of the M5-brane and differential cohomotopy]]*, J. Math. Phys. **56** 102301 (2015) &lbrack;[arXiv:1506.07557 math-ph](https://arxiv.org/abs/1506.07557), [doi:10.1063/1.4932618](https://doi.org/10.1063/1.4932618)&rbrack;
 
 * [[Daniel Grady]], [[Hisham Sati]], Def. 3.2 in: *Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers*, Journal of Geometry and Physics **165** (2021) 104203 &lbrack;[arXiv:2001.07640](https://arxiv.org/abs/2001.07640), [doi:10.1016/j.geomphys.2021.104203](https://doi.org/10.1016/j.geomphys.2021.104203)&rbrack;
 
