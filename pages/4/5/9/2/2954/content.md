@@ -63,6 +63,9 @@ and with focus on [[signs in supergeometry]]:
 
 * [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
 
+On [[topological K-theory]] in [[quantum field theory]] [[D-brane charge quantization in K-theory|and string theory]]:
+
+* [[Daniel Freed]]: _K-Theory in Quantum Field Theory_, Current developments in Mathematics, International Press Somerville (2001) 41--87 \[<a href="https://doi.org/10.4310/cdm.2001.v2001.n1.a2">doi:10.4310/cdm.2001.v2001.n1.a2</a>, <a href="http://arxiv.org/abs/math-ph/0206031">arXiv:math-ph/0206031</a>\]
 
 
 On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
