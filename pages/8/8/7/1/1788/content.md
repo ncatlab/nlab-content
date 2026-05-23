@@ -4,6 +4,14 @@
 
 ***
 
+$$
+  \frac{\Gamma \vdash t:\Box A}{\Gamma \vdash \mathsf{extract}(t):A}
+  \qquad
+  \frac{\Gamma \vdash t : \Box A \qquad x : A \vdash u : B}{\Gamma \vdash \mathsf{let\ box}\ x = t\ \mathsf{in}\ u : B}
+$$
+
+---
+
 
 $\esh$
 
