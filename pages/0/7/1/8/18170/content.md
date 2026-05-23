@@ -57,7 +57,7 @@ There are several interesting [[topological space|topologies]] on $\mathbb{Z}[1/
 
 * [[halving group]]
 
-* [[symmetric midpoint algebra]]
+* [[symmetric midpoint algebra]], [[closed midpoint algebra]]
 
 * [[dyadic rational module]]
 
