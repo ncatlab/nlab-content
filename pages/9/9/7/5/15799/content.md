@@ -27,7 +27,7 @@ On construction and axiomatization of [[homotopical AQFT]] via [[homotopy theory
 
 On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
 
-* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]]: _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316 hep-th](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
 
 
 On the [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]]:
