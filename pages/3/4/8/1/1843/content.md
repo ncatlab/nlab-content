@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontent
 
 ## Idea 
 
@@ -136,9 +134,9 @@ The equivalent formulation in terms of [[connections on bundle gerbes]] originat
 
 See also:
 
-* {#BonoraRuffinoSavelli08} [[Loriano Bonora]], [[Fabio Ferrari Ruffino]], [[Raffaele Savelli]], *Classifying A-field and B-field configurations in the presence of D-branes*, JHEP 0812:078 (2008) &lbrack;[arXiv:0810.4291](https://arxiv.org/abs/0810.4291), [doi:10.1088/1126-6708/2008/12/078](https://doi.org/10.1088/1126-6708/2008/12/078)&rbrack;
+* {#BonoraRuffinoSavelli08} [[Loriano Bonora]], [[Fabio Ferrari Ruffino]], [[Raffaele Savelli]], *Classifying A-field and B-field configurations in the presence of D-branes*, JHEP 0812:078 (2008) &lbrack;[arXiv:0810.4291 hep-th](https://arxiv.org/abs/0810.4291), [doi:10.1088/1126-6708/2008/12/078](https://doi.org/10.1088/1126-6708/2008/12/078)&rbrack;
 
-* [[Fabio Ferrari Ruffino]], *Classifying A-field and B-field configurations in the presence of D-branes - Part II: Stacks of D-branes*, Nuclear Physics, Section B **858** (2012) 377-404 &lbrack;[arXiv:1104.2798](https://arxiv.org/abs/1104.2798), [doi:10.1016/j.nuclphysb.2012.01.013](https://doi.org/10.1016/j.nuclphysb.2012.01.013)&rbrack;
+* [[Fabio Ferrari Ruffino]], *Classifying A-field and B-field configurations in the presence of D-branes - Part II: Stacks of D-branes*, Nuclear Physics, Section B **858** (2012) 377-404 &lbrack;[arXiv:1104.2798 hep-th](https://arxiv.org/abs/1104.2798), [doi:10.1016/j.nuclphysb.2012.01.013](https://doi.org/10.1016/j.nuclphysb.2012.01.013)&rbrack;
 
 
 A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the [[RR-fields]] that it interacts with:
