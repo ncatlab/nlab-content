@@ -70,7 +70,7 @@ This means that $h(a, b, f)$ is the [[center of contraction]] of the fiber of tr
 * {#ForsbergSetzer10} [[Fredrik Nordvall Forsberg]], [[Anton Setzer]], _Inductive-Inductive Definitions_, Computer Science Logic, Lecture Notes in Computer Science Volume 6247, 2010, pp 454-468 [Paper](http://link.springer.com/chapter/10.1007%2F978-3-642-15205-4_35).
 
 * {#ForsbergThesis}[[Fredrik Nordvall Forsberg]], _Inductive-inductive definitions_, PhD thesis
-Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
+Swansea University, 2013.  [PDF](https://fredriknf.com/thesis/thesis.pdf)
 
 * {#cat} [[Thorsten Altenkirch]], Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
 
