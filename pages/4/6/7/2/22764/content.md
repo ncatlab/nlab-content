@@ -12,19 +12,19 @@
 * table of contents
 {:toc}
 
-## Idea
-
-The idea of a closed midpoint algebra comes from [[Peter Freyd]]. 
 
 ## Definition
 
-A __closed midpoint algebra__ is a [[cancellative midpoint algebra]] $(M,\vert)$ equipped with two chosen elements $\bot:M$ and $\top:M$. 
+A __closed midpoint algebra__ is a [[cancellative midpoint algebra]] $(M,\vert)$ equipped with two chosen elements $\bot \colon  M$ and $\top \colon M$. 
+
+([Freyd 2008](#Freyd2008))
+
 
 ## Examples
 
-The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\bot = 0$, and $\top = 1$ is an example of a closed midpoint algebra. 
+* The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\bot = 0$, and $\top = 1$ is an example of a closed midpoint algebra. 
 
-The set of truth values in Girard's [[linear logic]] is a closed midpoint algebra. 
+* The set of [[truth values]] in Girard's [[linear logic]] is a closed midpoint algebra. 
 
 ## Properties
 
@@ -80,7 +80,9 @@ $$\int_{0}^{1} f(x) \mathrm{d}x = \frac{\int_{0}^{1} f(\frac{0 + x}{2}) \mathrm{
 
 ## References
 
-* [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+* {#Freyd2008} [[Peter Freyd]]: *Algebraic real analysis*, Theory and Applications of Categories *20** 10 (2008) 215--306 &lbrack;[tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/20/10/20-10.pdf)&rbrack;
+
+
 
 [[!redirects closed midpoint algebra]]
 [[!redirects closed midpoint algebras]]
