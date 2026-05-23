@@ -105,6 +105,8 @@ with more details in:
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
 
+* [[Alexander Kahle]], [[Alessandro Valentino]]: _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics **16** 02 (2014) \[<a href="https://doi.org/10.1142/S0219199713500144">doi:10.1142/S0219199713500144</a>, [arXiv:0912.2516 math.KT](http://arxiv.org/abs/0912.2516)\]
+
 * {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, Advances in Theoretical and Mathematical Physics **26** 5 (2022)  \[<a href="https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2">doi:10.4310/ATMP.2022.v26.n5.a2</a>, [arXiv:1903.08843](https://arxiv.org/abs/1903.08843)\]
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
@@ -114,14 +116,16 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 #### Reviews
 
-* {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
-
 * Kasper Olsen, [[Richard Szabo]], _Constructing D-Branes from K-Theory_, Adv. Theor. Math. Phys. 3 (1999) 889-1025 ([arXiv:hep-th/9907140](https://arxiv.org/abs/hep-th/9907140))
 
 * [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
+* {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
+
 * {#Witten00} [[Edward Witten]]: *Overview Of K-Theory Applied To Strings*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)\]
   > (essentially a hint at [this construction](Fredholm+operator#CanonicalRepresentativeOfpi3OfSAFred))
+
+* [[Daniel Freed]]; §3.7 in: _K-Theory in Quantum Field Theory_, Current developments in Mathematics, International Press Somerville (2001) 41--87 \[<a href="https://doi.org/10.4310/cdm.2001.v2001.n1.a2">doi:10.4310/cdm.2001.v2001.n1.a2</a>, <a href="http://arxiv.org/abs/math-ph/0206031">arXiv:math-ph/0206031</a>\]
 
 * {#Szabo2002} [[Richard Szabo]]: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
 
