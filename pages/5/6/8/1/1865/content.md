@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -118,7 +116,7 @@ Moreover...
 
 ### Idea
 
-[[Uli Bunke]] and [[Thomas Schick]] developed in a series of articles a differential-geometric cocycle model of differential K-theory where cocycles are given by smooth families of [[Dirac operator]]s.
+[[Uli Bunke]] and [[Thomas Schick]] developed in a series of articles a differential-geometric cocycle model of differential K-theory where cocycles are given by smooth families of [[Dirac operators]].
 
 See the reference [below](BunkeSchickReferences).
 
@@ -272,20 +270,24 @@ Relation to [[index theory]]:
 
 See also the references at _[[fiber integration in differential K-theory]]_.
 
+
 ### In string theory
 
-A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]] is in 
+A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]]:
 
-* [[Daniel Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
+* [[Daniel Freed]]: _K-Theory in Quantum Field Theory_, Current developments in Mathematics, International Press Somerville (2001) 41--87 \[<a href="https://doi.org/10.4310/cdm.2001.v2001.n1.a2">doi:10.4310/cdm.2001.v2001.n1.a2</a>, [arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031)\]
 
-The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]] is discussed in
+and more details:
 
-* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
+* {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry,  Int. Press, Somerville (2000) 129--194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]]:
+
+* [[Alexander Kahle]], [[Alessandro Valentino]]: _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics **16** 02 (2014) &lbrack;[arXiv:0912.2516 math.KT](http://arxiv.org/abs/0912.2516), [doi:10.1142/S0219199713500144](https://doi.org/10.1142/S0219199713500144)&rbrack;
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
 
-* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, 
-Advances in Theoretical and Mathematical Physics **26** (2022) 5 &lbrack;[arXiv:1903.08843](https://arxiv.org/abs/1903.08843), [doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2)&rbrack;
+* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*,  Advances in Theoretical and Mathematical Physics **26** (2022) 5 &lbrack;[arXiv:1903.08843 hep-th](https://arxiv.org/abs/1903.08843), [doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2)&rbrack;
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
