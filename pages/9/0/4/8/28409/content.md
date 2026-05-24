@@ -8,11 +8,12 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
-The *3/2 conjecture* arises from the still not fully answered question, which symmetric unimodular bilinear forms are the [[intersection forms]] of [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifolds]]. 
+The *3/2 conjecture* arises from the (still not fully answered) question: Which symmetric unimodular [[bilinear forms]] are the [[intersection forms]] of [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifolds]]?
 
 According to [[Donaldson's theorem]], a definite form is the [[intersection form]] of an [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifolds]] if and only if it's either $\oplus n[-1]$ or $\oplus n[+1]$, with both realized by the even [[simply connected]] examples $\#n\mathbb{C}P^2$ or $\#n\overline{\mathbb{C}P^2}$. According to Serre's classification theorem, an indefinite odd form is isomorphic to $\oplus m[-1]\oplus n[+1]$, which are all realized by the even [[simply connected]] examples $\#m\mathbb{C}P^2\#m\overline{\mathbb{C}P^2}$. (According to [[Freedman's theorem]], all these [[simply connected]] examples are even unique up to [[homeomorphism]].)
 
@@ -23,13 +24,31 @@ $$
 according to Serre's classification theorem with [[Rokhlin's theorem]] requiring an even number of definite $\pm E_8$ and indefiniteness requiring $n\geq 1$. [[Simon Donaldson]] furthermore showed, that if $m\neq 0$, then $n\geq 3$.
 
 ## Statement
+ {#Statement}
 
-The open 3/2 conjecture assumes: Every irreducible (not splitting in a non-trivial [[connected sum]]) [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifold]] $M$ with indefinite even [[intersection form]] fulfills:
+The open 3/2 conjecture assumes: 
+
+Every [[smooth manifold|smooth]] [[4-manifold]] $M$ which is:
+
+1. [[oriented]]
+
+1. [[simply connected topological space|simply-connected]] (cf. [Scorpan 2005, ftn. 1 on p. 111](#Scorpan05))
+
+1. [[closed manifold|closed]]  
+
+1. irreducible (not splitting in a non-trivial [[connected sum]]) 
+
+1. with indefinite even [[intersection form]] 
+
+satisfies:
+
 $$
   \chi(M)
     \geq
-  \frac{3}{2}{|\sigma(M)|}.
+  \frac{3}{2}{|\sigma(M)|}
+  \mathrlap{\,.}
 $$
+
 Alternatively, for the above structure of the [[intersection form]], the 3/2 conjecture is equivalent to:
 $$
   n\geq 4{|m|}-1.
@@ -53,6 +72,7 @@ $$
 
 ## References
 
-* {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
+* {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman), §3: [pdf](https://math.uchicago.edu/~farb/ModM4/Scorpan-Chapter3.pdf)&rbrack;
+
 
 [[!redirects 3/2 problem]]
