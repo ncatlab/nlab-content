@@ -11,9 +11,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -624,7 +622,8 @@ The resulting $Spin(3)$-equivariant family of Fredholm operators should the the 
 
 ## References
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
+* {#Hatcher} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
+
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_ (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
 
