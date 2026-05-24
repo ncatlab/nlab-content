@@ -15,7 +15,7 @@
 
 
 
-\tableofcontent
+\tableofcontents
 
 ## Idea 
 
