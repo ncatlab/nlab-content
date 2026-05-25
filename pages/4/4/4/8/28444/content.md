@@ -84,7 +84,7 @@ $$
   \end{array}
 $$
 
-Now, 
+Mote concretely:
 
 $$
   \begin{aligned}
