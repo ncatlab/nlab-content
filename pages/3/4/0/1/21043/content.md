@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -38,18 +36,17 @@ named in honor of the analogous construction over [[compact Lie groups]] in:
 
 * [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
 
-Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spaces]]:
+Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spaces]] (cf. *[[Dyer-Lashof operations]]*):
 
-* [[Eldon Dyer]], [[Richard Lashof]], _Homology of Iterated Loop Spaces_,  American Journal of Mathematics Vol. 84, No. 1 (Jan., 1962), pp. 35-88 ([jstor:2372804 ](https://www.jstor.org/stable/2372804))
+* [[Eldon Dyer]], [[Richard Lashof]]: _Homology of Iterated Loop Spaces_,  American Journal of Mathematics **84** 1 (1962) 35--88 \[<a href="https://doi.org/10.2307/2372804">doi:10.2307/2372804</a>, [jstor:2372804](https://www.jstor.org/stable/2372804)\]
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], p. 262 & Appendix of: _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264 ([doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
-
 * [[Samuel Eilenberg]], [[John Moore]], _Homology and fibrations_, Comment. Math. Helv., 40 (1966), pp. 199-236 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilemoor.pdf), [doi:10.1007/BF02564371](https://doi.org/10.1007/BF02564371))
 
+* [[William Browder]]: _Homology Rings of Groups_, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
-* [[William Browder]], _Homology Rings of Groups_, American Journal of Mathematics, Vol. 90, No. 1 (Jan., 1968) ([jstor:2373440](https://www.jstor.org/stable/2373440))
-
+* [[Frederick R. Cohen]], [[Thomas J. Lada]], [[J. Peter May]]:  *The Homology of Iterated Loop Spaces*, Lecture Notes in Mathematics **533**, Springer (1976) \[<a href="https://doi.org/10.1007/BFb0080464">doi:10.1007/BFb0080464</a>\] 
 
 * {#Halperin92} [[Stephen Halperin]], *Universal enveloping algebras and loop space homology*, Journal of Pure and Applied Algebra **83** 3 (1992) 237-282 \[<a href="https://doi.org/10.1016/0022-4049(92)90046-I">doi:10.1016/0022-4049(92)90046-I</a>\]
 
