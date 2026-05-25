@@ -105,4 +105,7 @@ Discussion of ([[higher derivative correction|higher derivative]]) corrections o
 
 * [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
+* Michele Caselle, Elia Cellini, Alessandro Nada, Dario Panfalone, Lorenzo Verzichelli: *Intrinsic Width of the Flux Tube as a tool to explore confining mechanisms in Lattice Gauge Theories* \[<a href="https://arxiv.org/abs/2601.19520">arXiv:2601.19520</a>\]
+
+
 
