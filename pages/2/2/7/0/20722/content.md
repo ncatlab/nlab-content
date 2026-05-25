@@ -7,6 +7,11 @@ William Browder (1934-2025)
 
 ## Selected writings
 
+Early discussion of what came to be known as [[Dyer-Lashof operations]]:
+
+* [[William Browder]]: *Homology operations and loop spaces*, Illinois J. Math. **4**  3 (1960) 347--357 \[<a href="doi.org/10.1215/ijm/1255456051">http://doi:10.1215/ijm/1255456051</a>\]
+
+
 On [[homology of H-spaces]] and their [[Pontryagin product]]:
 
 * [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
@@ -14,6 +19,8 @@ On [[homology of H-spaces]] and their [[Pontryagin product]]:
 * [[William Browder]], p. 36 of: *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
 
 * [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
+
+
 
 
 category: people
