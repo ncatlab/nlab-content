@@ -1,5 +1,10 @@
 
-* [webpage](http://www.math.umn.edu/~tlawson/)
+* [personal page](http://www.math.umn.edu/~tlawson/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=89296)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=mM4MXz8AAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -10,6 +15,10 @@ On [[topological modular forms]] ([[tmf]]):
 with [[level structure on an elliptic curve|level structure]]:
 
 * {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_, Inventiones mathematicae volume 203, pages 359–416 (2016) ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394), [doi:10.1007/s00222-015-0589-5](https://doi.org/10.1007/s00222-015-0589-5))
+
+On [[En-algebra|$E_n$]]-[[ring spectra]] and [[Dyer-Lashof operations]]:
+
+* [[Tyler Lawson]]: *$E_n$-ring spectra and Dyer-Lashof operations* \[<a href="https://arxiv.org/abs/2002.03889">arXiv:2002.03889</a>\]
 
 
 On [[Bousfield localization of model categories]] ([[Bousfield localization of spectra]]):
