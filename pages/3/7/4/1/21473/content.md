@@ -14,9 +14,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -78,6 +76,9 @@ A lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Sch
 See also:
 
 * Zihni Kaan Baykara, Shi Chen, [[Cumrun Vafa]]: *Isolated Critical Points for Scherk-Schwarz Compactifications of M-theory* &lbrack;[arXiv:2605.16484](https://arxiv.org/abs/2605.16484)&rbrack;
+
+* Emilio Torrente-Lujan: *Dissipative non-Abelian fluids from Scherk-Schwarz dimensional reduction* &lbrack;[arXiv:2605.23842](https://arxiv.org/abs/2605.23842)&rbrack;
+
 
 
 [[!redirects generalized Scherk-Schwarz mechanism]]
