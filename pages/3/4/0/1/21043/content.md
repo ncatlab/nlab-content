@@ -22,9 +22,12 @@ In particular, under mild technical conditions (see [Milnor-Moore 65, p. 262 ](#
 
 * [[weight systems are cohomology of loop space of configuration space]]
 
+
 ## Related concepts
 
 * [[Pontrjagin ring]]
+
+* [[Dyer-Lashof operations]]
 
 ## References
 
@@ -36,7 +39,7 @@ named in honor of the analogous construction over [[compact Lie groups]] in:
 
 * [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
 
-Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spaces]] (cf. *[[Dyer-Lashof operations]]*):
+Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spaces]] (cf. *[[Dyer-Lashof operation|Dyer-Lashof operations]]*):
 
 * [[Eldon Dyer]], [[Richard Lashof]]: _Homology of Iterated Loop Spaces_,  American Journal of Mathematics **84** 1 (1962) 35--88 \[<a href="https://doi.org/10.2307/2372804">doi:10.2307/2372804</a>, [jstor:2372804](https://www.jstor.org/stable/2372804)\]
 
@@ -61,6 +64,7 @@ See also:
 * Wikipedia, _[Pontryagin product](https://en.wikipedia.org/wiki/Pontryagin_product)_
 
 
+[[!redirects homology of loop space]]
 [[!redirects homology of a loop space]]
 
 [[!redirects homology of iterated loop spaces]]
