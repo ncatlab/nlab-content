@@ -312,6 +312,8 @@ $$
 
 * [[looping and delooping]]
 
+* [[Dyer-Lashof operations]]
+
 [[!include k-monoidal table]]
 
 ## References
