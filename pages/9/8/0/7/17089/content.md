@@ -4,7 +4,7 @@ The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-
 
 * {#Stasheff92} [[Jim Stasheff]]: _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_, in Lecture Notes in Math. **1510**, Springer (1992) \[<a href="https://doi.org/10.1007/BFb0101184">doi:10.1007/BFb0101184</a>\]
 
-* {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],:  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. **32** (1993) 1087--1103 \[<a href="https://doi.org/10.1007/BF00671791">doi:10.1007/BF00671791</a>, [arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099)\]
+* {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]]:  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. **32** (1993) 1087--1103 \[<a href="https://doi.org/10.1007/BF00671791">doi:10.1007/BF00671791</a>, [arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099)\]
 
 * {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]]: _Strongly homotopy Lie algebras_, Communications in Algebra **23** 6  (1995) \[<a href="https://doi.org/10.1080/00927879508825335">doi:10.1080/00927879508825335</a>, [arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095)\]
 
@@ -28,7 +28,8 @@ See also
 
 * {#Daily04} Marilyn Daily, _$L_\infty$-structures_, PhD thesis, 2004 ([web]( http://www.lib.ncsu.edu/resolver/1840.16/5282))
 
-* Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
+* Klaus Bering, [[Tom Lada]]: _Examples of Homotopy Lie Algebras_, Archivum Mathematicum **45** (2009) 265--277 \[<a href="http://arxiv.org/abs/0903.5433">arXiv:0903.5433</a>, [pdf](https://am-brno.math.muni.cz/09-4/lada.pdf)\]
+
  
 Introduction and survey:
 
@@ -270,7 +271,7 @@ These also encode a homotopy refinement of the [[Dickey bracket]] on [[Noether t
 
 This makes concrete the suggestion that there should be $L_\infty$-algebra refinements of the [[Dickey bracket]] of [[conserved currents]] in [[local field theory]] that was made in 
 
-* [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]], _The sh Lie structure of Poisson brackets in field theory_ ([arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176))
+* [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]]: _The sh Lie structure of Poisson brackets in field theory_, Comm Math Phys **191** (1998) 585--601 \[<a href="https://doi.org/10.1007/s002200050278">doi:10.1007/s002200050278</a>, [arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176)\]
 
 Comprehesive survey and exposition of this situation is in 
 
