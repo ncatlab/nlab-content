@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Definition
 
@@ -56,6 +55,8 @@ See there for more.
 [[!include k-monoidal table]]
 
 * [[May recognition theorem]]
+
+* [[Dyer-Lashof operation]]
 
 * [[monoidal groupoid]], [[braided monoidal groupoid]], [[symmetric monoidal groupoid]]
 
