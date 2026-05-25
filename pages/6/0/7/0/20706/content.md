@@ -11,6 +11,7 @@ Frederick Ronald Cohen (1945-2022)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=Rf_c8ZYAAAAJ&hl=en)
 
+
 ## Selected writings
 
 On [[configuration spaces of points]]:
@@ -23,7 +24,11 @@ On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[
 
 * {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973)  763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
-* {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$_, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
+* {#Cohen76} [[Fred Cohen]]: _The homology of $C_{n+1}$-Spaces, $n \geq 0$_, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics **533**, Springer (1976) &lbrack;[doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467)&rbrack;
+
+On [[homology of loop spaces|homology of]] [[iterated loop spaces]] and the [[Dyer-Lashof operations]]:
+
+* [[Frederick R. Cohen]], [[Thomas J. Lada]], [[J. Peter May]]:  *The Homology of Iterated Loop Spaces*, Lecture Notes in Mathematics **533**, Springer (1976) \[<a href="https://doi.org/10.1007/BFb0080464">doi:10.1007/BFb0080464</a>\] 
 
 
 On [[G-structure]] for $G = Br_\infty$ the infinite [[braid group]]:
