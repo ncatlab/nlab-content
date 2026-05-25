@@ -4,7 +4,8 @@
 * interview by [[Kathryn Hess]]: [video](https://www.youtube.com
 /watch?v=K8kPS6FZBoc&feature=youtu.be)
 
-* John McCleary, _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)) 
+* John McCleary: _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)) 
+
 
 ## Selected writings
 
@@ -27,6 +28,12 @@ On [[dg-Lie algebras]] and [[L-∞ algebras]]:
 * {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
+
+
+On [[L-infinity algebras|$L_\infty$-algebras]] in relation to the [[Dickey bracket]] of [[conserved currents]] in [[local field theory]]:
+
+* [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]]: _The sh Lie structure of Poisson brackets in field theory_, Comm Math Phys **191** (1998) 585--601 \[<a href="https://doi.org/10.1007/s002200050278">doi:10.1007/s002200050278</a>, [arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176)\]
+
 
 On [[connections on principal ∞-bundles]]:
 
