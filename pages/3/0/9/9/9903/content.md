@@ -10,9 +10,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -82,6 +80,9 @@ See also:
 
 
 * Per Berglund, Giorgi Butbaia, [[Tristan Hübsch]], Vishnu Jejjala, Damián Mayorga Peña, Challenger Mishra, Justin Tan: *Precision String Phenomenology* &lbrack;[arXiv:2407.13836](https://arxiv.org/abs/2407.13836)&rbrack;
+
+* Per Berglund, [[Tristan Hübsch]], Vishnu Jejjala: *What to do with a Ricci-flat Calabi--Yau metric?* &lbrack;[arXiv:2605.23900](https://arxiv.org/abs/2605.23900)&rbrack;
+
 
 
 
