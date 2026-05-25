@@ -29,6 +29,11 @@ On [[iterated loop spaces]]:
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
+On [[homology of loop spaces|homology of]] [[iterated loop spaces]] and the [[Dyer-Lashof operations]]:
+
+* [[Frederick R. Cohen]], [[Thomas J. Lada]], [[J. Peter May]]:  *The Homology of Iterated Loop Spaces*, Lecture Notes in Mathematics **533**, Springer (1976) \[<a href="https://doi.org/10.1007/BFb0080464">doi:10.1007/BFb0080464</a>\] 
+
+
 On [[equivariant algebraic K-theory]]:
 
 * [[Zbigniew Fiedorowicz]], [[Henning Hauschild]], [[Peter May]], *Equivariant algebraic K-theory*, in: *Algebraic K-Theory*,  Lecture Notes in Mathematics **967**, Springer (1982) 23-80 &lbrack;[doi:10.1007/BFb0061898](https://doi.org/10.1007/BFb0061898), [pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf)&rbrack;
