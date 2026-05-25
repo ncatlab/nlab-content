@@ -1,5 +1,13 @@
 
-* [webpage](https://www.palmkvist.nu)
+* [personal page](https://www.palmkvist.nu)
+
+* [institute page](https://www.chalmers.se/en/persons/jakobpal/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=288639)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ek9r-aQAAAAJ&hl=sv)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jakob-Palmkvist)
 
 
 ## Selected writings
