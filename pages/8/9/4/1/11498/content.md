@@ -1,7 +1,5 @@
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -68,6 +66,11 @@ See also:
 A list of congruence subgroups is provided in
 
 * [[Sebastian Pauli]], _[Congruence subgroups of PSL(2,Z)](http://www.uncg.edu/mat/faculty/pauli/congruence/)_
+
+See also:
+
+* Tatiana Abdelnaim: *Top-dimensional rational cohomology of the congruence subgroup $\Gamma^+_{0,n}(p)$* &lbrack;[arXiv:2605.23526](https://arxiv.org/abs/2605.23526)&rbrack;
+
 
 
 [[!redirects congruence subgroups]]
