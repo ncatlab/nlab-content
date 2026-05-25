@@ -9,10 +9,7 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -105,6 +102,7 @@ The [[homotopy groups]] of real projective plane can be calculated with the long
 =--
 
 ### Homology and cohomology
+ {#HomologyAndCohomology}
 
 +-- {: .num_prop #HomologyAndCohomologyOfRealProjectiveSpace}
 ###### Proposition
