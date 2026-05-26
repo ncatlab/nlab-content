@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[automata theory]], a *higher-dimensional automaton*, or *HDA*, is a model of [[concurrency]]. HDAs are defined as [[presheaves]] over a category of labelled precubical sets equipped with sets of initial and accepting cells.
+In [[automata theory]], a *higher-dimensional automaton*, or *HDA*, is a model of [[concurrency]]. HDAs are defined as [[presheaves]] over a category of labelled pre-[[cubical sets]] equipped with sets of initial and accepting cells.
 
 
 ## References
