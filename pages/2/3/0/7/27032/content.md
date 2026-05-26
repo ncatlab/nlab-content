@@ -92,6 +92,14 @@ as $P$ is decidable.
 
 * The $\mathrm{WLPO}_\mathbb{N}$ implies the [[stable fan theorem]]. 
 
+## Choiceless weak limited principle of omniscience
+
+There is a generalization of the weak limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless weak limited principle of omniscience**. The choiceless weak limited principle of omniscience for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then either for all $x \in A$, $Q(x)$, or it is not true that for all $x \in A$, $\neg P(x)$. 
+$$(\forall x \in A.P(x) \vee Q(x)) \Rightarrow ((\forall x \in A.Q(x)) \vee \neg (\forall x \in A.\neg P(x)))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the weak limited principle of omniscience. One gets back the usual weak limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+
+The choiceless weak limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic weak limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
+
 ## Related concepts
 
 * [[principle of omniscience]]
@@ -124,6 +132,8 @@ as $P$ is decidable.
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
+
 [[!redirects WLPO]]
 [[!redirects weak limited principle of omniscience]]
 [[!redirects weak limited principles of omniscience]]
@@ -131,3 +141,7 @@ as $P$ is decidable.
 [[!redirects internal WLPO]]
 [[!redirects internal weak limited principle of omniscience]]
 [[!redirects internal weak limited principles of omniscience]]
+
+[[!redirects choiceless WLPO]]
+[[!redirects choiceless weak limited principle of omniscience]]
+[[!redirects choiceless weak limited principles of omniscience]]
