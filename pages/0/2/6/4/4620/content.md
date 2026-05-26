@@ -43,7 +43,7 @@ There are also the [[analytic principles of omniscience]], which are versions of
 
 * [[analytic Markov's principle]]
 
-In addition, in [King 2024](#King24) there are more generalizations of the principles of omniscience listed above, which are equivalent to Bishop's principles of omniscience under the [[weak countable choice]] principle $\mathrm{AC}_{\mathbb{N}, 2}$. 
+In addition, in [King 2024](#King24) there are more generalizations of the principles of omniscience listed above, in which one considers pairs of predicates $P(x)$ and $Q(x)$ on a set $A$ which satisfy $P(x) \vee Q(x)$. The usual principles of omniscience occur when $Q(x)$ is precisely $\neg P(x)$. Bishop's principles of omniscience imply these generalizations under the [[weak countable choice]] principle $\mathrm{AC}_{A, 2}$. 
 
 There are also generalisations of the [[principles of omniscience]] involving sets with tight apartness:
 
