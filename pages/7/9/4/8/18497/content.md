@@ -24,6 +24,8 @@ The [[S-duality]] of type IIB in 10 dimensions corresponds to the exchange of th
 
 ## References
 
+### General 
+
 The original observation:
 
 * {#Vafa00} [[Cumrun Vafa]], from slide 42 in: _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](https://web.archive.org/web/20100612073150/http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
@@ -35,8 +37,9 @@ Relation to [[Borcherds algebras]]:
 
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
 
+### Via RHT
 
-{#SatiVoronov} Relation to [[Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
+{#SatiVoronov} Discussion in the context of [[Hypothesis H]], via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
 
 * [[Hisham Sati]], [[Alexander Voronov]]: *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. **400** (2023) 1915-1960 &lbrack;[arXiv:2111.14810 hep-th](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
 
