@@ -8,38 +8,46 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
-## Idea
-
-The idea of a symmetric closed midpoint algebra comes from [[Peter Freyd]]. 
+\tableofcontents
 
 ## Definition
 
-A __symmetric closed midpoint algebra__ is a [[symmetric cancellative midpoint algebra]] $(M,\vert, \odot, (-)^\bullet)$ with two elements $\bot:M$ and $\top:M$ such that $\bot\vert\top = \odot$. 
+A _symmetric closed midpoint algebra_ is a [[closed midpoint algebra]] $(M,\vert)$ with a function $(-)^{\bullet}: M \to M$ such that:
+
+* for all $a$ and $b$ in $M$, $a^{\bullet} \vert a = \odot$, where $odot = \bot\vert\top$
 
 ## Properties
 
-Every symmetric closed midpoint algebra with $\bot = \top$ is [[trivial object|trivial]]. 
+* $\bot=\top^{\bullet}$
 
-## Examples
+* for all $a$ in $M$, $(a^{\bullet})^{\bullet} = a$
 
-The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, and $\top = 1$ is an example of a symmetric closed midpoint algebra. 
+* for all $a$ and $b$ in $M$, $(a \vert b)^{\bullet} = a^{\bullet} \vert b^{\bullet}$
 
-The set of truth values in Girard's [[linear logic]] is a symmetric closed midpoint algebra. 
+
+Therefore:
+A __symmetric closed midpoint algebra__ is the same thing as a [[symmetric cancellative midpoint algebra]] $(M,\vert, \odot, (-)^\bullet)$ with two elements $\bot:M$ and $\top:M$ such that $\bot\vert\top = \odot$. 
+
+\begin{proposition}
+  The [[initial object]] among symmetric closed midpoint algebras is the [[unit interval]] in the [[dyadic rational numbers]].
+\end{proposition}
+
 
 ## Related concepts
 
-* [[closed midpoint algebra]]
+* [[definite integration]]
 
 * [[symmetric cancellative midpoint algebra]]
 
-* [[minor scale]]
+* [[closed midpoint algebra]]
 
-* [[dyadic rational module]]
 
 ## References
 
-* [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+* {#Freyd2008} [[Peter Freyd]]: *Algebraic real analysis*, Theory and Applications of Categories *20** 10 (2008) 215--306 &lbrack;[tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/20/10/20-10.pdf)&rbrack;
+
+
+
+[[!redirects symmetric closed midpoint algebra]]
+[[!redirects symmetric closed midpoint algebras]]
