@@ -9,6 +9,8 @@ Review of [[matrix models]] in [[string theory]]/[[M-theory]] ([[BFSS matrix mod
 
 Further discussion:
 
-* [[Badis Ydri]]: *Molien--Weyl Singlet Counting and BFSS_2--Factorization in Gaussian Matrix QM* &lbrack;[arXiv:2605.04621](https://arxiv.org/abs/2605.04621)&rbrack;
+* [[Badis Ydri]]: *Molien--Weyl Singlet Counting and $BFSS_2$--Factorization in Gaussian Matrix QM* &lbrack;[arXiv:2605.04621](https://arxiv.org/abs/2605.04621)&rbrack;
+
+* [[Badis Ydri]]: *Endpoint formulation and Molien--Weyl structure for the $N=2$, large--$d$ BFSS/BMN models* &lbrack;[arXiv:2605.25647](https://arxiv.org/abs/2605.25647)&rbrack;
 
 category: people
