@@ -101,6 +101,14 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 
 * The (analytic) LLPO holds in Johnstone's [[topological topos]], as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
+## Choiceless lesser limited principle of omniscience
+
+There is a generalization of the lesser limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless lesser limited principle of omniscience**. The choiceless lesser limited principle of omniscience for a set $A$ states that given a set $A$, a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, and a pair of [[predicates]] $R$ and $S$ such that $R(x) \vee S(x)$ holds for all $x \in A$, then if it is not true that there exists $x \in A$ such that $P(x)$ and there exists $x \in A$ such that $R(x)$ hold, then either for all $x \in A$, $Q(x)$ or for all $x \in A$, $S(x)$. 
+$$((\forall x \in A.P(x) \vee Q(x)) \wedge (\forall x \in A.R(x) \vee S(x))) \Rightarrow \neg (\exists x \in A.P(x) \wedge \exists x \in A.R(x)) \Rightarrow ((\forall x \in A.Q(x)) \vee (\forall x \in A.S(x)))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ or between $R(x)$ or $S(x)$ in this version of the lesser limited principle of omniscience. One gets back the usual lesser limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$ and $R(x)$ and $S(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$ and $S(x)$ [[if and only if]] $\neg R(x)$ for all $x \in A$. 
+
+The choiceless lesser limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic lesser limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24).
+
 ## Related concepts
 
 * [[principle of omniscience]]
@@ -141,6 +149,8 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
+
 [[!redirects LLPO]]
 [[!redirects lesser limited principle of omniscience]]
 [[!redirects lesser limited principles of omniscience]]
@@ -156,3 +166,7 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 [[!redirects untruncated LLPO]]
 [[!redirects untruncated lesser limited principle of omniscience]]
 [[!redirects untruncated lesser limited principles of omniscience]]
+
+[[!redirects choiceless LLPO]]
+[[!redirects choiceless lesser limited principle of omniscience]]
+[[!redirects choiceless lesser limited principles of omniscience]]
