@@ -552,6 +552,12 @@ See [Diener 2018](#Diener18) for more statements that are inconsistent with $\ma
 
 ## Generalizations
 
+### Choiceless limited principle of omniscience
+
+There is a generalization of the limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless limited principle of omniscience**. The choiceless limited principle of omniscience for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then either there exists $x \in A$ such that $P(x)$ or for all $x \in A$, $Q(x)$. The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the limited principle of omniscience. One gets back the usual limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+
+The choiceless limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24), thus also implying that the real numbers coincide with each other. 
+
 ### Generalizations to other sets of propositions
 
 One can consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then for a given set $A$, the __limited principle of omniscience__ $\mathrm{LPO}_{A, \Sigma}$ states that, given any [[function]] $f$ from $A$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
@@ -571,12 +577,6 @@ which is precisely the usual limited principle of omniscience.
 For the [[natural numbers]] $\mathbb{N}$ and the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\mathbb{N}, \Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
 
 For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{A, \Omega}$ is always true for set $A$ because $\Omega$ is a [[frame]] and thus closed under existential quantification over $A$. 
-
-### Choiceless limited principle of omniscience
-
-There is another generalization of the limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless limited principle of omniscience**. The choiceless limited principle of omniscience for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then either there exists $x \in A$ such that $P(x)$ or for all $x \in A$, $Q(x)$. The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the limited principle of omniscience. One gets back the usual limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
-
-The choiceless limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24), thus also implying that the real numbers coincide with each other. 
 
 ## Related concepts
 
