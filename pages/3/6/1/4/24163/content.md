@@ -95,6 +95,18 @@ Thus, one has a hierarchy of analytic Markov's principles of omniscience, where
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic Markov's principle are intermediate in strength between the Cauchy-analytic Markov's principle and the Dedekind-analytic Markov's principle. 
 
+\begin{theorem}
+The [[choiceless Markov's principle]] as defined in [King 2024](#King24) implies the analytic Markov's principle for any field of real numbers $R$. 
+\end{theorem}
+
+\begin{proof}
+For all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, let the predicate $P(r, n)$ be defined as the predicate $P(r, n) \coloneqq r \gt 0 \vee r \lt 0$, which is constant on the natural numbers, and let the predicate $Q(r, n)$ be defined as the predicate $Q(r, n) \coloneqq r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$. One can show that for all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, we have $P(r, n) \vee Q(r, n)$. Then the [[choiceless Markov's principle]] implies that for all real numbers $r \in R$, we have 
+$$\neg (\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}) \Rightarrow (\exists n \in \mathbb{N}.r \gt 0 \vee r \lt 0)$$
+Since $\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$ is equivalent to $r = 0$ and $\exists n \in \mathbb{N}.r \gt 0 \vee r \lt 0$ is equivalent to $r \gt 0 \vee r \lt 0$ for all real numbers $r \in R$, we have 
+$$\neg (r = 0) \Rightarrow (r \gt 0 \vee r \lt 0)$$ 
+which is precisely analytic Markov's principle for the field of real numbers $R$. 
+\end{proof}
+
 ## Models
 
 * The analytic Markov's principle for [[Dedekind real numbers]] holds in Johnstone's [[topological topos]].
@@ -103,7 +115,7 @@ Thus, one has a hierarchy of analytic Markov's principles of omniscience, where
 
 * The analytic Markov's principle for [[Dedekind real numbers]] holds in the cohesive types of [[Mike Shulman]]'s [[real-cohesive homotopy type theory]], which model [[Euclidean-topological infinity-groupoids]]. 
 
-## See also ##
+## Related concepts
 
 * [[Markov's principle]]
 
@@ -115,13 +127,15 @@ Thus, one has a hierarchy of analytic Markov's principles of omniscience, where
 
 * [[analytic LLPO]]
 
-## References ##
+## References 
 
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
 
 * {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
 
 [[!redirects analytic MP]]
 [[!redirects analytic Markov's principle]]
