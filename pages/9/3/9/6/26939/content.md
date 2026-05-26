@@ -85,6 +85,18 @@ Thus, one has a hierarchy of analytic weak limited principles of omniscience, wh
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic WLPO are intermediate in strength between the Cauchy-analytic WLPO and the Dedekind-analytic WLPO. 
 
+\begin{theorem}
+The [[choiceless WLPO]] as defined in [King 2024](#King24) implies the analytic WLPO for any field of real numbers $R$. 
+\end{theorem}
+
+\begin{proof}
+For all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, let the predicate $P(r, n)$ be defined as the predicate $P(r, n) \coloneqq r \gt 0 \vee r \lt 0$, which is constant on the natural numbers, and let the predicate $Q(r, n)$ be defined as the predicate $Q(r, n) \coloneqq r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$. One can show that for all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, we have $P(r, n) \vee Q(r, n)$. Then the [[choiceless WLPO]] implies that for all real numbers $r \in R$, we have 
+$$(\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}) \vee \neg (\forall n \in \mathbb{N}.\neg (r \gt 0 \vee r \lt 0))$$
+Since $\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$ is equivalent to $r = 0$ and $\forall n \in \mathbb{N}.\neg (r \gt 0 \vee r \lt 0)$ is equivalent to $r = 0$ for all real numbers $r \in R$, we have 
+$$(r = 0) \vee \neg (r = 0)$$ 
+which is precisely analytic WLPO for the field of real numbers $R$. 
+\end{proof}
+
 Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]], there are other statements related to the analytic WLPO:
 
 * That every element of $R$ has a choice of [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) implies that the analytic $\mathrm{WPO}$ for $R$ holds. 
@@ -108,6 +120,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 * [[analytic Markov's principle]]
 
 ## References
+
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
 
 The analytic WLPO is mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality). In addition, it makes the wrong statement that LPO is equivalent to Cauchy reals having decidable equality; it is WLPO which is equivalent to Cauchy reals having decidable equality (i.e. analytic WLPO for Cauchy reals), while LPO is equivalent to Cauchy reals having *[[decidable relation|decidable]] [[tight apartness relation|tight apartness]]*. 
 
