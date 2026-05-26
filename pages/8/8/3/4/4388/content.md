@@ -66,9 +66,7 @@ There are several variant forms of automaton.  The above just gives a basic one.
 
 * [[nondeterministic automaton]].
 
-There are tentative definitions of 
-
-*[[higher dimensional automaton]]
+* [[higher-dimensional automaton]]
 
 which take a more nPOV of automata theory.
 
@@ -115,6 +113,7 @@ category:computer science
 
 [[!redirects automata]]
 [[!redirects automatons]]
+[[!redirects automata theory]]
 
 [[!redirects Aut]]
 
