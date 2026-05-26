@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -133,7 +131,7 @@ See also
 
 * Dibakar Roychowdhury: *Krylov state complexity for BMN matrix model* &lbrack;[arXiv:2605.10786](https://arxiv.org/abs/2605.10786)&rbrack;
 
-
+* [[Badis Ydri]]: *Endpoint formulation and Molien--Weyl structure for the $N=2$, large--$d$ BFSS/BMN models* &lbrack;[arXiv:2605.25647](https://arxiv.org/abs/2605.25647)&rbrack;
 
 
 
