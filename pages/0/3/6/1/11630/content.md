@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -232,14 +230,13 @@ Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compac
 * [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
-On U-duality (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
+{#SatiVoronovMysterious} On U-duality (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. **400** (2023) 1915-1960 &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+* [[Hisham Sati]], [[Alexander Voronov]]: *Mysterious Triality and M-Theory*, Advances in Theoretical and Mathematical Physics **28** 8 (2024) 2491-2601 &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968), [doi:10.4310/ATMP.241119034750](https://dx.doi.org/10.4310/ATMP.241119034750)&rbrack;
 
-* {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
-
+* {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces*, Lett Math Phys **115** 98 (2025) &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337), [doi:10.1007/s11005-025-01977-2](https://doi.org/10.1007/s11005-025-01977-2)&rbrack;
 
 review in:
 
