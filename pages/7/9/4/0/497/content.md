@@ -170,6 +170,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * Assuming [[function sets]], every [[tight apartness relation]] on a [[set]] is [[decidable tight apartness relation|decidable]]. 
 
+* Assuming [[function sets]], every [[tight apartness relation]] on a [[set]] is [[stable relation|stable]]. 
+
 * The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
 
 * The [[poset of truth values]] has a [[tight apartness relation]].
