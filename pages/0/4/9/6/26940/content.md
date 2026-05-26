@@ -148,6 +148,26 @@ Given a [[sigma-frame|$\sigma$-subframe]] $\Sigma$ of the $\sigma$-frame of [[tr
 Consider the Archimedean ordered integral domain $R$ with an arbitrary element $x \in R$. The $\Sigma$-Dedekind completion of $R$ is the integers if and only if $x$ is equal to an integer, and the $\Sigma$-Dedekind completion of $R$ is the $\Sigma$-Dedekind real numbers if and only if $x$ is [[tight apartness|apart from]] an integer. However, $x$ is equal to an integer or apart from an integer for all $x \in R$ if and only if $R$ is a [[discrete integral domain]], and the claim that every Archimedean ordered integral domain is discrete is equivalent to the analytic $\mathrm{LPO}$ for the $\Sigma$-Dedekind real numbers. 
 \end{proof}
 
+\begin{theorem}
+The [[choiceless LPO]] as defined in [King 2024](#King24) implies the analytic LPO for any field of real numbers $R$. 
+\end{theorem}
+
+\begin{proof}
+For all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, let the predicate $P(r, n)$ be defined as the predicate $P(r, n) \coloneqq r \gt 0 \vee r \lt 0$, which is constant on the natural numbers, and let the predicate $Q(r, n)$ be defined as the predicate $Q(r, n) \coloneqq r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$. One can show that for all real numbers $r \in R$ and natural numbers $n \in \mathbb{N}$, we have $P(r, n) \vee Q(r, n)$. Then the [[choiceless LPO]] implies that for all real numbers $r \in R$, we have 
+$$(\exists n \in \mathbb{N}.r \gt 0 \vee r \lt 0) \vee (\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n})$$
+Since $\forall n \in \mathbb{N}.r \gt -\frac{1}{2^n} \wedge r \lt \frac{1}{2^n}$ is equivalent to $r = 0$ and $\exists n \in \mathbb{N}.r \gt 0 \vee r \lt 0$ is equivalent to $r \gt 0 \vee r \lt 0$ for all real numbers $r \in R$, we have 
+$$(r \gt 0 \vee r \lt 0) \vee (r = 0)$$ 
+which is precisely analytic Markov's principle for the field of real numbers $R$. 
+\end{proof}
+
+\begin{lemma}
+The [[choiceless LPO]] as defined in [King 2024](#King24) implies that the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. 
+\end{lemma}
+
+\begin{proof}
+The choiceless LPO implies the analytic LPO for both Dedekind real numbers and Cauchy real numbers, which implies that they coincide with each other. 
+\end{proof}
+
 ## Related statements
 
 Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]], there are other statements related to the analytic LPO for $R$:
@@ -162,8 +182,6 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x)) \wedge (\forall x, y, z.(x \# y) \wedge (y \# z) \Rightarrow (x \# z))) \Rightarrow 
 (\forall x, y.(x \# y) \vee \neg (x \# y))$$
-
-* The [[choiceless LPO]] implies the [[analytic LPO]] for all sets of real numbers, as shown in [King 2024](#King24).
 
 ## Models
 
