@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[automata theory]], a *higher-dimensional automaton*, or *HDA*, is a model of [[concurrency]]. HDAs are defined as [[presheaves]] over a category of labelled pre-[[cubical sets]] equipped with sets of initial and accepting cells.
+In [[automata theory]], a *higher-dimensional automaton*, or *HDA*, is a model of [[concurrency]], where points correspond to states, edges to transitions, and squares, cubes, etc., to concurrently executing events. HDAs are defined as [[presheaves]] over a category of labelled pre-[[cubical sets]] equipped with sets of initial and accepting cells.
 
 
 ## References
@@ -47,3 +47,7 @@ On the relationship between [[Petri nets]] and HDAs
 On [[weak equivalences]]
 
 * Thomas Kahl, *Weak Equivalence of Higher-Dimensional Automata* &lbrack;[arXiv:1910.12787](https://arxiv.org/abs/1910.12787)&rbrack;
+
+[[!redirects higher dimensional automaton]]
+[[!redirects higher dimensional automata]]
+[[!redirects higher-dimensional automata]]
