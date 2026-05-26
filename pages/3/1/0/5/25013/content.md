@@ -66,6 +66,18 @@ A tight apartness relation is stable if it is logically equivalent to [[denial i
 
 A tight apartness relation is decidable if for all elements $a \in S$ and $b \in S$, $a \# b$ or $a = b$. Decidable tight apartness implies stable tight apartness, so it is usually called decidable inequality. In the context of [[excluded middle]], every tight apartness relation is decidable. 
 
+In [[constructive mathematics]], sets with stable and decidable tight apartness are not [[cartesian closed]]; i.e. closed under [[function sets]]: 
+
+\begin{theorem}
+Given two sets with stable tight apartness $A$ and $B$, suppose that the tight apartness on the function set $B^A$ is stable. Then the [[double negation law]] holds. 
+\end{theorem}
+
+\begin{proof}
+Let $P$ be a [[subsingleton]], and let $\mathbb{2}$ be the [[boolean domain]] $2$. Both $P$ and $\mathbb{2}$ have decidable tight apartness, and thus stable tight apartness. The tight apartness relation on the [[function set]] $\mathbb{2}^P$ is given by the relation $\exists p \in P.f(p) \neq g(p)$ for $f, g \in \mathbb{2}^P$. Then we consider the two [[constant functions]] $\lambda p \in P.0$ and $\lambda p \in P.1$ from $P$ to the [[boolean domain]] $\mathbb{2}$, and the tight apartness relation between the two constant functions
+$$\exists p \in P.(\lambda p \in P.0)(p) \neq (\lambda p \in P.1)(p)$$
+Since $P$ is a [[subsingleton]], the tight apartness relation is equivalent to $P$ being a [[singleton]], $\exists p \in P$. Thus, the tight apartness relation being stable is equivalent to the proposition $\exists p \in P$ being stable, which is equivalent to the [[double negation law]]. 
+\end{proof}
+
 ## The category of sets with tight apartness
 
 In the category of sets with tight apartness, [[monomorphisms]] between sets with tight apartness are strongly extensional functions that preserve strict inequality, or strong [[injections]]. These monomorphisms are [[regular monomorphisms]]. The category of sets with tight apartness has all (small) [[limits]], [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \# (x,y)$ iff $a \# x$ or $b \# y$.) Similarly, it has all finite [[coproducts]]. In fact, this category is a [[complete category]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infinite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.) Nor is it [[finitely cocomplete]], because it does not have all [[quotients]]. 
