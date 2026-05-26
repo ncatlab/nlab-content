@@ -66,6 +66,15 @@ Markov\'s principle is equivalent to the assertion that for every [[modulated Ca
 
 The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
+
+## Choiceless Markov's principle
+
+There is another generalization of Markov's principle defined in [King 2024](#King24), which was suggested to be called **choiceless Markov's principle**. The choiceless Markov's principle for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then if it is not true that for all $x \in A$, $Q(x)$, then there exists $x \in A$ such that $P(x)$. 
+$$\forall x \in A.P(x) \vee Q(x) \Rightarrow (\neg \forall x \in A.Q(x)) \Rightarrow \exists x \in A.P(x))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the Markov's principle. One gets back the usual Markov's principle if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+
+The choiceless Markov's principle for the natural numbers $\mathbb{N}$ implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
+
 ## Related concepts
 
 * [[principle of omniscience]]
@@ -87,6 +96,8 @@ The analogous statement for [[Dedekind real numbers]] might be called the **[[an
 * {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
 
 For a recent comparison see:
 
@@ -161,3 +172,66 @@ category: foundational axiom
 [[!redirects Марков's Rule]]
 [[!redirects Марков\'s Rule]]
 [[!redirects Марков/'s Rule]]
+
+[[!redirects choiceless Markov principle]]
+[[!redirects choiceless Markov's principle]]
+[[!redirects choiceless Markov's principle]]
+[[!redirects choiceless Markov\'s principle]]
+[[!redirects choiceless Markov/'s principle]]
+[[!redirects choiceless Марков principle]]
+[[!redirects choiceless Марков's principle]]
+[[!redirects choiceless Марков's principle]]
+[[!redirects choiceless Марков\'s principle]]
+[[!redirects choiceless Марков/'s principle]]
+[[!redirects choiceless Markov Principle]]
+[[!redirects choiceless Markov's Principle]]
+[[!redirects choiceless Markov's Principle]]
+[[!redirects choiceless Markov\'s Principle]]
+[[!redirects choiceless Markov/'s Principle]]
+[[!redirects choiceless Марков Principle]]
+[[!redirects choiceless Марков's Principle]]
+[[!redirects choiceless Марков's Principle]]
+[[!redirects choiceless Марков\'s Principle]]
+[[!redirects choiceless Марков/'s Principle]]
+
+[[!redirects choiceless Markov axiom]]
+[[!redirects choiceless Markov's axiom]]
+[[!redirects choiceless Markov's axiom]]
+[[!redirects choiceless Markov\'s axiom]]
+[[!redirects choiceless Markov/'s axiom]]
+[[!redirects choiceless Марков axiom]]
+[[!redirects choiceless Марков's axiom]]
+[[!redirects choiceless Марков's axiom]]
+[[!redirects choiceless Марков\'s axiom]]
+[[!redirects choiceless Марков/'s axiom]]
+[[!redirects choiceless Markov Axiom]]
+[[!redirects choiceless Markov's Axiom]]
+[[!redirects choiceless Markov's Axiom]]
+[[!redirects choiceless Markov\'s Axiom]]
+[[!redirects choiceless Markov/'s Axiom]]
+[[!redirects choiceless Марков Axiom]]
+[[!redirects choiceless Марков's Axiom]]
+[[!redirects choiceless Марков's Axiom]]
+[[!redirects choiceless Марков\'s Axiom]]
+[[!redirects choiceless Марков/'s Axiom]]
+
+[[!redirects choiceless Markov rule]]
+[[!redirects choiceless Markov's rule]]
+[[!redirects choiceless Markov's rule]]
+[[!redirects choiceless Markov\'s rule]]
+[[!redirects choiceless Markov/'s rule]]
+[[!redirects choiceless Марков rule]]
+[[!redirects choiceless Марков's rule]]
+[[!redirects choiceless Марков's rule]]
+[[!redirects choiceless Марков\'s rule]]
+[[!redirects choiceless Марков/'s rule]]
+[[!redirects choiceless Markov Rule]]
+[[!redirects choiceless Markov's Rule]]
+[[!redirects choiceless Markov's Rule]]
+[[!redirects choiceless Markov\'s Rule]]
+[[!redirects choiceless Markov/'s Rule]]
+[[!redirects choiceless Марков Rule]]
+[[!redirects choiceless Марков's Rule]]
+[[!redirects choiceless Марков's Rule]]
+[[!redirects choiceless Марков\'s Rule]]
+[[!redirects choiceless Марков/'s Rule]]
