@@ -163,6 +163,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x)) \wedge (\forall x, y, z.(x \# y) \wedge (y \# z) \Rightarrow (x \# z))) \Rightarrow 
 (\forall x, y.(x \# y) \vee \neg (x \# y))$$
 
+* The [[choiceless LPO]] implies the [[analytic LPO]] for all sets of real numbers, as shown in [King 2024](#King24).
+
 ## Models
 
 * The analytic LPO for both [[Cauchy real numbers]] and [[Dedekind real numbers]] fails in Johnstone's [[topological topos]], since it contradicts [[Brouwer's continuity principle]] which holds for both the [[Cauchy real numbers]] and the [[Dedekind real numbers]].
@@ -200,6 +202,8 @@ $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x))
 * {#BirchfieldSwan24} [[Madeleine Birchfield]], [[Andrew Swan]] (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
+
+* {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
 
 The phrase "analytic LPO" is mentioned in the following paper, although in that paper it actually refer to the [[analytic WLPO]] (the reals have decidable equality) instead of the actual analytic LPO (the reals have decidable tight apartness). In addition, it makes the wrong statement that LPO is equivalent to Cauchy reals having decidable equality; it is WLPO which is equivalent to Cauchy reals having decidable equality (i.e. analytic WLPO for Cauchy reals), while LPO is equivalent to Cauchy reals having *[[decidable relation|decidable]] [[tight apartness relation|tight apartness]]*. 
 
