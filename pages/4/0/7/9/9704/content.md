@@ -110,7 +110,9 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 ## References
 
-Survery: 
+### General
+
+Survey: 
 
 * {#Preskill1984} [[John Preskill]], *Magnetic Monopoles*, Ann. Rev. Nucl. Part. Sci. **34** (1984) 461-530 &lbrack;[doi:10.1146/annurev.ns.34.120184.002333](https://doi.org/10.1146/annurev.ns.34.120184.002333)&rbrack;
 
@@ -168,6 +170,20 @@ Discussion of monopole [[correlators]]:
 On electro-magnetodynamics with monopoles as a [[self-dual gauge theory]]:
 
 * Aviral Aggarwal, Subhroneel Chakrabarti, Madhusudhan Raman: *Monopoles, Clarified* &lbrack;[arXiv:2504.16673](https://arxiv.org/abs/2504.16673)&rbrack;
+
+### Nonassociative quantum mechanics
+
+The would-be [[phase space]] of an [[electron]] 
+in the [[background field|background]] of a non-vanishing density $J_{mag}$ of magnetic monopoles, has a [[Poisson bracket]] with non-vanishing [[Jacobiator]], whence the corresponding [[canonical quantization]] appears to lead to a [[nonassociative algebra|nonassociative]] [[algebra of quantum observables]]:
+
+* [[Roman Jackiw]]: *Three-Cocycle in Mathematics and Physics*, Phys. Rev. Lett. **54** (1985) 159 \[<a href="https://doi.org/10.1103/PhysRevLett.54.159">doi:10.1103/PhysRevLett.54.159</a>\]
+
+(...)
+
+
+
+
+
 
 
 [[!redirects monopoles]]
