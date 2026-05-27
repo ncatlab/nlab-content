@@ -20,6 +20,10 @@ Introducing [[Maxwell-Chern-Simons theory]]:
 
 * [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
 
+Early discussion of the failure of the [[Jacobi identity]] for the would-be [[Poisson bracket]] of an [[electron]] in the [[background field|background]] of [[magnetic monopole]] density (cf. [there](https://ncatlab.org/nlab/show/monopole#NonassiativeQuantumMechanics))
+
+* [[Roman Jackiw]]: *Three-Cocycle in Mathematics and Physics*, Phys. Rev. Lett. **54** (1985) 159 \[<a href="https://doi.org/10.1103/PhysRevLett.54.159">doi:10.1103/PhysRevLett.54.159</a>\]
+
 Introducing what came to be called [[Floreanini-Jackiw theory]] for [[chiral bosons]]:
 
 * {#FloreaniniJackiw1987} [[Roberto Floreanini]], [[Roman Jackiw]]: *Self-dual fields as charge-density solitons*, Phys. Rev. Lett. **59** (1987) 1873 &lbrack;[doi:10.1103/PhysRevLett.59.1873](https://doi.org/10.1103/PhysRevLett.59.1873)&rbrack;
