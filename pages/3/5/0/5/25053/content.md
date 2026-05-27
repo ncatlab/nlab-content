@@ -61,7 +61,9 @@ On [[covariant derivative|covariant]] [[Lie derivatives]] of [[fiber bundle|bund
 
 * [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity* &lbrack;[arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
 
+On the [[duality between M-theory and type IIA string theory]] on [[superspace]] and in view of [[geometry of physics -- flux quantization|flux quantization]]:
 
+* {#GiotopoulosZagreb2026} [[Grigorios Giotopoulos]]: *Cyclified Cohomotopy Flux Quantization of IIA Sugra via Superspace Dim Reduction of Hypothesis H*, talk at at *[6th Mini Symposium on Physics and Geometry](http://thphys.irb.hr/phygeo2026)*, [RBI Zagreb](https://www.irb.hr/eng/), Croatia (25--29 May 2026) &lbrack;[[Giotopoulos-RBIZagreb-2026.pdf:file]]&rbrack;
 
 
 category: people
