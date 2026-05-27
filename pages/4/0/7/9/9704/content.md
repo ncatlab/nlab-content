@@ -172,11 +172,24 @@ On electro-magnetodynamics with monopoles as a [[self-dual gauge theory]]:
 * Aviral Aggarwal, Subhroneel Chakrabarti, Madhusudhan Raman: *Monopoles, Clarified* &lbrack;[arXiv:2504.16673](https://arxiv.org/abs/2504.16673)&rbrack;
 
 ### Nonassociative quantum mechanics
+ {#NonassiativeQuantumMechanics}
 
 The would-be [[phase space]] of an [[electron]] 
-in the [[background field|background]] of a non-vanishing density $J_{mag}$ of magnetic monopoles, has a [[Poisson bracket]] with non-vanishing [[Jacobiator]], whence the corresponding [[canonical quantization]] appears to lead to a [[nonassociative algebra|nonassociative]] [[algebra of quantum observables]]:
+in the [[background field|background]] of a non-vanishing density $J_{mag}$ of magnetic monopoles has a would-be [[Poisson bracket]] with non-vanishing [[Jacobiator]], whence the corresponding [[canonical quantization]] would appear to lead to a [[nonassociative algebra|nonassociative]] [[algebra of quantum observables]]:
 
 * [[Roman Jackiw]]: *Three-Cocycle in Mathematics and Physics*, Phys. Rev. Lett. **54** (1985) 159 \[<a href="https://doi.org/10.1103/PhysRevLett.54.159">doi:10.1103/PhysRevLett.54.159</a>\]
+
+* J. M. Heninger, P. J. Morrison: *Hamiltonian Nature of Monopole Dynamics*, Physics Letters A **384** 4 (2020) 126101 \[<a href="https://doi.org/10.1016/j.physleta.2019.126101">doi:10.1016/j.physleta.2019.126101</a>, <a href="https://arxiv.org/abs/1808.08689">arXiv:1808.08689</a>\]
+
+
+Further discussion:
+
+* [[Martin Bojowald]], Suddhasattwa Brahma, Umut Buyukcam: *Testing non-associative quantum mechanics*, Phys. Rev. Lett. **115** (2015) 220402 \[<a href="https://doi.org/10.1103/PhysRevLett.115.220402">doi:10.1103/PhysRevLett.115.220402</a>, [arXiv:1510.07559](https://arxiv.org/abs/1510.07559)\]
+
+* Ioannis Bakas: *Aspects of non-associative structures in physics* \[<a href="https://arxiv.org/abs/1605.06813">arXiv:1605.06813</a>\]
+
+* Peter Schupp, [[Richard J. Szabo]]: *An algebraic formulation of nonassociative quantum mechanics*, J. Phys. A: Math. Theor. **57** (2024) 235302 \[<a href="https://arxiv.org/abs/2311.03647">arXiv:2311.03647</a>, <a href="http://doi.org/10.1088/1751-8121/ad4935">doi:10.1088/1751-8121/ad4935</a>\]
+
 
 (...)
 
