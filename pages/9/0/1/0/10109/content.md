@@ -18,6 +18,10 @@ On the [[quantization]] of [[boundary field theory|boundary]] [[local prequantum
 
 * master thesis: _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_  (August 2013)
 
+On [[geometric infinity-stacks]]:
+
+* [[Joost Nuiten]]: *Higher Stacks as a Category of Fractions* (2016) &lbrack;[pdf](https://www.math.univ-toulouse.fr/~jnuiten/Writing/Groupoids.pdf)&rbrack;
+
 
 
 On [[connections on smooth principal infinity-bundles]] via splittings of [[L-infinity algebroid|higher]] [[Atiyah Lie algebroids]]:
