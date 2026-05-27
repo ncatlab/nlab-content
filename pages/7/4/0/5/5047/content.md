@@ -60,6 +60,10 @@ On [[mathematical physics]]:
 
 On [[nonassociative algebra|nonassociative]] [[algebras of quantum observables]], such as for [[electrons]] in the [[background field|background]] of [[magnetic monopole]] density (cf. [there](monopole#NonassiativeQuantumMechanics)):
 
+* [[Richard J. Szabo]]: *Magnetic monopoles and nonassociative deformations of quantum theory*, J. Phys.: Conf. Ser. **965** (2018) 012041 \[<a href="https://doi.org/10.1088/1742-6596/965/1/012041">doi:10.1088/1742-6596/965/1/012041</a>, [arXiv:1709.10080](https://arxiv.org/abs/1709.10080)\]
+
+* [[Richard J. Szabo]]: *An Introduction to Nonassociative Physics*, PoS **347** (2019) \[<a href="https://doi.org/10.22323/1.347.0100">doi:10.22323/1.347.0100</a>, <a href="https://arxiv.org/abs/1903.05673">arXiv:1903.05673</a>\]
+
 * Peter Schupp, [[Richard J. Szabo]]: *An algebraic formulation of nonassociative quantum mechanics*, J. Phys. A: Math. Theor. **57** (2024) 235302 \[<a href="https://arxiv.org/abs/2311.03647">arXiv:2311.03647</a>, <a href="http://doi.org/10.1088/1751-8121/ad4935">doi:10.1088/1751-8121/ad4935</a>\]
 
 
