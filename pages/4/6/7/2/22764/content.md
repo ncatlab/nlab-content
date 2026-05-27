@@ -19,7 +19,7 @@ A _closed midpoint algebra_ is a [[cancellative midpoint algebra]] $(M,\vert)$ e
 In other words, it is a [[bi-pointed object|bi-pointed]] [[cancellative midpoint algebra]]. 
 \end{definition}
 
-This Def. \ref{ClosedMidpointAlgebra} may be gleaned from the second half of footnote 28 of [Freyd 2008](#Freyd2008), where it is described as a fragment of the definition of "scale" given in Section 2 there.
+This Def. \ref{ClosedMidpointAlgebra} may be gleaned from the second half of footnote 28 of [Freyd 2008](#Freyd2008), where it is described as a fragment of the definition of "[[scale]]" given in Section 2 there.
 
 ## Properties
 
