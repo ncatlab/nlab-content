@@ -112,6 +112,7 @@ Use that in the [[(∞,1)-topos]] $\mathbf{H}$ we have [[universal colimits]] an
 
 
 ## References
+ {#References}
 
 The notion of geometric $\infty$-stack as a weak quotient of affine $\infty$-stacks is considered in section 4 of
 
@@ -130,7 +131,9 @@ and specifically in [[E-∞ geometry]] in
 
 Discussion of presentation of geometric $\infty$-stacks by Kan-fibrant [[simplicial objects]] in the [[site]] is in 
 
-* {#Pridham09} [[Jonathan Pridham]], _Presenting higher stacks as simplicial schemes_, Advances in Mathematics, Volume 238, Pages 184-245 ([arXiv:0905.4044](http://arxiv.org/abs/0905.4044))
+* {#Pridham09} [[Jonathan Pridham]], _Presenting higher stacks as simplicial schemes_, Advances in Mathematics **238** 184--245 &lbrack;[arXiv:0905.4044](http://arxiv.org/abs/0905.4044)&rbrack;
+
+* [[Joost Nuiten]]: *Higher Stacks as a Category of Fractions* (2016) &lbrack;[pdf](https://www.math.univ-toulouse.fr/~jnuiten/Writing/Groupoids.pdf)&rbrack;
 
 [[!redirects geometric ∞-stack]]
 
