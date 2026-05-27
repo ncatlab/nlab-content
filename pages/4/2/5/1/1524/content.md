@@ -22,12 +22,15 @@ In [[constructive mathematics]], Markov\'s principle is the (classically trivial
 $$ \forall{n}\, \big(P(n) \vee \neg{P(n)}\big) \Rightarrow \neg\forall{n}\, P(n) \Rightarrow \exists{n}\, \neg{P(n)} .$$
 Compare this to
 $$ \neg\exists{n}\, P(n) \Rightarrow \forall{n}\, \neg{P(n)} ,$$
-which is a theorem of [[intuitionistic logic]].
-More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all predicates on $S$.  Every Kuratowski-[[finite set]] is Markovian, for example.
+which is a theorem of [[intuitionistic logic]]. 
+
+Stated set theoretically, this says that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then if $\neg (\bar{P} = \mathbb{N})$, then $P$ is [[inhabited]], where, $\bar{P}$ is the [[complement]] of $P$.
+ 
+More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all [[predicates]] or [[subsets]] on $S$.  Every Kuratowski-[[finite set]] is Markovian, for example.
 
 Markov\'s principle is often stated in terms of [[infinite sequences]] of natural numbers, using Greek letters for sequences and Latin letters for individual numbers:
 $$ \forall{\alpha}\, \big(\neg\forall{n}\, (\alpha_n = 0) \Rightarrow \exists{n}\, (\alpha_n \ne 0)\big) .$$
-Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n} (P(n) \vee \neg{P(n)})$ is true for any sequence of natural numbers.  Conversely, given any predicate $P$ satisfying this hypothesis, we can define $\alpha$ by $\alpha_n = 0$ if $P(n)$ is true and $\alpha_n = 1$ if $P(n)$ is false, so the two versions of Markov\'s principle are equivalent.
+Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n} (P(n) \vee \neg{P(n)})$ is true for any sequence of natural numbers. Conversely, given any predicate $P$ satisfying this hypothesis, we can define $\alpha$ by $\alpha_n = 0$ if $P(n)$ is true and $\alpha_n = 1$ if $P(n)$ is false, so the two versions of Markov\'s principle are equivalent.
 
 ### In the antithesis interpretation
 
@@ -72,6 +75,8 @@ The analogous statement for [[Dedekind real numbers]] might be called the **[[an
 There is another generalization of Markov's principle defined in [King 2024](#King24), which was suggested to be called **choiceless Markov's principle**. The choiceless Markov's principle for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then if it is not true that for all $x \in A$, $Q(x)$, then there exists $x \in A$ such that $P(x)$. 
 $$\forall x \in A.P(x) \vee Q(x) \Rightarrow (\neg \forall x \in A.Q(x)) \Rightarrow \exists x \in A.P(x))$$
 The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the Markov's principle. One gets back the usual Markov's principle if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+
+We can also state the principle set-theoretically. Given a [[set]] $A$, the __choiceless Markov's principle for $A$__ states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P \cup Q = A$, then if $\neg (Q = A)$, then $P$ is [[inhabited]]. One gets back the usual Markov's principle if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 The choiceless Markov's principle for the natural numbers $\mathbb{N}$ implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
 
