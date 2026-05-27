@@ -18,6 +18,8 @@ $$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x, P(x)) \vee \neg(\for
 Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
 $$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x, P(x)) \vee \neg(\neg \exists x, P(x)).$$
 
+We can also state the principle set-theoretically, with explicit reference to the domain of quantification. Given a [[set]] $A$, the __weak limited principle of omniscience for $A$__ ($LPO_A$) states that given a [[subset]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $\bar{P} = A$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
+
 If one takes the domains of quantification to be subsingletons, one gets [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
 
 ## In the internal logic
@@ -97,6 +99,8 @@ as $P$ is decidable.
 There is a generalization of the weak limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless weak limited principle of omniscience**. The choiceless weak limited principle of omniscience for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then either for all $x \in A$, $Q(x)$, or it is not true that for all $x \in A$, $\neg P(x)$. 
 $$(\forall x \in A.P(x) \vee Q(x)) \Rightarrow ((\forall x \in A.Q(x)) \vee \neg (\forall x \in A.\neg P(x)))$$
 The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the weak limited principle of omniscience. One gets back the usual weak limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+
+We can also state the principle set-theoretically. Given a [[set]] $A$, the __choiceless weak limited principle of omniscience for $A$__ states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P \cup Q = A$, then either $Q = A$ or $\neg (P = \emptyset)$. One gets back the usual limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 The choiceless weak limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic weak limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
 
