@@ -1,10 +1,17 @@
 
-* [Institute page](https://science.psu.edu/physics/people/mart)
+* [institute page](https://science.psu.edu/physics/people/mart)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Martin-Bojowald-11264030)
 
 * [Wikipedia entry](https://en.m.wikipedia.org/wiki/Martin_Bojowald)
 
 
 ## Selected writings
+
+On [[nonassociative algebra|nonassociative]] [[algebras of quantum observables]], such as for [[electrons]] in the [[background field|background]] of [[magnetic monopole]] density (cf. [there](monopole#NonassiativeQuantumMechanics)):
+
+* [[Martin Bojowald]], Suddhasattwa Brahma, Umut Buyukcam: *Testing non-associative quantum mechanics*, Phys. Rev. Lett. **115** (2015) 220402 \[<a href="https://doi.org/10.1103/PhysRevLett.115.220402">doi:10.1103/PhysRevLett.115.220402</a>, [arXiv:1510.07559](https://arxiv.org/abs/1510.07559)\]
+
 
 On [[structure formation]] during [[cosmic inflation]] via [[inhomogeneous cosmology|inhomogeneous]] [[quantum cosmology]]:
 
