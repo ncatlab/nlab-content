@@ -13,11 +13,7 @@
 =--
 =--
 
-
-#Contents#
-
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -54,6 +50,8 @@ This data has to satisfy the following properties:
 * $C$ has [[finite products]], and in particular a [[terminal object]] ${*}$;
 
 * the [[pullback]] of a fibration along an arbitrary morphism exists, and is again a fibration;
+
+  > {#PullbacksNeedNotExist} (one may relax this to ask only that *if* the pullback of a fibration exists, then it is a fibration; this yields the notion of "incomplete category of fibrant objects", [Rogers & Zhu 2020 Def.2.1](#RogersZhu2020))
 
 * acyclic fibrations are preserved under [[pullback]];
 
@@ -2225,8 +2223,17 @@ Categories of fibrant objects form a convenient setting for the study of [[homot
 
 It is shown in the following paper that categories of fibrant objects are themselves fibrant in the [[model structure on categories with weak equivalences]]:
 
-* Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
- {#Meier}
+* {#Meier} [[Lennart Meier]]: *Fibration Categories are Fibrant Relative Categories* &lbrack;[arxiv:1503.02036](https://arxiv.org/abs/1503.02036)&rbrack;
+
+Mild but consequential relaxation of the axioms to that of "incomplete categories of fibrant obects":
+
+* {#RogersZhu2020} [[Christopher L. Rogers]], [[Chenchang Zhu]]; Def. 2.1 in: *On the homotopy theory for Lie $\infty$-groupoids, with an application to integrating $L_\infty$-algebras*, Algebr. Geom. Topol. **20** (2020) 1127--1219 \[<a href="https://doi.org/10.2140/agt.2020.20.1127">doi:10.2140/agt.2020.20.1127</a>, [arXiv:1609.01394](https://arxiv.org/abs/1609.01394)\]
+
+ 
 
 
 [[!redirects categories of fibrant objects]]
+
+[[!redirects incomplete category of fibrant objects]]
+[[!redirects incomplete categories of fibrant objects]]
+
