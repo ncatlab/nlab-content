@@ -1,6 +1,6 @@
 
 
-Freeman Dyson (1923-2020) was a physicist, co-founder of [[perturbative quantum field theory]] (cf. *[[Schwinger-Tomonaga-Feynman-Dyson]]*).
+Freeman John Dyson (1923--2020) was a physicist, co-founder of [[perturbative quantum field theory]] (cf. *[[Schwinger-Tomonaga-Feynman-Dyson]]*).
 
 * [institute page](https://www.ias.edu/sns/dyson)
 
@@ -12,7 +12,20 @@ Freeman Dyson (1923-2020) was a physicist, co-founder of [[perturbative quantum 
 
 * *Freeman Dyson* interviews at *Web Of Stories* [YT playlist](https://www.youtube.com/playlist?list=PLVV0r6CmEsFzDA6mtmKQEgWfcIu49J4nN)
 
+
 ## Selected writings
+
+On the [[S-matrix]] in [[quantum electrodynamics]] and introducing the notion of [[time-ordered products]]:
+
+* [[Freeman Dyson]]: *The $S$-Matrix in Quantum Electrodynamics*, Phys. Rev. **75** (1949) 1736 \[<a href="https://doi.org/10.1103/PhysRev.75.1736">doi:10.1103/PhysRev.75.1736</a>\] 
+
+The origin of mathematical [[perturbative quantum field theory]] ([[Schwinger-Tomonaga-Feynman-Dyson]]):
+
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. **85** (1952) 631 
+
+
+
+On the history of physics:
 
 * {#MissedOpportunities} Freeman Dyson, _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
 
@@ -25,10 +38,6 @@ Freeman Dyson (1923-2020) was a physicist, co-founder of [[perturbative quantum 
   > "The first clear sign of a breakdown in communication between physics and mathematics was the extraordinary lack of interest among mathematicians in [[James Clerk Maxwell]]'s discovery  of the laws of [[electromagnetism]]"
 
   For more quotes from this text see also at _[Ausdehnungslehre](Ausdehnungslehre#Dyson72)_ and at _[AQFT on curved spacetime](AQFT+on+curved+spacetimes#Dyson72)_.
-
-* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631 (1952)
-
-  which is the origin of mathematical [[perturbative quantum field theory]], see [[Schwinger-Tomonaga-Feynman-Dyson]].
 
 On [[Richard Feynman]]:
 
