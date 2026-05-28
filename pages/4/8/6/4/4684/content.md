@@ -434,12 +434,15 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 
 =--
 
-
-
-
 ## Examples
 
 See the examples at _[[differentiable manifold]]_.
+
+## In constructive mathematics
+
+In [[constructive mathematics]], the [[Heine-Borel theorem]] might fail for the [[real numbers]], which means that the real numbers are no longer [[locally compact topological space|locally compact]] and [[paracompact space|paracompact]]. Thus, constructive mathematics which does not accept the [[Heine-Borel theorem]] usually only requires topological manifolds to be locally Euclidean and [[Hausdorff space|Hausdorff]]. 
+
+Alternatively, one can use [[locales]] instead of [[topological spaces]] and define localic manifolds as locales which are paracompact Hausdorff and local Euclidean, since the [[locale of real numbers]] still satisfies the [[Heine-Borel theorem]]. 
 
 ## Related concepts
 
