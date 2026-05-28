@@ -60,6 +60,9 @@ $$B_{1/n}(t) \times L = B_{1/n}(t) \times \bigcup_{i=1}^k U_{n_i} = \bigcup_{i=1
 
 from which it immediately follows that $B_{1/n}(t) \subseteq S$. 
 
+## In constructive mathematics
+
+In [[constructive mathematics]], the [[Heine-Borel theorem]] typically does not hold in the [[real numbers]]. Thus, assuming [[analytic LPO]] but not the [[Heine-Borel theorem]] for the real numbers, the long line is still an example of a [[locally Euclidean space]] that is [[Hausdorff space|Hausdorff]] but not [[paracompact]], since the real numbers themselves are not [[locally compact]] and [[paracompact]]. This is why, in the absense of the [[Heine-Borel theorem]], it is not sufficient to simply define a [[topological manifold]] as a topological space as just a [[locally Euclidean space]] that is [[Hausdorff space|Hausdorff]], since the long line is not a topological manifold, and one instead has to switch to using [[locales]] for the definition of a [[manifold]], where one can prove that the [[locale of real numbers]] is still [[locally compact]] and [[paracompact]]. 
 
 ## Related concepts
 
