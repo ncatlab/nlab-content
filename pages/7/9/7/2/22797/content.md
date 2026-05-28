@@ -1,8 +1,21 @@
-### Definition
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Definition
 
 A [[locale]] is __paracompact__ if it is [[regular]] and every open cover has a [[locally finite]] refinement.
 
-### Properties
+## Properties
 
 Paracompact locales are very closely related to [[fully normal locales]].
 In fact, for [[regular locales]] these two properties are equivalent.
@@ -22,10 +35,13 @@ preserves [[small limits]], so in particular, products of paracompact locales ar
 This last property clearly distinguishes paracompact locales from paracompact spaces,
 since products of paracompact spaces need not be paracompact.
 
-### Related concepts
+## Related concepts
 
 * [[fully normal locale]]
 
 * [[paracompact space]]
 
 * [[fully normal space]]
+
+[[!redirects paracompact locale]]
+[[!redirects paracompact locales]]
