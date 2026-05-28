@@ -22,7 +22,9 @@
 
 A concept of *$2$-Hilbert spaces* is supposed to be a [[categorification]] of that of [[Hilbert spaces]], or at least of [[finite-dimensional Hilbert space|finite dimensional]] such: [[inner product spaces]]. 
 
-One way to define this is as a [[Kapranov-Voevodsky 2-vector space]] where the [[hom-functor]] plays the role of the [[categorification|categorified]] [[inner product]] ([Baez 96](#Baez96)).
+One way to define this is as a [[Kapranov-Voevodsky 2-vector space]] where the [[hom-functor]] plays the role of the [[categorification|categorified]] [[inner product]] ([Baez 96](#Baez96)). 
+
+In other words, a $2$-Hilbert space is an abelian [[H-star-category | $H^\ast$-category]].
 
 More generally this works for [[semisimple categories]] (...)
 
@@ -35,7 +37,7 @@ More generally this works for [[semisimple categories]] (...)
 
 ## References
 
-One approachL
+One approach:
 
 * {#Baez96} [[John Baez]], _Higher-dimensional algebra II: 2-Hilbert spaces_, Adv. Math. **127** (1997) 125-189 &lbrack;[arXiv:q-alg/9609018](http://arxiv.org/abs/q-alg/9609018)&rbrack;
 
