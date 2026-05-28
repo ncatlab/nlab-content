@@ -12,9 +12,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -384,9 +382,9 @@ Named after _[[John Clive Ward]]_.
 
 Discussion of the [[master Ward identity]] in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] formulated via [[causal perturbation theory]]/[[perturbative AQFT]] is in
 
-* {#DuetschBoas02} [[Michael Dütsch]], F.-M. Boas, _The Master Ward Identity_, Rev. Math. Phys 14, (2002) 977-1049 ([pdf](http://cds.cern.ch/record/526377/files/0111101.pdf))
+* {#DuetschBoas02} [[Michael Dütsch]], F.-M. Boas: _The Master Ward Identity_, Rev. Math. Phys **14** (2002) 977--1049 &lbrack;[pdf](http://cds.cern.ch/record/526377/files/0111101.pdf)&rbrack;
 
-* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]], equation (90) in _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun.Math.Phys. 243 (2003) 275-314 ([arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242))
+* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]]; equation (90) in: _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun. Math. Phys. **243** (2003) 275--314 &lbrack;[arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242), [doi:10.1007/s00220-003-0968-4](https://doi.org/10.1007/s00220-003-0968-4)&rbrack;
 
 * {#BrennecketDuetsch07} Ferdinand Brennecke, [[Michael Dütsch]], equation (5.5) in  _Removal of violations of the Master Ward Identity_, in perturbative QFT, Rev.Math.Phys. 20 (2008) 119-172 ([arXiv:https://arxiv.org/abs/0705.3160](https://arxiv.org/abs/0705.3160))
 
