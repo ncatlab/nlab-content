@@ -1,5 +1,12 @@
 
+* [personal page](http://www.fbrandt.de/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=5646MPYAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Friedemann-Brandt)
+
 * [arXiv page](https://arxiv.org/a/brandt_f_1.html)
+
 
 ## Selected writings
 
