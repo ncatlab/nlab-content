@@ -26,7 +26,7 @@ Given two [[topological spaces]] $X$, $Y$ one may ask for the [[rational homotop
 
 Consider:
 
-* $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space]] [[CW-complexes]] of [[rational cohomology|rational]] [[finite type]],
+* $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[CW-complexes]] of [[rational cohomology|rational]] [[finite type]],
  
   with $X$ a [[finite CW complex]] or $\mathcal{A}$ having a finite [[Postnikov tower]],
 
@@ -77,7 +77,7 @@ where :
 
 \end{proposition}
 
-([Lazarev 2013 Thm. 8.1](#Lazarev2013), [Berglund 2015 Thm. 1.5](#Berglund2015), cf. [Buijs, Felix & Murillo 2012 Thm. 3.1](#BuijsFelixMurillo12))
+([Lazarev 2013 Thm. 8.1](#Lazarev2013), [Berglund 2015 Thm. 1.5](#Berglund2015), cf. also [Buijs, Felix & Murillo 2012 Thm. 3.1](#BuijsFelixMurillo12))
 
 
 
