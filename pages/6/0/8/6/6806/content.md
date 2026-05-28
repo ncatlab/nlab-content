@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -71,6 +69,11 @@ As part of the [[schreiber:brane bouquet]]:
 See also:
 
 * [[Igor Bandos]], Unai D. M. Sarraga, Mirian Tsulaia: *Quantum state spectrum and field theory of D0-brane* &lbrack;[arXiv:2509.11324](https://arxiv.org/abs/2509.11324)&rbrack;
+
+Via [[twistors]]:
+
+* [[Igor Bandos]], Mirian Tsulaia: *Twistor approach to classical and quantum D0-brane* &lbrack;[arXiv:2605.27754](https://arxiv.org/abs/2605.27754)&rbrack;
+
 
 
 ### Coincident (non-abelian) D0-branes
