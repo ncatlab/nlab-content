@@ -16,7 +16,7 @@
 
 ## Idea
 
-A connected limit is the [[limit]] of a [[diagram]] that has just one [[connected component]].  For example, the [[product]] of two objects is not a connected limit because the relevant diagram has two connected components.  A [[pullback]], on the other hand, is a connected limit.
+A connected limit is the [[limit]] of a [[diagram]] that has just one [[connected component]]. For example, a [[pullback]] is a connected limit. The [[product]] of two objects, on the other hand, is *not* a connected limit because the relevant diagram has two connected components. Similarly, a [[terminal object]] is *not* a connected limit because the relevant diagram has no connected components.
 
 ## Definition
 
