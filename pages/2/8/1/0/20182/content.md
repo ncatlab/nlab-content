@@ -11,11 +11,75 @@
 
 
 
+
 \tableofcontents
 
 ## Idea
 
 Given two [[topological spaces]] $X$, $Y$ one may ask for the [[rational homotopy theory|rational homotopy type]] of their [[mapping space]] $Maps(X,Y)$. Under good conditions this is a [[nilpotent space]] of [[finite type]] and hence admits a [[Sullivan model]] from which its rationalized [[homotopy groups]] and its rational [[cohomology groups]] may be read off.
+
+
+## General formula
+ {#GeneralFormula}
+
+\begin{proposition}
+
+Consider:
+
+* $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space]] [[CW-complexes]] of [[rational cohomology|rational]] [[finite type]],
+ 
+  with $X$ a [[finite CW complex]] or $\mathcal{A}$ having a finite [[Postnikov tower]],
+
+* $\phi \colon X \to \mathcal{A}$ a [[continuous map]].
+
+Then a [[dg-Lie algebra]] model for the [[rational homotopy type]] of the [[mapping space]] $Map\big(X; \mathcal{A}\big)$ in the [[connected component]] of $\phi$ is given by the twisted [[tensor product]]
+
+$$
+  \big(
+    \Omega^\bullet_{PL}(X) 
+      \textstyle{
+        \otimes_{\mathbb{Q}}
+      }
+    \mathfrak{l} \mathcal{A}
+  \big)^{\xi_\phi}
+  \langle 0 \rangle
+$$ 
+
+where :
+
+* $\Omega^\bullet_{PL}(-)$ denotes the [[PL de Rham complex|PL de Rham]] [[dgc-algebra]],
+
+* $\mathfrak{l}(-)$ denotes the [[dg-Lie algebra]] model.
+
+* $\xi_\phi \in MC\big( \Omega^\bullet_{PL}(X) \otimes \mathfrak{l}\mathcal{A}\big)$ is the [[Maurer-Cartan element]] corresponding to the [[pullback of differential forms]]
+
+  $$
+    \phi^\ast 
+      \,\colon\,
+    CE(\mathfrak{l}\mathcal{A})
+      \longrightarrow
+    \Omega^\bullet_{PL}(X) 
+    \mathrlap{\,,}
+  $$
+
+* $(-)^{\xi_\phi}$ means that the [[differential]] of the tensor [[dg-Lie algebra]] is twisted as
+
+  $$
+    d^{\mathfrak{l}\phi}(-)
+    \coloneqq
+    \mathrm{d}(-)
+    +
+    \big[\xi_\phi, -\big]
+    \mathrlap{\,,}
+  $$
+
+* $(-)\langle-\rangle$ denotes the [[connective cover]] (discarding negative degrees and restricting to [[cycles]] in degree=0).
+
+\end{proposition}
+
+([Lazarev 2013 Thm. 8.1](#Lazarev2013), [Berglund 2015 Thm. 1.5](#Berglund2015), cf. [Buijs, Felix & Murillo 2012 Thm. 3.1](#BuijsFelixMurillo12))
+
+
 
 ## Examples
 
@@ -298,16 +362,16 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces 
 * Gregory Lupton, Samuel Bruce Smith, _Whitehead products in function spaces: Quillen model formulae_, J. Math. Soc. Japan, Volume 62, Number 1 (2010), 49-81. ([arXiv:0812.1829](https://arxiv.org/abs/0812.1829), [euclid:jmsj/1265380424](https://projecteuclid.org/euclid.jmsj/1265380424))
 
 
-* {#Lazarev2013} [[Andrey Lazarev]]: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics **235** (2013) 296--320 &lbrack;[arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009)&rbrack;
+* {#Lazarev2013} [[Andrey Lazarev]]: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics **235** (2013) 296--320 &lbrack;[arxiv:1109.3715 math.AT](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009)&rbrack;
 
 
 * J.-B. Gatsinzi, _A model for function spaces_, Topology and its Applications, Volume 168, 15 May 2014, Pages 153-158 ([doi:10.1016/j.topol.2014.02.021](https://doi.org/10.1016/j.topol.2014.02.021))
 
 * J.-B. Gatsinzi, _Rational Gottlieb Group of Function Spacesof Maps into an Even Sphere_, International Journal of Algebra, Vol. 6, 2012, no. 9, 427 - 432 ([pdf](http://www.m-hikari.com/ija/ija-2012/ija-9-12-2012/gatsinziIJA9-12-2012.pdf))
 
-* [[Alexander Berglund]], _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
+* {#Berglund2015} [[Alexander Berglund]]: _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications **17** 2 (2015) &lbrack;[arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16)&rbrack;
 
-* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
+* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]]: _$L_\infty$-rational homotopy of mapping spaces_,  published as: _$L_\infty$-models of based mapping spaces_, J. Math. Soc. Japan **63** 2 (2011) 503--524 &lbrack;[arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503)&rbrack;
 
 * {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: Section 2 of: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
 
