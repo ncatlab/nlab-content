@@ -307,6 +307,9 @@ Then there exists a refinement $\{U'_{\alpha'}\}$ of the original cover, such th
 
 This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 
+## In constructive mathematics
+
+In [[constructive mathematics]], the [[Heine-Borel theorem]] might fail for the [[real numbers]], which means that the real numbers are no longer [[locally compact topological space|locally compact]] and [[paracompact space|paracompact]]. Thus, constructive mathematics which does not accept the [[Heine-Borel theorem]] for the [[real numbers]] usually uses [[locales]] instead of [[topological spaces]] and defines [[paracompact locales]], since the [[locale of real numbers]] still satisfies the [[Heine-Borel theorem]] and thus are paracompact. 
 
 ## Related concepts
 
@@ -316,6 +319,7 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 
 * [[orthocompact space]]
 
+* [[paracompact locale]]
 
 ## References 
 
