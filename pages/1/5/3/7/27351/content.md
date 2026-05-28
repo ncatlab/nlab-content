@@ -1043,6 +1043,9 @@ Discussion via [[locally covariant AQFT|locally covariant]] [[algebraic quantum 
 
 On [[lattice gauge theory|lattice formulation]] of abelian Chern-Simons theory:
 
+* David Eliezer, [[Gordon Semenoff]]: *Intersections forms and the geometry of lattice Chern-Simons theory*, Phys. Lett. B 286 (1992) 118-124 &lbrack;[arXiv:hep-th/9204048](https://arxiv.org/abs/hep-th/9204048), [doi:10.1016/0370-2693%2892%2990168-4](https://doi.org/10.1016/0370-2693%2892%2990168-4)&rbrack;
+
+
 * Kai Sun, Krishna Kumar, [[Eduardo Fradkin]]: *Discretized Abelian Chern-Simons gauge theory*, Phys. Rev. B **92** (2015) 115148 &lbrack;[doi:10.1103/PhysRevB.92.115148](https://doi.org/10.1103/PhysRevB.92.115148)&rbrack;
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Modified Villain formulation of abelian Chern-Simons theory*, Phys. Rev. D **107** (2023) 125017 &lbrack;[arXiv:2303.06160](https://arxiv.org/abs/2303.06160), [doi:10.1103/PhysRevD.107.125017](https://doi.org/10.1103/PhysRevD.107.125017)&rbrack;
