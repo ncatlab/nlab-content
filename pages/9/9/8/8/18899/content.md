@@ -358,15 +358,31 @@ $\,$
 
 ## References
 
-See also the references at _[[S-matrix]]_
+> See also the references at _[[S-matrix]]_
+
+The notion of time-ordered products originates with:
+
+* [[Freeman Dyson]]: *The $S$-Matrix in Quantum Electrodynamics*, Phys. Rev. **75** (1949) 1736 \[<a href="https://doi.org/10.1103/PhysRev.75.1736">doi:10.1103/PhysRev.75.1736</a>\] 
 
 The equivalence of the time-ordered product on regular observables to the point-wise product was maybe first highlighted in
 
-* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], p. 6 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]]; p. 6 of: _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics **13** (2009) 1541--1599 &lbrack;[arXiv:0901.2038](http://arxiv.org/abs/0901.2038)&rbrack;
 
 and then further amplified in 
 
-* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Kasia Rejzner]], p. 6 of _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. 317(3), 697&#8211;725 (2012) ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232))
+* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Kasia Rejzner]]; p. 6 of: _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. **317** 3 (2012) 697---725 &lbrack;[arXiv:1110.5232](https://arxiv.org/abs/1110.5232)&rbrack;
+
+On the issue of [[on-shell]] time-ordered products:
+
+* [[Christian Brouder]], [[Michael Dütsch]]: *Relating on-shell and off-shell formalism in perturbative quantum field theory*, J. Math. Phys. **49** (2008) 052303 \[<a href="https://doi.org/10.1063/1.2918137">doi:10.1063/1.2918137</a>, [arXiv:0710.3040](https://arxiv.org/abs/0710.3040)\] 
+
+following
+
+* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]]; equation (90) in: _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun. Math. Phys. **243** (2003) 275--314 &lbrack;[arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242), [doi:10.1007/s00220-003-0968-4](https://doi.org/10.1007/s00220-003-0968-4)&rbrack;
+
+See also:
+
+* F. T. Brandt, J. Frenkel, D. G. C. McKeon: *Feynman diagrams in terms of on-shell propagators*, Phys. Rev. D **106** (2022) 025007 \[<a href="https://doi.org/10.1103/PhysRevD.106.025007">doi:10.1103/PhysRevD.106.025007</a>, [arXiv:2206.14860](https://arxiv.org/abs/2206.14860)\]
 
 
 [[!redirects time-ordered products]]
