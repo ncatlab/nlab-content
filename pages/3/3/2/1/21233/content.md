@@ -1,7 +1,13 @@
 
-* [webpage](https://www.phas.ubc.ca/users/gordon-semenoff)
+* [GoogleScholar page](https://scholar.google.com/citations?user=7T92ZyIAAAAJ&hl=en)
+
+
 
 ## Selected writings
+
+On [[lattice gauge theory|lattice formulation]] of [[abelian Chern-Simons theory]]:
+
+* David Eliezer, [[Gordon Semenoff]]: *Intersections forms and the geometry of lattice Chern-Simons theory*, Phys. Lett. B 286 (1992) 118-124 &lbrack;[arXiv:hep-th/9204048](https://arxiv.org/abs/hep-th/9204048), [doi:10.1016/0370-2693%2892%2990168-4](https://doi.org/10.1016/0370-2693%2892%2990168-4)&rbrack;
 
 Interpretation of the [[DBI-action]] on [[flavor branes]] as witnessing the [[holographic Schwinger effect]]:
 
