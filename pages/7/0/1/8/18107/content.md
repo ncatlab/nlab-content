@@ -112,6 +112,11 @@ However, the line with two origins is [[T1]] and [[sober space|sober]].
 
 It is also a [[topological manifold]], even a [[smooth manifold]], except that one often requires such to be Hausdorff to rule out examples such as this.  In a similar vein, it is [[locally compact space|locally compact]] (and a [[compact space|compact]] version can be made by starting with $[{-1,1}]$ instead of $\mathbb{R}$), [[paracompact space|paracompact]], and so forth.
 
+## In constructive mathematics
+
+In constructive mathematics, the real numbers no longer automatically satisfy [[analytic LPO]], so the [[tight apartness relation]] $x \# y = x \gt y \vee x \lt y$ no longer coincides with [[denial inequality]] $\neg (x = y)$. One typically uses the tight apartness relation as the inequality $x \neq y$ of the real numbers. 
+
+Furthermore, in the absence of [[analytic LPO]], the relation used to define the [[line with two origins]] is only a [[partial equivalence relation]]: it is only defined on the subset of real numbers where $x \# 0$ and $x = 0$. The partial equivalence relation is only an [[equivalence relation]] if and only if [[analytic LPO]] holds of the real numbers, making the subset of real numbers where $x \# 0$ and $x = 0$ an [[improper subset]] of the [[real numbers]]. Thus, one can only take the [[quotient set]] of this relation to form the line with two origins if and only if [[analytic LPO]] holds for the [[real numbers]].
 
 ## Related concepts
 
