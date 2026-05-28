@@ -258,6 +258,9 @@ or $ 0 \geq L $ if $n = 0$.  If they\'re not distinct, then we instead use the s
 
 This result can be strengthened to intervals without necessarily rational endpoints, by using the rational intervals that they contain, but this is not the most general statement either, and I think that what we really need to do is to develop a theory of measures of open subspaces (or perhaps even more general subspaces) and state a result about that.
 
+## Other topological properties
+
+The locale of real numbers is [[locally compact locale|locally compact]], [[paracompact locale|paracompact]] and [[Hausdorff locale|Hausdorff]]. 
 
 ## As a classifying locale
 
