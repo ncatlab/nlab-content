@@ -95,6 +95,8 @@ Then
 $$C \simeq \sum_{x:A} \sum_{z:C} f(z) =_A x$$ 
 is the quotient set of $A$ with respect to $R$. 
 
+That a [[type universe]] $U$ is closed under quotient sets is equivalent to the [[axiom of set replacement]]. 
+
 ## Generalisations
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories. In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
@@ -109,11 +111,15 @@ Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.
 
 * [[higher inductive type]]
 
+* [[set replacement]]
+
 ## Rereferences
 
 For quotient sets in [[dependent type theory]], see:
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+* [[Ayberk Tosun]], *Constructive and Predicative Locale Theory in Univalent Foundations* ([arXiv:2603.01308](https://arxiv.org/abs/2603.01308))
 
 See the references at *[[quotient type]]*.
 
