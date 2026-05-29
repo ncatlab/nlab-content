@@ -26,6 +26,9 @@ A [[space]] (such as a [[topological space]]) is _first-countable_ if, in a cert
 A [[topological space]] is __first-countable__ if every [[point]] $x$ has a [[countable set|countable]] [[local basis]] $B_x$.
 =--
 
+## Examples
+
+* The [[real numbers]] are a first-countable space with respect to the [[Euclidean topology]]. 
 
 ## Generalizations
 
@@ -34,10 +37,6 @@ The __character__ of a space at a point $x$ is the [[minimum]] of the [[cardinal
 Then a first-countable space is simply one whose characters are all countable.
 
 The __character__, tout court, of a space is the [[supremum]] of the characters of its points; then a first-countable space is simply one with a countable character.
-
-## Examples
-
-* The [[real numbers]] are a first-countable space with respect to the [[Euclidean topology]]. 
 
 ## Related countability properties
 
