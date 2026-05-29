@@ -10,10 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -532,3 +529,6 @@ For the morphism on the left this follows since $S(X) \hookrightarrow Sing(X)$ i
 [[!redirects PL de Rham complexes]]
 
 [[!redirects PL de Rham cohomology]]
+
+[[!redirects polynomial de Rham complex]]
+[[!redirects polynomial de Rham complexes]]
