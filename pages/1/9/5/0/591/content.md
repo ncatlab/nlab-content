@@ -42,6 +42,8 @@ Many familiar categories of mathematical structures are cocomplete: to name just
 
 For a small category $C$, the [[category of presheaves|presheaf category]] $[C^{op},Set]$ is cocomplete, and the [[Yoneda embedding]] exhibits it as the [[free cocompletion]] of $C$.
 
+Every [[frame]] is cocomplete as a [[thin category]]. 
+
 ## The 2-category of cocomplete categories
 
 ### Properties
