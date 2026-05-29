@@ -35,6 +35,9 @@ Then a first-countable space is simply one whose characters are all countable.
 
 The __character__, tout court, of a space is the [[supremum]] of the characters of its points; then a first-countable space is simply one with a countable character.
 
+## Examples
+
+* The [[real numbers]] are a first-countable space with respect to the [[Euclidean topology]]. 
 
 ## Related countability properties
 
@@ -45,6 +48,12 @@ The __character__, tout court, of a space is the [[supremum]] of the characters 
 * [[sigma-topological space]]
 
 * [[sigma-frame]]
+
+## References
+
+The real numbers are a first-countable space according to:
+
+* {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
 [[!redirects first-countable]]
 
