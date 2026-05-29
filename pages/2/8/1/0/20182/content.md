@@ -24,7 +24,7 @@ Given two [[topological spaces]] $X$, $Y$ one may ask for the [[rational homotop
 
 \begin{proposition}
 \label{GeneralModelOfRationalizedMappingSpace}
-For $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[topological spaces]] of [[rational cohomology|rational]] [[finite type]], the [[mapping space]] from $X$ into the [[rationalization]] $L^{\mathbb{Q}} \mathcal{A}$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to
+For $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[topological spaces]] of [[rational cohomology|rational]] [[finite type]], the [[mapping space]] from $X$ into the [[rationalization]] $L^{\mathbb{Q}} \mathcal{A}$ has a ([[simplicial weak equivalence|simplicial]]) [[weak homotopy equivalence]] 
 
 $$
   Map\big(
@@ -32,12 +32,10 @@ $$
     L^{\mathbb{Q}}\mathcal{A}
   \big)
   \,\simeq\,
-  \left\vert
-    \Omega^1_{cl}\big(
-      X \times \Delta^\bullet;
-      \mathfrak{l}\mathcal{A}
+  \Omega^1_{cl}\big(
+    X \times \Delta^\bullet;
+    \mathfrak{l}\mathcal{A}
     \big)
-  \right\vert
   \mathrlap{\,,}
 $$
 
@@ -45,20 +43,116 @@ where we denote by
 
 * $\mathfrak{l}(-)$ the rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]],
 
-* $\Omega^1_{cl}(-;\mathfrak{g}) \coloneqq Hom_{dgc}\big(CE(\mathfrak{g}), \Omega^\bullet_{PL}(-)\big)$ the set of [[closed L-infinity algebra valued differential forms|closed $L_\infty$- algebra valued differential forms]], where
+* $\Omega^1_{cl}(-;\mathfrak{g}) \coloneqq Hom_{dgcAlg}\big(CE(\mathfrak{g}), \Omega^\bullet_{PL}(-)\big)$ the set of [[closed L-infinity algebra valued differential forms|closed $L_\infty$-algebra valued differential forms]], where
 
   * $\Omega^\bullet_{PL}\big(X \times \Delta^n\big)$ is the [[polynomial de Rham complex]] of the [[product space]] of $X$ with the [[n-simplex]],
 
   * $CE(-)$ the [[Chevalley-Eilenberg algebra]], so that $CE\big(\mathfrak{l}(-)\big)$ gives the [[minimal Sullivan model]],
 
-
-* ${\vert - \vert}$ the [[topological realization]] of [[simplicial sets]].
+and we understand the [[topological space]] on the left as its [[homotopy type]] incarnated by its [[singular simplicial complex]].
 
 \end{proposition}
 
 (This is, in paraphrase, [Berglund 2015 Thm. 1.4](#Berglund2015).)
 
-The model of Prop. \ref{GeneralModelOfRationalizedMappingSpace} specializes to analog models for each of the [[connected components]] of the mapping space:
+Over the [[real numbers]] and in the case that $X$ is a [[smooth manifold]], there is a quick re-proof of Prop. \ref{GeneralModelOfRationalizedMappingSpace} using [[cohesive (infinity,1)-topos|cohesive homotopy theory]]:
+
+
+\begin{proposition}
+\label{RationalModelViaCohesion}
+For 
+
+* $X$ a [[smooth manifold]],
+
+* $\mathcal{A}$ a [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[topological space]] of [[rational cohomology|rational]] [[finite type]],
+
+there is an [[equivalence in an (infinity,1)-category|equivalence]]
+
+$$
+  \mathbf{Map}\big(
+    X,
+    L^{\mathbb{R}}
+    \mathcal{A}
+  \big)
+  \simeq
+  \esh
+  \mathbf{\Omega}^1_{cl}\big(X; \mathfrak{l}\mathcal{A}\big)
+  \,,
+$$
+
+of ([[discrete object|geometrically discrete]]) [[smooth infinity-groupoid|smooth $\infty$-groupoids]], where we denote by
+
+* $\mathbf{Map}(-,-)$ the [[mapping stack]] ([[internal hom]]),
+
+* $L^{\mathbb{R}}(-)$ the [[real homotopy theory|$\mathbb{R}$-rationalization]] ([[rationalization]] followed by [[derived functor|derived]] [[extension of scalars]]),
+
+* $\mathbf{\Omega}^1_{cl}\big(X; \mathfrak{g}\big) \,\colon\, U \mapsto Hom_{dgcAlg}\big( CE(\mathfrak{g}), \Omega^\bullet_{dR}(U \times X) \big)$ the [[moduli space|moduli]] [[smooth set]] of [[closed L-infinity algebra valued differential forms|closed $L_\infty$-algebra valued differential forms]],
+
+* $\esh$ the [[shape modality]].
+
+\end{proposition}
+\begin{proof}
+This follows readily as:
+$$
+  \begin{aligned}
+    \esh
+    \mathbf{\Omega}^1_{cl}\big(
+      X; \mathfrak{l}\mathcal{A}
+    \big)
+    & \simeq
+    \esh
+    \mathbf{Map}\Big(
+      X,
+      \mathbf{\Omega}^1_{cl}\big(
+        \ast; \mathfrak{l}\mathcal{A}
+      \big)
+    \Big) 
+    \\
+    & \simeq
+    \mathbf{Map}\Big(
+      X,
+      \esh
+      \mathbf{\Omega}^1_{cl}\big(
+        \ast; \mathfrak{l}\mathcal{A}
+      \big)
+    \Big) 
+    \\
+    & =
+    \mathbf{Map}\Big(
+      X,
+      L^{\mathbb{R}} \mathcal{A}
+    \Big) 
+    \mathrlap{\,,}
+  \end{aligned}
+$$
+where we used, in order of appearance:
+
+1. the formula for the plots of [[mapping stacks]] (cf. [here](closed+monoidal+structure+on+presheaves#CartesianClosedMonoidalnessOfCategoriesOfPresheaves)),
+
+1. the [smooth Oka principle](shape+via+cohesive+path+∞-groupoid#ConsequenceSmoothOkaPrinciple) to pass the [[shape modality]] into the mapping stack,
+
+1. the formula for [[shape via cohesive path ∞-groupoids]] to identify
+
+   $$
+     \esh \mathbf{\Omega}^1_{cl}(\ast; \mathfrak{g})
+     \simeq
+     Dsc\, \Omega^1_{cl}\big(\mathbf{\Delta}^\bullet; \mathfrak{g}\big)
+     \mathrlap{\,,}
+   $$
+
+   together with the [[fundamental theorem of dg-algebraic rational homotopy theory]] in the guise
+
+   $$
+     L^{\mathbb{R}}\mathcal{A}
+     \simeq
+     \Omega^1_{cl}\big(\mathbf{\Delta}^\bullet; \mathfrak{l}\mathcal{A}\big)
+   $$ 
+
+   here implemented not with [[polynomial de Rham complex|piecewise linear]] but with [[smooth differential forms]] on [[smooth manifolds]] and extended simplices $\mathbf{\Delta}^n$ (which still satisfy the relevant [[extension lemma for differential forms]], see [there](extension+lemma+for+differential+forms#ExtensionLemmaForPiecewiseSmoothForms)).
+
+\end{proof}
+
+The global model of Prop. \ref{GeneralModelOfRationalizedMappingSpace} induces analog models for each of the [[connected components]] of the mapping space:
 
 \begin{proposition}
 Consider:
@@ -406,9 +500,9 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces 
 
 * J.-B. Gatsinzi, _Rational Gottlieb Group of Function Spacesof Maps into an Even Sphere_, International Journal of Algebra, Vol. 6, 2012, no. 9, 427 - 432 ([pdf](http://www.m-hikari.com/ija/ija-2012/ija-9-12-2012/gatsinziIJA9-12-2012.pdf))
 
-* {#Berglund2015} [[Alexander Berglund]]: _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications **17** 2 (2015) &lbrack;[arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16)&rbrack;
+* {#Berglund2015} [[Alexander Berglund]]: _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_, Homology, Homotopy and Applications **17** 2 (2015) &lbrack;[arXiv:1110.6145 math.AT](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16)&rbrack;
 
-* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]]: _$L_\infty$-rational homotopy of mapping spaces_,  published as: _$L_\infty$-models of based mapping spaces_, J. Math. Soc. Japan **63** 2 (2011) 503--524 &lbrack;[arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503)&rbrack;
+* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]]: _$L_\infty$-rational homotopy of mapping spaces_,  published as: _$L_\infty$-models of based mapping spaces_, J. Math. Soc. Japan **63** 2 (2011) 503--524 &lbrack;[arXiv:1209.4756 math.AT](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503)&rbrack;
 
 * {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: Section 2 of: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
 
@@ -444,15 +538,13 @@ based on
 [[!redirects rational models of mapping spac]]
 
 [[!redirects rational model of mapping spaces]]
+[[!redirects rational models of mapping space]]
 [[!redirects rational models of mapping spaces]]
 
 [[!redirects Sullivan model of mapping space]]
 [[!redirects Sullivan models of mapping space]]
 [[!redirects Sullivan models of mapping spaces]]
 
-[[!redirects rational model of mapping space]]
-[[!redirects rational models of mapping space]]
-[[!redirects rational models of mapping spaces]]
 
 [[!redirects Sullivan model mapping space]]
 [[!redirects Sullivan model of mapping spaces]]
