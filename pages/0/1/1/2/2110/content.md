@@ -48,10 +48,19 @@ Here is the connection with the adjoint functor theorem: when small products exi
 
   (to be completed)
 
+## For frames
+
+For frames, the solution set condition is equivalent to the [[frame]] having a [[small]] [[base]]. It is used in [[predicative mathematics|predicative]] [[constructive mathematics]] for proving that any [[locally small category|locally small]] and [[small category|small]]-[[complete]] [[frame]] with a [[small]] [[base]] satisfies the [[adjoint functor theorem]]. 
+
 ## Related pages
 
 The solution set condition weakens the notion of adjoint functor by allowing a family of objects rather than a single one, and also by removing the uniqueness of the factorization.  If we weaken the definition in only one of these ways, we obtain a [[multi-adjoint]] or a [[weak adjoint]] respectively.
 
+## References
+
+For the solution set condition in frames, see section 3.7 of:
+
+* [[Ayberk Tosun]], *Constructive and Predicative Locale Theory in Univalent Foundations* ([arXiv:2603.01308](https://arxiv.org/abs/2603.01308))
 
 [[!redirects solution set condition]]
 [[!redirects solution set conditions]]
