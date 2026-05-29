@@ -140,12 +140,13 @@ where we used, in order of appearance:
      \mathrlap{\,,}
    $$
 
-   together with the [[fundamental theorem of dg-algebraic rational homotopy theory]] in the guise
+   together with the [[fundamental theorem of dg-algebraic rational homotopy theory]]:
 
    $$
      L^{\mathbb{R}}\mathcal{A}
      \simeq
      \Omega^1_{cl}\big(\mathbf{\Delta}^\bullet; \mathfrak{l}\mathcal{A}\big)
+     \mathrlap{\,,}
    $$ 
 
    here implemented not with [[polynomial de Rham complex|piecewise linear]] but with [[smooth differential forms]] on [[smooth manifolds]] and extended simplices $\mathbf{\Delta}^n$ (which still satisfy the relevant [[extension lemma for differential forms]], see [there](extension+lemma+for+differential+forms#ExtensionLemmaForPiecewiseSmoothForms)).
