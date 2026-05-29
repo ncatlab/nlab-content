@@ -26,5 +26,7 @@ On [[Liouville theory]]:
 
 * [[Sourav Chatterjee]], [[Edward Witten]]: *Liouville Theory: An Introduction to Rigorous Approaches* &lbrack;[arXiv:2404.02001](https://arxiv.org/abs/2404.02001)&rbrack;
 
+* [[Sourav Chatterjee]]: *A Lorentzian construction of timelike Liouville field theory on the cylinder* &lbrack;[arXiv:2605.29203](https://arxiv.org/abs/2605.29203)&rbrack;
+
 
 category: people
