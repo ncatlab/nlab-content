@@ -204,6 +204,10 @@ $$x \wedge \bigvee_i y_i = x \leq \bigvee_i x \wedge y_i$$
 But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would imply $y_i \lt x$ for all $i$, whence $\bigvee_i y_i \leq x$, contradiction. 
 \end{proof}
 
+## In predicative constructive mathematics
+
+In [[predicative mathematics|predicative]] [[constructive mathematics]], frames are not provably [[small category|small]], but only [[large category|large]], [[locally small category|locally small]], and [[small category|small]]-complete. This implies that frames are not necessarily [[complete Heyting algebras]], since the Heyting implication and infinitary meets are only constructible in a frame if a frame is small. 
+
 ## Related concepts
 
 * [[Heyting algebra]]
