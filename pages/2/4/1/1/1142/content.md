@@ -13,13 +13,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
 As every [[topos]], a  [[category of presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal]].
+
 
 ## Definition
 
