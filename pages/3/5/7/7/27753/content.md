@@ -230,6 +230,12 @@ Derivation from a [[Hubbard model]]:
 
 * Fabian J. Pauw, Ulrich Schollwöck, Nathan Goldman, Sebastian Paeckel, Felix A. Palm: *From hidden order to skyrmions: Quantum Hall states in an extended Hofstadter-Fermi-Hubbard model*, Phys. Rev. B **113** (2026) 035142 &lbrack;[arXiv:2509.12184](https://arxiv.org/abs/2509.12184), [doi:10.1103/cqt2-b327](https://doi.org/10.1103/cqt2-b327)&rbrack;
 
+See also:
+
+* Taige Wang: *Topological superconductivity from Abelian fractional Chern insulators* &lbrack;[arXiv:2605.29034](https://arxiv.org/abs/2605.29034)&rbrack;
+
+
+
 
 #### Anyonic states
   {#ReferencesFQAHAnyons}
