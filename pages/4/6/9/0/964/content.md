@@ -208,6 +208,8 @@ But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would i
 
 In [[predicative mathematics|predicative]] [[constructive mathematics]], frames are not provably [[small category|small]], but only [[large category|large]], [[locally small category|locally small]], and [[small category|small]]-complete. This implies that frames are not necessarily [[complete Heyting algebras]], since the Heyting implication and infinitary meets are only constructible in a frame if a frame is small. 
 
+However, it is still the case in predicative constructive mathematics that any [[frame]] with a [[small set|small]] [[base]] satisfies the [[adjoint functor theorem]] and is a [[complete Heyting algebra]], since having a small base is the posetal verison of the [[solution set condition]]. 
+
 ## Related concepts
 
 * [[Heyting algebra]]
