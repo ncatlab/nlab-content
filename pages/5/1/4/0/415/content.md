@@ -197,7 +197,9 @@ Textbook accounts:
 
 * [[Emily Riehl]], §3.7 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
+A discussion on the advantages of the terminology "copower" over the older terminology "tensor":
 
+* [Categories mailing list discussion](https://raw.githubusercontent.com/punkdit/categories/refs/heads/master/gmane/science/mathematics/categories/4585)
 
 [[!redirects copowers]]
 
