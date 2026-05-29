@@ -7,6 +7,8 @@
 \linebreak
 
 
+$\mathbb{R}$
+
 \begin{proposition}
 Consider:
 
