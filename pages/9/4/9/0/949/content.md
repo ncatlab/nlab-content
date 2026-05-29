@@ -129,7 +129,7 @@ At bottom, let us suppose that $Set$ is a [[Heyting category|Heyting]] [[pretopo
 
 Since we\'re not doing finite mathematics, we may also include a [[natural numbers object]].  In fact, we could include more general [[inductive type]]s, since these are no harder to justify philosophically than $\mathbb{N}$, although the proofs that these exist if $\mathbb{N}$ does rely on possibly impredicative axioms.  Then $Set$ is a Heyting $W$-pretopos.
 
-If you accept function sets, then $Set$ is [[locally cartesian closed category|locally cartesian closed]] and thus a $\Pi$-pretopos.  In this case, $\mathb{N}$ is enough to get all $W$-[[W-type|types]], so we have a $\Pi$-$W$-pretopos.  If you accept excluded middle, then $Set$ is a [[Boolean category|Boolean]] pretopos or even a Boolean $W$-pretopos.  But a Boolean $\Pi$-pretopos is necessarily a [[topos]], which would make the theory impredicative.
+If you accept function sets, then $Set$ is [[locally cartesian closed category|locally cartesian closed]] and thus a $\Pi$-pretopos.  In this case, $\mathbb{N}$ is enough to get all $W$-[[W-type|types]], so we have a $\Pi$-$W$-pretopos.  If you accept excluded middle, then $Set$ is a [[Boolean category|Boolean]] pretopos or even a Boolean $W$-pretopos.  But a Boolean $\Pi$-pretopos is necessarily a [[topos]], which would make the theory impredicative.
 
 However, $Set$ is still a [[Grothendieck topos]], defined as a category of sheaves or in terms of Giraud\'s characterisation.  We require the existence of power sets to prove the theorem that such a category is an elementary topos, so predicatively a Grothendieck topos may not be an elementary topos at all.
 
