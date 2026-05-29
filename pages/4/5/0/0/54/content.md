@@ -83,13 +83,15 @@ Projects:
 
 \linebreak
 
-* *Quantum Physics, Topos Theory & Homotopy Type Theory*
+* *[Quantum (Physics, Computing), Topos Theory & Homotopy Type Theory](https://youtu.be/V7749J5-lho)*
 
   guest appearance on the *[aboutlogic podcast](https://www.youtube.com/@aboutlogic)*
 
-  airing May 2026, 
+  May 2026 (recorded Jan 2026), 
 
-  teaser: [yt](https://youtu.be/rKmPa1fa7nE?t=3154)
+  [teaser](https://youtu.be/rKmPa1fa7nE?t=3154),
+
+  shorts: *[Gauge Equivalence in Physics](https://www.youtube.com/shorts/jMCNyyPIiUI?feature=share)*
 
   \linebreak
 
