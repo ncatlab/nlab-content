@@ -130,6 +130,8 @@ To every non-symmetric [[operad]], hence to every [[multicategory]] is associate
 
 * Every [[p.r.a. monad]] is cartesian; these are sometimes called "strongly cartesian monads".
 
+* Similarly, every [[polynomial monad]] is cartesian.
+
 ## References
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_ 
