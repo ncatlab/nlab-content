@@ -30,7 +30,13 @@ By the [[adjoint functor theorem]], one can demonstrate that every [[frame]] is 
 
 However, [[morphisms]] of frames needn't preserve [[exponential objects]] or infinitary [[meets]], as would most naturally be required of morphisms of complete Heyting algebras.  Also, when considering *[[large category|large]]* lattices which are only *small*-[[complete category|complete]], then frames and complete Heyting algebras are different objects. This becomes important in [[predicative mathematics|predicative]] [[constructive mathematics]], where frames are not provably [[small category|small]], but only [[large category|large]], [[locally small category|locally small]], and [[small category|small]]-complete, and so one can't show that every frame is a complete Heyting algebra. 
 
-However, it is still the case in predicative constructive mathematics that any [[frame]] with a [[small set|small]] [[base]] satisfies the [[adjoint functor theorem]] and is a complete Heyting algebra, since having a small base is the posetal verison of the [[solution set condition]]. Thus, the [[initial object|initial]] [[frame]] is a complete Heyting algebra, since its base is given by the [[boolean domain]], which is always small. 
+However, it is still the case in predicative constructive mathematics that any [[frame]] with a [[small set|small]] [[base]] satisfies the [[adjoint functor theorem]] and is a complete Heyting algebra, since having a small base is the posetal verison of the [[solution set condition]]. 
+
+## Examples
+
+* The [[initial object|initial]] [[small set|small]]-[[frame]], which is the [[category]] of [[small set|small]] [[subsingletons]], is a complete Heyting algebra, since it is [[locally small category|locally small]] and [[small category|small]]-complete, and its base is given by the [[boolean domain]], which is always small. 
+
+* The [[frame of opens]] of the [[locale of real numbers|locale of small real numbers]] is a complete Heyting algebra, since it [[locally small category|locally small]] and [[small category|small]]-complete, and its base is the set of pairs of [[rational numbers]] $p, q$ such that $p \lt q$, which is always small. 
 
 ## Related concepts
 
