@@ -23,7 +23,44 @@ Given two [[topological spaces]] $X$, $Y$ one may ask for the [[rational homotop
  {#GeneralFormula}
 
 \begin{proposition}
+\label{GeneralModelOfRationalizedMappingSpace}
+For $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[topological spaces]] of [[rational cohomology|rational]] [[finite type]], the [[mapping space]] from $X$ into the [[rationalization]] $L^{\mathbb{Q}} \mathcal{A}$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to
 
+$$
+  Map\big(
+    X, 
+    L^{\mathbb{Q}}\mathcal{A}
+  \big)
+  \,\simeq\,
+  \left\vert
+    \Omega^1_{cl}\big(
+      X \times \Delta^\bullet;
+      \mathfrak{l}\mathcal{A}
+    \big)
+  \right\vert
+  \mathrlap{\,,}
+$$
+
+where we denote by
+
+* $\mathfrak{l}(-)$ the rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]],
+
+* $\Omega^1_{cl}(-;\mathfrak{g}) \coloneqq Hom_{dgc}\big(CE(\mathfrak{g}), \Omega^\bullet_{PL}(-)\big)$ the set of [[closed L-infinity algebra valued differential forms|closed $L_\infty$- algebra valued differential forms]], where
+
+  * $\Omega^\bullet_{PL}\big(X \times \Delta^n\big)$ is the [[polynomial de Rham complex]] of the [[product space]] of $X$ with the [[n-simplex]],
+
+  * $CE(-)$ the [[Chevalley-Eilenberg algebra]], so that $CE\big(\mathfrak{l}(-)\big)$ gives the [[minimal Sullivan model]],
+
+
+* ${\vert - \vert}$ the [[topological realization]] of [[simplicial sets]].
+
+\end{proposition}
+
+(This is, in paraphrase, [Berglund 2015 Thm. 1.4](#Berglund2015).)
+
+The model of Prop. \ref{GeneralModelOfRationalizedMappingSpace} specializes to analog models for each of the [[connected components]] of the mapping space:
+
+\begin{proposition}
 Consider:
 
 * $X, \mathcal{A}$ a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space|nilpotent]] [[CW-complexes]] of [[rational cohomology|rational]] [[finite type]],
@@ -77,7 +114,7 @@ where :
 
 \end{proposition}
 
-([Lazarev 2013 Thm. 8.1](#Lazarev2013), [Berglund 2015 Thm. 1.5](#Berglund2015), cf. also [Buijs, Felix & Murillo 2012 Thm. 3.1](#BuijsFelixMurillo12))
+([Lazarev 2013 Thm. 8.1](#Lazarev2013), cf. [Berglund 2015 Thm. 1.5](#Berglund2015), [Buijs, Felix & Murillo 2012 Thm. 3.1](#BuijsFelixMurillo12))
 
 
 
