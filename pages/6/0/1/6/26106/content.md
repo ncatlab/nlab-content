@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -79,6 +77,9 @@ For [[super Yang-Mills theory]] in [[light cone gauge]]:
 For [[supergravity]]:
 
 * Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *Towards a Nicolai map for supergravity* &lbrack;[arXiv:2509.17973](https://arxiv.org/abs/2509.17973)&rbrack;
+
+* Ji-Seong Chae, Hun Jang, Junhyeok Lee: *Perturbative Nicolai-Map Diagrammatics: Application to Poincaré Supergravity* &lbrack;[arXiv:2605.29990](https://arxiv.org/abs/2605.29990)&rbrack;
+
 
 
 
