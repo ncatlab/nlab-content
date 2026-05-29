@@ -13,9 +13,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -104,7 +102,7 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
   > **Abstract**: We rigorously define the Liouville action functional for finitely generated, purely loxodromic quasi-Fuchsian group using homology and cohomology double complexes naturally associated with the group action. We prove that the classical action - the critical point of the Liouville action functional, considered as a function on the quasi-Fuchsian deformation space, is an antiderivative of a 1-form given by the difference of Fuchsian and quasi-Fuchsian projective connections. This result can be considered as global quasi-Fuchsian reciprocity which implies McMullen's quasi-Fuchsian reciprocity. We prove that the classical action is a Kahler potential of the Weil-Petersson metric. We also prove that Liouville action functional satisfies holography principle, i.e., it is a regularized limit of the hyperbolic volume of a 3-manifold associated with a quasi-Fuchsian group. We generalize these results to a large class of Kleinian groups including finitely generated, purely loxodromic Schottky and quasi-Fuchsian groups and their free combinations.
 
-more in relation to [[AdS3/CFT2|$AdS_3$/$CFT_2$-duality]]:
+More in relation to [[AdS3/CFT2|$AdS_3$/$CFT_2$-duality]]:
 
 * {#ChenHungJiangLao24} Lin Chen, Ling-Yan Hung, Yikun Jiang, Bing-Xin Lao: *Quantum 2D Liouville Path-Integral Is a Sum over Geometries in $AdS_3$ Einstein Gravity* &lbrack;[arXiv:2403.03179](https://arxiv.org/abs/2403.03179)&rbrack;
 
@@ -165,6 +163,9 @@ On *timelike* Liouville theory:
 
 * Dionysios Anninos, Thomas Hertog, Joel Karlsson: *Quantum Liouville Cosmology* &lbrack;[arXiv:2512.15969](https://arxiv.org/abs/2512.15969)&rbrack;
   > (as 2D [[quantum cosmology]])
+
+* [[Sourav Chatterjee]]: *A Lorentzian construction of timelike Liouville field theory on the cylinder* &lbrack;[arXiv:2605.29203](https://arxiv.org/abs/2605.29203)&rbrack;
+
 
 and relation to [[D=3 supergravity]]:
 
