@@ -15,9 +15,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -144,20 +142,21 @@ $$
 
 ### General
 
-The definition appears in section 3 of 
+The definition appears in  
 
-* {#Francis} [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
+* {#Francis} [[John Francis]] section 3 of: _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
  
 
-A detailed account is in 
-
+Detailed account:
 
 * {#Francisb} [[David Ayala]], [[John Francis]], §4 in: *Factorization homology of topological manifolds*, Journal of Topology **8** 4 (2015) 1045-1084 &lbrack;[arXiv:1206.5522](https://arxiv.org/abs/1206.5522), [doi:10.1112/jtopol/jtv028](https://doi.org/10.1112/jtopol/jtv028)&rbrack;
  
 
-A survey that also covers [[factorization algebras]] is
+Surveys that also discussi [[factorization algebras]]:
 
-* [[Grégory Ginot]], _Notes on factorization algebras, factorization homology and applications_, [arXiv:1307.5213](http://arxiv.org/abs/1307.5213).
+* [[Grégory Ginot]], _Notes on factorization algebras, factorization homology and applications_ &lbrack;[arXiv:1307.5213](http://arxiv.org/abs/1307.5213)&rbrack;
+
+* [[Aaron Mazel-Gee]]: *Locally Constant Factorization Algebras*, lecture notes (2016) &lbrack;[pdf](https://etale.site/teaching/s16-lcfa/locally-constant.pdf), [[MazelGee-FactorizationHomology.pdf:file]]&rbrack;
 
 See also
 
