@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -220,7 +218,7 @@ and the beginnings of
 
 * {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
 
-* [[Kevin Costello]], [[Claudia Scheimbauer]], _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: Mathematical aspects of QFTs, D. Calaque, T. Strobl editors, Springer 2015
+* [[Kevin Costello]], [[Claudia Scheimbauer]], _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: *Mathematical aspects of QFTs*, Springer (2015)
 
 Lecture notes:
 
@@ -233,8 +231,11 @@ Lecture notes:
   * notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
 
 * [[Araminta Amabel]], *Notes on Factorization Algebras and TQFTs* &lbrack;[arXiv:2307.01306](https://arxiv.org/abs/2307.01306)&rbrack;
-
   > (with relation to [[functorial field theory]])
+
+* [[Aaron Mazel-Gee]]: *Locally Constant Factorization Algebras*, lecture notes (2016) &lbrack;[pdf](https://etale.site/teaching/s16-lcfa/locally-constant.pdf), [[MazelGee-FactorizationHomology.pdf:file]]&rbrack;
+  > (focus on [[factorization homology]])
+
 
 Further review:
 
