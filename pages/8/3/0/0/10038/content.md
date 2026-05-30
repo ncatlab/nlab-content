@@ -13,11 +13,9 @@
 =--
 =--
 
-#Contents#
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -63,6 +61,10 @@
 Further exposition:
 
 * [[Dev Sinha]], from 58:12 on in: *The Fulton-MacPherson Operad and Recognition* (2020) &lbrack;video:[YT](https://youtu.be/NWM1zoITt8o?t=3492)&rbrack;
+
+In the generality of [[G-spaces]]/[[equivariant homotopy theory]]:
+
+* Jeremy Hahn, Asaf Horev, Inbar Klang, [[Dylan Wilson]], Foling Zou: *Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra* \[<a href="https://arxiv.org/abs/2006.13348">arXiv:2006.13348</a>\]
 
 
 
