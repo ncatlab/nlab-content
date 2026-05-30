@@ -22,7 +22,7 @@ Given a [[set]] $S$ and a collection $\{K_s \stackrel{\iota_s}{\hookrightarrow} 
 Assume that the ambient [[category]] $\mathcal{C}$ has ordinary [[products]]. Write $\mathcal{P}_{fin} S$ for the [[poset]] of [[finite set|finite]] [[subsets]] of $S$ and consider the [[functor]]
  
 $$
-  X^K \colon \mathcal{P}_{fin}\longrightarrow \mathcal{C}
+  X^K \colon \mathcal{P}_{fin} S \longrightarrow \mathcal{C}
 $$
 
 which is given on a [[finite set|finite]] [[subset]] $U \subset S$ by the [[products]]
