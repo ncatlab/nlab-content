@@ -11,7 +11,12 @@ His research ares include [[Hopf algebra]]s and [[Hopf algebroid]]s, [[coring]]s
 * [[Stefaan Caenepeel]], Joost Vercruysse, Shuanhong Wang, _Morita theory for corings and cleft entwining structures_, J. Algebra __276__1 (2004) 210-235 [doi/10.1016/j.jalgebra.2004.02.002](https://doi.org/10.1016/j.jalgebra.2004.02.002)
 
 
-* [[T. Brzeziński]], A. Vazquez Marquez and J. Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Applied Categorical Structures, 19, (2011), 821–858.
+* [[T. Brzeziński]], A. Vazquez Marquez and J. Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Applied Categorical Structures, 19, (2011), 821--858.
+* Eliezer Batista, William Hautekiet, [[Joost Vercruysse]], _Globalization and the biactegory of partial modules_, [arXiv:2506.18451](https://arxiv.org/abs/2506.18451)
+* Ryan Aziz, Joost Vercruysse, _Generalized Yetter-Drinfeld modules, the center of bi-actegories and groupoid-crossed braided bicategories_, [arXiv:2507.08722](https://arxiv.org/pdf/2507.08722)
+
+
+
 
 
 category: people, algebra
