@@ -25,6 +25,8 @@
 
 For $R$ a [[ring]], its _group of units_, denoted $R^\times$ or $GL_1(R)$, is the [[group]] whose [[elements]] are the elements of $R$ that are [[invertible element|invertible]] under the product (*[[units]]* of the ring), and whose group operation is the multiplication in $R$.
 
+The same definition applies to every [[monoid]].
+
 =--
 
 +-- {: .num_remark}
