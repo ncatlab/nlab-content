@@ -24,6 +24,10 @@ Introducing [[model (infinity,1)-category|model $\infty$-category]]-theory:
 
 * [[Aaron Mazel-Gee]], *Model ∞-categories III: the fundamental theorem*, New York Journal of Mathematics **27** (2021) 551-599 ([arXiv:1510.04777](https://arxiv.org/abs/1510.04777), [nyjm:27-22](http://nyjm.albany.edu/j/2021/27-22.html))
 
+On [[factorization homology]] (and locally constant [[factorization algebras]]):
+
+* [[Aaron Mazel-Gee]]: *Locally Constant Factorization Algebras*, lecture notes (2016) &lbrack;[pdf](https://etale.site/teaching/s16-lcfa/locally-constant.pdf), [[MazelGee-FactorizationHomology.pdf:file]]&rbrack;
+
 
 
 ## Related entries
