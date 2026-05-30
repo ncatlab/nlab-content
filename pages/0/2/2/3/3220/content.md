@@ -31,6 +31,13 @@ On the [[Jones polynomial]] from [[quantization of Chern-Simons theory]] via [[f
 
 
 
+Enhancing the [[Pontryagin-Thom theorem]] to a [[weak homotopy equivalence|equivalence]] between [[mapping spaces]] and [[moduli spaces]] of [[submanifolds]]:
+
+* {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274</a>\]
+
+
+
+
 
 ## Related entries
 
