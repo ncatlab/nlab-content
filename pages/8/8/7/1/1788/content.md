@@ -7,74 +7,64 @@
 \linebreak
 
 
-$\mathbb{R}$
+
+
+For $C \subset X$ a [[compact subset]], write $cof(X\setminus C \to X)$ for the result of collapsing its [[complement]]. 
+
+Let $X$ be a [[locally compact topological space]] with [[one-point compactification]] $X_{cpt}$. Then we have a canonical [[homeomorphism]]
+$$
+  cof\big(
+    X_{cpt} \setminus C
+    \to 
+    X_{cpt}
+  \big)
+  \simeq
+  cof\big(
+    X \setminus C 
+    \to 
+    X
+  \big)
+$$
+and hence a system of comparison maps, natural in $C$, of the form:
+\[
+  \label
+  {CollapsingComplementOfCompactinOnePointCompactification}
+  X_{cpt} 
+    \longrightarrow
+  cof(X \setminus C \to X)
+  \mathrlap{\,.}
+\]
+
+For a [[pointed topological space]] $A$, the *compactly supported mapping space* from $X$ to $A$ is the following [[colimit]] of [[pointed mapping spaces]]:
+$$
+  Map^c(X,A)
+  \colon
+  \underset{\underset{C}{\longrightarrow}}{\lim}
+  Map\big(
+    cof(X \setminus C \to X)
+    ,
+    A
+  \big)
+  \mathrlap{\,.}
+$$
+
+By (eq:CollapsingComplementOfCompactinOnePointCompactification) this has a canonical comparison map to the [[pointed mapping space]] out of the [[one-point compactification]]:
+
+\[
+  \label{ComparisonMapFromCompactToPointedMappingSpace}
+  Map^c(X,A)
+  \longrightarrow
+  Map^\ast\big(
+    X_{cpt} , A
+  \big)
+\]
 
 \begin{proposition}
-Consider:
+  A sufficient condition for the comparison map (eq:ComparisonMapFromCompactToPointedMappingSpace) to be a [[weak homotopy equivalence]] is that
 
-* $X, \mathcal{A}$ be a [[pair]] of [[connected topological space|connected]] [[nilpotent topological space]] [[CW-complexes]] of [[rational cohomology|rational]] [[finite type]]
- 
-  with $X$ a [[finite CW complex]] or $Y$ having a finite [[Postnikov tower]],
-
-* $\phi \colon X \to \mathcal{A}$ a [[continuous map]]
-
-Then [[dg-Lie algebra]] model for the [[rational homotopy type]] of the [[mapping space]] $Map\big(X; \mathcal{A}\big)$ in the [[connected component]] of $\phi$ is given by the twisted [[tensor product]]
-
-$$
-  \big(
-    \Omega^\bullet_{PL}(X) 
-      \textstyle{
-        \otimes_{\mathbb{Q}}
-      }
-    \mathfrak{l} \mathcal{A}
-  \big)^{\mathfrak{l}\phi}
-  \langle 0 \rangle
-$$ 
-
-where :
-
-* $\Omega^\bullet_{PL}(-)$ denotes the [[PL de Rham complex|PL de Rham]] [[dgc-algebra]],
-
-* $\mathfrak{l}(-)$ denotes the [[dg-Lie algebra]] model.
-
-* $\xi_\phi \in MC\big( \Omega^\bullet_{PL}(X) \otimes \mathfrak{l}\mathcal{A}\big)$ is the [[Maurer-Cartan element]] corresponding to the [[pullback of differential forms]]
-
-  $$
-    \phi^\ast 
-      \,\colon\,
-    CE(\mathfrak{l}\mathcal{A})
-      \longrightarrow
-    \Omega^\bullet_{PL}(X) 
-    \mathrlap{\,,}
-  $$
-
-* $(-)^{\xi_\phi}$ means that the [[differential]] of the tensor [[dg-Lie algebra]] is twisted as
-
-  $$
-    d^{\mathfrak{l}\phi}(-)
-    \coloneqq
-    \mathrm{d}(-)
-    +
-    \big[\xi_\phi, -\big]
-    \mathrlap{\,,}
-  $$
-
-* $(-)\langle-\rangle$ denotes the [[connective cover]] (discarding negative degrees and restricting to [[cycles]] in degree=0).
+* $X$ is a [[manifold]] which is finitary in that it is the [[complement]] of some [[faces]] ([[codimension]]=1 [[stratified space|strata]]) of a [[compact topological space|compact]] [[manifold with corners]].
 
 \end{proposition}
-
-(cf. [Lazarev 2013 Thm. 8.1](#Lazarev2013))
-
-\linebreak
-
-***
-
-
-$$
-  \frac{\Gamma \vdash t:\Box A}{\Gamma \vdash \mathsf{extract}(t):A}
-  \qquad
-  \frac{\Gamma \vdash t : \Box A \qquad x : A \vdash u : B}{\Gamma \vdash \mathsf{let\ box}\ x = t\ \mathsf{in}\ u : B}
-$$
 
 ---
 
