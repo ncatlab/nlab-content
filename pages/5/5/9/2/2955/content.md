@@ -1,6 +1,8 @@
 Let $C$ be a [[monoidal category]] (in fact one can easily modify all statements to generalize all statements here to [[bicategories]]). One can consider several variants of the [[2-category]] of all categories with monoidal [[action]] of $C$, (co)lax [[monoidal functors]] and their transformations. A category with an action of $C$ is sometimes called a __$C$-[[actegory]]__. The word 'module category' over $C$ is also used, especially when the category acted upon is in addition also [[additive category|additive]], like the examples in [[representation theory]].
 
-If a $C$-actegory is a [[categorification]] of a [[module]], then for two monoidal categories $C$ and $D$, we should categorify a [[bimodule]], which we call __$C$-$D$-biactegory__. The two actions on a usual bimodule commute; for biactegories the commuting is up to certain coherence laws, which are in fact the expression of an invertible [[distributive law]] between the two monoidal actions. The tensor product of biactegories can be defined (here the invertibility of the distributive law is needed) as a [[2-limit|bicoequalizer]] of a certain diagram. 
+If a $C$-actegory is a [[categorification]] of a [[module]], then for two monoidal categories $C$ and $D$, we should categorify a [[bimodule]], which we call __$C$-$D$-biactegory__, or sometimes still a __$C$-$D$-bimodule__. 
+
+The two actions on a usual bimodule commute; for biactegories the commuting is up to certain coherence laws, which are in fact the expression of an invertible [[distributive law]] between the two monoidal actions. The tensor product of biactegories can be defined (here the invertibility of the distributive law is needed) as a [[2-limit|bicoequalizer]] of a certain diagram. 
 
 For very basic outline see section 2 in 
 
@@ -17,3 +19,7 @@ In a language of "module categories", a different treatment is now available in
 It is one of the notions discussed in the review
 
 * Matteo Capucci, Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
+
+* Eliezer Batista, William Hautekiet, [[Joost Vercruysse]], _Globalization and the biactegory of partial modules_, [arxiv:2506.18451](https://arxiv.org/abs/2506.18451)
+
+Terminological confusion: Biactegory terminology may be confused with a typo of bicategory, while "bimodule category" may be confused with a category of bimodules for which the latter terminology is very much used in algebra community. 
