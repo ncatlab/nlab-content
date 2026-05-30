@@ -96,4 +96,10 @@ If not, the smash product can fail to be associative. For instance, the smash pr
 
 =--
 
+## Related entries
+
+* [[compactly supported mapping space]]
+
+
+
 [[!redirects pointed mapping spaces]]
