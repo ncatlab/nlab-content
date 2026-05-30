@@ -24,6 +24,8 @@ If we work with [[locales]] instead of topological spaces, then a closed point $
 
 ## Related concepts
 
+* [[compactly supported mapping space]]
+
 * [[bump function]]
 
 * [[compactly supported distribution]]
@@ -31,8 +33,6 @@ If we work with [[locales]] instead of topological spaces, then a closed point $
 * [[integrable function]], [[square-integrable function]]
 
 * [[bounded function]]
-
-* __compactly supported function__
 
 * [[measurable function]]
 
