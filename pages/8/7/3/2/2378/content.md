@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -282,6 +280,10 @@ identification on the bottom right mapping space out of the point space.
 
 
 ## Related concepts
+
+* [[pointed mapping space]]
+
+* [[compactly supported mapping space]]
 
 * [[topology of mapping spaces]]
 
