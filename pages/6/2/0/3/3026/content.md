@@ -10,9 +10,9 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
+
+
 
 ## Idea
 
@@ -366,6 +366,69 @@ The argument is spelled out in [James 84 Prop. 3.7 p. 72](#James84), [MO:a/16457
 
 
 
+### Relation to compactly supported maps
+ {#RelationToCompactlySupportedMaps}
+
+Let $X$ be a [[topological space]]. For $C \subset X$ a [[compact subset]], write $cof(X\setminus C \to X)$ for the [[cofiber]] of the inclusion of its [[complement]], hence for the result of collapsing the [[complement]] to a [[base point]].
+
+For a [[pointed topological space]] $A$, the *[[compactly supported mapping space]]* from $X$ to $A$ is the following [[colimit]] of [[pointed mapping spaces]]:
+\[
+  \label{CompactlySupportedMappingSpace}
+  Map^c(X,A)
+  \,\coloneqq\,
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \,
+  Map^\ast\big(
+    cof(X \setminus C \to X)
+    ,
+    A
+  \big)
+  \mathrlap{\,.}
+\]
+
+Now let $X$ be a [[locally compact topological space]] with [[one-point compactification]] $X_{cpt}$. Then we have a canonical [[homeomorphism]]
+$$
+  cof\big(
+    X_{cpt} \setminus C
+    \to 
+    X_{cpt}
+  \big)
+  \simeq
+  cof\big(
+    X \setminus C 
+    \to 
+    X
+  \big)
+$$
+and hence a system of comparison maps, natural in $C$, of the form:
+\[
+  \label{CollapsingComplementOfCompactinOnePointCompactification}
+  X_{cpt} 
+    \longrightarrow
+  cof(X \setminus C \to X)
+  \mathrlap{\,.}
+\]
+which induces a comparison map from the [[compactly supported mapping space]] (eq:CompactlySupportedMappingSpace) to the [[pointed mapping space]] out of the [[one-point compactification]]:
+
+\[
+  \label{ComparisonMapFromCompactToPointedMappingSpace}
+  Map^c(X,A)
+  \longrightarrow
+  Map^\ast\big(
+    X_{cpt} , A
+  \big)
+\]
+
+\begin{proposition}
+  A sufficient condition for the comparison map (eq:ComparisonMapFromCompactToPointedMappingSpace) to be a [[weak homotopy equivalence]] is that
+
+* $X$ is a [[manifold]] which is finitary in that it is the [[complement]] of some [[faces]] ([[codimension]]=1 [[stratified space|strata]]) of a [[compact topological space|compact]] [[manifold with corners]].
+
+\end{proposition}
+
+([Mazel-Gee 2016 §2.5](#Mazel-Gee2016), [Ayala & Francis 2025 p 6](#AyalaFrancis2025))
+
+
 ## Examples
 
 ### General
@@ -582,9 +645,9 @@ So let $X$ be a locally compact Hausdorff space. By prop. \ref{OnePointExtension
 
 ## References
 
-The concept goes back to 
+The concept goes back to:
 
-* {#Aleksandrov24} [[Pavel Aleksandrov]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
+* {#Aleksandrov24} [[Pavel Aleksandrov]]: _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen **92** (1924) 294--301 &lbrack;[dml:159072](https://eudml.org/doc/159072)&rbrack;
 
 Monographs:
 
@@ -613,12 +676,19 @@ See also:
 
 * Wikipedia, _[Alexandroff extension](https://en.wikipedia.org/wiki/Alexandroff_extension)_
 
-
 Further discussion:
 
 * Gerald Beer, Maria Cristina Vipera: *The Alexandroff one-point compactification as a prototype for extensions*, Advances in Mathematics **231** 3–4 (2012) 1598-1618 &lbrack;[doi:10.1016/j.aim.2012.07.008](https://doi.org/10.1016/j.aim.2012.07.008)&rbrack;
 
 * M. R. Koushesh: *One-point Compactifications*, J. Aust. Math. Soc. **99** (2015) 76–84 &lbrack;[doi:10.1017/S1446788714000676](https://doi.org/10.1017/S1446788714000676)&rbrack;
+
+On the relation to [[compactly supported mapping spaces]]:
+
+* {#Mazel-Gee2016} [[Aaron Mazel-Gee]]; §2.5 in: *Locally Constant Factorization Algebras*, lecture notes (2016) &lbrack;[pdf](https://etale.site/teaching/s16-lcfa/locally-constant.pdf), [[MazelGee-FactorizationHomology.pdf:file]]&rbrack;
+
+
+* {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]; p. 6 of: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274</a>\]
+
 
 [[!redirects one-point compactification]]
 [[!redirects one-point compactifications]]
