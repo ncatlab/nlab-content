@@ -108,6 +108,9 @@ See also:
 
 * Naoki Kuroda: *A refinement of the Pontryagin-Thom theorem for unstable Thom spectra and its applications* \[<a href="https://arxiv.org/abs/2602.16270">arXiv:2602.16270</a>\]
 
+Enhancement to an equivalence between [[mapping spaces]] and [[moduli spaces]] of [[submanifolds]]:
+
+* {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274</a>\]
 
 
 
