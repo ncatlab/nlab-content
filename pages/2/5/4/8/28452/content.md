@@ -90,7 +90,7 @@ which induces a comparison map from the [[compactly supported mapping space]] (e
 
 * {#Mazel-Gee2016} [[Aaron Mazel-Gee]]; §2.5 in: *Locally Constant Factorization Algebras*, lecture notes (2016) &lbrack;[pdf](https://etale.site/teaching/s16-lcfa/locally-constant.pdf), [[MazelGee-FactorizationHomology.pdf:file]]&rbrack;
 
-* {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]; p. 6 of: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274</a>\]
+* {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]; p. 6 of: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274 math.AT</a>\]
 
 In the generality of [[G-spaces]]:
 
