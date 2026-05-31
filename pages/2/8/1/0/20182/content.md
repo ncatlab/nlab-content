@@ -546,6 +546,8 @@ based on
 [[!redirects Sullivan models of mapping space]]
 [[!redirects Sullivan models of mapping spaces]]
 
+[[!redirects rationalization of mapping spaces]]
+[[!redirects rationalizations of mapping spaces]]
 
 [[!redirects Sullivan model mapping space]]
 [[!redirects Sullivan model of mapping spaces]]
@@ -569,5 +571,7 @@ based on
 [[!redirects Sullivan model for mapping spaces]]
 
 [[!redirects Sullivan model for a mapping space]]
+
+
 
 
