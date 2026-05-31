@@ -14,7 +14,7 @@ Other proofs are were given in:
 
 * {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]],  Sections V.1-2 of: _[[Methods of homological algebra]]_,  transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
 
-* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], Section I.11 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]]; Section I.11 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) \[<a href="http://doi.org/10.1007/978-3-0346-0189-4">doi:10.1007/978-3-0346-0189-4</a>, [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)\]
 
 * {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
