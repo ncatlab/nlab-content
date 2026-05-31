@@ -222,7 +222,7 @@ Further survey:
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
 
-* [[Charles Rezk]], *Introduction to quasicategories* (2022) &lbrack;[pdf](https://faculty.math.illinois.edu/~rezk/quasicats.pdf), [[Rezk-IntroToQuasicategories.pdf:file]]&rbrack;
+* [[Charles Rezk]], *Introduction to quasicategories* (2022) &lbrack;[pdf](https://rezk.web.illinois.edu/quasicats.pdf), [[Rezk-IntroToQuasicategories.pdf:file]]&rbrack;
 
 * [[Moritz Groth]], _A short course on ∞-categories_ ([arXiv:1007.2925](https://arxiv.org/abs/1007.2925))
 
