@@ -139,7 +139,7 @@ Let $A \to C \leftarrow B$ be a [[diagram]] in some [[model category]]. Then suf
 
 =--
 
-Both statements are classical. They are reviewed for instance as [Lurie, prop. A.2.4.4](#Lurie). The proof of the second statement is spelled out [here](proper+model+category#HomotopyLimits).
+Both statements are classical. They are reviewed for instance as [Lurie, prop. A.2.4.4](#Lurie). The proof of the second statement is spelled out [here](proper+model+category#HomotopyLimits), cf. [Barwick 2010 Prop. 1.19](#Barwick10).
 
 +-- {: .num_remark }
 ###### Remark
@@ -526,7 +526,9 @@ Fairly comprehensive general resources:
 
 * {#Hovey07} [[Mark Hovey]], _Model categories_, Mathematical Surveys and Monographs, vol 63, 1999,reprinted 2007
 
-* {#Lurie} [[Jacob Lurie]], appendix of _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], appendix of _[[Higher Topos Theory]]_ (2009)
+
+* {#Barwick10} [[Clark Barwick]]: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
   
 See also:
 
