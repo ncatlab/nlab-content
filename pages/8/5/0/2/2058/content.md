@@ -14,21 +14,25 @@
 =--
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 ## Definition
 
-Let $C$ be a [[category]] with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__, or that these colimits are __universal__, if for every functor $G : D \to C$ and for all [[pullback]] diagrams of the form
+Let $C$ be a [[category]] with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__, or that these colimits are __universal__, if for every functor $G \colon D \to C$ and for all [[pullback]] diagrams of the form
 
 $$
   \array{
-    (colim_D G) \times_Z Y &\to& colim_D G
+    \big(\underset{\longrightarrow}{\lim}_D G\big) 
+      \times_Z  
+    Y 
+      &\longrightarrow& 
+    \underset{\longrightarrow}{\lim}_D G
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
-    Y &\underset{f}{\to} & Z
+    Y 
+      &\underset{f}{\longrightarrow} &
+    Z
   }
 $$
 
@@ -36,34 +40,56 @@ the canonical morphism
 
 $$
   \label{IsoForPullbackStabilityOfColimis}
-  \underset{d \in D}{colim} (G(d) \times_Z Y)
-    \stackrel{\simeq}{\to}
-  (\underset{d \in D}{colim} G(d)) \times_Z Y
+  \underset{\underset{d \in D}{\longrightarrow}}{\lim}
+  \big(
+    G(d) \times_Z Y
+  \big)
+    \overset{\sim}{\longrightarrow}
+  \big(
+    \underset{\underset{d \in D}{\longrightarrow}}{\lim}
+    G(d)
+  \big) \times_Z Y
 $$
 
-is an [[isomorphism]].  This is equivalent to saying that every pullback [[functor]] $f^*: C/Z \to C/Y$ [[preserved limit|preserves]] $D$-colimits.  Similar definitions can be given for [[higher categories]].
+is an [[isomorphism]].  
+
+This is equivalent to saying that every pullback [[functor]] $f^* \colon C/Z \to C/Y$ [[preserved limit|preserves]] $D$-colimits.  
+
+Similar definitions apply for [[higher categories]].
 
 To see that this definition is equivalent to the universality condition given at [[van Kampen colimit#universality_and_descent|van Kampen colimit]], observe that, given a [[natural transformation]] $\alpha' : F' \Rightarrow G'$, the diagram
 
 $$
   \array{
-    F'(*) &\overset{\alpha'_*}{\to}& colim_D G
+    F'(*) 
+      &\overset{\alpha'_*}{\longrightarrow}& 
+    \underset{\longrightarrow}{\lim}_D G
     \\
-    ^\id\downarrow && \downarrow^\id
+    \mathllap{^\id}\big\downarrow 
+      && 
+    \big\downarrow\mathrlap{^\id}
     \\
-    F'(*) &\underset{\alpha'_*}{\to} & colim_D G
+    F'(*) 
+      &\underset{\alpha'_*}{\longrightarrow} & 
+    \underset{\longrightarrow}{\lim}_D G
   }
 $$
 
 is a degenerate [[pullback]] square, hence there is a canonical isomorphism
 
 $$
-  colim_{d \in D}(G(d) \times_{colim_D G} F'(*)) \simeq F'(*).
+  \underset{\underset{d \in D}{\longrightarrow}}{\lim}
+  \big(
+    G(d) \times_{\underset{\longrightarrow}{\lim}_D G} F'(*)
+  \big) 
+    \simeq 
+  F'(*)
+  \mathrlap{\,.}
 $$
 
-But if $\alpha'$ is [[equifibered natural transformation|equifibered]], we have $G(d) \times_{colim_D G} F'(*) \simeq F(d)$, hence we get the desired isomorphism $F'(*) \simeq colim_D F$.
+But if $\alpha'$ is [[equifibered natural transformation|equifibered]], we have $G(d) \times_{\underset{\longrightarrow}{\lim}_D G} F'(*) \simeq F(d)$, hence we get the desired isomorphism $F'(*) \simeq \underset{\longrightarrow}{\lim}_D F$.
 
-Conversely, given a pullback diagram as above, let $F' = f^* \circ G'$ (viewing $G'$ as a functor $D \to C/Z$ and remembering that colimits in $C/Z$ are [[over category#ColimitInSliceAreReflectedByColimitsInPlainCategory|computed]] as colimits in $C$) and $\alpha' : F' \Rightarrow G'$ the natural transformation induced by the pullback projections, which is [[equifibered natural transformation|equifibered]] as a consequence of the [[pasting law for pullbacks]]. Then $f^* \circ G'$ is a colimiting cocone, which is to say that $f^*$ preserves $colim_D G$.
+Conversely, given a pullback diagram as above, let $F' = f^* \circ G'$ (viewing $G'$ as a functor $D \to C/Z$ and remembering that colimits in $C/Z$ are [[over category#ColimitInSliceAreReflectedByColimitsInPlainCategory|computed]] as colimits in $C$) and $\alpha' \colon F' \Rightarrow G'$ the natural transformation induced by the pullback projections, which is [[equifibered natural transformation|equifibered]] as a consequence of the [[pasting law for pullbacks]]. Then $f^* \circ G'$ is a colimiting cocone, which is to say that $f^*$ preserves $colim_D G$.
 
 ## Examples
 
