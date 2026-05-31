@@ -20,6 +20,9 @@ The Russian school of [[constructive mathematics]], associated principally with 
    *  every [[total function]] from $\mathbb{R}$ (the [[real line]]) to $\mathbb{R}$ is pointwise [[continuous function|continuous]] ([[Ceitin's theorem]]);
    *  there exist continuous functions from $[0,1]$ (the [[unit interval]]) to $\mathbb{R}$ that are pointwise continuous but not [[uniformly continuous map|uniformly continuous]];
    *  there exist [[bounded subspace|bounded]] sets of real numbers with no [[supremum]] (given by [[Specker sequences]]).
+* Classically true statements which are false in Russian constructivism:
+   * the [[Heine-Borel theorem]]
+   * the [[limited principle of omniscience]]
 
 ## References
 
