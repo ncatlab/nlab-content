@@ -77,11 +77,18 @@ Another variant of these statements is:
 
 In the old days, one called a closed and bounded [[interval]] in the [[real line]] 'compact'; once closedness and boundedness were generalised from intervals to arbitrary [[subsets]] (of the real line), the definition of 'compact' also generalised.  The content of Theorem \ref{classical}, then, is that this condition is equivalent to the modern definition of 'compact' using [[open covers]], and indeed the modern definition was only derived afterwards as a name for the conclusion of the theorem.
 
-In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  Using the open-cover definition of 'compact', Theorems \ref{classical} and \ref{cartesian} are equivalent to the [[fan theorem]] (and so hold in [[intuitionism]]), but Theorems \ref{metric} and \ref{uniform} are stronger and [[Jan Brouwer|Brouwer]] could not prove them, leading him to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted using the open-cover definition, but CTB spaces are still important.
+In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  Using the open-cover definition of 'compact', Theorems \ref{classical} and \ref{cartesian} are equivalent to the [[fan theorem]] (and so hold in [[intuitionism]]), but Theorems \ref{metric} and \ref{uniform} are stronger and [[Jan Brouwer|Brouwer]] could not prove them, leading him to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted using the open-cover definition, but CTB spaces are still important. 
 
-In [[locale theory]] and other approaches to [[point-free topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
+In [[locale theory]] and other approaches to [[point-free topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale). 
 
 {#InDTT} In [[dependent type theory]], the open-cover definition of 'compact' holds as well, but one has to use the [[higher inductive type|higher]] [[inductive family]] of [[inductive covers]] instead of the usual pointwise definitions of covers ([UFP13, §11.5](#UFP13)). 
+
+### Constructive taboos
+
+The pointwise open-cover definition of the [[Heine-Borel theorem]] is provable from various constructive [[taboos]]. These include 
+
+* [[Hofmann-Lawson duality]], since the [[locale of real numbers]] is a [[locally compact locale]]
+* the [[fan theorem]]
 
 ## Proofs
  {#Proofs}
