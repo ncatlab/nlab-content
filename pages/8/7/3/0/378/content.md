@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -70,7 +69,7 @@ The **acyclic fibrations** (i.e. the maps that are both fibrations as well as we
 
 =--
 
-This appears spelled out for instance as ([Goerss-Jardine, theorem 11.2](#GoerssJardine)).
+This appears spelled out for instance as ([Goerss & Jardine 1999, theorem 11.2](#GoerssJardine99)).
 
 
 In fact:
@@ -309,7 +308,8 @@ The Quillen model structure is both left and right [[proper model category|prope
 * geometric realization $sSet \to Top$, where $Top$ denotes a sufficiently [[convenient category of topological spaces]] (e.g. the category of [[k-spaces]] suffices) and
 * $Ex^\infty : sSet \to Kan$, where $Kan$ is the category of [[Kan complexes]].
 
-This can be found, for instance, in [Goerss-Jardine, Cor. II.9.6](#GoerssJardine).  Another proof can be found in [Moss](#Moss), and a different proof of properness can be found in [Cisinski, Prop. 2.1.5](#Cisinski06).
+This can be found, for instance, in [Goerss & Jardine 1999, Cor. II.9.6](#GoerssJardine99).  Another proof can be found in [Moss](#Moss), and a different proof of properness can be found in [Cisinski, Prop. 2.1.5](#Cisinski06).
+
 
 ## References 
 
