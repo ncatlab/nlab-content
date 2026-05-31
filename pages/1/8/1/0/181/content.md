@@ -73,6 +73,7 @@ More generally:
 
 * $L_\infty$-[[L-infinity-algebra|algebra]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
 
+
 ### Classes with extra properties and structure
 
 * [[Banach coalgebra]], [[C-star coalgebra]]
