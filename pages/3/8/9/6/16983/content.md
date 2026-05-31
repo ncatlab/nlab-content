@@ -25,17 +25,54 @@ For example, the [[law of excluded middle]] (LEM) is a taboo for [[constructive 
 
 These taboos are unprovable in [[neutral constructive mathematics]].
 
+#### Omniscience axioms
+
 * [[law of excluded middle]]
+* [[law of double negation]]
+* [[weak excluded middle]]
+* [[De Morgan's law]]
+
 * [[principle of omniscience]]
+  * [[limited principle of omniscience]]
+  * [[lesser limited principle of omniscience]]
+  * [[weak limited principle of omniscience]]
+  * [[Markov's principle]]
+
+#### Choice axioms
+
 * [[axiom of choice]]
-* [[supports split]]
-* [[fan theorem]]
 * [[choice operator]]
+* [[supports split]]
 * [[presentation axiom]]
 * [[dependent choice]]
 * [[countable choice]]
+
+#### Topological and analytic axioms
+
+* [[fan theorem]]
+* [[Heine-Borel theorem]]
+* [[Hofmann-Lawson duality]]
+* [[Boolean prime ideal theorem]]
+* [[ultrafilter theorem]]
+* [[Tychonoff theorem]]
+* [[Hahn-Banach theorem]]
+* [[analytic principle of omniscience]]
+  * [[analytic LPO]]
+  * [[analytic LLPO]]
+  * [[analytic WLPO]]
+  * [[analytic Markov's principle]]
 * [[Brouwer's continuity principle]]
+
+#### Model theory
+
+* [[compactness theorem]]
+
+#### Other
+
 * [[internal parametricity]]
+* [[synthetic quasi-coherence]]
+* [[axiom of determinacy]]
+* [[completeness theorem]]
 
 ### Weakly predicative-constructive taboos
 
