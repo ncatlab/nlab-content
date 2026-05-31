@@ -87,6 +87,13 @@ In the case of [[topological spaces]] or other models of  classical [[homotopy t
 \end{example}
 
 
+\begin{example}
+The [[frame of opens]] of any [[monoid]] [[internalization|internal to]] the [[category of locales]] is a [[comonoid]] with respect to the [[coproduct]] of [[frames]], since the [[category of locales]] is the [[opposite category]] of the [[category of frames]].
+\end{example}
+
+\begin{example}
+In particular, the [[frame of opens]] of the [[locale of real numbers]] is a [[cocommutative comonoid]] with respect to the [[coproduct]] of [[frames]] in two different ways, since [[addition]] and [[multiplication]] on the [[Dedekind real numbers]] can both be extended to the [[locale of real numbers]]. 
+\end{example}
 
 ## Related concepts
 
