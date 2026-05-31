@@ -253,8 +253,7 @@ Dually, in a right proper model category, ordinary [[pullbacks]] along fibration
 +-- {: .proof}
 ###### Proof
 
-This is stated for instance in [[Higher Topos Theory|HTT, prop A.2.4.4]] or in prop. 1.19 in
-[Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). We follow the proof given in this latter reference.
+This is stated for instance in [[Higher Topos Theory|HTT, prop A.2.4.4]] and [Barwick 2010 Prop. 1.19](#Barwick10). We follow the proof given in this latter reference.
 
 We demonstrate the first statement, the second is its direct formal dual.
 
@@ -525,7 +524,6 @@ The general theory can be found in
 
 * {#Hirschhorn} [[Philip Hirschhorn]], chapter 13 of _Model Categories and Their Localizations_, 2003 ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
  
-
 also in 
 
 * {#Reedy} [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
@@ -542,7 +540,10 @@ See also:
 
 * {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
-Examples of nonproper model structures can be found in:
+* {#Barwick10} [[Clark Barwick]]: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
+
+
+Examples of nonproper model structures:
 
 * [[Simon Henry]], _Counter-example to the existence of left Bousfield localization of combinatorial model category_ [MathOverflow](https://mathoverflow.net/questions/325383/counter-example-to-the-existence-of-left-bousfield-localization-of-combinatorial)
 
