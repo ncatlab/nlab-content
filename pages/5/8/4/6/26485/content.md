@@ -1,9 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ## Idea
 
-Right Bousfield localizations (alias **cellularizations**) of [[model categories]] are a way to encode [[coreflective localizations]] of [[(∞,1)-categories]] in the setting of [[model categories]].
+*Right Bousfield localizations* (alias *cellularizations*) of [[model categories]] are a way to present [[coreflective localizations]] [[localization of an (infinity,1)-category|of]] [[(∞,1)-categories]] via [[model categories]].
 
-Given a [[model category]] $M$,
-the formal definition and elementary properties can be deduced from the definition and properties of [[left Bousfield localizations]] of the [[opposite category]] of $M$.
+Given a [[model category]] $M$, the formal definition and elementary properties can be deduced from the definition and properties of [[left Bousfield localizations]] of the [[opposite category]] of $M$.
 
 However, the typical existence theorems for right Bousfield localizations are not formulated in this manner, since typical conditions involve some form of [[local presentability]] of the underlying category, or an analogous condition, which typically do not hold for the [[opposite category]].
 
@@ -28,11 +42,11 @@ Detailed discussion (including existence results for [[left proper model categor
 
 Existence results for [[combinatorial model categories]]:
 
-* {#Barwick10} [[Clark Barwick]], *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
+* {#Barwick10} [[Clark Barwick]]: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
 
-Right Bousfield localization specifically for [[stable model categories]] (such as [[model structures on spectra]]):
+On right Bousfield localization specifically for [[stable model categories]] (such as [[model structures on spectra]]):
 
-* D. Barnes and C. Roitzheim. Stable left and right Bousfield localisations. Glasg. Math. J., 56(1):13–42, 2014.
+* [[David Barnes]], [[Constanze Roitzheim]]: *Stable left and right Bousfield localisations*, Glasg. Math. J. **56** 1 (2014) 13--42 \[<a href="https://doi.org/10.1017/S0017089512000882">arXiv:10.1017/S0017089512000882</a>, <a href="https://arxiv.org/abs/1204.5384">arXiv:1204.5384</a>\]
 
 [[!redirects right Bousfield localization]]
 [[!redirects right Bousfield localizations]]
