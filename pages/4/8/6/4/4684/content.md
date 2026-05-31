@@ -440,7 +440,7 @@ See the examples at _[[differentiable manifold]]_.
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], the [[Heine-Borel theorem]] might fail for the [[real numbers]], which means that the real numbers are no longer [[locally compact topological space|locally compact]] and [[paracompact space|paracompact]]. Thus, constructive mathematics which does not accept the [[Heine-Borel theorem]] for the [[real numbers]] usually uses [[locales]] instead of [[topological spaces]] and defines a topological manifold as (the [[space of points]] of) a [[paracompact locale|paracompact]] [[Hausdorff locale|Hausdorff]] and locally Euclidean locale, since the [[locale of real numbers]] still satisfies the [[Heine-Borel theorem]]. 
+In [[constructive mathematics]], the [[Heine-Borel theorem]] might fail for the [[real numbers]], which means that the real numbers are no longer [[locally compact topological space|locally compact]] and [[paracompact space|paracompact]]. Thus, constructive mathematics which does not accept the [[Heine-Borel theorem]] for the [[real numbers]] usually uses [[locales]] instead of [[topological spaces]] and defines a topological manifold as (the [[space of points]] of) a [[paracompact locale|paracompact]] [[regular locale|regular]] and locally Euclidean locale, since the [[locale of real numbers]] still satisfies the [[Heine-Borel theorem]]. Note that in constructive mathematics, a locale being [[regular locale|regular]] is used in place of a locale being [[Hausdorff locale|Hausdorff]] since [[compact regular locales]] are better behaved in constructive mathematics than [[compact locale|compact]] [[Hausdorff locales]].
 
 ## Related concepts
 
