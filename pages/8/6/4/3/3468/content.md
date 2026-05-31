@@ -36,3 +36,6 @@ A point of $X$ is the same as a point (in the usual sense) of the [[topological 
 [[!redirects point of the locale]]
 [[!redirects points of the locale]]
 [[!redirects points of the locales]]
+
+[[!redirects space of points]]
+[[!redirects spaces of points]]
