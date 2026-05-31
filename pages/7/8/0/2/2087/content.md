@@ -267,3 +267,5 @@ Take $T$ to be the theory of [[commutative monoids]], and apply Theorem \ref{gpi
 
 * Jan Paseka, _A note on the prime ideal theorem_, Acta Universitatis Carolinae, Mathematica et Physica, Vol. 30 (1989), No. 2, 131-136. ([pdf](http://dml.cz/bitstream/handle/10338.dmlcz/701805/ActaCarolinae_030-1989-2_20.pdf)) 
  {#Pas} 
+
+[[!redirects Boolean prime ideal theorem]]
