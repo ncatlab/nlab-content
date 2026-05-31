@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -582,7 +581,7 @@ $$
 
 =--
 
-(e.g. [Goerss-Jardine 99, p. 26](#GoerssJardine99))
+(e.g. [Goerss & Jardine '99 p. 26](#GoerssJardine99))
 
 +-- {: .num_remark}
 ###### Remark 
@@ -600,7 +599,7 @@ choice of representatives $f$, $g$ and of the extension $\theta$.
 
 =--
 
-e.g. ([Goerss-Jardine 99, lemma 7.1](#GoerssJardine99))
+e.g. ([Goerss & Jardine '99, lemma 7.1](#GoerssJardine99))
 
 
 +-- {: .num_lemma}
@@ -610,7 +609,7 @@ The product operation in def. \ref{ProductOnSimplicialHomotopyGroups} yields a [
 
 =--
 
-e.g. ([Goerss-Jardine 99, theorem 7.2](#GoerssJardine99))
+e.g. ([Goerss & Jardine '99, theorem 7.2](#GoerssJardine99))
 
 +-- {: .num_remark}
 ###### Remark 
@@ -851,7 +850,7 @@ Let $p \colon X \longrightarrow Y$ be a [[Kan fibration]], def. \ref{KanFibratio
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, lemma 10.6](#GoerssJardine99))
+(e.g. [Goerss & Jardine '99, chapter I, lemma 10.6](#GoerssJardine99))
 
 
 While [[simplicial sets]] have the advantage of being purely combinatorial structures, the [[singular simplicial complex]] of any given [[topological space]], def. \ref{SingularSimplicialComplex} is in general a huge simplicial set which does not lend itself to detailed inspection. The following is about small models.
@@ -905,7 +904,7 @@ The [[pullback]] (in [[sSet]]) of a [[minimal Kan fibration]], def. \ref{Minimal
 
 ... [[anodyne extensions]]...
 
-([Goerss-Jardine 99, chapter I, section 4](#GoerssJardine99), [Joyal-Tierney 09, section 1.7](#JoyalTierney09))
+([Goerss & Jardine '99, chapter I, section 4](#GoerssJardine99), [Joyal & Tierney '09, section 1.7](#JoyalTierney09))
 
 
 +-- {: .num_prop #KanFibrationHasMinimalStrongDeformationRetract}
@@ -915,7 +914,7 @@ For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, prop. 10.3](#GoerssJardine99), [Joyal-Tierney 08, theorem 3.3.1, theorem 3.3.3](#JoyalTierney08)).
+(e.g. [Goerss & Jardine '99, chapter I, prop. 10.3](#GoerssJardine99), [Joyal & Tierney '08, theorem 3.3.1, theorem 3.3.3](#JoyalTierney08)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -931,7 +930,7 @@ A morphism between [[minimal Kan fibrations]], def. \ref{MinimalKanFibration}, w
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, lemma 10.4](#GoerssJardine99))
+(e.g. [Goerss & Jardine '99, chapter I, lemma 10.4](#GoerssJardine99))
 
 +-- {: .proof}
 ###### Proof idea
@@ -947,7 +946,7 @@ Every [[minimal Kan fibration]], def. \ref{MinimalKanFibration}, over a [[connec
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, corollary 10.8](#GoerssJardine99))
+(e.g. [Goerss & Jardine '99, chapter I, corollary 10.8](#GoerssJardine99))
 
 +-- {: .proof}
 ###### Proof
@@ -1066,7 +1065,7 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, prop. 2.3](#GoerssJardine99))
+(e.g. [Goerss & Jardine '99, chapter I, prop. 2.3](#GoerssJardine99))
 
 Thus for a topological space $X$ the [[adjunction counit]] $\epsilon_X \colon {\vert Sing X\vert} \longrightarrow X$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this, $\epsilon_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
 
@@ -1185,7 +1184,7 @@ of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration} is a [[Serre fibr
 
 =--
 
-This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]]). See for instance ([Goerss-Jardine 99, chapter I, corollary 10.8, theorem 10.9](#GoerssJardine99)).
+This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]]). See for instance ([Goerss & Jardine '99, chapter I, corollary 10.8, theorem 10.9](#GoerssJardine99)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -1201,7 +1200,7 @@ The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSe
 
 =--
 
-This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss-Jardine 99, chapter I, theorem 10.10](#GoerssJardine99)).
+This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss & Jardine '99, chapter I, theorem 10.10](#GoerssJardine99)).
 
 
 
@@ -1227,7 +1226,7 @@ is a [[weak homotopy equivalence]]
 
 =--
 
-e.g. ([Goerss-Jardine 99, chapter I, prop. 11.1 and p. 63](#GoerssJardine99)).
+(e.g. [Goerss & Jardine '99, chapter I, prop. 11.1 and p. 63](#GoerssJardine99)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -1290,7 +1289,7 @@ The **[[acyclic fibrations]]** in $sSet_{Quillen}$, namely the *[[acyclic Kan fi
 
 =--
 
-This appears spelled out for instance as ([Goerss-Jardine 99, theorem 11.2](#GoerssJardine99)).
+This appears spelled out for instance as ([Goerss & Jardine '99, theorem 11.2](#GoerssJardine99)).
 
 
 In fact:
@@ -1355,12 +1354,31 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 ### Properness
  {#Properness}
 
-The Quillen model structure is both left and right [[proper model category|proper]].  Left properness is automatic since all objects are cofibrant.  Right properness follows from the following argument: it suffices to show that there is a functor $R$ which (1) preserves fibrations, (2) preserves pullbacks of fibrations, (3) preserves and reflects weak equivalences, and (4) lands in a category in which the pullback of a weak equivalence along a fibration is a weak equivalence.  For if so, we can apply $R$ to the pullback of a fibration along a weak equivalence to get another such pullback in the codomain of $R$, which is a weak equivalence, and hence the original pullback was also a weak equivalence.  Two such functors $R$ are
+\begin{proposition}
+The Quillen model structure is both left and right [[proper model category|proper]].  
+\end{proposition}
+\begin{proof}
+Left properness is automatic since all objects are cofibrant.  
 
-* geometric realization $sSet \to Top$, where $Top$ denotes a sufficiently [[convenient category of topological spaces]] (e.g. the category of [[k-spaces]] suffices) and
-* $Ex^\infty : sSet \to Kan$, where $Kan$ is the category of [[Kan complexes]].
+Right properness follows from the following argument: it suffices to show that there is a functor $R$ which
 
-This may be found, for instance, in II.8.6--7 of [Goerss-Jardine](model+structure+on+simplicial+sets#GoerssJardine).  Another proof may be found in [Moss](model+structure+on+simplicial+sets#Moss), and a different proof of properness may be found in [Cisinski, Prop. 2.1.5](model+structure+on+simplicial+sets#Cisinski06).
+1. preserves [[fibrations]], 
+
+1. [[preserved limit|preserves pullbacks]] of fibrations, 
+
+1. preserves and reflects [[weak equivalences]], 
+
+1. lands in a category in which the pullback of a weak equivalence along a fibration is a weak equivalence.  
+
+For if so, we can apply $R$ to the pullback of a fibration along a weak equivalence to get another such pullback in the [[codomain]] of $R$, which is a weak equivalence, and hence the original pullback was also a weak equivalence.  Two such functors $R$ are:
+
+* [[topological realization]]$\phantom{-}sSet \to Top$, where $Top$ denotes a sufficiently [[convenient category of topological spaces]] (e.g. the category of [[k-spaces]] suffices), and
+
+* $Ex^\infty \colon sSet \to Kan$, where $Kan$ is the category of [[Kan complexes]].
+
+\end{proof}
+
+Cf.  [Goerss & Jardine '99 II.8.6--7](model+structure+on+simplicial+sets#GoerssJardine99), [Moss '20](model+structure+on+simplicial+sets#Moss), [Cisinski '06, Prop. 2.1.5](model+structure+on+simplicial+sets#Cisinski06).
 
 
 ### Quillen equivalence with $Top_{Quillen}$
