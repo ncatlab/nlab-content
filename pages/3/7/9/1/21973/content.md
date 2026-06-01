@@ -47,6 +47,9 @@ Further discussion:
 
 * M. Franz, C. Kallin, P. I. Soininen, A. J. Berlinsky, A. L. Fetter: *Vortex state in a $d$-wave superconductor*, Phys. Rev. B **53** (1996) 5795 &lbrack;[doi:10.1103/PhysRevB.53.5795](https://doi.org/10.1103/PhysRevB.53.5795), [arXiv:cond-mat/9509154](https://arxiv.org/abs/cond-mat/9509154)&rbrack;
 
+* {#Pitaevskii2008} [[Lev Pitaevskii]]: *Quantized Vortex Lines*, section 2.9 in:  *Phenomenology and Microscopic Theory: Theoretical Foundations*, Chapter 2 in: Bennemann, Ketterson (eds.): *Superconductivity* volume 1: *Conventional and Unconventional Superconductors*, Springer (2008) 27--71 \[<a href="https://doi.org/10.1007/978-3-540-73253-2">doi:10.1007/978-3-540-73253-2</a>, [[Pitaevskii-SCPhenomenology.pdf:file]]\]
+
+
 On the experimental detection:
 
 * {#LoudonMidgley09} J. C. Loudon, P. A. Midgley: *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008), <a href="https://arxiv.org/abs/0807.2401">arXiv:0807.2401 cond-mat.supr-con</a>&rbrack;
