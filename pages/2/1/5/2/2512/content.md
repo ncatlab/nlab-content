@@ -18,6 +18,8 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 ## Selected talks
 
+* *Spectra and M-Theory*, Adams Memorial Lecture (2016) &lbrack;original webpage:[archive](https://web.archive.org/web/20170720190856/www.ma.man.ac.uk/~nige/ttt100.html), [alternative webpage](https://sarah-whitehouse.sites.sheffield.ac.uk/transalpine-topology-tetrahedron/past-events/ttt100-manchester), LMS newsletter: [pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/Publications/newsletter/201702.pdf#page=14)&rbrack;
+
 * _Geometric perspectives on topological action functionals_, talk at _[The CUNY Workshop on differential cohomology](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, August 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1802/))
 
 
