@@ -188,7 +188,7 @@ $$
   \array{
     K &\to& Z_\beta
     \\
-    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{a}}
+    \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{q}}
     \\
     L &\to& Y
   }
