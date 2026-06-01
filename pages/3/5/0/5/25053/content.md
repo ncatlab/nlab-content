@@ -57,9 +57,9 @@ On the [[M-algebra]]:
 * [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Hidden M-Group]]*, Journal of Geometry and Physics (2025) &lbrack;[doi:10.1016/j.geomphys.2025.105743](https://doi.org/10.1016/j.geomphys.2025.105743), [arXiv:2411.11963](https://arxiv.org/abs/2411.11963)&rbrack;
 
 
-On [[covariant derivative|covariant]] [[Lie derivatives]] of [[fiber bundle|bundle]]-valued [[differential forms]]:
+On [[covariant derivative|covariant]] [[Lie derivatives]] of [[section]]-valued [[differential forms]]:
 
-* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity* &lbrack;[arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
+* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
 
 On the [[duality between M-theory and type IIA string theory]] on [[superspace]] and in view of [[geometry of physics -- flux quantization|flux quantization]]:
 
