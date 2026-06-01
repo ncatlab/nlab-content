@@ -12,6 +12,7 @@
 
 
 
+
 \tableofcontents
 
 
@@ -47,6 +48,7 @@ At the same time, in their superconducting phase, [[magnetic fields]] are expell
   * [[dual superconductor model of confinement]]
 
 
+
 ## References
 
 ### General
@@ -61,8 +63,10 @@ Theoretical introduction and review:
 
 * [[Alexander L. Fetter]], [[John Dirk Walecka]], Ch. 13 of: *Quantum theory of many-particle systems*, Mcgraw-Hill (1991); Dover (2003) &lbrack;[archive.org](https://archive.org/details/quantum-theory-of-many-particle-systems-by-alexander-l.-fetter-john-dirk-walecka-physics-z-lib.org/mode/thumb)&rbrack; 
 
+* {#Chapman00} S. J. Chapman: _A Hierarchy of Models for Type-II Superconductors_, IAM Review **42** 4 (2000) 555--598 &lbrack;[doi:10.1137/S0036144599371913](https://doi.org/10.1137/S0036144599371913), [jstor:2653134](https://www.jstor.org/stable/2653134)&rbrack;
 
-* {#Chapman00} S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
+* {#Pitaevskii2008} [[Lev Pitaevskii]]: *Phenomenology and Microscopic Theory: Theoretical Foundations*, Chapter 2 in: Bennemann, Ketterson (eds.): *Superconductivity* volume 1: *Conventional and Unconventional Superconductors*, Springer (2008) 27--71 \[<a href="https://doi.org/10.1007/978-3-540-73253-2">doi:10.1007/978-3-540-73253-2</a>, [[Pitaevskii-SCPhenomenology.pdf:file]]\]
+
 
 * {#Timm20} [[Carsten Timm]], *Theory of Superconductivity*, lecture notes (2020-2023) &lbrack;[pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en), [[Timm-Superconductivity.pdf:file]]&rbrack;
 
