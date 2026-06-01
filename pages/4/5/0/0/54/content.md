@@ -77,7 +77,7 @@ Projects:
 
 * (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber)*, Hangzhou, 30 Oct--3 Nov 2026
 
-<div style="float:left;margin:-50px 40px 00px 20px;">
+<div style="float:left;margin:-25px 40px 00px 20px;">
 <a href="https://youtu.be/V7749J5-lho"><img src="/schreiber/files/aboutlogic-thumbnail.png" width="370"></a> 
 </div>
 
@@ -91,7 +91,7 @@ Projects:
 
   [teaser](https://youtu.be/rKmPa1fa7nE?t=3154),
 
-  shorts: *[Gauge Equivalence in Physics](https://www.youtube.com/shorts/jMCNyyPIiUI?feature=share)*
+  shorts: *[Gauge Equivalence in Physics](https://www.youtube.com/shorts/jMCNyyPIiUI?feature=share)*, *[Differential Geometry in Physics](https://www.youtube.com/shorts/8X2VCvosnyY?feature=share)*,  *[Elegant Math for Physics](https://www.youtube.com/shorts/Ywfv96_DHR0?feature=share)*
 
   \linebreak
 
