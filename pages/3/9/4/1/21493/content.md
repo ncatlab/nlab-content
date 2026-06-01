@@ -1,5 +1,14 @@
 
-* [webpage](https://zoewyatt.wordpress.com/)
+* [personal page](https://www.dpmms.cam.ac.uk/~zw253/)
+
+* [institute page](https://www.dpmms.cam.ac.uk/person/zw253)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=265681)
+
+* [inSpire page](https://inspirehep.net/authors/1737880)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Zoe-Wyatt-2128618268)
+
 
 ## Selected writings
 
