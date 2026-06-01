@@ -236,12 +236,12 @@ Review in the context of the [[Stone-von Neumann theorem]]:
 
 Monographs:  
 
+* [[Gerald B. Folland]]: *The Heisenberg Group --- A Survey*, Colloquium Publications **68**, American Mathematical Society (2025) &lbrack;[ISBN:978-1-4704-7989-3](https://bookstore.ams.org/view?ProductCode=COLL/68), [ams:coll/068](https://pubs.ams.org/ebooks/coll/068)&rbrack;
+
+
 * {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]], §9.5 in: *Loop groups*, Oxford University Press (1988) &lbrack;[ISBN:9780198535614](https://global.oup.com/academic/product/loop-groups-9780198535614)&rbrack;
   > (in the context of [[loop groups]])
   
-
-
-
 
 * [[Ernst Binz]], Sonja Pods, *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
 
