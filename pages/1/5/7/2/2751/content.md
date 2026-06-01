@@ -335,9 +335,9 @@ A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms 
 
 * [[Gonzalo Reyes]], _Covariant derivation_ ([pdf](https://marieetgonzalo.files.wordpress.com/2006/04/covariant-derivation1.pdf))
 
-On covariant [[Lie derivatives]] of [[fiber bundle|bundle]]-valued [[differential forms]]:
+On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]]:
 
-* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity* &lbrack;[arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
+* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
 
 [[!redirects covariant derivative]]
 [[!redirects covariant derivatives]]
