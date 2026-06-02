@@ -55,6 +55,10 @@ On the [[fractional quantum anomalous Hall effect]] in [[graphene]]:
 
 * Ke Huang, Xiao Li, [[Sankar Das Sarma]], Fan Zhang: *Self-consistent theory of fractional quantum anomalous Hall states in rhombohedral graphene* Phys. Rev. B **110** (2024) 115146 &lbrack;[doi:10.1103/PhysRevB.110.115146](https://doi.org/10.1103/PhysRevB.110.115146), [arXiv:2407.08661](https://arxiv.org/abs/2407.08661)&rbrack;
 
+On the effect of [[disorder]] and [[temperature]] on [[integer quantum Hall systems]]:
+
+* {#SauDasSarmaEtAl2025} Stuart Yi-Thomas, Yi Huang, [[Jay D. Sau]], [[Sankar Das Sarma]]: *Integer Quantum Hall Effect: Disorder, temperature, floating, and plateau width*, Phys. Rev. B **111** (2025) 195305 \[<a href="https://doi.org/10.1103/PhysRevB.111.195305">doi:10.1103/PhysRevB.111.195305</a>, <a href="https://arxiv.org/abs/2501.08273">arXiv:2501.08273</a>\]
+
 
 
 category: people
