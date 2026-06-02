@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -32,9 +31,12 @@ A hypothesis about the emergence of [[thermodynamics]] in [[quantum many-body ph
 
 
 
-See also 
+See also: 
 
 * Wikipedia, *[Eigenstate thermalization hypothesis](https://en.wikipedia.org/wiki/Eigenstate_thermalization_hypothesis)*
+
+* Aleksander Lasek, Jae Dong Noh, Jade LeSchack, Nicole Yunger Halpern: *Numerical evidence for the non-Abelian eigenstate thermalization hypothesis*, Phys. Rev. E **113** 054140 (2026) \[<a href="https://doi.org/10.1103/j8xb-xfln">doi:10.1103/j8xb-xfln</a>, [arXiv:2412.07838](https://arxiv.org/abs/2412.07838)\]
+
 
 Relation to [[quantum error correcting codes]] obtained from [[holographic tensor networks]]:
 
