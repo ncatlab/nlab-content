@@ -17,9 +17,9 @@
 =--
 =--
 
-# Pretopos
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definitions
 
@@ -67,7 +67,7 @@ Infinitary pretoposes are precisely the algebras for the [[free cocompletion]] p
 * Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
 
 * An example of a pretopos that is not a [[topos]] is the [[category]]
-of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
+of [[compact Hausdorff spaces]] ([Marra & Reggio 2020](#MarraReggio2020)).
 
 * An example of a Boolean pretopos that is not [[cartesian closed category|cartesian closed]] is the category of finite or countably infinite sets (cf. [[Elephant]] p.54).
 
@@ -113,7 +113,7 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 * {#vdBergMoerdijk2008} [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
-* {#MarraReggio} [[Vincenzo Marra]], [[Luca Reggio]], _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. 35 (2020), Paper No. 51, 1871–1906. [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738).
+* {#MarraReggio2020} Vincenzo Marra, Luca Reggio: _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. **35** 51 (2020) 1871–-1906 &lbrack;[tac:35-51](http://www.tac.mta.ca/tac/volumes/35/51/35-51abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738)&rbrack;
 
 * {#Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
 
