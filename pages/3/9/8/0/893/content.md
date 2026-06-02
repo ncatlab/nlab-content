@@ -80,3 +80,6 @@ and in fact the different types of propositional logic are usually conveniently 
 [[!include categories and logic - table]]
 
 [[!redirects classical logics]]
+
+[[!redirects Boolean logic]]
+[[!redirects Boolean logics]]
