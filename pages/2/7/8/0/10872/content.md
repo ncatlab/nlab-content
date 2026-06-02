@@ -13,7 +13,7 @@ In [[quantum field theory]] a _conformal anomaly_ is a [[quantum anomaly]] that 
 ### Weyl anomaly of relativistic string
 
 Discussion of the conformal anomaly (Weyl anomaly) of the [[relativistic string]] as an anomalous action functional is in ([Freed 86, 2.](#Freed86)).
-The following summary of this is taken from [this MO answer](http://mathoverflow.net/a/99667/381) by Pavel Safranov.
+The following summary of this is taken from [this MO answer](http://mathoverflow.net/a/99667/381) by Pavel Safronov.
 
 
 Let $\Sigma$ be a compact surface (worldsheet) and $M$ a Riemannian manifold (spacetime). The string partition function looks like
