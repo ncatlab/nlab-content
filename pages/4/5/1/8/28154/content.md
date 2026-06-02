@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[solid state physics]], *Anderson localization* is the phenomenon that [[quantum]] [[particles]] may *localize* in *disordered* media, meaning that instead of propagating freely they get stuck at certain positions. For [[electrons]] in a [[crystal]] this means that as the density of impurities becomes large, the crystal may turn from a [[conductor]] (where electrons move freely) to an [[insulator]], then called an *Anderson insulator*.
+In [[solid state physics]], *Anderson localization* is the phenomenon that [[quantum]] [[particles]] may *localize* in *[[disorder|disordered]]* media, meaning that instead of propagating freely they get stuck at certain positions. For [[electrons]] in a [[crystal]] this means that as the density of impurities becomes large, the crystal may turn from a [[conductor]] (where electrons move freely) to an [[insulator]], then called an *Anderson insulator*.
 
 Anderson localization is a [[quantum mechanics|quantum mechanical]] phenomenon in stark contrast to the situation in [[classical physics]]: For the motion of classical bouncing Billiard balls, the presence of "bumpers" (impurities) in their path will make their motion [[diffusion|diffuse]] instead of localize. But for [[quanta]] described by [[wave mechanics]] the impurities tend to lead to destructive [[quantum interference]] of their [[wavefunction]] with itself, thus resulting in the localization phenomenon.
 
@@ -73,6 +73,11 @@ Further discussion:
 Disorder, Phase Coherence, and Electron Correlations*, Lecture Notes in Physics **630**, Springer (2003) &lbrack;[doi:10.1007/b13139](https://doi.org/10.1007/b13139)&rbrack;
 
 * Marcel Filoche, Svitlana Mayboroda: *Universal mechanism for Anderson and weak localization*, PNAS **109** 37 (2012) 14761-14766 &lbrack;[doi:10.1073/pnas.1120432109](https://doi.org/10.1073/pnas.1120432109)&rbrack;
+
+In the context of the [[fractional quantum Hall effect]]:
+
+* Songyang Pu, G. J. Sreejith, [[Jainendra K. Jain]]: *Anderson localization in fractional quantum Hall effect*, Phys. Rev. Lett. **128** 116801 (2022) \[<a href="https://doi.org/10.1103/PhysRevLett.128.116801">doi:10.1103/PhysRevLett.128.116801</a>, [arXiv:2109.00362 cond-mat.mes-hall](https://arxiv.org/abs/2109.00362)\]
+
 
 
 
