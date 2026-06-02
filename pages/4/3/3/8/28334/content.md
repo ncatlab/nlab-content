@@ -3,7 +3,7 @@
 
 * [institute page](https://www.nottingham.ac.uk/research/groups/fp-lab/people/aref.mohammadzadeh)
 
-* [GoogleScholar page](https://scholar.google.com/citations?user=jQ2BYKUAAAAJ&hl=en)
+* [GoogleScholar page](https://scholar.google.co.uk/citations?view_op=list_works&hl=en&authuser=1&hl=en&user=NAxNl6EAAAAJ&authuser=1)
 
 ## Selected writings
 
