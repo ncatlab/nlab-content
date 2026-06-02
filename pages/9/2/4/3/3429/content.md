@@ -5,8 +5,8 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=3fiEMcgAAAAJ&hl=en)
 
-## Selected writings
 
+## Selected writings
 
 On the [[adjoint triangle theorem]]:
  
@@ -23,7 +23,7 @@ On [[Kan extensions]] in [[enriched category theory]]:
 
 Introducing the [[Dubuc topos]] for [[synthetic differential geometry]]:
 
-* [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XX-3 (1979) &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack;
+* [[Eduardo Dubuc]]: *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] **XX** 3 (1979) 231--279 &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack;
 
 More [[C-infinity rings|$C^\infty$-rings]] and [[synthetic differential geometry]]:
 
