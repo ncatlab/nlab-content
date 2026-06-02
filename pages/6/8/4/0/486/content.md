@@ -71,8 +71,6 @@ of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
 * An example of a Boolean pretopos that is not [[cartesian closed category|cartesian closed]] is the category of finite or countably infinite sets (cf. [[Elephant]] p.54).
 
-* The category of [[decidable objects]] of a [[topos]] is a Boolean pretopos. 
-
 * The [[exact completion]] of the category [[Ho(Top)]] of [[topological spaces]] and [[homotopy classes]] of [[continuous maps]] is a pretopos. 
 
 * In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
