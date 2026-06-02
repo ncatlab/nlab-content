@@ -9,13 +9,12 @@
 =--
 =--
 
-# Entropy
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
-Entropy is a measure of disorder, given by the amount of [[information]] necessary to precisely specify the [[state]] of a system.
+Entropy is a measure of [[disorder]], given by the amount of [[information]] necessary to precisely specify the [[state]] of a system.
 
 Entropy is important in [[information theory]] and [[statistical physics]].
 
@@ -246,6 +245,7 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 * [[dissipative system]]
 
+* [[disorder]]
 
 ## References
 {#References}
