@@ -67,7 +67,7 @@ $n_{\mathrm{el}} = \nu B/\Phi_0$,
 $\nu \in \mathbb{N}$
 of the number of [[flux]] [[flux quantization|quanta]], where longitudinal conductivity should vanish.
 
-This is indeed observed and is called the *integer quantum Hall effect* --- in fact the vanishing conductivity is observed in sizeable neighbourhoods of the critical filling fractions ("Hall plateaux", attributed to disorder effects).
+This is indeed observed and is called the *integer quantum Hall effect* --- in fact the vanishing conductivity is observed in sizeable neighbourhoods of the critical filling fractions ("Hall plateaux", attributed to disorder effects, cf. [Sau, Das Sarma et al. 2025](#SauDasSarmaEtAl2025)).
 
 
 
@@ -814,6 +814,11 @@ Review of this theory behind the quantum Hall effect:
 
 * S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. **349** (2017) 819–855 &lbrack;[doi:10.1007/s00220-016-2789-2](https://doi.org/10.1007/s00220-016-2789-2)&rbrack;
   > (relation to the [[Quillen metric]] on [[determinant line bundles]])
+
+More details on the effect of [[disorder]]:
+
+* {#SauDasSarmaEtAl2025} Stuart Yi-Thomas, Yi Huang, [[Jay D. Sau]], [[Sankar Das Sarma]]: *Integer Quantum Hall Effect: Disorder, temperature, floating, and plateau width*, Phys. Rev. B **111** (2025) 195305 \[<a href="https://doi.org/10.1103/PhysRevB.111.195305">doi:10.1103/PhysRevB.111.195305</a>, <a href="https://arxiv.org/abs/2501.08273">arXiv:2501.08273 cond-mat.mes-hall</a>\]
+
 
 
 
