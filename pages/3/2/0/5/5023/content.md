@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -264,6 +262,10 @@ On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenbe
 * [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
 
 * [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
+
+On Heisenberg groups of canonical observables on  [superconducting qubits](superconductivity#SuperconductingQBitsReferences) realized on [[Josephson junctions]]:
+
+* F. Benatti, F. Carollo, [[Roberto Floreanini]], H. Narnhofer, F. Valiera: *A quantum fluctuation description of charge qubits*, New J. Phys. **26** (2024) 013057 \[<a href="http://doi.org/10.1088/1367-2630/ad19ac">doi:10.1088/1367-2630/ad19ac</a>, [arXiv:2304.13351 cond-mat.mes-hall](https://arxiv.org/abs/2304.13351)\]
 
 
 ### For abelian Chern-Simons theory
