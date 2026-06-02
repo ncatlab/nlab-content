@@ -16,6 +16,7 @@
 =--
 
 
+
 +-- {: .query}
 $\,$
  <div align="center" >
@@ -92,7 +93,9 @@ One goal of the $n$Lab is to help make information widely available and usefully
 
 * Conversely, any content contributed to the $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) and indeed may edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
-Usually this works well. If there is need for discussion, the [nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the active nLab community might intervene. 
+Usually this works well. If there is need for discussion, the 
+[nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+
 
 ## Installation
  {#Installation}
@@ -124,7 +127,16 @@ The default venue for all communication regarding the nLab is the [nForum](https
 
   or directly on [github.com/ncatlab/nlab/issues](https://github.com/ncatlab/nlab/issues). 
 
-Please do not try to contact the technical team on matters that are not purely technical: Policy decisions are made by the active nLab community. 
+Please do not try to contact the technical team on matters that are not purely technical: Policy decisions are made by the active nLab community or, if all fails, by the [Steering Committee](#SteeringCommitte).
+
+
+\linebreak
+
+## Steering Committee 
+ {#SteeringCommitte}
+
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
+
 
 category: meta
 
