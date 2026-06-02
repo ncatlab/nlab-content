@@ -116,11 +116,11 @@ do not hold for all affine propositions $P$.
 
 * A proposition $P$ is said to be *affirmative* if 
 
-$$!P \multimap P \;\mathrm{or}\; P \boxtimes P \multimap P$$ 
+$$P \multimap !P \;\mathrm{or}\; P \multimap P \boxtimes P$$ 
 
 * A proposition $P$ is said to be *refutative* if 
 
-$$P \multimap ?P \;\mathrm{or}\; P \multimap P \boxplus P$$ 
+$$?P \multimap P \;\mathrm{or}\; P \boxplus P \multimap P$$ 
 
 * A proposition $P$ is said to be *[[stable proposition|stable]]* if it is both affirmative and refutative. 
 
