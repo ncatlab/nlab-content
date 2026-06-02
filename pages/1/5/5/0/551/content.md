@@ -18,9 +18,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ##Idea
 
@@ -66,8 +64,10 @@ A [[morphism]] $f \colon A \to B$ is called _decidable_ if it is a decidable obj
 * Of course, in a [[Boolean category]], every object is decidable. Conversely in a [[topos]] $\mathcal{E}$, or more generally a coherent category with a [[subobject classifier]], every object is decidable precisely if $\mathcal{E}$ is Boolean.
 
 ## Properties
+ {#Properties}
 
-The category of decidable objects in a [[topos]] is [[regular]], [[extensive]] and full on subobjects ([Berger & Iwaniack](#BergerIwaniack), Lemma 1.3(6)), but not in general Boolean or a pretopos (unless, of course, the starting topos was a Boolean topos). See also [[finite object#subcategories_of_finite_objects|Subcategories of finite objects]].
+The category of decidable objects in a [[topos]] is [[regular]], [[extensive]] and full on [[subobjects]] ([Berger & Iwaniack Lem. 1.3(6)](#BergerIwaniack)), but not in general [[Boolean category|Boolean]] or a [[pretopos]] (cf. [B&I Rem 1.6](#BergerIwaniack) and [math.SE:q/5138618](https://math.stackexchange.com/q/5138618/58526); unless, of course, the starting topos was a [[Boolean topos]]). See also at *[[finite object#subcategories_of_finite_objects|Subcategories of finite objects]]*.
+
 
 ## Related concepts
 
@@ -79,12 +79,13 @@ The category of decidable objects in a [[topos]] is [[regular]], [[extensive]] a
 
 * [[separable algebra]]
 
+
 ## References
 
-* B. P. Chisala, M.-M. Mawanda, _Counting Measure for Kuratowski Finite Parts and Decidability_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** 4 (1991) pp.345-353. ([pdf](archive.numdam.org/article/CTGDC_1991__32_4_345_0.pdf))
+* B. P. Chisala, M.-M. Mawanda: _Counting Measure for Kuratowski Finite Parts and Decidability_, [[Cahiers]] Top. G&#233;om. Diff. Cat. **XXXII** 4 (1991) 345--353 &lbrack;[numdam:CTGDC_1991__32_4_345_0](https://www.numdam.org/item/?id=CTGDC_1991__32_4_345_0), [pdf](archive.numdam.org/article/CTGDC_1991__32_4_345_0.pdf)&rbrack;
 
-* [[Aurelio Carboni|A. Carboni]], [[G. Janelidze]], _Decidable (=separable) objects and morphisms in lextensive categories_ , JPAA **110** (1996) pp.219-240.
+* [[Aurelio Carboni]], [[George Janelidze]]: _Decidable (=separable) objects and morphisms in lextensive categories_, JPAA **110** (1996) 219--240
 
-* [[Peter Johnstone]], _Sketches of an Elephant_ vols. I,II, Oxford UP 2002.
+* {#Johnstone02} [[Peter Johnstone]]: *[[Sketches of an Elephant|Sketches of an elephant: a topos theory compendium]]*,  Oxford University Press (2002), Volume 1 &lbrack;[ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)&rbrack;, Volume 2 &lbrack;[ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982)&rbrack;
 
-* {#BergerIwaniack} [[Clemens Berger]], [[Victor Iwaniack]], _On the profinite fundamental group of a connected Grothendieck topos_, [arXiv:2304.05338](https://arxiv.org/abs/2304.05338)
+* {#BergerIwaniack} [[Clemens Berger]], Victor Iwaniack: _On the profinite fundamental group of a connected Grothendieck topos_ &lbrack;[arXiv:2304.05338](https://arxiv.org/abs/2304.05338)&rbrack;
