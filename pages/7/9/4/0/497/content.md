@@ -127,6 +127,12 @@ $$\lambda x:\mathrm{isProp}(P).\pi_1(\mathrm{lem}_P(x)):\mathrm{isProp}(P) \to (
 which is precisely the untruncated version of excluded middle
 \end{proof}
 
+## In the antithesis interpretation
+
+In the [[antithesis interpretation]] of [[intuitionistic logic]] into [[affine logic]], propositions in the affine logic are [[pairs]] of [[mutually exclusive propositions]]. They always satisfy the multiplicative excluded middle $P \boxplus P^\bot$, which is equivalent to the law of non-contradiction of [[mutually exclusive propositions]], and never satisfy the additive excluded middle $P \sqcup P^\bot$, since the never true and never false proposition $(\bot, \bot)$ is always a proposition in the affine logic: even in the case where the underlying topos is a [[Boolean topos]], the affine logic is [[Łukasiewicz logic]] rather than [[Boolean logic]]. 
+
+The intuitionistic notion of excluded middle, satisfied in a [[Boolean topos]], is instead represented in the affine logic by using the [[exponential conjunction]] $!P \sqcup (!P)^\bot$ or [[multiplicative conjunction]] $(P \boxtimes P) \sqcup (P \boxtimes P)^\bot$, which uses only the affirmative propositions, affine propositions that are pairs $(P, \neg P)$ of an intuitionistic proposition and its negation, rather than all propositions. The intuitionistic notion of excluded middle can also be represented in the affine logic by using the [[exponential disjunction]] $?P \sqcup (?P)^\bot$ or [[multiplicative disjunction]] $(P \boxplus P) \sqcup (P \boxplus P)^\bot$, which uses only the refutative propositions, affine propositions that are pairs $(\neg P, P)$ of an intuitionistic proposition and its negation, rather than all propositions. 
+
 ## Relation to the axiom of choice
  {#RelationToTheAxiomOfChoice}
 
@@ -294,6 +300,10 @@ are all equivalent to each other.
 * {#McLarty96} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_, Oxford University Press, 1996
 
 * {#Shulman18} [[Mike Shulman]], *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 ([doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+
+In the antithesis interpretation: 
+
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
 ### Relation to other axioms:
 
