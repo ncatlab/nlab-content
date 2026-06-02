@@ -31,17 +31,15 @@ In ([[modal logic|modal]]) [[logic]], a [[proposition]] $p$ is __stable__ under 
 
 (In terms of [[modal type theory]] and [[propositions as types]] this means that $p$ is a _[[modal type]]_.)
 
-## Examples
+## Double negation stability 
 
-### Double negation stability 
+### In intuitionistic logic
 
-#### In intuitionistic logic
-
-In [[intuitionistic logic]], the default is the [[double negation]] modality $\neg\neg$.  Since $p \Rightarrow \neg\neg{p}$ regardless, $p$ is stable iff $\neg\neg{p} \Rightarrow p$.  Being stable is weaker than being [[decidable proposition|decidable]]; however, if every proposition is stable, then every proposition is decidable and the logic becomes [[classical logic|classical]].  (This is because $p$ is decidable iff $p \vee \neg{p}$ is stable.)  Double negation is monadic, so by the previous paragraph, $p$ is stable iff $p \equiv \neg\neg{q}$ for some $q$; in fact, $p$ is stable iff $p \equiv \neg{q}$ for some $q$.  (I guess that this has to do with [[negation]] forming a [[monadic adjunction]] with itself, or something like that.)  In the [[topological semantics]] of intuitionistic logic (where propositions correspond to [[open sets]]), the stable propositions correspond to the [[regular open sets]].
+In [[intuitionistic logic]], the default notion of stability is the [[double negation]] modality $\neg\neg$.  Since $p \Rightarrow \neg\neg{p}$ regardless, $p$ is stable iff $\neg\neg{p} \Rightarrow p$.  Being stable is weaker than being [[decidable proposition|decidable]]; however, if every proposition is stable, then every proposition is decidable and the logic becomes [[classical logic|classical]].  (This is because $p$ is decidable iff $p \vee \neg{p}$ is stable.)  Double negation is monadic, so by the previous paragraph, $p$ is stable iff $p \equiv \neg\neg{q}$ for some $q$; in fact, $p$ is stable iff $p \equiv \neg{q}$ for some $q$.  (I guess that this has to do with [[negation]] forming a [[monadic adjunction]] with itself, or something like that.)  In the [[topological semantics]] of intuitionistic logic (where propositions correspond to [[open sets]]), the stable propositions correspond to the [[regular open sets]].
 
 In the [[internal language]] of a [[sheaf topos|category of sheaves]] $Sh(X)$, a proposition $p$ is $\neg\neg$-stable iff it is enough for $p$ to hold on a dense open subset of $X$ to be able to conclude that $p$ holds on the whole of $X$. For instance, the proposition $f = 0$ about a section $f$ of the sheaf of real functions on $X$ is $\neg\neg$-stable.
 
-#### In the antithesis interpretation
+### In the antithesis interpretation
 
 In the [[antithesis interpretation]] of [[intuitionistic logic]] into [[affine logic]], there are two notions of propositions: the usual intuitionistic propositions, and the affine propositions, which are pairs of [[mutually exclusive propositions]]. 
 
@@ -69,6 +67,8 @@ The first implication says that a proposition $P$ is *refutative*, and is define
 * [[stable equality]]
 
 ## References
+
+* [[Andrew Swan]], *Double negation stable h-propositions in cubical sets*, ([arXiv:2209.15035](https://arxiv.org/abs/2209.15035))
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
