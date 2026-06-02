@@ -6,19 +6,19 @@ On realizing [[qbits]] and [[quantum gates]] (hence [[quantum computation]]) via
 
 * [[Michel H. Devoret]], A. Wallraff, [[John M. Martinis]], *Superconducting Qubits: A Short Review* \[<a href="https://arxiv.org/abs/cond-mat/0411174">arXiv:cond-mat/0411174</a>\]
 
-* John Clarke, Frank K. Wilhelm, *Superconducting quantum bits*, Nature **453** (2008) 1031–1042 $[$[doi:10.1038/nature07128](https://doi.org/10.1038/nature07128)$]$
+* John Clarke, Frank K. Wilhelm, *Superconducting quantum bits*, Nature **453** (2008) 1031–1042 \[<a href="https://doi.org/10.1038/nature07128">doi:10.1038/nature07128</a>\]
 
-* Jerry Moy Chow, *Quantum Information Processing with Superconducting Qubits* (2010) $[$[pdf](https://rsl.yale.edu/sites/default/files/files/RSL_Theses/jmcthesis.pdf)$]$
+* Jerry Moy Chow, *Quantum Information Processing with Superconducting Qubits* (2010) \[<a href="https://rsl.yale.edu/sites/default/files/files/RSL_Theses/jmcthesis.pdf">pdf</a>\]
 
 * [[Michel H. Devoret]], R. J. Schoelkopf, *Superconducting Circuits for Quantum Information: An Outlook*, Science **339** 6124 (2013) 1169-1174 \[<a href="https://doi.org/10.1126/science.1231930">doi:10.1126/science.1231930</a>\]
 
-* Jay M. Gambetta, Jerry M. Chow, Matthias Steffen, *Building logical qubits in a superconducting quantum computing system*, npj Quantum Information **3** 2 (2017) $[$[doi:10.1038/s41534-016-0004-0](https://doi.org/10.1038/s41534-016-0004-0)$]$
+* Jay M. Gambetta, Jerry M. Chow, Matthias Steffen, *Building logical qubits in a superconducting quantum computing system*, npj Quantum Information **3** 2 (2017) \[<a href="https://doi.org/10.1038/s41534-016-0004-0">doi:10.1038/s41534-016-0004-0</a>\]
 
-* Morten Kjaergaard et al. *Superconducting Qubits: Current State of Play*, Annual Review of Condensed Matter Physics **11** (2019) 369-395 $[$[doi:10.1146/annurev-conmatphys-031119-050605](https://doi.org/10.1146/annurev-conmatphys-031119-050605)$]$
+* Morten Kjaergaard et al. *Superconducting Qubits: Current State of Play*, Annual Review of Condensed Matter Physics **11** (2019) 369-395 \[<a href="https://doi.org/10.1146/annurev-conmatphys-031119-050605">doi:10.1146/annurev-conmatphys-031119-050605</a>\]
 
-* He-Liang Huang, Dachao Wu, Daojin Fan, Xiaobo Zhu, *Superconducting Quantum Computing: A Review*, Science China Information Sciences **63** 8 (2020) 1-32 $[$[arXiv:2006.10433](https://arxiv.org/abs/2006.10433), [doi:10.1007/s11432-020-2881-9](https://doi.org/10.1007/s11432-020-2881-9)$]$
+* He-Liang Huang, Dachao Wu, Daojin Fan, Xiaobo Zhu: *Superconducting Quantum Computing: A Review*, Science China Information Sciences **63** 8 (2020) 1-32 \[<a href="https://doi.org/10.1007/s11432-020-2881-9">doi:10.1007/s11432-020-2881-9</a>[arXiv:2006.10433](https://arxiv.org/abs/2006.10433)\]
 
-* S. Kwon et al., *Gate-based superconducting quantum computing*, Journal of Applied Physics **129** (2021) 041102 $[$[doi:10.1063/5.0029735](https://doi.org/10.1063/5.0029735)$]$
+* S. Kwon et al., *Gate-based superconducting quantum computing*, Journal of Applied Physics **129** (2021) 041102 \[<a href="https://doi.org/10.1063/5.0029735">doi:10.1063/5.0029735</a>\]
 
 * [[Olivier Ezratty]], *Perspective on superconducting qubit quantum computing*, Eur. Phys. J. A **59** 94 (2023) \[<a href="https://doi.org/10.1140/epja/s10050-023-01006-7">doi:10.1140/epja/s10050-023-01006-7</a>\]
 
@@ -39,5 +39,10 @@ Fine detail of the pulse control:
 Corrections due to [[quasiparticle]]-excitations:
 
 * [[Leonid I. Glazman]], [[Gianluigi Catelani]], *Bogoliubov Quasiparticles in Superconducting Qubits*, SciPost Phys. Lect. Notes **31** (2021) &lbrack;[arXiv:2003.04366](https://arxiv.org/abs/2003.04366), [doi:10.21468/SciPostPhysLectNotes.31](https://doi.org/10.21468/SciPostPhysLectNotes.31)&rbrack;
+
+Discussion via [[Heisenberg groups]]:
+
+* F. Benatti, F. Carollo, [[Roberto Floreanini]], H. Narnhofer, F. Valiera: *A quantum fluctuation description of charge qubits*, New J. Phys. **26** (2024) 013057 \[<a href="http://doi.org/10.1088/1367-2630/ad19ac">doi:10.1088/1367-2630/ad19ac</a>, [arXiv:2304.13351 cond-mat.mes-hall](https://arxiv.org/abs/2304.13351)\]
+
 
 
