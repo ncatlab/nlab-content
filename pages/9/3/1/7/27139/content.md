@@ -100,7 +100,31 @@ $$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
 
 Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\Omega$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\Omega_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. 
 
+There are many different ways to define the intuitionistic [[law of excluded middle]] directly in the affine logic, by using the [[exponential conjunction]] or [[multiplicative conjunction]]:
+
+$$!P \sqcup (!P)^\bot \qquad (P \boxtimes P) \sqcup (P \boxtimes P)^\bot$$
+
+None of these imply the additive excluded middle $P \sqcup P^\bot$ since the statements 
+
+$$!P \multimap P \qquad P \boxtimes P \multimap P$$ 
+
+do not hold for all affine propositions $P$. 
+
 ## Concepts in the antithesis interpretation
+
+### Affirmative, refutative, and stable propositions
+
+* A proposition $P$ is said to be *affirmative* if 
+
+$$!P \multimap P \;\mathrm{or}\; P \boxtimes P \multimap P$$ 
+
+* A proposition $P$ is said to be *refutative* if 
+
+$$P \multimap ?P \;\mathrm{or}\; P \multimap P \boxplus P$$ 
+
+* A proposition $P$ is said to be *[[stable proposition|stable]]* if it is both affirmative and refutative. 
+
+### Other
 
 * [[antithesis partial order]]
 
