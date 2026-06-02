@@ -67,7 +67,7 @@ A [[morphism]] $f \colon A \to B$ is called _decidable_ if it is a decidable obj
 
 ## Properties
 
-The category of decidable objects in an [[topos]] is a [[Boolean pretopos]]. The category of decidable objects in a topos is only a [[topos]] when the original topos itself is a [[Boolean topos]]. 
+The category of decidable objects in a [[topos]] is [[regular]], [[extensive]] and full on subobjects ([Berger & Iwaniack](#BergerIwaniack), Lemma 1.3(6)), but not in general Boolean or a pretopos (unless, of course, the starting topos was a Boolean topos). See also [[finite object#subcategories_of_finite_objects|Subcategories of finite objects]].
 
 ## Related concepts
 
@@ -87,3 +87,4 @@ The category of decidable objects in an [[topos]] is a [[Boolean pretopos]]. The
 
 * [[Peter Johnstone]], _Sketches of an Elephant_ vols. I,II, Oxford UP 2002.
 
+* {#BergerIwaniack} [[Clemens Berger]], [[Victor Iwaniack]], _On the profinite fundamental group of a connected Grothendieck topos_, [arXiv:2304.05338](https://arxiv.org/abs/2304.05338)
