@@ -73,7 +73,7 @@ In particular, in the special case that $J$ is the [[identity functor]], Def. \r
 
 ### As monoids in a skew-monoidal category, skew-multicategory, or multicategory
 
-Monads are, by definition, [[monoids]] in [[monoidal categories]] of [[endofunctors]]. It is similarly possible to present relative monads as monoids in categories of [[functors]]. However, generally speaking, arbitrary functor categories are not monoidal. However, given a fixed functor $J \colon A \to E$, the functor category $[A, E]$ may frequently be equipped with [[skew-monoidal category|skew-monoidal]] structure. The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. [[monoid|Monoids]] may be defined in a [[skew-monoidal category]] analogously as to in a [[monoidal category]], and a monoid in $[A, E]$ (equipped with the skew-monoidal structure induced by $J$) is precisely a $J$-relative monad.
+Monads can be defined as [[monoids]] internal to a [[monoidal category]] of [[endofunctors]] where the monoidal structure is given by composition. This definition can with some work be adapted to relative monads. For a fixed functor $J \colon A \to E$, the functor category $[A, E]$ may be equipped with *[[skew-monoidal category|skew-monoidal]]* structure if the [[left Kan extension]] exists. More generally, if the Kan extension does not exist, one can still define a [[skew-multicategory]] structure. [[monoid|Monoids]] may be defined internally to skew-monoidal (multi)categories analogously as to in a [[monoidal category]], and a monoid in $[A, E]$ is precisely a $J$-relative monad.
 
 \begin{theorem}
 **([ACU15, Thm. 3.4](#ACU15))**
