@@ -222,15 +222,16 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
-* {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). 
+* {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture notes, Chicago (1967)
 
-They were published as pp.1-28 in
+These were published as pp 1--28 in:
 
-* {#Kocke79} [[Anders Kock]] (ed.): _[[Topos Theoretic Methods in Geometry]]_ , Aarhus Univ. Var. Pub. Ser. 30 (1979).  
+* {#Kock79} [[Anders Kock]] (ed.): _[[Topos Theoretic Methods in Geometry]]_, Various Publications Series **30**, Aarhus University  (1979)  &lbrack;[[Kock-1979.pdf:file]]&rbrack;
  
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
-* [[Eduardo Dubuc]], _Sur les mod&egrave;les de la g&eacute;om&eacute;trie diff&eacute;rentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. **XX-3** (1979) pp.231-279. ([pdf](http://archive.numdam.org/article/CTGDC_1979__20_3_231_0.pdf))
+* [[Eduardo Dubuc]]: *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] **XX** 3 (1979) 231--279 &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0), [pdf](http://archive.numdam.org/article/CTGDC_1979__20_3_231_0.pdf)&rbrack;
+
 
 These models are constructed in terms of [[sheaf]] [[topos | toposes]] on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C^∞-rings]]. See there for a detailed list of references.
 
