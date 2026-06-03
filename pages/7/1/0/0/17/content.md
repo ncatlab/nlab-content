@@ -820,7 +820,7 @@ Hints:
 
 1. There is a size limit for files to upload. The functionality is meant to be used for uploading _ingredients_ of $n$Lab entries (such as pictures or references) which are not available for linking elsewhere on the web, or not reliably so.
 
-   If you try to abuse the file upload for archiving your personal files, the [[steering committee]] will intervene.
+   If you try to abuse the file upload for archiving your personal files, someone will intervene.
 
 ### How to use redirects
 
