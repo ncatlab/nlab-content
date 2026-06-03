@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -460,7 +458,9 @@ On sphere bundles with [[formal dg-algebra|formal]] [[Sullivan models]]:
 
 On [[loop spaces]] of [[sphere bundles]]:
 
-* Wen Shen: *Loop Space Splittings of Sphere Bundles over Highly Connected Poincaré Complexes* &lbrack;[https://arxiv.org/abs/2604.00406](https://arxiv.org/abs/2604.00406)&rbrack;
+* Wen Shen: *Loop Space Splittings of Sphere Bundles over Highly Connected Poincaré Complexes* &lbrack;[arXiv:2604.00406](https://arxiv.org/abs/2604.00406)&rbrack;
+
+* Wen Shen: *Loop Space Splittings for Codimensional Sphere Bundles* &lbrack;[arXiv:2606.03072](https://arxiv.org/abs/2606.03072)&rbrack;
 
 
 
@@ -475,8 +475,6 @@ On [[loop spaces]] of [[sphere bundles]]:
 [[!redirects unit sphere fiber bundle]]
 [[!redirects unit sphere fiber bundles]]
 
-[[!redirects sphere-fiber bundle]]
-[[!redirects sphere-fiber bundles]]
 
 [[!redirects unit sphere bundle]]
 [[!redirects unit sphere bundles]]
