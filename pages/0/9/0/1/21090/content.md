@@ -624,6 +624,13 @@ This condition can be interpreted as follows:
 
 Notice also that if we assume that the monoidal unit is terminal, all compatibility conditions between the comonoid structures and the tensor product except the first one are satisfied.
 
+### Markov categories as monoidal subcategories
+
+The following is established in Proposition 2.4.2 of [Rischel 2026](#Rischel26), which illustrates the connection with [[Freyd categories]].
+
+\begin{proposition}
+  Markov category structures on a symmetric [[semicartesian monoidal category]] $C$ correspond to maximal [[cartesian monoidal category|cartesian monoidal]] [[wide subcategories]] of $C$.
+\end{proposition}
 
 
 ## Examples 
@@ -2464,6 +2471,8 @@ Slides from talks:
 * [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
 * [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+
+* {#Rischel26} [[Eigil Rischel]], _Markov Fibrations_, PhD thesis at University of Strathclyde ([link](https://stax.strath.ac.uk/concern/theses/td96k319p))
 
 In the context of [[Bayesian inversion]]:
 
