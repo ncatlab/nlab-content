@@ -6,4 +6,6 @@ See also [[linguistics]], [[categorial grammar]], [[context-free grammar]], [[li
 * Andr&#225;s Kornai, _Mathematical linguistics_, Springer 2008
 * _Statistical linguistics_, an entry in Oxford International Encyclopedia of Linguistics reproduced [here](http://www.grsampson.net/aslj.html)
 * M. Marcolli, Mathematical and computational linguistics, course materials and bibliography, [html](http://www.its.caltech.edu/~matilde/CS101Winter2015.html)
+* M. Marcolli, Mathematical models of Generative Linguistics, course material [html] (https://www.its.caltech.edu/~matilde/LinguisticsMa191Spring2024.html) and videos of lectures [html] (https://www.youtube.com/playlist?list=PL8skT3ME0RaAGAiEDsUE3qEzmEM1hfrC1)
+* M. Marcolli, N. Chomsky, R.C. Berwick, Mathematical structure of syntactic Merge, MIT Press, 2025 [html] (https://direct.mit.edu/books/oa-monograph/6001/Mathematical-Structure-of-Syntactic-MergeAn)
 * joshu tan's blog: [formal-concepts-and-natural-languages/#more-136](http://www.joshuatan.com/formal-concepts-and-natural-languages/#more-136)
