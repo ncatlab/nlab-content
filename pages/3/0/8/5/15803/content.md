@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -96,15 +94,15 @@ See also [physics.stackexchange.com/a/306242/5603](https://physics.stackexchange
 
 ### General
 
-The orginal observation is due to
+The orginal observation is due to:
 
-* [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_, Physical Review 177 (5): 2426. (1969)
+* [[Stephen Adler]]: _Axial-Vector Vertex in Spinor Electrodynamics_, Physical Review **177** 5 (1969) 2426
 
-* [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: $\pi^0 \to \gamma \gamma$ in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
+* [[John Bell]], [[Roman Jackiw]]: _A PCAC puzzle: $\pi^0 \to \gamma \gamma$ in the &#963;-model". Il Nuovo Cimento A **60** 47 (1969)
 
-A detailed mathematical derivation is in
+A detailed mathematical derivation:
 
-* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of: _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
+* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of: _The structure of gauge and gravitational anomalies_ , Ann. Phys. **161** (1985) 423 &lbrack;[spire](http://inspirehep.net/record/202565/?ln=en)&rbrack;
 
 Discussion via the [[Doplicher-Roberts reconstruction theorem]] and rejecting claims that the chiral anomaly is related to a "[[noninvertible symmetry]]":
 
@@ -129,9 +127,12 @@ Further review:
 
 * B.L.Ioffe, _Axial anomaly: the modern status_, Int. J. Mod. Phys. A21:6249-6266,2006 ([arXiv:hep-ph/0611026](http://arxiv.org/abs/hep-ph/0611026))
 
-* {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
+* {#Jackiw08} [[Roman Jackiw]]: _Axial anomaly_, Scholarpedia, **3** 10 7302 &lbrack;[web](http://www.scholarpedia.org/article/Axial_anomaly)&rbrack;
 
-* Wikipedia, _[Chiral anomaly](http://en.wikipedia.org/wiki/Chiral_anomaly)_
+* Christopher Smith: *The Polymorphic Chiral Anomaly* &lbrack;[arXiv:2606.03619](https://arxiv.org/abs/2606.03619)&rbrack;
+
+
+* Wikipedia: _[Chiral anomaly](http://en.wikipedia.org/wiki/Chiral_anomaly)_
 
 Discussion in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] is (for $m \gt 0$) in 
 
@@ -147,7 +148,7 @@ and reviewed in the context the [[master Ward identity]] in
 to perturbative quantum field theory]]_, 2018
 
 
-Application to [[baryogenesis]] is due to
+Application to [[baryogenesis]]:
 
 * {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37 (1976) ([pdf](http://www.staff.science.uu.nl/~hooft101/gthpub/symm_br_bell_jackiw.pdf))
 
