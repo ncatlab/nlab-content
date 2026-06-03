@@ -14,7 +14,7 @@
 
 ## Idea 
 
-[[Mike Shulman]] ([Shulman 2022](#Shulman2022)) has proposed an interpretation of [[affine logic]] for use in [[constructive mathematics]], called the _antithesis interpretation_.
+[[Mike Shulman]] ([Shulman 2022](#Shulman2022)) has proposed an interpretation of classical [[affine logic]] for use in [[constructive mathematics]], called the _antithesis interpretation_.
 
 The motivation here is that in much of constructive mathematics, especially (but not only) in [[constructive analysis]], statements of interest seem to come in pairs, a statement $P^+$ that amounts to a constructive version of a well-known statement $P^{\mathrm{C}}$ from [[classical mathematics]], and a statement $P^-$ that amounts to a constructive version of $\neg{P^{\mathrm{C}}}$, and which is equivalent to $\neg{P^+}$ in [[classical logic]], but which is not the same as $\neg{P^+}$ in [[intuitionistic logic]] (being sometimes stronger, sometimes weaker, sometimes neither, and similarly for $P^+$ vis-a-vis $\neg{P^-}$).  For example, if $P^{\mathrm{C}}$ is the claim that some [[real number]] $x$ is [[rational number|rational]], then $P^+$ is
 
@@ -92,13 +92,25 @@ $$\bigsqcap_{x:A} (P^+(x), P^-(x)) \coloneqq (\forall x:A.P^+(x), \exists x:A.P^
 
 ### Properties
 
-The [[exponential conjunction]] and [[exponential disjunction]] can be defined entirely in terms of the [[multiplicative conjunction]] and [[multiplicative disjunction]] respectively:
+\begin{theorem}
+The [[exponential conjunction]] $!P$ of an affine proposition $P$ is equivalent to the [[multiplicative conjunction]] $P \boxtimes P$ of $P$ with itself. 
+\end{theorem}
 
-$$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
+\begin{proof}
+The exponential conjunction $!P$ of $P$ is given by the pair $(P^+, \neg P^+)$. The multiplicative conjunction $P \boxtimes P$ of $P$ with itself is given by the pair $(P^+ \wedge P^+, (P^+ \Rightarrow P^-) \wedge (P^+ \Rightarrow P^-))$ which is the same as $(P^+, P^+ \Rightarrow P^-)$. Now to show that $!P$ and $P \boxtimes P$ are equivalent, we need to show that each pair is equivalent. $P^+$ is always equivalent to itself, so it suffices to prove that $\neg P^+$ is equivalent to $P^+ \to P^-$. For the forward implication, the [[principle of explosion]] says that falsehood implies everything, so you have $\bot \Rightarrow P^-$, and thus $P^+ \Rightarrow P^-$. For the reverse implication, the law of noncontradiction for [[mutually exclusive propositions]] says that $\neg (P^+ \wedge P^-)$, which after currying leads to $P^+ \Rightarrow \neg P^-$. Thus, we have $P^+ \Rightarrow (P^- \wedge \neg P^-)$, and since $P^- \wedge \neg P^-$ is always false, we have $P^+ \Rightarrow \bot$ which is just $\neg P^+$. 
+\end{proof}
+
+\begin{theorem}
+The [[exponential disjunction]] $?P$ of an affine proposition $P$ is equivalent to the [[multiplicative disjunction]] $P \boxplus P$ of $P$ with itself. 
+\end{theorem}
+
+\begin{proof}
+The exponential disjunction $?P$ of $P$ is given by the pair $(\neg P^-, P^-)$. The multiplicative disjunction $P \boxplus P$ of $P$ with itself is given by the pair $((P^- \Rightarrow P^+) \wedge (P^- \Rightarrow P^+), P^- \wedge P^-)$ which is the same as $(P^- \Rightarrow P^+, P^-)$. Now to show that $?P$ and $P \boxplus P$ are equivalent, we need to show that each pair is equivalent. $P^-$ is always equivalent to itself, so it suffices to prove that $\neg P^-$ is equivalent to $P^- \to P^+$. For the forward implication, the [[principle of explosion]] says that falsehood implies everything, so you have $\bot \Rightarrow P^+$, and thus $P^- \Rightarrow P^+$. For the reverse implication, the law of noncontradiction for [[mutually exclusive propositions]] says that $\neg (P^+ \wedge P^-)$, which after currying leads to $P^- \Rightarrow \neg P^+$. Thus, we have $P^- \Rightarrow (P^+ \wedge \neg P^+)$, and since $P^+ \wedge \neg P^+$ is always false, we have $P^- \Rightarrow \bot$ which is just $\neg P^-$. 
+\end{proof}
 
 ### Excluded middle
 
-Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\Omega$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\Omega_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. 
+Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\Omega$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\Omega_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in three-valued [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate three-valued Łukasiewicz logic. 
 
 There are many different ways to define the intuitionistic [[law of excluded middle]] directly in the affine logic, by using the [[exponential conjunction]] or [[exponential disjunction]]:
 
