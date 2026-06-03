@@ -132,6 +132,16 @@ do not hold for all affine propositions $P$.
 
 * A proposition $P$ is said to be *[[stable proposition|stable]]* if it is both affirmative and refutative. 
 
+### Real numbers
+
+There are some peculiar features of any set of [[real numbers]] in the antithesis interpretation, because there are two notions of [[disjunction]], the [[additive disjunction]] and [[multiplicative disjunction]]. For example
+
+* The real numbers are not a field in the sense of $x = 0 \sqcup \mathrm{isInvertible}(x)$, but are a field in the sense of $x = 0 \boxplus \mathrm{isInvertible}(x)$. The real numbers are only a field in the first sense if and only if the [[analytic LPO]] holds for the real numbers. 
+
+* The partial order on the real numbers $x \leq y$ is not total in the sense of $x \leq y \sqcup y \leq x$, but is a total order in the sense of $x \leq y \boxplus y \leq x$. The partial order on the real numbers is total in the first sense if and only if the [[analytic LLPO]] holds for the real numbers. 
+
+* The partial order $x \leq y$ is not "less than or equal to" in the sense of $x = y \sqcup x \lt y$, but it is "less than or equal to" in the sense of $x = y \boxplus x \lt y$. The partial order $x \leq y$ is "less than or equal to" in the first sense if and only if the [[analytic LPO]] holds for the real numbers. 
+
 ### Other
 
 * [[antithesis partial order]]
