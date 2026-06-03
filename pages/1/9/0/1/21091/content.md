@@ -15,15 +15,22 @@ On [[category theory]]:
 
 * [[Paolo Perrone]]: *Starting Category Theory*, World Scientific (2024) \[<a href="https://doi.org/10.1142/13670">doi:10.1142/13670</a>, [arXiv:1912.10642](http://arxiv.org/abs/1912.10642)\]
 
-On [[categorical probability theory]]:
+On [[categorical probability theory]] ([[Markov categories]]):
 
 * [[Tobias Fritz]], [[Paolo Perrone]], _A Probability Monad as the Colimit of Spaces of Finite Samples_, Theory and applications of Categories 34, 2019. ([arXiv:1712.05363](http://arxiv.org/abs/1712.05363))
 
-* [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](http://arxiv.org/abs/1808.09898))
+* [[Tobias Fritz]], [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](http://arxiv.org/abs/1808.09898))
+
+* {#fritzrischel} [[Tobias Fritz]], [[Eigil F. Rischel]]: _Infinite products and zero-one laws in categorical probability_, Compositionality **2** 3 (2020) &lbrack;[doi:10.32408/compositionality-2-3](https://doi.org/10.32408/compositionality-2-3), [arXiv:1912.02769](http://arxiv.org/abs/1912.02769)&rbrack;
+
+* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], [[Eigil F. Rischel]]: _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science **961** (2023) &lbrack;[arXiv:2010.07416](https://arxiv.org/abs/2010.07416), [doi:10.1016/j.tcs.2023.113896](https://doi.org/10.1016/j.tcs.2023.113896)&rbrack;
+
 
 * [[Tobias Fritz]], Tomáš Gonda and [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
-* Sean Moss and [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+
+
+* Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
 * Carmen Constantin, [[Tobias Fritz]], [[Paolo Perrone]] and Brandon Shapiro, _Partial evaluations and the compositional structure of the bar construction_, Theory and Applications of Categories 39, 2023. ([arXiv:2009.07302](https://arxiv.org/abs/2009.07302))
 
