@@ -211,6 +211,12 @@ One expects that
 * pointed 0-connected tricategories can be identified with monoidal bicategories,
 * and so on.
 
+## Related concepts
+
+For the relationship between k-tuply monoidal n-categories and taking (higher) [[categories of monoids]], see:
+
+* [[symmetry shifting]]
+
 
 ## References 
 
