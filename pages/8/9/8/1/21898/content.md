@@ -1,5 +1,8 @@
 
-* [webpage](https://quantumgravityresearch.org/michael-rios)
+* [personal page](https://quantumgravityresearch.org/michael-rios)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=WlcZJPgAAAAJ&hl=en)
+
 
 ## Selected writings
 
