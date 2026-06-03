@@ -101,6 +101,11 @@ Further discussion:
 
 * {#Williamson2011} [[Richard Williamson]]: *Cylindrical model structures*, PhD thesis, University of Oxford (2011) &lbrack;[author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html), [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)&rbrack;
 
+* [[Alexander Campbell]]: *A convenient model category for bicategories* &lbrack;[arXiv:2606.03200](https://arxiv.org/abs/2606.03200)&rbrack;
+
+
+
+
 [[!redirects canonical model structures on 2-categories]]
 
 [[!redirects canonical model structure on 2Cat]]
