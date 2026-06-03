@@ -289,7 +289,7 @@ has independently been argued to have properties of an [[exponential map]] in th
 
 ### Antithesis interpretation
 
-In the [[antithesis interpretation]] of [[affine logic]] into [[impredicative mathematics|impredicative]] [[constructive mathematics]], given the [[set of truth values]] $\Omega$, one can define a [[set]] of [[type of affine propositions|affine propositions]] by the set 
+In the [[antithesis interpretation]] of [[impredicative mathematics|impredicative]] [[constructive mathematics]] into classical [[affine logic]], given the [[set of truth values]] $\Omega$, one can define a [[set]] of [[type of affine propositions|affine propositions]] by the set 
 
 $$\Omega_\pm \coloneqq \{(P^+, P^-) \in \Omega \times \Omega \vdash \neg (P^+ \wedge P^-)\}$$
 
