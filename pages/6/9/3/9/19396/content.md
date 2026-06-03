@@ -19,5 +19,9 @@ On the [[straightening theorem]]:
 
 * [[Alexander Campbell]], *A modular proof of the straightening theorem*, talk at Macquarie University (2020) &lbrack;[pdf](https://acmbl.github.io/straight_slides.pdf), [[Campbell-ModularProofofStraightening.pdf:file]]&rbrack;
 
+In a [[model category]] [[Quillen equivalence|Quillen equivalent]] to the [[canonical model structure on 2-categories]]:
+
+* [[Alexander Campbell]]: *A convenient model category for bicategories* &lbrack;[arXiv:2606.03200](https://arxiv.org/abs/2606.03200)&rbrack;
+
 
 category: people
