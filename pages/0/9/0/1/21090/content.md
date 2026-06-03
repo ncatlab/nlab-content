@@ -12,9 +12,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -2347,7 +2347,7 @@ The graphical model (separation and d-separation) aspects of conditional indepen
 
 Representable Markov categories have been studied in 
 
-* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], [[Eigil F. Rischel]]: _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science **961** (2023) &lbrack;[arXiv:2010.07416](https://arxiv.org/abs/2010.07416), [doi:10.1016/j.tcs.2023.113896](https://doi.org/10.1016/j.tcs.2023.113896)&rbrack;
 
 as well as in the following work, together with an in-depth treatment of positivity and causality:
 
@@ -2355,7 +2355,7 @@ as well as in the following work, together with an in-depth treatment of positiv
 
 Kolmogorov products have been studied in 
 
-* {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+* {#fritzrischel} [[Tobias Fritz]], [[Eigil F. Rischel]]: _Infinite products and zero-one laws in categorical probability_, Compositionality **2** 3 (2020) &lbrack;[doi:10.32408/compositionality-2-3](https://doi.org/10.32408/compositionality-2-3), [arXiv:1912.02769](http://arxiv.org/abs/1912.02769)&rbrack;
 
 
 ### Introductory material
@@ -2372,7 +2372,7 @@ Video lectures suitable for beginners:
 
 * (in Spanish) [[Paolo Perrone]], _Categorical Probability and Information Theory_, Universidad Carlos III Madrid, Spain ([video here](http://www.q-math.es/Videos/PaoloPerrone2023.mp4))
 
-* Eigil Fjeldgren Rischel, _Introduction to Markov categories_, Categorical Probability and Statistics Workshop, 2020. ([YouTube](https://www.youtube.com/watch?v=534f-9Qx2Lg))
+* [[Eigil F. Rischel]]: _Introduction to Markov categories_, Categorical Probability and Statistics Workshop (2020) &lbrack;[YouTube](https://www.youtube.com/watch?v=534f-9Qx2Lg)&rbrack;
 
 Slides from talks:
 
@@ -2472,7 +2472,7 @@ Slides from talks:
 
 * [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
 
-* {#Rischel26} [[Eigil Rischel]], _Markov Fibrations_, PhD thesis at University of Strathclyde ([link](https://stax.strath.ac.uk/concern/theses/td96k319p))
+* {#Rischel26} [[Eigil Rischel]]: _Markov Fibrations_, PhD thesis, University of Strathclyde (2026) &lbrack;[doi:10.48730/0qtn-rn72](https://doi.org/10.48730/0qtn-rn72)&rbrack;
 
 In the context of [[Bayesian inversion]]:
 
