@@ -17,9 +17,7 @@
 > For more see at *[[Yang-Baxter equation]]*.
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -181,6 +179,11 @@ Discussion of all *involutive* solutions, yielding [[representations of a symmet
   > [p 15](https://arxiv.org/pdf/1707.00196#page=15): "Yang-Baxter representations are reducible, but decomposing them gives representations which are no longer of Yang-Baxter form. Conversely, taking direct sums of Yang-Baxter representations is not compatible with the Yang-Baxter equation either."
 
 * [[Gandalf Lechner]]: *All involutive solutions of the Yang-Baxter equation*, talk at *[Advances in Mathematics and Theoretical Physics](https://www.mat.uniroma2.it/tlc/17SIMP/)* (2017) &lbrack;[pdf](https://www.mat.uniroma2.it/tlc/17SIMP/Slides/Lechner.pdf), [[Lechner-AllInvolutiveYBEsolutions.pdf:file]]&rbrack;
+
+Discussion via [[supersymmetry]] algebra:
+
+
+* Somnath Maity, Pramod Padmanabhan, Jarmo Hietarinta, Vladimir Korepin: *Almost local integrable models from supersymmetry algebras* &lbrack;[arXiv:2508.04315](https://arxiv.org/abs/2508.04315)&rbrack;
 
 
 
