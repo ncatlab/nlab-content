@@ -174,18 +174,17 @@ In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-b
 #### Conceptual problems
  {#DBraneChargeInKTheoryReferencesConceptualProblems}
 
-{#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted in
+{#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted in:
 
-* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.5.2 and 4.6.5 of  *Triples, Fluxes, and Strings*, Adv. Theor. Math. Phys. **4** (2002) 995-1186 \[<a href="https://arxiv.org/abs/hep-th/0103170">arXiv:hep-th/0103170</a>, [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/2000/0004/0005/ATMP-2000-0004-0005-a001.pdf)\]
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], sections 4.5.2 and 4.6.5 of: *Triples, Fluxes, and Strings*, Adv. Theor. Math. Phys. **4** (2002) 995--1186 \[<a href="https://arxiv.org/abs/hep-th/0103170">arXiv:hep-th/0103170</a>, [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/2000/0004/0005/ATMP-2000-0004-0005-a001.pdf)\]
 
-* {#Evslin06} [[Jarah Evslin]], section 8 of: *What Does(n't) K-theory Classify?*, Second Modave Summer School in Mathematical Physics \[<a href="https://arxiv.org/abs/hep-th/0610328">arXiv:hep-th/0610328</a>\]
+* {#Evslin06} [[Jarah Evslin]], [section 8](https://arxiv.org/pdf/hep-th/0610328#page=70) of: *What Does(n't) K-theory Classify?*, Second Modave Summer School in Mathematical Physics \[<a href="https://arxiv.org/abs/hep-th/0610328">arXiv:hep-th/0610328</a>\]
+  > (in particular: incompatibility with [[S-duality]], in [section 8.3](https://arxiv.org/pdf/hep-th/0610328#page=77))
 
-In particular, actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
+Also, actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed substantial discrepancies:
 
-* {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]], *Generalised permutation branes*, JHEP 0511:004 (2005) \[<a href="https://arxiv.org/abs/hep-th/0509153">arXiv:hep-th/0509153</a>, <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/11/004">doi:10.1088/1126-6708/2005/11/004</a>\]
-
+* {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]]: *Generalised permutation branes*, JHEP 0511:004 (2005) \[<a href="https://arxiv.org/abs/hep-th/0509153">arXiv:hep-th/0509153</a>, <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/11/004">doi:10.1088/1126-6708/2005/11/004</a>\]
   > "It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory. \[...\]  it is fair to say that a satisfactory answer is still missing.:
-
 
 The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
 
@@ -193,15 +192,19 @@ The closest available towards an actual check of the argument for K-theory via [
 
 which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)) with:
 
-> It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)\]. We leave these questions for future work.
+> "It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)\]. We leave these questions for future work."
 
-See also 
+See also:
 
-* {#Erler19} [[Theodore Erler]], _Four Lectures on Analytic Solutions in Open String Field Theory_ ([arXiv:1912.00521](https://arxiv.org/abs/1912.00521), [spire:1768105](https://inspirehep.net/literature/1768105))
+* {#Erler19} [[Theodore Erler]]: _Four Lectures on Analytic Solutions in Open String Field Theory_ ([arXiv:1912.00521](https://arxiv.org/abs/1912.00521), [spire:1768105](https://inspirehep.net/literature/1768105))
 
-which still lists (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among open problems of [[string field theory]]:
+which still lists (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among open problems of [[string field theory]], the question:
 
 > "Are there topological invariants of the open string star algebra representing D-brane charges?"
+
+Then there is the fundamental problem that the K-theory conjecture ignores/contradicts the non-linearities imposed by the $H_7$-Bianchi identity:
+
+* [[Pinak Banerjee]] et al.: *[[schreiber:Flux Quantization of Type IIA|Flux Quantization of Type IIA in Unstable K-Theory]]* \[<a href="https://arxiv.org/abs/2605.25035">arXiv:2605.25035</a>\]
 
 
 
