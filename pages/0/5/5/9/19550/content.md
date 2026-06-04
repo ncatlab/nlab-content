@@ -59,7 +59,7 @@ With a little sublety, this makes sense even when [[meets]] (and [[joins]]) don'
 
 Let $R$ be a [[preorder]], and let $P$ be an ideal in $R$.  Then $P$ is __prime__ if $P$ is [[proper ideal|proper]] and $x$ or $y$ belongs to $P$ whenever every $z$ that precedes both $x$ and $y$ does:
 
-$$ \forall\, x \in R,\; \forall\, y \in R,\; (\forall\, z \in R,\; z \leq x \;\Rightarrow\; z \in P) \;\Rightarrow\; (\forall\, z \in R,\; z \leq y \;\Rightarrow\; z \in P) \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
+$$ \forall x,y\in R,\;\Bigl(\forall z\in R,\;(z\le x \wedge z\le y)\Rightarrow z\in P\Bigr)\Rightarrow (x\in P \vee y\in P).$$
 
 Also, $P$ is __completely prime__ if $P$ if some element belongs to $P$ whenever every $z$ that precedes every element of a subset of $R$ does:
 
