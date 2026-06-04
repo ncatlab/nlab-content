@@ -1294,8 +1294,6 @@ is equivalently the result of
 
 \[\label{FiberIntegralViaHomAdjunct}\]
 \begin{tikzcd}
-  {}
-  \\[-60pt]
   H^{n+1}\big(
     X
      \times
@@ -1716,12 +1714,12 @@ The transgression formula itself (without derivation) is also considered, in a c
 
 and specifically in the context of equivariant [[Tate K-theory]]:
 
-* {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+* {#Dove19} [[Thomas Dove]]: _Twisted Equivariant Tate K-Theory_ &lbrack;[arXiv:1912.02374](https://arxiv.org/abs/1912.02374)&rbrack;
 
 
 Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for [[twisted cohomology|twists]] of [[KR-theory]]):
 
-* [[Behrang Noohi]], [[Matthew B. Young]], *Twisted loop transgression and higher Jandl gerbes over finite groupoids*, Algebr. Geom. Topol. **22** (2022) 1663-1712 &lbrack;[arXiv:1910.01422](https://arxiv.org/abs/1910.01422), [doi:10.2140/agt.2022.22.1663](https://doi.org/10.2140/agt.2022.22.1663)&rbrack;
+* [[Behrang Noohi]], [[Matthew B. Young]]: *Twisted loop transgression and higher Jandl gerbes over finite groupoids*, Algebr. Geom. Topol. **22** (2022) 1663--1712 &lbrack;[arXiv:1910.01422](https://arxiv.org/abs/1910.01422), [doi:10.2140/agt.2022.22.1663](https://doi.org/10.2140/agt.2022.22.1663)&rbrack;
 
 The above discussion and proof that transgression is essentially the [[internal hom]] out of the circle into the cocycle-as-a-functor is taken from:
 
