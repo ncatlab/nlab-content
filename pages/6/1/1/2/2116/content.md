@@ -81,6 +81,12 @@ For the moment, please consult Jacobson, Basic Algebra II, Theorem 8.34. This ma
 
 Well-definedness of transcendence degree then follows from abstract considerations of pregeometries; see [this result](/nlab/show/matroid#welldefined). 
 
+## In constructive mathematics
+
+In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
+
+Thus, for [[Heyting fields]] that are not discrete, one usually restricts to polynomial functions with a positive degree in the notion of an [[algebraic closure]] of a field. In this sense, [[algebraic closure]] and [[integral closure]] coincide since, by definition of a polynomial function with positive degree, the coefficient associated to the largest exponent is apart from zero, and so can be factored out of the polynomial function, yielding a monic polynomial function. 
+
 ## Examples
 
 * The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$.  
