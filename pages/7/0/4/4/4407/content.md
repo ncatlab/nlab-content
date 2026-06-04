@@ -334,7 +334,11 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 * {#Taylor85} [[Paul Taylor]], _Gauss' Second Proof_, Eureka 45 (1985) 42-47 ([pdf](http://www.jon-arny.com/httpdocs/Gauss/Eureka-2-aug24.pdf))
 
-A proof of a variant of the fundamental theorem of algebra using finite multisets of complex numbers: 
+A proof using [[differential topology]]:
+
+* [[John Milnor]]; pp. 8--9 in: _Topology from the differential viewpoint_, Princeton University Press (1997) &lbrack;[ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf)&rbrack;
+
+A [[constructive mathematics|constructive]] proof of a variant using finite multisets of complex numbers: 
 
 * {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
@@ -343,22 +347,26 @@ see also:
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
 in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum* Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
-The Reverse Mathematical treatment is given in
 
-* {#TK2005} Kazuyuki Tanaka and Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
-
-
-A [[constructive mathematics|constructive]] algebraic proof of the fundamental theorem of algebra for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]:
+A [[constructive mathematics|constructive]] algebraic proof for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]:
 
 * {#Ruitenberg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
 
-A full formalization in the [[Rocq]] [[proof assistant]] is in
+A full formalization in the [[Rocq]] [[proof assistant]]:
 
-* Herman Geuvers, [[Freek Wiedijk]], Jan Zwanenburg, A Constructive Proof of the Fundamental Theorem of Algebra without Using the Rationals ([web](http://dl.acm.org/citation.cfm?id=696038))
+* Herman Geuvers, [[Freek Wiedijk]], Jan Zwanenburg: *A Constructive Proof of the Fundamental Theorem of Algebra without Using the Rationals &lbrack;[web](http://dl.acm.org/citation.cfm?id=696038)&rbrack;
 
-See also
 
-* MathOverflow, _[Ways to prove the fundamental theorem of algebra](http://mathoverflow.net/questions/10535/ways-to-prove-the-fundamental-theorem-of-algebra)_
+A [[reverse mathematics]] treatment:
+
+* {#TK2005} Kazuyuki Tanaka, Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
+
+
+See also:
+
+* Matthew Steed: *Proofs of the Fundamental Theorem of Algebra*, [Reu2014](https://math.uchicago.edu/~may/REU2014/) &lbrack;[pdf](https://math.uchicago.edu/~may/REU2014/REUPapers/Steed.pdf)&rbrack;
+
+* MathOverflow: _[Ways to prove the fundamental theorem of algebra](http://mathoverflow.net/questions/10535/ways-to-prove-the-fundamental-theorem-of-algebra)_
 
 
 [[!redirects fundamental theorem of algebra]]
