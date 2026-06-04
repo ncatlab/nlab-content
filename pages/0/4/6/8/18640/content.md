@@ -95,7 +95,7 @@ Since the thunk $L$ is a [[comonad]], the Kleisli category of the comonad is a m
 
 Thunk-force categories were introduced (under the name "abstract Kleisli categories" in 
 
-* {#F99} Carsten F&#252;hrmann, "Direct Models of the Computational Lambda-calculus" Electronic Notes in Theoretical Computer Science 1999.  [https://doi.org/10.1016/S1571-0661(04)80078-1](https://doi.org/10.1016/S1571-0661(04)80078-1)
+* {#F99} Carsten F&#252;hrmann, "Direct Models of the Computational Lambda-calculus" Electronic Notes in Theoretical Computer Science 1999.  [https://doi.org/10.1016/S1571-0661(04)80078-1](https://doi.org/10.1016/S1571-0661%2804%2980078-1)
 
 See also:
 
