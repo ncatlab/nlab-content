@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -1054,7 +1052,10 @@ This is the type of mapping that appears in the component formula for the [[eval
   \]
   we say that *[[transgression]]* in $\mathcal{A}$-cohomology
   is 
-  $$
+  \[
+    \label{TransgressionViaInternalHom}
+    \tau
+    \,\colon\,
     H
     \big( 
       -;\,
@@ -1073,7 +1074,7 @@ This is the type of mapping that appears in the component formula for the [[eval
       \mathcal{A}
     \big)    
     \,.
-  $$
+  \]
 \end{definition}
 
 \begin{proposition}\label{FreeLoopSpaceOfEMSpaceIdentifiedViaEilenbergZilber}
@@ -1177,11 +1178,230 @@ with homotopy groups $A$ concentrated in degrees $n$ and $n -1 $. By assumption 
 \end{proof}
 
 
+### Transgression as pull-push
+ {#TransgressionAsPullPush}
+
+We explain how the above transgression formula (eq:TransgressionViaInternalHom) is equivalently the "pull-push" through the [[span]]
+
+\begin{tikzcd}
+  & 
+  \mathbf{B}\mathbb{Z}
+  \times
+  \Lambda\mathbf{B}G
+  \ar[
+    dl,
+    "{ \mathrm{ev} }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ \mathrm{pr}_2 }"
+  ]
+  \\
+  \mathbf{B}G
+  &&
+  \Lambda 
+  \mathbf{B}G
+\end{tikzcd}
+
+namely the result of
+
+1. [[precomposition]] of [[cocycles]] with the [[evaluation map]] on the left:
+
+   $$
+     ev^\ast  
+       \,\colon\,
+     H^{n+1}\big(
+       \mathbf{B} G; 
+       \mathcal{A} 
+     \big)
+     \longrightarrow
+     H^{n+1}\big(
+       \mathbf{B} \mathbb{Z} 
+         \times 
+       \Lambda \mathbf{B}G
+       ;
+       \mathcal{A}
+     \big)     
+   $$
+
+1. followed by [[fiber integration]] along the map on the right:
+
+   $$
+     \textstyle{\int_{\mathbf{B}\mathbb{Z}}}
+     \,\colon\,
+     H^{n+1}\big(
+       \mathbf{B} \mathbb{Z} 
+         \times 
+       \Lambda \mathbf{B}G
+       ;
+       \mathcal{A}
+     \big)     
+     \longrightarrow
+     H^{n}\big(
+       \Lambda \mathbf{B}G
+       ;
+       \mathcal{A}
+     \big)     
+   $$
+
+in that:
+
+\begin{proposition}
+\[
+  \tau 
+    \,=\,
+  \textstyle{\int_{\mathbf{B}\mathbb{Z}}}
+  ev^\ast
+  \mathrlap{\,.}
+\]
+\end{proposition}
+\begin{proof}
+First observe that [[fiber integration]]
+$$
+  \textstyle{\int_{\mathbf{B} \mathbb{Z}}}
+  \;\colon\;\;
+  H^{n+1}\big(
+    X \times \mathbf{B}\mathbb{Z}
+    ;
+    \mathcal{A}
+  \big)
+  \simeq
+  H^{n+1}\big(
+    X 
+    ;
+    \mathcal{A}
+  \big)
+  \textstyle{\oplus}
+  H^{n}\big(
+    X 
+    ;
+    \mathcal{A}
+  \big)
+  \overset
+    {\phantom{--} pr_2 \phantom{--}}
+    {\longrightarrow}
+  H^{n}\big(
+    X 
+    ;
+    \mathcal{A}
+  \big)
+$$
+is equivalently the result of 
+
+1. forming the [[internal hom]]-[[adjunct]] $\widetilde{c} \colon X \to Map(B \mathbb{Z}, B^{n+1}A)$ of a given [[cocycle]] $c \colon X \times B \mathbb{Z} \to B^{n+1} A$ 
+
+1. [[projection|projecting]] onto the shifted [[coefficients]]:
+
+\[\label{FiberIntegralViaHomAdjunct}\]
+\begin{tikzcd}
+  {}
+  \\[-60pt]
+  H^{n+1}\big(
+    X
+     \times
+    \mathbf{B} \mathbb{Z}
+    ;
+    \mathcal{A}
+  \big)
+  \ar[
+    d,
+    equals
+  ]
+  \ar[
+    rrr,
+    "{ \int_{\mathbf{B} \mathbb{Z}} }"
+  ]
+  &&&
+  H^n\big(
+    X;
+    \mathcal{A}
+  \big)
+  \ar[
+    d,
+    equals
+  ]
+  \\
+  \pi_0 \mathrm{Map}\big(
+    X \times \mathbf{B} \mathbb{Z}
+    ,
+    \mathbf{B}^{n+1} \mathcal{A}
+  \big)
+  \ar[
+    r,
+    "{ \widetilde{(-)} }"
+  ]
+  &
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathrm{Map}(
+      \mathbf{B} \mathbb{Z},
+      \mathbf{B}^{n+1} \mathcal{A}
+    )
+  \big)
+  \ar[
+    r,
+    "{ \sim }"
+  ]
+  &[-10pt]
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathbf{B}^{n+1} \mathcal{A}
+    \times 
+    \mathbf{B}^n \mathcal{A}
+  \big)
+  \ar[
+    r,
+    "{
+      \mathrm{Map}(X, \mathrm{pr}_2)
+    }"
+  ]
+  &
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathbf{B}^n \mathcal{A}
+  \big)
+\end{tikzcd}
+
+Then using that the [[adjunct]] of the [[precomposition]] of a [[map]] with the [[evaluation map]] (which is the [[counit of an adjunction|counit of]] the [[internal hom]]-[[adjoint functor|adjunction]]) is just the image of that map under the [[right adjoint]] (by [[natural transformation|naturality]] of the [hom isomorphism](adjoint+functor#InTermsOfHomIsomorphism)):
+\[
+  \label{AdjunctOfPrecompositionWithEv}
+  \widetilde{ ev^\ast c }
+  \simeq
+  Map\big(
+    \mathbf{B}\mathbb{Z},
+    c
+  \big)
+\]
+
+we have:
+
+$$
+  \begin{aligned}
+    \textstyle{\int_{\mathbf{B}\mathbb{Z}}}
+    ev^\ast(c)
+    & \simeq
+    pr_2 \circ \widetilde{ ev^\ast c }
+    \\
+    & \simeq
+    pr_2 \circ  Map\big(\mathbf{B}\mathbb{Z}, c \big)
+    \\
+    & \simeq
+    \tau(c)
+    \mathrlap{\,,}
+  \end{aligned}
+$$
+
+where we used, in order of appearance, (eq:FiberIntegralViaHomAdjunct), (eq:AdjunctOfPrecompositionWithEv) and (eq:TransgressionViaInternalHom).
+\end{proof}
+
 
 ## Proof of the component formula
  {#ProofOfTheComponentFormula}
 
-We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression in group cohomology. 
+We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression (eq:TransgressionViaInternalHom) in group cohomology. 
 
 \begin{proof}
 
