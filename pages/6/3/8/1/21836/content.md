@@ -1,11 +1,12 @@
 
 ### Elliptic cohomology
+  {#ReferencesEllipticCohomology}
 
 #### General
 
 The concept of [[elliptic cohomology]] originates around:
 
-* {#Landweber88} [[Peter Landweber]], *Elliptic Cohomology and Modular Forms*, in: _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics **1326** (1988) 55-68 &lbrack;[doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038)&rbrack;
+* {#Landweber88} [[Peter Landweber]], *Elliptic Cohomology and Modular Forms*, in: _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics **1326** (1988) 55--68 \[<a href="https://doi.org/10.1007/BFb0078038">doi:10.1007/BFb0078038</a>\]
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
@@ -38,7 +39,7 @@ Textbook accounts:
 
 On [[equivariant elliptic cohomology]] and [[positive energy representations]] of [[loop groups]]:
 
-* [[Eduard Looijenga]], _Root systems and elliptic curves_, Invent. Math. **38** 1 (1976/77) 17-32 &lbrack;[doi:10.1007/BF01390167](https://doi.org/10.1007/BF01390167)&rbrack;
+* [[Eduard Looijenga]], _Root systems and elliptic curves_, Invent. Math. **38** 1 (1976/77) 17-32 \[<a href="https://doi.org/10.1007/BF01390167">doi:10.1007/BF01390167</a>\]
 
 * {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in: _Elliptic cohomology_, Volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf), [doi:10.1017/CBO9780511721489.007]( https://doi.org/10.1017/CBO9780511721489.007))
 
@@ -72,7 +73,7 @@ The case of [[twisted ad-equivariant Tate K-theory]]:
 
 * {#Huan18Quasi} [[Zhen Huan]], *Quasi-theories* ([arXiv:1809.06651](https://arxiv.org/abs/1809.06651))
 
-* {#Luecke19}  [[Kiran Luecke]], *Completed K-theory and Equivariant Elliptic Cohomology*, Advances in Mathematics **410** B (2022) 108754 &lbrack;[arXiv:1904.00085](https://arxiv.org/abs/1904.00085), [doi:10.1016/j.aim.2022.108754](https://doi.org/10.1016/j.aim.2022.108754)&rbrack;
+* {#Luecke19}  [[Kiran Luecke]], *Completed K-theory and Equivariant Elliptic Cohomology*, Advances in Mathematics **410** B (2022) 108754 \[<a href="https://doi.org/10.1016/j.aim.2022.108754">doi:10.1016/j.aim.2022.108754</a>, [arXiv:1904.00085](https://arxiv.org/abs/1904.00085)\]
 
 * [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
 
@@ -120,7 +121,7 @@ Early development:
 
 * {#Zagier86} [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf), [edoc:744944](http://edoc.mpg.de/744944))
 
-* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, chapter 2 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
+* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, chapter 2 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) \[<a href="https://doi.org/10.1007/978-3-663-10726-2"></a>, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)\]
 
 * {#ChudnovskyChudnovsky88} D.V. Chudnovsky, G.V. Chudnovsky, _Elliptic modular functions and elliptic genera_, Topology, Volume 27, Issue 2, 1988, Pages 163&#8211;170 (<a href="https://doi.org/10.1016/0040-9383(88)90035-3">doi:10.1016/0040-9383(88)90035-3</a>)
 
