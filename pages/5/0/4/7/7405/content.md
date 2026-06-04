@@ -55,7 +55,7 @@ $$
 ### For coherent categories
  {#ForCoherentCategories}
 
-A [[distributive lattice]] is a [[coherent category|cogerent]] [[(0,1)-category]]. One may therefore ask if there is a generalization of canonical extension to general [[coherent categories]]. 
+A [[distributive lattice]] is a [[coherent category|coherent]] [[(0,1)-category]]. One may therefore ask if there is a generalization of canonical extension to general [[coherent categories]]. 
 
 The following is considered in ([Coumans](#Coumans)).
 
