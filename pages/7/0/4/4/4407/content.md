@@ -101,6 +101,72 @@ according to how we chose $\delta$ in 2. We conclude by observing the strict ine
 $${|f(z')|} \leq {|F(z')|} + {|f(z') - F(z')|} \lt {|f(z_0)|} - r + r = {|f(z_0)|},$$ 
 which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z_0$.  
 
+## Using the cellular cohomology of complex projective space
+
+There is a proof using that the cellular cohomology of $\mathbb{CP}^{n-1}$ is 
+
+$$H^i(\mathbb{CP}^{n-1}, \mathbb{Z}) \cong \mathbb{Z}^{a_i}$$ 
+
+where $a_i = 1$ when $i \in \{ 2j : 0 \leq j \leq n-1 \}$ and $0$ otherwise.
+
+**Theorem:**  Let $K$ be a finite dimensional vector space over $\mathbb{C}$ and $\mu : K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-linear map and an element $1 \in K$ satisfying the following two properties:
+
+* (domain) $\mu ( 1 \otimes a ) = a = \mu (a \otimes 1)$ for each $a \in K$
+
+* (unital) For each $a,b \in K$, if $ab = 0$ then either $a = 0$ or $b = 0$
+
+Then $K$ is isomorphic to $\mathbb{C}$ itself as a $\mathbb{C}$-vector space, i.e. $\text{dim}(K) = 1$.
+
+Note that we obtain such a $\mathbb{C}$-algebra as the splitting field of any irreducible complex polynomial.
+
+**Proof:** Using the second property we obtain a continuous function $\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} \rightarrow \mathbb{CP}^{n-1}$ 
+
+We obtain two equations by applying degree-2 integral cohomology to the two unit laws in the first property, irrespective of any associativity or commutativity of $K$:
+
+$$ H^2 \left( \mu \circ \left( \eta \times \text{Id}_{\mathbb{CP}^{n-1}} \right) , \mathbb{Z} \right)   =  \text{Id}_{H^2 \left( \mathbb{CP}^{n-1} , \mathbb{Z} \right) }
+ =   H^2 \left( \mu \circ \left( \text{Id}_{\mathbb{CP}^{n-1}} \times \eta \right) , \mathbb{Z} \right)$$
+
+Let $y \in H^2(\mathbb{CP}^{n-1})$ be the generator of the cohomology ring $H^* ( \mathbb{CP}^{n-1} )$. We have
+
+$$H^2(\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}, \mathbb{Z}) \cong H^2(\mathbb{CP}^{n-1}) \oplus H^2(\mathbb{CP}^{n-1}) $$
+
+We can write 
+
+$$H^2(\mu,\mathbb{Z})(y) = a \cdot (1 \otimes y) + b \cdot (y \otimes 1)$$
+
+for $a, b \in \mathbb{Z}$
+
+The two equations obtained from the unit laws for $K$ imply that:
+
+$$a = 1, b = 1$$
+
+There is an isomorphism of Hopf-algebras in integral cohomology of 
+
+$$(\mathbb{Z}[x]/x^n\mathbb{Z}[x]) \otimes (\mathbb{Z}[x]/x^n\mathbb{Z}[x])  \cong  H^*(\mathbb{CP}^{n-1},\mathbb{Z}) \otimes_{\mathbb{Z}} H^*(\mathbb{CP}^{n-1},\mathbb{Z})  \cong  H^*(\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1},\mathbb{Z})$$
+
+$H^*(\mu,\mathbb{Z})$ is a ring homomorphism, so
+
+$$H^*(\mu,\mathbb{Z})(y^n) = (1 \otimes y + y \otimes 1)^n = \sum_{i = 0}^n {\binom{n}{i}} (1 \otimes y)^i \cdot (y \otimes 1)^{n-i} = \sum_{i = 0}^n y^{n-i} \otimes y^{i}$$
+
+as elements of the commutative Hopf-algebra
+
+$$H^*(\mathbb{CP}^{n-1},\mathbb{Z}) \otimes H^*(\mathbb{CP}^{n-1},\mathbb{Z}) \ \cong \ \left( \mathbb{Z}[x]/x^n \mathbb{Z}[x] \right) \otimes  \left( \mathbb{Z}[x]/x^n \mathbb{Z}[x] \right)$$
+
+The left-hand side is $0$.
+
+The right hand side is 
+
+$$ \sum_{i = 1}^{n-1} y^{n-i} \otimes y^{i} $$
+
+By way of contradiction, suppose that $n = \text{dim}(K)$ is greater than $1$. In this case, each of the terms $y^i \otimes y^{n-i}$ is nonzero for 0 < i < n, and their sum is as well.
+
+This implies that 
+
+$$\sum_{i= 1}^{n-1} {\binom{n}{i}}  y^{n-i} \otimes y^{i}$$
+
+is not zero, which contradicts that $y^n$ is zero using the above equation.
+
+We can conclude that $n = 1$.
 
 ## In weak foundations
 
