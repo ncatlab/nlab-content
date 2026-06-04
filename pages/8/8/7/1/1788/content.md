@@ -105,3 +105,201 @@ $$
 Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
   B        \ar[r] & Q A \sqcup   B        \ar[r] & A \sqcup   B       \cr
 \end{xymatrix}
+
+
+_________
+
+
+Jun4 730 DeanYoung testing ...
+
+
+
+
+
+
+
+## Using the cellular cohomology of complex projective space
+ {#ViaCellularCohomology}
+
+There is a proof using that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
+
+$$
+  H^i(\mathbb{CP}^{n-1}, \mathbb{Z}) \cong \mathbb{Z}^{a_i}
+  \mathrlap{\,,}
+$$ 
+
+where 
+$$
+  a_i 
+    =
+  \left\{ 
+  \begin{array}{ll}
+    1 & \text{if}\; i \in \{ 2j \vert 0 \leq j \leq n-1 \}
+    \\
+    0 & \text{otherwise}
+  \end{array}
+  \right.
+$$
+
+\begin{theorem} 
+Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ with $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-[[linear map]] and an element $1 \in K$ satisfying the following two properties:
+
+* ([[unitality]]) $\mu ( 1 \otimes a ) = a = \mu (a \otimes 1)$ for each $a \in K$,
+
+* (no [[zero-divisors]]) For $a,b \in K$, if $a b = 0$ then either $a = 0$ or $b = 0$.
+
+Then $K$ is [[isomorphism|isomorphic]] to $\mathbb{C}$ itself as a [[complex vector space|$\mathbb{C}$-vector space]], i.e. $\text{dim}(K) = 1$.
+\end{theorem}
+
+Note that we obtain such a $\mathbb{C}$-algebra as the [[splitting field]] of any complex [[irreducible  polynomial]].
+
+\begin{proof}
+Using the second property we obtain a [[continuous function]] $\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} \rightarrow \mathbb{CP}^{n-1}$ 
+
+We obtain two equations by applying degree-2 [[integral cohomology]] to the two unit laws in the first property, irrespective of any associativity or commutativity of $K$:
+
+$$ 
+  H^2 \left( 
+    \mu 
+      \circ 
+    \left( 
+      \eta \times Id_{\mathbb{CP}^{n-1}} 
+    \right) , 
+    \mathbb{Z} 
+  \right)   
+  =  
+  Id_{H^2 \left( \mathbb{CP}^{n-1} , \mathbb{Z} \right) }
+  =   
+  H^2 \left( 
+    \mu 
+    \circ 
+    \left( 
+      Id_{\mathbb{CP}^{n-1}} \times \eta 
+    \right) , 
+    \mathbb{Z} 
+  \right)
+  \mathrlap{\,.}
+$$
+
+Let $y \in H^2(\mathbb{CP}^{n-1})$ be the generator of the [[cohomology ring]] $H^* ( \mathbb{CP}^{n-1} )$. We have:
+
+$$
+  H^2\big(
+    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}; 
+    \mathbb{Z}
+  \big) 
+   \cong 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+   \oplus 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+  \mathrlap{\,.}
+$$
+
+We can write 
+
+$$
+  H^2(\mu,\mathbb{Z})(y) 
+    = 
+  a \cdot (1 \otimes y) + b \cdot (y \otimes 1)
+$$
+
+for some $a, b \in \mathbb{Z}$.
+
+The two equations obtained from the unit laws for $K$ imply that:
+
+$$
+  a = 1, 
+  \,
+  b = 1
+  \mathrlap{\,.}
+$$
+
+There is an [[isomorphism]] of [[Hopf algebras]] in [[integral cohomology]] of 
+
+$$
+  \big(
+    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+  \big) 
+    \otimes 
+  \big(
+    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+  \big)  
+    \cong  
+  H^*\big(
+   \mathbb{CP}^{n-1};
+   \mathbb{Z}
+  \big) 
+    \otimes_{\mathbb{Z}} 
+  H^*\big(
+    \mathbb{CP}^{n-1};
+    \mathbb{Z}
+  \big)  
+    \cong  
+  H^*\big(
+    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1};
+    \mathbb{Z}
+  \big)
+  \mathrlap{\,.}
+$$
+
+But $H^*(\mu,\mathbb{Z})$ is a [[ring homomorphism]], so
+
+$$
+  H^*(\mu,\mathbb{Z})(y^n) 
+    = 
+  (1 \otimes y + y \otimes 1)^n 
+    = 
+  \sum_{i = 0}^n {\binom{n}{i}} (1 \otimes y)^i \cdot (y \otimes 1)^{n-i} 
+    = 
+  \sum_{i = 0}^n y^{n-i} \otimes y^{i}
+$$
+
+as elements of the commutative Hopf-algebra
+
+$$
+  H^*(\mathbb{CP}^{n-1},\mathbb{Z}) 
+    \otimes 
+  H^*(\mathbb{CP}^{n-1},\mathbb{Z})  
+   \;\cong\; 
+  \left( 
+    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+  \right) 
+   \otimes  
+  \left( 
+    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+  \right)
+  \mathrlap{\,.}
+$$
+
+The left-hand side is $0$.
+
+The right hand side is 
+
+$$ 
+   \sum_{i = 1}^{n-1} y^{n-i} \otimes y^{i} 
+  \mathrlap{\,.}
+$$
+
+By way of [[proof by contradiction|contradiction]], suppose that $n = \text{dim}(K)$ is greater than $1$. In this case, each of the terms $y^i \otimes y^{n-i}$ is nonzero for $0 \lt i \lt n$, and their sum is as well.
+
+This implies that 
+
+$$
+  \sum_{i= 1}^{n-1} {\binom{n}{i}}  y^{n-i} \otimes y^{i}$$
+
+is not zero, which contradicts that $y^n$ is zero using the above equation.
+
+This implies $n = 1$ and hence the claim.
+\end{proof}
+
+
+
+
+
+
+
+
