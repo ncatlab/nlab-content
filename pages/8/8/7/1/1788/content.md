@@ -8,63 +8,35 @@
 
 
 
-
-For $C \subset X$ a [[compact subset]], write $cof(X\setminus C \to X)$ for the result of collapsing its [[complement]]. 
-
-Let $X$ be a [[locally compact topological space]] with [[one-point compactification]] $X_{cpt}$. Then we have a canonical [[homeomorphism]]
 $$
-  cof\big(
-    X_{cpt} \setminus C
-    \to 
-    X_{cpt}
-  \big)
-  \simeq
-  cof\big(
-    X \setminus C 
-    \to 
-    X
-  \big)
-$$
-and hence a system of comparison maps, natural in $C$, of the form:
-\[
-  \label
-  {CollapsingComplementOfCompactinOnePointCompactification}
-  X_{cpt} 
-    \longrightarrow
-  cof(X \setminus C \to X)
-  \mathrlap{\,.}
-\]
-
-For a [[pointed topological space]] $A$, the *compactly supported mapping space* from $X$ to $A$ is the following [[colimit]] of [[pointed mapping spaces]]:
-$$
-  Map^c(X,A)
-  \colon
-  \underset{\underset{C}{\longrightarrow}}{\lim}
+  \Big(
   Map\big(
-    cof(X \setminus C \to X)
-    ,
-    A
+    B\mathbb{Z},
+    B G
   \big)
-  \mathrlap{\,.}
+  \times
+  B \mathbb{Z}
+  \overset{ev}{\longrightarrow}
+  B G
+  \overset{c}{\longrightarrow}
+  B^n A
+  \Big)
+  \leftrightarrow
+  \Big(
+    Map\big(
+      B \mathbb{Z},
+      B G
+    \big)
+    \xrightarrow{
+      Map(B \mathbb{Z}, c)
+    }
+    Map\big(
+      B\mathbb{Z},
+      B^n A
+    \big)
+  \Big)
 $$
 
-By (eq:CollapsingComplementOfCompactinOnePointCompactification) this has a canonical comparison map to the [[pointed mapping space]] out of the [[one-point compactification]]:
-
-\[
-  \label{ComparisonMapFromCompactToPointedMappingSpace}
-  Map^c(X,A)
-  \longrightarrow
-  Map^\ast\big(
-    X_{cpt} , A
-  \big)
-\]
-
-\begin{proposition}
-  A sufficient condition for the comparison map (eq:ComparisonMapFromCompactToPointedMappingSpace) to be a [[weak homotopy equivalence]] is that
-
-* $X$ is a [[manifold]] which is finitary in that it is the [[complement]] of some [[faces]] ([[codimension]]=1 [[stratified space|strata]]) of a [[compact topological space|compact]] [[manifold with corners]].
-
-\end{proposition}
 
 ---
 
