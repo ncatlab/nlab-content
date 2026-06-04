@@ -98,8 +98,7 @@ While the proposal of  [Witten 98, Section 3](#Witten98) to explain the K-theory
 
 See also [Erler 19](#Erler19) which still lists this (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among open problems of [[string field theory]]:
 
-> Are there topological invariants of the open string star algebra representing D-brane charges?
-
+> "Are there topological invariants of the open string star algebra representing D-brane charges?"
 
 
 
