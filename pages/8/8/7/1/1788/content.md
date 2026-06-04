@@ -7,7 +7,78 @@
 \linebreak
 
 
-We may understand the [[fiber integration]] over $B \mathbb{Z}$ in [[ordinary cohomology]]
+\[\label{FiberIntegralViaHomAdjunct}\]
+\begin{tikzcd}
+  X
+  \\[-100pt]
+  H^{n+1}\big(
+    X
+     \times
+    \mathbf{B} \mathbb{Z}
+    ;
+    \mathcal{A}
+  \big)
+  \ar[
+    d,
+    equals
+  ]
+  \ar[
+    rrr,
+    "{ \int_{\mathbf{B} \mathbb{Z}} }"
+  ]
+  &&&
+  H^n\big(
+    X;
+    \mathcal{A}
+  \big)
+  \ar[
+    d,
+    equals
+  ]
+  \\
+  \pi_0 \mathrm{Map}\big(
+    X \times \mathbf{B} \mathbb{Z}
+    ,
+    \mathbf{B}^{n+1} \mathcal{A}
+  \big)
+  \ar[
+    r,
+    "{ \widetilde{(-)} }"
+  ]
+  &
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathrm{Map}(
+      \mathbf{B} \mathbb{Z},
+      \mathbf{B}^{n+1} \mathcal{A}
+    )
+  \big)
+  \ar[
+    r,
+    "{ \sim }"
+  ]
+  &[-10pt]
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathbf{B}^{n+1} \mathcal{A}
+    \times 
+    \mathbf{B}^n \mathcal{A}
+  \big)
+  \ar[
+    r,
+    "{
+      \mathrm{Map}(X, \mathrm{pr}_2)
+    }"
+  ]
+  &
+  \pi_0 \mathrm{Map}\big(
+    X 
+    ,
+    \mathbf{B}^n \mathcal{A}
+  \big)
+\end{tikzcd}
 
 
 
