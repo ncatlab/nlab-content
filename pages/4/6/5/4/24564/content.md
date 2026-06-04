@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -221,9 +220,19 @@ See also:
 
 * {#Legg24} Henry Legg, *Nonlocal conductance as a measure of topological superconducting phases*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/OmUaLewy6Fs?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
 
+Microsoft again doubling down on their claims:
 
+* [[Chetan Nayak]] et al.: *20 Second Parity Lifetime in an InAs--Pb Tetron Device* &lbrack;[arXiv:2606.03884](https://arxiv.org/abs/2606.03884)&rbrack;
 
+Reactions:
 
+* Joseph Howlett: *[Microsoft’s new quantum computer chip has a fundamental problem --- continues a trend of bold claims followed by scant evidence](https://www.scientificamerican.com/article/microsofts-upgraded-majorana-quantum-computing-chip-fizzles-with-physicists/)*, Scientific American (02 June 2026)
+
+* Davide Castelvecchi: *[Microsoft upgrades controversial quantum chip — researchers are still sceptical](https://www.nature.com/articles/d41586-026-01788-y)*, Nature news (03 June 2026)
+
+See also:
+
+* Wikipedia: *[Majorana 1](https://en.wikipedia.org/wiki/Majorana_1)*, *[Majorana 2](https://en.wikipedia.org/wiki/Majorana_2)*
 
 \linebreak
 
