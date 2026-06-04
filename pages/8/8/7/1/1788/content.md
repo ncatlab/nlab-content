@@ -7,35 +7,9 @@
 \linebreak
 
 
+We may understand the [[fiber integration]] over $B \mathbb{Z}$ in [[ordinary cohomology]]
 
-$$
-  \Big(
-  Map\big(
-    B\mathbb{Z},
-    B G
-  \big)
-  \times
-  B \mathbb{Z}
-  \overset{ev}{\longrightarrow}
-  B G
-  \overset{c}{\longrightarrow}
-  B^n A
-  \Big)
-  \leftrightarrow
-  \Big(
-    Map\big(
-      B \mathbb{Z},
-      B G
-    \big)
-    \xrightarrow{
-      Map(B \mathbb{Z}, c)
-    }
-    Map\big(
-      B\mathbb{Z},
-      B^n A
-    \big)
-  \Big)
-$$
+
 
 
 ---
