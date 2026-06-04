@@ -22,7 +22,9 @@ Every [[unique factorization domain]] is integrally closed.
 
 ## In constructive mathematics
 
-In constructive mathematics, integral closure and [[algebraic closure]] are not the same if the field is not a [[discrete field]]. Integral closure is usually better behaved than algebraic closure in fields which are not [[discrete fields]], because not every polynomial can be shown to have a well-defined degree, but every monic polynomial by definition has a well-defined degree. This is especially the case with the [[fundamental theorem of algebra]] for a set of [[complex numbers]], which in constructive mathematics states that the [[complex numbers]] are integrally closed, and is true for the [[modulated Cantor real numbers]] while not provable for the [[Dedekind real numbers]]. 
+In constructive mathematics, integral closure and [[algebraic closure]] of a [[Heyting field]] are still the same if one defines algebraic closure using polynomial functions with positive [[degree of a polynomial|degree]]. If one however uses the classical definition of algebraic closure using non-constant polynomial functions, integral closure and algebraic closure of a [[Heyting fields]] are only the same if the [[Heyting field]] is a [[discrete field]], and not the same otherwise. 
+
+This is especially the case with the [[fundamental theorem of algebra]] for a set of [[complex numbers]], which in constructive mathematics states that the [[complex numbers]] are integrally closed, and is true for the [[modulated Cantor real numbers]] while not provable for the [[Dedekind real numbers]]. 
 
 ## See also
 
