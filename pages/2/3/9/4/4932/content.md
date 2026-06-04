@@ -68,7 +68,7 @@ On [[differential topology]]:
 
 * {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([[Milnor_DifferentialTopology.pdf:file]])
 
-* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+* [[John Milnor]]: _Topology from the differential viewpoint_, Princeton University Press (1997) &lbrack;[ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf)&rbrack;
 
 
 On [[bilinear forms]]:
