@@ -82,7 +82,7 @@ The argument is the same for $I$ and $J$. So take $I$.
 By definition we have $I \subset llp\big(rlp(I)\big)$ and it is readily checked that collections of morphisms given by a [[left lifting property]] are stable under [[pushouts]], [[transfinite composition]] and [[retracts]] (see [here](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms) for details). So $cof(I) \subset llp\big(rlp(I)\big)$.
 
 For the converse inclusion we use the [[small object argument]]: let $f \colon X \to Z$ be in $llp\big(rlp(I)\big)$. The small object argument produces a factorization
-$f : X \stackrel{f' \in cof(I)}{\to} Y \stackrel{f''\in rlp(I)}{\to} Z$. 
+$f : X \stackrel{f' \in cell(I)}{\to} Y \stackrel{f''\in rlp(I)}{\to} Z$. 
 
 Finally we apply the "[[retract argument]]": It follows that $f$ has the left [[lifting property]] with respect to $f''$ which yields a morphism $\sigma$ in
 
