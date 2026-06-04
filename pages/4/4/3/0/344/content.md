@@ -130,7 +130,7 @@ In between finitary and infinitary extensive , a __$\kappa$-ary extensive catego
 \end{remark}
 
 \begin{remark}
-Extensive categories are also called __positive categories__, especially if they are also [[coherent category|coherent]].  Note that any disjoint coproduct in a coherent category is automatically pullback-stable.  A positive coherent category which is also [[exact category|exact]] is called a [[pretopos]].  Infinitary pretoposes encapsulate all the exactness conditions of Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]] (the remaining condition is the existence of a small [[generating set]]).
+Extensive categories are also called __positive categories__, especially if they are also [[coherent category|coherent]].  Note that any disjoint coproduct in a coherent category is automatically pullback-stable.  An extensive category which is also [[exact category|exact]] is called a [[pretopos]] (this implies that it is furthermore coherent).  Infinitary pretoposes encapsulate all the exactness conditions of Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]] (the remaining condition is the existence of a small [[generating set]]).
 \end{remark}
 
 \begin{definition}
