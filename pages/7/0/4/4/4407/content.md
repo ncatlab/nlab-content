@@ -286,11 +286,23 @@ Many proofs rely explicitly on the [[double negation]] rule by first supposing t
 
 ### In constructive mathematics
 
-In [[constructive mathematics]], [[integral closure]] and [[algebraic closure]] of a [[field]] are not the same, because not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
+In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
 
-Thus, the fundamental theorem of algebra is usually expressed in terms of integral closure, which classically is the same as algebraic closure for any field:
+Thus, one has two ways to express the fundamental theorem of algebra:
 
-* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[integrally closed field|integrally closed]]. In other words, every [[monic polynomial|monic]] [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+* By restrict to polynomial functions with a positive degree in the notion of an [[algebraic closure]] of a field. 
+
+* By using [[integral closure]] instead of [[algebraic closure]]; i.e. [[monic polynomial|monic]] [[polynomial functions]]. 
+
+\begin{proposition}
+The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every [[polynomial function]] with positive [[degree of a polynomial|degree]] and [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+\end{proposition}
+
+\begin{proposition}
+The [[field]] of [[complex number]]s $\mathbb{C}$ is [[integrally closed field|integrally closed]]. In other words, every [[monic polynomial|monic]] [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+\end{proposition}
+
+These two versions of the fundamental theorem of algebra are equivalent to each other, since, by definition of a polynomial function with positive degree, the coefficient associated to the largest exponent is apart from zero, and so can be factored out of the polynomial function, yielding a monic polynomial function. 
 
 There is a second problem, namely with Lemma \ref{sqrt}. It is usually impossible to prove that the monic quadratic function $x \mapsto x^2 + c$ has a [[root]] for all complex numbers $c \in \mathbb{C}$. The problem here is once again that any constructive notion of complex numbers is only a [[Heyting field]], rather than a [[discrete field]]. The function $x \mapsto x^2 + c$ has a root for $c = 0$ and for invertible $c$, but it is not provable that every complex number $c \in \mathbb{C}$ is either invertible or equal to zero. In fact, this fails in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because that the complex numbers have a continuous square root over $\mathbb{C}$ can only be proven in the presence of [[weak countable choice]] or the [[analytic LPO]].  
 
