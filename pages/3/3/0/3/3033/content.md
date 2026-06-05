@@ -78,6 +78,9 @@ On [[rational homotopy theory|rational]] [[topological T-duality]]:
 
 * [[Domenico Fiorenza]], Mattia Coloma, [[Eugenio Landi]]: _A very short note on the (rational) graded Hori map_, Communications in Algebra **50** 5 (2022) &lbrack;[arXiv:2003.13066](https://arxiv.org/abs/2003.13066), [doi:10.1080/00927872.2021.2005076](https://doi.org/10.1080/00927872.2021.2005076)&rbrack;
 
+On [[projective representations]] of [[categories]] in view of [[anomaly cancellation]] in [[functorial field theory]]:
+
+* [[Domenico Fiorenza]], Chetan Vuppulury: *Projective and anomalous representations of categories and their linearizations*, [[Theory and Applications of Categories]] **45** 37 (2026) 1515--1554 &lbrack;[tac:45-37](http://www.tac.mta.ca/tac/volumes/45/37/45-37abs.html), [arXiv:2506.01521](https://arxiv.org/abs/2506.01521)&rbrack;
 
 
 
