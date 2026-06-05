@@ -25,6 +25,7 @@
 | $A$ | $Mod_A$ |
 | $R$-[[2-algebra]] | $Mod_R$-[[3-module]] |
 |  [[Hopf monoidal category]] | [[monoidal 2-category]] (with some duality and strictness structure) |
+| [[quasitriangular Hopf 2-algebra]] | [[braided monoidal 2-category]] |
 
 
 **3-Tannaka duality for [[module 2-categories]] over [[monoidal 2-categories]]** 
