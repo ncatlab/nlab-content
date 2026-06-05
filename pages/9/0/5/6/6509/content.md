@@ -24,6 +24,11 @@ Generalization of [[Noether's theorem]] to [[Poisson-Lie group]] [[symmetries]],
 
 * [[Florian Girelli]], Christopher Pollack, Aldo Riello: *Beyond Noether: A Covariant Study of Poisson-Lie Symmetries in Low Dimensional Field Theory* &lbrack;[arXiv:2505.14942](https://arxiv.org/abs/2505.14942)&rbrack;
 
+On [[categorification|categorified]] [[Tannaka duality]] between [[quasitriangular 2-bialgebras]] and [[braided monoidal 2-categories]]:
+
+* [[Hank Chen]], [[Florian Girelli]]: *Hopf 2-algebras and Braided Monoidal 2-Categories*, [[Theory and Applications of Categories]] **45** 36 (2026) \[<a href="http://www.tac.mta.ca/tac/volumes/45/36/45-36abs.html">tac:45-36</a>, <a href="https://arxiv.org/abs/2304.07398">arXiv:2304.07398</a>\]
+
+
 
 See also:
 
