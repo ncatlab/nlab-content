@@ -102,10 +102,12 @@ $${|f(z')|} \leq {|F(z')|} + {|f(z') - F(z')|} \lt {|f(z_0)|} - r + r = {|f(z_0)
 which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z_0$.  
 
 
+
+
 ## Using the cellular cohomology of complex projective space
  {#ViaCellularCohomology}
 
-There is a proof using that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
+There is a proof, possibly first observed by Robert Bruner, which uses that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
 
 $$
   H^i(\mathbb{CP}^{n-1}, \mathbb{Z}) \cong \mathbb{Z}^{a_i}
@@ -125,20 +127,38 @@ $$
   \right.
 $$
 
+and in which the cup product induces a ring-isomorphism 
+
+$$
+H^* (\mathbb{CP}^n, \mathbb{Z}) \simeq  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
+$$
+
+where $c$ is the integral first Chern class (see [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace)
+
 \begin{theorem} 
-Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ with $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-[[linear map]] and an element $1 \in K$ satisfying the following two properties:
+Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ with $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-[[linear map]] and an element designated by $\eta : \mathbb{C} \rightarrow K$ satisfying the following two properties:
 
-* ([[unitality]]) $\mu ( 1 \otimes a ) = a = \mu (a \otimes 1)$ for each $a \in K$,
+* ([[unitality]]) $\mu \circ \left( \eta \otimes Id_{K} \right) \circ \eta_1 \ = \ Id_K \ = \ \mu \circ \left( Id_K \otimes \eta \right) \circ \eta_2$ where $\eta_1 : \{ * \} \times \mathbb{CP}^{n-1}  \rightarrow \mathbb{CP}^{n-1}$ and $\eta_2 : \mathbb{CP}^{n-1} \times \{ * \} \rightarrow \mathbb{CP}^{n-1}$ are the unit isomorphisms with respect to the cartesian closed category induced by [product](cartesian+product#InAGeneraCategory).
 
-* (no [[zero-divisors]]) For $a,b \in K$, if $a b = 0$ then either $a = 0$ or $b = 0$.
+* (no [[zero-divisors]]) for $a, b \in K$, if $\mu (a \otimes b) = 0$, then either $a = 0$ or $b = 0$.
 
 Then $K$ is [[isomorphism|isomorphic]] to $\mathbb{C}$ itself as a [[complex vector space|$\mathbb{C}$-vector space]], i.e. $\text{dim}(K) = 1$.
 \end{theorem}
 
-Note that we obtain such a $\mathbb{C}$-algebra as the [[splitting field]] of any complex [[irreducible  polynomial]].
+Note that we obtain such a nonassociative $\mathbb{C}$-algebra as the [[splitting field]] of any complex [[irreducible  polynomial]].
 
 \begin{proof}
-Using the second property we obtain a [[continuous function]] $\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} \rightarrow \mathbb{CP}^{n-1}$ 
+Using the second property we obtain a [[continuous function]] 
+
+$$ 
+ \mu |_{ \mathbb{C}^n - \{ 0 \} }  \ : \ \left( \mathbb{C}^{n} - \{ 0 \} \right) \times \left( \mathbb{C}^{n} - \{ 0 \} \right)\ \rightarrow\ \mathbb{C}^{n} - \{ 0 \}
+$$
+
+Bilinearity implies that $\pi \circ  \mu|_{ \mathbb{C}^n - \{ 0 \} }$ factors through the product $\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}$ where $\pi :  \mathbb{C}^{n} - \{ 0 \} \rightarrow \mathbb{CP}^{n-1}$ is the quotient map. We get a continuous function
+
+$$
+ [ \mu|_{ \mathbb{C}^n} ] \ : \ \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} \rightarrow \mathbb{CP}^{n-1}
+$$
 
 We obtain two equations by applying degree-2 [[integral cohomology]] to the two unit laws in the first property, irrespective of any associativity or commutativity of $K$:
 
@@ -208,7 +228,7 @@ $$
   \big(
     \mathbb{Z}[x]/x^n\mathbb{Z}[x]
   \big) 
-    \otimes 
+    \otimes_{\mathbb{Z}}
   \big(
     \mathbb{Z}[x]/x^n\mathbb{Z}[x]
   \big)  
@@ -246,7 +266,7 @@ as elements of the commutative Hopf-algebra
 
 $$
   H^*(\mathbb{CP}^{n-1},\mathbb{Z}) 
-    \otimes 
+    \otimes_{\mathbb{Z}} 
   H^*(\mathbb{CP}^{n-1},\mathbb{Z})  
    \;\cong\; 
   \left( 
@@ -368,6 +388,10 @@ A full formalization in the [[Rocq]] [[proof assistant]]:
 
 * Herman Geuvers, [[Freek Wiedijk]], Jan Zwanenburg: *A Constructive Proof of the Fundamental Theorem of Algebra without Using the Rationals &lbrack;[web](http://dl.acm.org/citation.cfm?id=696038)&rbrack;
 
+A proof using integral cohomology of complex projective space:
+
+* R. Bruner, cute proof, message posted to the ALGTOP-L mailing
+list, 1 Dec. 2009.
 
 A [[reverse mathematics]] treatment:
 
