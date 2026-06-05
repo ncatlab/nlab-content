@@ -155,6 +155,11 @@ For [[topological order]] in [[fractional quantum Hall systems]]:
 
 * {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: [[schreiber:Bulk-Edge Correspondence via Higher Gauge Theory]] &lbrack;[arXiv:2605.10232](https://arxiv.org/abs/2605.10232)&rbrack;
 
+In the context of [[rational CFT]] with [[noninvertible symmetries]], in the spirit of the [[FRS theorem]]:
+
+* [[Terry Gannon]], Brandon C. Rayhaun: *Hypergroup Symmetry in Relative Quantum Field Theories and Chiral Algebras* &lbrack;[arXiv:2606.05279](https://arxiv.org/abs/2606.05279)&rbrack;
+
+
 ### Under T-Duality
 
 [[!include T-duality in K-theory classification of topological phases -- references]]
