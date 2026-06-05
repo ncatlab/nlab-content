@@ -234,6 +234,9 @@ See also:
 
 * Taige Wang: *Topological superconductivity from Abelian fractional Chern insulators* &lbrack;[arXiv:2605.29034](https://arxiv.org/abs/2605.29034)&rbrack;
 
+* Jennifer Cano, Jie Wang: *Ideal Quantum Geometry for Fractional Chern Insulators* &lbrack;[arXiv:2606.05496](https://arxiv.org/abs/2606.05496)&rbrack;
+
+
 
 
 
