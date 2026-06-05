@@ -242,7 +242,7 @@ $$
   \big(
     \mathbb{Z}[x]/x^n\mathbb{Z}[x]
   \big) 
-    \otimes 
+    \otimes_{\mathbb{Z}}
   \big(
     \mathbb{Z}[x]/x^n\mathbb{Z}[x]
   \big)  
@@ -280,7 +280,7 @@ as elements of the commutative Hopf-algebra
 
 $$
   H^*(\mathbb{CP}^{n-1},\mathbb{Z}) 
-    \otimes 
+    \otimes_{\mathbb{Z}} 
   H^*(\mathbb{CP}^{n-1},\mathbb{Z})  
    \;\cong\; 
   \left( 
@@ -316,7 +316,10 @@ This implies $n = 1$ and hence the claim.
 
 
 
+## Using the complex topological $K$-theory of complex projective space
+ {#ViaComplexTopologicalK-Theory}
 
+testing...
 
 
 
