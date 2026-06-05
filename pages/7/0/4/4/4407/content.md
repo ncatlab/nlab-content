@@ -104,19 +104,29 @@ which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z
 
 
 
-## Using the cellular cohomology of complex projective space
+## Via cohomology of complex projective space
  {#ViaCellularCohomology}
 
-There is a proof, possibly first observed by [[Robert Bruner]], which uses that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
+The following expands out a proof indicated by [Bruner 2009](#Bruner2009), of the fundamental theorem of algebra via the [[integral cohomology|integral]] [[cohomology ring]] of [[complex projective space]] $\mathbb{C}P^{n-1}$:
+
+> [Bruner 2009](#Bruner2009): "I just noticed the following proof that the complex numbers $\mathbb{C}$ are algebraically closed, and wonder if anyone has seen it in print anywhere. \linebreak
+> An algebraic extension of C is a unital division algebra over $\mathbb{C}$, say of dimension $n$, so induces 
+> $$ \mathbb{C}P^{n-1} \times \mathbb{C}P^{n-1} \longrightarrow \mathbb{C}P^{n-1}$$
+> satisfying 
+> $$ y \mapsto 1 \textstyle{\otimes} y + y \textstyle{\otimes} 1 $$
+> in second integral cohomology.  Since $y^n = 0$, we must have $n=1$."
+
+Recall here that the [[integral cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology)): 
 
 $$
-  H^i(\mathbb{CP}^{n-1}, \mathbb{Z}) \cong \mathbb{Z}^{a_i}
+  H^i\big(
+    \mathbb{CP}^{n-1}; 
+    \mathbb{Z}
+  \big) 
+    \cong 
+  \mathbb{Z}^{a_i}
   \mathrlap{\,,}
-$$ 
-
-where 
-
-$$
+  \;\text{where}\;
   a_i 
     =
   \left\{ 
@@ -128,41 +138,81 @@ $$
   \right.
 $$
 
-and in which the cup product induces a ring-isomorphism 
+on which the [[cup product]] induces a ring [[isomorphism]] 
 
 $$
-  H^* (\mathbb{CP}^n, \mathbb{Z}) \simeq  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
+  H^*\big(
+    \mathbb{CP}^n, \mathbb{Z}
+  \big) 
+    \simeq  
+  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
   \mathrlap{\,,}
 $$
 
-where $c$ is the integral [[first Chern class]] (see [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace).
+where $c$ denotes the integral [[first Chern class]] (cf. [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace)).
 
 \begin{theorem} 
-Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ with $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-[[linear map]] and an element designated by $\eta : \mathbb{C} \rightarrow K$ satisfying the following two properties:
+Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ equipped 
 
-* ([[unitality]]) $\mu \circ \left( \eta \otimes Id_{K} \right) \circ \eta_1 \ = \ Id_K \ = \ \mu \circ \left( Id_K \otimes \eta \right) \circ \eta_2$ where $\eta_1 : \{ * \} \times \mathbb{CP}^{n-1}  \rightarrow \mathbb{CP}^{n-1}$ and $\eta_2 : \mathbb{CP}^{n-1} \times \{ * \} \rightarrow \mathbb{CP}^{n-1}$ are the unit isomorphisms with respect to the cartesian closed category induced by [product](cartesian+product#InAGeneraCategory).
+1. (unit) a map $\eta : \ast \rightarrow K$ 
 
-* (no [[zero-divisors]]) for $a, b \in K$, if $\mu (a \otimes b) = 0$, then either $a = 0$ or $b = 0$.
+1. (product) a [[linear map]] $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$
 
-Then $K$ is [[isomorphism|isomorphic]] to $\mathbb{C}$ itself as a [[complex vector space|$\mathbb{C}$-vector space]], i.e. $\text{dim}(K) = 1$.
+satisfying for $a,b \in K$:
+
+1. ([[unitality]]) $\mu\big(\eta(1),a\big) = a = \mu\big(a,\eta(1)\big)$, 
+
+1. (no [[zero-divisors]]) if $\mu (a \otimes b) = 0$, then $a = 0$ or $b = 0$.
+
+(We do not *need* to require [[associativity]]!)
+
+Then $K$ is [[isomorphism|isomorphic]] to $\mathbb{C}$ itself as a [[complex vector space|$\mathbb{C}$-vector space]], i.e. [[dimension of a vector space|$\text{dim}(K)$]] $= 1$.
 \end{theorem}
 
 Note that we obtain such a nonassociative $\mathbb{C}$-algebra as the [[splitting field]] of any complex [[irreducible  polynomial]].
 
 \begin{proof}
-Using the second property we obtain a [[continuous function]] 
-
-$$ 
- \mu |_{ \mathbb{C}^n - \{ 0 \} }  \ : \ \left( \mathbb{C}^{n} - \{ 0 \} \right) \times \left( \mathbb{C}^{n} - \{ 0 \} \right)\ \rightarrow\ \mathbb{C}^{n} - \{ 0 \}
-$$
-
-Bilinearity implies that $\pi \circ  \mu|_{ \mathbb{C}^n - \{ 0 \} }$ factors through the product $\mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}$ where $\pi :  \mathbb{C}^{n} - \{ 0 \} \rightarrow \mathbb{CP}^{n-1}$ is the quotient map. We get a continuous function
+The assumed absence of [[zero divisors]] implies that multiplication restricts to the [[complement]] of zero, and [[bilinear map|bilinearity]] of the multiplication then implies that it respects [[complex lines]] and hence descends to a [[continuous map]] between ([[product space|products]] of) [[complex projective space]]
 
 $$
- [ \mu|_{ \mathbb{C}^n} ] \ : \ \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} \rightarrow \mathbb{CP}^{n-1}
+  [ \mu|_{ \mathbb{C}^n \setminus \{0\} } ] 
+    \ : \ 
+  \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} 
+    \longrightarrow 
+  \mathbb{CP}^{n-1}
+  \mathrlap{\,.}
 $$
 
-We obtain two equations by applying degree-2 [[integral cohomology]] to the two unit laws in the first property, irrespective of any associativity or commutativity of $K$:
+Recall that $c \in H^2(\mathbb{CP}^{n-1})$ is the generator of the [[cohomology ring]] $H^* ( \mathbb{CP}^{n-1} )$. We have:
+
+$$
+  H^2\big(
+    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}; 
+    \mathbb{Z}
+  \big) 
+   \cong 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+   \oplus 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+  \mathrlap{\,.}
+$$
+
+Therefore there must be $a, b \in \mathbb{Z}$ such that pullback of the generator along the product map is
+
+$$
+  H^2(\mu,\mathbb{Z})(c) 
+    = 
+  a \cdot (1 \textstyle{\otimes} c) 
+    + 
+  b \cdot (c \textstyle{\otimes} 1)
+  \mathrlap{\,.}
+$$
+
+But these coefficients must satisfy the two equations which are the image in degree-2 [[integral cohomology]] of the two [[unit laws]] (the first assumed property on $K$):
 
 $$ 
   H^2 \left( 
@@ -187,39 +237,11 @@ $$
   \mathrlap{\,.}
 $$
 
-Let $y \in H^2(\mathbb{CP}^{n-1})$ be the generator of the [[cohomology ring]] $H^* ( \mathbb{CP}^{n-1} )$. We have:
-
-$$
-  H^2\big(
-    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}; 
-    \mathbb{Z}
-  \big) 
-   \cong 
-  H^2\big(
-    \mathbb{CP}^{n-1}; \mathbb{Z}
-  \big) 
-   \oplus 
-  H^2\big(
-    \mathbb{CP}^{n-1}; \mathbb{Z}
-  \big) 
-  \mathrlap{\,.}
-$$
-
-We can write 
-
-$$
-  H^2(\mu,\mathbb{Z})(y) 
-    = 
-  a \cdot (1 \otimes y) + b \cdot (y \otimes 1)
-$$
-
-for some $a, b \in \mathbb{Z}$.
-
-The two equations obtained from the unit laws for $K$ imply that:
+This implies that:
 
 $$
   a = 1, 
-  \,
+  \;\text{and}\;
   b = 1
   \mathrlap{\,.}
 $$
@@ -235,46 +257,50 @@ $$
     \mathbb{Z}[x]/x^n\mathbb{Z}[x]
   \big)  
     \cong  
-  H^*\big(
+  H^\bullet\big(
    \mathbb{CP}^{n-1};
    \mathbb{Z}
   \big) 
     \otimes_{\mathbb{Z}} 
-  H^*\big(
+  H^\bullet\big(
     \mathbb{CP}^{n-1};
     \mathbb{Z}
   \big)  
     \cong  
-  H^*\big(
+  H^\bullet\big(
     \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1};
     \mathbb{Z}
   \big)
   \mathrlap{\,.}
 $$
 
-But $H^*(\mu,\mathbb{Z})$ is a [[ring homomorphism]], so
+But $H^\bullet(\mu;\mathbb{Z})$ is a [[ring homomorphism]], so
 
 $$
-  H^*(\mu,\mathbb{Z})(y^n) 
+  H^\bullet(\mu;\mathbb{Z})(c^n) 
     = 
-  (1 \otimes y + y \otimes 1)^n 
+  (1 \textstyle{\otimes} c + c \textstyle{\otimes} 1)^n 
     = 
-  \sum_{i = 0}^n {\binom{n}{i}} (1 \otimes y)^i \cdot (y \otimes 1)^{n-i} 
+  \sum_{i = 0}^n 
+  {\binom{n}{i}}\, 
+    (1 \otimes c)^i \cdot (c \otimes 1)^{n-i} 
     = 
-  \sum_{i = 0}^n y^{n-i} \otimes y^{i}
+  \sum_{i = 0}^n 
+  {\binom{n}{i}}\, 
+    c^{n-i} \otimes c^{i}
 $$
 
-as elements of the commutative Hopf-algebra
+as elements of the commutative Hopf algebra
 
 $$
-  H^*(\mathbb{CP}^{n-1},\mathbb{Z}) 
+  H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) 
     \otimes_{\mathbb{Z}} 
-  H^*(\mathbb{CP}^{n-1},\mathbb{Z})  
+  H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z})  
    \;\cong\; 
   \left( 
     \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
   \right) 
-   \otimes  
+    \otimes_{\mathbb{Z}}
   \left( 
     \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
   \right)
@@ -286,25 +312,37 @@ The left-hand side is $0$.
 The right hand side is 
 
 $$ 
-   \sum_{i = 1}^{n-1} y^{n-i} \otimes y^{i} 
+   \sum_{i = 1}^{n-1} 
+   {\binom{n}{i}}\, 
+     c^{n-i} 
+       \otimes 
+     c^{i} 
   \mathrlap{\,.}
 $$
 
-By way of [[proof by contradiction|contradiction]], suppose that $n = \text{dim}(K)$ is greater than $1$. In this case, each of the terms $y^i \otimes y^{n-i}$ is nonzero for $0 \lt i \lt n$, and their sum is as well.
+By way of [[proof by contradiction|contradiction]], suppose that $n = \text{dim}(K)$ is greater than $1$. In this case, each of the terms $c^i \otimes c^{n-i}$ is nonzero for $0 \lt i \lt n$, and their sum is as well.
 
 This implies that 
 
 $$
-  \sum_{i= 1}^{n-1} {\binom{n}{i}}  y^{n-i} \otimes y^{i}$$
+  \sum_{i= 1}^{n-1} 
+    {\binom{n}{i}}\,  
+     c^{n-i} 
+       \otimes 
+     c^{i}
+$$
 
-is not zero, which contradicts that $y^n$ is zero using the above equation.
+is not zero, which contradicts that $c^n$ is zero using the above equation.
 
 This implies $n = 1$ and hence the claim.
 \end{proof}
 
-## In weak foundations
 
-Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and deriving a contradiction.  
+
+## In weaker foundations
+
+Many proofs of FTA rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and then deriving a [[proof by contradiction|contradiction]].  
+
 
 ### In constructive mathematics
 
@@ -338,7 +376,7 @@ A fully choice-free constructive proof of this theorem by [[Wim Ruitenburg]] ([R
 
 In the absence of $WCC$ or the [[analytic LPO]], [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
-### In RCA_0
+### In reverse mathematics
 
 Assuming classical logic, but weak foundations, it can be shown that FTA is true in the [[reverse mathematics]] system $RCA_0$ ([Tanaka-Yamazaki 2005](#TY2005)).
 
@@ -390,14 +428,13 @@ A full formalization in the [[Rocq]] [[proof assistant]]:
 
 * Herman Geuvers, [[Freek Wiedijk]], Jan Zwanenburg: *A Constructive Proof of the Fundamental Theorem of Algebra without Using the Rationals &lbrack;[web](http://dl.acm.org/citation.cfm?id=696038)&rbrack;
 
-A proof using integral cohomology of complex projective space:
+The [above proof](#ViaCellularCohomology) using [[integral cohomology]] of [[complex projective space]]:
 
-* R. Bruner, cute proof, message posted to the ALGTOP-L mailing
-list, 1 Dec. 2009.
+* {#Bruner2009} [[Robert Bruner]]: *cute proof*, message to [ALGTOP-L mailing list](https://rezk.web.illinois.edu/algtop-l/algtop-l.html) (1 Dec. 2009) &lbrack;[algtop-l:2009q4/000645](https://rezk.web.illinois.edu/algtop-l/archives2007-2023/2009q4/000645.html)&rbrack;
 
-A [[reverse mathematics]] treatment:
+Discussion in the context of [[reverse mathematics]]:
 
-* {#TK2005} Kazuyuki Tanaka, Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
+* {#TK2005} Kazuyuki Tanaka, Takeshi Yamazaki: _Manipulating the reals in $RCA_0$_, inL _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
 
 
 See also:
