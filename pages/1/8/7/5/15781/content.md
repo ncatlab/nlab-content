@@ -35,6 +35,11 @@ differential calculus is introduced in
 
 * [[Peter Schauenburg]], _Hopf modules and Yetter--Drinfel&#8242;d modules_, J. Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.1994.1314)
 
+In monoidal additive categories:
+
+* Keegan J. Flood, [[Gabriele Lobbia]], [[Giacomo Tendas]]. *Canonical differential calculi via functorial geometrization* (2025). ([arXiv:2512.20742](https://arxiv.org/abs/2512.20742))
+
+
 
 category: algebra 
 
