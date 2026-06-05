@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -68,6 +67,8 @@ A quasitriangular structure on a [[bialgebra]] corresponds to a [[braided monoid
 ## Related concepts
 
 * [[quasitriangular Hopf algebra]]
+
+* [[quasitriangular 2-bialgebra]]
 
 
 ## References
