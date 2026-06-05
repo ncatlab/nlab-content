@@ -102,7 +102,7 @@ Analogous mass-deformation of the [[IKKT matrix model]]:
 * [[Shota Komatsu]], Adrien Martina, Joao Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part II* &lbrack;[arXiv:2411.18678](https://arxiv.org/abs/2411.18678)&rbrack;
 
  
-See also
+See also:
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
 
@@ -132,6 +132,9 @@ See also
 * Dibakar Roychowdhury: *Krylov state complexity for BMN matrix model* &lbrack;[arXiv:2605.10786](https://arxiv.org/abs/2605.10786)&rbrack;
 
 * [[Badis Ydri]]: *Endpoint formulation and Molien--Weyl structure for the $N=2$, large--$d$ BFSS/BMN models* &lbrack;[arXiv:2605.25647](https://arxiv.org/abs/2605.25647)&rbrack;
+
+* Sean Colin-Ellerin, Kyriakos Papadodimas: *BPS Non-Renormalization in the BMN Matrix Model* &lbrack;[arXiv:2606.05388](https://arxiv.org/abs/2606.05388)&rbrack;
+
 
 
 
