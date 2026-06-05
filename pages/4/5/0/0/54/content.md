@@ -276,7 +276,7 @@ Projects:
 
 
 
-<div style="float:right;margin:10px 0px 0px 20px;">
+<div style="float:right;margin:10px 0px 0px 40px;">
 <a href="https://bookstore.ams.org/pspum-83/"><img src="/nlab/files/PSPM83-cover.png" width="300"></a> 
 </div>
 
@@ -305,7 +305,7 @@ Projects:
 
 **Research monographs:**
 
-<div style="float:right;margin:0px 0px 0px 20px;">
+<div style="float:right;margin:0px 0px 0px 40px;">
 <a href="https://doi.org/10.1142/13422"><img src="/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
 </div>
 
@@ -328,7 +328,7 @@ Projects:
 \linebreak
 
 
-<div style="float:right;margin:-10px 0px 0px 20px;">
+<div style="float:right;margin:-10px 0px 0px 40px;">
 <a href="/schreiber/show/Equivariant+Principal+infinity-Bundles"><img src="/schreiber/files/SS25Bun-CUP-Cover-251111.png" width="300"></a> 
 </div>
 
@@ -336,9 +336,10 @@ Projects:
 
   (with [[Hisham Sati|H. Sati]])
 
-  Cambridge University Press 
+  Cambridge University Press (2026)
 
-  (2026, in press)
+  [ISBN:9781009698559](https://www.cambridge.org/de/universitypress/subjects/mathematics/geometry-and-topology/equivariant-principal-bundles?format=HB&isbn=9781009698559)
+
 
 > **In this book** we prove classification results for 
 stable [[nLab:equivariant principal bundle|equivariant $\Gamma$-principal bundles]] in the case when the underlying [[nLab:homotopy type]] $\esh \, \Gamma$ of the [[nLab:topological group|topological]] [[nLab:structure group]] $\Gamma$ is [[nLab:n-truncated|truncated]], meaning that its [[nLab:homotopy groups]] vanish in and above some degree $n$. We discuss how this coincides with the classification of equivariant [[nLab:2-gerbe|higher]] [[nLab:non-abelian gerbes]] and generally of equivariant *[[nLab:principal infinity-bundles|principal $\infty$-bundles]]* with [[nLab:structure group|structure]] [[nLab:n-group|$n$-group]] $\esh  \Gamma$; and we show how the [[nLab:equivariant homotopy groups]] of the respective classifying $G$-spaces are given by the [[nLab:non-abelian cohomology|non-abelian]] [[nLab:group cohomology]] of the equivariance group with coefficients in $\esh  \Gamma$.
@@ -355,18 +356,26 @@ In particular we prove that all the intricate [equivariant local triviality cond
 \linebreak
 
 
-<div style="float:right;margin:-70px 0px 0px 20px;">
-<a href="/schreiber/show/Geometric+Orbifold+Cohomology"><img src="/schreiber/files/GeometricOrbifoldCohomology-ProtoTitle.png" width="400"></a> 
+<div style="float:right;margin:-30px 0px 0px 40px;">
+<a href="/schreiber/show/Geometric+Orbifold+Cohomology"><img src="/schreiber/files/GeometricOrbifoldCohomology-Title.png" width="300"></a> 
 </div>
 
 * **[[schreiber:Geometric Orbifold Cohomology]]**
 
   (with [[Hisham Sati|H. Sati]])
 
-  CRC Press 
+  CRC Press (2026)
 
-  (2026, in press)
+  [ISBN:9781041147510](https://www.routledge.com/Geometric-Orbifold-Cohomology/Sati-Schreiber/p/book/9781041147510)
   
+  > **Abstract**. [[nLab:topological phases of matter|Topological phases]] of [[nLab:quantum materials]] and generally [[nLab:brane]] [[nLab:charges]] in [[nLab:quantum gravity]] are measured by [[nLab:extraordinary cohomology]] of [[nLab:orbifold|orbifolded spaces]], and [[nLab:unstable topological phase of matter|fragilely]]/microscopically by [[nLab:nonabelian cohomology]] [[nLab:twisted cohomology|twisted]] by [[nLab:tangential structure|tangential]] and other [[nlab:higher geometry|geometric]] [[nLab:orbifold]] [[nLab:structure]]. These applications, with more or less direct significance for cutting-edge experimental physics, motivate the further development of the ancient [[nLab:algebraic topology|algebro-topological]] concept of [[nLab:cohomology]] to a robust theory of [[nlab:generalized cohomology|generalized]] [[nLab:nonabelian cohomology|nonabelian]] [[nLab:twisted cohomology|twisted]] [[nLab:differential cohomology|geometric]] [[nLab:orbifold cohomology]]. 
+
+  > After surveying the general outlook and key example applications, the book begins gently with a pedagogical development of a streamlined construction of topological [[nLab:twisted cohomology|twisted]] [[nLab:nonabelian cohomology|nonabelian]] [[nLab:orbifold cohomology]], realized as [[nLab:connected components]] of [[nLab:topological stack|topological]] [[nLab:slice category|slice]] [[nLab:mapping stacks]]. We showcase in this manner a neat novel construction of [[nLab:twisted K-theory|twisted]] [[nLab:orbifold K-theory|orbi-orientifold K-theory]]. 
+
+  > To refine this notion of [[nLab:twisted cohomology|twisted]] [[nLab:nonabelian cohomology|nonabelian]] [[nLab:orbifold cohomology]] and capture geometric ([[nLab:tangential structure|tangential]]) orbifold structure, the second half of the book transitions to modern [[nLab:geometric homotopy theory]] ([[nLab:(infinity,1)-topos theory|higher topos theory]]). We introduce a notion of [[nLab:singular cohesion|singular-]][[nLab:cohesive (infinity,1)-topos|cohesive $\infty$-toposes]] [[nLab:full sub-(infinity,1)-category|faithfully embedding]] [[nLab:smooth manifold|manifolds]], [[nLab:orbifolds]] and [[nLab:higher stack|higher]] [[nLab:étale stacks]] and [[nLab:orbispaces]] into a [[nLab:modal homotopy type theory|modal]] [[nLab:synthetic geometry]]. This allows for the elegant [[nLab:axiomatization]] of [[nLab:higher Cartan geometry|higher]] orbi-differential [[nLab:Cartan geometry]]. Again by forming [[nLab:connected components]] of suitable [[nLab:slice category|slice]] [[nLab:mapping stacks]], but now in the [[nLab:singular cohesion|singular-]][[nLab:cohesive (infinity,1)-topos|cohesive $\infty$-topos]], this yields relevant notions of [[nLab:generalized cohomology|generalized]] [[nLab:twisted cohomology|twisted]] [[nLab:nonabelian cohomology|nonabelian]] [[nLab:differential cohomology|geometric]] [[nLab:orbifold cohomology]]. 
+
+  > A key result established in this generality is that [[nLab:tangential structure|tangentially]] [[nLab:twisted cohomology]] of [[nLab:orbifolds]] reduces in the vicinity of $G$-[[nLab:orbifold singularities]] to [[nLab:RO(G)-grading|$RO(G)$-graded]] [[nLab:equivariant cohomology]]. We close by detailing the construction of twisted nonabelian (unstable) orbifold [[nLab:Cohomotopy]] in this manner, which in the motivating applications is the [[nLab:unstable topological phase of matter|fragile]]/microscopic classifier for [[nLab:topological phase of matter|phases]] of [[nLab:Chern insulator]] [[nLab:quantum material|materials]] and [[nLab:M-branes]].
+
 
 \linebreak
 
