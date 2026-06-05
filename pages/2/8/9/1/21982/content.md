@@ -172,7 +172,8 @@ In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-b
 
 
 #### Conceptual problems
- {#DBraneChargeInKTheoryReferencesConceptualProblems}
+ {#Problems}
+ 
 
 {#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted in:
 
