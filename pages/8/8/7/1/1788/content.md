@@ -6,6 +6,8 @@
 
 \linebreak
 
+\S
+
 
 \[\label{FiberIntegralViaHomAdjunct}\]
 \begin{tikzcd}
