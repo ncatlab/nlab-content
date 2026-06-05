@@ -40,6 +40,11 @@ In the context of [[extended functorial field theory]]:
 
 * [[Daniel S. Freed]], [[Constantin Teleman]]: *The role of $p_1$-structures in 3-dimensional Chern-Simons theories* &lbrack;[arXiv:2603.11291](https://arxiv.org/abs/2603.11291)&rbrack;
 
+Coupled to a [[Higgs field]]:
+
+* Daniel O. R. Azevedo, Gustavo P. de Brito, Philipe De Fabritiis, Antonio D. Pereira: *Charting the different phases of Yang-Mills-Chern-Simons-Higgs theories* &lbrack;[arXiv:2606.05562](https://arxiv.org/abs/2606.05562)&rbrack;
+
+
 
 
 [[!redirects D=3 Yang-Mills-Chern-Simons theories]]
