@@ -228,6 +228,8 @@ Reactions:
 
 * Joseph Howlett: *[Microsoft’s new quantum computer chip has a fundamental problem --- continues a trend of bold claims followed by scant evidence](https://www.scientificamerican.com/article/microsofts-upgraded-majorana-quantum-computing-chip-fizzles-with-physicists/)*, Scientific American (02 June 2026)
 
+* Adrian Cho: *[Doubling down on controversial claims, Microsoft accelerates quantum computing plans --- as critics scoff](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans)*, Science News (02 June 2026)
+
 * Davide Castelvecchi: *[Microsoft upgrades controversial quantum chip — researchers are still sceptical](https://www.nature.com/articles/d41586-026-01788-y)*, Nature news (03 June 2026)
 
 See also:
