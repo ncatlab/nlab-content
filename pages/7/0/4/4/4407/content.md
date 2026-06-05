@@ -107,7 +107,7 @@ which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z
 ## Using the cellular cohomology of complex projective space
  {#ViaCellularCohomology}
 
-There is a proof, possibly first observed by Robert Bruner, which uses that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
+There is a proof, possibly first observed by [[Robert Bruner]], which uses that the [[cellular cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology))
 
 $$
   H^i(\mathbb{CP}^{n-1}, \mathbb{Z}) \cong \mathbb{Z}^{a_i}
@@ -115,6 +115,7 @@ $$
 $$ 
 
 where 
+
 $$
   a_i 
     =
@@ -130,10 +131,11 @@ $$
 and in which the cup product induces a ring-isomorphism 
 
 $$
-H^* (\mathbb{CP}^n, \mathbb{Z}) \simeq  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
+  H^* (\mathbb{CP}^n, \mathbb{Z}) \simeq  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
+  \mathrlap{\,,}
 $$
 
-where $c$ is the integral first Chern class (see [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace)
+where $c$ is the integral [[first Chern class]] (see [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace).
 
 \begin{theorem} 
 Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ with $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$ a $\mathbb{C}$-[[linear map]] and an element designated by $\eta : \mathbb{C} \rightarrow K$ satisfying the following two properties:
