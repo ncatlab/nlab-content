@@ -199,13 +199,13 @@ Therefore the natural hom-isomorphisms of the [[adjoint functor]]s
 $(p_! \dashv p^*)$ and $(p^* \dashv p_*)$ 
 
 $$
-  D(d, p_* F) \simeq Func(\Delta_d, F)
+  D(d, p_* F) \cong Func(\Delta_d, F)
 $$
 
 and
 
 $$
-  D(p_! F, d) \simeq Func(F, \Delta_d)
+  D(p_! F, d) \cong Func(F, \Delta_d)
 $$
 
 assert that
@@ -379,7 +379,7 @@ Similarly, for $V$-[[enriched categories]], replace [[Set]] here with the [[cosm
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
 $$
-  (Ran_p F)(c') \simeq \int_{c \in C} C'(c',p(c))\pitchfork F(c)
+  (Ran_p F)(c') \cong \int_{c \in C} C'(c',p(c))\pitchfork F(c)
 $$
 
 (where again $F : C \to D$ and $p : C \to C'$).
@@ -388,7 +388,7 @@ So in particular when $D = V$ this is
 
 \[
   \label{RightKanExtensionViaEndFormula}
-  (Ran_p F)(c') \simeq \int_{c \in C} [C'(c',p(c)),F(c)]
+  (Ran_p F)(c') \cong \int_{c \in C} [C'(c',p(c)),F(c)]
   \,.
 \]
 
@@ -399,7 +399,7 @@ Similarly, if $D$ is [[copower|copowered]] over $V$, then the left Kan extension
 
 \[
   \label{LeftKanExtensionViaCoendFormula}
-  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c') \cdot F(c)
+  (Lan_p F)(c') \cong \int^{c \in C} C'(p(c),c') \cdot F(c)
   \,.
 \]
 
@@ -414,14 +414,14 @@ Similarly, if $D$ is [[copower|copowered]] over $V$, then the left Kan extension
 The coend formula for the  left Kan extension is nicely understood when thinking of $C$ and $D$ above as [[opposite categories]] and for $\mathcal{V} = Set$, so that it takes [[presheaves]] $F$ on $C$ along $p \colon C \to C'$ to presheaves $Lan_p F$ on $C'$, by the formula
 
 $$
-  (Lan_p F)(c') \simeq \int^{c \in C} C'(c', p(c)) \times F(c)
+  (Lan_p F)(c') \cong \int^{c \in C} C'(c', p(c)) \times F(c)
   \,.
 $$
 
-Using the [[Yoneda lemma]] to rewrite $F(c) \simeq Hom_{PSh(C)}(c,F)$, this is
+Using the [[Yoneda lemma]] to rewrite $F(c) \cong Hom_{PSh(C)}(c,F)$, this is
 
 $$
-  (Lan_p F)(c') \simeq \int^{c \in C} Hom_{C'}(c', p(c)) \times Hom_{PSh(C)}(c,F)
+  (Lan_p F)(c') \cong \int^{c \in C} Hom_{C'}(c', p(c)) \times Hom_{PSh(C)}(c,F)
   \,.
 $$
 
@@ -476,7 +476,7 @@ and its value on an object $c' \in C'$ is given by the [[limit]]
 
 $$
     (Ran_p F)(c')
-      \simeq 
+      \cong 
     \lim_\leftarrow \left((\Delta_{c'}/p) \to C \stackrel{F}{\to} D\right)
   \,,
 $$
@@ -492,7 +492,7 @@ the left Kan extension of a functor exists and is pointwise given by the [[colim
 
 $$
     (Lan_p F)(c')
-      \simeq 
+      \cong 
      \lim_\to \left((p/\Delta_{c'}) \to C \stackrel{F}{\to} D\right)
   \,.
 $$
@@ -608,7 +608,7 @@ Non-pointwise Kan extensions seem to be very rare in practice.  However, the abs
 
 An _absolute_ Kan extension $Lan_p F$ is one which is [preserved](#Preservation) by all functors $G$ out of the codomain of $F$:
 \[
-G (Lan_p F) \simeq Lan_p(G F)
+G (Lan_p F) \cong Lan_p(G F)
 \]
 (same for right Kan extensions).
 
@@ -701,16 +701,16 @@ For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|
 1. the left Kan extension along $F$ takes [[representable functor|representable]] [[presheaves]] $C(c,-) : C \to \mathcal{V}$ to their image under $F$:
 
    $$
-     Lan_F C(c, -) \simeq D(F(c), -)
+     Lan_F C(c, -) \cong D(F(c), -)
    $$
 
    for all $c \in C$.
 
 1. if $F$ is a [[full and faithful functor]] then 
-   $F^* (Lan_F H) \simeq H$ and in fact the $(Lan_F \dashv F^*)$-[[unit of an adjunction]] is a [[natural isomorphism]]
+   $F^* (Lan_F H) \cong H$ and in fact the $(Lan_F \dashv F^*)$-[[unit of an adjunction]] is a [[natural isomorphism]]
 
    $$
-      Id \stackrel{\simeq}{\to} F^* \circ Lan_{F}
+      Id \stackrel{\cong}{\to} F^* \circ Lan_{F}
    $$ 
 
    whence it follows (by [this property](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) of [[adjoint functor]]s) that $Lan_F : [C,\mathcal{V}] \to [D,\mathcal{V}]$ is itself a [[full and faithful functor]].
@@ -731,10 +731,10 @@ $$
      & 
     \int^{c' \in C} D(F(c'), d') \cdot C(c,-)(c')
     \\
-    & \simeq
+    & \cong 
     \int^{c' \in C} D(F(c'), d') \cdot C(c,c')
     \\
-    & \simeq 
+    & \cong 
     D(F(c), d')
   \end{aligned} 
   \,.
@@ -749,10 +749,10 @@ $$
     Lan_F H : F(d) \mapsto
      & \int^{c \in C} D(F(c), F(d)) \cdot H(c) 
      \\
-     & \simeq 
+     & \cong 
      \int^{c \in C} C(c, d) \cdot H(c)
      \\
-     & \simeq H(d)
+     & \cong H(d)
   \end{aligned}
   \,.
 $$
@@ -857,7 +857,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 ### General
 
-* For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
+* For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \cong \lim F$ and the left Kan extension is the [[colimit]] $Lan F \cong colim F$.
 
 * For $f : X \to Y$ a [[site|morphism of sites]] coming from a functor $f^t : S_Y \to S_X$ of the underlying categories, the left Kan extension of functors along $f^t$ is the [[inverse image]] operation $f^{-1} : PSh(Y) \to PSh(X)$.
 
