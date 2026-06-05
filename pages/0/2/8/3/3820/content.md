@@ -457,6 +457,10 @@ With attention to [[diffeomorphisms]] and [[symplectomorphisms]]:
 
 * M. Golshani, [[Mohammad Sheikh-Jabbari]], V. Taghiloo, M. H. Vahidinia: *Geometric Aspects of Covariant Phase Space Formalism: Solution Space Slicings and Surface Charge Integrability* &lbrack;[arXiv:2603.14439](https://arxiv.org/abs/2603.14439)&rbrack;
  
+Computer algebra:
+
+* Juan Margalef-Bentabol: *xCPS: an xAct package for covariant phase space, Noether charges, and entropy* &lbrack;[arXiv:2606.05204](https://arxiv.org/abs/2606.05204)&rbrack;
+
 
 
 ### Original articles on covariant phase space technology
