@@ -1,7 +1,11 @@
 
+Robert R. Bruner
 
-* [webpage](http://www.math.wayne.edu/~rrb/)
+* [personal page](http://www.rrb.wayne.edu/)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=9360)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Robert-Bruner-3)
 
 ## Selected writings
 
@@ -13,6 +17,9 @@ On the [[topological Hochschild homology]] of [[topological modular forms]]:
 
 * [[Robert Bruner]], [[John Rognes]], *Topological Hochschild homology of topological modular forms*, talk at *Nordic Topology Meeting* NTNU (2008) &lbrack;[[Bruner-Rognes_THHtmf.pdf:file]]&rbrack;
 
+On a [cohomological proof](https://ncatlab.org/nlab/show/fundamental+theorem+of+algebra#ViaCellularCohomology) of the [[fundamental theorem of algebra]]:
+
+* {#Bruner2009} [[Robert Bruner]]: *cute proof*, message to [ALGTOP-L mailing list](https://rezk.web.illinois.edu/algtop-l/algtop-l.html) (1 Dec. 2009) &lbrack;[algtop-l:2009q4/000645](https://rezk.web.illinois.edu/algtop-l/archives2007-2023/2009q4/000645.html)&rbrack;
 
 
 On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equivariance groups]]:
@@ -21,8 +28,7 @@ On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equi
 
 
 
-
-## Related $n$Lab entries
+## Related entries
 
 * [[Adams spectral sequence]]
 
@@ -31,4 +37,4 @@ On [[equivariant K-theory]] and [[KR-theory]] for [[finite group|finite]] [[equi
 category: people
 
 [[!redirects Bob Bruner]]
-
+[[!redirects Robert R. Bruner]]
