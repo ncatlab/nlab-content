@@ -22,6 +22,10 @@ On extending [[vertex operator algebras]] to full field [[2d CFTs]]:
 
 * [[Terry Gannon]]: *Exotic quantum subgroups and extensions of affine Lie algebra VOAs -- part I* &lbrack;[arXiv:2301.07287](https://arxiv.org/abs/2301.07287)&rbrack;
 
+On a [[bulk-boundary correspondence]] in the context of [[rational CFT]] with [[noninvertible symmetries]], in the spirit of the [[FRS theorem]]:
+
+* [[Terry Gannon]], Brandon C. Rayhaun: *Hypergroup Symmetry in Relative Quantum Field Theories and Chiral Algebras* &lbrack;[arXiv:2606.05279](https://arxiv.org/abs/2606.05279)&rbrack;
+
 
 
 category: people
