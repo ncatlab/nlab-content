@@ -6,8 +6,6 @@
 
 \linebreak
 
-\S
-
 
 \[\label{FiberIntegralViaHomAdjunct}\]
 \begin{tikzcd}
@@ -113,10 +111,6 @@ _________
 
 
 Jun4 730 DeanYoung testing ...
-
-
-
-
 
 
 
@@ -321,7 +315,6 @@ This implies $n = 1$ and hence the claim.
 ## Using the complex topological $K$-theory of complex projective space
  {#ViaComplexTopologicalK-Theory}
 
-testing...
 
 
 
