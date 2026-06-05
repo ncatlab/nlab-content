@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Definition
@@ -143,16 +142,25 @@ This way the projective representation $\rho$ of $G$ induces a genuine linear re
 
 ## References
 
-(...)
+See about any monograph on [[representation theory]].
+
+See also:
+
+* Wikipedia: *[Projective representation](https://en.wikipedia.org/wiki/Projective_representation)*
 
 Relation to [[twisted equivariant K-theory]]:
 
 
-* José Manuel Gómez, Johana Ramírez, _A Decomposition of twisted equivariant K-theory_ ([arXiv:2001.02164](https://arxiv.org/abs/2001.02164))
+* José Manuel Gómez, Johana Ramírez: _A Decomposition of twisted equivariant K-theory_, SIGMA **17** (2021) 041 &lbrack;[arXiv:2001.02164](https://arxiv.org/abs/2001.02164), [doi:10.3842/SIGMA.2021.041](https://doi.org/10.3842/SIGMA.2021.041)&rbrack;
 
 Applications in [[topological phases of matter]]:
 
-* Ryohei Kobayashi, Haruki Watanabe: *Projective Representations, Bogomolov Multiplier, and Their Applications in Physics* &lbrack;[arXiv:2507.12515](https://arxiv.org/abs/2507.12515)&rbrack;
+* Ryohei Kobayashi, Haruki Watanabe: *Projective Representations, Bogomolov Multiplier, and Their Applications in Physics*, International Journal of Theoretical Physics **65** 65 (2026) &lbrack;[arXiv:2507.12515](https://arxiv.org/abs/2507.12515), [doi:10.1007/s10773-025-06215-y](https://doi.org/10.1007/s10773-025-06215-y)&rbrack;
+
+On projective representations of categories in view of [[anomaly cancellation]] in [[functorial field theory]]:
+
+* [[Domenico Fiorenza]], Chetan Vuppulury: *Projective and anomalous representations of categories and their linearizations*, [[Theory and Applications of Categories]] **45** 37 (2026) 1515--1554 &lbrack;[tac:45-37](http://www.tac.mta.ca/tac/volumes/45/37/45-37abs.html), [arXiv:2506.01521](https://arxiv.org/abs/2506.01521)&rbrack;
+
 
 
 [[!redirects projective representations]]
