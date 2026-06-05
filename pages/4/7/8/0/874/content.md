@@ -15,10 +15,7 @@
 =--
 
 
-
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -45,7 +42,7 @@ In traditional forms of [[set theory]], one can also take the target of $f$ to b
 $$\prod_{a \in A} B(a) = \{f \in \left(\bigcup_{a\in A} B(a)\right)^A \vert \forall a, f(a) \in B(a) \}$$
 
 ### In a general category
- {#InAGeneraCategory}
+ {#InAGeneralCategory}
 
 Given any [[category]] $\mathcal{C}$, and any set $\{X_i\}_{i \in I}$ of its [[objects]], then the product of all these objects is, if it exists, an object denoted 
 
