@@ -20,6 +20,11 @@ Further discussion:
 
 * {#Tymoczko2007} [[Dmitri Tymoczko]]: *Response to Comment on "The Geometry of Musical Chords"*, Science **315** 5810 (2007) 330 \[<a href="https://doi.org/10.1126/science.1134163">doi:10.1126/science.1134163</a>\]
 
+* [[Dmitri Tymoczko]]: *Generalizing Musical Intervals*, Journal of Music Theory **53** 2 (2009) 227--254 \[<a href="https://doi.org/10.1215/00222909-2010-003">doi:10.1215/00222909-2010-003</a>, <a href="https://www.jstor.org/stable/40925744">jstor:40925744</a>\]
+
+* [[Dmitri Tymoczko]]: *A Geometry of Music -- Harmony and Counterpoint in the Extended Common Practice*, Oxford University Press (2011) \[<a href="https://global.oup.com/us/companion.websites/9780195336672/">isbn:9780195336672</a>, <a href="https://dmitri.mycpanel.princeton.edu/geometry-of-music.html">webpage</a>\]
+
+
 Exposition:
 
 * [[Dmitri Tymoczko]]: *[Mathematical Moments: Putting Music on the Map](https://www.ams.org/publicoutreach/mathmoments/mm57-music-podcast)*, AMS News & Outreach (July 2006) \[<a href="https://www.ams.org/samplings/mathmoments/podcast-mom-music.mp3">mp3</a>\]
