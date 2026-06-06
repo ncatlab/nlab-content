@@ -58,6 +58,7 @@ These orbifolds are used to study *voice leading* --- the transition from one ch
 
 
 ### References
+ {#ChordOrbifoldReferences}
 
 The original articles:
 
@@ -69,6 +70,11 @@ Further discussion:
 
 * {#Tymoczko2007} [[Dmitri Tymoczko]]: *Response to Comment on "The Geometry of Musical Chords"*, Science **315** 5810 (2007) 330 \[<a href="https://doi.org/10.1126/science.1134163">doi:10.1126/science.1134163</a>\]
 
+* [[Dmitri Tymoczko]]: *Generalizing Musical Intervals*, Journal of Music Theory **53** 2 (2009) 227--254 \[<a href="https://doi.org/10.1215/00222909-2010-003">doi:10.1215/00222909-2010-003</a>, <a href="https://www.jstor.org/stable/40925744">jstor:40925744</a>\]
+
+* [[Dmitri Tymoczko]]: *A Geometry of Music -- Harmony and Counterpoint in the Extended Common Practice*, Oxford University Press (2011) \[<a href="https://global.oup.com/us/companion.websites/9780195336672/">isbn:9780195336672</a>, <a href="https://dmitri.mycpanel.princeton.edu/geometry-of-music.html">webpage</a>\]
+
+
 Exposition:
 
 * [[Dmitri Tymoczko]]: *[Mathematical Moments: Putting Music on the Map](https://www.ams.org/publicoutreach/mathmoments/mm57-music-podcast)*, AMS News & Outreach (July 2006) \[<a href="https://www.ams.org/samplings/mathmoments/podcast-mom-music.mp3">mp3</a>\]
@@ -76,3 +82,7 @@ Exposition:
 * Mattia G. Bergomi: *Musical modeling through graphs and orbifolds* (2014) \[<a href="http://repmus.ircam.fr/_media/moreno/MMIM_Bergomi_Tonnetz.pdf">pdf</a>\]
 
 * Jon Latané: *[Topologica: Jazz, Orbifolds, and Your Event-Sourced, Flux-Driven Dream Code](https://medium.com/fully-automated-luxury-robot-music/topologica-jazz-orbifolds-and-your-event-sourced-flux-driven-dream-code-f8e24443a941)*, blog post (2017)
+
+* Wikipedia: *[Orbifold -- Applications -- Music Theory](https://en.wikipedia.org/wiki/Orbifold#Music_theory)*
+
+
