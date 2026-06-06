@@ -592,7 +592,7 @@ and as [[stratified space|stratified]] [[diffeological spaces]]:
 
 On this approach seen in the broader context of [[cohesive homotopy theory|cohesive]] [[higher differential geometry]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026) &lbrack;[isbn:9781041147510](https://www.routledge.com/Geometric-Orbifold-Cohomology/Sati-Schreiber/p/book/9781041147510), [arXiv:2511.12720](http://arxiv.org/abs/2511.12720), [arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 * [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
 
