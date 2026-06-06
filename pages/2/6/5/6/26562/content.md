@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -560,6 +558,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 category: probability
 
 [[!redirects category-theoretic probability]]
+[[!redirects category-theoretic probability theory]]
 [[!redirects category-theoretic approach to probability theory]]
 [[!redirects categorical approach to probability theory]]
 [[!redirects categorical approaches to probability theory]]
