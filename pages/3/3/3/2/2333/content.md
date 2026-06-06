@@ -127,7 +127,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Stanley P. Gudder, _Convexity and mixtures_, SIAM Review **19** (1977), 221--240; _A general theory of convexity_, Milan Journal of Mathematics, **49** (1979), 89--96.
 
-* {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+* {#Meng} [[Xiao-Qing Meng]]: *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis, New York (1988) &lbrack;[[Meng.djvu|djvu:file]], [[Meng-Stochastic.pdf|pdf:file]]&rbrack;
 
 Many other references, and a discussion of how convex spaces have been repeatedly rediscovered, can be found at the $n$-Category Caf&#233; post [Convex Spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html).
 
