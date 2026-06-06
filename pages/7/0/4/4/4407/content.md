@@ -376,6 +376,8 @@ A fully choice-free constructive proof of this theorem by [[Wim Ruitenburg]] ([R
 
 In the absence of $WCC$ or the [[analytic LPO]], [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
+Note that the [[algebraic closure]] $\overline{\mathbb{C}}$ of the [[complex numbers]] can still be constructed in [[constructive mathematics]]; however the algebraic closure is only a [[commutative algebra|commutative $\mathbb{C}$-algebra]] in general and not provably equivalent to the complex numbers. Instead, we only have the subset inclusions $\mathbb{R} \subseteq \mathbb{C} \subseteq \overline{\mathbb{R}} = \overline{\mathbb{C}}$. 
+
 ### In reverse mathematics
 
 Assuming classical logic, but weak foundations, it can be shown that FTA is true in the [[reverse mathematics]] system $RCA_0$ ([Tanaka-Yamazaki 2005](#TY2005)).
@@ -419,7 +421,6 @@ see also:
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
 in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum* Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
-
 A [[constructive mathematics|constructive]] algebraic proof for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]:
 
 * {#Ruitenberg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
@@ -435,7 +436,6 @@ The [above proof](#ViaCellularCohomology) using [[integral cohomology]] of [[com
 Discussion in the context of [[reverse mathematics]]:
 
 * {#TK2005} Kazuyuki Tanaka, Takeshi Yamazaki: _Manipulating the reals in $RCA_0$_, inL _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
-
 
 See also:
 
