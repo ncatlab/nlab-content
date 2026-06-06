@@ -101,7 +101,7 @@ An alternative proof based on a similar pattern of reasoning, but more explicitl
 
 ## In constructive mathematics
 
-In constructive mathematics, if $k$ is a [[Heyting field]] that is not a [[discrete field]] and $p \in k[x]$ is a polynomial, the splitting $k$-algebra of $p$ is no longer a field, but only a commutative $k$-algebra [Lombardi & Quitté 2010](#LombardiQuitté2010), called the **universal splitting algebra** for $p$. 
+In constructive mathematics, if $k$ is a [[Heyting field]] that is not a [[discrete field]] and $p \in k[x]$ is a polynomial, the splitting $k$-algebra of $p$ is no longer a field, but only a commutative $k$-algebra, called the **universal splitting algebra** for $p$ ([Lombardi & Quitté 2010](#LombardiQuitté2010)). 
 
 In particular, the [[algebraic closure]] of the [[real numbers]] in constructive mathematics is only a commutative $\mathbb{R}$-algebra not provably equivalent to the [[complex numbers]]. 
 
