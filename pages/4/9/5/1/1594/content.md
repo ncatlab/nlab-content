@@ -14,6 +14,8 @@
 =--
 
 
+
+
 \tableofcontents
 
 
@@ -348,6 +350,13 @@ It has been noticed that the topological invariants of the underlying topologica
 * [[metric cones]]
 
 * See also [Lange 2024](#Lange24)
+
+
+
+
+[[!include chord orbifold -- section]]
+
+
 
 
 ## Related concepts
