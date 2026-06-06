@@ -11,9 +11,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -21,6 +19,13 @@
 The application of mathematics in the theory of music in the West is generally thought to start with Pythagoras and progress though the works of Euler, Mersenne, Helmholtz, and others. Recently, **mathematical music theory** has gained impetus through, among others, the Neo-Riemannian theory of harmony, David Lewin's research on transformational theory, and Guerino Mazzola's application of topos theory. 
 
 As well, the application of science and math to the theory of human perception of [[sound]] is known as _psychoacoustics_ and has had a major impact in today's musically digital world. All of these viewpoints have greatly enhanced the variety of mathematical concepts employed in the study of music that today include tools from [[set]], [[group]], and [[category theory]].
+
+
+
+[[!include chord orbifold -- section]]
+
+
+
 
 ## Related entries
 
