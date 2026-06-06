@@ -10,4 +10,8 @@ On [[categories]] of [[convex sets]]/[[convex spaces]] and [[metric spaces]] (in
 
 * [[Xiao-Qing Meng]]: *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis, New York (1988) &lbrack;[[Meng.djvu|djvu:file]], [[Meng-Stochastic.pdf|pdf:file]]&rbrack;
 
+## Related entries
+
+* [[superconvex space]]
+
 category: people
