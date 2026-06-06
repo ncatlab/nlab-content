@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -24,12 +23,23 @@ An _algebra over an endofunctor_ is like an [[algebra over a monad]], but withou
 
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
+Consider a [[category]] $C$ equipped with an [[endofunctor]] $F$.
 
-For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra__ (or __module__) of $F$ is an [[object]] $X$ in $C$ and a [[morphism]] $\alpha\colon F(X) \to X$. ($X$ is called the __carrier__ of the algebra)
+\begin{definition}
+\label{AlgebraOverAnEndofunctor}
 
-A [[homomorphism]] between two algebras $(X, \alpha)$ and $(Y, \beta)$ of $F$ is a morphism $m\colon X \to Y$ in $C$ such that the following [[commuting diagram|square commutes]]:
+An *algebra for*  (or *module of*) $F$ is 
+
+1. an [[object]] $X$ in $C$ (also called the *carrier*) 
+
+1. a [[morphism]] $\alpha\colon F(X) \to X$. 
+
+\end{definition}
+
+\begin{definition}
+\label{MoprhismOfAlgebrasOverAnEndofunctor}
+
+A [[homomorphism]] between a [[pair]] of algebras $(X, \alpha)$ and $(Y, \beta)$ for $F$ (Def. \ref{AlgebraOverAnEndofunctor}) is a morphism $m\colon X \to Y$ in $C$ such that the following [[commuting diagram|square commutes]]:
 
 $$ 
   \array{ 
@@ -52,7 +62,7 @@ $$
 
 [[composition|Composition]] of such homomorphisms of algebras is given by composition of the [[underlying]] morphisms in $C$.  This yields the [[category]] of $F$-algebras, which comes with a [[forgetful functor]] to $C$.
 
-=--
+\end{definition}
 
 +-- {: .num_remark}
 ###### Remark
@@ -90,13 +100,23 @@ It turns out that an algebraically-free monad on $F$ is also [[free object|free]
 
 Entirely analogous facts are true for pointed algebras over pointed endofunctors.
 
-## Relationship to inductive types {#initalg}
+### Relation to inductive types 
+  {#initalg}
 
 The [[initial algebra of an endofunctor]] provides [[categorical semantics]] for [[inductive types]]. 
 
 The construction of an algebraically free monad may be cast in the language of such initial algebras. Suppose $C$ is a category with coproducts and $F: C \to C$ is an endofunctor. Let $F$-$alg$ be the category of $F$-algebras, and let $U: F\text{-}alg \to C$ be the usual forgetful functor. A [[left adjoint]] to $U$ then takes an object $d$ of $C$ to the initial algebra $\Phi(d)$ of the endofunctor $c \mapsto d + F(c)$, provided this initial algebra exists. For, by the usual comma category description (see for example [[adjoint functor theorem]]), $\Phi(d)$ is the [[initial object]] of the category $(d \downarrow U)$. However, an object of $(d \downarrow U)$ is a triple $(c, \alpha: F(c) \to c, \beta: d \to c)$, equivalently a pair $(c, \gamma: d + F(c) \to c)$, equivalently an algebra of $c \mapsto d + F(c)$. Hence an initial object of $(d \downarrow U)$ is an initial algebra of an endofunctor. 
 
 The [[monad]] structure of the algebraically free monad $F^\ast = U\Phi$ may be straightforwardly extracted from this initial algebra description. This is made explicit in [Pirog](#Maciej). For example, to describe the multiplication $\mu: F^\ast F^\ast \to F^\ast$, let $d$ be an object; then $F^\ast d$ has an algebra structure $[i, \theta]: d + F(F^\ast d) \to F^\ast d$. It therefore also has a structure of algebra over the endofunctor $c \mapsto F^\ast d + F(c)$, namely $[1, \theta]: F^\ast d + F(F^\ast d) \to F^\ast d$. But since $F^\ast F^\ast d$ is the initial algebra for the monad $c \mapsto F^\ast d + F(c)$, we obtain a unique algebra map $F^\ast F^\ast d \to F^\ast d$. This is the component $\mu_d$ of the monad multiplication. 
+
+
+## Examples
+ {#Examples}
+
+\begin{example}
+Discrete time [[stochastic processes]] are algebras for an endofunctor on sequences of [[measurable spaces]], see [there](stochastic+process#DiscreteTimeStochasticProcess).
+\end{example}
+
 
 ## Related concepts
 
