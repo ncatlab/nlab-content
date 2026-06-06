@@ -380,9 +380,9 @@ The relation to [[realizability]] and [[computability]] is discussed in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
-On [[commutative algebra]] with constructive methods:
+On constructive [[commutative algebra]]:
 
-* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (trans. by Tania K. Roblo): *Commutative algebra: Constructive methods --- Finite projective modules*, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
 
 On the [[antithesis interpretation]] of [[constructive mathematics]]:
 
