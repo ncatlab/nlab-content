@@ -87,6 +87,8 @@ In [[constructive mathematics]], the classical definition of an [[algebraic clos
 
 Thus, for [[Heyting fields]] that are not discrete, one usually restricts to polynomial functions with a positive degree in the notion of an [[algebraic closure]] of a field. In this sense, [[algebraic closure]] and [[integral closure]] coincide since, by definition of a polynomial function with positive degree, the coefficient associated to the largest exponent is apart from zero, and so can be factored out of the polynomial function, yielding a monic polynomial function. 
 
+Furthermore, the algebraic closure of a [[Heyting field]] $K$ is no longer a [[field]], but only a [[commutative algebra|commutative $K$-algebra]], called the [[universal splitting algebra]] for the set of all polynomials in $K[x]$ with positive [[degree of a polynomial|degree]]. In particular, the [[algebraic closure]] of the [[real numbers]] in constructive mathematics is only a commutative $\mathbb{R}$-algebra not provably equivalent to the [[complex numbers]]. 
+
 ## Examples
 
 * The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$.  
@@ -120,6 +122,8 @@ be sure to check for improperly replied posts with the same subject in that and 
 * {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 * {#Ruitenberg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 [[!redirects algebraically closed field]]
 [[!redirects algebraically closed fields]]
