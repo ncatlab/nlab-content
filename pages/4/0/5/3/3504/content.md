@@ -87,19 +87,15 @@ A nice first introduction to music theory and what groups can do for it is
 
 More mathematically inclined are the following
 
-* Emilio Lluis-Puebla, Ocatavio A. August&#237;n-Aquino (eds.), _Memoirs of the
-Fourth International Seminar on
-Mathematical Music Theory_, Sociedad Matem&#225;tica Mexicana 2010. ([pdf](http://sociedadmatematicamexicana.org.mx/SEPA/ECMS/resumen/PME1_1.pdf))
+* [[Dmitri Tymoczko]] on [chord orbifolds](music theory#ChordOrbifoldsInMusicTheory), cf. the references [above](music theory#ChordOrbifoldReferences)
+
+* Emilio Lluis-Puebla, Ocatavio A. August&#237;n-Aquino (eds.), _Memoirs of the Fourth International Seminar on Mathematical Music Theory_, Sociedad Matem&#225;tica Mexicana 2010. ([pdf](http://sociedadmatematicamexicana.org.mx/SEPA/ECMS/resumen/PME1_1.pdf))
 
 * Guerino Mazzola, _Geometrie der T&#246;ne_, Birkh&#228;user Basel 1990.
 
 * {#Mazzola02} Guerino Mazzola, _The Topos of Music_, Birkh&#228;user Basel 2002.
 
 * Guerino Mazzola, _Mathematical Music Theory: Status Quo 2010_, pp.11-42 in [Lluis-Puebla, August&#237;n-Aquino (2010)](#LPAA10).
-
-* Dimitri Tymoczko, _A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice_, Oxford University Press 2011.
-
-* Dmitri Tymoczko, _Generalizing Musical Intervals_, Journal of Music Theory **53** no.2 (2009) pp.227-254. ([draft](http://dmitri.mycpanel.princeton.edu/files/publications/lewin.pdf))
 
 An introduction to group theory with applications to neo-Riemannian theory is
 
