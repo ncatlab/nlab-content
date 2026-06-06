@@ -10,106 +10,207 @@
 =--
 
 
+
 \tableofcontents
 
 
 ## Idea
+
 A __stochastic process__ describes a [[dynamical system]] evolving over a [[linearly ordered set]] $T$ ("[[time]]"), typically taken to be the ([[positive number|positive]])
 [[integers]] or  [[real numbers]], whose dynamical [[laws of motion]] are [[morphisms]] in the [[Kleisli category]] of the [[Giry monad]] (or any other [[probability monad]]). By working in the larger [[category]] of [[algebra over a monad|algebras of that monad]], a characterization  of a stochastic processes can be modeled in terms of the [[expectation value|expected value]] of [[measurements]] on that process. 
 
 By a __random process__ physicists usually mean the same, but mathematicians sometimes allow random processes indexed by more general sets, not usually with meaning of time or equipped with a [[linear order]]. 
 
-The most studied examples include Markov processes (defined below), *[[Brownian motion]]*, *[[Ornstein-Uhlenbeck processes]]* and *[[Lévy processes]]*. The most elementary stochastic process (to define) is an  __indivisible stochastic process__ which [Barandes 2025](#Barendes25)  has used to give an [[indivisible stochastic process interpretation of quantum mechanics]].
+The most studied examples include [[Markov processes]] (Def. \ref{MarkovProcess}), *[[Brownian motion]]*, *[[Ornstein-Uhlenbeck processes]]* and *[[Lévy processes]]*. 
 
 
 ## Definitions
+ {#Definitions}
 
-We define discrete time stochastic processes following [Lawvere 1962](#Lawvere62).  Let $N$ be the [[category]] with [[countable set|countably many]] [[objects]], $\{0,1,2,...\}$, and no non-[[identity morphisms]], and let $\mathbf{Meas}_G$ denote the [[Kleisli category]] of the [[Giry monad]].  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are [[sequences]] $\Omega_0, \Omega_1,\ldots$ of objects in $\mathbf{Meas}_G$ which are [[measurable spaces]].  We define an [[endofunctor]] $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
-$
-\mathbf{\Phi}(\mathbf{\Omega})= \{ \prod_{k \lt n} \Omega_k \}_{k \in N}  
-$
-where $\prod_{k \lt n} \Omega_k$ denotes the [[Cartesian product|product]] measurable space with the smallest [[sigma-algebra|$\sigma$-algebra]] such that all the [[coordinate]]-[[projection]] functions are [[measurable function|measurable]].  If $\Omega_n$ is thought of as the space of all possible states of a system at time $n$, then $\mathbf{\Phi}(\mathbf{\Omega})_n=\prod_{k \lt n}\Omega_k$ is the space of all possible histories of the system before time $n$.
+We denote by:
 
-We define a __discrete time stochastic process__ $\mathbf{Q}$ to be a [[natural transformation]]
+* *$\mathbb{N}$ the [[category]] with [[countable set|countably many]] [[objects]], $\{0,1,2,...\}$, and no non-[[identity morphisms]], 
+
+* $\mathbf{Meas}_G$ the [[Kleisli category]] of the [[Giry monad]],
+
+* $\mathbf{Meas}_G^{\mathbb{N}}$ the [[category]] whose [[objects]] $\mathbf{\Omega}$ are [[sequences]] $\Omega_0, \Omega_1,\ldots$ of objects in $\mathbf{Meas}_G$ which are [[measurable spaces]],
+
+* $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ the [[endofunctor]] given by
+
+  \[
+    \label{TheEndofunctor}
+    \mathbf{\Phi}\big(\Omega_\bullet\big)_n
+    \,\coloneqq\, 
+    \textstyle{\prod_{k \lt n}} 
+    \Omega_k 
+    \mathrlap{\,,}
+  \]
+  
+  where $\prod_{k \lt n} \Omega_k$ denotes the [[Cartesian product|product]] measurable space with the smallest [[sigma-algebra|$\sigma$-algebra]] such that all the [[coordinate]]-[[projection]] functions are [[measurable function|measurable]].  
+
+  So if $\Omega_n$ is thought of as the space of all possible states of a system at time $n$, then $\mathbf{\Phi}(\Omega_\bullet)_n  = \prod_{k \lt n}\Omega_k$ is the space of all possible histories of the system before time $n$.
+
+### Stochastic processes
+ {#DefinitionStochasticProcesses}
+
+The following definition in [[category-theoretic probability theory]] is due to [Lawvere 1962 §3.2](#Lawvere62).  
+
+\begin{definition}
+\label{DiscreteTimeStochasticProcess}
+A *discrete time stochastic process* is an [[algebra over an endofunctor|algebra over the endofunctor]] $\mathbf{\Phi}$ (eq:TheEndofunctor).
+
+This means that a *discrete time stochastic process* is:
+
+1. a [[sequence]] $\Omega_\bullet$ of [[measurable spaces]] $\Omega_n$ (an object in $\mathbf{Meas}_G^{\mathbb{N}}$), 
+
+1. a [[morphism]] $Q_\bullet$ in $\mathbf{Meas}_G^{\mathbb{N}}$:
+
 \begin{equation} 
-\mathbf{\Phi} \xrightarrow{\mathbf{Q}} \mathbf{id}
+  Q_\bullet
+  \,\colon\,
+  \mathbf{\Phi}(\Omega_\bullet) \longrightarrow \Omega_\bullet
+  \mathrlap{\,.}
 \end{equation}
-where $\mathbf{id}$ is the [[identity functor]] on $\mathbf{Meas}_G^N$.  Given any two (discrete time) stochastic processes $\mathbf{Q}$ and $\mathbf{Q}'$  we define a [[sequence]] of [[morphisms]] in $\mathbf{Meas}_G$, $\Omega_n \xrightarrow{f_n} \Omega_n^{'}$ to be a morphism from $\mathbf{Q}$ to $\mathbf{Q}'$ when, for each $n \in N$, the $\mathbf{\Meas}_G$-[[diagram]]
+
+Because $\mathbb{N}$ is a discrete category, the morphism $Q_\bullet$ consists of a sequence of component morphisms $Q_n$ (which are [[Kleisli morphisms]])
+$$
+  Q_n
+  \,\colon\,
+  \textstyle{\prod_{k \lt n}} 
+  \Omega_k \longrightarrow \Omega_n
+$$
+also called  *dynamic laws* (of motion) at time $n$.
+\end{definition}
+
+
+
+\begin{definition}
+\label{MorphismOfDiscreteTimeStochasticProcesses}
+The [[homomorphisms]] between stochastic processes are [homomorphisms of algebras of endofunctors](algebra+for+an+endofunctor#AlgebraOverAnEndofunctor). This means:
+
+Given a [[pair]] $\mathbf{Q}$ and $\mathbf{Q}'$  of such (discrete time) stochastic processes (Def. \ref{DiscreteTimeStochasticProcess}) a *[[morphism]]* 
+$$
+  \mathbf{Q} \longrightarrow \mathbf{Q}'
+$$  
+is a [[sequence]] $\big(f_n \colon \Omega_n \to \Omega_n^{'}\big)_{n \in \mathbb{N}}$  of [[morphisms]] in $\mathbf{Meas}_G$ such that for each $n \in \mathbb{N}$, the following $\mathbf{Meas}_G$-[[diagram]] [[commuting diagram|commutes]]:
 
 \begin{tikzpicture}
-  \node  (POn) at (0,0)  {$( \mathbf{\Phi}(\mathbf{\Omega}))_n$};
-   \node  (POpn) at (3,0)  {$( \mathbf{\Phi}(\mathbf{\Omega}'))_n$};
+  \node  (POn) at (0,0)  
+  {$\big( \mathbf{\Phi}(\Omega_\bullet) \big)_n$};
+   \node  (POpn) at (3,0)  
+  {$\big( \mathbf{\Phi}  (\Omega'_\bullet) \big)_n$};
    \node (On) at (0,-1.5)  {$\Omega_n$};
    \node (Opn) at (3, -1.5) {$\Omega^{'}_n$};
-   \draw[->,above] (POn) to node {$\Phi(f_n)$} (POpn);
+   \draw[->,above] (POn) to node {$\mathbf{\Phi}(f_\bullet)_n$} (POpn);
    \draw[->,below] (On) to node {$f_n$} (Opn);
    \draw[->,left] (POn) to node {$Q_n$} (On);
    \draw[->,right] (POpn) to node {$Q'_n$} (Opn);
 \end{tikzpicture}
 
-[[commuting diagram|commutes]]. Since there is an obvious notion of [[composition]] for such [[maps]], all stochastic processes and all such maps of such determine the *category of discrete time stochastic processes* $\mathbf{dStoch}$.  (Warning: Some authors have used the notation $\mathbf{Stoch}$ ([[Stoch]]) to mean the [[Kleisli category]] of the [[Giry monad]], traditionally denoted by $\mathbf{Meas}_G$ or $\mathcal{K}(G)$, which can also be interpreted (for modeling) as the category of [[Markov process|Markov stochastic processes]].)
+With the evident notion of [[composition]], this defines the *category of discrete time stochastic processes*, $\mathbf{dStoch}$.  
+\end{definition}
 
-In the preceding diagram the morphisms $Q_n$, which are [[Kleisli morphisms]]
-$
-\prod_{k \lt n} \Omega_k \xrightarrow{Q_n} \Omega_n
-$
-are called  __dynamic laws__ (of motion), and stochastic processes are classified by properties of the dynamic laws.
 
-A __Markov dynamic law__ $Q_n$ is a dynamic law depending only on the current state, i.e., $Q_n$ factors as
+\begin{remark}
+Beware that some authors use the notation [[Stoch|$Stoch$]] instead to denote the [[Kleisli category]] of the [[Giry monad]], traditionally denoted by $\mathbf{Meas}_G$ or $\mathcal{K}(G)$, which can also be interpreted (for modeling) as the category of [[Markov process|Markov stochastic processes]].
+\end{remark}
+
+
+
+### Markov processes
+
+The following definition is as in [Lawvere 1962 §3.3](#Lawvere62).
+
+\begin{definition}
+\label{MarkovProcess}
+A stochastic process $Q_\bullet$ (Def. \ref{DiscreteTimeStochasticProcess}) is called a *[[Markov process]]* if each $Q_n$ for $n \geq 1$ depends only on the current state in that it factors as:
+
 \begin{tikzpicture}
   \node  (POn) at  (0,0)  {$\prod_{k < n} \Omega_k$};
   \node  (On)  at  (6,0)  {$\Omega_n$};
-  \node  (On1) at  (3,-1.5)  {$\Omega_{n-1}$};
+  \node  (On1) at  (3,-1.5)  {$\Omega_{n-1}\mathrlap{\,,}$};
   \draw[->,above] (POn) to node {$Q_n$} (On);
   \draw[->,left]  (POn) to node {$\pi_{n-1}$} (On1);
   \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
 \end{tikzpicture}
-where $\pi_{n-1}$ is the canonical [[coordinate]] [[projection]] ([[measurable function|measurable]]) [[function]] which specifies the deterministic [[Kleisli morphism]] (with the same notation).  Thus a [[Markov process|Markov dynamic law]] only depends upon the current state and not its history.
 
-If $\mathbf{Q}$ is a stochastic process such that the dynamic law at every stage is a [[Markov process|Markov dynamic law]] we say the stochastic process $\mathbf{Q}$ is a __[[Markov process|Markov stochastic process]]__.  In  the special case where $\mathbf{\Omega}$ defines a constant sequence, $\Omega_n = \Omega$ for all $n$,   then a Markov stochastic process on $\mathbf{\Omega}$ is called a *[[Markov chain]]*.
+where $\pi_{n-1}$ is the canonical [[coordinate]] [[projection]] ([[measurable function|measurable]]) [[function]] which specifies the deterministic [[Kleisli morphism]] (with the same notation).  
 
-An even more elementary way of defining a stochastic process is by taking $\Omega_n = \Omega$, so each $\Omega_n$ is a copy of $\Omega$, and for all $n$ defining the dynamic law $Q_n$ such that it factorizes as a composite of the projection map $\pi_0$ and a [[Kleisli morphism]] $\tilde{Q}_n$, 
+In  the special case where $\Omega_\bullet$ is [[constant function|constant]] on some $\Omega$, $\forall_n \colon \Omega_n = \Omega$, then a Markov stochastic process on $\Omega_\bullet$ is called a *[[Markov chain]]*.
+\end{definition}
+
+\begin{remark}
+ When a non-[[Markov process|Markov]] stochastic process can be re-expressed as a Markov stochastic process by formally augmenting its states with a suitable collection of unobservable variables, then the resulting process is called a *hidden Markov model*.  The unobservable variables added to make the process look Markov are said to be *latent* or *hidden variables*.  For example, [[Bohmian mechanics|pilot wave theories]] can be viewed as Hidden Markov Models ([Barandes 2026](#Barandes26))
+\end{remark}
+
+### (In)Divisible processes
+ {#InDivisibleProcesses}
+
+The term "(in)divisible stochastic process" is not classical but has been brought up by [Barandes 2025](#Barandes25) in a suggestion to give an "[[indivisible stochastic process interpretation of quantum mechanics]]". Here is a way to state the definition in line with the above category-theoretic definitions and beyond finite state spaces:
+
+\begin{definition}
+\label{MultiStepMarginalTransition}
+Given a discrete time stochastic process $Q_\bullet$ (Def. \ref{DiscreteTimeStochasticProcess}), its *multi-step marginal transition* from time $0$ to time $n$, denoted $Q_{0,n} \colon \Omega_0 \to \Omega_n$, is the [[Kleisli morphism]] obtained by forming the joint distribution over all intermediate states up to time $n$, and subsequently projecting onto the state space at time $n$.
+
+Explicitly, one constructs a sequence of history-accumulating morphisms $J_n \colon \Omega_0 \to \prod_{k \le n} \Omega_k$ in $\mathbf{Meas}_G$ by [[mathematical induction|induction]]:
+
+1. **Base case ($n=0$):** $J_0 \colon \Omega_0 \to \Omega_0$ is the [[identity morphism]] in $\mathbf{Meas}_G$ (representing the deterministic assignment $x \mapsto \delta_x$).
+2. **Inductive step ($n \ge 1$):** Given $J_{n-1} \colon \Omega_0 \to \prod_{k \lt n} \Omega_k$, define $J_n$ as the [[Kleisli category|Kleisli composition]]:
+   $$
+     J_n \;\coloneqq\; \langle \mathbf{id}, Q_n \rangle \circ J_{n-1}
+   $$
+   where $\langle \mathbf{id}, Q_n \rangle \colon \prod_{k \lt n} \Omega_k \longrightarrow \prod_{k \le n} \Omega_k$ is the morphism given by pairing the deterministic identity on the history with the dynamic law $Q_n$. In the context of the [[Giry monad]], this pairing is canonically constructed via the [[monad|monadic]] [[tensorial strength]] (or equivalently, via the copy morphism in the framework of [[Markov categories]]).
+
+The multi-step marginal transition $Q_{0,n}$ is then defined as the Kleisli composition of $J_n$ with the canonical [[coordinate]] [[projection]] $\pi_n$:
+$$
+  Q_{0,n} \;\coloneqq\; \pi_n \circ J_n
+$$
+where $\pi_n \colon \prod_{k \le n} \Omega_k \to \Omega_n$ is pushed forward as a deterministic Kleisli morphism. This construction is summarized by the following commuting diagram in $\mathbf{Meas}_G$:
+
 \begin{tikzpicture}
-  \node  (POn) at  (0,0)  {$\prod_{k < n} \Omega_k$};
-  \node  (On)  at  (6,0)  {$\Omega_n$};
-  \node  (On1) at  (3,-1.5)  {$\Omega_{0}$};
-  \draw[->,above] (POn) to node {$Q_n$} (On);
-  \draw[->,left]  (POn) to node {$\pi_0$} (On1);
-  \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
+  \node (O0)  at (0,0) {$\Omega_0$};
+  \node (Hn1) at (3,0) {$\prod_{k < n} \Omega_k$};
+  \node (Hn)  at (7,0) {$\prod_{k \le n} \Omega_k$};
+  \node (On)  at (7,-1.5) {$\Omega_n$};
+  
+  \draw[->] (O0) to node[above] {$J_{n-1}$} (Hn1);
+  \draw[->] (Hn1) to node[above] {$\langle \mathbf{id}, Q_n \rangle$} (Hn);
+  \draw[->] (Hn) to node[right] {$\pi_n$} (On);
+  \draw[->, dashed] (O0) to node[below left, xshift=-5pt] {$Q_{0,n}$} (On);
 \end{tikzpicture}
-For such dynamic laws the time at stage $0$ is thought of as the conditioning event time - subsequent stages are ''conditioned on $\Omega_0$''.
+\end{definition}
 
-We say a stochastic process $\mathbf{Q}$ is __divisible__ if and only if for all stages $m$ and $n$, with $m \le n$ there exists a [[Kleisli morphism]] $\tilde{Q}_{m,n}$ such that the triangle on the right hand side of the Kleisli-diagram
+\begin{definition}
+\label{DivisibleStochasticProcess}
+A stochastic process $Q_\bullet$ (Def. \ref{DiscreteTimeStochasticProcess}) is called *divisible* if its multi-step marginal transitions $Q_{0,n} \colon \Omega_0 \to \Omega_n$ (Def. \ref{MultiStepMarginalTransition}) satisfy the *Chapman-Kolmogorov property*: 
+
+Namely, for all stages $m \le n$, there exists a [[Kleisli morphism]] $\tilde{Q}_{m,n} \colon \Omega_m \to \Omega_n$ such that the following diagram in $\mathbf{Meas}_G$ [[commuting diagram|commutes]]:
+
 \begin{tikzpicture}
-  \node  (POm) at  (0,0)  {$\prod_{k < m} \Omega_k$};
-  \node  (Om)  at  (6,0)  {$\Omega_m$};
-  \node  (Om1) at  (3,-1.5)  {$\Omega_{0}$};
-  \draw[->,above] (POm) to node {$Q_m$} (Om);
-  \draw[->,left]  (POm) to node {$\pi_{0}$} (Om1);
-  \draw[->,right] (Om1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_m$} (Om); 
-
-  \node  (Pon) at (0, -3)  {$\prod_{k < n} \Omega_k$};
-  \node  (On)  at (6, -3)  {$\Omega_n$}; 
-  \draw[->, below] (Pon) to node {$Q_n$} (On);
-  \draw[->, above] (Pon) to node {$\pi_0$} (Om1);
-  \draw[->, right] (Om1) to node {$\tilde{Q}_n$} (On);
-
-  \draw[->, right, dashed] (Om) to node {$\tilde{Q}_{m,n}$} (On);
+  \node (O0) at (0,0) {$\Omega_0$};
+  \node (Om) at (3,1.5) {$\Omega_m$};
+  \node (On) at (3,-1.5) {$\Omega_n$};
+  \draw[->] (O0) to node[above left] {$Q_{0,m}$} (Om);
+  \draw[->] (O0) to node[below left] {$Q_{0,n}$} (On);
+  \draw[->] (Om) to node[right] {$\tilde{Q}_{m,n}$} (On);
 \end{tikzpicture}
-commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abused notation by using the notation $\pi_0$ to denote the two projection maps onto the $0^{th}$ coordinate despite the domains being distinct when $m \lt n$.)
+  
+Meaning that $Q_{0,n} = \tilde{Q}_{m,n} \circ Q_{0,m}$. 
 
-An __indivisible stochastic process__ is a stochastic process which is not divisible.  Such processes are employed in the [[indivisible stochastic process interpretation of quantum mechanics]].
+\end{definition}
 
-An indivisible [[stochastic process]] is a very general type of [[stochastic process]] which can exhibit wild behavior because, for any $\epsilon \gt 0$, the two dynamics laws $\Gamma_t$ and $\Gamma_{t+\epsilon}$ need not have any relationship between them.  For example, even if $\Omega$ was a [[standard Borel space]] and for every $U \in \Sigma_{\Omega}$ all the measurable functions $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ and $\Omega_0 \xrightarrow{\Gamma_{t+\epsilon}(U | \bullet)} [0,1]$ were  continuous functions the two probability measures obtained by composition with an initial probability measure on $\Omega_0$, $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_t} \Omega_t$ and $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_{t+\epsilon}} \Omega_{t+\epsilon}$, can vary significantly.  Such a process is in stark contrast to a [[Markov process]] on a [[standard Borel space]] where continuous [[Markov kernels]] yield a continuously varying probability measure on the [[measurable space]] $\Omega$. 
+\begin{example}
+ In discrete time, every [[Markov process]] (Def. \ref{MarkovProcess}) is automatically divisible (Def. \ref{DivisibleStochasticProcess}) by defining $\tilde{Q}_{m,n}$ as the composition of its 1-step transitions. 
 
-## Hidden Markov Models
+Therefore, indivisibility is inherently a feature of non-Markovian processes (or continuous-time processes where intermediate transition kernels may fail to exist).
+\end{example}
 
- When a non-Markov stochastic process can be re-expressed as a Markov stochastic process by formally augmenting its states with a suitable collection of unobservable variables, then the resulting process is called a Hidden Markov Model.  The unobservable variables added to make the process look Markov are said to be latent or hidden variables.  For example, Pilot-Wave theories can be viewed as Hidden Markov Models.[Barandes 2026](#Barandes26)
+
 
 ## Examples
 
 \begin{example}
- A 3-stage Markov [[stochastic process]] $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
+ A 3-stage Markov stochastic process $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
 
 \begin{tikzpicture}
  \node (one) at  (0,0)  {$\mathbf{1}$};
@@ -146,7 +247,7 @@ holds. (Every algebra $X$ necessarily possesses a [[convex space]] structure. Th
 \end{example}
 
 \begin{example}
-Here are two  elementary examples of an indivisible stochastic process due to [Barendes 2025](#Barendes25).  Taking the [[finite space]] $\Omega = \{1,2\}=\Omega_n$ for all $n$, and defining the dynamic law $\Omega \xrightarrow{\tilde{Q}_n} \Omega$ by 
+Here are two  elementary examples of an indivisible stochastic process due to [Barandes 2025](#Barandes25).  Taking the [[finite space]] $\Omega = \{1,2\}=\Omega_n$ for all $n$, and defining the dynamic law $\Omega \xrightarrow{\tilde{Q}_n} \Omega$ by 
 $$ \tilde{Q}_n =  \begin{pmatrix} e^{-\frac{t_n^2}{\tau^2}} & 1-e^{-\frac{t_n^2}{\tau^2}} \\ 1-e^{-\frac{t_n^2}{\tau^2}} & e^{-\frac{t_n^2}{\tau^2}} \end{pmatrix} 
 $$
 where $t_n$ is the time at stage $n$, and $\tau$ is a constant. (For a finite space $\Omega$ a dynamic law $\Omega \rightarrow \Omega$ can be represented by a matrix.)
@@ -161,26 +262,30 @@ where $\omega$ is a constant.
 
 ## References
 
+General:
 
-* Wikipedia [stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
+* Wikipedia: *[Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)*
 
-* {#Lawvere62} [[William Lawvere]], *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition* (1962), including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
+Discussion in the context of [[category-theoretic approaches to probability theory]]:
 
-* Xiao-qing Meng, *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis ([[Meng.djvu|djvu:file]])
+* {#Lawvere62} [[William Lawvere]]: *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition* (1962), including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
-* {#Barendes25} [[Jacob Barandes]], *Quantum Systems as Indivisible Stochastic Processes* &lbrack;[arXiv:2507.21192](https://arxiv.org/abs/2507.21192)&rbrack;
+* [[Xiao-Qing Meng]]: *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis, New York (1988) &lbrack;[[Meng.djvu|djvu:file]], [[Meng-Stochastic.pdf|pdf:file]]&rbrack;
 
-* {#Barandes26} [[Jacob Barandes]], *Pilot-Wave Theories as Hidden Markov Models* &lbrack; 
-[arXiv:2602.10569]
-(https://arxiv.org/abs/2602.10569)&rbrack;
 
 With an eye towards [[quantum noise]];
 
-* [[Stéphane Attal]], *Stochastic Processes*, Lecture 4 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Stochastic_Processes.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
+* [[Stéphane Attal]]: *Stochastic Processes*, Lecture 4 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Stochastic_Processes.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
 On some kind of [[supersymmetry]] in stochastic PDEs:
 
 * Igor V. Ovchinnikov: *Ubiquitous order known as chaos* &lbrack;[arXiv:2503.17157](https://arxiv.org/abs/2503.17157)&rbrack;
+
+In the context of a proposed "[[indivisible stochastic process interpretation of quantum mechanics]]":
+
+* {#Barandes25} [[Jacob Barandes]], *Quantum Systems as Indivisible Stochastic Processes* &lbrack;[arXiv:2507.21192](https://arxiv.org/abs/2507.21192)&rbrack;
+
+* {#Barandes26} [[Jacob Barandes]], *Pilot-Wave Theories as Hidden Markov Models* &lbrack;[arXiv:2602.10569](https://arxiv.org/abs/2602.10569)&rbrack;
 
 
 
