@@ -44,7 +44,8 @@ The original observation:
 
 and further discussion:
 
-* {#Meng1988} Xiao-qing Meng: _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis (1988) &lbrack;[[Meng.djvu|djvu:file]]&rbrack;
+* {#Meng1988} [[Xiao-Qing Meng]]: *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis, New York (1988) &lbrack;[[Meng.djvu|djvu:file]], [[Meng-Stochastic.pdf|pdf:file]]&rbrack;
+
 
 * {#HofmannSealTholen2014} [[Dirk Hofmann]], [[Gavin J. Seal]], [[Walter Tholen]] (ed.), *Monoidal topology: A Categorical Approach to Order, Metric, and Topology*,  Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107517288](https://doi.org/10.1017/CBO9781107517288), [pdf](https://sweet.ua.pt/dirk/artigos/HST14_Monoidal_topology_A_categorical_approach_to_order_metric_and_topology.pdf)&rbrack;
 
