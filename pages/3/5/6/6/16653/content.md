@@ -78,6 +78,18 @@ Now $\Phi$ topologized as a product of finite discrete spaces is a [[compact Hau
 
 An alternative proof based on a similar pattern of reasoning, but more explicitly in the language of [[model theory]] and the [[compactness theorem]], was given by [Joel David Hamkins](#JDH), in an answer following Caicedo's at MathOverflow. 
 
+## In constructive mathematics
+
+In constructive mathematics, if $k$ is a [[Heyting field]] that is not a [[discrete field]] and $p \in k[x]$ is a polynomial, the splitting $k$-algebra of $p$ is no longer a field, but only a commutative $k$-algebra [Lombardi & Quitté 2010](#LombardiQuitté2010), called the **universal splitting algebra** for $p$. 
+
+In particular, the [[algebraic closure]] of the [[real numbers]] in constructive mathematics is only a commutative $\mathbb{R}$-algebra not provably equivalent to the [[complex numbers]]. 
+
+## Related concepts
+
+* [[integral closure]]
+
+* [[algebraic closure]]
+
 ## References 
 
 * {#Ban}  Bernhard Banaschewski, _Algebraic closure without choice_, Mathematical Logic Quarterly, Vol. 38 Issue 1 (1992), 383&#8211;385. (doi: 10.1002/malq.19920380136, [paywall](http://onlinelibrary.wiley.com/doi/10.1002/malq.19920380136/pdf)) 
@@ -87,6 +99,14 @@ An alternative proof based on a similar pattern of reasoning, but more explicitl
 * {#AC} [Andres Caicedo](http://mathoverflow.net/users/6085/andres-caicedo) _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-19): [http://mathoverflow.net/q/46568](http://mathoverflow.net/q/46568) 
    
 * {#JDH} [[Joel David Hamkins]], _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-20): [http://mathoverflow.net/q/46729](http://mathoverflow.net/q/46729) 
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
   
 [[!redirects splitting fields]]
+
+[[!redirects splitting algebra]]
+[[!redirects splitting algebras]]
+
+[[!redirects universal splitting algebra]]
+[[!redirects universal splitting algebras]]
 
