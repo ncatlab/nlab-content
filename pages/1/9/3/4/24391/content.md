@@ -255,7 +255,7 @@ Note that the finite [[distribution monad]] also arises from the free functor an
  A direct method to prove that the category of algebras of $D$, $Alg(D)$, is equivalent to the category of superconvex spaces is to show that the *comparison functor* $\Phi: \mathbf{SCvx} \rightarrow Alg(D)$ has a two-sided inverse $\Psi: Alg(D) \rightarrow \mathbf{SCvx}$.  This functor is defined on objects by taking $\Psi( \alpha:D X \rightarrow X )$ as the set $X$ with the superconvex structure defined by $\sum_{i \in \mathbb{N}} p_i x_i = \alpha(\sum_{i \in \mathbb{N}} p_i x_i)$ where the countable sum on the right hand side is a formal countable sum, which is an element of $D X$.  Given any map of algebras $f: (X,h) \rightarrow (Y,k)$ it follows, as shown by the (only) proof given on the  [[Giry monad]] page is that the function $f$, which we now view in $\mathbf{Set}$, is necessarily a countably affine map. (Simply replace the terms $\sum_{i \in \mathbb{N}}p_i \delta_{x_i}$ with the term $\sum_{i \in \mathbb{N}}p_i x_i$ which is an element in $D X$.) 
 \end{proof}
 
-The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
+The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by [Meng 1988](#Meng1988), replacing finite sums with countable sums.
 
 The full subcategory consisting of the single object $\Delta_{\mathbb{N}}$ is dense in $\mathbf{SCvx}$, and hence we can employ the restricted Yoneda embedding to view superconvex spaces as the functors $\widehat{A}=\mathbf{SCvx}(\cdot,A) \in \mathbf{Set}^{\Delta_{\mathbb{N}}^{op}}$, where $\Delta_{\mathbb{N}}$ is viewed as a [[monoid]].  
 
@@ -339,7 +339,7 @@ The proof that $\mathbf{SCvx}$ has no cogenerator is due to:
 
 The fact that $\mathbf{SCvx}$ is a symmetric monoidal argument can be proven the same way it is for [[convex spaces]] simply by replacing the finite affine sums with countable affine sums. That proof was given by
 
-* {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+* {#Meng1988} [[Xiao-Qing Meng]]: *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis, New York (1988) &lbrack;[[Meng.djvu|djvu:file]], [[Meng-Stochastic.pdf|pdf:file]]&rbrack; 
 
 Proposition 1.2 in 
 
