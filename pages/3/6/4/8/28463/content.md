@@ -77,6 +77,12 @@ is a [[bifunctor]] which is a [[triangulated functor]] in each variable and resp
 
 ([Kashiwara & Schapira 2006 Def. 10.3.6 with 10.1.1(v)](#KashiwaraSchapira2006))
 
+## Examples
+
+\begin{example}
+  An exact continuous [[(infinity,1)-functor|$\infty$-functor]] out of a [[tensor product of stable (infinity,1)-categories|tensor product of stable $\infty$-categories]] to a [[stable (infinity,1)-category|stable $\infty$-category]] induces a triangulated bifunctor on  [[triangulated category|triangulated]] [homotopy categories](stable+infinity1-category#TheTriangulatedHomotopyCategory).
+\end{example}
+
 ## Related entries
 
 * [[monoidal triangulated category]]
