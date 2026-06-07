@@ -13,4 +13,12 @@ This is the $(\infty,1)$-category $C \otimes D$ which is 'the universal recipien
 
 * [[tensor product of abelian categories]]
 
+* [[tensor product of stable (infinity,1)-categories]]
+
+## References
+
+* [[Jacob Lurie]]: *[[Higher Algebra]]* ($\sim$2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)&rbrack;
+  
+
+
 [[!redirects tensor product of presentable (∞,1)-categories]]
