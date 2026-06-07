@@ -12,7 +12,7 @@ On the [[geometric Langlands conjecture]] ([[categorical geometric Langlands con
 
 * [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_ &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/GL)&rbrack;.
 
-* [[D. Gaitsgory]], [[N. Rozenblyum]], _[[A study in derived algebraic geometry]]_.
+* [[Dennis Gaitsgory]], [[Nick Rozenblyum]]: _[[A study in derived algebraic geometry]]_, Mathematical Surveys and Monographs **221**, Americal Mathematical Society (2017) &lbrack;[ams:SURV/221](https://bookstore.ams.org/view?ProductCode=SURV/221), [book webpage](https://people.mpim-bonn.mpg.de/gaitsgde/Book/)&rbrack;
 
 * Informal notes on the [[Fargues-Fontaine curve]] with [[Jacob Lurie]].
 
