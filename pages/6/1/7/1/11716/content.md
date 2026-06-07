@@ -15,13 +15,13 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-A _tensor triangulated category_ is a [[category]] that carries the structure of a [[symmetric monoidal category]] and of a [[triangulated category]] in a compatible way.
+A _tensor triangulated category_ is a [[triangulated category]] that also carries the structure of a [[symmetric monoidal category]] in a compatible way.
+
+(For a compatible non-[[symmetric monoidal category|symmetric]] [[monoidal category]] [[structure]] on a [[triangulated categories]], some authors speak of *monoidal triangulated categories*, cf. [Rowe 2024](#Rowe2024).)
 
 ## Definition
 
@@ -135,9 +135,9 @@ In addition one may ask that
    where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
 
 
-This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statements concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
+This is [Hovey, Palmieri & Strickland 1997, def. A.2.1](#HoveyPalmieriStrickland97), except for statements concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
 
-Finally, one can ask for the existence of additional compatibility commutative diagrams, for instance representing a "derived shadow" of the [[pushout product]] axiom of a [[monoidal model category]].  These can be found as (TC3), (TC4), and (TC5) in ([May](#May01)).
+Finally, one can ask for the existence of additional compatibility commutative diagrams, for instance representing a "derived shadow" of the [[pushout product]] axiom of a [[monoidal model category]].  These can be found as (TC3), (TC4), and (TC5) in [May 2001](#May01).
 
 
 ## Examples
@@ -155,6 +155,9 @@ Finally, one can ask for the existence of additional compatibility commutative d
 
 ## References
 
+### Tensor triangulated categories
+ {#ReferencesTensorTriangulatedCategories}
+
 * {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/axiomatic.pdf), [doi:10.1090/memo/0610](http://dx.doi.org/10.1090/memo/0610))
 
 * {#Balmer05} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories, J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:0409360](http://arxiv.org/abs/math/0409360), [doi:10.1515/crll.2005.2005.588.149](https://doi.org/10.1515/crll.2005.2005.588.149))
@@ -168,4 +171,33 @@ Review:
 * [[Paul Balmer]], _A guide to tensor-triangular classification_, in: [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1912.08963](https://arxiv.org/abs/1912.08963))
 
 
+
+### Monoidal triangulated categories
+ {#ReferencesMonoidalTriangulatedCategories}
+
+On non-[[symmetric monoidal category|symmetric]] [[monoidal category]] [[structure]] on [[triangulated categories]] ("monoidal triangulated (mt) categories" in the terminology of [Rowe 2024](#Rowe2024)), just asing the [[tensor product]] to be an [[exact functor]] in each variable:
+
+* Daniel K Nakano, Kent B Vashaw, Milen T Yakimov; §2.1 in: *Noncommutative Tensor Triangular Geometry and the Tensor Product Property for Support Maps Free*, International Mathematics Research Notices, Volume 2022, Issue 22, (2022) 17766--17796 \[<a href="https://doi.org/10.1093/imrn/rnab221">doi:10.1093/imrn/rnab221</a>\]
+
+* Daniel K. Nakano: *Monoidal Triangular Geometry with Applications to Representation Theory*, talk slides \[<a href="https://www.crmath.ca/wp-content/uploads/2023/09/canmex-dan-nakano.pdf">pdf</a>\]
+
+* Hongdi Huang, Kent B. Vashaw: *Group actions on monoidal triangulated categories and Balmer spectra*, Documenta Mathematica, **30** 5 (2025) 1055--1083 \[<a href="http://doi.org/10.4171/DM/1016">doi:10.4171/DM/1016</a>, [arXiv:2311.18638](https://arxiv.org/abs/2311.18638)\]
+
+ 
+* {#Rowe2024} James Rowe; §2 in: *Noncommutative tensor triangular geometry: classification via Noetherian spectra*, Pacific Journal of Mathematics, **330** (2024) 355--371 \[<a href="https://doi.org/10.2140/pjm.2024.330.355">doi:10.2140/pjm.2024.330.355</a>\]
+
+* Daniel K. Nakano, Kent B. Vashaw, Milen T. Yakimov: *The homological spectrum for monoidal triangulated categories* \[<a href="https://arxiv.org/abs/2506.19946">arXiv:2506.19946</a>\]
+
+In these articles, asking the tensor product just to be biexact appears to be sufficient for the intended application to nonsymmetric *[[spectra of tensor triangulated categories]]*. 
+But beyond that it would seem natural to demand more [[coherence]], for instance asking the tensor product to be a *triangulated bifunctor* in the sense of:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]]; Def. 10.3.6, 10.1.1(v) in: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) \[<a href="https://link.springer.com/book/10.1007/3-540-27950-4">doi:10.1007/3-540-27950-4</a>, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)\]
+
+
+
+
 [[!redirects tensor triangulated categories]]
+
+[[!redirects monoidal triangulated category]]
+[[!redirects monoidal triangulated categories]]
+
