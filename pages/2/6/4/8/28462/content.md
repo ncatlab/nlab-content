@@ -3,7 +3,7 @@
 
 ## Idea
 
-In [[chemistry]], *Fullerenes* are a distinct class of [[carbon]] [[molecules]] composed entirely of carbon [[atoms]] arranged in hollow geometric shapes such as [[2-sphere|spheres]], ellipsoids, or tubes. The most famous variation is the soccer-ball-shaped *Buckminsterfullerene* ($C_{60}$), which has applications in nanotechnology and material science due to its unique structural and electronic properties.
+In [[chemistry]], *Fullerenes* are a distinct class of [[molecules]] composed entirely of carbon [[atoms]] arranged in hollow geometric shapes such as [[2-sphere|spheres]], ellipsoids, or tubes. The most famous variation is the soccer-ball-shaped *Buckminsterfullerene* $C_{60}$, which has applications in nanotechnology and material science due to its unique structural and electronic properties.
 
 Besides [[diamond]] and graphite, Fullerenes are one of the *[allotropes](https://en.wikipedia.org/wiki/Allotropy)* of [[carbon]].
 
