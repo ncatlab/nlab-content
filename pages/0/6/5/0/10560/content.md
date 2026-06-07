@@ -27,6 +27,8 @@ Triangulated functors are also called _exact functors_ (not to be confused with 
 
 ## Related concepts
 
+* [[triangulated bifunctor]]
+
 * [[tensor triangulated category]]
 
 * [[Fourier-Mukai transform]]
