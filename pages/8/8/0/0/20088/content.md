@@ -17,6 +17,10 @@
 
 The [[chemical element]] with [[atomic number]] 6.
 
+The *[allotropes](https://en.wikipedia.org/wiki/Allotropy)*
+of carbon include [[diamond]], graphite and [[Fullerenes]].
+
+
 ## Properties
 
 ### Skyrmion model
