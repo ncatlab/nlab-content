@@ -189,7 +189,7 @@ On non-[[symmetric monoidal category|symmetric]] [[monoidal category]] [[structu
 * Daniel K. Nakano, Kent B. Vashaw, Milen T. Yakimov: *The homological spectrum for monoidal triangulated categories* \[<a href="https://arxiv.org/abs/2506.19946">arXiv:2506.19946</a>\]
 
 In these articles, asking the tensor product just to be biexact appears to be sufficient for the intended application to nonsymmetric *[[spectra of tensor triangulated categories]]*. 
-But beyond that it would seem natural to demand more [[coherence]], for instance asking the tensor product to be a *triangulated bifunctor* in the sense of:
+But beyond that it would seem natural to demand more [[coherence]], for instance asking the tensor product to be a *[[triangulated bifunctor]]* in the sense of:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]]; Def. 10.3.6, 10.1.1(v) in: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) \[<a href="https://link.springer.com/book/10.1007/3-540-27950-4">doi:10.1007/3-540-27950-4</a>, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)\]
 
