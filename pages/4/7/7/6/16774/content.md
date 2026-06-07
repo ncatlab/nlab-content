@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -169,7 +167,11 @@ See also:
 
 * {#Groupprops} [[Groupprops]], _[Alternating group:A5](http://groupprops.subwiki.org/wiki/Alternating_group:A5)_ 
 
-* [[Philip Boalch]], _The fifty-two icosahedral solutions to Painlev&#233; VI_, J. Reine Angew. Math. 596 (2006) 183--214 ([arXiv:0406281](http://arxiv.org/abs/math/0406281))
+* [[Philip Boalch]], _The fifty-two icosahedral solutions to Painlev&#233; VI_, J. Reine Angew. Math. 596 (2006) 183--214 &lbrack;[arXiv:0406281](http://arxiv.org/abs/math/0406281)&rbrack;
+
+In relation to the analysis of [[Fullerene|Fullerenes]], and related parts of [[Galois's last letter]]:
+
+* [[Bertram Kostant]]: *The graph of the truncated icosahedron and the last letter of Galois*, _Notices of the American Mathematical Society_ **2** 9 (1995) 959--968 &lbrack;[pdf](http://www.ams.org/notices/199509/kostant.pdf)&rbrack;
 
 Discussion of the [[group cohomology]]:
 
