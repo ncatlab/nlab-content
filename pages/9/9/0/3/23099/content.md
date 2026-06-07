@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -70,7 +69,7 @@ The notion of fiberwise [[rationalization]] is due to
 
 Rational homotopy theory (as well as [[real homotopy theory]]) for general connected spaces $X$ and regarded as Borel-equivariant rational homotopy theory of their [[covering spaces]] is laid out, and the corresponding [[fundamental theorem of dg-algebraic rational homotopy theory]] is proven, in: 
 
-* {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*, North Holland (1995) 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
+* {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]]: _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*, North Holland (1995) 869--915 &lbrack;[doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009)&rbrack;
 
   * {#BrownSzczarba95Pages} see p. 883 & 896 (16 & 29 of 48):  [[BrownSzczarba_BorelEquivariantRHT.pdf:file]]
 
@@ -84,7 +83,7 @@ based on
 
 with related discussion in 
 
-* {#GomezTatoHalperinTanre00} [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
+* {#GomezTatoHalperinTanre00} [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]]: *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. **352** (2000) 1493--1525 \[<a href="https://www.jstor.org/stable/118074">jstor:118074</a>, <a href="https://www.google.com/search?q=https://doi.org/10.1090/S0002-9947-99-02463-0">doi:10.1090/S0002-9947-99-02463-0</a>\]
 
 which is reviewed in:
 
