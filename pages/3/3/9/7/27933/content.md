@@ -112,7 +112,7 @@ Monographs on [[category theory]]:
 
 * {#Awodey06} [[Steve Awodey]]: *Category theory*, Oxford University Press (2006, 2010) \[<a href="https://doi.org/10.1093/acprof:oso/9780198568612.001.0001">doi:10.1093/acprof:oso/9780198568612.001.0001</a>, [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)\]
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) \[<a href="https://link.springer.com/book/10.1007/3-540-27950-4">doi:10.1007/3-540-27950-4</a>, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)\]
+* [[Masaki Kashiwara]], [[Pierre Schapira]]: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) \[<a href="https://link.springer.com/book/10.1007/3-540-27950-4">doi:10.1007/3-540-27950-4</a>, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)\]
   
 * {#LawvereSchanuel09} [[F. William Lawvere]], [[Stephen Schanuel]]: _Conceptual Mathematics: A first introduction to categories_, Cambridge University Press (2009P) \[<a href="https://ia800207.us.archive.org/33/items/F.WilliamLawvereStephenH.SchanuelConceptualMathematicsAFirstIntroductionToCatego/F.%20William%20Lawvere%2C%20Stephen%20H.%20Schanuel%20-%20Conceptual%20Mathematics_%20A%20First%20Introduction%20to%20Categories%20%282009%2C%20Cambridge%20University%20Press%29%20%281%29_text.pdf">pdf</a>, [pdf](https://img.4plebs.org/boards/tg/image/1460/05/1460059215690.pdf)\]
 
