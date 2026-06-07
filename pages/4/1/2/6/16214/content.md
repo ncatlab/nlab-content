@@ -11,7 +11,7 @@ This entry is to record the reference:
 
   Mathematical Surveys and Monographs **221** 
 
-  Americal Mathematical Society (2017) 
+  American Mathematical Society (2017) 
 
   [ams:SURV/221](https://bookstore.ams.org/view?ProductCode=SURV/221)
 
