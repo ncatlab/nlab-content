@@ -69,11 +69,16 @@ After its motivation from [[D-brane]] reaction processes, the study of [[triangu
 
 
 
-## Related $n$Lab entries
+## Related entries
+
+* [[molecule]]
+
+* [[Fullerene]]
 
 * [[quantum chemistry]]
 
 * [[physics]]
+
 
 ## References
 
