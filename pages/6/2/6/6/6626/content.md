@@ -80,9 +80,19 @@ $$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \ma
 
 ## In dependent type theory
 
+### For models of material set theory
+
 In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom schema of separation** is given by the following [[inference rule]]:
 
 $$\frac{\Gamma, x:V \vdash \phi(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{seperation}_V^{\phi(-)}:\left(\prod_{x:V} \mathrm{isProp}(\phi(x))\right) \to \prod_{a:V} \sum_{S:V} \prod_{x:V} (x \in a) \to (\phi(x) \simeq (x \in S))}$$
+
+### For general type universes
+
+There also exists a version of the axiom schema of separation for general [[type universes]]. The **axiom schema of separation** for a [[type universe]] $U$ in [[dependent type theory]] states that for all $U$-[[small types]] $A:U$ and families of possibly large [[h-propositions]] $(B(x))_{x:A}$, the [[dependent sum type]] $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]]. This is an axiom schema because the families of large propositions have to be represented as a [[term]] in [[context]] $x:A \vdash B(x)$ on the numerator of the [[inference rule]]: 
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{sep}_{A, B}:\left(\prod_{x:A} \mathrm{isProp}(B(x))\right) \to \sum_{C:U} C \simeq \sum_{x:A} B(x)}$$
+
+The [[propositional resizing]] axiom schema found in [[dependent type theory]] is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$, by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
 
 ## In hyperdoctrines
 
@@ -181,6 +191,8 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 ## Related concepts
 
 * [[axiom of full comprehension]]
+
+* [[propositional resizing]]
 
 ## References
 
