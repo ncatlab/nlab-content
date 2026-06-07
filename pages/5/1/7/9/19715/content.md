@@ -37,6 +37,16 @@ If the universe $V$ additionally contains a type classifying all $U$-small types
 
 In [[dependent type theory]] with a single type judgment, a [[type universe]] $U$ satisfies propositional resizing if every proposition $P$ in the [[dependent type theory]] is essentially $U$-small. The type $\mathrm{Prop}_U$ is a [[type of all propositions]], making the whole dependent type theory satisfy [[propositional impredicativity]]. 
 
+## Relation to the axiom schema of separation
+
+Propositional resizing for a [[type universe]] $U$ is equivalent in strength to the [[axiom schema of separation]] for $U$. 
+
+The axiom schema of separation for a [[type universe]] $U$ in [[dependent type theory]] states that for all $U$-small types $A:U$ and families of possibly large [[h-propositions]] $(B(x))_{x:A}$, the [[dependent sum type]] $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]]. 
+
+Propositional resizing is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$ by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition. 
+
+Note that in either case, the [[type of all propositions]] $\mathrm{Prop}_U$ is still $U$-large, meaning that $U$ is still predicative as a universe. 
+
 ## See also
 
 * [[resizing axiom]]
@@ -52,6 +62,8 @@ In [[dependent type theory]] with a single type judgment, a [[type universe]] $U
 * [[impredicative universe]]
 
 * [[taboo]]
+
+* [[axiom schema of separation]]
 
 ## References
 
