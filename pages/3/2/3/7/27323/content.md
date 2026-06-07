@@ -14,7 +14,7 @@
 
 ## Idea
 
-[[synthetic mathematics|synthetic]]$\;$ [[Stone duality]] and [[synthetic mathematics|synthetic]]$\;$ [[condensed mathematics]]
+*Synthetic [[Stone duality]]* is a program for studying the [[synthetic topology]] of [[second countable spaces|second countable]] [[Stone spaces]] and [[compact Hausdorff spaces]], as well as a [[synthetic mathematics|synthetic]] approach to the mathematics of the [[(infinity,1)-topos]] of [[light condensed sets|light condensed]] [[anima]] from [[condensed mathematics]]. 
 
 ## Related concepts
 
