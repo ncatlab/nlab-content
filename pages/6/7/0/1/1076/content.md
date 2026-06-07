@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -523,9 +522,12 @@ Similarly, the [[homotopy category of an (infinity,1)-category|homotopy category
 
 * In [[algebraic geometry]], important examples are given by the various [[triangulated categories of sheaves]] associated to a [[variety]] (e.g. bounded derived category of [[coherent sheaves]], triangulated category of [[perfect complexes]]).
 
+
 ## Related concepts 
 
 * [[exact triangle]], [[distinguished triangle]]
+
+* [[triangulated functor]], [[triangulated bifunctor]]
 
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (∞,1)-category]]
 
