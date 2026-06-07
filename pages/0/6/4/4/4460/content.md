@@ -1,7 +1,8 @@
 
-# Diamonds
-* table of contents
-{: toc}
+> This page is currently only about the notion in [[graph theory]]. It should eventually disambiguate the eponymous [[carbon]] allotrope in [[chemistry]].
+
+\tableofcontents
+
 
 ## Definition
 
