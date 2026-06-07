@@ -53,9 +53,13 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 Who wants to write out some of these?
 =--
 
-* **Bounded replacement** or **restricted replacement** or **$\Delta_0$-replacement**: for any $\Delta_0$-formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
+* **Full replacement**: for any formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists.  
 
-* **Full replacement**: for any formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
+* **Bounded replacement** or **restricted replacement** or **$\Delta_0$-replacement**: for any $\Delta_0$-formula $\phi(x, y)$, for any $a$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists.
+
+* **Limited replacement**: for any formula $\phi(x, y)$, for any $a$ and $b$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, and moreover $z \subseteq b$ for all $z \in y$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
+
+* **Limited $\Delta_0$-replacement**: for any $\Delta_0$-formula $\phi(x, y)$, for any $a$ and $b$, if for every $x \in a$ there exists a unique $y$ with $\phi(x, y)$, and moreover $z \subseteq b$ for all $z \in y$, then the set $\{y \vert \exists x \in a.\phi(x, y)\}$ exists. 
 
 ## Lawvere on replacement
 
@@ -118,7 +122,10 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * George Tourlakis, *Lectures in Logic and Set Theory*, Volume 2: _Set Theory_, Cambridge University Press (2003). (section III.8)
 
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
 
+
+[[!redirects replacement]]
 [[!redirects axiom of replacement]]
 [[!redirects axioms of replacement]]
 [[!redirects axiom scheme of replacement]]
@@ -134,6 +141,23 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects replacement axiom schemas]]
 [[!redirects replacement axiom schemata]]
 
+[[!redirects limited replacement]]
+[[!redirects axiom of limited replacement]]
+[[!redirects axioms of limited replacement]]
+[[!redirects axiom scheme of limited replacement]]
+[[!redirects axiom schemes of limited replacement]]
+[[!redirects axiom schema of limited replacement]]
+[[!redirects axiom schemas of limited replacement]]
+[[!redirects axiom schemata of limited replacement]]
+[[!redirects limited replacement axiom]]
+[[!redirects limited replacement axioms]]
+[[!redirects limited replacement axiom scheme]]
+[[!redirects limited replacement axiom schemes]]
+[[!redirects limited replacement axiom schema]]
+[[!redirects limited replacement axiom schemas]]
+[[!redirects limited replacement axiom schemata]]
+
+[[!redirects bounded replacement]]
 [[!redirects axiom of bounded replacement]]
 [[!redirects axioms of bounded replacement]]
 [[!redirects axiom scheme of bounded replacement]]
@@ -149,6 +173,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects bounded replacement axiom schemas]]
 [[!redirects bounded replacement axiom schemata]]
 
+[[!redirects restricted replacement]]
 [[!redirects axiom of restricted replacement]]
 [[!redirects axioms of restricted replacement]]
 [[!redirects axiom scheme of restricted replacement]]
@@ -164,6 +189,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects restricted replacement axiom schemas]]
 [[!redirects restricted replacement axiom schemata]]
 
+[[!redirects full replacement]]
 [[!redirects axiom of full replacement]]
 [[!redirects axioms of full replacement]]
 [[!redirects axiom scheme of full replacement]]
