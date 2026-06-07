@@ -399,6 +399,7 @@ One way to read this is that [[formal duals]] of presentable [[stable infinity-c
 
 * [[Fukaya category]], [[Lagrangian cobordism]]
 
+
 ## Related concepts
 
 * [[additive (∞,1)-category]]
@@ -416,6 +417,8 @@ One way to read this is that [[formal duals]] of presentable [[stable infinity-c
 * [[A-∞ category]]
 
 * [[triangulated category]], [[enhanced triangulated category]]
+
+* [[tensor product of stable (infinity,1)-categories]]
 
 * [[t-structure on a stable (∞,1)-category]], [[heart of a stable (∞,1)-category]]
 
@@ -482,3 +485,5 @@ The enrichment over spectra is made precise in
 [[!redirects stable (infinity,1)-toposes]]
 [[!redirects stable (∞,1)-topos]]
 [[!redirects stable (∞,1)-toposes]]
+
+[[!redirects stable infinity1-category]]
