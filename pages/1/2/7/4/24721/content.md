@@ -172,6 +172,18 @@ $$\mathrm{Prop}_U \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 Product regularity and the axiom of empty type imply the axiom of singletons, because the dependent universal property of the empty set states that for every type family $C:T(\mathbb{0}) \to U$ the dependent function type $\prod_{x:T(\mathbb{0})} T(C(x))$ is a singleton, and product regularity implies that $\prod_{x:T(\mathbb{0})} T(C(x))$ is essentially $U$-small. 
 
+### Separation and propositional resizing
+
+Similarly as to in [[set theory]], one can add the [[axiom schema of separation]] to a Tarski universe. The **axiom schema of separation** for a Tarski universe $(U, T)$ in [[dependent type theory]] states that for all $U$-[[small types]] $A:U$ and families of possibly large [[h-propositions]] $(B(x))_{x:A}$, the [[dependent sum type]] $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]]: 
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma, x:T(A) \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{sep}_{A, B}:\left(\prod_{x:T(A)} \mathrm{isProp}(B(x))\right) \to \sum_{C:U} T(C) \simeq \sum_{x:T(A)} B(x)}$$
+
+The axiom schema of **[[propositional resizing]]** states that every possibly large [[h-proposition]] $P$ is essentially $U$-small: 
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{resize}_P:\mathrm{isProp}(P) \to \sum_{Q:U} T(Q) \simeq P}$$
+
+Propositional resizing is equivalent to the case of the [[axiom schema of separation]] where $A$ is the [[unit type]] $1$, by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is essentially $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
+
 ### Propositional impredicativity
 
 A [[univalent Tarski universe]] $(U, T)$ satisfies **[[propositional impredicativity]]** if it is closed under the [[type of propositions|type of all $U$-small propositions]]: namely, the dependent sum type $\sum_{A:U} \mathrm{isProp}(T(A))$ is [[essentially small type|essentially $U$-small]]:
