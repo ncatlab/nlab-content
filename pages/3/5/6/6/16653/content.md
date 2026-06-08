@@ -99,11 +99,15 @@ Now $\Phi$ topologized as a product of finite discrete spaces is a [[compact Hau
 
 An alternative proof based on a similar pattern of reasoning, but more explicitly in the language of [[model theory]] and the [[compactness theorem]], was given by [Joel David Hamkins](#JDH), in an answer following Caicedo's at MathOverflow. 
 
+## Generalization to commutative rings
+
+One can generalize the notion of a splitting field from [[fields]] to arbitrary [[commutative rings]]. If $R$ is a [[commutative ring]] and $p \in R[x]$ is a polynomial, the splitting $R$-algebra of $p$ is only a commutative $R$-algebra rather than a field, called the **universal splitting algebra** for $p$ ([Lombardi & Quitté 2010](#LombardiQuitté2010)), since $R$ is in general not provably a field. 
+
 ## In constructive mathematics
 
-In constructive mathematics, if $k$ is a [[Heyting field]] that is not a [[discrete field]] and $p \in k[x]$ is a polynomial, the splitting $k$-algebra of $p$ is no longer a field, but only a commutative $k$-algebra, called the **universal splitting algebra** for $p$ ([Lombardi & Quitté 2010](#LombardiQuitté2010)). 
+In constructive mathematics, there are multiple notions of a [[field]], including [[discrete fields]] and [[Heyting fields]]. The results above only apply to the splitting field of a subset of polynomials valued in a [[discrete field]]. 
 
-In particular, the [[algebraic closure]] of the [[real numbers]] in constructive mathematics is only a commutative $\mathbb{R}$-algebra not provably equivalent to the [[complex numbers]]. 
+However, the real numbers in constructive mathematics are only provably a [[Heyting field]] and not a [[discrete field]]. Nonetheless, the splitting algebra of the set of monic real polynomials is the field of [[complex numbers]], since the [[fundamental theorem of algebra]] for complex polynomials still holds. 
 
 ## Related concepts
 
