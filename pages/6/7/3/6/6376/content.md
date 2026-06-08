@@ -22,9 +22,7 @@ Every [[unique factorization domain]] is integrally closed.
 
 ## In constructive mathematics
 
-In constructive mathematics, integral closure and [[algebraic closure]] of a [[Heyting field]] are still the same if one defines algebraic closure using polynomial functions with positive [[degree of a polynomial|degree]]. If one however uses the classical definition of algebraic closure using non-constant polynomial functions, integral closure and algebraic closure of a [[Heyting fields]] are only the same if the [[Heyting field]] is a [[discrete field]], and not the same otherwise. 
-
-This is especially the case with the [[fundamental theorem of algebra]] for a set of [[complex numbers]], which in constructive mathematics states that the [[complex numbers]] are integrally closed, and is true for the [[modulated Cantor real numbers]] while not provable for the [[Dedekind real numbers]]. 
+In [[constructive mathematics]], algebraic closure for [[Heyting fields]] is stronger than [[integral closure]] for Heyting fields, since every monic polynomial has a well-defined degree, while not every nonconstant polynomial function, in the sense of being [[tight apartness relation|apart from]] every constant polynomial function, has a well-defined degree and thus might not be able to be made monic. This difference is reflected in the two versions of the [[fundamental theorem of algebra]], one for monic polynomials and one for non-constant polynomials (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
 
 ## See also
 
@@ -38,6 +36,8 @@ This is especially the case with the [[fundamental theorem of algebra]] for a se
 * Z. Borevich, I. Shafarevich, _Number theory_
 * E. Artin, J. Tate, _Class field theory_, 1967
 * A. Weil, _Basic number theory_
+
+* {#GWZ00} Herman Geuvers, Freek Wiedijk, Jan Zwanenburg, *A Constructive Proof of the Fundamental Theorem of Algebra without using the Rationals*, TYPES '00: Selected papers from the International Workshop on Types for Proofs and Programs, Pages 96 - 111, 08 December 2000 &lbrack;[web](https://dl.acm.org/doi/10.5555/646540.696038), [pdf](https://www.cs.ru.nl/F.Wiedijk/pubs/kneser.pdf)&rbrack;
 
 [[!redirects integrally closed]]
 
