@@ -171,7 +171,7 @@ independently of all the arbitrary choices we made, thanks to the holomorphy of 
 ####Example of Integration for Hyperfunctions
 Using the definition of an integral of a hyperfunction above, we can easily prove
 $$
-      \int_a^b F'(x) dx = F(b) - F(b)
+      \int_a^b F'(x) dx = F(b) - F(a)
 $$
 for all hyperfunctions $F$ that are analytic in $a$ and $b$. Therefore we just made rigorous sense of the formula
 $$
