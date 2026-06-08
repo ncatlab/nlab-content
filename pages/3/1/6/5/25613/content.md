@@ -8,7 +8,6 @@
 =--
 =--
 
-# Essentially injective functors
 * table of contents
 {: toc}
 
