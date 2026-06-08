@@ -41,6 +41,8 @@ and on its understanding in terms of [[super L-infinity algebra|super]] [[L-infi
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]]: *The $L_\infty$-structure of Free Differential Algebras and   Supergravity*, International Journal of Modern Physics A (2025) \[<a href="https://doi.org/10.1142/S0217751X25501787">doi:10.1142/S0217751X25501787</a>, [arXiv:2507.20344](https://arxiv.org/abs/2507.20344)\]
 
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]]: *Group Geometric Construction of Supergravity Theories, and Their $L_\infty$ Algebraic Structure*, in *Half a Century of Supergravity -- Bridging between Einstein and the Quantum* (2026) 58--68 &lbrack;[doi:10.1017/9781009575874.010](https://doi.org/10.1017/9781009575874.010)&rbrack;
+
 
 On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
 
