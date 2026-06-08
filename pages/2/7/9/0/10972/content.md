@@ -61,7 +61,11 @@ Review of the history of the discovery:
 
 ### Via holography
 
+Discussion via [[holographic CMT]]:
+
 * Fabiano F. Santos, Henrique Boschi-Filho: *Geometric Josephson junction* &lbrack;[arXiv:2407.10008](https://arxiv.org/abs/2407.10008)&rbrack;
+
+* Ali Övgün, Reggie C. Pantig: *Near Extremal RN-AdS Control of Holographic Josephson Transport* &lbrack;[arXiv:2606.06558](https://arxiv.org/abs/2606.06558)&rbrack;
 
 
 
