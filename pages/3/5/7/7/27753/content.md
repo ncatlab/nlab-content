@@ -163,7 +163,9 @@ Experimental realization of FQAH systems:
 * Hongyun Zhang et al.: *Moiré enhanced flat band in rhombohedral graphene*, Nat. Mater. (2025) &lbrack;[arXiv:2504.06251](https://arxiv.org/abs/2504.06251), [doi:10.1038/s41563-025-02416-2](https://doi.org/10.1038/s41563-025-02416-2)&rbrack;
 
 * Yiping Wang et al.: *Magnetic Signatures of a Putative Fractional Topological Insulator in Twisted $MoTe_2$* &lbrack;[arXiv:2601.18508](https://arxiv.org/abs/2601.18508)&rbrack;
-,
+
+* Jackson P. Butler: *1/3 Fractional and Gapless Integer Quantum Anomalous Hall States in Rhombohedral Graphene* &lbrack;[arXiv:2606.06450](https://arxiv.org/abs/2606.06450)&rbrack;
+
      
 
 
@@ -236,6 +238,7 @@ See also:
 
 * Jennifer Cano, Jie Wang: *Ideal Quantum Geometry for Fractional Chern Insulators* &lbrack;[arXiv:2606.05496](https://arxiv.org/abs/2606.05496)&rbrack;
 
+* Siddhartha Sarkar, Yitong Zhang, Kai Sun: *How Similar Can Fractional Chern Insulators Be to Fractional Quantum Hall States? Moiré-Enhanced Gaps and Excitation-Spectrum Correspondence* &lbrack;[arXiv:2606.07323](https://arxiv.org/abs/2606.07323)&rbrack;
 
 
 
