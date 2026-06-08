@@ -56,10 +56,6 @@ On [[quotient types]] and [[higher inductive types]]:
 
 * [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Nicolai Kraus]], [[Fredrik Forsberg]], *Quotient inductive-inductive types*, Foundations of Software Science and Computation Structures (FoSSaCS 2018), Lecture Notes in Computer Science **10803** (2018) &lbrack;[doi:10.1007/978-3-319-89366-2_16](https://doi.org/10.1007/978-3-319-89366-2_16), [arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
-On the prehistory of [[homotopy type theory]] and the [[univalence axiom]] in the hands of [[Martin Hofmann]]:
-
-* {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
-
 A fragment of [[higher observational type theory]]
 
 * [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval* ([arXiv:2307.06448](https://arxiv.org/abs/2307.06448))
@@ -67,6 +63,16 @@ A fragment of [[higher observational type theory]]
 On naive/informal [[dependent type theory]]:
 
 * [[Thorsten Altenkirch]], *Naive Type Theory*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019) &lbrack;[doi:10.1007/978-3-030-15655-8_5](https://doi.org/10.1007/978-3-030-15655-8_5), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/fomus19.pdf)&rbrack;
+
+On the [[object of integers]] as a [[higher inductive type]] in [[HoTT]]:
+
+* [[Thorsten Altenkirch]], [[Luis Scoccola]]: *The Integers as a Higher Inductive Type*, Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science (2020) 67--73 &lbrack;[arXiv:2007.00167](https://arxiv.org/abs/2007.00167), [doi:10.1145/3373718.3394760](https://doi.org/10.1145/3373718.3394760)&rbrack;
+
+
+On the prehistory of [[homotopy type theory]] and the [[univalence axiom]] in the hands of [[Martin Hofmann]]:
+
+* {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
+
 
 On [[directed type theory]] ([[directed homotopy type theory]]):
 
