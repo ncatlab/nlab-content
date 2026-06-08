@@ -346,53 +346,25 @@ Many proofs of FTA rely explicitly on the [[double negation]] rule by first supp
 
 ### In constructive mathematics
 
-In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
-
-Thus, one has two ways to express the fundamental theorem of algebra:
-
-* By restrict to polynomial functions with a positive degree in the notion of an [[algebraic closure]] of a field. 
-
-* By using [[integral closure]] instead of [[algebraic closure]]; i.e. [[monic polynomial|monic]] [[polynomial functions]]. 
+In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since negation of equality on the real numbers. Instead, we have to use the [[tight apartness relation]] on the real numbers and define nonconstant function to mean "apart from every constant polynomial function". 
 
 \begin{proposition}
-The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every [[polynomial function]] with positive [[degree of a polynomial|degree]] and [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+Every [[polynomial function]] $p(z) = \sum_{i \lt n} a_n z^n$ with at least one coefficient $a_n$ in $\mathbb{C}$, with $n \gt 0$, apart from zero, has a [[root]] in $\mathbb{C}$. 
 \end{proposition}
 
-\begin{proposition}
-The [[field]] of [[complex number]]s $\mathbb{C}$ is [[integrally closed field|integrally closed]]. In other words, every [[monic polynomial|monic]] [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
-\end{proposition}
+The other issue is that the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers. Different authors have ended up proving the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]]. 
 
-These two versions of the fundamental theorem of algebra are equivalent to each other, since, by definition of a polynomial function with positive degree, the coefficient associated to the largest exponent is apart from zero, and so can be factored out of the polynomial function, yielding a monic polynomial function. 
+* [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) have proven the fundamental theorem of algebra whose coefficients are valued in the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$, examples of which include the [[HoTT book real numbers]], which is the [[initial object|initial]] Cauchy complete Archimedean ordered field, and the [[Dedekind real numbers]], which is the [[terminal object|terminal]] Cauchy complete Archimedean ordered field. 
 
-There is a second problem, namely with Lemma \ref{sqrt}. It is usually impossible to prove that the monic quadratic function $x \mapsto x^2 + c$ has a [[root]] for all complex numbers $c \in \mathbb{C}$. The problem here is once again that any constructive notion of complex numbers is only a [[Heyting field]], rather than a [[discrete field]]. The function $x \mapsto x^2 + c$ has a root for $c = 0$ and for invertible $c$, but it is not provable that every complex number $c \in \mathbb{C}$ is either invertible or equal to zero. In fact, this fails in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because that the complex numbers have a continuous square root over $\mathbb{C}$ can only be proven in the presence of [[weak countable choice]] or the [[analytic LPO]].  
+* Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of other authors who proved the fundamental theorem of algebra, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
-As a result, in [[neutral constructive mathematics]], similarly to the [[intermediate value theorem]], there are typically two approaches to defining a constructively valid version of the fundamental theorem of algebra: 
+Historically, the fundamental theorem of algebra was first originally proven using only monic polynomials or polynomials with a well-defined positive degree $n$ (i.e. one where $a_n$ is apart from zero and $a_m = 0$ for all $m \gt n$); which are equivalent to each other by multiplying or dividing the polynomial by the coefficient $a_n$, since $a_n$ is by definition invertible. 
 
-* One can weaken the conclusion of the fundamental theorem of algebra to an approximate version of the fundamental theorem of algebra. 
+* [Ruitenburg 1991](#Ruitenburg91) has proven that every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers. 
 
-* One can strengthen the hypothesis of the fundamental theorem of algebra to restrict what kinds of polynomials and what kinds of real number coefficients on the polynomials are allowed.
+* Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
 In addition, [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots. He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
-
-#### Constructive FTA with weakened conclusion
-
-\begin{theorem}
-(constructive FTA with weakened conclusion)
-
-Given a [[monic polynomial|monic]] [[polynomial function]] $f$ on the complex numbers, for all positive rational numbers $\epsilon$ there exists a complex number $z$ such that $\vert f(z) \vert \lt \epsilon$. 
-\end{theorem} 
-
-#### Constructive FTA with strengthened hypothesis
-
-\begin{theorem}
-(constructive FTA with strengthened hypothesis, that the polynomials have coefficients of the [[Cauchy real numbers|Cauchy complex numbers]] with one invertible coefficient)
-
-Every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers.
-\end{theorem}
-
-\begin{proof}
-See the proof of theorem 3.13 in ([Ruitenburg 1991](#Ruitenburg91)). 
-\end{proof}
 
 ### In reverse mathematics
 
@@ -428,6 +400,10 @@ In [[constructive mathematics]], there are multiple versions of the FTA which ar
 A proof using [[differential topology]]:
 
 * [[John Milnor]]; pp. 8--9 in: _Topology from the differential viewpoint_, Princeton University Press (1997) &lbrack;[ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf)&rbrack;
+
+A [[constructive mathematics|constructive]] proof of the fundamental theorem of algebra for any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]]: 
+
+* {#GWZ00} Herman Geuvers, Freek Wiedijk, Jan Zwanenburg, *A Constructive Proof of the Fundamental Theorem of Algebra without using the Rationals*, TYPES '00: Selected papers from the International Workshop on Types for Proofs and Programs, Pages 96 - 111, 08 December 2000 &lbrack;[web](https://dl.acm.org/doi/10.5555/646540.696038), [pdf](https://www.cs.ru.nl/F.Wiedijk/pubs/kneser.pdf)&rbrack;
 
 A [[constructive mathematics|constructive]] proof of a variant using finite multisets of complex numbers: 
 
