@@ -1,4 +1,13 @@
-* [website](http://luisscoccola.github.io/)
+
+Luis Nerio Scoccola 
+
+* [personal page](http://luisscoccola.github.io/)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=270540)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=PCnYVBsAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Luis-Scoccola)
 
 ## Selected writings
 
@@ -9,6 +18,10 @@ On [[persistent homotopy|persistent homotopy theory]]:
 On [[localization of a space|localization]] (in [[algebraic topology]]) formulated in [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
 * [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
+
+On the [[object of integers]] as a [[higher inductive type]] in [[HoTT]]:
+
+* [[Thorsten Altenkirch]], [[Luis Scoccola]]: *The Integers as a Higher Inductive Type*, Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science (2020) 67--73 &lbrack;[arXiv:2007.00167](https://arxiv.org/abs/2007.00167), [doi:10.1145/3373718.3394760](https://doi.org/10.1145/3373718.3394760)&rbrack;
 
 
 Proof of the [[Hurewicz theorem]] in [[homotopy type theory]], hence in general [[(∞,1)-toposes]]:
