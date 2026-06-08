@@ -92,7 +92,7 @@ There exist similar axioms for Tarski universes in [[dependent type theory]]:
 
 There are other axioms that one can assume for a Tarski universe that aren't commonly found in set theory, such as the axiom of the [[universe of propositions]], the [[axiom of existence]], or various [[higher inductive types]]. 
 
-In this section, we explain each of the above axioms for Tarski universes. 
+In this section, we explain each of the above axioms for Tarski universes. We assume the minimum necessary amount of types to express all these axioms for Tarski universes, which include [[dependent sum types]], [[dependent product types]], [[identity types]] for all the axioms, and [[propositional truncations]] for replacement and choice. 
 
 ### Univalence
 
@@ -133,8 +133,6 @@ $$\mathrm{ax}_\Pi:\sum_{\Pi:\prod_{A:U} (T(A) \to U) \to U} \prod_{A:U} \prod_{B
 
 Product-regular univalent Tarski universes are the type theoretic equivalent of [[product-regular cardinals]] in [[set theory]]. 
 
-Since product-regularity implies that [[function types]] between $U$-small types are essentially $U$-small, and regularity implies that [[subtypes]] of essentially $U$-small types are essentially $U$-small, this implies that in a regular and product-regular universe, [[equivalence types]] between $U$-small types are essentially $U$-small, because equivalence types are [[subtypes]] of function types. In combination with [[univalence]], regularity and product-regularity implies that the [[identity types]] between $U$-small types are also essentially $U$-small. 
-
 ### Closure under identity types
 
 A Tarski universe $(U, T)$ is **closed under identity types** if for all $U$-small types $A:U$ and elements $x:T(A)$ and $y:T(A)$, the [[identity type]] $x =_{T(A)} y$ is [[essentially small type|essentially $U$-small]]. 
@@ -142,6 +140,8 @@ A Tarski universe $(U, T)$ is **closed under identity types** if for all $U$-sma
 $$\mathrm{ax}_\mathrm{Id}:\sum_{\mathrm{Id}:\prod_{A:U} (T(A) \times T(A)) \to U} \prod_{A:U} \prod_{x:T(A)} \prod_{y:T(A)} T(\mathrm{Id}(A, x, y)) \simeq (x =_{T(A)} y)$$
 
 Regularity and closure under identity types implies that the universe is closed under [[pullbacks]]. 
+
+Since product-regularity implies that [[function types]] between $U$-small types are essentially $U$-small, and regularity and closure under [[identity types]] implies that the [[uniqueness quantifier]] is essentially $U$-small, this implies that in a regular and product-regular universe closed under identity types, [[equivalence types]] between $U$-small types are essentially $U$-small. In combination with [[univalence]], regularity and product-regularity implies that the [[identity types]] between $U$-small types are also essentially $U$-small. 
 
 ### Singletons
 
@@ -214,7 +214,7 @@ The axiom schema of **[[propositional resizing]]** states that every possibly la
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{resize}_P:\mathrm{isProp}(P) \to \sum_{Q:U} T(Q) \simeq P}$$
 
-Propositional resizing is equivalent to the case of the [[axiom schema of separation]] where $A$ is the [[unit type]] $1$, by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is essentially $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
+Propositional resizing is equivalent to the case of the [[axiom schema of separation]] where $(B(x))_{x:A}$ is a constant type family of h-propositions. On the other hand, if propositional resizing holds, then every h-proposition is essentially $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
 
 Given a Tarski universe which has separation or propositional resizing, the type $\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(T(A))$ is the [[type of all propositions]]. This is a form of strong [[impredicativity]] in the type theory, as given a type $A$, the type $A \to \mathrm{Prop}_U$ is the [[power set]] on $A$. However, the universe $U$ itself remains predicative, since the power set on $A$ is not $U$-small; for the universe to be impredicative, we need another axiom, which will be explained in the next section. 
 
@@ -314,9 +314,13 @@ $$\mathrm{choice}_U:
 \end{array}
 $$
 
+### Universe of sets
+
+A Tarski universe is a **[[universe of sets]]** if for all $A:U$ the type $T(A)$ is a [[h-set]]. One can use an axiom like [[uniqueness of identity proofs]] or [[axiom K]] for types in the Tarski universe $U$. This makes the Tarski universe much like a model of set theory, like a type of [[pure sets]] or a [[well-pointed category]]. 
+
 ### Universe of propositions
 
-A Tarski universe is a **[[universe of propositions]]** if for all $A:U$ the type $T(A)$ is a [[h-proposition]]. A Tarski universe being a universe of propositions is inconsistent with the Tarski universe having the [[booleans type]], which [[propositional impredicativity]] and having a [[natural numbers type]] in the universe $U$. On the other hand, every universe of propositions satisfies the [[axiom of choice]] because every function is an [[embedding of types]], meaning that every surjection is a [[equivalence of types]] and thus has a section. 
+A Tarski universe is a **[[universe of propositions]]** if for all $A:U$ the type $T(A)$ is a [[h-proposition]]. A Tarski universe being a universe of propositions is inconsistent with the Tarski universe having [[propositional impredicativity]] or large recursion for the [[natural numbers type]] in the universe $U$. (Merely having a natural numbers type is not sufficient, as without large recursion, it is consistent for the natural numbers type to be contractible.) On the other hand, every universe of propositions satisfies the [[axiom of choice]] because every function is an [[embedding of types]], meaning that every surjection is a [[equivalence of types]] and thus has a section. 
 
 ### Choice operators and existence
 
@@ -324,7 +328,9 @@ A [[choice operator]] on a type is a function from its [[propositional truncatio
 $$\varepsilon_U:\prod_{A:U} \vert T(A) \vert \to T(A)$$
 $U$ satisfying the type-theoretic axiom of existence implies that $U$ satisfies [[axiom K]] or [[UIP]]. 
 
-That every type in the Tarski universe $U$ having a choice operator is inconsistent with the [[univalence axiom]] and having a [[booleans type]] in the universe $U$ (implied by [[propositional impredicativity]] or a [[natural numbers type]]), because the identity type $A =_U \mathrm{bool}$ has no fixed point under the univalence axiom, and a choice operator would give the identity type $A =_U \mathrm{bool}$ a fixed point. However, that every type in the Tarski universe has a choice operator is consistent with the [[univalence axiom]] if every type in the Tarski universe is an [[h-proposition]], such as in a [[Tarski universe of all propositions]]. 
+That every type in the Tarski universe $U$ having a choice operator is inconsistent with the [[univalence axiom]] and having $U$-large recursion for [[booleans type]] in the universe $U$ (implied by large recursion for the [[natural numbers type]]), because then the type of equivalences $A \simeq \mathrm{bool}$ would have a choice operator for all $A:U$, which is contradictory with univalence axiom by Corollary 17.5.3 of [Rijke 2022](#Rijke22). The reason why $U$-large recursion for the booleans is required is because without $U$-large recursion, it is consistent for the booleans type in the universe $U$ to be contractible and thus for $A \simeq \mathrm{bool}$ to be a proposition and equivalent to its propositional truncation. 
+
+However, that every type in the Tarski universe has a choice operator is consistent with the [[univalence axiom]] if every type in the Tarski universe is an [[h-proposition]], such as in a [[Tarski universe of all propositions]]. 
 
 ### Closure of Tarski universes under other type formers
 
