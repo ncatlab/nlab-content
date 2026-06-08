@@ -54,11 +54,27 @@ Splitting fields of a polynomial are unique up to (non-unique) isomorphism.
 
 Now let $m$ be any maximal ideal of $E \otimes_k E'$ (note that $E \otimes_k E'$ is finite-dimensional over $k$, so the existence of $m$ does not involve any choice principles), and consider the composite 
 
-$$\phi = (E \stackrel{i}{\to} E \otimes_k E' \stackrel{quot}{\to} E \otimes_k E'/m).$$ 
+$$
+  \phi 
+   \;=\; 
+  \big(
+    E 
+      \overset{i}{\longrightarrow} 
+    E \textstyle{\otimes_k} E' 
+      \overset{quot}{\longrightarrow} 
+    E \textstyle{\otimes_k} E'/m
+  \big)
+  \mathrlap{\,.}
+$$ 
 
 As is the case for any homomorphism between fields, this composite $\phi$ is an [[injective map]]. Moreover, letting $\rho_j$ denote the coset $i(r_j) + m$ and $\rho_j'$ the coset $i'(r_j') + m$, the polynomial $p(x)$ splits over the field $E \otimes_k E'/m$ as 
 
-$$\prod_j (x - \rho_j) = \prod_k (x - \rho_k')$$ 
+$$
+  \textstyle{\prod_j} (x - \rho_j) 
+    \;=\; 
+  \textstyle{\prod_k} (x - \rho_k')
+  \mathrlap{\,,}
+$$ 
 
 and so by [[unique factorization domain|unique factorization]] of polynomials, for each $\rho_k'$ there is a $\rho_j = \phi(r_j)$ with $\rho_k' = \rho_j$. This means the $\phi(r_j)$ exhaust the generators $\rho_j, \rho_k'$ of $E \otimes_k E'/m$. In other words, $\phi$ is also surjective and provides an isomorphism $E \cong E \otimes_k E'/m$. By symmetry we also have an isomorphism $E' \cong E \otimes_k E'/m$, and thus $E \cong E'$. 
 =-- 
@@ -69,7 +85,15 @@ A splitting field for a finite set of polynomials $\{p_1, \ldots, p_k\}$ is just
 
 Now let $S \subseteq k[x]$ be an arbitrary set of monic polynomials. For each $p \in S$, let $n_p$ denote the degree of $p$, and let us introduce a set of indeterminates $X_p = \{x_{p, 1}, \ldots, x_{p, n_p}\}$. Let $X$ be the coproduct $\sum_{p \in S} X_p$, and form the [[polynomial|polynomial algebra]] $R = k[X]$. For each $p \in S$ let us write 
 
-$$p(t) - \prod_{i = 1}^{n_p} (t - x_{p, i}) = \sum_{j = 0}^{n_p - 1} s_{p, j} t^j$$ 
+$$
+  p(t) 
+    - 
+  \textstyle{\prod_{i = 1}^{n_p}} 
+    (t - x_{p, i}) 
+  \;=\; 
+  \textstyle{\sum_{j = 0}^{n_p - 1}} 
+    s_{p, j} t^j
+$$ 
 
 for some elements $s_{p, j} \in R$. We claim that the set $\Sigma$ of all $s_{p, j}$ with $p$ ranging over $S$ generates a proper ideal in $R$. For given an $R$-linear combination $g = g_1 s_1 + \ldots + g_k s_k$ with $s_i \in \Sigma$, where $s_i$ is associated with a polynomial $p_i$, let $E$ be the splitting field of $p = p_1 \ldots p_k$, and define a homomorphism $k[X] \to E$ that sends distinct elements of the form $x = x_{p_i, j}$ to distinct roots $r_j$ of $p_i$, and otherwise sends $x = x_{f, j}$ with $f \notin \{p_1, \ldots, p_k\}$ to $0$. Then $g$ is sent to $0$ in $E$, hence $g$ cannot be $1$. 
 
@@ -99,9 +123,11 @@ Now $\Phi$ topologized as a product of finite discrete spaces is a [[compact Hau
 
 An alternative proof based on a similar pattern of reasoning, but more explicitly in the language of [[model theory]] and the [[compactness theorem]], was given by [Joel David Hamkins](#JDH), in an answer following Caicedo's at MathOverflow. 
 
+
 ## Generalization to commutative rings
 
 One can generalize the notion of a splitting field from [[fields]] to arbitrary [[commutative rings]]. If $R$ is a [[commutative ring]] and $p \in R[x]$ is a polynomial, the splitting $R$-algebra of $p$ is only a commutative $R$-algebra rather than a field, called the **universal splitting algebra** for $p$ ([Lombardi & Quitté 2010](#LombardiQuitté2010)), since $R$ is in general not provably a field. 
+
 
 ## In constructive mathematics
 
