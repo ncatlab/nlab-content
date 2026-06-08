@@ -92,7 +92,7 @@ There also exists a version of the axiom schema of separation for general [[type
 
 $$\frac{\Gamma \vdash A:U \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{sep}_{A, B}:\left(\prod_{x:A} \mathrm{isProp}(B(x))\right) \to \sum_{C:U} C \simeq \sum_{x:A} B(x)}$$
 
-The [[propositional resizing]] axiom schema found in [[dependent type theory]] is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$, by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
+The [[propositional resizing]] axiom schema found in [[dependent type theory]] is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$, by large recursion of the unit type, or where $(B(x))_{x:A}$ is a constant family of [[h-propositions]]. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition.
 
 ## In hyperdoctrines
 
