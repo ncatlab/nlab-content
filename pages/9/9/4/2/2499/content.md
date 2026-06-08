@@ -1155,6 +1155,7 @@ Review:
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987), [doi:10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
 
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]]: *Group Geometric Construction of Supergravity Theories, and Their $L_\infty$ Algebraic Structure*, in *Half a Century of Supergravity -- Bridging between Einstein and the Quantum* (2026) 58--68 &lbrack;[doi:10.1017/9781009575874.010](https://doi.org/10.1017/9781009575874.010)&rbrack;
 
 
 See also:
