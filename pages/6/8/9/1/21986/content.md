@@ -12,15 +12,14 @@
 =--
 =--
 
-# Integers object
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-An **integers object** or **integer object** [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
+An **object of integers** (or *integers object* or even *integer object*) [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
 
 ## Definition
 
@@ -128,7 +127,19 @@ In a category with finite products, the initial [[ring object]], an object $\mat
 * [[circle object]]
 
 
-[[!redirects integers object]]
+## References
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]]; p. 319--320: *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+
+As a [[higher inductive type]] in [[HoTT]]:
+
+* [[Thorsten Altenkirch]], [[Luis Scoccola]]: *The Integers as a Higher Inductive Type*, Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science (2020) 67--73 &lbrack;[arXiv:2007.00167](https://arxiv.org/abs/2007.00167), [doi:10.1145/3373718.3394760](https://doi.org/10.1145/3373718.3394760)&rbrack;
+
+
+
 [[!redirects integers objects]]
 [[!redirects integer object]]
 [[!redirects integer objects]]
+
+[[!redirects object of integers]]
+[[!redirects objects of integers]]
