@@ -38,6 +38,11 @@ Review:
 
 * [[Dima E. Feldman]], [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
+See also:
+
+* Ha Quang Trung, Bo Yang: *Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions* \[<a href="https://arxiv.org/abs/2606.07517">arXiv:2606.07517</a>\]
+
+
 {#ReferencesFQHAsPotentialTQCHardware} On ([[anyons]] in) [[fractional quantum Hall systems]] as potential [[quantum materials|quantum hardware]] for [[topological quantum computing]]:
 
 * D. V. Averin, V. J. Goldman: *Quantum computation with quasiparticles of the fractional quantum Hall effect*, Solid State Communications **121** 1 (2001) 25-28 \[<a href="https://doi.org/10.1016/S0038-1098(01)00447-1">doi:10.1016/S0038-1098(01)00447-1</a>, [arXiv:cond-mat/0110193](https://arxiv.org/abs/cond-mat/0110193)\]
