@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea 
 
@@ -1359,7 +1358,7 @@ Further textbook accounts:
 
 * {#Warner12} [[Garth Warner]]: *Fibrations and Sheaves*, EPrint Collection, University of Washington (2012) &lbrack;[hdl:1773/20977](http://hdl.handle.net/1773/20977), [pdf](https://sites.math.washington.edu//~warner/Warner_FIBRATIONS%20AND%20SHEAVES.pdf), [[Warner-FibrationsAndSheaves.pdf:file]]&rbrack;
 
-* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 10 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]]; Chapter 10 of: _2-Dimensional Categories_, Oxford University Press (2021) &lbrack;[arXiv:2002.06055 math.CT](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
 Survey in the generality of [[enriched category theory|enriched-]], [[internal category|internal-]] and [[(infinity,1)-category theory|$\infty$-category theory]] (see also the *[[enriched Grothendieck construction|enriched-]] and [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]]):
 
