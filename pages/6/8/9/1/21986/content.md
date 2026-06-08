@@ -20,7 +20,7 @@
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-An **integers object** [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
+An **integers object** or **integer object** [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like the set $\mathbb{Z}$ of [[integers]] does in [[Set]].
 
 ## Definition
 
