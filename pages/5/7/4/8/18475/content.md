@@ -368,6 +368,10 @@ On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
 * [[Jan Zaanen]], *Lectures on quantum supreme matter* ([arXiv:2110.00961](https://arxiv.org/abs/2110.00961))
 
+* Ali Övgün, Reggie C. Pantig: *Near Extremal RN-AdS Control of Holographic Josephson Transport* &lbrack;[arXiv:2606.06558](https://arxiv.org/abs/2606.06558)&rbrack;
+  > (relation to [[Josephson effect]])
+
+
 
 ### Application to chiral magnets
 
