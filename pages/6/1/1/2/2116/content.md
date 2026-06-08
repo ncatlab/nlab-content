@@ -83,17 +83,15 @@ Well-definedness of transcendence degree then follows from abstract consideratio
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
+In [[constructive mathematics]], for [[Heyting fields]], one has to use the [[tight apartness relation]] of the Heyting field to define a nonconstant polynomial to mean "apart from every constant polynomial function" in the definition of an algebraically closed field. Algebraic closure for [[Heyting fields]] is stronger than [[integral closure]] for Heyting fields, since every monic polynomial has a well-defined degree, while not every nonconstant polynomial function has a well-defined degree and thus might not be able to be made monic. 
 
-Thus, for [[Heyting fields]] that are not discrete, one usually restricts to polynomial functions with a positive degree in the notion of an [[algebraic closure]] of a field. In this sense, [[algebraic closure]] and [[integral closure]] coincide since, by definition of a polynomial function with positive degree, the coefficient associated to the largest exponent is apart from zero, and so can be factored out of the polynomial function, yielding a monic polynomial function. 
-
-Furthermore, the algebraic closure of a [[Heyting field]] $K$ is no longer a [[field]], but only a [[commutative algebra|commutative $K$-algebra]], called the [[universal splitting algebra]] for the set of all polynomials in $K[x]$ with positive [[degree of a polynomial|degree]]. In particular, the [[algebraic closure]] of the [[real numbers]] in constructive mathematics is only a commutative $\mathbb{R}$-algebra not provably equivalent to the [[complex numbers]]. 
+Using this definition, the [[complex numbers]] are an algebraically closed field even without using any constructive [[taboos]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
 
 ## Examples
 
 * The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$.  
 
-  Arguably, this theorem is not entirely algebraic; the algebraic portion is that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real-closed field]].  Unusually, this algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions.
+  Arguably, this theorem is not entirely algebraic; the algebraic portion is that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real-closed field]].  Unusually, this algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions. However, there are other constructively valid proofs of the [[fundamental theorem of algebra]], see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) for more details. 
  
 * The algebraic closure $\overline{\mathbb{Q}}$ of the [[rational numbers]] $\mathbb{Q}$ is the [[algebraic numbers]].
 
@@ -122,6 +120,8 @@ be sure to check for improperly replied posts with the same subject in that and 
 * {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 * {#Ruitenberg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
+
+* {#GWZ00} Herman Geuvers, Freek Wiedijk, Jan Zwanenburg, *A Constructive Proof of the Fundamental Theorem of Algebra without using the Rationals*, TYPES '00: Selected papers from the International Workshop on Types for Proofs and Programs, Pages 96 - 111, 08 December 2000 &lbrack;[web](https://dl.acm.org/doi/10.5555/646540.696038), [pdf](https://www.cs.ru.nl/F.Wiedijk/pubs/kneser.pdf)&rbrack;
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (trans. by Tania K. Roblo): *Commutative algebra: Constructive methods --- Finite projective modules*, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
 
