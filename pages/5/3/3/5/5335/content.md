@@ -18,7 +18,13 @@ On [[intuitionism]]:
 
 * [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
 
+Scans and transcription of his nine PhD-era notebooks, largely in Dutch:
 
+* [Brouwer's Notebooks](https://www.cs.ru.nl/~freek/brouwer/index.html)
+
+which were studied and analysed in
+
+* Johannes John Carel Kuiper, _Ideas and Explorations: Brouwer’s Road to Intuitionism_, PhD thesis, Universiteit Utrecht, 2004, [pdf](https://www.cs.ru.nl/~freek/brouwer/phdthesis.pdf).
 
 ## Brouwer's intuitionism
  {#BrouwerIntuitionism}
