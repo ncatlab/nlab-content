@@ -12,7 +12,6 @@
 =--
 =--
 
-# Natural numbers object
 * table of contents
 {: toc}
 
@@ -20,7 +19,7 @@
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number|natural numbers]] does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]] ([1963](#Law63)).
+A **natural numbers object** or **natural number object** (NNO) in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number|natural numbers]] does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]] ([1963](#Law63)).
 
 
 ## Definition
@@ -337,7 +336,7 @@ The initial [[rig]] object in a category with finite products, ($\mathbb{N},0:1\
 
 ### Relation to object of integers
 
-Given a natural numbers object $\mathbb{N}$ in a [[pretopos]], we can construct an [[integers]] [[integers object|object]] as follows.  Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of the [[congruence]] $(\pi_1 \circ a, \pi_2 \circ b), (\pi_1 \circ b, \pi_2 \circ a)\colon E \to \mathbb{N} \times \mathbb{N}$.  A similar construction yields a [[rational numbers]] object $\mathbb{Q}$. 
+Given a natural numbers object $\mathbb{N}$ in a [[pretopos]], we can construct an [[integers object]] as follows.  Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of the [[congruence]] $(\pi_1 \circ a, \pi_2 \circ b), (\pi_1 \circ b, \pi_2 \circ a)\colon E \to \mathbb{N} \times \mathbb{N}$.  A similar construction yields a [[rational numbers]] object $\mathbb{Q}$. 
 
 For a [[real numbers]] object, rather more care is needed; see [[real numbers object]].
 
