@@ -61,7 +61,7 @@ Let $i_B: B \to B + C$ be a coproduct coprojection, and suppose given maps $f, g
 
 $$i: A \times B \to A \times B + A \times C$$ 
 
-is monic because it has a [[retraction]] $(1_{A \times B}, \phi): A \times B + A \times C \to A \times B$. (All we need here is the existence of a map $\phi: A \times C \to A \times B$, for example the composite $A \times C \stackrel{\pi_A}{\to} A \stackrel{\langle 1_A, f \rangle}{\to} A \times B$.)  
+is monic because it has a [[retraction]] $(1_{A \times B}, \phi): A \times B + A \times C \to A \times B$, where $\phi: A \times C \to A \times B$ is _any_ map (for example the composite $A \times C \stackrel{\pi_A}{\to} A \stackrel{\langle 1_A, f \rangle}{\to} A \times B$). 
 
 The composite of the coprojection $i$ with the canonical isomorphism $A \times B + A \times C \cong A \times (B + C)$, namely $1_A \times i_B: A \times B \to A \times (B + C)$, is therefore also monic. Given that $\langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle: A \to A \times (B + C)$, we conclude 
 
@@ -70,15 +70,19 @@ $$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 
 whence $\langle 1_A, f\rangle = \langle 1_A, g\rangle: A \to A \times B$ since $1_A \times i_B$ is monic. It follows that $f = g$, as was to be shown. 
 =-- 
 
+Clearly this proof is actually "local", in the sense that one doesn't need the ambient category to have _all_ coproducts, nor does in need products to distribute over all of them: those products $B + C$ that exist _and_ for which for all other objects $A$, the canonical comparison map $A\times B + A\times B \to A\times (B+C)$ is an isomorphism, its coprojections are mono. Similarly, in the following result, only distributivity over $0 + 0$ is needed for the conclusion:
+
 +-- {: .num_prop #nullary} 
 ###### Proposition 
-If products distribute over binary coproducts, then products distribute over nullary coproducts (i.e., the projection $X \times 0 \to 0$ is an isomorphism for all objects $X$). 
+If products distribute over the binary coproduct $0+0$, i.e. for all $X$, $X\times 0 + X\times 0 \to X\times (0+0)$ is an isomorphism, then products distribute over nullary coproducts (i.e., the projection $X \times 0 \to 0$ is an isomorphism for all objects $X$). 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 We show that $X \times 0$ is initial. Clearly $\hom(X \times 0, Y)$ is inhabited by $X \times 0 \to 0 \to Y$ for any object $Y$. On the other hand, since the two coprojections $0 \to 0 + 0$ coincide, the same holds for the two coprojections $X \times 0 \to (X \times 0) + (X \times 0)$, by applying the distributivity isomorphism $X \times (0 + 0) \cong (X \times 0) + (X \times 0)$. This is enough to show that any two maps $X \times 0 \to Y$ coincide, since given maps $f, g : X \times 0 \to Y$, we have $f = [f, g] \circ i_1 = [f, g] \circ i_2 = g$.
 =-- 
+
+This is usually seen applied in the following context:
 
 +-- {: .num_prop} 
 ###### Proposition  
@@ -89,6 +93,8 @@ In a distributive category, the [[initial object]] is [[strict initial object|st
 ###### Proof 
 Given an arrow $f: A \to 0$, we have that $\pi_A: A \times 0 \to A$ is a retraction of $\langle 1, f \rangle: A \to A \times 0$, so that $A$ is a retract of $A \times 0 \cong 0$. But retracts of initial objects are initial. 
 =-- 
+
+Again, however, this argument is local and could be applied in the absence of global distributivity, should such an example arise.
 
 ## Examples
  {#Examples}
