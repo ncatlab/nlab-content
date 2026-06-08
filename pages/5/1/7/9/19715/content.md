@@ -43,7 +43,7 @@ Propositional resizing for a [[type universe]] $U$ is equivalent in strength to 
 
 The axiom schema of separation for a [[type universe]] $U$ in [[dependent type theory]] states that for all $U$-small types $A:U$ and families of possibly large [[h-propositions]] $(B(x))_{x:A}$, the [[dependent sum type]] $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]]. 
 
-Propositional resizing is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$ by large recursion of the unit type. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition. 
+Propositional resizing is equivalent to the case of the axiom schema of separation where $A$ is the [[unit type]] $1$ by large recursion of the unit type, or where $(B(x))_{x:A}$ is a constant family of [[h-propositions]]. On the other hand, if propositional resizing holds, then every h-proposition is $U$-small and so the dependent sum type $\sum_{x:A} B(x)$ is [[essentially small|essentially $U$-small]] by definition. 
 
 Note that in either case, the [[type of all propositions]] $\mathrm{Prop}_U$ is still $U$-large, meaning that $U$ is still predicative as a universe. 
 
