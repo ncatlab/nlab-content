@@ -366,17 +366,33 @@ These two versions of the fundamental theorem of algebra are equivalent to each 
 
 There is a second problem, namely with Lemma \ref{sqrt}. It is usually impossible to prove that the monic quadratic function $x \mapsto x^2 + c$ has a [[root]] for all complex numbers $c \in \mathbb{C}$. The problem here is once again that any constructive notion of complex numbers is only a [[Heyting field]], rather than a [[discrete field]]. The function $x \mapsto x^2 + c$ has a root for $c = 0$ and for invertible $c$, but it is not provable that every complex number $c \in \mathbb{C}$ is either invertible or equal to zero. In fact, this fails in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because that the complex numbers have a continuous square root over $\mathbb{C}$ can only be proven in the presence of [[weak countable choice]] or the [[analytic LPO]].  
 
-However, the following weaker theorem is still true in constructive mathematics for the [[modulated Cantor real number|modulated Cantor complex numbers]]:
+As a result, in [[neutral constructive mathematics]], similarly to the [[intermediate value theorem]], there are typically two approaches to defining a constructively valid version of the fundamental theorem of algebra: 
+
+* One can weaken the conclusion of the fundamental theorem of algebra to an approximate version of the fundamental theorem of algebra. 
+
+* One can strengthen the hypothesis of the fundamental theorem of algebra to restrict what kinds of polynomials and what kinds of real number coefficients on the polynomials are allowed.
+
+In addition, [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots. He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
+
+#### Constructive FTA with weakened conclusion
 
 \begin{theorem}
-Every [[unramifiable polynomial|unramifiable]] [[monic polynomial|monic]] [[polynomial function]] with coefficients in $\mathbb{C}$ has a [[simple root]] in $\mathbb{C}$.
+(constructive FTA with weakened conclusion)
+
+Given a [[monic polynomial|monic]] [[polynomial function]] $f$ on the complex numbers, for all positive rational numbers $\epsilon$ there exists a complex number $z$ such that $\vert f(z) \vert \lt \epsilon$. 
+\end{theorem} 
+
+#### Constructive FTA with strengthened hypothesis
+
+\begin{theorem}
+(constructive FTA with strengthened hypothesis, that the polynomials have coefficients of the [[Cauchy real numbers|Cauchy complex numbers]] with one invertible coefficient)
+
+Every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers.
 \end{theorem}
 
-A fully choice-free constructive proof of this theorem by [[Wim Ruitenburg]] ([Ruitenburg 1991](#Ruitenburg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[analytic LPO]]). It is unknown if this weaker FTA is true of the [[Dedekind real number|Dedekind complex numbers]] as well. 
-
-In the absence of $WCC$ or the [[analytic LPO]], [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
-
-Note that the [[algebraic closure]] $\overline{\mathbb{C}}$ of the [[complex numbers]] can still be constructed in [[constructive mathematics]]; however the algebraic closure is only a [[commutative algebra|commutative $\mathbb{C}$-algebra]] in general and not provably equivalent to the complex numbers. Instead, we only have the subset inclusions $\mathbb{R} \subseteq \mathbb{C} \subseteq \overline{\mathbb{R}} = \overline{\mathbb{C}}$. 
+\begin{proof}
+See the proof of theorem 3.13 in ([Ruitenburg 1991](#Ruitenburg91)). 
+\end{proof}
 
 ### In reverse mathematics
 
@@ -394,6 +410,7 @@ However, it is of interest, partly theoretical, partly for the sake of finding t
 
 It should be noted, in the context of the last statement, that proofs of the FTA can be given, relying on analytic 'bazooka' theorems, that are one sentence. However, to spell out the proofs of the necessary theorems, one needs a course in analysis, of some variety, so one is merely sweeping a lot under a very small rug. 
 
+In [[constructive mathematics]], there are multiple versions of the FTA which are inequivalent to each other, many of which are not formulated in algebraic terms. For example, the approximate version of the FTA listed above requires one to show that for all polynomials and for all [[neighborhoods]] around zero there exists a complex number $z$ such that the polynomial evaluated at $z$ is in the [[neighborhood]], which is analytic and topological rather than algebraic. 
 
 ## References
  {#References}
