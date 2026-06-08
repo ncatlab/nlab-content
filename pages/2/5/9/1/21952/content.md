@@ -33,6 +33,10 @@ On [[super multiplets]] via [[derived geometry]] on [[pure spinor]] [[algebraic 
 
 * [[Simone Noja]]: *The Geometry of Pure Spinor Superfield Formalism*, [talk at](CQTS#NojaDec2024) [[CQTS]] (Dec 2024) &lbrack;[[Noja-PureSpinorGeometry-CQTS-Dec2024.pdf:file]]&rbrack;
 
+On the [[moduli space of super Riemann surfaces]]:
+
+* Mauricio Corrêa, [[Simone Noja]]: *Compactified supermoduli space is almost never projected* \[<a href="https://arxiv.org/abs/2606.06733">arXiv:2606.06733</a>\]
+
 
 
 
