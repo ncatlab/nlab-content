@@ -30,6 +30,9 @@ On the [[moduli space of super Riemann surfaces|moduli space of]] [[super Rieman
 
 * [[Dimitry Leites]], Alexander S. Tikhomirov: *Non-split superstrings of dimension $(1|2)$* \[<a href="https://arxiv.org/abs/2503.02416">arXiv:2503.02416</a>\]
 
+* Mauricio Corrêa, [[Simone Noja]]: *Compactified supermoduli space is almost never projected* \[<a href="https://arxiv.org/abs/2606.06733">arXiv:2606.06733</a>\]
+
+
 
 Further discussion of [[supergeometry|supergeometric]] [[Teichmüller space]]:
 
