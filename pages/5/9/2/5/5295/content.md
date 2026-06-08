@@ -17,9 +17,9 @@
 =--
 =--
 
-# Intuitionistic mathematics
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -113,7 +113,7 @@ The reluctance to add function spaces is similar to the problem of function spac
 ## References
  {#References}
 
-For more see also the references at _[[constructive mathematics]]_.
+> For more see also the references at _[[constructive mathematics]]_.
 
 The roots of Brouwer's intuitionism are apparently in his PhD thesis
 
@@ -122,6 +122,11 @@ The roots of Brouwer's intuitionism are apparently in his PhD thesis
 A reference written by Brouwer and still in print in English is
 
 * [[L.E.J. Brouwer]], _Brouwer's Cambridge Lectures on Intuitionism_, edited by D. van Dalen
+
+Historical review:
+
+* Johannes John Carel Kuiper: _Ideas and Explorations: Brouwer’s Road to Intuitionism_, PhD thesis, Universiteit Utrecht (2004) &lbrack;[pdf](https://www.cs.ru.nl/~freek/brouwer/phdthesis.pdf), [[Kuiper-BrouwerIntuitionism.pdf|pdf:file]]&rbrack;
+
 
 Early exposition and endorsement:
 
