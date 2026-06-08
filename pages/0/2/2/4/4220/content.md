@@ -36,13 +36,13 @@ In this formula, $\hat{b}$ is the sign of $b$, that is $b/{|b|}$; also, we must 
 
 ### Constructive issues
 
-Everything above is valid in weak forms of [[constructive mathematics]] if one takes $\mathbb{C} \coloneqq \mathbb{C}_C$ to be the [[modulated Cauchy real numbers|modulated Cauchy]] complex numbers, see [Ruitenburg (1991)](#Ruitenburg91). 
+In [[constructive mathematics]], the [[fundamental theorem of algebra]] is provable for the associated [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of the [[Cauchy real numbers]] (see [Ruitenburg 1991](#Ruitenburg91)) and for any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
 
-However, if one takes $\mathbb{C} \coloneqq \mathbb{C}_D$ to be the [[Dedekind real numbers|Dedekind]] complex numbers, there is an interesting issue about whether $b^2 - 4a{c} \ne 0$. Everything above is valid in weak forms of [[constructive mathematics]] except for the statement that $\mathbb{C}_D$ is [[quadratic closure|quadratically closed]]. That claim follows from [[weak countable choice]] ($WCC$), which in turn will follow from either [[excluded middle]] or [[countable choice]]. Nevertheless, the statement
-$$ \forall\, a, b, c\colon \mathbb{C}_D,\; \exists\, r\colon \mathbb{C}_D,\; r^2 = b^2 - 4a{c} $$
-is false in (for example) the [[internal language]] of the [[sheaf topos]] over the [[real line]]. (Essentially, this is because there is no [[continuous map]] $\sqrt{}$ on any neighbourhood of $0$ in $\mathbb{C}_D$.)  If we are given that $a, b, c$ are real, or if we are given that $b^2 \ne 4a{c}$, then there is no problem.  But in general, we cannot define this square root, which appears in every version of the quadratic formula.
+However, classical proofs of the fundamental theorem of algebra fail to work constructively if they are reliant on the quadratic formula. The [[principal square root]] of the quadratic formula cannot be proven to exist on the complex numbers, and in fact can be proven to not exist in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
 
-However, there is a more subtle sense in which $\mathbb{C}_D$ is algebraically closed even without $WCC$; essentially, this allows us to approximate the [[subset]] of $\mathbb{C}_D$ whose elements are the two solutions of (eq:eqn) (using two-element subsets of the field of, say, [[Gaussian numbers]]) even if we can\'t approximate any one solution (using individual, say, Gaussian numbers); see [Richman (1998)](#Richman) for details.  The quadratic formula can then be interpreted as indicating this approximated subset.
+Instead, the quadratic formula can be regarded as taking values in a [[complete metric space]] $\hat{M}_2(\mathbb{C})$ defined in [Richman 2000](#Richman00), which, classically, is the space of $2$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex quadratic function $p$ may be associated with a point in this space in such a way that the two elements of that point (when viewed as a multiset, if possible, and morally in any case) are the two roots of $p$. 
+
+For some discussion about the quadratic formula in [[constructive analysis|constructive]] [[real analysis]], see [[real quadratic function#ExactZeroes]]. 
 
 ### Simplified formulas and characteristic $2$
 
@@ -62,14 +62,16 @@ This is valid even in characteristic $2$, but unfortunately then it is fairly us
 
 * [[completing the square]]
 
-* [[continuous quadratic formula]]
+* [[real quadratic formula]]
 
 ## References
 
 
-* {#Ruitenberg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
+* {#Ruitenburg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
 
-* {#Richman} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
+* {#GWZ00} Herman Geuvers, Freek Wiedijk, Jan Zwanenburg, *A Constructive Proof of the Fundamental Theorem of Algebra without using the Rationals*, TYPES '00: Selected papers from the International Workshop on Types for Proofs and Programs, Pages 96 - 111, 08 December 2000 &lbrack;[web](https://dl.acm.org/doi/10.5555/646540.696038), [pdf](https://www.cs.ru.nl/F.Wiedijk/pubs/kneser.pdf)&rbrack;
+
+* {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 
 
