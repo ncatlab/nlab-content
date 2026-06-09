@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
 # The quadratic formula
 * table of contents
 {: toc}
@@ -34,16 +48,6 @@ When the coefficients come from an [[ordered field]] $K$ (which we assume real c
 \end {gathered} \]
 In this formula, $\hat{b}$ is the sign of $b$, that is $b/{|b|}$; also, we must choose a nonnegative principal square root, so that $\sqrt{b^2 - 4a{c}} \lt 0$ in $K$ is avoided (and thus the common denominator of $x_{\hat{b}}$ and numerator of $x_{-\hat{b}}$ is nonzero even if not imaginary).  Despite the name, this formula is not sufficient for all purposes in [[numerical analysis]]; one still needs all three formulas and chooses between them based on whether $a \ne 0$, $b \ne 0$, or $c \ne 0$ is best established.
 
-### Constructive issues
-
-In [[constructive mathematics]], the [[fundamental theorem of algebra]] is provable for the associated [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of the [[Cauchy real numbers]] (see [Ruitenburg 1991](#Ruitenburg91)) and for any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
-
-However, classical proofs of the fundamental theorem of algebra fail to work constructively if they are reliant on the quadratic formula. The [[principal square root]] of the quadratic formula cannot be proven to exist on the complex numbers, and in fact can be proven to not exist in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
-
-Instead, the quadratic formula can be regarded as taking values in a [[complete metric space]] $\hat{M}_2(\mathbb{C})$ defined in [Richman 2000](#Richman00), which, classically, is the space of $2$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex quadratic function $p$ may be associated with a point in this space in such a way that the two elements of that point (when viewed as a multiset, if possible, and morally in any case) are the two roots of $p$. 
-
-For some discussion about the quadratic formula in [[constructive analysis|constructive]] [[real analysis]], see [[real quadratic function#ExactZeroes]]. 
-
 ### Simplified formulas and characteristic $2$
 
 Sometimes one considers the quadratic function
@@ -53,6 +57,26 @@ instead of (eq:eqn); then (eq:usual) simplifies to
 (and similarly for (eq:alt) and (eq:numanal)).
 
 This is valid even in characteristic $2$, but unfortunately then it is fairly useless, since $b = 2p = 0$.  More precisely, if $b = 0$, then (eq:simpl) with $p = 0$ gives the roots $\pm\sqrt{-c/a}$ in any characteristic, but in that case the equation was easy to solve without any formula.  On the other hand, if $b \ne 0$ and $\char K = 2$, then no version of the quadratic formula is applicable, yet this gives no information as to whether the polynomial is [[solvable polynomial|solvable]] and what its roots are if it is.  For example, the quadratic function $f(x) \coloneqq x^2 + x$ has roots $0$ and $1$ in $\F_2$ (or $0$ and $-1$ in any field, as may be found by factoring), while $f(x) \coloneqq x^2 + x + 1$ is not solvable over $\F_2$, yet both have $b^2 - 4a{c} = 1$ and give $0/0$ in both (eq:usual) and (eq:alt) (while (eq:numanal) and (eq:simpl) are directly inapplicable).
+
+## In constructive mathematics
+
+### In real analysis
+
+For some discussion about the quadratic formula in [[constructive analysis|constructive]] [[real analysis]], see [[real quadratic function#ExactZeroes]]. 
+
+### In complex analysis
+
+In constructive mathematics, given a [[set]] $K$, one has to distinguish between mere existence of an element that satisfies some property $P$ on $K$, there exists $x \in K$ such that $P(x)$ holds, and constructive existence of an element that satisfies $P(x)$ via the [[BHK interpretation]] of logic, which is the structure of an element of the set $\{x \in K \vert P(x)\}$. This becomes very important in [[complex analysis]] when talking about square roots. 
+
+In constructive [[complex analysis]], there are multiple notions of the [[fundamental theorem of algebra]]. One version that is provable without any constructive [[taboo]] for the associated [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of the [[Cauchy real numbers]] (see [Ruitenburg 1991](#Ruitenburg91)) and for any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)) uses mere existence of a root for non-constant polynomials. Mere existence of a root in the BHK sense is equivalent in strength to every non-constant polynomial function being a [[surjection]], since non-constant polynomial functions are closed under addition of constant polynomial functions. Hence, this implies that for all $a, b, c \in \mathbb{C}$, there exists a root of the quadratic function $z \mapsto a z^2 + b z + c$. 
+
+However, the [[fundamental theorem of algebra]] is not provable if we try to use constructive existence of a root of non-constant polynomials in the sense of the [[BHK interpretation]], that one can construct a specified element $z \in \mathbb{C}$ such that $p(z) = 0$.  Constructive existence of a root in the BHK sense is equivalent in strength to having a [[section]] of every non-constant polynomial function, since non-constant polynomial functions are closed under addition of constant polynomial functions. In the case of the quadratic function $z \mapsto a z^2 + b z + c$, this implies a section of the quadratic function valid on the entirety of the complex numbers. However, such sections cannot be proven to exist on the complex numbers, and in fact can be proven to not exist in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, because any such section on the complex numbers, if it exists, is not continuous at the value $- \frac{b}{2a}$ where the [[discriminant]] $b^2 - 4a c$ is equal to zero, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the quadratic function $z \mapsto a z^2 + b z + c$ is a surjection on the [[complex numbers]], one can construct a [[section]] of $z \mapsto a z^2 + b z + c$. 
+
+In light of this, one can instead interpret the constructive FTA as a statement about sets of roots rather than about individual roots, an interpretation that dates from [Richman 2000](#Richman00). He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. The quadratic formula is then a [[partial function]] 
+$$(a, b, c) \mapsto \frac{-b \pm\sqrt{b^2 - 4a c}}{2a}:\mathbb{C}^3 \to \hat{M}_2(\mathbb{C})$$ 
+which takes complex numbers $a, b, c \in \mathbb{C}$, where $a$ is apart from zero, to a point 
+$$\frac{-b \pm\sqrt{b^2 - 4a c}}{2a} \in \hat{M}_2(\mathbb{C})$$ 
+that represents the set of roots of the quadratic function $a z^2 + b z + c$. 
 
 ## See also
 
