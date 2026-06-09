@@ -69,6 +69,9 @@ See also:
 
 * Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro, Ricardo Vázquez, Andrzej Wereszczynski, *Kaon condensation in skyrmion matter and compact stars* &lbrack;[arXiv:2212.00385](https://arxiv.org/abs/2212.00385)&rbrack;
 
+* Md. Emanuel Hoque, Arunava Mukherjee: *On the effect of higher order symmetry energy corrections in Skyrme models for neutron star matter* &lbrack;[arXiv:2606.08250](https://arxiv.org/abs/2606.08250)&rbrack;
+
+
 
 
 
