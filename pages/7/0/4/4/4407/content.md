@@ -365,7 +365,7 @@ Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold fo
 
 The converses come from the fact that every polynomial with positive degree is non-constant and every monic polynomial has positive degree. Thus, it suffices to only consider monic polynomials in the fundamental theorem of algebra. 
 
-Finally, one has to decide whether to use mere existence of a root in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of the FTA. 
+Finally, one has to decide whether to use [[mere proposition|mere]] existence of a [[root]] in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of the FTA. 
 
 As a result, there are multiple different versions of the fundamental theorem of algebra which are equivalent in classical mathematics but are not equivalent in constructive mathematics. Different authors have ended up proving different versions of the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]], while other versions of the fundamental theorem of algebra are unprovable without certain constructive [[taboos]] and may even be provably false from other constructive [[taboos]]. 
 
@@ -417,7 +417,7 @@ Or equivalently
 Every [non-constant / positive degree / monic] polynomial function $q(z)$ on the complex numbers such that $q(0) = 0$ has a [[section]]. 
 \end{theorem}
 
-Thus, the gap between the version of the FTA using mere existence and the version using constructive existence is precisely this weak version of the [[axiom of choice]]:
+Thus, the gap between the version of the FTA using [[mere proposition|mere]] existence and the version using constructive existence is precisely this weak version of the [[axiom of choice]]:
 
 \begin{proposition}
 Every [[surjective]] [[polynomial function]] on the [[complex numbers]], that is [non-constant / with positive degree / monic] and has a [[fixed point]] at zero, has a [[section]]. 
