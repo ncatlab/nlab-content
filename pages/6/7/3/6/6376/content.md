@@ -22,7 +22,19 @@ Every [[unique factorization domain]] is integrally closed.
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], algebraic closure for [[Heyting fields]] is stronger than [[integral closure]] for Heyting fields, since every monic polynomial has a well-defined degree, while not every nonconstant polynomial function, in the sense of being [[tight apartness relation|apart from]] every constant polynomial function, has a well-defined degree and thus might not be able to be made monic. This difference is reflected in the two versions of the [[fundamental theorem of algebra]], one for monic polynomials and one for non-constant polynomials (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
+In [[constructive mathematics]], for [[Heyting fields]], one has to use the [[tight apartness relation]] of the Heyting field to define a nonconstant polynomial to mean "apart from every constant polynomial function" in the definition of an algebraically closed field. 
+
+Integral closure for Heyting fields is equivalent in strength to [[algebraic closure]] for Heyting fields: 
+
+\begin{theorem}
+Suppose that a Heyting field $F$ is integrally closed: every monic polynomial function is separable. Then $F$ is algebraically closed: every non-constant polynomial function is separable. 
+\end{theorem}
+
+\begin{proof}
+One can adapt the proof of theorem 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) to the statement that every monic polynomial function of a Heyting field is separable, replacing every statement that "there exists a zero for a polynomial function" with the statement that "the polynomial function is separable". Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold for any [[Heyting field]] $F$ as their proofs only require the field structure of $F$, and the equivalent of Theorem 1 here is that "every non-constant polynomial function is separable" and depends on Lemma 6, Corollary 1, and the statement that "every monic polynomial function is separable" but otherwise only depends on the field structure for $F$. 
+\end{proof}
+
+The converse holds because every monic polynomial function is non-constant. 
 
 ## See also
 
