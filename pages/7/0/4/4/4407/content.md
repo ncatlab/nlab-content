@@ -346,25 +346,41 @@ Many proofs of FTA rely explicitly on the [[double negation]] rule by first supp
 
 ### In constructive mathematics
 
-In [[constructive mathematics]], the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since negation of equality on the real numbers. Instead, we have to use the [[tight apartness relation]] on the real numbers and define nonconstant function to mean "apart from every constant polynomial function". 
+In [[constructive mathematics]], the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers, so one has a fundamental theorem of algebra for different kinds of complex numbers, ranging from the Cauchy complex numbers to the Dedekind complex numbers. 
+
+The other issue is that the classical definition of an [[algebraic closure]] of a [[field]] is not well-behaved, since negation of equality on the real numbers. Instead, we have to use the [[tight apartness relation]] on the real numbers and define nonconstant function to mean "apart from every constant polynomial function". 
+
+There are multiple different versions of the fundamental theorem of algebra which are equivalent in classical mathematics but are not equivalent in constructive mathematics. Different authors have ended up proving different versions of the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]], while other versions of the fundamental theorem of algebra are unprovable without certain constructive [[taboos]] and may even be provably false from other constructive [[taboos]]. 
 
 \begin{proposition}
-Every [[polynomial function]] $p(z) = \sum_{i \lt n} a_n z^n$ with at least one coefficient $a_n$ in $\mathbb{C}$, with $n \gt 0$, apart from zero, has a [[root]] in $\mathbb{C}$. 
+Every [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with at least one coefficient $a_n$ in $\mathbb{C}$ apart from zero, with $n \gt 0$, has a [[root]] in $\mathbb{C}$. 
 \end{proposition}
-
-The other issue is that the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers. Different authors have ended up proving the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]]. 
 
 * [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) have proven the fundamental theorem of algebra whose coefficients are valued in the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$, examples of which include the [[HoTT book real numbers]], which is the [[initial object|initial]] Cauchy complete Archimedean ordered field, and the [[Dedekind real numbers]], which is the [[terminal object|terminal]] Cauchy complete Archimedean ordered field. 
 
 * Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of other authors who proved the fundamental theorem of algebra, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
-Historically, the fundamental theorem of algebra was first originally proven using only monic polynomials or polynomials with a well-defined positive degree $n$ (i.e. one where $a_n$ is apart from zero and $a_m = 0$ for all $m \gt n$); which are equivalent to each other by multiplying or dividing the polynomial by the coefficient $a_n$, since $a_n$ is by definition invertible. 
+\begin{proposition}
+Every [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with well defined [[degree of a polynomial|degree]] $n$, where coefficient $a_n$ in $\mathbb{C}$ apart form zero, has a [[root]] in $\mathbb{C}$. 
+\end{proposition}
+
+\begin{proposition}
+Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[degree of a polynomial|degree]] $n$ has a [[root]] in $\mathbb{C}$. 
+\end{proposition}
+
+These two are equivalent to each other by multiplying or dividing the polynomial by the coefficient $a_n$, since $a_n$ is by definition invertible. 
 
 * [Ruitenburg 1991](#Ruitenburg91) has proven, without using any constructive [[taboos]], that every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers. 
 
 * Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
-Classical proofs of the fundamental theorem of algebra fail to work constructively if they are reliant on a [[principal square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. The principal square root cannot be proven to exist on the complex numbers, and in fact can be proven to not exist certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
+Classical proofs of the above versions of the fundamental theorem of algebra fail to work constructively if they are reliant on a [[principal square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. The principal square root cannot be proven to exist on the complex numbers, and in fact can be proven to not exist certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
+
+\begin{proposition}
+For every monic [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct a specified root in $\mathbb{C}$. 
+\end{proposition}
+
+This version of the fundamental theorem of algebra is not provable in [[neutral constructive mathematics]]. The problem here is that in the absence of some amount of choice, such as [[surjective]] [[polynomial functions]] on the [[complex numbers]] having a [[section]], mere existence of a root for a polynomial does not imply that one can construct a specified root. This also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
 
 In light of this, [Richman 2000](#Richman00) has proposed that the FTA should be interpreted as a statement about sets of roots rather than about individual roots. He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
 
