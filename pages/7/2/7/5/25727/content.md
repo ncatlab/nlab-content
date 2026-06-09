@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -78,6 +76,9 @@ Understanding as [[topological order]] with [[anyon]]-excitations:
 * Andrew M. Essin, Michael Hermele, *Classifying fractionalization: symmetry classification of gapped $\mathbb{Z}_2$ spin liquids in two dimensions*, Phys. Rev. B **87** 104406 (2013) &lbrack;[arXiv:1212.0593](https://arxiv.org/abs/1212.0593), [doi:10.1103/PhysRevB.87.104406](https://doi.org/10.1103/PhysRevB.87.104406)&rbrack;
 
 * Kyusung Hwang, *Anyon condensation and confinement transition in a Kitaev spin liquid bilayer*, Phys. Rev. B **109** 134412 (2024) &lbrack;[arXiv:2301.05721](https://arxiv.org/abs/2301.05721), [doi:10.1103/PhysRevB.109.134412](https://doi.org/10.1103/PhysRevB.109.134412)&rbrack;
+
+* Yingcheng Li, Liujun Zou: *Microscopic universal theory of symmetry-enriched topological quantum spin liquids* &lbrack;[arXiv:2606.08558](https://arxiv.org/abs/2606.08558)&rbrack;
+
 
 
 [[!redirects quantum spin liquids]]
