@@ -85,11 +85,6 @@ There are multiple possible $\epsilon$-tolerant square root functions for each t
 
 * {#Richman12} [[Fred Richman]], *Algebraic functions, calculus style*. Communications in Algebra, Volume 40, Issue 7, July 2012, Pages 2671-2683 &lbrack;[doi:10.1080/00927872.2011.584337](https://doi.org/10.1080/00927872.2011.584337)&rbrack;
 
-[[!redirects square root function]]
-[[!redirects square root functions]]
-[[!redirects principal square root function]]
-[[!redirects principal square root functions]]
-
 [[!redirects metric square root]]
 [[!redirects metric square roots]]
 [[!redirects metric principal square root]]
