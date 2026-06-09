@@ -26,6 +26,10 @@ On [[supergravity]] [[KK-compactification|KK-compactified]] (and [[branes]] [[wr
 
 * K. C. Matthew Cheung, Jacob H. T. Fry, [[Jerome P. Gauntlett]], [[James Sparks]], *M5-branes wrapped on four-dimensional orbifolds*, J. High Energ. Phys. **2022** 82 (2022) &lbrack;[arXiv:2204.02990](https://arxiv.org/abs/2204.02990), <a href="https://doi.org/10.1007/JHEP08(2022)082">doi:10.1007/JHEP08(2022)082</a>&rbrack;
 
+On the [[AGT correspondence]]:
+
+* Christopher Couzens, Alice Lüscher, [[James Sparks]]: *Localizing punctures in M-theory*,  J. High Energ. Phys. **2026** 180 (2026) \[<a href="https://doi.org/10.1007/JHEP02(2026)180">doi:10.1007/JHEP02(2026)180</a>, [arXiv:2511.03397 hep-th](https://arxiv.org/abs/2511.03397)&rbrack;
+
 
 ## Related entries
 
