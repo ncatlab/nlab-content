@@ -341,49 +341,89 @@ This implies $n = 1$ and hence the claim.
 
 Many classical proofs of FTA rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and then deriving a [[proof by contradiction|contradiction]], so are not valid in [[constructive mathematics]]. 
 
-There are multiple notions used in the formulation of the fundamental theorem of algebra that bifurcate into different notions in [[constructive mathematics]]. These include
+There are multiple notions used in the formulation of the fundamental theorem of algebra that bifurcate into different notions in [[constructive mathematics]]. 
 
-* the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers, so one has a fundamental theorem of algebra for different kinds of complex numbers, ranging from the Cauchy complex numbers to the Dedekind complex numbers. 
+First of all, the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers, so one has a fundamental theorem of algebra for every field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of a notion of real numbers $\mathbb{R}$, ranging from the [[Cauchy real numbers]] to any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]], examples of which include the [[HoTT book real numbers]], which is the [[initial object|initial]] Cauchy complete Archimedean ordered field, and the [[Dedekind real numbers]], which is the [[terminal object|terminal]] Cauchy complete Archimedean ordered field. 
 
-* the notion of non-constant polynomial function and polynomial function with positive [[degree of a polynomial|degree]] no longer coincide with each other. Note that in constructive mathematics, one typically uses the [[tight apartness relation]] on the real numbers and define non-constant function to mean "apart from every constant polynomial function". There is also a version of the FTA that uses [[monic]] polynomial functions, which is equivalent to the version that uses polynomial functions with positive degree by multiplying or dividing the polynomial by the coefficient $a_n$, since $a_n$ is by definition invertible.
+Secondly, one has to decide what kind of polynomial functions to use for the FTA. In constructive mathematics, one usually considers three notions of polynomial functions, which in constructive mathematics are defined using the [[tight apartness relation]] on the real numbers rather than [[denial inequality]]:
 
-* the notion of whether to use mere existence of a root in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]]. 
+* non-constant polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is *non-constant* if one has at least one coefficient $a_n$ in $\mathbb{C}$ apart from zero, with $n \gt 0$
+
+* polynomial function with positive [[degree of a polynomial|degree]]: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ has a positive degree $n$ if $a_n$ is apart from zero, with $n \gt 0$
+
+* [[monic]] polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is monic if $a_n = 1$, with $n \gt 0$
+
+However, the FTA that uses monic polynomial functions imply the other versions: 
+
+\begin{theorem}
+Suppose that the FTA for monic polynomial functions hold. Then the FTA for non-constant polynomial functions hold. 
+\end{theorem}
+
+\begin{proof}
+Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold for any [[Heyting field]] $F$, and Theorem 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) is the FTA for non-constant functions and depends on Lemma 6, Corollary 1, and the FTA for monic polynomial functions but otherwise does not depend on any other properties for $F$. 
+\end{proof}
+
+The converses come from the fact that every polynomial with positive degree is non-constant and every monic polynomial has positive degree. Thus, it suffices to only consider monic polynomials in the fundamental theorem of algebra. 
+
+Finally, one has to decide whether to use mere existence of a root in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of the FTA. 
 
 As a result, there are multiple different versions of the fundamental theorem of algebra which are equivalent in classical mathematics but are not equivalent in constructive mathematics. Different authors have ended up proving different versions of the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]], while other versions of the fundamental theorem of algebra are unprovable without certain constructive [[taboos]] and may even be provably false from other constructive [[taboos]]. 
 
 ### Constructive FTA with mere existence of zeroes
 
 \begin{proposition}
-For every [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with at least one coefficient $a_n$ in $\mathbb{C}$ apart from zero, with $n \gt 0$, there exists an element $c \in \mathbb{C}$ such that p(c) = 0. 
-\end{proposition}
-
-* [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) have proven the fundamental theorem of algebra whose coefficients are valued in the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$, examples of which include the [[HoTT book real numbers]], which is the [[initial object|initial]] Cauchy complete Archimedean ordered field, and the [[Dedekind real numbers]], which is the [[terminal object|terminal]] Cauchy complete Archimedean ordered field. 
-
-* Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of other authors who proved the fundamental theorem of algebra, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
-
-\begin{proposition}
-Every [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with well defined [[degree of a polynomial|degree]] $n$, where coefficient $a_n$ in $\mathbb{C}$ apart form zero, has a [[root]] in $\mathbb{C}$. 
-\end{proposition}
-
-\begin{proposition}
 Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[degree of a polynomial|degree]] $n$ has a [[root]] in $\mathbb{C}$. 
 \end{proposition}
 
-These two are equivalent to each other by multiplying or dividing the polynomial by the coefficient $a_n$, since $a_n$ is by definition invertible. 
-
 * [Ruitenburg 1991](#Ruitenburg91) has proven, without using any constructive [[taboos]], that every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers. 
 
-* Section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
+* This is lemma 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00), which is valid for the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$. 
+
+* In addition, section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
 Classical proofs of the above versions of the fundamental theorem of algebra fail to work constructively if they are reliant on a [[principal square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. The principal square root cannot be proven to exist on the complex numbers, and in fact can be proven to not exist certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
 
 ### Constructive FTA with constructive existence of zeroes
 
+The version of the fundamental theorem of algebra that uses the [[BHK interpretation]] for constructive existence is stated as follows: 
+
 \begin{proposition}
-For every monic [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct a specified root in $\mathbb{C}$. 
+For every [non-constant / positive degree / monic] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct a specified root in $\mathbb{C}$. 
 \end{proposition}
 
-This version of the fundamental theorem of algebra is not provable in [[neutral constructive mathematics]]. The problem here is that in the absence of some amount of choice, such as [[surjective]] [[polynomial functions]] on the [[complex numbers]] having a [[section]], mere existence of a root for a polynomial does not imply that one can construct a specified root. This also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
+This version of the fundamental theorem of algebra is not provable in [[neutral constructive mathematics]]. To show that this is the case, we turn to reframing the fundamental theorem of algebra in terms of surjectivity and having [[right inverses]] of complex polynomial functions. 
+
+Let $p(z) = \sum_{i \leq n} a_n z^n$ be a polynomial function on the complex numbers. Every such $p(z)$ can be written as the sum of a constant $a_0$ and a polynomial function $q(z) = \sum_{1 \leq i \leq n} a_n z^n$ with a [[fixed point]] at zero. As a result, the statement that there exists a complex number $z$ such that $p(z) = 0$ is equivalently the statement that there exists a complex number $z$ such that $q(z) = b$, where $b = -a_0$. Thus, one can rewrite the fundamental theorem of algebra as follows:
+
+\begin{theorem}
+Given a complex number $b$ and a [non-constant / positive degree / monic] polynomial function $q(z)$ on the complex numbers such that $q(0) = 0$, there exists a complex number $c$ such that $q(c) = b$. 
+\end{theorem}
+
+Or equivalently
+
+\begin{theorem}
+Every [non-constant / positive degree / monic] polynomial function $q(z)$ on the complex numbers such that $q(0) = 0$ is [[surjective]]. 
+\end{theorem}
+
+One can do the same analysis with the [[BHK interpretation]] of the FTA, the statement that one can construct a specified complex number $z$ such that $p(z) = 0$ is equivalently the statement that one can construct a specified complex number $z$ such that $q(z) = b$, where $b = -a_0$. Thus, one can rewrite the fundamental theorem of algebra as follows:
+
+\begin{theorem}
+Given a complex number $b$ and a [non-constant / positive degree / monic] polynomial function $q(z)$ on the complex numbers such that $q(0) = 0$, one can construct a specified complex number $c$ such that $q(c) = b$. 
+\end{theorem}
+
+Or equivalently
+
+\begin{theorem}
+Every [non-constant / positive degree / monic] polynomial function $q(z)$ on the complex numbers such that $q(0) = 0$ has a [[section]]. 
+\end{theorem}
+
+Thus, the gap between the version of the FTA using mere existence and the version using constructive existence is precisely this weak version of the [[axiom of choice]]:
+
+\begin{proposition}
+Every [[surjective]] [[polynomial function]] on the [[complex numbers]], that is [non-constant / with positive degree / monic] and has a [[fixed point]] at zero, has a [[section]]. 
+\end{proposition}
+
+The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
 
 In light of this, one can instead interpret the constructive FTA as a statement about sets of roots rather than about individual roots, an interpretation that dates from [Richman 2000](#Richman00). He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
 
