@@ -358,7 +358,7 @@ Suppose that the FTA for monic polynomial functions hold. Then the FTA for non-c
 \end{theorem}
 
 \begin{proof}
-Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold for any [[Heyting field]] $F$, and Theorem 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) is the FTA for non-constant functions and depends on Lemma 6, Corollary 1, and the FTA for monic polynomial functions but otherwise does not depend on any other properties for $F$. 
+Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold for any [[Heyting field]] $F$ as their proofs only require the field structure of $F$, and Theorem 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) is the FTA for non-constant functions and depends on Lemma 6, Corollary 1, and the FTA for monic polynomial functions but otherwise only depends on the field structure of $F$. 
 \end{proof}
 
 The converses come from the fact that every polynomial with positive degree is non-constant and every monic polynomial has positive degree. Thus, it suffices to only consider monic polynomials in the fundamental theorem of algebra. 
@@ -423,7 +423,7 @@ Every [[surjective]] [[polynomial function]] on the [[complex numbers]], that is
 
 This is the reason why some classical proofs of versions of the fundamental theorem of algebra that use mere existence fail to work constructively if they are reliant on a [[square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. Such a square root function is a [[section]] of the squaring function $z \mapsto z^2$ and so cannot be proven to exist on the complex numbers from surjectivity of $z \mapsto z^2$. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, one can prove that there are no square root functions because the square root on the complex numbers, if it exists, is not continuous at zero, and in those topoi all functions on the complex numbers are continuous. 
 
-The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
+The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. Thus, the complex numbers are not provably an [[algebraically closed field]]. 
 
 In light of this, one can instead interpret the constructive FTA as a statement about sets of roots rather than about individual roots, an interpretation that dates from [Richman 2000](#Richman00). He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
 
