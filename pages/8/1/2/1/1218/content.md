@@ -404,7 +404,7 @@ The category of diffeological spaces is
 ### Embedding of diffeological spaces into higher differential geometry
  {#EmbeddingOfDiffeologicalSpacesIntoHigherDifferentialGeometry}
 
-In the last section we saw the embedding of diffeological spaces as precisely the [[concrete objects]] is the [[sheaf topos]] $Sh(CartSp) \simeq Sh(SmthMfd)$ of [[smooth sets]]. This is a general context for [[differential geometry]]. From there one can pass further to [[higher differential geometry]]: the topos of smooth sets in turn embeds
+In the last section we saw the embedding of diffeological spaces as precisely the [[concrete objects]] in the [[sheaf topos]] $Sh(CartSp) \simeq Sh(SmthMfd)$ of [[smooth sets]]. This is a general context for [[differential geometry]]. From there one can pass further to [[higher differential geometry]]: the topos of smooth sets in turn embeds
 
 $$
   Sh(CartSp) \hookrightarrow
