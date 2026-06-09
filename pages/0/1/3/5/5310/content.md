@@ -1,28 +1,61 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 # Square roots
 * table of contents
 {: toc}
 
 ## Definitions
 
-If $K$ is a [[magma]], such as a [[monoid]], (which we write multiplicatively) and $x$ is an element of $K$, then the element $x^2$ is the __square__ of $x$.  Conversely, if $x^2 = y$, then $x$ is a __square root__ of $y$.
+Let $(K, \cdot)$ be a [[magma]] [[object]] in [[abelian groups]] or [[commutative monoids]], such as a [[ring]] or a [[rig]]. Given an element $x \in K$, the element $x^2 = x \cdot x$ is the **square** of $x$. Conversely, given elements $x \in K$ and $y \in K$, if $x^2 = y$, then $x$ is a **square root** of $y$. 
 
-If $K$ is an [[integral domain]], then (in [[classical mathematics]]) $x$ and $-x$ are the only square roots of $x^2$.  If $y$ has a square root, then we often denote its square roots together as $\pm\sqrt{y}$, although there is no meaning of $\sqrt{y}$ itself.
+### Square roots as functions
 
-If $K$ is a [[linearly ordered field]], then every element $y$ has a unique nonnegative square root if it has a square root at all; this is the __principal square root__ of $y$ and denoted $\sqrt{y}$.
+Alternatively, the term *square root* is also used to denote a [[partial function]] that is a [[right inverse]] of the squaring function in $K$. Let $K_{\mathrm{sq}}$ be a subset of $K$ such that for all $x \in K_{\mathrm{sq}}$ there exists $y \in K$ such that $x^2 = y$. A **square root** is a function $f:K_{\mathrm{sq}} \to K$ such that $f(x)^2 = x$ for all $x \in K_{\mathrm{sq}}$. If the squaring function $x \mapsto x^2$ is [[split epimorphism|split]] [[surjective]], then there exists a square root function that is a [[total function]] on all of $K$. 
 
+One sometimes fixes a function $\sqrt{(-)}:K_{\mathrm{sq}} \to K$ on $K$; this is the **principal square root** of $K$. For example, in [[complex analysis]] the principal square root on the [[complex numbers]] is defined as $z \mapsto \vert z \vert e^{\frac{i \arg(z)}{2}}$, where $\arg(z)$ is defined such that $-\frac{\tau}{2} \lt \arg(z) \leq \frac{\tau}{2}$ for all complex numbers $z$. 
 
-## In constructive analysis
+## Examples
+
+* The square root of every element in a [[boolean ring]] and more generally a [[multiplicatively idempotent rig]] exists and is unique because the multiplicative monoid is [[idempotent]]. The [[identity function]] is thus a square root function defined on the entirety of the ring or rig. 
+
+* Since both $1$ and $-1$ are square roots of $1$ in every [[ring]], that the square root of $1$ is unique implies that the ring has [[characteristic]] $2$, where $1 = -1$. 
+
+* The square root of every non-negative [[real number]] exists and is unique on the [[rig]] of non-negative [[real numbers]]. 
+
+* If $K$ is an [[integral domain]], then (in [[classical mathematics]]) $x$ and $-x$ are the only square roots of $x^2$. If $y$ has a square root, then we often denote its square roots together as $\pm\sqrt{y}$, where the symbols $\pm\sqrt{y}$ is just notation and doesn't necessarily have an official definition. However, if $K$ has a principal square root function, we can define $\pm\sqrt{(-)}$ to be a function $\pm\sqrt{(-)}:K_{\mathrm{sq}} \to K^2$ such that $\pm\sqrt{y} = (\sqrt{y}, -\sqrt{y})$.
+
+## In constructive mathematics
 
 In [[constructive mathematics]] (here specifically: [[constructive analysis]]), it is not provable that $x$ and $-x$ are the only square roots of $x^2$. In the [[ordered field]] of [[real numbers]], for example, the [[absolute value]] ${|x|}$ (like $-{|x|}$, for that matter) is also a square root of $x^2$, yet it is not constructively provable that ${|x|} = x$ or ${|x|} = -x$.  Without using the [[lesser limited principle of omniscience]], if $x$ is close to [[zero]] (and we do not yet know whether it is exactly zero), we cannot decide whether $x$ is nonnegative (so that ${|x|} = x$) or nonpositive (so that ${|x|} = -x$).
 
 However, in any [[linearly ordered field]] with an [[absolute value]] (including any [[real-closed field]]), we still have a unique [[nonnegative number|nonnegative]] square root of $x^2$, which is in fact ${|x|}$.  Thus, we can still use the notation $\sqrt{y}$, but we cannot prove that every square root of $y$ is one of $\pm\sqrt{y}$.  However, we can prove, in any integral domain even, that if $x \neq \sqrt{y}$ and $x \neq -\sqrt{y}$, then $x^2 \neq y$.  (We are using the weak notions of field and integral domain so that $\mathbb{R}$ will be an example.)
 
-If we accept results in the [[complex numbers]], the [[fundamental theorem of algebra]] is provable without any constructive [[taboo]] for the associated [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of the [[Cauchy real numbers]] (see [Ruitenburg 1991](#Ruitenburg91)) and for any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)), implying that every complex quadratic function has a square root. More generally, when working in $K[\mathrm{i}]$ for $K$ any real-closed field, then every element $a$ of $K$ has a square root in the sense that there exists an element $x$ of $K[i]$ such that $x^2 = a$, since $K[i]$ is a subfield of the complex numbers. 
-
-However, we *cannot* prove that every complex number has a *principal square root*.  (See [Richman 2000](#Richman00).) The principal square root cannot be proven to exist on the complex numbers, and in fact can be proven to not exist in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. This is important for interpreting the [[quadratic formula]]. 
-
 Note that there is never any trouble finding a principal square root of $y$ if we assume that $y \neq 0$, nor (obviously) is there any trouble if we assume that $y = 0$.  Accordingly, the classical results hold for [[discrete fields]] and [[integral domain|discrete integral domains]], but this doesn\'t apply constructively to analysis.
+
+### In complex analysis
+
+In constructive mathematics, given a [[set]] $K$, one has to distinguish between mere existence of an element that satisfies some property $P$ on $K$, there exists $x \in K$ such that $P(x)$ holds, and constructive existence of an element that satisfies $P(x)$ via the [[BHK interpretation]] of logic, which is the structure of an element of the set $\{x \in K \vert P(x)\}$. This becomes very important in [[complex analysis]] when talking about square roots. 
+
+In constructive [[complex analysis]], there are multiple notions of the [[fundamental theorem of algebra]]. One version that is provable without any constructive [[taboo]] for the associated [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of the [[Cauchy real numbers]] (see [Ruitenburg 1991](#Ruitenburg91)) and for any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)) uses mere existence of a root for non-constant polynomials. Mere existence of a root in the BHK sense is equivalent in strength to every non-constant polynomial function being a [[surjection]], since non-constant polynomial functions are closed under addition of constant polynomial functions. Hence, this implies that for all $c \in \mathbb{C}$, there exists a root of the function $z \mapsto z^2 - c$, implying that there exists a square root of $c$ for all $c \in \mathbb{C}$. 
+
+However, the [[fundamental theorem of algebra]] is not provable if we try to use constructive existence of a root of non-constant polynomials in the sense of the [[BHK interpretation]], that one can construct a specified element $z \in \mathbb{C}$ such that $p(z) = 0$.  Constructive existence of a root in the BHK sense is equivalent in strength to having a [[section]] of every non-constant polynomial function, since non-constant polynomial functions are closed under addition of constant polynomial functions. In the case of the squaring function $z \mapsto z^2$, this implies a square root function on the entirety of the complex numbers. However, such a square root function cannot be proven to exist on the complex numbers, and in fact can be proven to not exist in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, because any square root function on the complex numbers, if it exists, is not continuous at zero, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. 
+
+In light of this, one can instead interpret the constructive FTA as a statement about sets of roots rather than about individual roots, an interpretation that dates from [Richman 2000](#Richman00). He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. The square root function is then a function $\pm\sqrt{(-)}:\mathbb{C} \to \hat{M}_2(\mathbb{C})$ which takes each complex number $c \in \mathbb{C}$ to a point $\pm\sqrt{c} \in \hat{M}_2(\mathbb{C})$ that represents the set of square roots of $c$. 
+
+In addition, the principal square root of the complex numbers, defined as $z \mapsto \vert z \vert e^{\frac{i \arg(z)}{2}}$, where $\arg(z)$ is defined such that $-\frac{\tau}{2} \lt \arg(z) \leq \frac{\tau}{2}$ for all complex numbers $z$, is only a [[partial function]] in [[neutral constructive mathematics]]. This is important for interpreting the [[quadratic formula]].
 
 ## Related concepts
 
@@ -55,3 +88,9 @@ More generally, square roots of [[positive operator|positive]] [[self-adjoint op
 
 [[!redirects principal square root]]
 [[!redirects principal square roots]]
+
+[[!redirects square root function]]
+[[!redirects square root functions]]
+
+[[!redirects principal square root function]]
+[[!redirects principal square root functions]]
