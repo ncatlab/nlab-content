@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 The *topological complexity* &lbrack;[Farber 2001](#Farber01)&rbrack; of a [[topological space]] is a [[topological invariant]] related to the problem of motion planning and the [[immersion]] problem of [[real projective space]].
 
@@ -217,3 +215,9 @@ On topological complexity of the [[Klein bottle]]:
 On topological complexity of [[configuration space]]:
 
 * {#FarberGrant08} [[Michael Farber]], [[Mark Grant]], _Topological Complexity of the Klein bottle_ (2008), [arXiv:0806.4111](https://arxiv.org/pdf/0806.4111.pdf)
+
+See also:
+
+* Kenji Fukushi: *Topological complexity for closed 1-forms* &lbrack;[arXiv:2606.09184](https://arxiv.org/abs/2606.09184)&rbrack;
+
+
