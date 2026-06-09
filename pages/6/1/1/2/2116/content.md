@@ -83,16 +83,27 @@ Well-definedness of transcendence degree then follows from abstract consideratio
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], for [[Heyting fields]], one has to use the [[tight apartness relation]] of the Heyting field to define a nonconstant polynomial to mean "apart from every constant polynomial function" in the definition of an algebraically closed field. Algebraic closure for [[Heyting fields]] is stronger than [[integral closure]] for Heyting fields, since every monic polynomial has a well-defined degree, while not every nonconstant polynomial function has a well-defined degree and thus might not be able to be made monic. 
+In [[constructive mathematics]], for [[Heyting fields]], one has to use the [[tight apartness relation]] of the Heyting field to define a nonconstant polynomial to mean "apart from every constant polynomial function" in the definition of an algebraically closed field. 
 
-Using this definition, the [[complex numbers]] are an algebraically closed field even without using any constructive [[taboos]] (see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00)). 
+Algebraic closure for Heyting fields is equivalent in strength to [[integral closure]] for Heyting fields: 
+
+\begin{theorem}
+Suppose that $F$ is integrally closed: every monic polynomial function is separable. Then $F$ is algebraically closed: every non-constant polynomial function is separable. 
+\end{theorem}
+
+\begin{proof}
+One can adapt the proof of theorem 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) to the statement that every monic polynomial function of a Heyting field is separable, replacing every statement that "there exists a zero for a polynomial function" with the statement that "the polynomial function is separable". Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold for any [[Heyting field]] $F$ as their proofs only require the field structure of $F$, and the equivalent of Theorem 1 here is that "every non-constant polynomial function is separable" and depends on Lemma 6, Corollary 1, and the statement that "every monic polynomial function is separable" but otherwise only depends on the field structure of $F$. 
+\end{proof}
+
+The converse holds because every monic polynomial function is non-constant. 
 
 ## Examples
 
 * The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$.  
 
-  Arguably, this theorem is not entirely algebraic; the algebraic portion is that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real-closed field]].  Unusually, this algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions. However, there are other constructively valid proofs of the [[fundamental theorem of algebra]], see [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) for more details. 
- 
+  Arguably, this theorem is not entirely algebraic; the algebraic portion is that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real-closed field]]. 
+Unusually, this algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions. 
+
 * The algebraic closure $\overline{\mathbb{Q}}$ of the [[rational numbers]] $\mathbb{Q}$ is the [[algebraic numbers]].
 
 ## Related concepts
