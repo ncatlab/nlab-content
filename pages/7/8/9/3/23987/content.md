@@ -2162,6 +2162,17 @@ $\phantom{-----------}$Tuesday, May 20
 
   New York University Abu Dhabi
 
+\linebreak
+
+
+### July 2026
+
+{#SummerTraining2026} July 6--17 2026
+
+**CQTS Summer Training Program 2026**
+
+<img src="/nlab/files/CQTS-SummerTraining2026Poster.jpg" width="600"/>
+
 
 \linebreak
 
