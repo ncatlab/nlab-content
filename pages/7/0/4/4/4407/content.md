@@ -339,19 +339,17 @@ This implies $n = 1$ and hence the claim.
 
 ## In constructive mathematics
 
-Many classical proofs of FTA rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and then deriving a [[proof by contradiction|contradiction]], so are not valid in [[constructive mathematics]]. 
-
 There are multiple notions used in the formulation of the fundamental theorem of algebra that bifurcate into different notions in [[constructive mathematics]]. 
 
 First of all, the notion of a field of [[real numbers]] bifurcates into multiple distinct notions of the real numbers, so one has a fundamental theorem of algebra for every field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of a notion of real numbers $\mathbb{R}$, ranging from the [[Cauchy real numbers]] to any [[sequentially Cauchy complete|Cauchy complete]] [[Archimedean ordered field]], examples of which include the [[HoTT book real numbers]], which is the [[initial object|initial]] Cauchy complete Archimedean ordered field, and the [[Dedekind real numbers]], which is the [[terminal object|terminal]] Cauchy complete Archimedean ordered field. 
 
 Secondly, one has to decide what kind of polynomial functions to use for the FTA. In constructive mathematics, one usually considers three notions of polynomial functions, which in constructive mathematics are defined using the [[tight apartness relation]] on the real numbers rather than [[denial inequality]]:
 
-* non-constant polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is *non-constant* if one has at least one coefficient $a_n$ in $\mathbb{C}$ apart from zero, with $n \gt 0$
+1. non-constant polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is *non-constant* if one has at least one coefficient $a_i$ in $\mathbb{C}$ apart from zero, with $0 \lt i \leq n$
 
-* polynomial function with positive [[degree of a polynomial|degree]]: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ has a positive degree $n$ if $a_n$ is apart from zero, with $n \gt 0$
+1. polynomial function with positive [[degree of a polynomial|degree]]: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ has a positive degree $n$ if $a_n$ is apart from zero, with $n \gt 0$
 
-* [[monic]] polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is monic if $a_n = 1$, with $n \gt 0$
+1. [[monic]] polynomial functions: a polynomial function $p(z) = \sum_{i \leq n} a_n z^n$ is monic if $a_n = 1$, with $n \gt 0$
 
 However, the FTA that uses monic polynomial functions imply the other versions: 
 
@@ -371,8 +369,10 @@ As a result, there are multiple different versions of the fundamental theorem of
 
 ### Constructive FTA with mere existence of zeroes
 
+The version of the fundamental theorem of algebra that uses mere existence for existence of zeroes is stated as follows: 
+
 \begin{proposition}
-Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[degree of a polynomial|degree]] $n$ has a [[root]] in $\mathbb{C}$. 
+Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[degree of a polynomial|degree]] $n$ has a [[root]] $p$ in $\mathbb{C}$. 
 \end{proposition}
 
 * [Ruitenburg 1991](#Ruitenburg91) has proven, without using any constructive [[taboos]], that every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers. 
@@ -381,17 +381,15 @@ Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[
 
 * In addition, section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
-Classical proofs of the above versions of the fundamental theorem of algebra fail to work constructively if they are reliant on a [[principal square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. The principal square root cannot be proven to exist on the complex numbers, and in fact can be proven to not exist certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because the principal square root on the complex numbers, if it exists, is not continuous at the branch cut, and it is consistent for all functions on the complex numbers to be continuous. The problem here is the failure of some amount of choice, that since the squaring function $z \mapsto z^2$ is a surjection on the [[complex numbers]], one can construct a [[right inverse]] of $z \mapsto z^2$. In general, any principal square root is only a [[partial function]] in [[neutral constructive mathematics]]. 
-
 ### Constructive FTA with constructive existence of zeroes
 
-The version of the fundamental theorem of algebra that uses the [[BHK interpretation]] for constructive existence is stated as follows: 
+The version of the fundamental theorem of algebra that uses the [[BHK interpretation]] for constructive existence of zeroes is stated as follows: 
 
 \begin{proposition}
-For every [non-constant / positive degree / monic] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct a specified root in $\mathbb{C}$. 
+For every [non-constant / positive degree / monic] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct a specified root of $p$ in $\mathbb{C}$. 
 \end{proposition}
 
-This version of the fundamental theorem of algebra is not provable in [[neutral constructive mathematics]]. To show that this is the case, we turn to reframing the fundamental theorem of algebra in terms of surjectivity and having [[right inverses]] of complex polynomial functions. 
+This version of the fundamental theorem of algebra is not provable in [[neutral constructive mathematics]]. To show that this is the case, we turn to reframing the fundamental theorems of algebra in terms of surjectivity and having [[right inverses]] of complex polynomial functions so that one can show that it is equivalent to a weak form of choice. 
 
 Let $p(z) = \sum_{i \leq n} a_n z^n$ be a polynomial function on the complex numbers. Every such $p(z)$ can be written as the sum of a constant $a_0$ and a polynomial function $q(z) = \sum_{1 \leq i \leq n} a_n z^n$ with a [[fixed point]] at zero. As a result, the statement that there exists a complex number $z$ such that $p(z) = 0$ is equivalently the statement that there exists a complex number $z$ such that $q(z) = b$, where $b = -a_0$. Thus, one can rewrite the fundamental theorem of algebra as follows:
 
@@ -422,6 +420,8 @@ Thus, the gap between the version of the FTA using [[mere proposition|mere]] exi
 \begin{proposition}
 Every [[surjective]] [[polynomial function]] on the [[complex numbers]], that is [non-constant / with positive degree / monic] and has a [[fixed point]] at zero, has a [[section]]. 
 \end{proposition}
+
+This is the reason why some classical proofs of versions of the fundamental theorem of algebra that use mere existence fail to work constructively if they are reliant on a [[square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. Such a square root function is a [[section]] of the squaring function $z \mapsto z^2$ and so cannot be proven to exist on the complex numbers from surjectivity of $z \mapsto z^2$. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, one can prove that there are no square root functions because the square root on the complex numbers, if it exists, is not continuous at zero, and in those topoi all functions on the complex numbers are continuous. 
 
 The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
 
