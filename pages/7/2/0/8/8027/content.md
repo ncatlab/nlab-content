@@ -22,9 +22,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -32,7 +32,7 @@ The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between
 
 1. the [[instanton]]-[[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] (Nekrasov's partition function, e.g. [Szabo 15 (2.1)](#Szabo15))
 
-1. the [[conformal blocks]] of [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
+1. the [[conformal blocks]] of [[Liouville theory]] on an $n$-[[puncture|punctured]] [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
 
 Here the idea is that $C_{g,n}$  is the [[super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)). This method generalizes a bit beyond super Yang-Mills, to [[class S]].
 
@@ -168,8 +168,7 @@ See also:
 * Leszek Hadasz, Błażej Ruba, *Decomposition of $\widehat{sl}_{2,k} \otimes \widehat{sl}_{2,1}$
 highest weight representations for generic level $k$ and equivalence between two dimensional CFT models* &lbrack;[arXiv:2312.14695](https://arxiv.org/abs/2312.14695)&rbrack;
 
-
-
+* Christopher Couzens, Alice Lüscher, [[James Sparks]]: *Localizing punctures in M-theory*,  J. High Energ. Phys. **2026** 180 (2026) \[<a href="https://doi.org/10.1007/JHEP02(2026)180">doi:10.1007/JHEP02(2026)180</a>, [arXiv:2511.03397 hep-th](https://arxiv.org/abs/2511.03397)&rbrack;
  
 
 category: physics
