@@ -67,6 +67,13 @@ Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant sta
 
 * {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_ (2016) &lbrack;[pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf)&rbrack;
 
+On [[cyclotomic spectra]]:
+
+* [[Douglas C. Ravenel]]: *What are cyclotomic spectra and why do we need them?* &lbrack;[arXiv:2606.08109](https://arxiv.org/abs/2606.08109)&rbrack;
+
+* [[Douglas C. Ravenel]]: *Cyclotomic extensions in stable homotopy theory* &lbrack;[arXiv:2606.08166](https://arxiv.org/abs/2606.08166)&rbrack;
+
+
 
 category: people
 
