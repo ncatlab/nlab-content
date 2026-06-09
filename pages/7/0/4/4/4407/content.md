@@ -363,7 +363,7 @@ Lemma 6 and Corollary 1 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) hold fo
 
 The converses come from the fact that every polynomial with positive degree is non-constant and every monic polynomial has positive degree. Thus, it suffices to only consider monic polynomials in the fundamental theorem of algebra. 
 
-Finally, one has to decide whether to use [[mere proposition|mere]] existence of a [[root]] in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of the FTA. 
+Finally, one has to decide whether to use [[mere proposition|mere]] existence of a [[root]] in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of the FTA. One can also consider, instead of exact roots, approximate roots of the polynomial function. 
 
 As a result, there are multiple different versions of the fundamental theorem of algebra which are equivalent in classical mathematics but are not equivalent in constructive mathematics. Different authors have ended up proving different versions of the fundamental theorem of algebra for different kinds of real numbers, without assuming any constructive [[taboos]], while other versions of the fundamental theorem of algebra are unprovable without certain constructive [[taboos]] and may even be provably false from other constructive [[taboos]]. 
 
@@ -426,6 +426,20 @@ This is the reason why some classical proofs of versions of the fundamental theo
 The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. 
 
 In light of this, one can instead interpret the constructive FTA as a statement about sets of roots rather than about individual roots, an interpretation that dates from [Richman 2000](#Richman00). He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$. 
+
+### Approximate FTA
+
+Alternatively, one can consider an approximate version of the fundamental theorem of algebra using constructive existence in the sense of the [[BHK interpretation]]:
+
+\begin{theorem}
+For every [non-constant / positive degree / monic] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with degree $n$, one can construct positive reals $q \lt 1$ and $c \gt \vert f(0) \vert$ and a [[Cauchy sequence]] $w:\mathbb{N} \to \mathbb{C}$ in $\mathbb{C}$ such that for all natural numbers $n$, $\vert p(w_n) \vert \lt q^n c$. 
+\end{theorem}
+
+\begin{proof}
+This is essentially most of lemma 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00), only one stops in the proof before one considers whether the limit of the Cauchy sequence exists or not. 
+\end{proof}
+
+Arguably, this approximate version of the fundamental theorem of algebra is what is important in constructive [[numerical analysis]]. 
 
 ## In reverse mathematics
 
@@ -496,7 +510,6 @@ See also:
 * Matthew Steed: *Proofs of the Fundamental Theorem of Algebra*, [Reu2014](https://math.uchicago.edu/~may/REU2014/) &lbrack;[pdf](https://math.uchicago.edu/~may/REU2014/REUPapers/Steed.pdf)&rbrack;
 
 * MathOverflow: _[Ways to prove the fundamental theorem of algebra](http://mathoverflow.net/questions/10535/ways-to-prove-the-fundamental-theorem-of-algebra)_
-
 
 [[!redirects fundamental theorem of algebra]]
 [[!redirects Fundamental Theorem of Algebra]]
