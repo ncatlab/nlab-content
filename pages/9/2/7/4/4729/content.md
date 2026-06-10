@@ -14,10 +14,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -678,7 +675,7 @@ Approach via splitting of higher [[Atiyah Lie algebroids]]:
 
 * [[Severin Bunk]], *Infinitesimal Higher Symmetries and Higher Connections*, [talk at](CQTS#BunkMar24) [[CQTS]] (27 Mar 2024) &lbrack;slides:[[Bunk-InfinitesimalHigherSymmetries.pdf:file]]&rbrack;
 
-* [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441](https://arxiv.org/abs/2602.03441)&rbrack;
+* [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441 math.DG](https://arxiv.org/abs/2602.03441)&rbrack;
 
 
 
