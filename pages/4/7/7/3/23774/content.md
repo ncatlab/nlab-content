@@ -170,7 +170,3 @@ See also:
 * Wikipedia, _[Quadratic function](https://en.wikipedia.org/wiki/Quadratic_function)_
 
 [[!redirects real quadratic functions]]
-
-[[!redirects real quadratic formula]]
-[[!redirects real quadratic formulae]]
-[[!redirects real quadratic formulas]]
