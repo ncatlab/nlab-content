@@ -76,6 +76,12 @@ On [[E-theory]] in relation to [[six functor formalism]]:
 
 * [[Ulrich Bunke]]: *$E$-theory of $X$-$C^\ast$-algebras and functor formalisms* &lbrack;[arXiv:2605.19863](https://arxiv.org/abs/2605.19863)&rbrack;
 
+On a [[Grothendieck yoga of six operations]] for [[sheaves]] on [[topological spaces]]:
+
+* [[Ulrich Bunke]], [[Marco Volpe]]: *A characterization of sheaves among six functor formalisms on $LCH$* &lbrack;[arXiv:2606.10453](https://arxiv.org/abs/2606.10453)&rbrack;
+
+
+
 
 
 
