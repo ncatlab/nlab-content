@@ -305,3 +305,11 @@ Discussion in [[constructive mathematics]]:
 
 [[!redirects continuity]]
 [[!redirects continuous]]
+
+[[!redirects discontinuous map]]
+[[!redirects discontinuous maps]]
+[[!redirects discontinuous function]]
+[[!redirects discontinuous functions]]
+
+[[!redirects discontinuity]]
+[[!redirects discontinuous]]
