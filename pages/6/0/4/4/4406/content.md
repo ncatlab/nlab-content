@@ -108,7 +108,7 @@ The conditions that "for every non-negative element $x \geq 0$ in $F$ there exis
 \end{theorem}
 
 \begin{proof}
-The squaring function $x \mapsto x^2$ is an injection on non-negative elements of $F$, and the first condition says that the squaring function $x \mapsto x^2$ is surjective on non-negative elements of $F$ and the second condition says that the squaring function $x \mapsto x^2$ is bijective on non-negative elements of $F$; these are equivalent conditions for injective functions. 
+The squaring function $x \mapsto x^2$ is an [[injection]] on non-negative elements of $F$ because it is [[monotonic]] on non-negative elements of $F$, and the first condition says that the squaring function $x \mapsto x^2$ is [[surjective]] on non-negative elements of $F$ and the second condition says that the squaring function $x \mapsto x^2$ has a [[section]] on non-negative elements of $F$; these are equivalent conditions for injective functions. 
 \end{proof}
 
 In addition, the various equivalent definitions and properties of an ordered field are no longer provably equivalent in constructive mathematics: 
@@ -164,7 +164,7 @@ Thus, the gap between proving that the real numbers are a real closed field usin
 Every [[surjective]] [[polynomial function]] on the [[real numbers]] with odd degree and a [[fixed point]] at zero has a [[section]]. 
 \end{proposition}
 
-In particular, consider the map $z \mapsto z^3 - z$. This map is surjective on the real numbers, but cannot be proven to have a section. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, one can prove that there are no such sections of $z \mapsto z^3 - z$ on the real numbers, since any since any section on $z \mapsto z^3 - z$, if it exists, has to be discontinuous somewhere in the closed interval $[-1, 1]$, and in those topoi all functions on the real numbers are continuous. 
+In particular, consider the map $z \mapsto z^3 - z$. This map is surjective on the real numbers, but cannot be proven to have a section. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, one can prove that there are no such sections of $z \mapsto z^3 - z$ on the real numbers, since any since any section on $z \mapsto z^3 - z$, if it exists, has to be [[discontinuous]] somewhere in the closed interval $[-1, 1]$, and in those topoi all functions on the real numbers are continuous. 
 
 The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every odd degree real polynomial function $p(z)$ of degree $n$ into a monomial $c_1 z + c_0$ with real numbers $c_0$ and $c_1$ and a monic real polynomial function $q(z)$ of degree $n - 1$, $p(z) = (c_1 z + c_0) q(z)$, since one would need to first construct the specified real root $-\frac{c_0}{c_1}$ of $p(z)$, which is required to show that the [[complex numbers]] are an [[algebraically closed field]]. 
 
