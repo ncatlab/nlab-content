@@ -29,6 +29,8 @@ See also [[regular differential operator in noncommutative geometry]].
 
 * {#BerthelotOgus} P. Berthelot,  A. Ogus, _Notes on crystalline cohomology_, Princeton Univ.P. 1978. vi+243, ISBN0-691-08218-9
 * {#Coutinho1995} S. C. Coutinho, _A primer of algebraic $D$-modules_, London Math. Soc. Stud. Texts __33__, Cambridge University Press, Cambridge, 1995. xii+207 pp.
+* S. P. Smith, J. T. Stafford, _Differential operators on an affine curve_, Proc. London Math. Soc. s3-56:2 (March 1988) 229--259 [doi](https://doi.org/10.1112/plms/s3-56.2.229)
+
 * {#Maszczyk2006} [[Tomasz Maszczyk]], _Noncommutative geometry through monoidal categories_, [arXiv:0611806](http://arxiv.org/abs/math/0611806)
 
 For regular differential operators in Lie theory see 
