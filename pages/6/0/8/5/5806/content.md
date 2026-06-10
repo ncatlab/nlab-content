@@ -10,9 +10,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -370,6 +368,12 @@ See also
 Coisotropic orrespondences for derived Poisson stacks:
 
 * {#HMS19} [[Rune Haugseng]], Valerio Melani, [[Pavel Safronov]], _Shifted Coisotropic Correspondences_ ([arXiv:1904.11312](https://arxiv.org/abs/1904.11312))
+
+See also:
+
+* George Raptis, Wolfgang Steimle: *The span-squares adjunction* &lbrack;[arXiv:2606.10052](https://arxiv.org/abs/2606.10052)&rbrack;
+
+
 
 [[!redirects (∞,n)-category of spans]]
 [[!redirects (∞,n)-categories of spans]]
