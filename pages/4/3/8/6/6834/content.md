@@ -258,7 +258,9 @@ Deriving [[higher gauge symmetries]] through the [[variational bicomplex]]:
 
 Foundations of higher [[prequantum field theory]]:
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory|Higher $U(1)$-gerbe connections in geometric prequantization]]_, Rev. Math. Phys. **28** 06 (2016) 1650012 \[<a href="https://doi.org/10.1142/S0129055X16500124">doi:10.1142/S0129055X16500124</a>, [arXiv.1304.0236 math.DG](https://doi.org/10.48550/arXiv.1304.0236)\]
+
+
 
 For foundations of higher gauge theory formalized in [[homotopy type theory]] see
 
