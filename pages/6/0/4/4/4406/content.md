@@ -1,7 +1,19 @@
 
-# Contents
-* automatic table of contents goes here
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Definition 
 
@@ -77,9 +89,45 @@ In the other direction, to each ordered divisible abelian group $G$, there exist
 
 ## In constructive mathematics
 
-In constructive mathematics, the various definitions of real closed field bifurcate, because of different definitions of an odd-degree polynomial. One could define an odd-degree polynomial as a polynomial whose coefficient for an odd number $n$ is [[denial inequality|not equal to]] zero and whose coefficient for all $i \gt n$ for is equal to zero. On the other hand, one could also define an odd-degree polynomial as a polynomial whose coefficient for an odd number $n$ is [[tight apartness relation|apart from]] zero and whose coefficient for all $i \gt n$ for is equal to zero. These two definitions are different from each other, the real numbers satisfy the second, while they do not satisfy the first. 
+In [[constructive mathematics]], in order to define an odd degree polynomial, one has to use the [[tight apartness relation]] $x \# y$ or $x \neq y$ of an [[ordered field]], defined as $x \lt y \vee x \gt y$, instead of [[denial inequality]] $\neg (x = y)$, which is not normally related to the [[order]] of the ordered field. A polynomial $p = \sum_{i \leq n} a_n z^n$ has an odd degree if $n$ is odd and $a_n$ is apart from zero. 
+
+In addition, the original definition of an ordered field bifurcates into two. One has to decide whether to use [[mere proposition|mere]] existence of a [[root]] in the sense of traditional [[first-order logic]] or constructive existence in the sense of the [[BHK interpretation]] in the formulation of a real closed fields: 
+
+\begin{proposition}
+An ordered field $F$ is a **real closed field** if any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$, and for any odd-degree [[polynomial]] with coefficients in $F$ there exists a root in $F$. 
+\end{proposition}
+
+\begin{proposition}
+An ordered field $F$ is a **real closed field** if any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$, and for any odd-degree [[polynomial]] with coefficients in $F$ one can construct a specified root in $F$. 
+\end{proposition}
+
+In addition, the various equivalent definitions and properties of an ordered field are no longer provably equivalent in constructive mathematics: 
+
+1. The [[intermediate value theorem]] holds for all [[polynomial functions]] with coefficients in $F$. 
+
+1. Any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$, and for any odd-degree [[polynomial]] with coefficients in $F$ there exists a root in $F$. 
+
+1. Any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$, and for any odd-degree [[polynomial]] with coefficients in $F$ one can construct a specified root in $F$. 
+
+1. Any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$, and any odd-degree [[polynomial]] $p$ with degree $n$ coefficients in $F$ can be factored into a monomial $c_1 z + c_0$ with $c_0$ and $c_1$ in $F$ and a monic polynomial $q$ of degree $n - 1$ with coefficients in $F$, $p = (c_1 z + c_0) q$. 
+
+1. $F$ is an ordered field that has no ordered algebraic extension. 
+
+1. $F$ is not [[algebraically closed field|algebraically closed]], but some finite [[field extension|extension]] is. This extension is necessarily $F[\sqrt{-1}]$. See also [[fundamental theorem of algebra]]. 
+
+1. As a field, $F$ is [[elementary equivalence|elementarily equivalent]] to the field of real numbers. 
+
+As a result, the any one of these can be used in the definition of a real closed field. 
+
+For example, for any field of [[real numbers]], it is provable that the real numbers are a real closed field in the sense that odd degree polynomials have roots and non-negative reals have square roots, and in the sense that the intermediate value theorem holds for [[polynomial functions]], but the real numbers are not provably a real closed field in that its extension to the [[complex numbers]] $\mathbb{R}[\sqrt{-1}]$ is [[algebraically closed]], since the [[complex numbers]] are not algebraically closed in the absence of some [[axiom of choice|choice]]. 
+
+More importantly, the real numbers themselves are not provably a real closed field in the original sense that "for any odd-degree [[polynomial]] with coefficients in $F$ one can construct a specified root in $F$". 
 
 ## Related concepts
+
+* [[algebraic closure]]
+
+* [[fundamental theorem of algebra]]
 
 * [Euclidean geometry -- Tarski's axioms](Euclidean+geometry#TarskiAxioms)
 
@@ -88,7 +136,6 @@ In constructive mathematics, the various definitions of real closed field bifurc
 * [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
 * David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
-
 
 [[!redirects real closed field]]
 [[!redirects real closed fields]]
