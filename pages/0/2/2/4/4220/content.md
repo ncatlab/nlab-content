@@ -62,7 +62,13 @@ This is valid even in characteristic $2$, but unfortunately then it is fairly us
 
 ### In real analysis
 
-For some discussion about the quadratic formula in [[constructive analysis|constructive]] [[real analysis]], see [[real quadratic function#ExactZeroes]]. 
+In [[constructive analysis|constructive]] [[real analysis]], the usual notion of a [[real principal square root]] on the non-negative real numbers is still definable, and so one can still use the quadratic formula for the roots of a [[real quadratic function]]. 
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4a c}}{2a}$$
+
+What's different in constructive mathematics is that, in the absence of a constructive [[taboo]] like [[analytic LPO]], there are quadratic functions on the real numbers for which the [[discriminant]] $b^2 - 4ac \geq 0$ and we cannot prove whether $\sqrt{b^2 - 4a c} = -\sqrt{b^2 - 4a c}$ or $\sqrt{b^2 - 4a c} \# -\sqrt{b^2 - 4a c}$. 
+
+In addition, in the absence of the [[analytic LLPO]], we cannot prove that the every real number $r$ satisfies $r \leq -\frac{b}{2a}$ or $r \geq -\frac{b}{2a}$, so the quadratic formula only provides roots for the real quadratic functions for which the roots $x$ satisfy $x \leq -\frac{b}{2a}$ or $x \geq -\frac{b}{2a}$. 
 
 ### In complex analysis
 
@@ -82,14 +88,13 @@ that represents the set of roots of the quadratic function $a z^2 + b z + c$.
 
 * [[quadratic function]]
 
+* [[real quadratic function]]
+
 * [[zero locus]]
 
 * [[completing the square]]
 
-* [[real quadratic formula]]
-
 ## References
-
 
 * {#Ruitenburg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
 
@@ -97,9 +102,11 @@ that represents the set of roots of the quadratic function $a z^2 + b z + c$.
 
 * {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
-
-
 [[!redirects quadratic formula]]
 [[!redirects quadratic formulas]]
 [[!redirects quadratic formulae]]
 [[!redirects quadratic formulæ]]
+
+[[!redirects real quadratic formula]]
+[[!redirects real quadratic formulae]]
+[[!redirects real quadratic formulas]]
