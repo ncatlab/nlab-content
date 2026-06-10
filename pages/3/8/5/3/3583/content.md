@@ -49,6 +49,8 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 * [[Clark Barwick]], _$\mathcal{D}$-crystals_, notes from 2006 talk, [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/D-crys.pdf)
 
+* Stacks Project 60.17 Crystals in quasi-coherent modules  (tag/[0717](https://stacks.math.columbia.edu/tag/07J7))
+
 * mathoverflow: [The Infinitesimal topos in positive characteristic](http://mathoverflow.net/questions/15795/the-infinitesimal-topos-in-positive-characteristic)
 
 
