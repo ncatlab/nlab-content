@@ -462,6 +462,11 @@ On [[loop spaces]] of [[sphere bundles]]:
 
 * Wen Shen: *Loop Space Splittings for Codimensional Sphere Bundles* &lbrack;[arXiv:2606.03072](https://arxiv.org/abs/2606.03072)&rbrack;
 
+See also:
+
+* Sagnik Biswas: *Smooth manifolds homotopy equivalent to products of spheres* &lbrack;[arXiv:2606.10239](https://arxiv.org/abs/2606.10239)&rbrack;
+
+
 
 
 
