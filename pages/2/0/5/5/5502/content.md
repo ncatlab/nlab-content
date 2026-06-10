@@ -216,6 +216,9 @@ Further discussion for for [[abelian sheaves]] on [[manifolds]]/[[topological sp
 
 * [[Marco Volpe]]: *Six functor formalism for sheaves with non-presentable coefficients*, lectures at *[Higher Topoi and Exodromy](https://mediathek2.uni-regensburg.de/list/2012)*, Regensburg (2021) &lbrack;video: [I](https://mediathek2.uni-regensburg.de/playthis/617afcd486f0a0.07267824), [II](https://mediathek2.uni-regensburg.de/playthis/618d376f728db5.89695095), [III](https://mediathek2.uni-regensburg.de/playthis/6183fad9c48106.67381796)&rbrack;
 
+* [[Ulrich Bunke]], [[Marco Volpe]]: *A characterization of sheaves among six functor formalisms on $LCH$* &lbrack;[arXiv:2606.10453](https://arxiv.org/abs/2606.10453)&rbrack;
+
+
 
 See also:
 
