@@ -90,30 +90,30 @@ If the discriminant $\Delta = b^2 - 4 a c$ is greater than zero $\Delta \gt 0$, 
 
 ### Square roots 
 
-If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the continuous partial inverse function of the square function is called the [[continuous principal square root]] $\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
+If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the continuous partial inverse function of the square function is the [[differentiable principal square root]] $\mathrm{sqrt}_\mathrm{diff}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
 
-$$(2 \mathrm{sqrt}_\mathrm{cont}) \frac{d \mathrm{sqrt}_\mathrm{cont}}{d x} = 1$$
+$$(2 \mathrm{sqrt}_\mathrm{diff}) \frac{d \mathrm{sqrt}_\mathrm{diff}}{d x} = 1$$
 
-with initial condition $\mathrm{sqrt}_\mathrm{cont}(1) = 1$. The reflected branch of the continuous partial inverse function of the square function is simply the negation of the principal square root $-\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$. 
+with initial condition $\mathrm{sqrt}_\mathrm{diff}(1) = 1$. The reflected branch of the continuous partial inverse function of the square function is simply the negation of the principal square root $-\mathrm{sqrt}_\mathrm{diff}:(0, \infty) \to \mathbb{R}$. 
 
 ### Quadratic formula 
 {#QuadraticFormula}
 
-For any quadratic function $f$, the principal branch of its inverse has a canonical definition in terms of the continuous principal square root:
+For any quadratic function $f$, the principal branch of its inverse has a canonical definition in terms of the differentiable principal square root:
 
-$$g(x) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
+$$g(x) = \frac{-b + \mathrm{sqrt}_\mathrm{diff}(4ax + b^2 - 4ac)}{2a}$$
 
-and the reflected branch has a canonical definition in terms of the continuous principal square root as well:
+and the reflected branch has a canonical definition in terms of the differentiable principal square root as well:
 
-$$h(x) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
+$$h(x) = \frac{-b - \mathrm{sqrt}_\mathrm{diff}(4ax + b^2 - 4ac)}{2a}$$
 
-The **continuous quadratic formula** is the evaluation of the two branches at zero, if zero is in the domain of $g$ and $h$:
+The **quadratic formula** is the evaluation of the two branches at zero, if zero is in the domain of $g$ and $h$:
 
-$$g(0) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
+$$g(0) = \frac{-b + \mathrm{sqrt}_\mathrm{diff}(b^2 - 4ac)}{2a}$$
 
-$$h(0) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
+$$h(0) = \frac{-b - \mathrm{sqrt}_\mathrm{diff}(b^2 - 4ac)}{2a}$$
 
-The continuous quadratic formula is only valid for real quadratic functions with positive discriminant, unlike the [[quadratic formula]] in the [[discrete field]] of [[quadratic irrational numbers]], which is valid for [[quadratic functions]] with [[rational number|rational]] [[coefficients]] and a non-negative discriminant. But there's an analytic reason for why the quadratic formula should be restricted to real quadratic functions with positive discriminant: for any real quadratic function $f$ with a non-positive discriminant $\Delta \leq 0$, there is no interval on the real numbers such that the conditions required for the [[intermediate value theorem]] are fulfilled: if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. 
+This quadratic formula is only valid for real quadratic functions with positive discriminant, unlike the [[quadratic formula]] in the [[discrete field]] of [[quadratic irrational numbers]], which is valid for [[quadratic functions]] with [[rational number|rational]] [[coefficients]] and a non-negative discriminant. But there's an analytic reason for why the quadratic formula should be restricted to real quadratic functions with positive discriminant: for any real quadratic function $f$ with a non-positive discriminant $\Delta \leq 0$, there is no interval on the real numbers such that the conditions required for the [[intermediate value theorem]] are fulfilled: if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. 
 
 ### Negative and zero discriminant 
 
@@ -174,6 +174,3 @@ See also:
 [[!redirects real quadratic formula]]
 [[!redirects real quadratic formulae]]
 [[!redirects real quadratic formulas]]
-[[!redirects continuous quadratic formula]]
-[[!redirects continuous quadratic formulae]]
-[[!redirects continuous quadratic formulas]]
