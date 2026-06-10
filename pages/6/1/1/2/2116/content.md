@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -99,12 +98,19 @@ The converse holds because every monic polynomial function is non-constant.
 
 ## Examples
 
-* The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$.  
-
-  Arguably, this theorem is not entirely algebraic; the algebraic portion is that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real-closed field]]. 
-Unusually, this algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions. 
-
 * The algebraic closure $\overline{\mathbb{Q}}$ of the [[rational numbers]] $\mathbb{Q}$ is the [[algebraic numbers]].
+
+* The algebraic closure of a field $F$ is the [[splitting field]] of the set of all [[monic polynomials]] over $F$. 
+
+### Algebraic closure of the complex numbers
+
+The __[[fundamental theorem of algebra]]__ is, classically, the statement that the [[complex number]]s form an algebraically closed field $\mathbb{C}$. 
+
+There are many proofs of the algebraic closure of the complex numbers, all of which are not algebraic in some sense or another; most of them use [[real analysis]] or [[complex analysis]] in one form or another. However, there is one proof of the fundamental theorem of algebra which is somewhat algebraic, that first proves the real numbers are a [[real closed field]], and then proves that $R[\mathrm{i}]$ is algebraically closed whenever $R$ is a [[real closed field]]; this second portion is algebraic classically. 
+
+This algebraic portion is *not* (as stated) valid in [[constructive mathematics]], while the analytic result (that the [[real numbers]] form a real closed field $\mathbb{R}$) is constructively valid with the usual definitions. This is because a [[real closed field]] only requires the mere existence of a root of odd [[degree of a polynomial|degree]] polynomial functions, whereas factorization of real polynomial functions requires the actual construction of the specified [[root]] of the real polynomial function, which is usually not possible without some kind of choice. 
+
+More generally, in constructive mathematics, there are many different versions of the [[fundamental theorem of algebra]] that are not provably equivalent to the statement that the complex numbers are algebraically closed. Some of these versions of the fundamental theorem of algebra, such as there merely existing a root of every non-constant polynomial function, are provable in [[constructive mathematics]]. However, the statement that the complex numbers are algebraically closed is only provable in [[constructive mathematics]] when using some constructive [[taboos]], since factorization of a monic polynomial in $\mathbb{C}$ requires being able to construct the $n$ [[roots]] of a monic [[polynomial function]] in $\mathbb{C}$. This in turn is equivalent to a weak form of choice that states that every [[surjective]] polynomial function in $\mathbb{C}$ has a [[section]]. This fails in some [[toposes]], such as the [[topos of sheaves]] on the [[real numbers]] $\mathbb{R}$, where all functions on $\mathbb{C}$ are [[continuous functions]], and any section of a monic polynomial function with [[degree of a polynomial|degree]] $n \geq 2$, if it exists, necessarily has to be discontinuous at a branch cut. 
 
 ## Related concepts
 
@@ -113,8 +119,6 @@ Unusually, this algebraic portion is *not* (as stated) valid in [[constructive m
 * [[separable closure]]
 
 * [[geometric point]] 
-
-The algebraic closure of a field $F$ is the splitting field of the set of all [[monic polynomials]] over $F$. Thus for relevant material, see 
 
 * [[splitting field]] 
 
