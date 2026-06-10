@@ -47,7 +47,7 @@ $\iota: id_\mathcal{C} \to R \circ L$ and $\epsilon: L \circ R \to id_\mathcal{D
 \begin{rmk} \label{RemarkEquivalentDefinitionLeftAdjointForCategories} Definition \ref{DefinitionLeftAdjointForCategories} is equivalent to requiring that there is a [[natural isomorphism]] between the [[hom-functor|Hom functors]]
 
 $$ 
-  Hom_\mathcal{C}\left(L(-),-\right), Hom_\mathcal{D}\left(-,R(-)\right): D^{op} \times C \to \mathsf{Set}.
+  Hom_\mathcal{D}\left(L(-),-\right), Hom_\mathcal{C}\left(-,R(-)\right): \mathcal{C}^{op} \times \mathcal{D} \to \mathsf{Set}.
 $$
 
 Depending upon one's interpretation of $\mathsf{Set}$, the [[category of sets]], one may strictly speaking need to restrict to [[locally small category|locally small]] categories for this equivalence to parse. 
@@ -60,7 +60,7 @@ The equivalent formulation of Definition \ref{DefinitionLeftAdjointForCategories
 \begin{defn} Given $\mathbb{V}$-enriched categories $\mathcal{C}$ and $\mathcal{D}$ and a $\mathbb{V}$-[[enriched functor]] $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a $\mathbb{V}$-enriched functor $L: \mathcal{C} \to \mathcal{D}$ together with a $\mathbb{V}$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-functor|Hom functors]]
 
 $$ 
-  Hom_\mathcal{C}\left((L(-),-\right), Hom_\mathcal{D}\left(-,R(-)\right): D^{op} \times C \to \mathbb{V}.
+  Hom_\mathcal{D}\left((L(-),-\right), Hom_\mathcal{C}\left(-,R(-)\right): \mathcal{C}^{op} \times \mathcal{D} \to \mathbb{V}.
 $$
 
 \end{defn}
