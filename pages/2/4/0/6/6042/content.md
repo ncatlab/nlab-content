@@ -9,9 +9,11 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -23,7 +25,7 @@ See [[relativistic particle]] for details.
 
 ### In Kaluza-Klein compactifications
 
-If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] as a field of [[gravity]] on a [[fiber bundle]], then [[trajectories]] of [[charged particles]] subject to the Lorentz force in the base space of that bundle are euivalently just [[geodesics]] on the total space, e.g. ([Bleecker 81](#Bleecker81)). An exposition of this fact is in ([Bartlett 13](#Bartlett13)).
+If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] as a field of [[gravity]] on a [[fiber bundle]], then [[trajectories]] of [[charged particles]] subject to the Lorentz force in the base space of that bundle are euivalently just [[geodesics]] on the total space, e.g. [Bleecker 1981](#Bleecker81). An exposition of this fact is given by  [Bartlett 2013](#Bartlett13).
 
 
 ## Related concepts
