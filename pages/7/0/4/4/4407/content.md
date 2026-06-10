@@ -337,7 +337,7 @@ is not zero, which contradicts that $c^n$ is zero using the above equation.
 This implies $n = 1$ and hence the claim.
 \end{proof}
 
-The following two theorems about the power-series algebra $\mathbb{R}[[x]]$ over $\mathbb{R}$ and the Hopf-algebra structure on $\mathbb{R}[[x]]$ apply to a modified form of the above proof which uses cellular cohomology with coefficients in $\mathbb{R}$ instead of cellular cohomology with coefficients in $\mathbb{Z}$:
+{#TwoLemmas} The following two theorems about the power-series algebra $\mathbb{R}[[x]]$ over $\mathbb{R}$ and the Hopf-algebra structure on $\mathbb{R}[[x]]$ apply to a modified form of the above proof which uses cellular cohomology with coefficients in $\mathbb{R}$ instead of cellular cohomology with coefficients in $\mathbb{Z}$:
 
 \begin{theorem} (ideals of a power series ring over the field of real numbers) let $I \subseteq \mathbb{R}[[x]]$ be a nonzero ideal of the algebra of power-series over $\mathbb{R}[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot \mathbb{R}[[x]]$.
 \end{theorem}
