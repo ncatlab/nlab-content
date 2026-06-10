@@ -145,3 +145,5 @@ be sure to check for improperly replied posts with the same subject in that and 
 
 [[!redirects algebraic closure]]
 [[!redirects algebraic closures]]
+
+[[!redirects algebraically closed]]
