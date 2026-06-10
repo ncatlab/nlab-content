@@ -12,27 +12,240 @@
 
 
 
+## Via cohomology of complex projective space
+ {#ViaCellularCohomology}
+
+The following expands out a proof indicated by [Bruner 2009](#Bruner2009), of the fundamental theorem of algebra via the [[integral cohomology|integral]] [[cohomology ring]] of [[complex projective space]] $\mathbb{C}P^{n-1}$:
+
+> [Bruner 2009](#Bruner2009): "I just noticed the following proof that the complex numbers $\mathbb{C}$ are algebraically closed, and wonder if anyone has seen it in print anywhere. \linebreak
+> An algebraic extension of C is a unital division algebra over $\mathbb{C}$, say of dimension $n$, so induces 
+> $$ \mathbb{C}P^{n-1} \times \mathbb{C}P^{n-1} \longrightarrow \mathbb{C}P^{n-1}$$
+> satisfying 
+> $$ y \mapsto 1 \textstyle{\otimes} y + y \textstyle{\otimes} 1 $$
+> in second integral cohomology.  Since $y^n = 0$, we must have $n=1$."
+
+Recall here that the [[integral cohomology]] of [[complex projective space]] $\mathbb{CP}^{n-1}$ is (see [there](complex+projective+space#Cohomology)): 
 
 $$
-  J 
-    \;=\;
-    \sum_i f_i \theta_i 
-      + 
-    \sum_j g_j d \theta_j 
-    f_i, g_j \in C^\infty(X)
-  \,.
+  H^i\big(
+    \mathbb{CP}^{n-1}; 
+    \mathbb{Z}
+  \big) 
+    \cong 
+  \mathbb{Z}^{a_i}
+  \mathrlap{\,,}
+  \;\text{where}\;
+  a_i 
+    =
+  \left\{ 
+  \begin{array}{ll}
+    1 & \text{if}\; i \in \{ 2j \vert 0 \leq j \leq n-1 \}
+    \\
+    0 & \text{otherwise}
+  \end{array}
+  \right.
 $$
 
+on which the [[cup product]] induces a ring [[isomorphism]] 
 
-\begin{xymatrix}
-Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
-  B        \ar[r] & Q A \sqcup   B        \ar[r] & A \sqcup   B       \cr
-\end{xymatrix}
+$$
+  H^*\big(
+    \mathbb{CP}^n, \mathbb{Z}
+  \big) 
+    \simeq  
+  \mathbb{Z}[c] / c^n \mathbb{Z}[c]
+  \mathrlap{\,,}
+$$
 
+where $c$ denotes the integral [[first Chern class]] (cf. [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace)).
 
-_________
+\begin{theorem} 
+Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ equipped 
 
+1. (unit) a map $\eta : \ast \rightarrow K$ 
 
+1. (product) a [[linear map]] $\mu \colon K \otimes_{\mathbb{C}} K \rightarrow K$
+
+satisfying for $a,b \in K$:
+
+1. ([[unitality]]) $\mu\big(\eta(1),a\big) = a = \mu\big(a,\eta(1)\big)$, 
+
+1. (no [[zero-divisors]]) if $\mu (a \otimes b) = 0$, then $a = 0$ or $b = 0$.
+
+(We do not *need* to require [[associativity]]!)
+
+Then $K$ is [[isomorphism|isomorphic]] to $\mathbb{C}$ itself as a [[complex vector space|$\mathbb{C}$-vector space]], i.e. [[dimension of a vector space|$\text{dim}(K)$]] $= 1$.
+\end{theorem}
+
+Note that we obtain such a nonassociative $\mathbb{C}$-algebra as the [[splitting field]] of any complex [[irreducible  polynomial]].
+
+\begin{proof}
+The assumed absence of [[zero divisors]] implies that multiplication restricts to the [[complement]] of zero, and [[bilinear map|bilinearity]] of the multiplication then implies that it respects [[complex lines]] and hence descends to a [[continuous map]] between ([[product space|products]] of) [[complex projective space]]
+
+$$
+  [ \mu|_{ \mathbb{C}^n \setminus \{0\} } ] 
+    \ : \ 
+  \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1} 
+    \longrightarrow 
+  \mathbb{CP}^{n-1}
+  \mathrlap{\,.}
+$$
+
+Recall that $c \in H^2(\mathbb{CP}^{n-1})$ is the generator of the [[cohomology ring]] $H^* ( \mathbb{CP}^{n-1} )$. We have:
+
+$$
+  H^2\big(
+    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1}; 
+    \mathbb{Z}
+  \big) 
+   \cong 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+   \oplus 
+  H^2\big(
+    \mathbb{CP}^{n-1}; \mathbb{Z}
+  \big) 
+  \mathrlap{\,.}
+$$
+
+Therefore there must be $a, b \in \mathbb{Z}$ such that pullback of the generator along the product map is
+
+$$
+  H^2(\mu,\mathbb{Z})(c) 
+    = 
+  a \cdot (1 \textstyle{\otimes} c) 
+    + 
+  b \cdot (c \textstyle{\otimes} 1)
+  \mathrlap{\,.}
+$$
+
+But these coefficients must satisfy the two equations which are the image in degree-2 [[integral cohomology]] of the two [[unit laws]] (the first assumed property on $K$):
+
+$$ 
+  H^2 \left( 
+    \mu 
+      \circ 
+    \left( 
+      \eta \times Id_{\mathbb{CP}^{n-1}} 
+    \right) , 
+    \mathbb{Z} 
+  \right)   
+  =  
+  Id_{H^2 \left( \mathbb{CP}^{n-1} , \mathbb{Z} \right) }
+  =   
+  H^2 \left( 
+    \mu 
+    \circ 
+    \left( 
+      Id_{\mathbb{CP}^{n-1}} \times \eta 
+    \right) , 
+    \mathbb{Z} 
+  \right)
+  \mathrlap{\,.}
+$$
+
+This implies that:
+
+$$
+  a = 1, 
+  \;\text{and}\;
+  b = 1
+  \mathrlap{\,.}
+$$
+
+There is an [[isomorphism]] of [[Hopf algebras]] in [[integral cohomology]] of 
+
+$$
+  \big(
+    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+  \big) 
+    \otimes_{\mathbb{Z}}
+  \big(
+    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+  \big)  
+    \cong  
+  H^\bullet\big(
+   \mathbb{CP}^{n-1};
+   \mathbb{Z}
+  \big) 
+    \otimes_{\mathbb{Z}} 
+  H^\bullet\big(
+    \mathbb{CP}^{n-1};
+    \mathbb{Z}
+  \big)  
+    \cong  
+  H^\bullet\big(
+    \mathbb{CP}^{n-1} \times \mathbb{CP}^{n-1};
+    \mathbb{Z}
+  \big)
+  \mathrlap{\,.}
+$$
+
+But $H^\bullet(\mu;\mathbb{Z})$ is a [[ring homomorphism]], so
+
+$$
+  H^\bullet(\mu;\mathbb{Z})(c^n) 
+    = 
+  (1 \textstyle{\otimes} c + c \textstyle{\otimes} 1)^n 
+    = 
+  \sum_{i = 0}^n 
+  {\binom{n}{i}}\, 
+    (1 \otimes c)^i \cdot (c \otimes 1)^{n-i} 
+    = 
+  \sum_{i = 0}^n 
+  {\binom{n}{i}}\, 
+    c^{n-i} \otimes c^{i}
+$$
+
+as elements of the commutative Hopf algebra
+
+$$
+  H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) 
+    \otimes_{\mathbb{Z}} 
+  H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z})  
+   \;\cong\; 
+  \left( 
+    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+  \right) 
+    \otimes_{\mathbb{Z}}
+  \left( 
+    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+  \right)
+  \mathrlap{\,.}
+$$
+
+The left-hand side is $0$.
+
+The right hand side is 
+
+$$ 
+   \sum_{i = 1}^{n-1} 
+   {\binom{n}{i}}\, 
+     c^{n-i} 
+       \otimes 
+     c^{i} 
+  \mathrlap{\,.}
+$$
+
+By way of [[proof by contradiction|contradiction]], suppose that $n = \text{dim}(K)$ is greater than $1$. In this case, each of the terms $c^i \otimes c^{n-i}$ is nonzero for $0 \lt i \lt n$, and their sum is as well.
+
+This implies that 
+
+$$
+  \sum_{i= 1}^{n-1} 
+    {\binom{n}{i}}\,  
+     c^{n-i} 
+       \otimes 
+     c^{i}
+$$
+
+is not zero, which contradicts that $c^n$ is zero using the above equation.
+
+This implies $n = 1$ and hence the claim.
+\end{proof}
+
+{#TwoLemmas} The following two theorems about the power-series algebra $\mathbb{R}[[x]]$ over $\mathbb{R}$ and the Hopf-algebra structure on $\mathbb{R}[[x]]$ apply to a modified form of the above proof which uses cellular cohomology with coefficients in $\mathbb{R}$ instead of cellular cohomology with coefficients in $\mathbb{Z}$:
 
 \begin{theorem} (ideals of a power series ring over the field of real numbers) let $I \subseteq \mathbb{R}[[x]]$ be a nonzero ideal of the algebra of power-series over $\mathbb{R}[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot \mathbb{R}[[x]]$.
 \end{theorem}
@@ -135,4 +348,3 @@ so for each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, eith
 
 We can conclude from this fact that $n = 0$ or $n = 1$.
 \end{proof}
-
