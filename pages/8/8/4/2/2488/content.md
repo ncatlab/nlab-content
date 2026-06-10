@@ -17,9 +17,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -836,4 +836,7 @@ Discussion of [[homotopy n-types|homotopy $n$-types]]/[[n-truncated object in an
 [[!redirects 0-truncated morphisms in an (∞,1)-category]]
 
 [[!redirects n-truncated object of an infinity1-category]]
+
+[[!redirects truncated morphism]]
+[[!redirects truncated morphisms]]
 
