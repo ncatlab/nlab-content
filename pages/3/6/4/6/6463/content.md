@@ -141,12 +141,15 @@ $$
 
 This induces an [[adjoint triple]]
 
-$$
-  ssSet
-   \stackrel{\overset{+_!}{\longrightarrow}}{\stackrel{\overset{+^*}{\longleftarrow}}{\underset{+_*}{\longrightarrow}}}
-  sSet
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+    \text{ssSet}
+    \arrow[r,"+_{!}"{pos=0.49}, bend left]
+    \arrow[r,"+_{*}"{pos=0.536}, bend right, swap] &
+    \text{sSet} 
+    \arrow[l,"+^{*}"{description}]
+\end{tikzcd}
+\end{center}
 
 +-- {: .num_defn }
 ###### Definition
