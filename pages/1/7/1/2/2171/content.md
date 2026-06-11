@@ -4008,7 +4008,11 @@ More on the braid representation on [[automorphism group|automorphisms]] of [[fr
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
-* [[Vladimir Vershinin]], *Homology of Braid Groups and their Generalizations*, Banach Center Publications (1998) **42** 1 421-446 ([pdf](https://hopf.math.purdue.edu/Vershinin/hobr.pdf), [dml:208821](https://eudml.org/doc/208821))
+* [[Vladimir Vershinin]], *Homology of Braid Groups and their Generalizations*, Banach Center Publications **42** 1 (1998) 421--446 &lbrack;[pdf](https://hopf.math.purdue.edu/Vershinin/hobr.pdf), [dml:208821](https://eudml.org/doc/208821)&rbrack;
+
+* Andrea Bianchi, Filippo Callegaro, Luigi Caputi, Paolo Salvatore: *Stable homology of complex braid groups* &lbrack;[arXiv:2606.12206](https://arxiv.org/abs/2606.12206)&rbrack;
+
+
 
 Relation of [[automorphism groups]] of the [[profinite completion]] of braid groups to the [[Grothendieck-Teichmüller group]]:
 
