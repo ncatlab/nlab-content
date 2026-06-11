@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -47,9 +45,10 @@ Understanding complete [[W*-category|$W^\ast$-categories]] as 2-Hilbert spaces:
 
 * [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
 
-Exposition:
-
 * [[Nivedita]]: *Towards Models for 2-Hilb and 3-Hilb as targets for functorial field theories*, talk notes (2024) &lbrack;[[Nivedita-ModelFor2HilbForFQFT.pdf:file]]&rbrack;
+
+* [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
+
 
 A proposal for further categorification to 3-Hilbert spaces:
 
