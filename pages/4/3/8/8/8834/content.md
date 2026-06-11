@@ -14,10 +14,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 \linebreak 
@@ -572,6 +569,9 @@ See also:
 * [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
 
 * Wikipedia, _[Toda bracket](https://en.wikipedia.org/wiki/Toda_bracket)_
+
+* Toshiyuki Miyauchi, Juno Mukai: *Relations in the 24-th homotopy groups of spheres* &lbrack;[arXiv:2606.12046](https://arxiv.org/abs/2606.12046)&rbrack;
+
 
 Discussion for [[ring spectra]]:
 
