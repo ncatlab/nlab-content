@@ -42,17 +42,16 @@ A [[model category]] is called
 
 More in detail this means the following. 
 A model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
-$$
-  \array{
-    A \times_B C &\longrightarrow& A
-    \\
-    \;\;\big\downarrow{}^{\mathrlap{\Rightarrow h^* f \in W}} 
-    && 
-    \big\downarrow{}^{\mathrlap{f \in W}}
-    \\
-    C &\underset{h \in F}{\longrightarrow}& B
-  }
-$$
+
+\begin{center}
+\begin{tikzcd}
+A\times_{B} C \arrow[r]\arrow[d,"\Rightarrow h^{*} f  \in W"]&
+A\arrow[d,"f\in W"]\\
+C\arrow[r,"h \in \mathrm{Fib}", swap]&
+B
+\end{tikzcd}
+\end{center}
+
 is a weak equivalence.
 
 =--
@@ -259,15 +258,14 @@ We demonstrate the first statement, the second is its direct formal dual.
 
 So consider a [[pushout]] diagram
 
-$$
-  \array{
-    K &\longrightarrow& Y
-    \\
-    \big\downarrow^{\mathrlap{\in cof}} && \big\downarrow
-    \\
-    L &\longrightarrow& X
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+K \arrow[r] \arrow[d,"\in\mathrm{Cof}"]&
+Y\arrow[d]\\
+L\arrow[r]&
+X
+\end{tikzcd}
+\end{center}
 
 in a left proper model category, where the morphism $K \to L$ is a cofibration, as indicated. We need to exhibit a weak equivalence $X' \stackrel{}{\to} X$ from an object $X'$ that is manifestly a [[homotopy pushout]] of $L \leftarrow K \to Y$.
 
@@ -278,21 +276,16 @@ $K' \hookrightarrow Y' \stackrel{\simeq}{\to} Y$ and similarly factor $K' \to K 
 
 This yields a weak equivalence of  diagrams
 
-$$
-  \array{
-    Y &\stackrel{\simeq}{\leftarrow}& Y'
-    \\
-    \uparrow && \uparrow^{\mathrlap{\in cof}}
-    \\
-    K &\stackrel{\simeq}{\leftarrow}& K'
-    \\
-    \downarrow^{\mathrlap{\in cof}}
-     && \downarrow^{\mathrlap{\in cof}}
-    \\
-    L &\stackrel{\simeq}{\leftarrow}& L'    
-  }
-  \,,
-$$
+\begin{center}
+\begin{tikzcd}
+Y&
+Y'\arrow[l,"\simeq", swap]\\
+K\arrow[u]\arrow[d,"\in \mathrm{Cof}"]&
+K'\arrow[l,"\simeq", swap]\arrow[d,"\in \mathrm{Cof}"]\arrow[u,"\in \mathrm{Cof}", swap]\\
+L&
+L'\arrow[l,"\simeq", swap]
+\end{tikzcd}
+\end{center}
 
 where now the diagram on the right is cofibrant as a diagram, so that its ordinary pushout
 
@@ -302,34 +295,28 @@ $$
 
 is a homotopy colimit of the original diagram. To obtain the weak equivalence from there to $X$, first form the further pushouts
 
-$$
-  \array{
-    K &&&\to&&& Y
-    \\
-    & \nwarrow^{\mathrlap{\in W}} 
-     &&&& \nearrow_{\mathrlap{\simeq}} & 
-    \\
-    && K' &\to& Y' &&  
-    \\
-    \downarrow^{\mathrlap{\in cof}} 
-    && \downarrow^{\mathrlap{\in cof}} 
-     && \downarrow^{\mathrlap{\in cof}} && \downarrow
-    \\
-    && L' &\to& X' && 
-    \\
-    & {}^{\mathllap{\in W}}
-    \swarrow &&&& \searrow^{\mathrlap{\simeq}} & 
-    \\
-    L'' \coloneqq K \coprod_{K'} L 
-    &&&\to&&& 
-    L'' \coprod_{K} Y
-    \\
-    \downarrow^{\mathrlap{\in W}} &&&&&&  \downarrow
-    \\
-    L &&&\to&&& X
-  }
-  \,,
-$$
+\begin{center}
+\begin{tikzcd}
+K\arrow[rrr]\arrow[ddd,"\in \mathrm{Cof}"]&
+&
+&
+Y\arrow[ddd]\\
+&
+K'\arrow[ul,"\in W", swap]\arrow[r]\arrow[d,"\in\mathrm{Cof}"]&
+Y'\arrow[d,"\in\mathrm{Cof}"]\arrow[ur,"\simeq"]\\
+&
+L'\arrow[r]\arrow[dl,"\in W"]&
+X'\arrow[dr,"\simeq"]\\
+L'':=K\coprod_{K'}L\arrow[d,"\in W"]\arrow[rrr]&
+&
+&
+L''\coprod_{K} Y\arrow[d]\\
+L\arrow[rrr]&
+&
+&
+X
+\end{tikzcd}
+\end{center}
 
 where the total outer diagram is the original pushout diagram. Here the cofibrations are as indicated by the above factorization and by their stability under pushouts, and the weak equivalences are as indicated by the above factorization and by the left properness of the model category. The weak equivalence $L'' \stackrel{\simeq}{\to} L$ is by the [[category with weak equivalences|2-out-of-3 property]].
 
@@ -343,46 +330,35 @@ $$
 It remains to get a weak equivalence further to $X$.
 For that, take the two outer squares from the above
 
-$$
-  \array{
-    K &\to& Y
-    \\
-    \downarrow^{\mathrlap{\in cof}} && \downarrow
-    \\
-    L'' &\to& L'' \coprod_{K'} Y
-    \\
-    \downarrow^{\mathrlap{\in W}} && \downarrow
-    \\
-    L &\to& X
-  }
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+K\arrow[r]\arrow[d,"\in\mathrm{Cof}"]&
+Y\arrow[d]\\
+L''\arrow[r]\arrow[d,"\in W"]&
+L''\coprod_{K'}Y\arrow[d]\\
+L\arrow[r]&
+X
+\end{tikzcd}
+\end{center}
 
 Notice that the top square is a pushout by construction, and the total one by assumption.  Therefore by the [[pasting law]], also the lower square is a pushout.
 
 Then factor $K \to Y$ as a cofibration followed by a weak equivalence $K \hookrightarrow Z \stackrel{\simeq}{\to} Y$
 and push that factorization through the double diagram, to obtain
 
-$$
-  \array{
-    K &\stackrel{\in cof}{\to}& Z &\stackrel{\in W}{\to}& Y
-    \\
-    \downarrow^{\mathrlap{\in \cof}} 
-    && \downarrow^{\mathrlap{\in cof}} && \downarrow
-    \\
-    L'' &\stackrel{\in cof}{\to}& 
-    L'' \coprod_{K} Z
-    &\stackrel{\in W}{\to}&
-    L'' \coprod_{K'} Y
-    \\
-    \downarrow^{\mathrlap{\in W}} && 
-    \downarrow^{\mathrlap{\in W}}
-    && \downarrow
-    \\
-    L & \to& L \coprod_K Z &\stackrel{\in W}{\to}& X
-  }
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+K\arrow[r,"\in\mathrm{Cof}"]\arrow[d,"\in\mathrm{Cof}"]&
+Z\arrow[d,"\in\mathrm{Cof}"]\arrow[r,"\in\mathrm{Cof}"]&
+Y\arrow[d]\\
+L''\arrow[r,"\in\mathrm{Cof}"]\arrow[d,"\in W"]&
+L'' \coprod_{K} Z\arrow[r,"\in W"] \arrow[d,"\in W"]&
+ L'' \coprod_{K'}Y\arrow[d]\\
+ L\arrow[r] &
+  L \coprod_{K} Z\arrow[r,"\in W"] &
+  X
+\end{tikzcd}
+\end{center}
 
 Again by the behaviour of pushouts under pasting, every single square and composite rectangle in this diagram is a pushout. Using this, the cofibration and weak equivalence properties from before push through the diagram as indicated. This finally yields the desired weak equivalence
 
@@ -406,20 +382,16 @@ $A \hookrightarrow C' \stackrel{\simeq}{\to} C$ by a cofibration
 followed by an acyclic fibration. This give a weak equivalence
 of pushout diagrams
 
-$$
-  \array{
-    C' &\stackrel{\simeq}{\to}& C
-    \\
-    \uparrow && \uparrow
-    \\
-    A &\stackrel{=}{\to}& A
-    \\
-    \downarrow && \downarrow
-    \\
-    B &\stackrel{=}{\to}& B
-  }
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+C'\arrow[r,"\simeq"]&
+C\\
+A\arrow[u]\arrow[r, equal]\arrow[d]&
+A\arrow[u]\arrow[d]\\
+B\arrow[r, equal]&
+B
+\end{tikzcd}
+\end{center}
 
 In the diagram on the left all objects are cofibrant and one morphism is a cofibration,
 hence this is a cofibrant diagram and its ordinary colimit is the homotopy colimit.
@@ -427,19 +399,16 @@ Using that [[pushout]] diagrams compose to pushout diagrams, that cofibrations a
 are preserved under pushout along cofibrations, we find a weak equiovalence
 $hocolim \stackrel{\simeq}{\to} B \coprod_A C$
 
-$$
-  \array{
-    A &\stackrel{\in cof}{\to}& C' &\stackrel{\in W \cap fib}{\to}& C
-    \\
-    \downarrow^{\mathrlap{\in cof}} &&
-    \downarrow^{\mathrlap{\in cof}} &&
-    \downarrow^{\mathrlap{\in cof}}
-    \\
-    B &\to& hocolim &\stackrel{\in W}{\to}&
-    B \coprod_A C
-  }
-  \,.
-$$
+\begin{center}
+\begin{tikzcd}
+A\arrow[r,"\in\mathrm{Cof}"]\arrow[d,"\in\mathrm{Cof}"]&
+C'\arrow[d,"\in\mathrm{Cof}"]\arrow[r,"\in W \cap \mathrm{Fib}"]&
+C\arrow[d,"\in\mathrm{Cof}"]\\
+B \arrow[r] &
+\mathrm{hocolim}\arrow[r,"\in W"]&
+B\coprod_{A} C
+\end{tikzcd}
+\end{center}
 
 The proof for the second statement is the precise formal dual.
 
