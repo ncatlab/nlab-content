@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -64,6 +62,9 @@ The realization in [[M-theory]] at the level of super [[rational homotopy theory
 See also:
 
 * [[Gil R. Cavalcanti]]: *T-duality for transgressive fibrations* &lbrack;[arXiv:2503.20143](https://arxiv.org/abs/2503.20143)&rbrack;
+
+* [[Gil R. Cavalcanti]]: *Massey products, sphere bundles and T-duality* &lbrack;[arXiv:2606.12004](https://arxiv.org/abs/2606.12004)&rbrack;
+
 
 
 [[!redirects spherical T-dualities]]
