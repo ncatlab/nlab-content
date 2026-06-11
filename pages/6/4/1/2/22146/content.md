@@ -47,7 +47,10 @@ Concerning [[measurement-based quantum computation|measurement-based quantum gat
 
 See also:
 
-* Yusuke Masaki, Takeshi Mizushima, [[Muneto Nitta]], *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* $[$[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)$]$
+* Yusuke Masaki, Takeshi Mizushima, [[Muneto Nitta]], *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* $[$[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)\]
+
+* Zhi-Qiang Gao, Yan-Qi Wang, Hui Yang, Congjun Wu: *Topological Charge-2ne Superconductors* \[<a href="https://arxiv.org/abs/2512.21325">arXiv:2512.21325</a>\]
+
 
 
 
