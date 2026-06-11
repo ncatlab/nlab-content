@@ -13,9 +13,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc} 
+
+
+
+\tableofcontents
 
 
 ## Idea
@@ -42,7 +43,7 @@ $$
 
 Deligne cohomology $H^{n+1}_{conn}(X, \mathbb{Z})$ in degree $(n+1)$ is the [[abelian sheaf cohomology]] with [[coefficients]] in this [[chain complex]] of [[sheaves of abelian groups]] ("[[hypercohomology]]"). 
 
-This was introduced in ([Deligne 71, Section 2.2](#Deligne71)) in the context of [[analytic geometry]] (hence using [[holomorphic differential forms]]) as a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]]. But the form of the definition applies more generally, in particular also in smooth [[differential geometry]], a fact amplified and popularized in ([Brylinski 93](#Brylinski93)).
+This was introduced in ([Deligne 71, Section 2.2](#Deligne71)) in the context of [[analytic geometry]] (hence using [[holomorphic differential forms]]) as a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]]. But the form of the definition applies more generally, in particular also in smooth [[differential geometry]], a fact amplified and popularized by [Brylinski 1993](#Brylinski93).
 
 In smooth [[differential geometry]] the typical minor variant has the sheaf $\underline{U}(1) = C^\infty(-,U(1))$ of [[circle group]]-valued [[smooth functions]] in degree $n$:
 
@@ -2135,11 +2136,11 @@ Identifying the [[background field|background]] [[B-field]] in [[2d CFT]] ([[wor
 
 * [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
-Surveys and introductions in the context of [[differential geometry]] include
+Surveys and introductions in the context of [[differential geometry]]:
 
-* {#Brylinski93} [[Jean-Luc Brylinski]], section I.5 of: _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkh&#228;user 1993 ([doi:10.1007/978-0-8176-4731-5](https://link.springer.com/book/10.1007/978-0-8176-4731-5))
+* {#Brylinski93} [[Jean-Luc Brylinski]]; §I.5 of: _Loop Spaces, Characteristic Classes and Geometric Quantization_, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](http://doi.org/10.1007/978-0-8176-4731-5), §I.5:[[Brylinski-DeligneCohomology.pdf|pdf:file]]&rbrack;
 
-* {#Bunke12} [[Ulrich Bunke]], section 3 of _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
+* {#Bunke12} [[Ulrich Bunke]], section 3 of _Differential cohomology_ &lbrack;[arXiv:1208.3961](http://arxiv.org/abs/1208.3961)&rbrack;
 
 Review with more emphasis on [[complex analytic geometry]] and the theory of ([Beilinson 85](#Beilinson85)) with more details spelled out is in
 
@@ -2147,16 +2148,17 @@ Review with more emphasis on [[complex analytic geometry]] and the theory of ([B
 
 * {#Esnault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
 
-See also
-
+See also:
 
 * {#PetersSteenbrink08} [[Chris Peters]], [[Jozef Steenbrink]], section 7.2 of _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
 
 * {#Voisin02} [[Claire Voisin]], section 12 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
+* {#Barwick2012} [[Clark Barwick]]: *Deligne Cohomology*, notes for a talk at Hopkins' seminar, Harvard (2012) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/thsem2012.pdf), [[Barwick-DeligneCohomology.pdf|pdf:file]]&rbrack;
+
 Discussion of Deligne cohomology as classifying higher [[bundle gerbes]] ([[bundle 2-gerbes]], etc.) [[connection on a bundle gerbe|with connection]]:
 
-* [[Pawel Gajer]], _Geometry of Deligne cohomology_, Invent. Math., 127(1):155-207 (1997) ([arXiv:alg-geom/9601025](http://arxiv.org/abs/alg-geom/9601025), [doi:10.1007/s002220050118](https://doi.org/10.1007/s002220050118))
+* [[Pawel Gajer]], _Geometry of Deligne cohomology_, Invent. Math. **127** 1 (1997) 155--207 &lbrack;[arXiv:alg-geom/9601025](http://arxiv.org/abs/alg-geom/9601025), [doi:10.1007/s002220050118](https://doi.org/10.1007/s002220050118)&rbrack;
 
 
 Discussion of Deligne cohomology in terms of [[simplicial presheaves]] and [[higher stacks]] includes
@@ -2166,7 +2168,6 @@ Discussion of Deligne cohomology in terms of [[simplicial presheaves]] and [[hig
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
 
 * [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv:1212.2173](http://arxiv.org/abs/1212.2173)
-
   > (cf. [[Hodge-filtered differential cohomology]])
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _A higher stacky perspective on Chern-Simons theory_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
