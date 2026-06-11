@@ -1,7 +1,14 @@
 
 * [webpage](http://ipht.cea.fr/en/Pisp/bertrand.eynard/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[random matrix theory]]:
+
+* [[Bertrand Eynard]], [[Taro Kimura]], [[Sylvain Ribault]]: *Random matrices* &lbrack;[arXiv:1510.04430](https://arxiv.org/abs/1510.04430)&rbrack;
+
+
+## Related entries
 
 * [[topological recursion]]
 
