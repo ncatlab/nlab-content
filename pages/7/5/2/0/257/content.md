@@ -191,21 +191,16 @@ Given a model category in the sense of def. \ref{ModelCategory}, then its class 
 
 Let
 
-$$
-  \array{
-    id \colon & A &\longrightarrow& X &\longrightarrow& A
-    \\
-    & 
-    {}^{\mathllap{f}}
-    \downarrow
-      &&
-    \downarrow^{\mathrlap{w}}
-      &&
-    \downarrow^{\mathrlap{f}}
-    \\
-    id \colon & B &\longrightarrow& Y &\longrightarrow& B
-  }
-$$
+\begin{center}
+\begin{tikzcd}
+\operatorname{id}:A \arrow[r]\arrow[d,"f",shift left=1em]&
+X\arrow[d,"w"] \arrow[r]&
+A\arrow[d,"f"]\\
+\operatorname{id}: B\arrow[r]&
+Y\arrow[r]&
+B
+\end{tikzcd}
+\end{center}
 
 be a [[commuting diagram]] with $w \in W$ a weak equivalence. We need to show that then also $f \in W$.
 
@@ -213,77 +208,39 @@ First consider the case that $f \in Fib$.
 
 In this case, factor $w$ as a cofibration followed by an acyclic fibration. Since $w \in W$ and by [[two-out-of-three]] this is even a factorization through an acyclic cofibration followed by an acyclic fibration. Hence we obtain the commuting diagram
 
-$$
-  \array{
-    id \colon 
-    & 
-    A 
-      &\longrightarrow& 
-    X 
-      &\overset{\phantom{AAAA}}{\longrightarrow}& A
-    \\
-    & 
-    {}^{\mathllap{id}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\in W \cap Cof}}
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    id \colon
-    & A' &\overset{s}{\longrightarrow}& 
-     X' 
-     &\overset{\phantom{AA}t\phantom{AA}}{\longrightarrow}& A'
-    \\
-    &
-    {}^{\mathllap{f}}_{\mathllap{\in Fib}}
-    \downarrow
-      &&
-    \downarrow^{\mathrlap{\in W \cap Fib}}
-      &&
-    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
-    \\
-    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
-  }
-  \,,
-$$
+\begin{center}
+\begin{tikzcd}
+\operatorname{id}:A \arrow[r]\arrow[d,"\operatorname{id}",shift left=1em]&
+X\arrow[d,"\in \text{W} \cap \text{Cof}"] \arrow[r]&
+A\arrow[d,"\operatorname{id}"]\\
+\operatorname{id}: A\arrow[r,"s"]\arrow[d,"f\in\text{Fib}",shift left=1em]&
+X'\arrow[r,"t"]\arrow[d,"\in \text{W} \cap \text{Fib}"]&
+A\arrow[d,"f\in\text{Fib}"]\\
+\operatorname{id}: B \arrow[r] &
+ Y \arrow[r] &
+ B
+\end{tikzcd}
+\end{center}
 
 where $s$ is uniquely defined and where $t$ is any lift of the top middle vertical acyclic cofibration against $f$. This now exhibits $f$ as a retract of an acyclic fibration. These are closed under retract by [this prop.](weak+factorization+system#ClosuredPropertiesOfWeakFactorizationSystem).
 
 Now consider the general case. Factor $f$ as an acyclic cofibration followed by a fibration and form the pushout in the top left square of the following diagram
 
-$$
-  \array{
-    id \colon 
-    & 
-    A 
-      &\longrightarrow& 
-    X 
-      &\overset{\phantom{AAAA}}{\longrightarrow}& A
-    \\
-    & 
-    {}^{\mathllap{\in W \cap Cof}}\downarrow
-      &(po)&
-    \downarrow^{\mathrlap{\in W \cap Cof}}
-      &&
-    \downarrow^{\mathrlap{\in W \cap Cof}}
-    \\
-    id \colon
-    & A' &\overset{}{\longrightarrow}& 
-     X' 
-     &\overset{\phantom{AA}\phantom{AA}}{\longrightarrow}& A'
-    \\
-    &
-    {}^{\mathllap{\in Fib}}
-    \downarrow
-      &&
-    \downarrow^{\mathrlap{\in W }}
-      &&
-    \downarrow^{\mathrlap{\in Fib}}
-    \\
-    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
-  }
-  \,,
-$$
+\begin{center}
+\begin{tikzcd}
+\operatorname{id}:A 
+\arrow[r]\arrow[d,"\in \text{W} \cap \text{Cof}",shift left=1em] 
+\arrow[dr, phantom,"\ulcorner"{pos=1}]&
+X\arrow[d,"\in \text{W} \cap \text{Cof}"] \arrow[r]&
+A\arrow[d,"\in \text{W} \cap \text{Cof}"]\\
+\operatorname{id}: A'\arrow[r]\arrow[d,"\in \text{Fib}",shift left=1em]&
+X'\arrow[r]\arrow[d,"\in \text{W}"]&
+A'\arrow[d,"\in\text{Fib}"]\\
+\operatorname{id}: B \arrow[r] &
+ Y \arrow[r] &
+ B
+\end{tikzcd}
+\end{center}
 
 where the other three squares are induced by the [[universal property]] of the pushout, as is the identification of the middle horizontal composite as the identity on $A'$. Since acyclic cofibrations are closed under forming pushouts by [this prop.](weak+factorization+system#ClosuredPropertiesOfWeakFactorizationSystem), the top middle vertical morphism is now an acyclic fibration, and hence by assumption and by [[two-out-of-three]] so is the middle bottom vertical morphism.
 
