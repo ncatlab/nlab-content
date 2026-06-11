@@ -12,6 +12,28 @@
 
 
 
+
+$$
+  J 
+    \;=\;
+    \sum_i f_i \theta_i 
+      + 
+    \sum_j g_j d \theta_j 
+    f_i, g_j \in C^\infty(X)
+  \,.
+$$
+
+
+\begin{xymatrix}
+Q B \ar[d] \ar[r] & Q A \sqcup Q B \ar[d] \ar[r] & A \sqcup Q B \ar[d]\cr
+  B        \ar[r] & Q A \sqcup   B        \ar[r] & A \sqcup   B       \cr
+\end{xymatrix}
+
+
+_________
+
+
+
 ## Via cohomology of complex projective space
  {#ViaCellularCohomology}
 
@@ -348,3 +370,4 @@ so for each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, eith
 
 We can conclude from this fact that $n = 0$ or $n = 1$.
 \end{proof}
+
