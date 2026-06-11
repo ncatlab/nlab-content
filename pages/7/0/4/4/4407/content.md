@@ -101,9 +101,6 @@ according to how we chose $\delta$ in 2. We conclude by observing the strict ine
 $${|f(z')|} \leq {|F(z')|} + {|f(z') - F(z')|} \lt {|f(z_0)|} - r + r = {|f(z_0)|},$$ 
 which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z_0$.  
 
-
-
-
 ## Via cohomology of complex projective space
  {#ViaCellularCohomology}
 
@@ -212,7 +209,7 @@ $$
   \mathrlap{\,.}
 $$
 
-But these coefficients must satisfy the two equations which are the image in degree-2 [[integral cohomology]] of the two [[unit laws]] (the first assumed property on $K$):
+These coefficients must satisfy the two equations which are the image in degree-2 [[integral cohomology]] of the two [[unit laws]] (the first assumed property on $K$):
 
 $$ 
   H^2 \left( 
@@ -246,15 +243,15 @@ $$
   \mathrlap{\,.}
 $$
 
-There is an [[isomorphism]] of [[Hopf algebras]] in [[integral cohomology]] of 
+There is an [[isomorphism]] of [commutative algebras](https://ncatlab.org/nlab/show/commutative+algebra) of
 
 $$
   \big(
-    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[c]
   \big) 
     \otimes_{\mathbb{Z}}
   \big(
-    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[c]
   \big)  
     \cong  
   H^\bullet\big(
@@ -274,40 +271,38 @@ $$
   \mathrlap{\,.}
 $$
 
-But $H^\bullet(\mu;\mathbb{Z})$ is a [[ring homomorphism]], so
+Where $H^\bullet(-; \mathbb{Z})$ is the [[integral cohomology]] of a topological space.
+
+$H^\bullet(\mu;\mathbb{Z})$ is in fact a [[ring homomorphism]], hence we have
 
 $$
-  H^\bullet(\mu;\mathbb{Z})(c^n) 
-    = 
-  (1 \textstyle{\otimes} c + c \textstyle{\otimes} 1)^n 
-    = 
-  \sum_{i = 0}^n 
-  {\binom{n}{i}}\, 
-    (1 \otimes c)^i \cdot (c \otimes 1)^{n-i} 
-    = 
-  \sum_{i = 0}^n 
-  {\binom{n}{i}}\, 
-    c^{n-i} \otimes c^{i}
+\begin{aligned}
+ 0 = &  H^{\bullet}(\mu; \mathbb{Z})(c^n) \\
+  = &  (1 \otimes c + c \otimes 1)^n \\
+  = &  \sum_{i=0}^{n} \binom{n}{i} (1 \otimes c)^i (c \otimes 1)^{n-i} \\
+  = &  \sum_{i=0}^{n} \binom{n}{i} c^{n-i} \otimes c^{i} \\
+  = &  \sum_{0 \lt i \lt n} \binom{n}{i} c^{n-i} \otimes c^{i}
+\end{aligned}
 $$
 
-as elements of the commutative Hopf algebra
-
+As elements of the tensor product
+ 
 $$
   H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) 
     \otimes_{\mathbb{Z}} 
   H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z})  
    \;\cong\; 
   \left( 
-    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+    \mathbb{Z}[[c]]/c^n \mathbb{Z}[[c]] 
   \right) 
     \otimes_{\mathbb{Z}}
   \left( 
-    \mathbb{Z}[x]/x^n \mathbb{Z}[x] 
+    \mathbb{Z}[[c]]/c^n \mathbb{Z}[[c]]
   \right)
   \mathrlap{\,.}
 $$
 
-The left-hand side is $0$.
+of the algebra $H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) \cong \mathbb{Z}[[c]]/c^n \mathbb{Z}[[c]]$ with itself. 
 
 The right hand side is 
 
@@ -337,103 +332,98 @@ is not zero, which contradicts that $c^n$ is zero using the above equation.
 This implies $n = 1$ and hence the claim.
 \end{proof}
 
-{#TwoLemmas} The following two theorems about the power-series algebra $\mathbb{R}[[x]]$ over $\mathbb{R}$ and the Hopf-algebra structure on $\mathbb{R}[[x]]$ apply to a modified form of the above proof which uses cellular cohomology with coefficients in $\mathbb{R}$ instead of cellular cohomology with coefficients in $\mathbb{Z}$:
-
-\begin{theorem} (ideals of a power series ring over the field of real numbers) let $I \subseteq \mathbb{R}[[x]]$ be a nonzero ideal of the algebra of power-series over $\mathbb{R}[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot \mathbb{R}[[x]]$.
-\end{theorem}
-
-\begin{proof} let $f = \sum_{i =0}^{\infty} a_i x^i$ be a nonzero element of $I$ chosen to satisfy 
-
-* $a_n = 1$ where $n = \mathrm{min} \{ i \in \mathbb{N} : a_i \neq 0 \}$. 
-
-* of all nonzero $g \in I$, $\mathrm{min} \left\{   \mathrm{min} \{ i \in \mathbb{N} : b_i \neq 0 \} : b_i \in \mathbb{R}, \sum_{i = 0}^{\infty} b_i x^i \in I  \right\}$
-
-Such an element exists since, if $g = \sum_{i=0}^{\infty} b_i x^i$ is any nonzero element of $I$ satisfying the second property, then we can set
-
-$$ 
-f = \sum_{i = 0}^{\infty} b_{\mathrm{min} \{ j \in \mathbb{N} : b_j \neq 0 \} }^{-1} \cdot b_i \cdot x^i 
-$$
-
-Define a sequence $f_k = \sum_{i =0}^{\infty} a_{k,i} x^i$ by induction on $k \in \mathbb{N}$ satisfying the inductive hypothesis that $a_{k,i} = 0$ for $i \in \mathbb{N}$ such that
-
-* $i \leq n + k$
-
-* $i \neq n$
-
-For the case in which $k = 0$, set $f_0 = f$. 
-
-For the inductive case, suppose that for some $k \in \mathbb{N}$ we have defined $f_k = \sum_{i = 0}^{\infty} a_{k,i} x^i$ satisfying $a_{k,i} = 0$ for $i \in \mathbb{N}$ such that
-
-* $i \leq n + k$
-
-* $i \neq n$
+{#TwoLemmas} This proof can be modified to pertain to a fact about the cellular or singular [[cohomology]] of $\mathbb{C}P^{\infty}$ with coefficients in $\mathbb{R}$ of $H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R})$. As an $\mathbb{R}$-algebra, there is an isomorphism
 
 $$
-f_{k+1} = \sum_{i = 0}^{\infty} a_{k+1,i} x^i = f_k ( 1 - a_{k,n+k+1} x^{k} )
+H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \cong \mathbb{R}[[c]]
 $$
 
-Then $a_{k+1,i} = 0$ for $i \in \mathbb{N}$ such that 
-
-* $i \leq n + k + 1$
-
-* $i \neq n$
-
-This concludes the construction of the elements 
-
-$$ f_{k} = \sum_{i = 1}^{\infty} a_{k,i} x^i \in \mathbb{R}[[x]] $$
-
-Next consider the sequence
+There is a comultiplication on $H^{\bullet}(\mathbb{C}P^{\infty} ; \mathbb{R})$ which is related to the [complex orientation](https://ncatlab.org/nlab/show/complex+oriented+cohomology+theory#DefInTermsOfGeneralizedFirstChernClass) on the [Eilenberg-Maclane spectrum](https://ncatlab.org/nlab/show/Eilenberg-Mac+Lane+spectrum) $H\mathbb{R}$. More precisely, there is a map of $\mathbb{R}$-algebras
 
 $$
-g_m = \sum_{j = 0}^{m} b_{m,j} x^j = \Pi_{k = 0}^{m} ( 1 - a_{k,n+k+1} x^{k} ) \in \mathbb{R}[[x]]
+\Delta : H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \rightarrow H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) {\hat{\otimes}}_{\mathbb{R}} H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
 $$
 
-and consider that 
+which is the unique map of $\mathbb{R}$-algebras such that 
 
 $$
-b_{m+\ell, j} = b_{m, j}
+\Delta(x) = c \otimes 1 + 1 \otimes c 
 $$
 
-for $j \leq m+1$. This identity implies that 
+When $\mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]$ is identified with $\mathbb{R}[[x,y]]$, this is the additive formal group law on $\mathbb{R}$.
 
+Then we have the following facts:
+
+* $H^{\bullet} ( \mathbb{C}P^n ; \mathbb{R}) \cong \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]$ as an $\mathbb{R}$-algebra
+
+* Any continuous binary operation on $\mathbb{C}P^{n}$ with a unit (satisfying the left and right unit identities) induces a quotient of the $\mathbb{R}$-algebra $\mathbb{R}[[c]]$ which commutes with the comultiplication in the sense that the following diagram commutes
+
+\begin{xymatrix}
+\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] \ar[d]  \cr
+ \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]        \ar[r] & ( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]]) \hat{\otimes} (\mathbb{R}[[c]]/c^n \mathbb{R}[[c]])         \cr
+\end{xymatrix}
+
+The ideals of the [power-series ring](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field)  $\mathbb{R}[[c]]$ are entirely of the form $ c^n \cdot \mathbb{R}[[c]]$.
+
+\begin{theorem} let $H = \mathbb{R}[[c]]$ be the $\mathbb{R}$-algebra defined above with a $\mathbb{R}$ with multiplication 
 $$
- g = \Pi_{k =0}^{\infty} (1 - a_{k,n+k+1} x^k )
+\mu : \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] \rightarrow \mathbb{R}[[c]]
 $$
-
-is well defined.
-
-For each $m \in \mathbb{N}$, $f \cdot g_m$ agrees with $x^n$ through degree $n + m$. The coefficients of $f \cdot g$ and $x^n$ agree in every degree, so $fg = x^n$
-\end{proof}
-
-\begin{theorem} let $H = \mathbb{R}[[x]]$ be the Hopf-algebra over $\mathbb{R}$ with multiplication defined by
+defined by
 $$
-\mu \left( \sum_{i= 0}^{\infty} a_i x^i \otimes \sum_{i=0}^{\infty} b_i x^i \right)
+\mu \left( \sum_{i= 0}^{\infty} a_i c^i \otimes \sum_{i=0}^{\infty} b_i c^i \right)
 =
-\sum_{i=0}^{\infty} \sum_{i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } a_{i_1} b_{i_2} x^{i} 
+\sum_{i=0}^{\infty} \sum_{\ i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } a_{i_1} b_{i_2} c^{i} 
 $$
-and comultiplication defined by setting
+and comultiplication 
+$$
+\Delta : \mathbb{R}[[c]] \rightarrow \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]
+$$
+defined by setting
+
 $$ 
-\Delta \left( x \right) = x \otimes 1 + 1 \otimes x
-$$ 
-The Hopf-ideals of $H$ are $\{ 0 \} , x \cdot \mathbb{R}[[x]]$, and $\mathbb{R}[[x]]$.
+\Delta \left( c \right) = c \otimes 1 + 1 \otimes c
+$$
+ 
+Let $I \subset \mathbb{R}[[c]]$ be an ideal of $\mathbb{R}[[c]]$ such that
+ 
+$$
+\Delta (I) \subseteq I \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} I
+$$
+
+Then $I$ must be one of the following ideals:
+
+* $\{ 0 \}$
+
+* $c \cdot \mathbb{R}[[c]]$
+
+* $\mathbb{R}[[c]]$
+
 \end{theorem}
 
-\begin{proof} let $I$ be a nonzero ideal of $\mathbb{R}[[x]]$. By the previous theorem, $I = x^n \cdot \mathbb{R}[[x]]$ for some $n \in \mathbb{N}$. 
+\begin{proof} let $I$ be a nonzero ideal of $\mathbb{R}[[c]]$. From the theorem [here](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field), $I = c^n \cdot \mathbb{R}[[c]]$ for some $n \in \mathbb{N}$. 
+
+We have
 
 $$
-\Delta(x^n) = \Delta (x)^n = (x \otimes 1 + 1 \otimes x)^n = \sum_{ i = 0 }^n { \binom{n}{i} } x^i \otimes x^{n - i} \in (x^n \cdot \mathbb{R}[[x]]) \otimes \mathbb{R}[[x]] + \mathbb{R}[[x]] \otimes (x^n \cdot \mathbb{R}[[x]])
+\begin{aligned}
+  \Delta(c^n) 
+= & \Delta (c)^n \\
+= & (c \otimes 1 + 1 \otimes c)^n \\
+= & \sum_{ i = 0 }^n { \binom{n}{i} } c^i \otimes c^{n - i} \in (c^n \cdot \mathbb{R}[[c]]) \hat{\otimes} \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes} (c^n \cdot \mathbb{R}[[c]])
+\end{aligned}
 $$
 
 For each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, 
 
-$$x^i \otimes x^j \in (x^n \cdot \mathbb{R}[[x]]) \otimes \mathbb{R}[[x]] + \mathbb{R}[[x]] \otimes (x^n \cdot \mathbb{R}[[x]])$$
+$$c^i \otimes c^j \in (c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}} (c^n \cdot \mathbb{R}[[c]])$$
 
-We can express $(x^n \cdot \mathbb{R}[[x]]) \otimes \mathbb{R}[[x]] + \mathbb{R}[[x]] \otimes (x^n \cdot \mathbb{R}[[x]])$ as a span of an $\mathbb{R}$-basis:
+We can express $(c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])$ as a span of an $\mathbb{R}$-basis:
 
 $$
-(x^n \cdot \mathbb{R}[[x]]) \otimes \mathbb{R}[[x]] + \mathbb{R}[[x]] \otimes (x^n \cdot \mathbb{R}[[x]])
+(c^n \cdot \mathbb{R}[[c]])   \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]   \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])
 =
-\mathrm{span} \left\{ x^i \otimes x^j : n \leq i \text{ or } n \leq j \right\}
+\mathrm{span} \left\{ c^i \otimes c^j : n \leq i\ \text{ or }\ n \leq j \right\}
 $$
 
 so for each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, either $n \leq i$ or $n \leq j$.
