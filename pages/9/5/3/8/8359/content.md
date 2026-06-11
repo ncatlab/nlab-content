@@ -16,9 +16,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -114,7 +113,18 @@ Introduction and survey:
 
 See also:
 
-* Wikipedia, _[Friedmann&#8211;Lema&#238;tre&#8211;Robertson&#8211;Walker metric](http://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric)_
+* Wikipedia: _[Friedmann&#8211;Lema&#238;tre&#8211;Robertson&#8211;Walker metric](http://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric)_
+
+On the (in)stability of FRW solutions against perturbations:
+
+* Sergey S. Kokarev: *Structural instability of Friedmann-Robertson-Walker cosmological models*, Gen. Rel. Grav. **41** (2009) 1777--1794 \[<a href="https://doi.org/10.1007/s10714-008-0748-8">doi:10.1007/s10714-008-0748-8</a>, [arXiv:0810.5080](https://arxiv.org/abs/0810.5080)\]
+
+* {#SmollerTempleVogler14} [[Joel Smoller]], [[Blake Temple]], [[Zeke Vogler]]: _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A **473** 2207 (2017) 20160887 &lbrack;[arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [doi:10.1098/rspa.2016.0887](http://doi.org/10.1098/rspa.2016.0887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553)&rbrack;
+
+* [[Christopher Alexander]], [[Blake Temple]], [[Zeke Vogler]]: *The Instability of the Critical Friedmann Spacetime at the Big Bang as an Alternative to Dark Energy*, Proc. A **482** 2338 (2026) 20250912 \[<a href="https://doi.org/10.1098/rspa.2025.0912">doi:10.1098/rspa.2025.0912</a>, [arXiv:2510.14228](https://arxiv.org/abs/2510.14228)\]
+
+
+
 
 Discussion in [[Regge calculus]]:
 
