@@ -157,19 +157,27 @@ given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \l
  
 If $R$ is a [[field]] then the nonzero [[ideals]] of the power series ring are entirely of the form $x^n R[[x]]$:
 
-\begin{lemma} (ideals of a power series ring over the field of real numbers) let $R$ be a field and let $I \subseteq R[[x]]$ be a nonzero ideal of the algebra of power-series over $R[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot R[[x]]$.
+\begin{lemma} (ideals of a power series ring over a field) let $R$ be a field and let $I \subseteq R[[x]]$ be a nonzero ideal of the algebra of power-series over $R[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot R[[x]]$.
 \end{lemma}
 
 \begin{proof} let $f = \sum_{i =0}^{\infty} a_i x^i$ be a nonzero element of $I$ chosen to satisfy 
 
 * $a_n = 1$ where $n = \mathrm{min} \{ i \in \mathbb{N} : a_i \neq 0 \}$. 
 
-* of all nonzero $g  = \sum_{i = 0}^{\infty} b_i x^i \in I$, $\mathrm{ord}(g) := \mathrm{min} \{ i \in \mathbb{N} : b_i \neq 0 \}$ is the minimum possible value.
+* for each nonzero $g  = \sum_{i = 0}^{\infty} b_i x^i \in I$, 
 
-Such an element exists since, if $g = \sum_{i=0}^{\infty} b_i x^i$ is any nonzero element of $I$ satisfying the second property, then we can set
+$$
+\mathrm{ord}(f)\ \leq\ \mathrm{ord}(g)
+$$ 
+
+where for a given nonzero element $h = \sum_{i =0}^{\infty} c_i x^i$ in $R[[x]]$, 
+
+$$\mathrm{ord}(h) = \mathrm{min} \{ i \in \mathbb{N} : c_i \neq 0 \}$$
+
+Such an element exists since, if $f' = \sum_{i=0}^{\infty} a_i' x^i$ is any nonzero element of $I$ satisfying the second property, then we can set
 
 $$ 
-f = \sum_{i = 0}^{\infty} b_{\mathrm{min} \{ j \in \mathbb{N} : b_j \neq 0 \} }^{-1} \cdot b_i \cdot x^i 
+f = \sum_{i = 0}^{\infty} a_{\mathrm{min} \{ j \in \mathbb{N} : a_j' \neq 0 \} }'{}^{-1} \cdot a_i' \cdot x^i 
 $$
 
 Define a sequence $f_k = \sum_{i =0}^{\infty} a_{k,i} x^i$ by induction on $k \in \mathbb{N}$ satisfying the inductive hypothesis that $a_{k,i} = 0$ for $i \in \mathbb{N}$ such that
