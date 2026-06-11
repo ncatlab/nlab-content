@@ -20,9 +20,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -888,7 +886,13 @@ Early discussion of coupling the GS superstring to general [[background fields]]
 
 * {#Gates90} [[S. James Gates Jr.]]: *Progress Toward Covariant Formulation of All $D=4$ GS-type $\sigma$-model Actons*, in: *Superstrings and Particle Theory*, Proceedings of the Conference in Tuscaloosa 8–11 November 1989, World Scientific (1990) &lbrack;[doi:10.1142/1051](https://doi.org/10.1142/1051), [[Gates-D4GSModels.pdf:file]]&rbrack;
 
-A standard textbook reference for the GS superstring is
+Quick review in view of the alternative [[NSR superstring]] model and the [[superembedding formalism]]:
+
+* {#Sorokin01} [[Dmitri Sorokin]], *Introduction to the Superembedding Description of Superbranes*, AIP Conference Proceedings **589** 98 (2001) &lbrack;[arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102), [doi:10.1063/1.1419318](https://doi.org/10.1063/1.1419318)&rbrack;
+
+
+
+Textbook account:
 
 * {#GreenSchwarzWitten} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], volume 1, section 5 of _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
