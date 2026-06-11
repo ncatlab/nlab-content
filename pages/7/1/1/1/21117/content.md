@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -488,6 +486,8 @@ See also:
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
 
 * {#AlbertECZ} [[Victor V. Albert]] et al.,  *[errorcorrectionzoo.org](https://errorcorrectionzoo.org)*
+
+* [[Victor V. Albert]], Philippe Faist: *Handbook of Error-Correcting Codes* &lbrack;[arXiv:2606.11484](https://arxiv.org/abs/2606.11484)&rbrack;
 
 
 In the context of [[quantum secret sharing]]:
