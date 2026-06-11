@@ -1,7 +1,5 @@
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -25,7 +23,10 @@ Review:
 
 * Wikipedia, _[Random matrix](http://en.wikipedia.org/wiki/Random_matrix)_
 
-* [[Terrence Tao]], _Topics in random matrix theory_ [pdf](https://www.math.hkbu.edu.hk/~ttang/UsefulCollections/matrix-book-2011-08.pdf)
+* [[Terence Tao]], _Topics in random matrix theory_ &lbrack;[pdf](https://www.math.hkbu.edu.hk/~ttang/UsefulCollections/matrix-book-2011-08.pdf)&rbrack;
+
+* [[Bertrand Eynard]], [[Taro Kimura]], [[Sylvain Ribault]]: *Random matrices* &lbrack;[arXiv:1510.04430](https://arxiv.org/abs/1510.04430)&rbrack;
+
 
 See also:
 
