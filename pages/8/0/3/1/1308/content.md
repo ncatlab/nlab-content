@@ -166,6 +166,11 @@ Formulation in [[braided monoidal categories]]:
 
 * {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], Prop. 6.29 in: *Monoidal Functors, Species and Hopf Algebras*, CRM  Monograph Series **29**, AMS (2010) &lbrack;[ISBN:978-0-8218-4776-3](https://bookstore.ams.org/view?ProductCode=CRMM/29), [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf)&rbrack;
 
+See also:
+
+* [[Eugenia Cheng]], Alexander S. Corner: *A higher-order Eckmann-Hilton argument* &lbrack;[arXiv:2606.12357](https://arxiv.org/abs/2606.12357)&rbrack;
+
+
 
 [[!redirects Eckmann-Hilton argument]]
 [[!redirects Eckmann-Hilton arguments]]
