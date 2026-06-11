@@ -50,7 +50,9 @@ On [[topological order]] described by [[braided fusion categories]] via [[local 
 
 * [[Pieter Naaijkens]], [[David Penneys]], Daniel Wallick: *Local topological order, Haag duality, and reflection positivity* \[<a href="https://arxiv.org/abs/2605.10693">arXiv:2605.10693</a>\]
 
+On [[2-Hilbert spaces]]:
 
+* [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
 
 
 category: people
