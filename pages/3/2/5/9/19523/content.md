@@ -15,9 +15,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -37,7 +37,7 @@ The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be n
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16), [MRS 21](#MRS21)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] and the observational preference for [[phantom dark energy]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
- [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
+ [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20), [Alexander, Temple & Vogler 2026](#AlexanderTempleVogler2026).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the [H0-tension](Hubble+constant#H0TensionReferences) is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20), [SnowmassWhitePaper22, Section VII.H](#WhitePaper22).
 
@@ -77,7 +77,7 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 
 ### Data and models
 
-{#AbstractSmollerTempleVogler14} An analytic proof of this qualitative picture is claimed in [Smoller-Temple-Vogler 14](#SmollerTempleVogler14):
+{#AbstractSmollerTempleVogler14} An analytic proof of this qualitative picture is claimed in [Smoller, Temple & Vogler 2014](#SmollerTempleVogler14) (cf. [Alexander, Temple & Vogler 2026](#AlexanderTempleVogler2026)):
 
 > Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
@@ -373,14 +373,12 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
  
 * {#Blomqvist10} Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
 
-
 * {#BuchertRasanen11} [[Thomas Buchert]], [[Syksy Räsänen]], _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
 
-* {#SmollerTempleVogler14} Joel Smoller, Blake Temple, Zeke Vogler, _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A, 2017 ([arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [10.1098/rspa.2016.0887](http://rspa.royalsocietypublishing.org/content/473/2207/20160887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553))
+* {#SmollerTempleVogler14} [[Joel Smoller]], [[Blake Temple]], [[Zeke Vogler]]: _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A **473** 2207 (2017) 20160887 &lbrack;[arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [doi:10.1098/rspa.2016.0887](http://doi.org/10.1098/rspa.2016.0887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553)&rbrack;
 
 * {#Ludwick15} Kevin J. Ludwick, _Examining the Viability of Phantom Dark Energy_, Phys. Rev. D 92, 063019 (2015) ([arXiv:1507.06492](https://arxiv.org/abs/1507.06492))
-
-  (on [[phantom dark energy]])
+  > (on [[phantom dark energy]])
 
 * {#OdderskovKoksbangHannestad16} I. Odderskov, S. M. Koksbang, S. Hannestad, _The Local Value of $H_0$ in an Inhomogeneous Universe_, JCAP02(2016)001 ([arXiv:1601.07356](https://arxiv.org/abs/1601.07356))
 
@@ -431,6 +429,7 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * Jing-Yi Jia, Jia-Lei Niu, Da-Chun Qiang, Hao Wei: *Alleviating the Hubble Tension with a Local Void and Transitions of the Absolute Magnitude* &lbrack;[arXiv:2504.13380](https://arxiv.org/abs/2504.13380)&rbrack;
 
+* {#AlexanderTempleVogler2026} [[Christopher Alexander]], [[Blake Temple]], [[Zeke Vogler]]: *The Instability of the Critical Friedmann Spacetime at the Big Bang as an Alternative to Dark Energy*, Proc. A **482** 2338 (2026) 20250912 \[<a href="https://doi.org/10.1098/rspa.2025.0912">doi:10.1098/rspa.2025.0912</a>, [arXiv:2510.14228](https://arxiv.org/abs/2510.14228)\]
 
 
 
