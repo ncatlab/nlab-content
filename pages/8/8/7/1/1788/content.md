@@ -180,11 +180,11 @@ There is an [[isomorphism]] of [commutative algebras](https://ncatlab.org/nlab/s
 
 $$
   \big(
-    \mathbb{Z}[c]/c^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[c]
   \big) 
     \otimes_{\mathbb{Z}}
   \big(
-    \mathbb{Z}[c]/c^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[c]
   \big)  
     \cong  
   H^\bullet\big(
@@ -209,20 +209,16 @@ Where $H^\bullet(-; \mathbb{Z})$ is the [[integral cohomology]] of a topological
 $H^\bullet(\mu;\mathbb{Z})$ is in fact a [[ring homomorphism]], hence we have
 
 $$
-  0 = H^{\bullet}(\mu;\mathbb{Z})(c^n) 
-    = 
-  (1 \textstyle{\otimes} c + c \textstyle{\otimes} 1)^n 
-    = 
-  \sum_{i = 0}^n 
-  {\binom{n}{i}}\, 
-    (1 \otimes c)^i \cdot (c \otimes 1)^{n-i} 
-    = 
-  \sum_{i = 0}^n 
-  {\binom{n}{i}}\, 
-    c^{n-i} \otimes c^{i} = \sum_{i \in \mathbb{N}, 0 \lt i \lt n} c^{n-i} \otimes c^i
+\begin{aligned}
+ 0 = &  H^{\bullet}(\mu; \mathbb{Z})(c^n) \\
+  = &  (1 \otimes c + c \otimes 1)^n \\
+  = &  \sum_{i=0}^{n} \binom{n}{i} (1 \otimes c)^i (c \otimes 1)^{n-i} \\
+  = &  \sum_{i=0}^{n} \binom{n}{i} c^{n-i} \otimes c^{i} \\
+  = &  \sum_{0 \lt i \lt n} \binom{n}{i} c^{n-i} \otimes c^{i}
+\end{aligned}
 $$
 
-As elements of the tensor product of Hopf-algebras of
+As elements of the tensor product
  
 $$
   H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) 
@@ -238,6 +234,8 @@ $$
   \right)
   \mathrlap{\,.}
 $$
+
+of the Hopf-algebra $H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) \cong \mathbb{Z}[[c]]/c^n \mathbb{Z}[[c]]$ with itself. 
 
 The right hand side is 
 
@@ -267,32 +265,34 @@ is not zero, which contradicts that $c^n$ is zero using the above equation.
 This implies $n = 1$ and hence the claim.
 \end{proof}
 
-{#TwoLemmas} the above proof can be modified to pertain to a fact about the cellular or singular [[cohomology]] of $\mathbb{C}P^{\infty}$ with coefficients in $\mathbb{R}$ of $H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R})$. As an $\mathbb{R}$-algebra, there is an isomorphism
+{#TwoLemmas} The above proof can be modified to pertain to a fact about the cellular or singular [[cohomology]] of $\mathbb{C}P^{\infty}$ with coefficients in $\mathbb{R}$ of $H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R})$. As an $\mathbb{R}$-algebra, there is an isomorphism
 
 $$
 H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \cong \mathbb{R}[[c]]
 $$
 
-There is a comultiplication on $H^{\bullet}(\mathbb{C}P^{\infty} ; \mathbb{R})$ which is related to the [complex orientation](https://ncatlab.org/nlab/show/complex+oriented+cohomology+theory#DefInTermsOfGeneralizedFirstChernClass) on the [Eilenberg-Maclane spectrum](https://ncatlab.org/nlab/show/Eilenberg-Mac+Lane+spectrum) $H\mathbb{R}$. Specifically, there is a map of $\mathbb{R}$-algebras
+There is a comultiplication on $H^{\bullet}(\mathbb{C}P^{\infty} ; \mathbb{R})$ which is related to the [complex orientation](https://ncatlab.org/nlab/show/complex+oriented+cohomology+theory#DefInTermsOfGeneralizedFirstChernClass) on the [Eilenberg-Maclane spectrum](https://ncatlab.org/nlab/show/Eilenberg-Mac+Lane+spectrum) $H\mathbb{R}$. More precisely, there is a map of $\mathbb{R}$-algebras
 
 $$
-\Delta : H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \rightarrow H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \hat{\otimes}_{\mathbb{R}} H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
+\Delta : H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \rightarrow H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) {\hat{\otimes}}_{\mathbb{R}} H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
 $$
 
 which is the unique map of $\mathbb{R}$-algebras such that 
 
 $$
-\Delta(x) = x \otimes 1 + 1 \otimes x 
+\Delta(x) = c \otimes 1 + 1 \otimes c 
 $$
+
+When $\mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]$ is identified with $\mathbb{R}[[x,y]]$, this is the additive formal group law on $\mathbb{R}$.
 
 Then we have the following facts:
 
 * $H^{\bullet} ( \mathbb{C}P^n ; \mathbb{R}) \cong \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]$ as an $\mathbb{R}$-algebra
 
-* A continuous binary operation on $\mathbb{C}P^{n}$ with a unit (satisfying the left and right unit identities) induces a quotient of the $\mathbb{R}$-algebra $\mathbb{R}[[c]]$ which commutes with the comultiplication in the sense that the following diagram commutes
+* Any continuous binary operation on $\mathbb{C}P^{n}$ with a unit (satisfying the left and right unit identities) induces a quotient of the $\mathbb{R}$-algebra $\mathbb{R}[[c]]$ which commutes with the comultiplication in the sense that the following diagram commutes
 
 \begin{xymatrix}
-\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes} \mathbb{R}[[c]] \ar[d]  \cr
+\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] \ar[d]  \cr
  \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]        \ar[r] & ( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]]) \hat{\otimes} (\mathbb{R}[[c]]/c^n \mathbb{R}[[c]])         \cr
 \end{xymatrix}
 
@@ -306,7 +306,7 @@ defined by
 $$
 \mu \left( \sum_{i= 0}^{\infty} a_i c^i \otimes \sum_{i=0}^{\infty} b_i c^i \right)
 =
-\sum_{i=0}^{\infty} \sum_{i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } a_{i_1} b_{i_2} c^{i} 
+\sum_{i=0}^{\infty} \sum_{\ i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } a_{i_1} b_{i_2} c^{i} 
 $$
 and comultiplication 
 $$
@@ -324,11 +324,6 @@ $$
 \Delta (I) \subseteq I \otimes_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \otimes_{\mathbb{R}} I
 $$
 
-\begin{xymatrix}
-\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes} \mathbb{R}[[c]] \ar[d]  \cr
- \mathbb{R}[[c]]        \ar[r] &  \mathbb{R}[[c]] \hat{\otimes} \mathbb{R}[[c]]       \cr
-\end{xymatrix}
-
 Then $I$ must be one of the following ideals:
 
 * $\{ 0 \}$
@@ -339,10 +334,17 @@ Then $I$ must be one of the following ideals:
 
 \end{theorem}
 
-\begin{proof} let $I$ be a nonzero ideal of $\mathbb{R}[[c]]$. By the previous theorem, $I = c^n \cdot \mathbb{R}[[c]]$ for some $n \in \mathbb{N}$. 
+\begin{proof} let $I$ be a nonzero ideal of $\mathbb{R}[[c]]$. From the theorem [here](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field), $I = c^n \cdot \mathbb{R}[[c]]$ for some $n \in \mathbb{N}$. 
+
+We have
 
 $$
-\Delta(c^n) = \Delta (c)^n = (c \otimes 1 + 1 \otimes c)^n = \sum_{ i = 0 }^n { \binom{n}{i} } c^i \otimes c^{n - i} \in (c^n \cdot \mathbb{R}[[c]]) \hat{\otimes} \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes} (c^n \cdot \mathbb{R}[[c]])
+\begin{aligned}
+  \Delta(c^n) 
+= & \Delta (c)^n \\
+= & (c \otimes 1 + 1 \otimes c)^n \\
+= & \sum_{ i = 0 }^n { \binom{n}{i} } c^i \otimes c^{n - i} \in (c^n \cdot \mathbb{R}[[c]]) \hat{\otimes} \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes} (c^n \cdot \mathbb{R}[[c]])
+\end{aligned}
 $$
 
 For each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, 
@@ -352,9 +354,9 @@ $$c^i \otimes c^j \in (c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \
 We can express $(c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])$ as a span of an $\mathbb{R}$-basis:
 
 $$
-(c^n \cdot \mathbb{R}[[c]])   \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[x]]   \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])
+(c^n \cdot \mathbb{R}[[c]])   \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]   \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])
 =
-\mathrm{span} \left\{ x^i \otimes x^j : n \leq i \text{ or } n \leq j \right\}
+\mathrm{span} \left\{ c^i \otimes c^j : n \leq i\ \text{ or }\ n \leq j \right\}
 $$
 
 so for each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, either $n \leq i$ or $n \leq j$.
