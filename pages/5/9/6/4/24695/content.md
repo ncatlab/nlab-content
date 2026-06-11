@@ -44,7 +44,9 @@ On the [[10-fold way]] of [[K-theory classification of topological phases of mat
 
 * [[Luuk Stehouwer]]: *Free phases of Majorana fermions: Tenfold ways compared* &lbrack;[arXiv:2507.08694](https://arxiv.org/abs/2507.08694)&rbrack;
 
+On [[2-Hilbert spaces]]:
 
+* [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
 
 
 category: people
