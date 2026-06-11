@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -1331,8 +1329,14 @@ $$
 
 The model structure for dendroidal complete Segal spaces was introduced in 
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
- {#CisinskiMoerdijk}
+* {#CisinskiMoerdijk} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ &lbrack;[arXiv:1010.4956](http://arxiv.org/abs/1010.4956)&rbrack;
+
+See also:
+ 
+* Kensuke Arakawa, Victor Carmona, Francesca Pratali: *Relative dendroidal Rezk nerve and applications* &lbrack;[arXiv:2606.11895](https://arxiv.org/abs/2606.11895)&rbrack;
+
+
+
 
 [[!redirects dendroidal complete Segal space]]
 [[!redirects dendroidal complete Segal spaces]]
