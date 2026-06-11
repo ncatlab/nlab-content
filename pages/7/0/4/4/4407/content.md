@@ -501,7 +501,7 @@ $$
   \mathrlap{\,.}
 $$
 
-However, by the binomial theorem, we know that:
+However, by the [[binomial theorem]], we know that:
 $$
   (x+y)^n 
    \;=\; 
@@ -509,13 +509,9 @@ $$
   \mathrlap{\,.}
 $$
 
-For these two expressions to be identical, the coefficients of all cross-terms $x^i y^{n-i}$ (where $0 \lt i \lt n$) must be zero. 
+For these two expressions to be identical, the coefficients of all cross-terms $x^i y^{n-i}$ (where $0 \lt i \lt n$) must be zero, in particular $\binom{n}{1}$ would need to be zero if $n\gt 1$. 
 
-Now we use that we are working over $\mathbb{R}$, a field of [[characteristic zero]]. The binomial coefficients $\binom{n}{i}$ are strictly [[positive number|positive]].  Therefore, the binomial expansion cannot contain *any* cross-terms where $0 \lt i \lt n$.
-
-The absence of valid indices $0 \lt i \lt n$ means no such integers $i$ can exist. 
-This immediately rules out $n \ge 2$ (because if $n \ge 2$, the integer $i=1$ would satisfy $0 \lt 1 \lt n$, which we proved cannot happen). 
-Consequently, the only algebraically possible values for $n$ are $0$ and $1$, as claimed.
+Now we use that we are working over $\mathbb{R}$, a field of [[characteristic zero]]. The binomial coefficient $\binom{n}{1}=n$ is nonzero for all $n\geq 1$, so we are left with the only possible cases being $n\leq 1$. The case $n=0$ holds by inspection, and corresponds to the improper ideal, and the case $n=1$ obviously satisfies the required identity, and is the proper nonzero ideal in the statement.
 \end{proof}
 
 
