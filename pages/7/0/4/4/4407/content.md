@@ -332,63 +332,113 @@ is not zero, which contradicts that $c^n$ is zero using the above equation.
 This implies $n = 1$ and hence the claim.
 \end{proof}
 
-{#TwoLemmas} This proof can be modified to pertain to a fact about the cellular or singular [[cohomology]] of $\mathbb{C}P^{\infty}$ with coefficients in $\mathbb{R}$ of $H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R})$. As an $\mathbb{R}$-algebra, there is an isomorphism
+
+{#TwoLemmas} A variant of this proof works with the [[real cohomology]] of infinite complex projective space. 
+
+There is an isomorphism of $\mathbb{R}$-algebras:
 
 $$
-H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \cong \mathbb{R}[[c]]
+  H^{\bullet}\big( \mathbb{C}P^{\infty}; \mathbb{R}\big) 
+    \cong 
+  \mathbb{R}[[c]]
+  \mathrlap{\,.}
 $$
 
-There is a comultiplication on $H^{\bullet}(\mathbb{C}P^{\infty} ; \mathbb{R})$ which is related to the [complex orientation](https://ncatlab.org/nlab/show/complex+oriented+cohomology+theory#DefInTermsOfGeneralizedFirstChernClass) on the [Eilenberg-Maclane spectrum](https://ncatlab.org/nlab/show/Eilenberg-Mac+Lane+spectrum) $H\mathbb{R}$. More precisely, there is a map of $\mathbb{R}$-algebras
+There is a comultiplication on $H^{\bullet}(\mathbb{C}P^{\infty} ; \mathbb{R})$ which is related to the [complex orientation](complex+oriented+cohomology+theory#DefInTermsOfGeneralizedFirstChernClass) on the [[Eilenberg-MacLane spectrum]] $H\mathbb{R}$. More precisely, there is a map of $\mathbb{R}$-algebras
 
 $$
-\Delta : H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) \rightarrow H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) {\hat{\otimes}}_{\mathbb{R}} H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
+  \Delta 
+    \;\colon\; 
+  H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
+    \rightarrow 
+  H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R})   
+    {\hat{\otimes}}_{\mathbb{R}} 
+  H^{\bullet} ( \mathbb{C}P^{\infty} ; \mathbb{R}) 
 $$
 
 which is the unique map of $\mathbb{R}$-algebras such that 
 
 $$
-\Delta(x) = c \otimes 1 + 1 \otimes c 
+  \Delta(c) = c \otimes 1 + 1 \otimes c 
+  \mathrlap{\,.}
 $$
 
-When $\mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]$ is identified with $\mathbb{R}[[x,y]]$, this is the additive formal group law on $\mathbb{R}$.
+When $\mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]$ is identified with $\mathbb{R}[[x,y]]$, this is the additive [[formal group law]] on $\mathbb{R}$.
 
 Then we have the following facts:
 
-* $H^{\bullet} ( \mathbb{C}P^n ; \mathbb{R}) \cong \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]$ as an $\mathbb{R}$-algebra
+* $H^{\bullet} ( \mathbb{C}P^n ; \mathbb{R}) \cong \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]$ as $\mathbb{R}$-algebras.
 
-* Any continuous binary operation on $\mathbb{C}P^{n}$ with a unit (satisfying the left and right unit identities) induces a quotient of the $\mathbb{R}$-algebra $\mathbb{R}[[c]]$ which commutes with the comultiplication in the sense that the following diagram commutes
+* Any continuous binary operation on $\mathbb{C}P^{n}$ with a unit (satisfying the left and right [[unit laws]]) induces a quotient of the $\mathbb{R}$-algebra $\mathbb{R}[[c]]$ which commutes with the comultiplication in the sense that the following diagram commutes
 
 \begin{xymatrix}
-\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] \ar[d]  \cr
- \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]        \ar[r] & ( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]]) \hat{\otimes} (\mathbb{R}[[c]]/c^n \mathbb{R}[[c]])         \cr
+  \mathbb{R}[[c]] 
+    \ar[d] 
+    \ar[r] 
+    &  
+    \mathbb{R}[[c]] 
+   \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] 
+   \ar[d]  
+     \cr
+   \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]        
+     \ar[r] 
+    & 
+    \big( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]] \big) 
+    \hat{\otimes} 
+    \big( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]] \big)
+    \mathrlap{\,.}
 \end{xymatrix}
 
-The ideals of the [power-series ring](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field)  $\mathbb{R}[[c]]$ are entirely of the form $ c^n \cdot \mathbb{R}[[c]]$.
 
-\begin{theorem} let $H = \mathbb{R}[[c]]$ be the $\mathbb{R}$-algebra defined above with a $\mathbb{R}$ with multiplication 
-$$
-\mu : \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] \rightarrow \mathbb{R}[[c]]
-$$
-defined by
-$$
-\mu \left( \sum_{i= 0}^{\infty} a_i c^i \otimes \sum_{i=0}^{\infty} b_i c^i \right)
-=
-\sum_{i=0}^{\infty} \sum_{\ i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } a_{i_1} b_{i_2} c^{i} 
-$$
-and comultiplication 
-$$
-\Delta : \mathbb{R}[[c]] \rightarrow \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]
-$$
-defined by setting
 
+On the [[power series ring]] $\mathbb{R}[[c]]$ consider the multiplication
+$$
+  \mu 
+    \;\colon\; 
+  \mathbb{R}[[c]]  
+    \hat{\otimes}_{\mathbb{R}} 
+  \mathbb{R}[[c]] 
+    \longrightarrow 
+  \mathbb{R}[[c]]
+$$
+given by
+$$
+  \mu \big( 
+    \sum_{i= 0}^{\infty} a_i c^i 
+      \otimes 
+    \sum_{i=0}^{\infty} b_i c^i 
+  \big)
+  =
+  \sum_{i=0}^{\infty} 
+  \sum_{\ i_1 + i_2 = i, i_1, i_2 \in \mathbb{N} } 
+   a_{i_1} b_{i_2} c^{i} 
+$$
+and the comultiplication 
+$$
+  \Delta 
+    \;\colon\; 
+  \mathbb{R}[[c]] 
+    \longrightarrow 
+  \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]]
+$$
+given by
 $$ 
-\Delta \left( c \right) = c \otimes 1 + 1 \otimes c
+  \Delta \left( c \right) 
+    = 
+  c \otimes 1 + 1 \otimes c
+  \mathrlap{\,.}
 $$
- 
+
+
+\begin{theorem} 
 Let $I \subset \mathbb{R}[[c]]$ be an ideal of $\mathbb{R}[[c]]$ such that
  
 $$
-\Delta (I) \subseteq I \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} I
+  \Delta (I) 
+    \subseteq 
+  I \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] 
+    + 
+  \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} I
 $$
 
 Then $I$ must be one of the following ideals:
@@ -401,35 +451,73 @@ Then $I$ must be one of the following ideals:
 
 \end{theorem}
 
-\begin{proof} let $I$ be a nonzero ideal of $\mathbb{R}[[c]]$. From the theorem [here](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field), $I = c^n \cdot \mathbb{R}[[c]]$ for some $n \in \mathbb{N}$. 
+\begin{proof}\label{ProofCharacterizingIdeals} 
+The ring of formal power series $\mathbb{R}[[c]]$ over the [[field]] $\mathbb{R}$ is a [[discrete valuation ring]]. Its unique maximal ideal is generated by $c$. Consequently, every non-zero ideal in $\mathbb{R}[[c]]$ is principal and is generated by some power of $c$ (see [there](power+series#PrincipalIdealDomain)).
+Therefore, $I = \{0\}$ or there exists a non-negative integer $n \in \mathbb{N}$ such that $I = (c^n) = c^n \cdot \mathbb{R}[[c]]$.
 
-We have
+If $I = \{0\}$, the condition $\Delta(\{0\}) = \{0\} \subseteq \{0\} + \{0\}$ holds trivially. Therefore we now assume that $I$ is a non-zero ideal, so that $I = (c^n)$ for some $n \ge 0$.
 
+To analyze the ideal condition, we use the canonical [[isomorphism]] of topological $\mathbb{R}$-algebras:
 $$
-\begin{aligned}
-  \Delta(c^n) 
-= & \Delta (c)^n \\
-= & (c \otimes 1 + 1 \otimes c)^n \\
-= & \sum_{ i = 0 }^n { \binom{n}{i} } c^i \otimes c^{n - i} \in (c^n \cdot \mathbb{R}[[c]]) \hat{\otimes} \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes} (c^n \cdot \mathbb{R}[[c]])
-\end{aligned}
-$$
-
-For each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, 
-
-$$c^i \otimes c^j \in (c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}} (c^n \cdot \mathbb{R}[[c]])$$
-
-We can express $(c^n \cdot \mathbb{R}[[c]])  \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]  \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])$ as a span of an $\mathbb{R}$-basis:
-
-$$
-(c^n \cdot \mathbb{R}[[c]])   \hat{\otimes}_{\mathbb{R}}  \mathbb{R}[[c]] + \mathbb{R}[[c]]   \hat{\otimes}_{\mathbb{R}}  (c^n \cdot \mathbb{R}[[c]])
-=
-\mathrm{span} \left\{ c^i \otimes c^j : n \leq i\ \text{ or }\ n \leq j \right\}
+  \begin{array}{ccc}
+  \mathbb{R}[[c]] 
+    \hat{\otimes}_{\mathbb{R}} 
+  \mathbb{R}[[c]] 
+    &\overset{\sim}{\longrightarrow}&
+  \mathbb{R}[[x, y]]
+  \\
+  c \otimes 1 &\mapsto& x
+  \\
+  1 \otimes c &\mapsto& y\mathrlap{\,.}
+  \end{array}
 $$
 
-so for each $(i,j) \in \mathbb{N} \times \mathbb{N}$ such that $i + j = n$, either $n \leq i$ or $n \leq j$.
+Under this isomorphism:
 
-We can conclude from this fact that $n = 0$ or $n = 1$.
+1. The comultiplication acts as $\Delta(c) = x + y$.
+
+2. The bounding ideal $I \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} I$ corresponds precisely to the ideal generated by $x^n$ and $y^n$, namely $(x^n, y^n) \subset \mathbb{R}[[x, y]]$. 
+
+The condition $\Delta(I) \subseteq I \hat{\otimes}_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \hat{\otimes}_{\mathbb{R}} I$ therefore requires that the image of the generator $c^n$ belongs to this ideal: 
+$$
+  (x + y)^n 
+    \in 
+  \big( x^n, y^n \big)
+  \mathrlap{\,.}
+$$
+
+
+Now, the expression $(x+y)^n$ is a homogeneous polynomial of total degree $n$.
+Any element $P(x,y) \in (x^n, y^n)$ can be written as $x^n f(x,y) + y^n g(x,y)$ for some power series $f, g \in \mathbb{R}[[x,y]]$. 
+Because formal power series expand into components of ascending degrees, the terms of total degree exactly $n$ in $P(x,y)$ must come exclusively from the constant terms of $f$ and $g$. 
+
+Thus, the degree-$n$ homogeneous part of *any* series in the ideal $(x^n, y^n)$ is necessarily of the form $A x^n + B y^n$ for some real constants $A, B \in \mathbb{R}$.
+
+Since $(x+y)^n$ belongs to $(x^n, y^n)$ and is entirely homogeneous of degree $n$, it must equal its own degree-$n$ component. Therefore, there exist $A, B \in \mathbb{R}$ such that:
+$$
+  (x+y)^n 
+   \;=\; 
+  A x^n + B y^n
+  \mathrlap{\,.}
+$$
+
+However, by the binomial theorem, we know that:
+$$
+  (x+y)^n 
+   \;=\; 
+  \sum_{i=0}^n \binom{n}{i} x^i y^{n-i}
+  \mathrlap{\,.}
+$$
+
+For these two expressions to be identical, the coefficients of all cross-terms $x^i y^{n-i}$ (where $0 \lt i \lt n$) must be zero. 
+
+Now we use that we are working over $\mathbb{R}$, a field of [[characteristic zero]]. The binomial coefficients $\binom{n}{i}$ are strictly [[positive number|positive]].  Therefore, the binomial expansion cannot contain *any* cross-terms where $0 \lt i \lt n$.
+
+The absence of valid indices $0 \lt i \lt n$ means no such integers $i$ can exist. 
+This immediately rules out $n \ge 2$ (because if $n \ge 2$, the integer $i=1$ would satisfy $0 \lt 1 \lt n$, which we proved cannot happen). 
+Consequently, the only algebraically possible values for $n$ are $0$ and $1$, as claimed.
 \end{proof}
+
 
 ## In constructive mathematics
 
