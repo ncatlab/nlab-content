@@ -1,5 +1,5 @@
 
-Joel Allen Smoller
+Joel Allen Smoller (1936--2017)
 
 * [Wikipedia entry](https://de.wikipedia.org/wiki/Joel_Smoller)
 
@@ -48,5 +48,10 @@ On [[Einstein-Yang-Mills-Dirac theory]]:
 * {#FinsterSmollerYau00} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _The Interaction of Dirac Particles with Non-Abelian Gauge Fields and Gravity - Black Holes_, Michigan Math. J. **47**, p. 199-208 (2000) &lbrack;[arXiv:gr-qc/9910047](https://arxiv.org/abs/gr-qc/9910047) [doi:10.1307/mmj/1030374678](https://doi.org/10.1307/mmj/1030374678)&rbrack;
 
 * {#FinsterSmollerYau02} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Absence of Static, Spherically Symmetric Black Hole Solutions for Einstein-Dirac-Yang/Mills Equations with Complete Fermion Shells_, Adv. Theor. Math. Phys. **4**, pp. 1231-1257 (2002) &lbrack;[arXiv:gr-qc/0005028](https://arxiv.org/abs/gr-qc/0005028)&rbrack;
+
+On the (in)stability of [[FRW models]] and [[inhomogeneous cosmology]]:
+
+* {#SmollerTempleVogler14} [[Joel Smoller]], [[Blake Temple]], [[Zeke Vogler]]: _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A **473** 2207 (2017) 20160887 &lbrack;[arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [doi:10.1098/rspa.2016.0887](http://doi.org/10.1098/rspa.2016.0887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553)&rbrack;
+
 
 category: people
