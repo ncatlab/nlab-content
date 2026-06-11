@@ -12,7 +12,6 @@
 
 
 
-
 ## Selected writings
 
 On [[(∞,n)-categories]]:
@@ -32,15 +31,22 @@ On [[relative categories]]:
 
 On models for [[(∞,n)-categories]]:
 
-* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ &lbrack;[arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/)&rbrack;
+
+On [[Deligne cohomology]]:
+
+* {#Barwick2012} [[Clark Barwick]]: *Deligne Cohomology*, notes for a talk at Hopkins' seminar, Harvard (2012) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/thsem2012.pdf), [[Barwick-DeligneCohomology.pdf|pdf:file]]&rbrack;
+
 
 On [[simplicial localization]] as a [[functor]] on the category of [[relative categories]]:
 
 * {#BarwickKan12} [[Clark Barwick]], [[Daniel Kan]], *A characterization of simplicial localization functors and a discussion of DK equivalences*, Indagationes Mathematicae Volume 23, Issues 1–2, March 2012, Pages 69-79 ([doi:10.1016/j.indag.2011.10.001](https://doi.org/10.1016/j.indag.2011.10.001))
 
+
+
 On [[exact (∞,1)-categories]]:
 
-* [[Clark Barwick]], _On the Q construction for exact quasicategories_ ([arXiv:1301.4725](http://arxiv.org/abs/1301.4725))
+* [[Clark Barwick]], _On the Q construction for exact quasicategories_ &lbrack;[arXiv:1301.4725](http://arxiv.org/abs/1301.4725)&rbrack;
 
 and the [[theorem of the heart]]:
 
