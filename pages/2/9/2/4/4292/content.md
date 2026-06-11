@@ -152,6 +152,86 @@ $$b_k = -a_1^{-1}(a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n})$$
 given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \lt k$ given by inductive hypothesis. Similarly we can solve for $a_k$ in terms of given coefficients $b_1, \ldots, b_k$ and earlier $a$-values $a_n$, $n \lt k$. Thus every power series $a$ has a right inverse if $a_1^{-1}$ exists, and $b$ has a left inverse if $b_1^{-1}$ exists, and this completes the proof. 
 =-- 
 
+### Is a principal ideal domain given R is a field
+
+If $R$ satisfies the property of being a [field](https://ncatlab.org/nlab/show/field) then the nonzero [ideals](https://ncatlab.org/nlab/show/ideal) of the power series ring are entirely of the form $x^n R[[x]]$:
+
+\begin{lemma} (ideals of a power series ring over the field of real numbers) let $R$ be a field and let $I \subseteq R[[x]]$ be a nonzero ideal of the algebra of power-series over $R[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot R[[x]]$.
+\end{lemma}
+
+\begin{proof} let $f = \sum_{i =0}^{\infty} a_i x^i$ be a nonzero element of $I$ chosen to satisfy 
+
+* $a_n = 1$ where $n = \mathrm{min} \{ i \in \mathbb{N} : a_i \neq 0 \}$. 
+
+* of all nonzero $g \in I$, $\mathrm{min} \left\{   \mathrm{min} \{ i \in \mathbb{N} : b_i \neq 0 \} : b_i \in R, \sum_{i = 0}^{\infty} b_i x^i \in I  \right\}$
+
+Such an element exists since, if $g = \sum_{i=0}^{\infty} b_i x^i$ is any nonzero element of $I$ satisfying the second property, then we can set
+
+$$ 
+f = \sum_{i = 0}^{\infty} b_{\mathrm{min} \{ j \in \mathbb{N} : b_j \neq 0 \} }^{-1} \cdot b_i \cdot x^i 
+$$
+
+Define a sequence $f_k = \sum_{i =0}^{\infty} a_{k,i} x^i$ by induction on $k \in \mathbb{N}$ satisfying the inductive hypothesis that $a_{k,i} = 0$ for $i \in \mathbb{N}$ such that
+
+* $i \leq n + k$
+
+* $i \neq n$
+
+For the case in which $k = 0$, set $f_0 = f$. 
+
+For the inductive case, suppose that for some $k \in \mathbb{N}$ we have defined $f_k = \sum_{i = 0}^{\infty} a_{k,i} x^i$ satisfying $a_{k,i} = 0$ for $i \in \mathbb{N}$ such that
+
+* $i \leq n + k$
+
+* $i \neq n$
+
+$$
+f_{k+1} = \sum_{i = 0}^{\infty} a_{k+1,i} x^i = f_k ( 1 - a_{k,n+k+1} x^{k+1} )
+$$
+
+Then $a_{k+1,i} = 0$ for $i \in \mathbb{N}$ such that 
+
+* $i \leq n + k + 1$
+
+* $i \neq n$
+
+This concludes the construction of the elements 
+
+$$ f_{k} = \sum_{i = 1}^{\infty} a_{k,i} x^i \in R[[x]] $$
+
+Next consider the sequence
+
+$$
+g_m = \sum_{j = 0}^{m} b_{m,j} x^j = \Pi_{k = 0}^{m} ( 1 - a_{k,n+k+1} x^{k+1} ) \in R[[x]]
+$$
+
+and consider that 
+
+$$
+b_{m+\ell, j} = b_{m, j}
+$$
+
+for $j \leq m+1$. This identity implies that 
+
+$$
+ g = \Pi_{k =0}^{\infty} (1 - a_{k,n+k+1} x^{k+1} )
+$$
+
+is well defined.
+
+For each $m \in \mathbb{N}$, $f \cdot g_m$ agrees with $x^n$ through degree $n + m$. The coefficients of $f \cdot g$ and $x^n$ agree in every degree, so $fg = x^n$.
+
+This shows that $f = x^n u$ for $u = g^{-1}$, hence $x^n \in f \cdot R[[x]]$. 
+
+Since $x^n \in I$, $x^n \cdot R[[x]] \subseteq I$.
+
+If $h \in I$, then by minimality of $n$, $n \leq \mathrm{ord}(h)$. Hence $h = x^n \cdot q$ for some $q \in R[[x]]$. So $h \in x^n \cdot R[[x]]$. So $I \subseteq x^n \cdot R[[x]]$.
+
+It follows from this argument that $I = x^n \cdot R[[x]]$ for some $n \in \mathbb{N}$.
+\end{proof}
+
+It follows from this argument that $R[[x]]$ is a [principal ideal domain](https://ncatlab.org/nlab/show/principal+ideal+domain) for any field $R$.
+
 ### Formal differentiation
 
 One way to define the formal differentiation operator, as a function $\frac{\partial}{\partial X}:R[[X]] \to R[[X]]$, is via the usual formula 
