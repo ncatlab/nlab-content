@@ -67,14 +67,18 @@ The original articles that formulated the NSR model:
 * [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B **31&& 86 (1971) \[<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>\]
 
 * [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D **3**  2415 (1971) &lbrack;[doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415)&rbrack;
-
   > (introducing the [[Dirac-Ramond operator]])
 
 * {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
 
+Quick review in view of the alternative [[Green-Schwarz superstring]] model and the [[superembedding formalism]]:
+
+* {#Sorokin01} [[Dmitri Sorokin]], *Introduction to the Superembedding Description of Superbranes*, AIP Conference Proceedings **589** 98 (2001) &lbrack;[arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102), [doi:10.1063/1.1419318](https://doi.org/10.1063/1.1419318)&rbrack;
+
+
 See also: 
 
-Wikipedia: *[RNS formalism](https://en.wikipedia.org/wiki/RNS_formalism)*
+* Wikipedia: *[RNS formalism](https://en.wikipedia.org/wiki/RNS_formalism)*
 
 Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string (via the supersymmetric [[Polyakov action]]):
 
