@@ -23,5 +23,9 @@ and in relation to [[BV-algebra]]:
 
 * {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]]:  _Framed discs operads and Batalin-Vilkovisky algebras_, The Quarterly Journal of Mathematics **54** 2 (2003) 213–231 &lbrack;[pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf), [doi:10.1093/qmath/hag012](https://doi.org/10.1093/qmath/hag012)&rbrack;
 
+On the [[group homology]] of [[braid groups]]:
+
+* Andrea Bianchi, Filippo Callegaro, Luigi Caputi, Paolo Salvatore: *Stable homology of complex braid groups* &lbrack;[arXiv:2606.12206](https://arxiv.org/abs/2606.12206)&rbrack;
+
 
 category: people
