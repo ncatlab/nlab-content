@@ -80,12 +80,15 @@ There is a slick proof of this using [[enriched category theory]], working with 
 ### In homotopy theory 
 
 In any [[homotopy theory]] framework a **Morita equivalence** between objects $C$ and $D$ is  a span 
-$$
-  C \lt \stackrel{\simeq}{\leftarrow}
-  \hat C
-  \stackrel{\simeq}{\to} \gt
-  D
-$$
+
+\begin{center}
+\begin{tikzcd}
+C &
+\widehat{C}\arrow[l, two heads,"\simeq", swap]\arrow[r, two heads,"\simeq"]&
+D
+\end{tikzcd}
+\end{center}
+
 where both legs are acyclic fibrations.
 
 
