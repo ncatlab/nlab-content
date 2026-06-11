@@ -18,5 +18,9 @@ On [[conformal field theory]]:
 
 * [[Sylvain Ribault]]: *Exactly solvable conformal field theories* &lbrack;[arXiv:2411.17262](https://arxiv.org/abs/2411.17262)&rbrack;
 
+On [[random matrix theory]]:
+
+* [[Bertrand Eynard]], [[Taro Kimura]], [[Sylvain Ribault]]: *Random matrices* &lbrack;[arXiv:1510.04430](https://arxiv.org/abs/1510.04430)&rbrack;
+
 
 category: people
