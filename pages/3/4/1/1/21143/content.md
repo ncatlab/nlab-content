@@ -20,6 +20,9 @@ On [[Yang-Mills instantons]], [[Seiberg-Witten theory]] and [[quiver gauge theor
 
 * [[Taro Kimura]], *Instanton Counting and Localization*, Chapter 1 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
 
+On [[random matrix theory]]:
+
+* [[Bertrand Eynard]], [[Taro Kimura]], [[Sylvain Ribault]]: *Random matrices* &lbrack;[arXiv:1510.04430](https://arxiv.org/abs/1510.04430)&rbrack;
 
 
 
