@@ -152,9 +152,10 @@ $$b_k = -a_1^{-1}(a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n})$$
 given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \lt k$ given by inductive hypothesis. Similarly we can solve for $a_k$ in terms of given coefficients $b_1, \ldots, b_k$ and earlier $a$-values $a_n$, $n \lt k$. Thus every power series $a$ has a right inverse if $a_1^{-1}$ exists, and $b$ has a left inverse if $b_1^{-1}$ exists, and this completes the proof. 
 =-- 
 
-### Is a principal ideal domain given R is a field
-
-If $R$ satisfies the property of being a [field](https://ncatlab.org/nlab/show/field) then the nonzero [ideals](https://ncatlab.org/nlab/show/ideal) of the power series ring are entirely of the form $x^n R[[x]]$:
+### Is a principal ideal domain over a field
+ {#PrincipalIdealDomain}
+ 
+If $R$ is a [[field]] then the nonzero [[ideals]] of the power series ring are entirely of the form $x^n R[[x]]$:
 
 \begin{lemma} (ideals of a power series ring over the field of real numbers) let $R$ be a field and let $I \subseteq R[[x]]$ be a nonzero ideal of the algebra of power-series over $R[[x]]$. There is $n \in \mathbb{N}$ such that $I = x^n \cdot R[[x]]$.
 \end{lemma}
