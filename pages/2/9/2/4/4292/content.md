@@ -163,7 +163,7 @@ If $R$ satisfies the property of being a [field](https://ncatlab.org/nlab/show/f
 
 * $a_n = 1$ where $n = \mathrm{min} \{ i \in \mathbb{N} : a_i \neq 0 \}$. 
 
-* of all nonzero $g \in I$, $\mathrm{min} \left\{   \mathrm{min} \{ i \in \mathbb{N} : b_i \neq 0 \} : b_i \in R, \sum_{i = 0}^{\infty} b_i x^i \in I  \right\}$
+* of all nonzero $g  = \sum_{i = 0}^{\infty} b_i x^i \in I$, $\mathrm{ord}(g) := \mathrm{min} \{ i \in \mathbb{N} : b_i \neq 0 \}$ is the minimum possible value.
 
 Such an element exists since, if $g = \sum_{i=0}^{\infty} b_i x^i$ is any nonzero element of $I$ satisfying the second property, then we can set
 
