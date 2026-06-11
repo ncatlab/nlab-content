@@ -176,15 +176,15 @@ $$
   \mathrlap{\,.}
 $$
 
-There is an [[isomorphism]] of [[Hopf algebras]] in [[integral cohomology]] of 
+There is an [[isomorphism]] of [commutative algebras](https://ncatlab.org/nlab/show/commutative+algebra) of
 
 $$
   \big(
-    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[x]
   \big) 
     \otimes_{\mathbb{Z}}
   \big(
-    \mathbb{Z}[x]/x^n\mathbb{Z}[x]
+    \mathbb{Z}[c]/c^n\mathbb{Z}[x]
   \big)  
     \cong  
   H^\bullet\big(
@@ -204,10 +204,12 @@ $$
   \mathrlap{\,.}
 $$
 
-But $H^\bullet(\mu;\mathbb{Z})$ is a [[ring homomorphism]], so
+Where $H^\bullet(-; \mathbb{Z})$ is the [[integral cohomology]] of a topological space.
+
+$H^\bullet(\mu;\mathbb{Z})$ is in fact a [[ring homomorphism]], hence we have
 
 $$
-  H^\bullet(\mu;\mathbb{Z})(c^n) 
+  0 = H^{\bullet}(\mu;\mathbb{Z})(c^n) 
     = 
   (1 \textstyle{\otimes} c + c \textstyle{\otimes} 1)^n 
     = 
@@ -217,11 +219,11 @@ $$
     = 
   \sum_{i = 0}^n 
   {\binom{n}{i}}\, 
-    c^{n-i} \otimes c^{i}
+    c^{n-i} \otimes c^{i} = \sum_{i \in \mathbb{N}, 0 \lt i \lt n} c^{n-i} \otimes c^i
 $$
 
-as elements of the commutative Hopf algebra
-
+As elements of the tensor product of Hopf-algebras of
+ 
 $$
   H^\bullet(\mathbb{CP}^{n-1}; \mathbb{Z}) 
     \otimes_{\mathbb{Z}} 
@@ -236,8 +238,6 @@ $$
   \right)
   \mathrlap{\,.}
 $$
-
-The left-hand side is $0$.
 
 The right hand side is 
 
@@ -296,7 +296,7 @@ Then we have the following facts:
  \mathbb{R}[[c]] / c^n \mathbb{R}[[c]]        \ar[r] & ( \mathbb{R}[[c]]/c^n \mathbb{R}[[c]]) \hat{\otimes} (\mathbb{R}[[c]]/c^n \mathbb{R}[[c]])         \cr
 \end{xymatrix}
 
-The ideals of the [power-series ring](power-series ring)  $\mathbb{R}[[c]]$ are entirely of the form $ c^n \cdot \mathbb{R}[[c]]$.
+The ideals of the [power-series ring](https://ncatlab.org/nlab/show/power+series#is_a_principal_ideal_domain_given_r_is_a_field)  $\mathbb{R}[[c]]$ are entirely of the form $ c^n \cdot \mathbb{R}[[c]]$.
 
 \begin{theorem} let $H = \mathbb{R}[[c]]$ be the $\mathbb{R}$-algebra defined above with a $\mathbb{R}$ with multiplication 
 $$
@@ -323,6 +323,11 @@ Let $I \subset \mathbb{R}[[c]]$ be an ideal of $\mathbb{R}[[c]]$ such that
 $$
 \Delta (I) \subseteq I \otimes_{\mathbb{R}} \mathbb{R}[[c]] + \mathbb{R}[[c]] \otimes_{\mathbb{R}} I
 $$
+
+\begin{xymatrix}
+\mathbb{R}[[c]] \ar[d] \ar[r] &  \mathbb{R}[[c]] \hat{\otimes} \mathbb{R}[[c]] \ar[d]  \cr
+ \mathbb{R}[[c]]        \ar[r] &  \mathbb{R}[[c]] \hat{\otimes} \mathbb{R}[[c]]       \cr
+\end{xymatrix}
 
 Then $I$ must be one of the following ideals:
 
