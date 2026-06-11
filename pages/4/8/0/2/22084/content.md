@@ -41,6 +41,9 @@ On [[connections on smooth principal infinity-bundles]] via splittings of [[L-in
 
 * [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441](https://arxiv.org/abs/2602.03441)&rbrack;
 
+On [[2-Hilbert spaces]]:
+
+* [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
 
 
 category: people
