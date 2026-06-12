@@ -10,6 +10,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -226,16 +227,31 @@ Literature discussing whether or how [[gauge field]] might be identified as the 
 
 * A. Maleknejad, M. M. Sheikh-Jabbari, J. Soda, _Gauge Fields and Inflation_ ([arXiv:1212.2921](http://arxiv.org/abs/1212.2921))
 
-### Sueprgravity models
+
+### Supergravity models
 
 Models of cosmic inflation in [[supergravity]]:
 
+> See also at *[[Starobinsky model of cosmic inflation]]* the references on its [embedding into supergravity](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingIntoSupergravity).
+
+
+* [[Dimitri V. Nanopoulos]], [[Keith A. Olive]], [[Mark Srednicki]], K. Tamvakis: Phys.Lett.B **123** (1983) 41--44 \[<a href="https://doi.org/10.1016/0370-2693(83)90954-1">doi:10.1016/0370-2693(83)90954-1</a>\]
+
+* R. Holman, [[Pierre Ramond]], G. G. Ross: *Supersymmetric inflationary cosmology*, Physics Letters B **137** (1984) 343  \[<a href="http://doi.org/10.1016/0370-2693(84)91729-5">doi:10.1016/0370-2693(84)91729-5</a>\] 
+
+* [[S. James Gates Jr.]], [[Sergei V. Ketov]]: *Superstring-inspired supergravity as the universal source of inflation and quintessence*, Physics Letters B **674** (2009) 59--63 \[<a href="https://doi.org/10.1016/j.physletb.2009.03.005">doi:10.1016/j.physletb.2009.03.005</a>, [arXiv:0901.2467](arxiv.org/abs/0901.2467)\]
+
+* Masahide Yamaguchi: *Supergravity based inflation models: a review*, Class. Quantum Grav. **28** (2011) 103001 \[<a href="https://doi.org/10.1088/0264-9381/28/10/103001">doi:10.1088/0264-9381/28/10/103001</a>, [arXiv:1101.2488](https://arxiv.org/abs/1101.2488)\]
+
 * [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
 
-* Takahiro Terada: *Inflation in Supergravity with a Single Superfield* \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
+* Takahiro Terada: *Inflation in Supergravity with a Single Superfield*, Phd thesis, Tokyo (2015) \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
 
 * [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
 
+* [[Sergei Ketov]]: *Inflationary Cosmology from Supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) \[<a href="https://doi.org/10.1007/978-981-19-3079-9_51-1">doi:10.1007/978-981-19-3079-9_51-1</a>, [[Ketov-InflationaryCosmology.pdf|pdf:file]]\]
+
+* [[Ignatios Antoniadis]], Emilian Dudas, [[Fotis Farakos]], [[Augusto Sagnotti]]: *Non-Linear Supergravity and Inflationary Cosmology* \[<a href="https://arxiv.org/abs/2409.14943">arXiv:2409.14943</a>\]
 
 
 ### String modeled inflation
