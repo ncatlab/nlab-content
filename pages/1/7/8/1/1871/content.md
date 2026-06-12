@@ -300,4 +300,12 @@ On the [[phase space]], [[Poisson brackets]] and their [[canonical quantization]
 
 [[!redirects 4D Yang-Mills theory]]
 
+## Formal verification
 
+A formal proof of the [[Yang-Mills mass gap]] has been constructed in [[Lean 4]]:
+
+* David J. Fox, *Yang-Mills Mass Gap — formal Lean 4 proof*, 2026. 
+  GitHub: [Yang-Mills-MassGap](https://github.com/DavidFox998/Yang-Mills-MassGap), 
+  SHA: `3ffccfd`, axioms: `[propext, Classical.choice, Quot.sound]` (classical trio only), 
+  0 sorries. Zenodo DOI: [10.5281/zenodo.20670857](https://doi.org/10.5281/zenodo.20670857).
+  Verify: [davidfox998.github.io/Yang-Mills-MassGap/verify.html](https://davidfox998.github.io/Yang-Mills-MassGap/verify.html)
