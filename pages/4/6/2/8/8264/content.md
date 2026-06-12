@@ -229,6 +229,7 @@ Literature discussing whether or how [[gauge field]] might be identified as the 
 
 
 ### Supergravity models
+ {#ReferencesSupergravityModels}
 
 Models of cosmic inflation in [[supergravity]]:
 
