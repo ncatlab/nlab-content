@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -184,6 +182,7 @@ Specifically regarding [[tetraquarks]]:
 
 
 ### Via holographic light front QCD
+ {#ViaHolographicLightFrontQCD}
 
 Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]]:
 
