@@ -15,7 +15,7 @@
 =--
 
 
-This page collects some links related to the book
+This page is to record the reference:
 
 * [[Daniel Freed]]:
 
