@@ -18,6 +18,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -61,7 +62,29 @@ The condition of [[gauge invariance]] of an action functional on $\mathfrak{siso
 This uniqueness (under mild conditions) is one reason for interest in supergravity theories. Another important reason is that supergravity theories tend to remove some of the problems that are encountered when trying to realize [[gravity]] as a [[quantum field theory]]. Originally there had been high hopes that the maximally supersymmetric supergravity theory in 4-dimensions is fully [[renormalizable]]. This couldn't be shown computationally -- until recently: triggered by new insights recently there there has been lots of renewed activity on the renormalizability of maximal supergravity. 
 
 
-### As a gauge theory -- Super Cartan geometry
+### Physical motivations
+ {#PhysicalMotivation}
+
+The idea of supergravity (SuGra) is theoretically suggestive: Where ordinary gravity [[first-order formulation of gravity|is]] [[Cartan geometry]] for the [[spin group|Spin]] [[subgroups]] of [[Poincaré group]], the latter have natural ([[infinity-group|higher]]) [[supergroup]] [[group extension|extensions]] (*[[supersymmetry]]*, SuSy), and supergravity is essentially the [[super Cartan geometry]] for the [[spin group|Spin]] [[subgroups]] of these ([[infinity-group|higher]]) [[super Poincaré groups]] (more on this [below](#SuperCartanGeometry)).
+
+Less widely appreciated may be that discussion of supergravity is also physically motivated (beyond the widely discussed application of *[[holographic principle|holography]]* [[holographic CMT|to]] [[solid state physics]] [[holographic QCD|and to]] [[quark-gluon plasma]] physics:
+
+* **In fundamental physics**, the high energy local SuSy embodied by SuGra remains phenomenologically viable, in contrast to the low energy global SuSy that has notoriously not been seen in experiment. In particular, SuGra [is known](cosmic+inflation#ReferencesSupergravityModels) to improve models of [[cosmic inflation|inflationary]] [[cosmology]], by naturally furnishing not only the required [[scalar fields]] themselves but also explaining their [[Starobinsky model of cosmic inflation|observationally favored plateau potentials]] (the *$\alpha$-attractor* mechanism) and their stability against quantum corrections (solving the *$\eta$-problem*). 
+
+* **In [[particle physics]]**, despite common perception, [[supersymmetry]] is experimentally seen in the form of *[[hadron supersymmetry]]* in the "[[flavor sector]]" instead of the commonly considered "[[color charge|color]] sector" of the [[standard model of particle physics|standard model]]. Here it naturally fits into [[holographic QCD|holographic models realizing quantum chromodynamics]] on supergravitational [[branes]].
+
+* **In [[solid state physics]]**, *[[topological order]]* in [[quantum materials]] is a 21st-century holy grail, plausibly necessary for [[topological quantum computing|stabilizing]] future utility-scale [[quantum computer|quantum computing]] hardware. To date, a single class of candidate systems has been experimentally realized with certainty: [[FQH|fractional quantum Hall (FQH) liquids]]. 
+
+  Remarkably, it [has been established](quantum+Hall+effect#ReferencesEffectiveFQHSupergeometry) that the gapped excitations of certain non-abelian [[FQH liquids]] fall into [[supermultiplet|multiplets]] comprising a (massive [[graviton]]-like) *spin-2 magneto-roton* and a (massive [[gravitino]]-like) *spin-3/2 neutral fermion mode* which are partners under an emergent supersymmetry, [suggestive of](quantum+Hall+effect#ReferencesEffectiveFQHSupergravity) an [[effective field theory|effective]] (2D massive) supergravity description.
+
+  Furthermore, the effective symmetry of FQH excitations is "[[SDiff|special]]" [[diffeomorphism]] [[invariance]] ([[W-infinity algebra|$W_\infty$-symmetry]]). In combination with [[supersymmetry|SuSy]] this matches the [characteristic symmetry](volume+preserving+diffeomorphism#ReferencesAsSymmetriesOfBraneDynamics) on [[super p-brane|super $p$-brane]] [[probe brane|probes]] of supergravity backgrounds, suggesting that the [[effective field theory]] of FQH liquids may naturally be understood via *[[geometric engineering of quantum field theory|geometric engineering]]* of [[strongly correlated system|strongly coupled quantum systems]] on branes probing supergravity [[orbifolds]].
+
+* **In mathematical metaphysics**, the *[[brane bouquet]]* shows that out of the *[[superpoint]]* --- the [[classifying space]] for [[fermion fields]] *per se* --- grows a hierarchy of (the local structures of) ever-higher dimensional supergravity theories and their [[super p-brane|super $p$-brane]] content, culminating in the local structure of [[11D supergravity]] with its [[M2-brane|M2]]/[[M5-branes]]. Therefore, super-gravity and branes are fundamentally hard-coded into the BIOS of mathematical physics. The surprising emergence of SuGra in the effective theories of hadrons and of FQH liquids, noted above, may be an instance of this universality. 
+
+
+
+
+### As super Cartan geometry
  {#SuperCartanGeometry}
 
 Ordinary [[Einstein gravity]] has a natural formulation in terms of [[Cartan geometry]] for the inclusion of the [[Lorentz Lie algebra]] into the [[Poincaré Lie algebra]] $\mathfrak{o}(d-1,1) \hookrightarrow \mathfrak{Iso}(\mathbb{R}^{d-1,1})$. In this [[first order formulation of gravity]] a [[field (physics)|field]] configuration is a [[Cartan connection]] with such [[coefficients]].
