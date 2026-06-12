@@ -1,6 +1,15 @@
 
 
+
+* [profile page](https://profiles.stanford.edu/renata-kallosh)
+
+* [institute page](https://physics.stanford.edu/people/renata-kallosh)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Renata_Kallosh)
+
+* [inSpire page](https://inspirehep.net/authors/1003862)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=cl3FYaEAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -25,6 +34,11 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 On [[moduli stabilization]] in [[M-theory on 8-manifolds]] for the [[product manifold]] of [[K3]] with itself:
 
 * [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
+
+On [[supergravity]] models of [[cosmic inflation]]:
+
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
+
 
 On [[cosmic inflation]]:
 
