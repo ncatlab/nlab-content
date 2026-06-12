@@ -11,9 +11,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -88,6 +86,11 @@ of [[general linear groups]], for $\mathbb{R}$ the [[real numbers]] and $\mathbb
 * Wikipedia, _[Quaternionic structure](http://en.wikipedia.org/wiki/Quaternionic_structure)_
 
 * Wikipedia, _[Reduction of the structure group -- Examples](https://en.wikipedia.org/wiki/Reduction_of_the_structure_group#Examples)_
+
+* Oliver Goertsches, Panagiotis Konstantis, Eugenia Loiudice, Grigory Solomadin: *Almost quaternionic structures on compact rank one symmetric spaces* &lbrack;[arXiv:2606.12659](https://arxiv.org/abs/2606.12659)&rbrack;
+
+
+
 
 [[!redirects quaternionic structures]]
 
