@@ -64,7 +64,7 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 The original articles that formulated the NSR model:
 
-* [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B **31&& 86 (1971) \[<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>\]
+* [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B **31** 86 (1971) \[<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>\]
 
 * [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D **3**  2415 (1971) &lbrack;[doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415)&rbrack;
   > (introducing the [[Dirac-Ramond operator]])
@@ -102,8 +102,9 @@ See also
 
 Relation to the [[Berkovits superstring]]:
 
+* [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* &lbrack;[arXiv:2106.04448](https://arxiv.org/abs/2106.04448)&rbrack;
 
-* [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
+* Andrei Mikhailov: *B-RNS-GSS formalism and $L_{\infty}$-actions* &lbrack;[arXiv:2510.10400](https://arxiv.org/abs/2510.10400)&rbrack;
 
  
 
@@ -123,7 +124,7 @@ The demonstration of this fact is due to
 
   _Supersymmetrical string theories_ , Phys. Lett. 109B (1982) 444.
 
-Superconformal invariance of the spinning string was discussed in
+On superconformal invariance of the spinning string:
 
 * [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393. 
 
@@ -131,21 +132,27 @@ A decent account is in
 
 * {#Majer} Imre Majer, _Superstrings_ ([pdf](http://edu.itp.phys.ethz.ch/fs13/cft/SuperS2_Majer.pdf), [[MajerSuperstrings.pdf:file]])
 
-A review of the history of these developments is in 
+Review of the history of these developments: 
 
 * [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
-An exposition of some technical aspects is in the wiki
+Exposition of some technical aspects:
 
 * [The Tangent Bundle](http://www.physics.thetangentbundle.net/wiki/Main_Page), _[RNS superstring](http://www.physics.thetangentbundle.net/wiki/String_theory/RNS_superstring)_
 
 Reviews and survays are also in any text on [[string theory]]. See the references there for more detail.
+
 
 ### BRST description
 
 Discussion of the [[BRST complex]] of the NSR string:
 
 * [[José Figueroa-O'Farrill]], [[Takashi Kimura]], _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys. **124** 1 (1989) 105-132. &lbrack;[euclid:cmp/1104179078](http://projecteuclid.org/euclid.cmp/1104179078)&rbrack;
+
+
+
+
+
 
 
 [[!redirects spinning strings]]
