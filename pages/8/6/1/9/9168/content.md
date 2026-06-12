@@ -14,9 +14,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -922,6 +920,11 @@ Discussion of scalar fields in [[cosmology]] includes
 Examples in [[AQFT]] of [[non-perturbative quantum field theory|non-perturbative]] [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] (in particular in $d \geq 4$) are claimed in 
 
 * [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C*$-algebraic approach to interacting quantum field theories_ ([arXiv:1902.06062](https://arxiv.org/abs/1902.06062))
+
+See also:
+
+* Viola Gattus, Peter Millington: *Scalar Quantum Fields: Theory Space and its Geometry* &lbrack;[arXiv:2606.12580](https://arxiv.org/abs/2606.12580)&rbrack;
+
 
 
 
