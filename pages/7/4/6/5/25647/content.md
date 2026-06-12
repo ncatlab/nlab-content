@@ -8,6 +8,7 @@ Do not include recent references that are likely still to appear. If the author 
 |-----|------|--------|----------------------|------------|
 |*Steenrod operations in abelian categories*|David Epstein|*Natural associativity and commutativity*, [[Mac Lane]] (1963)|*Steenrod operations in homological algebra*| |
 |*Introduction to Bicategories II*|[[Jean Bénabou]]|*Introduction to Bicategories*, [[Jean Bénabou]] (1967)| -- | Intended to study [[modifications]]; 2-dimensional [[representable functor|representability]], [[adjointness]], [[equivalence]], [[limits]]; bicategories in which the composition functors have right adjoints; examples|
+|*Coalgebras and representable functors in universal algebra*|[[Gavin Wraith]]|*Representable functors and operations on rings*, [[Gavin Wraith]] and D. Tall (1970)|*Algebras over theories*| |
 |*Produits tensoriels d'esquisses*|[[Christian Lair]]|*Categories of sketched structures*, [[Andrée Bastiani]] and [[Charles Ehresmann]] (1972)| -- | On the tensor product of [[sketches]]|
 |*Relative functorial semantics, II: Beck's Theorem*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
 |*Extracts from the Archives of Categorical Folklore, I: Pro-categories*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
