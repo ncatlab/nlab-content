@@ -51,9 +51,10 @@ These references speak of the super Poincaré group but tend to focus on its [[s
 
 * {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
-* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
+* [[Daniel Freed]], _Lecture 3 of: [[Five lectures on supersymmetry]]_, American Mathematical Society (1999) &lbrack;[ISBN:978-0-8218-1953-1](https://bookstore.ams.org/FLS), [spire:517862](https://inspirehep.net/literature/517862)&rbrack;
+
  
-* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7.5 (draft: 6.5)  of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7.5 (draft: 6.5)  of:  _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
 
 Detailed construction of the actual [[super Lie group]]-structure are rare, but see the discussion at least of the [[super translation group|super translation]] [[subgroup]]: [there](super-translation+group#ExampleSuperMinkowskiLieGroup).
 
