@@ -17,9 +17,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -186,11 +184,14 @@ On the [[phase diagram]] of [[QCD]]:
 
 * {#Hands01} Simon Hands, _The Phase Diagram of QCD_, Contemp. Phys. 42:209-225, 2001 ([arXiv:physics/0105022](https://arxiv.org/abs/physics/0105022))
 
-* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
+* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ &lbrack;[arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068)&rbrack;
+
+* Gokce Basar, Vladimir V. Skokov: *Analytic structure of the QCD phase diagram in the complex-temperature plane* &lbrack;[arXiv:2606.12622](https://arxiv.org/abs/2606.12622)&rbrack;
+
 
 Via [[lattice QCD]]:
 
-* Jana N. Guenther, _Overview of the QCD phase diagram -- Recent progress from the lattice_ ([arXiv:2010.15503](https://arxiv.org/abs/2010.15503))
+* Jana N. Guenther, _Overview of the QCD phase diagram -- Recent progress from the lattice_ &lbrack;[arXiv:2010.15503](https://arxiv.org/abs/2010.15503)&rbrack;
 
 
 ### History
