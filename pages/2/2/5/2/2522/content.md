@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -1106,7 +1104,7 @@ More mathematical accounts:
 
 * {#Freed99} [[Daniel Freed]], *[[Five lectures on supersymmetry]]*, AMS (1999) \[<a href="https://bookstore.ams.org/FLS">ISBN:978-0-8218-1953-1</a>, [spire:517862](https://inspirehep.net/literature/517862)\]
 
-* {#Varadarajan04} [[Veeravalli Varadarajan]], *[[Supersymmetry for mathematicians]]: An introduction*, Courant lecture notes in mathematics, American Mathematical Society Providence (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
+* {#Varadarajan04} [[Veeravalli Varadarajan]]: *[[Supersymmetry for mathematicians]]: An introduction*, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
 
 * [[Claudio Carmeli]], [[Lauren Caston]], [[Rita Fioresi]]: *Mathematical foundations of supersymmetry*, EMS Series of Lectures in Mathematics, EMS (2011) &lbrack;[ems:elm/97](https://ems.press/books/elm/97), [doi:10.4171/097](https://doi.org/10.4171/097), [epdf](https://epdf.tips/mathematical-foundations-of-supersymmetry.html), short draft: [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
