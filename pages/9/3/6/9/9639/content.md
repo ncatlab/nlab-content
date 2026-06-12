@@ -819,6 +819,9 @@ More details on the effect of [[disorder]]:
 
 * {#SauDasSarmaEtAl2025} Stuart Yi-Thomas, Yi Huang, [[Jay D. Sau]], [[Sankar Das Sarma]]: *Integer Quantum Hall Effect: Disorder, temperature, floating, and plateau width*, Phys. Rev. B **111** (2025) 195305 \[<a href="https://doi.org/10.1103/PhysRevB.111.195305">doi:10.1103/PhysRevB.111.195305</a>, <a href="https://arxiv.org/abs/2501.08273">arXiv:2501.08273 cond-mat.mes-hall</a>\]
 
+* G. Kovyrshin, A. Mekrami, J. Miller, M.A. Zubkov, A. Zuevsky: *Topological invariant responsible for the integer QHE and non-commutative geometry* &lbrack;[arXiv:2606.08868](https://arxiv.org/abs/2606.08868)&rbrack;
+
+
 
 
 
