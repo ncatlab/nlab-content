@@ -1,13 +1,24 @@
 
-* [webpage](http://www.phys.ufl.edu/~ramond/)
+* [institute page](https://people.clas.ufl.edu/pramond/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Pierre_Ramond)
+
+* [inSpire page](https://inspirehep.net/authors/992334)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=wBX8jeAAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Pierre-Ramond-2)
 
 ## Selected writings
 
 On the [[NSR superstring]]:
 
-* [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D3  2415 (1971) ([doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415))
+* [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D **3**  2415 (1971) &lbrack;[doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415)&rbrack;
+
+On [[cosmic inflation]] in [[supergravity]]:
+
+* R. Holman, [[Pierre Ramond]], G. G. Ross: *Supersymmetric inflationary cosmology*, Physics Letters B **137** (1984) 343  \[<a href="http://doi.org/10.1016/0370-2693(84)91729-5">doi:10.1016/0370-2693(84)91729-5</a>\] 
+
 
 On the history of the concept of [[supersymmetry]]:
 
