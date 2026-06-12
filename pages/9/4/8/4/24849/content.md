@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -122,6 +120,11 @@ On [[software verification]] for the ZX-calculus:
 * Adrian Lehmann, Ben Caldwell, Bhakti Shah, [[Robert Rand]]: *VyZX: Formal Verification of a Graphical Quantum Language* &lbrack;[arXiv:2311.11571](https://arxiv.org/abs/2311.11571)&rbrack;
 
 * [[Robert Rand]]: *Verifying the ZX-calculus and its Friends*, [talk at](CQTS#RandApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)* &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ea3rom57?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ea3rom57)&rbrack;
+
+Application to [[2D Yang-Mills theory]]:
+
+* Gabriel Wong, Razin A. Shaikh, William Donnelly: *A ribbon ZX calculus for gauge theory* &lbrack;[arXiv:2606.13551](https://arxiv.org/abs/2606.13551)&rbrack;
+
 
 
 See also:
