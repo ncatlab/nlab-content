@@ -74,10 +74,16 @@ A [[super translation Lie algebra]] and hence [[super Minkowski spacetime]], is 
 
 ## References
 
-For instance 
+For instance:
 
 
-* Christoph Sachse, section 2.2.1 of _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* Christoph Sachse, section 2.2.1 of: _A Categorical Formulation of Superalgebra and Supergeometry_ &lbrack;[arXiv:0802.4067](http://arxiv.org/abs/0802.4067)&rbrack;
+
+In the context of [[supersymmetry]] and [[supergravity]]:
+
+* [[John Huerta]], [[Urs Schreiber]]: *[[schreiber:M-Theory from the Superpoint]]*, Letters in Mathematical Physics **108** (2018) 2695--2727 &lbrack;[doi:10.1007/s11005-018-1110-z](https://doi.org/10.1007/s11005-018-1110-z), [arXiv:1702.01774 hep-th](https://arxiv.org/abs/1702.01774)&rbrack;
+
+
 
 
 [[!redirects superpoints]]
