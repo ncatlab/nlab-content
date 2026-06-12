@@ -99,6 +99,9 @@ On [[supergravity]]:
 
 * [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
 
+On [[cosmic inflation|inflationary]] [[cosmology]] in [[supergravity]]:
+
+* [[Sergei Ketov]]: *Inflationary Cosmology from Supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) \[<a href="https://doi.org/10.1007/978-981-19-3079-9_51-1">doi:10.1007/978-981-19-3079-9_51-1</a>, [[Ketov-InflationaryCosmology.pdf|pdf:file]]\]
 
 
 \linebreak
