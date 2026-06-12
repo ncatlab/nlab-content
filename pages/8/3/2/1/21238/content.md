@@ -10,11 +10,15 @@ On the [[Schwinger effect]] seen in [[open string|open]] [[string theory]]:
 
 On adjustments of the [[action functional]] for [[spin]] [[mass|massive]] $3/2$-particles ([[Rarita-Schwinger field]]) by non-[[minimal coupling]] that evades the [[Velo-Zwanziger problem]]:
 
-* [[Massimo Porrati]], Rakibur Rahman, _Causal Propagation of a Charged Spin 3/2 Field in an External Electromagnetic Background_,  	Phys. Rev. D80:025009, 2009 ([arXiv:0906.1432](http://arxiv.org/abs/0906.1432))
+* [[Massimo Porrati]], Rakibur Rahman, _Causal Propagation of a Charged Spin 3/2 Field in an External Electromagnetic Background_, Phys. Rev. D **80** 025009 (2009) &lbrack;[arXiv:0906.1432](http://arxiv.org/abs/0906.1432)&rbrack;
 
 Discussion of the [[Velo-Zwanziger problem]] for the higher [[string]] excitations that appear in [[string theory]]:
 
 * [[Massimo Porrati]], Rakibur Rahman, [[Augusto Sagnotti]], _String Theory and The Velo-Zwanziger Problem_, Nucl. Phys. B846:250-282, 2011 ([arXiv:1011.6411](http://arxiv.org/abs/1011.6411))
+
+On [[supergravity]] models of [[cosmic inflation]]:
+
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
 
 
 category: people
