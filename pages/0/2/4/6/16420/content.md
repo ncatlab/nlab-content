@@ -51,6 +51,10 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
 
+On [[supergravity]] models of [[cosmic inflation]]:
+
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
+
 
 On the history and development of [[supersymmetry]] and [[supergravity]]:
 
