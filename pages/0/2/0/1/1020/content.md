@@ -137,7 +137,7 @@ this [[transport]] is given by composing with $\gamma$ or $\delta$ as appropriat
 
 $$(G' \epsilon F)(\eta' G F)\eta = (G' \epsilon F)(G' F \eta)\eta'=\eta'$$
 
-using Lemma 9.2.8 (see [[natural transformation]]) and the traingle identity. The case of $\epsilon$ is similar. FInally, the triangle identities transport correctly automatically, since hom-sets are sets.
+using Lemma 9.2.8 (see [[natural transformation]]) and the traingle identity. The case of $\epsilon$ is similar. Finally, the triangle identities transport correctly automatically, since hom-sets are sets.
 \end{proof}
 
 \section{Examples}
