@@ -11,10 +11,8 @@
 
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
  {#Idea}
@@ -170,6 +168,10 @@ See also:
 * Dhong Yeon Cheong, Hyun Min Lee, Seong Chan Park, _Beyond the Starobinsky model for inflation_ ([arXiv:2002.07981](https://arxiv.org/abs/2002.07981))
 
 * Didam Duniya, Amare Abebe, Alvaro de la Cruz-Dombriz, Peter Dunsby, *Imprint of $f(R)$ gravity in the cosmic magnification* &lbrack;[arXiv:2210.09303](https://arxiv.org/abs/2210.09303)&rbrack;
+
+Review:
+
+* [[Sergei Ketov]]: *Inflationary Cosmology from Supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) \[<a href="https://doi.org/10.1007/978-981-19-3079-9_51-1">doi:10.1007/978-981-19-3079-9_51-1</a>, [[Ketov-InflationaryCosmology.pdf|pdf:file]]\]
 
 
 
