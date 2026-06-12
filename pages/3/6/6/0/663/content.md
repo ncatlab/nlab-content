@@ -42,7 +42,7 @@ that is [[left exact]], i.e., preserves all finite limits.  A **homomorphism** o
 
 $$ \alpha : F \to F'$$
 
-between left exact functors $F, F' : T \to Set$.  Models of an essentially algebraic theory $T$ and the homomorphisms between them form a category $Mod(T) = Lex(T, Set)$.  
+between left exact functors $F, F' : T \to Set$.  Models of an essentially algebraic theory $T$ and the homomorphisms between them form a [[functor category]] $Mod(T) = Lex(T, Set)$.  
 
 More generally, for any category with finite limits $X$, we can define the category of **models of $T$ in $X$**, $Lex(T, X)$, which has left exact functors $F: T \to X$ as objects and natural transformations between these as morphisms.
 =--
