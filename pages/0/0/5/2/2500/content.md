@@ -408,7 +408,7 @@ Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Steven Weinberg]], *Supergravity*, Section 31 in: *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555),  [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
+* [[Steven Weinberg]]: *Supergravity*, Section 31 in: *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555), [doi:10.1017/CBO9781139644198](https://doi.org/10.1017/CBO9781139644198) [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
   > "Gravity exists, so if there is any truth to supersymmetry then any realistic supersymmetry theory must eventually be enlarged to a supersymmetric theory of matter and gravitation, known as supergravity. Supersymmetry without supergravity is not an option, though it may be a good approximation at energies far below the Planck scale."
 
 * [[Daniel Freedman]], [[Antoine Van Proeyen]]: _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833](https://doi.org/10.1017/CBO9781139026833)&rbrack;
