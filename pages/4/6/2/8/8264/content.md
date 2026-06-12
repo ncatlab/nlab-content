@@ -246,13 +246,22 @@ Models of cosmic inflation in [[supergravity]]:
 
 * [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
 
-* Takahiro Terada: *Inflation in Supergravity with a Single Superfield*, Phd thesis, Tokyo (2015) \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
 
 * [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
+
+* Takahiro Terada: *Inflation in Supergravity with a Single Superfield*, Phd thesis, Tokyo (2015) \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
+
+* [[Sergio Ferrara]], [[Renata Kallosh]]: *Seven-Disk Manifold, $\alpha$-attractors and $B$-modes*, Phys. Rev. D **94** (2016) 126015 \[<a href="https://doi.org/10.1103/PhysRevD.94.126015">doi:10.1103/PhysRevD.94.126015</a>, [arXiv:1610.04163](https://arxiv.org/abs/1610.04163)\] 
+  > (via [[11D supergravity]]/[[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]])
+
+* Llibert Aresté Saló, David Benisty, Eduardo I. Guendelman, Jaume de Haro: *$\alpha$-attractors in Quintessential Inflation motivated by Supergravity*, Phys. Rev. D **103** (2021) 123535 \[<a href="https://doi.org/10.1103/PhysRevD.103.123535">doi:10.1103/PhysRevD.103.123535</a>, [arXiv:2103.07892](https://arxiv.org/abs/2103.07892)\]
+
 
 * [[Sergei Ketov]]: *Inflationary Cosmology from Supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) \[<a href="https://doi.org/10.1007/978-981-19-3079-9_51-1">doi:10.1007/978-981-19-3079-9_51-1</a>, [[Ketov-InflationaryCosmology.pdf|pdf:file]]\]
 
 * [[Ignatios Antoniadis]], Emilian Dudas, [[Fotis Farakos]], [[Augusto Sagnotti]]: *Non-Linear Supergravity and Inflationary Cosmology* \[<a href="https://arxiv.org/abs/2409.14943">arXiv:2409.14943</a>\]
+
+
 
 
 ### String modeled inflation
