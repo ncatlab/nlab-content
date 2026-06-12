@@ -177,17 +177,19 @@ Description via [[geometric engineering of QFTs|geometric engineering]] of [[QCD
 
 Exposition and review:
 
-* Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) ([blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp))
+* Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) &lbrack;[blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp)&rbrack;
 
-* Makoto Natsuume, _String theory and quark-gluon plasma_ ([arXiv:hep-ph/0701201](http://arxiv.org/abs/hep-ph/0701201))
+* Makoto Natsuume, _String theory and quark-gluon plasma_ &lbrack;[arXiv:hep-ph/0701201](http://arxiv.org/abs/hep-ph/0701201)&rbrack;
 
-* [[Steven Gubser]], _Using string theory to study the quark-gluon plasma: progress and perils_ ([arXiv:0907.4808](http://arxiv.org/abs/0907.4808))
+* [[Steven Gubser]]: _Using string theory to study the quark-gluon plasma: progress and perils_ &lbrack;[arXiv:0907.4808](http://arxiv.org/abs/0907.4808)&rbrack;
 
-* {#BiagazziCotrone12} Francesco Biagazzi, A. Cotrone, _Holography and the quark-gluon plasma_, AIP Conference Proceedings 1492, 307 (2012) ([doi:10.1063/1.4763537]( https://doi.org/10.1063/1.4763537), [slides pdf](http://cp3-origins.dk/content/movies/2013-01-14-bigazzi.pdf))
+* {#BiagazziCotrone12} Francesco Biagazzi, A. Cotrone, _Holography and the quark-gluon plasma_, AIP Conference Proceedings **1492** 307 (2012) &lbrack;[doi:10.1063/1.4763537]( https://doi.org/10.1063/1.4763537), [slides pdf](http://cp3-origins.dk/content/movies/2013-01-14-bigazzi.pdf)&rbrack;
 
-* {#Brambilla14} Brambilla et al., section 9.2.2 of _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+* {#Brambilla14} Brambilla et al.; section 9.2.2 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. **74** 10 (2014) 2981 &lbrack;[doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5)&rbrack;
 
-* Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_, Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
+* Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann: _Gauge/string duality, hot QCD and heavy ion collisions_, Cambridge University Press (2014) &lbrack;[arXiv:1101.0618](https://arxiv.org/abs/1101.0618)&rbrack;
+
+* I.Ya Aref'eva: *Holographic approach to quark–gluon plasma in heavy ion collisions*, Phys.Usp. **57** (2014) 527--555, Usp. Fiz. Nauk **184** 6 (2014) 569--598 \[<a href="https://doi.org/10.3367/UFNe.0184.201406a.0569">doi:10.3367/UFNe.0184.201406a.0569</a>\]
 
 * {#Natsuume15} [[Makoto Natsuume]], Section 12 in: *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
 
