@@ -26,9 +26,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -88,7 +86,10 @@ As for the [[string 2-group]], this defines an [[infinity-group extension]] (the
 
 See also:
 
-* [[Nora Ganter]], _Categorical Tori_, SIGMA 14 (2018), 014, 18 ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
+* [[Nora Ganter]], _Categorical Tori_, SIGMA **14** 18 (2018) &lbrack;[arXiv:1406.7046](https://arxiv.org/abs/1406.7046)&rbrack;
+
+* Ali Khalili Samani: *Categorical Hopf map* &lbrack;[arXiv:2606.12482](https://arxiv.org/abs/2606.12482)&rbrack;
+
 
 
 
