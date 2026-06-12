@@ -8,9 +8,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -62,9 +61,11 @@ On how this generally serves to reflect [[flux quantization]] in [[higher gauge 
 
 * {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
-reviewed in:
+with exposition in:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Introduction to Hypothesis H]]* ([here](/schreiber/show/Introduction+to+Hypothesis+H#OverviewFluxQuantizationViaNonabDiffCohomology))
+* {#SatiSchreiber24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**, Academic Press (2025) 281-324 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00078-1">doi:10.1016/B978-0-323-95703-8.00078-1</a>, <a href="https://arxiv.org/abs/2402.18473">arXiv:2402.18473</a>\]
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Zagreb 2026|Higher Gauge Theory via Differental Nonabelian Cohomology]]* &lbrack;[arXiv:2606.12534](https://arxiv.org/abs/2606.12534)&rbrack;
 
 
 ### Differential cohomotopy for the 11d SuGra C-field
