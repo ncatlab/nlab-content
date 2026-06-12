@@ -139,9 +139,10 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * {#Fredenhagen08} [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer (2008) 1-9 \[<a href="https://doi.org/10.1007/978-3-540-74956-1">doi:10.1007/978-3-540-74956-1</a>, [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)\]
 
-* [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
+* [[Fabio Ruffino]]: _Topics on topology and superstring theory_ \[<a href="http://arxiv.org/abs/0910.4524">arXiv:0910.4524</a>\]
 
-* {#SatiSchreiber24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) \[<a href="https://arxiv.org/abs/2402.18473">arXiv:2402.18473</a>\]
+* {#SatiSchreiber24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**, Academic Press (2025) 281-324 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00078-1">doi:10.1016/B978-0-323-95703-8.00078-1</a>, <a href="https://arxiv.org/abs/2402.18473">arXiv:2402.18473</a>\]
+
 
 Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in Ktheory
 
