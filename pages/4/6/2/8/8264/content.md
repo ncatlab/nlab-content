@@ -226,6 +226,18 @@ Literature discussing whether or how [[gauge field]] might be identified as the 
 
 * A. Maleknejad, M. M. Sheikh-Jabbari, J. Soda, _Gauge Fields and Inflation_ ([arXiv:1212.2921](http://arxiv.org/abs/1212.2921))
 
+### Sueprgravity models
+
+Models of cosmic inflation in [[supergravity]]:
+
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
+
+* Takahiro Terada: *Inflation in Supergravity with a Single Superfield* \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
+
+* [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
+
+
+
 ### String modeled inflation
 
 In [[string theory]] the [[inflaton]] field can be modeled by various effects, such as 
