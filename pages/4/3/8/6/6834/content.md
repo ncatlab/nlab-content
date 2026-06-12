@@ -283,9 +283,12 @@ In the context of [[flux quantization laws]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]*, [SciPost Physics](https://scipost.org/submissions/2512.12431v1) (2026) \[<a href="https://arxiv.org/abs/2512.12431">arXiv:2512.12431</a>\]
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Zagreb 2026|Higher Gauge Theory via Differental Nonabelian Cohomology]]* &lbrack;[arXiv:2606.12534](https://arxiv.org/abs/2606.12534)&rbrack;
+
 More on the [[RR-field]] as a higher gauge field (for more see at *[[D-brane charge quantization in K-theory]]*):
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
 
 
 ### In condensed matter physics
