@@ -1,8 +1,19 @@
 
+* [personal page](https://hep-th.fpark.tmu.ac.jp/~ketov/ketov.htm)
 
-* [webpage](http://kiso.phys.se.tmu.ac.jp/~ketov/ketov.htm)
+* [inSpire page](https://inspirehep.net/authors/1024159)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=4do2EOEAAAAJ&hl=ru)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Sergei-Ketov)
+
 
 ## Selected writings
+
+On [[supergravity]] models of [[cosmic inflation]]:
+
+* [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
+
 
 On embedding the [[Starobinsky model of cosmic inflation]] into [[supergravity]]:
 
