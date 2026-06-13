@@ -62,6 +62,8 @@ A _sieve_ $S$ on an object $c \in C$ is a subset $S \subset Ob(C/c)$ of the set 
 
 The set of sieves on $c$ is a poset ordered by inclusion and it is stable under arbitrary unions and intersections. There is an initial and final sieve, namely, the empty and total subsets of $Ob(C/c)$.
 
+In the language of type theory, this can be reformulated as follows: a sieve on an object $c \in C$ is a functor $(C/c)^{op}\to Prop$, where $Prop$ is [[type of propositions]] viewed as a category.
+
 +-- {: .num_remark}
 ###### Remark
 
