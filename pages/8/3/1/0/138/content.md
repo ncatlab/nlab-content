@@ -26,6 +26,117 @@
 
 A _hypercover_ is the generalization of a [[Čech nerve]] of a [[cover]]: it is a simplicial [[resolution]] of an object obtained by iteratively applying covering families.
 
+## An overview of definitions
+
+There are several different definitions of hypercovers in the literature.
+
+One point of difference stems from the sieve/coverage dichotomy:
+in the context of covering [[sieves]], it is natural to define a covering map of presheaves of sets
+as a local epimorphism of presheaves of sets (recalled below),
+whereas in the setting of [[coverages]], it is natural to further
+require that the codomain of this map is a [[representable presheaf]]
+and the domain is a semirepresentable presheaf (i.e., a [[coproduct]] of representables),
+so that the map itself is induced by an actual covering family.
+
+Artin–Mazur work with representable domains instead, assuming the site is closed under (finite) coproducts.
+
+Another point of difference is that Verdier's original definition uses [[semisimplicial objects]], whereas subsequent definitions use [[simplicial objects]].
+
+### Prerequisites
+
+In what follows, $S$ denotes a [[site]].
+We define various notions of __hypercovers__ in $S$.
+
+Given an object $X$ in $S$, a __hypercover of $X$__ can then be defined as a hypercover in $S/X$, the [[slice site]] of $S$ over $X$.
+
+A presheaf of sets on $S$ is __semirepresentable__ if it is isomorphic to the coproduct of a small family of representable presheaves on $S$.
+
+Recall the notion of a [[matching map]] of a [[simplicial object]] (or a [[semisimplicial object]]) $H$ at level $n$:
+$$H_n \to M_n H,$$
+where
+$$M_n H \cong (cosk_{n-1}H)_n$$
+is the $n$th [[matching object]] of $H$.
+
+Recall that a morphism $f\colon A\to B$ of presheaves of sets is a __local epimorphism__
+if for every $X\in S$ and $b\in B(X)$, there is a covering family $\{U_i\}_{i\in I}$ of $X$
+such that for every $i\in I$ there is $a\in A(U_i)$ for which $f(a)=b|_{U_i}$.
+
+Recall that a morphism $f\colon A\to B$ of simplicial or semisimplicial objects in presheaves of sets
+is a __local acyclic fibration__ if for every $X\in S$ and every commutative square
+\begin{xymatrix}
+\Lambda^n_k \ar[r] \ar[d] & A(X) \ar[d]^f\cr
+\Delta^n \ar[r] & B(X)\cr
+\end{xymatrix}
+there is a covering family $\{U_i\}_{i\in I}$ of $X$
+such that for every $i\in I$ there is $h\colon \Delta^n \to A(U_i)$ for which the two triangles in the outer square in the following diagram commute:
+\begin{xymatrix}
+\Lambda^n_k \ar[r] \ar[d] & A(X) \ar[r] \ar[d]^{f_X} & A(U_i) \ar[d]^{f_{U_i}}\cr
+\Delta^n \ar[r] & B(X) \ar[r] & B(U_i).\cr
+\end{xymatrix}
+
+A morphism $f$ in a site $C$ is __basal__ if $f$ is an element in some covering family in $C$.
+
+A morphism $f$ of semirepresentable presheaves on $C$ is __basal__
+if it is a coproduct of morphisms of the form $H \to Y_X$,
+where $H \cong \coprod_i Y_{U_i}$ is semirepresentable
+and the induced maps $U_i\to X$ are basal.
+If, furthermore, the family $\{U_i\to X\}_{i\in I}$ is a covering family in $C$,
+then we say that $f$ is a __covering basal map__.
+
+### The original definition by Verdier
+
+Reference: [SGA 4](#SGA4), Exposé V, Section 7.3
+
+A __hypercover__ is a [[semisimplicial object]] $H$ in the category of presheaves of sets on the site $S$
+such that for every $n\ge0$, the presheaf of sets $H_n$ is semirepresentable
+and the matching map $H_n \to M_n H$ is a local epimorphism of presheaves.
+
+### The Artin–Mazur definition
+
+Reference: [Artin–Mazur](#ArtinMazur72), Definition 8.4
+
+A __hypercover__ is a [[simplicial object]] $H$ in the category of presheaves of sets on the site $S$
+such that for every $n\ge0$, the presheaf of sets $H_n$ is representable
+and the matching map $H_n \to M_n H$ is a local epimorphism of presheaves.
+
+In [Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 10.1,
+this approach is further refined and developed.
+
+### The Dugger–Hollander–Isaksen definition
+
+Reference: [Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 4.2
+
+A __hypercover__ is a [[simplicial object]] $H$ in the category of presheaves of sets on the site $S$
+such that for every $n\ge0$, the presheaf of sets $H_n$ is semirepresentable
+and the matching map $H_n \to M_n H$ is a local epimorphism of presheaves.
+
+The condition on the matching map can also be reformulated by saying that the terminal map $H\to1$ is a local acyclic fibration.
+
+### Further variations
+
+A __basal hypercover__ ([Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 9.2)
+is a Dugger–Hollander–Isaksen hypercover such that every matching map is a basal morphism.
+
+A __Stacks Project hypercover__ ([Stacks Project](#StacksProject), Tag 01G5)
+is a Dugger–Hollander–Isaksen hypercover such that every matching map is a covering basal morphism.
+
+In [Glass–Minichiello](#GlassMinichiello26), Definition 4.32 introduces hypercovers of $X\in S$ as local acyclic fibrations $H\to Y_X$.
+Using our framework, $H$ is a hypercover if the terminal map $H\to 1$ is a local acyclic fibration.
+
+A hypercover (in any of the above senses) is __split__ ([Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 4.8) if it is split as a simplicial object,
+i.e., for every $n\ge0$, the $n$th latching map $L_n H\to H$ (that is, the inclusion of degenerate $n$-simplices into $n$-simplices)
+is isomorphic to a map of the form $A\to A\sqcup B$.
+
+### Summary of definitions
+
+The absolute minimal requirement one must impose on a simplicial presheaf $H$ to be a hypercover
+is that the terminal map $H\to1$ is a local acyclic fibration.
+The other requirements impose increasingly stricter representability conditions on $H$, forming a chain of strict inclusions:
+
+Stacks Project hypercovers $\subset$ basal hypercovers $\subset$ Dugger–Hollander–Isaksen hypercovers $\subset$ local acyclic fibrations
+
+
+
 ## Definition
 
 Let 
@@ -376,15 +487,15 @@ A proof of this result in terms of the structure of a [[category of fibrant obje
 
 * [[hypersheaf]]
 
-## Reference
+## References
 
 The concept of hypercovers was introduced for [[abelian sheaf cohomology]] in
 
-*  [[Jean-Louis Verdier]], Expos&#233; V, sect. 7 of  [[SGA4]], 
+* {#Verdier} [[Jean-Louis Verdier]], Exposé V, Section 7 of  [[SGA4]], 
 
 An early standard reference founding [[étale homotopy theory]] is
 
-* [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_ , Lecture Notes in Mathematics 100, Springer- Verlag, Berline-Heidelberg-New York (1972).
+* {#ArtinMazur72} [[Michael Artin]], [[Barry Mazur]], _Etale Homotopy_ , Lecture Notes in Mathematics 100, Springer- Verlag, Berline-Heidelberg-New York (1972).
 
 The modern reformulation of their notion of hypercover in terms of simplicial presheaves is mentioned for instance at the end of section 2, on [p. 6](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=6) of
 
@@ -406,9 +517,13 @@ A thorough discussion of hypercovers over representables and their role in [[des
 
 * {#DuggerHollanderIsaksen02} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 136. No. 1., 2004. ([arXiv:0205027](http://arxiv.org/abs/math/0205027), [K-theory archive](http://www.math.uiuc.edu/K-theory/0563/))
 
+A discussion in the context of [[algebraic geometry]]:
+
+* {#StacksProject} The [[Stacks Project]], Tag 01FZ.
+
 A discussion in the context of [[differential geometry]]:
 
-* [[Cheyne Glass]], [[Emilio Minichiello]], _Hypercovers in Differential Geometry_, [arXiv:2602.11971](https://arxiv.org/abs/2602.11971).
+* {#GlassMinichiello26} [[Cheyne Glass]], [[Emilio Minichiello]], _Hypercovers in Differential Geometry_, [arXiv:2602.11971](https://arxiv.org/abs/2602.11971).
 
 On the Verdier hypercovering theorem see
 
