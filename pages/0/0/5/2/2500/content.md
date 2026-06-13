@@ -18,7 +18,6 @@
 =--
 
 
-
 \tableofcontents
 
 
@@ -579,24 +578,24 @@ On non-relativistic SuGra as an [[effective field theory]] for excitation modes 
 
 
 
-
 ### History
  {#History}
 
-The idea of supergravity was proposed by
+The original idea of supergravity is attributed to:
 
-* [[Dmitry Volkov]], V.P. Akulov, _Possible universal neutrino interaction_, ZhETF Pis. Red. (JETP Letters, AIP translation), 16, n.11 (1972) 621 ([pdf](http://www.jetpletters.ac.ru/ps/1766/article_26864.shtml))
+* [[Dmitry Volkov]], V. P. Akulov: _Possible universal neutrino interaction_, JETP Lett. **16** (1972) 438--440, Pisma Zh. Eksp. Teor. Fiz. **16** (1972) 621--624 &lbrack;[inSpire:76156](https://inspirehep.net/literature/76156), [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1972.pdf), [[VolkovAkulov-1972.pdf|pdf:file]]&rbrack;
+  > which introduces anticommuting gauge parameters and ends with the sentence: "We note that if we introduce also gauge fields corresponding to the transformations (3), then, as a consequence of the Higgs effect (Higgs (1966)), a massive gauge field with spin 3/2 arises*
 
-followed up by the first model of supergravity (in nonlinear realization) constructed in 
+followed up by the first model of supergravity (in nonlinear realization) constructed in:
 
-* [[Dmitry Volkov]], [[Vyacheslav Soroka]], _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
+* [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Higgs effect for Goldstone particles with spin $1/2$_, JETP Lett. **18** (1973) 312--314, Pisma Zh. Eksp. Teor. Fiz. **18** (1973) 529--532\[<a href="https://inspirehep.net/literature/84359">inSpire:84359</a>, [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1973.pdf), [[VolkovSoroka-1973.pdf|pdf:file]]\]
 
 However, the term "supergravity" was coined later by
 [Freedman, Nieuwenhuizen, Ferrara 76](#FreedmanNieuwenhuizenFerrara76), whose work on supergravity is regarded as foundational for the subject.
 
-This early history is discussed in
+This early history is discussed in:
 
-* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys., v3, p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
+* [[Steven Duplij]]: _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys. v3 (2019) 81--82 &lbrack;[arXiv:1910.03259](https://arxiv.org/abs/1910.03259)&rbrack;
 
 * {#Kuzenko21} Sergei M. Kuzenko, *Local supersymmetry: Variations on a theme by Volkov and Soroka* ([arXiv:2110.12835](https://arxiv.org/abs/2110.12835))
 
