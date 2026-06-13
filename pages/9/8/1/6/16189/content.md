@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -23,7 +21,7 @@ The existence of a definite form implies a [[G-structure]] on $X$ for $G$ the [[
 
 A class of examples of definite forms are the 3-forms on [[G₂-manifolds]], these are definite on the "[[associative 3-form]]" on $\mathbb{R}^7$.
 
-The [[higher prequantization]] of a definition form is a [[definite globalization of a WZW term]].
+The [[higher prequantization]] of a definite form is a [[definite globalization of a WZW term]].
 
 
 
