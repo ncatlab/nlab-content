@@ -6,10 +6,9 @@
 
 ## Selected writings
 
-Introducing [[supergravity]] ([[D=4 supergravity]]):
+Precursor discussion of [[supergravity]] ([[D=4 supergravity]]):
 
-
-* [[Dmitry Volkov]], [[Vyacheslav Soroka]], _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
+* [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Higgs effect for Goldstone particles with spin $1/2$_, JETP Lett. **18** (1973) 312--314, Pisma Zh. Eksp. Teor. Fiz. **18** (1973) 529--532\[<a href="https://inspirehep.net/literature/84359">inSpire:84359</a>, [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1973.pdf), [[VolkovSoroka-1973.pdf|pdf:file]]\]
 
 On [[D=4 supergravity]] formulated in [[superspace]]:
 
