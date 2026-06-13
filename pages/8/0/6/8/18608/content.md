@@ -73,6 +73,8 @@ Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 Decent overview:
 
+* user1504 on MathOverflow (2010) &lbrack;[MO:a/37428](https://mathoverflow.net/a/37428/381)&rbrack;
+
 * Mayibongwe Madisa: *The Yang-Mills Existence and Mass Gap Problem*, Botswana (2026) \[<a href="https://doi.org/10.13140/RG.2.2.25938.21448">doi:10.13140/RG.2.2.25938.21448</a>\]
 
 More visionary comments on potential approaches:
