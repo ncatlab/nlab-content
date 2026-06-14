@@ -263,6 +263,15 @@ The key problem is that a uniformly continuous, [[positive number|positive]]-val
 
 Waaldijk's negative result can be circumvented by dropping the insistence on points and instead working with maps between [[locales]], [[toposes]], or formal spaces as studied in [[formal topology]].
 
+### Discontinuous functions
+
+In [[constructive mathematics]], a discontinuous function on the [[real numbers]] is not simply the [[negation]] of the definition of a continuous function. [Bauer & Hanson 2026](#BauerHanson) give this definition:
+
+\begin{definition}
+A function $f:\mathbb{R} \to \mathbb{R}$ on the real numbers is **discontinuous** at a point $x \in \mathbb{R}$ or **jumps at** $x \in \mathbb{R}$ if there exists a positive rational number $\epsilon$ such that $\vert f(y) - f(x) \vert \gt 0$ for all $y \gt x$. 
+\end{definition}
+
+The existence of discontinuous functions on the real numbers implies the [[analytic WLPO]] by proposition 7.5 of [Bauer & Hanson 2026](#BauerHanson). [[Brouwer's continuity principle]] is in contradiction with the existence of a discontinuous function on the real numbers. 
 
 ## Related concepts
 
@@ -297,6 +306,10 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 Discussion in [[constructive mathematics]]:
 
 * {#Waaldijk2005} [[Franka Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+
+A definition of a discontinuous function can be found in section 7.3 of:
+
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
