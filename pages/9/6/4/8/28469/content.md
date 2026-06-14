@@ -18,7 +18,7 @@
 
 ## Idea 
 
-Antinatural transformations provide a way to define maps between covariant and contravariant functors in the setting of [[dagger category | dagger category theory]]. The point is that composing with a dagger (which is contravariant) makes a [[covariant functor]] contravariant and a [[contravariant functor]] covariant.
+*Antinatural transformations* provide a way to define maps between covariant and contravariant functors in the setting of [[dagger category | dagger category theory]]. The point is that composing with a dagger (which is contravariant) makes a [[covariant functor]] contravariant and a [[contravariant functor]] covariant.
 
 
 ## Definition ##
