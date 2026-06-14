@@ -76,6 +76,8 @@ A [[monoid in a monoidal category|monoid]] $(A, \mu, \eta)$ internal to [[Hilb|$
 
 * [[C-star algebra|$C^\ast$-algebra]]
 
+* [[H-star-category|$H^\ast$-category]]
+
 ## References
 
 The original article:
