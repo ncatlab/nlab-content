@@ -164,7 +164,7 @@ Thus, the gap between proving that the real numbers are a real closed field usin
 Every [[surjective]] [[polynomial function]] on the [[real numbers]] with odd degree and a [[fixed point]] at zero has a [[section]]. 
 \end{proposition}
 
-In particular, consider the map $z \mapsto z^3 - 3z$. This map is surjective on the real numbers, but cannot be proven to have a section. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, one can prove that there are no such sections of $z \mapsto z^3 - 3z$ on the real numbers, since any since any section on $z \mapsto z^3 - 3z$, if it exists, has to be [[discontinuous]] somewhere in the closed interval $[-2, 2]$, and in those topoi all functions on the real numbers are continuous. 
+In particular, consider the map $z \mapsto z^3 - 3z$. This map is surjective on the real numbers, but cannot be proven to have a section. Any since any section on $z \mapsto z^3 - 3z$, if it exists, has to be [[discontinuous]] somewhere in the closed interval $[-2, 2]$, which implies to the constructive [[taboo]] [[analytic WLPO]] (see definition 7.3 and proposition 7.5 of [Bauer & Hanson 2026](#BauerHanson)). In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{R}$, one can prove that there are no such sections of $z \mapsto z^3 - 3z$ on the real numbers, since the [[Dedekind real numbers]] satisfy [[Brouwer's continuity principle]]: all functions on the real numbers are continuous, which is inconsistent with [[analytic WLPO]]. 
 
 The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every odd degree real polynomial function $p(z)$ of degree $n$ into an [[affine function]] $c_1 z + c_0$ with real numbers $c_0$ and $c_1$ and a monic real polynomial function $q(z)$ of degree $n - 1$, $p(z) = (c_1 z + c_0) q(z)$, since one would need to first construct the specified real root $-\frac{c_0}{c_1}$ of $p(z)$. Being able to factor polynomial functions is required to show that the [[complex numbers]] are an [[algebraically closed field]]. 
 
@@ -181,6 +181,8 @@ The unprovability of this weak version of choice in neutral constructive mathema
 * [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
 * David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
+
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects real closed field]]
 [[!redirects real closed fields]]
