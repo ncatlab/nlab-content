@@ -20,17 +20,17 @@
 
 ## Idea
 
-An *$H^*$-category* is a categorification of the notion of an [[H-star-algebra | $H^\ast$-algebra]]. 
+An *$H^*$-category* is a [[horizontal categorification]] of the notion of an [[H-star-algebra | $H^\ast$-algebra]]. 
 
 ## Definition
 
 \begin{definition}\label{HStarCategory}
-An **$H^*$-category** is a [[Hilb | $\mathrm{Hilb}$]]-category with a [[dagger category | $\dagger$-structure]] that defines an [[antinatural transformation]] from $\operatorname{hom}(x,y)$ to $\operatorname{hom}(y,x)^{\mathrm{conj}}$, where $\operatorname{hom}(y,x)^{\mathrm{conj}}$ is the conjugate hom-Hilbert space.
+An **$H^*$-category** is a [[Hilb | $\mathrm{Hilb}$]]-category with a [[dagger category | $\dagger$-structure]] that defines an [[antinatural transformation]] from $\operatorname{hom}(x,y)$ to $\operatorname{hom}(y,x)^{\mathrm{conj}}$, where $\operatorname{hom}(y,x)^{\mathrm{conj}}$ is the conjugate [[enriched hom-functor | hom-Hilbert space]].
 \end{definition}
 
 ([Baez 1997 Def. 2](#Baez97))
 
-The data of such an antinatural transformation is equivalent to the existence of compatible [[involution | involutory]][[antilinear map | antilinear maps]] between the hom-Hilbert spaces.
+The data of such an [[antinatural transformation]] is equivalent to the existence of compatible [[involution | involutory]][[antilinear map | antilinear maps]] between the hom-Hilbert spaces.
 
 \begin{proposition}\label{HStarCategoryEquivalent}
 An **$H^*$-category** is equivalently a $\mathrm{Hilb}$-category with antilinear maps $\ast : \operatorname{hom}(x,y) \to \operatorname{hom}(y,x)$ for all objects $x$ and $y$, such that 
