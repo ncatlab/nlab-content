@@ -283,6 +283,20 @@ If the $\mathcal{D}$-maps are [[exponential object|exponentiable]], then the mul
 ([Garner, 2019](#Garner2019))
 \end{proposition}
 
+
+## Properties
+
+### Cartesian closure and locally cartesian closure of the category of containers 
+
+Let $\mathbf{Cont}$ be the category of one-variable containers/polynomials on [[Set]] ($W=Z=*$). Via the [[fully faithful functor|full and faithful]] extension functor $\mathbf{Cont}\to[Set,Set]$ it is equivalently the category of one-variable polynomial endofunctors on $\mathbf{Set}$ and all [[natural transformation]]s between them. Then ([Altenkirch, Levy and Staton 2010](#AltenkirchLevyStaton10)):
+
+* $\mathbf{Cont}$ is [[cartesian closed category|cartesian closed]], and the extension functor preserves this structure;
+
+* $\mathbf{Cont}$ has all finite [[limit]]s, again preserved by the extension functor;
+
+* but $\mathbf{Cont}$ is *not* [[locally cartesian closed category|locally cartesian closed]]: the slice over the container $\mathrm{Id}^2 = 1 \triangleleft 2$ fails to be cartesian closed.
+
+
 ## Related topics
 
 * Polynomial endofunctors are important in the definition of [[W-types]] in categories.
@@ -319,11 +333,51 @@ The relation of plain polynomial functors to [[trees]] is discussed in
 
 * {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](https://arxiv.org/abs/0807.2874))
 
+A precursor is the notion of *shapely type*:
+
+* C. Barry Jay, [[Robin Cockett|J. Robin B. Cockett]], *Shapely types and shape polymorphism*, in *ESOP 1994*, Lecture Notes in Computer Science **788** (1994) 302-316
+([doi:10.1007/3-540-57880-3_20](https://doi.org/10.1007/3-540-57880-3_20))
+
+The theory of *containers* (the one-variable polynomial functors on $Set$, with all natural transformations) was introduced in
+
+* Michael Abbott, *Categories of Containers*, PhD thesis, University of Leicester (2003)
+
+* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], *Categories of containers*, in *FoSSaCS 2003*, Lecture Notes in Computer Science **2620** (2003) 23-38
+([doi:10.1007/3-540-36576-1_2](https://doi.org/10.1007/3-540-36576-1_2))
+
+* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], *Containers: constructing strictly positive types*, Theoretical
+Computer Science **342** (2005) 3-27
+([doi:10.1016/j.tcs.2005.06.002](https://doi.org/10.1016/j.tcs.2005.06.002))
+
+and further developed in
+
+* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], [[Conor McBride]], *Constructing polymorphic programs with
+quotient types*, in *MPC 2004*, Lecture Notes in Computer Science **3125** (2004)
+([doi:10.1007/978-3-540-27764-4_2](https://doi.org/10.1007/978-3-540-27764-4_2))
+
+* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], [[Conor McBride]], *$\partial$ for data: differentiating data
+structures*, Fundamenta Informaticae **65** (2005) 1-128
+[pdf](http://strictlypositive.org/dfordata.pdf)
+
+* [[Thorsten Altenkirch]], Peter Morris, *Indexed containers*, in *LICS 2009*, IEEE ([doi:10.1109/LICS.2009.33](https://doi.org/10.1109/LICS.2009.33))
+
+* [[Thorsten Altenkirch]], [[Neil Ghani]], Peter Hancock, [[Conor McBride]], Peter Morris, *Indexed containers*, Journal of Functional Programming **25** (2015)
+([doi:10.1017/S095679681500009X](https://doi.org/10.1017/S095679681500009X))
+
+The cartesian closed structure, and the failure of local cartesian closure, are established in
+
+* {#AltenkirchLevyStaton10} [[Thorsten Altenkirch]], [[Paul Blain Levy]], [[Sam Staton]], *Higher-order containers*, in
+CiE 2010, Lecture Notes in Computer Science **6158** (2010) 11-20
+([doi:10.1007/978-3-642-13962-8_2](https://doi.org/10.1007/978-3-642-13962-8_2),
+[pdf](https://www.cs.ox.ac.uk/people/samuel.staton/papers/cie10.pdf))
+
+
 The category, $Poly$, of one-variable polynomial functors on $Set$ and its application to [[dynamical systems]] is considered in
 
 * [[David Spivak]], _Poly: An abundant categorical setting for mode-dependent dynamics_, ([arXiv:2005.01894](https://arxiv.org/abs/2005.01894)) 
 
 * {#FMLS} [[Eric Finster]], [[Samuel Mimram]], Maxime Lucas, Thomas Seiller, _A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory_ ([arXiv:2112.14050](https://arxiv.org/abs/2112.14050)).
+
 
 Talks on polynomial functors are available at
 
