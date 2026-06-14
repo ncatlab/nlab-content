@@ -18,9 +18,7 @@
 =--
 
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -229,6 +227,7 @@ English translation:
 
 Further discussion:
 
+
 * {#Weyl39} [[Hermann Weyl]]: *The Classical Groups -- Their Invariants and Representations*, Princeton University Press (1939) &lbrack;[jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/Weyl_The%20Classical%20Groups.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Classical_Groups)&rbrack;
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
@@ -272,13 +271,13 @@ Further discussion:
 * [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
   > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
 
-
-* [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
+* [[Hans Duistermaat]], [[Johan A. C. Kolk]]: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
-
 * [[Alexander Kirillov, Jr.]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+
+* [[Wolfgang Bertram]]: *Differential Geometry, Lie Groups and Symmetric Spaces over General Base Fields and Rings*, Memoirs of the American Mathematical Society **192** (2008) \[<a href="https://doi.org/10.1090/memo/0900">doi:10.1090/memo/0900</a>, <a href="https://arxiv.org/abs/math/0502168">arXiv:math/0502168</a>\]
 
 * [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
 
