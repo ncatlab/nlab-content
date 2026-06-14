@@ -14,10 +14,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -130,7 +127,7 @@ Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ (Ex
 
 =--
 
-(This is due to [Batchelor 1979](#Batchelor79), reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07), see also [Gawędzki 1977 §3 Thm 1 (p 342)](#Gawędzki77), [Manin 1988, §2 Thm 2 & Cor 7 (pp 188)](#Manin88).)
+(This is due to [Batchelor 1979](#Batchelor79), reviewed in [Batchelor 1984 §1.13](#Batchelor84); [Rogers 2007 §8.2](#Rogers07), see also [Gawędzki 1977 §3 Thm 1 (p 342)](#Gawędzki77), [Manin 1988 §2 Thm 2 & Cor 7 (pp 188)](#Manin88).)
 
 
 
