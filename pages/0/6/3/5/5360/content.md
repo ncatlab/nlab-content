@@ -15,11 +15,10 @@
 
 > For a [[topological space]] satisfying the $R_0$ regularity condition (which states that the [[specialisation preorder]] is [[symmetric relation|symmetric]], hence an [[equivalence relation]]), see [[symmetric topological space]].
 
-***
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -72,6 +71,8 @@ Original discussion and classification of symmetric spaces:
 
 Further discussion:
 
+* S. Araki: _On root systems and an infinitesimal classification of irreducible symmetric spaces_, J. Math. Osaka City Univ. **13** (1962) 1--34
+
 * {#Loos69I} Ottmar Loos, _Symmetric Spaces I: General Theory_,  Benjamin (1969) &lbrack;[pdf](https://www2.math.upenn.edu/~wziller/math661/LoosI.pdf)&rbrack;
 
 * {#Loos69II} Ottmar Loos, _Symmetric Spaces II: Compact spaces and classification_,  Benjamin (1969) 
@@ -82,8 +83,7 @@ Further discussion:
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
-* S. Araki, _On root systems and an infinitesimal classification of irreducible symmetric spaces_, J. Math. Osaka City Univ. 13 (1962) 1--34
-
+* [[Wolfgang Bertram]]: *Differential Geometry, Lie Groups and Symmetric Spaces over General Base Fields and Rings*, Memoirs of the American Mathematical Society **192** (2008) \[<a href="https://doi.org/10.1090/memo/0900">doi:10.1090/memo/0900</a>, <a href="https://arxiv.org/abs/math/0502168">arXiv:math/0502168</a>\]
 
 The definition in terms of [[quandles]] coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
 
