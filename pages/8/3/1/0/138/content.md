@@ -64,7 +64,7 @@ such that for every $i\in I$ there is $a\in A(U_i)$ for which $f(a)=b|_{U_i}$.
 Recall that a morphism $f\colon A\to B$ of simplicial or semisimplicial objects in presheaves of sets
 is a __local acyclic fibration__ if for every $X\in S$ and every commutative square
 \begin{xymatrix}
-\Lambda^n_k \ar[r] \ar[d] & A(X) \ar[d]^f\cr
+\partial\Delta^n \ar[r] \ar[d] & A(X) \ar[d]^f\cr
 \Delta^n \ar[r] & B(X)\cr
 \end{xymatrix}
 there is a covering family $\{U_i\}_{i\in I}$ of $X$
@@ -117,7 +117,7 @@ The condition on the matching map can also be reformulated by saying that the te
 A __basal hypercover__ ([Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 9.2)
 is a Dugger–Hollander–Isaksen hypercover such that every matching map is a basal morphism.
 
-A __Stacks Project hypercover__ ([Stacks Project](#StacksProject), Tag 01G5)
+A __Stacks Project hypercover__ ([Stacks Project](#StacksProject), [Tag 01G5](https://stacks.math.columbia.edu/tag/01G5))
 is a Dugger–Hollander–Isaksen hypercover such that every matching map is a covering basal morphism.
 
 In [Glass–Minichiello](#GlassMinichiello26), Definition 4.32 introduces hypercovers of $X\in S$ as local acyclic fibrations $H\to Y_X$.
@@ -519,7 +519,7 @@ A thorough discussion of hypercovers over representables and their role in [[des
 
 A discussion in the context of [[algebraic geometry]]:
 
-* {#StacksProject} The [[Stacks Project]], Tag 01FZ.
+* {#StacksProject} The [[Stacks Project]], [Tag 01FZ](https://stacks.math.columbia.edu/tag/01FZ).
 
 A discussion in the context of [[differential geometry]]:
 
