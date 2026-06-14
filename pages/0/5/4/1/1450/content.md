@@ -298,9 +298,15 @@ Another textbook is
 
 * [[René Lavendhomme]], *Basic concepts of synthetic differential geometry*, Kluwer Texts in the Mathematical Sciences **13**,  Springer (1996) &lbrack;[doi:10.1007/978-1-4757-4588-7](https://doi.org/10.1007/978-1-4757-4588-7)&rbrack;
 
+The texbook
+
+* [[Wolfgang Bertram]]: *Differential Geometry, Lie Groups and Symmetric Spaces over General Base Fields and Rings*, Memoirs of the American Mathematical Society **192** (2008) \[<a href="https://doi.org/10.1090/memo/0900">doi:10.1090/memo/0900</a>, <a href="https://arxiv.org/abs/math/0502168">arXiv:math/0502168</a>\]
+
+intentionally avoids the language of [[sheaf and topos theory]] but does describe tangency using [[Weil algebras]].
+
 ### Expositions
 
-Introductory survey includes
+Introductory survey:
 
 * [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris (2015) &lbrack;[video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE)&rbrack;
 
