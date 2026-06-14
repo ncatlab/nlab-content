@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -283,16 +281,19 @@ See also:
 
 * [[Mikio Nakahara]], _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
-A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]]:
+Discussion in [[synthetic differential geometry]]:
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], section 6 of: _[[Models for Smooth Infinitesimal Analysis]]_
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]]; section 6 of: _[[Models for Smooth Infinitesimal Analysis]]_, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)&rbrack;
+
+* {#Kock10} [[Anders Kock]]; section 2.5 of: _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690)&rbrack;
+
 
 Generalization to [[principal 2-bundles]]:
 
-* {#Waldorf16} [[Konrad Waldorf]], _A global perspective to connections on principal 2-bundles_ ([arXiv:1608.00401](https://arxiv.org/abs/1608.00401))
+* {#Waldorf16} [[Konrad Waldorf]]: _A global perspective to connections on principal 2-bundles_ &lbrack;[arXiv:1608.00401](https://arxiv.org/abs/1608.00401)&rbrack;
+
 
 Generalization to [[connections on principal ∞-bundles]]:
-
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [Euclid](http://projecteuclid.org/euclid.atmp/1358950853)) 
 
