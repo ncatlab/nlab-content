@@ -103,6 +103,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 * [[countable set|Subcountability]] of $R$ implies the analytic $\mathrm{WLPO}$ because [[natural numbers]] have [[decidable equality]] and injections preserve and reflect decidable equality. 
 
+* If there is a [[discontinuous function]] on a set of [[real numbers]] $\mathbb{R}$, then the analytic WLPO for $\mathbb{R}$ holds by proposition 7.5 of [Bauer & Hanson 2026](#BauerHanson). The proof, which was done in the context of Dedekind reals, does not rely on Dedekind completeness or Cauchy completeness of the [[Dedekind real numbers]] and so is valid for any Archimedean ordered field. 
+
 ## Models
 
 * The analytic WLPO for both [[Cauchy real numbers]] and [[Dedekind real numbers]] fails in Johnstone's [[topological topos]].
@@ -126,6 +128,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 The analytic WLPO is mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality). In addition, it makes the wrong statement that LPO is equivalent to Cauchy reals having decidable equality; it is WLPO which is equivalent to Cauchy reals having decidable equality (i.e. analytic WLPO for Cauchy reals), while LPO is equivalent to Cauchy reals having *[[decidable relation|decidable]] [[tight apartness relation|tight apartness]]*. 
 
 * [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects analytic WLPO]]
 [[!redirects analytic weak limited principle of omniscience]]
