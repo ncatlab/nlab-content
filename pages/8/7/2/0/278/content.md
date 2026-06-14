@@ -211,14 +211,15 @@ A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
+With an eye towards generalization, such as to [[synthetic differential geometry]]:
 
+* [[Wolfgang Bertram]]: *Differential Geometry, Lie Groups and Symmetric Spaces over General Base Fields and Rings*, Memoirs of the American Mathematical Society **192** (2008) \[<a href="https://doi.org/10.1090/memo/0900">doi:10.1090/memo/0900</a>, <a href="https://arxiv.org/abs/math/0502168">arXiv:math/0502168</a>\]
 
-
-See also
+See also:
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
 
-* Wikipedia, _[differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)_
+* Wikipedia: _[Differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)_
 
 ### Higher diff geometry
 
