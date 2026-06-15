@@ -327,7 +327,7 @@ and all these cases occur.
    $$
      \begin{aligned}
      &
-     \widehat{T} \widehat{T}^2 = \widehat{T}^2 \widehatT
+     \widehat{T} \widehat{T}^2 = \widehat{T}^2 \widehat{T}
      \\
      \Rightarrow\;\;
      &
