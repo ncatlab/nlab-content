@@ -148,7 +148,8 @@ $$
 
 where $c$ denotes the integral [[first Chern class]] (cf. [here](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace)).
 
-\begin{theorem} 
+\begin{theorem}
+\label{TheComplexMagmaVersionOfFTA} 
 Let $K$ be a [[finite dimensional vector space]] over $\mathbb{C}$ equipped 
 
 1. (unit) a map $\eta : \ast \rightarrow K$ 
