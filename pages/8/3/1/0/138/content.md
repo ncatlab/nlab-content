@@ -120,7 +120,7 @@ is a Dugger–Hollander–Isaksen hypercover such that every matching map is a b
 A __Stacks Project hypercover__ ([Stacks Project](#StacksProject), [Tag 01G5](https://stacks.math.columbia.edu/tag/01G5))
 is a Dugger–Hollander–Isaksen hypercover such that every matching map is a covering basal morphism.
 
-In [Glass–Minichiello](#GlassMinichiello26), Definition 4.32 introduces hypercovers of $X\in S$ as local acyclic fibrations $H\to Y_X$.
+[Jardine](#Jardine15), Section 4.2 (see also [Glass–Minichiello](#GlassMinichiello26), Definition 4.32) defines hypercovers of $X\in S$ as local acyclic fibrations $H\to Y_X$.
 Using our framework, $H$ is a hypercover if the terminal map $H\to 1$ is a local acyclic fibration.
 
 A hypercover (in any of the above senses) is __split__ ([Dugger–Hollander–Isaksen](#DuggerHollanderIsaksen02), Definition 4.8) if it is split as a simplicial object,
@@ -500,6 +500,8 @@ An early standard reference founding [[étale homotopy theory]] is
 The modern reformulation of their notion of hypercover in terms of simplicial presheaves is mentioned for instance at the end of section 2, on [p. 6](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=6) of
 
 * [[John Frederick Jardine]], _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+* {#Jardine15} [[John Frederick Jardine]], [[Local Homotopy Theory]].
 
 A discussion of hypercovers of [[topological spaces]] and relation to [[étale homotopy type]] of [[smooth schemes]] and [[A1-homotopy theory]] is in 
 
