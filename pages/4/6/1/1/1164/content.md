@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -538,7 +537,7 @@ The notion of fundamental category of a $G$-space is due to
 
 with further discussion in
 
-* {#PronkScull21} [[Dorette Pronk]], [[Laura Scull]], *The Equivariant Fundamental Groupoid as an Orbifold Invariant*, Homology, Homotopy and Applications **23** 1 (2021) ([arXiv:1908.01201](https://arxiv.org/abs/1908.01201), [doi:10.4310/HHA.2021.v23.n1.a3](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a3))
+* {#PronkScull21} [[Dorette Pronk]], [[Laura Scull]]: *The Equivariant Fundamental Groupoid as an Orbifold Invariant*, Homology, Homotopy and Applications **23** 1 (2021) &lbrack;[arXiv:1908.01201](https://arxiv.org/abs/1908.01201), [doi:10.4310/HHA.2021.v23.n1.a3](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a3)&rbrack;
 
 
 [[!redirects orbit categories]]
