@@ -15,9 +15,9 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -1288,13 +1288,14 @@ Discussion in [[(infinity,1)-category theory|$\infty$-category theory]]:
 
 via [[model categories]]:
 
-* {#Hollander08} [[Sharon Hollander]], Thm. 6.1(a) in : *Diagrams indexed by Grothendieck constructions*, Homology Homotopy Appl. 10(3): 193-221 (2008) ([doi:10.4310/HHA.2008.v10.n3.a10](https://dx.doi.org/10.4310/HHA.2008.v10.n3.a10),  [euclid:1251832473](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-10/issue-3/Diagrams-indexed-by-Grothendieck-constructions/hha/1251832473.full))
+* {#Hollander08} [[Sharon Hollander]], Thm. 6.2 in: *Diagrams indexed by Grothendieck constructions*, Homology Homotopy Appl. **10** 3 (2008) 193--221 &lbrack;[doi:10.4310/HHA.2008.v10.n3.a10](https://dx.doi.org/10.4310/HHA.2008.v10.n3.a10),  [euclid:1251832473](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-10/issue-3/Diagrams-indexed-by-Grothendieck-constructions/hha/1251832473.full)&rbrack;
 
 and via [[quasi-categories]]:
 
-* {#Lurie09} [[Jacob Lurie]], Prop. 5.1.6.12 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press, 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+* {#Lurie09} [[Jacob Lurie]], Prop. 5.1.6.12 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
 
 The account in the entry above follows:
 
-* [[Hisham Sati]], [[Urs Schreiber]], Prop. 3.2.45-47 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]; Prop. 3.2.45-47 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[ISBN:9781009698559](https://www.cambridge.org/de/universitypress/subjects/mathematics/geometry-and-topology/equivariant-principal-bundles?format=HB&isbn=9781009698559)
+, [arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
