@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -41,6 +39,10 @@ Original articles:
 Further discussion:
 
 * Jens O. Andersen, Lars E. Leganger, Michael Strickland, _The QCD trace anomaly_, Phys.Rev. D84 (2011) 087703 ([arXiv:1106.0514](https://arxiv.org/abs/1106.0514))
+
+On [[hadron]] properties linked to [[quantum anomalies]] like the trace anomaly:
+
+* [[Ismail Zahed]]: *Anomalies, Topology, and Hadron Structure in QCD* &lbrack;[arXiv:2606.13908](https://arxiv.org/abs/2606.13908)&rbrack;
 
 ### In geometric engineering of QCD on branes
  {#ReferencesHolographicQCD}
