@@ -8,10 +8,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{: toc}
 
+\tableofcontents
 
 ## Idea {#Idea}
 
@@ -523,6 +521,7 @@ In the case of general (commutative) schemes, every presheaf of $O_X$-modules wh
 The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasicoherent sheaves on the corresponding [[deRham space]].
 
 
+
 ## References
 
 ### General
@@ -531,7 +530,11 @@ See also:
 
 * Wikipedia: *[Coherent sheaf](https://en.wikipedia.org/wiki/Coherent_sheaf)*
 
-On quasicoherent sheaves over [[geometric stacks]]:
+On quasicoherent sheaves over [[stacks]]:
+
+* [[Sharon Hollander]]: *Descent for quasi-coherent sheaves on stacks*, Algebraic and Geometric Topology **7** (2007) 411--438 \[<a href="http://dx.doi.org/10.2140/agt.2007.7.411">doi:10.2140/agt.2007.7.411</a>, <a href="https://arxiv.org/abs/0708.2475">arXiv:0708.2475</a>\]
+
+and specifically over [[geometric stacks]]:
 
 * Leovigildo Alonso Tarrío, Ana Jeremías López, Marta Pérez Rodríguez, María J. Vale Gonsalves: _A functorial formalism for quasi-coherent sheaves on a geometric stack_, Expositiones Mathematicae __33__ 4 (2015) 452-501 &lbrack;[doi:10.1016/j.exmath.2014.12.007](https://doi.org/10.1016/j.exmath.2014.12.007)&rbrack;
 
@@ -551,6 +554,7 @@ On quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [
 on [[descent]] properties:
 
 * [[Jacob Lurie]], _[[Descent Theorems]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
+
 
 and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context:
 
