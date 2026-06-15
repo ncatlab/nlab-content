@@ -46,6 +46,10 @@ On [[quantum hadrodynamics]] via [[light-front QCD]]:
 
 * [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front II: QCD strings, Wilson lines and potentials* ([arXiv:2111.01775](https://arxiv.org/abs/2111.01775))
 
+On [[hadron]] properties linked to [[quantum anomalies]] (like the [[QCD trace anomaly]]):
+
+* [[Ismail Zahed]]: *Anomalies, Topology, and Hadron Structure in QCD* &lbrack;[arXiv:2606.13908](https://arxiv.org/abs/2606.13908)&rbrack;
+
 
 
 category: people
