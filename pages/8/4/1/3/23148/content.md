@@ -9,13 +9,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
-The "fundamental theorem" of [[topos theory]], in the terminology of [McLarty 1992](#McLarty92), asserts that for $\mathcal{T}$ any [[topos]] and $X \,\in\, \mathcal{T}$ any [[object]], also the [[slice category]] $\mathcal{T}_{/X}$ is a topos: the *[[slice topos]]*.
+The "fundamental theorem" of [[topos theory]] (in the terminology of [McLarty 1992](#McLarty92)) asserts that for $\mathcal{T}$ any [[topos]] and $X \,\in\, \mathcal{T}$ any [[object]], also the [[slice category]] $\mathcal{T}_{/X}$ is a topos: the *[[slice topos]]*.
 
 If $\mathcal{T} \,\simeq\, Sh(\mathcal{S})$ is a [[category of sheaves]], hence a [[Grothendieck topos]], then so its its slice: $\mathcal{T}_{/X} \,\simeq\, Sh\big( \mathcal{S}_{/X} \big)$ ([SGA4.1, p. 295](#SGA41)).
 
