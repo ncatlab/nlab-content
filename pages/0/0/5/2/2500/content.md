@@ -602,21 +602,19 @@ This early history is discussed in:
 
 Supergravity, in the guise of [[4d supergravity]], was first found (constructed) in
 
-* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]]: _Progress toward a theory of supergravity_, Phys. Rev. D **13** (1976) 3214 &lbrack;[doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214)&rbrack;
 
 
 Accounts of the early history of supergravity::
 
-* [[Sergio Ferrara]], _Supergravity and the quest for a unified theory_ ([arxiv:hep-th/9405065](https://arxiv.org/abs/hep-th/9405065))
-
+* [[Sergio Ferrara]]: _Supergravity and the quest for a unified theory_ &lbrack;[arxiv:hep-th/9405065](https://arxiv.org/abs/hep-th/9405065)&rbrack;
 
 * [[Dmitry Volkov]], _Supergravity before 1976_,
 International Conference on the History of Original Ideas and Basic Discoveries in Particle Physics, Erice, 1994 ([Springer, Chapter](http://link.springer.com/chapter/10.1007/978-1-4613-1147-8_34) or [arXiv:hep-th/9410024](http://arxiv.org/abs/hep-th/9410024))
 
 * R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
-* [[Dmitry Volkov]], _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry,
-S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386) or [arXiv:hep-th/9404153](http://arxiv.org/abs/hep-th/9404153)
+* [[Dmitry Volkov]], _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry, S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386) or [arXiv:hep-th/9404153](http://arxiv.org/abs/hep-th/9404153)
 
 * David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
 
