@@ -51,9 +51,8 @@ The [[model structure on sSet-enriched presheaves|sSet-enriched]] [[derived func
 
 Discussion for [[Grothendieck toposes]]:
 
-* {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) ([doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf))
-
-  (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
+* {#SGA41}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas_ ([[SGA4]]) Tome 1: *Théorie des Topos* Springer **LNM** **269** (1972) &lbrack;[doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf)&rbrack;
+  > (In particular, exposé III.5 and exposé IV.5 on the "induced topos" -- _topos induit_ = slice topos)
 
 Discussion in the generality of [[elementary toposes]]:
 
