@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -125,6 +123,11 @@ Discussion in a general context of [[bound states]]:
 On the issue of hadron [[mass]] ([[confinement]]):
 
 * Minghui Ding, Craig D. Roberts, Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* *lbrack;[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)&rbrack;
+
+On hadron properties linked to [[quantum anomalies]] (like the [[QCD trace anomaly]]):
+
+* [[Ismail Zahed]]: *Anomalies, Topology, and Hadron Structure in QCD* &lbrack;[arXiv:2606.13908](https://arxiv.org/abs/2606.13908)&rbrack;
+
 
 List of hadrons discovered at the [[LHC experiment]]:
 
