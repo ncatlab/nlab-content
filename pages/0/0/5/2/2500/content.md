@@ -583,7 +583,7 @@ On non-relativistic SuGra as an [[effective field theory]] for excitation modes 
 
 The original idea of supergravity is attributed to:
 
-* [[Dmitry Volkov]], [[Vladimir P. Akulov]]: _Possible universal neutrino interaction_, JETP Lett. **16** (1972) 438--440, Pisma Zh. Eksp. Teor. Fiz. **16** (1972) 621--624 &lbrack;[inSpire:76156](https://inspirehep.net/literature/76156), [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1972.pdf), [[VolkovAkulov-1972.pdf|pdf:file]]&rbrack;
+* {#VolkovAkulov1972} [[Dmitry Volkov]], [[Vladimir P. Akulov]]: _Possible universal neutrino interaction_, JETP Lett. **16** (1972) 438--440, Pisma Zh. Eksp. Teor. Fiz. **16** (1972) 621--624 &lbrack;[inSpire:76156](https://inspirehep.net/literature/76156), [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1972.pdf), [[VolkovAkulov-1972.pdf|pdf:file]]&rbrack;
   > which introduces anticommuting gauge parameters and ends with the sentence: "We note that if we introduce also gauge fields corresponding to the transformations (3), then, as a consequence of the Higgs effect (Higgs (1966)), a massive gauge field with spin 3/2 arises*
 
 followed up by the first model of supergravity (in nonlinear realization) constructed in:
