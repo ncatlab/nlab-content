@@ -101,7 +101,9 @@ with more details in:
 
 * Saghar S. Hosseini, [[Yuji Tachikawa]], Hao Y. Zhang: *Type I anomaly cancellation revisited* \[<a href="https://arxiv.org/abs/2505.07933">arXiv:2505.07933</a>\]
 
+In [[differential K-theory]]:
 
+* [[Richard J. Szabo]]: *Ramond–Ramond fields and differential K-theory*, section 3 in: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 \[<a href="https://doi.org/10.22323/1.175.0009">doi:10.22323/1.175.0009</a>, [arXiv:1209.2530 hep-th](https://arxiv.org/abs/1209.2530)\]
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
 
@@ -144,7 +146,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 * {#SatiSchreiber24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**, Academic Press (2025) 281-324 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00078-1">doi:10.1016/B978-0-323-95703-8.00078-1</a>, <a href="https://arxiv.org/abs/2402.18473">arXiv:2402.18473</a>\]
 
 
-Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in Ktheory
+Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in K-theory
 
 * [[Volker Braun]]: *K-Theory Torsion* \[<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>\]
 
