@@ -25,7 +25,9 @@ See also
 * Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Planck evidence for a closed Universe and a possible crisis for cosmology_, Nature Astronomy (4th November 2019) ([arXiv:1911.02087](https://arxiv.org/abs/1911.02087))
 
 
-## Related $n$Lab entries
+## Related entries
+
+* [[BICEP2]]
 
 * [[cosmic structure formation]]
 
