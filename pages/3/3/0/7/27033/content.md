@@ -294,14 +294,40 @@ Apart from the equivalent statements stated above for the LPO for a general set 
 
 #### Truncated and untruncated versions
 
+In the context of [[dependent type theory]], the usual limited principle of omniscience for the natural numbers $\mathbb{N}$ is expressed as 
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+
+However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different versions of the limited principle of omniscience of $\mathbb{N}$, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated:
+
+* the usual $\mathrm{LPO}_\mathbb{N}$ states that 
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+
+* the **disjunction-untruncated limited principle of omniscience for $\mathbb{N}$** states that
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\exists x:\mathbb{N}.f(x) = 1\right) + \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+
+* the **quantifier-untruncated limited principle of omniscience for $A$** states that
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:A} f(x) = 1\right) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+
+* the **fully untruncated limited principle of omniscience for $\mathbb{N}$** states that
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\left(\sum_{x:\mathbb{N}} f(x) = 1\right) + \prod_{x:\mathbb{N}} f(x) = 0\right)$$
+
 Let us begin with the equivalence of the various truncated versions of the $\mathrm{LPO}_\mathbb{N}$ with the usual untruncated version of the $\mathrm{LPO}_\mathbb{N}$. 
 
 \begin{theorem}
 The $\mathrm{LPO}_\mathbb{N}$ implies the disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$.  
 \end{theorem}
 
+\begin{proof}
+Since any propositions $P$ and its negation $\neg P$ are [[mutually exclusive propositions|mutually exclusive]], the [[sum type]] $P + \neg P$ has a [[choice operator]], because $P$ and $\neg P$ being mutually exclusive implies that if the [[disjunction]] $P \vee Q$ holds, then [[exclusive disjunction]] holds: i.e. exactly one of $P$ and $\neg P$ holds. This is represented in dependent type theory by the sum type $P + \neg P$ being a [[contractible type]] $\mathrm{isContr}(P + \neg P)$, which by definition allows one to construct an element of $P + \neg P$. For $P$ being the [[existential quantifier]] $\exists n:\mathbb{N}.f(n) = 1$, $P \vee \neg P$ is truncated $\mathrm{LPO}_\mathbb{N}$ while $P + \neg P$ is precisely the disjunction untruncated $\mathrm{LPO}_\mathbb{N}$. 
+\end{proof}
+
 \begin{theorem}
-Given a sequnece of booleans $f:\mathbb{N} \to \mathbb{2}$, the [[preimage]] of $f$ at the boolean $1$ has a [[choice operator]]. 
+Given a sequence of booleans $f:\mathbb{N} \to \mathbb{2}$, the [[preimage]] of $f$ at the boolean $1$ has a [[choice operator]]. 
 \end{theorem}
 
 \begin{proof}
@@ -313,12 +339,29 @@ The disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$ implies the fully untrunca
 \end{theorem}
 
 \begin{proof}
-...
+By [[weak function extensionality]], the type $\prod_{n:\mathbb{N}} f(n) = 0$ is a proposition and so is equivalent to its own [[propositional truncation]] $\forall n:\mathbb{N}.f(n) = 0$, which is the negation of $\exists n:\mathbb{N}.f(n) = 1$. Given a function $f:A \to B$ and a type $C$ one can construct the function $(f + \mathrm{id}_C):(A + C) \to (B + C)$ by the [[pullback stability]] of [[sum types]], where $\mathrm{id}_C$ is the [[identity function]] on type $C$. 
+$$
+\begin{array}{c}
+A & \rightarrow & A + C & \leftarrow & C \\
+\downarrow & & \downarrow & & \downarrow \\
+B & \rightarrow & B + C & \leftarrow & C \\
+\end{array}
+$$
+Thus, since the type $\sum_{n:\mathbb{N}}.f(n) = 1$ has a choice operator, one can construct the function 
+$$\epsilon + \mathrm{id}_{\prod_{n:\mathbb{N}} f(n) = 0}$$
+from the disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$
+$$(\exists n:\mathbb{N}.f(n) = 1) + \left(\prod_{n:\mathbb{N}} f(n) = 0\right)$$ 
+to the fully untruncated $\mathrm{LPO}_\mathbb{N}$
+$$\left(\sum_{n:\mathbb{N}} f(n) = 1\right) + \left(\prod_{n:\mathbb{N}} f(n) = 0\right)$$
 \end{proof}
 
 \begin{theorem}
-$\mathrm{LPO}_\mathbb{N}$ and fully untruncated $\mathrm{LPO}_\mathbb{N}$ are equivalent. 
+$\mathrm{LPO}_\mathbb{N}$ and fully untruncated $\mathrm{LPO}_\mathbb{N}$ are logically interderivable from each other. 
 \end{theorem}
+
+\begin{proof}
+The converses follow from the fact that by the inference rules of [[propositional truncations]], one has a function $\mathrm{trunc}_P:P \to [P]$ for all types $P$. 
+\end{proof}
 
 #### Real analysis
 
