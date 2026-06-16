@@ -10,9 +10,10 @@ Precursor discussion of [[supergravity]] ([[D=4 supergravity]]):
 
 * [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Higgs effect for Goldstone particles with spin $1/2$_, JETP Lett. **18** (1973) 312--314, Pisma Zh. Eksp. Teor. Fiz. **18** (1973) 529--532\[<a href="https://inspirehep.net/literature/84359">inSpire:84359</a>, [pdf](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov/volkov_1973.pdf), [[VolkovSoroka-1973.pdf|pdf:file]]\]
 
+
 On [[D=4 supergravity]] formulated in [[superspace]]:
 
-* V. Akulov, [[Dmitry Volkov]] and [[Vyacheslav Soroka]], _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. 31 (1977) 285 ([doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233))
+* [[Vladimir Akulov]], [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. **31** (1977) 285 &lbrack;[doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233)&rbrack;
 
 
 On the history of [[supergravity]]:
