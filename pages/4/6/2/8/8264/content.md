@@ -11,6 +11,7 @@
 
 
 
+
 \tableofcontents
 
 ## Idea
@@ -68,6 +69,24 @@ Discussion of inflationary effects of ever higher curvature corrections includes
 ### Ekpyrotic cosmology
 
 See _[[ekpyrotic cosmology]]_.
+
+
+### Supergravity models
+ {#SupergravityModels}
+
+There are [[scalar fields]] in [[D=4 N=1 supergravity]] that naturally serve as inflatons.
+
+#### $\alpha$-Attractor mechanism
+ {#AlphaAttractorMechanism}
+
+Remarkably, there is an *attractor mechanism* at work in [[D=4 N=1 supergravity]] ([Kallosh, Linde & Roest 2013](#KalloshLindeRoest2013), cf. [Carrasco, Kallosh & Linde 2015](#CarrascoKalloshLinde2015); [Kallosh & Linde 2026](#KalloshLinde2026)) which makes inflaton dynamics effectively tend to the behaviour of models with plateau-shaped shaped [[potential energy]] (including the [[Starobinsky model of cosmic inflation]]) whose predictions stand out as squarely matching observations of the [[Planck Collaboration]] and the BICEP/Keck 2021 experiment.
+
+> [CKL15](#CarrascoKalloshLinde2015): "This new class of models accomplishes for inflationary theory something similar to what inflation does for cosmology. Inflation stretches the universe making it flat and homogeneous, and the structure of the observable part of the universe becomes very stable with respect to the choice of initial conditions in the early universe. Similarly, stretching of the moduli space near its boundary upon transition to canonical variables makes inflationary potentials very flat and results in predictions which are very stable with respect to the choice of the inflaton potential."
+
+> [KS26](#KalloshLinde2026): "This large class of inflationary models gives predictions that are stable with respect to even very significant modifications of inflationary potentials. These predictions match all presently available CMB-related cosmological data."
+
+It remains however unclear whether these [[D=4 supergravity]] models of inflation can arise as [[KK-reductions]] from [[D=10 supergravity|D=10]] or [[D=11 supergravity]] --- unless [[higher curvature corrections]] are included (cf. [here](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingInto11dSupergravity)).
+
 
 ## Related concepts
 
@@ -228,38 +247,9 @@ Literature discussing whether or how [[gauge field]] might be identified as the 
 * A. Maleknejad, M. M. Sheikh-Jabbari, J. Soda, _Gauge Fields and Inflation_ ([arXiv:1212.2921](http://arxiv.org/abs/1212.2921))
 
 
-### Supergravity models
- {#ReferencesSupergravityModels}
-
-Models of cosmic inflation in [[supergravity]]:
-
-> See also at *[[Starobinsky model of cosmic inflation]]* the references on its [embedding into supergravity](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingIntoSupergravity).
 
 
-* [[Dimitri V. Nanopoulos]], [[Keith A. Olive]], [[Mark Srednicki]], K. Tamvakis: Phys.Lett.B **123** (1983) 41--44 \[<a href="https://doi.org/10.1016/0370-2693(83)90954-1">doi:10.1016/0370-2693(83)90954-1</a>\]
-
-* R. Holman, [[Pierre Ramond]], G. G. Ross: *Supersymmetric inflationary cosmology*, Physics Letters B **137** (1984) 343  \[<a href="http://doi.org/10.1016/0370-2693(84)91729-5">doi:10.1016/0370-2693(84)91729-5</a>\] 
-
-* [[S. James Gates Jr.]], [[Sergei V. Ketov]]: *Superstring-inspired supergravity as the universal source of inflation and quintessence*, Physics Letters B **674** (2009) 59--63 \[<a href="https://doi.org/10.1016/j.physletb.2009.03.005">doi:10.1016/j.physletb.2009.03.005</a>, [arXiv:0901.2467](arxiv.org/abs/0901.2467)\]
-
-* Masahide Yamaguchi: *Supergravity based inflation models: a review*, Class. Quantum Grav. **28** (2011) 103001 \[<a href="https://doi.org/10.1088/0264-9381/28/10/103001">doi:10.1088/0264-9381/28/10/103001</a>, [arXiv:1101.2488](https://arxiv.org/abs/1101.2488)\]
-
-* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
-
-
-* [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
-
-* Takahiro Terada: *Inflation in Supergravity with a Single Superfield*, Phd thesis, Tokyo (2015) \[<a href="https://arxiv.org/abs/1508.05335">arXiv:1508.05335</a>\]
-
-* [[Sergio Ferrara]], [[Renata Kallosh]]: *Seven-Disk Manifold, $\alpha$-attractors and $B$-modes*, Phys. Rev. D **94** (2016) 126015 \[<a href="https://doi.org/10.1103/PhysRevD.94.126015">doi:10.1103/PhysRevD.94.126015</a>, [arXiv:1610.04163](https://arxiv.org/abs/1610.04163)\] 
-  > (via [[11D supergravity]]/[[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]])
-
-* Llibert Aresté Saló, David Benisty, Eduardo I. Guendelman, Jaume de Haro: *$\alpha$-attractors in Quintessential Inflation motivated by Supergravity*, Phys. Rev. D **103** (2021) 123535 \[<a href="https://doi.org/10.1103/PhysRevD.103.123535">doi:10.1103/PhysRevD.103.123535</a>, [arXiv:2103.07892](https://arxiv.org/abs/2103.07892)\]
-
-
-* [[Sergei Ketov]]: *Inflationary Cosmology from Supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) \[<a href="https://doi.org/10.1007/978-981-19-3079-9_51-1">doi:10.1007/978-981-19-3079-9_51-1</a>, [[Ketov-InflationaryCosmology.pdf|pdf:file]]\]
-
-* [[Ignatios Antoniadis]], Emilian Dudas, [[Fotis Farakos]], [[Augusto Sagnotti]]: *Non-Linear Supergravity and Inflationary Cosmology* \[<a href="https://arxiv.org/abs/2409.14943">arXiv:2409.14943</a>\]
+[[!include inflationary cosmology in supergravity -- references]]
 
 
 
