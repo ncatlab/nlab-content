@@ -76,6 +76,7 @@ See _[[ekpyrotic cosmology]]_.
 
 There are [[scalar fields]] in [[D=4 N=1 supergravity]] that naturally serve as inflatons.
 
+
 #### $\alpha$-Attractor mechanism
  {#AlphaAttractorMechanism}
 
@@ -86,6 +87,15 @@ Remarkably, there is an *attractor mechanism* at work in [[D=4 N=1 supergravity]
 > [KS26](#KalloshLinde2026): "This large class of inflationary models gives predictions that are stable with respect to even very significant modifications of inflationary potentials. These predictions match all presently available CMB-related cosmological data."
 
 It remains however unclear whether these [[D=4 supergravity]] models of inflation can arise as [[KK-reductions]] from [[D=10 supergravity|D=10]] or [[D=11 supergravity]] --- unless [[higher curvature corrections]] are included (cf. [here](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingInto11dSupergravity)).
+
+
+#### $\eta$-Problem resolution
+ {#EtaProblemResolutionInSupergravity}
+
+The *$\eta$-problem* in inflationary cosmology is the issue that [[renormalization|quantum corrections]] to the inflaton potential tend to destroy the slow-roll regime.
+
+It is argued that this is naturally solved in [[D=4 supergravity]] with "nilpotent" superfields ([Ferrara, Kallosh & Linde 2014](#FerraraKalloshLinde2014)), which may be understood as an [[effective field theory|effective]] descrition of [[anti-brane]] annihilation ([Quevedo et al. 2025](#QuevedoEtAl2025), [Villa 2025](#Villa2025)).
+
 
 
 ## Related concepts
