@@ -20,7 +20,7 @@ On [[Donaldson-Thomas theory]] and [[Hilbert schemes]]:
 * Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B **809** 452-518 (2009) &lbrack;[arXiv:0803.4188](https://arxiv.org/abs/0803.4188)&rbrack;
 
 
-On abelian [[higher gauge theory]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]]:
+On abelian [[higher gauge theory]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]] (focus on [[ordinary differential cohomology]] and [[differential K-theory]] for [[D-brane charge quantization in K-theory|RR-flux quantization in K-theory]]):
 
 * [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
 
