@@ -128,13 +128,14 @@ There are two different off-shell formulations, the "old minimal"
 
 and the "new minimal" supergravity
 
-* V. Akulov, [[Dmitry Volkov]] and V. Soroka, _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. 31 (1977) 285 ([doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233))
+* [[Vladimir Akulov]], [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. **31** (1977) 285 &lbrack;[doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233)&rbrack;
+  > (on [[superspace]])
 
 * M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
 
-* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
+* M. F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
 
-* [[Jim Gates]], [[Martin Rocek]] and [[Warren Siegel]], Nucl. Phys. B198 (1982) 113
+* [[Jim Gates]], [[Martin Rocek]], [[Warren Siegel]], Nucl. Phys. B **198** (1982) 113
 
 These two versions were later understood to be two different [[gauge fixings]] of N=1 d=4 coformal supergravity. Yet other gauge fixings are discussed in
 
