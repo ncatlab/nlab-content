@@ -65,5 +65,12 @@ On the [[duality between M-theory and type IIA string theory]] on [[superspace]]
 
 * {#GiotopoulosZagreb2026} [[Grigorios Giotopoulos]]: *Cyclified Cohomotopy Flux Quantization of IIA Sugra via Superspace Dim Reduction of Hypothesis H*, talk at at *[6th Mini Symposium on Physics and Geometry](http://thphys.irb.hr/phygeo2026)*, [RBI Zagreb](https://www.irb.hr/eng/), Croatia (25--29 May 2026) &lbrack;[[Giotopoulos-RBIZagreb-2026.pdf:file]]&rbrack;
 
+On [[duality between M-theory and type IIA string theory|M/IIA duality]] on [[superspace]] and implication for [[geometry of physics -- flux quantization|flux quantization]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
+
+
+
+
 
 category: people
