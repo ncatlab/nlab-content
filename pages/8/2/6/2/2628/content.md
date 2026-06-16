@@ -1,7 +1,6 @@
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -259,24 +258,21 @@ But this (even their chain-homotopy equivalence) is the content of the generaliz
 
 ## References
 
-Canonical references on simplicial de Rham cohomology are by [[Johan Louis Dupont]]. For instance
 
-* [[Johan Louis Dupont]], _Simplicial de Rham Cohomology and characteristic classes of flat bundles_ Topology 15 (1976)
+* [[Johan Louis Dupont]]: _Simplicial de Rham Cohomology and characteristic classes of flat bundles_, Topology **15** 3 (1976) 233--245 \[<a href="https://doi.org/10.1016/0040-9383(76)90038-0">doi:10.1016/0040-9383(76)90038-0</a>\]
 
-* [[Johan Louis Dupont]], _A dual simplicial de Rham complex_, Lecture notes in Mathematics 1318 (1988) ([journal](http://www.springerlink.com/content/65784420x146888h/))
+* [[Johan Louis Dupont]]: _A dual simplicial de Rham complex_, in: *Algebraic Topology, Rational Homotopy*, Lecture Notes in Mathematics **1318** (1988) \[<a href="https://doi.org/10.1007/BFb0077796">doi:10.1007/BFb0077796</a>\]
 
-* chaper 3 in _Curvature and Characteristic Classes_
-
->(I am still looking for the best survey reference...)
+* chapter 3 in: _Curvature and Characteristic Classes_
 
 When restricted to low degree this is closely related to or synonymous to considerations of de Rham cohomology in the context of [[differentiable stack]]s.
 
 > (need to dig out references)
 
 
-A [[de Rham theorem]] for simplicial manifolds was proven in the classical
+Application to [[classifying spaces]] and proof of the [[de Rham theorem]] for simplicial manifolds:
 
-* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
+* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]]: _On the de Rham theory of certain classifying spaces_, Advances in Mathematics **20** 1 (1976) 43--56 \[<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>\]
 
 
 
@@ -289,3 +285,6 @@ though a simplicial de Rham complex is only somewhat implicit in that article.
 
 
 [[!redirects simplicial deRham complex]]
+
+[[!redirects simplicial de Rham cohomology]]
+
