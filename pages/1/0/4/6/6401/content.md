@@ -13,9 +13,7 @@
 
 
 
-#Contents##
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -75,6 +73,8 @@ Discussion of superspace within [[philosophy of physics]]:
  {#ReferencesForSupergravity}
 
 The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]: 
+
+* [[Vladimir Akulov]], [[Dmitry Volkov]], [[Vyacheslav Soroka]]: _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. **31** (1977) 285 &lbrack;[doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233)&rbrack;
 
 * [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B **66** (1977) 361-364 \[<a href="https://doi.org/10.1016/0370-2693(77)90015-6">doi:10.1016/0370-2693(77)90015-6</a>\]
 
