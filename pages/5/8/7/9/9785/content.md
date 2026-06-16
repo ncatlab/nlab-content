@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -144,7 +143,7 @@ Review and further discussion:
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae, &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987) [10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Hidden M-Group]]*, Journal of Geometry and Physics (2025) &lbrack;[doi:10.1016/j.geomphys.2025.105743](https://doi.org/10.1016/j.geomphys.2025.105743), [arXiv:2411.11963](https://arxiv.org/abs/2411.11963)&rbrack;
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Hidden M-Group]]*, Journal of Geometry and Physics **222** (2026) 105743 &lbrack;[doi:10.1016/j.geomphys.2025.105743](https://doi.org/10.1016/j.geomphys.2025.105743), [arXiv:2411.11963 hep-th](https://arxiv.org/abs/2411.11963)&rbrack;
 
 
 
