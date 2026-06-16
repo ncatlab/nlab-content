@@ -283,13 +283,13 @@ See ([Shulman, Prop. 4.8](#Shulman))
 
 ## References
 
-* [[Saunders MacLane]] [[Ieke Moerdijk]], section VII. 10 of: _[[Sheaves in Geometry and Logic]]_,  Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+* [[Saunders MacLane]], [[Ieke Moerdijk]], section VII. 10 of: _[[Sheaves in Geometry and Logic]]_,  Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
   > (in terms of covering [[sieves]]).
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], section 17.2 in: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
   > (in terms of [[local isomorphisms]]).
 
-* [[Peter Johnstone]], section C2.3 of: *[[Sketches of an Elephant]]*, Offord University Press (2002)
+* [[Peter Johnstone]], section C2.3 of: *[[Sketches of an Elephant]]*, Oxford University Press (2002)
 
 * {#Shulman} [[Michael Shulman]]: *Exact completions and small sheaves*, Theory and Applications of Categories **27** 7 (2012) 97-173 &lbrack;[tac:27-07](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)&rbrack;
 
