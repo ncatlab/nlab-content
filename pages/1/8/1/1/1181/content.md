@@ -125,7 +125,7 @@ $$\pi_1 \phi'(a,z) = \pi_1(a,z,f(a)) = a, \qquad \pi_1\phi'(a,s(n)) = \pi_1 g'(\
 Thus, by the uniqueness assumption, we have $\pi_1 \phi'(a,n) = a$ for all $a,n$.  By a similar argument, we have $\pi_2 \phi'(a,n) = n$ for all $a,n$.  Therefore, $\phi'(a,s(n)) = (a,n,g(a,n,\phi'(a,n)))$, and hence the composite $A\times N  \xrightarrow{\phi'} X' \xrightarrow{\pi_3} X$ is the desired $\phi_{f,g}$.
 =--
 
-The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since some non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
+The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F (1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F (\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since some non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well. For more details see ([Román 1989](#Rom89))
 
 In this context an important class is the class of [[pretopos|pretoposes]] with a parametrized NNO - the so called [[arithmetic pretopos|arithmetic pretoposes]].
 
@@ -362,6 +362,9 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 * {#Law63}[[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_, Ph.D. thesis Columbia University 1963. (Published with an author's comment as: TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
 * {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_, pp.20-29 in LNM **1488** Springer Heidelberg 1991.
+
+* {#Rom89} Leopoldo Román, _Cartesian categories with natural numbers object_, Journal of Pure and Applied Algebra, **58** Issue 3 (1989) Pages 267-278, doi:[10.1016/0022-4049(89)90042-X](https://doi.org/10.1016/0022-4049%2889%2990042-X)
+
 
 * {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_, Algebra Universalis **26** (1989) pp.341-345.
 
