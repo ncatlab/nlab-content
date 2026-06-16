@@ -59,3 +59,7 @@ This fits with the fact that $M$ is an extension of $A$ by unary operations, so 
 * [[Jiří Adámek]] and [[Francis Borceux]], _Morita equivalence of sketches_, Applied Categorical Structures 8 (2000): 503-517.
 
 * Gabriel C. Drummond-Cole and Philip Hackney, _Coextension of scalars in operad theory_, Mathematische Zeitschrift 301.1 (2022): 275-314.
+
+See also section 63 of:
+
+* George M. Bergman, and Adam O. Hausknecht, _Cogroups and co-rings in categories of associative rings_, No. 45. American Mathematical Soc., 1996.
