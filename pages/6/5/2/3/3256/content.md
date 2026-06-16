@@ -5,7 +5,7 @@
 
 ## Idea
 
-The *Nisnevich topology* is a certain [[Grothendieck topology]] on the [[category]] of [[scheme]]s which is finer than the [[Zariski topology]] but coarser than the [[étale topology]]. It retains many desirable properties from both topologies:
+The *Nisnevich topology*, also called the *completely decomposed topology*, is a certain [[Grothendieck topology]] on the [[category]] of [[scheme]]s which is finer than the [[Zariski topology]] but coarser than the [[étale topology]]. It retains many desirable properties from both topologies:
 
 * The Nisnevich [[cohomological dimension]] (and even the [[homotopy dimension]]) of a scheme is bounded by its [[Krull dimension]] (like Zariski)
 * [[field|Fields]] have [[shape of an (∞,1)-topos|trivial shape]] for the Nisnevich topology (like Zariski)
@@ -102,6 +102,10 @@ A self-contained account of the Nisnevich $(\infty,1)$-topos including the non-N
 
 * [[Jacob Lurie]], _Derived Algebraic Geometry XI: Descent Theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
 {#DAGXI}
+
+A comprehensive treatment of the Nisnevich topology, together with its applications to algebraic $K$-theory and descent spectral sequences, was given by Nisnevich in 1989 under the name of the "completely decomposed topology":
+
+* Y. Nisnevich, The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory, in Algebraic K-Theory: Connections with Geometry and Topology (Lake Louise, AB, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., vol. 279, Kluwer Acad. Publ., Dordrecht, 1989, pp. 241–342.
 
 [[!redirects Nisnevich topology]]
 [[!redirects Nisnevich topos]]
