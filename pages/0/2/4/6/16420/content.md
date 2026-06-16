@@ -55,6 +55,9 @@ On [[supergravity]] models of [[cosmic inflation]]:
 
 * [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]], [[Massimo Porrati]]: *Minimal Supergravity Models of Inflation*, Phys. Rev. D **88** (2013) 085038 \[<a href="https://doi.org/10.1103/PhysRevD.88.085038">doi:10.1103/PhysRevD.88.085038</a>, [arXiv:1307.7696](https://arxiv.org/abs/1307.7696)\]
 
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]]: *Cosmology with Nilpotent Superfields*, J. High Energ. Phys. **2014** 143 (2014) \[<a href="https://doi.org/10.1007/JHEP10(2014)143">doi:10.1007/JHEP10(2014)143</a>, [arXiv:1408.4096](https://arxiv.org/abs/1408.4096)\]
+
+
 * [[Sergio Ferrara]], [[Renata Kallosh]]: *Seven-Disk Manifold, $\alpha$-attractors and $B$-modes*, Phys. Rev. D **94** (2016) 126015 \[<a href="https://doi.org/10.1103/PhysRevD.94.126015">doi:10.1103/PhysRevD.94.126015</a>, [arXiv:1610.04163](https://arxiv.org/abs/1610.04163)\] 
   > (via [[11D supergravity]]/[[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]])
 
