@@ -12,7 +12,7 @@
 
 On [[supergravity]] models of [[cosmic inflation]]:
 
-* [[S. James Gates Jr.]], [[Sergei V. Ketov]]: *Superstring-inspired supergravity as the universal source of inflation and quintessence*, Physics Letters B **674** (2009) 59--63 \[<a href="https://doi.org/10.1016/j.physletb.2009.03.005">doi:10.1016/j.physletb.2009.03.005</a>, [arXiv:0901.2467](arxiv.org/abs/0901.2467)\]
+* [[S. James Gates Jr.]], [[Sergei V. Ketov]]: *Superstring-inspired supergravity as the universal source of inflation and quintessence*, Physics Letters B **674** (2009) 59--63 \[<a href="https://doi.org/10.1016/j.physletb.2009.03.005">doi:10.1016/j.physletb.2009.03.005</a>, [arXiv:0901.2467](https://arxiv.org/abs/0901.2467)\]
 
 * [[Sergei V. Ketov]], Takahiro Terada: *Inflation in Supergravity with a Single Chiral Superfield*, Physics Letters B **736** (2014) 272--277 \[<a href="https://doi.org/10.1016/j.physletb.2014.07.036">doi:10.1016/j.physletb.2014.07.036</a>, [arXiv:1406.0252](https://arxiv.org/abs/1406.0252)\]
 
