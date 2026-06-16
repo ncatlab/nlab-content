@@ -73,7 +73,10 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 > graphics grabbed from [Dalianis 16, p. 8](#Dalianis16)
 
-{#HCCIn11dSugra} More concretely, in [Hiraga-Hyakutake 18](#HiragaHyakutake18) a simple model of [[11-dimensional supergravity]] with its $R^4$ [[higher curvature correction]] (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is considered and claimed to yield inflation with "graceful exit" and dynamical [[KK-compactification]]:
+Generally, the *[$\alpha$-attractor mechanism](cosmic+inflation#AlphaAttractorMechanism)* in [[D=4 supergravity]] generically induces plateau-shaped inflaton potentials whose observational properties agree with the Starobinski model.
+
+
+{#HCCIn11dSugra} Moreover, in [Hiraga-Hyakutake 18](#HiragaHyakutake18) a simple model of [[11-dimensional supergravity]] with its $R^4$ [[higher curvature correction]] (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is considered and claimed to yield inflation with "graceful exit" and dynamical [[KK-compactification]]:
 
 
 <center>
@@ -184,7 +187,9 @@ Discussion of embedding of Starobinsky inflation in [[supergravity]] originates 
 
 * S. Cecotti, [[Sergio Ferrara]], M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
 
-and is further developed in the following articles:
+See generally the discussion of the [$\alpha$-attractor mechanism](cosmic+inflation#AlphaAttractorMechanism) for [[cosmic inflation]] in [[D=4 supergravity]].
+
+Further developed in the following articles:
 
 * [[Sergei Ketov]], _Supergravity and Early Universe: the Meeting Point of Cosmology and High-Energy Physics_, Int.J.Mod.Phys. A28 (2013) 1330021 ([arXiv:1201.2239](http://arxiv.org/abs/arXiv:1201.2239))
 
@@ -270,9 +275,9 @@ and is further developed in the following articles:
 
 Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)):
 
-* [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
+* [[Katrin Becker]], [[Melanie Becker]]: _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
 
-* {#HiragaHyakutake18} Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
+* {#HiragaHyakutake18} Kazuho Hiraga, Yoshifumi Hyakutake: _Inflationary Cosmology via Quantum Corrections in M-theory_, Progress of Theoretical and Experimental Physics **2018** 11 (2018) 113B03 \[<a href="https://doi.org/10.1093/ptep/pty126">doi:10.1093/ptep/pty126</a>, [arXiv:1809.04724](https://arxiv.org/abs/1809.04724)\]
 
 * Kazuho Hiraga, Yoshifumi Hyakutake, _Scalar Cosmological Perturbations in M-theory with Higher Derivative Corrections_ ([arxiv:1910.12483](https://arxiv.org/abs/1910.12483))
 
