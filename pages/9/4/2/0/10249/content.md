@@ -49,6 +49,7 @@ On [[supergravity]] models of [[cosmic inflation]]:
 
 * John Joseph M. Carrasco, [[Renata Kallosh]], [[Andrei Linde]]: *Cosmological Attractors and Initial Conditions for Inflation*, Phys. Rev. D **92** (2015) 063519 \[<a href="https://doi.org/10.1103/PhysRevD.92.063519">doi:10.1103/PhysRevD.92.063519</a>, [arXiv:1506.00936](https://arxiv.org/abs/1506.00936)\]
 
+* [[Sergio Ferrara]], [[Renata Kallosh]], Jesse Thaler: *Cosmology with orthogonal nilpotent superfields*, Phys. Rev. D **93** 043516 (2016) \[<a href="https://doi.org/10.1103/PhysRevD.93.043516">doi:10.1103/PhysRevD.93.043516</a>, [arXiv:1512.00545](https://arxiv.org/abs/1512.00545)\]
 
 * [[Sergio Ferrara]], [[Renata Kallosh]]: *Seven-Disk Manifold, $\alpha$-attractors and $B$-modes*, Phys. Rev. D **94** (2016) 126015 \[<a href="https://doi.org/10.1103/PhysRevD.94.126015">doi:10.1103/PhysRevD.94.126015</a>, [arXiv:1610.04163](https://arxiv.org/abs/1610.04163)\] 
   > (via [[11D supergravity]]/[[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]])
