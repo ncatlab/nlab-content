@@ -1,18 +1,31 @@
 
-#Contents#
-* table of contents
-{:toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
-The *Nisnevich topology*, also called the *completely decomposed topology*, is a certain [[Grothendieck topology]] on the [[category]] of [[scheme]]s which is finer than the [[Zariski topology]] but coarser than the [[étale topology]]. It retains many desirable properties from both topologies:
+The *Nisnevich topology* ([Nisnevich 1989](#Nisnevich1989), who called it the *completely decomposed topology*) is a certain [[Grothendieck topology]] on the [[category]] of [[scheme]]s which is finer than the [[Zariski topology]] but coarser than the [[étale topology]]. It retains many desirable properties from both topologies:
 
 * The Nisnevich [[cohomological dimension]] (and even the [[homotopy dimension]]) of a scheme is bounded by its [[Krull dimension]] (like Zariski)
+
 * [[field|Fields]] have [[shape of an (∞,1)-topos|trivial shape]] for the Nisnevich topology (like Zariski)
+
 * [[algebraic K-theory|Algebraic K-theory]] satisfies [[descent]] over the Nisnevich site -- as is true for the [[Zariski site]] but not in full generality for the [[etale site]], see at _[algebraic K-theory -- Descent](algebraic%20K-theory#Descent)_ for more;
 
 * For $Z\subset X$ a [[closed subscheme|closed immersion]] between affine schemes that are smooth over a base $S$, the Nisnevich sheaf $X/(X-Z)$ is isomorphic to $N_{X,Z}/(N_{X,Z}-Z)$, where $N_{X,Z}$ is the normal bundle of $Z$ in $X$ (like étale)
-* Pushforward along a [[finite morphism]] is an [[exact functor]] on Nisnevich sheaves of abelian groups (like étale)
+
+* Pushforward along a finite morphism is an [[exact functor]] on Nisnevich sheaves of abelian groups (like étale)
+
 * Nisnevich cohomology can be computed using [[Čech cohomology]] (like étale)
 
 The Nisnevich topology plays a central role in [[motivic homotopy theory]].
@@ -83,29 +96,32 @@ This is Clausen and A. Mathew, Hyperdescent and etale K-theory, 2019, arXiv:1905
 
 * [[cd-structure]]
 
+
 ## References
+ {#References}
 
-A quick overview is at the beginning of the talk slides
+The original article (with applications to [[algebraic K-theory]] and [[descent spectral sequences]]):
 
-* Jardine, _Motivic spaces and the motivic stable category_ ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf)) .
+* {#Nisnevich1989} [[Yevsey Nisnevich]]: *The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory*, in: *Algebraic K-Theory: Connections with Geometry and Topology* (Lake Louise, AB, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci. **279** Kluwer Dordrecht (1989) 241--342 &lbrack;[doi:10.1007/978-94-009-2399-7_11](https://doi.org/10.1007/978-94-009-2399-7_11), [pdf](https://cims.nyu.edu/~nisnevic/articles/NT1.pdf)&rbrack;
 
-A detailed discussion is in [section 3.1.1](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=61) of
 
-* [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ ,  K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
-{#MV99}
+Review:
 
-or in the lecture notes
+* [[John F. Jardine]]; beginning of: _Motivic spaces and the motivic stable category_ &lbrack;[pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf)&rbrack;
 
-* [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
+* {#MV99} [[Fabien Morel]], [[Vladimir Voevodsky]]; [section 3.1.1](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=61) of: _$\mathbb{A}^1$-homotopy theory of schemes_,  K-theory, 0305 &lbrack;[web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf)&rbrack;
 
-A self-contained account of the Nisnevich $(\infty,1)$-topos including the non-Noetherian case is in
+* [[Eric Friedlander]]; lecture 6 of: _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ &lbrack;[pdf](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf)&rbrack;
 
-* [[Jacob Lurie]], _Derived Algebraic Geometry XI: Descent Theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
-{#DAGXI}
+See also:
 
-A comprehensive treatment of the Nisnevich topology, together with its applications to algebraic $K$-theory and descent spectral sequences, was given by Nisnevich in 1989 under the name of the "completely decomposed topology":
+* Wikipedia: *[Nisnevich topology](https://en.wikipedia.org/wiki/Nisnevich_topology)*
 
-* Y. Nisnevich, The completely decomposed topology on schemes and associated descent spectral sequences in algebraic K-theory, in Algebraic K-Theory: Connections with Geometry and Topology (Lake Louise, AB, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., vol. 279, Kluwer Acad. Publ., Dordrecht, 1989, pp. 241–342.
+On the Nisnevich [[(infinity,1)-topos|$(\infty,1)$-topos]] including the non-Noetherian case:
+
+* {#DAGXI} [[Jacob Lurie]]: _Derived Algebraic Geometry XI: Descent Theorems_ &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf)&rbrack;
+
+
 
 [[!redirects Nisnevich topology]]
 [[!redirects Nisnevich topos]]
