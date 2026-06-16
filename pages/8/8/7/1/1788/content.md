@@ -4,6 +4,8 @@
 
 ***
 
+[[inflationary cosmology in supergravity -- references]]
+
 
 The mechanism relies heavily on the functional freedom inherent in the [F-term](https://en.wikipedia.org/wiki/F-term) scalar potential:
 
