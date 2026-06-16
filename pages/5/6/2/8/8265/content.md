@@ -18,9 +18,13 @@ On [[supergravity]] models of [[cosmic inflation]]:
 
 * [[Renata Kallosh]], [[Andrei Linde]], Marco Scalisi: *Inflation, de Sitter Landscape and Super-Higgs effect*,  J. High Energ. Phys. **2015** 111 (2015) \[<a href="https://doi.org/10.1007/JHEP03(2015)111">doi:10.1007/JHEP03(2015)111</a>, [arXiv:1411.5671](https://arxiv.org/abs/1411.5671)\]
 
+* John Joseph M. Carrasco, [[Renata Kallosh]], [[Andrei Linde]]: *Cosmological Attractors and Initial Conditions for Inflation*, Phys. Rev. D **92** (2015) 063519 \[<a href="https://doi.org/10.1103/PhysRevD.92.063519">doi:10.1103/PhysRevD.92.063519</a>, [arXiv:1506.00936](https://arxiv.org/abs/1506.00936)\]
+
 * [[Renata Kallosh]], [[Andrei Linde]]: *Attractors in Supergravity*, chapter 22 in: *Half a Century of Supergravity Part II -- Structure and Properties of Sugra* (2026) 188--199 \[<a href="https://doi.org/10.1017/9781009575874.025">doi:10.1017/9781009575874.025</a>, [arXiv:2503.13682](https://arxiv.org/abs/2503.13682)\]
 
 * [[Renata Kallosh]], [[Andrei Linde]]: *Singular $\alpha$-attractors*, Journal of Cosmology and Astroparticle Physics, **2026** (2026) \[<a href="http://doi.org/10.1088/1475-7516/2026/04/075">doi:10.1088/1475-7516/2026/04/075</a>, [arXiv:2512.02969](https://arxiv.org/abs/2512.02969)\]
+
+* [[Renata Kallosh]], [[Andrei Linde]]: *Streamlined Supergravity*,  J. High Energ. Phys. **2026** 176 (2026) \[<a href="https://doi.org/10.1007/JHEP03(2026)176">doi:10.1007/JHEP03(2026)176</a>, [arXiv:2511.15815](https://arxiv.org/abs/2511.15815)\]
 
 
 Generally on [[cosmic inflation]]:
