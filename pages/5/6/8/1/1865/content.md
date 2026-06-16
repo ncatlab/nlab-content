@@ -273,13 +273,18 @@ See also the references at _[[fiber integration in differential K-theory]]_.
 
 ### In string theory
 
-A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]]:
+Survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]]:
 
 * [[Daniel Freed]]: _K-Theory in Quantum Field Theory_, Current developments in Mathematics, International Press Somerville (2001) 41--87 \[<a href="https://doi.org/10.4310/cdm.2001.v2001.n1.a2">doi:10.4310/cdm.2001.v2001.n1.a2</a>, [arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031)\]
 
 and more details:
 
 * {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry,  Int. Press, Somerville (2000) 129--194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+See also:
+
+* [[Richard J. Szabo]]: *Ramond–Ramond fields and differential K-theory*, section 3 in: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530 hep-th](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
+
 
 The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]]:
 
