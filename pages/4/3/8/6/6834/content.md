@@ -275,7 +275,7 @@ In the context of [[flux quantization laws]]:
 
 * [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
 
-* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009), [doi:10.1007/s00023-024-01438-x](https://doi.org/10.1007/s00023-024-01438-x)&rbrack;
+* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530 hep-th](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
 
 * {#SS25-PhaseSpace} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization on Phase Space]]*, Annales Henri Poincaré **26** (2025) 895–919 \[<a href="https://doi.org/10.1007/s00023-024-01438-x">doi:10.1007/s00023-024-01438-x</a>, [arXiv:2312.12517](https://arxiv.org/abs/2312.12517)\]
 
