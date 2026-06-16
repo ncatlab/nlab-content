@@ -13,7 +13,7 @@
 
 On [[cosmic inflation]] in [[supergravity]]:
 
-* [[Dimitri V. Nanopoulos]], [[Keith A. Olive]], [[Mark Srednicki]], K. Tamvakis: Phys.Lett.B **123** (1983) 41--44 \[<a href="https://doi.org/10.1016/0370-2693(83)90954-1">doi:10.1016/0370-2693(83)90954-1</a>\]
+* [[Dimitri V. Nanopoulos]], [[Keith A. Olive]], [[Mark Srednicki]], K. Tamvakis: *Primordial inflation in simple supergravity*, Phys. Lett. B **123** (1983) 41--44 \[<a href="https://doi.org/10.1016/0370-2693(83)90954-1">doi:10.1016/0370-2693(83)90954-1</a>\]
 
 
 The original suggestion that the lightest [[supersymmetry|supersymmetric]] [[particle]] (LSP) would be a natural [[dark matter]] candidate:
