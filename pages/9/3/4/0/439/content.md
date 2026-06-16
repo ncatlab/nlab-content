@@ -1,10 +1,22 @@
 
-* [Jim Stasheff's home page](https://www2.math.upenn.edu/~jds/)
+James Dillon Stasheff
+
+* [personal page](https://www2.math.upenn.edu/~jds/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=8588)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jim_Stasheff)
+
+* [inSpire page](https://inspirehep.net/authors/2380347)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CD9Mc4UAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jim-Stasheff)
 
 * interview by [[Kathryn Hess]]: [video](https://www.youtube.com
 /watch?v=K8kPS6FZBoc&feature=youtu.be)
 
-* John McCleary: _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)) 
+* [[John McCleary]]: _An appreciation of the work of Jim Stasheff_ &lbrack;[pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)&rbrack;
 
 
 ## Selected writings
@@ -21,7 +33,7 @@ On [[characteristic classes]]:
 
 On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
 
-* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
+* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]]: _On the de Rham theory of certain classifying spaces_, Advances in Mathematics **20** 1 (1976) 43--56 \[<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>\]
 
 On [[dg-Lie algebras]] and [[L-∞ algebras]]:
 
