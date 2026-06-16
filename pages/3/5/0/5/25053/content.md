@@ -14,6 +14,13 @@ On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\inft
 
 * Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
 
+On a novel approach to noncommutative field theory and gravity via [[braided object|braided]] [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *Braided $L_\infty$-algebras, braided field theory and noncommutative gravity*, Lett Math Phys **111** 148 (2021) &lbrack;[doi:s11005-021-01487-x](https://doi.org/10.1007/s11005-021-01487-x), [arXiv:2103.08939](https://arxiv.org/abs/2103.08939)&rbrack;
+
+* [[Grigorios Giotopoulos]], [[Richard J. Szabo]], *Braided symmetries in noncommutative field theory*,
+ J. Phys. A: Math. Theor. **55** 353001 &lbrack;[doi:10.1088/1751-8121/ac5dad](https://iopscience.iop.org/article/10.1088/1751-8121/ac5dad/meta), [arXiv:2112.00541](https://arxiv.org/abs/2112.00541)&rbrack;
+
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] in [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
 * {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, Journal of Geometry and Physics **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
