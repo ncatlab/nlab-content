@@ -29,15 +29,16 @@ $$
 
 where $n$ is the [[dimension of a vector space|dimension]] of the state vector space, full controllability corresponding to $rank P = n.$
 
-Similarly observability is based on the rank of the matrix, $Q$ 
+Similarly observability is based on the rank of the matrix, 
 
-$\begin{bmatrix}
+$$Q =
+\begin{bmatrix}
   C \\
   C A \\
   CA^2 \\
   \vdots \\
   CA^{n-1}
-\end{bmatrix}$
+\end{bmatrix}$$
 
 full observability corresponding to $rank(Q) = n$
 
