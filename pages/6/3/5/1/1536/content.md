@@ -208,7 +208,7 @@ Dually, if
 
 Then $\int F$ is cocomplete.
 \end{proposition}
-This proven in [Tarlecki, Burstall & Goguen (1991), §3.1, 3.2](#TBG91). 
+This proven for strict functors $F$ in [Tarlecki, Burstall & Goguen (1991), §3.1, 3.2](#TBG91). 
 
 The case of colimits is also described in [Harpaz & Prasma (2015), Prop. 2.4.4](Grothendieck+construction+for+model+categories#HarpazPrasma15):
 
