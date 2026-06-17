@@ -64,7 +64,7 @@ Often dualities of this form can be set in the framework of a [[bialgebra]] wher
 
 Suppose $F$ has an [[initial algebra for an endofunctor|initial algebra]], $\mu F$, and $G$ has a [[terminal coalgebra for an endofunctor|terminal coalgebra]], $\nu G$, the unique map from $\mu F$ to $X$ being an [[epimorphism]] corresponds to controllability, and the unique map from $X$ to $\nu G$ being a [[monomorphism]] corresponds to observability.
 
-There is often a [[contravariant endofunctor]], $D$, which plays a dualizing role and then comparison maps $F D \to D G$ and $D F \to G D$ allow us to see $D(X)$ also as a bialgebra, $F D(X) \to D G(X) \to D(X) \to D F(X) \to G D(X).$ 
+There is often a [[contravariant endofunctor]], $D$, which plays a dualizing role, and then [[natural transformations]] $F D \to D G$ and $D F \to G D$ allow us to see $D(X)$ also as a bialgebra, $F D(X) \to D G(X) \to D(X) \to D F(X) \to G D(X).$ 
 
 One example of this is given in [[Set]] where $F(X) = 1 + A \times X$ and $G(X) = 2 \times X^A$. A bialgebra here is a finite state automaton with inputs given by $A$, and an initial state, $i:1 \to X$ and a final accepting costate $f: X \to 2$ with update function $u: A \times X \to X$, [[curried]] to $\hat{u}:X \to X^A$. The state space of $\mu F$ is $A^{\ast}$, the set of words on $A$, and the state space of $\nu G$ is $2^{A^{\ast}}$. The dual automaton has state space, $D(X) = 2^X$. Here $D F(X) \cong G D(X)$.
 
