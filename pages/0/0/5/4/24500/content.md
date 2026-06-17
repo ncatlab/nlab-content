@@ -15,6 +15,8 @@ On super-heavy [[gravitinos]] as [[dark matter]] candidates, by embedding [[D=4 
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
 
+* Artur Krawczyk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]], Bartłomiej Sikorski: *Planck mass gravitinos in Einstein-Maxwell backgrounds* &lbrack;[arXiv:2606.17139](https://arxiv.org/abs/2606.17139)&rbrack;
+
 and speculation about relation to [[phenomenology]] ([[standard model of particle physics]]):
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
