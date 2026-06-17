@@ -7,11 +7,17 @@
 Discussion of [[spectral triples]] over [[Jordan algebras]] in the [[Connes-Lott model]]:
 
 * [[Latham Boyle]], [[Shane Farnsworth]],
-_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+_The standard model, the Pati-Salam model, and "Jordan geometry"_ &lbrack;[arxiv:1910.11888](https://arxiv.org/abs/1910.11888)&rbrack;
+
+On the [[Albert algebra]] and potential relation to the [[gauge group]] of the [[standard model of particle physics]]:
+
+* [[Latham Boyle]]: _The Standard Model, The Exceptional Jordan Algebra, and Triality_, J. Math. Phys. &lbrack;[arXiv:2006.16265](https://arxiv.org/abs/2006.16265)&rbrack;
 
 On the [[Penrose tiling]] in relation to [[quantum error correcting codes]]:
 
-* Zhi Li, [[Latham Boyle]], *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
+* Zhi Li, [[Latham Boyle]]: *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
+
+
 
 
 
