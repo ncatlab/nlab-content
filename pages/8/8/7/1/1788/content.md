@@ -4,6 +4,8 @@
 
 ***
 
+$\alpha$
+
 \begin{proof}
 Let $f : \mathbb{N} \to \mathbb{2}$ be a sequence of booleans.
 
