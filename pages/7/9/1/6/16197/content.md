@@ -37,12 +37,12 @@ Models of Starobinsky-type are favored by [[experiment|experimental]] results ([
 
 {#Dat} With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak, shown in dark blue in the following plots ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
 
-{#Figure1} <img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800">
+{#Figure1} <img src="/nlab/files/PlanckData.jpg" width="800">
 
 
 This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)) and in the final analysis ([PlanckCollaboration 18X, Fig 8](#PlanckCollaboration18X)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
 
-{#Figure2} <img src="https://ncatlab.org/nlab/files/InflationPlanck2015.jpg" width="800">
+{#Figure2} <img src="/nlab/files/InflationPlanck2015.jpg" width="800">
 
 > $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
 than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
@@ -51,7 +51,7 @@ than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
 
 <center>
 <a href="https://arxiv.org/pdf/2110.00483.pdf#page=8">
-<img src="https://ncatlab.org/nlab/files/BICEPKeck-nr-plot-211006.jpg" width="430">
+<img src="/nlab/files/BICEPKeck-nr-plot-211006.jpg" width="430">
 </a>
 </center>
 
@@ -68,7 +68,7 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 * {#CompatibilityWithsusybreaking} naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)) notably with a Starobinsky potential naturally induced from [[gravitino condensation]] ([Alexandre-Houston-Mavromatos 14](#AlexandreHoustonMavromatos14)).
 
 <center>
-<img src="https://ncatlab.org/nlab/files/DalianisDiagram.jpg" width="600">
+<img src="/nlab/files/DalianisDiagram.jpg" width="600">
 </center>
 
 > graphics grabbed from [Dalianis 16, p. 8](#Dalianis16)
@@ -80,7 +80,7 @@ Generally, the *[$\alpha$-attractor mechanism](cosmic+inflation#AlphaAttractorMe
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/W4Inflation.jpg" width="600">
+<img src="/nlab/files/W4Inflation.jpg" width="600">
 </center>
 
 > graphics from [Hiraga-Hyakutake 18, p. 8](#HiragaHyakutake18)
