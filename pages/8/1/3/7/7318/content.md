@@ -18,8 +18,11 @@ On [[ambidextrous adjunctions]] in [[stable homotopy theory]] with application t
 
 On the [[(∞,1)-Grothendieck construction]] via [[straightening and unstraightening]]:
 
-* [[Fabian Hebestreit]], [[Gijs Heuts]], [[Jaco Ruit]], _A short proof of the straightening theorem_ ([arXiv:2111.00069](https://arxiv.org/abs/2111.00069)).
+* [[Fabian Hebestreit]], [[Gijs Heuts]], [[Jaco Ruit]]: _A short proof of the straightening theorem_ &lbrack;[arXiv:2111.00069](https://arxiv.org/abs/2111.00069)&rbrack;
 
+On the [[Lie operad]] in [[spectra]]:
+
+* Max Blans, [[Gijs Heuts]]: *A characterization of the spectral Lie operad* &lbrack;[arXiv:2606.17313](https://arxiv.org/abs/2606.17313)&rbrack;
 
 
 ## Related entries
