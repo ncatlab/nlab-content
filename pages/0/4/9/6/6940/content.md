@@ -55,5 +55,8 @@ On [[realizability]]:
 
 * [[Andrej Bauer]]: _Notes on Realizability_, Midlands Graduate School notes (2022, 2025) &lbrack;[pdf](https://github.com/andrejbauer/notes-on-realizability/releases/download/release/notes-on-realizability.pdf), [Github Repo](https://github.com/andrejbauer/notes-on-realizability)&rbrack;
 
+On reducibility in [[constructive mathematics]]:
+
+* [[Andrej Bauer]], *Instance reducibility and Weihrauch degrees*, Logical Methods in Computer Science, August 9, 2022, Volume 18, Issue 3, &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:20)2022">doi:10.46298/lmcs-18(3:20)2022</a>,[arXiv:2106.01734](https://arxiv.org/abs/2106.01734), [pdf](https://lmcs.episciences.org/9906/pdf)&rbrack;
 
 category: people
