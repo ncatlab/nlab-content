@@ -1,5 +1,15 @@
 
+Bruno Zumino (1923--2014)
+
+* [institute page](https://senate.universityofcalifornia.edu/_files/inmemoriam/html/BrunoZumino.html) in memoriam
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bruno_Zumino)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=95218)
+
+* [inSpire page](https://inspirehep.net/authors/981906)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Bruno-Zumino-2041407731)
 
 ## Selected writings
 
@@ -29,7 +39,9 @@ Introducing [[super Yang-Mills theory]]:
 
 * {#FerraraZumino74} [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B **79** 3 (1974) 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
 
+Introducing [[supergravity]] ([[D=4 supergravity]]):
 
+* [[Stanley Deser]], [[Bruno Zumino]]: *Consistent Supergravity*, Phys. Lett. B **62** (1976) 335--337 \[<a href="http://dx.doi.org/10.1016/0370-2693(76)90089-7">doi:10.1016/0370-2693(76)90089-7</a>, [cds:438874](https://cds.cern.ch/record/438874), <a href="https://cds.cern.ch/record/438874/files/197605095.pdf">pdf</a>\]
 
 
 Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
