@@ -112,6 +112,8 @@ Discussion of de Sitter spacetime in [[perturbative quantum gravity]] and its in
 ### In string/M-theory
  {#ReferencesInStringTheory}
 
+#### General
+
 A [[no-go theorem]] for [[KK-compactifications]] of [[supergravity]] down to de Sitter spacetime is claimed in
 
 * {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
@@ -198,6 +200,9 @@ For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario in
   reviewed in:
 
   Kunihito Uzawa, _Ekpyrotic scenario in string theory_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~gc2018/slides/4th/Mar2/Uzawa.pdf))
+
+#### Via time-dependent compactifications
+ {#ReferencesInMTheoryViaTimeDependentCompactifications}
 
 Discussion of *asymptotic* de Sitter spacetimes from time-dependent [[KK-compactification]] of [[type II supergravity]]:
 
