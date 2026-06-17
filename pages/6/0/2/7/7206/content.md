@@ -57,9 +57,13 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ## References
 
-Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, in
+### General
 
-* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, in:
+
+* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D **13** (1976) 3214 &lbrack;[doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214)&rbrack;
+
+* [[Stanley Deser]], [[Bruno Zumino]]: *Consistent Supergravity*, Phys. Lett. B **62** (1976) 335--337 \[<a href="http://dx.doi.org/10.1016/0370-2693(76)90089-7">doi:10.1016/0370-2693(76)90089-7</a>, [cds:438874](https://cds.cern.ch/record/438874), <a href="https://cds.cern.ch/record/438874/files/197605095.pdf">pdf</a>\]
 
 See also at _[supergravity -- History](supergravity#History)_.
 
