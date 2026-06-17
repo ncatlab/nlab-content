@@ -643,11 +643,15 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
  
   > (in the introduction or chapter 1, I forget)
 
+* {#Mandelkern82} [[Mark Mandelkern]], *Components of an open set*, Journal of the Australian Mathematical Society, Volume 33, Issue 2, October 1982, pp. 249 - 261, &lbrack;[doi:10.1017/S1446788700018383](https://doi.org/10.1017/S1446788700018383), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/87B279B7B200821168EC5A5A4BE62A4E/S1446788700018383a.pdf/components-of-an-open-set.pdf)&rbrack;
+
 * {#Mandelkern88} [[Mark Mandelkern]]: *Limited Omniscience and the Bolzano-Weierstrass Principle*, Bulletin of the London Mathematical Society **20** 4 (1988) 319--320, &lbrack;[doi:10.1112/blms/20.4.319](https://doi.org/10.1112/blms/20.4.319), [pdf](https://www.zianet.com/mandelkern/mandelkern_bwp.pdf)&rbrack;
+
+* {#Richman91} [[Fred Richman]], *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
 
 * {#Ishihara06} [[Hajime Ishihara]]: _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS **6** (2006) &lbrack;[doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406), [pdf](https://philosophiascientiae.revues.org/pdf/406)&rbrack;
 
-* {#Tanaka07} [[Yasuhito Tanaka]]: *The Gibbard–Satterthwaite theorem of social choice theory in an infinite society and LPO (limited principle of omniscience)*, Applied Mathematics and Computation **193** 2 (2007) 475--481 &lbrack;[doi:10.1016/j.amc.2007.04.001](https://doi.org/10.1016/j.amc.2007.04.001)&rbrack;
+* {#Tanaka07} [[Yasuhito Tanaka]]: *The Gibbard–Satterthwaite theorem of social choice theory in an infinite society and LPO (limited principle of omniscience)*, Applied Mathematics and Computation **193** 2 (2007) 475--481 &lbrack;[doi:10.1016/j.amc.2007.04.001](https://doi.org/10.1016/j.amc.2007.04.001), [pdf archived](https://web.archive.org/web/20211011144745/http://hokuriku.me/kiishimizu/pdf/AMC12363.pdf)&rbrack;
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
@@ -658,6 +662,8 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 * {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 * {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+
+* {#Bauer21} [[Andrej Bauer]], *Instance reducibility and Weihrauch degrees*, Logical Methods in Computer Science, August 9, 2022, Volume 18, Issue 3, &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:20)2022">doi:10.46298/lmcs-18(3:20)2022</a>,[arXiv:2106.01734](https://arxiv.org/abs/2106.01734), [pdf](https://lmcs.episciences.org/9906/pdf)&rbrack;
 
 * {#Ciraulo22} Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
 
