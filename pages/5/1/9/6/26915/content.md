@@ -163,7 +163,7 @@ In the more general context of volume-dependent theories:
 
 Discussion of [[lattice gauge theory|lattice]] 2d Yang-Mills theory via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
 
-* [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
+* [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory*, Selected Mathematica &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
 
 A [[ZX-calculus]]:
 
