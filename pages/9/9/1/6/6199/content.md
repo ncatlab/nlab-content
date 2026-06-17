@@ -44,6 +44,8 @@ Dynamical systems are used to describe not only physical motions but also the be
 
 * [[control theory]]
 
+* [[controllability and observability]]
+
 ## References
 
 ### General
