@@ -136,6 +136,7 @@ Notice we can't say anything about the uniqueness of these morphisms $w_A : M \t
 * [[strict initial object]],  [[strict terminal object]]
 * [[simple coalgebra]]
 * [[reachability]]
+* [[controllability and observability]]
 
 ## References
 
