@@ -39,6 +39,8 @@
 
 * [[Lyapunov function]]
 
+* [[controllability and observability]]
+
 
 ## References
 
