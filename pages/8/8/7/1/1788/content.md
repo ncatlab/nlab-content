@@ -113,3 +113,6 @@ Furthermore, the persistent challenge posed by the negative $-3|W|^2$ term, whic
 
 
 (...)
+
+
+[[AlgebraicTopologySection1BAllenHatcher.jpg:pic]]
