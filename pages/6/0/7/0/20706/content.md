@@ -18,6 +18,10 @@ On [[configuration spaces of points]]:
 
 * {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
 
+and in relation to [[braid groups]]:
+
+* [[Fred Cohen]], Jonathan Pakianathan: *Configuration Spaces and Braid Groups* &lbrack;[arXiv:2606.17193](https://arxiv.org/abs/2606.17193)&rbrack;
+
 
 
 On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[configuration spaces of points|configuration spaces of ordered points]] in [[Euclidean space]]:
