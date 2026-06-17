@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -3923,6 +3921,8 @@ Further introduction and review:
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
 * {#Abadie22} Marie Abadie, §1 in: *A journey around mapping class groups and their presentations* (2022) &lbrack;[pdf](https://christianurech.github.io/Semester_Project.pdf), [[Abadie-MCG.pdf:file]]&rbrack;
+
+* [[Fred Cohen]], Jonathan Pakianathan: *Configuration Spaces and Braid Groups* &lbrack;[arXiv:2606.17193](https://arxiv.org/abs/2606.17193)&rbrack;
 
 
 See also:
