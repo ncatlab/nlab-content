@@ -21,9 +21,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -259,6 +257,9 @@ Further discussion:
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
 
 * Adrianna Kruk, Michał Lesiuk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Signatures of supermassive charged gravitinos in liquid scintillator detectors* &lbrack;[arXiv:2407.04883](https://arxiv.org/abs/2407.04883)&rbrack;
+
+* Artur Krawczyk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]], Bartłomiej Sikorski: *Planck mass gravitinos in Einstein-Maxwell backgrounds* &lbrack;[arXiv:2606.17139](https://arxiv.org/abs/2606.17139)&rbrack;
+
 
 
 
