@@ -13,4 +13,8 @@ Further discussion:
 
 * [[Badis Ydri]]: *Endpoint formulation and Molien--Weyl structure for the $N=2$, large--$d$ BFSS/BMN models* &lbrack;[arXiv:2605.25647](https://arxiv.org/abs/2605.25647)&rbrack;
 
+* [[Badis Ydri]]: *A Double--Scaling Large--$d$ Saddle of BFSS/BMN Matrix Quantum Mechanics* &lbrack;[arXiv:2606.17758](https://arxiv.org/abs/2606.17758)&rbrack;
+
+
+
 category: people
