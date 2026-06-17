@@ -647,6 +647,8 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Ishihara06} [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
 
+* {#Tanaka07} [[Yasuhito Tanaka]], *The Gibbard–Satterthwaite theorem of social choice theory in an infinite society and LPO (limited principle of omniscience)*, Applied Mathematics and Computation, Volume 193, Issue 2, 1 November 2007, Pages 475-481, &lbrack;[doi:10.1016/j.amc.2007.04.001](https://doi.org/10.1016/j.amc.2007.04.001)&rbrack;
+
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 * {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
