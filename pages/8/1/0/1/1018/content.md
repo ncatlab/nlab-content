@@ -53,3 +53,4 @@ Textbook accounts:
 
 [[!redirects contravariant functor]]
 [[!redirects contravariant functors]]
+[[!redirects contravariant endofunctor]]
