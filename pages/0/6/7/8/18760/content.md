@@ -47,6 +47,8 @@ Where a general (possibly non-linear) differential equation is equivalently an o
 
 ## Related concepts
 
+* [[linear equation]], [[differential equation]]
+
 * [[superposition]]
 
 * [[D-module]]
