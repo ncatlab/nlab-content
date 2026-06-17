@@ -10,6 +10,11 @@ Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning str
 
 * [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
 
+Introducing [[supergravity]] ([[D=4 supergravity]]):
+
+* [[Stanley Deser]], [[Bruno Zumino]]: *Consistent Supergravity*, Phys. Lett. B **62** (1976) 335--337 \[<a href="http://dx.doi.org/10.1016/0370-2693(76)90089-7">doi:10.1016/0370-2693(76)90089-7</a>, [cds:438874](https://cds.cern.ch/record/438874), <a href="https://cds.cern.ch/record/438874/files/197605095.pdf">pdf</a>\]
+
+
 Introducing [[Maxwell-Chern-Simons theory]]:
 
 * [[Stanley Deser]], [[Roman Jackiw]], S. Templeton: *Three-Dimensional Massive Gauge Theories*, Phys. Rev. Lett. **48** (1982) 975 \[<a href="https://doi.org/10.1103/PhysRevLett.48.975">doi:10.1103/PhysRevLett.48.975</a>\]
