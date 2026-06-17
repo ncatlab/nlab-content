@@ -22,7 +22,35 @@ The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[F
 
 Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
 
-The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15)) strongly favors the [[Starobinsky model of cosmic inflation]].
+## Experimental data
+ {#ExperimentalData}
+
+The experimental data ([Planck Collaboration 2013](#PlanckCollaboration13), [BICEP-Keck-Planck 2015](#BICEPKeckPlanck15), [Planck Collaboration 2015](#PlanckCollaboration15)) strongly favors the [[Starobinsky model of cosmic inflation]] and equivalent models with plateau-shaped [[potential energy|potentials]]:
+
+Models of Starobinsky-type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration13), [BICEP2-Keck-Planck 15](Starobinsky+model+of+cosmic+inflation#BICEPKeckPlanck15), [PlanckCollaboration 15](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration15), [BICEP3-Keck 18](Starobinsky+model+of+cosmic+inflation#BICEPKeck21)) which give a low upper bound on $r$, well below $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values), see ([PlanckCollaboration 13, page 12](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration13)).
+
+{#Dat} With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](Starobinsky+model+of+cosmic+inflation#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak, shown in dark blue in the following plots ([PlanckCollaboration 13, figure 1](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration13), also [Linde 14, figure 5](Starobinsky+model+of+cosmic+inflation#Linde14)) and at the same time has the lowest number of free parameters : 
+
+{#Figure1} <img src="/nlab/files/PlanckData.jpg" width="800">
+
+
+This remains true with the data of ([PlanckCollaboration 15](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration15XIII)) and in the final analysis ([PlanckCollaboration 18X, Fig 8](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration18X)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
+
+{#Figure2} <img src="/nlab/files/InflationPlanck2015.jpg" width="800">
+
+> $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
+than $R^2$ ([PlanckCollaboration 15XX, p. 18](Starobinsky+model+of+cosmic+inflation#PlanckCollaboration15XX))
+
+{#KECKBICEPFurtherConfirmed} This picture is further confirmed by observations of the BICEP/Keck collaboration reported in [BICEP-Keck 2021](Starobinsky+model+of+cosmic+inflation#BICEPKeck21), whose additional data singles out the dark blue area in the following (<a href="https://arxiv.org/pdf/2110.00483.pdf#page=8">Fig. 5</a>):
+
+<center>
+<a href="https://arxiv.org/pdf/2110.00483.pdf#page=8">
+<img src="/nlab/files/BICEPKeck-nr-plot-211006.jpg" width="430">
+</a>
+</center>
+
+See also [Ellis 13](Starobinsky+model+of+cosmic+inflation#Ellis13), [Ketov 13](Starobinsky+model+of+cosmic+inflation#Ketov13), [Efstathiou 2019, 50:49](Starobinsky+model+of+cosmic+inflation#Efstathiou2019) for brief survey of Starobinsky inflation in relation to observation, and see [Kehagias-Dizgah-Riotto 13](Starobinsky+model+of+cosmic+inflation#KehagiasDizgahRiotto13) for more details. There it is argued that the other types of inflationary models which also reasonably fit the data are actually equivalent to the Starobinsky model during inflation.
+
 
 ## Variants
 
@@ -80,13 +108,13 @@ There are [[scalar fields]] in [[D=4 N=1 supergravity]] that naturally serve as 
 #### $\alpha$-Attractor mechanism
  {#AlphaAttractorMechanism}
 
-Remarkably, there is an *attractor mechanism* at work in [[D=4 N=1 supergravity]] ([Kallosh, Linde & Roest 2013](#KalloshLindeRoest2013), cf. [Carrasco, Kallosh & Linde 2015](#CarrascoKalloshLinde2015); [Kallosh & Linde 2026](#KalloshLinde2026)) which makes inflaton dynamics effectively tend to the behaviour of models with plateau-shaped shaped [[potential energy]] (including the [[Starobinsky model of cosmic inflation]]) whose predictions stand out as squarely matching observations of the [[Planck Collaboration]] and the BICEP/Keck 2021 experiment.
+Remarkably, there is an *attractor mechanism* at work in [[D=4 N=1 supergravity]] ([Kallosh, Linde & Roest 2013](#KalloshLindeRoest2013), cf. [Carrasco, Kallosh & Linde 2015](#CarrascoKalloshLinde2015); [Kallosh & Linde 2026](#KalloshLinde2026)) which makes inflaton dynamics in supergravity models effectively tend to the behaviour of models with plateau-shaped shaped [[potential energy|potential]] (including the [[Starobinsky model of cosmic inflation]]) whose predictions stand out as squarely matching [experimental observations](#ExperimentalData) of the [[Planck Collaboration]] and the [BICEP/Keck](http://bicepkeck.org) experiment.
 
 > [CKL15](#CarrascoKalloshLinde2015): "This new class of models accomplishes for inflationary theory something similar to what inflation does for cosmology. Inflation stretches the universe making it flat and homogeneous, and the structure of the observable part of the universe becomes very stable with respect to the choice of initial conditions in the early universe. Similarly, stretching of the moduli space near its boundary upon transition to canonical variables makes inflationary potentials very flat and results in predictions which are very stable with respect to the choice of the inflaton potential."
 
 > [KS26](#KalloshLinde2026): "This large class of inflationary models gives predictions that are stable with respect to even very significant modifications of inflationary potentials. These predictions match all presently available CMB-related cosmological data."
 
-It remains however unclear whether these [[D=4 supergravity]] models of inflation can arise as [[KK-reductions]] from [[D=10 supergravity|D=10]] or [[D=11 supergravity]] --- unless [[higher curvature corrections]] are included (cf. [here](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingInto11dSupergravity)).
+However, it remains unclear whether these [[D=4 supergravity]] models of inflation can arise as [[KK-reductions]] from [[D=10 supergravity|D=10]] or [[D=11 supergravity]] --- unless [[higher curvature corrections]] are included (cf. [here](Starobinsky+model+of+cosmic+inflation#ReferencesEmbeddingInto11dSupergravity)) or time-dependent moduli are allowed (cf. [here](de+Sitter+spacetime#ReferencesInMTheoryViaTimeDependentCompactifications)).
 
 
 #### $\eta$-Problem resolution
