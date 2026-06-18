@@ -13,14 +13,12 @@
 
 ## Definition
 
-The **weak limited principle of omniscience** ($WLPO$) states that the [[universal quantification]] of any [[decidable proposition]] is again decidable. That is,
-$$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x, P(x)) \vee \neg(\forall x, P(x)).$$
+The **weak limited principle of omniscience** ($WLPO$) states that the [[universal quantification]] of any [[decidable proposition]] on the [[natural numbers]] is again decidable. That is,
+$$(\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x \in \mathbb{N}, P(x)) \vee \neg(\forall x \in \mathbb{N}, P(x)).$$
 Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
-$$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x, P(x)) \vee \neg(\neg \exists x, P(x)).$$
+$$(\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x \in \mathbb{N}, P(x)) \vee \neg(\neg \exists x \in \mathbb{N}, P(x)).$$
 
-We can also state the principle set-theoretically, with explicit reference to the domain of quantification. Given a [[set]] $A$, the __weak limited principle of omniscience for $A$__ ($LPO_A$) states that given a [[subset]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $\bar{P} = A$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
-
-If one takes the domains of quantification to be subsingletons, one gets [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
+We can also state the principle set-theoretically. The __weak limited principle of omniscience__ ($WLPO$) states that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then either $\bar{P} = \mathbb{N}$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 ## In the internal logic
 
@@ -58,25 +56,25 @@ $$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
 
 * An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
 
-Then the **internal WLPO** for a family of sets $(A_z)_{z \in I}$ is the WLPO for each $A_z$ stated in the internal logic of the set theory:
+Then the **internal WLPO** states that:
 
-* For any internal predicate $i:P \hookrightarrow A_z$, if there is a function $\chi_P:A_z \to 2$, then the internal universal quantification of $P$, $\forall_{A_z} P = \{f \in P^{A_z} \vert \forall x \in A_z, f(x) \in i^*(x) \}$ has a function $(\forall_{A_z} P) \to 2$ into the boolean domain. 
+* For any internal predicate $i:P \hookrightarrow \mathbb{N}$, if there is a function $\chi_P:\mathbb{N} \to 2$, then the internal universal quantification of $P$, $\forall_{\mathbb{N}} P = \{f \in P^{\mathbb{N}} \vert \forall x \in \mathbb{N}, f(x) \in i^*(x) \}$ has a function $(\forall_{\mathbb{N}} P) \to 2$ into the boolean domain. 
 
 or equivalently
 
-* For any function $a:A_z \to 2$, the internal universal quantification of $P = \{x \in A_z \vert a(x) = 1\}$, $\forall_{A_z} P = \{f \in P^{A_z} \vert \forall x \in A_z, f(x) \in i^*(x) \}$ has a function $(\forall_{A_z} P) \to 2$ into the boolean domain. 
+* For any function $a:\mathbb{N} \to 2$, the internal universal quantification of $P = \{x \in \mathbb{N} \vert a(x) = 1\}$, $\forall_{\mathbb{N}} P = \{f \in P^{\mathbb{N}} \vert \forall x \in \mathbb{N}, f(x) \in i^*(x) \}$ has a function $(\forall_{\mathbb{N}} P) \to 2$ into the boolean domain. 
 
-The internal versions of the weak limited principle of omniscience, like all internal versions of axioms, are weaker than the external version of the the weak limited principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
+The internal versions of the weak limited principle of omniscience, like all internal versions of axioms, are weaker than the external version of the the weak limited principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in \mathbb{N} \vdash P(x)$ on the [[natural numbers]] to an internal predicate $\{x \in \mathbb{N} \vert P(x)\} \hookrightarrow \mathbb{N}$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
 ## Equivalent statements
 
 There are various other results that are equivalent to the weak limited principle of omniscience. Here are a few:
 
-* The [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds.
+* The [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] if and only if WLPO holds.
 
-* The [[analytic WLPO]] for the [[Cauchy real numbers]] is equivalent to the WLPO for the [[natural numbers]]. 
+* The [[analytic WLPO]] for the [[Cauchy real numbers]] is equivalent to the WLPO. 
 
-* The [[untruncated LLPO]] for the [[natural numbers]] is equivalent to the WLPO for the natural numbers. 
+* The [[untruncated LLPO]] for the [[natural numbers]] is equivalent to the WLPO. 
 
 ### Truncated and untruncated versions in dependent type theory
 
@@ -85,24 +83,37 @@ In the context of [[dependent type theory]], the weak limited principle of omnis
 ## Related statements
 
 * $WLPO$ follows from [[LPO]], but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $LPO$ gives
-$$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
+$$(\exists x \in \mathbb{N}, \neg{P(x)}) \vee (\forall x \in \mathbb{N}, \neg{\neg{P(x)}}), $$
 which implies
-$$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
+$$\neg(\forall x \in \mathbb{N}, P(x)) \vee (\forall x \in \mathbb{N}, P(x))$$
 as $P$ is decidable.
 
 * The [[LLPO]] follows from [[WLPO]], since [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. 
 
-* The $\mathrm{WLPO}_\mathbb{N}$ implies the [[stable fan theorem]]. 
+* The WLPO implies the [[stable fan theorem]]. 
 
-## Choiceless weak limited principle of omniscience
+## Generalizations
 
-There is a generalization of the weak limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless weak limited principle of omniscience**. The choiceless weak limited principle of omniscience for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then either for all $x \in A$, $Q(x)$, or it is not true that for all $x \in A$, $\neg P(x)$. 
-$$(\forall x \in A.P(x) \vee Q(x)) \Rightarrow ((\forall x \in A.Q(x)) \vee \neg (\forall x \in A.\neg P(x)))$$
-The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the weak limited principle of omniscience. One gets back the usual weak limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+### Choiceless weak limited principle of omniscience
 
-We can also state the principle set-theoretically. Given a [[set]] $A$, the __choiceless weak limited principle of omniscience for $A$__ states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P \cup Q = A$, then either $Q = A$ or $\neg (P = \emptyset)$. One gets back the usual limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
+There is a generalization of the weak limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless weak limited principle of omniscience**. The choiceless weak limited principle of omniscience states that given a pair of [[predicates]] $P$ and $Q$ on the [[natural numbers]] $\mathbb{N}$ such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, then either for all $x \in \mathbb{N}$, $Q(x)$, or it is not true that for all $x \in \mathbb{N}$, $\neg P(x)$. 
+$$(\forall x \in \mathbb{N}.P(x) \vee Q(x)) \Rightarrow ((\forall x \in \mathbb{N}.Q(x)) \vee \neg (\forall x \in \mathbb{N}.\neg P(x)))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the weak limited principle of omniscience. One gets back the usual weak limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in \mathbb{N}$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in \mathbb{N}$. 
+
+We can also state the principle set-theoretically. The __choiceless weak limited principle of omniscience__ states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$, then either $Q = \mathbb{N}$ or $\neg (P = \emptyset)$. One gets back the usual limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 The choiceless weak limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic weak limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
+
+### Generalizing from the natural numbers to an arbitrary set
+
+One can generalize from the [[natural numbers]] to arbitrary sets $A$. Given a set $A$, the **weak limited principle of omniscience for $A$** ($WLPO_A$) for the set $A$ states that the [[universal quantification]] of any [[decidable proposition]] on $A$ is again decidable. That is,
+$$(\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x \in A, P(x)) \vee \neg(\forall x \in A, P(x)).$$
+Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
+$$(\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x \in A, P(x)) \vee \neg(\neg \exists x \in A, P(x)).$$
+
+We can also state the principle set-theoretically. Given a [[set]] $A$, the __weak limited principle of omniscience for $A$__ ($WLPO_A$) states that given a [[subset]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $\bar{P} = A$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
+
+If one takes the domains of quantification to be subsingletons, one gets [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
 
 ## Related concepts
 
