@@ -26,7 +26,7 @@ which is a theorem of [[intuitionistic logic]].
 
 Stated set theoretically, this says that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then if $\neg (\bar{P} = \mathbb{N})$, then $P$ is [[inhabited]], where, $\bar{P}$ is the [[complement]] of $P$.
  
-More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all [[predicates]] or [[subsets]] on $S$.  Every Kuratowski-[[finite set]] is Markovian, for example.
+More generally, [[Toby Bartels]] has suggested that a [[set]] $S$ may be called _Markovian_ if this principle holds for all [[predicates]] or [[subsets]] on $S$. Every Kuratowski-[[finite set]] is Markovian, for example.
 
 Markov\'s principle is often stated in terms of [[infinite sequences]] of natural numbers, using Greek letters for sequences and Latin letters for individual numbers:
 $$ \forall{\alpha}\, \big(\neg\forall{n}\, (\alpha_n = 0) \Rightarrow \exists{n}\, (\alpha_n \ne 0)\big) .$$
@@ -34,7 +34,7 @@ Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n
 
 ### In the antithesis interpretation
 
-In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[set]] $A$ and [[function]] $f$ from $A$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. __Markov's principle for $A$__ ($MP_A$) states that, given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ is refutative or equivalently $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is affirmative. 
+In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[function]] $f$ from $\mathbb{N}$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. __Markov's principle__ ($MP$) states that, given any [[function]] $f$ from $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is refutative or equivalently $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is affirmative. 
 
 ## Discussion
 
@@ -69,16 +69,15 @@ Markov\'s principle is equivalent to the assertion that for every [[modulated Ca
 
 The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
-
 ## Choiceless Markov's principle
 
-There is another generalization of Markov's principle defined in [King 2024](#King24), which was suggested to be called **choiceless Markov's principle**. The choiceless Markov's principle for a set $A$ states that given a set $A$ and a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, then if it is not true that for all $x \in A$, $Q(x)$, then there exists $x \in A$ such that $P(x)$. 
-$$\forall x \in A.P(x) \vee Q(x) \Rightarrow (\neg \forall x \in A.Q(x)) \Rightarrow \exists x \in A.P(x))$$
-The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the Markov's principle. One gets back the usual Markov's principle if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$. 
+There is another generalization of Markov's principle defined in [King 2024](#King24), which was suggested to be called **choiceless Markov's principle**. The choiceless Markov's principle states that given a a pair of [[predicates]] $P$ and $Q$ on the [[natural numbers]] $\mathbb{N}$ such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, then if it is not true that for all $x \in \mathbb{N}$, $Q(x)$, then there exists $x \in \mathbb{N}$ such that $P(x)$. 
+$$\forall x \in \mathbb{N}.P(x) \vee Q(x) \Rightarrow (\neg \forall x \in \mathbb{N}.Q(x)) \Rightarrow \exists x \in \mathbb{N}.P(x))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the Markov's principle. One gets back the usual Markov's principle if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in \mathbb{N}$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in \mathbb{N}$. 
 
-We can also state the principle set-theoretically. Given a [[set]] $A$, the __choiceless Markov's principle for $A$__ states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P \cup Q = A$, then if $\neg (Q = A)$, then $P$ is [[inhabited]]. One gets back the usual Markov's principle if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
+We can also state the principle set-theoretically. The __choiceless Markov's principle__ states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$, then if $\neg (Q = \mathbb{N})$, then $P$ is [[inhabited]]. One gets back the usual Markov's principle if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
-The choiceless Markov's principle for the natural numbers $\mathbb{N}$ implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
+The choiceless Markov's principle implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
 
 ## Related concepts
 
@@ -94,7 +93,7 @@ The choiceless Markov's principle for the natural numbers $\mathbb{N}$ implies t
 
 ## References
 
-* {#Mandelkern} Mark Mandelkern, _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, doi:[10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202).
+* {#Mandelkern02} [[Mark Mandelkern]], _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, doi:[10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202).
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
@@ -216,3 +215,6 @@ category: foundational axiom
 [[!redirects choiceless Марков's Rule]]
 [[!redirects choiceless Марков\'s Rule]]
 [[!redirects choiceless Марков/'s Rule]]
+
+[[!redirects Markovian set]]
+[[!redirects Markovian sets]]
