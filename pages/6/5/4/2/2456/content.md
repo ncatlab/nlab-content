@@ -175,7 +175,29 @@ The codomain-untruncated versions of these variants of the axiom of choice are a
 
 ### Sets which constructively have a choice operator
 
-One example of a set with a choice operator: Given any two [[mutually exclusive propositions]] $P$ and $Q$ (i.e. [[subsingletons]] $P$ and $Q$ which satisfy $\neg (P \times Q)$), the [[sum type]] $P + Q$ is a [[set]] and has a choice operator, because $\neg (P \times Q)$ implies that if the [[disjunction]] $P \vee Q$ holds, then [[exclusive disjunction]] holds: i.e. exactly one of $P$ and $Q$ holds. This is represented in dependent type theory by the sum type $P + Q$ being a [[singleton]] or a [[contractible type]] $\mathrm{isContr}(P + Q)$, which by definition allows one to construct an element of $P + Q$. 
+One example of a set with a choice operator: 
+
+\begin{theorem}
+Given any two [[subsingletons]] $P$ and $Q$ which satisfy $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ is a [[subsingleton]] and has a choice operator. 
+\end{theorem}
+
+This proof is due to [[Urs Schreiber]] from [here](https://nforum.ncatlab.org/discussion/18354/limited-principle-of-omniscience/?Focus=127196#Comment_127196).
+
+\begin{proof}
+We show that $P + Q$ is a [[subsingleton]], that every two elements $x, y:P + Q$ are equal to each other. We proceed by case analysis:
+
+1. the case that $x = \mathrm{inl}(p_1)$ and $y = \mathrm{inl}(p_2)$, for $p_1, p_2:P$. Since $P$ is a mere proposition, we have $p_1 = p_2$ and thus $x = y$. 
+
+1. the case that $x = \mathrm{inr}(q_1)$ and $y = \mathrm{inr}(q_2)$, for $q_1, q_2:Q$. Since $Q$ is a mere proposition, we have $q_1 = q_2$ and thus $x = y$. 
+
+1. the case that $x = \mathrm{inl}(p)$ and $y = \mathrm{inr}(q)$, for $p:P$ and $q:Q$. But this yields an element of $\emptyset$ by the function $(P \times Q) \to \emptyset$, and so by ex falso quodlibet we get $x = y$ vacuously.
+
+1. the case that $x = \mathrm{inr}(q)$ and $y = \mathrm{inl}(p)$, for $p:P$ and $q:Q$. An identical contradiction is reached, and $x = y$ vacuously.
+
+Because all branches evaluate to equality, $P + Q$ is a subsingleton. 
+
+To conclude, because $P + Q$ is a subsingleton, the canonical map $(P + Q) \to [P + Q]$ is an equivalence. This gives us a well-defined inverse map $[P + Q] \to (P + Q)$, which is precisely a choice operator for $P + Q$. 
+\end{proof}
 
 Every [[detachable subset]] of the [[natural numbers]] has a choice operator. This is because, every detachable subset of the natural numbers is in [[bijection]] with the set $\{n \in \mathbb{N} \vert P(n)\}$ for a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$. Given a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$, if there exists a natural number $n \in \mathbb{N}$ such that $P(n)$ holds, then one can construct a [[minimum|minimal]] [[natural number]] $\min_P$ such that the $P(\min_P)$ holds. See [Rijke 2022](#Rijke22) for a proof of this in [[dependent type theory]], where $\{n \in \mathbb{N} \vert P(n)\}$ is represented by the [[dependent sum type]] $\sum_{n:\mathbb{N}} P(n)$ and the existential quantifier $\exists n:\mathbb{N}.P(n)$ is represented by the [[propositional truncation]] of the dependent sum type. 
 
