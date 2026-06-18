@@ -60,6 +60,10 @@ The choiceless weak limited principle of omniscience for the natural numbers $\m
 
 ### Generalizing from the natural numbers to an arbitrary set
 
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of the weak limited principle of omniscience. 
+=--
+
 One can generalize from the [[natural numbers]] to arbitrary sets $A$. Given a set $A$, the **weak limited principle of omniscience for $A$** ($WLPO_A$) for the set $A$ states that the [[universal quantification]] of any [[decidable proposition]] on $A$ is again decidable. That is,
 $$(\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x \in A, P(x)) \vee \neg(\forall x \in A, P(x)).$$
 Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
