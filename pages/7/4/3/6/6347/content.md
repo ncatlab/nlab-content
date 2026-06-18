@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -158,19 +156,21 @@ Related lecture notes / slides include
 
 * [[John Schwarz]], opening talk at [Strings 2013](http://strings2013.sogang.ac.kr/), ([pdf](http://strings2013.sogang.ac.kr/design/default/data/john_schwarz.pdf))
 
+
 ### Quantum anomalies
 
-Discussion of type II [[quantum anomalies]] is in 
+Discussion of type II [[quantum anomalies]]:
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
- {#DFMI}
+* {#DFMI} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) &lbrack;[arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)&rbrack;
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
-  {#DFMII} 
 
-An exposition is at
+* {#DFMII} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ &lbrack;[arXiv:1007.4581](http://arxiv.org/abs/1007.4581)&rbrack;
+   
 
-* [[Dan Freed]], _Lectures on K-theory and orientifolds_ (2012) ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
+* [[Dan Freed]], _Lectures on K-theory and orientifolds_ (2012) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf)&rbrack;
+
+* Matilda Delgado, [[Lorenz Eberhardt]], Marija Tomašević: *What makes spacetime spin in string theory?* &lbrack;[arXiv:2606.18380](https://arxiv.org/abs/2606.18380)&rbrack;
+
 
 ### Classical solutions / vacua
 
