@@ -6,7 +6,7 @@
 
 ## Idea
 
-In the context of [[control theory]] and [[automata theory]], *controllability* and *observability* are [[dual]] concepts describing the capacities (1) to control the state of a system and (2) to detect the state of a [[dynamical system|system] from observations. In automata theory, the alternative term *reachability* is frequently used in place of controllability.
+In the context of [[control theory]] and [[automata theory]], *controllability* and *observability* are [[dual]] concepts describing the capacities (1) to control the state of a system and (2) to detect the state of a [[dynamical system|system]] from observations. In automata theory, the alternative term *reachability* is frequently used in place of controllability.
 
 ## Linear systems
 
