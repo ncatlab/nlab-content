@@ -489,84 +489,17 @@ We can also state the principle set-theoretically. The __choiceless limited prin
 
 The choiceless limited principle of omniscience implies the [[analytic limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24), thus also implying that the real numbers coincide with each other. 
 
-### Generalizations to other domain of discourses
+### Exhaustible sets
 
-One can consider generalizing the [[domain of discourse]] of the limited principle of omniscience from the [[natural numbers]] to an arbitrary [[set]] $A$. The __limited principle of omniscience__ for set $A$ ($\mathrm{LPO}_A$) states that the [[existential quantification]] of any [[decidable proposition]] on $A$ is again decidable.  That is,
-$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x \in A, P(x)) \vee \neg(\exists x \in A, P(x)) ,$$
-or equivalently
-$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x \in A, P(x)) \vee (\forall x \in A, \neg{P(x)}) .$$
-
-If you take the domain of discourse to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then the subsingleton is decidable follows, since $\forall x \in A, P(x)$ holds, then either the subsingleton is [[inhabited set|inhabited]], in which $\exists x \in A, P(x)$ holds, or the subsingleton is [[empty set|empty]], in which $\forall x \in A, \neg P(x)$ holds. Thus, that $LPO$ holds for all subsingletons implies $EM$; conversely, $EM$ implies $LPO$ (over any domain). Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
-
-We can also state the principle set-theoretically: given a [[set]] $A$, the __limited principle of omniscience for $A$__ ($LPO_A$) states that given a [[subset]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $P$ is [[inhabited subset|inhabited]] or $\bar{P} = A$, where $\bar{P}$ is the [[complement]] of $P$. 
-
-One can equivalently use functions to the [[boolean domain]] instead of [[decidable subsets]]. Given a [[set]] $A$, the __limited principle of omniscience for $A$__ states that given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$. Then Bishop\'s $LPO$ is $LPO_{\mathbb{N}}$, which applies to any [[infinite sequence]] of [[bits]]. Similarly here, if $A$ is a [[subsingleton]] corresponding to a given [[truth value]] and this principle is applied to the constant function at $1$, then the subsingleton $A$ is decidable, since if $\forall x. f(x) = 1$ holds, then either the subsingleton is [[inhabited set|inhabited]], in which $\exists x. f(x) = 1$ holds, or the subsingleton is [[empty set|empty]], in which $\forall x.f(x) = 0$ holds. 
-
-While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
-
-#### LPO for all subsingletons
-
-There is a [[constant function]] $x \mapsto 1$ from every subsingleton $A$ to the [[boolean domain]] $\mathbb{2}$ taking every element $x \in A$ to the boolean $1 \in \mathbb{2}$. 
-
-\begin{theorem}
-Given a [[subsingleton]] $A$, suppose that $\mathrm{LPO}_A$ holds: either there exists $x \in A$ such that $(x \mapsto 1)(x) = 1$, or for all $x \in A$, $(x \mapsto 1)(x) = 0$. Then $A$ is a [[decidable subsingleton]]. 
-\end{theorem}
-
-\begin{proof}
-We prove by case analysis. 
-
-Suppose that there exists $x:A$ such that $(x \mapsto 1)(x) = 1$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
-
-Then suppose that for all $x:A$, $(x \mapsto 1)(x) = 0$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton. 
-
-This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
-\end{proof}
-
-\begin{theorem}
-Suppose that for sets $A$ and $B$ with [[decidable tight apartness relations]], the [[tight apartness relation]] on the function set $B^A$, defined by $f \# g \coloneqq \exists x:A.f(x) \neq g(x)$, is decidable. Then [[excluded middle]] holds. 
-\end{theorem}
-
-\begin{proof}
-Every [[subsingleton]] $A$ has a [[decidable tight apartness relation]] where $x \# y$ is always [[false]]. The [[boolean domain]] $\mathbb{2}$ also has a decidable tight apartness relation where $x \# y$ is given by the [[denial inequality]] $x \neq y$. We proved earlier in the article that $\mathrm{LPO}_A$ is equivalent to the tight apartness relation on the function set $\mathbb{2}^A$ being decidable, and $\mathrm{LPO}_A$ implies that every subsingleton $A$ is a decidable subsingleton, which is precisely the condition of [[excluded middle]]. 
-\end{proof}
-
-There is also a [[constant function]] $x \mapsto 0$ from every subsingleton $A$ to the [[boolean domain]] $\mathbb{2}$ taking every element $x \in A$ to the boolean $0 \in \mathbb{2}$. 
-
-\begin{theorem}
-Given a [[subsingleton]] $A$, suppose that either there exists $x \in A$ such that $(x \mapsto 1)(x) \neq (x \mapsto 0)(x)$, or for all $x \in A$, $(x \mapsto 1)(x) = (x \mapsto 0)(x)$. Then $A$ is a [[decidable subsingleton]]. 
-\end{theorem}
-
-\begin{proof}
-We prove by case analysis. 
-
-Suppose that there exists $x \in A$ such that $(x \mapsto 1)(x) \neq (x \mapsto 0)(x)$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
-
-Then suppose that for all $x \in A$, $(x \mapsto 1)(x) = (x \mapsto 0)(x)$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton, since $(x \mapsto 1) = (x \mapsto 0)$ by [[function extensionality]]. 
-
-This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
-\end{proof}
-
-#### Universe of types satisfying LPO
-
-In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which satisfy the limited principle of omniscience:
-
-$$U_\mathrm{LPO} \coloneqq \sum_{A:U} \prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
-\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
-
-Since the type 
-
-$$\prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
-\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
-
-is a [[mere proposition]] for all $A:U$, $U_\mathrm{LPO}$ is a [[subtype|sub]]-[[universe]] of $U$. 
+One can consider generalizing the [[domain of discourse]] of the limited principle of omniscience from the [[natural numbers]] to an arbitrary [[set]] $A$. Such sets satisfying the limited principle of omniscience are called [[exhaustible sets]]. 
 
 ### Generalizations to other sets of propositions
 
-One can also consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then for a given set $A$, the __limited principle of omniscience__ $\mathrm{LPO}_{A, \Sigma}$ states that, given any [[function]] $f$ from $A$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
+One can also consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then the __limited principle of omniscience__ $\mathrm{LPO}_{\Sigma}$ states that, given any [[function]] $f$ from $\mathbb{N}$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
 
-$$\forall f:A \to \Sigma.\exists p \in \Sigma.p = \top \iff \exists x \in A.f(x) = \top$$
+$$\forall f:\mathbb{N} \to \Sigma.\exists p \in \Sigma.p = \top \iff \exists x \in \mathbb{N}.f(x) = \top$$
 
-The usual limited principle of omniscience is then $\mathrm{LPO}_{\mathbb{N}, \mathbb{2}}$ for the [[booleans]] $\mathbb{2}$:
+The usual limited principle of omniscience is then $\mathrm{LPO}_{\mathbb{2}}$ for the [[booleans]] $\mathbb{2}$:
 $$\forall f:\mathbb{N} \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top)$$
 Now by recursion of the booleans we have either that $p = \bot$ or $p = \top$, so the statement 
 $$\forall f:\mathbb{N} \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top)$$ 
@@ -576,9 +509,9 @@ and since $\top = \top$ is true and $\bot = \top$ is false, we have
 $$\forall f:\mathbb{N} \to \mathbb{2}.(\exists x \in \mathbb{N}.f(x) = \top) \vee \neg (\exists x \in \mathbb{N}.f(x) = \top)$$
 which is precisely the usual limited principle of omniscience.
 
-For the [[natural numbers]] $\mathbb{N}$ and the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\mathbb{N}, \Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
+For the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
 
-For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{A, \Omega}$ is always true for set $A$ because $\Omega$ is a [[frame]] and thus closed under existential quantification over $A$. 
+For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{\Omega}$ is always true for because $\Omega$ is a [[frame]] and thus closed under existential quantification over $\mathbb{N}$. 
 
 ## Related concepts
 
@@ -591,6 +524,8 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 * [[Markov's principle]]
 
 * [[excluded middle]]
+
+* [[exhaustible set]]
 
 ## References
 
