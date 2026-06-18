@@ -447,25 +447,25 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Tanaka07} [[Yasuhito Tanaka]]: *The Gibbard–Satterthwaite theorem of social choice theory in an infinite society and LPO (limited principle of omniscience)*, Applied Mathematics and Computation **193** 2 (2007) 475--481 &lbrack;[doi:10.1016/j.amc.2007.04.001](https://doi.org/10.1016/j.amc.2007.04.001), [pdf archived](https://web.archive.org/web/20211011144745/http://hokuriku.me/kiishimizu/pdf/AMC12363.pdf)&rbrack;
 
-* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (trans. buTania K. Roblo): *Commutative algebra: Constructive methods (Finite projective modules)*, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
 
-* {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
+* {#Rathjen13} [[Michael Rathjen]]: *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience* &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
-* {#Kawai18} [[Tatsuji Kawai]], *Principles of bar induction and continuity on Baire space* &lbrack;[arXiv:1808.04082](https://arxiv.org/abs/1808.04082)&rbrack;
+* {#Kawai18} [[Tatsuji Kawai]]: *Principles of bar induction and continuity on Baire space* &lbrack;[arXiv:1808.04082](https://arxiv.org/abs/1808.04082)&rbrack;
 
-* {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+* {#Shulman18} [[Mike Shulman]]: *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science **28** 6 (2018) 856--941 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
 
-* {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
+* {#Diener18} [[Hannes Diener]], *Constructive Reverse Mathematics*, Habil. thesis, Univ. Siegen (2018) &lbrack;[arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306)&rbrack;
 
-* {#Escardo20} [[Martin Escardo]]. *Quasidecidable propositions*. [[Agda]] code with comments, 2020. ([URL](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)).
+* {#Escardo20} [[Martin Escardo]]: *Quasidecidable propositions*, [[Agda]] code with comments (2020) &lbrack;[url](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)&rbrack;
 
-* {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+* {#Booij20} [[Auke Booij]]: *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
 
-* {#Bauer21} [[Andrej Bauer]], *Instance reducibility and Weihrauch degrees*, Logical Methods in Computer Science, August 9, 2022, Volume 18, Issue 3, &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:20)2022">doi:10.46298/lmcs-18(3:20)2022</a>,[arXiv:2106.01734](https://arxiv.org/abs/2106.01734), [pdf](https://lmcs.episciences.org/9906/pdf)&rbrack;
+* {#Bauer21} [[Andrej Bauer]]: *Instance reducibility and Weihrauch degrees*, Logical Methods in Computer Science **18** 3 (2022) &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:20)2022">doi:10.46298/lmcs-18(3:20)2022</a>,[arXiv:2106.01734](https://arxiv.org/abs/2106.01734), [pdf](https://lmcs.episciences.org/9906/pdf)&rbrack;
 
-* {#Ciraulo22} Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
+* {#Ciraulo22} Francesco Ciraulo: *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science **18** 1 (2022) &lbrack;[doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644)&rbrack;
 
-* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+* {#Rijke22} [[Egbert Rijke]]: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press (2025) &lbrack;[doi:10.1017/9781108933568](https://doi.org/10.1017/9781108933568), [arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
 * {#BirchfieldSwan24} Madeleine Birchfield, Andrew Swan (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
 
