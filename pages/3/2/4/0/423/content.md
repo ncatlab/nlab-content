@@ -20,9 +20,9 @@
 
 ***
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 \linebreak
 
@@ -1410,7 +1410,7 @@ $\,$
 ## Central theorems
  {#CentralTheorems}
 
-* [[Tietze extension theorem]]
+* [[Bolzano-Weierstrass theorem]]
 
 * [[Tychonoff theorem]]
 
@@ -1422,6 +1422,7 @@ $\,$
 
 * [[Jordan curve theorem]]
 
+* [[Tietze extension theorem]]
 
 
 ## Related entries
