@@ -56,7 +56,7 @@ The dual system is given by
 Now controllability of the original system corresponds to observability of the dual, and *vice versa*.
 
 Duality in this vein extends to many kinds of automata, nonlinear dynamical systems, hidden Markov models, etc.
-
+In ([HK77](#HK77)), the authors write "duality between 'controllability' and 'observability' ... is, mathematically, just the duality between vector fields and differential forms", we may see the duality then as a [[concept with an attitude]].
 
 ## Bialgebraic description
 
@@ -64,11 +64,13 @@ Often dualities of this form can be set in the framework of a [[bialgebra]] wher
 
 Suppose $F$ has an [[initial algebra for an endofunctor|initial algebra]], $\mu F$, and $G$ has a [[terminal coalgebra for an endofunctor|terminal coalgebra]], $\nu G$, the unique map from $\mu F$ to $X$ being an [[epimorphism]] corresponds to controllability, and the unique map from $X$ to $\nu G$ being a [[monomorphism]] corresponds to observability.
 
-There is often a [[contravariant functor]], $D$, which plays a dualizing role, and then [[natural transformations]] $F D \to D G$ and $D F \to G D$ allow us to see $D(X)$ also as a bialgebra, $F D(X) \to D G(X) \to D(X) \to D F(X) \to G D(X).$ 
+There is generally a [[contravariant functor]], $D$, which plays a dualizing role, and then [[natural transformations]] $F D \to D G$ and $D F \to G D$ allow us to see $D(X)$ also as a bialgebra, $F D(X) \to D G(X) \to D(X) \to D F(X) \to G D(X).$ 
 
 One example of this is given in [[Set]] where $F(X) = 1 + A \times X$ and $G(X) = 2 \times X^A$. A bialgebra here is a finite state automaton with inputs given by $A$, and an initial state, $i:1 \to X$ and a final accepting costate $f: X \to 2$ with update function $u: A \times X \to X$, [[curried]] to $\hat{u}:X \to X^A$. The state space of $\mu F$ is $A^{\ast}$, the set of words on $A$, and the state space of $\nu G$ is $2^{A^{\ast}}$. The dual automaton has state space, $D(X) = 2^X$, $D$ being the contravariant [power set functor](power+set#power_set_functor). Here $D F(X) \cong G D(X)$.
 
-In the finite linear case, the relevant bialgebra is $U \oplus X \to X \to Y \oplus X$. The initial algebra is $\bigoplus_{i \in \mathbb{N}} U$, and the terminal coalgebra is $\prod_{i \in \mathbb{N}} Y$. These are infinite-dimensional and correspond to finite sequences of elements of $U$ and streams of elements of $Y$.
+Brzozowski's double-reversal minimisation algorithm for deterministic finite automata may be seen through this lens  as applying dualization then restricting to the reachable subpart twice.
+
+In the finite linear case, the relevant bialgebra is $U \oplus X \to X \to Y \oplus X$. The initial algebra is $\bigoplus_{i \in \mathbb{N}} U$, and the terminal coalgebra is $\prod_{i \in \mathbb{N}} Y$. These are infinite-dimensional and correspond to finite sequences of elements of $U$ and streams of elements of $Y$. Dualization here is to the [[dual vector space]].
 
 ## References  
 
@@ -78,16 +80,18 @@ The founding paper:
 
 An extension to nonlinear systems:
 
-* R. Hermann and A.Krener, *Nonlinear controllability and observability*, IEEE Transactions on automatic control, vol. 22, no. 5, pp. 728–740, 1977 \[<a href="https://doi.org/10.1109/TAC.1977.1101601">doi:10.1109/TAC.1977.1101601</a>\].
+* {#HK77} R. Hermann and A. Krener, *Nonlinear controllability and observability*, IEEE Transactions on automatic control, vol. 22, no. 5, pp. 728–740, 1977 \[<a href="https://doi.org/10.1109/TAC.1977.1101601">doi:10.1109/TAC.1977.1101601</a>\].
 
 
 In [[automata theory]]:
 
 * Michael A. Arbib and Ernest G. Manes, *Adjoint machines, state-behavior machines, and duality*, Journal of Pure and Applied Algebra 6.3 (1975): 313-344 \[<a href="https://doi.org/10.1016/0022-4049%2875%2990028-6">doi:10.1016/0022-4049(75)90028-6</a>\].
 
-On the bialgebraic formulation:
+On the bialgebraic formulation and automaton minimization:
 
 * Filippo Bonchi, Marcello M. Bonsangue, Helle H. Hansen, Prakash Panangaden, Jan JMM Rutten, Alexandra Silva: *Algebra-coalgebra duality in Brzozowski's minimization algorithm* ACM Transactions on Computational Logic (TOCL) **15** 1 (2014) 1--29 \[<a href="http://doi.org/10.1145/2490818">doi:10.1145/2490818</a>, [pdf](https://dl.acm.org/doi/pdf/10.1145/2490818)\]
+
+* Nick Bezhanishvili, Marcello Bonsangue, Helle Hvid Hansen, Dexter Kozen, Clemens Kupke, Prakash Panangaden, Alexandra Silva, *Minimisation in Logical Form* &lbrack;[arXiv:2005.11551](https://arxiv.org/abs/2005.11551)&rbrack;
 
 Duality for hidden Markov models:
 
