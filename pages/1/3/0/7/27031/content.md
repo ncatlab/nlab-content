@@ -71,6 +71,10 @@ The choiceless lesser limited principle of omniscience implies the [[analytic le
 
 ### Generalizing from the natural numbers to an arbitrary set
 
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of the lesser limited principle of omniscience. 
+=--
+
 One can generalize from the natural numbers $\mathbb{N}$ to any arbitrary set $A$. The **lesser limited principle of omniscience for the set $A$** ($LLPO_A$) is a [[principle of omniscience]] which states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] is false, then one of their separate existential quantifications is false.  That is,
 $$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in A, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in A, P(x) \wedge \exists y \in A, Q(y)) \Rightarrow \neg(\exists x \in A, P(x)) \vee \neg(\exists y \in A, Q(y)) ,$$
 or equivalently
