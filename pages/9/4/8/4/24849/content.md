@@ -126,13 +126,34 @@ Application to [[2D Yang-Mills theory]]:
 * Gabriel Wong, Razin A. Shaikh, William Donnelly: *A ribbon ZX calculus for gauge theory* &lbrack;[arXiv:2606.13551](https://arxiv.org/abs/2606.13551)&rbrack;
 
 
-
 See also:
 
 * Razin A. Shaikh, Quanlong Wang, Richie Yeung, *How to sum and exponentiate Hamiltonians in ZXW calculus* &lbrack;[arXiv:2212.04462](https://arxiv.org/abs/2212.04462)&rbrack;
 
 
-(...)
+{#ReferencesCompletenessResults} Completeness results:
+
+* Christian Schröder de Witt, Vladimir Zamdzhiev: *The ZX-calculus is incomplete for quantum mechanics*, EPTCS **172** (2014) 285--292 \[<a href="https://doi.org/10.4204/EPTCS.172.20">doi:10.4204/EPTCS.172.20</a>, [arXiv:1404.3633](https://arxiv.org/abs/1404.3633)\]
+
+* Miriam Backens: *The ZX-calculus is complete for stabilizer quantum mechanics*, New J. Phys. **16** (2014) 093021 \[<a href="https://doi.org/10.1088/1367-2630/16/9/093021">doi:10.1088/1367-2630/16/9/093021</a>, [arXiv:1307.7025](https://arxiv.org/abs/1307.7025)\]
+
+* Miriam Backens: *The ZX-calculus is complete for the single-qubit Clifford+T group*, EPTCS **172** (2014) 293--303 \[<a href="https://doi.org/10.4204/EPTCS.172.21">doi:10.4204/EPTCS.172.21</a>, [arXiv:1412.8553](https://arxiv.org/abs/1412.8553)\]
+
+* Kang Feng Ng, Quanlong Wang: *A universal completion of the ZX-calculus* &lbrack;[arXiv:1706.09877](https://arxiv.org/abs/1706.09877)&rbrack;
+
+* Kang Feng Ng, Quanlong Wang: *Completeness of the ZX-calculus for Pure Qubit Clifford+T Quantum Mechanics* [arXiv:1801.07993](https://arxiv.org/abs/1801.07993)
+
+* Quanlong Wang: *Completeness of the ZX-calculus*, PhD thesis, Oxford (2018) &lbrack;[arXiv:2209.14894](https://arxiv.org/abs/2209.14894), [pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Harny.pdf), slides:[pdf](https://qpl2019.mattleifer.info/wp-content/uploads/2019/06/QPL2019-KF-Ng.pdf)&rbrack;
+
+* Emmanuel Jeandel, Simon Perdrix, Renaud Vilmart: *Completeness of the ZX-Calculus*, Logical Methods in Computer Science **16** 2 (2020) lmcs:5288 \[<a href="https://doi.org/10.23638/LMCS-16(2:11)2020">doi:10.23638/LMCS-16(2:11)2020</a>, [arXiv:1903.06035](https://arxiv.org/abs/1903.06035)\]
+
+On necessity/minimality of the set of rewrite rules:
+
+* Miriam Backens, Simon Perdrix, Quanlong Wang: *Towards a Minimal Stabilizer ZX-calculus*, Logical Methods in Computer Science, **16** 4 (2020) lmcs:3961 \[<a href="https://doi.org/10.23638/LMCS-16(4:19)2020">doi:10.23638/LMCS-16(4:19)2020</a>, [arXiv:1709.08903](https://arxiv.org/abs/1709.08903)\]
+
+* Harry K. Stoltz: *The Simplified Stabilizer ZX-Calculus is Minimal* \[<a href="https://arxiv.org/abs/2606.12383">arXiv:2606.12383</a>\]
+
+
 
 [[!redirects ZX calculus]]
 
