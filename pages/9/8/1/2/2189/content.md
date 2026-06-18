@@ -18,9 +18,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -62,6 +62,8 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 ## Related concepts
 
+* [[epsilontic analysis]]
+
 * [[geometric analysis]]
 
 * [[epsilontic analysis]]
@@ -77,13 +79,19 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 ### General
  {#ReferencesGeneral}
 
+Early historical references:
+
+* [[Bernard Bolzano]]: *Rein analytischer Beweis des Lehrsatzes, dass zwischen je zwey Werthen, die ein entgegengesetztes Resultat gewähren, wenigstens eine reelle Wurzel der Gleichung liege*, Gottlieb Haase, Prague (1817) \[<a href="https://eudml.org/doc/202403">eudml:202403</a>, [dml.cz:400016](https://dml.cz/handle/10338.dmlcz/400016), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/400016/Bolzano_24-1817-1_1.pdf), [[Bolzano-1817.pdf|pdf:file]]\]
+  > (Early rigorous proof of the [[intermediate value theorem]] via what is now called the [[Bolzano-Weierstrass theorem]].)
+
+
 Textbooks accounts:
 
 * E. T. Whittaker, G. N. Watson: *A Course of Modern Analysis*,  Cambridge University Press (1915, 2021) &lbrack;[doi:10.1017/9781009004091](https://doi.org/10.1017/9781009004091), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Course_of_Modern_Analysis)&rbrack;
 
 * [[Tom Apostol]], *Mathematical Analysis* (1973) &lbrack;ISBN:0201002884, [pdf](http://webpages.iust.ac.ir/amtehrani/files/Addison%20Wesley%20-%20Mathematical%20Analysis%20_%20Apostol%20%285Th%20Ed%29%20%281981%29.pdf)&rbrack;
 
-* {#Rudin64} [[Walter Rudin]], _Principles of Mathematical Analysis_, McGraw-Hill (1964, 1976) &lbrack;[pdf](https://web.math.ucsb.edu/~agboola/teaching/2021/winter/122A/rudin.pdf)&rbrack;
+* {#Rudin64} [[Walter Rudin]]: _Principles of Mathematical Analysis_, McGraw-Hill (1964, 1976) &lbrack;[pdf](https://david92jackson.neocities.org/images/Principles_of_Mathematical_Analysis-Rudin.pdf)&rbrack;
 
 * [[Eric Schechter]], _[[Handbook of Analysis and its Foundations]]_, Academic Press (1996) ([web](http://www.math.vanderbilt.edu/~schectex/ccc/))
 
