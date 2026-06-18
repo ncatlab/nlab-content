@@ -461,7 +461,7 @@ $$\neg P = P \to \emptyset$$
 
 * The internal [[existential quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_P:P \to \top$ into the singleton $\top$.
 
-$$\exists_A P = \im(!_P)$$
+$$\exists_A P = \mathrm{im}(!_P)$$
 
 * The internal [[universal quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[dependent product]] of the preimages
  
