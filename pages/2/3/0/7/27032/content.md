@@ -20,52 +20,6 @@ $$(\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x \
 
 We can also state the principle set-theoretically. The __weak limited principle of omniscience__ ($WLPO$) states that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then either $\bar{P} = \mathbb{N}$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
 
-## In the internal logic
-
-In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
-
-* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in P$ and $y \in P$, $x = y$. 
-
-* The internal proposition *[[true]]* is a [[singleton]] $\top$. 
-
-* The internal proposition *[[false]]* is the [[empty set]]
-
-* The internal conjunction of two internal propositions $P$ and $Q$ is the [[cartesian product]] $P \times Q$ of $P$ and $Q$. 
-
-* The internal disjunction of two internal propositions $P$ and $Q$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_{P \uplus Q}:P \uplus Q \to 1$ from the [[disjoint union]] of $P$ and $Q$ to the [[singleton]] $\top$. 
-
-$$P \vee Q = \mathrm{im}(!_{P \uplus Q})$$
-
-* The internal implication of two internal propositions $P$ and $Q$ is the [[function set]] $P \to Q$ between $P$ and $Q$. 
-
-* The internal negation of an internal proposition $P$ is the function set from $P$ to the [[empty set]]
-
-$$\neg P = P \to \emptyset$$
-
-* An internal proposition $P$ is a [[decidable proposition]] if it comes with a function $\chi_P:P \to 2$ from $P$ to the [[boolean domain]] $2$. 
-
-* An *internal predicate* on a set $A$ is a [[set]] $P$ with [[injection]] $i:P \hookrightarrow A$, whose family of propositions indexed by $x \in A$ is represented by the [[preimages]] $i^*(x)$.
-
-* The internal [[existential quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_P:P \to \top$ into the singleton $\top$.
-
-$$\exists_A P = \im(!_P)$$
-
-* The internal [[universal quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[dependent product]] of the preimages
- 
-$$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
-
-* An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
-
-Then the **internal WLPO** states that:
-
-* For any internal predicate $i:P \hookrightarrow \mathbb{N}$, if there is a function $\chi_P:\mathbb{N} \to 2$, then the internal universal quantification of $P$, $\forall_{\mathbb{N}} P = \{f \in P^{\mathbb{N}} \vert \forall x \in \mathbb{N}, f(x) \in i^*(x) \}$ has a function $(\forall_{\mathbb{N}} P) \to 2$ into the boolean domain. 
-
-or equivalently
-
-* For any function $a:\mathbb{N} \to 2$, the internal universal quantification of $P = \{x \in \mathbb{N} \vert a(x) = 1\}$, $\forall_{\mathbb{N}} P = \{f \in P^{\mathbb{N}} \vert \forall x \in \mathbb{N}, f(x) \in i^*(x) \}$ has a function $(\forall_{\mathbb{N}} P) \to 2$ into the boolean domain. 
-
-The internal versions of the weak limited principle of omniscience, like all internal versions of axioms, are weaker than the external version of the the weak limited principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in \mathbb{N} \vdash P(x)$ on the [[natural numbers]] to an internal predicate $\{x \in \mathbb{N} \vert P(x)\} \hookrightarrow \mathbb{N}$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
-
 ## Equivalent statements
 
 There are various other results that are equivalent to the weak limited principle of omniscience. Here are a few:
@@ -152,10 +106,6 @@ If one takes the domains of quantification to be subsingletons, one gets [[weak 
 [[!redirects WLPO]]
 [[!redirects weak limited principle of omniscience]]
 [[!redirects weak limited principles of omniscience]]
-
-[[!redirects internal WLPO]]
-[[!redirects internal weak limited principle of omniscience]]
-[[!redirects internal weak limited principles of omniscience]]
 
 [[!redirects choiceless WLPO]]
 [[!redirects choiceless weak limited principle of omniscience]]
