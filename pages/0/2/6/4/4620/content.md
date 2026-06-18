@@ -23,7 +23,9 @@ Bishop\'s principles of omniscience may be seen as principles that extend classi
 
 Examples of principles of omniscience include 
 
-* [[limited principle of omniscience]], a weak form of [[excluded middle]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
+* [[limited principle of omniscience]], a weak form of [[excluded middle]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on the [[natural numbers]]
+
+  * more generally, an [[exhaustible set]], for predicates on a set other than the [[natural numbers]]
 
 * [[weak limited principle of omniscience]], a weak form of [[weak excluded middle]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
 
