@@ -159,6 +159,11 @@ In the context of [[rational CFT]] with [[noninvertible symmetries]], in the spi
 
 * [[Terry Gannon]], Brandon C. Rayhaun: *Hypergroup Symmetry in Relative Quantum Field Theories and Chiral Algebras* &lbrack;[arXiv:2606.05279](https://arxiv.org/abs/2606.05279)&rbrack;
 
+See also:
+
+* Yizhou Ma, Gen Yue, Tian Lan: *Bulk-boundary correspondence of $(1+1)D$ symmetric gapped phases* &lbrack;[arXiv:2606.19137](https://arxiv.org/abs/2606.19137)&rbrack;
+
+
 
 ### Under T-Duality
 
