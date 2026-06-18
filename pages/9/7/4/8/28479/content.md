@@ -17,4 +17,8 @@ On the [[limited principle of omniscience]] and the [[Bolzano-Weierstrass theore
 
 * {#Mandelkern88} [[Mark Mandelkern]]: *Limited Omniscience and the Bolzano-Weierstrass Principle*, Bulletin of the London Mathematical Society **20** 4 (1988) 319--320, &lbrack;[doi:10.1112/blms/20.4.319](https://doi.org/10.1112/blms/20.4.319), [pdf](https://www.zianet.com/mandelkern/mandelkern_bwp.pdf)&rbrack;
 
+On finite subsets of a [[metric spaces]] that are a [[complete metric space]] in [[constructive mathematics]]: 
+
+* [[Mark Mandelkern]], _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, &lbrack;[doi:10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202)&rbrack;.
+
 category: people
