@@ -23,48 +23,6 @@ We can also state the principle set-theoretically. The __lesser limited principl
 
 One can also use functions to the [[boolean domain]] instead of [[decidable subsets]]: the **lesser limited principle of omniscience** (LLPO) states that, given functions $f, g\colon \mathbb{N} \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$. 
 
-## In the internal logic
-
-In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
-
-* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in A$ and $y \in A$, $x = y$. 
-
-* The internal proposition *[[true]]* is a [[singleton]] $\top$. 
-
-* The internal proposition *[[false]]* is the [[empty set]]
-
-* The internal conjunction of two internal propositions $P$ and $Q$ is the [[cartesian product]] $P \times Q$ of $P$ and $Q$. 
-
-* The internal disjunction of two internal propositions $P$ and $Q$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_{P \uplus Q}:P \uplus Q \to 1$ from the [[disjoint union]] of $P$ and $Q$ to the [[singleton]] $\top$. 
-
-$$P \vee Q = \mathrm{im}(!_{P \uplus Q})$$
-
-* The internal implication of two internal propositions $P$ and $Q$ is the [[function set]] $P \to Q$ between $P$ and $Q$. 
-
-* The internal negation of an internal proposition $P$ is the function set from $P$ to the [[empty set]]
-
-$$\neg P = P \to \emptyset$$
-
-* An internal proposition $P$ is a [[decidable proposition]] if it comes with a function $\chi_P:P \to 2$ from $P$ to the [[boolean domain]] $2$. 
-
-* An *internal predicate* on a set $A$ is a [[set]] $P$ with [[injection]] $i:P \hookrightarrow A$, whose family of propositions indexed by $x \in A$ is represented by the [[preimages]] $i^*(x)$.
-
-* The internal [[existential quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_P:P \to \top$ into the singleton $\top$.
-
-$$\exists_A P = \im(!_P)$$
-
-* The internal [[universal quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[dependent product]] of the preimages
- 
-$$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
-
-* An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
-
-The **internal LLPO** in the set theory states that:
-
-* The internal LLPO holds only for the internal predicates $i:P \hookrightarrow \mathbb{N}$ which comes with an internal predicate $j:Q \hookrightarrow \mathbb{N}$ such that $i^*(x) = \neg j^*(x)$ for all $x \in \mathbb{N}$. 
-
-The internal LLPO, like all internal versions of axioms, are weaker than the external version of LLPO, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
-
 ## Equivalent statements
 
 There are various other results that are equivalent to the principles of omniscience. Here are a few:
