@@ -13,10 +13,12 @@
 =--
 =--
 
+
 \tableofcontents
 
+
 +-- {: .standout}
-This page is currently under heavy revision. There are many errors on this page that need to be fixed. 
+This page is currently under heavy revision. There remain errors that need to be fixed. 
 =--
 
 ## Definition
@@ -34,7 +36,7 @@ One can also formulate the limited principle of omniscience for natural numbers 
 
 ### In the antithesis interpretation
 
-In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[set]] $\mathbb{N}$ and [[function]] $f$ from $\mathbb{N}$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. The __limited principle of omniscience__ ($LPO$) states that, given any [[function]] $f$ from $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ or $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is decidable. 
+In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[set]] $\mathbb{N}$ and [[function]] $f$ from $\mathbb{N}$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. The __limited principle of omniscience__ ($LPO$) states that, given any [[function]] $f$ from $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ or $\bigsqcap_{x \in \mathbb{N}} (b \mapsto f(x) = b)$ is decidable. 
 
 ### Using exclusive disjunction
 
@@ -54,13 +56,13 @@ $$ \forall f \in \{0,1\}^\mathbb{N}, (\exists x \in \mathbb{N}, f(x) = 1) \under
 
 In the context of [[dependent type theory]], the usual limited principle of omniscience is expressed as 
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
 
 However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different versions of the limited principle of omniscience, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated:
 
 * the usual limited principle of omniscience states that 
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
 
 * the **disjunction-untruncated limited principle of omniscience** states that
 
@@ -68,7 +70,7 @@ $$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\exists x:\mathbb{N}.f(x) = 1\right)
 
 * the **quantifier-untruncated limited principle of omniscience** states that
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:A} f(x) = 1\right) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:\mathbb{N}} f(x) = 1\right) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
 
 * the **fully untruncated limited principle of omniscience** states that
 
@@ -93,9 +95,9 @@ Both $P$ and $Q$ are mere propositions, $P$ by definition of [[propositional tru
 
 Secondly, we construct a function $(P \times Q) \to \emptyset$. Namely, suppose we have an element of $Q$, meaning an element that $\prod_{n:\mathbb{N}} f(n) = 0$. We wish to map $P$ to $\emptyset$. Because $\emptyset$ is a [[mere proposition]], we may apply the [[universal property]] of [[propositional truncation]] to eliminate out of $P$. This means we can legitimately assume we have a specific pair $(n, p)$ where $p:f(n) = 1$. Applying our element of $Q$ to $n$ yields a proof that $f(n) = 0$. Thus, $1 = 0$ in the [[boolean domain]], which is a contradiction yielding an element of $\emptyset$. 
 
-Now, every given any two [[mere propositions]] $P$ and $Q$ with a function $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ has a [[choice operator]] $[P + Q] \to (P + Q)$; see proof at the article [[choice operator]]. By applying the choice operator to our premise, the standard LPO provided by the element of $[P + Q]$, we extract a valid element of $P + Q$. 
+Now, for a [[pair]] of [[mere propositions]] $P$ and $Q$ with a function $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ has a [[choice operator]] $[P + Q] \to (P + Q)$; see the proof [there](choice+operator#SumOfMutuallyExclusivePropositionsHasChoice). By applying the choice operator to our premise, the standard LPO provided by the element of $[P + Q]$, we extract a valid element of $P + Q$. 
 
-This established the disjunction-untruncated LPO. 
+This establishes the disjunction-untruncated LPO. 
 \end{proof}
 
 \begin{theorem}
@@ -140,9 +142,12 @@ The converses follow from the fact that by the inference rules of [[propositiona
 There are various results that are equivalent to the limited principle of omniscience. 
 
 \begin{theorem}
-LPO holds if and only if the [[function set]] $\mathbb{2}^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^\mathbb{N}$ be defined as 
+LPO holds if and only if the [[function set]] $\mathbb{2}^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^\mathbb{N}$ is defined as 
+$$
+  f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)
+  \mathrlap{\,.}
+$$
 
-$$f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)$$
 \end{theorem}
 
 \begin{proof}
@@ -158,7 +163,7 @@ Conversely, assume that $f \# g$ is decidable. Then take $g$ to be the constant 
 Let $\Sigma$ denote the set of [[quasidecidable propositions]], which is the smallest set of propositions closed under [[truth]], [[falsehood]], and countable [[existential quantification]], defined in [Escardo 2020](#Escardo20) as [[existential quantification]] over the [[natural numbers]]: for all functions $f:\mathbb{N} \to \Sigma$, $\exists n:\mathbb{N}.f(n) = \top$ is in $\Sigma$. [Escardo 2020](#Escardo20) shows that the set of [[quasidecidable propositions]] is a [[dominance]] and equivalent to the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. 
 
 \begin{theorem}
-LPO holds if and only if the set of [[quasidecidable propositions]] coincides the [[boolean domain]]. 
+LPO holds if and only if the set of [[quasidecidable propositions]] coincides with the [[boolean domain]]. 
 \end{theorem}
 
 \begin{proof}
@@ -187,17 +192,23 @@ One also has:
 These statements beneath this standout box currently do not have proofs on the nLab or references to literature containing a proof of the statement. Please add such proofs or references to the article, or delete them if these statements are not true. 
 =--
 
-* Every [[Cauchy real number]] is a [[rational number]] or has an strictly non-repeating base $b$ radix expansion if and only if LPO holds. 
+* Every [[Cauchy real number]] is a [[rational number]] or has a strictly non-repeating base $b$ radix expansion if and only if LPO holds. 
 
-* LPO holds if and only if for every function $f:\mathbb{N} \to \mathbb{N}$ from $\mathbb{N}$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $\mathbb{N}$, $f(x) = 0$. 
+* LPO holds if and only if for every function $f:\mathbb{N} \to \mathbb{N}$ from $\mathbb{N}$ to the [[natural numbers]], either there exists an element $x \in \mathbb{N}$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x \in \mathbb{N}$ we have $f(x) = 0$. 
 
-* Given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, LPO holds if and only if that the [[function set]] $S^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $S^\mathbb{N}$ be defined as 
-$$f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)$$
+* Given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, LPO holds if and only if the [[function set]] $S^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $S^\mathbb{N}$ is defined as 
+  $$
+    f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)
+    \mathrlap{\,.}
+  $$
 
 * The [[p-adic integers|$p$-adic integers]] being a [[discrete integral domain]] and the [[p-adic rationals|$p$-adic rationals]] being a [[discrete field]] are both equivalent to LPO. 
 
-* LPO holds if and only if the [[function set]] $\mathbb{N}^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{N}^\mathbb{N}$ be defined as 
-$$f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)$$
+* LPO holds if and only if the [[function set]] $\mathbb{N}^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{N}^\mathbb{N}$ is defined as 
+  $$
+    f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)
+    \mathrlap{\,.}
+  $$
 
 * The [[ring]] of [[rational numbers|rational]] [[power series]] $\mathbb{Q}[[x]]$ being a [[discrete integral domain]] is equivalent to LPO. Similarly, the [[Heyting field]] of [[rational numbers|rational]] [[Laurent series]] $\mathbb{Q}((x))$ being a [[discrete field]] is equivalent to LPO. 
 
@@ -369,7 +380,7 @@ This means that theories which accept both LPO and [[Brouwer's continuity princi
 
 ### Choiceless limited principle of omniscience
 
-There is a generalization of the limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless limited principle of omniscience**. The choiceless limited principle of omniscience states that given and a pair of [[predicates]] $P$ and $Q$ on $\mathbb{N}$ such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, then either there exists $x \in \mathbb{N}$ such that $P(x)$ or for all $x \in \mathbb{N}$, $Q(x)$. The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the limited principle of omniscience. One gets back the usual limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in \mathbb{N}$. 
+There is a generalization of the limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless limited principle of omniscience**. The choiceless limited principle of omniscience states that given a [[pair]] of [[predicates]] $P$ and $Q$ on $\mathbb{N}$ such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, then either there exists $x \in \mathbb{N}$ such that $P(x)$ or for all $x \in \mathbb{N}$, $Q(x)$. The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ in this version of the limited principle of omniscience. One gets back the usual limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in \mathbb{N}$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in \mathbb{N}$. 
 
 We can also state the principle set-theoretically. The __choiceless limited principle of omniscience__ states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$, then either $P$ is [[inhabited subset|inhabited]] or $Q = \mathbb{N}$. One gets back the usual limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
@@ -379,9 +390,10 @@ The choiceless limited principle of omniscience implies the [[analytic limited p
 
 One can consider generalizing the [[domain of discourse]] of the limited principle of omniscience from the [[natural numbers]] to an arbitrary [[set]] $A$. Such sets satisfying the limited principle of omniscience are called [[exhaustible sets]]. 
 
+
 ### Generalizations to other sets of propositions
 
-One can also consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then the __limited principle of omniscience__ $\mathrm{LPO}_{\Sigma}$ states that, given any [[function]] $f$ from $\mathbb{N}$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
+One can also consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then the __limited principle of omniscience__ $\mathrm{LPO}_{\Sigma}$ states that, given any [[function]] $f$ from $\mathbb{N}$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in \mathbb{N}$ such that $f(x) = \top$. 
 
 $$\forall f:\mathbb{N} \to \Sigma.\exists p \in \Sigma.p = \top \iff \exists x \in \mathbb{N}.f(x) = \top$$
 
@@ -397,7 +409,7 @@ which is precisely the usual limited principle of omniscience.
 
 For the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
 
-For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{\Omega}$ is always true for because $\Omega$ is a [[frame]] and thus closed under existential quantification over $\mathbb{N}$. 
+For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{\Omega}$ is always true, because $\Omega$ is a [[frame]] and thus closed under existential quantification over $\mathbb{N}$. 
 
 ## Related concepts
 
@@ -431,7 +443,7 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Tanaka07} [[Yasuhito Tanaka]]: *The Gibbard–Satterthwaite theorem of social choice theory in an infinite society and LPO (limited principle of omniscience)*, Applied Mathematics and Computation **193** 2 (2007) 475--481 &lbrack;[doi:10.1016/j.amc.2007.04.001](https://doi.org/10.1016/j.amc.2007.04.001), [pdf archived](https://web.archive.org/web/20211011144745/http://hokuriku.me/kiishimizu/pdf/AMC12363.pdf)&rbrack;
 
-* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (trans. buTania K. Roblo): *Commutative algebra: Constructive methods (Finite projective modules)*, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (trans. by Tania K. Roblo): *Commutative algebra: Constructive methods (Finite projective modules)*, Springer (2015) &lbrack;[doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf)&rbrack;
 
 * {#Rathjen13} [[Michael Rathjen]]: *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience* &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
@@ -461,7 +473,7 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
-Resuts on the limited principle of omniscience and quasidecidable propositions uses the following references:
+Results on the limited principle of omniscience and quasidecidable propositions uses the following references:
 
 * {#Escardo20} [[Martin Escardo]]: *Quasidecidable propositions*, [[Agda]] code in TypeTopology library with comments (2020) &lbrack;[url](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)&rbrack;
 
