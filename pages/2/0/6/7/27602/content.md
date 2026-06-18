@@ -25,14 +25,24 @@
 
 ## Idea
 
+Phoa's principle is a principle used to axiomatize [[Sierpinski space]] in [[synthetic topology]] and [[synthetic domain theory]]. 
+
+Phoa's principle is named after [[Wesley Phoa]]. 
+
+## Definition
+
 Let $L$ be a [[01-bounded semilattice]], that is, a semilattice with an [[absorbing element]]. **Phoa's principle** states that every [[endofunction]] $f:L \to L$ is [[monotonic]] and the precomposition function $h \mapsto h \circ i:L^L \to L^\mathbb{2}$ by the [[embedding]] $i:\mathbb{2} \hookrightarrow L$ of the [[booleans]] into $L$ is an embedding. 
 
 If $L$ is a [[distributive lattice]], then Phoa's principle is equivalent to the linear interpolation condition that for all [[endofunctions]] $f:L \to L$ and elements $x \in L$:
 $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 
-In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. In [[synthetic domain theory]], Phoa's principle holds for a [[dominance]] $\Omega$. 
+## Properties
 
-Phoa's principle is named after [[Wesley Phoa]]. 
+* In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. 
+
+* In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. 
+
+* In [[synthetic domain theory]], Phoa's principle holds for a [[dominance]] $\Omega$. 
 
 ## Related concepts
 
@@ -55,6 +65,12 @@ Phoa's principle is named after [[Wesley Phoa]].
 ## References
 
 * [[Wesley Phoa]]: *Domain theory in realizability toposes*, PhD thesis, Trinity College, Cambridge (November 1990) &lbrack;[lfcs:91/ECS-LFCS-91-171](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171), [pdf](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171/ECS-LFCS-91-171.pdf)&rbrack;
+
+* [[Paul Taylor]], *The Fixed Point Property in Synthetic Domain Theory*, Proceedings Sixth Annual IEEE Symposium on Logic in Computer Science, &lbrack;[doi:10.1109/LICS.1991.151640](https://doi.org/10.1109/LICS.1991.151640), [pdf](https://www.paultaylor.eu/ASD/fixpps/fixpps.pdf)&rbrack;
+
+* [[Davorin Lešnik]], *Synthetic Topology and Constructive Metric Spaces* &lbrack;[arXiv:2104.10399](https://arxiv.org/abs/2104.10399)&rbrack;
+
+* [[Davorin Lešnik]], "Synthetic Topology". In: [[Douglas Bridges]], [[Hajime Ishihara]], [[Michael Rathjen]], [[Helmut Schwichtenberg]], editors, *Handbook of Constructive Mathematics*, Encyclopedia of Mathematics and its Applications, Cambridge University Press, pp. 445 - 482, 04 May 2023. &lbrack;[doi:10.1017/9781009039888.018](https://doi.org/10.1017/9781009039888.018)&rbrack;
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
