@@ -20,13 +20,17 @@ $$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x \in A, P(x)) \
 or equivalently
 $$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x \in A, P(x)) \vee (\forall x \in A, \neg{P(x)}) .$$
 
-If you take the domain of discourse to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then the subsingleton is decidable follows, since $\forall x \in A, P(x)$ holds, then either the subsingleton is [[inhabited set|inhabited]], in which $\exists x \in A, P(x)$ holds, or the subsingleton is [[empty set|empty]], in which $\forall x \in A, \neg P(x)$ holds. Thus, that every subsingleton is exhaustible implies $EM$; conversely, $EM$ implies that every set is exhaustible (over any domain). Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
+If you take the set $A$ to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then the subsingleton is decidable follows, since $\forall x \in A, P(x)$ holds, then either the subsingleton is [[inhabited set|inhabited]], in which $\exists x \in A, P(x)$ holds, or the subsingleton is [[empty set|empty]], in which $\forall x \in A, \neg P(x)$ holds. Thus, that every subsingleton is exhaustible implies $EM$; conversely, $EM$ implies that every set is exhaustible (over any domain). Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
 
 We can also state the principle set-theoretically: a [[set]] $A$ is **exhaustible** or **omniscient** if for all [[subsets]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $P$ is [[inhabited subset|inhabited]] or $\bar{P} = A$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 While $\mathbb{N}$ being exhaustible is the [[limited principle of omniscience]], the set $\overline{\mathbb{N}}$ of [[extended natural number]]s is provably exhaustible in constructive mathematics; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
 ## Properties
+
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on these properties. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
+=--
 
 \begin{theorem}
 A set $A$ is exhaustible if and only if the [[function set]] $\mathbb{2}^A$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^A$ be defined as 
@@ -101,6 +105,10 @@ This exhausts all options for decidable subsingletons, and exhausts all possible
 \end{proof}
 
 ## Universe of exhaustible types
+
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on the universe of types that satisfy the principle of omniscience. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
+=--
 
 In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which are exhautible:
 
