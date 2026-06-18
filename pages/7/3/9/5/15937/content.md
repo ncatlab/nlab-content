@@ -37,7 +37,9 @@ In the context of [[constructive mathematics]]:
 
 * [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
 
-* [[Hannes Diener]], *Constructive Reverse Mathematics*, 2018 ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
+* [[Hannes Diener]]: *Compactness Under Constructive Scrutiny*, PhD Thesis, Univ. Canterbury (2008) &lbrack;[pdf](https://ir.canterbury.ac.nz/server/api/core/bitstreams/74e691c4-f68a-4043-9e2c-d6f3d1afca2a/content)&rbrack;
+
+* [[Hannes Diener]], *Constructive Reverse Mathematics*, Habil. thesis, Univ. Siegen (2018) &lbrack;[arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306)&rbrack;
 
 * Takayuki Kihara, *Degrees of incomputability, realizability and constructive reverse mathematics* &lbrack;[arXiv:2002.10712](https://arxiv.org/abs/2002.10712)&rbrack;
 
