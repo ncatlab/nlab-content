@@ -13,9 +13,8 @@
 =--
 =--
 
-# Choice operators
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Definitions
 
@@ -173,12 +172,14 @@ The codomain-untruncated versions of these variants of the axiom of choice are a
 
 2. for the codomain-untruncated [[axiom of countable choice]], the type family being defined by $A(n + 1)$ being a [[contractible type]] for all natural numbers, so that $A(0) \simeq \prod_{n:\mathbb{N}} A(n)$. 
 
+
 ### Sets which constructively have a choice operator
 
 One example of a set with a choice operator: 
 
 \begin{theorem}
-Given any two [[subsingletons]] $P$ and $Q$ which satisfy $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ is a [[subsingleton]] and has a choice operator. 
+\label{SumOfMutuallyExclusivePropositionsHasChoice}
+Given any two [[subsingletons]] $P$ and $Q$ which are [[mutually exclusive propositions|mutually exclusive]], $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ is a [[subsingleton]] and has a choice operator. 
 \end{theorem}
 
 This proof is due to [[Urs Schreiber]] from [here](https://nforum.ncatlab.org/discussion/18354/limited-principle-of-omniscience/?Focus=127196#Comment_127196).
