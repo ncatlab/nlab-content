@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,8 +24,6 @@ $$ \neg\exists{n}\, P(n) \Rightarrow \forall{n}\, \neg{P(n)} ,$$
 which is a theorem of [[intuitionistic logic]]. 
 
 Stated set theoretically, this says that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then if $\neg (\bar{P} = \mathbb{N})$, then $P$ is [[inhabited]], where, $\bar{P}$ is the [[complement]] of $P$.
- 
-More generally, [[Toby Bartels]] has suggested that a [[set]] $S$ may be called _Markovian_ if this principle holds for all [[predicates]] or [[subsets]] on $S$. Every Kuratowski-[[finite set]] is Markovian, for example.
 
 Markov\'s principle is often stated in terms of [[infinite sequences]] of natural numbers, using Greek letters for sequences and Latin letters for individual numbers:
 $$ \forall{\alpha}\, \big(\neg\forall{n}\, (\alpha_n = 0) \Rightarrow \exists{n}\, (\alpha_n \ne 0)\big) .$$
@@ -56,7 +53,7 @@ Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978),
 
 ## Weak Markov\'s Principle
 
-More recently, a weakened form of Markov\'s principle has been identified (first in ([Mandelkern 1988](#Mandelkern))) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
+More recently, a weakened form of Markov\'s principle has been identified (first in ([Mandelkern 1988](#Mandelkern88))) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
 
 $$
 \forall \alpha \, \Big(\forall \beta \, \Big(\neg\neg\exists n \, (\beta(n)=1)\vee \neg\neg\exists n \, \big((\alpha(n)=1)\wedge(\beta(n)=0)\big)\Big)\rightarrow\exists n \, (\alpha(n)=1)\Big).
@@ -69,7 +66,9 @@ Markov\'s principle is equivalent to the assertion that for every [[modulated Ca
 
 The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
-## Choiceless Markov's principle
+## Generalizations
+
+### Choiceless Markov's principle
 
 There is another generalization of Markov's principle defined in [King 2024](#King24), which was suggested to be called **choiceless Markov's principle**. The choiceless Markov's principle states that given a a pair of [[predicates]] $P$ and $Q$ on the [[natural numbers]] $\mathbb{N}$ such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, then if it is not true that for all $x \in \mathbb{N}$, $Q(x)$, then there exists $x \in \mathbb{N}$ such that $P(x)$. 
 $$\forall x \in \mathbb{N}.P(x) \vee Q(x) \Rightarrow (\neg \forall x \in \mathbb{N}.Q(x)) \Rightarrow \exists x \in \mathbb{N}.P(x))$$
@@ -78,6 +77,14 @@ The idea behind the term "choiceless" is that one isn't forced to choose between
 We can also state the principle set-theoretically. The __choiceless Markov's principle__ states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$, then if $\neg (Q = \mathbb{N})$, then $P$ is [[inhabited]]. One gets back the usual Markov's principle if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 The choiceless Markov's principle implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
+
+### Generalizations from the natural numbers to an arbitrary set
+
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of Markov's principle. 
+=--
+
+More generally, [[Toby Bartels]] has suggested that a [[set]] $S$ may be called _Markovian_ if Markov's principle holds for all [[predicates]] or [[subsets]] on $S$. Every Kuratowski-[[finite set]] is Markovian, for example.
 
 ## Related concepts
 
@@ -93,7 +100,7 @@ The choiceless Markov's principle implies the [[analytic Markov's principle]] fo
 
 ## References
 
-* {#Mandelkern02} [[Mark Mandelkern]], _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, doi:[10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202).
+* {#Mandelkern88} [[Mark Mandelkern]], _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, &lbrack;[doi:10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202)&rbrack;.
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
