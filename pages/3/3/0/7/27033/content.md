@@ -28,7 +28,7 @@ $$ (\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x \in \
 
 We can also state the principle set-theoretically. The __limited principle of omniscience__ ($LPO$) states that given a [[subset]] $P \in \mathcal{P}(\mathbb{N})$ of the [[natural numbers]] $\mathbb{N}$, if $P$ is a [[decidable subset]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$), then either $P$ is [[inhabited subset|inhabited]] or $\bar{P} = \mathbb{N}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
-One can equivalently use functions to the [[boolean domain]] instead of [[decidable subsets]]. The __limited principle of omniscience__ states that given any [[function]] $f$ from the [[natural numbers]] $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$. In this case, the limited principle of omniscience is also called **[[excluded middle]] for [[semidecidable truth values]]**, i.e. [[truth values]] of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, or **$\Sigma^0_1$-[[excluded middle]]** ([Diener 2018](#Diener18)) in the sense of the [[arithmetical hierarchy]] in [[computability theory]]. 
+One can equivalently use functions to the [[boolean domain]] instead of [[decidable subsets]]. The __limited principle of omniscience__ states that given any [[function]] $f$ from the [[natural numbers]] $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$. In this case, the limited principle of omniscience is also called **[[excluded middle]] for [[semidecidable truth values]]**, i.e. [[truth values]] of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, or **$\Sigma^0_1$-[[excluded middle]]** ([Diener 2018](#Diener18), [Kawai 2018](#Kawai18)) in the sense of the [[arithmetical hierarchy]] in [[computability theory]]. 
 
 One can also formulate the limited principle of omniscience for natural numbers in terms of [[streams]] of [[booleans]] instead of the [[function set]] $\mathbb{2}^\mathbb{N}$. Let $\mathrm{Stream}(A)$ be the set of streams of the set $A$, with head function $h:\mathrm{Stream}(A) \to A$ and tail function $t:\mathrm{Stream}(A) \to \mathrm{Stream}(A)$. Streams and sequences of any set $A$ are interdefinable with each other: given a stream $f \in \mathrm{Stream}(A)$, the sequence is given by $(h(t^n(f)))_{n \in \mathbb{N}}$, where $t^n$ is the $n$-th functional power of the tail function $t$, and the head and tail functions for the sequence set $A^\mathbb{N}$ are given by $f \mapsto f(0)$ and $f \mapsto (f(n + 1))_{n \in \mathbb{N}}$ respectively. Then the limited principle of omniscience state that given a stream $f \in \mathrm{Stream}(\mathbb{2})$ of booleans, either there exists $n \in \mathbb{N}$ such that $h(t^n(f)) = 1$ or for all $n \in \mathbb{N}$, $h(t^n(f)) = 0$. 
 
@@ -74,10 +74,10 @@ $$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:A} f(x) = 1\right) \vee \lef
 
 $$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\left(\sum_{x:\mathbb{N}} f(x) = 1\right) + \prod_{x:\mathbb{N}} f(x) = 0\right)$$
 
-Let us begin with the equivalence of the various truncated versions of the LPO with the usual untruncated version of the LPO. 
+Let us begin with the equivalence of the various truncated versions of LPO with the usual untruncated version of LPO. 
 
 \begin{theorem}
-The LPO implies the disjunction-untruncated LPO.  
+LPO implies the disjunction-untruncated LPO.  
 \end{theorem}
 
 This proof is due to Urs Schreiber from [here](https://nforum.ncatlab.org/discussion/18354/limited-principle-of-omniscience/?Focus=127196#Comment_127196). 
@@ -135,47 +135,13 @@ LPO and fully untruncated LPO are logically interderivable from each other.
 The converses follow from the fact that by the inference rules of [[propositional truncations]], one has a function $\mathrm{trunc}_P:P \to [P]$ for all types $P$. 
 \end{proof}
 
-## Properties
+## Equivalent statements
+
+There are various results that are equivalent to the limited principle of omniscience. 
 
 \begin{theorem}
 LPO holds if and only if for every function $f:\mathbb{N} \to \mathbb{N}$ from $\mathbb{N}$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $\mathbb{N}$, $f(x) = 0$. 
 \end{theorem}
-
-Now, a [[sigma-complete lattice|$\sigma$-complete lattice]] is a lattice which has all $\mathbb{N}$-indexed joins, a lattice $L$ with a function 
-
-$$\bigvee_{t:\mathbb{N}} (-)(t):(\mathbb{N} \to L) \to L$$
-
-such that for all elements $x \in \mathbb{N}$ and functions $f:\mathbb{N} \to L$, 
-
-$$f(x) \leq \bigvee_{t:\mathbb{N}} f(t)$$
-
-and for all elements $y \in L$ and functions $f:\mathbb{N} \to L$, if $f(x) \leq y$ for all elements $x \in \mathbb{N}$, then 
-
-$$\bigvee_{t:\mathbb{N}} f(t) \leq y$$
-
-and a [[sigma-frame|$\sigma$-frame]] is a [[sigma-complete lattice|$\sigma$-complete lattice]] in which meets distribute over the $\mathbb{N}$-indexed joins: for all elements $x \in L$ and functions $f:v \to L$, 
-
-$$a \wedge \bigvee_{t:\mathbb{N}} f(t) = \bigvee_{t:\mathbb{N}} a \vee f(t)$$
-
-We say that a [[sigma-frame|$\sigma$-frame]] [[homomorphism]] is a lattice homomorphism which also preserves $\mathbb{N}$-indexed joins. 
-
-\begin{theorem}
-LPO holds if and only if the [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]; i.e. the [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] and for every other sigma-frame $L$, [[uniqueness quantifier|there is a unique]] sigma-frame homomorphism from the [[boolean domain]] to $L$. 
-\end{theorem}
-
-\begin{theorem}
-LPO holds if and only if the [[boolean domain]] is the [[initial object|initial]] $\mathbb{N}$-overt $\emptyset$-overt [[dominance]]. 
-\end{theorem}
-
-\begin{proof}
-We can rewrite the limited principle of omniscience for $\mathbb{N}$ in the form of for all functions $f:\mathbb{N} \to \mathbb{2}$, there exists a [[boolean]] $b \in \mathbb{2}$ such that $b = 1$ if and only if $\exists n \in \mathbb{N}, f(n) = 1$. 
-
-By the induction principle of the [[booleans]], the set $\{b \in \mathbb{2} \vert (b = 1) \iff \exists n \in \mathbb{N}, f(n) = 1\}$ has a [[choice operator]] given by a function from the [[subsingleton]] $\{x \in \mathbb{1} \vert \exists b \in \mathbb{2} (b = 1) \iff \exists n \in \mathbb{N}, f(n) = 1\}$ to the set. This means that one can apply choice to get a specified boolean $b \in \mathbb{2}$ for all functions $f:\mathbb{N} \to \mathbb{2}$, which by [[currying]] results in a function $V:\mathbb{2}^\mathbb{N} \to \mathbb{2}$ such that $V(f) = 1$ if and only if $\exists n \in A, f(n) = 1$, meaning that $V$ is closed under $\mathbb{N}$-indexed joins. 
-
-Since the [[booleans]] are a [[subobject|sub]][[lattice]] of the [[frame of truth values]] and the [[booleans]] are a [[dominance]], this implies that the booleans are $\emptyset$-overt, $\mathbb{N}$-overt, and initial, since the initial $\mathbb{N}$-overt dominance is by definition a subset of the [[frame of truth values]] and so coincide with the booleans under the limited principle of omniscience. Since [[existential quantification]] of [[booleans]] distributes over [[meets]] of [[booleans]], the $\sigma$-complete lattice is an $\sigma$-frame, and initiality of the $\sigma$-frame comes from the fact that the booleans are a dominance. 
-
-Conversely, suppose that the [[booleans]] are the initial $\emptyset$-overt, $\mathbb{N}$-overt [[dominance]] or the initial $\sigma$-frame. The [[booleans]] are a [[subobject|sub]]-$\sigma$-complete lattice of the [[frame of truth values]], so we can treat the $\mathbb{N}$-indexed joins $V:\mathbb{2}^\mathbb{N} \to \mathbb{2}$ as [[existential quantification]] over $\mathbb{N}$. Then by the function $V:\mathbb{2}^\mathbb{N} \to \mathbb{2}$ we have that for all functions $f:\mathbb{N} \to \mathbb{2}$, $V(f) = 1$ if and only if $\exists n \in \mathbb{N}, f(n) = 1$, which implies the limited principle of omniscience. 
-\end{proof}
 
 The next statement relate LPO with the axiom that [[tight apartness relation]] on the [[function set]] $\mathbb{2}^\mathbb{N}$ is a [[decidable tight apartness]]. 
 
@@ -195,7 +161,7 @@ Suppose LPO holds. Then for functions $f$ and $g$ from $\mathbb{N}$ to $\mathbb{
 Conversely, assume that $f \# g$ is decidable. Then take $g$ to be the constant function at the boolean $0$, and $f \# \lambda x \in \mathbb{N}.0$ is logically equivalently to $\exists x \in \mathbb{N}.f(x) - 0 = 1$ and thus $\exists x \in \mathbb{N}.f(x) = 1$. Since $f \# g$ is decidable, then $\exists x \in \mathbb{N}.f(x) = 1$ is decidable, which is LPO. 
 \end{proof}
 
-The next two statements relate the LPO with axioms that the [[tight apartness relation]] on certain other [[function sets]] are a [[decidable tight apartness]]. 
+The next two statements relate LPO with axioms that the [[tight apartness relation]] on certain other [[function sets]] are a [[decidable tight apartness]]. 
 
 \begin{theorem}
 More generally, given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, LPO holds if and only if that the [[function set]] $S^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $S^\mathbb{N}$ be defined as 
@@ -209,16 +175,28 @@ LPO holds if and only if the [[function set]] $\mathbb{N}^\mathbb{N}$ has [[deci
 $$f \# g \coloneqq \exists x \in \mathbb{N}.f(x) \neq g(x)$$
 \end{theorem}
 
-### Statements equivalent to LPO
+### In synthetic topology
 
-There are various other results that are equivalent specifically to the limited principle of omniscience. 
-
-#### Real analysis
-
-Next, we have the equivalence of the LPO with the [[analytic LPO]] for various notions of [[real numbers]]. 
+In [[synthetic topology]], let $\Sigma$ denote the set of [[quasidecidable propositions]], which is the smallest set of propositions closed under [[truth]], [[falsehood]], and [[existential quantification]] over the [[natural numbers]], which are $\mathbb{N}$-indexed [[joins]] in the [[frame]] of [[propositions]]. The set of quasidecidable propositions is a [[dominance]] (see [Escardo 2020](#Escardo20)). 
 
 \begin{theorem}
-The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the set of [[Sierpinski semi-decidable truth values]] $\Sigma \subseteq \Omega$. 
+LPO holds if and only if the set of [[quasidecidable propositions]] coincides the [[boolean domain]]. 
+\end{theorem}
+
+\begin{proof}
+We can rewrite the limited principle of omniscience for $\mathbb{N}$ in the form of for all functions $f:\mathbb{N} \to \mathbb{2}$, there exists a [[boolean]] $b \in \mathbb{2}$ such that $b = 1$ if and only if $\exists n \in \mathbb{N}, f(n) = 1$. 
+
+By the induction principle of the [[booleans]], the set $\{b \in \mathbb{2} \vert (b = 1) \iff \exists n \in \mathbb{N}, f(n) = 1\}$ has a [[choice operator]] given by a function from the [[subsingleton]] $\{x \in \mathbb{1} \vert \exists b \in \mathbb{2} (b = 1) \iff \exists n \in \mathbb{N}, f(n) = 1\}$ to the set. This means that one can apply choice to get a specified boolean $b \in \mathbb{2}$ for all functions $f:\mathbb{N} \to \mathbb{2}$, which by [[currying]] results in a function $V:\mathbb{2}^\mathbb{N} \to \mathbb{2}$ such that $V(f) = 1$ if and only if $\exists n \in A, f(n) = 1$, meaning that the [[boolean domain]] is closed under $\mathbb{N}$-indexed joins. Since the [[boolean domain]] is a [[subset]] of the set of quasidecidable propositions, this implies that the boolean domain coincide with the set of quasidecidable propositions. 
+
+Conversely, suppose that the [[booleans]] coincide with the set of quasidecidable propositions. Then we have that the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is a [[boolean]], which implies the limited principle of omniscience. 
+\end{proof}
+
+### Real analysis
+
+Next, we have the equivalence of LPO with the [[analytic LPO]] for various notions of [[real numbers]]. 
+
+\begin{theorem}
+The [[analytic LPO]] for the following sets of real numbers are equivalent to LPO: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the set of [[Sierpinski semi-decidable truth values]] $\Sigma \subseteq \Omega$. 
 \end{theorem}
 
 Let $C$ denote the [[category]] of [[discrete field|discrete]] [[sequentially Cauchy complete]] [[Archimedean ordered fields]]. $C$ is a [[groupoid]] and a [[subsingleton]] [[principle of equivalence|up to]] [[uniqueness quantifier|unique]] [[isomorphism]]: for every two [[objects]] $R \in C$ and $R' \in C$ there exists a unique [[morphism]] between $R$ and $R'$ which is an [[isomorphism]]. 
@@ -229,23 +207,13 @@ LPO holds if and only if there is an object $\mathbb{R} \in C$, which will neces
 
 There are other equivalent statements from [[real analysis]]:
 
-\begin{theorem}
-[[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if LPO holds. 
-\end{theorem}
+* The [[Bolzano-Weierstrass theorem]] states that the [[unit interval]] is [[sequentially compact space|sequentially compact]], and it holds if and only if LPO holds, see [Mandelkern 1988](#Mandelkern88). 
 
-\begin{theorem}
-Every [[Cauchy real number]] is a [[rational number]] or has an strictly non-repeating base $b$ radix expansion if and only if LPO holds. 
-\end{theorem}
+* The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff LPO holds; see [Feldman (2010)](#Mehkeri10). 
 
-\begin{theorem}
-The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff LPO holds. 
-\end{theorem}
+* Every [[Cauchy real number]] is a [[rational number]] or has an strictly non-repeating base $b$ radix expansion if and only if LPO holds. 
 
-\begin{proof}
-See [Feldman (2010)](#Mehkeri10). 
-\end{proof}
-
-#### Other statements
+### Other statements
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] if and only if LPO holds. 
 
@@ -253,9 +221,9 @@ See [Feldman (2010)](#Mehkeri10).
 
 * The [[ring]] of [[rational numbers|rational]] [[power series]] $\mathbb{Q}[[x]]$ being a [[discrete integral domain]] is equivalent to LPO. Similarly, the [[Heyting field]] of [[rational numbers|rational]] [[Laurent series]] $\mathbb{Q}((x))$ being a [[discrete field]] is equivalent to LPO. 
 
-### Statements implied by LPO
+## Consequences
 
-There are various statements that are implied by LPO. 
+There are various statements that are consequences of LPO. 
 
 \begin{theorem}
 [[WLPO]] follows from LPO, but not conversely. 
@@ -279,13 +247,23 @@ as $P$ is decidable.
 
 See [Diener 2018](#Diener18) for more statements that are implied by LPO. 
 
-### Statements that imply LPO
+## Statements that imply LPO
 
-There are various other statements that imply LPO, some of which are listed in this section. See [Diener 2018](#Diener18) for more statements that imply LPO. 
+There are various other statements that imply LPO, some of which are listed in this section. 
+
+* [[full bar induction]] implies LPO; see [Troelstra & van Dalen 1988](#TvD88) and [Kawai 2018](#Kawai18)
+
+There are also some results from constructive [[ordinal]] theory:
+
+* If every pair of [[ordinals]] $\alpha$ and $\beta$ has a binary [[meet]], then LPO holds; this is Proposition 5.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
+
+* If binary [[joins]] exist for non-successor [[ordinals]] $\alpha$ and $\beta$, then LPO holds; this is Proposition 6.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
+
+See [Diener 2018](#Diener18) for more statements that imply LPO. 
 
 #### Universes and models of foundations
 
-The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the LPO: 
+The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies LPO: 
 
 \begin{theorem}
 Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$.
@@ -296,7 +274,7 @@ One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and
 \end{proof} 
 
 \begin{theorem}
-The existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the LPO.
+The existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies LPO.
 \end{theorem}
 
 \begin{proof}
@@ -304,7 +282,7 @@ The hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$
 \end{proof}
 
 \begin{theorem}
-In [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the LPO. 
+In [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies LPO. 
 \end{theorem}
 
 \begin{proof}
@@ -313,9 +291,9 @@ One can construct an element $\mathbb{R}:U$ representing the $U$-small type of r
 
 Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
-#### Choice principles
+#### In synthetic topology
 
-Let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
+In [[synthetic topology]], let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
 
 \begin{theorem}
 The [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] implies LPO. 
@@ -335,30 +313,6 @@ The [[axiom of choice]] for $\Sigma$-open entire relations implies LPO.
 
 \begin{proof}
 The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies the [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] stated above, which in turn implies LPO. 
-\end{proof}
-
-\begin{theorem}
-The [[full bar theorem]] implies the LPO
-\end{theorem}
-
-#### Constructive ordinals
-
-There are also some results from constructive [[ordinal]] theory:
-
-\begin{theorem}
-If every pair of [[ordinals]] $\alpha$ and $\beta$ has a binary [[meet]], then LPO holds. 
-\end{theorem}
-
-\begin{proof}
-See the proof of Proposition 5.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
-\end{proof}
-
-\begin{theorem}
-If binary [[joins]] exist for non-successor [[ordinals]] $\alpha$ and $\beta$, then LPO holds. 
-\end{theorem}
-
-\begin{proof}
-See the proof of Proposition 6.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
 \end{proof}
 
 ### Statements inconsistent with LPO
@@ -485,6 +439,8 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Mandelkern88} [[Mark Mandelkern]]: *Limited Omniscience and the Bolzano-Weierstrass Principle*, Bulletin of the London Mathematical Society **20** 4 (1988) 319--320, &lbrack;[doi:10.1112/blms/20.4.319](https://doi.org/10.1112/blms/20.4.319), [pdf](https://www.zianet.com/mandelkern/mandelkern_bwp.pdf)&rbrack;
 
+* {#TvD88} [[Anne Sjerp Troelstra]], [[Dirk van Dalen]]: *Constructivism in Mathematics -- An introduction*, Volume I, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
+
 * {#Richman91} [[Fred Richman]], *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
 
 * {#Ishihara06} [[Hajime Ishihara]]: _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS **6** (2006) &lbrack;[doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406), [pdf](https://philosophiascientiae.revues.org/pdf/406)&rbrack;
@@ -495,9 +451,13 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
+* {#Kawai18} [[Tatsuji Kawai]], *Principles of bar induction and continuity on Baire space* &lbrack;[arXiv:1808.04082](https://arxiv.org/abs/1808.04082)&rbrack;
+
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 * {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
+
+* {#Escardo20} [[Martin Escardo]]. *Quasidecidable propositions*. [[Agda]] code with comments, 2020. ([URL](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)).
 
 * {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
 
