@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -73,6 +71,9 @@ But closely related discussion has historically been had on the possibility of i
 
 [[!include matching KN-black holes to elementary particles -- references]]
 
+See also:
+
+* Bing-Yang Han, H. Lu: *Black $p$-brane Thermodynamics without Constructing Solutions* &lbrack;[arXiv:2606.18344](https://arxiv.org/abs/2606.18344)&rbrack;
 
 
 
