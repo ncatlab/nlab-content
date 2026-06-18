@@ -25,7 +25,7 @@
 
 ## Idea
 
-Phoa's principle is a principle used to axiomatize [[Sierpinski space]] in [[synthetic topology]] and [[synthetic domain theory]]. 
+*Phoa's principle* is a principle used to axiomatize [[Sierpinski space]] in [[synthetic topology]] and [[synthetic domain theory]]. 
 
 Phoa's principle is named after [[Wesley Phoa]]. 
 
