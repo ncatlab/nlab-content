@@ -27,9 +27,9 @@ Examples of principles of omniscience include
 
   * more generally, an [[exhaustible set]], for predicates on a set other than the [[natural numbers]]
 
-* [[weak limited principle of omniscience]], a weak form of [[weak excluded middle]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
+* [[weak limited principle of omniscience]], a weak form of [[weak excluded middle]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] the [[natural numbers]]. 
 
-* [[lesser limited principle of omniscience]], a weak form of [[de Morgan's law]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
+* [[lesser limited principle of omniscience]], a weak form of [[de Morgan's law]] applied to the [[existential quantifier]] for two [[decidable]] [[predicates]] on [[natural numbers]]. 
 
 * [[Markov's principle]], a weak form of the [[double negation law]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on the [[natural numbers]]
 
