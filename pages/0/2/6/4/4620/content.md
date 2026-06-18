@@ -31,9 +31,9 @@ Examples of principles of omniscience include
 
 * [[lesser limited principle of omniscience]], a weak form of [[de Morgan's law]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
 
-* [[Markov's principle]], a weak form of the [[double negation law]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on a given [[domain of discourse]]. 
+* [[Markov's principle]], a weak form of the [[double negation law]] applied to the [[existential quantifier]] for a [[decidable]] [[predicate]] on the [[natural numbers]]
 
-Bishop's principles of omniscience take the [[domain of discourse]] to be the [[natural numbers]]. However, it is possible to use some other domain of discourse to get a different principle of omniscience. 
+  * more generally, [[Toby Bartels]] has suggested the name [[Markovian set]] for predicates on a set other than the [[natural numbers]] satisfying [[Markov's principle]]
 
 There are also the [[analytic principles of omniscience]], which are versions of Bishop's principles of omniscience that are used in [[real analysis]], including
 
