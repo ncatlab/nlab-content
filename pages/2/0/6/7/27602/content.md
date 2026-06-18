@@ -42,7 +42,7 @@ $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 
 * In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. 
 
-* In [[synthetic domain theory]], Phoa's principle holds for a [[dominance]] $\Omega$. 
+* In [[synthetic domain theory]] and [[synthetic topology]], Phoa's principle holds for a [[dominance]] $\Omega$. 
 
 ## Related concepts
 
