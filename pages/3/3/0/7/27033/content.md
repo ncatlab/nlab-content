@@ -361,18 +361,6 @@ If binary [[joins]] exist for non-successor [[ordinals]] $\alpha$ and $\beta$, t
 See the proof of Proposition 6.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
 \end{proof}
 
-#### Cubical objects
-
-In [[triangulated type theory]], certain properties of the [[directed interval]] imply the LPO. 
-
-\begin{theorem}
-Suppose that the [[directed interval]] $\mathbb{I}$ is a [[sigma-frame|$\sigma$-frame]]. Then LPO holds. 
-\end{theorem}
-
-\begin{proof}
-Suppose that $\mathbb{I}$ is a [[sigma-frame|$\sigma$-frame]]. Then the [[discrete]] [[coreflection]] $\flat \mathbb{I}$ is also a $\sigma$-frame, and since $\flat \mathbb{I}$ is in [[bijection]] with the [[boolean domain]] in triangulated type theory, this implies LPO in the discrete mode of simplicial type theory. Triangulated type theory satisfies the [[axiom of cohesion|axiom of $\mathbb{I}$-coheson]]: every discrete type is $\mathbb{I}$-null, which implies the [[axiom of punctual cohesion]] because $\mathbb{I}$ is a [[pointed type]]. Finally, by an adaptation of theorem 8.29 of [Shulman 2018](#Shulman18), punctual cohesion and LPO in the discrete mode implies LPO in the non-discrete mode. 
-\end{proof}
-
 ### Statements inconsistent with LPO
 
 There are various statements in mathematics which are inconsistent with LPO. 
@@ -421,14 +409,6 @@ is an [[isomorphism]]
 
 \begin{proof}
 Synthetic quasi-coherence for the [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with LPO.  
-\end{proof}
-
-\begin{corollary}
-The [[directed interval]] $\mathbb{I}$ is not the [[initial sigma-frame|initial $\sigma$-frame]] in [[triangulated type theory]]. 
-\end{corollary}
-
-\begin{proof}
-The directed interval $\mathbb{I}$ satisfies [[Phoa's principle]] in [[triangulated type theory]], while the directed interval $\mathbb{I}$ being a $\sigma$-frame implies LPO as proven above. LPO then implies that the [[initial sigma-frame |initial$\sigma$-frame]] $\Sigma$ is the [[boolean domain]], and it is inconsistent for the boolean domain to satisfy [[Phoa's principle]] because of the [[negation]] [[endofunction]] on the boolean domain. 
 \end{proof}
 
 \begin{theorem}
