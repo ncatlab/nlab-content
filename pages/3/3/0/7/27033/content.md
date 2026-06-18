@@ -80,8 +80,22 @@ Let us begin with the equivalence of the various truncated versions of the LPO w
 The LPO implies the disjunction-untruncated LPO.  
 \end{theorem}
 
+This proof is due to Urs Schreiber from [here](https://nforum.ncatlab.org/discussion/18354/limited-principle-of-omniscience/?Focus=127196#Comment_127196). 
+
 \begin{proof}
-Since any propositions $P$ and its negation $\neg P$ are [[mutually exclusive propositions|mutually exclusive]], the [[sum type]] $P + \neg P$ has a [[choice operator]], because $P$ and $\neg P$ being mutually exclusive implies that if the [[disjunction]] $P \vee Q$ holds, then [[exclusive disjunction]] holds: i.e. exactly one of $P$ and $\neg P$ holds. This is represented in dependent type theory by the sum type $P + \neg P$ being a [[contractible type]] $\mathrm{isContr}(P + \neg P)$, which by definition allows one to construct an element of $P + \neg P$. For $P$ being the [[existential quantifier]] $\exists n:\mathbb{N}.f(n) = 1$, $P \vee \neg P$ is truncated LPO while $P + \neg P$ is precisely the disjunction untruncated LPO. 
+Let $f:\mathbb{N} \to \mathbb{2}$ be a sequence of booleans. We define the following types
+
+$$P \coloneqq \exists n:\mathbb{N}.f(n) = 1 \qquad Q \coloneqq \prod_{n:\mathbb{N}} f(n) = 0$$
+
+The fully truncated LPO is thus the statement $[P + Q]$, while the disjunction-untruncated LPO is the statement $P + Q$. 
+
+Both $P$ and $Q$ are mere propositions, $P$ by definition of [[propositional truncation]] while $Q$ by [[weak function extensionality]] and the fact that equality on the booleans is a [[mere proposition]]. 
+
+Secondly, we construct a function $(P \times Q) \to \emptyset$. Namely, suppose we have an element of $Q$, meaning an element that $\prod_{n:\mathbb{N}} f(n) = 0$. We wish to map $P$ to $\emptyset$. Because $\emptyset$ is a [[mere proposition]], we may apply the [[universal property]] of [[propositional truncation]] to eliminate out of $P$. This means we can legitimately assume we have a specific pair $(n, p)$ where $p:f(n) = 1$. Applying our element of $Q$ to $n$ yields a proof that $f(n) = 0$. Thus, $1 = 0$ in the [[boolean domain]], which is a contradiction yielding an element of $\emptyset$. 
+
+Now, every given any two [[mere propositions]] $P$ and $Q$ with a function $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ has a [[choice operator]] $[P + Q] \to (P + Q)$; see proof at the article [[choice operator]]. By applying the choice operator to our premise, the standard LPO provided by the element of $[P + Q]$, we extract a valid element of $P + Q$. 
+
+This established the disjunction-untruncated LPO. 
 \end{proof}
 
 \begin{theorem}
