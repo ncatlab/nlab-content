@@ -43,7 +43,7 @@ These two structures gives rise to
      \mathcal{O} : \mathcal{G} \to \mathcal{X}
    $$
 
-   that send each obect $U\in \mathcal{G}$ to a $U$-valued [[structure sheaf]].
+   that send each object $U\in \mathcal{G}$ to a $U$-valued [[structure sheaf]].
 
 Using the additional structure of a site on $\mathcal{G}$ allows to identify those structure sheaves $\mathcal{O}$ that are **local** in that they respect coverings. This constitutes a generalized notion of [[locally ringed topos]]es called $\mathcal{G}$-[[structured (∞,1)-topos]]es. Equivalently these local structure sheaves are given by [[(∞,1)-geometric morphism]]s
 $ \mathcal{X} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to} \mathbf{H} = Sh(\mathcal{G}) $ to the [[big topos]] over $\mathcal{G}$.
