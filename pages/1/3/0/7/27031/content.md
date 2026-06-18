@@ -14,16 +14,14 @@
 
 ## Definition
 
-The **lesser limited principle of omniscience** ($LLPO$) is a [[principle of omniscience]] which states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] is false, then one of their separate existential quantifications is false.  That is,
-$$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x, P(x) \wedge \exists y, Q(y)) \Rightarrow \neg(\exists x, P(x)) \vee \neg(\exists y, Q(y)) ,$$
+The **lesser limited principle of omniscience** ($LLPO$) is a [[principle of omniscience]] which states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] on the [[natural numbers]] is false, then one of their separate existential quantifications is false. That is,
+$$ (\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in \mathbb{N}, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in \mathbb{N}, P(x) \wedge \exists y \in \mathbb{N}, Q(y)) \Rightarrow \neg(\exists x \in \mathbb{N}, P(x)) \vee \neg(\exists y \in \mathbb{N}, Q(y)) ,$$
 or equivalently
-$$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x, P(x) \wedge \exists y, Q(y)) \Rightarrow (\forall x, \neg{P(x)}) \vee (\forall y, \neg{Q(y)}) .$$
+$$ (\forall x \in \mathbb{N}, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in \mathbb{N}, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in \mathbb{N}, P(x) \wedge \exists y \in \mathbb{N}, Q(y)) \Rightarrow (\forall x \in \mathbb{N}, \neg{P(x)}) \vee (\forall y \in \mathbb{N}, \neg{Q(y)}) .$$
 
-If one takes the domains of quantification to be subsingletons, one get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; conversely, $DM$ implies $LLPO$ (over any domain). Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$). 
+We can also state the principle set-theoretically. The __lesser limited principle of omniscience__ (LLPO) states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P$ and $Q$ are [[decidable subsets]] of $\mathbb{N}$ ($P \cup \bar{P} = \mathbb{N}$, $Q \cup \bar{Q} = \mathbb{N}$), then if it is not true that both $P$ and $Q$ are [[inhabited subsets]] of $\mathbb{N}$, then either $\bar{P} = \mathbb{N}$ or $\bar{Q} = \mathbb{N}$, where $\bar{P}$ and $\bar{Q}$ are the [[complements]] of $P$ and $Q$ respectively. 
 
-We can also state the principle set-theoretically, with explicit reference to the domain of quantification. Given a [[set]] $A$, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P$ and $Q$ are [[decidable subsets]] of $A$ ($P \cup \bar{P} = A$, $Q \cup \bar{Q} = A$), then if it is not true that both $P$ and $Q$ are [[inhabited subsets]] of $A$, then either $\bar{P} = A$ or $\bar{Q} = A$, where $\bar{P}$ and $\bar{Q}$ are the [[complements]] of $P$ and $Q$ respectively. 
-
-One can also use functions to the [[boolean domain]] instead of [[decidable subsets]]: the **lesser limited principle of omniscience for $A$** ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.
+One can also use functions to the [[boolean domain]] instead of [[decidable subsets]]: the **lesser limited principle of omniscience** (LLPO) states that, given functions $f, g\colon \mathbb{N} \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$. 
 
 ## In the internal logic
 
@@ -61,11 +59,9 @@ $$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
 
 * An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
 
-The **internal LLPO** for a family of sets $(A_z)_{z \in I}$ is the LLPO for each $A_z$ stated in the internal logic of the set theory:
+The **internal LLPO** in the set theory states that:
 
-* The internal LPO for a family of sets $(A_z)_{z \in I}$ holds only for the internal predicates $i:P \hookrightarrow A_z$ which comes with an internal predicate $j:Q \hookrightarrow A_z$ such that $i^*(x) = \neg j^*(x)$ for all $x \in A_z$. 
-
-In particular, the internal LLPO for the family of all sets in $U$ is [[weak excluded middle]] in $U$. 
+* The internal LLPO holds only for the internal predicates $i:P \hookrightarrow \mathbb{N}$ which comes with an internal predicate $j:Q \hookrightarrow \mathbb{N}$ such that $i^*(x) = \neg j^*(x)$ for all $x \in \mathbb{N}$. 
 
 The internal LLPO, like all internal versions of axioms, are weaker than the external version of LLPO, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
@@ -75,19 +71,19 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $\mathbb{S}^1$. (Constructively, we take $\mathbb{S}^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
-* The [[analytic LLPO]] for the [[Cauchy real numbers]] is equivalent to the LLPO for the [[natural numbers]].
+* The [[analytic LLPO]] for the [[Cauchy real numbers]] is equivalent to the LLPO.
 
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
 
-* The [[limited principle of omniscience]] $\mathrm{LPO}_\mathbb{N}$ and the [[weak limited principle of omniscience]] $\mathrm{WLPO}_\mathbb{N}$ for [[natural numbers]] imply $\mathrm{LLPO}_\mathbb{N}$, but not conversely. 
+* The [[limited principle of omniscience]] (LPO) and the [[weak limited principle of omniscience]] (WLPO) for [[natural numbers]] imply LLPO, but not conversely. 
 
 * The [[lesser limited principles of omniscience]] implies that every [[pointwise continuous function]] from the Cauchy [[unit interval]] to the Cauchy [[real numbers]] is a [[uniformly continuous function]]. See section 6.1 of [Diener (2018)](#Diener18). 
 
-* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]]. See [Swan (2024)](#Swan24). 
+* In the presence of the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, 2}$, [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff LLPO holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which LLPO holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]]. See [Swan (2024)](#Swan24). 
 
-* In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
+* In the presence of [[countable choice]], LLPO is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
 
 ### Untruncated LLPO in dependent type theory
 
@@ -103,15 +99,30 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 
 * The (analytic) LLPO holds in Johnstone's [[topological topos]], as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
-## Choiceless lesser limited principle of omniscience
+## Generalizations
 
-There is a generalization of the lesser limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless lesser limited principle of omniscience**. The choiceless lesser limited principle of omniscience for a set $A$ states that given a set $A$, a pair of [[predicates]] $P$ and $Q$ such that $P(x) \vee Q(x)$ holds for all $x \in A$, and a pair of [[predicates]] $R$ and $S$ such that $R(x) \vee S(x)$ holds for all $x \in A$, then if it is not true that there exists $x \in A$ such that $P(x)$ and there exists $x \in A$ such that $R(x)$ hold, then either for all $x \in A$, $Q(x)$ or for all $x \in A$, $S(x)$. 
-$$((\forall x \in A.P(x) \vee Q(x)) \wedge (\forall x \in A.R(x) \vee S(x))) \Rightarrow \neg (\exists x \in A.P(x) \wedge \exists x \in A.R(x)) \Rightarrow ((\forall x \in A.Q(x)) \vee (\forall x \in A.S(x)))$$
-The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ or between $R(x)$ or $S(x)$ in this version of the lesser limited principle of omniscience. One gets back the usual lesser limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in A$ and $R(x)$ and $S(x)$ are [[mutually exclusive propositions]] for all $x \in A$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in A$ and $S(x)$ [[if and only if]] $\neg R(x)$ for all $x \in A$. 
+### Choiceless lesser limited principle of omniscience
 
-We can also state the principle set-theoretically, with explicit reference to the domain of quantification. Given a [[set]] $A$, the __choiceless lesser limited principle of omniscience for $A$__ states that given [[subsets]] $P, Q, R, S \in \mathcal{P}(A)$, if $P \cup Q = A$ and $R \cup S = A$), then if it is not true that both $P$ and $R$ are [[inhabited subsets]] of $A$, then either $Q = A$ or $S = A$. One gets back the usual lesser limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$ and $R$ and $S$ are [[disjoint subsets]] $R \cap S = \emptyset$, from which $Q = \bar{P}$ and $S = \bar{R}$, where $\bar{P}$ and $\bar{S}$ are the [[complements]] of $P$ and $S$ respectively. 
+There is a generalization of the lesser limited principle of omniscience defined in [King 2024](#King24), which was suggested to be called the **choiceless lesser limited principle of omniscience**. The choiceless lesser limited principle of omniscience states that given a pair of [[predicates]] $P$ and $Q$ on the [[natural numbers]] such that $P(x) \vee Q(x)$ holds for all $x \in \mathbb{N}$, and a pair of [[predicates]] $R$ and $S$ such that $R(x) \vee S(x)$ holds for all $x \in \mathbb{N}$, then if it is not true that there exists $x \in \mathbb{N}$ such that $P(x)$ and there exists $x \in \mathbb{N}$ such that $R(x)$ hold, then either for all $x \in \mathbb{N}$, $Q(x)$ or for all $x \in \mathbb{N}$, $S(x)$. 
+$$((\forall x \in \mathbb{N}.P(x) \vee Q(x)) \wedge (\forall x \in \mathbb{N}.R(x) \vee S(x))) \Rightarrow \neg (\exists x \in \mathbb{N}.P(x) \wedge \exists x \in \mathbb{N}.R(x)) \Rightarrow ((\forall x \in \mathbb{N}.Q(x)) \vee (\forall x \in \mathbb{N}.S(x)))$$
+The idea behind the term "choiceless" is that one isn't forced to choose between $P(x)$ or $Q(x)$ or between $R(x)$ or $S(x)$ in this version of the lesser limited principle of omniscience. One gets back the usual lesser limited principle of omniscience if $P(x)$ and $Q(x)$ are [[mutually exclusive propositions]] for all $x \in \mathbb{N}$ and $R(x)$ and $S(x)$ are [[mutually exclusive propositions]] for all $x \in \mathbb{N}$, from which $Q(x)$ [[if and only if]] $\neg P(x)$ for all $x \in \mathbb{N}$ and $S(x)$ [[if and only if]] $\neg R(x)$ for all $x \in \mathbb{N}$. 
 
-The choiceless lesser limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic lesser limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24).
+We can also state the principle set-theoretically. The __choiceless lesser limited principle of omniscience__ states that given [[subsets]] $P, Q, R, S \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$ and $R \cup S = \mathbb{N}$), then if it is not true that both $P$ and $R$ are [[inhabited subsets]] of $\mathbb{N}$, then either $Q = \mathbb{N}$ or $S = \mathbb{N}$. One gets back the usual lesser limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$ and $R$ and $S$ are [[disjoint subsets]] $R \cap S = \emptyset$, from which $Q = \bar{P}$ and $S = \bar{R}$, where $\bar{P}$ and $\bar{S}$ are the [[complements]] of $P$ and $S$ respectively. 
+
+The choiceless lesser limited principle of omniscience implies the [[analytic lesser limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24).
+
+### Generalizing from the natural numbers to an arbitrary set
+
+One can generalize from the natural numbers $\mathbb{N}$ to any arbitrary set $A$. The **lesser limited principle of omniscience for the set $A$** ($LLPO_A$) is a [[principle of omniscience]] which states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] is false, then one of their separate existential quantifications is false.  That is,
+$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in A, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in A, P(x) \wedge \exists y \in A, Q(y)) \Rightarrow \neg(\exists x \in A, P(x)) \vee \neg(\exists y \in A, Q(y)) ,$$
+or equivalently
+$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in A, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in A, P(x) \wedge \exists y \in A, Q(y)) \Rightarrow (\forall x \in A, \neg{P(x)}) \vee (\forall y \in A, \neg{Q(y)}) .$$
+
+If one takes the sets $A$ to be subsingletons, one get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; conversely, $DM$ implies $LLPO$ (over any domain). Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$). 
+
+We can also state the principle set-theoretically. Given a [[set]] $A$, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P$ and $Q$ are [[decidable subsets]] of $A$ ($P \cup \bar{P} = A$, $Q \cup \bar{Q} = A$), then if it is not true that both $P$ and $Q$ are [[inhabited subsets]] of $A$, then either $\bar{P} = A$ or $\bar{Q} = A$, where $\bar{P}$ and $\bar{Q}$ are the [[complements]] of $P$ and $Q$ respectively. 
+
+One can also use functions to the [[boolean domain]] instead of [[decidable subsets]]: the **lesser limited principle of omniscience for $A$** ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.
 
 ## Related concepts
 
