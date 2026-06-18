@@ -151,11 +151,11 @@ There are also some results from constructive [[ordinal]] theory:
 The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies LPO: 
 
 \begin{theorem}
-Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$.
+The existence of a model $\mathcal{V}$ of bounded Zermelo set theory implies LPO.
 \end{theorem}
 
 \begin{proof}
-One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply LPO for the entire foundations.
+Inside $\mathcal{V}$ one can define a [[pure set]] $\mathbb{R}$ in $\mathcal{V}$ which represents the [[real numbers]], and then collect all the pure sets $s$ of $\mathbb{R}$ into a set in the external [[foundations of mathematics]]. The resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply LPO for the entire foundations.
 \end{proof} 
 
 \begin{theorem}
@@ -163,7 +163,7 @@ The existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean 
 \end{theorem}
 
 \begin{proof}
-The hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies LPO for the entire foundations. 
+The hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies LPO for the entire foundations. 
 \end{proof}
 
 \begin{theorem}
