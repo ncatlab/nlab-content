@@ -447,52 +447,6 @@ See [Diener 2018](#Diener18) for more statements that are inconsistent with LPO.
 
 * It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer (2011)](#Bauer11). 
 
-## In the internal logic
-
-In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
-
-* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in A$ and $y \in A$, $x = y$. 
-
-* The internal proposition *[[true]]* is a [[singleton]] $\top$. 
-
-* The internal proposition *[[false]]* is the [[empty set]]
-
-* The internal conjunction of two internal propositions $P$ and $Q$ is the [[cartesian product]] $P \times Q$ of $P$ and $Q$. 
-
-* The internal disjunction of two internal propositions $P$ and $Q$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_{P \uplus Q}:P \uplus Q \to 1$ from the [[disjoint union]] of $P$ and $Q$ to the [[singleton]] $\top$. 
-
-$$P \vee Q = \mathrm{im}(!_{P \uplus Q})$$
-
-* The internal implication of two internal propositions $P$ and $Q$ is the [[function set]] $P \to Q$ between $P$ and $Q$. 
-
-* The internal negation of an internal proposition $P$ is the function set from $P$ to the [[empty set]]
-
-$$\neg P = P \to \emptyset$$
-
-* An internal proposition $P$ is a [[decidable proposition]] if it comes with a function $\chi_P:P \to 2$ from $P$ to the [[boolean domain]] $2$. 
-
-* An *internal predicate* on a set $A$ is a [[set]] $P$ with [[injection]] $i:P \hookrightarrow A$, whose family of propositions indexed by $x \in A$ is represented by the [[preimages]] $i^*(x)$.
-
-* The internal [[existential quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_P:P \to \top$ into the singleton $\top$.
-
-$$\exists_A P = \mathrm{im}(!_P)$$
-
-* The internal [[universal quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[dependent product]] of the preimages
- 
-$$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
-
-* An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
-
-Then the **internal LPO** says that:
-
-* For any internal predicate $i:P \hookrightarrow \mathbb{N}$, if there is a function $\chi_P:\mathbb{N} \to 2$, then the internal existential quantification of $P$, $\exists_{\mathbb{N}} P = \im(!_P)$ has a function $(\exists_{\mathbb{N}} P) \to 2$ into the boolean domain. 
-
-or equivalently, as
-
-* For any function $a:\mathbb{N} \to 2$, the internal existential quantification of $P = \{x \in \mathbb{N} \vert a(x) = 1\}$, $\exists_{\mathbb{N}} P = \im(!_P)$ has a function $(\exists_{\mathbb{N}} P) \to 2$ into the boolean domain. 
-
-The internal versions of the limited principles of omniscience, like all internal versions of axioms, are weaker than the external version of the limited principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in \mathbb{N} \vdash P(x)$ to an internal predicate $\{x \in \mathbb{N} \vert P(x)\} \hookrightarrow \mathbb{N}$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
-
 ## Generalizations
 
 ### Choiceless limited principle of omniscience
@@ -606,10 +560,6 @@ These two references call the limited principle of omniscience simply by the ter
 [[!redirects affine LPO]]
 [[!redirects affine limited principle of omniscience]]
 [[!redirects affine limited principles of omniscience]]
-
-[[!redirects internal LPO]]
-[[!redirects internal limited principle of omniscience]]
-[[!redirects internal limited principles of omniscience]]
 
 [[!redirects truncated LPO]]
 [[!redirects truncated limited principle of omniscience]]
