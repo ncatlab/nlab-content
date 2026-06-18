@@ -9,9 +9,9 @@
 =--
 =--
 
-# The intermediate value theorem
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -194,12 +194,19 @@ The intermediate value theorem is provable in [[toposes]] other than the [[categ
 
 ## References
 
-* [[Peter Schuster]]; Unique existence, approximate solutions,
-and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7).
+Early rigorous proof of the intermediate value theorem, using (and introducing for this purpose) what is now called the [[Bolzano-Weierstrass theorem]]:
+
+* [[Bernard Bolzano]]: *Rein analytischer Beweis des Lehrsatzes, dass zwischen je zwey Werthen, die ein entgegengesetztes Resultat gewähren, wenigstens eine reelle Wurzel der Gleichung liege*, Gottlieb Haase, Prague (1817) \[<a href="https://eudml.org/doc/202403">eudml:202403</a>, [dml.cz:400016](https://dml.cz/handle/10338.dmlcz/400016), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/400016/Bolzano_24-1817-1_1.pdf), [[Bolzano-1817.pdf|pdf:file]]\]
+
+
+See also:
+
+* Peter Schuster: *Unique existence, approximate solutions,
+and countable choice* [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7).
 
 * Matt F.; answer to Approximate intermediate value theorem in pure constructive mathematics; MathOverflow; [web](http://mathoverflow.net/q/255371).
 
-* {#Frank20} [[Matthew Frank]], _Interpolating Between Choices for the Approximate Intermediate Value Theorem_ ([arxiv:1701.02227](https://arxiv.org/abs/1701.02227)), Logical Methods in Computer Science, July 14, 2020, Volume 16, Issue 3 - [doi:10.23638/LMCS-16(3:5)2020](https://doi.org/10.23638/LMCS-16%283:5%292020)
+* {#Frank20} Matthew Frank: _Interpolating Between Choices for the Approximate Intermediate Value Theorem_ ([arxiv:1701.02227](https://arxiv.org/abs/1701.02227)), Logical Methods in Computer Science, July 14, 2020, Volume 16, Issue 3 - [doi:10.23638/LMCS-16(3:5)2020](https://doi.org/10.23638/LMCS-16%283:5%292020)
 
 * [[Paul Taylor]]; The intermediate value theorem; A lambda calculus for real analysis, 14; [web](http://www.paultaylor.eu/ASD/lamcra/asdivt).
 
