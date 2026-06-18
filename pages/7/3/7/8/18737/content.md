@@ -91,7 +91,7 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 Introductory lecture notes:
 
-* {#Mortberg19} [[Anders Mörtberg]], _Cubical methods in HoTT/UF_, 2019 ([doi:10.1017/S096012952100311](https://doi.org/10.1017/S0960129521000311))
+* {#Mortberg19} [[Anders Mörtberg]], _Cubical methods in HoTT/UF_, 2019 ([doi:10.1017/S0960129521000311](https://doi.org/10.1017/S0960129521000311))
 
 Exposition in view of [[synthetic homotopy theory]]:
 
