@@ -28,9 +28,8 @@ The term _S-duality_ can mean two different things:
 
 --
 
-#Contents#
-* tabe of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -265,16 +264,23 @@ On an [[algorithm]] for constructing [[S-duality|S-dual]] [[quiver gauge theorie
 
 The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type II superstring theory]] goes back to
 
-* [[John Schwarz]], [[Ashoke Sen]], _Duality Symmetries Of $4D$ Heterotic Strings_, Phys. Lett. 312B (1993) 105-114, 
+* [[John Schwarz]], [[Ashoke Sen]]: _Duality Symmetries Of $4D$ Heterotic Strings_, Phys. Lett. B **312** (1993) 105--114 \[<a href="http://doi.org/10.1016/0370-2693(93)90495-4">doi:10.1016/0370-2693(93)90495-4</a>, [arXiv:hep-th/9305185](https://arxiv.org/abs/hep-th/9305185)\] 
 
-* [[Ashoke Sen]], _Dyon - Monopole Bound States, Self-Dual Harmonic Forms on the Multi-Monopole Moduli Space, and $SL(2,\mathbb{Z})$ Invariance in String Theory_ ([arXiv:hep-th/9402032](http://arxiv.org/abs/hep-th/9402032))
+* [[Ashoke Sen]]: _Dyon - Monopole Bound States, Self-Dual Harmonic Forms on the Multi-Monopole Moduli Space, and $SL(2,\mathbb{Z})$ Invariance in String Theory_ &lbrack;[arXiv:hep-th/9402032](http://arxiv.org/abs/hep-th/9402032)&rbrack;
 
 
-_Duality Symmetric Actions_, Nucl. Phys. B411 (1994) 35-63 ([arXiv:hep-th/9304154](http://arxiv.org/abs/hep-th/9304154))
+* [[John H. Schwarz]], [[Ashoke Sen]]: _Duality Symmetric Actions_, Nucl. Phys. B **411** (1994) 35--63 &lbrack;[arXiv:hep-th/9304154](http://arxiv.org/abs/hep-th/9304154)&rbrack;
 
-* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl. Phys. B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl. Phys. B438:109-137 (1995) &lbrack;[arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167)&rbrack;
 
 * [[John Schwarz]], _An $SL(2,\mathbb{Z})$ Multiplet of Type IIB Superstrings_, Phys.Lett. B360 (1995) 13-18; Erratum-ibid. B364 (1995) 252 ([arXiv:hep-th/9508143](http://arxiv.org/abs/hep-th/9508143))
+
+* [[Eric Bergshoeff]], [[Chris M. Hull]], [[Tomas Ortin]]: *Duality in the Type--II Superstring Effective Action*, Nucl. Phys. B **451** (1995) 547--578 \[<a href="https://doi.org/10.1016/0550-3213(95)00367-2">doi;10.1016/0550-3213(95)00367-2</a>, [arXiv:hep-th/9504081](https://arxiv.org/abs/hep-th/9504081)\]
+
+* [[Itzhak Bars]]: *Duality Covariant Type IIB Supersymmetry and Nonperturbative Consequences*, Phys. Rev. D **56** (1997) 7954 \[<a href="https://doi.org/10.1103/PhysRevD.56.7954">doi:10.1103/PhysRevD.56.7954</a>, [arXiv:hep-th/9706185](https://arxiv.org/abs/hep-th/9706185)\]
+
+* [[Paul Townsend]]: *Membrane tension and manifest IIB S-duality*, Phys. Lett. B **409** (1997) 131--135 \[<a href="http://doi.org/10.1016/S0370-2693(97)00862-9">doi:10.1016/S0370-2693(97)00862-9</a>, [arXiv:hep-th/9705160](https://arxiv.org/abs/hep-th/9705160)
+
 
 The geometric understanding of S-duality in [[type II superstring theory]] via [[M-theory]]/[[F-theory]] goes maybe back to
 
@@ -318,8 +324,10 @@ Discussion of [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via 
 
 See also:
 
+* Surya Raghavendran, Philsang Yoo: _Twisted S-Duality_ &lbrack;[arxiv:1910.13653](https://arxiv.org/abs/1910.13653)&rbrack;
 
-* Surya Raghavendran, Philsang Yoo, _Twisted S-Duality_ ([arxiv:1910.13653](https://arxiv.org/abs/1910.13653))
+* [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], Miguel Montero: *The anomaly that was not meant IIB*, Fortschr. der Physik **70** 1 (2022) 2100168 \[<a href="https://doi.org/10.1002/prop.202100168">doi:10.1002/prop.202100168</a>, [arXiv:2107.14227](https://arxiv.org/abs/2107.14227)\]
+
 
 ### In heterotic string theory
 
