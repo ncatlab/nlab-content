@@ -187,7 +187,7 @@ is a limit over isomorphisms, hence an isomorphism.
 
 This is in section 16.2 of
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_.
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_.
 
 See in particular exercise 16.5 there for the characterization of [[Grothendieck topology|Grothendieck topologies]] in terms of local isomorphisms.
 
