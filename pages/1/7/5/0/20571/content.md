@@ -47,6 +47,10 @@ On [[Liouville theory]] and[[D=3 supergravity]]:
 
 * [[Lorenz Eberhardt]]: *The Super Virasoro Minimal String from 3d Supergravity* &lbrack;[arXiv:2604.26038](https://arxiv.org/abs/2604.26038)&rbrack;
 
+On the role of [[spin structure]] in [[type II string theory]]:
+
+* Matilda Delgado, [[Lorenz Eberhardt]], Marija Tomašević: *What makes spacetime spin in string theory?* &lbrack;[arXiv:2606.18380](https://arxiv.org/abs/2606.18380)&rbrack;
+
 
 
 category: people
