@@ -88,6 +88,8 @@ One also has:
 
 * Every [[quasidecidable proposition]] is a [[decidable proposition]] if and only if LPO holds; see at [[quasidecidable proposition]] for a proof.
 
+* Let $\mathbb{N}_\infty$ denote the [[extended natural numbers]]. We say that an extended natural number $x \in \mathbb{N}_\infty$ is *finite* if it is in the image of the canonical injection $i:\mathbb{N} \hookrightarrow \mathbb{N}_\infty$ of the [[natural numbers]] into the extended natural numbers. [Escardo 17](#Escardo17) showed that LPO holds if and only if for all extended natural numbers $x \in \mathbb{N}_\infty$, finiteness of $x$ is [[decidable proposition]]. 
+
 +-- {: .standout}
 These statements beneath this standout box currently do not have proofs on the nLab or references to literature containing a proof of the statement. Please add such proofs or references to the article, or delete them if these statements are not true. 
 =--
@@ -216,7 +218,7 @@ This means that theories which accept both LPO and [[Brouwer's continuity princi
 
 * LPO fails in the parameterized [[realizability topos]] constructed in [Bauer & Hanson 2024](#BauerHanson24). 
 
-* It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer (2011)](#Bauer11). 
+* It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer 2015](#Bauer15). 
 
 ## In dependent type theory
 
@@ -299,13 +301,7 @@ to the fully untruncated LPO
 $$\left(\sum_{n:\mathbb{N}} f(n) = 1\right) + \left(\prod_{n:\mathbb{N}} f(n) = 0\right)$$
 \end{proof}
 
-\begin{theorem}
-LPO and fully untruncated LPO are logically interderivable from each other. 
-\end{theorem}
-
-\begin{proof}
-The converses follow from the fact that by the inference rules of [[propositional truncations]], one has a function $\mathrm{trunc}_P:P \to [P]$ for all types $P$. 
-\end{proof}
+* Truncated LPO and untruncated LPO are logically interderivable from each other. See 
 
 \begin{theorem}
 LPO is inconsistent with [[canonicity]] or [[homotopy canonicity]] in [[dependent type theory]]. 
@@ -389,6 +385,10 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#Rathjen13} [[Michael Rathjen]]: *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience* &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
+* {#Escardo13} [[Martín Escardó]]: *Infinite sets that satisfy the principle of omniscience in any variety of constructive mathematics.* The Journal of Symbolic Logic, Vol 78, September 2013, pp. 764-784. &lbrack;[doi:10.2178/jsl.7803040](https://doi.org/10.2178/jsl.7803040), [pdf](https://martinescardo.github.io/papers/omniscient-journal-revised.pdf)&rbrack;
+
+* {#Bauer15} [[Andrej Bauer]], *An injection from the Baire space to natural numbers.* Mathematical Structures in Computer Science. 2015;25(7):1484-1489. &lbrack;[doi:10.1017/S0960129513000406](https://doi.org/10.1017/S0960129513000406), [pdf](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf)&rbrack;
+
 * {#Kawai18} [[Tatsuji Kawai]]: *Principles of bar induction and continuity on Baire space* &lbrack;[arXiv:1808.04082](https://arxiv.org/abs/1808.04082)&rbrack;
 
 * {#Shulman18} [[Mike Shulman]]: *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science **28** 6 (2018) 856--941 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
@@ -415,15 +415,11 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
-This reference calls the fully untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the fully truncated version. 
+These references call the fully untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the fully truncated version. 
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
-These two references call the limited principle of omniscience simply by the term "principle of omniscience" or "omniscience principle". However, [[principle of omniscience]] can refer to multiple possible axioms. 
-
-* {#Bauer11}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
-
-* {#Escardo11} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
+* {#Escardo17} [[Martin Escardo]]: *Taboos.LPO*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/Taboos.LPO.html). 
 
 [[!redirects LPO]]
 [[!redirects limited principle of omniscience]]
