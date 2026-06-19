@@ -30,6 +30,10 @@ On "delicate" [[unstable topological phases of matter]]:
 
 * [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
 
+On [[fractional quantum Hall systems]]:
+
+* Sahana Das, Navketan Batra, Andrea Kouta Dagnino, Dan Mao, [[Nicolas Regnault]], Glenn Wagner, [[Titus Neupert]]: *Three-dimensional Foliated Fractional Quantum Hall Phases* &lbrack;[arXiv:2606.19426](https://arxiv.org/abs/2606.19426)&rbrack;
+
 
 
 
