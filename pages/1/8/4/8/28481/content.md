@@ -104,7 +104,7 @@ Then suppose that for all $x \in A$, $(x \mapsto 1)(x) = (x \mapsto 0)(x)$. Then
 This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
 \end{proof}
 
-## Universe of exhaustible types
+## In dependent type theory
 
 +-- {: .standout}
 This section appears to be original research, as there doesn't seem to be any existing literature on the universe of types that satisfy the principle of omniscience. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
@@ -127,9 +127,15 @@ is a [[mere proposition]] for all $A:U$, $U_\mathrm{exh}$ is a [[subtype|sub]]-[
 
 ## References
 
-* {#Escardo08} [[Martín Escardó]], *Exhaustible sets in higher-type computation*, Logical Methods in Computer Science, Volume 4, Issue 3 (August 27, 2008) &lbrack;[doi:10.2168/LMCS-4(3-3)2008](https://doi.org/10.2168/LMCS-4%283%3A3%292008), [arXiv:0808.0441v2](https://arxiv.org/abs/0808.0441v2)&rbrack;
+* {#Escardo08} [[Martín Escardó]]: *Exhaustible sets in higher-type computation*, Logical Methods in Computer Science, Volume 4, Issue 3 (August 27, 2008) &lbrack;[doi:10.2168/LMCS-4(3-3)2008](https://doi.org/10.2168/LMCS-4%283%3A3%292008), [arXiv:0808.0441v2](https://arxiv.org/abs/0808.0441v2)&rbrack;
 
-* {#Escardo11} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
+* {#Escardo11} [[Martin Escardo]]: *TypeTopology.CompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.CompactTypes.html). 
+
+* {#Escardo13} [[Martín Escardó]]: *Infinite sets that satisfy the principle of omniscience in any variety of constructive mathematics.* The Journal of Symbolic Logic, Vol 78, September 2013, pp. 764-784. &lbrack;[doi:10.2178/jsl.7803040](https://doi.org/10.2178/jsl.7803040), [pdf](https://martinescardo.github.io/papers/omniscient-journal-revised.pdf)&rbrack;
+
+These are also called *weakly compact types* in: 
+
+* {#Escardo18} [[Martin Escardo]]: *TypeTopology.WeaklyCompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.WeaklyCompactTypes.htmll). 
 
 [[!redirects exhaustible set]]
 [[!redirects exhaustible sets]]
