@@ -45,9 +45,9 @@ There are various other results that are related to the principles of omniscienc
 
 ### Untruncated LLPO in dependent type theory
 
-In the context of [[dependent type theory]], the lesser limited principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). The relationships between the truncated and untruncated LLPO are as follows are:
+In the context of [[dependent type theory]], the lesser limited principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"); see [Escardo 23](#Escardo23). The relationships between the truncated and untruncated LLPO are as follows are:
 
-* Untruncated LLPO is equivalent to WLPO (also due to Martin Escardo).
+* Untruncated LLPO is equivalent to WLPO (also due to [Escardo 23](#Escardo23)).
 
 * In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from (truncated) LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from (truncated) LLPO. 
 
@@ -117,6 +117,8 @@ One can also use functions to the [[boolean domain]] instead of [[decidable subs
 * {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 * {#RathjenSwan20} [[Michael Rathjen]], [[Andrew Swan]], *Lifschitz Realizability as a Topological Construction*. The Journal of Symbolic Logic, Volume 85, Issue 4, December 2020, pp. 1342 - 1375. &lbrack;[doi:10.1017/jsl.2021.1](https://doi.org/10.1017/jsl.2021.1), [arXiv:1806.10047](https://arxiv.org/abs/1806.10047)&rbrack;
+
+* {#Escardo23} [[Martin Escardo]]: *Taboos.LLPO*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/Taboos.LLPO.html#21081). 
 
 * {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
