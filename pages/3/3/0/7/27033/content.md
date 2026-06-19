@@ -30,7 +30,6 @@ We can also state the principle set-theoretically. The __limited principle of om
 
 One can equivalently use functions to the [[boolean domain]] instead of [[decidable subsets]]. The __limited principle of omniscience__ states that given any [[function]] $f$ from the [[natural numbers]] $\mathbb{N}$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$. In this case, the limited principle of omniscience is also called **[[excluded middle]] for [[semidecidable truth values]]**, i.e. [[truth values]] of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, or **$\Sigma^0_1$-[[excluded middle]]** ([Diener 2018](#Diener18), [Kawai 2018](#Kawai18)) in the sense of the [[arithmetical hierarchy]] in [[computability theory]]. 
 
-One can also formulate the limited principle of omniscience for natural numbers in terms of [[streams]] of [[booleans]] instead of the [[function set]] $\mathbb{2}^\mathbb{N}$. Let $\mathrm{Stream}(A)$ be the set of streams of the set $A$, with head function $h:\mathrm{Stream}(A) \to A$ and tail function $t:\mathrm{Stream}(A) \to \mathrm{Stream}(A)$. Streams and sequences of any set $A$ are interdefinable with each other: given a stream $f \in \mathrm{Stream}(A)$, the sequence is given by $(h(t^n(f)))_{n \in \mathbb{N}}$, where $t^n$ is the $n$-th functional power of the tail function $t$, and the head and tail functions for the sequence set $A^\mathbb{N}$ are given by $f \mapsto f(0)$ and $f \mapsto (f(n + 1))_{n \in \mathbb{N}}$ respectively. Then the limited principle of omniscience state that given a stream $f \in \mathrm{Stream}(\mathbb{2})$ of booleans, either there exists $n \in \mathbb{N}$ such that $h(t^n(f)) = 1$ or for all $n \in \mathbb{N}$, $h(t^n(f)) = 0$. 
 
 ### In the antithesis interpretation
 
@@ -148,39 +147,6 @@ There are also some results from constructive [[ordinal]] theory:
 
 * If binary [[joins]] exist for non-successor [[ordinals]] $\alpha$ and $\beta$, then LPO holds; this is Proposition 6.2 in [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26). 
 
-### Universes and models of foundations
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature of whether a single universe or model existing implies LPO. 
-=--
-
-The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies LPO: 
-
-\begin{theorem}
-The existence of a model $\mathcal{V}$ of bounded Zermelo set theory implies LPO.
-\end{theorem}
-
-\begin{proof}
-Inside $\mathcal{V}$ one can define a [[pure set]] $\mathbb{R}$ in $\mathcal{V}$ which represents the [[real numbers]], and then collect all the pure sets $s$ of $\mathbb{R}$ into a set in the external [[foundations of mathematics]]. The resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply LPO for the entire foundations.
-\end{proof} 
-
-\begin{theorem}
-The existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies LPO.
-\end{theorem}
-
-\begin{proof}
-The hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies LPO for the entire foundations. 
-\end{proof}
-
-\begin{theorem}
-In [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies LPO. 
-\end{theorem}
-
-\begin{proof}
-One can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying LPO for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] also implies LPO for the entire type theory. 
-\end{proof}
-
-Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
 ## Statements inconsistent with LPO
 
@@ -220,33 +186,6 @@ This means that theories which accept both LPO and [[Brouwer's continuity princi
 
 * It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer 2015](#Bauer15). 
 
-## In dependent type theory
-
-In the context of [[dependent type theory]], the usual limited principle of omniscience is expressed in terms of sequences of booleans as 
-
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
-
-or equivalently in terms of decidable [[predicates]] / [[subtypes]] as
-
-$$\prod_{P:\mathbb{N} \to \mathrm{Prop}} \left(\prod_{x:\mathbb{N}} P(x) \vee \neg P(x)\right) \to (\exists x:\mathbb{N}.P(x)) \vee \left(\prod_{x:\mathbb{N}} \neg P(x)\right)$$
-
-However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. 
-
-This results in 
-
-* four different versions of the limited principle of omniscience for the version involving sequences of booleans
-
-* eight different versions of the limited principle of omniscience for version involving decidable predicates / subtypes, 
-
-depending on whether the [[existential quantifier]] is truncated or untruncated, and which [[disjunctions]] are truncated or untruncated. 
-
-\begin{theorem}
-LPO is inconsistent with [[canonicity]] or [[homotopy canonicity]] in [[dependent type theory]]. 
-\end{theorem}
-
-\begin{proof}
-By LPO, we can define the sequence $f:\mathbb{N} \to \mathbb{2}$ to the booleans $\mathbb{2}$ by $f(n) = 1$ if $2 n + 2$ is the sum of two [[prime numbers]] and $f(n) = 0$ if $2 n + 2$ is not the sum of two prime numbers, since $2 n + 2$ being the sum of two prime numbers is a [[decidable proposition]]. Then [[Goldbach's conjecture]] states that the $f$ is equal to the constant sequence $\lambda n:\mathbb{N}.1$, and we can define a term $\mathrm{LPO}(\mathrm{Goldbach}, 0, 1):\mathbb{N}$ which is 0 or 1 according as the Goldbach conjecture is true or false. This term is not [[identification|identified with]] a [[canonical form]] (a numeral), contradicting [[homotopy canonicity]] and by extension [[canonicity]].
-\end{proof}
 
 ## Generalizations
 
@@ -261,30 +200,6 @@ The choiceless limited principle of omniscience implies the [[analytic limited p
 ### Exhaustible sets
 
 One can consider generalizing the [[domain of discourse]] of the limited principle of omniscience from the [[natural numbers]] to an arbitrary [[set]] $A$. Such sets satisfying the limited principle of omniscience are called [[exhaustible sets]]. 
-
-### Generalizations to other sets of propositions
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of the limited principle of omniscience. 
-=--
-
-One can also consider generalizing from the [[decidable propositions]] to other types of propositions. Let $\Sigma$ be a [[subobject|sub]][[lattice]] of the [[frame of truth values]] $\Omega$. Then the __limited principle of omniscience__ $\mathrm{LPO}_{\Sigma}$ states that, given any [[function]] $f$ from $\mathbb{N}$ to $\Sigma$, there exists an element $p \in \Sigma$ such that $p = \top$ [[if and only if]] there exists an element $x \in A$ such that $f(x) = \top$. 
-
-$$\forall f:\mathbb{N} \to \Sigma.\exists p \in \Sigma.p = \top \iff \exists x \in \mathbb{N}.f(x) = \top$$
-
-The usual limited principle of omniscience is then $\mathrm{LPO}_{\mathbb{2}}$ for the [[booleans]] $\mathbb{2}$:
-$$\forall f:\mathbb{N} \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top)$$
-Now by recursion of the booleans we have either that $p = \bot$ or $p = \top$, so the statement 
-$$\forall f:\mathbb{N} \to \mathbb{2}.\exists p \in \mathbb{2}.(p = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top)$$ 
-is equivalent to 
-$$\forall f:\mathbb{N} \to \mathbb{2}.(\top = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top) \vee (\bot = \top) \iff (\exists x \in \mathbb{N}.f(x) = \top)$$
-and since $\top = \top$ is true and $\bot = \top$ is false, we have
-$$\forall f:\mathbb{N} \to \mathbb{2}.(\exists x \in \mathbb{N}.f(x) = \top) \vee \neg (\exists x \in \mathbb{N}.f(x) = \top)$$
-which is precisely the usual limited principle of omniscience.
-
-For the set of [[semi-decidable propositions]] $\Sigma_0^1$, the limited principle of omniscience $\mathrm{LPO}_{\Sigma_0^1}$ is equivalent to the [[Rosolini dominance]] being a [[dominance]] and the [[Cauchy real numbers]] being [[Dedekind complete]] via [[semi-decidable]] [[Dedekind cuts]]. 
-
-For the set of truth values $\Omega$, the limited principle of omniscience $\mathrm{LPO}_{\Omega}$ is always true for because $\Omega$ is a [[frame]] and thus closed under existential quantification over $\mathbb{N}$. 
 
 ## Related concepts
 
@@ -352,7 +267,7 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
-* {#AgdaUnimath} [[Fredrik Bakke]], [[Jonathan Prieto-Cubides]], [[Egbert Rijke]] and [[Louis Wasserman]], *The limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.limited-principle-of-omniscience.html)&rbrack;
+* {#AgdaUnimath} Fredrik Bakke, Jonathan Prieto-Cubides, [[Egbert Rijke]], Louis Wasserman: *The limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.limited-principle-of-omniscience.html)&rbrack;
 
 These references call the untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the truncated version. 
 
