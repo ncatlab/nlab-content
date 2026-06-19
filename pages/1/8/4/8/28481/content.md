@@ -24,7 +24,13 @@ If you take the set $A$ to be the [[subsingleton]] corresponding to a given [[tr
 
 We can also state the principle set-theoretically: a [[set]] $A$ is **exhaustible** or **omniscient** if for all [[subsets]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $P$ is [[inhabited subset|inhabited]] or $\bar{P} = A$, where $\bar{P}$ is the [[complement]] of $P$. 
 
-While $\mathbb{N}$ being exhaustible is the [[limited principle of omniscience]], the set $\overline{\mathbb{N}}$ of [[extended natural number]]s is provably exhaustible in constructive mathematics; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
+## Examples
+
+* the set $\mathbb{N}$ of [[natural numbers]] being exhaustible is the [[limited principle of omniscience]], 
+
+* the set $\overline{\mathbb{N}}$ of [[extended natural number]]s is provably exhaustible in constructive mathematics; see theorems 3.5 and 3.6 of [Escard&#243; 2013](#Escardo13) for this. This is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. 
+
+* searchable sets are exhaustible by lemma 2.2 of [Escard&#243; 2013](#Escardo13) 
 
 ## Properties
 
@@ -106,20 +112,29 @@ This exhausts all options for decidable subsingletons, and exhausts all possible
 
 ## In dependent type theory
 
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on the universe of types that satisfy the principle of omniscience. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
-=--
+In the context of [[dependent type theory]], a type $A$ being exhaustible or omniscient is expressed as 
 
-In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which are exhautible:
+$$\prod_{f:A \to \mathbb{2}} (\exists x:A.f(x) = 1) \vee \left(\prod_{x:A} f(x) = 0\right)$$
 
-$$U_\mathrm{exh} \coloneqq \sum_{A:U} \prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
-\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+Note that $\prod_{x:A} f(x) = 0$ is always a proposition by [[weak function extensionality]].
 
-Since the type 
+However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different interpretations of an exhaustible or omniscient type, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated. 
 
-$$\prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee \left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+* When the disjunction is truncated and the existential quantifier is truncated, this results in the usual concept of an exhaustible or omniscient type $A$
 
-is a [[mere proposition]] for all $A:U$, $U_\mathrm{exh}$ is a [[subtype|sub]]-[[universe]] of $U$. 
+* When the disjunction is untruncated and the existential quantifier is truncated, by using the [[sum type]], this results in the concept of a **$\exists$-compact type** $A$ ([Escard&#243; 18](#TTWCT18)) 
+
+$$\prod_{f:A \to \mathbb{2}} \left(\exists x:A.f(x) = 1\right) + \left(\prod_{x:A} f(x) = 0\right)$$
+
+* When both the disjunction and the existential quantifier are untruncated, by using the [[sum type]] and [[dependent sum type]], this results in the concept of a **compact type** $A$ ([Escard&#243; 11](#TTCT11))
+
+$$\prod_{f:A \to \mathbb{2}} \left(\left(\sum_{x:A} f(x) = 1\right) + \prod_{x:A} f(x) = 0\right)$$
+
+* The case where the disjunction is truncated and the existential quantifier is untruncated remains undefined in the literature. 
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:A} f(x) = 1\right) \vee \left(\prod_{x:A} f(x) = 0\right)$$
+
+Note that [Escard&#243; 11](#TTCT11) and [Escard&#243; 18](#TTWCT18) uses $\neg \sum_{x:A} f(x) = 1$ instead of $\prod_{x:A} f(x) = 0$. But one can show that $\neg \sum_{x:A} f(x) = 1$ is logically equivalent to $\prod_{x:A} \neg f(x) = 1$ in [[Martin-Lof type theory]], see [here](https://martinescardo.github.io/TypeTopology/MLTT.Negation.html#6079) for example, and $\neg f(x) = 1$ is $f(x) = 0$. In addition, the two sources define a decidable type using a [[sum type]] $A + \neg A$ rather than [[disjunction]] $A \vee \neg A$. 
 
 ## Related concepts
 
@@ -129,16 +144,26 @@ is a [[mere proposition]] for all $A:U$, $U_\mathrm{exh}$ is a [[subtype|sub]]-[
 
 * {#Escardo08} [[Martín Escardó]]: *Exhaustible sets in higher-type computation*, Logical Methods in Computer Science, Volume 4, Issue 3 (August 27, 2008) &lbrack;[doi:10.2168/LMCS-4(3-3)2008](https://doi.org/10.2168/LMCS-4%283%3A3%292008), [arXiv:0808.0441v2](https://arxiv.org/abs/0808.0441v2)&rbrack;
 
-* {#Escardo11} [[Martin Escardo]]: *TypeTopology.CompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.CompactTypes.html). 
+* {#TTCT11} [[Martin Escardo]]: *TypeTopology.CompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.CompactTypes.html). 
 
 * {#Escardo13} [[Martín Escardó]]: *Infinite sets that satisfy the principle of omniscience in any variety of constructive mathematics.* The Journal of Symbolic Logic, Vol 78, September 2013, pp. 764-784. &lbrack;[doi:10.2178/jsl.7803040](https://doi.org/10.2178/jsl.7803040), [pdf](https://martinescardo.github.io/papers/omniscient-journal-revised.pdf)&rbrack;
 
-These are also called *weakly compact types* in: 
-
-* {#Escardo18} [[Martin Escardo]]: *TypeTopology.WeaklyCompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.WeaklyCompactTypes.htmll). 
+* {#TTWCT18} [[Martin Escardo]]: *TypeTopology.WeaklyCompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.WeaklyCompactTypes.html). 
 
 [[!redirects exhaustible set]]
 [[!redirects exhaustible sets]]
 
 [[!redirects omniscient set]]
 [[!redirects omniscient sets]]
+
+[[!redirects exhaustible type]]
+[[!redirects exhaustible types]]
+
+[[!redirects omniscient type]]
+[[!redirects omniscient types]]
+
+[[!redirects compact type]]
+[[!redirects compact types]]
+
+[[!redirects exists-compact type]]
+[[!redirects exists-compact types]]
