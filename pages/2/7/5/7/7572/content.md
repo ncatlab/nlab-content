@@ -263,6 +263,10 @@ On the Heine-Borel theorem in [[dependent type theory]] using [[inductive covers
 
 * {#UFP13} [[Univalent Foundations Project]]: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, The Institute for Advanced Study (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
+On the Heine-Borel theorem in [[affine logic]] and the [[antithesis interpretation]]:
+
+* [[Kazumi Kasaura]], *Compactness in Constructive Mathematics via Affine Logic* &lbrack;[arXiv:2602.19003](https://arxiv.org/abs/2602.19003)&rbrack;
+
 [[!redirects Heine-Borel theorem]]
 [[!redirects Heine-Borel theorems]]
 [[!redirects Heine--Borel theorem]]
