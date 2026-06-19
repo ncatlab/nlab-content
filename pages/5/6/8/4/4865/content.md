@@ -238,7 +238,7 @@ and in the mild variation (using a manifestly [[duality-symmetric C-field|dualit
 
 A proof of this claim is laid out in 
 
-* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
+* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456 hep-th](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
 
 using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
 
