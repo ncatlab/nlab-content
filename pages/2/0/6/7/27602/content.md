@@ -25,7 +25,7 @@
 
 ## Idea
 
-*Phoa's principle* is a principle used to axiomatize [[Sierpinski space]] in [[synthetic topology]] and [[synthetic domain theory]]. 
+*Phoa's principle* is a principle used to axiomatize [[Sierpinski space]] in [[synthetic topology]] and [[synthetic domain theory]]. Phoa's principle is also called the *Phoa principle* in [Bauer & Taylor 2009](#BT09). 
 
 Phoa's principle is named after [[Wesley Phoa]]. 
 
@@ -67,6 +67,8 @@ $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 * [[Wesley Phoa]]: *Domain theory in realizability toposes*, PhD thesis, Trinity College, Cambridge (November 1990) &lbrack;[lfcs:91/ECS-LFCS-91-171](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171), [pdf](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171/ECS-LFCS-91-171.pdf)&rbrack;
 
 * [[Paul Taylor]], *The Fixed Point Property in Synthetic Domain Theory*, Proceedings Sixth Annual IEEE Symposium on Logic in Computer Science, &lbrack;[doi:10.1109/LICS.1991.151640](https://doi.org/10.1109/LICS.1991.151640), [pdf](https://www.paultaylor.eu/ASD/fixpps/fixpps.pdf)&rbrack;
+
+* {#BT09} [[Andrej Bauer]], [[Paul Taylor]], *The Dedekind reals in abstract Stone duality*, Mathematical Structures in Computer Science **19** 4 (2009) 757-838 &lbrack;[doi:10.1017/S0960129509007695](https://doi.org/10.1017/S0960129509007695), [pdf](https://www.paultaylor.eu/ASD/dedras/dedras.pdf)&rbrack;
 
 * [[Davorin Lešnik]], *Synthetic Topology and Constructive Metric Spaces* &lbrack;[arXiv:2104.10399](https://arxiv.org/abs/2104.10399)&rbrack;
 
