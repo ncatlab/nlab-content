@@ -32,8 +32,8 @@ The set of quasidecidable propositions is an important structure in [[constructi
 The **set of Sierpiński semidecidable truth values** or **set of quasidecidable truth values** $\Sigma$ is defined in the following equivalent ways:
 
 * as the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]
-* as the [[partial map classifier]] of [[generalized the|the]] set with one element, for the definition of the partial map classifier given in [Altinkirch, Danielsson, & Kraus 2016](#ADK16)
-* as the [[free object|free]] [[omega-cpo|$\omega$-cpo]] on the [[boolean domain]]
+* as the [[omega-cpo|$\omega$-cpo]] completion of the [[partial order]] of the [[boolean domain]], see [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)
+* as the [[pointed object|pointed]] [[omega-cpo|$\omega$-cpo]] completion of the set with one element ([Bidlingmaier, Faissole, & Spitters 2019](#BFS19)), or equivalently the [[partial map classifier]] of [[generalized the|the]] set with one element, for the definition of the partial map classifier given in [Altinkirch, Danielsson, & Kraus 2016](#ADK16)
 * [[impredicative mathematics|impredicatively]] as the smallest subset of the [[set of truth values]] $\Omega$ closed under [[truth]], [[falsehood]], and [[existential quantification]] over the [[natural numbers]], see [Escardo 2020](#Escardo20). 
 =--
 
@@ -45,7 +45,7 @@ The set of quasidecidable truth values is also called **Sierpiński space** ([Al
 ###### Definition
 A **Sierpiński semidecidable proposition** or **quasidecidable proposition** is a [[proposition]] $P$ such that there exist an element $p \in \Sigma$ such that $P$ holds [[if and only if]] $p = \top$, where $\top$ is the [[top]] of $\Sigma$. 
 
-$$\mathrm{isSierpinskiSemiDecidable}(P) \coloneqq \exists p \in \Sigma.P \iff p = \top$$
+$$\mathrm{isQuasiDecidable}(P) \coloneqq \exists p \in \Sigma.P \iff p = \top$$
 =--
 
 The set of quasidecidable truth values $\Sigma$ sits in a hierarchy of subsets of the set of truth values:
@@ -60,9 +60,9 @@ There are a few constructive [[taboos]] related to the set of quasidecidable pro
 
 ### Rosolini propositional choice
 
-In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the set of quasidecidable propositions is just the [[Rosolini dominance]]. 
+In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is just the [[Rosolini dominance]]. 
 
-However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *Rosolini propositional choice*, see section 2.8 of [Escardo & Knapp 2017](#EK17) for more details. 
+However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), see section 2.8 of [Escardo & Knapp 2017](#EK17) for more details. 
 
 ### LPO and Phoa's principle
 
@@ -87,7 +87,7 @@ LPO is inconsistent with [[Phoa's principle]] for the set of [[quasidecidable pr
 \end{theorem}
 
 \begin{proof}
-LPO is equivalent to the fact that the [[boolean domain]] coincides with the set of [[quasidecidable propositions]]. However, the [[logical negation]] function $x \mapsto \neg x$ on the [[boolean domain]] does not satisfy the linear interpolation condition for Phoa's principle for the booleans; it is not true that $\neg x = (\neg 0) \wedge (x \vee \neg 1) = 1 \wedge (x \vee 0) = x$ on the booleans. As a result, LPO is inconsistent with Phoa's principle for set of quasidecidable propositions. 
+LPO is equivalent to the fact that the [[boolean domain]] coincides with the set of [[quasidecidable propositions]]. However, the [[logical negation]] function $x \mapsto \neg x$ on the [[boolean domain]] does not satisfy the linear interpolation condition for Phoa's principle for the booleans; it is not true that $\neg x = (\neg 1) \wedge (x \vee \neg 0) = 0 \wedge (x \vee 1) = x$ on the booleans. As a result, LPO is inconsistent with Phoa's principle for set of quasidecidable propositions. 
 \end{proof}
 
 In traditional [[point-set topology]] in [[classical mathematics]], one already has that negation on the booleans is not a [[continuous function]] with respect to the [[Scott topology]] of the [[booleans]]. 
@@ -102,34 +102,6 @@ is an [[isomorphism]]
 
 \begin{proof}
 Synthetic quasi-coherence for the set of [[quasidecidable propositions]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with LPO.  
-\end{proof}
-
-### Axiom of choice variants
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on these variants of the [[axiom of choice]]. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
-=--
-
-Let $\Sigma$ be the set of [[quasidecidable propositions]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
-
-\begin{theorem}
-The [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] implies LPO. 
-\end{theorem}
-
-\begin{proof}
-The proof is similar to one direction of the proof of the [[Diaconescu-Goodman-Myhill theorem]]. 
-
-Let $P$ be a $\Sigma$-open proposition. Quotient the [[boolean domain]] $\mathbb{2}$ by the [[equivalence relation]] where $0 = 1$ [[if and only if]] $P$ holds, resulting in a set $A$. Then we have an $\Sigma$-open entire relation $R$ between $A$ and $\mathbb{2}$, and there exists a function $f:A \to \mathbb{2}$ such that $R(x, f(x)) = \top$ if and only if $P$ is a [[decidable proposition]], and that it holds for all such $P$ is precisely LPO. Thus, the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies LPO. 
-\end{proof}
-
-The full [[axiom of choice]] for $\Sigma$-open entire relations says that for any set $A$ and $B$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
-
-\begin{lemma}
-The [[axiom of choice]] for $\Sigma$-open entire relations implies LPO. 
-\end{lemma}
-
-\begin{proof}
-The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies the [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] stated above, which in turn implies LPO. 
 \end{proof}
 
 ## Related concepts
