@@ -267,7 +267,7 @@ One can consider generalizing the [[domain of discourse]] of the limited princip
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
-* {#AgdaUnimath} Fredrik Bakke, Jonathan Prieto-Cubides, [[Egbert Rijke]], Louis Wasserman: *The limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.limited-principle-of-omniscience.html)&rbrack;
+* {#AgdaUnimath} [[Fredrik Bakke]], [[Jonathan Prieto-Cubides]], [[Egbert Rijke]], Louis Wasserman: *The limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.limited-principle-of-omniscience.html)&rbrack;
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
