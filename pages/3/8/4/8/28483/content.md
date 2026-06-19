@@ -34,10 +34,8 @@ The **set of Sierpiński semidecidable truth values** or **set of quasidecidable
 * as the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]
 * as the [[partial map classifier]] of [[generalized the|the]] set with one element, for the definition of the partial map classifier given in [Altinkirch, Danielsson, & Kraus 2016](#ADK16)
 * as the [[free object|free]] [[omega-cpo|$\omega$-cpo]] on the [[boolean domain]]
-* [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the [[frame of truth values]] $\Omega$
+* [[impredicative mathematics|impredicatively]] as the smallest subset of the [[set of truth values]] $\Omega$ closed under [[truth]], [[falsehood]], and [[existential quantification]] over the [[natural numbers]], see [Escardo 2020](#Escardo20). 
 =--
-
-Here a [[subobject|sub]]-$\sigma$-frame of $\Omega$ is one that is closed under [[existential quantifiers]] on the [[natural numbers]].  
 
 The set of quasidecidable truth values is also called **Sierpiński space** ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)) or the **Sierpiński type** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
@@ -60,7 +58,11 @@ where $\mathbb{2}$ is the [[boolean domain]], $\Sigma^0_1$ is the set of [[semi-
 
 There are a few constructive [[taboos]] related to the set of quasidecidable propositions. 
 
-In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the set of quasidecidable truth values is just the [[Rosolini dominance]]. 
+### Rosolini propositional choice
+
+In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the set of quasidecidable propositions is just the [[Rosolini dominance]]. 
+
+However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *Rosolini propositional choice*, see section 2.8 of [Escardo & Knapp 2017](#EK17) for more details. 
 
 ### LPO and Phoa's principle
 
@@ -146,7 +148,7 @@ The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean do
 
 * {#EK17} [[Martín Escardó]], [[Cory Knapp]]. *Partial Elements and Recursion via Dominances in Univalent Type Theory.* In 26th EACSL Annual Conference on Computer Science Logic (CSL 2017). Leibniz International Proceedings in Informatics (LIPIcs), Volume 82, pp. 21:1-21:16, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2017) &lbrack;[10.4230/LIPIcs.CSL.2017.21](https://doi.org/10.4230/LIPIcs.CSL.2017.21)&rbrack;
 
-* {#Escardo20} [[Martin Escardo]]. *Quasidecidable propositions*. [[Agda]] code with comments, 2020. ([URL](https://cs.bham.ac.uk/~mhe/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)).
+* {#Escardo20} [[Martin Escardo]]. *Quasidecidable propositions*. [[Agda]] code with comments, 2020. ([URL](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.QuasiDecidable.html)).
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
