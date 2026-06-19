@@ -69,23 +69,6 @@ We can also state the principle set-theoretically. The __choiceless lesser limit
 
 The choiceless lesser limited principle of omniscience implies the [[analytic lesser limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24).
 
-### Generalizing from the natural numbers to an arbitrary set
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of the lesser limited principle of omniscience. 
-=--
-
-One can generalize from the natural numbers $\mathbb{N}$ to any arbitrary set $A$. The **lesser limited principle of omniscience for the set $A$** ($LLPO_A$) is a [[principle of omniscience]] which states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] is false, then one of their separate existential quantifications is false.  That is,
-$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in A, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in A, P(x) \wedge \exists y \in A, Q(y)) \Rightarrow \neg(\exists x \in A, P(x)) \vee \neg(\exists y \in A, Q(y)) ,$$
-or equivalently
-$$ (\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y \in A, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x \in A, P(x) \wedge \exists y \in A, Q(y)) \Rightarrow (\forall x \in A, \neg{P(x)}) \vee (\forall y \in A, \neg{Q(y)}) .$$
-
-If one takes the sets $A$ to be subsingletons, one get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; conversely, $DM$ implies $LLPO$ (over any domain). Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$). 
-
-We can also state the principle set-theoretically. Given a [[set]] $A$, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that given [[subsets]] $P, Q \in \mathcal{P}(A)$, if $P$ and $Q$ are [[decidable subsets]] of $A$ ($P \cup \bar{P} = A$, $Q \cup \bar{Q} = A$), then if it is not true that both $P$ and $Q$ are [[inhabited subsets]] of $A$, then either $\bar{P} = A$ or $\bar{Q} = A$, where $\bar{P}$ and $\bar{Q}$ are the [[complements]] of $P$ and $Q$ respectively. 
-
-One can also use functions to the [[boolean domain]] instead of [[decidable subsets]]: the **lesser limited principle of omniscience for $A$** ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.
-
 ## Related concepts
 
 * [[principle of omniscience]]
