@@ -148,6 +148,10 @@ There are also some results from constructive [[ordinal]] theory:
 
 ### Universes and models of foundations
 
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature of whether a single universe or model existing implies LPO. 
+=--
+
 The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies LPO: 
 
 \begin{theorem}
