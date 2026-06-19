@@ -10,9 +10,7 @@
 =--
 
 
-# Lie $2$-algebras
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Idea
@@ -162,6 +160,11 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 On [[weak Lie 2-algebras]]:
 
 * {#Roytenberg07} [[Dmitry Roytenberg]], _On weak Lie 2-algebras_, AIP Conference Proceedings 956, 180 (2007) ([arXiv:0712.3461](http://arxiv.org/abs/0712.3461), [doi:10.1063/1.2820967]( https://doi.org/10.1063/1.2820967))
+
+See also:
+
+* Apurba Das: *Nijenhuis Lie $\infty$-algebras* &lbrack;[arXiv:2606.19955](https://arxiv.org/abs/2606.19955)&rbrack;
+
 
 
 
