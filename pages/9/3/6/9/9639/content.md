@@ -886,6 +886,8 @@ See also:
 
 * Semyon Klevtsov, Dimitri Zvonkine: *The Chern character of the Laughlin vector bundle in the Fractional Quantum Hall Effect* &lbrack;[arXiv:2506.20363](https://arxiv.org/abs/2506.20363)&rbrack;
 
+* Sahana Das, Navketan Batra, Andrea Kouta Dagnino, Dan Mao, [[Nicolas Regnault]], Glenn Wagner, [[Titus Neupert]]: *Three-dimensional Foliated Fractional Quantum Hall Phases* &lbrack;[arXiv:2606.19426](https://arxiv.org/abs/2606.19426)&rbrack;
+
 
 
 #### Specific filling fractions
