@@ -37,6 +37,10 @@ and in relation to [[anyons]]:
 
 * Kishore Iyer, Andreas Feuerpfeil, Valentin Crépel, [[Nicolas Regnault]], Christophe Mora: *Dispersion of Anyon Bloch Bands* &lbrack;[arXiv:2604.24859](https://arxiv.org/abs/2604.24859)&rbrack;
 
+On 3d [[fractional quantum Hall systems]]:
+
+* Sahana Das, Navketan Batra, Andrea Kouta Dagnino, Dan Mao, [[Nicolas Regnault]], Glenn Wagner, [[Titus Neupert]]: *Three-dimensional Foliated Fractional Quantum Hall Phases* &lbrack;[arXiv:2606.19426](https://arxiv.org/abs/2606.19426)&rbrack;
+
 
 
 category: people
