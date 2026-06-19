@@ -36,4 +36,4 @@ Discussion in [[constructive mathematics]] relating to the [[limited principle o
 
 * {#Mandelkern88} [[Mark Mandelkern]]: *Limited Omniscience and the Bolzano-Weierstrass Principle*, Bulletin of the London Mathematical Society **20** 4 (1988) 319--320, &lbrack;[doi:10.1112/blms/20.4.319](https://doi.org/10.1112/blms/20.4.319), [pdf](https://www.zianet.com/mandelkern/mandelkern_bwp.pdf)&rbrack;
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+* [[Univalent Foundations Project]]; section 11.5 of: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
