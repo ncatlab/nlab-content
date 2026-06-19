@@ -269,8 +269,6 @@ One can consider generalizing the [[domain of discourse]] of the limited princip
 
 * {#AgdaUnimath} Fredrik Bakke, Jonathan Prieto-Cubides, [[Egbert Rijke]], Louis Wasserman: *The limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.limited-principle-of-omniscience.html)&rbrack;
 
-These references call the untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the truncated version. 
-
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 * {#Escardo17} [[Martin Escardo]]: *Taboos.LPO*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/Taboos.LPO.html). 
@@ -290,14 +288,6 @@ These references call the untruncated limited principle of omniscience for the n
 [[!redirects affine LPO]]
 [[!redirects affine limited principle of omniscience]]
 [[!redirects affine limited principles of omniscience]]
-
-[[!redirects truncated LPO]]
-[[!redirects truncated limited principle of omniscience]]
-[[!redirects truncated limited principles of omniscience]]
-
-[[!redirects untruncated LPO]]
-[[!redirects untruncated limited principle of omniscience]]
-[[!redirects untruncated limited principles of omniscience]]
 
 [[!redirects choiceless LPO]]
 [[!redirects choiceless limited principle of omniscience]]
