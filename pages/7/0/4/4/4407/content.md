@@ -28,6 +28,7 @@ Since every non-zero polynomial could be made a [[monic polynomial]] by dividing
 Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial function]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
 ## Algebraic proof via real closed fields 
+{#ClassicalAlgebraicProof}
 
 Despite its name, the fundamental theorem of algebra makes reference to a concept from [[analysis]] (the field of complex numbers).  However, the analytic part may be reduced to a minimum: that the field of [[real numbers]] is [[real closed field|real closed]].  This has been known essentially forever, and is easily proved using (for example) the [[intermediate value theorem]].
 
@@ -35,7 +36,7 @@ The rest of the proof is algebraic and, unlike the other proof methods, applies 
 
 We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial function of odd degree has a root.  Note that the polynomial function $x^2 + 1$ cannot have any root in a real closed field --- or in fact in any ordered field, since we always have $x^2\ge 0$ and hence $x^2+1 \ge 1$.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #algebraicClosure}
 ###### Theorem 
 If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed. 
 =--
@@ -556,7 +557,7 @@ Every [[monic]] [[polynomial function]] $p(z) = \sum_{i \leq n} a_n z^n$ with [[
 
 * [Ruitenburg 1991](#Ruitenburg91) has proven, without using any constructive [[taboos]], that every [[monic polynomial|monic]] [[polynomial function]] with coefficients in the Cauchy complex numbers, with one of the coefficients invertible, has a root in the Cauchy complex numbers. 
 
-* This is lemma 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00), which is valid for the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$. 
+* This is lemma 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00), which is valid for the field of [[complex numbers]] $\mathbb{C} = \mathbb{R}[i]/(i^2 + 1)$ of any [[sequentially Cauchy complete space|Cauchy complete]] [[Archimedean ordered field]] $\mathbb{R}$. However, it is currently being debated [here](https://nforum.ncatlab.org/discussion/20169/square-root/#Item_0) whether the proof of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) is actually valid in [[neutral constructive mathematics]] or requires some choice. 
 
 * In addition, section 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00) includes a list of authors who proved the fundamental theorem of algebra for monic polynomials, some like [[Brouwer]] with additional assumptions such as [[countable choice]]. 
 
@@ -600,7 +601,7 @@ Thus, the gap between the version of the FTA using [[mere proposition|mere]] exi
 Every [[surjective]] [[polynomial function]] on the [[complex numbers]], that is [non-constant / with positive degree / monic] and has a [[fixed point]] at zero, has a [[section]]. 
 \end{proposition}
 
-This is the reason why some classical proofs of versions of the fundamental theorem of algebra that use mere existence fail to work constructively if they are reliant on a [[square root]] function on the complex numbers, such as the proof in Lemma \ref{sqrt} which uses the [[quadratic formula]]. Such a square root function is a [[section]] of the squaring function $z \mapsto z^2$ and so cannot be proven to exist on the complex numbers from surjectivity of $z \mapsto z^2$, since the square root on the complex numbers, if it exists, is [[discontinuous]] at zero, which implies the constructive taboo [[analytic WLPO]] for the [[real numbers]] and [[decidable equality]] for the complex numbers. In fact, in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, one can prove that there are no square root functions because in those topoi all functions on the complex numbers are continuous. 
+This is the reason why proofs of the [[algebraic closure]] of the [[complex numbers]] fail to work constructively, such as the proof of Theorem \ref{algebraicClosure}, since they are reliant on the real numbers being a [[real closed field]] in the strong sense of being able to construct a real root for every odd degree real polynomial. This statement is not provable in [[constructive mathematics]] without a weak form of choice: that every surjective polynomial function with odd degree and fixed point at zero has a [[section]]. This gap is analytic in nature as the weak form of choice implies the existence of [[discontinuous functions]] on the [[real numbers]]. Any section of the polynomial function $x \mapsto x^3 - 3x$ is necessarily discontinuous somewhere in the [[closed interval]] $[-2, 2]$, which implies the constructive [[taboo]] [[analytic WLPO]] (see definition 7.3 and proposition 7.5 of [Bauer & Hanson 2026](#BauerHanson)). 
 
 The unprovability of this weak version of choice in neutral constructive mathematics also implies that one cannot factor every monic polynomial function $p(z)$ of degree $n$ into $n$ distinct monomials $(z - b_i)$ for $i \lt n$ such that $p(z) = \prod_{i \lt n} (z - b_i)$, since one would need to first construct the specified complex roots $b_i$. Thus, the complex numbers are not provably an [[algebraically closed field]]. 
 
@@ -618,7 +619,7 @@ For every [non-constant / positive degree / monic] [[polynomial function]] $p(z)
 This is essentially most of lemma 5 of [Geuvers, Wiedijk, & Zwanenburg 2000](#GWZ00), only one stops in the proof before one considers whether the limit of the Cauchy sequence exists or not. 
 \end{proof}
 
-Arguably, this approximate version of the fundamental theorem of algebra is what is important in constructive [[numerical analysis]]. 
+Arguably, this approximate version of the fundamental theorem of algebra is what is important in constructive [[numerical analysis]]. However, it is currently being debated [here](https://nforum.ncatlab.org/discussion/20169/square-root/#Item_0) whether the proof of this portion of Lemma 5 is actually valid in [[neutral constructive mathematics]] or requires some choice. 
 
 ## In reverse mathematics
 
@@ -679,6 +680,10 @@ A full formalization in the [[Rocq]] [[proof assistant]]:
 The [above proof](#ViaCellularCohomology) using [[integral cohomology]] of [[complex projective space]]:
 
 * {#Bruner2009} [[Robert Bruner]]: *cute proof*, message to [ALGTOP-L mailing list](https://rezk.web.illinois.edu/algtop-l/algtop-l.html) (1 Dec. 2009) &lbrack;[algtop-l:2009q4/000645](https://rezk.web.illinois.edu/algtop-l/archives2007-2023/2009q4/000645.html)&rbrack;
+
+The proof that one cannot prove the [[algebraic closure]] of the complex numbers in [[neutral constructive mathematics]] relies on theorems from
+
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 Discussion in the context of [[reverse mathematics]]:
 
