@@ -743,9 +743,10 @@ and the Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergra
 
 * {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
 
-see also
+see also:
 
-* {#NaitoOsadaKukui86} S. Naito, K. Osada, T. Fukui, *Fierz Identities and Invariance of Eleven-dimensional Supergravity Action*, Phys. Rev. D **34** (1986) 536-552 &lbrack;[spire:236376](http://inspirehep.net/record/236376), [doi:10.1103/PhysRevD.34.536](https://doi.org/10.1103/PhysRevD.34.536)&rbrack;
+* {#NaitoOsadaKukui86} S. Naito, K. Osada, T. Fukui: *Fierz Identities and Invariance of Eleven-dimensional Supergravity Action*, Phys. Rev. D **34** (1986) 536--552 &lbrack;[spire:236376](http://inspirehep.net/record/236376), [doi:10.1103/PhysRevD.34.536](https://doi.org/10.1103/PhysRevD.34.536), proof digest:[[NaitoOsadaFukui-FierzIdProof.pdf|pdf:file]]&rbrack;
+
 
 A textbook account of the representation ring method and summary of these results:
 
