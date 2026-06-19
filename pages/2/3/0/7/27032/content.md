@@ -30,10 +30,6 @@ There are various other results that are equivalent to the weak limited principl
 
 * The [[untruncated LLPO]] for the [[natural numbers]] is equivalent to the WLPO. 
 
-### Truncated and untruncated versions in dependent type theory
-
-In the context of [[dependent type theory]], the weak limited principle of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). Truncated WLPO and untruncated WLPO are equivalent to each other.
-
 ## Related statements
 
 * $WLPO$ follows from [[LPO]], but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $LPO$ gives
@@ -57,21 +53,6 @@ The idea behind the term "choiceless" is that one isn't forced to choose between
 We can also state the principle set-theoretically. The __choiceless weak limited principle of omniscience__ states that given [[subsets]] $P, Q \in \mathcal{P}(\mathbb{N})$, if $P \cup Q = \mathbb{N}$, then either $Q = \mathbb{N}$ or $\neg (P = \emptyset)$. One gets back the usual limited principle of omniscience if $P$ and $Q$ are [[disjoint subsets]] $P \cap Q = \emptyset$, from which $Q = \bar{P}$, where $\bar{P}$ is the [[complement]] of $P$. 
 
 The choiceless weak limited principle of omniscience for the natural numbers $\mathbb{N}$ implies the [[analytic weak limited principle of omniscience]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
-
-### Generalizing from the natural numbers to an arbitrary set
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of the weak limited principle of omniscience. 
-=--
-
-One can generalize from the [[natural numbers]] to arbitrary sets $A$. Given a set $A$, the **weak limited principle of omniscience for $A$** ($WLPO_A$) for the set $A$ states that the [[universal quantification]] of any [[decidable proposition]] on $A$ is again decidable. That is,
-$$(\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x \in A, P(x)) \vee \neg(\forall x \in A, P(x)).$$
-Equivalently, that the negation of the existential quantifier of any decidable proposition is decidable: 
-$$(\forall x \in A, P(x) \vee \neg{P(x)}) \Rightarrow (\neg \exists x \in A, P(x)) \vee \neg(\neg \exists x \in A, P(x)).$$
-
-We can also state the principle set-theoretically. Given a [[set]] $A$, the __weak limited principle of omniscience for $A$__ ($WLPO_A$) states that given a [[subset]] $P \in \mathcal{P}(A)$, if $P$ is a [[decidable subset]] of $A$ ($P \cup \bar{P} = A$), then either $\bar{P} = A$ or $\neg (P = \emptyset)$, where $\bar{P}$ is the [[complement]] of $P$. 
-
-If one takes the domains of quantification to be subsingletons, one gets [[weak excluded middle]] $\neg p \vee \neg \neg p$ ($WEM$), which is weaker than $EM$; conversely, $WEM$ implies $WLPO$ (over any domain). Again, Bishop\'s $WLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $WEM$ (and also weaker than $LPO_{\mathbb{N}}$). 
 
 ## Related concepts
 
@@ -106,6 +87,10 @@ If one takes the domains of quantification to be subsingletons, one gets [[weak 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 * {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
+
+* {#AgdaUnimath} [[Fredrik Bakke]], [[Jonathan Prieto-Cubides]], [[Egbert Rijke]], Louis Wasserman: *The weak limited principle of omniscience*, Agda-Unimath library for [[Agda]], &lbrack;[web](https://unimath.github.io/agda-unimath/foundation.weak-limited-principle-of-omniscience.html)&rbrack;
+
+* {#TypeTopology12} [[Martin Escardo]]: *Taboos.WLPO*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/Taboos.WLPO.html). 
 
 [[!redirects WLPO]]
 [[!redirects weak limited principle of omniscience]]
