@@ -107,5 +107,9 @@ Discussion of ([[higher derivative correction|higher derivative]]) corrections o
 
 * Michele Caselle, Elia Cellini, Alessandro Nada, Dario Panfalone, Lorenzo Verzichelli: *Intrinsic Width of the Flux Tube as a tool to explore confining mechanisms in Lattice Gauge Theories* \[<a href="https://arxiv.org/abs/2601.19520">arXiv:2601.19520</a>\]
 
+* Claudio Bonati, Michele Caselle, Alessio Negro, Dario Panfalone, Lorenzo Verzichelli: *Confining Flux Tube in the Trace Deformed $(2+1)$ Dimensional $SU(2)$ Gauge Theory* \[<a href="https://arxiv.org/abs/2606.20270">arXiv:2606.20270</a>\]
+
+
+
 
 
