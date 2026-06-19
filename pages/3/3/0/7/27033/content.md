@@ -222,36 +222,28 @@ This means that theories which accept both LPO and [[Brouwer's continuity princi
 
 ## In dependent type theory
 
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on the "disjunction-untruncated" and "quantifier-untruncated" versions of the limited principle of omniscience in [[dependent type theory]]. 
-=--
-
 In the context of [[dependent type theory]], the usual limited principle of omniscience is expressed as 
 
 $$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
 
-However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different versions of the limited principle of omniscience, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated:
+or equivalently, that the type $\mathbb{N}$ is [[exhaustible type|exhaustible]]. 
 
-* the usual limited principle of omniscience states that 
+However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different versions of the limited principle of omniscience, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated. 
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+* When the disjunction is truncated and the existential quantifier is truncated, the interpretation of LPO results in the usual concept of LPO that says $\mathbb{N}$ is an [[exhaustible type]]. 
 
-* the **disjunction-untruncated limited principle of omniscience** states that
+* When the disjunction is untruncated and the existential quantifier is truncated, the interpretation of LPO results in $\mathbb{N}$ being an [[exists-compact type|$\exists$-compact type]], see [Escardo 2018](#Escardo18).
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\exists x:\mathbb{N}.f(x) = 1\right) + \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+* When the disjunction is untruncated and the existential quantifier is untruncated, the interpretation of LPO results in $\mathbb{N}$ being a [[compact type]], see [Escardo 2011](#Escardo11). This is also known as the *untruncated LPO*. 
 
-* the **quantifier-untruncated limited principle of omniscience** states that
+* There is also the case where the disjunction is truncated and the existential quantifier is untruncated, but that remains undefined in the literature.  
 
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\sum_{x:\mathbb{N}} f(x) = 1\right) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
+Note that [Escard&#243; 11](#TTCT11) and [Escard&#243; 18](#TTWCT18) uses $\neg \exists x:A.f(x) = 1$ and $\neg \sum_{x:A} f(x) = 1$ instead of $\prod_{x:A} f(x) = 0$ to define $\exists$-compact and compact types. But one can show that $\neg \sum_{x:A} f(x) = 1$ is logically equivalent to $\prod_{x:A} \neg f(x) = 1$ in [[Martin-Lof type theory]], see [here](https://martinescardo.github.io/TypeTopology/MLTT.Negation.html#6079) for example, and $\neg f(x) = 1$ is $f(x) = 0$. And $\neg \exists x:A.f(x) = 1$ is just $\forall x:A.\neg f(x) = 1$ by the properties of [[intuitionistic logic]], which is equivalent to $\prod_{x:A} \neg f(x) = 1$ by [[weak function extensionality]]. 
 
-* the **fully untruncated limited principle of omniscience** states that
-
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \left(\left(\sum_{x:\mathbb{N}} f(x) = 1\right) + \prod_{x:\mathbb{N}} f(x) = 0\right)$$
-
-Let us begin with the equivalence of the various truncated versions of LPO with the usual untruncated version of LPO. 
+Let us begin with the equivalence of the usual truncated version of LPO with the untruncated version of LPO. 
 
 \begin{theorem}
-LPO implies the disjunction-untruncated LPO.  
+LPO implies that $\mathbb{N}$ is $\exists$-compact.  
 \end{theorem}
 
 This proof is due to Urs Schreiber from [here](https://nforum.ncatlab.org/discussion/18354/limited-principle-of-omniscience/?Focus=127196#Comment_127196). 
@@ -261,7 +253,7 @@ Let $f:\mathbb{N} \to \mathbb{2}$ be a sequence of booleans. We define the follo
 
 $$P \coloneqq \exists n:\mathbb{N}.f(n) = 1 \qquad Q \coloneqq \prod_{n:\mathbb{N}} f(n) = 0$$
 
-The fully truncated LPO is thus the statement $[P + Q]$, while the disjunction-untruncated LPO is the statement $P + Q$. 
+LPO is thus the statement $[P + Q]$, while the statement that $\mathbb{N}$ is $\exists$-compact is the statement $P + Q$. 
 
 Both $P$ and $Q$ are mere propositions, $P$ by definition of [[propositional truncation]] while $Q$ by [[weak function extensionality]] and the fact that equality on the booleans is a [[mere proposition]]. 
 
@@ -269,7 +261,7 @@ Secondly, we construct a function $(P \times Q) \to \emptyset$. Namely, suppose 
 
 Now, every given any two [[mere propositions]] $P$ and $Q$ with a function $(P \times Q) \to \emptyset$, the [[sum type]] $P + Q$ has a [[choice operator]] $[P + Q] \to (P + Q)$; see proof at the article [[choice operator]]. By applying the choice operator to our premise, the standard LPO provided by the element of $[P + Q]$, we extract a valid element of $P + Q$. 
 
-This established the disjunction-untruncated LPO. 
+This established that $\mathbb{N}$ is $\exists$-compact. 
 \end{proof}
 
 \begin{theorem}
@@ -281,7 +273,7 @@ See [Rijke 2022](#Rijke22) for a proof of the statement in [[dependent type theo
 \end{proof}
 
 \begin{theorem}
-The disjunction-untruncated LPO implies the fully untruncated LPO.  
+That $\mathbb{N}$ is $\exists$-compact implies that $\mathbb{N}$ is compact, i.e. the untruncated LPO.  
 \end{theorem}
 
 \begin{proof}
@@ -295,13 +287,21 @@ B & \rightarrow & B + C & \leftarrow & C \\
 $$
 Thus, since the type $\sum_{n:\mathbb{N}}.f(n) = 1$ has a choice operator, one can construct the function 
 $$\epsilon + \mathrm{id}_{\prod_{n:\mathbb{N}} f(n) = 0}$$
-from the disjunction-untruncated LPO
+from the type that indicates $\mathbb{N}$ is $\exists$-compact
 $$(\exists n:\mathbb{N}.f(n) = 1) + \left(\prod_{n:\mathbb{N}} f(n) = 0\right)$$ 
-to the fully untruncated LPO
+to the type that indicates $\mathbb{N}$ is compact
 $$\left(\sum_{n:\mathbb{N}} f(n) = 1\right) + \left(\prod_{n:\mathbb{N}} f(n) = 0\right)$$
+
+Hence, the untruncated LPO holds.
 \end{proof}
 
-* Truncated LPO and untruncated LPO are logically interderivable from each other. See 
+\begin{theorem}
+LPO and untruncated LPO are logically interderivable from each other. 
+\end{theorem}
+
+\begin{proof}
+The converses follow from the fact that by the inference rules of [[propositional truncations]], one has a function $\mathrm{trunc}_P:P \to [P]$ for all types $P$. 
+\end{proof}
 
 \begin{theorem}
 LPO is inconsistent with [[canonicity]] or [[homotopy canonicity]] in [[dependent type theory]]. 
@@ -415,11 +415,15 @@ For the set of truth values $\Omega$, the limited principle of omniscience $\mat
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
 
-These references call the fully untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the fully truncated version. 
+These references call the untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the truncated version. 
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 * {#Escardo17} [[Martin Escardo]]: *Taboos.LPO*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/Taboos.LPO.html). 
+
+* {#Escardo11} [[Martin Escardo]]: *TypeTopology.CompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.CompactTypes.html). 
+
+* {#Escardo18} [[Martin Escardo]]: *TypeTopology.WeaklyCompactTypes*, TypeTopology Agda library, [web](https://martinescardo.github.io/TypeTopology/TypeTopology.WeaklyCompactTypes.html). 
 
 [[!redirects LPO]]
 [[!redirects limited principle of omniscience]]
@@ -440,50 +444,6 @@ These references call the fully untruncated limited principle of omniscience for
 [[!redirects untruncated LPO]]
 [[!redirects untruncated limited principle of omniscience]]
 [[!redirects untruncated limited principles of omniscience]]
-
-[[!redirects disjunction-untruncated LPO]]
-[[!redirects disjunction-untruncated limited principle of omniscience]]
-[[!redirects disjunction-untruncated limited principles of omniscience]]
-
-[[!redirects disjunction untruncated LPO]]
-[[!redirects disjunction untruncated limited principle of omniscience]]
-[[!redirects disjunction untruncated limited principles of omniscience]]
-
-[[!redirects existential-quantifier-untruncated LPO]]
-[[!redirects existential-quantifier-untruncated limited principle of omniscience]]
-[[!redirects existential-quantifier-untruncated limited principles of omniscience]]
-
-[[!redirects existential quantifier untruncated LPO]]
-[[!redirects existential quantifier untruncated limited principle of omniscience]]
-[[!redirects existential quantifier untruncated limited principles of omniscience]]
-
-[[!redirects existential-quantification-untruncated LPO]]
-[[!redirects existential-quantification-untruncated limited principle of omniscience]]
-[[!redirects existential-quantification-untruncated limited principles of omniscience]]
-
-[[!redirects existential quantification untruncated LPO]]
-[[!redirects existential quantification untruncated limited principle of omniscience]]
-[[!redirects existential quantification untruncated limited principles of omniscience]]
-
-[[!redirects quantifier-untruncated LPO]]
-[[!redirects quantifier-untruncated limited principle of omniscience]]
-[[!redirects quantifier-untruncated limited principles of omniscience]]
-
-[[!redirects quantifier untruncated LPO]]
-[[!redirects quantifier untruncated limited principle of omniscience]]
-[[!redirects quantifier untruncated limited principles of omniscience]]
-
-[[!redirects quantification-untruncated LPO]]
-[[!redirects quantification-untruncated limited principle of omniscience]]
-[[!redirects quantification-untruncated limited principles of omniscience]]
-
-[[!redirects quantification untruncated LPO]]
-[[!redirects quantification untruncated limited principle of omniscience]]
-[[!redirects quantification untruncated limited principles of omniscience]]
-
-[[!redirects fully untruncated LPO]]
-[[!redirects fully untruncated limited principle of omniscience]]
-[[!redirects fully untruncated limited principles of omniscience]]
 
 [[!redirects choiceless LPO]]
 [[!redirects choiceless limited principle of omniscience]]
