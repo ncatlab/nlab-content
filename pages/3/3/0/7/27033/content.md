@@ -222,6 +222,10 @@ This means that theories which accept both LPO and [[Brouwer's continuity princi
 
 ## In dependent type theory
 
++-- {: .standout}
+This section appears to be original research, as there doesn't seem to be any existing literature on the distinction between a "truncated" LPO and an "untruncated" LPO. 
+=--
+
 In the context of [[dependent type theory]], the usual limited principle of omniscience is expressed as 
 
 $$\prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \vee \left(\prod_{x:\mathbb{N}} f(x) = 0\right)$$
