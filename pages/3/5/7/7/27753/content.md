@@ -203,6 +203,9 @@ Further discussion:
 
 * Zhengyan Darius Shi, T. Senthil: *Doping a fractional quantum anomalous Hall insulator* &lbrack;[arXiv:2409.20567](https://arxiv.org/abs/2409.20567)&rbrack;
 
+* Zhengyan Darius Shi, T. Senthil: *Non-Abelian topological superconductivity from melting Abelian fractional Chern insulators* \[<a href="https://arxiv.org/abs/2512.17996">arXiv:2512.17996</a>\]
+
+
     
 
 The case of [[crystalline topological insulators]] and [[symmetry protected topological order]]:
@@ -242,7 +245,6 @@ See also:
 
 
 
-
 #### Anyonic states
   {#ReferencesFQAHAnyons}
 
@@ -271,6 +273,9 @@ On [[anyons]] in FQAH systems:
 * Tianhong Lu, Luiz H. Santos: *Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints* &lbrack;[arXiv:2601.14365](https://arxiv.org/abs/2601.14365)&rbrack;
 
 * Kishore Iyer, Andreas Feuerpfeil, Valentin Crépel, [[Nicolas Regnault]], Christophe Mora: *Dispersion of Anyon Bloch Bands* &lbrack;[arXiv:2604.24859](https://arxiv.org/abs/2604.24859)&rbrack;
+
+* Zhengyan Darius Shi, T. Senthil: *Superconductivity and non-Fermi liquid metals in a charge-$1/3$ anyon fluid* &lbrack;[arXiv:2606.20403](https://arxiv.org/abs/2606.20403)&rbrack;
+
 
 
 
