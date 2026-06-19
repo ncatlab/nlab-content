@@ -182,6 +182,10 @@ To pun: the _affine metaphysics_ suggested by the antithesis interpretation prom
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
+On the [[Heine-Borel theorem]] in the antithesis interpretation:
+
+* [[Kazumi Kasaura]], *Compactness in Constructive Mathematics via Affine Logic* &lbrack;[arXiv:2602.19003](https://arxiv.org/abs/2602.19003)&rbrack;
+
 Some discussion about the antithesis interpretation occurred in:
 
 * *One universe as a foundation & friends*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229136-theory.3A-category-theory/topic/One.20universe.20as.20a.20foundation.20.26.20friends))
