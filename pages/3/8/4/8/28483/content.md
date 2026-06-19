@@ -64,10 +64,6 @@ In [[classical mathematics]] and in [[constructive mathematics]] which accepts [
 
 ### LPO and Phoa's principle
 
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on the relation between the set of quasidecidable propositions, the [[limited principle of omniscience]], and [[Phoa's principle]]. Note that the material in this section originally appeared on the article [[limited principle of omniscience]] before being moved here, so please check that article for the history of this material. 
-=--
-
 In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the set of quasidecidable truth values is just the [[boolean domain]] $\mathbb{2}$. In fact, we have  the following: 
 
 \begin{theorem}
