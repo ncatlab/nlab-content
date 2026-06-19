@@ -78,14 +78,6 @@ We can also state the principle set-theoretically. The __choiceless Markov's pri
 
 The choiceless Markov's principle implies the [[analytic Markov's principle]] for all sets of [[real numbers]], as shown in [King 2024](#King24). 
 
-### Generalizations from the natural numbers to an arbitrary set
-
-+-- {: .standout}
-This section appears to be original research, as there doesn't seem to be any existing literature on such a generalization of Markov's principle. 
-=--
-
-More generally, [[Toby Bartels]] has suggested that a [[set]] $S$ may be called _Markovian_ if Markov's principle holds for all [[predicates]] or [[subsets]] on $S$. Every Kuratowski-[[finite set]] is Markovian, for example.
-
 ## Related concepts
 
 * [[principle of omniscience]]
@@ -222,6 +214,3 @@ category: foundational axiom
 [[!redirects choiceless Марков's Rule]]
 [[!redirects choiceless Марков\'s Rule]]
 [[!redirects choiceless Марков/'s Rule]]
-
-[[!redirects Markovian set]]
-[[!redirects Markovian sets]]
