@@ -58,11 +58,15 @@ Now controllability of the original system corresponds to observability of the d
 Duality in this vein extends to many kinds of automata, nonlinear dynamical systems, hidden Markov models, etc.
 In ([HK77](#HK77)), the authors write "duality between 'controllability' and 'observability' ... is, mathematically, just the duality between vector fields and differential forms", we may see the duality then as a [[concept with an attitude]].
 
+## Separation principle
+
+When a system is both fully controllable and observable, the so-called *separation principle* establishes that the design of a feedback controller and of a state observer are mutually independent. This facilitates the design of a closed-loop system with feedback from estimated states.
+
 ## Bialgebraic description
 
 Often dualities of this form can be set in the framework of a [[bialgebra]] where a [[dynamical system|system]]'s evolution and its outputs are described as $F(X) \to X \to G(X)$ for $X$ an object of a category $\mathcal{C}$ and two endofunctors, $F$ and $G$, on $\mathcal{C}$. 
 
-Suppose $F$ has an [[initial algebra for an endofunctor|initial algebra]], $\mu F$, and $G$ has a [[terminal coalgebra for an endofunctor|terminal coalgebra]], $\nu G$, the unique map from $\mu F$ to $X$ being an [[epimorphism]] corresponds to controllability, and the unique map from $X$ to $\nu G$ being a [[monomorphism]] corresponds to observability.
+Suppose $F$ has an [[initial algebra for an endofunctor|initial algebra]], $\mu F$, and $G$ has a [[terminal coalgebra for an endofunctor|terminal coalgebra]], $\nu G$, the unique map $r: \mu F \to X$ being an [[epimorphism]] corresponds to reachability/controllability, and the unique map $o:X \to \nu G$ being a [[monomorphism]] corresponds to observability.
 
 There is generally a [[contravariant functor]], $D$, which plays a dualizing role, and then [[natural transformations]] $F D \to D G$ and $D F \to G D$ allow us to see $D(X)$ also as a bialgebra, $F D(X) \to D G(X) \to D(X) \to D F(X) \to G D(X).$ 
 
@@ -71,6 +75,7 @@ One example of this is given in [[Set]] where $F(X) = 1 + A \times X$ and $G(X) 
 Brzozowski's double-reversal minimisation algorithm for deterministic finite automata may be seen through this lens  as applying dualization then restricting to the reachable subpart twice.
 
 In the finite linear case, the relevant bialgebra is $U \oplus X \to X \to Y \oplus X$. The initial algebra is $\bigoplus_{i \in \mathbb{N}} U$, and the terminal coalgebra is $\prod_{i \in \mathbb{N}} Y$. These are infinite-dimensional and correspond to finite sequences of elements of $U$ and streams of elements of $Y$. Dualization here is to the [[dual vector space]].
+
 
 ## References  
 
