@@ -1773,6 +1773,9 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
 
+* [[Ben Knudsen]], Dezhou Li: *Configuration spaces and the Arone--Mahowald theorem* &lbrack;[arXiv:2606.20248](https://arxiv.org/abs/2606.20248)&rbrack;
+
+
 On the [[Hopf algebra]] structure of configuration spaces of disks:
 
 * Stephen Bigelow, Jules Martel, *Quantum groups from homologies of configuration spaces* &lbrack;[arXiv:2405.06982](https://arxiv.org/abs/2405.06982)&rbrack;
