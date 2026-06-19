@@ -64,6 +64,8 @@ The latter two are all still weaker than [[Set]] being a [[boolean category]] si
 
 * {#Richman90} [[Fred Richman]]: *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
 
+* {#Escardo13} [[Martín Escardó]]: *Infinite sets that satisfy the principle of omniscience in any variety of constructive mathematics.* The Journal of Symbolic Logic, Vol 78, September 2013, pp. 764-784. &lbrack;[doi:10.2178/jsl.7803040](https://doi.org/10.2178/jsl.7803040), [pdf](https://martinescardo.github.io/papers/omniscient-journal-revised.pdf)&rbrack;
+
 * {#King24} Christopher King, *What are these generalizations of the principles of omniscience called?*, MathOverflow, 15 February 2024. ([web](https://mathoverflow.net/questions/464247/what-are-these-generalizations-of-the-principles-of-omniscience-called))
 
 [[!redirects principle of omniscience]]
