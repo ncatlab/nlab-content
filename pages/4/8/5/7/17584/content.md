@@ -62,6 +62,10 @@ An example of the badly behaved case -- where the transformation is not monoidal
 
 * {#Shulman22} [[Michael Shulman]], *Affine logic for constructive mathematics*, Bulletin of Symbolic Logic **28** 3 (2022) 327-386 &lbrack;[arXiv:1805.07518](https://arxiv.org/abs/1805.07518), [doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28)&rbrack;
 
+On [[compact spaces]] in [[topology]] and the [[Heine-Borel theorem]] in affine logic:
+
+* [[Kazumi Kasaura]], *Compactness in Constructive Mathematics via Affine Logic* &lbrack;[arXiv:2602.19003](https://arxiv.org/abs/2602.19003)&rbrack;
+
 See also:
 
 * Wikipedia, *[Affine logic](https://en.wikipedia.org/wiki/Affine_logic)*
