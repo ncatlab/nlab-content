@@ -132,7 +132,13 @@ As a result, the any one of these can be used in the definition of a real closed
 ### Real closure of the real numbers
 {#OfConstructiveReals}
 
-For any field of [[real numbers]], it is provable that the real numbers are a real closed field in the sense that for all non-negative real numbers there exist a [[real square root]], and for every odd degree polynomial functions on the real numbers, there exist a root of the polynomial function. However, the real numbers themselves are not provably a real closed field in the sense that for any odd-degree polynomial function with coefficients in the reals one can construct a specified root in the reals. To show that this is the case, we turn to reframing the definitions of a real closed field in terms of surjectivity and having [[right inverses]] of real polynomial functions so that one can show that the equivalence of the definitions is equivalent to a weak form of choice. 
+For some fields of [[real numbers]], such as the [[Dedekind real numbers]], it is not provable that the real numbers are a real closed field in the sense that for all non-negative real numbers there exist a [[real square root]], and for every odd degree polynomial functions on the real numbers, there exist a root of the polynomial function. [Ruitenburg 1991](#Ruitenburg91) states that 
+
+> if we are able to construct a solution $x$ of an equation $f(x) = 0$ over the (Dedekind) reals using topos intuitionism, then $x$ is locally continuous in the parameters of the equation. So, for example, we cannot show the existence of a solution of $X^3 + p X + q = 0$ over the (Dedekind) reals when $(p, q)$ is close to $(0, 0)$, because it would imply the existence of a continuous solution $X(p, q)$ in a neighborhood of $(0, 0)$ [6]. 
+
+Hence not all monic polynomial functions over the Dedekind real numbers with odd degree can be shown to satisfy the [[intermediate value theorem]]. 
+
+Furthermore, any set of real numbers themselves are not provably a real closed field in the sense that for any odd-degree polynomial function with coefficients in the reals one can construct a specified root in the reals. To show that this is the case, we turn to reframing the definitions of a real closed field in terms of surjectivity and having [[right inverses]] of real polynomial functions so that one can show that the equivalence of the definitions is equivalent to a weak form of choice. 
 
 Let $p(z) = \sum_{i \leq n} a_n z^n$ be a polynomial function on the real numbers. Every such $p(z)$ can be written as the sum of a constant $a_0$ and a polynomial function $q(z) = \sum_{1 \leq i \leq n} a_n z^n$ with a [[fixed point]] at zero. As a result, the statement that there exists a real number $z$ such that $p(z) = 0$ is equivalently the statement that there exists a real number $z$ such that $q(z) = b$, where $b = -a_0$. Thus, one can rewrite one of the conditions in the first definition of a real closed field as:
 
@@ -181,6 +187,8 @@ The unprovability of this weak version of choice in neutral constructive mathema
 * [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
 * David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
+
+* {#Ruitenburg91} [[Wim Ruitenburg]]: *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–-128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenburg-Roots.pdf:file]]&rbrack;
 
 * {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
