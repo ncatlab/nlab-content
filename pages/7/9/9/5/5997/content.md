@@ -151,7 +151,7 @@ The general abstract statement is in
 
 A [[model category]]-theoretic discussion is in section 8 of
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf))
  
 
 Discussion in [[homotopy type theory]] is in 
