@@ -407,7 +407,7 @@ in some [[category]] (def. \ref{Diagram}). Then
 If $J$ is a [[directed graph]] with [[free category]] $F(J)$, then a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.
 =--
 
-Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a quiver and $U\colon Cat \to Quiv$ the underlying quiver of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a quiver, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
+Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a [[quiver]] and $U\colon Cat \to Quiv$ the underlying quiver of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a quiver, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
 
 
 ## Remarks
