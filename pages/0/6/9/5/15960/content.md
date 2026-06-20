@@ -34,9 +34,9 @@ Introducing an [[axiom]] to this system just means postulating terms of (the typ
 
 * **$n$-truncation** -- For the language inside an [[(infinity,n)-category]] one demands that all [[k-morphisms]] for $k \geq n+1$ are marked as [[equivalences]];
 
-* **$k$-adjoints** -- To axiomatize that two $k$-morphism are [[left adjoint]] and [[right adjoint]] to each other, respectively, one postulates the existence of $k+1$-morphisms serving as [[unit of an adjunction]] and [[counit of an adjunction]] and of a [[3-morphism]] marked as [[equivalence]] which axiomatizes the [[zig-zag identities]].
+* **$k$-adjoints** -- To axiomatize that two $k$-morphisms are [[left adjoint]] and [[right adjoint]] to each other, respectively, one postulates the existence of $k+1$-morphisms serving as [[unit of an adjunction]] and [[counit of an adjunction]] and of a [[3-morphism]] marked as [[equivalence]] which axiomatizes the [[zig-zag identities]].
 
-Imposing $n$-trunction and adjoints for all [[k-morphisms]] for $0 \leq k \leq n$ therefore axiomatizes the language for a [[free construction|free]] [[(infinity,n)-category with adjoints]] on a single object. Categorical looping (which is immediate and primitive in the system, as above) hence gives the [[free construction|free]] [[(infinity,n)-category with duals]] on a single object. 
+Imposing $n$-truncation and adjoints for all [[k-morphisms]] for $0 \leq k \leq n$ therefore axiomatizes the language for a [[free construction|free]] [[(infinity,n)-category with adjoints]] on a single object. Categorical looping (which is immediate and primitive in the system, as above) hence gives the [[free construction|free]] [[(infinity,n)-category with duals]] on a single object. 
 
 This is the structure to which the [[cobordism hypothesis]] applies. Of course the proof of the cobordism hypothesis is not formulated in opetopic type theory and one would have to show that the language it is formulated in is suitably equivalent to that of opetopic type theory, but inspection in low dimension shows that the [[higher dimensional traces]] that opetopic type theory produces are of just the right kind.
 
