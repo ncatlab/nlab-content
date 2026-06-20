@@ -24,7 +24,7 @@ They are a weaker [[structure]] than [[fibered categories]], but still allow one
 
 A [[functor]] $P\colon \mathbf{X} \to \mathbf{B}$ makes its [[domain]] [[category]] $\mathbf{X}$ a *foliated category* (over $\mathbf{B}$) if the following conditions hold:
 
-1. Every [[morphism]] $f$ in $\mathbf{X}$ factors as a $P$-vertical morphism $v$ (i.e. $P(v)$ is an identity morphism in $\mathbf{B}$), followed by a [weak](Cartesian+morphism+WeakCartesianMorphisms) $P$-[[cartesian morphism]] $k$, i.e. $f = k\circ v$, 
+1. Every [[morphism]] $f$ in $\mathbf{X}$ factors as a $P$-vertical morphism $v$ (i.e. $P(v)$ is an identity morphism in $\mathbf{B}$), followed by a [weak](Cartesian+morphism#WeakCartesianMorphisms) $P$-[[cartesian morphism]] $k$, i.e. $f = k\circ v$, 
 
 1. The [[class]] of [weak](Cartesian+morphism+WeakCartesianMorphisms) $P$-[[cartesian morphisms]] is closed under [[composition]]. 
 
