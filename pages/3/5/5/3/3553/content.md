@@ -31,7 +31,7 @@ If $D$ is the one-object category, an algebra $(X,\alpha)$ is given by an object
 
 There is an an obvious [[forgetful functor]] into $C$ from the category of algebras for $H$, which sends each algebra to its carrier and each algebra morphism to its underlying morphism in $C$; among other properties, this functor is always [[faithful]] and [[conservative functor|conservative]].
 
-In fact, the category $Alg(H)$, together with its forgetful functor $U\colon Alg(H)\to C$, has the universal property of an [[Eilenberg-Moore object]], namely that of being the _universal_ $H$-algebra.  Specifically, it is a [[terminal object]] in the category whose objects are functors $G\colon D\to C$ equipped with an [[extranatural transformation]] $\ast \to H(G-,G?)$.  For such an extranatural transformation consists of, for every $d\in D$, an element $\xi_d \in H(G d,G d)$, such that for every morphism $v\colon d\to e$ in $D$, we have $H(id_d,v)(\xi_d) = H(v,id_e)(\xi_e)$.  This is precisely the data of a functor $D\to Alg(H)$ lying over $C$.
+In fact, the category $Alg(H)$, together with its forgetful functor $U\colon Alg(H)\to C$, has the universal property of being the _universal_ $H$-algebra.  Specifically, it is a [[terminal object]] in the category whose objects are functors $G\colon D\to C$ equipped with an [[extranatural transformation]] $\ast \to H(G-,G?)$.  For such an extranatural transformation consists of, for every $d\in D$, an element $\xi_d \in H(G d,G d)$, such that for every morphism $v\colon d\to e$ in $D$, we have $H(id_d,v)(\xi_d) = H(v,id_e)(\xi_e)$.  This is precisely the data of a functor $D\to Alg(H)$ lying over $C$.
 
 ## Coalgebras in Prof
 
