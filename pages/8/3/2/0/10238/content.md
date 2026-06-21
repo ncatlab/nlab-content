@@ -1,5 +1,13 @@
 
-* [webpage](http://fy.chalmers.se/~tfebn/)
+Bengt E. W. Nilsson
+
+* [personal page](http://fy.chalmers.se/~tfebn/)
+
+* [inSpire page](https://inspirehep.net/authors/995599)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=7Yi8iGcAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Bengt-E-W-Nilsson-6612416)
 
 ## Selected writings
 
@@ -8,7 +16,7 @@ On [[Kaluza-Klein compactification]] in [[supergravity]]:
 
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
 
-* [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2502.07710](https://arxiv.org/abs/2502.07710)&rbrack;
+* [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity -- Part II: Structure and Properties of Sugra*, Cambridge University Press (2026) 119--131 &lbrack;[arXiv:2502.07710](https://arxiv.org/abs/2502.07710), [doi:10.1017/9781009575874.018](https://doi.org/10.1017/9781009575874.018)&rbrack;
 
 
 On the [[partition function]] of the [[superstring]] ([[heterotic string theory|heterotic string]] and [[type II string theory|type II string]]) as a [[modular form]] with values in the [[Chern character]] of the [[background field|background]] [[field strengths]] ("character-valued partition function", then also called the *[[elliptic genus]]*/*[[Witten genus]]*) and relation to [[Green-Schwarz anomaly cancellation]]:
