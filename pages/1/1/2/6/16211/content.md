@@ -1,5 +1,5 @@
 
-Lars Brink (1949-2022)
+Lars Brink (1943-2022)
 
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Lars_Brink)
@@ -8,9 +8,13 @@ Lars Brink (1949-2022)
 
 * [[Bengt E. W. Nilsson]], Björn Jonson: *Lars Brink -- November 12, 1943 - October 29, 2022* &lbrack;[arXiv:2403.03776](https://arxiv.org/abs/2403.03776)&rbrack;
 
+* [[François Englert]]: *Lars Brink (1943–2022)*, Int. J. Mod. Phys. A **39** 36 (2024) 2447001 \[<a href="https://doi.org/10.1142/S0217751X24470018">doi:10.1142/S0217751X24470018</a>\]
+
 * George Savvidy: *Lars Brink Colleague, Friend and Collaborator* &lbrack;[arXiv:2408.09374](https://arxiv.org/abs/2408.09374)&rbrack;
 
+
 * [[Paolo Di Vecchia]]: *Remembering Lars Brink and some of his work* &lbrack;[arXiv:2501.02498](https://arxiv.org/abs/2501.02498)&rbrack;
+
 
 
 
