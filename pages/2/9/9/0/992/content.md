@@ -237,7 +237,7 @@ If $k$ has characteristic 0, then all these three concepts become equivalent.
 Let $C$ and $D$ be [[(infinity,1)-category|(∞,1)-categories]] and
 $Func(C,D)$ the [[(∞,1)-category of (∞,1)-functors]] between them.
 
-Its [[stabilization]] is equivalent to the functor category into the stabilization of $C$:
+Its [[stabilization]] is equivalent to the functor category into the stabilization of $D$:
 
 $$
   Stab(Func(C,D)) \simeq Func(C,Stab(D))
