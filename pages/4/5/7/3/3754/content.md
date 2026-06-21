@@ -52,7 +52,7 @@ Whereas with both $\beta, \eta$, a function type $A \to B$ can be described as a
 
 An early reference for semifunctors (there called "weak functors") is:
 
-- B. Elkins and J. A. Zilber. _Categories of actions and Morita equivalence_, The Rocky Mountain Journal of Mathematics **6** 2 (1976): 199-225.
+- B. Elkins and J. A. Zilber. _Categories of actions and Morita equivalence_, The Rocky Mountain Journal of Mathematics **6** 2 (1976): 199-225. [url](https://www.jstor.org/stable/44236101)
 
 The terminology *semifunctors* originates in 
 
