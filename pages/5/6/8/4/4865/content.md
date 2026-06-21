@@ -245,9 +245,9 @@ using further lemmas and then heavy computer algebra checks ([here](/schreiber/s
 
 With focus on the [[Kaluza-Klein compactification]] to 4d [[anti de Sitter spacetime]]:
 
-* {#DuffNilssonPope86} [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+* {#DuffNilssonPope86} [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1--142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
 
-* [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2502.07710](https://arxiv.org/abs/2502.07710)&rbrack;
+* [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity -- Part II: Structure and Properties of Sugra*, Cambridge University Press (2026) 119--131 &lbrack;[arXiv:2502.07710 hep-th](https://arxiv.org/abs/2502.07710), [doi:10.1017/9781009575874.018](https://doi.org/10.1017/9781009575874.018)&rbrack;
 
 
 The history as of the 1990s, with an eye towards the development to [[M-theory]]:
