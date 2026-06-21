@@ -229,7 +229,7 @@ From ([Adamek-Rosick&#253;](#AdamekRosicky)) the "only if"-direction follows imm
 ### General
 
 
-A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, by Prop. \ref{ReflectiveSubcategoryInclusionIsMonadic}, [hence](monadic+functor#MonadicFunctorsCreateLimits) creates limits, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
+A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, by Prop. \ref{ReflectiveSubcategoryInclusionIsMonadic}, [hence](monadic+functor#MonadicFunctorsCreateLimits) creates limits, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.6.14](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
@@ -366,7 +366,7 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 The subcategory
 $$ Cat \hookrightarrow sSet$$
-of the [[category of categories]] into the [[sSet|category of simplical sets]] is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [[homotopy category|homotopy category functor]]. This implies that [[Cat]] is complete and cocomplete because it inherits all limits and colimits from [[sSet]].
+of the [[category of categories]] into the [[sSet|category of simplical sets]] is a reflective subcategory [Riehl, example 4.6.13 (vi)](#Riehl). The reflection is given by the [[homotopy category|homotopy category functor]]. This implies that [[Cat]] is complete and cocomplete because it inherits all limits and colimits from [[sSet]].
 =--
 
 +-- {: .num_example #ModelsOfALawvereTheory}
