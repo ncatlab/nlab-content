@@ -16,9 +16,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -442,6 +441,8 @@ This is in the proof of ([Quillen, theorem. 4.4](#Quillen)).
 
 
 ## Related concepts
+
+* [[derived bracket]]
 
 * [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
 
