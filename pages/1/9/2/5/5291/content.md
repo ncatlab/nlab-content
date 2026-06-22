@@ -164,9 +164,9 @@ This is also called the **Kostant-Souriau central extension**
 
 ## References
 
-* [[Yvette Kosmann-Schwarzbach]],  _Poisson algebra_, article in _Encyclopedia of mathematics_, ([pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf))
+* [[Yvette Kosmann-Schwarzbach]]: _Poisson algebra_, article in _Encyclopedia of mathematics_ &lbrack;[pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf)&rbrack;
 
-* [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
+* [[Klaas Landsman]]: _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
 
 * N. Chriss, [[Victor Ginzburg]], _Complex geometry and representation theory_
 
