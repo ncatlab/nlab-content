@@ -245,6 +245,8 @@ using further lemmas and then heavy computer algebra checks ([here](/schreiber/s
 
 With focus on the [[Kaluza-Klein compactification]] to 4d [[anti de Sitter spacetime]]:
 
+* [[Eugene Cremmer]]: *Dimensional reduction in field theory and hidden symmetries in extended supergravity*, in: *Supergravity '81*, Cambridge University Press (1982) 313--368 &lbrack;[ark:/13960/t4pm2rb2m](archive.org/details/supergravity81pr0000scho), [spire:168547](https://inspirehep.net/literature/168547), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1981/8112/8112037.pdf), [[Cremmer-DimensionalReduction.pdf|pdf:file]]&rbrack;
+
 * {#DuffNilssonPope86} [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1--142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
 
 * [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity -- Part II: Structure and Properties of Sugra*, Cambridge University Press (2026) 119--131 &lbrack;[arXiv:2502.07710 hep-th](https://arxiv.org/abs/2502.07710), [doi:10.1017/9781009575874.018](https://doi.org/10.1017/9781009575874.018)&rbrack;
