@@ -232,7 +232,7 @@ The claim of the derivation of $D=11$ supergravity in [[supergeometry]], by solv
 
 * {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
-and in the mild variation (using a manifestly [[duality-symmetric C-field|duality-symmetric]] super-[[supergravity C-field|C-field]] [[flux density]]) due to
+and in the mild variation (using a manifestly [[duality-symmetric C-field|duality-symmetric]] super-[[supergravity C-field|C-field]] [[flux density]]) in:
 
 * [Castellani, D'Auria & Fré 1991, §III.8.5](#CastellaniDAuriaFré91)
 
@@ -241,6 +241,11 @@ A proof of this claim is laid out in
 * {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456 hep-th](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
 
 using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
+
+On the component expansion of the fields on superspace:
+
+* [[Dimitrios Tsimpis]]: *Curved 11D Supergeometry*, J. Jigh Energy Physics 0411:087 (2004) \[<a href="https://doi.org/10.1088/1126-6708/2004/11/087">doi:10.1088/1126-6708/2004/11/087</a>, [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)\]
+
 
 
 With focus on the [[Kaluza-Klein compactification]] to 4d [[anti de Sitter spacetime]]:
