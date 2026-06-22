@@ -4,7 +4,7 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 ## Selected works
 
-#### Algebraic geometry and mathematical physics
+#### Algebraic geometry
 
 * Caucher Birkar, Jia Jia, Artan Sheshmani, Sheaf stable pairs, Quot schemes and Birational geometry, Nagoya Mathematical Journal, Accepted (2026), 44 pages, arXiv:2406.00230
 
