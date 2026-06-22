@@ -119,6 +119,10 @@ A proof of this claim is laid out in
 
 using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
 
+On the component expansion of fields in [[11D supergravity]] on superspace:
+
+* [[Dimitrios Tsimpis]]: *Curved 11D Supergeometry*, J. Jigh Energy Physics 0411:087 (2004) \[<a href="https://doi.org/10.1088/1126-6708/2004/11/087">doi:10.1088/1126-6708/2004/11/087</a>, [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)\]
+
 
 
 ### For T-duality
