@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -337,9 +337,12 @@ A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms 
 
 On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]]:
 
-* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
+* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140 math-ph](https://arxiv.org/abs/2507.00140)&rbrack;
 
-[[!redirects covariant derivative]]
 [[!redirects covariant derivatives]]
 
 [[!redirects covariant differentiation]]
+
+[[!redirects covariant Lie derivative]]
+[[!redirects covariant Lie derivatives]]
+
