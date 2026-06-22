@@ -15,9 +15,8 @@
 
 > ... under construction ...
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -27,18 +26,21 @@ In terms of [[rational homotopy theory]] $aut(\mathfrak{g})$ is a model for the 
 
 ## Definition
 
-Let $A := (\wedge^\bullet \mathfrak{a}^*, d_A)$ be a [[semifree dga|semifree]] [[dg-algebra]] of [[finite type]].
+Let $A \coloneqq (\wedge^\bullet \mathfrak{a}^*, d_A)$ be a [[semifree dga|semifree]] [[dg-algebra]] of [[finite type]].
 
 Notice that for $\phi : A \to A$ a [[derivation]] of degree $-k$ and $\lambda : A\to A$ another derivation of degree $-l$ the [[commutator]]
 
 $$
-  [\phi,\lambda] := \phi \circ \lambda - \lambda \circ \phi : A \to A
+  [\phi,\lambda] 
+    \coloneqq 
+  \phi \circ \lambda - \lambda \circ \phi 
+  \;\;\colon \; A \to A
 $$
 
 is itself a derivation, of degree $-(k+l)$. In particular, since the [[differential]] $d_A : A \to A $ is itself a derivation of degree +1, we have that
 
 $$
-  d_A \phi := [d_A, \phi] : A \to A
+  d_A \phi \coloneqq [d_A, \phi] \;\;:\;\; A \to A
 $$
 
 is a derivation of degree $-(k+1)$.
@@ -53,7 +55,7 @@ The [[∞-Lie algebra]] $aut(A)$ is the [[dg-Lie algebra]] which
 
 * in degree $0$ the derivations that commute with the differential $d_A$
 
-* whose differential $\delta_{aut(A)} := [d_A,-]$ is given by the commutator with the differential of $A$;
+* whose differential $\delta_{aut(A)} \coloneqq [d_A,-]$ is given by the commutator with the differential of $A$;
 
 * whose Lie bracket is the commutator $[\phi,\lambda] = \phi \circ \lambda - \lambda \circ \phi$.
 
