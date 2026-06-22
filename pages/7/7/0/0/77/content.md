@@ -8,9 +8,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -216,7 +215,13 @@ See
 
   * [[Lie algebra contraction]]
 
+* [[Lie coalgebra]]
+
 * [[Leibniz algebra]]
+
+* [[dg-Lie algebra]]
+
+  * [[derived bracket]]
 
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
@@ -226,7 +231,7 @@ See
 
 * [[L-∞ algebroid]], [[smooth ∞-groupoid]]
 
-* [[Lie coalgebra]]
+
 
 [[!include infinitesimal and local - table]]
 
