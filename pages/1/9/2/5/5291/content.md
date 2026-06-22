@@ -178,6 +178,9 @@ Discussion of [[Lie integration]] of the Poisson brackets on non-compact manifol
 
 * Augustin Banyaga, Paul Donato, *Some remarks on the integration of the Poisson algebra*, Journal of Geometry and Physics **19** 4 (1996) 368-378 &lbrack;<a href="https://doi.org/10.1016/0393-0440(95)00039-9">doi:10.1016/0393-0440(95)00039-9</a>&rbrack;
 
+In relation to [[Gerstenhaber algebras]]:
+
+* {#Kosmann-Schwarzbach1996} [[Yvette Kosmann-Schwarzbach]]: *From Poisson algebras to Gerstenhaber algebras*, Annales de l’institut Fourier, tome 46, no 5 (1996) 1243--1274 \[<a href="http://www.numdam.org/item?id=AIF_1996__46_5_1243_0">numdam:AIF_1996__46_5_1243_0</a>\]
 
 
 
