@@ -1,7 +1,18 @@
 
-* [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Lichnerowicz)
+André Lichnerowicz (1915--1998)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Andr%C3%A9_Lichnerowicz)
+
+* [inSpire page](https://inspirehep.net/authors/1050493)
+
+* *André Lichnerowicz (1915–1998)*, Notices of the AMS (Dec. 1999) &lbrack;[pdf](https://www.ams.org/notices/199911/mem-lichnerowicz.pdf), full issue:[pdf](https://www.ams.org/notices/199911/199911FullIssue.pdf)&rbrack;
 
 ## Selected writings
+
+On [[covariant Lie derivative]] of [[spinors]]:
+
+* [[André Lichnerowicz]]: *Spineurs harmoniques*, C. R. Acad. Sci. (Paris) A-B **257** 7--9 (1963) &lbrack;[ark:/12148/bpt6k4007z/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4007z/f7)&rbrack;
+
 
 Introducing the notion of [[Poisson manifolds]]:
 
