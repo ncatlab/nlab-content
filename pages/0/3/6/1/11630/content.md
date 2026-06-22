@@ -141,12 +141,15 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
  {#References}
 
 ### General
+ {#ReferencesGeneral}
 
 The hidden global [[E7]]-symmetry (and local $K(E_7) \simeq SU(8)$-symmetry) of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional [[torus]] to [[D=4 N=8 supergravity]] was first realized
 
 * {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. B **80** (1978) 48 &lbrack;[spire:131572](https://inspirehep.net/literature/131572), <a href="https://doi.org/10.1016/0370-2693(78)90303-9">doi:10.1016/0370-2693(78)90303-9</a>&rbrack;
 
 * {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi;10.1016/0550-3213(79)90331-6</a>, [spire:140465](https://inspirehep.net/literature/140465)&rbrack;
+
+* [[Eugene Cremmer]]: *Dimensional reduction in field theory and hidden symmetries in extended supergravity*, in: *Supergravity '81*, Cambridge University Press (1982) 313--368 &lbrack;[ark:/13960/t4pm2rb2m](archive.org/details/supergravity81pr0000scho), [spire:168547](https://inspirehep.net/literature/168547), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1981/8112/8112037.pdf), [[Cremmer-DimensionalReduction.pdf|pdf:file]]&rbrack;
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
 
@@ -260,10 +263,7 @@ The case of $SL(5,\mathbb{Z})$ in [[7d supergravity]] from [[M-theory]] is discu
 
 ### $n=7$
 
-
-The $E_{7(7)}$-symmetry was first discussed in 
-
-* [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986)
+See [above](#ReferencesGeneral).
 
 
 ### $n=8$
