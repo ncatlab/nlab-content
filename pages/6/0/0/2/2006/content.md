@@ -207,7 +207,7 @@ from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[
 
 \begin{proof}
 \label{ProofOfKleisliEquivalence}
-To see that the functor is [[full functor|full]], hence that $f \mapsto \mu_Y \circ T(f)$ is [[surjective]], oberve that any homomorphism $g \colon T(X) \to T(Y)$ of [[algebra over a monad|algebras]] is the [[image]] of $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$, as shown by the following [[commuting diagram]]:
+To see that the functor is [[full functor|full]], hence that $f \mapsto \mu_Y \circ T(f)$ is [[surjective]], observe that any homomorphism $g \colon T(X) \to T(Y)$ of [[algebra over a monad|algebras]] is the [[image]] of $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$, as shown by the following [[commuting diagram]]:
 
 \begin{tikzcd}
   T(X)
