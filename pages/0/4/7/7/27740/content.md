@@ -25,7 +25,7 @@ On [[braiding]] of [[defects]] in metamaterials:
 
 On the [[bulk-boundary correspondence]] in the [[K-theory classification of topological phases of matter]]:
 
-* Danilo Polo Ojito, [[Emil Prodan]], Tom Stoiber: *$C^\ast$-framework for higher-order bulk-boundary correspondences* \[<a href="https://arxiv.org/abs/2406.04226">arXiv:2406.04226</a>\]
+* Danilo Polo Ojito, [[Emil Prodan]], Tom Stoiber: *$C^\ast$-framework for higher-order bulk-boundary correspondences*, Commun. Math. Phys. **406**, 233 (2025). [doi:10.1007/s00220-025-05415-1](https://doi.org/10.1007/s00220-025-05415-1)
 
 
 
