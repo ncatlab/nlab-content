@@ -39,6 +39,8 @@ Early (first?) discussion of [[D=5 supergravity]]:
 
 On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") in [[torus|toroidal]] [[Kaluza-Klein compactifications]] of [[11D supergravity]]:
 
+* [[Eugene Cremmer]]: *Dimensional reduction in field theory and hidden symmetries in extended supergravity*, in: *Supergravity '81*, Cambridge University Press (1982) 313--368 &lbrack;[ark:/13960/t4pm2rb2m](archive.org/details/supergravity81pr0000scho), [spire:168547](https://inspirehep.net/literature/168547), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1981/8112/8112037.pdf), [[Cremmer-DimensionalReduction.pdf|pdf:file]]&rbrack;
+
 * [[Eugène Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]]: *Dualisation of Dualities, I*, Nucl. Phys.  B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
 
 
