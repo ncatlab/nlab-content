@@ -1223,7 +1223,7 @@ Some more references:
 
 Discussion in this formalism of the [[Green-Schwarz action functional]] for the [[M2-brane]] [[sigma-model]] with a [[target space]]  [[11-dimensional supergravity]] background is in 
 
-* {#AFFFTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115)&rbrack;
+* {#AFFFTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]]: _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B **542** (1999) 157--194 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>, [arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115)&rbrack;
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
