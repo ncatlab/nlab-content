@@ -1,12 +1,16 @@
 
 * [personal page](https://kodu.ut.ee/~varmo/)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=AR7YQTUAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Varmo-Vene)
+
 
 ## Selected writings
 
 On [[parametricity]] and [[strong dinatural transformations]]:
 
-* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[[Vene-StrongDinaturality.pdf:file]], archive:[pdf](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf)&rbrack;
+* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/tday-voore/vene-slides.pdf), [[Vene-Parametricity.pdf|pdf:file]]&rbrack;
 
 
 On [[comonads in computer science]]:
