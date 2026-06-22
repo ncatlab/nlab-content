@@ -670,7 +670,7 @@ or sometimes
 
 which contains a bullet list of relevant references. A standard way to format an entry is this list is the following:
 
-      * {#LastnameAnotherlastnameYear} <nowiki>[[Firstname Lastname]]</nowiki>, <nowiki>[[Anotherfirstname Anotherlastname]]</nowiki>, _Title_, Journal **volume** issue (year) firstpage-lastpage <nowiki>&lbrack;[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy)</nowiki>, <nowiki>[doi:xyz](http://doi.xyz)&rbrack;</nowiki>
+      * {#LastnameAnotherlastnameYear} <nowiki>[[Firstname Lastname]]</nowiki>, <nowiki>[[Anotherfirstname Anotherlastname]]</nowiki>, _Title_, Journal **volume** issue (year) firstpage--lastpage <nowiki>&lbrack;[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy)</nowiki>, <nowiki>[doi:xyz](http://doi.xyz)&rbrack;</nowiki>
 
 which comes out as
 
