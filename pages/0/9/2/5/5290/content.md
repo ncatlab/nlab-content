@@ -82,6 +82,11 @@ A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A 
 
 * {#CattaneoFiorenzaLongoni06} [[Alberto S. Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, *Graded Poisson Algebras*, in: *Encyclopedia of Mathematical Physics*, Elsevier (2006) 560-567 &lbrack;[arXiv:1811.07395](https://arxiv.org/abs/1811.07395), [doi:10.1016/B0-12-512666-2/00434-X](https://doi.org/10.1016/B0-12-512666-2/00434-X)&rbrack;
 
+In relation to [[Poisson algebras]]:
+
+* {#Kosmann-Schwarzbach1996} [[Yvette Kosmann-Schwarzbach]]: *From Poisson algebras to Gerstenhaber algebras*, Annales de l’institut Fourier, tome 46, no 5 (1996) 1243--1274 \[<a href="http://www.numdam.org/item?id=AIF_1996__46_5_1243_0">numdam:AIF_1996__46_5_1243_0</a>\]
+
+
 
 [[!redirects Gerstenhaber algebras]]
 
