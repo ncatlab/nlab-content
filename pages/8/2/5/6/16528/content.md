@@ -11,12 +11,12 @@
 
 On [[massive type IIA supergravity]]:
 
-* {#Tsimpis05} [[Dimitrios Tsimpis]], _Massive IIA supergravities_, JHEP 0510:057, 2005 ([arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214))
+* {#Tsimpis05} [[Dimitrios Tsimpis]]: _Massive IIA supergravities_, JHEP 0510:057 (2005) &lbrack;[arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214)&rbrack;
 
 
 On [[M2-M5 brane bound states]]:
 
-* [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
+* [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018 (2003) &lbrack;[arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117)&rbrack;
 
 On [[higher curvature corrections]] in [[11-dimensional supergravity]]:
 
@@ -29,6 +29,11 @@ On [[higher curvature corrections]] in [[11-dimensional supergravity]]:
 and specifically the on the [[I8]]-term
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+
+On the component expansion of fields in [[11D supergravity]] on [[superspace]]:
+
+* [[Dimitrios Tsimpis]]: *Curved 11D Supergeometry*, J. Jigh Energy Physics 0411:087 (2004) \[<a href="https://doi.org/10.1088/1126-6708/2004/11/087">doi:10.1088/1126-6708/2004/11/087</a>, [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)\]
+
 
 On [[M-theory on 8-manifolds]]:
 
