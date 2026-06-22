@@ -147,6 +147,9 @@ Via [[Kasparov K-theory]]:
 
 * [[Chris Bourne]], Johannes Kellendonk, [[Adam Rennie]]: *The K-theoretic bulk-edge correspondence for topological insulators*,  Ann. Henri Poincaré 18 (2017) 1833–1866  \[<a href="https://doi.org/10.1007/s00023-016-0541-2">doi:10.1007/s00023-016-0541-2</a>, [arXiv:1604.02337](https://arxiv.org/abs/1604.02337)\]
 
+* [[Emil Prodan]]: *Topological lattice defects by groupoid methods and Kasparov's KK-theory*, J. Phys. A: Math. Theor. **54**, 424001 (2021). 
+[doi:10.1088/1751-8121/ac254a](https://doi.org/10.1088/1751-8121/ac254a)
+
 See also:
 
 * Zixian Zhou, Liang-Liang Wan: *Proof of bulk-edge correspondence for band topology by Toeplitz algebra*, Journal of Physics A: Mathematical and Theoretical **57** 46 (2024) 465203 \[<a href="https://doi.org/10.1088/1751-8121/ad8aab">doi:10.1088/1751-8121/ad8aab</a>, [arXiv:2410.19539](https://arxiv.org/abs/2410.19539)\]
