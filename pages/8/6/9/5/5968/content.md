@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -386,16 +386,19 @@ Lecture notes include
 
 * _[A first idea of quantum field theory -- Symmetries](geometry+of+physics+--+perturbative+quantum+field+theory#Symmetries)_ ([PF Insights version](https://www.physicsforums.com/insights/newideaofquantumfieldtheory-symmetries/))
 
-A comprehensive exposition of both the Lagrangian and the Hamiltonian version of the theorem is in 
+Exposition:
 
 * {#Butterfield06} [[Jeremy Butterfield]], _On symmetry and conserved quantities in classical mechanics_, in _Physical Theory and its Interpretation_,
-The Western Ontario Series in Philosophy of Science Volume 72, 2006, pp 43-100(2006) ([[ButterfieldNoether.pdf:file]])
+The Western Ontario Series in Philosophy of Science Volume 72, (2006) 43--100 &lbrack;[[ButterfieldNoether.pdf:file]]&rbrack;
+
+* [[Yvette Kosmann-Schwarzbach]]: *The Noether theorems in context*, in *The Philosophy and Physics of Noether's Theorems*, Cambirdge University Press (2022) &lbrack;[doi:10.1017/9781108665445.002](https://doi.org/10.1017/9781108665445.002), [arXiv:2004.09254](https://arxiv.org/abs/2004.09254)&rbrack;
  
 
 Monographs:
 
-* [[Yvette Kosmann-Schwarzbach]], _Les th&#233;or&#232;mes de Noether:
-invariance et lois de conservation au XXe si&#232;cle : avec une traduction de l'article original, "Invariante Variationsprobleme"_, Editions Ecole Polytechnique, 2004 ([pdf](http://www.math.cornell.edu/~templier/junior/The-Noether-theorems.pdf))
+* [[Yvette Kosmann-Schwarzbach]], _Les th&#233;or&#232;mes de Noether: invariance et lois de conservation au XXe si&#232;cle : avec une traduction de l'article original, "Invariante Variationsprobleme"_, Editions Ecole Polytechnique, 2004 ([pdf](http://www.math.cornell.edu/~templier/junior/The-Noether-theorems.pdf))
+
+* [[Yvette Kosmann-Schwarzbach]] (transl. B. Schwarzbach): *The Nother Theorems --- Invariance and Conservation Laws in the Twentieth Century*, Sources and Studies in the History of Mathematics and Physical Sciences, Springer (2011) \[<a href="https://doi.org/10.1007/978-0-387-87868-3">doi:10.1007/978-0-387-87868-3</a>\]
 
 * {#VinogradovKrasilshchik99} [[Alexandre Vinogradov]], I. S. Krasilshchik (eds.) _Symmetries and Conservation Laws for Differential Equations of Mathematical Physics_, vol. 182 of Translations of Mathematical Monographs. American Mathematical Society, Providence, RI, 1999. ([pdf](ftp://softbank.iust.ac.ir/MathBooks/V/Vinogradov%20-%20Symmetries%20and%20Conservation%20Laws%20for%20Differential%20equations%20of%20mathematical%20physics.pdf))
 
