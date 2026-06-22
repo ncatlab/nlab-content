@@ -15,9 +15,10 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -70,12 +71,12 @@ Given two Lie groups $H,K$, the Lie algebra homomorphisms $T_e H \to T_e K$ are 
 * [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
-* [[Yvette Kosmann-Schwarzbach]], _Groupes de Lie-Poisson quasitriangulaires_, in:  G&#233;om&#233;trie symplectique et m&#233;canique (La Grande Motte, 1988),  161--177, Springer LNM __1416__, 1990.
+* [[Yvette Kosmann-Schwarzbach]]: _Groupes de Lie-Poisson quasitriangulaires_, in:  *Géométrie Symplectique et Mécanique*, Lecture Notes in Mathematics **1416**, Springer (1990)  161--177 \[<a href="https://doi.org/10.1007/BFb0097470">doi:10.1007/BFb0097470</a>\]
 
-* {#KosmannSchwarzbach04} [[Yvette Kosmann-Schwarzbach]], _Lie bialgebras, Poisson Lie groups and dressing transformations_, in _Integrability of Nonlinear Systems_, Second edition, Lecture Notes in Physics 638, Springer-Verlag, 2004, pp. 107-173. ([pdf](http://www.math.polytechnique.fr/cmat/kosmann/lnp2.pdf))
+* {#KosmannSchwarzbach04} [[Yvette Kosmann-Schwarzbach]]: _Lie bialgebras, Poisson Lie groups and dressing transformations_, in: _Integrability of Nonlinear Systems_, Second edition, Lecture Notes in Physics **638**, Springer (2004) 107--173. &lbrack;[doi:10.1007/BFb0113695](https://doi.org/10.1007/BFb0113695), [pdf](http://www.math.polytechnique.fr/cmat/kosmann/lnp2.pdf)&rbrack;
 
-* A. G. Reyman, _Poisson structures related to quantum groups_, in: Quantum groups and their applications in physics (Varenna, 1994), 407--443,
-Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:58052](http://www.ams.org/mathscinet-getitem?mr=97j:58052)
+* A. G. Reyman, _Poisson structures related to quantum groups_, in: Quantum groups and their applications in physics (Varenna, 1994), 407--443  Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:58052](http://www.ams.org/mathscinet-getitem?mr=97j:58052)
+
 * Nicola Ciccoli, _Quantization of co-isotropic subgroups_, Lett. Math. Phys. __42__:2 (1997) 123--138, [doi](http://www.ams.org/leavingmsn?url=http://dx.doi.org/10.1023/A:1007352218739), [MR98k:58252](http://www.ams.org/mathscinet-getitem?mr=98k:58252)
 * Renaud Brahami, _Cluster X-varieties for dual Poisson-Lie groups I, II_, [arxiv/1005.5289](http://arxiv.org/abs/1005.5289), [arxiv/1006.4583](http://arxiv.org/abs/1006.4583)
 
