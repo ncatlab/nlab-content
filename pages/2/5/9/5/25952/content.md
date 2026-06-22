@@ -18,6 +18,7 @@ The notion of **strong dinatural transformation** is a notion of [[natural trans
 
 Unlike dinatural transformations, strong dinatural transformations can always be [[composition|composed]]. They have close connections to [[parametricity]] in [[computer science]].
 
+
 ## Definition
 
 Let $F,G:C^{op}\times C\to D$ be functors.  A **strong dinatural transformation** $\alpha :F\to G$ consists of, for each $c\in C$, a component $\alpha_c : F(c,c) \to G(c,c)$, such that for any morphism $f:c\to c'$ in $C$ and any [[span]] $F(c',c') \leftarrow W \to F(c,c)$ in $D$, if the square on the left commutes, then the outer hexagon also commutes:
@@ -76,7 +77,7 @@ Further developments:
 
 * {#Eppendahl99} A. Eppendahl, *Parametricity and Mulry's Strong Dinaturality*, Department of Computer Science Technical Report No 768, Queen Mary  (1999) &lbrack;[pdf](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4501/768_Eppendahl_12-1999.pdf), ISSN:1369-1961&rbrack;
 
-* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/tday-voore/vene-slides.pdf), archive:[pdf](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf)&rbrack;
+* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/tday-voore/vene-slides.pdf), [[Vene-Parametricity.pdf|pdf:file]]&rbrack;
 
 * Jennifer Hackett, Graham Hutton: *Programs for cheap!*, In 2015 30th Annual ACM/IEEE Symposium on Logic in
 Computer Science. IEEE, 115–126 &lbrack;[doi:10.1109/LICS.2015.21](https://doi.org/10.1109/LICS.2015.21)&rbrack;
