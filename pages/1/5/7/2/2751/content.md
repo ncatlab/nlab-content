@@ -321,7 +321,9 @@ and this find the usual expression of the [[curvature]] of a connection as the s
 
 ## References
 
-* Wikipedia, *[Covariant derivative](https://en.wikipedia.org/wiki/Covariant_derivative)*
+### General
+
+* Wikipedia: *[Covariant derivative](https://en.wikipedia.org/wiki/Covariant_derivative)*
 
 * [[Mikio Nakahara]], Section 10.4 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
@@ -330,12 +332,19 @@ On covariant [[differential equations]]:
 * [[Jan Schouten]], *On the Conditions of Integrability of Covariant Differential Equations*, Transactions of the American Mathematical Society, **27** 4 (1925) 441-473 &lbrack;[doi:10.2307/1989236](https://doi.org/10.2307/1989236), [jstor:1989236](https://www.jstor.org/stable/1989236)&rbrack;
 
 
-
-A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms of [[synthetic differential geometry]] is in
+Discussion of covariant derivatives for a [[Levi-Civita connection]] in terms of [[synthetic differential geometry]]:
 
 * [[Gonzalo Reyes]], _Covariant derivation_ ([pdf](https://marieetgonzalo.files.wordpress.com/2006/04/covariant-derivation1.pdf))
 
-On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]]:
+### Covariant Lie derivatives
+
+On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]] (such as [[spinor]]-valued forms):
+
+* [[André Lichnerowicz]]: *Spineurs harmoniques*, C. R. Acad. Sci. (Paris) A-B **257** 7--9 (1963) &lbrack;[ark:/12148/bpt6k4007z/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4007z/f7)&rbrack;
+
+* [[Yvette Kosmann]]: *Dérivées de Lie des spineurs*, Annali di Matematica **91** (1971) 317--395 \[<a href="https://doi.org/10.1007/BF02428822">doi:10.1007/BF02428822</a>\]
+
+* Marco Godina, Paolo Matteucci: *The Lie derivative of spinor fields: theory and applications*, Int. J. Geom. Methods Mod. Phys. **2** (2005) 159--188 \[<a href="https://doi.org/10.1142/S0219887805000624">doi:10.1142/S0219887805000624</a>, [arXiv:math/0504366](https://arxiv.org/abs/math/0504366)\]
 
 * [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140 math-ph](https://arxiv.org/abs/2507.00140)&rbrack;
 
