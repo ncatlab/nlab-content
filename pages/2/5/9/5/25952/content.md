@@ -76,7 +76,7 @@ Further developments:
 
 * {#Eppendahl99} A. Eppendahl, *Parametricity and Mulry's Strong Dinaturality*, Department of Computer Science Technical Report No 768, Queen Mary  (1999) &lbrack;[pdf](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4501/768_Eppendahl_12-1999.pdf), ISSN:1369-1961&rbrack;
 
-* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[[Vene-StrongDinaturality.pdf:file]], archive:[pdf](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf)&rbrack;
+* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/tday-voore/vene-slides.pdf), archive:[pdf](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf)&rbrack;
 
 * Jennifer Hackett, Graham Hutton: *Programs for cheap!*, In 2015 30th Annual ACM/IEEE Symposium on Logic in
 Computer Science. IEEE, 115–126 &lbrack;[doi:10.1109/LICS.2015.21](https://doi.org/10.1109/LICS.2015.21)&rbrack;
