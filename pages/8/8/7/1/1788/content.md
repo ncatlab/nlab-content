@@ -5,7 +5,27 @@
 
 ***
 
+$$
+  \left(
+  \begin{matrix}
+    A & B 
+    \\
+    0 & C
+  \end{matrix}
+  \right)
+  \left(
+  \begin{matrix}
+    A^{-1}
+    & 
+    - A^{-1} B C^{-1}
+    \\
+    0 & C^{-1}
+  \end{matrix}
+  \right)
+  =
+  \begin{matrix}
+    1 & 
+    \\
+  \end{matrix}
+$$
 
-Title: **TQFTs of Higher SuGra Gauge Sectors**
-
-Abstract: We ask for the functorial TQFTs of topological states in the higher gauge sectors of 11D SuGra and its dimensional reductions. To specify these, one has to choose a global (IR) completion of the higher gauge fields by higher electromagnetic flux quantization. After topological light cone quantization one finds that topological quantum states form $\infty$-local systems on transversal maps to a classifying space $\mathcal{A}$ whose rationalization encodes the duality-symmetric Bianchi identities.
