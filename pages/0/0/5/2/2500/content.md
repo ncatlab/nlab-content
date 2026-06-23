@@ -405,7 +405,13 @@ Early review:
 
 Textbook accounts:
 
+* [[Peter West]]: *Introduction to Supersymmetry and Supergravity*, World Scientific (1986) \[<a href="https://doi.org/10.1142/0220">doi:10.1142/0220</a>, [ark:/13960/t8jf2kn0r](https://n2t.net/ark:/13960/t8jf2kn0r)\]
+
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* [[Julius Wess]], [[Jonathan Bagger]]: *Supersymmetry and Supergravity*, Princeton University Press (1992) &lbrack;[ISBN:9780691025308](press.princeton.edu/books/paperback/9780691025308/supersymmetry-and-supergravity), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1990/9008/9008053.pdf), [pdf](https://cds.cern.ch/record/210437/files/cer-000122416.pdf), [pdf](https://www.asau.ru/files/pdf/2423836.pdf)&rbrack;
+
+* [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [oapen:20.500.12657/50874](https://library.oapen.org/handle/20.500.12657/50874), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
 
 * [[Steven Weinberg]]: *Supergravity*, Section 31 in: *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555), [doi:10.1017/CBO9781139644198](https://doi.org/10.1017/CBO9781139644198) [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
   > "Gravity exists, so if there is any truth to supersymmetry then any realistic supersymmetry theory must eventually be enlarged to a supersymmetric theory of matter and gravitation, known as supergravity. Supersymmetry without supergravity is not an option, though it may be a good approximation at energies far below the Planck scale."
@@ -446,7 +452,6 @@ Lecture notes:
 On [[Chern-Simons gravity]]-style action functionals for supergravity:
 
 * {#Zanelli} [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ &lbrack;[arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)&rbrack;
-
 
 
 Further surveys:
@@ -597,7 +602,7 @@ This early history is discussed in:
 
 * [[Steven Duplij]]: _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys. v3 (2019) 81--82 &lbrack;[arXiv:1910.03259](https://arxiv.org/abs/1910.03259)&rbrack;
 
-* {#Kuzenko21} Sergei M. Kuzenko, *Local supersymmetry: Variations on a theme by Volkov and Soroka* ([arXiv:2110.12835](https://arxiv.org/abs/2110.12835))
+* {#Kuzenko21} [[Sergei M. Kuzenko]]: *Local supersymmetry: Variations on a theme by Volkov and Soroka* &lbrack;[arXiv:2110.12835](https://arxiv.org/abs/2110.12835)&rbrack;
 
 
 Supergravity, in the guise of [[4d supergravity]], was first found (constructed) in
@@ -614,7 +619,7 @@ International Conference on the History of Original Ideas and Basic Discoveries 
 
 * R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
-* [[Dmitry Volkov]], _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry, S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386) or [arXiv:hep-th/9404153](http://arxiv.org/abs/hep-th/9404153)
+* [[Dmitry Volkov]], _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry, S. Duplij, [[Jonathan Bagger]], W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386) or [arXiv:hep-th/9404153](http://arxiv.org/abs/hep-th/9404153)
 
 * David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
 
@@ -642,16 +647,7 @@ See also:
 
 ### Related
 
-Further physics monographs on supergravity include
-
-* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_, [googB](http://books.google.com/books?isbn=0750305061)
-
-* [[Julius Wess]], Jonathan Bagger, _Supersymmetry and supergravity_, 1992
-
-* [[Steven Weinberg]], _Quantum theory of fields_, volume III: supersymmetry
-
 * [Concise Encyclopedia of Supersymmetry, S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386), [SUSY story](http://ivv5hpp.uni-muenster.de/u/douplii/susy/SUSYEnc_Story.pdf) narrated by its founders
-
 
 The [[Cauchy problem]] for classical solutions of simple supergravity has been discussed in
 
