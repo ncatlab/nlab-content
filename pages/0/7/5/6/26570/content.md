@@ -57,16 +57,6 @@ $$\Sigma_0^1 \coloneqq \{P \in \Sigma \vert \exists f \in 2^\mathbb{N}.(P = \top
 
 Such [[sigma-frame|$\sigma$-frames]] $\Sigma$ are usually found by collecting the [[subsingletons]] of a [[universe of sets]] $U$ in the theory into a set $\Omega_U$, or minimally, by the set of quasi-decidable truth values defined later in this article. 
 
-## Relation to Cauchy real numbers
-
-Let $\mathbb{R}_C$ denote the [[Cauchy real numbers]]. Then a [[proposition]] $P$ is semideciable if and only if there exists a Cauchy real number $x \in \mathbb{R}_C$ such that $P$ if and only if $x \gt 0$.
-
-$$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 0$$
-
-This implies that the [[Cauchy real numbers]] are an [[Archimedean ordered field]] [[admissible Archimedean ordered field|admissible]] for the set of semi-decidable truth values $\Sigma_0^1$, and in fact that the [[Cauchy real numbers]] are the terminal [[Archimedean ordered field]] that is admissible for $\Sigma_0^1$. 
-
-Furthermore, this implies that any Archimedean ordered [[field extension]] of the Cauchy real numbers whose order relation $\lt$ is semi-decidable is isomorphic to the [[Cauchy real numbers]]. This can be used to make the [[Dedekind real numbers]] and Cauchy real numbers coincide, by stipulating that the order relation $\lt$ on the [[Dedekind real numbers]] is semi-decidable. 
-
 ## Constructive taboos
 
 There are a few constructive [[taboos]] related to the set of semidecidable propositions. 
@@ -74,7 +64,7 @@ There are a few constructive [[taboos]] related to the set of semidecidable prop
 ### Rosolini propositional choice
 {#RosoliniPropositionalChoice}
 
-In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], every [[quasidecidable proposition]] is a semidecidable proposition ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), and in this case the set of semidecidable propositions is called the **[[Rosolini dominance]]**, since the set of quasidecidable propositions is an $\mathbb{N}$-overt [[dominance]]. 
+In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], every [[quasidecidable proposition]] is a semidecidable proposition ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), and in this case the set of semidecidable propositions is called the **Rosolini dominance**, since the set of quasidecidable propositions is an $\mathbb{N}$-overt [[dominance]]. 
 
 However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance is equivalent to a form of choice called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong 2021](#deJong21), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
@@ -201,3 +191,5 @@ One can also consider the closure of semi-decidable propositions under existenti
 
 [[!redirects Rosolini propositional choice]]
 [[!redirects Escardo-Knapp choice]]
+
+[[!redirects Rosolini dominance]]
