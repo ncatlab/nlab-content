@@ -46,7 +46,7 @@ On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy 
 
 On [[quotient inductive types]]:
 
-* {#ADK2017} [[Thorsten Altenkirch]], [[Nils A. Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
+* {#ADK2017} [[Thorsten Altenkirch]], [[Nils A. Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[doi:10.1007/978-3-662-54458-7_31](https://doi.org/10.1007/978-3-662-54458-7_31), [arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
 
 On [[free groups]] and [[infinity-groups|$\infty$-groups]] in [[homotopy type theory]]:
 
