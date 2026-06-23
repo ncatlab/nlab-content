@@ -98,7 +98,7 @@ LPO implies that for all sequences $f$ in the [[boolean domain]], the existentia
 Conversely, suppose that the [[booleans]] coincide with the set of semideciable propositions. Then we have that the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is a [[boolean]], which implies LPO. 
 \end{proof}
 
-On the other hand, in [[synthetic topology]] and [[synthetic domain theory]], one sometimes sees [[Phoa's principle]] or [[synthetic quasi-coherence]] assumed for a sublattice $\Sigma$ of the [[lattice of propositions]] $\Omega$, in order to emulate the behavior of [[Sierpinski space]], where every function is [[monotonic]]. Since the set of semideciable propositions is a sublattice of the [[lattice of propositions]], it is consistent to assume such axioms for the set of semideciable propositions, such as [[Phoa's principle]] for the set of semideciable propositions in the [[effective topos]]. However, such axioms are inconsistent with LPO: 
+On the other hand, in [[synthetic topology]] and [[synthetic domain theory]], one sometimes sees [[Phoa's principle]] or [[synthetic quasi-coherence]] assumed for an $\mathbb{N}$-overt [[dominance]], in order to emulate the behavior of [[Sierpinski space]], where every function is [[monotonic]]. Under Rosolini propositional choice, the set of semideciable propositions is an $\mathbb{N}$-overt [[dominance]], so it is consistent to assume such axioms for the set of semideciable propositions, such as [[Phoa's principle]] for the set of semideciable propositions in the [[effective topos]]. Moreover, since the set of semidecidable propositions is a [[distributive lattice]], and [[Phoa's principle]] or [[synthetic quasi-coherence]] do not rely on the structure of an $\mathbb{N}$-overt dominance, but only on the set of semidecidable propositions being a [[distributive lattice]], such axioms can be assumed of the set of semidecidable propositions even in the absence of Rosolini propositional choice. However, such axioms are inconsistent with LPO: 
 
 \begin{theorem}
 LPO is inconsistent with [[Phoa's principle]] for the set of semideciable propositions $\Sigma$. 
@@ -142,7 +142,7 @@ One can also consider the closure of semi-decidable propositions under existenti
 
 * [[synthetic topology]], [[synthetic domain theory]]
 
-* [[lattice]]
+* [[distributive lattice]]
 
 ## References
 
