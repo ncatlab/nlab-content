@@ -9,7 +9,7 @@ On [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]]:
 
 Early consideration of the idea of [[superstring]] [[sigma-models]] where both the [[worldsheet]] as well as the [[target spacetime]] are treated as [[supermanifolds]] is due (under the name "supersymmetry squared", cf. the *[[superembedding approach]]*):
 
-* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *$D = 2$ superfield supergravity, local $(supersymmetry)^2$ and non-linear 2 models*, Classical and Quantum Gravity **3** 3  (1986) 391-399 \[<a href="https://doi.org/10.1088/0264-9381/3/3/013">doi:10.1088/0264-9381/3/3/013</a>, [spire:217518](https://inspirehep.net/literature/217518)\]
+* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *$D = 2$ superfield supergravity, local $(supersymmetry)^2$ and non-linear $\sigma$-models*, Classical and Quantum Gravity **3** 3  (1986) 391--399 \[<a href="https://doi.org/10.1088/0264-9381/3/3/013">doi:10.1088/0264-9381/3/3/013</a>, [spire:217518](https://inspirehep.net/literature/217518)\]
 
 
 On [[D=12 supergravity]]:
