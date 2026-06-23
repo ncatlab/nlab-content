@@ -29,3 +29,6 @@ $$
   \end{matrix}
 $$
 
+\begin{conjecture}
+Test conjecture. 
+\end{conjecture}
