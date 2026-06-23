@@ -63,4 +63,12 @@ These notions coincide in [[classical mathematics]] by way of [[excluded middle]
 [[!redirects frame of truth values]]
 [[!redirects algebra of truth values]]
 
+[[!redirects set of propositions]]
+[[!redirects proset of propositions]]
+[[!redirects poset of propositions]]
+[[!redirects lattice of propositions]]
+[[!redirects sigma-frame of propositions]]
+[[!redirects frame of propositions]]
+[[!redirects algebra of propositions]]
+
 category: logic
