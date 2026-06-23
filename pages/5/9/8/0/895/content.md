@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _cofibration category_ is a [[category]] equipped with a sub-[[class]] of its [[morphisms]] which behave like [[cofibrations]].
+A _cofibration category_ is a [[category]] equipped with a sub-[[class]] of its [[morphisms]] which behave like [[cofibrations]]. Cofibration categories present cocomplete [[infinity category|infinity categories]].
 
 The notion of _cofibration category_ was introduced by [[Hans-Joachim Baues]] (see references below) as a variant of the category of cofibrant objects, (for which, see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
 
