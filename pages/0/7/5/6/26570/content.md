@@ -61,18 +61,27 @@ Such [[sigma-frame|$\sigma$-frames]] $\Sigma$ are usually found by collecting th
 
 There are a few constructive [[taboos]] related to the set of semidecidable propositions. 
 
-### Rosolini propositional choice
-{#RosoliniPropositionalChoice}
+### Rosolini dominance
 
 In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], every [[quasidecidable proposition]] is a semidecidable proposition ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), and in this case the set of semidecidable propositions is called the **Rosolini dominance**, since the set of quasidecidable propositions is an $\mathbb{N}$-overt [[dominance]]. 
 
-However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance is equivalent to a form of choice called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong 2021](#deJong21), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
+However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is a [[dominance]] is called **Rosolini's dominance axiom** ([de Jong 2021](#deJong21)). 
 
-\begin{definition}
+{#RosoliniDominanceAxiom}
+\begin{definition} 
+**Rosolini's dominance axiom** states that given a semidecidable proposition $P$, if $P$ implies that a proposition $Q$ is semidecidable, then their [[conjunction]] $P \wedge Q$ is semidecidable. 
+\end{definition}
+
+The Rosolini dominance axiom is equivalent to a form of [[axiom of choice|choice]] called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong 2021](#deJong21), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), which follows from the [[propositional axiom of choice]]. 
+
+{#RosoliniPropositionalChoice} 
+\begin{definition} 
 **Rosolini propositional choice** or **Escardo-Knapp choice** states that given a semidecidable proposition $P$, if $P$ implies that $Q$ is semidecidable, then there merely exists a function from (the corresponding [[subsingleton]] of) $P$ to the set of semidecidability structures on $Q$. 
 \end{definition}
 
 See section 2.8 of [Escardo & Knapp 2017](#EK17) and also [de Jong 2021](#deJong21) for more details. 
+
+Rosolini propositional choice then in turn is equivalent to the statement that every quasidecidable proposition is a semidecidable proposition; see [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26) for more details. 
 
 ### LPO and Phoa's principle
 
@@ -193,3 +202,5 @@ One can also consider the closure of semi-decidable propositions under existenti
 [[!redirects Escardo-Knapp choice]]
 
 [[!redirects Rosolini dominance]]
+[[!redirects Rosolini dominance axiom]]
+[[!redirects Rosolini's dominance axiom]]
