@@ -64,7 +64,7 @@ There are a few constructive [[taboos]] related to the set of quasidecidable pro
 
 In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is equivalent to the [[Rosolini dominance]] ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
-However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), see section 2.8 of [Escardo & Knapp 2017](#EK17) for more details. 
+However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *[[Rosolini propositional choice]]* ([Escardo & Knapp 2017](#EK17)) or *[[Escardo-Knapp choice]]* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
 ### LPO and Phoa's principle
 
