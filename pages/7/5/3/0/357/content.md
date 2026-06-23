@@ -177,7 +177,7 @@ satisfying the evident compatibility conditions.
 
 =--
 
-This is ([CruttwellShulman, def. 4.2](#CruttwellShulman)).
+This is ([CruttwellShulman, def. 4.3](#CruttwellShulman)).
 
 
 +-- {: .un_defn}
