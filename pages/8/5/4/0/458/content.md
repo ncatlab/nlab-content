@@ -13,9 +13,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea and motivation
 
@@ -574,6 +572,10 @@ A [[model category]] of [[locales]] which makes the [[reflective subcategory|ref
 Discussion of locales in [[homotopy type theory]]:
 
 * [[Ayberk Tosun]]: *Constructive and Predicative Locale Theory in Univalent Foundations* &lbrack;[arXiv:2603.01308](https://arxiv.org/abs/2603.01308)&rbrack;
+
+On locales [[internalization|internal to]] [[presheaf toposes]]:
+
+* Vasileios Aravantinos-Sotiropoulos, Panagis Karazeris, Joshua Wrigley: *Locales in presheaf toposes vs. presheaves of locales* &lbrack;[arXiv:2606.21273](https://arxiv.org/abs/2606.21273)&rbrack;
 
 [[!redirects locale]]
 [[!redirects locales]]
