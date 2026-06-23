@@ -15,10 +15,7 @@
 
 
 
-
-# Topological data analysis
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -146,6 +143,9 @@ General introduction and survey:
 * [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
 
 * [[Donald Pinckney]], *[Topological Data Analysis and Persistent Homology](https://donaldpinckney.com/machine%20learning/2019/05/02/tda.html)* (2019)
+
+* Patrizio Frosini, Ulderico Fugacci, Nicola Quercioli, Francesca Tombari: *Persistent Homology and Equivariance in Data Analysis: A Topological Introduction* &lbrack;[arXiv:2606.21084](https://arxiv.org/abs/2606.21084)&rbrack;
+
 
 Flashy exposition for commercial use:
 
