@@ -258,14 +258,32 @@ See also:
 
 
 ### Black holes in supergravity
+ {#ReferencesBlackHolesInSupergravity}
 
 Black holes in [[supergravity]]:
 
-* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_ &lbrack;[hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)&rbrack;
+with nonvanishing [[gravitino]] profile:
+
+* [[Peter C. Aichelburg]], R. Güven: *Supersymmetric Black Holes in $N = 2$ Supergravity Theory*, Phys. Rev. Lett. **51** (1983) 1613 \[<a href="https://doi.org/10.1103/PhysRevLett.51.1613">doi:10.1103/PhysRevLett.51.1613</a>\]
+
+* [[Peter C. Aichelburg]], F. Embacher: *Monopole-like spin-$3/2$ fields on black hole space-times*, Gen. Relat. Gravit. **18** (1986) 705--721 \[<a href="https://doi.org/10.1007/BF00768635">doi:10.1007/BF00768635</a>\]
+
+* [[Peter C. Aichelburg]]: *Black Holes in Supergravity*, in: *Physics on Manifolds*, Mathematical Physics Studies **15** (1994) \[<a href="https://doi.org/10.1007/978-94-011-1938-2_24">doi:10.1007/978-94-011-1938-2_24</a>, [[Aichelburg-BHinSuGra.pdf|pdf:file]]\]
+
+* Roger Brooks, [[Renata Kallosh]], [[Tomás Ortín]] :*Fermion Zero Modes and Black-Hole Hypermultiplet with Rigid Supersymmetry*, Phys. Rev. D **52** (1995) 5797--5805 \[<a href="https://doi.org/10.1103/PhysRevD.52.5797">doi:10.1103/PhysRevD.52.5797</a>, [arXiv:hep-th/9505116](https://arxiv.org/abs/hep-th/9505116)\]
+
+* Tekin Dereli, Yorgo Senikoglu: *Colliding Gravitino Plane Waves in Simple Supergravity*,  Gen. Relativ. Gravit. **56** 132 (2024) \[<a href="https://doi.org/10.1007/s10714-024-03319-4 ">doi:10.1007/s10714-024-03319-4 </a>, [arXiv:2406.15834 hep-th](https://arxiv.org/abs/2406.15834)\]
+
+See also:
+
+* [[Riccardo D'Auria]], [[Pietro Fre]]: _BPS black holes in supergravity_ &lbrack;[hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)&rbrack;
+
+* [[Donald Marolf]]: *Black holes and branes in supergravity*, in: *Black Holes in Higher Dimensions*, Cambridge University Press (2012) 273--324 \[<a href="https://doi.org/10.1017/CBO9781139004176.012">doi:10.1017/CBO9781139004176.012</a>, [arXiv:1107.1022 hep-th](https://arxiv.org/abs/1107.1022)\]
 
 * [[Tomás Ortín]]; *Supersymmetric black holes from supergravity*, §19 in: *Gravity and Strings*, Cambridge University Press (2010, 2015) &lbrack;[doi:10.1017/CBO9780511616563](https://doi.org/10.1017/CBO9780511616563), [doi:10.1017/CBO9781139019750](https://doi.org/10.1017/CBO9781139019750)&rbrack;
 
-* Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
+* Antonio Gallerati: _Constructing black hole solutions in supergravity theories_, International Journal of Modern Physics A **34** 35 (2019) 1930017 &lbrack;[doi:10.1142/S0217751X19300175](https://doi.org/10.1142/S0217751X19300175), [arXiv:1905.04104](https://arxiv.org/abs/1905.04104)&rbrack;
+
 
 Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
 
