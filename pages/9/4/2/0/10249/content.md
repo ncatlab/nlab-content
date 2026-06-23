@@ -13,6 +13,11 @@
 
 ## Selected writings
 
+On [[black hole]] solutions in [[supergravity]] with nonvanishing [[gravitino]] field:
+
+* Roger Brooks, [[Renata Kallosh]], [[Tomás Ortín]] :*Fermion Zero Modes and Black-Hole Hypermultiplet with Rigid Supersymmetry*, Phys. Rev. D **52** (1995) 5797--5805 \[<a href="https://doi.org/10.1103/PhysRevD.52.5797">doi:10.1103/PhysRevD.52.5797</a>, [arXiv:hep-th/9505116](https://arxiv.org/abs/hep-th/9505116)\]
+
+
 On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary]] of their own [[black brane]] [[near horizon geometry]] (related to [[AdS-CFT duality]]):
 
 * {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
