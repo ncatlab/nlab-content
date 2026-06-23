@@ -1,7 +1,22 @@
 
-* [webpage](http://www.pha.jhu.edu/~bagger/)
+Jonathan Anders Bagger
+
+* [institute page](https://physics-astronomy.jhu.edu/directory/jonathan-a-bagger/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jonathan_Bagger)
+
+* [MathGenealogy page](https://mathgenealogy.org/id.php?id=55213)
+
+* [inSpire page](https://inspirehep.net/authors/1017683)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=DJH5jR0AAAAJ&hl=en)
 
 ## Selected writings
+
+On [[supersymmetry]] and [[supergravity]] on [[superspace]]:
+
+* [[Julius Wess]], [[Jonathan Bagger]]: *Supersymmetry and Supergravity*, Princeton University Press (1992) &lbrack;[ISBN:9780691025308](press.princeton.edu/books/paperback/9780691025308/supersymmetry-and-supergravity), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1990/9008/9008053.pdf), [pdf](https://cds.cern.ch/record/210437/files/cer-000122416.pdf), [pdf](https://www.asau.ru/files/pdf/2423836.pdf)&rbrack;
+
 
 On multiple [[M2-branes]] and the [[BLG model]]/[[ABJM model]] of their [[worldvolume]] theory:
 
@@ -13,3 +28,6 @@ On multiple [[M2-branes]] and the [[BLG model]]/[[ABJM model]] of their [[worldv
 
 
 category: people
+
+
+[[!redirects Jonathan A. Bagger]]
