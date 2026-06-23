@@ -50,6 +50,8 @@ Monographs:
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [inspire:195126](https://inspirehep.net/literature/195126)&rbrack;
 
+* [[Julius Wess]], [[Jonathan Bagger]]: *Supersymmetry and Supergravity*, Princeton University Press (1992) &lbrack;[ISBN:9780691025308](press.princeton.edu/books/paperback/9780691025308/supersymmetry-and-supergravity), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1990/9008/9008053.pdf), [pdf](https://cds.cern.ch/record/210437/files/cer-000122416.pdf), [pdf](https://www.asau.ru/files/pdf/2423836.pdf)&rbrack;
+
 * [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [oapen:20.500.12657/50874](https://library.oapen.org/handle/20.500.12657/50874), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
 
 Further review:
