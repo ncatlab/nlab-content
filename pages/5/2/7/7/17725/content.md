@@ -1,7 +1,23 @@
-# Dominance
 
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+\tableofcontents 
 
 ## Idea
 
@@ -42,11 +58,9 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 * The [[boolean domain]] $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt and the smallest dominance such that the boolean domain is overt. (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
 
-* The set of [[Sierpinski semi-decidable truth values]] $\Sigma$ is a dominance. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. 
+* The set of [[quasidecidable propositions]] $\Sigma$ is a dominance. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. In the case that every [[quasidecidable proposition]] is a [[semidecidable proposition]], such as if we assume [[Rosolini's dominance axiom]] ([de Jong 2021](#deJong21)) or [[Rosolini propositional choice]] ([Escardo & Knapp 2017](#EK17), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), this dominance is called the *[[Rosolini dominance]]*. 
 
-* The set of [[semi-decidable truth values]], i.e. truth values of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, is a dominance [[if and only if]] semi-decidable truth values are closed under [[existential quantification]] over the [[natural numbers]]. For instance, this is the case if we assume the [[limited principle of omniscience]] or [[countable choice]] or (perhaps) the [[propositional axiom of choice]]; in these cases the set of semidecidable truth values is called the **Rosolini dominance**. Equivalently, it is the set of truth values of the form $x\gt 0$ for some [[Cauchy real number]] $x$.
-
-* The set of all truth values of the form $x\gt 0$ for some [[Dedekind real number]] $x$ is also often a dominance, though this also may not be provable without further assumptions.
+* Under certain assumptions, such as [[analytic LPO]], the set of all truth values of the form $x \gt 0$ for some [[Dedekind real number]] $x$ is also a dominance. 
 
 ## See also
 
@@ -68,9 +82,12 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 * Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
+* {#deJong21} [[Tom de Jong]]. *Semidecidable propositions*. [[Agda]] code with comments, 2021. ([URL](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.SemiDecidable.html)).
+
+* {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
+
 [[!redirects dominance]]
 [[!redirects dominances]]
-[[!redirects Rosolini dominance]]
 [[!redirects open truth value]]
 [[!redirects open truth values]]
 [[!redirects open proposition]]
