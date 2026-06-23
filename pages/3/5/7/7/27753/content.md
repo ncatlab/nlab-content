@@ -243,6 +243,9 @@ See also:
 
 * Siddhartha Sarkar, Yitong Zhang, Kai Sun: *How Similar Can Fractional Chern Insulators Be to Fractional Quantum Hall States? Moiré-Enhanced Gaps and Excitation-Spectrum Correspondence* &lbrack;[arXiv:2606.07323](https://arxiv.org/abs/2606.07323)&rbrack;
 
+* Haoyu Hu, Lei Chen: *Quantum-Geometry-Induced Superconductivity near a Fractional Chern Insulator* &lbrack;[arXiv:2606.21166](https://arxiv.org/abs/2606.21166)&rbrack;
+
+
 
 
 #### Anyonic states
