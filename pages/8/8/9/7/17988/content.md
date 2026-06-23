@@ -14,9 +14,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -87,7 +85,7 @@ An attempt to conceptually explain why [[gravity]] might have a UV-fixed point i
 
 Observation of a special role of spacetime dimension 2:
 
-* {#LauscherReuter06} O. Lauscher, [[Martin Reuter]], _Asymptotic Safety in Quantum Einstein Gravity: nonperturbative renormalizability and fractal spacetime structure_,  In: Fauser B., Tolksdorf J., Zeidler E. (eds.) )Quantum Gravity_ Birkhäuser Basel 2006 ([arXiv:hep-th/0511260](https://arxiv.org/abs/hep-th/0511260), [doi:10.1007/978-3-7643-7978-0_15](https://doi.org/10.1007/978-3-7643-7978-0_15))
+* {#LauscherReuter06} O. Lauscher, [[Martin Reuter]], _Asymptotic Safety in Quantum Einstein Gravity: nonperturbative renormalizability and fractal spacetime structure_,  In: Fauser B., Tolksdorf J., Zeidler E. (eds.) *Quantum Gravity* Birkhäuser (2006) &lbrack;[arXiv:hep-th/0511260](https://arxiv.org/abs/hep-th/0511260), [doi:10.1007/978-3-7643-7978-0_15](https://doi.org/10.1007/978-3-7643-7978-0_15)&rbrack;
 
 and speculation of this being related to the [[Connes-Lott model]] (see [here](2-spectral+triple#Connes06OnRelationToStringVacua)):
 
@@ -109,6 +107,8 @@ Review:
 
 
 * Jan M. Pawlowski, Manuel Reichert, *Quantum Gravity from dynamical metric fluctuations* in *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2309.10785](https://arxiv.org/abs/2309.10785)&rbrack;
+
+* Astrid Eichhorn: *Asymptotically safe quantum gravity and its phenomenology -- a review* &lbrack;[arXiv:2606.21522](https://arxiv.org/abs/2606.21522)&rbrack;
 
 
 
