@@ -157,7 +157,7 @@ See at *[[(∞,1)-category of (∞,1)-functors]]* for more.
 
 +-- {: .num_prop}
 ###### Proposition
-If [[copowers]] by the hom-objects of $D$ preserve trivial cofibrations, then every every fibration in $[D,C]_{inj}$ is in particular a fibration in $[D,C]_{proj}$.  Similarly, if [[powers]] by the hom-objects of $D$ preserve trivial fibrations, then every cofibration in $[D,C]_{proj}$ is in particular a cofibration in $[D,C]_{inj}$.  The hypotheses are satisfied if $D$ is unenriched, or in the monoidal model category case if the hom-objects of $D$ are cofibrant.
+If [[copowers]] by the hom-objects of $D$ preserve trivial cofibrations, then every fibration in $[D,C]_{inj}$ is in particular a fibration in $[D,C]_{proj}$.  Similarly, if [[powers]] by the hom-objects of $D$ preserve trivial fibrations, then every cofibration in $[D,C]_{proj}$ is in particular a cofibration in $[D,C]_{inj}$.  The hypotheses are satisfied if $D$ is unenriched, or in the monoidal model category case if the hom-objects of $D$ are cofibrant.
 =--
 
 This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].  For $Top$-enriched functors, this is ([Piacenza 91, section 5](#Piacenza91)). For details see at _[classical model structure on topological spaces -- Model structure on enriched functors](classical+model+structure+on+topological+spaces#ModelStructureOnTopEnrichedFunctors)_.
