@@ -172,8 +172,10 @@ and in relation to the [[fuzzy sphere]]:
 
 * Yin-Chen He: *Free real scalar CFT on fuzzy sphere: spectrum, algebra and wavefunction ansatz* &lbrack;[arXiv:2506.14904](https://arxiv.org/abs/2506.14904)&rbrack;
 
-
 * Luisa Eck, [[Zhenghan Wang]]: *3d Conformal Field Theories via Fuzzy Sphere Algebra* &lbrack;[arXiv:2602.15025](https://arxiv.org/abs/2602.15025)&rbrack;
+
+* Luisa Eck, Zhenghan Wang: *3d Conformal Field Theories via Fuzzy Sphere Algebra* &lbrack;[arXiv:2602.15025](https://arxiv.org/abs/2602.15025)&rbrack;
+
 
 
 
