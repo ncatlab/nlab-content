@@ -21,7 +21,12 @@ Early construction of [[type IIA supergravity]]:
 
 On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
 
-* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B **254** (1985) 327--348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
+On [[supersymmetry]] and [[supergravity]]:
+
+* [[Peter West]]: *Introduction to Supersymmetry and Supergravity*, World Scientific (1986) \[<a href="https://doi.org/10.1142/0220">doi:10.1142/0220</a>, [ark:/13960/t8jf2kn0r](https://n2t.net/ark:/13960/t8jf2kn0r)\]
+
 
 On [[Landau-Ginzburg models]] in the sense of [[string theory]] ([[sigma models]] with certain [[potential energy|potentials]]):
 
