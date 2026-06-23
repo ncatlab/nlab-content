@@ -111,12 +111,14 @@ Review:
 
 * {#Duff99} [[Mike Duff]], chapter 5 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
 
-
 * {#Stelle98} [[Kellogg Stelle]], around section 3.3 of: *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
 * [[Ofer Aharony]], S. S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ &lbrack;[arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)&rbrack;
 
 * {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
+
+* [[Donald Marolf]]: *Black holes and branes in supergravity*, in: *Black Holes in Higher Dimensions*, Cambridge University Press (2012) 273--324 \[<a href="https://doi.org/10.1017/CBO9781139004176.012">doi:10.1017/CBO9781139004176.012</a>, [arXiv:1107.1022](https://arxiv.org/abs/1107.1022)\]
+
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _Brane solutions in supergravity_, chapter 18.5 in: _Basic Concepts of String Theory_, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
 
