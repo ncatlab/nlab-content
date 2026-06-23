@@ -219,9 +219,27 @@ where in the second step we used (eq:ThirdImplicationOf11dGravitinoEquation).
 
 ### General
 
-See also
+See also:
 
-* Wikipedia, _[Gravitino](https://en.wikipedia.org/wiki/Gravitino)_
+* Wikipedia: _[Gravitino](https://en.wikipedia.org/wiki/Gravitino)_
+
+
+
+### Classical solutions
+ {#ReferencesClassicalSolutions}
+
+On solutions to [[classical field theory|classical]] [[supergravity]] with non-vanishing gravitino field:
+
+* [[Peter C. Aichelburg]], R. Güven: *Supersymmetric Black Holes in $N = 2$ Supergravity Theory*, Phys. Rev. Lett. **51** (1983) 1613 \[<a href="https://doi.org/10.1103/PhysRevLett.51.1613">doi:10.1103/PhysRevLett.51.1613</a>\]
+
+* [[Peter C. Aichelburg]], F. Embacher: *Monopole-like spin-$3/2$ fields on black hole space-times*, Gen. Relat. Gravit. **18** (1986) 705--721 \[<a href="https://doi.org/10.1007/BF00768635">doi:10.1007/BF00768635</a>\]
+
+* [[Peter C. Aichelburg]]: *Black Holes in Supergravity*, in: *Physics on Manifolds*, Mathematical Physics Studies **15** (1994) \[<a href="https://doi.org/10.1007/978-94-011-1938-2_24">doi:10.1007/978-94-011-1938-2_24</a>, [[Aichelburg-BHinSuGra.pdf|pdf:file]]\]
+
+* Roger Brooks, [[Renata Kallosh]], [[Tomás Ortín]] :*Fermion Zero Modes and Black-Hole Hypermultiplet with Rigid Supersymmetry*, Phys. Rev. D **52** (1995) 5797--5805 \[<a href="https://doi.org/10.1103/PhysRevD.52.5797">doi:10.1103/PhysRevD.52.5797</a>, [arXiv:hep-th/9505116](https://arxiv.org/abs/hep-th/9505116)\]
+
+* Tekin Dereli, Yorgo Senikoglu: *Colliding Gravitino Plane Waves in Simple Supergravity*,  Gen. Relativ. Gravit. **56** 132 (2024) \[<a href="https://doi.org/10.1007/s10714-024-03319-4 ">doi:10.1007/s10714-024-03319-4 </a>, [arXiv:2406.15834 hep-th](https://arxiv.org/abs/2406.15834)\]
+
 
 [[!include classification of long-range forces -- references]]
 
