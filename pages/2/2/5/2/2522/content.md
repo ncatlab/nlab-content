@@ -1084,6 +1084,9 @@ Exposition:
 
 Further physics texts:
 
+* [[Peter West]]: *Introduction to Supersymmetry and Supergravity*, World Scientific (1986) \[<a href="https://doi.org/10.1142/0220">doi:10.1142/0220</a>, [ark:/13960/t8jf2kn0r](https://n2t.net/ark:/13960/t8jf2kn0r)\]
+
+
 * [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]]: *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
 
 * Stephen P. Martin: _A Supersymmetry Primer_ &lbrack;[arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356)&rbrack;
