@@ -23,7 +23,9 @@
 
 Semi-decidable propositions are not closed under [[existential quantification]] over the [[natural numbers]]: Given a [[predicate]] $P$ over the [[natural numbers]] where each $P(n)$ is semi-decidable for all $n \in \mathbb{N}$, the existential quantifier $\exists n \in \mathbb{N}.P(n)$ is not always semi-decidable. The closure of semi-decidable propositions under the logical operations of finite [[conjunctions]] and [[existential quantification]] over the [[natural numbers]] are the **quasidecidable propositions** ([Escardo 2020](#Escardo20)) or **Sierpiński semidecidable propositions** ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
-The set of quasidecidable propositions is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)) that is not provably equivalent to either the usual [[Dedekind real numbers]] or the [[Cauchy real numbers]] in the absence of [[excluded middle]] or [[countable choice]]. Unlike the [[Rosolini dominance]], the set of quasidecidable truth values is always a [[dominance]]. 
+The set of quasidecidable propositions is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)) that is not provably equivalent to either the usual [[Dedekind real numbers]] or the [[Cauchy real numbers]] in the absence of [[excluded middle]] or [[countable choice]]. 
+
+The set of quasidecidable propositions is also used for the [[dominance]] in [[synthetic domain theory]], such as in the [[effective topos]] ([Sterling & Ye 2025](#SY25)), where by [[countable choice]] it coincides with the set of [[semidecidable propositions]] and is thus called the *[[Rosolini dominance]]*. However, unlike the set of semidecidable propositions, even in the absence of [[countable choice]], the set of quasidecidable propositions is always an $\mathbb{N}$-overt [[dominance]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19), [Escardo 2020](#Escardo20)). 
 
 ## Definition
 
@@ -60,40 +62,40 @@ There are a few constructive [[taboos]] related to the set of quasidecidable pro
 
 ### Rosolini propositional choice
 
-In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is just the [[Rosolini dominance]]. 
+In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is equivalent to the [[Rosolini dominance]] ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
 
 However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *Rosolini propositional choice* ([Escardo & Knapp 2017](#EK17)) or *Escardo-Knapp choice* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), see section 2.8 of [Escardo & Knapp 2017](#EK17) for more details. 
 
 ### LPO and Phoa's principle
 
-In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the set of quasidecidable truth values is just the [[boolean domain]] $\mathbb{2}$. In fact, we have  the following: 
+In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]] (LPO), the set of quasidecidable truth values is just the [[boolean domain]] $\mathbb{2}$. In fact, we have  the following: 
 
 \begin{theorem}
-The [[limited principle of omniscience]] holds if and only if the set of quasidecidable propositions coincides with the [[boolean domain]]. 
+LPO holds if and only if the set of quasidecidable propositions coincides with the [[boolean domain]]. 
 \end{theorem}
 
 \begin{proof}
-The [[limited principle of omniscience]] implies that for all sequences $f$ in the [[boolean domain]], the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is [[decidable proposition|decidable]]; hence valued in the [[booleans]]. Thus, the [[boolean domain]] is closed under [[existential quantification]] over the [[natural numbers]]. Since the [[boolean domain]] is a [[subset]] of the set of quasidecidable propositions, this implies that the boolean domain coincide with the set of quasidecidable propositions by definition of the set of quasidecidable propositions. 
+LPO implies that for all sequences $f$ in the [[boolean domain]], the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is [[decidable proposition|decidable]]; hence valued in the [[booleans]]. Thus, the [[boolean domain]] is closed under [[existential quantification]] over the [[natural numbers]]. Since the [[boolean domain]] is a [[subset]] of the set of quasidecidable propositions, this implies that the boolean domain coincide with the set of quasidecidable propositions by definition of the set of quasidecidable propositions. 
 
-Conversely, suppose that the [[booleans]] coincide with the set of quasidecidable propositions. Then we have that the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is a [[boolean]], which implies the [[limited principle of omniscience]]. 
+Conversely, suppose that the [[booleans]] coincide with the set of quasidecidable propositions. Then we have that the existential quantification $\exists n \in \mathbb{N}, f(n) = 1$ is a [[boolean]], which implies LPO. 
 \end{proof}
 
 This result also implies that every [[semidecidable proposition]] is a [[decidable proposition]] if and only if LPO holds, since the set of semidecidable propositions is a [[superset]] of the [[booleans]] and a subset of the set of quasidecidable propositions. 
 
-On the other hand, in [[synthetic topology]] and [[synthetic domain theory]], one sometimes sees [[Phoa's principle]] or [[synthetic quasi-coherence]] assumed for the $\mathbb{N}$-overt [[dominance]], in order to emulate the behavior of [[Sierpinski space]], where every function is [[monotonic]]. Since the set of quasidecidable propositions is an $\mathbb{N}$-overt [[dominance]], it is consistent to assume such axioms for the set of quasidecidable propositions. However, such axioms are inconsistent with the [[limited principle of omniscience]]: 
+On the other hand, in [[synthetic topology]] and [[synthetic domain theory]], one sometimes sees [[Phoa's principle]] or [[synthetic quasi-coherence]] assumed for the $\mathbb{N}$-overt [[dominance]], in order to emulate the behavior of [[Sierpinski space]], where every function is [[monotonic]]. Since the set of quasidecidable propositions is an $\mathbb{N}$-overt [[dominance]], it is consistent to assume such axioms for the set of quasidecidable propositions, such as [[Phoa's principle]] for the set of quasidecidable propositions in the [[effective topos]]. However, such axioms are inconsistent with LPO: 
 
 \begin{theorem}
-LPO is inconsistent with [[Phoa's principle]] for the set of [[quasidecidable propositions]] $\Sigma$. 
+LPO is inconsistent with [[Phoa's principle]] for the set of quasidecidable propositions $\Sigma$. 
 \end{theorem}
 
 \begin{proof}
-LPO is equivalent to the fact that the [[boolean domain]] coincides with the set of [[quasidecidable propositions]]. However, the [[logical negation]] function $x \mapsto \neg x$ on the [[boolean domain]] does not satisfy the linear interpolation condition for Phoa's principle for the booleans; it is not true that $\neg x = (\neg 1) \wedge (x \vee \neg 0) = 0 \wedge (x \vee 1) = x$ on the booleans. As a result, LPO is inconsistent with Phoa's principle for set of quasidecidable propositions. 
+LPO is equivalent to the fact that the [[boolean domain]] coincides with the set of quasidecidable propositions. However, the [[logical negation]] function $x \mapsto \neg x$ on the [[boolean domain]] does not satisfy the linear interpolation condition for Phoa's principle for the booleans; it is not true that $\neg x = (\neg 1) \wedge (x \vee \neg 0) = 0 \wedge (x \vee 1) = x$ on the booleans. As a result, LPO is inconsistent with Phoa's principle for set of quasidecidable propositions. 
 \end{proof}
 
 In traditional [[point-set topology]] in [[classical mathematics]], one already has that negation on the booleans is not a [[continuous function]] with respect to the [[Scott topology]] of the [[booleans]]. 
 
 \begin{lemma}
-LPO is inconsistent with [[synthetic quasi-coherence]] for the set of [[quasidecidable propositions]] $\Sigma$; that is, let $A$ be a finitely presented $\Sigma$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\Sigma[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{Spec}_\Sigma(A)$ be the set of $\Sigma$-algebra homomorphisms. Then the canonical lattice homomorphism
+LPO is inconsistent with [[synthetic quasi-coherence]] for the set of quasidecidable propositions $\Sigma$; that is, let $A$ be a finitely presented $\Sigma$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\Sigma[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{Spec}_\Sigma(A)$ be the set of $\Sigma$-algebra homomorphisms. Then the canonical lattice homomorphism
 
 $$a \mapsto (f \mapsto f(a)):A \to \Sigma^{\mathrm{Spec}_\Sigma(A)}$$
 
@@ -101,7 +103,7 @@ is an [[isomorphism]]
 \end{lemma}
 
 \begin{proof}
-Synthetic quasi-coherence for the set of [[quasidecidable propositions]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with LPO.  
+Synthetic quasi-coherence for the set of quasidecidable propositions $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with LPO.  
 \end{proof}
 
 ## Related concepts
@@ -112,9 +114,13 @@ Synthetic quasi-coherence for the set of [[quasidecidable propositions]] $\Sigma
 
 * [[semidecidable proposition]]
 
-* [[synthetic topology]], [[dominance]]
+* [[synthetic topology]], [[synthetic domain theory]]
+
+* [[dominance]]
 
 * [[sigma-frame|$\sigma$-frame]]
+
+* [[effective topos]]
 
 ## References
 
@@ -131,6 +137,8 @@ Synthetic quasi-coherence for the set of [[quasidecidable propositions]] $\Sigma
 * {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
 * {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
+
+* {#SY25} [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
 [[!redirects quasi-decidable]]
 
