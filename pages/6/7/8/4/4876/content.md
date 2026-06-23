@@ -16,9 +16,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -352,8 +350,9 @@ on [[quantization]] of the WZW model, see at
  {#References}
 
 
-### Introduction and survey
- {#IntroductionsAndSurveys}
+### General
+
+{#IntroductionsAndSurveys} Introduction and survey:
 
 * [[Peter Goddard]], [[David Olive]], *Kac-Moody and Virasoro algebras in relation to quantum physics*,  International Journal of Modern Physics A **01** 02 (1986) 303-414 &lbrack;[doi:10.1142/S0217751X86000149](https://doi.org/10.1142/S0217751X86000149), [spire:18583](https://inspirehep.net/literature/18583)&rbrack;
 
