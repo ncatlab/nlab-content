@@ -60,11 +60,11 @@ where $\mathbb{2}$ is the [[boolean domain]], $\Sigma^0_1$ is the set of [[semi-
 
 There are a few constructive [[taboos]] related to the set of quasidecidable propositions. 
 
-### Rosolini propositional choice
+### Rosolini dominance
 
-In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is equivalent to the [[Rosolini dominance]] ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
+In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]], the set of quasidecidable propositions is equivalent to the set of [[semidecidable propositions]] ([Sterling & Ye 2025](#SY25), [de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), and is thus called the *[[Rosolini dominance]]*. 
 
-However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is $\mathbb{N}$-overt is equivalent to a form of choice called *[[Rosolini propositional choice]]* ([Escardo & Knapp 2017](#EK17)) or *[[Escardo-Knapp choice]]* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)). 
+However, more generally, one cannot prove that the set of semidecdiable propositions is an $\mathbb{N}$-overt dominance and thus coincide with the set of quasidecidable propositions. That the set of semidecdiable propositions is a [[dominance]] is called *[[Rosolini's dominance axiom]]* ([de Jong 2021](#deJong21)) and is equivalent to a form of choice called *[[Rosolini propositional choice]]* ([Escardo & Knapp 2017](#EK17)) or *[[Escardo-Knapp choice]]* ([de Jong, Kraus, Mohammadzadeh, & Forsberg 2026](#JKMF26)), which in turn ins equivalent to the statement that every quasidecidable proposition is semidecidable. 
 
 ### LPO and Phoa's principle
 
@@ -137,6 +137,8 @@ Synthetic quasi-coherence for the set of quasidecidable propositions $\Sigma$ im
 * {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
 * {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
+
+* {#deJong21} [[Tom de Jong]]. *Semidecidable propositions*. [[Agda]] code with comments, 2021. ([URL](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.SemiDecidable.html)).
 
 * {#SY25} [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
