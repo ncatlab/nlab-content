@@ -307,25 +307,29 @@ For an elementary introduction to symmetric monoidal categories using string dia
 
 The theorem that symmetric monoidal categories model all connective spectra is due to 
 
-* R. Thomason, _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
- {#Thomason}
+* {#Thomason} R. Thomason: _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
+ 
 
-More discussion is in 
+Further discussion:
 
-* [[Michael Mandell]], _An Inverse K-Theory Functor_ ([arXiv:1002.3622](http://arxiv.org/abs/1002.3622))
- {#Mandell}
+* {#Mandell} [[Michael Mandell]]: _An Inverse K-Theory Functor_ ([arXiv:1002.3622](http://arxiv.org/abs/1002.3622))
 
 * {#FongSpivak} Brendan Fong and David I, Spivak, *Supplying bells and whistles in symmetric monoidal categories*, [arxiv](https://arxiv.org/abs/1908.02633), 2019
 
 * {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
 
-* Amit Sharma, _Symmetric monoidal categories and $\Gamma$-categories_
-Theory and applications of Categories, Vol. 35, No. 14, (2020) pp. 417-512
- {#Sharma}
+* {#Sharma} Amit Sharma: _Symmetric monoidal categories and $\Gamma$-categories_
+Theory and applications of Categories, Vol. 35, No. 14 (2020) 417--512
+ 
 
 * Stefano Kasangian and Fabio Rossi. _Some remarks on symmetry for a monoidal category_. Bulletin of the Australian Mathematical Society 23.2 (1981): 209-214.
 
-* J. M. Egger. _On involutive monoidal categories_. Theory and Applications of Categories 25.14 (2011): 368-393.
+* J. M. Egger: _On involutive monoidal categories_, Theory and Applications of Categories **25** 14 (2011) 368--393
+
+* Matteo Galbiati: *A (not so) short note: the equivalence of various notions of symmetric monoidal category* &lbrack;[arXiv:2606.21347](https://arxiv.org/abs/2606.21347)&rbrack;
+
+
+
 
 [[!redirects symmetric monoidal categories]]
 [[!redirects symmetric monoidal structure]]
