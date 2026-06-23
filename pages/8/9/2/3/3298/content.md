@@ -2113,9 +2113,14 @@ More developments are in
 * Nathalie Wahl, _Universal operations in 
 Hochschild homology_, [arxiv/1212.6498](http://arxiv.org/abs/1212.6498)
 
-Relation to [[factorization homology]] is discussed in 
+Relation to [[factorization homology]]:
 
 * Geoffroy Horel, _Factorization homology and calculus &#224; la Kontsevich Soibelman_ ([arXiv:1307.0322](http://arxiv.org/abs/1307.0322))
+
+See also:
+
+* Zekai Yu: *Non-commutative calculus and Getzler-Gauss-Manin connections for Open-closed Homotopy Algebras* &lbrack;[arXiv:2606.21462](https://arxiv.org/abs/2606.21462)&rbrack;
+
 
 For more references on the relation to _[[topological chiral homology]]_ see there.
 
