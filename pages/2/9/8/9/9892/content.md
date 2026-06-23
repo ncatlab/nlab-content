@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -36,7 +34,7 @@ The suggestion that there is a black hole "firewall" phenomenon originates in
 
 with a folowup in:
 
- * {#AMPSS} [[Ahmed Almheiri]], [[Don Marolf]], [[Joseph Polchinski]], [[Douglas Stanford]], [[James Sully]], _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
+ * {#AMPSS} [[Ahmed Almheiri]], [[Don Marolf]], [[Joseph Polchinski]], [[Douglas Stanford]], James Sully: _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
    
 
 A systematic analysis of the (non-)phenomenon using actual computations in [[AdS-CFT duality]] is in 
@@ -80,9 +78,12 @@ Other contributions to the issue include the following
 
 * [[Samuel L. Braunstein]]; S. Pirandola, K. &#379;yczkowski,  *Better Late than Never: Information Retrieval from Black Holes* (2013) &lbrack;[arXiv:0907.1190](http://arxiv.org/abs/0907.1190)&rbrack;
 
-* Samir D. Mathur, David Turton, Comments on black holes I: The possibility of complementarity 2012, [arXiv:1208.2005](http://arxiv.org/abs/1208.2005)
+* Samir D. Mathur, David Turton: *Comments on black holes I: The possibility of complementarity* &lbrack;[arXiv:1208.2005](http://arxiv.org/abs/1208.2005)&rbrack;
 
-* Samir D. Mathur, The information paradox: A pedagogical introduction 2009, [arXiv:0909.1038](http://arxiv.org/abs/arXiv:0909.1038)
+* Samir D. Mathur: *The information paradox: A pedagogical introduction* &lbrack;[arXiv:0909.1038](http://arxiv.org/abs/arXiv:0909.1038)&rbrack;
+
+* Naman Kumar: *An Algebraic Resolution of the Firewall Paradox* &lbrack;[arXiv:2605.14794](https://arxiv.org/abs/2605.14794)&rbrack;
+
 
 [[!redirects Firewall problem]]
 [[!redirects firewall problem]]
