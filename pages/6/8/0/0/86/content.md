@@ -26,9 +26,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -829,6 +827,11 @@ Gluing aspects are in focus of the program explained in
 On extracting [[L-infinity algebras|$L_\infty$-algebras]] from [[BV-formalism]] around a solutio, encoding [[tree level]] [[Feynman diagrams]]:
 
 * [[Maxim Grigoriev]], [[Dmitry Rudinsky]], *Notes on the $L_\infty$-approach to local gauge field theories*, Journal of Geometry and Physics **190** (2023) 104863 &lbrack;[arXiv2303.08990](https://arxiv.org/abs/2303.08990), [doi:10.1016/j.geomphys.2023.104863](https://doi.org/10.1016/j.geomphys.2023.104863)&rbrack;
+
+See also:
+
+* [[Pavol Ševera]]: *Forms, half-densities, and the quantum odd symplectic category in the BV formalism* &lbrack;[arXiv:2606.23902](https://arxiv.org/abs/2606.23902)&rbrack;
+
 
 
 
