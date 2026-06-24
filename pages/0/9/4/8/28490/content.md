@@ -9,12 +9,11 @@
 =--
 =--
 
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
-A functor is an **amnestic isofibration** if it is an [[amnestic functor]] and an [[isofibration]]. The combination of these properties admits a particularly simply description in terms of a lifting property.
+A [[functor]] is an **amnestic isofibration** if it is an [[amnestic functor]] and an [[isofibration]]. The combination of these properties admits a particularly simply description in terms of a [[lifting property]].
 
 \begin{proposition}
   A functor $U : \mathcal{D} \to \mathcal{C}$ is an amnestic isofibration if and only if, for any object $D$ in $\mathcal{D}$ and any isomorphism $f : C \to U D$ in $\mathcal{C}$, there is a _unique_ isomorphism $\tilde{f} : \tilde{C} \to D$ such that $U \tilde{f} = f$.
@@ -28,7 +27,7 @@ Amnestic isofibrations are occasionally called **discrete isofibrations**, but t
 ## Properties
 
 \begin{proposition}
-A monadic functor is *strictly monadic* if and only if it is also an [[amnestic  isofibration]].
+A [[monadic functor]] is *strictly monadic* if and only if it is also an [[amnestic  isofibration]].
 \end{proposition}
 \begin{proof}
 Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the [[comparison functor]] $K$ is also [[amnestic functor|amnestic]], and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
@@ -47,13 +46,13 @@ Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadi
 
 ## References
 
-A reference in which they are called amnestic isofibrations is:
+A reference using the term *amnestic isofibrations*:
 
-* {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
+* {#Avery17} [[Tom Avery]]: _Structure and Semantics_ &lbrack;[arXiv:1708.01050](https://arxiv.org/abs/1708.01050)&rbrack;
 
-A reference in which they are called discrete isofibrations is:
+A reference using the term *discrete isofibrations*:
 
-* {#Lack09} [[Steve Lack]], _A 2-categories companion_, in [[John Baez]], [[Peter May]], _[[Towards Higher Categories]]_, Springer, (2009) ([arXiv:math/0702535](http://arxiv.org/abs/math/0702535))
+* {#Lack09} [[Steve Lack]]: _A 2-categories companion_, in [[John Baez]], [[Peter May]]: _[[Towards Higher Categories]]_, Springer, (2009) &lbrack;[arXiv:math/0702535](http://arxiv.org/abs/math/0702535)&rbrack;
 
 [[!redirects amnestic isofibrations]]
 [[!redirects discrete isofibration]]
