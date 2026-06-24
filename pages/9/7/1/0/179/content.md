@@ -10,9 +10,7 @@
 =--
 =--
 
-#Contents#
-* table of contents 
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -1328,6 +1326,15 @@ The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in s
 In relation to [[Lie-Rinehart pairs]]:
 
 * [[Camille Laurent-Gengoux]], [[Ruben Louis]]: _Lie-Rinehart algebras ≃ acyclic Lie ∞-algebroids_, Journal of Algebra **594** (2022) 1–53  &lbrack;[doi:10.1016/j.jalgebra.2021.11.023](https://doi.org/10.1016/j.jalgebra.2021.11.023)&rbrack;
+
+See also:
+
+* [[Alberto S. Cattaneo]], Shuhan Jiang: *From $L_\infty$ algebroids to $L_\infty$ spaces: Part I* &lbrack;[arXiv:2606.24837](https://arxiv.org/abs/2606.24837)&rbrack;
+
+* Shuhan Jiang: *Homotopy theory for curved $L_\infty$ spaces* &lbrack;[arXiv:2606.23965](https://arxiv.org/abs/2606.23965)&rbrack;
+
+
+
 
 
 [[!redirects L-infinity-algebroid]]
