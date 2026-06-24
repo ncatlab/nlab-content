@@ -403,6 +403,8 @@ Generalization to [[locally presentable (infinity,n)-category|locally presentabl
 
 * Ko Aoki: *Higher presentable categories and limits* &lbrack;[arXiv:2510.13503](https://arxiv.org/abs/2510.13503)&rbrack;
 
+* [[Peter Scholze]]: *Geometry and Higher Category Theory*, lecture notes (2026) &lbrack;[webpage](https://www.mpim-bonn.mpg.de/node/14764), [pdf](https://people.mpim-bonn.mpg.de/scholze/Gestalten.pdf)&rbrack;
+
 
 
 [[!redirects presentable (infinity,1)-categories]]
