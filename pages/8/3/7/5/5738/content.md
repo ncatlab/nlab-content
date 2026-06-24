@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -91,8 +89,11 @@ which is in turn the antisymmetrization of the derived bracket,
 
 * [[Yvette Kosmann-Schwarzbach]]: _Derived brackets_, Lett. Math. Phys. __69__ (2004) 61--87 &lbrack;[doi:10.1007/s11005-004-0608-8](https://doi.org/10.1007/s11005-004-0608-8)&rbrack;
 
+[[!redirects Schouten brackets]]
 
 [[!redirects Schouten-Nijenhuis bracket]]
 [[!redirects Schouten–Nijenhuis bracket]]
 [[!redirects Schouten-Nijenhuis brackets]]
 [[!redirects Schouten–Nijenhuis brackets]]
+
+
