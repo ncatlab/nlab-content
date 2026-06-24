@@ -155,6 +155,8 @@ One can also consider the closure of semi-decidable propositions under existenti
 
 * {#deJong21} [[Tom de Jong]]. *Semidecidable propositions*. [[Agda]] code with comments, 2021. ([URL](https://martinescardo.github.io/TypeTopology/NotionsOfDecidability.SemiDecidable.html)).
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* &lbrack;[arXiv:2412.03203](https://arxiv.org/abs/2412.03203)&rbrack;
+
 * {#SY25} [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
 * {#JKMF26} [[Tom de Jong]], [[Nicolai Kraus]], [[Aref Mohammadzadeh]], [[Fredrik Nordvall Forsberg]], *Generalized Decidability via Brouwer Trees* ([arXiv:2602.10844](https://arxiv.org/abs/2602.10844))
