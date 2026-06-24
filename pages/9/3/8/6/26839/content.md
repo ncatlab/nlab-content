@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -109,6 +107,10 @@ See also:
 * Wikipedia, *[Global universe structure](https://en.wikipedia.org/wiki/Shape_of_the_universe#Global_universe_structure)*
 
 * *[The Universe’s Topology May Not Be Simple](https://physics.aps.org/articles/v17/74)*, Physics **17** 74 (2024)
+
+* Craig J. Copi et al.:
+*The Topology of the Universe*, Nature Astronomy (2026) &lbrack;[arXiv:2606.24886](https://arxiv.org/abs/2606.24886)&rbrack;
+
 
 Analysis in the generality of [[inhomogeneous cosmology]]:
 
