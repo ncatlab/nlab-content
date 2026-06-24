@@ -9,6 +9,10 @@
 +-- {: .hide}
 [[!include topology - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -18,35 +22,9 @@
 
 ## Idea
 
-**Synthetic topology**, like [[synthetic domain theory]], [[synthetic differential geometry]], and [[synthetic computability]], are part of [[synthetic mathematics]]. It uses the internal logic of a topos to develop a part of mathematics. In this case [[topology]]. This is closely related to topology via logic and [[abstract Stone duality]]. One example of synthetic topology is [[synthetic Stone duality]]. 
+**Synthetic topology**, like [[synthetic domain theory]], [[synthetic differential geometry]], and [[synthetic computability]], are part of [[synthetic mathematics]]. It uses the [[internal logic]] or [[type theory]] of a topos or $(\infty,1)$-topos to develop [[topology]]. This is closely related to topology via logic and [[abstract Stone duality]]. One example of synthetic topology is [[synthetic Stone duality]]. 
 
-The formal system of [[type theory]] has semantics in many [[categories]], and in particular in many categories of "spaces". Thus types may be regarded not just as [[sets]] but as [[general topology|topological objects]].  Interestingly, a good deal of this "topology" can be detected intrinsically in type theory, often corresponding to the possible failure of principles of [[classical mathematics]].
-
-## Dictionary
-
-[[Martín Escardó]] has given the following translations between the two fields:
-
-| general topology | type theory |
-|--|--|
-| [[topological space|space]] | [[type]] |
-| [[continuous function]] | [[function]] |
-| [[clopen set]] | [[decidable object|decidable]] set |
-| [[open set]] | [[semi-decidable equality|semi-decidable]] set |
-| [[closed set]] | set with semi-decidable [[complement]] |
-| [[discrete space]] | type with [[decidable equality]] |
-| [[Hausdorff space]] | type with semi-decidable [[inequality relation|inequality]] |
-| [[convergent sequence]] | map out of $\mathbb{N}_\infty$ (see [below](#Semantics)) |
-| [[compact set]] | exhaustively searchable set, in a finite number of steps |
-
-It should be stressed that the concepts on the right are *not* the only ways to represent the topological concepts on the left in type theory.  For instance, in [[cohesive homotopy type theory]] there is a notion of "discrete space" that has nothing to do with decidable equality (in particular, in homotopy type theory a type with decidable equality is necessarily an [[h-set]], whereas discrete spaces don't need to be h-sets).
-
-## Semantics {#Semantics}
-
-There are many different topological semantics for type theory, but one which seems especially closely related to the above dictionary is the [[topological topos]].  For instance, in that case the internally defined set $\mathbb{N}_\infty$ (the set of infinite decreasing binary sequences) really does get interpreted semantically as "the generic convergent sequence".
-
-## Implementation
-
-Many of the results that have originated from this view have been implemented in an [[Agda]] [library](https://www.cs.bham.ac.uk/~mhe/agda/).
+Synthetic topology has semantics in many [[categories]], and in particular in many categories of "spaces". Thus types may be regarded not just as [[sets]] but as [[general topology|topological objects]]. Interestingly, a good deal of this "topology" can be detected intrinsically in type theory, often corresponding to the possible failure of principles of [[classical mathematics]] such as [[excluded middle]], via axioms such as [[Phoa's principle]] or [[synthetic quasi-coherence]] for a [[dominance]]. 
 
 ## Related pages
 
@@ -54,21 +32,30 @@ Many of the results that have originated from this view have been implemented in
 * [[open subset]]
 * [[overt space]]
 * [[synthetic Stone duality]]
+* [[Smyth's dictionary]]
 
 ## References
 
-* [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, 2004 ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
+* {#Escardo04} [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, 2004 ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
 
-* [[Martín Escardó]], {#EscardoPopl2012} _The topology of seemingly impossible functional programs_, 2012 ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf), almost same presentation with minor changes [pdf](https://cs.ioc.ee/ewscs/2012/escardo/slides.pdf))
+* {#Escardo10} [[Martín Escardó]]. *TypeTopology*. [[Agda]] code with comments, 2010. ([URL](https://www.cs.bham.ac.uk/~mhe/TypeTopology/)).
 
-* [[Andrej Bauer]], [[Davorin Lešnik]], _Metric Spaces in Synthetic Topology_, 2010 ([pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf))
+* {#EscardoPopl2012} [[Martín Escardó]], _The topology of seemingly impossible functional programs_, 2012 ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf), almost same presentation with minor changes [pdf](https://cs.ioc.ee/ewscs/2012/escardo/slides.pdf))
 
-* [[Davorin Lešnik]], _Synthetic Topology and Constructive Metric Spaces_, PhD, 2010 ([arXiv:2104.10399](https://arxiv.org/abs/2104.10399))
+* [[Andrej Bauer]], [[Davorin Lešnik]], *Metric Spaces in Synthetic Topology*, Annals of Pure and Applied Logic, Volume 163, Issue 2, February 2012, Pages 87-100 &lbrack;[doi:10.1016/j.apal.2011.06.017](https://doi.org/10.1016/j.apal.2011.06.017), [pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf)&rbrack;
 
-* [[Davorin Lešnik]], _Unified Approach to Real Numbers in Various Mathematical Settings_, 2014 ([arXiv:1402.6645](https://arxiv.org/abs/1402.6645))
+* [[Davorin Lešnik]], *Unified Approach to Real Numbers in Various Mathematical Settings*, 2014 &lbrack;[arXiv:1402.6645](https://arxiv.org/abs/1402.6645)&rbrack;
 
-* [[Steven Vickers]], _Locales and toposes as spaces, 2007 ([pdf](https://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
+* Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
-* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+* [[Davorin Lešnik]], *Synthetic Topology and Constructive Metric Spaces* &lbrack;[arXiv:2104.10399](https://arxiv.org/abs/2104.10399)&rbrack;
+
+* [[Davorin Lešnik]], "Synthetic Topology". In: [[Douglas Bridges]], [[Hajime Ishihara]], [[Michael Rathjen]], [[Helmut Schwichtenberg]], editors, *Handbook of Constructive Mathematics*, Encyclopedia of Mathematics and its Applications, Cambridge University Press, pp. 445 - 482, 04 May 2023. &lbrack;[doi:10.1017/9781009039888.018](https://doi.org/10.1017/9781009039888.018)&rbrack;
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
+* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
+
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
 
 [[!redirects relation between type theory and topology]]
