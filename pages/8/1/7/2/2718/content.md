@@ -39,6 +39,10 @@ On [[spherical braid group|spherical]] pure [[infinitesimal braid relations]] in
 
 * [[Anton Alekseev]], Megan Howarth, Florian Naef, Muze Ren, [[Pavol Ševera]]: *The kernel of formal polylogarithms* &lbrack;[arXiv:2601.19455](https://arxiv.org/abs/2601.19455)&rbrack;
 
+On [[BV-formalism]]:
+
+* [[Pavol Ševera]]: *Forms, half-densities, and the quantum odd symplectic category in the BV formalism* &lbrack;[arXiv:2606.23902](https://arxiv.org/abs/2606.23902)&rbrack;
+
 
 
 ## Related entries
