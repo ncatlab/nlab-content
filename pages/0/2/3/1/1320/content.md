@@ -138,11 +138,8 @@ If here $U' U$ is monadic, then $U$ is of [[descent type]] and the [[comparison 
 This is Propositions 4 and 5 of [Bourn](#Bourn).
 
 \begin{proposition}
-A monadic functor is *strictly monadic* if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]].
+A monadic functor is *strictly monadic* if and only if it is also an [[amnestic  isofibration]] (see there for the proof).
 \end{proposition}
-\begin{proof}
-Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the [[comparison functor]] $K$ is also [[amnestic functor|amnestic]], and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
-\end{proof}
 
 ### Monadicity theorem
 
