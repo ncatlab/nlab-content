@@ -143,6 +143,8 @@ One can also consider the closure of semi-decidable propositions under existenti
 
 * [[distributive lattice]]
 
+* [[Smyth's dictionary]]
+
 ## References
 
 * {#Bauer06} [[Andrej Bauer]], *First Steps in Synthetic Computability Theory*, Electronic Notes in Theoretical Computer Science, volume 155, pages 5–13, 2006. Proceedings of the 21st Annual Conference on Mathematical Foundations of Programming Semantics (MFPS XXI) &lbrack;[doi:10.1016/j.entcs.2005.11.049](https://doi.org/10.1016/j.entcs.2005.11.049)&rbrack;
