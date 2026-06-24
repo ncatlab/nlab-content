@@ -48,15 +48,15 @@ The additive structure underlying a [[hyperring]] is a canonical hypergroup. See
 See also at [[hypermagma]] and [[multivalued group]].
 
 * J. Delsarte, _Hypergroupes et opérateurs de permutation et de transmutation_, La théorie des équations aux dérivées partielles. Nancy, 9-15 avril 1956, pp. 29--45
-Colloq. Internat. CNRS, LXXI [International Colloquia of the CNRS] Centre National de la Recherche Scientifique, Paris, 1956 [MR0116151](https://mathscinet.ams.org/mathscinet/relay-station?mr=MR0116151)
+Colloq. Internat. CNRS, LXXI [International Colloquia of the CNRS] Centre National de la Recherche Scientifique, Paris, 1956 [MR0116151](https://mathscinet.ams.org/mathscinet/relay-station?mr=MR0116151), [Zbl 0075.27503](https://zbmath.org/0075.27503).
 
-* J. Jantosciak, _Transposition hypergroups: Noncommutative join spaces_ , J. Algebra **187** (1997) pp.97-119.
+* J. Jantosciak, _Transposition hypergroups: Noncommutative join spaces_, J. Algebra **187** (1997) pp.97-119. doi:[10.1006/jabr.1997.6789](https://doi.org/10.1006/jabr.1997.6789)
 
-* {#Lit11}G. L. Litvinov, _Hypergroups and hypergroup algebras_ , [arXiv:1109.6596](https://arxiv.org/abs/1109.6596)
+* {#Lit11}G. L. Litvinov, _Hypergroups and hypergroup algebras_,  J. Math. Sci. **38** (1987) pp. 1734–1761, doi:[10.1007/BF01088201](https://doi.org/10.1007/BF01088201) (Translated from Itogi Nauki i Tekhniki, Sovremennye Problemy Matematiki, Noveishie Dostizheniya, Vol. 26, pp. 57–106, 1985), [arXiv:1109.6596](https://arxiv.org/abs/1109.6596).
 
-* F. Marty,  _Sur une g&#233;n&#233;ralization de la notion de groupe_ , IV Congr&#232;s des Math&#233;maticiens Scandinaves, Stockholm 1934.
+* F. Marty,  _Sur une généralization de la notion de groupe_ , IV Congrès des Mathématiciens Scandinaves, Stockholm 1934.
 
-* P.-H. Zieschang, _Hypergroups_, ISBN 978-3-031-39488-1, XV+391 pages, Springer, Cham, 2023.
+* P.-H. Zieschang, _Hypergroups_, ISBN 978-3-031-39488-1, XV+391 pages, Springer, Cham, 2023. doi:[10.1007/978-3-031-39489-8](https://doi.org/10.1007/978-3-031-39489-8)
 
 category: algebra
 
