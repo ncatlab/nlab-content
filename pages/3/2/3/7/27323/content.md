@@ -22,6 +22,10 @@
 
 * [[Stone duality]]
 
+* [[synthetic topology]]
+
+* [[Smyth's dictionary]]
+
 * [[synthetic algebraic geometry]]
 
 * [[triangulated type theory]]
