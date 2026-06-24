@@ -185,6 +185,9 @@ See also
 
 * [[Harold C. Steinacker]]: *Quantum spacetime and quantum fluctuations in the IKKT model at weak coupling* &lbrack;[arXiv:2605.13294](https://arxiv.org/abs/2605.13294)&rbrack;
 
+* Keiichiro Hattori, Tatsuya Seko, Asato Tsuchiya: *Description of curved spacetimes by finite-size matrices in the type IIB matrix model* &lbrack;[arXiv:2606.24577](https://arxiv.org/abs/2606.24577)&rbrack;
+
+
 
 
 
