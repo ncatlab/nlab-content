@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -109,10 +107,10 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 * G. T. Horowitz, A. Strominger, _Counting states of near-extremal black holes_, Phys. Rev. Lett. 77 (1996) 2368&#8211;2371, [hep-th/9602051](http://arxiv.org/abs/hep-th/9602051).
 
 
-* Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/papers/220_2006_19_OnlinePDF.pdf))
-{#GallowaySchoen}
+* {#GallowaySchoen} Gregory Galloway, Richard Schoen: _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) &lbrack;[pdf](http://www.math.miami.edu/~galloway/papers/220_2006_19_OnlinePDF.pdf)&rbrack;
 
-* [[Robert Wald]], _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
+
+* [[Robert Wald]]: _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press (1994), _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__ 1 (1977)
 
 * [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
@@ -120,6 +118,11 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 With focus on regular black holes:
 
 * Chen Lan, Hao Yang, Yang Guo, Yan-Gang Miao, *Regular black holes: A short topic review* &lbrack;[arXiv:2303.11696](https://arxiv.org/abs/2303.11696)&rbrack;
+
+See also:
+
+* S. Shankaranarayanan, Soumya Bhattacharya, Archit Vidyarthi: *Primordial Black Holes: A Review of Formation and Evolution* &lbrack;[arXiv:2606.23846](https://arxiv.org/abs/2606.23846)&rbrack;
+
 
 
 
