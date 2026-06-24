@@ -36,11 +36,7 @@ Synthetic topology has semantics in many [[categories]], and in particular in ma
 
 ## References
 
-* {#Escardo04} [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, 2004 ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
-
-* {#Escardo10} [[Martín Escardó]]. *TypeTopology*. [[Agda]] code with comments, 2010. ([URL](https://www.cs.bham.ac.uk/~mhe/TypeTopology/)).
-
-* {#EscardoPopl2012} [[Martín Escardó]], _The topology of seemingly impossible functional programs_, 2012 ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf), almost same presentation with minor changes [pdf](https://cs.ioc.ee/ewscs/2012/escardo/slides.pdf))
+* {#Escardo04} [[Martín Escardó]], *Synthetic topology of data types and classical spaces*, Electronic Notes in Theoretical Computer Science (ENTCS), Volume 87, Pages 21 - 156, 01 November 2004 &lbrack;[doi:10.1016/j.entcs.2004.09.017](https://doi.org/10.1016/j.entcs.2004.09.017), [pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf)&rbrack;
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], *Metric Spaces in Synthetic Topology*, Annals of Pure and Applied Logic, Volume 163, Issue 2, February 2012, Pages 87-100 &lbrack;[doi:10.1016/j.apal.2011.06.017](https://doi.org/10.1016/j.apal.2011.06.017), [pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf)&rbrack;
 
@@ -52,10 +48,8 @@ Synthetic topology has semantics in many [[categories]], and in particular in ma
 
 * [[Davorin Lešnik]], "Synthetic Topology". In: [[Douglas Bridges]], [[Hajime Ishihara]], [[Michael Rathjen]], [[Helmut Schwichtenberg]], editors, *Handbook of Constructive Mathematics*, Encyclopedia of Mathematics and its Applications, Cambridge University Press, pp. 445 - 482, 04 May 2023. &lbrack;[doi:10.1017/9781009039888.018](https://doi.org/10.1017/9781009039888.018)&rbrack;
 
-* [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* &lbrack;[arXiv:2412.03203](https://arxiv.org/abs/2412.03203)&rbrack;
 
-* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
+* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* &lbrack;[arXiv:2505.13096](https://arxiv.org/abs/2505.13096)&rbrack;
 
-* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* ([arXiv:2605.00773](https://arxiv.org/abs/2605.00773))
-
-[[!redirects relation between type theory and topology]]
+* [[Fredrik Bakke]], [[Jonathan Sterling]], [[Mark Damuni Williams]], [[Lingyuan Ye]], *The Synthetic Sierpiński Cone* &lbrack;[arXiv:2605.00773](https://arxiv.org/abs/2605.00773)&rbrack;
