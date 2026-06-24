@@ -113,6 +113,10 @@ On [[BF-theory]] via [[BV-formalism]]:
 
 * [[Alberto S. Cattaneo]]: *Surface Observables, 2-Knot Invariants, and Nonabelian Electric Fluxes* &lbrack;[arXiv:2511.13623](https://arxiv.org/abs/2511.13623)&rbrack;
 
+On [[L-infinity algebroids]]:
+
+* [[Alberto S. Cattaneo]], Shuhan Jiang: *From $L_\infty$ algebroids to $L_\infty$ spaces: Part I* &lbrack;[arXiv:2606.24837](https://arxiv.org/abs/2606.24837)&rbrack;
+
 
 
 ## Related entries
