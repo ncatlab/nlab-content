@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -116,14 +114,17 @@ and in, where a comparison theorem over the complex numbers is also proven:
 
 * {#Carchedi15} [[Dave Carchedi]], _On the &#233;tale homotopy type of higher stacks_ ([arXiv:1511.07830](http://arxiv.org/abs/1511.07830))
 
-An introduction is in
+Introduction and review:
 
 * Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](https://www.ma.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
 
-Lecture notes on the &#233;tale fundamental group are in
+* [[James Milne]], section 4 of: *[[Lectures on Étale Cohomology]]*
 
-* [[James Milne]], section 4 of _[[Lectures on Étale Cohomology]]
-Generalization to [[simplicial schemes]] is discussed in
+* Loris De Vos: *Étale Fundamental Groups -- a geometric and topological approach to fundamental groups in algebraic geometry* &lbrack;[arXiv:2606.23906](https://arxiv.org/abs/2606.23906)&rbrack;
+
+
+
+Generalization to [[simplicial schemes]]:
 
 * [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
