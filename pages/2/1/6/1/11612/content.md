@@ -10,9 +10,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -48,9 +48,9 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
 
-* {#Townsend97} [[Paul Townsend]], first pages of _M-Theory from its superalgebra_, Cargese Lectures 1997 ([arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004))
+* {#Townsend97} [[Paul Townsend]]: first pages of _M-Theory from its superalgebra_, Cargese Lectures (1997) &lbrack;[arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004)&rbrack;
 
-* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_,  	Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
+* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl. Phys. B **548** (1999) 231--257 &lbrack;[arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014)&rbrack;
 
 * [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
 
