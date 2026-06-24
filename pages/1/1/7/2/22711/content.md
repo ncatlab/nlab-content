@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -108,6 +106,9 @@ and similar models in [[condensed matter theory]]:
 * AtMa P. O. Chan, [[Peng Ye]], [[Shinsei Ryu]], *Braiding with Borromean Rings in (3+1)-Dimensional Spacetime*, Phys. Rev. Lett. 121, 061601 (2018) &lbrack;[arXiv:1703.01926](https://arxiv.org/abs/1703.01926)&rbrack;
 
 * Zhi-Feng Zhang, Qing-Rui Wang, [[Peng Ye]], *Wilson Operators, Non-Abelian Fusion Rules, and Loop Shrinking Rules of Borromean Rings Topological Order* &lbrack;[arXiv:2208.09228](https://arxiv.org/abs/2208.09228)&rbrack;
+
+* Joe Huxford, Dung Xuan Nguyen, Yong Baek Kim: *Twisted Lattice Gauge Theory: Membrane Operators, Three-loop Braiding and Topological Charge* &lbrack;[arXiv:2401.13042](https://arxiv.org/abs/2401.13042)&rbrack;
+
 
 Relation to [[braided monoidal category|braided]] [[tensor categories]]:
 
