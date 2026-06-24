@@ -1293,45 +1293,48 @@ The infinitesimal reasoning involved in this proof is discussed in ([Kock, secti
 
 ## References
 
-The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as yet established in the literature, as most authors working with these objects think of them entirely in terms of [[dg-algebra]]s or [[NQ-supermanifolds]] and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
+The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" was introduced in [Schreiber 2008](#Schreiber2008) (published as [Sati, Schreiber & Stasheff 2012 §A.1](#SatiSchreiberStasheff2012)). Previously, authors working with these objects tend to think of them in terms of [[dg-algebras]] or "[[NQ-supermanifolds]]" and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
 
 Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
 
+* [[Pavol Severa]]: _Some title containing the words "homotopy" and "symplectic", e.g. this one_ &lbrack;[arXiv](http://arxiv.org/abs/math.SG/0105080)&rbrack;
 
-* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
+which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _[[topological spaces]]_ by [[dg-algebras]]. That these spaces can be regarded as [[∞-groupoids]] and as [[∞-Lie groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also at *[[Lie integration]]*, *[[rational homotopy theory in an (∞,1)-topos]]* and *[[function algebras on ∞-stacks]]*.
 
-which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _[[topological space]]s_ by [[dg-algebras]]. That these spaces can be regarded as [[∞-groupoids]] and as [[∞-Lie groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]], [[rational homotopy theory in an (∞,1)-topos]] and [[function algebras on ∞-stacks]].
+The term "$\infty$-Lie algebroid" / "$L_\infty$-algebroid" as such is due to:
 
-The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such is due to
+* {#Schreiber2008} [[Urs Schreiber]]; [p. 7](https://www.math.uni-hamburg.de/home/schreiber/action.pdf#page=7) of: *On $\infty$-Lie* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/action.pdf), [[Schreiber-InfinityLie.pdf|pdf:file]]&rbrack;
 
-* [[Urs Schreiber]]: *On $\infty$-Lie* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/action.pdf), [[Schreiber-InfinityLie.pdf:file]]&rbrack;
+* {#SatiSchreiberStasheff2012} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]; Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3)&rbrack;
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]] Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3)&rbrack;
+The term is since slowly being picked up:
 
-The term then appears in
+In the context of higher [[Schouten brackets]]/[[Poisson structures]]:
 
-* Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_, Rept. Math. Phys. 67:157-177, 2011 ([arXiv:1007.1389](https://arxiv.org/abs/1007.1389), <a href="https://doi.org/10.1016/S0034-4877(11)00010-3">doi:10.1016/S0034-4877(11)00010-3</a>)
-
-The dual monoidal Dold-Kan correspondence is discussed in
-
-* {#CastiglioniCortinas} J. L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
-.
-
-
-The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in section 1.2 of
-
-* {#Kock} [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf))
-
+* Andrew James Bruce: _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_, Rept. Math. Phys. **67** (2011) 157--177 &lbrack;[arXiv:1007.1389](https://arxiv.org/abs/1007.1389), <a href="https://doi.org/10.1016/S0034-4877(11)00010-3">doi:10.1016/S0034-4877(11)00010-3</a>&rbrack;
 
 In relation to [[Lie-Rinehart pairs]]:
 
 * [[Camille Laurent-Gengoux]], [[Ruben Louis]]: _Lie-Rinehart algebras ≃ acyclic Lie ∞-algebroids_, Journal of Algebra **594** (2022) 1–53  &lbrack;[doi:10.1016/j.jalgebra.2021.11.023](https://doi.org/10.1016/j.jalgebra.2021.11.023)&rbrack;
 
-See also:
+In relation to $L_\infty$-spaces:
 
 * [[Alberto S. Cattaneo]], Shuhan Jiang: *From $L_\infty$ algebroids to $L_\infty$ spaces: Part I* &lbrack;[arXiv:2606.24837](https://arxiv.org/abs/2606.24837)&rbrack;
 
 * Shuhan Jiang: *Homotopy theory for curved $L_\infty$ spaces* &lbrack;[arXiv:2606.23965](https://arxiv.org/abs/2606.23965)&rbrack;
+
+
+Mentioned in the above entry is also:
+
+The dual [[monoidal Dold-Kan correspondence]]:
+
+* {#CastiglioniCortinas} J. L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  **191** 1--2  (2004),  119--142 &lbrack;[arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289)&rbrack;
+
+Smooth spaces of infinitesimal simplices in [[synthetic differential geometry]]:
+
+* {#Kock} [[Anders Kock]]; section 1.2 in:  _Synthetic differential geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690)&rbrack;
+
+
 
 
 
