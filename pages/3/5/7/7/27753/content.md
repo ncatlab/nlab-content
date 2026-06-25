@@ -173,7 +173,7 @@ Review:
 
 * [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional quantum Hall effect without Landau levels*, Physics **4**46  (June 2011) &lbrack;[physics.aps:v4/46](https://physics.aps.org/articles/v4/46)&rbrack;
 
-* {#BergholtzLiu2013} Emil J. Bergholtz, Zhao Liu: *Topological Flat Band Models and Fractional Chern Insulators*, Int. J. Mod. Phys. B **27** (2013) 1330017 &lbrack;[doi:10.1142/S021797921330017X](https://doi.org/10.1142/S021797921330017X), [arXiv:1308.0343](https://arxiv.org/abs/1308.0343)&rbrack;
+* {#BergholtzLiu2013} [[Emil J. Bergholtz]], [[Zhao Liu]]: *Topological Flat Band Models and Fractional Chern Insulators*, Int. J. Mod. Phys. B **27** (2013) 1330017 &lbrack;[doi:10.1142/S021797921330017X](https://doi.org/10.1142/S021797921330017X), [arXiv:1308.0343](https://arxiv.org/abs/1308.0343)&rbrack;
 
 * [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
 
@@ -189,6 +189,8 @@ See also:
 
 Further discussion:
 
+* [[Ahmed Abouelkomsan]], [[Zhao Liu]], [[Emil J. Bergholtz]]: *Particle-Hole Duality, Emergent Fermi Liquids and Fractional Chern Insulators in Moiré Flatbands*,  	Phys. Rev. Lett. **124** (2020) 106803 \[<a href="https://doi.org/10.1103/PhysRevLett.124.106803">doi:10.1103/PhysRevLett.124.106803</a>, [arXiv:1912.04907](https://arxiv.org/abs/1912.04907)\]
+
 * Valentin Crépel, Liang Fu: *Anomalous Hall metal and fractional Chern insulator in twisted transition metal dichalcogenides*, Phys. Rev. B **107** (2023) L201109 &lbrack;[arXiv:2207.08895](https://arxiv.org/abs/2207.08895), [doi:10.1103/PhysRevB.107.L201109](https://doi.org/10.1103/PhysRevB.107.L201109)&rbrack;
 
 * Gal Shavit, Yuval Oreg: *Quantum Geometry and Stabilization of Fractional Chern Insulators Far from the Ideal Limit*, Phys. Rev. Lett. **133** (2024) 156504 &lbrack;[doi:10.1103/PhysRevLett.133.156504](https://doi.org/10.1103/PhysRevLett.133.156504), [arXiv:2405.09627](https://arxiv.org/abs/2405.09627)&rbrack;
@@ -199,7 +201,7 @@ Further discussion:
 
 * Hongyu Lu, Han-Qing Wu, Bin-Bin Chen, Wang Yao, Zi Yang Meng: *Generic (fractional) quantum anomalous Hall crystals from interaction-driven band folding* &lbrack;[arXiv:2505.04138](https://arxiv.org/abs/2505.04138)&rbrack;
 
-* Raul Perea-Causin, Hui Liu, Emil J. Bergholtz: *Quantum anomalous Hall crystals in moiré bands with higher Chern number*, Nature Communications **16** 6875 (2025) &lbrack;[doi:10.1038/s41467-025-62224-9](https://doi.org/10.1038/s41467-025-62224-9)&rbrack;
+* Raul Perea-Causin, [[Hui Liu]], [[Emil J. Bergholtz]]: *Quantum anomalous Hall crystals in moiré bands with higher Chern number*, Nature Communications **16** 6875 (2025) &lbrack;[doi:10.1038/s41467-025-62224-9](https://doi.org/10.1038/s41467-025-62224-9)&rbrack;
 
 * Zhengyan Darius Shi, T. Senthil: *Doping a fractional quantum anomalous Hall insulator* &lbrack;[arXiv:2409.20567](https://arxiv.org/abs/2409.20567)&rbrack;
 
@@ -253,14 +255,14 @@ See also:
 
 On [[anyons]] in FQAH systems:
 
-* Aidan P. Reddy, Nisarga Paul, Ahmed Abouelkomsan, Liang Fu: *Non-Abelian fractionalization in topological minibands*, Phys. Rev. Lett. **133** (2024) 166503 &lbrack;[arXiv:2403.00059](https://arxiv.org/abs/2403.00059), [doi:10.1103/PhysRevLett.133.166503](https://doi.org/10.1103/PhysRevLett.133.166503)
+* Aidan P. Reddy, Nisarga Paul, [[Ahmed Abouelkomsan]], Liang Fu: *Non-Abelian fractionalization in topological minibands*, Phys. Rev. Lett. **133** (2024) 166503 &lbrack;[arXiv:2403.00059](https://arxiv.org/abs/2403.00059), [doi:10.1103/PhysRevLett.133.166503](https://doi.org/10.1103/PhysRevLett.133.166503)
 &rbrack;
 
-* Hui Liu, Zhao Liu, Emil J. Bergholtz: *Non-Abelian Fractional Chern Insulators and Competing States in Flat Moiré Bands*, Phys. Rev. Lett. **135** (2025) 106604 &lbrack;[arXiv:2405.08887](https://arxiv.org/abs/2405.08887), [doi:10.1103/43nq-ntqm](https://doi.org/10.1103/43nq-ntqm)&rbrack;
+* [[Hui Liu]], [[Zhao Liu]], [[Emil J. Bergholtz]]: *Non-Abelian Fractional Chern Insulators and Competing States in Flat Moiré Bands*, Phys. Rev. Lett. **135** (2025) 106604 &lbrack;[arXiv:2405.08887](https://arxiv.org/abs/2405.08887), [doi:10.1103/43nq-ntqm](https://doi.org/10.1103/43nq-ntqm)&rbrack;
 
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
-* Hui Liu, Raul Perea-Causin & Emil J. Bergholtz: *Parafermions in moiré minibands*, Nature Communications **16** (2025) 1770 &lbrack;[doi:10.1038/s41467-025-57035-x](https://doi.org/10.1038/s41467-025-57035-x)&rbrack;
+* [[Hui Liu]], Raul Perea-Causin, [[Emil J. Bergholtz]]: *Parafermions in moiré minibands*, Nature Communications **16** (2025) 1770 &lbrack;[doi:10.1038/s41467-025-57035-x](https://doi.org/10.1038/s41467-025-57035-x)&rbrack;
 
 * Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122 &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
 
