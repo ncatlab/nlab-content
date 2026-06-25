@@ -99,7 +99,7 @@ Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavef
 * Yuzhu Wang, Bo Yang: *Geometric Fluctuation of Conformal Hilbert Spaces and Multiple Graviton Modes in Fractional Quantum Hall Effect*, Nat. Commun. **14** 2317 (2023) \[<a href="https://doi.org/10.1038/s41467-023-38036-0">doi:10.1038/s41467-023-38036-0</a>, [arXiv:2201.00020](https://arxiv.org/abs/2201.00020)\]
   > ([[gravitino]] on p. 8)
 
-* Hui Liu, Zhao Liu, Emil J. Bergholtz: *Non-Abelian Fractional Chern Insulators and Competing States in Flat Moiré Bands*, Phys. Rev. Lett. **135** (2025) 106604 \[<a href="https://doi.org/10.1103/43nq-ntqm">doi:10.1103/43nq-ntqm</a>, [arXiv:2405.08887](https://arxiv.org/abs/2405.08887)\]
+* [[Hui Liu]], [[Zhao Liu]], [[Emil J. Bergholtz]]: *Non-Abelian Fractional Chern Insulators and Competing States in Flat Moiré Bands*, Phys. Rev. Lett. **135** (2025) 106604 \[<a href="https://doi.org/10.1103/43nq-ntqm">doi:10.1103/43nq-ntqm</a>, [arXiv:2405.08887](https://arxiv.org/abs/2405.08887)\]
   > (in [[fractional quantum anomalous Hall systems]])
 
 and explicit embedding of these phenomena into ([non-relativistic](supergravity#ReferencesNonRelativisticSupergravity)) [[supergravity]]:
