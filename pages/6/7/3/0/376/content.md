@@ -392,6 +392,26 @@ See  [[distributivity pullback]].
 
 ## Examples
 
+### Without terminal objects
+
+* the category of [[topological spaces]] (or [[locales]]) and [[local homeomorphisms]], every slice of which is a [[sheaf category]]
+* the category of [[polynomial endofunctors]] in [[Set]], every slice of which is a [[presheaf category]] (see 0.0.2 of [Kock 2009](#Kock09))
+* the category of [[decomposition spaces]] and CULF maps, every slice of which is a [[presheaf category]] (see [Kock & Spivak 2019](#Kock19))
+* the category of [[small categories]] and [[discrete fibrations]] (see Example 1.11 of [Bénabou and Streicher 2003](#BS03))
+* for any [[elementary topos]] $E$ and set $I$ of [[subterminals]], the full subcategory of $E$ on objects with a morphism to an object of $I$: this has a terminal object if and only if $I$ has a greatest element (see Example 1.6 of [Bénabou and Streicher 2003](#BS03), who give several examples of this construction)
+* [[FinInj]]: the category of finite sets and injections
+* any [[groupoid]] that is not a [[codiscrete category]]
+* category of sets with finite-to-one functions (i.e. functions $f : X \to Y$ for which, for each $y \in Y$, preimage $f^{-1}(y)$ is finite)
+* the additive [[monoid]] of [[natural numbers]] (or [[ordinal numbers]]), viewed as a one-object category
+* the [[poset]] of [[natural numbers]] (or [[ordinal numbers]])
+* the [[free-standing]] [[fork]], and the [[free-standing]] [[span]]
+* the coproduct of locally cartesian closed categories is locally cartesian closed
+
+See also on [CatDat](https://catdat.app/category-search/results?satisfied=locally_cartesian_closed&unsatisfied=terminal_object%7Egroupoid).
+
+
+### With terminal objects
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -463,6 +483,13 @@ See also:
 
 * J. Howie, _Pullback functors and crossed complexes_ , Cahiers Topologie G&#233;om. Diff&#233;rentielle, 20 (1979) 281--296.
 
+* {#Kock09} [[Joachim Kock]], _Polynomial functors and trees_, International Mathematics Research Notices 2011.3 (2011): 609-673.
+
+* {#Kock19} [[Joachim Kock]] and [[David Spivak]], _Decomposition-space slices are toposes_, Proceedings of the American Mathematical Society 148.6 (2020): 2317-2329.
+
+In the following, a _partial locally cartesian closed category_ is a locally cartesian closed category with binary products (but not necessarily a terminal object), which eliminates the trivial examples of [[groupoids]].
+
+* {#BS03} [[Jean Bénabou]] and [[Thomas Streicher]], _Partial Toposes_, Theory and Applications of Categories 11.13 (2003): 309-320.
 
 
 [[!redirects locally cartesian closed categories]]
