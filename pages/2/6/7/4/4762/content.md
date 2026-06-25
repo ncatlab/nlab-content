@@ -9,14 +9,17 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea 
 
-
 An _$n$-hypergroupoid_ is a model for an [[n-groupoid]]: it is an [[Kan complex]] that is like the [[nerve]] of a [[groupoid]] ($n= 1$), [[bigroupoid]] ($n = 2$) etc.
+
+\begin{remark}\label{Terminology}
+Beware that, while [[groups]] are [[looping and delooping|equivalently]] [[pointed object|pointed]] [[groupoids]] with a single [[object]], *[[hypergroups]]* are not hypergroupoids with a single object. For this reason some sources refer to the objects discussed here as *Duskin-Glenn hypergroupoids*.
+\end{remark}
+
 
 ## Definition
 
@@ -60,9 +63,6 @@ Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] 
 2-Hypergroupoids are precisely the [[Duskin nerves]] of [[bigroupoids]].
 \end{example}
 
-##Terminological ambiguity. 
-
-A group is a groupoid having just one object, but a [[hypergroup]] is not a hypergroupoid having just one object. For this reason some sources refer to the objects discussed here as Duskin-Glenn hypergroupoids.
 
 ## References
  {#References}
