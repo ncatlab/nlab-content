@@ -12,7 +12,7 @@ via (possibly [[infinite-dimensional manifold|infinite-dimensional]]) [[superman
 
 * [[Thomas Schmitt]]: *The Cauchy Problem for Classical Field Equations with Ghost and Fermion Fields* \[<a href="https://arxiv.org/abs/hep-th/9607133">arXiv:hep-th/9607133</a>\]
 
-* {#Schmitt97} [[Thomas Schmitt]]: *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 \[<a href="https://doi.org/10.1142/S0129055X97000348">doi:10.1142/S0129055X97000348</a>, [arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132)\].
+* {#Schmitt97} [[Thomas Schmitt]]: *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 \[<a href="https://doi.org/10.1142/S0129055X97000348">doi:10.1142/S0129055X97000348</a>, [arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132)\]
 
 * [[Thomas Schmitt]]: *Supermanifolds of classical solutions for Lagrangian field models with ghost and fermion fields*, Sfb 288 Preprint No. 270 \[<a href="https://arxiv.org/abs/hep-th/9707104">hep-th/9707104</a>, [inspire:445574](https://inspirehep.net/literature/445574)\]
 
