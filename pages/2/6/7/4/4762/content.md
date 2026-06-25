@@ -60,6 +60,10 @@ Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] 
 2-Hypergroupoids are precisely the [[Duskin nerves]] of [[bigroupoids]].
 \end{example}
 
+##Terminological ambiguity. 
+
+A group is a groupoid having just one object, but a [[hypergroup]] is not a hypergroupoid having just one object. For this reason some sources refer to the objects discussed here as Duskin-Glenn hypergroupoids.
+
 ## References
  {#References}
 
