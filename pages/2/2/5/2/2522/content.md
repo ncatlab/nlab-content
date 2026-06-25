@@ -1011,9 +1011,9 @@ See also at the [[string theory FAQ]]: _[Does string theory predict supersymmetr
 
 Independently, around the same time [[Yuri Golfand]] and [[Evgeny Likhtman]] in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions:
 
-* {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]], _On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.) _I. E. Tamm Memorial Volume Problems of Theoretical Physics_, (Nauka, Moscow 1972), page 37, 
+* {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]]: _On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.): _Problems of Theoretical Physics -- I. E. Tamm Memorial Volume_, Nauka, Moscow (1972) 37--44 
 
-  translated and reprinted in: [[Mikhail Shifman]] (ed.) _[[The Many Faces of the Superworld]]_ pp. 44-53,  World Scientific (2000) ([doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006))
+  translated and reprinted in: [[Mikhail Shifman]] (ed.): _[[The Many Faces of the Superworld]]_,  World Scientific (2000) 44--53 &lbrack;[doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006)&rbrack;
 
 This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric [[quantum field theories]] in four [[spacetime]] dimensions:
 
