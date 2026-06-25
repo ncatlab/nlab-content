@@ -1,13 +1,14 @@
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
 A **hypergroup** is a [[algebra|algebraic]] structure similar to a [[group]], but where the composition operation does not just take two elements to a single product element in the group, but to a subset of elements of the group.
 
 It is a [[hypermonoid]] with additional groupal [[stuff, structure, property|structure and property]].
+
+
 
 ## Definition
 
@@ -43,9 +44,10 @@ The additive structure underlying a [[hyperring]] is a canonical hypergroup. See
 
 * [[hypergraph]]
 
-##Terminological ambiguity. 
+\begin{remark}\label{Terminology}
+Beware that, while [[groups]] are [[looping and delooping|equivalently]] [[pointed object|pointed]] [[groupoids]] with a single [[object]], hypergroups are not *[[hypergroupoids]]* with a single object. For this reason some sources refer to the latter as *Duskin-Glenn hypergroupoids*.
+\end{remark}
 
-A group is a groupoid having just one object, but a hypergroup is not a [[hypergroupoid]] having just one object.
 
 ## References
 
