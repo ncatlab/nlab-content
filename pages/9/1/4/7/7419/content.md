@@ -1,4 +1,3 @@
-# Locally regular categories
 * table of contents
 {: toc}
 
