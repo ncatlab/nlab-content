@@ -49,7 +49,7 @@ see also:
 
 and their potential experimental realization:
 
-* Zhao Liu, Gunnar Möller, Emil J. Bergholtz: *Exotic Non-Abelian Topological Defects in Lattice Fractional Quantum Hall States*, Phys. Rev. Lett. **119** (2017) 106801 \[<a href="https://doi.org/10.1103/PhysRevLett.119.106801">doi:10.1103/PhysRevLett.119.106801</a>\]
+* [[Zhao Liu]], Gunnar Möller, [[Emil J. Bergholtz]]: *Exotic Non-Abelian Topological Defects in Lattice Fractional Quantum Hall States*, Phys. Rev. Lett. **119** (2017) 106801 \[<a href="https://doi.org/10.1103/PhysRevLett.119.106801">doi:10.1103/PhysRevLett.119.106801</a>\]
 
 
 
