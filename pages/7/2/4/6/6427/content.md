@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -45,13 +44,13 @@ The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [
 
 These references speak of the super Poincaré group but tend to focus on its [[super Poincaré Lie algebra]]:
 
-* [[Pierre Deligne]], [[Daniel Freed]], section 1.1 of _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
+* [[Pierre Deligne]], [[Daniel Freed]], section 1.1 of _Supersolutions_ &lbrack;[arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
-  in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
+  in: [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]] (eds.): _[[Quantum Fields and Strings]]_, Amer. Math. Soc. Providence (1999) &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s)&rbrack;
 
-* {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+* [[Daniel Freed]]; _Lecture 3 of: [[Five lectures on supersymmetry]]_, American Mathematical Society (1999) &lbrack;[ISBN:978-0-8218-1953-1](https://bookstore.ams.org/FLS), [spire:517862](https://inspirehep.net/literature/517862)&rbrack;
 
-* [[Daniel Freed]], _Lecture 3 of: [[Five lectures on supersymmetry]]_, American Mathematical Society (1999) &lbrack;[ISBN:978-0-8218-1953-1](https://bookstore.ams.org/FLS), [spire:517862](https://inspirehep.net/literature/517862)&rbrack;
+* {#Freed01} [[Daniel Freed]]; lecture 6 of: _Classical field theory and Supersymmetry_,  in: [[Daniel S. Freed]], [[David R. Morrison]], [[Isadore Singer]] (eds.): *Quantum Field Theory, Supersymmetry, and Enumerative Geometry*, IAS/Park City Mathematics Series **11**, American Mathematical Society (2006) &lbrack;[ISBN:978-0-8218-3431-2](https://bookstore.ams.org/view?ProductCode=PCMS/11), [pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf)&rbrack;
 
  
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 7.5 (draft: 6.5)  of:  _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
