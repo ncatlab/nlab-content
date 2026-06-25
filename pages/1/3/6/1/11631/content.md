@@ -10,7 +10,7 @@
 =--
 
 
-This page collects links related to the textbook:
+This page is to record the reference:
 
 * [[Peter West]]:
 
@@ -24,7 +24,7 @@ This page collects links related to the textbook:
   
   [doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)
 
-on [[string theory]] and [[M-theory]].
+on [[string theory]] and [[M-theory]] and their [[branes]].
 
 For related texts see at _[[books about string theory]]_.
 
