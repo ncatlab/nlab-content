@@ -17,7 +17,7 @@ According to [V. Kac 1977b](super+Lie+algebra#Kac77b) the definition of [[super 
 
 Early discussion of [[supermanifolds]] as [[locally ringed spaces]]:
 
-* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]]: _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ 3 (1975) 505-508; English transl.: Soviet Math. Dokl. __16__ 5 (1975) 1218-1222 &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
+* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]]: _Supermanifolds_ (Russian), Dokl. Akad. Nauk SSSR __224__ 3 (1975) 505-508; English transl.: Soviet Math. Dokl. __16__ 5 (1975) 1218-1222 &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282), [mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
 
 An original approach to [[quantization]]:
 
