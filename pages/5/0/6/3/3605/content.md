@@ -1,6 +1,16 @@
-**Samson Abramsky**
 
-* [website](http://web.comlab.ox.ac.uk/people/samson.abramsky/)
+Samson Abramsky
+
+* [personal page](http://web.comlab.ox.ac.uk/people/samson.abramsky/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Samson_Abramsky)
+
+* [MathGenealogy page](https://mathgenealogy.org/id.php?id=67094)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=L2vmD3MAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Samson-Abramsky)
+
 
 
 ## Selected writings
@@ -25,11 +35,16 @@ Survey in contrast to [[quantum logic]]:
 
 On [[quantum logic]] as the [[linear logic]] [[internal language]] of [[symmetric monoidal categories]]:
 
-* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
+* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science **16** 3 (2006) 469--489  &lbrack;[arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275)&rbrack;
 
 [[sheaf theory|Sheaf theoretic]] discussion of [[quantum contextuality]] ([[hidden variable theories]], [[Kochen-Specker theorem]]):
 
 * {#AbramskyBrandenburger11} [[Samson Abramsky]], [[Adam Brandenburger]], _The Sheaf-Theoretic Structure Of Non-Locality and Contextuality_, New Journal of Physics **13** (2011) 113036 &lbrack;[arXiv:1102.0264](https://arxiv.org/abs/1102.0264), [doi:10.1088/1367-2630/13/11/113036](https://doi.org/10.1088/1367-2630/13/11/113036)&rbrack;
+
+On [[category theory]] and [[categorical logic]]:
+
+* [[Samson Abramsky]], Nikos Tzevelekos: *Introduction to Categories and Categorical Logic*, in *New Structures for Physics*, Lecture Notes in Physics **813**, Springer (2011) 3--94 \[<a href="https://doi.org/10.1007/978-3-642-12821-9_1">doi:10.1007/978-3-642-12821-9_1</a>, [arXiv:1102.1313 math.CT](https://arxiv.org/abs/1102.1313)\]
+
 
 On [[H-star algebras|$H^\ast$-algebras]] and [[Frobenius algebras]]:
 
@@ -41,7 +56,7 @@ On [[simplicial complexes]] treated in [[homotopy type theory]]:
 * Maximilian Doré, [[Samson Abramsky]], _Towards Simplicial Complexes in Homotopy Type Theory_ ([pdf](https://hott-uf.github.io/2020/HoTTUF_2020_paper_11.pdf))
 
 
-On game comonads, e.g. the [[Ehrenfeucht-Fraïssé comonad]],
+On game comonads, e.g. the [[Ehrenfeucht-Fraïssé comonad]]:
 
 * [[Samson Abramsky]]. _Structure and Power: an emerging landscape._ Fundamenta Informaticae 186(1-4) : 1–26, 2022 ([doi:10.3233/FI-222116](https://doi.org/10.3233/FI-222116), [arXiv:quant-ph/2206.07393](http://arxiv.org/abs/quant-ph/2206.07393))
 
