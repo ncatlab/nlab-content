@@ -52,16 +52,16 @@ On [[supergeometry]] as taking place over the [[base topos]] on the [[site]] of 
 
 * [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
-* Anatoly Konechny and [[Albert Schwarz]], 
+  Engl. translation: *On the definition of superspace*, Theor. Math. Phys. **60** (1984) 657--660 &lbrack;[doi:10.1007/BF01018248](https://doi.org/10.1007/BF01018248)&rbrack;
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998 ,
-Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
-  _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
-  {#KonechnySchwarz98}
+* {#KonechnySchwarz98} Anatoly Konechny, [[Albert Schwarz]]: 
+
+  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.): _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Lecture Notes in Physics **509**, Springer (1998) &lbrack;[doi:10.1007/BFb0105247](https://doi.org/10.1007/BFb0105247), [arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003)&rbrack;
+
+  also published as: _Theory of $(k \oplus l|q)$-dimensional supermanifolds_, Sel. math., New ser. **6** (2000) 471--486 &lbrack;[doi:10.1007/PL00001396](https://doi.org/10.1007/P
 
 * [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
-
 
 On the [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] ([[brane scan]] of [[Green-Schwarz sigma-models]]):
 
