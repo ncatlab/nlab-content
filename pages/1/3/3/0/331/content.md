@@ -21,9 +21,10 @@
 =--
 =--
 
-# Logic
-* table of contents
-{: toc}
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -206,7 +207,7 @@ Textbooks on mathematical logic:
 
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on the categorical foundations of mathematics_ ([pdf](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf))
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ (1992)
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_, (1999) Elsevier 
 
@@ -214,7 +215,10 @@ Textbooks on mathematical logic:
 
 * {#MarquisReyes09} [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) *The History of Categorical Logic 1963-1977* ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf), [[MarquisReyes_CategoricalLogic.pdf:file]])
 
-* [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
+* [[Samson Abramsky]], Nikos Tzevelekos: *Introduction to Categories and Categorical Logic*, in *New Structures for Physics*, Lecture Notes in Physics **813**, Springer (2011) 3--94 \[<a href="https://doi.org/10.1007/978-3-642-12821-9_1">doi:10.1007/978-3-642-12821-9_1</a>, [arXiv:1102.1313](https://arxiv.org/abs/1102.1313)\]
+
+
+* [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society (2011)
 
 * [[Jacob Lurie]], *Categorical Logic*, Lecture notes 2018 ([web](https://www.math.ias.edu/~lurie/278x.html))
 
