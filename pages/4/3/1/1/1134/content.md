@@ -189,7 +189,7 @@ We discuss a description of supermanifolds that goes back to
 
 Let $SuperPoint$ be the [[category]] of [[superpoint|superpoints]]. And $Sh(SuperPoint) = PSh(SuperPoint)$ its [[presheaf topos]].
 
-We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]]. 
+We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See [Sachse 2008](#Sachse2008) and the references at [[super ∞-groupoid]]. 
 
 See also [this post](http://theoreticalatlas.wordpress.com/2013/07/26/john-huerta-supermanifolds/) at Theoretical Atlas. 
 
@@ -222,7 +222,7 @@ A **superdomain** is an open subfunctor (...) of a [[locally convex vector space
 
 =--
 
-This appears as ([Sachse, def. 4.6](#Sachse)). 
+This appears as [Sachse 08, def. 4.6](#Sachse2008). 
 
 We now want to describe supermanifolds as [[manifold|manifolds]] in $SuperSet$ modeled on superdomains.
 
@@ -249,7 +249,7 @@ can be equipped with the structture of a [Banach superdomain](#) such that $p_1$
 
 =--
 
-This appears as ([Sachse, def. 4.13, 4.14](#Sachse)).
+This appears as [Sachse 08 Def. 4.13, 4.14](#Sachse2008).
 
 ### Properties
 
@@ -263,7 +263,7 @@ def. \ref{SupermanifoldOverSuperpoint} are
 
 =--
 
-This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a discussion of the relation to the [DeWitt-definition](#ModeledOnGrassmannAlgebra).
+This appears as [Sachse 08 Thm. 5.1](#Sachse2008). See section 5.2 there for a discussion of the relation to the [DeWitt-definition](#ModeledOnGrassmannAlgebra).
 
 
 
@@ -304,16 +304,16 @@ Via the [[formal dual|formally dual]] [[superalgebra]] of the super-[[function a
 
 Discussion from the point of view of [[functorial geometry]]:
 
-* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]]: _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics **15** (2011) &lbrack;[ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742 math.RA](https://arxiv.org/abs/0710.5742)&rbrack;
 
-* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *Super manifolds: an incomplete survey*, Bulletin of the Manifold Atlas (2011) 1-6 &lbrack;[webpage](https://web.archive.org/web/20241113101731/http://www.map.mpim-bonn.mpg.de/Super_manifolds:_an_incomplete_survey), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf), [[HST11-SupermanifoldsIncomplete.pdf:file]]&rbrack;
+* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *Super manifolds: an incomplete survey*, Bulletin of the Manifold Atlas (2011) 1--6 &lbrack;[webpage](http://www.map.mpim-bonn.mpg.de/Super_manifolds:_an_incomplete_survey), [pdf](http://www.boma.mpim-bonn.mpg.de/data/28screen.pdf), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf), [[HST11-SupermanifoldsIncomplete.pdf:file]]&rbrack;
 
 * [[Henning Hohnhold]], [[Matthias Kreck]], [[Stephan Stolz]], [[Peter Teichner]], Sections 2-3 of: _Differential forms and 0-dimensional supersymmetric field theories_, Quantum Topology **2** 1 (2011) 1–41 &lbrack;[doi:10.4171/QT/12](http://dx.doi.org/10.4171/QT/12), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/DimZero.pdf)&rbrack;
 
 
 ### As locally ringed spaces
 
-* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]]: _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ 3 (1975) 505-508; English transl.: Soviet Math. Dokl. __16__ 5 (1975) 1218-1222 &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
+* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]]: _Supermanifolds_ (Russian), Dokl. Akad. Nauk SSSR __224__ 3 (1975) 505-508; English transl.: Soviet Math. Dokl. __16__ 5 (1975) 1218-1222 &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282), [mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
 
 * {#Batchelor79} [[Marjorie Batchelor]], *The structure of supermanifolds*, Trans. Amer. Math. Soc. **253** (1979) 329-338 &lbrack;[doi:10.1090/S0002-9947-1979-0536951-0](https://doi.org/10.1090/S0002-9947-1979-0536951-0)&rbrack;
 
@@ -344,35 +344,37 @@ A more general variant of this in the spirit of [[locally algebra-ed topos|local
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
-* [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+* [[Albert Schwarz]]: _On the definition of superspace_, Teoret. Mat. Fiz.  **60** 1 (1984) 37--42, &lbrack;[russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf)&rbrack;
+
+  Engl. translation: *On the definition of superspace*, Theor. Math. Phys. **60** (1984) 657--660 &lbrack;[doi:10.1007/BF01018248](https://doi.org/10.1007/BF01018248)&rbrack;
+
 
 * [[Alexander Voronov]], _Maps of supermanifolds_ , Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 43&#8211;48
 
 and in 
 
-* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
-preprints, IC/84/183, 1984.
+* V. Molotkov: _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP preprints, IC/84/183 (1984) &lbrack;[[MolotkovSupermanifolds.pdf|pdf:file]]&rbrack;
 
 
 A summary/review is in the appendix of
 
-* {#KonechnySchwarz98} Anatoly Konechny, [[Albert Schwarz]], 
+* {#KonechnySchwarz98} Anatoly Konechny, [[Albert Schwarz]]: 
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Lecture Notes in Physics, 509, Springer 1998 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.): _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Lecture Notes in Physics **509**, Springer (1998) &lbrack;[doi:10.1007/BFb0105247](https://doi.org/10.1007/BFb0105247), [arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003)&rbrack;
 
-  Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_, Sel. math., New ser. 6 (2000) 471 - 486 ([doi:10.1007/PL00001396](https://doi.org/10.1007/PL00001396))
+  also published as: _Theory of $(k \oplus l|q)$-dimensional supermanifolds_, Sel. math., New ser. **6** (2000) 471--486 &lbrack;[doi:10.1007/PL00001396](https://doi.org/10.1007/PL00001396)&rbrack;
   
 
-* [[Albert Schwarz]], I. Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
+* [[Albert Schwarz]], I. Shapiro, _Supergeometry and Arithmetic Geometry_ &lbrack;[arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119)&rbrack;
 
 A review with more emphasis on the relevant [[category theory]]/[[topos theory]] is in 
 
-* {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* {#Sachse2008} [[Christoph Sachse]]: _A Categorical Formulation of Superalgebra and Supergeometry_ &lbrack;[arXiv:0802.4067 math.AG](http://arxiv.org/abs/0802.4067)&rbrack;
 
 
 The site of formal duals not just to [[Grassmann algebras]] but to all super-[[infinitesimally thickened points]] is discussed in ([Konechny-Schwarz](#KonechnySchwarz)) above and also in
 
-* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_, Expositiones Mathematicae Volume 28, Issue 3, 2010, Pages 201-217 ([doi:10.1016/j.exmath.2009.09.005](https://doi.org/10.1016/j.exmath.2009.09.005), [arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_, Expositiones Mathematicae **28** 3 (2010) 201--217 &lbrack;[doi:10.1016/j.exmath.2009.09.005](https://doi.org/10.1016/j.exmath.2009.09.005), [arXiv:0908.1872 math.RA](http://arxiv.org/abs/0908.1872)&rbrack;
 
 ### As manifolds modelled on Grassmann algebras
 
@@ -381,8 +383,7 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 * {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1984, 1992) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
 
 * {#Rogers07} [[Alice Rogers]], *Supermanifolds: Theory and Applications*, World Scientific (2007) &lbrack;[doi:10.1142/1878](https://doi.org/10.1142/1878)&rbrack;
-
-  > ([Rogers 2007, Ch. 1](#Rogers07) that the smooth-manifold-of-(infinite-dimensional)-Grassmann-algebras approach (the "concrete approach") is identical to the sheaf-of-ringed-spaces approach (the "algebro-geometric" approach) and that this equivalence is shown in Chapter 8. DeWitt seems unsure of this, but is writing more than 20 years earlier, before the ringed-space approach has been fully developed.)
+  > [Ch. 1](#Rogers07): "the smooth-manifold-of-(infinite-dimensional)-Grassmann-algebras approach (the "concrete approach") is identical to the sheaf-of-ringed-spaces approach (the "algebro-geometric" approach) and that this equivalence is shown in Chapter 8. DeWitt seems unsure of this, but is writing more than 20 years earlier, before the ringed-space approach has been fully developed
  
 * [[Alice Rogers]], *Aspects of the Geometrical Approach to Supermanifolds*, in: *Mathematical Aspects of Superspace*, NATO ASI Series **132**, Springer (1984) 135-148 &lbrack;[doi:10.1007/978-94-009-6446-4_5](https://doi.org/10.1007/978-94-009-6446-4_5)&rbrack;
 
