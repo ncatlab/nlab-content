@@ -43,6 +43,10 @@ The additive structure underlying a [[hyperring]] is a canonical hypergroup. See
 
 * [[hypergraph]]
 
+##Terminological ambiguity. 
+
+A group is a groupoid having just one object, but a hypergroup is not a [[hypergroupoid]] having just one object.
+
 ## References
 
 See also at [[hypermagma]] and [[multivalued group]].
