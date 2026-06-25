@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -385,32 +383,48 @@ The [[internal logic]] of locally cartesian closed categories is an [[extensiona
 
 ### Almost local cartesian closure
 
-There are categories which are cartesian closed and not locally cartesian closed, but in which for some $f$ the  base change functor $f^*: C/y \to C/x$ has a right adjoint. This includes $Cat$, $Gpd$, and the category of [[crossed complex]]es; in the latter two cases, it is necessary and sufficient for $f$ to be a [[fibration]], while in $Cat$ it is sufficient for $f$ to be a fibration or an opfibration.
+There are categories which are [[cartesian closed category|cartesian closed]] and not locally cartesian closed, but in which for some $f$ the  [[base change]] functor $f^*: C/y \to C/x$ has a [[right adjoint]]. This includes $Cat$, $Gpd$, and the category of [[crossed complexes]]; in the latter two cases, it is necessary and sufficient for $f$ to be a [[fibration]], while in $Cat$ it is sufficient for $f$ to be a [[Grothendieck fibration|fibration]] or an [[opfibration]].
 
 ### Distributivity of dependent sums over dependent products
-See  [[distributivity pullback]].
+
+See  *[[distributivity pullback]]*.
 
 ## Examples
 
 ### Without terminal objects
 
+Examples of LCCCs without [[terminal object]]:
+
 * the category of [[topological spaces]] (or [[locales]]) and [[local homeomorphisms]], every slice of which is a [[sheaf category]]
+
 * the category of [[polynomial endofunctors]] in [[Set]], every slice of which is a [[presheaf category]] (see 0.0.2 of [Kock 2009](#Kock09))
+
 * the category of [[decomposition spaces]] and CULF maps, every slice of which is a [[presheaf category]] (see [Kock & Spivak 2019](#Kock19))
+
 * the category of [[small categories]] and [[discrete fibrations]] (see Example 1.11 of [Bénabou and Streicher 2003](#BS03))
+
 * for any [[elementary topos]] $E$ and set $I$ of [[subterminals]], the full subcategory of $E$ on objects with a morphism to an object of $I$: this has a terminal object if and only if $I$ has a greatest element (see Example 1.6 of [Bénabou and Streicher 2003](#BS03), who give several examples of this construction)
-* [[FinInj]]: the category of finite sets and injections
+
+* [[FinInj]]: the category of [[finite sets]] and [[injections]]
+
 * any [[groupoid]] that is not a [[codiscrete category]]
+
 * category of sets with finite-to-one functions (i.e. functions $f : X \to Y$ for which, for each $y \in Y$, preimage $f^{-1}(y)$ is finite)
+
 * the additive [[monoid]] of [[natural numbers]] (or [[ordinal numbers]]), viewed as a one-object category
+
 * the [[poset]] of [[natural numbers]] (or [[ordinal numbers]])
+
 * the [[free-standing]] [[fork]], and the [[free-standing]] [[span]]
-* the coproduct of locally cartesian closed categories is locally cartesian closed
+
+* the [[coproduct]] of locally cartesian closed categories is locally cartesian closed
 
 See also on [CatDat](https://catdat.app/category-search/results?satisfied=locally_cartesian_closed&unsatisfied=terminal_object%7Egroupoid).
 
 
 ### With terminal objects
+
+Examples of LCCCs with [[terminal object]].
 
 +-- {: .num_prop}
 ###### Proposition
