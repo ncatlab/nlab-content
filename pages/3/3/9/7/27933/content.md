@@ -53,6 +53,7 @@ For the definition of categories in the [[foundations]] of [[homotopy type theor
 \subsection{Textbooks}
  {#ReferencesCategoryTheoryTextbooks}
 
+
 \subsubsection{Basic category theory}
  {#BasicTextBooks}
 
@@ -117,10 +118,12 @@ Monographs on [[category theory]]:
 * {#LawvereSchanuel09} [[F. William Lawvere]], [[Stephen Schanuel]]: _Conceptual Mathematics: A first introduction to categories_, Cambridge University Press (2009P) \[<a href="https://ia800207.us.archive.org/33/items/F.WilliamLawvereStephenH.SchanuelConceptualMathematicsAFirstIntroductionToCatego/F.%20William%20Lawvere%2C%20Stephen%20H.%20Schanuel%20-%20Conceptual%20Mathematics_%20A%20First%20Introduction%20to%20Categories%20%282009%2C%20Cambridge%20University%20Press%29%20%281%29_text.pdf">pdf</a>, [pdf](https://img.4plebs.org/boards/tg/image/1460/05/1460059215690.pdf)\]
 
 * [[Harold Simmons]]: *An Introduction to Category Theory*, Cambridge (2011) \[<a href="https://www.cambridge.org/de/universitypress/subjects/mathematics/logic-categories-and-sets/introduction-category-theory?format=HB&isbn=9781107010871">ISBN:9781107010871</a>\]
- 
+
+* [[Samson Abramsky]], Nikos Tzevelekos: *Introduction to Categories and Categorical Logic*, in *New Structures for Physics*, Lecture Notes in Physics **813**, Springer (2011) 3--94 \[<a href="https://doi.org/10.1007/978-3-642-12821-9_1">doi:10.1007/978-3-642-12821-9_1</a>, [arXiv:1102.1313](https://arxiv.org/abs/1102.1313)\]
+
 * [[David Spivak]]: _Category theory for scientists_, MIT Press (2014) \[<a href="https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/">ISBN:9780262028134</a>, [arXiv:1302.6946](http://arxiv.org/abs/1302.6946)\]
 
-* [[Tom Leinster]]: *Basic Category Theory*, Cambridge University Press (2014) \[<a href="https://doi.org/10.1017/CBO9781107360068">doi:10.1017/CBO9781107360068</a>, <a href="https://arxiv.org/abs/1612.09375"></a>\]
+* [[Tom Leinster]]: *Basic Category Theory*, Cambridge University Press (2014) \[<a href="https://doi.org/10.1017/CBO9781107360068">doi:10.1017/CBO9781107360068</a>, <a href="https://arxiv.org/abs/1612.09375">arXiv:1612.09375</a>\]
 
 * {#RiehlCTInContext} [[Emily Riehl]]L _[[Category Theory in Context]]_, Dover Publications (2017) \[<a href="https://store.doverpublications.com/products/9780486809038">ISBN:https://store.doverpublications.com/products/9780486809038</a>, [pdf](https://emilyriehl.github.io/files/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)\]
 
