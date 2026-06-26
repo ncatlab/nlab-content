@@ -211,6 +211,9 @@ Discussion of moduli stabilization in [[M-theory on 8-manifolds]] for the [[prod
 
 * [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
 
+See also: 
+
+* [[Iosif Bena]], Raphaël Dulac, [[Mariana Graña]], [[Dimitrios Toulikas]]: *Lost in Translation: Moduli Stabilization from EFT to Eleven Dimensions* &lbrack;[arXiv:2606.25016](https://arxiv.org/abs/2606.25016)&rbrack;
 
 
 #### In heterotic string theory
