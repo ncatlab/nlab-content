@@ -14,9 +14,7 @@
 =--
 
 
-# Parastatistics
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -117,7 +115,7 @@ Further discussion:
 
 Observation that parastatics is ruled out if statistics of [[mixed states]] is independent of coupling to any bath:
 
-* [[Manuel Mekonnen]], [[Thomas D. Galley]], [[Markus P. Mueller]]: *Invariance under quantum permutations rules out parastatistics* &lbrack;[arXiv:2502.17576](https://arxiv.org/abs/2502.17576)&rbrack;
+* [[Manuel Mekonnen]], [[Thomas D. Galley]], [[Markus P. Mueller]]: *Invariance under quantum permutations rules out parastatistics*, Nature Communication (2026) &lbrack;[arXiv:2502.17576](https://arxiv.org/abs/2502.17576)&rbrack;
 
 
 
