@@ -11,9 +11,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -256,14 +254,14 @@ Literature collection with focus on application to [[integrable systems]]:
 
 
 
-
-
-
 See also:
 
 * Wikipedia, _[Yang-Baxter equation](https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation)_
 
 * [[eom]], *[Yang-Baxter equation](https://encyclopediaofmath.org/index.php?title=Yang-Baxter_equation)*
+
+* Pramod Padmanabhan, Somnath Maity, Akash Sinha, Vladimir Korepin: *Symmetries of the Generalized Yang--Baxter Equations* &lbrack;[arXiv:2606.26510](https://arxiv.org/abs/2606.26510)&rbrack;
+
 
 
 
