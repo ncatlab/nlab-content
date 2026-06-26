@@ -44,6 +44,12 @@ On [[six functor formalism]]:
 
 * [[Peter Scholze]], _Six-Functor Formalisms_ &lbrack;[arXiv:2510.26269](https://arxiv.org/abs/2510.26269)&rbrack;
 
+On [[higher category theory]] for generalization of the [[duality between algebra and geometry]] to [[higher geometry]] and [[higher algebra]] (higher [[Tannaka duality]]) via suitably stabilized [[locally presentable (infinity,n)-categories|locally presentable]] [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] and their [[formal duals]] ("*[[Gestalten]]*"):
+
+
+* [[Peter Scholze]]: *Geometry and Higher Category Theory*, lecture notes (2026) &lbrack;[webpage](https://www.mpim-bonn.mpg.de/node/14764), [pdf](https://people.mpim-bonn.mpg.de/scholze/Gestalten.pdf)&rbrack;
+
+
 
 ## Related entries
 
