@@ -11,7 +11,7 @@ The theory of generalized polycategories is very underdeveloped in the literatur
 
 A Burroni-style definition of generalized polycategory, called "D-categories" is defined in
 
-* [[Elizabeth Burroni]]. _Algèbres non déterministiques et D-catégories_. Notebooks of Categorical Topology and Differential Geometry 14.4 (1973): 417-475. ([pdf](http://www.numdam.org/item/CTGDC_1973__14_4_417_0.pdf))
+* [[Elisabeth Burroni]]. _Algèbres non déterministiques et D-catégories_. Notebooks of Categorical Topology and Differential Geometry 14.4 (1973): 417-475. ([pdf](http://www.numdam.org/item/CTGDC_1973__14_4_417_0.pdf))
 
 though has a weaker notion of associativity than might be expected. The notion of associativity is strengthened by
 
