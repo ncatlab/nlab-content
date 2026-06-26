@@ -1,7 +1,18 @@
 Martina Rovelli is an Assistant Professor at University of Ottawa and at the University of Massachusetts Amherst. Her research interests are in [[algebraic topology]], [[homotopy theory]] and [[higher category theory]].
 
 
-* [webpage](https://sites.google.com/view/mrovelli)
+* [personal page](https://sites.google.com/view/mrovelli)
+
+* [institute page](https://www.uottawa.ca/faculty-science/professors/martina-rovelli) (Ottawa)
+
+* [institute page](https://www.umass.edu/mathematics-statistics/about/directory/martina-rovelli) (Amherst)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=214473)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=7ln13yUAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Martina-Rovelli-2069642166)
+
 
 ## Selected Publications
 
