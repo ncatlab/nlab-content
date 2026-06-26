@@ -1,5 +1,4 @@
 [[!redirects decorated cospans]]
-# Decorated cospan
 
 * table of contents
 {: toc}
