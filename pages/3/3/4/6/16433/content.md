@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -53,6 +51,9 @@ On the [[representation theory]] of the de Sitter group and its [[Inönü-Wigner
 * Zimo Sun, *A note on the representations of $SO(1,d+1)$* ([arXiv:2111.04591](https://arxiv.org/abs/2111.04591))
 
 * Vladimir Schaub, *A Walk Through $Spin(1,d+1)$* &lbrack;[arXiv:2405.01659](https://arxiv.org/abs/2405.01659)&rbrack;
+
+* Kurt Hinterbichler: *De Sitter Representations* &lbrack;[arXiv:2606.26221](https://arxiv.org/abs/2606.26221)&rbrack;
+
 
 
 
