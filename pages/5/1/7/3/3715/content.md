@@ -28,10 +28,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -717,8 +714,11 @@ See also
 * F. Bayen, M. Flato, C. Fronsdal, A. Lichnerowicz, D. Sternheimer, _Quantum mechanics as a deformation of classical mechanics_, Lett. Math. Phys. 1 (1975/77), [MR674337](http://www.ams.org/mathscinet-getitem?mr=674337), [doi](http://dx.doi.org/10.1007/BF00399745);  _Deformation theory and quantization. I. Deformations of symplectic structures_, Ann. Physics 111 (1978), no. 1, 61&#8211;110, [MR496157](http://www.ams.org/mathscinet-getitem?mr=496157); _Deformation theory and quantization. II. Physical applications_, Ann. Physics 111 (1978), no. 1, 111&#8211;151, [MR496158](http://www.ams.org/mathscinet-getitem?mr=496158)
 * M. Flato, A. Lichnerowicz, D. Sternheimer, _Deformations of Poisson brackets, Dirac brackets and applications_, J. Math. Phys. __17__ (1976), no. 9, 1754&#8211;1762, [MR420723](http://www.ams.org/mathscinet-getitem?mr=420723), [doi](http://dx.doi.org/10.1063/1.523104)
 * D. Arnal, J.-C. Cortet, _$\ast$-products in the method
-of orbits for nilpotent groups_, J. Geom. Phys. 2 (1985), no. 2,
-83&#8211;116, <a href="http://dx.doi.org/10.1016/0393-0440(85)90010-5">doi</a>
+of orbits for nilpotent groups_, J. Geom. Phys. **2** 2 (1985)
+83--116 &lbrack;<a href="http://dx.doi.org/10.1016/0393-0440(85)90010-5">doi</a>&rbrack;
+
+* Dylan Butson, Sujay Nair: *On the deformation theory of chiral quantizations* &lbrack;[arXiv:2606.27341](https://arxiv.org/abs/2606.27341)&rbrack;
+
 
 On the [[stack]] of deformation quantizations:
 
