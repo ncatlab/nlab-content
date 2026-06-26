@@ -428,6 +428,10 @@ The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] 
 
 * {#Hoffnung} [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
  
+A universal property of the span (∞,1)-category of a double ∞-category is discussed in
+
+* [[George Raptis]], [[Wolfgang Steimle]], _The span-squares adjunction_, [arXiv](https://arxiv.org/abs/2606.10052).
+
 
 Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
