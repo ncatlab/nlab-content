@@ -1775,6 +1775,9 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Ben Knudsen]], Dezhou Li: *Configuration spaces and the Arone--Mahowald theorem* &lbrack;[arXiv:2606.20248](https://arxiv.org/abs/2606.20248)&rbrack;
 
+* [[Najib Idrissi]], Victor Roca i Lucio: *Homology of configuration spaces in positive characteristic via point-set constructions* &lbrack;[arXiv:2606.26802](https://arxiv.org/abs/2606.26802)&rbrack;
+
+
 
 On the [[Hopf algebra]] structure of configuration spaces of disks:
 
