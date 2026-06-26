@@ -232,6 +232,8 @@ Reactions:
 
 * Davide Castelvecchi: *[Microsoft upgrades controversial quantum chip — researchers are still sceptical](https://www.nature.com/articles/d41586-026-01788-y)*, Nature news (03 June 2026)
 
+* Henry F. Legg: *On the robustness of topological gap detection via transport* Nature **654** E22--E26 (2026) \[<a href="https://doi.org/10.1038/s41586-026-10567-8">doi:10.1038/s41586-026-10567-8</a>\]
+
 See also:
 
 * Wikipedia: *[Majorana 1](https://en.wikipedia.org/wiki/Majorana_1)*, *[Majorana 2](https://en.wikipedia.org/wiki/Majorana_2)*
