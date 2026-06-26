@@ -13,15 +13,12 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
-In [[mathematics]], one often has an [[equivalence of categories]]
-between [[algebra]]-like objects and [[space]]-like objects.
-Such an idea has many incarnations: [[Stone duality]], [[Gelfand duality]], etc.,
+In [[mathematics]], one often has an [[equivalence of categories]] between [[algebra]]-like objects and [[space]]-like objects. Such an idea has many incarnations: [[Stone duality]], [[Gelfand duality]], etc.,
 and in this article we make some observations that are common to these dualities.
 
 Given an [[algebra]]-like object $A$, we assign to it its [[poset]] of [[ideals]]
@@ -42,6 +39,9 @@ only this time its underlying object is a [[space]], not just a [[set]].
 Some examples from [[general topology]], [[measure theory]], [[differential geometry]], [[algebraic geometry]], and [[complex geometry]]
 (the list is very much incomplete):
 
+
+[[!include Isbell duality - table]]
+
 |algebra|homomorphism|$k$|ideal|space|maps|duality|
 |-|-|-|-|-|-|-|
 |[[Boolean algebra]]|homomorphism|$\mathbf{Z}/2$|ideal|compact totally disconnected Hausdorff space ([[Stone space]])|continuous map|[[Stone duality]]|
@@ -53,11 +53,6 @@ Some examples from [[general topology]], [[measure theory]], [[differential geom
 |[[commutative algebra]] over $k$|homomorphism|$k$|ideal|[[coherent space]] / [[affine scheme]]|[[continuous map]] / [[morphism of schemes]]|[[Zariski duality]]|
 |finitely generated germ-determined [[C^∞-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|[[Pursell duality]]|
 |finitely presented complex [[EFC-algebra]]|EFC-homomorphism|$\mathbf{C}$|ideal|globally finitely presented [[Stein space]]|holomorphic map|[[Stein duality]]|
-
-
-and:
-
-[[!include Isbell duality - table]]
 
 
 
@@ -145,6 +140,33 @@ for an arbitrary family (not necessarily finite) of commuting normal operators.
 * [[reconstruction theorem]], [[Gabriel-Rosenberg theorem]]
 
 
+## References
+
+Review in a context of [[quantum groups]]:
+
+* [[Ross Street]]: *Duality between geometry and algebra*, chapter 2 in: *Quantum Groups A Path to Current Algebra*, Cambridge University Press (2007) 5--8 \[<a href="https://doi.org/10.1017/CBO9780511618505.003">doi:10.1017/CBO9780511618505.003</a>\]
+
+The above table originates in an introduction to [[higher geometry|higher]] [[supergeometry]]:
+
+* [[Urs Schreiber]]; [§3.1](/schreiber/show/Durham+2018#Categories) in: *[[schreiber:Durham 2018|Introduction to Higher Supergeometry]]*, lecture at _[[nLab:Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/) (2018)
+
+published as:
+
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]; [Table 4](https://arxiv.org/pdf/1903.02807#page=9) in: _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8--9 &lbrack;[arXiv:1903.02807 hep-th](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
+
+Generalization to duality between [[higher geometry]] and [[higher algebra]] (higher [[Tannaka duality]]) via suitably stabilized [[locally presentable (infinity,n)-categories|locally presentable]] [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] and their [[formal duals]] ("*Gestalten*"):
+
+* [[Peter Scholze]]: *Geometry and Higher Category Theory*, lecture notes (2026) &lbrack;[webpage](https://www.mpim-bonn.mpg.de/node/14764), [pdf](https://people.mpim-bonn.mpg.de/scholze/Gestalten.pdf)&rbrack;
+
+
+
+
 [[!redirects dualities between algebra and geometry]]
 [[!redirects duality between geometry and algebra]]
 [[!redirects dualities between geometry and algebra]]
+
+
+[[!redirects Gestalten]]
+
+
+
