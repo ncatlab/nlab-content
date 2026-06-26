@@ -18,5 +18,9 @@ On the $\mathbb{R}$-[[rational homotopy type]] of [[configuration spaces of poin
 
 * {#Idrissi21} [[Najib Idrissi]], *Real homotopy of configuration spaces*, Peccot Lecture, Collège de France, March & May 2020, Spinger (2022) &lbrack;[doi:10.1007/978-3-031-04428-1](https://doi.org/10.1007/978-3-031-04428-1), [webpage](https://idrissi.eu/research/peccot), [hal:03821309](https://hal.science/hal-03821309)&rbrack;
 
+On the [[ordinary homology]] of [[configuration spaces of points]]:
+
+* [[Najib Idrissi]], Victor Roca i Lucio: *Homology of configuration spaces in positive characteristic via point-set constructions* &lbrack;[arXiv:2606.26802](https://arxiv.org/abs/2606.26802)&rbrack;
+
 
 category: reference
