@@ -53,6 +53,9 @@ See also:
 
 * Romain Ruzziconi, [[Peter West]]: *Extended BMS representations and strings* &lbrack;[arXiv:2601.00662](https://arxiv.org/abs/2601.00662)&rbrack;
 
+* Geoffrey Compère, Sébastien Robert: *Conservation law of super-Lorentz charges* &lbrack;[arXiv:2606.26848](https://arxiv.org/abs/2606.26848)&rbrack;
+
+
 
 
 
