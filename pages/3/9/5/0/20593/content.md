@@ -14,7 +14,6 @@
 =--
 
 
-# Structured cospan
 * table of contents
 {: toc}
 
