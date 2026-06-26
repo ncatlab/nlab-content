@@ -15,9 +15,7 @@
 
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Via the variational bicomplex
@@ -302,10 +300,16 @@ Building on that, in the context of [[higher prequantum geometry]] conserved cur
 
 The same structure is considered in 
 
-* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ (2013)
   
 
 as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local currents.
+
+
+### Further
+
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat: *Conserved charges and  algebras* &lbrack;[arXiv:2606.26224](https://arxiv.org/abs/2606.26224)&rbrack;
+
 
 category: physics
 
