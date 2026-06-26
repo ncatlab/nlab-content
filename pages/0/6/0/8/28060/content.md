@@ -31,6 +31,8 @@ The generalization of the notion of [[locally presentable categories]] and [[loc
 
 * Ko Aoki: *Higher presentable categories and limits* &lbrack;[arXiv:2510.13503](https://arxiv.org/abs/2510.13503)&rbrack;
 
+In the context of [[duality between geometry and algebra]] between [[higher geometry]] and [[higher algebra]] ("[[Gestalten]]"):
+
 * [[Peter Scholze]]: *Geometry and Higher Category Theory*, lecture notes (2026) &lbrack;[webpage](https://www.mpim-bonn.mpg.de/node/14764), [pdf](https://people.mpim-bonn.mpg.de/scholze/Gestalten.pdf)&rbrack;
 
 [[!redirects locally presentable (infinity,n)-categories]]
