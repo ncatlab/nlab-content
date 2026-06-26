@@ -14,6 +14,11 @@ On [[generalized Spin(7)-manifold|generalized]]  [[Spin(7)-manifolds]] and [[M-t
 
 
 
+On [[moduli stabilization]] in [[D=11 supergravity]] ([[M-theory]]):
+
+* [[Iosif Bena]], Raphaël Dulac, [[Mariana Graña]], [[Dimitrios Toulikas]]: *Lost in Translation: Moduli Stabilization from EFT to Eleven Dimensions* &lbrack;[arXiv:2606.25016](https://arxiv.org/abs/2606.25016)&rbrack;
+
+
 
 category: people
 
