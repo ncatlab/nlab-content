@@ -359,6 +359,8 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Salvatore Santoro, Roberto Auzzi, Stefano Bolognesi: *Field Theory Models for a Holographic Superconductor in Two Dimensions* &lbrack;[arXiv:2605.18628](https://arxiv.org/abs/2605.18628)&rbrack;
 
+* Soodeh Zarepour, Ali Dehghani: *Holographic $s$- and $p$-wave superconductors from the 4D regularization of Einstein-Lovelock theory* &lbrack;[arXiv:2606.26546](https://arxiv.org/abs/2606.26546)&rbrack;
+
 
 
 
