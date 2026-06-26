@@ -1,8 +1,15 @@
 
+Theodore George Erler IV
 
-* [webpage uscb](http://web.physics.ucsb.edu/~terler/)
+* [personal page](http://web.physics.ucsb.edu/~terler/) (old)
 
-* [webpage lmu](http://www.theorie.physik.uni-muenchen.de/17ls_th_cosmology_en/members/sci_mem/erler/index.html)
+* [institute page](https://ceico.cz/team/researchers/theodore-erler)
+
+* [inSpire page](https://inspirehep.net/authors/1010641)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Theodore-Erler-2010165063)
+
+
 
 ## Selected writings
 
@@ -16,8 +23,13 @@ On [[string field theory]]:
 
 * [[Theodore Erler]], *Four Lectures on Closed String Field Theory*, Physics Reports **851** (2020) 1-36 &lbrack;[arXiv:1905.06785](https://arxiv.org/abs/1905.06785), [doi:10.1016/j.physrep.2020.01.003](https://doi.org/10.1016/j.physrep.2020.01.003)&rbrack;
 
+On [[conserved currents]]:
 
-## Related $n$Lab entries
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat: *Conserved charges and  algebras* &lbrack;[arXiv:2606.26224](https://arxiv.org/abs/2606.26224)&rbrack;
+
+
+
+## Related entries
 
 * [[string field theory]]
 
