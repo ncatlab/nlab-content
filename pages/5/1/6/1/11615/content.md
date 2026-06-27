@@ -13,9 +13,9 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -27,6 +27,12 @@ In "[[analytic versus synthetic|synthetic]]" approaches to the formulation of [[
 
 Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the traditional "point-set model" provided by [[topological spaces]].
 
+\begin{remark}\label{OnTerminology}
+The terminology "analytic/synthetic" has ancient roots (cf. *[[analytic versus synthetic]]*). Its use in modern mathematics may go back to [Lie 1876](partial+differential+equation#Lie1876), who wrote about his development of what is now called *[[Lie theory]]* the following (translated to English, as quoted in [Kock 1981, Preface](synthetic+differential+geometry#Kock81)) with reference to what is now called *[[analysis]]* and *[[synthetic differential geometry]]*:
+
+> "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following. I found these theories originally by synthetic considerations. But I soon realized that, as expedient the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one."
+
+\end{remark}
 
 
 ## Examples
