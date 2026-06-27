@@ -28,5 +28,10 @@ English translation:
 
 * [[Lie groupoid]]
 
+* [[synthetic mathematics]] 
+
+  [[analytic versus synthetic]]
+
+  [[synthetic differential geometry]]
 
 category: people
