@@ -259,9 +259,9 @@ Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO
 
 Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field|C-field]] is in
 
-* {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+* {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. **6** (2003) 1031--1134 \[<a href="http://doi.org/10.4310/ATMP.2002.v6.n6.a2">doi:10.4310/ATMP.2002.v6.n6.a2</a>, <a href="http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</a>\], summarised in: _A Derivation of K-Theory from M-Theory_ \[<a href="http://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
 
-See also
+See also:
 
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008,2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
