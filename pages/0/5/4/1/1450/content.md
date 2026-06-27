@@ -37,9 +37,8 @@ This way, in [[smooth topos | smooth toposes]] it is possible to give precise we
 +-- {: .num_remark #SophusLieQuote}
 ###### Remark
 
-As quoted by [[Anders Kock]] in his [first book (p. 9)][KockLie], [[Sophus Lie]] -- one of the founding fathers of [[differential geometry]] and, of course [[Lie theory]] -- once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see _[[analytic versus synthetic]]_) just due to lack of a formalized language:
+As quoted in the preface of [Kock 1981](#Kock81), [[Sophus Lie]] -- one of the founding fathers of [[differential geometry]] and, of course [[Lie theory]] -- once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see _[[analytic versus synthetic]]_) just due to lack of a formalized language:
 
-[KockLie]: https://users-math.au.dk/kock/sdg99.pdf#page=9
 
 > "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following: I found these theories originally by synthetic considerations. But I soon realized that, as expedient ( _zweckm&#228;ssig_ ) the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which lead to deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one." ([[Sophus Lie]], _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. 9 (1876).)
 
@@ -286,7 +285,7 @@ A nice elementary introduction which emphasizes calculations and the application
 
 The textbooks 
 
-*  {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](https://users-math.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
+*  {#Kock81} [[Anders Kock]]: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](https://users-math.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
 
 *  {#Kock10} [[Anders Kock]], *Synthetic geometry of manifolds*, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690), [pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf)&rbrack;
 
