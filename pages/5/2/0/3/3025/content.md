@@ -22,7 +22,7 @@ A concept of *$2$-Hilbert spaces* is supposed to be a [[categorification]] of th
 
 One way to define this is as a [[Kapranov-Voevodsky 2-vector space]] where the [[hom-functor]] plays the role of the [[categorification|categorified]] [[inner product]] ([Baez 97](#Baez97)). 
 
-In other words, a $2$-Hilbert space is an abelian [[H-star-category | $H^\ast$-category]].
+In other words, a $2$-Hilbert space can be defined as an abelian [[H-star-category | $H^\ast$-category]].
 
 More generally this works for [[semisimple categories]] (...)
 
