@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[partial differential equations]]:
+
+* {#Lie1876} [[Sophus Lie]]: _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. **9** (1876) 245--296 
+
+
 On "[[transformation groups]]", that would come to be called *[[Lie groups]]*:
 
 * [[Sophus Lie]]: *Theorie der Transformationsgruppen I*, Math. Ann. **16** (1880) 441–528 &lbrack;[doi:10.1007/BF01446218](https://doi.org/10.1007/BF01446218)&rbrack;
