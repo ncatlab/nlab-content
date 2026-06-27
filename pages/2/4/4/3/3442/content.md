@@ -192,6 +192,10 @@ In this diagram now
 
 ### General
 
+Historical articles:
+
+* {#Lie1876} [[Sophus Lie]]: _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. **9** (1876) 245--296 
+
 General accounts:
 
 * [[Jean-François Pommaret]], *Partial Differential Equations and Group Theory*, Springer (1994) &lbrack;[doi:10.1007/978-94-017-2539-2](https://doi.org/10.1007/978-94-017-2539-2)&rbrack;
