@@ -47,7 +47,7 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
   * [[heteromorphism]]
 
-  * [[endomorphism]], [[automorphism]], [[monomorphism]], [[epimorphism]], [[bimorphism]], [[isomorphism]]
+  * [[endomorphism]], [[automorphism]], [[monomorphism]], [[epimorphism]], [[isomorphism]]
 
 * [[1-morphism]]
 
