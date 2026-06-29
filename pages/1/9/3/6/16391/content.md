@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -41,7 +40,14 @@ See at _[Supersymmetry -- Classification of superconformal algebras](supersymmet
 * [[Andree Lischewski]], _Conformal superalgebras via tractor calculus_, Class.Quant.Grav. 32 (2015) 015020 ([spire](https://inspirehep.net/record/1334198), [arXiv:1408.2238](http://arxiv.org/abs/1408.2238))
 
 
-* _Conformal and superconformal symmetries_ ([pdf](http://bolvan.ph.utexas.edu/~vadim/Classes/2009f/SCA.pdf))
+* _Conformal and superconformal symmetries_ &lbrack;[pdf](http://bolvan.ph.utexas.edu/~vadim/Classes/2009f/SCA.pdf)&rbrack;
+
+Generalization to *local* superconformal algebras:
+
+* [[Fabian Hahner]], [[Surya Raghavendran]], [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
+
+
+
 
 ### In dimension $6 = 5+1$
 
@@ -50,10 +56,22 @@ Discussion of the superconformal symmetry group, the [[orthosymplectic supergrou
 
 * [[Sergio Ferrara]], Emery Sokatchev, _Representations of superconformal algebras in the $AdS_{7/4}/CFT_{6/3}$ correspondence_, J.Math.Phys. 42 (2001) 3015-3026 ([arXiv:hep-th/0010117](http://arxiv.org/abs/hep-th/0010117))
 
-* Murat Gunaydin, Seiji Takemae, _Unitary Supermultiplets of $OSp(8^*|4)$ and the $AdS_7/CFT_6$ Duality_, Nucl.Phys.B578:405-448,2000; Erratum-ibid.B697:399-402,2004 ([arXiv:hep-th/9910110](http://arxiv.org/abs/hep-th/9910110))
+* Murat Gunaydin, Seiji Takemae, _Unitary Supermultiplets of $OSp(8^*|4)$ and the $AdS_7/CFT_6$ Duality_, Nucl. Phys. B **578** (2000) 405--448,  Erratum-ibid. B 697 (2004) 399--402 &lbrack;[arXiv:hep-th/9910110](http://arxiv.org/abs/hep-th/9910110)&rbrack;
 
 [[!redirects superconformal]]
 
 [[!redirects superconformal symmetry]]
 [[!redirects superconformal symmetries]]
+
+[[!redirects superconformal algebra]]
+[[!redirects superconformal algebras]]
+
+[[!redirects superconformal algebra]]
+[[!redirects superconformal algebras]]
+[[!redirects super-conformal algebra]]
+[[!redirects super-conformal algebras]]
+
+[[!redirects superconformal symmetry]]
+[[!redirects superconformal symmetries]]
+
 
