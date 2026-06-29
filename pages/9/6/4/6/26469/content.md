@@ -10,21 +10,19 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
 
-A **Markov kernel** (also called **transition kernel**, **stochastic kernel**, or **probability kernel**) describes a random state transition or other forms of stochastic dependence by assigning to each input a probability law for the possible outputs. (Sometimes the term *transition kernel* denotes a more general, non-normalized mapping.)
+In [[probability theory]], **Markov kernels** (also called **transition kernels**, **stochastic kernels**, or **probability kernels**) describe  random state transitions or other forms of stochastic dependence by assigning to each input a probability law for the possible outputs. (Sometimes the term *transition kernel* denotes a more general, non-normalized mapping.)
 
-It can be thought of as a generalization of a [[stochastic map]] outside the finite discrete case.
-(Sometimes the term "stochastic map" is itself used to denote a Markov kernel.)
+This may be thought of as a generalization of [[stochastic maps]] outside the finite discrete case.
+(Sometimes the term "stochastic maps" is itself used to denote Markov kernels.)
 
 Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete case (and without incurring in paradoxes).
 
-Markov kernels and their categories are among the basic building blocks of [[categorical probability]].
+Markov kernels and the [[categories]] which they fir. are among the basic building blocks of [[categorical probability theory]].
 
 
 ## Definition
