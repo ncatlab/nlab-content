@@ -388,9 +388,12 @@ Discussion of [[anti de Sitter spacetime|$AdS_3$]] solutions with two [[3-sphere
 * [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory III: Existence and rigidity of global solutions asymptotic to $AdS_4 \times S^7$*, JHEP 0909:067 (2009) &lbrack;[doi:10.1088/1126-6708/2009/09/067](https://doi.org/10.1088/1126-6708/2009/09/067), [arXiv:0906.0596](https://arxiv.org/abs/0906.0596)&rbrack;
 
 
-Discussion of [[black hole]] horizons:
+Discussion of ([[black hole]]) [[event horizons]]:
 
-* [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
+* [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ &lbrack;[arXiv:1106.3085](http://arxiv.org/abs/1106.3085)&rbrack;
+
+* [[Jan Gutowski]], Chettha Saelim, [[Martin Wolf]]: *Classification of Killing Horizons in $D=11$ Supergravity* &lbrack;[arXiv:2606.27843](https://arxiv.org/abs/2606.27843)&rbrack;
+
 
 See also:
 
