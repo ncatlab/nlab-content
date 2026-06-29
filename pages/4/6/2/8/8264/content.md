@@ -298,13 +298,18 @@ In [[string theory]] the [[inflaton]] field can be modeled by various effects, s
 
 * [[open string]] stretching between [[D-brane]]-[[anti D-brane]] pairs.
 
-For review and further pointers to the literature see
+Review and further pointers:
 
 * [[Cliff Burgess]], M. Cicoli, F. Quevedo, _String Inflation After Planck 2013_ ([arXiv:1306.3512](http://arxiv.org/abs/1306.3512))
 
 * [[Daniel Baumann]], [[Liam McAllister]], _Inflation and String Theory_, Cambridge University Press (2015) &lbrack;[arXiv:1404.2601](https://arxiv.org/abs/1404.2601), [doi:10.1017/CBO9781316105733]( https://doi.org/10.1017/CBO9781316105733)&rbrack;
 
-See also at _[[string phenomenology]]_.
+See also:
+
+* Sukŗti Bansal: *Loop Blow-up Inflation: An Overview* &lbrack;[arXiv:2604.07288](https://arxiv.org/abs/2604.07288)&rbrack;
+
+
+* _[[string phenomenology]]_.
 
 
 [[!redirects inflation]]
