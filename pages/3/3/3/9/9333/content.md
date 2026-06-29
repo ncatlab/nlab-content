@@ -135,7 +135,7 @@ infinite-dimensional Lie algebras in general to [[Lie 2-groups]].
 
    
 
-### Resolution of singular qotients: stacky quotients
+### Resolution of singular quotients: stacky quotients
  {#ResolutionOfSingularQuotients}
 
 
