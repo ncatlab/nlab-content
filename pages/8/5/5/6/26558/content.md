@@ -294,6 +294,12 @@ Therefore, it makes sense to refer to (eq:TheNonabelianCharacterMap) generally a
 
 ## References
 
+The term and a hint of the definition appears in:
+
+* {#Baraglia2012} [[David Baraglia]]; p. 10 of: _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics **62** 5 (2012) 903--934 &lbrack;[doi:10.1016/j.geomphys.2012.01.007](https://doi.org/10.1016/j.geomphys.2012.01.007), [arXiv:1101.0856](http://arxiv.org/abs/1101.0856)&rbrack;
+
+The above formulation and further discussion is due to:
+
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Part III of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
 
