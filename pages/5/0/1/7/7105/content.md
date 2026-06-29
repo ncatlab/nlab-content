@@ -785,9 +785,15 @@ See also:
 
 * Wikipedia: *[Mayer-Vietoris sequence](https://en.wikipedia.org/wiki/Mayer%E2%80%93Vietoris_sequence)*
 
+Discussion in [[algebraic K-theory]]:
+
+* [[Jean-Pierre Jouanolou]]: _Une suite exacte de Mayer-Vietoris en K-théorie algébrique_, in: *Higher K-Theories*, Lecture Notes in Mathematics __341__, Springer (1973) 293--316 &lbrack;[doi:10.1007/BFb0067063](https://doi.org/10.1007/BFb0067063)&rbrack;
+
 Discussion in the context of [[stable model categories]]:
 
 * [[Peter May]]; lemma 5.7 in: _The additivity of traces in triangulated categories_, Adv. Math. **163** 1 (2001) 34-73 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf)&rbrack;
+
+
 
 Discussion in the context of [[homotopy type theory]]:
 
