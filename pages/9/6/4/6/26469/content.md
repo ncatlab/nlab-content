@@ -17,8 +17,7 @@
 
 ## Idea
 
-A **Markov kernel** (also called **transition kernel**, **stochastic kernel**, or **probability kernel**) is a mathematical formalization of a "function with random outcomes", or "random transition".
-(Sometimes the term *transition kernel* denotes a more general, non-normalized mapping.)
+A **Markov kernel** (also called **transition kernel**, **stochastic kernel**, or **probability kernel**) describes a random state transition or other forms of stochastic dependence by assigning to each input a probability law for the possible outputs. (Sometimes the term *transition kernel* denotes a more general, non-normalized mapping.)
 
 It can be thought of as a generalization of a [[stochastic map]] outside the finite discrete case.
 (Sometimes the term "stochastic map" is itself used to denote a Markov kernel.)
