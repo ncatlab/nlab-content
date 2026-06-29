@@ -1278,13 +1278,7 @@ Remembering that there is a considerable difference between global low energy su
 [[!redirects supersymmetry algebra]]
 [[!redirects supersymmetry algebras]]
 
-[[!redirects superconformal algebra]]
-[[!redirects superconformal algebras]]
-[[!redirects super-conformal algebra]]
-[[!redirects super-conformal algebras]]
 
-[[!redirects superconformal symmetry]]
-[[!redirects superconformal symmetries]]
 
 
 [[!redirects local supersymmetry]]
