@@ -31,5 +31,9 @@ On [[3D Yang-Mills-Chern-Simons theory]]:
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. P. Nair]]: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
 
+On higher-dimension [[fractional quantum Hall systems]] in relation to [[W-infinity algebra]]:
+
+* [[Dimitra Karabali]], [[V. P. Nair]]: *Higher dimensional quantum Hall effect and the analog of $W_\infty$-algebra* &lbrack;[arXiv:2606.28219](https://arxiv.org/abs/2606.28219)&rbrack;
+
 
 category: people
