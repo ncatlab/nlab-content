@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -95,6 +93,11 @@ Discussion of [[strange metals]]/[[high-temperature superconductors]] via [[AdS/
 and via the [[SYK model]]:
 
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
+
+See also:
+
+* Enrico Cinti, Sebastian De Haro, Mark Golden, Umut Gürsoy, Henk T.C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
+
 
 
 
