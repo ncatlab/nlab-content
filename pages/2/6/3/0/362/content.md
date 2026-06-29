@@ -333,6 +333,9 @@ Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-ca
 
 * {#Loubaton25} [[Félix Loubaton]], answer to: *The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book* (Jul 2025) &lbrack;[MO:a/497541](https://mathoverflow.net/a/497541/)&rbrack;
 
+* Shai Keidar, Leor Neuhauser: *The Gray Product of $(\infty, n)$-Categories via Lax Grids* &lbrack;[arXiv:2606.27574](https://arxiv.org/abs/2606.27574)&rbrack;
+
+
 ### In $(\infty,\infty)$-category theory
 
 In the context of [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory:
