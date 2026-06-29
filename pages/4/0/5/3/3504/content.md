@@ -20,6 +20,18 @@ The application of mathematics in the theory of music in the West is generally t
 
 As well, the application of science and math to the theory of human perception of [[sound]] is known as _psychoacoustics_ and has had a major impact in today's musically digital world. All of these viewpoints have greatly enhanced the variety of mathematical concepts employed in the study of music that today include tools from [[set]], [[group]], and [[category theory]].
 
+Mathematical music theory encompasses a broad range of mathematical approaches to the study of musical structure. Major areas of research include:
+
+* pitch-class set theory
+* transformational theory
+* scales and tuning systems
+* harmony and voice leading
+* rhythm and meter
+* counterpoint
+* computational and algorithmic approaches to composition and analysis
+* applications of algebra, geometry, topology, graph theory, category theory, and other areas of mathematics to music.
+
+The following section discusses one particularly influential geometric approach to harmony and voice leading based on chord orbifolds.
 
 
 [[!include chord orbifold -- section]]
