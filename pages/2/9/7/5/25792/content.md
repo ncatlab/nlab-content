@@ -131,6 +131,7 @@ much like the [[Hodge star operator]] (whence here we use similar notation for b
 
 
 ## Duality-symmetric higher gauge theory
+ {#DualitySymmetricHigherGaugeTheory}
 
 While not traditionally discussed under this terminology in the literature, we may recognize ([SS23](#SS23)) [[higher gauge field|higher]] versions of "premetric" electromagnetism occuring in the [[supergravity]]- and [[string theory]]-literature as *duality-symmetric* or "democratic" formulations.
 
