@@ -12,6 +12,10 @@ Identifying the super-graded gauge algebra of the [[supergravity C-field|C-field
 
 * [[Igor A. Bandos]], [[Alexei J. Nurmagambetov]], [[Dmitri P. Sorokin]], (86) in: *Various Faces of Type IIA Supergravity*, Nucl.Phys. B **676** (2004) 189-228 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.10.036">doi:10.1016/j.nuclphysb.2003.10.036</a>, [arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153)\]
 
+* {#Baraglia2012} [[David Baraglia]]; §2.3 of: _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics **62** 5 (2012) 903--934 \[<a href="https://doi.org/10.1016/j.geomphys.2012.01.007">doi:10.1016/j.geomphys.2012.01.007</a>, [arXiv:1101.0856 math.DG](http://arxiv.org/abs/1101.0856)\]
+  > (in the context of [[Bn-geometry]])
+
+
 Identification as an [[L-infinity algebra|$L_\infty$-algebra]] (a [[dg-Lie algebra]], in this case):
 
 * [[Hisham Sati]], (4.9) in: *Geometric and topological structures related to M-branes*, in *Superstrings, Geometry, Topology, and $C^\ast$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 \[<a href="http://www.ams.org/books/pspum/081">ams:pspum/081</a>, [arXiv:1001.5020 math.DG](http://arXiv.org/abs/1001.5020)\]
