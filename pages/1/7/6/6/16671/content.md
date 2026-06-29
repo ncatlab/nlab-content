@@ -16,6 +16,13 @@ On [[extremal black holes]] via [[L-infinity algebras]]:
 
 * [[Jan Gutowski]], Chettha Saelim, [[Martin Wolf]]: *Extremal Black Holes from Homotopy Algebras* &lbrack;[arXiv:2508.08886](https://arxiv.org/abs/2508.08886)&rbrack;
 
+On ([[black hole]]) [[event horizons]] in [[D=11 supergravity]]:
+
+* [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ &lbrack;[arXiv:1106.3085](http://arxiv.org/abs/1106.3085)&rbrack;
+
+* [[Jan Gutowski]], Chettha Saelim, [[Martin Wolf]]: *Classification of Killing Horizons in $D=11$ Supergravity* &lbrack;[arXiv:2606.27843](https://arxiv.org/abs/2606.27843)&rbrack;
+
+
 
 ## Related entries
 
