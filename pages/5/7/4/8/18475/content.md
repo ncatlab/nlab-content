@@ -228,7 +228,7 @@ More on application to ([[strange metal|strange]]) [[metals]]:
 * Xiaoyang Huang, [[Subir Sachdev]], [[Andrew Lucas]]:
 *Disordered quantum critical fixed points from holography*, Phys. Rev. Lett. **131** (2023) 141601 &lbrack;[arXiv:2306.03130](https://arxiv.org/abs/2306.03130), [doi:10.1103/PhysRevLett.131.141601](https://doi.org/10.1103/PhysRevLett.131.141601)&rbrack;
 
-
+* Enrico Cinti, Sebastian De Haro, Mark Golden, Umut Gürsoy, Henk T.C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
 
 
 ### Application to topological phases of matter
