@@ -176,6 +176,9 @@ and in relation to the [[fuzzy sphere]]:
 
 * Luisa Eck, Zhenghan Wang: *3d Conformal Field Theories via Fuzzy Sphere Algebra* &lbrack;[arXiv:2602.15025](https://arxiv.org/abs/2602.15025)&rbrack;
 
+See also:
+
+* [[Dimitra Karabali]], [[V. P. Nair]]: *Higher dimensional quantum Hall effect and the analog of $W_\infty$-algebra* &lbrack;[arXiv:2606.28219](https://arxiv.org/abs/2606.28219)&rbrack;
 
 
 
