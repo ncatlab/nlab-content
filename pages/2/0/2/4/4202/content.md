@@ -2,6 +2,7 @@ _Jean-Pierre Jouanolou_ is working in [[algebraic geometry]], [[commutative alge
 
 * [conference](http://www-sop.inria.fr/galaad/conf/jouanolou) honoring Jouanolou
 * math [genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=90399) page
-* J.-P. Jouanolou, _Une suite exacte de Mayer-Vietoris en K-th&#180;eorie alg&#180;ebrique_, Algebraic K-theory, I (Seattle, 1972), 293&#8211;316, Lecture Notes in Mathematics __341__, Springer (1973).
+* J.-P. Jouanolou, _Une suite exacte de Mayer-Vietoris en K-théorie algébrique_, Algebraic K-theory, I (Seattle, 1972), 293&#8211;316, Lecture Notes in Mathematics __341__, Springer (1973).
+* J.-P. Jouanolou. Catégories Dérivées en Cohomologie ℓ-adique. Mathématiques [math]. Faculté des sciences de Paris, 1969 [HAL](https://theses.hal.science/tel-04236971v1)
 
 category: people
