@@ -14,10 +14,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -89,6 +87,10 @@ The actual [[double dimensional reduction]] over a non-trivial [[principal U(1)-
 
 * {#MathaiSati04} [[Varghese Mathai]], [[Hisham Sati]], §4 in: *Some Relations between Twisted K-theory and $E_8$ Gauge Theory*, J. High Energ. Phys. **2004** 03 (2004) 016 &lbrack;[arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://doi.org/10.1088/1126-6708/2004/03/016)&rbrack;
 
+
+Discussion on the level of [[superspace]] [[supergravity]] and implication for [[geometry of physics -- flux quantization|flux quantization]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
 
 
 [[!redirects duality between M-theory and type IIA superstring theory]]
