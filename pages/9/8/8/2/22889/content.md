@@ -62,6 +62,10 @@ On the [[quantum Hall effect]] for time-dependent magnetic fields:
 
 * [[T. R. Govindarajan]], [[V. Parameswaran Nair]]: *Time-dependent Magnetic Fields and the Quantum Hall Effect* &lbrack;[arXiv:2602.21323](https://arxiv.org/abs/2602.21323)&rbrack;
 
+On higher-dimension [[fractional quantum Hall systems]] in relation to [[W-infinity algebra]]:
+
+* [[Dimitra Karabali]], [[V. P. Nair]]: *Higher dimensional quantum Hall effect and the analog of $W_\infty$-algebra* &lbrack;[arXiv:2606.28219](https://arxiv.org/abs/2606.28219)&rbrack;
+
 category: people
 
 [[!redirects V. Parameswaran Nair]]
