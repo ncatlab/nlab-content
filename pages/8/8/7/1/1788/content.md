@@ -32,3 +32,6 @@ $$
 \begin{conjecture}
 Test conjecture. 
 \end{conjecture}
+
+[[JamesJeansDissonance.jpg:pic]]
+
