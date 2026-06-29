@@ -39,6 +39,7 @@ The most familiar example is the category [[Set]], where the objects are sets an
 Morphisms are notable for being rich in [[stuff, structures, and properties]], and this is an incomplete list of just some of those variations. Henceforth set $A$, a [[category]].
 
 **[[monomorphism]]**
+
 A morphism $f \in hom _A (y,z)$, is a monomorphism if it satisfies left-cancellation, as-in; for all morphisms $g, h \in hom _A (x,y)$, $f \circ g=f \circ h \Rightarrow g=h$. This is a generalisation of left-uniqueness in relations, injectivity in functions, and monomorphisms in [[abstract algebra]]. From strongest to weakest:
 
 * [[split monomorphism]]
@@ -47,7 +48,7 @@ A morphism $f \in hom _A (y,z)$, is a monomorphism if it satisfies left-cancella
 
 * [[effective monomorphism]]
 
-* [[normal monomrophism]]
+* [[normal monomorphism]]
 
 * [[regular monomorphism]]
 
@@ -60,6 +61,7 @@ A morphism $f \in hom _A (y,z)$, is a monomorphism if it satisfies left-cancella
 * [[monomorphism]]
 
 **[[epimorphism]]**
+
 A morphism $f \in hom _A (x,y)$, is an epimorphism if it satisfies right-cancellation, as-in; for all morphisms $g, h \in hom _A (y,z)$, $g \circ f=h \circ f \Rightarrow g=h$. This is a generalisation of right-uniqueness in relations, surjectivity in functions, and epimorphisms in [[abstract algebra]]. From strongest to weakest:
 
 * [[split epimorphism]]
