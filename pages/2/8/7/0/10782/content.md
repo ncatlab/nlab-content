@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -71,19 +69,21 @@ This is rectified by passing to [[pro-étale cohomology]]. Here $\mathbb{Q}_{\el
 
 ## References
 
-A textbook account is in
+* [[Jean-Pierre Jouanolou]]: *Catégories Dérivées en Cohomologie ℓ-adique*, PhD thesis, Mathématiques [math] Faculté des sciences de Paris (1969) &lbrack;[HAL:tel-04236971v1](https://theses.hal.science/tel-04236971v1)&rbrack;
 
-* [[James Milne]], section 19 of _[[Lectures on Étale Cohomology]]_ ([web] (http://www.jmilne.org/math/CourseNotes/lec.html))
+Textbook account:
 
-Surveys include
+* [[James Milne]], section 19 of _[[Lectures on Étale Cohomology]]_ &lbrack;[web] (http://www.jmilne.org/math/CourseNotes/lec.html)&rbrack;
 
-* [[Akhil Mathew]], _$l$-adic cohomology and exponential sums_ ([web](http://amathew.wordpress.com/tag/l-adic-cohomology/))
+Survey:
+
+* [[Akhil Mathew]]: _$l$-adic cohomology and exponential sums_ &lbrack;[web](http://amathew.wordpress.com/tag/l-adic-cohomology/)&rbrack;
 
 
-A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohomology, the _[[pro-étale site]]_ (locally contractible in some sense) is discussed in 
+A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohomology, the _[[pro-étale site]]_ (locally contractible in some sense): 
 
-* Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
- {#BhattScholze13}
+* {#BhattScholze13} [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ &lbrack;[arXiv:1309.1198](http://arxiv.org/abs/1309.1198)&rbrack;
+ 
 
 
 [[!redirects l-adic cohomology]]
