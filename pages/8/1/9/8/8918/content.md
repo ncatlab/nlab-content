@@ -17,17 +17,16 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
 In the context of [[T-duality]] and in particular of [[differential T-duality]] one considers (as discussed there) [[fiber products]] of [[pairs]] of [[torus]]-[[fiber bundles]] equipped with a [[circle 2-bundle]] ([[circle n-bundle with connection|with connection]]). 
 
-In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouwknegt](Bouwknegt)
+In some disguise, this has been called _$B_n$-geometry_ ([Baraglia 2012](#Baraglia2012)). The T-duality interpretation is made explicit by [Bouwknegt 2011](#Bouwknegt2011).
 
-Here "$B_n$" refers to the [[special orthogonal group]] of the form $SO(n+1,n)$, which appears as the structure group of a [[generalized tangent bundle]] tensored with a [[line bundle]] (the [[Poincare line bundle]] of the T-duality correspondence).
+Here "$B_n$" refers to the [[special orthogonal group]] of the form $SO(n+1,n)$, which appears as the [[structure group]] of a [[generalized tangent bundle]] [[tensor product of vector bundles|tensored]] with a [[line bundle]] (the [[Poincaré line bundle]] of the T-duality correspondence).
 
 ## Properties
 
@@ -70,9 +69,11 @@ Here $\tau$ is the morphism that modulates the circle 2-bundle on the fiber prod
 
 ## References
 
-The term $B_n$-geometry was introduced in
+The term $B_n$-geometry was introduced in:
 
-* {#Baraglia} [[David Baraglia]], _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
+* {#Baraglia2012} [[David Baraglia]]: _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics **62** 5 (2012) 903--934 &lbrack;[doi:10.1016/j.geomphys.2012.01.007](https://doi.org/10.1016/j.geomphys.2012.01.007), [arXiv:1101.0856](http://arxiv.org/abs/1101.0856)&rbrack;
+  > (and relating in §2.3 to the [supergravity C-field gauge algebra](supergravity+C-field#ReferencesCFieldGaugeAlgebra))
+
 
 A review is in
 
@@ -81,7 +82,7 @@ A review is in
 
 The relation to T-duality is made clear around slide 80 of:
 
-* {#Bouwknegt} [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 &lbrack;[pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf)&rbrack;
+* {#Bouwknegt2011} [[Peter Bouwknegt]]: _Courant Algebroids and Generalizations of Geometry_, talk at StringMath 2011 &lbrack;[pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf)&rbrack;
  
 
 A discussion of the [[infinity-Lie theory|higher Lie theoretic]] aspects is in 
