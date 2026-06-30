@@ -129,6 +129,10 @@ Methods of [[physics]] are employed to study tonality in
 
 * Peter beim Graben, Reinhard Blutner, _Toward a Gauge Theory of Musical Forces_, pp. 99-111 in LNCS **10106** (2017).  ([draft](http://www.blutner.de/GrabenBlutnerQI16.pdf))
 
+While this work applies contemporary ideas from mathematical physics to musical structure, the relationship between physics and music has a long history, dating back to Helmholtz's classic study of acoustics and auditory perception:
+
+* Helmholtz, H. L. F. (2009). On the Sensations of Tone as a Physiological Basis for the Theory of Music. cambridge university. &lbrack;[doi:10.1017/cbo9780511701801](https://doi.org/10.1017/cbo9780511701801)&rbrack;
+
 Hegel's philosophy of music can be found in his lectures on aesthetics though these reflect to a large extent the view of his pupil Heinrich Gustav Hotho who compiled the posthumeous publication:
 
 * [[Georg Hegel|G. W. F. Hegel]], _Vorlesungen über die Ästhetik II_, Verlag Das Europäische Buch Westberlin $^4$1985. (pp. 258-326)
