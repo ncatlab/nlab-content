@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -33,6 +32,12 @@ With the advent of [[quantum mechanics]], the _principle of extremal action_ fou
 
 
 ## References
+
+Early modern discussion:
+
+* {#Helmholtz1887} [[Hermann von Helmholtz]]: _Über die physikalische Bedeutung des Princips der kleinsten Wirkung_, Journal für reine und angewandte Mathematik **100** (1887) 137--166 &lbrack;[eudml:148654](https://eudml.org/doc/148654)&rbrack;
+  > (and introducing what are now called *[[Helmholtz operators]]*)
+
 
 Historical and expository accounts of the "principle of extremal action" or "action principle", for short:
 
