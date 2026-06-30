@@ -48,6 +48,10 @@ On [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory in the gen
 
 * [[David Gepner]], Hadrian Heine, *Homotopy Posets, Postnikov Towers,and Hypercompletions of ∞-Categories* &lbrack;[arXiv:2603.09903](https://arxiv.org/abs/2603.09903)&rbrack;
 
+On [[infinity-categories]]:
+
+* [[David Gepner]], [[Hadrian Heine]]: *An Oriented Street--Roberts Conjecture* &lbrack;[arXiv:2606.29373](https://arxiv.org/abs/2606.29373)&rbrack;
+
 
 ## Related entries
 
