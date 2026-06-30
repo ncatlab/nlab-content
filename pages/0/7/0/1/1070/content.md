@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -197,11 +196,14 @@ For instance ([Schapira, cor. 7.2.3](#Schapira)).
 ## Related concepts
 
 * [[derived functor]]
+
 * [[triangulated categories]]
 
 ## References 
 
-The original reference:
+Early discussion:
+
+* [[Bernhard Keller]]: *Chain Complexes and Stable Categories*, Manus. Math. **67** (1990) 379--417 &lbrack;[doi:10.1007/BF02568439](https://doi.org/10.1007/BF02568439), [pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/csc.pdf)&rbrack;
 
 * [[Verdier, Jean-Louis]], _Des Catégories Dérivées des Catégories Abéliennes_, Astérisque **239** (1996) &lbrack;[doi:10.24033/ast.364](https://smf.emath.fr/publications/des-categories-derivees-des-categories-abeliennes), [numdam:AST_1996__239__R1_0](http://www.numdam.org/issues/AST_1996__239__R1_0), [pdf](http://www.numdam.org/item/AST_1996__239__R1_0.pdf)&rbrack;
 
