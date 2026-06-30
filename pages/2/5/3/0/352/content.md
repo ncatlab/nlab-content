@@ -9,9 +9,7 @@
 =--
 =--
 
-# $\infty$-categories
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -84,6 +82,7 @@ See also
 
 * Félix Loubaton, *Theory and models of $(\infty,\omega)$-categories* &lbrack;[arXiv:2307.11931](https://arxiv.org/abs/2307.11931)&rbrack;
 
+* [[David Gepner]], [[Hadrian Heine]]: *An Oriented Street--Roberts Conjecture* &lbrack;[arXiv:2606.29373](https://arxiv.org/abs/2606.29373)&rbrack;
 
 
 
