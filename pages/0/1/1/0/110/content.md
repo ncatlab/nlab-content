@@ -12,21 +12,19 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
 
-The notion of _morphism_, or _mapping_ in [[category theory]] is an abstraction, and generalisation of that notion of [[relation]], [[function]], or [[homomorphism]].
+The notion of _morphism_, or *[[map]]* in [[category theory]] is an abstraction and generalisation of the notions of *[[function]]*, *[[homomorphism]]* (whence the name) and *[[relation]]*.
 
-In [[diagram|diagrams]] of [[category|categories]], a morphism  is depicted as the directed edge — the [[arrow]] — of a pair of incident vertex — the [[object|objects]] — in a [[directed graph]].
+In [[diagram|diagrams]], morphisms are depicted as directed [[edges]] — [[arrows]] — between [[pairs]] of [[vertices]] — the [[object|objects]].
 
 
 ## Definition
 
-For two objects $x$, and $y$ in a ([[locally small category|locally-small]]) category $A$, the [[set]], 
+For a [[pair]] of objects $x$, and $y$ in a ([[locally small category|locally-small]]) category $A$, the [[set]], 
 $Hom _A (x,y)$, is called the [[hom-set]], the [[element|elements]] being morphisms of [[domain]] $x$, and [[codomain]] $y$. For a morphism $f$, denote $f : x \rightarrow y$ to mean $f \in Hom _A (x,y)$. In [[enriched category|enriched categories]], the object, $Hom _A (x,y)$, is called the [[hom-object]].
 
 In [[higher category theory]], a morphism is a [[cell|1-cell]] of 0-cells in [[n-category|n-categories]].
