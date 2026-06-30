@@ -10,13 +10,13 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea 
 
-The _Helmholtz operator_ (going back to [Helmholtz 87](#Helmholtz87), [Sonin](#Sonin), with modern version due to [Vinogradov 78](#Vinogradov78), [Tulczyjew 80](#Tulczyjew80)) is a map from [[partial differential equations]] (on [[sections]] of some [[bundle]]) to [[differential operators]] (on sections of that bundle) with the property that locally its [[kernel]] consists precisely of those [[PDEs]] which are _variational_ in that there is a [[local Lagrangian density]] such that the PDE is the [[Euler-Lagrange equation]] which says that the [[variational derivative]] of this Lagrangian (equivalently: of the [[action functional]] that it induces) vanishes.
+The _Helmholtz operator_ (going back to [Helmholtz 1887](#Helmholtz1887), [Sonin](#Sonin), with modern version due to [Vinogradov 78](#Vinogradov78), [Tulczyjew 80](#Tulczyjew80)) is a map from [[partial differential equations]] (on [[sections]] of some [[bundle]]) to [[differential operators]] (on sections of that bundle) with the property that locally its [[kernel]] consists precisely of those [[PDEs]] which are _variational_ in that there is a [[local Lagrangian density]] such that the PDE is the [[Euler-Lagrange equation]] which says that the [[variational derivative]] of this Lagrangian (equivalently: of the [[action functional]] that it induces) vanishes.
 
 In modern terminology this says that together with the [[Euler-Lagrange operator]] the Helmholtz operator constitutes a [[chain complex]] of [[abelian sheaves]] (namely of [[differential forms]] on a [[jet bundle]]) which is locally [[long exact sequence|exact]]. In fact this extends in both directions to a locally [[long exact sequence]] of forms on the jet bundle, called the _[[Euler-Lagrange complex]]_. See there for more.
 
@@ -41,22 +41,30 @@ For proof that every [[Euler-Lagrange equation]] is in the kernel of the Helmhol
 
 ## References
 
-The Helmholtz operator originates in
+The concept is named after:
 
-* {#Helmholtz87} [[Hermann von Helmholtz]], _&#220;ber die physikalische Bedeutung des Princips der kleinsten Wirkung_, Journal f&#252;r reine und angewandte Mathematik 100 (1887), 137&#8211;166
+* {#Helmholtz1887} [[Hermann von Helmholtz]], _&#220;ber die physikalische Bedeutung des Princips der kleinsten Wirkung_, Journal f&#252;r reine und angewandte Mathematik **100** (1887) 137--166 &lbrack;[eudml:148654](https://eudml.org/doc/148654)&rbrack;
+ > (in the context of the [[principle of extremal action]])
+
+where it is considered for linear [[ordinary differential equations]]. 
+
+See also:
 
 * {#Sonin} Sonin, ...
 
-where it is considered for linear [[ordinary differential equations]]. The modern general incarnation of the Helmholtz condition is due to 
+The modern general incarnation of the Helmholtz condition is due to:
 
-* {#Vinogradov78} [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Math. Dokl. 19 (1978), 144&#8211;148.
+* {#Vinogradov78} [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Math. Dokl. **19** (1978) 144--148.
 
-* {#Tulczyjew80} W. M. Tulczyjew, _The Euler-Lagrange resolution_, in Lecture Notes in Mathematics No. 836, Springer-Verlag, New York, 1980, pp. 22&#8211;48.
+* {#Tulczyjew80} W. M. Tulczyjew, _The Euler-Lagrange resolution_, in Lecture Notes in Mathematics No. 836, Springer (1980) 22--48
 
 
-Review includes
+Review:
 
 * [[Ian Anderson]],  _Aspects of the inverse problem to the calculus of variations_.
 Archivum Mathematicum, vol. 24 (1988), issue 4, pp. 181-202 ([web](http://dml.cz/dmlcz/107326))
 
 * {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
+
+
+[[!redirects Helmholtz operators]]
