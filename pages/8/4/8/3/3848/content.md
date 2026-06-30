@@ -6,6 +6,10 @@ _Bernhard Keller_ is a Swiss-French mathematician.
 
 ## Selected writings
 
+On [[chain complexes]] and [[derived categories]]:
+
+* [[Bernhard Keller]]: *Chain Complexes and Stable Categories*, Manus. Math. **67** (1990) 379--417 &lbrack;[doi:10.1007/BF02568439](https://doi.org/10.1007/BF02568439), [pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/csc.pdf)&rbrack;
+
 On [[differential graded categories]]:
 
 * [[Bernhard Keller]], _On differential graded categories_,  International Congress of Mathematicians. **II** (2006) 151-190, Eur. Math. Soc., Z&#252;rich &lbrack;[arXiv:math/0601185](http://arxiv.org/abs/math/0601185)&rbrack;
