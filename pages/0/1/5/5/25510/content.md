@@ -92,6 +92,11 @@ Review:
 
 * [[John Baez]], _The Tenfold Way_ (2020) &lbrack;[webpage](https://math.ucr.edu/home/baez/tenfold.html)&rbrack;
 
+See also:
+
+* Ryohei Kobayashi, Abhinav Prem, Matthew Yu: *Sixteen-Fold Way for Fermionic Topological Orders* &lbrack;[arXiv:2606.28682](https://arxiv.org/abs/2606.28682)&rbrack;
+
+
 
 
 [[!redirects tenfold way]]
