@@ -99,6 +99,11 @@ Relation to [[L-infinity algebras|$L_\infty$-algebra]]:
 
 * {#BlumenhagenFuchsTraube17} [[Ralph Blumenhagen]], Michael Fuchs, Matthias Traube, _$\mathcal{W}$-Algebras are $L_\infty$-algebras_ &lbrack;[arXiv:1705.00736](https://arxiv.org/abs/1705.00736)&rbrack;
 
+See also:
+
+* Mikhail Bershtein, Jean-Emile Bourgine, Ethan Fursman: *Deformed W-algebras and chiralized cluster seeds: subregular W-algebras and Inverse Quantum Hamiltonian Reduction* &lbrack;[arXiv:2606.30032](https://arxiv.org/abs/2606.30032)&rbrack;
+
+
 
 ### Representation theory
 
