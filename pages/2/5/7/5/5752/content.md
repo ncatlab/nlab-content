@@ -29,9 +29,12 @@ On [[jet comonads]]:
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
+On the [[Peierls bracket]]:
+
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat, [[Igor Khavkine]]: *Poisson bracket and $L_\infty$ algebras* &lbrack;[arXiv:2606.30630](https://arxiv.org/abs/2606.30630)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Green hyperbolic partial differential equation]]
 
