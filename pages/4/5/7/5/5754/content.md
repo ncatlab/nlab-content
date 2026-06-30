@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -176,6 +174,11 @@ Further discussion of the manifestly covariant equivalence between the Peierls b
 * [[Michael Forger]], Sandro Romero, _Covariant Poisson Brackets in Geometric Field Theory_, Commun.Math.Phys. 256 (2005) 375-410 ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
 
 * [[Igor Khavkine]], _Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory_, section 5, ([arXiv:1211.1914](http://arxiv.org/abs/1211.1914))
+
+See also:
+
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat, [[Igor Khavkine]]: *Poisson bracket and $L_\infty$ algebras* &lbrack;[arXiv:2606.30630](https://arxiv.org/abs/2606.30630)&rbrack;
+
 
 [[!redirects Peierls brackets]]
 
