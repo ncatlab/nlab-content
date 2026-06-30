@@ -615,7 +615,8 @@ $$
     \partial_A a_{i_0, \cdots, i_{k+1}}
     +
     (-1)^k
-    \sum_{0 \leq j \leq k+1} (-1)^{j}
+    \textstyle{\sum_{0 \leq j \leq k+1}} 
+    (-1)^{j}
     a_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_{k+1}} 
     |_{U_{i_0, \cdots, i_{k+1}}}
   \end{aligned}
