@@ -24,7 +24,14 @@
 
 ## Idea
 
-In a [[category]] with [[internal homs]] $[-,-]$, given an [[object]] $S$, the _continuation monad_ is the [[endofunctor]] $X \mapsto [[X, S], S]$.
+In a [[category]] with [[internal homs]] $[-,-]$, given an [[object]] $S$, the _continuation monad_ is the [[endofunctor]] $X \mapsto [[X, S], S]$, together with the unit
+\[
+\eta : X \to [ [X,S],S], \quad \eta(x) = \lambda(k:[X,S]).\, k(x)
+\]
+and multiplication
+\[
+\mu : [ [ [ [X,S],S],S],S] \to [ [X,S],S], \quad \mu(M) = \lambda(k:[X,S]).\, M(\lambda (c: [ [X,S],S]). M(c))
+\]
 
 In [[computer science]] this [[monad (in computer science)]] is used to model [[continuation-passing style]] of programming, and therefore this is called the _continuation monad_. The idea here is that a morphism $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [[Y,S],S]$ is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
 
