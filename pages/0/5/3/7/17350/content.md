@@ -1,13 +1,22 @@
-# Smothering functor
 
-* table of contents
-{:toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
-A *smothering functor* is a [[functor]] that is "almost an [[equivalence of categories]]" except that it may not be [[faithful functor|faithful]].  Smothering functors tend to arise when comparing "different [[homotopy categories]]" of the same category that impose more or less refined notions of [[homotopy equivalence]].  Frequently they can be treated more or less like equivalences.
+The term *smothering functor* ([Riehl & Verity 2015](#RiehlVerity2015))
+refers to [[functors]] that are "almost [[equivalences of categories]]" except that they may not be [[faithful functor|faithful]]. 
 
-The notion is due to [Riehl and Verity](#RV).
+Smothering functors tend to arise when comparing "different [[homotopy categories]]" of the same category that impose more or less refined notions of [[homotopy equivalence]].  Frequently they can be treated more or less like equivalences.
 
 ## Definition
 
@@ -32,13 +41,18 @@ If instead of being surjective on objects $F$ is [[essentially surjective]] on o
 ## Related pages
 
 * [[smothering 2-functor]]
+
 * [[derivator]]
 
 ## References
 
-* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics 280 (2015) 549 - 642, [arXiv](http://arxiv.org/abs/1306.5144)
- {#RV}
+* {#RiehlVerity2015} [[Emily Riehl]], [[Dominic Verity]]: _The 2-category theory of quasi-categories_, Advances in Mathematics **280** (2015) 549--642 &lbrack;[arXiv:1306.5144](http://arxiv.org/abs/1306.5144)&rbrack;
+
 
 [[!redirects smothering functors]]
 [[!redirects weakly smothering functor]]
 [[!redirects weakly smothering functors]]
+
+
+
+
