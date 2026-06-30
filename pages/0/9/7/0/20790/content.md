@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -54,6 +52,9 @@ See also:
 
 * Jeremias Aguilera Damia, Giovanni Galati, Luigi Tizzano: *Symmetries, Universes and Phases of $\text{QCD}_2$ with an Adjoint Dirac Fermion* &lbrack;[arXiv:2409.17989](https://arxiv.org/abs/2409.17989)&rbrack;
 
+* A.V. Smilga: *Meson states in `t Hooft model: Hamiltonian approach* &lbrack;[arXiv:2606.28424](https://arxiv.org/abs/2606.28424)&rbrack;
+
+
 With an [[energy gap]]:
 
 * Ross Dempsey, Anna-Maria E. Glück, Silviu S. Pufu, Benjamin T. Søgaard: *Vacuum structure of gapped QCD theories from the infinite Hamiltonian lattice* &lbrack;[arXiv:2601.16262](https://arxiv.org/abs/2601.16262)&rbrack;
@@ -83,7 +84,7 @@ More on [[D=2 Yang-Mills theory]] as the [[effective field theory]] of a [[strin
 * [[Ofer Aharony]], Suman Kundu, Tal Sheaffer, *A String Theory for Two Dimensional Yang-Mills Theory I* &lbrack;[arXiv:2312.12266](https://arxiv.org/abs/2312.12266)&rbrack;
 
 
-### In Ads/CFT
+### In AdS/CFT
 
 In view of [[AdS/CFT duality]] and [[holographic entanglement entropy]]:
 
