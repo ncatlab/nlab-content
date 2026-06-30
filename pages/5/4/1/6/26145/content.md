@@ -1,6 +1,6 @@
 Claus Michael Ringel is a German algebraist. 
 
-* personal [page at Bielefeld](https://www.math.uni-bielefeld.de/~ringel)
+* [personal page](https://www.math.uni-bielefeld.de/~ringel)
 
 
 ## Selected work
@@ -17,7 +17,12 @@ Ringel realized that [[Hall algebra|Hall's construction]] of an associative alge
 
 This work influenced [[George Lusztig]]'s work on quantum groups where Lusztig has constructed "the upper half" of quantum group as a Hall algebra adapted to perverse sheaves over flag variety of a quiver.
 
-Other works include
+On [[Artin algebras]]:
+
+* [[Claus Michael Ringel]]; section 1 of: *On the representation dimension of Artin algebras* &lbrack;[pdf](https://www.math.uni-bielefeld.de/~ringel/opus/repdim2.pdf)&rbrack;
+
+
+Other works:
 
 * C. M. Ringel, _The simple Artinian spectrum of a finite dimensional algebra_ (in Dekker Lect. Notes 51, 1979)
 
