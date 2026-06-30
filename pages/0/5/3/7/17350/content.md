@@ -13,8 +13,8 @@
 
 ## Idea
 
-The term *smothering functor* ([Riehl & Verity 2015](#RiehlVerity2015))
-refers to [[functors]] that are "almost [[equivalences of categories]]" except that they may not be [[faithful functor|faithful]]. 
+The terms *epivalence* ([Keller 1990 p. 18](#Keller1990)), *detecting functor* ([Baues 1995](#Baues1995)) and *smothering functor* ([Riehl & Verity 2015](#RiehlVerity2015))
+refer to [[functors]] that are at least close to be "[[equivalences of categories]]" except that they may not be [[faithful functor|faithful]]. 
 
 Smothering functors tend to arise when comparing "different [[homotopy categories]]" of the same category that impose more or less refined notions of [[homotopy equivalence]].  Frequently they can be treated more or less like equivalences.
 
@@ -46,10 +46,32 @@ If instead of being surjective on objects $F$ is [[essentially surjective]] on o
 
 ## References
 
+Use of the term *epivalence*:
+
+* {#Keller1990} [[Bernhard Keller]]; p. 18 of: *Chain Complexes and Stable Categories*, Manus. Math. **67** (1990) 379--417 &lbrack;[doi:10.1007/BF02568439](https://doi.org/10.1007/BF02568439), [pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/csc.pdf)&rbrack;
+
+Use of the term "detecting functor":
+
+* {#Baues1995} [[Hans-Joachim Baues]]; p. 25 of: _Homotopy types_, in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland (1995) \[<a href="https://doi.org/10.1016/B978-0-444-81779-2.X5000-7">doi:10.1016/B978-0-444-81779-2.X5000-7</a>, [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [[Baues-HomotopyTypes.pdf|pdf:file]]\]
+
+
+Use of the term *smothering functor*:
+
 * {#RiehlVerity2015} [[Emily Riehl]], [[Dominic Verity]]: _The 2-category theory of quasi-categories_, Advances in Mathematics **280** (2015) 549--642 &lbrack;[arXiv:1306.5144](http://arxiv.org/abs/1306.5144)&rbrack;
 
+Discussion of Examples:
+
+* [[Claus Michael Ringel]]; section 1 of: *On the representation dimension of Artin algebras* &lbrack;[pdf](https://www.math.uni-bielefeld.de/~ringel/opus/repdim2.pdf)&rbrack;
+
+
+[[!redirects epivalence]]
+[[!redirects epivalences]]
+
+[[!redirects detecting functor]]
+[[!redirects detecting functors]]
 
 [[!redirects smothering functors]]
+
 [[!redirects weakly smothering functor]]
 [[!redirects weakly smothering functors]]
 
