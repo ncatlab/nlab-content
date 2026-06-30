@@ -1,5 +1,15 @@
 
-* [webpage](http://www.chalmers.se/en/research/professors/Pages/descriptions/martin-cederwall-theoretical-physics.aspx)
+* [institute page](https://www.chalmers.se/en/persons/tfemc/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=288638)
+
+* [inSpire page](https://inspirehep.net/authors/1014203)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=0fhlfrMAAAAJ&hl=sv)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Martin-Cederwall)
+
+
 
 ## Selected writings
 
