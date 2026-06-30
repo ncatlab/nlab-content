@@ -27,6 +27,9 @@ On [[conserved currents]]:
 
 * Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat: *Conserved charges and  algebras* &lbrack;[arXiv:2606.26224](https://arxiv.org/abs/2606.26224)&rbrack;
 
+On the [[Peierls bracket]]:
+
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat, [[Igor Khavkine]]: *Poisson bracket and $L_\infty$ algebras* &lbrack;[arXiv:2606.30630](https://arxiv.org/abs/2606.30630)&rbrack;
 
 
 ## Related entries
