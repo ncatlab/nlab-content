@@ -1,5 +1,4 @@
-[[!redirects music]]
-[[!redirects music]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -16,7 +15,7 @@
 
 ## Idea
 
-The application of mathematics in the theory of music in the West is generally thought to start with Pythagoras and progress though the works of Euler, Mersenne, Helmholtz, and others. Recently, **mathematical music theory** has gained impetus through, among others, the Neo-Riemannian theory of harmony, David Lewin's research on transformational theory, and Guerino Mazzola's application of topos theory. 
+The application of [[mathematics]] in the theory of music in the West is generally thought to start with [[Pythagoras]] and progress though the works of [[Euler]], Mersenne, [[Helmholtz]], and others. Recently, **mathematical music theory** has gained impetus through, among others, the Neo-Riemannian theory of harmony, David Lewin's research on transformational theory, and Guerino Mazzola's application of [[topos theory]]. 
 
 As well, the application of science and math to the theory of human perception of [[sound]] is known as _psychoacoustics_ and has had a major impact in today's musically digital world. All of these viewpoints have greatly enhanced the variety of mathematical concepts employed in the study of music that today include tools from [[set]], [[group]], and [[category theory]].
 
@@ -131,7 +130,9 @@ Methods of [[physics]] are employed to study tonality in
 
 While this work applies contemporary ideas from mathematical physics to musical structure, the relationship between physics and music has a long history, dating back to Helmholtz's classic study of acoustics and auditory perception:
 
-* Helmholtz, H. L. F. (2009). On the Sensations of Tone as a Physiological Basis for the Theory of Music. cambridge university. &lbrack;[doi:10.1017/cbo9780511701801](https://doi.org/10.1017/cbo9780511701801)&rbrack;
+* [[Hermann L. F. Helmholtz]]: *Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik*, Vieweg Braunschweig (1896) &lbrack;[scan](https://www.digitale-sammlungen.de/de/view/bsb10598685), [html](https://psychologie.lw.uni-leipzig.de/wundt/opera/helmhltz/toene/TonEmpIn.htm)&rbrack;
+
+  Engl. transl. by  Alexander J. Ellis: *On the Sensations of Tone as a Physiological Basis for the Theory of Music*, Cambridge University (2012) &lbrack;[doi:10.1017/cbo9780511701801](https://doi.org/10.1017/cbo9780511701801)&rbrack;
 
 Hegel's philosophy of music can be found in his lectures on aesthetics though these reflect to a large extent the view of his pupil Heinrich Gustav Hotho who compiled the posthumeous publication:
 
