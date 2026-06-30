@@ -15,11 +15,17 @@
 \tableofcontents
 
 
+
 ## Idea
 
-The notion of _morphism_, or *[[map]]* in [[category theory]] is an abstraction and generalisation of the notions of *[[function]]*, *[[homomorphism]]* (whence the name) and *[[relation]]*.
+In [[category theory]], the notion of _morphism_ or *[[map]]* is an abstraction and generalisation of the notions of *[[function]]*, *[[homomorphism]]* (whence the name) and *[[relation]]*.
 
-In [[diagram|diagrams]], morphisms are depicted as directed [[edges]] — [[arrows]] — between [[pairs]] of [[vertices]] — the [[object|objects]].
+Morphisms $f$ are depicted as [[directed graph|directed]] [[edges]]/[[arrows]] 
+$$
+  x \overset{f}{\longrightarrow}
+  y
+$$
+between [[pairs]] of [[vertices]] — the morphism's [[source]] ([[domain]]) and [[target]] ([[codomain]])  [[objects]]. Systems of such arrows are called *[[diagrams]]*.
 
 
 ## Definition
