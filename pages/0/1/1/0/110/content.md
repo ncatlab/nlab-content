@@ -19,28 +19,33 @@
 
 ## Idea
 
-The notion of _morphism_ in [[category theory]] is an abstraction of the notion of [[homomorphism]]. 
+The notion of _morphism_, or _mapping_ in [[category theory]] is an abstraction, and generalisation of that notion of [[relation]], [[function]], or [[homomorphism]].
 
-In a general [[category]], a morphism is an [[arrow]] between two [[objects]]. The word *[[map]]* is also sometimes used as a synonym.
+In [[diagram|diagrams]] of [[category|categories]], a morphism  is depicted as the directed edge — the [[arrow]] — of a pair of incident vertex — the [[object|objects]] — in a [[directed graph]].
+
 
 ## Definition
 
-Given two objects in a (locally small) category, say $x$ and $y$, there is a set $hom(x,y)$, called a [[hom-set]], whose elements are morphisms from $x$ to $y$.  Given a morphism $f$ in this hom-set, we write $f:x \to y$ to indicate that it goes from $x$ to $y$.
+For two objects $x$, and $y$ in a ([[locally small category|locally-small]]) category $A$, the [[set]], 
+$Hom _A (x,y)$, is called the [[hom-set]], the [[element|elements]] being morphisms of [[domain]] $x$, and [[codomain]] $y$. For a morphism $f$, denote $f : x \rightarrow y$ to mean $f \in Hom _A (x,y)$. In [[enriched category|enriched categories]], the object, $Hom _A (x,y)$, is called the [[hom-object]].
 
-More generally, a morphism is what goes between objects in any [[n-category]].
+In [[higher category theory]], a morphism is a [[cell|1-cell]] of 0-cells in [[n-category|n-categories]].
 
 
 ## Examples
 
-The most familiar example is the category [[Set]], where the objects are sets and the morphisms are functions.  Here if $x$ and $y$ are sets, a morphism $f: x \to y$ is a function from $x$ to $y$.
+A familiar example is the [[topos]] [[Set]] of sets and mappings; the objects are sets, and the morphisms are mappings, or [[functions]].
 
+In [[Grp]], the locally-small category of [[group|groups]], and group homomorphisms; the objects are set-theoretical groups, and the morphisms are group homomorphisms.
+
+In [[Top]], the locally-small category of [[topological space|topological spaces]], and [[continuous function|continuous functions]]; the objects are sets of topological structure, and the morphisms are continuous functions.
 
 ## Variations
-Morphisms are notable for being rich in [[stuff, structures, and properties]], and this is an incomplete list of just some of those variations. Henceforth set $A$, a [[category]].
+Morphisms are notable for being rich in [[stuff, structures, and properties]]. This is an incomplete list of just some of those variations. Henceforth denote by $A$, a [[category]].
 
-**[[monomorphism]]**
+**Monomorphism**
 
-A morphism $f \in hom _A (y,z)$, is a monomorphism if it satisfies left-cancellation, as-in; for all morphisms $g, h \in hom _A (x,y)$, $f \circ g=f \circ h \Rightarrow g=h$. This is a generalisation of left-uniqueness in relations, injectivity in functions, and monomorphisms in [[abstract algebra]]. From strongest to weakest:
+A morphism $f \in hom _A (y,z)$, is a monomorphism, or is monic if it satisfies left-cancellation, as-in; for all morphisms $g, h \in hom _A (x,y)$, $f \circ g=f \circ h \Rightarrow g=h$. This is a generalisation of left-uniqueness in relations, injectivity in functions, and monomorphism in [[algebra]]. From strongest to weakest in properties:
 
 * [[split monomorphism]]
 
@@ -60,9 +65,9 @@ A morphism $f \in hom _A (y,z)$, is a monomorphism if it satisfies left-cancella
 
 * [[monomorphism]]
 
-**[[epimorphism]]**
+**Epimormphism**
 
-A morphism $f \in hom _A (x,y)$, is an epimorphism if it satisfies right-cancellation, as-in; for all morphisms $g, h \in hom _A (y,z)$, $g \circ f=h \circ f \Rightarrow g=h$. This is a generalisation of right-uniqueness in relations, surjectivity in functions, and epimorphisms in [[abstract algebra]]. From strongest to weakest:
+A morphism $f \in hom _A (x,y)$, is an epimorphism, or epic, if it satisfies right-cancellation, as-in; for all morphisms $g, h \in hom _A (y,z)$, $g \circ f=h \circ f \Rightarrow g=h$. This is a generalisation of right-totality in relations, surjectivity in functions, and epimorphism in abstract algebra. From strongest to weakest in properties:
 
 * [[split epimorphism]]
 
@@ -86,7 +91,15 @@ A morphism $f \in hom _A (x,y)$, is an epimorphism if it satisfies right-cancell
 
 * [[epimorphism]]
 
-**Note, list is incomplete.**
+**Epic, and Monic**
+
+A morphism $f \in Hom _A (x,y)$, is a bimorphism, bimonomorphism, or is epic, and monic, if it satisfies left-cancellation, and right-cancellation. This is a generalisation of left-unique right-totality in relations, bijection in functions, and isomorphism in abstract algebra.
+
+**Isomorphism**
+
+A morphism, $f \in Hom _A (x,y)$, is an isomorphism, or is iso, if both it and its [[inverse]] morphism are epic, and monic. This is a generalisation of left-unique left-total right-unique right-totality in relations, bijection in functions, and isomorphism in abstract algebra.
+
+**Note, list is still incomplete.**
 
 ## Related concepts
 
