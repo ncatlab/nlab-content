@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -69,6 +69,9 @@ A dual condition is noetherian: a __[[noetherian ring]]__ is a ring satisfying t
 * [[The Stacks Project]]
 
   * [10.100. Flatness criteria over Artinian rings](http://stacks.math.columbia.edu/tag/051E)
+
+* [[Claus Michael Ringel]]: *On the representation dimension of Artin algebras* &lbrack;[pdf](https://www.math.uni-bielefeld.de/~ringel/opus/repdim2.pdf)&rbrack;
+
 
 [[!redirects artinian ring]]
 [[!redirects artinian rings]]
