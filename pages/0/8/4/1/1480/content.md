@@ -26,7 +26,7 @@ On [[homotopy theory]]:
 
 * [[Hans-Joachim Baues]]: _Homotopy Type and Homology_, Oxford University Press (1996) \[<a href="https://global.oup.com/academic/product/homotopy-type-and-homology-9780198514824">ISBN:9780198514824</a>, <a href="https://webhomes.maths.ed.ac.uk/~v1ranick/papers/baues6.pdf">pdf</a>\]
 
-* [[Hans-Joachim Baues]]: _Homotopy types_, in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland (1995) \[<a href="https://doi.org/10.1016/B978-0-444-81779-2.X5000-7">doi:10.1016/B978-0-444-81779-2.X5000-7</a>, [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2)\]
+* [[Hans-Joachim Baues]]: _Homotopy types_, in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland (1995) \[<a href="https://doi.org/10.1016/B978-0-444-81779-2.X5000-7">doi:10.1016/B978-0-444-81779-2.X5000-7</a>, [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [[Baues-HomotopyTypes.pdf|pdf:file]]\]
 
 * (with Antonio Quintero) _Infinite Homotopy Theory_,  K-monographs in mathematics **6** Kluwer (2001)
 
