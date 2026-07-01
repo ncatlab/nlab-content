@@ -11,7 +11,11 @@
 \linebreak
 
 
-The structure sheaf of $Spec_m A$ is $\mathcal{O}_{Spec_m A}\coloneqq i^{-1}\mathcal{O}_{Spec A}$, the inverse image of the structure sheaf of $Spec A$ along the inclusion $i\colon Spec_m A\hookrightarrow Spec A$. When $A$ is a [[Jacobson ring]], a locally ringed space isomorphic to $(Spec_m A,\mathcal{O}_{Spec_m A})$ is called an [[ultrascheme|affine ultrascheme]]. An [[ultrascheme]] is a locally ringed space obtained by gluing affine ultraschemes.
+Let $A$ be a ring. Its [[maximal spectrum]], denoted $Spm A$ in EGA (and sometimes $Spec_m A$ by some authors), is the set of the maximal ideals of $A$. As a subset of the topological space $Spec A$, it inherits a topology. The structure sheaf on $Spm A$ is $\mathcal{O}_{Spm A}\coloneqq i^{-1}\mathcal{O}_{Spec A}$, where $i\colon Spm A\hookrightarrow Spec A$ is the inclusion. An *affine ultra-scheme* is a locally ringed space $X$ isomorphic to $(Spm A,\mathcal{O}_{Spm A})$, for some [[Jacobson ring]] $A$ (one also says that $X$ is *ultra-affine*). An **ultra-scheme** is a locally ringed space that has a cover by ultra-affine open subsets.
+
+The mutual quasi-inverse functors that give the equivalence are the following. The functor to the left sends a Jacobson scheme $X$ and sends it to its subset of closed points $X_0$ with the restriction topology and structure sheaf $\mathcal{O}_{X_0}\coloneqq i^{-1}\mathcal{O}_X$, where $i\colon X_0\hookrightarrow X$ is the inclusion. The functor to the right sends an ultra-scheme $U$ to its [[sober topological space|sobrification]] $SU$, with structure sheaf $\mathcal{O}_{SU}\coloneqq i_*\mathcal{O}_U$, where $i:U\to SU$ is the canonical morphism.
+
+* Mark Haiman, *[Varieties as Schemes](https://math.berkeley.edu/~mhaiman/math256-fall18-spring19/varieties-as-schemes-v2.pdf)*
 
 $$
   \left(
