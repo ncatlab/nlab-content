@@ -33,4 +33,4 @@ Discussion of Spencer cohomology as the home of the higher-order [[torsion invar
 
 On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solutions]] of [[D=11 supergravity]]:
 
-* {#FFS17} [[José Figueroa-O’Farrill]], Andrea Santi, _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. 349 (2017), 627-660 ([arXiv:1511.08737](https://arxiv.org/abs/1511.08737))
+* {#FFS17} [[José Figueroa-O’Farrill]], [[Andrea Santi]]: _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. **349* (2017), 627--660 &lbrack;[doi:10.1007/s00220-016-2700-1](https://doi.org/10.1007/s00220-016-2700-1), [arXiv:1511.08737](https://arxiv.org/abs/1511.08737)&rbrack;
