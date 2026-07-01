@@ -25,7 +25,7 @@ A *connected site* is a [[site]] satisfying sufficient conditions to make its [[
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[locally connected site]]; we say it is a **connected locally connected site** if it is also has a [[terminal object]].
+Let $C$ be a [[locally connected site]]; we say it is a **connected locally connected site** if it also has a [[terminal object]].
 
 =--
 
