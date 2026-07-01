@@ -54,7 +54,7 @@ By the discussion there, the left adjoint $\Pi_0$ in the [[sheaf topos]] over a 
 
 ## Examples
 
-* The [[category of open subsets]] $Op(X)$ of a [[locally connected topological space|locally connected]] and [[connected topological space]] $Op(X)$ with the standard [[open cover]]-[[coverage]] is a connected site. The terminal object is $X$ itself.
+* The category of connected open subsets (as a full subcategory of the usual [[category of open subsets]]) of a [[connected topological space]] with the standard [[open cover]]-[[coverage]] is a connected site, with the terminal object being $X$ itself. If the space is also locally connected it is a [[dense sub-site]] of the category of all open subsets, so that even though that site is never connected the topos of sheaves on it can then at least be represented by a connected site.
 
 * [[CartSp]], [[ThCartSp]].
 
