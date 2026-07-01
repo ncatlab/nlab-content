@@ -10,6 +10,9 @@
 
 \linebreak
 
+
+The structure sheaf of $Spec_m A$ is $\mathcal{O}_{Spec_m A}\coloneqq i^{-1}\mathcal{O}_{Spec A}$, the inverse image of the structure sheaf of $Spec A$ along the inclusion $i\colon Spec_m A\hookrightarrow Spec A$. When $A$ is a [[Jacobson ring]], a locally ringed space isomorphic to $(Spec_m A,\mathcal{O}_{Spec_m A})$ is called an [[ultrascheme|affine ultrascheme]]. An [[ultrascheme]] is a locally ringed space obtained by gluing affine ultraschemes.
+
 $$
   \left(
   \begin{matrix}
