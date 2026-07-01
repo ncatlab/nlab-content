@@ -20,9 +20,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ##Idea 
 
@@ -30,6 +30,6 @@ $G(3)$ is an [[exceptional structure|exceptional]] [[super Lie algebra]] (not to
 
 ## References
 
-* Boris Kruglikov, Andrea Santi, Dennis The, _G(3)-supergeometry and a supersymmetric extension of the Hilbert-Cartan equation_ ([arXiv:1908.09106](https://arxiv.org/abs/1908.09106))
+* Boris Kruglikov, [[Andrea Santi]], Dennis The: _$G(3)$-supergeometry and a supersymmetric extension of the Hilbert-Cartan equation_, Advances in Mathematics **376** (2021) supergeometry and a supersymmetric extension of the Hilbert-Cartan equation  &lbrack;<a href="http://doi.org/10.1016/j.aim.2020.107420">doi:10.1016/j.aim.2020.107420</a>, [arXiv:1908.09106](https://arxiv.org/abs/1908.09106)&rbrack;
 
 
