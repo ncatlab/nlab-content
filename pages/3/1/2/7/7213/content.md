@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -36,7 +34,7 @@ Compactification of [[11-dimensional supergravity]] on a [[manifold]] of [[dimen
     SU(7) \hookrightarrow E_{7(7)}
   $$
 
-of the [[special unitary group]] in dimension 7 into the [[split real form]] of [[E7]]. This is shown in ([Pacheco-Waldram 08](#PachecoWaldram08)).
+of the [[special unitary group]] in dimension 7 into the [[split real form]] of [[E7]]. This is shown in [Pacheco & Waldram 2008](#PachecoWaldram08).
 
 One dimension down, compactification of 10-dimensional 
 [[type II supergravity]] on a 6-manifold $X$ preserves $N = 2$ supersymmetry precisely if the [[generalized tangent bundle]] $T X \otimes T^* X$ in the NS-NS sector admits [[G-structure]] for the inclusion
@@ -75,7 +73,8 @@ Original articles:
 * {#Hull07} [[Chris Hull]], *Generalised Geometry for M-Theory*, JHEP 0707:079 (2007) &lbrack;[arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203), [doi:10.1088/1126-6708/2007/07/079](https://doi.org/10.1088/1126-6708/2007/07/079)&rbrack;
  
 
-* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123 (2008) &lbrack;[arXiv:0804.1362](http://arxiv.org/abs/0804.1362)&rbrack;
+* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]]: *M-theory, exceptional generalised geometry and superpotentials*, J. High Energy Physics **2008** JHEP09 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/09/123">doi:10.1088/1126-6708/2008/09/123</a>, <a href="https://arxiv.org/abs/0804.1362">arXiv:0804.1362</a>\]
+
   
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
@@ -88,10 +87,15 @@ Original articles:
 
 * [[Mariana Graña]], Francesco Orsi, _N=2 vacua in Generalized Geometry_, ([arXiv:1207.3004](http://arxiv.org/abs/1207.3004))
 
-* André Coimbra, [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
-
 
 * {#Baraglia11} [[David Baraglia]], _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics 62 (2012), pp. 903-934 ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry II: $E_{d(d)} \times \mathbb{R}^+$ and M theory*, J. High Energ. Phys. **2014** 19 (2014) \[<a href="https://doi.org/10.1007/JHEP03(2014)019">doi:10.1007/JHEP03(2014)019</a>, [arXiv:1212.1586 hep-th](https://arxiv.org/abs/1212.1586)\]
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) \[<a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>, <a href="https://arxiv.org/abs/1112.3989">arXiv:1112.3989 hep-th</a>\]
+
 
 * [[David Baraglia]], _Exceptional generalized geometry and $N = 2$ backgrounds_ ([pdf](http://mitchell.physics.tamu.edu/Conference/GeneralizedGeometries/Mon-1-Grana.pdf))
 
