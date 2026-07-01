@@ -103,7 +103,9 @@ Note that a non-locally-connected site can still give rise to a locally connecte
 
 ## Examples
 
-* any small subcategory of [[Top]] on [[connected]] topological spaces (with the standard [[open cover]] [[coverage]]).
+* Any small subcategory of [[Top]] on [[connected]] topological spaces (with the standard [[open cover]] [[coverage]]).
+
+* The site of connected open subsets of any topological space. It is always locally connected, but is a [[dense sub-site]] of the site of all opens iff the space is locally connected. The site of all opens is never locally connected, because the empty set is not connected.
 
 * [[CartSp]]
 
