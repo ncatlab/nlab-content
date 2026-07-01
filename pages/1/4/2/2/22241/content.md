@@ -7,6 +7,11 @@ On the notion of [[spectrum (geometry)|spectrum in geometry]] and  introducing t
 
 * [[Yves Diers]], _Une construction universelle des spectres, topologies spectrales et faisceaux structuraux_, Communication in Algebra Volume 12, Issue 17-18 (1984) ([doi:10.1080/00927878408823101](https://doi.org/10.1080/00927878408823101))
 
+On [[categories]] of [[commutative algebras]]:
+
+* [[Yves Diers]]: *Categories of Commutative Algebras*, Oxford University Press (1992) &lbrack;[https://doi.org/10.1093/oso/9780198535867.001.0001](https://doi.org/10.1093/oso/9780198535867.001.0001)&rbrack;
+
+
 See also:
 
 * [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
@@ -15,8 +20,12 @@ See also:
 
 * Yves Diers, _Categories of Boolean Sheaves of Simple Algebras_, Springer, Lecture Notes in Mathematics, vol. 1187, (1986).
 
-* Yves Diers,   _Familles universelles  de   morphismes_,   Ann.   Soc.   Sci.   Bruxelles, 93  (1979),  175-195.
+* Yves Diers: _Familles universelles de morphismes_, Ann.   Soc. Sci. Bruxelles **93**  (1979) 175--195.
 
-* Yves Diers,  _Multimonads   and   multimonadic   categories_,  J.   Pure   Appl.   Algebra   17  (1980),  153-170.
+* Yves Diers: _Multimonads   and   multimonadic   categories_,  J. Pure Appl.   Algebra   17  (1980),  153-170.
+
+## Related entries
+
+* [[ultrascheme]]
 
 category: people
