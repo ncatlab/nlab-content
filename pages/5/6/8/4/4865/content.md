@@ -354,10 +354,10 @@ Classification of symmetric solutions:
 
 * [[José Figueroa-O'Farrill]]: _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967 hep-th](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
 
-* {#FoFSanti2017} [[José Figueroa-O'Farrill]], Andrea Santi: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
+* {#FoFSanti2017} [[José Figueroa-O'Farrill]], [[Andrea Santi]]: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
   > (proves that "high supersymmetry", $N \gt 16$, already implies the equations of motion)
 
-* Andrea Santi: *Remarks on highly supersymmetric backgrounds of 11-dimensional supergravity*, in: *Geometry, Lie Theory and Applications*, Abel Symposia **16**, Springer (2022) 253--277 \[<a href="https://doi.org/10.1007/978-3-030-81296-6_12">doi:10.1007/978-3-030-81296-6_12</a>, <a href="https://arxiv.org/abs/1912.10688">arXiv:1912.10688</a>\]
+* [[Andrea Santi]]: *Remarks on highly supersymmetric backgrounds of 11-dimensional supergravity*, in: *Geometry, Lie Theory and Applications*, Abel Symposia **16**, Springer (2022) 253--277 \[<a href="https://doi.org/10.1007/978-3-030-81296-6_12">doi:10.1007/978-3-030-81296-6_12</a>, <a href="https://arxiv.org/abs/1912.10688">arXiv:1912.10688</a>\]
 
 
 
@@ -406,7 +406,7 @@ See also:
 
 * Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ &lbrack;[arXiv:1805.07506](https://arxiv.org/abs/1805.07506)&rbrack;
 
-* Emanuele Di Bella, Willem A. de Graaf, Andrea Santi: *Some rigidity results for supergravity backgrounds in 11 dimensions* &lbrack;[arXiv:2603.19923](https://arxiv.org/abs/2603.19923)&rbrack;
+* Emanuele Di Bella, Willem A. de Graaf, [[Andrea Santi]]: *Some rigidity results for supergravity backgrounds in 11 dimensions* &lbrack;[arXiv:2603.19923](https://arxiv.org/abs/2603.19923)&rbrack;
 
 
 Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
