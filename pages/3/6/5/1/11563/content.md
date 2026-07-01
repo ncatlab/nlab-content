@@ -10,13 +10,12 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
-The [[de Rham cohomology]] and [[Dolbeault cohomology]] can be viewed as [[abelian sheaf cohomology]] theories with [[coefficients]] in the sheaf of [[locally constant functions]], respectively [[holomorphic functions]]. Spencer cohomology is a generalization of these two cohomologies for the case of the solution sheaf of an arbitrary [[linear operator|linear]] [[differential operator]]. 
+[[de Rham cohomology|De Rham cohomology]] and [[Dolbeault cohomology]] may be viewed as [[abelian sheaf cohomology]] theories with [[coefficients]] in the sheaf of [[locally constant functions]], respectively [[holomorphic functions]]. Spencer cohomology is a generalization of these two cohomologies for the case of the solution sheaf of an arbitrary [[linear operator|linear]] [[differential operator]]. 
 
 ## References
 
