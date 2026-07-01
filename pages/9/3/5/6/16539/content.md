@@ -59,7 +59,7 @@ and specifically for [[type II supergravity]]:
 
 and [[11-dimensional supergravity]]
 
-* [[José Figueroa-O'Farrill]], Andrea Santi, _On the algebraic structure of Killing superalgebras_ ([arXiv:1608.05915](http://arxiv.org/abs/1608.05915))
+* {#FoFSanti2017} [[José Figueroa-O'Farrill]], [[Andrea Santi]]: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
 
 Discussion in the context of [[superconformal group|superconformal symmetry]] is in 
 
