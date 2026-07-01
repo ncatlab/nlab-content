@@ -98,7 +98,7 @@ Discussion relating to [[quiver gauge theories]] includes
 
 In [[M-theory]]:
 
-* [[José Figueroa-O'Farrill]], Andrea Santi, _Sasakian manifolds and M-theory_, Class. Quantum Grav. 33 (2016), 095004  ([arXiv:1511.03460](https://arxiv.org/abs/1511.03460))
+* [[José Figueroa-O'Farrill]], [[Andrea Santi]]: _Sasakian manifolds and M-theory_, Class. Quantum Grav. **33** (2016) 095004 &lbrack;[doi:10.1088/0264-9381/33/9/095004](https://doi.org/10.1088/0264-9381/33/9/095004), [arXiv:1511.03460](https://arxiv.org/abs/1511.03460)&rbrack;
 
 
 
