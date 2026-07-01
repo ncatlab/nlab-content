@@ -14,9 +14,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -68,6 +66,9 @@ See also:
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
 * Wikipedia, *[Cosmology](https://en.wikipedia.org/wiki/Cosmology)*
+
+* Venus Keus: *Particle Cosmology*, Encyclopedia of Particle Phtsics &lbrack;[arXiv:2606.31812](https://arxiv.org/abs/2606.31812)&rbrack;
+
 
 
 Emphasis on [[non-perturbative effects]]:
