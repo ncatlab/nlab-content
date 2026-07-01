@@ -98,6 +98,11 @@ See also:
 
 * Enrico Cinti, Sebastian De Haro, Mark Golden, Umut Gürsoy, Henk T.C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
 
+Relation to [[superconformal algebra]]:
+
+* Eoin Quinn: *The exceptional origin of the strange metal and the LFL-HFL transition* &lbrack;[arXiv:2606.31810](https://arxiv.org/abs/2606.31810)&rbrack;
+
+
 
 
 
