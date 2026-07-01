@@ -21,6 +21,10 @@ On [[integral homotopy theory]]:
 
 * {#Horel22} [[Geoffroy Horel]]: *Binomial rings and homotopy theory*, Journal für die reine und angewandte Mathematik  **2024** 813 (2024) &lbrack;[arXiv:2211.02349](https://arxiv.org/abs/2211.02349), [doi:10.1515/crelle-2024-0039](https://doi.org/10.1515/crelle-2024-0039)&rbrack;
 
+On the [[homotopy types]] of [[configuration spaces of points]]:
+
+* Joana Cirici, [[Geoffroy Horel]]: *On the l-adic homotopy type of configuration spaces* &lbrack;[arXiv:2606.31949](https://arxiv.org/abs/2606.31949)&rbrack;
+
 
 
 ## Related entries
