@@ -1,5 +1,5 @@
 
-> This entry is gouing to contain one chapter of _[[geometry of physics]]_.
+> This entry is going to contain one chapter of _[[geometry of physics]]_.
 
 > previous chapters: _[flat connections](geometry+of+physics#FlatConnections)_
 
