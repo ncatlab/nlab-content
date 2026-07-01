@@ -1823,6 +1823,10 @@ Second Series **139** 2 (1994) 227-237 &lbrack;[jstor:2946581](https://www.jstor
 
 * [[Thomas Willwacher]]: *Models for configuration spaces of points via obstruction theory I* &lbrack;[arXiv:2302.07369](https://arxiv.org/abs/2302.07369)&rbrack;
 
+See also:
+
+* Joana Cirici, [[Geoffroy Horel]]: *On the l-adic homotopy type of configuration spaces* &lbrack;[arXiv:2606.31949](https://arxiv.org/abs/2606.31949)&rbrack;
+
 
 
 
