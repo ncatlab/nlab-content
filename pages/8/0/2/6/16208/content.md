@@ -52,6 +52,8 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
     * [[PhysLean]], [arXiv:2405.08863](high+energy+physics#Tooby-Smith24)
 
+Aside from these specialised projects, a large amount of mathematics has also been formalised in [Mathlib](https://github.com/leanprover-community/mathlib4), the central library for mathematics in Lean; an overview over some of the contents of the library can be found [here](https://leanprover-community.github.io/mathlib-overview.html), though it is far from comprehensive.
+
 
 ## Related concepts
 
