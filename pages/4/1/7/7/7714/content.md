@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -58,7 +58,7 @@ and the term "exceptional tangent space" (or rather "exceptional generalised tan
 
 * Paulo P. Pacheco, [[Daniel Waldram]]: §2.2 in: *M-theory, exceptional generalised geometry and superpotentials*, JHEP 0809: 123 (2008) &lbrack;[arXiv:0804.1362](https://arxiv.org/abs/0804.1362), [doi:10.1088/1126-6708/2008/09/123](https://doi.org/10.1088/1126-6708/2008/09/123)&rbrack;
 
-* André Coimbra, Charles Strickland-Constable, [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) &lbrack;[arXiv:1112.3989](https://arxiv.org/abs/1112.3989), <a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>&rbrack;
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) &lbrack;[arXiv:1112.3989](https://arxiv.org/abs/1112.3989), <a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>&rbrack;
 
 
 Argument that the [[M-algebra]] constitutes the maximal ($n=11$) (super-)exceptional tangent space:
