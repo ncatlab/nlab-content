@@ -1,5 +1,15 @@
 
-* [webpage](http://www.maths.ed.ac.uk/~jmf/)
+* [personal page](http://www.maths.ed.ac.uk/~jmf/)
+
+* [institute page](https://maths.ed.ac.uk/about-us/academic-interview-series/structure-symmetry/jose-figueroa-o-farrill)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=87664)
+
+* [inSpire page](https://inspirehep.net/authors/1010009)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=8idpB78AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jose-Figueroa-Ofarrill)
 
 ## Selected writings
 
@@ -73,6 +83,10 @@ On the [[ADE classification]] of [[black brane|black]] [[BPS state|BPS]]-[[M2-br
 On symmetric solutions to [[D=11 supergravity]]:
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
+
+* {#FoFSanti2017} [[José Figueroa-O'Farrill]], Andrea Santi: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
+  > (proves that "high supersymmetry", $N \gt 16$, already implies the equations of motion)
+
 
 On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solutions]] of [[D=11 supergravity]]:
 
