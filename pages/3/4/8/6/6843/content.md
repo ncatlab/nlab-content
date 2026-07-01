@@ -76,7 +76,7 @@ On the equivalence of [[M2-brane 3-algebras]] to [[Lie algebra representations]]
 
 On the [[ADE classification]] of [[black brane|black]] [[BPS state|BPS]]-[[M2-brane]] solutions to [[D=11 supergravity]] (via [[spherical space forms]] of the [[7-sphere]]):
 
-* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038, 2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
@@ -84,13 +84,17 @@ On symmetric solutions to [[D=11 supergravity]]:
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
 
-* {#FoFSanti2017} [[José Figueroa-O'Farrill]], Andrea Santi: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
+* {#FoFSanti2017} [[José Figueroa-O'Farrill]], [[Andrea Santi]]: *On the algebraic structure of Killing superalgebras*, Adv. Theor. Math. Phys **21** (2017) 1115--1160 \[<a href="https://doi.org/10.4310/atmp.2017.v21.n5.a1">doi:10.4310/atmp.2017.v21.n5.a1</a>, <a href="https://arxiv.org/abs/1608.05915">arXiv:1608.05915</a>\]
   > (proves that "high supersymmetry", $N \gt 16$, already implies the equations of motion)
+
+On [[Sasakian manifolds]] and [[M-theory]]:
+
+* [[José Figueroa-O'Farrill]], [[Andrea Santi]]: _Sasakian manifolds and M-theory_, Class. Quantum Grav. **33** (2016) 095004 &lbrack;[doi:10.1088/0264-9381/33/9/095004](https://doi.org/10.1088/0264-9381/33/9/095004), [arXiv:1511.03460](https://arxiv.org/abs/1511.03460)&rbrack;
 
 
 On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solutions]] of [[D=11 supergravity]]:
 
-* {#FFS17} [[José Figueroa-O’Farrill]], Andrea Santi, _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. 349 (2017), 627-660 ([arXiv:1511.08737](https://arxiv.org/abs/1511.08737))
+* {#FFS17} [[José Figueroa-O’Farrill]], [[Andrea Santi]]: _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. **349* (2017), 627--660 &lbrack;[doi:10.1007/s00220-016-2700-1](https://doi.org/10.1007/s00220-016-2700-1), [arXiv:1511.08737](https://arxiv.org/abs/1511.08737)&rbrack;
 
 On [[torsion of a G-structure|torsion of G-structures]] for kinematical groups:
 
