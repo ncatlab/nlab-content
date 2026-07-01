@@ -40,9 +40,20 @@ On [[flux compactifications]] in terms of [[G-structure]]:
 
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
 
+On [[exceptional generalized geometry]] for [[11D supergravity]]:
+
+* Paulo Pires Pacheco, [[Daniel Waldram]]: *M-theory, exceptional generalised geometry and superpotentials*, J. High Energy Physics **2008** JHEP09 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/09/123">doi:10.1088/1126-6708/2008/09/123</a>, <a href="https://arxiv.org/abs/0804.1362">arXiv:0804.1362</a>\]
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry II: $E_{d(d)} \times \mathbb{R}^+$ and M theory*, J. High Energ. Phys. **2014** 19 (2014) \[<a href="https://doi.org/10.1007/JHEP03(2014)019">doi:10.1007/JHEP03(2014)019</a>, [arXiv:1212.1586 hep-th](https://arxiv.org/abs/1212.1586)\]
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) \[<a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>, <a href="https://arxiv.org/abs/1112.3989">arXiv:1112.3989 hep-th</a>\]
+
+
 The genuine reformulation of [[type II supergravity]] as a $\big(O(d)\times O(d) \hookrightarrow O(d,d)\big)$-gauge/gravity theory (cf. *[[type II geometry]]*):
 
-* André Coimbra, [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
 
 
 On generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]]: 
@@ -52,7 +63,8 @@ On generalized [[G-structures]] and [[exceptional generalized geometry]] of [[fl
 
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[exceptional generalized geometry]]
 
