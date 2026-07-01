@@ -155,7 +155,7 @@ Conversely, there are analogues of the [[Kleisli category]] and [[Eilenberg–Mo
 		F_{a,a'}\colon A(a,a') \to B(F a, F a')
 	\]
 	
-	Note that, when specialized to $F = 1_A$, this reduces to [[full faithfulness]] of the [[Yoneda embedding]]: first $N_{1_A} \simeq y_A$, and then:
+	Note that, when specialized to $F = 1_A$, this reduces to [[full and faithful functor|full faithfulness]] of the [[Yoneda embedding]]: first $N_{1_A} \simeq y_A$, and then:
 	\[
 		A(x,y) \simeq \mathbf{Set}^{A^{\mathop{op}}}(y_A x, y_A y)
 	\]
