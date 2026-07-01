@@ -15,6 +15,10 @@ Identifying the super-graded gauge algebra of the [[supergravity C-field|C-field
 * {#Baraglia2012} [[David Baraglia]]; §2.3 of: _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics **62** 5 (2012) 903--934 \[<a href="https://doi.org/10.1016/j.geomphys.2012.01.007">doi:10.1016/j.geomphys.2012.01.007</a>, [arXiv:1101.0856 math.DG](http://arxiv.org/abs/1101.0856)\]
   > (in the context of [[Bn-geometry]])
 
+See also:
+
+* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]; (2.12) in: *Supergravity as Generalised Geometry II: $E_{d(d)} \times \mathbb{R}^+$ and M theory* \[<a href="https://doi.org/10.1007/JHEP03(2014)019">doi:10.1007/JHEP03(2014)019</a>, [arXiv:1212.1586 hep-th](https://arxiv.org/abs/1212.1586)\]
+
 
 Identification as an [[L-infinity algebra|$L_\infty$-algebra]] (a [[dg-Lie algebra]], in this case):
 
@@ -25,4 +29,6 @@ and identificatoin with the rational [[Whitehead L-infinity algebra|Whitehead $L
 * [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* \[<a href="https://arxiv.org/abs/2212.13968">arXiv:2212.13968</a>\]
 
 * [[Hisham Sati]], [[Urs Schreiber]], (22) in: *[[schreiber:Flux Quantization on Phase Space]]* \[<a href="https://arxiv.org/abs/2312.12517">arXiv:2312.12517</a>\]
+
+
 
