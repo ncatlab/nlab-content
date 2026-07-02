@@ -38,8 +38,6 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 
   * [[propositional logic as a dependent type theory]]
 
-* [[zeroth-order set theory]]
-
 [[!redirects propositional logic]]
 [[!redirects propositional calculus]]
 [[!redirects 0th-order logic]]
