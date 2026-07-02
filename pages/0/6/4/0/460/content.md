@@ -650,8 +650,11 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], around definition IX.3.2 in _[[Sheaves in Geometry and Logic]]_
 
+* The Stacks Project Authors, *[[The Stacks Project]]*, Tags [004U](https://stacks.math.columbia.edu/tag/004U), [0A2N](https://stacks.math.columbia.edu/tag/0A2N)
 
-* Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
+* [[Alexander Grothendieck]], §2.9 in *Éléments de Géométrie Algébrique I*. (2nd ed.) Grundlehren der Mathematischen Wissenschaften (1971). 166. Springer-Verlag.
+
+* Sober spaces in the [$\pi$-base](https://topology.pi-base.org/properties/P73).
 
 A [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
 
