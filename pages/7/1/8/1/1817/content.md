@@ -7,7 +7,7 @@ His thesis under the mentorship of [[L. S. Pontrjagin]] ([ru.wiki](http://ru.wik
 
 After his early work, Postnikov dedicated himself to teaching, leading a famous seminar at MGU, and advising students (among most successful of his students is Rudyak) and largely neglected his own research. As a clear and superb lecturer, he also wrote several volumes of advanced textbooks in geometry and topology, and a booklet on Galois theory. Unfortunately, he also dedicated much of his efforts and time to an alternative history, considered pseudoscience by the mainstream. Some of his mathematical memoirs may be found in the book _Golden Years of Moscow Mathematics_, by Smilka Zdravkovska (AMS, 2nd ed. 2007).
 
-See also [Postnikov at ru.wikipedia](http://ru.wikipedia.org/wiki/&#1055;&#1086;&#1089;&#1090;&#1085;&#1080;&#1082;&#1086;&#1074;,_&#1052;&#1080;&#1093;&#1072;&#1080;&#1083;_&#1052;&#1080;&#1093;&#1072;&#1081;&#1083;&#1086;&#1074;&#1080;&#1095;) and [msu page](http://higeom.math.msu.su/people/postnikov)
+See also [Postnikov at ru.wikipedia](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87) and [msu page](http://higeom.math.msu.su/people/postnikov)
 
 ## Selected writings
 
