@@ -21,7 +21,7 @@ $\,$
 
 ## Position
 
-I am a Senior Research Scientist at <br>
+I am *Senior Research Scientist* at <br>
 the [Mathematics Division of Science](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
 of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) <br/>
 in the group of Prof. [[Hisham Sati]] leading the <br/>
