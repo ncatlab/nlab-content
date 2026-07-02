@@ -141,7 +141,7 @@ A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular an
 
 * [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
 
-* {#Bourne04} [[Dominique Bourn]], _Protomodular aspect of the dual of a topos_, Advances in Mathematics 187(1), pp. 240-255, 2004.
+* {#Bourn04} [[Dominique Bourn]], _Protomodular aspect of the dual of a topos_, Advances in Mathematics 187(1), pp. 240-255, 2004.
 
 
 
