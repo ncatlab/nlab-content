@@ -46,7 +46,7 @@ Morphisms between varieties are sometimes called [[regular map]]s.
 
 Sometimes a smooth algebraic variety may also be called __algebraic manifold__. 
 
-An abstract $k$-prevariety in the sense of Serre is a locally ringed space which is locally isomorphic to affine $k$-variety. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\to X$; a prevariety is separated, or an abstract $k$-variety if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
+An abstract $k$-prevariety in the sense of Serre is a locally ringed space which is locally isomorphic to affine $k$-variety. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\times X$; a prevariety is separated, or an abstract $k$-variety if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
 
 Morphisms of algebraic varieties are what is also called [[regular map]]s (those which are locally in affine coordinates restrictions of polynomial maps among ambient affine spaces), see there.
 
@@ -75,7 +75,15 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 * Igor Shafarevich, _Basic algebraic geometry_, vol. I
 * J. S. Milne, _Algebraic geometry_, 2017 [pdf](http://www.jmilne.org/math/CourseNotes/AG.pdf)
 * Joe Harris, _Introductory algebraic geometry_ 
-* chapter I of Robin Hartshorne, _Algebraic geometry_, Springer
+* chapter I of [[David Mumford]]: *Red book of varieties and schemes*, Lecture Notes in Mathematics **1358**, Springer (1988, 1999) &lbrack;[doi:10.1007/b62130](https://doi.org/10.1007/b62130)&rbrack;
+* chapter I of [[Robin Hartshorne]], _Algebraic geometry_, Springer
+* chapter I of Ulrich Görtz, [[Torsten Wedhorn]], *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)
+
+Lecture notes:
+
+* Geir Ellingsrud, John Christian Ottem, _Algebraic Geometry I_, University of Oslo, 2023 [pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210-2024.pdf)
+
+* Andreas Gathmann, _Algebraic Geometry_, University of Kaiserslautern, 2021 [pdf](https://agag-gathmann.math.rptu.de/class/alggeom-2021/alggeom-2021.pdf)
 
 An amusing discussion on the differences between schemes and varieties can be found at _Secret blogging seminar_: [algebraic geometry without prime ideals](http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals).
 
