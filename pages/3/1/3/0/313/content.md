@@ -414,6 +414,8 @@ Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a [[quiver]] and $U
 
 * For either sort of diagram, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
 
+* The graph, or drawing of a diagram is often depicted as a small [[quiver|directed-multigraph]]. The vertices of the [[graph]] are called the [[point|points]], and the [[quiver|directed edges]] are called the [[arrow|arrows]].
+
 * Note that given a diagram $D:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$, even if $J$ is itself taken to be a category.  This is because the functor $D$ could identify objects of $J$, thereby producing new potential composites which do not exist in $J$.  (Sometimes one talks about the "image" of a functor as a subcategory, but this really means the subcategory *generated* by the image in the literal objects-and-morphisms sense.)
 
 * $C$ must be a [[strict category]] to make sense of $U(C)$; however, $F(J)$ always makes sense.
