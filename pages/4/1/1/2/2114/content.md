@@ -61,6 +61,8 @@ To define abstract algebraic varieties in the sense of Serre’ [[FAC]] (see \re
 
 This concept goes by the name “ringed space” in ([Milne 2017, Sect. 3.b](#Milne17)) ([Ellingsrud, Ottem 3.14](#EllingsrudOttem)); this definition for the morphisms also appears in ([Gathmann 2021, Definition 4.3](#Gathmann21)). For instance, if $k=\mathbb{R}$ (resp., $k=\mathbb{C}$), the category of [[smooth manifold|smooth manifolds]] (resp., [[complex manifold|complex manifolds]] or more generally, reduced [[complex analytic space|complex analytic spaces]]) embed fully faithfully into the category of spaces with real-valued functions (resp., complex-valued functions).
 
+The advantage of this notion of morphism between spaces with $k$-valued functions is that it is a _property_, rather than additional data (as in a morphism of [[ringed spaces]]). “Being a morphism” is a property that is local in both the source and target in the following sense: Let $f:X\to Y$ be a function between spaces with $k$-valued functions and let $\bigcup_i U_i=X$ and $\bigcup_i V_i=Y$ be open covers such that $f(U_i)\subseteq V_i$. Then $f$ is a morphism if and only if $f|_{U_i}:U_i\to V_i$ is a morphisms for every $i$ ([Gathmann 2021, Lemma 4.6](#Gathmann21)). See also Remark \ref{RemarkMorphismsSpaceskValuedFunctions}.
+
 +-- {: .num_lemma}
 ###### Lemma
 
