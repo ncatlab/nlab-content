@@ -101,7 +101,7 @@ For the moment see at *[enriched monad -- relation to strong monads](enriched+mo
 
 *  {#Lawvere73}  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
 
-* [[Emily Riehl]], §3.5 in *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+* [[Emily Riehl]], §3.5 in *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](https://emilyriehl.github.io/files/cathtpy.pdf)&rbrack;
 
 
 
