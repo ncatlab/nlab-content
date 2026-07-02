@@ -4,7 +4,7 @@
 
 ## Idea
 
-An exhaustive list of notations, and denotions for theoretical mathematics.
+A list of basic notation common in [[logic]] and [[set theory]]. 
 
 ## Glossary
 
