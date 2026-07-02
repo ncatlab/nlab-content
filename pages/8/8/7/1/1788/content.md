@@ -52,9 +52,7 @@ To define abstract algebraic varieties in the sense of Serre’ [[FAC]], we need
 +-- {: .num_defn}
 ###### Definition
 
-([Görtz, Wedhorn 2020, Definition 1.35](#GortzWedhornI))
-
-Let $k$ be a field.
+([Görtz, Wedhorn 2020, Definition 1.35](#GortzWedhorn20)). Let $k$ be a field.
 
 1. A **space with $k$-valued functions** is a [[ringed space]] $X$ whose structure is subsheaf of $k$-algebras of the sheaf of all $k$-valued functions on $X$.
 
@@ -91,26 +89,26 @@ If $X,Y$ are spaces with $k$-valued functions that are locally ringed, then the 
 
 =--
 
-Let $k$ be a field (in the context of algebraic geometry, $k$ is algebraically closed). Let $Z\subseteq\mathbb{A}_{k,\mathrm{class}}^n\coloneqq k^n$ be a Zariski closed subset (i.e., an algebraic set). A regular function on an open subset $U\subseteq Z$ is a function $U\to k$ that is _locally rational_, i.e., it is locally a quotient of polynomials in $k[x_1,\dots,x_n]$ (with non-vanishing denominator). The regular functions assemble into a sheaf $\mathcal{O}_Z$ that turns $(Z,\mathcal{O}_Z)$ into a space with $k$-valued functions that is a locally ringed space. See ([Milne 2017, Sect. 3.c](#Milne17)), ([Gathmann 2021, Sect. 3](#Gathmann2021)).
+Let $k$ be a field (in the context of algebraic geometry, $k$ is algebraically closed). Let $Z\subseteq\mathbb{A}_{k,\mathrm{class}}^n\coloneqq k^n$ be a Zariski closed subset (i.e., an algebraic set). A regular function on an open subset $U\subseteq Z$ is a function $U\to k$ that is _locally rational_, i.e., it is locally a quotient of polynomials in $k[x_1,\dots,x_n]$ (with non-vanishing denominator). The regular functions assemble into a sheaf $\mathcal{O}_Z$ that turns $(Z,\mathcal{O}_Z)$ into a space with $k$-valued functions that is a locally ringed space. See ([Milne 2017, Sect. 3.c](#Milne17)), ([Gathmann 2021, Sect. 3](#Gathmann21)).
 
 +-- {: .num_defn}
 ###### Definition
 
-A **classical affine $k$-variety** is a space with $k$-valued functions isomorphic to $(Z,\mathcal{O}_Z)$, for some algebraic set $Z$.
+1. A **classical affine $k$-variety** is a space with $k$-valued functions isomorphic to $(Z,\mathcal{O}_Z)$, for some algebraic set $Z$.
+
+2. An **(abstract) $k$-prevariety** (in the sense of Serre’s [[FAC]]) is a space with $k$-valued functions $X$ which is locally isomorphic to a classical affine $k$-variety.
 
 =--
 
-An abstract $k$-prevariety in the sense of Serre’s [[FAC]] is a space with $k$-valued functions $X$ which is locally isomorphic to a classical affine $k$-variety (equivalently, by Remark \refRemarkMorphismsSpaceskValuedFunctions}, $X$ is a locally ringed space over $Spec k$ isomorphic over $Spec k$ to a classical affine $k$-variety). In [[FAC]] it is also required that $X$ is quasi-compact. A morphism of $k$-prevarieties, also called a [[regular map]], is a morphism of spaces with $k$-valued functions. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\times X$; a prevariety is separated, or an abstract $k$-variety (in the sense of Serre’s [[FAC]]) if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
-
-Morphisms of algebraic varieties are what is also called [[regular map]]s (those which are locally in affine coordinates restrictions of polynomial maps among ambient affine spaces), see there.
+Equivalently, by Remark \ref{RemarkMorphismsSpaceskValuedFunctions}, $X$ is a locally ringed space over $Spec k$ which is locally isomorphic over $Spec k$ to a classical affine $k$-variety). In [[FAC]] it is also required that $X$ is quasi-compact. A morphism of $k$-prevarieties, also called a [[regular map]], is a morphism of spaces with $k$-valued functions. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\times X$. An abstract $k$-variety (in the sense of Serre’s [[FAC]]) is a separated $k$-prevariety, i.e., the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors). Again, [[FAC]] requires quasi-compactness in the definition of abstract $k$-variety.
 
 ## Properties
 
 ### Relation to schemes
 
-There is an [[equivalence of categories]] between the [[category]] of [[integral schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of (irreducible) algebraic $k$-varieties. 
+There is an [[equivalence of categories]] between the [[category]] of (separated) [[reduced schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of algebraic $k$-(pre)varieties. This is the *classical-schematic equivalence*. It is obtained in [[EGA IV]], 10.10 from a more general equivalence involving [[ultrascheme|ultra-schemes]]. Indeed, if $k$ is algebraically closed, a $k$-prevariety is essentially the same as an ultra-scheme over $Spec\, k$. The classical-schematic equivalence (with sometimes some additional adjectives in the varieties considered, like “connected,” “integral,” etc.) is also covered in ([Mumford 1999, II.3, Theorem 2](#Mumford99)), ([Hartshorne 1977, Ch. II, Proposition 2.6, Proposition 4.10](#Hartshorne77)), ([Görtz, Wedhorn 2020, Theorem 3.37](#GortzWedhorn20)), ([Guisado Villalgordo](#GuisadoVillalgordo)), ([Haiman](#Haiman)).
 
-Of course, given a variety the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
+Of course, given a variety the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. In fact, the associated scheme is the [[sober topological space#Reflection|sobrification]] of the given variety (see [[ultrascheme#equivalence_of_categories_with_schemes|Equivalence of categories with schemes]]). Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
 
 Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes of finite type (where $S$ is not necessarily $Spec\,k$ for $k$ a field); typically they are required to be [[separated scheme|separated]] [[reduced scheme|reduced]] $S$-[[relative scheme|schemes]] [[morphism of finite type|of finite type]].
 
@@ -133,20 +131,20 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 
 See also the first chapter in each of the following three books:
 
-* [[David Mumford]]: *Red book of varieties and schemes*, Lecture Notes in Mathematics **1358**, Springer (1988, 1999) &lbrack;[doi:10.1007/b62130](https://doi.org/10.1007/b62130)&rbrack;
+* {#Mumford99} [[David Mumford]]: *Red book of varieties and schemes*, Lecture Notes in Mathematics **1358**, Springer (1999) &lbrack;[doi:10.1007/b62130](https://doi.org/10.1007/b62130)&rbrack;
 
-* [[Robin Hartshorne]], _Algebraic geometry_, Springer
+* {#Hartshorne77} [[Robin Hartshorne]], _Algebraic geometry_, Springer (1977)
 
-* {#GortzWedhornI} Ulrich Görtz, [[Torsten Wedhorn]], *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)
+* {#GortzWedhorn20} Ulrich Görtz, [[Torsten Wedhorn]], *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)
 
 Lecture notes:
 
 * Geir Ellingsrud, John Christian Ottem, _Algebraic Geometry I_, University of Oslo, 2023 [pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210-2024.pdf)
 
-* {#Gathmann2021} Andreas Gathmann, _Algebraic Geometry_, University of Kaiserslautern, 2021 [pdf](https://agag-gathmann.math.rptu.de/class/alggeom-2021/alggeom-2021.pdf)
+* {#Gathmann21} Andreas Gathmann, _Algebraic Geometry_, University of Kaiserslautern, 2021 [pdf](https://agag-gathmann.math.rptu.de/class/alggeom-2021/alggeom-2021.pdf)
 
 For the equivalence between classical varieties and schemes, see:
 
 * {#GuisadoVillalgordo} Elías Guisado Villalgordo, *[The Classical-Schematic Equivalence](https://eliasguisado.wordpress.com/wp-content/uploads/2025/09/the_classical_schematic_equivalence.pdf)*
 
-* Mark Haiman, *[Varieties as Schemes](https://math.berkeley.edu/~mhaiman/math256-fall18-spring19/varieties-as-schemes-v2.pdf)*
+* {#Haiman} Mark Haiman, *[Varieties as Schemes](https://math.berkeley.edu/~mhaiman/math256-fall18-spring19/varieties-as-schemes-v2.pdf)*
