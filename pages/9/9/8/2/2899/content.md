@@ -200,7 +200,7 @@ Such &#233;tale morphisms are classified by the classical [[Galois theory]] of f
 +-- {: .num_prop}
 ###### Proposition
 
-A [[ring]] homomorphism of [[affine varieties]] $Spec(A) \to Spec(B)$ for $Spec(B)$ non-singular and for $A \simeq B[x_1, \cdots, x_n]/(f_1, \cdots, f_n)$  with [[polynomials]] $f_i$ is &#233;tale precisel if the [[Jacobian]] $det(\frac{\partial f_i}{\partial x_j})$ is invertible.
+A [[ring]] homomorphism of [[affine varieties]] $Spec(A) \to Spec(B)$ for $Spec(B)$ non-singular and for $A \simeq B[x_1, \cdots, x_n]/(f_1, \cdots, f_n)$  with [[polynomials]] $f_i$ is &#233;tale precisely if the [[Jacobian]] $det(\frac{\partial f_i}{\partial x_j})$ is invertible.
 
 =--
 
