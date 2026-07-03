@@ -5,7 +5,7 @@
 
 ## Definition
 
-Given a [[ring]], or a $k$-[[associative algebra|algebra]] (unital or not) $A$, its __maximal spectrum__ $Spec_m A$ is the set of its [[maximal ideals]].
+Given a [[ring]], or a $k$-[[associative algebra|algebra]] (unital or not) $A$, its __maximal spectrum__ $Spec_m A$ is the set of its [[maximal ideals]]. Other notations are: $Spm A$ (used [[EGA IV|EGA IV₃]], 10.9), $Spec_{max}A$, $MaxSpec A$.
 
 ## Properties
 
