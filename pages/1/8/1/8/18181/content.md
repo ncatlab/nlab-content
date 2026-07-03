@@ -8,11 +8,16 @@
 =--
 =--
 
+This page is to record the reference:
 
 
-* [[Kant]]
+* [[Immanuel Kant]]:
+  
+  \linebreak
 
-  _Kritik der Reinen Vernunft_ (Critique of Pure Reason), abbreviated KrV.
+  **Kritik der Reinen Vernunft** (KrV)
+
+  (Critique of Pure Reason)
 
   * [first edition 1781](#1stEd). Usually and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
 
@@ -20,9 +25,9 @@
 
   The second edition was "improved here and there"; some passages have been replaced entirely, like [in the Transcendental Induction](#deductionA).
 
-#Contents#
-* table of contents
-{:toc}
+
+
+\tableofcontents
 
 
 
