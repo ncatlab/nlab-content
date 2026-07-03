@@ -147,7 +147,7 @@ See also the first chapter in each of the following three books:
 
 Lecture notes:
 
-* {#EllingsrudOttem} Geir Ellingsrud, John Christian Ottem, _Algebraic Geometry I_, University of Oslo, 2023 [pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210(1).pdf)
+* {#EllingsrudOttem} Geir Ellingsrud, John Christian Ottem, _Algebraic Geometry I_, University of Oslo, 2023 [pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210.pdf)
 
 * {#Gathmann21} Andreas Gathmann, _Algebraic Geometry_, University of Kaiserslautern, 2021 [pdf](https://agag-gathmann.math.rptu.de/class/alggeom-2021/alggeom-2021.pdf)
 
