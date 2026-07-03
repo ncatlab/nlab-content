@@ -18,9 +18,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -385,7 +384,7 @@ For standard references on [[differential geometry]] and [[Lie groupoids]] see t
 
 Discussion of the $(\infty,1)$-topos $Smooth \infty Grpd$ over [[CartSp]] as such is due to
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]; §A of: *[[Čech Cocycles for Differential Characteristic Classes]]*, Adv. Theor. Math. Phys. **16** (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]; §A of: *[[schreiber:Čech Cocycles for Differential Characteristic Classes]]*, Adv. Theor. Math. Phys. **16** (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
 
 * {#Schreiber13} [[Urs Schreiber]]; §3.3. of: _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
 
