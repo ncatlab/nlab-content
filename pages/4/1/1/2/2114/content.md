@@ -110,7 +110,47 @@ Let $k$ be an algebraically closed field.
 
 Equivalently, by Remark \ref{RemarkMorphismsSpaceskValuedFunctions}, an (abstract) $k$-prevariety is a locally ringed space over $Spec k$ which is locally isomorphic over $Spec k$ to a classical affine $k$-variety. In [[FAC]] it is also required that $X$ is quasi-compact. A morphism of $k$-prevarieties, also called a [[regular map]], is a morphism of spaces with $k$-valued functions. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\times X$. An abstract $k$-variety (in the sense of Serre’s [[FAC]]) is a separated $k$-prevariety, i.e., the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors). Again, [[FAC]] requires quasi-compactness in the definition of abstract $k$-variety.
 
+## Equivalence between affine varieties and affine $k$-algebras
+
++-- {: .num_defn #DefinitionAffinekAlgebra}
+###### Definition
+
+([Milne 2017, Sect. 3.e](#Milne17)). Let $k$ be an algebraically closed field. An **affine $k$-algebra** is a reduced finitely generated $k$-algebra.
+
+=--
+
+A morphism of affine $k$-algebras is just a $k$-algebra morphism. Given an affine $k$-variety $V$, its ring of global sections $\Gamma(V,\mathcal{O}_V)$ is an affine $k$-algebra. Conversely, given an affine $k$-algebra $A$, we can produce and affine $k$-variety $Spm A$ whose underlying topological space is the [[maximal spectrum]] of $A$. For details, see ([Milne 2017, Sect. 3.e](#Milne17)). These two assignments  produce contravariant functors between the categories of $k$-varieties and affine $k$-algebras. Moreover, they are mutually [[weak inverse|quasi-inverse]]:
+
++-- {: .num_theorem #TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}
+###### Theorem
+
+([Milne 2017, Propositions 3.24, 3.25](#Milne17)). Let $k$ be an algebraically closed field. The categories of affine varieties and affine $k$-algebras are [[dual equivalence|anti-equivalent]].
+
+=--
+
 ## Properties
+
+### Maps from prevarieties to affine varieties
+
+The following result particularizes the [[schemes as sheaves on affine schemes#SchemesAsPresheaves|fundamental theorem on morphisms of schemes]] to prevarieties.
+
++-- {: .num_prop #PropositionSpmAndGammaAreMutuallyRightAdjoint}
+###### Proposition
+
+([Milne 2017, Propositions 5.11](#Milne17)). Let $k$ be an algebraically closed field. Let $V$ be an algebraic $k$-prevariety. Let $A$ be an affine $k$-algebra. Then we have the following natural bijection:
+
+$$
+Hom(V,Spm(A))\cong Hom_{k\text{-algebra}}(A,\Gamma(V,\mathcal{O}_V)).
+$$
+
+=--
+
+In other words, the maximal spectrum functor and the global sections functor, defined between the categories of affine $k$-algebras and $k$-prevarieties, are [[dual adjunction|mutually right adjoint]]. We remark that Milne states the result for quasi-compact varieties, but his proof applies to the general case and never uses quasi-compactness nor separation. Note that from Theorem \ref{PropositionSpmAndGammaAreMutuallyRightAdjoint} we recover Theorem \ref{TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}: for affine $k$-algebras $A$, $B$,
+
+$$
+Hom(Spm(B),Spm(A))\cong Hom_{k\text{-algebra}}(A,B).
+$$
+
 
 ### Relation to schemes
 
@@ -129,6 +169,8 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 * [[complete algebraic variety]]
 
 * [[semialgebraic manifold]]
+
+* [[ultrascheme]]
 
 ## References
 
