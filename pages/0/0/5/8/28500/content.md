@@ -1,21 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic geometry
++--{: .hide}
+[[!include algebraic geometry - contents]]
+=--
+=--
+=--
+
 
 \tableofcontents
 
 ## Idea
  {#Idea}
 
-*Ultra-schemes* are [[locally ringed spaces]] locally isomorphic to the [[maximal spectrum]] of a [[Jacobson ring]]. The [[category]] of ultraschemes is [[equivalence of categories|equivalent]] to a certain non-[[full subcategory|full]] [[subcategory]] of [[schemes]]. Namely to Jacobson schemes with the morphisms locally [[morphism of finite type|of finite type]] between them. One can understand this equivalence as a “scheme theory with only [[closed points]].” Ultra-schemes provide the answer to the question: “When is enough to consider maximal spectra of rings to develop a scheme theory?”
+*Ultra-schemes* are [[locally ringed spaces]] locally isomorphic to the [[maximal spectrum]] of a [[Jacobson ring]]. The [[category]] of ultraschemes is [[equivalence of categories|equivalent]] to a certain non-[[full subcategory|full]] [[subcategory]] of [[schemes]]; namely to Jacobson schemes with morphisms locally [[morphism of finite type|of finite type]] between them. One can understand this equivalence as exhibiting "scheme theory with only [[closed points]]". Ultra-schemes provide the answer to the question: "When is enough to consider maximal spectra of rings to develop a scheme theory?"
 
-Ultra-schemes were defined by [[Alexander Grothendieck|Grothendieck]] in [[EGA IV|EGA IV₃]] to show that the category of [[algebraic varieties]] in the sense of [[Jean-Pierre Serre|Serre]]’s [[FAC]] (over an [[algebraically closed field]] $k$) is [[equivalence of categories|equivalent]] to that of [[reduced scheme|reduced]] [[separated schemes]] of finite type over $k$. Actually, this latter equivalence is a subequivalence of the former one.
+The notion of ultra-schemes were defined by [[Alexander Grothendieck|Grothendieck]] in [[EGA IV|EGA IV₃]] to show that the category of [[algebraic varieties]] in the sense of [[Jean-Pierre Serre|Serre]]’s [[FAC]] (over an [[algebraically closed field]] $k$) is [[equivalence of categories|equivalent]] to that of [[reduced scheme|reduced]] [[separated schemes]] of finite type over $k$. Actually, this latter equivalence is a subequivalence of the former one.
 
 ## Definition
 
-Let $A$ be a commutative ring with unit. Its [[maximal spectrum]], denoted $Spm A$ in EGA (other notations: $Spec_m A$, $Spec_{max}A$, $MaxSpec A$), is the set of maximal ideals of $A$. As a subset of the topological space $Spec A$, the maximal spectrum inherits a topology. The structure sheaf on $Spm A$ is $\mathcal{O}_{Spm A}\coloneqq i^{-1}\mathcal{O}_{Spec A}$, where $i\colon Spm A\hookrightarrow Spec A$ is the inclusion. An **affine ultra-scheme** is a locally ringed space $X$ isomorphic to $(Spm A,\mathcal{O}_{Spm A})$, for some [[Jacobson ring]] $A$ (one also says that $X$ is **ultra-affine**). An **ultra-scheme** is a locally ringed space that has a cover by ultra-affine open subsets. Every ultra-scheme is a [[accessible topological space|T₁ topological space]].
+Let $A$ be a [[commutative ring]] with unit. Its [[maximal spectrum]], denoted $Spm A$ in EGA (other notations: $Spec_m A$, $Spec_{max}A$, $MaxSpec A$), is the set of [[maximal ideals]] of $A$. As a [[subset]] of the [[topological space]] $Spec A$, the maximal spectrum inherits a topology. The [[structure sheaf]] on $Spm A$ is $\mathcal{O}_{Spm A}\coloneqq i^{-1}\mathcal{O}_{Spec A}$, where $i\colon Spm A\hookrightarrow Spec A$ is the inclusion. An **affine ultra-scheme** is a [[locally ringed space]] $X$ isomorphic to $(Spm A,\mathcal{O}_{Spm A})$, for some [[Jacobson ring]] $A$ (one also says that $X$ is **ultra-affine**). An **ultra-scheme** is a locally ringed space that has a [[cover]] by ultra-affine open subsets. Every ultra-scheme is a [[accessible topological space|T₁ topological space]].
 
-A morphism of ultra-schemes $f:X\to Y$ is a morphism of locally ringed spaces that is “locally of finite type” in the following sense: every point in $X$ has an ultra-affine open neighborhood $U\subseteq X$ for which there is an ultra-affine open neighborhood $V\subseteq Y$ such that $f(U)\subseteq V$ and $\Gamma(\mathcal{O}_Y,V)\to\Gamma(\mathcal{O}_X,U)$ is a morphism of rings of finite type.
+A [[morphism]] of ultra-schemes $f:X\to Y$ is a morphism of locally ringed spaces that is "locally of finite type" in the following sense: every point in $X$ has an ultra-affine open neighborhood $U\subseteq X$ for which there is an ultra-affine open neighborhood $V\subseteq Y$ such that $f(U)\subseteq V$ and $\Gamma(\mathcal{O}_Y,V)\to\Gamma(\mathcal{O}_X,U)$ is a morphism of rings of finite type.
 
-## Equivalence of categories with schemes
+
+## Properties 
+
+### Equivalence of categories with schemes
 
 +-- {: .num_theorem}
 ###### Theorem
