@@ -1,7 +1,7 @@
 
 ## Disambiguation 
 
-In [[mathematics]], $A s s$ is notation used by some authors for:
+In [[mathematics]], $A s s$ is [[notation]] used by some authors for:
 
 * The [[associative operad]] $\mathrm{As}$ or $\mathrm{Assoc}$
 
