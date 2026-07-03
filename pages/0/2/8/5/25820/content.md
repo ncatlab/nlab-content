@@ -29,7 +29,7 @@ Sets equipped with pseudo-equivalence relations are sometimes called *[[setoids]
 
 ### With a family of sets
 
-Using graph theoretic terminology, a **pseudo-equivalence relation** on a set $V$ of [[vertices]] is a family of sets $E(a, b)$ of [[edges]] for each vertex $a \in V$ and $b \in V$, which comes with the following additional structure 
+Using [[graph theory|graph theoretic]] terminology, a **pseudo-equivalence relation** on a set $V$ of [[vertices]] is a family of sets $E(a, b)$ of [[edges]] for each vertex $a \in V$ and $b \in V$, which comes with the following additional structure 
 
 * for each vertex $a \in V$ an element
 $$\mathrm{refl}(a) \in E(a, a)$$ 
@@ -42,7 +42,7 @@ $$\mathrm{trans}(a, b, c):(E(a, b) \times E(b, c)) \to E(a, c)$$
 
 ### With a set
 
-A **pseuodo-equivalence relation** on a [[set]] $V$ is a set $E$ and functions $s:E \to V$, $t:E \to V$ (a loop [[directed pseudograph]]), with with functions $\mathrm{refl}:V \to E$, $\mathrm{sym}:E \to E$, and  
+A **pseudo-equivalence relation** on a [[set]] $V$ is a set $E$ and functions $s:E \to V$, $t:E \to V$ (a loop [[directed pseudograph]]), with with functions $\mathrm{refl}:V \to E$, $\mathrm{sym}:E \to E$, and  
 $$\mathrm{trans}:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
