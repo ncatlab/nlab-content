@@ -47,4 +47,4 @@ $$
   \end{matrix}
 $$
 
-See also [[algebraic variety#relation_to_schemes|Relation between varieties and schemes]].
+[pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210.pdf)
