@@ -47,4 +47,24 @@ $$
   \end{matrix}
 $$
 
-[pdf](https://www.uio.no/studier/emner/matnat/math/MAT4210/data/mastermat4210.pdf)
++-- {: .num_theorem #TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}
+###### Theorem
+
+([Milne 2017, Propositions 3.24, 3.25](#Milne17)). Let $k$ be an algebraically closed field. The categories of affine varieties and affine $k$-algebras are [[dual equivalence|anti-equivalent]].
+
+=--
+
+The following result particularizes the [[schemes as sheaves on affine schemes#SchemesAsPresheaves|fundamental theorem on morphisms of schemes]] to prevarieties.
+
++-- {: .num_prop #PropositionSpmAndGammaAreMutuallyRightAdjoint}
+###### Proposition
+
+[Milne 2017, Propositions 5.11](#Milne17). Let $k$ be an algebraically closed field. Let $V$ be an algebraic $k$-prevariety. Let $A$ be an affine $k$-algebra. Then we have the following natural bijection:
+
+$$
+Hom(V,Spm(A))\cong Hom_{k\text{-algebra}}(A,\Gamma(V,\mathcal{O}_V)).
+$$
+
+=--
+
+In other words, the maximal spectrum functor and the global sections functor, defined between the categories of affine $k$-algebras and $k$-prevarieties, are [[dual adjunction|mutually right adjoint]]. Note that Milne states the result for quasi-compact varieties, but his proof applies in the general case and never uses quasi-compactness nor separation. Note that from \ref{PropositionSpmAndGammaAreMutuallyRightAdjoint} we recover \ref{TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}.
