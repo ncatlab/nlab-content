@@ -46,7 +46,9 @@ $$
 
 * [[linear implication]]
 
-[[!include logic symbols -- table]]
+### Logical operations and notation in linear logic
+
+[[!include linear logic symbols -- table]]
 
 ## References
 
