@@ -106,7 +106,7 @@ Next, define a Lie bracket on $\mathfrak{g}$ as follows:
 
 1) **$[\mathfrak{g}_1, \mathfrak{g}_{-1}] \to \mathfrak{g}_0$**: For $x \in V_+, y \in V_-$, set
 
-$$[x, y] = D(x, y) = (Q(x, y, \cdot), -Q(y, x, \cdot))$$
+$$[x, y] = D(x, y) $$
 
 2) **$[\mathfrak{g}_0, \mathfrak{g}_{\pm 1}] \to \mathfrak{g}_{\pm 1}$**: For $D = (D_+, D_-) \in \mathfrak{g}_0$, set
 
@@ -117,6 +117,12 @@ $$[D, x] = D_+(x) \; \text{ for } \; x \in V_+, \qquad [D, y] = D_-(y) \; \text{
 $$[(D_+, D_-), (E_+, E_-)] = ([D_+, E_+], [D_-, E_-]) \, .$$
 
 4) **$[\mathfrak{g}_i, \mathfrak{g}_j] = 0$** when $|i + j| \gt 1$.
+
+In fact these functors are adjoint.  Let $\mathbf{LA}_{3gr}$ be the category of 3-graded Lie algebras and let $\mathbf{JP}$ the category of Jordan pairs. The first construction gives a [[forgetful functor]] $U\colon\mathbf{LA}_{3gr}\rightarrow\mathbf{JTS}$, while the second gives a [[fully faithful functor]] $F\colon\mathbf{JTS} \rightarrow\mathbf{LA}_{3gr}$.  There is an [[adjunction]]:
+$$
+  F \dashv U 
+$$
+([Caveny & Smirnov 2011 6.1](#CavenySmirnov11)).
 
 ## Relation to Jordan triple systems
 
@@ -173,6 +179,8 @@ The category of Jordan pairs is equivalent to the category of polarized Jordan t
 * {#Loos77} [[Ottmar Loos]]: _Bounded Symmetric Domains and Jordan Pairs_, Lecture notes, University of California (1977)
 
 * {#McCrimmon78} Kevin McCrimmon, _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. **84** 4 (1978) 685-690 &lbrack;[euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
+
+* {#CavenySmirnov11} Deanna Caveny and [[Oleg Smirnov]]: _Categories of Jordan structures and graded Lie algebras_ (2011), &lbrack;[arxiv:1106.2447](https://arxiv.org/abs/1106.2447)&rbrack;
 
 [[!redirects Jordan pairs]]
 
