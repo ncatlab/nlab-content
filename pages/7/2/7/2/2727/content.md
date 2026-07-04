@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -101,6 +100,10 @@ There is an analogue of the "propositions as types" in [[set theory]], called **
 * Equality is given by the [[diagonal subset]]
 
 Compare with [[propositions as subsingletons]], which is the usual interpretation of the [[internal logic]] of a set theory via set-theoretic operations on sets. 
+
+## Table
+
+[[!include dependent type theory symbols -- table]]
 
 ## Related concepts
 
