@@ -473,8 +473,9 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 * [[antithesis interpretation]]
 
-[[!include logic symbols -- table]]
+### Logical operations and notation in linear logic
 
+[[!include linear logic symbols -- table]]
 
 ## References
 
