@@ -16,6 +16,7 @@
 | $\phantom{A}$$\not \not$ | $\phantom{A}$[[double negation|negation of negation]]$\phantom{A}$ |
 | $\phantom{A}$$\exists$ | $\phantom{A}$[[existential quantification]]$\phantom{A}$ |  
 | $\phantom{A}$$\forall$ | $\phantom{A}$[[universal quantification]]$\phantom{A}$ |  
+| $\phantom{A}$$\exists!$ | $\phantom{A}$[[uniqueness quantification]]$\phantom{A}$ |  
 | $\phantom{A}$$\wedge$ | $\phantom{A}$[[logical conjunction]] | 
 | $\phantom{A}$$\vee$ | $\phantom{A}$[[logical disjunction]] |  
 |  |  |
