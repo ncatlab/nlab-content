@@ -27,16 +27,15 @@ Closely related is the *multiplicative implication* of [[bunched implication]] l
 
 ## Related concepts
 
-
 * [[exponential conjunction]]
 
 * [[function type]]
 
 * [[hypothetical judgement]]
 
+### Logical operations and notation in linear logic
 
-[[!include logic symbols -- table]]
-
+[[!include linear logic symbols -- table]]
 
 ## References
 
