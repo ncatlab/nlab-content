@@ -27,7 +27,7 @@ Let $V_\bullet, W_\bullet \in Ch_\bullet(\mathcal{A})$ be two  [[chain complexes
 +-- {: .num_defn}
 ###### Definition
 
-A **chain map** $f : V_\bullet \to W_\bullet$ is a collection of [[morphism]] $\{f_n : V_n \to W_n\}_{n \in \mathbb{Z}}$ in $\mathcal{A}$ such that all the [[diagrams]]
+A **chain map** $f : V_\bullet \to W_\bullet$ is a collection of [[morphism|morphisms]] $\{f_n : V_n \to W_n\}_{n \in \mathbb{Z}}$ in $\mathcal{A}$ such that all the [[diagrams]]
 
 $$
   \array{
