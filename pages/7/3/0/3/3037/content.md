@@ -35,6 +35,13 @@ In constructive mathematics, one could also have a __predicate logic with [[apar
 
 [[Lindström's theorems]] give important abstract characterizations of classical untyped first-order logic.
 
+## Notation
+
+* $\forall$ The [[universal quantifier]]. For a predicate formula $\phi$, $\forall \alpha \phi (\alpha) = \neg \exists \alpha \neg \phi (\alpha)$.
+
+* $\exists$ The [[existential quantifier]].
+
+* $\exists !$ The [[uniqueness quantifier]].
 
 ## Related concepts
 
