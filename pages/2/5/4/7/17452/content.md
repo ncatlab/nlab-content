@@ -74,7 +74,9 @@ In particular, note that the traditional argument for [[ex contradictione quodli
 
 ## Related concepts
 
-[[!include logic symbols -- table]]
+### Logical operations and notation in linear logic
+
+[[!include linear logic symbols -- table]]
 
 [[!redirects multiplicative disjunction]]
 [[!redirects multiplicative disjunctions]]
