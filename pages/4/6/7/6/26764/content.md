@@ -32,7 +32,7 @@
 ## Properties
   * The LS-category is a [[homotopy invariance|homotopy invariant]]: if $ f\colon X \to Y $ is a [[homotopy equivalence]] and $ \{ U_\alpha \}_{0 \le \alpha \lt n} $ an open cover of $Y$ such that the inclusions $i_\alpha \colon U\hookrightarrow Y$ are nullhomotopic, then $\{f^{-1}(U_\alpha)\}_{0\le\alpha \lt n}$ is an open cover for which the each inclusion $f^{-1}(U_\alpha) \hookrightarrow X$ is nullhomotopic, since its composition with $f$ factors through the nullhomotopic map $i_\alpha$.
 
-  * A space has LS-category $0$ iff it is [[empty space|empty]], and LS-category $1$ iff it is [[contractible space|contractible]]. For [[discrete space|discrete spaces]] the LS-category is equal to the [[cardinality]]. Any [[suspension]] has LS-category $2$; in particular the [[sphere]] $S^n$ has LS-category $2$ if $n \ge 0$.
+  * A space has LS-category $0$ iff it is [[empty space|empty]], and LS-category $1$ iff it is [[contractible space|contractible]]. For [[discrete space|discrete spaces]] the LS-category is equal to the [[cardinality]]. Any noncontractible [[suspension]] has LS-category $2$; in particular the [[sphere]] $S^n$ has LS-category $2$ for $n \gt -1$.
 
 
   * For path-connected spaces $X$ and $x_0\in X$, the LS-category of $X$ is exactly the [[sectional category]] of the path fibration $ev_1 \colon \{\gamma \in X^I : \gamma(0)=x_0\}\to X$.
