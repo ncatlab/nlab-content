@@ -53,7 +53,9 @@ $$(P^+, P^-) \invamp (P^+, P^-) = ((P^- \Rightarrow P^+) \wedge (P^- \Rightarrow
 
 * [[exponential conjunction|!-modality]]
 
-[[!include logic symbols -- table]]
+### Logical operations and notation in linear logic
+
+[[!include linear logic symbols -- table]]
 
 ## References
 
