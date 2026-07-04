@@ -1,5 +1,3 @@
-# Premulticategories
-
 * toc
 {: toc}
 
