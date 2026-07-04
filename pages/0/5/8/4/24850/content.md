@@ -21,7 +21,9 @@ In the context of [[linear logic]] or [[linear type theory]], the *additive disj
 
 * [[direct sum]], [[quantum parallelism]]
 
-[[!include logic symbols -- table]]
+### Logical operations and notation in linear logic
+
+[[!include linear logic symbols -- table]]
 
 ## References
 
