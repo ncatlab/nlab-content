@@ -68,3 +68,10 @@ $$
 =--
 
 In other words, the maximal spectrum functor and the global sections functor, defined between the categories of affine $k$-algebras and $k$-prevarieties, are [[dual adjunction|mutually right adjoint]]. Note that Milne states the result for quasi-compact varieties, but his proof applies in the general case and never uses quasi-compactness nor separation. Note that from \ref{PropositionSpmAndGammaAreMutuallyRightAdjoint} we recover \ref{TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}.
+
+See this table, 
+
+|Header 1|Header 2|
+|:--------:|:--------:|
+|Item 1|Item 2|
+|Item 3|Item 4|
