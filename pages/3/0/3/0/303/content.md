@@ -11,14 +11,12 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
 
-Enriched functors are used in place of [[functors]] in [[enriched category theory]]: like functors they send objects to objects, but instead of mapping [[hom-sets]] to [[hom-sets]] they assign morphisms in the enriching category between [[hom-objects]], while being compatible with composition and units in the obvious way.
+*Enriched functors* are used in place of [[functors]] in [[enriched category theory]]: like functors they send objects to objects, but instead of mapping [[hom-sets]] to [[hom-sets]] they assign morphisms in the enriching category between [[hom-objects]], while being compatible with composition and units in the obvious way.
 
 ## Definition
 
@@ -88,6 +86,8 @@ For the moment see at *[enriched monad -- relation to strong monads](enriched+mo
 * Categories enriched in the [[poset]] of truth values with conjunction as monoidal product are posets, and the corresponding enriched functors are precisely order-preserving maps.
 
 ## Related concepts
+
+* [[enriched presheaf]]
 
 * [[enriched natural transformation]]
 
