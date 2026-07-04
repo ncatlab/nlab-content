@@ -331,9 +331,9 @@ This presentation also generalizes naturally to [[dependent linear type theory]]
 
 * [[exponential map]]
 
+### Logical operations and notation in linear logic
 
-[[!include logic symbols -- table]]
-
+[[!include linear logic symbols -- table]]
 
 ## References
 
