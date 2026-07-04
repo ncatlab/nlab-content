@@ -44,6 +44,11 @@ Agda has a `--cubical` mode that implements a version of [[cubical type theory]]
 
 [RedTT](https://github.com/RedPRL/redtt) is (was?) an implementation of cartesian cubical type theory, with some basic development in an associated library.
 
+## cubo
+
+[cubo](https://github.com/bbentzen/cubo/) is (was?) an experimental implementation of [XTT](https://arxiv.org/abs/1904.08562), a cubical reconstruction of extensional type theory that enjoys canonicity, function extensionality, and a judgmental version of UIP. 
+
+
 ## Arend
 
 [Arend](https://github.com/JetBrains/Arend) implements a theory that enhances [[Book HoTT]] with an [[interval type]] similar to that of cubical type theory, but without the extra structure necessary to make univalence computational.
