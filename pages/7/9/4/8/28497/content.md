@@ -1,4 +1,3 @@
-[[!redirects Notation]]
 
 \tableofcontents
 
@@ -8,7 +7,7 @@ A list of basic notation common in [[mathematics]].
 
 ## Glossary
 
-### In logic
+### In logic and dependent type theory
 
 [[!include logic symbols -- table]]
 
@@ -51,3 +50,5 @@ $\forall x (x\in A \Leftrightarrow \phi (x)$
 * [[ZFC]] The standard [[logic|first-order]] foundational [[material set theory|material]] [[pure set|pure]] [[axiom|axiomatic]] [[set theory|set theoretical]] logic with Axiom of Choice.
 
 **Not at all complete.*
+
+[[!redirects Notation]]
