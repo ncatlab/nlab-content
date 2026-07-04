@@ -23,11 +23,11 @@ based on [[dependent type theory]]/[[homotopy type theory]]:
 
 * [cubo](https://github.com/bbentzen/cubo/)
 
-* [Cubical Agda](Agda#CubicalAgda)
+* [[Cubical Agda]]
 
   * [library and demos](https://github.com/agda/cubical)
 
-  * [[1lab]] (cross-linked reference resource)
+* [[Mikan]] (forked from Cubical Agda), the proof assistant underlying the [[1lab]] project
 
 based on [[modal type theory]]:
 
