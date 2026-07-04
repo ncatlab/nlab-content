@@ -148,7 +148,7 @@ holds.
 \begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
 \end{lemma} 
 \begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
-Since $A$ lies in $\mathbf{Std} \cap \mathbf{Cvx}$ is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $a \in A$ satisfying, for all affine measurable maps $A \xrightarrow{m} \mathbb{R}_{\infty}$, the equation $\tilde{P}(m)=m(a)$.  
+Since $A$ lies in $\mathbf{Std} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $a \in A$ satisfying, for all affine measurable maps $A \xrightarrow{m} \mathbb{R}_{\infty}$, the equation $\tilde{P}(m)=m(a)$.  
 \end{proof}
 
 Define $\mathbf{Std}_{Cvx}$ to be the full subcategory of $\mathbf{Std} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
@@ -167,13 +167,13 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a countable affine function of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
-\begin{proof} The superconvex space structure of $G(X)$ is defined by the countable family of equations
-$ ev_U( \sum_{i=1}^{\infty} p_i P_i) = \sum_{i=1}^{\infty}p_i P_i(U)$ 
+\begin{proof} The convex space structure of $G(X)$ is defined by the countable family of equations
+$ ev_U( \sum_{i=1}^{n} p_i P_i) = \sum_{i=1}^{n}p_i P_i(U)$ 
 for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines a countable affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} \mathbb{R}_{\infty}$. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)
 
-Conversely, for a set function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to  preserve the superconvex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} \mathbb{R}_{\infty}$ is, by the definition of the Lebesque integral, given by
+Conversely, for a set function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to  preserve the convex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} \mathbb{R}_{\infty}$ is, by the definition of the Lebesque integral, given by
 $\int_X f \, dP = \big(\sum_{i \in \mathbb{Nat}} \lambda_i ev_{U_i}\big)P$
 where $\psi_n = \sum_{i=1}^{N_n} \lambda_{n,i} \chi_{U_{n,i}}$ is a simple function satisfying $\psi_n \le f$ and for which $\{\psi_n\}_{n=1}^{\infty}$ converges pointwise to $f$.
 \end{proof}
