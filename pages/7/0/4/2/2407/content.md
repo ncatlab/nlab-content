@@ -14,6 +14,7 @@
 {: toc}
 
 ## Idea
+
 __Propositional logic__, also called __$0$th-order logic__ and __sentential logic__, is that part of [[logic]] that deals only with [[propositions]] with no [[bound variables]].  
 
 Compare [[predicate logic]], or $1$st-order logic, and [[higher-order logic]].  Note that while one can have *free* variables in $0$th-order logic, one cannot really do anything with them; each $P(x)$ in a $0$th-order proposition might as well be thought of as atomic.
@@ -26,25 +27,23 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 
 ## Notation
 
-* $\wedge$ The [[propositional logic]] conjunction, or AND [[operator]]. For formula, $\phi,\psi$,
+### In classical / intuitionistic logic
 
-\begin{theorem} 
-$\phi \wedge \psi = \neg (\neg \phi \vee \neg \psi)$
-\end{theorem}
+| $\phantom{-}$notation$\phantom{-}$ | $\phantom{-}$in propositional [[classical logic]]/[[intuitionistic logic]]$\phantom{-}$ |
+|--------|---------|
+| $\phantom{A}$$\top$$\phantom{A}$ | $\phantom{A}$[[true]]$\phantom{A}$ | 
+| $\phantom{A}$$\bot$$\phantom{A}$ | $\phantom{A}$[[false]]$\phantom{A}$ | 
+| $\phantom{A}$$\wedge$ | $\phantom{A}$[[logical conjunction]], AND operator | 
+| $\phantom{A}$$\vee$ | $\phantom{A}$[[logical disjunction]], OR operator |  
+| $\phantom{A}$$\veebar$ | $\phantom{A}$[[exclusive disjunction]], XOR operator | 
+| $\phantom{A}$$\Rightarrow$ | $\phantom{A}$[[implication]], [[conditional]], implies operator |  
+| $\phantom{A}$$\Leftrightarrow$ | $\phantom{A}$[[logical equivalence]], [[biconditional]], equals operator | 
+| $\phantom{A}$$\not$ | $\phantom{A}$[[negation]], NOT operator |
+| $\phantom{A}$$\not \not$ | $\phantom{A}$[[double negation|negation of negation]]$\phantom{A}$ |
 
-* $\vee$ The [[propositional logic]] inclusive dysjunction, or OR [[operator]].
+### In linear logic
 
-* $\veebar$ The [[propositional logic]] exclusive dysjunction, or XOR [[operator]].
-
-* $\Rightarrow$ The [[propositional logic]] implication, conditional, or implies [[operator]]. For formula,
-$\phi, \psi$, 
-
-\begin{theorem} $\phi \Rightarrow \psi = \neg \phi \vee \psi$ \end{theorem}
-
-* $\Leftrightarrow$ The [[propositional logic]] equivalence, biconditional, or equals [[operator]]. For formula $\phi, \psi$,
-
-\begin{theorem} $\phi \Leftrightarrow \psi = \phi \Rightarrow \psi \wedge \psi \Rightarrow \phi$ 
-\end{theorem}
+[[!include linear logic symbols -- table]]
 
 ## Related concepts
 
