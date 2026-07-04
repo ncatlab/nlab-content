@@ -1,13 +1,13 @@
 
 
 | $\phantom{-}$symbol$\phantom{-}$ | $\phantom{-}$in [[logic]]$\phantom{-}$ |
-|--------|---------|
+|:--------:|:---------:|
 | $\phantom{A}$$\in$ | $\phantom{A}$[[element]] [[relation]] | 
-| $\phantom{A}$$\,:$ | $\phantom{A}$[[type|typing]] [[relation]] | 
+| $\phantom{A}$$:$ | $\phantom{A}$[[type|typing]] [[relation]] | 
 | $\phantom{A}$$=$ |  $\phantom{A}$[[propositional equality]] | 
-| $\phantom{A}$$\vdash$$\phantom{A}$ | $\phantom{A}$[[entailment]]  / [[sequent]]$\phantom{A}$ | 
-| $\phantom{A}$$\top$$\phantom{A}$ | $\phantom{A}$[[true]]  / [[top]]$\phantom{A}$ | 
-| $\phantom{A}$$\bot$$\phantom{A}$ | $\phantom{A}$[[false]] / [[bottom]]$\phantom{A}$ | 
+| $\phantom{A}$$\vdash$$\phantom{A}$| $\phantom{A}$[[entailment]]  / [[sequent]]$\phantom{A}$ | 
+| $\phantom{A}$$\top$$\phantom{A}$|$\phantom{A}$[[true|truthhood]], or [[top]]$\phantom{A}$ | 
+| $\phantom{A}$$\bot$$\phantom{A}$| $\phantom{A}$[[falsehood]], or [[bottom]]$\phantom{A}$ | 
 | $\phantom{A}$$\Rightarrow$ | $\phantom{A}$[[implication]], [[conditional]] |  
 | $\phantom{A}$$\Leftrightarrow$ | $\phantom{A}$[[logical equivalence]], [[biconditional]] | 
 | $\phantom{A}$$\not$ | $\phantom{A}$[[negation]] |
