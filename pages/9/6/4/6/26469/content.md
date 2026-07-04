@@ -20,9 +20,9 @@ In [[probability theory]], **Markov kernels** (also called **transition kernels*
 This may be thought of as a generalization of [[stochastic maps]] outside the finite discrete case.
 (Sometimes the term "stochastic maps" is itself used to denote Markov kernels.)
 
-Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete case (and without incurring in paradoxes).
+Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete case (and without incurring paradoxes).
 
-Markov kernels and the [[categories]] which they fir. are among the basic building blocks of [[categorical probability theory]].
+Markov kernels and the [[categories]] which they form are among the basic building blocks of [[categorical probability theory]].
 
 
 ## Definition
