@@ -10,9 +10,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -22,7 +20,7 @@ Enriched sheaves are used in place of [[sheaves]] in [[enriched category theory]
 
 ## Details
 
-Enriched sheaf theory was introduced in ([Bor-Quint](#BQ96)) where they consider a locally finitely presentable [[symmetric monoidal closed category]] $\mathcal{V}$ and a small $\mathcal{V}$-enriched category $\mathcal{C}$. The category $[\mathcal{C}^\mathrm{op},\mathcal{V}]$ of $\mathcal{V}$-valued $\mathcal{V}$-enriched functors on the dual of $\mathcal{C}$ is considered as a category of enriched presheaves.
+Enriched sheaf theory was introduced in ([Bor-Quint](#BQ96)) where they consider a locally finitely presentable [[symmetric monoidal closed category]] $\mathcal{V}$ and a small $\mathcal{V}$-[[enriched category]] $\mathcal{C}$. The category $[\mathcal{C}^\mathrm{op},\mathcal{V}]$ of $\mathcal{V}$-valued $\mathcal{V}$-[[enriched functors]] on the dual of $\mathcal{C}$ is considered as a category of enriched presheaves.
 
 Axioms for $\mathcal{V}$-enriched [[Grothendieck topologies]] are introduced in terms of $\mathcal{V}$-subfunctors of [[representable functors]] (one could say $\mathcal{V}$-[[sieves]]). The main result of the article is a bijection between reflective $\mathcal{V}$-[[enriched localization]]s of $[\mathcal{C}^\mathrm{op},\mathcal{V}]$ preserving finite limits and $\mathcal{V}$-enriched Grothendieck topologies on $\mathcal{C}$ and also a bijection with universal $\mathcal{V}$-closure operations. 
 
@@ -30,9 +28,15 @@ This is a generalization of a [[Gabriel-Popescu theorem]] and of a characterizat
 
 [[Gabriel filter]]s (Gabriel topologies) are the case of $\mathcal{V}$-enriched Grothendieck topologies when the enrichment is over the category of abelian groups. 
 
-##References
+## Related entries
 
-* {#BQ96} F. Borceux, C. Quinteiro, _A theory of enriched sheaves_, Cahiers Topologie Géom. Différentielle Catég. 37 (1996), no. 2, 145--162 [MR1394507](https://mathscinet.ams.org/mathscinet-getitem?mr=1394507)
+* [[enriched functor]]
+
+* [[enriched functor category]]
+
+## References
+
+* {#BQ96} [[Francis Borceux]], C. Quinteiro: _A theory of enriched sheaves_, Cahiers Topologie Géom. Différentielle Catég. 37 (1996), no. 2, 145--162 [MR1394507](https://mathscinet.ams.org/mathscinet-getitem?mr=1394507)
 
 See also [[zoranskoda:MR4328537]].
 
