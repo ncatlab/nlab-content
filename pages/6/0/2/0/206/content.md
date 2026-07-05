@@ -24,9 +24,7 @@
 ***
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -73,6 +71,9 @@ Introductory textbooks:
 * [[Anthony Knapp]], *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
 
 * {#Aluffi09} [[Paolo Aluffi]], *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
+
+* [[Palash B. Pal]]: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
 
 * [[Joseph A. Gallian]], *Contemporary Abstract Algebra*, Chapman and Hall/CRC (2020)  &lbrack;[doi:10.1201/9781003142331](https://doi.org/10.1201/9781003142331), [webpage](https://en.wikipedia.org/wiki/Joseph_Gallian), [pdf](https://ict.iitk.ac.in/wp-content/uploads/CS203-Mathematics-for-Computer-Science-III-Gallian.pdf)&rbrack;
 
