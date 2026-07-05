@@ -15,9 +15,9 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
+
 
 
 ## Definition
@@ -313,7 +313,12 @@ This implies the claim. (Exactness of the sequence says that every element in $\
 \linebreak
 
 
+
 ## References
+
+* [[Palash B. Pal]]: *Orthogonal Groups and their Representations*, section 15 of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
+
 
 Examples of sporadic (exceptional) [[isogenies]] from [[spin groups]] onto orthogonal groups are discussed in
 
