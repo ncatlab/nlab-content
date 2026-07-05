@@ -97,7 +97,7 @@ Introductions aimed at [[physics|physicists]]:
 
 * [[Helmut Eschrig]], Section 2 of: *Topology and Geometry for Physics*, Lecture Notes in Physics, Springer (2011) \[<a href="https://doi.org/10.1007/978-3-642-14700-5">doi:10.1007/978-3-642-14700-5</a>\] 
 
-
+* [[Palash B. Pal]]: *Topology*, part D of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
 
 On basic topology set up in [[intuitionistic mathematics]]:
 
