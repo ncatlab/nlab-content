@@ -225,8 +225,8 @@ English translation:
 
 * Joël Merker (ed.): *Theory of Transformation Groups by Sophus Lie and Friedrich Engel (Vol. I 1888)*, Springer (2015) &lbrack;[doi:10.1007/978-3-662-46211-9](https://doi.org/10.1007/978-3-662-46211-9), [arXiv:1003.3202](https://arxiv.org/pdf/1003.3202)&rbrack;
 
-Further discussion:
 
+Further discussion:
 
 * {#Weyl39} [[Hermann Weyl]]: *The Classical Groups -- Their Invariants and Representations*, Princeton University Press (1939) &lbrack;[jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/Weyl_The%20Classical%20Groups.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Classical_Groups)&rbrack;
 
@@ -292,6 +292,10 @@ Further discussion:
 * [[Daniel Bump]], *Lie groups*, Graduate Texts in Mathematics **225**, Springer (2013) &lbrack;[doi:10.1007/978-1-4614-8024-2](https://doi.org/10.1007/978-1-4614-8024-2), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/lecturesZETAS2018/BumpD-Lie%20groups.pdf)&rbrack;
 
 * {#Hall15} [[Brian C. Hall]]: *Lie Groups, Lie Algebras, and Representations*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3)&rbrack;
+
+* [[Palash B. Pal]]: *General Properties of Lie Groups*, section 12 of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
+
 
 * {#GallierQuaintance20a} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A computational perspective*, Geometry and Computing **12**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46040-2](https://doi.org/10.1007/978-3-030-46040-2), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
 
