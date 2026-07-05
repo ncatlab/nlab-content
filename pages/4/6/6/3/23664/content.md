@@ -24,7 +24,7 @@
 
 ## Definition 
 
-Given two [[sets]] $(A, \approx_A)$ and $(B, \approx_B)$ equipped with [[equivalence relations]], an **extensional function** is a [[function]] $f:A \to B$ which preserves the equivalence relations: for all $x \in A$ and $y \in A$, if $x \approx_A y$, then $f(x) \approx_B f(y)$. 
+Given two [[sets]] $(A, \approx_A)$ and $(B, \approx_B)$ equipped with [[equivalence relations]], we say that a [[function]] $f:A \to B$ is $\approx$-**extensional** if it preserves the equivalence relation $\approx$: for all $x \in A$ and $y \in A$, if $x \approx_A y$, then $f(x) \approx_B f(y)$. 
 
 In [[category theory]], this means that an extensional function is a [[functor]] between two [[thin category|thin]] [[groupoids]] or a [[dagger functor]] between two thin [[dagger categories]], since equivalence relations can be modeled via the [[hom-sets]] of thin dagger categories or groupoids. 
 
@@ -47,6 +47,8 @@ This definition is common in the [[dependent type theory]] literature that uses 
 ### As functions between quivers
 
 One doesn't actually need the full structure of a [[pseudo-equivalence relation]] to define an extensional function: only the quiver structure of the hom-sets are needed. Thus, an **extensional function** between two [[quivers]] $(A, \mathrm{hom}_A)$ and $(B, \mathrm{hom}_B)$ is a function $f:A \to B$ with a family of functions $f_\mathrm{hom}(x, y):\mathrm{hom}_A(x, y) \to \mathrm{hom}_B(f(x), f(y))$. 
+
+This definition is common in [[simplicial type theory]], [[triangulated type theory]], and similar such theories with a [[directed interval]] type, where every type comes with [[hom-types]] defined using the directed interval, and so are [[quivers]] (and in fact [[cubical objects]]). 
 
 ## Related concepts
 
