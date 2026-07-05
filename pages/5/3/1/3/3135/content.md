@@ -338,8 +338,11 @@ This implies the claim.
 
 * [[Neil Strickland]], section 7 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
 
-
 * {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
+
+* [[Palash B. Pal]]: *Unitary Groups and their Representations*, section 14 of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
+
 
 For [[U(ℋ)]]:
 
