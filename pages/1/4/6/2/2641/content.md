@@ -13,10 +13,8 @@
 =--
 
 
+\tableofcontents
 
-# Contents
-* table of contents
-{: toc}
 
 ## Idea
 
@@ -138,6 +136,10 @@ Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.
 * [[Xavier Bekaert]], Nicolas Boulanger, _The unitary representations of the Poincare group in any spacetime dimension_ ([arXiv:hep-th/0611263](http://arxiv.org/abs/hep-th/0611263))
 
 * {#Dragon16} [[Norbert Dragon]]: _Currents for Arbitrary Helicity_ &lbrack;[arXiv:1601.07825](http://arxiv.org/abs/1601.07825)&rbrack;
+
+* [[Palash B. Pal]]: *Representations of the Lorentz Group *, section 17 of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
+
 
 * Giovanni Camilletti, María A. Lledó, Mariano A. del Olmo: *Representations of the $D=2$ Euclidean and Poincaré groups* &lbrack;[arXiv:2602.05677](https://arxiv.org/abs/2602.05677)&rbrack;
 
