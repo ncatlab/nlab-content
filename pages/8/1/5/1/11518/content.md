@@ -207,9 +207,9 @@ A perspective on the category of genuine G-spectra as a lax limit over those of 
 
 Universal properties of the (∞,1)-category of genuine $G$-spectra are considered in
 
-* Bastiaan Cnossen, _Twisted ambidexterity in equivariant homotopy theory_, [arXiv](https://arxiv.org/abs/2303.00736).
+* [[Bastiaan Cnossen]], _Twisted ambidexterity in equivariant homotopy theory_, [arXiv](https://arxiv.org/abs/2303.00736).
 
-* Tim Campion, _Free duals and a new universal property for stable equivariant homotopy theory_, [arXiv](https://arxiv.org/abs/2302.04207).
+* [[Tim Campion]], _Free duals and a new universal property for stable equivariant homotopy theory_, [arXiv](https://arxiv.org/abs/2302.04207).
 
 
 
