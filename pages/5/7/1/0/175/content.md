@@ -92,6 +92,10 @@ Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/grou
 
 * [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
 
+* [[Palash B. Pal]]: *Group Theory*; part C of: *A Physicist's Introduction to Algebraic Structures*, Cambridge University Press (2019) \[<a href="https://doi.org/10.1017/9781108679114">doi:10.1017/9781108679114</a>\]
+  > (aimed at [[physics]] readers without real math background)
+
+
 See also:
 
 * Wikipedia, *[Group theory](https://en.wikipedia.org/wiki/Group_theory)*
