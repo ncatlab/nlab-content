@@ -35,6 +35,9 @@ and multiplication
 
 In [[computer science]] this [[monad (in computer science)]] is used to model [[continuation-passing style]] of programming, and therefore this is called the _continuation monad_. The idea here is that a morphism $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [[Y,S],S]$ is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
 
+This [[monad]] is ubiquitous in [[mathematics]] where it is called the _double dualization monad_.
+For example the _Stone-Cech compactification functor_ $\beta: Top \rightarrow CpHaus$ is a universal way to map a [[topological space]] into a [[compact Hausdorff space]]. This functor dualizes into the unit interval $[0,1]$ which is a [[cogenerator]] in the [[category]] of [[compact Hausdorff spaces]].  To view this example  as a monad one simply composes the [[functor]] $\beta$ with the inclusion functor $\iota: CpHaus \rightarrow Top$. 
+ 
 ## Algebras
 
 \begin{proposition} 
@@ -75,6 +78,9 @@ Since $[-, S]$ preserves coequalizers and reflects isomorphisms, we conclude tha
 * [[state monad]]
 
 ## References
+As a [[monad]] in [[mathematics]]:
+
+* [[Anders Kock]], _On the double dualization monad_, Math. Scand., 27 (1970), p151-165.
 
 As a [[monad in computer science]]:
 
@@ -103,3 +109,4 @@ A characterisation of ([[enriched monad|enriched]]) monads isomorphic to continu
 * Christopher Townsend, _When are enriched strong monads double exponential monads?_, Bulletin of the Belgian Mathematical Society-Simon Stevin 23.2 (2016): 311-319.
 
 [[!redirects continuation monads]]
+[[!redirects double dualization monad]]
