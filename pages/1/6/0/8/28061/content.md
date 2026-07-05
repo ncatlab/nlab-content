@@ -9,7 +9,7 @@ On the [[equivariant Chern character]] from ([[twisted equivariant K-theory|twis
 
 * {#Stefanich} [[Germán Stefanich]]: _Chern Character in Twisted and Equivariant K-Theory_ &lbrack;[pdf](https://math.berkeley.edu/~germans/Chern2.pdf), [[Stefanich-ChernCharacter.pdf:file]]&rbrack;
 
-{#OnCOrrespondences} On [[(infinity,n)-categories of correspondences]]:
+{#OnCOrrespondences} On [[(infinity,n)-categories of correspondences|$(\infty,n)$-categories of correspondences]]:
 
 * [[Germán Stefanich]]: *Higher sheaf theory I: Correspondences* &lbrack;[arXiv:2011.03027](https://arxiv.org/abs/2011.03027)&rbrack;
 
