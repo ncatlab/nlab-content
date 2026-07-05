@@ -98,7 +98,7 @@ A nice first introduction to music theory and what groups can do for it is
 
 More mathematically inclined are the following
 
-* [[Dmitri Tymoczko]] on [chord orbifolds](music theory#ChordOrbifoldsInMusicTheory), cf. the references [above](music theory#ChordOrbifoldReferences)
+* [[Dmitri Tymoczko]] on [chord orbifolds](#ChordOrbifoldsInMusicTheory), cf. the references [above](#ChordOrbifoldReferences)
 
 * Emilio Lluis-Puebla, Ocatavio A. August&#237;n-Aquino (eds.), _Memoirs of the Fourth International Seminar on Mathematical Music Theory_, Sociedad Matem&#225;tica Mexicana 2010. ([pdf](http://sociedadmatematicamexicana.org.mx/SEPA/ECMS/resumen/PME1_1.pdf))
 
