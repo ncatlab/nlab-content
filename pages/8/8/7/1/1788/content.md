@@ -6,46 +6,31 @@
 ***
 \linebreak
 
-* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry II: $E_{d(d)} \times \mathbb{R}^+$ and M theory* \[<a href="https://doi.org/10.1007/JHEP03(2014)019">doi:10.1007/JHEP03(2014)019</a>, [arXiv:1212.1586 hep-th](https://arxiv.org/abs/1212.1586)\]
 
-* Paulo Pires Pacheco, [[Daniel Waldram]]: *M-theory, exceptional generalised geometry and superpotentials*, J. High Energy Physics **2008** JHEP09 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/09/123">doi:10.1088/1126-6708/2008/09/123</a>, <a href="https://arxiv.org/abs/0804.1362">arXiv:0804.1362</a>\]
+motivation -- local systems in physics: 
+
+Hilbert spaces of gapped quantum ground states over classical parameter space $P$ of topological phases of matter
+
+topological phases are $C \in \pi_0(P)$
+
+topological orders in phase $C$ are $\mathcal{H} \in Rep_{\mathbb{C}}\big(\pi_1(P,C)\big)$
+
+topological orders in any phase are $\mathcal{H} \in Loc_{\mathbb{C}}(P)$
+
+in fragile crystalline phases: parameter space is crystal lattice couplings reflected in 1-electron Hamiltonians from a space $\mathcal{A}$, hence parameter space is $P = Map(T^d, \mathcal{A})$
+
+topological phases are $C \in \pi_0 \big( Map(T^d, \mathcal{A})\big)$
+
+topological orders in phase $C$ are $\mathscr{H} \in Rep_{\mathcal{C}}\Big( \pi_1 \big( Map(T^d,\mathcal{A}), C\big) \Big) $
+
+topological orders in any phase are $\mathscr{H} \in Loc_{\mathbb{C}}\big(Map(T^d, \mathcal{A})\big)$
+
+functorial at least in diffeos of $T^d$ (modular functor)
+
+find geometric engineering
 
 
-* [[André Coimbra]], [[Charles Strickland-Constable]], [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) \[<a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>, <a href="https://arxiv.org/abs/1112.3989">arXiv:1112.3989 hep-th</a>\]
-
-
-
-
-
-\linebreak
-
-\linebreak
-
-
-
-$$
-  \left(
-  \begin{matrix}
-    A & B 
-    \\
-    0 & C
-  \end{matrix}
-  \right)
-  \left(
-  \begin{matrix}
-    A^{-1}
-    & 
-    - A^{-1} B C^{-1}
-    \\
-    0 & C^{-1}
-  \end{matrix}
-  \right)
-  =
-  \begin{matrix}
-    1 & 
-    \\
-  \end{matrix}
-$$
+***
 
 +-- {: .num_theorem #TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}
 ###### Theorem
