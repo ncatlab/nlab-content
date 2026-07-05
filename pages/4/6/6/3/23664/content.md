@@ -48,7 +48,7 @@ This definition is common in the [[dependent type theory]] literature that uses 
 
 One doesn't actually need the full structure of a [[pseudo-equivalence relation]] to define an extensional function: only the quiver structure of the hom-sets are needed. Thus, an **extensional function** between two [[quivers]] $(A, \mathrm{hom}_A)$ and $(B, \mathrm{hom}_B)$ is a function $f:A \to B$ with a family of functions $f_\mathrm{hom}(x, y):\mathrm{hom}_A(x, y) \to \mathrm{hom}_B(f(x), f(y))$. 
 
-This definition is common in [[simplicial type theory]], [[triangulated type theory]], and similar such theories with a [[directed interval]] type, where every type comes with [[hom-types]] defined using the directed interval, and so are [[quivers]] (and in fact [[cubical objects]]). 
+Thus, in [[dependent type theory]] with a [[directed interval]] type, where every type comes with [[hom-types]] defined using the directed interval, and so are [[quivers]] (and in many cases [[cubical objects]]), one can talk about functions being extensional in the above sense. In this sense, one gets the usual case of an extensional function between equivalence relations when the type is a [[thin]] [[Segal type]] where every morphism is an [[isomorphism]]. 
 
 ## Related concepts
 
