@@ -132,12 +132,7 @@ Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R
 \begin{equation}
 \phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
-The reader can verify than any such $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive.  Since $\tilde{P}$ is defined in terms of the Lebesque integral we have, more generally, 
-\begin{lemma} Every $\mathbb{R}_{\infty}$-generalized element $\mathbb{R}_{\infty}^A \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ of $A$ is countably additive.
-\end{lemma}
-\begin{proof} Given a countable sequence $\{A \xrightarrow{f_i} \mathbb{R}_{\infty}\}_i$ of measurable functions let $g_n=\sum_{i=1}^n f_i$.  Since $f_i\ge 0$ we have, by the monotone convergence theorem
-$\tilde{P}(\sum_{i} f_i) = \tilde{P}(\lim_n g_n) = \lim_n \{\tilde{P}(g_n)\} = \lim_n \sum_{i=1}^n \tilde{P}(f_i) = \sum_i \tilde{P}(f_i)$.
-\end{proof}
+The reader can verify than any such $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
 
 We say an object $A$ in $\mathbf{Std} \cap \mathbf{Cvx}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
 \begin{equation}
@@ -167,15 +162,15 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a countable affine function of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a function of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in \mathbb{R}_{\infty}$ and $U_i \in \mathbb{F}$.
 \end{lemma}
-\begin{proof} The convex space structure of $G(X)$ is defined by the countable family of equations
+\begin{proof} The convex space structure of $G(X)$ is defined by the set of constraints given by
 $ ev_U( \sum_{i=1}^{n} p_i P_i) = \sum_{i=1}^{n}p_i P_i(U)$ 
-for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines a countable affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} \mathbb{R}_{\infty}$. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)
+for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines an affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} \mathbb{R}_{\infty}$. The fact that such a function is affine is a simple verification. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)  Such a function is not just affine but countably affine.
 
-Conversely, for a set function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to  preserve the convex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} \mathbb{R}_{\infty}$ is, by the definition of the Lebesque integral, given by
-$\int_X f \, dP = \big(\sum_{i \in \mathbb{Nat}} \lambda_i ev_{U_i}\big)P$
-where $\psi_n = \sum_{i=1}^{N_n} \lambda_{n,i} \chi_{U_{n,i}}$ is a simple function satisfying $\psi_n \le f$ and for which $\{\psi_n\}_{n=1}^{\infty}$ converges pointwise to $f$.
+Conversely, for a set function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to  preserve the convex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements. 
+ 
+Editorial note: The above explanation is inadequate. Explain the necessity. 
 \end{proof}
 
 \begin{lemma}Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then
