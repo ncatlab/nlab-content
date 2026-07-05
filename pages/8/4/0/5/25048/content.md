@@ -13,9 +13,9 @@
 
 ## Idea
 
-Prelattices are [[lattices]] which do not satisfy [[antisymmetry]]. 
+Prelattices are [[lattices]] which do not necessarily satisfy [[antisymmetry]]. 
 
-In the same way as lattices, prelattices can be defined in an algebraic or an order-theoretic fashion. In the algebraic definition, one uses an [[equivalence relation]] $\approx$ instead of [[equality]] $=$ to define the equational axioms of the algebraic structure (commutativity, associativity, etc) as well as axioms that the algebraic operations are $\approx$-[[extensional function|extensional]], similarly to the [[setoid]] approach to algebra. In the order-theoretic definition, one assumes a [[preorder]] instead of a [[partial order]]. 
+In the same way as lattices, prelattices can be defined in an [[algebra|algebraic]] or an [[order theory|order-theoretic]] fashion. In the algebraic definition, one uses an [[equivalence relation]] $\approx$ instead of [[equality]] $=$ to define the equational axioms of the algebraic structure (commutativity, associativity, etc) as well as axioms that the algebraic operations are $\approx$-[[extensional function|extensional]], similarly to the [[setoid]] approach to algebra. In the order-theoretic definition, one assumes a [[preorder]] instead of a [[partial order]]. 
 
 Also in the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **unboounded prelattices** or **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. 
 
@@ -61,3 +61,4 @@ Unbounded prelattices are important because given any ordered field $K$ with unb
 
 [[!redirects bicartesian monoidal preorder]]
 [[!redirects bicartesian monoidal preorders]]
+
