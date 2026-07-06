@@ -406,6 +406,9 @@ See also:
 
 * David Viennot: *Metrics and geodesics on fuzzy spaces* &lbrack;[arXiv:2305.15095](https://arxiv.org/abs/2305.15095)&rbrack;
 
+* Yin-Chen He, W. Zhu: *A Fuzzy Sphere Journey in Critical Phenomena* &lbrack;[arXiv:2607.01310](https://arxiv.org/abs/2607.01310)&rbrack;
+
+
 
 
 ### Fuzzy 2-sphere
