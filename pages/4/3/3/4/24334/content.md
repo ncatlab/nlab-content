@@ -25,9 +25,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -234,17 +232,17 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
 
-* [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects* $[$[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)$]$
+* [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects* &lbrack;[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)&rbrack;
 
-* Fredrik Bakke, *Segal Spaces in Homotopy Type Theory*. Master thesis $[$[no.ntnu:inspera:99217069:14871483	](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2995704)$]$
+* Fredrik Bakke, *Segal Spaces in Homotopy Type Theory*. Master thesis &lbrack;[no.ntnu:inspera:99217069:14871483	](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2995704)&rbrack;
 
-* [[César Bardomiano Martínez]], *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
+* [[César Bardomiano Martínez]], *Limits and colimits of synthetic $\infty$-categories* &lbrack;[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)&rbrack;
 
-* [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
+* [[Jonathan Weinberger]], *Strict stability of extension types* &lbrack;[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)&rbrack;
 
-* [[Jonathan Weinberger]], *Two-sided cartesian fibrations of synthetic $(\infty,1)$-categories* $[$[arXiv:2204.00938](https://arxiv.org/abs/2204.00938)$]$
+* [[Jonathan Weinberger]], *Two-sided cartesian fibrations of synthetic $(\infty,1)$-categories* &lbrack;[arXiv:2204.00938](https://arxiv.org/abs/2204.00938)&rbrack;
 
-* [[Jonathan Weinberger]], *Internal sums for synthetic fibered $(\infty,1)$-categories* $[$[arXiv:2205.00386](https://arxiv.org/abs/2205.00386)$]$
+* [[Jonathan Weinberger]], *Internal sums for synthetic fibered $(\infty,1)$-categories* &lbrack;[arXiv:2205.00386](https://arxiv.org/abs/2205.00386)&rbrack;
 
 * [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
 
@@ -267,6 +265,9 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 * {#GWB26} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The $\infty$-category of $\infty$-categories in simplicial type theory* ([arXiv:2602.02218](https://arxiv.org/abs/2602.02218))
 
 * Benno Lossin, *Fibrations in Directed Type Theory*, [arxiv:2604.18668](https://arxiv.org/abs/2604.18668)
+
+* [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
+
 
 For [[synthetic domain theory]] in simplicial type theory:
 
