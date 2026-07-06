@@ -44,7 +44,7 @@ Let $n \geq 0$ be an integer. The _category of $n$-truncated cubical sets is the
 +-- {: .num_defn}
 ###### Remark
 
-The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] presheaves of sets on this category. Thus we can also think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{n}$.
+The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] of sets on this category. Thus we can also think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{n}$.
 
 =--
 
