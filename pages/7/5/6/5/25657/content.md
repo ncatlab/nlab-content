@@ -67,6 +67,8 @@ $$\mathrm{dua}_{I, A, B}:(I \to A) \simeq \sum_{x:A} \sum_{y:A} B(x) \to B(y)$$
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+* [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
+
 [[!redirects directed univalence]]
 
 [[!redirects directed univalent universe]]
