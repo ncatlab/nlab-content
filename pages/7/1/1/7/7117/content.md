@@ -18,18 +18,18 @@
 
 The concept of _analytic spectrum_ is a realization of the concept of [[spectrum (geometry)]] in the context of [[non-archimedean analytic geometry]]. Given an [[affinoid algebra]] $A$ over a [[non-archimedean field]], then the concept of [[spectrum of a commutative ring]] whose points are [[prime ideals]]/[[maximal ideals]] does not produce a sensible space that admits [[analytic geometry]]. Rather, instead of regarding points of the spectrum as ring homomorphisms to $A \to \mathbb{R}$, the analytic spectrum instead takes points to be multiplicative [[seminorms]] ${\vert -\vert} \colon A \to \mathbb{R}_{\geq 0}$ bounded by the norm on the given field.
 
-If $Spec_{an}(A)$ is the set of all such multiplicative seminorms, then for $x \in Spec_{an}(A)$ a point one writes the corresponding seminorm as ${\vert - \vert}_x$ and thinks of it as being the norm on the function algebra on $Spec(A)$ which is given by "evaluating functions at $x$ and then applying the field norm to that".
+If $Spec_{anal}(A)$ is the set of all such multiplicative seminorms, then for $x \in Spec_{anal}(A)$ a point one writes the corresponding seminorm as ${\vert - \vert}_x$ and thinks of it as being the norm on the function algebra on $Spec(A)$ which is given by "evaluating functions at $x$ and then applying the field norm to that".
 
-One turns this $Spec_{an}(A)$ into a [[topological space]] in the usual way by choosing the weakest topology such that under this assignment the original elements of $A$ become [[continuous function]] on $Spec_{an}(A)$.
+One turns this $Spec_{anal}(A)$ into a [[topological space]] in the usual way by choosing the weakest topology such that under this assignment the original elements of $A$ become [[continuous function]] on $Spec_{anal}(A)$.
 
 Globalizing this analytic spectrum construction leads to the concept of [[Berkovich analytic space]].
  
 ## Definition
 
-For $A$ a [[normed ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
+For $A$ a [[normed ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_{anal} A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
 
 $$
-  Spec_{an} A \to \mathbb{R}_+
+  Spec_{anal} A \to \mathbb{R}_+
 $$
 
 of the form 
@@ -73,7 +73,7 @@ $$
 For $k$ a [[field]] and $k[T]$ the [[polynomial ring]] over $k$ in one generator, 
 
 $$
-  \mathbb{A}_k := Spec_{an} k[T]
+  \mathbb{A}_k := Spec_{anal} k[T]
 $$
 
 is the [[analytic affine line]] over $k$.
