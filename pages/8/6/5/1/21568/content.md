@@ -45,4 +45,10 @@ Dissertation on [[higher inductive types]] in [[cubical type theory]]:
 
 * [[Evan Cavallo]], *Higher Inductive Types and Internal Parametricity for Cubical Type Theory* (2021). Ph. D. Dissertation. Carnegie Mellon University, USA. &lbrack;[doi:10.1184/r1/14555691](https://doi.org/10.1184/r1/14555691)&rbrack;
 
+On the [[directed univalence axiom]] in [[simplicial homotopy type theory]]:
+
+* [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
+
+
+
 category: people
