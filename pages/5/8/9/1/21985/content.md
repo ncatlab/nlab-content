@@ -112,6 +112,11 @@ Enhancement to an equivalence between [[mapping spaces]] and [[moduli spaces]] o
 
 * {#AyalaFrancis2025} [[David Ayala]], [[John Francis]]: *A parametrized Pontryagin-Thom theorem* \[<a href="https://arxiv.org/abs/2512.10274">arXiv:2512.10274</a>\]
 
+See also:
+
+* Kenneth Blakey, Liam Keenan: *A homotopy coherent Pontryagin-Thom isomorphism* \[<a href="https://arxiv.org/abs/2607.01482">arXiv:2607.01482</a>\]
+
+
 
 
 #### Lashof's construction
