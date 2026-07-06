@@ -888,105 +888,7 @@ and to an approach in which a Lipschitz function is used, to the effect that thi
 $$
 \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2) \parallel_2 \le C \cdot \parallel x_1 - x_2 \parallel_2
 $$
-This is the approach used in [[#Rudin1976]].
-
-This requires ...
-https://ncatlab.org/nlab/show/Lipschitz+map
-
-\begin{theorem}\label{continuouslydifferentiableLipschitzfunction} (an equivalent condition for a continuously differentiable function defined on an open ball to be Lipschitz) fix $x_0 \in \mathbb{R}^n$ and a positive real number $\delta$. 
-
-Let $f = (f_1,...,f_n) : B_{\delta}(x_0) \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Then $f = (f_1,...,f_n)$ is Lipschitz with Lipschitz constant $C$ if and only if, for each $x \in B_{\delta}(x_0)$, the Jacobian derivative $Df(x)$ of $f$ at $x$ satisfies $  \parallel Df(x)  \parallel_2 \leq C$.
-\end{theorem}
-
-\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \le \delta$ and $  \parallel x_2 - x_0  \parallel_2 \le \delta$, there is an inequality of
-
-$$
-\begin{aligned}
-\|y_1+t(y_2-y_1)\|_2
-&=\|(1-t)y_1+ty_2\|_2\\
-&\le \|(1-t)y_1\|_2+\|ty_2\|_2\\
-&=(1-t)\|y_1\|_2+t\|y_2\|_2\\
-&=(1-t)\delta+t\delta\\
-&=\delta.
-\end{aligned}
-$$
-
-from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \leq $
-let $\gamma_{x_0,\delta, x_1,  x_2} : [0,1] \rightarrow B_{\delta}(x_0)$ be the continuously differentiable function sending $t$ to $x_1 + t \cdot (x_2 - x_1)$.
-
-By the chain rule for continuously differentiable functions, $D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) = Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)$.
-
-If $  \parallel Df(x)  \parallel _2 \leq C$ for each $x \in \mathbb{R}^n$, then we have
-
-$$
-\begin{aligned}
- &   \parallel  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t)   \parallel _2 \\
- =\ &   \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\
- \leq \ &    \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t))  \parallel _2 \cdot   \parallel  D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\ 
- \leq \ & C  \cdot   \parallel x_2 - x_1  \parallel _2
-\end{aligned}
-$$
-
-so
-
-$$
-\begin{aligned}
-\ &   \parallel f(x_2) - f(x_1)  \parallel _2\  \\
-=\ & \left| \left| \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
-\leq \ & \int_0^1 \left| \left|  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
-\ \leq \ & \int_0^1 C \cdot \left| \left| x_2 - x_1  \right| \right|_2 dt  \\
-\ = \ & C \cdot   \parallel x_2 - x_1   \parallel _2 
-\end{aligned}
-$$
-
-where we have used that, for the continuous function 
-
-$$
-D(f \circ \gamma_{x_0,\delta,x_1,x_2}) = \left( D(f \circ \gamma_{x_0,\delta,x_1,x_2})_1,...,D(f \circ \gamma_{x_0,\delta,x_1,x_2})_n \right) : \text{[0,1]} \rightarrow \mathbb{R}^n
-$$
-
-that
-
-$$
-\parallel \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2}) dt \parallel_2 \leq \int_0^1   \parallel D(f \circ \gamma_{x_0,\delta,x_1,x_2})  \parallel_2 dt
-$$
-
-This proves that $f$ is Lipschitz with Lipschitz constant $C$.
-
-Conversely, if $f$ is Lipschitz with Lipschitz constant $C$, then fixing $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \le  \delta$ and any positive real number $\epsilon$, there is a positive real number $\delta'$ such that $B_{\delta'}(x) \subseteq B_{\delta}(x_0)$ and 
-
-$$
-\begin{aligned}
-\forall y \in B_{\delta'}(x), \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \le  \epsilon
-\end{aligned}
-$$
-
-Since $f$ is Lipschitz with Lipschitz constant $C$, 
-
-$$
-\frac{  \parallel f(y) - f(x)  \parallel _2}{  \parallel y - x  \parallel _2}  \leq C
-$$
-
-From this calculate that
-
-$$
-\begin{aligned}
-&  \frac{ \left| \left| Df(x)(y-x) \right| \right|_2 }{   \parallel y-x  \parallel _2 }   \\
-\leq\ &   \frac{  \parallel  f(y) - f(x)  \parallel _2 }{  \parallel y - x  \parallel _2 }  + \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \\
-\leq\ & C + \epsilon
-\end{aligned}
-$$
-
-Since this holds for each positive real number $\epsilon$, it follows that
-
-$$
-  \parallel Df(x)  \parallel _2 = \mathrm{sup} \left\{ \frac{  \parallel Df(x)(y-x)  \parallel_2}{  \parallel y-x  \parallel_2} : y \in \mathbb{R}^n - \{ x \} \right\} \leq C
-$$
-
-for each $y \in B_{\delta'}(x)$. This is (2) of the claim.
-\end{proof}
-
-
+This is the approach used in [[#Rudin1976|Rudin (1976)]]. These are associated to the operators in Newton's method as well:
 
 \begin{definition} (the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible.
 
@@ -1006,19 +908,24 @@ $N_{f,x_0,y}$ is continuously differentiable. Indeed, $N_{f,x_0,y}$ can be const
 * the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 * the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-\item the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
+
+* the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
 
 Using composition, summation, and additive negation.
 \end{definition}
 
-Since summation 
+Since summation
+
 $$
-+ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n
++\ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n
 $$
+
 \noindent and additive negation
+
 $$
-- : \mathbb{R}^n \rightarrow \mathbb{R}^n
+-\ : \mathbb{R}^n \rightarrow \mathbb{R}^n
 $$
+
 are continuous functions, we can rephrase the above as reducing the property of $N_{f,x_0,y}$ that it be continuously differentiable to the property that the following are continuously differentiable:
 
 *  the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
@@ -1033,6 +940,14 @@ are continuous functions, we can rephrase the above as reducing the property of 
 * additive negation of elements of $\mathbb{R}^n$, $- : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 and the theorem that the composition of continuously differentiable functions $f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_2}$ and $f_2 : \mathbb{R}^{n_2} \rightarrow \mathbb{R}^{n_3}$ that $f_2 \circ f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_3}$ is continuously differentiable.
+
+These operators form part of a proof in which 
+
+* the existence and uniqueness of pre-images of elements is related to the existence and uniqueness of fixed points of the associated operator
+
+* the existence and uniqueness of fixed points of each associated operator are controlled by its contractive properties
+
+The following spells out these properties:
 
 \begin{lemma} (fixed points of the Newton approximator are preimages of $y$ under $f$) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. For each $x \in \mathbb{R}^n$, the following are equivalent:
 
@@ -1051,11 +966,10 @@ $$
 &\Leftrightarrow Df(x_0)^{-1}(y - f(x)) = 0 \\
 &\Leftrightarrow Df(x_0)\, \left( Df(x_0)^{-1}(y - f(x)) \right) = 0 \\
 &\Leftrightarrow y - f(x) = 0 \\
-&\Leftrightarrow f(x) = y
 \end{aligned}
 $$
-
 \end{proof}
+
 
 \begin{lemma} (the derivative of the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. Then the derivative $DN_{f,x_0,y}(x)$ of the continuously differentiable function $N_{f,x_0,y} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ is 
 
@@ -1121,59 +1035,117 @@ which implies that, for each $x \in U$
 
 $$
 \begin{aligned}
-     & \left| \left| \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) \right| \right|_2 \\
-\leq\ & \left| \left| Df(x_0)^{-1} \cdot (Df(x_0) - Df(x)) \right| \right|_2 \\
-\leq\ & \left| \left| Df(x_0)^{-1} \right| \right|_2 \cdot \left| \left| Df(x_0) - Df(x) \right| \right|_2  \\
+     & || \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) ||_2 \\
+\leq\ & || Df(x_0)^{-1} \cdot (Df(x_0) - Df(x)) ||_2 \\
+\leq\ & ||Df(x_0)^{-1} ||_2 \cdot \left| \left| Df(x_0) - Df(x) \right| \right|_2  \\
  \le \ &   \left| \left| Df(x_0)^{-1} \right| \right|_2 \cdot \frac{\epsilon}{ \left| \left| Df(x_0)^{-1} \right| \right|_2} \\
-=\ & \epsilon
+=\ & \epsilon \\
 \end{aligned}
 $$
 
+The operators are contractions on the basis of bounds on their derivatives:
 
+\begin{theorem} (an equivalent condition for a continuously differentiable function defined on an open ball to be Lipschitz) fix $x_0 \in \mathbb{R}^n$ and a positive real number $\delta$. 
 
-\begin{lemma} let $C$ a positive real number. Then $C$ is strictly smaller than $\frac{1}{2}$ if and only if
-$$
-\sum_{i=1}^{\infty} C^i  \le  1
-$$
-\end{lemma}
+Let $f = (f_1,...,f_n) : B_{\delta}(x_0) \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Then $f = (f_1,...,f_n)$ is Lipschitz with Lipschitz constant $C$ if and only if, for each $x \in B_{\delta}(x_0)$, the Jacobian derivative $Df(x)$ of $f$ at $x$ satisfies $  \parallel Df(x)  \parallel_2 \leq C$.
+\end{theorem}
 
-\begin{proof} let $C$ be a positive real number. For each $n \in \mathbb{N}$, we have
+\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \le \delta$ and $  \parallel x_2 - x_0  \parallel_2 \le \delta$, there is an inequality of
+
 $$
 \begin{aligned}
-  & (1-C) \cdot \sum_{i = 1}^{n} C^{i}  \\
-= & \sum_{i = 1}^n C^{i} - C \cdot \sum_{i=1}^n C^{i} \\
-= & \sum_{i=1}^n C^{i} - \sum_{i=2}^{n+1} C^{i}  \\
-= & C \cdot (1 - C^{n})
+\|y_1+t(y_2-y_1)\|_2
+&=\|(1-t)y_1+ty_2\|_2\\
+&\le \|(1-t)y_1\|_2+\|ty_2\|_2\\
+&=(1-t)\|y_1\|_2+t\|y_2\|_2\\
+&=(1-t)\delta+t\delta\\
+&=\delta \\
 \end{aligned}
 $$
-If $C$ is $1$, then $\sum_{i =1}^{\infty} C^i = \sum_{i= 1}^{\infty} 1 = \infty$ does not converge and $C$ is not strictly less than $1/2$. 
 
-To proceed, assume $C \neq 1$. Dividing by $1 - C$, one obtains 
-$$
-\sum_{i= 1}^n C^i =  \frac{C - C^{n}}{1 - C}
-$$
-\noindent and from this one obtains 
-$$
-\sum_{i= 1}^{\infty} C^i = \frac{C}{1 - C} 
-$$
-We calculate
+from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \leq $
+let $\gamma_{x_0,\delta, x_1,  x_2} : [0,1] \rightarrow B_{\delta}(x_0)$ be the continuously differentiable function sending $t$ to $x_1 + t \cdot (x_2 - x_1)$.
+
+By the chain rule for continuously differentiable functions, $D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) = Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)$.
+
+If $  \parallel Df(x)  \parallel _2 \leq C$ for each $x \in \mathbb{R}^n$, then we have
+
 $$
 \begin{aligned}
- & \sum_{i= 1}^{\infty} C^i  \le  1 \\
-\leftrightarrow\ & \frac{C}{1 - C}   \le  1 \\
-\leftrightarrow\ & C  \le  1-C \\
-\leftrightarrow\ & 2C  \le  1 \\
-\leftrightarrow\ & C  \le  \frac{1}{2}
+ &   \parallel  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t)   \parallel _2 \\
+ =\ &   \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\
+ \leq \ &    \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t))  \parallel _2 \cdot   \parallel  D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\ 
+ \leq \ & C  \cdot   \parallel x_2 - x_1  \parallel _2 \\
 \end{aligned}
 $$
+
+so
+
+$$
+\begin{aligned}
+\ &   \parallel f(x_2) - f(x_1)  \parallel _2\  \\
+=\ & \parallel \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \parallel_2 \\
+\leq \ & \int_0^1 \parallel D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \parallel_2 \\
+\ \leq \ & \int_0^1 C \cdot \left| \left| x_2 - x_1  \right| \right|_2 dt  \\
+\ = \ & C \cdot   \parallel x_2 - x_1   \parallel _2 
+\end{aligned}
+$$
+
+where we have used that, for the continuous function 
+
+$$
+D(f \circ \gamma_{x_0,\delta,x_1,x_2}) = \left( D(f \circ \gamma_{x_0,\delta,x_1,x_2})_1,...,D(f \circ \gamma_{x_0,\delta,x_1,x_2})_n \right) : \text{[0,1]} \rightarrow \mathbb{R}^n
+$$
+
+that
+
+$$
+\parallel \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2}) dt \parallel_2 \leq \int_0^1  || D(f \circ \gamma_{x_0,\delta,x_1,x_2}) ||_2 dt
+$$
+
+This proves that $f$ is Lipschitz with Lipschitz constant $C$.
+
+Conversely, if $f$ is Lipschitz with Lipschitz constant $C$, then fixing $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \le  \delta$ and any positive real number $\epsilon$, there is a positive real number $\delta'$ such that $B_{\delta'}(x) \subseteq B_{\delta}(x_0)$ and 
+
+$$
+\begin{aligned}
+\forall y \in B_{\delta'}(x), \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \le  \epsilon
+\end{aligned}
+$$
+
+Since $f$ is Lipschitz with Lipschitz constant $C$, 
+
+$$
+\frac{  \parallel f(y) - f(x)  \parallel _2}{  \parallel y - x  \parallel _2}  \leq C
+$$
+
+From this calculate that
+
+$$
+\begin{aligned}
+&  \frac{ \left| \left| Df(x)(y-x) \right| \right|_2 }{   \parallel y-x  \parallel _2 }   \\
+\leq\ &   \frac{  \parallel  f(y) - f(x)  \parallel _2 }{  \parallel y - x  \parallel _2 }  + \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \\
+\leq\ & C + \epsilon\\
+\end{aligned}
+$$
+
+Since this holds for each positive real number $\epsilon$, it follows that
+
+$$
+ || Df(x) ||_2 = \mathrm{sup} \left\{ \frac{  \parallel Df(x)(y-x)  \parallel_2}{  \parallel y-x  \parallel_2} : y \in \mathbb{R}^n - \{ x \} \right\} \leq C
+$$
+
+for each $y \in B_{\delta'}(x)$. This is (2) of the claim.
 \end{proof}
 
+In this approach 
 
 \begin{theorem} (inverse function theorem) let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Fix $x_0 \in \mathbb{R}^n$ and write $y_0$ for $f(x_0)$. If the Jacobian derivative $Df(x_0) : \mathbb{R}^n \rightarrow \mathbb{R}^n$ of $f$ at $x_0 \in \mathbb{R}^n$ is invertible, then there are positive real numbers $\delta$ and $\epsilon$ such that
-\begin{enumerate}
-\item for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$
-\item for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel  x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$
-\end{enumerate}
+
+* for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$
+
+* for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel  x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$
+
 Note that (1) and (2) imply the resulting $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0))} : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$ is both injective and surjective.
 \end{theorem}
 
@@ -1205,12 +1177,11 @@ $$
 =\     &   \parallel Df(x_0)^{-1} \cdot Df(x_0) - Df(x_0)^{-1} \circ Df(x)  \parallel _2 \\
 =\     &   \parallel Df(x_0)^{-1} \cdot ( Df(x_0) - Df(x) )  \parallel _2 \\
 \leq\  &   \parallel Df(x_0)^{-1}   \parallel _2  \cdot   \parallel  Df(x_0) - Df(x)   \parallel _2 \\
- \le  \    &   \parallel Df(x_0)^{-1}   \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C \\
-= \ & C
+ \leq\  &   \parallel Df(x_0)^{-1}   \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel {}_2 {}^{-1} \cdot C =  C \\
 \end{aligned}
 $$
 
-In lemma \ref{continuouslydifferentiableLipschitzfunction}, it was demonstrated that this implies that, for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $  \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2)  \parallel _2 \leq C \cdot   \parallel x_1 - x_2  \parallel _2$. 
+In the above, it was demonstrated that this implies that, for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $  \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2)  \parallel _2 \leq C \cdot   \parallel x_1 - x_2  \parallel _2$. 
 
 Suppose for a contradiction that $x_1, x_2 \in \mathbb{R}^n$ with $x_1 \neq x_2$ are such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, and satisfy $f(x_1) = f(x_2)$. Writing $y$ for this value, we have $N_{f,x_0,y}(x_1) = x_1$ and $N_{f,x_0,y}(x_2) = x_2$ by lemma \ref{fixedpointoftheNewtonapproximator}.
 
@@ -1246,8 +1217,7 @@ $$
 =\ &   \parallel \mathrm{Id}_{\mathbb{R}^n} - (Df(x_0)^{-1} \cdot Df(x))  \parallel _2 \\
 =\ &   \parallel Df(x_0)^{-1} \cdot (Df(x_0) - Df(x))  \parallel _2 \\
 =\ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel Df(x_0) - Df(x)  \parallel _2 \\
- \le  \ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C \\
-= \ & C
+ \le\ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C = \  C\\
 \end{aligned}
 $$
 
@@ -1268,12 +1238,11 @@ To see (2), we calculate that:
 
 $$
 \begin{aligned}
-      &   \parallel N_{f,x_0,y}(x_0) - x_0  \parallel _2 \\
-=\    &   \parallel Df(x_0)^{-1}(y-y_0)  \parallel _2 \\
-\leq\ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel y - y_0  \parallel _2 \\
-=\ &    \parallel Df(x_0)^{-1}  \parallel _2 \cdot \epsilon \\
- \le \ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot \delta \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \\
-= \ & C \cdot \delta
+     &    \parallel N_{f,x_0,y}(x_0) - x_0  \parallel _2 \\
+=\  &     \parallel Df(x_0)^{-1}(y-y_0)  \parallel _2 \\
+\leq\   &  \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel y - y_0  \parallel _2  \\
+=\  &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot \epsilon \\
+ \le\  &  \parallel Df(x_0)^{-1}  \parallel _2 \cdot \delta \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1}  = C \cdot \delta \\
 \end{aligned}
 $$
 
@@ -1293,7 +1262,7 @@ $$
      \ &   \parallel x_{n+1} - x_0   \parallel _2 \\
 \leq \ &   \parallel x_n - x_0  \parallel _2 +   \parallel x_{n+1} - x_n   \parallel _2\\
 \leq \ & \left( \sum_{ i = 1}^{n} C^{i} \cdot \delta \right) +  C^{n+1} \cdot \delta \\
-    \le  \ & \sum_{i = 1}^{n+1}  C^{i} \cdot \delta
+    \le  \ & \sum_{i = 1}^{n+1}  C^{i} \cdot \delta\\
 \end{aligned}
 $$
 
@@ -1302,7 +1271,7 @@ This implies (1).
 For each $n \in \mathbb{N}$,
 
 $$
-  \parallel x_{n+1} - x_0  \parallel _2  \le  \sum_{i = 1}^{n+1} C^{i} \cdot \delta  \le  \delta
+  | | x_{n+1} - x_0 | | {}_2  \le  \sum_{i = 1}^{n+1} C^{i} \cdot \delta  \le  \delta
 $$
 
 For each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, 
@@ -1318,7 +1287,7 @@ $$
      &   \parallel  x_{n+2} - x_{n+1}   \parallel _2  \\
 \leq\ &   \parallel x_{n+1} - x_{n}  \parallel _2 \cdot C \\
 \leq\ & C^{n+1} \cdot C \cdot \delta \\
-=\    & C^{n+2} \cdot \delta
+=\    & C^{n+2} \cdot \delta\\
 \end{aligned}
 $$
 
@@ -1326,6 +1295,12 @@ This implies (2).
 \end{proof}
 
 Take note that this proof does not demonstrate that $f(B_{\delta}(x_0))$ is open. Instead, it shows that there is a bijective $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0)) } : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$. 
+
+
+
+
+
+
 
 * {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
 
