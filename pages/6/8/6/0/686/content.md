@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea 
@@ -169,7 +168,7 @@ Original articles on Cat-enriched weighted limits:
 
 * {#Street76} [[Ross Street]], _Limits indexed by category-valued 2-functors_, Journal of Pure and Applied Algebra Volume 8, Issue 2, June 1976, Pages 149-181 (<a href="https://doi.org/10.1016/0022-4049(76)90013-X">doi:10.1016/0022-4049(76)90013-X</a>)
 
-* {#Kelly89} [[Max Kelly]], *Elementary observations on 2-categorical limits*, Bulletin of the Australian Mathematical Society, 39(2), 301-317 ([doi:10.1017/S0004972700002781](https://doi.org/10.1017/S0004972700002781), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C14F8C3C46D45BCEC748660630EA7535/S0004972700002781a.pdf/div-class-title-elementary-observations-on-2-categorical-limits-div.pdf))
+* {#Kelly89} [[Max Kelly]]: *Elementary observations on 2-categorical limits*, Bulletin of the Australian Mathematical Society **39** 2 (1989) 301--317 &lbrack;[doi:10.1017/S0004972700002781](https://doi.org/10.1017/S0004972700002781), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C14F8C3C46D45BCEC748660630EA7535/S0004972700002781a.pdf/div-class-title-elementary-observations-on-2-categorical-limits-div.pdf)&rbrack;
 
 Review and list of examples:
 
