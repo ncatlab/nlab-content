@@ -121,6 +121,12 @@ On [[synthetic homotopy theory]] via [[simplicial type theory]]:
 
 * [[Emily Riehl]], _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
+On the [[directed univalence axiom]] in [[simplicial homotopy type theory]]:
+
+* [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
+
+
+
 category: people
 
 [[!redirects Riehl]]
