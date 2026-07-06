@@ -45,6 +45,10 @@ On the [[universal fibration of (infinity,1)-categories]]:
 
 * [[Christian Sattler]], [[David Wärn]]: *A synthetic construction of universal cocartesian fibrations* &lbrack;[arXiv:2603.28688](https://arxiv.org/abs/2603.28688)&rbrack;
 
+On the [[directed univalence axiom]] in [[simplicial homotopy type theory]]:
+
+* [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
+
 
 
 ## Related entries
