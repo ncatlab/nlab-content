@@ -27,7 +27,44 @@ topological orders in any phase are $\mathscr{H} \in Loc_{\mathbb{C}}\big(Map(T^
 
 functorial at least in diffeos of $T^d$ (modular functor)
 
-find geometric engineering
+$\mathscr{H} \in Loc_{\mathbb{C}}\big(Map(T^d, \mathcal{A})\sslash Diff(T^d) \big)$
+
+for crystalline structure use equivariant maps
+
+translate to TFT language
+
+$$
+  \mathbb{1}
+    \longrightarrow
+  Loc_{\mathbb{C}}\big(
+    Map(-, \mathcal{A})
+    \sslash 
+    Diff(T^d)
+  \big)
+  \;\colon\;
+  B Diff(T^d)
+  \longrightarrow 
+  Vec Mod
+$$
+
+
+in experiment, such FQ(A)H systems are governed by two effective symmetries
+
+* supersymmetry
+
+* area-preserving diffeomorphisms ($W_\infty$)
+
+same as characteristic symmetries of super $p$-branes
+
+$\rightsquigarrow$ find geometric engineering on M-branes in SuGra
+
+$\rightsquigarrow$ need global IR-completion where topological brane charges are determined
+
+(no string folklore, but actual definitions and proofs)
+
+...
+
+magnetized M5 @ A1
 
 
 ***
