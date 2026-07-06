@@ -41,9 +41,7 @@ A _topological group_ is
 
    1. a function $(-)^{-1} \;\colon\; G \to G$ such that $g \cdot g^{-1} = e = g^{-1} \cdot g$ for all $g \in G$;
 
-1. a topology $\tau_G \subset P(G)$ giving $G$ the structure of a [[topological space]]
-
-such that the operations $(-)^{-1}$ and $(-)\cdot (-)$ are [[continuous functions]] (the latter with respect to the [[product topology]]).
+1. a topology $\tau_G \subset P(G)$ giving $G$ the structure of a [[topological space]] such that the operations $(-)^{-1}$ and $(-)\cdot (-)$ are [[continuous functions]] (the latter with respect to the [[product topology]]).
 
 =--
 
