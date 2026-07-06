@@ -2,12 +2,16 @@ __Gregory Maxwell Kelly__ (1930-2007) was a [[category theory|category theorist]
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Max_Kelly)
 
+* [MacTutor Biography](https://mathshistory.st-andrews.ac.uk/Biographies/Kelly_Max/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=32935)
 
 ## Selected writings
 
 Precursor discussion towards the notion of [[enriched categories]]:
 
 * [[Gregory Maxwell Kelly]]. _Tensor products in categories_. Journal of Algebra **2** 1 (1965) 15-37 &lbrack;<a href="https://doi.org/10.1016/0021-8693(65)90022-0">doi:10.1016/0021-8693(65)90022-0</a>&rbrack;
+
 
 Introducing the notion of [[closed categories]]:
 
@@ -44,6 +48,10 @@ The [[coherence theorem]] for [[compact closed categories]] (cf. *[[coherence th
 Proof that the [[funny tensor product]] of [[categories]] is the only other [[symmetric closed monoidal category|symmetric closed monoidal structure]] on [[Cat]] besides the [[cartesian monoidal category|cartesian monoidal structure]]:
 
 * {#FoltzLairKelly80} [[François Foltz]], [[Christian Lair]], [[G. M. Kelly]], *Algebraic categories with few monoidal biclosed structures or none*, Journal of Pure and Applied Algebra **17** 2 (1980) 171-177 &lbrack;[pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>&rbrack;
+
+On [[strict 2-limits]]:
+
+* {#Kelly89} [[Max Kelly]]: *Elementary observations on 2-categorical limits*, Bulletin of the Australian Mathematical Society **39** 2 (1989) 301--317 &lbrack;[doi:10.1017/S0004972700002781](https://doi.org/10.1017/S0004972700002781), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C14F8C3C46D45BCEC748660630EA7535/S0004972700002781a.pdf/div-class-title-elementary-observations-on-2-categorical-limits-div.pdf)&rbrack;
 
 
 On [[enriched category theory]]:
@@ -104,6 +112,9 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
  * [[G. M. Kelly]], [[Stephen Lack]], _On the monadicity of categories with chosen colimits_, Theory and Applications of Categories **7** 7 (2000) 148-170 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n7/7-07abs.html)&rbrack;
 
  * [[Jiří Adámek]], [[G. M. Kelly]], _$M$-Completeness is seldom monadic over graphs_, Theory and Applications of Categories **7** 8 (2000) 171-205 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n8/7-08abs.html)&rbrack;
+
+
+
 
 ## Further publications
 
@@ -168,7 +179,6 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 1. On the ordered set of reflective subcategories, Bulletin Austral. Math. Soc. 36 (1987) 137–152.
 
 
-1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
 
 1. (with A. Carboni and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms I, Cahiers de topologieet géométrie différentielle catégoriques 32 (1991) 47–95.
