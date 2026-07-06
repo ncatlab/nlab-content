@@ -49,7 +49,7 @@ of the underlying groups such that there is $C \in \mathbb{R}_{\geq 0} $
 such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq C\cdot\rho_1(g)$.
 
 A __short homomorphism__ $(G_1,\rho_1)\to (G_2,\rho_2)$ of normed groups is a group homomorphism $f \colon G_1 \to G_2$
-of the underlying groups such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq \cdot\rho_1(g)$.
+of the underlying groups such that for all $g\in G_1$ we have $\rho_2(f(g)) \leq \rho_1(g)$.
 =--
 
 +-- {: .num_remark }
