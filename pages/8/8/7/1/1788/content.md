@@ -62,6 +62,8 @@ $\rightsquigarrow$ need global IR-completion where topological brane charges are
 
 (no string folklore, but actual definitions and proofs)
 
+compare IR completion of Maxwell: $B^2 \mathbb{Z} \times B^2 \mathbb{R}$ and use Deligne complex...
+
 ...
 
 magnetized M5 @ A1
