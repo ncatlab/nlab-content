@@ -41,6 +41,8 @@ Unbounded prelattices are important because given any ordered field $K$ with unb
 
 * [[prelattice object]]
 
+* [[lattice]]
+
 ## References
 
 * [[Franco Montagna]], [[Andrea Sorbi]], *Universal recursion theoretic properties of r.e. preordered structures*, Journal of Symbolic Logic. 1985;50(2):397-406. &lbrack;[doi:10.2307/2274228](https://doi.org/10.2307/2274228)&rbrack;
