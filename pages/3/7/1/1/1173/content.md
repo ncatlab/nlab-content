@@ -42,17 +42,19 @@ Since the opposite of a join-semilattice is a meet-semilattice, it would be poss
 
 If a poset is both a join- *and* a meet-semilattice, then we call it a [[lattice]].
 
+### Bounded and unbounded semilattices
 
-### Bounded semilattices and semipseudolattices
- {#BoundedAndPseudo}
+There is also the question of whether semilattices are bounded or not, in the sense of a [[bounded lattice]]. With the algebraic definition of a semilattice, one could either assume that semilattices have [[neutral elements]] $1$ or [[absorbing elements]] $0$ or both. In the order-theoretic definition, one can assume that semilattices have [[top elements]] or [[bottom elements]] or both. This yields four different kinds of semilattices: 
 
-Traditionally, a semilattice need have only finite [[inhabited set|inhabited]] meets/joins; that is, it need not have a top/bottom element.  Algebraically, this means that a semilattice need not be a monoid, but is any commutative idempotent [[semigroup]].
+* those semilattices without either neutral elements or absorbing elements are **unbounded semilattices** or **pseudosemilattices**.  
 
-One might call a semilattice that does have a top/bottom element a __bounded semilattice__; the problem with this is that a [[bounded poset]] already means a poset that has both top *and* bottom elements, whereas here we really only want to require one.
+* those semilattices with only neutral elements are **bounded semilattices**  
 
-Another approach is to define a semilattice, as above, to require a top/bottom element and then use the term __pseudosemilattice__ or __semipseudolattice__ to allow for the possibility that it might not.
+* those semilattices with only absorbing elements do not seem to have a name in the literature, but are still bounded from the opposite direction. 
 
-See [[lattice]] for more discussion of this issue.
+* those semilattices with both neutral and absorbing elements are **[[01-bounded semilattices]]**
+
+In a join-semilattice, the [[top element]], if it exists, is a [[neutral element]] and the [[bottom element]], if it exists, is an [[absorbing element]] for the [[join]] operation. Likewise, in a meet-semilattice, the [[bottom element]], if it exists, is a [[neutral element]] and the [[top element]], if it exists, is an [[absorbing element]] for the [[meet]] operation. 
 
 ### Semilattice homomorphisms
 
@@ -139,3 +141,12 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 [[!redirects bounded join-semilattice]]
 [[!redirects bounded join-semilattices]]
+
+[[!redirects unbounded semilattice]]
+[[!redirects unbounded semilattices]]
+
+[[!redirects unbounded meet-semilattice]]
+[[!redirects unbounded meet-semilattices]]
+
+[[!redirects unbounded join-semilattice]]
+[[!redirects unbounded join-semilattices]]
