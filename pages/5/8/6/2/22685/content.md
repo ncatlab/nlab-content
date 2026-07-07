@@ -30,6 +30,10 @@ A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zer
 
 * [[rig]], [[ring]], [[lattice]], [[integral domain]] [[field]]
 
+## References
+
+* Wikipedia, *[Abosrbing element](https://en.wikipedia.org/wiki/Absorbing_element)*
+
 [[!redirects absorption magmas]]
 [[!redirects annihilation magma]]
 [[!redirects annihilation magmas]]
@@ -37,3 +41,6 @@ A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zer
 [[!redirects integral magmas]]
 [[!redirects division magma]]
 [[!redirects division magmas]]
+
+[[!redirects absorbing element]]
+[[!redirects absorbing elements]]
