@@ -19,7 +19,7 @@
 =--
 
 
-#Comtents#
+#Contents#
 * table of contents
 {:toc}
 
