@@ -193,8 +193,12 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 [[!redirects pre-orders]]
 [[!redirects proset]]
 [[!redirects prosets]]
+
+[[!redirects preordered]]
 [[!redirects preordered set]]
 [[!redirects preordered sets]]
+
+[[!redirects pre-ordered]]
 [[!redirects pre-ordered set]]
 [[!redirects pre-ordered sets]]
 
