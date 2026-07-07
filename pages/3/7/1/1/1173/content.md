@@ -102,6 +102,40 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 * [[01-bounded semilattice]]
 
+## In dependent type theory
+
+In [[dependent type theory]], one can consider a type with a binary operation satisfying the equational axioms of a [[semilattice]] without postulating that the algebraic structure is an [[h-set]], hence a higher semilattice in the sense of [[higher algebra]]. 
+
+However, [Wärn 2026](#Wärn26), [Escardo 2026](#Escardo26), and [de Jong 2026](#deJong26) have all shown that any type $T$ with a binary operation $\lambda x, y:T.x \cdot y$ on $T$ that is 
+
+1. associative in the sense that the type $\prod_{x, y, z:T} (x \cdot y) \cdot z = x \cdot (y \cdot z)$ has an element
+
+1. commutative in the sense that the type $\prod_{x, y:T} x \cdot y = y \cdot x$ has an element
+
+1. idempotent in the sense that the type $\prod_{x:T} x \cdot x = x$ has an element
+
+is automatically an [[h-set]] and thus an algebraic [[semilattice]]. Hence, every higher semilattice is a semilattice in the set-theoretic sense. 
+
+This also implies that, unlike most mathematical structures, neither the algebraic definition of a semilattice nor the order-theoretic definitions of a join-semilattice or a meet-semilattice requires explicit [[set-truncation]] in the definition of a semilattice in dependent type theory; instead, the fact that semilattices are sets can be proven from the definitions themselves. This implies that many other algebraic structures, such as 
+
+* [[lattices]], [[total orders]]
+
+* [[sigma-frames|$\sigma$-frames]], [[frames]]
+
+* [[Boolean algebras]], [[Heyting algebras]]
+
+* [[additively idempotent semirings]]
+
+* [[commutative semiring|commutative]] and [[multiplicatively idempotent semirings]], 
+
+* [[Boolean rings]]
+
+* [[lattice ordered abelian groups]], [[totally ordered abelian groups]]
+
+* [[lattice ordered rings]], [[totally ordered rings]]
+
+can also be defined without explicit [[set-truncation]] in [[dependent type theory]], as they all carry in one way or another an associative, commutative, and idempotent binary operation. 
+
 ## Related concepts
 
 * [[band]], [[idempotent monoid]]
@@ -121,6 +155,14 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 See also:
 
 * Wikipedia: *[Semilattice](https://en.wikipedia.org/wiki/Semilattice)*
+
+On higher semilattices automatically being sets:
+
+* {#Wärn26} [[David Wärn]]. *Idem*, [[Agda]] code, 17 February 2026 &lbrack;[web](https://dwarn.se/agda/Idem.html)&rbrack;
+
+* {#Escardo26} [[Martin Escardo]], *AlgebraicStructuresForcingSethood.Semilattices*, [[Agda]] code, 23 February 2026 &lbrack;[web](https://martinescardo.github.io/TypeTopology/AlgebraicStructuresForcingSethood.Semilattices.html)&rbrack;
+
+* {#deJong26} [[Tom de Jong]], *AlgebraicStructuresForcingSethood.Semilattices-streamlined*, [[Agda]] code, 27 February 2026 &lbrack;[web](https://martinescardo.github.io/TypeTopology/AlgebraicStructuresForcingSethood.Semilattices-streamlined.html)&rbrack;
 
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
