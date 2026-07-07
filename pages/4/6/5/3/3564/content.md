@@ -46,11 +46,18 @@ However, in contexts where there _is_ a separately provided relevant notion of e
 
 ## References
 
+* [[Uri Andrews]], [[Andrea Sorbi]], *Effective Inseparability, Lattices, and Preordering Relations*, The Review of Symbolic Logic. 2021;14(4):838-865. &lbrack;[doi:10.1017/S1755020319000273](https://doi.org/10.1017/S1755020319000273), [arXiv:1901.06136](https://arxiv.org/abs/1901.06136)&rbrack;
+
 Section 4.1 of:
 
 * [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
+[[!redirects Heyting prealgebra]]
 [[!redirects Heyting prealgebras]]
+
+[[!redirects Heyting pre-algebra]]
+[[!redirects Heyting pre-algebras]]
+
 [[!redirects bicartesian closed preorder]]
 [[!redirects bicartesian closed preorders]]
 [[!redirects bicartesian closed preordered set]]
