@@ -173,6 +173,7 @@ Other related entries include
 * [[morphism of schemes]]
 * [[Serre's theorem on Proj]], [[Serre's theorem on quasicoherent sheaves on affine schemes]]
 * [[locally ringed space]]
+* [[algebraic variety]]
 
 ### Standard monographs
 
