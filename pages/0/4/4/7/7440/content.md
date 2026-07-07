@@ -228,7 +228,7 @@ A _groupoid object_ is a pre-category object, def. \ref{PreCategoryObject} whose
 
 and then discuss the crucial property for the further developments here, which is the 
 
-* [Coreflection of gropoid objects into pre-category objects](#CoreflectionOfGroupoidsIntoPrecategories).
+* [Coreflection of groupoid objects into pre-category objects](#CoreflectionOfGroupoidsIntoPrecategories).
 
 #### Definition
  {#GroupoidObjectDefinition}
