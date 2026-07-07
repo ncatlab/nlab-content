@@ -24,6 +24,10 @@ On [[semi-holomorphic 4d Chern-Simons theory]] and relation to [[integrable syst
 
 * [[Masahito Yamazaki]]: *Gauge Theory and Integrability: An Overview*, Proceedings of the International Conference of Basic Science 2025 &lbrack;[arXiv:2509.07628](https://arxiv.org/abs/2509.07628)&rbrack;
 
+On [[semi-topological D=4 Chern-Simons theory]]:
+
+* Shota Komatsu, Jun-ichi Sakamoto, Anders Wallberg, [[Masahito Yamazaki]]: *Time-Dependent Integrability from Gauge Theory, I* &lbrack;[arXiv:2607.02648](https://arxiv.org/abs/2607.02648)&rbrack;
+
 
 
 ## Related entries
