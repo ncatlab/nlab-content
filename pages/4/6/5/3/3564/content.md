@@ -48,9 +48,8 @@ However, in contexts where there _is_ a separately provided relevant notion of e
 
 * [[Uri Andrews]], [[Andrea Sorbi]], *Effective Inseparability, Lattices, and Preordering Relations*, The Review of Symbolic Logic. 2021;14(4):838-865. &lbrack;[doi:10.1017/S1755020319000273](https://doi.org/10.1017/S1755020319000273), [arXiv:1901.06136](https://arxiv.org/abs/1901.06136)&rbrack;
 
-Section 4.1 of:
 
-* [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+* [[Andrej Bauer]], [[James Hanson]] Section 4.1 of: *The Countable Reals* &lbrack;[arXiv:2404.01256](https://arxiv.org/abs/2404.01256)&rbrack;
 
 [[!redirects Heyting prealgebra]]
 [[!redirects Heyting prealgebras]]
