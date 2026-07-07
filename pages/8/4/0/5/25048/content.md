@@ -15,7 +15,9 @@
 
 Prelattices are [[lattices]] which do not necessarily satisfy [[antisymmetry]]. 
 
-In the same way as lattices, prelattices can be defined in an [[algebra|algebraic]] or an [[order theory|order-theoretic]] fashion. In the algebraic definition, one uses an [[equivalence relation]] $\approx$ instead of [[equality]] $=$ to define the equational axioms of the algebraic structure (commutativity, associativity, etc) as well as axioms that the algebraic operations are $\approx$-[[extensional function|extensional]], similarly to the [[setoid]] approach to algebra. In the order-theoretic definition, one assumes a [[preorder]] instead of a [[partial order]]. 
+In the same way as lattices, prelattices can be defined in an [[algebra|algebraic]] or an [[order theory|order-theoretic]] fashion. In the algebraic definition, one uses an [[equivalence relation]] $\equiv$ instead of [[equality]] $=$ to define the equational axioms of the algebraic structure (commutativity, associativity, etc) as well as axioms that the algebraic operations are $\equiv$-[[extensional function|extensional]], similarly to the [[setoid]] approach to algebra. In the order-theoretic definition, one assumes a [[preorder]] instead of a [[partial order]]. 
+
+The [[quotient set]] of a prelattice by the [[equivalence relation]] $x \equiv y \coloneqq x \leq y \wedge y \leq x$ is a [[lattice]].
 
 Also in the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **unboounded prelattices** or **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. 
 
@@ -33,6 +35,8 @@ Unbounded prelattices are important because given any ordered field $K$ with unb
 
 * [[preorder]]
 
+* [[presemilattice]]
+
 * [[total preorder]]
 
 * [[Heyting prealgebra]]
@@ -47,7 +51,7 @@ Unbounded prelattices are important because given any ordered field $K$ with unb
 
 * [[Franco Montagna]], [[Andrea Sorbi]], *Universal recursion theoretic properties of r.e. preordered structures*, Journal of Symbolic Logic. 1985;50(2):397-406. &lbrack;[doi:10.2307/2274228](https://doi.org/10.2307/2274228)&rbrack;
 
-* [[Uri Andrews]], [[Andrea Sorbi]], *Effective Inseparability, Lattices, and Preordering Relations*, The Review of Symbolic Logic. 2021;14(4):838-865. &lbrack;[doi:10.1017/S1755020319000273](https://doi.org/10.1017/S1755020319000273)&rbrack;
+* [[Uri Andrews]], [[Andrea Sorbi]], *Effective Inseparability, Lattices, and Preordering Relations*, The Review of Symbolic Logic. 2021;14(4):838-865. &lbrack;[doi:10.1017/S1755020319000273](https://doi.org/10.1017/S1755020319000273), [arXiv:1901.06136](https://arxiv.org/abs/1901.06136)&rbrack;
 
 [[!redirects prelattice]]
 [[!redirects prelattices]]
