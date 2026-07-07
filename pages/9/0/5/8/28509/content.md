@@ -46,7 +46,7 @@ The [[quotient set]] of a presemilattice by its [[equivalence relation]] $x \equ
 
 ### Bounded and unbounded presemilattices
 
-Similarly to [[semilattices]], there is also the question of whether presemilattices are bounded or not, in the sense of a [[bounded lattice]]. With the algebraic definition of a presemilattice, one could either assume that presemilattices have [[neutral elements]] $1$ or [[absorbing elements]] $0$ or both. This yields four different kinds of presemilattices: 
+Similarly to [[semilattices]], there is also the question of whether presemilattices are bounded or not, in the sense of a [[bounded lattice]]. With the algebraic definition of a presemilattice, one could either assume that presemilattices have [[neutral elements]] or [[absorbing elements]] or both or neither. With the order-theoretic definition of a presemilattice, one could either assume that presemilattices have [[top elements]] or [[bottom elements]] or both or neither. This yields four different kinds of presemilattices: 
 
 * those presemilattices without either neutral elements or absorbing elements are **unbounded presemilattices** 
 
