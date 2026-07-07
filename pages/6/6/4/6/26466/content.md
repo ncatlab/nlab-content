@@ -1,23 +1,53 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
+
+## Idea
+
+A **total preorder** or **linear preorder** or **preference relation** or **(non-strict) weak order** is a [[preorder]] whose [[posetal reflection]] is a [[total order]]. 
 
 ## Definition
 
-### Total preorders
+Similarly to [[total orders]], total preorders can be defined from a [[prelattice]] or directly from the [[preorder]]. In the first case, one assumes a [[prelattice]] and then defines a total preorder in terms of the [[meet]], [[join]], and [[equivalence relation]]. In the second case, one does not require the structure of a prelattice, only that of a [[preorder]]. 
 
-A **total preorder** or **linear preorder** or **preference relation** or **(non-strict) weak order** is a [[preorder]] whose [[posetal reflection]] is a [[total order]], or equivalently it is a [[preorder]] which is also a [[total relation]]: 
+\begin{definition}
+A **total preorder** is a [[preorder]] which is also a [[total relation]] in that for all elements $x$ and $y$, $x \leq y$ or $y \leq x$
+\end{definition}
 
-* for all elements $x$ and $y$, $x \leq y$ or $y \leq x$
+\begin{definition}
+Equivalently, using the algebraic definition of a [[prelattice]], a **total preorder** is a [[prelattice]] that satisfies the following equivalent conditions: 
 
-In [[category theory]], a total preorder is a [[thin category]] $C$ for which given two [[objects]] $x \in C$ and $y \in C$, there exists a [[morphism]] in either $\mathrm{hom}(x, y)$ or $\mathrm{hom}(y, x)$. In fact, every total preorder is an unbounded [[prelattice]], a thin [[locally cartesian category]] whose [[opposite category]] is also locally cartesian.
+* for all elements $x$ and $y$, $x \wedge y \equiv x$ or $x \wedge y \equiv y$ 
 
-### Cotransitive preorders
+* for all elements $x$ and $y$, $x \vee y \equiv x$ or $x \vee y \equiv y$ 
 
-A **cotransitive preorder** on a set $S$ is a preorder $\leq$ which satisfies [[cotransitivity]]/[[weak linearity]]: 
+* for all elements $x$ and $y$, $x \wedge y \equiv x$ or $x \vee y \equiv x$ 
+
+* for all elements $x$ and $y$, $x \wedge y \equiv y$ or $x \vee y \equiv y$
+
+\end{definition}
+
+## As a category
+
+In [[category theory]], a total preorder is a [[thin category]] $C$ for which given two [[objects]] $x \in C$ and $y \in C$, there exists a [[morphism]] in either $\mathrm{hom}(x, y)$ or $\mathrm{hom}(y, x)$.
+
+## Relation to cotransitive preorders
+
+\begin{definition}
+A **cotransitive preorder** or a **weakly linear preorder** on a set $S$ is a preorder $\leq$ which satisfies [[cotransitivity]]/[[weak linearity]]: 
 
 * for all $x \in S$, $y \in S$, and $z \in S$, $x \leq z$ implies that $x \leq y$ or $y \leq z$. 
 
-### Relation between the two definitions
+\end{definition}
 
 \begin{theorem}
 Cotransitive preorders are total preorders.
@@ -28,14 +58,26 @@ Cotransitivity of $\leq$ says that for all $x \in S$ and $y \in S$, $x \leq x$ i
 \end{proof}
 
 \begin{lemma}
-Cotransitive [[partial orders]] are [[total orders]].
+[[cotransitive partial order|Cotransitive partial orders]] are [[total orders]].
 \end{lemma}
 
-[TBD: figure out if total preorders are cotransitive preorders.]
-
 \begin{theorem}
-[[total order|Total orders]] are cotransitive [[partial orders]]. 
+Total preorders are cotransitive preorders.
 \end{theorem}
+
+\begin{proof}
+Suppose that $x \leq y$ or $y \leq x$. Then for all $x \leq z$ and element $y$, by totality, we can decide whether 
+
+1. $y \leq x$, thus $y \leq z$ by transitivity. 
+1. $x \leq y$ and $y \leq z$
+1. $z \leq y$, thus $x \leq y$ by transitivity. 
+
+In the first two cases, we have $y \leq z$, and in the second two cases, we have $x \leq y$. Thus, in all cases, we have $x \leq y$ or $y \leq z$, and total preorders are cotransitive. 
+\end{proof}
+
+\begin{lemma}
+[[total order|Total orders]] are [[cotransitive partial orders]]. 
+\end{lemma}
 
 ## Strict total preorders
 
@@ -116,6 +158,15 @@ More generally, any [[ordered local ring]] with strict weak order $\lt$ has a to
 [[!redirects cotransitively preordered]]
 [[!redirects cotransitively preordered set]]
 [[!redirects cotransitively preordered sets]]
+
+[[!redirects weakly linear preorder]]
+[[!redirects weakly linear preorders]]
+[[!redirects weakly linear preordering]]
+[[!redirects weakly linear preorderings]]
+
+[[!redirects weakly linearly preordered]]
+[[!redirects weakly linearly preordered set]]
+[[!redirects weakly linearly preordered sets]]
 
 [[!redirects linear preorder]]
 [[!redirects linear preorders]]
