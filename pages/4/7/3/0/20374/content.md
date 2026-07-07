@@ -107,6 +107,11 @@ In relation to the [[Breitenloher-Maison model]]:
 
 * [[Meer Ashwinkumar]], [[Matthias Blau]]: *Integrable Deformations of the Breitenlohner-Maison Model from 4d Chern-Simons Theory* &lbrack;[arXiv:2604.26452](https://arxiv.org/abs/2604.26452)&rbrack;
 
+See also:
+
+* Shota Komatsu, Jun-ichi Sakamoto, Anders Wallberg, [[Masahito Yamazaki]]: *Time-Dependent Integrability from Gauge Theory, I* &lbrack;[arXiv:2607.02648](https://arxiv.org/abs/2607.02648)&rbrack;
+
+
 
 
 
