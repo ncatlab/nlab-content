@@ -88,6 +88,7 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 See also the references at *[[fiber bundles in physics]]*.
 
 ### For the electromagnetic field
+ {#ReferencesForTheElectromagneticField}
 
 The original argument for charge quantization of the [[electromagnetic field]]:
 
@@ -135,7 +136,7 @@ Arguments for electric charge quantization from [[anomaly cancellation]] in the 
 
 * K. S. Babu and Rabindra N. Mohapatra, *Quantization of electric charge from anomaly constraints and a Majorana neutrino*, Phys. Rev. D **41** (1990) 271 &lbrack;[doi:10.1103/PhysRevD.41.271](https://doi.org/10.1103/PhysRevD.41.271)&rbrack;
 
-Consideration of combined magnetic *and* electric charge quantization in [[vacuum]] (cf. *[[duality-symmetric electromagnetism]]*):
+{#CombinedEMFluxQuantization} Consideration of combined magnetic *and* electric charge quantization in [[vacuum]] (cf. *[[duality-symmetric electromagnetism]]*):
 
 * {#FreedMooreSegal07} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
