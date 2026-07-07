@@ -145,6 +145,10 @@ The multiplicative monoid of the natural numbers $\mathbb{N}^\times$ is the [[fr
 
 [[!include oidification - table]]
 
+## References
+
+* Wikipedia, *[Abosrbing element](https://en.wikipedia.org/wiki/Absorbing_element)*
+
 [[!redirects absorption monoids]]
 [[!redirects annihilation monoid]]
 [[!redirects annihilation monoids]]
