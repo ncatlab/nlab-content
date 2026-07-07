@@ -5,7 +5,17 @@
 
 * [[relation between preorders and (0,1)-categories]]
 
-* [[proset]], [[partially ordered set]]  ([[directed set]], [[total order]], [[linear order]])
+* [[preordered set]]
+
+  * [[presemilattice]]
+
+  * [[prelattice]]
+
+  * [[total preorder]]
+
+  * [[Heyting prealgebra]]
+
+* [[partially ordered set]] ([[directed set]], [[total order]], [[linear order]])
 
   * [[top]], [[true]], 
 
