@@ -522,6 +522,7 @@ Related MathOverflow discussion includes
 [[!redirects Rezk category]]
 [[!redirects Rezk categories]]
 
+[[!redirects Segal complete]]
 [[!redirects Segal completeness]]
 
 [[!redirects Segal completion]]
