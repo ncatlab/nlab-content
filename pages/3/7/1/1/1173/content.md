@@ -95,28 +95,9 @@ To understand this description of the free join-semilattice on a poset, some [[e
 Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analogue of the free _finitely_ cocomplete category on a category $C$, since objects in this category are presheaves that are finite colimits of representables.
 
 ## Examples
-
-* [[semilattice of commutative subalgebras]]
-
-* [[suplattice]]
+{#Examples}
 
 * [[01-bounded semilattice]]
-
-## In dependent type theory
-
-In [[dependent type theory]], one can consider a type with a binary operation satisfying the equational axioms of a [[semilattice]] without postulating that the algebraic structure is an [[h-set]], hence a higher semilattice in the sense of [[higher algebra]]. 
-
-However, [Wärn 2026](#Wärn26), [Escardo 2026](#Escardo26), and [de Jong 2026](#deJong26) have all shown that any type $T$ with a binary operation $\lambda x, y:T.x \cdot y$ on $T$ that is 
-
-1. associative in the sense that the type $\prod_{x, y, z:T} (x \cdot y) \cdot z = x \cdot (y \cdot z)$ has an element
-
-1. commutative in the sense that the type $\prod_{x, y:T} x \cdot y = y \cdot x$ has an element
-
-1. idempotent in the sense that the type $\prod_{x:T} x \cdot x = x$ has an element
-
-is automatically an [[h-set]] and thus an algebraic [[semilattice]]. Hence, every higher semilattice is a semilattice in the set-theoretic sense. 
-
-This implies that, unlike most mathematical structures, neither the algebraic definition of a semilattice nor the order-theoretic definitions of a join-semilattice or a meet-semilattice requires explicit [[set-truncation]] in the definition of a semilattice in dependent type theory; instead, the fact that semilattices are sets can be proven from the definitions themselves. This also means that many other algebraic structures, such as 
 
 * [[lattices]], [[total orders]]
 
@@ -132,7 +113,7 @@ This implies that, unlike most mathematical structures, neither the algebraic de
 
 * [[additively idempotent semirings]]
 
-* [[commutative semiring|commutative]] and [[multiplicatively idempotent semirings]], 
+* [[commutative semiring|commutative]] $\,$ [[multiplicatively idempotent semirings]]
 
 * [[Boolean rings]]
 
@@ -140,7 +121,42 @@ This implies that, unlike most mathematical structures, neither the algebraic de
 
 * [[lattice ordered rings]], [[totally ordered rings]]
 
-can also be defined without explicit [[set-truncation]] in [[dependent type theory]], as they all carry in one way or another an associative, commutative, and idempotent binary operation. 
+* [[semilattice of commutative subalgebras]]
+
+## Higher semilattices
+{#HigherSemilattices}
+
+In [[homotopy theory]], one can consider a space with a binary operation satisfying the equational axioms of a [[semilattice]] up to [[homotopy]], hence a higher semilattice / H-semilattice in the sense of [[higher algebra]]. However, [Wärn 2025](#Wärn25) showed that every space $X$ with a binary operation $(-)\cdot(-):X \times X \to X$ which is
+
+1. homotopy associative in the sense that for all points $x, y, z$ in $X$, there is a [[homotopy]] $(x \cdot y) \cdot z \simeq x \cdot (y \cdot z)$
+
+1. homotopy commutative in the sense that for all points $x, y$ in $X$, there is a [[homotopy]] $x \cdot y \simeq y \cdot x$
+
+1. homotopy idempotent in the sense that for all points $x, y$ in $X$, there is a [[homotopy]] $x \cdot x \simeq x$
+
+is automatically a homotopically [[discrete space]]. Similar statements have been proven for e.g. topological semilattices in [Taylor 1977](#Taylor77). 
+
+One can state this result also in terms of [[(infinity,1)-category theory]]: every [[infinity-groupoid|$\infty$-groupoid]] $X$ with an [[infinity-functor|$\infty$-functor]] $(-)\cdot(-):X \times X \to X$ which is
+
+1. associative in the sense that for all points $x, y, z$ in $X$, there is an [[isomorphism]] $(x \cdot y) \cdot z \cong x \cdot (y \cdot z)$
+
+1. commutative in the sense that for all points $x, y$ in $X$, there is an [[isomorphism]] $x \cdot y \cong y \cdot x$
+
+1. idempotent in the sense that for all points $x, y$ in $X$, there is an [[isomorphism]] $x \cdot x \cong x$
+
+is automatically a [[0-truncated]] $\infty$-groupoid.
+
+In [[dependent type theory]], one can similarly consider a type with a binary operation satisfying the equational axioms of a [[semilattice]] without postulating that the algebraic structure is an [[h-set]]. However, [Wärn 2026](#Wärn26), [Escardo 2026](#Escardo26), and [de Jong 2026](#deJong26) have all shown that any type $T$ with a binary operation $\lambda x, y:T.x \cdot y$ on $T$ that is 
+
+1. associative in the sense that the type $\prod_{x, y, z:T} (x \cdot y) \cdot z = x \cdot (y \cdot z)$ has an element
+
+1. commutative in the sense that the type $\prod_{x, y:T} x \cdot y = y \cdot x$ has an element
+
+1. idempotent in the sense that the type $\prod_{x:T} x \cdot x = x$ has an element
+
+is automatically an [[h-set]] and thus an algebraic [[semilattice]]. Hence, every higher semilattice is a semilattice in the set-theoretic sense. 
+
+This implies that, unlike most mathematical structures, neither the algebraic definition of a semilattice nor the order-theoretic definitions of a join-semilattice or a meet-semilattice requires explicit [[set-truncation]] in the definition of a semilattice in dependent type theory; instead, the fact that semilattices are sets can be proven from the definitions themselves. This also means that many other algebraic structures, such as the ones listed in [[semilattice#Examples|the examples section above]], can also be defined without explicit [[set-truncation]] in [[dependent type theory]], as they all carry in one way or another an associative, commutative, and idempotent binary operation. 
 
 ## Related concepts
 
@@ -162,7 +178,11 @@ See also:
 
 * Wikipedia: *[Semilattice](https://en.wikipedia.org/wiki/Semilattice)*
 
-On higher semilattices automatically being sets:
+On higher semilattices automatically being sets / homotopically discrete:
+
+* {#Wärn25} [[David Wärn]], *Idempotent H-structures / Higher join-semilattices are discrete?*, MathOverflow, June 29, 2025 &lbrack;[web](https://mathoverflow.net/questions/496917/idempotent-h-structures-higher-join-semilattices-are-discrete)&rbrack;
+
+* {#Taylor77} [[Walter Taylor]], *Varieties Obeying Homotopy Laws*, Canadian Journal of Mathematics. 1977;29(3):498-527. &lbrack;[doi:10.4153/CJM-1977-054-9](https://doi.org/10.4153/CJM-1977-054-9)&rbrack; 
 
 * {#Wärn26} [[David Wärn]]. *Idem*, [[Agda]] code, 17 February 2026 &lbrack;[web](https://dwarn.se/agda/Idem.html)&rbrack;
 
