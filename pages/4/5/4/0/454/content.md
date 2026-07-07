@@ -21,9 +21,7 @@
 
 ## Definition
 
-A **lattice** is a [[partial order|poset]] which admits all finite [[meets]] and finite [[joins]] (or all finite [[products]] and finite [[coproducts]], regarding a poset as a [[category]] (a [[(0,1)-category]])).
-
-As [[(0,1)-limits]] are meets and [[(0,1)-colimits]] are joins, a lattice is a [[(0,1)-category]] that is [[finitely complete category|finitely complete]] and [[finitely cocomplete category|finitely cocomplete]]. 
+A **lattice** is a [[partial order|poset]] which admits all finite [[meets]] and finite [[joins]]. 
 
 A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the constants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', '[[top]]', and '[[bottom]]'.) Here are the axioms for these operations:
 
@@ -55,8 +53,15 @@ Thus, a lattice is a poset (or even a semilattice) with [[property-like structur
 
 Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
+## As a category
+
+A a category, a bounded lattice is a [[thin category|thin]] and [[gaunt category]] with all finite [[products]] and [[coproducts]]. Equivalently, a bounded lattice is a bicartesian monoidal poset, a [[thin category|thin]] and [[gaunt category]], that is [[finitely complete category|finitely complete]] and [[finitely cocomplete category|finitely cocomplete]]. 
+
+An unbounded lattice is equivalently a thin and gaunt [[locally cartesian category]] whose [[opposite category]] is also locally cartesian. 
 
 ## Related concepts
+
+* [[prelattice]]
 
 * [[sigma-complete lattice|$\sigma$-complete lattice]]
 
@@ -93,7 +98,20 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 * [[Jacob Lurie]], section A.1.1 of _[[Spectral Algebraic Geometry]]_
 
 
+[[!redirects lattice]]
 [[!redirects lattices]]
+
 [[!redirects bisemilattice]]
+[[!redirects bisemilattices]]
+
 [[!redirects bounded lattice]]
+[[!redirects bounded lattices]]
+
+[[!redirects unbounded lattice]]
+[[!redirects unbounded lattices]]
+
 [[!redirects pseudolattice]]
+[[!redirects pseudolattices]]
+
+[[!redirects bicartesian monoidal poset]]
+[[!redirects bicartesian monoidal posets]]
