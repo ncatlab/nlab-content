@@ -47,6 +47,37 @@ The category of *all* finite totally ordered sets and order-preserving maps is c
 
 Due to the totality of the order relation $\leq$, every pair of elements $a$ and $b$ has a [[join]] and [[meet]], such that $a \wedge b = a$ and $a \vee b = b$, or $a \wedge b = b$ and $a \vee b = a$. This means that meets distribute over joins and joins distribute over meets, and additionally that both operations are [[associative]], [[commutative]], and [[idempotent]], and so every total order is a [[pseudolattice]], and every bounded total order is a [[lattice]]. 
 
+## Relation to cotransitive partial orders
+
+\begin{definition}
+A **cotransitive partial order** or **weakly linear partial order** on a set $S$ is a [[partial order]] $\leq$ which satisfies [[cotransitivity]]/[[weak linearity]]: 
+
+* for all $x \in S$, $y \in S$, and $z \in S$, $x \leq z$ implies that $x \leq y$ or $y \leq z$. 
+
+\end{definition}
+
+\begin{theorem}
+Cotransitive partial orders are total orders.
+\end{theorem}
+
+\begin{proof}
+Cotransitivity of $\leq$ says that for all $x \in S$ and $y \in S$, $x \leq x$ implies that $x \leq y$ or $y \leq x$, and reflexivity says that for all $x$, $x \leq x$ is always true. This implies that for all $x$ and $y$, $x \leq y$ or $y \leq x$ is always true, which is precisely the condition of totality, hence that cotransitive partial order are total orders.
+\end{proof}
+
+\begin{theorem}
+Total orders are cotransitive partial orders.
+\end{theorem}
+
+\begin{proof}
+Suppose that $x \leq y$ or $y \leq x$. Then for all $x \leq z$ and elements $y$, by totality, we can decide whether 
+
+1. $y \leq x$, thus $y \leq z$ by transitivity. 
+1. $x \leq y$ and $y \leq z$
+1. $z \leq y$, thus $x \leq y$ by transitivity. 
+
+In the first two cases, we have $y \leq z$, and in the second two cases, we have $x \leq y$. Thus, in all cases, we have $x \leq y$ or $y \leq z$, and total orders are cotransitive. 
+\end{proof}
+
 ## Relation to strict total orders
 
 A [[strict total order]] is much like a total order, except that it is based on an irreflexive relation $\lt$.
@@ -100,3 +131,21 @@ Total orders are defined in the section of chapter 3 titled "Chains":
 
 [[!redirects ordering]]
 [[!redirects orderings]]
+
+[[!redirects cotransitive partial order]]
+[[!redirects cotransitive partial orders]]
+[[!redirects cotransitive partial ordering]]
+[[!redirects cotransitive partial orderings]]
+
+[[!redirects cotransitively partial ordered]]
+[[!redirects cotransitively partial ordered set]]
+[[!redirects cotransitively partial ordered sets]]
+
+[[!redirects weakly linear partial order]]
+[[!redirects weakly linear partial orders]]
+[[!redirects weakly linear partial ordering]]
+[[!redirects weakly linear partial orderings]]
+
+[[!redirects weakly linearly partial ordered]]
+[[!redirects weakly linearly partial ordered set]]
+[[!redirects weakly linearly partial ordered sets]]
