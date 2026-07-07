@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -83,7 +81,7 @@ Further review:
 
 * [[Subir Sachdev]], *Quantum glasses, reparameterization invariance, Sachdev-Ye-Kitaev models* &lbrack;[arXiv:2402.17824](https://arxiv.org/abs/2402.17824)&rbrack;
 
-* Rishabh Jha: *Introduction to Sachdev-Ye-Kitaev Model: A Strongly Correlated System Perspective* &lbrack;[arXiv:2507.07195](https://arxiv.org/abs/2507.07195)&rbrack;
+* Rishabh Jha: *Theory of Strongly Correlated Systems: An Introduction to Sachdev-Ye-Kitaev Model* &lbrack;[arXiv:2507.07195](https://arxiv.org/abs/2507.07195)&rbrack;
 
 
 
