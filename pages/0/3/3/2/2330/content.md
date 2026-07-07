@@ -54,6 +54,10 @@ Here we assume that $(0,1)$-categories are Segal / Rezk complete:
 
 * A $(0,1)$-category with the structure of a [[site]] is a [[(0,1)-site]]: a [[posite]].
 
+* A $(0,1)$-category with the structure of a [[cartesian monoidal category]] is a [[meet-semilattice]].
+
+* A $(0,1)$-category with the structure of a [[cocartesian monoidal category]] is a [[join-semilattice]].
+
 * A $(0,1)$-category with the structure of both a [[cartesian monoidal category]] and a [[cocartesian monoidal category]] is a [[lattice]].
 
 * A $(0,1)$-category with the structure of a [[topos]] is a [[(0,1)-topos]]: a [[Heyting algebra]].
