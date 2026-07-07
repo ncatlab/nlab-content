@@ -120,6 +120,12 @@ This implies that, unlike most mathematical structures, neither the algebraic de
 
 * [[lattices]], [[total orders]]
 
+* [[distributive lattices]]
+
+* [[inflattices]], [[suplattices]]
+
+* [[sigma-complete lattices|$\sigma$-complete lattices]], [[complete lattices]]
+
 * [[sigma-frames|$\sigma$-frames]], [[frames]]
 
 * [[Boolean algebras]], [[Heyting algebras]]
