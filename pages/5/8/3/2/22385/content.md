@@ -71,6 +71,8 @@ The construction of $R$ above may also be done with entire relations if the [[ax
 
 See also the discussion at [[net]] about how to force the domain of a net to be [[partially ordered|partial order]], by using either entire relations or prefunctions as nets.
 
+### In category theory
+
 More generally, setoids (defined using [[equivalence relations]]) are [[thin category|thin]] [[groupoids]]. As a result, various concepts translate from the setting of [[category theory]] to setoid theory, such as
 
 * [[monoidal setoid]]
