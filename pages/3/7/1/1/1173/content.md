@@ -116,7 +116,7 @@ However, [Wärn 2026](#Wärn26), [Escardo 2026](#Escardo26), and [de Jong 2026](
 
 is automatically an [[h-set]] and thus an algebraic [[semilattice]]. Hence, every higher semilattice is a semilattice in the set-theoretic sense. 
 
-This also implies that, unlike most mathematical structures, neither the algebraic definition of a semilattice nor the order-theoretic definitions of a join-semilattice or a meet-semilattice requires explicit [[set-truncation]] in the definition of a semilattice in dependent type theory; instead, the fact that semilattices are sets can be proven from the definitions themselves. This implies that many other algebraic structures, such as 
+This implies that, unlike most mathematical structures, neither the algebraic definition of a semilattice nor the order-theoretic definitions of a join-semilattice or a meet-semilattice requires explicit [[set-truncation]] in the definition of a semilattice in dependent type theory; instead, the fact that semilattices are sets can be proven from the definitions themselves. This also means that many other algebraic structures, such as 
 
 * [[lattices]], [[total orders]]
 
