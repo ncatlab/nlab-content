@@ -44,7 +44,7 @@ If a poset is both a join- *and* a meet-semilattice, then we call it a [[lattice
 
 ### Bounded and unbounded semilattices
 
-There is also the question of whether semilattices are bounded or not, in the sense of a [[bounded lattice]]. With the algebraic definition of a semilattice, one could either assume that semilattices have [[neutral elements]] $1$ or [[absorbing elements]] $0$ or both. In the order-theoretic definition, one can assume that semilattices have [[top elements]] or [[bottom elements]] or both. This yields four different kinds of semilattices: 
+There is also the question of whether semilattices are bounded or not, in the sense of a [[bounded lattice]]. With the algebraic definition of a semilattice, one could either assume that semilattices have [[neutral elements]] $1$ or [[absorbing elements]] $0$ or both or neither. In the order-theoretic definition, one can assume that semilattices have [[top elements]] or [[bottom elements]] or both or neither. This yields four different kinds of semilattices: 
 
 * those semilattices without either neutral elements or absorbing elements are **unbounded semilattices** or **pseudosemilattices**.  
 
@@ -116,6 +116,10 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 * [[join-semilattice object]]
 
 * [[meet-semilattice object]]
+
+## References
+
+* Wikipedia, *[Semilattice](https://en.wikipedia.org/wiki/Semilattice)*
 
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
