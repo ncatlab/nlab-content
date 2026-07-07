@@ -29,7 +29,7 @@ The set of **jets from $(M,a)$ to $(M',a')$** is the [[quotient set]] of the set
 
 ## References
 
-* [[Elisabeth Burroni]] and [[Jacques Penon]], "A metric tangential calculus", [TAC](http://www.tac.mta.ca/tac/volumes/23/10/23-10abs.html).
+* [[Elisabeth Burroni]] and [[Jacques Penon]], "A metric tangential calculus", [TAC](http://www.tac.mta.ca/tac/volumes/23/10/23-10.pdf).
 
 [[!redirects metric jet]]
 [[!redirects metric jets]]
