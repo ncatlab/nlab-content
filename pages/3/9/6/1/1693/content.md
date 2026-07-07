@@ -35,7 +35,7 @@ Multiplicatively idempotent semirings are called *Boolean rigs* or *Boolean semi
 
 ## Properties
 
-Let [[CMon]] be the [[concrete category|concrete]] [[monoidal category]] of [[abelian groups]], and let $U: CMon \to Set$ be the [[lax monoidal functor|lax monoidal]] underlying-set functor. 
+Let [[CMon]] be the [[concrete category|concrete]] [[monoidal category]] of [[commutative monoids]], and let $U: CMon \to Set$ be the [[lax monoidal functor|lax monoidal]] underlying-set functor. 
 
 \begin{theorem}
 Every multiplicatively idempotent rig $R$ satisfies the equation
