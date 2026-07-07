@@ -241,6 +241,8 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 ## References
 
+* [[Norman R. Reilly]], *Enlarging the Munn representation of inverse semigroups*, Journal of the Australian Mathematical Society. 1977;23(1):28-41. &lbrack;[doi:10.1017/S1446788700017316](https://doi.org/10.1017/S1446788700017316)&rbrack;
+
 * [[Mark V. Lawson]], tutorial lectures on semigroups in Ottawa, notes available [here](http://www.ma.hw.ac.uk/~markl/ottawa.html).
 
 *  [[Mark V. Lawson]], _Constructing ordered groupoids_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 2 (2005), p. 123--138, [URL stable](http://www.numdam.org/item?id=CTGDC_2005__46_2_123_0)
