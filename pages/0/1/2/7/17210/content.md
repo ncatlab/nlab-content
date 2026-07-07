@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -952,6 +950,11 @@ Discussion in the context of [[categories of fibrant objects]] is in
 Discussion in the context of [[conditional convergence of spectral sequences]] is in
 
 * {#Boardman99} [[Michael Boardman]], section I.1 of _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
+
+See also:
+
+* Nathaniel Bannister, Justin Tatch Moore: *Merging $lim^1A \neq 0$ with other nonvanishing constructions* &lbrack;[arXiv:2607.03995](https://arxiv.org/abs/2607.03995)&rbrack;
+
 
 [[!redirects lim1 and Milnor sequences]]
 [[!redirects lim1]]
