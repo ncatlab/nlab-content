@@ -1,6 +1,19 @@
-# Contents
-* table of contents
-{: toc}
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
+
+
+\tableofcontents
+
 
 ## Definition
 
