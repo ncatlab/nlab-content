@@ -8,9 +8,8 @@
 =--
 =--
 
-# Dedekind cuts
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -260,6 +259,12 @@ Formalization in [[homotopy type theory]]:
 * {#UFP13} [[Univalent Foundations Project]], §11.2 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * [[Auke B. Booij]], Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+
+
+A [[topos]] in which the Dedekind [[real numbers object]] is [[countable set|countable]]:
+
+* [[Andrej Bauer]], [[James Hanson]]: *The Countable Reals* &lbrack;[arXiv:2404.01256](https://arxiv.org/abs/2404.01256)&rbrack;
+
 
 
 [[!redirects Dedekind cut]]
