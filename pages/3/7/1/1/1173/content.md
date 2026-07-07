@@ -1,5 +1,5 @@
 
-> The article is about bounded semilattices in the sense of a join-semilattice having a [[bottom element]] or a meet-semilattice having a [[top element]]. For "bounded semilattices" which have both a [[top element]] and a [[bottom element]] and thus are a [[bounded poset]], see [[01-bounded semilattice]]. 
+> The article is about bounded [[semilattices]] in the sense of [[join-semilattices]] having a [[bottom element]] or [[meet-semilattices]] having a [[top element]]. For "bounded semilattices" which have both a [[top element]] and a [[bottom element]] and thus are a [[bounded poset]], see *[[01-bounded semilattice]]*. 
 
 ----
 
@@ -22,9 +22,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition
 
@@ -119,7 +118,9 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 ## References
 
-* Wikipedia, *[Semilattice](https://en.wikipedia.org/wiki/Semilattice)*
+See also:
+
+* Wikipedia: *[Semilattice](https://en.wikipedia.org/wiki/Semilattice)*
 
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
