@@ -1,7 +1,9 @@
 
-* [home page](http://andrej.com/)
+* [personal page](http://andrej.com/)
 
 * [blog](http://math.andrej.com/)
+
+* [github page](https://github.com/andrejbauer)
 
 * [MathGenealogy page](https://mathgenealogy.org/id.php?id=50365)
 
@@ -58,5 +60,10 @@ On [[realizability]]:
 On reducibility in [[constructive mathematics]]:
 
 * [[Andrej Bauer]], *Instance reducibility and Weihrauch degrees*, Logical Methods in Computer Science **18** 3 (2022) &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:20)2022">doi:10.46298/lmcs-18(3:20)2022</a>,[arXiv:2106.01734](https://arxiv.org/abs/2106.01734), [pdf](https://lmcs.episciences.org/9906/pdf)&rbrack;
+
+On a [[topos]] in which the [[Dedekind real number|Dedekind]] [[real numbers object]] is [[countable set|countable]]:
+
+* [[Andrej Bauer]], [[James Hanson]]: *The Countable Reals* &lbrack;[arXiv:2404.01256](https://arxiv.org/abs/2404.01256)&rbrack;
+
 
 category: people
