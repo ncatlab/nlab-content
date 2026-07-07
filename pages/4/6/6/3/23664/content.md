@@ -24,7 +24,7 @@
 
 ## Definition 
 
-Given two [[sets]] $(A, \approx_A)$ and $(B, \approx_B)$ equipped with [[equivalence relations]], we say that a [[function]] $f:A \to B$ is $\approx$-**extensional** if it preserves the equivalence relation $\approx$: for all $x \in A$ and $y \in A$, if $x \approx_A y$, then $f(x) \approx_B f(y)$. 
+Given two [[sets]] $(A, \equiv_A)$ and $(B, \equiv_B)$ equipped with [[equivalence relations]], we say that a [[function]] $f:A \to B$ is $\equiv$-**extensional** if it preserves the equivalence relation $\equiv$: for all $x \in A$ and $y \in A$, if $x \equiv_A y$, then $f(x) \equiv_B f(y)$. 
 
 In [[category theory]], this means that an extensional function is a [[functor]] between two [[thin category|thin]] [[groupoids]] or a [[dagger functor]] between two thin [[dagger categories]], since equivalence relations can be modeled via the [[hom-sets]] of thin dagger categories or groupoids. 
 
