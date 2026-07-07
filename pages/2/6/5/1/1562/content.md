@@ -27,6 +27,13 @@ An __$(n,1)$-category__, is an $n$-[[n-category|category]] $C$ that is __locally
 
 Equivalently it is an $(\infty,1)$-category for which the mapping spaces are all $(n-1)$-[[n-truncated object of an (infinity,1)-category|truncated]].
 
+## Segal / Rezk completeness
+
+In the [[higher category theory]] literature, there is a distinction between $(\infty,1)$-categories and $(n, 1)$-categories which satisfy a [[Segal completeness]] or [[Rezk completeness]] condition and those which do not, which leads to a distinction between whether $(\infty,1)$-categories and $(n, 1)$-categories by default are Segal / Rezk complete or not: 
+
+1. Those authors who start with $(\infty,1)$-categories and define $(n, 1)$-categories from $n$-[[truncations]] of the hom-$\infty$-groupoids tend to assume Segal / Rezk completeness by default, where a $(n, 1)$-category which are not Segal complete / Rezk complete is then called a **$(n, 1)$-[[precategory]]**, or when defined [[internal logic|internally]], a **[[Segal category|Segal]] $(n, 1)$-category**. 
+
+2. Those authors who build $(n, 1)$-categories from components tend not to assume Segal / Rezk completeness by default, where a $(n, 1)$-category which does satisfy [[Segal completeness]] or [[Rezk completeness]] is called a **[[univalent bicategory|univalent]] $(n, 1)$-category**, or when defined [[internal logic|internally]], a **[[complete Segal space|complete Segal]] $(n, 1)$-category** or **[[Rezk category|Rezk]] $(n, 1)$-category**. 
 
 ## Special cases:
 
@@ -75,4 +82,11 @@ In Section 11 of
 
 the author describes a presentation of $(n,1)$-categories by a [[left Bousfield localization]] of the [[model structure]] presenting [[complete Segal spaces]].
 
+[[!redirects (n,1)-category]]
 [[!redirects (n,1)-categories]]
+
+[[!redirects (n,1)-precategory]]
+[[!redirects (n,1)-precategories]]
+
+[[!redirects univalent (n,1)-category]]
+[[!redirects univalent (n,1)-categories]]
