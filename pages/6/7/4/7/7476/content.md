@@ -15,6 +15,8 @@
 
   * [[Heyting prealgebra]]
 
+  * [[opposite preorder]]
+
 * [[partially ordered set]] ([[directed set]], [[total order]], [[linear order]])
 
   * [[top]], [[true]], 
@@ -26,6 +28,8 @@
   * [[implication]]
 
   * [[filter]], [[interval]]
+
+  * [[opposite poset]]
 
 * [[lattice]], [[semilattice]]
 
