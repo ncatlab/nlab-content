@@ -33,16 +33,17 @@ Therefore:
 ###### Remark
 **([[relation between preorders and (0,1)-categories]])**
 \linebreak
-An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[proset]] ([[relation between preorders and (0,1)-categories|hence]] a [[poset]]).
+An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[proset]] ([[relation between preorders and (0,1)-categories|hence]] a [[poset]] when assuming the [[axiom of choice]]).
 
 We may without restriction assume that every hom-$\infty$-groupoid is just a set. Then since this is [[(-1)-truncated]] it is either empty or the singleton. So there is at most one morphism from any object to any other.
 
 =--
 
-
 ## Extra stuff, structure, property
 
 * A $(0,1)$-category with the structure of a [[site]] is a [[(0,1)-site]]: a [[posite]].
+
+* A $(0,1)$-category with the structure of both a [[cartesian monoidal category]] and a [[cocartesian monoidal category]] is a [[lattice]].
 
 * A $(0,1)$-category with the structure of a [[topos]] is a [[(0,1)-topos]]: a [[Heyting algebra]].
 
