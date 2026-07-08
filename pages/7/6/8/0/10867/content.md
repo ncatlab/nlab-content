@@ -10,9 +10,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -62,6 +60,10 @@ On using the [[Lean]] [[proof assistant]] for problems in high energy physics:
 [[formal methods|Formalization]] in [[Lean]] of the [[constructive field theory|construction]] of the [[free field theory|free]] [[scalar field|scalar]] [[quantum field theory|quantum field]]:
 
 * [[Michael R. Douglas]], Sarah Hoback, Anna Mei, Ron Nissim: *Formalization of QFT* &lbrack;[arXiv:2603.15770](https://arxiv.org/abs/2603.15770)&rbrack;
+
+and of aspects of [[Seiberg-Witten theory]]:
+
+* [[Michael R. Douglas]]: *Axioms for physical reasoning: codifying the Seiberg--Witten solution in Lean* &lbrack;[arXiv:2607.06379](https://arxiv.org/abs/2607.06379)&rbrack;
 
 
 
