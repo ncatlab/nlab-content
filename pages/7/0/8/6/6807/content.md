@@ -229,6 +229,12 @@ Discussion of a [[BFSS matrix model|BFSS-like]] [[matrix model]] for [[MK6-brane
 
 * [[Amihay Hanany]], Gilad Lifschytz, _M(atrix) Theory on $T^6$ and a m(atrix) Theory Description of KK Monopoles_, Nucl. Phys. B519:195-213, 1998 ([arXiv:hep-th/9708037](https://arxiv.org/abs/hep-th/9708037))
 
+See also:
+
+* Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Novel Matrix Model for the M5-brane?* &lbrack;[arXiv:2607.05490](https://arxiv.org/abs/2607.05490)&rbrack;
+
+
+
 
 ### Ground state problem
   {#ReferencesGroundStateProblem}
