@@ -14,9 +14,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -210,7 +210,7 @@ The case of [[Rozansky-Witten theory]]:
 
 * [[Lorenzo Riva]], *Higher categories of push-pull spans, I: Construction and applications* &lbrack;[arXiv:2404.14597](https://arxiv.org/abs/2404.14597)&rbrack;
 
-* [[Germán Stefanich]]: *Categorification of sheaf theory* &lbrack;[arXiv:2511.09553](https://arxiv.org/abs/2511.09553)&rbrack;
+* {#Stefanich2025} [[Germán Stefanich]]: *Categorification of sheaf theory* &lbrack;[arXiv:2511.09553](https://arxiv.org/abs/2511.09553)&rbrack;
 
 For *geometric* (non-topological) extended field theory:
 
