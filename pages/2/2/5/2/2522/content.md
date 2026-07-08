@@ -1150,6 +1150,9 @@ See also:
 
 * Tetiana Obikhod: *Supersymmetry, Supergravity and Non--Perturbative Dynamics of Gauge Theories* &lbrack;[arXiv:2604.19817](https://arxiv.org/abs/2604.19817)&rbrack;
 
+* Xingyang Yu: *A Crash Course in Supersymmetric Field Theory Across Dimensions* &lbrack;[arXiv:2607.05884](https://arxiv.org/abs/2607.05884)&rbrack;
+
+
 
 
 Discussion of the relation between [[supersymmetry and division algebras]] includes
