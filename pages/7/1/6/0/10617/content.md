@@ -244,7 +244,7 @@ is a model for the [[classifying space]] of reduced complex [[topological K-theo
 
 Discussion in the context of [[topological K-theory]]:
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
  
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  
