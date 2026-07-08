@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -984,6 +982,11 @@ Discussion for presheaf categories in the context of [[quasicategories]] ([[(inf
 Discussion for [[Goursat categories]]:
 
 * [[Marino Gran]], [[Diana Rodelo]], *Beck-Chevalley condition and Goursat categories*, Journal of Pure and Applied Algebra **221** 10 (2017) 2445-2457 &lbrack;[arXiv:1512.04066](https://arxiv.org/abs/1512.04066), [doi:10.1016/j.jpaa.2016.12.031](https://doi.org/10.1016/j.jpaa.2016.12.031)&rbrack;
+
+In the context of [[hyperdoctrines]]:
+
+* Marco Abbadini, Francesca Guffanti: *On the Beck--Chevalley condition* &lbrack;[arXiv:2607.06386](https://arxiv.org/abs/2607.06386)&rbrack;
+
 
 
 [[!redirects Beck-Chevalley conditions]]
