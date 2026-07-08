@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-In [[type theory]], under a *pure type system* one understand and explicitly typed [[lambda calculus]]
+In [[type theory]], under a *pure type system* one understands an explicitly typed [[lambda calculus]]
 using [[dependent product]] as the type of lambda expressions:
 the basic idea is that
 $$\Gamma, x:A \vdash b:B$$
