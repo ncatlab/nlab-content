@@ -2,11 +2,12 @@
 
 **John Michael Boardman** (1938-2021) was a British-born mathematician, specialised in [[algebraic topology]] and [[differential topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was [[C. T. C. Wall]]. He was formerly at the University of Cambridge, England; later a full professor at Johns Hopkins University in Baltimore, USA.
 
+* [personal page](http://www.math.jhu.edu/~jmb/)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Boardman)
 
-* [JH University's obituary](https://hub.jhu.edu/2021/03/19/michael-boardman-obituary/)
+* obituary: [by Johns Hopkins University](https://hub.jhu.edu/2021/03/19/michael-boardman-obituary/) and [by the math department](https://mathematics.jhu.edu/2021/03/20/j-michael-boardman-1938-2021/)
 
-* [homepage](http://www.math.jhu.edu/~jmb/)
 
 ## Selected writings
 
