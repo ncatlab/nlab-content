@@ -66,6 +66,11 @@ On [[KK-compactification]] in [[string theory]]:
 
 * [[Michael R. Douglas]], Sarah Hoback, Anna Mei, Ron Nissim: *Formalization of QFT* &lbrack;[arXiv:2603.15770](https://arxiv.org/abs/2603.15770)&rbrack;
 
+On [[Lean]] formalization of aspects of [[Seiberg-Witten theory]]:
+
+* [[Michael R. Douglas]]: *Axioms for physical reasoning: codifying the Seiberg--Witten solution in Lean* &lbrack;[arXiv:2607.06379](https://arxiv.org/abs/2607.06379)&rbrack;
+
+
 category: people
 
 [[!redirects Michael R. Douglas]]
