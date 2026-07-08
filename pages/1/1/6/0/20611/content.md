@@ -67,6 +67,11 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Fuzzy Sets and Systems](https://www.sciencedirect.com/journal/fuzzy-sets-and-systems)|Elsevier|Lili Shen|subscription|?|
 |[Bulletin de la Société Mathématique de France](https://smf.emath.fr/en/publications/bulletin-de-la-societe-mathematique-de-france)|?|Wendy Lowen|?|general|
 |[ACM Transactions on Computational Logic](https://dl.acm.org/journal/tocl)|?|Chris Heunen|?|logic and TCS|
+|[Forum of Mathematics, Sigma](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/information/about-this-journal/editorial-board)|?|Ieke Moerdijk|?|Algebra|
+
+
+
+
 
 ## Journals previously publishing homotopy theory and/or category theory
 
