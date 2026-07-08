@@ -101,6 +101,10 @@ Discussion as [[cohomological field theory]]:
 
 * [[Shuhan Jiang]]: *Cohomological Field Theories and Generalized Seiberg-Witten Equations*, [talk at](CQTS#JiangFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[JiangAtCQTS-CohFTandSW.pdf:file]]&rbrack;
 
+Formalization of some aspects in [[Lean]]:
+
+* [[Michael R. Douglas]]: *Axioms for physical reasoning: codifying the Seiberg--Witten solution in Lean* &lbrack;[arXiv:2607.06379](https://arxiv.org/abs/2607.06379)&rbrack;
+
 
 
 ### Lift to stable homotopy groups of spheres
