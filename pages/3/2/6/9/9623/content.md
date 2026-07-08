@@ -4,8 +4,6 @@ Jack Johnson Morava (1944-2025)
 
 * [institute page](https://mathematics.jhu.edu/directory/jack-morava)
 
-* [Johns Hopkins obituary](https://mathematics.jhu.edu/2025/08/06/jack-morava-1944-1925/)
-
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jack_Morava)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=8zFRipkAAAAJ&hl=en)
@@ -13,6 +11,10 @@ Jack Johnson Morava (1944-2025)
 * [[Michael Hopkins]]: _Talk on Jack Morava's work at Jack's 60th birthday conference_ (2004) &lbrack;[webpage (archived)](http://web.archive.org/web/20150326150229/http://www.mathematics.jhu.edu/new/moravavideo.htm)&rbrack;
 
 * reminiscences on the AlgTop mailing list (starting 1st Aug 2025): [thread](https://lists.illinois.edu/lists/arc/algtop-l/2025-08/msg00000.html)
+
+* obituary: by [Johns Hopkins University](https://hub.jhu.edu/2025/08/08/jack-morava-mathematics-obituary) and [by the math department](https://mathematics.jhu.edu/2025/08/06/jack-morava-1944-1925/)
+
+* [recording of the memorial ceremony](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8bec28ec-b022-46f9-9a7b-b479006a528e)
 
 ## Selected writings
 
