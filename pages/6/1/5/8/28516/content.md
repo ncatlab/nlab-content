@@ -1,4 +1,6 @@
-Mathematics Subject Classification is a classification system for subjects of mathematics.
+The American Mathematical Society's *Mathematics Subject Classification* (MSC)  is a classification system for subjects of [[mathematics]].
+
+* [mathscinet.ams.org/msc/msc2020.html](https://mathscinet.ams.org/msc/msc2020.html)
 
 Each code consists of three parts; the first two digits denote the broadest discipline of the subject. The following one digit denotes the narrower topic, while the last two digits denote the most specific subject.
 
@@ -32,7 +34,7 @@ A few examples are listed below based on MSC2020. Each discipline and topic, if 
     - 18F50: [[Goodwillie calculus]], functor calculus
     - 18F70: [[frame]], [[locale]], [[point-free topology]], [[Stone duality]]
     - 18F75: [[quantale]]
-  - 18Gxx: [[homological algebra]] in category theory, [[dervied category|derived categories]] and [[dervied functor|functors]]
+  - 18Gxx: [[homological algebra]] in category theory, [[derived category|derived categories]] and [[derived functor|functors]]
     - 18G10: [[resolution]], [[derived functor]]
     - 18G35: [[chain complex]], [[dg-category]]
     - 18G50: [[nonabelian homological algebra]]
