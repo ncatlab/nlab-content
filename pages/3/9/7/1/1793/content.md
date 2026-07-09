@@ -14,9 +14,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -53,6 +52,8 @@ Analogous statements apply to the category of unbounded chain complexes and the 
 This we discuss below in
 
 * _[In non-negative degree](#CochainNonNeg)_
+
+
 
 ### For unbounded chain complexes
 
@@ -1642,6 +1643,9 @@ and are reviewed in
 * {#Bousfield} [[Aldridge Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
 
 
+On [[homotopy limits]] and [[homotopy colimits]]:
+
+* {#Ara23} [[Kensuke Arakawa]]: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, J. Pure Appl. Algebra **230** 4 (2026) 108232  &lbrack;[doi:10.1016/j.jpaa.2026.108232](https://doi.org/10.1016/j.jpaa.2026.108232), [arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
 
 
 
