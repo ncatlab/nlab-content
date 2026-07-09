@@ -9,9 +9,10 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Definition
 
@@ -66,7 +67,7 @@ $$
 =--
 
 
-This is for instance exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) [Goerss-Jardine](#GoerssJardine). For a derivation see the examples at _[[homotopy colimit]]_.
+This is for instance exercise 1.6 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of [Goerss & Jardine 2009](#GoerssJardine09). For a derivation see the examples [here](homotopy+limit#OverSimplicialDiagrams) at _[[homotopy colimit]]_.
 
 
 
@@ -118,9 +119,8 @@ $d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
 +-- {: .proof}
 ###### Proof
 
-This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of [Goerss & Jardine 2009](#GoerssJardine09)
 
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
 
 =--
 
@@ -384,7 +384,7 @@ $d(f) : d(A) \to d(B)$ of the associated diagonal complexes.
 +-- {: .proof}
 ###### Proof
 
-This is Lemma 2.6 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of ([GoerssJardine](#GoerssJardine))
+This is Lemma 2.6 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of [Goerss & Jardine 2009](#GoerssJardine09)
 
 
 =--
@@ -399,16 +399,14 @@ This is Lemma 2.6 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/
 
 * [[cubical-simplicial set]]
 
+
 ## References
 
-Some standard material is for instance in
+* {#GoerssJardine09} [[Paul Goerss]], [[John F. Jardine]]: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack;
 
-* {#GoerssJardine} [[Paul Goerss]] and [[Rick Jardine]], _Simplicial Homotopy Theory_
+* [[John F. Jardine]], Lecture 008 (2010) &lbrack;[pdf](http://jardine.math.uwo.ca/HomTh/lecture008a.pdf)&rbrack;
 
-
-* [[Rick Jardine]], Lecture 008 (2010) ([pdf](http://jardine.math.uwo.ca/HomTh/lecture008a.pdf))
-
-* {#Isaacson} [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+* {#Isaacson} [[Samuel Isaacson]]: _Excercises in homotopy colimits_ &lbrack;[pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf)&rbrack;
 
 
 The total simplicial set functor goes back to
