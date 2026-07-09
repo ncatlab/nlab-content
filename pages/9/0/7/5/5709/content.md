@@ -13,9 +13,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -1446,6 +1444,8 @@ Discussion of effective field theories in [[condensed matter theory]], for [[sol
 
 
 * [[Tomáš Brauner]], [[Sean A. Hartnoll]] et al: *Snowmass White Paper: Effective Field Theories for Condensed Matter Systems*, [Snowmass 2021](https://inspirehep.net/conferences/1803127) &lbrack;[arXiv:2203.10110](https://arxiv.org/abs/2203.10110), [inSpire:2055714](https://inspirehep.net/literature/2055714)&rbrack;
+
+* Angelo Esposito, Alberto Nicolis, Riccardo Penco: *Effective Field Theories for Material Media* &lbrack;[arXiv:2607.06666](https://arxiv.org/abs/2607.06666)&rbrack;
 
 
 
