@@ -19,11 +19,8 @@
 
 
 
+\tableofcontents
 
-#Contents#
-
-* table of contents
-{:toc}
 
 ## Idea 
 
