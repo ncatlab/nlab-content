@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Idea
 
 _Call-by-value_ (CbV) is a widely used [[evaluation strategy]]
