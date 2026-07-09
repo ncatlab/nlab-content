@@ -55,6 +55,8 @@ See also:
 
 * Geoffrey Compère, Sébastien Robert: *Conservation law of super-Lorentz charges* &lbrack;[arXiv:2606.26848](https://arxiv.org/abs/2606.26848)&rbrack;
 
+* Diego Hidalgo, Stefan Vandoren, Huaxuan Zeng: *$BMS_3$ invariant field theories* &lbrack;[arXiv:2607.06826](https://arxiv.org/abs/2607.06826)&rbrack;
+
 
 
 
