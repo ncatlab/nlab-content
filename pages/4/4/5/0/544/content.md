@@ -16,7 +16,7 @@
 
 ## Idea
 
-An _$A_\infty$-algebra_ is a [[monoid]] internal to a [[homotopical category]] such that the [[associativity]] law holds not as an equation, but only up to higher [[coherent]] [[homotopy]].
+An _$A_\infty$-algebra_ is a [[monoid]] [[internal category|internal]] to a [[homotopical category]] such that the [[associativity]] law holds not as an equation, but only up to higher [[coherent]] [[homotopy]].
 
 ## Definition
 
