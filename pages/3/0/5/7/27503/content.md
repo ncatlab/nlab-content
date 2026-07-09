@@ -105,6 +105,9 @@ See also:
 
 * [[Simone Speziale]]: *GGI lectures on boundary and asymptotic symmetries* &lbrack;[arXiv:2512.16810](https://arxiv.org/abs/2512.16810)&rbrack;
 
+* Diego Hidalgo, Stefan Vandoren, Huaxuan Zeng: *$BMS_3$ invariant field theories* &lbrack;[arXiv:2607.06826](https://arxiv.org/abs/2607.06826)&rbrack;
+
+
 
 
 
