@@ -115,6 +115,9 @@ In terms of ([[effective quantum field theory|effective]]) [[quantum field theor
 
 * [[Eduardo Fradkin]]: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;[doi:10.1016/B978-0-323-90800-9.00269-9](https://doi.org/10.1016/B978-0-323-90800-9.00269-9), [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
 
+* Angelo Esposito, Alberto Nicolis, Riccardo Penco: *Effective Field Theories for Material Media* &lbrack;[arXiv:2607.06666](https://arxiv.org/abs/2607.06666)&rbrack;
+
+
 
 
 With an emphasis on [[non-perturbative quantum field theory]]:
