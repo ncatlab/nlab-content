@@ -26,6 +26,8 @@ On [[supergravity]] models of [[cosmic inflation]]:
 
 * [[Renata Kallosh]], [[Andrei Linde]]: *Streamlined Supergravity*,  J. High Energ. Phys. **2026** 176 (2026) \[<a href="https://doi.org/10.1007/JHEP03(2026)176">doi:10.1007/JHEP03(2026)176</a>, [arXiv:2511.15815](https://arxiv.org/abs/2511.15815)\]
 
+* [[Renata Kallosh]], [[Andrei Linde]]: *Unification of polynomial and exponential cosmological attractors* \[<a href="https://arxiv.org/abs/2607.07684">arXiv:2607.07684</a>\]
+
 
 Generally on [[cosmic inflation]]:
 
