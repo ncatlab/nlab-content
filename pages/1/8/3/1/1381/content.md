@@ -148,7 +148,7 @@ and definition 2.0.0.7 in
 
 A concise treatment is also available in
 
-* [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
+* [[Moritz Groth]], _A short course on infinity-categories_ ([arXiv:1007.2925](https://arxiv.org/abs/1007.2925))
 
 Relation to [[monoidal model categories]] (in particular, that every locally presentable symmetric monoidal $(\infty,1)$-category arises from a symmetric monoidal model category) is discussed in
 
