@@ -348,6 +348,10 @@ On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]] (s
 
 * [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140 math-ph](https://arxiv.org/abs/2507.00140)&rbrack;
 
+* Frederik Ďalak, [[Fridrich Valach]]: *On the generalised Lie derivative of (s)pinor fields* &lbrack;[arXiv:2607.07360](https://arxiv.org/abs/2607.07360)&rbrack;
+
+
+
 [[!redirects covariant derivatives]]
 
 [[!redirects covariant differentiation]]
