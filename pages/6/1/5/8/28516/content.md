@@ -8,6 +8,10 @@ Each code consists of three parts; the first two digits denote the broadest disc
 
 A few examples are listed below based on MSC2020. Each discipline and topic, if appropriate, is linked to a corresponding article.
 
+- 03-XX: [[mathematical logic]] and [[foundation|foundations]]
+  - 03Bxx: General logic
+    - 03B16: [[higher-order logic]]
+    - 03B38: [[type theory]]
 - 18-XX: [[category theory]], [[homological algebra]]
   - 18Axx: general theory of categories and functors
     - 18A20: [[epimorphism]], [[monomorphism]], other [[morphism]]s, [[zero morphism]]
@@ -38,11 +42,29 @@ A few examples are listed below based on MSC2020. Each discipline and topic, if 
     - 18G10: [[resolution]], [[derived functor]]
     - 18G35: [[chain complex]], [[dg-category]]
     - 18G50: [[nonabelian homological algebra]]
+    - 18G70: [[A-infinity-category|$A_\infty$-category]], relations with [[mirror symmetry|homological mirror symmetry]]
     - 18G80: [[derived category]], [[triangulated category]]
+    - 18G85: [[graph complex]], graph homology
   - 18Mxx: [[monoidal category|monoidal categories]] and operads
     - 18M05: [[monoidal category]], [[symmetric monoidal category]]
+    - 18M10: [[traced monoidal category]], [[compact closed category]], [[star-autonomous category]]
+    - 18M15: [[braided monoidal category]], [[ribbon category]]
+    - 18M20: [[fusion category]], [[modular tensor category]], [[modular functor]]
+    - 18M25: [[Tannakian category]]
+    - 18M30: [[string diagram]], graphical calculi
+    - 18M40: [[dagger category]], categorical [[quantum mechanics]]
+    - 18M50: [[rig category]], [[lax monoidal category]], [[duoidal category]]
+    - 18M60: [[operad]]
+    - 18M65: non-symmetric operad, [[multicategory]], [[generalized multicategory]]
+    - 18M70: algebraic operad, [[cooperad]], [[Koszul duality]]
+    - 18M75: [[topological operad]], [[simplicial operad]]
+    - 18M80: [[species]], [[Hopf monoid]], operad in combinatorics
+    - 18M85: [[polycategory]], [[dioperad]], [[properad]], [[PROP]], [[cyclic operad]], [[modular operad]]
+    - 18M90: [[globular operad]]
   - 18Nxx: [[higher category|higher categories]] and [[homotopical algebra]]
     - 18N10: [[2-category]], [[bicategory]], [[double category]]
     - 18N25: [[horizontal categorification|categorification]]
+    - 18N30: [[strict omega-category|strict $\omega$-category]], [[computad]], [[polygraph]]
+    - 18N40: [[homotopical algebra]], Quillen model category, [[derivator]]
     - 18N50: [[simplicial set]], [[simplicial object]]
     - 18N65: [[(infinity,n)-category|(∞, n)-category]], [[infinity-category|(∞, ∞)-category]]
