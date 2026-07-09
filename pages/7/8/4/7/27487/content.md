@@ -260,7 +260,7 @@ See also:
 
 * {#AO23} [[Sergey Arkhipov]], [[Sebastian Ørsted]]: _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;
 
-* {#Ara23} [[Kensuke Arakawa]], Section 1 of: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack; and J. Pure Appl. Algebra 230, 108232. (2026).(https://doi.org/10.1016/j.jpaa.2026.108232)
+* {#Ara23} [[Kensuke Arakawa]]; Section 1 of: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, J. Pure Appl. Algebra **230** 4 (2026) 108232  &lbrack;[doi:10.1016/j.jpaa.2026.108232](https://doi.org/10.1016/j.jpaa.2026.108232), [arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
 
 [[!redirects Bousfield-Kan formulas]]
 
