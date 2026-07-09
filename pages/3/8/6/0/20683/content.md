@@ -35,6 +35,10 @@ and in [[BV-formalism]]:
 * [[Julian Kupka]], [[Ingmar Saberi]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Kodaira-Spencer theory for Courant algebroids* &lbrack;[arXiv:2602.04658](https://arxiv.org/abs/2602.04658)&rbrack;
   > (relation to [BCOV theory](B-model#ReferencesBCOV))
 
+On [[covariant Lie derivatives]] of [[spinor fields]]:
+
+* Frederik Ďalak, [[Fridrich Valach]]: *On the generalised Lie derivative of (s)pinor fields* &lbrack;[arXiv:2607.07360](https://arxiv.org/abs/2607.07360)&rbrack;
+
 
 
 category: people
