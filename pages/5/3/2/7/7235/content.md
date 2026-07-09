@@ -24,7 +24,7 @@
 
 ## Idea
 
-One of the [[exceptional Lie groups]].
+One of the [[exceptional Lie group|exceptional Lie groups]].
 
 ## Definition
  {#Definition}
