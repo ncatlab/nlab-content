@@ -1,3 +1,4 @@
+[[!redirects foundation of mathematics]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
