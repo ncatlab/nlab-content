@@ -39,7 +39,7 @@ For a philosophical treatment of foundations see [[foundations and philosophy]].
 
 Almost all [[foundations of mathematics]] are expressed in some foundational [[deductive system]]. 
 
-One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]], as well as typed [[higher-order logic]].
+One versatile deductive system is [[natural deduction]], which could be used to define certain foundations of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]], as well as typed [[higher-order logic]].
 
 Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]] and untyped higher-order logic, as well as [[lambda-calculus]] for [[type theories]]. 
 
