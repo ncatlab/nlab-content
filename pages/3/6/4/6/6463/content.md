@@ -384,7 +384,7 @@ $d(f) : d(A) \to d(B)$ of the associated diagonal complexes.
 +-- {: .proof}
 ###### Proof
 
-This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of ([GoerssJardine](#GoerssJardine))
+This is Lemma 2.6 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of ([GoerssJardine](#GoerssJardine))
 
 
 =--
