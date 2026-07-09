@@ -30,7 +30,7 @@ One of the [[exceptional Lie groups]].
 
 ### As automorphisms of the exceptional Jordan algebra
 
-The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the vector space underlying the [[octonionic Albert algebra]] is  ${E}_{6(-26)}$. (see e.g. ([Manogue-Dray 09](#ManogueDray09))).
+The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the [[vector space]] underlying the [[octonionic Albert algebra]] is  ${E}_{6(-26)}$. (see e.g. ([Manogue-Dray 09](#ManogueDray09))).
 
 This may be written as $SL(3,\mathbb{O})$. ([Dray-Manogue 09a (16)](#DrayManogue09a))
 
