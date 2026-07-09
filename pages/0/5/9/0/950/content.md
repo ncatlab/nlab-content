@@ -33,7 +33,7 @@ One definition of finite mathematics is as the mathematics of [[FinSet]]. This i
 
 ### Neutral finite mathematics
 
-An alternative definition of finite mathematics is **neutral finite mathematics**; i.e. mathematics done internally to an [[elementary topos]] (constructively) or [[Boolean topos]] (classically), but which does not assume either the [[axiom of infinity]] or the [[axiom of finiteness]]. There are no [[natural numbers]]; instead one works directly with the [[finite sets]] in neutral finite mathematics in neutral finite mathematics. 
+An alternative definition of finite mathematics is **neutral finite mathematics**; i.e. mathematics done internally to an [[elementary topos]] (constructively) or [[Boolean topos]] (classically), but which does not assume either the [[axiom of infinity]] or the [[axiom of finiteness]]. There are no [[natural numbers]]; instead one works directly with the [[finite sets]] in neutral finite mathematics. 
 
 Alternatively, one can attempt to approximate arithmetic in the natural numbers by considering increasing long [[tuples]] of digits - elements of a [[finite set]] $D$, via the inclusions
 
