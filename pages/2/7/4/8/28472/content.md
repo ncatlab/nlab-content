@@ -54,6 +54,9 @@ On models of [[cosmic inflation]] in [[D=4 supergravity]] and the [$\alpha$-attr
 
 * {#Villa2025} Gonzalo Villa: *Remarks on brane-antibrane inflation*, PoS **474** (2025)  \[<a href="https://doi.org/10.22323/1.474.0006">doi:10.22323/1.474.0006</a>, [arXiv:2501.09074](https://arxiv.org/abs/2501.09074)\]
 
+* [[Renata Kallosh]], [[Andrei Linde]]: *Unification of polynomial and exponential cosmological attractors* \[<a href="https://arxiv.org/abs/2607.07684">arXiv:2607.07684</a>\]
+
+
 
 Discussion in [[D=6 supergravity]] with 3-[[branes]]:
 
