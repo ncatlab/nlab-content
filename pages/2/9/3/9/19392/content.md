@@ -104,6 +104,9 @@ However, this is equivalent to our above presentation because for any $a:v$, we 
 
 * The linear term judgment in [[linear-non-linear logic]] can be seen as extending the call-by-push-value stack judgment to allow for "multi-hole" stacks.
 
+* [[call-by-name]]
+* [[call-by-value]]
+
 ## References
 
 * [[Paul-Blain Levy]], [_Call-by-Push-Value: A Subsuming Paradigm_, TLCA 1999](https://link.springer.com/chapter/10.1007/3-540-48959-2_17)
@@ -113,6 +116,3 @@ However, this is equivalent to our above presentation because for any $a:v$, we 
 * {#EEC} Jeff Egger, Rasmus Ejlers Møgelberg and Alex Simpson, [The Enriched Effect Calculus: Syntax and Semantics](https://pdfs.semanticscholar.org/2f3f/21259ffaa5cc56bb280914a028cfed3454e2.pdf), Journal of Logic and Computation, Volume 24.
 
 * {#LSR} [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
-
-
-[[!redirects call-by-name]]
