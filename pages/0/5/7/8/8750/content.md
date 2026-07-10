@@ -99,6 +99,13 @@ But a $\mathcal{V}$-enriched natural transformation $\alpha$ is by definition a 
 
 * {#Kelly82} [[Max Kelly]], Chapter 1 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
+On [[colimits]] in $\mathcal{V}$Cat:
+
+* Andy Sukowski-Bang: *Colimits of Enriched Categories* &lbrack;[arXiv:2607.07780](https://arxiv.org/abs/2607.07780)&rbrack;
+
+
+
+
 
 
 category: category
