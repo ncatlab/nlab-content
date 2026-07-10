@@ -136,7 +136,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    X &\stackrel{=}{to}& X
+    X &\stackrel{=}{\to}& X
   }
   \,.
 $$
