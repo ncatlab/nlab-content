@@ -1042,7 +1042,7 @@ $$
   \array{
     && Y
     \\
-    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{X^{\delta_0}}}
+    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{Y^{\delta_0}}}
     \\
     X &\stackrel{\eta}{\longrightarrow}& Y^I
     \\
@@ -6141,6 +6141,7 @@ $$
 $$
 
 is [[left adjoint]] to the [[smash product]] operation on [[pointed topological space|pointed]] [[compactly generated topological spaces]].
+
 
 $$
   Top_{cg}^{\ast/}
