@@ -14,109 +14,159 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-For $\mathfrak{g}$ a [[Lie algebra]], the [[underlying]] [[dual vector space]] $\mathfrak{g}^*$ canonically inherits the structure of a [[Poisson manifold]] whose Poisson [[Lie bracket]] reduces on [[linear functions]] $\mathfrak{g} \hookrightarrow C^\infty(\mathfrak{g}^*)$ to the original [[Lie bracket]] on $\mathfrak{g}$. This is the **Lie-Poisson structure** on $\mathfrak{g}^*$. 
+For $\mathfrak{g}$ a ([[finite-dimensional vector space|finite-dimensional]]) [[Lie algebra]], the [[underlying]] [[dual vector space]] $\mathfrak{g}^*$ canonically inherits the structure of a [[Poisson manifold]] whose Poisson [[Lie bracket]] reduces on [[linear functions]] $\mathfrak{g} \hookrightarrow C^\infty(\mathfrak{g}^*)$ to the original [[Lie bracket]] on $\mathfrak{g}$. This is the **Lie-Poisson structure** on $\mathfrak{g}^*$. 
 
 More generally, for $\mathfrak{a}$ a [[Lie algebroid]] the fiberwise dual $\mathfrak{a}^*$ inherits such a Poisson manifold structure.
 
 [[Poisson manifold]] structures of this form are also called _[[linear Poisson structures]]_.
 
 ## Definition
+ {#Definition}
+
+Throughout, $\mathfrak{g}$ denotes a [[finite-dimensional vector space|finite-dimensional]] [[Lie algebra]].
 
 ### Abstractly
 
-First notice that for $f \in C^\infty(\mathfrak{g}^\ast)$ as smooth function on the dual of a Lie algebra, then its [[de Rham differential]] 1-form at some $\alpha \in \mathfrak{g}^\ast$, being a linear map
+First notice that for $f \in C^\infty(\mathfrak{g}^\ast)$ a [[smooth function]] on the [[dual vector space|dual]] of a [[Lie algebra]], its [[de Rham differential]] [[differential 1-form|1-form]] at some $\alpha \in \mathfrak{g}^\ast$, being a [[linear map]] out of the [[tangent space]] at that point,
 
 $$
   \mathbf{d} f|_{\alpha}
-  \colon
-  T_\alpha \mathfrak{g}^\ast
-  =
+  \;\colon\;
+  T_\alpha \big(\mathfrak{g}^\ast\big)
+  \simeq
   \mathfrak{g}^\ast
-  \longrightarrow
+    \longrightarrow
   \mathbb{R}
+  \mathrlap{\,,}
 $$
 
-is canonically identified with a Lie algebra element itself.
+is canonically identified with an element of the Lie algebra itself:
 
-With this understood, then for $f,g \in C^\infty(\mathfrak{g}^*)$ two [[smooth functions]] on $\mathfrak{g}^*$ their Poisson [[Lie bracket]] in the Lie-Poisson structure is defined by
+\[
+  \label{1FormAtPointAsLieAlgebraElement}
+  \mathbf{d} f\vert_{\alpha}
+  \in
+  \big(\mathfrak{g}^\ast\big)^\ast
+  \simeq
+  \mathfrak{g}
+  \mathrlap{\,.}
+\] 
+
+With this understood, then for $f,g \in C^\infty(\mathfrak{g}^*)$ a [[pair]] of [[smooth functions]] on $\mathfrak{g}^*$, their Poisson [[Lie bracket]] in the Lie-Poisson structure is defined by
+
+\[
+  \label{TheLiePoissonBracket}
+  \{f,g\} 
+    \;\colon\; 
+  \theta 
+    \mapsto 
+   -\theta 
+   \big(
+     [\mathbf{d} f, \mathbf{d} g]
+   \big)
+  \mathrlap{\,,}
+\]
+
+where $[-,-]$ denotes the [[Lie bracket]] of $\mathfrak{g}$, applied to 1-forms according to (eq:1FormAtPointAsLieAlgebraElement).
+
+In particular, for an element $v\in \mathfrak{g}$ regarded as a [[linear function]] $\langle -,v\rangle$ on $\mathfrak{g}^\ast$, then under the above identification we have 
 
 $$
-  \{f,g\} \;\colon\; \theta \mapsto -\theta ([\mathbf{d} f, \mathbf{d} g])
-  \,.
-$$
+  \mathbf{d} \langle -,v\rangle 
+    = 
+  v
+  \mathrlap{\,.}
+$$ 
 
-Notice that for $v\in \mathfrak{g}$ regarded as a linear function $\langle -,v\rangle$ on $\mathfrak{g}^\ast$, then under the above identification we have $\mathbf{d} \langle -,v\rangle = v$. This means that on linear functions the Lie-Poisson bracket is simply the original Lie bracket:
+This entails that on [[linear functions]] the Lie-Poisson bracket (eq:TheLiePoissonBracket) reduces to the original [[Lie bracket]], in that
 
 $$
-  \left\{
+  \big\{
     \langle -, v_1\rangle,
     \langle -, v_2\rangle,
-  \right\}
+  \big\}
   = 
-  \langle - ,[v_1,v_2]\rangle
+  \big\langle - ,[v_1,v_2]\big\rangle
   \,.
 $$
 
-This Lie-Poisson structure may be thought of as the unique smooth extension of this bracket on linear functions to all smooth functions on $\mathfrak{g}^\ast$.
+Conversely, the Lie-Poisson structure (eq:TheLiePoissonBracket) may be thought of as the unique smooth extension of this bracket on linear functions to all smooth functions on $\mathfrak{g}^\ast$.
+
 
 ### In components
  {#DefinitionInComponents}
 
-Let $\{x^a\}$ be a [[basis]] for the [[vector space]] underlying the given [[Lie algebra]] $\mathfrak{g}$. Write $\{C^{a b}{}_c\}$  for the components of the [[Lie bracket]] $[-,-]$ in this basis (the structure constants), given by
+Consider: 
+
+* $\{x^a\}$ a [[linear basis]] for the [[vector space]] [[underlying]] the given [[Lie algebra]] $\mathfrak{g}$,
+
+* $\{C^{a b}{}_c\}$ the components of the [[Lie bracket]] $[-,-]$ in this basis (the structure constants), determined by
+
+  $$
+    [x^a,x^b] 
+      = 
+    \textstyle{\underset{c}{\sum}} 
+      C^{a b}{}_c x^c
+    \,,
+  $$
+
+* $\{\partial_a\}$ the [[dual basis]] of the [[dual vector space]] $\mathfrak{g}^\ast$, so that the pairing $\mathfrak{g}^\ast \otimes\mathfrak{g} \to \mathbb{R}$ is given by
+
+  $$
+    \partial_a x^b 
+      = 
+    \delta_a^b 
+      = 
+    \left\{
+      \array{
+        1 & \text{if}\; a=b
+        \\
+        0 & \text{otherwise.}
+      }
+    \right.
+  $$
+
+As the notation is meant to suggest, dually the $\{x^a\}$ may be regarded as a linear basis for the linear functions on $\mathfrak{g}^\ast$ and the $\{\partial_a\}$ serve as a basis of [[vector fields]] on $\mathfrak{g}^\ast$.
+
+With this identification understood, the [[multivector fields]] on $\mathfrak{g}^\ast$ are spanned by elements of the form (using [[Einstein summation convention]]):
 
 $$
-  [x^a,x^b] = \underset{c}{\sum} C^{a b}{}_c x^c
-  \,.
+  v^{a_1 \cdots a_q} 
+   \partial_{a_1}
+     \wedge 
+     \cdots 
+     \wedge  
+   \partial_{a_q}
 $$
 
-Write $\{\partial_a\}$ for the dual basis of the [[dual vector space]] $\mathfrak{g}^\ast$, so that the pairing $\mathfrak{g}^\ast \otimes\mathfrak{g} \to \mathbb{R}$ is given by
+for $\{v^{a_1 \cdots a_q}\}$ smooth functions on $\mathfrak{g}^\ast$. 
+
+The [[Poisson tensor]] $\pi \in \wedge^2 \Gamma(T\mathfrak{g}^\ast)$ of the Lie-Poisson structure is then given by
 
 $$
-  \partial_a x^b = \delta_a^b = 
-  \left\{
-    \array{
-      1 & if\; a=b
-      \\
-      0 & otherwise
-    }
-  \right.
-$$
-
-As the notation is meant to suggest, dually the $\{x^a\}$ may be regarded as basis for the linear functions on $\mathfrak{g}^\ast$ and the $\{\partial_a\}$ serve as a basis of [[vector fields]] on $\mathfrak{g}^\ast$.
-
-With this identification understood, the [[multivector fields]] on $\mathfrak{g}^\ast$ are spanned by elements of the form
-
-$$
-  v^{a_1 \cdots a_q} \partial_{a_1}\wedge \cdots \wedge \partial_{a_q}
-$$
-
-(with the sum over indices understood) for $\{v^{a_1 \cdots a_q}\}$ smooth functions on $\mathfrak{g}^\ast$. 
-
-The [[Poisson tensor]] $\pi \in \wedge^2 \Gamma(T\mathfrak{g}^\ast)$ of the Lie-Poisson structure is given by
-
-$$
-  \pi = \tfrac{1}{2}\underset{a,b,c}{\sum} C^{a b}{}_c x^c \partial_a \wedge \partial_b
+   \pi 
+     \,=\, 
+   \tfrac{1}{2}
+   \textstyle{\underset{a,b,c}{\sum}}
+   C^{a b}{}_c 
+    x^c \partial_a \wedge \partial_b
   \,.
 $$
 
 The [[Schouten bracket]] on multivector fields is given on linear basis elements by
 
 $$
-  \{x^a, x^b\}_{Sch} = 0
-$$
-
-$$
-  \{\partial_a, x^b\}_{Sch} = \delta_a^b
-$$
-
-$$
-  \{\partial_a, \partial_b\}_{Sch} = 0
+  \begin{aligned}
+  \big\{x^a, x^b\big\}_{Sch} & = 0
+  \\
+  \big\{\partial_a, x^b\big\}_{Sch} & = \delta_a^b
+  \\
+  \big\{\partial_a, \partial_b\big\}_{Sch} & = 0
+  \end{aligned}
 $$
 
 (the [[canonical commutation relations]]) and extended as a graded [[derivation]] in both arguments.
@@ -127,6 +177,7 @@ $$
 ### Deformation quantization by universal enveloping algebra
 
 See at _[[formal deformation quantization]]_ the section _[Relation to universal enveloping algebras](formal+deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
+
 
 ### Symplectic groupoid
 
