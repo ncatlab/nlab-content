@@ -350,7 +350,10 @@ Other references include
 
 * [[Jiří Adámek]], [[Lurdes Sousa]], _D-Ultrafilters and their Monads_, ([arXiv:1909.04950](https://arxiv.org/abs/1909.04950))
 
-* {#Sipos} [[Andrei  Sipoş]], _Codensity and Stone spaces_,  Mathematica Slovaca, 68 no. 1, p. 57–70, (2018). [doi:10.1515/ms-2017-0080](https://doi.org/10.1515/ms-2017-0080),  ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
+* {#Sipos} Andrei  Sipoş, _Codensity and Stone spaces_,  Mathematica Slovaca, 68 no. 1, p. 57–70, (2018). [doi:10.1515/ms-2017-0080](https://doi.org/10.1515/ms-2017-0080),  ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
+
+* Fabian Lenke, Nico Wittrock, Stefan Milius, Henning Urbat, *Demystifying Codensity Monads via Duality* &lbrack;[arXiv:2509.26197](https://arxiv.org/abs/2509.26197)&rbrack;
+
 
 [[!redirects codensity monads]]
 [[!redirects density comonad]]
