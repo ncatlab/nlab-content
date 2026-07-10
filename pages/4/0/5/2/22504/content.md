@@ -245,7 +245,7 @@ $$
 where 
 
 $$
-  content(i,j) \;\coloneqq\; j - 1
+  content(i,j) \;\coloneqq\; j - i
   \,,
   {\phantom{AAAA}}
   \ell hook(i,j) 
