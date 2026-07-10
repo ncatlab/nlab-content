@@ -10,14 +10,13 @@
 =--
 
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
 
-Recall (eg. from [here](monad#RelationBetweenAdjunctionsAndMonads)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ induces a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
+Recall (eg. from [here](monad#RelationBetweenAdjunctionsAndMonads)) that every [[adjoint functor|pair of adjoint functors]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ induces a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
 
 The notion of the *codensity monad* $\mathbb{T}^G$ is a generalization of this construction to functors $G \colon \mathcal{B}\to\mathcal{A}$ that need not be [[right adjoints]] but do at least admit a right [[Kan extension]] $Ran_G G$ along themselves, such that both constructions agree when $G$ is in fact a [[right adjoint]].
 
@@ -314,15 +313,15 @@ Codensity monads arising from subcategory inclusions are studied in
 
 The role in shape theory is discussed in
 
-* Armin Frei, _On categorical shape theory_ , Cah. Top. Géom. Diff. **XVII** no.3 (1976) pp.261-294. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_3_261_0))
+* [[Armin Frei]]: _On categorical shape theory_, Cah. Top. Géom. Diff. **XVII** 3 (1976) 261--294 &lbrack;[numdam:CTGDC_1976__17_3_261_0](http://www.numdam.org/item/?id=CTGDC_1976__17_3_261_0)&rbrack;
 
-* D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+* [[Dominique Bourn]], [[Jean-Marc Cordier]]: _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
-* J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+* [[Jean-Marc Cordier]], [[Tim Porter|T. Porter]]: _Shape Theory: Categorical Methods of Approximation_ (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 The dual concept of a "model-induced cotriple":
 
-* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
+* [[Harry Applegate]], [[Myles Tierney]]: *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
 
 On possible uses in [[functional programming]]:
 
@@ -332,27 +331,28 @@ For a description of the [[Giry monad]] and other [[probability monads]] as code
 
 * {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, Journal of Pure and Applied Algebra **220** 3 (2016) 1229-1251 &lbrack;[arXiv:1410.4432](https://arxiv.org/abs/1410.4432), [doi:10.1016/j.jpaa.2015.08.017](https://doi.org/10.1016/j.jpaa.2015.08.017)&rbrack;
 
-* Ruben Van Belle, _Probability monads as codensity monads_. Theory and Applications of Categories 38 (2022), 811–842, ([tac](http://tac.mta.ca/tac/volumes/38/21/38-21abs.html))
+* Ruben Van Belle: _Probability monads as codensity monads_, Theory and Applications of Categories **38** (2022) 811--842 &lbrack;[tac:38-21](http://tac.mta.ca/tac/volumes/38/21/38-21abs.html)&rbrack;
 
-Other references include
+Further references:
 
-* {#BC80} [[Dominique Bourn]] and Jean-Marc Cordier, _Distributeurs et théorie de la forme_, Cahiers de topologie et géométrie différentielle 21.2 (1980): 161-189.
+* {#BC80} [[Dominique Bourn]], [[Jean-Marc Cordier]]: _Distributeurs et théorie de la forme_, Cahiers de topologie et géométrie différentielle **21** 2 (1980) 161--189
 
-* {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
+* {#Avery17} [[Tom Avery]]: _Structure and Semantics_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
 
-* C. Casacuberta, A. Frei, _Localizations as idempotent approximations to completions_ , JPAA **142** (1999) no. 1 pp.25–33. ([draft](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+* [[Carles Casacuberta]], A. Frei: _Localizations as idempotent approximations to completions_ , JPAA **142** 1 (1999) 25--33. &lbrack;[pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf)&rbrack;
 
-* Yves Diers, _Complétion monadique_ , Cah. Top. Géom. Diff. Cat. **XVII** no.4 (1976) pp.362-379. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_4_363_0))
+* [[Yves Diers]]: _Complétion monadique_, Cah. Top. Géom. Diff. Cat. **XVII**  4 (1976) 362--379 &lbrack;[numdam:CTGDC_1976__17_4_363_0](http://www.numdam.org/item/?id=CTGDC_1976__17_4_363_0)&rbrack;
 
-* S. Katsumata, T. Sato, [[Tarmo Uustalu|T. Uustalu]], _Codensity lifting of monads and its dual_ , arXiv:1810.07972 (2012). ([abstract](https://arxiv.org/abs/1810.07972))
 
-* [[Joachim Lambek|J. Lambek]], B. A. Rattray, _Localization and Codensity Triples_ , Comm. Algebra **1** (1974) pp.145-164.
+* S. Katsumata, T. Sato, [[Tarmo Uustalu|T. Uustalu]]: _Codensity lifting of monads and its dual_  &lbrack;[arXiv:arXiv:1810.07972](https://arxiv.org/abs/1810.07972)&rbrack;
 
-* [[Jiří Adámek]], [[Lurdes Sousa]], _D-Ultrafilters and their Monads_, ([arXiv:1909.04950](https://arxiv.org/abs/1909.04950))
+* [[Joachim Lambek|J. Lambek]], B. A. Rattray: _Localization and Codensity Triples_, Comm. Algebra **1** (1974) 145--164.
 
-* {#Sipos} Andrei  Sipoş, _Codensity and Stone spaces_,  Mathematica Slovaca, 68 no. 1, p. 57–70, (2018). [doi:10.1515/ms-2017-0080](https://doi.org/10.1515/ms-2017-0080),  ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
+* [[Jiří Adámek]], Lurdes Sousa: _D-Ultrafilters and their Monads_ &lbrack;[arXiv:1909.04950](https://arxiv.org/abs/1909.04950)&rbrack;
 
-* Fabian Lenke, Nico Wittrock, Stefan Milius, Henning Urbat, *Demystifying Codensity Monads via Duality* &lbrack;[arXiv:2509.26197](https://arxiv.org/abs/2509.26197)&rbrack;
+* {#Sipos} Andrei  Sipoş, _Codensity and Stone spaces_,  Mathematica Slovaca **68** 1 (2018) 57--70 &lbrack;[doi:10.1515/ms-2017-0080](https://doi.org/10.1515/ms-2017-0080),  [arXiv:1409.1370](https://arxiv.org/abs/1409.1370)&rbrack;
+
+* Fabian Lenke, Nico Wittrock, Stefan Milius, Henning Urbat: *Demystifying Codensity Monads via Duality* &lbrack;[arXiv:2509.26197](https://arxiv.org/abs/2509.26197)&rbrack;
 
 
 [[!redirects codensity monads]]
