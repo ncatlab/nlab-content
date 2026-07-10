@@ -19,7 +19,7 @@
 
 _Call-by-value_ (CbV) is a widely used [[evaluation strategy]]
 for the [[λ-calculus]] and many [[programming languages]].
-It is often studied in comparison with _call-by-name_ (CbN).
+It is often studied in comparison with _[[call-by-name]]_ (CbN).
 
 ## Reduction rules
 
@@ -40,9 +40,9 @@ as terms inside abstractions cannot be reduced.
 In the presence of [[side effects]],
 such as state mutation or random number sampling,
 the unrestricted $\beta$ reduction is no longer confluent,
-and CbV and CbN no longer always agree on computations.
+and CbV and CbN no longer always agree on all computations.
 
-For example, only in the former is `(fun x -> x + x) (random 0 1)` always even.
+For example, only in the former is `(fun x -> x + x) (random 0 1) : int` always even.
 
 ## Denotational semantics
 
