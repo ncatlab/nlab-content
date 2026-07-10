@@ -23,10 +23,8 @@
 
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -36,11 +34,12 @@ Notice that in the proper [[nLab:(∞,1)-topos]]-context the _universal_ $G$-[[n
 
 $$
   \array{
-    P &\to& *
+    P &\longrightarrow& \ast
     \\
-    \downarrow &{}^{\mathllap{\simeq}}\swArrow& \downarrow 
+    \big\downarrow &{\mathllap{{}^\simeq}}\swArrow& 
+    \big\downarrow 
     \\
-    X &\stackrel{}{\to}& \mathbf{B}G
+    X &\longrightarrow& \mathbf{B}G
   }
 $$
 
@@ -61,11 +60,14 @@ By standard results on [[homotopy pullback]]s every morphism $\mathbf{E}G \to \m
 
    $$
      \array{
-       \mathbf{E}G &\stackrel{\simeq}{\to}& *
+       \mathbf{E}G 
+         &\overset{\sim}{\longrightarrow}& \ast
        \\
-       \downarrow && \downarrow
+       \big\downarrow && \big\downarrow
        \\
-       \mathbf{B}'G &\stackrel{\simeq}{\to}& \mathbf{B}G
+       \mathbf{B}'G 
+         &\underset{\sim}{\longrightarrow}& 
+     \mathbf{B}G
      }
    $$
 
@@ -81,15 +83,16 @@ by standard results on [[homotopy pullback]]s, we have that the bundle $P \to X$
 
 $$
   \array{
-     P &\to& &\to& *
+     P &\longrightarrow& &\longrightarrow& \ast
      \\
-     \downarrow && && \downarrow
+     \big\downarrow && && \big\downarrow
      \\
-     && (\mathbf{B}G)^I &\stackrel{\simeq}{\to}& \mathbf{B}G
+     && (\mathbf{B}G)^I 
+      &\overset{\sim}{\longrightarrow}& \mathbf{B}G
      \\
-     \downarrow && \downarrow^{\mathrlap{\simeq}}
+     \big\downarrow && \big\downarrow{\mathrlap{{}^\simeq}}
      \\
-     * &\to& \mathbf{B}G
+     \ast &\longrightarrow& \mathbf{B}G
   }
   \,,
 $$
@@ -100,15 +103,15 @@ This limit may be computed as two consecutive [[pullback]]s
 
 $$
   \array{
-     P &\to& \mathbf{E}G &\to& *
+     P &\longrightarrow& \mathbf{E}G &\longrightarrow& \ast
      \\
-     \downarrow && && \downarrow
+     \big\downarrow && && \big\downarrow
      \\
-     && (\mathbf{B}G)^I &\to& \mathbf{B}G
+     && (\mathbf{B}G)^I &\longrightarrow& \mathbf{B}G
      \\
-     \downarrow && \downarrow
+     \big\downarrow && \big\downarrow
      \\
-     * &\to& \mathbf{B}G
+     \ast &\longrightarrow& \mathbf{B}G
   }
   \,.
 $$
@@ -116,7 +119,9 @@ $$
 The intermediate pullback
 
 $$
-  \mathbf{E}G := (\mathbf{B}G)^I \times_{\mathbf{B}G} *
+  \mathbf{E}G 
+    \coloneqq 
+  (\mathbf{B}G)^I \times_{\mathbf{B}G} *
 $$
 
 is the path fibration over $\mathbf{B}G$. By the [[factorization lemma]] we have that the projection $\mathbf{E}G \to \mathbf{B}G$ is indeed a fibration and by the fact that the acyclic fibration $(\mathbf{B}G)^I \to \mathbf{B}G$ is preserved under pullback that indeed $\mathbf{E}G \to *$ is a weak equivalence.
@@ -132,11 +137,11 @@ For $X$ a [[Kan complex]] with a single vertex, the [[decalage]] construction $D
 
 $$
   \array{
-    Dec X &\stackrel{\simeq}{\to}& * 
+    Dec X &\overset{\sim}{\longrightarrow}& * 
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
-    X &\stackrel{=}{\to}& X
+    X &\underset{=}{\longrightarrow}& X
   }
   \,.
 $$
@@ -144,7 +149,9 @@ $$
 For $G$ a [[simplicial group]] the standard simplicial model for the [[delooping]] of $G$ in $\mathbf{H} = $[[∞Grpd]] is denoted $\bar W G$. This is a Kan complex with a single vertex and $Dec \bar W G$ is the standard model for the universal [[simplicial principal bundle]], traditionally written $W G$.
 
 $$
-  Dec \bar W G = W G \to \bar W G
+  Dec \bar W G 
+   \,=\, 
+  W G \to \bar W G
   \,.
 $$
 
