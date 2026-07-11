@@ -74,7 +74,7 @@ On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant
 
 On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]]:
 
-* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]]: *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247--274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
 * [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]]: *Heisenberg Groups and Noncommutative Fluxes*, Annals Phys. **322** (2007) 236--285 &lbrack;[arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
 
