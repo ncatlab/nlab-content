@@ -1,5 +1,5 @@
 
-> Not to be confused with [[Weyl group]].
+> Not to be confused with *[[Weyl group]]*.
 
 ***
 
@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Definition
