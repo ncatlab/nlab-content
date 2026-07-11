@@ -1,5 +1,5 @@
 
-> Not to be confused with [[Weil group]].
+> Not to be confused with *[[Weil group]]*.
 
 ***
 
@@ -22,9 +22,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
