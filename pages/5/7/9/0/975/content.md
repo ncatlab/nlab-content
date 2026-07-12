@@ -32,7 +32,7 @@ This entry is to record the reference:
 
   Springer (2006)
 
-  [doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4)
+  [doi:10.1007/3-540-27950-4](https://doi.org/10.1007/3-540-27950-4)
 
   [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)
 
