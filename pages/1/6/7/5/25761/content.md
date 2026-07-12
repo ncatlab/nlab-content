@@ -22,7 +22,7 @@
 ## Idea
  {#Idea}
 
-What is called *Hodge-filtered cohomogy* &lbrack;[Hopkins & Quick (2014)](#HopkinsQuick14)&rbrack; is the variant of [[differential generalized cohomology]] obtained by passing from real [[differential geometry]] to [[complex geometry]]: 
+What is called *Hodge-filtered cohomology* &lbrack;[Hopkins & Quick (2014)](#HopkinsQuick14)&rbrack; is the variant of [[differential generalized cohomology]] obtained by passing from real [[differential geometry]] to [[complex geometry]]: 
 
 Where [[differential cohomology]] by default  pairs a given   [[Whitehead-generalized cohomology theory]] $E$ of [[underlying]] [[topological spaces]] with the degree-filtered $E_\bullet \otimes \mathbb{R}$-valued [[de Rham complexes]] of [[differential forms]] on real [[smooth manifolds]], the Hodge-filtered variant pairs instead with the [[Hodge filtration|Hodge filtered]] $E_\bullet \otimes \mathbb{C}$-valued [[Dolbeault complexes]] &lbrack;[Haus & Quick (2022), p. 3](HausQuick22)&rbrack;, hence equivalently (see [there](Hodge+structure#HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure)) with the degree-filtered [[holomorphic de Rham complexes]] &lbrack;[Hopkins & Quick (2014), Def. 4.2](#HopkinsQuick14)&rbrack;.
 
