@@ -33,9 +33,9 @@ Therefore:
 ###### Remark
 **([[relation between preorders and (0,1)-categories]])**
 \linebreak
-An $(0,1)$-category is [[equivalence of categories|equivalently]] [[preordered]].
+An $(0,1)$-category is [[equivalence of categories|equivalently]] a [[preorder]].
 
-Since every hom-$\infty$-groupoid is [[(-1)-truncated]], it is a [[subsingleton]], so there is at most one morphism from any object to any other; hence the $(0,1)$-category is [[preordered]] by the relation on objects that there exists an element of the hom-$\infty$-groupoid between two objects.
+Since every hom-$\infty$-groupoid is [[(-1)-truncated]], it is a [[subsingleton]], so there is at most one morphism from any object to any other; hence the $(0,1)$-category is a [[preorder]] by the relation on the [[collection]] of objects that there exists an element of the hom-$\infty$-groupoid between two objects.
 =--
 
 ## Segal / Rezk completeness
