@@ -55,7 +55,7 @@ Monographs:
 
 * [[Glen E. Bredon]]: *Sheaves and Presheaves*, chapter I of: *Sheaf Theory*, Graduate Texts in Mathematics **170**, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0647-7](https://doi.org/10.1007/978-1-4612-0647-7)&rbrack;
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], section 18 of: _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], section 18 of: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006),   [doi:10.1007/3-540-27950-4](https://doi.org/10.1007/3-540-27950-4)
 
 category: sheaf theory
 
