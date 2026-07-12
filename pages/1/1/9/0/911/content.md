@@ -79,7 +79,7 @@ Given a functor $F \colon \mathcal{C} \to \mathbf{Set}$, the **category of eleme
 \end{tikzcd}
 \end{center}
 
-  $El_F(\mathcal{C})$ is also often written with [[end|coend]] notation as $\int^\mathcal{C} F$, $\int^{c: \mathcal{C}} F(c)$, or $\int^c F(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $F(c)$.
+  $El_F(\mathcal{C})$ is also often written with integral notation as $\int F$. This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $F(c)$.
 
 * It is the (strict) [[oplax colimit]] of the composite $\mathcal{C} \xrightarrow{F} \mathbf{Set} \xrightarrow{disc} \mathbf{Cat}$; see [[Grothendieck construction]].
 
