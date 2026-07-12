@@ -57,6 +57,11 @@ from which it follows that $R^n \subseteq R$ for any positive [[natural number]]
 Transitive relations might be understood as the most rudimentary notion of *[[orders]]*, but rarely are without further requirements. (Some discussion to this effect is at [math.SE:a/2210713](https://math.stackexchange.com/a/2210713/58526).)
 \end{remark}
 
+## Related concepts
+
+* [[relation]]
+
+* [[preorder]]
 
 [[!redirects transitive relation]]
 [[!redirects transitive relations]]
