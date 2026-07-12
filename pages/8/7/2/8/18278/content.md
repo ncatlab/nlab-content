@@ -54,7 +54,7 @@ $$
 
 2. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ the functor $Hom_{\mathcal{C}}(-, Y)$ preserves it (viewing it as a limit over $X_\bullet^{op}$).
 $$
-\Hom_\mathcal{C}\left(\underset{\longrightarrow}{\lim}_i X_i, Y\right) \simeq \underset{\longrightarrow}{\lim}_i \Hom_C(X_i,Y)
+\Hom_\mathcal{C}\left(\underset{\longrightarrow}{\lim}_i X_i, Y\right) \simeq \underset{\longleftarrow}{\lim}_i \Hom_C(X_i,Y)
 $$
 
 
