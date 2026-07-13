@@ -40,7 +40,7 @@ This construction globalizes and may be applied to p-adic [[formal schemes]] ins
 
 The syntomic site was introduced in
 
-* Jean-Marc Fontaine and [[William Messing]], _$p$-Adic periods and $p$-adic etale cohomology_ ([pdf](http://www.ams.org/publications/online-books/conm67-conm67-ch4.pdf))
+* [[Jean-Marc Fontaine]] and [[William Messing]], _$p$-Adic periods and $p$-adic etale cohomology_ ([pdf](http://www.ams.org/publications/online-books/conm67-conm67-ch4.pdf))
 
 A construction of syntomic cohomology via [[prismatic cohomology]] is briefly discussed in
 
