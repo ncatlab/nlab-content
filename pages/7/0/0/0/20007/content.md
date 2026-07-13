@@ -127,6 +127,14 @@ For $F = P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of 
 
 * {#Riehl14} [[Emily Riehl]], lemma 3.4.3 inL _[[Categorical Homotopy Theory]]_, Cambridge University Press (2014)
 
+For [[monoidal model categories]]:
+
+* Kimball Strong: *Change of Enrichment for Monoidal Model Categories* &lbrack;[arXiv:2607.09612](https://arxiv.org/abs/2607.09612)&rbrack;
+
+
+
+
+
 [[!redirects changes of enriching category]]
 [[!redirects changes of enriching categories]]
 [[!redirects change of enriching categories]]
