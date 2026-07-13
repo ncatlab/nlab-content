@@ -39,6 +39,11 @@ On [[mesons]] in the [[large N limit]] of [[QCD]]:
 
 * Jan Albert, Johan Henriksson, [[Leonardo Rastelli]], Alessandro Vichi, *Bootstrapping mesons at large $N$: Regge trajectory from spin-two maximization* &lbrack;[arXiv:2312.15013](https://arxiv.org/abs/2312.15013)&rbrack;
 
+On non-rational [[vertex operator algebras]] from [[D=4 super Yang-Mills theory]]:
+
+* Siqi Chen, Anirudh Deb, [[Leonardo Rastelli]]: *Higgsless Lagrangian SCFTs and Strongly Finite VOAs* &lbrack;[arXiv:2607.08813](https://arxiv.org/abs/2607.08813)&rbrack;
+
+
 
 
 
