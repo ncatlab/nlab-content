@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -223,6 +221,9 @@ On [[orbifolds]] of VOAs
 
 * [[Terry Gannon]], Andrew Riesen: *Orbifolds of Pointed Vertex Operator Algebras I* &lbrack;[arXiv:2410.00809](https://arxiv.org/abs/2410.00809)&rbrack;
 
+On non-rational VOAs from [[D=4 super Yang-Mills theory]]:
+
+* Siqi Chen, Anirudh Deb, [[Leonardo Rastelli]]: *Higgsless Lagrangian SCFTs and Strongly Finite VOAs* &lbrack;[arXiv:2607.08813](https://arxiv.org/abs/2607.08813)&rbrack;
 
 
 
