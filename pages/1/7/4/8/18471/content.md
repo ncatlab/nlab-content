@@ -20,9 +20,9 @@ This page collects material related to the textbook
 
   \linebreak
 
-  Springer 1995
+  Dover Publications (2014)
 
-  [doi:10.1007/978-3-642-57750-5](https://doi.org/10.1007/978-3-642-57750-5)
+  [ISBN:9780486782287](https://store.doverpublications.com/products/9780486782287)
 
 on [[perturbative quantum field theory]] via [[causal perturbation theory]] and its application to the construction of perturbative [[quantum electrodynamics]].
 
