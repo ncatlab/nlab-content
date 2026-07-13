@@ -102,6 +102,11 @@ Duality for hidden Markov models:
 
 * Jin Won Kim, Prashant G. Mehta, *Duality for Nonlinear Filtering I: Observability* &lbrack;[arXiv:2208.06586](https://arxiv.org/abs/2208.06586)&rbrack;; *Duality for Nonlinear Filtering II: Optimal Control* &lbrack;[arXiv:2208.06587](https://arxiv.org/abs/2208.06587)&rbrack;
 
+Duality between *output* controllability and *functional* observability for networks:
+
+* Arthur N. Montanari, Chao Duan, Adilson E. Motter, *Duality between controllability and observability for target control and estimation in networks* &lbrack;[arXiv:2401.16372](https://arxiv.org/abs/2401.16372)&rbrack;
+
+
 
 [[!redirects controllability]]
 [[!redirects observability]]
