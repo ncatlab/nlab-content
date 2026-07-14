@@ -106,6 +106,10 @@ Duality between *output* controllability and *functional* observability for netw
 
 * Arthur N. Montanari, Chao Duan, Adilson E. Motter, *Duality between controllability and observability for target control and estimation in networks* &lbrack;[arXiv:2401.16372](https://arxiv.org/abs/2401.16372)&rbrack;
 
+Duality in forms of [[Petri net]]:
+
+* J.L. García-Malacara, César Arzola, Antonio Ramírez-Treviño, C. Renato Vázquez, *Duality of controllability and observability in proportional equal conflict timed continuous Petri Nets*, Nonlinear Analysis: Hybrid Systems,
+Volume 52, 2024 &lbrack;[doi:10.1016/j.nahs.2023.101455](https://doi.org/10.1016/j.nahs.2023.101455)&rbrack;.
 
 
 [[!redirects controllability]]
