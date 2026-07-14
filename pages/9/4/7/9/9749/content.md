@@ -87,8 +87,6 @@ We can't say much about the $G$-algebras on the category of measurable spaces du
 Let us first note a relationship between the Giry monad on [[standard Borel space]] and the [[Radon monad]].
 Every probability measure on a [[standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Do note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
 
-The Giry monad on Polish spaces uses the weak topology, which is weaker than the weak* topology of the [[Radon monad]].
-
 We now proceed to determine the category of algebras, $\mathbf{Alg}_G$, of the $G$-monad restricted to standard spaces.
    
 If $X$ is any standard space then the space of probability measures $G{X}$ has a [[convex space]] structure defined pointwise: if $\{P_i\}_{i=1}^{n}$ is finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{n} p_i = 1$, the affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
@@ -127,11 +125,11 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
 
-Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
+Given any standard space $A$ and any $P \in G(A)$ let $hom_{\mathbf{Std}}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \mathbb{E}_{P}(f)$ where $\mathbb{E}_{P}(f) = \int_A f \, dP$.  Thus the notation $\tilde{P}$ is shorthand notation for $\mathbb{E}_{P}$. Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
 \begin{equation}
 \phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
-The reader can verify than any such $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
+The reader can verify that for every $P \in G(A)$ that the functional $\tilde{P}$ is an  $\mathbb{R}_{\infty}$-generalized element of $A$, and  $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
 
 We say an object $A$ in $\mathbf{Std} \cap \mathbf{Cvx}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
 \begin{equation}
