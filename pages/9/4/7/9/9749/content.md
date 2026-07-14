@@ -77,15 +77,15 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 
 ### Kleisli category
 
-The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]] (=$Meas_{G}$). 
+The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]] (=$\mathbf{Meas}_{G}$). 
 It is one of the most important examples of a [[Markov category]].
 
 ### Algebras of the Giry Monad on Standard spaces
 
-We can't say much about the $G$-algebras on the category of measurable spaces due to set-theoretical issues, e.g., the hypothesis that measurable cardinals exist.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how every $G$ algebra arises as an expectation map.
+We can't say much about the $G$-algebras on the category of measurable spaces due to set-theoretical issues, e.g., the hypothesis that measurable cardinals exist.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to prove every $G$-algebra arises as an expectation map.
 
 Let us first note a relationship between the Giry monad on [[standard Borel space]] and the [[Radon monad]].
-Every probability measure on a [[standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Do note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
+Every probability measure on a [[standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
 
 We now proceed to determine the category of algebras, $\mathbf{Alg}_G$, of the $G$-monad restricted to standard spaces.
    
@@ -127,9 +127,9 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 Given any standard space $A$ and any $P \in G(A)$ let $hom_{\mathbf{Std}}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \mathbb{E}_{P}(f)$ where $\mathbb{E}_{P}(f) = \int_A f \, dP$.  Thus the notation $\tilde{P}$ is shorthand notation for $\mathbb{E}_{P}$. Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
 \begin{equation}
-\phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
+\phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m)
 \end{equation}
-The reader can verify that for every $P \in G(A)$ that the functional $\tilde{P}$ is an  $\mathbb{R}_{\infty}$-generalized element of $A$, and  $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
+holds.  The reader can verify that for every $P \in G(A)$ that the functional $\tilde{P}$ is an  $\mathbb{R}_{\infty}$-generalized element of $A$, and  $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
 
 We say an object $A$ in $\mathbf{Std} \cap \mathbf{Cvx}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
 \begin{equation}
@@ -231,13 +231,13 @@ Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transforma
 Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{Cvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all affine maps $A \xrightarrow{m} \mathbb{R}_{\infty}$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} \mathbb{R}_{\infty}$ in $\mathbf{Std}_{Cvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std}_{Cvx}$ it follows $\epsilon_A(\delta_a)=a$.
 \end{proof}
 
-A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the unique morphism such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all countably affine measurable functions $A \xrightarrow{m} \mathbb{R}_{\infty}$.
+A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the unique morphism such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all affine measurable functions $A \xrightarrow{m} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
 The function $\epsilon_A$ is a $G$-algebra.
 \end{lemma}
 \begin{proof}The property $\epsilon_A(\delta_a)=a$ follows from the preceding corollary.
-To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by a countably affine measurable map $A \xrightarrow{m} \mathbb{R}_{\infty}$.
+To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by an affine measurable map $A \xrightarrow{m} \mathbb{R}_{\infty}$.
 If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} \mathbb{R}_{\infty}$ are jointly monic on $A$.
 
 A more detailed proof can be found in  ([Sturtz 25](#Sturtz25)).
@@ -270,15 +270,15 @@ The proof is straightforward using the previous lemma.
 Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
-
-
 Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
 \begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{theorem}
-\begin{proof} Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
+\begin{proof}  The preceding remark implies $\mathbf{Std}_{Cvx} \hookrightarrow \mathbf{Alg}_G$.  
 
-Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Std}$-diagram
+To prove the converse condition suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
+
+Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Std}$-diagram
 \begin{tikzpicture}
    \node (G2X) at (-4,0) {$G^2(X)$};
    \node  (GX) at  (-4, -1.5) {$G(X)$};
@@ -314,7 +314,7 @@ Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Std}_{Cvx
 \end{proof}
 
  
-Concerning $P$ algebras, the above method of using generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
+Concerning $P$-algebras, the above method of using generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
