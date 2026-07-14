@@ -45,6 +45,8 @@ For now, see Theorem XI.3.1 (page 257) of [Mac Lane](#MacLane).
 
 * [[coherence theorem]]
 * [[strictification theorem]]
+* [[coherence and strictification for monoidal categories]]
+* [[coherence and strictification for symmetric monoidal bicategories]]
 
 ## References
 
