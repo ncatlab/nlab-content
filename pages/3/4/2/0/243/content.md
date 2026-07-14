@@ -171,13 +171,25 @@ $$
 \int_{c: C} X(-,F(c,c))\,.
 $$
 
-That means that the end $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
+That means that there is an isomorphism of $V$ objects
+
+$$
+X(x,int_{c:C}F(c,c))\cong \int_{c:C} X(x,F(c,c))
+$$
+
+natural in $x$. But then, with a standard Yoneda-like argument, the end $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
 
 $$
 \pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))
 $$ 
 
-in $V$, such that, for every object $x$ of $X$, the family 
+which is the image of the identity $I \to X(\int_{c:C}F,\int_{c:C}F)$ under the isomorphism
+
+$$
+V(I,X(\int_{c:C}F,\int_{c:C}F))\cong V(I,\int_{c:C} X(\int_{c:C}F,F(c,c)))\,.
+$$
+
+This family is such that, for every object $x$ of $X$, the family 
 of maps 
 
 $$
