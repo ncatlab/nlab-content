@@ -877,5 +877,454 @@ Spider lemma (corrected)
 | $g_{\phi\phi}$ | $r^2 \sin^2(\theta)$ | $r^2 \sin^2(\theta)$ | $(r^2 + a^2 + \frac{2 m r a^2 \sin^2(\theta)}{\rho^2}) \sin^2{\theta}$ |
 | $g_{ij}$ $i \neq j$ | all zero | all zero | all zero except $g_{t \phi} = g_{\phi t} = - \frac{2 m r a \sin^2(\theta)}{\rho^2}$ |
 
-beautiful rainbow sand
-___
+
+**INVERSE FUNCTION THEOREM STARTS HERE:**
+
+The multivariable inverse function theorem is typically associated with the operators
+$$
+N_{f,x_0,y}  :  \mathbb{R}^n  \rightarrow \mathbb{R}^n, x  \mapsto x + Df(x_0)^{-1} (y - f(x)) 
+$$
+and to an approach in which a Lipschitz function is used, to the effect that this operator is a contraction within a certain set specified by a small distance:
+$$
+\parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2) \parallel_2 \le C \cdot \parallel x_1 - x_2 \parallel_2
+$$
+This is the approach used in [[#Rudin1976]].
+
+This requires ...
+https://ncatlab.org/nlab/show/Lipschitz+map
+
+\begin{theorem}\label{continuouslydifferentiableLipschitzfunction} (an equivalent condition for a continuously differentiable function defined on an open ball to be Lipschitz) fix $x_0 \in \mathbb{R}^n$ and a positive real number $\delta$. 
+
+Let $f = (f_1,...,f_n) : B_{\delta}(x_0) \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Then $f = (f_1,...,f_n)$ is Lipschitz with Lipschitz constant $C$ if and only if, for each $x \in B_{\delta}(x_0)$, the Jacobian derivative $Df(x)$ of $f$ at $x$ satisfies $  \parallel Df(x)  \parallel_2 \leq C$.
+\end{theorem}
+
+\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \le \delta$ and $  \parallel x_2 - x_0  \parallel_2 \le \delta$, there is an inequality of
+
+$$
+\begin{aligned}
+\|y_1+t(y_2-y_1)\|_2
+&=\|(1-t)y_1+ty_2\|_2\\
+&\le \|(1-t)y_1\|_2+\|ty_2\|_2\\
+&=(1-t)\|y_1\|_2+t\|y_2\|_2\\
+&=(1-t)\delta+t\delta\\
+&=\delta.
+\end{aligned}
+$$
+
+from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \leq $
+let $\gamma_{x_0,\delta, x_1,  x_2} : [0,1] \rightarrow B_{\delta}(x_0)$ be the continuously differentiable function sending $t$ to $x_1 + t \cdot (x_2 - x_1)$.
+
+By the chain rule for continuously differentiable functions, $D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) = Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)$.
+
+If $  \parallel Df(x)  \parallel _2 \leq C$ for each $x \in \mathbb{R}^n$, then we have
+
+$$
+\begin{aligned}
+ &   \parallel  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t)   \parallel _2 \\
+ =\ &   \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\
+ \leq \ &    \parallel  Df(\gamma_{x_0,\delta,x_1,x_2}(t))  \parallel _2 \cdot   \parallel  D\gamma_{x_0,\delta,x_1,x_2}(t)   \parallel _2 \\ 
+ \leq \ & C  \cdot   \parallel x_2 - x_1  \parallel _2
+\end{aligned}
+$$
+
+so
+
+$$
+\begin{aligned}
+\ &   \parallel f(x_2) - f(x_1)  \parallel _2\  \\
+=\ & \left| \left| \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
+\leq \ & \int_0^1 \left| \left|  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
+\ \leq \ & \int_0^1 C \cdot \left| \left| x_2 - x_1  \right| \right|_2 dt  \\
+\ = \ & C \cdot   \parallel x_2 - x_1   \parallel _2 
+\end{aligned}
+$$
+
+where we have used that, for the continuous function 
+
+$$
+D(f \circ \gamma_{x_0,\delta,x_1,x_2}) = \left( D(f \circ \gamma_{x_0,\delta,x_1,x_2})_1,...,D(f \circ \gamma_{x_0,\delta,x_1,x_2})_n \right) : \text{[0,1]} \rightarrow \mathbb{R}^n
+$$
+
+that
+
+$$
+\parallel \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2}) dt \parallel_2 \leq \int_0^1   \parallel D(f \circ \gamma_{x_0,\delta,x_1,x_2})  \parallel_2 dt
+$$
+
+This proves that $f$ is Lipschitz with Lipschitz constant $C$.
+
+Conversely, if $f$ is Lipschitz with Lipschitz constant $C$, then fixing $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \le  \delta$ and any positive real number $\epsilon$, there is a positive real number $\delta'$ such that $B_{\delta'}(x) \subseteq B_{\delta}(x_0)$ and 
+
+$$
+\begin{aligned}
+\forall y \in B_{\delta'}(x), \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \le  \epsilon
+\end{aligned}
+$$
+
+Since $f$ is Lipschitz with Lipschitz constant $C$, 
+
+$$
+\frac{  \parallel f(y) - f(x)  \parallel _2}{  \parallel y - x  \parallel _2}  \leq C
+$$
+
+From this calculate that
+
+$$
+\begin{aligned}
+&  \frac{ \left| \left| Df(x)(y-x) \right| \right|_2 }{   \parallel y-x  \parallel _2 }   \\
+\leq\ &   \frac{  \parallel  f(y) - f(x)  \parallel _2 }{  \parallel y - x  \parallel _2 }  + \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \\
+\leq\ & C + \epsilon
+\end{aligned}
+$$
+
+Since this holds for each positive real number $\epsilon$, it follows that
+
+$$
+  \parallel Df(x)  \parallel _2 = \mathrm{sup} \left\{ \frac{  \parallel Df(x)(y-x)  \parallel_2}{  \parallel y-x  \parallel_2} : y \in \mathbb{R}^n - \{ x \} \right\} \leq C
+$$
+
+for each $y \in B_{\delta'}(x)$. This is (2) of the claim.
+\end{proof}
+
+
+
+\begin{definition} (the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible.
+
+For each $y \in \mathbb{R}^n$, define the function 
+
+$$
+\begin{aligned}
+N_{f,x_0,y} : \mathbb{R}^n & \rightarrow \mathbb{R}^n \\
+x & \mapsto x + Df(x_0)^{-1}(y - f(x))
+\end{aligned}
+$$
+
+$N_{f,x_0,y}$ is continuously differentiable. Indeed, $N_{f,x_0,y}$ can be constructed from the continuously differentiable functions of:
+
+* the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+* the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+* the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+\item the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
+
+Using composition, summation, and additive negation.
+\end{definition}
+
+Since summation 
+$$
++ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n
+$$
+\noindent and additive negation
+$$
+- : \mathbb{R}^n \rightarrow \mathbb{R}^n
+$$
+are continuous functions, we can rephrase the above as reducing the property of $N_{f,x_0,y}$ that it be continuously differentiable to the property that the following are continuously differentiable:
+
+*  the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+* the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+* the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+\item the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
+
+* binary addition of elements of $\mathbb{R}^n$, $+ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+* additive negation of elements of $\mathbb{R}^n$, $- : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+
+and the theorem that the composition of continuously differentiable functions $f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_2}$ and $f_2 : \mathbb{R}^{n_2} \rightarrow \mathbb{R}^{n_3}$ that $f_2 \circ f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_3}$ is continuously differentiable.
+
+\begin{lemma} (fixed points of the Newton approximator are preimages of $y$ under $f$) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. For each $x \in \mathbb{R}^n$, the following are equivalent:
+
+* $N_{f,x_0,y}(x) = x$, where $N_{f,x_0,y} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ is the continuously differentiable function defined in 
+
+* $f(x) = y$
+
+\end{lemma}
+
+\begin{proof} for each $x \in \mathbb{R}^n$, we calculate that
+
+$$
+\begin{aligned}
+&\Leftrightarrow N_{f,x_0,y}(x)=x \\
+&\Leftrightarrow x + Df(x_0)^{-1}(y - f(x)) = x \\
+&\Leftrightarrow Df(x_0)^{-1}(y - f(x)) = 0 \\
+&\Leftrightarrow Df(x_0)\, \left( Df(x_0)^{-1}(y - f(x)) \right) = 0 \\
+&\Leftrightarrow y - f(x) = 0 \\
+&\Leftrightarrow f(x) = y
+\end{aligned}
+$$
+
+\end{proof}
+
+\begin{lemma} (the derivative of the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. Then the derivative $DN_{f,x_0,y}(x)$ of the continuously differentiable function $N_{f,x_0,y} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ is 
+
+$$
+DN_{f,x_0,y}(x) = \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x)
+$$
+
+\end{lemma}
+
+\begin{proof} using the summation rule for continuously differentiable functions, we have for each $x \in \mathbb{R}^n$ that
+
+$$
+D N_{f,x_0,y}(x)  = \left( D \mathrm{Id}_{\mathbb{R}^n} + D \left( Df(x_0)^{-1} (y) \right) - D \left( Df(x_0)^{-1} \circ f \right) \right)(x)
+$$
+
+The first summand is the identity morphism for each $x \in \mathbb{R}^n$:
+
+$$
+D\mathrm{Id}_{\mathbb{R}^n}(x) = \mathrm{Id}_{\mathbb{R}^n}
+$$
+
+The second summand is zero for each $x \in \mathbb{R}^n$ as it is the Jacobian derivative of a constant function 
+
+$$
+Df(x_0)^{-1} (y) = c_{Df(x_0)^{-1} (y)} : \mathbb{R}^n \rightarrow \mathbb{R}^n
+$$
+
+evaluated at $x \in \mathbb{R}^n$, which is $0$:
+
+$$
+D \left( Df(x_0)^{-1} (y) \right)(x) = 0
+$$
+
+\noindent the third summand is 
+
+$$
+  - D \left( Df(x_0)^{-1}  \circ f \right)(x) = D \left( -Df(x_0)^{-1} \right)(f(x)) \circ Df(x)  
+$$
+
+\noindent by the chain rule for Jacobian derivatives of continuously differentiable functions. Since the Jacobian derivative $DA(x)$ of the linear map $A : \mathbb{R}^n \rightarrow \mathbb{R}^n$ at any point $x \in \mathbb{R}^n$ is $A$, we have
+
+$$
+ D \left(-Df(x_0)^{-1} \circ f \right)(x) = - Df(x_0)^{-1} \circ Df(x) 
+$$
+
+$$
+DN_{f,x_0,y} = \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) 
+$$
+
+\end{proof}
+
+Note that, in the context above, 
+$$
+\mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) = Df(x_0)^{-1} \left( Df(x_0) - Df(x) \right)
+$$
+\noindent and that $f$ is continuously differentiable implies that, for any positive real number $\epsilon$, there is an open subset $U$ of $\mathbb{R}^n$ containing $x_0$ such that, for each $x \in U$,
+
+$$
+ \left| \left| Df(x_0) - Df(x) \right| \right|_2   \le  \frac{\epsilon}{  \parallel Df(x_0)^{-1}   \parallel _2}
+$$
+
+which implies that, for each $x \in U$
+
+$$
+\begin{aligned}
+     & \left| \left| \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) \right| \right|_2 \\
+\leq\ & \left| \left| Df(x_0)^{-1} \cdot (Df(x_0) - Df(x)) \right| \right|_2 \\
+\leq\ & \left| \left| Df(x_0)^{-1} \right| \right|_2 \cdot \left| \left| Df(x_0) - Df(x) \right| \right|_2  \\
+ \le \ &   \left| \left| Df(x_0)^{-1} \right| \right|_2 \cdot \frac{\epsilon}{ \left| \left| Df(x_0)^{-1} \right| \right|_2} \\
+=\ & \epsilon
+\end{aligned}
+$$
+
+
+
+\begin{lemma} let $C$ a positive real number. Then $C$ is strictly smaller than $\frac{1}{2}$ if and only if
+$$
+\sum_{i=1}^{\infty} C^i  \le  1
+$$
+\end{lemma}
+
+\begin{proof} let $C$ be a positive real number. For each $n \in \mathbb{N}$, we have
+$$
+\begin{aligned}
+  & (1-C) \cdot \sum_{i = 1}^{n} C^{i}  \\
+= & \sum_{i = 1}^n C^{i} - C \cdot \sum_{i=1}^n C^{i} \\
+= & \sum_{i=1}^n C^{i} - \sum_{i=2}^{n+1} C^{i}  \\
+= & C \cdot (1 - C^{n})
+\end{aligned}
+$$
+If $C$ is $1$, then $\sum_{i =1}^{\infty} C^i = \sum_{i= 1}^{\infty} 1 = \infty$ does not converge and $C$ is not strictly less than $1/2$. 
+
+To proceed, assume $C \neq 1$. Dividing by $1 - C$, one obtains 
+$$
+\sum_{i= 1}^n C^i =  \frac{C - C^{n}}{1 - C}
+$$
+\noindent and from this one obtains 
+$$
+\sum_{i= 1}^{\infty} C^i = \frac{C}{1 - C} 
+$$
+We calculate
+$$
+\begin{aligned}
+ & \sum_{i= 1}^{\infty} C^i  \le  1 \\
+\leftrightarrow\ & \frac{C}{1 - C}   \le  1 \\
+\leftrightarrow\ & C  \le  1-C \\
+\leftrightarrow\ & 2C  \le  1 \\
+\leftrightarrow\ & C  \le  \frac{1}{2}
+\end{aligned}
+$$
+\end{proof}
+
+
+\begin{theorem} (inverse function theorem) let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Fix $x_0 \in \mathbb{R}^n$ and write $y_0$ for $f(x_0)$. If the Jacobian derivative $Df(x_0) : \mathbb{R}^n \rightarrow \mathbb{R}^n$ of $f$ at $x_0 \in \mathbb{R}^n$ is invertible, then there are positive real numbers $\delta$ and $\epsilon$ such that
+\begin{enumerate}
+\item for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$
+\item for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel  x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$
+\end{enumerate}
+Note that (1) and (2) imply the resulting $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0))} : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$ is both injective and surjective.
+\end{theorem}
+
+\begin{proof} fix a positive real number $C  \le  1$ such that 
+$$
+\sum_{i = 1}^{\infty} C^i  \le  1
+$$
+\noindent equivalently, a positive real number $C$ such that $C  \le  \frac{1}{2}$.
+
+Pick positive real numbers $\delta$ and $\epsilon$ as follows:
+
+* pick $\delta$ to be a positive real number such that  
+$$
+\forall x \in \mathbb{R}^n,   \parallel x - x_0  \parallel _2  \le  \delta \rightarrow   \parallel Df(x) - Df(x_0)  \parallel _2  \le    \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C
+$$
+where to do this we use that $f$ is continuously differentiable at $x_0$
+* pick $\epsilon$ to be $  \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot  C \cdot \delta$
+
+We will show the first and second claims for these particular choices of $\delta$ and $\epsilon$.
+
+We first show the first of these, that for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$. Recall that in definition \ref{theNewtonapproximator}, we defined a $C^1$-function $N_{f,x_0,y} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ which satisfies $N_{f,x_0,y}(x) = x + Df(x_0)^{-1}(y - f(x))$.
+
+In the above it was demonstrated that $DN_{f,x_0,y}(x) = \mathrm{Id}_{\mathbb{R}^n} -  Df(x_0)^{-1} \circ Df(x)$. This implies that 
+
+$$
+\begin{aligned}
+       &   \parallel DN_{f,x_0,y}(x)  \parallel _2  \\
+=\     &   \parallel \mathrm{Id} - Df(x_0)^{-1} \circ Df(x)  \parallel _2 \\
+=\     &   \parallel Df(x_0)^{-1} \cdot Df(x_0) - Df(x_0)^{-1} \circ Df(x)  \parallel _2 \\
+=\     &   \parallel Df(x_0)^{-1} \cdot ( Df(x_0) - Df(x) )  \parallel _2 \\
+\leq\  &   \parallel Df(x_0)^{-1}   \parallel _2  \cdot   \parallel  Df(x_0) - Df(x)   \parallel _2 \\
+ \le  \    &   \parallel Df(x_0)^{-1}   \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C \\
+= \ & C
+\end{aligned}
+$$
+
+In lemma \ref{continuouslydifferentiableLipschitzfunction}, it was demonstrated that this implies that, for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $  \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2)  \parallel _2 \leq C \cdot   \parallel x_1 - x_2  \parallel _2$. 
+
+Suppose for a contradiction that $x_1, x_2 \in \mathbb{R}^n$ with $x_1 \neq x_2$ are such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, and satisfy $f(x_1) = f(x_2)$. Writing $y$ for this value, we have $N_{f,x_0,y}(x_1) = x_1$ and $N_{f,x_0,y}(x_2) = x_2$ by lemma \ref{fixedpointoftheNewtonapproximator}.
+
+We calculate that
+
+$$
+\begin{aligned}
+   &   \parallel x_1 - x_2  \parallel _2 \\
+=\ &   \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2)   \parallel _2  \\
+\leq \ & C  \cdot   \parallel  x_1 - x_2   \parallel _2   \\
+ \le \ &   \parallel x_1 - x_2  \parallel _2 
+\end{aligned}
+$$
+
+which is is a contradiction. We conclude that $  \parallel x_1 - x_2  \parallel _2 = 0$, and also that this implies $x_1 = x_2$. 
+
+This argument shows the first claim (1).
+
+
+Recall that we have defined $\epsilon =   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C \cdot \delta$, a positive real number. We next demonstrate that for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$. To do this, fix $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$. Fix $y \in \mathbb{R}^n$ with $  \parallel y - y_0  \parallel _2  \le  \epsilon$.
+
+In the above, we showed that 
+
+$$
+D N_{f,x_0,y}(x) = \mathrm{Id}_{\mathbb{R}^n} - (Df(x_0)^{-1} \cdot Df(x))
+$$
+
+The positive real number $\delta$ was chosen so that, for each $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \le  \delta$, $  \parallel Df(x) - Df(x_0)  \parallel _2  \le  C$. We calculated in the proof of (1) that
+
+$$
+\begin{aligned}
+ &   \parallel DN_{f,x_0,y}(x)  \parallel_2 \\
+=\ &   \parallel \mathrm{Id}_{\mathbb{R}^n} - (Df(x_0)^{-1} \cdot Df(x))  \parallel _2 \\
+=\ &   \parallel Df(x_0)^{-1} \cdot (Df(x_0) - Df(x))  \parallel _2 \\
+=\ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel Df(x_0) - Df(x)  \parallel _2 \\
+ \le  \ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \cdot C \\
+= \ & C
+\end{aligned}
+$$
+
+We here apply theorem \ref{continuouslydifferentiableLipschitzfunction} as in the proof of (1) to conclude that, for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $  \parallel N_{f,x_0,y}(x_2) - N_{f,x_0,y}(x_1)  \parallel _2  \le  C \cdot   \parallel x_2 - x_1  \parallel _2$.
+
+Define a sequence of real vectors $x : \mathbb{N} \rightarrow \mathbb{R}^n$ by induction. Set $x(0)$ as $x_0$, and set $x(n+1)$ as $N_{f,x_0,y}(x(n))$. Write $\{ x_n \}_{n = 0}^{\infty}$ for this sequence.
+
+We show by induction on $n \in \mathbb{N}$ that 
+
+* $  \parallel x_n - x_0  \parallel _2  \le  \sum_{i=1}^n C^{i} \cdot \delta$
+
+* $  \parallel x_{n+1} - x_n   \parallel _2  \le  C^{n+1} \cdot \delta$
+
+
+For the base step, set $n = 0$. That $  \parallel x_0 - x_0  \parallel _2  \le  \sum_{i=0}^0 C^{i} \cdot \delta$ is immediate as $  \parallel x_0 - x_0  \parallel _2 = 0$ and the right hand side is $\delta$, which is positive.
+
+To see (2), we calculate that:
+
+$$
+\begin{aligned}
+      &   \parallel N_{f,x_0,y}(x_0) - x_0  \parallel _2 \\
+=\    &   \parallel Df(x_0)^{-1}(y-y_0)  \parallel _2 \\
+\leq\ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot   \parallel y - y_0  \parallel _2 \\
+=\ &    \parallel Df(x_0)^{-1}  \parallel _2 \cdot \epsilon \\
+ \le \ &   \parallel Df(x_0)^{-1}  \parallel _2 \cdot \delta \cdot   \parallel Df(x_0)^{-1}  \parallel _2^{-1} \\
+= \ & C \cdot \delta
+\end{aligned}
+$$
+
+This completes the base case.
+
+For the induction step, fix $n \in \mathbb{N}$ and assume that 
+
+* $  \parallel x_n - x_0  \parallel _2  \le  \sum_{ i = 1 }^{n} C^{i} \cdot \delta$
+
+* $  \parallel x_{n+1} - x_n   \parallel _2  \le   C^{n+1} \cdot \delta$
+
+
+By the triangle inequality, we have
+
+$$
+\begin{aligned}
+     \ &   \parallel x_{n+1} - x_0   \parallel _2 \\
+\leq \ &   \parallel x_n - x_0  \parallel _2 +   \parallel x_{n+1} - x_n   \parallel _2\\
+\leq \ & \left( \sum_{ i = 1}^{n} C^{i} \cdot \delta \right) +  C^{n+1} \cdot \delta \\
+    \le  \ & \sum_{i = 1}^{n+1}  C^{i} \cdot \delta
+\end{aligned}
+$$
+
+This implies (1). 
+
+For each $n \in \mathbb{N}$,
+
+$$
+  \parallel x_{n+1} - x_0  \parallel _2  \le  \sum_{i = 1}^{n+1} C^{i} \cdot \delta  \le  \delta
+$$
+
+For each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, 
+
+$$
+  \parallel N_{f,x_0,y} (x_2) - N_{f,x_0,y} (x_1)   \parallel _2   \le  C \cdot   \parallel x_2 - x_1  \parallel _2
+$$
+
+Using this we calculate:
+
+$$
+\begin{aligned}
+     &   \parallel  x_{n+2} - x_{n+1}   \parallel _2  \\
+\leq\ &   \parallel x_{n+1} - x_{n}  \parallel _2 \cdot C \\
+\leq\ & C^{n+1} \cdot C \cdot \delta \\
+=\    & C^{n+2} \cdot \delta
+\end{aligned}
+$$
+
+This implies (2).
+\end{proof}
+
+Take note that this proof does not demonstrate that $f(B_{\delta}(x_0))$ is open. Instead, it shows that there is a bijective $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0)) } : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$. 
+
+* {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
