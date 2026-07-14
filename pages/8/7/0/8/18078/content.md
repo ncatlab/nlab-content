@@ -880,6 +880,9 @@ Spider lemma (corrected)
 
 **INVERSE FUNCTION THEOREM STARTS HERE:**
 
+[[a.png:pic]]
+
+
 The multivariable inverse function theorem is typically associated with the operators
 $$
 N_{f,x_0,y}  :  \mathbb{R}^n  \rightarrow \mathbb{R}^n, x  \mapsto x + Df(x_0)^{-1} (y - f(x)) 
@@ -889,9 +892,6 @@ $$
 \parallel N_{f,x_0,y}(x_1) - N_{f,x_0,y}(x_2) \parallel_2 \le C \cdot \parallel x_1 - x_2 \parallel_2
 $$
 This is the approach used in [[#Rudin1976]].
-
-This requires ...
-https://ncatlab.org/nlab/show/Lipschitz+map
 
 \begin{theorem}\label{continuouslydifferentiableLipschitzfunction} (an equivalent condition for a continuously differentiable function defined on an open ball to be Lipschitz) fix $x_0 \in \mathbb{R}^n$ and a positive real number $\delta$. 
 
