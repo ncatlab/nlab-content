@@ -165,38 +165,47 @@ for all objects $c$ of $C$.
 
 #### Ends of $C$-valued functors for $C \in V\Cat$ 
 
-If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is, if it exists, an object $\int_{c: C} F(c, c)$ of $X$ that [[representable functor|represents]] the functor
+For $C$, $X$ ordinary categories and $F : C^{op} \times C \to X $ an ordinary (unenriched) functor, the end $\int_{c : C}F(c, c)$ of $F$, whenever it exists, satisfy
 
 $$
-\int_{c: C} X(-,F(c,c))\,.
+X \Bigl(d, \int_{c : C} F(c, c)\Bigr) \cong \int_{c : C} X(d, F(c, c))
 $$
+naturally in $d : D$, and is uniquely characterized by this property. 
 
-That means that there is an isomorphism of $V$ objects
-
-$$
-X(x,int_{c:C}F(c,c))\cong \int_{c:C} X(x,F(c,c))
-$$
-
-natural in $x$. But then, with a standard Yoneda-like argument, the end $\int_{c: C} F(c,c)$ comes equipped with an $Ob(C)$-indexed family of arrows
+In the same vein, if $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is, if it exists, an object $\int_{c : C} F(c, c)$ of $X$ together with a [[representable functor#in_enriched_category_theory|representation]]
 
 $$
-\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))
+X \Bigl(d, \int_{c : C} F(c, c)\Bigr) \cong \int_{c : C} X(d, F(c, c))
+$$
+of the (enriched) contravariant functor $x\mapsto \int_{c : C} X(x, F(c, c))$ from $X$ to (the canonical $V$-category over) $V$.
+
+By a standard [[Yoneda lemma#weak_form|Yoneda]]-like argument, the end $E = \int_{c : C} F(c, c)$ comes equipped with an $Ob(C)$-indexed family of (generalized) arrows
+
+$$
+\pi_c : I \to X(E, F(c, c))
 $$ 
 
-which is the image of the identity $I \to X(\int_{c:C}F,\int_{c:C}F)$ under the isomorphism
+of $X$ such that the terminal $V$-wedge
 
 $$
-V(I,X(\int_{c:C}F,\int_{c:C}F))\cong V(I,\int_{c:C} X(\int_{c:C}F,F(c,c)))\,.
-$$
-
-This family is such that, for every object $x$ of $X$, the family 
-of maps 
-
-$$
-X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))
+X(x, E)\cong \int_{c^\prime : C} X(x, F(c^\prime, c^\prime)) \to X(x, F(c, c))
 $$ 
 
-are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end $\int_{c: C} X(x, F(c, c))$ in $V$. 
+can be recovered as the composition
+
+$$
+I\otimes X(x, E) \xrightarrow{\pi_c\otimes X(x, E)} X(E, F(c, c)) \otimes X(x, E) \to X(x, F(c, c))
+$$
+
+where the last map is simply the adjunct of the map
+
+$$
+X(y_1, y_2)\to [X(x, y_1), X(x, y_2)]
+$$
+
+that defines $X(x,-)$ as an enriched functor form $X$ to $V$, where $[-, -]$ is the internal-hom of $V$.
+
+In other words, giving an end for the functor $F$ is equivalent to specifying a family $\pi_c$ of (generalized) arrows of $X$ from a wedge $\int_c F(c, c)$ to $F(c, c)$ such that the image of these maps under $X(x, -)$ is a terminal wedge over $X(x, \int_c F(x, x))$ in the sense defined above, mimicking the classical (unenriched) case.
 
 
 #### End as an equalizer
