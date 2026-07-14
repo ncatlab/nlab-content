@@ -42,6 +42,9 @@ Note that in a symmetric strict monoidal category, the associators and unitors a
 ## Related pages
 
 - [[coherence and strictification for monoidal categories]]
+- [[coherence and strictification]]
+- [[coherence]]
+- [[strictification]]
 
 ## References
 
