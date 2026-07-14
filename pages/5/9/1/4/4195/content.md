@@ -75,6 +75,7 @@ A [discussion on the nForum](https://nforum.ncatlab.org/discussion/1420/inducing
 ## See also
 
 - [[coherence and strictification for symmetric monoidal categories]]
+- [[coherence and strictification]]
 - [[coherence theorem]]
 - [[strictification theorem]]
 
