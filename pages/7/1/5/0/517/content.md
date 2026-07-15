@@ -135,9 +135,17 @@ On [[equivariant homotopy theory]] and [[Elmendorf's theorem]] via [[enriched mo
 
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
+On ([[stable equivariant homotopy theory|stable]]) [[equivariant homotopy theory]]:
+
+* Hana Jia Kong, [[J. Peter May]], [[Foling Zou]]: *Orbital presheaves in equivariant infinite loop space theory* &lbrack;[arXiv:2607.12141](https://arxiv.org/abs/2607.12141)&rbrack;
+
+On the [[monadicity theorem]] in [[homotopy theory]]:
+
+* Hana Jia Kong, [[J. Peter May]], [[Foling Zou]]: *The homotopical monadicity theorem* &lbrack;[arXiv:2607.12124](https://arxiv.org/abs/2607.12124)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[stable homotopy theory]]
 
