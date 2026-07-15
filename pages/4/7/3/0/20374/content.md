@@ -111,6 +111,9 @@ See also:
 
 * Shota Komatsu, Jun-ichi Sakamoto, Anders Wallberg, [[Masahito Yamazaki]]: *Time-Dependent Integrability from Gauge Theory, I* &lbrack;[arXiv:2607.02648](https://arxiv.org/abs/2607.02648)&rbrack;
 
+* [[Marco Benini]], Ryan A. Cullinan, [[Alexander Schenkel]], Benoit Vicedo: *Computational homological methods for integrable field theories* &lbrack;[arXiv:2607.12142](https://arxiv.org/abs/2607.12142)&rbrack;
+
+
 
 
 
