@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea 
@@ -417,6 +415,11 @@ and realized in the context of [[quasi-categories]]:
 Generalisation to "semads" (which are monads without units):
 
 * K. A. Hardie, _Instances and ramifications of the semi-adjoint situation. II: The comparison functor_, Quaestiones Mathematicae 2.1-3 (1977): 159-175.
+
+In [[homotopy theory]]:
+
+* Hana Jia Kong, [[J. Peter May]], [[Foling Zou]]: *The homotopical monadicity theorem* &lbrack;[arXiv:2607.12124](https://arxiv.org/abs/2607.12124)&rbrack;
+
  
 
 [[!redirects monadicity theorems]]
