@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -210,5 +208,10 @@ A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation:
 A [[universal property]] characterizing equivariant stable homotopy theory:
 
 * [[Tim Campion]], _Free duals and a new universal property for stable equivariant homotopy theory_ &lbrack;[arXiv:2302.04207](https://arxiv.org/abs/2302.04207)&rbrack;
+
+* Hana Jia Kong, [[J. Peter May]], [[Foling Zou]]: *Orbital presheaves in equivariant infinite loop space theory* &lbrack;[arXiv:2607.12141](https://arxiv.org/abs/2607.12141)&rbrack;
+
+
+
 
 [[!redirects stable equivariant homotopy theory]]
