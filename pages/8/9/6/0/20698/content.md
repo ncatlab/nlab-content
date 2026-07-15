@@ -10,8 +10,6 @@
 =--
 
 
-
-# Restriction category
 * table of contents
 {: toc}
 
