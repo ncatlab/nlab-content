@@ -13,6 +13,8 @@ On the [[Albert algebra]] and potential relation to the [[gauge group]] of the [
 
 * [[Latham Boyle]]: _The Standard Model, The Exceptional Jordan Algebra, and Triality_, J. Math. Phys. &lbrack;[arXiv:2006.16265](https://arxiv.org/abs/2006.16265)&rbrack;
 
+* [[John C. Baez]], Endre Bokor, [[Latham Boyle]]: *Jordan Pair Quantum Theory and the Standard Model* &lbrack;[arXiv:2607.10833](https://arxiv.org/abs/2607.10833)&rbrack;
+
 On the [[Penrose tiling]] in relation to [[quantum error correcting codes]]:
 
 * Zhi Li, [[Latham Boyle]]: *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
