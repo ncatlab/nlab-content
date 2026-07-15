@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -120,7 +118,7 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
 
 
-* {#Brieskorn66} [[Egbert Brieskorn]], *Beispiele zur Differentialtopologie von Singularitäten*, Inventiones mathematicae **2** (1966) 1–14 $[$[doi:10.1007/BF01403388](https://doi.org/10.1007/BF01403388)$]$
+* {#Brieskorn66} [[Egbert Brieskorn]], *Beispiele zur Differentialtopologie von Singularitäten*, Inventiones mathematicae **2** (1966) 1–14 &lbrack;[doi:10.1007/BF01403388](https://doi.org/10.1007/BF01403388)&rbrack;
 
 * {#Kreck10} [[Matthias Kreck]], chapter 19 of _Exotic 7-spheres_ of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
 
