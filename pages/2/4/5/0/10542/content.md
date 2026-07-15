@@ -555,6 +555,9 @@ Attempts to identify aspects of the [[color charge|color]] [gauge group](standar
 
 * [[Latham Boyle]]: _The Standard Model, The Exceptional Jordan Algebra, and Triality_, J. Math. Phys. &lbrack;[arXiv:2006.16265](https://arxiv.org/abs/2006.16265)&rbrack;
 
+* [[John C. Baez]], Endre Bokor, [[Latham Boyle]]: *Jordan Pair Quantum Theory and the Standard Model* &lbrack;[arXiv:2607.10833](https://arxiv.org/abs/2607.10833)&rbrack;
+
+
 
 
 
