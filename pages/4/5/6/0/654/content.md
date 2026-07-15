@@ -14,9 +14,8 @@
 =--
 
 
-#Content#
-* table of contents 
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -216,7 +215,7 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 ### As $n$-tuples of vector spaces
  {#ReferencesAsnTuplesOfvectorSpaces}
 
-The notion of 2-vector spaces as $n$-tuples of vector spaces is due to
+The notion of 2-vector spaces as $n$-tuples of vector spaces is due to:
 
 * {#KapranovVoevodsky91} [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *$2$-categories and Zamolodchikov tetrahedra equations* in *Algebraic groups and their generalization: quantum and infinite-dimensional methods*, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providence RI 1994), pp. 177-259 &lbrack;[pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/1994_Kapranov_Voevodsky.pdf)&rbrack;
 
@@ -224,7 +223,7 @@ The notion of 2-vector spaces as $n$-tuples of vector spaces is due to
 ### As 2-term chain complexes
  {#ReferencesAsTwoTermChainComplexes}
 
-The notion of 2-vector spaces as 2-term [[chain complexes]] is due to
+The notion of 2-vector spaces as 2-term [[chain complexes]] is due to:
 
 * {#BaezCrans04} [[John C. Baez]], [[Alissa S. Crans]], §3 of: *Higher-Dimensional Algebra VI: Lie 2-Algebras*, Theor. Appl. Categor. **12** (2004) 492-528 &lbrack;[arXiv:math/0307263](https://arxiv.org/abs/math/0307263)&rbrack;
 
@@ -237,35 +236,35 @@ and used in
 ### As algebras with bimodules between them
  {#ReferencesAsAlgebrasWithBimodules}
 
-The notion of 2-vector spaces with 2-linear maps between them as algebras with bimodules between them (subsuming the definition in [Kapranov & Voevodsky 1991](#KapranovVoevodsky91) as the special case of algebras that are [[direct sums]] of the [[ground field]]) is due to 
+The notion of 2-vector spaces with 2-linear maps between them as algebras with bimodules between them (subsuming the definition in [Kapranov & Voevodsky 1991](#KapranovVoevodsky91) as the special case of algebras that are [[direct sums]] of the [[ground field]]) is due to:
 
-* [[Urs Schreiber]], §A of: *AQFT from n-functorial QFT*, Commun. Math. Phys. **291** (2009) 357-401 &lbrack;[arXiv:0806.1079](https://arxiv.org/abs/0806.1079), [doi:10.1007/s00220-009-0840-2](https://doi.org/10.1007/s00220-009-0840-2)&rbrack;
+* [[Urs Schreiber]]; §A of: *AQFT from n-functorial QFT*, Commun. Math. Phys. **291** (2009) 357-401 &lbrack;[arXiv:0806.1079](https://arxiv.org/abs/0806.1079), [doi:10.1007/s00220-009-0840-2](https://doi.org/10.1007/s00220-009-0840-2)&rbrack;
 
-following earlier discussion in 
+following earlier discussion in:
 
-* [[Urs Schreiber]], *[2-vectors in Trondheim](https://golem.ph.utexas.edu/category/2006/10/topology_in_trondheim_and_kro.html)* (2006)
+* [[Urs Schreiber]]: *[2-vectors in Trondheim](https://golem.ph.utexas.edu/category/2006/10/topology_in_trondheim_and_kro.html)* (2006)
 
-* [[Urs Schreiber]], *[Topology in Trondheim and Kro, Baas & Bökstedt on 2-vector bundles](https://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html)* (2007)
+* [[Urs Schreiber]]: *[Topology in Trondheim and Kro, Baas & Bökstedt on 2-vector bundles](https://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html)* (2007)
 
 which is picked up in 
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], §4.4 of: *Connections on non-abelian Gerbes and their Holonomy*, Theory Appl. Categ., **28** 17 (2013)  476-540 &lbrack;[arXiv:0808.1923](https://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
+* [[Urs Schreiber]], [[Konrad Waldorf]]; §4.4 of: *Connections on non-abelian Gerbes and their Holonomy*, Theory Appl. Categ., **28** 17 (2013)  476-540 &lbrack;[arXiv:0808.1923](https://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
 
 and further developed into a theory of [[2-vector bundles]] (via algebra bundles with bundles of bimodules between them) in:
 
 * {#KristelLudewigWaldorf22} [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
 
-Essentially the same notion also appears, apparently independently, in:
+This definition was later considered in:
 
 * {#FreedHopkinsTeleman09} [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], §7.1 with Ex. 2.13 in: *[[Topological Quantum Field Theories from Compact Lie Groups]]* &lbrack;[arXiv:0905.0731](https://arxiv.org/abs/0905.0731)&rbrack;
 
-The notion is reviewed in a list of "standard" definitions in [BDSPV15](#BDSPV15), without however referencing it.
+and reviewed in a list of "standard" definitions in [BDSPV15](#BDSPV15), without however referencing it.
 
-See also at
+See also at:
 
 * _[[geometry of physics]]: [[geometry of physics - modules]]_
 
-the section on 2-modules.
+the section on *[2-Modules](geometry+of+physics+--+modules#2Modules)*.
 
 ### Further discussion
 
