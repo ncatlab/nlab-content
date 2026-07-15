@@ -34,6 +34,11 @@ Landing page:
 
 * [github.com/rzk-lang](https://github.com/rzk-lang)
 
+Overview:
+
+* Nikolai Kudasov, Violetta Sim, [[Benedikt Ahrens]]: *Rzk: a Proof Assistant for Synthetic $\infty$-Categories* &lbrack;[arXiv:2607.12207](https://arxiv.org/abs/2607.12207)&rbrack;
+
+
 Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
