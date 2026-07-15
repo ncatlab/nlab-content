@@ -89,6 +89,8 @@ and its relation to 2d [[integrable models]] via [[L-infinity algebras|$L_\infty
 
 * [[Marco Benini]], [[Alexander Schenkel]], [[Benoit Vicedo]]: *The homological algebra of 2d integrable field theories* &lbrack;[arXiv:2601.19993](https://arxiv.org/abs/2601.19993)&rbrack;
 
+* [[Marco Benini]], Ryan A. Cullinan, [[Alexander Schenkel]], Benoit Vicedo: *Computational homological methods for integrable field theories* &lbrack;[arXiv:2607.12142](https://arxiv.org/abs/2607.12142)&rbrack;
+
 and generalization to higher dimensions:
 
 * [[Marco Benini]], Ryan A. Cullinan, [[Alexander Schenkel]], [[Benoit Vicedo]]: *On the structure of higher-dimensional integrable field theories* &lbrack;[arXiv:2604.24864](https://arxiv.org/abs/2604.24864)&rbrack;
