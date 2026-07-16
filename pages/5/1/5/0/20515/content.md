@@ -42,6 +42,10 @@ On [[BV quantization]]:
 
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
+On [[perturbative algebraic quantum field theory]]:
+
+* [[Kasia Rejzner]], [[Michele Schiavina]]: *Perturbative algebraic quantum field theory with smoothened boundary* &lbrack;[arXiv:2607.13765](https://arxiv.org/abs/2607.13765)&rbrack;
+
 
 
 
