@@ -166,6 +166,8 @@ Experimental realization of FQAH systems:
 
 * Jackson P. Butler: *1/3 Fractional and Gapless Integer Quantum Anomalous Hall States in Rhombohedral Graphene* &lbrack;[arXiv:2606.06450](https://arxiv.org/abs/2606.06450)&rbrack;
 
+* Zexu Li et al.: *Fractional high-Chern insulator in twisted rhombohedral graphene*, Nature (2026) &lbrack;[arXiv:2512.21612](https://arxiv.org/abs/2512.21612), [https://doi.org/10.1038/s41586-026-10762-7](https://doi.org/10.1038/s41586-026-10762-7)&rbrack;
+
      
 
 
@@ -206,6 +208,9 @@ Further discussion:
 * Zhengyan Darius Shi, T. Senthil: *Doping a fractional quantum anomalous Hall insulator* &lbrack;[arXiv:2409.20567](https://arxiv.org/abs/2409.20567)&rbrack;
 
 * Zhengyan Darius Shi, T. Senthil: *Non-Abelian topological superconductivity from melting Abelian fractional Chern insulators* \[<a href="https://arxiv.org/abs/2512.17996">arXiv:2512.17996</a>\]
+
+* Xi-Hang Feng et al.: *Fractional Chern insulators in alternating twisted multilayer $MoTe_2$* &lbrack;[arXiv:2607.13807](https://arxiv.org/abs/2607.13807)&rbrack;
+
 
 
     
