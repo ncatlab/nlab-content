@@ -16,9 +16,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -247,6 +246,11 @@ in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum 
 
 * {#Schenkel17} [[Alexander Schenkel]], _Towards Homotopical Algebraic Quantum Field Theory_, talk at _[Foundational and Structural Aspects of Gauge Theories](https://indico.mitp.uni-mainz.de/event/76/overview)_,
 Mainz Institute for Theoretical Physics, 29 May &#8211; 2 June 2017. ([pdf](http://aschenkel.eu/Mainz17.pdf))
+
+See also:
+
+* [[Kasia Rejzner]], [[Michele Schiavina]]: *Perturbative algebraic quantum field theory with smoothened boundary* &lbrack;[arXiv:2607.13765](https://arxiv.org/abs/2607.13765)&rbrack;
+
 
 [[!redirects perturbative AQFT]]
 [[!redirects pAQFT]]
