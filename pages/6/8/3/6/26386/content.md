@@ -49,11 +49,16 @@ There are two main ways to define a hierarchy of universes:
 
 * The first way is done in dependent type theories with only a single separate type judgment, by defining a type of universe levels $\mathrm{Level}$ inside the type theory and then defining a family of [[type universes]] indexed by $\mathrm{Level}$. 
 
-* The second way is done in dependent type theories with either no separate type judgment [[à la Russell]] (see [Univalent Foundations Project 2013](#UFP13)), one separate type judgment (see [Sterbac & Sterling 2026](##SS26)), or a separate type judgment for every type universe in the type theory [[à la Coquand]]. Instead of having an internal type of universe levels, one has either a separate judgment $\kappa \mathrm{level}$ or a meta-theoretic [[sort]] $\mathrm{Level}$ for unverse levels. 
+* The second way is done in dependent type theories with either no separate type judgment [[à la Russell]] (see [Univalent Foundations Project 2013](#UFP13), [Kovács 2022](#Kovács22)), one separate type judgment (see [Sterbac & Sterling 2026](##SS26)), or a separate type judgment for every type universe in the type theory [[à la Coquand]] (see [Kovács 2022](#Kovács22)). Instead of having an internal type of universe levels, one has either a separate level [[judgment]] $\kappa \mathrm{level}$ (see [Bezem, Coquand, Dybjer, & Escardo 2023](#BCDE23)) or a meta-theoretic [[sort]] $\mathrm{Level}$ (see [Sterbac & Sterling 2026](##SS26)) for universe levels. 
 
 ### Properties of the universe levels
 
-The universe levels of the universe hierarchy satisfy a number of properties: they are a [[preorder]] $\leq$ with a successor operation $\kappa \mapsto \kappa^+$ such that $\kappa \leq \kappa^+$ ([Sterbac & Sterling 2026](##SS26)). Then for universe level $\kappa$, the universe $U_\kappa$ is $U_{\kappa^+}$-small or essentially $U_{\kappa^+}$-small. 
+The universe levels of the universe hierarchy satisfy a number of properties: 
+
+* the universe levels are ordered in some sense. How this is defined depends on the author:
+  * the universe levels in [Kovács 2022](#Kovács22) come equipped with a [[well-founded relation|well-founded]] and [[transitive relation]] $\lt$.
+  * the universe levels in [Sterbac & Sterling 2026](#SS26) come equipped with a [[preorder]] $\leq$ 
+* the universe levels have a successor operation $\kappa \mapsto \kappa^+$ such that $\kappa \lt \kappa^+$ or $\kappa \leq \kappa^+$. Then for universe level $\kappa$, the universe $U_\kappa$ is $U_{\kappa^+}$-small or essentially $U_{\kappa^+}$-small. 
 
 Most commonly used preorders for universe levels are the [[natural numbers]], such as in [Univalent Foundations Project 2013](#UFP13) and in the proof assistants [[Lean]], [[Agda]], and [[Rocq]]. However, the universe hierarchy used in [Rijke 2025](#Rijke25) are not indexed by the natural numbers. 
 
@@ -67,19 +72,29 @@ Types of a universe $U_\kappa$ in an hierarchy of universes are also types of th
 
 ### Cumulativity
 
-To be defined, but see [Sterbac & Sterling 2026](##SS26) for the time being. 
+According to [Univalent Foundations Project 2013](#UFP13), a universe hierarchy is *cumulative* if given universe indices $i$ and $j$ such that $i \leq j$, types in the universe $U_i$ are also elements of the universe $U_j$. In [Sterbac & Sterling 2026](##SS26), cumulativity is defined as the following statement: 
+
+\begin{definition}
+For a hierarchy of universes $(U_\kappa, \mathrm{el}_\kappa)$ indexed by $\kappa:\mathrm{Level}$, given universe levels $i$ and $j$ where $i \leq j$ and $M:U_i$, the hierarchy is **cumulative** if one can construct $M':U_j$ such that $\mathrm{el}_i(M) \equiv \mathrm{el}_j(M')$ as types, where $\equiv$ is [[judgmental equality]]. 
+\end{definition}
+
+There are many ways to formalize cumulativity. 
+
+* In [Univalent Foundations Project 2013](#UFP13), cumulativity of [[book HoTT]] is formalized by the following [[inference rule]]: Given the hierarchy of universes $U_\kappa$ and given universe indices $i$ and $j$ such that $i \leq j$ and $M:U_i$, one can construct the judgment $M:U_j$. 
+
+* [Sterbac & Sterling 2026](##SS26) formalizes cumulativity of a universe hierarchy in terms of [[small|smallness]] [[judgments]] indexed by universe levels. 
 
 ## Examples
 
 Some examples of type theories with a hierarchy of universes are as follows:
 
-* [[Rocq]] uses a hierarchy of Russell universes. For practical purposes, it also has cumulativity, although there is some question (perhaps mainly semantic) of whether this is true internally or whether it uses casts that are simply hidden from the user.
+* [[Rocq]] uses a hierarchy of Russell universes indexed by the [[natural numbers]]. For practical purposes, it also has cumulativity, although there is some question (perhaps mainly semantic) of whether this is true internally or whether it uses casts that are simply hidden from the user.
 
-* [[Agda]] uses a hierarchy of non-cumulative Russell universes.
+* [[Agda]] uses a hierarchy of non-cumulative Russell universes indexed by the [[natural numbers]].
 
-* [UFP13](#UFP13) (first edition) uses a hierarchy of cumulative Russell universes.
+* [UFP13](#UFP13) (first edition) uses a hierarchy of cumulative Russell universes indexed by the [[natural numbers]].
 
-* [Rijke 2025](#Rijke25) uses a hierarchy of non-cumulative Tarski universes. 
+* [Rijke 2025](#Rijke25) uses a hierarchy of non-cumulative Tarski universes that is not indexed by the [[natural numbers]]. 
 
 ## Related concepts
 
@@ -91,15 +106,13 @@ Some examples of type theories with a hierarchy of universes are as follows:
 
 ## References
 
-The hierarchy of universes is discussed in section 1.3 of:
-
 * {#UFP13} *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
-and in section 6.2 of:
+* {#Kovács22} [[András Kovács]], *Generalized Universe Hierarchies and First-Class Universe Levels*, In 30th EACSL Annual Conference on Computer Science Logic (CSL 2022). Leibniz International Proceedings in Informatics (LIPIcs), Volume 216, pp. 28:1-28:17, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2022) &lbrack;[doi:10.4230/LIPIcs.CSL.2022.28](https://doi.org/10.4230/LIPIcs.CSL.2022.28)&rbrack;
+
+* {#BCDE23} [[Marc Bezem]], [[Thierry Coquand]], [[Peter Dybjer]], [[Martín Escardó]], *Type Theory with Explicit Universe Polymorphism*, In 28th International Conference on Types for Proofs and Programs (TYPES 2022). Leibniz International Proceedings in Informatics (LIPIcs), Volume 269, pp. 13:1-13:16, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2023) &lbrack;[doi:10.4230/LIPIcs.TYPES.2022.13](https://doi.org/10.4230/LIPIcs.TYPES.2022.13)&rbrack;
 
 * {#Rijke25} [[Egbert Rijke]]: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press (2025) &lbrack;[doi:10.1017/9781108933568](https://doi.org/10.1017/9781108933568), [arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
-
-Universe hierarchies and cumulative universes are also discussed in:
 
 * {#SS26} [[Raphaël Sterbac]], [[Jonathan Sterling]], *Fuss-free cumulative universes: theory and practice* &lbrack;[arXiv:2607.11329](https://arxiv.org/abs/2607.11329)&rbrack;
 
