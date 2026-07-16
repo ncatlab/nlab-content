@@ -39,7 +39,7 @@ However, with a single separate judgment for types, where not all types are elem
 
 * Alternatively, one could add [[definitional transport]] across [[judgmental equality of terms]] as [[definitional isomorphism]], whether using the [[definitional isomorphism type]] or using the [[natural deduction]] [[inference rules]] of [[strict negative copies]]. This results in a simpler formal theory, since one doesn't need any of the structural and congruence rules for judgmental equality of types. 
 
-* If one doesn't even have [[judgmental equality of terms]], one would need to use [[transport]] across [[identity types]] or [[path types]]. However, one needs to define [[weak equivalence of types]] and prove the congruence rules for weak equivalences of types, before weak equivalence of types could be used for definitions. Weak equivalences are significantly more complex to define, since the symbol $B \simeq A$ usually representing the [[weak equivalence type]] hasn't been formally defined in the theory yet, and any definition of [[weak equivalence type]] or [[isEquiv]] for functions is itself a very complex expression when only using [[dependent function types]], [[function types]], [[dependent pair types]], [[pair types]], and [[identity types]] in the expression. Alternatively, one can add [[natural deduction]] [[inference rules]] for $B$ as a [[positive copy]] or [[weak negative copy]] of $A$, from which one can prove that the function in the introduction rule carries the structure of a weak equivalence of types. The proofs of the various congruence rules of type formers are also very complex; see [dependent product type § typal congruence rules § using weak equivalences of types](https://ncatlab.org/nlab/show/dependent+product+type#using_weak_equivalences_of_types) for a proof of the associated congruence rule for the formation rule of dependent product types and section 11.1.6 of [Rijke22](#Rijke22) for a proof of the associated congruence rule for the formation rule of dependent sum types. 
+* If one doesn't even have [[judgmental equality of terms]], one would need to use [[transport]] across [[identity types]] or [[path types]]. However, one needs to define [[weak equivalence of types]] and prove the congruence rules for weak equivalences of types, before weak equivalence of types could be used for definitions. Weak equivalences are significantly more complex to define, since the symbol $B \simeq A$ usually representing the [[weak equivalence type]] hasn't been formally defined in the theory yet, and any definition of [[weak equivalence type]] or [[isEquiv]] for functions is itself a very complex expression when only using [[dependent function types]], [[function types]], [[dependent pair types]], [[pair types]], and [[identity types]] in the expression. Alternatively, one can add [[natural deduction]] [[inference rules]] for $B$ as a [[positive copy]] or [[weak negative copy]] of $A$, from which one can prove that the function in the introduction rule carries the structure of a weak equivalence of types. The proofs of the various congruence rules of type formers are also very complex; see [dependent product type § typal congruence rules § using weak equivalences of types](https://ncatlab.org/nlab/show/dependent+product+type#using_weak_equivalences_of_types) for a proof of the associated congruence rule for the formation rule of dependent product types and section 11.1.6 of [Rijke 2025](#Rijke25) for a proof of the associated congruence rule for the formation rule of dependent sum types. 
 
 However, this all comes at the cost of having to formalize the theory of universe levels of the hierarchy of universes before formalizing the type theory. 
 
@@ -47,9 +47,15 @@ However, this all comes at the cost of having to formalize the theory of univers
 
 There are two main ways to define a hierarchy of universes: 
 
-* The first way is done in dependent type theories with only a single separate type judgment, by defining a type of universe levels $\mathrm{Level}$ inside the type theory and then defining a family of [[type universes]] indexed by $\mathrm{Level}$. Not all types are elements of universes in the universe hierarchy. 
+* The first way is done in dependent type theories with only a single separate type judgment, by defining a type of universe levels $\mathrm{Level}$ inside the type theory and then defining a family of [[type universes]] indexed by $\mathrm{Level}$. 
 
-* The second way is done in dependent type theories with either no separate type judgment [[à la Russell]], or a separate type judgment for every type universe in the type theory [[à la Coquand]], where every type in the theory is an element of the hierarchy of universes. Instead of having an internal type of universe levels, one has either a separate judgment $\kappa \mathrm{level}$ which is in an untyped [[first-order theory]] or a meta-theoretic [[sort]] $\mathrm{Level}$ which is in a typed [[first-order theory]] or a [[dependent type theory]], with an operation which takes level $\kappa$ to the successor level $\kappa^+$. Then for type theories à la Russell one has for each level $\kappa$ a universe $U_\kappa:U_{\kappa^+}$, and for type theories à la Coquand one has for each level $\kappa$ a type judgment $A \; \mathrm{type}_\kappa$ and a universe $U_\kappa \; \mathrm{type}_{\kappa^+}$. 
+* The second way is done in dependent type theories with either no separate type judgment [[à la Russell]] (see [Univalent Foundations Project 2013](#UFP13)), one separate type judgment (see [Sterbac & Sterling 2026](##SS26)), or a separate type judgment for every type universe in the type theory [[à la Coquand]]. Instead of having an internal type of universe levels, one has either a separate judgment $\kappa \mathrm{level}$ or a meta-theoretic [[sort]] $\mathrm{Level}$ for unverse levels. 
+
+### Properties of the universe levels
+
+The universe levels of the universe hierarchy satisfy a number of properties: they are a [[preorder]] $\leq$ with a successor operation $\kappa \mapsto \kappa^+$ such that $\kappa \leq \kappa^+$ ([Sterbac & Sterling 2026](##SS26)). Then for universe level $\kappa$, the universe $U_\kappa$ is $U_{\kappa^+}$-small or essentially $U_{\kappa^+}$-small. 
+
+Most commonly used preorders for universe levels are the [[natural numbers]], such as in [Univalent Foundations Project 2013](#UFP13) and in the proof assistants [[Lean]], [[Agda]], and [[Rocq]]. However, the universe hierarchy used in [Rijke 2025](#Rijke25) are not indexed by the natural numbers. 
 
 ### Subtyping of universes
 
@@ -73,7 +79,7 @@ Some examples of type theories with a hierarchy of universes are as follows:
 
 * [UFP13](#UFP13) (first edition) uses a hierarchy of cumulative Russell universes.
 
-* [Rijke 22](#Rijke22) uses a hierarchy of non-cumulative Tarski universes. 
+* [Rijke 2025](#Rijke25) uses a hierarchy of non-cumulative Tarski universes. 
 
 ## Related concepts
 
@@ -91,7 +97,7 @@ The hierarchy of universes is discussed in section 1.3 of:
 
 and in section 6.2 of:
 
-* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+* {#Rijke25} [[Egbert Rijke]]: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press (2025) &lbrack;[doi:10.1017/9781108933568](https://doi.org/10.1017/9781108933568), [arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
 Universe hierarchies and cumulative universes are also discussed in:
 
