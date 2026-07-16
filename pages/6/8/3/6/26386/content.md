@@ -51,13 +51,17 @@ There are two main ways to define a hierarchy of universes:
 
 * The second way is done in dependent type theories with either no separate type judgment [[à la Russell]], or a separate type judgment for every type universe in the type theory [[à la Coquand]], where every type in the theory is an element of the hierarchy of universes. Instead of having an internal type of universe levels, one has either a separate judgment $\kappa \mathrm{level}$ which is in an untyped [[first-order theory]] or a meta-theoretic [[sort]] $\mathrm{Level}$ which is in a typed [[first-order theory]] or a [[dependent type theory]], with an operation which takes level $\kappa$ to the successor level $\kappa^+$. Then for type theories à la Russell one has for each level $\kappa$ a universe $U_\kappa:U_{\kappa^+}$, and for type theories à la Coquand one has for each level $\kappa$ a type judgment $A \; \mathrm{type}_\kappa$ and a universe $U_\kappa \; \mathrm{type}_{\kappa^+}$. 
 
+### Subtyping of universes
+
+Types of a universe $U_\kappa$ in an hierarchy of universes are also types of the successor universe $U_{\kappa^+}$; i.e. $U_\kappa$ is a [[subtype]] of $U_{\kappa^+}$. There are two different ways of representing this, reminiscent of the distinction between [[Russell universes]] and [[Tarski universes]].
+
+* The inclusion interpretation of subtyping of universes: given a universe level $\kappa$, the universe $U_\kappa$ is a subtype of $U_{\kappa^+}$ if given an element $A:U_\kappa$, one can derive that $A:U_{\kappa^+}$. This is similar to Russell universes in that elements of a cumulative universe $U_\kappa$ are literally elements of $U_{\kappa^+}$, similar to how elements of a Russell universe are literally types. 
+
+* The [[coercion]] interpretation of subtyping of universes: given a universe level $\kappa$, the universe $U_\kappa$ is a subtype of $U_{\kappa^+}$ if given a $U_\kappa$-small type $A:U_\kappa$, one can derive that $\mathrm{Lift}_\kappa(A):U_{\kappa^+}$. This is similar to Tarski universes in that elements of a universe $U_\kappa$ are codes for elements of $U_{\kappa^+}$, represented by the family of elements $A:U_\kappa \vdash \mathrm{Lift}_\kappa(A):U_{\kappa^+}$, similar to how elements of a Tarski universe are codes for types, represented by the family of types $A:U_\kappa \vdash \mathrm{Lift}_\kappa(A) \; \mathrm{type}$. 
+
 ### Cumulativity
 
-Types of a universe $U_\kappa$ in an hierarchy of universes are also types of the successor universe $U_{\kappa^+}$; i.e. $U_\kappa$ is a [[subtype]] of $U_{\kappa^+}$. There are two different ways of representing this, reminiscent of the distinction between [[Russell universes]] and [[Tarski universes]]. 
-
-* Given a universe level $\kappa$, the universe $U_\kappa$ is **cumulative** if given an element $A:U_\kappa$, one can derive that $A:U_{\kappa^+}$. This is similar to Russell universes in that elements of a cumulative universe $U_\kappa$ are literally elements of $U_{\kappa^+}$, similar to how elements of a Russell universe are literally types. 
-
-* Given a universe level $\kappa$, the universe $U_\kappa$ is **non-cumulative** if given a $U_\kappa$-small type $A:U_\kappa$, one can derive that $\mathrm{Lift}_\kappa(A):U_{\kappa^+}$. This is similar to Tarski universes in that elements of a cumulative universe $U_\kappa$ are codes for elements of $U_{\kappa^+}$, represented by the family of elements $A:U_\kappa \vdash \mathrm{Lift}_\kappa(A):U_{\kappa^+}$, similar to how elements of a Tarski universe are codes for types, represented by the family of types $A:U_\kappa \vdash \mathrm{Lift}_\kappa(A) \; \mathrm{type}$. 
+To be defined, but see [Sterbac & Sterling 2026](##SS26) for the time being. 
 
 ## Examples
 
