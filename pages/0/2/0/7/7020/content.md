@@ -13,6 +13,8 @@ On [[locally covariant perturbative AQFT]]:
 
 * textbook: _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* [[Kasia Rejzner]], [[Michele Schiavina]]: *Perturbative algebraic quantum field theory with smoothened boundary* &lbrack;[arXiv:2607.13765](https://arxiv.org/abs/2607.13765)&rbrack;
+
 Introduction to [[AQFT]]:
 
 * {#FewsterRejzner19} [[Christopher Fewster]], [[Kasia Rejzner]], _Algebraic Quantum Field Theory - an introduction_ ([arXiv:1904.04051](https://arxiv.org/abs/1904.04051))
@@ -23,7 +25,7 @@ On the [[perturbative algebraic quantum field theory|locally covariant pAQFT app
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Kasia Rejzner]], *Locally covariant approach to effective quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07800](https://arxiv.org/abs/2212.07800)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[AQFT]]
 
