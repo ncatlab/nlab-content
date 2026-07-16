@@ -328,6 +328,9 @@ Theory and applications of Categories, Vol. 35, No. 14 (2020) 417--512
 
 * Matteo Galbiati: *A (not so) short note: the equivalence of various notions of symmetric monoidal category* &lbrack;[arXiv:2606.21347](https://arxiv.org/abs/2606.21347)&rbrack;
 
+* Jiasen Liu, [[J. Peter May]], Kyle I. Roke, Hongyi Zhang, Keming Zhou: *What are symmetric monoidal categories?* &lbrack;[arXiv:2607.13912](https://arxiv.org/abs/2607.13912)&rbrack;
+
+
 
 
 
