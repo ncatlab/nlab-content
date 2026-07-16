@@ -78,6 +78,10 @@ $$
 \end{defn}
 
 \begin{remark}
+  This is the two-sided [category of elements of the profunctor](https://ncatlab.org/nlab/show/category+of+elements#for_profunctors) $E(f(-), g(+)) \colon C^{op} \times D \to \mathbf{Set}$. (Note that this is not the same as the [[category of elements]] of $E(f(-), g(+))$ viewed as a [[presheaf]] or [[copresheaf]].)
+\end{remark}
+
+\begin{remark}
 
 In addition, there are two canonical [[forgetful functors]] defined on the comma category:
 
