@@ -15,9 +15,7 @@
 
 
 
-# Contents#
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Idea
@@ -194,6 +192,12 @@ Discussion of [[(infinity,2)-category|$(\infty,2)$]]-naturality:
 Formalization of the $(\infty,1)$-Yoneda lemma via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
+
+Internal version for [[locally cartesian closed (infinity,1)-categories]]:
+
+* Virgile Constantin:
+*The internal Yoneda Lemma for locally Cartesian closed $\infty$-categories* &lbrack;[arXiv:2607.14016](https://arxiv.org/abs/2607.14016)&rbrack;
+
 
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
