@@ -1,6 +1,9 @@
 Antonio Garz&#243;n is a Spanish mathematician, who is in the [Departamento de &#193;lgebra](http://www.ugr.es/~algebra/) of the Universidad de Granada, Spain.  He has published extensively in [[homotopical algebra|homotopical]] and [[homological algebra]], and [[non-abelian cohomology]].  
 
 
+## Personal profile page
+ [webpage](https://produccioncientifica.ugr.es/investigadores/352340/detalle)
+
 ## Selected writings
 
 On [[homotopy theory]] of [[2-groups]] and [[braided 2-groups]]:
