@@ -89,6 +89,10 @@ and in section 6.2 of:
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
+Universe hierarchies and cumulative universes are also discussed in:
+
+* {#SS26} [[Raphaël Sterbac]], [[Jonathan Sterling]], *Fuss-free cumulative universes: theory and practice* &lbrack;[arXiv:2607.11329](https://arxiv.org/abs/2607.11329)&rbrack;
+
 [[!redirects universe hierarchy]]
 [[!redirects universe hierarchies]]
 
@@ -111,6 +115,17 @@ and in section 6.2 of:
 [[!redirects cumulative]]
 [[!redirects non-cumulative]]
 [[!redirects noncumulative]]
+
+[[!redirects cumulative hierarchy]]
+[[!redirects cumulative hierarchies]]
+[[!redirects non-cumulative hierarchy]]
+[[!redirects non-cumulative hierarchies]]
+[[!redirects noncumulative hierarchy]]
+[[!redirects noncumulative hierarchies]]
+
+[[!redirects cumulative universes]]
+[[!redirects non-cumulative universes]]
+[[!redirects noncumulative universes]]
 
 [[!redirects cumulative hierarchy of universes]]
 [[!redirects cumulative hierarchies of universes]]
