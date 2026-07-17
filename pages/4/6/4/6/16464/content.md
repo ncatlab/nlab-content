@@ -1,6 +1,6 @@
 This page is dedicated to the notes
 
-* [[Bertrand Toen]], _Master course on algebraic stacks_, lectures notes, Toulouse, 2005, [web](http://perso.math.univ-toulouse.fr/btoen/videos-lecture-notes-etc/).
+* [[Bertrand Toën]], _Master course on algebraic stacks_, lectures notes, Toulouse, 2005, [web](http://perso.math.univ-toulouse.fr/btoen/videos-lecture-notes-etc/).
 
 on [[algebraic stacks]] and [[functor of points|functorial]] [[algebraic geometry]].
 
