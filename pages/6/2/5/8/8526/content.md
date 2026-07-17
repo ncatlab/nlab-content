@@ -124,7 +124,7 @@ A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]
 
 * [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
 
-* Alex Wilkins: *[The secret project to settle controversial maths proof with a computer](https://www.newscientist.com/article/2522687-the-secret-project-to-settle-controversial-maths-proof-with-a-computer/)*, (April 10, 2026)
+* Alex Wilkins: *[The secret project to settle controversial maths proof with a computer](https://www.newscientist.com/article/2522687-the-secret-project-to-settle-controversial-maths-proof-with-a-computer/)*. New Scientist (April 10, 2026)
 
 However,
 
