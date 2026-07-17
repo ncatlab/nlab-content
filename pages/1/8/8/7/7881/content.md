@@ -43,6 +43,8 @@ Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[
 $$N \hookrightarrow A\hookrightarrow \Omega^N$$
 
 then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\Omega^N \hookrightarrow A$.
+
+The internal continuum hypothesis is the analogous statement in the [[internal logic]] of the topos.
 =--
 
 When the topos is Boolean, so the [[Cantor-Schroeder-Bernstein theorem]] holds, this implies the existence of an isomorphism $A \simeq N$ or $\Omega^N \simeq A$. Note, however, that neither of the original monomorphisms is necessarily an isomorphism (one of them could be the successor map on $N$, for example).
@@ -83,7 +85,7 @@ Note that for any notion of real number $\mathbb{R}$ it is impossible for $\math
 +-- {: .num_theorem}
 ###### Theorem
 
-There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the continuum hypothesis fails.
+There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the continuum hypothesis (both internal and external) fails.
 
 =--
 
@@ -145,6 +147,22 @@ The adjoint $g:k_A\to \Omega_{{\neg}{\neg}}^{k_{\mathbb{N}}}$ of $f$ is a monomo
 ###### Corollary
 The associated-sheaf functor sends $g$ to a monomorphism in the Cohen topos.
 =--
+
+### External vs Internal
+
+The above may seem overcomplicated in light of the following examples.
+
++-- {: .num_lemma}
+###### Lemma
+The external Continuum Hypothesis fails in the [[Sierpinski topos]] $\mathbb{S} \simeq \mathrm{Set}^{\cdot \to \cdot}$ and $\mathrm{Set}^2$.
+=--
+\begin{proof}
+The natural numbers in $\mathrm{Set}^{\cdot \to \cdot}$ is $\mathrm{id}:\mathbb{N} \to \mathbb{N}$; its powerset is $3^\mathbb{N} \to 2^\mathbb{N}$. Between these lies $\mathrm{const}:\mathbb{N} \to 2^\mathbb{N}$; there are plainly no monos in the opposite direction for size reasons. Similarly in $\mathrm{Set}^2$, but the powerset is simply $\mathrm{id}_{2^\mathbb{N}}$ this time.
+\end{proof}
+
+The latter is thus a Boolean topos satisfying the internal and external [[axiom of choice]]! However, $\mathrm{Set}^2$ satisfies the *internal* Continuum Hypothesis (as long as the original model of $\mathrm{Set}$ does), since for any intermediate subobject
+$$(\mathbb{N},\mathbb{N}) \to (A,B) \to (2^\mathbb{N},2^\mathbb{N})$$
+there exist the required monomorphisms for each of the two sets $A,B$ independently. Note that this decomposition is not possible for the Sierpinski topos, so the Continuum Hypothesis also fails internally there.
 
 ## Unrefutability
 
