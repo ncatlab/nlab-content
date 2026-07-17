@@ -43,14 +43,17 @@ If a [[category]] $C$ carries a [[model category]] structure, then the [[opposit
     \,,
   $$
   its [[opposite adjunction]] is a Quillen adjunction 
-  $$
-    \mathcal{D}^{op}  
-      \underoverset
-        {\underset{L^{op}}{\longrightarrow}}
-        {\overset{R^{op}}{\longleftarrow}}
-        {\;\;\;\;\; \bot_{\mathrlap{{}_{Qu}}} \;\;\;\;\;}
-    \mathcal{C}^{op}
-  $$
+ 
+$$
+  \mathcal{C}^{op}
+    \underoverset
+      {\underset{L^{op}}{\longrightarrow}}
+      {\overset{R^{op}}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{D}^{op}
+  \,.
+$$
+
   between the opposite model categories (Def. \ref{OppositeModelCategories}).
 \end{prop}
 
