@@ -30,11 +30,13 @@ Review:
 * [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023), video: [YT](https://www.youtube.com/watch?v=n6Eog_z82eA)&rbrack;
 
 
-
-
 On the [[Brown-Gersten property]] for [[simplicial presheaves]] over [[topological spaces]] and [[smooth manifolds]] ([[smooth infinity-groupoids|smooth $\infty$-groupoids]]):
 
 * {#Pavlov22} [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
+
+On [[model structures on diffeological spaces]] and the [[smooth Oka principle]]:
+
+* [[Dmitri Pavlov]]: *Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle*, Homology, Homotopy, and Applications **26** 2 (2024) 375--408 &lbrack;[arXiv:2210.12845](https://arxiv.org/abs/2210.12845), [doi:10.4310/HHA.2024.v26.n2.a18](https://doi.org/10.4310/HHA.2024.v26.n2.a18)&rbrack;
 
 
 
