@@ -221,7 +221,7 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
   
 \end{proposition}
 
-This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov). The analogous statement for [[sheaves of spectra]] (which follows essentially formally) was observed in [Bunke-Nikolaus-Völkl 2013, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case). The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also claimed as  [Bunk 2020, Prop. 3.6 with Prop. 3.11](#Bunk20). 
+This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov). The analogous statement for [[sheaves of spectra]] (which follows essentially formally) was observed in [Bunke-Nikolaus-Völkl 2013, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case). The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also proven as [Bunk 2020, Prop. 3.6 with Prop. 3.11](#Bunk20), [Pavlov 2024 Prop. 12.10](#Pavlov2024),  [Bunk & Shahbazi 2023 Prop. 8.36](#BunkShahbazi2023). 
 
 \linebreak
 
@@ -671,6 +671,9 @@ The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGro
 
 * {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]]: *Classifying spaces of infinity-sheaves*, Algebr. Geom. Topol. **24** (2024) 4891-4937 &lbrack;[doi:10.2140/agt.2024.24.4891](https://doi.org/10.2140/agt.2024.24.4891), [arXiv:1912.10544](https://arxiv.org/abs/1912.10544)&rbrack;
 
+* {#Pavlov2024} [[Dmitri Pavlov]]: *Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle*, Homology, Homotopy, and Applications **26** 2 (2024) 375--408 &lbrack;[arXiv:2210.12845](https://arxiv.org/abs/2210.12845), [doi:10.4310/HHA.2024.v26.n2.a18](https://doi.org/10.4310/HHA.2024.v26.n2.a18)&rbrack;
+
+
 The special case where $A$ in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} a [[0-truncated]] [[smooth infinity-groupoid|smooth $\infty$-groupoid]] (hence a *[[smooth set]]*) and restricting attention to $\pi_0$ of its shape $\esh A$ was previously claimed (but see [MO:q/234778](https://mathoverflow.net/q/234778/381)) by:
 
 * [[Ib Madsen]], [[Michael Weiss]], appendix A.1 of: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
@@ -683,6 +686,9 @@ The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. **17** (2022) 593--650 &lbrack;[arXiv:2007.06039 math.AT](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
+* {#BunkShahbazi2023} [[Severin Bunk]], [[Carlos S. Shahbazi]]: *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633 math.DG](https://arxiv.org/abs/2304.06633)&rbrack;
+
+
 Another discussion is offered in:
 
 * {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), section 5 of: _Differential Cohomology: Categories, Characteristic Classes, and Connections_, based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. &lbrack;[arXiv:2109.12250 math.AT](https://arxiv.org/abs/2109.12250)&rbrack;
@@ -691,13 +697,12 @@ Yet an alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfin
 
 * {#Clough21} [[Adrian Clough]], Theorem B of: *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
-* [[Adrian Clough]]: *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
+* [[Adrian Clough]]: *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757 math.AT](https://arxiv.org/abs/2309.01757)&rbrack;
 
 * [[Adrian Clough]]: *The smooth Oka principle*, talk at *[[CQTS]]* (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
 
 
-The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid})
-applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smooth $\infty$-groupoids]]), was considered also in:
+The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid}) applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smooth $\infty$-groupoids]]), was considered also in:
 
 * {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
