@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -38,6 +36,9 @@ Consider a [[pair]] of [[quantum systems]], $Q$ and $E$, where $Q$ is some syste
 * {#SchumacherWestmoreland10} [[Benjamin Schumacher]], [[Michael Westmoreland]], *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
 
 * Fabrizio Minganti, Alberto Biella: *Open quantum systems -- A brief introduction* &lbrack;[arXiv:2407.16855](https://arxiv.org/abs/2407.16855)&rbrack;
+
+* Enrico Pajer: *Lectures on Open Systems and Cosmology* &lbrack;[arXiv:2607.14351](https://arxiv.org/abs/2607.14351)&rbrack;
+
 
 
 See also:
