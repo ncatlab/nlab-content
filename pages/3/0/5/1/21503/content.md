@@ -18,9 +18,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -75,4 +75,11 @@ See also
 
 * [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _On homotopy types of diffeological cell complexes_ ([arXiv:1912.05359](https://arxiv.org/abs/1912.05359))
 
+* [[Dmitri Pavlov]]: *Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle*, Homology, Homotopy, and Applications **26** 2 (2024) 375--408 &lbrack;[arXiv:2210.12845](https://arxiv.org/abs/2210.12845), [doi:10.4310/HHA.2024.v26.n2.a18](https://doi.org/10.4310/HHA.2024.v26.n2.a18)&rbrack;
+  > (relation to [[smooth Oka principle]])
+
+
+[[!redirects model structures on diffeological spaces]]
+
 [[!redirects model category of diffeological spaces]]
+[[!redirects model categories of diffeological spaces]]
