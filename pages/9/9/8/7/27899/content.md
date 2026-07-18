@@ -10,6 +10,11 @@
 
 ## Selected writings
 
+On [[categorical spectra]] in the context of [[strict omega-categories|strict $\omega$-categories]]:
+
+* [[Félix Loubaton]]: *Theory and models of $(\infty,\omega)$-categories* \[<a href="https://arxiv.org/abs/2307.11931">arXiv:2307.11931</a>\]
+
+
 On the [[Gray tensor product]] in the context of [[(∞,2)-categories]]:
 
 * [[Félix Loubaton]], [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
