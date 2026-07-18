@@ -462,16 +462,19 @@ See also
 * [[Friedrich Bauer]], _Classifying spectra for generalized homology theories_ Annali di Maternatica pura ed applicata
 (IV), Vol. CLXIV (1993), pp. 365-399 
 
-* [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae
-Volume 9, Issue 1 & 4, 1986, Pages 29 - 54 
+* [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_, Quaestiones Mathematicae **9** 1 & 4 (1986) 29--54 
 
 A general construction of homologies by "geometric cycles" similar to the [[Baum-Douglas geometric cycles]] for [[K-homology]] is discussed in 
 
 * S. Buoncristiano, C. P. Rourke and B. J. Sanderson, _A geometric approach to homology theory_, Cambridge Univ. Press, Cambridge, Mass. (1976)
 
-Further generalization of this to [[bivariant cohomology theories]] is in 
+Further generalization of this to [[bivariant cohomology theories]]: 
 
 * Martin Jakob, _Bivariant theories for smooth manifolds_, Applied Categorical Structures 10 no. 3 (2002)
+
+Generalization to [[coefficients]] in [[combinatorial spectra]]:
+
+* [[Hadrian Heine]]: *On the categorification of homology* &lbrack;[arXiv:2505.22640](https://arxiv.org/abs/2505.22640)&rbrack;
 
 
 [[!redirects generalized homology theory]]
