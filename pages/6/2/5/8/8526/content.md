@@ -10,6 +10,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -117,6 +118,7 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 
 
 ### Formalization attempts
+ {#ReferencesFormalizationAttempts}
 
 A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
 
@@ -131,13 +133,13 @@ However:
 * Yuichiro Hoshi, [March 2026](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f), [here](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f#:~:text=with%20regard%20to%20the%20logic):
   > "with regard to the logic by which Corollary 3.12 is derived from Theorem 3.11 as I mentioned earlier, I must take seriously the fact that many members of the LANA Project still feel that there is some insurmountable wall there."
 
-* LANA Project: *[Project LANA interim report on IUT theory](https://github.com/katobungen/LANA_report_202607/blob/pdf/LANA_report_202607.pdf)* (July 2026)
+* LANA Project: *Interim Report 2026: Computer-Assisted Verification of IUT Theory* (July 2026) &lbrack;[github](https://github.com/katobungen/LANA_report_202607/blob/pdf/LANA_report_202607.pdf), [[LANAProject-Report-July2026.pdf:file]]&rbrack;
   > "we isolate a specific compatibility problem at the final stage of the argument &lbrack;...&rbrack; Project LANA has not yet reconstructed a proof of the required compatibility"
 
-* [LANA Project Press Conference](https://www.youtube.com/live/KADN5NHmIfw?t=593s) (July 2026)
-  > 40:45: "This is exactly the point that we don't understand how to prove"
+* LANA Project Press Conference, Zen Mathematics Center (17 July 2026) &lbrack;[video:YT](https://www.youtube.com/live/KADN5NHmIfw?t=593s)&rbrack;
+  > [40:45](https://youtu.be/KADN5NHmIfw?t=2445): "This is exactly the point that we don't understand how to prove"
 
-* Fumiharo Kato ([17 July 2026](https://x.com/FumiharuKato/status/2078017230537892207)):
+* Fumiharo Kato (17 July 2026) ([x.com:2078017230537892207](https://x.com/FumiharuKato/status/2078017230537892207)):
 > "In today's press conference, we explained our efforts over the last two years which resulted in the following conclusion: The way the argument from Theorem 3.11 to Corollary 3.12 is written in the IUT papers is unformalizable. But since Mochizuki's explanation of this point has recently started evolving, we reserve final judgement at this time."
 
 
