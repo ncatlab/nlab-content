@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -39,6 +37,10 @@ See also:
 Discussion in relation to [[configuration spaces of points]], [[group completion]] and [[topological quantum field theory]]:
 
 * [[Jack Morava]], [[Dale Rolfsen]]: *Toward the group completion of the Burau representation*, Trans. Amer. Math. Soc. **376** (2023) 1845-1865 &lbrack;[arXiv:1809.01994](https://arxiv.org/abs/1809.01994), [doi:10.1090/tran/8796](https://doi.org/10.1090/tran/8796)&rbrack;
+
+See also:
+
+* Vasudha Bharathram, [[Joan S. Birman]], Tara E. Brendle: *The Burau representation of the braid group is faithful for $n = 4$* \[<a href="https://arxiv.org/abs/2607.05283">arXiv:2607.05283</a>\]
 
 
 
