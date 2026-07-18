@@ -35,6 +35,10 @@ On [[braid groups]], [[braid representations]] and some [[knot theory]]:
 
 * [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Contemporary Mathematics **78** (1988) &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
 
+On the [[Burau representation]]:
+
+* Vasudha Bharathram, [[Joan S. Birman]], Tara E. Brendle: *The Burau representation of the braid group is faithful for $n = 4$* \[<a href="https://arxiv.org/abs/2607.05283">arXiv:2607.05283</a>\]
+
 
 category:people
 
