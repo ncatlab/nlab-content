@@ -154,7 +154,7 @@ published as:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]; [Table 4](https://arxiv.org/pdf/1903.02807#page=9) in: _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8--9 &lbrack;[arXiv:1903.02807 hep-th](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
 
-Generalization to duality between [[higher geometry]] and [[higher algebra]] (higher [[Tannaka duality]]) via suitably stabilized [[locally presentable (infinity,n)-categories|locally presentable]] [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] and their [[formal duals]] ("*Gestalten*"):
+Generalization to duality between [[higher geometry]] and [[higher algebra]] (higher [[Tannaka duality]]) via [[categorical spectra]] of [[locally presentable (infinity,n)-categories|locally presentable]] [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] and their [[formal duals]] ("*Gestalten*"):
 
 * [[Peter Scholze]]: *Geometry and Higher Category Theory*, lecture notes (2026) &lbrack;[webpage](https://www.mpim-bonn.mpg.de/node/14764), [pdf](https://people.mpim-bonn.mpg.de/scholze/Gestalten.pdf)&rbrack;
 
