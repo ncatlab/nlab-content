@@ -340,7 +340,7 @@ Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-ca
 
 In the context of [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory:
 
-* [[David Gepner]], Hadrian Heine: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
+* [[David Gepner]], [[Hadrian Heine]]: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
 
 
 
