@@ -51,6 +51,8 @@ In terms of the terminology of [[(n,r)-categories|$(n,r)$-categories]], the prev
 
 * [[(n,r)-category]]
 
+* [[categorical spectrum]]
+
 * [[weak omega-category]]
 
 * [[opetopic omega-category]]
