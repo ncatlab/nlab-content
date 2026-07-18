@@ -2,6 +2,10 @@ There are several different (sometimes related) mathematical notions of ''spectr
 
 * [[spectrum|spectra of spaces]] in [[stable homotopy theory]]
 
+  and more generally
+
+  * [[categorical spectrum|spectra of $\infty$-categories]] in [[higher category theory]]
+
 * [[spectrum (geometry)|spectra of rings]] in [[geometry]]
 
   * including: [[Cole's theory of spectrum]], 
