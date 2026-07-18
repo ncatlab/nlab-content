@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -80,7 +79,7 @@ A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
 
 * {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
-* Hadrian Heine, _An equivalence between enriched ∞-categories and ∞-categories with weak action_, [arxiv](https://arxiv.org/abs/2009.02428), 2020
+* [[Hadrian Heine]]: *An equivalence between enriched $\infty$-categories and $\infty$-categories with weak action*, Advances in Mathematics **417** (2023) 108941 &lbrack;[arxiv:2009.02428](https://arxiv.org/abs/2009.02428), [doi:10.1016/j.aim.2023.108941](https://doi.org/10.1016/j.aim.2023.108941)&rbrack;
 
 * [[John D. Berman]], *Enriched infinity categories I: enriched presheaves* ([arXiv:2008.11323](https://arxiv.org/abs/2008.11323))
 
