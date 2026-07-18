@@ -22,7 +22,7 @@
 
 ## Idea ##
 
-Bornological vector spaces are a kind of [[topological vector spaces]].
+Bornological vector spaces are a kind of [[topological vector space]].
 
 On [[normed space|normed spaces]]
  [[linear operators]] are [[continuous map|continuous]] iff they are bounded. On bornological spaces this property is retained by definition.
