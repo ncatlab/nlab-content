@@ -3,73 +3,191 @@
 > If this edit page here is seemingly locked by "Anonymous", just break the lock, as it is just caused by bot traffic. If the page is locked by an actual user, there is also the alternative *[[Sandbox2]]*.
 
 
+
+
 ***
-\linebreak
 
-[[Bertrand Toën]]
+## Idea
 
-* {#EGAIV3} [[Alexander Grothendieck]], *Éléments de géométrie algébrique : IV. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas* (Troisi&#232;me partie) Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. ([numdam:PMIHES_1966__28__5_0/](http://www.numdam.org/item/PMIHES_1966__28__5_0/))
+The notion of *categorical spectra* is the full [[categorification]] of that of ([[Omega-spectrum|Omega]]-) [[spectra]] of [[topological spaces|spaces]]/[[infinity-groupoids|$\infty$-groupoids]], hence the generalization of *spectra* from [[(infinity,0)-categories|$(\infty,0)$-categories]] to [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
 
-motivation -- local systems in physics: 
 
-Hilbert spaces of gapped quantum ground states over classical parameter space $P$ of topological phases of matter
-
-topological phases are $C \in \pi_0(P)$
-
-topological orders in phase $C$ are $\mathcal{H} \in Rep_{\mathbb{C}}\big(\pi_1(P,C)\big)$
-
-topological orders in any phase are $\mathcal{H} \in Loc_{\mathbb{C}}(P)$
-
-in fragile crystalline phases: parameter space is crystal lattice couplings reflected in 1-electron Hamiltonians from a space $\mathcal{A}$, hence parameter space is $P = Map(T^d, \mathcal{A})$
-
-topological phases are $C \in \pi_0 \big( Map(T^d, \mathcal{A})\big)$
-
-topological orders in phase $C$ are $\mathscr{H} \in Rep_{\mathcal{C}}\Big( \pi_1 \big( Map(T^d,\mathcal{A}), C\big) \Big) $
-
-topological orders in any phase are $\mathscr{H} \in Loc_{\mathbb{C}}\big(Map(T^d, \mathcal{A})\big)$
-
-functorial at least in diffeos of $T^d$ (modular functor)
-
-$\mathscr{H} \in Loc_{\mathbb{C}}\big(Map(T^d, \mathcal{A})\sslash Diff(T^d) \big)$
-
-for crystalline structure use equivariant maps
-
-translate to TFT language
+A categorical spectrum is an [[natural numbers|$\mathbb{N}$]]-[[indexed set]] of [[pointed object|pointed]] [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]] $(\mathcal{C}_n, X_n)_{n \in \mathbb{N}}$ such that each stage is equivalent to the [[endomorphism monoid|endomorphism]] object of the next stage:
 
 $$
-  \mathbb{1}
-    \longrightarrow
-  Loc_{\mathbb{C}}\big(
-    Map(-, \mathcal{A})
-    \sslash 
-    Diff(T^d)
-  \big)
+  \mathcal{C}_n \simeq End_{\mathcal{C}_{n+1}}(X_{n+1})
+  \mathrlap{\,.}
+$$ 
+
+This may be thought of as stagewise revealing a [[higher category]] structure with [[k-morphism]] in [[negative number|negative]] degrees: The [[k-morphisms]] of $\mathcal{C}_{n}$ are the $k-n$-morphisms of the categorical spectrum. Therefore one also speaks of [[(∞,Z)-category|$(\infty,\mathbb{Z})$-categories]] ([Kern 2024](#Kern2024), following [Lessard 2019](#Lessard2019), [2022](#Lessard2022)).
+
+In many examples, $\mathcal{C}_{n}$ happens to be an [[(infinity,n)-category|$(\infty,n)$-category]].
+
+In this case, since the [[endomorphism monoid object|endomorphism objects]] $End(-)$ are canonically [[monoid objects]], each stage $\mathcal{C}_n$ in a categorical spectrum is exhibited as a [[monoidal (infinity,n)-category|monoidal $(\infty,n)$-category]] and, by iteration, in fact as a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]].
+
+Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]]:
+
+$$
+  (-)^\times
   \;\colon\;
-  B Diff(T^d)
-  \longrightarrow 
-  Vec Mod
+  CatSpectra \longrightarrow Spectra
+  \mathrlap{\,.}
 $$
 
+## Examples
 
-in experiment, such FQ(A)H systems are governed by two effective symmetries
+* The [[(infinity,n)-category|$(\infty,n)$-categories]] of [[complex vector space|complex]] [[super vector spaces|super]] [[n-vector space|$(n-1)$-vector spaces]] form a categorical spectrum whose Picard spectrum is the [[Anderson duality|Anderson dual]] $I_{\mathbb{C}^\times}$ of the [[sphere spectrum]].
 
-* supersymmetry
 
-* area-preserving diffeomorphisms ($W_\infty$)
+## Related concepts
 
-same as characteristic symmetries of super $p$-branes
+* [[combinatorial spectrum]]
 
-$\rightsquigarrow$ find geometric engineering on M-branes in SuGra
+* [[(∞,Z)-category]]
 
-$\rightsquigarrow$ need global IR-completion where topological brane charges are determined
+## References
 
-(no string folklore, but actual definitions and proofs)
+Precursor discussion using only [[strict omega-categories|strict $\omega$-categories]]:
 
-compare IR completion of Maxwell: $B^2 \mathbb{Z} \times B^2 \mathbb{R}$ and use Deligne complex...
+* {#Lessard2019} [[Paul Lessard]]: *Spectra as Locally Finite $\mathbb{Z}$-Groupoids* (2019) \[<a href="https://youtu.be/nXHUHdCvDl8">video:YT</a>\]
 
-...
+* {#Lessard2022} [[Paul Lessard]]: *$\mathbf{Z}$-Categories I* \[<a href="https://arxiv.org/abs/2206.00849">arXiv:2206.00849</a>\]
 
-magnetized M5 @ A1
+Original discussion in the generality of [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
+
+* {#Stefanich21Thesis} [[Germán Stefanich]]: *Categorical spectra*,  ## Idea
+
+The notion of *categorical spectra* is the full [[categorification]] of that of ([[Omega-spectrum|Omega]]-) [[spectra]] of [[topological spaces|spaces]]/[[infinity-groupoids|$\infty$-groupoids]], hence the generalization of *spectra* from [[(infinity,0)-categories|$(\infty,0)$-categories]] to [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
+
+
+A categorical spectrum is an [[natural numbers|$\mathbb{N}$]]-[[indexed set]] of [[pointed object|pointed]] [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]] $(\mathcal{C}_n, X_n)_{n \in \mathbb{N}}$ such that each stage is equivalent to the [[endomorphism monoid|endomorphism]] object of the next stage:
+
+$$
+  \mathcal{C}_n \simeq End_{\mathcal{C}_{n+1}}(X_{n+1})
+  \mathrlap{\,.}
+$$ 
+
+This may be thought of as stagewise revealing a [[higher category]] structure with [[k-morphism]] in [[negative number|negative]] degrees: The [[k-morphisms]] of $\mathcal{C}_{n}$ are the $k-n$-morphisms of the categorical spectrum. Therefore one also speaks of [[(∞,Z)-category|$(\infty,\mathbb{Z})$-categories]] ([Kern 2024](#Kern2024), following [Lessard 2019](#Lessard2019), [2022](#Lessard2022)).
+
+In many examples, $\mathcal{C}_{n}$ happens to be an [[(infinity,n)-category|$(\infty,n)$-category]].
+
+In this case, since the [[endomorphism monoid object|endomorphism objects]] $End(-)$ are canonically [[monoid objects]], each stage $\mathcal{C}_n$ in a categorical spectrum is exhibited as a [[monoidal (infinity,n)-category|monoidal $(\infty,n)$-category]] and, by iteration, in fact as a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]].
+
+Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]]:
+
+$$
+  (-)^\times
+  \;\colon\;
+  CatSpectra \longrightarrow Spectra
+  \mathrlap{\,.}
+$$
+
+## Examples
+
+* The [[(infinity,n)-category|$(\infty,n)$-categories]] of [[complex vector space|complex]] [[super vector spaces|super]] [[n-vector space|$(n-1)$-vector spaces]] form a categorical spectrum whose Picard spectrum is the [[Anderson duality|Anderson dual]] $I_{\mathbb{C}^\times}$ of the [[sphere spectrum]].
+
+
+## Related concepts
+
+* [[combinatorial spectrum]]
+
+* [[(∞,Z)-category]]
+
+## References
+
+Precursor discussion using only [[strict omega-categories|strict $\omega$-categories]]:
+
+* {#Lessard2019} [[Paul Lessard]]: *Spectra as Locally Finite $\mathbb{Z}$-Groupoids* (2019) \[<a href="https://youtu.be/nXHUHdCvDl8">video:YT</a>\]
+
+* {#Lessard2022} [[Paul Lessard]]: *$\mathbf{Z}$-Categories I* \[<a href="https://arxiv.org/abs/2206.00849">arXiv:2206.00849</a>\]
+
+Original discussion in the generality of [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
+
+* {#Stefanich21Thesis} [[Germán Stefanich]]: *Categorical spectra*,  §8.6 ## Idea
+
+The notion of *categorical spectra* is the full [[categorification]] of that of ([[Omega-spectrum|Omega]]-) [[spectra]] of [[topological spaces|spaces]]/[[infinity-groupoids|$\infty$-groupoids]], hence the generalization of *spectra* from [[(infinity,0)-categories|$(\infty,0)$-categories]] to [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
+
+
+A categorical spectrum is an [[natural numbers|$\mathbb{N}$]]-[[indexed set]] of [[pointed object|pointed]] [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]] $(\mathcal{C}_n, X_n)_{n \in \mathbb{N}}$ such that each stage is equivalent to the [[endomorphism monoid|endomorphism]] object of the next stage:
+
+$$
+  \mathcal{C}_n \simeq End_{\mathcal{C}_{n+1}}(X_{n+1})
+  \mathrlap{\,.}
+$$ 
+
+This may be thought of as stagewise revealing a [[higher category]] structure with [[k-morphism]] in [[negative number|negative]] degrees: The [[k-morphisms]] of $\mathcal{C}_{n}$ are the $k-n$-morphisms of the categorical spectrum. Therefore one also speaks of [[(∞,Z)-category|$(\infty,\mathbb{Z})$-categories]] ([Kern 2024](#Kern2024), following [Lessard 2019](#Lessard2019), [2022](#Lessard2022)).
+
+In many examples, $\mathcal{C}_{n}$ happens to be an [[(infinity,n)-category|$(\infty,n)$-category]].
+
+In this case, since the [[endomorphism monoid object|endomorphism objects]] $End(-)$ are canonically [[monoid objects]], each stage $\mathcal{C}_n$ in a categorical spectrum is exhibited as a [[monoidal (infinity,n)-category|monoidal $(\infty,n)$-category]] and, by iteration, in fact as a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]].
+
+Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]]:
+
+$$
+  (-)^\times
+  \;\colon\;
+  CatSpectra \longrightarrow Spectra
+  \mathrlap{\,.}
+$$
+
+## Examples
+
+\begin{example}
+The [[(infinity,n)-category|$(\infty,n)$-categories]] of [[complex vector space|complex]] [[super vector spaces|super]] [[n-vector space|$(n-1)$-vector spaces]] form a categorical spectrum whose Picard spectrum is the [[Anderson duality|Anderson dual]] $I_{\mathbb{C}^\times}$ of the [[sphere spectrum]].
+\end{example}
+([[David Reutter]] and [[Theo Johnson-Freyd]], upcoming)
+
+## Related concepts
+
+* [[combinatorial spectrum]]
+
+* [[(∞,Z)-category]]
+
+## References
+
+Precursor discussion using only [[strict omega-categories|strict $\omega$-categories]]:
+
+* {#Lessard2019} [[Paul Lessard]]: *Spectra as Locally Finite $\mathbb{Z}$-Groupoids* (2019) \[<a href="https://youtu.be/nXHUHdCvDl8">video:YT</a>\]
+
+* {#Lessard2022} [[Paul Lessard]]: *$\mathbf{Z}$-Categories I* \[<a href="https://arxiv.org/abs/2206.00849">arXiv:2206.00849</a>\]
+
+Original discussion in the generality of [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
+
+* {#Stefanich21Thesis} [[Germán Stefanich]]: *Categorical spectra*,  §8.6 & §13 in: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
+
+* [[Naruki Masuda]]: *The Algebra of Categorical Spectra*, PhD thesis, Johns Hopkins University (2024) &lbrack;[handle:1774.2/70013](https://jscholarship.library.jhu.edu/handle/1774.2/70013), [arXiv:2605.03114](https://arxiv.org/abs/2605.03114)&rbrack;
+
+* {#Kern2024} [[David Kern]]: _Categorical spectra as pointed $(\infty,\mathbb{Z})$-categories_ &lbrack;[arXiv:2410.02578](https://arxiv.org/abs/2410.02578)&rbrack;
+
+
+On the generalization of [[Whitehead-generalized homology]] to [[coefficients]] being categorical spectra:
+
+* [[Hadrian Heine]]: *Homology of higher categories*
+
+in: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
+
+* [[Naruki Masuda]]: *The Algebra of Categorical Spectra*, PhD thesis, Johns Hopkins University (2024) &lbrack;[handle:1774.2/70013](https://jscholarship.library.jhu.edu/handle/1774.2/70013), [arXiv:2605.03114](https://arxiv.org/abs/2605.03114)&rbrack;
+
+* {#Kern2024} [[David Kern]]: _Categorical spectra as pointed $(\infty,\mathbb{Z})$-categories_ &lbrack;[arXiv:2410.02578](https://arxiv.org/abs/2410.02578)&rbrack;
+
+
+On the generalization of [[Whitehead-generalized homology]] to [[coefficients]] being categorical spectra:
+
+* [[Hadrian Heine]]: *Homology of higher categories*
+
+8.6 &  in: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
+
+* [[Naruki Masuda]]: *The Algebra of Categorical Spectra*, PhD thesis, Johns Hopkins University (2024) &lbrack;[handle:1774.2/70013](https://jscholarship.library.jhu.edu/handle/1774.2/70013), [arXiv:2605.03114](https://arxiv.org/abs/2605.03114)&rbrack;
+
+* {#Kern2024} [[David Kern]]: _Categorical spectra as pointed $(\infty,\mathbb{Z})$-categories_ &lbrack;[arXiv:2410.02578](https://arxiv.org/abs/2410.02578)&rbrack;
+
+
+On the generalization of [[Whitehead-generalized homology]] to [[coefficients]] being categorical spectra:
+
+* [[Hadrian Heine]]: *Homology of higher categories*
+
+
+
 
 
 ***
