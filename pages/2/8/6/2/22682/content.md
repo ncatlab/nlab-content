@@ -1,4 +1,5 @@
 
+
 ### Braid group representations (as topological quantum gates)
 
 On [[linear representations]] of braid groups (see also at *[[braid group statistics]]* and interpretation as [[quantum gates]] in *[[topological quantum computation]]*):
@@ -7,8 +8,7 @@ On [[linear representations]] of braid groups (see also at *[[braid group statis
 
 Review:
 
-* [[Chen Ning Yang]], M. L. Ge (eds.). *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) $[$[doi:10.1142/0796](https://doi.org/10.1142/0796)$]$
-
+* [[Chen Ning Yang]], M. L. Ge (eds.). *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) $[$[doi:10.1142/0796](https://doi.org/10.1142/0796)\]
   > (focus on [[quantum Yang-Baxter equation]])
 
 * [[Camilo Arias Abad]]: *Introduction to representations of braid groups*, Rev. colomb. mat. **49** 1 (2015) \[<a href="https://doi.org/10.15446/recolma.v49n1.54160">doi:10.15446/recolma.v49n1.54160</a>, [arXiv:1404.0724](https://arxiv.org/abs/1404.0724)\] 
@@ -40,6 +40,9 @@ Braid representations seen inside the [[topological K-theory]] of the [[braid gr
 See also:
 
 * R. B. Zhang, *Braid group representations arising from quantum supergroups with arbitrary $q$ and link polynomials*, Journal of Mathematical Physics 33, 3918 (1992) ([doi:10.1063/1.529840](https://doi.org/10.1063/1.529840))
+
+* Vasudha Bharathram, [[Joan S. Birman]], Tara E. Brendle: *The Burau representation of the braid group is faithful for $n = 4$* \[<a href="https://arxiv.org/abs/2607.05283">arXiv:2607.05283</a>\]
+
 
 As [[quantum gates]] for [[topological quantum computation]] with [[anyons]]:
 
