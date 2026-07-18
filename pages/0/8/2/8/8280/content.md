@@ -1,19 +1,22 @@
-There are several different (sometimes related) mathematical objects called ''spectrum'' or whose name has ''spectral'' as prefix:
+There are several different (sometimes related) mathematical notions of ''spectrum'' or whose name has ''spectral'' as prefix:
 
-* [[spectrum]] in [[stable homotopy theory]].
+* [[spectrum|spectra of spaces]] in [[stable homotopy theory]]
 
-* [[spectrum (geometry)]] in [[geometry]], [[Cole's theory of spectrum]]
+* [[spectrum (geometry)|spectra of rings]] in [[geometry]]
 
-* including [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, [[spectrum of a commutative ring]], [[prime spectrum of a ring]] (not necessarily commutative), _[[analytic spectrum]]_, [[Cole's theory of spectrum]], _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_,  _[[spectrum of a triangulated category]]_, _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_, etc.
+  * including: [[Cole's theory of spectrum]], 
 
-There is also a notion of 
+    [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, [[spectrum of a commutative ring]], [[prime spectrum of a ring]] (not necessarily commutative), _[[analytic spectrum]]_, [[Cole's theory of spectrum]], _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_,  _[[spectrum of a triangulated category]]_, _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_, etc.
+
+There is also a notion of:
 
 * [[spectral sequence]]
 
-which has no particular relation to other notions of _spectrum_, except that [[filtered spectra]] give rise to [[spectral sequences of filtered spectra]].
-
+which has no particular relation to other notions of _spectrum_ (except that [[filtered spectra]] give rise to [[spectral sequences of filtered spectra]]).
 
 In [[physics]]:
 
 * [[atomic spectrum]]
+
+category: dosambiguation
 
