@@ -1,5 +1,13 @@
 
-* [website](https://www.cs.ox.ac.uk/people/david.reutter/)
+* [personal page](https://www.davidreutter.com/)
+
+* [institute page](https://www.cs.ox.ac.uk/people/david.reutter/) (Oxford)
+
+* [institute page](https://www.qu.uni-hamburg.de/de/cluster/team/reutter.html) (Hamburg)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=tbT4S0gAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/David-Reutter-2115847069)
 
 ## Selected writings
 
@@ -34,6 +42,10 @@ More on [[fusion 2-categories]]:
 
 * [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Cameron Krulewski]], [[Nivedita]], [[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
 
+
+## Related entries
+
+* [[categorical spectrum]]
 
 
 category: people
