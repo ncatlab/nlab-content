@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Of chain complexes
 
@@ -178,9 +177,7 @@ The ingredients of homology and cohomology:
 
   vol 3: Lecture Notes in Mathematics **99**, Springer (1969) &lbrack;[doi:10.1007/BFb0081959](https://doi.org/10.1007/BFb0081959)&rbrack;
 
-For a [[categorification]] of homology:
-
-* Hadrian Heine, *On the categorification of homology* &lbrack;[arXiv:2505.22640](https://arxiv.org/abs/2505.22640)&rbrack;
+For more see references at *[[Whitehead-generalized homology]]*.
 
 
 [[!redirects homologies]]
