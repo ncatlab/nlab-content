@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -70,7 +70,7 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 * [[multiplicative spectral sequence]]
 
-
+* [[StRing]]
 
 ## References
 
