@@ -47,12 +47,13 @@ If these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,
 
 Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]]:
 
-$$
+\[
+  \label{PicardSpectrumFunctor}
   (-)^\times
   \;\colon\;
   CatSpectra \longrightarrow Spectra
   \mathrlap{\,.}
-$$
+\]
 
 
 
@@ -60,7 +61,7 @@ $$
 ## Examples
 
 \begin{example}
-The [[(infinity,n)-category|$(\infty,n)$-categories]] of [[complex vector space|complex]] [[super vector spaces|super]] [[n-vector space|$(n-1)$-vector spaces]] form a categorical spectrum whose Picard spectrum is the [[Anderson duality|Anderson dual]] $I_{\mathbb{C}^\times}$ of the [[sphere spectrum]].
+The [[(infinity,n)-category|$(\infty,n)$-categories]] of [[complex vector space|complex]] [[super vector spaces|super]] [[n-vector space|$n$-vector spaces]] form a categorical spectrum whose Picard spectrum (eq:PicardSpectrumFunctor) is the [[Anderson duality|Anderson dual]] $I_{\mathbb{C}^\times}$ of the [[sphere spectrum]].
 \end{example}
 (Due to [[David Reutter]] and [[Theo Johnson-Freyd]], upcoming.)
 
