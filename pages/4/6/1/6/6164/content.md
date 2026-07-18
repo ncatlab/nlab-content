@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -488,4 +488,11 @@ Further generalization of this to [[bivariant cohomology theories]] is in
 
 [[!redirects generalised homology]]
 [[!redirects generalised homologies]]
+
+[[!redirects Whitehead-generalized homology]]
+[[!redirects Whitehead-generalized homology theory]]
+[[!redirects Whitehead-generalized homology theories]]
+
+
+
 
