@@ -49,7 +49,7 @@
     * [[Kan complex]]
       * [[algebraic Kan complex]]
       * [[simplicial T-complex]]
-  * [[(∞,Z)-category]]
+  * [[(∞,Z)-category|$(\infty,\mathbb{Z})$-category]]/[[categorical spectrum]]
   * [[n-category]] = (n,n)-category
     * [[2-category]], [[(2,1)-category]]
     * [[1-category]]
