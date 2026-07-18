@@ -44,11 +44,9 @@ On [[higher algebra]] in [[stable (infinity,1)-categories|stable $(\infty,1)$-ca
 
 On [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory in the generality of lax [[Gray tensor product|Gray enrichment]]:
 
-* [[David Gepner]], Hadrian Heine, *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
+* [[David Gepner]], [[Hadrian Heine]]: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
 
-* [[David Gepner]], Hadrian Heine, *Homotopy Posets, Postnikov Towers,and Hypercompletions of ∞-Categories* &lbrack;[arXiv:2603.09903](https://arxiv.org/abs/2603.09903)&rbrack;
-
-On [[infinity-categories]]:
+* [[David Gepner]], [[Hadrian Heine]]: *Homotopy Posets, Postnikov Towers,and Hypercompletions of $\infty$-Categories* &lbrack;[arXiv:2603.09903](https://arxiv.org/abs/2603.09903)&rbrack;
 
 * [[David Gepner]], [[Hadrian Heine]]: *An Oriented Street--Roberts Conjecture* &lbrack;[arXiv:2606.29373](https://arxiv.org/abs/2606.29373)&rbrack;
 
