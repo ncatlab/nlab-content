@@ -16,9 +16,7 @@ This entry is about the notion of spectrum in [[stable homotopy theory]]. For ot
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -158,6 +156,7 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[stable homotopy hypothesis]]
 
+
 ## Related concepts
 
 * [[homotopy group of a spectrum]]
@@ -183,6 +182,9 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 * [[Brown representability theorem]]
 
 * [[stable homotopy hypothesis]]
+
+* [[categorical spectrum]]
+
 
 [[!include k-monoidal table]]
 
