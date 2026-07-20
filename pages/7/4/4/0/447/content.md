@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -212,6 +210,7 @@ is an equalizer diagram in $Set^{\Delta^{op}}$, then ${|i|}$ is the equalizer of
 As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. 
 
 #### Geometric realization preserves finite products
+ {#TopologicalRealizationPreservesFiniteProducts}
 
 That geometric realization preserves products _is_ sensitive to whether we think of it as valued in $Top$ or in a convenient category $Space$. In particular, the proof uses [[cartesian closed category|cartesian closure]] of $Space$ in an essential way (in the form that [[finite products]] distribute over arbitrary [[colimits]]). 
 
