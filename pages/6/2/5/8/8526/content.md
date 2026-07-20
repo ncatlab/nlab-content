@@ -36,7 +36,6 @@ In brief, the novel idea due to Mochizuki, is to average over deformations of ar
 ### Pilot objects
 
 
-
 Important to the arguments in the latter parts of the IUTT series are what Mochizuki refers to as pilot objects. (A precise construction of Pilot objects has been independently provided in [[Kirti Joshi|Construction of Arithmetic Teichmuller Spaces III: A Rosetta Stone and a proof of Mochizuki’s Corollary 3.12]].)
 
  Though the terminology in [IUTT III](#IUTTIII) is very dense, Mochizuki explains in Example 3.6, Remark 3.6.1, and subsequently that these can be understood in quite elementary terms, which we now describe.
@@ -120,7 +119,7 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 ### Formalization attempts
  {#ReferencesFormalizationAttempts}
 
-A couple of projects to formalize/check IUT with a [[proof assistant]] ([[Lean]]):
+A couple of projects to formalize/check the alleged IUT proof of the [[abc conjecture]] with a [[proof assistant]] ([[Lean]]):
 
 * ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
 
@@ -133,7 +132,7 @@ However:
 * Yuichiro Hoshi, [March 2026](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f), [here](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f#:~:text=with%20regard%20to%20the%20logic):
   > "with regard to the logic by which Corollary 3.12 is derived from Theorem 3.11 as I mentioned earlier, I must take seriously the fact that many members of the LANA Project still feel that there is some insurmountable wall there."
 
-* LANA Project: *Interim Report 2026: Computer-Assisted Verification of IUT Theory* (July 2026) &lbrack;[github](https://github.com/katobungen/LANA_report_202607/blob/pdf/LANA_report_202607.pdf), [[LANAProject-Report-July2026.pdf:file]]&rbrack;
+* {#LANAReport2026} LANA Project: *Interim Report 2026: Computer-Assisted Verification of IUT Theory* (July 2026) &lbrack;[github](https://github.com/katobungen/LANA_report_202607/blob/pdf/LANA_report_202607.pdf), [[LANAProject-Report-July2026.pdf:file]]&rbrack;
   > "we isolate a specific compatibility problem at the final stage of the argument &lbrack;...&rbrack; Project LANA has not yet reconstructed a proof of the required compatibility"
 
 * LANA Project Press Conference, Zen Mathematics Center (17 July 2026) &lbrack;[video:YT](https://www.youtube.com/live/KADN5NHmIfw?t=593s)&rbrack;
@@ -141,6 +140,15 @@ However:
 
 * Fumiharo Kato (17 July 2026) ([x.com:2078017230537892207](https://x.com/FumiharuKato/status/2078017230537892207)):
 > "In today's press conference, we explained our efforts over the last two years which resulted in the following conclusion: The way the argument from Theorem 3.11 to Corollary 3.12 is written in the IUT papers is unformalizable. But since Mochizuki's explanation of this point has recently started evolving, we reserve final judgement at this time."
+
+The problem encountered by the LANA project is claimed to be different from that previously argued in:
+
+* {#ScholzeStix208} [[Peter Scholze]], [[Jakob Stix]]: *Why $a b c$ is still a conjecture* (Aug 2018) &lbrack;[[why_abc_is_still_a_conjecture.pdf|pdf:file]]&rbrack;
+
+for the [LANA report 2026](#LANAReport2026) writes in its final [§10 (pp. 46)](https://ncatlab.org/nlab/files/LANAProject-Report-July2026.pdf#page=46):
+
+> "We now compare our analysis with that made by [Scholze and Stix in &lbrack;15&rbrack;](#ScholzeStix208) \[...\] In the final part of \[15\], the occurrence of monodromy in the identifications among the various ordered one-dimensional real vector spaces appearing in the theory is pointed out as a flaw in the proof \[...\] \[We\] indicate why this occurrence of monodromy does not represent an obstruction to the intended proof strategy of Mochizuki \[...\] \[because\] our analysis does not give rise to this particular diagram; rather, the elaboration of the $\eta$-algorithm shows that the proof of the final numerical inequality hinges on the compatibility (9-1) which is not manifestly false. However, we, the LANA project, do not have a proof of (9-1) at this time."
+
 
 
 [[!redirects IUTT]]
