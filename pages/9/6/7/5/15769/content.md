@@ -41,6 +41,10 @@ On [[TQFTs]] not detecting the [[Milnor sphere]]:
 * [[Ben Gripaios]], [[Oscar Randal-Williams]]: *TQFTs do not detect the Milnor sphere* &lbrack;[arXiv:2601.20828](https://arxiv.org/abs/2601.20828)&rbrack;
 
 
+On homotopy-coherent [[group actions on spheres]]:
+
+* Manuel Krannich, [[Oscar Randal-Williams]]: *Some homotopy coherent finite group actions on spheres* &lbrack;[arXiv:2607.15979](https://arxiv.org/abs/2607.15979)&rbrack;
+
 
 
 ## Related entries
