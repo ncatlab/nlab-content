@@ -32,6 +32,12 @@ On [[Spin(7)]]-[[subgroups]] of [[Spin(8)]]:
 
 * {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae, 19 (2001): 163-177 (<a href="https://doi.org/10.1016/S0723-0869(01)80027-X">doi:10.1016/S0723-0869(01)80027-X</a>, [pdf](https://core.ac.uk/download/pdf/81114499.pdf))
 
+
+On [[fiber bundles]] ([[principal bundles]], [[associated bundles]]) in [[supergeometry]]:
+
+* [[Claudio Carmeli]], [[Rita Fioresi]], [[Veeravalli S. Varadarajan]]: *Super Bundles*, Universe **4** 3 (2018) 46 &lbrack;[arXiv:1801.07181](https://arxiv.org/abs/1801.07181), [doi:10.3390/universe4030046](https://doi.org/10.3390/universe4030046)&rbrack;
+
+
 ## Related entries
 
 * [[supermanifold]]
