@@ -355,15 +355,15 @@ by the [[Stokes theorem]]. It follows from the fact that $F$ is the curvature 2-
 For $\gamma : S^1 \to X$ a closed but contractible trajectory of an electrically charged particle, the action functional is
 
 $$
-  \exp(i e \int_{S^1} \gamma^* A )
+  \exp\left(i e \int_{S^1} \gamma^* A \right)
   = 
-  \exp(i e \int_{D^2} \gamma^* F)
+  \exp\left(i e \int_{D^2} \gamma^* F\right)
 $$
 
 by the [[Stokes theorem]], for some 2-disk cobounding the circle. If now $\gamma$ approaches a constant path and the 2-disk is taken to wrap the 2-cycle $\partial U$, then this becomes
 
 $$
-  1 = \exp(i e \int_{S^2} F) = \exp(i e q)
+  1 = \exp\left(i e \int_{S^2} F\right) = \exp(i e q)
   \,.
 $$
 
