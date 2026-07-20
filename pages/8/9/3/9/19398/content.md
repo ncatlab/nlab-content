@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -500,6 +498,9 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 See also:
 
 * Ian Hambleton, Ergun Yalcin: *Equivariant CW-complexes homotopy equivalent to spheres: a survey* &lbrack;[arXiv:2605.02760](https://arxiv.org/abs/2605.02760)&rbrack;
+
+* Manuel Krannich, [[Oscar Randal-Williams]]: *Some homotopy coherent finite group actions on spheres* &lbrack;[arXiv:2607.15979](https://arxiv.org/abs/2607.15979)&rbrack;
+
 
 
 
