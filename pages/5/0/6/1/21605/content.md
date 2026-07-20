@@ -1,5 +1,12 @@
 
-* [webpage](https://www.dm.unibo.it/~fioresi/)
+* [institute page](https://www.unibo.it/sitoweb/rita.fioresi/en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=36676)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=DwTxLXAAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Rita-Fioresi)
+
 
 ## Selected writings
 
@@ -17,11 +24,18 @@ With Gavarini, introduced a [[supergroup]] generalization of [[Chevalley groups]
 On [[quantum homogeneous space]]s
 
 * [[Nicola Ciccoli]], Rita Fioresi, [[Fabio Gavarini]], _Quantization of projective homogeneous spaces and duality principle_, J. Noncomm. Geom. __2__:4 (2008) 449---496 [doi](https://doi.org/10.4171/jncg/26)
+
 * Rita Fioresi, M. A. Lledó, _Quantum supertwistors_, Symmetry 2021, 13(7), 1241 [doi](https://doi.org/10.3390/sym13071241) 
 * Dalia Cervantes, Rita Fioresi, María A. Lledó, _The quantum chiral Minkowski and conformal superspaces_, Adv. Theor. Math. Phys. 15(2) (2011) 565--620 [MR2924237](https://mathscinet.ams.org/mathscinet-getitem?mr=MR2924237) [Zbl1259.46064](https://zbmath.org/?q=an:1259.46064) [arXiv:0811.2137](https://arxiv.org/abs/0811.2137)
 
-On [[quantum minor]]s
+On quantum minors:
 
-* Rita Fioresi, _Commutation relations among quantum minors in $\mathcal{O}_q(M_n(k))$_, J. Algebra __280__:2 (2004) 655--682 [doi](https://doi.org/10.1016/j.jalgebra.2004.06.003) arXiv:[math.QA/0312057](https://arxiv.org/pdf/math/0312057)
+* Rita Fioresi, _Commutation relations among quantum minors in $\mathcal{O}_q(M_n(k))$_, J. Algebra __280__ 2 (2004) 655--682 &lbrack;[doi](https://doi.org/10.1016/j.jalgebra.2004.06.003) arXiv:[math.QA/0312057](https://arxiv.org/pdf/math/0312057)&rbrack;
+
+On [[fiber bundles]] ([[principal bundles]], [[associated bundles]]) in [[supergeometry]]:
+
+* [[Claudio Carmeli]], [[Rita Fioresi]], [[Veeravalli S. Varadarajan]]: *Super Bundles*, Universe **4** 3 (2018) 46 &lbrack;[arXiv:1801.07181](https://arxiv.org/abs/1801.07181), [doi:10.3390/universe4030046](https://doi.org/10.3390/universe4030046)&rbrack;
+
+
 
 category: people
