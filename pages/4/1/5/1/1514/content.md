@@ -25,9 +25,7 @@
 
 > under construction
 
-#Contents#
-* table of contents 
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -406,8 +404,11 @@ The following articles discuss (aspects of) the path integral for the [[charged 
 
 * Florian Hanisch, [[Matthias Ludewig]]: _A Rigorous Construction of the Supersymmetric Path Integral Associated to a Compact Spin Manifold_, ([arXiv:1709.10027](https://arxiv.org/abs/1709.10027))
 
+* Mathieu Beauvillain, Blagoje Oblak, Marios Petropoulos: *Quantum Mechanics on Lie Groups: II. Path Integrals* &lbrack;[arXiv:2607.16029](https://arxiv.org/abs/2607.16029)&rbrack;
 
-A discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]] is in 
+
+
+A discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]]: 
 
 * {#Charles99} Laurent Charles, _Feynman path integral and Toeplitz Quantization_, Helv. Phys. Acta **72** (1999) 341., ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
  
@@ -419,7 +420,7 @@ following [Norris 92, theorem (34)](#Norris92).
 ### More
 
 
-Other references on mathematical aspects of path integrals include
+Other references on mathematical aspects of path integrals:
 
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.  ISBN: 9780521866965.  [doi](https://doi.org/10.1017/CBO9780511535062).
 
@@ -433,7 +434,7 @@ Detailed rigorous discussion for [[quadratic Hamiltonians]] and for [[phase spac
 
 * {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
 
-Discussion of quantization of [[Chern-Simons theory]] via a [[Wiener measure]] is in
+Discussion of quantization of [[Chern-Simons theory]] via a [[Wiener measure]]:
 
 * Adrian P. C. Lim. _Chern-Simons Path Integral on $\mathbb{R}^3$ Using Abstract Wiener Measure_. Commun. Math. Anal., vol. 11, num. 2; 1-22 (2011). ([Euclid](https://projecteuclid.org/journals/communications-in-mathematical-analysis/volume-11/issue-2/Chern-Simons-Path-Integral-on-R3-Using-Abstract-Wiener-Measure/cma/1298669952.full),  [MR2780879](https://mathscinet.ams.org/mathscinet-getitem?mr=MR2780879)).
 
