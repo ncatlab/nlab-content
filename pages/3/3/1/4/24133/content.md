@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -77,7 +75,8 @@ In some models of [[braid group statistics]] (see [there](braid+group+statistics
 
 Discussion of classically-[[parameterized quantum system|parameterized]] quantum circuits:
 
-(...)
+* Neil J. Ross, Scott Wesley: *Parameterized Quantum Circuit Semantics Through Enriched Categories* &lbrack;[arXiv:2607.16114](https://arxiv.org/abs/2607.16114)&rbrack;
+
 
 Discussion of quantumly-[[parameterized quantum systems|parameterized]] quantum circuits:
 
