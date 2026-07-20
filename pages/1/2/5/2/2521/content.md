@@ -187,6 +187,11 @@ For [[AQFT]]-like discussion of [[supersymmetry|supersymmetric]] [[field theory]
 
 * Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
 
+On [[fiber bundles]] ([[principal bundles]] and [[associated bundles]]) in supergeometry:
+
+* [[Claudio Carmeli]], [[Rita Fioresi]], [[Veeravalli S. Varadarajan]]: *Super Bundles*, Universe **4** 3 (2018) 46 &lbrack;[arXiv:1801.07181 math.RT](https://arxiv.org/abs/1801.07181), [doi:10.3390/universe4030046](https://doi.org/10.3390/universe4030046)&rbrack;
+
+
 See also:
 
 * Johannes Moerland: *Spinorial Superspaces and Super Yang-Mills Theories* &lbrack;[arXiv:2411.06165](https://arxiv.org/abs/2411.06165)&rbrack;
