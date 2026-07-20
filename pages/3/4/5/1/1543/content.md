@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -938,6 +938,7 @@ Lecture notes on principal bundles include
 * {#Mitchell}  [[Stephen A. Mitchell]], *Notes on principal bundles and classifying spaces* (2011) &lbrack;[pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]]&rbrack;
 
 
+
 ### Internal to more general categories
  {#ReferencesInternalToMoreGeneralCategories}
 
@@ -948,8 +949,12 @@ Discussion of [[fiber bundles]] [[internalization|internal]] to [[finitely compl
 * [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
 
 * {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Part 2 of: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
-
   > (in the generality of [[equivariant principal bundles]])
+
+In [[supergeometry]]:
+
+* [[Claudio Carmeli]], [[Rita Fioresi]], [[Veeravalli S. Varadarajan]]: *Super Bundles*, Universe **4** 3 (2018) 46 &lbrack;[arXiv:1801.07181](https://arxiv.org/abs/1801.07181), [doi:10.3390/universe4030046](https://doi.org/10.3390/universe4030046)&rbrack;
+
 
 See also:
 
