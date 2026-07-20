@@ -16,9 +16,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -205,10 +204,9 @@ Every [[locally trivial]] topological fiber bundle projection is a [[Serre fibra
 
 ## References
 
-Fiber bundles (then spelled fibre-bundles) were originally defined in:
+Fiber bundles were originally defined (then spelled "fibre-bundles") in:
 
 * [[Hassler Whitney]], *On the theory of sphere-bundles*, Proceedings of the National Academy of Sciences **26** 2 (1940) 148-153 &lbrack;[doi:10.1073/pnas.26.2.148](https://doi.org/10.1073/pnas.26.2.148)&rbrack;
-
   > (with focus on [[sphere bundles]])
 
 Other sources:
@@ -216,7 +214,6 @@ Other sources:
 * [[Norman Steenrod]], Section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
 * [[Alexander Grothendieck]], *A General Theory of Fibre Spaces With Structure Sheaf*, University of Kansas, Report No. 4 (1955, 1958) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Kansasnotes.pdf), [[Grothendieck-FibreSpaces.pdf:file]]&rbrack;
-
   > (in relation to [[nonabelian cohomology|nonabelian]] [[Čech cohomology]])
 
 * [[Jean Frenkel]], *Cohomologie non abélienne et espaces fibrés*, Bulletin de la Société Mathématique de France, **85** (1957) 135-220 &lbrack;[numdam:BSMF_1957__85__135_0](http://www.numdam.org/item/BSMF_1957__85__135_0)&rbrack;
@@ -246,6 +243,13 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 * [[Anders Kock]], *Fibre bundles in general categories*, Journal of Pure and Applied Algebra **56** 3 (1989) 233-245 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90059-5">doi:10.1016/0022-4049(89)90059-5</a>&rbrack;
 
 * [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
+
+Discussion in [[supergeometry]]:
+
+* [[Claudio Carmeli]], [[Rita Fioresi]], [[Veeravalli S. Varadarajan]]: *Super Bundles*, Universe **4** 3 (2018) 46 &lbrack;[arXiv:1801.07181](https://arxiv.org/abs/1801.07181), [doi:10.3390/universe4030046](https://doi.org/10.3390/universe4030046)&rbrack;
+
+* [[Konstantin Eder]]: *Super fiber bundles, connection forms and parallel transport*, J. Math. Phys. **62** 063506 (2021) &lbrack;[arXiv:2101.00924 math.DG](https://arxiv.org/abs/2101.00924), [doi:10.1063/5.0044343](https://doi.org/10.1063/5.0044343)&rbrack;
+
 
 
 [[!redirects fiber bundles]]
