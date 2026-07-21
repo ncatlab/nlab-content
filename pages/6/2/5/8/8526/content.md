@@ -11,6 +11,7 @@
 
 
 
+
 \tableofcontents
 
 
@@ -119,15 +120,20 @@ The following two papers give a _statement_ of [[Mochizuki's Corollary 3.12]] in
 ### Formalization attempts
  {#ReferencesFormalizationAttempts}
 
-A couple of projects to formalize/check the alleged IUT proof of the [[abc conjecture]] with a [[proof assistant]] ([[Lean]]):
+Early verbalization of the idea to formalize the alleged IUT proof of the [[abc conjecture]] with a [[proof assistant]]:
 
-* ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* 
+* [[Timothy Chow]], MathOverflow comment (8 Apr 2020) &lbrack;[MO:a/356937](https://mathoverflow.net/a/356937/381)&rbrack;
+> "one could ask if it is reasonable to request that the group of people who claim to understand Mochizuki's proof (and who believe that it is complete and correct) to formalize the proof using a proof assistant. \[...\]  When the normal process of socializing a proof breaks down, it should indeed be possible in principle for computers to "come to the rescue". \[...\] If the proof really is correct and those people really do understand it, then the project should eventually succeed, and when it does, the skeptics should be convinced. On the other hand, if the proof has a huge gap, then eventually those tasked with formalization (I'm imagining graduate students) will be forced to confront it, and it will become increasingly hard for "believers" to make excuses for why the formalization project is stalling."
+
+The *LANA project* carrying out the formalization of the alleged IUT proof of the [[abc conjecture]] with a [[proof assistant]] ([[Lean]]):
+
+* ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* (March 2026)
 
 * [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
 
 * Alex Wilkins: *[The secret project to settle controversial maths proof with a computer](https://www.newscientist.com/article/2522687-the-secret-project-to-settle-controversial-maths-proof-with-a-computer/)*. New Scientist (April 10, 2026)
 
-However:
+Results of this formalization effort:
 
 * Yuichiro Hoshi, [March 2026](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f), [here](https://zen.ac.jp/en/zmc/topics/jwz-o8xr3v6f#:~:text=with%20regard%20to%20the%20logic):
   > "with regard to the logic by which Corollary 3.12 is derived from Theorem 3.11 as I mentioned earlier, I must take seriously the fact that many members of the LANA Project still feel that there is some insurmountable wall there."
