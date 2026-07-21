@@ -7,6 +7,8 @@
 
 ***
 
+&ouml;
+
 ## Idea
 
 The notion of *categorical spectra* is the full [[categorification]] of that of ([[Omega-spectrum|Omega]]-) [[spectra]] of [[topological spaces|spaces]]/[[infinity-groupoids|$\infty$-groupoids]], hence the generalization of *spectra* from [[(infinity,0)-categories|$(\infty,0)$-categories]] to [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]]:
