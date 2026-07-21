@@ -125,11 +125,19 @@ Early verbalization of the idea to formalize the alleged IUT proof of the [[abc 
 * [[Timothy Chow]], MathOverflow comment (8 Apr 2020) &lbrack;[MO:a/356937](https://mathoverflow.net/a/356937/381)&rbrack;
 > "one could ask if it is reasonable to request that the group of people who claim to understand Mochizuki's proof (and who believe that it is complete and correct) to formalize the proof using a proof assistant. \[...\]  When the normal process of socializing a proof breaks down, it should indeed be possible in principle for computers to "come to the rescue". \[...\] If the proof really is correct and those people really do understand it, then the project should eventually succeed, and when it does, the skeptics should be convinced. On the other hand, if the proof has a huge gap, then eventually those tasked with formalization (I'm imagining graduate students) will be forced to confront it, and it will become increasingly hard for "believers" to make excuses for why the formalization project is stalling."
 
+Embracing the idea of reaching consensus via ([[Lean]]) formalization:
+
+* {#MochizukiExLeanTalk2026} [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
+
+<center>
+  <div style="margin:-40px 0px 00px 00px;">
+  <a href="https://youtu.be/H4n1XIa2flI?t=138">
+  <img src="https://ncatlab.org/nlab/files/Mochizuki-LeanFormalizationScreenShot.png" width="600"/></a></div>
+</center>
+
 The *LANA project* carrying out the formalization of the alleged IUT proof of the [[abc conjecture]] with a [[proof assistant]] ([[Lean]]):
 
 * ZEN Mathematics Center: *[Lean for ANAbelian geometry (LANA)](https://zen.ac.jp/news/zmcpostevent0331e)* (March 2026)
-
-* [[Shinichi Mochizuki]]: *On the Formalization of IUT: a preliminary progress report*, talk at *exlean* (Apr 2026) &lbrack;video:[yt](https://youtu.be/H4n1XIa2flI)&rbrack;
 
 * Alex Wilkins: *[The secret project to settle controversial maths proof with a computer](https://www.newscientist.com/article/2522687-the-secret-project-to-settle-controversial-maths-proof-with-a-computer/)*. New Scientist (April 10, 2026)
 
@@ -145,7 +153,9 @@ Results of this formalization effort:
   > [40:45](https://youtu.be/KADN5NHmIfw?t=2445): "This is exactly the point that we don't understand how to prove"
 
 * Fumiharo Kato (17 July 2026) ([x.com:2078017230537892207](https://x.com/FumiharuKato/status/2078017230537892207)):
-> "In today's press conference, we explained our efforts over the last two years which resulted in the following conclusion: The way the argument from Theorem 3.11 to Corollary 3.12 is written in the IUT papers is unformalizable. But since Mochizuki's explanation of this point has recently started evolving, we reserve final judgement at this time."
+  > "In today's press conference, we explained our efforts over the last two years which resulted in the following conclusion: The way the argument from Theorem 3.11 to Corollary 3.12 is written in the IUT papers is unformalizable. But since **Mochizuki's explanation of this point has recently started evolving**, we reserve final judgement at this time."
+
+  > &lbrack;our emphasis&rbrack;
 
 The problem encountered by the LANA project is claimed to be different from that previously argued in:
 
