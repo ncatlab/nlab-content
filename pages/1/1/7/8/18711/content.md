@@ -1,7 +1,5 @@
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Related concepts
 
@@ -17,7 +15,10 @@
 
 ### General
 
-* {#Brambilla14} Brambilla et al., Section 7.3 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+* {#Brambilla14} Brambilla et al., Section 7.3 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields **74** 10 (2014) 2981  &lbrack;[arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5)&rbrack;
+
+* Veronica Dexheimer: *The equation of state for neutron stars*, Encyclopedia of Nuclear Physics &lbrack;[arXiv:2607.17006](https://arxiv.org/abs/2607.17006)&rbrack;
+
 
 
 See also:
