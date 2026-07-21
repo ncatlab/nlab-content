@@ -18,9 +18,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -87,11 +86,11 @@ From [Fazzi 17, pp. 25, 32](#Fazzi17):
 
 The original articles using the term "geometric engineering":
 
-* [[Sheldon Katz]], [[Cumrun Vafa]]: *Matter From Geometry*,  Nucl. Phys. B **497** (1997) 146-154 &lbrack;[arXiv:hep-th/9606086](https://arxiv.org/abs/hep-th/9606086), <a href="https://doi.org/10.1016/S0550-3213(97)00280-0">doi:10.1016/S0550-3213(97)00280-0</a>&rbrack;
+* [[Sheldon Katz]], [[Cumrun Vafa]]: *Matter From Geometry*,  Nucl. Phys. B **497** (1997) 146--154 &lbrack;[arXiv:hep-th/9606086](https://arxiv.org/abs/hep-th/9606086), <a href="https://doi.org/10.1016/S0550-3213(97)00280-0">doi:10.1016/S0550-3213(97)00280-0</a>&rbrack;
 
-* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]]: *Geometric Engineering of Quantum Field Theories*, Nucl. Phys. B **497** (1997) 173-195 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00282-4">doi:10.1016/S0550-3213(97)00282-4</a>, [arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239)&rbrack;
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]]: *Geometric Engineering of Quantum Field Theories*, Nucl. Phys. B **497** (1997) 173--195 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00282-4">doi:10.1016/S0550-3213(97)00282-4</a>, [arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239)&rbrack;
 
-* {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B **497** (1997) 196-204 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00283-6">doi:10.1016/S0550-3213(97)00283-6</a>, [arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090)&rbrack;
+* {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl. Phys. B **497** (1997) 196--204 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00283-6">doi:10.1016/S0550-3213(97)00283-6</a>, [arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090)&rbrack;
 
 * {#HananyWitten97} [[Amihay Hanany]], [[Edward Witten]]: _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B **492** (1997) 152-190 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)80030-2">doi:10.1016/S0550-3213(97)80030-2</a>, [arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230)&rbrack;
 
@@ -102,7 +101,7 @@ Review:
 
 * [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis, Berlin (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
 
-* [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983-1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
+* [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983--1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
 
 * [[Adil Belhaj]]: *On Geometric Engineering of Supersymmetric Gauge Theories*, talk at *Workshop on Noncommutative Geometry, Superstrings and Particle Physics. Rabat -Morocco, (16-17 June 2000)* &lbrack;[arXiv:hep-ph/0006248](https://arxiv.org/abs/hep-ph/0006248)&rbrack;
 
