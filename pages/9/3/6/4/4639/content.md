@@ -15,9 +15,10 @@
 =--
 =--
 
-# Contents
-* table of contents 
-{:toc}
+
+
+\tableofcontents
+
 
 ## In linear algebra
 
@@ -135,7 +136,7 @@ See also _[[analytic affine line]]_.
 
 ##### Cohomology
 
-For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ the [[multiplicative group]] of the [[affine line]]; then
+For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[étale cohomology]], $\mathbb{G}_m$ the [[multiplicative group]] of the [[affine line]]; then
 
 * $H^0_{et}(R, \mathbb{G}_m) = R^\times$ ([[group of units]])
 
