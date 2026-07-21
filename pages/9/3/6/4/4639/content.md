@@ -141,7 +141,7 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 
 * $H^1_{et}(R, \mathbb{G}_m) = Pic(R)$ ([[Picard group]]: iso classes of invertible $R$-modules)
 
-* $H^2_{et}(R, \mathbb{G}_m) = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
+* $H^2_{et}(R, \mathbb{G}_m)_{tor} = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
 
 ### Related concepts
 
