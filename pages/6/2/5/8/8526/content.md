@@ -165,6 +165,10 @@ for the [LANA report 2026](#LANAReport2026) writes in its final [§10 (pp. 46)](
 
 > "We now compare our analysis with that made by [Scholze and Stix in &lbrack;15&rbrack;](#ScholzeStix208) \[...\] In the final part of \[15\], the occurrence of monodromy in the identifications among the various ordered one-dimensional real vector spaces appearing in the theory is pointed out as a flaw in the proof \[...\] \[We\] indicate why this occurrence of monodromy does not represent an obstruction to the intended proof strategy of Mochizuki \[...\] \[because\] our analysis does not give rise to this particular diagram; rather, the elaboration of the $\eta$-algorithm shows that the proof of the final numerical inequality hinges on the compatibility (9-1) which is not manifestly false. However, we, the LANA project, do not have a proof of (9-1) at this time."
 
+See also: 
+
+* Lean Zulip Board: *[LANA project announcement](https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LANA.20project.20announcement/with/611402299)* (31 Mar 2026--)
+
 
 
 [[!redirects IUTT]]
