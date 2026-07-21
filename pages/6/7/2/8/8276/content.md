@@ -1,5 +1,11 @@
 
-* [webpage](https://www.ingo-blechschmidt.eu/)
+* [personal page](https://www.ingo-blechschmidt.eu/)
+
+* [github page](https://github.com/iblech)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=224571)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Ingo-Blechschmidt-2149006680)
 
 ## Publications
 
