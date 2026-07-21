@@ -170,9 +170,9 @@ On APD symmetry of the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- Light-con
 and on VPD symmetry in the M2's covariant 
 formulation:
 
-* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations* \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940</a>\]
+* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations*, Int. J. Mod. Phys. A **41** 2650083 (2026) \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940 het-th</a>, <a href="https://doi.org/10.1142/S0217751X26500831">doi:10.1142/S0217751X26500831</a>\]
 
-* So Katagiri: *Quantum Stability at One Loop for BPS Membranes in a Lorentz-Covariant RVPD Matrix Model* \[<a href="https://arxiv.org/abs/2509.23853">arXiv:2509.23853</a>\]
+* So Katagiri: *Quantum Stability at One Loop for BPS Membranes in a Lorentz-Covariant RVPD Matrix Model*, Nucl. Phys. B **1029** (2026) 117516 \[<a href="https://arxiv.org/abs/2509.23853">arXiv:2509.23853 hep-th</a>, <a href="https://doi.org/10.1016/j.nuclphysb.2026.117516">doi:10.1016/j.nuclphysb.2026.117516</a>\]
 
 Generalization to light cone gauge  VPD symmetry of the higher-dimensional [[super p-branes]] without gauge fields on their [[worldvolume]]:
 
@@ -180,7 +180,9 @@ Generalization to light cone gauge  VPD symmetry of the higher-dimensional [[sup
 
 See also:
 
-* Y. Matsuo, Y. Shibusa: *Volume Preserving Diffeomorphism and Noncommutative Branes*, JHEP 0102:006 (2001) &lbrack;[arXiv:hep-th/0010040](https://arxiv.org/abs/hep-th/0010040)&rbrack;
+* Y. Matsuo, Y. Shibusa: *Volume Preserving Diffeomorphism and Noncommutative Branes*, J. High Energt Physics **02** (2001) 006 &lbrack;[arXiv:hep-th/0010040](https://arxiv.org/abs/hep-th/0010040), [doi:10.1088/1126-6708/2001/02/006](https://doi.org/10.1088/1126-6708/2001/02/006)&rbrack;
+
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism*, Phys. Rev. D **113** (2026) 126008 &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443), [doi:10.1103/hg29-jvx5](https://doi.org/10.1103/hg29-jvx5)&rbrack;
 
 
 On VPD symmetry in the [[Nambu-Poisson M5-brane model]]:
@@ -193,17 +195,14 @@ On VPD symmetry in the [[Nambu-Poisson M5-brane model]]:
 
 Review:
 
-* [[Pei-Ming Ho]]; section 3.2.1 of: *A Concise Review on M5-brane in Large $C$-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445](https://arxiv.org/abs/0912.0445)&rbrack;
+* [[Pei-Ming Ho]]; section 3.2.1 of: *A Concise Review on M5-brane in Large $C$-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445 hep-th](https://arxiv.org/abs/0912.0445)&rbrack;
 
-* [[Pei-Ming Ho]], Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 &lbrack;[arXiv:1603.09534](https://arxiv.org/abs/1603.09534), [doi:10.1093/ptep/ptw075](https://doi.org/10.1093/ptep/ptw075)&rbrack;
+* [[Pei-Ming Ho]], Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 &lbrack;[arXiv:1603.09534 hep-th](https://arxiv.org/abs/1603.09534), [doi:10.1093/ptep/ptw075](https://doi.org/10.1093/ptep/ptw075)&rbrack;
 
 On VPD symmetry of the actual [[M5-brane]] [[sigma-model]]:
 
-* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777 hep-th](https://arxiv.org/abs/0806.4777)\]
 
-See also:
-
-* [[Pei-Ming Ho]], [[Hikaru Kawai]], Henry Liao: *General Actions of Extended Objects and Volume-Preserving Diffeomorphism* &lbrack;[arXiv:2602.23443](https://arxiv.org/abs/2602.23443)&rbrack;
 
 
 
