@@ -58,8 +58,9 @@ and leading over to [[homotopy theory]]:
 
 On [[counterexamples]] in topology:
 
-* [[Lynn Arthur Steen]], [[J. Arthur Seebach]], _[[Counterexamples in Topology]]_, Springer 1971 ([doi:10.1007/978-1-4612-6290-9](https://link.springer.com/book/10.1007/978-1-4612-6290-9))
+* [[Lynn Arthur Steen]], [[J. Arthur Seebach]]: _[[Counterexamples in Topology]]_, Springer (1971) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6290-9">doi:10.1007/978-1-4612-6290-9</a>\]
 
+* {#PiBase} *$\pi$-Base: Topology --- a community database of topological counterexamples* \[<a href="https://topology.pi-base.org">topology.pi-base.org</a>\]
 
 With emphasis on [[category theory|category theoretic]] aspects of [[general topology]], notably on [$T_n$-reflections](separation+axioms#Reflection):
 
