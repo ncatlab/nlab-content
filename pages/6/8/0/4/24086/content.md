@@ -43,14 +43,16 @@ In [[constructive mathematics]] one considers also "[[weak counterexamples]]". S
 
 ## References
 
-Examples of counterexamples in [[topology]]:
-
-* [[Lynn Arthur Steen]], [[J. Arthur Seebach]], *[[Counterexamples in Topology]]*, Springer 1970/1978 $[$[doi:10.1007/978-1-4612-6290-9](https://link.springer.com/book/10.1007/978-1-4612-6290-9)$]$
-
-
 See also:
 
 * Wikipedia, *[Counterexample](https://en.wikipedia.org/wiki/Counterexample)*
+
+On counterexamples in [[topology]]:
+
+* [[Lynn Arthur Steen]], [[J. Arthur Seebach]], *[[Counterexamples in Topology]]*, Springer (1970/1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6290-9">doi:10.1007/978-1-4612-6290-9</a>\]
+
+* *$\pi$-Base: Topology -- a community database of topological counterexamples* \[<a href="https://topology.pi-base.org">topology.pi-base.org</a>\]
+
 
 
 
