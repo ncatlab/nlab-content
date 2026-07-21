@@ -27,7 +27,7 @@ The use of [[supergeometry]] in the description of [[fractional quantum Hall sys
 
 * [[Kazuki Hasebe]]: *Quantum Hall Effect Based on SUSY Non-Commutative Geometry*, Progress of Theoretical Physics Supplement **171** (2007) 154–159 \[<a href="https://doi.org/10.1143/PTPS.171.154">doi:10.1143/PTPS.171.154</a>\]
 
-* {#Hasebe08} [[Kazuki Hasebe]]: *Unification of Laughlin and Moore–Read states in SUSY quantum Hall effect*, Physics Letters A **372** 9 (2008) 1516-1520 \[<a href="https://doi.org/10.1016/j.physleta.2007.09.071">doi:10.1016/j.physleta.2007.09.071</a>\]
+* {#Hasebe08} [[Kazuki Hasebe]]: *Unification of Laughlin and Moore–Read states in SUSY quantum Hall effect*, Physics Letters A **372** 9 (2008) 1516-1520 \[<a href="https://doi.org/10.1016/j.physleta.2007.09.071">doi:10.1016/j.physleta.2007.09.071</a>, [arXiv:0705.4527 cond-mat.mes-hall](https://arxiv.org/abs/0705.4527)\]
 
 * [[Kazuki Hasebe]]: *Supersymmetric Quantum Hall Liquid with a Deformed Supersymmetry*, Phys. Atom. Nucl. **73** (2010) 345-351 \[<a href="https://arxiv.org/abs/0901.1724">arXiv:0901.1724</a>, <a href="https://doi.org/10.1134/S1063778810020225">doi:10.1134/S1063778810020225</a>\]
 
