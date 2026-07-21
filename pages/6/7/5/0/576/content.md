@@ -70,6 +70,12 @@ $ I \stackrel{!}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See [Baez 2007](#Baez07).
 \end{example}
 
+\begin{example}
+**(bordisms)**
+\linebreak
+The category $\mathrm{Bord}_n^{\sqcup}$ of $n$-dimensional oriented [[cobordism | bordisms]]  is a $\dagger$-compact category, where the dagger is given by reversing orientation and swapping the inputs and outputs of the bordisms.
+\end{example}
+
 
 ## Properties
 
