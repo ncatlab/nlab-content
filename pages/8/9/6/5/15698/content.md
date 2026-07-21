@@ -14,20 +14,23 @@ On [[quantum mechanics]] and [[spectral theory]]:
 
 * [[Valter Moretti]], *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
 
-* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries, Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 
-* [[Valter Moretti]], *Fundamental Mathematical Structures of Quantum Theory* -- *Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*, Springer (2020) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack; 
+* [[Valter Moretti]], *Fundamental Mathematical Structures of Quantum Theory* -- *Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation, Quantum Measurement Theory*, 2nd Edition Springer (2026) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack; 
 
 
 
-On [[quantum observables]], quantum relativistic localization, and [[quantum probability]]:
+On [[quantum observables]], quantum relativistic localization, [[AQFT]] and [[quantum probability]]:
 
 * Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ &lbrack;[doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528)&rbrack;
 
 * [[Valter Moretti]], _On the Relativistic Spatial Localization for massive real scalar Klein-Gordon quantum particles_ &lbrack;[doi:2304.02133](https://arxiv.org/abs/2304.02133)
 
 * C. De Rosa, [[Valter Moretti]] _Quantum particle localization observables on Cauchy surfaces of Minkowski spacetime and their causal properties_ &lbrack;[doi:10.1007/s11005-024-01817-9](https://arxiv.org/abs/2402.13894)
+
+* [[Valter Moretti]], _Spatial Localization of Relativistic Quantum Systems: The Commutativity Requirement and the Locality Principle. Part II: A Model from local QFT_ &lbrack;
+[doi:10.48550/arXiv.2604.04173](https://arxiv.org/abs/2604.04173)
 
 On [[classical mechanics]]:
 
