@@ -14,7 +14,6 @@
 =--
 
 
-# Indexed monoidal categories
 * table of contents
 {: toc}
 
