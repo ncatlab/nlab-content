@@ -27,7 +27,7 @@ An __extended C\*-algebra__  is a complex (or real) [[*-algebra]] $A$ of closed 
 
 * J. B. Cooper, _Extended C\*-algebras and W\*-algebras_, Proceedings of the Symposium on Functional Analysis (Istanbul, 1973), 75–84. Publications of the Mathematical Research Institute Istanbul 1. Mathematical Research Institute, Istanbul, 1974.  [PDF](https://dmitripavlov.org/scans/cooper.pdf).
 
-  * an expository article
+  * explores commutative C\*-algebras and commutative W\*-algebras
 
 * G. R. Allan, _On a class of locally convex algebras_, Proceedings of the London Mathematical Society s3-17:1 (1967), 91-114.  [DOI](https://doi.org/10.1112/plms/s3-17.1.91).
 
