@@ -478,11 +478,11 @@ Every *[[connected topological space|connected]]* [[cobordism]] with
 
 is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of 
 
-* $n_{in}-1$ [[trinions]] regarded as $S^1 \times S^1 \to S^1$
+* $n_{in}-1$ [[trinions]] regarded as $S^1 \sqcup S^1 \to S^1$
 
 * $g$ 2-punctured [[tori]] $S^1 \to S^1$
 
-* $n_{out}-1$ [[trinions]] regarded as $S^1 \to S^1 \times S^1$,
+* $n_{out}-1$ [[trinions]] regarded as $S^1 \to S^1 \sqcup S^1$,
 
 \begin{imagefromfile}
     "file_name": "Abrams-2dCobordismNormalForm.jpg",
