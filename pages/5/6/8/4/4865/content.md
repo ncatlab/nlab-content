@@ -306,7 +306,16 @@ Much computational detail is displayed in
 
 * {#MiemiecSchnakenburg06} [[André Miemiec]], [[Igor Schnakenburg]], *Basics of M-Theory*, Fortsch. Phys. **54** (2006) 5-72 &lbrack;[arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256)&rbrack;
 
-In terms of [[pure spinors]]:
+On manifestly [[supersymmetry|supersymmetric]] [[action functionals]] for 11D supergravity via [[pure spinor]] [[superfields]] on [[superspace]]:
+
+* [[Martin Cederwall]]: *Towards a manifestly supersymmetric action for 11-dimensional supergravity*, J. High Energ. Phys. **2010** 117 (2010) \[<a href="https://doi.org/10.1007/JHEP01(2010)117">doi:10.1007/JHEP01(2010)117</a>, [arXiv:0912.1814](https://arxiv.org/abs/0912.1814)\]
+
+* [[Martin Cederwall]]: *$D=11$ supergravity with manifest supersymmetry*, Mod. Phys. Lett. A **25** (2010) 3201--3212 \[<a href="https://doi.org/10.1142/S0217732310034407">doi:10.1142/S0217732310034407</a>, [arXiv:1001.0112 hep-th](https://arxiv.org/abs/1001.0112)\]
+
+* [[Fabian Hahner]], [[Ingmar Saberi]]: *Eleven-dimensional supergravity as a Calabi-Yau twofold*, Sel. Math. New Ser. **31** (2025) 38 \[<a href="https://arxiv.org/abs/2304.12371">arXiv:2304.12371 math-ph</a>, <a href="https://doi.org/10.1007/s00029-025-01024-x">doi:10.1007/s00029-025-01024-x</a>\]
+
+
+Further discussion in terms of [[pure spinors]]:
 
 * [[Max Guillen]], _Pure spinors and $D=11$ supergravity_ ([arXiv:2006.06014](https://arxiv.org/abs/2006.06014))
 
