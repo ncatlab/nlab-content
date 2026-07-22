@@ -242,7 +242,9 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 #### Original articles
 
-* {#HanKoh85} Seung Kee Han, I. G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([doi:10.1103/PhysRevD.31.2503](https://doi.org/10.1103/PhysRevD.31.2503), [spire:204521](http://inspirehep.net/record/204521))
+* {#HanKoh85} Seung Kee Han, I. G. Koh: _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in $D=11$ Supergravity Theory_, Phys. Rev. D **31** (1985) 2503 &lbrack;[doi:10.1103/PhysRevD.31.2503](https://doi.org/10.1103/PhysRevD.31.2503), [spire:204521](http://inspirehep.net/record/204521)&rbrack;
+
+  also in: [[Michael Duff]] (ed.): _[[The World in Eleven Dimensions]]_ 57--60 
 
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
 
