@@ -1,6 +1,10 @@
+
+\tableofcontents
+
+
 ## Idea
 
-A regular map is a morphism of [[algebraic varieties]].
+Regular maps are [[morphisms]] of [[algebraic varieties]].
 
 ## Definition
 
@@ -16,6 +20,10 @@ For general varieties, a map is regular if there is a cover of the domain by the
 
 category: algebraic geometry
 
+
+[[!redirects regular maps]]
+
 [[!redirects morphism of algebraic varieties]]
+[[!redirects morphisms of algebraic varieties]]
 
 
