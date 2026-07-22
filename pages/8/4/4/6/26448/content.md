@@ -1,3 +1,4 @@
+[[!redirects nonabelian differential cohomology]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -7,6 +8,8 @@
 =--
 =--
 =--
+
+
 
 
 \tableofcontents
@@ -81,6 +84,7 @@ The example of unstable (and as such non-abelian) [[differential Cohomotopy]] (i
 
 [[!include higher gauge theory of the Green-Schwarz mechanism -- references]]
 
+[[!redirects nonabelian differential cohomology]]
 
 [[!redirects non-abelian differential cohomology]]
 [[!redirects differential nonabelian cohomology]]
