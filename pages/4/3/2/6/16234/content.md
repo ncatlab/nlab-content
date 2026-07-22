@@ -1,19 +1,23 @@
 
-This page collects material related to the article
+This page is to record the reference:
 
-* {#Cantor1895} [[Georg Cantor]], 
+* {#Cantor1895} [[Georg Cantor]]:
 
-  _Beitr&#228;ge zur Begr&#252;ndung der transfiniten Mengenlehre_, 
+  \linebreak
 
-  Math. Ann. 46 (1895) pp.481-512, 
+  **Beiträge zur Begründung der transfiniten Mengenlehre**
 
-  reprinted from p. 282 on in 
+  \linebreak 
+
+  Mathematische Annalen **46** (1895) 481--512, 
+
+  reprinted from p. 282 on in: 
 
   [[Ernst Zermelo]] (ed.), 
 
   _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, 
   
-  Springer Berlin 1932 
+  Springer Berlin (1932)
 
   ([online English translation](https://archive.org/details/contributionstof00cant))
 
