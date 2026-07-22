@@ -17,7 +17,7 @@
 
 ## Idea
 
-What may be called *nonabelian differential cohomology* -- in combination of *[[nonabelian cohomology]]* and *[[differential cohomology]]* -- is a notion of [[connections on infinity-bundles|connections on higher bundles]] with [[higher group|higher]] [[gauge group]] being a possibly non-[[abelian infinity-group|abelian]] [[n-group]].
+What may be called *differential nonabelian cohomology* -- a combination of *[[differential cohomology]]* and *[[nonabelian cohomology]]* -- is a notion of [[connections on infinity-bundles|connections on higher bundles]] with [[higher group|higher]] [[gauge group]] being a possibly non-[[abelian infinity-group|abelian]] [[n-group]].
 
 Early motivation was the observation ([SSS12](#SatiSchreiberStasheff12)) that with the [[Green-Schwarz mechanism]] imposed, the [[B-field]] in [[heterotic string theory]] combines with the ordinary non-abelian [[gauge field]] into a non-abelian higher connection (a [[twisted differential string structure]]), and analogously so after lifting the situation to the [[C-field]] in [[Hořava-Witten theory]] ([FSS15](#FSS15)).
 
