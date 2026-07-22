@@ -482,7 +482,7 @@ is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of
 
 * $g$ 2-punctured [[tori]] $S^1 \to S^1$
 
-* $n_{out}-1$ [[trinions]] regared as $S^1 \to S^1 \times S^1$,
+* $n_{out}-1$ [[trinions]] regarded as $S^1 \to S^1 \times S^1$,
 
 \begin{imagefromfile}
     "file_name": "Abrams-2dCobordismNormalForm.jpg",
