@@ -17,7 +17,7 @@ locally convex [[*-algebra]] $A$ such that
 
 ## Concrete definition
 
-An __extended C\*-algebra__  is a complex (or real) [[*-algebra]] $A$ of closed densely defined unbounded operators on a [[Hilbert space]] closed under the operations of strong sum, strong multiplication, passing to adjoints that contains all scalar multiples of the identity operator and for every $x\in A$ we have $(1+x^*x)^{-1}\in A$.
+An __extended C\*-algebra__  is a complex (or real) [[*-algebra]] $A$ of closed densely defined unbounded operators on a [[Hilbert space]] closed under the operations of strong sum, strong multiplication, multiplication by a scalar, passing to adjoints, and for every $x\in A$ we have $(1+x^*x)^{-1}\in A$.
 
 ## Related concepts
 
@@ -31,7 +31,7 @@ An __extended C\*-algebra__  is a complex (or real) [[*-algebra]] $A$ of closed 
 
 * G. R. Allan, _On a class of locally convex algebras_, Proceedings of the London Mathematical Society s3-17:1 (1967), 91-114.  [DOI](https://doi.org/10.1112/plms/s3-17.1.91).
 
-  * defines abstract extended C*-algebras (as GB*-algebras) in Definition 2.5
+  * defines abstract extended C\*-algebras (as GB\*-algebras) in Definition 2.5
   * develops Gelfand duality
 
 * P. G. Dixon, _Generalized B\*-algebras_, Proceedings of the London Mathematical Society s3-21:4 (1970), 693-715.  [DOI](https://doi.org/10.1112/plms/s3-21.4.693).
