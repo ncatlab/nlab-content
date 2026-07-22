@@ -125,6 +125,13 @@ On the component expansion of fields in [[11D supergravity]] on superspace:
 
 * [[Dimitrios Tsimpis]]: *Curved 11D Supergeometry*, J. Jigh Energy Physics 0411:087 (2004) \[<a href="https://doi.org/10.1088/1126-6708/2004/11/087">doi:10.1088/1126-6708/2004/11/087</a>, [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)\]
 
+On manifestly [[supersymmetry|supersymmetric]] [[action functionals]] for [[11D supergravity]] via [[pure spinor]] [[superfields]] on [[superspace]]:
+
+* [[Martin Cederwall]]: *Towards a manifestly supersymmetric action for 11-dimensional supergravity*, J. High Energ. Phys. **2010** 117 (2010) \[<a href="https://doi.org/10.1007/JHEP01(2010)117">doi:10.1007/JHEP01(2010)117</a>, [arXiv:0912.1814](https://arxiv.org/abs/0912.1814)\]
+
+* [[Martin Cederwall]]: *$D=11$ supergravity with manifest supersymmetry*, Mod. Phys. Lett. A **25** (2010) 3201--3212 \[<a href="https://doi.org/10.1142/S0217732310034407">doi:10.1142/S0217732310034407</a>, [arXiv:1001.0112](https://arxiv.org/abs/1001.0112)\]
+
+* [[Fabian Hahner]], [[Ingmar Saberi]]: *Eleven-dimensional supergravity as a Calabi-Yau twofold*, Sel. Math. New Ser. **31** (2025) 38 \[<a href="https://arxiv.org/abs/2304.12371">arXiv:2304.12371</a>, <a href="https://doi.org/10.1007/s00029-025-01024-x">doi:10.1007/s00029-025-01024-x</a>\]
 
 
 ### For T-duality
