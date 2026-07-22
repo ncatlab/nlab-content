@@ -10,21 +10,20 @@
 =--
  
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
 The **core** of a [[commutative ring]] $R$ consists of those [[elements]] for which [[homomorphisms]] out of that ring have no choice as to how to act: that is, those $r \in R$ such that for any [[pair]] of [[homomorphisms]] $f,g \colon R \to S$ we must have $f(r) = g(r)$.   By the [[universal property]] of the [[coproduct]] these are precisely the elements on which the [[coprojections]] $i_1, i_2 \colon R \to R \sqcup R$ are equal.  Since the [[coproduct]] of commutative rings is their [[tensor product]] (see [here](category+of+monoids#PushoutOfCommutativeMonoids)), these are precisely the elements such that
 
 $$    
-  r \otimes 1 
+  r \textstyle{\otimes} 1 
     \;=\; 
-  1 \otimes r 
-  \;\; \in \; R \otimes_{\mathbb{Z}} R
+  1 \textstyle{\otimes} r 
+  \;\; \in \; R \textstyle{\otimes}_{\mathbb{Z}} R
   \,. 
 $$
+
 
 ## Definition
 
@@ -32,7 +31,7 @@ $$
 
 \begin{definition}\label{CoreOfARing}
 **(core of a ring)** \linebreak
-For $R$ a [[unital ring|unital]] [[commutative ring]], its **[[core of a ring|core]]** is the following [[subobject|sub-ring]] of the [[tensor product of abelian groups]] $R \otimes_{{}_{\mathbb{Z}}} R$:
+For $R$ a [[unital ring|unital]] [[commutative ring]], its **[[core of a ring|core]]** is the following [[subobject|sub-ring]] of the [[tensor product of abelian groups]] $R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R$:
 
 $$
   c R
@@ -41,8 +40,8 @@ $$
     \,
     r \in R 
     \,\left\vert\,
-    1 \otimes r \,=\, r \otimes 1 
-    \;\in\; R \otimes_{{}_{\mathbb{Z}}} R 
+    1 \textstyle{\otimes} r \,=\, r \textstyle{\otimes} 1 
+    \;\in\; R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R 
     \right.
     \,
   \Big\}
@@ -60,7 +59,7 @@ $$
     \xrightarrow{\;equ\;}
   R 
     \overset{\phantom{AAAAAA}}\rightrightarrows
-  R \otimes_{{}_{\mathbb{Z}}} R
+  R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R
   \,,
 $$
 
@@ -69,9 +68,9 @@ where the top [[morphism]] is
 $$
   R 
     \;\simeq\; 
-  \mathbb{Z} \otimes R 
-    \xrightarrow{e \otimes id} 
-  R \otimes R
+  \mathbb{Z} \textstyle{\otimes} R 
+    \xrightarrow{e \textstyle{\otimes} id} 
+  R \textstyle{\otimes} R
 $$
 
 and the bottom one is
@@ -79,9 +78,9 @@ and the bottom one is
 $$
   R 
     \;\simeq\; 
-  R \otimes \mathbb{Z}  
-    \xrightarrow{\;id \otimes e\;} 
-  R \otimes R
+  R \textstyle{\otimes} \mathbb{Z}  
+    \xrightarrow{\;id \textstyle{\otimes} e\;} 
+  R \textstyle{\otimes} R
   \,,
 $$
 
@@ -101,10 +100,10 @@ with
 denoting the unique [[ring homomorphism]] form the [[commutative ring]] of [[integers]], which is the [[initial object]] in [[CommutativeRings]].
 
 Observing (by [this Prop.](CRing#CoproductIsTensorProduct))
-that the [[tensor product of abelian groups]] $R \otimes_{{}_{\mathbb{Z}}} R$ equipped with its canonically induced [[commutative ring]] [[mathematical structure|structure]] is the [[coproduct]] in [[CommutativeRings]]
+that the [[tensor product of abelian groups]] $R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R$ equipped with its canonically induced [[commutative ring]] [[mathematical structure|structure]] is the [[coproduct]] in [[CommutativeRings]]
 
 $$
-  R \otimes_{{}_{\mathbb{Z}}} R
+  R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R
     \;\simeq\;
   R \sqcup R
 $$
@@ -118,7 +117,7 @@ $$
     \overset{\phantom{AAAAAA}}\rightrightarrows
   R \sqcup R  
     \;\simeq\;
-  R \underset{\mathbb{Z}}{\coprod} R
+  R \underset{\mathbb{Z}}{\textstyle{\coprod}} R
   \,,
 $$
 
@@ -156,10 +155,10 @@ in $CRing^{op}$, exhibiting every affine [[arithmetic scheme]] $Spec(R)$ as equi
 Since the [[coproduct]] in [[CRing]] is the [[tensor product]] of rings ([prop.](CRing#CoproductIsTensorProduct)), this is the dually the [[Cartesian product]] in $CRing^{op}$ and hence
 
 $$
-  Spec(R \otimes R) \simeq Spec(R) \times Spec(R)
+  Spec(R \textstyle{\otimes} R) \simeq Spec(R) \times Spec(R)
 $$
 
-exhibits $R \otimes R$ as the ring of functions on $Spec(R) \times Spec(R)$. 
+exhibits $R \textstyle{\otimes} R$ as the ring of functions on $Spec(R) \times Spec(R)$. 
 
 Hence the terminal morphism $Spec(R) \to Spec(\mathbb{Z})$ induces the corresponding [[Čech groupoid]] [[internal groupoid|internal]] to $CRing^{op}$
 
@@ -178,7 +177,7 @@ $$
   \,.
 $$
 
-This exhibits $R \otimes R$ (the ring of functions on the scheme of morphisms of the [[Čech groupoid]]) as a [[commutative Hopf algebroid]] over $R$. 
+This exhibits $R \textstyle{\otimes} R$ (the ring of functions on the scheme of morphisms of the [[Čech groupoid]]) as a [[commutative Hopf algebroid]] over $R$. 
 
 Moreover, the arithmetic scheme of [[isomorphism classes]] of this groupoid is the [[coequalizer]] of the [[source]] and [[target]] morphisms
 
@@ -219,7 +218,7 @@ $$
   \;\;\;\;\;\;\;\;\;
   \Leftrightarrow
   \;\;\;\;\;\;\;\;\;
-  R \otimes_{{}_{\mathbb{Z}}} R
+  R \textstyle{\otimes}_{{}_{\mathbb{Z}}} R
     \underoverset
       {\simeq}
       {\;(-) \cdot (-)\;}
@@ -231,7 +230,7 @@ $$
 ([Bousfield & Kan 1972, 2.4](#BousfieldKan72) -- this is called a *T-ring* in [Bowshell & Schultz 1977, Def. 1.6](#BowshellSchultz77)) 
 \begin{proof}
 In one direction, assume that multiplication is an isomorphism. Since both 
-$r \mapsto 1 \otimes r$ and $r \mapsto r \otimes 1$ are [[right inverses]]
+$r \mapsto 1 \textstyle{\otimes} r$ and $r \mapsto r \textstyle{\otimes} 1$ are [[right inverses]]
 
 \begin{tikzcd}
     R 
@@ -271,23 +270,23 @@ $r \mapsto 1 \otimes r$ and $r \mapsto r \otimes 1$ are [[right inverses]]
 
 and since right inverses of isomorphisms are unique ([this Prop.](inverse#InversesAreUnique)), it follows that these two morphisms on the left are in fact equal, and therefore that their equalizer, hence the core of $R$ (by Rem. \ref{CoreAsEqualizerAndAsRegularImage}), is $R$.
 
-In the other direction, assume that $1 \otimes r \,=\, r \otimes 1$ for all $r \in R$. Then 
+In the other direction, assume that $1 \textstyle{\otimes} r \,=\, r \textstyle{\otimes} 1$ for all $r \in R$. Then 
 $$
   \begin{aligned}
-    r_1 \,\otimes\, r_2  
+    r_1 \,\textstyle{\otimes}\, r_2  
     & \;=\;
-    \big( r_1 \,\otimes\, 1 \big) 
+    \big( r_1 \,\textstyle{\otimes}\, 1 \big) 
       \cdot 
-    \big( 1 \otimes r_2 \big)
+    \big( 1 \textstyle{\otimes} r_2 \big)
     \\
     & \;=\;
-    \big( 1 \,\otimes\, r_1 \big) 
+    \big( 1 \,\textstyle{\otimes}\, r_1 \big) 
       \cdot 
-    \big( 1 \otimes r_2 \big)
+    \big( 1 \textstyle{\otimes} r_2 \big)
     \\
     & \;=\;
     1 
-      \,\otimes\, 
+      \,\textstyle{\otimes}\, 
     \big(
       r_1 \cdot r_2
     \big)
@@ -352,7 +351,7 @@ The following is the complete list of solid rings (Def. \ref{SolidRing}) up to [
 1. the ring cores of product rings
 
    $$
-     c(\mathbb{Z}[J^{-1}] \times \underset{p \in K}{\prod} \mathbb{Z}/p^{e(p)})
+     c(\mathbb{Z}[J^{-1}] \times \underset{p \in K}{\textstyle{\prod}} \mathbb{Z}/p^{e(p)})
      \,,
    $$
 
@@ -377,28 +376,28 @@ The ring $\mathbb{Q}$ of [[rational numbers]] is a [[solid ring]].
   we have
   $$
     \begin{aligned}
-        1 \otimes r
+        1 \textstyle{\otimes} r
       & 
       \;=\;
       1 
-        \,\otimes\, 
+        \,\textstyle{\otimes}\, 
       \big( \tfrac{1}{p} \cdot q \big)
       \\
       & \;=\;
       \big( \tfrac{1}{p} \cdot p \big)
-        \,\otimes\, 
+        \,\textstyle{\otimes}\, 
       \big( \tfrac{1}{p} \cdot q \big)
       \\
       & \;=\;
       \tfrac{1}{p} 
-        \,\otimes\, 
+        \,\textstyle{\otimes}\, 
       \big(
         p \cdot \tfrac{1}{p} \cdot q
       \big)
       \\ 
       & \;=\;
       \tfrac{1}{p} 
-        \,\otimes\, 
+        \,\textstyle{\otimes}\, 
       \big( 
         q \cdot 1 
       \big)
@@ -407,22 +406,22 @@ The ring $\mathbb{Q}$ of [[rational numbers]] is a [[solid ring]].
       \big(
         \tfrac{1}{p} \cdot q
       \big) 
-        \,\otimes\, 
+        \,\textstyle{\otimes}\, 
       1
       \\
       & \;=\;
-      r \,\otimes\, 1 
+      r \,\textstyle{\otimes}\, 1 
       \;\;\;\;\;\;
       \in
       \;
-      \mathbb{Q} \otimes_{{}_{\mathbb{Z}}} \mathbb{Q}
+      \mathbb{Q} \textstyle{\otimes}_{{}_{\mathbb{Z}}} \mathbb{Q}
       \,.
     \end{aligned}
   $$
   Here the third and the fifth line use the [[equivalence relation]] defining the [[tensor product of abelian groups]] for the case of rings:
   $$
     r_1 
-      \,\otimes\, 
+      \,\textstyle{\otimes}\, 
     \big( n \cdot r_2 \big)
       \,=\, 
     \big(
@@ -430,12 +429,12 @@ The ring $\mathbb{Q}$ of [[rational numbers]] is a [[solid ring]].
       \,\cdot\,
       n 
     \big)
-      \,\otimes\, 
+      \,\textstyle{\otimes}\, 
     r_2
     \;\;\;
     \in
     \;
-    \mathbb{Q} \otimes_{{}_{\mathbb{Z}}} \mathbb{Q}
+    \mathbb{Q} \textstyle{\otimes}_{{}_{\mathbb{Z}}} \mathbb{Q}
     \,,
     \;\;\;\;
     \text{for}\; n \,\in\, \mathbb{Z}
