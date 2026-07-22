@@ -20,6 +20,13 @@ On the [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]] (
 * [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
 
 
+On manifestly [[supersymmetry|supersymmetric]] [[action functionals]] for [[11D supergravity]] via [[pure spinor]] [[superfields]] on [[superspace]]:
+
+* [[Martin Cederwall]]: *Towards a manifestly supersymmetric action for 11-dimensional supergravity*, J. High Energ. Phys. **2010** 117 (2010) \[<a href="https://doi.org/10.1007/JHEP01(2010)117">doi:10.1007/JHEP01(2010)117</a>, [arXiv:0912.1814](https://arxiv.org/abs/0912.1814)\]
+
+* [[Martin Cederwall]]: *$D=11$ supergravity with manifest supersymmetry*, Mod. Phys. Lett. A **25** (2010) 3201--3212 \[<a href="https://doi.org/10.1142/S0217732310034407">doi:10.1142/S0217732310034407</a>, [arXiv:1001.0112](https://arxiv.org/abs/1001.0112)\]
+
+
 On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
 
 * [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
