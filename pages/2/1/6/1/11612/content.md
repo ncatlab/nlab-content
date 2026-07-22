@@ -44,15 +44,17 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 ## References
 
-* {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39 ([spire](http://inspirehep.net/record/14499?ln=en))
+* {#Hull84} [[Chris Hull]]: _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B **139** (1984) 39 &lbrack;[inSpire:14499](http://inspirehep.net/record/14499)&rbrack;
 
-* {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
+* {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl. Phys. B **490** (1997) 145--162 &lbrack;[arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173)&rbrack;
 
-* {#Townsend97} [[Paul Townsend]]: first pages of _M-Theory from its superalgebra_, Cargese Lectures (1997) &lbrack;[arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004)&rbrack;
+* {#Townsend97} [[Paul Townsend]]: _M-Theory from its superalgebra_, in: *Strings, Branes and Dualities*, NATO ASI Series **520** (1999) 141--177 &lbrack;[arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004), [doi:10.1007/978-94-011-4730-9_5](https://doi.org/10.1007/978-94-011-4730-9_5), [inSpire:451753](https://inspirehep.net/literature/451753)&rbrack;
 
-* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl. Phys. B **548** (1999) 231--257 &lbrack;[arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014)&rbrack;
+* Takeshi Sato; Section 2.3 of:_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl. Phys. B **548** (1999) 231--257 &lbrack;[arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014)&rbrack;
 
-* [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
+* [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of: _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav. **19** (2002) 6147--6174 &lbrack;[arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108), [doi:10.1088/0264-9381/19/23/315](https://doi.org/10.1088/0264-9381/19/23/315)&rbrack;
+
+
 
 * {#Philip05} [[Simon Philip]], *Plane-wave limits and homogeneous M-theory backgrounds*, PhD thesis, Edinburgh (2005) &lbrack;[pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]]&rbrack;
 
