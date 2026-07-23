@@ -326,21 +326,22 @@ A brief discussion aimed at mathematicians of the KK-reduction of [[gauge fields
 
 * [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_.
 
-A textbook discussion in the context of [[supergravity]] is in 
 
-* [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
+Discussion in the context of [[supergravity]]:
+
+* [[Andrew Strominger]] (notes by [[John Morgan]]): _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
 
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]]; Section V.3.3. (pp 1186) of: _[[Supergravity and Superstrings - A Geometric Perspective]]_
 
-In
+The case of [[duality between 11D and 10D IIA supergravity]] on [[superspace]]:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]; §3.2 in: *[[schreiber:Nesselwang 2026|Higher Superspace Supergravity & its IR Completions]]*, lecture notes &lbrack;[arXiv:2607.20312](https://arxiv.org/abs/2607.20312)&rbrack;
   
-
-the mechanism is discussed around Section V.3.3., page 1186 in volume 2.
-
-The discussion in the [[first order formulation of gravity]] is given in 
+Further discussion in the [[first order formulation of gravity]] is given in 
 
 * Rodrigo Arosa, Mauricio Romob and Nelson Zamorano, _Compactification in first order gravity_ 	J.Phys.Conf.Ser.134:012013,2008 ([arXiv:0705.1162](http://arxiv.org/abs/0705.1162))
 
