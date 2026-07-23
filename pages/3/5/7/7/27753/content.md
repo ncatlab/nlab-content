@@ -287,6 +287,12 @@ On [[anyons]] in FQAH systems:
 * Zhengyan Darius Shi, T. Senthil: *Superconductivity and non-Fermi liquid metals in a charge-$1/3$ anyon fluid* &lbrack;[arXiv:2606.20403](https://arxiv.org/abs/2606.20403)&rbrack;
 
 
+* Umang Mehta, Yuto Nakajima, Hart Goldman: *Coloring in anyon superconductivity* &lbrack;[arXiv:2607.19470](https://arxiv.org/abs/2607.19470)&rbrack;
+  > (relation to [[superconductivity]])
+
+
+
+
 
 
 #### In view of TQC
