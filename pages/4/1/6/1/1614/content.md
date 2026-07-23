@@ -96,6 +96,8 @@ More recently, TQFTs find relevance in [[solid state physics]] as models for the
 
 * [[Ralph Cohen]] (notes by [[Eric Malm]]): *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]], [web](https://ericmalm.net/ac/projects/math283-w08/)&rbrack;
 
+* [[Daniel S. Freed]]; *Bordism and Topological Field Theories*, lecture 1 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
+
 
 Discussion of [[action functionals]] for [[topological field theories]] via [[equivariant ordinary differential cohomology]]:
 
