@@ -1,8 +1,12 @@
-Yuri Ivanovich Manin (1937-2023, Russian: &#1070;&#1088;&#1080;&#1081; &#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1080;&#1095; &#1052;&#1072;&#1085;&#1080;&#1085;) was a Russian-born mathematician of polymath broadness, with main works in [[number theory]] and [[arithmetic geometry]], [[noncommutative geometry]], [[algebraic geometry]] and [[mathematical physics]]. 
+Yuri Ivanovich Manin (1937--2023) was a Russian-born mathematician (&#1070;&#1088;&#1080;&#1081; &#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1080;&#1095; &#1052;&#1072;&#1085;&#1080;&#1085;) of polymath broadness, with main works in [[number theory]] and [[arithmetic geometry]], [[noncommutative geometry]], [[algebraic geometry]] and [[mathematical physics]]. 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Yuri_I._Manin)
 
 * [MPI obituary](https://www.mpim-bonn.mpg.de/node/11864)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=44207)
+
+* [inSpire page](https://inspirehep.net/authors/998970)
 
 His diverse work includes a classification theorem in the theory of commutative [[formal group]], early study of monoidal transformations and exposition on [[motive]]s in 1960-s, a fundamental starting work in [[quantum information theory]], proposals on [[quantum logic]]s, an approach to [[quantum group]]s, ADHM construction in [[soliton]] theory, work with [[Maxim Kontsevich]] on [[Gromov-Witten invariants]], work on [[Frobenius manifold]]s (and introduced more general "F-manifolds" with Claus Hertling). He published a number of influential monographs including on [[noncommutative geometry]], [[quantum group]]s, [[complex geometry]] and [[gauge theory|gauge theories]], introduction to [[scheme]]s, [[Frobenius manifold]]s, mathematical [[logic]]s... 
 
@@ -84,7 +88,12 @@ and generalized to Frobenius [[supermanifolds]] in [[supergeometry]]:
 
 On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
 
-* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+* [[Yuri Manin]], [[Matilde Marcolli]]: _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+
+On [[Georg Cantor]] and his [[set theory]]: [[cardinal numbers]], [[ordinal numbers]], ...:
+
+* [[Yuri I. Manin]]: *Georg Cantor and his heritage*, talk to German Mathematical Society (2002) &lbrack;[arXiv:math/0209244](https://arxiv.org/abs/math/0209244)&rbrack;
+
 
 On doubly [[monoidal categories]] and [[quadratic operads]]:
 
