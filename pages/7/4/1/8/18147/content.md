@@ -10,10 +10,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{: toc}
 
 ## Definition
 
@@ -25,11 +23,10 @@ $$
   x \cdot (y \cdot z)
 $$
 
-holds.
+holds. 
 
-## Examples
+Associative magmas are commonly referred to as *[[semigroups]]*. See there for more.
 
-Examples include [[semigroups]]/[[monoids]], [[rings]], [[associative algebras]], etc.
 
 ## Related concepts
 
