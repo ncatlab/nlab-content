@@ -14,9 +14,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea 
 
@@ -150,26 +149,36 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 
 ## References
 
-The original article is
+The notion of cardinal numbers originates (with that of [[ordinal numbers]]) in:
 
-* {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. 46 (1895) pp.481-512, reprinted from p. 282 on in [[Ernst Zermelo]] (ed.), _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin 1932 ([online English translation](https://archive.org/details/contributionstof00cant))
+* {#Cantor1887} [[Georg Cantor]]: _Mitteilungen zur Lehre vom Transfiniten I_, Zeitschrift für Philosophie und philosophische Kritik **91** 1 (1887) 81--125
+
+  Reprinted in: [[Ernst Zermelo]] (ed.): _Georg Cantor --- Gesammelte Abhandlungen: mathematischen und philosophischen Inhalts_, Springer (1932) &lbrack;[gdz.sub:PPN237853094](https://gdz.sub.uni-goettingen.de/id/PPN237853094)&rbrack;
+
+* {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. **46** (1895) 481--512, 
+
+  reprinted in [[Ernst Zermelo]] (ed.): _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin (1932) 282 &lbrack;[online English translation](https://archive.org/details/contributionstof00cant)&rbrack;
+
+Historical reflections:
+
+* [[Arthur Schoenflies]]: *Die Krisis in Cantor's mathematischem Schaffen*, Acta Math. **50** (1927) 1--23 &lbrack;[doi:10.1007/BF02421320](https://doi.org/10.1007/BF02421320)&rbrack; 
+
+* [[Yuri I. Manin]]: *Georg Cantor and his heritage*, talk to German Mathematical Society (2002) &lbrack;[arXiv:math/0209244](https://arxiv.org/abs/math/0209244)&rbrack;
 
 
-The book
+Any serious reference on [[set theory]] should cover cardinal numbers. For instance
 
-* Peter J Cameron, _Sets, Logic and Categories_  (ISBN: 1-85233-056-2 )
-
-contains a very readable account of ZFC and the definitions of both ordinal and cardinal numbers.  
-
-Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is 
+* Peter J Cameron, _Sets, Logic and Categories_ &lbrack;ISBN: 1-85233-056-2&rbrack;
 
 * Thomas Jech _[Set Theory](http://books.google.com/books?id=pLxq0myANiEC)_; 
 
-there are also some references listed at 
+See also
+
+* Wikipedia: *[Cardinal number](http://en.wikipedia.org/wiki/Cardinal_number)*
+
+List of further references:
 
 * [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and 
-
-* [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
 
 A good introduction to infinite cardinals is:
 
@@ -185,9 +194,9 @@ This is a very readable and freely available historical introduction:
 
 *Standard* approaches start with a [[material set theory]], such as ZFC, whereas the approach here uses [[structural set theory]] as emphasized above.  Since cardinality is isomorphism-invariant, it is easy to interpret the standard material structurally, although the basic definitions will be different.  There does not seem to be a standard account of cardinality from within structural set theory.
 
-For cardinal numbers in [[homotopy type theory]], see chapter 10 of
+Discussion in [[homotopy type theory]]:
 
-* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* {#UFP13} [[Univalent Foundations Project]]; chapter 10 in: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 For a critical discussion of the history of the meaning of Cantor's "Kardinalen", see 
 
