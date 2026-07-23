@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 *Stub*
 
@@ -31,6 +31,8 @@ The proposal to understand [[quantum anomalies]] of lower-dimensional non-invert
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]], very last sentence of: *Consistent Orientation of Moduli Spaces* &lbrack;[arXiv:0711.1909](https://arxiv.org/abs/0711.1909)&rbrack;
 
 * {#Freed13} [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013), Proc. Symp. Pure Math, Proc. Sympos. Pure Math. **88**, Amer. Math. Soc. (2014) 25–45 &lbrack;[arXiv.1404.7224](https://arxiv.org/abs/1404.7224)&rbrack;
+
+* [[Daniel S. Freed]]; *Invertibility and Stable Homotopy Theory*, lecture 6 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
 
 * [[Daniel S. Freed]]: *What is an anomaly?*, talk at *[Mathematical Picture Language Seminar, Feb 2023](https://mathpicture.fas.harvard.edu/files/mathpicture/files/23-2-7_dan_freed_seminar.pdf)* &lbrack;[arXiv:2307.08147](https://arxiv.org/abs/2307.08147), video:[YT](https://www.youtube.com/watch?v=meOQXoN0QRc), slides:[pdf](https://people.math.harvard.edu/~dafr/Anomaly.pdf)&rbrack;
 
