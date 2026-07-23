@@ -626,7 +626,7 @@ Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJai
     2 p n \pm 1
   }
   \;\;
-  p, n \in \mathbb{Z}
+  p, n \in \mathbb{N}_{\geq 1}
   \;\;\;\;\;\;\;\; 
   \Rightarrow
   \;\;\;\;\;\;\;\;
@@ -643,7 +643,7 @@ Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJai
 \]
 
 \begin{remark}
-  While in the special case $n = 1$ the formula (eq:BraidingAngleAtJainSequenceFillingFactor) still differs from (eq:BraidingAngleAtUnitFractionFillingFactor), it does so only by a unit shift:
+  While in the special case $n = 1$ the formula (eq:BraidingAngleAtJainSequenceFillingFactor) nominally differs from (eq:BraidingAngleAtUnitFractionFillingFactor), it does so only by a unit shift:
 
 \[
   \label{ShiftInBraidingAngles}
@@ -674,6 +674,66 @@ For the two cases $\nu = 1/3$ and $\nu = 2/5$, equation (eq:BraidingAngleAtJainS
 More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$, thus being insensitive to the shift in (eq:ShiftInBraidingAngles). Concretely, these experiments at $\nu = 1/3$ do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
 
 Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu \pi$ on the nose.
+
+\end{remark}
+
+\begin{remark}
+
+More generally, the Goldhaber-Jain formula \eqref{BraidingAngleAtJainSequenceFillingFactor}
+
+$$
+  \theta_{Jain}
+  \;\coloneqq\;
+  \pi 
+  \frac
+    { 2 p }
+    { 2 p n \pm 1}
+$$
+
+and the Su formula $\theta = \nu \pi$ (restricted to filling fractions in the Jain sequence)
+
+$$
+  \theta_{Su}
+  \;\coloneqq\;
+  \pi
+  \frac
+    { n }
+    { 2 p n \pm 1 }
+$$
+
+are indistinguishable by current experimental setups --- which measure the square $\big(e^{\pm \pi \mathrm{i}}\big)^2$ --- iff
+
+$$
+  \theta_{Jain} 
+  \pm 
+  \theta_{Su}
+  \;\in\;
+  \pi
+  \mathbb{Z}
+  \mathrlap{\,,}
+$$
+
+hence iff
+
+$$
+  \frac
+    { 2 p + t n }
+    { 2 p n \pm s}
+  \;\in\;
+  \mathbb{Z}
+$$
+
+for $n, p \in \mathbb{N}_{\geq 1}$ and $s, t \in \{+1, -1\}$.
+
+This condition has exactly three classes of solutions:
+
+1. $n = 1$ --- the case (eq:ShiftInBraidingAngles)
+
+1. $n = 2p$ 
+
+1. $n = 3$, $p = 1$, $s = -1$.
+
+
 \end{remark}
 
 
