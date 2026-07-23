@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 This page is to record the reference:
 
 * {#Cantor1895} [[Georg Cantor]]:
@@ -24,9 +35,7 @@ This page is to record the reference:
 an early reference for modern concept of [[cardinality]] of [[sets]], first introduced by Cantor in a more obscure 1887 paper in a philosophy journal ([Cantor 1887, section VIII](#Cantor1887)). (But see also the commentary in [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_).
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Section 1. The conception of Power or Cardinal Number**
 
@@ -115,9 +124,12 @@ then we always have
 
 $(M, N, P, . . .) \sim (M', N', P', \cdots)$.
 
+
 ## References
 
-* {#Cantor1887} [[Georg Cantor]], _Mitteilungen zur Lehre vom Transfiniten I_, Zeitschrift für Philosophie und philosophische Kritik **91**, Heft 1 (1887) pp. 81-125. Reprinted in: _Gesammelte Abhandlungen: mathematischen und philosophischen Inhalts_ Ed: [[Ernst Zermelo]] (1932), [SUB Göttingen](https://gdz.sub.uni-goettingen.de/id/PPN237853094).
+* {#Cantor1887} [[Georg Cantor]]: _Mitteilungen zur Lehre vom Transfiniten I_, Zeitschrift für Philosophie und philosophische Kritik **91** 1 (1887) 81--125
+
+  Reprinted in: [[Ernst Zermelo]] (ed.): _Georg Cantor --- Gesammelte Abhandlungen: mathematischen und philosophischen Inhalts_, Springer (1932) &lbrack;[gdz.sub:PPN237853094](https://gdz.sub.uni-goettingen.de/id/PPN237853094)&rbrack;
 
 
 category: reference
