@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -340,6 +338,8 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 * [[(∞,1)-vector bundle]]
 
+* [[categorical spectrum]]
+
 ## References
 
 A notion of spectrum of units of an $E_\infty$-ring was originally described in 
@@ -414,4 +414,6 @@ The group of units of [[tmf]] is analyzed from section 12 on in
 
 [[!redirects ∞-groups of units]]
 [[!redirects infinity-groups of units]]
+
+
 
