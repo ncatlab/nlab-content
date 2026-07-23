@@ -119,7 +119,11 @@ A proof of this claim is laid out in
 
 * {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
 
-using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Nesselwang 2026|Higher Superspace Supergravity & its IR Completions]]*, lecture notes &lbrack;[arXiv:2607.20312](https://arxiv.org/abs/2607.20312)&rbrack;
+
+
+using further lemmas and heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
+
 
 On the component expansion of fields in [[11D supergravity]] on superspace:
 
