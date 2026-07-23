@@ -128,6 +128,11 @@ On formalizing [[short-range entanglement]] in [[topological phases of matter]] 
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
+On ([[extended topological field theory|extended]]) [[topological field theory]], [[invertible field theories]] and [[quantum anomalies]]:
+
+* [[Daniel S. Freed]]: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
+
+
 On classification of [[invertible TQFTs]] via [[reflection positivity]]:
 
 * {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
