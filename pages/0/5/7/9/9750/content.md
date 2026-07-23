@@ -284,16 +284,20 @@ In particular
 ## References
  {#References}
 
-Formalization of double dimensional reduction is discussed in [[rational homotopy theory]] in
+
+### General
+
+Formalization of double dimensional reduction via [[cyclic loop space|cyclification]] of [[classifying spaces]]/characteristic [[L-infinity algebras|$L_\infty$-algebras]]:
+
+in [[rational homotopy theory]]:
 
 * {#FSS16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of  _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, ATMP Volume 22 (2018) Number 5 ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
-and in full [[homotopy theory]] in
+and in full [[homotopy theory]]:
 
 * {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of:  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics 371: 197 (2019) ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4))
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
-
 
 
 Exposition is in
@@ -305,6 +309,12 @@ and further discussion in
 * {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. **68** 3-4 (2020) &lbrack;[arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010)&rbrack;
 
 * [[Luigi Alfonsi]]: *The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective*, Fortschr. Phys. **69** 7 (2021) &lbrack;[arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)&rbrack;
+
+The case of [[duality between 11D and 10D IIA supergravity]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]; §3.2 in: *[[schreiber:Nesselwang 2026|Higher Superspace Supergravity & its IR Completions]]*, lecture notes &lbrack;[arXiv:2607.20312](https://arxiv.org/abs/2607.20312)&rbrack;
 
 
 ### Reduction of membrane to string
