@@ -15,9 +15,7 @@
 
 
 
-# Ordinal numbers
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -81,9 +79,26 @@ One important use of ordinals is to index transfinite constructions, such as:
 
 ## References
 
-For ordinal numbers in [[homotopy type theory]], see section 10.3 of:
+The notion of ordinal numbers originates (with that of [[cardinal numbers]]) in:
 
-* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+* {#Cantor1887} [[Georg Cantor]]: _Mitteilungen zur Lehre vom Transfiniten I_, Zeitschrift für Philosophie und philosophische Kritik **91** 1 (1887) 81--125
+
+  Reprinted in: [[Ernst Zermelo]] (ed.): _Georg Cantor --- Gesammelte Abhandlungen: mathematischen und philosophischen Inhalts_, Springer (1932) &lbrack;[gdz.sub:PPN237853094](https://gdz.sub.uni-goettingen.de/id/PPN237853094)&rbrack;
+
+* {#Cantor1895} [[Georg Cantor]], _[[Beiträge zur Begründung der transfiniten Mengenlehre]]_, Math. Ann. **46** (1895) 481--512, 
+
+  reprinted in [[Ernst Zermelo]] (ed.): _Georg Cantor -- Gesammelte Abhandlungen mathematischen und philosophischen Inhalts_, Springer Berlin (1932) 282 &lbrack;[online English translation](https://archive.org/details/contributionstof00cant)&rbrack;
+
+Historical reflections:
+
+* [[Arthur Schoenflies]]: *Die Krisis in Cantor's mathematischem Schaffen*, Acta Math. **50** (1927) 1--23 &lbrack;[doi:10.1007/BF02421320](https://doi.org/10.1007/BF02421320)&rbrack; 
+
+* [[Yuri I. Manin]]: *Georg Cantor and his heritage*, talk to German Mathematical Society (2002) &lbrack;[arXiv:math/0209244](https://arxiv.org/abs/math/0209244)&rbrack;
+
+Discussion in [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]]; chapter 10.3 in: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]*, IAS (2013)
+
 
 On the equivalence of set-theoretic and type-theoretic ordinals, see:
 
