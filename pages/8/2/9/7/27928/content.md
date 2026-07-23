@@ -342,8 +342,13 @@ Review:
 
 * [[Gerald V. Dunne]]; §2.2 in: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
 
-
 * [[Gregory Moore]]; §2.2.3 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
+In view of [[extended topological field theory]]:
+
+* [[Daniel S. Freed]]: *The long range limit of 3-dimensional Yang-Mills + Chern-Simons*, section 9.2 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
+
+
 
 In the context of [[effective field theory|effective description]] of [[superconductivity]]:
 
