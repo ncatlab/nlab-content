@@ -41,11 +41,11 @@ This may be thought of as stagewise revealing a [[higher category]] structure wi
 
 Since [[endomorphism monoid object|endomorphism objects]] $End(-)$ as in (eq:CategoricalOmegaSpectrumCondition) are canonically [[monoid objects]], the stages of a categorical spectrum carry the structure of [[monoid objects]] [[internalization|internal to]] [[(infinity,infinity)-categories|$(\infty,\infty)$-categories]] and, by iteration, in fact of [[coherence|coherently]] [[commutative monoid objects]]. 
 
-Concretely, in many examples, $\mathcal{C}_{n}$ happens to be an [[(infinity,n)-category|$(\infty,n)$-category]]. In this case, each stage $\mathcal{C}_n$ in a categorical spectrum is exhibited as a [[monoidal (infinity,n)-category|monoidal $(\infty,n)$-category]] and, by iteration, as a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]. 
+Specifically, in many examples, $\mathcal{C}_{n}$ happens to be an [[(infinity,n)-category|$(\infty,n)$-category]]; these are the *co-[[connective spectrum|connective]]* categorical spectra. In this case, each stage $\mathcal{C}_n$ is exhibited as a [[monoidal (infinity,n)-category|monoidal $(\infty,n)$-category]] and, by iteration, as a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]. 
 
-If these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] are [[locally presentable (infinity,n)-category|presentable]], then [Scholze 2026 Def. 1.18](#Scholze2026) speaks of *StRings* ([[duality between algebra and geometry|formally dual]] to "[[Gestalten]]").
+If these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] are [[locally presentable (infinity,n)-category|presentable]] (so that they have a good supply of [[colimits]] playing the role of [[addition]]) and the monoidal structure [[preserved colimit|preserves]] these colimits (this playing the role of [[linear map|linearity]]), then [Scholze 2026 Def. 1.18](#Scholze2026) speaks of *StRings* ([[duality between algebra and geometry|formally dual]] to "[[Gestalten]]"), a grand [[categorification]] of [[commutative rings]] (and their [[formal dual|formally dual]] [[affine schemes]]).
 
-Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]]:
+Stagewise forming [[Picard infinity-groupoids|Picard $\infty$-groupoids]] of these [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-categories]] yields an ordinary [[spectrum]] of [[infinity-groupoids|$\infty$-groupoids]], which may be thought of as the [[infinity-group of units|$\infty$-group of units]] of the st-ring:
 
 \[
   \label{PicardSpectrumFunctor}
