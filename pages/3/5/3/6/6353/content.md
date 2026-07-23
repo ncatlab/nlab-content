@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -68,6 +66,9 @@ Further developments:
 * [[Dieter Lüst]], Stefano Massai, Valent&#237; Vall Camell, _The monodromy of T-folds and T-fects_ ([arXiv:1508.01193](http://arxiv.org/abs/1508.01193))
 
 * Yoan Gautier, [[Chris Hull]], Dan Israël, _Heterotic/type II Duality and Non-Geometric Compactifications_ ([arXiv:1906.02165](https://arxiv.org/abs/1906.02165))
+
+* Mir Faizal, Arshid Shabir: *A T-Fold Black Hole in Doubled Type IIB* &lbrack;[arXiv:2607.19443](https://arxiv.org/abs/2607.19443)&rbrack;
+
 
 Discussion for [[nonabelian T-duality]]:
 
