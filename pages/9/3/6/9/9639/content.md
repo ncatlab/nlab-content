@@ -615,7 +615,7 @@ this according to a [[Berry phase]] computation via the [[quantum adiabatic theo
 
 It appears that [Su 1986 (3)](#Su86) claims that $\theta = \pm \pi \nu$ (eq:BraidingAngleAtUnitFractionFillingFactor) should hold for general filling fractions $\nu$, but the commonly accepted statement nowadays is different:
 
-Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJain95) claim, reviewed by [Jain 2007 (9.46)](#Jain07) that for filling factors in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
+Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJain95) claim (reviewed by [Jain 2007 (9.46)](#Jain07)) that for filling factors in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
 
 \[
   \label{BraidingAngleAtJainSequenceFillingFactor}
@@ -643,7 +643,7 @@ Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJai
 \]
 
 \begin{remark}
-  While in the special case $n = 1$ the formula (eq:BraidingAngleAtJainSequenceFillingFactor) still differs from (eq:BraidingAngleAtUnitFractionFillingFactor) it does so only by a unit shift
+  While in the special case $n = 1$ the formula (eq:BraidingAngleAtJainSequenceFillingFactor) still differs from (eq:BraidingAngleAtUnitFractionFillingFactor), it does so only by a unit shift:
 
 \[
   \label{ShiftInBraidingAngles}
@@ -668,7 +668,7 @@ and hence by a sign of the corresponding braiding phase, which [Jain 2007 (9.49)
 
 \end{remark}
 
-For the two cases $\nu = 1/3$ and $\nu = 2/5$, equation (eq:BraidingAngleAtJainSequenceFillingFactor) appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, this braiding angle is reported to be observed in [[experiments]] for the cases $\nu \in \big\{ \tfrac{1}{3}, \tfrac{2}{5} \big\}$ (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
+For the two cases $\nu = 1/3$ and $\nu = 2/5$, equation (eq:BraidingAngleAtJainSequenceFillingFactor) appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, by observations in [[experiments]] for the cases $\nu \in \big\{ \tfrac{1}{3}, \tfrac{2}{5} \big\}$ (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
 
 \begin{remark}
 More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$, thus being insensitive to the shift in (eq:ShiftInBraidingAngles). Concretely, these experiments at $\nu = 1/3$ do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
