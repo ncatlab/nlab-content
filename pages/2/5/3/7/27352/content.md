@@ -77,10 +77,9 @@ Further review and exposition:
 * Josef Willsher; §2.3 of: *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
 Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>, [[Willsher-CSFQH.pdf:file]]\]
 
-* Diego Bragato: *Integer Quantum Hall Effect and Chern Si-
-mons Theories*, MSc thesis, Milano & Utrecht (2022) \[<a href="https://www.politesi.polimi.it/handle/10589/216533">polimi:10589/216533</a>, [pdf](https://www.politesi.polimi.it/retrieve/5e6fe5c0-50fb-493c-a3e0-5aef5459e3c0/thesis-book.pdf)\]
+* Diego Bragato: *Integer Quantum Hall Effect and Chern Simons Theories*, MSc thesis, Milano & Utrecht (2022) \[<a href="https://www.politesi.polimi.it/handle/10589/216533">polimi:10589/216533</a>, [pdf](https://www.politesi.polimi.it/retrieve/5e6fe5c0-50fb-493c-a3e0-5aef5459e3c0/thesis-book.pdf)\]
 
-* [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;<a href="https://doi.org/10.1016/B978-0-323-90800-9.00269-9">doi:10.1016/B978-0-323-90800-9.00269-9</a>, [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
+* [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00269-9">doi:10.1016/B978-0-323-90800-9.00269-9</a>, [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)\]
 
 For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but *[[noncommutative  field theory|noncommutative]]* ([[matrix model]]-)[[Chern-Simons theory]]
 
@@ -92,7 +91,7 @@ More on [[edge modes]] via the abelian [[WZW model]]/[[Floreanini-Jackiw theory]
 
 * Nicola Maggiore: *From Chern-Simons to Tomonaga-Luttinger*,  Int. J. Mod. Phys. A **33** (2018) 1850013 \[<a href="https://doi.org/10.1142/S0217751X18500136">doi:10.1142/S0217751X18500136</a>, [arXiv:1712.08744](https://arxiv.org/abs/1712.08744)\]
 
-* [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
+* [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* \[<a href="https://arxiv.org/abs/2003.06241">arXiv:2003.06241</a>\]
 
 and in view of the [[bulk-edge correspondence]]:
 
