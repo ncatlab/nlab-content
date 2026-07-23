@@ -607,19 +607,20 @@ the [[angle]] of that *braiding phase* is the same fraction of [[pi|$\pi$]] (up 
   \theta 
     \;=\;
   \pm
-  \pi \nu
+  \nu
   \,,
 \]
 
 this according to a [[Berry phase]] computation via the [[quantum adiabatic theorem]], due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)).
 
-It appears that [Su 1986 (3)](#Su86) claims that $\theta = \pm \pi \nu$ (eq:BraidingAngleAtUnitFractionFillingFactor) should hold for general filling fractions $\nu$, but the commonly accepted statement nowadays is different:
+It appears that [Su 1986 (3)](#Su86) claims that this same formula $\theta = \pm \nu$ (eq:BraidingAngleAtUnitFractionFillingFactor) should hold for general filling fractions $\nu$. But there is another formula in use:
 
-Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJain95) claim (reviewed by [Jain 2007 (9.46)](#Jain07)) that for filling factors in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
+[Goldhaber & Jain 1995](#GoldhaberJain95) claim (motivated by [Halperin 1984](#Halperin84), reviewed in [Jain 2007 (9.46)](#Jain07)) that for filling fractions in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
 
 \[
   \label{BraidingAngleAtJainSequenceFillingFactor}
-  \nu \,=\, 
+  \nu 
+    \,=\, 
   \frac{
     n
   }{
@@ -633,7 +634,6 @@ Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJai
   \theta 
     \;=\;
   \pm
-  \pi
   \frac{
     2 p
   }{
@@ -671,9 +671,9 @@ and hence by a sign of the corresponding braiding phase, which [Jain 2007 (9.49)
 For the two cases $\nu = 1/3$ and $\nu = 2/5$, equation (eq:BraidingAngleAtJainSequenceFillingFactor) appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, by observations in [[experiments]] for the cases $\nu \in \big\{ \tfrac{1}{3}, \tfrac{2}{5} \big\}$ (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
 
 \begin{remark}
-More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$, thus being insensitive to the shift in (eq:ShiftInBraidingAngles). Concretely, these experiments at $\nu = 1/3$ do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
+More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$, thus being insensitive to the shift in (eq:ShiftInBraidingAngles). Concretely, these experiments at $\nu = 1/3$ do not distinguish between braiding angles $\pm \tfrac{1}{3} = \nu $ and $\mp \tfrac{2}{3} = 2\nu $. 
 
-Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu \pi$ on the nose.
+Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu $ on the nose.
 
 \end{remark}
 
@@ -684,7 +684,6 @@ More generally, the Goldhaber-Jain formula \eqref{BraidingAngleAtJainSequenceFil
 $$
   \theta_{Jain}
   \;\coloneqq\;
-  \pi 
   \frac
     { 2 p }
     { 2 p n \pm 1}
@@ -695,20 +694,18 @@ and the Su formula $\theta = \nu \pi$ (restricted to filling fractions in the Ja
 $$
   \theta_{Su}
   \;\coloneqq\;
-  \pi
   \frac
     { n }
     { 2 p n \pm 1 }
 $$
 
-are indistinguishable by current experimental setups --- which measure the square $\big(e^{\pm \pi \mathrm{i}}\big)^2$ --- iff
+are indistinguishable by current experimental setups --- which measure the square $\big(e^{\pm \pi \mathrm{i} \theta}\big)^2$ --- iff
 
 $$
   \theta_{Jain} 
   \pm 
   \theta_{Su}
   \;\in\;
-  \pi
   \mathbb{Z}
   \mathrlap{\,,}
 $$
@@ -718,7 +715,7 @@ hence iff
 $$
   \frac
     { 2 p + t n }
-    { 2 p n \pm s}
+    { 2 p n + s}
   \;\in\;
   \mathbb{Z}
 $$
