@@ -174,12 +174,13 @@ Discussion of thermal Wick rotation on global [[anti-de Sitter spacetime]] (whic
 
 * {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
 
-See also
+See also:
 
 * Dirk Schlingemann, _From euclidean field theory to quantum field theory_ ([arXiv:hep-th/9802035](http://arxiv.org/abs/hep-th/9802035))
 
-
 * {#Witten13} [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
+
+* [[Daniel S. Freed]]; *Wick-Rotated Unitarity*, lecture 7 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
 
 On the (non-)existence of Wick rotation for [[quantum field theory on curved spacetimes]]:
 
