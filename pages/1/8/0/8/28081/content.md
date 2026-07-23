@@ -85,6 +85,11 @@ and then in:
 
 * {#SchommerPries} [[Chris Schommer-Pries]], pp. 65 in: _Topological defects and classifying local topological field theories in low dimension_, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]* &lbrack;[[SchommerPriesDefects.pdf:file]]&rbrack;
 
+Review in view of encoding [[quantum anomalies]]:
+
+* [[Daniel S. Freed]]; *Anomalies in Field Theory*, lecture 11 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
+
+
 Further mathematical development:
 
 * [[Theo Johnson-Freyd]], [[Claudia Scheimbauer]]: *(Op)lax natural transformations, twisted quantum field theories, and "even higher" Morita categories*, Advances in Mathematics **307** (2017) 147-223 &lbrack;[arXiv:1502.06526](https://arxiv.org/abs/1502.06526), [doi:10.1016/j.aim.2016.11.014](https://doi.org/10.1016/j.aim.2016.11.014)&rbrack;
