@@ -44,9 +44,9 @@ Agda has a `--cubical` mode that implements a version of [[cubical type theory]]
 
 [RedTT](https://github.com/RedPRL/redtt) is (was?) an implementation of cartesian cubical type theory, with some basic development in an associated library.
 
-## cubo
+## cubicle
 
-[cubo](https://github.com/bbentzen/cubo/) is (was?) an experimental implementation of [XTT](https://arxiv.org/abs/1904.08562), a cubical reconstruction of extensional type theory that enjoys canonicity, function extensionality, and a judgmental version of UIP. 
+[cubicle](https://github.com/bbentzen/cubicle) is an experimental implementation of [XTT](https://arxiv.org/abs/1904.08562), a cartesian, cubical reconstruction of extensional type theory that enjoys canonicity, function extensionality, and a judgmental version of UIP. The name of the system is a pun based on the fact that it only deals with small (one-dimensional) cubes in a proof-relevant way.
 
 
 ## Arend
