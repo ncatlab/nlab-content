@@ -92,11 +92,15 @@ Discussion on the level of [[superspace]] [[supergravity]] and implication for [
 
 * [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
 
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]; §3.2 in: *[[schreiber:Nesselwang 2026|Higher Superspace Supergravity & its IR Completions]]*, lecture notes &lbrack;[arXiv:2607.20312](https://arxiv.org/abs/2607.20312)&rbrack;
+
+
 
 [[!redirects duality between M-theory and type IIA superstring theory]]
 
 [[!redirects duality between type IIA string theory and M-theory]]
 [[!redirects duality between type IIA superstring theory and M-theory]]
 
+[[!redirects duality between 11D and 10D IIA supergravity]]
 
 [[!redirects M-theory on a circle]]
