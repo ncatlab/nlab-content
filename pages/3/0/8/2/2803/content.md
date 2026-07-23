@@ -34,10 +34,6 @@ In particular, the Yoneda lemma for bicategories implies that there is a [[Yoned
 
 A detailed proof of the bicategorical Yoneda lemma is given in ([Johnson &amp; Yau 20, Chap. 8](#JohnsonYau)).
 
-### Explicit proof
-
-An explicit proof, involving many diagrams, has been written up by [[Igor Baković]] and can be found [here](http://www.irb.hr/korisnici/ibakovic/yoneda.pdf).
-
 ### High-technology proof
 
 We will take it for granted that $[C^{op},Cat]$ is a well-defined bicategory; this is a basic fact having nothing to do with the Yoneda lemma.  We also take it as given that "evaluation at $1_x$" functor
