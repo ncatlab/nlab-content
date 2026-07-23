@@ -173,6 +173,8 @@ Presented at the AMS Meeting 876, held in Dayton, Ohio, on October 31, 1992.
 
 * [[Shawn X. Cui]], *Higher Categories and Topological Quantum Field Theories*, Quantum Topology **10** 4 (2019) 593-676 &lbrack;[arXiv:1610.07628] (https://arxiv.org/abs/1610.07628), [doi:10.4171/QT/128](https://doi.org/10.4171/QT/128)&rbrack;
 
+* [[Daniel S. Freed]]; *Extended Locality*, lecture 5 in: *Lectures on Field Theory and Topology*, CBMS Regional Conference Series in Mathematics **133**, AMS (2019) &lbrack;[doi:10.1090/cbms/133](https://doi.org/10.1090/cbms/133), [ams:cbms/133](https://pubs.ams.org/ebooks/cbms/133), [pdf](https://web.ma.utexas.edu/users/dafr/CBMS133.pdf)&rbrack;
+
 
 On the full extension of [[Chern-Simons theory]]/[[Reshetikhin-Turaev theory]]:
 
