@@ -14,10 +14,13 @@ but, more recently, independent groups report consistent results across differen
 Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures](semiconductor#ReferencesHeterostructures):
 
 * H. Bartolomei, et al.: *Fractional statistics in anyon collisions*, Science **368** 6487 (2020) 173-177  \[<a href="https://doi.org/10.1126/science.aaz5601">doi:10.1126/science.aaz5601</a>, [arXiv:2006.13157](https://arxiv.org/abs/2006.13157)\]
+  > (observes $\theta = 1/3$)
 
 * [[James Nakamura]] et al.: *Aharonov–Bohm interference of fractional quantum Hall edge modes*, Nature Physics **15** 563–569 (2019) \[<a href="https://doi.org/10.1038/s41567-019-0441-8">doi:10.1038/s41567-019-0441-8</a>, [arXiv:1901.08452](https://arxiv.org/abs/1901.08452)\]
+  > (observes $\theta = 1/3$)
 
 * {#NakamuraEtAl20} [[James Nakamura]] et al.: *Direct observation of anyonic braiding statistics*, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>, [arXiv:2006.14115](https://arxiv.org/abs/2006.14115)\]
+  > (observes $\theta = 1/3$)
 
 Early review:
 
@@ -30,13 +33,17 @@ Early review:
 Further measurements:
 
 * [[James Nakamura]] et al.: *Impact of bulk-edge coupling on observation of anyonic braiding statistics in quantum Hall interferometers*, Nature Communications **13** 344 (2022) \[<a href="https://doi.org/10.1038/s41467-022-27958-w">doi:10.1038/s41467-022-27958-w</a>, [arXiv:2107.02136](https://arxiv.org/abs/2107.02136)\]
+  > (observes $\theta = 1/3$)
 
 * {#NakamuraEtAl23} [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
+  > (observes $\theta = 2/5$)
 
 
 * {#RuelleEtAl23} M. Ruelle et al.: *Comparing fractional quantum Hall Laughlin and Jain topological orders with the anyon collider*, Physical Review X **13** (2023) 011031 \[<a href="https://doi.org/10.1103/PhysRevX.13.011031">doi:10.1103/PhysRevX.13.011031</a>, [arXiv:2210.01066](https://arxiv.org/abs/2210.01066)\]
+  > (observes $\theta = 2/5$)
 
 * {#GlidicEtAl23} [[Pierre Glidic]] et al: *Cross-Correlation Investigation of Anyon Statistics in the $\nu = 1/3$ and $2/5$ Fractional Quantum Hall States*, Phys. Rev. X **13** 011030 (2023) \[<a href="https://doi.org/10.1103/PhysRevX.13.011030">doi:10.1103/PhysRevX.13.011030</a>, [arXiv:2210.01054](https://arxiv.org/abs/2210.01054)\]
+  > (observes $\theta=1/3, 1/5$ )
 
 * [[Pierre Glidic]] et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
