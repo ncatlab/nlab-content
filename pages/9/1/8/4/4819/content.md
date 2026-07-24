@@ -180,6 +180,10 @@ An arithmetic version of EM-duality:
 
 * [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], *Relative Langlands Duality* ([pdf](https://www.math.ias.edu/~akshay/research/BZSVpaperV1.pdf))
 
+In relation to [[abelian Chern-Simons theory]] for [[fractional quantum Hall systems]]:
+
+* Yasin F. Alam, [[Andreas Karch]], Da-Chuan Lu, Ryan C. Spieler: *$Sp(4,\mathbb{Z})$ actions on 3d $U(1)^2$ symmetric theories: Order-five duality and bilayer quantum Hall hierarchies* \[<a href="https://arxiv.org/abs/2607.20622">arXiv:2607.20622</a>\]
+
 [[!redirects electric-magnetic dualities]]
 
 [[!redirects electro-magnetic duality]]
