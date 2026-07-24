@@ -99,7 +99,7 @@ The original articles using the term "geometric engineering":
 
 Review:
 
-* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis, Berlin (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
+* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371), [arXiv:hep-th/9812072](https://arxiv.org/abs/hep-th/9812072)&rbrack;
 
 * [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983--1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
 
