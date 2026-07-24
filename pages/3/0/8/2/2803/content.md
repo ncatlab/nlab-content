@@ -12,17 +12,21 @@
 =--
 =--
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+
+
+\tableofcontents
+
 
 ## Statement
 
 The **Yoneda lemma for bicategories** is a version of the [[Yoneda lemma]] that applies to [[bicategories]], the most common algebraic sort of weak [[2-category]].  It says that for any bicategory $C$, any object $x\in C$, and any [[pseudofunctor]] $F\colon C^{op}\to Cat$, there is an equivalence of categories
 
-$$ [C^{op},Cat](C(-,x), F) \simeq F(x) $$
+$$ 
+  [C^{op},Cat]\big(C(-,x), F\big) \simeq F(x) 
+  \mathrlap{\,,}
+$$
 
-which is [[pseudonatural transformation|pseudonatural]] in $x$ and $F$, and which is given by evaluation at $1_x$, i.e. $\alpha\colon C(-,x)\to F$ maps to $\alpha_x(1_x)$.
+which is [[pseudonatural transformation|pseudonatural]] in $x$ and $F$, and which is given by [[evaluation]] at $1_x$, i.e. $\alpha\colon C(-,x)\to F$ maps to $\alpha_x(1_x)$.
 
 For bicategories $A$ and $B$, $[A,B]$ denotes the bicategory of [[pseudofunctors]], [[pseudonatural transformations]], and [[modifications]] from $A$ to $B$.  Note that it is a strict 2-category as soon as $B$ is.
 
@@ -32,10 +36,15 @@ In particular, the Yoneda lemma for bicategories implies that there is a [[Yoned
 
 ## Proof
 
-A detailed proof of the bicategorical Yoneda lemma is given in ([Johnson &amp; Yau 20, Chap. 8](#JohnsonYau)).
+Proofs of the bicategorical Yoneda lemma are discussed in:
 
-### High-technology proof
+* [Baković 2015 Th. 3.1](#Baković2015)
 
+* [Johnson &amp; Yau 2020, Chapter 8](#JohnsonYau2020)
+
+Here is another one:
+
+\begin{proof}
 We will take it for granted that $[C^{op},Cat]$ is a well-defined bicategory; this is a basic fact having nothing to do with the Yoneda lemma.  We also take it as given that "evaluation at $1_x$" functor
 $$ [C^{op},Cat](C(-,x), F) \to F(x) $$
 is well-defined and pseudonatural in $F$ and $x$; our goal is to prove that it is an equivalence.  (Granted, these basic facts require a fair amount of verification as well.)
@@ -59,8 +68,9 @@ is fully faithful, if we can show that it is essentially surjective, then the [[
 Here we at last descend to something concrete.  Given $\alpha\colon C'(-,x)\to \overline{F}$, we have an obvious choice for a strict transformation for it to be equivalent to, namely $\beta$ whose components $\beta_y\colon C'(y,x)\to \overline{F}(y)$ is given by $f \mapsto \overline{F}(f)(a)$ where $a = \alpha_x(1_x)\in \overline{F}(x)$.  Since $\alpha$ is pseudonatural, for any $f\colon y\to x$ in $C'$ we have an isomorphism
 $$\alpha_y(f) = \alpha_y(f\circ 1_x) \cong \overline{F}(f)(\alpha_x(1_x)) = \overline{F}(f)(a) = \beta_y(f).$$
 We then simply verify that these isomorphisms are the components of an (invertible) modification $\alpha\cong \beta$.  This completes the proof.
+\end{proof}
 
-##Related entries
+## Related entries
 
 * [[Yoneda lemma for tricategories]]
 
@@ -68,11 +78,13 @@ We then simply verify that these isomorphisms are the components of an (invertib
 
 Review:
 
-* [[Angelo Vistoli]], §3.6.2 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+* [[Angelo Vistoli]]; §3.6.2 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
 
-See also:
+Further discussion:
 
-* {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], Chap. 8: _2-Dimensional Categories_, ([arXiv:2002.06055](https://arxiv.org/abs/2002.06055))
+* {#Baković2015} [[Igor Baković]]: *Bicategorical Yoneda Lemma* (2015?) &lbrack;[[Bakovic-BicategoricalYoneda.pdf:file]]&rbrack;
+
+* {#JohnsonYau2020} [[Niles Johnson]], [[Donald Yau]]; chapter 8 of: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
 An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bicategories is in
 
