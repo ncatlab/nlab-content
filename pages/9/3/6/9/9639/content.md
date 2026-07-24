@@ -722,13 +722,11 @@ $$
 
 for $n, p \in \mathbb{N}_{\geq 1}$ and $s, t \in \{+1, -1\}$.
 
-This condition has exactly three classes of solutions:
+This condition has exactly two classes of solutions:
 
 1. $n = 1$ --- the case (eq:ShiftInBraidingAngles)
 
-1. $n = 2p$ 
-
-1. $n = 3$, $p = 1$, $s = -1$.
+1. $n = 2p$.
 
 
 \end{remark}
