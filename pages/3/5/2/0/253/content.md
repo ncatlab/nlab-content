@@ -193,9 +193,11 @@ See also the references at *[[2-category]]*.
 
 * [[Saunders MacLane]], §XII.6 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-
-* {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
+* {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_ &lbrack;[arxiv:1802.07538](https://arxiv.org/abs/1802.07538)&rbrack;
  
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]]: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
+
+
 Formalization in [[homotopy type theory]] (see also at [[internal category in homotopy type theory]]):
 
 * [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
