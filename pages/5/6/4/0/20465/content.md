@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -154,6 +152,12 @@ More in:
 For discussion of [[knot invariants]]:
 
 * [[Sergei Gukov]], Pavel Putrov, [[Cumrun Vafa]], _Fivebranes and 3-manifold homology_, J. High Energ. Phys. (2017) 2017: 71 ([arXiv:1602.05302](https://arxiv.org/abs/1602.05302))
+
+* Hee-Joong Chung: *3d-3d correspondence and abelian flat connection* &lbrack;[arXiv:2603.05236](https://arxiv.org/abs/2603.05236)&rbrack;
+
+
+* Hee-Joong Chung: *3d-3d correspondence for knot complements with finite and large $N$* &lbrack;[arXiv:2607.21479](https://arxiv.org/abs/2607.21479)&rbrack;
+
 
 ### Entropy computation
 
