@@ -75,6 +75,10 @@ and on what to do about it:
 
 * [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]]: *Seeing Page Curves and Islands with Blinders On* \[<a href="https://arxiv.org/abs/2602.06543">arXiv:2602.06543</a>\]
 
+On [[abelian Chern-Simons theory]] for [[fractional quantum Hall systems]] via [[electric-magnetic duality]] of multicomponent 4D [[Maxwell theory]]:
+
+* Yasin F. Alam, [[Andreas Karch]], Da-Chuan Lu, Ryan C. Spieler: *$Sp(4,\mathbb{Z})$ actions on 3d $U(1)^2$ symmetric theories: Order-five duality and bilayer quantum Hall hierarchies* \[<a href="https://arxiv.org/abs/2607.20622">arXiv:2607.20622</a>\]
+
 
 
 
