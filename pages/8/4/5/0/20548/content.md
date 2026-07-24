@@ -1,11 +1,19 @@
 
-* [webpage](http://faculty.washington.edu/akarch/)
+* [institute page](https://physics.utexas.edu/directory/andreas-karch)
+
+* <a href="https://de.wikipedia.org/wiki/Andreas_Karch_(Physiker)">Wikipedia page</a> (de)
+
+* [inSpire page](https://inspirehep.net/authors/1003634)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=jO39jLYAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Andreas-Karch)
 
 ## Selected writings
 
 On [[geometric engineering of quantum field theory]]:
 
-* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
+* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371), [arXiv:hep-th/9812072](https://arxiv.org/abs/hep-th/9812072)&rbrack;
 
 On [[gravity]] in [[Randall-Sundrum models]]:
 
