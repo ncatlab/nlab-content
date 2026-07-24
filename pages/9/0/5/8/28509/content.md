@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
 =--
 =--
 
