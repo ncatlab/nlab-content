@@ -141,6 +141,10 @@ On [[singleton representations]] in [[supergravity]]:
 
 * [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
 
+On [[D=6 supergravity|6D]] [[gauged supergravity]]:
+
+* Xu Guo, Yi Pang, [[Henning Samtleben]], [[Ergin Sezgin]]: *Diagonally gauged anomaly-free 6D supergravities and their vacua* &lbrack;[arXiv:2607.21311](https://arxiv.org/abs/2607.21311)&rbrack;
+
 
 
 ## Related entries
