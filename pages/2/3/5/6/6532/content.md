@@ -99,6 +99,10 @@ On the [[IKKT matrix model]] in relation to [[gauged supergravity]]:
 
 * Franz Ciceri, [[Henning Samtleben]]: *A supergravity dual for IKKT holography* &lbrack;[arXiv:2511.23111](https://arxiv.org/abs/2511.23111)&rbrack;
 
+On [[D=6 supergravity|6D]] [[gauged supergravity]]:
+
+* Xu Guo, Yi Pang, [[Henning Samtleben]], [[Ergin Sezgin]]: *Diagonally gauged anomaly-free 6D supergravities and their vacua* &lbrack;[arXiv:2607.21311](https://arxiv.org/abs/2607.21311)&rbrack;
+
 
 
 
