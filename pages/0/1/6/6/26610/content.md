@@ -220,4 +220,14 @@ See also:
 
 * Kenji Fukushi: *Topological complexity for closed 1-forms* &lbrack;[arXiv:2606.09184](https://arxiv.org/abs/2606.09184)&rbrack;
 
+On topological complexity of [[symplectic manifold|symplectic]] [[4-manifolds]]:
+
+* Ryuma Orita: *Maximal topological complexity of monotone symplectic 4-manifolds* &lbrack;[arXiv:2607.20886](https://arxiv.org/abs/2607.20886)&rbrack;
+
+
+On topological complexity of [[maps]]:
+
+* Sutirtha Datta, Navnath Daundkar, Abhishek Sarkar, Soumen Sarkar: *Discrete version of topological complexity of maps* &lbrack;[arXiv:2607.21330](https://arxiv.org/abs/2607.21330)&rbrack;
+
+
 
