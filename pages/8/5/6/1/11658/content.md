@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -134,6 +132,10 @@ Further discussion:
 * [[Chris Hull]], *Gravity, Duality and Conformal Symmetry*, in *Quantum gravity, branes and M-theory* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
 
 * [[Paul S. Howe]], U. Lindström: *Exotic gravity theory in loop space* &lbrack;[arXiv:2412.16292](https://arxiv.org/abs/2412.16292)&rbrack;
+
+On 6D [[gauged supergravity]]:
+
+* Xu Guo, Yi Pang, [[Henning Samtleben]], [[Ergin Sezgin]]: *Diagonally gauged anomaly-free 6D supergravities and their vacua* &lbrack;[arXiv:2607.21311](https://arxiv.org/abs/2607.21311)&rbrack;
 
 
 
