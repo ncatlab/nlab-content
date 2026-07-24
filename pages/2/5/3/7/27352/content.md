@@ -116,6 +116,9 @@ Amplification of the [K-matrix formalism](abelian+Chern-Simons+theory#Hierarchic
 
 * {#Zeng24} Tian-Sheng Zeng: *Three-component fractional quantum Hall effect in topological flat bands*, Phys. Rev. B **110** (2024) 165126 \[<a href="https://doi.org/10.1103/PhysRevB.110.165126">doi:10.1103/PhysRevB.110.165126</a>, [arXiv:2407.08568](https://arxiv.org/abs/2407.08568)\]
 
+* Yasin F. Alam, [[Andreas Karch]], Da-Chuan Lu, Ryan C. Spieler: *$Sp(4,\mathbb{Z})$ actions on 3d $U(1)^2$ symmetric theories: Order-five duality and bilayer quantum Hall hierarchies* \[<a href="https://arxiv.org/abs/2607.20622">arXiv:2607.20622</a>\]
+
+
 
 Further developments:
 
