@@ -20,7 +20,7 @@
 
 A [[category]] consists of a collection of **objects** together with [[morphisms]] between these objects.  Thus, naively, we may think of objects as the '[[elements]]' of a category.  
 
-More generally, in [[higher category theory]] the objects of an $(n,r)$-[[(n,r)-category|category]] are the $0$-dimensional cells of that structure, the $0$-[[0-morphism|morphisms]].
+More generally, in [[higher category theory]] the objects of an $(n,r)$-[[(n,r)-category|category]] are the $0$-dimensional cells of that structure, the [[0-morphism|$0$-morphisms]].
 
 
 ## Examples
