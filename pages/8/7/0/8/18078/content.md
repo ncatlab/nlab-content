@@ -986,31 +986,23 @@ N_{f,x_0,y} : \mathbb{R}^n & \rightarrow \mathbb{R}^n \\
 x & \mapsto x + Df(x_0)^{-1}(y - f(x))
 \end{aligned}
 $$
+
+This function can be equivalently constructed as a composition of products of continuously differentiable functions:
+
+$$N_{f,x_0,y} = \mu_{(\mathbb{R}^n,+)} \circ \left(  \text{Id}_{\mathbb{R}^n} \times \left( Df(x_0)^{-1} \circ \mu_{(\mathbb{R}^n,+)} \circ \left( (c_y \circ \tau_{\mathbb{R}^n} ) \times   \iota_{(\mathbb{R}^n,+)} \right) \circ \left( \text{Id}_{\mathbb{R}^n} \times f \right) \right) \right)$$
+
+where 
+
+* $c_y : \mathbb{R}^0 \rightarrow \mathbb{R}^n$ is the continuously differentiable constant function sending $0 \in \mathbb{R}^0$ to $c_y$
+
+* $\tau_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^0$ is the unique (continuously differentiable) function from $\mathbb{R}^n$ to $\mathbb{R}^0$
+
+* $\mu_{(\mathbb{R}^n,+)} :\mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n$ is the continuously differentiable addition function on $\mathbb{R}^n$ by which it is a Lie-group
+
+* $\iota_{(\mathbb{R}^n,+)} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ is the continuously differentiable function sending an element $x \in \mathbb{R}^n$ to its additive inverse $-x \in \mathbb{R}^n$.
+
+Since each of these functions is continuously differentiable, and since the product of continuously differentiable functions is continuously differentiable and by the chain rule, the Newton approximator $N_{f,x_0,y}$ is continuously differentiable. 
 \end{definition}
-
-The Newton approximator $N_{f,x_0,y}$ as defined in this way is continuously differentiable, as can be seen from $N_{f,x_0,y}$ can be constructed from the continuously differentiable functions of:
-
-* the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
-
-Using composition, summation, and additive negation.
-
-Since [summation](https://ncatlab.org/nlab/show/Lie+group#basic_examples) and [additive negation](https://ncatlab.org/nlab/show/Lie+group#basic_examples) of real vectors are continuous functions making $\mathbb{R}^n$ into a Lie-group. reducing the property of $N_{f,x_0,y}$ that it be continuously differentiable to the property that the following are continuously differentiable:
-
-*  the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
-
-and the theorem that the composition of continuously differentiable functions $f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_2}$ and $f_2 : \mathbb{R}^{n_2} \rightarrow \mathbb{R}^{n_3}$ that $f_2 \circ f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_3}$ is continuously differentiable.
 
 \begin{lemma} (fixed points of the Newton approximator are preimages of $y$ under $f$) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. For each $x \in \mathbb{R}^n$, the following are equivalent:
 
@@ -1027,7 +1019,7 @@ $$
 &\Leftrightarrow N_{f,x_0,y}(x)=x \\
 &\Leftrightarrow x + Df(x_0)^{-1}(y - f(x)) = x \\
 &\Leftrightarrow Df(x_0)^{-1}(y - f(x)) = 0 \\
-&\Leftrightarrow Df(x_0)\, \left( Df(x_0)^{-1}(y - f(x)) \right) = 0 \\
+&\Leftrightarrow y - f(x) = Df(x_0)\, \left( Df(x_0)^{-1}(y - f(x)) \right) = 0 \\
 &\Leftrightarrow f(x) = y  \\
 \end{aligned}
 $$
@@ -1050,13 +1042,15 @@ $$
 D N_{f,x_0,y}(x)  = \left( D \mathrm{Id}_{\mathbb{R}^n} + D \left( Df(x_0)^{-1} (y) \right) - D \left( Df(x_0)^{-1} \circ f \right) \right)(x)
 $$
 
-The first summand is the identity morphism for each $x \in \mathbb{R}^n$:
+Then:
+
+* The first summand is the identity morphism for each $x \in \mathbb{R}^n$:
 
 $$
 D\mathrm{Id}_{\mathbb{R}^n}(x) = \mathrm{Id}_{\mathbb{R}^n}
 $$
 
-The second summand is zero for each $x \in \mathbb{R}^n$ as it is the Jacobian derivative of a constant function 
+* The second summand is zero for each $x \in \mathbb{R}^n$ as it is the Jacobian derivative of a constant function 
 
 $$
 Df(x_0)^{-1} (y) = c_{Df(x_0)^{-1} (y)} : \mathbb{R}^n \rightarrow \mathbb{R}^n
@@ -1068,13 +1062,13 @@ $$
 D \left( Df(x_0)^{-1} (y) \right)(x) = 0
 $$
 
-\noindent the third summand is 
+* The third summand is 
 
 $$
   - D \left( Df(x_0)^{-1}  \circ f \right)(x) = D \left( -Df(x_0)^{-1} \right)(f(x)) \circ Df(x)  
 $$
 
-\noindent by the chain rule for Jacobian derivatives of continuously differentiable functions. Since the Jacobian derivative $DA(x)$ of the linear map $A : \mathbb{R}^n \rightarrow \mathbb{R}^n$ at any point $x \in \mathbb{R}^n$ is $A$, we have
+by the chain rule for Jacobian derivatives of continuously differentiable functions. Since the Jacobian derivative $DA(x)$ of the linear map $A : \mathbb{R}^n \rightarrow \mathbb{R}^n$ at any point $x \in \mathbb{R}^n$ is $A$, we have
 
 $$
  D \left(-Df(x_0)^{-1} \circ f \right)(x) = - Df(x_0)^{-1} \circ Df(x) 
@@ -1090,7 +1084,7 @@ Note that, in the context above,
 $$
 \mathrm{Id}_{\mathbb{R}^n} - Df(x_0)^{-1} \circ Df(x) = Df(x_0)^{-1} \left( Df(x_0) - Df(x) \right)
 $$
-\noindent and that $f$ is continuously differentiable implies that, for any positive real number $\epsilon$, there is an open subset $U$ of $\mathbb{R}^n$ containing $x_0$ such that, for each $x \in U$,
+and that $f$ is continuously differentiable implies that, for any positive real number $\epsilon$, there is an open subset $U$ of $\mathbb{R}^n$ containing $x_0$ such that, for each $x \in U$,
 
 $$
  \left| \left| Df(x_0) - Df(x) \right| \right|_2   \le  \frac{\epsilon}{  \parallel Df(x_0)^{-1}   \parallel _2}
