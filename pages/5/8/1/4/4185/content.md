@@ -10,8 +10,13 @@
 * [GoogleScholar page](https://scholar.google.de/citations?user=dPt4iDgAAAAJ&hl=en)
 
 
+
 ## Selected writings
 
+
+On [[fractional quantum Hall systems]] via [[abelian Chern-Simons theory]] and [[2d conformal field theory]]:
+
+* [[Jürg Fröhlich]], B. Pedrini, [[Christoph Schweigert]], [[Johannes Walcher]]: *Universality in Quantum Hall Systems: Coset Construction of Incompressible States* \[<a href="https://arxiv.org/abs/cond-mat/0002330">arXiv:cond-mat/0002330</a>\]
 
 On [[D-branes]] at an [[ADE-singularity]] and their [[open string]] [[worldsheet]] [[2d CFT]]s (see also [here](ADE+singularity#ReferencesTypeIIStringsOnADE)):
 
