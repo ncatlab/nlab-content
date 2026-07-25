@@ -43,8 +43,10 @@ and was made more explicit in:
 * {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
   > (in the context of *[[topological order]]*)
 
-
 * [[A. P. Balachandran]], L. Chandar, B. Sathiapalan: *Chern-Simons Duality and the Quantum Hall Effect*, Int. J. Mod. Phys.  **A11** (1996) 3587-3608 \[<a href="https://doi.org/10.1142/S0217751X96001693">doi:10.1142/S0217751X96001693</a>, [arXiv:hep-th/9509019](https://arxiv.org/abs/hep-th/9509019)\]
+
+* [[Jürg Fröhlich]], B. Pedrini, [[Christoph Schweigert]], [[Johannes Walcher]]: *Universality in Quantum Hall Systems: Coset Construction of Incompressible States* \[<a href="https://arxiv.org/abs/cond-mat/0002330">arXiv:cond-mat/0002330</a>\]
+
 
 Beware that many of these early articles actually consider [[Maxwell-Chern-Simons theory]], which however was later claimed not to actually exhibit the claimed "[[anyon statistics]]":
 
