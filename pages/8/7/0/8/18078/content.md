@@ -880,21 +880,6 @@ Spider lemma (corrected)
 
 **INVERSE FUNCTION THEOREM STARTS HERE:**
 
-[[a.png:pic|width=30]]
-
-[[a.png:pic|width=30]]
-
-[[a.png:pic]]
-
-<div style="text-align: center;">
-  [[a.png:pic]]
-</div>
-
-<div style="text-align: center;">
-  <img src="a.png" style="max-width: 500px; width: 60%; height: auto;">
-</div>
-
-
 The multivariable inverse function theorem is typically associated with the operators
 $$
 N_{f,x_0,y}  :  \mathbb{R}^n  \rightarrow \mathbb{R}^n, x  \mapsto x + Df(x_0)^{-1} (y - f(x)) 
@@ -910,7 +895,7 @@ This is the approach used in [[#Rudin1976]].
 Let $f = (f_1,...,f_n) : B_{\delta}(x_0) \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Then $f = (f_1,...,f_n)$ is Lipschitz with Lipschitz constant $C$ if and only if, for each $x \in B_{\delta}(x_0)$, the Jacobian derivative $Df(x)$ of $f$ at $x$ satisfies $  \parallel Df(x)  \parallel_2 \leq C$.
 \end{theorem}
 
-\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \lt \delta$ and $  \parallel x_2 - x_0  \parallel_2 \lt \delta$, there is an inequality of
+\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \lt \delta$ and $\parallel x_2 - x_0  \parallel_2 \lt \delta$, there is an inequality of
 
 $$
 \begin{aligned}
@@ -923,7 +908,8 @@ $$
 \end{aligned}
 $$
 
-from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \lt \delta$
+where $y_1 = x_1 - x_0$ and $y_2 = x_2 - x_0$. From this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \lt \delta$
+
 let $\gamma_{x_0,\delta, x_1,  x_2} : [0,1] \rightarrow B_{\delta}(x_0)$ be the continuously differentiable function sending $t$ to $x_1 + t \cdot (x_2 - x_1)$.
 
 By the chain rule for continuously differentiable functions, $D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) = Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)$.
@@ -944,32 +930,20 @@ so
 $$
 \begin{aligned}
 \ &   \parallel f(x_2) - f(x_1)  \parallel _2\  \\
-=\ & \left| \left| \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
-\leq \ & \int_0^1 \left| \left|  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right| \right|_2 \\
-\ \leq \ & \int_0^1 C \cdot \left| \left| x_2 - x_1  \right| \right|_2 dt  \\
-\ = \ & C \cdot   \parallel x_2 - x_1   \parallel _2 
+=\ &   \left| \int_0^1   D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) dt \right|  _2 \\
+\leq \ & \int_0^1 \left| \left|  D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) \right| \right|_2 dt  \\
+ \leq \ & \int_0^1 C \cdot \left| \left| x_2 - x_1  \right| \right|_2 dt  \\
+ = \ & C \cdot   \parallel x_2 - x_1   \parallel _2 
 \end{aligned}
-$$
-
-where we have used that, for the continuous function 
-
-$$
-D(f \circ \gamma_{x_0,\delta,x_1,x_2}) = \left( D(f \circ \gamma_{x_0,\delta,x_1,x_2})_1,...,D(f \circ \gamma_{x_0,\delta,x_1,x_2})_n \right) : \text{[0,1]} \rightarrow \mathbb{R}^n
-$$
-
-that
-
-$$
-\parallel \int_0^1 D(f \circ \gamma_{x_0,\delta,x_1,x_2}) dt \parallel_2 \leq \int_0^1   \parallel D(f \circ \gamma_{x_0,\delta,x_1,x_2})  \parallel_2 dt
 $$
 
 This proves that $f$ is Lipschitz with Lipschitz constant $C$.
 
-Conversely, if $f$ is Lipschitz with Lipschitz constant $C$, then fixing $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \le  \delta$ and any positive real number $\epsilon$, there is a positive real number $\delta'$ such that $B_{\delta'}(x) \subseteq B_{\delta}(x_0)$ and 
+Conversely, if $f$ is Lipschitz with Lipschitz constant $C$, then fixing $x \in \mathbb{R}^n$ such that $  \parallel x - x_0  \parallel _2  \lt  \delta$ and any positive real number $\epsilon$, there is a positive real number $\delta'$ such that $B_{\delta'}(x) \subseteq B_{\delta}(x_0)$ and 
 
 $$
 \begin{aligned}
-\forall y \in B_{\delta'}(x), \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \le  \epsilon
+\forall y \in B_{\delta'}(x), \frac{ f(y) - f(x) }{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2}   \in  B_{\epsilon}(0)
 \end{aligned}
 $$
 
@@ -984,21 +958,23 @@ From this calculate that
 $$
 \begin{aligned}
 &  \frac{ \left| \left| Df(x)(y-x) \right| \right|_2 }{   \parallel y-x  \parallel _2 }   \\
-\leq\ &   \frac{  \parallel  f(y) - f(x)  \parallel _2 }{  \parallel y - x  \parallel _2 }  + \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2} \right| \right|_2  \\
-\leq\ & C + \epsilon
+\leq\ &   \frac{  \parallel  f(y) - f(x)  \parallel _2 }{  \parallel y - x  \parallel _2 }  + \left| \left| \frac{f(y) - f(x)}{  \parallel y - x  \parallel _2} - \frac{Df(x)(y-x)}{  \parallel y - x  \parallel _2}  \right| \right|_2  \\
+\lt \ & C + \epsilon
 \end{aligned}
 $$
 
 Since this holds for each positive real number $\epsilon$, it follows that
 
 $$
-  \parallel Df(x)  \parallel _2 = \mathrm{sup} \left\{ \frac{  \parallel Df(x)(y-x)  \parallel_2}{  \parallel y-x  \parallel_2} : y \in \mathbb{R}^n - \{ x \} \right\} \leq C
+  \parallel Df(x) \parallel _2 \leq  \mathrm{sup} \left\{ \frac{  \parallel Df(x)(y-x)  \parallel_2}{  \parallel y-x  \parallel_2} : y \in \mathbb{R}^n - \{ x \} \right\} \leq C
 $$
 
-for each $y \in B_{\delta'}(x)$. This is (2) of the claim.
+So, for each $x \in B_{\delta}(x_0)$, 
+
+$$ 
+ \left| \left| Df(x)  \right| \right| _2 \leq C
+$$
 \end{proof}
-
-
 
 \begin{definition} (the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible.
 
@@ -1010,39 +986,29 @@ N_{f,x_0,y} : \mathbb{R}^n & \rightarrow \mathbb{R}^n \\
 x & \mapsto x + Df(x_0)^{-1}(y - f(x))
 \end{aligned}
 $$
+\end{definition}
 
-$N_{f,x_0,y}$ is continuously differentiable. Indeed, $N_{f,x_0,y}$ can be constructed from the continuously differentiable functions of:
+The Newton approximator $N_{f,x_0,y}$ as defined in this way is continuously differentiable, as can be seen from $N_{f,x_0,y}$ can be constructed from the continuously differentiable functions of:
 
 * the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 * the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 * the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-\item the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
+
+* the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
 
 Using composition, summation, and additive negation.
-\end{definition}
 
-Since summation 
-$$
-+ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n
-$$
-\noindent and additive negation
-$$
-- : \mathbb{R}^n \rightarrow \mathbb{R}^n
-$$
-are continuous functions, we can rephrase the above as reducing the property of $N_{f,x_0,y}$ that it be continuously differentiable to the property that the following are continuously differentiable:
+Since [summation](https://ncatlab.org/nlab/show/Lie+group#basic_examples) and [additive negation](https://ncatlab.org/nlab/show/Lie+group#basic_examples) of real vectors are continuous functions making $\mathbb{R}^n$ into a Lie-group. reducing the property of $N_{f,x_0,y}$ that it be continuously differentiable to the property that the following are continuously differentiable:
 
 *  the identity map $\mathrm{Id}_{\mathbb{R}^n} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 * the continuously differentiable function $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$
 
 * the linear map $Df(x_0)^{-1} : \mathbb{R}^n \rightarrow \mathbb{R}^n$
-\item the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
 
-* binary addition of elements of $\mathbb{R}^n$, $+ : \mathbb{R}^n \times \mathbb{R}^n \rightarrow \mathbb{R}^n$
-
-* additive negation of elements of $\mathbb{R}^n$, $- : \mathbb{R}^n \rightarrow \mathbb{R}^n$
+* the constant function $c_y : \mathbb{R}^n \rightarrow \mathbb{R}^n$ sending $x$ to $y$ for each $x \in \mathbb{R}^n$
 
 and the theorem that the composition of continuously differentiable functions $f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_2}$ and $f_2 : \mathbb{R}^{n_2} \rightarrow \mathbb{R}^{n_3}$ that $f_2 \circ f_1 : \mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_3}$ is continuously differentiable.
 
@@ -1062,12 +1028,13 @@ $$
 &\Leftrightarrow x + Df(x_0)^{-1}(y - f(x)) = x \\
 &\Leftrightarrow Df(x_0)^{-1}(y - f(x)) = 0 \\
 &\Leftrightarrow Df(x_0)\, \left( Df(x_0)^{-1}(y - f(x)) \right) = 0 \\
-&\Leftrightarrow y - f(x) = 0 \\
-&\Leftrightarrow f(x) = y
+&\Leftrightarrow f(x) = y  \\
 \end{aligned}
 $$
 
 \end{proof}
+
+
 
 \begin{lemma} (the derivative of the Newton approximator) fix $n \in \mathbb{N}$ and let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Suppose that the Jacobian derivative $Df(x_0)$ of $f$ at some fixed $x_0 \in \mathbb{R}^n$ is invertible. Then the derivative $DN_{f,x_0,y}(x)$ of the continuously differentiable function $N_{f,x_0,y} : \mathbb{R}^n \rightarrow \mathbb{R}^n$ is 
 
@@ -1338,5 +1305,23 @@ This implies (2).
 \end{proof}
 
 Take note that this proof does not demonstrate that $f(B_{\delta}(x_0))$ is open. Instead, it shows that there is a bijective $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0)) } : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$. 
+
+The inverse function theorem is critical as an intermediate step as it relates to 
+
+* The implicit function theorem
+
+* The tubular neighborhood theorem
+
+* The Thom-Pontrjagin theorem
+
+
+## In algebraic geometry
+
+In algebraic geometry, Hensel's lemma 
+
+* The Thom-Pontrjagin Theorem in algebraic geometry 
+
+* The Thom-Pontrjagin 
+
 
 * {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
