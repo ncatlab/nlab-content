@@ -14,7 +14,7 @@ Fix a prime number $p$ and a power $q = p^r$ ($r \geq 0$).
 
 \begin{definition} A $\delta$-ring is a commutative ring equipped with a unary operation $\delta: A \to A$ satisfying the following identities: 
 
-1. $\delta(x+y) = \delta(y) + \delta(y) - \sum_{i=1}^{q-1} \frac1{p}\binom{q}{i} x^i y^{q-i}$; 
+1. $\delta(x+y) = \delta(x) + \delta(y) - \sum_{i=1}^{q-1} \frac1{p}\binom{q}{i} x^i y^{q-i}$; 
 
 1. $\delta(x y) = x^q\delta(y) + \delta(x)y^q + p\delta(x)\delta(y)$, $\delta(1) = 0$. 
 
