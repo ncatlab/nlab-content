@@ -26,7 +26,7 @@ Let $R$ be a [[commutative ring]]. A **polynomial function** is a a [[function]]
   * for all $a \in R^*$ and $b \in R^*$, $j(a b) = j(a) + j(b) \cdot (-)^{\mathrm{len}(a)}$, where $(-)^n$ is the $n$-th power function for $n \in \mathbb{N}$
   * for all $r \in R$, $j(r) = c_r$, where $c_r$ is the constant function whose value is always $r$. 
 
-* $f$ is in the image of the canonical [[ring homomorphism]] $i:R[x] \to (R \to R)$ from the polynomial ring in one indeterminant $R[x]$ to the [[function algebra]] $R \to R$, which takes constant polynomials in $R[x]$ to constant functions in $R \to R$ and the indeterminant $x$ in $R[x]$ to the identity function $\mathrm{id}_R$ in $R \to R$
+* $f$ is in the image of the canonical [[ring homomorphism]] $i:R[x] \to (R \to R)$ from the polynomial ring in one indeterminate $R[x]$ to the [[function algebra]] $R \to R$, which takes constant polynomials in $R[x]$ to constant functions in $R \to R$ and the indeterminate $x$ in $R[x]$ to the identity function $\mathrm{id}_R$ in $R \to R$
 
 #### With scalar coefficients ####
 
