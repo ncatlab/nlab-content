@@ -104,7 +104,7 @@ The [[cartesian cube category]] is an EZ-category ([Campion](#Campion2023), Theo
 
 * {#Campion2023} [[Tim Campion]], _Cubical sites as Eilenberg-Zilber categories_, 2023, [arXiv:2303.06206](https://arxiv.org/abs/2303.06206)
 
- 
+* {#Dulinski2026} [[Wojciech Zbigniew Duliński]], _An (∞,0)-model structure on Eilenberg--Zilber opetopic sets_, Mathematical Structures in Computer Science **36** (2026) 1--50 &lbrack;[doi:10.1017/S0960129526100620](https://doi.org/10.1017/S0960129526100620)&rbrack;
 
 [[!redirects Eilenberg-Zilber categories]]
 [[!redirects EZ-category]]
