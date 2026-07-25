@@ -880,7 +880,19 @@ Spider lemma (corrected)
 
 **INVERSE FUNCTION THEOREM STARTS HERE:**
 
+[[a.png:pic|width=30]]
+
+[[a.png:pic|width=30]]
+
 [[a.png:pic]]
+
+<div style="text-align: center;">
+  [[a.png:pic]]
+</div>
+
+<div style="text-align: center;">
+  <img src="a.png" style="max-width: 500px; width: 60%; height: auto;">
+</div>
 
 
 The multivariable inverse function theorem is typically associated with the operators
@@ -898,7 +910,7 @@ This is the approach used in [[#Rudin1976]].
 Let $f = (f_1,...,f_n) : B_{\delta}(x_0) \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Then $f = (f_1,...,f_n)$ is Lipschitz with Lipschitz constant $C$ if and only if, for each $x \in B_{\delta}(x_0)$, the Jacobian derivative $Df(x)$ of $f$ at $x$ satisfies $  \parallel Df(x)  \parallel_2 \leq C$.
 \end{theorem}
 
-\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \le \delta$ and $  \parallel x_2 - x_0  \parallel_2 \le \delta$, there is an inequality of
+\begin{proof} for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel_2 \lt \delta$ and $  \parallel x_2 - x_0  \parallel_2 \lt \delta$, there is an inequality of
 
 $$
 \begin{aligned}
@@ -906,12 +918,12 @@ $$
 &=\|(1-t)y_1+ty_2\|_2\\
 &\le \|(1-t)y_1\|_2+\|ty_2\|_2\\
 &=(1-t)\|y_1\|_2+t\|y_2\|_2\\
-&=(1-t)\delta+t\delta\\
+&\lt (1-t)\delta+t\delta\\
 &=\delta.
 \end{aligned}
 $$
 
-from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \leq $
+from this it follows that $  \parallel y_1 + t \cdot (y_2 - y_1)  \parallel  \lt \delta$
 let $\gamma_{x_0,\delta, x_1,  x_2} : [0,1] \rightarrow B_{\delta}(x_0)$ be the continuously differentiable function sending $t$ to $x_1 + t \cdot (x_2 - x_1)$.
 
 By the chain rule for continuously differentiable functions, $D(f \circ \gamma_{x_0,\delta,x_1,x_2})(t) = Df(\gamma_{x_0,\delta,x_1,x_2}(t)) \circ D\gamma_{x_0,\delta,x_1,x_2}(t)$.
