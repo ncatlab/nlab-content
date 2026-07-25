@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[fractional quantum Hall systems]] via [[abelian Chern-Simons theory]] and [[2d conformal field theory]]:
+
+* [[Jürg Fröhlich]], B. Pedrini, [[Christoph Schweigert]], [[Johannes Walcher]]: *Universality in Quantum Hall Systems: Coset Construction of Incompressible States* \[<a href="https://arxiv.org/abs/cond-mat/0002330">arXiv:cond-mat/0002330</a>\]
+
+
 On [[moduli stabilization]] in [[non-geometric string vacua]]:
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], [[Johannes Walcher]], _Moduli Stabilization in Non-Geometric Backgrounds_,  Nucl. Phys. B **770** (2007) 1-46 &lbrack;[arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001)&rbrack;
