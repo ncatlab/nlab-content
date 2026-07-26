@@ -173,19 +173,22 @@ Experimental realization of FQAH systems:
 
 Review:
 
-* [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional quantum Hall effect without Landau levels*, Physics **4**46  (June 2011) &lbrack;[physics.aps:v4/46](https://physics.aps.org/articles/v4/46)&rbrack;
+* [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional quantum Hall effect without Landau levels*, Physics **4** 46  (June 2011) &lbrack;[physics.aps:v4/46](https://physics.aps.org/articles/v4/46)&rbrack;
 
 * {#BergholtzLiu2013} [[Emil J. Bergholtz]], [[Zhao Liu]]: *Topological Flat Band Models and Fractional Chern Insulators*, Int. J. Mod. Phys. B **27** (2013) 1330017 &lbrack;[doi:10.1142/S021797921330017X](https://doi.org/10.1142/S021797921330017X), [arXiv:1308.0343](https://arxiv.org/abs/1308.0343)&rbrack;
 
 * [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
 
-* Long Yu et al., *The fractional quantum anomalous Hall effect*, Nature Reviews Materials **9** (2024) 455–459 &lbrack;[doi:10.1038/s41578-024-00694-x](https://doi.org/10.1038/s41578-024-00694-x)&rbrack;
+* Long Yu, [[Allan H. MacDonald]], Kin Fai Mak, Jie Shan, Xiaodong Xu: *The fractional quantum anomalous Hall effect*, Nature Reviews Materials **9** (2024) 455–-459 &lbrack;[doi:10.1038/s41578-024-00694-x](https://doi.org/10.1038/s41578-024-00694-x)&rbrack;
 
 * {#Morales-DuranShiMacDonald24} Nicolás Morales-Durán, Jingtian Shi, [[Allan H. MacDonald]]: *Fractionalized electrons in moiré materials*, Nature Reviews Physics **6** (2024) 349–351 &lbrack;[doi:10.1038/s42254-024-00718-z](https://doi.org/10.1038/s42254-024-00718-z)&rbrack;
 
 * Jian Zhao et al.: *Exploring the Fractional Quantum Anomalous Hall Effect in Moiré Materials: Advances and Future Perspectives*, ACS Nano (2025) &lbrack;[doi:10.1021/acsnano.5c01598](https://doi.org/10.1021/acsnano.5c01598)&rbrack;
 
 See also:
+
+* [[Nicolas Regnault]]: *Fractional Topogical Insulators: numerical evidences* &lbrack;[pdf](https://www.ggi.infn.it/talkfiles/slides/talk2313.pdf), [[Regnault-FCI.pdf|pdf:file]]&rbrack;
+
 
 * Wikipedia: *[Fractional Chern insulator](https://en.wikipedia.org/wiki/Fractional_Chern_insulator)*
 
@@ -258,7 +261,9 @@ See also:
 #### Anyonic states
   {#ReferencesFQAHAnyons}
 
-On [[anyons]] in FQAH systems:
+On [[topological order]] and [[anyons]] in FQAH systems:
+
+* Fabian J. Pauw, Felix A. Palm, Ulrich Schollwöck, Annabelle Bohrdt, Sebastian Paeckel, Fabian Grusdt: *Detecting Hidden Order in Fractional Chern Insulators*, Phys. Rev. Research **6** (2024) 023180 &lbrack;[doi:10.1103/physrevresearch.6.023180](https://doi.org/10.1103/physrevresearch.6.023180), [arXiv:2309.03666](https://arxiv.org/abs/2309.03666)&rbrack;
 
 * Aidan P. Reddy, Nisarga Paul, [[Ahmed Abouelkomsan]], Liang Fu: *Non-Abelian fractionalization in topological minibands*, Phys. Rev. Lett. **133** (2024) 166503 &lbrack;[arXiv:2403.00059](https://arxiv.org/abs/2403.00059), [doi:10.1103/PhysRevLett.133.166503](https://doi.org/10.1103/PhysRevLett.133.166503)
 &rbrack;
