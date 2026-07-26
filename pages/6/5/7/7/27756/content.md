@@ -29,6 +29,9 @@ On the [[quantum anomalous Hall effect]]:
 
 * {#Morales-DuranShiMacDonald24} Nicolás Morales-Durán, Jingtian Shi, [[Allan H. MacDonald]]: *Fractionalized electrons in moiré materials*, Nature Reviews Physics **6** (2024) 349–351 &lbrack;[doi:10.1038/s42254-024-00718-z](https://doi.org/10.1038/s42254-024-00718-z)&rbrack;
 
+* Long Yu, [[Allan H. MacDonald]], Kin Fai Mak, Jie Shan, Xiaodong Xu: *The fractional quantum anomalous Hall effect*, Nature Reviews Materials **9** (2024) 455–-459 &lbrack;[doi:10.1038/s41578-024-00694-x](https://doi.org/10.1038/s41578-024-00694-x)&rbrack;
+
+
 
 
 category: people
