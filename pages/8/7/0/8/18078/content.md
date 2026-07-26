@@ -1309,13 +1309,5 @@ The inverse function theorem is critical as an intermediate step as it relates t
 * The Thom-Pontrjagin theorem
 
 
-## In algebraic geometry
-
-In algebraic geometry, Hensel's lemma 
-
-* The Thom-Pontrjagin Theorem in algebraic geometry 
-
-* The Thom-Pontrjagin 
-
 
 * {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
