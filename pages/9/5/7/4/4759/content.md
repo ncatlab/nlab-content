@@ -80,7 +80,7 @@ $$
 +-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
 
-The [[cohomology ring]] of the [[classifying space]] [[BU(n)|$B U(n)$]] (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
+The [[cohomology ring]] of the [[classifying space]] [[BU(n)|$B U(n)$]] (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree $2k$, called the _Chern classes_
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
