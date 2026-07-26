@@ -31,7 +31,12 @@ On [fragile](topological+phase+of+matter#ReferencesUnstableClassificationOfTopol
 
 On the [[fractional quantum anomalous Hall effect]]:
 
+* [[Nicolas Regnault]]: *Fractional Topogical Insulators: numerical evidences* &lbrack;[pdf](https://www.ggi.infn.it/talkfiles/slides/talk2313.pdf), [[Regnault-FCI.pdf|pdf:file]]&rbrack;
+
+
 * [[Nicolas Regnault]] et al.: *Fractional topological states in rhombohedral multilayer graphene modulated by kagome superlattice* &lbrack;[arXiv:2502.17320](https://arxiv.org/abs/2502.17320)&rbrack;
+
+
 
 and in relation to [[anyons]]:
 
