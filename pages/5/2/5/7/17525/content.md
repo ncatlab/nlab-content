@@ -463,9 +463,9 @@ This is, ultimately, the reason why the [[derived adjunction|derived]] [[PL de R
 
 The original articles:
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, **2** 1 (1972) 73--81 \[<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>\]
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]]: _The core of a ring_, Journal of Pure and Applied Algebra **2** 1 (1972) 73--81 \[<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>\]
 
-* {#Bousfield79} [[Aldridge Bousfield]]: _The localization of spectra with respect to homology_, Topology **18** 4 (1979) 257--281 &lbrack;[pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf)&rbrack;
+* {#Bousfield79} [[Aldridge Bousfield]]: *The localization of spectra with respect to homology*, Topology **18** 4 (1979) 257--281 \[<a href="https://doi.org/10.1016/0040-9383(79)90018-1">doi:10.1016/0040-9383(79)90018-1</a>, [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf)\]
 
 The concept re-appears under the name "T-rings" in
 
