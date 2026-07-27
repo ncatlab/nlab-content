@@ -877,6 +877,9 @@ Spider lemma (corrected)
 | $g_{\phi\phi}$ | $r^2 \sin^2(\theta)$ | $r^2 \sin^2(\theta)$ | $(r^2 + a^2 + \frac{2 m r a^2 \sin^2(\theta)}{\rho^2}) \sin^2{\theta}$ |
 | $g_{ij}$ $i \neq j$ | all zero | all zero | all zero except $g_{t \phi} = g_{\phi t} = - \frac{2 m r a \sin^2(\theta)}{\rho^2}$ |
 
+____
+
+
 
 **INVERSE FUNCTION THEOREM STARTS HERE:**
 
@@ -1122,14 +1125,19 @@ $$
 If $C$ is $1$, then $\sum_{i =1}^{\infty} C^i = \sum_{i= 1}^{\infty} 1 = \infty$ does not converge and $C$ is not strictly less than $1/2$. 
 
 To proceed, assume $C \neq 1$. Dividing by $1 - C$, one obtains 
+
 $$
 \sum_{i= 1}^n C^i =  \frac{C - C^{n}}{1 - C}
 $$
-\noindent and from this one obtains 
+
+and from this one obtains 
+
 $$
 \sum_{i= 1}^{\infty} C^i = \frac{C}{1 - C} 
 $$
+
 We calculate
+
 $$
 \begin{aligned}
  & \sum_{i= 1}^{\infty} C^i  \le  1 \\
@@ -1139,22 +1147,26 @@ $$
 \leftrightarrow\ & C  \le  \frac{1}{2}
 \end{aligned}
 $$
+
 \end{proof}
 
 
 \begin{theorem} (inverse function theorem) let $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a continuously differentiable function. Fix $x_0 \in \mathbb{R}^n$ and write $y_0$ for $f(x_0)$. If the Jacobian derivative $Df(x_0) : \mathbb{R}^n \rightarrow \mathbb{R}^n$ of $f$ at $x_0 \in \mathbb{R}^n$ is invertible, then there are positive real numbers $\delta$ and $\epsilon$ such that
-\begin{enumerate}
-\item for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$
-\item for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel  x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$
-\end{enumerate}
+
+* for each $x_1, x_2 \in \mathbb{R}^n$ such that $  \parallel x_1 - x_0  \parallel _2  \le  \delta$ and $  \parallel x_2 - x_0  \parallel _2  \le  \delta$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$
+
+* for each $y \in \mathbb{R}^n$ such that $  \parallel y - y_0  \parallel _2  \le  \epsilon$, there is $x \in \mathbb{R}^n$ such that $  \parallel  x - x_0  \parallel _2   \le  \delta$ and $y = f(x)$
+
 Note that (1) and (2) imply the resulting $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0))} : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$ is both injective and surjective.
 \end{theorem}
 
 \begin{proof} fix a positive real number $C  \le  1$ such that 
+
 $$
 \sum_{i = 1}^{\infty} C^i  \le  1
 $$
-\noindent equivalently, a positive real number $C$ such that $C  \le  \frac{1}{2}$.
+
+equivalently, a positive real number $C$ such that $C  \le  \frac{1}{2}$.
 
 Pick positive real numbers $\delta$ and $\epsilon$ as follows:
 
@@ -1300,7 +1312,10 @@ This implies (2).
 
 Take note that this proof does not demonstrate that $f(B_{\delta}(x_0))$ is open. Instead, it shows that there is a bijective $C^1$-function $f|_{f^{-1}(B_{\epsilon}(y_0)) } : f^{-1}(B_{\epsilon}(y_0)) \rightarrow B_{\epsilon}(y_0)$. 
 
-The inverse function theorem is critical as an intermediate step as it relates to 
+
+________
+
+topics:
 
 * The implicit function theorem
 
@@ -1308,6 +1323,12 @@ The inverse function theorem is critical as an intermediate step as it relates t
 
 * The Thom-Pontrjagin theorem
 
+* invariance of domain and approximation by $C^1$-functions
 
+* in algebraic geometry, Hensel's lemma
+
+____
+
+sources:
 
 * {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
