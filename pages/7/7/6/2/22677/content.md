@@ -242,7 +242,7 @@ This is precisely the [[distributivity law]] and [[absorption law]] of the rig.
 
 The assignment $\mathcal{C} \mapsto \mathrm{CMon}(\mathcal{C})$ satisfies base change for [[presentable (∞,1)-categories]], i.e.
 $$
-  \mathcal{C} \otimes \mathrm{CMon}(\mathcal{S}) \simeq \mathrm{CMon}(\mathcal{S}).
+  \mathcal{C} \otimes \mathrm{CMon}(\mathcal{S}) \simeq \mathrm{CMon}(\mathcal{C}).
 $$
 
 In particular, $\mathrm{CMon}(S)$ is a [[mode]];
