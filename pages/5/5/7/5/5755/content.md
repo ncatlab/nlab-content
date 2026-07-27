@@ -10,13 +10,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-In a 1949 paper devoted to the study of the coset spaces of nilpotent Lie groups, [[Anatoly Malcev]] exhibited an equivalence between the category of torsion free radicable nilpotent finite rank groups and the category of finite dimensional, nilpotent rational Lie algebras. This involves a completion construction which is used also in the general formulation of [[Hausdorff series]] (cf. Bourbaki) which takes values in the Mal'cev completion of the universal enveloping algebra on two generators. 
+[Malcev 1949](#Malcev1949) (devoted to the study of the [[coset spaces]] of [[nilpotent group|nilpotent]] [[Lie groups]]) exhibited an equivalence between the category of torsion free radicable nilpotent finite rank groups and the category of finite dimensional, nilpotent rational Lie algebras. This involves a completion construction which is used also in the general formulation of [[Hausdorff series]] (cf. Bourbaki) which takes values in the Mal'cev completion of the universal enveloping algebra on two generators. 
 
 ## Definition
 
@@ -36,8 +34,9 @@ Mal'cev completion is a left [[adjoint functor]] to the embedding of the categor
 
 ## References
 
-* [[A. I. Mal'cev]], _On a class of homogeneous spaces_, Izvestiya Akad. Nauk. SSSR. Ser. Mat. __13__, (1949) 9&#8211;32, [MR28842](http://www.ams.org/mathscinet-getitem?mr=28842).
-Original reference: [[А. И. Мальцев]], _Об одном классе однородных пространств_, Известия Академии наук СССР. Серия математическая 13:1 (1949), 9–32.  [PDF](http://mi.mathnet.ru/izv3161).
+* {#Malcev1949} [[A. I. Mal'cev]]: _On a class of homogeneous spaces_, Izvestiya Akad. Nauk. SSSR. Ser. Mat. __13__ (1949) 9--32 &lbrack;[MR28842](http://www.ams.org/mathscinet-getitem?mr=28842)&rbrack;
+
+  Russian original: [[А. И. Мальцев]], _Об одном классе однородных пространств_, Известия Академии наук СССР. Серия математическая **13** 1 (1949) 9--32 &lbrack;[mathnet:izv3161](http://mi.mathnet.ru/izv3161)&rbrack;
 
 * [[Nicolas Bourbaki]], _Lie groups and Lie algebras_
 
