@@ -216,7 +216,7 @@ Referring to the pullback diagram in Remark \ref{oplax}, let $Q = R \times_Y S$ 
 
 $$\beta(R \times_Y S) \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
-is epic. Viewing this as a continuous map between [compact Hausdorff spaces](compact Haudorff space#ultrafilters_form_a_compactum_23), it suffices to show that the canonical map 
+is epic. Viewing this as a continuous map between [compact Hausdorff spaces](ultrafilter#comphaus), it suffices to show that the canonical map 
 
 $$R \times_Y S \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
