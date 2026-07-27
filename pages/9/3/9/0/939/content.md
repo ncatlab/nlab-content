@@ -340,6 +340,11 @@ For example, if $T$ is an [[action monad]], there is a canonical commutative dis
 * T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
+
+A characterisation of distributive laws (of ordinary monads) in terms of [[relative adjunctions]] is given in Theorem 21 of:
+
+* Éléonore Mangel, Paul-André Melliès, Guillaume Munch-Maccagnoni, _Syntax and semantics of focalisation
+with relative monads and comonads_, [arXiv:2606.14652](https://arxiv.org/abs/2606.14652)
 `
 Commutative distributive laws: 
 
