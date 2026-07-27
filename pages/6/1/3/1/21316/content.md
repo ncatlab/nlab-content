@@ -92,6 +92,44 @@ The same is true for the category with commutative min-connections ([Campion](#C
 The [[cartesian cube category]] is an EZ-category ([Campion](#Campion2023), Theorem 8.12(1)).
 \end{example}
 
+## Eilenberg--Zilber presheaves
+
+Even if $R$ is a non-EZ generalized Reedy category, we can consider the following class of presheaves.
+
+\begin{definition}
+  ([Duliński 2026](#Dulinski2026), Definition 3.4)
+  Let $R$ be a generalized Reedy category.
+  A presheaf $X$ on $R$ is an **EZ-presheaf** if every element of $X$ is a degeneracy of a unique nondegenerate element.
+\end{definition}
+
+If $R$ is an EZ-category, then all presheaves on $X$ are EZ-presheaves.
+Duliński ([Duliński 2026](#Dulinski2026)) studies the class of EZ-presheaves in the case where $R$ is a strict Reedy category.
+Under the following **degeneracy-forking** condition on $R$, [[relative cell complex]] decompositions are available for [[monomorphisms]] between EZ-presheaves.
+
+\begin{definition}
+  ([Duliński 2026](#Dulinski2026), Definition 3.11, rephrased)
+  A Reedy category $R$ is **degeneracy-forking** if every $\sigma \colon y \to z$ in $R^-$ for which $R^-(-,\sigma) \colon R^-(-,y) \to R^-(-,z)$ is a monomorphism is an identity.
+\end{definition}
+
+\begin{proposition}
+  ([Duliński 2026](#Dulinski2026), Lemma 3.17)
+  If $R$ is a degeneracy-forking Reedy category, then every monomorphism between EZ-presheaves on $R$ is a [[relative cell complex]] of boundary inclusions.
+\end{proposition}
+
+\begin{proposition}
+  ([Duliński 2026](#Dulinski2026), Corollary 3.21)
+  If $R$ is a degeneracy-forking Reedy category, then $X \in [R^{op},Set]$ is an EZ-presheaf if and only if $0 \to X$ is a cell complex of boundary inclusions.
+\end{proposition}
+
+When $R^-$ has binary [[pushouts]], the EZ-presheaves are exactly the presheaves that are [[orthogonality#orthogonality_of_morphisms_to_objects|right orthogonal]] to the comparison map $R(-,y) \sqcup_{R(-,x)} R(-,z) \to R(-,y \sqcup_x z)$ for every span $y \leftarrow x \rightarrow z$ in $R^-$ ([Duliński 2026](#Dulinski2026), Theorem 3.31).
+As a corollary:
+
+\begin{proposition}
+  ([Duliński 2026](#Dulinski2026), Corollary 3.32)
+  If $R$ is a Reedy category and $R^-$ has binary [[pushouts]], then the [[full subcategory]] $[R^{op},Set]_{EZ} \hookrightarrow [R^{op},Set]$ of EZ-presheaves on $R$ is a [[reflective subcategory]].
+  In particular, $[R^{op},Set]_{EZ}$ is a [[locally presentable category]].
+\end{proposition}
+
 ## References
 
 * {#BergerMoerdijk2011} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Mathematische Zeitschrift, 269, 2011 ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x]( https://doi.org/10.1007/s00209-010-0770-x))
