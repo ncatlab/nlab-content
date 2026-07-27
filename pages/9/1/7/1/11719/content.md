@@ -18,9 +18,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -79,12 +79,11 @@ with arbitrary [[fundamental group]]:
 
 Discussion of the plain [[Quillen adjunction between simplicial sets and connective dgc-algebras]] over the real numbers, and its relation to [[rationalization]] followed by [[derived functor|derived]] [[extension of scalars]]:
 
-* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalizaed]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *$\mathbb{R}$-Rational homotopy theory*, §5 in: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalizaed]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
+following:
 
-following
-
-* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], *Real homotopy theory of Kähler manifolds*, Invent Math **29** (1975) 245-274 &lbrack;[doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853)&rbrack;
+* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]]: *Real homotopy theory of Kähler manifolds*, Invent Math **29** (1975) 245--274 &lbrack;[doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853)&rbrack;
 
 For discussion with focus on [[Hopf invariants]] and the [[Whitehead integral formula]] see the references
 
