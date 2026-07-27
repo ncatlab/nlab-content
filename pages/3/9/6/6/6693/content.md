@@ -16,8 +16,7 @@ On [[orthogonal factorization systems]]:
 
 Introducing what came to be known as *[[Bousfield localization]]* ([[Bousfield localization of spectra|of spectra]] via that of [[Bousfield localization of model categories|model categories]]):
 
-* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology Volume 18 Issue 4 (1979) (<a href="https://doi.org/10.1016/0040-9383(79)90018-1">doi:10.1016/0040-9383(79)90018-1</a>, [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
-
+* {#Bousfield79} [[Aldridge Bousfield]]: *The localization of spectra with respect to homology*, Topology **18** 4 (1979) 257--281 \[<a href="https://doi.org/10.1016/0040-9383(79)90018-1">doi:10.1016/0040-9383(79)90018-1</a>\]
 
 
 * [[Daniel M. Kan]] and [[Aldridge K. Bousfield]], *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
