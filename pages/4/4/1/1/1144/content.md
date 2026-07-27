@@ -1213,7 +1213,7 @@ Precursors include
 
 The original articles:
 
-* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series **90** 2 (1969) 205-295 &lbrack;[jstor:1970725](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)&rbrack;
+* {#Quillen69} [[Daniel Quillen]]: *Rational homotopy theory*, The Annals of Mathematics, Second Series **90** 2 (1969) 205--295 &lbrack;[doi:10.2307/1970725](https://doi.org/10.2307/1970725), [jstor:1970725](http://www.jstor.org/stable/1970725), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/quillen-rational.pdf)&rbrack;
 
 * {#Sullivan77} [[Dennis Sullivan]]: _Infinitesimal computations in topology_, Publications mathématiques de l’ I.H.É.S **47** (1977) 269-331 &lbrack;[numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/article/PMIHES_1977__47__269_0.pdf)&rbrack;
 
