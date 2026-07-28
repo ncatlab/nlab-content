@@ -2,7 +2,7 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=OMsLyCQAAAAJ&hl=de)
 
-* [ReserachGate page](https://www.researchgate.net/scientific-contributions/Martin-Brandenburg-2042534871)
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Martin-Brandenburg-2042534871)
 
 ## Selected writings
 
