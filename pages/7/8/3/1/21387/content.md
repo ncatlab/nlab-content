@@ -13,27 +13,27 @@
 =--
 =--
 
-This page is about the book
+This page is to record the reference:
 
-* [[Daniel Quillen]]
+* [[Daniel Quillen]]:
 
-  __Homotopical Algebra__  
+  \linebreak
 
-  Lecture Notes in Mathematics 43, 
+  __Homotopical Algebra__
 
-  Springer 1967
+  \linebreak
+
+  Lecture Notes in Mathematics **43**, Springer (1967)
 
   [doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)
 
-  TeX-typeset manuscript: [PDF](https://aareyanmanzoor.github.io/assets/books/homotopical-algebra.pdf).
+  TeX-typeset manuscript: [pdf](https://aareyanmanzoor.github.io/assets/books/homotopical-algebra.pdf).
 
-introducing the theory of [[model categories]] as a tool in [[homotopy theory]].
+introducing the theory of [[model categories]] as a unifying tool in [[homotopy theory]] ("abstract homotopy theory").
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Chapter I. Axiomatic homotopy theory
