@@ -52,7 +52,7 @@ By using derived smooth manifolds instead of ordinary smooth manifolds here, the
 
 ### Floer homology
 
-(...)
+Let $X$ be a [[symplectic manifold]]. Under certain technical assumptions, one can define a chain complex called the _Floer [[chain complex]]_ using [[moduli space]]s of [[pseudoholomorphic curve]]s in $X$ and their perturbed analogues. These moduli spaces and the corresponding Floer chain complexes come in several flavors and give rise to a wide range of (co)[[homology]] theories, including but not limited to _Lagrangian Floer cohomology_ and _Hamiltonian Floer cohomology_. Although these moduli spaces are [[smooth manifold]]s with corners in the classical setting after imposing suitable algebro-topological conditions on $X$ and choosing a generic [[complex structure|almost complex structure]], in the most general setting they possess additional symmetries and fail to satisfy the [[transversal maps|transversality]] properties that genericity assumptions would otherwise guarantee. Therefore, without additional assumptions, these moduli spaces of pseudoholomorphic curves become [[derived geometry|derived]] smooth manifolds or derived smooth [[orbifold]]s with corners.
 
 ## Definition
 
