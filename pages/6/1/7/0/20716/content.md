@@ -1,11 +1,18 @@
 
-* [MathematicsGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=8293)
+Edward Richard Fadell (1927--2018)
+
+* [Univ. Wisconsin obituary page](https://www.math.wisc.edu/2018/01/22/in-memoriam-ed-fadell/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=8293)
 
 ## Selected writings
 
 On plain [[braid groups]] in relation to [[spherical braid groups]]:
 
 * {#FadellVanBuskirk61} [[Edward Fadell]], James Van Buskirk: *On the braid groups of $E^2$ and $S^2$*,  Bull. Amer. Math. Soc. **67** 2 (1961) 211-213 &lbrack;[euclid:bams/1183524083](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-67/issue-2/On-the-braid-groups-of-E2-and-S2/bams/1183524083.full)&rbrack;
+
+* {#FadellVanBuskirk62} [[Edward Fadell]], James Van Buskirk: *The Braid Groups of $E^2$ and $S^2$*,  Duke Mathematical Journal **29** 2 (1962) 243-257 &lbrack;[doi:10.1215/S0012-7094-62-02925-3](https://doi.org/10.1215/S0012-7094-62-02925-3)&rbrack;
+
 
 
 On [[configuration spaces of points]]:
