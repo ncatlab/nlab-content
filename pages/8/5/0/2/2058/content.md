@@ -71,7 +71,7 @@ For every functor $G \colon D \to C$ and every morphism $f : Y \to \underset{\lo
 \end{proposition}
 \begin{proof}
 The implication $\implies$ follows by applying Def. \ref{BasicDefinition} to $Z = \underset{\longrightarrow}{\lim}_D G$ and the identity morphism, 
-The converse implication $\impliedby$ follows by applying the assumption to the morphism (eq:IsoForPullbackStabilityOfColimis) and the cancelling rule for pullbacks.
+The converse implication $\impliedby$ follows by applying the assumption to the projection $(\underset{\longrightarrow}{\lim}_D G) \times_Z Y \to \underset{\longrightarrow}{\lim}_D G$ and the cancelling rule for pullbacks.
 \end{proof}
 
 \begin{proposition}
