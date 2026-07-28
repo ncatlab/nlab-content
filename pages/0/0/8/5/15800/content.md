@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
+
 ## Idea
 
 In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the process by which an abundance of [[baryons]] is produced in the early [[observable universe]], leading to the baryonic [[matter]] seen all around. Since in the [[standard model of particle physics]] [[matter]] and [[antimatter]] are _essentially_ always produced symmetrically ("conservation of baryon number"), the topic of baryogenesis is to a large extent the study of how the matter/antimatter symmetry may be [[broken symmetry|broken]].
@@ -203,3 +203,11 @@ Review:
 Discussion with focus on [[QCD]]-effects:
 
 * Dominik J. Schwarz, _The first second of the Universe_, Annalen Phys.12:220-270, 2003 ([arXiv:astro-ph/0303574](https://arxiv.org/abs/astro-ph/0303574))
+
+See also:
+
+* Yanda Wu: *Electroweak Baryogenesis: Advances in Sphaleron Rate Calculations and Implications of Thermal Phase Transitions* &lbrack;[arXiv:2607.24026](https://arxiv.org/abs/2607.24026)&rbrack;
+
+
+
+
