@@ -188,6 +188,12 @@ With [[global symmetry]]:
 
 * {#SinghVidal12} Sukhwinder Singh, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
 
+and extensions to [[fusion category|fusion categories]]:
+
+* Jakob Unfried: §5 in: *Advancing Tensor Network Simulations - Hardware Acceleration, Stable Optimization, and Symmetries*, Phd thesis, Technical University of Munich (2024). ([pdf](https://mediatum.ub.tum.de/doc/1755273/1755273.pdf))
+
+* Lukas Devos and Jutho Haegeman: *TensorKit.jl: A Julia package for large-scale tensor computations, with a hint of category theory*, (2025). ([arxiv:2508.10076](https://arxiv.org/abs/2508.10076))
+
 
 Further resources:
 
