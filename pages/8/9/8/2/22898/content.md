@@ -14,17 +14,23 @@
 =--
 
 
-This page compiles links related to the book collection:
+This page is to record the reference:
 
-* [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.)
+* [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.):
+
+  \linebreak
 
   **Stable categories and structured ring spectra**  
 
-  MSRI Book Series
+  \linebreak
+
+  MSRI Publications **69**
 
   Cambridge University Press (2022)
 
-  ISBN: 9781009123297
+  ISBN:9781009123297
+
+  [doi:10.1017/9781009128957](https://doi.org/10.1017/9781009128957)
 
   &lbrack;[GoogleBooks](https://books.google.de/books/about/Stable_Categories_and_Structured_Ring_Sp.html?id=mN6YzgEACAAJ&redir_esc=y)&rbrack;
 
@@ -33,9 +39,9 @@ on [[stable homotopy theory]] and [[ring spectra]] ([[higher algebra]], [[brave 
 
 ## Contents
 
-On [[homotopical categories]] and [[(∞,1)-categories]]:
+On [[homotopical categories]], [[model categories]] and [[(∞,1)-categories]]:
 
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886)) 
+* [[Emily Riehl]]: _Homotopical categories: from model categories to (∞,1)-categories_, 5--74 \[<a href="https://arxiv.org/abs/1904.00886">arXiv:1904.00886</a>, <a href="https://doi.org/10.1017/9781009128957.002">doi:10.1017/9781009128957.002</a>\] 
 
 On [[model categories of spectra]]:
 
