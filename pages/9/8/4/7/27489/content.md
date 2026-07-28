@@ -130,7 +130,7 @@ Moreover, the canonical map from the plain braid group to the [[symmetric group]
 \end{tikzcd}
 
 \end{proposition}
-([Fadell & Van Buskirk 1961 p 245, 255](#FadellVanBuskirk61), cf. [Tan 2024 §3.1](#Tan24))
+([Fadell & Van Buskirk 1962 p 245, 255](#FadellVanBuskirk62), cf. [Tan 2024 §3.1](#Tan24))
 
 \begin{proposition}\label{GroupOrder}
   The [[order of a group|order]] $\vert Br_n(S^2) \vert$ of the spherical braid group is:
@@ -142,7 +142,7 @@ Moreover, the canonical map from the plain braid group to the [[symmetric group]
 1. $\infty$ for $n \geq 4$.
 
 \end{proposition}
-([Fadell & VanBuskirk 1961 p 255](#FadellVanBuskirk61))
+([Fadell & VanBuskirk 1962 p 255](#FadellVanBuskirk62))
 
 ## Examples
 
@@ -163,7 +163,7 @@ $$
 
 Geometrically, the element $n \in \mathbb{Z}$ of the ordinary braid group $Br_2$ is the braid on two strands which makes $n$ *half* rotations in itself. But on the sphere, one full rotation (two half rotations) of one point around another may be contracted to a loop constant on the [[antipode|antipodal point]].
 \end{example}
-(cf. [Fadell & VanBuskirk 1961 p 254](#FadellVanBuskirk61) and Prop. \ref{GroupOrder})
+(cf. [Fadell & VanBuskirk 1962 p 254](#FadellVanBuskirk62) and Prop. \ref{GroupOrder})
 
 
 
@@ -171,6 +171,9 @@ Geometrically, the element $n \in \mathbb{Z}$ of the ordinary braid group $Br_2$
 ## References
 
 * {#FadellVanBuskirk61} [[Edward Fadell]], James Van Buskirk: *On the braid groups of $E^2$ and $S^2$*,  Bull. Amer. Math. Soc. **67** 2 (1961) 211-213 &lbrack;[euclid:bams/1183524083](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-67/issue-2/On-the-braid-groups-of-E2-and-S2/bams/1183524083.full)&rbrack;
+
+* {#FadellVanBuskirk62} [[Edward Fadell]], James Van Buskirk: *The Braid Groups of $E^2$ and $S^2$*,  Duke Mathematical Journal **29** 2 (1962) 243-257 &lbrack;[doi:10.1215/S0012-7094-62-02925-3](https://doi.org/10.1215/S0012-7094-62-02925-3)&rbrack;
+
 
 * {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]], around (9.1 in): *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
