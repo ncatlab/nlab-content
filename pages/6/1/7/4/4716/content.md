@@ -248,6 +248,9 @@ See also:
 
 * *Ivanov's metaconjecture on surface homeomorphisms*, MO discussion (2015) &lbrack;[MO:q/200413](https://mathoverflow.net/q/200413/381)&rbrack;
 
+* Xiyan Zhong: *Abelianization of Symmetric Mapping Class Groups* &lbrack;[arXiv:2607.24271](https://arxiv.org/abs/2607.24271)&rbrack;
+
+
 The [[equivariant homotopy theory|equivariant]] version:
 
 * Shuya Cai, Hao Li: *Equivariant Mapping Class Group and Orbit Braid Group*,  Chin. Ann. Math. Ser. B **43** (2022) 485–498 &lbrack;[arXiv:2011.05247](https://arxiv.org/abs/2011.05247), [doi:10.1007/s11401-022-0341-6](https://doi.org/10.1007/s11401-022-0341-6)&rbrack;
