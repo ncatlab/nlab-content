@@ -44,7 +44,8 @@ On [[directed homotopy type theory]] via a form of [[simplicial type theory]]
 
 Survey of [[homotopy theory]] from [[homotopical categories]] to [[(∞,1)-categories]]:
 
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+* [[Emily Riehl]]: _Homotopical categories: from model categories to $(\infty,1)$-categories_, chapter 2 in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds): *[[Stable categories and structured ring spectra]]*,  MSRI Publications **69**, Cambridge University Press (2022) 5--74 &lbrack;[arXiv:1904.00886 math.AT](https://arxiv.org/abs/1904.00886), <a href="https://doi.org/10.1017/9781009128957.002">doi:10.1017/9781009128957.002</a>&rbrack;
+
 
 A new proof of the [[Strøm model structure]] using [[algebraic weak factorization systems]]:
 
