@@ -23,9 +23,9 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 
 ## Idea
@@ -137,7 +137,7 @@ For more, see
 
 ### Homotopical categories
 
-A [[homotopical category]] is a category $C$ equipped with a class $W$ of [[category with weak equivalences|weak equivalences]]. Every homotopical category $(C,W)$ has a _quasi-localisation_ $C[W(-1)]$
+A *[[homotopical category]]* is a category $C$ equipped with a class $W$ of [[category with weak equivalences|weak equivalences]]. Every homotopical category $(C,W)$ has a _quasi-localisation_ $C[W(-1)]$
 which is a [[quasi-category]]. The simplicial set $C[W(-1)]$ is obtained from the [[nerve]] of $C$ by freely gluing a [[homotopy]] inverse to each [[morphism]] in $W$, and then by adding simplices to turn it into a quasi-category. (This last step is called a fibrant completion.)
 
 The [[quasi-category]] $C[W(-1)]$ is equivalent to the [[Dwyer-Kan localisation]] of $C$ with respect to $W$, via the equivalence between [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicial categories]] mentioned above.
@@ -393,7 +393,8 @@ Introductions and lecture notes
 
 A survey on various notions of [[homotopical categories]]:
 
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+* [[Emily Riehl]]: _Homotopical categories: from model categories to $(\infty,1)$-categories_, chapter 2 in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds): *[[Stable categories and structured ring spectra]]*,  MSRI Publications **69**, Cambridge University Press (2022) 5--74 &lbrack;[arXiv:1904.00886 math.AT](https://arxiv.org/abs/1904.00886), <a href="https://doi.org/10.1017/9781009128957.002">doi:10.1017/9781009128957.002</a>&rbrack;
+
 
 Textbook account:
 
