@@ -53,7 +53,9 @@ $$
 
 is an [[isomorphism]].  
 
-This is equivalent to saying that every pullback [[functor]] $f^* \colon C/Z \to C/Y$ [[preserved limit|preserves]] $D$-colimits.  
+This is equivalent to saying that every pullback [[functor]] $f^* \colon C/Z \to C/Y$ [[preserved limit|preserves]] $D$-colimits.
+
+Another equivalent condition is that for every functor $G \colon D \to C$ and every morphism $f : Y \to \underset{\longrightarrow}{\lim}_D G$, if we define $Y(d)$ as the pullback of $f$ along the coprojection $\iota_d : G(d) \to \underset{\longrightarrow}{\lim}_D G$, then the induced morphism $\underset{\underset{d \in D}{\longrightarrow}}{\lim} Y(d) \to Y$ is an isomorphism. In fact, $\implies$ follows by applying the definition above to $Z = \underset{\longrightarrow}{\lim}_D G$ and the identity morphism, and $\impliedby$ follows by applying the assumption to the projection morphism.
 
 Similar definitions apply for [[higher categories]].
 
