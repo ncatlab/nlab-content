@@ -43,14 +43,3 @@ $$\frac{\Gamma \vdash A ,; \Gamma \vdash B}{\Gamma \vdash A\times B}$$
 
 ***
 
-
-Not disrupted but empowered to progress further and faster.
-
-The steam engine revolutionized transport. Back then, if you were into the horse part of horse carriages you went out of business. But if you dealt with transportation beyond horses, you received a boost.
-
-Feynman was still fond of showing off his mental arithmetic skill. Impressive as this is, we don't feel it a loss that the pocket calculator made it obsolete. It allows to focus on more interesting tasks. 
-
-It's telling that the conjectures solved by AI these days I have never about before. The problems I care about remain open. 
-
-But now we have a huge new power tool to ride the attack, and maybe may be able to make progress previously unthinkable.
-
