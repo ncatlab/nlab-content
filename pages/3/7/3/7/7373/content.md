@@ -1,6 +1,3 @@
-
-* [institute page](https://cris.uni-muenster.de/portal/en/person/47269274) (old)
-
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=207180)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=OMsLyCQAAAAJ&hl=de)
