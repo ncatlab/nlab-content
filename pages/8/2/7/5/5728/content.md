@@ -14,28 +14,31 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Definition
+ {#Definition}
 
-A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** or **Weil ring** is a [[local ring]] which is also an [[Artinian ring]]; it satisfies the [[descending chain condition]].
+A *Artinian local ring* (or similar, also called a *Weil ring*) is a [[local ring]] which is also an [[Artinian ring]]; it satisfies the [[descending chain condition]].
 
 Crucially, this implies that the [[Jacobson radical]] of the local ring is a [[nilradical]].
 
-These are also called **Artinian local algebras**, **local Artinian algebras**, **Artin local algebras**, or **local Artin algebras** or **Weil algebras**, since Artinian local rings are [[commutative algebras]] over the residue field $\mathbb{K}$. 
+When an Artinian local ring is equipped with the [[structure]] of an [[associative algebra|algebra]] over a [[field]] (such as its [[residue field]] when the ring has equal characteristic) it is also referred to as an *Artinian local algebra* (or similar) or, especially in [[synthetic differential geometry]], as a *Weil algebra* (in the sense of functions on an *[[infinitesimally thickened point]]*, but beware that the last term is ambiguous, see [[Weil algebra|there]]).
 
-In [[synthetic differential geometry]], the term *Weil algebra* is used for real Artinian local algebras, see _[[infinitesimally thickened point]]_ for more details. 
+ 
 
 ## Properties
+
+### General
 
 Every Artinian local $\mathbb{K}$-algebra $A$ has a [[maximal ideal]] $\mathfrak{m}_A$, whose [[residue field]] $A / \mathfrak{m}_A$ is $\mathbb{K}$ itself. As a $\mathbb{K}$ [[vector space]] one has a splitting $A=\mathbb{K}\oplus \mathfrak{m}_A$. Moreover, the descending chain condition implies that $(\mathfrak{m}_A)^n=0$ for some $n\gg 0$, a consequence of [[Nakayama lemma]]. This implies that the maximal ideal is a [[nilradical]]. 
 
 Given a field $K$ and a Artinian local $K$-algebra $A$, let $I$ be the [[nilradical]] of $A$. There is a function $v:I \to \mathbb{N}$ which takes a [[nilpotent element]] $r \in I$ to the least natural number $n$ such that $r^{v(r) + 1} = 0$, such that given [[nilpotent elements]] $r \in I$ and $s \in I$ and non-zero scalars $a \in K$ and $b \in K$,
 
 * $v(a r + b s) = v(r) + v(s)$
+
 * $v(r s) = \min(v(r), v(s))$
 
 In [[classical mathematics]], Artinian local rings are the [[zero-dimensional ring|zero-dimensional]] [[local rings]], in that every element is either [[invertible element|invertible]] or [[nilpotent element|nilpotent]]. However, in [[constructive mathematics]], it is only the [[residually discrete local rings|residually discrete]] [[Artinian local rings]] which are zero-dimensional local rings. 
@@ -48,9 +51,15 @@ An Artinian local algebra has a unique [[prime ideal]], which means that its [[s
 
 ## Examples
 
-* A classical example is the ring of [[dual numbers]] $\mathbb{K}[\epsilon]/(\epsilon^2)$ over a field $\mathbb{K}$.
+\begin{example}
+  The ring of [[dual numbers]] $\mathbb{K}[\epsilon]/(\epsilon^2)$ over a [[field]] $\mathbb{K}$.
+\end{example}
 
-* Every [[prime power local ring]] is a local Artinian ring. 
+\begin{example}\label{PrimePowerLocalRings}
+  Every [[prime power local ring]] is a local Artinian ring. 
+
+  Beware that some of these (for instance $\mathbb{Z}_{/4}$) are not of equal characteristic, and hence do not form algebras over their [[residue field]].
+\end{example}
 
 ## See also
 
