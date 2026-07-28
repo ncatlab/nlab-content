@@ -135,6 +135,8 @@ See also:
 
 * Sean Colin-Ellerin, Kyriakos Papadodimas: *BPS Non-Renormalization in the BMN Matrix Model* &lbrack;[arXiv:2606.05388](https://arxiv.org/abs/2606.05388)&rbrack;
 
+* Dibakar Roychowdhury: *Krylov complexity and spectral density of BMN matrix model* &lbrack;[arXiv:2607.24632](https://arxiv.org/abs/2607.24632)&rbrack;
+
 
 
 
