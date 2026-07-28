@@ -1,8 +1,14 @@
-Eclectic mathematician, and passionate professor of mathematics. Ralph Abraham usually dedicated his articles to other mathematicians in honour to their contributions to the field / topic.
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Ralph_Abraham)
+Ralph Herman Abraham (1936--2024) was an eclectic mathematician, and passionate professor of mathematics. He usually dedicated his articles to other mathematicians in honour to their contributions to the field / topic.
 
-## Selected publications
+* <a href="https://en.wikipedia.org/wiki/Ralph_Abraham_(mathematician)">Wikipedia entry</a>
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=5051)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Ralph-Abraham)
+
+
+## Selected writings
 
 On [[classical mechanics]]:
 
@@ -20,7 +26,7 @@ A textbook in applied mathematics, nonlinear analysis for mathematicians, physic
 * [[Ralph Abraham]], [[Jerrold E. Marsden]], [[Tudor Ratiu]]: _Manifolds, Tensor Analysis, and Applications_, [Springer](https://link.springer.com/book/10.1007/978-1-4612-1029-0) [doi:10.1007/978-1-4612-1029-0] (https://doi.org/10.1007/978-1-4612-1029-0)
 
 
-On [[Morphodynamics]], Bifurcation, Cellular Dynamata: 
+On morphodynamics, bifurcation, and cellular dynamata: 
 
 
 * [[Ralph Abraham]] (1993). _Cellular Dynamata._ In: Hirsch, M.W., Marsden, J.E., Shub, M. (eds) From Topology to Computation: Proceedings of the Smalefest. Springer, New York, NY. [doi:10.1007/978-1-4612-2740-3_50]( https://doi.org/10.1007/978-1-4612-2740-3_50) pp 557–560
