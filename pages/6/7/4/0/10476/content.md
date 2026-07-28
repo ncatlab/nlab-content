@@ -18,9 +18,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -451,22 +451,21 @@ $$
 
 Lecture notes on Elmendorf's theorem:
 
-* {#Blumberg17} [[Andrew Blumberg]], Section 1.3 of: _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+* {#Blumberg17} [[Andrew Blumberg]], Section 1.3 of: _Equivariant homotopy theory_ (2017) &lbrack;[pdf](https://adebray.github.io/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory)&rbrack;
 
 
 The "fine" homotopical structure on [[G-spaces]] (with fixed-point-wise weak equivalences) is originally due to
 
-* {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
+* {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics **34** (1967)
 
 The equivalence of its [[homotopy category]] to that of presheaves over the orbit category is then due to:
 
-* {#Elmendorf83} [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983 ([jstor:1999356](https://www.jstor.org/stable/1999356))
-
+* {#Elmendorf83} [[Anthony Elmendorf]]: _Systems of fixed point sets_, Trans. Amer. Math. Soc. **277** 1 (1983) 275--284 &lbrack;[doi:10.1090/S0002-9947-1983-0690052-0](https://doi.org/10.1090/S0002-9947-1983-0690052-0), [jstor:1999356](https://www.jstor.org/stable/1999356)&rbrack;
 
 
 Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[enriched adjunction]] and/or to a [[Quillen equivalence]] of [[model categories]] based on the [[classical model structure on topological spaces]] and/or the [[classical model structure on simplicial sets]]:
 
-* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 147--153 \[<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>\]
 
 * {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], Thm. 3.11 of: _Categorical Aspects of Equivariant Homotopy_, Applied Cat. Structures, **4** (1996) 195 - 212 ([doi:10.1007/BF00122252](https://doi.org/10.1007/BF00122252)) (Proceedings of the European Colloquium of Category Theory, 1994)
 
@@ -486,11 +485,11 @@ Other discussions generalizing [Elmendorf 83](#Elmendorf83) (i.e. the equivalenc
 
 * {#Piacenza91} [[Robert Piacenza]], Section 6 of: _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([doi:10.4153/CJM-1991-046-3](https://doi.org/10.4153/CJM-1991-046-3), [[Piazenza91.pdf:file]])
 
-* {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
+* {#May96} [[Peter May]] (ed.); Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics **91** (1996) &lbrack;[ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [doi:10.1090/cbms/091](https://doi.org/10.1090/cbms/091), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf)&rbrack;
 
 More on the approach of [Dwyer-Kan 84](#DwyerKan84):
 
-* [[Emmanuel Dror Farjoun]], Prop. 1.3 in: _Homotopy Theories for Diagrams of Spaces_, Proceedings of the AMS, Vol. 101, No. 1 (Sep., 1987), pp. 181-189 ([jstor:2046572 ](https://www.jstor.org/stable/2046572 ))
+* [[Emmanuel Dror Farjoun]], Prop. 1.3 in: _Homotopy Theories for Diagrams of Spaces_, Proceedings of the AMS **101** 1 (1987) 181--189 &lbrack;[jstor:2046572 ](https://www.jstor.org/stable/2046572)&rbrack;
 
 * {#Chorny13} [[Boris Chorny]], _Homotopy  theory  of  relative  simplicial  presheaves_,  Israel J. Math. 205 (2015), no. 1, 471–484, ([arXiv:1310.2932](https://arxiv.org/abs/1310.2932))
 
