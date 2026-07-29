@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -1481,11 +1480,11 @@ Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] ar
 
 The discussion of $\infty$-actions as presented above follows:
  
-* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], I §4.1 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures (2014) &lbrack;[arXiv:1207.0248](http://arxiv.org/abs/1207.0248)&rbrack;
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]]; §4.1 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General Theory]]_, Journal of Homotopy and Related Structures **10** 4 (2015) 749--801 &lbrack;[doi:10.1007/s40062-014-0083-6](https://doi.org/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248)&rbrack;
 
-* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: §2.2 of: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: §8.2 of: _[[schreiber:Geometric Orbifold Cohomology]]_, CRC Press (2026) &lbrack;[ISBN:9781041147510](https://www.routledge.com/Geometric-Orbifold-Cohomology/Sati-Schreiber/p/book/9781041147510)&rbrack;
 
-* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]]: §3.2.3 in: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]]: §4.2.5 in: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*, Cambridge University Press (2026) &lbrack;[ISBN:9781009698559](https://www.cambridge.org/de/universitypress/subjects/mathematics/geometry-and-topology/equivariant-principal-bundles?format=HB&isbn=9781009698559), [arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
  
 Discussion in [[homotopy type theory]]:
@@ -1504,15 +1503,15 @@ On extensions of actions on a space to actions on geometric structures defined o
 
 For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are equivalently $G$-[[infinity-actions]] is (via the [[Borel model structure]]) is due to 
 
-*  {#DDK80} E. Dror, [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
+*  {#DDK80} [[Emmanuel Dror Farjoun]], [[William Dwyer]], [[Daniel Kan]]: _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. **80** 4 (1980) 670--672 &lbrack;[doi:10.1090/S0002-9939-1980-0587952-1](https://doi.org/10.1090/S0002-9939-1980-0587952-1), [jstor:2043448](http://www.jstor.org/stable/2043448)&rbrack;
 
-This is mentioned for instance as exercise 4.2 in 
+This is mentioned as exercise 4.2 in:
 
-* {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) [pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)
+* {#Dwyer2008} [[William Dwyer]]: _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) &lbrack;[pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)&rbrack;
 
-An alternative proof in terms of [[relative categories]] is in 
+An alternative proof in terms of [[relative categories]]:
 
-* {#Sharma15} Amit Sharma, _On the homotopy theory of $G$-spaces_, International Journal of Mathematics and Statistics Invention, Volume7 Issue 2, 2019 ([arXiv:1512.03698](http://arxiv.org/abs/1512.03698), [published pdf](https://www.ijmsi.org/Papers/Volume.7.Issue.2/H07025255.pdf))
+* {#Sharma15} [[Amit Sharma]]: _On the homotopy theory of $G$-spaces_, International Journal of Mathematics and Statistics Invention, **7** 2 (2019) &lbrack;[arXiv:1512.03698](http://arxiv.org/abs/1512.03698), [published pdf](https://www.ijmsi.org/Papers/Volume.7.Issue.2/H07025255.pdf)&rbrack;
 
 Closely related discussion of homotopy fiber sequences and homotopy action but in terms of [[Segal spaces]] is in section 5 of
 
