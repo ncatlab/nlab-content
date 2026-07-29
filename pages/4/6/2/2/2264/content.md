@@ -15,7 +15,7 @@ An important motivating example is the operation $t$ of a [[heap]], for example 
 
 An [[algebraic theory]] $T$ is a __Malcev theory__ when $T$ contains a Malcev operation. An algebraic theory is Malcev iff one of the following equivalent statements is true:
 
-1. in the category of $T$-algebras, every [[internal relation|internal]] [[reflexive relation]] is a [[congruence]];
+1. in the category of $T$-algebras, every [[internal relation|internal]] [[reflexive relation]] is an internal [[equivalence relation]] (i.e., a [[congruence]]);
 
 2. in the category of $T$-algebras, the composite (as internal relations) of any two congruences is a congruence;
 
