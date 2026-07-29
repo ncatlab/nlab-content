@@ -17,9 +17,10 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -136,3 +137,6 @@ category: computer science, software
 
 [[!redirects computer science]]
 [[!redirects programming theory]]
+
+[[!redirects theoretical computer science]]
+
