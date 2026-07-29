@@ -27,9 +27,15 @@ Linguistics sign has also a dichotomy between its meaning and its expression.
 
 Linguistic systems are often also at several levels from personal idiom/idiolect, through social sociolects, regional dialects to languages and language families. There is no fundamental agreement of entirely consistent boundary of what is a boundary level of a language as opposed to dialects or language groups. Also there is no universal criterium of what a boundary of a word is, that is what a word is. 
 
+## Phonology
+
+Phonology is the subfield of linguistics that studies the grammatical notion of sound. The smallest unit of phonology is the _phoneme_, which is what is traditionally called a sound. Phonology is interested in such areas like vowel harmony, contrast, stress, allophony, phonological rules, phonological constraints etc. To read more, see [the page on phonology](https://ncatlab.org/nlab/show/phonology).
+
 ## Syntax
 
-Syntax is a description of how a received (valid) phrase or sentence is made out of its constituent parts and discipline studying syntax in that sense. 
+Syntax is the subfield of linguistics that studies sentence constructions. Through this, syntax is interested in grammaticality (valid, well-formed sentences) and it studies what makes sentences grammatical and what makes them ungrammatical. Since Chomsky's seminal work _Remarks on nominalization_, linguists have mostly adapted a binary branching tree representation to model the syntactic structure of natural languages. 
+
+It is of importance to note that the word "syntax" is used in many other fields as well, which differ from the syntax of linguistics (however, there are thematic similarities: the syntax used in logic also deals with well-formed expressions and validity).
 
 #### Grammar of formal languages
 
@@ -53,7 +59,7 @@ These different frameworks come in a hierarchy of expressive power, see [[Chomsk
 
 ## Semantics
 
-Formal theories of meaning are based on the principle of [[compositionality]]: the semantics of a sentence is a function of the meanings of its words, and of its grammatical structure (cf. *[[linguistic semantics]]*).
+Semantics is the subfield of linguistics that studies meaning. Many formal theories of meaning are based on the principle of [[compositionality]]: the semantics of a sentence is a function of the meanings of its words, and of its grammatical structure (cf. *[[linguistic semantics]]*).
 
 * [[Montague grammar|Montague semantics]]
 
