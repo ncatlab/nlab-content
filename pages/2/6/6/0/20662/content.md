@@ -9,32 +9,26 @@
 =--
 =--
 
-# Contents
-* table of contents
-{:toc}
 
 
 **Noam Chomsky** is an American [[linguistics|linguist]], [[philosophy|philosopher]], cognitive scientist, historian, political critic and activist.
 
-His early work on the mathematical description of language introduced the [[Chomsky hierarchy]], a total order of classes of [[formal language|formal languages]] and [[formal grammar|formal grammars]]. The hierarchy distinguishes regular, context-free, context-sensitive, and recursively enumerable languages, and relates these classes to fundamental models of computation such as finite automata, pushdown automata, linear-bounded automata, and Turing machines. It thereby establishes a connection between the mathematical study of language and [[computer science|theoretical computer science]].
 
 * [personal page](https://chomsky.info/)
 
 * [institute page](https://linguistics.arizona.edu/user/noam-chomsky)
 
-* [Chomsky's biographical entry on Wikipedia](https://en.wikipedia.org/wiki/Noam_Chomsky)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Noam_Chomsky)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=rbgNVw0AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Noam-Chomsky-25796553)
 
 
-## Notable Ideas
-
-* [[universal grammar]]
-
-* [[context-free grammar]]
-
-* [[Chomsky hierarchy]]
+Chomsky's early work on the [[mathematics|mathematical]] description of language introduced the *[[Chomsky hierarchy]]*, a [[total order]] of classes of [[formal language|formal languages]] and [[formal grammar|formal grammars]]. The hierarchy distinguishes regular, context-free, context-sensitive, and recursively enumerable languages, and relates these classes to fundamental models of [[computation]] such as [[finite automata]], pushdown automata, linear-bounded automata, and [[Turing machines]]. It thereby posits a connection between the mathematical study of language and [[theoretical computer science]].
 
 
-## References
+## Selected writings
 
 Introduction of the hierarchy of formal languages via automata models of grammar:
 
@@ -76,13 +70,22 @@ The preliminarily last word is here
 
 * Noam Chomsky, _The UCLA Lectures_ , ms. October 2020.  ([lingbuzz](https://ling.auf.net/lingbuzz/005485))
 
-## Selected publications
 
-[[Hopf algebras]] in generative linguistics:
+On [[Hopf algebras]] in generative linguistics:
 
 * [[Matilde Marcolli]], [[Noam Chomsky]], Robert Berwick, *Mathematical Structure of Syntactic Merge* ([arXiv:2305.18278](https://arxiv.org/abs/2305.18278))
 
 * [[Matilde Marcolli]], Robert Berwick, [[Noam Chomsky]], *Old and New Minimalism: a Hopf algebra comparison* ([arXiv:2306.10270](https://arxiv.org/abs/2306.10270))
+
+
+## Related entries
+
+* [[universal grammar]]
+
+* [[context-free grammar]]
+
+* [[Chomsky hierarchy]]
+
 
 category:people
 
