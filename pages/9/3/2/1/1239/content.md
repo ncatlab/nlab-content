@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 
 ## Idea
@@ -113,6 +112,8 @@ More in detail, this yields the following identifications:
 
 * [[irreducible representation]]
 
+* [[Maschke's theorem]]
+
 * [[Schur's lemma]]
 
 * [[Young diagram]]
@@ -180,6 +181,8 @@ for [[finite groups]]:
 * {#Serre77} [[Jean-Pierre Serre]]: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
 * [[Charles Curtis]], [[Irving Reiner]]: *Methods of representation theory -- With applications to finite groups and orders -- Vol. I*, Wiley (1981) &lbrack;[ark:/13960/t8gf4wd3x](https://archive.org/details/methodsofreprese00curt/page/n1/mode/2up)&rbrack;
+
+* David S. Dummit, Richard M. Foote; *Introduction  to the Representation Theory of Finite Groups*, part VI of: *Abstract Algebra*, Wiley (2003) &lbrack;[ISBN:978-0-471-43334-7](https://www.wiley.com/en-us/Abstract+Algebra%2C+3rd+Edition-p-9780471433347), [pdf](https://rksmvv.ac.in/wp-content/uploads/2021/04/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf)&rbrack;
 
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press (2010) &lbrack;[author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078)&rbrack;
 
