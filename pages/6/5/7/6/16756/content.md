@@ -41,6 +41,8 @@ On the [[Nicolai map]]:
 
 * Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *Towards a Nicolai map for supergravity* &lbrack;[arXiv:2509.17973](https://arxiv.org/abs/2509.17973)&rbrack;
 
+* Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *The coupling flow for supergravity* &lbrack;[arXiv:2607.25714](https://arxiv.org/abs/2607.25714)&rbrack;
+
 
 On [[Sasakian manifolds]] and [[quiver gauge theory]]:
 
