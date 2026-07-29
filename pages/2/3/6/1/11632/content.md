@@ -27,6 +27,8 @@ and of [[D=11 supergravity]]:
 
 * [[Guillaume Bossard]], [[Franz Ciceri]], [[Gianluca Inverso]], [[Axel Kleinschmidt]], [[Henning Samtleben]]: *[[E9|$E_9$]] exceptional field theory II. The complete dynamics*,  J. High Energ. Phys. **2021** 107 (2021). &lbrack;[arXiv:2103.12118](https://arxiv.org/abs/2103.12118), <a href="https://doi.org/10.1007/JHEP05(2021)107">doi:10.1007/JHEP05(2021)107</a>&rbrack;
 
+* Camille Eloy, [[Olaf Hohm]], Camilla Lavino, [[Henning Samtleben]], Yehudi Simon: *Kaluza-Klein Perturbation Theory from Exceptional Field Theory* &lbrack;[arXiv:2607.24914](https://arxiv.org/abs/2607.24914)&rbrack;
+
 
 On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]:
 
