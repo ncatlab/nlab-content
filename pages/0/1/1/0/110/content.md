@@ -30,8 +30,8 @@ between [[pairs]] of [[vertices]] — the morphism's [[source]] ([[domain]]) and
 
 ## Definition
 
-For a [[pair]] of objects $x$, and $y$ in a ([[locally small category|locally-small]]) category $A$, the [[set]], 
-$Hom _A (x,y)$, is called the [[hom-set]], the [[element|elements]] being morphisms of [[domain]] $x$, and [[codomain]] $y$. For a morphism $f$, denote $f : x \rightarrow y$ to mean $f \in Hom _A (x,y)$. In [[enriched category|enriched categories]], the object, $Hom _A (x,y)$, is called the [[hom-object]].
+For a [[pair]] of [[objects]] $x$ and $y$ in a [[locally small category|locally small]] category $A$, the [[set]] 
+$Hom _A (x,y)$ is called the [[hom-set]]. The [[element|elements]] being morphisms of [[domain]] $x$ and [[codomain]] $y$. For a morphism $f$, denote $f : x \rightarrow y$ to mean $f \in Hom _A (x,y)$. In [[enriched category|enriched categories]], the object, $Hom _A (x,y)$, is called the [[hom-object]].
 
 In [[higher category theory]], a morphism is a [[cell|1-cell]] of 0-cells in [[n-category|n-categories]].
 
