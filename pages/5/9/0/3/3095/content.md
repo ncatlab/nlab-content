@@ -8,14 +8,13 @@
 =--
 =--
 
-# Contents
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
 **Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [Wikipedia](http://en.wikipedia.org/wiki/Linguistics). It aims to develop a toolbox for description of concrete languages (applied linguistics, descriptive grammar), their classification (language families, language typology) as well as to understand how language functions (e.g. relations to cognition and social constraints) and changes (historical and comparative linguistics). The description of a concrete language includes organizational principles called grammar and distinguished constants called lexic. The grammar is described at several hierarchical levels 
-(phonetics, phonology, morphology, syntax). 
+(phonetics, [[phonology]], morphology, [[syntax]]). 
 
 There is an opposition between 
 
@@ -29,7 +28,7 @@ Linguistic systems are often also at several levels from personal idiom/idiolect
 
 ## Phonology
 
-Phonology is the subfield of linguistics that studies the grammatical notion of sound. The smallest unit of phonology is the _phoneme_, which is what is traditionally called a sound. Phonology is interested in such areas like vowel harmony, contrast, stress, allophony, phonological rules, phonological constraints etc. To read more, see [the page on phonology](https://ncatlab.org/nlab/show/phonology).
+*[[phonology|Phonology]]* is the subfield of linguistics that studies the grammatical notion of sound. The smallest unit of phonology is the _phoneme_, which is what is traditionally called a sound. Phonology is interested in such areas like vowel harmony, contrast, stress, allophony, phonological rules, phonological constraints etc. To read more, see [the page on phonology](https://ncatlab.org/nlab/show/phonology).
 
 ## Syntax
 
@@ -75,6 +74,8 @@ Pragmatics is concerned with the meaning of language in context.
 * [[language game]]
 
 ## Related Concepts
+
+* [[phonology]]
 
 * [[syntax]], [[semantics (linguistics)]]
 
