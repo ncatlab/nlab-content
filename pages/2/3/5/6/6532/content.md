@@ -95,6 +95,8 @@ On [[exceptional field theory]]:
 
 * [[Henning Samtleben]]: *Exceptional field theories*, in *Half a century of Supergravity*, Cambridge University Press &lbrack;[arXiv:2503.16947](https://arxiv.org/abs/2503.16947)&rbrack;
 
+* Camille Eloy, [[Olaf Hohm]], Camilla Lavino, [[Henning Samtleben]], Yehudi Simon: *Kaluza-Klein Perturbation Theory from Exceptional Field Theory* &lbrack;[arXiv:2607.24914](https://arxiv.org/abs/2607.24914)&rbrack;
+
 On the [[IKKT matrix model]] in relation to [[gauged supergravity]]:
 
 * Franz Ciceri, [[Henning Samtleben]]: *A supergravity dual for IKKT holography* &lbrack;[arXiv:2511.23111](https://arxiv.org/abs/2511.23111)&rbrack;
