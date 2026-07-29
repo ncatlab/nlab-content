@@ -61,11 +61,12 @@ This perspective is really due to
 
 * [[equivariant de Rham complex]]
 
+
 ## References
 
-The notion of fiberwise [[rationalization]] is due to
+The notion of fiberwise [[rationalization]] (and generally: [[completion of a space|completion]]) is due to
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], Section I.8 in: _Homotopy Limits, Completions and Localizations_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], Section I.8 in: _Homotopy Limits, Completions and Localizations_, Lecture Notes in Mathematics **304**, Springer (1972) &lbrack;[doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4)&rbrack;
 
 Rational homotopy theory (as well as [[real homotopy theory]]) for general connected spaces $X$ and regarded as Borel-equivariant rational homotopy theory of their [[covering spaces]] is laid out, and the corresponding [[fundamental theorem of dg-algebraic rational homotopy theory]] is proven, in: 
 
