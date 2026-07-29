@@ -40,6 +40,10 @@ Introduction of the hierarchy of formal languages via automata models of grammar
 
 * Noam Chomsky, _Three models for the description of language_, IRE Transactions on Information Theory (1956). ([draft](https://www.its.caltech.edu/~matilde/Chomsky3Models.pdf))
 
+The first text that introduced X-bar theory and started representing the syntax of natural human languages via binary branching tree representations: 
+
+* Noam Chomsky, _Remarks on nominalization_ (1970). ([pdf](https://hborer.sllf.qmul.ac.uk/Chomsky%20Remarks%20on%20Nominalization%20(1970;%20rev%201975%20OCR.pdf))
+
 THE classic text of modern (generative) linguistics introducing [[tree|tree representations]]:
 
 * Noam Chomsky, _Syntactic structures_, Mouton The Hague (1957).
@@ -50,7 +54,7 @@ Introduction of features into syntax and first general constraints on grammar tr
 
 The founding text of modern generative [[phonology]] carrying a heavy debt to structuralist linguistics:
 
-* N. Chomsky, M. Halle, _The Sound Pattern of English_ , MIT Press 1966.
+* Noam Chomsky, Morris Halle, _The Sound Pattern of English_ , MIT Press 1966.
 
 Taking issue with the generative semantics "heresy" as well as laying down the foundations of contemporary phrase structure theory:
 
