@@ -62,6 +62,12 @@ In ([HK77](#HK77)), the authors write "duality between 'controllability' and 'ob
 
 When a system is both fully controllable and observable, the so-called *separation principle* establishes that the design of a feedback controller and of a state observer are mutually independent. This facilitates the design of a closed-loop system with feedback from estimated states.
 
+## Petri nets
+
+An *incidence matrix*, $C$, between places and transitions of a [[Petri net]] may be constructed such that the $(p, t)$ entry is the difference between incoming and outgoing $p$ arcs to $t$. One instance of the duality here is between so called $P$-invariants, $y^{\top} \cdot C = 0$ (number of tokens in all reachable markings satisfies some linear invariant) and $T$-invariants, $C \cdot x = 0$ (loop or firing sequences leaving the token count unchanged). 
+
+In ([GARR](#GARR)), the authors discuss a duality which arises for a Petri net by switching its places and transitions, and reversing the directions of the arcs. This has the effect of replacing the incidence matrix, $C$, by the negative transpose, $-C^{\top}$. The $P$-invariants of a net are the $T$-invariants of the dual net, and *vice versa*.
+
 ## Bialgebraic description
 
 Often dualities of this form can be set in the framework of a [[bialgebra]] where a [[dynamical system|system]]'s evolution and its outputs are described as $F(X) \to X \to G(X)$ for $X$ an object of a category $\mathcal{C}$ and two endofunctors, $F$ and $G$, on $\mathcal{C}$. 
@@ -75,6 +81,8 @@ One example of this is given in [[Set]] where $F(X) = 1 + A \times X$ and $G(X) 
 Brzozowski's double-reversal minimisation algorithm for deterministic finite automata may be seen through this lens  as applying dualization then restricting to the reachable subpart twice.
 
 In the finite linear case, the relevant bialgebra is $U \oplus X \to X \to Y \oplus X$. The initial algebra is $\bigoplus_{i \in \mathbb{N}} U$, and the terminal coalgebra is $\prod_{i \in \mathbb{N}} Y$. These are infinite-dimensional and correspond to finite sequences of elements of $U$ and streams of elements of $Y$. Dualization here is to the [[dual vector space]].
+
+Since a system may be seen as giving rise to a map from an initial algebra to a terminal coalgebra which factors through it, frequently this map may be rephrased as a [[pairing]]. E.g., for automata, a map from $A^{\ast}$ to $2^{A^{\ast}}$, may be rewritten as a pairing $A^{\ast} \times A^{\ast} \to 2$. Similarly, in the finite linear case, a map $\bigoplus_{i \in \mathbb{N}} U$ to $\prod_{i \in \mathbb{N}} Y$, may be rewritten as a pairing, $\bigoplus_{i \in \mathbb{N}} U \times \bigoplus_{i \in \mathbb{N}} Y^{\ast} \to \mathbb{R}$. In this way, these examples become instances of [[Chu construction|Chu duality]] theory.
 
 
 ## References  
@@ -108,7 +116,7 @@ Duality between *output* controllability and *functional* observability for netw
 
 Duality in forms of [[Petri net]]:
 
-* J.L. García-Malacara, César Arzola, Antonio Ramírez-Treviño, C. Renato Vázquez, *Duality of controllability and observability in proportional equal conflict timed continuous Petri Nets*, Nonlinear Analysis: Hybrid Systems,
+* {#GARR} J.L. García-Malacara, César Arzola, Antonio Ramírez-Treviño, C. Renato Vázquez, *Duality of controllability and observability in proportional equal conflict timed continuous Petri Nets*, Nonlinear Analysis: Hybrid Systems,
 Volume 52, 2024 &lbrack;[doi:10.1016/j.nahs.2023.101455](https://doi.org/10.1016/j.nahs.2023.101455)&rbrack;.
 
 
