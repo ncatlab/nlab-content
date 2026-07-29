@@ -20,11 +20,13 @@ On [[monoidal enriched categories]]:
 
 * {#BataninMarkl12} [[Michael Batanin]], [[Martin Markl]], Section 2 of *Centers and homotopy centers in enriched monoidal categories*, Advances in Mathematics **230** 4–6 (2012) 1811-1858 &lbrack;[doi:10.1016/j.aim.2012.04.011](https://doi.org/10.1016/j.aim.2012.04.011), [arXiv:1109.4084](https://arxiv.org/abs/1109.4084)&rbrack;
 
+A [[2-monad|2-monadic]] characterization of [[abelian categories]]:
+
+* [[Martin Markl]], Dominik Trnka: *Lax Distributivity and a Characterization of Abelian Categories* &lbrack;[arXiv:2607.25740](https://arxiv.org/abs/2607.25740)&rbrack;
 
 
-* (...)
 
-## Related $n$Lab entries
+## Related entries
 
 
 * [[operad]]
