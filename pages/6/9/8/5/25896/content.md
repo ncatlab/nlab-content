@@ -15,6 +15,8 @@ On [[M2-M5-brane bound states]] in the [[BMN matrix model]]:
 
 * {#AIST17a} [[Yuhma Asano]], [[Goro Ishiki]], [[Shinji Shimasaki]], [[Seiji Terashima]], _On the transverse M5-branes in matrix theory_, Phys. Rev. D **96** 126003 (2017) &lbrack;[arXiv:1701.07140](https://arxiv.org/abs/1701.07140), [doi:10.1103/PhysRevD.96.126003](https://doi.org/10.1103/PhysRevD.96.126003)&rbrack;
 
+* [[Yuhma Asano]], [[Goro Ishiki]], [[Shinji Shimasaki]]: *Derivation of the NS5-brane limit of the plane wave matrix model* \[<a href="https://arxiv.org/abs/2607.25116">arXiv:2607.25116</a>\]
+
 
 category: people
 
