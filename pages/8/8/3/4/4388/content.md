@@ -126,6 +126,9 @@ category:computer science
 
 [[!redirects Aut]]
 
+[[!redirects finite automaton]]
+[[!redirects finite automata]]
+
 [[!redirects finite state automaton]]
 [[!redirects finite state automatons]]
 [[!redirects finite state automata]]
