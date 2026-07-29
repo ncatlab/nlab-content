@@ -11,8 +11,6 @@
 =--
 
 
-
-# Preservation of limits
 * table of contents
 {: toc}
 
@@ -124,7 +122,9 @@ The propositions above taken together imply the following:
 
 * [[adjoints preserve (co-)limits]]
 
-* {#ExampleYonedaEmbedding} the [[Yoneda embedding]] preserves limits (see [there](Yoneda+embedding#PreservesLimits))
+* {#ExampleYonedaEmbedding} the [[Yoneda embedding]] preserves limits (see [there](Yoneda+embedding#PreservesLimits)); more generally, every [[dense functor|dense]] and [[fully faithful functor|fully faithful]] functor preserves (and [[reflected limit|reflects]]) limits (see Corollary 2.42 of [Arkor & McDermott 2026](#AM26))
+
+The final example gives an instance of a dense and fully faithful functor that does not [[lifted limit|lift limits]], since absolute limits are not lifted.
 
 ## Non-Examples
 
@@ -171,6 +171,9 @@ Finishing the motivating example, a __[[flat functor]]__ may be defined as one t
 * [[Francis Borceux]], §2.4 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
 * [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+
+* {#AM26} [[Nathanael Arkor]], [[Dylan McDermott]], *Presheaves and cocompletions in formal category theory* &lbrack;[arXiv:2604.22370](https://arxiv.org/abs/2604.22370)&rbrack;
+
 
 
 [[!redirects preserved limit]]
