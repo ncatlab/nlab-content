@@ -16,7 +16,7 @@
 
 **Noam Chomsky** is an American [[linguistics|linguist]], [[philosophy|philosopher]], cognitive scientist, historian, political critic and activist.
 
-His seminal early work on [[language|formal language]] theory and computational [[complexity theory]] is by now an established part of the foundations of [[computer science]].
+His early work on the mathematical description of language introduced the [[Chomsky hierarchy]], a total order of classes of [[formal language|formal languages]] and [[formal grammar|formal grammars]]. The hierarchy distinguishes regular, context-free, context-sensitive, and recursively enumerable languages, and relates these classes to fundamental models of computation such as finite automata, pushdown automata, linear-bounded automata, and Turing machines. It thereby establishes a connection between the mathematical study of language and [[computer science|theoretical computer science]].
 
 * [personal page](https://chomsky.info/)
 
