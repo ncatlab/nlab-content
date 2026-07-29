@@ -13,13 +13,15 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
 Generally, given a [[covering space]] $E \to X$, a *deck transformation* is a [[bundle]]-[[automorphism]], hence a [[continuous map]] $\delta \,\colon\, E \xrightarrow{\;\sim\;} E$ fixing the base $X$.
+
+> (from German *decken* (*&uuml;berdecken*) for "to cover")
 
 Assuming without real restriction that $X$ is [[connected topological space|connected]], then $E \to X$ is a [[principal bundle]] with [[discrete space|discrete]] [[fibers]] and the deck transformation determines and is determined by the element $\delta_x \,\colon\, E_x \xrightarrow{\;\sim\;} E_x$ of the [[permutation group]] $Aut(E_x)$ of its [[fiber]] $E_x$ over any fixed [[basepoint]] $x \in X$.
 
