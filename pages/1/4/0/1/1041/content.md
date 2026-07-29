@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ##Idea
@@ -308,9 +306,14 @@ On [[diagram chasing]] and [[elements in an abelian category]]:
 
 For more discussion of the _[[Freyd-Mitchell embedding theorem]]_ see there.
 
-The proof that $R Mod$ is an abelian category is spelled out for instance in 
+A proof that $R Mod$ is an abelian category: 
 
 * Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
+
+A [[2-monad|2-monadic]] characterization of abelian categories:
+
+* [[Martin Markl]], Dominik Trnka: *Lax Distributivity and a Characterization of Abelian Categories* &lbrack;[arXiv:2607.25740](https://arxiv.org/abs/2607.25740)&rbrack;
+
 
 A discussion about to which extent abelian categories are a general context for [[homological algebra]] is archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2052&Focus=17680#Comment_17680).
 
@@ -320,7 +323,7 @@ Formalization of abelian categories as [[univalent categories]] in [[univalent f
 
 * [[unimath]], *Abelian Categories* &lbrack;[UniMath.CategoryTheory.Abelian](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Abelian.html)&rbrack;
 
-Generalization of abelian categories to [[(n,1)-categories]] is in:
+Generalization of abelian categories to [[(n,1)-categories]]:
 
 * Nao Mochizuki, _Higher-dimensional generalization of abelian categories via DG Categories_ &lbrack;[arXiv:2501.06955](https://arxiv.org/abs/2501.06955)&rbrack;
 
