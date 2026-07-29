@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -209,15 +207,15 @@ Volume A: Space-group symmetry* Second online edition, Wiley Online Library (201
 
 Bieberbach's original articles:
 
-* {#Bieberbach1910} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen des $n$ dimensionalen Euklidischen Raumes mit einem endlichen Fundamentalbereich*, Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse (1910) 75-84 $[$[dml:58754](https://eudml.org/doc/58754)$]$
+* {#Bieberbach1910} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen des $n$ dimensionalen Euklidischen Raumes mit einem endlichen Fundamentalbereich*, Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse (1910) 75-84 $[$[dml:58754](https://eudml.org/doc/58754)\]
 
-* {#Bieberbach1911} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (Erste Abhandlung)*, Mathematische Annalen **70** (1911) 297–336  $[$[doi:10.1007/BF01564500](https://doi.org/10.1007/BF01564500)$]$
+* {#Bieberbach1911} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (Erste Abhandlung)*, Mathematische Annalen **70** (1911) 297–336  $[$[doi:10.1007/BF01564500](https://doi.org/10.1007/BF01564500)\]
 
-* {#Bieberbach1912} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (ZweiteAbhandlung.) Die Gruppen mit einem endlichen Fundamentalbereich*, Mathematische Annalen  **72** (1912) 400-412 $[$[doi:10.1007/BF01456724]( https://doi.org/10.1007/BF01456724)$]$
+* {#Bieberbach1912} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (ZweiteAbhandlung.) Die Gruppen mit einem endlichen Fundamentalbereich*, Mathematische Annalen  **72** (1912) 400-412 $[$[doi:10.1007/BF01456724]( https://doi.org/10.1007/BF01456724)\]
 
 A monograph on the topic:
 
-* {#Charlap86} [[Leonard S. Charlap]], *Bieberbach Groups and Flat Manifolds*, Springer (1986) $[$[doi:10.1007/978-1-4613-8687-2](https://doi.org/10.1007/978-1-4613-8687-2)$]$
+* {#Charlap86} [[Leonard S. Charlap]], *Bieberbach Groups and Flat Manifolds*, Springer (1986) $[$[doi:10.1007/978-1-4613-8687-2](https://doi.org/10.1007/978-1-4613-8687-2)\]
 
 See also
 
@@ -245,6 +243,11 @@ On the [[quotient orbifold|quotient]] [[orbifolds]] of [[Euclidean spaces]] by c
   * 2.2. [Euclidean 2-Orbifolds from Plane Groups](https://ornl-ndav.github.io/ortep/topology/orbfld2.html)
 
   * [Orbifold atlas](https://ornl-ndav.github.io/ortep/topology/atlas/atlas.html)
+
+On the [[group cohomology]] of crystallographic groups:
+
+* Chunxiao Liu, Weicheng Ye: *Crystallography, Group Cohomology, and Lieb-Schultz-Mattis Constraints* &lbrack;[arXiv:2410.03607](https://arxiv.org/abs/2410.03607)&rbrack;
+
 
 
 
