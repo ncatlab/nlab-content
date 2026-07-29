@@ -301,6 +301,11 @@ Relation to the [[Galois group]] of [[G-spectra]]:
 
 * [[Niko Naumann]], [[Luca Pol]], [[Maxime Ramzi]]: *The Galois theory of -spectra and the Burnside ring* &lbrack;[arXiv:2605.10280](https://arxiv.org/abs/2605.10280)&rbrack;
 
+See also:
+
+* José Miguel Calderón León, Alberto G. Raggi-Cárdenas, Itzel Rosas, Ramón H. Ruiz-Medina: *The Burnside ring of simple $\mathcal{C}$-sets* &lbrack;[arXiv:2607.25036](https://arxiv.org/abs/2607.25036)&rbrack;
+
+
 
 [[!redirects Burnside rings]]
 
