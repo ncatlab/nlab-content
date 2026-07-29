@@ -11,10 +11,7 @@
 
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea ##
@@ -102,6 +99,8 @@ $$
 * [[simple object]]
 
 * [[fundamental representation]]
+
+* [[Maschke's theorem]]
 
 * In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_. 
 
