@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -133,11 +131,15 @@ On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simo
 * [[Oscar Varela]]: _Super-Chern-Simons spectra from Exceptional Field Theory_, J. High Energ. Phys. **2021** 283 (2021) &lbrack;[arXiv:2010.09743](https://arxiv.org/abs/2010.09743), <a href="https://doi.org/10.1007/JHEP04(2021)283">doi:10.1007/JHEP04(2021)283</a>&rbrack;
 
 
-See also:
 
 On application to [[KK-reduction]] of [[D=10 supergravity]] and [[D=11 supergravity]] on [[squashed sphere|squashed]] [[7-spheres]]:
 
 * {#DuboeufMalekSamtleben23} Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]]: *Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
+
+See also:
+
+* Camille Eloy, [[Olaf Hohm]], Camilla Lavino, [[Henning Samtleben]], Yehudi Simon: *Kaluza-Klein Perturbation Theory from Exceptional Field Theory* &lbrack;[arXiv:2607.24914](https://arxiv.org/abs/2607.24914)&rbrack;
+
 
 
 
