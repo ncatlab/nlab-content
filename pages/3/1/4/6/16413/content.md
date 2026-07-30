@@ -1,7 +1,7 @@
 
-**Giuseppe Rosolini** is an Italian theoretical computer scientist.
+**Giuseppe (Pino) Rosolini** is a mathematician, now retired from Università di Genova. His research interest are mainly in categorical logic, topos theory and constructive mathematics, with possible applications to theoretical computer science.
 
- * [homepage](https://www.dima.unige.it/~rosolini/)
+ * [Google scholar](https://scholar.google.it/citations?user=_T6lOuMAAAAJ&hl=it)
 
 ## Selected writings
 
@@ -11,7 +11,7 @@ On [[fibered category|fibrations]] of [[enriched groupoids]] as [[categorical se
 
 A [[2-comonad]] characterizing [[Grothendieck fibrations]]:
 
-* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
+* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[tac:40](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)&rbrack;
 
 
 
