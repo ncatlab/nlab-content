@@ -110,8 +110,10 @@ Further discussion:
 
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
 
-
 * Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
+
+* Zhiyuan Wang, Kaden R. A. Hazzard: *On $R$-parastatistics I: Foundation* &lbrack;[arXiv:2607.26351](https://arxiv.org/abs/2607.26351)&rbrack;
+
 
 Observation that parastatics is ruled out if statistics of [[mixed states]] is independent of coupling to any bath:
 
