@@ -27,7 +27,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _Rigid models for 2-gerbes I: Chern-Simons geometry_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) (2026), doi:[10.1007/s40062-025-00381-w](https://doi.org/10.1007/s40062-025-00381-w), [arXiv:2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+* _Rigid models for 2-gerbes I: Chern-Simons geometry_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) **21** Issue 3 (2026) pp 389–454, doi:[10.1007/s40062-025-00381-w](https://doi.org/10.1007/s40062-025-00381-w), [arXiv:2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
 * _Homotopy types of topological stacks of categories_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 30 (2024), 940-955, [journal version](https://nyjm.albany.edu/j/2024/30-41.html), [arXiv:2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). 
 
