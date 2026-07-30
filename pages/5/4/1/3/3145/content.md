@@ -158,6 +158,10 @@ On a relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
 
+On [[GAGA]] phenomena relating [[algebraic geometry]] and [[analytic geometry]]:
+
+* [[Aravind Asok]], [[Tom Bachmann]], [[Michael J. Hopkins]]: *Algebraic vs. analytic: a survey* &lbrack;[arXiv:2607.26190](https://arxiv.org/abs/2607.26190)&rbrack;
+
 
 
 ## Related entries
