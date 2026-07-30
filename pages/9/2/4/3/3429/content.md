@@ -1,4 +1,6 @@
 
+Eduardo Dubuc (--2026)
+
 * [institute page](https://web.dm.uba.ar/index.php/institucional/integrantes/profesores?view=teacher&id=248:dubuc-eduardo)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=6615)
