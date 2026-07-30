@@ -109,11 +109,11 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 ## References
 
-The definition of skew-monoidal category essentially appears in §2.2 of the following, but with only 2 of the 5 coherence axioms (i.e. [[Max Kelly]]'s simplified axioms for [[monoidal categories]], rather than [[Mac Lane]]'s original axioms):
+A precursor to the definition of skew-monoidal category essentially appears in §2.2 of the following, but with only 2 of the 5 coherence axioms (i.e. [[Max Kelly]]'s simplified axioms for [[monoidal categories]], rather than [[Mac Lane]]'s original axioms):
 
 * [[Marek Zawadowski]], _Lax monoidal fibrations_, [arXiv:0912.4464](https://arxiv.org/abs/0912.4464) (2009).
 
-The notion was later rediscovered in Theorem 4 of:
+The notion of skew monoidal category was essentially introduced in Theorem 4 of:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], and [[Tarmo Uustalu]], _Monads need not be endofunctors_, Proceedings of the 13th international conference on Foundations of Software Science and Computational Structures (2010).
 
