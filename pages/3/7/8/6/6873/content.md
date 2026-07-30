@@ -29,5 +29,9 @@ On [[perturbative quantum field theory|perturbative]] [[quantization of 3d Chern
 
 * [[Pavel Mnev]], [[Konstantin Wernli]]: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
 
+On [[AKSZ sigma-model|AKSZ theories]]:
+
+* Leon Menger, [[Pavel Mnev]]: *Towards First Quantisation Formalism for AKSZ Theories* &lbrack;[arXiv:2607.26394](https://arxiv.org/abs/2607.26394)&rbrack;
+
 
 category: people
