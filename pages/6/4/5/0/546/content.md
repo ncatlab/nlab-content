@@ -24,7 +24,7 @@ If $c_0 \to c_1 \leftarrow c_0$ is a cocategory object in $C$, then by homming o
 
 ### Cocategory
 
-Let $A$ be a [[category]] with [[pullbacks]]. A __cocategory__ $C$ is a category object [[internal category|internal to]] category $A^{op}$, consisting of:
+Let $A$ be a [[category]] with [[pushouts]]. A __cocategory__ $C$ is a category object [[internal category|internal to]] category $A^{op}$, consisting of:
 
 * an [[object]] _of [[objects]]_ $C_0 \in A$;
 
