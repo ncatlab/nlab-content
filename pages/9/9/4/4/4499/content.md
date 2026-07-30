@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -76,6 +74,15 @@ Generalization to  [[higher geometry]] ([[stacks]]) includes
 Discussion in the context of [[moduli spaces]] includes
 
 * Kai-Wen Lan, _Comparison between analytic and algebraic constructions of toroidal compactifications of PEL-type Shimura varieties_ [pdf](http://math.umn.edu/~kwlan/articles/cpt-ana-alg.pdf)
+
+See also:
+
+* [[Aravind Asok]], [[Tom Bachmann]], [[Michael J. Hopkins]]: *Algebraic vs. analytic: a survey* &lbrack;[arXiv:2607.26190](https://arxiv.org/abs/2607.26190)&rbrack;
+
+
+
+
+
 
 [[!redirects GAGA principle]]
 
