@@ -9,9 +9,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -192,7 +190,9 @@ $$
 
 =--
 
+
 ### Functoriality in domain and codomain
+ {#FunctorialityInDomainAndCodomain}
 
 +-- {: .num_prop #QuillenFunctorialityInCodomain}
 ###### Proposition
