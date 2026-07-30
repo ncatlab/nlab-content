@@ -97,7 +97,7 @@ For more see also at _[[cosmic Galois group]]_ for more on this.
 
 The Grothendieck-Teichm&#252;ller group $GRT$ was originally introduced in
 
-* [[Vladimir Drinfel'd]], _On quasitriangular quasi-Hopf algebras and on a group that is closely connected with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$_, [abs](http://mi.mathnet.ru/aa199), Rossi&#301;skaya Akademiya Nauk. Algebra i Analiz (in Russian) 2 (4): 149&#8211;181, ISSN 0234-0852, MR1080203 translation in Leningrad Math. J. 2 (1991), no. 4, 829&#8211;860
+* [[Vladimir Drinfel'd]], _On quasitriangular quasi-Hopf algebras and on a group that is closely connected with $\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$_, [abs](http://mi.mathnet.ru/aa199), Rossi&#301;skaya Akademiya Nauk. Algebra i Analiz (in Russian) 2 (4): 149&#8211;181, ISSN 0234-0852, MR1080203 translation in Leningrad Math. J. 2 (1991), no. 4, 829&#8211;860
 
 inspired by
 
@@ -129,7 +129,7 @@ Relation to [[automorphism groups]] of the [[profinite completion]] of [[braid g
 
 The Drinfeld conjecture is stated in
 
-* {#Drinfeld91} [[Vladimir Drinfel'd]], _On quasi-triangular quasi-Hopf algebras and a group closely related with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$, Leningrad Math. J. 2 (1991) 829--860.
+* {#Drinfeld91} [[Vladimir Drinfel'd]], _On quasi-triangular quasi-Hopf algebras and a group closely related with $\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, Leningrad Math. J. 2 (1991) 829--860.
 
 See also:
  
