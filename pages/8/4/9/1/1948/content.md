@@ -491,6 +491,9 @@ See also
 
 [[!redirects model structures on functors]]
 
+[[!redirects model structure on a functor category]]
+[[!redirects model structure on functor categories]]
+
 [[!redirects injective model structure]]
 [[!redirects injective model structures]]
 [[!redirects injective model structure on functors]]
