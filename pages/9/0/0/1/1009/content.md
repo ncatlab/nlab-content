@@ -21,9 +21,7 @@
 
 
 
-# Contents
-* table of contents 
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -314,6 +312,11 @@ An example in [[higher spin gauge theory]]:
 Discussion as an [[extended functorial field theories]] via [[derived algebraic geometry]]:
 
 * {#CalaqueHaugsengScheimbauer2025} [[Damien Calaque]], [[Rune Haugseng]], [[Claudia Scheimbauer]]: *The AKSZ Construction in Derived Algebraic Geometry as an Extended Topological Field Theory*, Memoirs of the American Mathematical Society **308** 1555 (2025)  &lbrack;[arXiv:2108.02473](https://arxiv.org/abs/2108.02473), [doi:10.1090/memo/1555](https://doi.org/10.1090/memo/1555)&rbrack;
+
+See also:
+
+* Leon Menger, [[Pavel Mnev]]: *Towards First Quantisation Formalism for AKSZ Theories* &lbrack;[arXiv:2607.26394](https://arxiv.org/abs/2607.26394)&rbrack;
+
 
 
 [[!redirects AKSZ sigma-models]]
