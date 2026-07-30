@@ -111,6 +111,8 @@ See also:
 * Wikipedia: *[Quantum anomalous Hall effect](https://en.wikipedia.org/wiki/Quantum_anomalous_Hall_effect)*
 
 
+
+
 ### Fractional QAHE
 
 #### General
@@ -198,6 +200,9 @@ Further discussion:
 
 
 * [[Ahmed Abouelkomsan]], [[Zhao Liu]], [[Emil J. Bergholtz]]: *Particle-Hole Duality, Emergent Fermi Liquids and Fractional Chern Insulators in Moiré Flatbands*,  	Phys. Rev. Lett. **124** (2020) 106803 \[<a href="https://doi.org/10.1103/PhysRevLett.124.106803">doi:10.1103/PhysRevLett.124.106803</a>, [arXiv:1912.04907](https://arxiv.org/abs/1912.04907)\]
+
+* V. Yu. Irkhin, Yu. N. Skryabin: *Electronic States and Anomalous Hall Effect in Strongly Correlated Topological Systems*, Journal of Experimental and Theoretical Physics,  **133** 1 (2021) 116--123 \[<a href="https://doi.org/10.1134/S1063776121060030">doi:10.1134/S1063776121060030</a>, [arXiv:2108.13851 cond-mat.str-el](https://arxiv.org/abs/2108.13851)\]
+
 
 * Valentin Crépel, Liang Fu: *Anomalous Hall metal and fractional Chern insulator in twisted transition metal dichalcogenides*, Phys. Rev. B **107** (2023) L201109 &lbrack;[arXiv:2207.08895](https://arxiv.org/abs/2207.08895), [doi:10.1103/PhysRevB.107.L201109](https://doi.org/10.1103/PhysRevB.107.L201109)&rbrack;
 
