@@ -194,6 +194,9 @@ See also:
 
 Further discussion:
 
+* Adolfo G. Grushin, [[Titus Neupert]], [[Claudio Chamon]], [[Christopher Mudry]]: *Enhancing the stability of a fractional Chern insulator against competing phases*, Phys. Rev. B **86**, 205125 (2012) \[<a href="https://doi.org/10.1103/PhysRevB.86.205125">doi:10.1103/PhysRevB.86.205125</a>, [arXiv:1207.4097 cond-mat.str-el](https://arxiv.org/abs/1207.4097)\]
+
+
 * [[Ahmed Abouelkomsan]], [[Zhao Liu]], [[Emil J. Bergholtz]]: *Particle-Hole Duality, Emergent Fermi Liquids and Fractional Chern Insulators in Moiré Flatbands*,  	Phys. Rev. Lett. **124** (2020) 106803 \[<a href="https://doi.org/10.1103/PhysRevLett.124.106803">doi:10.1103/PhysRevLett.124.106803</a>, [arXiv:1912.04907](https://arxiv.org/abs/1912.04907)\]
 
 * Valentin Crépel, Liang Fu: *Anomalous Hall metal and fractional Chern insulator in twisted transition metal dichalcogenides*, Phys. Rev. B **107** (2023) L201109 &lbrack;[arXiv:2207.08895](https://arxiv.org/abs/2207.08895), [doi:10.1103/PhysRevB.107.L201109](https://doi.org/10.1103/PhysRevB.107.L201109)&rbrack;
