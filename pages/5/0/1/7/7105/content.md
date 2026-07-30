@@ -797,7 +797,7 @@ Discussion in the context of [[stable model categories]]:
 
 Discussion in the context of [[homotopy type theory]]:
 
-* [[Evan Cavallo]] et al.: _Exactness of the Mayer-Vietoris Sequence in Homotopy Type Theory_ &lbrack;[pdf](https://staff.math.su.se/evan.cavallo/works/mayer-vietoris.pdf), [[Cavally-MayerVietoris.pdf:file]]&rbrack;
+* [[Evan Cavallo]], Section 4.5 of *Synthetic Cohomology in Homotopy Type Theory* (2015). Master's Thesis. Carnegie Mellon University, USA. &lbrack;[pdf](https://ecavallo.net/works/thesis15.pdf), [[Cavallo-CohomologyInHoTT.pdf:file]]&rbrack;
 
 [[!redirects Mayer-Vietoris sequences]]
 [[!redirects Mayer-Vietoris long exact sequence]]
