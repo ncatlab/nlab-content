@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea 
 
@@ -39,7 +38,7 @@ Below we spell out special cases, such as restricting to [[commutative monoids]]
 ## On connective dgc-algebras
 
 We discuss the projective model structure on 
-[[differential graded-commutative algebras|differential non-negatively graded-commutative algebras]]. This was originally introduced in [Bousfield-Gugenheim 76](#BousfieldGugenheim76) as a [[model category]] for [[Dennis Sullivan]]'s approach to [[rational homotopy theory]].
+[[differential graded-commutative algebras|differential non-negatively graded-commutative algebras]]. This was originally introduced in [Bousfield-Gugenheim 76](#BousfieldGugenheim76) as a [[model category]] for [Sullivan 1977](rational homotopy theory#Sullivan77)'s approach to [[rational homotopy theory]].
 
 ### Definition 
 
