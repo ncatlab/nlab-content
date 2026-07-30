@@ -13,6 +13,10 @@ review:
 
 * [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta. **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
 
+Further discussion of [[fractional Chern insulators]]:
+
+* Adolfo G. Grushin, [[Titus Neupert]], [[Claudio Chamon]], [[Christopher Mudry]]: *Enhancing the stability of a fractional Chern insulator against competing phases*, Phys. Rev. B **86**, 205125 (2012) \[<a href="https://doi.org/10.1103/PhysRevB.86.205125">doi:10.1103/PhysRevB.86.205125</a>, [arXiv:1207.4097 cond-mat.str-el](https://arxiv.org/abs/1207.4097)\]
+
 
 
 On higher order [[topological insulators]] (with protected corner-modes beyond the edge-modes):
