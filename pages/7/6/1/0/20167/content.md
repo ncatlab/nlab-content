@@ -716,6 +716,9 @@ See also:
 
 * Wikipedia: *[Hopf-Whitney theorem](https://en.wikipedia.org/wiki/Hopf%E2%80%93Whitney_theorem)*
 
+* Christoforos Neofytidis: *A topological interpretation of numbers* &lbrack;[arXiv:2607.26926](https://arxiv.org/abs/2607.26926)&rbrack;
+
+
 Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
 * {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
