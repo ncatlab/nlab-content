@@ -132,6 +132,8 @@ See also the examples at _[[operad]]_.
 
 * [[fibration of multicategories]]
 
+* [[virtual double category]]
+
 
 ## References
 
