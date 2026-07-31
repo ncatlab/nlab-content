@@ -70,6 +70,9 @@ Review with emphasis on the explanation of [[anomalous velocity]] via [[Berry cu
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1. of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205)&rbrack;
 
+* Dimitrie Culcer: *The Anomalous Hall Effect*, Encyclopedia of Condensed Matter Physics (Second Edition) **1** (2024) 587--601 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00006-8">doi:10.1016/B978-0-323-90800-9.00006-8</a>, [arXiv:2204.02434](https://arxiv.org/abs/2204.02434)\]
+
+
 
 See also:
 
