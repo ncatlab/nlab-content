@@ -10,8 +10,6 @@
 =--
 
 
-
-# Essentially surjective functors
 * table of contents
 {: toc}
 
@@ -65,3 +63,4 @@ A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there
 [[!redirects eso functor]]
 [[!redirects eso functors]]
 [[!redirects essentially surjective]]
+[[!redirects essentially surjective on objects]]
