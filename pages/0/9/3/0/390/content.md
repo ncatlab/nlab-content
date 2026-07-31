@@ -364,3 +364,4 @@ A connection to [[double categories]] may be found in:
 [[!redirects unique factorisation systems]]
 [[!redirects prefactorization system]]
 [[!redirects prefactorization systems]]
+[[!redirects OFS]]
