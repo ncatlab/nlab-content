@@ -51,7 +51,7 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 An object $X$ of a [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] may be contractible (or not) in different ways (*[[modality|modes]]*):
 
-* The object $X$ itself may by contractible in that it is [[n-truncated object of an (infinity,1)-category|(-2)-truncated]]. This is an extremely strong notion: It says that $X$ is [[generalized the|the]] [[terminal object]]: [[generalized the|the]] [[point]], $X \simeq \ast$.
+* The object $X$ itself may be contractible in that it is [[n-truncated object of an (infinity,1)-category|(-2)-truncated]]. This is an extremely strong notion: It says that $X$ is [[generalized the|the]] [[terminal object]]: [[generalized the|the]] [[point]], $X \simeq \ast$.
 
 * The [[flat modality|underlying $\infty$-groupoid]] $\flat X$ may be contractible, $\flat X \simeq \ast$.
 
@@ -67,7 +67,7 @@ An object $X$ of a [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] may b
 
 * Its [[sharp modality|codiscrete]] aspect $\sharp X$ may be contractible, $\sharp X \simeq \ast$.
 
-  But (since $\flat \sharp \simeq \flat$ and $\sharp \circ \flat \simeq \sharp$,  and $\flat \ast \simeq \ast$) this is equivalent to $\flat X$ being contractible.
+  But this is equivalent to $\flat X$ being contractible (since $\flat \sharp \simeq \flat$ and $\sharp \circ \flat \simeq \sharp$,  and $\flat \ast \simeq \ast \simeq \sharp \ast$). 
 
 
 
