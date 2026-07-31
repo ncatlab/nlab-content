@@ -15,13 +15,13 @@
 
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Definition
 
 ### For topological spaces
+ {#ForTopologicalSpace}
 
 A [[topological space]] $X$ is **contractible** if the canonical map $X \to \ast$ is a [[homotopy equivalence]]. It is **weakly contractible** if this map is a [[weak homotopy equivalence]], hence if all [[homotopy groups]] of $X$ are trivial.
 
@@ -45,9 +45,31 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 * an $\infty$-groupoid is **(-2)-[[truncated]]** (is a [[(-2)-groupoid]]) if it is equivalent to the point.
 
-### For cohesive $\infty$-groupoids
 
-[[cohesive infinity-groupoid|Cohesive $\infty$-groupoids]] could be contractible in two different ways: topologically contractible in the first sense, or homotopically contractible in the second sense. A cohesive $\infty$-groupoid $S$ is **homotopically contractible** if its underlying $\infty$-groupoid $\Gamma(S)$ is contractible. A cohesive $\infty$-groupoid is **topologically contractible** if its [[fundamental infinity-groupoid]] $\Pi(S)$ is contractible. These two notions of contractibility are not equivalent to each other: in [[Euclidean-topological infinity-groupoids]] the [[unit interval]] is topologically contractible, but homotopically the unit interval is only [[0-truncated]]. 
+### For cohesive $\infty$-groupoids
+ {#ForCohesiveInfinityGroupoids}
+
+An object $X$ of a [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] may be contractible (or not) in different ways (*[[modality|modes]]*):
+
+* The object $X$ itself may by contractible in that it is [[n-truncated object of an (infinity,1)-category|(-2)-truncated]]. This is an extremely strong notion: It says that $X$ is [[generalized the|the]] [[terminal object]]: [[generalized the|the]] [[point]], $X \simeq \ast$.
+
+* The [[flat modality|underlying $\infty$-groupoid]] $\flat X$ may be contractible, $\flat X \simeq \ast$.
+
+  This condition is slightly weaker than full contractibility. For instance an [[infinitesimally thickened point]] $\mathbb{D}$, regarded as a [[0-truncated object|0-truncated]]  [[haloed smooth infinity-groupoid|haloed smooth $\infty$-groupoid]], is generally not the actual point, but has $\flat \mathbb{D} \simeq \ast$.
+
+* Its [[shape modality|shape]] $\esh X \in Grpd_\infty$ may be contractible, $\esh X \simeq \ast$.
+
+  This is the *geometric* (or *cohesive*) notion of contractibility.
+
+  For instance a [[Cartesian space]] ([[vector space]]) $\mathbb{R}^n$, regarded as a [[0-truncated object|0-truncated]] [[smooth infinity-groupoid|smooth $\infty$-groupoid]] has contractible shape, $\esh \mathbb{R}^n \simeq \ast$. 
+
+  More generally, a [[topological space]] (or [[smooth manifold]]) $X$, has contractible shape when regarded as a [[0-truncated object|0-truncated]] [[Euclidean-topological infinity-groupoid|Euclidean-topological $\infty$-groupoid]] ([[smooth infinity-groupoid|smooth $\infty$-groupoid]]) precisely if it is a weakly contractible topological space in the traditional sense ([above](#ForTopologicalSpace)).
+
+* Its [[sharp modality|codiscrete]] aspect $\sharp X$ may be contractible, $\sharp X \simeq \ast$.
+
+  But (since $\flat \sharp \simeq \flat$ and $\sharp \circ \flat \simeq \sharp$,  and $\flat \ast \simeq \ast$) this is equivalent to $\flat X$ being contractible.
+
+
 
 ## Examples
 
