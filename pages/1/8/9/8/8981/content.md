@@ -18,9 +18,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -97,3 +97,5 @@ The dedicated type theory formulation with "crisp" types, as part of the formula
 [[!redirects strict sharp types]]
 [[!redirects weak sharp type]]
 [[!redirects weak sharp types]]
+
+[[!redirects chaotic modality]]
