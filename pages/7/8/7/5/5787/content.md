@@ -10,9 +10,8 @@
 =--
 
 
-# Pure morphisms
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## In category theory
 
