@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -128,17 +126,17 @@ For literature on [[internal categories]] in [[1-toposes]] see at _[[2-sheaf]]_.
 
 ## References
 
-An introduction is in
+An introduction:
 
 * [[Mike Shulman]], _[[michaelshulman:What is a 2-topos]]?_
 
-Early developments include
+Early developments:
 
 * [[Ross Street]], _Two dimensional sheaf theory_, J. Pure and Appl. Algebra 24 (1982) 2Opp.
 
 * [[Dominique Bourn]], _Sur les ditopos_, C. R. Acad. Sci. Paris 279, 911–913 (1974).
 
-A detailed discussion from the point of view of [[internal logic]] is at
+Discussion from the point of view of [[internal logic]]:
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
 
@@ -148,7 +146,7 @@ Discussion of the 2-categorical [[Giraud theorem]] for [[2-sheaf]] 2-toposes is 
 
 * [[Mike Shulman]], _[[michaelshulman:2-Giraud theorem]]_
 
-Discussion of the [[elementary topos]]-analog of 2-toposes is in
+Discussion of the [[elementary topos]]-analog of 2-toposes:
 
 * [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
@@ -156,13 +154,18 @@ A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to t
 
 * M.E. Descotte, [[Eduardo Dubuc]], M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
-Discussion of 2-classifiers for 2-toposes is in 
+Discussion of 2-classifiers for 2-toposes:
 
 * [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_ &lbrack;[arXiv:2401.16900](https://arxiv.org/abs/2401.16900)&rbrack;
 
-A candidate for a (2,1)-topos version of the [[effective topos]] is in 
+A candidate for a (2,1)-topos version of the [[effective topos]]:
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
+
+See also:
+
+* Joseph Helfer: *Set-theoretic universes and paradoxes in 2-topoi* &lbrack;[arXiv:2607.28584](https://arxiv.org/abs/2607.28584)&rbrack;
+
 
 
 
