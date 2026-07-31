@@ -718,6 +718,9 @@ See also:
 
 * Christoforos Neofytidis: *A topological interpretation of numbers* &lbrack;[arXiv:2607.26926](https://arxiv.org/abs/2607.26926)&rbrack;
 
+* Cristina Costoya, Vicente Muñoz, Bruno Valverde-Morales, Antonio Viruel: *Realizing additive monoids as mapping degree sets* &lbrack;[arXiv:2607.27993](https://arxiv.org/abs/2607.27993)&rbrack;
+
+
 
 Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
