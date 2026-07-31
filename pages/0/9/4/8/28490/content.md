@@ -26,6 +26,13 @@ Amnestic isofibrations are occasionally called **discrete isofibrations**, but t
 
 ## Properties
 
+\begin{lemma}
+An [[equivalence of categories]] is an isomorphism if and only if it is an amnestic isofibration.
+\end{lemma}
+\begin{proof}
+Every equivalence is [[essentially surjective on objects]]. If it is an isofibration, it is actually surjective on objects. If it is fully faithful and amnestic, then it is injective on objects. Under the given assumptions, the equivalence is thus surjective and injective on objects, and full faithfulness implies bijectivity on morphisms, hence it is an isomorphism.
+\end{proof}
+
 \begin{proposition}
 A [[monadic functor]] is *strictly monadic* if and only if it is also an [[amnestic  isofibration]].
 \end{proposition}
