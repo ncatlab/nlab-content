@@ -507,6 +507,11 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces 
 
 * {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: Section 2 of: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
 
+See also:
+
+* Takahito Naito: *Rational higher order Whitehead products of mapping spaces and defining systems* &lbrack;[arXiv:2607.27663](https://arxiv.org/abs/2607.27663)&rbrack;
+
+
 
 ### Rational Cohomotopy cocycle spaces
  {#ReferencesRationalCohomotopy}
