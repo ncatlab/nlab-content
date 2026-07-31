@@ -27,7 +27,7 @@ As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type
 
 ## Properties
  
-The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by [[proof theory|proof-theoretic]] means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits to give conceptual proofs of their findings. The following lemma and proposition is a replication of his ideas.
+The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by [[proof theory|proof-theoretic]] means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits one to give conceptual proofs of their findings. The following lemma and proposition is a replication of his ideas.
 
 +-- {: .num_lemma}
 ###### Lemma 
