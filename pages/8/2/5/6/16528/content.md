@@ -70,6 +70,10 @@ On [[holography]] and the [[BFSS matrix model]]:
 
 * Alfred Bovon, [[Henning Samtleben]], [[Dimitrios Tsimpis]]: *Holographic deformations of matrix models* &lbrack;[arXiv:2503.15954](https://arxiv.org/abs/2503.15954)&rbrack;
 
+On [[Sasakian manifolds]]:
+
+* Quentin Peres, [[Dimitrios Tsimpis]]: *$SU(3)$-structures on quotients of 3-Sasakian manifolds* &lbrack;[arXiv:2607.28337](https://arxiv.org/abs/2607.28337)&rbrack;
+
 
 ## Related entries
 
