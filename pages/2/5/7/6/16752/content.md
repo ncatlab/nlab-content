@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -49,13 +47,13 @@ A 7-dimensional 3-Sasakian manifold carries a 1-parameter family of $G_2$-[[G₂
 
 ## References
 
-The concept goes back to
+The concept goes back to:
 
 * [[Shigeo Sasaki]], _On differentiable manifolds with certain structures which are closely related to almost contact structure I_, Tohoku Math. J. (2) 12 (1960), 459-476 ([euclid:1178244407](https://projecteuclid.org/euclid.tmj/1178244407))
 
 * [[Shigeo Sasaki]], Y. Hatakeyama, _On differentiable manifolds with contact metric structures_, J. Math. Soc. Japan 14 (1962), 249-271 ([euclid:1261060580](https://projecteuclid.org/euclid.jmsj/1261060580))
 
-An early set of lecture notes is
+An early set of lecture notes:
 
 * [[Shigeo Sasaki]], _Almost contact manifolds, Part 1_, Lecture Notes, Mathematical Institute, Tohoku University (1965).
 
@@ -67,7 +65,7 @@ An early set of lecture notes is
 
 
 
-Modern accounts include
+Modern accounts:
 
 * {#BoyerGalicki07} [[Charles Boyer]], [[Krzysztof Galicki]], _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007 ([doi:10.1093/acprof:oso/9780198564959.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198564959.001.0001/acprof-9780198564959))
 
@@ -77,7 +75,7 @@ Modern accounts include
 * {#Sparks10} [[James Sparks]], _Sasaki-Einstein Manifolds_, Surv. Diff. Geom. 16 (2011) 265-324 ([arXiv:1004.2461](https://arxiv.org/abs/1004.2461))
 
 
-See also
+See also:
 
 * Wikipedia, _[Sasakian manifold](https://en.wikipedia.org/wiki/Sasakian_manifold)_
 
@@ -92,13 +90,18 @@ Relation to [[SU(2)-structure]]:
 
 * {#Fino18b} Anna Fino, _Hypo contact and Sasakian structures on Lie groups_, talk at _Workshop on CR and Sasakian Geometry_, Luxembourg– 24 - 26 March 2008 ([pdf](http://math.uni.lu/CRSasaki/slides/fino.pdf))
 
-Discussion relating to [[quiver gauge theories]] includes
+Discussion relating to [[quiver gauge theories]]:
 
 * [[Olaf Lechtenfeld]], Alexander Popov, [[Richard Szabo]], _Sasakian quiver gauge theories and instantons on Calabi-Yau cones_ ([arXiv:1412.4409](http://arxiv.org/abs/1412.4409))
 
 In [[M-theory]]:
 
 * [[José Figueroa-O'Farrill]], [[Andrea Santi]]: _Sasakian manifolds and M-theory_, Class. Quantum Grav. **33** (2016) 095004 &lbrack;[doi:10.1088/0264-9381/33/9/095004](https://doi.org/10.1088/0264-9381/33/9/095004), [arXiv:1511.03460](https://arxiv.org/abs/1511.03460)&rbrack;
+
+See also:
+
+* Quentin Peres, [[Dimitrios Tsimpis]]: *$SU(3)$-structures on quotients of 3-Sasakian manifolds* &lbrack;[arXiv:2607.28337](https://arxiv.org/abs/2607.28337)&rbrack;
+
 
 
 
