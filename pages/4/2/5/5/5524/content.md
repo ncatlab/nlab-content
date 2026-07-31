@@ -18,14 +18,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
-A _formal smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with a [[cohesive (∞,1)-topos|cohesive structure]] that subsumes that of [[smooth ∞-groupoid]]s as well as of [[infinitesimal object|infinitesimal]] $\infty$-groupoids -- [[∞-Lie algebroids]], hence equipped with "[[differential cohesion]]".
+A _formal smooth $\infty$-groupoid_ (or *[[halo|haloed]] smooth*) is an [[∞-groupoid]] equipped with a [[cohesive (∞,1)-topos|cohesive structure]] that subsumes that of [[smooth ∞-groupoid]]s as well as of [[infinitesimal object|infinitesimal]] $\infty$-groupoids -- [[∞-Lie algebroids]], hence equipped with "[[differential cohesion]]".
 
 In the [[cohesive (∞,1)-topos]] of formal smooth $\infty$-groupoids the canonical [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\mathbf{\Pi}(X)$ factors through a version relative to [[Smooth∞Grpd]]: the [[infinitesimal singular simplicial complex|infinitesimal path ∞-functor]] $\mathbf{\Pi}_{inf}(X)$. In traditional terms this is the object modeled by the [[tangent Lie algebroid]] and the [[de Rham space]] of $X$. The [[quasicoherent ∞-stack]]s on $\mathbf{\Pi}_{inf}(X)$ are [[D-module]]s on $X$.
 
@@ -1099,6 +1096,13 @@ following
 
 [[!redirects formal smooth ∞-groupoid]]
 [[!redirects formal smooth ∞-groupoids]]
+
+[[!redirects haloed smooth infinity-groupoid]]
+[[!redirects haloed smooth infinity-groupoids]]
+
+[[!redirects haloed smooth ∞-groupoid]]
+[[!redirects haloed smooth ∞-groupoids]]
+
 
 [[!redirects synthetic differential infinity-groupoid]]
 [[!redirects synthetic differential infinity-groupoids]]
