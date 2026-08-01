@@ -11,9 +11,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -136,14 +135,16 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ### General
 
-The original definition is in
+The original definition:
 
-* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942), 35–39.
-English translation: _Characteristic Cycles of Manifolds_.  L. S. Pontryagin Selected Works.  Volume 1.  Selected Research Papers.  Edited by R. V. Gamkrelidze.  CRC Press, 1986.  283–287.  [doi](https://doi.org/10.1201/9780367813758).
+* [[Л. С. Понтрягин]], _Характеристические циклы многообразий_, ДАН, XXXV, № 2 (1942), 35–-39
+
+  English translation: _Characteristic Cycles of Manifolds_.  L. S. Pontryagin Selected Works.  Volume 1.  Selected Research Papers.  Edited by R. V. Gamkrelidze.  CRC Press, 1986.  283–287.  [doi](https://doi.org/10.1201/9780367813758).
 
 * [[Л. С. Понтрягин]], _Характеристические циклы дифференцируемых многообразий_, Матем. сб., 21(63):2 (1947), 233–284.  [MathNet.Ru PDF](http://mi.mathnet.ru/msb6237 ).
 English translation by A. A. Brown: [[Lev Pontrjagin]], _Characteristic cycles on differentiable manifolds_, Mat. Sbornik N. S. 21(63) (1947), 233-284; A.M.S. Translation 32 (1950).  [PDF](https://www.maths.ed.ac.uk/~v1ranick/papers/pont4.pdf).
-English translation by P. S. V. Naidu:
+
+  English translation by P. S. V. Naidu:
 _Characteristic Cycles of Differentiable Manifolds_.  L. S. Pontryagin Selected Works.  Volume 1.  Selected Research Papers.  Edited by R. V. Gamkrelidze.  CRC Press, 1986.  375–433.  [doi](https://doi.org/10.1201/9780367813758).
 
 Early accounts:
@@ -151,15 +152,17 @@ Early accounts:
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
 
-Classical textbook references are
-
+Textbook accounts:
 
 * {#KobayashiNomizu63} [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], Section  XII.4 in: _Foundations of Differential Geometry, Volume 1_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [ISBN:9780471157335](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+Volume+1-p-9780471157335), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
-
 
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+* [[Peter May]]; chapter 23, section 7 of _[[A Concise Course in Algebraic Topology]]_ &lbrack;[pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)&rbrack;
+
+
 
 With an eye towards [[mathematical physics]]:
 
@@ -171,13 +174,19 @@ With an eye towards [[mathematical physics]]:
 
 See also
 
-* Paul Bressler, _The first Pontryagin class_, [math.AT/0509563](http://arxiv.org/abs/math/0509563)
+
+* [[Paul Bressler]], _The first Pontryagin class_, [math.AT/0509563](http://arxiv.org/abs/math/0509563)
 
 * Ivan Panin, Charles Walter, _Quaternionic Grassmannians and Pontryagin classes in algebraic geometry_, [arxiv/1011.0649](http://arxiv.org/abs/1011.0649)
 
-A brief introduction is in chapter 23, section 7 
 
-* [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+Explicit [[Čech cohomology]]-construction of the first (fractional) Pontrjagin class:
+
+* [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *A Geometric Construction of the First Pontryagin Class*, in: *Quantum Topology*, Series on Knots and Everything **3**, World Scientific (1993) 209--220 \[<a href="https://doi.org/10.1142/9789812796387_0012">doi:10.1142/9789812796387_0012</a>\]
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]: *[[schreiber:Čech Cocycles for Differential Characteristic Classes]]*, Advances in Theoretical and Mathematical Physics **16** 1 (2012) 149--250 &lbrack;[arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
+
+
 
 ### Relation to gravitational instantons
 
