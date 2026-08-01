@@ -11,9 +11,7 @@
 
 
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -210,8 +208,15 @@ With an eye towards application in [[mathematical physics]]:
 
 * [[Mikio Nakahara]], Chapter 11 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+Construction of characteristic classes in [[Čech cohomology]]:
 
-Further texts include
+* [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *Čech cocycles for characteristic classes*, Commun. Math. Phys. **178** (1996) 225--236 \[<a href="https://doi.org/10.1007/BF02104916">doi:10.1007/BF02104916</a>, [euclid:cmp/1104286562](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-178/issue-1/%c4%8cech-cocycles-for-characteristic-classes/cmp/1104286562.full)\]
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]: *[[schreiber:Čech Cocycles for Differential Characteristic Classes]]*, Advances in Theoretical and Mathematical Physics **16** 1 (2012) 149--250 &lbrack;[arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
+
+
+
+See also:
 
 * Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisbon) 2000
 
