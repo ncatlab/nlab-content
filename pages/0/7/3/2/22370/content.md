@@ -24,7 +24,10 @@ On the [[Pontryagin product]] on the [[ordinary homology]] of [[based loop space
 
 * [[Tyrone Cutler]], *The Bott-Samelson Theorem* (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Week%2011%20-%20The%20Bott-Samelson%20Theorem.pdf)&rbrack;
 
-See also
+On [[Cohomotopy]] sets of [[5-manifolds]]:
+
+* Steven Amelotte, [[Tyrone Cutler]], Tseleung So: *Suspension splittings of 5-dimensional Poincaré duality complexes and their applications*, Algebr. Geom. Topol. **26** (2026) 283--319 \[<a href="https://doi.org/10.2140/agt.2026.26.283">doi:10.2140/agt.2026.26.283</a>, [arXiv:2311.16073](https://arxiv.org/abs/2311.16073)\]
+
 
 
 category: people
