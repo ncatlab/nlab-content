@@ -135,9 +135,9 @@ This result can be extracted also from their Memoirs volume on [[Galois theory]]
 
 ### Descent along pure morphisms
 
-The following paper was the first with the result on that pure morhisms are of the effective descent but the proof has been omitted:
+The following paper, published as a CRAS note, was the first with the result on that pure morphisms are effective descent:
 
-* Jean-Pierre Olivier, _Descente par morphismes purs_, C. R. Acad. Sci. Paris Sér. A-B __271__ (1970) A821–A823
+* Jean-Pierre Olivier, _Descente par morphismes purs_, C. R. Acad. Sci. Paris Sér. A-B __271__ (1970) A821–A823   [scan on Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k480299v/f827.item)
 
 The result is proved (within a larger context)
 
@@ -147,17 +147,17 @@ Clean proofs are by Mesablishvili and by Janelidze,
 
 * Bachuki Mesablishvili, _Pure morphisms of commutative rings are effective descent morphisms for modules -- a new proof_, Theory and Appl. of Categories __7__, 2000, No. 3, 38-42, [tac](http://www.tac.mta.ca/tac/volumes/7/n3/7-03abs.html)
 
-
 * Bachuki Mesablishvili, _Pure morphisms are effective for modules_, Applied Categorical Structures 21 (2013), 801–809.  [arXiv](https://arxiv.org/abs/1206.3439), [doi](https://doi.org/10.1007/s10485-012-9283-6).
 
 * [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge Univ. Press 2003; [errata pdf](http://maths.swan.ac.uk/staff/tb/corinerr.pdf)
 
 * {#JanelidzeTholen04} [[George Janelidze]], [[Walter Tholen]], _Facets of descent III: monadic descent for rings and algebras_,  Appl. Categ. Structures __12__ 5-6 (2004) 461-477 &lbrack;[MR2005i:13019](http://www.ams.org/mathscinet-getitem?mr=2107397), [doi](http://dx.doi.org/10.1023/B:APCS.0000049312.36783.0a)&rbrack;
 
-Much attention on the descent along pure morphism is in a recent survey
+More recent attention to descent along pure morphisms:
 
 * Yves André, Luisa Fiorot, _On the canonical, fpqc, and finite topologies on affine schemes. The state of the art_, in Ann. Sc. Norm. Super. Pisa Cl. Sci. [arXiv:1912.04957](https://arxiv.org/abs/1912.04957)
 
+* [[Yves André]], ''On the canonical, fpqc and finite topologies: classical questions, new answers (and conversely)'', IAS Number Theory Seminar, April 29, 2021. <a href="https://www.ias.edu/sites/default/files/Princeton%20Yves.pdf">Seminar slides (PDF)</a>.
 
 ### Ziegler spectrum and connections to model theory
 
