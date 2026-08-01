@@ -1632,7 +1632,6 @@ On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] 
 
 
 
-
 [[!include Pontryagin-Thom construction -- references]]
 
 
@@ -1660,18 +1659,30 @@ On cohomotopy sets of [[4-manifolds]]:
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]]: *Cohomotopy sets of 4-manifolds*, Geometry & Topology Monographs **18** (2012) 161-190 &lbrack;[arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161)&rbrack;
 
+Of [[5-manifolds]]:
+
+
+* [[Panagiotis Konstantis]]: _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications **23** 1 (2021) &lbrack;[arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9)&rbrack;
+  > (in relation to [[quaternionic line bundles]])
+
+
+* Steven Amelotte, [[Tyrone Cutler]], Tseleung So: *Suspension splittings of 5-dimensional Poincaré duality complexes and their applications*, Algebr. Geom. Topol. **26** (2026) 283--319 \[<a href="https://doi.org/10.2140/agt.2026.26.283">doi:10.2140/agt.2026.26.283</a>, [arXiv:2311.16073](https://arxiv.org/abs/2311.16073)\]
+
+* [[Pengcheng Li]], Zhongjian Zhu: *The homotopy decomposition of the suspension of a non-simply-connected 5-manifold*, Proceedings of the Royal Society of Edinburgh Section A: Mathematics **156** 1 (2026) 93--121 \[<a href="https://doi.org/10.1017/prm.2024.49">doi:10.1017/prm.2024.49</a>, [arXiv:2311.16642](https://arxiv.org/abs/2311.16642)\]   
+
+
 Cohomotopy sets of [[Thom spaces]]:
 
 * [[Thomas Rot]]: _Homotopy classes of proper maps out of vector bundles_,  Arch. Math. **114** (2020) 107–117 &lbrack;[arXiv:1808.08073](https://arxiv.org/abs/1808.08073), [doi:10.1007/s00013-019-01372-z](https://doi.org/10.1007/s00013-019-01372-z)&rbrack;
 
-In relation to [[quaternionic line bundles]] over [[5-manifolds]]:
 
-* [[Panagiotis Konstantis]]: _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications **23** 1 (2021) &lbrack;[arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9)&rbrack;
-
-
-Cohomotopy sets of [[spin structure|spin]]-manifolds in co-degree 1:
+Cohomotopy sets (of [[spin structure|spin]]-[[manifolds]]) in co-degree 1:
 
 * [[Panagiotis Konstantis]]: _A counting invariant for maps into spheres and for zero loci of sections of vector bundles_,  Abh. Math. Semin. Univ. Hambg. (2020) &lbrack;[arXiv:1911.03214](https://arxiv.org/abs/1911.03214), [doi:10.1007/s12188-020-00228-6](https://doi.org/10.1007/s12188-020-00228-6)&rbrack;
+
+* Michael Jung, [[Thomas O. Rot]]: *A geometric computation of cohomotopy groups in codegree one*, Algebr. Geom. Topol. **25** (2025) 3603--3626 \[<a href="https://doi.org/10.2140/agt.2025.25.3603">doi:10.2140/agt.2025.25.3603</a>, [arXiv:2307.03805](https://arxiv.org/abs/2307.03805)\]
+
+
 
 On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to [[equivariant Cohomotopy]]:
 
@@ -1679,7 +1690,9 @@ On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximati
 
 * [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres*, Axioms **14** 4 (2025) 267; &lbrack;[doi;10.3390/axioms14040267](https://doi.org/10.3390/axioms14040267), [arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
 
+See also: 
 
+* Pengcheng Li, Jianzhong Pan, Jie Wu: *Cohomotopy sets of $(n-1)$-connected $(2n+2)$-manifolds for small $n$*, Transactions of the London Mathematical Society **12** 1 (2025) e70010 \[<a href=" https://doi.org/10.1112/tlm3.70010">doi:10.1112/tlm3.70010</a>, [arXiv:2410.16055](https://arxiv.org/abs/2410.16055)\]
 
 
 ### Cohomotopy cocycle spaces
