@@ -539,7 +539,7 @@ In ([Cohen, 1968](#Cohen68)) is given a criterion for stable maps of spheres to 
 
 The concept of Toda brackets is due to:
 
-* {#Toda62} [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Volume 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
+* {#Toda62} [[Hirosi Toda]]: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
 and the concept of higher Toda brackets appears around
 
@@ -569,6 +569,10 @@ See also:
 * [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
 
 * Wikipedia, _[Toda bracket](https://en.wikipedia.org/wiki/Toda_bracket)_
+
+* Toshiyuki Miyauchi, Juno Mukai: *Relations in the 24-th homotopy groups of spheres* &lbrack;[arXiv:1207.6170](https://arxiv.org/abs/1207.6170)&rbrack;
+
+* Toshiyuki Miyauchi, Juno Mukai: *Determination of the 2-primary components of the 32-stem homotopy groups of $S^n$*,  Bol. Soc. Mat. Mex. **23** (2017) 319--387 &lbrack;[doi:10.1007/s40590-016-0154-2](https://doi.org/10.1007/s40590-016-0154-2)&rbrack;
 
 * Toshiyuki Miyauchi, Juno Mukai: *Relations in the 24-th homotopy groups of spheres* &lbrack;[arXiv:2606.12046](https://arxiv.org/abs/2606.12046)&rbrack;
 
