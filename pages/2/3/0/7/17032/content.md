@@ -15,8 +15,7 @@ Hiroshi Toda (1928--2026)
 
 Computing [[homotopy groups of spheres]]:
 
-* [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Vol. 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t]
-(https://www.jstor.org/stable/j.ctt1bgzb5t))
+* {#Toda62} [[Hirosi Toda]]: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
 Computing other [[homotopy groups]]:
 
