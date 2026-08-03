@@ -139,7 +139,7 @@ Named after [[Charles Hermite]].
 
 Review:
 
-*  Zhi-yuan Huang, Jia-an Yan: *Hermite polynomials and Hermite functions*, Appendix A in: *Introduction to Infinite Dimensional Stochastic Analysis*, Mathematics and Its Applications **502**, Springer 2000  &lbrack;[doi:10.1007/978-94-011-4108-6](https://doi.org/10.1007/978-94-011-4108-6), [[HermitePolynomialsAndHermiteFunctions.pdf:file]]&rbrack;
+*  Zhi-yuan Huang, Jia-an Yan: *Hermite polynomials and Hermite functions*, Appendix A in: *Introduction to Infinite Dimensional Stochastic Analysis*, Mathematics and Its Applications **502**, Springer (2000) &lbrack;[doi:10.1007/978-94-011-4108-6](https://doi.org/10.1007/978-94-011-4108-6), [[HermitePolynomialsAndHermiteFunctions.pdf:file]]&rbrack;
 
 
 See also:
