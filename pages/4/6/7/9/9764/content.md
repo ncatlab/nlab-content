@@ -96,6 +96,10 @@ via [[twistors]]:
 
 * [[Igor Bandos]], Mirian Tsulaia: *Twistor approach to classical and quantum D0-brane* &lbrack;[arXiv:2605.27754](https://arxiv.org/abs/2605.27754)&rbrack;
 
+On the [[tension]]-less limit of the [[M5-brane]] [[sigma-model]]:
+
+* [[Igor Bandos]], [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *Tensionless limit of M5-brane and conformal symmetry of its bosonic body* &lbrack;[arXiv:2607.29653](https://arxiv.org/abs/2607.29653)&rbrack;
+
 
 ## Related entries
 
