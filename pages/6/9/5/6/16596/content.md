@@ -59,6 +59,10 @@ On the $U(1)$ [[self-dual higher gauge field]] in 10D:
 
 * Jessica Hutomo, [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *On non-linear chiral 4-form theories in $D=10$* &lbrack;[arXiv:2509.14351](https://arxiv.org/abs/2509.14351)&rbrack;
 
+On the [[tension]]-less limit of the [[M5-brane]] [[sigma-model]]:
+
+* [[Igor Bandos]], [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *Tensionless limit of M5-brane and conformal symmetry of its bosonic body* &lbrack;[arXiv:2607.29653](https://arxiv.org/abs/2607.29653)&rbrack;
+
 
 ## Related entries
 
