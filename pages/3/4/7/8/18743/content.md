@@ -155,7 +155,7 @@ $$
 is rapidly decreasing, but its first [[derivative]]
 
 $$
-  f'(x) = -2xe^{-x^2}\sin(e^{x^2})+2x\cos(e^{x^2})
+  f'(x) = -2x e^{-x^2}\sin(e^{x^2})+2x\cos(e^{x^2})
 $$
 
 is asymptotically linearly increasing, due to the second term.
