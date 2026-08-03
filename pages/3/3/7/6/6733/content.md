@@ -597,6 +597,9 @@ Further developments:
 
 * [[Varun Gupta]]: *$\kappa$-symmetric M5 brane web for defects in $AdS_7/CFT_6$ holography* &lbrack;[arXiv:2503.07262](https://arxiv.org/abs/2503.07262)&rbrack;
 
+* [[Igor Bandos]], [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *Tensionless limit of M5-brane and conformal symmetry of its bosonic body* &lbrack;[arXiv:2607.29653](https://arxiv.org/abs/2607.29653)&rbrack;
+
+
 
 [[BPS state|BPS]] solution in [[pp-wave]] backgounds:
 
