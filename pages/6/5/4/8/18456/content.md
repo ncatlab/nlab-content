@@ -5,7 +5,7 @@
 
 On [[Calabi-Yau manifolds]]:
 
-* [[Tristan Hübsch]], _Calabi-Yau Manifolds -- A Bestiary for Physicists_, World Scientific 1992 ([doi:10.1142/1410](https://doi.org/10.1142/1410))
+* [[Tristan Hübsch]], _Calabi-Yau Manifolds -- A Bestiary for Physicists_, World Scientific 1992 ([doi:10.1142/1410](https://doi.org/10.1142/1410), 2nd Ed. 2024 ([doi:10.1142/q0484](https://doi.org/10.1142/q0484))
 
 
 On [[supersymmetry]] via [[adinkras]]:
