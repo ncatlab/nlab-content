@@ -14,7 +14,7 @@
 ## Idea
 
 **Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [Wikipedia](http://en.wikipedia.org/wiki/Linguistics). It aims to develop a toolbox for description of concrete languages (applied linguistics, descriptive grammar), their classification (language families, language typology) as well as to understand how language functions (e.g. relations to cognition and social constraints) and changes (historical and comparative linguistics). The description of a concrete language includes organizational principles called grammar and distinguished constants called lexic. The grammar is described at several hierarchical levels 
-(phonetics, [[phonology]], morphology, [[syntax]]). 
+(phonetics, [[phonology]], [[morphology]], [[syntax]]). 
 
 There is an opposition between 
 
