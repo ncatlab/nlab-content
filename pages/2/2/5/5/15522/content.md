@@ -17,7 +17,7 @@
 
 A _[[branched cover]] of the [[Riemann sphere]]_ $\mathbb{C}P^1$ is a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]] $\Sigma$ equipped with a non-[[constant function|constant]] [[holomorphic function]]
 
-$$7
+$$
  \phi: \Sigma \longrightarrow \mathbb{C}P^1
   \,.
 $$ 
@@ -41,7 +41,7 @@ By the [[Riemann existence theorem]], every [[connected topological space|connec
 
 * {#Mumford1977} [[David Mumford]], _Curves and their Jacobians_, U. Michigan Press (1977). 
 
-Survery:
+Survey:
 
 * Brian Ossermann: _Branched covers of the Riemann sphere_ &lbrack;[[Ossermann-BranchedCoversOfSphere.pdf:file]]&rbrack;
 
