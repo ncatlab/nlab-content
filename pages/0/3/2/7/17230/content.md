@@ -178,6 +178,12 @@ Review in:
 
 * Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
 
+In the context of Yang–Mills theory, giving loop-space Schwinger–Dyson equations for expectation values of Wilson loop observables:
+
+* {#DriverGabrielHallKemp} Bruce K. Driver, Franck Gabriel, [[Brian C. Hall]], Todd Kemp, _The Makeenko–Migdal equation for Yang–Mills theory on compact surfaces_, Communications in Mathematical Physics **352** (2017) 967–978 &lbrack;[arXiv:1602.03905](https://arxiv.org/abs/1602.03905)&rbrack;
+
+* {#ShenSmithZhu24} Hao Shen, Scott A. Smith, Rongchan Zhu, _Makeenko–Migdal equations for 2D Yang–Mills: From lattice to continuum_ &lbrack;[arXiv:2412.15422](https://arxiv.org/abs/2412.15422)&rbrack;
+
 
 [[!redirects Schwinger-Dyson equations]]
 
