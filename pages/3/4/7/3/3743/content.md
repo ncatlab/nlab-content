@@ -1,8 +1,6 @@
 
 
-# Rewriting
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -118,6 +116,11 @@ The following [[machine learning]]-inspired rewriting systems for meta/hyper-gra
 
 * [[Ben Goertzel]], _Reflective metagraph rewriting as a foundation for an AGI "Language of Thought"_, [arXiv:2112.08272](https://arxiv.org/abs/2112.08272)
 * Xerxes D Arsiwalla, Jonathan Gorard, _Pregeometric spaces from Wolfram model rewriting systems as homotopy types_ [arXiv:2111.03460](https://arxiv.org/abs/2111.03460)
+
+In terms of [[quasicategories]]:
+
+* [[Simon Henry]]: *Rewriting and presentations of quasicategories* &lbrack;[arXiv:2608.02529](https://arxiv.org/abs/2608.02529)&rbrack;
+
 
 category: combinatorics, algebra, computer science, logic
 
