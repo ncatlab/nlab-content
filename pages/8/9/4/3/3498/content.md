@@ -1,6 +1,13 @@
 **Jean-Marc Cordier** (died 7 May 2014) was a French mathematician, working at LAMFA, Universit&#233; de Picardie Jules Verne, Amiens.
 
-He obtained his doctorat d'&#233;tat es' Sciences from Paris 7 in 1987. His research has centred on problems of homotopy coherence, homotopy limits and their application to Steenrod-Sitnikov homology, and strong shape theory.
+He obtained his doctorat d'&#233;tat es' Sciences from Paris 7 in 1987. His doctoral research was  directed by [[Michel Zisman]]. His published work was centred on problems of homotopy coherence, homotopy limits and their application to Steenrod-Sitnikov homology, and strong shape theory. He is best known for his work on the homotopy cohererent nerve of a simplicially enriched category which was published in 1980.
+
+##Obituary
+[Parcours d'un topologue-catégorien](https://cahierstgdc.com/wp-content/uploads/2017/05/Ehresmann_56-1.pdf) by [[Andrée Ehresmann]].
+
+This includes a complete list of publications.
+
+
 
 ## Selected writings
 
