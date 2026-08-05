@@ -16,6 +16,10 @@ Introducing discussion of [[D=2 Yang-Mills theory]]:
 * [[Alexander A. Migdal]], *Recursion equations in gauge field theories*, Zh. Eksp. Teor. Fiz. **69** (1975) 810–822 (Sov. Phys. JETP 42, 413–418) &lbrack;[pdf](http://jetp.ras.ru/cgi-bin/dn/e_042_03_0413.pdf), [[Migdal-RecursionInGauge.pdf:file]] [spire:100330](https://inspirehep.net/literature/100330)&rbrack;
 
 
+On the [[Schwinger-Dyson equation]] for [[expectation values]] of [[Wilson loop]] [[quantum observables]] in the context of [[Yang–Mills theory]] in the [[large N limit]],   now known as the *[[Makeenko-Migdal equation]]*:
+
+* [[Yuri M. Makeenko]], [[Alexander A. Migdal]]: *Exact equation for the loop average in multicolor QCD*, Physics Letters B **88** 1--2 (1979) 135--137 \[<a href="https://doi.org/10.1016/0370-2693(79)90131-X">doi:10.1016/0370-2693(79)90131-X</a>\]
+
 Early discussion of [[flux tubes]]/[[Wilson lines]] as effective [[strings]] in [[Yang-Mills theory]] ([Gauge/String duality](AdS-CFT+correspondence#PolyakovGaugeStringDualityReferences)):
 
 * {#MakeenkoMigdal81} [[Yuri Makeenko]], [[Alexander A. Migdal]], *Quantum chromodynamics as dynamics of loops*, Nuclear Physics B **188** 2 (1981) 269-316 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90258-3">doi:10.1016/0550-3213(81)90258-3</a>&rbrack;
