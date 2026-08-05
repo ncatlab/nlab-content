@@ -10,9 +10,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc} 
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -178,7 +179,10 @@ Review in:
 
 * Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
 
-In the context of Yang–Mills theory, giving loop-space Schwinger–Dyson equations for expectation values of Wilson loop observables:
+In the context of [[Yang–Mills theory]] in the [[large N limit]], the Schwinger–Dyson equation for [[expectation values]] of [[Wilson loop]] [[quantum observables]] is known as the *Makeenko-Migdal equation*:
+
+* [[Yuri M. Makeenko]], [[Alexander A. Migdal]]: *Exact equation for the loop average in multicolor QCD*, Physics Letters B **88** 1--2 (1979) 135--137 \[<a href="https://doi.org/10.1016/0370-2693(79)90131-X">doi:10.1016/0370-2693(79)90131-X</a>\]
+
 
 * {#DriverGabrielHallKemp} Bruce K. Driver, Franck Gabriel, [[Brian C. Hall]], Todd Kemp, _The Makeenko–Migdal equation for Yang–Mills theory on compact surfaces_, Communications in Mathematical Physics **352** (2017) 967–978 &lbrack;[arXiv:1602.03905](https://arxiv.org/abs/1602.03905)&rbrack;
 
@@ -189,4 +193,6 @@ In the context of Yang–Mills theory, giving loop-space Schwinger–Dyson equat
 
 [[!redirects Dyson-Schwinger equation]]
 [[!redirects Dyson-Schwinger equations]]
+
+[[!redirects Makeenko-Migdal equation]]
 
