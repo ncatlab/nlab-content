@@ -20,6 +20,12 @@ On [[internalization]] of [[mathematical structures]] via [[sketches]]:
 
 * [[Andrée Bastiani]], [[Charles Ehresmann]]: _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
+On [[Jean-Marc Cordier]]:
+
+ [[Andrée Ehresmann]]: *Parcours d'un topologue-catégorien: Jean-Marc Cordier (1946--2014)*, [[Cahiers]] LVI-1 (2015) &lbrack;[pdf](https://cahierstgdc.com/wp-content/uploads/2017/05/Ehresmann_56-1.pdf)&rbrack;
+
+
+
 ## Related entries
 
 * [[Michal-Bastiani smooth map]]
