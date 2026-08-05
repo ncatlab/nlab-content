@@ -98,7 +98,7 @@ Examples of classical double copy of gauge fields:
 | [[gauge theory]] solution | [[gravity]] solution | ref. |
 |--|--|--|
 | electric monopole | [[Schwarzschild spacetime]] | ([MOW 15](#MOW15)) |
-| magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15), [Kim 24b](#Kim24b)) |
+| magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15)) |
 | self-dual dyon | self-dual [[Taub-NUT space]] | ([Kim 24a](#Kim24a)) |
 | planar wave | [[pp-wave]] | ([MOW 15](#MOW15)) |
 |planar shockwave | Aichelburg-Sexl shockwave | ([BSW 20](#BSW20)) |
