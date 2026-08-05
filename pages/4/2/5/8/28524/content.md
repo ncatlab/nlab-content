@@ -27,6 +27,8 @@ On [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory in the gen
 
 * [[David Gepner]], [[Hadrian Heine]]: *An Oriented Street--Roberts Conjecture* &lbrack;[arXiv:2606.29373](https://arxiv.org/abs/2606.29373)&rbrack;
 
+* [[David Gepner]], [[Hadrian Heine]]: *Colimits in Oriented Category Theory* &lbrack;[arXiv:2608.02592](https://arxiv.org/abs/2608.02592)&rbrack;
+
 
 
 category: people
