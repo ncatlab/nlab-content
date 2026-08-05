@@ -125,6 +125,10 @@ Wilson loop insertions may be thought of or at least related to _defects_ in the
 
 * Amit Sever, Pedro Vieira, Luis F. Alday, Juan Maldacena, [[Davide Gaiotto]], _An Operator product expansion for polygonal null Wilson loops_ &lbrack;[arxiv.org/abs/1006.2788](http://arxiv.org/abs/1006.2788)&rbrack;
 
+In the context of [[Yang–Mills theory]] in the [[large N limit]], the [[Schwinger-Dyson equation]] for [[expectation values]] of Wilson loop observables is known as the *[[Makeenko-Migdal equation]]*:
+
+* [[Yuri M. Makeenko]], [[Alexander A. Migdal]]: *Exact equation for the loop average in multicolor QCD*, Physics Letters B **88** 1--2 (1979) 135--137 \[<a href="https://doi.org/10.1016/0370-2693(79)90131-X">doi:10.1016/0370-2693(79)90131-X</a>\]
+
 On [[quantum measurement]] of Wilson loops: 
 
 * [[David Beckman]], [[Daniel Gottesman]], [[Alexei Kitaev]], [[John Preskill]]: *Measurability of Wilson loop operators*, Phys. Rev. D **65** (2002) 065022 &lbrack;[arXiv:hep-th/0110205](https://arxiv.org/abs/hep-th/0110205), [doi:10.1103/PhysRevD.65.065022](https://doi.org/10.1103/PhysRevD.65.065022)&rbrack;
