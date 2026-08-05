@@ -342,6 +342,9 @@ In the context of [[(infinity,infinity)-category|$(\infty,\infty)$-category]] th
 
 * [[David Gepner]], [[Hadrian Heine]]: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
 
+* [[David Gepner]], [[Hadrian Heine]]: *Colimits in Oriented Category Theory* &lbrack;[arXiv:2608.02592](https://arxiv.org/abs/2608.02592)&rbrack;
+
+
 
 
 [[!redirects Gray tensor products]]
