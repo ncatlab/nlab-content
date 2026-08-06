@@ -45,7 +45,7 @@ These definitions of a prelattice are equivalent to each other. The [[equivalenc
 
 The [[quotient set]] of a prelattice by the [[equivalence relation]] $x \equiv y$ is a [[lattice]].
 
-Also in the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **unboounded prelattices** or **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. 
+Also in the same way as lattices, one could either assume that prelattices have top and bottom elements, in which those without top and bottom elements are **unbounded prelattices** or **pseudoprelattices**, or prelattices do not have top and bottom elements, in which those with top and bottom elements are **bounded prelattices**. 
 
 ## As a category
 
