@@ -16,6 +16,10 @@ On [[twisted differential K-theory]] and its application to the [[K-theory class
 
 * [[Fabio Ferrari Ruffino]], [[Juan Carlos Rocha Barriga]], _Twisted differential K-characters and D-branes_, Nuclear Physics B Volume 960, November 2020, 115169 ([arXiv:2009.04223](https://arxiv.org/abs/2009.04223). [doi:10.1016/j.nuclphysb.2020.115169](https://doi.org/10.1016/j.nuclphysb.2020.115169))
 
+On the ([[generalized homology|generalized]]) [[homology]] version of [[differential cohomology]]:
+
+* [[Fabio Ferrari Ruffino]], Gabriel Longatto Clemente: *Differential Homology* &lbrack;[arXiv:2608.05048](https://arxiv.org/abs/2608.05048)&rbrack;
+
 
 category: people
 
