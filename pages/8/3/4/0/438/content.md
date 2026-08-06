@@ -59,7 +59,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 * Grothendieck's letters. Thirty years ago I was involved in a brief exchange of letters with Alexander Grothendieck. I will be putting up some excerpts. It may happen that commented versions of these will be made available by the _Documents math&#233;matiques_ project. 
 
-* [[Spaces as infinity-groupoids.pdf|Spaces as Infinity Groupoids:file]]: this is a draft chapter written for the books, [[New Spaces for Mathematics and Physics]].
+* [[Spaces as infinity-groupoids.pdf|Spaces as Infinity Groupoids:file]]: this is a draft chapter written for the books mentioned at [[New Spaces for Mathematics and Physics]].
 
 
 ##More Information
