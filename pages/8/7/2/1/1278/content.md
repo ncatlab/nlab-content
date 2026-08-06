@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -486,6 +484,11 @@ On differential cohomology in terms of [[diffeological spaces]]:
 On differential cohomology in relation to [[topological field theory]]:
 
 * [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
+
+On differential [[generalized homology]]:
+
+* [[Fabio Ferrari Ruffino]], Gabriel Longatto Clemente: *Differential Homology* &lbrack;[arXiv:2608.05048](https://arxiv.org/abs/2608.05048)&rbrack;
+
 
 
 
