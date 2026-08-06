@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -4663,17 +4661,22 @@ For an attempt to generalize Deligne's theorem to [[positive characteristic]], s
 
 This was realised for [[Frobenius exact category|Frobenius exact]] tensor categories in [[positive characteristic]] in:
 
-* {#CoulembierEtingofOstrik21} [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_ $[$[arXiv:2107.02372](https://arxiv.org/abs/2107.02372)$]$
+* {#CoulembierEtingofOstrik21} [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_ &rbrack;[arXiv:2107.02372](https://arxiv.org/abs/2107.02372)&rbrack;
 
 where $Vect$ and $sVect$ are replaced by more exotic targets.
 
-Discussion relating to [[2-rings]] and the [[spin-statistics theorem]] is in
+Discussion relating to [[2-rings]] and the [[spin-statistics theorem]]:
 
 * {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
 
-On Deligne categories:
+On *Deligne categories* (those violating the above size condition):
 
-* {#Hu24} Serina Hu. *An Introduction to Deligne Categories* (2024). ([arXiv:2404.08689](https://arxiv.org/abs/2404.08689)).
+* {#Hu24} Serina Hu: *An Introduction to Deligne Categories* (2024) &lbrack;[arXiv:2404.08689](https://arxiv.org/abs/2404.08689)&rbrack;
+
+On the analogue of Deligne's theorem over the [[real numbers]]:
+
+* Mo Huang, Hao Xu, Zhi-Hao Zhang: *Classification of symmetric fusion categories over $\mathbb{R}$* &lbrack;[arXiv:2608.04940](https://arxiv.org/abs/2608.04940)&rbrack;
+
 
 [[!redirects Deligne theorem on tensor categories]]
 
