@@ -13,8 +13,7 @@
 
 ## Introduction
 
-In.*[[linguistics]]*, morphology refers to the subfield concerned with word formation. Verb conjugations and constructions of words from smaller parts (named 'morphemes') are examples of the domain of morphology. 
-Inguistuc morphology is very similar to [[syntax]] in that both modules are interested in constructing larger entities via smaller parts. Most modern morphology theories incorporate parts of morphology into syntax, as the line between constructing words and constructing sentences is extremely blurry at times. To avoid the formal problems these cause, most theories employ a reductive model (reductive in that those theories of morphology do not fully encapsulate the traditional, folk understanding of morphology). 
+In *[[linguistics]]*, morphology refers to the subfield concerned with word formation. Verb conjugations and constructions of words from smaller parts (named 'morphemes') are examples of the domain of morphology. Morphology is very similar to [[syntax]] in that both modules are interested in constructing larger entities via smaller parts. Most modern morphology theories incorporate parts of morphology into syntax, as the line between constructing words and constructing sentences is extremely blurry at times. To avoid the formal problems these cause, most theories employ a reductive model (reductive in that those theories of morphology do not fully encapsulate the traditional, folk understanding of morphology). 
 
 ## Frameworks
 
