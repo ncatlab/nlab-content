@@ -20,7 +20,13 @@
 
 ## Idea
 
-* a [[monoid]] with a [[preorder]] such that the binary operation preserves the preorder. 
+A monoidal preorder is a [[monoid]] with a [[preorder]] such that the binary operation preserves the preorder. 
+
+This is the same as a [[strict monoidal category]] whose underlying category is [[thin category|thin]].
+
+## Example
+
+The set of natural numbers becomes a (symmetric) monoidal preorder with respect to addition and the usual ordering.
 
 ## See also
 
