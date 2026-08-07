@@ -8,9 +8,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Statement
 
@@ -23,7 +22,7 @@ $$
   X \longrightarrow \Omega \Sigma X
 $$
 
-is [[n-connected continuous function|(2n+1)-connected]].
+is [[n-connected continuous function|$(2n+1)$-connected]].
 
 =--
 
@@ -33,8 +32,9 @@ is [[n-connected continuous function|(2n+1)-connected]].
 The **Freudenthal suspension theorem** ([Freudenthal 37](#Freudenthal37)) is the following theorem about [[homotopy groups]] of [[n-spheres]]:
 
 
-+-- {: .num_prop}
-###### Proposition
+
+\begin{proposition}
+\label{OnHomotopyGroupsOfSpheres}
 
 The [[suspension]] [[homomorphism]] on [[homotopy groups of spheres]] 
 
@@ -42,9 +42,33 @@ $$
   \pi_{n+k}(S^n) \longrightarrow \pi_{n+k+1}(S^{n+1})
 $$ 
 
-is an [[isomorphism]] for $n\gt k+1$. 
+is 
 
-More generally, for $X$ an [[n-connected]] [[CW-complex]], then the suspension homomorphism on [[homotopy groups]]
+1. an [[isomorphism]] for $n \gt k+1$,
+
+1. an [[epimorphism]] for $n = k + 1$.
+
+Equivalently
+
+$$
+  \pi_{i}(S^n) \longrightarrow \pi_{i+1}(S^{n+1})
+$$ 
+
+is
+
+1. an [[isomorphism]] for $i \lt 2n - 1$,
+
+1. an [[epimorphism]] for $i = 2n -1$.
+
+\end{proposition}
+
+(cf. [Toda 1962 (3.2) p. 32](#Toda62))
+
+More generally:
+
+\begin{proposition}
+
+For $X$ an [[n-connected]] [[CW-complex]], then the suspension homomorphism on [[homotopy groups]]
 
 $$
   \pi_k(X) \longrightarrow \pi_{k+1}(\Sigma X)
@@ -52,12 +76,12 @@ $$
 
 is an [[isomorphism]] for $k \leq 2n$.
 
-The suspension isomorphism is equivalently given by the map in lemma \ref{SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}.
+Here the suspension isomorphism is equivalently given by the map in lemma \ref{SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}.
 
 
-=--
+\end{proposition}
 
-e.g. ([Switzer 75, 6.26](#Switzer75))
+(cf. [Switzer 1975, 6.26](#Switzer75))
 
 An alternative proof proceeds from the [[Blakers-Massey theorem]] (e.g. [Kochman 96, p. 70](#Kochman96)). 
 
@@ -94,9 +118,14 @@ The Freudenthal suspension theorem motivated introducing the [[stable homotopy g
 
 ## References
 
-Due to 
+Due to:
 
-* {#Freudenthal37} [[Hans Freudenthal]],  _&#220;ber die Klassen der Sph&#228;renabbildungen_, Compositio Math., 5:299-314, 1937 ([numdam:CM_1938__5__299_0](http://www.numdam.org/item/?id=CM_1938__5__299_0))
+* {#Freudenthal37} [[Hans Freudenthal]]:  _&#220;ber die Klassen der Sph&#228;renabbildungen_, Compositio Math., **5** (1937) &lbrack;[numdam:CM_1938__5__299_0](http://www.numdam.org/item/?id=CM_1938__5__299_0)&rbrack;
+
+Early further discussion:
+
+* {#Toda62} [[Hirosi Toda]]; p. 32 of: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
+
 
 
 Textbook accounts include
