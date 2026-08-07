@@ -53,7 +53,7 @@ then there exists an [[initial lift]] (think: "smallest topology rendering the $
 
 1. a "space" $T \in C$ such that $U(T) = X$, and maps $m_i \colon T \to S_i$ such that $U(m_i) = f_i$, 
 
-1. given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each [[composition|composite]] $f_i \circ g$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) = g'$ and $m_i \circ n = m'_i$:
+1. given any space $T'$, homomorphism $g'\colon U(T') \to X$, and maps $m'_i\colon T' \to S_i$, if each [[composition|composite]] $f_i \circ g'$ equals $U(m'_i)$, then there exists a unique map $n\colon T' \to T$ such that $U(n) = g'$ and $m_i \circ n = m'_i$:
 
 \begin{tikzcd}
   T'
@@ -124,7 +124,7 @@ Thus, every topological category also has __final__ (not usually called _termina
 \begin{remark}
 Both of these results (faithfulness, Prop. \ref{FaithfulnessIsImplies}, and self-duality, Prop. \ref{SelfDuality}) depend on the assumption in Def. \ref{TheDefinition} that the family $\{S_i\}$ is allowed to be *[[large]]*. 
 
-Otherwise, there exists [[counterexamples]]: For instance, if $C$ is a [[large category]] with all (small) [[products]], then the functor $C \to 1$ to the [[terminal category]] satisfies the lifting property in Def. \ref{TheDefinition} for small families $\{S_i\}$.  However, it need not satisfy the dual property (unless $C$ also has all small coproducts) nor need it be faithful.
+Otherwise, there exist [[counterexamples]]: For instance, if $C$ is a [[large category]] with all (small) [[products]], then the functor $C \to 1$ to the [[terminal category]] satisfies the lifting property in Def. \ref{TheDefinition} for small families $\{S_i\}$.  However, it need not satisfy the dual property (unless $C$ also has all small coproducts) nor need it be faithful.
 \end{remark}
 
 It also follows that:
