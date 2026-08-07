@@ -13,13 +13,11 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] [[24]]:
+The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] [[24]] (cf. [Toda 1961 p. 186](#Toda62)):
 
 \[
   \label{QuaternionicHopfFibrationGeneratingpi3}
@@ -30,7 +28,7 @@ The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is th
   }
 \]
 
-where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$.
+where the generator $[1] \in \mathbb{Z}/24$ is represented by (the [[suspensions]] of) the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$ (cf. [Kirdar 2021 §4](#Kirdar2021)).
 
 \begin{imagefromfile}
         "file_name": "K3CobordismBetween24ThreeSpheres.jpg",
@@ -174,9 +172,13 @@ with a mistake (in the unstable range) corrected in
 
 * [[Vladimir Abramovich Rokhlin]], _New results in the theory of four-dimensional manifolds_, (Russian) Doklady Akad. Nauk SSSR (N.S.) 84, (1952). 221–224.
 
-French translations are in:
+French translation:
 
-* Lucien Guillou, Alexis Marin (eds.), _A la Recherche de la Topologie Perdue: I. Du côté de chez Rohlin. II. Le côté de Casson_, Progress in Mathematics 62, Birkhäuser Boston 1985 (ISBN:0817633294, 9780817633295)
+* Lucien Guillou, Alexis Marin (eds.): _A la Recherche de la Topologie Perdue: I. Du côté de chez Rohlin. II. Le côté de Casson_, Progress in Mathematics **62**, Birkhäuser Boston (1985) &lbrack;ISBN:0817633294, 9780817633295&rbrack;
+
+Further early discussion, as part of a comprehensive analysis:
+
+* {#Toda62} [[Hirosi Toda]]; p. 186 of: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
 
 Review:
@@ -185,7 +187,7 @@ Review:
 
 See also:
 
-* Mehmet Kirdar, *On the First, the Second and the Third Stems of the Stable Homotopy Groups of Spheres* &lbrack;[arXiv:2107.06103](https://arxiv.org/abs/2107.06103)&rbrack;
+* {#Kirdar2021} Mehmet Kirdar: *On the First, the Second and the Third Stems of the Stable Homotopy Groups of Spheres* &lbrack;[arXiv:2107.06103](https://arxiv.org/abs/2107.06103)&rbrack;
 
 
 More on the computation via the [[MFr|framed cobordism ring]] and the [[K3-manifold]] giving the [[cobordism]] that witnesses the [[order of a group|order]] of 24:
