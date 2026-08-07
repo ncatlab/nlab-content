@@ -57,7 +57,7 @@ are isomorphisms.
 ### In a cartesian closed category
  {#InACartesianClosedCategory}
 
-A [[cartesian closed category]] that with a global dualizing object is necessarily just a [[preorder]].  This statement is often known as _[[Joyal]]'s lemma_, recalled for instance in [Abramsky 09](#Abramsky09).  It can be slightly strengthened as follows: 
+A [[cartesian closed category]] that has a global dualizing object is necessarily just a [[preorder]].  This statement is often known as _[[Joyal]]'s lemma_, recalled for instance in [Abramsky 09](#Abramsky09).  It can be slightly strengthened as follows: 
 
 +-- {: .num_prop} 
 ###### Proposition 
