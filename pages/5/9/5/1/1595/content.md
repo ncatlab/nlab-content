@@ -48,7 +48,7 @@ is
 
 1. an [[epimorphism]] for $n = k + 1$.
 
-Equivalently
+Equivalently,
 
 $$
   \pi_{i}(S^n) \longrightarrow \pi_{i+1}(S^{n+1})
