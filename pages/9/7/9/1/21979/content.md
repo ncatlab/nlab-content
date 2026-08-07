@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -87,6 +85,10 @@ The original computation via [[Pontryagin's theorem]] in [[cobordism theory]]:
 with a more comprehensive account in:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 14 of: _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
+Early comprehensive discussion:
+
+* {#Toda62} [[Hirosi Toda]]; p. 186 of: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
 See also:
 
