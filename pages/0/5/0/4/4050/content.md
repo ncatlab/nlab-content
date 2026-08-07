@@ -42,7 +42,7 @@ A _category with duals_ is a [[category]] where [[objects]] and/or [[morphisms]]
 
 One might write something about these too, or put them on a separate page.  In the meantime, see the table of contents to the right.
 
-There at least two commonspread kinds of categories with duals for morphisms:
+There are at least two commonspread kinds of categories with duals for morphisms:
 
 * [[dagger categories]] where each morphism $f:X \to Y$ has a $\dagger$-dual $f^\dagger : Y \to X$, without any extra property.
 * [[groupoids]], where each morphism $f:X \to Y$ has an inverse $f^{-1} :Y \to X$ defined by the properties $f f^{-1} = 1_Y$, $f^{-1}f = 1_X$.
