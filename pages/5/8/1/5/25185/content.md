@@ -32,10 +32,10 @@ sending a category $C$ to the functor category $[T,C]$, sending a functor $F: C 
 
 * When T is the [[theory of categories]] we recover the [[displayed category]] construction. This relies on an equivalence
 \[ [Th(Cat),IndSet] \cong Cat/Span_{lax} \]
-where the latter category is the category of displayed categories i.e.\ lax functors into the [[bicategory of spans]] and functional natural transformations between them. 
+where the latter category is the category of displayed categories i.e. lax functors into the [[bicategory of spans]] and functional natural transformations between them. 
 * When T is the theory of graphs, we get an equivalence
 \[ Grph/USpan \cong Grph^{\to}\]
 between the category of graph morphisms with codomain $USpan$, the graph whose vertices are sets and whose edges are spans and the arrow category of $Grph$. This example is like the previous example but with less structure.
 * When T is the theory of monoids we get an equivalence
 \[ [Th(Mon),IndSet] \cong Mon^{\to} \]
-which unpacks morphisms of monoids into "indexed monoids" i.e.\ indexing monoids $M$ equipped with fiberwise monoids whose operations are coherent with the operations of $M$.
+which unpacks morphisms of monoids into "indexed monoids" i.e. indexing monoids $M$ equipped with fiberwise monoids whose operations are coherent with the operations of $M$.
