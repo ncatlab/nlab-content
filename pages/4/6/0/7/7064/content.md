@@ -422,18 +422,18 @@ Moreover,
 
 ### General
 
+
 Introductions and surveys:
 
 * Alex Wright, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www-personal.umich.edu/~alexmw/HomotopyGroupsOfSoheres.pdf))
 
 * {#WangXu10} [[Guozhen Wang]], [[Zhouli Xu]], _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf), [[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
-* {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf]https://www3.nd.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
+* {#Putnam} [[Andrew Putman]]: _Homotopy groups of spheres and low-dimensional topology_ ([pdf](https://www3.nd.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
 * {#Hatcher} [[Allen Hatcher]], _Pictures of stable homotopy groups of spheres_ ([html](https://pi.math.cornell.edu/~hatcher/stemfigs/stems.html))
 
 * {#MahowaldRavenel87} [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, in: [[Samuel Gitler]] (ed.): _The Lefschetz Centennial Conference: Proceedings on Algebraic Topology II_, Contemporary Mathematics volume 58, AMS 1987  ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]], [ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2))
-
   > ([[chromatic homotopy theory]])
 
 * [[Haynes Miller]], [[Doug Ravenel]], _Mark Mahowald's work on the homotopy groups of spheres_ ([pdf](http://www-math.mit.edu/~hrm/ksem/miller-ravenel.pdf))
