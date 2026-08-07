@@ -68,7 +68,7 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 
 \end{definition}
 
-> As usual on the nLab, here by *[[2-categories]]* we mean *weak 2-categories (aka *[[bicategories]]*) and by *[[2-functors]]* we mean weak 2-functors (aka *[[pseudofunctors]]*).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
+> As usual on the nLab, here by *[[2-categories]]* we mean *weak 2-categories* (aka *[[bicategories]]*) and by *[[2-functors]]* we mean weak 2-functors (aka *[[pseudofunctors]]*).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
 For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite 
 \[ 
