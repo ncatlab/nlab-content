@@ -32,8 +32,8 @@ This generalizes the standard [[integers]] inside the [[field]] of [[rational nu
 In any [[unital ring]] $R$ one can identify the ring $\mathbb{Z}$ with the subring $\{ n 1_R | n\in\mathbb{Z}\}\subseteq R$ of all multiples $\pm 1_R, \pm (1_R+1_R), \pm(1_R+1_R+1_R),\ldots$ of the unit element $1_R$. The ring $R$ is then a left and right [[module]] over $\mathbb{Z}$ via the multiplication with the corresponding multiple of unit, that is $n.m = (n 1_R)\cdot m$. 
 
 An __[[algebraic integer]]__ in a commutative ring $R$ is any element
-$r \in R$ which satisfies [[equation]] $P(r) = 0$ 
-where $P$ is a nontrivial [[polynomial]] whose [[coefficients]] are multiplies of $1_R$ and the top degree coefficient is $1_R$ (in other words, a [[root]] of a monic polynomial in $R$ with the coefficients in $\mathbb{Z}$). 
+$r \in R$ which satisfies the [[equation]] $P(r) = 0$ 
+where $P$ is a nontrivial [[polynomial]] whose [[coefficients]] are multiples of $1_R$ and whose top degree coefficient is $1_R$ (in other words, a [[root]] of a monic polynomial in $R$ with the coefficients in $\mathbb{Z}$). 
 
 It can be checked that the set of [[algebraic integers]]
 (also said to be integral elements) in $R$ (also said the _ring of integers of_ $R$) is closed with respect to addition, multiplication and taking the negative of an element, hence a subring of $R$, which is moreover containing the usual integers $\mathbb{Z} 1_R$ as unique solutions for $x\in R$ of equations $1_R \cdot x - n 1_R = 0$.
