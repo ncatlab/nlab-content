@@ -63,7 +63,9 @@ These historical references are also listed, with brief commentary, in the first
 
 For more historical commentary see [p. 6](https://arxiv.org/pdf/math/0211216.pdf#page=6) of [[Michael Hopkins|Hopkins]]&[[Isadore Singer|Singer]]'s _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_ [[Michael Hopkins|Hopkins]]'s talk at [Atiyah's 80th Birthday conference](https://www.maths.ed.ac.uk/~v1ranick/atiyah80.htm), [slide 8](https://www.maths.ed.ac.uk/~v1ranick/hopkins.pdf#page=8), [9:45](https://empg.maths.ed.ac.uk/Videos/Atiyah80/Hopkins.mov). 
 
+Early comprehensive discussion:
 
+* {#Toda62} [[Hirosi Toda]]; p. 186 of: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
 Review:
 
