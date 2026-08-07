@@ -131,7 +131,7 @@ Definition \ref{ambi} is reasonably general and is one of several notions of "sc
 
 Again, suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above. We have maps 
 
-$$\gamma \coloneqq (U \stackrel{U \eta}{\to} U S T \cong B(T-, \mathbf{b})), \qquad \delta \coloneqq (V \stackrel{V \epsilon}{\to} V T S \cong A(U-, \mathbf{a}))$$ 
+$$\gamma \coloneqq (U \stackrel{U \eta}{\to} U S T \cong B(T-, \mathbf{b})), \qquad \delta \coloneqq (V \stackrel{V \epsilon}{\to} V T S \cong A(S-, \mathbf{a}))$$ 
 
 so that for each object $a$ of $A$ and $x \in U a$, we have a corresponding map $(\gamma a)(x): T a \to \mathbf{b}$ (playing the role of "$g$" in the proof of Proposition \ref{sitting}), and similarly for each object $b$ of $B$ and $y \in V b$, we have a map $(\delta b)(y): S b \to \mathbf{a}$ (playing the role of "$f$" in Proposition \ref{sitting}). 
 
