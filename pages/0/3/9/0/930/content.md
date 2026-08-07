@@ -16,11 +16,11 @@
 
 ##Definition##
 
-Let $H$ be a $k$-[[bialgebra|bialgebra]] and $E$, say, a right $H$-comodule algebra (i.e. a [[monoid]] in the category of right $H$-[[comodule]]s) with coaction $\rho:E\to E\otimes H$, $e\mapsto \sum e_{(0)}\otimes e_{(1)}$.
+Let $H$ be a $k$-[[bialgebra|bialgebra]] and $E$, say, a right $H$-comodule algebra (i.e. a [[monoid]] in the monoidal category of right $H$-[[comodule]]s) with coaction $\rho:E\to E\otimes H$, $e\mapsto \sum e_{(0)}\otimes e_{(1)}$.
 
 The subalgebra $U = E^{\mathrm{co}H}$ of $H$-coinvariants in $E$ consists of all $u\in E$ such that $\rho(u)=u\otimes 1$.
 
-The $k$-algebra **extension** $U\hookrightarrow E$ is __Hopf--Galois__ over $H$ if the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e') = \sum e e'_{(0)}\otimes e'_{(1)}$ is a bijection (hence a $k$-module isomorphism). 
+The $k$-algebra **extension** $U\hookrightarrow E$ is right __Hopf--Galois__ over $H$ with respect to a right $H$-comodule algebra coaction $\rho:E\to E\otimes H$, if is $U=E^{\mathrm{co}H}$ its subalgebra of $\rho$-coinvariants and the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e') = \sum e e'_{(0)}\otimes e'_{(1)}$ is a bijection (hence a $k$-module isomorphism). 
 
 A **Hopf--Galois object** over a $k$-bialgebra $H$ is any Hopf-Galois extension $k\hookrightarrow E$ over $H$ of the ground field (or ring) $k$. It is a dual (and noncommutative) analogue to a torsor over a point. 
 
@@ -62,7 +62,7 @@ A class of Hopf-Galois extensions admitting a cleaving map   is dedicated a sepa
 * [[Peter Schauenburg]], _Hopf-Galois and bi-Galois extensions_, from: “Galois theory, Hopf
 algebras, and semiabelian categories”, (G Janelidze, B Pareigis, W Tholen, editors), Fields Inst. Commun. 43, Amer. Math. Soc. (2004) 469--515 [MR2075600](http://www.ams.org/mathscinet-getitem?mr=2075600)
 
-* Giovanni Landi, Chiara Pagani: _Push-forward of Hopf--Galois extensions: the non central case_ &lbrack;[arXiv:2512.20465](https://arxiv.org/abs/2512.20465)&rbrack;
+* [[Giovanni Landi]], Chiara Pagani: _Push-forward of Hopf--Galois extensions: the non central case_ &lbrack;[arXiv:2512.20465](https://arxiv.org/abs/2512.20465)&rbrack;
 
 ### Categorifications and homotopifications
 
