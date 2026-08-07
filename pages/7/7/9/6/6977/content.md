@@ -24,7 +24,7 @@ A **$U$-structured sink** is a [[sink]] of the form $\{f_i \colon U(A_i) \to Y\}
 
 Note that like all sinks, a $U$-structured sink is not necessarily assumed to be [[small category|small]].
 
-A **lift** of $Y$ along a $U$-structured sink $\{f_i\colon U(A_i)\to Y\}$ is an object $B$ of $C$, equipped with a sink $\{\phi_i\colon A_i \to B\}$ in $C$ and a morphism $h\colon Y\to U(B)$ in $D$, such that $U(\phi_i) = h \circ f_i$ for each $i$. A **morphism of lifts** is, of course, a morphism $\xi\colon B\to B'$ of $C$ such that the sink $\{\phi'_i\colon A_i\to B'\}$ factors through the sink $\{\phi_i\colon A_i\to B\}$ as $\phi_i'=\xi\circ\phi_i$, and such that the morphism $h'\colon Y\to U(B')$ factors through the morphism $h\colon Y\to U(B)$ as $h'=p(\xi)\circ h$.
+A **lift** of $Y$ along a $U$-structured sink $\{f_i\colon U(A_i)\to Y\}$ is an object $B$ of $C$, equipped with a sink $\{\phi_i\colon A_i \to B\}$ in $C$ and a morphism $h\colon Y\to U(B)$ in $D$, such that $U(\phi_i) = h \circ f_i$ for each $i$. A **morphism of lifts** is, of course, a morphism $\xi\colon B\to B'$ of $C$ such that the sink $\{\phi'_i\colon A_i\to B'\}$ factors through the sink $\{\phi_i\colon A_i\to B\}$ as $\phi_i'=\xi\circ\phi_i$, and such that the morphism $h'\colon Y\to U(B')$ factors through the morphism $h\colon Y\to U(B)$ as $h'=U(\xi)\circ h$.
 
 Note that if $U$ is faithful, then it suffices to demand merely that the sink $\{\phi_i\colon A_i \to B\}$ exists, rather than giving it as part of the structure.
 
