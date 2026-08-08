@@ -330,7 +330,7 @@ Monographs:
 
 * [[Hans-Joachim Baues|H. J. Baues]] and A. Quintero, _Infinite homotopy theory_, Volume 6 of K-monographs in mathematics,	Springer, 2001
 
-* Bruce Hughes and Andrew Ranicki, _Ends of Complexes_, Cambridge Tracts in Mathematics (No. 123), C.U.P.
+* Bruce Hughes, [[Andrew Ranicki]]: _Ends of Complexes_, Cambridge Tracts in Mathematics **123**, Cambridge University Press
 
 
 Lecture Notes:
