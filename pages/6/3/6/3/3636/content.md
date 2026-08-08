@@ -12,9 +12,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea of some problems
 
@@ -318,13 +316,17 @@ In fact there is another different way of looking at these groups, which has a m
 
 * Add stuff on Steenrod homotopy groups both for here and for strong shape theory entries.
 
+## Related entries
+
+* [[exterior space]]
+
 ## References
 
 Survey article:
 
-* [[Tim Porter]], _Proper Homotopy Theory_,  in the _[[Handbook of Algebraic Topology]]_, Ed. I.M.James, Elsevier, 1995, p. 127-167,
+* [[Tim Porter]], _Proper Homotopy Theory_, in: I. M James (ed.): _[[Handbook of Algebraic Topology]]_, Elsevier (1995) 127--167,
 
-Books:
+Monographs:
 
 * [[Hans-Joachim Baues|H. J. Baues]] and A. Quintero, _Infinite homotopy theory_, Volume 6 of K-monographs in mathematics,	Springer, 2001
 
@@ -333,8 +335,11 @@ Books:
 
 Lecture Notes:
 
-*   [[D. A. Edwards]] and [[H. M. Hastings]], _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
+*   [[D. A. Edwards]] and [[H. M. Hastings]], _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM **542**, Springer (1976)
 
+Via [[exterior spaces]]:
+
+* Antonio Ceres, José M. García-Calcines, [[Aniceto Murillo]]: _A stable framework for proper and exterior homotopy and cohomology theories_ &lbrack;[arXiv:2608.06186](https://arxiv.org/abs/2608.06186)&rbrack;
 
 [[!redirects proper homotopy theory]]
 [[!redirects Proper Homotopy Theory]]
