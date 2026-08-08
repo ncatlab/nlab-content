@@ -225,9 +225,9 @@ The hypotheses of this theorem are a bit restrictive, but they include both the 
 
 * A function on $X$, regarded as a cogerm differential form.  If such a function is nonzero on any region, then its genuine integral will diverge.  These are excluded by requirement (1).
 
-* Forms such as $\sqrt{\mathrm{d}x}$, whose genuine integral also diverges.  These are excluded by requirement (2).
+* Forms such as $\sqrt{|\mathrm{d}x|}$, whose genuine integral also diverges.  These are excluded by requirement (2).
 
-There are, however, some cogerm forms that are not 1-cojet forms, nor are they $\mathrm{o}(\mathrm{d}x)$, yet their genuine integrals exist.  An example is $\frac {|{(\mathrm{d}x \cdot \mathrm{d}x) \,\mathrm{d}^2x - (\mathrm{d}x \cdot \mathrm{d}^2x) \,\mathrm{d}x}|} {|\mathrm{d}x|^3}$, whose genuine integral over a curve is the total curvature along the curve.
+There are, however, some cogerm forms that are not 1-cojet forms, nor are they $\mathrm{o}(\mathrm{d}\mathbf{x})$, yet their genuine integrals exist.  An example is $\frac {|{(\mathrm{d}\mathbf{x} \cdot \mathrm{d}\mathbf{x}) \,\mathrm{d}^2\mathbf{x} - (\mathrm{d}\mathbf{x} \cdot \mathrm{d}^2\mathbf{x}) \,\mathrm{d}\mathbf{x}}|} {|\mathrm{d}\mathbf{x}|^3}$, whose genuine integral over a curve is the total curvature along the curve.
 
 
 ### Parametrization invariance
@@ -242,7 +242,7 @@ The genuine integral is somewhat more invariant under reparametrization.  For in
 
 * The genuine integral of any form along any curve is invariant under orientation-preserving *affine* reparametrization.  This follows fairly directly from its definition.
 
-There are forms whose genuine integral exists, but is not parametrization-invariant, such as $\sqrt{\mathrm{d}^2x}$.  However, we can isolate a useful class of forms, including both exterior forms and absolute forms, whose genuine integral is so invariant.  This is most easily done by reformulating the integral, as follows.
+There are forms whose genuine integral exists, but is not parametrization-invariant, such as $\sqrt{|\mathrm{d}^2x|}$.  However, we can isolate a useful class of forms, including both exterior forms and absolute forms, whose genuine integral is so invariant.  This is most easily done by reformulating the integral, as follows.
 
 
 ### Affine integration 
