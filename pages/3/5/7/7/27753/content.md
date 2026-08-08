@@ -303,6 +303,7 @@ On [[topological order]] and [[anyons]] in FQAH systems:
 * Umang Mehta, Yuto Nakajima, Hart Goldman: *Coloring in anyon superconductivity* &lbrack;[arXiv:2607.19470](https://arxiv.org/abs/2607.19470)&rbrack;
   > (relation to [[superconductivity]])
 
+* Botao Wang, Amit Vashisht, Felix A. Palm, Fabian Grusdt, Laurens Vanderstraeten, Nathan Goldman: *Anyon-Impurity Bound States in Quantum-Engineered Fractional Chern Insulators* &lbrack;[arXiv:2608.06233](https://arxiv.org/abs/2608.06233)&rbrack;
 
 
 
