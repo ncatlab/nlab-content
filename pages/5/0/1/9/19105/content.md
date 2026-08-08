@@ -46,6 +46,10 @@ On [[A-infinity algebra|$A_\infty$-algebra]]-[[structure]] and [[Massey products
 
 * {#BMM20} [[Urtzi Buijs]], [[José Manuel Moreno-Fernández]], [[Aniceto Murillo]]: *A-infinity structures and Massey products*, Mediterr. J. Math. **17** 31 (2020) &lbrack;[arXiv:1801.03408](https://arxiv.org/abs/1801.03408), [doi:10.1007/s00009-019-1464-1](https://doi.org/10.1007/s00009-019-1464-1)&rbrack;
 
+On [[proper homotopy theory]] via [[exterior spaces]]:
+
+* Antonio Ceres, José M. García-Calcines, [[Aniceto Murillo]]: _A stable framework for proper and exterior homotopy and cohomology theories_ &lbrack;[arXiv:2608.06186](https://arxiv.org/abs/2608.06186)&rbrack;
+
 
 
 ## Related entries
