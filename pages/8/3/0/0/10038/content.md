@@ -68,7 +68,7 @@ In the generality of [[G-spaces]]/[[equivariant homotopy theory]]:
 
 
 
-### Application to Tanagawa numbers
+### Application to Tamagawa numbers
 
 The proof by [[Jacob Lurie]] and [[Dennis Gaitsgory]] via nonabelian Poincar&#233; duality of the [[Weil conjecture on Tamagawa numbers]] was announced in 
 
