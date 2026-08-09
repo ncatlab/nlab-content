@@ -20,13 +20,13 @@
 
 ## Definition
 
-Every [[ring]] $R$ has a [[characteristic]]: it is zero if equivalently
+Every [[ring]] $R$ has a [[characteristic]]: For an [[integral domain]] it is zero if equivalently
 
-* its underlying $\mathbb{Z}$-[[module]] is a [[flat module]], 
+* the underlying $\mathbb{Z}$-[[module]] is a [[flat module]], 
 
-* its underlying [[abelian group]] is a [[torsion-free group]]. 
+* the underlying [[abelian group]] is a [[torsion-free group]],
 
-* The unique [[ring homomorphism]] from $\mathbb{Z}$ to $R$ is an [[injection]]. 
+* the unique [[ring homomorphism]] from $\mathbb{Z}$ to $R$ is an [[injection]]. 
 
 If a mathematical construct involves a "base ring", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base ring is.  
 
