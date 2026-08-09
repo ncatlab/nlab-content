@@ -1332,3 +1332,40 @@ ____
 sources:
 
 * {#Rudin1976} [[Walter Rudin]], _Principles of Mathematical Analysis_, 3rd edition, International Series in Pure and Applied Mathematics, McGraw-Hill (1976).
+
+
+
+____
+
+
+$$
+ \array{
+   1 
+   \\
+   \;\;\;\downarrow^{tr(f)}
+   \\
+   1
+ }
+  \;\;\;
+  :=
+  \;\;\;
+  \array{
+     & 1
+     \\
+     & \downarrow
+     \\
+     a^* &\otimes& a
+     \\
+     \downarrow^{\mathrlap{Id_{a^*}}} && \;\;\downarrow^f
+     \\
+     a^* &\otimes& a
+     \\
+     & \downarrow^{\mathrlap{b_{a^*, a}}} 
+     \\
+     a &\otimes& a^*
+     \\
+     & \downarrow
+     \\
+     & 1     
+  }
+$$
