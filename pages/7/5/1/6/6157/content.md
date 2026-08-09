@@ -116,7 +116,7 @@ This appears as ([ABG def. 3.12](#ABG)), ([ABGHR 08, 7.5](#ABGHR08)).
 
 Let $A$ be an [[A-∞ algebra|A-∞]] [[ring spectrum]]. 
 
-For $\Omega^\infty A$ the underlying [[A-∞ space]] and $\pi_0 \Omega^\infty A$ the ordinary [[ring]] of connected components, writ $(\pi_0 \Omega^\infty A)^\times$ for its [[group of units]]. 
+For $\Omega^\infty A$ the underlying [[A-∞ space]] and $\pi_0 \Omega^\infty A$ the ordinary [[ring]] of connected components, write $(\pi_0 \Omega^\infty A)^\times$ for its [[group of units]]. 
 
 Then the [[∞-group of units]] of $A$ is the [[(∞,1)-pullback]] $GL_1(A)$ in
 
