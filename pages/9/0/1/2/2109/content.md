@@ -1270,7 +1270,7 @@ C(1,d) \lhd J &= C(1,d) \lhd D(j,1)\\
 $$
 so that $\ell = d j$ is the $J$-weighted limit of $d$.  That is, $D(j,1)$-weighted limits are just given by composition with $j$.
 
-More interestingly, one can show that if $J = D(1,k)$ for some $k\colon D\to A$, then $J$-weighted limits specialize to *pointwise* right Kan extensions along $k$.  That is, the extra data of a proarrow equipment lets us define the good notion of Kan extension (even in the enriched case) as a special case of a general notion of limit.  Thus, in a general 2-category equipped with proarrows, we *define* a "pointwise right Kan extension" along an arrow $k\colon D\to A$ to be a $D(1,k)$-weighted limit.  It is easy to show that any pointwise Kan extension is, in particular, an internal Kan extension in $K$, but as we have seen the converse fails in $V Cat$.
+More interestingly, one can show that if $J = A(1,k)$ for some $k\colon D\to A$, then $J$-weighted limits specialize to *pointwise* right Kan extensions along $k$.  That is, the extra data of a proarrow equipment lets us define the good notion of Kan extension (even in the enriched case) as a special case of a general notion of limit.  Thus, in a general 2-category equipped with proarrows, we *define* a "pointwise right Kan extension" along an arrow $k\colon D\to A$ to be an $A(1,k)$-weighted limit.  It is easy to show that any pointwise Kan extension is, in particular, an internal Kan extension in $K$, but as we have seen the converse fails in $V Cat$.
 
 
 ### Right adjoints preserve limits
