@@ -28,7 +28,7 @@ This entry is to record the reference:
 
   reprinted as:
 
-  AMS Chelsea Publishing, Volume 347 (2004)
+  AMS Chelsea Publishing **347** (2004)
 
   [ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h)
 
