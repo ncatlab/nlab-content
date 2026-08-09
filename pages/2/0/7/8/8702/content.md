@@ -54,13 +54,13 @@ $$
   \,.
 $$
 
-This means that the product topology enjoys the [[universal property]] that for any topological space $(Y,\tau_Y)$ then sets of [[continuous functions]] $\{(Y, \tau_Y) \overset{\phi_i}{\to} (X_i, \tau_i)\}_{i \in I}$ into the factor spaces are in [[natural bijection]] with continuous functions $(\phi_i)_{i \in I} \colon (Y, \tau_Y) \to \left(\underset{i \in I}{\prod} X_i, \tau_{prod}\right)$ into the product topological space.
+This means that the product topology enjoys the [[universal property]] that for any topological space $(Y,\tau_Y)$, sets of [[continuous functions]] $\{(Y, \tau_Y) \overset{\phi_i}{\to} (X_i, \tau_i)\}_{i \in I}$ into the factor spaces are in [[natural bijection]] with continuous functions $(\phi_i)_{i \in I} \colon (Y, \tau_Y) \to \left(\underset{i \in I}{\prod} X_i, \tau_{prod}\right)$ into the product topological space.
 
 
-Beware that (among others) there is also the _[[box topology]]_ $\tau_{box}$ on the Cartesian product of underlying sets $\underset{i\in I}{\prod} X_i$, whose open subsets are the unions of those of the for $\underset{i \in I}{\prod} U_i$ with $U_i \subset X_i$ open and with _no_ further restriction on the factors. 
+Beware that (among others) there is also the _[[box topology]]_ $\tau_{box}$ on the Cartesian product of underlying sets $\underset{i\in I}{\prod} X_i$, whose open subsets are the unions of those of the form $\underset{i \in I}{\prod} U_i$ with $U_i \subset X_i$ open and with _no_ further restriction on the factors. 
 
-For $I$ a [[finite set]], then these two topologies coincide, but for 
-$I$ not finite then the box topology is a strictly [[fine topology|finer topology]]
+If $I$ is a [[finite set]] then these two topologies coincide, but if
+$I$ is not finite then the box topology is a strictly [[fine topology|finer topology]]
 
 $$
   \tau_{prod} \subset \tau_{box}
