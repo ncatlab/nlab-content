@@ -24,7 +24,7 @@ A _cocone_ under a [[diagram]] is an [[object]] equipped with [[morphism]]s from
 
 A cocone which is [[universal property|universal]] is a [[colimit]].
 
-The dual notion is _[[cone]]_ .
+The dual notion is _[[cone]]_.
 
 ## Definition
 
