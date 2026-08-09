@@ -14,32 +14,42 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
-Every [[ring]] $R$ has a [[characteristic]]: For an [[integral domain]] it is zero if equivalently
+Every [[ring]] $R$ has a [[characteristic]]: For an [[integral domain]] it is zero if, equivalently:
 
 * the underlying $\mathbb{Z}$-[[module]] is a [[flat module]], 
 
 * the underlying [[abelian group]] is a [[torsion-free group]],
 
-* the unique [[ring homomorphism]] from $\mathbb{Z}$ to $R$ is an [[injection]]. 
+* the unique [[ring homomorphism]] from [[integers|$\mathbb{Z}$]] to $R$ is an [[injection]]. 
 
-If a mathematical construct involves a "base ring", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base ring is.  
+If a mathematical construct (like an [[algebraic variety]]) involves a "[[base ring]]", then one says that it is in characteristic zero, if the base ring is.  
 
 ## Examples
 
-The basic example of a ring of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one could be tempted to define a [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ of characteristic $0$ as one containing the rationals. A ring of this form is exactly a $\mathbb{Q}$-[[unital algebra|algebra]]. While every $\mathbb{Q}$-algebra is a ring of characteristic $0$, some rings of characteristic $0$ are not $\mathbb{Q}$-algebras, for instance the ring $\mathbb{Z}$.
+\begin{example}
+The basic example of a ring of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one could be tempted to define a [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ of characteristic $0$ as one containing the rationals. A ring of this form is exactly a $\mathbb{Q}$-[[associative algebra|algebra]]. 
 
-The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex numbers]]. 
+While every $\mathbb{Q}$-algebra is a ring of characteristic $0$, some rings of characteristic $0$ are not $\mathbb{Q}$-algebras, for instance the ring $\mathbb{Z}$ of [[integers]].
+\end{example}
 
-In [[model theory]], there is a first-order theory of fields: every (commutative) field is a model. There is a transfer principle called __Lefschetz principle__ which says: every sentence expressed in the first order theory of fields which is true for complex numbers is true for every algebraically closed field of characteristic zero. It is named after Solomon Lefschetz who used it in algebraic geometry, reasoning topologically for other algebarically closed fields of characteristic zero. The formalization and its proof are due [[Alfred Tarski]].
+\begin{example}
+The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex numbers]].
+\end{example} 
+
+\begin{example}
+In [[model theory]], there is a [[first-order theory]] of [[fields]]: every (commutative) field is a model. There is a transfer principle called the __Lefschetz principle__ which says: every sentence expressed in the [[first order theory]] of [[fields]] which is true for [[complex numbers]] is true for every [[algebraically closed field]] of characteristic zero. 
+
+This is named after [[Solomon Lefschetz]] who used it in [[algebraic geometry]], reasoning topologically for other algebraically closed fields of characteristic zero. The formalization and its proof are due [[Alfred Tarski]].
+\end{example}
 
 ## Related concepts
 
 * [[positive characteristic]]
 
 [[!redirects characteristic 0]]
+
+[[!redirects Lefschetz principle]]
