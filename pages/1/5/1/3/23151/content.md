@@ -289,7 +289,7 @@ $$
 \begin{proof}
   This is readily seen by component inspection, but it may be instructive to see it from more abstract reasoning:
 
-Namely, with the free cocompletion understood as a [[Grothendieck construction]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$ discussed [above](#AsAGrothendieckConstruction), its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "[[external tensor product|external]] [[cartesian product]]" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
+Namely, with the free cocompletion understood as a [[Grothendieck construction]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$ discussed [above](#AsAGrothendieckConstruction), its cartesian products are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "[[external tensor product|external]] [[cartesian product]]" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease of notation):
 $$
   X_S,\, Y_T \,\in\, \textstyle{\int}_{S \in Set} \mathcal{C}
   \;\;\;\;\;\;\;\;\;
