@@ -45,6 +45,10 @@ On [[2-Hilbert spaces]]:
 
 * [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
 
+On [[TQFT]] [[QFT with defects|with defects]] taking it to account [[reflection positivity]]:
+
+* [[Lukas Müller]]: *Topological defects in reflection positive topological field theories* &lbrack;[arXiv:2608.07217](https://arxiv.org/abs/2608.07217)&rbrack;
+
 
 category: people
 
