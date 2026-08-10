@@ -14,11 +14,9 @@
 =--
 
 
-> See also [[derived hom space]]
+> See also at *[[derived hom space]]*.
 
-#Simplicial localization#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea 
@@ -37,12 +35,12 @@ $$
 
 If the homotopical structure on $C$ extends to that of a (combinatorial) [[model category]], then there is another procedure to obtain a simplicially enriched category from $C$, the [[presentable (infinity,1)-category|(∞,1)-category presented by a combinatorial model category]]. This $(\infty,1)$-category is equivalent to the one obtained by simplicial localization but typically more explicit and more tractable. 
 
-See also [[localization of a simplicial model category]].
+See also at *[[localization of model categories]]*.
 
 
 ## Construction
 
-See [[simplicial localization of a homotopical category]].
+See *[[simplicial localization of a homotopical category]]*.
 
 
 ## Definition
@@ -151,7 +149,7 @@ Write $Ho(L^H C) \in Cat$ for the category with the same objects as $C$ and morp
 There is an [[equivalence of categories]]
 
 $$
-  Ho L^H C
+  Ho\big(L^H C\big)
    \simeq
   C[W^{-1}]
   \,.
@@ -182,7 +180,7 @@ $$
   (X \overset{f}{\to} Y) \in W \subset Mor(C)
 $$
 
-be a [[weak equivalence]]. Then for all objects $U \in C$ we have that the  concatenation operation on hammocks induce [[weak homotopy equivalences]]
+be a [[weak equivalence]]. Then for all objects $U \in C$ we have that the  concatenation operations on hammocks induces [[weak homotopy equivalences]]
 
 $$
   f_* 
@@ -205,7 +203,7 @@ $$
 
 =--
 
-This appears as ([DwyerKanCalculating, prop. 3.3](#DwyerKanCalculating)).
+This appears as ([Dwyer & Kan Calc., prop. 3.3](#DwyerKanCalculating)).
 
 
 
