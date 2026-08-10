@@ -835,6 +835,7 @@ of a [differential-graded](https://ncatlab.org/nlab/show/tensor+product+of+chain
 
 In the case that $V_*$ has nonzero chain-homology outside of degree $0$, this is impossible due to the identity $\pi_*(|\Gamma(V_*)|) \simeq H_*(V_*)$, even though the contractible analytic topology on $|\Gamma(V_*)|$ can of course be restored from the Hermitian form itself.
 
+
 ## Related concepts
 
 * [[Hilbert space]]
