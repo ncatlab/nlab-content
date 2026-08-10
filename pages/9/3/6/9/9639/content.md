@@ -615,7 +615,8 @@ this according to a [[Berry phase]] computation via the [[quantum adiabatic theo
 
 It appears that [Su 1986 (3)](#Su86) claims that this same formula $\theta = \pm \nu$ (eq:BraidingAngleAtUnitFractionFillingFactor) should hold for general filling fractions $\nu$. But there is another formula in use:
 
-[Goldhaber & Jain 1995](#GoldhaberJain95) claim (motivated by [Halperin 1984](#Halperin84), reviewed in [Jain 2007 (9.46)](#Jain07)) that for filling fractions in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
+[Goldhaber & Jain 1995](#GoldhaberJain95) and 
+[Jeon, Graham & Jain 2004 (35)](#JeonGrahamJain2004) claim (motivated by [Halperin 1984](#Halperin84), reviewed in [Jain 2007 (9.46)](#Jain07)) that for filling fractions in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
 
 \[
   \label{BraidingAngleAtJainSequenceFillingFactor}
