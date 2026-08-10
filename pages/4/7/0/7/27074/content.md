@@ -30,6 +30,8 @@ On the [[anyon]] [braiding phase](quantum+Hall+effect#BraidingPhase) in [[fracti
 
 * {#GoldhaberJain95} A. S. Goldhaber, [[Jainendra K. Jain]]: *Characterization of fractional-quantum-Hall-effect quasiparticles*, Physics Letters A **199** 3–4 (1995) 267-273 \[<a href="https://doi.org/10.1016/0375-9601(95)00101-8">doi:10.1016/0375-9601(95)00101-8</a>, [arXiv:cond-mat/9501080](https://arxiv.org/abs/cond-mat/9501080)\]
 
+* {#JeonGrahamJain2004} Gun Sang Jeon, Kenneth L. Graham, [[Jainendra K. Jain]]: *Berry phases for composite fermions: effective magnetic field and fractional statistics*, Phys. Rev. B **70** 125316 (2004) \[<a href="https://doi.org/10.1103/PhysRevB.70.125316">doi:10.1103/PhysRevB.70.125316</a>, [arXiv:cond-mat/0407137](https://arxiv.org/abs/cond-mat/0407137)\]
+
 
 On the $\nu = 5/2$ [[FQH system|FQH state]]:
 
