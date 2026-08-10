@@ -15,7 +15,7 @@
 
 ## Definition
 
-A **constant functor** $\Delta d: C\to D$ is a [[functor]] that maps each [[object]] of the [[category]] $C$ to a fixed object $d\in D$ and each morphism of $C$ to the identity morphism of that fixed object. 
+A **constant functor** $\Delta d: C\to D$ is a [[functor]] that maps each [[object]] of the [[category]] $C$ to a fixed object $d\in \mathrm{Obj}(D)$ and each morphism of $C$ to the identity morphism of that fixed object. 
 
 (The notation $\Delta d$ is suggested by the fact that if $d: 1 \to D$ names an object $d$ of $D$, then the composite 
 
