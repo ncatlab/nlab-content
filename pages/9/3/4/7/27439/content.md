@@ -58,6 +58,9 @@ and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures)
 
 * Noah Samuelson et al.: *Anyonic statistics and slow quasiparticle dynamics in a graphene fractional quantum Hall interferometer* \[<a href="https://arxiv.org/abs/2403.19628">arXiv:2403.19628</a>\]
 
+* Jehyun Kim, Himanshu Dev, Ravi Kumar, Alexey Ilin, André Haug, Vishal Bhardwaj, Changki Hong, Kenji Watanabe, Takashi Taniguchi, [[Ady Stern]], Yuval Ronen: *Aharonov-Bohm interference and the evolution of phase jumps in fractional quantum Hall Fabry-Perot interferometers based on bi-layer graphene*, Nature Nanotechnology **19** (2024) 1619--1626 \[<a href="https://doi.org/10.1038/s41565-024-01751-w">doi:10.1038/s41565-024-01751-w</a>, [arXiv:2402.12432](https://arxiv.org/abs/2402.12432)\]
+
+
 * Jehyun Kim et al.: *Aharonov-Bohm Interference in Even-Denominator Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2412.19886">arXiv:2412.19886</a>\]
 
 See also:
