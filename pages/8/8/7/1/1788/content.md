@@ -7,40 +7,35 @@
 
 ***
 
+Problematic content from elsewhere:
 
+## On the geometric realization of a chain complex of $\mathbb{C}$-modules
 
-
-$\not\simeq$
-
-$\esh$
-
-***
-
-+-- {: .num_theorem #TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}
-###### Theorem
-
-([Milne 2017, Propositions 3.24, 3.25](#Milne17)). Let $k$ be an algebraically closed field. The categories of affine varieties and affine $k$-algebras are [[dual equivalence|anti-equivalent]].
-
-=--
-
-The following result particularizes the [[schemes as sheaves on affine schemes#SchemesAsPresheaves|fundamental theorem on morphisms of schemes]] to prevarieties.
-
-+-- {: .num_prop #PropositionSpmAndGammaAreMutuallyRightAdjoint}
-###### Proposition
-
-[Milne 2017, Propositions 5.11](#Milne17). Let $k$ be an algebraically closed field. Let $V$ be an algebraic $k$-prevariety. Let $A$ be an affine $k$-algebra. Then we have the following natural bijection:
+Recall from the study of the [[Dold-Kan correspondence]] that there is a [[Quillen equivalence]] $\Gamma : Ch_\bullet^+ (\mathbb{C}\text{-mod}) \rightarrow (\mathbb{C}\text{-mod})^{\Delta^{op}}$ defined by 
 
 $$
-Hom(V,Spm(A))\cong Hom_{k\text{-algebra}}(A,\Gamma(V,\mathcal{O}_V)).
+(\Gamma C)_n = \bigoplus_{k \in \{0, ..., n \}, \alpha : \{ 0, ..., n \} \twoheadrightarrow \{ 0, .., k \} } C_k
 $$
 
-=--
+and from the study of [[geometric realization]] of simplicial sets that the geometric realization functor $| - | :  (\mathbb{C}\text{-mod})^{\Delta^{op}} \rightarrow \text{Top}$ is a [product-preserving](https://ncatlab.org/nlab/show/geometric+realization#TopologicalRealizationPreservesFiniteProducts) Quillen equivalence. 
 
-In other words, the maximal spectrum functor and the global sections functor, defined between the categories of affine $k$-algebras and $k$-prevarieties, are [[dual adjunction|mutually right adjoint]]. Note that Milne states the result for quasi-compact varieties, but his proof applies in the general case and never uses quasi-compactness nor separation. Note that from \ref{PropositionSpmAndGammaAreMutuallyRightAdjoint} we recover \ref{TheoremAffineVarietiesAffinekAlgebrasAreEquivalent}.
+The functor $\Gamma$ also preserves products, as can be seen directly from its formula. Indeed, since for each $n \in \mathbb{N}$ and each $k \in \{0,...,n \}$, there are only finitely many surjections $\alpha : \{ 0, ..., n \} \twoheadrightarrow \{ 0, .., k \}$, there is an isomorphism
 
-For additional information, look at this very related typing graph. 
+$$
+\Gamma(C \times D)_n \cong \Gamma(C)_n \times \Gamma(D)_n
+$$
 
-$$\frac{\Gamma \vdash A ,; \Gamma \vdash B}{\Gamma \vdash A\times B}$$
+for each $n \in \mathbb{N}$
+
+A Hermitian form on the realization $|\Gamma(V_*)|$ of a [[chain complex]] of $\mathbb{C}$-modules has the confounding property that, while such a form may result from the [geometric realization](https://ncatlab.org/nlab/show/geometric+realization#OfSimplicialSets)
+$$
+|\Gamma(V_*)| \times |\Gamma(V_*)|  \stackrel{\cong}{\rightarrow} | \Gamma(V_*) \times \Gamma(V_*)| \stackrel{\cong}{\rightarrow} |\Gamma(V_*)| \times |\Gamma(V_*)| \stackrel{| \Gamma ( \langle - , - \rangle) | }{\rightarrow} |\Gamma(\mathbb{C})| \stackrel{\simeq}{\rightarrow} \mathbb{C}_{disc}
+$$ 
+of a [differential-graded](https://ncatlab.org/nlab/show/tensor+product+of+chain+complexes) [bilinear form](https://ncatlab.org/nlab/show/bilinear+form#from_ab_to_monoidal_categories) $\langle -, - \rangle : V_* \otimes V_* \rightarrow \mathbb{C}$, even one with trivial differentials, the coincidence of the resulting topology on the topological $\mathbb{C}_{disc}$-vector space $|\Gamma(V_*)|$ with its topology as a Hilbert-space would imply the existence of a [[deformation retract]] onto the point $\{ 0 \}$ occurring as the restriction of the realization of the scalar function $|\Gamma(\mathbb{C})|  \times |\Gamma(V_*)| \rightarrow |\Gamma(V_*)|$. 
+
+In the case that $V_*$ has nonzero chain-homology outside of degree $0$, this is impossible due to the identity $\pi_*(|\Gamma(V_*)|) \simeq H_*(V_*)$, even though the contractible analytic topology on $|\Gamma(V_*)|$ can of course be restored from the Hermitian form itself.
+
+
 
 
 ***
