@@ -33,6 +33,10 @@ On [[anyons]] in application to [[topological quantum computation]]:
 
 * [[Ady Stern]], [[Netanel H. Lindner]]: *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 &lbrack;[doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html)&rbrack;
 
+On experimental observation of [[anyons]] in [[fractional quantum Hall systems]]:
+
+* Jehyun Kim, Himanshu Dev, Ravi Kumar, Alexey Ilin, André Haug, Vishal Bhardwaj, Changki Hong, Kenji Watanabe, Takashi Taniguchi, [[Ady Stern]], Yuval Ronen: *Aharonov-Bohm interference and the evolution of phase jumps in fractional quantum Hall Fabry-Perot interferometers based on bi-layer graphene*, Nature Nanotechnology **19** (2024) 1619--1626 \[<a href="https://doi.org/10.1038/s41565-024-01751-w">doi:10.1038/s41565-024-01751-w</a>, [arXiv:2402.12432](https://arxiv.org/abs/2402.12432)\]
+
 
 
 
