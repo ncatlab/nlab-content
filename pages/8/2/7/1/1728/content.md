@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -302,6 +300,11 @@ Discussion of defects in [[prequantum field theory]], hence for [[coefficients]]
 DIscussion with emphasis on [[Koszul duality]] such as in [[holography as Koszul duality]]:
 
 * [[Natalie Paquette]], Brian R. Williams, *Koszul duality in quantum field theory* ([arXiv:2110.10257](https://arxiv.org/abs/2110.10257))
+
+Taking it to account [[reflection positivity]]:
+
+* [[Lukas Müller]]: *Topological defects in reflection positive topological field theories* &lbrack;[arXiv:2608.07217](https://arxiv.org/abs/2608.07217)&rbrack;
+
  
 
 ### Examples
