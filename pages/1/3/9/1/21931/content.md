@@ -176,6 +176,7 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 
 * [[second stable homotopy group of spheres]]
 
+* [[seventh stable homotopy group of spheres]]
 
 ## References
 
