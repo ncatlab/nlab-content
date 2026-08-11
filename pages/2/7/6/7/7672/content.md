@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -597,15 +596,17 @@ A [[p-adic number|p-adic]] J-homomorphism is described in
 
 The analysis of the image of $J$ is due to 
 
-* [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-I.pdf))
+* [[John Adams]]: _On the groups $J(X)$ I_, Topology **2** 3 (1963) &lbrack;[pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-I.pdf)&rbrack;
 
-* {#Adams65a} [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
+* {#Adams65a} [[John Adams]], _On the groups $J(X)$ II_, Topology **3** 2 (1965) &lbrack;[pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf)&rbrack;
  
 
-* {#Adams65b} [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf))
+* {#Adams65b} [[John Adams]]: _On the groups $J(X)$ III_, Topology **3** 3 (1965) &lbrack;[pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf)&rbrack;
  
 
-* {#Adams66} [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
+* {#Adams66} [[John Adams]]: _On the groups $J(X)$ IV_, Topology **5** 1 (1966) 21--71 &lbrack;<a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>, [pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf)&rbrack;
+
+  _Correction_, Topology **7** 3 (1968) 331  
  
 
 
