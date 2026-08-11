@@ -1,5 +1,10 @@
 
-* [webpage](http://www.phys.psu.edu/people/rsr10)
+
+* [institute page](https://science.psu.edu/physics/people/rsr10)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=aQQG3iQAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Radu-Roiban-11954822)
 
 ## Selected writings
 
@@ -36,6 +41,9 @@ On the "[[double copy]]" [[KLT relations]]-approach to [[scattering amplitudes]]
 
 * [[Zvi Bern]], [[John Joseph Carrasco]], [[Marco Chiodaroli]], [[Henrik Johansson]], [[Radu Roiban]], *Supergravity amplitudes, the double copy and ultraviolet behavior*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.07392](https://arxiv.org/abs/2304.07392)&rbrack;
 
+On the [[BMS group]]:
+
+* Asaad Elkhidir, Donal O'Connell, [[Radu Roiban]]: *Supertranslations are Soft Dressings* &lbrack;[arXiv:2608.07699](https://arxiv.org/abs/2608.07699)&rbrack;
 
 
 ## Related entries
