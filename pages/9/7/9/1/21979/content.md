@@ -22,13 +22,13 @@ The first [[stable homotopy group of spheres]] (the first [[stable stem]]) is th
 \[
   \label{ComplexHopfFibrationGeneratingpi1}
   \array{
-    \pi_1^s &\simeq& \mathbb{Z}/2
+    \pi_1^s &\simeq& \mathbb{Z}_{/2}
     \\
     [h_{\mathbb{C}}] &\leftrightarrow& [1]
   }
 \]
 
-where the generator $[1] \in \mathbb{Z}/2$ is represented by the [[complex Hopf fibration]] $S^3 \overset{h_{\mathbb{C}}}{\longrightarrow} S^2$.
+where the generator $[1] \in \mathbb{Z}/2$ is represented by the [[complex Hopf fibration]] $S^3 \overset{h_{\mathbb{C}}}{\longrightarrow} S^2$ (cf. Prop. \ref{ComplexHopfFibrationIsGenerator} below).
 
 \begin{imagefromfile}
         "file_name": "PuncturedSphereBordismBetweenTwoCircles.jpg",
@@ -47,6 +47,27 @@ where the generator $[1] \in \mathbb{Z}/2$ is represented by the [[complex Hopf 
 \end{imagefromfile}
 
 ## Properties
+
+### Generator
+
+\begin{proposition}
+\label{ComplexHopfFibrationIsGenerator}
+  A generator of $\pi_1^s$, is represented by the [[suspension]] of the [[complex Hopf fibration]].
+\end{proposition}
+\begin{proof}
+  Assuming we know the relevant [[homotopy groups of spheres]], and that $h_{\mathbb{C}}$ generates $\pi_3(S^2)$, then (the boundary case of) the [[Freudenthal suspension theorem]] implies that
+$$
+  \mathbb{Z} 
+    \simeq 
+  \pi_3(S^2) 
+    \overset{\Sigma}{\longrightarrow} 
+  \pi_4(S^3) 
+    \simeq 
+  \mathbb{Z}_{/2}
+$$
+is [[surjective]], hence that the generator $h_{\mathbb{C}}$ is sent to a generator $\Sigma h_{\mathbb{C}}$.
+\end{proof}
+
 
 ### As the first framed bordism group 
 
@@ -73,6 +94,8 @@ Moreover, the relation $2 \cdot [S^1_{Lie}] \,\simeq\, 0$ is represented by the 
 * [[second stable homotopy group of spheres]]
 
 * [[third stable homotopy group of spheres]]
+
+* [[seventh stable homotopy group of spheres]]
 
 * [[homotopy groups of spheres in HoTT]]
 
