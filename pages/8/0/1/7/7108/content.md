@@ -57,7 +57,9 @@ Given any set $S$ and any [[category]] $C$, the [[category]] of __$S$-graded obj
 
 * [[bigraded object]]
 
-* [[graded module]]
+* [[graded module|graded module over a ring]]
+
+* [[grMod|graded module over a graded ring]]
 
 * [[graded ring]]
 
