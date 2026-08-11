@@ -12,21 +12,21 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
 +-- {: .num_defn #CentralProduct}
 ###### Definition
-**([[central product]])**
 
-Given two [[groups]] $G_1$ and $G_2$ and a joint [[subgroup]] 
+
+Given a [[pair]] of [[groups]], $G_1$ and $G_2$, and a joint [[subgroup]] 
 
 \[
   \label{SubgroupInclusion}
   C \xhookrightarrow{\iota_i} Z(G_i)
+  \,,\;\;
+  i \in \{ 1,2 \}
 \]
 
 in each of their [[centers]], then the corresponding ("external") _central product_ is the [[quotient group]]
@@ -43,7 +43,7 @@ of the [[direct product group]] $G_1 \times G_2$ by the [[diagonal]] subgroup $C
 
 =--
 
-([Gorenstein 80, p. 29](#Gorenstein80))
+([Gorenstein 1980, p. 29](#Gorenstein80))
 
 +-- {: .num_remark #MaterialDefinition}
 ###### Remark
@@ -75,9 +75,13 @@ Beware that there is no widely accepted convention for the notation of central p
 
 ### In Riemannian geometry and spin geometry
 
+\begin{example}
 A [[Spin^c-group]] is a central product of a [[spin group]] with the [[circle group]].
+\end{example}
 
-Moreover, in [[Riemannian geometry]] and [[spin geometry]] one considers the central products [[Sp(n).Sp(1)]] and [[Spin(n).Spin(m)]].
+\begin{example}
+In [[Riemannian geometry]] and [[spin geometry]] one considers the central products [[Sp(n).Sp(1)]] and [[Spin(n).Spin(m)]].
+\end{example}
 
 
 ## Related concepts
