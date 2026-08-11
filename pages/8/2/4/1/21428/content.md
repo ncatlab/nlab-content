@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -24,6 +23,8 @@ In one more well-developed version of flat space holography, [[scattering amplit
 
 
 ## Related concepts
+
+* [[asymptotic symmetry]], [[BMS group]]
 
 * [[cone brane]]
 
@@ -38,12 +39,14 @@ In one more well-developed version of flat space holography, [[scattering amplit
 Early comments:
 
 * [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[Strings98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
-
   > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of flat space holography)
 
 Dedicated introduction and survey:
 
-* [[Daniel Grumiller]], *Flat Space Holography*, 2015 ([pdf](http://quark.itp.tuwien.ac.at/~grumil/pdf/schwarzschild2015.pdf), [[Grumiller_FlatSpaceHolography.pdf:file]])
+* [[Daniel Grumiller]]: *Flat Space Holography*, (2015) &lbrack;[pdf](http://quark.itp.tuwien.ac.at/~grumil/pdf/schwarzschild2015.pdf), [[Grumiller_FlatSpaceHolography.pdf:file]]&rbrack;
+
+* Faïçal Barzi: *Celestial Holography, A Hitchhiker's Guide to the Celestial Sphere* &lbrack;[arXiv:2608.07568](https://arxiv.org/abs/2608.07568)&rbrack;
+
 
 Activities:
 
@@ -53,7 +56,6 @@ Activities:
 Original articles:
 
 * [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
-
   > (in relation to the [[BFSS matrix model]])
 
 * {#deBoerSolodukhin03} [[Jan de Boer]], Sergey N. Solodukhin, *A holographic reduction of Minkowski space-time*, Nucl. Phys. B665 (2003) 545-593 ([arXiv:hep-th/0303006](https://arxiv.org/abs/hep-th/0303006))
