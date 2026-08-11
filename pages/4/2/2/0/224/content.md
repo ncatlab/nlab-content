@@ -229,6 +229,8 @@ Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces ma
 
 * [Drinfeld center of $Vec_G$](Drinfeld+center#DrinfeldCenterOfGGradedVectorSpaces)
 
+* [[grMod]]
+
 * [[graded set]], [[graded object]]
 
 * [[super vector space]]
