@@ -456,7 +456,7 @@ $$
 
 =--
 
-See ([MacLane-Moerdijk, p. 46](#MacLane-Moerdijk)).
+See ([MacLane-Moerdijk, p. 46](#MacLaneMoerdijk)).
 
 +-- {: .num_prop #CompositionOfInternalFunctionsInSheafTopos}
 ###### Proposition
