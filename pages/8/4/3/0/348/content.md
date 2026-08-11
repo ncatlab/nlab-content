@@ -13,9 +13,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -92,7 +90,7 @@ Just as a [[Grothendieck fibration]] is equivalent to a functor $C^{op} \to Cat$
 
 ### Relation to cofibrations
 
-The inclusions of sieves are precisely the [[cofibrations]] in the [[2-category]] $\mathscr{V}$-Cat of [[enriched categories]]. Dually, the inclusions of cosieves are precisely the [[coopfibrations]]. See Proposition 2.5 of [Street 2026](#Street26).
+The inclusions of sieves are precisely the [[cofibrations]] in the [[2-category]] [[VCat|$\mathscr{V}$-Cat]] of [[enriched categories]]. [[formal duality|Dually]], the inclusions of cosieves are precisely the [[coopfibrations]]. See Proposition 2.5 of [Street 2026](#Street26).
 
 ### Relation to subfunctors 
 
