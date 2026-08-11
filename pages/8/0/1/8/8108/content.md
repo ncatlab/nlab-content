@@ -46,7 +46,7 @@ On [[elliptic genera]]:
 
 On [[chromatic homotopy theory]], [[complex cobordism cohomology]] and [[stable homotopy groups of spheres]],:
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing, Volume 347, 2004 ([ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf))
+* [[Doug Ravenel]]: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing **347** (2004) &lbrack;[ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/mybooks/ravenel.pdf)&rbrack;
 
 On the [[Morava K-theory]] of [[iterated loop spaces]] of [[spheres]] and on [[stable splitting of mapping spaces]]:
 
