@@ -92,6 +92,8 @@ $$
 
 * [[real Hopf fibration]], [[complex Hopf fibration]], [[quaternionic Hopf fibration]]
 
+* [[seventh stable homotopy group of spheres]]
+
 * [[octonionic projective space]]
 
 ## References
