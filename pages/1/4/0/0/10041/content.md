@@ -63,7 +63,7 @@ Accounts of the traditional notion:
 
 * {#Neeman96} [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. **9** (1996) 205-236 &lbrack;[jstor:2152846](http://www.jstor.org/stable/2152846)&rbrack;
  
-* Liviu Niculaescu: _The derived category of sheaves and the Poincar&#233;-Verdier duality_ &lbrack;[pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf)&rbrack;
+* [[Liviu Nicolaescu]], _The derived category of sheaves and the Poincar&#233;-Verdier duality_ &lbrack;[pdf](https://academicweb.nd.edu/~lnicolae/Verdier-ams.pdf)&rbrack;
 
 * [[Jacob Lurie]], lecture notes on _Verdier duality_ ([2011 pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf), [2013 pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.348.5739&rep=rep1&type=pdf), [2014 pdf](http://people.math.harvard.edu/~lurie/282ynotes/LectureXXI-Verdier.pdf))
 
