@@ -401,6 +401,8 @@ For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categori
 
 * [[Vect]], [[VectBund(B)]], [[VectBund]]
 
+* [[grMod]]
+
 * [[(∞,1)Mod]]
 
 * [[2Mod]]
