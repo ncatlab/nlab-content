@@ -165,7 +165,6 @@ The [[second stable homotopy group of spheres]]...
 
 ### 3rd stem
 
-
 The [[third stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
 
 \[
@@ -292,6 +291,21 @@ $$
 while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invariant#Adams66)).
 
 =--
+
+### 7th stem
+
+The [[seventh stable homotopy group of spheres]] (the seventh [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 240:
+
+\[
+  \label{OctonionicHopfFibrationGeneratingpi7}
+  \array{
+    \pi_7^s &\simeq& \mathbb{Z}/240
+    \\
+    [h_{\mathbb{O}}] &\leftrightarrow& [1]
+  }
+\]
+
+where the generator $[1] \in \mathbb{Z}/240$ is represented by the [[octonionic Hopf fibration]] $S^{15} \overset{h_{\mathbb{O}}}{\longrightarrow} S^8$.
 
 
 
