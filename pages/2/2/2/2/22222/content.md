@@ -83,7 +83,7 @@ Hence $Fam(D)$ is the free [[cartesian monoidal category]] over $D$, with $J$ th
 (This is dual to the [[free coproduct completion]], an example of a [[Grothendieck construction]], see [here](free+coproduct+completion#AsAGrothendieckConstruction).)
 
 \begin{theorem}
-A multi-adjoint to $R \col D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is [[relative coadjoint functor|$J$-coadjoint to $K$]], meaning that
+A multi-adjoint to $R : D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is [[relative coadjoint functor|$J$-coadjoint to $K$]], meaning that
 \[
         \alpha : Hom_{Fam(D)}(K c, J d) \cong Hom_{C}(c, R d),
 \]
@@ -93,7 +93,7 @@ naturally in $c$ and $d$.
 We use the characterization in theorem \ref{HomCharacterization}.
 
 First of all, note that the type of the object part of $K$ is the same as the type of $(I, L)$; let us identify these.
-Next, note that $Hom_{Fam(D)}(K c, J d) \cong \Sigma(i \in I(x)).Hom_D(L(c, i), d)$.
+Next, note that $Hom_{Fam(D)}(K c, J d) \cong \Sigma(i \in I(c)).Hom_D(L(c, i), d)$.
 
 So to show that the characterization here implies the definition, we simply need to forget functoriality of $K$ and naturality in $c$.
 
