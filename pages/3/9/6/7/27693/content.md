@@ -16,6 +16,12 @@
 
 The *Bondi-Metzner-Sach group* (BMS group) is the group of [[asymptotic symmetries]] of [[asymptotically flat spacetimes]] at [[lightlike]] infinity.
 
+## Related concepts
+
+* [[asymptotic symmetry]]
+
+* [[flat space holography]]
+
 ## References
 
 Named after:
@@ -56,6 +62,9 @@ See also:
 * Geoffrey Compère, Sébastien Robert: *Conservation law of super-Lorentz charges* &lbrack;[arXiv:2606.26848](https://arxiv.org/abs/2606.26848)&rbrack;
 
 * Diego Hidalgo, Stefan Vandoren, Huaxuan Zeng: *$BMS_3$ invariant field theories* &lbrack;[arXiv:2607.06826](https://arxiv.org/abs/2607.06826)&rbrack;
+
+* Asaad Elkhidir, Donal O'Connell, [[Radu Roiban]]: *Supertranslations are Soft Dressings* &lbrack;[arXiv:2608.07699](https://arxiv.org/abs/2608.07699)&rbrack;
+
 
 
 
