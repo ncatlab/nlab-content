@@ -156,11 +156,11 @@ $$
 
 and in fact it is a generator of the non-torsion factor in this group.
 
-Stably, i.e. as a generator for the [[stable homotopy groups of spheres]] in degree $7-4 = 3$, the quaternionic Hopf map becomes a [[torsion subgroup|torsion]] generator:
+Stably, i.e. as a generator for the [[stable homotopy groups of spheres]] in degree $7-4 = 3$, the quaternionic Hopf map becomes a [[torsion subgroup|torsion]] generator (see [there](https://ncatlab.org/nlab/show/third+stable+homotopy+group+of+spheres#QuaternionicHopfFibrationIsGenerator)):
 
 $$
-  [p_{\mathbb{H}}] \in \pi_3^S \simeq \mathbb{Z}/24
-  \,,.
+  [p_{\mathbb{H}}] \in \pi_3^S \simeq \mathbb{Z}_{/24}
+  \mathrlap{\,.}
 $$
 
 The [[third stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
