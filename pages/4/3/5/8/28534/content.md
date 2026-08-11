@@ -61,13 +61,13 @@ The identification of the group as such is due to:
 
 * {#Toda62} [[Hirosi Toda]]; p. 186 of: _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies **49**, Princeton University Press (1962) &lbrack;[doi:10.1515/9781400882625](http://doi.org/10.1515/9781400882625), [jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t)&rbrack;
 
-That the [[suspension]] of the [[octonionic Hopf fibration]] is a generator (which [Toda 1962](#Toda62) discusses only under [[p-primary group|2-primary]] projectin):
+That the [[suspension]] of the [[octonionic Hopf fibration]] is a generator (which [Toda 1962](#Toda62) discusses only under [[p-primary group|2-primary]] projection):
 
 * {#Adams1966} [[John Adams]]; Thm. 1.6 in: _On the groups $J(X)$ IV_, Topology **5** 1 (1966) 21--71 &lbrack;<a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>, [pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf)&rbrack;
 
 * {#Ravenel2004} [[Doug Ravenel]]; Thm 1.1.13 in: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing **347** (2004) &lbrack;[ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/mybooks/ravenel.pdf)&rbrack;
 
-* {#Randal-Williams2025} [[Oscar Randal-Williams]]; p. 1991 (20) of: *Monodromy and mapping class groups of 3-dimensional hypersurfaces*, Mathematische Annalen, **391** (2025) 1965--2003 \[<a href="https://doi.org/10.1007/s00208-024-02951-4">doi:10.1007/s00208-024-02951-4</a>, [arXiv:2308.06397](https://arxiv.org/abs/2308.06397)\]
+* {#Randal-Williams2025} [[Oscar Randal-Williams]]; p. 1991 (20) of: *Monodromy and mapping class groups of 3-dimensional hypersurfaces*, Mathematische Annalen **391** (2025) 1965--2003 \[<a href="https://doi.org/10.1007/s00208-024-02951-4">doi:10.1007/s00208-024-02951-4</a>, [arXiv:2308.06397](https://arxiv.org/abs/2308.06397)\]
 
 
 [[!redirects seventh stable stem]]
