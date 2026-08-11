@@ -26,11 +26,17 @@ This entry is to record the reference:
 
   Academic Press Orland (1986)
 
+  \linebreak
+
   reprinted as:
+
+  \linebreak
 
   AMS Chelsea Publishing **347** (2004)
 
   [ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h)
+
+  [doi:10.1090/chel/347](https://doi.org/10.1090/chel/347)
 
   [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/mybooks/ravenel.pdf)
  
