@@ -36,6 +36,7 @@ The second [[stable homotopy group of spheres]] (the second [[stable stem]]) is 
 
 * [[third stable homotopy group of spheres]]
 
+* [[seventh stable homotopy group of spheres]]
 
 ## References
 
