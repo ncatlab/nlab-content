@@ -90,6 +90,10 @@ Given any collection of morphisms $\mathcal{F}=\{d_i\to c\}_i$ targeted at $c$, 
 
 Just as a [[Grothendieck fibration]] is equivalent to a functor $C^{op} \to Cat$ and a [[discrete fibration]] is equivalent to a functor $C^{op} \to Set$, a sieve in $C$ is equivalent to a functor $C^{op} \to \Omega$, where $\Omega$ is the preordered category of [[truth values]]. This makes it obvious that a sieve picks out a subset of the objects in a way that is "downward closed". This is a form of [[negative thinking]], as $\Omega, Set, Cat$ are the categories of all [[(-1)-categories]], [[0-categories]] and [[1-categories]] respectively.
 
+### Relation to cofibrations
+
+The inclusions of sieves are precisely the [[cofibrations]] in the [[2-category]] $\mathscr{V}$-Cat of [[enriched categories]]. Dually, the inclusions of cosieves are precisely the [[coopfibrations]]. See Proposition 2.5 of [Street 2026](#Street26).
+
 ### Relation to subfunctors 
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
@@ -583,7 +587,9 @@ In the context of [[(∞,1)-categories]] sieves are discussed around def. 6.2.2.
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
+In relation to [[cofibrations]]:
 
+* [[Ross Street]], *Homodular pseudofunctors and bicategories of modules*, [arXiv:2602.03149](https://arxiv.org/abs/2602.03149)
 
 
 
