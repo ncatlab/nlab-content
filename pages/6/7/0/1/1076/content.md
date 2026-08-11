@@ -616,6 +616,11 @@ Review:
 
 * [[Amnon Neeman]]: *Excellent metrics and enhancements *, [talk at](#NeemanJan2026) [[CQTS]] @ NYUAD (Jan 2026) &lbrack;slides:[[Neeman-CQTS-2026.pdf:file]]&rbrack;
 
+See also:
+
+* Xiao-Wu Chen, Jian Liu, Xue-Song Lu, Chencheng Zhang: *A pre-triangulated category which is not triangulated* &lbrack;[arXiv:2608.09777](https://arxiv.org/abs/2608.09777)&rbrack;
+
+
 
 
 category: triangulated categories
