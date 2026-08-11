@@ -1,6 +1,8 @@
 [[!redirects graded abelian groups]]
 
 
+\tableofcontents
+
 ## Idea
 
 A [[graded object]] in [[abelian groups]].
