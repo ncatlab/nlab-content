@@ -40,9 +40,11 @@ In the $1$-categorical setup, the coCartesian arrows in op/co-fibrations are ind
 
 * [[relative cell complex]] inclusions are the cofibrations in the [[classical model structure on topological spaces]]
 
-* closed [[Hurewicz cofibration]] are the cofibrations in  in the [[Strøm's model category]] on  [[Top]]
+* Closed [[Hurewicz cofibration]] are the cofibrations in  in the [[Strøm's model category]] on [[Top]].
 
 * [[monomorphisms]] are the cofibrations in [[Cisinski model structures]] such as the [[classical model structure on simplicial sets]]
+
+* In the 2-category $\mathscr{V}$-Cat of [[enriched categories]], the cofibrations are precisely [[sieves]] (see there for a reference).
 
 ## Stability properties
 
