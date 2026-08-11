@@ -250,6 +250,8 @@ See also:
 
 * Xiyan Zhong: *Abelianization of Symmetric Mapping Class Groups* &lbrack;[arXiv:2607.24271](https://arxiv.org/abs/2607.24271)&rbrack;
 
+* {#Randal-Williams2025} [[Oscar Randal-Williams]]: *Monodromy and mapping class groups of 3-dimensional hypersurfaces*, Mathematische Annalen **391** (2025) 1965--2003 \[<a href="https://doi.org/10.1007/s00208-024-02951-4">doi:10.1007/s00208-024-02951-4</a>, [arXiv:2308.06397](https://arxiv.org/abs/2308.06397)\]
+
 
 The [[equivariant homotopy theory|equivariant]] version:
 
