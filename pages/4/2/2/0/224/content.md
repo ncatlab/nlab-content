@@ -36,6 +36,8 @@ If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left
 
 By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[supervector space]]. However, in this case one often uses a different braiding on $Vect^G$, one which uses the [[ring]] structure of $\mathbb{N}$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
 
+More generally, one can consider the category of [[grMod|graded modules over a graded ring]].
+
 ### Explicit definition
 
 Let $G$ be a [[set]] with [[decidable equality]]. Then, given a [[commutative ring]] $R$ (usually a [[field]] $F$), a **$G$-graded $R$-module** is an $R$-[[module]] $V$ (usually a [[vector space]] $V$) with a binary function $\langle - \rangle_{(-)}: V \times G \to V$ called the **grade projection operator** such that
