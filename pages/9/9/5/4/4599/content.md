@@ -39,7 +39,7 @@ In this case the intrinsic differential cohomology reproduces [[ordinary differe
 
 ## The ambient context
 
-Let $\mathbf{H} coloneqq $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]].  As usual, write
+Let $\mathbf{H} \coloneqq $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]].  As usual, write
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) :
