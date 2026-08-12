@@ -11,15 +11,13 @@
 
 This page records the project
 
-* **CatDat** -- *A comprehensive database of categories and their properties*, [catdat.app](https://catdat.app),
-
-a web application listing categorical structures such as [[categories]], [[functors]], [[morphisms]], and their properties.
+* **CatDat** -- *A comprehensive database of categories and their properties*, [catdat.app](https://catdat.app).
 
 It has been initiated by [[Martin Brandenburg]] and welcomes contributions by the community.
 
 ## Features
 
-- **Types of Categorical Structures**: Supports categories, functors, and morphisms.
+- **Types of Categorical Structures**: Supports [[categories]], [[functors]], and [[morphisms]].
 - **Structure Detail Pages**: Each categorical structure has a dedicated page with its definition, satisfied and unsatisfied properties, and related structures.
 - **Property Detail Pages**: Explore the definition of a property and view categorical structures that satisfy it and those that don't.
 - **Proofs and References**: Each property and implication includes a proof or reference, forming a data-driven knowledge base for category theory.
