@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -87,6 +85,11 @@ Constructions in the generality of non-[[semisimple category|semisimple]] [[tens
 Relation of [[extended TQFT|extended]] 3d TQFT to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+See also:
+
+* Cris Negron: *3-dimensional TQFTs from derived categories of quantum group representations* &lbrack;[arXiv:2608.10285](https://arxiv.org/abs/2608.10285)&rbrack;
+
 
 
 [[!redirects D=3 TQFTs]]
