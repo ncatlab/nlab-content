@@ -10,9 +10,9 @@
 =--
 
 
-# Contents
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -112,6 +112,7 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * [[Burnside ring]], [[Segal conjecture]]
 
+
 ## References
  {#References}
 
@@ -120,6 +121,11 @@ Early textbook accounts:
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
 
 * {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, [[Leonard E. Dickson]], _Theory and applications of finite groups_, Dover, New York, 1916 ([ark:/13960/t0ht2kb4x](https://archive.org/details/theoryapplicatio00milluoft/))
+
+Modern textbooks (see also at *[[group theory]]*):
+
+* M. Aschbacher: *Finite Group Theory*, Cambridge University Press (2012) &lbrack;[ISBN:9781139175319](https://www.cambridge.org/core/books/finite-group-theory/EB5CE66C17982A6B48855F2EDC2DA6F9), [doi:10.1017/CBO9781139175319](https://doi.org/10.1017/CBO9781139175319)&rbrack;
+
 
 Discussion in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
 
