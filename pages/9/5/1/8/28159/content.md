@@ -58,6 +58,11 @@ Further discussion:
 
 * Rocco Amorosso, Sergey Syritsyn, Raju Venugopalan: *Entanglement Enabled Tomography of Flux Tubes in $(2+1)D$ Yang-Mills Theory* &lbrack;[arXiv:2601.17199](https://arxiv.org/abs/2601.17199)&rbrack;
 
+In relation to the [[Yang-Mills mass gap]]:
+
+* [[V. Parameswaran Nair]]: *Towards a Proof of Mass Gap in 3d Yang-Mills Theory* &lbrack;[arXiv:2608.10133](https://arxiv.org/abs/2608.10133)&rbrack;
+
+
 
 [[!redirects D=3 Yang-Mills theories]]
 [[!redirects 3D Yang-Mills theory]]
