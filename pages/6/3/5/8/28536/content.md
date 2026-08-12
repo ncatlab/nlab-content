@@ -9,36 +9,44 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition
 
-An **essentially gaunt** category is a category satisfying one of the following equivalent conditions.
+An **essentially gaunt** category is a [[category]] satisfying one of the following equivalent conditions:
 
-* It is equivalent to a [[gaunt category]] (a category in which every isomorphism is an identity).
-* Every automorphism is an identity.
-* Its [[groupoid core]] is thin.
-* Parallel isomorphisms are equal.
+* It is [[equivalence of categories|equivalent]] to a [[gaunt category]] (a category in which every [[isomorphism]] is an [[identity morphism|identity]]).
+
+* Every [[automorphism]] is an [[identity morphism|identity]].
+
+* Its [[groupoid core]] is [[thin category|thin]].
+
+* [[parallel morphisms|Parallel]]$\phantom{.}$[[isomorphisms]] are equal.
+
 
 ## Related concepts
 
 * [[EI-category]]
+
 * [[gaunt category]]
+
 * [[one-way category]]
+
 
 ## References
 
-The term was introduced by [[Simon Henry]] in this MathOverflow thread:
+The term was introduced by:
 
-* _Name for "Category without nontrivial automorphisms"?_, [MathOverflow/370764](https://mathoverflow.net/questions/370764/name-for-category-without-nontrivial-automorphisms#comment937132_370764)
+* [[Simon Henry]], comment to: _Name for "Category without nontrivial automorphisms"?_ &lbrack;[MathOverflow:370764](https://mathoverflow.net/questions/370764/name-for-category-without-nontrivial-automorphisms#comment937132_370764)&rbrack;
 
 It has since appeared in the published literature, e.g.:
 
-* [[Jon Sterling]], *What should a generic object be?*, Mathematical Structures in Computer Science (2023), [DOI](https://doi.org/10.1017/S0960129523000117)
+* [[Jon Sterling]]: *What should a generic object be?*, Mathematical Structures in Computer Science (2023) &lbrack;[doi:10.1017/S0960129523000117](https://doi.org/10.1017/S0960129523000117)&rbrack;
 
-These categories are called **core-thin** in [CatDat](https://catdat.app/category-property/core-thin).
+Essentially gaunt categories are called **core-thin** in: 
+
+* [[CatDat]]: *[core-thin](https://catdat.app/category-property/core-thin)*
 
 
 [[!redirects essentially gaunt]]
