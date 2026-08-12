@@ -42,7 +42,7 @@ If $D^{op}$ is a direct category, then we say that $D$ is an **inverse category*
 
 ### Direct versus one-way categories
 
-Of course, a direct category can have no nonidentity [[endomorphisms]], since any such endomorphism would be a cycle of length 1.  A category with this property is sometimes called a **one-way category**.
+Of course, a direct category can have no nonidentity [[endomorphisms]], since any such endomorphism would be a cycle of length 1.  A category with this property is sometimes called a **one-way category** (see also [[EI-category]]).
 
 A direct category is also necessarily [[skeleton|skeletal]], since any nonidentity isomorphism and its inverse would form a cycle of length 2.  The notion of generalized direct category, below, relaxes this requirement.
 
@@ -126,6 +126,10 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 * [[test category]]
 
 * [[filtered category]], [[sifted category]]
+
+* [[EI-category]]
+
+* [[gaunt category]], [[essentially gaunt category]]
 
 
 ## References
