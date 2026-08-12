@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -137,18 +135,18 @@ Discussion of the topology of the moduli space of Higgs bundles is in
 
 * {#Rayan18} [[Steven Rayan]], _Aspects of the topology and combinatorics of Higgs bundle moduli spaces_, SIGMA 14 (2018) 129, 18 pages ([arXiv:1809.05732](https://arxiv.org/abs/1809.05732))
 
-Discussion in terms of $X_{Dol}$ is in 
+Discussion in terms of $X_{Dol}$: 
 
 * {#Simpson96} [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_, Santa Cruz 1995, Proc. Sympos. Pure Math., vol. 62, Amer. Math. Soc., Providence, RI, 1997, pp. 217{281. MR
 1492538 (99g:14028) ([arXiv:9604005](http://arxiv.org/abs/alg-geom/9604005))
 
 * {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
 
-Discussion of the example of homolorphic forms is in 
+Discussion of the example of homolorphic forms: 
 
 * {#Seaman98} Walter Seaman, _Higgs Bundles and Holomorphic Forms_ ([arXiv:9811097](http://arxiv.org/abs/math/9811097))
 
-Discussion in the context of [[geometric Langlands duality]] includes
+Discussion in the context of [[geometric Langlands duality]]:
 
 * {#KapustinWitten06} [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_, Communications in Number Theory and Physics Volume 1 (2007) Number 1 ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
@@ -156,7 +154,13 @@ Discussion in the context of [[geometric Langlands duality]] includes
 
 The following paper starts with a survey of [[nonabelian Hodge correspondence]],
 
-* Peter B. Gothen, _Higgs bundles and the real symplectic group_, [arXiv:1102.4175](https://arxiv.org/abs/1102.4175)
+* Peter B. Gothen, _Higgs bundles and the real symplectic group_ &lbrack;[arXiv:1102.4175](https://arxiv.org/abs/1102.4175)&rbrack;
+
+In relation to [[vortices]]:
+
+* [[Nicholas S. Manton]]: *Vortices of the Hitchin Equations* &lbrack;[arXiv:2608.10982](https://arxiv.org/abs/2608.10982)&rbrack;
+
+
 
 ### Relation to $Spin(7)$-manifolds
 
