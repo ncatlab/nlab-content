@@ -64,7 +64,7 @@ If $X$ is a [[simplicial set]], then the cone of $X$ is the [[join of simplicial
 The [[mapping cone]] (q.v.) of a morphism $f \colon X \to Y$ is then the pushout along $f$ of the inclusion $X \to cone(X)$.
 
 
-### As a monad 
+### As a monad
 
 In contexts where [[intervals]] $I$ can be treated as [[monoid]] objects, the cone construction as quotient of a cylinder with one end identified with a point, 
 
@@ -189,7 +189,7 @@ $$
 
 commute.
 
-Cones and their morhisms over a given [[diagram]] $J$ clearly form a [[category]]. The [[terminal object]] in this category, if it exists, is the *[[limit]]* of the diagram (see [there](limit#InTermsOfUniversalCones)).
+Cones and their morphisms over a given [[diagram]] $J$ clearly form a [[category]]. The [[terminal object]] in this category, if it exists, is the *[[limit]]* of the diagram (see [there](limit#InTermsOfUniversalCones)).
 
 
 A *[[cocone]]* in $C$ is precisely a cone in the [[opposite category]] $C^{op}$.
