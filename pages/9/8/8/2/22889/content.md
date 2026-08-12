@@ -66,6 +66,10 @@ On higher-dimension [[fractional quantum Hall systems]] in relation to [[W-infin
 
 * [[Dimitra Karabali]], [[V. P. Nair]]: *Higher dimensional quantum Hall effect and the analog of $W_\infty$-algebra* &lbrack;[arXiv:2606.28219](https://arxiv.org/abs/2606.28219)&rbrack;
 
+On the [[Yang-Mills mass gap]] in [[3D Yang-Mills theory]]:
+
+* [[V. Parameswaran Nair]]: *Towards a Proof of Mass Gap in 3d Yang-Mills Theory* &lbrack;[arXiv:2608.10133](https://arxiv.org/abs/2608.10133)&rbrack;
+
 category: people
 
 [[!redirects V. Parameswaran Nair]]
