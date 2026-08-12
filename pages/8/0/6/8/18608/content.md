@@ -229,6 +229,8 @@ Claim of (non-rigorous) derivation of the mass gap for [[D=3 Yang-Mills theory]]
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
 
+* [[V. Parameswaran Nair]]: *Towards a Proof of Mass Gap in 3d Yang-Mills Theory* &lbrack;[arXiv:2608.10133](https://arxiv.org/abs/2608.10133)&rbrack;
+
 Review:
 
 * [[V. Parameswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
