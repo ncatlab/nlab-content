@@ -88,6 +88,10 @@ On [[nucleus|nuclear]] [[scattering amplitudes]] via [[classical field theory|cl
 
 * [[Nicholas S. Manton]]: *Approach to nuclear cross sections via classical Skyrmion scattering: A proposal* &lbrack;[arXiv:2505.12362](https://arxiv.org/abs/2505.12362)&rbrack;
 
+On [[vortices]] in the context of [[Higgs bundles]]:
+
+* [[Nicholas S. Manton]]: *Vortices of the Hitchin Equations* &lbrack;[arXiv:2608.10982](https://arxiv.org/abs/2608.10982)&rbrack;
+
 
 
 
