@@ -18,9 +18,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -74,6 +72,11 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 Fermions are named after [[Enrico Fermi]]:
 
 * Roberto Casalbuoni, Daniele Dominici: *From Florence to Fermions: a historical reconstruction of the origins of Fermi's statistics one hundred years later* &lbrack;[arXiv:2602.04484](https://arxiv.org/abs/2602.04484)&rbrack;
+
+Review of fermions in 4D [[perturbative quantum field theory]]:
+
+* [[Loriano Bonora]], Roberto Soldati: *A fermion primer* &lbrack;[arXiv:2608.10925](https://arxiv.org/abs/2608.10925)&rbrack;
+
 
 
 
