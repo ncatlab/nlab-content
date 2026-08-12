@@ -19,6 +19,10 @@ On [[quantum anomalies]] in the [[standard model of particle physics]] and [[gra
 
 * [[Loriano Bonora]], Stefano G. Giaccari: *Something Anomalies can tell about SM and Gravity* &lbrack;[arXiv:2412.07470](https://arxiv.org/abs/2412.07470)&rbrack;
 
+Review of fermions in 4D [[perturbative quantum field theory]]:
+
+* [[Loriano Bonora]], Roberto Soldati: *A fermion primer* &lbrack;[arXiv:2608.10925](https://arxiv.org/abs/2608.10925)&rbrack;
+
 
 ## Related entries
 
