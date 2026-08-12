@@ -81,7 +81,7 @@ In [[set-level type theory]], the type theoretic definition and the set-level de
 
 ### Relation to other properties of categories
 
-Gaunt categories are necessarily [[skeletal]]; a skeletal category is gaunt iff every [[automorphism]] is an [[identity morphism]]. Consequently a [[thin]] gaunt category is skeletal, and since a thin skeletal category is a [[poset category]] a thin gaunt category is also a poset category.
+A category is gaunt if and only if it is [[skeletal]] and [[essentially gaunt]] (i.e. every [[automorphism]] is an [[identity morphism]]).
 
 Note that a gaunt category need not be thin, since we may have parallel non-isomorphisms which are not equal. Similarly, a thin category need not be gaunt since we may have isomorphisms that aren't the identity.
 
@@ -99,7 +99,7 @@ As noted above, in [[higher foundations]] the gaunt categories are precisely the
 In addition, we have
 
 \begin{theorem}
-The [[Rezk completion]] of a core-thin category is a gaunt category. 
+The [[Rezk completion]] of an [[essentially gaunt category]] is a gaunt category. 
 \end{theorem}
 
 ## Gaunt $(\infty,1)$-categories
@@ -117,9 +117,13 @@ This echoes how one might understand the definition in [[univalent foundations]]
 
 Alternatively, we could avoid the equality on objects by requiring only that every [[automorphism]] $f : a \cong a$ be equal to the identity at $a$. This amounts to requiring that the [[core]] be a [[thin category]], i.e., that parallel isomorphisms are equal.  A category has this property if and only if it is *equivalent* to a gaunt one.
 
-{#Incidentally} Incidentally, we may view both [[strict categories]] and categories up to [[equivalence of categories|equivalence]] as embedded in the type of [[flagged categories]]. Recall that a [[flagged category]] consists of a category $C$, a [[groupoid]] $X$, and an [[essentially surjective functor]] $p \colon X \to C$. In this way, we can view categories as those [[flagged categories]] where $p$ is an [[equivalence of groupoids|equivalence]] onto the [[core]] of $C$, and [[strict categories]] as those flagged categories where $X$ is a [[set]] (up to homotopy: an "[[h-set]]"): see at *[[category with an atlas]]*. The [[intersection]] of categories-up-to-equivalence and [[strict categories]] within the type of flagged categories is then exactly this type of core-thin categories.  (This is the semantics in [[Gpd]] of the fact that in [[homotopy type theory]], the gaunt categories are precisely the [[strict category|strict]] and [[univalent categories]].)
+{#Incidentally} Incidentally, we may view both [[strict categories]] and categories up to [[equivalence of categories|equivalence]] as embedded in the type of [[flagged categories]]. Recall that a [[flagged category]] consists of a category $C$, a [[groupoid]] $X$, and an [[essentially surjective functor]] $p \colon X \to C$. In this way, we can view categories as those [[flagged categories]] where $p$ is an [[equivalence of groupoids|equivalence]] onto the [[core]] of $C$, and [[strict categories]] as those flagged categories where $X$ is a [[set]] (up to homotopy: an "[[h-set]]"): see at *[[category with an atlas]]*. The [[intersection]] of categories-up-to-equivalence and [[strict categories]] within the type of flagged categories is then exactly this type of essentially gaunt categories.  (This is the semantics in [[Gpd]] of the fact that in [[homotopy type theory]], the gaunt categories are precisely the [[strict category|strict]] and [[univalent categories]].)
 
 ## See also
+
+* [[essentially gaunt category]]
+
+* [[EI-category]]
 
 * [[strict category]]
 
