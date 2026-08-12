@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -68,6 +68,9 @@ in general:
 * [[Mark A. Armstrong]]: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
 
 * [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
+
+* M. Aschbacher: *Finite Group Theory*, Cambridge University Press (2012) &lbrack;[ISBN:9781139175319](https://www.cambridge.org/core/books/finite-group-theory/EB5CE66C17982A6B48855F2EDC2DA6F9), [doi:10.1017/CBO9781139175319](https://doi.org/10.1017/CBO9781139175319)&rbrack;
+
 
 in the context of [[algebra]]:
 
