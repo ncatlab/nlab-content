@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -102,6 +100,10 @@ On stable vortex [[knots]] in [[Bose-Einstein condensates]]:
 
 * Yuta Nozaki, Yuya Koda, [[Muneto Nitta]]: *Quantum Knots that Never Come Untied
 Michikazu Kobayashi* &lbrack;[arXiv:2410.07470](https://arxiv.org/abs/2410.07470)&rbrack;
+
+On the context of [[Higgs bundles]]:
+
+* [[Nicholas S. Manton]]: *Vortices of the Hitchin Equations* &lbrack;[arXiv:2608.10982](https://arxiv.org/abs/2608.10982)&rbrack;
 
 
 
