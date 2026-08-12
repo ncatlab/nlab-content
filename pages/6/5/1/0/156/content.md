@@ -260,7 +260,7 @@ For more details (and more precise statements, see at *[[relation between preord
 
 * [[skeletal groupoid]]
 
-* [[gaunt category]]
+* [[gaunt category]], [[essentially gaunt category]]
 
 * [[Rezk complete type]]
 
