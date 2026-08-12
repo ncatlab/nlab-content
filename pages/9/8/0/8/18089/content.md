@@ -86,6 +86,9 @@ The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to
 ## Related concepts
 
 * [[inverse EI (∞,1)-category]]
+* [[one-way category]]
+* [[gaunt category]]
+* [[skeletal category]]
 
 ## References
 
