@@ -12,6 +12,7 @@
 
 
 
+
 \tableofcontents
 
 ## Definition
@@ -43,13 +44,14 @@ of the [[direct product group]] $G_1 \times G_2$ by the [[diagonal]] subgroup $C
 
 =--
 
-([Gorenstein 1980, p. 29](#Gorenstein80))
+([Dummit & Foote 2003 p. 157](#DummitFoote2003))
+
 
 +-- {: .num_remark #MaterialDefinition}
 ###### Remark
 **([[structural set theory|structural]] over [[material set theory|material]] definition)**
 
-Beware that most texts insists on stating the choices in Def. \ref{CentralProduct} as that of 
+Beware that texts such as [Gorenstein 1980 p. 29](#Gorenstein80) insists on stating the choices in Def. \ref{CentralProduct} as that of 
 
 1. two separate subgroups $C_i \xhookrightarrow{\iota_i} Z(G_i)$ 
 
@@ -94,9 +96,53 @@ In [[Riemannian geometry]] and [[spin geometry]] one considers the central produ
 
 * [[central extension of groups]]
 
+
 ## References
 
-* {#Gorenstein80} D. Gorenstein, p. 29 of _Finite Groups_, New York (1980)
+* {#Gorenstein80} Daniel Gorenstein; p. 29, Thm. 5.3 of: _Finite Groups_, New York (1980)
+
+\begin{imagefromfile}
+    "file_name": "Gorenstein-CentralProduct.png",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
+* M. Aschbacher; (11.1) in: *Finite Group Theory*, Cambridge University Press (2012) &lbrack;[ISBN:9781139175319](https://www.cambridge.org/core/books/finite-group-theory/EB5CE66C17982A6B48855F2EDC2DA6F9), [doi:10.1017/CBO9781139175319](https://doi.org/10.1017/CBO9781139175319)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "Aschbacher-CentralProduct.png",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
+* {#DummitFoote2003} David S. Dummit, Richard M. Foote; Ex. 12 on p. 157 of: *Abstract Algebra*, Wiley (2003) &lbrack;[ISBN:978-0-471-43334-7](https://www.wiley.com/en-us/Abstract+Algebra%2C+3rd+Edition-p-9780471433347), [pdf](https://rksmvv.ac.in/wp-content/uploads/2021/04/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "DummitFoote-CentralProduct.png",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
 
 See also:
 
