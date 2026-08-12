@@ -51,7 +51,7 @@ Recall that a __[[path]]__ $p$ in $J$ comprises a [[list]] $(v_0,v_1,\ldots,v_n)
 
 A diagram $D$ __commutes__ if, given any two vertices $x,y$ in $J$ and any two paths $p,p'$ with source $x$ and target $y$, the composites of $p$ and $p'$ under $D$ are equal in $C$.
 
-## Edges cases
+## Edge cases
 
 ### Cycles and loops 
 
