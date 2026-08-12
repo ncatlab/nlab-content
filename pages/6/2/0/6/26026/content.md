@@ -48,7 +48,7 @@ We know that this diagram commutes:
   \\
   & F(A)                                  
 \end{tikzcd}
-By applying $U$, we obtain the first part of the unitaly of the monad:
+By applying $U$, we obtain the first part of the unitality of the monad:
 \begin{tikzcd}
 U(F(A)) \arrow[r, "U(F(\eta_{A}))"] \arrow[rd, "="'] & U(F(U(F(A))) \arrow[d, "U(\epsilon_{F(A)})"] \\
                                                      & U(F(A))                                     
