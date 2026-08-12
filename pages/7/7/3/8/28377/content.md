@@ -21,7 +21,7 @@ This page is to record the webpage/project
 
   <a href="https://catdat.app">catdat.app</a>
 
-listing [[categories]] and their properties.
+listing categorical structures such as [[categories]], [[functors]], [[morphisms]], [[symmetric monoidal categories]], and their properties.
 
 
 category: reference
