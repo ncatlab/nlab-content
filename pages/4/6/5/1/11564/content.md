@@ -748,7 +748,7 @@ $$
 #### Deligne coefficients
  {#DeligneCoefficients}
 
-We discuss the differential cohomology hexagon for smooth [[Deligne cohomology]] and hence smooth [[circle n-bundles with connection]] realizedin $\mathbf{H}= $ [[Smooth∞Grpd]].
+We discuss the differential cohomology hexagon for smooth [[Deligne cohomology]] and hence smooth [[circle n-bundles with connection]] realized in $\mathbf{H}= $ [[Smooth∞Grpd]].
 
 
 +-- {: .num_defn}
