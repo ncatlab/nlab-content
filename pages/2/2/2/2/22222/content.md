@@ -123,7 +123,7 @@ so we can take $K(\phi, i') = \alpha^{-1}(\eta_{c', i'} \circ \phi)$. Denote the
   
   $= \lambda i''.JL(\chi, i'') \circ \alpha^{-1}(\eta_{c', I(\chi, i'')} \circ \phi)$
   
-  $= \lambda i''.\alpha^{-1}(RL(\chi, i'') \circ \alpha(I(\chi, i''), id_{c'}) \circ \phi)$
+  $= \lambda i''.\alpha^{-1}(RL(\chi, i'') \circ \alpha(I(\chi, i''), id) \circ \phi)$
   
   $= \lambda i''.\alpha^{-1}(\alpha(I(\chi, i''), L(\chi, i'')) \circ \phi)$
   
@@ -132,14 +132,14 @@ so we can take $K(\phi, i') = \alpha^{-1}(\eta_{c', i'} \circ \phi)$. Denote the
   $= \lambda i''.\alpha^{-1}(\eta_{c'', i''} \circ \chi \circ \phi)$.
 
 Now we prove that $\alpha$ is natural in $c$. Let $\psi : Hom_{Fam(D)}(Kc', Jd)$ and $\phi : Hom_{C}(c, c')$.
-Note that $\psi$ is essentially of the form $(i', \chi)$ for $i' \in I(c')$ and $\chi \in \Hom_D(L(c', i), d)$.
+Note that $\psi$ is essentially of the form $(i', \chi)$ for $i' \in I(c')$ and $\chi \in \Hom_D(L(c', i'), d)$.
 With more abuse of notation:
 
 $\alpha(\psi \circ K\phi) = \alpha((i', \chi) \circ K\phi) = \alpha(I(\phi, i'), \chi \circ L(\phi, i'))$
 
 $= \alpha(J\chi \circ K(\phi, i')) = \alpha(J\chi \circ \alpha^{-1}(\eta_{c', i'} \circ \phi))$
 
-$= R\chi \circ \eta_{c', i'} \circ \phi = \alpha(J\chi \circ (i', id_{c'})) \circ \phi = \alpha(i', \chi) \circ \phi = \alpha(\psi) \circ \phi$.
+$= R\chi \circ \eta_{c', i'} \circ \phi = \alpha(J\chi \circ (i', id)) \circ \phi = \alpha(i', \chi) \circ \phi = \alpha(\psi) \circ \phi$.
 \end{proof}
 
 \begin{proposition}
