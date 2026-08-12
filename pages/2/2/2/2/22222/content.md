@@ -107,9 +107,9 @@ i.e.
 \[
         (i' \in I(c')) \to Hom_{Fam(D)}(Kc, JL(c', i'))
 \]
-so we can take $K(\phi, i') = \alpha^{-1}(\eta_{c', i'} \circ \phi)$. Denote the components of $K\phi$ as $I\phi : I(c') \to I(c)$ and $L\phi : (i' \in I(i')) \to Hom_D(L(c, I(\phi, i')), L(c', i'))$.
+so we can take $K(\phi, i') = \alpha^{-1}(\eta_{c', i'} \circ \phi)$. Denote the components of $K\phi$ as $I\phi : I(c') \to I(c)$ and $L\phi : (i' \in I(c')) \to Hom_D(L(c, I(\phi, i')), L(c', i'))$.
 
-* This preserves the identity: $K(id) = \lambda i.\alpha^{-1}(\eta_{x, i} \circ id) = \lambda i.(i, id)$.
+* This preserves the identity: $K(id) = \lambda i.\alpha^{-1}(\eta_{c, i} \circ id) = \lambda i.(i, id)$.
 
 * This preserves composition. Let $\phi : Hom_C(c, c')$ and $\chi : Hom_C(c', c'')$. With some abuse of notation:
 
