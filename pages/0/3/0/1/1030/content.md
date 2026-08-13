@@ -28,6 +28,8 @@ $$
 
 More generally, in any category [[enriched category|enriched]] over the [[closed monoidal category|closed monoidal]] [[category of pointed sets]] (with [[tensor product]] the [[smash product]]), the **zero morphism** $0_{c,d} : c \to d$ is the basepoint of the [[hom-object]] $[c,d]$.
 
+Even more generally, in any category, a zero morphism can be defined as a morphism that is both [[constant morphism|constant]] and [[coconstant morphism|coconstant]]. This is consistent with the previous definition.
+
 =--
 
 +-- {: .num_remark}
@@ -43,6 +45,10 @@ for any $c,d$.  Thus, the existence of zero morphisms can be regarded as a [[stu
 ## Examples
 
 See at _[[zero object]]_ for examples.
+
+## References
+
+- [Wikipedia article](https://en.wikipedia.org/wiki/Zero_morphism)
 
 
 ## Related concepts
