@@ -486,7 +486,7 @@ Textbook account:
 
 The usefulness of right properness for constructions of [[homotopy category|homotopy categories]] is discussed in
 
-* [[Rick Jardine]], _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
+* [[Rick Jardine]], _Cocycle categories_ ([pdf](https://arxiv.org/pdf/math/0605198))
 
 
 The general theory can be found in 
