@@ -96,7 +96,7 @@ A functor $T$ is a parametric right adjoint iff every map $B\to T A$ has a gener
 =--
 +-- {: .proof}
 ###### Proof
-This is Proposition 2.6 of [(Weber08)](#Weber08).  In fact, the generic factorizations are precisely the universal maps in the left multi-adjoint of $F$ mentioned above.
+This is Proposition 2.6 of [(Weber08)](#Weber08).  In fact, the generic factorizations are precisely the universal maps in the left multi-adjoint of $T$ mentioned above.
 =--
 
 P.r.a. functors between presheaf categories have an especially nice form.
