@@ -72,6 +72,8 @@ For a concrete example, the evaluation homomorphism $\mathbb{Z}[X] \to \mathbb{Z
 
 In a category with zero morphisms, coconstant morphisms agree with the zero morphisms (which also coincide with the constant morphisms).
 
+A morphism that is both constant and coconstant is a [[zero morphism]].
+
 ## Related concepts
 
 * [[constant function]]
