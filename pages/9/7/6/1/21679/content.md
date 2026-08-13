@@ -199,7 +199,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
 ## Change of scalars
  {#ChangeOfScalars}
 
-Often it is desireable to work with dgc-algebras not over the [[rational numbers]] but over the [[real numbers]], because these relate to [[de Rham complex|de Rham theory]] (e.g.: [[the PL de Rham complex of a smooth manifold is equivalent to the de Rham complex]]). While a [[PL de Rham complex]]-[[Quillen adjunction]] $\Omega^\bullet_{\mathrm{P}\!k\!\mathrm{LdR}} \dashv \exp_{\mathrm{P}\!k\!\mathrm{L}}$ ("piecewise $k$-linear") exists over all [[ground fields]] $k$ of [[characteristic zero]], with induced [[derived adjunction]]
+Often it is desirable to work with dgc-algebras not over the [[rational numbers]] but over the [[real numbers]], because these relate to [[de Rham complex|de Rham theory]] (e.g.: [[the PL de Rham complex of a smooth manifold is equivalent to the de Rham complex]]). While a [[PL de Rham complex]]-[[Quillen adjunction]] $\Omega^\bullet_{\mathrm{P}\!k\!\mathrm{LdR}} \dashv \exp_{\mathrm{P}\!k\!\mathrm{L}}$ ("piecewise $k$-linear") exists over all [[ground fields]] $k$ of [[characteristic zero]], with induced [[derived adjunction]]
 
 $$
   Ho
@@ -351,7 +351,7 @@ Then for $X, A \in Ho(sSet)^{fin_{\mathbb{Q}}}_{\geq 1, nil}$ a [[pair]] of [[co
   \,.
 \]
 
-Moreover, define *extension of scalars on [[non-abelian cohomology|non-abelian]] [[rational cohomology]]* to be the comoposite
+Moreover, define *extension of scalars on [[non-abelian cohomology|non-abelian]] [[rational cohomology]]* to be the composite
 
 \[
   \label{ExtensionOfScalarsOnChomolology}
