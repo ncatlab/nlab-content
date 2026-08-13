@@ -52,6 +52,26 @@ The [[identity morphism]] on an object $B$ satisfies definition 1 if and only if
 
 Using the two-point set, it is simple to show that the constant morphisms in [[Set]] are precisely the constant functions.
 
+## Results
+
+Using the first definition:
+
+- If $f$ is constant, then also $g \circ f$ is constant (whenever this composition is defined).
+- If $f$ is constant, then also $f \circ g$ is constant (whenever this composition is defined).
+- Any [[right adjoint functor]] preserves constant morphisms.
+- A [[representable functor]] maps constant morphisms to constant maps.
+- In a category with [[zero morphisms]], constant morphisms coincide with the zero morphisms.
+
+## Dual concept
+
+As usual, we may [[duality|dualize]] the concept: A morphism $c\colon A \to B$ is __coconstant__ if for all pairs of morphisms $f,g \colon B \to C$ we have $f \circ c = g \circ c$.
+
+The results on constant morphisms dualize to results on coconstant morphisms. For example, any morphism that factors through an [[initial object]] is coconstant.
+
+For a concrete example, the evaluation homomorphism $\mathbb{Z}[X] \to \mathbb{Z}$, $f \mapsto f(0)$ from the polynomial ring is coconstant in the [[category of rings]].
+
+In a category with zero morphisms, coconstant morphisms agree with the zero morphisms (which also coincide with the constant morphisms).
+
 ## Related concepts
 
 * [[constant function]]
@@ -62,3 +82,5 @@ Using the two-point set, it is simple to show that the constant morphisms in [[S
 
 [[!redirects constant morphism]]
 [[!redirects constant morphisms]]
+[[!redirects coconstant morphism]]
+[[!redirects coconstant morphisms]]
