@@ -114,7 +114,7 @@ $$ T(Z)(j) = \coprod_{x\in T1(j)} [I^{op},Set](E_T(x),Z) $$
 which preserves connected limits, since it is a coproduct of representables.
 =--
 
-In particular, a p.r.a. functor $T\colon [I^{op},Set] \to [J^{op},Set]$ is determined by giving the object $T1\in [J^{op},Set]$ together with the functor $E_T\colon y/T1 = el(T1)^{op} \to [I^{op},Set]$.  We can think of $T1(j)$ as the setof all possible "shapes" which $T$ allows us to "glue together" to obtain an element of shape $j$, and $E_T$ as specifying exactly what each of those shapes looks like.  Then the above formula for $T(Z)(j)$ says that we look at all possible shapes $x\in T1(j)$ we can glue to get something of shape $j$, and for each such $x$ we look at all the "diagrams" in $Z$ of the corresponding shape $E_T(x)$.
+In particular, a p.r.a. functor $T\colon [I^{op},Set] \to [J^{op},Set]$ is determined by giving the object $T1\in [J^{op},Set]$ together with the functor $E_T\colon y/T1 = el(T1)^{op} \to [I^{op},Set]$.  We can think of $T1(j)$ as the set of all possible "shapes" which $T$ allows us to "glue together" to obtain an element of shape $j$, and $E_T$ as specifying exactly what each of those shapes looks like.  Then the above formula for $T(Z)(j)$ says that we look at all possible shapes $x\in T1(j)$ we can glue to get something of shape $j$, and for each such $x$ we look at all the "diagrams" in $Z$ of the corresponding shape $E_T(x)$.
 
 We can extract from this a description that is clearly a generalization of a [[polynomial functor]].
 
