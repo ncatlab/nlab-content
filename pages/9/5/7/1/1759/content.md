@@ -55,7 +55,7 @@ The substantive content of this page should **not** be altered.
 
 *  [[Toby Bartels]]:  More discussion at [[Grothendieck group]] and [[(infinity,1)-categorical hom-space]].
 
-* [[Zoran Škoda]]: It looks correctly to me (I do not recall what wording I wrote and it looks like reading my mind). Bt it is late night and I should reread the whle entry rested at the day time. I created a stub version of [[schematic algebras]] (with references) and linked it at [[noncommutative algebraic geometry]]. It would be nice to have for comparison a more thorough entry on Gabber's notion of [[almost schemes]] (just created unfinished entry) in commutative geometry, but the reflective localizations are used to define 'exotic' affines to start with. Gabber-Lorenzo's book is an egregious sample of how a modern algebraic geometer of Grothendieck's school develops the theory of schemes and in a way it is a build ground-up with requiring sofistication level, but not many concrete details from the usual theory of schemes.  
+* [[Zoran Škoda]]: It looks correctly to me (I do not recall what wording I wrote and it looks like reading my mind). Bt it is late night and I should reread the while entry rested at the day time. I created a stub version of [[schematic algebras]] (with references) and linked it at [[noncommutative algebraic geometry]]. It would be nice to have for comparison a more thorough entry on Gabber's notion of [[almost schemes]] (just created unfinished entry) in commutative geometry, but the reflective localizations are used to define 'exotic' affines to start with. Gabber-Lorenzo's book is an egregious sample of how a modern algebraic geometer of Grothendieck's school develops the theory of schemes and in a way it is a build ground-up with requiring sofistication level, but not many concrete details from the usual theory of schemes.  
 
 *  [[Toby Bartels]]:  Please check that I rephrased the definition correctly at [[noncommutative scheme]].  The original formulation did not make sense to me, but I think that I understood what was meant.
 
@@ -190,13 +190,13 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
  
   * split off [[Reedy model structure]] from [[Reedy category]] -- added an "Idea" section and started expanding on some of the technical details
 
-    by the way: it's funny I can't _remove_ the old section "Model structures" from [[Reedy category]] which is now reproduced and expanded at [[Reedy model structure]]: I always get an "Internal server error" when I try to do that. I am familiar with the occurence of this error when one _adds_ certain things (such as double-dollar included displyed math without line breaks before and after) but I couldn't figure out which problem the _removal_ of that paragraph causes. So that section is still sitting there, duplicated now.
+    by the way: it's funny I can't _remove_ the old section "Model structures" from [[Reedy category]] which is now reproduced and expanded at [[Reedy model structure]]: I always get an "Internal server error" when I try to do that. I am familiar with the occurence of this error when one _adds_ certain things (such as double-dollar included displayed math without line breaks before and after) but I couldn't figure out which problem the _removal_ of that paragraph causes. So that section is still sitting there, duplicated now.
 
   * added clarifying remarks to the references at [[K-theory]]
 
   * in a similar vein to the below comment i added to the beginning of [[delooping]] a remark how the one-object groupoid $\mathbf{B}G$ and the classifying space $B G$ are the same object under the homotopy hypothesis
 
-  * from private discussion with somebody it became clear to me that the entry [[homotopy hypothesis]] failed to get across one of the main points with the required emphasis. I now added the central theorem about the Quillen equivalence between Top and SSet right at the beginning. The disucssion of all the subtleties and generalizations should come after that.
+  * from private discussion with somebody it became clear to me that the entry [[homotopy hypothesis]] failed to get across one of the main points with the required emphasis. I now added the central theorem about the Quillen equivalence between Top and SSet right at the beginning. The discussion of all the subtleties and generalizations should come after that.
 
 * [[Andrew Stacey]]: Mathematical and non-mathematical stuff going on at [[Tall-Wraith monoids]].  Folded up the mathematical bit of the middle discussion (on what's so special about $AbGrp$) into the main text, but probably not in the nicest and clearest way.  Also continued the discussion on fonts and the like further down.
 
@@ -414,7 +414,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
     * John's question there had been about my notation $\to\gt$ -- that was a hack for the symbol for a _fibration_, an arrow with a double tip. In my new version this no longer appear, though it may still appear at [[hypercover]], which is linked to, and elsewhere.
 
-      [[Toby Bartels|Toby]] knows how to typeset such arrows correcty. Maybe he could add a section to [[HowTo]] with the relevant information and links to special symbol lists
+      [[Toby Bartels|Toby]] knows how to typeset such arrows correctly. Maybe he could add a section to [[HowTo]] with the relevant information and links to special symbol lists
 
 
   * added a reference at [[(infinity,1)-functor]] to [[(infinity,1)-category of (infinity,1)-functors]] -- the discussion of this issue that I like most is currently at [[models for infinity-stack (infinity,1)-toposes]]. Eventually that should be discussed better at the relevant entries.
@@ -553,7 +553,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 *  [[Toby Bartels]]:
    *  Tried to explain what sort of evil I meant at [[essential image]].
    *  Boldly put the default notion (in the higher-dimensional case) first at [[replete subcategory]].
-   *  Edited the definition at [[transfinite composition]] to include the possibility that $\alpha = 0$ and also to allow the concept to be interepreted constructively.
+   *  Edited the definition at [[transfinite composition]] to include the possibility that $\alpha = 0$ and also to allow the concept to be interpreted constructively.
    *  Reply to Tom (Tom who?) at [[regular monomorphism]].
    *  More discussion at [[locally presentable category]].
 
@@ -590,7 +590,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
 * [[Zoran Škoda]]: I actually do not think that Toby's correction to [[essential image]] is correct. I mean that essential image is removing evil from image. No, [[image]] SUBcategory is just a specific and unique internal (subcategory in narrow sense) CHOICE of the (external) image of the functor within Cat as a category. Essential image subcategory is just a specific and unique choice of the bicategorical image of the functor considered as a 2-functor within Cat as a bicategory. The same with higher version. The homotopy image which Urs looks is just about image in external sense and not about the internal choice of which subset of k-cells for every k is chosen. Making a replete choice of subcategory is like taking a maximal atlas of a manifold to remove nonuniquness in the class of all atlases - so in a sense it is a maximal choice with respect to the target; the usual image of a functor is more calculated with respect to the domain of the functor. In bicategory Cat the two are equivalent; in category Cat they are not isomorphic.  
 
-  * [[Urs Schreiber]]: I am not sure I know what you mean by external vs internal. But I supppose one point you are making is that an _essential image_ is/should be defined only up to the relevant notion of equivalence. Do you mean by "external" a characterization of essential image by a universal property, whereas by "internal" you mean a concrete representative of that (unique only up to equivalence)? 
+  * [[Urs Schreiber]]: I am not sure I know what you mean by external vs internal. But I suppose one point you are making is that an _essential image_ is/should be defined only up to the relevant notion of equivalence. Do you mean by "external" a characterization of essential image by a universal property, whereas by "internal" you mean a concrete representative of that (unique only up to equivalence)? 
 
     Do we agree on what the "external" definition should be? Is it the one I suggested it should be? In that case we might reorganize the entry by startiing it with the abstract nonsense definition and then taking the replete version as one concrete realization in Cat.
 
@@ -669,7 +669,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
    *  Generalised [[refinement of a cover]] to [[refinement]].
    *  Replied to Andrew at [[paracompact space]].
    *  A brief comment on the latest counterexample at [[Frölicher space]].
-   *  Referenced the [[adjoint functor theorem]] at [[cocontinuous functor]].  (More generally, there is much at [[continuous functor]] that might be brough there.)
+   *  Referenced the [[adjoint functor theorem]] at [[cocontinuous functor]].  (More generally, there is much at [[continuous functor]] that might be brought there.)
    *  Removed some [[?]]s that were seen by the people that they were addressed to.
 
 * [[Tim]]
@@ -752,7 +752,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
   * added at [[homology]] an "Idea" section that introduces the concept as the image of homotopy under the Dold-Kan correspondence. Also added as an example explicitly the ordinary case of homology in chain complexes of abelian groups
 
-  * yes, the duality mentioned at [[cohomotopy]] is the one called [[Eckmann-Hilton duality]], at leat when the $(\infty,1)$-topos in question is [[Top]]. I have made that explicit now at [[cohomotopy]]. 
+  * yes, the duality mentioned at [[cohomotopy]] is the one called [[Eckmann-Hilton duality]], at least when the $(\infty,1)$-topos in question is [[Top]]. I have made that explicit now at [[cohomotopy]]. 
 
   * yes, thanks for the improvement at [[RR field]]
 
@@ -977,7 +977,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
 ## 2009-07-12
 
-*  [[Toby Bartels]]:  Wrote [[sphere]] and [[pointed space]] to fill some gaps.  The former has a reference to (yet unwritten) [[Whitehead's theorem]] with the provacative claim that this shows that [[generalised (Eilenberg–Steenrod) homotopy theory]] is unnecessary; I don\'t really intend to defend that, but maybe it will interest the people working on that subject?
+*  [[Toby Bartels]]:  Wrote [[sphere]] and [[pointed space]] to fill some gaps.  The former has a reference to (yet unwritten) [[Whitehead's theorem]] with the provocative claim that this shows that [[generalised (Eilenberg–Steenrod) homotopy theory]] is unnecessary; I don\'t really intend to defend that, but maybe it will interest the people working on that subject?
 
 * [[Andrew Stacey]]: Started a discussion on the n-forum about how to get a snapshot of the n-lab (since this is really an announcement page rather than a discussion page).
 Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=42).
@@ -1011,11 +1011,11 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
   * created [[combinatorial model category]]
 
-* [[Tim]]: I have started to reorganise some of the entries on Cech methods since David has started on [[homotopy (as an operation)]] and had an idea about [[Cech homotopy]].  I have encorporated a point made by [[Zoran Škoda|Zoran]] about the history of [[Cech methods]].
+* [[Tim]]: I have started to reorganise some of the entries on Cech methods since David has started on [[homotopy (as an operation)]] and had an idea about [[Cech homotopy]].  I have incorporated a point made by [[Zoran Škoda|Zoran]] about the history of [[Cech methods]].
 
 * [[Zoran Škoda]]: created a version (to be expanded) of [[Legendre polynomial]] and [[M M Postnikov]] and added references to [[Postnikov system]]. I think historically tower and system differed by inclusion of universal cohomological class representing the fibration into the notion of system (cf. Whitehead's big book, ch.9). This should be still noted: if one does not specify the cohomological class this is I think like missing the choice of isomorphism when the isomorphism exists. Technical issues: I encountered a problem that sqrt{fraction} puts sqrt only such that the numerator is under the root. I do not know how one should write correctly. Toby thank you for the tip for getting the SOURCE of old versions. I sometimes write some items partly motivated by need to have them for my students, and plan to incorporate something close to my version into student scripta. You are very knowledgable about wiki world. :) I was also trying to take the export of the whole nlab and succeeded to get the markupML version but not html: when asking nlab/export_html i get 403 FORBIDDEN message in my browser. 
 
-  * [[Urs Schreiber]]: I also get this error message when trying to export the $n$Lab as html -- I remember the html export was particularly heavy on the server and maybe it was truned off in view of the server being a bit weak -- we are trying to move to a better host eventually
+  * [[Urs Schreiber]]: I also get this error message when trying to export the $n$Lab as html -- I remember the html export was particularly heavy on the server and maybe it was turned off in view of the server being a bit weak -- we are trying to move to a better host eventually
 
   *  _Toby_:  Yes, Jacques turned that off because it was such a load on the server; I expect that we can turn it on again when we get a better host.  In principle, you can get the HTML by exporting the source and compiling it on a local copy of Instiki, but of course you have to install Instiki to do that.  (Also note that you\'ll need the CSS files if you want the HTML to look the same, including fonts, query boxes, etc.)  And neither of these includes old versions; I think that Urs(?) is backing those up periodically in case the server crashes.
 
@@ -1048,11 +1048,11 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
 ## 2009-07-09
 
-* [[Zoran Škoda]]: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
+* [[Zoran Škoda]]: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurrence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
 
   * [[Eric]]: The fact that many items appear as <nowiki>[[apple]]s</nowiki> on the nLab is an artifact of the period prior to having redirects. Prior to having redirects, we'd have to write that as <nowiki>[[apple|apples]]</nowiki> to get it to render correctly which gets old after a while, so people naturally gravitated to the easier <nowiki>[[apple]]s</nowiki>. If we'd had redirects from the beginning, there would be a redirect at <nowiki>[[apple]]</nowiki> for <nowiki>[[apples]]</nowiki> and no one in their right mind would ever write <nowiki>[[apple]]s</nowiki> again (which is distracting to look at) if they could just write <nowiki>[[apples]]</nowiki> instead. I'm at a total loss as to why you oppose this. Currently, I am trying to reverse the damage so that we can make things cleaner from here. Whenever, I see "]]s", I instinctively change this to "s]]" and add a redirect if it doesn't exist. In time, this should work itself out and we should have plural redirects for most links that are commonly used. It would work itself even faster if people stopped writing "]]s" and used the plural link form instead.
 
-  * Zoran: I disagree that for example I write <nowiki>[[apple]]s</nowiki> rather than <nowiki>[[apple|apples]]</nowiki> beause it is easier. I write it because the appearance of <nowiki>[[apple]]s</nowiki> I like more: it tells me by the color which part of the name is real URL (as I often type URL), plus I have no dislike for multicolored words. I will continue writing like that. If you like to write your way write, but leave my links the way they are. Otherwise I can not ENJOY writing. It takes sometimes the whole minute to reload the page and I often reload the page is somebody has changes it, and it disappoints if the change is a matter of taste, and is legitimate. Second there may be day when you will have no time to write redirects etc. and one will not memorize which redirects exist and which do not. If I write the way I do, I will never have problem with this. If I want a single-color appearance of the link for some reason, I do not mind writing it long way like <nowiki>[[apple|apples]]</nowiki>, it is about 2 seconds more, rather than spending far more time to check if there is a created redirect and wait half a minute to load the page, specially if in addition to slowness of the server I have my own internet connection problems what is very often.   
+  * Zoran: I disagree that for example I write <nowiki>[[apple]]s</nowiki> rather than <nowiki>[[apple|apples]]</nowiki> because it is easier. I write it because the appearance of <nowiki>[[apple]]s</nowiki> I like more: it tells me by the color which part of the name is real URL (as I often type URL), plus I have no dislike for multicolored words. I will continue writing like that. If you like to write your way write, but leave my links the way they are. Otherwise I can not ENJOY writing. It takes sometimes the whole minute to reload the page and I often reload the page is somebody has changes it, and it disappoints if the change is a matter of taste, and is legitimate. Second there may be day when you will have no time to write redirects etc. and one will not memorize which redirects exist and which do not. If I write the way I do, I will never have problem with this. If I want a single-color appearance of the link for some reason, I do not mind writing it long way like <nowiki>[[apple|apples]]</nowiki>, it is about 2 seconds more, rather than spending far more time to check if there is a created redirect and wait half a minute to load the page, specially if in addition to slowness of the server I have my own internet connection problems what is very often.   
 
 * [[Urs Schreiber]]
 
@@ -1064,7 +1064,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
   * created [[Postnikov system in triangulated category]]
 
-  * I STRONGLY disagree with creation of spurios PLURAL items when they are of NO use. Namely like Eric just created new version of [[bialgebra cocycle]] to say that it redirects [[bialgebra cocycles]], while it is simpler and better from memory point of view to write [[bialgebra cocycle]]s. Why having whole page archived and one more page to browse in history just to distiguish if s is before or after the brackets ?? Dear Eric we have thousands of items to enter and there will be thousands of new pages in future and why to increase entropy and spend yuor valuable time on this -- please take some book and help us entering something NEW and not messing with plurals and creating new versions for nothing. I have hard time browsing history when something is messed up and if I am going to spend it on such a nonsense than I will leave the idea to enter new items myself.  
+  * I STRONGLY disagree with creation of spurios PLURAL items when they are of NO use. Namely like Eric just created new version of [[bialgebra cocycle]] to say that it redirects [[bialgebra cocycles]], while it is simpler and better from memory point of view to write [[bialgebra cocycle]]s. Why having whole page archived and one more page to browse in history just to distiguish if s is before or after the brackets ?? Dear Eric we have thousands of items to enter and there will be thousands of new pages in future and why to increase entropy and spend your valuable time on this -- please take some book and help us entering something NEW and not messing with plurals and creating new versions for nothing. I have hard time browsing history when something is messed up and if I am going to spend it on such a nonsense than I will leave the idea to enter new items myself.  
 
     * [[Eric]]: Hi Zoran. By adding a redirect for plurals, we are not creating spurious pages (but we are creating spurious revisions, but I don't see that as a meaningful issue). In fact, my hope is that everyone will stop writing things like <nowiki>[[page]]s</nowiki> in favor of <nowiki>[[pages]]</nowiki> at which point I could stop correcting the links. Please see [[redirect]] for more information. Redirects are a very nice new feature of the nLab (partially motivated by your suggestions wrt symbolic links) and I hope they become a natural part of any contributors arsenal. PS: It is ironic that you complain about creating additional revisions when you just created a THIRD revision by changing my redirect BACK (???). PPS: A good place to discuss this and any other administrative issues is on the [n-forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). That is a good place for such discussions and once a decision has been made about any issue, the conclusion will be placed on the brand new [nLab meta](http://ncatlab.org/nlabmeta/show/HomePage) site. We're working on decision making processes now and any feedback is more than welcome.
 
@@ -1251,7 +1251,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
     Evidently i shouldn't be discussing this here but in some entry. But it's time for me to go to bed now.
 
-* [[Zoran Škoda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
+* [[Zoran Škoda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correspondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
 
 * [[Urs Schreiber|Urs]]
 
