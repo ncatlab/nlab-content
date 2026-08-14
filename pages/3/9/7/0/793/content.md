@@ -88,7 +88,7 @@ This then also means that for the open string it exchanges von Neumann boundary 
 We follow [[Kentaro Hori]]'s [[path integral]] discussion of T-duality. Here the strategy is to consider a path integral over a certain space of auxiliary fields and show or argue that by "algebraically integrating out" some of these in two different ways, the path integral is equivalent to that over two different [[action functional]]s, which describe two T-dual geometric backgrounds.
 
 Let the boundary components of the worldsheet $\Sigma$ be labeled by
-$\partial \Sigma_{(1)}$.
+$\partial \Sigma_{(i)}$.
 
 We consider the following fields on the worldsheet:
 
