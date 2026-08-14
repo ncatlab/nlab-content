@@ -59,13 +59,13 @@ It is also possible to define the hierarchy of Coquand universes with a single s
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Level}(A):\mathbb{N}}$$
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash U(n) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Code}(n)(A):U(\mathrm{Level}(A))}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash U(n) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Code}(\mathrm{Level}(A))(A):U(\mathrm{Level}(A))}$$
 
 $$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash \mathrm{El}(n, A) \; \mathrm{type}} \quad \frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash \mathrm{Level}(\mathrm{El}(n, A)) \equiv n:\mathbb{N}}$$
 
 $$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash \mathrm{Code}(n)(\mathrm{El}(n, A)) \equiv A:U(n)}$$ 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{El}(n, \mathrm{Code}(n)(A)) \equiv A \; \mathrm{type}} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Level}(\mathrm{El}(n, \mathrm{Code}(n)(A))) \equiv \mathrm{Level}(A):\mathbb{N}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{El}(\mathrm{Level}(A), \mathrm{Code}(\mathrm{Level}(A))(A)) \equiv A \; \mathrm{type}} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Level}(\mathrm{El}(n, \mathrm{Code}(\mathrm{Level}(A))(A))) \equiv \mathrm{Level}(A):\mathbb{N}}$$ %But the latter follows from the former and the general compatibility of $\equiv$ with $\mathrm{Level}$, right?
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Level}(\mathbb{N}) \equiv 0:\mathbb{N}}$$
 
