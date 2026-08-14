@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition
 
@@ -72,8 +71,6 @@ The [[7-sphere]] $S^7$ is an example of an H-space that does not lift to an [[A-
 \begin{example}
 **(Mapping spaces into H-groups)**
 If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ of [[maps]] $X \to K$ has a natural group structure in the strict sense. Analogously, if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. 
-
-If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 \end{example}
 
 
