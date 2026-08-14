@@ -159,7 +159,7 @@ We have a [[coend]] formula for $T$:
 
 $$T(-) \cong \int^{n \in Fin} T(n) \times \hom(n, -)$$ 
 
-and since this is a colimit of functors $\hom(n, -)$ which preserve reflexive coequalizers, $T$ must also preserve reflexive coequalizers. 
+and since this is a [[colimit]] of functors $\hom(n, -)$ which preserve reflexive coequalizers, $T$ must also preserve reflexive coequalizers. 
 
 =--
 
