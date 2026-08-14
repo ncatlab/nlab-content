@@ -77,12 +77,14 @@ Beware that there is no widely accepted convention for the notation of central p
 
 ### In Riemannian geometry and spin geometry
 
+In [[Riemannian geometry]] and [[spin geometry]]:
+
 \begin{example}
 A [[Spin^c-group]] is a central product of a [[spin group]] with the [[circle group]].
 \end{example}
 
 \begin{example}
-In [[Riemannian geometry]] and [[spin geometry]] one considers the central products [[Sp(n).Sp(1)]] and [[Spin(n).Spin(m)]].
+The groups [[Sp(n).Sp(1)]] and [[Spin(n).Spin(m)]] are central products of [[quaternionic unitary groups]] and of [[spin groups]], respectively.
 \end{example}
 
 
