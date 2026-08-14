@@ -410,6 +410,9 @@ With [[boundary field theory|boundaries]] and [[edge modes]]:
 
 * J. Fernando Barbero G., Bogar Díaz, Juan Margalef-Bentabol, Eduardo J.S. Villaseñor: *Edge observables of the Maxwell-Chern-Simons theory*, Physical Review D, **106** (2022) 025011 \[<a href="https://doi.org/10.1103/PhysRevD.106.025011">doi:10.1103/PhysRevD.106.025011</a>, [arXiv:2204.06073](https://arxiv.org/abs/2204.06073)\]
 
+* Nicola Maggiore: *Edge physics and the Casimir interaction in Maxwell--Chern--Simons theory on a strip* &lbrack;[arXiv:2608.12622](https://arxiv.org/abs/2608.12622)&rbrack;
+
+
 
 In view of [[electric-magnetic duality]] ("[[S-duality]]"):
 
