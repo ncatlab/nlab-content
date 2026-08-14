@@ -159,7 +159,7 @@ $$(\lambda x:A.(x, b(x)), \mathrm{refl}_{A \to A}(\mathrm{id}_A)):\prod_{x:A} B(
 
 $$x:A \vdash \mathrm{tr}_{\mathrm{happly}(\pi_2(g), x)}(\pi_2(\pi_1(g)(x)):B(x)$$
 
-In this section, $\pi_1$ and $\pi_2$ are from the [[elimination rules]] of [[dependent product types]]. 
+In this section, $\pi_1$ and $\pi_2$ are from the [[elimination rules]] of [[dependent pair types]]. 
 
 * judgmental $\beta$-conversion rule of a dependent product type: for every type family $x:A \vdash B(x)$ and family of elements $x:A \vdash b(x):B(x)$, one can show that 
 
