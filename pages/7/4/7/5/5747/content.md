@@ -9,7 +9,6 @@
 =--
 =--
 
-# Semi-simplicial sets
 * table of contents
 {:toc}
 
