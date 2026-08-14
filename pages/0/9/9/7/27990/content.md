@@ -54,10 +54,10 @@ $$
 
 ## Homotopy groups
 
-| | $\pi_{-4}$ | $\pi_{-3}$ | $\pi_{-2}$ | $\pi_{-1}$ | $\pi_0$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ |
+| | $\pi_{\le-4}$ | $\pi_{-3}$ | $\pi_{-2}$ | $\pi_{-1}$ | $\pi_0$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| MTSO(2) | $1$ | $1$ | $\mathbb{Z}$ | $1$ | $\mathbb{Z}$ | $1$ | $\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$  | $\mathbb{Z}$ | 
-| MTSO(3) | $1$ | $\mathbb{Z}$ | $1$ | $1$ | $1$ | $\mathbb{Z}$ | ? | ? | ? |
+| MTSO(2) | $0$ | $0$ | $\mathbb{Z}$ | $0$ | $\mathbb{Z}$ | $0$ | $\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$  | $\mathbb{Z}$ | 
+| MTSO(3) | $0$ | $\mathbb{Z}$ | $0$ | $0$ | $0$ | $\mathbb{Z}$ | ? | ? | ? |
 
 ([Gollinger 2016, Thrm. 3.0.8.](#Gollinger16))
 
