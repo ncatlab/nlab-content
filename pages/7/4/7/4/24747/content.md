@@ -43,7 +43,7 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL 112](https://sites.google.com/view/pssl112/) (2026, Nottingham) [schedule and abstracts](https://sites.google.com/view/pssl112/program)
 
-* PSSL 113 (2026, Louvain-la-Neuve)
+* [PSSL 113](https://sites.uclouvain.be/pssl113/) (2026, Louvain-la-Neuve)
 
 ## Related pages
 
