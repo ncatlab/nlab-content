@@ -50,29 +50,32 @@ model* $(\mathbb{N}, 0, 1, +, \times, S)$ of first-order
 
 This is all discussed in e.g. ([Gitman](#Gitman)).
 
+-   The usual ordering on the natural numbers is definable in
+    [[Peano arithmetic|PA]] since
+    $a \leq b \iff \exists c$ such that $a + c = b$. Since 
+    the theory defines it, every nonstandard model of
+    arithmetic is also linearly ordered.
+
 -   While the standard model of arithmetic has no automorphisms, there
     exist countable models of arithmetic with
     [[continuum]]-many automorphisms.
 
 -   A theorem due to Harvey Friedman states that every nonstandard model
-    of arithemetic is isomorphic to some initial segment (in terms of
-    the ordering discussed below) of itself.
+    of arithmetic is isomorphic to some initial segment (in terms of
+    the ordering discussed above) of itself.
 
 -   A theorem due to Stanley Tennenbaum states that there is no
     countable nonstandard model of arithmetic for which there is an
     algorithm to compute addition or multiplication on the
     nonstandard part.
 
--   The usual ordering on the natural numbers is definable in
-    [[Peano arithmetic|PA]] since
-    $a \leq b \iff \exists c$ such that $a + c = b$.
-
 
 ## Denseness of ordering on nonstandard part {#sec:orgf41355d}
 
-As remarked above, the usual ordering on $\mathbb{N}$ is definable in
-$\mathsf{PA}$. Since the theory defines it, every nonstandard model of
-arithmetic is linearly ordered. For every nonstandard number $\omega$,
+As remarked above, every nonstandard model of
+arithmetic carries a canonical linear order extending the standard linear order on $\mathbb{N}$. 
+
+For every nonstandard number $\omega$,
 one can generate using addition and subtraction a copy of $\mathbb{Z}$
 around $\omega$, like so:
 
@@ -146,10 +149,10 @@ Again by the [[Los ultraproduct theorem]], the arithmetic operations in $^*\math
 
 ## Countable nonstandard models of arithmetic {#sec:org8d7c98e}
 
-Peano arithmetic is the quintessential [[stability in model theory|unstable theory]], and so there are plenty of
-countable nonstandard models of [[Peano arithmetic]] ($2^{\aleph_0}$-many.) One can
-see this directly by [[type (in model theory)|omitting]] the types of nonstandard numbers whose
-only finite prime divisors is an arbitrary set of finite primes.
+[[Peano arithmetic]] is the quintessential [[stability in model theory|unstable theory]], and so there are plenty of
+countable nonstandard models of Peano arithmetic ($2^{\aleph_0}$-many.) One can
+see this directly by starting with an arbitrary set of finite primes and then [[type (in model theory)|omitting]] the types of nonstandard numbers whose
+only finite prime divisors belong to this set.
 
 By the discussion above, the nonstandard part is linearly ordered and
 can be partitioned into copies of $\mathbb{Z}$, and in fact these copies
