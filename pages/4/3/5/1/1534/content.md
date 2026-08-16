@@ -70,7 +70,7 @@ These definitions appear in [Costello & Gwilliam](#CostelloGwilliam).
 +-- {: .num_defn #FactorizingCover}
 ###### Definition
 
-For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subset U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in their union.
+For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], an [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subset U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in their union.
 
 =-- 
 
@@ -92,7 +92,7 @@ For a factorizing cover $\{U_i \to U\}_{i \in I}$ write $P I$ for the set of fin
 Given a [prefactorization algebra](#PrefactorizationAlgebra) $\mathcal{F}$ and $\alpha \in P I$ write 
 
 $$
-  \mathcal{F}(\alpha) := \otimes_{j \in \alpha} F(U_j)
+  \mathcal{F}(\alpha) := \otimes_{j \in \alpha}  \mathcal{F}(U_j)
 $$
 
 and for $\alpha_1, \cdots, \alpha_k \in P I$ write
