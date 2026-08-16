@@ -8,7 +8,7 @@
 
 ### General
 
-An __affine scheme__ is a [[scheme]] that as a [[sheaf]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative [[ring]]s (or equivalently as a sheaf on the subcategory of finitely presented rings) is [[representable functor|representable]]. In a [[ringed space]] picture an affine scheme is a [[locally ringed space]] which is isomorphic to the [[prime spectrum]] of a commutative ring. Affine schemes form a [[full subcategory]] $Aff\hookrightarrow Scheme$ of the category of schemes.
+An __affine scheme__ is a [[scheme]] that is [[representable functor|representable]] as a [[sheaf]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative [[ring]]s (or equivalently as a sheaf on the subcategory of finitely presented rings). In a [[ringed space]] picture, an affine scheme as a [[locally ringed space]] which is isomorphic to the [[prime spectrum]] of a commutative ring. Affine schemes form a [[full subcategory]] $Aff\hookrightarrow Scheme$ of the category of schemes.
 
 The correspondence $Y\mapsto Spec(\Gamma_Y \mathcal{O}_Y)$ extends to a [[functor]] $Scheme\to Aff$. The __fundamental theorem on morphisms of schemes__ (see [below](#IsbellDuality)) says that there is a bijection  
 
@@ -20,7 +20,7 @@ In other words, for fixed $Y$, and for varying $R$ there is a restricted functor
 
 $$ Scheme(-,Y)|_{Aff^{op}} = h_Y|_{Aff^{op}} = h_Y|_{CRing} : CRing\to Set,$$ 
 
-and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [[fully faithful functor|fully faithful]]. Thus the general schemes if defined as ringed spaces, indeed form a full subcategory of the category of presheaves on $Aff$. See at _[[functorial geometry]]_.
+and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [[fully faithful functor|fully faithful]]. Thus the general schemes, if defined as ringed spaces, indeed form a full subcategory of the category of presheaves on $Aff$. See at _[[functorial geometry]]_.
 
 
 There is an analogue of this theorem for relative [[noncommutative scheme]]s in the sense of Rosenberg. 
