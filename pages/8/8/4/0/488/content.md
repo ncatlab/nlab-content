@@ -161,7 +161,7 @@ On relation of Boolean toposes to [[measure theory]]:
 
 * {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambridge Philosophical Society, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605))
 
-* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
+* [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](https://arxiv.org/abs/2010.00681))
 
  
 
