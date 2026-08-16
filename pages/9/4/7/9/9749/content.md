@@ -155,7 +155,7 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
-\begin{lemma} If $(X, \sigma(\mathbb{F}))$ be a standard space then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a function of the form $m = \sum_{U \in \mathbb{F}} \lambda_U ev_{U}$ where each $\lambda_U \in \mathbb{R}_{\infty}$.
+\begin{lemma} If $(X, \sigma(\mathbb{F}))$ is a standard space then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a function of the form $m = \sum_{U \in \mathbb{F}} \lambda_U ev_{U}$ where each $\lambda_U \in \mathbb{R}_{\infty}$.
 \end{lemma}
 \begin{proof} The convex space structure of $G(X)$ is given, for each $U \in \mathbb{F}$, by the condition
 $ ev_U( \sum_{i=1}^{n} p_i P_i) = \sum_{i=1}^{n}p_i P_i(U) = \sum_{i=1}^n p_i ev_{U}(P_i)$. 
