@@ -122,7 +122,9 @@ The notion is due to
 
 * {#Taylor99} [[Paul Taylor]], Section 8.3 in: _[[Practical Foundations of Mathematics]]_, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
   
+The notion was discovered under the name **calibration** by [[Jean Bénabou]] in:
 
+* [[Jean Bénabou]], _Locally small Cartesian functors_, Cah. Topol. Géom. Différ. Catég. 46, No. 3, 177-179 (2005) ([pdf](https://www.numdam.org/item/CTGDC_2005__46_3_163_0.pdf))
 
 
 [[!redirects category with display map]]
