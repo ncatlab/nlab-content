@@ -52,6 +52,8 @@ is a right adjoint functor if and only if it is representable, in which case the
 
 * {#MacLane97} [[Saunders MacLane]], p. 118 (2nd ed: 130) in: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
+* [[Jean Bénabou]], _Critères de représentabilité des foncteurs_, [[CRAS]] 260 (1965): 752-755.
+
 
 [[!redirects corepresentable functor theorem]]
 [[!redirects representability theorem]]
