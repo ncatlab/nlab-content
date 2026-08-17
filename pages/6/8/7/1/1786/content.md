@@ -69,8 +69,18 @@ The [[7-sphere]] $S^7$ is an example of an H-space that does not lift to an [[A-
 \end{example}
 
 \begin{example}
-**(Mapping spaces into H-groups)**
-If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ of [[maps]] $X \to K$ has a natural group structure in the strict sense. Analogously, if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. 
+**(Mapping spaces)**
+Given $X$ and $A$ [[convenient category of topological spaces|convenient]] [[pointed topological spaces]], then: 
+
+* if $A$ carries H-group structure,
+
+or
+
+* if $X$ carries H-cogroup structure
+
+then the pointed [[mapping space]] $Map^\ast(X,A)$ inherits H-group structure, hence the set of pointed [[homotopy classes]] $[X,A] \coloneqq \pi_0 Map^\ast(X,A)$ of pointed [[maps]] $X \to A$ carries [[group]] [[structure]] in the strict sense. 
+
+If *both* $X$ is an H-cogroup *and* $A$ is an H-group, then the two group structures induced this way on $[X,A]$ together satisfy the [[interchange law]],  hence the [[Eckmann-Hilton argument]] implies that they (are [[abelian group|abelian]] and) coincide with each other.
 \end{example}
 
 
