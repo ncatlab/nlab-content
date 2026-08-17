@@ -20,7 +20,7 @@ A a _homotopy class_ is an [[equivalence class]] under [[homotopy]]:
 
 For $f \;\colon\; X \to Y$ a [[continuous function]] between [[topological spaces]] which admit the structure of [[CW-complexes]], its _homotopy class_ is the [[morphism]] in the [[classical homotopy category]] that is represented by $f$. The sets of such homotopy classes if often denoted $[X,Y]$ or similar.
 
-Similarly, if $f$ is a base-point preserving function between [[pointed topological spaces]] admitting the structure of [[CW-complexes]], then its homotopy class ("pointed homomotopy class") represents a morphism in the [[homotopy category]] of [[pointed homotopy types]]. The sets of such pointed homotopy classes if often denoted $[X,Y]_\ast$ or similar.
+Similarly, if $f$ is a base-point preserving function between [[pointed topological spaces]] admitting the structure of [[CW-complexes]], then its homotopy class ("pointed homomotopy class") represents a morphism in the [[homotopy category]] of [[pointed homotopy types]]. The sets of such pointed homotopy classes are often denoted $[X,Y]_\ast$ or similar.
 
 ## Examples
 
