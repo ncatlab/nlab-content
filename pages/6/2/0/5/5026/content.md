@@ -51,6 +51,12 @@ On the [[Penrose singularity theorem]] and the [[cosmic censorship hypothesis]]:
 
 * [[Klaas Landsman]], _Singularities, black holes, and cosmic censorship: A tribute to Roger Penrose_ ([arXiv:2101.02687](https://arxiv.org/abs/2101.02687))
 
+On [[entropy]]:
+
+* [[Klaas Landsman]]: *The Okinawa Lectures on Entropy* &lbrack;[arXiv:2608.14523](https://arxiv.org/abs/2608.14523)&rbrack;
+
+
+
 ## Related entries
 
 * [[Bohr topos]]
