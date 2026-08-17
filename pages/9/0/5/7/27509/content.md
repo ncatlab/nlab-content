@@ -41,6 +41,10 @@ Review:
 
 * [[Alberto Ibort]]: *The groupoid picture of Quantum Mechanics*, [talk at](CQTS#IbortApr2025) [[CQTS]] (23 Apr 2025) \[slides:[[Ibort-CQTS-Apr2025.pdf:file]], video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)\]
 
+See also:
+
+* Samuel Fedida, [[Alberto Ibort]], Arnau Mas-Dorca: *A groupoidal approach to quantum reference frames* \[<a href="https://arxiv.org/abs/2608.14133">arXiv:2608.14133</a>\]
+
 
 On [[groupoids]] and their [[representation theory]] ([[groupoid representations]], [[groupoid algebras]]):
 
