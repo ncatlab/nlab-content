@@ -263,6 +263,9 @@ See also:
 
 * Haoyu Hu, Lei Chen: *Quantum-Geometry-Induced Superconductivity near a Fractional Chern Insulator* &lbrack;[arXiv:2606.21166](https://arxiv.org/abs/2606.21166)&rbrack;
 
+* Julian May-Mann, Tixuan Tan, Patrick J. Ledwith, Zhengyan Darius Shi, Trithep Devakul: *Skyrmion Fractional Chern Insulator: An Intrinsically Multiband Route to Fractionalization in Rhombohedral Graphene* &lbrack;[arXiv:2608.14535](https://arxiv.org/abs/2608.14535)&rbrack;
+
+
 
 
 
