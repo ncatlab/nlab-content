@@ -3843,7 +3843,6 @@ there regarded as [[group action|acting]] on [[Riemann surfaces]] forming [[bran
 The original articles dedicated to analysis of the braid group:
 
 * {#Artin25} [[Emil Artin]], *Theorie der Zöpfe*, Abh. Math. Semin. Univ. Hambg. **4**  (1925) 47–72 &lbrack;[doi;10.1007/BF02950718](https://doi.org/10.1007/BF02950718)&rbrack;
-
   >(the braid group via generators & relations and via automorphisms of free groups)
 
 * [[Wilhelm Magnus]], *Über Automorphismen von Fundamentalgruppen berandeter Flächen*, Mathematische Annalen **109** (1934) 617–646 &lbrack;[doi:10.1007/BF01449158](https://doi.org/10.1007/BF01449158)&rbrack;
@@ -4046,6 +4045,11 @@ On [[G-structure]] for $G = Br_\infty$ the infinite braid group:
 * [[Frederick R. Cohen]], *Braid orientations and bundles with flat connections*, Inventiones mathematicae **46** (1978) 99–110 &lbrack;[doi:10.1007/BF01393249](https://doi.org/10.1007/BF01393249)&rbrack;
 
 * [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
+
+See also:
+
+* Byung Hee An: *Extending Goldberg's Exact Sequence to Braid Groups of Graphs and Simplicial Complexes* &lbrack;[arXiv:2608.14350](https://arxiv.org/abs/2608.14350)&rbrack;
+
 
 
 [[!include braid group representations -- references]]
