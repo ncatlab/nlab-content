@@ -256,13 +256,15 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the context of [[physics]], and then adapted to [[information theory]] by [[Claude Shannon]] in 1948, to [[quantum mechanics]] by [[John von Neumann]] in 1955, to [[ergodic theory]] by [[Andrey Kolmogorov]] and Sinai in 1958, and to [[topological dynamics]] by Adler, Konheim and McAndrew in 1965.
 
-A survey at the introductory level:
+Survey;
 
-* [[John Baez]]. *What is Entropy?* (2024). ([arXiv:2409.09232](https://arxiv.org/abs/2409.09232)).
+* [[John Baez]]. *What is Entropy?* (2024) &lbrack;[arXiv:2409.09232](https://arxiv.org/abs/2409.09232)&rbrack;
 
-Survey with an eye towards [[black hole entropy]]:
+* [[Klaas Landsman]]: *The Okinawa Lectures on Entropy* &lbrack;[arXiv:2608.14523](https://arxiv.org/abs/2608.14523)&rbrack;
 
-* [[Ted Jacobson]], _Entropy from Carnot to Bekenstein_ ([arXiv:1810.07839](https://arxiv.org/abs/1810.07839))
+and with an eye towards [[black hole entropy]]:
+
+* [[Ted Jacobson]], _Entropy from Carnot to Bekenstein_ &lbrack;[arXiv:1810.07839](https://arxiv.org/abs/1810.07839)&rbrack;
 
 
 
