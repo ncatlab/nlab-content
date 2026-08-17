@@ -16,9 +16,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -1824,12 +1822,15 @@ $$
 
 ## References
 
-Accounts in the physics literature include:
+Accounts in the physics literature:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Ch II.7 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.7: [[CastellaniDAuriaFre-ChII7.pdf:file]]&rbrack;
 
+* Jan Hajer: *Dirac, Majorana, and Weyl Spinors in Arbitrary Dimension and Signature* &lbrack;[arXiv:2608.14193](https://arxiv.org/abs/2608.14193)&rbrack;
 
-Accounts in the mathematical literature include
+
+
+Accounts in the mathematical literature:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Chapter I.5 of _[[Spin geometry]]_, Princeton University Press (1989)
 
