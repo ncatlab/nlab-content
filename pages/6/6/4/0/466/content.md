@@ -194,7 +194,7 @@ $$
   \alpha_{a'}(f) &= \alpha_{a'}(\mathbf{y} a_{a,a'}(f)(1_a))\\
   &= (\alpha_{a'} \circ \mathbf{y}a_{a,a'}(f))(1_a)\\
   &= (F_{a,a'}(f) \circ \alpha_a)(1_a)\\
-  &= F_{a,a'}(f_(\alpha_a(1_a))\\
+  &= F_{a,a'}(f(\alpha_a(1_a))\\
   &= F_{a,a'}(f)(x).
 \end{aligned}
 $$
