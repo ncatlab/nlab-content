@@ -585,7 +585,7 @@ More concerned outlook:
 
 <div style="float:right;margin:-15px 0px 00px 20px;"><a href="https://youtu.be/E98zLxB7EQs?t=85"><img src="/nlab/files/DARPA-QBI-IFItTurnsOutNotPossible.jpg" width="230"></a></div>
 
-* {#DarpaQBI} DARPA: *[Quantum Benchmarjing Initiative](https://www.darpa.mil/work-with-us/quantum-benchmarking-initiative)*
+* {#DarpaQBI} DARPA: *[Quantum Benchmarking Initiative](https://www.darpa.mil/work-with-us/quantum-benchmarking-initiative)*
   > "to determine if it’s possible to build an industrially useful quantum computer much faster than conventional predictions. Specifically, QBI is designed to rigorously verify and validate if any quantum computing approach can achieve utility-scale operation — meaning its computational value exceeds its cost — by the year 2033."
 
   > The [accompanying video](https://youtu.be/E98zLxB7EQs) says at [1:25](https://youtu.be/E98zLxB7EQs?t=85): 
