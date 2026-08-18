@@ -92,7 +92,7 @@ with $\eta(i) = (-1)^{\sum_{k=1}^i |s a_k|}$.
 
 ### The Cobar construction
 
-(due to J. F. Adams, see [Felix-Halperin0Thomas 92](#FelixHalperinThomas92))
+(due to J. F. Adams, see [Felix-Halperin-Thomas 92](#FelixHalperinThomas92))
 
 
 
