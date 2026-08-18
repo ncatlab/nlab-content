@@ -68,7 +68,7 @@ The only [[n-spheres]] $S^n$ which have $H$-space structure are those with $n = 
 The [[7-sphere]] $S^7$ is an example of an H-space that does not lift to an [[A-infinity space|$A_\infty$-space]]. It can't be delooped because its would-be [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$ (cf. [Adams 1961 Lemma 2](#Adams61). The 7-sphere is also not an $H$-group.
 \end{example}
 
-\begin{example}
+\begin{example}\label{ExampleMappingSpaces}
 **(Mapping spaces)**
 Given $X$ and $A$ [[convenient category of topological spaces|convenient]] [[pointed topological spaces]], then: 
 
@@ -80,7 +80,13 @@ or
 
 then the pointed [[mapping space]] $Map^\ast(X,A)$ inherits H-group structure, hence the set of pointed [[homotopy classes]] $[X,A] \coloneqq \pi_0 Map^\ast(X,A)$ of pointed [[maps]] $X \to A$ carries [[group]] [[structure]] in the strict sense. 
 
-If *both* $X$ is an H-cogroup *and* $A$ is an H-group, then the two group structures induced this way on $[X,A]$ together satisfy the [[interchange law]],  hence the [[Eckmann-Hilton argument]] implies that they (are [[abelian group|abelian]] and) coincide with each other.
+If 
+
+* *both* $X$ is an H-cogroup *and* $A$ is an H-group, 
+
+then the two group structures induced this way on $[X,A]$ together satisfy the [[interchange law]],  hence the [[Eckmann-Hilton argument]] implies that they (are [[abelian group|abelian]] and) coincide with each other.
+
+This shows for instance that the [[fundamental group]] of any [[topological group]] $G$ is [[abelian group|abelian]]: $\pi_1(G) \simeq [S^1,G] \in AbGrp \hookrightarrow Grp$.
 \end{example}
 
 
