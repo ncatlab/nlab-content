@@ -23,7 +23,7 @@ A **small presheaf** on a category $C$ is a [[presheaf]] which is determined by 
 
 ## Definition
 
-Let $C$ be a [[category]] which is [[locally small category|locally small]], but possibly [[large category|large]].  A presheaf $F\colon C^{op}\to Set$ is **small** if it is the left [[Kan extension]] of some functor whose domain is a [[small category]], or equivalently if it is a small [[colimit]] of [[representable functors]] (see Proposition 4.83 of [Kelly](#Kelly82)).
+Let $C$ be a [[category]] which is [[locally small category|locally small]], but possibly [[large category|large]].  A presheaf $F\colon C^{op}\to Set$ is **small** if it is the left [[Kan extension]] of some functor whose domain is a [[small category]], or equivalently if it is a small [[colimit]] of [[representable functors]] (see Proposition 4.83 of [Kelly](#Kelly82)). Another equivalent condition is that $\int F$, its [[category of elements]], is a [[cofinally small category]].
 
 Of course, if $C$ is itself small, then every presheaf is small.
 
