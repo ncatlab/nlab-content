@@ -93,14 +93,11 @@ Projects:
 
   shorts: *[Gauge Equivalence in Physics](https://www.youtube.com/shorts/jMCNyyPIiUI?feature=share)*, *[Differential Geometry in Physics](https://www.youtube.com/shorts/8X2VCvosnyY?feature=share)*,  *[Elegant Math for Physics](https://www.youtube.com/shorts/Ywfv96_DHR0?feature=share)*
 
-  \linebreak
 
   \linebreak
 
-  \linebreak
-
-<div style="float:right;margin:-100px 0px 00px 20px;">
-<a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO-CoverSlideSlim-260218.png" width="370"></a> 
+<div style="float:right;margin:-50px 0px 00px 20px;">
+<a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO2026-Thumbnail.png" width="500"></a> 
 </div>
 
 * **[[schreiber:WIKO 2026|The &#36;1 Million Puzzle: Hadrons and Quantum Computers]]** 
@@ -112,6 +109,8 @@ Projects:
   [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
 
   Greifswald (6 May 2026)
+
+  video: [WIKO Mediathek](https://www.wiko-greifswald.de/mediathek/beitrag/n/das-1-millionen-dollar-raetsel-hadronen-quantencomputer-284592/), [yt](https://youtu.be/2v7F1HHIuOY)
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
