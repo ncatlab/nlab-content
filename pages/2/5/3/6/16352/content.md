@@ -12,7 +12,7 @@ The first name, "Jet" is probably an allusion to the *[[jet bundles]]* that play
 
 Textbook on [[smooth manifolds]] and their [[differential geometry]]:
 
-* {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (First Edition 2002, 222 pages; Second Edition 2020, 433 pages) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://web.archive.org/web/20250807152926/https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">First Edition PDF</a>&rbrack;
+* {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220**, Springer (First Edition 2002, 222 pages; Second Edition 2020, 433 pages) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://web.archive.org/web/20250807152926/https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">First Edition PDF</a>&rbrack;
 
 
 ## Related entries
