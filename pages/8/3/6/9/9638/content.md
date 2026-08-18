@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -566,6 +564,9 @@ systems well enough.
 * {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
 
 * [[Jens Eisert]], [[John Preskill]]: *Mind the gaps: The fraught road to quantum advantage* &lbrack;[arXiv:2510.19928](https://arxiv.org/abs/2510.19928)&rbrack;
+
+* Amit Hagar: *The NISQ Trap: Eight Years of Demonstrations the Hardware Was Built to Lose* &lbrack;[arXiv:2607.07530](https://arxiv.org/abs/2607.07530)&rbrack;
+
 
 
 On the resulting drop in investment:
