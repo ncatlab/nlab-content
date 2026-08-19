@@ -193,7 +193,7 @@ Other articles:
 
 * Rosanna Laking, _Purity in compactly generated derivators and t-structures with Grothendieck hearts_, Math. Zeitschrift, [doi](https://10.1007/s00209-019-02411-9) (2019)
 
-*  Leonid Positselski, _On pure monomorphisms and pure epimorphisms in accessible categories_, Theory and applications of categories __45__, 2026, No. 7, 246-- 288 [link](http://www.tac.mta.ca/tac/volumes/45/7/45-07abs.html)
+*  [[Leonid Positselski]]: _On pure monomorphisms and pure epimorphisms in accessible categories_, Theory and applications of categories __45__ 7 (2026) 246--288 &lbrack;[tac:45-07](http://www.tac.mta.ca/tac/volumes/45/7/45-07abs.html)&rbrack;
 
 
 ### Morphisms of schemes
