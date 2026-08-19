@@ -481,7 +481,7 @@ and so the corresponding filling fractions are ([Jain 1989 p 1-2](#Jain89))
     \;=\;
   \frac
     { 1 }
-    { 2 n + 1/p }
+    { 2 m + 1/p }
   \;=\;
   \tfrac{
     p
