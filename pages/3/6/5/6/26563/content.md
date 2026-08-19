@@ -104,7 +104,7 @@ Using this, Chen proved that the category of standard Borel spaces is the (bi)in
 ## References
 The equivalence between the two definitions  can be found in
 
-* Chris Preston. _Some Notes on Standard Borel and related spaces_. (\http:arxiv.org/abs/0809.3066) 2008.
+* Chris Preston. _Some notes on standard borel and related spaces_ [arXiv:0809.3066](https://arxiv.org/abs/0809.3066)
 
 A gentle introduction to the alternative definition is given in
 
