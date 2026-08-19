@@ -116,7 +116,7 @@ It was expanded further in the following paper, which discusses the strong/weak 
 
 * {#HRR90} Hyland, J. M., Robinson, E. P. and Rosolini, G. (1990), The Discrete Objects in the Effective Topos. Proceedings of the London Mathematical Society, s3-60: 1-36. [doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)
 
-There was much related activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], Guiseppe Rosolini, and others, including:
+There was much related activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], [[Giuseppe Rosolini]], and others, including:
 
 * {#Reynolds84} [[John Reynolds]], Polymorphism is not set-theoretic. In: Kahn G., MacQueen D.B., Plotkin G. (eds) Semantics of Data Types. SDT 1984. Lecture Notes in Computer Science, vol 173. Springer, Berlin, Heidelberg
 
