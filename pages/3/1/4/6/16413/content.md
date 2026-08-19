@@ -11,6 +11,10 @@
 
 ## Selected writings
 
+On [[discrete objects]] in the [[effective topos]]:
+
+* {#HRR90} [[Martin Hyland]], E. P. Robinson, [[Giuseppe Rosolini]]: *The Discrete Objects in the Effective Topos*,  Proceedings of the London Mathematical Society **s3-60** 1 (1990) 1--36 &lbrack;[doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)&rbrack;
+
 On [[fibered category|fibrations]] of [[enriched groupoids]] as [[categorical semantics]] for [[identity types]] in [[homotopy type theory]]:
 
 * [[Jacopo Emmenegger]], [[Fabio Pasquali]], [[Giuseppe Rosolini]]: *Elementary fibrations of enriched groupoids*, Mathematical Structures in Computer Science **31** 9 (2021) 958--978 &lbrack;[doi:10.1017/S096012952100030X](https://doi.org/10.1017/S096012952100030X)&rbrack;
