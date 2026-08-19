@@ -13,9 +13,7 @@
 =--
 =--
 
-# Complete small categories
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definition
 
@@ -59,7 +57,7 @@ The [[internal logic]] of a [[topos]] is not, in general, [[classical logic|clas
 
 ## In more general toposes and constructive mathematics
 
-However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories, arising for example from the [[modest sets]] or [[partial equivalence relations]].  See [Hyland88](#Hyland88) and [HRR90](#HRR90) for details.
+However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories, arising for example from the [[modest sets]] or [[partial equivalence relations]].  See [Hyland 88](#Hyland88) and [HRR 90](#HRR90) for details.
 
 It follows that, in [[constructive mathematics]], it is impossible to prove even that every complete small category in $Set$ or in a Grothendieck topos must be a preorder.
 
@@ -110,11 +108,11 @@ Reviewed as Thm. 2.1 in:
 
 The original reference for the complete small categories in the effective topos is:
 
-* {#Hyland88} [[Martin Hyland]], _A small complete category_, Annals of Pure and Applied Logic 40 (1988) ([pdf](https://webdpmms.maths.cam.ac.uk/~jmeh1/Research/Oldpapers/smallcomplete88.pdf))
+* {#Hyland88} [[Martin Hyland]]: _A small complete category_, Annals of Pure and Applied Logic **40** (1988) &lbrack;[pdf](https://webdpmms.maths.cam.ac.uk/~jmeh1/Research/Oldpapers/smallcomplete88.pdf)&rbrack;
 
 It was expanded further in the following paper, which discusses the strong/weak completeness issue and the relation to stacks in more detail:
 
-* {#HRR90} Hyland, J. M., Robinson, E. P. and Rosolini, G. (1990), The Discrete Objects in the Effective Topos. Proceedings of the London Mathematical Society, s3-60: 1-36. [doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)
+* {#HRR90} [[Martin Hyland]], E. P. Robinson, [[Giuseppe Rosolini]]: *The Discrete Objects in the Effective Topos*,  Proceedings of the London Mathematical Society **s3-60** 1 (1990) 1--36 &lbrack;[doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)&rbrack;
 
 There was much related activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], [[Giuseppe Rosolini]], and others, including:
 
