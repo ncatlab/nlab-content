@@ -13,17 +13,21 @@
 =--
 =--
 
-This page collects material related to the book
+This page is to record the reference:
 
-* [[William Lawvere]], [[Robert Rosebrugh]], 
+* [[William Lawvere]], [[Robert Rosebrugh]]:
 
-  _Sets for Mathematics_, 
+  \linebreak
 
-  Cambridge UP  2003. 
+  **Sets for Mathematics** 
 
-  [doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460)
+  \linebreak
 
-  ([book homepage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
+  Cambridge University Press (2003) 
+
+    [doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460)
+
+  [webpage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf)
 
 which introduces [[set theory]] and the [[foundations of mathematics]] from a practical and [[categorical logic|category theoretic]] point of view known as _[[structural set theory]]_ ("informal [[ETCS]]").
 
