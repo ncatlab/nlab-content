@@ -1,6 +1,6 @@
-John Martin Elliott Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge. Hyland is  known for work on the effective topos (within topos theory), on the lambda-calculus and on game semantics. 
+John Martin Elliott Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge. Hyland is  known for work on the [[effective topos]] (within [[topos theory]]), on the [[lambda-calculus]] and on [[game semantics]]. 
 
-His  main research interests are in the following.
+His  main research interests are in the following:
 
 *  Mathematical Logic: Lambda Calculus, Recursion Theory, Realizability, Proof Theory, Linear Logic.
 
@@ -19,6 +19,10 @@ Links:
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Martin_Hyland)
 
 ## Selected writings
+
+On [[discrete objects]] in the [[effective topos]]:
+
+* {#HRR90} [[Martin Hyland]], E. P. Robinson, [[Giuseppe Rosolini]]: *The Discrete Objects in the Effective Topos*,  Proceedings of the London Mathematical Society **s3-60** 1 (1990) 1--36 &lbrack;[doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)&rbrack;
 
 On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]]:
 
