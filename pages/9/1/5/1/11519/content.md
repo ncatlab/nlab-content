@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -139,6 +137,11 @@ Let $\{b_1, b_2, \cdots, b_{n+1}\}$ be an [[orthonormal basis]] of $\mathbb{R} \
 * {#Blumberg17} [[Andrew Blumberg]], Example 1.1.5 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 * {#MarzantowiczPrieto04} Waclaw Marzantowicz, [[Carlos Prieto]], _The unstable equivariant fixed point index and the equivariant degree_, Jourmal of the London Mathematical Society **69**  1 (2004) 214-230 &lbrack;[pdf](http://hopf.math.purdue.edu/Marzantowicz-Prieto/Marprieto.pdf), <a href=" https://doi.org/10.1112/S0024610703004721">doi:10.1112/S0024610703004721</a>&rbrack;
+
+See also:
+
+* Sam K. Miller: *Non-orientable representation spheres* &lbrack;[arXiv:2608.18015](https://arxiv.org/abs/2608.18015)&rbrack;
+
 
 
 
