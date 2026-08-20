@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -733,9 +731,16 @@ The further re-formulation as the image of the [[terminal object]] under the [[p
 
 * {#Hoyois13} [[Marc Hoyois]], Def. 2.3 in: _Higher Galois theory_, Algebraic & Geometric Topology __17__ 1 (2017) 567-643 ([arxiv/1506.07155](https://arxiv.org/abs/1506.07155), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
 
+Survey:
+
+* [[Georg Lehner]]: *Shape Theory of $\infty$-Topoi: Inverse Limits, Products, and (Co)homology* &lbrack;[arXiv:2608.17525](https://arxiv.org/abs/2608.17525)&rbrack;
+
 See also
 
-* [[Ilan Barnea]], [[Yonatan Harpaz]], [[Geoffroy Horel]], Section 6 of: _Pro-categories in homotopy theory_, Algebraic & Geometric Topology 17 (2017) 567–643 ([arxiv:1507.01564](https://arxiv.org/abs/1507.01564), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567))
+* [[Ilan Barnea]], [[Yonatan Harpaz]], [[Geoffroy Horel]], Section 6 of: _Pro-categories in homotopy theory_, Algebraic & Geometric Topology **17** (2017) 567-'643 &lbrack;[arxiv:1507.01564](https://arxiv.org/abs/1507.01564), [doi:10.2140/agt.2017.17.567](https://doi.org/10.2140/agt.2017.17.567)&rbrack;
+
+
+
 
 
 [[!redirects shape of an (∞,1)-topos]]
