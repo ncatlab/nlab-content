@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -45,7 +43,12 @@ This convention matches/subsumes more-or-less common  terminology such as *[[cha
 
 ### General
 
-See also
+Lecture notes:
+
+* Bhasker Shukla: *Classical and Quantum Chaos from Foundations to Holography* &lbrack;[arXiv:2608.19131](https://arxiv.org/abs/2608.19131)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)_
 
