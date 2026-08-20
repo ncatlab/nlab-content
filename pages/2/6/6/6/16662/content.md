@@ -14,14 +14,12 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Idea
 
-**Formalism** is one of the classical schools of the [[philosophy of mathematics]]. Under this view, "mathematics is (better understood as) not a body of propositions representing an abstract sector of reality but is much more akin to a game, bringing with it no more commitment to an ontology of objects or properties than playing ludo or chess are normally thought to have".
+**Formalism** is one of the classical schools of the [[philosophy of mathematics]]. Under this view, "[[mathematics]] is (better understood as) not a body of [[propositions]] representing an abstract sector of reality but is much more akin to a game, bringing with it no more commitment to an [[ontology]] of objects or properties than playing ludo or chess are normally thought to have".
 
 Formalism focuses on [[deduction]] rather than [[internal]] mathematical objects such as [[number|numbers]], [[type|types]], [[set|sets]] ([[material set theory|material]] or [[structural set theory|structural]]), or [[category|categories]].
 
