@@ -142,7 +142,7 @@ $$
 over $\mathcal{C}$.
 In particular, if $\mathcal{C}$ is the $G$-$\infty$-category of coefficient systems in an [[∞-category]] $\mathcal{V}$ with its [[Cartesian G-symmetric monoidal ∞-category|Cartesian structure]], then there is an equivalence
 $$
-  \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{Fun}^{\times}(\mathrm{Span}(\mathbb{F}_G, \mathcal{V}).
+  \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{Fun}^{\times}(\mathrm{Span}(\mathbb{F}_G), \mathcal{V}).
 $$
 
 \end{theorem} 
@@ -176,7 +176,7 @@ $$
 $$
 
 Furthermore, we let $A^{\otimes^{\tau} p}  \in \mathrm{CAlg}(\mathrm{Sp}^{BC_p})$ be the [[E-infinity-ring
-|commutative ring spectrum]] with transpotiion $C_p$-action 
+|commutative ring spectrum]] with transposition $C_p$-action 
 
 $$
   \sigma(a_1 \otimes \cdots \otimes a_p) = a_p \otimes a_1 \otimes \cdots \otimes a_{p-1}.
