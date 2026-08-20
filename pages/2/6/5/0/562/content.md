@@ -507,7 +507,7 @@ On the [[2-category]] of fibrations and application to [[computer science]]:
 
 A [[2-comonad]] characterizing Grothendieck fibrations:
 
-* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
+* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[tac:40](http://www.tac.mta.ca/tac/volumes/40/13/40-13.pdf)&rbrack;
 
 On the connection between Grothendieck fibrations and [[factorisation systems]] (see also [[stable factorisation system]]):
 
