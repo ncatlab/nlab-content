@@ -17,5 +17,9 @@ On a unified perspective on various constructions of the [[group completion]] of
 
 * {#Lehner24} [[Georg Lehner]], *Group completion via the action $\infty$-category* &#x5B;[arXiv:2405.12118](https://arxiv.org/abs/2405.12118)]
 
+On the [[shape of an (infinity,1)-topos|shape of $\infty$-topoi]]:
+
+* [[Georg Lehner]]: *Shape Theory of $\infty$-Topoi: Inverse Limits, Products, and (Co)homology* &lbrack;[arXiv:2608.17525](https://arxiv.org/abs/2608.17525)&rbrack;
+
 
 category: people
