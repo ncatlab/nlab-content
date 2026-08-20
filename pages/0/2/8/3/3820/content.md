@@ -580,7 +580,7 @@ infinity. The motivation explicit pre-symplectic current formula appears from th
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
  
 
-* {#CrnkovićWitten87} [[Čedomir Crnković]], [[Edward Witten]], *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking and W. Israel (eds.) *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676-684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
+* {#CrnkovićWitten87} [[Čedomir Crnković]], [[Edward Witten]], *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking, W. Israel (eds.): *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676--684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
 
   (S)
 
