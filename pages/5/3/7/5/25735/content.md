@@ -11,7 +11,7 @@ On [[fibered category|fibrations]] of [[enriched groupoids]] as [[categorical se
 
 A [[2-comonad]] characterizing [[Grothendieck fibrations]]:
 
-* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
+* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]]: *A comonad for Grothendieck fibrations*, Theory and Applications of Categories **40** 13 (2024) 371--389 &lbrack;[tac:40-13](http://www.tac.mta.ca/tac/volumes/40/13/40-13abs.html), [arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
 
 On a candidate for a [[2-topos]] version of the [[effective topos]]: 
 
