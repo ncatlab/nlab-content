@@ -4,7 +4,10 @@ Schauenburg bialgebroid, also called Ehresmann-Schauenburg bialgebroid, is a non
 
 ## Definition
 
-It is an associative [[bialgebroid]] whose structure, given a Hopf-Galois extension, is described in Brzeziński-Wisbauer2003, 34.14. The description there is by first constructing an associated [[coring]], the [[Ehresmann coring]] (which is a more general construction, defined for any coalgebra-Galois extension which is faithfully flat as a left module over the base of the extension), and then making the bialgebroid from it. 
+It is an associative [[bialgebroid]] whose structure, given a faithfully flat $H$-Hopf-Galois extension $U\hookrightarrow E$, is described in Brzeziński-Wisbauer2003, 34.14. The description there is by first constructing an associated [[coring]], the [[Ehresmann coring]] $B= (E\otimes_k E)^{co H}$ (which is a more general construction, defined for any coalgebra-Galois extension which is faithfully flat as a left module over the base of the extension), and then noticing that 
+in this case $B$ is a subalgebra of $E\otimes_k E^{op}$
+and equipping it with source $s:U\to E$, $a\mapsto a\otimes 1$ and target $t:U\to E^{op}$, $a\mapsto 1\otimes a$.
+
 
 ## Literature
 
