@@ -266,6 +266,8 @@ See also
 ### Phase space and canonical quantization
  {#ReferencesPhaseSpaceAndCanonicalQuantization}
 
+
+
 On the [[phase space]], [[Poisson brackets]] and their [[canonical quantization]] for Yang-Mills theory:
 
 * Taichiro Kugo, Izumi Ojima, *Manifestly Covariant Canonical Formulation of the Yang-Mills Field Theories. I:  General Formalism*, Progress of Theoretical Physics **60** 6 (1978) 1869–1889 &lbrack;[doi:10.1143/PTP.60.1869](https://doi.org/10.1143/PTP.60.1869)&rbrack;
@@ -277,6 +279,10 @@ On the [[phase space]], [[Poisson brackets]] and their [[canonical quantization]
 * D. M. Gitman, S. L. Lyakhovich & I. V. Tyutin, *Canonical quantization of the Yang-Mills Lagrangian with higher derivatives*, Soviet Physics Journal **28** (1985) 554–556 &lbrack;[doi:10.1007/BF00896182](https://doi.org/10.1007/BF00896182)&rbrack;
 
 * [[Kurt Haller]]: *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
+
+
+* {#CrnkovićWitten87} [[Čedomir Crnković]], [[Edward Witten]]; §16.1 of: *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking, W. Israel (eds.): *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676--684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
+
 
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* &lbrack;[arXiv:hep-ph/9307319](https://arxiv.org/abs/hep-ph/9307319)&rbrack;
 
