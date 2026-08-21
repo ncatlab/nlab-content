@@ -22,4 +22,8 @@ On [[formal (infinity,1)-category theory]]:
 
 * [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Synthetic Category Theory*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
+On [[localization of (infinity,1)-categories|localization of $(\infty,1)$-categories]] and the [[relative Rezk nerve]]:
+
+* [[Kensuke Arakawa]], [[Bastiaan Cnossen]]: *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** 5 (2026) 1849--1853 &lbrack;[arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)&rbrack;
+
 category:people
