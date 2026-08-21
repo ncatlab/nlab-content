@@ -212,7 +212,7 @@ is a weak equivalence.
 ### Model category structure
  {#ModelCategoryStructure}
 
-The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex category]] ([[bisimplicial sets]]) supports a [[model category]] structure whose fibrant objects are precisely the complete Segal spaces: the _[[model structure for complete Segal spaces]]_. This presents the [[(∞,1)-category of (∞,1)-categories]].
+The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex category]] ([[bisimplicial sets]]) supports a [[model category]] structure whose fibrant objects are precisely the complete Segal spaces: the _[[model structure for complete Segal spaces]]_. This presents the [[(∞,1)-category of (∞,1)-categories]] associated to the [[relative Rezk nerve]].
 
 ### Relation to simplicial localization
  {#RelationToSimplicialLocalization}
@@ -500,6 +500,8 @@ Further discussion of the relation to [[simplicial localization]] is in
 * {#Bergner07} [[Julia Bergner]], _Complete Segal spaces arising from simplicial categories_ ([arXiv:0704.1624](http://arxiv.org/abs/0704.1624))
 
 * {#MazelGee19}[[Aaron Mazel-Gee]], _The universality of the Rezk nerve_, Algebr. Geom. Topol., 19(7), 2019, 3217--3260 ([arXiv:math/1510.03150](https://arxiv.org/abs/1510.03150), [doi:10.2140/agt.2019.19.3217](https://doi.org/10.2140/agt.2019.19.3217))
+
+* [[Kensuke Arakawa]], [[Bastiaan Cnossen]], *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** (2026), no. 5, 1849–1853 ([arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)).
 
 * {#Arakawa23}[[Kensuke Arakawa]], _Classification Diagrams of Marked Simplicial Sets_ ([arXiv:math/2311.01101](https://arxiv.org/abs/2311.01101)).
 
