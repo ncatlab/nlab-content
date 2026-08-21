@@ -10,11 +10,7 @@
 =--
 
 
-
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea {#Idea}
 
@@ -73,7 +69,7 @@ In other words: $L$ is a localization if it is the **reflector** of a [[reflecti
 
 +-- {: .un_rem}
 ###### Remark
-Reflective localizations are a special case of Dwyer--Kan localizations. This is  [kerodon, tag04JL](https://kerodon.net/tag/04JL).
+Reflective localizations are a special case of Dwyer--Kan localizations. This is  [Kerodon, tag04JL](https://kerodon.net/tag/04JL).
 =--
 
 ## Examples
@@ -93,12 +89,13 @@ Reflective localizations are a special case of Dwyer--Kan localizations. This is
 Reflective localization is the topic of 
 
 * [[Jacob Lurie]], §5.2.7 & §5.5.4 of: *[[Higher Topos Theory]]* (2009)
-* [[Jacob Lurie]], _Kerodon_,&lbrack;[Reflective Localizations, tag:02FY](https://kerodon.net/tag/02FY)&rbrack;
+* [[Jacob Lurie]], _Reflective localization_, Kerodon &lbrack;[tag:02FY](https://kerodon.net/tag/02FY)&rbrack;
 
-Dwyer--Kan localization (also called [[simplicial localizations]] or [[quasicategory of fractions]]) are treated in
+On Dwyer-Kan localization (also called *[[simplicial localization]]* or *[[quasicategory of fractions]]*):
 
 * [[Jacob Lurie]], _Kerodon_,&lbrack;[Localization, tag:01M4](https://kerodon.net/tag/01M4)&rbrack;
 * [[Markus Land]], Section 2.4 of _Introduction to Infinity-Categories_, Compact Textbooks in Mathematics,Birkh\"auser/Springer, Cham, (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://doi.org/10.1007/978-3-030-61524-6)&rbrack;
+
 * [[Jacob Lurie]], pp. 485 of: *[[Higher Algebra]]* (2017)
 
 With an eye towards [[modal homotopy type theory]]:
@@ -108,6 +105,10 @@ With an eye towards [[modal homotopy type theory]]:
 Via a [[calculus of fractions]] for [[quasi-categories]]:
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
+
+See also:
+
+* [[Kensuke Arakawa]], [[Bastiaan Cnossen]]: *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** 5 (2026) 1849--1853 &lbrack;[arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)&rbrack;
 
 
 [[!redirects localization of an (∞,1)-category]]
