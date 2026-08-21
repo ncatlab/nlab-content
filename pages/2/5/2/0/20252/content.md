@@ -11,6 +11,10 @@ On [[flavour anomalies]]:
 
 * [[Ben Allanach]], _$U(1)_{B_3-L_2}$ Explanation of the Neutral Current $B$−Anomalies_ ([arXiv:2009.02197](https://arxiv.org/abs/2009.02197))
 
+On [[naturalness]]:
+
+* [[Ben Allanach]]: *The Fundaments of Unity: $\mathcal{O}(1)$ Couplings in Quantum Field Theories* &lbrack;[arXiv:2606.12393](https://arxiv.org/abs/2606.12393)&rbrack;
+
 
 
 
