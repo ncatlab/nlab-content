@@ -9,7 +9,12 @@
 
 * [arXiv page](https://arxiv.org/a/arakawa_k_1.html)
 
+
 ## Selected writings
+
+On [[marked simplicial sets]]:
+
+* {#Arakawa23}[[Kensuke Arakawa]]: _Classification Diagrams of Marked Simplicial Sets_ &lbrack;[arXiv:math/2311.01101](https://arxiv.org/abs/2311.01101)&rbrack;
 
 On [[homotopy limits]] and [[homotopy colimits]] of [[chain complexes]] (cf. *[[model structure on chain complexes]]*):
 
@@ -19,9 +24,17 @@ Showing that [[monoidal relative categories]] model *[[monoidal (infinity,1)-cat
 
 * [[Kensuke Arakawa]]: _Monoidal Relative Categories Model Monoidal $\infty$-Categories_ &lbrack;[arXiv:2504.20606](https://arxiv.org/abs/2504.20606)&rbrack;
 
+
+
+On [[localization of (infinity,1)-categories|localization of $(\infty,1)$-categories]] and the [[relative Rezk nerve]]:
+
+* [[Kensuke Arakawa]], [[Bastiaan Cnossen]]: *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** 5 (2026) 1849--1853 &lbrack;[arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)&rbrack;
+
 Showing that [[relative operads]] model [[(infinity,1)-operads|$(\infty,1)$-operads]]:
 
 * {#ACP25} [[Kensuke Arakawa]], [[Victor Carmona]], [[Francesca Pratali]]: *Relative operads model $\infty$-operads* &lbrack;[arXiv:2512.16374](https://arxiv.org/abs/2512.16374)&rbrack;
+
+
 
 ## Related entries
 
