@@ -7,7 +7,7 @@ Given a $C$-[[coalgebra]]-[[Galois extension]] $U\hookrightarrow E$ of a $k$-[[a
 
 ## Definition
 
-A right __$C$-[[coalgebra]]-[(Galois extension))__ $U\hookrightarrow E$ is a $k$-[[associative algebra|algebra]] $E$ together with a right $C$-[[coaction]] $\rho:E\to E\otimes C$ where $U = \{ u\in E| \rho(u e) = (u\otimes 1)\rho(e),\forall e\in E\}$ is the [[subalgebra]] of [[coinvariants]] if the map
+A right __$C$-[[coalgebra]]-[[Galois extension]]__ $U\hookrightarrow E$ is a $k$-[[associative algebra|algebra]] $E$ together with a right $C$-[[coaction]] $\rho:E\to E\otimes C$ where $U = \{ u\in E| \rho(u e) = (u\otimes 1)\rho(e),\forall e\in E\}$ is the [[subalgebra]] of [[coinvariants]] if the map
 $$
 can : E\otimes_U E\to E\otimes C,\,\,\,\,\,\,e\otimes e'\mapsto (e\otimes 1)\rho(e')
 $$
