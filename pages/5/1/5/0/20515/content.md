@@ -42,6 +42,10 @@ On [[BV quantization]]:
 
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
+On [[reduced phase spaces]] and [[BV-BFV formalism]] with emphasis on the generality of [[manifolds with corners]]:
+
+* Aldo Riello, [[Michele Schiavina]]: *Phase spaces in field theory: Reduction vs. resolution* &lbrack;[arXiv:2509.24450](https://arxiv.org/abs/2509.24450)&rbrack;
+
 On [[perturbative algebraic quantum field theory]]:
 
 * [[Kasia Rejzner]], [[Michele Schiavina]]: *Perturbative algebraic quantum field theory with smoothened boundary* &lbrack;[arXiv:2607.13765](https://arxiv.org/abs/2607.13765)&rbrack;
