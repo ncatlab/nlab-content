@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -495,23 +493,25 @@ The relation to [[quasi-categories]] is discussed in
 * {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
 
-Further discussion of the relation to [[simplicial localization]] is in 
+Further discussion of the relation to [[simplicial localization]]: 
 
-* {#Bergner07} [[Julia Bergner]], _Complete Segal spaces arising from simplicial categories_ ([arXiv:0704.1624](http://arxiv.org/abs/0704.1624))
+* {#Bergner07} [[Julia Bergner]], _Complete Segal spaces arising from simplicial categories_ &lbrack;[arXiv:0704.1624](http://arxiv.org/abs/0704.1624)&rbrack;
 
-* {#MazelGee19}[[Aaron Mazel-Gee]], _The universality of the Rezk nerve_, Algebr. Geom. Topol., 19(7), 2019, 3217--3260 ([arXiv:math/1510.03150](https://arxiv.org/abs/1510.03150), [doi:10.2140/agt.2019.19.3217](https://doi.org/10.2140/agt.2019.19.3217))
+* {#MazelGee19}[[Aaron Mazel-Gee]], _The universality of the Rezk nerve_, Algebr. Geom. Topol. **19** 7 (2019) 3217--3260 &lbrack;[arXiv:math/1510.03150](https://arxiv.org/abs/1510.03150), [doi:10.2140/agt.2019.19.3217](https://doi.org/10.2140/agt.2019.19.3217)&rbrack;
 
-* [[Kensuke Arakawa]], [[Bastiaan Cnossen]], *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** (2026), no. 5, 1849–1853 ([arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)).
+* {#Arakawa23}[[Kensuke Arakawa]]: _Classification Diagrams of Marked Simplicial Sets_ &lbrack;[arXiv:math/2311.01101](https://arxiv.org/abs/2311.01101)&rbrack;
 
-* {#Arakawa23}[[Kensuke Arakawa]], _Classification Diagrams of Marked Simplicial Sets_ ([arXiv:math/2311.01101](https://arxiv.org/abs/2311.01101)).
+* [[Kensuke Arakawa]], [[Bastiaan Cnossen]]: *A short proof of the universality of the relative Rezk nerve*, Proc. Amer. Math. Soc. **154** 5 (2026) 1849--1853 &lbrack;[arXiv:2505.14123](https://arxiv.org/abs/2505.14123), [doi:10.1090/proc/17483](https://doi.org/10.1090/proc/17483)&rbrack;
 
-A survey of the definition and its relation to equivalent definitions is in section 4 of 
 
-* [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
 
-See also pages 29 to 31 of
+A survey of the definition and its relation to equivalent definitions: 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+* [[Julia Bergner]]; section 4 of: _A survey of $(\infty, 1)$-categories_ &lbrack;[arXiv:math.AT/0610239](http://arxiv.org/abs/math.AT/0610239)&rbrack;
+
+See also:
+
+* [[Jacob Lurie]]; p. 29--31 of: _[[On the Classification of Topological Field Theories]]_
 
 For literature on the variants and refinements see at _[[Theta space]]_ and _[[n-fold complete Segal space]]_.
 
