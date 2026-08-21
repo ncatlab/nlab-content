@@ -13,36 +13,41 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
+## Idea
 
-## Idea ##
-One of the central theorems in [[(∞,1)-category theory]] is the fully faithfulness of the Rezk nerve 
+One of the central theorems in [[(∞,1)-category theory]] is the [[fully faithful (infinity,1)-functor|fully faithfulness]] of the Rezk [[simplicial nerve|nerve]] 
 \[
 \begin{aligned}
-    \mathsf{Cat}_{(\infty,1)}&\to \mathsf{sAn},\\
- C&\mapsto ([n]\mapsto \operatorname{Map}([n]),C),
+  \mathsf{Cat}_{(\infty,1)}
+ & \longrightarrow \mathsf{sAn}
+ \\
+ C&\mapsto 
+ \Big([n]\mapsto \operatorname{Map}\big([n],C\big)\Big)
+  \mathrlap{\,,}
 \end{aligned}
 \]
-where $\mathsf{sAn}$ is the [[(∞,1)-category]] of simplicial [[animae]].
+where $\mathsf{sAn}$ denotes the [[(∞,1)-category]] of [[simplicial infinity-groupoid|simplicial]] [[animae]].
 
-The mapping anima $\operatorname{Map}([n]),C)$ is simply the subcategory of the functor [[(∞,1)-category]] $\operatorname{Fun}([n],C)$ consisting of [[equivalences]]. 
+The [[(infinity,1)-categorical hom-space|mapping anima]] $Map\big([n],C\big)$ is simply the [[full (infinity,1)-subcategory|full subcategory]] of the functor [[(infinity,1)-functor (infinity,1)-category|$(\infty,1)$-functor $(\infty,1)$-category]] $\operatorname{Fun}([n],C)$ consisting of [[equivalences]]. 
 
 The relative Rezk nerve replaces equivalences by maps in a prescribed [[wide subcategory]] $W\subset C$ and gives an alternative presentation of the [[localization of an (∞,1)-category]] of $C$. (See [below](#thm:MGloc))
 
-## Definition ##
-Let $C$ be an [[(∞,1)-category]] and $W\subset C$ be a wide sub [[(∞,1)-category]]. The *relative Rezk nerve* of $(C,W)$ is the simplicial anima $N^{\mathrm{rel}}(C,W)$ given by
+## Definition
+
+Let $C$ be an [[(∞,1)-category]] and $W\subset C$ be a wide sub [[(∞,1)-category]]. The *relative Rezk nerve* of $(C,W)$ is the [[simplicial infinity-groupoid|simplicial anima]] $N^{\mathrm{rel}}(C,W)$ given by
 \[
- [n] \mapsto |\operatorname{Fun}([n],C)\times_{C^{n+1}} W^{n+1}|,
+ [n] \mapsto \Big\vert\operatorname{Fun}\big([n],C\big)\times_{C^{n+1}} W^{n+1}\Big\vert,
 \]
-where $|-|:\mathsf{Cat}_{(\infty,1)}\to \mathsf{An}$ is the left adjoint to the inclusion. 
+where $|-|:\mathsf{Cat}_{(\infty,1)}\to \mathsf{An}$ is the [[left adjoint]] to the inclusion. 
 
-Relative Rezk nerve was introduced by Rezk in [Rezk01, Section 3](#Rezk01) under the name *classification diagram*.
+The relative Rezk nerve was introduced by [Rezk 2001, Section 3](#Rezk01) under the name *classification diagram*.
 
-## Properties ##
-One of the fundamental property of relative Rezk nerve is that its associated [[(∞,1)-category]] computes [[localization of an (∞,1)-category]]:
+## Properties
+
+One of the fundamental properties of the relative Rezk nerve is that its associated [[(∞,1)-category]] computes [[localization of an (∞,1)-category]]:
+
 \begin{theorem} 
 \label{thm:MGloc}
 For every [[(∞,1)-category]] $C$ and every [[wide subcategory]] $W\subset C$, we have
@@ -51,14 +56,17 @@ For every [[(∞,1)-category]] $C$ and every [[wide subcategory]] $W\subset C$, 
 \]
 where $\mathrm{ac}\colon \mathsf{sAn}\to \mathsf{Cat}_{(\infty,1)}$ denotes the left adjoint to the Rezk nerve (computing *associated ($\infty$,1)-category*).
 \end{theorem}
+
 This was first established by Mazel-Gee in [MG19](#MG19). Shorter proofs are in [Ara23](#Ara23) and [AC25](#AC25). In special cases, Rezk proved a version of this theorem when $(C,W)$ is part of a simplicial model category in [Rez01, Theorem 8.3](#Rez01); Bergner proved this for model categories in [Ber09, Theorem0.2](#Ber09).
 
 Another fundamental property of the relative Rezk nerve is that its [[Segalification]] admits an explicit presentation:
+
 \begin{theorem} 
 The [[Segalification]] of $N^{\mathrm{rel}}(C,W)$ can be described in terms of zig-zags in $C$ in which one is allowed to go backward only via maps in $W$.
 
-The mapping animae of the Segalification agrees (or generalizes) with the one appearing in [[hammock localization]]. ([AC26, Theorems A and B](#AC26))
+The mapping animae of the Segalification agrees (or generalizes) with the one appearing in [[hammock localization]]. 
 \end{theorem}
+([AC26, Theorems A and B](#AC26))
 
 
 ## Related concepts
