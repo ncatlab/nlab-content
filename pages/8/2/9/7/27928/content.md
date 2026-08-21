@@ -482,6 +482,13 @@ In the context of minimal [[D=5 supergravity]]:
 
   see equation (0.1) in: Corrigendum: Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
 
+And more generally in [[Einstein-Maxwell theory|Einstein-Maxwell]]-[[abelian Chern-Simons theory|Chern-Simons theory]] in $D \geq 5$:
+
+* Tomas Liko, Ivan Booth: *Supersymmetric isolated horizons*, Classical and Quantum Gravity **25** 10 (2008) &lbrack;[doi:10.1088/0264-9381/25/10/105020](https://doi.org/10.1088/0264-9381/25/10/105020), [arXiv:0712.3308 gr-cq](https://arxiv.org/abs/0712.3308)&rbrack;
+
+* Geoffrey Compère; section I 2.4 in: *Symmetries and conservation laws in Lagrangian gauge theories with applications to the mechanics of black holes and to gravity in three dimensions* &lbrack;[arXiv:0708.3153](https://arxiv.org/abs/0708.3153)&rbrack;
+
+
 Concerning the [[coupling constant]]:
 
 * [[Xavier Bekaert]], Andres Gomberoff: *Quantization of the Chern-Simons Coupling Constant*, JHEP 0301 (2003) 054 \[<a href="https://doi.org/10.1088/1126-6708/2003/01/054">doi:10.1088/1126-6708/2003/01/054</a>, [arXiv:hep-th/0212099](https://arxiv.org/abs/hep-th/0212099)\]
