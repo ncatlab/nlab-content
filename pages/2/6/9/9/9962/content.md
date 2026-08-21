@@ -15,9 +15,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -123,7 +121,7 @@ An attempt to make the notion precise is due to
 
 
 
-Critical comments are in
+Critical comments:
 
 * {#Wilson04} [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
 
@@ -140,10 +138,12 @@ Critical comments are in
 * Goran Senjanovic, _Natural Philosophy versus Philosophy of Naturalness_ ([arXiv:2001.10988](https://arxiv.org/abs/2001.10988))
 
 * {#Mooij-Shaposhnikov} [[Sander Mooij]], [[Mikhail Shaposhnikov]], _QFT without infinities and hierarchy problem_ &lbrack;[arXiv:2110.05175](https://arxiv.org/abs/2110.05175)&rbrack;
-
   > The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion.
 
-See also
+* [[Ben Allanach]]: *The Fundaments of Unity: $\mathcal{O}(1)$ Couplings in Quantum Field Theories* &lbrack;[arXiv:2606.12393](https://arxiv.org/abs/2606.12393)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Naturalness (physics)](http://en.wikipedia.org/wiki/Naturalness_%28physics%29)_ 
 
