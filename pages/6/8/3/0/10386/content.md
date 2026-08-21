@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -96,14 +94,21 @@ and other examples discussed at _[[local prequantum field theory]]_.
 
 ## References
 
-Textbook account:
+> See also the references at _[[quantization commutes with reduction]]_.
 
+Textbook account:
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], §2.2.3 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
+Survey:
+
+* Aldo Riello, [[Michele Schiavina]]: *Phase spaces in field theory: Reduction vs. resolution* &lbrack;[arXiv:2509.24450](https://arxiv.org/abs/2509.24450)&rbrack;
+  > (emphasis on the generality of [[manifolds with corners]] via [[BV-BFV formalism]])
 
 
-See also the references at _[[quantization commutes with reduction]]_.
+
+
+
 
 [[!redirects reduced phase spaces]]
 
