@@ -132,8 +132,7 @@ Similar material can also be found in
 
 Discussion in [[homotopy type theory]]/[[univalent foundations]] (see also [[mathematics presented in HoTT]]):
 
-* {#Swan20} [[Andrew Swan]], _On the Nielsen-Schreier Theorem in Homotopy Type Theory_ ([arXiv:2010.01187](https://arxiv.org/abs/2010.01187))
-
+* {#Swan20} [[Andrew Swan]], _On the Nielsen-Schreier Theorem in Homotopy Type Theory_, Logical Methods in Computer Science **18** 1 (2022) 18:1--18:15 &lbrack;[arXiv:2010.01187](https://arxiv.org/abs/2010.01187), [doi:10.46298/lmcs-18(1:18)2022](https://doi.org/10.46298/lmcs-18%281:18%292022)&rbrack;
 
 [[!redirects Nielsen's theorem]]
 [[!redirects Nielsen theorem]]
