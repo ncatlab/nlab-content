@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -464,6 +462,9 @@ On higher dimensional non-abelian Chern-Simons theory:
 * G Giachetta, L Mangiarotti, G Sardanashvily, _Noether conservation laws in higher-dimensional Chern-Simons theory_ Modern Physics Letters A Volume 18(2003) ([pdf](http://gnsardan.appfarm.ru/a84.pdf))
 
 * Danhua Song, Mengyao Wu, Ke Wu, Jie Yang, *Higher Chern-Simons based on (2-)crossed modules*, JHEP **2023** 207 (2023) &lbrack;[arXiv:2212.04667](https://arxiv.org/abs/2212.04667), <a href="https://link.springer.com/article/10.1007/JHEP07(2023)207">doi:10.1007/JHEP07(2023)207</a>&rbrack;
+
+* Danhua Song, Yibo Wang: *Higher Chern--Simons Theory in $2n+2$ Dimensions for Balanced 2-term $L_\infty$-Algebras* &lbrack;[arXiv:2608.19539](https://arxiv.org/abs/2608.19539)&rbrack;
+
 
 
 ### Formulation in differential cohomology
