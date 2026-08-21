@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -35,5 +33,12 @@ A **Lie 2-groupoid** is a 2-[[truncated]] [[∞-Lie groupoid]].
 * [[higher differential geometry]]
 
   * [[smooth infinity-groupoid]]
+
+## Literatur
+
+* M. Jotz, L. Mußmächer: *Three explicit examples of Lie 2-groupoids* &lbrack;[arXiv:2608.17811](https://arxiv.org/abs/2608.17811)&rbrack;
+
+
+
 
 [[!redirects Lie 2-groupoids]]
