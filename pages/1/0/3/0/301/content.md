@@ -21,18 +21,39 @@
 
 More generally, a __truth value__ in a [[topos]] $T$ is a morphism $1 \to \Omega$ (where $1$ is the [[terminal object]] and $\Omega$ is the [[subobject classifier]]) in $T$.  By definition of $\Omega$, this is equivalent to an (equivalence class of) monomorphisms $U\hookrightarrow 1$.  In a [[two-valued topos]], it is again true that every truth value is either $\top$ or $\bottom$, while in a [[Boolean topos]] this is true in the [[internal logic]].
 
+A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1)-groupoid|groupoid]]. It is also the best interpretation of the term '$(-1)$-[[(-1)-category|category]]', although this doesn\'t fit all the patterns of the [[periodic table]].
+
+## Set of truth values
+
 Truth values form a [[partial order|poset]] (the __poset of truth values__) by declaring that $p$ precedes $q$ iff the [[conditional]] $p \to q$ is true.  In a topos $T$, $p$ precedes $q$ if the corresponding subobject $P\hookrightarrow 1$ is contained in $Q\hookrightarrow 1$.  Classically (or in a two-valued topos), one can write this poset as $\{\bot \to \top\}$.
 
 The poset of truth values is a [[Heyting algebra]]. Classically (or internal to a Boolean topos), this poset is even a [[Boolean algebra]]. It is also a [[complete lattice]]; in fact, it can be characterised as the [[initial object|initial]] complete lattice. As a complete Heyting algebra, it is a [[frame]], corresponding to the one-point [[locale]].
 
 When the set of truth values is equipped with the [[Scott topology]] (equivalently the [[specialization topology]] classically), the result is [[Sierpinski space]].
 
-A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1)-groupoid|groupoid]]. It is also the best interpretation of the term '$(-1)$-[[(-1)-category|category]]', although this doesn\'t fit all the patterns of the [[periodic table]].
-
 Equality in the [[set of truth values]] is given by the truth of the [[biconditional]] that $P$ [[if and only if]] $Q$, $(P = Q) \iff (P \iff Q = \top)$. Meanwhile there are two notions of [[inequality]] in [[constructive mathematics]], a weak notion given by the negation of equality or falsehood of the biconditional, and a strong notion given by the truth of the [[exclusive disjunction]] of $P$ and $Q$, 
 $$(P \neq Q) \iff (P \iff Q = \bot)$$
 $$(P \# Q) \iff ((P \wedge \neg Q) \vee (Q \wedge \neg P) = \top)$$
 These notions coincide in [[classical mathematics]] by way of [[excluded middle]]. 
+
+In type theory, the set of truth values is typically called the [[type of propositions]]. 
+
+### In predicative constructive mathematics
+
+In [[predicative mathematics|predicative]] [[constructive mathematics]], one doesn't have a single set of truth values, but sometimes rather an infinite hierarchy of sets of truth values indexed by the [[natural numbers]]: 
+
+$$\Omega_0 \subseteq \Omega_1 \subseteq \Omega_2 \subseteq \ldots$$
+
+There is a notion of truth values being $\Omega_n$-[[small]], similarly to how in some foundations, sets can be [[small]] relative to a [[universe of sets]]. Usually, there are requirements or one can prove that 
+
+1. truth values have to be $\Omega_n$-small for some natural number $n$, 
+2. each $\Omega_n$ be a [[Heyting algebra]] and closed under some infinitary meets and joins (although not all infinitary meets and joins, since that would result in the hierarchy collapsing); more specifically, the sets $S$, for which $\Omega_n$ has $S$-indexed meets and joins, form a [[Pi-pretopos|$\Pi$-pretopos]] with [[NNO]], 
+3. $\Omega_{n + 1}$ has $\Omega_n$-indexed meets and joins
+4. given a set $S$, if $\Omega_n$ is closed under $S$-indexed meets and joins, then $\Omega_i$ is also closed under $S$-indexed meets and joins for all $i \gt n$. 
+
+A set $S$ is locally $\Omega_n$-small if its [[equality]] and [[inequality]] predicates are $\Omega_n$-[[small]]. 
+
+This results in definitions of certain mathematical structures, like [[power sets]], [[Dedekind real numbers]], [[filters]], [[topological spaces]], [[frames]] and [[complete lattices]], etc, to be parameterized by the levels of the hierarchy of sets of truth values. The structures defined relative to different levels cannot be proven to be equivalent to each other in the absence of some other axiom, such as [[propositional resizing]] or [[excluded middle]], which collapses the entire hierarchy into a single set of truth values, or in the case of the [[Dedekind real numbers]], [[countable choice]], which makes all the sets of Dedekind real numbers coincide with the [[Cauchy real numbers]]. 
 
 ## Related concepts
 
@@ -70,5 +91,19 @@ These notions coincide in [[classical mathematics]] by way of [[excluded middle]
 [[!redirects sigma-frame of propositions]]
 [[!redirects frame of propositions]]
 [[!redirects algebra of propositions]]
+
+[[!redirects hierarchy of sets of truth values]]
+[[!redirects hierarchy of prosets of truth values]]
+[[!redirects hierarchy of posets of truth values]]
+[[!redirects hierarchy of lattices of truth values]]
+[[!redirects hierarchy of sigma-frames of truth values]]
+[[!redirects hierarchy of algebras of truth values]]
+
+[[!redirects hierarchy of sets of propositions]]
+[[!redirects hierarchy of prosets of propositions]]
+[[!redirects hierarchy of posets of propositions]]
+[[!redirects hierarchy of lattices of propositions]]
+[[!redirects hierarchy of sigma-frames of propositions]]
+[[!redirects hierarchy of algebras of propositions]]
 
 category: logic
