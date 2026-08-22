@@ -40,7 +40,7 @@ In type theory, the set of truth values is typically called the [[type of propos
 
 ### In predicative constructive mathematics
 
-In [[predicative mathematics|predicative]] [[constructive mathematics]], one doesn't have a single set of all truth values. However, sometimes an infinite hierarchy of sets of truth values indexed by the [[natural numbers]]: 
+In [[predicative mathematics|predicative]] [[constructive mathematics]], one doesn't have a single set of all truth values. Instead, sometimes one has an infinite hierarchy of sets of truth values indexed by the [[natural numbers]]: 
 
 $$\Omega_0 \subseteq \Omega_1 \subseteq \Omega_2 \subseteq \ldots$$
 
@@ -53,7 +53,7 @@ There is a notion of truth values being $\Omega_n$-[[small]], similarly to how i
 
 A set $S$ is locally $\Omega_n$-small if its [[equality]] and [[inequality]] predicates are $\Omega_n$-[[small]]. 
 
-This results in definitions of certain mathematical structures, like [[power sets]], [[Dedekind real numbers]], [[filters]], [[topological spaces]], [[frames]] and [[complete lattices]], etc, to be parameterized by the levels of the hierarchy of sets of truth values. The structures defined relative to different levels cannot be proven to be equivalent to each other in the absence of some other axiom, such as [[propositional resizing]] or [[excluded middle]], which collapses the entire hierarchy into a single set of truth values, or in the case of the [[Dedekind real numbers]], [[countable choice]], which makes all the sets of Dedekind real numbers coincide with the [[Cauchy real numbers]]. 
+This results in definitions of certain mathematical structures, like [[power sets]], [[Dedekind real numbers]], [[filters]], [[topological spaces]], [[frames]] and [[complete lattices]], etc, to be parameterized by the levels of the hierarchy of sets of truth values. The structures defined relative to different levels cannot be proven to be equivalent to each other in the absence of some other axiom, such as [[propositional resizing]] or [[excluded middle]], which collapses the entire hierarchy into a single set of truth values. In the case of the [[Dedekind real numbers]], there is also [[countable choice]], which makes all the sets of Dedekind real numbers coincide with the [[Cauchy real numbers]]. 
 
 ## Related concepts
 
