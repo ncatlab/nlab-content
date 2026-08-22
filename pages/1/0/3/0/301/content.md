@@ -40,16 +40,16 @@ In type theory, the set of truth values is typically called the [[type of propos
 
 ### In predicative constructive mathematics
 
-In [[predicative mathematics|predicative]] [[constructive mathematics]], one doesn't have a single set of truth values, but sometimes rather an infinite hierarchy of sets of truth values indexed by the [[natural numbers]]: 
+In [[predicative mathematics|predicative]] [[constructive mathematics]], one doesn't have a single set of all truth values. However, sometimes an infinite hierarchy of sets of truth values indexed by the [[natural numbers]]: 
 
 $$\Omega_0 \subseteq \Omega_1 \subseteq \Omega_2 \subseteq \ldots$$
 
 There is a notion of truth values being $\Omega_n$-[[small]], similarly to how in some foundations, sets can be [[small]] relative to a [[universe of sets]]. Usually, there are requirements or one can prove that 
 
 1. truth values have to be $\Omega_n$-small for some natural number $n$, 
-2. each $\Omega_n$ be a [[Heyting algebra]] and closed under some infinitary meets and joins (although not all infinitary meets and joins, since that would result in the hierarchy collapsing); more specifically, the sets $S$, for which $\Omega_n$ has $S$-indexed meets and joins, form a [[Pi-pretopos|$\Pi$-pretopos]] with [[NNO]], 
+2. each $\Omega_n$ be a [[Heyting algebra]] with some infinitary meets and joins (although not all infinitary meets and joins, since that would result in the hierarchy collapsing); more specifically, the sets $S$, for which $\Omega_n$ has $S$-indexed meets and joins, form a [[Pi-pretopos|$\Pi$-pretopos]] with [[NNO]], 
 3. $\Omega_{n + 1}$ has $\Omega_n$-indexed meets and joins
-4. given a set $S$, if $\Omega_n$ is closed under $S$-indexed meets and joins, then $\Omega_i$ is also closed under $S$-indexed meets and joins for all $i \gt n$. 
+4. given a set $S$, if $\Omega_n$ has $S$-indexed meets and joins, then $\Omega_i$ also has $S$-indexed meets and joins for all $i \gt n$. 
 
 A set $S$ is locally $\Omega_n$-small if its [[equality]] and [[inequality]] predicates are $\Omega_n$-[[small]]. 
 
