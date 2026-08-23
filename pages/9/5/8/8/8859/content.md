@@ -1,5 +1,5 @@
 
-Andrée Charles Ehresmann (née Bastiani) is a [[category theory|category theorist]]. She is editor in chief of the journal *[[Cahiers de Topologie et Géométrie Différentielle Catégoriques]]*, founded by her late husband [[Charles Ehresmann]]. 
+Andrée Charles Ehresmann (née Bastiani, 1935--2026) was a [[category theory|category theorist]]. She was editor in chief of the journal *[[Cahiers de Topologie et Géométrie Différentielle Catégoriques]]*, founded by her late husband [[Charles Ehresmann]]. 
 
 Andrée Ehresmann's early papers were published under her maiden name Andrée Bastiani, and during a transition period under the hyphenated surname Bastiani-Ehresmann.
 
@@ -12,6 +12,10 @@ Andrée Ehresmann's early papers were published under her maiden name Andrée Ba
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=290216)
 
 * [ResearchGate page](https://www.researchgate.net/profile/Andree-Ehresmann)
+
+* [[René Guitart]]: *Invitation aux œuvres d'Andrée Ehresmann*, talk at *[Séminaire Itinérant de Catégories](https://www-lmpa.univ-littoral.fr/~sic/wordpress/)* (Sep 2025) &lbrack;[pdf](https://www-lmpa.univ-littoral.fr/~sic/Louvain2025/Guitart.pdf), [[GuitartOnAEhresmann.pdf|pdf:file]]&rbrack;
+
+* [[Andrée Ehresmann]]: *Intervention au Séminaire Itinérant de Catégories*, talk at *[Séminaire Itinérant de Catégories](https://www-lmpa.univ-littoral.fr/~sic/wordpress/)* (Sep 2025) &lbrack;[pdf](https://www-lmpa.univ-littoral.fr/~sic/Louvain2025/Ehresmann.pdf), [[EhresmannIntervention.pdf|pdf:file]]&rbrack;
 
 
 ## Selected writings
