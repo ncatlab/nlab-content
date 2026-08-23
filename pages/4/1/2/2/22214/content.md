@@ -16,9 +16,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -170,10 +169,17 @@ reviewed in:
 
 * [[Yang-Hui He]], *Machine-Learning Mathematical Structures*, talk at *[M-Theory and Mathematics 2023](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#He2023)&rbrack;
 
-
 To the [[conformal bootstrap]]:
 
 * Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving conformal field theories with artificial intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
+
+To autoformalization (translating natural language to [[proof assistants]]):
+
+* Yuhuai Wu, Albert Q. Jiang, Wenda Li, Markus N. Rabe, Charles Staats, Mateja Jamnik, Christian Szegedy: *Autoformalization with Large Language Models* &lbrack;[arXiv:2205.12615](https://arxiv.org/abs/2205.12615)&rbrack;
+
+* Ke Weng, Lun Du, Sirui Li, Wangyue Lu, Haozhe Sun, Hengyu Liu, Tiancheng Zhang: *Autoformalization in the Era of Large Language Models: A Survey* &lbrack;[arXiv:2505.23486](https://arxiv.org/abs/2505.23486)&rbrack;
+
+
 
 (...)
 
@@ -196,6 +202,8 @@ To the [[conformal bootstrap]]:
 [[!redirects quantum machine learning]]
 
 [[!redirects artificial intelligence]]
+[[!redirects AI]]
+
 
 category: applications, probability
 
