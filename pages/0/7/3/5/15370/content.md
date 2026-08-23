@@ -14,9 +14,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -32,13 +30,13 @@ The [[Berkovich spectrum]] of a normed ring $R$ is the set of multiplicative [[s
 +-- {: .num_defn #NormedCommutativeRing}
 ###### Definition
 
-A _normed commutative ring_ is a [[commutative ring]] $R$ equipped with a [[function]]
+A _normed commutative ring_ is a [[ring]] $R$ equipped with a [[function]]
 
 $$
   {\vert -\vert} \;\colon\; R \longrightarrow \mathbb{R}_{\geq 0}
 $$
 
-to the non-negative [[real numbers]] such that for all $f,g \in R$
+to the non-[[negative real number|negative]] [[real numbers]], such that for all $f,g \in R$:
 
 1. ${\vert f \vert} = 0$ precisely if $f = 0$;
 
@@ -50,13 +48,13 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 =--
 
-(e.g [Ozaki, Kashiwagi & Tsuboi 1953](#OzakiKashiwagiTsuboi53))
+(cf. [Ozaki, Kashiwagi & Tsuboi 1953](#OzakiKashiwagiTsuboi53))
 
 
 +-- {: .num_remark}
 ###### Remark
 
-One might also define a normed ring to be a [[commutative monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] group homomorphisms and the [[projective cross norm]] is used on the tensor product, then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
+One may also define a normed ring to be a [[monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] [[group homomorphisms]] and the [[projective cross norm]] is used on the [[tensor product]], then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
 to 
 
 * there is $C \in \mathbb{R}_{\gt 0}$ such that for all $f,g \in R$
@@ -65,28 +63,38 @@ to
     {\vert f \cdot g\vert} \leq C \cdot {\vert f \vert\cdot {\vert g \vert}}
   $$
 
-see e.g. ([Bassat-Kremnitzer 13, remark 6.32](#BassatKremnitzer13))
+(cf. [Bassat & Kremnitzer 2013, remark 6.32](#BassatKremnitzer13))
+
 =--
 
 
 ## Examples
 
+\begin{example}
 A [[normed field]] is of course in particular a [[normed ring]].
+\end{example}
 
 +-- {: .num_example #MatrixRing}
 ###### Example
 
-For $R$ a normed commutative ring, then for each $n \in \mathbb{N}$ the [[matrix algebra]] $Mat_n(R)$ becomes a normed ring with norm
+For $R$ a normed [[commutative ring]], then for each $n \in \mathbb{N}$ the [[matrix algebra]] $Mat_n(R)$ becomes a normed ring with norm
 
-$$
- {\vert A\vert} \coloneqq max_{1 \leq i,j \leq n}({\vert A_{i,j}\vert})
- \,.
+$${\vert A\vert} \coloneqq \sum_{i,j=1}^n {\vert A_{i,j}\vert} \,.
 $$
 
-Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute value]]) that on $Mat_n(R)$ is not in general. If $R$ is a [[Banach ring]], then so is $Mat_n(R)$.
+
+Alternatively, if $R$ is strictly a non-Archimedean normed ring, the max norm ${\vert A\vert} \coloneqq \max_{1 \leq i,j \leq n}({\vert A_{i,j}\vert})$ is also submultiplicative.
+
+
+Notice that:
+
+* even if the norm on $R$ is multiplicative (is an [[absolute value]]), the induced norm on $Mat_n(R)$ is not in general multiplicative; 
+
+* if $R$ is a [[Banach ring]], then so is $Mat_n(R)$.
+
 =--
 
-(e.g. [Jarden 11](#Jarden11)).
+(cf. [Jarden 2011](#Jarden11)).
 
 
 ## Related concepts
