@@ -1,6 +1,5 @@
-[[!redirects Vincent Schlegel]]
 
-> (formerly V. Schlegel)
+Vincent Sebastian Braunack-Mayer (formerly V. S. Schlegel)
 
 * [webpage](http://www.math.uzh.ch/index.php?assistenten&key1=9218)
 
@@ -67,7 +66,7 @@ On [[rational parameterized stable homotopy theory]] applied to the mathematical
   [arXiv:1903.02862](https://arxiv.org/abs/1903.02862)
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[tangent (∞,1)-topos]], [[parametrized homotopy theory]]
 
@@ -76,3 +75,5 @@ On [[rational parameterized stable homotopy theory]] applied to the mathematical
 * [[twisted differential cohomology]]
 
 category: people
+
+[[!redirects Vincent Schlegel]]
