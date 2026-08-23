@@ -5,7 +5,7 @@
 
 Explicit [[Čech cohomology]]-construction of the [[first Pontrjagin class]]:
 
-* [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *A Geometric Construction of the First Pontryagin Class*, in: *Quantum Topology*, Series on Knots and Everything **3**, World Scientific (1993) 209--220 \[<a href="https://doi.org/10.1142/9789812796387_0012">doi:10.1142/9789812796387_0012</a>\]
+* [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *A Geometric Construction of the First Pontryagin Class*, in: *Quantum Topology*, Series on Knots and Everything **3**, World Scientific (1993) 209--220 \[<a href="https://doi.org/10.1142/9789812796387_0012">doi:10.1142/9789812796387_0012</a>, [pdf](https://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf)\]
 
 and more generally of [[characteristic classes]]:
 
