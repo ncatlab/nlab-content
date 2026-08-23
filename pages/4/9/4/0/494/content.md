@@ -30,7 +30,7 @@ $$
     \;\colon\; 
   \mathcal{D} \underoverset{R}{L}{\leftrightarrows} \mathcal{C}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
-    \text{means}
+    \text{ means }
   \;\;\;\;\;\;\;\;\;\;\;\;\;
   \mathcal{D}\bigl(L(-),\,-\bigr)
   \;\simeq\;
