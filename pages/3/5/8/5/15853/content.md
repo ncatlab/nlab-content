@@ -1,5 +1,5 @@
 
-**Ren&#233; Guitart** (born 1947) is a French category theorist. A former student of [[Charles Ehresmann]] his work revolves around the theory of [[sketch|sketches]] and develops a broad philosophical perspective on mathematics with influences from semiotics and Lacanian psychonalysis and on the dialectics between logic and algebra on one side and topology and geometry on the other side.
+**Ren&#233; Guitart** (1947--) is a French [[category theory|category theorist]]. A former student of [[Charles Ehresmann]] his work revolves around the theory of [[sketch|sketches]] and develops a broad philosophical perspective on mathematics with influences from semiotics and Lacanian psychonalysis and on the dialectics between [[logic]] and [[algebra]] on one side and [[topology]] and [[geometry]] on the other side.
 
 * [homepage](https://web.archive.org/web/20231003032438/http://rene.guitart.pagesperso-orange.fr/)
 
@@ -11,8 +11,11 @@
 
 On [[free strict cocompletion]]:
 
-
 * {#BPG2021} Erwan Beurier, Dominique Pastor, [[René Guitart]] _Presentations of clusters and strict free-cocompletions_, [[Theory and Applications of Categories]] **36** 17 (2021) 492-513 &lbrack;[tac:36-17](http://www.tac.mta.ca/tac/volumes/36/17/36-17abs.html)&rbrack;
+
+On [[Andrée Ehresmann]]:
+
+* [[René Guitart]]: *Invitation aux œuvres d'Andrée Ehresmann*, talk at *[Séminaire Itinérant de Catégories](https://www-lmpa.univ-littoral.fr/~sic/wordpress/)* (Sep 2025) &lbrack;[pdf](https://www-lmpa.univ-littoral.fr/~sic/Louvain2025/Guitart.pdf), [[GuitartOnAEhresmann.pdf|pdf:file]]&rbrack;
 
 
 ## Related entries
