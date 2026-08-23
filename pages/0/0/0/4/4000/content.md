@@ -18,9 +18,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -696,13 +694,14 @@ The CS 3-bundle 3-connection is the [[extended Lagrangian]] for ordinary $G$-[[C
 
 As cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] the Chern-Simons 2-gerbe has been constructed explicitly in 
 
-* {#GeomConstructionFirst} [[Jean-Luc Brylinski]] and Dennis McLaughlin, _A geometric construction of the first Pontryagin class_ (1993) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf))
+* {#GeomConstructionFirst} [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *A Geometric Construction of the First Pontryagin Class*, in: *Quantum Topology*, Series on Knots and Everything **3**, World Scientific (1993) 209--220 \[<a href="https://doi.org/10.1142/9789812796387_0012">doi:10.1142/9789812796387_0012</a>, [pdf](https://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf)\]
 
 
 as a special case of the general construction in 
 
-* [[Jean-Luc Brylinski]] and Dennis McLaughlin, _Cech cocycles for characteristic classes_ ,  Communications in Mathematical Phiysics, Volume 178, Number 1, ([Springer](http://www.springerlink.com/content/762g1m76jp6425x5/))
-{#CechCocyclesForCharClasses}
+* {#CechCocyclesForCharClasses} [[Jean-Luc Brylinski]], [[Dennis McLaughlin]]: *Čech cocycles for characteristic classes*, Commun. Math. Phys. **178** (1996) 225--236 \[<a href="https://doi.org/10.1007/BF02104916">doi:10.1007/BF02104916</a>, [euclid:cmp/1104286562](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-178/issue-1/%c4%8cech-cocycles-for-characteristic-classes/cmp/1104286562.full)\]
+
+
 
 #### The 2-gerbe realization {#2GerbeReferences}
 
