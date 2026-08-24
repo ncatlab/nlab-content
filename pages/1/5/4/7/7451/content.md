@@ -40,7 +40,7 @@ $$
 
 in a [[category]] with [[finite limits]] is called a **quasi-pullback** if the canonical morphism $q\to a\times_c b$ to the [[fiber product]]  (induced by its [[universal property]]) is an [[epimorphism]].
 
-Spcifically, the object $q$ is then called a **quasi-pullback** of the span $b\to c\leftarrow a$.
+Specifically, the object $q$ is then called a **quasi-pullback** of the span $b\to c\leftarrow a$.
 
 =--
 
