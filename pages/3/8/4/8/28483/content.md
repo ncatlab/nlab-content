@@ -52,9 +52,9 @@ $$\mathrm{isQuasiDecidable}(P) \coloneqq \exists p \in \Sigma.P \iff p = \top$$
 
 The set of quasidecidable truth values $\Sigma$ sits in a hierarchy of subsets of the set of truth values:
 
-$$\mathbb{2} \subseteq \Sigma^0_1 \subseteq \Sigma \subseteq \Omega$$
+$$\mathbb{2} \subseteq \Sigma_\mathrm{semi} \subseteq \Sigma \subseteq \Omega$$
 
-where $\mathbb{2}$ is the [[boolean domain]], $\Sigma^0_1$ is the set of [[semi-decidable truth values]] of the usual notion, and $\Omega$ is the set of all truth values.
+where $\mathbb{2}$ is the [[boolean domain]], $\Sigma_\mathrm{semi}$ is the set of [[semi-decidable truth values]] of the usual notion, and $\Omega$ is the set of all truth values.
 
 ## Constructive taboos
 
