@@ -18,6 +18,10 @@ On the theory of [[computation]] and introducing the notion of [[denotational se
 
 * {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, [[Michael W. Mislove]], [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
 
+On models of the [[lambda calculus]], [[cartesian closed category|cartesian closed categories]], and idempotent splitting:
+
+* {#Scott80} [[Dana S. Scott]], *Relating theories of the lambda calculus*, in: *To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism*, Academic Press (1980) 403–450 &lbrack;[[Scott-RelatingTheories.pdf:file]]&rbrack;
+
 On [[modal logic]]:
 
 * [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
