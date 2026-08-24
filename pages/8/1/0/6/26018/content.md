@@ -62,6 +62,9 @@ See also:
 
 * Devon Stockall: *Large condensation in enriched $\infty$-categories* &lbrack;[arXiv:2506.23632](https://arxiv.org/abs/2506.23632)&rbrack;
 
+* Matthew Cellot: *Graded-fusion 2-categories and quantum homotopy invariants of 4-manifolds* &lbrack;[arXiv:2608.20959](https://arxiv.org/abs/2608.20959)&rbrack;
+
+
 
 
 
