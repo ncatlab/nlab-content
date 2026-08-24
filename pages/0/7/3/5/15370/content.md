@@ -14,6 +14,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -27,10 +28,10 @@ The [[Berkovich spectrum]] of a normed ring $R$ is the set of multiplicative [[s
 
 ## Definition
 
-+-- {: .num_defn #NormedCommutativeRing}
++-- {: .num_defn #NormedRing}
 ###### Definition
 
-A _normed commutative ring_ is a [[ring]] $R$ equipped with a [[function]]
+A _normed ring_ is a [[ring]] $R$ equipped with a [[function]]
 
 $$
   {\vert -\vert} \;\colon\; R \longrightarrow \mathbb{R}_{\geq 0}
@@ -54,7 +55,7 @@ to the non-[[negative real number|negative]] [[real numbers]], such that for all
 +-- {: .num_remark}
 ###### Remark
 
-One may also define a normed ring to be a [[monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] [[group homomorphisms]] and the [[projective cross norm]] is used on the [[tensor product]], then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
+One may also define a normed ring to be a [[monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] [[group homomorphisms]] and the [[projective cross norm]] is used on the [[tensor product]], then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedRing}
 to 
 
 * there is $C \in \mathbb{R}_{\gt 0}$ such that for all $f,g \in R$
