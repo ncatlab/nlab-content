@@ -53,6 +53,10 @@ On the [[bosonic string]] [[sigma-model]] With emphasis on the [[background fiel
 
 * [[Arkady A. Tseytlin]]: *Sigma model approach to string theory* &lbrack;[arXiv:2602.10977](https://arxiv.org/abs/2602.10977)&rbrack;
 
+On the [[M2-brane]] [[Green-Schwarz sigma-model]]:
+
+* [[Arkady A. Tseytlin]], Zihan Wang: *Energy of toroidal M2 brane in flat 11d background* \[<a href="https://arxiv.org/abs/2608.23517">arXiv:2608.23517</a>\]
+
 
 
 
