@@ -9,9 +9,8 @@
 =--
 =--
 
-# The &#955;-calculus
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -130,9 +129,9 @@ Introduction to [[simple type theory|simply typed]] $\lambda$-calculus:
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
 
-The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $U$ such that the exponential $U^U$ is a [[retract]] of $U$) was formulated explicitly by [[Dana Scott]] in
+The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $U$ such that the exponential $U^U$ is a [[retract]] of $U$) was formulated explicitly in:
 
-* Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+* {#Scott80} [[Dana S. Scott]], *Relating theories of the lambda calculus*, in: *To H. B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism*, Academic Press (1980) 403--450 &lbrack;[[Scott-RelatingTheories.pdf|pdf:file]]&rbrack;
 
 This followed his earlier work constructing an explicit such model in the category of domains:
 
