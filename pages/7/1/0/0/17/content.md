@@ -786,7 +786,7 @@ Alternatively,
 
 1. find in the rendered entry the previously grayish text "FileName.xyz" replaced by the text that you entered into the "Description"-box in the file upload dialogue, and hyperlinked to your file;
 
-1. due to a bug, if you want that link to persist, you need to make any further edit to the entry (e.g. add a whitespace) and "submit" again.
+1. {#FileUploadBug} due to a bug, for the link to actually appeear, you need to make any further edit to the entry (e.g. add a whitespace) and "submit" again.
 
 After this, the file is now sitting at this URL:
 
