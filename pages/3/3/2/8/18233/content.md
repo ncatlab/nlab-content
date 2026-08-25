@@ -1,5 +1,3 @@
-# Displayed categories
-
 * table of contents
 {: toc}
 
@@ -158,6 +156,10 @@ An unpacking of the definition as lax functors into [[Span]] is in 2.2 of
 Also cited above:
 
 * {#CS} [[Geoff Cruttwell]], [[Mike Shulman]], _A unified framework for generalized multicategories_, Theory and Applications of Categories **24** 21 (2010) 580-655.  &lbrack;[TAC](http://tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
+
+That the displayed category correspondence extends to an equivalence of [[virtual double categories]] between [[double fibration|discrete fibrations of double categories]] over a pseudo double category $\mathbb{D}$ and lax functors $\mathbb{D}^{\text{op t}} \to \mathbb{S}\mathbf{pan}$ is established in Corollary 10.9 of the following (see also Example 10.10):
+
+* [[Nathanael Arkor]], _Exponentiable virtual double categories and presheaves for double categories_, *Applied Categorical Structures*, [DOI](https://doi.org/10.1007/s10485-026-09869-9), [arXiv:2508.11611](https://arxiv.org/abs/2508.11611) (2026).
 
 [[!redirects displayed categories]]
 [[!redirects displayed functor]]
