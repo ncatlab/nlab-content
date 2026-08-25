@@ -48,3 +48,9 @@ On possible structures in M2-brane dynamics and [[M2-M5-brane bound states]] whi
 
 * [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory*, Physics -- Uspekhi **67** 3 (2024) 219-250  \[<a href="https://arxiv.org/abs/2301.06486">arXiv:2301.06486</a>, [ufn:2024-3](https://ufn.ru/ufn2024/ufn2024_3/ufn243a.pdf)\]
 
+See also:
+
+* [[Arkady A. Tseytlin]], Zihan Wang: *Energy of toroidal M2 brane in flat 11d background* \[<a href="https://arxiv.org/abs/2608.23517">arXiv:2608.23517</a>\]
+
+
+
