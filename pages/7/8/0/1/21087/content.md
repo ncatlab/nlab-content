@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -61,7 +59,6 @@ Discussion in the context of [[AdS/CFT duality]].
 #### General
 
 * B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_ &lbrack;[spire:858223](http://inspirehep.net/record/858223)&rbrack;
-
   > "The result &lbrack;(29)&rbrack; coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
 * David Jorrin, Nicolas Kovensky, Martin Schvellinger,  _Towards $1/N$ corrections to deep inelastic scattering from the gauge/gravity duality_, JHEP 04 (2016) 113 &lbrack;[arXiv:1601.01627](https://arxiv.org/abs/1601.01627)&rbrack;
@@ -75,11 +72,15 @@ Discussion of finite-$N$ AdS-duals of [[ABJM theory]] via [[D=4 supergravity]] w
 
 * [[Kiril Hristov]], *ABJM at finite $N$ via 4d supergravity*,  J. High Energ. Phys. **2022** 190 (2022) &lbrack;[arXiv:2204.02992](https://arxiv.org/abs/2204.02992), <a href="https://doi.org/10.1007/JHEP10(2022)190">doi:10.1007/JHEP10(2022)190</a>&rbrack;
 
+With focus on [[matrix models]]:
+
+* Robert de Mello Koch, Minkyoo Kim, Augustine Larweh Mahu, Anik Rudra: *A pedagogical introduction to invariant theory and finite-N holography* &lbrack;[arXiv:2608.22952](https://arxiv.org/abs/2608.22952)&rbrack;
+
+
 
 
 
 #### Via conformal bootstrap
-
 
 Using the [[conformal bootstrap]] for [[CFT]]s at small N to deduce [[M-theory]]-properties on the dual side:
 
@@ -90,8 +91,6 @@ Using the [[conformal bootstrap]] for [[CFT]]s at small N to deduce [[M-theory]]
 Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 
 * {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
-
-
 
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
