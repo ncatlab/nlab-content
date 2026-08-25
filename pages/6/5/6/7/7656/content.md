@@ -64,7 +64,9 @@ If we also take care of the appropriate morphisms have the following:
 
 ## References
 
-* J. Penon, _Catégories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355))
+* [[J. Penon]], _Catégories localement internes_, [[CRAS|C. R. Acad. Sci. Paris]] __278__ (1974) A1577-1580 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355))
+
+* [[Jean Bénabou]], _Fibrations petites et localement petites_, ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171))
 
 * Locally internal categories, Appendix in: P. Johnstone, Topos theory, 1977
 
