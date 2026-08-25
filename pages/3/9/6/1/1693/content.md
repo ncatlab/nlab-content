@@ -49,6 +49,8 @@ The main examples are probably [[distributive lattices]].
 
 Of course, a [[Boolean ring]] is a multiplicatively idempotent semiring, since any ring is a semiring.  However, since it\'s also a distributive lattice, a Boolean ring is actually a multiplicatively idempotent semiring in two different ways.
 
+In fact, the main difference between Boolean rings and distributive lattices are that Boolean rings are defined by $1 + 1 = 0$ and distributive lattices are defined by $1 + 1 = 1$. 
+
 Similarly, a [[Boolean semiring (Guzmán)|Boolean semiring]] as defined by Fernando Guzmán is a multiplicatively idempotent semiring by definition. 
 
 ### Smallest multiplicatively idempotent semirings
