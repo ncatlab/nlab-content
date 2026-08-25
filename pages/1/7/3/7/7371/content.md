@@ -2,7 +2,7 @@ Pierre Ageron is a French mathematician based at Caen. He has published research
 
 * [Home Page](https://ageron.users.lmno.cnrs.fr/)
 
-* [R&#233;sum&#233; of categorical work](https://ageron.users.lmno.cnrs.fr/recherche.html)
+* [R&#233;sum&#233; of categorical work](https://web.archive.org/web/20241118185203/https://ageron.users.lmno.cnrs.fr/recherche.html)
 
 Notes on _L'Art de l'esquisse_, an unfinished book on the theory of [[sketches]]:
 
