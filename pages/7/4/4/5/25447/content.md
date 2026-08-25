@@ -48,7 +48,7 @@ On [[enhanced 2-category|two-dimensional]] [[limit sketches]] and [[double categ
 
 On [[exponentiable object|exponentiable]] [[virtual double categories]] and [[representable functor|representability]] for [[double categories]]:
 
-* [[Nathanael Arkor]], _Exponentiable virtual double categories and presheaves for double categories_, [arXiv:2508.11611](https://arxiv.org/abs/2508.11611) (2025).
+* [[Nathanael Arkor]], _Exponentiable virtual double categories and presheaves for double categories_, *Applied Categorical Structures*, [DOI](https://doi.org/10.1007/s10485-026-09869-9), [arXiv:2508.11611](https://arxiv.org/abs/2508.11611) (2026).
 
 On a generalisation of [[Fox's theorem]]:
 
