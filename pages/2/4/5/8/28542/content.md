@@ -31,11 +31,11 @@ In [[constructive mathematics]], the intuitionistic analogue of the arithmetical
 
 1. For $n = 0$, $\Psi_0 \equiv \Sigma_0 \equiv \Psi_0 \equiv \Pi_0 \equiv \Delta_0 \equiv \mathbb{2} \subseteq \Omega$ where $\mathbb{2}$ is the set of [[booleans]]
 2. For $n = 1$, 
-$$\Psi_1 \equiv \Sigma_1 \equiv \{P \in \Omega, A \in \mathbb{2}^\mathbb{N} \vert P \iff \exists n \in \mathbb{N}.A(n)\}$$ 
-$$\Psi_1 \equiv \Pi_1 \equiv \{P \in \Omega, A \in \mathbb{2}^\mathbb{N} \vert P \iff \forall n \in \mathbb{N}.A(n)\}$$
+$$\Psi_1 \equiv \Sigma_1 \equiv \{P \in \Omega \vert \exists A \in \mathbb{2}^\mathbb{N}.P \iff \exists n \in \mathbb{N}.A(n)\}$$ 
+$$\Phi_1 \equiv \Pi_1 \equiv \{P \in \Omega \vert \exists A \in \mathbb{2}^\mathbb{N}.P \iff \forall n \in \mathbb{N}.A(n)\}$$
 3. For $n \geq 2$, 
-$$\Psi_{n} \equiv \{P \in \Omega, A \in (\Phi_{n - 1})^\mathbb{N} \vert P \iff \exists n \in \mathbb{N}.A(n)\}$$
-$$\Phi_{n} \equiv \{P \in \Omega, A \in (\Phi_{n - 1})^\mathbb{N}, B \in (\Phi_{n - 2})^{\mathbb{N} \times \mathbb{N}} \vert P \iff \forall m \in \mathbb{N}.A(m) \to \exists n \in \mathbb{N}.B(m, n)\}$$
+$$\Psi_{n} \equiv \{P \in \Omega \vert \exists A \in (\Phi_{n - 1})^\mathbb{N}.P \iff \exists n \in \mathbb{N}.A(n)\}$$
+$$\Phi_{n} \equiv \{P \in \Omega \vert \exists A \in (\Phi_{n - 1})^\mathbb{N}.\exists B \in (\Phi_{n - 2})^{\mathbb{N} \times \mathbb{N}}.P \iff \forall m \in \mathbb{N}.A(m) \to \exists n \in \mathbb{N}.B(m, n)\}$$
 
 If we try define the intutionistic analogue of the $\Delta_n$ subsets for finite $n$ as $\Delta_n \equiv \Phi_n \cap \Psi_n$, we find out that $\Delta_n$ ends up being just the set of [[booleans]]; hence Burr's hierarchy does not include the $\Delta_n$ subsets. 
 
@@ -46,7 +46,7 @@ For example, the set of [[semidecidable truth values]] $\Psi_1 \subseteq \Omega$
 3. [[Markov's principle]] is the $\Psi_1$-[[double negation law]]
 4. the [[lesser limited principle of omniscience]] is $\Psi_1$-[[De Morgan's law]]
 
-One can extend the intuitionistic arithmetical hierarchy to the $\alpha$-recursive $\Psi_\alpha$ and $\Phi_\alpha$ by using a constructive notion of recursive [[ordinal]] such as the ordinals first defined by [[Per Martin-Löf]] in 1970 and appear in [Coquand, Lombardi, & Neuwirth 2024](#CLN24). 
+One can extend the intuitionistic arithmetical hierarchy to the $\alpha$-recursive $\Psi_\alpha$ and $\Phi_\alpha$ by using a constructive notion of recursive [[ordinal]] such as the ordinals first defined by [[Per Martin-Löf]] in 1970 and which appear in [Coquand, Lombardi, & Neuwirth 2024](#CLN24). 
 
 ### Hyperarithmetical subsets
 
@@ -54,9 +54,9 @@ The supremum of the entire intuitionistic arithmetical hierarchy, including all 
 
 Since the hyperarithmetical subset classifier $\Delta_1^1$ is a $\sigma$-complete Heyting subalgebra of the set of all truth values $\Omega$, it is a [[sigma-frame|$\sigma$-subframe]] of $\Omega$ and can be used to define [[Dedekind cuts]] and a form of the [[Dedekind real numbers]] that sits in between the ones defined using [[quasidecidable]] Dedekind cuts and the ones defined using all Dedekind cuts, $\mathbb{R}_\mathrm{C} \subseteq \mathbb{R}_\mathrm{Q} \subseteq \mathbb{R}_\mathrm{HA} \subseteq \mathbb{R}_\mathrm{D}$. 
 
-However, in the presence of the [[limited principle of omniscience]], the [[initial object|initial]] [[sigma-complete Heyting algebra|$\sigma$-complete Heyting algebra]] is just the [[boolean domain]], and so the [[limited principle of omniscience]] completely collapses the intuitionistic arithmetical hierarchy as a hierarchy of subsets of $\Omega$. The hierarchy of real numbers also partially collapses: the Cauchy reals, quasidecidable Dedekind reals, and hyperarithmetic Dedekind reals all coincide with each other since all of them are [[discrete fields]] in the presence of the [[limited principle of omniscience]], $\mathbb{R}_\mathrm{C} = \mathbb{R}_\mathrm{Q} = \mathbb{R}_\mathrm{HA} \subseteq \mathbb{R}_\mathrm{D}$. 
+However, in the presence of the [[limited principle of omniscience]], the [[initial object|initial]] [[sigma-complete Heyting algebra|$\sigma$-complete Heyting algebra]] is just the [[boolean domain]], and so the [[limited principle of omniscience]] completely collapses the intuitionistic arithmetical hierarchy as a hierarchy of subsets of $\Omega$. The hierarchy of real numbers also partially collapses: the Cauchy reals, quasidecidable Dedekind reals, and hyperarithmetical Dedekind reals all coincide with each other since all of them are [[discrete fields]] in the presence of the [[limited principle of omniscience]], $\mathbb{R}_\mathrm{C} = \mathbb{R}_\mathrm{Q} = \mathbb{R}_\mathrm{HA} \subseteq \mathbb{R}_\mathrm{D}$. 
 
-[[Phoa's principle]] can never hold for the hyperarithmetic subset classifier since $\Delta_1^1$ is a [[Heyting algebra]]. Thus, Phoa's principle for the [[distributive lattices]] of either the [[semidecidable truth values]] or the [[quasidecidable truth values]] is enough to keep $\Delta_1^1$ distinct from the set of semidecidable truth values and the set of quasidecidable truth values, and similarly keep $\mathbb{R}_\mathrm{HA}$ distinct from both the Cauchy reals and the quasidecidable Dedekind reals. 
+[[Phoa's principle]] can never hold for the hyperarithmetical subset classifier since $\Delta_1^1$ is a [[Heyting algebra]]. Thus, Phoa's principle for the [[distributive lattices]] of either the [[semidecidable truth values]] or the [[quasidecidable truth values]] is enough to keep $\Delta_1^1$ distinct from the set of semidecidable truth values and the set of quasidecidable truth values, and similarly keep $\mathbb{R}_\mathrm{HA}$ distinct from both the Cauchy reals and the quasidecidable Dedekind reals. 
 
 ## Related concepts
 
