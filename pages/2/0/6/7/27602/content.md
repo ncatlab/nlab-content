@@ -38,6 +38,55 @@ $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 
 ## Properties
 
+There are many types of distributive lattices for which non-trivial such distributive lattices cannot satisfy Phoa's principle. 
+
+\begin{theorem} 
+Suppose $L$ is a distributive lattice $L$ with an endpoint-swapping [[endofunction]] $\neg:L \to L$, where $\neg(\top) = \bot$ and $\neg(\bot) = \top$. Then the only such distributive lattice $L$ for which Phoa's principle holds is the trivial Heyting algebra.
+{#EndpointSwap} 
+\end{theorem}
+
+\begin{proof}
+Applying the function $x \mapsto \neg x$ to the linear interpolation condition for the distributive lattice yields 
+$$\neg x = \neg (\top) \wedge (x \vee \neg \bot) = \bot \wedge (x \vee \top) = \bot$$
+Substituting $\bot$ into the equation yields 
+$$\neg \bot = \top = \bot$$
+which is precisely the condition that $L$ be a trivial such distributive lattice. 
+\end{proof}
+
+\begin{lemma}
+Suppose $L$ is a [[Heyting algebra]] for which Phoa's principle holds. Then $L$ is the trivial Heyting algebra.
+\end{lemma}
+
+\begin{proof}
+$L$ being a Heyting algebra implies that $L$ has a Heyting implication $x, y \mapsto x \to y$ and thus a Heyting [[logical negation|negation]] function $x \mapsto \neg x$ defined by $\neg x \coloneqq x \to \bot$ such that $\neg(\top) = \bot$ and $\neg(\bot) = \top$. Hence, by [the first theorem](#EndpointSwap), $L$ is the trivial Heyting algebra if Phoa's principle holds. 
+\end{proof}
+
+\begin{theorem}
+Suppose $L$ is a [[De Morgan algebra]] for which Phoa's principle holds. Then $L$ is the trivial De Morgan algebra.
+\end{theorem}
+
+\begin{proof}
+$L$ being a De Morgan algebra implies that $L$ has an [[involution]] $x \mapsto \neg x$ such that $\neg(\top) = \bot$ and $\neg(\bot) = \top$. Hence, by [the first theorem](#EndpointSwap), $L$ is the trivial De Morgan algebra if Phoa's principle holds. 
+\end{proof}
+
+\begin{lemma}
+Suppose $L$ is a [[finite set|finite]] [[distributive lattice]] for which Phoa's principle holds. Then $L$ is the trivial distributive lattice.
+\end{lemma}
+
+\begin{proof}
+If $L$ is a finite distributive lattice, then there are many such functions $f:L \to L$ such that $f(\top) = \bot$ and $f(\bot) = \top$ definable using [the universal property of the finite set with $n$ elements](https://unimath.github.io/agda-unimath/univalent-combinatorics.universal-property-standard-finite-types.html?highlight=universal%20property%20of%20finite%20types#the-universal-property-of-the-standard-finite-types). Hence, by [the first theorem](#EndpointSwap), $L$ is the trivial distributive lattice if Phoa's principle holds. 
+\end{proof}
+
+\begin{lemma}
+There are no [[distributive lattices]] $L$, whose carrier set is the set of [[natural numbers]], for which Phoa's principle holds. 
+\end{lemma}
+
+\begin{proof}
+Suppose that $L$ is a [[distributive lattice]] whose carrier set is the set of [[natural numbers]]. Then there are many such functions $f:L \to L$ such that $f(\top) = \bot$ and $f(\bot) = \top$ definable using the universal property of the natural numbers. Hence, by [the first theorem](#EndpointSwap), $L$ is the trivial distributive lattice if Phoa's principle holds, which contradicts that the carrier set of $L$ is the set of natural numbers. 
+\end{proof}
+
+## Examples
+
 * In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. 
 
 * In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. 
