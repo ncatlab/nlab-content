@@ -15,6 +15,10 @@ Establishing the [[Bousfield-Friedlander model structure]], in particular the [[
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
 
+On the [[Adams conjecture]]:
+
+* [[Eric M. Friedlander]]: *The Stable Adams Conjecture* &lbrack;[arXiv:2608.23797](https://arxiv.org/abs/2608.23797)&rbrack;
+
 
 
 
