@@ -44,7 +44,11 @@ On [[epimorphisms]] and [[acyclic types]] in [[univalent type theory]]:
 
 * [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
 
-## Related $n$Lab entries
+On [[autoformalization]] with [[HoTT]] targets ([[Agda]]):
+
+* [[Daniel Carranza]], Chunyi Liu, [[Emily Riehl]], [[Egbert Rijke]]: *Autoformalizing the calculation of $\pi_3(S^2)$* &lbrack;[arXiv:2608.23721](https://arxiv.org/abs/2608.23721)&rbrack;
+
+## Related entries
 
 * [[homotopy type theory]]
 
