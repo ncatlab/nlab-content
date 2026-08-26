@@ -133,6 +133,8 @@ One can also consider the closure of semi-decidable propositions under existenti
 
 ## Related concepts
 
+* [[arithmetical hierarchy]]
+
 * [[decidable proposition]]
 
 * [[proposition]], [[truth value]]
