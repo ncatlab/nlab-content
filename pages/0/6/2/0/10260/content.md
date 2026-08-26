@@ -18,7 +18,7 @@
 ### On a complex vector space
  {#OnAComplexVectorSpace}
 
-A *quatermionic structure* on a [[complex vector space]] $V$ is an [[complex numbers|complex]]-[[anti-linear map]] 
+A *quaternionic structure* on a [[complex vector space]] $V$ is an [[complex numbers|complex]]-[[anti-linear map]] 
 
 $$
   \sigma 
