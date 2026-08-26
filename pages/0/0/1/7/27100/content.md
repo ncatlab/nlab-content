@@ -19,7 +19,7 @@ A **$\sigma$-complete Heyting algebra** is a [[Heyting algebra]] which is also a
 
 * The [[set of truth values]] is a $\sigma$-complete Heyting algebra
 
-* Assuming the [[limited principle of omniscience]], the [[boolean domain]] is a $\sigma$-complete Heyting algebra. 
+* The [[initial object|initial]] $\sigma$-complete Heyting algebra is the [[subobject classifier|classifier]] of [[hyperarithmetical subsets]]. In the presence of the [[limited principle of omniscience]], this is just the [[boolean domain]]. 
 
 ## Related concepts
 
