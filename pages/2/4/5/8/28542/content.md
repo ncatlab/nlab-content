@@ -21,7 +21,7 @@
 
 ## Idea
 
-The **arithmetical hierarchy** or **arithmetic hierarchy** or **Kleene–Mostowski hierarchy** is a hierarchy used in [[computability theory]] to classify certain subsets of the [[natural numbers]] based upon the complexity of the first-order formulas that define them. 
+The **arithmetical hierarchy** or **arithmetic hierarchy** or **Kleene–Mostowski hierarchy** is a hierarchy used in [[computability theory]] to classify certain [[subsets]] of the [[natural numbers]] based upon the [[complexity]] of the [[first-order logic|first-order]] formulas that define them. 
 
 ## Related concepts
 
@@ -31,9 +31,9 @@ The **arithmetical hierarchy** or **arithmetic hierarchy** or **Kleene–Mostows
 
 ## References
 
-* [[Wolfgang Burr]], *The intuitionistic arithmetical hierarchy*, In: Van Eijck J, Van Oostrom V, Visser A, eds. Logic Colloquium ’99. Lecture Notes in Logic. Cambridge University Press; 2004:51-59. &lbrack;[doi:10.1017/9781316755921.004](https://doi.org/10.1017/9781316755921.004)&rbrack;
+* [[Wolfgang Burr]]: *The intuitionistic arithmetical hierarchy*, in: J. Van Eijck, V. Van Oostrom, A. Visser (eds.): *Logic Colloquium ’99*, Lecture Notes in Logic **17**, Cambridge University Press (2004) 510--59 &lbrack;[doi:10.1017/9781316755921.004](https://doi.org/10.1017/9781316755921.004)&rbrack;
 
-* [[Takayuki Kihara]], *The Arithmetical Hierarchy: A Realizability-Theoretic Perspective*, to appear in Journal of Mathematical Logic, 43 pages &lbrack;[arXiv:2410.15795](https://arxiv.org/abs/2410.15795)&rbrack;
+* [[Takayuki Kihara]]: *The Arithmetical Hierarchy: A Realizability-Theoretic Perspective*, to appear in Journal of Mathematical Logic &lbrack;[arXiv:2410.15795](https://arxiv.org/abs/2410.15795)&rbrack;
 
 * Wikipedia, *[Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy)*
 
