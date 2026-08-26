@@ -126,6 +126,10 @@ On the [[directed univalence axiom]] in [[simplicial homotopy type theory]]:
 
 * [[Evan Cavallo]], [[Emily Riehl]], [[Christian Sattler]]: *Directed univalence for simplicial objects in an $\infty$-topos* &lbrack;[arXiv:2607.02420](https://arxiv.org/abs/2607.02420)&rbrack;
 
+On [[autoformalization]] with [[HoTT]] targets ([[Agda]]):
+
+* [[Daniel Carranza]], Chunyi Liu, [[Emily Riehl]], [[Egbert Rijke]]: *Autoformalizing the calculation of $\pi_3(S^2)$* &lbrack;[arXiv:2608.23721](https://arxiv.org/abs/2608.23721)&rbrack;
+
 
 
 category: people
