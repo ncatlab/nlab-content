@@ -47,13 +47,13 @@ Semidecidability structures are used to define a weak form of [[axiom of choice|
 
 ### Set of semi-decidable propositions
 
-The set of all semidecidable propositions $\Sigma_{\mathrm{semi}}$ is defined as a [[subset]] of the [[set of propositions]] $\Omega$ containing all the semidecidable propositions:
+The set of semidecidable propositions is the [[subobject classifier|classifier]] of semidecidable subsets on the [[intuitionistic arithmetical hierarchy]]; hence it can be denoted by $\Sigma_1^0$ from the arithmetical hierarchy. The set of semidecidable propositions is defined as a [[subset]] of the [[set of propositions]] $\Omega$ containing all the semidecidable propositions:
 
-$$\Sigma_{\mathrm{semi}} \coloneqq \{P \in \Omega \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1$$
+$$\Sigma_1^0 \coloneqq \{P \in \Omega \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1\}$$
 
 In [[predicative mathematics]], the set of *all* [[propositions]] may not exist, so instead in order to construct the set of all semidecidable propositions, we take any [[subobject|sub]]-[[sigma-frame|$\sigma$-frame]] of propositions $\Sigma$ and collect the ones that are semidecidable:
 
-$$\Sigma_{\mathrm{semi}} \coloneqq \{P \in \Sigma \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1$$
+$$\Sigma_1^0 \coloneqq \{P \in \Sigma \vert \exists f \in 2^\mathbb{N}.(P = \top) \iff \exists x \in \mathbb{N}.f(x) = 1\}$$
 
 Such [[sigma-frame|$\sigma$-frames]] $\Sigma$ are usually found by collecting the [[subsingletons]] of a [[universe of sets]] $U$ in the theory into a set $\Omega_U$, or minimally, by the set of quasi-decidable truth values defined later in this article. 
 
