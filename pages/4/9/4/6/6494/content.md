@@ -70,7 +70,7 @@ See also
 
 * Matthew Eric Bassett, math blog: [KMS states and symmetries](http://mebassett.blogspot.com/2010/08/im-still-looking-at-quantum-statistical.html), [Class Field Theory and the Bost-Connes System](http://mebassett.blogspot.com/2011/01/class-field-theory-bost-connes-system.html)
 
-* Neverendingbooks blog [KMS, Gibbs and zeta function](http://www.neverendingbooks.org/index.php/kms-gibbs-zeta-function.html)
+* Neverendingbooks blog [KMS, Gibbs and zeta function](http://www.neverendingbooks.org/kms-gibbs-zeta-function/)
 [[!redirects Kubo-Martin-Schwinger state]]
 
 [[!redirects KMS states]]
