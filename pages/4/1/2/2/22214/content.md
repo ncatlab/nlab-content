@@ -173,11 +173,16 @@ To the [[conformal bootstrap]]:
 
 * Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving conformal field theories with artificial intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
 
-To autoformalization (translating natural language to [[proof assistants]]):
+On autoformalization (translating natural language to [[proof assistants]]):
 
 * Yuhuai Wu, Albert Q. Jiang, Wenda Li, Markus N. Rabe, Charles Staats, Mateja Jamnik, Christian Szegedy: *Autoformalization with Large Language Models* &lbrack;[arXiv:2205.12615](https://arxiv.org/abs/2205.12615)&rbrack;
 
 * Ke Weng, Lun Du, Sirui Li, Wangyue Lu, Haozhe Sun, Hengyu Liu, Tiancheng Zhang: *Autoformalization in the Era of Large Language Models: A Survey* &lbrack;[arXiv:2505.23486](https://arxiv.org/abs/2505.23486)&rbrack;
+
+and with [[HoTT]] targets ([[Agda]]):
+
+* [[Daniel Carranza]], Chunyi Liu, [[Emily Riehl]], [[Egbert Rijke]]: *Autoformalizing the calculation of $\pi_3(S^2)$* &lbrack;[arXiv:2608.23721](https://arxiv.org/abs/2608.23721)&rbrack;
+
 
 
 
@@ -203,6 +208,8 @@ To autoformalization (translating natural language to [[proof assistants]]):
 
 [[!redirects artificial intelligence]]
 [[!redirects AI]]
+
+[[!redirects autoformalization]]
 
 
 category: applications, probability
