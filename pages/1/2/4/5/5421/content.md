@@ -40,6 +40,10 @@ That is, a string $\vec{u} \in V^\star$ is _grammatical_ whenever there exists a
 
 ![syntax tree for "Colorless green ideas sleep furiously"](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Syntax_tree.svg/280px-Syntax_tree.svg.png)
 
+This interpretation of context-free grammars was originally given by:
+
+*  {#Nelson79} Evelyn Nelson, _Categorical and Topological Aspects of Formal Languages_, Mathematical Systems Theory **13** 1 (1979) 255-273
+
 Note that context-free grammar is weakly equivalent to [[Lambek|Lambek's]] [[pregroup grammar]] i.e. they generate the same class of languages, see:
 
 *  {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf)) 
