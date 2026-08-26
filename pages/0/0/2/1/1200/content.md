@@ -116,6 +116,10 @@ Basic set-theory including ordinals is developped in the appendix of:
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
 
+On [[ordinals]] in [[constructive mathematics]]:
+
+* {#CLN24} [[Thierry Coquand]], [[Henri Lombardi]], [[Stefan Neuwirth]]: *Constructive theory of ordinals*. In: Marco Benini, Olaf Beyersdorff, Michael Rathjen, Peter Michael Schuster: Mathematics for Computation - M4C, World Scientific, pp.287-318, 2023, 978-981-124-521-3 &lbrack;[doi:10.1142/9789811245220_0012](https://doi.org/10.1142/9789811245220_0012), [arXiv:2201.04352](https://arxiv.org/abs/2201.04352)&rbrack;
+
 [[!redirects ordinal]]
 [[!redirects ordinals]]
 [[!redirects ordinal number]]
