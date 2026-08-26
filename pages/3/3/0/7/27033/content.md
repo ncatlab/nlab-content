@@ -93,6 +93,8 @@ One also has:
 These statements beneath this standout box currently do not have proofs on the nLab or references to literature containing a proof of the statement. Please add such proofs or references to the article, or delete them if these statements are not true. 
 =--
 
+* LPO hold if and only if every [[detachable subset]] of the [[natural numbers]] is either [[finite set|finite]] or in bijection with the [[natural numbers]]. In the absence of LPO, this has implications for the definition of a [[countable set]] in constructive mathematics. 
+
 * Every [[Cauchy real number]] is a [[rational number]] or has an strictly non-repeating base $b$ radix expansion if and only if LPO holds. 
 
 * LPO holds if and only if for every function $f:\mathbb{N} \to \mathbb{N}$ from $\mathbb{N}$ to the [[natural numbers]], either there exists an element $x \in \mathbb{N}$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x \in \mathbb{N}$ we have $f(x) = 0$. 
