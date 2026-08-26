@@ -1,6 +1,14 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
 
-* tic
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -44,7 +52,7 @@ For each definition of an appropriate algebraic object, there is a corresponding
 *  The variety of _[[groups]]_ is given by a theory with three operations $m,e,i$ (traditionally called multiplication, identity, and inverse), with respective arities $2,0,1$ (so multiplication is a binary operation, identity is a nullary operation, and inverse is a unary operation).  There are five axioms, given by the following pairs of trees (with their traditional names):
 
    *  associative law:
-      \[ \label{ass} \array {
+      \[ \label{butt} \array {
            &          &   &          & m \\
            &          &   & \nearrow &   & \nwarrow \\
            &          & m &          &   &          & z \\
@@ -98,7 +106,7 @@ For each definition of an appropriate algebraic object, there is a corresponding
 
 Note that it is not necessary to draw explicit trees; these can be recovered from the succinct equations like $m(m(x,y),z) = m(x,m(y,z))$; we will do this below.
 
-*  The variety of _[[monoids]]_ is given by a subtheory of the theory of groups.  It has only the operations $m,e$ and the axioms (eq:ass),(eq:runit),(eq:lunit).  An algebra in this theory is a monoid, and a homomorphism of such algebras is a monoid homomorphism (including the condition that it preserve the identity).
+*  The variety of _[[monoids]]_ is given by a subtheory of the theory of groups.  It has only the operations $m,e$ and the axioms (eq:butt),(eq:runit),(eq:lunit).  An algebra in this theory is a monoid, and a homomorphism of such algebras is a monoid homomorphism (including the condition that it preserve the identity).
 
 *  There is no variety of _[[cancellative monoid]]s_, but there is a quasivariety of them.  In addition to the axioms for a monoid, we have an axiom stating that the equation $x = y$ follows from the equation $m(x,z) = m(y,z)$, which we write succinctly as $m(x,z) = m(y,z) \vdash x = y$.
 
