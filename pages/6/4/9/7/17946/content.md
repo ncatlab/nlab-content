@@ -1,4 +1,4 @@
-James Raymond Munkres was a professor at MIT.
+James Raymond Munkres (1930--2026) was a professor at MIT.
 
 He got his Ph.D. degree in 1956 from the University of Michigan, advised by [[Edwin E. Moise]].
 
