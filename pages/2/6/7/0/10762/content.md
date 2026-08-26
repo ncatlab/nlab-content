@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -95,7 +94,14 @@ The proof using [[algebraic geometry]] is due to
 
 Yet another proof via [[Becker-Gottlieb transfer]] is due to 
 
-* J. Becker, D. Gottlieb, _The transfer map and fiber bundles_ Topology , 14 (1975) {#BeckerGottlieb75}
+* {#BeckerGottlieb75} J. Becker, D. Gottlieb, _The transfer map and fiber bundles_ Topology **14** (1975) 
+
+See also:
+
+* [[Eric M. Friedlander]]: *The Stable Adams Conjecture* &lbrack;[arXiv:2608.23797](https://arxiv.org/abs/2608.23797)&rbrack;
+
+
+
 
 ### In equivariant cohomology
  {#ReferencesInEquivariantCohomology}
