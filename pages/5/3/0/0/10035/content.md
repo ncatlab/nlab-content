@@ -69,13 +69,18 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
 * Kursat Sozer, [[Alexis Virelizier]], *3d TQFTs and 3-manifold invariants*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.10587](https://arxiv.org/abs/2401.10587)&rbrack;
 
-Discussion via the [[cobordism hypothesis]] with [[fusion categories]] as [[fully dualizable objects]] is in 
+Discussion via the [[cobordism hypothesis]] with [[fusion categories]] as [[fully dualizable objects]]:
 
 * {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
  
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Christopher Schommer-Pries]], [[Jamie Vicary]], _Extended 3-dimensional bordism as the theory of modular objects_ ([arXiv:1411.0945](http://arxiv.org/abs/1411.0945))
+
+See also:
+
+* Glen Lim: *All once-extended 3D TQFTs are Reshetikhin--Turaev theories* &lbrack;[arXiv:2608.26068](https://arxiv.org/abs/2608.26068)&rbrack;
+
 
 
 Constructions in the generality of non-[[semisimple category|semisimple]] [[tensor categories]]:
