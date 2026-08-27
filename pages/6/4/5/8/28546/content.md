@@ -1,5 +1,11 @@
 
-* [website](https://neuwirth.perso.math.cnrs.fr/)
+* [personal page](https://neuwirth.perso.math.cnrs.fr/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=116438)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=O2MnMLoAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Stefan-Neuwirth-2120799520)
 
 ## Selected writings
 
