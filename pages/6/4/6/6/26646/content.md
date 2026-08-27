@@ -1,14 +1,14 @@
 This page collects a list of libraries of [[mathematics]] formalized in [[proof assistants]] using [[homotopy type theory]] and [[univalent foundations]], sorted by proof assistant.
 
-## Coq
+## Rocq
 
-[[Coq]] is a proof assistant based originally on the intensional [[Calculus of Inductive Constructions]].
+[[Rocq]] is a proof assistant based originally on the intensional [[Calculus of Inductive Constructions]].
 
 ### Active
 
 * [[UniMath project]].  Following the lead of Voevodsky's Foundations library (see below), UniMath generally uses only the core type constructors, such as [[Pi-types]] and [[Sigma-types]].
 
-* [Coq-HoTT](https://github.com/HoTT/Coq-HoTT/).  This library roughly uses the type theory of the [[HoTT Book]], including higher inductive types implemented as "private" inductive types.  It also uses more advanced features of Coq such as named record types, tactics, and typeclasses.  It includes formalizations of many results in synthetic homotopy theory.
+* [Coq-HoTT](https://github.com/HoTT/Coq-HoTT/).  This library roughly uses the type theory of the [[HoTT Book]], including higher inductive types implemented as "private" inductive types.  It also uses more advanced features of Rocq such as named record types, tactics, and typeclasses.  It includes formalizations of many results in synthetic homotopy theory.
 
 ### Archived
 
@@ -44,9 +44,9 @@ Agda has a `--cubical` mode that implements a version of [[cubical type theory]]
 
 [RedTT](https://github.com/RedPRL/redtt) is (was?) an implementation of cartesian cubical type theory, with some basic development in an associated library.
 
-## cubicle
+## Cube
 
-[cubicle](https://github.com/bbentzen/cubicle) is an experimental implementation of [XTT](https://arxiv.org/abs/1904.08562), a cartesian, cubical reconstruction of extensional type theory that enjoys canonicity, function extensionality, and a judgmental version of UIP. The name of the system is a pun based on the fact that it only deals with small (one-dimensional) cubes in a proof-relevant way.
+[Cube](https://github.com/bbentzen/cube) is an experimental implementation of [XTT](https://arxiv.org/abs/1904.08562), a cartesian, cubical reconstruction of extensional type theory that enjoys canonicity, function extensionality, and a judgmental version of UIP.
 
 
 ## Arend
@@ -59,7 +59,7 @@ Agda has a `--cubical` mode that implements a version of [[cubical type theory]]
 
 ## Lean
 
-[[Lean]] is a proof assistant implementing dependent type theory.  Current versions of Lean (3 and now 4) have [[UIP]] built-in and are not HoTT-compatible, but the old Lean 2 had a HoTT mode.
+[[Lean]] is a proof assistant implementing dependent type theory.  Current versions of Lean (now 4 and formerly 3) have [[UIP]] built-in and are not HoTT-compatible, but the old Lean 2 had a HoTT mode. See also a [Lean 3 port](https://github.com/gebner/hott3) of the Lean 2 HoTT mode using Licata's trick and a [partial formalization of part I of the HoTT book in Lean 2](https://github.com/bbentzen/hott-book-in-lean) using the old HoTT mode.
 
 ### Archived
 
