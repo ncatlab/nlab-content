@@ -168,6 +168,6 @@ Comments on the analogy between power operations in homotopy theory and [[Lambda
 
 * {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ &lbrack;[arXiv:0612327](http://arxiv.org/abs/math/0612327)&rbrack;
 
-* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam: _Power operations and Absolute geometry_ (2012) &lbrack;[pdf](/nlab/files/AbsolutePower.pdf)&rbrack;
+* {#MoravaSanthanam12} [[Jack Morava]], Rekha Santhanam: _Power operations and Absolute geometry_ (2012) &lbrack;[pdf](/nlab/files/AbsolutePower.pdf)&rbrack;
 
 [[!redirects power operations]]
