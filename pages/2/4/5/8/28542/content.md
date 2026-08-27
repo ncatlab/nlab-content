@@ -56,7 +56,7 @@ Since the hyperarithmetical subset classifier $\Delta_1^1$ is a $\sigma$-complet
 
 However, in the presence of the [[limited principle of omniscience]], the [[initial object|initial]] [[sigma-complete Heyting algebra|$\sigma$-complete Heyting algebra]] is just the [[boolean domain]], and so the [[limited principle of omniscience]] completely collapses the intuitionistic arithmetical hierarchy as a hierarchy of subsets of $\Omega$. The hierarchy of real numbers also partially collapses: the Cauchy reals, quasidecidable Dedekind reals, and hyperarithmetical Dedekind reals all coincide with each other since all of them are [[discrete fields]] in the presence of the [[limited principle of omniscience]], $\mathbb{R}_\mathrm{C} = \mathbb{R}_\mathrm{Q} = \mathbb{R}_\mathrm{HA} \subseteq \mathbb{R}_\mathrm{D}$. 
 
-[[Phoa's principle]] can never hold for the hyperarithmetical subset classifier since $\Delta_1^1$ is a [[Heyting algebra]]. Thus, Phoa's principle for the [[distributive lattices]] of either the [[semidecidable truth values]] or the [[quasidecidable truth values]] is enough to keep $\Delta_1^1$ distinct from the set of semidecidable truth values and the set of quasidecidable truth values, and similarly keep $\mathbb{R}_\mathrm{HA}$ distinct from both the Cauchy reals and the quasidecidable Dedekind reals. 
+[[Phoa's principle]] can never hold for the hyperarithmetical subset classifier since $\Delta_1^1$ is a [[Heyting algebra]]. Thus, Phoa's principle for the [[distributive lattices]] of either the [[semidecidable truth values]] or the [[quasidecidable truth values]] is enough to keep $\Delta_1^1$ distinct from the set of semidecidable truth values and the set of quasidecidable truth values. 
 
 ## Related concepts
 
