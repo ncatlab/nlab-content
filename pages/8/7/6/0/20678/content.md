@@ -21,7 +21,7 @@ based on [[dependent type theory]]/[[homotopy type theory]]:
 
 * [RedPRL](http://www.redprl.org/en/latest/)
 
-* [cubicle](https://github.com/bbentzen/cubicle)
+* [Cube](https://github.com/bbentzen/cube)
 
 * [[Cubical Agda]]
 
