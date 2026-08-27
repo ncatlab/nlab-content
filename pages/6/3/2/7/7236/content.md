@@ -204,3 +204,4 @@ Adhesiveness with respect to a suitable class of [[monomorphisms]] (i.e. **$M$-a
 Here, "suitable" (called "PO-PB compatible" ibid.) means: $M$ is a wide subcategory of $C$, and $C$ has pullbacks and pushouts along morphisms in $M$, and morphisms in $M$ are stable under pullbacks and pushouts.
 
 [[!redirects adhesive categories]]
+[[!redirects adhesive]]
