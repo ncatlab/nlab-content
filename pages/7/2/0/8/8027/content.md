@@ -161,6 +161,9 @@ Proof of the AGT conjecture in special cases:
 
 * Qian Shen, Zi-Hao Huang, Shao-Ping Hu, Qing-Jie Yuan, Kilar Zhang, *Proof of 5D $A_n$ AGT conjecture at $\beta=1$* &lbrack;[arXiv:2405.13676](https://arxiv.org/abs/2405.13676)&rbrack;
 
+* Le-Feng Chen, Kilar Zhang: *Proof of the AGT Conjecture at Generic $\beta$* &lbrack;[arXiv:2608.27447](https://arxiv.org/abs/2608.27447)&rbrack;
+
+
 
 
 See also:
