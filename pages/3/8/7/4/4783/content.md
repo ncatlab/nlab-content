@@ -41,4 +41,6 @@ Introducing what came to be called the *[[Hopf degree theorem]]*:
 
 * [[Hopf algebra]]
 
+* [[Hopf problem]]
+
 category: people
