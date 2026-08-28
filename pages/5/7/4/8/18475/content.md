@@ -362,6 +362,10 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 * Soodeh Zarepour, Ali Dehghani: *Holographic $s$- and $p$-wave superconductors from the 4D regularization of Einstein-Lovelock theory* &lbrack;[arXiv:2606.26546](https://arxiv.org/abs/2606.26546)&rbrack;
 
 
+* Veronika Carolin Stangier, Jörg Schmalian: *Why Cooper pairs live in $AdS_2$: a spectral analysis of the Yukawa-SYK model* &lbrack;[arXiv:2608.26251](https://arxiv.org/abs/2608.26251)&rbrack;
+  > (via the [[SYK model]])
+
+
 
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
