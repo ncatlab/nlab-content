@@ -49,6 +49,9 @@ On [[Maxwell-Chern-Simons theory]] as [[effective field theory]] for [[FQH syste
 
 * Hart Goldman, [[Eduardo Fradkin]]: *Dirac Composite Fermions and Emergent Reflection Symmetry about Even Denominator Filling Fractions*, Phys. Rev. B **98** 165137 (2018) &lbrack;[doi:10.1103/PhysRevB.98.165137](https://doi.org/10.1103/PhysRevB.98.165137), [arXiv:1808.09314](https://arxiv.org/abs/1808.09314)&rbrack;
 
+On [superconducting islands in FQH systems](quantum+Hall+effect#ReferencesSuperconductingDefectAnyonsInFQHSystems):
+
+* Junyi Cao, Ramanjit Sohal, Angela Kou, [[Eduardo Fradkin]]: *Interferometric Signatures of Zero Modes in Fractional Quantum Hall-Superconductor Heterostructures* \[<a href="https://arxiv.org/abs/2608.19312">arXiv:2608.19312</a>\]
 
 
 category: people
