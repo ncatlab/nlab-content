@@ -45,6 +45,11 @@ See also:
 
 * Ha Quang Trung, Bo Yang: *Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions* \[<a href="https://arxiv.org/abs/2606.07517">arXiv:2606.07517</a>\]
 
+On the possibility of nonabelian anyons in FQH systems at unit filling fraction:
+
+* Ha Quang Trung, Bo Yang: *Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions* &lbrack;[arXiv:2606.07517](https://arxiv.org/abs/2606.07517)&rbrack;
+
+
 
 {#ReferencesFQHAsPotentialTQCHardware} On ([[anyons]] in) [[fractional quantum Hall systems]] as potential [[quantum materials|quantum hardware]] for [[topological quantum computing]]:
 
