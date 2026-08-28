@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -34,6 +32,11 @@ See also:
 
 * Alan M. Kadin: *Spatial Structure of the Cooper Pair*, J. Supercond and Novel Magn. **20** 4 (2007) 258
 &lbrack;[cond-mat/0510279](https://arxiv.org/abs/cond-mat/0510279), [doi:10.1007/s10948-006-0198-z](https://doi.org/10.1007/s10948-006-0198-z)&rbrack;
+
+Via [[holographic CMT]] and the [[SYK model]]:
+
+* Veronika Carolin Stangier, Jörg Schmalian: *Why Cooper pairs live in $AdS_2$: a spectral analysis of the Yukawa-SYK model* &lbrack;[arXiv:2608.26251](https://arxiv.org/abs/2608.26251)&rbrack;
+
 
 
 [[!redirects Cooper pairs]]
