@@ -970,6 +970,11 @@ On the $\nu = 5/2$ FQH state:
 
 * Ken K. W. Ma, Michael R. Peterson, V. W. Scarola, Kun Yang: *Fractional quantum Hall effect at the filling factor $\nu = 5/2$*, Encyclopedia of Condensed Matter 2nd ed. **1** (2024) 324-365 &lbrack;[arXiv:2208.07908](https://arxiv.org/abs/2208.07908), [doi:10.1016/B978-0-323-90800-9.00135-9](https://doi.org/10.1016/B978-0-323-90800-9.00135-9)&rbrack;
 
+* [Trung & Yang 2026](https://arxiv.org/abs/2606.07517):
+
+  > "However, while [$\nu = 5/2$] model states are non-Abelian,
+experimental evidences of their non-Abelian statistics are
+few and inconclusive [31]."
 
 Observations of the $\nu = 1/4$ FQH state:
 
