@@ -1,5 +1,5 @@
 
-* [personal page](https://www.asc.ohio-state.edu/green.2116/)
+* [personal page](https://davidgreenmath.com/)
 
 ## Selected writings
 
