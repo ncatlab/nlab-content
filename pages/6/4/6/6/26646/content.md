@@ -1,4 +1,6 @@
-This page collects a list of libraries of [[mathematics]] formalized in [[proof assistants]] using [[homotopy type theory]] and [[univalent foundations]], sorted by proof assistant.
+This page compiles a list of libraries of [[mathematics]] formalized in [[proof assistants]] using [[homotopy type theory]] and [[univalent foundations]], sorted by proof assistant.
+
+\tableofcontents
 
 ## Rocq
 
