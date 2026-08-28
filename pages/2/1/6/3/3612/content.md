@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -100,5 +98,7 @@ For specifics of the implementation in [[Coq]] see
 
 
 [[!redirects calculus of inductive constructions]]
+[[!redirects Calculus of Inductive Constructions]]
+
 [[!redirects calculus of coinductive constructions]]
 [[!redirects calculus of (co)inductive constructions]]
