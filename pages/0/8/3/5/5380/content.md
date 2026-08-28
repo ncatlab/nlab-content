@@ -602,6 +602,11 @@ Discussion in [[synthetic algebraic geometry]]:
 
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry* &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
 
+See also:
+
+* Marina Palaisti: *Coordinate-Deletion Bundles from Composition Algebras: Hopf Defects, KO-Classes, and Real Projective Space* &lbrack;[arXiv:2608.26300](https://arxiv.org/abs/2608.26300)&rbrack;
+
+
 
 [[!redirects projective spaces]]
 
