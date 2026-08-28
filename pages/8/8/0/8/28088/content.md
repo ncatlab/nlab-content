@@ -30,6 +30,10 @@ Experimental realization:
 
 * Önder Gül et al.: *Andreev reflection in the fractional quantum Hall state*, Physical Review X **12** 2 (2022) 021057 \[<a href="https://doi.org/10.1103/PhysRevX.12.021057">doi:10.1103/PhysRevX.12.021057</a>, [arXiv:2009.07836](https://arxiv.org/abs/2009.07836)\]
 
+* Junyi Cao, Ramanjit Sohal, Angela Kou, [[Eduardo Fradkin]]: *Interferometric Signatures of Zero Modes in Fractional Quantum Hall-Superconductor Heterostructures* \[<a href="https://arxiv.org/abs/2608.19312">arXiv:2608.19312</a>\]
+
+
+
 Related quantum Hall/superconductor effects:
 
 * Yuriko Baba, Alfredo Levy Yeyati, Pablo Burset: *Emergent topology by Landau level mixing in quantum Hall-superconductor nanostructures*, Phys. Rev. Lett. **136** (2026) 176601 \[<a href="https://doi.org/10.1103/v68s-tgxs">doi:10.1103/v68s-tgxs</a>, [arXiv:2507.14074](https://arxiv.org/abs/2507.14074)\]
