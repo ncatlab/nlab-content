@@ -25,6 +25,8 @@ On non-abelian ([[parafermion|parafermionic]] [[Majorana zero mode]]) [[defect]]
 
 * Enderalp Yakaboylu, Thomas L. Schmidt: *Fractionally Charged Vortices at Superconductor-Chern Insulator Interfaces* &lbrack;[arXiv:2501.12908](https://arxiv.org/abs/2501.12908)&rbrack;
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQH with Islands|FQH Liquids with Flux-Expulsion Islands allow Nonabelian Anyons]]*, European Physics Letters (2026) \[<a href="https://arxiv.org/abs/2602.18748">arXiv:2602.18748</a>\]
+
 
 Experimental realization:
 
