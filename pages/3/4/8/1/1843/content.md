@@ -117,7 +117,7 @@ Phenomenology:
 * P. C. Malta, J. P. S. Melo, C. A. D. Zarro: *Experimental signatures of Kalb-Ramond-like particles* &lbrack;[arXiv:2501.09836](https://arxiv.org/abs/2501.09836)&rbrack;
 
 
-The interpretation of the B-field as a 3-[[cocycle]] in [[Deligne cohomology]] is due to
+{#AsADeligneCocycle} The interpretation of the B-field as a 3-[[cocycle]] in [[Deligne cohomology]] is due to
 
 * [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
