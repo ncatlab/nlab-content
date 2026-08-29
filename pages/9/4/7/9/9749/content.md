@@ -74,16 +74,13 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]] (=$\mathbf{Meas}_{G}$). 
 It is one of the most important examples of a [[Markov category]].
 
-### Algebras of the Giry Monad on Standard spaces
+### Algebras of the Giry Monad
 
-We can't say much about the $G$-algebras on the category of measurable spaces due to set-theoretical issues, e.g., the hypothesis that measurable cardinals exist.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to prove every $G$-algebra arises as an expectation map.
+We construct a factorization of the $G$ monad which allows us to prove every $G$-algebra arises as an expectation map.
 
-Let us first note a relationship between the Giry monad on [[standard Borel space]] and the [[Radon monad]].
-Every probability measure on a [[standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
-
-We now proceed to determine the category of algebras, $\mathbf{Alg}_G$, of the $G$-monad restricted to standard spaces. The category $\mathbf{Alg}_G$ consists of objects $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad, and consists of arrows $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
+Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad has objects $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad, and consists of arrows $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
    
-If $X$ is any standard space then the space of probability measures $G{X}$ has a [[convex space]] structure defined pointwise: if $\{P_i\}_{i=1}^{n}$ is finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{n} p_i = 1$, the affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
+If $X$ is any measurable space then the space of probability measures $G{X}$ has a [[convex space]] structure defined pointwise: if $\{P_i\}_{i=1}^{n}$ is finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{n} p_i = 1$, the affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
 \big(\sum_{i=1}^{n} p_i P_i\big)(U) = \sum_{i=1}^{n} p_i P_i(U).
 \end{equation}
@@ -117,162 +114,124 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
- Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
+ Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the category whose objects $X$ are measurable spaces with a convex space structure such that there are enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
-Given any standard space $A$ and any $P \in G(A)$ let $hom_{\mathbf{Std}}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \mathbb{E}_{P}(f)$ where $\mathbb{E}_{P}(f) = \int_A f \, dP$.  Thus the notation $\tilde{P}$ is shorthand notation for $\mathbb{E}_{P}$. Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
+Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \mathbb{E}_{P}(f)$ where $\mathbb{E}_{P}(f) = \int_X f \, dP$.   Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.  
+
+Recall that a $\mathbb{R}_{\infty}$-generalized point of $X$ is a functional $\mathbb{R}_{\infty}^X \xrightarrow{J} \mathbb{R}_{\infty}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$, the equation 
 \begin{equation}
-\phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m)
+\phi \big( J(f) \big) = J(\phi \circ f).
 \end{equation}
-holds.  The reader can verify that for every $P \in G(A)$ that the functional $\tilde{P}$ is an  $\mathbb{R}_{\infty}$-generalized element of $A$, and  $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive. 
+Equivalently, the diagram
+ insert Diagram
+commutes. (Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]].)
 
-We say an object $A$ in $\mathbf{Std} \cap \mathbf{Cvx}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
+Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$ is an $\mathbb{R}$-generalized point of $X$ since
+$\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$.
+
+Conversely, we have
+
+Conjecture.  If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
+
+
+We say an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ satisfies the __fullness property__ if and only if for every $P \in G(X)$ the property
 \begin{equation}
-\displaystyle{ \bigcap_{m \in \mathbb{R}_{\infty}^A}} m^{-1}\big(\tilde{P}(m)\big) = \{a \in A \, | \, \tilde{P}(m)=m(a) \quad \forall m \in \mathbb{R}_{\infty}^A\} \ne \emptyset
+\displaystyle{ \bigcap_{f \in \mathbb{R}_{\infty}^X}} f^{-1}\big(\mathbb{E}_{P}(f)\big) = \{x \in X \, | \, \mathbb{E}_P(f)=f(x) \quad \forall f \in \mathbb{R}_{\infty}^X\} \ne \emptyset
 \end{equation}
 holds.
 
-\begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
-\end{lemma} 
-\begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
-Since $A$ lies in $\mathbf{Std} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $a \in A$ satisfying, for all affine measurable maps $A \xrightarrow{m} \mathbb{R}_{\infty}$, the equation $\tilde{P}(m)=m(a)$.  
+\begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $J$ of $X$ which satisfies the fullness property is a point, i.e, $\mathbb{E}_{P} =ev_x$ for a unique element $x \in X$. ($ev_x$ is the evaluation map at the point $x$.)
+\end{lemma} [The statement needs fixed.]
+\begin{proof} Since the fullness property is satisfied there exist at least one element $x \in X$ such that $\mathbb{E}_{P}(f)=f(x)$. 
+Since $X$ lies in $\mathbf{Meas} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $x \in X$ satisfying, for all affine measurable maps $X \xrightarrow{f} \mathbb{R}_{\infty}$, the equation $\mathbb{E}_P(f)=f(x)$.  
 \end{proof}
 
-Define $\mathbf{Std}_{Cvx}$ to be the full subcategory of $\mathbf{Std} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
+Define $\mathbf{Meas}_{Cvx}$ to be the full subcategory of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
-Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Std}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
+Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Meas}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
-We now proceed to show that for every [[standard Borel space]] $(X, \sigma(\mathbb{F}))$ that $G(X)$ is an object in $\mathbf{Std}_{Cvx}$.  (For the notation $\sigma(\mathbb{F})$ see the alternative definition of *[[standard Borel spaces]]*.)
+Note that for every [[measurable space]] $X$ that $G(X)$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$ because, for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to separate $G(X)$.
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space.  Then for $Q \in \G^2(X)$ we have
-$$\displaystyle{ \bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \mu_X(Q)$$
-\end{lemma} 
-\begin{proof}We have
-\begin{equation}
-ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
-\end{equation}
-so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
-\end{proof}
 
-\begin{lemma} If $(X, \sigma(\mathbb{F}))$ is a standard space then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a function of the form $m = \sum_{U \in \mathbb{F}} \lambda_U ev_{U}$ where each $\lambda_U \in \mathbb{R}_{\infty}$.
-\end{lemma}
-\begin{proof} The convex space structure of $G(X)$ is given, for each $U \in \mathbb{F}$, by the family of conditions
-$$ ev_U( \sum_{i=1}^{n} p_i P_i) = \sum_{i=1}^{n}p_i P_i(U) = \sum_{i=1}^n p_i ev_{U}(P_i)$$
-which are required to hold for every affine sum of elements, $\sum_{i=1}^n p_i P_i$,  in $G(X)$. 
-This pointwise convex space structure on $G(X)$ forces any affine function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to be of the form $m=\sum_{U \in \mathbb{F}} \lambda_U ev_U$ for $\lambda_U \in \mathbb{F}$.  Each such function is measurable because the $\sigma$-algebra on $G(X)$ is generated by the evaluation maps $\{ev_U\}_{U \in \mathbb{F}}$. 
- 
-\end{proof}
-
-\begin{lemma}Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then
-\begin{equation}
-\displaystyle{ \bigcap_{G(X) \xrightarrow{m} \mathbb{R}_{\infty}}}m^{-1}\big(\tilde{Q}(m)\big) =\mu_X(Q)  = \displaystyle{\bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big).
-\end{equation}
-\end{lemma}
-\begin{proof} Since every $\mathbb{R}_{\infty}$-generalized point $\tilde{Q}$ of $G(X)$ is $\mathbb{R}_{\infty}$-linear and countably additive it follows that $\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \sum_i \lambda_i \tilde{Q}(ev_{U_i})$. Thus 
-$(\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i P(U_i) = \lambda_i \mu_X(Q)[U_i]\}$.
-Now take the intersection over all such countably affine measurable functions $m$, which includes the basic functions $m=ev_U$,
-$\bigcap_m (\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i R(U_i) = \sum_i \lambda_i \mu_X(Q)[U_i] \forall m\}$.
-The only $P \in G(X)$ satisfying the right hand side term for all countably affine maps $m$ is clearly $P= \mu_X(Q)$.
-\end{proof}
-
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{Cvx}$.
-\end{lemma}
-\begin{proof} By the preceding lemma the space $G(X)$ satisfies the fullness property. By the well-known result that if $P,R \in G(X)$ with $P(U)=R(U)$ for all $U \in \mathbb{F}$ it follows that $P=R$, it follows that the evaluations maps $G(X) \xrightarrow{ev_U} V$ coseparate the points of $G(X)$. Hence the result follows by definition of $\mathbf{Std}_{Cvx}$.
-\end{proof}
-This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{Cvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{Cvx} \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
-
-\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Std}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
+\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Meas}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
 The functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
-\mathbf{Std}_{Cvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
-A & \mapsto & \mathbf{Std}_{Cvx}(A, \bullet)
+\mathbf{Meas}_{Cvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
+X & \mapsto & \mathbf{Meas}_{Cvx}(X, \bullet)
 \end{array}
 \end{equation}
 is a full and faithful functor.
 \end{theorem}
 \begin{proof} 
-In the category $\mathbf{Std}_{Cvx}$ every affine measurable function is determined by its value on points $1 \xrightarrow{a} A$. Hence to prove the fully faithful property it suffices to prove those properties on points.
+In the category $\mathbf{Meas}_{Cvx}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $1 \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
 
-Since $A$ lies in $\mathbf{Std}_{Cvx}$, which has $\mathbb{R}_{\infty}$ as a coseparator, the faithful property holds.  The fullness property follows from Lemma \ref{ff}.
+Faithful:  We have $\mathcal{Y}(x)$ is the evaluation map
+$\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  If, for $f, g \in \mathbb{R}_{\infty}^X$, we have $f(x) = g(x)$ then since $X$ has enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$ to coseparate points it follows that $f=g$.  
+
+Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ the conjecture - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
+
+Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y} = ev_x$ and $\mathcal{Y}$ is full.
 \end{proof}
 
-Let $\delta_a$ denote the Dirac measure at $a$.
+Note that in the proof we do not need the conjecture per se, all we require is that the $\mathbb{R}_{\infty}$-generalized point $J$ satisfies $J(f) \in Im(f)$ for all affine measurable functions $f$.  However trying to prove the condition $J(f) \in Im(f)$ given the naturality condition leads to the conjecture.
 
-\begin{corollary} If $A$ is an object in $\mathbf{Std}_{Cvx}$ then there exists a unique affine measurable function $G(A) \xrightarrow{\epsilon_A} A$ such that $\epsilon_A(\delta_a)=a$ for all $a \in A$. 
+Let $\delta_x$ denote the Dirac measure at $x$.
+
+\begin{corollary} If $X$ is an object in $\mathbf{Meas}_{Cvx}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
 \end{corollary}
-\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Std}_{Cvx}$ denote the inclusion functor. Let $A\downarrow \iota$ denote the slice category of arrows $A \xrightarrow{m} \mathbb{R}_{\infty}$, and let $A \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
-For $\mathcal{D}_A = A \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Std}_{Cvx}$ 
-the theorem is equivalent to saying $A = \lim \mathcal{D}_A$ with the projection map at component $m$ being $m$.
+\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the slice category of arrows $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
+For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ 
+the theorem is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$.
 
-Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(m)$.
-\begin{tikzpicture}
-  \node  (GA) at  (3,0)  {$G(A)$};
-  \node  (GV1) at (4.2,1.2) {$G(\mathbb{R}_{\infty})$};
-  \node  (GV2) at (4.2,-1.2) {$G(\mathbb{R}_{\infty})$};
-  \node  (A)  at (6.5,0)  {$A$};
-  \node  (V1)  at (7.7,1.2) {$\mathbb{R}_{\infty}$};
-  \node  (V2)  at (7.7,-1.2) {$\mathbb{R}_{\infty}$};
-  \draw[->,below] (A) to node {$m$} (V1);
-  \draw[->,above] (A) to node {$k$} (V2);
-  \draw[->,right] (V1) to node {$\phi_{m,k}$} (V2);
-  \draw[->,above,dashed] (GA) to node [xshift=7pt]{$\epsilon_A$} (A);  
-  \draw[->,above] (GA) to node [xshift=-9pt]{$G(m)$} (GV1);
-  \draw[->,below] (GA) to node [xshift=-7pt,yshift=5pt] {$G(k)$} (GV2);
-  \draw[->,above] (GV1) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (V1);
-  \draw[->,below] (GV2) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (V2);
- \end{tikzpicture}
+Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
-Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{Cvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all affine maps $A \xrightarrow{m} \mathbb{R}_{\infty}$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} \mathbb{R}_{\infty}$ in $\mathbf{Std}_{Cvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std}_{Cvx}$ it follows $\epsilon_A(\delta_a)=a$.
+Insert diagram 
+
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that on $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
 
-A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the __unique morphism__ such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all affine measurable functions $A \xrightarrow{m} \mathbb{R}_{\infty}$.
+A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
-The function $\epsilon_A$ is a $G$-algebra.
+The function $\epsilon_X$ is a $G$-algebra.
 \end{lemma}
-\begin{proof}The property $\epsilon_A(\delta_a)=a$ follows from the preceding corollary.
-To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by an affine measurable map $A \xrightarrow{m} \mathbb{R}_{\infty}$.
-If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} \mathbb{R}_{\infty}$ are jointly monic on $A$.
+\begin{proof}The property $\epsilon_X(\delta_x)=x$ follows from the preceding corollary.
+To prove the property $\epsilon_X \circ \mu_X = \epsilon_X \circ G(\epsilon_X)$  compose both sides of that equation by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$.
+If we spell both sides of that equation out, using the property $\int_X f \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(f) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $X  \xrightarrow{f} \mathbb{R}_{\infty}$ are jointly monic on $X$.
 
-The relevant diagram to fill in the details of the proof  can be found in  ([Sturtz 25](#Sturtz25)).
+(Need to add the relevant diagram)
 \end{proof}
 
-\begin{lemma} Let $A \in_{ob} \mathbf{Std}_{Cvx}$. Every affine measurable function $A \xrightarrow{m} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
+\begin{lemma} Let $X \in_{ob} \mathbf{Meas}_{Cvx}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
-By Corollary 3.9 the affine measurable function  $\epsilon_A =\mathbb{E}_{\bullet}(id_A)$ is the unique morphism in $\mathbf{Std}_{Cvx}$ such that for every $A \xrightarrow{m} \mathbb{R}_{\infty}$ the $\mathbf{Std}_{Cvx}$-diagram
-\begin{tikzpicture}
-  \node  (GA) at  (-1,0)  {$G(A)$};
-  \node  (GR) at  (2,0)   {$G(\mathbb{R}_{\infty})$};
-  \node  (A)  at   (-1,-1.5) {$A$};
-  \node  (R)  at   (2, -1.5)  {$\mathbb{R}_{\infty}$};
+By Corollary 3.9 the affine measurable function  $\epsilon_X =\mathbb{E}_{\bullet}(id_X)$ is the unique morphism in $\mathbf{Meas}_{Cvx}$ such that for every $X \xrightarrow{f} \mathbb{R}_{\infty}$ the $\mathbf{Meas}_{Cvx}$-diagram
 
-   \draw[->,below] (A) to node {$m$} (R);
-   \draw[->,above] (GA) to node {$G(m)$} (GR);
-   \draw[->, left] (GA) to node {$\mathbb{E}_{\bullet}(id_A)$} (A);
-   \draw[->,right] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
-\end{tikzpicture}
-commutes. But both $\mathbb{E}_{\bullet}(id_A)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $m$ is a morphism of those algebras.
+insert diagram
+
+commutes. But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
-\begin{lemma} The construction $\mathbb{E}_{\bullet}(id_A)$ is natural in the argument $A$.
+\begin{lemma} The construction $\mathbb{E}_{\bullet}(id_X)$ is natural in the argument $X$.
 \end{lemma}
 \begin{proof}
 The proof is straightforward using the previous lemma.
 \end{proof}
 
-Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
+Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$, and the partial forgetful functor $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
-Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
+Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
-\begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
+\begin{theorem} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{theorem}
-\begin{proof}  The preceding remark implies $\mathbf{Std}_{Cvx} \hookrightarrow \mathbf{Alg}_G$.  
+\begin{proof}  The preceding remark implies $\mathbf{Meas}_{Cvx} \hookrightarrow \mathbf{Alg}_G$.  
 
-To prove the converse condition suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
+To prove the converse condition suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Meas}_{Cvx}$ we need to verify that $X$ satisfies the fullness condition, and that there are enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$
+to coseparate the points of $X$.
 
-Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Std}$-diagram
+Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Meas}$-diagram
 \begin{tikzpicture}
    \node (G2X) at (-4,0) {$G^2(X)$};
    \node  (GX) at  (-4, -1.5) {$G(X)$};
@@ -301,23 +260,13 @@ Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ tha
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big) $$
 or equivalently, $h(P) \in m^{-1}( \tilde{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
 $$ \bigcap_{m \in \mathbb{R}_{\infty}^A} m^{-1}(\tilde{P}(m)) \ne \emptyset. $$
-Consequently $X$ lies in the category $\mathbf{Std}_{Cvx}$.
+Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
 
-The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Std}_{Cvx}$ follows from Lemma 3.1.
-Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Std}_{Cvx}$.  Combining this fact with the result that $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_G$ yields the result.
+The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Meas}_{Cvx}$ follows from Lemma 3.1.
+Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Meas}_{Cvx}$.  Combining this fact with the result that $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_G$ yields the result.
 \end{proof}
 
  
-Concerning $P$-algebras, the above method of using generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
-His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
- And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
-
-
-Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow X$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra. (In contrast, discrete standard measurable spaces $X=\mathbf{n}$, where $\mathbf{n}$ is a countable set, do have $G$-algebras $G{\mathbf{n}} \rightarrow \mathbf{n}$ defined by 
-$\sum_{i=1}^{n} p_i \delta_i \mapsto \min \{ i \, \textrm{ such that } p_i \gt 0 \}$
-where $\mathbf{n}$ has the (discrete) convex space structure $\frac{1}{2} i + \frac{1}{2} j = min(i,j)$.) 
-
-
 ## Related constructions
 
 See also [[monads of probability, measures, and valuations]].
