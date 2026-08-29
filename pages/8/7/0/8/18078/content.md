@@ -945,3 +945,26 @@ $$
     \frac{B[t/x] \vdash_{\text{SL}} A}{\forall x. B \vdash_{\text{SL}} A}\;\text{elim-}\forall
 $$
 
+\begin{definition}
+    \label{dual}
+    The dual of a sentence $A$ is another sentence $\overline{A}$ defined by structural induction on the syntax of the sentence by $
+        \begin{cases}
+            A & \,\text{if}\, A \,\text{is an atom}\\
+            \bot & \,\text{if}\, A = \top \\
+            \top & \,\text{if}\, A = \bot \\
+            \overline{C} \vee \overline{B} & \,\text{if}\, A = B \wedge C \\
+            \overline{C} \wedge \overline{B} & \,\text{if}\, A = B \vee C \\
+            \overline{C} \implies \overline{B} & \,\text{if}\, A = B - C \\
+            \overline{C} - \overline{B} & \,\text{if}\, A = B \implies C \\
+            \exists x. \overline{B} & \,\text{if}\, A = \forall x. B\\
+            \forall x. \overline{B} & \,\text{if}\, A = \exists x. B
+            \end{itemize}
+        \end{cases}
+    $.
+\end{definition}
+
+
+-- comment ?
+// comment ?
+{-# comment ? #-}
+
