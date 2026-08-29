@@ -31,7 +31,9 @@ Sometimes (e.g. in the [[Elephant]]) conservative functors are assumed to be [[f
 
 =--
 
-See [[conservative morphism]] for a generalization to an arbitrary [[2-category]].
+A family of functors $F_i\colon C\to D_i$ with common domain is conservative (or, for emphasis, jointly conservative) if it jointly reflects isomorphisms, that is, a morphism $g$ in the domain category is an isomorphism iff $F_i(g)$ is for every $i$.
+
+See [[conservative morphism]] for a generalization to an arbitrary [[2-category]]. 
 
 ## Examples
 
@@ -107,6 +109,12 @@ Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and s
 Up to [[equivalence]], every functor between small categories can be factored as an [[iterated localization]] followed by a conservative functor.
 \end{proposition}
 
+\begin{proposition}
+An [[exact functor]] $F$ between [[abelian categories]] is conservative iff it reflects zero objects, $F(M) = 0$ whenever $M = 0$. 
+\end{proposition}
+
+Indeed, in an Abelian category a morphism $f:A\to B$ is an isomorphism iff its kernel and cokernel are zero. Hence this follows from applying $F$ to the exact sequence
+$Ker(f)\to A\overset{f}\to B\to Coker(F)$.
 
 ## Related concepts
 
