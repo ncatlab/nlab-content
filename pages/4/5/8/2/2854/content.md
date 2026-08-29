@@ -20,7 +20,13 @@ Then the pair $(\triangleright,\sigma)$ defines the data for the __cocycled [[cr
 
 Conversely, if $H$ is a Hopf algebra, every cocycled product $U\sharp_\sigma H$ with invertible cocycle $\sigma$ is cleft via $\gamma: h\mapsto 1\sharp h$ with convolution inverse $\gamma^{-1}(h) = \sigma^{-1}(Sh_{(2)},h_{(3)})\otimes h_{(1)}$ and the cocycle $\sigma$ built out of $\gamma$ is the same one which helped build the cocycled crossed product.  
 
-Every cleft extension is a particular case of a [[Hopf-Galois extension]]. Any Hopf–Galois extension with the normal basis property is necessarily a cleft extension
+\begin{proposition}
+Every cleft $H$-extension $U\hookrightarrow E$ is a [[Hopf-Galois extension]], namely the inverse of the canonical map $E\otimes_U E\to E\otimes H$ is
+given by $e\otimes h\mapsto e\gamma^{-1}(h_{(1)})\otimes_U\gamma(h_{(2)})$,
+where $\gamma:H\to E$ is the cleaving map.
+\end{proposition}
+
+Any Hopf–Galois extension with the normal basis property is necessarily a cleft extension
 ([Doi Takeuchi 1986](#DoiTakeuchi86), Theorem 9).
 
 ## Literature
