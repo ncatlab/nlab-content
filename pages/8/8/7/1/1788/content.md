@@ -8,11 +8,15 @@
 
 ***
 
-**Prequantizing the C-field in IR-Completed 11D Supergravity**
+**On The Derivation of K-Theory from M-Theory**
 
-**Abstract.** 
-The traditional construction of (pre)symplectic phase spaces by variation of Lagrangian densities relies on gauge potentials and therefore applies globally only in the topologically trivial sector of (higher) gauge fields.
-For IR-completions (via flux quantizations) of the C-field of 11D supergravity we instead determine the presymplectic and prequantum structure globally by analysis of the recently constructed phase space stack. We find that there is an essentially unique closed 2-form on the reduced phase space whose pullback to the phase space stack is the fiber integral over the Cauchy surface of a differential polynomial in the bicomplex components of the C-field flux densities. This turns out to have a unique potential of the same nature, and to coincide on topologically trivial fields with the traditional symplectic form on the C-field sector of 11D SuGra. Hence it generalizes the latter to IR-completions, where its potential moreover exhibits a prequantization --- a prerequisite for (geometric) quantization.
+> In their optimistically titled article, DMW20 presented a quantum and "M-theoretic" consistency check of the seminal *Hypothesis K* --- that type IIA RR-flux is quantized in K-theory ---, by carefully matching, in a certain subsector, the resulting partition function in 10D to that of the shifted-integrally quantized C-field in 11D. This motives asking for something closer to a derivation of *Hypothesis K* from M-theory by first making a more comprehensive hypothesis about the flux-quantization in 11D and then obtaining *Hypothesis K* as the systematic result of its dimensional reduction. Here we present an observation further in this direction: 
+
+> We show that the recently discussed *Hypothesis H* --- that C-field flux is quantized in (tangentially twisted) 4-Cohomotopy ---, together with a regularity condition on the circle-reduction, *implies* that IIA fluxes are quantized in a nonabelian deformation of twisted K-theory, which projects onto twisted K-theory by forgetting the nonlinear 7-flux Gauss law.
+
+> Mathematically, what we prove is that the subspace of the cyclic loop space of $S^4$ on loops of low Dirichlet energy admits a universal comparison map to the classifying space for twisted K-theory, which on RR-flux generators is multiplication by 2, and that on the homotopy fiber of vanshing NS 3-charge (which is what DMW20 considered) this may be divided by 2.
+
+> Besides detailing the statement of this and related theorems we explain the relation to flux quantization of 11D/10D SuGra. Detailed proof are relegated to a companion article.
 
 ***
 
