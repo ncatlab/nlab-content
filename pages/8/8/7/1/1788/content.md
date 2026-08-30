@@ -10,13 +10,13 @@
 
 **On the Derivation of K-Theory from M-Theory**
 
-> In their optimistically titled article, DMW20 presented a quantum and M-theoretic consistency check of the widely considered *Hypothesis K* --- that type IIA RR-flux is quantized in K-theory ---, by carefully matching, in a certain subsector, the resulting partition function in 10D to that of the shifted-integrally quantized C-field in 11D. This motivates asking for something closer to an actual derivation of *Hypothesis K* from M-theory by first making a more comprehensive hypothesis about the flux-quantization in 11D and then obtaining *Hypothesis K* as the systematic result of its dimensional reduction. Here we present an observation further in this direction: 
+> In their optimistically titled article, DMW20 had presented a quantum and M-theoretic consistency check of the widely considered *Hypothesis K* --- that type IIA RR-flux is quantized in K-theory ---, by carefully matching, in a certain subsector, the resulting partition function in 10D to that of the shifted-integrally quantized C-field in 11D. This motivates asking for something closer to an actual derivation of *Hypothesis K* from M-theory by first making a more comprehensive hypothesis about the flux-quantization in 11D and then obtaining *Hypothesis K* as the systematic result of its dimensional reduction. Here we present an observation further in this direction: 
 
-> We show that the recently discussed *Hypothesis H* (for *coHomotopy cohomology theory*) --- that C-field flux is quantized in (tangentially twisted) 4-Cohomotopy ---, together with a regularity condition on the circle-reduction, *implies* that IIA fluxes are quantized in a nonabelian deformation of twisted K-theory, and that this is essentially twisted K-theory with the nonlinear Gauss law of the NS 7-flux taken into account.
+> We show that the recently discussed *Hypothesis H* (for *coHomotopy* cohomology theory) --- that C-field flux is quantized in (tangentially twisted) 4-Cohomotopy ---, together with a regularity condition on the circle-reduction, *implies* that IIA fluxes are quantized in a nonabelian deformation of twisted K-theory with the nonlinear Gauss law of the NS 7-flux taken into account.
 
-> Mathematically, what we prove is that the subspace of the cyclic loop space of $S^4$ on loops of low Dirichlet energy admits a universal comparison map to the classifying space for twisted K-theory over 10D, which on RR-fluxes is multiplication by 2, and that on the homotopy fiber of vanshing NS 3-charge (which is what DMW20 considered) this may be divided by 2.
+> Mathematically, what we prove is (i) that the subspace of the cyclic loop space of $S^4$ on loops of low Dirichlet energy admits a universal comparison map to the classifying space for twisted K-theory over 10D, which on RR-fluxes is multiplication by 2, and (ii) that on the homotopy fiber of vanshing $D_6$ and $D_8$ charge (which corresponds to the subsector DMW20 considered) this may be divided by 2.
 
-> Besides detailing the statement of this and related theorems, we explain the relation to flux quantization of 11D/10D supergravity. The proofs are non-trivial and are relegated to a companion article.
+> Besides precisely stating this and related theorems, we explain the relation to flux quantization of 11D/10D supergravity. The proofs are non-trivial and are relegated to a companion article.
 
 ***
 
