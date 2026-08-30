@@ -74,9 +74,9 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]] (=$\mathbf{Meas}_{G}$). 
 It is one of the most important examples of a [[Markov category]].
 
-### Algebras of the Giry Monad
+### Algebras of the Giry Monad on $\mathbf{Meas}$
 
-We construct a factorization of the $G$ monad which allows us to prove every $G$-algebra arises as an expectation map.
+We construct a factorization of the $G$ monad which shows every $G$-algebra is an expectation map.
 
 Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad has objects $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad, and consists of arrows $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
    
@@ -122,14 +122,12 @@ Recall that a $\mathbb{R}_{\infty}$-generalized point of $X$ is a functional $\m
 \begin{equation}
 \phi \big( J(f) \big) = J(\phi \circ f).
 \end{equation}
-Equivalently, the diagram
- insert Diagram
-commutes. (Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]].)
+Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. 
 
 Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$ is an $\mathbb{R}$-generalized point of $X$ since
 $\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$.
 
-Conversely, we have
+Conversely, we have the
 
 Conjecture.  If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
 
@@ -140,17 +138,17 @@ We say an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ satisfies the __fullne
 \end{equation}
 holds.
 
-\begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $J$ of $X$ which satisfies the fullness property is a point, i.e, $\mathbb{E}_{P} =ev_x$ for a unique element $x \in X$. ($ev_x$ is the evaluation map at the point $x$.)
-\end{lemma} [The statement needs fixed.]
-\begin{proof} Since the fullness property is satisfied there exist at least one element $x \in X$ such that $\mathbb{E}_{P}(f)=f(x)$. 
-Since $X$ lies in $\mathbf{Meas} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $x \in X$ satisfying, for all affine measurable maps $X \xrightarrow{f} \mathbb{R}_{\infty}$, the equation $\mathbb{E}_P(f)=f(x)$.  
+\begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $J$ of $X$ which satisfies the fullness property is a point, i.e, $J =ev_x$ for a unique element $x \in X$. ($ev_x$ is the evaluation map at the point $x$.)
+\end{lemma} 
+\begin{proof} Since the fullness property is satisfied there exist at least one element $x \in X$ such that $J(f)=f(x)$. 
+Since $X$ lies in $\mathbf{Meas} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $x \in X$ satisfying, for all affine measurable maps $X \xrightarrow{f} \mathbb{R}_{\infty}$, the equation $J(f)=f(x)$.  
 \end{proof}
 
 Define $\mathbf{Meas}_{Cvx}$ to be the full subcategory of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
 Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Meas}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
-Note that for every [[measurable space]] $X$ that $G(X)$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$ because, for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to separate $G(X)$.
+Also note that for every [[measurable space]] $X$ that $G(X)$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$ because, for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
 
 
 \begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Meas}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
@@ -171,7 +169,7 @@ $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  If, for $f, g \
 
 Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ the conjecture - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
 
-Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y} = ev_x$ and $\mathcal{Y}$ is full.
+Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is full.
 \end{proof}
 
 Note that in the proof we do not need the conjecture per se, all we require is that the $\mathbb{R}_{\infty}$-generalized point $J$ satisfies $J(f) \in Im(f)$ for all affine measurable functions $f$.  However trying to prove the condition $J(f) \in Im(f)$ given the naturality condition leads to the conjecture.
@@ -182,13 +180,11 @@ Let $\delta_x$ denote the Dirac measure at $x$.
 \end{corollary}
 \begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the slice category of arrows $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
 For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ 
-the theorem is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$.
+the theorem is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is codense. See Propositions 1 and 2, page 242 of [[CWM]].
 
 Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
-Insert diagram 
-
-Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that on $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
 
 A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -200,17 +196,16 @@ The function $\epsilon_X$ is a $G$-algebra.
 To prove the property $\epsilon_X \circ \mu_X = \epsilon_X \circ G(\epsilon_X)$  compose both sides of that equation by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 If we spell both sides of that equation out, using the property $\int_X f \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(f) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $X  \xrightarrow{f} \mathbb{R}_{\infty}$ are jointly monic on $X$.
 
-(Need to add the relevant diagram)
 \end{proof}
 
 \begin{lemma} Let $X \in_{ob} \mathbf{Meas}_{Cvx}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
-By Corollary 3.9 the affine measurable function  $\epsilon_X =\mathbb{E}_{\bullet}(id_X)$ is the unique morphism in $\mathbf{Meas}_{Cvx}$ such that for every $X \xrightarrow{f} \mathbb{R}_{\infty}$ the $\mathbf{Meas}_{Cvx}$-diagram
-
-insert diagram
-
-commutes. But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
+By Corollary 3.9 the affine measurable function  $\epsilon_X =\mathbb{E}_{\bullet}(id_X)$ is the unique morphism in $\mathbf{Meas}_{Cvx}$ such that for every $X \xrightarrow{f} \mathbb{R}_{\infty}$ the property 
+$$
+f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f)
+$$
+holds. But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
 \begin{lemma} The construction $\mathbb{E}_{\bullet}(id_X)$ is natural in the argument $X$.
@@ -259,7 +254,7 @@ Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Con
 Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big) $$
 or equivalently, $h(P) \in m^{-1}( \tilde{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
-$$ \bigcap_{m \in \mathbb{R}_{\infty}^A} m^{-1}(\tilde{P}(m)) \ne \emptyset. $$
+$$ \bigcap_{m \in \mathbb{R}_{\infty}^A} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
 Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
 
 The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Meas}_{Cvx}$ follows from Lemma 3.1.
