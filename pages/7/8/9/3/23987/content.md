@@ -3396,6 +3396,22 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Aug 2026
+
+* 31 Aug 2026
+
+  Zihao Wang (National University of Singapore): 
+
+  **Emergent Gauge Fields and Topological Flat Bands in Monolayer Graphene Moire Systems: Pseudo-Landau Level Networks and Quantized Integer Doping**
+
+  > Moiré materials have become a laboratory in which geometry generates [[topological phase of matter|topology]]: a superlattice, and the [[strain]] that comes with it, reshapes the electronic structure into flat [[electron band|bands]] that can be [[topological phase of matter|topologically non-trivial]], hosting correlated [[topological insulator|insulators]], orbital ferromagnetism, [[fractional Chern insulators]] and, most recently, the [[fractional quantum anomalous Hall effect]] --- a zero-field realisation of the [[fractional quantum Hall effect]]. 
+
+  > Experimentally, the field has moved to ever more complex stacks, from magic-angle twisted bilayers to twisted TMDs and rhombohedral [[graphene]] five and six layers thick, and the underlying physics has become correspondingly harder to disentangle. 
+
+  > Here I take the opposite direction, to a platform that is simpler both to build experimentally and to model theoretically: double-aligned monolayer hBN / monolayer graphene / monolayer hBN. Two observations organise the talk. Pristine graphene acquires a doping purely from its reconstruction with hBN, locked to an integer number of electrons or holes per moiré cell, and switchable electrically between $n$- and $p$-type: a discrete, moiré-quantised ferroelectricity. Across that switch, scanning tunnelling microscopy (STN) shows the reconstructed lattice converting from triangular to hexagonal, tying the structural transition to the electronic one. Both trace back to an emergent [[gauge field]]. The reconstruction strain enters the [[Dirac operator|Dirac]] [[Hamiltonian]] as a [[vector potential]], and the pseudo-magnetic field it carries organises the spectrum into pseudo-Landau levels --- a network that is simultaneously a set of flat bands in $k$-space and a periodic array of quantum dots in real space. The integer doping follows from how this network fills; switching the gate redraws the strain, and with it the gauge field and the state it supports. What emerges is a lithography-free, electrically reconfigurable platform for topological flat-band physics — and one simple enough monolayer system for theory to engage with directly
+
+\linebreak
+
 
 
 ***
