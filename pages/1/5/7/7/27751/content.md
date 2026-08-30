@@ -116,6 +116,10 @@ See also:
 
 * Chao-Hsiang Sheu, [[Mikhail Shifman]]: *More on Classical Stability of Hopf-like Solitons of the Toroidal-Twisted type* &lbrack;[arXiv:2605.00757](https://arxiv.org/abs/2605.00757)&rbrack;
 
+Experimental realization:
+
+* Kaixin Zhu et al.: *Magnetic hopfions at room temperature* &lbrack;[arXiv:2607.26839](https://arxiv.org/abs/2607.26839)&rbrack;
+
 
 
 
