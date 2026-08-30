@@ -15,9 +15,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Overview
 
@@ -103,6 +102,7 @@ Since Agda has many experimental features under active development, bugs in thes
 
 [[!include proof assistants and formalization projects -- list]]
 
+
 ## References
  {#References}
 
@@ -112,13 +112,25 @@ Agda landing page:
 
 * [wiki.portal.chalmers.se/agda/pmwiki.php](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 
-Documentation:
-
-* [agda.readthedocs.io](https://agda.readthedocs.io/en/v2.6.3)
-
 Online Agda interface:
 
 * [[Ingo Blechschmidt]]: [agdapad.quasicoherent.io](https://agdapad.quasicoherent.io)
+
+Agda documentation:
+
+* [agda.readthedocs.io](https://agda.readthedocs.io/en/v2.6.3)
+
+* [Agda Wiki](https://wiki.portal.chalmers.se/agda/)
+
+
+Agda community (cf. *[Agda Wiki -- Community](https://wiki.portal.chalmers.se/agda/Main/Community)*):
+
+* [Agda Zulip chat](https://agda.zulipchat.com) 
+  > (recommended)
+
+* [Agda Discord server](discord.com/invite/5wNVzVk) 
+  > (discouraged, except if voice/video/screen sharing is required)
+
 
 Plain Agda originates with:
 
@@ -204,7 +216,7 @@ With emphasis on implementing [[homotopy type theory]] and [[univalent foundatio
 
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
-* {#MyersRiley24} [[David Jaz Myers]], [[Mitchell Riley]], course notes for *Introduction to Cubical* at [[CQTS]] @ NYU Abu Dhabi (2023, 24) &lbrack;[github](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures)&rbrack;
+* {#MyersRiley24} [[David Jaz Myers]], [[Mitchell Riley]], course notes for *Introduction to Cubical* at [[CQTS]] @ NYU Abu Dhabi (2023--2024) &lbrack;[github](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures)&rbrack;
 
 
 
