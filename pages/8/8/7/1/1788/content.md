@@ -29,3 +29,24 @@
 	\arrow[""{name=1p, anchor=center, inner sep=0}, phantom, from=1-3, to=1-1, start anchor=center, end anchor=center, shift right=2]
 	\arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=1p, to=0p]
 \end{tikzcd}
+
+---
+
+
+\begin{definition}
+    \label{topological semantics}
+    Let $T$ be a topological space closed under arbitrary intersections (i.e. an [[Alexandrov topology]], not to be confused with [[Alexandrov space]]), a topological interpretation (of _propositional_ subtractive logic) is a function $\llbracket \cdot \rrbracket$ from sentences to opens of $T$ satisfying:
+
+$$
+        \llbracket A \rrbracket = \begin{cases}
+            T & \,\text{if}\, A = \top\\
+            \emptyset & \,\text{if}\, A = \bot \\
+            \llbracket B \rrbracket \cup \llbracket C \rrbracket & \,\text{if}\, A = B \wedge C \\
+            \llbracket B \rrbracket \cap \llbracket C \rrbracket & \,\text{if}\, A = B \vee C \\
+            \mathrm{Ext}(\llbracket B \rrbracket \setminus \llbracket C \rrbracket) & \,\text{if}\, A = B \implies C \\
+            \mathrm{Int}(\llbracket B \rrbracket \setminus \llbracket C \rrbracket) & \,\text{if}\, A = B - C
+        \end{cases}
+    $$
+
+and we say that $A \vdash B$ is _true_ for this interpretation if $\llbracket A \rrbracket \subseteq \llbracket B \rrbracket$
+\end{definition}
