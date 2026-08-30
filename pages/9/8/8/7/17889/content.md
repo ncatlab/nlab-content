@@ -79,7 +79,7 @@ This rule usually does not have a dual in intuitionistic logic, but we'll just c
 Rule for *subtractions*:
 
 $$
-    \frac{}{B \vdash_{\text{SL}} (A \implies B) \vee A}\;\text{elim-}\text{sub} \qquad
+    \frac{}{B \vdash_{\text{SL}} (A - B) \vee A}\;\text{elim-}\text{sub} \qquad
     \frac{C \vdash_{\text{SL}} A \vee B}{B - C\vdash_{\text{SL}} A}\;\text{intro-}\text{sub}
 $$
 
