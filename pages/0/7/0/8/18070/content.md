@@ -1800,6 +1800,10 @@ Discussion of the [[Morava E-theory]] of configuration spaces of points:
 
 * [[Lukas Brantner]], [[Jeremy Hahn]], [[Ben Knudsen]], *The Lubin-Tate Theory of Configuration Spaces: I* ([arXiv:1908.11321](https://arxiv.org/abs/1908.11321))
 
+See also:
+
+* Si Li, Peng Yang, Jiawei Zhou: *On the Formality of Configuration Spaces of $\mathbb{R}^{n'} \times \mathbb{C}^n$* &lbrack;[arXiv:2608.28200](https://arxiv.org/abs/2608.28200)&rbrack;
+
 
 ### Homotopy
 
@@ -1826,6 +1830,8 @@ Second Series **139** 2 (1994) 227-237 &lbrack;[jstor:2946581](https://www.jstor
 See also:
 
 * Joana Cirici, [[Geoffroy Horel]]: *On the l-adic homotopy type of configuration spaces* &lbrack;[arXiv:2606.31949](https://arxiv.org/abs/2606.31949)&rbrack;
+
+
 
 
 
