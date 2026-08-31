@@ -83,6 +83,11 @@ Description of flux tubes via [[holographic QCD]]:
 
 * Tommaso Canneti: *Flux tube profile from Holography: finite size and strong coupling corrections* &lbrack;[arXiv:2510.02442](https://arxiv.org/abs/2510.02442)&rbrack;
 
+On [[quantum simulation]] of flux tubes:
+
+* Zeno Bacciconi, Martina Frau, Luca Tagliacozzo, Michele Caselle, Marcello Dalmonte: *Pulling strings in real time: flux tube dynamics in (2+1)-d $\mathbb{Z}_2$-Higgs Gauge Theories* &lbrack;[arXiv:2608.27561](https://arxiv.org/abs/2608.27561)&rbrack;
+
+
 
 
 
