@@ -3400,7 +3400,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * 31 Aug 2026
 
-  Zihao Wang (National University of Singapore): 
+  [Zihao Wang](https://scholar.google.com/citations?user=kPcJaaUAAAAJ&hl=en) (National University of Singapore): 
 
   **Emergent Gauge Fields and Topological Flat Bands in Monolayer Graphene Moire Systems: Pseudo-Landau Level Networks and Quantized Integer Doping**
 
