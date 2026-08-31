@@ -1,4 +1,4 @@
-* [webpage](https://people.kth.se/~tilmanb/)
+* [webpage](https://tilmanbauer.github.io/)
 
 ## Selected writings
 
