@@ -34,7 +34,12 @@ More generally, an **absolutely dense morphism** in a [[proarrow equipment]] $K 
 
 ## Properties
 
-Every simultaneously reflective and coreflective subcategory of a presheaf category is itself a presheaf category and is induced by precomposition along an absolutely dense functor: this is the main result of the paper of El Bashir--Velebil below.
+* Every simultaneously reflective and coreflective subcategory of a presheaf category is itself a presheaf category and is induced by precomposition along an absolutely dense functor: this is the main result of the paper of El Bashir--Velebil below.
+* Every absolutely dense functor is [[final functor|final]].
+
+## Examples
+
+* Every [[localisation functor]] is absolutely dense (Lemma 1.2 of Gabriel–Zisman).
 
 ## References
 
