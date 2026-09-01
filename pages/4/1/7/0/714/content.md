@@ -490,9 +490,13 @@ On [[model category]]-presentations of dagger category [[internalization|objects
   *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy and Applications **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254)&rbrack;
 
   {#Bergner12Erratum} *Erratum to “Adding inverses to diagrams encoding algebraic structures” and “Adding inverses to diagrams II: Invertible homotopy theories are spaces”*, Homology, Homotopy and Applications **14** 1 (2012) 287-291 &lbrack;[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15), [arXiv:0710.2254 pp 18](https://arxiv.org/pdf/0710.2254#page=18)&rbrack;
+
+
+* Keima Akasaka: *Models for dagger $(\infty,1)$-categories I: Dagger simplicial sets and unitary cores* &lbrack;[arXiv:2608.29730](https://arxiv.org/abs/2608.29730)&rbrack;
+
   
 
-#### Dagger (∞,n)-categories
+#### Dagger $(\infty,n)$-categories
 
 Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
