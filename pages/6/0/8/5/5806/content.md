@@ -373,6 +373,9 @@ See also:
 
 * George Raptis, Wolfgang Steimle: *The span-squares adjunction* &lbrack;[arXiv:2606.10052](https://arxiv.org/abs/2606.10052)&rbrack;
 
+* Jonte Gödicke, Quoc P. Ho, Walker H. Stern: *The $(\infty, \infty)$-category of spans* &lbrack;[arXiv:2608.29495](https://arxiv.org/abs/2608.29495)&rbrack;
+
+
 
 
 [[!redirects (∞,n)-category of spans]]
