@@ -116,7 +116,9 @@ Further developments:
 
 * Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]: *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994) &lbrack;[hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)&rbrack;
 
-On rigorous construction of the [[path integral]] [[measure]] [[invariant]] under [[area-preserving diffeomorphisms]]:
+On rigorous [[constructive QFT|construction]] of the [[path integral]] [[measure]] [[invariant]] 
+
+under [[area-preserving diffeomorphisms]]:
 
 * {#Sengupta1992} [[Ambar N. Sengupta]], *The Yang-Mills measure for $S^2$*, Journal of Functional Analysis **108**  2 (1992) 231–273 \[<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>\]
 
@@ -127,6 +129,10 @@ On rigorous construction of the [[path integral]] [[measure]] [[invariant]] unde
 * {#Pickrell1996} [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
 
 * [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+
+and via [[Morse theory]]:
+
+* Reda Chhaibi, Nguyen Viet Dang, Yannick Guedes Bonthonneau, Gabriel Rivière, Tat Dat Tô: *The Yang-Mills measure on surfaces via Morse theory* \[<a href="https://arxiv.org/abs/2607.24640">arXiv:2607.24640</a>\]
 
 
 On [[D=2 QCD]]:
