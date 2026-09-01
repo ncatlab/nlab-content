@@ -112,3 +112,20 @@ Review:
 * [[Gábor Pete]], section 2 of _Morse theory_, lecture notes 1999--2001 &lbrack;[pdf](http://www.math.bme.hu/~gabor/morse.pdf)&rbrack;
 
 
+### Infinite-dimensional version
+
+Morse theory on [[infinite-dimensional manifold|infinite-dimensional]] [[Hilbert manifolds]]:
+
+* [[Richard S. Palais]]: *Morse theory on Hilbert manifolds*, Topology, **2** 4 (1963) 299--340 \[<a href="https://doi.org/10.1016/0040-9383(63)90013-2">doi:10.1016/0040-9383(63)90013-2</a>\]
+
+* [[Richard S. Palais]], [[Stephen Smale]]: *A generalized Morse theory*, Bull. Amer. Math. Soc. **70** 1 (1964) 165--172 &lbrack;[doi:10.1090/S0002-9904-1964-11062-4](https://doi.org/10.1090/S0002-9904-1964-11062-4), [euclid:bams/1183525794](projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-70/issue-1/A-generalized-Morse-theory/bams/1183525794.full)&rbrack;
+
+
+Specifically for Morse function the [[kinetic energy|kinetic]] [[Dirichlet energy]] [[functional]] on [[loop spaces]]:
+
+* [[Wolfgang Ziller]]: *The free loop space of globally symmetric spaces*, Invent. Math. **41** (1977) 1--22 &lbrack;[doi:10.1007/BF01390161](http://doi.org/10.1007/BF01390161), [eudml:142482](https://eudml.org/doc/142482)&rbrack;
+
+* [[Alexandru Oancea]]: *Morse theory, closed geodesics, and the homology of free loop spaces*, in: *Free Loop Spaces in Geometry and Topology* IRMA Lect. Math. Theor. Phys. **24**,  EMS (2015) &lbrack;[arXiv:1406.3107 math.DG](https://arxiv.org/abs/1406.3107), [doi:10.4171/153/2](https://www.google.com/search?q=https://doi.org/10.4171/153/2)&rbrack;
+
+
+
