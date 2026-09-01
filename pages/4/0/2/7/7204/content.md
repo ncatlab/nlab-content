@@ -61,10 +61,11 @@ Original constructions (mostly of [[type IIA supergravity|type IIA]]):
 
 * [[F. Giani]], [[Mario Pernici]]: *$N=2$ supergravity in ten dimensions*, Phys. Rev. D **30** (1984) 325 &lbrack;[doi:10.1103/PhysRevD.30.325](https://doi.org/10.1103/PhysRevD.30.325)&rbrack;
 
+* I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B **243** 1 (1984) 112--124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
+
+
 * M. Huq, M. A. Namazie, *Kaluza-Klein supergravity in ten dimensions*, Classical and Quantum Gravity **2** 3 (1985) &lbrack;[doi:10.1088/0264-9381/2/3/007](https://iopscience.iop.org/article/10.1088/0264-9381/2/3/007)&rbrack;
 
-* I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B
-**243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
 
 Discussion on [[superspace]]:
 
@@ -83,9 +84,7 @@ See also the general references at _[[supergravity]]_.
 
 * [[Joseph Polchinski]], chapter 12.1 of: *[[String Theory]]* *Vol 2: Superstring and beyond*, Cambridge Monographs on Mathematical Physics (1998) &lbrack;[doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)&rbrack;
 
-Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d supergravity]]:
-
-* M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293 ([spire:196711](https://inspirehep.net/literature/196711))
+Further construction via [[KK-compactification]] from [[11d supergravity]]:
 
 * [DFGT08](#DFGT08)
 
