@@ -1,5 +1,15 @@
 
-* [webpage](http://vmm.math.uci.edu/)
+Richard Sheldon Palais (1931--2026) 
+
+* [personal page](https://webapps.math.uci.edu/~palais/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Richard_Palais)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=35504)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=aY7OkG8AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Richard-Palais)
 
 ## Selected writings
 
@@ -13,6 +23,15 @@ On the [[slice theorem]]:
 
 * [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics
 Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
+
+
+On [[Morse theory]] over [[infinite-dimensional manifold|infinite-dimensional]] [[Hilbert manifolds]]:
+
+* [[Richard S. Palais]]: *Morse theory on Hilbert manifolds*, Topology, **2** 4 (1963) 299--340 \[<a href="https://doi.org/10.1016/0040-9383(63)90013-2">doi:10.1016/0040-9383(63)90013-2</a>\]
+
+* [[Richard S. Palais]], [[Stephen Smale]]: *A generalized Morse theory*, Bull. Amer. Math. Soc. **70** 1 (1964) 165--172 &lbrack;[doi:10.1090/S0002-9904-1964-11062-4](https://doi.org/10.1090/S0002-9904-1964-11062-4), [euclid:bams/1183525794](projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-70/issue-1/A-generalized-Morse-theory/bams/1183525794.full)&rbrack;
+
+
 
 On [[homotopy theory]] of [[infinite-dimensional manifolds]], such as the [[absolute neighbourhood retract]]-property of [[paracompact topological space|paracompact]] [[Banach manifolds]]:
 
