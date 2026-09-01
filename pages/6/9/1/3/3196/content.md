@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -62,20 +62,22 @@ The restriction to the [[unit sphere]] in $\mathbb{R}^{n+1}$ of a generic quadra
 
 * [[Reeb graph]]
 
+
 ## References
 
 ### General
 
-* {#Milnor1963} [[John Milnor]]: _Morse theory_ , Princeton University Press (1963) &lbrack;[ISBN:9780691080086](https://press.princeton.edu/books/paperback/9780691080086/morse-theory), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/milnmors.pdf)&rbrack;
+* {#Milnor1963} [[John Milnor]]: *Morse theory*, Princeton University Press (1963) &lbrack;[ISBN:9780691080086](https://press.princeton.edu/books/paperback/9780691080086/morse-theory), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/milnmors.pdf)&rbrack;
 
-* [[Raoul Bott]], _[Morse theory indomitable](http://archive.numdam.org/article/PMIHES_1988__68__99_0.pdf)_, _Publications Math&#233;matiques de L'IH&#201;S_, 1988, Volume 68, Number 1, Pages 99-114.
+* [[Raoul Bott]]: *Lectures on Morse Theory, Old and New*,  Bull. Amer. Math. Soc. **7** (1982) 331--358 &lbrack;[ams:bull/1982-07-02/S0273-0979-1982-15038-8/](http://www.ams.org/journals/bull/1982-07-02/S0273-0979-1982-15038-8/)&rbrack;
 
-* [[Raoul Bott]], [Lectures on Morse Theory, Old and New](http://www.ams.org/journals/bull/1982-07-02/S0273-0979-1982-15038-8/),  Bull. Amer. Math. Soc. 7 (1982), 331-358.
+* [[Raoul Bott]]: *Morse theory indomitable*, _Publications Math&#233;matiques de L'IH&#201;S_ **68** 1 (1988) 99--114 &lbrack;[numdam:PMIHES_1988__68__99_0](https://www.numdam.org/item/?id=PMIHES_1988__68__99_0)&rbrack;
+
 
 * [[Raoul Bott]], The stable homotopy of the classical groups.
- Ann. of Math. (2) 70 1959 313&#8211;337.
+ Ann. of Math. **2** 70 (1959) 313--337.
 
-* [[Daniel Freed]], [Commentary](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01349-0/) on "Lectures on Morse Theory, Old and New", Bull. Amer. Math. Soc., 48(4), October 2011, 517&#8211;523
+* [[Daniel Freed]], [Commentary](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01349-0/) on "Lectures on Morse Theory, Old and New", Bull. Amer. Math. Soc., 48(4), October 2011, 517--523
 
 * [[Marco Gualtieri]], _[Course page](http://www.math.toronto.edu/mgualt/Morse%20Theory/Morse_2009.html)_, lecture notes and links.
 
@@ -97,16 +99,16 @@ There is also a variant due to Barannikov, and in a more abstract form due to Vi
 
 * Fran&#231;ois Laudenbach, _On an article by S. A. Barannikov_, [arxiv/1509.03490](http://arxiv.org/abs/1509.03490)
 
-* Dorian Le Peutrec, Francis Nier, Claude Viterbo, [_Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_](https://link.springer.com/article/10.1007/s00023-012-0193-9), Annales Henri Poincar&#233; 14 (2013), 567–610.
+* Dorian Le Peutrec, Francis Nier, Claude Viterbo: _Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_, Annales Henri Poincar&#233; **14** (2013) 567--610 &lbrack;[doi:10.1007/s00023-012-0193-9](https://link.springer.com/article/10.1007/s00023-012-0193-9)&rbrack;
 
 ### Relation to supersymmetric quantum mechanics
 
 The relation to [[supersymmetric quantum mechanics]] is due to 
 
-* [[Edward Witten]]. _Supersymmetry and Morse theory_. J. Diff Geom. 17(4): 661-692 (1982). ([doi](https://doi.org/10.4310/jdg/1214437492))
+* [[Edward Witten]]. _Supersymmetry and Morse theory_. J. Diff Geom. **17** 4 (1982) 661--692 &lbrack;[doi:10.4310/jdg/1214437492](https://doi.org/10.4310/jdg/1214437492)&rbrack;
 
-Reviews include
+Review:
 
-* [[Gábor Pete]], section 2 of _Morse theory_, lecture notes 1999-2001   ([pdf](http://www.math.bme.hu/~gabor/morse.pdf))
+* [[Gábor Pete]], section 2 of _Morse theory_, lecture notes 1999--2001 &lbrack;[pdf](http://www.math.bme.hu/~gabor/morse.pdf)&rbrack;
 
 
