@@ -261,9 +261,9 @@ $$
 Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
 
 Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
-$$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big) $$
-or equivalently, $h(P) \in m^{-1}( \mathbb{E}_{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
-$$ \bigcap_{m \in \mathbb{R}_{\infty}^A} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
+$$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big). $$
+  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
+$$ \bigcap_{m \in \mathbb{R}_{\infty}^X} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
 Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
 
 The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Meas}_{Cvx}$ follows from Lemma 3.1.
