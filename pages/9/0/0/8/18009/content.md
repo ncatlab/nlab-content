@@ -274,15 +274,16 @@ and recalled/expanded on in several followup articles, such as in
 
 The above formulation of cyclic loop spaces, in the generality of [[∞-stacks]], as right [[base change]] to the [[delooping]] of the [[circle group]], and its relation to [[double dimensional reduction]] in [[brane]]-physics, is due to:
 
-* {#BMSS19} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]]: Section 2.2 of _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics, **371** 197 (2019) ([doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4), [arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
+* {#BMSS19} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]]; §2.2 of: _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics **371** 197 (2019) &lbrack;[doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4), [arXiv:1806.01115](https://arxiv.org/abs/1806.01115)&rbrack;
 
 following the analogous discussion in [[rational homotopy theory]] in 
 
-* {#FSS18} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes|T-Duality from super Lie $n$-algebra cocycles for super $p$-branes]]*, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/), [doi:10.4310/ATMP.2018.v22.n5.a3](http://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3), [arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+* {#FSS18} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]; Section 3 of: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes|T-Duality from super Lie $n$-algebra cocycles for super $p$-branes]]*, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) &lbrack;[doi:10.4310/ATMP.2018.v22.n5.a3](http://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3), [arXiv:1611.06536](https://arxiv.org/abs/1611.06536)&rbrack;
 
 with exposition in
 
-* [[Urs Schreiber]], [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of:  *[[schreiber:Super Lie n-algebra of Super p-branes]]* (2016)
+* [[Urs Schreiber]]; [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of: *[[schreiber:Lisbon 2017|Duality in String/M-Theory from Cyclic cohomology of Super Lie n-algebras]]* (2016--2017)
+
 
 [[!redirects cyclic loop spaces]]
 
@@ -292,4 +293,4 @@ with exposition in
 [[!redirects twisted loop space]]
 [[!redirects twisted loop spaces]]
 
-
+[[!redirects Ext/Cyc-adjunction]]
