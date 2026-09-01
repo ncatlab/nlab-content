@@ -116,20 +116,30 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the category whose objects $X$ are measurable spaces with a convex space structure such that there are enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
-Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \mathbb{E}_{P}(f)$ where $\mathbb{E}_{P}(f) = \int_X f \, dP$.   Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.  
+Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. Note that the functional is                                        (1) weakly averaging, and (2)linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
-Recall that a $\mathbb{R}_{\infty}$-generalized point of $X$ is a functional $\mathbb{R}_{\infty}^X \xrightarrow{J} \mathbb{R}_{\infty}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$, the equation 
+Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.
+
+ An $\mathbb{R}_{\infty}$-generalized point of an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ is a functional $\mathbb{R}_{\infty}^X \xrightarrow{J} \mathbb{R}_{\infty}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$, the equation 
 \begin{equation}
 \phi \big( J(f) \big) = J(\phi \circ f).
 \end{equation}
-Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. 
+Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. Weakly averaging functions are also defined there.
 
-Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$ is an $\mathbb{R}$-generalized point of $X$ since
+Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\widehat{ \mathbb{E}_P}$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
 $\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$.
 
-Conversely, we have the
-
-Conjecture.  If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
+The converse of the above statement is also true.
+\begin{lemma}
+  If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
+\end{lemma}
+\begin{proof}
+Let $X$ be an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  We have the inclusion function $hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty}) \xrightarrow{\iota} hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$ which induces the restriction mapping
+$$
+\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear} \xrightarrow{\mathbb{R}_{\infty}^{\iota}} \mathbb{R}_{\infty}^{hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})}|_{\mathbb{R}_{\infty}-generalized pt}
+$$
+which is a surjective function.  This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ defined by $\widehat{\mathbb{E}_P} \cong \widehat{\mathbb{E}_Q}$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\widehat{\mathbb{E}_P}$, which in turn arises from the probability measure $P$ on $X$.
+\end{proof}
 
 
 We say an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ satisfies the __fullness property__ if and only if for every $P \in G(X)$ the property
@@ -156,7 +166,7 @@ The functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
 \mathbf{Meas}_{Cvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
-X & \mapsto & \mathbf{Meas}_{Cvx}(X, \bullet)
+X & \mapsto & hom_{\mathbf{Meas}_{Cvx}}(X, \bullet)
 \end{array}
 \end{equation}
 is a full and faithful functor.
@@ -167,12 +177,10 @@ In the category $\mathbf{Meas}_{Cvx}$ every affine measurable function $X \xrigh
 Faithful:  We have $\mathcal{Y}(x)$ is the evaluation map
 $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  If, for $f, g \in \mathbb{R}_{\infty}^X$, we have $f(x) = g(x)$ then since $X$ has enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$ to coseparate points it follows that $f=g$.  
 
-Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ the conjecture - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
+Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.2 - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
 
 Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is full.
 \end{proof}
-
-Note that in the proof we do not need the conjecture per se, all we require is that the $\mathbb{R}_{\infty}$-generalized point $J$ satisfies $J(f) \in Im(f)$ for all affine measurable functions $f$.  However trying to prove the condition $J(f) \in Im(f)$ given the naturality condition leads to the conjecture.
 
 Let $\delta_x$ denote the Dirac measure at $x$.
 
@@ -201,11 +209,12 @@ If we spell both sides of that equation out, using the property $\int_X f \, d(\
 \begin{lemma} Let $X \in_{ob} \mathbf{Meas}_{Cvx}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
-By Corollary 3.9 the affine measurable function  $\epsilon_X =\mathbb{E}_{\bullet}(id_X)$ is the unique morphism in $\mathbf{Meas}_{Cvx}$ such that for every $X \xrightarrow{f} \mathbb{R}_{\infty}$ the property 
+We have already noted that for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
+That equation is equivalent to the statement 
 $$
-f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f)
+f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f).
 $$
-holds. But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
+But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
 \begin{lemma} The construction $\mathbb{E}_{\bullet}(id_X)$ is natural in the argument $X$.
@@ -214,7 +223,7 @@ holds. But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\math
 The proof is straightforward using the previous lemma.
 \end{proof}
 
-Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$, and the partial forgetful functor $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
+Using the naturality of $\mathbb{E}$ we obtain an adjunct pair of functors consisting of the ''free functor'' $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$, and the (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
 Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
@@ -246,14 +255,14 @@ Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We
 \end{tikzpicture}
 commutes.
 
-To prove this note that the space $G(X)$ is, by Lemma 3.7, an object in $\mathbf{Std}_{Cvx}$, and that $\mathbb{R}_{\infty}$ is also an object in $\mathbf{Std}_{Cvx}$.  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Std}_{Cvx}$.  By Corollary 3.11 it follows that the outer square commutes.  Thus we have
+To prove this note that the space $G(X)$ as well as $\mathbb{R}_{\infty}$ are objects in $\mathbf{Meas}_{Cvx}$.  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
 $$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
 $$
 Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
 
 Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big) $$
-or equivalently, $h(P) \in m^{-1}( \tilde{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
+or equivalently, $h(P) \in m^{-1}( \mathbb{E}_{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
 $$ \bigcap_{m \in \mathbb{R}_{\infty}^A} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
 Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
 
@@ -365,10 +374,7 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]], which is from the article
-
-* {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
-
+views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]].
 
 Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
 
