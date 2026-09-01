@@ -16,7 +16,7 @@ On canonical quantization of [[gauge theories]] with [[Gauss law]] [[constrained
 
 * [[Kurt Haller]]: *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 \[<a href="https://doi.org/10.1103/PhysRevD.36.1839">doi:10.1103/PhysRevD.36.1839</a>\]
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]]; §19.1.1 in:  *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
+* [[Marc Henneaux]], [[Claudio Teitelboim]]; §19.1.1 in:  *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) \[<a href="https://doi.org/10.2307/j.ctv10crg0r">doi:10.2307/j.ctv10crg0r</a>\]
 
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* \[<a href="https://arxiv.org/abs/hep-ph/9307319">arXiv:hep-ph/9307319</a>\]
 
