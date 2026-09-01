@@ -13,17 +13,27 @@
 =--
 
 
-This entry provides hyperlinks for the book
+This entry is to record the reference:
 
-* [[Kevin Costello]], 
+* [[Kevin Costello]]:
 
-  _Renormalization and effective field theory_  
+  \linebreak
 
-  Mathematical Surveys and Monographs, Volume 170  
+  **Renormalization and effective field theory**
+
+  \linebreak
+
+  Mathematical Surveys and Monographs **170**
   
   American Mathematical Society (2011)
 
-  ([AMS website](http://www.ams.org/publications/authors/books/postpub/surv-170), [book pdf](https://web.archive.org/web/20160304134950/http://math.northwestern.edu/~costello/renormalization_book.pdf), [talk slides](http://www.math.northwestern.edu/~costello/slides.pdf))
+  [doi:10.1090/surv/170](http://doi.org/10.1090/surv/170)
+
+  [ams:surv-170](http://www.ams.org/publications/authors/books/postpub/surv-170), 
+
+  [book pdf](https://web.archive.org/web/20160304134950/http://math.northwestern.edu/~costello/renormalization_book.pdf), 
+  
+  [talk slides](http://www.math.northwestern.edu/~costello/slides.pdf))
 
 on [[renormalization]] and [[BV-quantization]] of [[effective quantum field theory]] of those [[quantum field theories]] whose [[action functional]] can be brought into "[BV-CS form](renormalization#OfTheoriesInBVForm)" $S(\phi) = \langle \phi, Q \phi\rangle + I(\phi)$.
 
