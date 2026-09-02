@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -78,7 +77,7 @@ in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
  
 Aspects of the [[homotopy theory]] of infinite-dimensional manifolds:
 
-* {#Palais66} [[Richard S. Palais]], *Homotopy theory of infinite dimensional manifolds*, Topology **5** 1 (1966) 1-16 (<a href="https://doi.org/10.1016/0040-9383(66)90002-4">doi:10.1016/0040-9383(66)90002-4</a>)
+* {#Palais66} [[Richard S. Palais]]: *Homotopy theory of infinite dimensional manifolds*, Topology **5** 1 (1966) 1--16 &lbrack;<a href="https://doi.org/10.1016/0040-9383(66)90002-4">doi:10.1016/0040-9383(66)90002-4</a>&rbrack;
 
 
 ### Integration
