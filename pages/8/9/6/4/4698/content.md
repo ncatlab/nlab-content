@@ -90,3 +90,6 @@ On [[Maslov indices]] and stability of geodesics:
 
 [[!redirects geodesic equation]]
 [[!redirects geodesic equations]]
+
+[[!redirects closed geodesic]]
+[[!redirects closed geodesics]]
