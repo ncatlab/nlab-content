@@ -225,6 +225,11 @@ On non-rational VOAs from [[D=4 super Yang-Mills theory]]:
 
 * Siqi Chen, Anirudh Deb, [[Leonardo Rastelli]]: *Higgsless Lagrangian SCFTs and Strongly Finite VOAs* &lbrack;[arXiv:2607.08813](https://arxiv.org/abs/2607.08813)&rbrack;
 
+See also:
+
+* [[Terry Gannon]], Brandon C. Rayhaun: *Classification of Rational $c=1$ Vertex Operator Algebras and Vertex Operator Superalgebras* &lbrack;[arXiv:2609.00122](https://arxiv.org/abs/2609.00122)&rbrack;
+
+
 
 
 
