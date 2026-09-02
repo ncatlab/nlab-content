@@ -13,9 +13,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea 
 
@@ -74,6 +74,8 @@ A geodesic which does globally minimize distance between its end points is calle
 * Sh. Kobayashi, K. Nomidzu, _Foundations of differential geometry_, vol 1, 1963, vol 2, 1969, Wiley Interscience; reedition 1996 in series Wiley Classics; Russian ed.: Nauka, Moscow 1981.  
 
 * Arthur L. Besse, _Einstein manifolds_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 10, Springer-Verlag 1987, xii + 510 pp. (for a review see [Bull. AMS](http://projecteuclid.org/euclid.bams/1183554925) and [MR88f:53087](ttp://www.ams.org/mathscinet-getitem?mr=88f:53087)); reprinted 2008, Springer Classics in Math. 
+
+* [[Wilhelm Klingenberg]]: *Lectures on Closed Geodesics*, Grundlehren der mathematischen Wissenschaften **230**, Springer (1978) &lbrack;[doi:10.1007/978-3-642-61881-9](https://doi.org/10.1007/978-3-642-61881-9)&rbrack;
 
 On [[Maslov indices]] and stability of geodesics:
 
