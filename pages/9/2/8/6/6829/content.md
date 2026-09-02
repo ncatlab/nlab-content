@@ -18,6 +18,9 @@ On [[orbifolds]] of [[vertex operator algebras]]:
 
 * [[Terry Gannon]], Andrew Riesen: *Orbifolds of Pointed Vertex Operator Algebras I* &lbrack;[arXiv:2410.00809](https://arxiv.org/abs/2410.00809)&rbrack;
 
+* [[Terry Gannon]], Brandon C. Rayhaun: *Classification of Rational $c=1$ Vertex Operator Algebras and Vertex Operator Superalgebras* &lbrack;[arXiv:2609.00122](https://arxiv.org/abs/2609.00122)&rbrack;
+
+
 On extending [[vertex operator algebras]] to full field [[2d CFTs]]:
 
 * [[Terry Gannon]]: *Exotic quantum subgroups and extensions of affine Lie algebra VOAs -- part I* &lbrack;[arXiv:2301.07287](https://arxiv.org/abs/2301.07287)&rbrack;
