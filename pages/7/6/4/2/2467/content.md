@@ -56,6 +56,10 @@ On the [[Riemann hypothesis]]:
 
 * [[Alain Connes]]: *An Essay on the Riemann Hypothesis: Past, Present and a Letter Through Time*, in: *Open Problems in Mathematics*, Springer (2016) &lbrack;[arXiv:2602.04022](https://arxiv.org/abs/2602.04022), [doi:10.1007/978-3-319-32162-2_5](https://doi.org/10.1007/978-3-319-32162-2_5)&rbrack;
 
+On [[Spec(Z)]]:
+
+* [[Alain Connes]], [[Caterina Consani]]: *The Absolute Twistor Line and the Geometry of $\overline{Spec \mathbf{Z}}$* &lbrack;[arXiv:2609.00299](https://arxiv.org/abs/2609.00299)&rbrack;
+
 
 
 ## Related entries
