@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea ##
@@ -215,7 +213,7 @@ is a smooth manifold.
 
 ## Properties 
 
-### Relation between diffeological and Fr&#233;chet manifold structure
+### Diffeological and Fr&#233;chet manifold structure
  {#RelationBetweenDiffeologicalAndFrechetStructure}
 
 Since smooth manifolds form a [[full subcategory]] of [[diffeological spaces]], the mapping space $C^\infty(X,Y)$ between two manifolds always exists canonically as a diffeological space:
@@ -249,7 +247,7 @@ The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ 
 
 =--
 
-This appears as ([Losik, theorem 3.1.1](#Losik)).
+This appears as [Losik, theorem 3.1.1](#Losik).
 
 Since moreover diffeological spaces are fully faithful in [[smooth sets]] (them being precisely the [[concrete objects]] in smooth sets), this implies in particular that Frechet manifolds are fully faithful in [[smooth sets]]
 
@@ -279,18 +277,49 @@ $$
 
 =--
 
-This appears as ([Waldorf, lemma A.1.7](#Waldorf)).
+This appears as [Waldorf, lemma A.1.7](#Waldorf).
+
+
+### Hilbert manifold structure
+ {#HilbertManifoldStructure}
+
+\begin{proposition}
+  For finite dimensional [[Riemannian manifolds]] $M$ and $N$, with $M$ [[compact topological space|compact]], the [[Sobolev space]] $H^1(M,N)$ of maps $M \to N$ with well-defined [[kinetic energy]] [[functional]] (cf. *[[harmonic map]]*) 
+
+1. is a [[smooth manifold|smooth]] [[Hilbert manifold]],
+
+1. and its inclusion into the [[mapping space]] of all [[continuous maps]] is a [[homotopy equivalence]]:
+
+$$
+  H^1(M,N) 
+    \overset{\sim}{\hookrightarrow}
+  Map(M,N)
+  \mathrlap{\,.}
+$$
+
+Same for the higher Sobolev spaces $H^n$.
+
+\end{proposition}
+
+([Klingenberg 1978 Th. 1.2.9 & Thm. 1.2.10](#Klingenberg1978), [Meier 2010 Thm. 3.1 & Prop. 3.2](#Meier2010))
+
 
 ## References
 
-* {#Losik} M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r.
-Cat&#233;g., 35(4):274&#8211;290, 1994.
- 
+Via [[diffeological spaces]]:
+
+* {#Losik} M. V. Losik: _Categorical Differential Geometry_ [[Cahiers]] **35** 4 (1994) 274--290  
 
 * {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
+* {#Stacey}[[Andrew Stacey]]: _Yet more smooth mapping spaces and their smoothly local properties_ &lbrack;[arXiv:1301.5493](http://arxiv.org/abs/1301.5493)&rbrack;
 
-* {#Stacey}[[Andrew Stacey]], _Yet more smooth mapping spaces and their smoothly local properties_ arXiv:[1301.5493](http://arxiv.org/abs/1301.5493)
+Via [[Hilbert manifolds]]:
+
+* {#Klingenberg1978} [[Wilhelm Klingenberg]]: *Lectures on Closed Geodesics*, Grundlehren der mathematischen Wissenschaften **230**, Springer (1978) &lbrack;[doi:10.1007/978-3-642-61881-9](https://doi.org/10.1007/978-3-642-61881-9)&rbrack;
+
+* {#Meier2010} [[Lennart Meier]]: *A Hilbert Manifold Model for Mapping Spaces* (2010) &lbrack;[pdf](https://webspace.science.uu.nl/~meier007/Hilbertmflt3.pdf), [[Meier-ManifoldMappingSpace.pdf|pdf:file]]&rbrack;
+
  
 Generalising the Lie group structure on the diffeomorphisms of a manifold, the case of non-compact [[orbifolds]] is in
 
