@@ -11,6 +11,11 @@
 
 ## Selected writings
 
+On [[manifold structure of mapping spaces]] (specifically [[Hilbert manifold]] model for [[mapping spaces]]):
+
+* [[Lennart Meier]]: *A Hilbert Manifold Model for Mapping Spaces* (2010) &lbrack;[pdf](https://webspace.science.uu.nl/~meier007/Hilbertmflt3.pdf), [[Meier-ManifoldMappingSpace.pdf|pdf:file]]&rbrack;
+
+
 On [[equivariant elliptic cohomology]]/[[tmf]]:
 
 * [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
