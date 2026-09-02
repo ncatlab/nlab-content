@@ -461,9 +461,9 @@ $$
   d_i (\sigma, \tau) = 
   \left\{
     \array{
-      (d_i \sigma, \tau) & if\; i \leq j , j \neq 0
+      (d_i \sigma, \tau) & \quad if \; i \leq j , j \neq 0
       \\
-      (\sigma, d_{i-j-1} \tau) & if\; i \gt j, k \neq 0
+      (\sigma, d_{i-j-1} \tau) & \quad if \; i \gt j, k \neq 0
     }
   \right.
 $$
