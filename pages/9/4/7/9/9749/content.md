@@ -158,7 +158,8 @@ Define $\mathbf{Meas}_{Cvx}$ to be the full subcategory of $\mathbf{Meas} \cap \
 
 Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Meas}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
-Also note that for every [[measurable space]] $X$ that $G(X)$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$ because, for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
+Furthermore,  for every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Meas}_{Cvx}$ because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
+Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. 
 
 
 \begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Meas}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
@@ -209,7 +210,7 @@ If we spell both sides of that equation out, using the property $\int_X f \, d(\
 \begin{lemma} Let $X \in_{ob} \mathbf{Meas}_{Cvx}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
-We have already noted that for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
+We have already noted, for every $P \in G(X)$, that   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 That equation is equivalent to the statement 
 $$
 f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f).
@@ -255,7 +256,7 @@ Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We
 \end{tikzpicture}
 commutes.
 
-To prove this note that the space $G(X)$ as well as $\mathbb{R}_{\infty}$ are objects in $\mathbf{Meas}_{Cvx}$.  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
+ The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
 $$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
 $$
 Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
