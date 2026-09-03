@@ -14,7 +14,7 @@ In simpler terms, suppose we are given a [[map]] $F = (F_1, \dots, F_n) \colon \
 
 ## State of the research
 
-The conjecture was stated by [Keller 1939](#Keller1939) for $n = 2$.  It is known to hold at least for those maps $F$ which have a rational inverse. There were many failed attempts to prove the conjecture, especially in $n = 2$. 
+The conjecture was originally stated by [Kraus 1884](#Kraus1884), [Weyr 1886](#Weyr1886) for $n = 2$, and later stated for $n$ dimensions by [Keller 1939](#Keller1939). It is known to hold at least for those maps $F$ which have a rational inverse. There were many failed attempts to prove the conjecture, especially in $n = 2$. 
 
 An explicit [[counterexample]] for $n = 3$ was stated by [Alpöge 2026](#Alpöge2026): the polynomial map $F \colon \mathbb{C}^3 \to \mathbb{C}^3$ given by
 
@@ -43,7 +43,7 @@ $$
 
 This counterexample for $n = 3$ implies counterexamples for all $n \geq 3$ ([Zhang 2026](#Zhang2026)).
 
-The conjecture remains open for $n = 2$ (the case for which it was originally stated by [Keller 1939](#Keller1939)).
+The conjecture remains open for $n = 2$ (the case for which it was originally stated by [Kraus 1884](#Kraus1884), [Weyr 1886](#Weyr1886)).
 
 
 
@@ -53,6 +53,12 @@ The conjecture remains open for $n = 2$ (the case for which it was originally st
 ### General
 
 The conjecture was originally stated for two variables in:
+
+* {#Kraus1884} Ludwig Kraus (1884). *Ueber Functionaldeterminanten*. Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Mathematisch-Naturwissenschaftliche Klasse. 90: 813–826.
+
+* {#Weyr1886} Eduard Weyr (1886). *Život a působení dra Ludvíka Krause*. Časopis pro pěstování mathematiky a fysiky. 15 (2): 49–5 &lbrack;[pdf](https://dml.cz/bitstream/handle/10338.dmlcz/122228/CasPestMatFys_015-1886-2_1.pdf)&rbrack;
+
+and later stated for $n$ variables in:
 
 * {#Keller1939} Ott-Heinrich Keller: *Ganze Cremona-Transformationen*, Monatsh. f. Mathematik und Physik **47** (1939) 299--306 &lbrack;[doi:10.1007/BF01695502](https://doi.org/10.1007/BF01695502)&rbrack;
 
@@ -87,6 +93,10 @@ A related statement by [[Maxim Kontsevich]] on automorphisms of [[Weyl algebras]
 There is an interesting blog discussion, from the point of view of [[algebraic geometry]]:
 
 * [[David Speyer]] at _secret blogging seminar_: [how not to prove the Jacobian conjecture](http://sbseminar.wordpress.com/2009/05/27/how-not-to-prove-the-jacobian-conjecture)
+
+On the origin of the Jacobian conjecture:
+
+* {#Díaz26} [[Lázaro Orlando Rodríguez Díaz]] (June 5, 2026). *On the origin of the Jacobian conjecture*. Comptes Rendus. Mathématique. 364 (G2): 363–370 &lbrack;[arXiv:2512.23614](https://arxiv.org/abs/2512.23614), [doi:10.5802/crmath.831](https://doi.org/10.5802/crmath.831), [ISSN:1778-3569](https://search.worldcat.org/issn/1778-3569)&rbrack;
 
 ### Counterexamples
 
