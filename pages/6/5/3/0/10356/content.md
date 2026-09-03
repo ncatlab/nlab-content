@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
  {#DBranesAtOrbifoldSingularities}
@@ -296,6 +295,9 @@ On [[polarized D-brane|polarization]] of fractional D-branes:
 
 * Timothy J. Hollowood, S. Prem Kumar, _World-sheet Instantons via the Myers Effect and $\mathcal{N} = 1^\ast$ Quiver Superpotentials_, JHEP 0210:077, 2002 ([arXiv:hep-th/0206051](https://arxiv.org/abs/hep-th/0206051))
 
+On fractional D-brane charges seen under [[schreiber:Hypothesis H]] in [[equivariant stable Cohomotopy]] of point (the [[Burnside ring]]):
+
+* [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory]]*, Journal of Geometry and Physics **161** (2021) 104034 &lbrack;[doi:10.1016/j.geomphys.2020.104034](https://doi.org/10.1016/j.geomphys.2020.104034), [arXiv:1812.09679 math.RT](https://arxiv.org/abs/1812.09679)&rbrack;
 
 
 
