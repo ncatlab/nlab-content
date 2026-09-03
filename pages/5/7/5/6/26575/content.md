@@ -79,7 +79,7 @@ where the isomorphism on the right is given by the [[unitors]] of the monoidal c
 Let now $Fin(J)$ be the [[poset]] of finite subsets of $G$. The union of finite subsets is finite, so $Fin(J)$ is a [[directed set]], hence a [[filtered category]]. 
 The functor $Fin(J)^op\to C$ mapping the inclusion $F\subseteq G$ to $\pi_{G,F}$ defined above is hence a [[cofiltered diagram]].
 
-We say that an object is an **infintary tensor product of the family $(X_i)_{i\in J}$** in $C$, and denote it by $X_J$, if 
+We say that an object is an **infinitary tensor product of the family $(X_i)_{i\in J}$** in $C$, and denote it by $X_J$, if 
 
 * It is a [[cofiltered limit]] of the functor $Fin(J)^op\to C$ described above, and moreover
 * For every object $A$, the functor $A\otimes-:C\to C$ preserves this limit.
