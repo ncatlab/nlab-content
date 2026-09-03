@@ -158,8 +158,6 @@ Define $\mathbf{Meas}_{Cvx}$ to be the full subcategory of $\mathbf{Meas} \cap \
 
 Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Meas}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
-Furthermore,  for every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Meas}_{Cvx}$ because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
-Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. 
 
 
 \begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Meas}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
@@ -189,7 +187,7 @@ Let $\delta_x$ denote the Dirac measure at $x$.
 \end{corollary}
 \begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the slice category of arrows $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
 For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ 
-the theorem is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is codense. See Propositions 1 and 2, page 242 of [[CWM]].
+Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. See Propositions 1 and 2, page 242 of [[CWM]].
 
 Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
@@ -199,7 +197,7 @@ Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphis
 A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
-The function $\epsilon_X$ is a $G$-algebra.
+The function $\epsilon_X=\mathbb{E}_{\bullet}(id_X)$ is a $G$-algebra.
 \end{lemma}
 \begin{proof}The property $\epsilon_X(\delta_x)=x$ follows from the preceding corollary.
 To prove the property $\epsilon_X \circ \mu_X = \epsilon_X \circ G(\epsilon_X)$  compose both sides of that equation by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -224,7 +222,11 @@ But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{
 The proof is straightforward using the previous lemma.
 \end{proof}
 
-Using the naturality of $\mathbb{E}$ we obtain an adjunct pair of functors consisting of the ''free functor'' $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$, and the (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
+
+For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Meas}_{Cvx}$ because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
+Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. (To prove that statement use the fact that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ and Lemma 3.7.)
+
+By the preceding remark we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$. There is also a (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure.  These two functors form an adjunct pair  with the natural transformation $\mathbb{E}$ as the counit of the adjunction, and the composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
 Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
