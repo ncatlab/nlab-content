@@ -106,6 +106,8 @@ The observation that this implies counterexamples for all $n \geq 3$:
 
 * {#Zhang2026} Zihan Zhang: *[Direct Consequences of the Three-Dimensional Counterexample to the Jacobian Conjecture](https://zzhang-iu.github.io/papers/direct-consequences-jacobian/)* (20 July 2026)
 
+A coordinate-free explanation of the three-dimensional counterexample appears in:
 
+* [[Remy van Dobben de Bruyn]], *Divisors in projective bundles over the projective line whose complement is affine space* &lbrack;[arXiv:2608.27341](https://arxiv.org/abs/2608.27341)&rbrack;
 
 category: algebra
