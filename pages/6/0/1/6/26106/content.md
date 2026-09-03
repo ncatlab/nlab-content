@@ -82,6 +82,9 @@ For [[supergravity]]:
 
 * Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *The coupling flow for supergravity* &lbrack;[arXiv:2607.25714](https://arxiv.org/abs/2607.25714)&rbrack;
 
+* Ji-Seong Chae, Hun Jang, Junhyeok Lee: *Perturbative Nicolai-Map Diagrammatics: Application to Poincaré Supergravity* &lbrack;[arXiv:2605.29990](https://arxiv.org/abs/2605.29990)&rbrack;
+
+
 
 
 
