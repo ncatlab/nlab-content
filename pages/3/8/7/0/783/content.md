@@ -104,8 +104,6 @@ See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.ph
 
 ## External links 
 
-[Grothendieck circle](http://www.grothendieckcircle.org/)
-
 [Grothendieck's Angle] (https://www.dropbox.com/s/9u7n6xkwytocogf/grothendieckangle.pdf?dl=0) by G. Aiello
 
 [A. Grothendieck](http://matematicas.unex.es/~navarro/res/) by J. A. Navarro
