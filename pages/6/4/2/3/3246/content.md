@@ -54,27 +54,28 @@ The conjecture remains open for $n = 2$ (the case for which it was originally st
 
 The conjecture was originally stated for two variables in:
 
-* {#Kraus1884} Ludwig Kraus (1884). *Ueber Functionaldeterminanten*. Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Mathematisch-Naturwissenschaftliche Klasse. 90: 813–826.
+* {#Kraus1884} Ludwig Kraus: *Über Functionaldeterminanten*, Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Mathematisch-Naturwissenschaftliche Klasse. 90 (1884) 813--826.
 
-* {#Weyr1886} Eduard Weyr (1886). *Život a působení dra Ludvíka Krause*. Časopis pro pěstování mathematiky a fysiky. 15 (2): 49–5 &lbrack;[pdf](https://dml.cz/bitstream/handle/10338.dmlcz/122228/CasPestMatFys_015-1886-2_1.pdf)&rbrack;
+* {#Weyr1886} Eduard Weyr: *Život a působení dra Ludvíka Krause*, Časopis pro pěstování mathematiky a fysiky **15** 2 (1886) 49–-52 &lbrack;[dml:122228](https://dml.cz/handle/10338.dmlcz/122228), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/122228/CasPestMatFys_015-1886-2_1.pdf)&rbrack;
 
 and later stated for $n$ variables in:
 
-* {#Keller1939} Ott-Heinrich Keller: *Ganze Cremona-Transformationen*, Monatsh. f. Mathematik und Physik **47** (1939) 299--306 &lbrack;[doi:10.1007/BF01695502](https://doi.org/10.1007/BF01695502)&rbrack;
+* {#Keller1939} Ott-Heinrich Keller: *Ganze Cremona-Transformationen*, Monatshefte für Mathematik und Physik **47** (1939) 299--306 &lbrack;[doi:10.1007/BF01695502](https://doi.org/10.1007/BF01695502)&rbrack;
+
 
 Surveys:
 
-* [[Hyman Bass]], E. H. Connell, D. Wright, _The Jacobian conjecture: Reduction of degree and formal expansion of the inverse_, Bull Amer. Math. Soc. 7 (1982)
+* [[Hyman Bass]], E. H. Connell, D. Wright: _The Jacobian conjecture: Reduction of degree and formal expansion of the inverse_, Bull Amer. Math. Soc. 7 (1982)
 
 * {#Wikipedia} Wikipedia: *[Jacobian conjecture](https://en.wikipedia.org/wiki/Jacobian_conjecture)*
 
-* A. van den Essen: *[Jacobian conjecture](http://eom.springer.de/J/j120010.htm)*, Springer [[Encyclopedia of Mathematics]]
+* A. van den Essen: *Jacobian conjecture*, Springer [[Encyclopedia of Mathematics]] &lbrack;[eom:J/j120010](http://eom.springer.de/J/j120010.htm)&rbrack;
 
 See also:
 
-* A. van den Essen, _Polynomial automorphisms and the Jacobian conjecture_, [pdf](http://www.emis.de/journals/SC/1997/2/pdf/smf_sem-cong_2_55-81.pdf), Alg&#232;bre non commutative, groupes quantiques et invariants (Reims, 1995),  55--81, S&#233;min. Congr., 2, Soc. Math. France, Paris, 1997. 
+* Arno van den Essen: _Polynomial automorphisms and the Jacobian conjecture_, Alg&#232;bre non commutative, groupes quantiques et invariants (Reims, 1995) 55--81, S&#233;min. Congr., 2, Soc. Math. France, Paris (1997) &lbrack;[pdf](http://www.emis.de/journals/SC/1997/2/pdf/smf_sem-cong_2_55-81.pdf)&rbrack;
 
-* Arno van den Essen, _Polynomial automorphisms and the Jacobian conjecture_, Progress in Mathematics, 190. Birkh&#228;user Verlag, Basel, 2000. xviii+329 pp. ISBN: 3-7643-6350-9
+* Arno van den Essen: _Polynomial automorphisms and the Jacobian conjecture_, Progress in Mathematics **190** Birkh&#228;user Verlag (2000) &lbrack;ISBN:3-7643-6350-9&rbrack;
 
 The Jacobian conjecture is equivalent to the Dixmier conjecture: every endomorphism of the $r$-th [[Weyl algebra]] $A_{r,k}$ over $k$ is an automorphism for all $r$.  This is a statement of: 
 
