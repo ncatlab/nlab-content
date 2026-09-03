@@ -297,7 +297,7 @@ Significantly, since the [[field]] operations on the discrete locale of [[ration
 
 The locale of real numbers as the [[classifying locale]] of the [[geometric theory]] of [[two-sided Dedekind cuts]]:
 
-* [[Ingo Blechschmidt]], section 2.2 of: *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
+* [[Ingo Blechschmidt]], Section 2.1 (page 23) of: *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
 
 An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
 
@@ -311,7 +311,6 @@ On lifting functions from the [[Dedekind real numbers]] to the locale of real nu
 
 
 [[!redirects the locale of real numbers]]
-[[!redirects locale of real numbers]]
 [[!redirects localic real numbers]]
 [[!redirects localic real number]]
 [[!redirects the localic real line]]
