@@ -66,7 +66,7 @@ Discussion specifically in the context of [[NuPRL]] is in
 
 Discussion in the sense of [[modal type theory]] where computation is exhibited by a [[monad (in computer science)]] is in 
 
-* Matt Fairtlough, [[Michael Mendler]], _Propositional Lax Logic_,  Volume 137, Issue 1, 25 August 1997, Pages 1&#8211;33 ([pdf](http://www.gdi.uni-bamberg.de/personnel/mendler/research/Papers/pll.pdf))
+* Matt Fairtlough, [[Michael Mendler]], _Propositional Lax Logic_,  Volume 137, Issue 1, 25 August 1997, Pages 1&#8211;33 ([pdf](https://web.archive.org/web/20150326183205/https://www.gdi.uni-bamberg.de/personnel/mendler/research/Papers/pll.pdf))
  {#FairtloughMendler97}
 
 * {#BentonBiermanDePaiva93} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
