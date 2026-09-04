@@ -23,6 +23,11 @@ On local [[superconformal symmetry]] via [[derived geometry]]:
 * [[Fabian Hahner]], [[Surya Raghavendran]], [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
 
 
+On [[topologically twisted supergravity|topologically twisted]] [[type IIB supergravity]]:
+
+* [[Fabian Hahner]]: *On square-zero elements in the IIB supersymmetry algebra* &lbrack;[arXiv:2511.05659](https://arxiv.org/abs/2511.05659)&rbrack;
+
+
 
 
 category: people
