@@ -12,7 +12,7 @@ The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K
 
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) \[<a href="https://doi.org/10.1088/1126-6708/1997/11/002">doi:10.1088/1126-6708/1997/11/002</a>, [arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230)\]
 
-* [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
+* {#MooreWitten2000} [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
 
 
 Further early discussion:
@@ -171,6 +171,26 @@ based on
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. **103** 012004 (2008) \[<a href="https://doi.org/10.1088/1742-6596/103/1/012004">doi:10.1088/1742-6596/103/1/012004</a>, [arXiv:0709.2128](http://arxiv.org/abs/0709.2128)\]
 
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in [Szabo 2002](#Szabo2002).
+
+### How to measure D-brane charge
+
+Often quoted is the statement:
+
+> D-brane Charge in IIA (IIB) is in $K^1$ ($K^0$) of the compactified transverse space. 
+
+But in fact that means: $K^0$ of the linking sphere, which is how one actually measures ordinary magnetic charges, such as of [[Dirac monopoles]]. Hence
+
+> D-brane Charge in IIA (IIB) is in $K^0$ ($K^1$) of the complement spacetime. 
+
+This is made explicit in:
+
+* [Hořava 1998 (3.13)--(3.16)](#Horava98)
+
+* [Moore & Witten2000 (2.10)](#MooreWitten2000)
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]]; (1.6) in: *D-brane Charges in Five-brane backgrounds*,  JHEP 0110:005 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/005">doi:10.1088/1126-6708/2001/10/005</a>, [arXiv:hep-th/0108152](https://arxiv.org/abs/hep-th/0108152)\]
+
+
 
 
 
