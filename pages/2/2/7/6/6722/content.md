@@ -38,6 +38,11 @@ Discussion of effective [[non-commutative geometry]] exhibited by open [[M2-bran
 
 * [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
 
+Further on [[D-brane charge quantization in K-theory]]:
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]]: *D-brane Charges in Five-brane backgrounds*,  JHEP 0110:005 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/005">doi:10.1088/1126-6708/2001/10/005</a>, [arXiv:hep-th/0108152](https://arxiv.org/abs/hep-th/0108152)\]
+
+
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
