@@ -75,6 +75,9 @@ Computations in [[lattice gauge theory]]:
 
 * Pedro Bicudo, Marco Cardoso, Nuno Cardoso: *$SU(3)$ quark-antiquark QCD flux tube* \[<a href="https://arxiv.org/abs/1401.6008">arXiv:1401.6008</a>\]
 
+* Helen Zwölfer, Giovanni Cataldi, Umberto Borla, Jad C. Halimeh: *Real-Time String Dynamics in 3+1D Lattice Quantum Electrodynamics* &lbrack;[arXiv:2609.04114](https://arxiv.org/abs/2609.04114)&rbrack;
+
+
 Analytic solutions for flux tubes between [[quarks]], at least in [[Proca theory]]:
 
 * [[Vladimir Dzhunushaliev]], [[Vladimir Folomeev]], *Chromoelectric flux tubes within non-Abelian Proca theory* &lbrack;[arXiv:2404.07747](https://arxiv.org/abs/2404.07747)&rbrack;
