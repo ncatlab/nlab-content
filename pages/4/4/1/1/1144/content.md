@@ -1269,7 +1269,7 @@ Survey and review:
 * [[Martin Speirs]], *Model Categories with a view towards rational homotopy theory*, MSc thesis, Copenhagen (2015) &lbrack;[pdf](https://speirs.sites.ku.dk/files/2017/10/Master.pdf), [[Speirs-ModelCategories.pdf:file]]&rbrack;
 
 
-* {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
+* {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], *Rational homotopy theory via Sullivan models: a survey*,  Notices of the International Congress of Chinese Mathematicians Volume **5** 2 (2017) &lbrack;[arXiv:1708.05245 math.AT](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3)&rbrack;
 
 * {#Ivanov22} [[Sergei O. Ivanov]], _An Overview of Rationalization Theories of Non-simply Connected Spaces and Non-nilpotent Groups_, Acta. Math. Sin.-English Ser. **38**  (2022) 1705–1721 &lbrack;[arXiv:2111.10694](https://arxiv.org/abs/2111.10694), [doi:10.1007/s10114-022-2063-9](https://doi.org/10.1007/s10114-022-2063-9)&rbrack;
 
