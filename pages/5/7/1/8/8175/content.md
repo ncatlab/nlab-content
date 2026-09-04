@@ -12,9 +12,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -404,7 +403,7 @@ Further discussion of the case of [[twisted K-theory]]:
 
 * {#Rosenberg82} [[Jonathan Rosenberg]], _Homological Invariants of Extensions of $C^\ast$-algebras_, Proc. Symp. Pure Math 38 (1982) 35.
 
-* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_, Nankai Tracts Math. 11, World Sci. Publ., Hackensack, NJ, pp. 5&#8211;43,  ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]]: _Twisted K-theory and cohomology_, Nankai Tracts in Mathematic **11**, World Sci. Publ., Hackensack, NJ, pp. 5--43  &lbrack;[arXiv:math/0510674](http://arxiv.org/abs/math/0510674), [doi:10.1142/9789812772688_0002](https://doi.org/10.1142/9789812772688_0002)&rbrack;
 
 * [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 21 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
