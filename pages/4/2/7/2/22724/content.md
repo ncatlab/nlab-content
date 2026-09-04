@@ -19,7 +19,18 @@ The concept of a _(left/right) cancellative category_ is the generalization of t
 
 ## Definition
 
-In [[category theory]], a category $\mathcal{C}$ is **left cancellative** if all [[morphisms]] in $\mathcal{C}$ are [[monomorphisms]] (for arbitrary morphisms $f,h_0,h_1$ of $\mathcal{C}$, if $f\circ h_0=f\circ h_1$, then $h_0=h_1$). $\mathcal{C}$ is **right cancellative** if all [[morphisms]] in $\mathcal{C}$ are [[epimorphisms]] (for arbitrary morphisms $f,h_0,h_1$ of $\mathcal{C}$, if $h_0 \circ f=h_1\circ f$, then $h_0=h_1$). $\mathcal{C}$ is **cancellative** if it is both left cancellative and right cancellative. 
+In [[category theory]], a category $\mathcal{C}$ is **left cancellative** if all [[morphisms]] in $\mathcal{C}$ are [[monomorphisms]] (for arbitrary morphisms $f,h_0,h_1$ of $\mathcal{C}$, if $f\circ h_0=f\circ h_1$, then $h_0=h_1$). $\mathcal{C}$ is **right cancellative** if all [[morphisms]] in $\mathcal{C}$ are [[epimorphisms]] (for arbitrary morphisms $f,h_0,h_1$ of $\mathcal{C}$, if $h_0 \circ f=h_1\circ f$, then $h_0=h_1$). $\mathcal{C}$ is **cancellative** if it is both left cancellative and right cancellative.
+
+The following was observed by [[Zhen Lin]] on [MathOverflow](https://math.stackexchange.com/a/4694679).
+
+**Proposition.**
+The following are equivalent for a category $\mathcal{C}$.
+
+- Every morphism in $\mathcal{C}$ is a monomorphism.
+- Every slice category $\mathcal{C}/X$ is a [[preorder]].
+- There exists a preorder $\mathcal{D}$ and a surjective [[discrete fibration]] $\mathcal{D} \to \mathcal{C}$.
+- (Assuming $\mathcal{C}$ is small.) The presheaf topos $[\mathcal{C}^{\text{op}}, \text{Set}]$ is an étendue, i.e. there exists a presheaf $D : \mathcal{C}^{\text{op}} \to \text{Set}$ such that the unique morphism $D \to 1$ is an epimorphism and the slice $[\mathcal{C}^{\text{op}}, \text{Set}]_{/ D}$ is a localic topos.
+- $\mathcal{C}$ is the codescent category of a preordered groupoid whose domain and codomain maps are discrete fibrations.
 
 ## Examples
 
