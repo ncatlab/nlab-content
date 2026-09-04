@@ -15,19 +15,18 @@
 
 ## Statement
 
-The __axiom of choice__ is the following statement:
+The *axiom of choice* is an [[axiom]] in [[set theory|axiomatic set theory]]. In first order logic it is the statement that for all families of [[inhabited set|inhabited sets]] $a$, there is a *choice [[mapping|function]]* on $a$. A choice mapping $f$ on $a$ is a mapping from $a$ into $\bigcup a$ so that for all members $b \in a$, $f(b) \in b$. As-in:
 
-* _Every [[surjection]] in the category [[Set]] of [[sets]] [[split epimorphism|splits]]._
+* $\forall a$(∅ $\notin a \Rightarrow \exists f [ f \in hom(a,\bigcup a) \wedge \forall b ( b \in a \Rightarrow f(b) \in b)])$
 
-This means: for every [[surjection]] $f\colon A \to B$ of sets, there is a function $\sigma\colon B \to A$ (a [[section]]), such that
+The axiom of choice implies Zermelo’s [[well-ordering theorem]], hence implying that all sets are $well-orderable$ and that all [[surjections]] are [[split surjections]]. The axiom of choice is then also the statement that all [[epimorphisms]] are [[split epimorphism| split epimorphisms]] in the [[category]] [[Set]] of [[set|sets]]. This means that for all surjections $f$ : $a$ → $b$ there is an injection $g$ : $b$ → $a$ (the section of $f$) so that,
+
 $$
-  (B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B) 
+  (b \stackrel{\g}{\to} a \stackrel{f}{\to} b) 
   =
-  (B \stackrel{Id_B}{\to} B)
+  (b \stackrel{Id_b}{\to} b)
   \,.
 $$
-
-Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family]] of [[inhabited sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
 
 When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any [[epimorphism]] $A \to B$ [[split epimorphism|splits]] is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
