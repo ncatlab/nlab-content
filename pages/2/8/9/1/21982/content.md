@@ -172,13 +172,14 @@ based on
 
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in [Szabo 2002](#Szabo2002).
 
+
 ### How to measure D-brane charge
 
 Often quoted is the statement:
 
 > D-brane Charge in IIA (IIB) is in $K^1$ ($K^0$) of the compactified transverse space. 
 
-But in fact that means: $K^0$ of the linking sphere, which is how one actually measures ordinary magnetic charges, such as of [[Dirac monopoles]]. Hence
+But in fact that means: $K^0$ of the linking sphere, which is how one actually measures ordinary magnetic charges, such as of [[Dirac monopoles]]. Hence:
 
 > D-brane Charge in IIA (IIB) is in $K^0$ ($K^1$) of the complement spacetime. 
 
@@ -188,9 +189,12 @@ This is made explicit in:
 
 * [Moore & Witten2000 (2.10)](#MooreWitten2000)
 
+* [[Oren Bergman]], [[Eric Gimon]], [[Barak Kol]]; (2.2) in: *Strings on Orbifold Lines*, JHEP 0105:019 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/05/019">doi:10.1088/1126-6708/2001/05/019</a>, <a href="https://arxiv.org/abs/hep-th/0102095">arXiv:hep-th/0102095</a>\]
+
 * [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]]; (1.6) in: *D-brane Charges in Five-brane backgrounds*,  JHEP 0110:005 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/005">doi:10.1088/1126-6708/2001/10/005</a>, [arXiv:hep-th/0108152](https://arxiv.org/abs/hep-th/0108152)\]
 
 
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]; p. 6 of: *On non-supersymmetric heterotic branes*, J. High Energ. Phys. **2025** 211 (2025) \[<a href="https://arxiv.org/abs/2411.04344">arXiv:2411.04344</a>, <a href="https://doi.org/10.1007/JHEP03(2025)211">doi:10.1007/JHEP03(2025)211</a>\]
 
 
 
