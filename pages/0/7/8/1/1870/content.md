@@ -343,7 +343,7 @@ and is expanded on in:
 
 * [[Peter May]], [[Johann Sigurdsson]], Section 22.3 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006 ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
-* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+* {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]]: _Twisted K-theory and cohomology_, Nankai Tracts in Mathematic **11**, World Sci. Publ., Hackensack, NJ, pp. 5--43  &lbrack;[arXiv:math/0510674](http://arxiv.org/abs/math/0510674), [doi:10.1142/9789812772688_0002](https://doi.org/10.1142/9789812772688_0002)&rbrack;
 
 * {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], sections 2.1 and 7 of: _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [doi:10.1090/pspum/081](https://doi.org/10.1090/pspum/081))
 
