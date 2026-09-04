@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -40,6 +38,11 @@ A [[topological twist]] of [[supergravity]].
 On twisted [[D=11 supergravity]]:
 
 * [[Surya Raghavendran]], [[Ingmar Saberi]], [[Brian R. Williams]]: *Twisted eleven-dimensional supergravity*, Commun. Math. Phys. **402** (2023) 1103–1166 &lbrack;[arXiv:2111.03049](https://arxiv.org/abs/2111.03049), [doi:10.1007/s00220-023-04745-2](https://doi.org/10.1007/s00220-023-04745-2)&rbrack;
+
+For [[type IIB supergravity]]:
+
+* [[Fabian Hahner]]: *On square-zero elements in the IIB supersymmetry algebra* &lbrack;[arXiv:2511.05659](https://arxiv.org/abs/2511.05659)&rbrack;
+
 
 
 
