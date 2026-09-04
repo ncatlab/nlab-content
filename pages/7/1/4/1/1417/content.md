@@ -1,3 +1,5 @@
+[[!redirects Inclusion Sandbox]]
+[[Appearance Graphs by David Ryan "DaemonDave" Erickson]]
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.51337pt" height="80.99336pt" viewBox="-9.32605 -15.75484 135.51337 80.99336 "> 
 <g transform="translate(0, 65.23853 ) scale(1,-1) translate(0,15.75484 )"> 
           
