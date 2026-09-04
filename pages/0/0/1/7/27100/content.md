@@ -17,7 +17,7 @@ A **$\sigma$-complete Heyting algebra** is a [[Heyting algebra]] which is also a
 
 ## Examples
 
-* The [[set of truth values]] is a $\sigma$-complete Heyting algebra
+* The [[set of truth values]] is a $\sigma$-complete Heyting algebra (even a complete Heyting algebra)
 
 * The [[initial object|initial]] $\sigma$-complete Heyting algebra is the [[subobject classifier|classifier]] of [[hyperarithmetical subsets]]. In the presence of the [[limited principle of omniscience]], this is just the [[boolean domain]]. 
 
