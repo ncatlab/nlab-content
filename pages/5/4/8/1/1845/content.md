@@ -11,9 +11,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 
@@ -250,6 +248,12 @@ The standard constructions of K-theory spectra from [[Quillen exact categories]]
 
 A useful introduction to the definition and computation of K-groups (with a little on K-spectra) is
 
-* Charles Weibel, _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+* [[Charles Weibel]]: _The K-book: An introduction to algebraic K-theory_ &lbrack;[web](http://www.math.rutgers.edu/~weibel/Kbook.html)&rbrack;
+
+See also:
+
+* [[David Aretz]], [[Luuk Stehouwer]]: *Super K-theory and group completion* &lbrack;[arXiv:2609.02407](https://arxiv.org/abs/2609.02407)&rbrack;
+  > (for [[superalgebra|super]] [[Banach algebras]])
+
 
 [[!redirects Waldhausen K-theory]]
