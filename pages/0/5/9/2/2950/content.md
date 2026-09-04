@@ -23,12 +23,6 @@ On the [[canonical quantization|canonical]]/[[geometric quantization|geometric]]
 * S. Elitzur, [[Greg Moore]], A. Schwimmer, [[Nathan Seiberg]]: *Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory*, Nucl. Phys. B **326** (1989) 108--134 \[<a href="https://doi.org/10.1016/0550-3213(89)90436-7">doi:10.1016/0550-3213(89)90436-7</a>, [pdf](https://people.maths.ox.ac.uk/beem/papers/chern_simons_canonical.pdf)\]  
 
 
-Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
-
-* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
-
-* [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
-
 
 On [[anyons]] in the [[fractional quantum Hall effect]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] and introducing the *[Moore-Read states](Laughlin+wavefunction#MooreReadWavefunctionOnPlane)*:
 
@@ -37,6 +31,12 @@ On [[anyons]] in the [[fractional quantum Hall effect]] satisfying [[non-abelian
 Indication that the [[effective field theory|effective]] [[abelian Chern-Simons theory]] [describing](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE) the [[fractional quantum Hall effect]] has to be understood, in general, as a [[spin Chern-Simons theory]]:
 
 * [Moore & Read 1991](#MooreRead91) p. 381 ([20 of 35](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf#page=20)) 
+
+Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
+
+* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
+
+* [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
 
 
 On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
@@ -53,6 +53,10 @@ On the [[K-theory classification of D-brane charge]]:
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
 * [[Robbert Dijkgraaf]], [[Juan Maldacena]], [[Gregory Moore]], [[Erik Verlinde]], _A Black Hole Farey Tail_ ([arXiv:hep-th/0005003](https://arxiv.org/abs/hep-th/0005003), [spire:526744](http://inspirehep.net/record/526744))
+
+Further on [[D-brane charge quantization in K-theory]]:
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]]: *D-brane Charges in Five-brane backgrounds*,  JHEP 0110:005 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/005">doi:10.1088/1126-6708/2001/10/005</a>, [arXiv:hep-th/0108152](https://arxiv.org/abs/hep-th/0108152)\]
 
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
