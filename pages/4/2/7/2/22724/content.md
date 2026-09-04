@@ -29,7 +29,7 @@ The following are equivalent for a category $\mathcal{C}$.
 - Every morphism in $\mathcal{C}$ is a monomorphism.
 - Every slice category $\mathcal{C}/X$ is a [[preorder]].
 - There exists a preorder $\mathcal{D}$ and a surjective [[discrete fibration]] $\mathcal{D} \to \mathcal{C}$.
-- (Assuming $\mathcal{C}$ is small.) The presheaf topos $[\mathcal{C}^{\text{op}}, \text{Set}]$ is an étendue, i.e. there exists a presheaf $D : \mathcal{C}^{\text{op}} \to \text{Set}$ such that the unique morphism $D \to 1$ is an epimorphism and the slice $[\mathcal{C}^{\text{op}}, \text{Set}]_{/ D}$ is a localic topos.
+- (Assuming $\mathcal{C}$ is small.) The presheaf topos $[\mathcal{C}^{\text{op}}, \text{Set}]$ is an [[étendue]], i.e. there exists a presheaf $D : \mathcal{C}^{\text{op}} \to \text{Set}$ such that the unique morphism $D \to 1$ is an epimorphism and the slice $[\mathcal{C}^{\text{op}}, \text{Set}]_{/ D}$ is a localic topos.
 - $\mathcal{C}$ is the codescent category of a preordered groupoid whose domain and codomain maps are discrete fibrations.
 
 ## Examples
