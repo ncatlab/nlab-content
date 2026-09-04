@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -168,7 +167,7 @@ Steenrod's original colloquium lectures:
 
 Background and review:
 
-* [[John Michael Boardman]], _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[John Michael Boardman]]: _Stable Operations in Generalized Cohomology_ &lbrack;[doi:10.1016/B978-044481779-2/50015-8](http://doi.org/10.1016/B978-044481779-2/50015-8), [pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; chapter 14 in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford (1995) 585--686 &lbrack;[doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
 
 * {#May} [[Peter May]], chapter 22, section 5 of: _A concise course in algebraic topology_, University of Chicago Press 1999 (ISBN:978-0226511832, [pdf](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
@@ -186,7 +185,7 @@ On the structure on the collection of all unstable cohomology operations:
 
 Operations on [[ordinary cohomology]]:
 
-* [[Robert Mosher]], [[Martin Tangora]], _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968), Dover (2008) ([ISBN10:0486466647](https://store.doverpublications.com/0486466647.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
+* [[Robert Mosher]], [[Martin Tangora]]: _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968), Dover (2008) &lbrack;[ISBN10:0486466647](https://store.doverpublications.com/0486466647.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf)&rbrack;
 
 
 * [[Andrew Stacey]], [[Sarah Whitehouse]], _Stable and unstable operations in mod $p$ cohomology theories_, Algebr. Geom. Topol. Volume 8, Number 2 (2008), 1059-1091 ([arXiv:math/0605471](https://arxiv.org/abs/math/0605471), [euclid:agt/1513796856](https://projecteuclid.org/euclid.agt/1513796856))
