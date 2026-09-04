@@ -65,7 +65,7 @@ Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectra
 
 * {#MaldacenaMooreSeiberg01} [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], _D-Brane Instantons and K-Theory Charges_, JHEP 0111:062,2001 ([arXiv:hep-th/0108100](http://arxiv.org/abs/hep-th/0108100))
 
-* {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]], _Can D-Branes Wrap Nonrepresentable Cycles?_, JHEP 0610:050 (2006) \[<a href="http://arxiv.org/abs/hep-th/0607045">arXiv:hep-th/0607045</a>\]
+* {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]]: *Can D-Branes Wrap Nonrepresentable Cycles?*, JHEP 0610:050 (2006) \[<a href="http://arxiv.org/abs/hep-th/0607045">arXiv:hep-th/0607045</a>, <a href="https://doi.org/10.1088/1126-6708/2006/10/050">doi:10.1088/1126-6708/2006/10/050</a>\]
 
 
 Specifically for D-branes in [[WZW models]]:
