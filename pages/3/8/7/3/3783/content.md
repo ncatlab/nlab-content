@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-The **Kerr spacetime** is the unique stationary axially symmetric [[asymptotically flat]] vacuum (family of) solution(s) to the [[Einstein field equations]]. Informally, it describes an eternal, rotating [[black hole]] inside an otherwise empty universe. It is thought to closely approximate the gravitational field outside of compact rotating objects, to the point that astrophysical black holes are often described as "Kerr".
+The **Kerr spacetime** is the unique stationary axially symmetric [[asymptotically flat spacetime|asymptotically flat]] vacuum (family of) solution(s) to the [[Einstein field equations]]. Informally, it describes an eternal, rotating [[black hole]] inside an otherwise empty universe. It is thought to closely approximate the gravitational field outside of compact rotating objects, to the point that astrophysical black holes are often described as "Kerr".
 
 These black holes are characterized by their [[mass]] and their [[angular momentum]].
 
@@ -178,7 +178,9 @@ The original article:
 
 Global structure:
 
-* Brandon Carter, *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
+* [[Brandon Carter]]: *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
+
+* [[Brandon Carter]]: *Republication of: Black hole equilibrium states --- Part I Analytic and geometric properties of the Kerr solutions*, Gen Relativ Gravit **41** (2009) 2873--2938 &lbrack;[doi:10.1007/s10714-009-0888-5](https://doi.org/10.1007/s10714-009-0888-5)&rbrack;
 
 
 and sources (cf. at *[[black brane]]*):
