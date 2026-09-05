@@ -10,7 +10,7 @@ Historical precursor discussion on the possibility of *[[geometrodynamics]]* for
 
 Seminal observation that the gyromagnetic ratio of the [[Kerr-Newman black hole]] is 2, just as the for [[electron]] (cf. at *[[anomalous magnetic moment]]*):
 
-* Brandon Carter, p. 1562 of: *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 \[<a href="https://doi.org/10.1103/PhysRev.174.1559">doi:10.1103/PhysRev.174.1559</a>\]
+* [[Brandon Carter]]; p. 1562 of: *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 \[<a href="https://doi.org/10.1103/PhysRev.174.1559">doi:10.1103/PhysRev.174.1559</a>\]
 
 * Werner Israel, *Source of the Kerr Metric*, Phys. Rev. D **2** 641 (1970) \[<a href="https://doi.org/10.1103/PhysRevD.2.641">doi:10.1103/PhysRevD.2.641</a>\]
 
