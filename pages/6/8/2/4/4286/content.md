@@ -124,6 +124,11 @@ See also:
 * S. Shankaranarayanan, Soumya Bhattacharya, Archit Vidyarthi: *Primordial Black Holes: A Review of Formation and Evolution* &lbrack;[arXiv:2606.23846](https://arxiv.org/abs/2606.23846)&rbrack;
 
 
+### Spacetime topology
+
+On the [[topology]] of black hole [[spacetime]] [[manifolds]]:
+
+* George J. Galloway: *On the Topology of Black Holes*, Commun. Math. Phys. **151** (1993) 53--66 &lbrack;[doi:10.1007/BF02096748](https://doi.org/10.1007/BF02096748)&rbrack;
 
 
 ### In supergravity
