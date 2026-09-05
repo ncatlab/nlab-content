@@ -133,3 +133,5 @@ though the discussion there seems to show an undue preference of some points of 
 "Possible worlds" in the context of [[logic]] are discussed in [[modal logic]], notably in 
 
 * {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
+
+[[!redirects anthropic principle]]
