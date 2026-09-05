@@ -231,11 +231,10 @@ By the preceding remark we obtain  the ''free functor'' $\mathbf{Meas} \xrightar
 
 Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
-\begin{theorem} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
-\end{theorem}
-\begin{proof}  The preceding remark implies $\mathbf{Meas}_{Cvx} \hookrightarrow \mathbf{Alg}_G$.  
-
-To prove the converse condition suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Meas}_{Cvx}$ we need to verify that $X$ satisfies the fullness condition, and that there are enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$
+\begin{lemma} If $X$ is an object in $\mathbf{Alg}_{G}$ then $X$ satisfies the fullness property.
+\end{lemma}
+\begin{proof} 
+Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.    To show that $X$ is an object in $\mathbf{Meas}_{Cvx}$ we need to verify that $X$ satisfies the fullness condition, and that there are enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$
 to coseparate the points of $X$.
 
 Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Meas}$-diagram
@@ -272,6 +271,11 @@ Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
 The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Meas}_{Cvx}$ follows from Lemma 3.1.
 Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Meas}_{Cvx}$.  Combining this fact with the result that $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_G$ yields the result.
 \end{proof}
+
+\begin{conjecture} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
+\end{conjecture}
+Our viewpoint on this is as follows:
+Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure so $X$.  The conjecture which appears needs to be shown is, for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \xrightarrow{f} \mathbb{R}_{infty}$ is measurable.   
 
  
 ## Related constructions
