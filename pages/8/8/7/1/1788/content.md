@@ -6,7 +6,12 @@
 
 ***
 
+
+On the global structure and [[spacetime]] [[topology]] of [[Kerr spacetime|Kerr]]-[[Kerr-Newman spacetime]]-[[Reissner-Nordström spacetime]]:
+
 ***
+
+
 
 \begin{tikzcd}
 	{(\mathbf{L}, \otimes, 1)} && {(\mathbf{M}, \times, \top)}
