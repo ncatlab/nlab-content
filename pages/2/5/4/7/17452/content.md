@@ -54,7 +54,7 @@ $$ Chess \invamp \neg Chess$$
 
 Here $Chess$ is the game from the perspective of white, so that the negation $\neg Chess$ is the perspective of black, and $\otimes$ denotes the [[multiplicative conjunction]].  Note that both players are playing both games --- although $\invamp$ is a disjunction, it has certain "conjunctive properties".  But the person playing $ Chess \invamp \neg Chess$  is in the stronger position, because they can play copycat in this situation, i.e. they can wait for the other to move, whereas the person playing $Chess \otimes \neg Chess$ has to play as soon as it's their turn in one of the games.  
 
-Another, stronger interpretation is that in $A\otimes B$ we can not use any information from A to play B, and vice versa, so A and B are played by two non-communicating threads.  So in a sense, linear logic is a type system for concurrent processes that allows to avoid dead-locks.
+Another, stronger interpretation is that in $A\otimes B$ we cannot use any information from A to play B, and vice versa, so A and B are played by two non-communicating threads.  So in a sense, linear logic is a type system for concurrent processes that allows us to avoid dead-locks.
 
 ### Disentangling additivity from disjunctive syllogism
 
