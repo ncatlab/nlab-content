@@ -187,14 +187,14 @@ This is made explicit in:
 
 * [Hořava 1998 (3.13)--(3.16)](#Horava98)
 
-* [Moore & Witten2000 (2.10)](#MooreWitten2000)
+* [Moore & Witten 2000 (2.10)](#MooreWitten2000)
 
 * [[Oren Bergman]], [[Eric Gimon]], [[Barak Kol]]; (2.2) in: *Strings on Orbifold Lines*, JHEP 0105:019 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/05/019">doi:10.1088/1126-6708/2001/05/019</a>, <a href="https://arxiv.org/abs/hep-th/0102095">arXiv:hep-th/0102095</a>\]
 
 * [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]]; (1.6) in: *D-brane Charges in Five-brane backgrounds*,  JHEP 0110:005 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/005">doi:10.1088/1126-6708/2001/10/005</a>, [arXiv:hep-th/0108152](https://arxiv.org/abs/hep-th/0108152)\]
 
 
-* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]; p. 6 of: *On non-supersymmetric heterotic branes*, J. High Energ. Phys. **2025** 211 (2025) \[<a href="https://arxiv.org/abs/2411.04344">arXiv:2411.04344</a>, <a href="https://doi.org/10.1007/JHEP03(2025)211">doi:10.1007/JHEP03(2025)211</a>\]
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]; p. 6 of: *On non-supersymmetric heterotic branes*, J. High Energ. Phys. **2025** 211 (2025) \[<a href="https://arxiv.org/abs/2411.04344">arXiv:2411.04344 hep-th</a>, <a href="https://doi.org/10.1007/JHEP03(2025)211">doi:10.1007/JHEP03(2025)211</a>\]
 
 
 
