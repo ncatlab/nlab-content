@@ -9,17 +9,15 @@
 =--
 =--
 
-# The axiom of choice
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Statement
 
-The *axiom of choice* is an [[axiom]] in [[set theory|axiomatic set theory]]. In first order logic it is the statement that for all families of [[inhabited set|inhabited sets]] $a$, there is a *choice [[mapping|function]]* on $a$. A choice mapping $f$ on $a$ is a mapping from $a$ into $\bigcup a$ so that for all members $b \in a$, $f(b) \in b$. As-in:
+The *axiom of choice* is an [[axiom]] in [[set theory]]. Expressed in [[first order logic]] it is the statement that for all [[indexed sets|families]] of [[inhabited set|inhabited sets]] $a$, there is a *choice [[function]]* on $a$. A choice mapping $f$ on $a$ is a mapping from $a$ into $\bigcup a$ so that for all members $b \in a$, $f(b) \in b$. As in:
 
 * $\forall a$(∅ $\notin a \Rightarrow \exists f [ f \in hom(a,\bigcup a) \wedge \forall b ( b \in a \Rightarrow f(b) \in b)])$
 
-The axiom of choice implies Zermelo’s [[well-ordering theorem]], hence implying that all sets are $well-orderable$ and that all [[surjections]] are [[split surjections]]. The axiom of choice is then also the statement that all [[epimorphisms]] are [[split epimorphism| split epimorphisms]] in the [[category]] [[Set]] of [[set|sets]]. This means that for all surjections $f$ : $a$ → $b$ there is an injection $g$ : $b$ → $a$ (the section of $f$) so that,
+The axiom of choice implies Zermelo’s [[well-ordering theorem]], hence implying that all sets are [[well order|well-orderable]] and that all [[surjections]] are [[split surjections]]. The axiom of choice is then also the statement that all [[epimorphisms]] are [[split epimorphism| split epimorphisms]] in the [[category]] [[Set]] of [[set|sets]]. This means that for all surjections $f$ : $a$ → $b$ there is an injection $g$ : $b$ → $a$ (the section of $f$) so that,
 
 $$
   (b \stackrel{\g}{\to} a \stackrel{f}{\to} b) 
