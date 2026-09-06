@@ -227,7 +227,7 @@ $$
     && && \uparrow^{\mathrlap{Hom(\bar \partial,A)}}
     && && \uparrow
     \\
-    0 &\leftarrow& Ext^1(H_n,A) &\leftarrow& Hom(B_{n-1},A)
+    0 &\leftarrow& Ext^1(H_{n-1},A) &\leftarrow& Hom(B_{n-1},A)
     && \leftarrow &&
     Hom(Z_{n-1},A)
     \\
