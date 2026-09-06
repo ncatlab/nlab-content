@@ -361,7 +361,7 @@ A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
 * {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ &lbrack;[arXiv:0810.4535](http://arxiv.org/abs/0810.4535)&rbrack;
  
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra, orientations, and Thom spectra via rigid infinite loop space theory_, Journal of Topology **7** 4 (2014) &lbrack;[arXiv:1403.4320](https://arxiv.org/abs/1403.4320), [doi:10.1112/jtopol/jtu009](https://doi.org/10.1112/jtopol/jtu009)&rbrack;
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]]: _Units of ring spectra, orientations, and Thom spectra via rigid infinite loop space theory_, Journal of Topology **7** 4 (2014) &lbrack;[arXiv:1403.4320 math.AT](https://arxiv.org/abs/1403.4320), [doi:10.1112/jtopol/jtu009](https://doi.org/10.1112/jtopol/jtu009)&rbrack;
 
 * {#LurieI} [[Jacob Lurie]], construction 3.9.4 of _Elliptic Cohomology I: Spectral Abelian Varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
