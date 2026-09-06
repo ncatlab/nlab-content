@@ -13,7 +13,7 @@
 =--
 =--
 
-This page is to record the reference
+This page is to record the reference:
 
 * [[John Frank Adams]]:
 
@@ -26,6 +26,8 @@ This page is to record the reference
   Chicago Lectures in Mathematics
 
   University of Chicago Press (1974)
+
+  ISBN:978-0-226-00524-9
 
   [ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html)
 
