@@ -175,8 +175,8 @@ is a full and faithful functor.
 \begin{proof} 
 In the category $\mathbf{Meas}_{Cvx}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $1 \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
 
-Faithful:  We have $\mathcal{Y}(x)$ is the evaluation map
-$\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  If, for $f, g \in \mathbb{R}_{\infty}^X$, we have $f(x) = g(x)$ then since $X$ has enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$ to coseparate points it follows that $f=g$.  
+Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
+$\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is faithful.  
 
 Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.2 - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
 
@@ -274,7 +274,7 @@ Consequently $X$ satisfies the fullness property.
 \begin{conjecture} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{conjecture}
 Our viewpoint on this is as follows:
-Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure.  The conjecture which is more likely, and proves the preceding conjecture is, for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable.   The proof of this conjecture would give a complete and elegant description of the algebras.
+Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure.  The conjecture which is more likely, and, along with Lemma 3.9, would prove the preceding conjecture is: for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable.   The proof of this conjecture would give a complete and elegant description of the algebras.
 
  
 ## Related constructions
@@ -384,7 +384,7 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of the [[Giry monad]] arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized in [[Giry monad#algebras_over_the_giry_monad|above]]. ( The commentary by Lawvere emphasizes this double dualization aspect.)   These ideas originally appeared as
+views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of the [[Giry monad]] arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized above.    These ideas originally appeared as
 
 * {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
