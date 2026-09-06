@@ -114,7 +114,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
- Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the category whose objects $X$ are measurable spaces with a convex space structure such that there are enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the category whose objects $X$ are [[measurable spaces]] with a [[convex space]] structure such that there are enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. Note that the functional is                                        (1) weakly averaging, and (2)linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
@@ -170,30 +170,30 @@ The functor defined (on objects) by
 X & \mapsto & hom_{\mathbf{Meas}_{Cvx}}(X, \bullet)
 \end{array}
 \end{equation}
-is a full and faithful functor.
+is a [[full and faithful functor]].
 \end{theorem}
 \begin{proof} 
 In the category $\mathbf{Meas}_{Cvx}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $1 \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
 
 Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
-$\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is faithful.  
+$\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is [[faithful functor]].  
 
 Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.2 - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
 
-Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is full.
+Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is a [[full functor]].
 \end{proof}
 
 Let $\delta_x$ denote the Dirac measure at $x$.
 
 \begin{corollary} If $X$ is an object in $\mathbf{Meas}_{Cvx}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
 \end{corollary}
-\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the slice category of arrows $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
+\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the [[slice category]] of arrows $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
 For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ 
 Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. See Propositions 1 and 2, page 242 of [[CWM]].
 
-Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
+Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and [[natural transformation]] components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
-Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
 
 A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -218,7 +218,7 @@ $$
 But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
-\begin{lemma} The construction $\mathbb{E}_{\bullet}(id_X)$ is natural in the argument $X$.
+\begin{lemma} The construction $\mathbb{E}_{\bullet}(id_X)$ is a  [[natural transformation]] in the argument $X$.
 \end{lemma}
 \begin{proof}
 The proof is straightforward using the previous lemma.
@@ -261,7 +261,7 @@ commutes.  Note that the left-hand side of this diagram commutes because $h$ is 
  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
 $$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
 $$
-Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
+Now note that $G(h)$ is an [[epimorphism]] (onto) because $h$ is an [[epimorphism]]. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
 
 Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big). $$
