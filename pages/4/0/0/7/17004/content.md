@@ -266,7 +266,8 @@ $$
 
 The concept of stable Cohomotopy as such:
 
-* {#Adams74} [[Frank Adams]], part III, section 6, p. 204 of: _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], part III, section 6, p. 245 of: _[[Stable homotopy and generalised homology]]_, Chicago Lectures in Mathematics, University of Chicago Press (1974) &lbrack;ISBN:978-0-226-00524-9, [ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/Adams-SHGH-latex2.pdf)&rbrack;
+
 
 * [[John Rognes]], p. 1 of: _The sphere spectrum_, 2004 ([[RognesSphereSpectrum.pdf:file]])
 
