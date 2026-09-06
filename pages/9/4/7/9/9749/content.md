@@ -74,7 +74,7 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]] (=$\mathbf{Meas}_{G}$). 
 It is one of the most important examples of a [[Markov category]].
 
-### Algebras of the Giry Monad on $\mathbf{Meas}$
+### Algebras over the Giry Monad  {#algebras_over_the_giry_monad}
 
 We construct a factorization of the $G$ monad which shows every $G$-algebra is an expectation map.
 
