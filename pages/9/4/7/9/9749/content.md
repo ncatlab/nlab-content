@@ -122,12 +122,14 @@ Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}
 
  An $\mathbb{R}_{\infty}$-generalized point of an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ is a functional $\mathbb{R}_{\infty}^X \xrightarrow{J} \mathbb{R}_{\infty}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$, the equation 
 \begin{equation}
-\phi \big( J(f) \big) = J(\phi \circ f).
+\phi \big( J(f) \big) = J(\phi \circ f)
 \end{equation}
-Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. Weakly averaging functions are also defined there.
+which implies that $J$ is (1) weakly averaging, and (2) for all $\lambda \in \mathbb{R}$:  $J(\lambda \cdot f) = \lambda \cdot J(f)$.
+Moreover, just as in the identification of $G(X)$ with the functional space consisting of all weakly averaging linear functionals $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$, which uses the $\mathbb{R}$-linear vector space structure of the hom set and $\mathbb{R}_{\infty}$, we require the $\mathbb{R}_{\infty}$-generalized points to satisfy the linearity  property that $J(\alpha f + \beta g) = \alpha J(f) + \beta J(g)$.
+(Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. Weakly averaging functions are also defined there.)
 
 Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\widehat{ \mathbb{E}_P}$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
-$\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$.
+$\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$, and the linearity property of $\mathbb{E}_P$.
 
 The converse of the above statement is also true.
 \begin{lemma}
@@ -138,7 +140,7 @@ Let $X$ be an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  We have the inclusio
 $$
 \mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear} \xrightarrow{\mathbb{R}_{\infty}^{\iota}} \mathbb{R}_{\infty}^{hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})}|_{\mathbb{R}_{\infty}-generalized pt}
 $$
-which is a surjective function.  This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ defined by $\widehat{\mathbb{E}_P} \cong \widehat{\mathbb{E}_Q}$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\widehat{\mathbb{E}_P}$, which in turn arises from the probability measure $P$ on $X$.
+which is a surjective function. (The conditions on both functional spaces are identical: the elements are weakly averaging and linear.) This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ defined by $\widehat{\mathbb{E}_P} \cong \widehat{\mathbb{E}_Q}$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\widehat{\mathbb{E}_P}$, which in turn arises from the probability measure $P$ on $X$.
 \end{proof}
 
 
@@ -197,7 +199,7 @@ Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphis
 A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
-The function $\epsilon_X=\mathbb{E}_{\bullet}(id_X)$ is a $G$-algebra.
+The function $\mathbb{E}_{\bullet}(id_X)$(=$\epsilon_X$) is a $G$-algebra.
 \end{lemma}
 \begin{proof}The property $\epsilon_X(\delta_x)=x$ follows from the preceding corollary.
 To prove the property $\epsilon_X \circ \mu_X = \epsilon_X \circ G(\epsilon_X)$  compose both sides of that equation by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -234,8 +236,7 @@ Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\ma
 \begin{lemma} If $X$ is an object in $\mathbf{Alg}_{G}$ then $X$ satisfies the fullness property.
 \end{lemma}
 \begin{proof} 
-Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.    To show that $X$ is an object in $\mathbf{Meas}_{Cvx}$ we need to verify that $X$ satisfies the fullness condition, and that there are enough affine measurable maps $X \rightarrow \mathbb{R}_{\infty}$
-to coseparate the points of $X$.
+Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.   
 
 Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Meas}$-diagram
 \begin{tikzpicture}
@@ -255,7 +256,7 @@ Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We
    \draw[->,right] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
     
 \end{tikzpicture}
-commutes.
+commutes.  Note that the left-hand side of this diagram commutes because $h$ is a $G$-algebra.
 
  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
 $$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
@@ -266,16 +267,14 @@ Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ tha
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big). $$
   This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
 $$ \bigcap_{m \in \mathbb{R}_{\infty}^X} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
-Consequently $X$ lies in the category $\mathbf{Meas}_{Cvx}$.
+Consequently $X$ satisfies the fullness property.
 
-The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Meas}_{Cvx}$ follows from Lemma 3.1.
-Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Meas}_{Cvx}$.  Combining this fact with the result that $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_G$ yields the result.
 \end{proof}
 
 \begin{conjecture} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{conjecture}
 Our viewpoint on this is as follows:
-Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure so $X$.  The conjecture which appears needs to be shown is, for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \xrightarrow{f} \mathbb{R}_{infty}$ is measurable.   
+Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure.  The conjecture which is more likely, and proves the preceding conjecture is, for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable.   The proof of this conjecture would give a complete and elegant description of the algebras.
 
  
 ## Related constructions
@@ -351,11 +350,15 @@ From [Lawvere 20](#Lawvere20):
 
 The idea originates with
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962  ([[lawvereprobability1962.pdf:file]])
+* {#Lawvere62} [[W. Lawvere]],_The category of probabilistic mappings with author commentary_, July 14, 2025. &lbrack;[pdf](https://www.lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
-  (notice that the statement of origin on p.1 is wrong)
+The original copy of the appendix is
 
-and was picked up and published in:
+* {#Lawvere62original} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962  ([[lawvereprobability1962.pdf:file]])
+
+  (notice that the statement of origin on p.1 is wrong.)
+
+This idea was picked up and published in:
 
 * {#Giry80} [[Michèle Giry]], _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982 ([doi:10.1007/BFb0092872](https://doi.org/10.1007/BFb0092872))
 
@@ -381,7 +384,12 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]].
+views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of the [[Giry monad]] arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized in [[Giry monad#algebras_over_the_giry_monad|above]]. ( The commentary by Lawvere emphasizes this double dualization aspect.)   These ideas originally appeared as
+
+* {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
+
+but it was realized the method applied to all measurable spaces.
+
 
 Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
 
