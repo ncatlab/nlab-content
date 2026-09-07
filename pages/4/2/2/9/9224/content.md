@@ -9,17 +9,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
 In [[probability theory]] the _expectation value_ of a _[[random variable]]_ or _[[observable]]_ is to be thought of as the _[[mean]]_ value of that variable/observable under the given [[probabilities]].
 
-
-Taking the concept of expectation value as the primary concept ([Whittle 92](#Whittle92)) develops the theory of probability from axioms on the expectation functional rather than on the axioms of a probability measure.
-
+Taking the concept of expectation value as the primary (cf. [Whittle 92](#Whittle92)) paves the way to _[[quantum probability theory]]_.
 
 ## Definition
 
@@ -57,7 +53,6 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 * [[probability monad]]
 * [[convex mixture]]
 * [[mean]]
-* [[Giry monad]]
 
 ## References
 
@@ -66,4 +61,3 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 
 
 [[!redirects expectation values]]
-[[!redirects expected value]]
