@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -132,6 +130,15 @@ For instance when $G$ is an ordinary [[group]], $AUT(G)$ is the [[2-group]] disc
 * [[outer automorphism group]], [[automorphism 2-group]], [[outer automorphism ∞-group]]
 
 * [[rigidification of a stack]]
+
+## References
+
+In [[rational homotopy theory]]:
+
+* Yang Bai, Xiugui Liu, Jiaxi Zha: *On The Rational Realization of Even-dimensional Spheres and Products of Eilenberg--MacLane Spaces as Classifying Spaces* &lbrack;[arXiv:2609.04285](https://arxiv.org/abs/2609.04285)&rbrack;
+
+
+
 
 [[!redirects automorphism ∞-group]]
 [[!redirects automorphism ∞-groups]]
