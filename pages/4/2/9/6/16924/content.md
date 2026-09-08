@@ -44,16 +44,16 @@ As $p$ and $q$ varies the species of $(p,q)$5-branes form the [[lattice in a vec
 
 ### $(p,q)$-Brane webs
 
-Label local [[coordinate functions]] $x^a$ on 10d [[Minkowski spacetime]] $\mathbb{R}^{9,1}$  by $0123455'6789$ and write $v_a \coloneqq \partial_{x^a}$ for the corresponding [[vector field]]
+Label local [[coordinate functions]] $x^a$ on 10d [[Minkowski spacetime]] $\mathbb{R}^{9,1}$  by $0123455'678$ and write $v_a \coloneqq \partial_{x^a}$ for the corresponding [[vector field]]
 
 Consider a $(1,0)$5-brane (a [[D5-brane]]) along the [[multivector field]] 
 $v_0 v_1 v_2 v_3 v_4 v_5$  and a $(0,1)$5-brane (an [[NS-brane]]) along $v_0 v_1 v_2 v_3 v_4 v_{5'}$ 
 
 
-| $a =$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $5'$ | $6$ | $7$ | $8$ | $9$ |
-|-------|-----|-----|-----|-----|-----|-----|------|-----|-----|-----|-----|
-|  D5   | --- | --- | --- | --- | --- | --- |      |     |     |     |     |
-|  NS5  | --- | --- | --- | --- | --- |     |  --- |     |     |     |     |
+| $a =$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $5'$ | $6$ | $7$ | $8$ |
+|-------|-----|-----|-----|-----|-----|-----|------|-----|-----|-----|
+|  D5   | --- | --- | --- | --- | --- | --- |     |     |     |     |
+|  NS5  | --- | --- | --- | --- | --- |     |  --- |     |     |     |
 
 
 Charge conservation implies that at the [[brane intersection]] of the two a $(1,1)$5-brane emerges stretched diagonally along $v_5 + v_{g'}$, i.e. along the [[multivector field]] $v_0 v_1 v_2 v_3 v_4 (v_5 + v_{5'})$
