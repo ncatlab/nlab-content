@@ -24,7 +24,7 @@
 
 ## Idea
 
-A canonical or Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Čech nerve]] of a [[cover]]: it is used to describe [[descent]] in algebraic contexts.
+A canonical or Sweedler [[coring]] is an algebraic structure that is (possibly a noncommutative generalization) of, roughly, the [[duality|formal dual]] of the [[Čech nerve]] of a [[cover]]: it is used to describe [[descent]] in algebraic contexts.
 
 See also [[monadic descent]].
 
@@ -371,7 +371,9 @@ and appears in the [[Adams spectral sequence]].
 
 ## References
 
-Sweedler corings are named after [[Moss Sweedler]].
+Sweedler corings are named after [[Moss Sweedler]] who studied them in the context of Galois theory in
+
+* [[Moss Sweedler]], _The predual theorem to the Jacobson--Bourbaki theorem_, Trans. Amer. Math. Soc. 213 (1975), 391--406 [doi](https://doi.org/10.1090/S0002-9947-1975-0387345-9)
 
 A textbook account is in
 
