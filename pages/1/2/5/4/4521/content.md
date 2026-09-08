@@ -46,7 +46,7 @@ On [[motion groupoids]] and [[mapping class groups]]:
 * [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
 
 
-On Quinn's finite [[homotopy field theory]]:
+On Quinn's finite total homotopy [[topological quantum field theory]]:
 
 * [[João Faria Martins]], [[Timothy Porter]], *A categorification of Quinn's finite total homotopy TQFT with application to TQFTs and once-extended TQFTs derived from strict omega-groupoids* &lbrack;[arXiv:2301.02491](https://arxiv.org/abs/2301.02491)&rbrack;
 
