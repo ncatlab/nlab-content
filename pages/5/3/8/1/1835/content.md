@@ -174,6 +174,7 @@ Other related entries include
 * [[Serre's theorem on Proj]], [[Serre's theorem on quasicoherent sheaves on affine schemes]]
 * [[locally ringed space]]
 * [[algebraic variety]]
+* [[ultrascheme|ultra-scheme]]
 
 ### Standard monographs
 
