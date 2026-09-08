@@ -53,6 +53,7 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 * [[probability monad]]
 * [[convex mixture]]
 * [[mean]]
+* Algebras of the [[Giry monad]]
 
 ## References
 
@@ -61,3 +62,4 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 
 
 [[!redirects expectation values]]
+[[!redirects expected value]]
