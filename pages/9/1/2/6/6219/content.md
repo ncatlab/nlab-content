@@ -21,7 +21,7 @@
 
 ## Idea
 
-Given an [[algebraic group]] $G$ a [[subgroup]] $B\subset G$ is said to be a __Borel subgroup__ if it is maximal (under inclusion) among all Zariski closed connected [[solvable group|solvable]] subgroups. 
+Given an affine [[algebraic group]] $G$ a [[subgroup]] $B\subset G$ is said to be a __Borel subgroup__ if it is maximal (under inclusion) among all Zariski closed connected [[solvable group|solvable]] subgroups. This is equivalent, and taken as a definition for arbitrary algebraic groups, to saying that the Borel subgroup $B\subset G$ is a solvable connected subgroup such that $G/B$ is a complete (equivalently projective) variety.
 
 ## Properties
 
