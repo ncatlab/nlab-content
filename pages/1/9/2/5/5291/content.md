@@ -85,7 +85,7 @@ defining the Poisson bracket as follows.
 
 By the symplectic structure, 
 to every [[smooth function]] $f \in C^\infty(X)$
-is associated the correspinding [[Hamiltonian vector field]]
+is associated the corresponding [[Hamiltonian vector field]]
 $v_f \in \Gamma(T X)$, defined, uniquely, by the equation
 
 $$
