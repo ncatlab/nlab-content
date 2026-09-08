@@ -261,7 +261,7 @@ commutes.  Note that the left-hand side of this diagram commutes because $h$ is 
  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
 $$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
 $$
-Now note that $G(h)$ is an [[epimorphism]] (onto) because $h$ is an [[epimorphism]]. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
+Because $\hat{G} \dashv \mathcal{U}_{Cvx}$ and an [[epimorphism]] is preserved by a functor with a right adjoint it follows that $G(h)$ is an [[epimorphism]] (onto) because $h$ is an [[epimorphism]]. Cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
 
 Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
 $$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big). $$
