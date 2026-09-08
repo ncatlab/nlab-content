@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea ##
 
@@ -2749,7 +2747,7 @@ The "ring of complex vector bundles" $K(X)$ was introduced in
 
 and shown to give a [[Whitehead-generalized cohomology]] theory in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math. **III**, American Mathematical Society (1961) 7-38 &lbrack;<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181)&rbrack;
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]]: _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math. **III**, American Mathematical Society (1961) 7--38 &lbrack;<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181)&rbrack;
 
 
 Early lecture notes:
