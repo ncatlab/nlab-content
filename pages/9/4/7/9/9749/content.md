@@ -271,11 +271,12 @@ Consequently $X$ satisfies the fullness property.
 
 \end{proof}
 
-\begin{conjecture} $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.
-\end{conjecture}
-Our viewpoint on this is as follows:
-Suppose $X$ is an object in $\mathbf{Alg}_{G}$. (Note that by the condition $h \circ \eta_X = id_X$ it follows that $X$ is a separated measurable space, i.e., any two points in $X$ are separated by a measurable set of $X$.) By Lemma 3.1 $X$ has a convex space structure.  The conjecture which is more likely, and, along with Lemma 3.9, would prove the preceding conjecture is: for every object $X$ in $\mathbf{Alg}_G$, that every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable.   The proof of this conjecture would give a complete and elegant description of the algebras.
+By Lemma 3.1 If $X \in_{ob} \mathbf{Alg}_G$ then $X$ has a convex space structure. 
 
+\begin{conjecture} If $X \in_{ob}\mathbf{Alg}_G$ then every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable. 
+\end{conjecture}
+
+The proof of this conjecture, along with Lemma 3.9, would prove  $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.  
  
 ## Related constructions
 
