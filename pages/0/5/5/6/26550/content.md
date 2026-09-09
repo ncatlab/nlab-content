@@ -161,9 +161,9 @@ With these operations, the real numbers form an abelian group.
 
 ## References
 
-For the impredicative definition of the real numbers using a type of propositions, as well as the algebraic operations and order relations for real numbers see section 11.2 of:
+On the [[HoTT book real number|HoTT realization]]:
 
-* [[Univalent Foundations Project]], section 11.2 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* [[Univalent Foundations Project]], section 11.2 of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 [[!redirects real numbers type]]
 [[!redirects real numbers types]]
