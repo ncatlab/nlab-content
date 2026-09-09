@@ -9,9 +9,7 @@
 =--
 
 
-#Contents#
-* table of contents 
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -336,7 +334,7 @@ The formulation in terms of sections of Fredholm bundles seems to go back to
 
 and is expanded on in:
 
-* {#FreedHopkinsTeleman02} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Diagram (2.6) in: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+* {#FreedHopkinsTeleman02} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]]; Diagram (2.6) in: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology **1** 1 (2007) &lbrack;[arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001)&rbrack;
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
   > (beware of the false claim in [AS04 p 39](#AtiyahSegal04) that [[U(H)|$U(\mathcal{H})$]] in the [[compact open topology]] is not a [[topological group]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95))
