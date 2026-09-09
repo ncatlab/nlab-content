@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea ##
 
@@ -99,6 +97,14 @@ Survey and review:
 * [[Andrej Bauer]], *The real numbers in homotopy type theory*, talk at *[Computability and Complexity in Analysis](http://cca-net.de/cca2016/)*, Faro (2016) &lbrack;[pdf](https://math.andrej.com/wp-content/uploads/2016/06/hott-reals-cca2016.pdf), [[Bauer-RealsInHoTT.pdf:file]]&rbrack;
 
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
+
+Implementation in [cubical](Agda#CubicalAgda) 
+[[Agda]]:
+
+* Jackson Brough: *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda* &lbrack;[arXiv:2604.24782](https://arxiv.org/abs/2604.24782)&rbrack;
+
+
+
 
 [[!redirects HoTT book real numbers]]
 
