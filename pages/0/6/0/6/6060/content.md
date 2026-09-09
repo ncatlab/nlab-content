@@ -691,7 +691,7 @@ A different but somewhat analogous notion of 1-twisted de Rham cohomology appear
 
 The concept of $H_3$-twisted de Rham cohomology  was introduced (in discussion of the [[B-field]] in [[string theory]]), in:
 
-* [[Ryan Rohm]], [[Edward Witten]], around (23) and appendix of: _The antisymmetric tensor field in superstring theory_, Annals of Physics **170** 2 (1986) 454-489 \[<a href="https://doi.org/10.1016/0003-4916(86)90099-0">doi:10.1016/0003-4916(86)90099-0</a>\]
+* [[Ryan Rohm]], [[Edward Witten]]; around (23) and appendix of: _The antisymmetric tensor field in superstring theory_, Annals of Physics **170** 2 (1986) 454--489 \[<a href="https://doi.org/10.1016/0003-4916(86)90099-0">doi:10.1016/0003-4916(86)90099-0</a>\]
 
 Further discussion (often as the [[codomain]] of the [[twisted Chern character]] on [[twisted K-theory]]):
 
