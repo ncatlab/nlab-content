@@ -386,9 +386,9 @@ in that it makes these [[commuting square|squares commute]].
 \end{example}
 
 \begin{remark} 
-\label{ExtensionOfModalesAlongMonadTransformation} 
+\label{ExtensionOfModulesAlongMonadTransformation} 
 A monad transformation as in Exp. \ref{TransformationOfMonadsOnFixedCategory}
-[[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+[[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modules]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
 \begin{imagefromfile}
     "file_name": "FunctorOnModalesFromMonadMorphism-230924.jpg",
@@ -404,7 +404,7 @@ A monad transformation as in Exp. \ref{TransformationOfMonadsOnFixedCategory}
 
 Since this [[extension of scalars]] is the identity on [[underlying]] [[objects]], it cannot in general restrict to a functor on [[Kleisli categories]]. 
 
-{#ExtensionOfFreeModalesAlsoIsomorphicMonadTransformation} However, when the [[monad transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ is an [[isomorphism]] then $tr^\ast$ does take [free modales](algebra+over+a+monad#FreeAlgebras) to free modales up to [[isomorphism]]. This is seen from the following diagram:
+{#ExtensionOfFreeModulesAlsoIsomorphicMonadTransformation} However, when the [[monad transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ is an [[isomorphism]] then $tr^\ast$ does take [free modules](algebra+over+a+monad#FreeAlgebras) to free modules up to [[isomorphism]]. This is seen from the following diagram:
 
 $$
   \array{
@@ -452,7 +452,7 @@ $$
   }
 $$
 
-Here the middle vertical morphism is the nominal image under extension of the free modale on the right along $trans^{\mathcal{E} \to \mathcal{E}'}$, but the square on the left, which commutes by assumption on $trans^{\mathcal{E} \to \mathcal{E}'}$, exhibits an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
+Here the middle vertical morphism is the nominal image under extension of the free module on the right along $trans^{\mathcal{E} \to \mathcal{E}'}$, but the square on the left, which commutes by assumption on $trans^{\mathcal{E} \to \mathcal{E}'}$, exhibits an isomorphism from the middle module to the $\mathcal{E}$-free module on the left.
 \end{remark}
 
 
