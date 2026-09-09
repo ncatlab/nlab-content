@@ -152,7 +152,7 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 Introductions and surveys include
 
-* {#Deligne} [[Pierre Deligne]], _Fromed Modulaires et representations de $GL(2)$_ ([](http://publications.ias.edu/sites/default/files/Number21.pdf))
+* {#Deligne} [[Pierre Deligne]], _Formes Modulaires et representations de $GL(2)$_ ([pdf](http://publications.ias.edu/sites/default/files/Number21.pdf))
  
 * {#Gelbhart84} [[Stephen Gelbart]], starting on p. 20 (196) of _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
