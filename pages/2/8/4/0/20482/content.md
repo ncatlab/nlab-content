@@ -13,10 +13,7 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -50,8 +47,9 @@ Discussion of the (relativistic) Navier-Stokes equation in view of the [[fluid/g
 
 * {#Thillaisundaram17} Ashok Thillaisundaram, _Aspects of fluid dynamics and the fluid/gravity correspondence_, 2017 ([CambridgeRepositor:1810/267097](https://www.repository.cam.ac.uk/handle/1810/267097), [pdf](https://www.repository.cam.ac.uk/bitstream/handle/1810/267097/ThillaisundaramThesis.pdf?sequence=1&isAllowed=y))
 
+An [[AI]]-generated proof, verified with [[Lean]], of instability of the NS-equations:
 
-
+* OpenAI: *On the Navier–Stokes Millennium Prize Problem* (8 Sep 2026) &lbrack;[openai.com/index/navier-stokes-solution](https://openai.com/index/navier-stokes-solution)&rbrack;
 
 
 [[!redirects Navier-Stokes equations]]
