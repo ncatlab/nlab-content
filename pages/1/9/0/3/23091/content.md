@@ -84,7 +84,7 @@ Monographs:
 
 * {#Maunder70} [[C. R. F. Maunder]], *Algebraic Topology*, Cambridge University Press, Cambridge (1970, 1980) $[$[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maunder.pdf)\]
 
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
+* {#Switzer75} [[Robert Switzer]]: _Algebraic Topology --- Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen **212** Springer (1975) \[<a href="https://link.springer.com/book/10.1007/978-3-642-61923-6">doi:10.1007/978-3-642-61923-6</a>\]
 
 * {#Giblin77} P. J. Giblin: *Graphs, Surfaces and Homology -- An Introduction to Algebraic Topology*, Chapman and Hall (1977) \[<a href="https://doi.org/10.1007/978-94-009-5953-8">doi:10.1007/978-94-009-5953-8</a>\]
   > (focus on [[graphs]] and [[surfaces]])
