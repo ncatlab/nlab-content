@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -265,12 +263,27 @@ See also:
 
 * I. Huq-Kuruvilla, [[Leonardo Mihalcea]], [[Eric Sharpe]], H. Zhang: *Quantum K-theory levels in physics and math* &lbrack;[arXiv:2507.00116](https://arxiv.org/abs/2507.00116)&rbrack;
 
+[[!include quantum cohomology as Pontrjagin rings -- references]]
+
+
+
+
+### Quantum elliptic cohomology
+
+On physics interpretation of quantum [[elliptic cohomology]]:
+
+* Z. Cao, [[Eric Sharpe]], H. Zhang: *Towards quantum elliptic cohomology from GLSMs* &lbrack;[arXiv:2609.09277](https://arxiv.org/abs/2609.09277)&rbrack;
+
+* [[Ilka Brunner]], Peng Cheng, [[Hans Jockers]]: *Quantum Elliptic Cohomology From Four-Dimensional Minimal Supersymmetric Gauge Theories* &lbrack;[arXiv:2609.09298](https://arxiv.org/abs/2609.09298)&rbrack;
+
+
+
  
 
 
 
 
-[[!include quantum cohomology as Pontrjagin rings -- references]]
+
 
 
 
