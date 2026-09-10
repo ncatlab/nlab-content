@@ -136,6 +136,10 @@ Further discussion of subtleties of the definition of particles _in_ (non-[[free
  
 * Benjamin H. Feintzeig, Jonah Librande, Rory Soiffer, *Localizable Particles in the Classical Limit of Quantum Field Theory* ([arXiv:2104.06442](https://arxiv.org/abs/2104.06442))
 
+On point particles in [[general relativity]]:
+
+* Jørgen Musaeus, Adam Pound, Samuel D. Upton: *Point particles in general relativity: beyond linear perturbation theory* &lbrack;[arXiv:2609.10521](https://arxiv.org/abs/2609.10521)&rbrack;
+
 
 
 ### Classical charged particles
