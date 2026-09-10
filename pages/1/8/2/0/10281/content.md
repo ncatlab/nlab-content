@@ -14,7 +14,7 @@
 =--
 
 
-This entry collects links related to the textbook
+This page is to record the reference:
 
 * [[Joseph Polchinski]]:
 
@@ -36,7 +36,7 @@ This entry collects links related to the textbook
 
     [doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)
 
-on [[string theory]], first [[bosonic string theory]], then [[superstring theory]] with an outlook on [[M-theory]].
+on [[string theory]], first [[bosonic string theory]], then [[superstring theory]], with an outlook on [[M-theory]].
 
 See also:
 
