@@ -88,6 +88,10 @@ On [[quantum K-theory rings]]:
 
 * I. Huq-Kuruvilla, [[Leonardo Mihalcea]], [[Eric Sharpe]], H. Zhang: *Quantum K-theory levels in physics and math* &lbrack;[arXiv:2507.00116](https://arxiv.org/abs/2507.00116)&rbrack;
 
+On physics interpretation of [[quantum cohomology ring|quantum]] [[elliptic cohomology]]:
+
+* Z. Cao, [[Eric Sharpe]], H. Zhang: *Towards quantum elliptic cohomology from GLSMs* &lbrack;[arXiv:2609.09277](https://arxiv.org/abs/2609.09277)&rbrack;
+
 
 ## Selected talks
 
