@@ -517,7 +517,7 @@ A superficially weaker but equivalent statement of univalence:
 
 A reduction of the univalence axiom to special cases:
 
-* {#OrtonPittsTYPES17} [[Ian Orton]], [[Andrew M. Pitts]], _Decomposing the Univalence Axiom_, In 23rd International Conference on Types for Proofs and Programs (TYPES 2017), Leibniz International Proceedings in Informatics (LIPIcs) **104** (2019) 6:1--6:19 &lbrack;[arXiv:1712.04890](https://arxiv.org/abs/1712.04890), [doi:10.4230/LIPIcs.TYPES.2017.6](https://doi.org/10.4230/LIPIcs.TYPES.2017.6)&rbrack;
+* {#OrtonPittsTYPES17} [[Ian Orton]], [[Andrew M. Pitts]], _Decomposing the Univalence Axiom_, in 23rd International Conference on Types for Proofs and Programs (TYPES 2017), Leibniz International Proceedings in Informatics (LIPIcs) **104** (2019) 6:1--6:19 &lbrack;[arXiv:1712.04890](https://arxiv.org/abs/1712.04890), [doi:10.4230/LIPIcs.TYPES.2017.6](https://doi.org/10.4230/LIPIcs.TYPES.2017.6)&rbrack;
 
 On a possibly-weaker variant of univalence:
 
@@ -527,7 +527,7 @@ On a possibly-weaker variant of univalence:
 
 Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
 
-* Madeleine Birchfield, Valery Isaev, *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
+* [[Madeleine Birchfield]], [[Valery Isaev]], *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
 
 Some discussion about the univalence axiom in [[dependent type theory with type variables]] occurs in:
 
@@ -545,17 +545,22 @@ A quick elegant proof of the [[object classifier]]/universal [[associated infini
 
 A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
-* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
+* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_, Forum Mathematicum **29** 3 (2016) 617--652 &lbrack;[arXiv:1208.1749](http://arxiv.org/abs/1208.1749), [doi:10.1515/forum-2015-0228](https://doi.org/10.1515/forum-2015-0228)&rbrack;
 
-This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with [[Tarski universes]], see there and [[type universes]]). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
+This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with [[Tarski universes]], see there and [[type universes]]). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) below, and also in
 
-* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
+* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, Homology, Homotopy and Applications **17** 2 (2015) 81--106 &lbrack;[arXiv:1307.6248](http://arxiv.org/abs/1203.3253), [doi:10.4310/HHA.2015.v17.n2.a6](https://doi.org/10.4310/HHA.2015.v17.n2.a6)&rbrack;
 
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
 
 Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
 
 * {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+
+On the issue of strict pullback of the univalent universe see
+
+* Univalent Foundations Mailing List, _[Quotients](https://groups.google.com/d/msg/univalent-foundations/Glo7NgNvhJA/4j9SewiFvQ0J)_, March 2013
+  {#UF13}
 
 On an interpretation of a univalent universe at the strength of finite order arithmetic:
 
@@ -590,49 +595,43 @@ A guided walk through the formal proof that univalence implies [[functional exte
 
 Application of univalence to [[proof]] transfer:
 
-* Cyril Cohen, Enzo Crance, Assia Mahboubi, *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
+* [[Cyril Cohen]], Enzo Crance, [[Assia Mahboubi]], *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
 
 ### Canonicity and computational interpretations
 
 A discussion of univalence in categories of [[diagrams]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
 
-* [[Michael Shulman]], _Univalence for inverse diagrams, oplax limits, and gluing, and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
- {#Shulman12}
+* [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science **25** (2015) 1203--1277 &lbrack;[arXiv:1203.3253](http://arxiv.org/abs/1203.3253), [doi:10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565)&rbrack;
 
 This discusses [[canonicity]] of univalence in its section 13. Another approach to showing canonicity is (via [[cubical sets]]) in 
 
-* [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Haskell code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY))
+* [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A model of type theory in cubical sets_, in 19th International Conference on Types for Proofs and Programs (TYPES 2013), Leibniz International Proceedings in Informatics (LIPIcs) **26** (2014) 107--128 &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Haskell code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY))&rbrack;
   {#CoquandHuber13}
+
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_, Journal of Automated Reasoning **63** (2019) 159--171 ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941), [doi:10.1007/s10817-018-9472-6](https://doi.org/10.1007/s10817-018-9472-6))
 
 A proof of canonicity is presented in the talk
 
 * {#Sattler19} [[Christian Sattler]], _Homotopy Canonicity_, ([abstract](http://www.ii.uib.no/~bezem/abstracts/TYPES_2019_paper_110))
 
-On the issue of strict pullback of the univalent universe see
-
-* Univalent Foundations Mailing List, _[Quotients](https://groups.google.com/d/msg/univalent-foundations/Glo7NgNvhJA/4j9SewiFvQ0J)_, March 2013
-  {#UF13}
-
 The computational interpretation of univalence / [[canonicity]] is discussed in 
 
 * [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
 
-* [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_ (2011) ([pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf))
+* [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_, in Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of Programming Languages (POPL) (2012) 337--348 &lbrack;[doi:10.1145/2103656.2103697](https://doi.org/10.1145/2103656.2103697), [pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf)&rbrack;
  {#HarperLicata}
 
-* [[Daniel Licata]] _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  ([video](http://video.ias.edu/stream&ref=1674))
+* [[Daniel Licata]], _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  ([video](http://video.ias.edu/stream&ref=1674))
 
-* Simon Huber (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
+* [[Simon Huber]] (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
 
-* Bruno Barras, [[Thierry Coquand]], Simon Huber, _A Generalization of Takeuti-Gandy Interpretation_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
+* [[Bruno Barras]], [[Thierry Coquand]], [[Simon Huber]], _A Generalization of the Takeuti-Gandy Interpretation_, Mathematical Structures in Computer Science **25** Special Issue 5 (2015) 1071--1099 &lbrack;[pdf](https://simhu.github.io/papers/v5.pdf), [doi:10.1017/S0960129514000504](https://doi.org/10.1017/S0960129514000504)&rbrack;
 
 and realized in [[cubical type theory]] in
 
 * {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
  
-* [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://hal.inria.fr/hal-01378906/document))
-
-* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_ ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
+* [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_, in 21st International Conference on Types for Proofs and Programs (TYPES 2015), Leibniz International Proceedings in Informatics (LIPIcs) **69** (2018) 5:1--5:34 &lbrack;[arxiv:1611.02108](https://arxiv.org/abs/1611.02108), [hal-01378906](https://hal.inria.fr/hal-01378906), [doi:10.4230/LIPIcs.TYPES.2015.5](https://doi.org/10.4230/LIPIcs.TYPES.2015.5)&rbrack;
 
 [[!redirects univalence]]
 [[!redirects univalent]]
