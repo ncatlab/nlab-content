@@ -89,7 +89,13 @@ Discussion of charge quantization in [[twisted K-theory]] for the case of non-va
 
 * [Witten 98, Sec. 5.3](#Witten98) (for [[torsion subgroup|torsion]] twists)
 
+* [[Daniel S. Freed]], [[Edward Witten]]: *Anomalies in String Theory with D-Branes*, Asian J. Math. **3** 4 (1999) 819--852 &lbrack;[arXiv:hep-th/9907189](https://arxiv.org/abs/hep-th/9907189), [doi:10.4310/AJM.1999.v3.n4.a6](https://dx.doi.org/10.4310/AJM.1999.v3.n4.a6)&rbrack;
+
+* [[Anton Kapustin]]: *D-branes in a topologically nontrivial B-field*, Adv. Theor. Math. Phys. **4** (2000) 127--154 &lbrack;[arXiv:hep-th/9909089](https://arxiv.org/abs/hep-th/9909089), [doi:10.4310/ATMP.2000.v4.n1.a3](https://dx.doi.org/10.4310/ATMP.2000.v4.n1.a3)&rbrack;
+
 * [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1088/1126-6708/2000/03/007">doi:10.1088/1126-6708/2000/03/007</a>, [arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023)\]
+
+
 
 An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
