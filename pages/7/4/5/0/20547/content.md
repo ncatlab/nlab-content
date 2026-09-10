@@ -47,5 +47,9 @@ Discussion of [[Rozansky-Witten theory|Rozansky-Witten]] [[defect QFT]] as an [[
 
 * [[Ilka Brunner]], [[Nils Carqueville]], [[Daniel Roggenkamp]], *Truncated affine Rozansky--Witten models as extended TQFTs*,  Commun. Math. Phys. (2023) &lbrack;[arXiv:2201.03284](https://arxiv.org/abs/2201.03284), [doi:10.1007/s00220-022-04614-4](https://doi.org/10.1007/s00220-022-04614-4)&rbrack;
 
+On physics interpretation of quantum [[elliptic cohomology]]:
+
+* [[Ilka Brunner]], Peng Cheng, [[Hans Jockers]]: *Quantum Elliptic Cohomology From Four-Dimensional Minimal Supersymmetric Gauge Theories* &lbrack;[arXiv:2609.09298](https://arxiv.org/abs/2609.09298)&rbrack;
+
 
 category: people
