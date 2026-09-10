@@ -115,35 +115,7 @@ Due to the usual [[univalence axiom]], we know that it is consistent to [[resize
 Resizing the identity types allows for one more version of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with the [[identity type]] of the universe $U$, resulting in the statement that for all small types $A:U$ and $B:U$, there is an [[identification]] 
 $$\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{U} (T(A) \simeq T(B))$$
 
-This implies the usual version of internal univalence either through [[identification elimination]], [[transport]], and [[action on identifications]] for the [[identity type]]. On the other hand, the usual version of univalence implies this version of univalence by repeated applications of univalence. 
-
-### Internal univalence
-
-Suppose the [[Tarski universe]] $U$ has 
-
-* internal identity types 
-$$\mathrm{Id}^U:\prod_{A:U} T(A) \times T(A) \to U$$
-* internal dependent product types 
-$$\Pi_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$ 
-* internal dependent sum types 
-$$\Sigma_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$
-
-We assume the weakest notion of Tarski universe, where the type reflection $T(A)$ of each $A:U$ is only equivalent to the external type, since (judgmentally, propositionally, typally) strict Tarski universes are weakly Tarski universes, because the [[judgmental equality]] and [[propositional equality]] imply equivalence of types by the structural rules for judgmental and propositional equality, and [[typal equality]] in a [[type universe]] of types imply equivalence of types by [[identification elimination]], [[transport]], and [[action on identifications]]. 
-
-This allows us to define the internal type of equivalences $A \simeq_U^\mathrm{in} B$, internal to the universe $U$, which comes with a canonical equivalence of types
-$$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U^\mathrm{in} B) \simeq (T(A) \simeq T(B))$$ 
-This implies that the equivalence $T(A) \simeq T(B)$ is $U$-small, and [[transport]] being an [[equivalence]] then implies that in any universe $U$ which is closed under [[function types]], [[dependent product types]], and [[dependent sum types]], for all $A:U$ and $B:U$, the [[identity type]] $A =_U B$ is $U$-small. 
-
-The internal univalence axiom states that the canonical function 
-$$\mathrm{idtointernalequiv}(A, B):(A =_U B) \to T(A \simeq_U^\mathrm{in} B)$$
-is an equivalence of types
-$$\mathrm{idtoequiv}(A, B):(A =_U B) \simeq T(A \simeq_U^\mathrm{in} B)$$
-
-This is not definable for [[strongly predicative]] [[type universes]], since [[strongly predicative]] [[type universes]] are by definition not closed under [[dependent product types]]. 
-
-In addition, the internal and external versions of univalence imply each other. In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
-$$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
-for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity equivalence of $T(A \simeq_U^\mathrm{in} A)$ to the identity equivalence in $T(A) \simeq T(A)$. Since the identity equivalence in $T(A \simeq_U^\mathrm{in} A)$ is just the [[identity function]] $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, if the universe is closed under [[identity types]], [[dependent product types]], and [[dependent sum types]] the two univalence axioms imply each other and both define the same notion of univalent universe. 
+This implies the usual version of univalence either through [[identification elimination]], [[transport]], and [[action on identifications]] for the [[identity type]]. On the other hand, the usual version of univalence implies this version of univalence by repeated applications of univalence. 
 
 ## Stricter variants of univalence
 
