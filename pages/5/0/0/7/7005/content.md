@@ -30,13 +30,13 @@
 
 In [[intensional type theory]], [[identity types]] behave like [[path space objects]]; this viewpoint is called [[homotopy type theory]].  This induces furthermore a notion of [[homotopy fibers]], hence of [[homotopy equivalence]]s between [[types]].
 
-On the other hand, if type theory contains a [[universe]] [[Type]], so that types can be considered as *points* of $Type$, then between two types we also have an [[identity type]] $Paths_{Type}(X,Y)$.  The _univalence axiom_ says that these two notions of "sameness" for types are the same.  
+On the other hand, if type theory contains a [[type universe]] $U$, so that types can be considered as *points* of $U$, then between two types we also have an [[identity type]] $X =_U Y$.  The _univalence axiom_ says that these two notions of "sameness" for types are the same.  
 
-Extensionality principles like [[function extensionality]], [[propositional extensionality]] (where $X$ and $Y$ are [[h-propositions]], and univalence ("typal extensionality") are naturally regarded as a stronger form of _[[identity of indiscernibles]]_. In particular, the [[consistency]] of univalence means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes isomorphic [[types]]; thus isomorphic types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
+Extensionality principles like [[function extensionality]], [[propositional extensionality]] (where $X$ and $Y$ are [[h-propositions]]), and univalence ("typal extensionality") are naturally regarded as a stronger form of _[[identity of indiscernibles]]_. In particular, the [[consistency]] of univalence means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes isomorphic [[types]]; thus isomorphic types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
 
 The name *univalence* (due to Voevodsky, see [Voevodsky 14](#Voevodsky14) for etymology) comes from the following reasoning.  A fibration or bundle $p\colon E\to B$ of some sort is commonly said to be *universal* if every other bundle of the same sort is a pullback of $p$ in a unique way (up to homotopy).  Less commonly, a bundle is said to be *versal* if every other bundle is a pullback of it in *some* way, not necessarily unique.  By contrast, a bundle is said to be *univalent* if every other bundle is a pullback of it in *at most one* way (up to homotopy).  In the language of [[(∞,1)-category]] theory, a univalent bundle is an [[object classifier]].
 
-The univalence axiom does not *literally* say that anything is univalent in this sense.  However, it is *equivalent* to saying that the canonical fibration over $Type$ is univalent: every fibration with _small_ fibers is an essentially unique pullback of this one (while those with large fibers are not, they are pullbacks of the next higher $Type_1$).  For a description of this equivalence, see section 4.8 of the [[HoTT Book]] (syntactically) and [Gepner-Kock](#GepnerKock12) (semantically).
+The univalence axiom does not *literally* say that anything is univalent in this sense.  However, it is *equivalent* to saying that the canonical fibration over $U$ is univalent: every fibration with $U$-_small_ fibers is an essentially unique pullback of this one.  For a description of this equivalence, see section 4.8 of the [[HoTT Book]] (syntactically) and [Gepner-Kock](#GepnerKock12) (semantically).
 
 Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (see at _[[univalent foundations for mathematics]]_).
 
@@ -90,9 +90,10 @@ $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)
 
 See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
-### Weaker versions of univalence
+### Decomposition
+ {#Decomposition}
 
-In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that the univalence axiom can be simplified to the following special cases:
+Assuming [[function extensionality]], [[Ian Orton]] and [[Andrew Pitts]] showed in [Orton and Pitts 19](#OrtonPitts19) that the univalence axiom can be simplified to the following special cases:
 
    * $unit : A = \sum_{a:A} 1$
    * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
@@ -100,12 +101,11 @@ In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed
    * $unit_\beta : coe(unit(a)) = (a,\star)$
    * $flip_\beta : coe(flip(a,b,c)) = (b,a,c)$.
 
-   The proof constructs $ua(f): A=B$ (for $f:A\simeq B$) as the composite
-   $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
-   and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
+The proof constructs $ua(f): A=B$ (for $f:A\simeq B$) as the composite
+$$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
+and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
 
-This is weaker than univalence because in the absense of [[function extensionality]], it is no longer possible to prove univalence from this set of axioms. 
-
+In the absence of [[function extensionality]], this set of axioms is [conjectured to be weaker than univalence](#WeakerVariants).
 In addition, unlike the definitions above, this definition of univalence cannot be generalized to [[reflexive graphs]]. 
 
 ### Resizing the identity types
@@ -126,9 +126,9 @@ $$\mathrm{Id}^U:\prod_{A:U} T(A) \times T(A) \to U$$
 * internal dependent product types 
 $$\Pi_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$ 
 * internal dependent sum types 
-$$\Sigma_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$ 
+$$\Sigma_U (x:(-)).(-)(x):\left(U \times \prod_{A:U} T(A) \to U\right) \to U$$
 
-We assume the weakest notion of Tarski universe, where the type reflection $T(A)$ of each $A:U$ is only equivalent to the external type, since (judgmentally, propositionally, typally) strict Tarski universes are weakly Tarski universes, because the [[judgmental equality]] and [[propositional equality]] imply equivalence of types by the structural rules for judgmental and propostional equality, and [[typal equality]] in a [[type universe]] of types imply equivalence of types by [[identification elimination]], [[transport]], and [[action on identifications]]. 
+We assume the weakest notion of Tarski universe, where the type reflection $T(A)$ of each $A:U$ is only equivalent to the external type, since (judgmentally, propositionally, typally) strict Tarski universes are weakly Tarski universes, because the [[judgmental equality]] and [[propositional equality]] imply equivalence of types by the structural rules for judgmental and propositional equality, and [[typal equality]] in a [[type universe]] of types imply equivalence of types by [[identification elimination]], [[transport]], and [[action on identifications]]. 
 
 This allows us to define the internal type of equivalences $A \simeq_U^\mathrm{in} B$, internal to the universe $U$, which comes with a canonical equivalence of types
 $$\mathrm{canonical}_\simeq(A, B):T(A \simeq_U^\mathrm{in} B) \simeq (T(A) \simeq T(B))$$ 
@@ -147,7 +147,7 @@ for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that
 
 ## Stricter variants of univalence
 
-There are a few variants of univalence that are stricter than the usual axiom of univalence in that they use [[judgmental equalities]] and thus have to be expressed as (possibly multiple) [[inference rules]] instead of an [[axiom]]. 
+There are a few variants of univalence that are stricter than the usual axiom of univalence in that they use [[judgmental equalities]] and thus have to be expressed as (possibly multiple) [[inference rules]] instead of an [[axiom]].
 
 ### Using definitional isomorphism
 
@@ -155,7 +155,7 @@ There is a variant of univalence called **definitional univalence** or **judgmen
 
 Unlike the case for the usual typal variant of univalence, where one can use an element of an [[equivalence type]], we cannot use definitional isomorphisms as elements of [[definitional isomorphism types]] to express definitional univalence, because the large recursion principle of the [[interval type]] together with [[definitional isomorphism types]] implies [[equality reflection]], which contradicts univalence. 
 
-[[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ in definitional univalence. 
+[[Mike Shulman]]\'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ in definitional univalence. 
 
 ### Using judgmental equality of types
 
@@ -175,6 +175,22 @@ $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash 
 Uniqueness rules:
 $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
 
+## Weaker variants of univalence
+ {#WeakerVariants}
+
+Van den Berg ([Van den Berg 20, Definition 2.13](#VanDenBerg20)) gives a definition of univalent fibration in a [[category with path objects|path category]] which can be translated into type theory as follows:
+
+$$A:U, B:U \vdash \mathrm{ua}(A, B): (A \simeq B) \to (A =_U B)$$
+$$A:U, B:U, e : (A\simeq B), a: A \vdash G(A,B,e,a) : \mathrm{coe}(\mathrm{ua}(A,B))(a) =_{B} e(a)$$
+
+Notably, this variant of the univalence axiom can be unfolded and presented as a pair of inference rules in a type theory with only [[identity types]], [[dependent sum types]], and $U$.
+All uses of [[dependent product types]] can be replaced with hypothetical judgements.
+
+Assuming [[dependent product types]] with [[function extensionality]], this is equivalent to the univalence axiom ([Licata 16](#Licata16)).
+If [[function extensionality]] is not explicitly assumed, it is an open question whether it is equivalent to the univalence axiom (or equivalently, [that it implies function extensionality](#UnivalenceFunctionExtensionality)).
+This is observed in Remark 4.6 of [Swan 24](#Swan24).
+It is, however, equivalent to [Orton and Pitts' set of axioms](#Decomposition).
+
 ## In categorical semantics
  {#InCategoricalSemantics}
 
@@ -183,7 +199,7 @@ Let $\mathcal{C}$ be a [[locally cartesian closed model category]] in which all 
 By the [[categorical semantics]] of [[homotopy type theory]], a [[dependent type]]
 
 $$
-  b : B \vdash E(b) : Type
+  b : B \vdash E(b) \; \mathrm{type}
 $$
 
 corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ that is a [[fibration]] between fibrant objects.
@@ -191,7 +207,7 @@ corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ that is a [[fibration]]
 Then the [[dependent type|dependent]] [[function type]]
 
 $$
-  b_1, b_2 : B \vdash ( E(b_1) \to E(b_2)) : Type
+  b_1, b_2 : B \vdash ( E(b_1) \to E(b_2)) \; \mathrm{type}
 $$
 
 is interpreted as the [[internal hom]] $[-,-]_{\mathcal{C}/_{B \times B}}$ in the [[slice category]] $\mathcal{C}/_{B \times B}$ after extending $E$ to the [[context]] $B \times B$ by pulling back along the two projections $p_1, p_2 : B \times B \to B$, respectively. Hence this is interpreted as
@@ -326,7 +342,7 @@ $$
   \,.
 $$
 
-The fibration $E \to B$ is univalent, precisely when this morphism is  a weak equivalence.
+The fibration $E \to B$ is univalent, precisely when this morphism is a weak equivalence.
 
 This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
@@ -342,6 +358,7 @@ See ([Shulman 12](#Shulman12), [UF 13](UF13))
 ## Properties
 
 ### Relation to function extensionality
+  {#UnivalenceFunctionExtensionality}
 
 The univalence axiom implies [[function extensionality]].
 
@@ -359,7 +376,8 @@ It is frequently stated that the univalence axiom and axiom K are inconsistent w
 
 The [[univalence axiom]] is consistent with [[excluded middle]]. This is because the principle of excluded middle as traditionally defined in mathematics is about [[propositions]] or [[(-1)-truncated]] types. 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee (A \to \emptyset))}$$
-The semantics of dependent type theory with excluded middle and universes satisfying the univalence axiom are [[boolean topos|boolean]] [[(infinity,1)-topos|$(\infty, 1)$-toposes]]. 
+Dependent type theory with excluded middle and universes satisfying the univalence axiom has semantics in [[boolean topos|boolean]] [[(infinity,1)-topos|$(\infty, 1)$-toposes]].
+A short proof of the excluded middle for the [simplicial model](#InSimplicialSets) can be found in [Kapulkin--Lumsdaine 20](#KapulkinLumsdaine20).
 
 However, there is a global choice axiom which is inconsistent with univalence:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{gc}_A:A + (A \to \emptyset)}$$
@@ -456,6 +474,8 @@ This implies the usual version of univalence either through [[identification eli
 
 > For more references see also at _[[homotopy type theory]]_.
 
+### History
+
 Arguably, the earliest occurrence of a version of the univalence axiom is due -- under the name "universe extensionality" -- to:
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
@@ -465,7 +485,6 @@ Strictly speaking, univalence for *propositions* has a much longer pedigree, thi
 For comments on the early history see also:
 
 * {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
-
 
 It is this notion of [[equivalence in homotopy type theory]] which was fixed in 
 
@@ -489,7 +508,6 @@ see also:
 
 * {#Voevodsky14} [[Vladimir Voevodsky]], _Univalent foundations – new type-theoretic foundations of mathematics_, talk at IHP 2014 ([pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2014_04_22_slides.pdf))
 
-
 Later in:
 
 * [[Vladimir Voevodsky]],  *[The Origins and Motivations of Univalent Foundations](https://www.ias.edu/ideas/2014/voevodsky-origins)*, IAS Institute Letter Summer 2014
@@ -497,8 +515,6 @@ Later in:
 appears the claim that:
 
 > have been working on the ideas that led to the discovery of univalent models since 2005 and gave the first public presentation on this subject at Ludwig-Maximilians-Universität München in November 2009.
-
-
 
 A comprehensive discussion finally appears in the textbook:
 
@@ -508,7 +524,7 @@ Voevodsky's ([Bousfield's](#Bousfield06)) original idea for the [[universal Kan 
 
 * {#KapulkinLumsdaine21} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
 
-Exposition and survey
+### Exposition and survey
 
 * [[Peter Aczel]], *On Voevodsky’s Univalence Axiom*, talk at Third European Set Theory Conference (2011) &lbrack;[pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf), [[Aczel-Univalence.pdf:file]]&rbrack;
 
@@ -520,9 +536,32 @@ Additional definition of univalent universes appeared in section 17.1 of
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
-as well as in this Google Groups thread:
+### Variants
+
+A superficially weaker but equivalent statement of univalence:
 
 * {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* ([web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ))
+
+
+A reduction of the univalence axiom to special cases:
+
+* {#OrtonPittsTYPES17} [[Ian Orton]], [[Andrew M. Pitts]], _Decomposing the Univalence Axiom_, In 23rd International Conference on Types for Proofs and Programs (TYPES 2017), Leibniz International Proceedings in Informatics (LIPIcs) **104** (2019) 6:1--6:19 &lbrack;[arXiv:1712.04890](https://arxiv.org/abs/1712.04890), [doi:10.4230/LIPIcs.TYPES.2017.6](https://doi.org/10.4230/LIPIcs.TYPES.2017.6)&rbrack;
+
+On a possibly-weaker variant of univalence:
+
+* {#VanDenBerg20} [[Benno van den Berg]], Section 2.3 in _Univalent polymorphism_, Annals of Pure and Applied Logic **171** (2020) 102793 &lbrack;[arXiv:1803.10113](https://arxiv.org/abs/1803.10113), [doi:10.1016/j.apal.2020.102793](http://doi.org/10.1016/j.apal.2020.102793)&rbrack;
+
+* {#Swan24} [[Andrew Swan]], Section 4 in _A categorical formulation of Kraus' paradox_ (2024) &lbrack;[arXiv:2403.17961](https://arxiv.org/abs/2403.17961)&rbrack;
+
+Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
+
+* Madeleine Birchfield, Valery Isaev, *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
+
+Some discussion about the univalence axiom in [[dependent type theory with type variables]] occurs in:
+
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
+
+### Semantics
 
 An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield06)) that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
 
@@ -531,10 +570,30 @@ An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield0
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
 * {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www-home.math.uwo.ca/~kkapulki/notes/fiber_bundles_univalence.pdf))
- 
-See also 
+
+A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
+
+* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
+
+This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with [[Tarski universes]], see there and [[type universes]]). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
+
+* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
+
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
+Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
+
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+
+On an interpretation of a univalent universe at the strength of finite order arithmetic:
 
 * [[Colin McLarty]], _A univalent universe in finite order arithmetic_ ([arXiv:1412.6714](http://arxiv.org/abs/1412.6714))
+
+Coexistence of univalence with the [[excluded middle]]:
+
+* {#KapulkinLumsdaine20} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The Law of Excluded Middle in the Simplicial Model of Type Theory_, Theory and Applications of Categories **35** 40 (2020) 1546--1548 &lbrack;[arXiv:2006.13694](https://arxiv.org/abs/2006.13694), [doi:10.70930/tac/ykx24t1x](https://doi.org/10.70930/tac/ykx24t1x)&rbrack;
+
+### Proof assistants
 
 Implementation of univalence in [[proof assistants]]:
 
@@ -556,11 +615,12 @@ in [[Coq]]:
 A guided walk through the formal proof that univalence implies [[functional extensionality]] is at
 
 * {#BauerLumsdaine} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
- 
 
-Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
+Application of univalence to [[proof]] transfer:
 
-* Madeleine Birchfield, Valery Isaev, *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
+* Cyril Cohen, Enzo Crance, Assia Mahboubi, *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
+
+### Canonicity and computational interpretations
 
 A discussion of univalence in categories of [[diagrams]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
 
@@ -575,7 +635,6 @@ This discusses [[canonicity]] of univalence in its section 13. Another approach 
 A proof of canonicity is presented in the talk
 
 * {#Sattler19} [[Christian Sattler]], _Homotopy Canonicity_, ([abstract](http://www.ii.uib.no/~bezem/abstracts/TYPES_2019_paper_110))
-
 
 On the issue of strict pullback of the univalent universe see
 
@@ -602,29 +661,6 @@ and realized in [[cubical type theory]] in
 * [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://hal.inria.fr/hal-01378906/document))
 
 * {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_ ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
-
-A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
-
-* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
-
-This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with [[Tarski universes]], see there and [[type universes]]). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
-
-* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
-
-* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
-
-Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
-
-* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
-
-Application of univalence to [[proof]] transfer:
-
-* Cyril Cohen, Enzo Crance, Assia Mahboubi, *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
-
-Some discussion about the univalence axiom in [[dependent type theory with type variables]] occurs in:
-
-* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
-
 
 [[!redirects univalence]]
 [[!redirects univalent]]
