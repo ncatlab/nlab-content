@@ -323,7 +323,7 @@ This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
 (...)
 
-See ([Shulman 12](#Shulman12), [UF 13](UF13))
+See ([Shulman 15](#Shulman12), [UF 13](UF13))
 
 (...)
 
@@ -358,17 +358,37 @@ This is sometimes called "excluded middle" in the [[propositions as types]] inte
 ### Canonicity and homotopy canonicity
  {#Canonicity}
 
-It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]), [[homotopy canonicity]] has been shown in ([Shulman 12, section 13](#Shulman12).  Thus, in univalent homotopy 1-type theory with two universes, every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
+If we extend [[Martin-Löf type theory]] with an axiom stating that a universe $U$ is univalent, we get a type theory which does not satisfy [[canonicity]]: there exist [[terms]] $\cdot \vdash N : \mathbb{N}$ in the [[empty context]] which are not [[judgmentally equal]] to any [[numeral]].
+For example, if $\cdot \vdash e : \mathbb{N} \simeq \mathbb{N}$ is some [[equivalence type|equivalence]] (such as the identity equivalence), then $coe(ua(e))(0) : \mathbb{N}$ is such a term: although there is a [[typal equality]] $coe(ua(e))(0) = e(0)$, there is no [[judgmental equality]].
+This can be shown using [[normalization]] for MLTT to compare the [[normal forms]] of $coe(ua(e))(0)$ and $e(0)$, treating [[judgments]] of the extended theory as judgments of MLTT with an extra hypothesis in the [[context]] stating that $U$ is univalent.
 
-The construction in ([Shulman 12, section 13](#Shulman12)) uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize to untruncated univalent type theory, one seems to need a sufficiently strict [[global sections]] functor with values in some model for [[infinity-groupoids]]. A proof of the full result has been announced by [[Christian Sattler]] and [[Krzysztof Kapulkin]] ([Sattler 19](#Sattler19)).
+Despite this, it is possible to extend [[Martin-Löf type theory]] with univalent universes _further_ to create a theory that does enjoy [[canonicity]].
+[[cubical type theories|Cubical type theories]] are examples of such theories which can support an infinite [[universe hierarchy|hierarchy]] of univalent universes; see [[cubical type theory]] for more details.
+An earlier canonicity result for a type theory with one univalent universe where every type is an [[h-groupoid]] was proven by Harper and Licata ([Harper and Licata 12](#HarperLicata)).
 
-Notice that this sort of [[canonicity]] does not yet imply [[computational effectiveness]], which would require also an [[algorithm]] to extract that [[numeral]] from the given [[term]].  There may be such an algorithm, but so far attempts to extract one from the proof (or to give a [[constructive mathematics|constructive]] version of the [[proof]], which would imply the existence of an algorithm) have not succeeded.
+A separate question is whether [[Martin-Löf type theory]] extended with one or more univalent universes satisfies the weaker [[homotopy canonicity]] property.
+In 2019, [[Christian Sattler]] and [[Krzysztof Kapulkin]] announced a proof of this result; the proof has been described in talks ([Sattler 19](#Sattler19)) but has not appeared publicly.
+[[Rafaël Bocquet]] gives a second proof of homotopy canonicity in a preprint ([Bocquet 23](#Bocquet23)).
+Earlier homotopy canonicity results for truncated versions of univalent type theory were shown by Shulman ([Shulman 15, Section 13](#Shulman12)).
+[Shulman 15, Theorem 13.7](#Shulman12) shows that [[Martin-Löf type theory]] with
 
-It is also a *[[propositional equality|propositional]]* canonicity, as opposed to the [[judgmental equality|judgmental]] canonicity which many traditional [[type theories]] enjoy.  Another approach to canonicity for 1-truncated univalence can be found in ([Harper-Licata](#HarperLicata)), which involves modifying the type theory by adding more [[judgmental equalities]], resulting in a judgmental canonicity.  However, no [[algorithm]] for computing canonical forms has yet been given for this approach either.
+* one univalent universe $U_0$,
+* a "strong homotopy" [[natural number type]] (not contained in $U_0$),
+* [[function extensionality]], and
+* an axiom asserting that every type is an [[h-set]]
 
-Canonicity has been proved for [[cubical type theory]].
+has homotopy canonicity.
+[Shulman 15, Theorem 13.12](#Shulman12) shows that [[Martin-Löf type theory]] with
 
-One might also try to construct the Hoffman-Streicher groupoid model in a constructive framework; Awodey and Bauer have done some work in this direction with an [[predicative mathematics|impredicative]] [[universe]] of [[h-sets]].
+* two nested univalent universes $U_0 : U_1$,
+* a "strong homotopy" [[natural number type]] contained in $U_1$,
+* [[function extensionality]],
+* an axiom asserting that every type is a [[h-groupoid]]
+
+has homotopy canonicity.
+The proofs use [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[categories]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories.
+By ([Shulman 15, remark 13.13](#Shulman12)), for this construction to generalize to a univalent type theory without a global [[truncation]] axiom, one seems to need a sufficiently strict [[global sections]] functor with values in some model for [[infinity-groupoids]].
+The proofs in [Sattler 19](#Sattler19) and [Bocquet 23](#Bocquet23) address this problem in different ways.
 
 ### A univalent universe inside a non-univalent universe
 
@@ -502,17 +522,17 @@ Voevodsky's ([Bousfield's](#Bousfield06)) original idea for the [[universal Kan 
 
   > (in view of the [[structure identity principle]])
 
-* [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
+* [[Mike Shulman]], _Homotopy type theory, IV_ &lbrack;[blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html)&rbrack;
 
 Additional definition of univalent universes appeared in section 17.1 of 
 
-* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
 ### Variants
 
 A superficially weaker but equivalent statement of univalence:
 
-* {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* ([web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ))
+* {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* &lbrack;[web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ)&rbrack;
 
 
 A reduction of the univalence axiom to special cases:
@@ -527,11 +547,11 @@ On a possibly-weaker variant of univalence:
 
 Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
 
-* [[Madeleine Birchfield]], [[Valery Isaev]], *Univalence for weakly Tarski universes*, MathOverflow, ([web](https://mathoverflow.net/q/431723))
+* [[Madeleine Birchfield]], [[Valery Isaev]], *Univalence for weakly Tarski universes*, MathOverflow, &lbrack;[web](https://mathoverflow.net/q/431723)&rbrack;
 
 Some discussion about the univalence axiom in [[dependent type theory with type variables]] occurs in:
 
-* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip &lbrack;[web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory)&rbrack;
 
 ### Semantics
 
@@ -541,7 +561,7 @@ An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield0
 
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
-* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www-home.math.uwo.ca/~kkapulki/notes/fiber_bundles_univalence.pdf))
+* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ &lbrack;[pdf](http://www-home.math.uwo.ca/~kkapulki/notes/fiber_bundles_univalence.pdf)&rbrack;
 
 A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
@@ -551,11 +571,11 @@ This does not yet show that the univalence axiom in its usual form holds in the 
 
 * [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, Homology, Homotopy and Applications **17** 2 (2015) 81--106 &lbrack;[arXiv:1307.6248](http://arxiv.org/abs/1203.3253), [doi:10.4310/HHA.2015.v17.n2.a6](https://doi.org/10.4310/HHA.2015.v17.n2.a6)&rbrack;
 
-* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ &lbrack;[arXiv:1406.0058](http://arxiv.org/abs/1406.0058)&rbrack;
 
 Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
 
-* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ &lbrack;[arXiv:1904.07004](https://arxiv.org/abs/1904.07004))&rbrack;
 
 On the issue of strict pullback of the univalent universe see
 
@@ -564,7 +584,7 @@ On the issue of strict pullback of the univalent universe see
 
 On an interpretation of a univalent universe at the strength of finite order arithmetic:
 
-* [[Colin McLarty]], _A univalent universe in finite order arithmetic_ ([arXiv:1412.6714](http://arxiv.org/abs/1412.6714))
+* [[Colin McLarty]], _A univalent universe in finite order arithmetic_ &lbrack;[arXiv:1412.6714](http://arxiv.org/abs/1412.6714)&rbrack;
 
 Coexistence of univalence with the [[excluded middle]]:
 
@@ -603,33 +623,38 @@ A discussion of univalence in categories of [[diagrams]] over an [[inverse categ
 
 * [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science **25** (2015) 1203--1277 &lbrack;[arXiv:1203.3253](http://arxiv.org/abs/1203.3253), [doi:10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565)&rbrack;
 
-This discusses [[canonicity]] of univalence in its section 13. Another approach to showing canonicity is (via [[cubical sets]]) in 
+This discusses [[homotopy canonicity]] of univalence in its section 13. 
+A proof of [[homotopy canonicity]] was presented in
 
-* [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A model of type theory in cubical sets_, in 19th International Conference on Types for Proofs and Programs (TYPES 2013), Leibniz International Proceedings in Informatics (LIPIcs) **26** (2014) 107--128 &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Haskell code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY))&rbrack;
+* {#Sattler19} [[Christian Sattler]], _Homotopy Canonicity_, Talk at HoTT-UF (2019) &lbrack;[abstract](https://eutypes.cs.ru.nl/pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf), [program](https://sites.google.com/view/hott-uf-2019/speakers)&rbrack;
+
+Another proof of [[homotopy]] canonicity is the subject of
+
+* {#Bocquet23} [[Rafaël Bocquet]], _Strict Rezk completions of models of HoTT and homotopy canonicity_ (2023) &lbrack;[arXiv:2311.05849](https://arxiv.org/abs/2311.05849)&rbrack;
+
+Another approach to showing canonicity is (via [[cubical sets]]) in 
+
+* [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A model of type theory in cubical sets_, in 19th International Conference on Types for Proofs and Programs (TYPES 2013), Leibniz International Proceedings in Informatics (LIPIcs) **26** (2014) 107--128 &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf), [Haskell code](https://github.com/simhu/cubical), [discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/GmXKEArD3HY)&rbrack;
   {#CoquandHuber13}
 
-* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_, Journal of Automated Reasoning **63** (2019) 159--171 ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941), [doi:10.1007/s10817-018-9472-6](https://doi.org/10.1007/s10817-018-9472-6))
-
-A proof of canonicity is presented in the talk
-
-* {#Sattler19} [[Christian Sattler]], _Homotopy Canonicity_, ([abstract](http://www.ii.uib.no/~bezem/abstracts/TYPES_2019_paper_110))
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_, Journal of Automated Reasoning **63** (2019) 159--171 &lbrack;[arXiv:1710.10941](https://arxiv.org/abs/1710.10941), [doi:10.1007/s10817-018-9472-6](https://doi.org/10.1007/s10817-018-9472-6)&rbrack;
 
 The computational interpretation of univalence / [[canonicity]] is discussed in 
 
-* [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
+* [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) &lbrack;[pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf)&rbrack;
 
 * [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_, in Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of Programming Languages (POPL) (2012) 337--348 &lbrack;[doi:10.1145/2103656.2103697](https://doi.org/10.1145/2103656.2103697), [pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf)&rbrack;
  {#HarperLicata}
 
-* [[Daniel Licata]], _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  ([video](http://video.ias.edu/stream&ref=1674))
+* [[Daniel Licata]], _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  &lbrack;[video](http://video.ias.edu/stream&ref=1674)&rbrack;
 
-* [[Simon Huber]] (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
+* [[Simon Huber]] (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ &lbrack;[pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf)&rbrack;
 
 * [[Bruno Barras]], [[Thierry Coquand]], [[Simon Huber]], _A Generalization of the Takeuti-Gandy Interpretation_, Mathematical Structures in Computer Science **25** Special Issue 5 (2015) 1071--1099 &lbrack;[pdf](https://simhu.github.io/papers/v5.pdf), [doi:10.1017/S0960129514000504](https://doi.org/10.1017/S0960129514000504)&rbrack;
 
 and realized in [[cubical type theory]] in
 
-* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
+* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 &lbrack;[pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf)&rbrack;
  
 * [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_, in 21st International Conference on Types for Proofs and Programs (TYPES 2015), Leibniz International Proceedings in Informatics (LIPIcs) **69** (2018) 5:1--5:34 &lbrack;[arxiv:1611.02108](https://arxiv.org/abs/1611.02108), [hal-01378906](https://hal.inria.fr/hal-01378906), [doi:10.4230/LIPIcs.TYPES.2015.5](https://doi.org/10.4230/LIPIcs.TYPES.2015.5)&rbrack;
 
