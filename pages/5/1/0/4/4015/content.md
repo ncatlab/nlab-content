@@ -34,7 +34,7 @@ The fan theorem is one of the basic principles of [[intuitionism]] that make it 
 
 Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digits]] $\mathbb{B}^*$ and $\mathbb{B}^\mathbb{N}$ respectively.  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ [[elements]] of $\alpha$.
 
-Let $B$ be a collection of [[finite set|finite]] sequences of bits (or _bitlists_), that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
+Let $B$ be a collection of [[finite set|finite]] sequences of bits (or _bitlists_), that is, a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
 
 We are interested in these properties of $B$:
 
