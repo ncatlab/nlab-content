@@ -94,6 +94,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[ergodic decomposition|Ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
+* Further results in [[ergodic theory]] relating to [[joinings]] in [Das-Suda'26](#das_suda).
+
 * Stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
 * Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25a](#probabilistic_triangulation), [Lorenzin-Zanasi'25b](#triangulation_moralization). Extension to (Bayesian) updating in [JSS'25](#compositional_inference).
@@ -315,7 +317,9 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#MH} Rob Cornish and Andi Wang, _A categorical account of the Metropolis-Hastings algorithm_, 2026. ([arXiv](https://arxiv.org/abs/2601.22911))
 
 * {#krn} Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
-their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
+their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018. ([arXiv](https://arxiv.org/abs/1803.02651))
+
+* {#das_suda} Suddhasattwa Das and Tomoharu Suda, _Joinings in Markov categories_, 2026. ([arXiv](https://arxiv.org/abs/2609.10912))
 
 * {#affine_lazy} Swaraj Dash, Younesse Kaddar, Hugo Paquet and Sam Staton, _Affine monads and lazy structures for Bayesian programming_, Proceedings of POPL, 2023. ([pdf](https://www.cs.ox.ac.uk/people/hugo.paquet/lazyppl.pdf))
 
