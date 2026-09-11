@@ -3412,6 +3412,25 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Sep 2026
+
+* {#FaryadSep2026} 14 Sep 2026
+
+  [Muhammad Faryad](https://lums.edu.pk/lums_employee/4010) (Lahore University, LUMS): 
+
+  **Running Quantum Machine Learning Models on Real Devices**
+
+  > [Quantum machine learning](machine+learning#ReferencesQuantumMachineLearning) is easy to demonstrate and hard to do. On a laptop, a quantum kernel or a variational circuit trains in minutes, expectation values are exact, every qubit talks to every other qubit, and nothing decoheres. On a real quantum processor, none of that is true. This talk is about the gap between the two.
+
+  > I will start with a short, self-contained introduction to [[quantum computing]]: [[qubits]], [[quantum gate|gates]], [[quantum entanglement|entanglement]], and [[quantum measurement|measurement]], and what today's superconducting, trapped-ion, and neutral-atom processors can actually do. I will then introduce the main families of [[quantum machine learning]] models, quantum [[kernel method|kernels]], variational quantum circuits, and the quantum approximate optimization algorithm, and show how classical data enters a quantum circuit in the first place.
+
+  > The core of the talk is what changes when these models leave the [[quantum simulation|simulator]]. Expectation values become shot-noise estimates. Circuits are rewritten to fit a device's native gates and qubit connectivity, often doubling their depth. Gate and readout errors flatten the very loss landscape the optimizer is trying to navigate. Queues and time budgets turn a 200-iteration training loop into a scheduling problem. 
+
+
+
+
+\linebreak
+
 
 
 ***
