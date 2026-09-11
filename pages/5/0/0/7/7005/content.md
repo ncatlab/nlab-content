@@ -626,11 +626,13 @@ A discussion of univalence in categories of [[diagrams]] over an [[inverse categ
 This discusses [[homotopy canonicity]] of univalence in its section 13. 
 A proof of [[homotopy canonicity]] was presented in
 
-* {#Sattler19} [[Christian Sattler]], _Homotopy Canonicity_, Talk at HoTT-UF (2019) &lbrack;[abstract](https://eutypes.cs.ru.nl/pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf), [program](https://sites.google.com/view/hott-uf-2019/speakers)&rbrack;
+* {#Sattler19} [[Christian Sattler]] (with [[Chris Kapulkin]]), _Homotopy Canonicity_, Talk at HoTT-UF (2019) &lbrack;[abstract](https://eutypes.cs.ru.nl/pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf), [program](https://sites.google.com/view/hott-uf-2019/speakers)&rbrack;
 
 Another proof of [[homotopy]] canonicity is the subject of
 
 * {#Bocquet23} [[Rafaël Bocquet]], _Strict Rezk completions of models of HoTT and homotopy canonicity_ (2023) &lbrack;[arXiv:2311.05849](https://arxiv.org/abs/2311.05849)&rbrack;
+
+Bocquet's introduction includes a sketch of [Sattler and Kapulkin's proof strategy](#Sattler19).
 
 Another approach to showing canonicity is (via [[cubical sets]]) in 
 
