@@ -530,16 +530,15 @@ Additional definition of univalent universes appeared in section 17.1 of
 
 ### Variants
 
-A superficially weaker but equivalent statement of univalence:
+On a superficially weaker but equivalent statement of univalence (also recorded in [Orton and Pitts 19, Theorem 3.5](#OrtonPittsTYPES17)):
 
-* {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* &lbrack;[web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ)&rbrack;
+* {#Licata16} [[Dan Licata]], *weak univalence with "beta" implies full univalence* (2016) &lbrack;[web](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ)&rbrack;
 
-
-A reduction of the univalence axiom to special cases:
+On a reduction of the univalence axiom to special cases:
 
 * {#OrtonPittsTYPES17} [[Ian Orton]], [[Andrew M. Pitts]], _Decomposing the Univalence Axiom_, in 23rd International Conference on Types for Proofs and Programs (TYPES 2017), Leibniz International Proceedings in Informatics (LIPIcs) **104** (2019) 6:1--6:19 &lbrack;[arXiv:1712.04890](https://arxiv.org/abs/1712.04890), [doi:10.4230/LIPIcs.TYPES.2017.6](https://doi.org/10.4230/LIPIcs.TYPES.2017.6)&rbrack;
 
-On a possibly-weaker variant of univalence:
+On a possibly weaker variant of univalence:
 
 * {#VanDenBerg20} [[Benno van den Berg]], Section 2.3 in _Univalent polymorphism_, Annals of Pure and Applied Logic **171** (2020) 102793 &lbrack;[arXiv:1803.10113](https://arxiv.org/abs/1803.10113), [doi:10.1016/j.apal.2020.102793](http://doi.org/10.1016/j.apal.2020.102793)&rbrack;
 
@@ -561,7 +560,7 @@ An accessible account of Voevodsky's proof (following [Bousfield 06](#Bousfield0
 
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
-* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ &lbrack;[pdf](http://www-home.math.uwo.ca/~kkapulki/notes/fiber_bundles_univalence.pdf)&rbrack;
+* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ &lbrack;[pdf](https://www.math.uwo.ca/faculty/kapulkin/notes/fiber_bundles_univalence.pdf)&rbrack;
 
 A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
@@ -643,7 +642,7 @@ Another approach to showing canonicity is (via [[cubical sets]]) in
 
 The computational interpretation of univalence / [[canonicity]] is discussed in 
 
-* [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) &lbrack;[pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf)&rbrack;
+* [[Dan Licata]] (with [[Robert Harper]]), _Computing with Univalence_, talk at Workshop on Higher Dimensional Algebra, Categories and Types (2012) &lbrack;[abstract (archived)](https://web.archive.org/web/20140113195421/http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf), [slides](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)&rbrack;
 
 * [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_, in Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of Programming Languages (POPL) (2012) 337--348 &lbrack;[doi:10.1145/2103656.2103697](https://doi.org/10.1145/2103656.2103697), [pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf)&rbrack;
  {#HarperLicata}
