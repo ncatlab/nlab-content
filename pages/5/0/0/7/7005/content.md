@@ -42,58 +42,54 @@ Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is c
 
 ## Definition
 
-We work in a [[dependent type theory]] with [[identity types]], [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
+We work in a [[dependent type theory]] with [[identity types]], [[dependent product types]], and [[dependent sum types]]. 
 
 There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-* various notions of (weak) [[equivalence types]]
-  * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
-  * the type of [[spans]] with contractible fibers
-  * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
-  * the type of [[one-to-one correspondences]]
-* type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
+* the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]];
+* the type of [[functions]] with left and right [[homotopy inverses]];
+* the type of [[spans]] with contractible fibers;
+* the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers;
+* the type of [[one-to-one correspondences]].
 
-Let us assume an arbitrary notion of equivalence type $\simeq_0$. Every [[Russell universe]] $U$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq A \simeq_0 B$ and the function $\mathrm{idtofam}(A, B)$ is defined as 
+Let us assume an abstract family of equivalence types $\simeq$ with the property that for each type $A$ we have an [[identity equivalence]] $\mathrm{idequiv}(A) : A \simeq A$.
 
-$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{idtoequiv}(A, B)$$
+Fix a [[Tarski universe]] in the sense of a type $U$ with a [[type family]] $A : U \vdash T(A) \; \mathrm{type}$.
+There is a [[reflexive graph]] whose type of vertices is $U$, whose type of edges from $A : U$ to $B : U$ is
+$$E(A,B) \coloneqq (T(A) \simeq T(B)),$$
+and whose reflexivity map $r : (A : U) \to E(A,A)$ sends $A$ to $\mathrm{idequiv}(T(A))$.
+The reflexivity map induces, for $A,B : U$, a function 
 
-Similarly, every [[Tarski universe]] $U$ with universal type family $T$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq_0 T(B)$ and the function $\mathrm{idtofam}(A, B)$ is defined as 
+$$\mathrm{idtoequiv}(A, B) : (A =_U B) \to E(A,B)$$
 
-$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^T(A, B)$$
+defined using [[identity elimination]] with $\mathrm{idtoequiv}(A, A)(\mathrm{refl}_A) \coloneqq r(A)$.
 
-And finally, every [[Tarski universe]] $U$ with type of terms $T$ and function $\mathrm{typeof}:T \to U$ is a reflexive graph with the graph type family $R(A, B)$ defined as 
+The Tarski universe $(U,T)$ is **univalent** if the induced $(U,E,r)$ is a [[univalent reflexive graph|univalent]] as a [[reflexive graph]], i.e., if one of the following conditions (equivalent by the [[fundamental theorem of identity types]]) holds:
 
-$$R(A, B) \coloneqq \left(\sum_{t:T} \mathrm{typeOf}(t) =_U A\right) \simeq \left(\sum_{t:T} \mathrm{typeOf}(t) =_U B\right)$$
+1. For each $A:U$ the type of elements $B:A$ such that $E(A, B)$ is a [[contractible type]]. 
+$$A:U \vdash \mathrm{ua}(A):\mathrm{isContr}\left(\sum_{B:U} E(A, B)\right)$$
 
-and the function $\mathrm{idtofam}(A, B)$ is defined as 
+1. For each $A:U$ and $B:U$, the function $\mathrm{idtoequiv}(A, B)$ is an [[equivalence of types]]
+$$A:U, B:U, \vdash \mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{idtoequiv}(A, B))$$
 
-$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^{\sum_{t:T} \mathrm{typeOf}(t) =_U (-)}(A, B)$$
+1. There is a family of equivalences 
+$$A:U, B:U \vdash \mathrm{ua}(A, B):(A =_U B) \simeq E(A, B)$$
 
-Now, let us assume an arbitrary notion of equivalence type $\simeq$. A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]], or equivalently, if one of the following equivalent conditions by the [[fundamental theorem of identity types]] hold:
+1. $E$ is an [[identity system]]. 
 
-1. That for each $x:A$ the type of elements $y:A$ such that $R(x, y)$ is a [[contractible type]]. 
-$$x:A \vdash \mathrm{ua}(x):\mathrm{isContr}\left(\sum_{y:A} R(x, y)\right)$$
+1. For each $A:U$ and $B:U$, the function $\mathrm{idtoequiv}(A, B)$ is a [[retraction]]:
+$$A:U, B:U \vdash \mathrm{ua}(A, B):E(A, B) \to (A =_U B)$$
+$$A:U, B:U, e:E(A, B) \vdash \mathrm{ua}\beta(A,B,e):\mathrm{idtoequiv}(A,B)(\mathrm{ua}(A,B)(e)) =_{E(A, B)} e$$
+(This is due to [[Daniel Licata]] in [Licata 16](#Licata16).)
 
-1. That there is a family of equivalences 
-$$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
-
-1. That $R(x, y)$ is an [[identity system]]. 
-
-1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
-$$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
-
-1. That $\mathrm{idtofam}(x, y)$ is a [[retraction]] (This is due to [[Daniel Licata]] in [Licata 16](#Licata16))
-$$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
-$$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
-
-1. That $R(x, y)$ with the function $\mathrm{idtofam}(x, y)$ satisfies the [[universal property]] of the [[unary sum]] of $x =_A y$. 
+1. The family $E$ with its reflexivity map satisfies the [[universal property]] of the [[weak identity type]] $A =_U B$. 
 
 See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
 ### Decomposition
  {#Decomposition}
 
-Assuming [[function extensionality]], [[Ian Orton]] and [[Andrew Pitts]] showed in [Orton and Pitts 19](#OrtonPitts19) that the univalence axiom can be simplified to the following special cases:
+Assuming [[function extensionality]], [[Ian Orton]] and [[Andrew Pitts]] ([Orton and Pitts 19](#OrtonPitts19)) showed that the univalence axiom can be simplified to the following special cases:
 
    * $unit : A = \sum_{a:A} 1$
    * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
@@ -123,7 +119,7 @@ There are a few variants of univalence that are stricter than the usual axiom of
 
 ### Using definitional isomorphism
 
-There is a variant of univalence called **definitional univalence** or **judgmental univalence**, which says that for $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$  inductively defined in the previous section is a [[definitional isomorphism]] instead of an [[equivalence of types]]. 
+There is a variant of univalence called **definitional univalence** or **judgmental univalence**, which says that for $x:A$ and $y:A$, the function $\mathrm{idtoequiv}(x, y)$  inductively defined in the previous section is a [[definitional isomorphism]] instead of an [[equivalence of types]]. 
 
 Unlike the case for the usual typal variant of univalence, where one can use an element of an [[equivalence type]], we cannot use definitional isomorphisms as elements of [[definitional isomorphism types]] to express definitional univalence, because the large recursion principle of the [[interval type]] together with [[definitional isomorphism types]] implies [[equality reflection]], which contradicts univalence. 
 
@@ -153,7 +149,7 @@ $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash 
 Van den Berg ([Van den Berg 20, Definition 2.13](#VanDenBerg20)) gives a definition of univalent fibration in a [[category with path objects|path category]] which can be translated into type theory as follows:
 
 $$A:U, B:U \vdash \mathrm{ua}(A, B): (A \simeq B) \to (A =_U B)$$
-$$A:U, B:U, e : (A\simeq B), a: A \vdash G(A,B,e,a) : \mathrm{coe}(\mathrm{ua}(A,B))(a) =_{B} e(a)$$
+$$A:U, B:U, e : (A\simeq B), a: A \vdash \mathrm{ua}\beta(A,B,e,a) : \mathrm{coe}(\mathrm{ua}(A,B))(a) =_{B} e(a)$$
 
 Notably, this variant of the univalence axiom can be unfolded and presented as a pair of inference rules in a type theory with only [[identity types]], [[dependent sum types]], and $U$.
 All uses of [[dependent product types]] can be replaced with hypothetical judgements.
@@ -346,14 +342,15 @@ It is frequently stated that the univalence axiom and axiom K are inconsistent w
  {#UnivalenceLEM}
  {#UnivalenceExcludedMiddle}
 
-The [[univalence axiom]] is consistent with [[excluded middle]]. This is because the principle of excluded middle as traditionally defined in mathematics is about [[propositions]] or [[(-1)-truncated]] types. 
+The principle of the [[excluded middle]] is consistent with the existence of any number of univalent universes.
+This is because the principle of excluded middle as traditionally defined in mathematics is about [[propositions]] or [[(-1)-truncated]] types. 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee (A \to \emptyset))}$$
 Dependent type theory with excluded middle and universes satisfying the univalence axiom has semantics in [[boolean topos|boolean]] [[(infinity,1)-topos|$(\infty, 1)$-toposes]].
 A short proof of the excluded middle for the [simplicial model](#InSimplicialSets) can be found in [Kapulkin--Lumsdaine 20](#KapulkinLumsdaine20).
 
-However, there is a global choice axiom which is inconsistent with univalence:
+However, there is a global choice axiom which is inconsistent with the existence of sufficiently non-trivial univalent universes ([Escardó 12](#Escardo12)):
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{gc}_A:A + (A \to \emptyset)}$$
-This is sometimes called "excluded middle" in the [[propositions as types]] interpretation of type theory, where the principle of excluded middle is reinterpreted so that types are used instead of [[mere propositions]]. But this choice principle is a much stronger axiom than excluded middle, being of comparable strength to a [[choice operator]] and implying that every type is an [[h-set]]; hence inconsistent with the univalence axiom. 
+This is sometimes called "excluded middle" in the [[propositions as types]] interpretation of type theory, where the principle of excluded middle is reinterpreted so that types are used instead of [[mere propositions]]. But this principle is much stronger than the excluded middle for mere propositions, being of comparable strength to a [[choice operator]] and implying that every type is an [[h-set]].
 
 ### Canonicity and homotopy canonicity
  {#Canonicity}
@@ -585,9 +582,15 @@ On an interpretation of a univalent universe at the strength of finite order ari
 
 * [[Colin McLarty]], _A univalent universe in finite order arithmetic_ &lbrack;[arXiv:1412.6714](http://arxiv.org/abs/1412.6714)&rbrack;
 
-Coexistence of univalence with the [[excluded middle]]:
+### Relation to other principles
+
+Coexistence of univalence with the [[excluded middle]] for [[mere propositions]]:
 
 * {#KapulkinLumsdaine20} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The Law of Excluded Middle in the Simplicial Model of Type Theory_, Theory and Applications of Categories **35** 40 (2020) 1546--1548 &lbrack;[arXiv:2006.13694](https://arxiv.org/abs/2006.13694), [doi:10.70930/tac/ykx24t1x](https://doi.org/10.70930/tac/ykx24t1x)&rbrack;
+
+Incompatibility of univalence with the [[excluded middle]] for _all_ types (not only [[mere propositions]]) follows from:
+
+* {#Escardo12} [[Martín Escardó]], _Rice's Theorem for the Martin-Lof universe_ (2012) &lbrack;[Agda](https://martinescardo.github.io/papers/universe/RicesTheoremForTheUniverse.html), [mailing list discussion](https://lists.chalmers.se/sympa/arc/agda/2012-02/msg00008.html)&rbrack;
 
 ### Proof assistants
 
