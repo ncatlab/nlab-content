@@ -10,13 +10,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-An [[M5-brane]] [[wrapped brane|wrapped]] on a [[torsion subgroup|torsion]] 3-[[cycle]] is called a _fractional M2-brane_ in [Aharony-Bergman-Jafferis 08, (2.2)](#AharonyBergmanJafferis08).
+An [[M5-brane]] [[wrapped brane|wrapped]] on a [[torsion subgroup|torsion]] 3-[[cycle]] is called a _fractional M2-brane_ in [Aharony, Bergman & Jafferis 2008, §2.2](#AharonyBergmanJafferis08).
 
 ## Related concepts
 
