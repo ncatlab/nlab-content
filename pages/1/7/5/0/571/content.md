@@ -148,9 +148,14 @@ The following are equivalent:
 +-- {: .num_prop}
 ###### Proposition
 
-If $f \colon x \to y$ and $g \colon y \to z$ are monomorphisms, so is their composite $g f$.  If $g f$ is a monomorphism, so is $f$.
+If $f \colon x \to y$ and $g \colon y \to z$ are monomorphisms, so is their composite $g f$. Conversely, if $g f$ is a monomorphism, so is $f$.
 
 =--
+
+\begin{proof}
+If $f$ and $g$ are monos and $g f u = g f v$, then, since $g$ is monic, we have $f u = f v$, and since $f$ is monic, we have $u = v$.
+Conversely, if $f u = f v$, composing with $g$ gives $g f u = g f v$. Since $g f$ is monic, we have $u = v$.
+\end{proof}
 
 +-- {: .num_prop}
 ###### Proposition
