@@ -21,7 +21,7 @@ From the point of view of [[categorical probability]] they form a particularly w
 
 ## Definitions
 
-A [[topological space]] is called **completely separably metrizable** if the [[topology]] can be metrized by a [[complete metric|complete]] and [[separable]] [[metric]].
+A [[topological space]] is called **completely separably metrizable** if the [[topology]] can be metrized by a [[complete metric|complete]] and [[separable space|separable]] [[metric]].
 These spaces are also called [[Polish spaces]], see there for more information.
 
 A [[measurable space]] is called a **standard Borel space** if it can be written as a [[Polish space]] with its [[Borel sigma-algebra]].
