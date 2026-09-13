@@ -29,6 +29,8 @@ Specifically on [[twisted K-theory]] and twisted [[tmf]]:
 
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics 81, American Mathematical Society 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/pspum-81))
 
+* [[Benjamin Antieau]], [[David Gepner]], José Manuel Gómez: *Actions of Eilenberg-MacLane spaces on K-theory spectra and uniqueness of twisted K-theory*, Transactions of the American Mathematical Society **366** 7 (2014) 3631--3648 &lbrack;[arXiv:1106.5099 math.KT](https://arxiv.org/abs/1106.5099), [doi:10.1090/S0002-9947-2014-05937-0](https://doi.org/10.1090/S0002-9947-2014-05937-0), [jstor:23813876](https://www.jstor.org/stable/23813876)&rbrack;
+
 
 On [[Becker-Gottlieb transfer]] and [[differential algebraic K-theory]]:
  
