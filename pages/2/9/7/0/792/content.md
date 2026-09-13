@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -80,7 +78,7 @@ of a certain prescribed [[integral transform]]-form ([Bunke-Rumpf-Schick 08, p. 
 
 The concept of topological T-duality was introduced on the level of [[differential form]]-data in
 
-* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. 249:383-415, 2004 &lbrack;[hep-th/0306062](http://arxiv.org/abs/hep-th/0306062), [doi:10.1007/s00220-004-1115-6](https://doi.org/10.1007/s00220-004-1115-6)&rbrack; 
+* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]]: _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. **249** (2004) 383--415 &lbrack;[hep-th/0306062](http://arxiv.org/abs/hep-th/0306062), [doi:10.1007/s00220-004-1115-6](https://doi.org/10.1007/s00220-004-1115-6)&rbrack; 
 
 * {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]], [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
@@ -90,7 +88,7 @@ The formalization with the above topological/[[homotopy theory|homotopy theoreti
 
 * {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev. Math. Phys. **17** (2005) 77-112 &lbrack;[arXiv:math/0405132](https://arxiv.org/abs/math/0405132), [doi:10.1142/S0129055X05002315](https://doi.org/10.1142/S0129055X05002315)&rbrack;
 
-* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487), [doi:10.1142/S0129055X06002875](https://doi.org/10.1142/S0129055X06002875)&rbrack;
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]]: _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487), [doi:10.1142/S0129055X06002875](https://doi.org/10.1142/S0129055X06002875)&rbrack;
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Periodic twisted cohomology and T-duality_, Ast&#233;risque No. 337 (2011), vi+134 pp. ISBN: 978-2-85629-307-2
 
@@ -147,9 +145,12 @@ reviewed in
 
 * {#Fiorenza18} [[Domenico Fiorenza]], _T-duality in rational homotopy theory_, talk at _[38th Srni Winter School on Geometry and Physics](http://conference.math.muni.cz/srni/files/archiv/2018/)_, 2018 ([[FiorenzaSrni2018.pdf:file]])
 
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]; §3.2 in: *[[schreiber:Super-Lie-infinity T-Duality and M-Theory|Super $L_\infty$ T-Duality and M-theory]]*, Reviews in Mathematical Physics **38** 03 (2026) 2550018 &lbrack;[arXiv:2411.10260](https://arxiv.org/abs/2411.10260), [doi:10.1142/S0129055X25500187](https://doi.org/10.1142/S0129055X25500187)&rbrack;
+
 and further expanded on on
 
 * [[Hisham Sati]], [[Urs Schreiber]], p. 7 of: *[[schreiber:Cyclification of Orbifolds]]* &lbrack;[arXiv:2212.13836](https://arxiv.org/abs/2212.13836)&rbrack;
+
 
 See also:
 
