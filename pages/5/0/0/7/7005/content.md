@@ -36,7 +36,7 @@ Extensionality principles like [[function extensionality]], [[propositional exte
 
 The name *univalence* (due to Voevodsky, see [Voevodsky 14](#Voevodsky14) for etymology) comes from the following reasoning.  A fibration or bundle $p\colon E\to B$ of some sort is commonly said to be *universal* if every other bundle of the same sort is a pullback of $p$ in a unique way (up to homotopy).  Less commonly, a bundle is said to be *versal* if every other bundle is a pullback of it in *some* way, not necessarily unique.  By contrast, a bundle is said to be *univalent* if every other bundle is a pullback of it in *at most one* way (up to homotopy).  In the language of [[(∞,1)-category]] theory, a univalent bundle is an [[object classifier]].
 
-The univalence axiom does not *literally* say that anything is univalent in this sense.  However, it is *equivalent* to saying that the canonical fibration over $U$ is univalent: every fibration with $U$-_small_ fibers is an essentially unique pullback of this one.  For a description of this equivalence, see section 4.8 of the [[HoTT Book]] (syntactically) and [Gepner-Kock](#GepnerKock12) (semantically).
+The univalence axiom does not *literally* say that anything is univalent in this sense.  However, it is *equivalent* to saying that the canonical fibration over $U$ is univalent: every fibration with _$U$-small_ fibers is an essentially unique pullback of this one.  For a description of this equivalence, see section 4.8 of the [[HoTT Book]] (syntactically) and [Gepner-Kock](#GepnerKock12) (semantically).
 
 Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (see at _[[univalent foundations for mathematics]]_).
 
@@ -332,11 +332,47 @@ The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
-### Univalence and axiom K
+### Univalence and truncation levels
 
-In this section we assume that the universe is a Tarski universe. [[Axiom K]] states that for all $A:U$ the type $T(A)$ is a set. This means the type reflection of the internal equivalences $T(A \simeq_U B)$ is an [[h-set]], and the univalence axiom then implies that $U$ is an [[h-groupoid]]. 
+The univalence axiom can be used to deduce facts about the [[homotopy level]] of a univalent universe.
+For example (compare Theorem 7.1.11 in the [[HoTT Book]]):
 
-It is frequently stated that the univalence axiom and axiom K are inconsistent with each other. However, this is only true if the Tarski universe $U$ has internal univalent Tarski universes $V:U$ where the type $T(V)$ has terms $A:T(V)$ such that $T_V(A)$ is an [[h-set]] which is not an [[h-proposition]], such as the [[booleans type]]. As a result, $T(V)$ can be proven to not be a set, causing axiom K for $U$ to be inconsistent with the existence of $V:U$ and univalence. 
+\begin{proposition}
+  Let $n \ge -2$.
+  If $A : U \vdash T(A) \; \mathrm{type}$ is a univalent [[Tarski universe]] such that $T(A)$ is an [[homotopy level|$n$-type]] for all $A : U$, then $U$ is an $(n+1)$-type.
+\end{proposition}
+
+In particular, if $U$ is any univalent universe, then the [[subtype]] $U^{\le n} \hookrightarrow U$ of $n$-types in $U$ is a univalent universe (see [Rijke 22, Proposition 17.2.1](#Rijke22)) and an $(n+1)$-type.
+
+Conversely, univalence can also imply lower bounds on the homotopy level of a universe.
+For example (Example 3.1.9 in the [[HoTT Book]]):
+
+\begin{proposition}
+ \label{UnivalentUniverseNotHSet}
+  Let $A : U \vdash T(A) \; \mathrm{type}$ be a univalent [[Tarski universe]].
+  If $U$ contains a [[type of booleans]] $\mathbf{2}$, then $U$ is not an [[h-set]].
+\end{proposition}
+
+This follows from the fact that $\mathbf{2} \simeq \mathbf{2}$ is not an [[h-proposition]]; the role of $\mathbf{2}$ here can be played by any type with a non-trivial [[automorphism]].
+Similarly, a univalent universe containing a [[circle type]] $S^1$ cannot be an [[h-groupoid]], since $S^1 \simeq S^1$ is equivalent to $S^1 + S^1$.
+
+[Kraus and Sattler](#KrausSattler15) consider univalent universes containing other univalent universes and show:
+
+\begin{proposition}
+([Kraus--Sattler 15, Theorem 5.9](#KrausSattler15))
+Let $U_i$ for $0 \le i \le n$ be a collection of univalent universes such that
+
+* each $U_i$ is closed under [[dependent products]], [[dependent sums]], and [[identity types]];
+* each $U_{i+1}$ contains $U_i$ and all types in $U_i$;
+* $U_0$ contains a [[type of booleans]].
+
+Then $U_n$ is not an [[homotopy level|$n$-type]].
+\end{proposition}
+
+The above has consequences for the compatibility of univalence with [[uniqueness of identity proofs]] (UIP), or equivalently [[axiom K]].
+By Proposition \ref{UnivalentUniverseNotHSet}, UIP for all types is inconsistent with the existence of a univalent universe containing a [[type of booleans]] (or other type with a non-trivial [[automorphism]]).
+On the other hand, a type theory can consistently contain a univalent universe $U$ that satisfies UIP, in the sense that all types in $U$ are [[h-sets]].
+The univalent universe in the [Hofmann--Streicher groupoid model](#HofmannStreicher98) is of this kind, as is the [[subtype]] $U^{\le 0} \hookrightarrow U$ of [[h-sets]] in any univalent universe $U$.
 
 ### Univalence and excluded middle
  {#UnivalenceLEM}
@@ -582,7 +618,7 @@ On an interpretation of a univalent universe at the strength of finite order ari
 
 * [[Colin McLarty]], _A univalent universe in finite order arithmetic_ &lbrack;[arXiv:1412.6714](http://arxiv.org/abs/1412.6714)&rbrack;
 
-### Relation to other principles
+### Properties
 
 Coexistence of univalence with the [[excluded middle]] for [[mere propositions]]:
 
@@ -591,6 +627,10 @@ Coexistence of univalence with the [[excluded middle]] for [[mere propositions]]
 Incompatibility of univalence with the [[excluded middle]] for _all_ types (not only [[mere propositions]]) follows from:
 
 * {#Escardo12} [[Martín Escardó]], _Rice's Theorem for the Martin-Lof universe_ (2012) &lbrack;[Agda](https://martinescardo.github.io/papers/universe/RicesTheoremForTheUniverse.html), [mailing list discussion](https://lists.chalmers.se/sympa/arc/agda/2012-02/msg00008.html)&rbrack;
+
+On lower bounds on the truncation levels of univalent universes:
+
+* {#KrausSattler15} [[Nicolai Kraus]], [[Christian Sattler]], _Higher Homotopies in a Hierarchy of Univalent Universes_, ACM Transactions on Computational Logic **16** 2 (2015) 1--12 &lbrack;[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy), [doi:10.1145/2729979](https://doi.org/10.1145/2729979)&rbrack;
 
 ### Proof assistants
 
