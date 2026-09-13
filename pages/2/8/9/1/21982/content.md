@@ -128,7 +128,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
-* {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
+* {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]]: _Brane Descent Relations in K-theory_, Nucl. Phys. B **566** (2000) 562--598 \[<a href="https://doi.org/10.1016/S0550-3213%2899%2900626-4">doi:10.1016/S0550-3213%2899%2900626-4</a>, [arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153)\]
 
 * {#Witten00} [[Edward Witten]]: *Overview Of K-Theory Applied To Strings*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)\]
   > (essentially a hint at [this construction](Fredholm+operator#CanonicalRepresentativeOfpi3OfSAFred))
@@ -154,7 +154,16 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in K-theory
 
+* [Witten 1998, p. 23,26](Witten98)
+
+* [Gukov 1999 p. 8,9](#Gukov99)
+
+* [Olsen & Szabo 2000 p. 21](#OlsenSzabo00)
+
 * [[Volker Braun]]: *K-Theory Torsion* \[<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>\]
+
+* [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]]: *Orientifolds, RR Torsion, and K-theory*, JHEP 0105:047 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/05/047">doi:10.1088/1126-6708/2001/05/047</a>, [arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183)\]
+
 
 * [[Ilka Brunner]], [[Jacques Distler]], *Torsion D-Branes in Nongeometrical Phases*, Adv. Theor. Math. Phys. **5** (2002) 265-309 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a3">doi:10.4310/ATMP.2001.v5.n2.a3</a>, [arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018)\]
 
@@ -272,7 +281,7 @@ The original observation that [[D-brane charge]] for [[orientifolds]] should be 
 
 and was then re-amplified in
 
-* {#Gukov99} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042))
+* {#Gukov99} [[Sergei Gukov]]: _K-Theory, Reality, and Orientifolds_, Commun. Math. Phys. **210** (2000) 621--639 &lbrack;[arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042), [doi:10.1007/s002200050793](https://doi.org/10.1007/s002200050793)&rbrack;
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
