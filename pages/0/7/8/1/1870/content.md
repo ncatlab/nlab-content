@@ -343,7 +343,7 @@ and is expanded on in:
 
 * {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]]: _Twisted K-theory and cohomology_, Nankai Tracts in Mathematic **11**, World Sci. Publ. (2006) 5--43  &lbrack;[arXiv:math/0510674](http://arxiv.org/abs/math/0510674), [doi:10.1142/9789812772688_0002](https://doi.org/10.1142/9789812772688_0002)&rbrack;
 
-* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], sections 2.1 and 7 of: _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, volume 81 of _Proceedings of Symposia in Pure Mathematics_, 2009 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [doi:10.1090/pspum/081](https://doi.org/10.1090/pspum/081))
+* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]]; sections 2.1 and 7 of: _Twists of K-theory and TMF_, in [[Jonathan Rosenberg]] et al. (eds.), _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, _Proceedings of Symposia in Pure Mathematics_ **81** (2009) &lbrack;[arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [doi:10.1090/pspum/081](https://doi.org/10.1090/pspum/081)&rbrack;
 
 
 
@@ -406,7 +406,10 @@ The generalization of this to [[groupoid K-theory]] is in ([FHT 07, around p. 26
  
 Comparison between [[homotopy theory|homotopy theoretic]] and [[operator algebra|operator algebraic]] constructions:
 
-* {#HebestreitSagave19} [[Fabian Hebestreit]], [[Steffen Sagave]], *Homotopical and operator algebraic twisted K-theory*, Mathematische Annalen **378** (2020) 1021-1059 ([arXiv:1904.01872](https://arxiv.org/abs/1904.01872), [doi:10.1007/s00208-020-02066-6](https://doi.org/10.1007/s00208-020-02066-6))
+* [[Benjamin Antieau]], [[David Gepner]], José Manuel Gómez: *Actions of Eilenberg-MacLane spaces on K-theory spectra and uniqueness of twisted K-theory*, Transactions of the American Mathematical Society **366** 7 (2014) 3631--3648 &lbrack;[arXiv:1106.5099 math.KT](https://arxiv.org/abs/1106.5099), [doi:10.1090/S0002-9947-2014-05937-0](https://doi.org/10.1090/S0002-9947-2014-05937-0), [jstor:23813876](https://www.jstor.org/stable/23813876)&rbrack;
+
+
+* {#HebestreitSagave19} [[Fabian Hebestreit]], [[Steffen Sagave]]: *Homotopical and operator algebraic twisted K-theory*, Mathematische Annalen **378** (2020) 1021--1059 &lbrack;[arXiv:1904.01872 math.AT](https://arxiv.org/abs/1904.01872), [doi:10.1007/s00208-020-02066-6](https://doi.org/10.1007/s00208-020-02066-6)&rbrack;
 
 
 
