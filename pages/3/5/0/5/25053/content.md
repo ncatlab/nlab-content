@@ -53,7 +53,7 @@ On [[geometry of physics -- flux quantization|flux quantization]] of the (non-li
 
 On [[T-duality]] and [[M-theory]] on [[superspace]]:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Super-Lie-infinity T-Duality and M-Theory|Super $L_\infty$ T-Duality and M-theory]]* &lbrack;[arXiv:2411.10260](https://arxiv.org/abs/2411.10260)&rbrack;
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Super-Lie-infinity T-Duality and M-Theory|Super $L_\infty$ T-Duality and M-theory]]*, Reviews in Mathematical Physics **38** 03 (2026) 2550018 &lbrack;[arXiv:2411.10260](https://arxiv.org/abs/2411.10260), [doi:10.1142/S0129055X25500187](https://doi.org/10.1142/S0129055X25500187)&rbrack;
 
 On [[superspace|super]]-[[exceptional tangent spaces]]:
 
