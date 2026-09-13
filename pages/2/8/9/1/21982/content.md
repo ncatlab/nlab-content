@@ -160,6 +160,8 @@ Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantiza
 
 * [[Ilka Brunner]], [[Jacques Distler]], Rahul Mahajan, *Return of the Torsion D-Branes*, Adv. Theor. Math. Phys. **5** (2002) 311-352 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a4">doi:10.4310/ATMP.2001.v5.n2.a4</a>, [arXiv:hep-th/0106262](https://arxiv.org/abs/hep-th/0106262)\]
 
+* [[Stefan Méndez-Diez]], [[Jonathan Rosenberg]]: *K-theoretic matching of brane charges in S- and U-duality*, Adv. Theor. Math. Phys. **16** 6 (2012) 1591--1618 \[<a href="https://doi.org/10.4310/ATMP.2012.v16.n6.a1">doi:10.4310/ATMP.2012.v16.n6.a1</a>, [arXiv:1007.1202](https://arxiv.org/abs/1007.1202)\]
+
 
 Review of D-branes charge seen in [[KK-theory]]:
 
