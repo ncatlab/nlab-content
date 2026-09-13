@@ -76,6 +76,12 @@ As for the [[string 2-group]], this defines an [[infinity-group extension]] (the
 
 ## References
 
+In the classifying space for [[topological T-duality]] triples this appears in:
+
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]]; Def. 3.1 in: _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487), [doi:10.1142/S0129055X06002875](https://doi.org/10.1142/S0129055X06002875)&rbrack;
+
+Further discussion:
+
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §3.2.1 in: *[[schreiber:Extended higher cup-product Chern-Simons theories]]*, Journal of Geometry and Physics **74** (2013) 130-163 &lbrack;[arXiv:1207.5449](http://arxiv.org/abs/1207.5449), [doi:10.1016/j.geomphys.2013.07.011](https://doi.org/10.1016/j.geomphys.2013.07.011)&rbrack;
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_ ESI Vienna (Feb 2014) &lbrack;[website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html)&rbrack;
