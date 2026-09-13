@@ -22,6 +22,9 @@ On [[T-duality]] and specifically [[topological T-duality]]:
 
 On [[D-brane charge]] and [[T-duality]] in [[orientifolds]] formulated in [[KR-theory]]:
 
+* [[Stefan Méndez-Diez]], [[Jonathan Rosenberg]]: *K-theoretic matching of brane charges in S- and U-duality*, Adv. Theor. Math. Phys. **16** 6 (2012) 1591--1618 \[<a href="https://doi.org/10.4310/ATMP.2012.v16.n6.a1">doi:10.4310/ATMP.2012.v16.n6.a1</a>, [arXiv:1007.1202](https://arxiv.org/abs/1007.1202)\]
+
+
 * {#DMR13} [[Charles Doran]], [[Stefan Mendez-Diez]], [[Jonathan Rosenberg]]: *T-duality For Orientifolds and Twisted KR-theory*, Lett. Math. Phys. **104** 11 (2014) 1333-1364 &lbrack;[arXiv:1306.1779](http://arxiv.org/abs/1306.1779), [doi:10.1007/s11005-014-0715-0](https://doi.org/10.1007/s11005-014-0715-0)&rbrack;
 
 * {#DMR14} [[Charles Doran]], [[Stefan Mendez-Diez]], [[Jonathan Rosenberg]]: *String theory on elliptic curve orientifolds and KR-theory*, Commun. Math. Phys. **335**  (2015) 955–1001 &lbrack;[arXiv:1402.4885](https://arxiv.org/abs/1402.4885), [doi:10.1007/s00220-014-2200-0](https://doi.org/10.1007/s00220-014-2200-0)&rbrack;
