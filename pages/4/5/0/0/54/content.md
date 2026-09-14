@@ -64,7 +64,7 @@ Projects:
 \linebreak
 
 
-## Selected talks and chats
+## Talks and chats
  {#SelectedTalks}
 
 > complete list of invited talks: [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
