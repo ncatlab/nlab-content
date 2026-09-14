@@ -270,6 +270,7 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 
 * {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, 2020 ([blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html), [arXiv:2002.07079](https://arxiv.org/abs/2002.07079))
 
+* Jeremy Avigad, _The mathematics in Lean_, source (at [deepwiki.com](https://deepwiki.com)) [The Schroeder-Bernstein Theorem](https://deepwiki.com/avigad/mathematics_in_lean_source/9.1-the-schroeder-bernstein-theorem)
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
 [[!redirects Cantor–Schroeder–Bernstein theorem]]
