@@ -140,7 +140,7 @@ There is a [[Giraud theorem]] characterizing Grothendieck quasitoposes:
 +-- {: .un_theorem}
 ###### Theorem
 
-Grothendieck quasitoposes are those quasitoposes which are [[locally small category|locally small]], [[cocomplete category|cocomplete]], and have a [[generating set]], or equivalently as the [[locally presentable categories]] which are locally cartesian closed and in which every *strong* [[congruence]] has a [[effective quotient]].
+Grothendieck quasitoposes are those quasitoposes which are [[locally small category|locally small]], [[cocomplete category|cocomplete]], and have an [[generating set|extremal generating set]], or equivalently as the [[locally presentable categories]] which are locally cartesian closed and in which every *strong* [[congruence]] has a [[effective quotient]].
 
 =--
 
