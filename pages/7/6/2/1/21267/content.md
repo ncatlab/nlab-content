@@ -36,7 +36,7 @@ In calling it the “[[Handbook of Homotopy Theory]],” I am recognizing that t
 
 > Neither our subject nor its interaction with other areas of inquiry is widely understood.
 Some of us[${}^4$](#BarwickFootnote4) call ourselves _algebraic topologists_, but this has the unhelpful effect of making the subject appear to be an area of [[topology]], which I think is profoundly inaccurate. It so happens that one way (and historically the first way) to model homotopical thinking is to employ a very particular class of [[topological spaces]].[${}^5$](#BarwickFootnote5)
-Today, the praxis of [[homotopy ]]theory interacts with [[topology]] no more often than it does with [[arithmetic geometry]] and [[category theory]], and the interactions with areas like [[representation theory]] are growing rapidly.
+Today, the praxis of [[homotopy theory]] interacts with [[topology]] no more often than it does with [[arithmetic geometry]] and [[category theory]], and the interactions with areas like [[representation theory]] are growing rapidly.
 _Homotopy theory is not a branch of topology._ This is important, because as long as homotopy theory is classified under the umbrella of topology, there will be errors of judgement in who is considered competent to judge our work; the results of this at journals, on the job market, and in funding is real and lasting.
 
 > {#BarwickFootnote4} ${}^4$ not me
@@ -225,8 +225,7 @@ are formulated in a categorical way rather than through
 constructions like [[Kuratowski pairs]] etc.
 
 More fundamentally, the meaning of equality sign $=$
-is altered: now $A=B$ (very) roughly means the the space
-of paths from the point $A$ to the point $B$ in whatever
+is altered: now $A=B$ (very) roughly means the space of paths from the point $A$ to the point $B$ in whatever
 ambient space contains the points $A$ and $B$.
 Very roughly, if this space is empty, we could interpret this as $A\ne B$
 and if it is nonempty, we could interpret this as $A=B$.
