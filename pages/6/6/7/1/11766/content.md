@@ -1,6 +1,14 @@
 
+Daniel Richard Grayson (--2026)
 
-* [webpage](http://www.math.uiuc.edu/~dan/index.xhtml)
+* [personal page](https://www.graysonfamily.org/dan/)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=11365)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=fQheX5IAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Daniel-Grayson-2)
+
 
 ## Selected writings
 
