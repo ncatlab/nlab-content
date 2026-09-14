@@ -77,14 +77,14 @@ Projects:
 
 * (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber)*, Hangzhou, 30 Oct--3 Nov 2026
 
-
-<div style="float:right;margin:-40px 70px -10px 20px;">
-<a href="https://youtu.be/_3TslhCBQ1E"><img src="/schreiber/files/SchreiberAtMansionOfScience-Thumbnail_260914b.png" width="290"></a> 
-</div>
-
 \linebreak
 
-* *[The first TOPOLOGICAL quantum programming language](https://youtu.be/_3TslhCBQ1E)* 
+<div style="float:right;margin:-50px 70px -10px 20px;">
+<a href="https://youtu.be/_3TslhCBQ1E"><img src="/schreiber/files/SchreiberAtMansionOfScience-Thumbnail_260914b.png" width="330"></a> 
+</div>
+
+
+* *[[schreiber:MoS 2026|The first TOPOLOGICAL quantum programming language]]*
 
   (and many other topics)
 
@@ -96,7 +96,10 @@ Projects:
 
   12 Sep 2026
 
-\linebreak
+  * video recording: [YouTube](https://youtu.be/_3TslhCBQ1E)
+
+  * {#PolishedTranscript} polished transcript: [[schreiber:MoS-Sep2026_polished-transcript_260914.pdf|pdf:file]]
+
 
 <div style="float:left;margin:-25px 40px 00px 20px;">
 <a href="https://youtu.be/V7749J5-lho"><img src="/schreiber/files/aboutlogic-thumbnail.png" width="370"></a> 
@@ -118,9 +121,7 @@ Projects:
 
   \linebreak
 
-  \linebreak
-
-<div style="float:right;margin:-100px 0px 00px 20px;">
+<div style="float:right;margin:-80px 0px 00px 20px;">
 <a href="/schreiber/show/WIKO+2026"><img src="/schreiber/files/WIKO-CoverSlideSlim-260218.png" width="370"></a> 
 </div>
 
@@ -133,6 +134,8 @@ Projects:
   [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
 
   Greifswald (6 May 2026)
+
+\linebreak
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
