@@ -219,7 +219,7 @@ Most presentations of $(\infty,1)$-categories come with additional classes of mo
 
 Unlike the weak equivalences, which determine the "homotopy theory" and the $(\infty,1)$-category that it presents, fibrations and cofibrations should be regarded as _technical tools_ which make working directly with the presentation easier (or possible).  Whether a morphism is a fibration or cofibration has no meaning after we pass to the presented $(\infty,1)$-category.  In fact, _every_ morphism is weakly equivalent to a fibration and to a cofibration.  In particular, despite the common use of double-headed arrows for fibrations and hooked arrows for cofibrations, they do not correspond to $(\infty,1)$-categorical epimorphisms and monomorphisms.
 
-In a model category, a morphism which is both a fibration and a weak equivalence is called an **acyclic fibration** or a **trivial fibration**.  Dually we have **acyclic** or **trivial cofibrations**. An object $X$ is called **cofibrant** if the map $0\to X$ from the initial object to $X$ is a cofibration, and **fibrant** if the map $X\to 1$ to the terminal# object is a fibration.  The axioms of a model category ensure that for every object $X$ there is an acyclic fibration $Q X \to X$ where $Q X$ is cofibrant and an acyclic cofibration $X\to R X$ where $R X$ is fibrant.
+In a model category, a morphism which is both a fibration and a weak equivalence is called an **acyclic fibration** or a **trivial fibration**.  Dually we have **acyclic** or **trivial cofibrations**. An object $X$ is called **cofibrant** if the map $0\to X$ from the initial object to $X$ is a cofibration, and **fibrant** if the map $X\to 1$ to the terminal object is a fibration.  The axioms of a model category ensure that for every object $X$ there is an acyclic fibration $Q X \to X$ where $Q X$ is cofibrant and an acyclic cofibration $X\to R X$ where $R X$ is fibrant.
 
 ### Examples 
 
@@ -256,7 +256,7 @@ Often it suffices to consider even shorter zigzags of the form $\stackrel{\simeq
  * [[anafunctor|anafunctors]] are zigzags $\stackrel{\simeq}{\leftarrow} \to$ in the [[folk model structure]] on 1-categories whose first factor is an acyclic (i.e. surjective) fibration.  
  * [[Morita equivalence|Morita morphisms]] in the theory of [[Lie groupoid|Lie groupoids]] are generalized morphisms of length one where both maps are acyclic fibrations.
 
-If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$ to $Y$ is equivalent to an ordinary morphism.  For example, if $X$ is a cofibrant 2-category, then every pseudofunctor $X\to Y$ is equivalent to a strict 2-functor $X\to Y$
+If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$ to $Y$ is equivalent to an ordinary morphism.  For example, if $X$ is a cofibrant 2-category, then every pseudofunctor $X\to Y$ is equivalent to a strict 2-functor $X\to Y$.
 
 ### Quillen Equivalences 
 
