@@ -3,7 +3,7 @@ The notion of a normal subobject is the proper generalization of a [[normal subg
 Given a category $C$ admitting [[finitely complete category|finite limits]], one says that a morphism $f:X\to Y$ in $C$ is __normal__ to the [[internal equivalence relation]] $r: R\hookrightarrow Y\times Y$ if $f \times f$ factors through the monomorphism $r$ (i.e. $\exists \tilde{f}:X \times X \to R$ such that $r\circ\tilde{f}=f \times f$) and such that
 
 \begin{center}
-TODO
+    TODO
 \end{center}
 
 is a pullback diagram.
