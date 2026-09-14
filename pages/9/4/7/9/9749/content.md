@@ -114,7 +114,8 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
- Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the category whose objects $X$ are [[measurable spaces]] with a [[convex space]] structure such that there are enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[measurable spaces]] which, in addition, also possess a [[convex space]] structure such that all the algebraic operations of taking finite affine sums of elements is a [[measurable function]].  Moreover, each object in $\mathbf{Meas} \cap \mathbf{Cvx}$
+has enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\widehat{\mathbb{E}_{P}}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
@@ -231,52 +232,13 @@ Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R
 By the preceding remark we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$. There is also a (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure.  These two functors form an adjunct pair  with the natural transformation $\mathbb{E}$ as the counit of the adjunction, and the composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
-Since the Giry monad factors through $\mathbf{Meas}_{Cvx}$ it follows that  $\mathbf{Meas}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
-
-\begin{lemma} If $X$ is an object in $\mathbf{Alg}_{G}$ then $X$ satisfies the fullness property.
-\end{lemma}
-\begin{proof} 
-Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.   
-
-Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}))$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Meas}$-diagram
-\begin{tikzpicture}
-   \node (G2X) at (-4,0) {$G^2(X)$};
-   \node  (GX) at  (-4, -1.5) {$G(X)$};
-   \node  (GX2) at  (-1,0)    {$G(X)$};
-   \node  (GR)  at  (2,0)  {$G(\mathbb{R}_{\infty})$};
-   \node  (X)   at  (-1, -1.5)  {$X$};
-   \node  (R)   at  (2, -1.5)   {$\mathbb{R}_{\infty}$};
-
-   \draw[->,above] (G2X) to node {$G(h)$} (GX2);
-   \draw[->,right] (GX2) to node {$h$} (X);
-   \draw[->,left] (G2X) to node {$\mu_X=\mathbb{E}_{\bullet}(id_{G(X)})$} (GX);
-   \draw[->,below] (X) to node {$m$} (R);
-   \draw[->,above] (GX2) to node {$G(m)$} (GR);
-   \draw[->,below] (GX) to node {$h$} (X); 
-   \draw[->,right] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
-    
-\end{tikzpicture}
-commutes.  Note that the left-hand side of this diagram commutes because $h$ is a $G$-algebra.
-
- The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Meas}_{Cvx}$.  By Lemma 3.7 it follows that the outer square commutes.  Thus we have
-$$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
+ Now we apply Beck's [[monadicity theorem]] to prove that the [[comparison functor]] 
 $$
-Because $\hat{G} \dashv \mathcal{U}_{Cvx}$ and an [[epimorphism]] is preserved by a functor with a right adjoint it follows that $G(h)$ is an [[epimorphism]] (onto) because $h$ is an [[epimorphism]]. Cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
+\Phi : \mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G
+$$
+is an equivalence. (See the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] of [[convex spaces]] is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Meas}_{Cvx}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Meas}_{Cvx}$ is equivalent to $\mathbf{Alg}_G$.
 
-Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
-$$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big). $$
-  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
-$$ \bigcap_{m \in \mathbb{R}_{\infty}^X} m^{-1}(\mathbb{E}_{P}(m)) \ne \emptyset. $$
-Consequently $X$ satisfies the fullness property.
-
-\end{proof}
-
-By Lemma 3.1 If $X \in_{ob} \mathbf{Alg}_G$ then $X$ has a convex space structure. 
-
-\begin{conjecture} If $X \in_{ob}\mathbf{Alg}_G$ then every affine map $X \rightarrow \mathbb{R}_{\infty}$ is measurable. 
-\end{conjecture}
-
-The proof of this conjecture, along with Lemma 3.9, would prove  $\mathbf{Meas}_{Cvx} = \mathbf{Alg}_{G}$.  
+  
  
 ## Related constructions
 
