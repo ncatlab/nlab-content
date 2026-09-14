@@ -14,11 +14,7 @@
 =--
 
 
-
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontens
 
 ## Idea
 
@@ -776,7 +772,7 @@ For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are e
 
 * [[Emmanuel Dror Farjoun]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. **80** 4 (1980) 670672 &lbrack;[jstor:2043448](http://www.jstor.org/stable/2043448)&rbrack;
 
-This is mentioned for instance as exercise 4.2in 
+This is mentioned for instance as exercise 4.2 in 
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) [pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)
 
