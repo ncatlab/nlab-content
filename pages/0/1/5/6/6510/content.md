@@ -62,9 +62,9 @@ $$ \mathfrak{g}_1 = V $$
 
 then $\mathfrak{g} = \mathfrak{g}_0 \oplus \mathfrak{g}_1$ becomes a $\mathbb{Z}/2$-graded Lie algebra with bracket given by
 
-$$ [(L,u),(M,v)] = ([L,M]+L_{u,v}, L(v) - M(u)) $$
+$$ [(K,u),(M,v)] = ([K,M]+L_{u,v}, K(v) - M(u)) $$
 
-for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Smirnov 09, Corollary 3.4](#Smirnov09))
+for $K,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Smirnov 09, Corollary 3.4](#Smirnov09))
 
 Let $\mathbf{LA}$ be the category of Lie algebras, $\mathbf{LA}_{\mathbb{Z}/2}$ be the category of $\mathbb{Z}/2$-graded Lie algebras and $\mathbf{LTS}$ be the category of Lie triple systems. The first construction (with $V=\mathfrak{g}$) defines a [[forgetful functor]] $\mathcal{T}\colon\mathbf{LA}\rightarrow\mathbf{LTS}$, which is a [[right adjoint]] functor. ([Jacobson 51](#Jacobson51), [Smirnov 09, 2.2.](#Smirnov09)) The first construction (with $V=\mathfrak{g}_1$) also defines a functor $\mathcal{R}\colon\mathbf{LA}_{\mathbb{Z}/2}\rightarrow\mathbf{LTS}$. The second contruction defines a [[faithful functor]] $\mathfrak{A}\colon\mathbf{LTS}\rightarrow\mathbf{LA}$ and even a [[fully faithful functor]] $\mathfrak{A}\colon\mathbf{LTS}\rightarrow\mathbf{LA}_{\mathbb{Z}/2}$, which gives an [[adjunction]]:
 $$
@@ -80,6 +80,7 @@ This adjunction is not an [[equivalence of categories]], since any abelian $\mat
 ## Related entries
 
 * [[Jordan triple system]]
+* [[Bruck loop]]
 
 
 ## References
