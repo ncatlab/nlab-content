@@ -200,11 +200,23 @@ Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphis
 A more appropriate notation for the unique morphism $\epsilon_X$ is $\mathbb{E}_{\bullet}(id_X)$ which, in the special case of $X$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $X$ the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is the __unique morphism__ such that, for every $P \in G(X)$,   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \int_X f(x) \, dP$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
-The function $\mathbb{E}_{\bullet}(id_X)$(=$\epsilon_X$) is a $G$-algebra.
+If $X \in_{ob} \mathbf{Meas}_{Cvx}$ then the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is a $G$-algebra.
 \end{lemma}
-\begin{proof}The property $\epsilon_X(\delta_x)=x$ follows from the preceding corollary.
-To prove the property $\epsilon_X \circ \mu_X = \epsilon_X \circ G(\epsilon_X)$  compose both sides of that equation by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$.
-If we spell both sides of that equation out, using the property $\int_X f \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(f) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $X  \xrightarrow{f} \mathbb{R}_{\infty}$ are jointly monic on $X$.
+\begin{proof} 
+We need to show the following two properties: (1) for all $x \in X$ we have $\mathbb{E}_{\delta_x}(id_X) = x$, and (2)$ \mathbb{E}_{\bullet}(id_X) \circ \mu_X = \mathbb{E}_{\bullet}(id_X) \circ G(\mathbb{E}_{\bullet}(id_X))$.
+
+The first property follows from the preceding corollary. (Recall, by definition, $\mathbb{E}_{\bullet}(id_X) = \epsilon_X$.) 
+
+To prove the second property  compose both sides of the required condition by an affine measurable map $X \xrightarrow{f} \mathbb{R}_{\infty}$, and note that $f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(f)$ by definition of $\mathbb{E}_{\bullet}(id_X)$.
+ Let $Q \in G^2(X)$. The left-hand side of the required condition is given by 
+$$\mathbb{E}_{\bullet}(f) \big( \mu_X(Q) \big)= \mathbb{E}_{\mu_X(Q)}(f) = \int_X f \, d\mu_X(Q) = \int_{P \in GX} \big( \int_X f \, dP\big)dQ= \int_{P \in G(X)} \mathbb{E}_P(f)dQ
+$$
+On the other hand, the right hand side of the required condition in (2), after composition with $f$ yields
+$$\mathbb{E}_{\bullet}(f)\big( G(\mathbb{E}_{\bullet}(id_X))Q \big) =
+\mathbb{E}_{G( \mathbb{E}_{\bullet}(id_X))Q}(f) = \mathbb{E}_Q(f \circ \mathbb{E}_{\bullet}(id_X)) = \mathbb{E}_Q(\mathbb{E}_{\bullet}(f)) = \int_{P \in G(X)} \mathbb{E}_P(f) \, dQ
+$$
+which coincides with the left hand side of the required condition.
+ The result of the lemma now follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of affine measurable functions $X  \xrightarrow{f} \mathbb{R}_{\infty}$ are jointly monic on $X$.
 
 \end{proof}
 
@@ -232,11 +244,11 @@ Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R
 By the preceding remark we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\hat{G}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$. There is also a (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Meas}$ which forgets the convex space structure.  These two functors form an adjunct pair  with the natural transformation $\mathbb{E}$ as the counit of the adjunction, and the composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 
- Now we apply Beck's [[monadicity theorem]] to prove that the [[comparison functor]] 
+ Now we apply Beck's [[monadicity theorem]] (Theorem 2.2) to prove that the [[comparison functor]] 
 $$
 \Phi : \mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G
 $$
-is an equivalence. (See the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] of [[convex spaces]] is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Meas}_{Cvx}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Meas}_{Cvx}$ is equivalent to $\mathbf{Alg}_G$.
+is an equivalence. (The monadicity theorem is Theorem 1, page 147 of [[CWM]]. Although see the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] of [[convex spaces]] is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Meas}_{Cvx}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Meas}_{Cvx}$ is equivalent to $\mathbf{Alg}_G$.
 
   
  
