@@ -99,7 +99,7 @@ Discussion of charge quantization in [[twisted K-theory]] for the case of non-va
 
 An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
-* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]]: *[Orientifold Précis](/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore)*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) \[<a href="https://bookstore.ams.org/pspum-83">ams:pspum-83</a>, [arXiv:0906.0795 hep-th](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)\]
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]]: *[Orientifold Précis](/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore)*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) \[<a href="https://www.google.com/search?q=https://doi.org/10.1090/pspum/083/2742428">doi:10.1090/pspum/083/2742428</a>, <a href="https://bookstore.ams.org/pspum-83">ams:pspum-83</a>, [arXiv:0906.0795 hep-th](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)\]
 
 with more details in:
 
