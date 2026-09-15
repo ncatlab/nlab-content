@@ -137,6 +137,9 @@ See also:
 
 * Dibakar Roychowdhury: *Krylov complexity and spectral density of BMN matrix model* &lbrack;[arXiv:2607.24632](https://arxiv.org/abs/2607.24632)&rbrack;
 
+* Shota Komatsu, Eunwoo Lee, Chintan Patel: *Matrix Theory from Holography* &lbrack;[arXiv:2609.13386](https://arxiv.org/abs/2609.13386)&rbrack;
+
+
 
 
 
