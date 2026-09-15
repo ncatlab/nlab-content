@@ -469,11 +469,11 @@ A _[[partial order]]_ is a [[set]] $S$ equipped with a [[relation]] $\leq$ such 
 
 2) ([[transitive relation|transitivity]]) if $a \leq b$ and $b \leq c$ then $a \leq c$;
 
-3) ([[antisymmetric relation|antisymmetry]]) if $a\leq b$ and $\b \leq a$ then $a = b$.
+3) ([[antisymmetric relation|antisymmetry]]) if $a\leq b$ and $b \leq a$ then $a = b$.
 
 This we may and will equivalently think of as a [[category]] with [[objects]] the elements of $S$ and a unique morphism $a \to b$ precisely if $a\leq b$. In particular an order-preserving function between partially ordered sets is equivalently a [[functor]] between their corresponding categories.
 
-A _[[bottom element]]_ $\bot$ in a partial order is one such that $\bot \leq a$ for all a. A _[[top element]]_ $\top$ is one for which $a \leq \top$.
+A _[[bottom element]]_ $\bot$ in a partial order is one such that $\bot \leq a$ for all $a$. A _[[top element]]_ $\top$ is one for which $a \leq \top$ for all $a$.
 
 A partial order is a _[[total order]]_ if in addition
 
