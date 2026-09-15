@@ -325,7 +325,7 @@ Original discussion of the Chern character on complex [[topological K-theory]]:
 
 * {#BorelHirzebruch58} [[Armand Borel]], [[Friedrich Hirzebruch]], Section 9.1 in: _Characteristic Classes and Homogeneous Spaces, I_, American Journal of Mathematics Vol. 80, No. 2 (Apr., 1958), pp. 458-538 ([jstor:2372795](https://www.jstor.org/stable/2372795))
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], Section 1.10 in: _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), <a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], Section 1.10 in: _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math. **III**, American Mathematical Society (1961) 7--38 &lbrack;[web](http://hirzebruch.mpim-bonn.mpg.de/87/), <a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181)&rbrack;
 
 * {#Hilton71} [[Peter Hilton]], _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series 1, Cambridge University Press (1971) ([doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577))
 
