@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -1054,10 +1053,9 @@ Monographs:
 
 * {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#KonoTamaki02} [[Akira Kono]], [[Dai Tamaki]], _Generalized cohomology_, AMS 2002, esp. chapter 2 $[$[[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)$]$
+* {#KonoTamaki02} [[Akira Kono]], [[Dai Tamaki]]; esp. chapter 2: _Generalized cohomology_, AMS (2002) &lbrack;[doi:10.1090/mmono/230](https://doi.org/10.1090/mmono/230)[[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
 
 * [[Stefan Schwede]], chapter II, section 6 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
