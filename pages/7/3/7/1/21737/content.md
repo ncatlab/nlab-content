@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -83,7 +83,9 @@ The identification of rational [[generalized (Eilenberg-Steenrod) cohomology|gen
 
 reviewed in
 
-* [Hilton 71, Theorem 3.18](#Hilton71)
+
+* {#Hilton71} [[Peter Hilton]]; Theorem 3.18 of: _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series **1**, Cambridge University Press (1971) &lbrack;[doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577)&rbrack;
+
 
 * {#Rudyak98} [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
 
@@ -112,7 +114,7 @@ That the Chern-Dold character is given by rationalization of representing spectr
 
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], Section 2.1: _Twisted iterated algebraic K-theory and topological T-duality for sphere bundles_, Ann. K-Th. 5 (2020) 1-42 ([arXiv:1601.06285](https://arxiv.org/abs/1601.06285))
 
-This rationalization construction appears also (without attribution to [#Hilton 71](#Hilton71) or [Buchstaber 70](#Buchstaber70) or [Dold 56](#Dold56)) in the following articles (all in the context of [[differential cohomology]]):
+This rationalization construction appears also (without attribution to [Hilton 71](#Hilton71) or [Buchstaber 70](#Buchstaber70) or [Dold 56](#Dold56)) in the following articles (all in the context of [[differential cohomology]]):
 
 * {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, ([math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)).
 
