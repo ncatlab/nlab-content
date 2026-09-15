@@ -187,6 +187,9 @@ See also
 
 * Keiichiro Hattori, Tatsuya Seko, Asato Tsuchiya: *Description of curved spacetimes by finite-size matrices in the type IIB matrix model* &lbrack;[arXiv:2606.24577](https://arxiv.org/abs/2606.24577)&rbrack;
 
+* Koichiro Matsumoto: *The Fuzzy-Sphere as a Black Hole in the IKKT Matrix Model: An Assessment* &lbrack;[arXiv:2609.13163](https://arxiv.org/abs/2609.13163)&rbrack;
+
+
 
 
 
