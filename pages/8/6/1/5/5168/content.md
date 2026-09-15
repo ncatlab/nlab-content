@@ -59,7 +59,7 @@ On [[category theory]] and [[homology]]:
 
 On [[generalized cohomology]], the [[Chern-Dold character]] and [[topological K-theory]]:
 
-* {#Hilton71} [[Peter Hilton]], _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series 1, Cambridge University Press (1971) ([doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577))
+* {#Hilton71} [[Peter Hilton]]: _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series **1**, Cambridge University Press (1971) &lbrack;[doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577)&rbrack;
 
 
 On [[homological algebra]]:
