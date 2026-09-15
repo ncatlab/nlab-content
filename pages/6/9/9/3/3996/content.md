@@ -45,7 +45,7 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 Thus, reflection of limits for a given diagram $J$ either holds vacuously, or holds together with preservation of limits for $J$.
 
 \begin{remark}
-  A functor which both reflects *and* lifts limits is said to [[created limit|create]] them.
+  A functor which both reflects *and* [[lifted limit|lifts]] limits is said to [[created limit|create]] them.
 \end{remark}
 
 Let $F_i \colon C \to D_i$ be a family of functors, and $J \colon I \to C$ a diagram. We say that these functors **collectively reflect limits of $J$** if and only if a cone $(x, \eta)$ for $J$ that is mapped to a limit cone under all $F_i$ is a limit cone in $C$.
