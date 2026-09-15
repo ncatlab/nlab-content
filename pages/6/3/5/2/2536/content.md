@@ -52,7 +52,7 @@ Such Jordan algebras are called __special__ Jordan algebras; all others are call
 
 The Jordan identity $(x x) (x y) = x ((x x) y)$ may equivalently be restated as 
 
-$$   L_{x^2} L_x = L_{x^2} L_x $$
+$$   L_{x^2} L_x = L_x L_{x^2} $$
 
 where $L_x \colon J \to J$ is the operation of left multiplication, or else, using commutativity, as a restricted form of the associative law:
 
@@ -66,7 +66,7 @@ $$   (x^2 y) x = x^2 (x y) \, .$$
 [Jordan, von Neumann & Wigner 1934](#JordanvNeumannWigner34) classified finite-dimensional formally real Jordan algebras.
 
 They began by defining an **ideal** of a formally real
-Jordan algebra $J$ to be a linear subspace $S \subseteq J$ such that $x \in S$ implies $x \circ y \in S$ for all $y \in J$.  Next they defined $J$ to be **simple** when its only ideals were $\{0\}$ and $J$ itself.  Then they proved that any finite-dimensional formally Jordan algebra is a direct sum of simple ones.
+Jordan algebra $J$ to be a linear subspace $S \subseteq J$ such that $x \in S$ implies $x \circ y \in S$ for all $y \in J$.  Next they defined $J$ to be **simple** when its only ideals were $\{0\}$ and $J$ itself.  Then they proved that any finite-dimensional formally real Jordan algebra is a direct sum of simple ones.
 
 This reduced the classification problem to the task of classifying _simple_ finite-dimensional formally real Jordan algebras.  There are four families of these, and one exception:
 
