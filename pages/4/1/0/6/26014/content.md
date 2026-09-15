@@ -192,6 +192,11 @@ Technically, the observation is that "non-invertible" actions on local operators
 
 * [[Pavel Putrov]], Rajath Radhakrishnan. *On the action of non-invertible symmetries on local operators in 3+1d*. ([arXiv:2603.03438](https://arxiv.org/abs/2603.03438)).
 
+Via [[classifying spaces]]:
+
+* [[Luigi Alfonsi]], [[Hyungrok Kim]], William G. A. Luciani: *Generalised Symmetries and Swampland-Type Constraints from Charge Quantisation via Rational Homotopy Theory* &lbrack;[arXiv:2604.22656](https://arxiv.org/abs/2604.22656)&rbrack;
+
+
 
 [[!redirects generalized global symmetries]]
 
