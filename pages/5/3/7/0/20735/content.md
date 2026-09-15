@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -265,6 +263,11 @@ On the [[ordinary cohomology]] of the moduli space of YM-monopoles:
 The special case of [[gauge group]] [[SU(3)]]:
 
 * F. A. Bais, [[Bernd Schroers]], *Quantisation of Monopoles with Non-abelian Magnetic Charge*, Nucl. Phys. B512 (1998) 250-294 ([arXiv:hep-th/9708004](https://arxiv.org/abs/hep-th/9708004))
+
+See also:
+
+* [[Paul Sutcliffe]]: *Monopole fission* &lbrack;[arXiv:2609.14617](https://arxiv.org/abs/2609.14617)&rbrack;
+
 
 
 
