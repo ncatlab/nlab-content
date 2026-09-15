@@ -64,6 +64,9 @@ More on [[Skyrmions]]:
 
 * [[Paul Sutcliffe]]: *JNR Skyrmions* &lbrack;[arXiv:2409.05058](https://arxiv.org/abs/2409.05058)&rbrack;
 
+On the [[moduli space of monopoles]]:
+
+* [[Paul Sutcliffe]]: *Monopole fission* &lbrack;[arXiv:2609.14617](https://arxiv.org/abs/2609.14617)&rbrack;
 
 ## Related entries
 
