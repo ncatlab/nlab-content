@@ -21,9 +21,8 @@
 
 > under construction
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -293,9 +292,12 @@ Discussion of rational fiberwise [[suspension spectra]]:
 
 A discussion of full-blown rational parametrized stable homotopy theory is due to
 
-* [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, 2018
+* [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, (2018)
   
 * [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_,  Algebraic & Geometric Topology 21 (2021) 917–1019 &lbrack;[arXiv:1910.14608](https://arxiv.org/abs/1910.14608), [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917)&rbrack;
+
+* Vincent Braunack-Mayer: *Strict algebraic models for rational parametrised spectra II* &lbrack;[arXiv:2011.06307](https://arxiv.org/abs/2011.06307)&rbrack;
+
 
 Application to mathematical analysis of [[duality between M-theory and type IIA string theory]]:
 
