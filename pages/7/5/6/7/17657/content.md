@@ -67,6 +67,8 @@ On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]]
 
 * [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
 
 
 ## Related  entries
