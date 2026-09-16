@@ -30,9 +30,9 @@ On [[higher derivative corrections]] to the [[worldsheet]] [[Nambu-Goto action]]
 
 * [[M. Cristina Diamantini]], [[Hagen Kleinert]], [[Carlo A. Trugenberger]]: *Universality Class of Confining Strings*, Phys. Lett. B **457** (1999) 87--93 \[<a href="https://doi.org/10.1016/S0370-2693(99)00532-8">doi:10.1016/S0370-2693(99)00532-8</a>, [arXiv:hep-th/9903208](https://arxiv.org/abs/hep-th/9903208)\]
 
-
 * [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="https://arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
 
 
 On an experimentally accessible analog of [[confinement]], observed in [[superinsulators]] (the [[electric-magnetic duality|dual]] to [[superconductors]]), where the role of [[quark]]-[[pairs]] is played by [[Cooper pairs]] (cf. *[[dual superconductor model of confinement]]*):
