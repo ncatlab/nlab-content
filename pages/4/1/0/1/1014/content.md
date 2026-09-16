@@ -316,7 +316,7 @@ Note that the version on the left is the unwrapping of the loop; we would like a
 
 ## References
 
-*  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://irafs.org/courses/materials/aczel_set_theory.pdf).
+*  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University. [Publisher's page](https://web.stanford.edu/group/cslipublications/cslipublications/site//0937073229.shtml),  [PDF](https://web.archive.org/web/20170404043154/http://www.irafs.org/courses/materials/aczel_set_theory.pdf).
 
 
 [[!redirects pure set]]
