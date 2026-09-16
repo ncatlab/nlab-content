@@ -112,8 +112,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
- Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Moreover, each object in $\mathbf{Meas} \cap \mathbf{Cvx}$
-has enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. These objects are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function by definition of the convex space structure on product spaces.   Moreover, each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ must have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. These objects are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\widehat{\mathbb{E}_{P}}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
@@ -155,7 +154,7 @@ holds.
 Since $X$ lies in $\mathbf{Meas} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $x \in X$ satisfying, for all affine measurable maps $X \xrightarrow{f} \mathbb{R}_{\infty}$, the equation $J(f)=f(x)$.  
 \end{proof}
 
-Define $\mathbf{Cvx}_{Meas}$ to be the full subcategory of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
+Define $\mathbf{Cvx}_{Meas}$ to be the [[full subcategory]] of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
 Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
@@ -238,36 +237,58 @@ $$
 But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
-\begin{lemma} The operation of taking an affine sum
+\begin{lemma} Let $p \in [0,1]$.  The operation of taking an affine sum
 $$ G(X) \times G(X) \xrightarrow{ p \pi_1 + (1-p) \pi_2} G(X)$$
-is a measurable function.
+is an affine measurable function.
 \end{lemma}
-\begin{proof} Let $U$ be a measurable set in $X$.
+\begin{proof} The fact that the function is affine follows from the convex space structure of product spaces - it is componentwise.  For $X$ any convex space the affine sum $p(x_1, y_1) + (1-p)(x_2,y_2) = (p x_1 + (1-p) x_2, p y_1 + (1-p) y_2)$. Hence the function in question, $G(X) \times G(X) \xrightarrow{p \pi_1 + (1-p) \pi_2} G(X)$, is affine. 
+
+To show the function is measurable let $U$ be a measurable set in $X$.
 By the pointwise convex space structure of $G(X)$ we have 
 $$
 ev_U \circ p \pi_i + (1-p) \pi_2 = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_u \times ev_U)
 $$
-where $[0,1] \times [0,1] \xrightarrow{p \hat{\pi}_1 + (1-p) \hat{\pi}_2} [0,1]$ is the measurable affine sum on elements of the measurable convex space $[0,1]$, and $G(X) \times G(X) \xrightarrow{ev_U \times ev_U} [0,1] \times [0,1]$ is an affine measurable function because $ev_U$ is an affine measurable function.  Since the right-hand side of the ... (to be finished later)
+where $[0,1] \times [0,1] \xrightarrow{p \hat{\pi}_1 + (1-p) \hat{\pi}_2} [0,1]$ is the measurable affine sum on elements of the measurable convex space $[0,1]$, and $G(X) \times G(X) \xrightarrow{ev_U \times ev_U} [0,1] \times [0,1]$ is an affine measurable function because $ev_U$ is an affine measurable function.  Since the right-hand side of the equation is measurable it follows, for every measurable set $W$ of $[0,1]$, that
+$$
+(p \pi_i + (1-p) \pi_2)^{-1}\big(ev_U^{-1}(W)\big) \in \Sigma_{G(X) \times G(X)}.
+$$
+This last equation is true for all measurable sets $U$ in $X$, and since the affine measurable functions $ev_U$ generate the initial $\sigma$-algebra on $G(X)$ it follows that the function $(p \pi_i + (1-p) \pi_2)$ is measurable.
 \end{proof}
 
 \begin{lemma}
-For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Cvx}_{Meas}$.
+For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Cvx}_{Meas}$.  For every measurable function $X \xrightarrow{f} Y$ the pushforward map $G(f)$ is an affine measurable function.
 \end{lemma}
-\begin{proof} because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
-Also, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. (To prove that statement use the fact that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ and Lemma 3.7.)
-Using the previous lemma it follows by induction on the number of coordinates that the product space has that 
- every affine sum $\prod_{i=1}^n G(X) \xrightarrow{\prod_{i=1}^n p_i \pi_i} G(X)$ is measurable. 
+\begin{proof} For every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
+
+For $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. To prove that statement use the fact that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ because
+$$
+(ev_U \circ \mu_X)(Q) = \mu_X(Q)[U] = \int_{P \in G(X)} ev_U(P) \, dQ = \mathbb{E}_Q(ev_U) = \big(ev_U \circ \mathbb{E}_{\bullet}(id_{G(X)})\big)(Q)
+$$
+along with Lemma 3.7.
+
+Using the previous lemma it follows by induction on the number of coordinates of  the product space  that 
+ every affine sum $\prod_{i=1}^n G(X) \xrightarrow{\prod_{i=1}^n p_i \pi_i} G(X)$ is an affine measurable function. 
+
+The preceding arguments show that all the conditions for $G(X) \in_{ob} \mathbf{Cvx}_{Meas}$ are satisfied.
+
+The fact that $G(f)$ is an affine function follows immediately by the pointwise convex space structure of $G(X)$ and $G(Y)$.  The fact that it is a measurable function follows because $G$ is an [[endofunctor]] on $\mathbf{Meas}$. 
 \end{proof}
 
 
-By the preceding lemma we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Cvx}_{Meas}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Cvx}_{Meas}$. There is also a (partial) ''forgetful functor'' $\mathbf{Cvx}_{Meas}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  
+By the preceding lemma we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Cvx}_{Meas}$, which is the Giry monad (functor) $G$ viewed as a functor into $\mathbf{Cvx}_{Meas}$. There is also a ''forgetful functor'' $\mathbf{Cvx}_{Meas}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  
 
 \begin{lemma} The affine measurable functions $\mathbb{E}_{\bullet}(id_X)$ are the components of a  [[natural transformation]] 
 $$\mathcal{F} \circ \mathcal{U} \Rightarrow id_{\mathbf{Cvx}_{Meas}}.
 $$
 \end{lemma}
 \begin{proof}
-The proof is a straightforward verification using Lemma 3.7.
+Suppose $X$ and $Y$ are objects in $\mathbf{Cvx}_{Meas}$ and that $X \xrightarrow{f} Y$ is an affine measurable function.  We need to verify that $f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_Y) \circ G(f)$.  Applying both sides of this equation to any $P \in G(X)$ yields
+$$
+\mathbb{E}_{P}(f) = f\big(\mathbb{E}_{P}(id_X)\big) =\mathbb{E}_{G(f)P}(id_Y) = \mathbb{E}_P(id_Y \circ f)
+$$
+which is a true statement.
+Hence the required commutativity condition holds showing $\mathbb{E}$ is a [[natural transformation]]. 
+
 \end{proof}
 We denote this natural transformation by $\mathbb{E}$ rather than $\mathbb{E}_{\cdot}(id_{\bullet})$.
 
