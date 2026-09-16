@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -92,6 +90,8 @@ Relating Dirac structures to [[D-branes]]:
 Related observations for D-branes in the [[WZW model]] had long been made (unpublished) for the [[Cartan-Dirac structure]] over a Lie group.
 
 
-[[!redirects Dirac structures]]
 [[!redirects Dirac manifolds]]
+
 [[!redirects Dirac structure]]
+[[!redirects Dirac structures]]
+
