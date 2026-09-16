@@ -38,6 +38,10 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 \linebreak
 
+<div style="float:right;margin:-90px 30px 10px 20px;"><img width = "340" src="/schreiber/files/Schreiber-Phone_260916.png" alt="Urs Schreiber" />
+</div>
+
+
 ## Contact
 
 * <us13@nyu.edu> 
