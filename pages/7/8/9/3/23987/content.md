@@ -4783,9 +4783,11 @@ Neumann algebras**
 
 * {#MitiSep2026} 16 Sep 2026
 
-  [Antonio Miti](https://scholar.google.com/citations?user=DWKPuJYAAAAJ&hl=en) (Rome University, Italy):
+  [Antonio Miti](https://scholar.google.com/citations?user=DWKPuJYAAAAJ&hl=en) (Rome University):
 
   **Canonical $L_\infty$-morphisms and homotopy fibers in higher Courant geometry: from twisted algebroids to higher Dirac structures**
+
+  slides: [[Miti_at_CQTS_Sep2026-slides.pdf|pdf:file]]; handout: [[Miti_at_CQTS_Sep2026-handout.pdf|pdf:file]] 
 
   cf.: [arXiv:2209.05836](https://arxiv.org/abs/2209.05836), [arXiv:2602.14702](https://arxiv.org/abs/2602.14702), 
 
@@ -5164,6 +5166,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
   [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
 
   Greifswald (6 May 2026)
+
 
 
 
