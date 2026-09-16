@@ -4781,19 +4781,21 @@ Neumann algebras**
 
 ### Sep 2026
 
-* 16 Sep 2026
+* {#MitiSep2026} 16 Sep 2026
 
-  Antonio Miti (Rome University, Italy)
+  [Antonio Miti](https://scholar.google.com/citations?user=DWKPuJYAAAAJ&hl=en) (Rome University, Italy):
 
   **Canonical $L_\infty$-morphisms and homotopy fibers in higher Courant geometry: from twisted algebroids to higher Dirac structures**
 
-  > In [[symplectic geometry]], [[classical physics|classical]] [[observables]] form a [[Poisson algebra]]. For higher-degree analogues of symplectic structures, this algebraic structure is replaced by an $L_\infty$-algebra, whose higher brackets encode the geometry of observables and their symmetries. Higher Courant algebroids provide a natural ambient framework for studying these structures and the morphisms relating them.
+  cf.: [arXiv:2209.05836](https://arxiv.org/abs/2209.05836), [arXiv:2602.14702](https://arxiv.org/abs/2602.14702), 
 
-  > In “Lie infinity algebras and higher analogues of Dirac structures and Courant algebroids” (arXiv:1003.1004), Marco Zambon constructs an L∞-algebra associated with any standard higher Courant algebroid. He also exhibits an explicit L∞-morphism from the Lie algebra associated with a standard Lie algebroid twisted by a closed 2-form to the Lie 2-algebra of the standard Courant algebroid. He then asks whether analogous canonical morphisms exist in higher degrees, namely for standard higher Courant algebroids twisted by closed (n+1)-forms.
+  > In [[symplectic geometry]], [[classical physics|classical]] [[observables]] form a [[Poisson algebra]]. For [[higher differential geometry|higher-degree analogues]] of [[symplectic structures]], this algebraic structure is replaced by an [[L-infinity algebra|$L_\infty$-algebra]], whose higher brackets encode the geometry of [[observables]] and their [[symmetries]]. Higher [[Courant algebroids]] provide a natural ambient framework for studying these structures and the [[morphisms]] relating them.
 
-  > In this talk, I will present a general framework that answers this question affirmatively for arbitrary n. A key ingredient is the realization of the relevant $L_\infty$-algebras as homotopy fibers of natural morphisms between differential graded Lie algebras. This homotopical description clarifies both the geometric origin and the naturality of the resulting canonical $L_\infty$-morphisms. I will also explain how the same framework accommodates the canonical morphism between the $L_\infty$-algebra of observables of a pre-$n$-plectic manifold and the higher Courant algebra described in “Observables on multisymplectic manifolds and higher Courant algebroids” (arXiv:2209.05836). These results appear in the recent preprint “L∞-morphisms between twisted Courant r-Lie algebras and untwisted Courant $(r+1)$-Lie algebroids” (arXiv:2602.14702), joint work with [[Domenico Fiorenza]].
+  > In “Lie infinity algebras and higher analogues of Dirac structures and Courant algebroids” ([arXiv:1003.1004](https://arxiv.org/abs/1003.1004)), [[Marco Zambon]] constructs an [[L-infinity algebra|$L_\infty$-algebra]] associated with any standard higher [[Courant algebroid]]. He also exhibits an explicit $L_\infty$-morphism from the [[Lie algebra]] associated with a standard [[Lie algebroid]] twisted by a closed 2-form to the Lie 2-algebra of the standard Courant algebroid. He then asks whether analogous canonical morphisms exist in higher degrees, namely for standard higher Courant algebroids twisted by closed $(n+1)$-forms.
 
-  > Time permitting, I will discuss ongoing joint work with Aditya Basu and Domenico Fiorenza extending this homotopy-fiber perspective from graphs of closed differential forms to general higher Dirac structures, with the aim of constructing natural comparison morphisms between their L∞-algebras and those of the ambient higher Courant algebroids.
+  > In this talk, I will present a general framework that answers this question affirmatively for arbitrary $n$. A key ingredient is the realization of the relevant $L_\infty$-algebras as [[homotopy fibers]] of natural morphisms between [[differential graded Lie algebras]]. This [[homotopical algebra|homotopical]] description clarifies both the geometric origin and the naturality of the resulting canonical $L_\infty$-morphisms. I will also explain how the same framework accommodates the canonical morphism between the $L_\infty$-algebra of observables of a [[n-plectic geometry|pre-$n$-plectic manifold]] and the higher Courant algebra described in “Observables on multisymplectic manifolds and higher Courant algebroids” ([arXiv:2209.05836](https://arxiv.org/abs/2209.05836)). These results appear in the recent preprint “$L_\infty$-morphisms between twisted Courant $r$-Lie algebras and untwisted Courant $(r+1)$-Lie algebroids” ([arXiv:2602.14702](https://arxiv.org/abs/2602.14702)), joint work with [[Domenico Fiorenza]].
+
+  > Time permitting, I will discuss ongoing joint work with Aditya Basu and [[Domenico Fiorenza]] extending this homotopy-fiber perspective from graphs of closed differential forms to general higher [[Dirac structures]], with the aim of constructing natural comparison morphisms between their $L_\infty$-algebras and those of the ambient higher [[Courant algebroids]].
 
 
 \linebreak
