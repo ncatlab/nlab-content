@@ -109,6 +109,8 @@ Discussion of ([[higher derivative correction|higher derivative]]) corrections o
 
 * Claudio Bonati, Michele Caselle, Alessio Negro, Dario Panfalone, Lorenzo Verzichelli: *Confining Flux Tube in the Trace Deformed $(2+1)$ Dimensional $SU(2)$ Gauge Theory* \[<a href="https://arxiv.org/abs/2606.20270">arXiv:2606.20270</a>\]
 
+* [[M. Cristina Diamantini]], [[Fernando Quevedo]], [[Carlo A. Trugenberger]], Luis Zapata: *Universal Confining Strings: From Compact QED to the Hadron Spectrum* \[<a href="arxiv.org/abs/2605.13791">arXiv:2605.13791</a>\]
+
 
 
 
