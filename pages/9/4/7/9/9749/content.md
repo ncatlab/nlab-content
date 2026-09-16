@@ -112,8 +112,8 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
- Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[measurable spaces]] which, in addition, also possess a [[convex space]] structure such that all the algebraic operations of taking finite affine sums of elements is a [[measurable function]].  Moreover, each object in $\mathbf{Meas} \cap \mathbf{Cvx}$
-has enough affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line with the Borel $\sigma$-algebra.  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Moreover, each object in $\mathbf{Meas} \cap \mathbf{Cvx}$
+has enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. These objects are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\widehat{\mathbb{E}_{P}}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
@@ -155,44 +155,44 @@ holds.
 Since $X$ lies in $\mathbf{Meas} \cap \mathbf{Cvx}$ which is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $x \in X$ satisfying, for all affine measurable maps $X \xrightarrow{f} \mathbb{R}_{\infty}$, the equation $J(f)=f(x)$.  
 \end{proof}
 
-Define $\mathbf{Meas}_{Cvx}$ to be the full subcategory of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
+Define $\mathbf{Cvx}_{Meas}$ to be the full subcategory of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
-Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Meas}_{Cvx}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
+Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$. (This is exercise 8.23 in [[Sets for Mathematics]]. The expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
 
 
-\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Meas}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
+\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Cvx}_{Meas}$ consisting of the single object $\mathbb{R}_{\infty}$.
 The functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
-\mathbf{Meas}_{Cvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
-X & \mapsto & hom_{\mathbf{Meas}_{Cvx}}(X, \bullet)
+\mathbf{Cvx}_{Meas}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
+X & \mapsto & hom_{\mathbf{Cvx}_{Meas}}(X, \bullet)
 \end{array}
 \end{equation}
 is a [[full and faithful functor]].
 \end{theorem}
 \begin{proof} 
-In the category $\mathbf{Meas}_{Cvx}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $1 \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
+In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $1 \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
 
 Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
 $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is [[faithful functor]].  
 
 Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.2 - $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
 
-Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Meas}_{Cvx}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is a [[full functor]].
+Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Cvx}_{Meas}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is a [[full functor]].
 \end{proof}
 
 Let $\delta_x$ denote the Dirac measure at $x$.
 
-\begin{corollary} If $X$ is an object in $\mathbf{Meas}_{Cvx}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
+\begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
 \end{corollary}
-\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the [[slice category]] whose objects consist of affine measurable functions $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
-For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Meas}_{Cvx}$ 
+\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the [[slice category]] whose objects consist of affine measurable functions $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
+For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ 
 Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. See Propositions 1 and 2, page 242 of [[CWM]].
 
 Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and [[natural transformation]] components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
-Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Meas}_{Cvx}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Meas}_{Cvx}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas}_{Cvx}$ it follows $\epsilon_X(\delta_x)=x$.
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Cvx}_{Meas}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Cvx}_{Meas}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}_{Meas}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
 
 The defining property of $\epsilon_X$ is that it is the unique affine measurable function such that, for all $f \in \mathbb{R}_{\infty}^X$, the property
@@ -207,7 +207,7 @@ It follows, for each fixed $P \in G(X)$, that $\mathbb{E}_P(id_X)$ is the unique
 
 
 \begin{lemma}
-If $X \in_{ob} \mathbf{Meas}_{Cvx}$ then the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is a $G$-algebra.
+If $X \in_{ob} \mathbf{Cvx}_{Meas}$ then the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is a $G$-algebra.
 \end{lemma}
 \begin{proof} 
 We need to show the following two properties: (1) for all $x \in X$ we have $\mathbb{E}_{\delta_x}(id_X) = x$, and (2)$ \mathbb{E}_{\bullet}(id_X) \circ \mu_X = \mathbb{E}_{\bullet}(id_X) \circ G(\mathbb{E}_{\bullet}(id_X))$.
@@ -227,7 +227,7 @@ which coincides with the left hand side of the required condition.
 
 \end{proof}
 
-\begin{lemma} Let $X \in_{ob} \mathbf{Meas}_{Cvx}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
+\begin{lemma} Let $X \in_{ob} \mathbf{Cvx}_{Meas}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
 We have already noted, for every $P \in G(X)$, that   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \mathbb{E}_P(f)$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -238,14 +238,32 @@ $$
 But both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
+\begin{lemma} The operation of taking an affine sum
+$$ G(X) \times G(X) \xrightarrow{ p \pi_1 + (1-p) \pi_2} G(X)$$
+is a measurable function.
+\end{lemma}
+\begin{proof} Let $U$ be a measurable set in $X$.
+By the pointwise convex space structure of $G(X)$ we have 
+$$
+ev_U \circ p \pi_i + (1-p) \pi_2 = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_u \times ev_U)
+$$
+where $[0,1] \times [0,1] \xrightarrow{p \hat{\pi}_1 + (1-p) \hat{\pi}_2} [0,1]$ is the measurable affine sum on elements of the measurable convex space $[0,1]$, and $G(X) \times G(X) \xrightarrow{ev_U \times ev_U} [0,1] \times [0,1]$ is an affine measurable function because $ev_U$ is an affine measurable function.  Since the right-hand side of the ... (to be finished later)
+\end{proof}
 
-For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Meas}_{Cvx}$ because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
-Moreover, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. (To prove that statement use the fact that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ and Lemma 3.7.)
+\begin{lemma}
+For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Cvx}_{Meas}$.
+\end{lemma}
+\begin{proof} because for every measurable set $U$ in $X$ the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ is an affine measurable map. Since any two distinct probability measures $P, Q \in G(X)$ must differ on at least one measurable set $U$,  $P(U) \ne Q(U)$, it follows that  there are enough affine measurable maps to coseparate elements in $G(X)$.
+Also, for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_f f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. (To prove that statement use the fact that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ and Lemma 3.7.)
+Using the previous lemma it follows by induction on the number of coordinates that the product space has that 
+ every affine sum $\prod_{i=1}^n G(X) \xrightarrow{\prod_{i=1}^n p_i \pi_i} G(X)$ is measurable. 
+\end{proof}
 
-By the preceding remark we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Meas}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Meas}_{Cvx}$. There is also a (partial) ''forgetful functor'' $\mathbf{Meas}_{Cvx}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  
+
+By the preceding lemma we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Cvx}_{Meas}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Cvx}_{Meas}$. There is also a (partial) ''forgetful functor'' $\mathbf{Cvx}_{Meas}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  
 
 \begin{lemma} The affine measurable functions $\mathbb{E}_{\bullet}(id_X)$ are the components of a  [[natural transformation]] 
-$$\mathcal{F} \circ \mathcal{U} \Rightarrow id_{\mathbf{Meas}_{Cvx}}.
+$$\mathcal{F} \circ \mathcal{U} \Rightarrow id_{\mathbf{Cvx}_{Meas}}.
 $$
 \end{lemma}
 \begin{proof}
@@ -258,9 +276,9 @@ It is now easy to verify that $\langle \mathcal{F}, \mathcal{U}, \eta, \mathbb{E
 
  Now apply Beck's [[monadicity theorem]] (Theorem 2.2) to prove that the [[comparison functor]] 
 $$
-\Phi : \mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G
+\Phi : \mathbf{Cvx}_{Meas} \rightarrow \mathbf{Meas}^G
 $$
-is an equivalence. (The monadicity theorem is Theorem 1, page 147 of [[CWM]]. Although see the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] of [[convex spaces]] is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Meas}_{Cvx}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Meas}_{Cvx} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Meas}_{Cvx}$ is equivalent to $\mathbf{Alg}_G$.
+is an equivalence. (The monadicity theorem is Theorem 1, page 147 of [[CWM]]. Although see the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] of [[convex spaces]] is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Cvx}_{Meas}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Cvx}_{Meas} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Cvx}_{Meas}$ is equivalent to $\mathbf{Alg}_G$.
 
   
  
