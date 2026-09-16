@@ -56,7 +56,7 @@ $$
 
 (Compare the [[formal duality|dual notion]] of "[[direct product of groups]]", which are really [[category theory|category theoretic]] *[[products]]* of groups.)
 
-Informally, the "free product" is the group whose elements are [[free construction|freely generated]] form those of the $G_i$, subject only to the relations given by the group operations in each of these groups. 
+Informally, the "free product" is the group whose elements are [[free construction|freely generated]] from those of the $G_i$, subject only to the relations given by the group operations in each of these groups. 
 
 
 More generally, if each of the given groups is equipped with a [[homomorphism]] 
