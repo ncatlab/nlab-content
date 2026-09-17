@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -96,6 +94,11 @@ Review:
 * {#Rognes12} [[John Rognes]], around lemma 4.14, theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 * Joseph Victor, Section 2.4 of _Stable Homotopy Groups of Spheres and The Hopf Invariant One Problem_, 2013 ([pdf](http://mathematics.stanford.edu/wp-content/uploads/2013/08/Victor-Honors-Thesis-2013.pdf))
+
+Via the [[Adams spectral sequence]]:
+
+* [[J. Peter May]]: *A brief note on the Hopf and Kervaire invariant one problems* &lbrack;[arXiv:2609.18942](https://arxiv.org/abs/2609.18942)&rbrack;
+
 
 Comments on the impact of this proof on the development of [[stable homotopy theory]]:
 
