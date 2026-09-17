@@ -25,7 +25,7 @@ More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, 
 
 ## Adjunctions of a set to a field
 
-Let $k$ be a [[field]], let $K$ be a field extension of $k$, and let $S \subseteq K$ be a subset of $K$. $k \subseteq K$ is also a subset of $K$. Then the **adjunction** of $S$ to $k$, or the field **generated** by $S$ over $k$, is the [[initial object|initial]] subfield $k(S) \subseteq K$ such that $k \subseteq K$ and $S \subseteq K$.  
+Let $k$ be a [[field]], let $K$ be a field extension of $k$, and let $S \subseteq K$ be a subset of $K$. $k \subseteq K$ is also a subset of $K$. Then the **adjunction** of $S$ to $k$, or the field **generated** by $S$ over $k$, is the [[initial object|initial]] subfield $k(S) \subseteq K$ such that $k \subseteq k(S)$ and $S \subseteq k(S)$.  
 
 ## Properties
 
