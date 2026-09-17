@@ -147,6 +147,10 @@ On [[symmetric monoidal categories]]:
 
 * Jiasen Liu, [[J. Peter May]], Kyle I. Roke, Hongyi Zhang, Keming Zhou: *What are symmetric monoidal categories?* &lbrack;[arXiv:2607.13912](https://arxiv.org/abs/2607.13912)&rbrack;
 
+On the [[Hopf invariant one problem]] (in view of the [[Kervaire invariant one problem]] via the [[Adams spectral sequence]]:
+
+* [[J. Peter May]]: *A brief note on the Hopf and Kervaire invariant one problems* &lbrack;[arXiv:2609.18942](https://arxiv.org/abs/2609.18942)&rbrack;
+
 
 
 ## Related entries
