@@ -33,6 +33,8 @@ On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
 * Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
 
+* [[Koji Hashimoto]], Hyun-Sik Jeong, Keun-Young Kim, Daichi Takeda, Kwan Yun: *Deep learning emergent spacetime from fermionic spectral functions in holography* &lbrack;[arXiv:2609.18566](https://arxiv.org/abs/2609.18566)&rbrack;
+
 Introducing the [[nuclear matrix model]] for [[baryons]]/[[nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
 
 * {#HashimotoIizukaYi10} [[Koji Hashimoto]], Norihiro Iizuka, Piljin Yi, _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
