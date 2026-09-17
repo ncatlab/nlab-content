@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -51,7 +49,7 @@ and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh0
 
 ### General
 
-* {#Romans86} [[L. J. Romans]], _Massive $N = 2a$ supergravity in ten dimensions_ , Physics Letters B Volume 169, Issue 4, 3 April 1986, Pages 374-380 (<a href="https://doi.org/10.1016/0370-2693(86)90375-8">doi:10.1016/0370-2693(86)90375-8</a>, [spire:17727](http://inspirehep.net/record/17727))
+* {#Romans86} [[L. J. Romans]]: _Massive $N = 2a$ supergravity in ten dimensions_ , Physics Letters B **169** 4 (1986) 374--380 \[<a href="https://doi.org/10.1016/0370-2693(86)90375-8">doi:10.1016/0370-2693(86)90375-8</a>, [spire:17727](http://inspirehep.net/record/17727)\]
 
 * {#Tsimpis05} [[Dimitrios Tsimpis]], _Massive IIA supergravities_, JHEP 0510:057, 2005 ([arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214))
 
@@ -61,7 +59,7 @@ and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh0
 
 As a [[black brane]] the [[D8-brane]] was identified as a solution to [[Romans supergravity]]/[[massive type IIA string theory]] in
 
-* {#BergshoeffdeBooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+* {#BergshoeffdeBooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]]: _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B **470** (1996) 113--135 \[<a href="http://doi.org/10.1016/0550-3213(96)00171-X">doi:10.1016/0550-3213(96)00171-X</a>, [arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150)\]
 
 See also 
 
