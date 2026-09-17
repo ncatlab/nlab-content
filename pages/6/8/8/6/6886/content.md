@@ -35,6 +35,11 @@ On [[Knizhnik-Zamolodchikov equations]] controlling [[codimension]]$=2$ [[defect
 
 * Saebyeok Jeong, Norton Lee, [[Nikita Nekrasov]], *Intersecting defects in gauge theory, quantum spin chains, and Knizhnik-Zamolodchikov equations*,  J. High Energ. Phys. **2021** 120 (2021) &lbrack;[arXiv:2103.17186](https://arxiv.org/abs/2103.17186), <a href="https://doi.org/10.1007/JHEP10(2021)120">doi:10.1007/JHEP10(2021)120</a>&rbrack;
 
+A [[symplectic geometry|symplecto]]/[[Poisson geometry|Poisson]] geometrically organized account of ideal [[relativistic field theory|relativistic]] [[hydrodynamics]]:
+
+* [[Nikita Nekrasov]], Paul Wiegmann: *Fluid dynamics as intersection problem* &lbrack;[arXiv:2512.25053](https://arxiv.org/abs/2512.25053)&rbrack;
+
+
 
 category: people
 
