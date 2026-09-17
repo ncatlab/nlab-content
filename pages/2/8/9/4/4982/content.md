@@ -54,6 +54,14 @@ See also
 
 * [[Alexander Migdal]]: *Geometric Solution of Turbulence as Diffusion in Loop Space* &lbrack;[arXiv:2511.02165](https://arxiv.org/abs/2511.02165)&rbrack;
 
+A [[symplectic geometry|symplecto]]/[[Poisson geometry|Poisson]] geometrically organized account of ideal [[relativistic field theory|relativistic]] hydrodynamics:
+
+* [[Nikita Nekrasov]], Paul Wiegmann: *Fluid dynamics as intersection problem* &lbrack;[arXiv:2512.25053](https://arxiv.org/abs/2512.25053)&rbrack;
+
+
 
 [[!redirects fluid dynamics]]
+
 [[!redirects hydrodynamic]]
+
+
