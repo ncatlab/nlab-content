@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -40,6 +38,10 @@ While the construction exists and behaves as expected in examples, there is to d
 
 
 ## Definition
+
+We indicate the stacky integration method from [FSS12](#FSS12), [dcct12](#dcct13), corrected by [Verdooren 2026](#Verdooren2026).
+
+\linebreak
 
 Throughout, let $\mathfrak{a}$ be an [[∞-Lie algebroid]] (for instance a [[Lie algebra]], or a [[Lie algebroid]] or an [[L-∞-algebra]]). Write 
 
@@ -121,86 +123,8 @@ A $k$-path in $\mathfrak{a}$, def. \ref{kPath}, is equivalently
 
 =--
 
-The Lie integration of $\mathfrak{a}$ is essentially the [[simplicial object]] whose $k$-cells are the $d$-paths in $\mathfrak{a}$. However, in order for this to be well-behaved, it is possible and useful to restrict to $d$-paths that are sufficiently well-behaved towards the [[boundary]] of the simplex:
+The Lie integration of $\mathfrak{a}$ is essentially the [[simplicial object]] whose $k$-cells are the $d$-paths in $\mathfrak{a}$. 
 
-+-- {: .num_defn}
-###### Definition
-
-Regard the smooth simplex $\Delta^k$ as embedded into the [[Cartesian space]] $\mathbb{R}^{k+1}$ in the standard way, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
-
-A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is an [[open neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
-
-More generally, for any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants if there is $0 \lt \epsilon \in \mathbb{R}$ such that for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ is a form with sitting instants on $\epsilon$-[[open neighbourhood|neighbourhood]]s of faces.
-
-Smooth forms with sitting instants clearly form a sub-dg-algebra of all smooth forms. We write $\Omega^\bullet_{si}(U \times \Delta^k)$ for this sub-dg-algebra.
-
-We write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^k \to U$, hence the [[coequalizer]]
-
-$$
-  \Omega^\bullet(U)
-  \stackrel{\stackrel{p^*}{\longrightarrow}}{\underset{0}{\longrightarrow}}
-  \Omega^\bullet_{si}(U \times \Delta^k)
-  \to
-  \Omega^\bullet_{si, vert}(U \times \Delta^k)  
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The dimension of the normal direction to a face depends on the dimension of the face:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
-vertex. 
-
-=--
-
-+-- {: .num_example}
-###### Examples
-
-* A smooth 0-form (a [[smooth function]]) has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it is constant.
-
-  A smooth function $f : U \times \Delta^1 \to \mathbb{R}$ is in $\Omega^0_{\mathrm{vert}}(U \times \Delta^1)$ if there is $0 \lt \epsilon \in \mathbb{R}$ such that for each $u \in U$ the function $f(u,-) : \Delta^1  \simeq [0,1] \to \mathbb{R}$ is constant on $[0,\epsilon) \coprod (1-\epsilon,1)$.
-
-* A smooth 1-form has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it vanishes.
-
-* Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
-
-  $$
-    \phi \colon \Delta^k \to X
-  $$
-
-  be a [[smooth function]] that has [[sitting instants]] as a function: towards any $j$-face of $\Delta^k$ it eventually becomes perpendicularly constant.
-
-  Then the [[pullback of differential forms|pullback]] form $\phi^* \omega \in \Omega^\bullet(\Delta^k)$ is a form with sitting instants.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The condition of sitting instants serves to make smooth differential forms not be affected by the boundaries and corners of $\Delta^k$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{k-1})$ a collection of forms with sitting instants on the $(k-1)$-cells of a [[horn]] $\Lambda^k_i$ that coincide on adjacent boundaries, and for
-
-$$
-  p \colon \Delta^k \to \Lambda^{k-1}_i
-$$
-
-a standard piecewise smooth [[retract]], the [[pullback of differential forms|pullbacks]]
-
-$$
-  p^* \omega_i 
-$$
-
-glue to a single smooth differential form (with sitting instants) on $\Delta^k$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-That $\omega \in \Omega^\bullet(\Delta^k)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^k$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omega$ is allowed to vary parallel to the boundary, just not perpendicular to it.
-
-=--
 
 ### Integration to a discrete $\infty$-groupoid 
  {#IntToBareGrpd}
@@ -262,7 +186,9 @@ $$
 
 This divides out [[n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
 
-$\,$
+
+\linebreak
+
 
 ### Integration to a smooth $\infty$-groupoid 
   {#SmoothIntegration}
@@ -273,6 +199,7 @@ We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupo
 
 
 For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoids]] by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -290,7 +217,7 @@ $$
   \;\colon\;
   (U,[k]) \mapsto 
   Hom_{dgAlg}(CE(\mathfrak{a}), 
-  \Omega^\bullet(U \times \Delta^k)_{si,vert})
+  \Omega^\bullet(U \times \Delta^k)_{vert})
   \,,
 $$
 
@@ -320,38 +247,13 @@ The objects $\exp(\mathfrak{g})$ are indeed [[Kan complexes]] over each $U \in $
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-Observe that the standard [[continuous function|continuous]] [[horn]] [[retracts]] $f : \Delta^k \to \Lambda^k_i$ are [[smooth function|smooth]] away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
-
-For $\omega \in \Omega^\bullet_{si,vert}(U \times \Lambda[k]^i)$ a differential form with sitting instants on $\epsilon$-neighbourhoods, let therefore $K \subset \partial \Delta^k$ be the set of points of distance $\leq \epsilon$ from any subface. Then we have a smooth function 
-
-$$
-  f : \Delta^k \setminus K \to \Lambda^k_i \setminus K
-  \,.
-$$
-
-The [[pullback of differential forms|pullback]] $f^* \omega \in \Omega^\bullet(\Delta^k \setminus K)$ may be extended constantly back to a form with sitting instants on all of $\Delta^k$. 
-
-The resulting assignment
-
-$$
-  (CE(\mathfrak{g}) \stackrel{A}{\longrightarrow} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
-  \mapsto
-  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
-$$
-
-provides fillers for all [[horns]] over all $U \in $ [[CartSp]].
-
-=--
-
 +-- {: .num_defn}
 ###### Definition
 
 Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by postcomposing $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\longrightarrow} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
 
 =--
+
 
 ## Properties
 
@@ -363,13 +265,13 @@ Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by post
 ### Quillen adjunction
  {#QuillenAdjunction}
 
-The [above](#SmoothIntegration) construction of Lie integraton to [[smooth ∞-groupoids]] clearly applies to all [[differential graded-commutative algebras]], not necessarily just those which are [[Chevalley-Eilenberg algebras]] of [[L-∞ algebras]]. (but up to [[weak equivalence]], there is no difference). With this generalization, the higher Lie integration extends to a [[Quillen adjunction]] (Prop. \ref{LieIntegrationIsRightQuillenFunctor} below). In order to state this conveniently, we first make more explicit the [[functor]] assigning smooth families of [[smooth differential forms on simplices]] (Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants} below).
+The [above](#SmoothIntegration) construction of Lie integraton to [[smooth ∞-groupoids]] clearly applies to all [[differential graded-commutative algebras]], not necessarily just those which are [[Chevalley-Eilenberg algebras]] of [[L-∞ algebras]]. (but up to [[weak equivalence]], there is no difference). With this generalization, the higher Lie integration extends to a [[Quillen adjunction]] (Prop. \ref{LieIntegrationIsRightQuillenFunctor} below). In order to state this conveniently, we first make more explicit the [[functor]] assigning smooth families of [[smooth differential forms on simplices]] (Def. \ref{VerticalSmoothDifferentialFormsOnSimplices} below).
 
-$\,$
+\linebreak
 
-+-- {: .num_defn #SmoothDifferentialFormsOnSimplicesWithSittingInstants}
++-- {: .num_defn #VerticalSmoothDifferentialFormsOnSimplices}
 ###### Definition
-**(smooth families of [[smooth differential forms on simplices]] with [[sitting instants]])**
+**(smooth families of vertical [[smooth differential forms on simplices]])**
 
 For $k \in \mathbb{N}$, write $\Delta^k_{mfd}$ for the [[k-simplex]] canonically regarded as a [[smooth manifold with boundaries and corners]].
 
@@ -385,20 +287,10 @@ $$
 
 for the [[subobject|sub-]][[dgc-algebra]] of the [[de Rham algebra]] on the [[vertical differential forms]] with respect to this bundle structure.
 
-Moreover, write
-
-$$
-  \Omega^\bullet_{vert, si}\left(\mathbb{R}^n \times \Delta^k_{mfd}\right)
-  \hookrightarrow
-  \Omega^\bullet_{vert}\left(\mathbb{R}^n \times \Delta^k_{mfd}\right)
-$$
-
-for the further [[subobject|sub-]][[dgc-algebra]] on those [[vertical differential forms]] which have [[sitting instants]] towards the [[boundary]] of the [[k-simplex]].
-
 Via [[pullback of differential forms]] this construction provides a [[functor]]
 
 $$
-  \Omega^\bullet_{vert,si}
+  \Omega^\bullet_{vert}
   \;\colon\;
   CartSp \times \Delta
     \longrightarrow
@@ -437,12 +329,12 @@ between
 given by [[nerve and realization]] with respect to the [[functor]] of [[smooth differential forms on simplices]]
 $  
   CartSp \times \Delta
-    \overset{\Omega^\bullet_{vert,si}}{\longrightarrow}
+    \overset{\Omega^\bullet_{vert}}{\longrightarrow}
   dgcAlg_{\mathbb{R}, conn}^{op}
-$ from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}:
+$ from Def. \ref{VerticalSmoothDifferentialFormsOnSimplices}:
 
 
-1. the [[right adjoint]] $Spec$ sends a [[dgc-algebra]] $A \in dgcAlg_{\mathbb{R},\geq 0}$ to the [[simplicial presheaf]] which in degree $k$ is the set of [[dg-algebra]]-[[homomorphism]] form $A$ into the [[dgc-algebras]] of [[smooth differential forms on simplices]] $\Omega^\bullet_{si,vert}(-)$ (Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}):
+1. the [[right adjoint]] $Spec$ sends a [[dgc-algebra]] $A \in dgcAlg_{\mathbb{R},\geq 0}$ to the [[simplicial presheaf]] which in degree $k$ is the set of [[dg-algebra]]-[[homomorphism]] form $A$ into the [[dgc-algebras]] of [[smooth differential forms on simplices]] $\Omega^\bullet_{vert}(-)$ (Def. \ref{VerticalSmoothDifferentialFormsOnSimplices}):
 
    $$
      Spec(A)
@@ -455,7 +347,7 @@ $ from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}:
      \right)
    $$
 
-1. the [[left adjoint]] $\mathcal{O}$ is the [[Yoneda extension]] of the [[functor]] $\Omega^\bullet_{vert,si} \;\colon\; CartSp \times \Delta \to dgcAlg_{\mathbb{R},conn}^{op}$ assigning [[dgc-algebras]] of [[smooth differential forms on simplices]] from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants},
+1. the [[left adjoint]] $\mathcal{O}$ is the [[Yoneda extension]] of the [[functor]] $\Omega^\bullet_{vert} \;\colon\; CartSp \times \Delta \to dgcAlg_{\mathbb{R},conn}^{op}$ assigning [[dgc-algebras]] of [[smooth differential forms on simplices]] from Def. \ref{VerticalSmoothDifferentialFormsOnSimplices},
 
    hence which acts on a [[simplicial presheaf]] $\mathbf{X} \in [CartSp^{op}, sSet] \simeq [\CartSp^{op} \times \Delta^{op}, Set]$, expanded via the [[co-Yoneda lemma]] as a [[coend]] of [[representable presheaves|representables]], as
 
@@ -474,7 +366,7 @@ $ from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}:
 
 =--
 
-([Braunack-Mayer 18, theorem 3.1.10](#BraunackMayer18))
+([Braunack-Mayer 2018, Thm. 3.1.10](#BraunackMayer18), [Verdooren 2026 §5.2](#Verdooren2026))
 
 
 ## Examples
@@ -781,6 +673,8 @@ Fortunately $A$-homotopies form finite codimensional foliation $F$, even though 
 
 ## References
 
+### Various
+
 The "path method" of integrating Lie algebras to simply connected Lie groups appears in 
 
 * {#DuistermaatKolk00} [[Hans Duistermaat]], J. A. C. Kolk, section 1.14 of _Lie groups_, 2000
@@ -792,7 +686,7 @@ The idea of identifying the [[Sullivan construction]] applied to [[Chevalley-Eil
 
 and for [[nilpotent L-infinity algebras]]:
 
-* {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271-301 &lbrack;[math.AT/0404003](http://arxiv.org/abs/math/0404003)&rbrack;
+* {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics **170** (2009) 271--301 &lbrack;[math.AT/0404003](http://arxiv.org/abs/math/0404003)&rbrack;
 
 whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model, further discussed in
 
@@ -802,23 +696,20 @@ with generalization to [[curved L-infinity algebras|curved $L_\infty$-algebras]]
 
 * [[Victor Roca i Lucio]]: *The integration theory of curved absolute $\mathcal{L}_\infty$ algebras* &lbrack;[arXiv:2209.10282](https://arxiv.org/abs/2209.10282)&rbrack;
 
-
 and generalized to [[positive characteristic]] in:
 
 * [[Victor Roca i Lucio]]: *Higher Lie theory in positive characteristic* &lbrack;[arXiv:2306.07829](https://arxiv.org/abs/2306.07829)&rbrack;
 
+This Lie integration is refined from taking values in bare $\infty$-groupoids to an integration to suitable [[Kan complexes]] in [[Banach manifolds]] by
 
-This Lie integration is refined from taking values in bare $\infty$-groupoids to an integration to [[internal ∞-groupoids]] in [[Banach manifolds]] by
-
-* {#Henriques} [[André Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__  (2008), no. 4, 1017--1045 ([doi](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563))
-
-(whose origin possibly preceeds that of Getzler's article).
+* {#Henriques} [[André Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__ 4  (2008)  1017--1045 &lbrack;[doi:10.1112/S0010437X07003405](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563)&rbrack;
+  > (whose origin possibly preceeds [Getzler 2004](#Getzler04)).
 
 For general [[∞-Lie algebroids]] the general idea of the integration process by "$d$-paths" had been indicated in 
 
-* {#Severa01} [[Pavol Severa]],  _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at _[Poisson 2000](http://www.lpthe.jussieu.fr/~dito/poissongeometry/Poisson2000/index.html)_, [CIRM Marseille Luminy](https://www.cirm-math.fr/), June 2000 ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+* {#Severa01} [[Pavol Ševera]]:  _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at _[Poisson 2000](http://www.lpthe.jussieu.fr/~dito/poissongeometry/Poisson2000/index.html)_, [CIRM Marseille Luminy](https://www.cirm-math.fr/), June 2000 ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
-* Pavol &#352;evera, Michal &#352;ira&#328;, _Integration of differential graded manifolds_, [arxiv/1506.04898](http://arxiv.org/abs/1506.04898)
+* [[Pavol Ševera]], Michal &#352;ira&#328;L _Integration of differential graded manifolds_ &lbrack;[arxiv/1506.04898](http://arxiv.org/abs/1506.04898)&rbrack;
 
 Cast along the lines of [[Lie's third theorem]]:
 
@@ -842,7 +733,6 @@ and following [Duistermaat-Kolk (2000 section 1.14)](#DuistermaatKolk00), as wel
 * {#CattaneoFelder01} [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
 2001), 61&#8211;93. ([arXiv:math/0003023](http://arxiv.org/abs/math/0003023))
  
-
 upgraded to the stacky version by
 
 * {#TZ} Tseng Hsiang-Hua, [[Chenchang Zhu]], _Integrating Lie algebroids via stacks_, Compositio Mathematica, Volume 142 (2006), Issue 01, pp 251-270, [arXiv:math/0405003](http://arxiv.org/abs/math/0405003).
@@ -855,16 +745,6 @@ Obstruction interpreted as transgression of a Lie algebroid fibration by
 
 * {#BZ} Olivier Brahic, [[Chenchang Zhu]], _Lie algebroid fibrations_, Adv. Math. 226 (2011), no. 4, 3105&#8211;3135, [arXiv:1001.4904](http://arxiv.org/abs/1001.4904). 
 
-A description of Lie integration with values in [[smooth ∞-groupoids]] regarded as [[simplicial presheaves]] on [[CartSp]] (and further the Lie integration of [[infinity-Lie algebra cohomology|L-infinity cocycles]]) is in
-
-* {#FSS12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
-
-Essentially the same integration prescription is considered in 
-
-* {#Roytenberg09} [[Dmitry Roytenberg]], _Differential graded manifolds and associated stacks: an overview_ ([pdf](https://sites.google.com/site/dmitryroytenberg/unpublished/dg-stacks-overview.pdf))
-
-
-
 The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ / [[higher parallel transport]] is discussed in
 
 * [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
@@ -876,16 +756,32 @@ Application to the problem of Lie integrating ordinary but infinite-dimensional 
 A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie [[rack]]s has been proposed in
 
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
+
 _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
 
-Integration from Lie algebroids to groupoids is also studied in the dual language and generality of integration of Lie-Reinhart algebras
-and commutative Hopf algebroids,
+Integration from Lie algebroids to groupoids is also studied in the dual language and generality of integration of Lie-Reinhart algebras and commutative Hopf algebroids,
 
 * Alessandro Ardizzoni, Laiachi El Kaoutit, Paolo Saracco, _Towards differentiation and integration between Hopf algebroids and Lie algebroids_, [arXiv:1905.10288](https://arxiv.org/abs/1905.10288)
 
 See also:
 
 * Paolo Antonini, Alessio Giannotta: *On the equivalence of the integrability obstructions for transitive Lie algebroids* &lbrack;[arXiv:2604.01839](https://arxiv.org/abs/2604.01839)&rbrack;
+
+### To smooth $\infty$-groupoids
+ {#ReferencesIntegrationToSmoothInfinityGroupoids}
+
+The path method of higher Lie integration taken to its logical conclusion and understood in full generality as taking values in [[smooth ∞-groupoids]] regarded as [[simplicial presheaves]] on the [[site]] [[CartSp]] (and further the Lie integration of [[infinity-Lie algebra cohomology|$L_\infty$-cocycles]]):
+
+* {#FSS12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]]; Def. 4.2.8 in: _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149--250 &lbrack;[arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [doi:10.4310/ATMP.2012.v16.n1.a5](https://dx.doi.org/10.4310/ATMP.2012.v16.n1.a5)&rbrack;
+
+  > (**Erratum**: The notion of "sitting instants" in [FSS12](#FSS12), [dcct](#dcct13), [BM2018](#BM2018) is badly behaved, but in fact unnecessary and should just be dropped and disregarded; the intended Kan fibrancy follows already without: shown by [Verdooren 2026](#Verdooren2026))
+
+* {#dcct13} [[Urs Schreiber]]: *Exponentiated $\infty$-Lie algebras*, section 4.4.14 in: *[[schreiber:dcct|Differential Cohomology in a Cohesive $\infty$-Topos]]*, Habil thesis, Hamburg (2012) &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
+
+* {#BM2018} [[Vincent Braunack-Mayer]]: *$\infty$-Lie Theory*, section 3.1 in: [[schreiber:thesis Braunack-Mayer|Rational Parameterized Stable Homotopy Theory]], PhD thesis, Zurich (2018) &lbrack;[pdf](/schreiber/files/VBM_RPSHT.pdf)&rbrack;
+
+* {#Verdooren2026} Emilio Verdooren: *Higher Lie Integration*, PhD thesis, Texas Tech (2026) &lbrack;pdf may be available on request&rbrack;
+
 
 
 [[!redirects Lie integrations]]
