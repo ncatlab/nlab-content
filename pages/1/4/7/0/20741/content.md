@@ -186,6 +186,9 @@ Further discussion under the relation of [[renormalization group flow]] to [[bul
 
 * [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
+* [[Koji Hashimoto]], Hyun-Sik Jeong, Keun-Young Kim, Daichi Takeda, Kwan Yun: *Deep learning emergent spacetime from fermionic spectral functions in holography* &lbrack;[arXiv:2609.18566](https://arxiv.org/abs/2609.18566)&rbrack;
+
+
 See also:
 
 * Christian Ferko, [[James Halverson]]: *Quantum Mechanics and Neural Networks* &lbrack;[arXiv:2504.05462](https://arxiv.org/abs/2504.05462)&rbrack;
