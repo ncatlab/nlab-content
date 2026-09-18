@@ -359,11 +359,11 @@ Review:
 
 The role of and the relation to [[duality in string theory]] of the membrane is discussed in the following articles.
 
-Relation to [[T-duality]] is discussed in:
+Relation to [[T-duality]]:
 
-* J.G. Russo, _T-duality in M-theory and supermembranes_ ([arXiv:hep-th/9701188](http://arxiv.org/abs/hep-th/9701188))
+* J. G. Russo, _T-duality in M-theory and supermembranes_ ([arXiv:hep-th/9701188](http://arxiv.org/abs/hep-th/9701188))
 
-* M.P. Garcia del Moral, J.M. Pena, A. Restuccia, _T-duality Invariance of the Supermembrane_ ([arXiv:1211.2434](http://arxiv.org/abs/1211.2434))
+* [[Maria P. Garcia del Moral]], [[Joselene M. Pena]], [[Alvaro Restuccia]]: _T-duality Invariance of the Supermembrane_, Int. J. Geom. Meth. Mod. Phys. **10** (2013) 1360010 &lbrack;[arXiv:1211.2434](http://arxiv.org/abs/1211.2434), [doi:10.1142/S0219887813600104](https://doi.org/10.1142/S0219887813600104)&rbrack;
 
 Relation to [[U-duality]] is discussed in:
 
