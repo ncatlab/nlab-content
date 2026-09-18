@@ -19,7 +19,7 @@
 
 ## Idea
 
-An **identifier** is a particular kind of [[conical limit|conical]] [[2-limit]] in a [[2-category]], which universally renders a 2-cell between a parallel pair of 1-cells equal.
+An **identifier** is a particular kind of [[conical limit|conical]] [[2-limit]] in a [[2-category]], which universally renders a 2-cell between a [[parallel pair]] of 1-cells equal.
 
 ## Related pages
 
