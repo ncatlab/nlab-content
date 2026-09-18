@@ -76,7 +76,7 @@ It is one of the most important examples of a [[Markov category]].
 
 ### Algebras over the Giry Monad  {#algebras_over_the_giry_monad}
 
-Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad has objects $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad, and consists of arrows $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
+Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad which as as objects those [[measurable spaces]] $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad. The morphisms of $\mathbf{Alg}_G$ are those measurable functions $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
    
 If $X$ is any measurable space then the space of probability measures $G{X}$ has a [[convex space]] structure defined pointwise: if $\{P_i\}_{i=1}^{n}$ is finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{n} p_i = 1$, the affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
@@ -193,9 +193,7 @@ In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrigh
 Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
 $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is [[faithful functor]].  
 
-Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then we have $J(f) = \int_X f \, dP \in Im(f)$.
-
-Now let $X_f = \{x \in X \, | \, J(f) = f(x) \}$.  Then $\cap_f X_f \ne \emptyset$ is precisely the fullness property which is satisfied since, by hypothesis, $X$ is an object in $\mathbf{Cvx}_{Meas}$.  Thus there exist an $x \in X$ such that $\mathcal{Y}(x) = ev_x$ and $\mathcal{Y}$ is a [[full functor]].
+Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then, because $X \in_{ob} \mathbf{Cvx}_{Meas}$, it satisfies the fullness property and we have, for all $f \in \mathbb{R}_{\infty}^X$, the property that $J(f) = \mathbb{E}_P(f) \in Im(f)$.  So there exists an element $x_f \in X_f = \{x \in X \, | \, J(f) = f(x) \}$ such that $J(f)=f(x_f)$. But the fullness property says $\cap_f X_f \ne \emptyset$.  Thus there exist an $x \in X$ such that $J(f) = f(x)$ for all $f \in \mathbb{R}_{\infty}^X$ from which it follows that $\mathcal{Y}(x) = ev_x$ and we conclude that $\mathcal{Y}$ is a [[full functor]].
 \end{proof}
 
 Let $\delta_x$ denote the Dirac measure at $x$.
@@ -273,7 +271,7 @@ The fact that $G(f)$ is an affine function follows immediately by the pointwise 
 \end{proof}
 
 
-By the preceding lemma we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Cvx}_{Meas}$, which is the Giry monad (functor) $G$ viewed as a functor into $\mathbf{Cvx}_{Meas}$. There is also a ''forgetful functor'' $\mathbf{Cvx}_{Meas}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  (We are using the terms [[free functor]] and [[forgetful functor]] before we actually show they form an adjoint pair simply because we need to name them.)
+By the preceding lemma we obtain  the ''free functor'' $\mathbf{Meas} \xrightarrow{\mathcal{F}} \mathbf{Cvx}_{Meas}$, which is the Giry monad (functor) $G$ viewed as a functor into $\mathbf{Cvx}_{Meas}$. There is also a ''forgetful functor'' $\mathbf{Cvx}_{Meas}  \xrightarrow{\mathcal{U}} \mathbf{Meas}$ which forgets the convex space structure.  (We are using the terms [[free functor]] and [[forgetful functor]] before we actually show they have adjoints  simply because we need to name them.)
 
 \begin{lemma} Let $X \in_{ob} \mathbf{Cvx}_{Meas}$.  The affine measurable functions $\mathbb{E}_{\bullet}(id_X)$ are the components of a  [[natural transformation]] 
 $$\mathcal{F} \circ \mathcal{U} \Rightarrow id_{\mathbf{Cvx}_{Meas}}.
