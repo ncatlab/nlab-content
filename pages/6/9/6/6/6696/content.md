@@ -13,6 +13,9 @@ Gerardus 't Hooft
 
 * [ResearchGate page](https://www.researchgate.net/profile/Gerard-T-Hooft)
 
+* [[John Iliopoulos]]: *Young Gerard storming high energy physics* &lbrack;[arXiv:2609.20695](https://arxiv.org/abs/2609.20695)&rbrack;
+
+
 
 ## Selected writings
 
