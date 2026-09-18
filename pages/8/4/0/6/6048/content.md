@@ -363,7 +363,7 @@ Relation to [[T-duality]]:
 
 * J. G. Russo, _T-duality in M-theory and supermembranes_ ([arXiv:hep-th/9701188](http://arxiv.org/abs/hep-th/9701188))
 
-* [[Maria P. Garcia del Moral]], [[Joselene M. Pena]], [[Alvaro Restuccia]]: _T-duality Invariance of the Supermembrane_, Int. J. Geom. Meth. Mod. Phys. **10** (2013) 1360010 &lbrack;[arXiv:1211.2434](http://arxiv.org/abs/1211.2434), [doi:10.1142/S0219887813600104](https://doi.org/10.1142/S0219887813600104)&rbrack;
+* [[Maria P. Garcia del Moral]], [[Joselen M. Pena]], [[Alvaro Restuccia]]: _T-duality Invariance of the Supermembrane_, Int. J. Geom. Meth. Mod. Phys. **10** (2013) 1360010 &lbrack;[arXiv:1211.2434](http://arxiv.org/abs/1211.2434), [doi:10.1142/S0219887813600104](https://doi.org/10.1142/S0219887813600104)&rbrack;
 
 Relation to [[U-duality]] is discussed in:
 
