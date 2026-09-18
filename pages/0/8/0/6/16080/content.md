@@ -12,9 +12,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -32,7 +30,7 @@ Discussion by [[defect QFT]] in the context of the [[FRS-formalism]] [[QFT with 
 
 Here in [[FRS-formalism]] a [[2d CFT]] is formalized as a [[boundary field theory]] to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]].
 
-Another discussion involving just these keywords is in
+Another discussion involving these keywords:
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
@@ -48,6 +46,11 @@ Realization in [[lattice field theory]]:
 and simulation on a [[quantum computer]]:
 
 * Sutapa Samanta, Derek S. Wang, Armin Rahmani, Aditi Mitra, *Isolated Majorana mode in a quantum computer from a duality twist* &lbrack;[arXiv:2308.02387](https://arxiv.org/abs/2308.02387)&rbrack;
+
+See also:
+
+* Akash Sinha, Pramod Padmanabhan, Vladimir Korepin: *When Is Kramers-Wannier Duality Invertible?* &lbrack;[arXiv:2609.20090](https://arxiv.org/abs/2609.20090)&rbrack;
+
 
 
 
