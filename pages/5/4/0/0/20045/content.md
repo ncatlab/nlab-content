@@ -44,6 +44,10 @@ On [[non-commutative geometry]] in [[D-brane]] physics and [[Connes-Lott-Chamsed
 
 * [[John Iliopoulos]]: *Gauge Theories and non-Commutative Geometry: A review*, 6th International Conference on New Frontiers in Physics (ICNFP 2017),  EPJ Web Conf. **182** (2018) &lbrack;[doi:10.1051/epjconf/201818202055](https://doi.org/10.1051/epjconf/201818202055)&rbrack;
 
+On [[Gerard 't Hooft]]:
+
+* [[John Iliopoulos]]: *Young Gerard storming high energy physics* &lbrack;[arXiv:2609.20695](https://arxiv.org/abs/2609.20695)&rbrack;
+
   
 
 
