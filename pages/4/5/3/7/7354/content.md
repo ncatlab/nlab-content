@@ -59,9 +59,16 @@ The original article suggesting the relation of [[D=11 supergravity]] to [[strin
 
 * [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)&rbrack;
 
+See also:
+
+* [[Paul S. Aspinwall]]: *Some Relationships Between Dualities in String Theory*, Nucl. Phys. Proc. Suppl. **46** (1996) 30--38 \[<a href="http://doi.org/10.1016/0920-5632(96)00004-7">doi:10.1016/0920-5632(96)00004-7</a>, [arXiv:hep-th/9508154](https://arxiv.org/abs/hep-th/9508154)\]
+
+
 An original article collecting all the weak/strong electric/magnetic dualities:
 
 * [[Mike Duff]], _M-theory (the theory formerly known as strings)_, Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117)&rbrack;
+
+
 
 ### Surveys and lecture notes
 
