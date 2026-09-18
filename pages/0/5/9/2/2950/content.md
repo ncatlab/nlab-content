@@ -39,9 +39,16 @@ Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expr
 * [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
 
 
+A consistency check at the level of [[partition functions]] of [[D-brane charge quantization in K-theory]] in view of the [[duality between M-theory and type IIA string theory]]:
+
+* [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: *A Derivation of K-Theory from M-Theory* \[<a href="https://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
+
+* {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. **6** (2003) 1031--1134 \[<a href="http://doi.org/10.4310/ATMP.2002.v6.n6.a2">doi:10.4310/ATMP.2002.v6.n6.a2</a>, <a href="http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</a>\], summarised in: _A Derivation of K-Theory from M-Theory_ \[<a href="http://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
+
+
 On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
 
-* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)\]
 
 
 On the [[K-theory classification of D-brane charge]]:
