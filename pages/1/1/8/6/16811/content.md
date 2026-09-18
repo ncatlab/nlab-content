@@ -1,4 +1,14 @@
-* [webpage](https://math.berkeley.edu/people/faculty/mina-aganagic)
+
+* [institute page](https://math.berkeley.edu/people/faculty/mina-aganagic)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mina_Aganagi%C4%87)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=162853)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=WuBmzsQAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Mina-Aganagic)
+
 
 ## Selected writings
 
