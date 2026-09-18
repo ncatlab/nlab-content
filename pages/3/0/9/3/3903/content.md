@@ -27,3 +27,5 @@ On [[mirror symmetry]]:
 * [[Paul Aspinwall]], [[Tom Bridgeland]], [[Alastair Craw]], [[Michael Douglas]], Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
 category: people
+
+[[!redirects Paul S. Aspinwall]]
