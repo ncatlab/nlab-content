@@ -16,10 +16,10 @@ Lift of [[T-duality]] from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acti
 
 * [[Maria P. Garcia del Moral]], I. Martin, [[Alvaro Restuccia]], *Nonperturbative $SL(2,\mathbb{Z})$ $(p,q)$-strings manifestly realized on the quantum M2* &lbrack;[arXiv:0802.0573](https://arxiv.org/abs/0802.0573)&rbrack;
 
-* [[Maria P. Garcia del Moral]], [[Joselene M. Pena]], [[Alvaro Restuccia]]: _T-duality Invariance of the Supermembrane_, Int. J. Geom. Meth. Mod. Phys. **10** (2013) 1360010 &lbrack;[arXiv:1211.2434](http://arxiv.org/abs/1211.2434), [doi:10.1142/S0219887813600104](https://doi.org/10.1142/S0219887813600104)&rbrack;
+* [[Maria P. Garcia del Moral]], [[Joselen M. Pena]], [[Alvaro Restuccia]]: _T-duality Invariance of the Supermembrane_, Int. J. Geom. Meth. Mod. Phys. **10** (2013) 1360010 &lbrack;[arXiv:1211.2434](http://arxiv.org/abs/1211.2434), [doi:10.1142/S0219887813600104](https://doi.org/10.1142/S0219887813600104)&rbrack;
 
 
-* [[Maria P. Garcia del Moral]], [[Joselene M. Pena]], [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
+* [[Maria P. Garcia del Moral]], [[Joselen M. Pena]], [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
 
 On [[gauged supergravity|gauged]] [[D=9 supergravity]] from [[SL(2,Z)]]-[[U-duality]] acting on the [[M2-brane]] [[wrapped brane|wrapped]] on a [[torus]]:
 
