@@ -114,7 +114,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 Lemma 3.1 shows that any object in $\mathbf{Alg}_{G}$ lies in both the categories $\mathbf{Meas}$ and $\mathbf{Cvx}$, where $\mathbf{Cvx}$ is the category of [[convex spaces]].  Similarly, any morphism in $\mathbf{Alg}_{G}$ is also a morphism in both  $\mathbf{Meas}$ and $\mathbf{Cvx}$.  An example of such an object is $\mathbb{R}_{\infty}$ which, as a measurable space, is  the one-point compactification of the real-line with the Borel $\sigma$-algebra. As a convex space, $\mathbb{R}_{\infty}$ has the natural convex space structures on the real-line extended by the point $\infty$ with the property that $p r + (1-p) \infty = \infty$ for all $r \in \mathbb{R}$ and all $p \in [0,1)$.
 
- Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function because of the convex space structure on product spaces.   Moreover, we require that each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ must have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. These objects are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function because of the convex space structure on product spaces.   Moreover, we require that each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ must have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  objects of $\mathbf{Meas} \cap \mathbf{Cvx}$ are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 The space $G(X)$ with the pointwise convex space structure and measurable structure is a measurable convex space because
  the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ coseparate any  two distinct probability measures in $G(X)$ and the operation of taking affine sums is a measurable function because
@@ -127,7 +127,7 @@ is a measurable function.  This implies that all finite affine sum operators are
 Let $U$ be a measurable set in $X$. 
 By the pointwise convex space structure of $G(X)$ we have 
 $$
-ev_U \circ \big(p \pi_i + (1-p) \pi_2\big) = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_u \times ev_U)
+ev_U \circ \big(p \pi_i + (1-p) \pi_2\big) = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_U \times ev_U)
 $$
 where $[0,1] \times [0,1] \xrightarrow{p \hat{\pi}_1 + (1-p) \hat{\pi}_2} [0,1]$ is the measurable affine sum on elements of the measurable convex space $[0,1]$, and $G(X) \times G(X) \xrightarrow{ev_U \times ev_U} [0,1] \times [0,1]$ is an affine measurable function because $ev_U$ is an affine measurable function.  Since the right-hand side of the equation is measurable it follows, for every measurable set $W$ of $[0,1]$, that
 $$
@@ -135,10 +135,10 @@ $$
 $$
 This last equation is true for all measurable sets $U$ in $X$, and since the affine measurable functions $ev_U$ generate the initial $\sigma$-algebra on $G(X)$ it follows that the function $(p \pi_i + (1-p) \pi_2)$ is measurable.
 
-The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.
+The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum is uniquely defined by $n-1$ parameters the result follows.
 \end{proof}
 
-Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\widehat{\mathbb{E}_{P}}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \widehat{\mathbb{E}_{P}}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
+Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\hat{\mathbb{E}}_{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\hat{\mathbb{E}}_{P}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
 
 Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.
 
@@ -147,13 +147,13 @@ Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}
 \phi \big( J(f) \big) = J(\phi \circ f)
 \end{equation}
 which implies that $J$ is (1) weakly averaging, and (2) for all $\lambda \in \mathbb{R}$:  $J(\lambda \cdot f) = \lambda \cdot J(f)$.
-Moreover, just as in the identification of $G(X)$ with the functional space consisting of all weakly averaging linear functionals $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\widehat{\mathbb{E}_{P}}} \mathbb{R}_{\infty}$, which uses the $\mathbb{R}$-linear vector space structure of the hom set and $\mathbb{R}_{\infty}$, we require the $\mathbb{R}_{\infty}$-generalized points to satisfy the linearity  property that $J(\alpha f + \beta g) = \alpha J(f) + \beta J(g)$.
+Moreover, just as in the identification of $G(X)$ with the functional space consisting of all weakly averaging linear functionals $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\hat{\mathbb{E}}_{P}} \mathbb{R}_{\infty}$, which uses the $\mathbb{R}$-linear vector space structure of the hom set and $\mathbb{R}_{\infty}$, we require the $\mathbb{R}_{\infty}$-generalized points to satisfy the linearity  property that $J(\alpha f + \beta g) = \alpha J(f) + \beta J(g)$.
 (Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. Weakly averaging functions are also defined there.)
 
-Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\widehat{ \mathbb{E}_P}$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
+Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\hat{ \mathbb{E}}_P$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
 $\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$, and the linearity property of $\mathbb{E}_P$.
 
-The converse of the above statement is also true.
+Since we are restricting the operators $\hat{\mathbb{E}}_{P}$ to operate only on affine measurable functions, yielding the operators $\mathbb{E}_P$, we have
 \begin{lemma}
   If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
 \end{lemma}
@@ -162,7 +162,7 @@ Let $X$ be an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  We have the inclusio
 $$
 \mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear} \xrightarrow{\mathbb{R}_{\infty}^{\iota}} \mathbb{R}_{\infty}^{hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})}|_{\mathbb{R}_{\infty}-generalized pt}
 $$
-which is a surjective function. (The conditions on both functional spaces are identical: the elements are weakly averaging and linear.) This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ defined by $\widehat{\mathbb{E}_P} \cong \widehat{\mathbb{E}_Q}$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\widehat{\mathbb{E}_P}$, which in turn arises from the probability measure $P$ on $X$.
+which is a surjective function. (The conditions on both functional spaces are identical: the elements are weakly averaging and linear.) This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ defined by $\hat{\mathbb{E}}_P \cong \hat{\mathbb{E}}_Q$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\hat{\mathbb{E}}_P$, which in turn arises from the probability measure $P$ on $X$.
 \end{proof}
 
 
@@ -215,11 +215,11 @@ The defining property of $\epsilon_X$ is that it is the unique affine measurable
 $$ 
 f \circ \epsilon_X = \mathbb{E}_{\bullet}(id_X) \circ G(f) = \mathbb{E}_{\bullet}(f)
 $$
-holds.  For each fixed $P \in G(X)$, by properties of the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P(\bullet)} \mathbb{R}_{\infty}$ it follows that $\epsilon_X = \mathbb{E}_{\bullet}(id_X)$, and we henceforth use the notation $\mathbb{E}_{\bullet}(id_X)$ for the unique affine measurable function $G(X) \rightarrow X$ satisfying the defining  property
+holds. In the special case of $X = \mathbb{R}_{\infty}$ or, more generally for $X$ a closed convex subset of $\mathbb{R}^n$  it follows that for each fixed $P \in G(X)$ that $\epsilon_X(P) = \mathbb{E}_{P}(id_X)$. Henceforth we use the notation $\mathbb{E}_{\bullet}(id_X)$ for the unique affine measurable function $G(X) \rightarrow X$ such that, for each fixed $P \in G(X)$,  the property
 $$
-f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(f) \quad \forall f \in \mathbb{R}_{\infty}^X.
+f \big( \mathbb{E}_P(id_X)\big) = \mathbb{E}_P(f) \quad \quad \forall f \in \mathbb{R}_{\infty}^X
 $$
-It follows, for each fixed $P \in G(X)$, that $\mathbb{E}_P(id_X)$ is the unique point in $X$ such that $f \big( \mathbb{E}_P(id_X)\big) = \mathbb{E}_P(f)$ for every $f \in \mathbb{R}_{\infty}^X$.
+holds. In other words, by definition,  $\mathbb{E}_P(id_X)$ is the unique point in $X$ such that the preceding equation holds.
 
 
 \begin{lemma}
@@ -251,7 +251,7 @@ That equation is equivalent to the statement
 $$
 f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f).
 $$
-But, by the preceding lemma, both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
+But since both $X$ and $\mathbb{R}_{\infty}$ are objects in $\mathbf{Cvx}_{Meas}$ it follows by  Lemma 3.6 that both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $f$ is a morphism of those algebras.
 \end{proof}
 
 
@@ -259,7 +259,7 @@ But, by the preceding lemma, both $\mathbb{E}_{\bullet}(id_X)$ and $\mathbb{E}_{
 \begin{lemma}
 For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Cvx}_{Meas}$.  For every measurable function $X \xrightarrow{f} Y$ the pushforward map $G(f)$ is an affine measurable function.
 \end{lemma}
-\begin{proof} By Lemma 3.2 $G(X)$ is a measurable convex space. We need to show it also satisfies the fullness property.
+\begin{proof} By Lemma 3.2 and the paragraph preceding that lemma we know that $G(X)$ is a measurable convex space. We need to show it also satisfies the fullness property.
 
 First note that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ because we have, for every measurable set $U$ in $X$, the property that
 $$
