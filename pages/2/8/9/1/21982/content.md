@@ -121,6 +121,50 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
+#### For orbifolds in equivariant K-theory
+
+{#ChargeInEquivariantKTheory} The proposal that D-brane charge on [[orbifolds]] is measured in [[equivariant K-theory]] ([[orbifold K-theory]]) goes back to 
+
+* [Witten 98, section 5.1](#Witten98) 
+
+It was pointed out that only a subgroup of equivariant K-theory can be physically relevant in
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of:  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+Further discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
+
+* Hugo García-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
+
+* [[Matthias Gaberdiel]], [[Bogdan Stefanski]], _Dirichlet Branes on Orbifolds_, Nucl.Phys.B578:58-84, 2000 ([arXiv:hep-th/9910109](https://arxiv.org/abs/hep-th/9910109))
+
+* [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int. J. Mod. Phys. A **23** (2008) 933-974 \[<a href="https://arxiv.org/abs/hep-th/0703122">arXiv:hep-th/0703122</a>\]
+
+* [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun.Math.Phys.294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
+
+Discussion of [[real K-theory]] for D-branes on [[orientifolds]] includes the following:
+
+The original observation that [[D-brane charge]] for [[orientifolds]] should be in [[KR-theory]] is due to
+
+* [Witten 98, section 5](#Witten98)
+
+and was then re-amplified in
+
+* {#Gukov99} [[Sergei Gukov]]: _K-Theory, Reality, and Orientifolds_, Commun. Math. Phys. **210** (2000) 621--639 &lbrack;[arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042), [doi:10.1007/s002200050793](https://doi.org/10.1007/s002200050793)&rbrack;
+
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+
+With further developments in 
+
+* [[Varghese Mathai]], [[Michael Murray]], [[Daniel Stevenson]], _Type I D-branes in an H-flux and twisted KO-theory_, JHEP 0311 (2003) 053 ([arXiv:hep-th/0310164](https://arxiv.org/abs/hep-th/0310164))
+
+Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO-theory]] is in
+
+* N. Quiroz, [[Bogdan Stefanski]], _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
+
+* [[Volker Braun]], [[Bogdan Stefanski]], _Orientifolds and K-theory_ ([arXiv:hep-th/0206158](https://arxiv.org/abs/hep-th/0206158))
+
+* H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
+
 
 #### Reviews
 
@@ -190,7 +234,7 @@ based on
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in [Szabo 2002](#Szabo2002).
 
 
-### How to measure D-brane charge
+#### How to measure D-brane charge
 
 Often quoted is the statement:
 
@@ -253,63 +297,24 @@ Then there is the fundamental problem that the K-theory conjecture ignores/contr
 
 
 
-#### For orbifolds in equivariant K-theory
 
-{#ChargeInEquivariantKTheory} The proposal that D-brane charge on [[orbifolds]] is measured in [[equivariant K-theory]] ([[orbifold K-theory]]) goes back to 
+#### Relation to M-theory
 
-* [Witten 98, section 5.1](#Witten98) 
+Discussion of the putative K-theory classification of D-brane charge in relation to [[supergravity C-field|C-field]] and [[M-theory]] under [[duality between M-theory and type IIA string theory]]:
 
-It was pointed out that only a subgroup of equivariant K-theory can be physically relevant in
+A consistency check at the level of [[partition functions]]:
 
-* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of:  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
-
-Further discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
-
-* Hugo García-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
-
-* [[Matthias Gaberdiel]], [[Bogdan Stefanski]], _Dirichlet Branes on Orbifolds_, Nucl.Phys.B578:58-84, 2000 ([arXiv:hep-th/9910109](https://arxiv.org/abs/hep-th/9910109))
-
-* [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int. J. Mod. Phys. A **23** (2008) 933-974 \[<a href="https://arxiv.org/abs/hep-th/0703122">arXiv:hep-th/0703122</a>\]
-
-* [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun.Math.Phys.294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
-
-Discussion of [[real K-theory]] for D-branes on [[orientifolds]] includes the following:
-
-The original observation that [[D-brane charge]] for [[orientifolds]] should be in [[KR-theory]] is due to
-
-* [Witten 98, section 5](#Witten98)
-
-and was then re-amplified in
-
-* {#Gukov99} [[Sergei Gukov]]: _K-Theory, Reality, and Orientifolds_, Commun. Math. Phys. **210** (2000) 621--639 &lbrack;[arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042), [doi:10.1007/s002200050793](https://doi.org/10.1007/s002200050793)&rbrack;
-
-* {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
-
-With further developments in 
-
-* [[Varghese Mathai]], [[Michael Murray]], [[Daniel Stevenson]], _Type I D-branes in an H-flux and twisted KO-theory_, JHEP 0311 (2003) 053 ([arXiv:hep-th/0310164](https://arxiv.org/abs/hep-th/0310164))
-
-Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO-theory]] is in
-
-* N. Quiroz, [[Bogdan Stefanski]], _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
-
-* [[Volker Braun]], [[Bogdan Stefanski]], _Orientifolds and K-theory_ ([arXiv:hep-th/0206158](https://arxiv.org/abs/hep-th/0206158))
-
-* H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
-
-
-Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field|C-field]] is in
+* [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: *A Derivation of K-Theory from M-Theory* \[<a href="https://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
 
 * {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. **6** (2003) 1031--1134 \[<a href="http://doi.org/10.4310/ATMP.2002.v6.n6.a2">doi:10.4310/ATMP.2002.v6.n6.a2</a>, <a href="http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</a>\], summarised in: _A Derivation of K-Theory from M-Theory_ \[<a href="http://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
 
-See also:
+Discussion of [[double dimensional reduction]] of the [[supergravity C-field]] in 11d to the expected [[B-field]] and [[RR-field]] [[flux]]  forms in 10d:
+
+* {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and $E_8$ Gauge Theory_, JHEP 0403:016 (2004) \[<a href="http://arxiv.org/abs/hep-th/0312033">arXiv:hep-th/0312033</a>\]
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, **114** (2017) 91--108 \[<a href="http://dx.doi.org/10.1016/j.geomphys.2016.11.024">doi:10.1016/j.geomphys.2016.11.024</a>, [arXiv:1606.03206](http://arxiv.org/abs/1606.03206)\]
+
+Relation to [[F-theory]]:
 
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008,2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
-
-
-More complete discussion of [[double dimensional reduction]] of the [[supergravity C-field]] in 11d to the expected [[B-field]] and [[RR-field]] [[flux]]  forms in 10d:
-
-* {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and $E_8$ Gauge Theory_, JHEP0403:016,2004 ([arXiv:hep-th/0312033](http://arxiv.org/abs/hep-th/0312033))
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 April 2017 ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024))
 
