@@ -258,11 +258,20 @@ On an [[algorithm]] for constructing [[S-duality|S-dual]] [[quiver gauge theorie
 * Riccardo Comi, Chiung Hwang, Fabio Marino, [[Sara Pasquetti]], Matteo Sacchi, *The $SL(2, \mathbb{Z})$ dualization algorithm at work* &lbrack;[arXiv:2212.10571](https://arxiv.org/abs/2212.10571)&rbrack;
 
 
+### In 9D supergravity
+
+On $SL_2$ S-duality in [[D=9 supergravity]]:
+
+* [[Patrick Meessen]], [[Tomás Ortín]]: *An $Sl(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories*,  Nucl. Phys. B **541** (1999) 195--245 \[<a href="https://doi.org/10.1016/S0550-3213(98)00780-9">doi:10.1016/S0550-3213(98)00780-9</a>, [arXiv:hep-th/9806120](https://arxiv.org/abs/hep-th/9806120)\]
+
+* Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
 
 
-### In type II superstring theory
 
-The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type II superstring theory]] goes back to
+
+### In 10D type IIB superstring theory
+
+The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type IIB superstring theory]] goes back to
 
 * [[John Schwarz]], [[Ashoke Sen]]: _Duality Symmetries Of $4D$ Heterotic Strings_, Phys. Lett. B **312** (1993) 105--114 \[<a href="http://doi.org/10.1016/0370-2693(93)90495-4">doi:10.1016/0370-2693(93)90495-4</a>, [arXiv:hep-th/9305185](https://arxiv.org/abs/hep-th/9305185)\] 
 
