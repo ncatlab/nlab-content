@@ -10,7 +10,7 @@
 =--
 
 
-This page collects material related to the book collection
+This page is to record the reference:
 
 * [[Mike Duff]]:
 
@@ -30,7 +30,7 @@ that collects and comments key articles in the (pre-)history of [[M-theory]] ([[
 
 See also
 
-* [[Edward Witten]],  _[[String Theory Dynamics In Various Dimensions]]_,  Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* [[Edward Witten]]:  _[[String Theory Dynamics In Various Dimensions]]_,  Nucl. Phys. B **443** (1995) 85--126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)&rbrack;
 
 For related texts see at _[[books about string theory]]_.
 
