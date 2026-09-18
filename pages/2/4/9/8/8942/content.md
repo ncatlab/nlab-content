@@ -75,7 +75,9 @@ On M9-branes (and apparently introducing that terminology) as lifts of the [[D8-
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], (4.8) in: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
-* [[Eric Bergshoeff]], [[Jan Pieter van der Schaar]], *On M-9-branes*, Class. Quant. Grav. **16** (1999) 23-39 &lbrack;[arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069), [doi:10.1088/0264-9381/16/1/002](https://doi.org/10.1088/0264-9381/16/1/002)&rbrack;
+* [[Eric Bergshoeff]], [[Jan Pieter van der Schaar]], *On M-9-branes*, Class. Quant. Grav. **16** (1999) 23--39 &lbrack;[arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069), [doi:10.1088/0264-9381/16/1/002](https://doi.org/10.1088/0264-9381/16/1/002)&rbrack;
+
+* [[Patrick Meessen]], [[Tomás Ortín]]: *An $SL(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories*, Nucl. Phys. B **541** (1999) 195--245 \[<a href="http://doi.org/10.1016/S0550-3213(98)00780-9">doi:10.1016/S0550-3213(98)00780-9</a>, [arXiv:hep-th/9806120](https://arxiv.org/abs/hep-th/9806120)\]
 
 Further discussion:
 
