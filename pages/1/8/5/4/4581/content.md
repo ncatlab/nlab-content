@@ -13,9 +13,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -743,9 +743,11 @@ Chapter 2 (Lagrangian Theory of Classical Fields) in
 
 * {#Deligne99} [[Pierre Deligne]], [[Daniel S. Freed]], _Classical Field Theory_, In: _[[Quantum Fields and Strings]]: A Course for Mathematicians_, Volume I, ISBN: 0-8218-1198-3.
 
-An introduction is in 
+Introduction:
 
-* [[Ian Anderson]], _Introduction to the variational bicomplex_, in _Mathematical aspects of classical field theory_, Contemp. Math. 132 (1992) 51–73, [PDF](https://digitalcommons.usu.edu/mathsci_facpub/32/).
+* [[Ian Anderson]]: _Introduction to the variational bicomplex_, in: _Mathematical aspects of classical field theory_, Contemp. Math. **132** (1992) 51--73 &lbrack;[doi:10.1090/conm/132/1188434](https://doi.org/10.1090/conm/132/1188434), [pdf](https://digitalcommons.usu.edu/mathsci_facpub/32/), [pdf](https://scispace.com/pdf/introduction-to-the-variational-bicomplex-3vmu5bm2g3.pdf)&rbrack;
+
+See also:
 
 * Toru Tsujishita, _Formal geometry of systems of differential equations_, Sugaku Expositions 3:1 (1990), 25–73. [PDF](https://dmitripavlov.org/scans/tsujishita-formal-geometry-of-systems-of-differential-equations.pdf).  Japanese original: 辻下 徹. [微分方程式系の形式幾何学](https://doi.org/10.11429/sugaku1947.35.332). 数学 35:4 (1983), 332–357.  
 
@@ -759,7 +761,7 @@ Textbook accounts include
 
 * {#Olver86} [[Peter Olver]], section 5.4 of: *Applications of Lie groups to differential equations*, Graduate Texts in Mathematics **107**, Springer (1986, 1993) &lbrack;[doi:10.1007/978-1-4612-4350-2](https://doi.org/10.1007/978-1-4612-4350-2)&rbrack;
 
-* {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
+* {#Anderson89} [[Ian Anderson]]: _The variational bicomplex_, Utah State University (1989) &lbrack;[[AndersonVariationalBicomplex.pdf:file]]&rbrack;
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
  
@@ -772,7 +774,7 @@ Other surveys include
 
 An early discussion with application to [[covariant phase spaces]] and their [[presymplectic structure]] is in
 
-* {#Zuckerman87} [[Gregg Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
+* {#Zuckerman87} [[Gregg J. Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.): *Mathematical Aspects of String Theory*, World Scientific (1987) 259--284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/9789812798411_0013](http://doi.org/10.1142/9789812798411_0013)&rbrack;
 
 
 An invariant version (under group action) is in
@@ -797,7 +799,7 @@ Discussion in the context of [[supergeometry]] is in
 
 Discussion in the convenient context of [[smooth sets]]:
 
-* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §5.1 & §7.1 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]]; §5.1 & §7.1 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, J. Geom. Phys. **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
 
 [[!redirects horizontal derivative]]
