@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -66,9 +65,25 @@ Many physical fields are related to tensor fields, but few are genuinely tensor 
 
 ## References
 
-The traditional idea of field bundle is discussed for instance around section 4.5.3 of 
 
-* Laurent Claessens, _Field theory from a bundle point of view_ (2011) ([pdf](https://laurent.claessens-donadello.eu/pdf/lectures.pdf)).
+The traditional idea of field bundle: 
+
+* Laurent Claessens; §4.5.3 in: _Field theory from a bundle point of view_, in: Proceedings of the *First Modave Summer School in Mathematical Physics*, International Solvay Institute (2005) 1--47 &lbrack;[pdf](https://laurent.claessens-donadello.eu/pdf/lectures.pdf), [[Claessens-FieldTheory.pdf|pdf:file]], [scribd](https://www.scribd.com/document/401585331/Modave2005-pdf)&rbrack;
+
+In the context of [[variational calculus]] and the [[variational bicomplex]]:
+
+* {#Zuckerman87} [[Gregg J. Zuckerman]]; §1 in: *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.): *Mathematical Aspects of String Theory*, World Scientific (1987) 259--284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/9789812798411_0013](http://doi.org/10.1142/9789812798411_0013)&rbrack;
+
+* {#Anderson89} [[Ian Anderson]]; p. ix of: _The variational bicomplex_, Utah State University (1989) &lbrack;[[AndersonVariationalBicomplex.pdf:file]]&rbrack;
+
+* [[Ian Anderson]]; §2 of: _Introduction to the variational bicomplex_, in: _Mathematical aspects of classical field theory_, Contemp. Math. **132** (1992) 51--73 &lbrack;[doi:10.1090/conm/132/1188434](https://doi.org/10.1090/conm/132/1188434), [pdf](https://digitalcommons.usu.edu/mathsci_facpub/32/), [pdf](https://scispace.com/pdf/introduction-to-the-variational-bicomplex-3vmu5bm2g3.pdf)&rbrack;
+
+
+
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]; (1) in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, J. Geom. Phys. **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
+  > (via [[smooth sets]])
+
 
 Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanton sector]]/[[principal bundle]]-class is around section 2.5 of 
 
