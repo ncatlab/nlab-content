@@ -39,4 +39,12 @@ On [[Einstein-Yang-Mills-Dirac theory]]:
 
 * {#FinsterSmollerYau02} [[Felix Finster]], [[Joel Smoller]], [[Shing-Tung Yau]], _Absence of Static, Spherically Symmetric Black Hole Solutions for Einstein-Dirac-Yang/Mills Equations with Complete Fermion Shells_, Adv. Theor. Math. Phys. **4**, pp. 1231-1257 (2002) &lbrack;[arXiv:gr-qc/0005028](https://arxiv.org/abs/gr-qc/0005028)&rbrack;
 
+On [[globally hyperbolic spacetimes]]:
+
+* [[Felix Finster]], Albert Much, Kyriakos Papadopoulos: *On Global Hyperbolicity of Spacetimes: Some Recent Advances and Open Problems*, in: *Mathematical Analysis in Interdisciplinary Research*, Optimization and Its Applications **179**, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-84721-0_15">doi:10.1007/978-3-030-84721-0_15</a>, [arXiv:2107.07156 math.DG](https://arxiv.org/abs/2107.07156)\]
+
+
+
+
+
 category: people
