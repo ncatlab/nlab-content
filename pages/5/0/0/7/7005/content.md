@@ -486,6 +486,8 @@ This implies the usual version of univalence either through [[identification eli
 
   * [[propositional extensionality]]
 
+* [[equivalence induction]]
+
 * contrary to univalence is the [[axiom UIP]]
 
 * [[directed univalence axiom]]
