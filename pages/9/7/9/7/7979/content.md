@@ -320,6 +320,15 @@ On the Maxwell [[Green's function]] ([[propagator]]) and numerical solutions:
 * Boris Lo, Victor Minden, Phillip Colella, *A real-space Green's function method for the numerical solution of Maxwell's equations*,  **11** 2 (2016) 143–170 &lbrack;[doi:10.2140/camcos.2016.11.143](https://doi.org/10.2140/camcos.2016.11.143), [pdf](https://msp.org/camcos/2016/11-2/camcos-v11-n2-p01-s.pdf)&rbrack;
 
 
+On the [[Cauchy problem]] for Maxwell's equations (and variants) on [[globally hyperbolic spacetime|globally hyperboloc]] [[curved spacetimes]]:
+
+* [[Nicolas Ginoux]], Olaf Müller: *Global solvability of massless Dirac-Maxwell systems*, Annales de l'Institut Henri Poincaré C, Analyse non linéaire **35** 6 (2018) 1645--1654 \[<a href="http://doi.org/10.1016/j.anihpc.2018.01.005">doi:10.1016/j.anihpc.2018.01.005</a>, [arXiv:1407.1177 math.AP](https://arxiv.org/abs/1407.1177)\]
+
+* Nicoló Drago, [[Nicolas Ginoux]], Simone Murro: *On the Cauchy problem for the Faraday tensor on globally hyperbolic manifolds with timelike boundary*, Atti Accad. Naz. Lincei Cl. Sci. Fis. Mat. Natur. **34** 4 (2023) 809--829 \[<a href="https://doi.org/10.4171/RLM/1029">doi:10.4171/RLM/1029</a>, [arXiv:2306.06896 math.AP](https://arxiv.org/abs/2306.06896)\]
+
+
+
+
 
 [[!include electromagnetism in terms of differential forms -- references]]
 
