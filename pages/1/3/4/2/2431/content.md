@@ -825,20 +825,20 @@ The spectrum Brown-representing a [[multiplicative cohomology theory]] inherits 
 
 The original version of the theorem:
 
-* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962) ([jstor:1970209](https://www.jstor.org/stable/1970209))
+* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series **75** (1962) 467--484 &lbrack;[doi:10.2307/1970209](https://doi.org/10.2307/1970209), [jstor:1970209](https://www.jstor.org/stable/1970209)&rbrack;
 
 The category-theoretic generalization:
 
-* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
+* {#Brown65} [[Edgar Brown]]: _Abstract homotopy theory_, Trans. AMS **119** 1 (1965) &lbrack;[doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6)&rbrack;
 
 
 A simplified version of the proof was spelled out in 
 
-* {#Spanier66} [[Edwin Spanier]], section 7.7 of _Algebraic topology_, McGraw-Hill, 1966
+* {#Spanier66} [[Edwin Spanier]]; section 7.7 of: _Algebraic topology_, McGraw-Hill (1966)
 
 and a strengthening in
 
-* {#Adams71} [[John Frank Adams]], _A variant of E. H. Brown's representability theorem_, Topology, 10:185-198, 1971
+* {#Adams71} [[John Frank Adams]]: _A variant of E. H. Brown's representability theorem_, Topology **10** (1971) 185--198
 
 Textbook accounts:
 
