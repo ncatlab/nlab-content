@@ -184,6 +184,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 * [[L-infinity algebras in physics]]
 
 
+
 ## References
 
 > See also the references at _[[Dirac charge quantization]]_ at *[[gauge potential]]*.
@@ -205,11 +206,12 @@ Further discussion and review:
 
 * L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific (2000) &lbrack;[doi:10.1142/2524](https://doi.org/10.1142/2524)&rbrack;
 
-
 * Luciano Boi, _Geometrical and topological foundations of theoretical physics: From gauge theories to string program_, 2003 ([pdf](http://www.emis.de/journals/HOA/IJMMS/2004/33-361777.pdf))
 
-
 * [[Mikio Nakahara]]: *[[Geometry, Topology and Physics]]*, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
+
+* Laurent Claessens: _Field theory from a bundle point of view_, in: Proceedings of the *First Modave Summer School in Mathematical Physics*, International Solvay Institute (2005) 1--47 &lbrack;[pdf](https://laurent.claessens-donadello.eu/pdf/lectures.pdf), [[Claessens-FieldTheory.pdf|pdf:file]], [scribd](https://www.scribd.com/document/401585331/Modave2005-pdf)&rbrack;
+  > (mentions the notion of *[[field bundle]]* in §4.5.3)
 
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_,  Lecture Notes in Physics, Springer (2008) &lbrack;[pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)&rbrack;
