@@ -17,9 +17,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -328,7 +328,7 @@ _Differential geometry and the calculus of variations_, Acad. Press 1968
 
 * J. Jost, X. Li-Jost, _Calculus of variations_, CUP 1998
 
-* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259–284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman87} [[Gregg J. Zuckerman]]: *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.): *Mathematical Aspects of String Theory*, World Scientific (1987) 259--284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/9789812798411_0013](http://doi.org/10.1142/9789812798411_0013)&rbrack;
  
 
 Zuckerman's ideas are used in
@@ -365,7 +365,7 @@ In the [[covariant phase space]]-perspective:
 
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, J. Geom. Phys. **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
 
 ### By functorial analysis and $\mathcal{D}$-geometry
@@ -378,11 +378,11 @@ A formalism for variational calculus based on [[functorial analysis]] (with a pr
 
 The formulation of variational calculus in terms of [[diffeological spaces]] is mentioned for instance in section 1.65 of
 
-* [[Patrick Iglesias-Zemmour]], _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf#page=64))
-{#PIZ}
+* {#PIZ}[[Patrick Iglesias-Zemmour]], _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf#page=64))
 
-* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([arXiv:1010.3210](http://arxiv.org/abs/1010.3210)), sec. 2.4
-{#Paugam}
+
+* {#Paugam} [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([arXiv:1010.3210](http://arxiv.org/abs/1010.3210)), sec. 2.4
+
 
 following section 2.3.20 of 
 
