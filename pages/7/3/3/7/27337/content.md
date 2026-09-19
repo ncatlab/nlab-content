@@ -236,6 +236,28 @@ It is clear that type variables are needed, since otherwise the second requireme
 
 Similar requirements of type variables apply to the large recursion principles of more general recursive inductive types like [[W-types]]. 
 
+### Equivalence induction
+
+An alternative to the [[univalence axiom]] which does not need a prior notion of [[identity type#IdentityTypesBetweenTypes|identity types between types]] in polymorphic dependent type theory is [[equivalence induction]]. Traditionally, equivalence induction is formulated using universes, such as in Corollary 5.8.5 of the [[HoTT Book]]. However, with type variables, one can express equivalence induction without using universes. 
+
+Like the induction principle of identity types, there are two versions of equvialence induction, the standard (Martin-Lof) equivalence induction and the based (Paulin-Mohrung) equivalence induciton. 
+
+\begin{definition}
+The (based Paulin-Mohrung style) equivalence induction states that given type $A$ and a type family $P(X, e)$ indexed by type $X$ and equivalence $e:A \simeq X$, and an element $T:P(A, \mathrm{idequiv}_A)$, for all types $X$ and $e:A \simeq X$ one can construct an element $\mathrm{ind}_\simeq^P(T, X, e):P(X, e)$ such that $T = \mathrm{ind}_\simeq^P(T, A, \mathrm{idequiv}_A)$. 
+\end{definition}
+
+With [[impredicative polymorphism]], one can also express the standard equivalence induction without using universes.
+
+\begin{definition}
+The (standard Martin-Lof style) equivalence induction states that given a type family $P(X, Y, e)$ indexed by types $X$ and $Y$ and equivalence $e:X \simeq Y$, and an element $T:\Pi A.P(A, A, \mathrm{idequiv}_A)$, for all types $X$, $Y$, and equivalences $e:X \simeq Y$ one can construct an element $\mathrm{ind}_\simeq^P(T, X, Y, e):P(X, Y, e)$ such that $T(X) = \mathrm{ind}_\simeq^P(T, X, X, \mathrm{idequiv}_X)$. 
+\end{definition}
+
+In the presence of [[identity type#IdentityTypesBetweenTypes|identity types between types]], equivalence induction of both kinds is equivalent in strength to the [[univalence axiom]]. 
+
+### Polymorphic cubical type theory
+
+It is also possible to consider adding type variables to [[cubical type theory]], yielding **polymorphic cubical type theory**. Adding type variables to a [[cubical type theory]] with glue types allows one to prove [[equivalence induction]] in the theory without the need for [[identity type#IdentityTypesBetweenTypes|identity types between types]]. 
+
 ## Type family variables
 
 ### With function types
@@ -332,6 +354,12 @@ Some discussion about extending dependent type theory with type variables occurs
 
 [[!redirects polymorphic type theory with dependent types]]
 [[!redirects polymorphic type theories with dependent types]]
+
+[[!redirects polymorphic cubical type theory]]
+[[!redirects polymorphic cubical type theories]]
+
+[[!redirects cubical type theory with type variables]]
+[[!redirects cubical type theories with type variables]]
 
 [[!redirects small polymorphism]]
 
