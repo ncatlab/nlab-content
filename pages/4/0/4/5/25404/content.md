@@ -8,9 +8,11 @@ Electronic versions:
 
 * 1984–1996 (298-323): [Gallica](http://gallica.bnf.fr/ark:/12148/cb34394200t/date)
 
-* 1974–1983 (?-297): Gallica
+* 1975–1990 (280–311): [Gallica](https://gallica.bnf.fr/ark:/12148/cb34484666t/date)
 
-* 1966–1973 (262–?): [Gallica](https://gallica.bnf.fr/ark:/12148/cb34416987n/date)
+* 1974 (278-279): [Gallica](https://gallica.bnf.fr/ark:/12148/cb34374637v/date)
+
+* 1966–1973 (262–277): [Gallica](https://gallica.bnf.fr/ark:/12148/cb34416987n/date)
 
 * 1835–1965 (1–261): [Gallica](https://gallica.bnf.fr/ark:/12148/cb343481087/date)
 
