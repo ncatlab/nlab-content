@@ -2,7 +2,15 @@
 
 A complex (or real) [[extended C*-algebra]] whose bounded part is a [[von Neumann algebra]].
 
-Equivalently (by a theorem due to Dixon and Zakirov–Chilin), a complex (or real) [[*-algebra]] $A$ of closed densely defined unbounded operators on a [[Hilbert space]] closed under the operations of strong sum, strong multiplication, passing to adjoints, contains all scalar multiples of the identity operator, for every $x\in A$ we have $(1+x^*x)^{-1}\in A$ (equivalently, $x$ is affiliated with $A_b$), and the [[\*-subalgebra]] $A_b$ of bounded operators in $A$ is a [[von Neumann algebra]].
+Equivalently (by a theorem due to Dixon and Zakirov–Chilin), an __extended von Neumann algebra__ is a complex (or real) [[*-algebra]] $A$ of closed densely defined unbounded operators on a [[Hilbert space]] that satisfies the following conditions:
+
+* $A$ is closed under the operations of strong sum, strong multiplication, and passing to adjoints;
+
+* $A$ contains all scalar multiples of the identity operator;
+
+* for every $x\in A$ we have $(1+x^*x)^{-1}\in A$ (equivalently, $x$ is affiliated with $A_b$);
+
+* the [[\*-subalgebra]] $A_b$ of bounded operators in $A$ is a [[von Neumann algebra]].
 
 ## Properties
 
