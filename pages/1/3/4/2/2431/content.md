@@ -838,7 +838,7 @@ A simplified version of the proof was spelled out in
 
 and a strengthening in
 
-* {#Adams71} [[John Frank Adams]]: _A variant of E. H. Brown's representability theorem_, Topology **10** (1971) 185--198
+* {#Adams71} [[John Frank Adams]]: _A variant of E. H. Brown's representability theorem_, Topology **10** (1971) 185--198 \[<a href="https://doi.org/10.1016/0040-9383(71)90003-6">doi:10.1016/0040-9383(71)90003-6</a>\]
 
 Textbook accounts:
 
