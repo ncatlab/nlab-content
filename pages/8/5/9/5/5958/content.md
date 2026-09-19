@@ -1,15 +1,21 @@
-__Gregg Jay Zuckerman__ is a mathematician at Yale University.
+__Gregory Jay Zuckerman__ is a mathematician at Yale University.
 
-* Wikipedia: [Gregg Zuckerman](http://en.wikipedia.org/wiki/Gregg_Zuckerman), [Zuckerman functor](http://en.wikipedia.org/wiki/Zuckerman_functor)
+* [institute page](https://fas.yale.edu/news-announcements/faculty-retirement-and-memorial-tributes/faculty-retirement-tributes-2021/gregg-zuckerman)
 
-* [website](http://directory.math.yale.edu/public_html/People/gjz2.html)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gregg_Zuckerman)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=8343)
+
+* [inSpire page](https://inspirehep.net/authors/981918)
+
+* [ResearchGate page](www.researchgate.net/profile/Gregg-Zucakerman)
 
 
 ## Selected writings
 
 On the [[variational bicomplex]]:
 
-* {#Zuckerman87} [[Gregg J. Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
+* {#Zuckerman87} [[Gregg J. Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.): *Mathematical Aspects of String Theory*, World Scientific (1987) 259--284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/9789812798411_0013](http://doi.org/10.1142/9789812798411_0013)&rbrack;
 
 * [[Bong H. Lian]], [[Gregg J. Zuckerman]], _New perspectives on the BRST-algebraic structure of string theory_, Commun. Math. Phys. **154** (1993) 613-646 &lbrack;[doi:10.1007/BF02102111](https://doi.org/10.1007/BF02102111)&rbrack;
 
@@ -24,7 +30,7 @@ On [[modular forms]] in [[string theory]]:
 * _Semi-infinite cohomology and string theory_, PNAS
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[cohomological induction]]
 
@@ -37,6 +43,8 @@ On [[modular forms]] in [[string theory]]:
 * [[semi-infinite cohomology]]
 
 * [[TQFT]]
+
+* [Zuckerman functor](http://en.wikipedia.org/wiki/Zuckerman_functor)
 
 
 category: people
