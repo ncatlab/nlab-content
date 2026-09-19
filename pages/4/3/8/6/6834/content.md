@@ -204,7 +204,6 @@ The full field content of a higher gauge theory with these flux densities is to 
 See at *[[schreiber:infinity-Chern-Simons theory]]*
 
 
-
 ## Related entries
 
 * [[differential nonabelian cohomology]]
@@ -221,14 +220,23 @@ See at *[[schreiber:infinity-Chern-Simons theory]]*
 
 ## References
 
-There are really two variants of formulating higher gauge theories:
+### Local examples
+
+On abelian higher gauge fields ([[B-field]] and higher) generalizing the [[electromagnetic field]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
+ 
+
+### Global description
+
+There are really two variants of formulating higher gauge theories globally:
 
 1. [[categorification]] of the notion of [[principal connections]] where the [[L-infinity algebra|$L_\infty$-algebra]] of the [[infinity-group|higher]] [[gauge group]] serves as the [[coefficients]] of the [[gauge potentials]],
  
 1. [[nonabelian differential cohomology]] where a [[nilpotent L-infinity algebra|nilpotent $L_\infty$-algebra]] serves as the [[coefficients]] of the [[flux densities]].
 
 
-### For $L_\infty$-algebras of gauge potentials
+#### For $L_\infty$-algebras of gauge potentials
 
 Original discussion via [[connections on 2-bundles]] (see there for more references):
 
@@ -267,7 +275,7 @@ For foundations of higher gauge theory formalized in [[homotopy type theory]] se
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
 
-### For $L_\infty$-algebras of flux densities
+#### For $L_\infty$-algebras of flux densities
 
 In the context of [[flux quantization laws]]:
 
