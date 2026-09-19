@@ -14,6 +14,12 @@
 
 ## Selected writings
 
+
+On abelian [[higher gauge fields]] ([[B-field]] and higher) generalizing the [[electromagnetic field]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
+
+
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
 * J. D. Brown, [[Marc Henneaux]], _Central charges in the canonical realization of asymptotic symmetries: An example from three dimensional gravity_, Commun. Math. Phys. (1986) 104: 207 ([doi:10.1007/BF01211590](https://doi.org/10.1007/BF01211590))
