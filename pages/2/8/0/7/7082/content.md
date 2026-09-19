@@ -530,6 +530,8 @@ $$
 
 * [[definitional isomorphism]]
 
+* [[equivalence induction]]
+
 ## References
  {#References}
 
