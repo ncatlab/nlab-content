@@ -1,5 +1,19 @@
 *Comptes rendus hebdomadaires des séances de l'Académie des sciences* (CRAS) is a journal that published, among other topics, articles in [[category theory]] (usually under *Algèbre des catégories*, *Théorie des catégories*, or *Logique et catégories*) around 1960s and 1970s.
 
+Electronic versions:
+
+* 2002-now (334–now): [Journal website](https://comptes-rendus.academie-sciences.fr/mathematique/journals/CRMATH/)
+
+* 1997–2001 (324–333): [Science Direct](https://www.sciencedirect.com/journal/comptes-rendus-de-lacademie-des-sciences-series-i-mathematics/issues)
+
+* 1984–1996 (298-323): [Gallica](http://gallica.bnf.fr/ark:/12148/cb34394200t/date)
+
+* 1974–1983 (?-297): Gallica
+
+* 1966–1973 (262–?): [Gallica](https://gallica.bnf.fr/ark:/12148/cb34416987n/date)
+
+* 1835–1965 (1–261): [Gallica](https://gallica.bnf.fr/ark:/12148/cb343481087/date)
+
 Currently, it is published under the name *[Comptes Rendus. Mathématique](https://comptes-rendus.academie-sciences.fr/mathematique/journals/CRMATH/)* by the French Academy of Sciences.
 
 The articles are up to 4 pages in length, which means that proofs are usually omitted. While CRAS articles have been archived, their text has not been indexed by search engines, which means it can be difficult to find copies of papers published in the journal. Therefore, here we list various articles pertaining to category theory that were published by CRAS.
