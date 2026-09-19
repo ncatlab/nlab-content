@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On abelian [[higher gauge fields]] ([[B-field]] and higher) generalizing the [[electromagnetic field]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
+
+
 On [[BV-formalism|BV-]][[BRST complex|BRST]]-[[quantization]] of [[gauge theories]]:
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
