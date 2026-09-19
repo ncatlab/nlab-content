@@ -14,9 +14,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -78,7 +77,9 @@ is the corresponding [[local action functional]].
 
 * [[action functional]]
 
-* [[extended Lagrangian]], 
+* [[principle of extremal action]]
+
+* [[extended Lagrangian]]
 
 * [[BV-Lagrangian density]], [[gauge fixing Lagrangian density]]
 
@@ -97,16 +98,22 @@ Named after [[Joseph-Louis Lagrange]].
 
 Textbooks:
 
-* [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
 
+* [[Jean-Louis Basdevant]]; section 6.2.1 in: *Variational Principles in Physics*, Springer (2007) \[<a href="https://doi.org/10.1007/978-3-031-21692-3">doi:10.1007/978-3-031-21692-3</a>\]
+
+* [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
 
 Textbook account in the context of [[gauge theory]]:
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], §1.1.1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
+In the context of the [[variational bicomplex]]:
+
+* [[Ian Anderson]]; p. 58--59: _Introduction to the variational bicomplex_, in: _Mathematical aspects of classical field theory_, Contemp. Math. **132** (1992) 51--73 &lbrack;[doi:10.1090/conm/132/1188434](https://doi.org/10.1090/conm/132/1188434), [pdf](https://digitalcommons.usu.edu/mathsci_facpub/32/), [pdf](https://scispace.com/pdf/introduction-to-the-variational-bicomplex-3vmu5bm2g3.pdf)&rbrack;
+
 Discussion in the convenient context of [[smooth sets]]:
 
-* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §3 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]]; §3 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, J. Geom. Phys. **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
 
 
