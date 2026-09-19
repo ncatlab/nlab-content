@@ -173,6 +173,9 @@ In the context of [[cosmology]] with the Kalb-Ramond field as a [[dark matter]]-
 
 See also:
 
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
+  > (more general abelian [[higher gauge theory]])
+
 * [[Peter D. Jarvis]], [[Jean Thierry-Mieg]], *Antisymmetric tensor fields: actions, symmetries and first order Duffin-Kemmer-Petiau formulations* &lbrack;[arXiv:2311.01675](https://arxiv.org/abs/2311.01675)&rbrack;
 
 * [[Jean Thierry-Mieg]], [[Peter D. Jarvis]], *Conformal invariance of antisymmetric tensor field theories in any even dimension* &lbrack;[arXiv:2311.01701](https://arxiv.org/abs/2311.01701)&rbrack;
