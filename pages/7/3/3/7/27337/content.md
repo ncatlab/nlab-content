@@ -95,6 +95,8 @@ $$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vd
 * Typal uniqueness rule:
 $$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vdash p:\Pi X.P(X)}{\Gamma \vdash \eta_\Pi^P(p):\lambda X.\mathrm{ev}(p, X) =_{\Pi X.P(x)} p}$$
 
+Impredicative polymorphism is important for defining the [[impredicative universe of propositions]] as a [[positive type]] via the [[higher inductive type]] formulation as the [[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
+
 ### Identity types between types
 
 Type variables allow for the formation of [[identity type#IdentityTypesBetweenTypes|identity types between types]]. 
