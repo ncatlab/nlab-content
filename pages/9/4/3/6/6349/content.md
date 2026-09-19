@@ -86,7 +86,10 @@ Globally hyperbolic are:
 
 * [[Green hyperbolic partial differential equation]]
 
+
 ## References
+
+### General
 
 Concise collection of definitions:
 
@@ -94,7 +97,10 @@ Concise collection of definitions:
 
 Survey:
 
-* [[Miguel Sánchez]], *Globally hyperbolic spacetimes: slicings, boundaries and counterexamples*, Gen Relativ Gravit **54** 124 (2022) &lbrack;[arXiv:2110.13672](https://arxiv.org/abs/2110.13672), [doi:10.1007/s10714-022-03002-6](https://doi.org/10.1007/s10714-022-03002-6)&rbrack;
+* [[Felix Finster]], Albert Much, Kyriakos Papadopoulos: *On Global Hyperbolicity of Spacetimes: Some Recent Advances and Open Problems*, in: *Mathematical Analysis in Interdisciplinary Research*, Optimization and Its Applications **179**, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-84721-0_15">doi:10.1007/978-3-030-84721-0_15</a>, [arXiv:2107.07156 math.DG](https://arxiv.org/abs/2107.07156)\]
+
+
+* [[Miguel Sánchez]]: *Globally hyperbolic spacetimes: slicings, boundaries and counterexamples*, Gen Relativ Gravit **54** 124 (2022) &lbrack;[arXiv:2110.13672](https://arxiv.org/abs/2110.13672), [doi:10.1007/s10714-022-03002-6](https://doi.org/10.1007/s10714-022-03002-6)&rbrack;
 
 
 See also:
@@ -104,15 +110,17 @@ See also:
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
   
 
+### Geroch splitting
+
 The fact that a single Cauchy surface implies a foliation by Cauchy surfaces (the *Geroch splitting theorem*) is due to:
 
 * {#Geroch70} [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
 
-See also 
+See also:
 
 * Wikipedia: *[Geroch splitting theorem](https://en.wikipedia.org/wiki/Geroch%27s_splitting_theorem)*
  
-The refinement of this statement to a smooth splitting:
+The refinement of this statement to smooth ssplitting:
 
 * [[Antonio N. Bernal]], [[Miguel Sánchez]]: _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. **243** (2003) 461--470 &lbrack;[arXiv:gr-qc/0306108v2](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
 
