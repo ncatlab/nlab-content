@@ -338,6 +338,8 @@ The [[categorical semantics]] of an equivalence type is an [[object of isomorphi
 
 * [[equivalence extensionality]]
 
+* [[equivalence induction]]
+
 ## References
 
 For the definition of the equivalence type as a dependent sum type, see:
