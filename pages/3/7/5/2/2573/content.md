@@ -67,6 +67,11 @@ Who wants to write out some of these?
 
 See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
+## Replacement and very large cardinal axioms
+
+Certain very large cardinal axioms are inconsistent with [[material set theory]] satisfying the full [[axiom of replacement]] and the [[axiom of choice]], such as [[ZFC]]. 
+
+For instance, in order to have [[Reinhardt cardinals]] in material set theory, one has to either remove the [[axiom of choice]], yielding [[ZF]] + a Reinhardt cardinal, or remove the [[axiom of replacement]], yielding [[BZC]] + a Reinhardt cardinal. 
 
 ## Related discussion
 
