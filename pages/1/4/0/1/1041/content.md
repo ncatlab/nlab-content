@@ -254,6 +254,8 @@ Counter-examples:
 
 * [[Deligne tensor product of abelian categories]]
 
+* [[Grothendieck category]]
+
 * [[pseudo-abelian category]]
 
 * [[quasi-abelian category]]
