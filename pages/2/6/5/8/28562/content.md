@@ -13,23 +13,37 @@
 
 ## Idea
 
-A [[large cardinal]] that is inconsistent with [[ZFC]]. In [[constructive set theory]], one typically uses Reinhardt sets instead of Reinhardt cardinals, since cardinals are not well behaved in the absence of [[excluded middle]].
+A [[large cardinal]] that is inconsistent with [[ZFC]]. In order to remove the inconsistency, one can either choose to remove the [[axiom of choice]] to get [[ZF]] + a Reinhardt cardinal, or one can choose to remove the [[axiom of replacement]] and restrict to the [[axiom of bounded separation]] to get [[BZC]] + a Reinhardt cardinal. 
+
+In [[constructive set theory]], one typically uses Reinhardt sets instead of Reinhardt cardinals, since cardinals are not well behaved in the absence of [[excluded middle]].
 
 One also has the notion of a super Reinhardt cardinal or a super Reinhardt set as generalizations of Reinhardt cardinals or Reinhardt sets. 
 
 ## Definition
 
-A **Reinhardt set** in a model of set theory $V$ with an [[elementary embedding]] $J:V \to V$ is a [[inaccessible set|inaccessible]] and [[transitive set]] $K$ such that $K \in J(K)$ and $j(x) = x$ for all $x \in K$. 
+### In ZF
+
+A **Reinhardt cardinal** in a model $V$ of ZF is a critical point of a non-trivial elementary embedding $j:V \to V$ of the model into itself. Reinhardt cardinals in ZF are one of the largest [[large cardinal axioms]] possible.
+
+### In IZF and CZF
+
+A **Reinhardt set** in a model of [[IZF]] or [[CZF]] $V$ with an [[elementary embedding]] $J:V \to V$ is a [[inaccessible set|inaccessible]] and [[transitive set]] $K$ such that $K \in J(K)$ and $j(x) = x$ for all $x \in K$. 
 
 Meanwhile there are multiple inequivalent definitions of a *super Reinhardt set* in constructive mathematics, which only coincide in the presence of [[excluded middle]]. See section 4.2 of [Jeon & Matthews 2024](#JeonMatthews24) for more details. 
+
+### In BZC
+
+In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, without the [[axiom of replacement]], a Reinhardt cardinal is a much weaker large cardinal axiom; it cannot even construct the large cardinal $\aleph_\omega$ in the absence of replacement. 
+
+One only needs to add the $I_3$ axiom to a ZFC meta-theory in order to describe BZC + a Reinhardt cardinal. 
 
 ## Related concepts
 
 * [[large cardinal]]
 
-* [[CZF]], [[IZF]], [[ZFC]]
-
 * [[elementary embedding]]
+
+* [[Berkeley cardinal]]
 
 ## References
 
