@@ -25,10 +25,10 @@ In the first presentation of dependent type theory, the concept of a "$U_i$-smal
 
 In the second presentation of dependent type theory, the theory does not come with the concept of a type variable, since the context can only be extended by term judgments, and not type judgments. While this is sufficient to define [[univalent universes]] and [[higher inductive types]] in the type theory, there are a few reasons why one might want to extend dependent type theory with type variables to form polymorphic dependent type theory: 
 
-* Large recursion principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. Type variables are important for large recursive principles in many ways: 
+* Large elimination principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. Type variables are important for large recursive principles in many ways: 
 
-  1. While the large recursion principles of certain non-recursive inductive types and higher inductive types, such as the [[type of booleans]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large recursion principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
-  2. In the other formulation using [[type universes]], the large recursion principle for the [[interval type]] is equivalent to the [[univalence axiom]] and [[equivalence induction]] and implies the large recursion principle for all type formers. However, in the formulation with a separate type judgment, the large recursion principle for the [[interval type]] does not in general imply the large recursion principle for other type formers. One needs polymorphism via type variables in order to show that the large recursion principle for the [[interval type]] implies the large recursion principle for other type formers and is equivalent to the [[univalence axiom]] and [[equivalence induction]]. 
+  1. While the large elimination principles of certain non-recursive inductive types and higher inductive types, such as the [[type of booleans]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large elimination principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
+  2. In the other formulation using [[type universes]], the large elimination principle for the [[interval type]] is equivalent to the [[univalence axiom]] and [[equivalence induction]] and implies the large elimination principle for all type formers. However, in the formulation with a separate type judgment, the large elimination principle for the [[interval type]] does not in general imply the large elimination principle for other type formers. One needs polymorphism via type variables in order to show that the large elimination principle for the [[interval type]] implies the large elimination principle for other type formers and is equivalent to the [[univalence axiom]] and [[equivalence induction]]. 
 
 * The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. Impredicative polymorphism is important for: 
 
@@ -38,11 +38,11 @@ In the second presentation of dependent type theory, the theory does not come wi
 
 * With type variables, one can define [[identity types]] $A = B$ between types $A$ and $B$. This has a few benefits: 
 
-  1. With identity types between types, it is possible to define the [[univalence axiom]] and thus make the type theory a [[univalent type theory]] without requiring universes in the type theory. This is important since the univalence axiom implies the large recursion principles discussed in the previous point. 
+  1. With identity types between types, it is possible to define the [[univalence axiom]] and thus make the type theory a [[univalent type theory]] without requiring universes in the type theory. This is important since the univalence axiom implies the large elimination principles discussed in the previous point. 
 
   2. In a [[dependent type theory]] without [[judgmental equality]], such as [[objective type theory]], it is cumbersome to define or explicitly convert types in terms of other types, since one has to equip each definition or explicit conversion with the structure of an [[equivalence of types]]. With identity types between types, one can simply make use of an [[identification]] between types to represent [[definitional equality]] or [[explicit conversion]]. 
 
-  3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
+  3. The same goes with the weak large eliminaiton principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large eliminaiton principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large elimination principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
 Polymorphic dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
 
@@ -138,7 +138,7 @@ $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p
 
 $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \beta_{=}^{C}(t):\Pi A.\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
 
-There are many consequences of having identity types between types in the dependent type theory. One such example is that any time one uses an [[equivalence of types]] in a definition, such as [[weak Tarski universes]] or typal large recursion principles for inductive types, one can instead use identity types between types in the definition. In addition, one can add [[univalence]] to the dependent type theory itself, which makes the identity types between types and equivalence types coincide with each other. 
+There are many consequences of having identity types between types in the dependent type theory. One such example is that any time one uses an [[equivalence of types]] in a definition, such as [[weak Tarski universes]] or typal large elimination principles for inductive types, one can instead use identity types between types in the definition. In addition, one can add [[univalence]] to the dependent type theory itself, which makes the identity types between types and equivalence types coincide with each other. 
 
 #### Univalence axiom
 
@@ -160,19 +160,19 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ua}:\Pi A.\Pi B.\mathrm{is
 
 Unlike the other presentation of dependent type theory in terms of universes, in this presentation of dependent type theory with a type judgment and type variables, it *is consistent* to assume both the [[univalence axiom]] and an [[axiom of set truncation]] like [[UIP]] or [[axiom K]], since here there is no universe, provided one doesn't have any higher types, such as the [[circle type]]. 
 
-#### Large recursion principles
+#### Large elimination principles
 
-In the usual dependent type theory without type variables, there are strict and weak versions of large recursion principles: the strict large recursion principles use [[judgmental equality]] between types for the computation and uniqueness rules, while the weak large recursion principles use [[equivalences of types]] for the computation and uniqueness rules. For example, the strict large recursion principle for the [[type of booleans]] $\mathbb{2}$ says that given types $A$ and $B$, one can construct a type family $x:\mathbb{2} \vdash \mathrm{lrec}_\mathbb{2}^{A, B}(x)$ such that 
+In the usual dependent type theory without type variables, there are strict and weak versions of large elimination principles: the strict large elimination principles use [[judgmental equality]] between types for the computation and uniqueness rules, while the weak large elimination principles use [[equivalences of types]] for the computation and uniqueness rules. For example, the strict large elimination principle for the [[type of booleans]] $\mathbb{2}$ says that given types $A$ and $B$, one can construct a type family $x:\mathbb{2} \vdash \mathrm{lrec}_\mathbb{2}^{A, B}(x)$ such that 
 $$\mathrm{lrec}_\mathbb{2}^{A, B}(0) \equiv A \quad \mathrm{and} \quad \mathrm{lrec}_\mathbb{2}^{A, B}(1) \equiv B$$
-and the weak large recursion principle for the type of booleans says that the type family above comes with [[equivalences of types]]
+and the weak large elimination principle for the type of booleans says that the type family above comes with [[equivalences of types]]
 $$\mathrm{l}\beta_\mathbb{2}^{A}:\mathrm{lrec}_\mathbb{2}^{A, B}(0) \simeq A \quad \mathrm{and} \quad \mathrm{l}\beta_\mathbb{2}^{B}:\mathrm{lrec}_\mathbb{2}^{A, B}(1) \simeq B$$ 
-However, with type variables and [[identity type#IdentityTypesBetweenTypes|identity types between types]], one can also use identifications of types instead of equivalences of types to express weak large recursion of the type of booleans:
+However, with type variables and [[identity type#IdentityTypesBetweenTypes|identity types between types]], one can also use identifications of types instead of equivalences of types to express weak large elimination of the type of booleans:
 $$\mathrm{l}\beta_\mathbb{2}^{A}:\mathrm{lrec}_\mathbb{2}^{A, B}(0) = A \quad \mathrm{and} \quad \mathrm{l}\beta_\mathbb{2}^{B}:\mathrm{lrec}_\mathbb{2}^{A, B}(1) = B$$ 
-This third notion of weak large recursion in dependent type theory with a single type judgment and type variables parallels the usual notion of weak large recursion in the other formulation of dependent type theory involving a hierarchy of universes, where large recursion simply means the usual recursion principle into one of the predefined universes in the hierarchy. 
+This third notion of weak large elimination in dependent type theory with a single type judgment and type variables parallels the third notion of weak large elimination in the other formulation of dependent type theory involving a hierarchy of universes. 
 
-### Large recursion principles of recursive inductive types
+### Large elimination principles of recursive inductive types
 
-Independently of the consequences of having [[identity type#IdentityTypesBetweenTypes|identity types between types]], having type variables allows for the formulation of certain large recursion principles which are not possible in the dependent type theory with a single type judgment but no type variables. These include large recursion for recursive inductive types and recursive higher inductive types such as the [[natural numbers type]], [[W-types]], and [[localizations of a type]]. 
+Independently of the consequences of having [[identity type#IdentityTypesBetweenTypes|identity types between types]], having type variables allows for the formulation of certain large elimination principles which are not possible in the dependent type theory with a single type judgment but no type variables. These include large elimination for recursive inductive types and recursive higher inductive types such as the [[natural numbers type]], [[W-types]], and [[localizations of a type]]. 
 
 For example, the usual recursion principle for the [[natural numbers type]] is given by the following: given 
 
@@ -194,7 +194,7 @@ and
 
 $$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{C, c_0, c_s}(s(n)) \equiv c_s(n, \mathrm{rec}_\mathbb{N}^{C, c_0, c_s}(n):C$$
 
-In the other formulation of dependent type theory in terms of a hierarchy of universes and no type judgment, large recursion of the natural numbers is simply the recursion principle for a universe $U_i$ in the hierarchy: given 
+In the other formulation of dependent type theory in terms of a hierarchy of universes and no type judgment, large elimination of the natural numbers is simply the recursion principle for a universe $U_i$ in the hierarchy: given 
 
 1. a universe $U$
 
@@ -214,7 +214,7 @@ and
 
 $$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{U, T_0, T_s}(s(n)) \equiv T_s(n, \mathrm{rec}_\mathbb{N}^{U, T_0, T_s}(n):U$$
 
-However, in dependent type theory with a single type judgment, the universe $U$ is not needed and in fact non-existent. Translating the large recursion principle into type judgments, we get the following: given 
+However, in dependent type theory with a single type judgment, the universe $U$ is not needed and in fact non-existent. Translating the large elimination principle into type judgments, we get the following: given 
 
 1. a type $T_0 \; \mathrm{type}$
 
@@ -232,9 +232,9 @@ and
 
 $$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(s(n)) \equiv T_s(n, \mathrm{rec}_\mathbb{N}^{T_0, T_s}(n)) \; \mathrm{type}$$
 
-It is clear that type variables are needed, since otherwise the second requirement in the large recursion principle that we have a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$ will not be possible. 
+It is clear that type variables are needed, since otherwise the second requirement in the large elimination principle that we have a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$ will not be possible. 
 
-Similar requirements of type variables apply to the large recursion principles of more general recursive inductive types like [[W-types]]. 
+Similar requirements of type variables apply to the large elimination principles of more general recursive inductive types like [[W-types]]. 
 
 ### Equivalence induction
 
