@@ -11,9 +11,12 @@ Claudio Bunster Weitzmann (previously: Claudio Teitelboim Weitzmann)
 
 ## Selected writings
 
-On abelian [[higher gauge fields]] ([[B-field]] and higher) generalizing the [[electromagnetic field]]:
+On abelian [[higher gauge fields]] ([[B-field]] and higher) generalizing the [[electromagnetic field]] ("[[p-form electromagnetism]]"):
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
+
+* [[Claudio Bunster]], [[Marc Henneaux]]: *The Action for Twisted Self-Duality*, Phys. Rev. D **83** (2011) 125015 \[<a href="https://doi.org/10.1103/PhysRevD.83.125015">doi:10.1103/PhysRevD.83.125015</a>, [arXiv:1103.3621](https://arxiv.org/abs/1103.3621)\]
+  > (in the guise of *[[pre-metric electromagnetism]]*)
 
 
 On [[BV-formalism|BV-]][[BRST complex|BRST]]-[[quantization]] of [[gauge theories]]:
