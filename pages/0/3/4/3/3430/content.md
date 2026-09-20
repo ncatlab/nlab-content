@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On [[Fréchet manifold|Fréchet ]] [[manifold structure of mapping spaces]]:
+
+* {#Michor80} [[Peter Michor]]: _Manifolds of Differentiable Mappings_, Shiva Publishing (1980) &lbrack;[pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf), [[Michor-MdM1980.pdf:file]]&rbrack;
+
+
 On [[C^∞-ring|$C^\infty$ algebras]] and [[functional analysis]]:
 
 * G. Kainz, [[Andreas Kriegl]], [[Peter Michor]]: *$C^\infty$-algebras from the functional analytic view point*, Journal of Pure and Applied Algebra **46** 1 (1987) 89-107 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90045-4">doi:10.1016/0022-4049(87)90045-4</a> [pdf](https://www.mat.univie.ac.at/~michor/c-oo-alg.pdf)&rbrack;
