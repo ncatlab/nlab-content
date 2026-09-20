@@ -171,5 +171,12 @@ For a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] 
 
 [[!redirects Zermelo set theory]]
 
+[[!redirects BZ]]
+[[!redirects BZC]]
+
+[[!redirects bounded Zermelo set theory]]
+[[!redirects bounded Zermelo]]
+[[!redirects bounded Zermelo axioms]]
+
 [[!redirects CPZ]]
 
