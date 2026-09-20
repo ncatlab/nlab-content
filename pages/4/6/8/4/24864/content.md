@@ -17,14 +17,7 @@
 
 ## Idea
 
-Book HoTT is the [[dependent type theory]] which appears in the [[HoTT book]]. It is notable in that, unlike most other dependent type theories which have been formally written in [[natural deduction]], it does not have a separate [[type]] [[judgment]]. Instead, it only has term judgments, and an infinite sequence of [[Russell universes]] indexed by a [[natural numbers]] primitive. Types are represented by terms of a Russell universe. 
-
-However, when formally defining the natural numbers primitive, in order to ensure that the dependent type theory does not have a separate type judgment, one has to define the natural numbers primitive in a separate [[layer]], meaning that formal book HoTT is a [[layered type theory]]. There are many different ways to define the layer containing the natural numbers primitive: 
-
-* One could define the [[first-order theory]] of a [[category]] with [[finite products]] and a parameterized [[natural numbers object]], and use the [[hom-set]] $\mathrm{Hom}(1, \mathbb{N})$ to index the [[Russell universes]]. 
-* One could define the simply typed first order theory of [[ZFC]], and use the von Neumann natural numbers or the Zermelo natural numbers to index the Russell universes. 
-* One could define the simply typed first order theory of [[Peano arithmetic]], and use the natural numbers in Peano arithmetic to index the Russell universes. 
-* One could define a separate [[dependent type theory]] with a [[natural numbers type]], such as the [[extensional type theory]] in [[two-level type theory]], and use the natural numbers type $\mathbb{N}$ to index the Russell universes. 
+Book HoTT is the [[dependent type theory]] which appears in the [[HoTT book]]. It is notable in that, unlike most other dependent type theories which have been formally written in [[natural deduction]], it does not have a separate [[type]] [[judgment]]. Instead, it only has term judgments, and an infinite sequence of [[Russell universes]] indexed by a weak model of arithmetic, such as [[Presburger arithmetic]]. Types are represented by terms of a Russell universe. 
 
 ## Formal presentation
 
@@ -32,7 +25,7 @@ The presentation of formal book HoTT we have chosen is a  type theory with [[jud
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-### Universe levels and Peano arithmetic
+### Universe levels and arithmetic
 
 Then we have judgments for universe levels and predicate logic:
 
@@ -42,7 +35,7 @@ Then we have judgments for universe levels and predicate logic:
 
 * $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
 
-and the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. 
+and the formal [[signature (in logic)|signature]] and [[inference rules]] of a weak form of arithmetic involving only zero and the successor operation. Important to note here is that there is no induction principle commonly found in [[Peano arithmetic]] or [[Heyting arithmetic]].
 
 These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
 
