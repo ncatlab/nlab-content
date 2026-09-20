@@ -53,7 +53,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
-* [[Reinhardt cardinal]]
+* [[Reinhardt cardinal]], [[Berkeley cardinal]]
 
 Here is a diagram showing the relation between these:
 
