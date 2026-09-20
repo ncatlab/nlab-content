@@ -88,7 +88,7 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
 
 The notion goes back to [[Alfred Frölicher]].
 
-* {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]], *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
+* {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]]: *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [doi:10.1090/surv/053](https://doi.org/10.1090/surv/053), [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
 
 
 Survey and further references:
