@@ -15,21 +15,7 @@
 
 ## Idea
 
-A _subgroup_ of a [[group]] $G$ is a "smaller" group $K$ sitting inside $G$.
-
-## Definition
-
-A [[subset]] $H$ of the [[set]] $G$ underlying a [[group]] $G$ is a **subgroup** of $G$ iff the [[restriction]] of the group operation • to $H$ is a group. 
-
-For all subgroups $H$ of a group $G$, 
-
-* the [[identity]] [[element]] $e\in G$ is in $H$,
-
-* for all $h\in H$, the [[inverse]] $h ^-^1 \in G$ is in $H$,
-
-* for non-negative [[integers]] $n$ and $m$ $H$={$g ^n h ^-^m$|$g \in H \wedge h \in H$}.
-
-A _subgroup_ is also a [[subobject]] in the [[category]] [[Grp]] of [[group]]s: a [[monomorphism]] of groups
+A _subgroup_ of a group is a subset equipped with the "same" group operation. As-in, a [[subobject]] in the [[category]] [[Grp]] of [[group]]s; hence a [[monomorphism]] of groups
 
 
 $$
@@ -38,6 +24,22 @@ $$
 $$
 
 Here $K$ is _a subgroup of $G$_. 
+
+## Definition
+
+A [[subset]] $H$ of the [[set]] $G$ underlying a [[group]] is a *subgroup* of $G$ iff the [[restriction]] of the group operation • to $H$ is a group. For all subgroups $H$ of a group $G$, 
+
+* the [[identity]] [[element]] $e\in G$ is in $H$,
+
+* for all $h\in H$, the [[inverse]] $h^-^1\in G$ is in $H$,
+
+* for non-negative [[integers]] $n$ and $m$ $H$={$g ^n h ^-^m$|$g \in H \wedge h \in H$}.
+
+For $A$ a subset of the [[automorphism|automorphisms]] group $Aut(G)$ of a group $G$, a subgroup $H \subseteq G$ is called an $A$-*invariant subgroup* of $G$ if for $h \in H$ and $\alpha \in A$ then $\alpha (h) \in H$. A subgroup $H$ of a group $G$ is called:
+
+* a *characteristic subgroup* of $G$ if $H$ is $Aut(G)$-invariant.
+
+* a [[normal subgroup|normal]] or *self-conjugate subgroup* of $G$ is $H$ is $Inn Aut(G)$-invariant. As-in, if $g \in G$ and $h \in H$ then $g ^- ^1hg \in H$.
 
 ## Special cases
 
