@@ -1,6 +1,15 @@
-* [Home page](https://cgp.ibs.re.kr/~calin/)
+
+Calin Iuliu Lazaroiu
+
+* [personal page](https://cgp.ibs.re.kr/~calin/)
 
 * [Mathematics Genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=99921)
+
+* [inSpire page](https://inspirehep.net/authors/1000898)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=O3CEqUoAAAAJ&hl=en)
+
+* [ResearchGate page](www.researchgate.net/profile/Calin-Laazaroiu-2)
 
 ## Selected writings
 
