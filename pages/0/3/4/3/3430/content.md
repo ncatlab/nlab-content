@@ -7,9 +7,20 @@
 
 ## Selected writings
 
-On [[Fréchet manifold|Fréchet ]] [[manifold structure of mapping spaces]]:
+On [[manifold structure of mapping spaces]]:
+
+via [[Fréchet manifolds]]:
 
 * {#Michor80} [[Peter Michor]]: _Manifolds of Differentiable Mappings_, Shiva Publishing (1980) &lbrack;[pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf), [[Michor-MdM1980.pdf:file]]&rbrack;
+
+via [[Frölicher spaces]]:
+
+* [[Peter W. Michor]]: *Manifolds of mappings and shapes*, in: Lizhen Ji, Frans Oort, [[Shing-Tung Yau]] (eds.): *The legacy of Bernhard Riemann after one hundred and fifty years*, ALM **35**, International Press Boston (2016) 459--486 \[<a href="https://arxiv.org/abs/1505.02359">arXiv:1505.02359 math.DG</a>\]
+
+* [[Peter W. Michor]]: *Manifolds of mappings for continuum mechanics*, in: Reuven Segev, Marcelo Epstein (eds).: *Geometric Continuum Mechanics*, Advances in Continuum Mechanics **42**, Birkhäuser (2020) 3--75 \[<a href="https://doi.org/10.1007/978-3-030-42683-5_1">doi:10.1007/978-3-030-42683-5_1</a>, [arXiv:1909.00445 math.DG](https://arxiv.org/abs/1909.00445)\]
+
+
+
 
 
 On [[C^∞-ring|$C^\infty$ algebras]] and [[functional analysis]]:
