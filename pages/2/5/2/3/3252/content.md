@@ -19,7 +19,12 @@ A _subgroup_ of a [[group]] $G$ is a "smaller" group $K$ sitting inside $G$.
 
 ## Definition
 
-A _subgroup_ is a [[subobject]] in the [[category]] [[Grp]] of [[group]]s: a [[monomorphism]] of groups
+A [[subset]] $H$ of the [[set]] $G$ underlying a [[group]] ($G$,•) is a *subgroup* iff the [[restriction]] of the group operation • to $H$ is a group. 
+
+For all subgroups $H$ of a group $G$, the [[identity]] [[element]] $e \in G$ is in $H$. For all $h \in H$, the [[inverse]] $h ^minus ^1 \in G$ is in $H$.
+
+A _subgroup_ is also a [[subobject]] in the [[category]] [[Grp]] of [[group]]s: a [[monomorphism]] of groups
+
 
 $$
   K \hookrightarrow G
