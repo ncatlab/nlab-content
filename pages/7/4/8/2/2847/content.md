@@ -43,17 +43,21 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
 
-* [[elementary embedding]] -- a tool used in the study of large large cardinals
-
 * [[supercompact cardinal]]
 
-* [[extendible cardinal]]
+* [[elementary embedding]] -- a tool used in the study of large large cardinals. However cardinals constructed using elementary embeddings are only very large in the presence of the [[axiom of replacement]]; without replacement, even the cardinal $\aleph_\omega$ cannot be constructed from these large cardinals, and some of these large cardinals cannot even be defined without the [[axiom of replacement]]. 
+
+* [[extendible cardinal]] 
 
 * [[C(n)-extendible cardinal]]
 
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
-* [[Reinhardt cardinal]], [[Berkeley cardinal]]
+* [[Reinhardt cardinal]] 
+
+* [[Berkeley cardinal]]
+
+* [[club Berkeley cardinal]], [[limit club Berkeley cardinal]]
 
 Here is a diagram showing the relation between these:
 
@@ -92,6 +96,10 @@ Some discussion on large cardinal axioms in the context of a [[polynomial functi
 On [[large set axioms]] in [[constructive set theory]]:
 
 * [[Hanul Jeon]], [[Richard Matthews]], *Very large set axioms over constructive set theories*, The Bulletin of Symbolic Logic. 2024;30(4):455-535. &lbrack;[doi:10.1017/bsl.2024.8](https://doi.org/10.1017/bsl.2024.8), [arXiv:2204.05831](https://arxiv.org/abs/2204.05831)&rbrack;
+
+On very [[large cardinal axioms]]:
+
+* [[Joan Bagaria]], [[Peter Koellner]], [[W. Hugh Woodin]]: *Large Cardinals Beyond Choice*, The Bulletin of Symbolic Logic, Vol. 25, No. 3 (September 2019), pp. 283-318 (36 pages) &lbrack;[jstor:stable/26788522](https://www.jstor.org/stable/26788522)&rbrack;
 
 [[!redirects large cardinal]]
 [[!redirects large cardinals]]
