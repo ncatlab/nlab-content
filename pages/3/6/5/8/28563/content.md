@@ -1,5 +1,5 @@
 
-* [website](https://hanuljeon95.github.io/)
+* [petsonal page](https://hanuljeon95.github.io/)
 
 ## Selected writings
 
