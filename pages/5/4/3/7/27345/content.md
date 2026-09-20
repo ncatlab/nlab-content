@@ -31,7 +31,7 @@ The type theory has [[judgments]] for contexts
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-### Universe levels and Peano arithmetic
+### Universe levels and arithmetic
 
 Then we have judgments for universe levels and predicate logic:
 
@@ -41,9 +41,7 @@ Then we have judgments for universe levels and predicate logic:
 
 * $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
 
-and the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. 
-
-These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
+and the formal [[signature (in logic)|signature]] and [[inference rules]] of a weak form of arithmetic involving only zero and the successor operation. Important to note here is that there is no induction principle commonly found in [[Peano arithmetic]] or [[Heyting arithmetic]].
 
 ### Typing judgments and Russell universes
 
@@ -162,7 +160,7 @@ which is only in the universe level $U_{i + 1}$, since both the index type $\sum
 
 $$\prod_{x:A} \prod_{y:B(x)} C(x, y)$$
 
-down to the universe level $U_{i + 1}$. By induction over the natural numbers, this is true of any finite list of dependent products of type families in $U_i$ indexed by types in $U_i$. 
+down to the universe level $U_{i + 1}$. By iterating this process a finite number of times, one can show that this is true of any finite list of dependent products of type families in $U_i$ indexed by types in $U_i$. 
 
 ### Sum types
 
@@ -286,7 +284,7 @@ $$\mathrm{idtoequiv}_{A, A}(\mathrm{refl}_{U_i}(A)) \equiv id_A$$
 
 Note that both $A =_{U_i} B$ and $A \simeq B$ lie in the universe $U_{i + 1}$ in strongly predicative dependent type theory. 
 
-The [[univalence axiom]] then states that $\mathrm{idtoequiv}_{A, B}$ is an equivalence for all external natural numbers $i \in \mathcal{N}$ and types $A:U_i$ and $B:U_i$:
+The [[univalence axiom]] then states that $\mathrm{idtoequiv}_{A, B}$ is an equivalence for all universe levels $i$ and types $A:U_i$ and $B:U_i$:
 
 $$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}_{A =_{U_i} B, A \simeq B}(\mathrm{idtoequiv}_{A, B})}$$ 
 
