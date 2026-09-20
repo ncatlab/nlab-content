@@ -1,6 +1,11 @@
-Saul Kripke was an American philosopher and logician (1940-2022). He is best known for his work on [[modal logic]], in particular the possible worlds semantics discussed at [[geometric model for modal logics]], and for related work in metaphysics, especially in _[[Naming and Necessity]]_.
+
+Saul Aaron Kripke (1940--2022) was an American philosopher and logician. He is best known for his work on [[modal logic]], in particular the [[possible worlds semantics]] discussed at *[[geometric model for modal logics]]*, and for related work in [[metaphysics]], especially in _[[Naming and Necessity]]_.
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Saul_Kripke)
+
+* [MathGenealogy page](www.mathgenealogy.org/id.php?id=13743a)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=MRCc_ugAAAAJ&hl=en)
 
 * [Saul Kripke Center](https://kripkecenter.commons.gc.cuny.edu)
 
