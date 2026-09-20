@@ -286,6 +286,8 @@ for Tarski types of propositions.
 
 The [[law of excluded middle]] states that every proposition is decidable $\mathrm{lem}:\prod_{P:\mathrm{Prop}} P \vee \neg P$, or equivalently that there is an equivalence $\mathrm{lem}':\mathrm{Bool} \simeq \mathrm{Prop}$ between the type of propositions and the type of booleans. 
 
+This type of booleans is weaker than the usual type of booleans, since it doesn't have the usual induction principle for the type of booleans. However, in the presence of a [[natural numbers type]], one can derive the induction principle of the type of the booelans from the induction principle of the [[natural numbers type]], so in practice, this definition of the type of booleans behaves as the [[positive type]] definition of the booleans as an [[inductive type]]. 
+
 ## Impredicative polymorphism
 
 Given a universe of all propositions $\mathrm{Prop}$, [[impredicative polymorphism]] of $\mathrm{Prop}$ is equivalent to [[weak function extensionality]]. 
