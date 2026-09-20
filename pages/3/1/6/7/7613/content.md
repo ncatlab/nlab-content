@@ -434,18 +434,17 @@ The term "M-theory" originates in
 
 * {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], *Heterotic and Type I string dynamics from eleven dimensions*, Nucl. Phys. B **460** (1996) 506 &lbrack;[arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209), <a href="https://doi.org/10.1016/0550-3213(95)00621-4">doi:10.1016/0550-3213(95)00621-4</a>&rbrack;
 
-
 as a "non-committed" shorthand for "membrane theory"
 
-> {#NonCommittal} As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95, p. 2](#HoravaWitten95))
+> {#NonCommittal} As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. &lbrack;[Ho&#345;ava-Witten 95, p. 2](#HoravaWitten95)&rbrack;
 
 and
 
-* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B **463** (1996) 383-397 &lbrack;[arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219)&rbrack;
+* {#Witten95} [[Edward Witten]]: _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B **463** (1996) 383--397 &lbrack;[arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219), <a href="http://doi.org/10.1016/0550-3213(96)00032-6">doi:10.1016/0550-3213(96)00032-6</a>&rbrack;
 
-which coined the association
+which coined the association:
 
-> the eleven-dimensional "M-theory" (where M stands for magic, mystery, or membrane, according to taste) ([Witten 95, p. 1](#Witten95))
+> the eleven-dimensional "M-theory" (where M stands for magic, mystery, or membrane, according to taste) &lbrack;[Witten 95, p. 1](#Witten95)&rbrack;
 
 that later gained much publicity:
 
