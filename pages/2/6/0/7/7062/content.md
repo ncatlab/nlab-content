@@ -85,27 +85,6 @@ The elimination rules and the propositional computation and uniqueness rules for
 
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
 
-In type theories with a separate type judgment where not all types are elements of universes, one has to additionally add the following elimination and computation rules:
-
-Elimination rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:\mathrm{I} \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, i) \; \mathrm{type}}$$
-
-Computation rules:
-
-* judgmental computation rules
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \equiv A \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \equiv B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \equiv e:A \simeq B}$$
-
-* typal computation rules
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{0, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \simeq A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{1, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \simeq B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{p_\mathrm{I}, A, B}(e):\beta_{\mathrm{I}}^{1, A, B}(e) \circ \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \circ \beta_{\mathrm{I}}^{0, A, B}(e)^{-1} =_{A \simeq B} e}$$
-
 ### Using a function from the type of booleans
 
 The interval type is defined by the following rules:
@@ -406,6 +385,33 @@ Thus, one could simply take $j(0)$ and $j(1)$ as the term constructors and $f(0)
 
 If both propositional truncations and the type of booleans have [[judgmental equality|judgmental]] [[computation rules]], the the interval type also has judgmental computation rules. See ([this file](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html))
 
+### Large elimination of the interval type and univalence
+
+In type theories with a separate type judgment where not all types are elements of universes, the large elimination principle of the interval type is given by:
+
+Elimination rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:\mathrm{I} \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, i) \; \mathrm{type}}$$
+
+Computation rules:
+
+* judgmental computation rules
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \equiv A \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \equiv B \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \equiv e:A \simeq B}$$
+
+* typal computation rules
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{0, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \simeq A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{1, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \simeq B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{p_\mathrm{I}, A, B}(e):\beta_{\mathrm{I}}^{1, A, B}(e) \circ \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \circ \beta_{\mathrm{I}}^{0, A, B}(e)^{-1} =_{A \simeq B} e}$$
+
+If one is given a [[type universe]] $U$ and one postulates that large elimination of the interval type holds when restricted to $U$-small types, then the [[univalence axiom]] holds for $U$. See [this MathOverflow post](https://mathoverflow.net/questions/413736/how-to-formulate-the-univalence-axiom-without-universes) for more details. The [[univalence axiom]] for $U$ also implies large elimination of the interval type for $U$-small types. Thus, large elimination of the interval type for $U$-small types is equivalent to the [[univalence axiom]] for $U$. 
+
+In a dependent type theory with [[type variables]], large elimination of the interval type is equivalent to the [[univalence axiom]] for the entire type theory. 
+
 ## Walking identification of arbitrary arity
   {#OfArbitraryArity}
 
@@ -460,6 +466,10 @@ $$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x
 * [[cubical type theory]]
 
 ## References
+
+Proof of the [[univalence axiom]] from large elimination of the interval type relativizing to the [[type universe]]:
+
+* *How to formulate the univalence axiom without universes?* ([web](https://mathoverflow.net/questions/413736/how-to-formulate-the-univalence-axiom-without-universes)) 
 
 Proofs of [[function extensionality]] using an interval type with [[judgmental equality|judgmental]] [[computation rules]] for point constructors could be found here
 
