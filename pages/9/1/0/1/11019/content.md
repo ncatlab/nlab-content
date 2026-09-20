@@ -2,7 +2,7 @@ Saul Kripke was an American philosopher and logician (1940-2022). He is best kno
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Saul_Kripke)
 
-* [Saul Kripke Center](https://saulkripkecenter.org)
+* [Saul Kripke Center](https://kripkecenter.commons.gc.cuny.edu)
 
 ## Selected writings
 
