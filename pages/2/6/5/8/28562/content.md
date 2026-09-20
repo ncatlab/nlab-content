@@ -33,9 +33,9 @@ Meanwhile there are multiple inequivalent definitions of a *super Reinhardt set*
 
 ### In BZC
 
-In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, without the [[axiom of replacement]], a Reinhardt cardinal is a much weaker large cardinal axiom; it cannot even construct the large cardinal $\aleph_\omega$ in the absence of replacement. 
+In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, without the [[axiom of replacement]], a Reinhardt cardinal is a much weaker large cardinal axiom; it cannot even construct the large cardinal $\aleph_\omega$ in the absence of replacement. Furthermore, unlike [[ZF]], it is consistent to have a Reinhardt cardinal and [[V = L]] or [[V = Ultimate L]] in [[BZC]]. 
 
-One only needs to add the $I_3$ axiom to a ZFC meta-theory in order to describe BZC + a Reinhardt cardinal. 
+One only needs to add the $I_3$ axiom to a meta-theory in order to describe BZC + a Reinhardt cardinal. 
 
 ## Related concepts
 
@@ -48,6 +48,8 @@ One only needs to add the $I_3$ axiom to a ZFC meta-theory in order to describe 
 ## References
 
 * {#JeonMatthews24} [[Hanul Jeon]], [[Richard Matthews]], *Very large set axioms over constructive set theories*, The Bulletin of Symbolic Logic. 2024;30(4):455-535. &lbrack;[doi:10.1017/bsl.2024.8](https://doi.org/10.1017/bsl.2024.8), [arXiv:2204.05831](https://arxiv.org/abs/2204.05831)&rbrack;
+
+* [[Hanul Jeon]], *Is BZC inconsistent with Reinhardt cardinals*, Mathematics Stackexchange ([web](https://math.stackexchange.com/a/4009228))
 
 * Wikipedia, *[Reinhardt cardinal](https://en.wikipedia.org/wiki/Reinhardt_cardinal)*
 
