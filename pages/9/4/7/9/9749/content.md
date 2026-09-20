@@ -104,7 +104,7 @@ To prove that any map of $G$-algebras $f: (X, h) \to (Y, k)$ is an affine map, w
 \begin{equation}
 \begin{array}{lcll}
 f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
-&=& k(G(f)(\sum_{i=1}^{n} p_i \delta_{x_i}) &  \\
+&=& k(G(f)(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 &=& k(\sum_{i=1}^{n} p_i \delta_{f(x_i)}) &  \\
 &=& \sum_{i=1}^{n} p_i f(x_i) & 
 \end{array}.
@@ -181,11 +181,11 @@ The space $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$ because, f
 The [[restricted Yoneda embedding]] functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
-\mathbf{Cvx}_{Meas}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
+\mathbf{Cvx}_{Meas}^{op} & \xrightarrow{\mathcal{Y}} & \mathbb{R}-\mathbf{Lin}^{\mathcal{R}} \\
 X & \mapsto & hom_{\mathbf{Cvx}_{Meas}}(X, \bullet)
 \end{array}
 \end{equation}
-is a [[full and faithful functor]].
+is a [[full and faithful functor]]. ($\mathbb{R}-\mathbf{Lin}$ is the category of $\mathbb{R}$-linear vector spaces.)
 \end{theorem}
 \begin{proof} 
 In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $\mathbf{1} \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
@@ -193,10 +193,9 @@ In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrigh
 Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
 $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is [[faithful functor]].  
 
-Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$, i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then, because $X \in_{ob} \mathbf{Cvx}_{Meas}$, it satisfies the fullness property and we have, for all $f \in \mathbb{R}_{\infty}^X$, the property that $J(f) = \mathbb{E}_P(f) \in Im(f)$.  So there exists an element $x_f \in X_f = \{x \in X \, | \, J(f) = f(x) \}$ such that $J(f)=f(x_f)$. But the fullness property says $\cap_f X_f \ne \emptyset$.  Thus there exist an $x \in X$ such that $J(f) = f(x)$ for all $f \in \mathbb{R}_{\infty}^X$ from which it follows that $\mathcal{Y}(x) = ev_x$ and we conclude that $\mathcal{Y}$ is a [[full functor]].
+Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then, at the single component of $\mathcal{R}$, $J$ is a linear functional from the $\mathbb{R}$-linear space $\mathbb{R}_{\infty}^X$ to the $\mathbb{R}$-linear space $\mathbb{R}_{\infty}$.  The naturality condition requires $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$.  All told, $J$ is a weakly averaging linear functional i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then, because $X \in_{ob} \mathbf{Cvx}_{Meas}$, it satisfies the fullness property and we have, for all $f \in \mathbb{R}_{\infty}^X$, the property that $J(f) = \mathbb{E}_P(f) \in Im(f)$.  So there exists an element $x_f \in X_f = \{x \in X \, | \, J(f) = f(x) \}$ such that $J(f)=f(x_f)$. But the fullness property says $\cap_f X_f \ne \emptyset$.  Thus there exist an $x \in X$ such that $J(f) = f(x)$ for all $f \in \mathbb{R}_{\infty}^X$ from which it follows that $\mathcal{Y}(x) = ev_x$ and we conclude that $\mathcal{Y}$ is a [[full functor]].
 \end{proof}
 
-Let $\delta_x$ denote the Dirac measure at $x$.
 
 \begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
 \end{corollary}
@@ -213,7 +212,7 @@ The defining property of $\epsilon_X$ is that it is the unique affine measurable
 $$ 
 f \circ \epsilon_X = \mathbb{E}_{\bullet}(id_X) \circ G(f) = \mathbb{E}_{\bullet}(f)
 $$
-holds. In the special case of $X = \mathbb{R}_{\infty}$ or, more generally for $X$ a closed convex subset of $\mathbb{R}^n$  it follows that for each fixed $P \in G(X)$ that $\epsilon_X(P) = \mathbb{E}_{P}(id_X)$. Henceforth we use the notation $\mathbb{E}_{\bullet}(id_X)$ for the unique affine measurable function $G(X) \rightarrow X$ such that, for each fixed $P \in G(X)$,  the property
+holds. In the special case of $X = \mathbb{R}_{\infty}$ or  for $X$ a closed convex subset of $\mathbb{R}^n$  it follows that for each fixed $P \in G(X)$ that $\epsilon_X(P) = \mathbb{E}_{P}(id_X)$. Henceforth we use the notation $\mathbb{E}_{\bullet}(id_X)$ for the unique affine measurable function $G(X) \rightarrow X$ such that, for each fixed $P \in G(X)$,  the property
 $$
 f \big( \mathbb{E}_P(id_X)\big) = \mathbb{E}_P(f) \quad \quad \forall f \in \mathbb{R}_{\infty}^X
 $$
@@ -221,7 +220,7 @@ holds. In other words, by definition,  $\mathbb{E}_P(id_X)$ is the unique point 
 
 
 \begin{lemma}
-If $X \in_{ob} \mathbf{Cvx}_{Meas}$ then the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is a $G$-algebra.
+If $X \in_{ob} \mathbf{Cvx}_{Meas}$ then the function $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$ is a G-algebra.
 \end{lemma}
 \begin{proof} 
 We need to show the following two properties: (1) for all $x \in X$ we have $\mathbb{E}_{\delta_x}(id_X) = x$, and (2)$ \mathbb{E}_{\bullet}(id_X) \circ \mu_X = \mathbb{E}_{\bullet}(id_X) \circ G(\mathbb{E}_{\bullet}(id_X))$.
@@ -241,7 +240,7 @@ which coincides with the left hand side of the required condition.
 
 \end{proof}
 
-\begin{lemma} Let $X \in_{ob} \mathbf{Cvx}_{Meas}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
+\begin{lemma} Let $X \in_{ob} \mathbf{Cvx}_{Meas}$. Every affine measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ yields a morphism of $G$-algebras.
 \end{lemma}
 \begin{proof} 
 We have already noted, for every $P \in G(X)$, that   $\mathbb{E}_P(id_X) \in X$ is the unique point in $X$ such that $f(\mathbb{E}_{P}(id_X)) = \mathbb{E}_P(f)$ for all affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$.
@@ -295,7 +294,7 @@ It is now easy to verify that $\langle \mathcal{F}, \mathcal{U}, \eta, \mathbb{E
 $$
 \Phi : \mathbf{Cvx}_{Meas} \rightarrow \mathbf{Meas}^G
 $$
-is an equivalence. (The monadicity theorem is Theorem 1, page 147 of [[CWM]]. Although see the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}$ between any algebraic variety and the corresponding category of algebras induced by the free and forgetful functor of that algebraic variety is an equivalence.  Indeed, the [[category]] $\mathbf{Cvx}$ is one such algebra.  By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact that all the affine sum operations are measurable in $\mathbf{Cvx}_{Meas}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Cvx}_{Meas} \rightarrow \mathbf{Meas}^G$ is an equivalence. That completes the proof that  $\mathbf{Cvx}_{Meas}$ is equivalent to $\mathbf{Alg}_G$.
+is an equivalence. (The monadicity theorem is Theorem 1, page 147 of [[CWM]]. Although see the note on strict monadicity at [[monadicity theorem]].) In Theorem 1, Chapter VI, page 152 [[CWM]], MacLane provides the proof that the [[comparison functor]] $K: \langle \Omega, E \rangle-\mathbf{Alg} \rightarrow \mathbf{Set}^{\mathcal{U}'\circ \mathcal{F}'}$ between any algebraic variety and the corresponding category of algebras induced by the [[free functor]] $\mathcal{F}'$ and [[forgetful functor]] $\mathcal{U}'$ of that algebraic variety is an equivalence.  Indeed, the [[category]] $\mathbf{Cvx}$ is one such algebra, and it is convenient to view the proof as a proof that the [[comparison functor]] $K: \mathbf{Cvx} \rightarrow \mathbf{Set}^{\mathcal{U}'\circ \mathcal{F}'}$ is an equivalence. That [[free functor]] $\mathcal{F}'$ sends a set $X$ to the set of all formal finite affine sums, $\{ \sum_{i=1}^n p_i x_i \, | \, p_i \in [0,1], \sum_{i=1}^n p_i =1, x_i \in X, n \in \mathbb{N} \}$. By changing the base space from $\mathbf{Set}$ to $\mathbf{Meas}$, and using the fact from Lemma 3.2 that all the affine sum operations are measurable in $\mathbf{Cvx}_{Meas}$ rather than just set functions, that proof carries through verbatim to show that the [[comparison functor]] $\Phi:\mathbf{Cvx}_{Meas} \rightarrow \mathbf{Meas}^{\mathcal{U} \circ \mathcal{F}}$ is an equivalence. That completes the proof that  $\mathbf{Cvx}_{Meas}$ is equivalent to $\mathbf{Alg}_G$.
 
   
  
