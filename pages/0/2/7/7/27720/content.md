@@ -191,6 +191,10 @@ $$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{toBool}_{A}(\mathrm
 Extensionality principle for the type of booleans:
 $$\frac{\Gamma \vdash A:\mathrm{Bool} \quad \Gamma \vdash B:\mathrm{Bool}} {\Gamma \vdash \mathrm{ext}_\mathrm{Bool}(A, B):\mathrm{isEquiv}(\mathrm{idToEquiv}(A, B))}$$
 
+#### Induction principle
+
+This type of booleans is weaker than the usual type of booleans, since it doesn't have the usual [[induction principle]] for the type of booleans. However, in the presence of the [[natural numbers type]], one can derive the induction principle of the type of the booelans from the induction principle of the [[natural numbers type]], so in practice, this definition of the type of booleans behaves similarly to the [[positive type]] definition of the booleans as an [[inductive type]]. 
+
 ### As the 0-sphere type
 
 In [[dependent type theory]] with [[pushout types]], the type of booleans / bits can be defiend as the [[sphere type]] of the *[[0-sphere]]* and as such as the beginning of the [[suspension type]]-tower of types of "higher homotopy bits" --- the [[n-sphere|$n$-]][[sphere types]]:
