@@ -53,6 +53,8 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
+* [[Reinhardt cardinal]]
+
 Here is a diagram showing the relation between these:
 
 \begin{imagefromfile}
@@ -87,6 +89,9 @@ Some discussion on large cardinal axioms in the context of a [[polynomial functi
 
 * [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
 
+On [[large set axioms]] in [[constructive set theory]]:
+
+* [[Hanul Jeon]], [[Richard Matthews]], *Very large set axioms over constructive set theories*, The Bulletin of Symbolic Logic. 2024;30(4):455-535. &lbrack;[doi:10.1017/bsl.2024.8](https://doi.org/10.1017/bsl.2024.8), [arXiv:2204.05831](https://arxiv.org/abs/2204.05831)&rbrack;
 
 [[!redirects large cardinal]]
 [[!redirects large cardinals]]
