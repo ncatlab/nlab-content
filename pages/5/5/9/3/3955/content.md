@@ -14,12 +14,17 @@
 =--
 
 
+
 \tableofcontents
 
 
 ## Idea ##
 
-The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite-dimensional manifolds]] are allowed.  However, that does not mean that _no_ [[mapping spaces]] between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is [[compact topological space|compact]].  Thus, in particular, this applies to [[loop spaces]].
+The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite-dimensional manifolds]] are allowed.  However, that does not mean that _no_ [[mapping spaces]] between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is [[compact topological space|compact]].
+
+> NB: Compactness is not necessary, cf. [below](#FrechetLieGroupStructure)
+
+Thus, in particular, this applies to [[loop spaces]].
 
 The method of proving this depends mostly on the structure of the target and only minimally on that of the source.  It is not hard to generalise it to [[manifolds with boundary]] (to get, for example, [[path spaces]]), or even manifolds with corners.  This raises the obvious question as to how general this result can be made.  The purpose of this page is to determine the answer.  Our conjecture is the following:
 
@@ -80,7 +85,7 @@ We assume that the _pair_ $(M,\{P_i\})$ admits a [[local addition]].  By that, w
 Let $g \colon N \to M$ be a smooth map with $g(Q_i) \subseteq P_i$.  Let $E_g$ be the space of sections of $g^* T M$ with the property that the sections over each $Q_i$ are constrained to lie in the corresponding $g^* T P_i$.  In more detail, we define $g^* T M$ in the usual manner:
 
 $$
-g^* T M \coloneqq \{(x,v) \in N \times T M : g(x) = \pi(v)\}
+  g^* T M \coloneqq \{(x,v) \in N \times T M : g(x) = \pi(v)\}
 $$
 
 and then take the space of smooth maps $f \colon N \to g^* T M$ with the property that the composition $N \to g^* T M \to N$ is the identity.  Within that space, we further restrict to those $f$ such that the image of the map $Q_i \to g^* T M \to T M$ lies in $T P_i$.
@@ -280,6 +285,30 @@ $$
 This appears as [Waldorf, lemma A.1.7](#Waldorf).
 
 
+### Fréchet Lie group structure
+ {#FrechetLieGroupStructure}
+
+Consider:
+
+* $G$ a Milnor-regular [[Fréchet Lie group]], such as a finite-[[dimension of a manifold|dimensional]] [[Lie group]] or a [[Banach manifold]] [[Lie group]],
+
+* $M = \mathbb{R}^n \times K$ the [[smooth manifold|smooth]] [[product manifold]] of a [[Cartesian space]] with any [[smooth manifold]] (finite [[dimension of a manifold|dimensional]]).
+
+\begin{proposition}
+
+* If $K$ is [[compact topological space|compact]] 
+
+or
+
+* if $G$ is a [[vector space|vector]] [[Fréchet space]] (regarded as an [[abelian group|abelian]] [[Fréchet Lie group]]),
+
+then $C^\infty(M,G)$ with [[compact-open topology]] and pointwise product is a Milnor-regular [[Fréchet Lie group]], locally modeled on $C^\infty(M,\mathfrak{g})$.
+
+\end{proposition}
+
+([Neeb & Wagemann 2008 Cor. II.8 & Prop. I.2(1)](#NeebWagemann2008))
+
+
 ### Hilbert manifold structure
  {#HilbertManifoldStructure}
 
@@ -328,6 +357,11 @@ Generalising the Lie group structure on the diffeomorphisms of a manifold, the c
 The generalization to [[mapping stacks]] of [[differentiable stacks]] is discussed in
 
 * {#RobertsVozzo16} [[David Michael Roberts]], [[Raymond Vozzo]], _The smooth Hom-stack of an orbifold_, In: Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1 (2018) doi:[10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3), [arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [MATRIX hosted version](https://www.matrix-inst.org.au/2016-matrix-annals/).
+
+On [[Fréchet Lie group]]-[[structure]] on smooth mapping spaces into [[Lie groups]]:
+
+* {#NeebWagemann2008} [[Karl-Hermann Neeb]], [[Friedrich Wagemann]]: *Lie group structures on groups of smooth and holomorphic maps on non-compact manifolds*, Geometriae Dedicata **134** (2008) 17--60 \[<a href="https://doi.org/10.1007/s10711-008-9244-2">doi:10.1007/s10711-008-9244-2</a>, [arXiv:math/0703460](https://arxiv.org/abs/math/0703460)\]
+
 
 
 [[!redirects mapping spaces that are manifolds]]
