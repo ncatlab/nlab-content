@@ -332,6 +332,10 @@ The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
+### Relation to large elimination of the interval type
+
+[[Mike Shulman]] proved in [this MathOverflow post](https://mathoverflow.net/questions/413736/how-to-formulate-the-univalence-axiom-without-universes) that given a [[type universe]] $U$, large elimination of the interval type for $U$-small types is equivalent to the [[univalence axiom]] for $U$. 
+
 ### Univalence and truncation levels
 
 The univalence axiom can be used to deduce facts about the [[homotopy level]] of a univalent universe.
@@ -703,6 +707,10 @@ and realized in [[cubical type theory]] in
 * {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 &lbrack;[pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf)&rbrack;
  
 * [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_, in 21st International Conference on Types for Proofs and Programs (TYPES 2015), Leibniz International Proceedings in Informatics (LIPIcs) **69** (2018) 5:1--5:34 &lbrack;[arxiv:1611.02108](https://arxiv.org/abs/1611.02108), [hal-01378906](https://hal.inria.fr/hal-01378906), [doi:10.4230/LIPIcs.TYPES.2015.5](https://doi.org/10.4230/LIPIcs.TYPES.2015.5)&rbrack;
+
+Proof of the [[univalence axiom]] from large elimination of the interval type relativizing to the [[type universe]]:
+
+* *How to formulate the univalence axiom without universes?* ([web](https://mathoverflow.net/questions/413736/how-to-formulate-the-univalence-axiom-without-universes)) 
 
 [[!redirects univalence]]
 [[!redirects univalent]]
