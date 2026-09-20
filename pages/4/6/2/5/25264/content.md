@@ -1,5 +1,5 @@
 
-* [personal page](http://www.math.lsa.umich.edu/~jchw/)
+* [personal page](https://websites.umich.edu/~jchw)
 
 * [institute page](https://lsa.umich.edu/math/people/faculty/jchw.html)
 
