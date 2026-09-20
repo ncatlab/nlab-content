@@ -26,10 +26,12 @@ Accordingly an [[axiom]] is called _inconsistent_ or to _lead to an inconsistenc
 In most usual logical systems, it follows that an inconsistent system admits a proof of *every* proposition, by the rule [[ex falso quodlibet]] (which is just the elimination rule for the [[empty type]]).  For this reason, sometimes (especially in [[type theory]]), the adjective "inconsistent" is used to mean a system with this property instead.  If we want to distinguish, then a system which admits a proof of every proposition may be called *trivial*.
 
 As a further complication, a [[paraconsistent logic]] is often described as 'inconsistent but not trivial'.  However, many paraconsistent logics (such as [[dual-intuitionistic logic]]) admit ex falso quadlibet and fail to prove $\bot$; their 'inconsistency' is a proof of $p \wedge \neg{p}$ (or two proofs, one of $p$ and one of $\neg{p}$), which then fails to entail $\bot$.  We thus get three distinct levels of inconsistency:
+
 * triviality (proving everything),
 * proving a statement identified as $\bot$,
 * proving $p$ and $\neg{p}$ for some statement $p$ and using an operator identified as [[negation]].
 
+A logic that is trivial in this technical sense can still yield rich metatheory if one considers not only the existence of a proof but also the structure of the proof space. An example of such a logic is [[differential linear logic]] DiLL where every judgement — including the empty sequent — can be derived using the zero proof.
 
 ## Examples
 
