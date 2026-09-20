@@ -225,7 +225,12 @@ See at *[[schreiber:infinity-Chern-Simons theory]]*
 On abelian higher gauge fields ([[B-field]] and higher) generalizing the [[electromagnetic field]]:
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]]: *$p$-Form electrodynamics*, Found. Phys. **16** (1986) 593--617 \[<a href="https://doi.org/10.1007/BF01889624">doi:10.1007/BF01889624</a>\]
- 
+
+* [[Claudio Bunster]], [[Marc Henneaux]]: *The Action for Twisted Self-Duality*, Phys. Rev. D **83** (2011) 125015 \[<a href="https://doi.org/10.1103/PhysRevD.83.125015">doi:10.1103/PhysRevD.83.125015</a>, [arXiv:1103.3621 hep-th](https://arxiv.org/abs/1103.3621)\]
+  > (cf. *[[pre-metric electromagnetism]]*)
+
+* Wikipedia: *[$p$-form electrodynamics](https://en.wikipedia.org/wiki/P-form_electrodynamics)*
+
 
 ### Global description
 
@@ -337,4 +342,6 @@ On higher gauge theory for the description of [[topological order]]:
 
 [[!redirects higher gauge symmetry]]
 [[!redirects higher gauge symmetries]]
+
+[[!redirects p-form electromagnetism]]
 
