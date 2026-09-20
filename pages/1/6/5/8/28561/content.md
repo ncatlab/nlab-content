@@ -65,9 +65,9 @@ The (standard Martin-Lof style) equivalence induction states that given a type f
 
 The inference rules for this version of equivalence induction are given by:
 
-$$\frac{\Gamma, X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \; \mathrm{type}}{\Gamma, T:\Pi A.P(A, A, \mathrm{idequiv}_A), X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \vdash \mathrm{ind}_\simeq^P(T, X, Y, e):P(X, Y, e)}$$
+$$\frac{\Gamma, X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \; \mathrm{type}}{\Gamma, T:\forall A.P(A, A, \mathrm{idequiv}_A), X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \vdash \mathrm{ind}_\simeq^P(T, X, Y, e):P(X, Y, e)}$$
 
-$$\frac{\Gamma, X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \; \mathrm{type}}{\Gamma, T:\Pi A.P(A, A, \mathrm{idequiv}_A), X \; \mathrm{type} \vdash \mathrm{ind}_\simeq^P(T, X, X, \mathrm{idequiv}_X) \equiv T(X):P(X, X, \mathrm{idequiv}_X)}$$
+$$\frac{\Gamma, X \; \mathrm{type}, Y \; \mathrm{type}, e:X \simeq Y \vdash P(X, Y, e) \; \mathrm{type}}{\Gamma, T:\forall A.P(A, A, \mathrm{idequiv}_A), X \; \mathrm{type} \vdash \mathrm{ind}_\simeq^P(T, X, X, \mathrm{idequiv}_X) \equiv T(X):P(X, X, \mathrm{idequiv}_X)}$$
 
 ## In cubical type theory
 
