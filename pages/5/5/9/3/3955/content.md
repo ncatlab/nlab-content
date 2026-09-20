@@ -90,7 +90,7 @@ $$
 
 and then take the space of smooth maps $f \colon N \to g^* T M$ with the property that the composition $N \to g^* T M \to N$ is the identity.  Within that space, we further restrict to those $f$ such that the image of the map $Q_i \to g^* T M \to T M$ lies in $T P_i$.
 
-Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is sequentially compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#km).
+Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is sequentially compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#KrieglMichor1997).
 
 +-- {: .query}
 [[Andrew Stacey]] This, I think, is the crucial part: that $E_p$ is a convenient vector space.  I need to expand on this and check that all is as I think it is.
@@ -334,6 +334,20 @@ Same for the higher Sobolev spaces $H^n$.
 
 
 ## References
+
+Via [[Fréchet manifolds]] (and more generally LF-manifolds):
+
+* {#Michor80} [[Peter W. Michor]]: _Manifolds of Differentiable Mappings_, Shiva Publishing (1980) &lbrack;[pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf), [[Michor-MdM1980.pdf:file]]&rbrack;
+
+Via [[Frölicher spaces]]:
+
+* [[Peter W. Michor]]: *Manifolds of mappings and shapes*, in: Lizhen Ji, Frans Oort, [[Shing-Tung Yau]] (eds.): *The legacy of Bernhard Riemann after one hundred and fifty years*, ALM **35**, International Press Boston (2016) 459--486 \[<a href="https://arxiv.org/abs/1505.02359">arXiv:1505.02359 math.DG</a>\]
+
+* [[Peter W. Michor]]: *Manifolds of mappings for continuum mechanics*, in: Reuven Segev, Marcelo Epstein (eds).: *Geometric Continuum Mechanics*, Advances in Continuum Mechanics **42**, Birkhäuser (2020) 3--75 \[<a href="https://doi.org/10.1007/978-3-030-42683-5_1">doi:10.1007/978-3-030-42683-5_1</a>, [arXiv:1909.00445 math.DG](https://arxiv.org/abs/1909.00445)\]
+
+* {#KrieglMichor1997} [[Andreas Kriegl]], [[Peter Michor]]: *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [doi:10.1090/surv/053](https://doi.org/10.1090/surv/053), [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
+
+
 
 Via [[diffeological spaces]]:
 
