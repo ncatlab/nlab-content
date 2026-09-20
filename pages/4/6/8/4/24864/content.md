@@ -37,8 +37,6 @@ Then we have judgments for universe levels and predicate logic:
 
 and the formal [[signature (in logic)|signature]] and [[inference rules]] of a weak form of arithmetic involving only zero and the successor operation. Important to note here is that there is no induction principle commonly found in [[Peano arithmetic]] or [[Heyting arithmetic]].
 
-These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
-
 ### Typing judgments and Russell universes
 
 Now, we introduce the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a [[Russell universe]], whose terms are the types themselves. Russell universes are formalized with the following rules:
