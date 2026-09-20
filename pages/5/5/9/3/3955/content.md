@@ -351,7 +351,7 @@ Via [[Frölicher spaces]]:
 
 Via [[diffeological spaces]]:
 
-* {#Losik} M. V. Losik: _Categorical Differential Geometry_ [[Cahiers]] **35** 4 (1994) 274--290  
+* {#Losik} M. V. Losik: _Categorical Differential Geometry_, [[Cahiers]] **35** 4 (1994) 274--290 \[<a href="www.numdam.org/item/CTGDC_1994__35_4_274_0/a">doi:CTGDC_1994__35_4_274_0/a</a>\] 
 
 * {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
