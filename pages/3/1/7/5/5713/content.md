@@ -1,7 +1,13 @@
 
-* [website](http://www.uchile.cl/?_nfpb=true&_pageLabel=conUrl&url=6568)
+Claudio Bunster Weitzmann (previously: Claudio Teitelboim Weitzmann)
+
+* [institute page](http://www.uchile.cl/?_nfpb=true&_pageLabel=conUrl&url=6568)
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Claudio_Bunster)
+
+* [inSpire page](https://inspirehep.net/authors/986404)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Claudio-Teitelboim-6060707)
 
 ## Selected writings
 
