@@ -168,7 +168,7 @@ The structural meaning of elementary embeddings seems not to be well-explored.
 
 ### Inconsistency
 
-The "ultimate" closure property, hence the "strongest" large cardinal axiom, would be having a nontrivial elementary embedding $j\colon V\to V$ (i.e. $M$ is all of $V$).  Sometimes the critical point of such an embedding, if one exists, is called a *Reinhardt cardinal*.  However, having such an e.e. turns out to be inconsistent...sort of.
+The "ultimate" closure property, hence the "strongest" large cardinal axiom, would be having a nontrivial elementary embedding $j\colon V\to V$ (i.e. $M$ is all of $V$).  Sometimes the critical point of such an embedding, if one exists, is called a *[[Reinhardt cardinal]]*.  However, having such an e.e. turns out to be inconsistent...sort of.
 
 The technicality is that because any e.e. $V\to V$ is a [[proper class]], the proposition "there does not exist an e.e. $V\to V$" cannot be stated in ZF (one cannot quantify over proper classes).  What we can prove is the following meta-theorem (one instance per formula $\varphi(x,y)$ that might define an e.e.).
 
@@ -184,6 +184,10 @@ Now define $\kappa$ to be the smallest ordinal which is a critical point of an e
 =--
 
 Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain *non-definable* proper classes, in theory there might still be an e.e. $V\to V$ which is not definable.  One can also access such an idea by adding a new symbol "$j$" to ZF and asserting that it is an e.e.  However, it was shown by Kunen in 1971, using a technical combinatorial argument, that the existence of such an e.e. is inconsistent with the [[axiom of choice]].  It is unknown whether it is consistent with [[ZF]].
+
+## Related concepts
+
+* [[Reinhardt cardinal]]
 
 [[!redirects elementary substructure]]
 [[!redirects elementary submodel]]
