@@ -303,6 +303,10 @@ leading over to generalization of the idea such as to [[RR-fields]].
 
 Further discussion:
 
+* {#BunsterHenneaux2011} [[Claudio Bunster]], [[Marc Henneaux]]; §2.1 in: *The Action for Twisted Self-Duality*, Phys. Rev. D **83** (2011) 125015 \[<a href="https://doi.org/10.1103/PhysRevD.83.125015">doi:10.1103/PhysRevD.83.125015</a>, [arXiv:1103.3621](https://arxiv.org/abs/1103.3621)\]
+  > (generalized to abelian [[higher gauge theory]])
+
+
 * {#HehlItinObukhov16} [[Friedrich W. Hehl]], [[Yakov Itin]], [[Yuri N. Obukhov]], *On Kottler's path: origin and evolution of the premetric program in gravity and in electrodynamics*, International Journal of Modern Physics D **25** 11 (2016) 1640016  &lbrack;[arXiv:1607.06159](https://arxiv.org/abs/1607.06159), [doi:10.1142/S0218271816400162](https://doi.org/10.1142/S0218271816400162)&rbrack;
 
 * {#BBSS15} [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], Rem. 2.3 in: _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
