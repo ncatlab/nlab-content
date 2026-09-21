@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -140,6 +140,13 @@ Relation to [[2d CFT]]:
 On [[QFT on curved spacetimes]] in view of the [[Schwinger effect]], [[Unruh effect]] and [[Hawking radiation]]:
 
 * Tomohiro Matsuda: *Quantum field theory on curved manifolds* &lbrack;[arXiv:2501.09919](https://arxiv.org/abs/2501.09919)&rbrack;
+
+
+On subtle [[PDE]]-aspects:
+
+* [[Igor Khavkine]]: *Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory* \[<a href="https://arxiv.org/abs/1211.1914">arXiv:1211.1914</a>\]
+
+* [[Igor Khavkine]]: *Covariant phase space, constraints, gauge and the Peierls formula*, Int. J. Mod. Phys. A **29** (2014) 1430009 \[<a href="https://doi.org/10.1142/S0217751X14300099">doi:10.1142/S0217751X14300099</a>, [arXiv:1402.1282](https://arxiv.org/abs/1402.1282)\]
 
 
 
