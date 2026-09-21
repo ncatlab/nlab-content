@@ -11,9 +11,9 @@ On [[constructive set theory]]:
 
 * {#AczelRathjen01} [[Peter Aczel]], [[Michael Rathjen]], _Notes on Constructive Set theory_, 2001 ([pdf](https://events.math.unipd.it/3wftop/pdf/AczelRathjen.pdf), [[AczelRathjenCST.pdf:file]])
 
-On [[constructible universes]]:
+On [[constructible universes]] in [[constructive set theory]]:
 
-* [[Richard Matthews]], [[Michael Rathjen]], _Constructing the Constructible Universe Constructively_ &lbrack;[arxiv:2206.08283](https://arxiv.org/abs/2206.08283)&rbrack;
+* [[Richard Matthews]], [[Michael Rathjen]], *Constructing the Constructible Universe Constructively*, Annals of Pure and Applied Logic, Volume 175, Issue 3, March 2024. &lbrack;[doi:10.1016/j.apal.2023.103392](https://doi.org/10.1016/j.apal.2023.103392), [arxiv:2206.08283](https://arxiv.org/abs/2206.08283)&rbrack;
 
 On [[Lifschitz realizability]]:
 
