@@ -22,10 +22,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -147,6 +145,11 @@ Discussion of the Solovay-Kitaev theorem for quantum compilation in the context 
 * Caitlin Carnahan, Daniel Zeuch, [[Nicholas E. Bonesteel]], *Systematically generated two-qubit anyon braids*, Phys. Rev. A **93** 052328 (2016) &lbrack;[arXiv:1511.00719](https://arxiv.org/abs/1511.00719), [doi:10.1103/PhysRevA.93.052328](https://doi.org/10.1103/PhysRevA.93.052328)&rbrack;
 
 *  [[Emil Génetay-Johansen]], [[Tapio Simula]], Section IV of: *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) &lbrack;[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)&rbrack;
+
+* Phillip C. Burke, Christos Aravanis, Johannes Aspman, Jakub Mareček, Jiří Vala: *Topological quantum compilation of two-qubit gates*, Phys. Rev. A **110** (2014) 052616 &lbrack;[doi:10.1103/PhysRevA.110.052616](https://doi.org/10.1103/PhysRevA.110.052616), [arXiv:2408.07132](https://arxiv.org/abs/2408.07132)&rbrack; 
+
+* Pavel Rytir, Phillip C. Burke, Christos Aravanis, Jiri Vala, Jakub Mareček: *Topological Quantum Compilation Using Mixed-Integer Programming*, IEEE Transactions on Quantum Engineering (2026) &lbrack;[doi:10.1109/TQE.2026.3710775](https://doi.org/10.1109/TQE.2026.3710775), [arXiv:2511.09513](https://arxiv.org/abs/2511.09513)&rbrack;
+
 
 
 
