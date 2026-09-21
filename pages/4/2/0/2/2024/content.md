@@ -48,7 +48,7 @@ In the case of [[locales]], it is sufficient to require the above definition onl
 
 *  In [[classical mathematics]], it always exists; thus classically every locale is overt.
 
-*  In impredicative [[constructive mathematics]] (such as the [[internal logic]] of a [[topos]]), the positivity predicate can be defined, but it may not satisfy the requisite univeral property of [[adjunction|adjointness]].  Thus, constructively, not every locale is overt.  However, even constructively, every [[topological locale]] is overt (so a [[sober space]] is overt regardless of whether it is viewed as a topological space or as a locale).
+*  In impredicative [[constructive mathematics]] (such as the [[internal logic]] of a [[topos]]), the positivity predicate can be defined, but it may not satisfy the requisite universal property of [[adjunction|adjointness]].  Thus, constructively, not every locale is overt.  However, even constructively, every [[topological locale]] is overt (so a [[sober space]] is overt regardless of whether it is viewed as a topological space or as a locale).
 
 *  In constructive [[predicative mathematics]], a positivity predicate cannot be defined and so must be given as a structure on (predicative data that generate) the locale, as is done with a [[formal topology]].  Once this structure is assumed, one can then ask whether a formal topology is overt, i.e. whether the axiomatic positivity predicate satisfies the requisite adjointness.
 
