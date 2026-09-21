@@ -20,5 +20,7 @@ On [[abelian Chern-Simons theory]] as an [[extended TQFT]]:
 
 * [[Daniel Galviz]]: *Classification of Extended Abelian Chern-Simons Theories* &lbrack;[arXiv:2604.02929](https://arxiv.org/abs/2604.02929)&rbrack;
 
+* [[Daniel Galviz]]: *A Functorial Theory of Defects in Abelian Chern-Simons Theory* &lbrack;[arXiv:2609.21414](https://arxiv.org/abs/2609.21414)&rbrack;
+
 
 category: people
