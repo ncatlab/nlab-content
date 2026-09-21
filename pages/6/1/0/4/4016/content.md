@@ -17,7 +17,6 @@
 
 A [[cardinal number]] $\kappa$ is **measurable** if some (hence any) set of cardinality $\kappa$ admits a two-valued [[measure]] which is $\kappa$-additive, or equivalently an [[ultrafilter]] which is $\kappa$-complete.
 
-
 ## Properties
 
 Any measurable cardinal is, in [[ZFC]], necessarily [[inaccessible cardinal|inaccessible]], and in fact much larger than the smallest inaccessible.  In fact, if $\kappa$ is measurable, then there is a $\kappa$-complete ultrafilter $\mathcal{U}$ on $\{\lambda | \lambda \lt \kappa\}$ which contains the set $\{\lambda | \lambda \lt \kappa$ and $\lambda$ is inaccessible $\}$.  In particular, there are $\kappa$ inaccessible cardinals smaller than $\kappa$. Note that in [[ZF]] it is consistent that $\omega_1$, a successor cardinal, is measurable.
@@ -37,6 +36,12 @@ Furthermore, the category $Set^{op}$ has a [[small category|small]] [[dense subc
 
 This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
+## In constructive set theory
+
+In [[IZF]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without [[excluded middle]]. As a result, one has to distinguish between *Ulam measurable cardinals* and *Scott measurable cardinals* in [[constructive set theory]]. 
+
+In [[ZFC]] the [[axiom of constructibility]] is inconsistent with [[measurable cardinals]]. While the [[axiom of constructibility]] is still inconsistent with Scott measurable cardinals in [[IZF]]; the axiom of constructiblity is consistent with Ulam measurable cardinals in IZF. 
+
 ## Related entries
 
 * [[large cardinal]]
@@ -45,10 +50,15 @@ This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
 ## References
 
+Stanisław Ulam's definition of a measurable cardinal in terms of [[ultrafilters]] first appears in:
+
+* [[Stanisław Ulam]]: *Zur Masstheorie in der allgemeinen Mengenlehre*, Fundamenta Mathematicae, 16 (1930): 140–150 &lbrack;[doi:10.4064%2Ffm-16-1-140-150](https://doi.org/10.4064%2Ffm-16-1-140-150)&rbrack;
+
+Measurable cardinals in category theory:
+
 * M. Adelman, [[Andreas Blass|A. Blass]], _Exact functors, local connectedness and measurable cardinals_ , Rend. Sem. Mat. Fis. Milano **54** (1984) pp.9-28.
 
 * {#Blass_76} [[Andreas Blass]], _Exact Functors and Measurable Cardinals_ , Pacific J. Math. **63** (1976) pp.335-346. ([euclid](https://projecteuclid.org/euclid.pjm/1102867389))
-
 
 * [[Andreas Blass]], _Corrections to: 'Exact Functors and Measurable Cardinals'_ , Pacific J. Math. **73** (1977) p.540. ([euclid](https://projecteuclid.org/euclid.pjm/1102810622))
 
@@ -65,3 +75,15 @@ Some discussion on measurable cardinals in the context of a [[polynomial functio
 
 [[!redirects measurable cardinal]]
 [[!redirects measurable cardinals]]
+
+[[!redirects Ulam measurable cardinal]]
+[[!redirects Ulam measurable cardinals]]
+
+[[!redirects Ulam's measurable cardinal]]
+[[!redirects Ulam's measurable cardinals]]
+
+[[!redirects Scott measurable cardinal]]
+[[!redirects Scott measurable cardinals]]
+
+[[!redirects Scott's measurable cardinal]]
+[[!redirects Scott's measurable cardinals]]
