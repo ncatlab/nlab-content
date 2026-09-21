@@ -227,7 +227,7 @@ Early lecture notes:
 
 Monographs:
 
-* [[Valery Rubakov]] (translated by S. S. Wilson): *Classical Theory of Gauge Fields*, Princeton University Press (2000) &lbrack;[spire:607929](https://inspirehep.net/literature/607929)<a href="https://students.iiserkol.ac.in/~mms15ms051/courses/PH4204/[Valery%20Rubakov,%20Stephen%20S%20Wilson]%20Classical%20Theory%20of%20Gauge%20Fields.pdf">pdf</a>&rbrack;
+* [[Valery Rubakov]] (translated by S. S. Wilson): *Classical Theory of Gauge Fields*, Princeton University Press (2000) &lbrack;[doi:10.1515/9781400825097](https://doi.org/10.1515/9781400825097), [spire:607929](https://inspirehep.net/literature/607929), <a href="https://students.iiserkol.ac.in/~mms15ms051/courses/PH4204/[Valery%20Rubakov,%20Stephen%20S%20Wilson]%20Classical%20Theory%20of%20Gauge%20Fields.pdf">pdf</a>&rbrack;
 
 * [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
