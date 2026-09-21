@@ -54,7 +54,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
-* [[Reinhardt cardinal]] 
+* [[Reinhardt cardinal]] -- a large cardinal axiom that inconsistent with [[ZFC]]; one has to move either to [[ZF]] or [[BZC]]. 
 
 * [[Berkeley cardinal]]
 
@@ -96,6 +96,10 @@ A general axiomatic framework for large cardinal axioms is proposed in
 
 * Arthur Apter, Carlos Diprisco, James Henle, William Swicker, _Filter spaces. II. Limit ultraproducts and iterated embeddings_, Acta Cient. Venezolana 40 (1989), no. 5-6, 311&#8211;318.
 
+An overview of large cardinal axioms:
+
+* Rohan Srivastava, *The Landscape of Large Cardinals* &lbrack;[arXiv:2205.01787](https://arxiv.org/abs/2205.01787)&rbrack;
+
 Some discussion on large cardinal axioms in the context of a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]] occurs in:
 
 * [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
@@ -107,6 +111,10 @@ On [[large set axioms]] in [[constructive set theory]]:
 On very [[large cardinal axioms]]:
 
 * [[Joan Bagaria]], [[Peter Koellner]], [[W. Hugh Woodin]]: *Large Cardinals Beyond Choice*, The Bulletin of Symbolic Logic, Vol. 25, No. 3 (September 2019), pp. 283-318 (36 pages) &lbrack;[jstor:stable/26788522](https://www.jstor.org/stable/26788522)&rbrack;
+
+On [[large cardinal axioms]] without the [[axiom of replacement]]:
+
+* *Large cardinals without replacement*, MathOverflow ([web](https://mathoverflow.net/questions/383978/large-cardinals-without-replacement))
 
 [[!redirects large cardinal]]
 [[!redirects large cardinals]]
