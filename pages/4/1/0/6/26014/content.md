@@ -136,7 +136,7 @@ and for $3$-fusion categories
 
 based on the definition of fusion $n$-categories in
 
-* {#JF20nf} Theo Johnson-Freyd. *On the classification of topological orders* (2020). ([arXiv:2003.06663](https://arxiv.org/abs/2003.06663)).
+* {#JF20nf} [[Theo Johnson-Freyd]]: *On the classification of topological orders* &lbrack;[arXiv:2003.06663](https://arxiv.org/abs/2003.06663)&rbrack;
 
 In the context of [[factorization algebra|factorization algebras]], see
 
@@ -159,11 +159,11 @@ On the extension of this notion to [[supergroup|fermionic symmetries]] see e.g.
 
 * Federico Ambrosino, Ran Luo, Yi-Nan Wang, Yi Zhang. *Understanding Fermionic Generalized Symmetries* (2024). ([arXiv:2404.12301](https://arxiv.org/abs/2404.12301)).
 
-* P. A. Grassi, S. Penati. *Super-Higher-Form Symmetries* (2025). ([arXiv:2503.16182](https://arxiv.org/abs/2503.16182)).
+* [[Pietro A. Grassi]], S. Penati: *Super-Higher-Form Symmetries*  &lbrack;[arXiv:2503.16182](https://arxiv.org/abs/2503.16182)&rbrack;
 
-On conserved currents (of putative global higher symmetries) coming from [[Chern-Weil theory]]
+On [[conserved currents]] (of putative global higher symmetries) coming from [[Chern-Weil theory]]:
 
-* Ben Heidenreich, Jacob McNamara, Miguel Montero, Matthew Reece, Tom Rudelius, Irene Valenzuela. *Chern-Weil Global Symmetries and How Quantum Gravity Avoids Them* (2020). ([arXiv:2012.00009](https://arxiv.org/abs/2012.00009)).
+* [[Ben Heidenreich]], [[Jacob McNamara]], [[Miguel Montero]], [[Matthew Reece]], [[Tom Rudelius]], Irene Valenzuela: *Chern-Weil Global Symmetries and How Quantum Gravity Avoids Them* &lbrack;[arXiv:2012.00009](https://arxiv.org/abs/2012.00009)&rbrack;
 
 Via [[factorization algebras]] and [[classifying spaces]]:
 
