@@ -1,5 +1,5 @@
 
-* [website](https://geoffroy.re/en/cv/)
+* [personal page](https://geoffroy.re/en/cv/)
 
 ## Selected writings
 
