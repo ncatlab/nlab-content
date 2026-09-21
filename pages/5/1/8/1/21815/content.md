@@ -48,6 +48,13 @@ On [[D9-branes]]:
 * [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
 
 
+On [[gauged supergravity|gauged]] [[D=9 supergravity]]:
+
+* J. J. Fernandez-Melgarejo, [[Tomás Ortín]], E. Torrente-Lujan: *The general gaugings of maximal d=9 supergravity*, J. High Energ. Phys. **2011** 68 (2011) \[<a href="https://doi.org/10.1007/JHEP10(2011)068">doi:10.1007/JHEP10(2011)068</a>, [arXiv:1106.1760](https://arxiv.org/abs/1106.1760)\]
+
+
+
+
 On [[defect branes]]:
 
 * {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
