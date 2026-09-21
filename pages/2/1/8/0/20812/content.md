@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -138,7 +138,7 @@ With the corrected 7-flux in [[twisted Cohomotopy]] it becomes true that
 
 The suggestion originates in
 
-* {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
+* {#Witten96a} [[Edward Witten]]: _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
 
 * {#Witten96b} [[Edward Witten]], *Five-Brane Effective Action In M-Theory*, J. Geom. Phys. **22** 2 (1997) 103-133 &lbrack;[arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234), <a href="https://doi.org/10.1016/S0393-0440(97)80160-X">doi:10.1016/S0393-0440(97)80160-X</a>&rbrack;
 
