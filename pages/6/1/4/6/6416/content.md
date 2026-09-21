@@ -11,6 +11,7 @@ Robert Paul Geroch
 
 ## Selected writings
 
+
 Concerning [[spin structures]] on 1+3D [[Lorentzian manifolds]] (and proving that these exists iff there exists a [[framed manifold|framing]]):
 
 * {#Geroch68} [[Robert Geroch]]: *Spinor Structure of Space‐Times in General Relativity. I*, J. Math. Phys. **9** (1968) 1739–1744 &lbrack;[doi:10.1063/1.1664507](https://doi.org/10.1063/1.1664507), [[Geroch-SpinorStructureI.pdf:file]]&rbrack;
@@ -41,9 +42,10 @@ On [[mathematical physics]], making explicit the [[categories]] (and some elemen
 
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html), [ark:/13960/t10p8v264](https://archive.org/details/mathematicalphys0000gero/mode/2up)&rbrack;
 
-On [[partial differential equations]] appearing in [[physics]]:
+On [[partial differential equations]] appearing in [[mathematical physics|mathematical]] [[physics]]:
 
-* [[Robert Geroch]], _Partial Differential Equations of Physics_, in: _[General Relativity: Proceedings](https://inspirehep.net/literature/328567)_ Edited by G.S. Hall and J.R. Pulham. Edinburgh, IOP Publishing, 1996. p. 19 ([arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055))
+* [[Robert Geroch]]: *Partial Differential Equations of Physics*, in: G. S. Hall, J. R. Pulham (eds.): _General Relativity: Proceedings_ Edinburgh, IOP Publishing (1996) 19 &lbrack;[arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055), [doi:10.1201/9780203753804-2](https://doi.org/10.1201/9780203753804-2) [inSpire:328567](https://inspirehep.net/literature/328567)&rbrack;
+
 
 ## Related entries
 
