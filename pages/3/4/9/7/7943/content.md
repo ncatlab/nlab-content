@@ -10,9 +10,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -41,6 +39,10 @@ On [[2-representations]] of the [[string 2-group]] on [[2-vector spaces]] and th
 Reviewed in:
 
 * [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023)&rbrack;
+
+On [[categorification]] of the notion of [[characters of linear representations]]:
+
+* [[Kate Ponto]], Travis Wheeler: *Character theory for 2-representations* &lbrack;[arXiv:2609.21052](https://arxiv.org/abs/2609.21052)&rbrack;
 
 
 
