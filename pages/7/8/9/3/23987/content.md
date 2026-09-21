@@ -3431,9 +3431,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#MarečekSep2026} 21 Sep 2026
 
-* Jakub Mareček (Czech Technical University, Prague):
+  [Jakub Mareček](https://scholar.google.com/citations?user=Ew8TNsMAAAAJ&hl=en) (Czech Technical University, Prague):
 
   **Compiling Quantum Gates from Braids**
+
+  slides: [[Marecek_CQTS_Sep2026.pdf|pdf:file]]
 
   cf. [arXiv:2408.07132](https://arxiv.org/abs/2408.07132), [arXiv:2511.09513](https://arxiv.org/abs/2511.09513)
 
