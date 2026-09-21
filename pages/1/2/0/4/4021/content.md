@@ -35,7 +35,7 @@ Some argue that in the study of measure and probability, one should start not on
 
 ### Stochastic (random) processes
 
-(...)
+[[stochastic process]]
 
 [[ergodic process]]
 
