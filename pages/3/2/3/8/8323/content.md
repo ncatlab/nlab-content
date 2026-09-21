@@ -98,7 +98,7 @@ shown in the following table together with their [[categorical semantics]] [[cat
 
 If some of the structural rules are *not* imposed in a [[formal logic]] one speaks of *[[substructural logic]]*.
 
-For instance, if the [[weakening rule]] and [[contraction rule]] are omitted, one speaks of [[linear logic]]/[[linear type theory]] (see [there](linear+logic#AbsenceOfWeakeningAndContraction)), since then the [[logical conjunction]] is no longer consrained to behave like a [[Cartesian product]] but may behave like a non-cartesian [[tensor product]].
+For instance, if the [[weakening rule]] and [[contraction rule]] are omitted, one speaks of [[linear logic]]/[[linear type theory]] (see [there](linear+logic#AbsenceOfWeakeningAndContraction)), since then the [[logical conjunction]] is no longer constrained to behave like a [[Cartesian product]] but may behave like a non-cartesian [[tensor product]].
 
 
 
