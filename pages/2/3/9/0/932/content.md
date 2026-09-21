@@ -18,9 +18,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Definition
 
@@ -167,7 +166,7 @@ In the generality of [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * [[Martin Doubek]], [[Martin Markl]], [[Petr Zima]], equation (31) in: *Deformation Theory (lecture notes)*, Archivum mathematicum 43(5), 2007, 333-371 ([arXiv:0705.3719](https://arxiv.org/abs/0705.3719))
 
-* [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics Volume 235, 1 March 2013, Pages 296-320 ([arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009))
+* [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics **235** 1 (2013) 296--320 &lbrack;[arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009)&rbrack;
 
 * Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
 
