@@ -17,7 +17,12 @@ Igor Khavkine is a mathematical physicist working on [[field theory]].
 
 A review and careful re-analysis of [[covariant phase spaces]] in [[local field theory|local]] [[Lagrangian field theory]]:
 
-* {#Khavkine14a} [[Igor Khavkine]]: _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A 29 (2014) ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099))
+* {#Khavkine14a} [[Igor Khavkine]]: _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A **29** (2014) &lbrack;[arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099)&rbrack;
+
+following the discussion of the relevant [[PDEs]] in
+
+* [[Igor Khavkine]]: *Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory* \[<a href="https://arxiv.org/abs/1211.1914">arXiv:1211.1914 gr-qc</a>\]
+
 
 Solving the existence problem of local gauge invariant [[observables]] in [[general relativity]] by showing that while these do not exist as global functions, they do exist as a [[sheaf]] of functions on [[covariant phase space]]:
 
