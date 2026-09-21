@@ -103,6 +103,9 @@ See also:
 
 * [[Andrei Constantin]], Lucas T.-Y. Leung, [[Andre Lukas]], Luca A. Nutricati: *Reproducing Standard Model Fermion Masses and Mixing in String Theory: A Heterotic Line Bundle Study* &lbrack;[arXiv:2507.03076](https://arxiv.org/abs/2507.03076)&rbrack;
 
+* Joshua N. Benabou, Naomi Gendler, Thomas R. Harvey, Jakob Moritz; section 3 of: *Calculating Axion-Matter Couplings in String Theory* &lbrack;[arXiv:2609.20911](https://arxiv.org/abs/2609.20911)&rbrack;
+
+
 
 
 
