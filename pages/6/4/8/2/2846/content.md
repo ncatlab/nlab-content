@@ -189,6 +189,8 @@ Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain 
 
 * [[Reinhardt cardinal]]
 
+* [[Kunen's inconsistency theorem]]
+
 [[!redirects elementary substructure]]
 [[!redirects elementary submodel]]
 [[!redirects elementary morphism]]
