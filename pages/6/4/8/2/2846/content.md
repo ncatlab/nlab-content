@@ -183,13 +183,19 @@ Suppose that $\varphi$ and $a$ exist.  Fix such a $\varphi$.  Fix $\lambda$ as t
 Now define $\kappa$ to be the smallest ordinal which is a critical point of an e.e. $V\to V$ of the form $j_a$ for some $a\in V_\lambda$.  Let $b\in V_\lambda$ be such that $j_b$ is an e.e. $V\to V$ and $\kappa$ is the critical point of $j_b$.  The definition of $\kappa$ is again a definable property, so it follows that $j_b(\kappa)$ is the smallest ordinal which is a critical point of an e.e. $V\to V$ of the form $j_a$ for some $a\in V_{j_b(\lambda)} = V_\lambda$.  Therefore, $\kappa= j_b(\kappa)$, a contradiction to $\kappa$ being the critical point of $j_b$.
 =--
 
-Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain *non-definable* proper classes, in theory there might still be an e.e. $V\to V$ which is not definable.  One can also access such an idea by adding a new symbol "$j$" to ZF and asserting that it is an e.e.  However, it was shown by Kunen in 1971, using a technical combinatorial argument, that the existence of such an e.e. is inconsistent with the [[axiom of choice]].  It is unknown whether it is consistent with [[ZF]].
+Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain *non-definable* proper classes, in theory there might still be an e.e. $V\to V$ which is not definable.  One can also access such an idea by adding a new symbol "$j$" to ZF and asserting that it is an e.e.  However, it was shown by Kunen in 1971, using a technical combinatorial argument, that the existence of such an e.e. is inconsistent with the [[axiom of choice]]; see [[Kunen's inconsistency theorem]] for more information. Such an e.e. is consistent with [[BZC]]; but it is unknown whether it is consistent with [[ZF]].
 
 ## Related concepts
 
 * [[Reinhardt cardinal]]
 
 * [[Kunen's inconsistency theorem]]
+
+## References
+
+* [[Kenneth Kunen]]: *Elementary embeddings and infinitary combinatorics*, Journal of Symbolic Logic. 1971;36(3):407-413. &lbrack;[doi:10.2307/2269948](https://doi.org/10.2307/2269948)&rbrack; 
+
+* [[Hanul Jeon]], *Is BZC inconsistent with Reinhardt cardinals*, Mathematics Stackexchange ([web](https://math.stackexchange.com/a/4009228))
 
 [[!redirects elementary substructure]]
 [[!redirects elementary submodel]]
