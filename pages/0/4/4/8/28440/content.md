@@ -9,7 +9,7 @@ Valery Anatolyevich Rubakov (1955--2022)
 
 On [[gauge theory]]:
 
-* [[Valery Rubakov]] (translated by S. S. Wilson): *Classical Theory of Gauge Fields*, Princeton University Press (2000) &lbrack;[spire:607929](https://inspirehep.net/literature/607929)<a href="https://students.iiserkol.ac.in/~mms15ms051/courses/PH4204/[Valery%20Rubakov,%20Stephen%20S%20Wilson]%20Classical%20Theory%20of%20Gauge%20Fields.pdf">pdf</a>&rbrack;
+* [[Valery Rubakov]] (translated by S. S. Wilson): *Classical Theory of Gauge Fields*, Princeton University Press (2000) &lbrack;[doi:10.1515/9781400825097](https://doi.org/10.1515/9781400825097), [spire:607929](https://inspirehep.net/literature/607929)<a href="https://students.iiserkol.ac.in/~mms15ms051/courses/PH4204/[Valery%20Rubakov,%20Stephen%20S%20Wilson]%20Classical%20Theory%20of%20Gauge%20Fields.pdf">pdf</a>&rbrack;
 
 
 category: people
