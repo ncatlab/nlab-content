@@ -19,6 +19,8 @@ In [[constructive set theory]], one typically uses Reinhardt sets instead of Rei
 
 One also has the notion of a super Reinhardt cardinal or a super Reinhardt set as generalizations of Reinhardt cardinals or Reinhardt sets. 
 
+If one tries to remove the [[axiom of infinity]] from the [[set theory]], a Reinhardt cardinal is sufficient to prove the axiom of infinity. 
+
 ## Definition
 
 ### In ZF
@@ -37,6 +39,8 @@ In BZC, the definition of a Reinhardt cardinal is the same as the definition of 
 
 One only needs to add the $I_3$ axiom to a meta-theory in order to describe BZC + a Reinhardt cardinal. 
 
+Reinhardt cardinals are inconsistent with [[Vopěnka's principle]], since Vopěnka's principle implies the [[axiom of replacement]]. 
+
 ## Related concepts
 
 * [[large cardinal]]
@@ -47,11 +51,23 @@ One only needs to add the $I_3$ axiom to a meta-theory in order to describe BZC 
 
 ## References
 
-* {#JeonMatthews24} [[Hanul Jeon]], [[Richard Matthews]], *Very large set axioms over constructive set theories*, The Bulletin of Symbolic Logic. 2024;30(4):455-535. &lbrack;[doi:10.1017/bsl.2024.8](https://doi.org/10.1017/bsl.2024.8), [arXiv:2204.05831](https://arxiv.org/abs/2204.05831)&rbrack;
+* [[Hanul Jeon]]: *How strong is a Reinhardt set over extensions of CZF?*, &lbrack;[arXiv:2101.07455](https://arxiv.org/abs/2101.07455)&rbrack;
 
-* [[Hanul Jeon]], *Is BZC inconsistent with Reinhardt cardinals*, Mathematics Stackexchange ([web](https://math.stackexchange.com/a/4009228))
+* Rohan Srivastava: *The Landscape of Large Cardinals* &lbrack;[arXiv:2205.01787](https://arxiv.org/abs/2205.01787)&rbrack;
+
+* {#JeonMatthews24} [[Hanul Jeon]], [[Richard Matthews]]: *Very large set axioms over constructive set theories*, The Bulletin of Symbolic Logic. 2024;30(4):455-535. &lbrack;[doi:10.1017/bsl.2024.8](https://doi.org/10.1017/bsl.2024.8), [arXiv:2204.05831](https://arxiv.org/abs/2204.05831)&rbrack;
+
+* [[Hanul Jeon]]: *Is BZC inconsistent with Reinhardt cardinals*, Mathematics Stackexchange ([web](https://math.stackexchange.com/a/4009228))
 
 * Wikipedia, *[Reinhardt cardinal](https://en.wikipedia.org/wiki/Reinhardt_cardinal)*
+
+On [[large cardinal axioms]] without the [[axiom of replacement]]:
+
+* *Large cardinals without replacement*, MathOverflow ([web](https://mathoverflow.net/questions/383978/large-cardinals-without-replacement))
+
+On [[realizability]] models for [[Reinhardt cardinals]]:
+
+* [[Laura Fontanella]], [[Guillaume Geoffroy]], [[Richard Matthews]]: *Realizability Models for Large Cardinals*, In 32nd EACSL Annual Conference on Computer Science Logic (CSL 2024). Leibniz International Proceedings in Informatics (LIPIcs), Volume 288, pp. 28:1-28:18, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2024) &lbrack;[10.4230/LIPIcs.CSL.2024.28](https://doi.org/10.4230/LIPIcs.CSL.2024.28)&rbrack;
 
 [[!redirects Reinhardt cardinal]]
 [[!redirects Reinhardt cardinals]]
