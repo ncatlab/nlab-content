@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -34,6 +32,7 @@ The [[Lie group]] called $E_8$ is the largest-dimensional one of the five [[exce
 [[!include ADE -- table]]
 
 ### Homotopy groups
+ {#HomotopyGroups}
 
 The first nontrivial [[homotopy group]] of the [[topological space]] underlying $E_8$ is
 
@@ -48,7 +47,17 @@ $$
   \,.
 $$
 
-This means that all the way up to the 15 [[coskeleton]] the group $E_8$ looks, [[homotopy theory|homotopy theoretically]] like the [[Eilenberg-MacLane space]] $K(\mathbb{Z},3) \simeq B^3 \mathbb{Z} \simeq B^2 U(1) \simeq B \mathbb{C}P^\infty$.
+(see the references [below](#HomotopyGroupsReferences)).
+
+This means that the [[n-truncation|14-truncation]] (14th [[Postnikov tower|Postnikov stage]]) of $E_8$ is an [[Eilenberg-MacLane space]] 
+
+$$
+  [E_8]_{14} \,\simeq\, B^3 \mathbb{Z}
+  \,.
+$$
+
+This fact plays a key role in certain proposals for [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field]] &lbrack;[Witten 1996 p. 4](#Witten96); [Diaconescu, Moore & Witten 2000 p. 5](#DMW00); [Diaconescu, Freed & Moore 2007](#DFM2007)&rbrack;.
+
 
 ### Subgroups
   {#Subgroups}
@@ -124,12 +133,11 @@ An introductory survey with an eye towards the relation to the [[octonions]] is 
 
 The lower [[homotopy groups]] of $E_8$ are a classical result due to
 
-* [[Raoul Bott]] and H. Samelson, _Application of the theory of Morse to symmetric spaces_ , Amer.
-J. Math., 80 (1958), 964-1029.
+* {#BottSamelson1958} [[Raoul Bott]], [[Hans Samelson]]: _Application of the theory of Morse to symmetric spaces_ , Amer. J. Math. **80** (1958) 964--1029.
 
 The higher homotopy groups are discussed in 
 
-* Hideyuki Kachi, _Homotopy groups of compact Lie groups $E_6$, $E_7$ and $E_8$_ Nagoya Math. J. Volume 32 (1968), 109-139. ([project EUCLID](http://projecteuclid.org/euclid.nmj/1118797372))
+* {#Kachi1968} Hideyuki Kachi: _Homotopy groups of compact Lie groups $E_6$, $E_7$ and $E_8$_, Nagoya Math. J. **32** (1968) 109--139. &lbrack;[doi:10.1017/S0027763000026611](https://doi.org/10.1017/S0027763000026611), [euclid:nmj/1118797372](http://projecteuclid.org/euclid.nmj/1118797372)&rbrack;
 
 See also
 
@@ -139,10 +147,20 @@ See also
 
 The octic [[invariant polynomial]] of $E_8$ is discussed in 
 
-* [[Martin Cederwall]], Jakob Palmkvist, _The octic $E_8$ invariant_ J.Math.Phys.48:073505 (2007) ([arXiv:hep-th/0702024](http://arxiv.org/abs/hep-th/0702024))
-{#CederwallPalmkvist}
+* {#CederwallPalmkvist} [[Martin Cederwall]], [[Jakob Palmkvist]]: _The octic $E_8$ invariant_ J. Math. Phys. **48** (2007) 073505 &lbrack;[arXiv:hep-th/0702024](http://arxiv.org/abs/hep-th/0702024)&rbrack;
+
 
 ### More
+
+In the context of [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field]]:
+
+* {#Witten96} [[Edward Witten]]: _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
+
+* {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. **6** (2003) 1031--1134 \[<a href="http://doi.org/10.4310/ATMP.2002.v6.n6.a2">doi:10.4310/ATMP.2002.v6.n6.a2</a>, <a href="http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</a>\], summarised in: _A Derivation of K-Theory from M-Theory_ \[<a href="http://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
+
+* {#DFM2007} [[Duiliu-Emanuel Diaconescu]], [[Daniel S. Freed]], [[Gregory Moore]]: *The M-theory 3-form and $E_8$ gauge theory*, in: *Elliptic Cohomology: Geometry, Applications, and Higher Chromatic Analogues*, London Mathematical Society Lecture Note Series, Cambridge University Press (2007) 44--88.  \[<a hrf="https://arxiv.org/abs/hep-th/0312069">arXiv:hep-th/0312069</a>\]
+
+
 
 On [[string bordism]] of the [[classifying space]] of $E_8$:
 
