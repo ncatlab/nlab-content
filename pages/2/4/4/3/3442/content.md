@@ -231,8 +231,9 @@ On the partial differential equations appearing in [[mathematical physics|mathem
 
 * [[Cliff P. Burgess]], *Primer on Partial Differential Equations for Physicists*, lecture notes (1990) &lbrack;[pdf](https://physics.mcmaster.ca/~cburgess/Notes/mathphys.pdf), [[Burgess-PDEs.pdf:file]]&rbrack;
 
-* [[Robert Geroch]], _Partial Differential Equations of Physics_, in: _[General Relativity: Proceedings](https://inspirehep.net/literature/328567)_ Edited by G.S. Hall and J.R. Pulham. Edinburgh, IOP Publishing, 1996. p. 19 ([arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055))
+* [[Robert Geroch]]: *Partial Differential Equations of Physics*, in: G. S. Hall, J. R. Pulham (eds.): _General Relativity: Proceedings_ Edinburgh, IOP Publishing (1996) 19 &lbrack;[arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055), [doi:10.1201/9780203753804-2](https://doi.org/10.1201/9780203753804-2) [inSpire:328567](https://inspirehep.net/literature/328567)&rbrack;
 
+* [[Igor Khavkine]]: *Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory* \[<a href="https://arxiv.org/abs/1211.1914">arXiv:1211.1914 gr-qc</a>\]
 
 *  Bijan Kumar Bagchi, *Partial Differential Equations for Mathematical Physicists*, Routledge (2020) &lbrack;[ISBN:9780367227029](https://www.routledge.com/Partial-Differential-Equations-for-Mathematical-Physicists/Bagchi/p/book/9780367227029)&rbrack;
 
