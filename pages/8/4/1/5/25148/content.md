@@ -17,3 +17,6 @@ We can phrase this more structurally as follows: $\kappa$ is Mahlo iff for any f
 ## External links
 
 * Wikipedia, [Mahlo cardinal](https://en.wikipedia.org/wiki/Mahlo_cardinal)
+
+[[!redirects Mahlo cardinal]]
+[[!redirects Mahlo cardinals]]
