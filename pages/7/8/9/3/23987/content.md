@@ -3427,6 +3427,23 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > The core of the talk is what changes when these models leave the [[quantum simulation|simulator]]. Expectation values become shot-noise estimates. Circuits are rewritten to fit a device's native gates and qubit connectivity, often doubling their depth. Gate and readout errors flatten the very loss landscape the optimizer is trying to navigate. Queues and time budgets turn a 200-iteration training loop into a scheduling problem. 
 
 
+\linebreak
+
+* {#MarečekSep2026} 21 Sep 2026
+
+* Jakub Mareček (Czech Technical University, Prague):
+
+  **Compiling Quantum Gates from Braids**
+
+  cf. [arXiv:2408.07132](https://arxiv.org/abs/2408.07132), [arXiv:2511.09513](https://arxiv.org/abs/2511.09513)
+
+  > [[topological quantum computing|Topological quantum computation]] promises intrinsic fault tolerance by encoding and manipulating information through the [[braiding]] of [[anyons]], but turning this promise into usable [[quantum gates]] requires solving a hard [[quantum compilation|compilation]] problem: finding explicit braid sequences that realize target operations. 
+
+  > This talk presents two complementary approaches to that problem. In the first part, we study the compilation of two-qubit gates using [[Fibonacci anyons]], aiming to construct [[quantum entanglement|entangling]] operations that are approximately leakage-free and locally equivalent to [[CNOT]]. We map the reachable set of Fibonacci braiding gates onto the Weyl chamber representation of two-qubit operations, showing that naturally generated local equivalence classes cluster along its edges---between the identity and CNOT, and between DCNOT and SWAP. As a highlight, we present a numerically exact local-equivalent of the SWAP gate built from just nine elementary Fibonacci braids. 
+
+  > In the second part, we introduce a Mixed-Integer Quadratically Constrained Quadratic Programming (MIQCQP) framework for [[topological quantum compilation]] more broadly, and apply it to a non-semisimple extension of [[Ising anyon]] theory. This model, recently shown by Iulianelli et al. ([Nature Communications 16, 6408, 2025](https://doi.org/10.1038/s41467-025-61342-8)) to support universal quantum computation via an existential argument, lacks a constructive gate-synthesis method. 
+
+  > We show how MIQCQP fills this gap, explicitly constructing a CNOT-equivalent entangling gate from Ising braiding operations, and discuss the framework's broader applicability to compilation problems across topological quantum systems. Together, these results illustrate both the geometric structure of naturally-braided gate sets and the power of optimization-based methods for explicit gate synthesis in systems where analytic constructions are unavailable. This is based on joint work with Jiří Vala, Phil Burke, Christos Aravanis, Pavel Rytir, and Johannes Aspman, recently published in Phys Rev A &lbrack;[arXiv:2408.07132](https://arxiv.org/abs/2408.07132)&rbrack; and IEEE T Quantum Engineering &lbrack;[arXiv:2511.09513](https://arxiv.org/abs/2511.09513)&rbrack;
 
 
 \linebreak
