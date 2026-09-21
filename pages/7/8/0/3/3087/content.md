@@ -1,9 +1,18 @@
 
 Behrang Noohi is reader in mathematics at Queen Mary University, London.
 
-* [website](https://www.qmul.ac.uk/maths/profiles/noohib.html)
+* [institute page](https://www.qmul.ac.uk/maths/profiles/noohib.html)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=47214)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Behrang-Noohi-13487019)
 
 ## Selected writings
+
+On [[2-groupoids]], [[2-groups]] and [[crossed modules]]:
+
+* [[Behrang Noohi]]: *Notes on 2-groupoids, 2-groups and crossed-modules*, Homotopy, Homology, and Applications **9** 1 (2007) 75--106 &lbrack;[arXiv:math/0512106](https://arxiv.org/abs/math/0512106), [doi:10.4310/hha.2007.v9.n1.a3](http://doi.org/10.4310/hha.2007.v9.n1.a3)&rbrack;
+
 
 On generalizing [[string topology]] to [[target spaces]] which need not be [[compact topological space|compact]] and moreover may be [[Lie groupoids]]/[[differentiable stacks]]:
 
