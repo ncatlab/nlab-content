@@ -13,7 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] that is inconsistent with [[ZFC]]. In order to remove the inconsistency, one can either choose to remove the [[axiom of choice]] to get [[ZF]] + a Reinhardt cardinal, or one can choose to remove the [[axiom of replacement]] and restrict to the [[axiom of bounded separation]] to get [[BZC]] + a Reinhardt cardinal. 
+A [[large cardinal]] that is inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]. In order to remove the inconsistency, one can either choose to remove the [[axiom of choice]] to get [[ZF]] + a Reinhardt cardinal, or one can choose to remove the [[axiom of replacement]] and restrict to the [[axiom of bounded separation]] to get [[BZC]] + a Reinhardt cardinal. 
 
 In [[constructive set theory]], one typically uses Reinhardt sets instead of Reinhardt cardinals, since cardinals are not well behaved in the absence of [[excluded middle]].
 
@@ -33,7 +33,7 @@ Meanwhile there are multiple inequivalent definitions of a *super Reinhardt set*
 
 ### In BZC
 
-In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, without the [[axiom of replacement]], a Reinhardt cardinal is a much weaker large cardinal axiom; it cannot even construct the large cardinal $\aleph_\omega$ in the absence of replacement. Furthermore, unlike [[ZF]], it is consistent to have a Reinhardt cardinal and [[V = L]] or [[V = Ultimate L]] in [[BZC]]. 
+In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, the absence of the [[axiom of replacement]] makes a Reinhardt cardinal consistent with the [[axiom of choice]]. 
 
 One only needs to add the $I_3$ axiom to a meta-theory in order to describe BZC + a Reinhardt cardinal. 
 
