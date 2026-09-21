@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -234,7 +232,13 @@ for review see
 
 Examples of [[characters of linear representations]] of [[finite groups]] are discussed and listed at 
 
-* {#Montaldi08} [[James Montaldi]], _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
+* {#Montaldi08} [[James Montaldi]], _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_ (2008)
+
+
+On the [[categorification]] to [[2-representations]]:
+
+* [[Kate Ponto]], Travis Wheeler: *Character theory for 2-representations* &lbrack;[arXiv:2609.21052](https://arxiv.org/abs/2609.21052)&rbrack;
+
 
 
 [[!redirects characters of linear representations]]
