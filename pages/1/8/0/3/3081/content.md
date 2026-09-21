@@ -9,7 +9,7 @@ Most of Sibe Marde&#353;i&#263;'s important works are related to [[shape theory]
  
 * S. Marde&#353;i&#263;, [[Jack Segal]], _Shape theory_, North Holland 1982.
  
-* S. Marde&#353;i&#263;, Strong shape and homology, Springer monographs in mathematics, 2000. xii+489 pp.
+* {#Mardešić2000} [[Sibe Mardešić]]: _Strong shape and homology_, Monographs in Mathematics, Springer (2000) &lbrack;ISBN:978-3-662-13064-3, [doi:10.1007/978-3-662-13064-3](https://doi.org/10.1007/978-3-662-13064-3)&rbrack;
 
 * HAZU pages: [Akademik Sibe Marde&#353;i&#263;](http://www.hazu.hr/Akademici/SMardesic.html), in Croatian; and [bio data in English](http://www.hazu.hr/Akademici/SMardesic_bio.html). 
 
