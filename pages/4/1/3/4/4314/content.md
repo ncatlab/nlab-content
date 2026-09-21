@@ -229,6 +229,10 @@ Some discussion on Vopěnka's principle in the context of a [[polynomial functio
 
 * [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
 
+Vopěnka's principle in weak [[set theories]]:
+
+* [[Athanassios Tzouvaras]], *Consequences of Vopěnka's Principle over weak set theories*, Fundamenta Mathematicae 235, no.2, 2016, pp. 127-152 &lbrack;[doi:10.4064/fm982-1-2016](https://doi.org/10.4064/fm982-1-2016), [arXiv:2303.15045](https://arxiv.org/abs/2303.15045)&rbrack;
+
 category: foundational axiom
 
 [[!redirects Vopěnka's principle]]
