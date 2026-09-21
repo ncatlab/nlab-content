@@ -66,6 +66,11 @@ More on $SL_2$ [[S-duality]] in 9D SuGra:
 
 * Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
 
+More on [[gauged supergravity|gauged]] 9D supergravity:
+
+* J. J. Fernandez-Melgarejo, [[Tomás Ortín]], E. Torrente-Lujan: *The general gaugings of maximal d=9 supergravity*, J. High Energ. Phys. **2011** 68 (2011) \[<a href="https://doi.org/10.1007/JHEP10(2011)068">doi:10.1007/JHEP10(2011)068</a>, [arXiv:1106.1760](https://arxiv.org/abs/1106.1760)\]
+
+
 
 [[!redirects 9d supergravity]]
 [[!redirects 9-dimensional supergravity]]
