@@ -150,6 +150,9 @@ Discussion of the Solovay-Kitaev theorem for quantum compilation in the context 
 
 * Pavel Rytir, Phillip C. Burke, Christos Aravanis, Jiri Vala, Jakub Mareček: *Topological Quantum Compilation Using Mixed-Integer Programming*, IEEE Transactions on Quantum Engineering (2026) &lbrack;[doi:10.1109/TQE.2026.3710775](https://doi.org/10.1109/TQE.2026.3710775), [arXiv:2511.09513](https://arxiv.org/abs/2511.09513)&rbrack;
 
+* [Jakub Mareček](https://scholar.google.com/citations?user=Ew8TNsMAAAAJ&hl=en): *Compiling Quantum Gates from Braids*, [talk at](CQTS#MarečekSep2026) [[CQTS]] (21 Sep 2026) &lbrack;[[Marecek_CQTS_Sep2026.pdf|pdf:file]]&rbrack;
+
+
 
 
 
