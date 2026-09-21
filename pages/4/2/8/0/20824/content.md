@@ -56,7 +56,7 @@ An early hint is in
 
 Serious development in
 
-* {#BergshoeffdeBooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+* {#BergshoeffdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]]: _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B **470** (1996) 113--135 &lbrack;[arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150), <a href="http://doi.org/10.1016/0550-3213(96)00171-X">doi:10.1016/0550-3213(96)00171-X</a>&rbrack;
 
 See also:
 
@@ -72,7 +72,7 @@ See also:
 
 As a [[black brane]] the [[D8-brane]] was identified as a solution to [[Romans supergravity]]/[[massive type IIA string theory]] in
 
-* [Bergshoeff-de Boo-Green-Papadopoulos-Townsend 96](#BergshoeffdeBooGreenPapadopoulosTownsend96)
+* [Bergshoeff-de Roo-Green-Papadopoulos-Townsend 96](#BergshoeffdeRooGreenPapadopoulosTownsend96)
 
 See also 
 
@@ -164,6 +164,7 @@ Discussion of possible lift of [[massive type IIA string theory]] to [[M-theory]
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 * {#Hull98} [[Chris Hull]]: *Massive String Theories From M-Theory and F-Theory*, JHEP 9811:027 (1998) &lbrack;[arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021), [doi:10.1088/1126-6708/1998/11/027](https://iopscience.iop.org/article/10.1088/1126-6708/1998/11/027)&rbrack;
+> (essentially re-interpreting the result of [Bergshoeff, de Roo, Green, Papadopoulos & Townsend 1096](#BergshoeffdeRooGreenPapadopoulosTownsend96))
 > "Our purpose here is to argue that although the Romans supergravity theory may not be derivable from 11-dimensional supergravity, or any covariant massive deformation thereof, the massive IIA superstring, whose low energy limit is the Romans theory, can be obtained from M-theory.
 
 > The type IIB supergravity theory also cannot be obtained from 11-dimensional supergravity, but the type IIB string theory can be obtained from M-theory by compactifying on a 2-torus and taking a limit"
