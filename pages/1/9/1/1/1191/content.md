@@ -97,3 +97,7 @@ The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kap
 [[!redirects strongly inaccessible objects]]
 [[!redirects weakly inaccessible object]]
 [[!redirects weakly inaccessible objects]]
+
+
+[[!redirects hyper-inaccessible cardinal]]
+[[!redirects hyper-inaccessible cardinals]]
