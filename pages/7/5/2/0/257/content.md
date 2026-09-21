@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -505,11 +503,11 @@ For yet another introduction to model categories, with an eye towards their use 
 
 #### Survey articles
 
-* {#DwyerSpalinski95} [[William Dwyer]], [[Jan Spalinski]], *[[Homotopy theories and model categories]]* ([[DwyerSpalinski_HomotopyTheories.pdf:file]]) 
+* {#DwyerSpalinski95} [[William Dwyer]], [[Jan Spalinski]], *[[Homotopy theories and model categories]]* &lbrack;[[DwyerSpalinski_HomotopyTheories.pdf:file]]&rbrack; 
 
-  in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+  in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland (1995) &lbrack;[ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
 
-* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]]: _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS (2007) &lbrack;[arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436)&rbrack;
 
 
 
