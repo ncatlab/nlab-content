@@ -10,9 +10,7 @@
 =--
 
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -140,6 +138,17 @@ The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to
 ## Related concepts
 
 * [[Grpd-enriched category]]
+
+* [[infinity-groupoid]]
+
+## References
+
+* [[Behrang Noohi]]: *Notes on 2-groupoids, 2-groups and crossed-modules*, Homotopy, Homology, and Applications **9** 1 (2007) 75--106 &lbrack;[arXiv:math/0512106](https://arxiv.org/abs/math/0512106), [doi:10.4310/hha.2007.v9.n1.a3](http://doi.org/10.4310/hha.2007.v9.n1.a3)&rbrack;
+
+
+
+
+
 
 [[!include homotopy n-types - table]]
 
