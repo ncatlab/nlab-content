@@ -20,18 +20,19 @@ A **large cardinal** is a [[cardinal number]] that is larger than can be proven 
 
 Set theorists often adopt the existence of certain large cardinals as [[axioms]] in the [[foundation of mathematics]].
 
-
 ## List of large cardinal conditions
 
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
 
 * [[regular cardinal]] - a large cardinal in strongly [[predicative mathematics]] where function sets and power sets do not exist. 
 
-* [[beth fixed point]] - a large cardinal in [[ETCS]] but small in ZF.
+* [[beth fixed point]] - a large cardinal in [[ETCS]] / [[BZC]] but small in [[ZFC]].
 
-* [[axiom of replacement]], an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. This implies that certain cardinals which previously were large are now small. Implies the existence of beth fixed points. 
+* [[axiom of replacement]] -- an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. This implies that certain cardinals which previously were large are now small. Implies the existence of beth fixed points. 
 
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
+
+* [[hyper-inaccessible cardinal]]
 
 * [[Mahlo cardinal]]
 
@@ -43,9 +44,9 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
 
-* [[supercompact cardinal]]
+* [[elementary embedding]] -- a tool used in the study of large large cardinals. 
 
-* [[elementary embedding]] -- a tool used in the study of large large cardinals. However cardinals constructed using elementary embeddings are only very large in the presence of the [[axiom of replacement]]; without replacement, even the cardinal $\aleph_\omega$ cannot be constructed from these large cardinals, and some of these large cardinals cannot even be defined without the [[axiom of replacement]]. 
+* [[supercompact cardinal]]
 
 * [[extendible cardinal]] 
 
@@ -57,7 +58,13 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Berkeley cardinal]]
 
-* [[club Berkeley cardinal]], [[limit club Berkeley cardinal]]
+* [[club Berkeley cardinal]]
+
+* [[limit club Berkeley cardinal]]
+
+* [[Kunen's inconsistency theorem]]
+
+### Diagrams of large cardinals
 
 Here is a diagram showing the relation between these:
 
