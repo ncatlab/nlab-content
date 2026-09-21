@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Motivation
 
@@ -95,9 +93,17 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 ### Examples
 
+#### CW-Complexes
+ {#ExamplesCWComplexes}
+
+For topological spaces that admit a [[homotopy equivalence]] (not just a [[weak homotopy equivalence]]) to a [[CW-complex]], their shape is equivalently just their ordinary [[homotopy type]].
+
+(cf. [Mardešić & Segal 1982 Ch. I §2](#MardešićSegal1982), [Mardešić 2000 Ch. II](#Mardešić2000)) 
+
+
 #### Pro-spaces in a shape context
 
-The classical application of shape theoretic idea is to the study of [[topological space|topological spaces]] that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
+The classical application of shape theoretic idea is to the study of [[topological spaces]] that do *not* have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
 
 * $C =$ [[HoTop]]${}_{he}$ the [[homotopy category]] of the category [[Top]] of all [[topological space|topological spaces]] localised at the **[[homotopy equivalence|homotopy equivalences]]**;
 
@@ -151,15 +157,15 @@ The original references:
 
 * [[Karol Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59, Warszawa 1975 ([mathscinet:0418088](https://mathscinet.ams.org/mathscinet-getitem?mr=0418088))
 
-* [[Karol Borsuk]], [[Jerzy Dydak]], _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, 1980, 22(2), 161-198, ([doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X))
+* [[Karol Borsuk]], [[Jerzy Dydak]]: _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, **22** 2 (1980) 161--198 &lbrack;[doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X)&rbrack;
 
 * {#MardesicSegal71} [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59 ([dml:214361](https://eudml.org/doc/214361), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm72/fm7214.pdf))
 
-* [[Sibe Mardesic|S. Mardešić]], [[Jack Segal]], _Shape theory. The inverse system approach_, North-Holland Mathematical Library, 26. North-Holland, Amsterdam - New York, 1982.
+* {#MardešićSegal1982} [[Sibe Mardešić]], [[Jack Segal]]: _Shape theory --- The inverse system approach_, Mathematical Library **26**, North-Holland (1982) &lbrack;[ISBN:978-0-444-86286-0](https://www.sciencedirect.com/bookseries/north-holland-mathematical-library/vol/26/suppl/C)&rbrack;
 
 Textbook accounts:
 
-* {#DydakSegal78} [[Jerzy Dydak]], [[Jack Segal]], _Shape Theory_, Lecture Notes in Mathematics, Springer 1978 ([doi:10.1007/BFb0067572](https://link.springer.com/book/10.1007/BFb0067572))
+* {#DydakSegal78} [[Jerzy Dydak]], [[Jack Segal]]: _Shape Theory_, Lecture Notes in Mathematics, Springer (1978) &lbrack;[doi:10.1007/BFb0067572](https://link.springer.com/book/10.1007/BFb0067572)&rbrack;
 
 Relation of this classical shape theory to ordinary [[homotopy type]] and to the notion of [[shape of an (infinity,1)-topos|shape of an$\infty$-topos]]:
 
@@ -190,7 +196,7 @@ References relating more to strong shape  theory include:
 
 * J.T. Lisica and [[Sibe Mardesic|S. Mardešić]], Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
 
-* [[Sibe Mardesic|S. Mardešić]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
+* {#Mardešić2000} [[Sibe Mardešić]]: _Strong shape and homology_, Monographs in Mathematics, Springer (2000) &lbrack;ISBN:978-3-662-13064-3, [doi:10.1007/978-3-662-13064-3](https://doi.org/10.1007/978-3-662-13064-3)&rbrack;
 
 * [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/item/CTGDC_1997__38_1_3_0/), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
