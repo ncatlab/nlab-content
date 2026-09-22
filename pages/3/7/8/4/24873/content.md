@@ -15,6 +15,8 @@
 
 **Mostowski set theory** is a [[well-founded relation|well-founded]] [[material set theory]] which is [[material-structural adjunction|equivalent in strength]] to the [[structural set theories]] of [[ETCS]] and bounded [[SEAR]] with [[axiom of choice|choice]]. 
 
+Mostowski set theory was first defined by [[Adrian Mathias]] in [Mathias 2001](#Mathias01); its crucial feature distinguishing itself from [[BZC]] is the inclusion of [[transitive closures]] and [[Mostowski's principle]]. 
+
 ## Definition
 
 ### In classical logic
@@ -121,6 +123,8 @@ Given any constructively well-pointed Heyting pretopos $\mathcal{E}$, we can con
 * [[ETCS]]
 
 ## References
+
+* {#Mathias01} [[Adrian Mathias]]: *The strength of Mac Lane set theory*, Annals of Pure and Applied Logic 110 (1-3):107-234 (2001) &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00031-2">doi:10.1016/S0168-0072(00)00031-2</a>&rbrack; 
 
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
