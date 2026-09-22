@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -853,27 +851,25 @@ see there for more information.
 
 ## References
 
-Originally, Kan complexes were defined in a [[cubical set|cubical setting]],
-where Kan introduced the extension property for cubical horns
-and established the elementary properties of cubical homotopy groups:
+Originally, Kan complexes were defined in a [[cubical set|cubical setting]], where Kan introduced the extension property for cubical horns and established the elementary properties of cubical homotopy groups:
 
-* [[Daniel M. Kan]], _Abstract homotopy.  I_, Proceedings of the National Academy of Sciences 41:12 (1955), 1092-1096.  [doi](http://dx.doi.org/10.1073/pnas.41.12.1092).
+* [[Daniel M. Kan]], _Abstract homotopy  I_, Proceedings of the National Academy of Sciences 41:12 (1955), 1092-1096.  [doi](http://dx.doi.org/10.1073/pnas.41.12.1092).
 
 The second paper in the series proves that the cubical singular complex functor yields cubical Kan complexes:
 
-* [[Daniel M. Kan]], _Abstract homotopy.  II_, Proceedings of the National Academy of Sciences 42:5 (1956), 255-258.  [doi](http://dx.doi.org/10.1073/pnas.42.5.255).
+* [[Daniel M. Kan]]: _Abstract homotopy  II_, Proceedings of the National Academy of Sciences **42** 5 (1956) 255--258  &lbrack;[doi:10.1073/pnas.42.5.255](http://dx.doi.org/10.1073/pnas.42.5.255)&rbrack;
 
 The third paper introduces simplicial Kan complexes (as “c.s.s. complexes which satisfy the extension condition”), and defines and studies the [[Kan fibrant replacement]] functor:
 
-* [[Daniel M. Kan]], _Abstract homotopy.  III_, Proceedings of the National Academy of Sciences 42:7 (1956), 419-421.  [doi](http://dx.doi.org/10.1073/pnas.42.7.419).
+* {#Kan1956III} [[Daniel M. Kan]]: _Abstract homotopy  III_, Proceedings of the National Academy of Sciences **42** 7 (1956) 419--421  &lbrack;[doi:10.1073/pnas.42.7.419](http://dx.doi.org/10.1073/pnas.42.7.419)&rbrack;
 
 The fourth paper proves that [[simplicial groups]] are Kan complexes and studies their properties, including the [[Kan loop group]] functor:
 
-* [[Daniel M. Kan]], _Abstract homotopy.  IV_, Proceedings of the National Academy of Sciences 42:8 (1956), 542-544.  [doi](http://dx.doi.org/10.1073/pnas.42.8.542).
+* [[Daniel M. Kan]], _Abstract homotopy  IV_, Proceedings of the National Academy of Sciences **42** 8 (1956) 542--544.  &lbrack;[doi:10.1073/pnas.42.8.542](http://dx.doi.org/10.1073/pnas.42.8.542)&rbrack;
 
-The details for Part III above appeared in the paper
+The details for [Part III above](#Kan1956III) appeared in:
 
-* [[Daniel M. Kan]], _On c.s.s. complexes_, American Journal of Mathematics 79:3 (1957), 449–476.  [doi](http://dx.doi.org/10.2307/2372558)
+* [[Daniel M. Kan]]: _On c.s.s. complexes_, American Journal of Mathematics **79**  3 (1957) 449–-476 &lbrack;[doi:10.2307/2372558](http://dx.doi.org/10.2307/2372558)&rbrack;
 
 [[John C. Moore]] in his review of this paper for [[Mathematical Reviews]] indicates that the term “Kan complex” was already in use at the time:
 
