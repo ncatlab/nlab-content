@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -240,15 +238,15 @@ The notion of [[Eilenberg–Mac Lane object]] makes sense in every $(\infty,1)$-
 
 Eilenberg-MacLane spaces originate with:
 
-* {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) 
+* {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]]: _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series **58** 1 (1953) 55--106 &lbrack;[jstor:1969820](https://www.jstor.org/stable/1969820)&rbrack;
 
-* {#EilenbergMacLane54II} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, II: Methods of Computation_, Annals of Mathematics Second Series, Vol. 60, No. 1 (Jul., 1954), pp. 49-139 ([jstor:1969702](https://www.jstor.org/stable/1969702))
+* {#EilenbergMacLane54II} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, II: Methods of Computation_, Annals of Mathematics Second Series **60** 1 (1954) 49--139 &lbrack;[jstor:1969702](https://www.jstor.org/stable/1969702)&rbrack;
 
-* {#EilenbergMacLane54III} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, III: Operations and Obstructions_, Annals of Mathematics Second Series, Vol. 60, No. 3 (Nov., 1954), pp. 513-557 ([jstor:1969849](https://www.jstor.org/stable/1969849))
+* {#EilenbergMacLane54III} [[Samuel Eilenberg]], [[Saunders Mac Lane]]: _On the Groups $H(\Pi,n)$, III: Operations and Obstructions_, Annals of Mathematics Second Series **60** 3 (1954) 513--557 &lbrack;[jstor:1969849](https://www.jstor.org/stable/1969849), [doi:10.2307/1969849](http://doi.org/10.2307/1969849)&rbrack;
 
 That Eilenberg-MacLane spaces represent [[ordinary cohomology]] is due to:
 
-* [[Samuel Eilenberg]], p. 243 of: _Cohomology and Continuous Mappings_, Annals of Mathematics Second Series, Vol. 41, No. 1 (Jan., 1940), pp. 231-251  ([jstor:1968828](https://www.jstor.org/stable/1968828))
+* [[Samuel Eilenberg]]; p. 243 of: _Cohomology and Continuous Mappings_, Annals of Mathematics Second Series **41** 1 (1940) 231--251  &lbrack;[doi:10.2307/1968828](http://doi.org/10.2307/1968828), [jstor:1968828](https://www.jstor.org/stable/1968828)&rbrack;
 
 * [Eilenberg-MacLane 54 III, p. 520-521](#EilenbergMacLane54III)
 
