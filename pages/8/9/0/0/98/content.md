@@ -10,9 +10,7 @@
 =--
 
 
-# Contents
-* tic
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -313,11 +311,15 @@ If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|
 
 An elementary introduction for CE-algebras of Lie algebras is at the beginning of:
 
-* [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
+* [[José de Azcárraga]], [[José M. Izquierdo]], J. C. Perez Bueno: _An introduction to some novel applications of Lie algebra cohomology and physics_, Rev. R. Acad. Cien. Exactas Fis. Nat. Ser. A Mat. **95** (2001) 225--248 &lbrack;[arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046)&rbrack;
 
 More details are in  of
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6.7 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_ , Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], [[José M. Izquierdo]]; section 6.7 of: _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
+
+
+  
+
 
 See also almost any text on [[Lie algebra cohomology]] (see the list of references there).
 
