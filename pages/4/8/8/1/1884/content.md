@@ -2781,7 +2781,7 @@ Textbook accounts:
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
   > (in view of [[U-bordism theory]] and the [[e-invariant]])
 
-* {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of: _Algebraic Topology - Homotopy and Homology_, Grundlehren **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
+* {#Switzer75} [[Robert Switzer]]; sections 11 & 13.90 of: _Algebraic Topology --- Homotopy and Homology_, Grundlehren **212**, Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
 
 * {#Karoubi} [[Max Karoubi]], _K-Theory -- An Introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
