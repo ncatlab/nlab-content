@@ -126,7 +126,7 @@ Given any constructively well-pointed Heyting pretopos $\mathcal{E}$, we can con
 
 * {#Mathias01} [[Adrian Mathias]]: *The strength of Mac Lane set theory*, Annals of Pure and Applied Logic 110 (1-3):107-234 (2001) &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00031-2">doi:10.1016/S0168-0072(00)00031-2</a>&rbrack; 
 
-* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+* [[Michael Shulman]]: *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 &lbrack;[doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack;
 
 [[!redirects intuitionistic Mostowski set theory]]
 [[!redirects constructive Mostowski set theory]]
