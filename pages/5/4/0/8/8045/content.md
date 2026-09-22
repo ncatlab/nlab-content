@@ -44,7 +44,7 @@ What these material higher groupoid theories have in common with material set th
 
 Relation to [[structural set theory]] is discussed in
 
-* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+* [[Michael Shulman]]: *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 &lbrack;[doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack;
 
 See also
 
