@@ -13,7 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] that is inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]. In order to remove the inconsistency, one can either choose to remove the [[axiom of choice]] to get [[ZF]] + a Reinhardt cardinal, or one can choose to remove the [[axiom of replacement]] and restrict to the [[axiom of bounded separation]] to get [[BZC]] + a Reinhardt cardinal. 
+A [[large cardinal]] that is inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]. In order to remove the inconsistency, one can either choose to remove the [[axiom of choice]] to get [[ZF]] + a Reinhardt cardinal, or one can choose to remove the [[axiom of replacement]] to get [[ZC]] + a Reinhardt cardinal. 
 
 In [[constructive set theory]], one typically uses Reinhardt sets instead of Reinhardt cardinals, since cardinals are not well behaved in the absence of [[excluded middle]].
 
@@ -33,11 +33,11 @@ A **Reinhardt set** in a model of [[IZF]] or [[CZF]] $V$ with an [[elementary em
 
 Meanwhile there are multiple inequivalent definitions of a *super Reinhardt set* in constructive mathematics, which only coincide in the presence of [[excluded middle]]. See section 4.2 of [Jeon & Matthews 2024](#JeonMatthews24) for more details. 
 
-### In BZC
+### In BZC and ZC
 
-In BZC, the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, the absence of the [[axiom of replacement]] makes a Reinhardt cardinal consistent with the [[axiom of choice]]. 
+In [[BZC]] and [[ZC]], the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, the absence of the [[axiom of replacement]] makes a Reinhardt cardinal consistent with the [[axiom of choice]]. 
 
-One only needs to add the $I_3$ axiom to a meta-theory in order to describe BZC + a Reinhardt cardinal. 
+One only needs to add the $I_3$ axiom to a meta-theory in order to describe [[ZC]] + a Reinhardt cardinal or [[BZC]] + a Reinhardt cardinal. 
 
 Reinhardt cardinals are inconsistent with [[Vopěnka's principle]], since Vopěnka's principle implies the [[axiom of replacement]]. 
 
