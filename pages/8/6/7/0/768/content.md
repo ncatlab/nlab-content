@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -921,7 +919,7 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 Original discussion of classifying spaces in topological homotopy theory:
 
-* [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series **63** 3 (1956) 430-436 &lbrack;[jstor:1970012](https://www.jstor.org/stable/1970012)rbrack;
+* [[John Milnor]]: _Construction of Universal Bundles, II_, Annals of Mathematics Second Series **63** 3 (1956) 430--436 &lbrack;[jstor:1970012](https://www.jstor.org/stable/1970012), [doi:10.2307/1970012](http://doi.org/10.2307/1970012)&rbrack;
 
 * [[Richard Palais]], Section 2.6 of: *The classification of $G$-spaces*, Memoirs of the AMS **36** (1960) &lbrack;[ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]]&rbrack;
 
@@ -947,16 +945,18 @@ Review:
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
 
-* {#Mitchell11} [[Stephen Mitchell]], _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
+* {#Mitchell11} [[Stephen Mitchell]]: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington (2011) &lbrack;[pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]]&rbrack;
 
 
 Textbook accounts:
 
+* {#Steenrod51} [[Norman Steenrod]]; section II.19 of: _The topology of fibre bundles_, Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
+
+
 * [[Dale Husemoeller]], Section 4.12, 4.13 of: _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([gBooks](http://books.google.hr/books?id=DPr_BSH89cAC), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller))
 
-* {#Steenrod51} [[Norman Steenrod]], section II.19 of: _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
 
 * {#May} [[Peter May]], Chapter 23 of: _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
