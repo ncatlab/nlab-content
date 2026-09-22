@@ -68,7 +68,7 @@ $$
   \,.
 $$
 
-A reference for this is for instance around def. 3.1 in ([Hain 1983](#Hain)).
+(cf. [Hain 1983, Def. 3.1](#Hain1983), [Getzler 2009 Prop. 1.1](#Getzler2009), [Berglund 2015 Prop. 6.1](#Berglund2015)).
 
 We unwind in steps how this comes about:
 
@@ -166,9 +166,14 @@ In the generality of [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * [[Martin Doubek]], [[Martin Markl]], [[Petr Zima]], equation (31) in: *Deformation Theory (lecture notes)*, Archivum mathematicum 43(5), 2007, 333-371 ([arXiv:0705.3719](https://arxiv.org/abs/0705.3719))
 
+* {#Getzler2009} [[Ezra Getzler]]: *Lie theory for nilpotent $L_\infty$ algebras*, Ann. of Math. **170** 2 (2009), no. 1, 271--301 \[<a href="https://doi.org/10.4007/annals.2009.170.271">doi:10.4007/annals.2009.170.271</a>, [arXiv:math/0404003](https://arxiv.org/abs/math/0404003)\]
+
 * [[Andrey Lazarev]], Def. 5.1 in: *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics **235** 1 (2013) 296--320 &lbrack;[arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009)&rbrack;
 
 * Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
+
+* {#Berglund2015} [[Alexander Berglund]]: _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_, Homology, Homotopy and Applications **17** 2 (2015) &lbrack;[arXiv:1110.6145 math.AT](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16)&rbrack;
+
 
 * Sinan Yalin: *Maurer-Cartan spaces of filtered L-infinity algebras*, J. Homotopy Relat. Struct. **11** (2016) 375--407 &lbrack;[doi:10.1007/s40062-015-0108-9](https://doi.org/10.1007/s40062-015-0108-9), [arXiv:1409.4741](https://arxiv.org/abs/1409.4741)&rbrack;
 
@@ -176,7 +181,7 @@ In the generality of [[L-infinity algebras|$L_\infty$-algebras]]:
 
 Also around def. 3.1 in
 
-* {#Hain} R. M. Hain, _Twisting cochains and duality between minimal algebras and minimal Lie algebras_, Trans. Amer. Math. Soc. **277** (1983), no. 1, 397--411.
+* {#Hain1983} R. M. Hain: _Twisting cochains and duality between minimal algebras and minimal Lie algebras_, Trans. Amer. Math. Soc. **277** 1 (1983) 397--411 \[<a href="https://doi.org/10.2307/1999363">doi:10.2307/1999363</a>, [jstor:1999363](https://www.jstor.org/stable/1999363)\]
 
 In relation to [[equations of motion]] of [[Yang-Mills theory]] and [[gravity]] (by truncation of [[string field theory]]):
 
