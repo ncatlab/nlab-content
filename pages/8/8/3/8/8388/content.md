@@ -28,7 +28,9 @@ On [[modal logic]]:
 
 * [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
 
+On [[measurable cardinals]] and [[constructible sets]] in [[set theory]]:
 
+* [[Dana Scott]]: *Measurable cardinals and constructible sets*, Bulletin de l' Académie Polonaise des Sciences, Série des sciences mathématiques, astronomiques et physiques, vol. 9 (1961), pp. 521–524. &lbrack;[pdf](https://github.com/CMU-HoTT/scott/blob/main/pdfs/1961-measurable-cardinals-and-constructible-sets.pdf)&rbrack;
 
 ## Related entries
 
