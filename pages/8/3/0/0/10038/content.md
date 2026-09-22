@@ -55,8 +55,6 @@
 
 * [[Jeremy Miller]]: *Nonabelian Poincaré duality after stabilizing*, Trans. Amer. Math. Soc. **367** (2015) 1969-1991  \[<a href="https://www.ams.org/journals/tran/2015-367-03/S0002-9947-2014-06186-2">doi:2015-367-03/S0002-9947-2014-06186-2</a>, [arXiv:1209.2773](https://arxiv.org/abs/1209.2773)\]
 
-* [[Foling Zou]], §4 in: *A geometric approach to equivariant factorization homology and nonabelian Poincaré duality*, Math. Z. **303** 98 (2023) &lbrack;[arXiv:2008.08234](https://arxiv.org/abs/2008.08234), [doi:10.1007/s00209-023-03253-2](https://doi.org/10.1007/s00209-023-03253-2)&rbrack;
-  > (generalization to [[equivariant homotopy theory]])
 
 Further exposition:
 
@@ -64,7 +62,10 @@ Further exposition:
 
 In the generality of [[G-spaces]]/[[equivariant homotopy theory]]:
 
-* Jeremy Hahn, Asaf Horev, Inbar Klang, [[Dylan Wilson]], Foling Zou: *Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra* \[<a href="https://arxiv.org/abs/2006.13348">arXiv:2006.13348</a>\]
+* Jeremy Hahn, Asaf Horev, Inbar Klang, [[Dylan Wilson]], [[Foling Zou]]: *Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra* \[<a href="https://arxiv.org/abs/2006.13348">arXiv:2006.13348</a>\]
+
+* [[Foling Zou]]: *A geometric approach to equivariant factorization homology and nonabelian Poincaré duality*, Math. Z. **303** 98 (2023) &lbrack;[arXiv:2008.08234](https://arxiv.org/abs/2008.08234), [doi:10.1007/s00209-023-03253-2](https://doi.org/10.1007/s00209-023-03253-2)&rbrack;
+  > (generalization to [[equivariant homotopy theory]])
 
 
 
