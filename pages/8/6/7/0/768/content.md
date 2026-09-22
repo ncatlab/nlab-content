@@ -955,6 +955,7 @@ Textbook accounts:
 
 * [[Dale Husemoeller]], Section 4.12, 4.13 of: _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([gBooks](http://books.google.hr/books?id=DPr_BSH89cAC), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller))
 
+* {#Switzer75} [[Robert Switzer]]: *Vector Bundles and K-Theory*, section 11 of: _Algebraic Topology --- Homotopy and Homology_, Grundlehren **212**, Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
