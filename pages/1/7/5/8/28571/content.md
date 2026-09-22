@@ -5,7 +5,7 @@
 
 Kunen's inconsistency theorem is a theorem in [[set theory]] proven by [[Kenneth Kunen]], which says that a [[Reinhardt cardinal]] is inconsistent with having both the [[axiom of choice]] and the [[axiom of replacement]] together in the [[set theory]]. As a result, any other [[large cardinal axiom]] implying Reinhardt cardinals are also affected by Kunen's inconsistency theorem, which include [[Berkeley cardinals]], [[club Berkeley cardinals]], and [[limit club Berkeley cardinals]]. 
 
-However, Kunen's proof relies on both the [[axiom of choice]] and the [[axiom of replacement]]. Thus, if one wants these large cardinal axioms in their set theory, the solution is usually to either remove the [[axiom of choice]] and move to [[ZF]], or to remove the [[axiom of replacement]], restrict to the [[axiom of bounded separation]] and move to [[BZC]]. 
+However, Kunen's proof relies on both the [[axiom of choice]] and the [[axiom of replacement]]. Thus, if one wants these large cardinal axioms in their set theory, the solution is usually to either remove the [[axiom of choice]] and move to [[ZF]], or to remove the [[axiom of replacement]] and move to [[ZC]]. 
 
 ## Related concepts
 
