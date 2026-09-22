@@ -30,11 +30,15 @@ On [[isometry|isometric]] [[Riemannian immersion|Riemannian]] [[embedding of smo
 
 * {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-50/issue-3/The-Gauss-equations-and-rigidity-of-isometric-embeddings/10.1215/S0012-7094-83-05039-1.short)&rbrack;
 
+
 On [[exterior differential systems]]:
 
 * [[Robert L. Bryant]], [[Shiing-Shen Chern]], [[Robert B. Gardner]], [[Hubert L. Goldschmidt]], [[Phillip A. Griffiths]]: *Exterior Differential Systems*, Springer (1990) \[<a href="https://doi.org/10.1007/978-1-4613-9714-4">doi:10.1007/978-1-4613-9714-4</a>\]
 
 * [[Robert L. Bryant]]: *Nine Lectures on Exterior Differential Systems* (1999) &lbrack;[pdf](https://sites.math.duke.edu/~bryant/Eilenberg/MSRI_Lectures.pdf)&rbrack;
+
+* [[Robert L. Bryant]], [[Phillip A. Griffiths]], Daniel A. Grossman: *Exterior Differential Systems and Euler-Lagrange Partial Differential Equations*, University of Chicago Press (2003) &lbrack;ISBN:978-0-226-07794-9, [ucp:bo3637779](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html), [arXiv:math/0207039](https://arxiv.org/abs/math/0207039)&rbrack;
+
 
 * [[Robert L. Bryant]]: *Notes on exterior differential systems* &lbrack;[arXiv:1405.3116](https://arxiv.org/abs/1405.3116), alternative:[pdf](https://ncatlab.org/nlab/files/EDS-notes.pdf)&rbrack;
 
