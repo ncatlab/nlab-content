@@ -13,16 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with 
-
-1. [[ZF]] with [[countable choice]]
-2. [[Zermelo set theory]] with the [[axiom of choice]]
-3. even [[Zermelo set theory]] with [[countable choice]]
-
-In order to remove the inconsistency, one can either choose to 
-
-1. remove the [[axiom of countable choice]] to get bare [[ZF]] + a club Berkeley cardinal
-2. from [[ZC]], restrict to the [[axiom of bounded separation]] to get [[BZC]] + a club Berkeley cardinal.
+A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with [[countable choice]]. In order to remove the inconsistency, one has to remove the [[axiom of countable choice]] to get bare [[ZF]] + a Berkeley cardinal. 
 
 ## Definition
 
