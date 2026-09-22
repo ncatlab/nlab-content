@@ -44,7 +44,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
 
-* [[elementary embedding]] -- a tool used in the study of large large cardinals. 
+* [[elementary embedding]] -- a tool used in the study of large large cardinals. However, in the absence of the [[axiom of replacement]], any large cardinal defined using elementary embeddings is really about self-similarity and local symmetries in the set theory rather than size. This means that various large cardinals, such as [[measurable cardinals]] and Ramsay cardinals, with two definitions, one involving elementary embeddings and the other not involving elementary embeddings, no longer coincide with each other. 
 
 * [[supercompact cardinal]]
 
