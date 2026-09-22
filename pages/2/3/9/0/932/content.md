@@ -170,6 +170,10 @@ In the generality of [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * Joseph Chuang, [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
 
+* Sinan Yalin: *Maurer-Cartan spaces of filtered L-infinity algebras*, J. Homotopy Relat. Struct. **11** (2016) 375--407 &lbrack;[doi:10.1007/s40062-015-0108-9](https://doi.org/10.1007/s40062-015-0108-9), [arXiv:1409.4741](https://arxiv.org/abs/1409.4741)&rbrack;
+
+
+
 Also around def. 3.1 in
 
 * {#Hain} R. M. Hain, _Twisting cochains and duality between minimal algebras and minimal Lie algebras_, Trans. Amer. Math. Soc. **277** (1983), no. 1, 397--411.
