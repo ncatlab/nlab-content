@@ -188,6 +188,12 @@ Although usually presented as an axiom scheme, in many cases, all instances of s
 
 Full separation follows from the [[axiom of replacement]] and the principle of [[excluded middle]] (along with the axiom of the [[empty set]]).  Therefore, the axiom is often left out entirely of a description of [[ZFC]] (the usually accepted foundation of mathematics).  In versions of set theory for [[constructive mathematics]], however, we often have replacement but only bounded or limited separation, and in any case separation must be listed explicitly.
 
+## Relation to large cardinals
+
+[[Reinhardt cardinals]] are consistent with the [[axiom of full separation]] and the [[axiom of choice]], such as in [[ZC]], since the proof of [[Kunen's inconsistency theorem]] relies on the [[axiom of replacement]]. 
+
+However, the combination of the [[axiom of full separation]], [[countable choice]], and a [[Berkeley cardinal]] is inconsistent, since [[W. Hugh Woodin]]'s proof of the inconsistency of a [[Berkeley cardinal]] with [[ZF]] + [[countable choice]] only relies on the [[axiom of full separation]] rather than the [[axiom of replacement]]. As a result if one wants a [[Berkeley cardinal]] and the [[axiom of choice]], one has to restrict to the [[axiom of bounded separation]], such as in [[BZC]]. 
+
 ## Related concepts
 
 * [[axiom of full comprehension]]
