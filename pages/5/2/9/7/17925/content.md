@@ -10,7 +10,7 @@ This page is to record the reference:
 
   \linebreak 
 
-  Cambridge Monographs of Mathematical Physics
+  Monographs of Mathematical Physics
 
   Cambridge University Press (1995)
 
