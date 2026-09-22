@@ -194,6 +194,10 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 
 However, the combination of the [[axiom of full separation]], [[countable choice]], and a [[Berkeley cardinal]] is inconsistent, since [[W. Hugh Woodin]]'s proof of the inconsistency of a [[Berkeley cardinal]] with [[ZF]] + [[countable choice]] only relies on the [[axiom of full separation]] rather than the [[axiom of replacement]]. As a result if one wants a [[Berkeley cardinal]] and the [[axiom of choice]], one has to restrict to the [[axiom of bounded separation]], such as in [[BZC]]. 
 
+In the absence of the axiom of full separation, any [[large cardinal]] defined using [[elementary embeddings]] is really about self-similarity and local symmetries in the set theory rather than size; these include [[measurable cardinals]], [[supercompact cardinals]], [[Reinhardt cardinals]], the [[wholeness axiom]], and the $I_0$ through $I_3$ axioms. As a result, the large cardinal hierarchy gets completely redefined: these large cardinals defined using [[elementary embeddings]] are very weak; they no longer prove the existence of other large cardinals like [[Mahlo cardinals]]. 
+
+Furthermore, many large cardinals can be defined in two different ways, one using elementary embeddings and the other without using elementary embeddings. In the absence of the [[axiom of full separation]], these two definitions no longer coincide with each other. This is the case for Ramsey cardinals: without full separation, the combinatorial definition of a Ramsey cardinal is strong enough to prove the existence of Mahlo cardinals, but the model-theoretic definition of a Ramsey cardinal is too weak to prove the existence of Mahlo cardinals. 
+
 ## Related concepts
 
 * [[axiom of full comprehension]]
@@ -204,7 +208,9 @@ However, the combination of the [[axiom of full separation]], [[countable choice
 
 ### General
 
-(...)
+* {#Mathias01} [[Adrian Mathias]]: *The strength of Mac Lane set theory*, Annals of Pure and Applied Logic 110 (1-3):107-234 (2001) &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00031-2">doi:10.1016/S0168-0072(00)00031-2</a>&rbrack; 
+
+* [[Michael Shulman]]: *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 &lbrack;[doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack;
 
 ### In hyperdoctrines
 
