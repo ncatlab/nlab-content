@@ -17,11 +17,19 @@ The axiom of constructibility states that the [[constructible universe]] $L$ and
 
 ## Properties
 
+In [[IZF]], the axiom of constructibility does not imply the [[axiom of choice]] or [[excluded middle]]. 
+
+### Measurable cardinals
+
 In [[ZFC]] the axiom of constructibility is inconsistent with [[measurable cardinals]]. 
 
-However, in [[IZF]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without [[excluded middle]]. While the axiom of constructibility is still inconsistent with Scott's [[measurable cardinals]] in [[IZF]]; the axiom of constructiblity is consistent with Ulam's [[measurable cardinals]] in IZF. 
+In [[IZF]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without [[excluded middle]]. 
 
-In [[IZF]], the axiom of constructibility does not imply the [[axiom of choice]] or [[excluded middle]]. 
+While the axiom of constructibility is still inconsistent with Scott's [[measurable cardinals]] in [[IZF]]; the axiom of constructiblity is consistent with Ulam's [[measurable cardinals]] in IZF. In fact, one can prove the negation of [[excluded middle]] in [[IZF]] with the [[axiom of constructibility]] and a Ulam [[measurable cardinal]]. 
+
+### Exact functors
+
+The axiom of constructibility in [[ZFC]] is equivalent to the statement that every [[exact functor]] $F: Set \to Set$ is [[natural isomorphism|naturally isomorphic]] to the [[identity functor]] on the [[category of sets]]. However, this equivalence fails in [[IZF]]. 
 
 ## Related concepts
 
