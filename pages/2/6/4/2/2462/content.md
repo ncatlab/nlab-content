@@ -292,9 +292,13 @@ which defined an integral manifold of the exterior differential system.
 
 ## References 
 
-The standard textbook:
+Monographs:
 
 * [[Robert L. Bryant]], [[Shiing-Shen Chern]], [[Robert B. Gardner]], [[Hubert L. Goldschmidt]], [[Phillip A. Griffiths]]: *Exterior Differential Systems*, Springer (1990) \[<a href="https://doi.org/10.1007/978-1-4613-9714-4">doi:10.1007/978-1-4613-9714-4</a>\]
+
+* [[Robert L. Bryant]], [[Phillip A. Griffiths]], Daniel A. Grossman: *Exterior Differential Systems and Euler-Lagrange Partial Differential Equations*, University of Chicago Press (2003) &lbrack;ISBN:978-0-226-07794-9, [ucp:bo3637779](https://press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html), [arXiv:math/0207039](https://arxiv.org/abs/math/0207039)&rbrack;
+
+
 
 Introductions and lecture notes:
 
