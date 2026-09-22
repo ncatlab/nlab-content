@@ -169,7 +169,10 @@ For a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] 
 [[!redirects Zermelo–Fraenkel axioms]]
 [[!redirects Zermelo--Fraenkel axioms]]
 
+[[!redirects ZC]]
+
 [[!redirects Zermelo set theory]]
+[[!redirects Zermelo axioms]]
 
 [[!redirects BZ]]
 [[!redirects BZC]]
