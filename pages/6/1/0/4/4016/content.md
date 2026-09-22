@@ -36,11 +36,23 @@ Furthermore, the category $Set^{op}$ has a [[small category|small]] [[dense subc
 
 This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
-## In constructive set theory
+## In other set theories
 
-In [[IZF]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without [[excluded middle]]. As a result, one has to distinguish between *Ulam measurable cardinals* and *Scott measurable cardinals* in [[constructive set theory]]. 
+### In IZF
 
-In [[ZFC]] the [[axiom of constructibility]] is inconsistent with [[measurable cardinals]]. While the [[axiom of constructibility]] is still inconsistent with Scott measurable cardinals in [[IZF]]; the axiom of constructiblity is consistent with Ulam measurable cardinals in IZF. 
+There are two different definitions of a measurable cardinal: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] and [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]].
+
+In [[IZF]], [[ultrafilters]] and point-set [[measure theory]] more generally are not well-behaved in [[constructive mathematics]]. As a result, Ulam's usual definition of a measurable cardinal in terms of [[ultrafilters]] is also not well-behaved in IZF. Ultrafilters are thus typically replaced with [[completely prime filters]] on [[locales]] or some other concept in point-free measure theory. One can define a point-free version of Ulam's measurability for cardinals, but the existence of such point-free measurable cardinals is still equivalent to the existence of Scott's measurable cardinals defined in terms of [[elementary embeddings]]. 
+
+For [[IZF]], the [[category of sets]] having a non-trivial [[exact functor]] $F:\mathrm{Set} \to \mathrm{Set}$ is not equivalent to a measurable cardinal in [[IZF]]. In particular, if the category of sets is not a [[Boolean category]], then the structure of an exact functor is insufficient to preserve [[first-order logic]] in the [[category of sets]], needed for the definition of a measurable cardinal in terms of [[elementary embeddings]]. Instead, having a measurable cardinal $\kappa$ in IZF is equivalent to having a non-trivial [[logical functor]] $F:\mathrm{Set} \to \mathrm{Set}$ that commute with $\kappa$-small [[colimits]] and defined uniformly via a class-sized formula across the structural hierarchy of sets. 
+
+In [[IZF]], like [[ZFC]], the [[axiom of constructibility]] is inconsistent with [[measurable cardinals]]. 
+
+### In BZC
+
+In [[BZC]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without the [[axiom of replacement]]. As a result, one has to distinguish between what can be termed *Ulam measurable cardinals* and *Scott measurable cardinals*. 
+
+For [[BZC]], the [[category of sets]] having a non-trivial [[exact functor]] $F:\mathrm{Set} \to \mathrm{Set}$ is equivalent to an Ulam measurable cardinal in [[BZC]]. In the absence of the [[axiom of replacement]], the endofunctor corresponding to the [[elementary embedding]] of a Scott measurable cardinal in BZC fails to preserve [[finite colimits]] and so is not an exact functor. 
 
 ## Related entries
 
@@ -52,7 +64,11 @@ In [[ZFC]] the [[axiom of constructibility]] is inconsistent with [[measurable c
 
 Stanisław Ulam's definition of a measurable cardinal in terms of [[ultrafilters]] first appears in:
 
-* [[Stanisław Ulam]]: *Zur Masstheorie in der allgemeinen Mengenlehre*, Fundamenta Mathematicae, 16 (1930): 140–150 &lbrack;[doi:10.4064%2Ffm-16-1-140-150](https://doi.org/10.4064%2Ffm-16-1-140-150)&rbrack;
+* [[Stanisław Ulam]]: *Zur Masstheorie in der allgemeinen Mengenlehre*, Fundamenta Mathematicae, 16 (1930): 140–150 &lbrack;[doi:10.4064%2Ffm-16-1-140-150](https://doi.org/10.4064%2Ffm-16-1-140-150), [eudml:doc/212487](http://eudml.org/doc/212487)&rbrack;
+
+Dana Scott's definition of a measurable cardinal in terms of [[elementary embeddings]] first appears in:
+
+* [[Dana Scott]]: *Measurable cardinals and constructible sets*, Bulletin de l' Académie Polonaise des Sciences, Série des sciences mathématiques, astronomiques et physiques, vol. 9 (1961), pp. 521–524. &lbrack;[pdf](https://github.com/CMU-HoTT/scott/blob/main/pdfs/1961-measurable-cardinals-and-constructible-sets.pdf)&rbrack;
 
 Measurable cardinals in category theory:
 
@@ -66,6 +82,8 @@ Measurable cardinals in category theory:
 ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
  
 * [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e))
+
+* *categorical characterization of large cardinals*, MathOverflow ([web](https://mathoverflow.net/questions/140414/categorical-characterization-of-large-cardinals))
 
 * [[David P. Blecher]], [[Nik Weaver]], *Quantum measurable cardinals* ([arXiv:1607.08505](https://arxiv.org/abs/1607.08505))
 
