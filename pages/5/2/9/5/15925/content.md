@@ -33,6 +33,8 @@ The axiom of constructibility in [[ZFC]] is equivalent to the statement that eve
 
 * Wikipedia, _[Axiom of constructibility](http://en.wikipedia.org/wiki/Axiom_of_constructibility)_
 
+* [[Adrian Mathias]]: *The strength of Mac Lane set theory*, Annals of Pure and Applied Logic 110 (1-3):107-234 (2001) &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00031-2">doi:10.1016/S0168-0072(00)00031-2</a>&rbrack; 
+
 The axiom of constructibility in [[constructive set theory]]:
 
 * [[Richard Matthews]], [[Michael Rathjen]], *Constructing the Constructible Universe Constructively*, Annals of Pure and Applied Logic, Volume 175, Issue 3, March 2024. &lbrack;[doi:10.1016/j.apal.2023.103392](https://doi.org/10.1016/j.apal.2023.103392), [arxiv:2206.08283](https://arxiv.org/abs/2206.08283)&rbrack;
