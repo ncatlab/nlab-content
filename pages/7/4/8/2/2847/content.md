@@ -22,13 +22,11 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 ## List of large cardinal conditions
 
+### Large cardinals with replacement
+
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
 
 * [[regular cardinal]] - a large cardinal in strongly [[predicative mathematics]] where function sets and power sets do not exist. 
-
-* [[beth fixed point]] - a large cardinal in [[ETCS]] / [[BZC]] but small in [[ZFC]].
-
-* [[axiom of replacement]] -- an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. This implies that certain cardinals which previously were large are now small. Implies the existence of beth fixed points. 
 
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
 
@@ -44,7 +42,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
 
-* [[elementary embedding]] -- a tool used in the study of large large cardinals. However, in the absence of the [[axiom of replacement]], any large cardinal defined using elementary embeddings is really about self-similarity and local symmetries in the set theory rather than size. This means that various large cardinals, such as [[measurable cardinals]] and Ramsay cardinals, with two definitions, one involving elementary embeddings and the other not involving elementary embeddings, no longer coincide with each other. 
+* [[elementary embedding]] -- a tool used in the study of large large cardinals. 
 
 * [[supercompact cardinal]]
 
@@ -56,6 +54,8 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[wholeness axiom]]
 
+* [[rank-to-rank axiom]]
+
 * [[Reinhardt cardinal]] -- a large cardinal axiom that inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]; one has to move either to [[ZF]] or [[ZC]]. 
 
 * [[Berkeley cardinal]] -- a large cardinal axiom larger than [[Reinhardt cardinals]] that is also inconsistent with [[ZF]] + [[countable choice]]. It is still consistent with [[ZF]] however. 
@@ -63,8 +63,6 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 * [[club Berkeley cardinal]]
 
 * [[limit club Berkeley cardinal]]
-
-### Diagrams of large cardinals
 
 Here is a diagram showing the relation between these:
 
@@ -85,6 +83,21 @@ In the context of [[ZFC]], certain axioms are inconsistent with large cardinal a
 
 [[ZFC-large-cardinals-consistency-strength.png:pic]]
 
+### Large cardinals without replacement
+
+The [[axiom of replacement]] is an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. 
+
+In the absence of the [[axiom of replacement]], there are certain cardinals which are now large. For example, a [[beth fixed point]] is a cardinal which is small in the presence of the [[axiom of replacement]] and large in the absence of the [[axiom of replacement]]. 
+
+Furthermore [[Reinhardt cardinals]] are now consistent with the [[axiom of choice]] in the absence of the [[axiom of replacement]]. 
+
+[[Vopěnka's principle]] implies the [[axiom of replacement]]. 
+
+### Large cardinals without full separation
+
+In the absence of the [[axiom of full separation]], such as in [[BZC]] or [[Mostowski set theory]], any large cardinal defined using [[elementary embeddings]] is really about self-similarity and local symmetries in the set theory rather than size; these include [[measurable cardinals]], [[supercompact cardinals]], [[Reinhardt cardinals]], the [[wholeness axiom]], and the $I_0$ through $I_3$ axioms. As a result, the large cardinal hierarchy gets completely redefined: these large cardinals defined using [[elementary embeddings]] are very weak; they no longer prove the existence of other large cardinals like [[Mahlo cardinals]]. 
+
+Furthermore, many large cardinals can be defined in more than one way. In the absence of the [[axiom of full separation]], these definitions no longer coincide with each other. This is the case for Ramsey cardinals: without full separation, the combinatorial definition of a Ramsey cardinal is strong enough to prove the existence of Mahlo cardinals, but the model-theoretic definition of a Ramsey cardinal is too weak to prove the existence of Mahlo cardinals. 
 
 ## References
 
@@ -115,6 +128,10 @@ On very [[large cardinal axioms]]:
 On [[large cardinal axioms]] without the [[axiom of replacement]]:
 
 * *Large cardinals without replacement*, MathOverflow ([web](https://mathoverflow.net/questions/383978/large-cardinals-without-replacement))
+
+On [[large cardinal axioms]] in weak [[set theories]]
+
+* {#Mathias01} [[Adrian Mathias]]: *The strength of Mac Lane set theory*, Annals of Pure and Applied Logic 110 (1-3):107-234 (2001) &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00031-2">doi:10.1016/S0168-0072(00)00031-2</a>&rbrack; 
 
 On [[realizability]] models for [[large cardinals]]:
 
