@@ -262,7 +262,7 @@ Original articles on the general issue include
 
 * {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B **206** 4 (1988) 650-654 &lbrack;<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>&rbrack;
 
-* {#PastiSorokinTonin06} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
+* {#PastiSorokinTonin06} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys. Rev. D **55** (1997) 6292--6298 &lbrack;[arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100), [doi:10.1103/PhysRevD.55.6292](https://doi.org/10.1103/PhysRevD.55.6292)&rbrack;
 
 * {#Witten99} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
