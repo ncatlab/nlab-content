@@ -58,7 +58,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Reinhardt cardinal]] -- a large cardinal axiom that inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]; one has to move either to [[ZF]] or [[ZC]]. 
 
-* [[Berkeley cardinal]] -- a large cardinal axiom larger than [[Reinhardt cardinals]] that is also inconsistent with [[ZC]]; one has to move to [[BZC]]. It is still consistent with [[ZF]] however. 
+* [[Berkeley cardinal]] -- a large cardinal axiom larger than [[Reinhardt cardinals]] that is also inconsistent with [[ZF]] + [[countable choice]]. It is still consistent with [[ZF]] however. 
 
 * [[club Berkeley cardinal]]
 
