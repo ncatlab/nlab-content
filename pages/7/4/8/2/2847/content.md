@@ -54,15 +54,15 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
-* [[Reinhardt cardinal]] -- a large cardinal axiom that inconsistent with [[ZFC]]; one has to move either to [[ZF]] or [[BZC]]. 
+* [[wholeness axiom]]
 
-* [[Berkeley cardinal]]
+* [[Reinhardt cardinal]] -- a large cardinal axiom that inconsistent with [[ZFC]] due to [[Kunen's inconsistency theorem]]; one has to move either to [[ZF]] or [[ZC]]. 
+
+* [[Berkeley cardinal]] -- a large cardinal axiom larger than [[Reinhardt cardinals]] that is also inconsistent with [[ZC]]; one has to move to [[BZC]]. It is still consistent with [[ZF]] however. 
 
 * [[club Berkeley cardinal]]
 
 * [[limit club Berkeley cardinal]]
-
-* [[Kunen's inconsistency theorem]]
 
 ### Diagrams of large cardinals
 
