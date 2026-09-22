@@ -37,7 +37,7 @@ Meanwhile there are multiple inequivalent definitions of a *super Reinhardt set*
 
 In [[BZC]] and [[ZC]], the definition of a Reinhardt cardinal is the same as the definition of a Reinhardt cardinal in ZF. However, the absence of the [[axiom of replacement]] makes a Reinhardt cardinal consistent with the [[axiom of choice]]. 
 
-Moreover, Reinhardt cardinals in [[ZC]] and [[BZC]] do not imply large cardinals such as Ramsey cardinals in the absence of the [[axiom of replacement]]. 
+Moreover, Reinhardt cardinals in [[BZC]] do not imply large cardinals such as Ramsey cardinals in the absence of the [[axiom of full separation]]. 
 
 One only needs to add the $I_3$ axiom to a meta-theory in order to describe [[BZC]] + a Reinhardt cardinal. 
 
