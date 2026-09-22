@@ -133,6 +133,8 @@ The structural set theory **[[ETCS]]** is equivalent to $BZC$ in that the [[cate
 
 * [[structural ZFC]]
 
+* [[Mostowski set theory]]
+
 ## References
 
 Zermelo's axiomatisation grew out of his reflections on his proofs of the well-ordering theorem (1904/08) and was published in
@@ -149,7 +151,7 @@ There are many texts which discuss ZFC and the [[cumulative hierarchy]] from a t
 
 A classification of axioms of variants of $ZFC$, with an eye towards corresponding [[structural set theories]], is
 
-* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+* [[Michael Shulman]]: *Comparing material and structural set theories*, Annals of Pure and Applied Logic, Volume 170, Issue 4, April 2019, Pages 465-504 &lbrack;[doi:10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack;
 {#Shulman2018}
 
 For a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]], see:
