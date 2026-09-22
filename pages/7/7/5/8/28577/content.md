@@ -1,7 +1,10 @@
 
-* [Wikipedia page](https://en.wikipedia.org/wiki/Adrian_Mathias)
+Adrian Richard David Mathias
 
-* [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=24586)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Adrian_Mathias)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=24586)
+
 
 ## Selected writings
 
