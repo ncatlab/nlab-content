@@ -298,9 +298,14 @@ In the context of [[flux quantization laws]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Zagreb 2026|Higher Gauge Theory via Differental Nonabelian Cohomology]]* &lbrack;[arXiv:2606.12534](https://arxiv.org/abs/2606.12534)&rbrack;
 
+* [[Gregory W. Moore]], [[Vivek Saxena]]: *Differential Cohomology*, Part II of: *TASI Lectures On Topological Field Theories And Differential Cohomology* \[<a href="https://arxiv.org/abs/2510.07408">arXiv:2510.07408 hep-th</a>, [inSpire:3065857](https://inspirehep.net/literature/3065857)\]
+
+
 More on the [[RR-field]] as a higher gauge field (for more see at *[[D-brane charge quantization in K-theory]]*):
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
+
 
 
 
