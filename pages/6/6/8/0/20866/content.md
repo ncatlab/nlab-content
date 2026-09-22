@@ -11,26 +11,20 @@
 =--
 
 
-
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
 ### For round chord diagrams
  {#ForCircularChordDiagrams}
 
-In [[knot theory]] by the _4-term relations_ or _4T-relations_, for short, one means the following [[relations]] in the [[linear span]] of [[chord diagrams]]:
+In [[knot theory]], by the _4-term relations_ or _4T-relations_ for short, one means the following [[relations]] in the [[linear span]] of [[chord diagrams]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="340">
 </center>
 
-([Bar-Natan 95, Def. 1.6](#BarNatan95))
-
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+(cf. [Bar-Natan 95, Def. 1.6](#BarNatan95), graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 These are the relations respected by [[weight systems]] on chord diagrams.
 
@@ -43,9 +37,7 @@ For [[horizontal chord diagrams]] the 4T relations is the following:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
 </center>
 
-([Bar-Natan 96, p. 3](#BarNatan96))
-
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+(cf. [Bar-Natan 96, p. 3](#BarNatan96), graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 When the [[linear span]] of [[horizontal chord diagrams]] is regarded as an [[associative algebra]] under concatenation of strands ([here](horizontal+chord+diagram#AlgebraOfHorizontalChordDiagrams)), this relation is the [[infinitesimal braid relation]]
 
@@ -88,7 +80,7 @@ Using this, one finds that [[chord diagrams modulo 4T are Jacobi diagrams modulo
 <img src="https://ncatlab.org/nlab/files/ChordDiagModulo4TAreJAcobiDiagModuloSTU.jpg" width="840">
 </center>
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+(graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 ## Related concepts
 
