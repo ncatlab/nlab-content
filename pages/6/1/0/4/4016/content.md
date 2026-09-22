@@ -36,9 +36,7 @@ Furthermore, the category $Set^{op}$ has a [[small category|small]] [[dense subc
 
 This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
-## In other set theories
-
-### In IZF
+## In constructive set theories
 
 There are two different definitions of a measurable cardinal: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] and [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]].
 
@@ -47,12 +45,6 @@ In [[IZF]], [[ultrafilters]] and point-set [[measure theory]] more generally are
 For [[IZF]], the [[category of sets]] having a non-trivial [[exact functor]] $F:\mathrm{Set} \to \mathrm{Set}$ is not equivalent to a measurable cardinal in [[IZF]]. In particular, if the category of sets is not a [[Boolean category]], then the structure of an exact functor is insufficient to preserve [[first-order logic]] in the [[category of sets]], needed for the definition of a measurable cardinal in terms of [[elementary embeddings]]. Instead, having a measurable cardinal $\kappa$ in IZF is equivalent to having a non-trivial [[logical functor]] $F:\mathrm{Set} \to \mathrm{Set}$ that commute with $\kappa$-small [[colimits]] and defined uniformly via a class-sized formula across the structural hierarchy of sets. 
 
 In [[IZF]], like [[ZFC]], the [[axiom of constructibility]] is inconsistent with [[measurable cardinals]]. 
-
-### In BZC
-
-In [[BZC]], the notion of a [[measurable cardinal]] splits into two different notions: [[Stanisław Ulam]]'s definition of a measurable cardinal in terms of [[ultrafilters]] is no longer provably the same as [[Dana Scott]]'s definition of a measurable cardinal in terms of [[elementary embeddings]] without the [[axiom of replacement]]. As a result, one has to distinguish between what can be termed *Ulam measurable cardinals* and *Scott measurable cardinals*. 
-
-For [[BZC]], the [[category of sets]] having a non-trivial [[exact functor]] $F:\mathrm{Set} \to \mathrm{Set}$ is equivalent to an Ulam measurable cardinal in [[BZC]]. In the absence of the [[axiom of replacement]], the endofunctor corresponding to the [[elementary embedding]] of a Scott measurable cardinal in BZC fails to preserve [[finite colimits]] and so is not an exact functor. 
 
 ## Related entries
 
