@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -8249,9 +8247,14 @@ This is nicely surveyed in
 
 * {#Wilson13} [[Dylan Wilson]], _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_, lecture at [2013 Pre-Talbot Seminar](https://www.hiroleetanaka.com/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
-The actual proof that this new perspecive is equivalent the original Adams-Bousfield theory appears as prop. 2.14 in
+The actual proof that this new perspecive is equivalent the original Adams-Bousfield theory:
 
-* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_, Advances in Mathematics Volume 305, 10 January 2017, Pages 994-1084 ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869), [doi:10.1016/j.aim.2016.09.027](https://doi.org/10.1016/j.aim.2016.09.027))
+* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]];Prop. 2.14 of: _Nilpotence and descent in equivariant stable homotopy theory_, Advances in Mathematics Volume 305, 10 January 2017, Pages 994-1084 ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869), [doi:10.1016/j.aim.2016.09.027](https://doi.org/10.1016/j.aim.2016.09.027))
+
+See also:
+
+* Jake Francis Baer: *Automated proofs of unstable Adams differentials* &lbrack;[arxiv:2609.23984](https://arxiv.org/abs/2609.23984)&rbrack;
+
 
 
  
