@@ -94,13 +94,17 @@ The original argument for charge quantization of the [[electromagnetic field]]:
 
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** 821 (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](https://doi.org/10.1098/rspa.1931.0130)&rbrack;
 
-Further early discussion
+Further early discussion:
 
-* [[Julian Schwinger]], *Magnetic Charge and Quantum Field Theory*, Phys. Rev. **144** (1966) 1087 &lbrack;[doi:10.1103/PhysRev.144.1087](https://doi.org/10.1103/PhysRev.144.1087)&rbrack;
+* [[Julian Schwinger]]: *Magnetic Charge and Quantum Field Theory*, Phys. Rev. **144** (1966) 1087 &lbrack;[doi:10.1103/PhysRev.144.1087](https://doi.org/10.1103/PhysRev.144.1087)&rbrack;
 
-* [[Daniel Zwanziger]], *Quantum Field Theory of Particles with Both Electric and Magnetic Charges*, Phys. Rev. **176** (1968) 1489 &lbrack;[doi:10.1103/PhysRev.176.1489](https://doi.org/10.1103/PhysRev.176.1489)&rbrack;
+* [[Daniel Zwanziger]]: *Quantum Field Theory of Particles with Both Electric and Magnetic Charges*, Phys. Rev. **176** (1968) 1489 &lbrack;[doi:10.1103/PhysRev.176.1489](https://doi.org/10.1103/PhysRev.176.1489)&rbrack;
 
-Understanding of charge quantization in terms of [[Čech cohomology]]:
+The modern understanding via [[connections on principal bundles]]:
+
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: *Dirac's Monopole Without Strings: Classical Lagrangian Theory*, Phys. Rev. D **14** (1976) 437--445 \[<a href="https://doi.org/10.1103/PhysRevD.14.437">doi:10.1103/PhysRevD.14.437</a>\]
+
+and in terms of [[Čech cohomology|Čech]]-[[Deligne cohomology]]:
 
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
@@ -110,6 +114,11 @@ reviewed in:
 
 * Guillermo A. González, *Cohomologa de Cĕch y Cuantización Topológica de Parámetros Físicos*, Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales **47** 182 (2023) 51-71 &lbrack;[doi:10.18257/raccefyn.1782](https://doi.org/10.18257/raccefyn.1782), [[Gonzales-TopologicalQuantization.pdf:file]]&rbrack;
 
+Understanding as [[quantum anomaly]] cancellation for the [[charged particle|charged]] [[relativistic particle|particle]]:
+
+* [[Xiao-Gang Wen]], [[Edward Witten]]; §5 in: *Electric and Magnetic Charges in Superstring Models*, Nucl. Phys.B **261** (1985) 651--677 \[<a href="https://doi.org/10.1016/0550-3213(85)90592-9">doi:10.1016/0550-3213(85)90592-9</a>, [inSpire:214221](http://inspirehep.net/literature/214221)\]
+
+ 
 General review and further discussion:
 
 * {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://link.springer.com/book/10.1007/978-0-8176-4731-5)&rbrack;
