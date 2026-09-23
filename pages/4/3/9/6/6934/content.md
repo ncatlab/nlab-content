@@ -31,19 +31,21 @@ Agda can be compiled to [[Haskell]], Epic or Javascript.
 ### Cubical Agda
  {#CubicalAgda}
 
-[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a mode of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]], and thus a form of [[homotopy type theory]]. 
+[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a mode of Agda (turned on by the flag `--cubical`) that implements a type theory similar to [Cohen--Coquand--Huber--Mörtberg](#CohenCoquandHuberMoertberg18) ([[de Morgan cube category|De Morgan]]) [[cubical type theory]], and thus a form of [[homotopy type theory]]. 
 
 > Introductory lecture notes: [Myers & Riley 2024](#MyersRiley24).
 
-Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
+Its main difference from CCHM is that instead of a separate [[two-level type theory|non-fibrant type]] of "cofibrant propositions" it uses the [[interval object|interval]] $I$ itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.
+This change does not prevent the construction of a model for the theory in [[de Morgan cube category|De Morgan]] [[cubical sets]].
+It does not technically fall under the [Orton--Pitts](#OrtonPitts18) axioms since $I$ is not a subobject of the [[subobject classifier]], but [Cavallo--Mörtberg--Swan](#CavalloMortbergSwan20) shows that this requirement is not essential, so that there is a model in De Morgan cubical sets with an associated [[Quillen model category]].
 
-More problematically, to support [[identity types]] a la Swan (which are distinct from both cubical "path types" and Martin-Lof "identity types" -- the latter sometimes called "jdentity types" to emphasize their definition relative to the J-eliminator) the type of cofibrant propositions must support a [[dominance]].  Cubical Agda thus assumes that $I$ supports a dominance, but this is not true in De Morgan cubical sets.  So the semantics of the entirety of Cubical Agda, with Swan identity types, is unclear.  (For this reason, the Cubical Agda library generally avoids using Swan identity types, although Cubical Agda supports them.)
-
-Ordinary Martin-Löf [[identity types]] should, in principle, also be definable in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.  As of March 2021, however, there is a bug in Cubical Agda that prevents jdentity types from computing correctly.
+Besides path types, Cubical Agda supports defining [[identity types]] as [[indexed inductive types]].
+However, it is not yet completely understood how to combine Agda's pattern matching mechanism for indexed inductive types with cubical type theory.
+[The Agda documentation summarizes the current state of affairs](https://agda.readthedocs.io/en/v2.8.0.2/language/cubical.html#cubical-ix-matching).
 
 ### Guarded Cubical Agda
 
-The guarded cubical variant extends cubical Agda to support [[guarded recursive]] definitions which can be used to formalize [[synthetic guarded domain theory]].
+The guarded cubical variant extends cubical Agda to support [[guarded recursive]] definitions following [Birkedal, Bizjak, Clouston, Grathwohl, Spitters, and Vezzosi (2019)](#BBCGSV19), which can be used to formalize [[synthetic guarded domain theory]].
 
 ### Agda-flat
   {#AgdaFlat}
@@ -149,7 +151,19 @@ Textbook account:
 
 * [[Anders Mörtberg]], *Cubical Agda* (2018) &lbrack;[blog post](https://homotopytypetheory.org/2018/12/06/cubical-agda)&rbrack;
 
-* {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87  (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
+* {#VMA19} [[Andrea Vezzosi]], [[Anders Mörtberg]], [[Andreas Abel]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types*, Proceedings of the ACM on Programming Languages **3** ICFP 87 (2019) 1–29 &lbrack;[doi:10.1145/3341691](https://doi.org/10.1145/3341691), [pdf](https://www.cse.chalmers.se/~abela/icfp19.pdf)&rbrack;
+
+Guarded Cubical Agda is based on:
+
+* {#BBCGSV19} [[Lars Birkedal]], [[Aleš Bizjak]], [[Ranald Clouston]], [[Hans Bugge Grathwohl]], [[Bas Spitters]], [[Andrea Vezzosi]], *Guarded cubical type theory*, Journal of Automated Reasoning **63** (2019) 211--253 &lbrack;[doi:10.1007/s10817-018-9471-7](https://doi.org/10.1007/s10817-018-9471-7), [arXiv:1611.09263](https://arxiv.org/abs/1611.09263)&rbrack;
+
+Related to the semantics of Cubical Agda:
+
+* {#CohenCoquandHuberMoertberg18} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_,  21st International Conference on Types for Proofs and Programs (TYPES 2015). &lbrack;[doi:10.4230/LIPIcs.TYPES.2015.5](https://dx.doi.org/10.4230/LIPIcs.TYPES.2015.5), [arXiv:1611.02108](https://arxiv.org/abs/1611.02108)&rbrack;
+
+* {#OrtonPitts18} [[Ian Orton]], [[Andrew M. Pitts]], _Axioms for Modelling Cubical Type Theory in a Topos_, Logical Methods in Computer Science **14** 4 (2018) 1--33 &lbrack;[arXiv:1712.04864](https://arxiv.org/abs/1712.04864), [doi:10.23638/LMCS-14(4:23)2018](https://doi.org/10.23638/LMCS-14%284:23%292018)&rbrack;
+
+* {#CavalloMortbergSwan20} [[Evan Cavallo]], [[Anders Mörtberg]], [[Andrew W Swan]], _Unifying Cubical Models of Univalent Type Theory_, 28th EACSL Annual Conference on Computer Science Logic (CSL 2020). &lbrack;[doi:10.4230/LIPIcs.CSL.2020.14](https://dx.doi.org/10.4230/LIPIcs.CSL.2020.14)&rbrack;
 
 ### Libraries
 
@@ -194,8 +208,6 @@ Implementation of [[Cauchy real numbers]] (in [[Errett Bishop|Bishop]]-style [[c
 
 * [[Fredrik Nordvall Forsberg]], *The basic syntax of Agda*, talk at CS410 Advanced Functional Programming (2021) &lbrack;[video](https://www.youtube.com/watch?v=yreLHTXwkts)&rbrack;
 
-
- 
 On [[cubical Agda]]:
 
 * [[Andrea Vezzosi]], *Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types* (2019) &lbrack;[video](https://www.youtube.com/watch?v=AZ8wMIar-_c)&rbrack;
@@ -225,17 +237,6 @@ With emphasis on implementing [[homotopy type theory]] and [[univalent foundatio
   2. [Paths and Identifications](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures/2--Paths-and-Identifications)
 
   3. [Topics](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures/3--Topics)
-
-
-
-
-
-
-
-
-
-
-
 
 category: software
 
