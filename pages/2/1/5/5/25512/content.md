@@ -12,10 +12,11 @@ On the [[Aharonov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]
 * {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
 
-On the [[Dirac monopole]]:
+The modern understanding of [[Dirac charge quantization]] and the [[Dirac monopole]] via [[connections on principal bundles]]:
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: *Dirac's Monopole Without Strings: Classical Lagrangian Theory*, Phys. Rev. D **14** (1976) 437--445 \[<a href="https://doi.org/10.1103/PhysRevD.14.437">doi:10.1103/PhysRevD.14.437</a>\]
 
-* Tai Tsun Wu, Chen Ning Yang, _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B **107** 3 (1976) 365--380 \[<a href="https://doi.org/10.1016/0550-3213(76)90143-7">doi:10.1016/0550-3213(76)90143-7</a>\]
+
 
 category: people
