@@ -75,11 +75,12 @@ The original argument that magentic [[monopoles]] may appear in [[grand unified 
 * [[Gerard ’t Hooft]], *Magnetic Monopoles in Unified Gauge Theories*, Nucl. Phys. B **79** (1974) 276-284 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90486-6">doi:10.1016/0550-3213(74)90486-6</a>&rbrack;
 
 
-See also:
+The modern understanding of [[Dirac charge quantization]] and the Dirac monopole via [[connections on principal bundles]]:
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380, <https://doi.org/10.1016/0550-3213(76)90143-7>
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: *Dirac's Monopole Without Strings: Classical Lagrangian Theory*, Phys. Rev. D **14** (1976) 437--445 \[<a href="https://doi.org/10.1103/PhysRevD.14.437">doi:10.1103/PhysRevD.14.437</a>\]
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976), <https://doi.org/10.1103/PhysRevD.14.437>
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B **107** 3 (1976) 365--380 \[<a href="https://doi.org/10.1016/0550-3213(76)90143-7">doi:10.1016/0550-3213(76)90143-7</a>\]
+
 
 ### Via differential 3-cohomology
  {#ReferencesViaDiff3Cohomology}
