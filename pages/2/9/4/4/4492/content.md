@@ -168,6 +168,19 @@ This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
 
 Named after *[[Luigi Bianchi]]*.
 
+On the *algebraic* or *first* Bianchi identity on the [[Riemann curvature tensor]], the one actually due to Ricci:
+
+* [[Luther P. Eisenhart]]; p 82 in: *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
+
+On the *second* or *differential* Bianchi identities in the context of [[Cartan geometry]]:
+
+* [Tu 2017 §22.2](#Tu2017)   
+
+On the analogue of the *differential* or *second* Bianchi identity in [[gauge theory]]/[[connections on a principal bundle]]:
+
+* [[Mikio Nakahara]]; 10.3.5 in: *[[Geometry, Topology and Physics]]*, Institute of Physics Publishing (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
+
+
 [[!include Cartan structural equations and Bianchi identities -- references]]
 
 
