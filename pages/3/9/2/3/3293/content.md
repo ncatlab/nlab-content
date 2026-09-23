@@ -284,6 +284,9 @@ Accounts include:
 
 * Armen Sergeev, Part I of: *Kähler Geometry of Loop Spaces*, MSJ Memoirs (2010) 1-76 &lbrack;[euclid:10.2969/msjmemoirs/02301C010](https://projecteuclid.org/ebooks/mathematical-society-of-japan-memoirs/K%C3%A4hler-Geometry-of-Loop-Spaces/Chapter/Part-I-Preliminary-concepts/10.2969/msjmemoirs/02301C010)&rbrack;
 
+* [[Alexander Schmeding]]: *An introduction to infinite-dimensional differential geometry*, Cambridge University Press (2022) \[<a href="https://doi.org/10.1017/9781009091251">doi:10.1017/9781009091251</a>, [errata](https://github.com/ASchmeding/An-introduction-to-infinite-dimensional-geometry)\]
+
+
 See also:
 
 * Wikipedia: *[Fréchet manifold](https://en.wikipedia.org/wiki/Fr%C3%A9chet_manifold)*
