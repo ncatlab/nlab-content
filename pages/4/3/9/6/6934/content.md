@@ -31,7 +31,9 @@ Agda can be compiled to [[Haskell]], Epic or Javascript.
 ### Cubical Agda
  {#CubicalAgda}
 
-[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a mode of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]], and thus a form of [[homotopy type theory]].
+[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a mode of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]], and thus a form of [[homotopy type theory]]. 
+
+> Introductory lecture notes: [Myers & Riley 2024](#MyersRiley24).
 
 Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
 
@@ -217,6 +219,13 @@ With emphasis on implementing [[homotopy type theory]] and [[univalent foundatio
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
 * {#MyersRiley24} [[David Jaz Myers]], [[Mitchell Riley]], course notes for *Introduction to Cubical* at [[CQTS]] @ NYU Abu Dhabi (2023--2024) &lbrack;[github](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures)&rbrack;
+
+  1. [Type-Theory](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures/1--Type-Theory)
+
+  2. [Paths and Identifications](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures/2--Paths-and-Identifications)
+
+  3. [Topics](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures/3--Topics)
+
 
 
 
