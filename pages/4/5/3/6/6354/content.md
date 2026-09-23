@@ -31,6 +31,10 @@ On [[sigma-models]]:
 * [[Christopher Hull]], *Lectures on Non-Linear Sigma-Models and Strings*, in *Super field theories*, NATO Science Series **160**, Springer (1987) 77-168 &lbrack;[doi:10.1007/978-1-4613-0913-0_4](https://doi.org/10.1007/978-1-4613-0913-0_4)&rbrack;
 
 
+On [[S-duality]] in [[type IIB supergravity]] and [[9D supergravity]]:
+
+* [[Eric Bergshoeff]], [[Chris M. Hull]], [[Tomás Ortín]]: *Duality in the Type--II Superstring Effective Action*, Nucl. Phys. B **451** (1995) 547--578 \[<a href="http://doi.org/10.1016/0550-3213(95)00367-2">doi:10.1016/0550-3213(95)00367-2</a>, [arXiv:hep-th/9504081](https://arxiv.org/abs/hep-th/9504081)\]
+
 
 On [[T-duality]] along [[timelike]] directions:
 
