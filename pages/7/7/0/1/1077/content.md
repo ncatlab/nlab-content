@@ -34,7 +34,7 @@ Finite biproducts are best known from [[additive category|additive categories]].
 
 ### In an additive category
 
-Let $\mathcal{C}$ be an [[additive category]]; that is, $\mathcal{C}$ is [[enriched category|enriched]] over [[abelian groups]]. For $a, b$ a [[pair]] of [[objects]] in $\mathcal{C}$, a __biproduct__ of $a$ and $b$ ([MacLane](#MacLane) p.194) is an object $a \oplus b$ together with [[maps]]
+Let $\mathcal{C}$ be an [[Ab-enriched category]]; that is, $\mathcal{C}$ is [[enriched category|enriched]] over [[abelian groups]]. For $a, b$ a [[pair]] of [[objects]] in $\mathcal{C}$, a __biproduct__ of $a$ and $b$ ([MacLane](#MacLane) p.194) is an object $a \oplus b$ together with [[maps]]
 \begin{tikzcd}
 a \arrow[rr, "i_{1}"', shift right] &  & a \oplus b \arrow[ll, "p_{1}"', shift right] \arrow[rr, "p_{2}", shift left] &  & b \arrow[ll, "i_{2}", shift left]
 \end{tikzcd}
