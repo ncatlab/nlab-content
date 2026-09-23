@@ -351,9 +351,16 @@ Via [[Frölicher spaces]]:
 
 Via [[diffeological spaces]]:
 
-* {#Losik} M. V. Losik: _Categorical Differential Geometry_, [[Cahiers]] **35** 4 (1994) 274--290 \[<a href="www.numdam.org/item/CTGDC_1994__35_4_274_0/a">doi:CTGDC_1994__35_4_274_0/a</a>\] 
+* {#Waldorf} [[Konrad Waldorf]]; Lem. A.1.7 in: _Transgression to Loop Spaces and its Inverse I_, [[Cahiers]] Topol. Geom. Differ. Categ. **LIII** (2012) 162--210 &lbrack;[arXiv:0911.3212](http://arxiv.org/abs/0911.3212), [cahierstgdc:2017/03](http://cahierstgdc.com/wp-content/uploads/2017/03/Waldorf.pdf)&rbrack;
 
-* {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+following:
+
+* {#Losik92} [[Mark Losik]]: _Fréchet manifolds as diffeologic spaces_, Russian Mathematics **36** 5 (1992) 36--42 &lbrack;Engl. translation:[pdf](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf), [[Losik_FrechetAsDiffeological.pdf|pdf:file]]; Russian original: [mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812)&rbrack;
+
+* {#Losik} [[Mark V. Losik]]: _Categorical Differential Geometry_, [[Cahiers]] **35** 4 (1994) 274--290 \[<a href="www.numdam.org/item/CTGDC_1994__35_4_274_0/a">doi:CTGDC_1994__35_4_274_0/a</a>\] 
+
+See also:
+
  
 * {#Stacey}[[Andrew Stacey]]: _Yet more smooth mapping spaces and their smoothly local properties_ &lbrack;[arXiv:1301.5493](http://arxiv.org/abs/1301.5493)&rbrack;
 
