@@ -33,9 +33,11 @@ On the relation between [[Cobordism cohomology]] and [[D-brane charge quantizati
 
 * {#Blumenhagen23} [[Ralph Blumenhagen]], *Nullifying Cobordism in Quantum Gravity*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BlumenhagenMar2023), slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=jLlE_jSH0lk)\]
 
-On the [[BFSS matrix model]]:
+On the [[BFSS matrix model]] in relation to [[M5-branes]]:
 
 * Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Novel Matrix Model for the M5-brane?* &lbrack;[arXiv:2607.05490](https://arxiv.org/abs/2607.05490)&rbrack;
+
+* Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Quantum-Mechanical Model for the M5-Brane* &lbrack;[arXiv:2609.25207](https://arxiv.org/abs/2609.25207)&rbrack;
 
 
 
