@@ -68,7 +68,7 @@ See there for more.
 
 Textbook accounts: 
 
-* [[Alexander Schmeding]],  *An introduction to infinite-dimensional differential geometry*, Cambridge University Press ([arXiv:2112.08114](https://arxiv.org/abs/2112.08114))
+* [[Alexander Schmeding]]: *An introduction to infinite-dimensional differential geometry*, Cambridge University Press (2022) \[<a href="https://doi.org/10.1017/9781009091251">doi:10.1017/9781009091251</a>, [errata](https://github.com/ASchmeding/An-introduction-to-infinite-dimensional-geometry), [arXiv:2112.08114](https://arxiv.org/abs/2112.08114)\]
 
 in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
 
