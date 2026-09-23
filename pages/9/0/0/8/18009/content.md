@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -294,3 +292,6 @@ with exposition in
 [[!redirects twisted loop spaces]]
 
 [[!redirects Ext/Cyc-adjunction]]
+
+[[!redirects cyclification]]
+
