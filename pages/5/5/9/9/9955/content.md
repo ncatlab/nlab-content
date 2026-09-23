@@ -39,6 +39,10 @@ On [[volume-preserving diffeomorphism]] [[gauge symmetry]] in the [[light cone g
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
 
+On [[S-duality]] in [[type IIB supergravity]] and [[9D supergravity]]:
+
+* [[Eric Bergshoeff]], [[Chris M. Hull]], [[Tomás Ortín]]: *Duality in the Type--II Superstring Effective Action*, Nucl. Phys. B **451** (1995) 547--578 \[<a href="http://doi.org/10.1016/0550-3213(95)00367-2">doi:10.1016/0550-3213(95)00367-2</a>, [arXiv:hep-th/9504081](https://arxiv.org/abs/hep-th/9504081)\]
+
 
 
 On [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
