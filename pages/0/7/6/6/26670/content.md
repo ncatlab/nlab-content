@@ -21,7 +21,7 @@ Further discussion:
 
 * C. C. Briggs, *A Sequence of Generalizations of Cartan's Conservation of Torsion Theorem* \[<a href="https://arxiv.org/abs/gr-qc/9908034">arXiv:gr-qc/9908034</a>\]
 
-* [[Loring Tu]], §22 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer (2017) \[<a href="https://www.springer.com/gp/book/9783319550824">ISBN:978-3-319-55082-4</a>\]
+* {#Tu2017} [[Loring Tu]], §22 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer (2017) \[<a href="https://www.springer.com/gp/book/9783319550824">ISBN:978-3-319-55082-4</a>\]
 
 * Thoan Do, Geoff Prince, *An intrinsic and exterior form of the Bianchi identities*, International Journal of Geometric Methods in Modern Physics **14** 01 (2017) 1750001 \[<a href="https://doi.org/10.1142/S0219887817500013">doi:10.1142/S0219887817500013</a>, [arXiv:1501.01123](https://arxiv.org/abs/1501.01123)\]
 
