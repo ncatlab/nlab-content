@@ -288,13 +288,11 @@ See also:
 
 * Wikipedia: *[Fréchet manifold](https://en.wikipedia.org/wiki/Fr%C3%A9chet_manifold)*
 
-The embedding into [[diffeological spaces]] is due to
+The [[full subcategory]]-inclusion of Fréchet manifolds into [[diffeological spaces]]: 
 
-* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeologic spaces_, Russian Mathematics 36:5 (1992), 36–42.  English translation: [PDF](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf).  Russian original: М. В. Лосик, _О многообразиях Фреше как диффеологических пространствах_, Изв. вузов. Матем. (Izv. Vyssh. Uchebn. Zaved. Mat.), 1992, issue 5, 36–42, ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
+* {#Losik92} [[Mark Losik]]: _Fréchet manifolds as diffeologic spaces_, Russian Mathematics **36** 5 (1992) 36--42 &lbrack;Engl. translation:[pdf](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf), [[Losik_FrechetAsDiffeological.pdf|pdf:file]]; Russian original: [mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812)&rbrack;
 
-and reviewed in 
-
-* {#Losik94} [[Mark Losik]], Section 3 of: _Categorical Differential Geometry_. Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994 ([numdam:CTGDC_1994__35_4_274_0](http://www.numdam.org/item/CTGDC_1994__35_4_274_0))
+* {#Losik94} [[Mark V. Losik]]: _Categorical Differential Geometry_, [[Cahiers]] **35** 4 (1994) 274--290 \[<a href="www.numdam.org/item/CTGDC_1994__35_4_274_0/a">doi:CTGDC_1994__35_4_274_0/a</a>\] 
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
