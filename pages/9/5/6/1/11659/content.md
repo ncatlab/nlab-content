@@ -62,6 +62,11 @@ Direct construction of 9D SuGra via Noether method (*not* by dim-reduction):
 
 More on $SL_2$ [[S-duality]] in 9D SuGra:
 
+* [[Eric Bergshoeff]], [[Chris M. Hull]], [[Tomás Ortín]]: *Duality in the Type--II Superstring Effective Action*, Nucl. Phys. B **451** (1995) 547--578 \[<a href="http://doi.org/10.1016/0550-3213(95)00367-2">doi:10.1016/0550-3213(95)00367-2</a>, [arXiv:hep-th/9504081](https://arxiv.org/abs/hep-th/9504081)\]
+
+* [[Ashok Das]], Shibaji Roy: *On M-Theory and the Symmetries of Type II String Effective Actions*, Nucl. Phys. B **482** (1996) 119--141 \[<a href="http://doi.org/10.1016/S0550-3213(96)00530-5">doi:10.1016/S0550-3213(96)00530-5</a>, [arXiv:hep-th/9605073](https://arxiv.org/abs/hep-th/9605073)\]
+
+
 * [[Patrick Meessen]], [[Tomás Ortín]]: *An $Sl(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories*,  Nucl. Phys. B **541** (1999) 195--245 \[<a href="https://doi.org/10.1016/S0550-3213(98)00780-9">doi:10.1016/S0550-3213(98)00780-9</a>, [arXiv:hep-th/9806120](https://arxiv.org/abs/hep-th/9806120)\]
 
 * Mohab Abou-Zeid, [[Bernard de Wit]], [[Dieter Lüst]], [[Hermann Nicolai]]: *Space-Time Supersymmetry, IIA/B Duality and M-Theory*, Phys. Lett. B **466** (1999) 144--152 \[<a href="https://doi.org/10.1016/S0370-2693(99)01114-4">doi:10.1016/S0370-2693(99)01114-4</a>, [arXiv:hep-th/9908169](https://arxiv.org/abs/hep-th/9908169)\]
@@ -69,6 +74,10 @@ More on $SL_2$ [[S-duality]] in 9D SuGra:
 More on [[gauged supergravity|gauged]] 9D supergravity:
 
 * J. J. Fernandez-Melgarejo, [[Tomás Ortín]], E. Torrente-Lujan: *The general gaugings of maximal d=9 supergravity*, J. High Energ. Phys. **2011** 68 (2011) \[<a href="https://doi.org/10.1007/JHEP10(2011)068">doi:10.1007/JHEP10(2011)068</a>, [arXiv:1106.1760](https://arxiv.org/abs/1106.1760)\]
+
+The duality-symmetric flux [[Bianchi identities]] via [[cyclification]]:
+
+* [[Hisham Sati]], [[Alexander Voronov]]; Ex. 2.6 in: *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. **400** (2023) 1915-1960 &lbrack;[arXiv:2111.14810 hep-th](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
 
 
 
