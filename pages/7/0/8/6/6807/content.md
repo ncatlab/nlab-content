@@ -236,6 +236,9 @@ See also:
 
 * Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Novel Matrix Model for the M5-brane?* &lbrack;[arXiv:2607.05490](https://arxiv.org/abs/2607.05490)&rbrack;
 
+* Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Quantum-Mechanical Model for the M5-Brane* &lbrack;[arXiv:2609.25207](https://arxiv.org/abs/2609.25207)&rbrack;
+
+
 
 
 
