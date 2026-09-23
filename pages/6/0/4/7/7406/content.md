@@ -15,7 +15,7 @@
 
 ## Definition
 
-Let $C$ be a [[coherent category]].  Write $\tau C$ for the category whose objects are pairs $(X,F)$ where $X$ is an object of $C$ and $F$ is a [[prime filter]] on $Sub_C(X)$.  This is the full subcategory of the [[category of filters]] of $C$ spanned by the prime filters.  Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
+Let $C$ be a [[coherent category]].  Write $\tau C$ for the category whose objects are pairs $(X,F)$ where $X$ is an object of $C$ and $F$ is a [[prime filter]] on $Sub_C(X)$.  This is the full subcategory of the [[category of filters]] of $C$ spanned by the prime filters.  Let $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
 
 As defined by [Makkai](#Makkai), the **topos of types** $\mathbf{T}(C)$ of $C$ is the [[sheaf topos]]
 
