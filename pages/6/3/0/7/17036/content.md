@@ -13,12 +13,11 @@ Before joining NTNU, I was associate professor at Nord University in Levanger an
 
 On [[differential geometry]] with [[infinite-dimensional manifolds]]:
 
-* [[Alexander Schmeding]],  *An introduction to infinite-dimensional differential geometry*, Cambridge University Press. The open access version is available here: [CUP Open Access version](https://www.cambridge.org/core/books/an-introduction-to-infinitedimensional-differential-geometry/6483795C98EE417C0F3654F6C192C3BC)
-Further, here is the [list of Errata](https://github.com/ASchmeding/An-introduction-to-infinite-dimensional-geometry)
+* [[Alexander Schmeding]]: *An introduction to infinite-dimensional differential geometry*, Cambridge University Press (2022) \[<a href="https://doi.org/10.1017/9781009091251">doi:10.1017/9781009091251</a>, [errata](https://github.com/ASchmeding/An-introduction-to-infinite-dimensional-geometry), [arXiv:2112.08114](https://arxiv.org/abs/2112.08114)\]
 
 * [Youtube](https://www.youtube.com/channel/UCTIB6ykZCrpd0trFhiSETGw) (videos on math in particular a course on infinite-dimensional geometry)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[bisection of a Lie groupoid]]
 
