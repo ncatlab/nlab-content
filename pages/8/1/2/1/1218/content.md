@@ -533,13 +533,11 @@ That there are diffeologically-smooth maps between locally convex vector spaces 
 
 * {#Glockner06} Helge Gl&#246;ckner, _Discontinuous non-linear mappings on locally convex direct limits_, Publ. Math. Debrecen 68 (2006) 1-13, [arXiv:math/0503387](http://arxiv.org/abs/math/0503387).
 
-The [[full subcategory]]-inclusion of [[Fréchet manifolds]] into diffeological spaces is discussed in 
+The [[full subcategory]]-inclusion of [[Fréchet manifolds]] into diffeological spaces: 
 
-* {#Losik92} [[Mark Losik]], _Fréchet manifolds as diffeologic spaces_, Russian Mathematics 36:5 (1992), 36–42.  English translation: [PDF](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf).  Russian original: ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
+* {#Losik92} [[Mark Losik]]: _Fréchet manifolds as diffeologic spaces_, Russian Mathematics **36** 5 (1992) 36--42 &lbrack;Engl. translation:[pdf](https://dmitripavlov.org/scans/losik-frechet-manifolds-as-diffeologic-spaces.pdf), Russian original: [mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812)&rbrack;
 
-and reviewed in  
-
-* {#Losik94} [[Mark Losik]], Section 3 of: _Categorical Differential Geometry_. Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994 ([numdam:CTGDC_1994__35_4_274_0](http://www.numdam.org/item/CTGDC_1994__35_4_274_0))
+* {#Losik94} [[Mark V. Losik]]: _Categorical Differential Geometry_, [[Cahiers]] **35** 4 (1994) 274--290 \[<a href="www.numdam.org/item/CTGDC_1994__35_4_274_0/a">doi:CTGDC_1994__35_4_274_0/a</a>\] 
  
 
 The proof can in fact be deduced from th&#233;or&#232;me 1 of
@@ -548,7 +546,8 @@ The proof can in fact be deduced from th&#233;or&#232;me 1 of
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
-* {#Waldorf09} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+* {#Waldorf09} [[Konrad Waldorf]]: _Transgression to Loop Spaces and its Inverse I_, [[Cahiers]] Topol. Geom. Differ. Categ. **LIII** (2012) 162--210 &lbrack;[arXiv:0911.3212](http://arxiv.org/abs/0911.3212), [cahierstgdc:2017/03](http://cahierstgdc.com/wp-content/uploads/2017/03/Waldorf.pdf)&rbrack;
+
  
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all [[plots]] are [[continuous functions]] (the "[[D-topology]]") is studied in 
