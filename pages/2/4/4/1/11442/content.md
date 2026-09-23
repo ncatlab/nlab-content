@@ -17,9 +17,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -64,24 +62,33 @@ Kan-fibrant simplicial manifolds have received particular attention as the resul
 
 ## References
 
+> (see also references at *[[Lie integration]]*)
+
 Early appearances of the concept include
 
-* [[André Henriques]], _Integrating $L_\infty$-algebras_, Compositio Mathematica, 144, (2008), no. 4, 1017&#8211;1045 ([arXiv:math/0603563](http://arxiv.org/abs/math/0603563))
+* [[André Henriques]]; Def. 1.2 in: _Integrating $L_\infty$-algebras_, Compositio Mathematica **144** 4 (2008) 1017--1045 &lbrack;[arXiv:math/0603563](http://arxiv.org/abs/math/0603563), [doi:10.1112/S0010437X07003405](https://doi.org/10.1112/S0010437X07003405)&rbrack;
 
-* {#Zhu06} [[Chenchang Zhu]], _$n$-groupoids and stacky Lie groupoids_, Int Math Res Notices (2009) 2009 (21): 4087-4141. ([arXiv:math/0609420](http://arxiv.org/abs/math/0609420))
+* {#Zhu06} [[Chenchang Zhu]]; Def. 1.2 in: *Lie $n$-groupoids and stacky Lie groupoids* &lbrack;[arXiv:math/0609420](https://arxiv.org/abs/math/0609420)&rbrack;
 
-* {#Zhu08} [[Chenchang Zhu]], _Kan replacement of simplicial manifolds_, Lett Math Phys (2009) 90:383&#8211;405, [arXiv:0812.4150](http://arxiv.org/abs/0812.4150)
+* {#Zhu08} [[Chenchang Zhu]]; Def. 1.3 in: _$n$-Groupoids and Stacky Groupoids_, Int Math Res Notices **2009** 21 (2009) 4087--4141 &lbrack;[doi:10.1093/imrn/rnp080](https://doi.org/10.1093/imrn/rnp080), [arXiv:0801.2057 math.DG](https://arxiv.org/abs/0801.2057)&rbrack;
+
+* {#Zhu09} [[Chenchang Zhu]]: _Kan replacement of simplicial manifolds_, Lett Math Phys **90** 1 (2009) 383--405 &lbrack;[arXiv:0812.4150 math.DG](http://arxiv.org/abs/0812.4150), [doi:10.1007/s11005-009-0353-0](https://doi.org/10.1007/s11005-009-0353-0)&rbrack;
 
 
-Characterization of the homotopy theory of Kan-fibrant simplicial manifolds as [[geometric ∞-stacks]] modeled on smooth manifolds is in (see aroung p. 17 for the differential geometric version)
+Characterization of the homotopy theory of Kan-fibrant simplicial manifolds as [[geometric ∞-stacks]] modeled on smooth manifolds is in (see around p. 17 for the differential geometric version)
 
-* {#Pridham09} [[Jonathan Pridham]], _Presenting higher stacks as simplicial schemes_, Advances in Mathematics, Volume 238, Pages 184-245 ([arXiv:0905.4044](http://arxiv.org/abs/0905.4044))
+* {#Pridham09} [[Jonathan Pridham]]: _Presenting higher stacks as simplicial schemes_, Advances in Mathematics **238** (2013) 184--245 &lbrack;[arXiv:0905.4044](http://arxiv.org/abs/0905.4044), [doi:10.1016/j.aim.2013.01.009](https://doi.org/10.1016/j.aim.2013.01.009)&rbrack;
 
 Discussion of [[principal ∞-bundles]] in [[Smooth∞Grpd]] $= Sh_\infty(SmoothMfd)$ which are represented by locally Kan-fibrant simplicial manifolds is in 
 
-* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], section 4.2 of _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, March 2014 ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], section 4.2 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures **10** 3 (2015) 565--622 &lbrack;[doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249 math.AT](http://arxiv.org/abs/1207.0249)&rbrack;
 
-* [[Jesse Wolfson]], _Descent for $n$-Bundles_ ([arXiv:1308.1113](http://arxiv.org/abs/1308.1113))
+* [[Jesse Wolfson]]: _Descent for $n$-Bundles_, Advances in Mathematics **288** (2016) 527--575 &lbrack;[arXiv:1308.1113](http://arxiv.org/abs/1308.1113), [doi:10.1016/j.aim.2015.10.024](https://doi.org/10.1016/j.aim.2015.10.024)&rbrack;
+
+
+
+* Alejandro Cabrera, Matias del Hoyo: *Geometric differentiation of simplicial manifolds* &lbrack;[arXiv:2602.09885 math.DG](https://arxiv.org/abs/2602.09885)&rbrack;
+
 
 [[!redirects Kan simplicial manifolds]]
 [[!redirects Kan-fibrant simplicial manifold]]
