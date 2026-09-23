@@ -99,7 +99,7 @@ Exposition in view of [[synthetic homotopy theory]]:
 
 Original articles on the BCH model:
 
-* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_ (September 2013) &lbrack;[pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf)&rbrack;
+* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_ (September 2013)
 
 * {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]]: _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013) &lbrack;[doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf)&rbrack;
 
