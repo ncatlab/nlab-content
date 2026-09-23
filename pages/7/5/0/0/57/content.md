@@ -713,7 +713,7 @@ For general [[∞-Lie algebroids]] the general idea of the integration process b
 
 Cast along the lines of [[Lie's third theorem]]:
 
-* [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957](https://arxiv.org/abs/2409.08957)&rbrack;
+* [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957 math.RA](https://arxiv.org/abs/2409.08957)&rbrack;
 
 
 Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized spectra]] ([[twisted cohomology|twisted]] [[differential cohomology theories]]);
@@ -730,8 +730,7 @@ reviewed in
 
 and following [Duistermaat-Kolk (2000 section 1.14)](#DuistermaatKolk00), as well as the discussion of the special case of Lie integration of [[Poisson Lie algebroids]] to [[symplectic groupoids]] in 
 
-* {#CattaneoFelder01} [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
-2001), 61&#8211;93. ([arXiv:math/0003023](http://arxiv.org/abs/math/0003023))
+* {#CattaneoFelder01} [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics **198** mBirkh&#228;user (2001) 61--93. &lbrack;[arXiv:math/0003023](http://arxiv.org/abs/math/0003023)&rbrack;
  
 upgraded to the stacky version by
 
@@ -757,7 +756,7 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
 
-_L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
+* _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
 
 Integration from Lie algebroids to groupoids is also studied in the dual language and generality of integration of Lie-Reinhart algebras and commutative Hopf algebroids,
 
