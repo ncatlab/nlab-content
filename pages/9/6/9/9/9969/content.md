@@ -53,11 +53,12 @@ On the [[Aharonov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]
 
 * [[Chen Ning Yang]]: *Vector Potentials and Connections*, talk at 13th Annual Geometry Festival *Connections in Modern Mathematics and Physics*, Stony Brook University (April 1998) &lbrack;video:[YT](https://youtu.be/uaBVQe7w2Hs)&rbrack;
 
-On [[Dirac monopoles]]:
+The modern understanding of [[Dirac charge quantization]] and the [[Dirac monopole]] via [[connections on principal bundles]]:
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: *Dirac's Monopole Without Strings: Classical Lagrangian Theory*, Phys. Rev. D **14** (1976) 437--445 \[<a href="https://doi.org/10.1103/PhysRevD.14.437">doi:10.1103/PhysRevD.14.437</a>\]
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
+* [[Tai Tsun Wu]], [[Chen Ning Yang]]: _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B **107** 3 (1976) 365--380 \[<a href="https://doi.org/10.1016/0550-3213(76)90143-7">doi:10.1016/0550-3213(76)90143-7</a>\]
+
 
 On the historical origin of [[Maxwell's equations]], the "[[vector potential]]" and ([[Yang-Mills theory|Yang-Mills]]) [[gauge theory]]:
 
