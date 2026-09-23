@@ -14,6 +14,12 @@ Tomás Ortín
 
 ## Selected writings
 
+
+On [[S-duality]] in [[type IIB supergravity]] and [[9D supergravity]]:
+
+* [[Eric Bergshoeff]], [[Chris M. Hull]], [[Tomás Ortín]]: *Duality in the Type--II Superstring Effective Action*, Nucl. Phys. B **451** (1995) 547--578 \[<a href="http://doi.org/10.1016/0550-3213(95)00367-2">doi:10.1016/0550-3213(95)00367-2</a>, [arXiv:hep-th/9504081](https://arxiv.org/abs/hep-th/9504081)\]
+
+
 On [[black hole]] solutions in [[supergravity]] with nonvanishing [[gravitino]] field:
 
 * Roger Brooks, [[Renata Kallosh]], [[Tomás Ortín]] :*Fermion Zero Modes and Black-Hole Hypermultiplet with Rigid Supersymmetry*, Phys. Rev. D **52** (1995) 5797--5805 \[<a href="https://doi.org/10.1103/PhysRevD.52.5797">doi:10.1103/PhysRevD.52.5797</a>, [arXiv:hep-th/9505116](https://arxiv.org/abs/hep-th/9505116)\]
