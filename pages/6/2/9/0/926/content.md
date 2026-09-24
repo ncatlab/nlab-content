@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -251,7 +249,7 @@ exhibits a Postnikov tower for $X$.
 
 =--
 
-This is observed for instance in ([ArtinMazur](#ArtinMazur)) or ([DwyerKan](#DwyerKan)). Also see [[coskeleton]] for more details.
+This is observed for instance in [Artin & Mazur](#ArtinMazur)  and [Dwyer & Kan 1984](#DwyerKan1984). Also see at *[[coskeleton]]* for more details.
 
 #### Identification relative to skeleta
  {#IdentificationRelativeSkeleta}
@@ -831,11 +829,11 @@ and as a result, in that context, they are sometimes referred to as **Moore-Post
 
 The coskeleton construction for the Postnikov tower of a Kan complex is already in 
 
-* {#ArtinMazur}[[M. Artin]], [[B. Mazur]], _&#201;tale homotopy_, (1969)(Lecture Notes in Maths. 100). 
+* {#ArtinMazur}[[M. Artin]], [[B. Mazur]]: _&#201;tale homotopy_, Lecture Notes in Maths. **100** (1969) 
 
 Another  classical article that amplifies the expression of Postnikov towers in terms of [[coskeleta]] is
 
-* {#DwyerKan} [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf)), from 1984.
+* {#DwyerKan1984} [[William Dwyer]], [[Dan Kan]]: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 139--146 \[<a href="http://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>\]
  
 
 Analogous remarks are also in
