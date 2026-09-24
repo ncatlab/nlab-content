@@ -88,9 +88,12 @@ Specifically for [[Seifert 3-manifolds]] (such as [[lens spaces]]):
 * [[Du Pei]], _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
 
 
-Review is in
+Review:
 
 * {#Dimofte14} [[Tudor Dimofte]]: *3d Superconformal Theories from Three-Manifolds*, in: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer (2015) 339-373 &lbrack;[arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11)&rbrack;
+
+* [[Masahito Yamazaki]]: *Geometries of Quantum Field Theories* &lbrack;[arXiv:2609.28210](https://arxiv.org/abs/2609.28210)&rbrack;
+
 
 
 Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-3d correspondence]]:
