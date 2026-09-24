@@ -31,7 +31,12 @@ On [[derived hom-spaces]] ([[function complexes]]) in [[projective model structu
 
 On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
 
-* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 147--153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
+
+On [[Postnikov towers]] of [[simplicial sets]] in terms of [[coskeleta]]:
+
+* {#DwyerKan1984} [[William Dwyer]], [[Dan Kan]]: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 139--146 \[<a href="http://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>\]
+
 
 Introducing the [[model structure on simplicial groupoids]]:
 
