@@ -13,7 +13,7 @@ Introducing the notion of [[monoidal categories]] (then under the name "categori
 
 * [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) 1887-1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
 
-* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[gallica](gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
+* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
 
 * [[Jean Bénabou]], *Les catégories multiplicatives*, Séminaire de mathématique pure **27**, Université de Louvain (1972) &lbrack;[[Benabou-CategoriesMultiplicatives.pdf:file]]&rbrack;
 
