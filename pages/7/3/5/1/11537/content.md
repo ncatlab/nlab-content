@@ -40,3 +40,6 @@ Similarly S-duality mixes the [[NS5-brane]] and the [[D5-brane]] and hence the f
 
 [[!redirects F1-string]]
 [[!redirects F1-strings]]
+
+[[!redirects NS1-brane]]
+[[!redirects NS1-branes]]
