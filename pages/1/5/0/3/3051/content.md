@@ -1,9 +1,11 @@
 
-Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what are now called *[[monoidal categories]]*.
+Jean B&#233;nabou (1932--2022) was a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what are now called *[[monoidal categories]]*.
 
 * [Wikipedia entry](https://fr.wikipedia.org/wiki/Jean_B%C3%A9nabou)
 
-* [[Francis Borceux]]: *JEAN BÉNABOU (1932–2022): The man and the mathematician*, _[[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques_, **LXIII-3** (2022) &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2022/07/F.-BORCEUX-LXIII-3.pdf)&rbrack;
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=98585)
+
+* [[Francis Borceux]]: *JEAN BÉNABOU (1932--2022): The man and the mathematician*, _[[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques_ **LXIII-3** (2022) &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2022/07/F.-BORCEUX-LXIII-3.pdf)&rbrack;
 
 
 ## Selected writings
@@ -11,11 +13,11 @@ Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category t
 
 Introducing the notion of [[monoidal categories]] (then under the name "categories with multiplication" or "multiplicative categories"):
 
-* [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) 1887-1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
+* [[Jean Bénabou]]: _Cat&#233;gories avec multiplication_, C. R. Acad. Sci. Paris **256** (1963) 1887--1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
 
-* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
+* [[Jean Bénabou]]: _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_, C. R. Acad. Sci. Paris **258** (1964) 771--774 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
 
-* [[Jean Bénabou]], *Les catégories multiplicatives*, Séminaire de mathématique pure **27**, Université de Louvain (1972) &lbrack;[[Benabou-CategoriesMultiplicatives.pdf:file]]&rbrack;
+* [[Jean Bénabou]]: *Les catégories multiplicatives*, Séminaire de mathématique pure **27**, Université de Louvain (1972) &lbrack;[[Benabou-CategoriesMultiplicatives.pdf:file]]&rbrack;
 
 
 Introducing the notion of [[enriched categories]] (and of [[strict 2-categories]], as an example):
