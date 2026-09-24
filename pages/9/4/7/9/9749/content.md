@@ -76,7 +76,7 @@ It is one of the most important examples of a [[Markov category]].
 
 ### Algebras over the Giry Monad  {#algebras_over_the_giry_monad}
 
-Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad which as as objects those [[measurable spaces]] $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad. The morphisms of $\mathbf{Alg}_G$ are those measurable functions $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
+Let $\mathbf{Alg}_G$ denote the category of algebras of the $G$-monad which has as objects those [[measurable spaces]] $X$ for which there exists a $G$-algebra $G(X) \xrightarrow{h} X$ which is an object in the [[Eilenberg-Moore category]] of the $G$-monad. The morphisms of $\mathbf{Alg}_G$ are those measurable functions $X \xrightarrow{m} Y$ such that $m$ constitutes an arrow in the [[Eilenberg-Moore category]] of the $G$-monad. 
    
 If $X$ is any measurable space then the space of probability measures $G{X}$ has a [[convex space]] structure defined pointwise: if $\{P_i\}_{i=1}^{n}$ is finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{n} p_i = 1$, the affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
@@ -201,7 +201,7 @@ Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural tran
 \end{corollary}
 \begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the [[slice category]] whose objects consist of affine measurable functions $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
 For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ 
-Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. See Propositions 1 and 2, page 242 of [[CWM]].
+Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. (See Propositions 1 and 2, page 242 of [[CWM]].)
 
 Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and [[natural transformation]] components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
 
