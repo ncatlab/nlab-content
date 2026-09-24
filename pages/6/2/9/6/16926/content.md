@@ -1,5 +1,6 @@
 [[!redirects 10-dimensional supergravity]]
 [[!redirects 10d supergravity]]
+[[!redirects 10D supergravity]]
 
 
 10-[[dimension|dimensional]] [[supergravity]]
