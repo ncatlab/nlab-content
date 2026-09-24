@@ -80,6 +80,10 @@ Introducing the [[model structure on simplicial groupoids]]:
 
 * [[William Dwyer]], [[Daniel Kan]],  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
+On [[Postnikov towers]] of [[simplicial sets]] in terms of [[coskeleta]]:
+
+* {#DwyerKan1984} [[William Dwyer]], [[Dan Kan]]: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) **87** 2 (1984) 139--146 \[<a href="http://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>\]
+
 
 On [[homotopy commutative diagrams]]:
 
