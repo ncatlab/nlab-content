@@ -13,6 +13,11 @@ Introducing the [[3d-3d correspondence]]:
 
 * [[Yuji Terashima]], [[Masahito Yamazaki]], _Semiclassical Analysis of the 3d/3d Relation_, Phys.Rev.D88:026011, 2013 ([arXiv:1106.3066](https://arxiv.org/abs/1106.3066))
 
+Review:
+
+* [[Masahito Yamazaki]]: *Geometries of Quantum Field Theories* &lbrack;[arXiv:2609.28210](https://arxiv.org/abs/2609.28210)&rbrack;
+
+
 On [[semi-holomorphic 4d Chern-Simons theory]] and relation to [[integrable systems]]:
 
 
