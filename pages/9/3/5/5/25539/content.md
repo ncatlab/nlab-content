@@ -1,11 +1,15 @@
 
-* [insitute page](https://grk1670.math.uni-hamburg.de/researchers/shahbazi/)
+* [personal page](https://www.carlos-shahbazi.com/)
+
+* [institute page](https://grk1670.math.uni-hamburg.de/researchers/shahbazi/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=178023)
 
 * [InSpire page](https://inspirehep.net/authors/1071214)
 
 * [GoogleScholar page](https://scholar.google.es/citations?user=EXNc_UsAAAAJ)
 
-* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=178023)
+* [ResearchGate page](https://www.researchgate.net/profile/C-Shahbazi)
 
 
 ## Selected writings
