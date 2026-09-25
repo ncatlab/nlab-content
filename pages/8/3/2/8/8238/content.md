@@ -145,7 +145,7 @@ $$
 
 =--
 
-(e.g. [Blanc 96, p. 6](#Blanc96), [Libman, p.4](#Libman))
+(cf. [Blanc 1996, p. 6](#Blanc96), [Libman 1991, p.4](#Libman1991))
 
 
 +-- {: .num_prop #FiniteLimitsInProCategoryOfTowers}
@@ -172,9 +172,10 @@ The pro-category of towers $Tow_{pro}(\mathcal{C})$ (def. \ref{ProCategoryOfTowe
 
 ## References
 
-* {#Blanc96} [[David Blanc]], _Colimits for the pro-category of towers of simplicial sets_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1996) Volume: 37, Issue: 4, page 258-278 ([numdam](http://www.numdam.org/item?id=CTGDC_1996__37_4_258_0))
+* {#Blanc96} [[David Blanc]]: _Colimits for the pro-category of towers of simplicial sets_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **37** 4 (1996) 258--278 &lbrack;[numdam:CTGDC_1996__37_4_258_0](http://www.numdam.org/item?id=CTGDC_1996__37_4_258_0)&rbrack;
 
-* {#Libman} [[Assaf Libman]], _Tower techniques for cofacial resolutions_,  Hopf archive ([pdf](https://web.archive.org/web/20050113050114/https://hopf.math.purdue.edu/Libman/towers.pdf))
+* {#Libman1991} [[Assaf Libman]]: _Tower techniques for cofacial resolutions_ (1991) &lbrack;[[Libman_TowerTechniques.pdf:file]]&rbrack;
+
 
 [[!redirects tower diagram]]
 [[!redirects towers]]
