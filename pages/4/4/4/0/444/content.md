@@ -114,7 +114,7 @@ such that
 * $i$ takes values in [[endomorphisms]];
 
   $$
-    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+    t \circ i = s \circ i =   id_{\mathcal{C}_0}, \;\;\; 
   $$
 
 * $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{C}_0)$ the [[identities]]; in particular
