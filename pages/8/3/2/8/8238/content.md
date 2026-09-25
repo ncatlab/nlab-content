@@ -174,7 +174,7 @@ The pro-category of towers $Tow_{pro}(\mathcal{C})$ (def. \ref{ProCategoryOfTowe
 
 * {#Blanc96} [[David Blanc]], _Colimits for the pro-category of towers of simplicial sets_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1996) Volume: 37, Issue: 4, page 258-278 ([numdam](http://www.numdam.org/item?id=CTGDC_1996__37_4_258_0))
 
-* {#Libman} [[Assaf Libman]], _Tower techniques for cofacial resolutions_,  Hopf archive ([pdf](http://hopf.math.purdue.edu/Libman/towers.pdf))
+* {#Libman} [[Assaf Libman]], _Tower techniques for cofacial resolutions_,  Hopf archive ([pdf](https://web.archive.org/web/20050113050114/https://hopf.math.purdue.edu/Libman/towers.pdf))
 
 [[!redirects tower diagram]]
 [[!redirects towers]]
