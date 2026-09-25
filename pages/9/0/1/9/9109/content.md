@@ -24,4 +24,10 @@ On the [[non-abelian DBI action]]:
 
 * [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]], A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) &lbrack;[arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274)&rbrack;
 
+On [[quantum anomalies]]:
+
+* Ada Cubukcu, [[Adel Bilal]]: *A Pedagogical Introduction to Anomalies in Quantum Field Theory* &lbrack;[arXiv:2609.28835](https://arxiv.org/abs/2609.28835)&rbrack;
+
+
+
 category: people
