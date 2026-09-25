@@ -13,9 +13,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -277,6 +275,9 @@ Math. Phys. 60 (1984) 770.
 * [[Loriano Bonora]]: *Fermions and Anomalies in Quantum Field Theories*, Springer (2023) &lbrack;[doi:10.1007/978-3-031-21928-3](https://doi.org/10.1007/978-3-031-21928-3)&rbrack;
 
 * [[Loriano Bonora]], Stefano G. Giaccari: *Something Anomalies can tell about SM and Gravity* &lbrack;[arXiv:2412.07470](https://arxiv.org/abs/2412.07470)&rbrack;
+
+* Ada Cubukcu, [[Adel Bilal]]: *A Pedagogical Introduction to Anomalies in Quantum Field Theory* &lbrack;[arXiv:2609.28835](https://arxiv.org/abs/2609.28835)&rbrack;
+
 
 
 
