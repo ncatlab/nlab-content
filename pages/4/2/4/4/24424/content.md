@@ -17,13 +17,13 @@ I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful i
 
 ##  Work in progress, projects and ideas
 
-1. _Relative differential categories:_ replace the monad with a relative monad in the definition of a differential category. Status on 13 February 2024: will finish to write this after the extracting paper.
+1. _Relative differential categories:_ replace the monad with a relative monad in the definition of a differential category. Status on 13 February 2026: will finish to write this after the extracting paper.
 
-2. _Glueing an $\mathbb{N}$-filtered differential modality into a differential modality._ Status on 13 February 2024: did not start to write but I think it's going to work fine quickly.
+2. _Glueing an $\mathbb{N}$-filtered differential modality into a differential modality._ Status on 13 February 2026: did not start to write but I think it's going to work fine quickly.
 
-3. _Hasse-Schimdt differential categories:_ replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of a differential category. Status on 13 February 2024: will work on this once the extracting paper is finished. The higher-order rules from the extracting paper are needed to write down the definition of an Hasse-Schmidt differential category.
+3. _Hasse-Schimdt differential categories:_ replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of a differential category. Status on 13 February 2026: will work on this once the extracting paper is finished. The higher-order rules from the extracting paper are needed to write down the definition of an Hasse-Schmidt differential category.
 
-4. _Higher-order tangent categories:_ a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]]. Status on 13 February 2024: keeping this for later --- when I'll start to work seriously on tangent categories.
+4. _Higher-order tangent categories:_ a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]]. Status on 13 February 2026: keeping this for later --- when I'll start to work seriously on tangent categories.
 
 5. _Free divided power algebra, polynomial laws and differential categories_: Is the free divided power algebra in the symmetric monoidal category of modules over a commutative rig a differential modality? Do modules over a commutative rig and polynomial laws between them form a cartesian differential category?
 
