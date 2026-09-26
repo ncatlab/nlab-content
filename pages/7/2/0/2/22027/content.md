@@ -13,7 +13,7 @@ Write
 
 * for the [[category]] of [[pointed topological spaces]] (with respect to some [[convenient category of topological spaces]] such as [[compactly generated topological spaces]] or [[D-topological spaces]]) 
 
-* regarded as a [[symmetric monoidal category]] with tensor product the [[smash product]] and unit the [[0-sphere]] $S^0 \,=\, \ast_+$.
+* regarded as a [[symmetric monoidal category]] with tensor product the [[smash product]] and unit the [[0-sphere]] $S^0 \,=\, \ast \sqcup \ast$.
 
 This category also has a [[Cartesian product]], given on pointed spaces $X_i = (\mathcal{X}_i, x_i)$ with underlying $\mathcal{X}_i \in TopologicalSpaces$ by
 
