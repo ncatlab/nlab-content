@@ -1,4 +1,4 @@
-Recall that [[cohomology]] in an [[(∞,1)-topos]] $\mathbf{H}$ on an object $X$ with coefficients in an object $A$ is the [[hom-set]] in the [[homotopy category of an (∞,1)-category]]
+Recall that [[cohomology]] in an [[(∞,1)-topos]] $\mathbf{H}$ of an object $X$ with coefficients in an object $A$ is the [[hom-set]] in the [[homotopy category of an (∞,1)-category]]
 
 $$
   H(X,A) = \pi_0 \mathbf{H}(X,A)
@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-The for $X \in \mathbf{H}$ any object (a [[topological space]] or an [[∞-groupoid]]) the "ordinary" cohimology of $X$ in degree $n$ is
+Then, for $X \in \mathbf{H}$ any object (a [[topological space]] or an [[∞-groupoid]]), the "ordinary" cohomology of $X$ in degree $n$ is
 
 $$
   H^n(X) := H^n(X,\mathbb{Z})
@@ -75,7 +75,7 @@ clearly has no natural group structure on it, unless $G$ is in fact abelian (in 
 
 But when we pass from group-principal bundles to groupoid-principal bundles, then there may be cohomology sets with group structure even in nonabelian cohomology.
 
-Let for instance $G_{(2)}$ be a [[2-group]], i.e. a [[groupoid]] with group structure, such as the automrophism 2-group $G_{(2)} := AUT(H) := Aut_{Grpd}(\mathbf{B}H)$ of an  ordinary group $H$, then there is the nonabelian cohomology set
+Let for instance $G_{(2)}$ be a [[2-group]], i.e. a [[groupoid]] with group structure, such as the automorphism 2-group $G_{(2)} := AUT(H) := Aut_{Grpd}(\mathbf{B}H)$ of an  ordinary group $H$, then there is the nonabelian cohomology set
 
 $$
   H^1(X, G_{(2)}) := H(X, G_{(2)})
