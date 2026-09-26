@@ -14,10 +14,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -117,7 +115,7 @@ Identification with [[(infinity,1)-functors|$(\infty,1)$-functors]] is made expl
 
 and construction of a [[model category]] of $\infty$-local systems:
 
-* [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Entanglement of Sections]]* &lbrack;[arXiv:2309.07245](https://arxiv.org/abs/2309.07245)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Model Structure on K-Linear Infinity-Local Systems|A Global Model Structure for $\mathbb{K}$-Linear $\infty$-Local Systems]]* &lbrack;[arXiv:2604.05671](https://arxiv.org/abs/2604.05671)&rbrack;
 
 Enhancement of the [[Chern-Weil homomorphism]] from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]]:
 
