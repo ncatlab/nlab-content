@@ -14,15 +14,24 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
 An algorithm is a computational system that, for a given class of mathematical problems, allows one to arrive at a solution "record" $B$ from a problem condition record $A$. The process from $A$ to $B$ is an entirely mechanical, determined sequence of operations.
 
-## Formal definition
+## Formal definitions
+
+
+### Turing
+
+> see [Turing 1937](#Turing1937)
+
+### Kolmogorov & Uspénski
+
+> The following is meant to be a digest of [Kolmogorov & Uspénski 1958](#KolmogorovUspénski1958).
 
 We define $\mathfrak{T}$ as a [[natural number | naturally]] ordered set of classes $T_{0}, T_{1}, T_{2}, \dots, T_{r}$. The states of the algorithm are constructed from the "elements" of which these classes consist; each class $T_{i}$ has what is described as an "unlimited volume," that is, infinitely many elements of that type. These classes are mutually disjoint, and we denote the union of these classes simply as $T$, that is, $T := \bigcup_{i = 0}^{r}\,{T_{i}}$.
 
@@ -65,11 +74,17 @@ The final stage of the algorithm, upon the definition of $\tilde{W}$ using the p
 
 ## References
 
-* [[A. M. Turing]]. _On Computable Numbers, with an Application to the Entscheidungs problem_), Proceedings of the London Mathematical Society. 2 (1937) 42: 230&#8211;265. ([pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf))
+Original hostorical formulations of the notion of algorithms:
 
-* [[A. N. Kolmogorov]] and V. A. Usp&#233;nski. On the definition of an algorithm. Uspehi Mat. Nauk. 13 (1958), 3-28. English translation in American Mathematical Society Translations, Series II, Volume 29 (1963), pp. 217&#8211;245. ([math-net.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7453&option_lang=eng)). Also see JSL review by Elliott Mendelson on [jstor](http://www.jstor.org/stable/2272011). 
+* {#Turing1937} [[A. M. Turing]]: _On Computable Numbers, with an Application to the Entscheidungs problem_, Proceedings of the London Mathematical Society **2** 42 (1937) 230--265 &lbrack;[pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)&rbrack;
 
-See also
+* {#KolmogorovUspénski1958} [[A. N. Kolmogorov]], V. A. Uspénski: *On the definition of an algorithm*, American Mathematical Society Translations, Series II **29** (1963) 217--245
+
+  original in: Uspehi Mat. Nauk. **13** (1958) 3--28  &lbrack;[math-net.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7453&option_lang=eng)&rbrack;
+
+  JSL review by Elliott Mendelson: [jstor:2272011](http://www.jstor.org/stable/2272011). 
+
+See also:
 
 * Wikipedia, _[Algorithm](http://en.wikipedia.org/wiki/Algorithm)_
 
