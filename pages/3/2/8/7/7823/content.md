@@ -35,7 +35,7 @@ Let $l$ be a prime number. Let $Gal(k\hookrightarrow \overline k)$ be the [[abso
 
 $$Gal(k\hookrightarrow \overline k)\to Aut (M)$$
 
-is called an *$l$-adic representation of $Gal(k\hookrightarrow \overline k)$. Here $M$ is either a unit dimensional [[vector space]] over the algebraic closure $\overline \mathbb{Q}_l$ or a finitely generated module over the [[integral closure]] $\overline \mathbb{Z}_l$.
+is called an *$l$-adic representation of $Gal(k\hookrightarrow \overline k)$. Here $M$ is either a finite dimensional [[vector space]] over the algebraic closure $\overline \mathbb{Q}_l$ or a finitely generated module over the [[integral closure]] $\overline \mathbb{Z}_l$.
 
 In particular the $l$-adic Tate-module is of this kind.
 =--
@@ -84,7 +84,7 @@ If $k$ is a finite field or a number field the conjecture is true.
 ###### Example
 ([[p-adic cohomology|l-adic cohomology]] of a smooth variety)
 
-Let $l$ be a prime number. Let $X$ be a [[variety||smooth variety]] over a field $k$ of characteristic prime to $l$. Let $k_s$ denote the separable closure of $k$. 
+Let $l$ be a prime number. Let $X$ be a [[variety|smooth variety]] over a field $k$ of characteristic prime to $l$. Let $k_s$ denote the separable closure of $k$. 
 
 The $l$-adic cohomology in degree $i$ is defined to be the directed limit $lim_n\; H^i_{et}(X_{k_s}, \mathbb{Z}/l^n\mathbb{Z})$. It is a Galois module where the action is given by pullback.
 
