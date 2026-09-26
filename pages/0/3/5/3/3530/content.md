@@ -76,7 +76,7 @@ Discussion of this in the modern context of [[higher geometry]]/[[D-geometry]] i
 
 
 
-A [[p-adic cohomology]] for [[varieties]] in [[characteristic]] $p$ it was it was discussed in
+A [[p-adic cohomology]] for [[varieties]] in [[characteristic]] $p$ was discussed in
 
 * [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://link.springer.com/book/10.1007/BFb0068636),  MR 0384804)
 
