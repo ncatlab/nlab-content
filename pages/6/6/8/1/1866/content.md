@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ##  Idea 
@@ -83,7 +82,7 @@ Discussion of the [[NSR-string|NSR]] [[string scattering amplitudes|string pertu
 ### Self-duality and quadratic form
  {#ReferencesSelfDuality}
 
-[[self-duality for pregeometric RR-fields -- references]]
+
 
 The [[self-dual higher gauge field]] nature (see there for more) in terms of a [[quadratic form]] on [[differential K-theory]] is discussed originally around
 
@@ -105,17 +104,9 @@ See at _[[orientifold]]_ for more on this. The relation to [[11d Chern-Simons th
 
 * {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ &lbrack;[arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020)&rbrack;
 
-Review is in 
 
-* {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of: _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ &lbrack;[arXiv:1209.2530](http://arxiv.org/abs/1209.2530)&rbrack;
+[[!include self-duality for pregeometric RR-fields -- references]]
 
-Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the nature of the [[pregeometric RR-fields]] and their [[self-dual higher gauge theory|self-duality]] manifest:
-
-* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
-
-* [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
-
-* [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
 
 
 ### Irrational RR-charge
