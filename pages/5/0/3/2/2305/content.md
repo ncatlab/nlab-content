@@ -28,7 +28,7 @@ As $X$ varies this constitutes an [[abelian sheaf]] of complexes.
 
 ### For smooth manifolds
 
-The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the deRham _[[exterior derivative]]_.
+The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the de Rham _[[exterior derivative]]_.
 
 Explicitly, given a differential $k$-form $\omega$, its de Rham differential $d\omega$ can be computed as
 $$d\omega(v_0,\ldots,v_k)=\sum_i (-1)^i \mathcal{L}_{v_i} \omega(v_0,\ldots,v_{i-1},v_{i+1},\ldots,v_k)+\sum_{i\lt j}(-1)^{i+j}\omega([v_i,v_j],v_0,\ldots,v_{i-1},v_{i+1},\ldots,v_{j-1},v_{j+1},\ldots,v_k),$$
