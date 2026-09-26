@@ -127,15 +127,15 @@ is a measurable function.  This implies that all finite affine sum operators are
 Let $U$ be a measurable set in $X$. 
 By the pointwise convex space structure of $G(X)$ we have 
 $$
-ev_U \circ \big(p \pi_i + (1-p) \pi_2\big) = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_U \times ev_U)
+ev_U \circ \big(p \pi_1 + (1-p) \pi_2\big) = \big(p \hat{\pi}_1 + (1-p) \hat{\pi}_2 \big) \circ (ev_U \times ev_U)
 $$
 where $[0,1] \times [0,1] \xrightarrow{p \hat{\pi}_1 + (1-p) \hat{\pi}_2} [0,1]$ is the measurable affine sum on elements of the measurable convex space $[0,1]$, and $G(X) \times G(X) \xrightarrow{ev_U \times ev_U} [0,1] \times [0,1]$ is an affine measurable function because $ev_U$ is an affine measurable function.  Since the right-hand side of the equation is measurable it follows, for every measurable set $W$ of $[0,1]$, that
 $$
-(p \pi_i + (1-p) \pi_2)^{-1}\big(ev_U^{-1}(W)\big) \in \Sigma_{G(X) \times G(X)}.
+(p \pi_1 + (1-p) \pi_2)^{-1}\big(ev_U^{-1}(W)\big) \in \Sigma_{G(X) \times G(X)}.
 $$
 This last equation is true for all measurable sets $U$ in $X$, and since the affine measurable functions $ev_U$ generate the initial $\sigma$-algebra on $G(X)$ it follows that the function $(p \pi_i + (1-p) \pi_2)$ is measurable.
 
-The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum is uniquely defined by $n-1$ parameters the result follows.
+The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum of $n$ elements is uniquely defined by $n-1$ parameters the result follows.
 \end{proof}
 
 Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\hat{\mathbb{E}}_{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\hat{\mathbb{E}}_{P}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
