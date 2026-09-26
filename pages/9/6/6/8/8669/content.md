@@ -58,7 +58,7 @@ Over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a give
 
 * A. Beauville, _Jacobiennes des courbes spectrales et syst&#232;mes Hamiltoniens compl&#232;tement int&#233;grables_, Acta Math. __164__ (1990), 211-235.
 
-A generalizatioin of Abel-Jacobi map to the setting of formal deformation theory is in
+A generalization of Abel-Jacobi map to the setting of formal deformation theory is in
 
 * [[Domenico Fiorenza]], [[Marco Manetti]], _Formal Abel-Jacobi maps_, [arxiv/1610.08684](https://arxiv.org/abs/1610.08684)
 
