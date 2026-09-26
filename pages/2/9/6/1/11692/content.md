@@ -25,7 +25,7 @@ The Albanese variety $Alb(X)$ of a [[projective variety|projective]] [[algebraic
 
 By 'variety' let us mean a connected complete algebraic variety over an algebraically closed field.  Given any variety $X$ with a chosen basepoint there is an abelian variety called the **Albanese variety** $Alb(X)$.  This is defined by the following universal property: there is a map of pointed varieties called the **Albanese map**
 
-$$i_X \colon X \to A(X)$$ 
+$$i_X \colon X \to Alb(X)$$ 
 
 such that any map of pointed varieties $f: X \to A$ where $A$ is abelian factors uniquely as $i_X$ followed by a map of abelian varieties (in particular, a group homomorphism):
 
@@ -49,7 +49,7 @@ $$ T = U \circ Alb $$
 
 is an [[idempotent monad]] on $Var_*$, and its algebras are the abelian varieties. 
 
-It follows that the Albanese map $i_X \colon X \to A(X)$ is the unit of the monad $T$, and $Alb(Alb(X)) \cong Alb(X)$.   For more details, see the nCaf&#233; discussion [Two miracles in algebraic geometry](https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html).
+It follows that the Albanese map $i_X \colon X \to Alb(X)$ is the unit of the monad $T$, and $Alb(Alb(X)) \cong Alb(X)$.   For more details, see the nCaf&#233; discussion [Two miracles in algebraic geometry](https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html).
 
 ## Properties 
 
