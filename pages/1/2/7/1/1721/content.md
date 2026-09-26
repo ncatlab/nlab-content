@@ -207,18 +207,18 @@ A **reduced generalized cohomology theory** on $\mathcal{C}$ is
 1. a [[functor]]
 
    $$
-     E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
+     \widetilde  E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
    $$
 
    (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
 
-1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
+1. [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
 
    $$
-     \sigma \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
+     \sigma \; \colon \; \widetilde  E^\bullet \longrightarrow \widetilde  E^{\bullet+1} \circ \Sigma
    $$
 
-such that $H^\bullet$
+such that $\widetilde  E^\bullet$
 
 1. takes small [[coproducts]] to [[products]];
 
@@ -229,7 +229,7 @@ such that $H^\bullet$
 +-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
 ###### Definition
 
-Given a generalized cohomology theory $(H^\bullet,\sigma)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+Given a generalized cohomology theory $(\widetilde  E^\bullet,\sigma)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
 
 $$
   X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
@@ -279,7 +279,7 @@ See at _[[long exact sequence in generalized cohomology]]_.
 +-- {: .proof}
 ###### Proof
 
-By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
+By the defining exactness of $\widetilde  E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
 
 =--
 
