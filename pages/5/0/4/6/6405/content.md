@@ -14,7 +14,7 @@ Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which
 
 ## Automatic abelianness
 
-[Mumford '70](#Mumford1970) gives at two proofs that every complete algebraic group over an algebraically closed field is automatically abelian.  One of them uses a 'rigidity lemma' which has an interesting category-theoretic interpretation.  We outline this here:
+[Mumford '70](#Mumford1970) gives at least two proofs that every complete algebraic group over an algebraically closed field is automatically abelian.  One of them uses a 'rigidity lemma' which has an interesting category-theoretic interpretation.  We outline this here:
 
 In simple terms, the rigidity lemma says that under certain circumstances "a 2-variable function $f(x,y)$ that is independent of $x$ for one value of $y$ is independent of $x$ for all values of $y$."   
 
