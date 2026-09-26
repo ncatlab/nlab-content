@@ -34,7 +34,7 @@ In the literature, particularly the _[[étale site]]_ is often considered and "&
 
 But the concept is much more general. In particular, one can understand the construction of the limit over contractions of [[hypercovers]] as a presentation of naturally defined [[(∞,1)-functors]] in [[(∞,1)-topos theory]]. 
 
-Notably, if the given site is a a [[locally ∞-connected site]], then the &#233;tale homotopy construction computes precisely the [[derived functor]] that presents the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. Many constructions in the literature can be understood as being explicit realizations of this simple general concept. Detailed discussion of this is at _[[geometric homotopy groups in an (∞,1)-topos]]_.
+Notably, if the given site is a [[locally ∞-connected site]], then the &#233;tale homotopy construction computes precisely the [[derived functor]] that presents the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. Many constructions in the literature can be understood as being explicit realizations of this simple general concept. Detailed discussion of this is at _[[geometric homotopy groups in an (∞,1)-topos]]_.
 
 Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1)-topos]]. (...)
 
