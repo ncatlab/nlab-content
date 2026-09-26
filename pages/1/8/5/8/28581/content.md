@@ -1,0 +1,1 @@
+mathematician over foundations of mathematics and philosopher over hegelianism and philosophy of mathematics
