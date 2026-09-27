@@ -139,7 +139,7 @@ See also:
 
 * Shota Komatsu, Eunwoo Lee, Chintan Patel: *Matrix Theory from Holography* &lbrack;[arXiv:2609.13386](https://arxiv.org/abs/2609.13386)&rbrack;
 
-
+* Zhengyuan Du: *ABJM to BMN in a Double Scale Limit: Indices and Bubbling Geometries* &lbrack;[arXiv:2609.24649](https://arxiv.org/abs/2609.24649)&rbrack;
 
 
 
