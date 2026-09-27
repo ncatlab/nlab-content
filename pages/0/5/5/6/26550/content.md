@@ -161,9 +161,14 @@ With these operations, the real numbers form an abelian group.
 
 ## References
 
-On the [[HoTT book real number|HoTT realization]]:
+The [[HoTT book real numbers]]:
 
 * [[Univalent Foundations Project]], section 11.2 of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+and their implementation in [cubical](Agda#CubicalAgda) 
+[[Agda]]:
+
+* Jackson Brough: *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda* &lbrack;[arXiv:2604.24782](https://arxiv.org/abs/2604.24782)&rbrack;
 
 [[!redirects real numbers type]]
 [[!redirects real numbers types]]
