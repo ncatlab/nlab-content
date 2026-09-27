@@ -25,7 +25,7 @@
 
 ## Idea
 
-The notion of *homomtopy pushout* is
+The notion of *homotopy pushout* is
 
 * the generalization of the notion of *[[pushout]]* to [[homotopy theory]], hence from [[1-category]]-[[category theory]] to [[(infinity,1)-category|$\infty$-category]] theory, and here often understood as a [[derived functor]] of the pushout-functor
 
