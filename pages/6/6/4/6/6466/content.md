@@ -9,9 +9,9 @@
 =--
 =--
 
-# Real numbers object
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -306,7 +306,7 @@ In any $\Pi$-pretopos with a NNO, one could define an object that roughly behave
 
 ## References
 
-Discussion in [[topos theory]] is in
+Discussion in [[topos theory]]:
 
 * [[Peter Johnstone]], section D4.7 of  _[[Sketches of an Elephant]]_
 
@@ -337,10 +337,14 @@ On a [[topos]] in which the [[Dedekind real number|Dedekind]] [[real numbers obj
 * [[Andrej Bauer]], [[James Hanson]]: *The Countable Reals* &lbrack;[arXiv:2404.01256](https://arxiv.org/abs/2404.01256)&rbrack;
 
 
-Discussion in [[homotopy type theory]]:
+Discussion in [[homotopy type theory]] (*[[HoTT book real numbers]]*):
 
-* [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* [[Univalent Foundations Project]], section 11.2 of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+and implementation in [cubical](Agda#CubicalAgda) 
+[[Agda]]:
+
+* Jackson Brough: *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda* &lbrack;[arXiv:2604.24782](https://arxiv.org/abs/2604.24782)&rbrack;
 
 [[!redirects RNO]]
 [[!redirects RNOs]]
