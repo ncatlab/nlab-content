@@ -174,7 +174,7 @@ holds.
 
 Define $\mathbf{Cvx}_{Meas}$ to be the [[full subcategory]] of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
-The space $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$ because, for every $P \in G(\mathbb{R}_{\infty})$, we have $\mathbb{E}_P(id_{\mathbb{R}_{\infty}}) \in \cap_{m \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty} }} m^{-1}(\mathbb{E}_{P}(id_{\mathbb{R}_{\infty}}))$.   Trivially, the space $\mathbf{1}$ is also an object in $\mathbf{Cvx}_{Meas}$.
+The space $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$ because, for every $P \in G(\mathbb{R}_{\infty})$, we have $\mathbb{E}_P(id_{\mathbb{R}_{\infty}}) \in \cap_{f \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty} }} f^{-1}(\mathbb{E}_{P}(f))$. (See exercise 8.23 in [[Sets for Mathematics]].)  Trivially, the space $\mathbf{1}$ is also an object in $\mathbf{Cvx}_{Meas}$.
 
 
 \begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Cvx}_{Meas}$ consisting of the single object $\mathbb{R}_{\infty}$.
