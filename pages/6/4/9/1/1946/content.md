@@ -495,7 +495,7 @@ If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]],
 
 ([Hirschhorn (2002), corollary 15.8.8](#Hirschhorn02))
 
-The idea is to observe that the latching objects are the [[sub-objects]] of degeenrate cells, so that the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) is a [[monomorphism]] and hence a [[cofibration]] in the [[classical model structure on simplicial sets]].
+The idea is to observe that the latching objects are the [[sub-objects]] of degenerate cells, so that the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) is a [[monomorphism]] and hence a [[cofibration]] in the [[classical model structure on simplicial sets]].
 
 Similarly:
 
