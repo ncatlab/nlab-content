@@ -20,13 +20,17 @@
 
 ## Idea
 
-In a [[sigma-model]] [[quantum field theory]] a [[field history]] is a [[morphism]] $\phi \colon \Sigma \to X$ for $\Sigma$ an $n$-[[dimension|dimensional]] [[manifold]] or similar. One is to think of this as being the _trajectory: of an $(n-1)$-[[brane]] propagating in the [[target space]] $X$. 
+In a [[sigma-model]] [[quantum field theory]], a [[field history]] is a [[morphism]] $\phi \colon \Sigma \to X$ for an $n$-[[dimension|dimensional]] [[manifold]] $\Sigma$ or similar. One is to think of this as the __trajectory__ _of an $(n-1)$-[[brane]] propagating in the [[target space]] $X$_.
 
-For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]]) the term **worldline** for $\Sigma$ has a long tradition. Accordingly one calls $\Sigma$ the **worldvolume** of the given $(n-1)$-[[brane]] when $n \gt 1$. For the case $n=2$ (the case of relevance in [[string theory]]) one also says **worldsheet**.
+Cases of $n$:
 
-Hence generally for any [[field theory]] defined on a [[worldvolume]] or [[spacetime]] $\Sigma$, and with type of fields determined by a [[field bundle]] $E \overset{fb}{\to} \Sigma$, one may think of a [[section]] of the field bundle as a _field trajectory_.
+1. $n = 1$ (for instance, the [[relativistic particle]], a 0-[[brane]]): $\Sigma$ is called the "**worldline**"
+2. $n \gt 1$: $\Sigma$ is called the "**worldvolume**"
+3. $n = 2$ (relevant in [[string theory]]): $\Sigma$" is called the "**worldsheet**"
 
-The [[space]] of all these is the _[[space of trajectories]]_ (space of histories).
+Hence, generally for any [[field theory]] defined on a [[worldvolume]] or [[spacetime]] $\Sigma$, and with type of fields determined by a [[field bundle]] $E \overset{fb}{\to} \Sigma$, one may think of a [[section]] of the field bundle as a _field trajectory_.
+
+The [[space]] of all field histories is the _[[space of trajectories]]_ (space of field histories).
 
 
 ## Related concepts
