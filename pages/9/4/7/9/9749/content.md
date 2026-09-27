@@ -277,11 +277,10 @@ $$\mathcal{F} \circ \mathcal{U} \Rightarrow id_{\mathbf{Cvx}_{Meas}}.
 $$
 \end{lemma}
 \begin{proof}
-Suppose $X$ and $Y$ are objects in $\mathbf{Cvx}_{Meas}$ and that $X \xrightarrow{f} Y$ is an affine measurable function.  We need to verify that $f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_Y) \circ G(f)$.  Applying both sides of this equation to any $P \in G(X)$ yields
+Suppose $X$ and $Y$ are objects in $\mathbf{Cvx}_{Meas}$ and that $X \xrightarrow{f} Y$ is an affine measurable function.  We need to verify that $f \circ \mathbb{E}_{\bullet}(id_X) = \mathbb{E}_{\bullet}(id_Y) \circ \mathcal{F}\mathcal{U}(f)$.  Applying both sides of this equation to any $P \in \mathcal{F}\mathcal{U}(X)$ yields the desired equality
 $$
-\mathbb{E}_{P}(f) = f\big(\mathbb{E}_{P}(id_X)\big) =\mathbb{E}_{G(f)P}(id_Y) = \mathbb{E}_P(id_Y \circ f)
+ f\big(\mathbb{E}_{P}(id_X)\big) = \mathbb{E}_{P}(f) = \mathbb{E}_P(id_Y \circ f)=\mathbb{E}_{\mathcal{F}\mathcal{U}(f)P}(id_Y)=\mathbb{E}_{\bullet}(id_Y)\big(\mathcal{F}\mathcal{U} (f)\big)P.
 $$
-which is a true statement.
 Hence the required commutativity condition holds showing $\mathbb{E}$ is a natural transformation. 
 
 \end{proof}
