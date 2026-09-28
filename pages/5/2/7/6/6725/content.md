@@ -177,6 +177,10 @@ This finally implies that the restriction of $C_3$ to the orbifold fixed points 
 
 ## References
 
+See also:
+
+* Wikipedia, _[Hořava–Witten theory](https://en.wikipedia.org/wiki/Ho%C5%99ava%E2%80%93Witten_theory)_
+
 ### General
 
 The original articles are
