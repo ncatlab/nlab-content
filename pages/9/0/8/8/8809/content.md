@@ -95,6 +95,10 @@ A textbook providing much of the background definitions involved is
 Related discussion in the context of [[Hitchin connections]] is in 
 
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+
+See also:
+
+* Wikipedia, _[Narasimhan–Seshadri theorem](https://en.wikipedia.org/wiki/Narasimhan%E2%80%93Seshadri_theorem)_
  
 [[!redirects Narasimhan–Seshadri theorem]]
 [[!redirects Narasimhan-Seshadri theorem]]
