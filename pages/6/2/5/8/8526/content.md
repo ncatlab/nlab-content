@@ -169,6 +169,7 @@ See also:
 
 * Lean Zulip Board: *[LANA project announcement](https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LANA.20project.20announcement/with/611402299)* (31 Mar 2026--)
 
+* Wikipedia, _[Inter-universal Teichmüller theory](https://en.wikipedia.org/wiki/Inter-universal_Teichm%C3%BCller_theory)_
 
 
 [[!redirects IUTT]]
