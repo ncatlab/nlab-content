@@ -105,7 +105,7 @@ Examples of regular categories include the following:
 ([Barr, Grillet & von Osdol 1971, p. 17](#BarrGrilletvonOsdol), [Borceux 1994III, Prop. 3.4.14](#Borceux94III), [Johnstone 2002, p. 92](#Johnstone02))
 
 \begin{example}
-Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] is regular, and so any [[quasitopos]] is regular. 
+Even more generally, a [[locally cartesian closed category]] with [[coequalizers]] and a [[terminal object]] is regular, and so any [[quasitopos]] is regular. 
 \end{example}
 
 \begin{example}
