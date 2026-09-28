@@ -60,7 +60,7 @@ In the context of [[2d TQFT]] what crucially matters is that this is equivalent 
 
 There are
 
-* [Further equivalent definitions](#FurtherDefinition)
+* [Further equivalent definitions](#FurtherDefinitions)
 
 
 ### As associative algebra with coalgebra structure
@@ -131,7 +131,7 @@ From this definition it is easy to see that every Frobenius algebra [[internaliz
 ### Further definitions
  {#FurtherDefinitions}
 
-There are about a dozen equivalent definitions of a Frobenius algebra. [Ross Street (2004)](#Street2004) lists most of them.
+There are about a dozen equivalent definitions of a Frobenius algebra. [Ross Street (2004)](#Street2004) lists most of them.  A historically important one due to [Eilenberg and Nakayama (1955)](#Eilenberg1955) is that a Frobenius algebra is an algebra $A$ that is [[dualizable object|dualizable]] and equipped with an $A$-bimodule isomorphism $\alpha \colon A \to A^\ast$.
 
 ## Types of Frobenius algebras
 
