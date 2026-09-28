@@ -30,6 +30,10 @@ A version of [[Teichmüller theory]] for [[p-adic numbers]] rather than the [[co
 
 * [[Kirti Joshi]], *Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups -- Arithmetic Holomorphic Structures* ([arXiv:2210.11635](https://arxiv.org/abs/2210.11635))
 
+See also:
+
+* Wikipedia, _[p-adic Teichmüller theory](https://en.wikipedia.org/wiki/P-adic_Teichm%C3%BCller_theory)_
+
 [[!redirects arithmetic Teichmüller theory]]
 
 [[!redirects arithmetic Teichmüller space]]
