@@ -164,6 +164,10 @@ According to [[Donaldson's theorem]], $M$ has a diagonal [[intersection form]], 
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
 
+See also:
+
+* Wikipedia, _[Freedman classification](https://en.wikipedia.org/wiki/Freedman_classification)_
+
 [[!redirects Freedman's classification]]
 [[!redirects Freedman theorem]]
 [[!redirects Freedman's theorem]]
