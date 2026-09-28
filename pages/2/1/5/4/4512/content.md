@@ -49,7 +49,7 @@ Bergh & van Oystaeyen (1989), p. 398](#NăstăsescuVanDenBerghVanOystaeyen89)&rb
 **(Rafael's theorem)** 
 Let $F\dashv G$ be a pair of [[adjoint functors]]. Then 
 
-* $F$ is separable iff the [[adjunction unit]] $\eta \con id \to G F$ has a [[section]] (= a [[natural transformation]] $\nu$ which is its right inverse, $\eta\circ\nu = 1$),
+* $F$ is separable iff the [[adjunction unit]] $\eta \colon id \to G F$ has a [[section]] (= a [[natural transformation]] $\nu$ which is its right inverse, $\eta\circ\nu = 1$),
 
 * $G$ is separable iff the [[adjunction counit]] $\epsilon \colon F G \to id$ has a [[retraction]] (i.e. a natural transformation $\zeta$ that is its left inverse, $\zeta\circ\epsilon =1$). 
 
