@@ -338,5 +338,9 @@ For a review in the context of [[M-theory]] see
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
+See also:
+
+* Wikipedia, _[Morava K-theory](https://en.wikipedia.org/wiki/Morava_K-theory)_
+
 
 [[!redirects Morava K-theories]]
