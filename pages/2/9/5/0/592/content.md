@@ -194,6 +194,38 @@ See the proof of the dual proposition for [[pullbacks]].
 =--
 
 
++-- {: .num_prop #PushoutOfSplitMonosIsPullback}
+###### Proposition
+**(pushouts of split monomorphisms are pullbacks)**
+
+Let $m_X \colon A \to X$ and $m_Y \colon A \to Y$ be [[split monomorphisms]] in any [[category]], and suppose their pushout exists:
+
+$$
+\array{
+  A & \overset{m_X}{\longrightarrow} & X
+  \\
+  {}^{m_Y}\downarrow && \downarrow^{i_X}
+  \\
+  Y & \underset{i_Y}{\longrightarrow} & P
+}
+$$
+
+Then $i_X$ and $i_Y$ are split monomorphisms, and the square is also a [[pullback]] square.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Choose retractions $e_X \circ m_X = id_A$ and $e_Y \circ m_Y = id_A$. By the universal property of the pushout there are $r_X \colon P \to X$ with $r_X i_X = id_X$, $r_X i_Y = m_X e_Y$, and $r_Y \colon P \to Y$ with $r_Y i_Y = id_Y$, $r_Y i_X = m_Y e_X$; so $i_X$, $i_Y$ are split monos.
+
+Now let $f \colon Z \to X$, $g \colon Z \to Y$ with $i_X f = i_Y g$. Applying $r_X$ and $r_Y$ gives $f = m_X e_Y g$ and $g = m_Y e_X f$. Put $h \coloneqq e_Y g$. Then $m_X h = f$, and $m_Y h = m_Y e_Y g = m_Y e_X m_X e_Y g = m_Y e_X f = g$. Uniqueness of $h$ follows since $m_X$ is a monomorphism.
+
+=--
+
+In particular, the pushout square defining a [[wedge sum]] of pointed objects is also a [[pullback]] square, formalizing the idea that a "wedge intersects only in one point". See, e.g., [Youssef 2026, Prop. 2.1.11 and Cor. 2.1.12](#Youssef26).
+
+
 ### In a quasitopos
 
 +-- {: .num_prop #PushoutOfStrongMonomorphismInQuasitopos}
@@ -288,6 +320,10 @@ Textbook accounts:
 * [[Saunders MacLane]], p. 65-66 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * [[Francis Borceux]], Section 2.5 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+On pushouts of [[split monomorphisms]] being pullbacks (Prop. \ref{PushoutOfSplitMonosIsPullback}):
+
+* {#Youssef26} Markus Kirolos Youssef, Prop. 2.1.11 and Cor. 2.1.12 of: *On the Non-Existence of Model Structures and the Existence of Ring Scores: Two Studies in Combinatorial Topology*, PhD thesis, EPFL (2026) &lbrack;[doi:10.5075/epfl-thesis-12216](https://doi.org/10.5075/epfl-thesis-12216)&rbrack;
 
 
 
