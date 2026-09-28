@@ -40,6 +40,7 @@
     * [[D=11 N=1 supergravity]]
 
 ## References
+ {#References}
 
 As [[D=11 supergravity]] [[KK-compactification|dimensionally reduced]] on a [[torus]] (most authors immediately consider this as 10D [[type IIB supergravity]] via [[T-duality]]):
 
