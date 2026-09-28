@@ -66,3 +66,7 @@ The 0-1-2 [[extended QFT]] version of $GL$-twisted [[N=4 D=4 super Yang-Mills th
 A discussion formalized in [[BV quantization]] of [[factorization algebras]] is in 
 
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimension 2 and 4_ ([pdf](http://www.math.northwestern.edu/~costello/sullivan.pdf))
+
+See also:
+
+* Wikipedia, _[Kapustin–Witten equations](https://en.wikipedia.org/wiki/Kapustin%E2%80%93Witten_equations)_
