@@ -40,3 +40,7 @@ The result is reviewed as theorem I 9.27 in
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter I, section 9 of _[[Spin geometry]]_, Princeton University Press (1989)
 
+See also:
+
+* Wikipedia, _[Atiyah–Bott–Shapiro orientation](https://en.wikipedia.org/wiki/Atiyah%E2%80%93Bott%E2%80%93Shapiro_orientation)_
+
