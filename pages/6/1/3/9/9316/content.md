@@ -22,6 +22,10 @@ A _K&#228;hler-Einstein manifold_ is a [[Riemannian manifold]] which is both a [
 
 * Xiu-Xiong Chen, [[Simon Donaldson]], Song Sun, _K&#228;hler-Einstein metrics and stability_ ([arXiv:1210.7494](http://arxiv.org/abs/1210.7494))
 
+See also:
+
+* Wikipedia, _[Kähler–Einstein metric](https://en.wikipedia.org/wiki/K%C3%A4hler%E2%80%93Einstein_metric)_ 
+
 [[!redirects Kähler-Einstein manifolds]]
 
 [[!redirects Kähler-Einstein metric]]
