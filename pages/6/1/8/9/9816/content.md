@@ -156,6 +156,10 @@ This is due to ([Hopkins-Hovey 92](#HopkinsHovey92)), a variation of the [[Conne
 
 ## References
 
+See also:
+
+* Wikipedia, _[Conner–Floyd orientation](https://en.wikipedia.org/wiki/Conner%E2%80%93Floyd_orientation)_
+
 ### In topological K-theory
 
 The [[MSpin]]/[[MSpin^c|MSpin<sup><i>c</i></sup>]]-orientation of [[KO]]/[[KU]] [[topological K-theory]] is attributed to
