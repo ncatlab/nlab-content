@@ -137,6 +137,10 @@ If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ i
 
 ## References
 
+See also:
+
+* Wikipedia, _[p-adic Hodge theory](https://en.wikipedia.org/wiki/P-adic_Hodge_theory)_
+
 ### Overview
 
 [[Jacob Lurie]], _Lecture 1: Overview_, lecture notes from a learning seminar on the [[Fargues-Fontaine curve]], [pdf](https://www.math.ias.edu/~lurie/ffcurve/Lecture1-Overview.pdf)
