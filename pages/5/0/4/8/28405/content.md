@@ -93,6 +93,10 @@ See also:
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
 
+See also:
+
+* Wikipedia, _[Wall theorems](https://en.wikipedia.org/wiki/Wall_theorems)_
+
 [[!redirects Wall theorems]]
 [[!redirects Wall's theorem]]
 [[!redirects Wall's theorems]]
