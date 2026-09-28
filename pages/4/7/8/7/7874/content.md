@@ -99,6 +99,10 @@ $$
 
 ## References
 
+See also:
+
+* Wikipedia, _[Ando–Hopkins–Rezk orientation](https://en.wikipedia.org/wiki/Ando%E2%80%93Hopkins%E2%80%93Rezk_orientation)_
+
 ### General
 
 The construction/identification of the string orientation and its relation to the Witten genus is due to
