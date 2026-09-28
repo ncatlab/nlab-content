@@ -70,6 +70,10 @@ $$
 
 ## References
 
+See also:
+
+* Wikipedia, _[Arnold–Kuiper–Massey theorem](https://en.wikipedia.org/wiki/Arnold%E2%80%93Kuiper%E2%80%93Massey_theorem)_
+
 ### AKM-theorem for the complex projective plane
 
 The original proof that the [[4-sphere]] is a quotient of the [[complex projective plane]] by an action of [[cyclic group of order 2|Z/2]]:
