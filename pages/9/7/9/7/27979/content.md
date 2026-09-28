@@ -75,6 +75,10 @@ $$
 * {#Manshot23} [[Jan Manshot]], _Four-Manifold Invariants and Donaldson-Witten Theory_ (2023), [arXiv:2312.14709](https://arxiv.org/abs/2312.14709)
 * {#DaiGuan25} [[Bo Dai]] and [[Ren Guan]], _A simple perturbation of Vafa-Witten equations and a transversality result_ (2025), [arXiv:2505.14702](https://arxiv.org/abs/2505.14702)
 
+See also:
+
+* Wikipedia, _[Vafa–Witten equations](https://en.wikipedia.org/wiki/Vafa%E2%80%93Witten_equations)_
+
 [[!redirects Vafa-Witten theory]]
 [[!redirects Vafa-Witten theories]]
 
