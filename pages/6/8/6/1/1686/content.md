@@ -822,9 +822,9 @@ Textbook accounts:
 
 * [[Hal Schenck]], _Chapter 9 in: Cohomology and spectral sequences_ &lbrack;[pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf)&rbrack;
 
-* [[Alan Hatcher]]: *Spectral Sequences* &lbrack;[pdf](https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf)&rbrack;
+* [[Allen Hatcher]]: *Spectral Sequences* &lbrack;[pdf](https://pi.math.cornell.edu/~hatcher/AT/ATch5.pdf)&rbrack;
 
-* {#Hatcher} [[Alan Hatcher]]: _Spectral sequences in algebraic topology_ &lbrack;[webbapeg](https://pi.math.cornell.edu/~hatcher/SSAT/SSATpage.html)&rbrack;
+* {#Hatcher} [[Allen Hatcher]]: _Spectral sequences in algebraic topology_ &lbrack;[webbapeg](https://pi.math.cornell.edu/~hatcher/SSAT/SSATpage.html)&rbrack;
 
  
 * {#Kochmann96} [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
