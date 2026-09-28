@@ -186,5 +186,8 @@ Morava E-theory of [[configuration spaces of points]]:
 
 * [[Lukas Brantner]], [[Jeremy Hahn]], [[Ben Knudsen]], *The Lubin-Tate Theory of Configuration Spaces: I* ([arXiv:1908.11321](https://arxiv.org/abs/1908.11321))
 
+See also:
+
+* Wikipedia, _[Morava E-theory](https://en.wikipedia.org/wiki/Morava_E-theory)_
 
 [[!redirects Morava E-theories]]
