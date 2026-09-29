@@ -779,7 +779,7 @@ The path method of higher Lie integration taken to its logical conclusion and un
 
 * {#BM2018} [[Vincent Braunack-Mayer]]: *$\infty$-Lie Theory*, section 3.1 in: [[schreiber:thesis Braunack-Mayer|Rational Parameterized Stable Homotopy Theory]], PhD thesis, Zurich (2018) &lbrack;[pdf](/schreiber/files/VBM_RPSHT.pdf)&rbrack;
 
-* {#Verdooren2026} Emilio Verdooren: *Higher Lie Integration*, PhD thesis, Texas Tech (2026) &lbrack;[pdf](https://ttu-ir.tdl.org/server/api/core/bitstreams/2556919e-e6fa-4883-9c65-876ebf17dc0c/content)&rbrack;
+* {#Verdooren2026} Emilio Verdooren: *Higher Lie Integration*, PhD thesis, Texas Tech (2026) &lbrack;[hdl:2346/109591](https://hdl.handle.net/2346/109591), [pdf](https://ttu-ir.tdl.org/bitstreams/2556919e-e6fa-4883-9c65-876ebf17dc0c/download)&rbrack;
 
 
 
