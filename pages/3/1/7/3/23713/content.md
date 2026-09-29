@@ -10,9 +10,10 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+
 
 ## Idea
 
@@ -47,6 +48,8 @@ In [[Hall systems]], Berry curvature:
 * [[Berry's phase]] (needs to be merged)
 
 * [[quantum adiabatic theorem]]
+
+* [[quantum metric]]
 
 ## References
 
