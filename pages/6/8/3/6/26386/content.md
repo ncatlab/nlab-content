@@ -166,3 +166,7 @@ Some examples of type theories with a hierarchy of universes are as follows:
 [[!redirects non-cumulative hierarchies of universes]]
 [[!redirects noncumulative hierarchy of universes]]
 [[!redirects noncumulative hierarchies of universes]]
+
+[[!redirects universe level]]
+[[!redirects universe levels]]
+
