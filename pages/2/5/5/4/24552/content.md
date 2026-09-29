@@ -30,9 +30,9 @@ For a [[Lawvere theory]], a fixed-point operator is the same thing as the struct
 
 ## References
 
-* [[Masahito Hasegawa]], _Recursion from Cyclic Sharing: Traced Monoidal Categories and Models of Cyclic Lambda Calculi_, TLCA 1997 [doi](https://doi.org/10.1007/3-540-62688-3_37) [pdf](https://www.kurims.kyoto-u.ac.jp/~hassei/papers/tlca97.pdf)
+* [[Masahito Hasegawa]]: *Recursion from Cyclic Sharing: Traced Monoidal Categories and Models of Cyclic Lambda Calculi*, in: *Typed Lambda Calculi and Applications*, TLCA 1997, Lecture Notes in Computer Science **1210**, Springer (1997)&lbrack;[doi:10.1007/3-540-62688-3_37](https://doi.org/10.1007/3-540-62688-3_37), [pdf](https://www.kurims.kyoto-u.ac.jp/~hassei/papers/tlca97.pdf)&rbrack;
 
-* [[Alex Simpson]] and [[Gordon Plotkin]], _Complete Axioms for Categorical Fixed-Point Operators_, LICS '00, [doi](https://doi.ieeecomputersociety.org/10.1109/LICS.2000.855753)
+* [[Alex Simpson]], [[Gordon Plotkin]]: _Complete Axioms for Categorical Fixed-Point Operators_, LICS '00 &lbrack;[doi:10.1109/LICS.2000.855753](https://doi.ieeecomputersociety.org/10.1109/LICS.2000.855753)&rbrack;
 
 [[!redirects fixed point operators]]
 
