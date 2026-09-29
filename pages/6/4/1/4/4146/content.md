@@ -224,10 +224,10 @@ While this argument does not generalize to general enriched categories and proar
 
 Some of the early theory is in
 
-* [[René Guitart]], _Relations et carrés exacts,_ Ann. Sc. Math. Qué., juillet 1980, vol. IV, N° 2, p. 103-125.
+* [[René Guitart]], _Relations et carrés exacts,_ Ann. Sc. Math. Qué. **IV** 2 (1980) 103--125 &lbrack;[pdf](https://labmath.uqam.ca/~annales/volumes/04-2/PDF/103-125.pdf)&rbrack;
 
 For double categories, see Section 4 of
 
-* {#Koudenburg2014} [[Seerp Roald Koudenburg]], _On pointwise Kan extensions in double categories_, Theory and Applications of Categories, Vol. 29, 2014, No. 27, pp 781-818. 
+* {#Koudenburg2014} [[Seerp Roald Koudenburg]], _On pointwise Kan extensions in double categories_, Theory and Applications of Categories **29** 27 (2014) 781--818 &lbrack;[doi:10.70930/tac/obwi8yqx](https://doi.org/10.70930/tac/obwi8yqx)&rbrack;
 
 [[!redirects exact squares]]
