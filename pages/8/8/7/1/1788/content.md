@@ -8,6 +8,22 @@
 
 
 
+## References
+
+[[quantum metric]]
+
+Original discussion:
+
+* [[Jean-Pierre Provost]], [[Gérard Vallée]]: *Riemannian structure on manifolds of quantum states*, Commun. Math. Phys. **76** (1980) 289--301 &lbrack;[doi:10.1007/BF02193559](https://doi.org/10.1007/BF02193559), [euclid:cmp/1103908308](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-76/issue-3/Riemannian-structure-on-manifolds-of-quantum-states/cmp/1103908308.full)&rbrack; 
+
+* [[William K. Wootters]]: *Statistical distance and Hilbert space*, Phys. Rev. D **23** (1981) 357 &lbrack;[doi:10.1103/PhysRevD.23.357](https://doi.org/10.1103/PhysRevD.23.357)&rbrack;
+
+(...)
+
+* [[Frédéric Piéchon]], Arnaud Raoux, [[Jean-Noël Fuchs]], Gilles Montambaux: *Geometric orbital susceptibility: quantum metric without Berry curvature*, Phys. Rev. B **94**  (2016) 134423 &lbrack;[doi:10.1103/PhysRevB.94.134423](https://doi.org/10.1103/PhysRevB.94.134423), [arXiv:1605.01258](https://arxiv.org/abs/1605.01258)&rbrack;
+  > (for 2-band systems: (8) on [p. 2](https://arxiv.org/pdf/1605.01258#page=2))
+
+
 
 \begin{tikzcd}
 	{(\mathbf{L}, \otimes, 1)} && {(\mathbf{M}, \times, \top)}
