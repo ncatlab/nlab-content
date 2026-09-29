@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -33,8 +31,12 @@ Examples include [[complex tori]] $\mathbb{C}^n/L$ where $L$ is a lattice in $\m
 
 * [[symplectic formulation of quantum mechanics]]
 
+* [[quantum metric]]
+
 ## References
 
-* Wikipedia, _[Fubini-Study metric](https://en.wikipedia.org/wiki/Fubini%E2%80%93Study_metric)_
+See also:
+
+* Wikipedia: _[Fubini-Study metric](https://en.wikipedia.org/wiki/Fubini%E2%80%93Study_metric)_
 
 [[!redirects Fubini-Study metric]]
