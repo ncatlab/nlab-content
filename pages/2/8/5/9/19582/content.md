@@ -83,12 +83,17 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 
 * {#Nishino98} [[Hitoshi Nishino]], _Supergravity Theories in $D \geq 12$ Coupled to Super p-Branes_, Nucl.Phys. B542 (1999) 217-261 ([arXiv:hep-th/9807199](https://arxiv.org/abs/hep-th/9807199))
 
-
 * Stephen Hewson, _On supergravity in $(10,2)$_ ([arXiv:hep-th/9908209](https://arxiv.org/abs/hep-th/9908209))
 
 * Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006, 2000 ([arXiv:hep-th/9909007](https://arxiv.org/abs/hep-th/9909007))
 
-* [[Leonardo Castellani]], _A locally supersymmetric SO(10,2) invariant action for D=12 supergravity_, ([arXiv:1705.00638](https://arxiv.org/abs/1705.00638))
+* [[Leonardo Castellani]]: _A locally supersymmetric SO(10,2) invariant action for $D=12$ supergravity_, &lbrack;[arXiv:1705.00638](https://arxiv.org/abs/1705.00638)&rbrack;
+
+* [[C. A. Cremonini]], [[Pietro A. Grassi]], R. Noris, [[Lucrezia Ravera]]; section 7 of: *Supergravities and Branes from Hilbert-Poincaré Series*, JHEP 12 (2023) 088
+&lbrack;[arXiv:2211.10454](https://arxiv.org/abs/2211.10454), <a href="https://doi.org/10.1007/JHEP12(2023)088">doi:10.1007/JHEP12(2023)088</a>&rbrack;
+
+
+
 
 ### On the $2+1$-brane in $10+2$ dimensions
 
