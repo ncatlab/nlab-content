@@ -261,7 +261,7 @@ The nonabelian generalization:
 
 * [[Francis Borceux]], [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
-* {#Janelidze09} [[Tamar Janelidze]], *Foundations of relative non-abelian homological algebra*, 2009 ([pdf](https://open.uct.ac.za/bitstream/item/4777/thesis_sci_2009_janelidze_t.pdf?sequence=1), [[Janelidze_NonabelianHomologicalAlgebra.pdf:file]], [hdl:11427/4891](http://hdl.handle.net/11427/4891))
+* {#Janelidze09} [[Tamar Janelidze]], *Foundations of relative non-abelian homological algebra*, 2009 [[Janelidze_NonabelianHomologicalAlgebra.pdf:file]], [hdl:11427/4891](http://hdl.handle.net/11427/4891))
 
 
 The short 5-lemma also appears in various topological algebra contexts; see for example 
