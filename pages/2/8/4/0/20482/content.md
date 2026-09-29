@@ -47,9 +47,13 @@ Discussion of the (relativistic) Navier-Stokes equation in view of the [[fluid/g
 
 * {#Thillaisundaram17} Ashok Thillaisundaram, _Aspects of fluid dynamics and the fluid/gravity correspondence_, 2017 ([CambridgeRepositor:1810/267097](https://www.repository.cam.ac.uk/handle/1810/267097), [pdf](https://www.repository.cam.ac.uk/bitstream/handle/1810/267097/ThillaisundaramThesis.pdf?sequence=1&isAllowed=y))
 
-An [[AI]]-generated proof, verified with [[Lean]], of instability of the NS-equations:
+An [[AI]]-generated proof, verified with [[Lean]], of instability of the NS-equations in the presence of a smooth external force:
 
 * OpenAI: *On the Navier–Stokes Millennium Prize Problem* (8 Sep 2026) &lbrack;[openai.com/index/navier-stokes-solution](https://openai.com/index/navier-stokes-solution)&rbrack;
+
+That OpenAI's techniques do not extend to the NS-equations in the presence of a real analytic external force:
+
+* Peter Constantin, Mihaela Ignatovam, Vlad Vicol: *Regularity of asymptotically axisymmetric solutions to the 3D Navier–Stokes equations with analytic forcing* (17 September 2026) &lbrack;[arXiv:2609.20803](https://arxiv.org/abs/2609.20803)&rbrack;
 
 
 [[!redirects Navier-Stokes equations]]
