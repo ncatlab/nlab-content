@@ -68,23 +68,7 @@ $$]a \lt b[ \Rightarrow \mathbb{Q} \subseteq ]a, \infty[ \cup ]-\infty, b[$$
 * for all $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, 
 $$]a,\infty[ \cap ]-\infty,b[ \subseteq ]a,b[$$
 
-A **Dedekind cut** is an element of this frame. 
-
-### Structural Dedekind cuts
-
-There is a structural version of Dedekind cuts in [[structural set theory]]. A *structural subset* of the rational numbers is a set $A$ with an [[injection]] $i_A:A \hookrightarrow \mathbb{Q}$. We say that a rational number $q$ belongs to $A$ if there exists an element $x \in A$ such that $i_A(x) = q$. 
-$$\exists x \in A.i_A(x) = q$$
-
-A **structural Dedekind cut** consists of two structural subsets $(L, i_L)$ and $(U, i_U)$ with [[injections]] $i_L:L \hookrightarrow \mathbb{Q}$ and $i_R:R \hookrightarrow \mathbb{Q}$ such that
-
-1.  $L$ is [[inhabited set|inhabited]]; that is, some rational number belongs to $L$.
-2.  Similarly, $U$ is inhabited.
-3.  $L$ is a [[lower set]]; that is, if $a \lt b$ are rational numbers such that $b$ belongs to $L$, then $a$ belongs to $L$.
-4.  Similarly, $U$ is an [[upper set]]: if $a \lt b$ are rational numbers with $a$ belongs to $U$, then $b$ belongs to $L$.
-5.  $L$ is an upwards [[open set]]; that is, if $a$ belongs to $L$, then $a \lt b$ for some $b$ that belongs to $L$.
-6.  Similarly, $U$ is a  downwards [[open set]]: if $b$ belongs to $U$, then $a \lt b$ for some $a$ that belongs to $U$.
-7.  If $a \lt b$ are rational numbers, then $a$ belongs to $L$ or $b$ belongs to $U$.
-8.  If $a$ belongs to $L$ and $a$ belongs to $U$, then $a \lt b$.
+A **Dedekind cut** is an element of this frame.
 
 ## Motivation
 
