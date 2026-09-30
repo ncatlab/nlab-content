@@ -76,7 +76,7 @@ The definition of coordinate free spectrum directly generalizes to that of genui
   
 ## References 
 
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)  ([pdf](https://web.archive.org/web/20060902142152/https://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 3.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 [[!redirects coordinate-free spectra]]
