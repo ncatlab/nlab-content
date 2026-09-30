@@ -1,6 +1,10 @@
 
 * [personal page](https://sitp.stanford.edu/people/xiaoliang-qi)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Xiaoliang_Qi)
+
+* [inSpire page](https://inspirehep.net/authors/1056975)
+
 * [GoogleScholar page](https://scholar.google.com/citations?user=d2jc9KIAAAAJ&hl=en)
 
 ## Selected writings
@@ -14,6 +18,12 @@ On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] wi
 
 * [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
+On [[Wannier functions]] in the context of [[fractional Chern insulators]] exhibiting a [[fractional quantum anomalous Hall effect]]:
+
+* [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+
+
 On *genon* [[defect]] [[anyons]]:
 
 * [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
@@ -25,6 +35,10 @@ On *genon* [[defect]] [[anyons]]:
 and specifically in [[quantum Hall systems]]:
 
 * [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
+
+On the [[fractional quantum anomalous Hall effect]]:
+
+*  [[Chao-Xing Liu]], [[Shou-Cheng Zhang]], [[Xiao-Liang Qi]]: *The Quantum Anomalous Hall Effect: Theory and Experiment*,  Annual Review of Condensed Matter Physics **7** (2016) &lbrack;[arXiv:1508.07106](https://arxiv.org/abs/1508.07106), [doi:10.1146/annurev-conmatphys-031115-011417](https://doi.org/10.1146/annurev-conmatphys-031115-011417)&rbrack;
 
 
 On the idea of [[topological quantum computing]] with [[Majorana zero modes]]:
