@@ -308,11 +308,13 @@ A consistency check at the level of [[partition functions]]:
 
 * {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]]: _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. **6** (2003) 1031--1134 \[<a href="http://doi.org/10.4310/ATMP.2002.v6.n6.a2">doi:10.4310/ATMP.2002.v6.n6.a2</a>, <a href="http://arxiv.org/abs/hep-th/0005090">arXiv:hep-th/0005090</a>\], summarised in: _A Derivation of K-Theory from M-Theory_ \[<a href="http://arxiv.org/abs/hep-th/0005091">arXiv:hep-th/0005091</a>\]
 
-Discussion of [[double dimensional reduction]] of the [[supergravity C-field]] in 11d to the expected [[B-field]] and [[RR-field]] [[flux]]  forms in 10d:
+see also:
 
 * {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and $E_8$ Gauge Theory_, JHEP 0403:016 (2004) \[<a href="http://arxiv.org/abs/hep-th/0312033">arXiv:hep-th/0312033</a>\]
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, **114** (2017) 91--108 \[<a href="http://dx.doi.org/10.1016/j.geomphys.2016.11.024">doi:10.1016/j.geomphys.2016.11.024</a>, [arXiv:1606.03206](http://arxiv.org/abs/1606.03206)\]
+A derivation by [[double dimensional reduction]] from [[geometry of physics -- flux quantization|electromagnetic flux quantization]] in [[11D supergravity|11D]] ([[schreiber:Hypothesis H]]):
+
+* [[Nikita Golub]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:K from M|On the Derivation of Twisted K-Theory from M-Theory]]* \[<a href="https://arxiv.org/abs/2609.36048">arXiv:2609.36048</a>\]
 
 Relation to [[F-theory]]:
 
