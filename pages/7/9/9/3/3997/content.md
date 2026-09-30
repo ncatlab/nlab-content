@@ -35,7 +35,7 @@ If $F$ creates all limits or colimits of a given type (i.e. over a given categor
 This follows from [[lifted limit#vacuousPreserve|this remark]] on the page for [[lifted limit|lifting of limits]]. Thus, creation of limits either holds vacuously, or holds together with preservation.
 
 \begin{remark}
-  Sometimes, we additionally require $F \circ J$ to have a limit for $F$ to creates limits of $J$. In that case, creation is equivalent to preservation, reflection and lifting.
+  Sometimes, we additionally require $F \circ J$ to have a limit for $F$ to create limits of $J$. In that case, creation is equivalent to preservation, reflection and lifting.
 \end{remark}
 
 ### Strictness
