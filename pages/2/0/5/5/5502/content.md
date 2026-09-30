@@ -258,9 +258,13 @@ The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Sch
 
 * {#HeyerMann24} Claudius Heyer, [[Lucas Mann]], _6-Functor Formalisms and Smooth Representations_ &lbrack;[arXiv:2410.13038](https://arxiv.org/abs/2410.13038)&rbrack;
 
-An approach via the universality of certain $(\infty, 2)$-categories of [[higher correspondences]] is in:
+An approach via the universality of certain $(\infty, 2)$-categories of [[higher correspondences]]:
 
 * [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Universality of span 2-categories and the construction of 6-functor formalisms_ &lbrack;[arXiv:2505.19192](https://arxiv.org/abs/2505.19192)&rbrack;
+
+* Shachar Carmeli, Guy Kapon, Noam Nissan: *Six functor formalisms via internal higher algebra* &lbrack;[arXiv:2609.37520](https://arxiv.org/abs/2609.37520)&rbrack;
+
+
 
  
 
