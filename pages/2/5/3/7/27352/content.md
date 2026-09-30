@@ -72,7 +72,7 @@ Further review and exposition:
 
 * {#Fradkin13} [[Eduardo Fradkin]], chapter 13.7 of: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
 
-* {#Witten16} [[Edward Witten]], pp 30 in: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
+* {#Witten16} [[Edward Witten]]; pp. 30 in: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
 
 * {#Tong16} [[David Tong]] §5 of: *The Quantum Hall Effect*, lecture notes (2016) \[<a href="https://arxiv.org/abs/1606.06687">arXiv:1606.06687</a>, [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]\]
 
@@ -82,6 +82,9 @@ Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href
 * Diego Bragato: *Integer Quantum Hall Effect and Chern Simons Theories*, MSc thesis, Milano & Utrecht (2022) \[<a href="https://www.politesi.polimi.it/handle/10589/216533">polimi:10589/216533</a>, [pdf](https://www.politesi.polimi.it/retrieve/5e6fe5c0-50fb-493c-a3e0-5aef5459e3c0/thesis-book.pdf)\]
 
 * [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00269-9">doi:10.1016/B978-0-323-90800-9.00269-9</a>, [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)\]
+
+* [[Edward Witten]]: *The Chern-Simons Function and the Quantum Hall Effect*, based on a 2013 lecture \[<a href="https://arxiv.org/abs/2609.21182">arXiv:2609.21182</a>\]
+
 
 For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but *[[noncommutative  field theory|noncommutative]]* ([[matrix model]]-)[[Chern-Simons theory]]
 
