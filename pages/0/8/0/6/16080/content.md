@@ -24,6 +24,15 @@ Kramers-Wannier duality is a [[duality in physics]] of the [[Ising model]] [[2d 
 
 ## References
 
+Named after:
+
+* [[Hendrik A. Kramers]], [[Gregory H. Wannier]]: *Statistics of the Two-Dimensional Ferromagnet. Part I*, Phys. Rev. **60** (1941) 252 \[<a href="https://doi.org/10.1103/PhysRev.60.252">doi:10.1103/PhysRev.60.252</a>\]
+
+See also:
+
+* Wikipedia: *[Kramers-Wannier duality](https://en.wikipedia.org/wiki/Kramers–Wannier_duality)*
+
+
 Discussion by [[defect QFT]] in the context of the [[FRS-formalism]] [[QFT with defects|with defects]]:
 
 * {#FFRS04} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_, Phys.Rev.Lett. 93 (2004) 070601 ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
