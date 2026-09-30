@@ -1,7 +1,7 @@
 
 Nikita (Nick) Golub
 
-* [institute page](https://math-cs.spbu.ru/en/people/nikita-golub/)
+* [institute page](https://math-cs.spbu.ru/en/people/nikita-golub/) (old, joining NYU AD now)
 
 ## Selected writings
 
@@ -14,6 +14,11 @@ On [[fr-codes]]:
 On ([[Sullivan minimal model|minimal models]] in) [[equivariant rational homotopy theory]] and further generalization to [[rational homotopy theory]] of [[EI-category|EI-diagrams]] of spaces:
 
 * [[Nikita Golub]]: *Generalizations of minimal models in rational homotopy and applications*, [talk at](CQTS#GolubFeb2026) [[CQTS]] @ NYUAD (Feb 2026) &lbrack;slides:[[Golub-CQTS-Feb2026.pdf:file]]&rbrack;
+
+On a derivation of [[D-brane charge quantization in K-theory|D-brane charge quantization in]] [[twisted K-theory]] by [[double dimensional reduction]] from [[geometry of physics -- flux quantization|electromagnetic flux quantization]] in [[11D supergravity|11D]] ([[schreiber:Hypothesis H]]):
+
+* [[Nikita Golub]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:K from M|On the Derivation of Twisted K-Theory from M-Theory]]* \[<a href="https://arxiv.org/abs/2609.36048">arXiv:2609.36048</a>\]
+
 
 
 
