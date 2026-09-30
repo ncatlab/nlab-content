@@ -15,9 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -87,6 +86,23 @@ Variant for [[hyperbolic spaces]]:
 * Jingsan Hu, Jianfei Gu, Weiyi Zhang, *Bloch’s band structures of a pair of interacting electrons in simple one- and two-dimensional lattices*, Physics Letters A **414** (2021) 127634 $[$[doi:10.1016/j.physleta.2021.127634](https://doi.org/10.1016/j.physleta.2021.127634)$]$
 
 
+### Wannier functions
+
+The original article:
+
+* [[Gregory H. Wannier]]: *The Structure of Electronic Excitation Levels in Insulating Crystals*, Phys. Rev. **52** (1937) 191 \[<a href="https://doi.org/10.1103/PhysRev.52.191">doi:10.1103/PhysRev.52.191</a>\]
+
+In the context of [[fractional Chern insulators]] exhibiting a [[fractional quantum anomalous Hall effect]]:
+
+* [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** (2012) 031013 \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+
+
+
+
+
 [[!redirects Bloch theorem]]
 
 [[!redirects Bloch theory]]
@@ -112,4 +128,7 @@ Variant for [[hyperbolic spaces]]:
 
 [[!redirects Bloch bundle]]
 [[!redirects Bloch bundles]]
+
+[[!redirects Wannier function]]
+[[!redirects Wannier functions]]
 
