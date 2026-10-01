@@ -231,8 +231,6 @@ The case of [[crystalline topological insulators]] and [[symmetry protected topo
 * Yuan-Ming Lu, Ying Ran: *Symmetry protected fractional Chern insulators and fractional topological insulators*, Phys. Rev. B **85** (2012)  165134 &lbrack;[arXiv:1109.0226](https://arxiv.org/abs/1109.0226), [doi:10.1103/PhysRevB.85.165134](https://doi.org/10.1103/PhysRevB.85.165134)&rbrack;
   > "In fact, the recently discovered FCI states preserve all the lattice point group symmetry as well as translational symmetry. Here in this paper, we point out that as a consequence of the lattice symmetry, there exist many different quantum FCI phases, all respecting the full lattice symmetry, even at the same filling fraction with the same quantum Hall conductance \[...\] These distinct FCI phases cannot be adiabatically connected with each other without a phase transition while the lattice symmetry is respected"
 
-* Chao-Ming Jian, Xiao-Liang Qi: *Crystal-symmetry preserving Wannier states for fractional chern insulators*, Phys. Rev. B **88** (2013) 165134 &lbrack;[arXiv:1303.1787](https://arxiv.org/abs/1303.1787), [doi:10.1103/PhysRevB.88.165134](https://doi.org/10.1103/PhysRevB.88.165134)&rbrack;
-
 * Ke Huang, Xiao Li, [[Sankar Das Sarma]], Fan Zhang: *Self-consistent theory of fractional quantum anomalous Hall states in rhombohedral graphene* Phys. Rev. B **110** (2024) 115146 &lbrack;[doi:10.1103/PhysRevB.110.115146](https://doi.org/10.1103/PhysRevB.110.115146), [arXiv:2407.08661](https://arxiv.org/abs/2407.08661)&rbrack;
 
 * Yuxuan Zhang, [[Maissam Barkeshli]]: *Fractionally Quantized Electric Polarization and Discrete Shift of Crystalline Fractional Chern Insulators*, Phys. Rev. B
@@ -244,6 +242,19 @@ and fractional Chern insulators*, talk at *[Recent Developments and Challenges i
 See also:
 
 * Kryštof Kolář, Kang Yang, [[Felix von Oppen]], Christophe Mora: *Robustness of real-space topology in moiré systems* &lbrack;[arXiv:2507.00130](https://arxiv.org/abs/2507.00130)&rbrack;
+
+On the corresponding [[Wannier functions]]:
+
+* [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** (2012) 031013 \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+* Chao-Ming Jian, [[Xiao-Liang Qi]]: *Crystal-symmetry preserving Wannier states for fractional chern insulators*, Phys. Rev. B **88** (2013) 165134 &lbrack;[arXiv:1303.1787](https://arxiv.org/abs/1303.1787), [doi:10.1103/PhysRevB.88.165134](https://doi.org/10.1103/PhysRevB.88.165134)&rbrack;
+
+
+
+
+
 
 Relation to [[superconductors]]:
 
