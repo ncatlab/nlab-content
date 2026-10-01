@@ -131,7 +131,7 @@ The notion of a _gros topos_ of a _topological space_ is due to [[Jean Giraud]],
 
 * {#SGA4} [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM **269** (1972). (expos&#233; IV, 2.5 pp.316-318, 4.10 pp.358-365, [pp. 161 here](https://www.normalesup.org/~forgogozo/SGA4/tomes/SGA4.pdf#page=169))
 
-In this context see also
+In this context see also:
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], pp. 113, 325, 416 in: *[[Sheaves in Geometry and Logic]]*, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0) &rbrack;
 
@@ -155,7 +155,7 @@ together with axiom 2 they make out a [[sufficiently cohesive topos]].
 
 
 
-Further discussion of this axiomatics for gros toposes is in
+Further discussion of this axiomatics for gros toposes:
 
 * [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992) &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1992-categories-of-space-and-quantity.pdf)&rbrack;
 
@@ -179,8 +179,13 @@ A formalization of gros/petit toposes of objects in [[differentially cohesive to
 
 * {#Schreiber2017}  [[Urs Schreiber]]; §5.3.4 ([pp. 537](https://ncatlab.org/schreiber/files/dcct170811.pdf#page=563)) in [version 2](https://ncatlab.org/schreiber/files/dcct170811.pdf) of: _[[schreiber:Differential Cohomology in a Cohesive ∞-Topos]]_ (2017) 
  
-
 * {#SatiSchreiber2026} [[Hisham Sati]], [[Urs Schreiber]]: *&Eacute;tale toposes*, §9.1.2.6 in: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026) &lbrack;ISBN:9781041147510&rbrack;
+
+
+
+A discussion and comparison of big vs little approaches to $(\infty,1)$-topos theory began at these blog entries:
+
+* [Cohesive (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html) and [Petit (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/petit_1toposes.html).
 
 
 Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]]:
@@ -202,9 +207,8 @@ See also:
 
 * [[Peter Johnstone]], _Calibrated Toposes_, Bull. Belgian Math. Soc. - Simon Stevin **19** 5 (2012) 889-907. &lbrack;[euclid:1354031555](http://projecteuclid.org/euclid.bbms/1354031555)&rbrack;
 
-A discussion and comparison of big vs little approaches to $(\infty,1)$-topos theory began at these blog entries:
+* Fabio Neugebauer, [[Qi Zhu]]: *Gros Topoi as Partially Lax Limits of Petit Topoi* &lbrack;[arXiv:2609.35119](https://arxiv.org/abs/2609.35119)&rbrack;
 
-* [Cohesive (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html) and [Petit (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/petit_1toposes.html).
 
 [[!redirects big topos]]
 [[!redirects big toposes]]
