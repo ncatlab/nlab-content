@@ -34,9 +34,12 @@ By "quantum simulation" one broadly means the simulation *of* [[quantum systems]
 
 
 ## References
+ {#References}
 
 
 ### Quantum simulation by quantum systems
+
+#### General
 
 General discussion:
 
@@ -66,31 +69,22 @@ On quantum simulation of ([[lattice QFT|lattice]]) [[quantum field theory]]:
 
 * Jad C. Halimeh, Masanori Hanada, Shunji Matsuura, Franco Nori, Enrico Rinaldi, Andreas Schäfer: *A universal framework for the quantum simulation of Yang-Mills theory* &lbrack;[arXiv:2411.13161](https://arxiv.org/abs/2411.13161)&rbrack;
 
-
-
 specifically of  [[scattering amplitudes]] of [[bound states]]:
 
 * Matteo Turco, Gonçalo M. Quinta, João Seixas, Yasser Omar, *Towards Quantum Simulation of Bound States Scattering* &lbrack;[arXiv:2305.07692](https://arxiv.org/abs/2305.07692)&rbrack;
-
-{#OfAnyons} On quantum simulation of [[anyons]]:
-
-* T. Andersen et al.: *Non-Abelian braiding of graph vertices in a superconducting processor*, Nature **618** (2023) 264–269 \[<a href="https://arxiv.org/abs/2210.10255">arXiv:2210.10255</a>, [doi:10.1038/s41586-023-05954-4](https://doi.org/10.1038/s41586-023-05954-4)\]
-
-* Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt:
-  *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science **345** 6194 (2014) 302-305 &lbrack;[arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302)&rbrack;
-
-* [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]]: *Topological Order from Measurements and Feed-Forward on a Trapped Ion Quantum Computer*, Nature Communications Physics **7** (2024) 205 \[<a href="https://doi.org/10.1038/s42005-024-01698-3">doi:10.1038/s42005-024-01698-3</a>, [arXiv:2302.01917](https://arxiv.org/abs/2302.01917)\]
-
-* [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]], R. Verresen et al., Figure 5 in : *Non-Abelian topological order and anyons on a trapped-ion processor*, Nature **626** (2024) 505–511 \[<a href="https://doi.org/10.1038/s41586-023-06934-4">doi:10.1038/s41586-023-06934-4</a>\]
-
-  Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
-  
-* Shibo Xu et al.: *Non-Abelian braiding of Fibonacci anyons with a superconducting processor*, Nature Physics **20** (2024) 1469–1475 \[<a href="https://doi.org/10.1038/s41567-024-02529-6">doi:10.1038/s41567-024-02529-6</a>\]
 
 On [[quantum advantage]] for quantum simulation of the [[Schrödinger equation]]:
 
 * Andrew D. King et al.: *Beyond-classical computation in quantum simulation*, Science
 (Mar 2025) &lbrack;[doi:10.1126/science.ad6285](https://doi.org/10.1126/science.ado6285)&rbrack;
+
+
+
+
+[[!include quantum simulation of anyons -- references]]
+
+
+
 
 
 ### Quantum simulation by classical systems
