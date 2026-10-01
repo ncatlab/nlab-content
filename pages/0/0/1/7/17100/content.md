@@ -13,21 +13,23 @@
 =--
 =--
 
-This pages collects links related to
+This page is to record the reference:
 
-* {#ElmendorfKrizMay} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], 
+* {#ElmendorfKrizMay} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]]:
 
-  _Modern foundations for stable homotopy theory_, 
+  \linebreak
 
-  in [[Ioan Mackenzie James]] (ed.), 
+  **Modern foundations for stable homotopy theory**
+
+  \linebreak
+
+  in [[Ioan Mackenzie James]] (ed.): 
 
   _[[Handbook of Algebraic Topology]]_, 
 
-  1995
+  Amsterdam: North-Holland (1995) 213--253,  
 
-  Amsterdam: North-Holland, pp. 213&#8211;253,  
-
-  ([pdf](https://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf))
+  [pdf](https://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf)
 
 on the basics of [[stable homotopy theory]] in terms of the [[model category]] of [[S-modules]] with its [[symmetric smash product of spectra]].
 
