@@ -48,8 +48,13 @@ Review:
 
 * Michael Kolodrubetz, Dries Sels, Pankaj Mehta, Anatoli Polkovnikov: *Geometry and non-adiabatic response in quantum and classical systems*, Physics Reports **697** (2017) 1--88 &lbrack;[doi:10.1016/j.physrep.2017.07.001](https://doi.org/10.1016/j.physrep.2017.07.001), [arXiv:1602.01062](https://arxiv.org/abs/1602.01062)&rbrack;
 
+Review in the context of [[condensed matter theory]]:
+
 * Tianyu Liu, Xiao-Bin Qiang, Hai-Zhou Lu, X. C. Xie: *Quantum geometry in condensed matter*, National Science Review **12** 3 (2025) nwae334 &lbrack;[doi:10.1093/nsr/nwae334](https://doi.org/10.1093/nsr/nwae334), [arXiv:2409.13408](https://arxiv.org/abs/2409.13408)&rbrack;
-  > (aimed at [[condensed matter theory]])
+
+* Arpit Arora, Joel Î.-J. Wang, Tse-Ming Chen: *Quantum geometry in condensed matter: Fundamentals and applications*, Appl. Phys. Lett. **129** (2026) 130401 \[<a href="https://doi.org/10.1063/5.0354797">doi:10.1063/5.0354797</a>\]
+
+
 
 On experimental measurement:
 
@@ -85,5 +90,8 @@ Generalization from [[target space|target]] [[complex projective spaces]] to com
 
 [[!redirects quantum Fisher information metric]]
 [[!redirects quantum Fisher information metrics]]
+
+[[!redirects quantum geometry]]
+[[!redirects quantum geometries]]
 
 
