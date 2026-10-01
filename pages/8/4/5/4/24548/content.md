@@ -20,6 +20,9 @@ On multiplicative (equivariant) Thom spectra and Real orientations:
 
 * Ryan Quinn, [[Qi Zhu]], *Multiplicative Equivariant Thom Spectra & Structured Real Orientations* (2025) &lbrack;[arXiv:2512.15573](https://arxiv.org/abs/2512.15573)&rbrack;
 
+On [[gros and petit topoi]]:
+
+* Fabio Neugebauer, [[Qi Zhu]]: *Gros Topoi as Partially Lax Limits of Petit Topoi* &lbrack;[arXiv:2609.35119](https://arxiv.org/abs/2609.35119)&rbrack;
 
 
 category: people
