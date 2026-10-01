@@ -114,7 +114,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 Lemma 3.1 shows that any object in $\mathbf{Alg}_{G}$ lies in both the categories $\mathbf{Meas}$ and $\mathbf{Cvx}$, where $\mathbf{Cvx}$ is the category of [[convex spaces]].  Similarly, any morphism in $\mathbf{Alg}_{G}$ is also a morphism in both  $\mathbf{Meas}$ and $\mathbf{Cvx}$.  An example of such an object is $\mathbb{R}_{\infty}$ which, as a measurable space, is  the one-point compactification of the real-line with the Borel $\sigma$-algebra. As a convex space, $\mathbb{R}_{\infty}$ has the natural convex space structures on the real-line extended by the point $\infty$ with the property that $p r + (1-p) \infty = \infty$ for all $r \in \mathbb{R}$ and all $p \in [0,1)$.
 
- Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function because of the convex space structure on product spaces.   Moreover, we require that each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ must have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  objects of $\mathbf{Meas} \cap \mathbf{Cvx}$ are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
+ Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function because of the convex space structure on product spaces.   Moreover, we require that each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  objects of $\mathbf{Meas} \cap \mathbf{Cvx}$ are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
 The space $G(X)$ with the pointwise convex space structure and measurable structure is a measurable convex space because
  the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ coseparate any  two distinct probability measures in $G(X)$ and the operation of taking affine sums is a measurable function because
@@ -138,7 +138,15 @@ This last equation is true for all measurable sets $U$ in $X$, and since the aff
 The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum of $n$ elements is uniquely defined by $n-1$ parameters the result follows.
 \end{proof}
 
-Given any measurable space $X$ and any $P \in G(X)$ let $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\hat{\mathbb{E}}_{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_X f \, dP$. The value $\hat{\mathbb{E}}_{P}(f)$ is the [[expected value]] of the measurable function $f$ with respect to the measure $P$.  Note that the functional is                                        (1) weakly averaging, and (2) linear.  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+linear}$ denote the set of all weakly averaging linear functionals from the hom set to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between this set of all weakly averaging linear functionals and $G(X)$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                                                          
+Given any measurable space $X$ and any $P \in \G(X)$ the [[expected value]] of a measurable function is given by the mapping
+\begin{equation} 
+\begin{array}{rcc}
+hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) &\xrightarrow{\hat{\mathbb{E}}_{P}}&  \mathbb{R}_{\infty} \\
+f & \mapsto &  \int_X f \, dP
+\end{array}.
+\end{equation}
+which is a functional that is (1) weakly averaging:  $\mathbb{E}_{P}(\overline{c}) = c$ for every constant function $X \xrightarrow{\overline{c}} \mathbb{R}_{\infty}$ with value $c \in\mathbb{R}_{\infty}$, and (2) scalar covariant: $\mathbb{E}_P(\lambda \cdot f) = \lambda \cdot  \mathbb{E}_P(f)$ for all $\lambda \in \mathbb{R}_{\infty}$. 
+ If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$ denote the set of all weakly averaging and scalar covariant functionals from $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$  to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between  $\G(X)$ and $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                  
 
 Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.
 
@@ -146,13 +154,11 @@ Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}
 \begin{equation}
 \phi \big( J(f) \big) = J(\phi \circ f)
 \end{equation}
-which implies that $J$ is (1) weakly averaging, and (2) for all $\lambda \in \mathbb{R}$:  $J(\lambda \cdot f) = \lambda \cdot J(f)$.
-Moreover, just as in the identification of $G(X)$ with the functional space consisting of all weakly averaging linear functionals $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) \xrightarrow{\hat{\mathbb{E}}_{P}} \mathbb{R}_{\infty}$, which uses the $\mathbb{R}$-linear vector space structure of the hom set and $\mathbb{R}_{\infty}$, we require the $\mathbb{R}_{\infty}$-generalized points to satisfy the linearity  property that $J(\alpha f + \beta g) = \alpha J(f) + \beta J(g)$.
-(Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein. Weakly averaging functions are also defined there.)
+which implies that $J$ is (1) weakly averaging, and (2) scalar covariant.
+(Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein.)
 
 Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\hat{ \mathbb{E}}_P$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
 $\mathbb{E}_P(\phi \circ f) = \phi( \mathbb{E}_P(f) )$, and the linearity property of $\mathbb{E}_P$.
-
 Since we are restricting the operators $\hat{\mathbb{E}}_{P}$ to operate only on affine measurable functions, yielding the operators $\mathbb{E}_P$, we have
 \begin{lemma}
   If $J$ is an $\mathbb{R}_{\infty}$-generalized element of $X$ then there exists a $P \in G(X)$ such that $J=\mathbb{E}_P$.
@@ -173,19 +179,17 @@ We say an object $X$ in $\mathbf{Meas} \cap \mathbf{Cvx}$ satisfies the __fullne
 holds.
 
 Define $\mathbf{Cvx}_{Meas}$ to be the [[full subcategory]] of $\mathbf{Meas} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
-
 The space $\mathbb{R}_{\infty}$ is an object in $\mathbf{Cvx}_{Meas}$ because, for every $P \in G(\mathbb{R}_{\infty})$, we have $\mathbb{E}_P(id_{\mathbb{R}_{\infty}}) \in \cap_{f \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty} }} f^{-1}(\mathbb{E}_{P}(f))$. (See exercise 8.23 in [[Sets for Mathematics]].)  Trivially, the space $\mathbf{1}$ is also an object in $\mathbf{Cvx}_{Meas}$.
 
-
-\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Cvx}_{Meas}$ consisting of the single object $\mathbb{R}_{\infty}$.
+\begin{theorem} 
 The [[restricted Yoneda embedding]] functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
-\mathbf{Cvx}_{Meas}^{op} & \xrightarrow{\mathcal{Y}} & \mathbb{R}-\mathbf{Lin}^{\mathcal{R}} \\
+\mathbf{Cvx}_{Meas}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
 X & \mapsto & hom_{\mathbf{Cvx}_{Meas}}(X, \bullet)
 \end{array}
 \end{equation}
-is a [[full and faithful functor]]. ($\mathbb{R}-\mathbf{Lin}$ is the category of $\mathbb{R}$-linear vector spaces.)
+is a [[full and faithful functor]]. 
 \end{theorem}
 \begin{proof} 
 In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrightarrow{g} Y$ is determined by its value on points $\mathbf{1} \xrightarrow{x} X$. Hence to prove the fully faithful property it suffices to prove those properties on points.
@@ -193,20 +197,45 @@ In the category $\mathbf{Cvx}_{Meas}$ every affine measurable function $X \xrigh
 Faithful:  Note $\mathcal{Y}(x)$ is the evaluation map
 $\mathbb{R}_{\infty}^X \xrightarrow{ev_x} \mathbb{R}_{\infty}$.  Let $\mathbf{1} \xrightarrow{x_i} X$, for $i=1,2$ be two points of $X$. If $f(x_1) = \mathcal{Y}(x_1)f = \mathcal{Y}(x_2)f = f(x_2)$ for all $f \in \mathbb{R}_{\infty}^X$, then since $X$ has enough affine measurable maps to $\mathbb{R}_{\infty}$ to coseparate points it follows that $x_1=x_2$ and $\mathcal{Y}$ is [[faithful functor]].  
 
-Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$ is a natural transformation then, at the single component of $\mathcal{R}$, $J$ is a linear functional from the $\mathbb{R}$-linear space $\mathbb{R}_{\infty}^X$ to the $\mathbb{R}$-linear space $\mathbb{R}_{\infty}$.  The naturality condition requires $\phi( J(f) ) = J( \phi \circ f)$ for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty} }$.  All told, $J$ is a weakly averaging linear functional i.e., $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in G(X)$.  Then, because $X \in_{ob} \mathbf{Cvx}_{Meas}$, it satisfies the fullness property and we have, for all $f \in \mathbb{R}_{\infty}^X$, the property that $J(f) = \mathbb{E}_P(f) \in Im(f)$.  So there exists an element $x_f \in X_f = \{x \in X \, | \, J(f) = f(x) \}$ such that $J(f)=f(x_f)$. But the fullness property says $\cap_f X_f \ne \emptyset$.  Thus there exist an $x \in X$ such that $J(f) = f(x)$ for all $f \in \mathbb{R}_{\infty}^X$ from which it follows that $\mathcal{Y}(x) = ev_x$ and we conclude that $\mathcal{Y}$ is a [[full functor]].
+Full:  If $J \in Nat( hom(X, \cdot), hom(\mathbf{1}, \cdot) )$  then, at the single component of $\mathcal{R}$, $J$ is a  functional  $\mathbb{R}_{\infty}^X \rightarrow \mathbb{R}_{\infty}$ which is weakly averaging and scalar covariant. In other words,  $J$ is an $\mathbb{R}_{\infty}$-generalized point of $X$.   Now to complete the proof we employ Lemma 3.3:  $J = \mathbb{E}_P$ for some  $P \in \G(X)$.  Then, because $X \in_{ob} \mathbf{Cvx}_{Meas}$, it satisfies the fullness property and we have, for all $f \in \mathbb{R}_{\infty}^X$, the property that $J(f) = \mathbb{E}_P(f) \in Im(f)$.  So there exists an element $x_f \in X_f = \{x \in X \, | \, J(f) = f(x) \}$ such that $J(f)=f(x_f)$. But the fullness property says $\cap_f X_f \ne \emptyset$.  Thus there exist an $x \in X$ such that $J(f) = f(x)$ for all $f \in \mathbb{R}_{\infty}^X$ from which it follows that $\mathcal{Y}(x) = ev_x$ and we conclude that $\mathcal{Y}$ is a [[full functor]].
 \end{proof}
 
 
-\begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
+\begin{corollary} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Cvx}_{Meas}$ consisting of the single object $\mathbb{R}_{\infty}$, and let $\iota: \R \hookrightarrow \mathbf{Cvx}_{Meas}$ denote the inclusion functor.  The right [[Kan extension]] of $\iota$  along $\iota$ is  the identity functor on $\mathbf{Cvx}_{Meas}$ along with the identity natural transformation $id: id_{\mathbf{Cvx}_{Meas}} \circ \iota \Rightarrow \iota$.  In other words, $\iota$ is a [[codense functor]].
 \end{corollary}
-\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ denote the inclusion functor. Let $X\downarrow \iota$ denote the [[slice category]] whose objects consist of affine measurable functions $X \xrightarrow{m} \mathbb{R}_{\infty}$, and let $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
-For $\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}$ 
-Theorem 3.4 is equivalent to saying $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. In other words, the inclusion functor $\iota$ is a [[codense functor]]. (See Propositions 1 and 2, page 242 of [[CWM]].)
+\begin{proof}
+We can compute the right [[Kan extension]] of $\iota$ along $\iota$ pointwise, for each $X \in_{ob} \mathbf{Cvx}_{Meas}$, as $\lim \mathcal{D}_X$ where
+$$
+\mathcal{D}_X = X \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Cvx}_{Meas}
+$$
+where  $X\downarrow \iota$ denotes the slice category whose objects consist of affine measurable functions $X \xrightarrow{f} \mathbb{R}_{\infty}$, and  $X \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denotes the projection functor.
 
-Consider the cone over $\mathcal{D}_X$ with vertex $G(X)$ and [[natural transformation]] components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
+We claim that $\lim \mathcal{D}_X = (X, \{f\}_{f \in \mathbb{R}_{\infty}^X})$.   To obtain a contradiction, suppose to the contrary that $X$ is not the limit of $\mathcal{D}_X$.  Then there exists a cone $\mathbf{1} \xrightarrow{\beta} \mathcal{D}_X$  such that there exists no $x \in X$ such that 
+\begin{equation} \label{noX}
+\{\beta_f\}_{f \in \mathbb{R}_{\infty}^X}  = \{f(x)\}_{f \in \mathbb{R}_{\infty}^X} = \{ ev_x(f) \}_{f \in \mathbb{R}_{\infty}^X}.
+\end{equation}
+But  the functional 
+\begin{equation}
+\begin{array}{ccc}
+\mathbb{R}_{\infty}^X & \xrightarrow{\beta_{\bullet}} & \mathbb{R}_{\infty} \\
+f & \mapsto & \beta_f
+\end{array}
+\end{equation}
+is an $\mathbb{R}_{\infty}$-generalized point of $X$  because $\beta$ is a cone over the diagram $\mathcal{D}_X$.   That it to say it satisfies $\beta_{\phi \circ f} = \phi \circ \beta_f$ for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$.   
+But the hypothesis  that there exists no $x \in X$ such that equation (1) holds leads to the contradiction that there does exists an $\mathbb{R}_{\infty}$-generalized point of $X$ given by the functional $\beta_{\bullet}$ which is not an evaluation map $ev_x$ for some $x \in X$.  This contradicts the result in Theorem 1  that the [[restricted Yoneda embedding]] $\mathcal{Y}$ is a [[full functor]].   Hence we conclude $(X, \{f\}_{f \in \mathbb{R}_{\infty}^X})= \lim \mathcal{D}_X$.  This proves that the right [[Kan extension]] of $\iota$ along $\iota$ consists of  the identity functor on $\mathbf{Cvx}_{Meas}$  from which it readily follows that  the [[natural transformation]] $id_{\mathbf{Cvx}_{Meas}} \circ \iota \rightarrow \iota$ is the identity [[natural transformation]].
 
-Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Cvx}_{Meas}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Cvx}_{Meas}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}_{Meas}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
+
+\begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $\G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
+\end{corollary}
+\begin{proof}  From the proof of the preceding corollary 
+$X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. 
+
+We can construct a cone over $\mathcal{D}_X$ with vertex $\G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
+
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Cvx}_{Meas}$-morphism   $\G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in \G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Cvx}_{Meas}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}_{Meas}$ it follows $\epsilon_X(\delta_x)=x$.
+\end{proof}
+
 
 The defining property of $\epsilon_X$ is that it is the unique affine measurable function such that, for all $f \in \mathbb{R}_{\infty}^X$, the property
 $$ 
