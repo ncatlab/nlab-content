@@ -10,14 +10,18 @@
 =--
 
 
-This page collects material and links related to
+This page is to record the reference:
 
 
-* [[Ioan Mackenzie James]],
+* [[Ioan Mackenzie James]]:
 
-  _The Handbook of Algebraic Topology_ 
+  \linebreak
 
-  Oxford 1995
+  **The Handbook of Algebraic Topology**
+
+  \linebreak
+
+  North Holland (1995)
 
   [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2)
 
