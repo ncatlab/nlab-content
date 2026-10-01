@@ -52,6 +52,10 @@ Review in the context of [[condensed matter theory]]:
 
 * Tianyu Liu, Xiao-Bin Qiang, Hai-Zhou Lu, X. C. Xie: *Quantum geometry in condensed matter*, National Science Review **12** 3 (2025) nwae334 &lbrack;[doi:10.1093/nsr/nwae334](https://doi.org/10.1093/nsr/nwae334), [arXiv:2409.13408](https://arxiv.org/abs/2409.13408)&rbrack;
 
+* Jiabin Yu, [[B. Andrei Bernevig]], Raquel Queiroz, Enrico Rossi, Päivi Törmä, Bohm-Jung Yang: *Quantum Geometry in Quantum Materials*, npj Quantum Materials **10** (2025) 101 \[<a href="https://doi.org/10.1038/s41535-025-00801-3">doi:10.1038/s41535-025-00801-3</a>, [arXiv:2501.00098](https://arxiv.org/abs/2501.00098)\]
+
+
+
 * Arpit Arora, Joel Î.-J. Wang, Tse-Ming Chen: *Quantum geometry in condensed matter: Fundamentals and applications*, Appl. Phys. Lett. **129** (2026) 130401 \[<a href="https://doi.org/10.1063/5.0354797">doi:10.1063/5.0354797</a>\]
 
 
