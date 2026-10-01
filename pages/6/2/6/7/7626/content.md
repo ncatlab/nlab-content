@@ -445,7 +445,17 @@ The topic of [[quantum measurement]] of non-abelian anyons is crucial to their i
 [[!include topological quantum computation with anyons -- references]]
 
 
+### Experimental realization
 
+
+#### In FQH systems
+
+To date the only confirmed experimental observation of (abelian) anyons is in [[fractional quantum Hall systems]], see the references
+
+* [there](#ObservationOfAnyonsInFQH)
+
+
+[[!include quantum simulation of anyons -- references]]
 
 
 
