@@ -189,6 +189,7 @@ See also
 
 * Koichiro Matsumoto: *The Fuzzy-Sphere as a Black Hole in the IKKT Matrix Model: An Assessment* &lbrack;[arXiv:2609.13163](https://arxiv.org/abs/2609.13163)&rbrack;
 
+* Henry Liao: *Lie Algebra Saddles in the IKKT Matrix Model and Criteria for the Emergence of Time* &lbrack;[arXiv:2609.40183](https://arxiv.org/abs/2609.40183)&rbrack;
 
 
 
