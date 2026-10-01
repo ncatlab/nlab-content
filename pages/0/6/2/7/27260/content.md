@@ -12,6 +12,9 @@ On [[quantum simulation]] of [[topological order]] and [[anyon]] [[braiding]] on
 
   Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
 
+* [[Mohsin Iqbal]] et al.: *Universal gates from braiding and fusing anyons on quantum hardware*, Nature **655** (2026) 591--597 (2026) \[<a href="https://doi.org/10.1038/s41586-026-10709-y">doi:10.1038/s41586-026-10709-y</a>, [arXiv:2601.20956](https://arxiv.org/abs/2601.20956)\]
+
+
 
 
 category: people
