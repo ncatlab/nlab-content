@@ -84,6 +84,10 @@ For [[supergravity]]:
 
 * Ji-Seong Chae, Hun Jang, Junhyeok Lee: *Perturbative Nicolai-Map Diagrammatics: Application to Poincaré Supergravity* &lbrack;[arXiv:2605.29990](https://arxiv.org/abs/2605.29990)&rbrack;
 
+See also:
+
+* [[Olaf Lechtenfeld]], Fin Müller: *Supersymmetric quantum mechanics on a Kähler space* \[<a href="https://arxiv.org/abs/2610.00476">arXiv:2610.00476</a>\]
+
 
 
 
