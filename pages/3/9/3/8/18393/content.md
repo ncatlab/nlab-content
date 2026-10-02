@@ -23,11 +23,13 @@ This page is to record the reference:
 
   [ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038)
 
-  [pdf](https://emilyriehl.github.io/files/context.pdf)
+  [pdf](https://emilyriehl.github.io/files/context-v1.pdf)
  
   [webpage](https://math.jhu.edu/~eriehl/context/)
 
 on [[category theory]].
+
+A preliminary version of the upcoming second edition is available [at the author's webpage](https://emilyriehl.github.io/files/context.pdf).
 
 > "Suitable for advanced undergraduates and graduate students in mathematics, the text provides tools for understanding and attacking difficult problems in algebra, number theory, algebraic geometry, and algebraic topology. Drawing upon a broad range of mathematical examples from the categorical perspective, the author illustrates how the concepts and constructions of category theory arise from and illuminate more basic mathematical ideas. While the reader will be rewarded for familiarity with these background mathematical contexts, essential prerequisites are limited to basic set theory and logic."
 
