@@ -324,6 +324,10 @@ The concept goes back to:
 
 * {#Ehresmann63} [[Charles Ehresmann]], Déf. 10, p. 389 in: *Catégories structurées*, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 &lbrack;[eudml:81794](https://eudml.org/doc/urn:eudml:doc:81794)&rbrack;
 
+For a brief introduction, see
+
+* {#KellyStreet06} [[Max Kelly]], [[Ross Street]], §1.1 of: *Review of the elements of 2-categories*, in: G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** (1974) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
+
 For a comprehensive treatment, it is probably best to consult the series of papers by Grandis and Par&#233;:
 
 * {#GP99} Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
