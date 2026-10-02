@@ -35,7 +35,7 @@ F \ar{dr}[swap]{1} \ar{r}{\theta F} & FGF \ar{d}{F\eta}  & & G \ar{dr}[swap]{1} 
 & F & & & G
 \end{tikzcd}
 
-Reformulated in terms of covariant functors, a dual adjunction can be viewed as an ordinary adjunction $F \dashv G$ with $F: C \to D^{op}$ and $G: D^{op} \to C$, or as $G \dashv F$ with $G: D \to C^{op}$ and $F: C^{op} \to D$. However, it is often useful not to break the symmetry of the contravariant formulation. 
+Reformulated in terms of covariant functors, a dual adjunction can be viewed as an ordinary adjunction $F \dashv G$ with $F: C \to D^{op}$ and $G: D^{op} \to C$, or as $G \dashv F$ with $G: D \to C^{op}$ and $F: C^{op} \to D$. However, it is often useful not to break the symmetry of the contravariant formulation.
 
 A _self-dual_ adjunction is a dual adjunction for which $F = G: C \to C$ and $\eta = \theta: 1 \to F F$. An example is where $C$ is a [[symmetric monoidal closed category]] and $F = [-, d]$ is an internal hom into an object $d$, where the unit is the usual double-dual embedding $\delta_c: c \to [[c, d], d]$. 
 
@@ -57,6 +57,15 @@ A _self-dual_ adjunction is a dual adjunction for which $F = G: C \to C$ and $\e
 
   * [[two-variable adjunction]]
 
+## References
+
+The concept appears by the name of “mutually right adjoint functors” and “mutually left adjoint functors” in Definition 1.3 of:
+
+* [[Emily Riehl]], _Multivariable adjunctions and mates_, J. K-Theory **13** (2014), 337–396, [doi:10.1017/is013012007jkt250](https://doi.org/10.1017/is013012007jkt250), [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+
+and in Definition 4.4.1 of:
+
+* [[Emily Riehl]], _[[Category Theory in Context]]_, upcoming 2nd ed. [preliminary pdf](https://emilyriehl.github.io/files/context.pdf)
 
 
 [[!redirects dual adjunctions]]
