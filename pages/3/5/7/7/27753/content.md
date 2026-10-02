@@ -319,7 +319,9 @@ On [[topological order]] and [[anyons]] in FQAH systems:
 
 * Botao Wang, Amit Vashisht, Felix A. Palm, Fabian Grusdt, Laurens Vanderstraeten, Nathan Goldman: *Anyon-Impurity Bound States in Quantum-Engineered Fractional Chern Insulators* &lbrack;[arXiv:2608.06233](https://arxiv.org/abs/2608.06233)&rbrack;
 
+* Weijie Li et al.: *Signatures of fractional charges via anyon–trions in twisted $MoTo_2$*,  Nature **651** (2026) 48--53 \[<a href="https://doi.org/10.1038/s41586-026-10101-w">doi:10.1038/s41586-026-10101-w</a>\]
 
+    
 
 
 
