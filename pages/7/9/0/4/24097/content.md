@@ -48,6 +48,9 @@ On [[anyons]] in [[fractional quantum Hall effect|fractional quantum Hall system
 * [[Dima E. Feldman]], [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
   > (focus on [experimental signatures of anyons](FQH#ObservationOfAnyonsInFQH))
 
+* Thomas Werkmeister, [[Bertrand I. Halperin]], et al.:  *Anyon braiding and telegraph noise in a graphene interferometer*, Science **388** (2025) 6748 \[<a href="https://doi.org/10.1126/science.adp5015">doi:10.1126/science.adp5015</a>\]
+  > (experimental observation)
+
 
 On interfeometry with [[edge modes]] in [[fractional quantum Hall systems]]:
 
