@@ -44,7 +44,7 @@ $$
 
 With the inner product $\langle-\vert-\rangle$ referred to as a *bracket* this suggest to refer to "$\langle \psi \vert$" as a "bra" and "$\vert \phi \rangle$" as a "ket" &lbrack;[Dirac 1939, last line](#Dirac39)&rbrack;.
 
-The notation may be udnerstood as a lightweight precursor to the [[string diagram]]-calculus in [[dagger-compact categories]] &lbrack;[Abramsky & Coecke 2004 §7.2](#AbramskyCoecke04), [2007 pp. 6](#AbramskyCoecke2007), [2008 §4.4](#AbramskyCoecke08), [Coecke 2010 §3.3](#Coecke10)&rbrack;.
+The notation may be understood as a lightweight precursor to the [[string diagram]]-calculus in [[dagger-compact categories]] &lbrack;[Abramsky & Coecke 2004 §7.2](#AbramskyCoecke04), [2007 pp. 6](#AbramskyCoecke2007), [2008 §4.4](#AbramskyCoecke08), [Coecke 2010 §3.3](#Coecke10)&rbrack;.
 
 For instance, if $\mathscr{H}$ is a [[finite-dimensional Hilbert space]] with [[orthonormal basis]] $\big(\left\vert w \right\rangle\big)_{w \colon W}$, then the [[compact closed category|compact closure]] is witnessed by the following [[isomorphism]] between the vector space of linear maps out of $\mathscr{H}$ and a vector space of [[matrices]]:
 
