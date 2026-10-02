@@ -423,6 +423,8 @@ See also:
 
 * Emanuele Di Bella, Willem A. de Graaf, [[Andrea Santi]]: *Some rigidity results for supergravity backgrounds in 11 dimensions* &lbrack;[arXiv:2603.19923](https://arxiv.org/abs/2603.19923)&rbrack;
 
+* Andrea Conti: *$\mathcal{N}=3$ supersymmetric $AdS_4$ solutions in $d=11$ supergravity* \[<a href="https://arxiv.org/abs/2610.00468">arXiv:2610.00468</a>\]
+
 
 Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
 
