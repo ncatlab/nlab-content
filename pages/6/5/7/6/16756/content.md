@@ -43,6 +43,8 @@ On the [[Nicolai map]]:
 
 * Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *The coupling flow for supergravity* &lbrack;[arXiv:2607.25714](https://arxiv.org/abs/2607.25714)&rbrack;
 
+* [[Olaf Lechtenfeld]], Fin Müller: *Supersymmetric quantum mechanics on a Kähler space* \[<a href="https://arxiv.org/abs/2610.00476">arXiv:2610.00476</a>\]
+
 
 On [[Sasakian manifolds]] and [[quiver gauge theory]]:
 
