@@ -92,6 +92,14 @@ The original article:
 
 * [[Gregory H. Wannier]]: *The Structure of Electronic Excitation Levels in Insulating Crystals*, Phys. Rev. **52** (1937) 191 \[<a href="https://doi.org/10.1103/PhysRev.52.191">doi:10.1103/PhysRev.52.191</a>\]
 
+Further discussion:
+
+* Nicola Marzari, [[David Vanderbilt]]: *Maximally-localized generalized Wannier functions for composite energy bands*, Phys. Rev. B **56** (1997) 12847 \[<a href="https://doi.org/10.1103/PhysRevB.56.12847">doi:10.1103/PhysRevB.56.12847</a>, [arXiv:cond-mat/9707145](https://arxiv.org/abs/cond-mat/9707145)\]
+
+* Nicola Marzari, Arash A. Mostofi, Jonathan R. Yates, Ivo Souza, [[David Vanderbilt]]: *Maximally localized Wannier functions: Theory and applications*, Rev. Mod. Phys. **84** (2012) 1419 \[<a href="https://doi.org/10.1103/RevModPhys.84.1419">doi:10.1103/RevModPhys.84.1419</a>, [arXiv:1112.5411](https://arxiv.org/abs/1112.5411)\]
+
+
+
 In the context of [[fractional Chern insulators]] exhibiting a [[fractional quantum anomalous Hall effect]]:
 
 * [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
