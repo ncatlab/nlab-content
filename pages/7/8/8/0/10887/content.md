@@ -1,8 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Idea
+
 An __entire function__ is a [[complex number|complex]]-valued [[function]] of one complex variable that is defined and [[holomorphic function|holomorphic]] on the entire (hence the name) [[complex plane]] (as opposed to a [[partial function|partial]] holomorphic function, which might be defined only on some [[open subset]] of the plane). 
 
 The study of entire functions is a rather nontrivial branch of [[complex analysis]]; of course, with many applications. 
 
+## Related concepts
+
+* [[polynomial function]]
+
+* [[analytic function]]
+
+* [[Weierstrass factorization theorem]]
 
 category:analysis
 
