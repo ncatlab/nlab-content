@@ -413,6 +413,8 @@ and is reviewed in:
 
 * {#Leinster04} [[Tom Leinster]], Section 6.1, pp. 150 in: *Higher operads, higher categories*, London Math. Soc. Lec. Note Series **298**, Cambridge University Press (2004) &lbrack;[math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896)&rbrack;
 
+* [[Emily Riehl]], _[[Category Theory in Context]]_, upcoming 2nd ed. Proposition 4.3.8. [preliminary pdf](https://emilyriehl.github.io/files/context.pdf)
+
 Further review and discussion:
 
 * {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], _Multivariable adjunctions and mates_, J. K-Theory **13** (2014), 337–396, [doi:10.1017/is013012007jkt250](https://doi.org/10.1017/is013012007jkt250), [arXiv:1208.4520](http://arxiv.org/abs/1208.4520). 
