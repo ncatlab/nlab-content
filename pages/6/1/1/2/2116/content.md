@@ -124,6 +124,8 @@ More generally, in constructive mathematics, there are many different versions o
 
 * [[splitting field]] 
 
+* [[Weierstrass factorization theorem]]
+
 ## References
 
 * {#Leinster21} [[Tom Leinster]], _[Algebraic closure](https://golem.ph.utexas.edu/category/2021/04/algebraic_closure.html)_, [[n-Category Café]]
