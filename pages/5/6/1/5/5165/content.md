@@ -1,7 +1,7 @@
 
-This page hosts material related to the textbook
+This page is to record the reference
 
-* [[Michael Barr]], and  [[Charles Wells]]
+* [[Michael Barr]], [[Charles Wells]]:
 
   \linebreak
 
@@ -19,7 +19,7 @@ This page hosts material related to the textbook
 
   [[TAC reprints series|Reprints in Theory and Applications of Categories]]
 
-  **12** (2005) 1-287
+  **12** (2005) 1--287
  
   [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
