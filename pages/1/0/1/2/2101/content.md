@@ -66,19 +66,22 @@ The relationship between monads and adjunctions itself constitutes an adjunction
 ## Related pages
 
 * [[monadic functor]]
+
 * [[monadic decomposition]]
+
 * [[nuclear adjunction]]
+
 
 ## References
 
-* [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
+* [[Michael Barr]], [[Charles Wells]]: _[[Toposes, Triples, and Theories]]_, Grundlehren der math. Wissenschaften **278**, Springer (1985), [[TAC reprints series|Reprints in Theory and Applications of Categories]] **12** (2005) 1--287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
-Discussion for [[quasi-categories]] is around definition 6.1.15 and definition 7.1.6 in
+Discussion for [[quasi-categories]]:
 
-* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
+* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]]; round Def. 6.1.15 & 7.1.6 in: _Homotopy coherent adjunctions and the formal theory of monads_ &lbrack;[arXiv:1310.8279](http://arxiv.org/abs/1310.8279)&rbrack;
 
 
-* {#DanielSchäppi1} Daniel Schäppi, _Tannaka duality for comonoids in cosmoi_ ([arXiv:0911.0977](https://arxiv.org/abs/0911.0977))
+* {#DanielSchäppi1} [[Daniel Schäppi]]: _Tannaka duality for comonoids in cosmoi_ &lbrack;[arXiv:0911.0977](https://arxiv.org/abs/0911.0977)&rbrack;
 
 
 * Alec Rhea ([MO user page](https://mathoverflow.net/users/92164/alec-rhea)), _Semantics-structure adjunction_, URL (version: 2019-01-13): <https://mathoverflow.net/q/320698>
