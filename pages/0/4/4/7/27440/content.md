@@ -20,7 +20,7 @@ On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] wi
 
 On [[Wannier functions]] in the context of [[fractional Chern insulators]] exhibiting a [[fractional quantum anomalous Hall effect]]:
 
-* [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+* [[Xiao-Liang Qi]]: *Generic Wavefunction Description of Fractional Quantum Anomalous Hall States and Fractional Topological Insulators*, Phys. Rev. Lett. **107** (2011) 126803 \[<a href="https://doi.org/10.1103/PhysRevLett.107.126803">doi:10.1103/PhysRevLett.107.126803"</a>, [arXiv:1105.4298](https://arxiv.org/abs/1105.4298)\]
 
 * Chao-Ming Jian, [[Xiao-Liang Qi]]: *Crystal-symmetry preserving Wannier states for fractional chern insulators*, Phys. Rev. B **88** (2013) 165134 &lbrack;[arXiv:1303.1787](https://arxiv.org/abs/1303.1787), [doi:10.1103/PhysRevB.88.165134](https://doi.org/10.1103/PhysRevB.88.165134)&rbrack;
 
