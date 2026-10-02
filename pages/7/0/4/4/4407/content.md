@@ -641,6 +641,10 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 In [[constructive mathematics]], there are multiple versions of the FTA which are inequivalent to each other, many of which are not formulated in algebraic terms. For example, the approximate version of the FTA listed above requires one to show that for all polynomials and for all [[neighborhoods]] around zero there exists a complex number $z$ such that the polynomial evaluated at $z$ is in the [[neighborhood]], which is analytic and topological rather than algebraic. 
 
+## Related concepts
+
+* [[Weierstrass factorization theorem]]
+
 ## References
  {#References}
 
