@@ -16,9 +16,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -61,6 +59,10 @@ Review:
 See also:
 
 * Adam Caulton: *Is a particle an irreducible representation of the Poincaré group?* &lbrack;[arXiv:2410.02354](https://arxiv.org/abs/2410.02354)&rbrack;
+
+* Arwa Alabbasi, [[Fernando Quevedo]]: *Absence of Continuous Spin Particles in Superstring Theory* \[<a href="https://arxiv.org/abs/2610.00745">arXiv:2610.00745</a>\]
+
+
 
 [[!redirects Wigner's classification]]
 
