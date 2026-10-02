@@ -292,7 +292,7 @@ $$
 (ev_U \circ \mu_X)(Q) = \mu_X(Q)[U] = \int_{P \in G(X)} ev_U(P) \, dQ = \mathbb{E}_Q(ev_U) = \big(ev_U \circ \mathbb{E}_{\bullet}(id_{G(X)})\big)(Q).
 $$
 Since these evaluation maps are jointly monic on $G(X)$ it follows that $\mu_X =  \mathbb{E}_{\bullet}(id_{G(X)})$.
-Using this result, along with Lemma 3.7, we obtain the result that for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_{f \in \mathbb{R}_{\infty}^{G(X)}} f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. 
+Using this result, along with Lemma 3.8, we obtain the result that for $Q \in G^2(X)$ and all affine maps $G(X) \xrightarrow{f} \mathbb{R}_{\infty}$ the element $\mu_X(Q) \in \cap_{f \in \mathbb{R}_{\infty}^{G(X)}} f^{-1}(\mathbb{E}_Q(f))$ which shows the fullness property is satisfied for $G(X)$. 
 Hence  $G(X) \in_{ob} \mathbf{Cvx}_{Meas}$.
 
 The fact that $G(f)$ is an affine function follows immediately by the pointwise convex space structure of $G(X)$ and $G(Y)$.  The fact that it is a measurable function follows because $G$ is an [[endofunctor]] on $\mathbf{Meas}$. 
@@ -433,11 +433,9 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of the [[Giry monad]] arises from recognizing the need for viewing them as weakly-averaging linear maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized above.    These ideas originally appeared as
+views probability measures via double dualization, restricted to weakly averaging affine maps. An extended version of the derivation of the algebras given above is in
 
-* {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
-
-but it was realized the method applied to all measurable spaces.
+* {#Sturtz26}[[Kirk Sturtz]], _The Algebras of the Giry monad_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
 
 Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
@@ -472,12 +470,11 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 * Jared Culbertson and [[Kirk Sturtz]], _A categorical foundation for Bayesian probability_, Applied Cat. Struc. 2013 (preprint as [arXiv:1205.1488](http://arxiv.org/abs/1205.1488))
 
-* Jared Culbertson and [[Kirk Sturtz]], _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
+Elisabeth Burroni  derives stochastic [[automata]] as algebras for a suitable [[distributive law]]
+ on the monoid and Giry monads in 
 
 * {#Burroni09} Elisabeth Burroni, _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([journal page](http://www.tac.mta.ca/tac/volumes/22/7/22-07abs.html))
 
-where she derives stochastic [[automata]] as algebras for a suitable [[distributive law]]
- on the monoid and Giry monads. 
 
 B. Fong has a section on the Giry monad in his paper on Bayesian networks:
 
