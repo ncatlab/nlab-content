@@ -138,7 +138,7 @@ This last equation is true for all measurable sets $U$ in $X$, and since the aff
 The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum of $n$ elements is uniquely defined by $n-1$ parameters the result follows.
 \end{proof}
 
-Given any measurable space $X$ and any $P \in \G(X)$ the [[expected value]] of a measurable function is given by the mapping
+Given any measurable space $X$ and any $P \in \G(X)$ the [[expected value]] of an $\mathbb{R}_{\infty}$-valued  measurable function is given by the mapping
 \begin{equation} 
 \begin{array}{rcc}
 hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) &\xrightarrow{\hat{\mathbb{E}}_{P}}&  \mathbb{R}_{\infty} \\
