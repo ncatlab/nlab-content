@@ -49,8 +49,6 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 * [[hom-set]], [[hom-group]], [[hom-category]]
 
-* [[hom-functor]]
-
 * [[derived hom-space]]
 
 * [[hom-functor]]
