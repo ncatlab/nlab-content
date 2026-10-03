@@ -14,6 +14,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -319,6 +320,10 @@ with exposition in
 More general discussion in ([[cohesive (infinity,1)-topos|cohesive]]) [[(infinity,1)-topos theory|$(\infty,1)$-topos theory]]:
 
 * {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) \[<a href="https://doi.org/10.1007/s00220-023-04929-w">doi:10.1007/s00220-023-04929-w</a>, [arXiv:2212.13836](https://arxiv.org/abs/2212.13836)\]
+
+See also:
+
+* $n$Lab materials: *Cyclification* (2026-10-03) &lbrack;[pdf](https://www.dropbox.com/scl/fi/gapszo6ctkdzt96ljutpp/Cyclification_26-10-03.pdf?rlkey=4tnuj3ag5gf1zk1kpmd8l7e3s&dl=0), [zip](https://www.dropbox.com/scl/fi/hqty966mhj6f8a9z3oodm/Cyclification_26-10-03.zip?rlkey=0p2gt99b48qxycudvzzb2clfa&dl=0)&rbrack;
 
 
 [[!redirects cyclic loop spaces]]
