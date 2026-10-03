@@ -1,4 +1,5 @@
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=138023)
 
 ## Selected writings
 
@@ -14,3 +15,5 @@ for [[compact closed categories]]:
 
 
 category: people
+
+[[!redirects M. L. Laplaza]]
