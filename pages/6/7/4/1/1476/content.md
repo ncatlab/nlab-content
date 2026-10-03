@@ -69,12 +69,12 @@ From [[Categories for the Working Mathematician]], p. 108:
 * Jorge Picado, _An interview with F. William Lawvere_, ([pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)) 
  {#picado} 
 
-* Miles Reid, _Undergraduate Algebraic Geometry_, available from [Reid's web page](https://homepages.warwick.ac.uk/staff/Miles.Reid/) as ([pdf](https://homepages.warwick.ac.uk/staff/Miles.Reid/MA4A5/UAG.pdf)) 
+* Miles Reid, _Undergraduate Algebraic Geometry_, available from [Reid's web page](https://web.archive.org/web/20170401161539/http://homepages.warwick.ac.uk/staff/Miles.Reid/) as ([pdf](https://web.archive.org/web/20170409201531/https://homepages.warwick.ac.uk/staff/Miles.Reid/MA4A5/UAG.pdf)) 
  {#reid} 
 
 * Tom Leinster, _A Perspective on Higher Category Theory_, $n$-Category Caf&eacute; post (March 8, 2010), ([link](https://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html)) 
  {#leinster} 
 
-* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ ($2^{nd}$ edition), Springer Verlag New York, 1998. ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maclanecat.pdf)) 
+* [[Saunders Mac Lane]], _[Categories for the Working Mathematician](https://ncatlab.org/nlab/show/Categories+for+the+Working+Mathematician)_ ($2^{nd}$ edition), Springer Verlag New York, 1998. ([doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8), [pdf](http://www.maths.ed.ac.uk/~aar/papers/maclanecat.pdf)) 
 
 
