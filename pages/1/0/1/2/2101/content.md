@@ -14,9 +14,8 @@
 =--
 
 
-# Monadic adjunctions
-* table of contents
-{: toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -34,7 +33,9 @@ Alternatively, $r \epsilon: T \circ r \Rightarrow r$ can be seen as a [[module o
 The adjunction $\ell \dashv r$ is __monadic__ if this functor $k$ is an [[equivalence of categories]].  
 
 
-## Beck's monadicity theorem
+## Properties
+
+### Beck's monadicity theorem
 
 __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an adjunction to be monadic.  Namely, the adjunction $(C,D,\ell,r,\iota,\epsilon)$ is monadic iff:
 
@@ -45,7 +46,19 @@ __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an 
 See [[monadicity theorem]] for more details and variants.
 
 
-## Algebraic categories
+
+## Examples
+
+### General
+
+1. [[Eilenberg-Moore categories]] are obviously all examples, and up to [[equivalence of categories|equivalence]], the only examples.
+
+2. If the categories are [[pre-orders]], then a monadic adjunction is a [[Galois connection]] where the [[right adjoint]] reflects ordering and dually a comonadic adjunction is a Galois connection where the left adjoint reflects ordering.
+
+3. More generally an [[idempotent adjunction]] is monadic if and only if the right adjoint is [[fully faithful]], i.e. essentially a [[reflective subcategory]] inclusion. Dually, a comonadic idempotent adjunction is essentially a [[coreflective subcategory]] inclusion.
+
+
+### Algebraic categories
 
 The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], etc, all come equipped with monadic adjunctions from [[Set]].  Specifically, the [[right adjoint]] is the [[forgetful functor]] from algebras to sets, and the [[left adjoint]] maps each set to the [[free object|free]] algebra on that set.  Their composite (a monad on $Set$) may be thought of as mapping a set $A$ to the set of words with alphabet taken from $A$ and the connections between letters taken from the appropriate algebraic operations, with two words identified if they can be proved equal by the appropriate algebraic axioms.
 
@@ -54,14 +67,10 @@ Abstractly, one may *define* an [[algebraic category]] to be a category equipped
 
 ## Semantics-structure adjunction
 
-The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist contravariant functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the full subcategory of $Cat_{/C}$ consisting of functors admitting a codensity monad; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad on $C$ as a kind of structure with which the objects of $C$ can be equipped presented in a syntax-independent way, and we may think of the E-M category of a monad (viewed as a syntax-independent presentation of an equational theory) as the category of models of this theory, which is often referred to by logicians as the semantics of the theory. For more on this, see for instance section 5 of ([Schäppi 2009](#DanielSchäppi1)).
+The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist contravariant functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the [[full subcategory]] of $Cat_{/C}$ consisting of functors admitting a [[codensity monad]]; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad on $C$ as a kind of [[structure]] with which the objects of $C$ can be equipped, presented in a [[syntax]]-independent way, and we may think of the [[Eilenberg-Moore category|E-M category]] of a monad (viewed as a syntax-independent presentation of an [[equational theory]]) as the category of models of this theory, which is often referred to by logicians as the *[[semantics]]* of the theory. For more on this, see for instance section 5 of [Schäppi 2009](#DanielSchäppi1).
 
 
-## Examples
 
-1. [[Eilenberg-Moore categories]] are obviously all examples, and up to equivalence, the only examples.
-2. If the categories are pre-orders, then a monadic adjunction is a [[Galois connection]] where the right adjoint reflects ordering and dually a comonadic adjunction is a Galois connection where the left adjoint reflects ordering.
-3. More generally an [[idempotent adjunction]] is monadic if and only if the right adjoint is [[fully faithful]], i.e. essentially a [[reflective subcategory]] inclusion. Dually, a comonadic idempotent adjunction is essentially a [[coreflective subcategory]] inclusion.
 
 ## Related pages
 
