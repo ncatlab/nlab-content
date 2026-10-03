@@ -30,7 +30,7 @@ But $Cyc(X)$ is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#
 {#StapletonTerminology} If $X = Y\sslash G$ is the [[homotopy quotient]] of a [[topological space]] by a [[topological group]] action, regarded as a locally constant $\infty$-stack, then (a [[point-set topology|point set]]-model for) the [[free loop space]] $\mathcal{L}(Y \sslash G)$ has been called the *twisted loop space* in [Witten 88](#Witten88); and this terminology is essentially carried over to the cyclification of its restriction to the constant loops 
 [Stapleton (2013), p. 2](#Stapleton13) in the context of the [[transchromatic character]].
 
-A candidate lift of this construction from plain [[homotopy types]] to [[smooth homotopy types]], namely to [[orbifold]] [[stacks]], is [[Huan's inertia orbifold]]-construction.
+A lift of this construction from plain [[homotopy types]] to [[smooth homotopy types]], namely to [[orbifold]] [[stacks]], is [[Huan's inertia orbifold]]-construction, as such identified in [SS24](#SS24).
 
 
 ## Properties
@@ -39,6 +39,32 @@ A candidate lift of this construction from plain [[homotopy types]] to [[smooth 
  {#AsRightBaseChange}
 
 The cyclic loop space $\mathcal{L}X  \sslash S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)) into the [[delooping]] of $S^1$ (the [[classifying space]] of the [[circle group]] when realized in the [[classical model structure on topological spaces|homotopy theory of]] [[topological spaces]]). See also at _[[double dimensional reduction]]_ ([BMSS 19, Sec. 2.2](#BMSS19), following [FSS 18, Sec. 3](#FSS18)).
+
+### The $Ext \dashv Cyc$ adjunction
+ {#TheExtCycAdjunction}
+
+
+This shows that $Cyc(-)$ is the [[right adjoint]] of an [[adjoint (infinity,1)-functor|$\infty$-adjunction]] whose [[left adjoint]] is forming [[homotopy fibers]] $X \longrightarrow B$ of maps $B \overset{c}{\longrightarrow} B S^1$:
+
+$$
+  \big\{
+    X \longrightarrow \mathcal{A}
+  \big\}
+  \;\;
+  \simeq
+  \;\;
+  \left\{
+  \begin{array}{cccc}
+    B && \longrightarrow && Cyc \mathcal{A}
+    \\
+    & \mathllap{_{c}} \searrow && \swarrow
+    \\
+    && B S^1 
+  \end{array}
+  \right\}
+$$
+
+See the references [below](#ReferencesExtCycAdjunction).
 
 ### Ordinary cohomology of $\mathcal{L}X \sslash S^1$ as cyclic cohomology of $X$
  {#RelationToCyclicCohomology}
@@ -214,7 +240,10 @@ For the [[rational homotopy type]] of cyclic loop spaces see at _[[Sullivan mode
 
 * [[free loop space]], [[free loop stack]]
 
+
 ## References
+
+### General
 
 The notion of the cyclic loop space of a topological space appears as:
 
@@ -257,7 +286,6 @@ See also:
 * [[Urs Frauenfelder]], *Dihedral homology and the moon*, J. Fixed Point Theory Appl. **14** (2013) 55–69 ([arXiv:1204.4549](https://arxiv.org/abs/1204.4549), [doi:10.1007/s11784-013-0146-z](https://doi.org/10.1007/s11784-013-0146-z))
 
 
-
 A version of the [[cyclic loop stack]] of [[orbifolds]], or at least its restriction to constant loops, namely [[Huan's inertia orbifold]], is discussed in the context of [[equivariant elliptic cohomology]] via [[Tate K-theory]] in:
 
 * {#Huan18} [[Zhen Huan]], Def. 2.14 of: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
@@ -270,6 +298,12 @@ and recalled/expanded on in several followup articles, such as in
 
 * [[Zhen Huan]], Section 2 of *Quasi-theories* ([arXiv:1809.06651](https://arxiv.org/abs/1809.06651))
 
+as such identified by [SS24](#SS24)
+
+
+### The Ext/Cyc adjunction
+ {#ReferencesExtCycAdjunction}
+
 The above formulation of cyclic loop spaces, in the generality of [[∞-stacks]], as right [[base change]] to the [[delooping]] of the [[circle group]], and its relation to [[double dimensional reduction]] in [[brane]]-physics, is due to:
 
 * {#BMSS19} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]]; §2.2 of: _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics **371** 197 (2019) &lbrack;[doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4), [arXiv:1806.01115](https://arxiv.org/abs/1806.01115)&rbrack;
@@ -281,6 +315,10 @@ following the analogous discussion in [[rational homotopy theory]] in
 with exposition in
 
 * [[Urs Schreiber]]; [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of: *[[schreiber:Lisbon 2017|Duality in String/M-Theory from Cyclic cohomology of Super Lie n-algebras]]* (2016--2017)
+
+More general discussion in ([[cohesive (infinity,1)-topos|cohesive]]) [[(infinity,1)-topos theory|$(\infty,1)$-topos theory]]:
+
+* {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) \[<a href="https://doi.org/10.1007/s00220-023-04929-w">doi:10.1007/s00220-023-04929-w</a>, [arXiv:2212.13836](https://arxiv.org/abs/2212.13836)\]
 
 
 [[!redirects cyclic loop spaces]]
