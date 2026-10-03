@@ -1,5 +1,9 @@
 
-* [webpage](https://byungdo.github.io/)
+* [personal page](https://byungdo.github.io/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=208487)
+
+* [ResearchGatePage](https://www.researchgate.net/scientific-contributions/Byungdo-Park-2251498291)
 
 ## Selected writings
 
@@ -9,7 +13,7 @@ On [[twisted differential K-theory]]:
 
 On [[equivariant ordinary differential cohomology]]:
 
-* {#ParkRedden19} [[Byungdo Park]], [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary MathematicsVol. 21, No. 02, 1850001 (2019) ([doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013), [arXiv:1709.06003](https://arxiv.org/abs/1709.06003))
+* {#ParkRedden19} [[Byungdo Park]], [[Corbett Redden]]: _A classification of equivariant gerbe connections_, Communications in Contemporary Mathematics **21** 02 (2019) 1850001 &lbrack;[doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013), [arXiv:1709.06003](https://arxiv.org/abs/1709.06003)&rbrack;
 
 On [[ordinary differential cohomology]] with emphasis on relation to [[bundle gerbes]] [[connection on a bundle gerbe|with connection]]:
 
