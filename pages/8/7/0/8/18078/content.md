@@ -6,7 +6,7 @@
   }}
 
   % border
-  \draw[gray] (-1,-1) rectangle (1,1);
+  \draw[gray] (-1,-1) rectangle (2,2);
 
   % central lines (no arrowheads)
   \draw[line width=0.6pt] (-1,0) -- (1,0);
