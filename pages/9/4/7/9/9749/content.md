@@ -116,7 +116,7 @@ Lemma 3.1 shows that any object in $\mathbf{Alg}_{G}$ lies in both the categorie
 
  Let $\mathbf{Meas} \cap \mathbf{Cvx}$ denote the [[category]] whose objects $X$ are [[convex spaces]] and, in addition, $X$ also posseses a [[measurable space]] structure such that all the algebraic operations of taking finite affine sums of elements, $\prod_{i=1}^n X \xrightarrow{\sum_{i=1}^n p_i \pi_i} X$, where $\pi_i$ is the coordinate projection function, is a [[measurable function]].  Note these maps  are always an affine function because of the convex space structure on product spaces.   Moreover, we require that each object in $\mathbf{Meas} \cap \mathbf{Cvx}$ have enough affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$ to coseparate the points of $X$. The  objects of $\mathbf{Meas} \cap \mathbf{Cvx}$ are called __measurable convex spaces__.  The  morphisms of $\mathbf{Meas} \cap \mathbf{Cvx}$ are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a [[coseparator]] in $\mathbf{Meas} \cap \mathbf{Cvx}$. 
 
-The space $G(X)$ with the pointwise convex space structure and measurable structure is a measurable convex space because
+For $X$ any measurable space the space $G(X)$ with the pointwise convex space structure and measurable structure is a measurable convex space because
  the evaluation maps $G(X) \xrightarrow{ev_U} \mathbb{R}_{\infty}$ coseparate any  two distinct probability measures in $G(X)$ and the operation of taking affine sums is a measurable function because
 
 \begin{lemma} Let $p \in [0,1]$.  The operation of taking an affine sum
@@ -138,14 +138,14 @@ This last equation is true for all measurable sets $U$ in $X$, and since the aff
 The second statement follows from the observation that we can use induction on the number of components in a product space, and, assuming $n$ components, that we are free to choose $n-1$ parameters $p_i \in [0,1]$ freely.  Since every affine sum of $n$ elements is uniquely defined by $n-1$ parameters the result follows.
 \end{proof}
 
-Given any measurable space $X$ and any $P \in \G(X)$ the [[expected value]] of an $\mathbb{R}_{\infty}$-valued  measurable function is given by the mapping
+Given any measurable space $X$ and any $P \in \G(X)$ the [[expected value]] of an $\mathbb{R}_{\infty}$-valued  measurable function is given by the functional
 \begin{equation} 
 \begin{array}{rcc}
 hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) &\xrightarrow{\hat{\mathbb{E}}_{P}}&  \mathbb{R}_{\infty} \\
 f & \mapsto &  \int_X f \, dP
 \end{array}.
 \end{equation}
-which is a functional that is (1) weakly averaging:  $\mathbb{E}_{P}(\overline{c}) = c$ for every constant function $X \xrightarrow{\overline{c}} \mathbb{R}_{\infty}$ with value $c \in\mathbb{R}_{\infty}$, and (2) scalar covariant: $\mathbb{E}_P(\lambda \cdot f) = \lambda \cdot  \mathbb{E}_P(f)$ for all $\lambda \in \mathbb{R}_{\infty}$. 
+which is (1) weakly averaging:  $\mathbb{E}_{P}(\overline{c}) = c$ for every constant function $X \xrightarrow{\overline{c}} \mathbb{R}_{\infty}$ with value $c \in\mathbb{R}_{\infty}$, and (2) scalar covariant: $\mathbb{E}_P(\lambda \cdot f) = \lambda \cdot  \mathbb{E}_P(f)$ for all $\lambda \in \mathbb{R}_{\infty}$. 
  If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$ denote the set of all weakly averaging and scalar covariant functionals from $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$  to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between  $\G(X)$ and $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                  
 
 Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.
