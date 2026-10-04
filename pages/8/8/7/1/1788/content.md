@@ -7,34 +7,22 @@
 ***
 
 
-\begin{tikzcd}
-  xxx
-  \ar[
-    r,
-    "{
-      \prod_i [a_i, b_i]
-    }"
-  ]
-  \ar[
-    d
-  ]
-  \ar[
-    dr,
-    phantom,
-    "{ \mathcolor{gray}{\mathrm{(po)}} }"{scale=.8, pos=.8}
-  ]
-  &
-  \bigvee_{1 \leq i \leq g}
-  S^1_a \vee S^1_b
-  \ar[
-    d
-  ]
-  \\
-  D^2
-  \ar[r]
-  &
-  \Sigma^2_g
-  \mathrlap{\,.}
-\end{tikzcd}
+ordinary flux: classifying space $B \mathrm{U}(1)$
+
+rank-0 K-theory: classifying space $B \mathrm{U}(\infty)$
+
+twisted version: $B \mathrm{U}(\infty) \sslash B \mathrm{U}(1)$
+
+problems:
+
+- misses NS1 charge
+
+- violates S-duality
+
+- does not lift to 11D
+
+These problems are related. They would all be fixed if 10D flux quantization were dim-reduction of 11D flux quantization
+
+$\Rightarrow$ need to quantize not just magnetic but also electric charges
 
 
