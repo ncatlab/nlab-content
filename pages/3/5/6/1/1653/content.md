@@ -83,6 +83,10 @@ Localizable measurable spaces can also be studied via the lattice $\Sigma/\mathc
 
 In terms of [[topos theory]], measurable spaces are closely related to [[Boolean toposes]] (e.g. [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
+### Symmetric Tensor Monoidal Closed structure
+
+The [[category]] of measurable spaces is a [[symmetric monoidal closed category]] under the tensor product $\sigma$-algebra.  Given two measurable spaces, $X$ and $Y$, the tensor product $X \otimes Y$ is the cartesian product $X \times Y$ endowed with the largest $\sigma$-algebra such that all the constant graph functions $\Gamma_y: X \rightarrow X \otimes Y$ and $\Gamma_x: Y \rightarrow X \otimes Y$ are measurable.  The function space $Y^X = hom_{Meas}(X,Y)$ is endowed with the smallest $\sigma$-algebra such that all the evaluation maps $ev_x: Y^X \rightarrow Y$ sending $f \mapsto f(x)$ are measurable.  With these constructions it follows that the [[evaluation map]] $ev: Y^X \otimes X \rightarrow Y$ sending $(f,x) \mapsto f(x)$ is a measurable function.
+
 ## In alternative foundations
 
 While Lebesgue measure on $\mathbb{R}^n$ can be done in very weak [[foundations]], a general theory of measure and measurable spaces seems to require powerful [[set theory|set-theoretic]] machinery.  Indeed, not much seems to be possible in [[predicative mathematics|predicative]] contexts, and the (nonpredicative) [[constructive mathematics|constructive]] theory is noticeably more complicated than the classical theory.  On the other hand, the classical theory has its own complications, with nonmeasurable sets and functions that can be proved to exist but which seem to never arise in practice.  Instead, there are classically false but apparently consistent foundations in which measure theory is extremely simple.
