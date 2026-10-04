@@ -37,7 +37,7 @@ The applications of category theory to probability are among the most recent, an
 ### Markov categories
 
 [[Markov categories]] are a recent framework that models categories whose morphisms can be thought of as having randomness, such as [[stochastic maps]] and [[Markov kernels]]. 
-It has a graphical formalism which keeps track of the stochastic dependencies, and which can be used to prove theorems in probability purely graphically.
+It has a graphical formalism which keeps track of the stochastic dependencies, and which can be used to prove, purely graphically, those theorems in probability which can be formulated within the [[Kleisli category]] of a [[probability monad]].
 
 For more details, see [[Markov category]].
 
