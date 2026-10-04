@@ -20,7 +20,7 @@
   <td markdown="1">[[Meas]]</td>
   <td markdown="1">[[probability measures]]</td>
   <td markdown="1">initial [[σ-algebra]] of evaluation maps</td>
-  <td markdown="1">Full characterization unknown. [[Giry monad#algebras_over_the_giry_monad|See also here]].</td>
+  <td markdown="1">Measurable convex spaces. [[Giry monad#algebras_over_the_giry_monad|See here]].</td>
   <td markdown="1">[[monads of probability, measures, and valuations#Lawvere62|Lawvere '62]], [[monads of probability, measures, and valuations#Giry80|Giry '80]]</td>
  </tr>
  <tr>
@@ -28,8 +28,8 @@
   <td markdown="1">[[Polish space|Pol]]</td>
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
   <td markdown="1">[[initial topology]] of integration maps</td>
-  <td markdown="1">Full characterization unknown. [[Giry monad#algebras_over_the_giry_monad|See also here]].</td>
-  <td markdown="1">[[monads of probability, measures, and valuations#giry80|Giry '80]]</td>
+  <td markdown="1">See characterization by [[Ernst-Erich Doberkat]]..</td>
+  <td markdown="1">[[monads of probability, measures, and valuations#giry80|Giry '80]], Doberkat '07 ([pdf](https://eldorado.tu-dortmund.de/bitstream/2003/2717/1/147.pdf))</td>
  </tr>
 <tr>
   <th markdown="1">[[Probability monad on QBS]]</th>
