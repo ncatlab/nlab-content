@@ -43,7 +43,7 @@ where $n$ is a natural number, $g(z)$ is an entire function and $E_{p_i}$ are We
 For a [[polynomial function]] $f$ of degree $n$ with $m \leq n$ zeros at $z = 0$, which is always an [[entire function]], the [[countable set]] $I$ for [[roots]] $z_i$ is a [[finite set]] of cardinality $n - m$, the entire function $g(z)$ is equal to a constant $c$, and the Weierstrass primary functions used in the product is $E_{0}(z)$. Thus, Weierstrass factorization can be expressed as 
 
 $$
-  f(z) = z^m e^c \prod_{i = 1}^{n - m} E_{0}\left(\frac{z}{z_i}\right) = c^\prime z^n \prod_{i = 1}^{n - m} (z - z_i) \quad \mathrm{where} \quad c^\prime = e^c \prod_{i = 1}^{n - m} \frac{(-1)^{i}}{z_i}
+  f(z) = z^m e^c \prod_{i = 1}^{n - m} E_{0}\left(\frac{z}{z_i}\right) = c^\prime z^m \prod_{i = 1}^{n - m} (z - z_i) \quad \mathrm{where} \quad c^\prime = e^c \prod_{i = 1}^{n - m} \frac{(-1)^{i}}{z_i}
   \mathrlap{\,.}
 $$
 
