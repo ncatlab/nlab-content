@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -40,5 +40,8 @@ See also:
 
 * Wikipedia, *[Brillouin zone](https://en.wikipedia.org/wiki/Brillouin_zone)*
 
-[[!redirects Brillouin zone]]
+[[!redirects Brillouin zones]]
+
+[[!redirects Brillouin-zone]]
+[[!redirects Brillouin-zones]]
 
