@@ -49,6 +49,10 @@ Formalization in [[type theory]]:
 
 * {#Booij20} [[Auke B. Booij]]: *Analysis in univalent type theory*, PhD thesis, Birmingham (2020) &lbrack;[pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
+
+[[!redirects sequential completion]]
+[[!redirects sequential Cauchy completion]]
+
 [[!redirects sequentially complete]]
 
 [[!redirects sequentially complete space]]
