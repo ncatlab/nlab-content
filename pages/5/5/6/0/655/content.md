@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ##Idea#
 
@@ -163,4 +161,10 @@ Proceedings of the Luminy conference on algebraic $K$-theory (Luminy, 1983). J. 
 * [[Joao Faria Martins]], _The fundamental 2-crossed complex of a reduced CW-complex_,  Homology Homotopy Appl. 13(2): 129-157 (2011) (web [pdf](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-2/The-fundamental-2-crossed-complex-of-a-reduced-CW-complex/hha/1335806746.full).)
 
 * [[Graham Ellis]], _Crossed squares and combinatorial homotopy_, Math. Z.  214  (1993),  no. 1, 93--110.
+
+See also:
+
+* Masaki Fukuda, Tommy Shu: *An Equivalence of Categories between 3-Crossed Modules and Gray 4-Groups* &lbrack;[arXiv:2609.24034](https://arxiv.org/abs/2609.24034)&rbrack;
+
+
 
