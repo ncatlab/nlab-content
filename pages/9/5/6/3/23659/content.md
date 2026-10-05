@@ -105,7 +105,9 @@ All this could be generalised to [[nets]], since every $T$-premetric space is al
 
 * [[premetric space]]
 
-* [[Richman premetric space]]
+* [[premetric space (Gilbert)]]
+
+* [[premetric space (Richman)]]
 
 * [[Cauchy structure]]
 
