@@ -774,6 +774,8 @@ Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]]. Then the follow
 
 =--
 
+See ([Borceux, Vol. 1, Theorem 3.1.5](#Borceux94)) or ([Riehl, Theorem 4.2.7](#Riehl)).
+
 
 +-- {: .proof}
 ###### Proof
@@ -1647,6 +1649,8 @@ For the basics, see any text on [[category theory]] (and see the references at _
 * {#Johnstone} [[Peter Johnstone]], first pages of _[[Sketches of an Elephant]]_ (2022)
  
 * _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+
+* {#Riehl} [[Emily Riehl]], Chapter 4 of _[[Category Theory in Context]]_, upcoming 2nd ed. Proposition 4.3.8. [preliminary pdf](https://emilyriehl.github.io/files/context.pdf)
 
 Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
 
