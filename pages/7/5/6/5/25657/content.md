@@ -55,6 +55,8 @@ $$\mathrm{dua}_{I, A, B}:(I \to A) \simeq \sum_{x:A} \sum_{y:A} B(x) \to B(y)$$
 
 * [[directed homotopy type theory]]
 
+* [[structure homomorphism principle]]
+
 ## References
 
 * [[Hoang Kim Nguyen]], *Directed univalence in simplicial sets*, talk in *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (March 2023) &lbrack;[video](https://www.youtube.com/watch?v=GgcJqzGvq80), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Nguyen-2023-03-09-HoTTEST.pdf)&rbrack;
