@@ -287,6 +287,10 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
 
+For [[homomorphisms]] of [[structures]] and the [[structure homomorphism principle]] in simplicial homotopy type theory
+
+* Rahul Chhabra, Carlo Angiuli, Daniel Gratzer: *Homomorphisms of structures in simplicial type theory*, talk at TYPES 2026, 4 May 2026 &lbrack;[abstract](https://types2026.cse.chalmers.se/abstracts/30.pdf), [slides](https://types2026.cse.chalmers.se/slides/30.pdf)&rbrack;
+
 For [[higher algebra]] in simplicial homotopy type theory:
 
 * Rob Schellingerhout: *Higher Algebra in Simplicial Homotopy Type Theory*, talk at TYPES 2026, 4 May 2026 &lbrack;[abstract](https://types2026.cse.chalmers.se/abstracts/52.pdf), [slides](https://types2026.cse.chalmers.se/slides/52.pdf)&rbrack;
