@@ -137,6 +137,11 @@ In [[rational homotopy theory]]:
 
 * Yang Bai, Xiugui Liu, Jiaxi Zha: *On The Rational Realization of Even-dimensional Spheres and Products of Eilenberg--MacLane Spaces as Classifying Spaces* &lbrack;[arXiv:2609.04285](https://arxiv.org/abs/2609.04285)&rbrack;
 
+For [[homotopy types]] of [[manifolds]]:
+
+* Mehmetcik Pamuk: *Homotopy Self-Equivalences of Manifolds* &lbrack;[arXiv:2610.02244](https://arxiv.org/abs/2610.02244)&rbrack;
+
+
 
 
 
