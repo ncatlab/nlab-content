@@ -37,7 +37,7 @@ The same definition immediately applies to an extended quasipseudometric space (
 In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \lt \epsilon .$$
 
-In a [[premetric space (Booij)|premetric space as defined by Auke Booij]] or a [[premetric space (Gilbert)|premetric space as defined by Gaëtan Gilbert]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all positive numbers $\epsilon$.  Explicitly:
+In a [[premetric space]] [[premetric space (Booij)|as defined by Auke Booij]] or [[premetric space (Gilbert)|as defined by Gaëtan Gilbert]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all positive numbers $\epsilon$.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
 
 In a [[uniform space]] or [[preuniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
@@ -64,7 +64,7 @@ In a [[metric space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(
 
 In a [[gauge space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$ and every gauge $d:S \times S \to \mathbb{R}_{\geq 0}$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $d(a, b) \lt \epsilon$. 
 
-In a [[premetric space (Booij)|premetric space as defined by Auke Booij]] or a [[premetric space (Gilbert)|premetric space as defined by Gaëtan Gilbert]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \sim_\epsilon b$. 
+In a [[premetric space]] $S$ [[premetric space (Booij)|as defined by Auke Booij]] or [[premetric space (Gilbert)|as defined by Gaëtan Gilbert]], a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \sim_\epsilon b$. 
 
 In a [[uniform space]] or [[preuniform space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every [[entourage]] $U$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \approx_U b$. 
 
@@ -91,7 +91,7 @@ $$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \eps
 In a [[gauge space]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \epsilon .$$
 
-In a [[premetric space (Booij)|premetric space as defined by Auke Booij]] or a [[premetric space (Gilbert)|premetric space as defined by Gaetan Gilbert]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ under the same condition, now relative to the premetric on that space. Explicitly:
+In a [[premetric space]] [[premetric space (Booij)|as defined by Auke Booij]] or [[premetric space (Gilbert)|as defined by Gaëtan Gilbert]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ under the same condition, now relative to the premetric on that space. Explicitly:
 $$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; x_i \sim_\epsilon x_j .$$
 
 In a [[uniform space]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$. Explicitly:
