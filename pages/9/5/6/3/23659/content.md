@@ -1,5 +1,5 @@
 
-> This article is about premetric spaces as defined by [Booij 2020](#Booij20). For other notions of premetric spaces, see [[premetric space]].
+> This article is about premetric spaces as defined by [Booij 2020](#Booij20). For other notions of premetric spaces, see *[[premetric space]]*.
 
 ***
 
