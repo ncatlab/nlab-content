@@ -1,5 +1,5 @@
 
-> This entry is about the family of binary relations indexed by the positive rational numbers defined by Auke Booij in [Analysis in univalent type theory](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf). For the family of binary relations indexed by the non-negative rational numbers defined by Fred Richman in [Real numbers and other completions](http://math.fau.edu/richman/docs/RealNums.pdf), see [[Richman premetric space]]. 
+> This article is about premetric spaces as defined by Auke Booij. For other notions of premetric spaces, see [[premetric space]].
 
 ***
 
@@ -13,15 +13,11 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Idea ##
+## Idea
 
 A more general concept of [[metric space]]. 
-
-Disambiguation note: This article is titled *Booij premetric space* solely for disambiguation purposes as *[[premetric space]]* is already used for various other generalizations of a [[metric space]], and this version is the one defined by [[Auke Booij]] in [Booij 2020](#Booij20). In the existing literature, these objects are simply called *premetric spaces*. 
 
 ## Definition 
 
@@ -118,6 +114,11 @@ All this could be generalised to [[nets]], since every $T$-premetric space is al
 ## References 
 
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
+
+[[!redirects premetric (Booij)]]
+[[!redirects premetrics (Booij)]]
+[[!redirects premetric space (Booij)]]
+[[!redirects premetric spaces (Booij)]]
 
 [[!redirects Booij premetric]]
 [[!redirects Booij premetrics]]
