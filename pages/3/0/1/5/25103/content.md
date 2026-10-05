@@ -80,7 +80,7 @@ then the above extensionality principles (eq:ExtensionalityPrinciples) imply tha
 
 * The idea of building the structure identity principle right into the [[inference rules]] for identifications in a [[type theory]] leads to the notion of ([[higher observational type theory|higher]]) [[observational type theory]].
 
-
+* [[structure homomorphism principle]]
 
 ## References
   
