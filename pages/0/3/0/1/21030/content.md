@@ -167,6 +167,9 @@ _From Black Hole to Qubits: Evidence of Fast Scrambling in BMN theory_, JHEP 7, 
 
 * Yuhma Asano, Samuel Kováčic, Denjoe O'Connor, _The Confining Transition in the Bosonic BMN Matrix Model_ ([arXiv:2001.03749](https://arxiv.org/abs/2001.03749))
 
+* [[Jorge E. Santos]]: *Blackened BPS: the end of the thermal BMN branch* &lbrack;[arXiv:2610.02305](https://arxiv.org/abs/2610.02305)&rbrack;
+
+
 
 
 Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix model:
