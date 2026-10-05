@@ -180,5 +180,8 @@ See also :
 
 and the references at *[[brave new algebra]]*.
 
+For higher algebra in [[simplicial homotopy type theory]]:
+
+* Rob Schellingerhout: *Higher Algebra in Simplicial Homotopy Type Theory*, talk at TYPES 2026, 4 May 2026 &lbrack;[abstract](https://types2026.cse.chalmers.se/abstracts/52.pdf), [slides](https://types2026.cse.chalmers.se/slides/52.pdf)&rbrack;
 
 
