@@ -40,6 +40,17 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 \linebreak
 
 
+## M-Theory and Mathematics 2027
+ {#2027}
+
+
+\linebreak
+
+* Jan 2027 --- details to appear here
+
+\linebreak
+
+
 ## M-Theory and Mathematics 2024
  {#2024}
 
