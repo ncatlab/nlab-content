@@ -1,7 +1,8 @@
 There are multiple notions of **premetrics** and **premetric spaces** in the mathematical literature:
 
-* [[Booij premetric space]]
-* [[Richman premetric space]]
+* [[premetric space (Booij)]]
+* [[premetric space (Gilbert)]]
+* [[premetric space (Richman)]]
 * [[premetric locale]]
 
 ## References
