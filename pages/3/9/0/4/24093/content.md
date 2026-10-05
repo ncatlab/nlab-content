@@ -17,3 +17,13 @@ There are multiple notions of **premetrics** and **premetric spaces** in the mat
 [[!redirects premetrics]]
 [[!redirects premetric space]]
 [[!redirects premetric spaces]]
+
+[[!redirects rational premetric]]
+[[!redirects rational premetrics]]
+[[!redirects rational premetric space]]
+[[!redirects rational premetric spaces]]
+
+[[!redirects real premetric]]
+[[!redirects real premetrics]]
+[[!redirects real premetric space]]
+[[!redirects real premetric spaces]]
