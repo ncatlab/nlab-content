@@ -14,7 +14,7 @@
 
 ## Idea
 
-The classical *Bergmann-Segal transform* is a [[unitary transformation]] from the [[Hilbert space]] of [[Lebesgue integral|Lebesgue]] [[square integrable functions]] $L^{2}(\mathbb{R}^n)$ to the [[Bargmann-Fock space]] of [[analytic functions]] with certain growth condition. 
+The classical *Bargmann-Segal transform* is a [[unitary transformation]] from the [[Hilbert space]] of [[Lebesgue integral|Lebesgue]] [[square integrable functions]] $L^{2}(\mathbb{R}^n)$ to the [[Bargmann-Fock space]] of [[analytic functions]] with certain growth condition. 
 
 Vectors in the Hilbert space may be represented in the [[coherent state]] representation: $|f\rangle = \int |z\rangle\langle z|f\rangle d\mu$; if $f$ is in $L^2(\mathbb{R}^n)$ then $\langle z|f\rangle$ is a [[holomorphic function]] and this passage is called the Bargmann-Segal transform.
 This way a Hilbert space of holomorphic function appears, the [[Bargmann-Fock space]].
