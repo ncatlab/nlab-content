@@ -51,7 +51,11 @@ Lipschitz functions are particularly notable because any Lipschitz function $f:S
 
 ## Generalizations
 
-The notion of a premetric space can be generalized from the positive rationals to the [[positive cone]] $R_+$ of any [[dense relation|densely ordered]] [[Archimedean ordered integral domain]] $R$. Examples of such $R$ include the [[dyadic rational numbers]] and the [[decimal numbers]], as well as any other extension $\mathbb{Z}[1/b]$ of the integers, for positive integer $b \geq 2$. A **generalized premetric space** is a [[set]] $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in R_+$, satisfying the five conditions:
+The usual notion of a [[metric space]] uses the [[real numbers]] rather than the [[rational numbers]] in the metric inequalities. This means that to generalize from metric spaces, one can use the positive [[real numbers]] instead of the positive [[rational numbers]] as the indexing set of the ternary relation (i.e. $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in \mathbb{R}_+$), yielding a notion of a *real premetric space*. The original notion of a premetric space by Gilbert can then be called a *rational premetric space*.
+
+More generally, the notion of a premetric space can be generalized from the positive rationals to the [[positive cone]] $R_+$ of any [[dense relation|densely ordered]] [[Archimedean ordered integral domain]] $R$. Examples of such $R$ include the [[real numbers]], the [[dyadic rational numbers]] and the [[decimal numbers]], as well as any other extension $\mathbb{Z}[1/b]$ of the integers, for positive integer $b \geq 2$. The mutliplicative structure of the integral domain is still needed to define Lipschitz functions between these generalized premetric spaces. 
+
+Thus, a **generalized premetric space** is a [[set]] $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in R_+$, satisfying the five conditions:
 
 * reflexivity: for all elements $a \in S$ and positive elements $\epsilon \in R_+$, $a \sim_\epsilon a$
 
