@@ -1,5 +1,5 @@
 
-> This article is about premetric spaces as defined by Fred Richman. For other notions of premetric spaces, see [[premetric space]].
+> This article is about premetric spaces as defined by [Richman 2008](#Richman2008). For other notions of premetric spaces, see *[[premetric space]]*.
 
 ***
 
@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea ##
 
@@ -47,7 +45,7 @@ Assuming [[excluded middle]], every premetric space is a [[metric space]]. Witho
 
 ## References ##
 
-* [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
+* {#Richman2008} [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98--108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
 
 [[!redirects premetric (Richman)]]
 [[!redirects premetrics (Richman)]]
