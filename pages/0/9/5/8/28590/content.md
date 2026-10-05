@@ -1,5 +1,5 @@
 
-> This article is about premetric spaces as defined by Gaëtan Gilbert. For other notions of premetric spaces, see [[premetric space]].
+> This article is about premetric spaces as defined by [Gilbert 2017](#Gilbert17). For other notions of premetric spaces, see *[[premetric space]]*.
 
 ***
 
@@ -79,7 +79,7 @@ The notion of a premetric space can be generalized from the positive rationals t
 
 ## References
 
-* {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
+* {#Gilbert17} [[Gaëtan Gilbert]]: *Formalising real numbers in homotopy type theory*, In: CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs (2017) 112--124 &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
 
 * Lorenzo Molena: *A Cubical Path from Algebra to Analysis*, talk at TYPES 2026, 8 May 2026 &lbrack;[abstract](https://types2026.cse.chalmers.se/abstracts/51.pdf), [slides](https://types2026.cse.chalmers.se/slides/51.pdf)&rbrack;
 
