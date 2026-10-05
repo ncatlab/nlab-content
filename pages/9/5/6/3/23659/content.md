@@ -127,16 +127,6 @@ All this could be generalised to [[nets]], since every $T$-premetric space is al
 [[!redirects Booij premetric space]]
 [[!redirects Booij premetric spaces]]
 
-[[!redirects rational premetric]]
-[[!redirects rational premetrics]]
-[[!redirects rational premetric space]]
-[[!redirects rational premetric spaces]]
-
-[[!redirects real premetric]]
-[[!redirects real premetrics]]
-[[!redirects real premetric space]]
-[[!redirects real premetric spaces]]
-
 [[!redirects preentourage]]
 [[!redirects preentourages]]
 [[!redirects pre-entourage]]
