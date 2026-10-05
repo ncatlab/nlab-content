@@ -1,5 +1,5 @@
 
-> This entry is about the family of binary relations indexed by the non-negative rational numbers defined by Fred Richman in [Real numbers and other completions](http://math.fau.edu/richman/docs/RealNums.pdf). For the family of binary relations indexed by the positive rational numbers defined by Auke Booij in [Analysis in univalent type theory](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), see [[Booij premetric space]]. 
+> This article is about premetric spaces as defined by Fred Richman. For other notions of premetric spaces, see [[premetric space]].
 
 ***
 
@@ -19,11 +19,11 @@
 
 ## Idea ##
 
-A more general concept of [[metric space]] by Fred Richman. While Fred Richman simply called these structures "[[premetric spaces]]", there are multiple notions of premetric spaces in the mathematical literature, so we shall refer to these as Richman premetric spaces. 
+A more general concept of [[metric space]] by Fred Richman. While Fred Richman simply called these structures "[[premetric spaces]]", there are multiple notions of premetric spaces in the mathematical literature. 
 
 ## Definition ##
 
-A __Richman premetric space__ is a [[set]] $S$ with a ternary [[relation]] $(-)\sim_{(-)}(-)\colon S \times \mathbb{Q}_{\geq 0} \times S \to \Omega$, where $\mathbb{Q}_{\geq 0}$ represent the non-negative [[rational numbers]] in $\mathbb{Q}$ and $\Omega$ is the set of [[truth values]], such that 
+A __premetric space__ is a [[set]] $S$ with a ternary [[relation]] $(-)\sim_{(-)}(-)\colon S \times \mathbb{Q}_{\geq 0} \times S \to \Omega$, where $\mathbb{Q}_{\geq 0}$ represent the non-negative [[rational numbers]] in $\mathbb{Q}$ and $\Omega$ is the set of [[truth values]], such that 
 
 * for all $x \in S$ and $y \in S$, $(x = y) \iff (x \sim_0 y)$
 
@@ -35,19 +35,24 @@ A __Richman premetric space__ is a [[set]] $S$ with a ternary [[relation]] $(-)\
 
 ## Properties ##
 
-Assuming [[excluded middle]], every Richman premetric space is a [[metric space]]. Without excluded middle, however, every Richman premetric space is a "metric space" which is valued in the lower Dedekind real numbers, rather than the two-sided Dedekind real numbers. 
+Assuming [[excluded middle]], every premetric space is a [[metric space]]. Without excluded middle, however, every premetric space is a "metric space" which is valued in the lower Dedekind real numbers, rather than the two-sided Dedekind real numbers. 
 
 ## See also ##
 
 * [[premetric space]]
 
-* [[Booij premetric space]]
+* [[premetric space (Booij)]]
 
 * [[metric space]]
 
 ## References ##
 
 * [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
+
+[[!redirects premetric (Richman)]]
+[[!redirects premetrics (Richman)]]
+[[!redirects premetric space (Richman)]]
+[[!redirects premetric spaces (Richman)]]
 
 [[!redirects Richman premetric]]
 [[!redirects Richman premetrics]]
