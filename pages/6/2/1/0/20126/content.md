@@ -35,6 +35,11 @@ On the [[BFSS matrix model]]:
 
 * Oscar J.C. Dias, [[Jorge E. Santos]]: *Localized states of BFSS super quantum mechanics* &lbrack;[arXiv:2510.07379](https://arxiv.org/abs/2510.07379)&rbrack;
 
+On the [[BMN matrix model]]:
+
+* [[Jorge E. Santos]]: *Blackened BPS: the end of the thermal BMN branch* &lbrack;[arXiv:2610.02305](https://arxiv.org/abs/2610.02305)&rbrack;
+
+
 
 ## Related entries
 
