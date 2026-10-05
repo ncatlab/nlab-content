@@ -219,7 +219,7 @@ $$
   \{V_n \subset X\}_{n \in \mathbb{N}}
 $$
 
-such that each element $V_n$ is a [[union]] of [[open subsets]] of $X$ each of which is contained in at least one of the elements $U_i$ of the original cover.
+such that each element $V_n$ is a [[disjoint]] [[union]] of [[open subsets]] of $X$ each of which is contained in at least one of the elements $U_i$ of the original cover.
 
 =--
 
