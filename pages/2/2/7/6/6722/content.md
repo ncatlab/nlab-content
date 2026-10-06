@@ -69,6 +69,10 @@ On the [[theta angle]] in [[QCD]]:
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
 
+On [[anyons]] and [[abelian Chern-Simons theory]]:
+
+* [[Meng Cheng]], [[Nathan Seiberg]]: *Peeling off Abelian Anyons and Proliferation Transitions* \[<a href="https://arxiv.org/abs/2610.04704">arXiv:2610.04704</a>\]
+
 
 ## Related entries
 
