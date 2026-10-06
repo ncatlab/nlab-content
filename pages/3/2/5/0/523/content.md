@@ -41,6 +41,10 @@ On [[six functor formalism]] and [[Efimov K-theory]]:
 
 * {#KrauseNikolaus24} [[Achim Krause]], [[Thomas Nikolaus]], *Sheaves on manifolds* (2024) &lbrack;[pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf), [[KrauseNikolaus-SheavesOnManifolds.pdf:file]]&rbrack;
 
+On [[noncommutative geometry]]/[[noncommutative algebraic geometry]]:
+
+* Devarshi Mukherjee, [[Thomas Nikolaus]]: *Dualisable categories in noncommutative geometry* &lbrack;[arXiv:2609.28433](https://arxiv.org/abs/2609.28433)&rbrack;
+
 
 
 category: people
