@@ -171,6 +171,12 @@ See also:
 
 * [[Fiona Torzewska]], *Topological Quantum Field Theories and Homotopy Cobordisms*, [talk at](CQTS##TorzewskaDec2023) [[CQTS]] (Dec 2023) &lbrack;slides:[[Torzewska-TQFTandHomCob.pdf:file]], video:[YT](https://youtu.be/7rtJ61EPL-M)&rbrack;
 
+* [[David Reutter]], [[Christopher Schommer-Pries]]: *Semisimple Field Theories Detect Stable Diffeomorphism*, Advances in Mathematics **482** (2025) 110598 &lbrack;[arXiv:2206.10031](https://arxiv.org/abs/2206.10031), [doi:10.1016/j.aim.2025.110598](https://doi.org/10.1016/j.aim.2025.110598)&rbrack;
+
+
+* Katherine Novey: *Failure of Ordinary TQFTs to Distinguish Homotopy Type* &lbrack;[arXiv:2610.05480](https://arxiv.org/abs/2610.05480)&rbrack;
+
+
 
 ### Local ($n$-functorial) TQFT
 
