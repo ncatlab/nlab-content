@@ -142,5 +142,8 @@ Further developments:
 
 * Paul Leask: *Anyon interactions in the Chern--Simons--Landau--Ginzburg model of the fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2510.04830">arXiv:2510.04830</a>\]
 
+* [[Meng Cheng]], [[Nathan Seiberg]]: *Peeling off Abelian Anyons and Proliferation Transitions* \[<a href="https://arxiv.org/abs/2610.04704">arXiv:2610.04704</a>\]
+
+
 
 
