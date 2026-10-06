@@ -12,6 +12,10 @@ On [[dualizable object|dualizable]] [[tensor categories]]/[[fusion categories]]:
 
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], *Dualizable tensor categories*, Memoirs of the AMS **268** 1308 (2021) &lbrack;[arXiv:1312.7188](http://arxiv.org/abs/1312.7188), [ams:memo-268-1308](https://bookstore.ams.org/memo-268-1308)&rbrack;
 
+On [[diffeomorphism]] classes detected by [[topological quantum field theories]]:
+
+* [[David Reutter]], [[Christopher Schommer-Pries]]: *Semisimple Field Theories Detect Stable Diffeomorphism*, Advances in Mathematics **482** (2025) 110598 &lbrack;[arXiv:2206.10031](https://arxiv.org/abs/2206.10031), [doi:10.1016/j.aim.2025.110598](https://doi.org/10.1016/j.aim.2025.110598)&rbrack;
+
 
 
 ## Related  entries
