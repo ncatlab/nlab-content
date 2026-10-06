@@ -21,7 +21,7 @@
 
 ## Idea
 
-The directed analogue of the [[structure identity principle]]. The structure homomorphism principle (SHP) states that synthetic [[morphisms]] (e.g. [[hom-types]] in [[type theory]]) between [[structures]] are equivalent to ordinary [[homomorphisms]]. 
+The [[directed type theory|directed]] analogue of the [[structure identity principle]]. The structure homomorphism principle (SHP) states that synthetic [[morphisms]] (e.g. [[hom-types]] in [[type theory]]) between [[structures]] are equivalent to ordinary [[homomorphisms]]. 
 
 ## Related concepts
 
