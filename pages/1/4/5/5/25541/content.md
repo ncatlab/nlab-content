@@ -15,9 +15,11 @@ On [[orbifolds]] by [[2-groups]] in view of [[sigma-models]] inspired from [[str
 
 * [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
 
-On higher/[[generalized symmetry]] via [[automorphism infinity-group|higher automorphism groups]]:
+On higher/[[generalized global symmetry]]:
 
 * [[Alonso Perez-Lona]]: *Higher-form symmetries as higher automorphism bundles* &lbrack;[arXiv:2509.15301](https://arxiv.org/abs/2509.15301)&rbrack;
+
+* [[Alonso Perez-Lona]]: *Magnetic Higher-Form Symmetries as Dual Fundamental $\infty$-Groupoids* &lbrack;[arXiv:2610.03865](https://arxiv.org/abs/2610.03865)&rbrack;
 
 
 
