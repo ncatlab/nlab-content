@@ -210,7 +210,9 @@ x e x^\ast x e & = & x e e x^\ast x e & \\
 }$$ 
 
 as was to be shown. 
-=-- 
+=--
+
+Note that the subtle difference is there can be multiple $s^\ast \in S$ such that $ss^\ast s = s$ **or** $s^\ast ss^\ast = s^\ast$ in an inverse semigroup $S$.
 
 ### [Wagner-Preston Theorem](https://en.wikipedia.org/wiki/Inverse_semigroup#Homomorphisms_and_representations_of_inverse_semigroups): "Cayley's Theorem" for inverse semigroups
 
