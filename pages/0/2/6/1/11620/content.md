@@ -46,6 +46,11 @@ On [[D=5 supergravity]] formulated in $\mathcal{N} = 1/2$ [[superspace]]:
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Daniel Butter]], [[William Linch III]], Stephen Randall: *Five-dimensional Supergravity in $N = 1/2$ Superspace*, J. High Energ. Phys. **2020** 98 (2020) &lbrack;[arXiv:1909.09208](https://arxiv.org/abs/1909.09208), <a href="https://doi.org/10.1007/JHEP03(2020)098">doi:10.1007/JHEP03(2020)098</a>&rbrack;
 
+On [[gauged supergravity|gauged]] [[6D supergravity]]:
+
+* [[Katrin Becker]], [[Ergin Sezgin]], Qi You: *Anomaly-free six-dimensional $Sp(1)_R$-gauged supergravities* &lbrack;[arXiv:2610.04131](https://arxiv.org/abs/2610.04131)&rbrack;
+
+
 
 ## Related entries
 
