@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -140,10 +140,11 @@ of-noncommutative-geometry)
 
 * {#Reyes12} Reyes, _Sheaves that fail to represent matrix rings_ ([arXiv:1211.4005](http://arxiv.org/abs/1211.4005))
 
+* Devarshi Mukherjee, [[Thomas Nikolaus]]: *Dualisable categories in noncommutative geometry* &lbrack;[arXiv:2609.28433](https://arxiv.org/abs/2609.28433)&rbrack;
+
 
 Discussion of noncommutative [[formal geometry]] 
-of infinitesimal neighborhood of commutative schemes within noncommutative
-ambient schemes is in 
+of infinitesimal neighborhood of commutative schemes within noncommutative ambient schemes: 
 
 * {#Kapranov98} [[Mikhail Kapranov]], _Noncommutative geometry based on commutator expansions_ ([arXiv:9802041](http://arxiv.org/abs/math/9802041))
 
