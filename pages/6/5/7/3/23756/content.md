@@ -141,3 +141,6 @@ In the context of [[fractional Chern insulators]] exhibiting a [[fractional quan
 [[!redirects Wannier function]]
 [[!redirects Wannier functions]]
 
+[[!redirects Wannier state]]
+[[!redirects Wannier states]]
+
