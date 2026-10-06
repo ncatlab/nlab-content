@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -126,6 +124,11 @@ See also:
 With a view towards [[motives in physics]]:
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+See also:
+
+* Devarshi Mukherjee, [[Thomas Nikolaus]]: *Dualisable categories in noncommutative geometry* &lbrack;[arXiv:2609.28433](https://arxiv.org/abs/2609.28433)&rbrack;
+
 
 
 
