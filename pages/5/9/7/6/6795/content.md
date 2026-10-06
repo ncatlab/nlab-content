@@ -145,6 +145,9 @@ On [[D=6 supergravity|6D]] [[gauged supergravity]]:
 
 * Xu Guo, Yi Pang, [[Henning Samtleben]], [[Ergin Sezgin]]: *Diagonally gauged anomaly-free 6D supergravities and their vacua* &lbrack;[arXiv:2607.21311](https://arxiv.org/abs/2607.21311)&rbrack;
 
+* [[Katrin Becker]], [[Ergin Sezgin]], Qi You: *Anomaly-free six-dimensional $Sp(1)_R$-gauged supergravities* &lbrack;[arXiv:2610.04131](https://arxiv.org/abs/2610.04131)&rbrack;
+
+
 
 
 ## Related entries
