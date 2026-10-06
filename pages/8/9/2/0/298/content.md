@@ -187,6 +187,9 @@ See also:
 
 * [[Bong H. Lian]], [[Andrew R. Linshaw]]: *Vertex algebras and commutative algebras* &lbrack;[arXiv:2107.03243](https://arxiv.org/abs/2107.03243)&rbrack;
 
+* Taizan Watari: *Supplementary Notes on VOA and 2D SCFT* &lbrack;[arXiv:2610.03725](https://arxiv.org/abs/2610.03725)&rbrack;
+
+
 
 
 Relation to [[sporadic groups]]:
