@@ -196,6 +196,9 @@ Via [[classifying spaces]]:
 
 * [[Luigi Alfonsi]], [[Hyungrok Kim]], William G. A. Luciani: *Generalised Symmetries and Swampland-Type Constraints from Charge Quantisation via Rational Homotopy Theory* &lbrack;[arXiv:2604.22656](https://arxiv.org/abs/2604.22656)&rbrack;
 
+* [[Alonso Perez-Lona]]: *Magnetic Higher-Form Symmetries as Dual Fundamental $\infty$-Groupoids* &lbrack;[arXiv:2610.03865](https://arxiv.org/abs/2610.03865)&rbrack;
+
+
 
 
 [[!redirects generalized global symmetries]]
