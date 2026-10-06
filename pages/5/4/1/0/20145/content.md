@@ -42,6 +42,10 @@ More on [[fusion 2-categories]]:
 
 * [[Theo Johnson-Freyd]], [[David Reutter]] et al. ([[Cameron Krulewski]], [[Nivedita]], [[Michail Tagaris]], ...): *Higher tensor categories and their extensions*, notes from the *[Scottish Talbot On Algebra and Topology 2024](https://sites.google.com/view/stoat-workshop/stoat24)* &lbrack;[arXiv:2509.10636](https://arxiv.org/abs/2509.10636)&rbrack;
 
+On [[diffeomorphism]] classes detected by [[topological quantum field theories]]:
+
+* [[David Reutter]], [[Christopher Schommer-Pries]]: *Semisimple Field Theories Detect Stable Diffeomorphism*, Advances in Mathematics **482** (2025) 110598 &lbrack;[arXiv:2206.10031](https://arxiv.org/abs/2206.10031), [doi:10.1016/j.aim.2025.110598](https://doi.org/10.1016/j.aim.2025.110598)&rbrack;
+
 
 ## Related entries
 
