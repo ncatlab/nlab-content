@@ -15,7 +15,7 @@ On [[orbifolds]] by [[2-groups]] in view of [[sigma-models]] inspired from [[str
 
 * [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
 
-On higher/[[generalized global symmetry]]:
+On higher/[[generalized global symmetry]] via ([[cohesive homotopy theory|cohesive]]) [[homotopy theory]]:
 
 * [[Alonso Perez-Lona]]: *Higher-form symmetries as higher automorphism bundles* &lbrack;[arXiv:2509.15301](https://arxiv.org/abs/2509.15301)&rbrack;
 
