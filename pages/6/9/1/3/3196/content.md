@@ -127,5 +127,5 @@ Specifically for Morse function the [[kinetic energy|kinetic]] [[Dirichlet energ
 
 * [[Alexandru Oancea]]: *Morse theory, closed geodesics, and the homology of free loop spaces*, in: *Free Loop Spaces in Geometry and Topology* IRMA Lect. Math. Theor. Phys. **24**,  EMS (2015) &lbrack;[arXiv:1406.3107 math.DG](https://arxiv.org/abs/1406.3107), [doi:10.4171/153/2](https://www.google.com/search?q=https://doi.org/10.4171/153/2)&rbrack;
 
-* $n$Lab materials: *Morse--Bott Theory of Free Loop Spaces* (5 Oct 2026) &lbrack;[pdf](https://www.dropbox.com/scl/fi/xy3ma7z3mzg1ejyyvfr4a/Morse-Bott-free-loops_26-10-05.pdf?rlkey=1prp2zcr8lcplfdr50oj6sx9e&dl=0), [zip](https://www.dropbox.com/scl/fi/8zpcvnlgdi7j7fxvy19sb/Morse-Bott-free-loops_26-10-05.zip?rlkey=eglpxllq1otgn54ykpk6njbi9&dl=0)&rbrack; 
+* $n$Lab materials: *Morse--Bott Theory of Free Loop Spaces* (6 Oct 2026) &lbrack;[pdf](https://www.dropbox.com/scl/fi/75kcarg7joajm4byc1k14/Morse-Bott-free-loop-spaces_26-10-06.pdf?rlkey=lh6ol3nqomvmr8u2kbzvf39fj&st=ek0dsgrs&dl=0), [zip](https://www.dropbox.com/scl/fi/petxil5or653x3e6ev1ad/Morse-Bott-free-loop-spaces_26-10-06.zip?rlkey=2xelnhgbbfs0km0rohzjqkv2w&st=ef8g3fcu&dl=0)&rbrack; 
 
