@@ -64,6 +64,9 @@ See also:
 
 * Matthew Cellot: *Graded-fusion 2-categories and quantum homotopy invariants of 4-manifolds* &lbrack;[arXiv:2608.20959](https://arxiv.org/abs/2608.20959)&rbrack;
 
+* Ryohei Kobayashi, Abhinav Prem, Matthew Yu: *Realizing Braided Fusion 2-Categories as $(3+1)D$ Mixed-State Topological Orders* &lbrack;[arXiv:2610.03864](https://arxiv.org/abs/2610.03864)&rbrack;
+
+
 
 
 
