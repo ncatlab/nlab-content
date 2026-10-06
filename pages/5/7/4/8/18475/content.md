@@ -365,6 +365,10 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 * Veronika Carolin Stangier, Jörg Schmalian: *Why Cooper pairs live in $AdS_2$: a spectral analysis of the Yukawa-SYK model* &lbrack;[arXiv:2608.26251](https://arxiv.org/abs/2608.26251)&rbrack;
   > (via the [[SYK model]])
 
+* Yan Liu, Hong-Da Lyu: *From Critical Zero Modes to Interior Dynamics in Holographic Superconductors* &lbrack;[arXiv:2610.05208](https://arxiv.org/abs/2610.05208)&rbrack;
+
+
+
 
 
 
