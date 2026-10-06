@@ -37,5 +37,9 @@ A [[lattice field theory|lattice model]] for [[anyon|anyonic]] [[membrane braidi
 
 * Yitao Feng, Hanyu Xue, Yuyang Li, [[Meng Cheng]], Ryohei Kobayashi, [[Po-Shen Hsin]], Yu-An Chen: *Anyonic membranes and Pontryagin statistics* &lbrack;[arXiv:2509.14314](https://arxiv.org/abs/2509.14314)&rbrack;
 
+On [[anyons]] and [[abelian Chern-Simons theory]]:
+
+* [[Meng Cheng]], [[Nathan Seiberg]]: *Peeling off Abelian Anyons and Proliferation Transitions* \[<a href="https://arxiv.org/abs/2610.04704">arXiv:2610.04704</a>\]
+
 
 category: people
