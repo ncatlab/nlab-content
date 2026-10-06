@@ -114,6 +114,9 @@ Further discussion:
 
 * Guglielmo Lockhart, Yann Proto: *Rational points in the 6d supergravity landscape and simple current extensions* &lbrack;[arXiv:2603.17713](https://arxiv.org/abs/2603.17713)&rbrack;
 
+* [[Katrin Becker]], [[Ergin Sezgin]], Qi You: *Anomaly-free six-dimensional $Sp(1)_R$-gauged supergravities* &lbrack;[arXiv:2610.04131](https://arxiv.org/abs/2610.04131)&rbrack;
+
+
 
 
 {#ReferencesFourZero} For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
@@ -165,5 +168,9 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 [[!redirects 6-dimensional supergravity]]
 
 [[!redirects D=6 N=1 supergravity]]
+
+[[!redirects 6D supergravity]]
+
+
 
 
