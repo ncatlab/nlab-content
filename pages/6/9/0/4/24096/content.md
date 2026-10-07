@@ -5,7 +5,7 @@
 
 On the [[Giry monad]] ([[category theory|category theoretic]] [[probability theory]]):
 
-* [[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
+* [[Kirk Sturtz]], _The algebras of the Giry monad_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
 
 which has evolved from the preliminary work:
