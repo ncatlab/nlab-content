@@ -49,7 +49,7 @@ Discussion of the (relativistic) Navier-Stokes equation in view of the [[fluid/g
 
 An [[AI]]-generated proof, verified with [[Lean]], of instability of the NS-equations in the presence of a smooth external force:
 
-* [OpenAI](https://openai.com/): *On the Navier–Stokes Millennium Prize Problem* (8 Sep 2026) &lbrack;[openai.com/index/navier-stokes-solution](https://openai.com/index/navier-stokes-solution)&rbrack;
+* [OpenAI math](https://github.com/openai/math/tree/main): *On the Navier–Stokes Millennium Prize Problem* (8 Sep 2026) &lbrack;[openai.com/index/navier-stokes-solution](https://openai.com/index/navier-stokes-solution)&rbrack;
 
 * Tristan Buckmaster: *Blowup for the Euler equations with smooth forcing*, talk at *Mathematics in the Age of AI*, Courant NYU (24 Sep 2026) &lbrack;video:yt[](https://youtu.be/tn45ZOp3lXM), nodes:[pdf](https://cims.nyu.edu/~tristanb/euler.pdf)&rbrack;
 
