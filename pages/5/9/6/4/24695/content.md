@@ -1,6 +1,8 @@
 
 * [personal page](https://luukstehouwer.com/)
 
+* [institute page](https://www.durham.ac.uk/staff/stehouwer-d-luuk/)
+
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=318550)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=ouelDL8AAAAJ&hl=en)
