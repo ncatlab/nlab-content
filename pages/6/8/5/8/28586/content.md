@@ -30,8 +30,8 @@ on [[trapped-ion quantum hardware]]:
 
   Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
   
-* {XuEtAl2024} Shibo Xu et al.: *Non-Abelian braiding of Fibonacci anyons with a superconducting processor*, Nature Physics **20** (2024) 1469–1475 \[<a href="https://doi.org/10.1038/s41567-024-02529-6">doi:10.1038/s41567-024-02529-6</a>\]
-  > "we use the idea of digital quantum simulation to implement creations and braidings of Fibonacci anyons \[...\]  the braidings carried out in our experiment involve no Hamiltonian dynamics of quasiparticle excitations. As a result, they are not endowed with topological protection that naturally arises from an energy gap separating the many-body degenerate ground states from the low-lying excited states"
+* {#XuEtAl2024} Shibo Xu et al.: *Non-Abelian braiding of Fibonacci anyons with a superconducting processor*, Nature Physics **20** (2024) 1469–1475 \[<a href="https://doi.org/10.1038/s41567-024-02529-6">doi:10.1038/s41567-024-02529-6</a>\]
+  > pp. 1470: "\[we\] use the idea of digital quantum simulation to implement creations and braidings of Fibonacci anyons \[...\]  the braidings carried out in our experiment involve no Hamiltonian dynamics of quasiparticle excitations. As a result, they are not endowed with topological protection that naturally arises from an energy gap separating the many-body degenerate ground states from the low-lying excited states"
 
 * Adam Gammon-Smith, Michael Knap, Frank Pollmann: *Simulating Topological Order on Quantum Processors*, Nat Rev Phys (2026) \[<a href="https://doi.org/10.1038/s42254-025-00911-8">doi:10.1038/s42254-025-00911-8</a>, [arXiv:2510.07023](https://arxiv.org/abs/2510.07023)\]
 
