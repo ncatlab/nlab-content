@@ -175,7 +175,7 @@ More on this at [[joint and marginal probability]].
 
 ## References
 
-* {#Lawvere62} [[William Lawvere]]: *The category of probabilistic mappings*, seminar handout with notes by [[Gian-Carlo Rota]] (1962) &lbrack;[[Lawvere-ProbMappings.pdf:file]]&rbrack;
+* {#Lawvere62} [[William Lawvere]]: *The category of probabilistic mappings*, (formerly) classified appendix obtained by [[Gian-Carlo Rota]] (1962) &lbrack;[[Lawvere-ProbMappings.pdf:file]]&rbrack;
 
   posthumously retyped as: 
 
