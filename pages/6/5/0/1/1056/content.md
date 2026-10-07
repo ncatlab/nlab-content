@@ -18,9 +18,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -168,9 +166,9 @@ Some other references
 
 * {#Hir} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99** (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-A Lean formalized proof by OpenAI of Thomason model structures for small strict globular $n$-categories in every positive natural number $n$ and for $n = \omega$:
+A [[Lean]]-[formalized proof](proof#FormalProof) of Thomason model structures for [[small category|small]] [[globe|globular]] [[strict n-categories|strict $n$-categories]] in every [[positive number|positive]] [[natural number]] $n$ and for $n = \omega$:
 
-* OpenAI, *Thomason Model Structures in Every Strict Higher Dimension*, 25 September 2026 &lbrack;[pdf](https://github.com/openai/math/blob/main/preprints/Thomason-Model-Structures-in-Every-Strict-Higher-Dimension-September-25-2026/paper.pdf), [lean](https://github.com/openai/math/blob/main/lean/docs/317.md)&rbrack;
+* [OpenAI math](https://github.com/openai/math/tree/main): *Thomason Model Structures in Every Strict Higher Dimension* (Sep 2026) &lbrack;[pdf](https://github.com/openai/math/blob/main/preprints/Thomason-Model-Structures-in-Every-Strict-Higher-Dimension-September-25-2026/paper.pdf), [lean](https://github.com/openai/math/blob/main/lean/docs/317.md)&rbrack;
 
 [[!redirects Thomason weak equivalence]]
 [[!redirects Thomason weak equivalences]]
