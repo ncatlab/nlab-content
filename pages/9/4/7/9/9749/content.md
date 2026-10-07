@@ -222,18 +222,18 @@ f & \mapsto & \beta_f
 \end{array}
 \end{equation}
 is an $\mathbb{R}_{\infty}$-generalized point of $X$  because $\beta$ is a cone over the diagram $\mathcal{D}_X$.   That it to say it satisfies $\beta_{\phi \circ f} = \phi \circ \beta_f$ for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$.   
-But the hypothesis  that there exists no $x \in X$ such that equation (1) holds leads to the contradiction that there does exists an $\mathbb{R}_{\infty}$-generalized point of $X$ given by the functional $\beta_{\bullet}$ which is not an evaluation map $ev_x$ for some $x \in X$.  This contradicts the result in Theorem 1  that the [[restricted Yoneda embedding]] $\mathcal{Y}$ is a [[full functor]].   Hence we conclude $(X, \{f\}_{f \in \mathbb{R}_{\infty}^X})= \lim \mathcal{D}_X$.  This proves that the right [[Kan extension]] of $\iota$ along $\iota$ consists of  the identity functor on $\mathbf{Cvx}_{Meas}$  from which it readily follows that  the [[natural transformation]] $id_{\mathbf{Cvx}_{Meas}} \circ \iota \rightarrow \iota$ is the identity [[natural transformation]].
+But the hypothesis  that there exists no $x \in X$ such that equation (1) holds leads to the contradiction that there does exists an $\mathbb{R}_{\infty}$-generalized point of $X$ given by the functional $\beta_{\bullet}$ which is not an evaluation map $ev_x$ for some $x \in X$.  This contradicts the result in Theorem 3.4  that the [[restricted Yoneda embedding]] $\mathcal{Y}$ is a [[full functor]].   Hence we conclude $(X, \{f\}_{f \in \mathbb{R}_{\infty}^X})= \lim \mathcal{D}_X$.  This proves that the right [[Kan extension]] of $\iota$ along $\iota$ consists of  the identity functor on $\mathbf{Cvx}_{Meas}$  from which it readily follows that  the [[natural transformation]] $id_{\mathbf{Cvx}_{Meas}} \circ \iota \rightarrow \iota$ is the identity [[natural transformation]].
 
 \end{proof}
 
-\begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $\G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
+\begin{corollary} If $X$ is an object in $\mathbf{Cvx}_{Meas}$ then there exists a unique affine measurable function $G(X) \xrightarrow{\epsilon_X} X$ such that $\epsilon_X(\delta_x)=x$ for all $x \in X$. 
 \end{corollary}
 \begin{proof}  From the proof of the preceding corollary 
 $X = \lim \mathcal{D}_X$ with the projection map at component $f$ being $f$. 
 
-We can construct a cone over $\mathcal{D}_X$ with vertex $\G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(f)$.
+We can construct a cone over $\mathcal{D}_X$ with vertex $G(X)$ and natural transformation components $\mathbb{E}_{\bullet}(f) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(f)$.
 
-Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Cvx}_{Meas}$-morphism   $\G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in \G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Cvx}_{Meas}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}_{Meas}$ it follows $\epsilon_X(\delta_x)=x$.
+Since $X=\lim \mathcal{D}_X$ there exists a unique $\mathbf{Cvx}_{Meas}$-morphism   $G(X) \xrightarrow{\epsilon_X} X$ such that $f \circ \epsilon_X = \mathbb{E}_{\bullet}(f)$ for all affine maps $X \xrightarrow{f} \mathbb{R}_{\infty}$. It follows that for each Dirac measure $\delta_x \in G(X)$ that, for all $X \xrightarrow{f} \mathbb{R}_{\infty}$ in $\mathbf{Cvx}_{Meas}$ that $f(\epsilon_X(\delta_x)) = f(x)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}_{Meas}$ it follows $\epsilon_X(\delta_x)=x$.
 \end{proof}
 
 
