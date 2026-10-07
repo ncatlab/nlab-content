@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 
@@ -81,6 +79,9 @@ Analogous discussion for [[phonons]]:
 See also:
 
 * Avi Wadhwa: *Soft Theorems in Chern-Simons Matter Theories* &lbrack;[arXiv:2509.02542](https://arxiv.org/abs/2509.02542)&rbrack;
+
+* Debanjan Karan, Babli Khatun, Raghu Mahajan, Biswajit Sahoo, [[Ashoke Sen]]: *All-Orders Classical Soft Graviton Theorems in the Newtonian Limit and Beyond* &lbrack;[arXiv:2610.07134](https://arxiv.org/abs/2610.07134)&rbrack;
+
 
 In the context of [[2-group]] [[global symmetry]]:
 
