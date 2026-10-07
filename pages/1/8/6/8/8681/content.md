@@ -37,6 +37,8 @@ An $R$-[[module]] is a [[flat module]] precisely if it is a [[filtered colimit]]
 
 This is due to ([Lazard (1964)](#Lazard)). See at _[[flat module]]_ for more.
 
+See ([Frey (2023)](#Frey), Lemma 5.4, for a general statement for models of a clan. This includes the case of all algebraic theories.
+
 ## References
 
 The original article:
@@ -49,5 +51,6 @@ Exposition:
 
 * [[Stacks Project]], *Lazard's theorem* &lbrack;[tag:058G](https://stacks.math.columbia.edu/tag/058G)&rbrack;
 
+Frey's general statement for clan models:
 
-
+* {#Frey} [[Jonas Frey]], _Duality for clans: an extension of Gabriel–Ulmer duality_. The Journal of Symbolic Logic 2026;91(3):913-950. [DOI](https://doi.org/10.1017/jsl.2024.79), [arXiv preprint](http://arxiv.org/abs/2308.11967)
