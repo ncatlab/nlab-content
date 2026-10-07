@@ -297,5 +297,9 @@ See also:
 
 * [[Manuel Rivera]], [[Samson Saneblidze]]: _A combinatorial model for the free loop space fibration_, Bull. London Math. Soc. **50** (2018) 1085-1101 &lbrack;[doi:10.1112/blms.12202](https://doi.org/10.1112/blms.12202), [arXiv:1712.02644](https://arxiv.org/abs/1706.00983)&rbrack;
 
+On [[Morse-Bott theory]] of free loop spaces of [[Riemannian manifolds]]:
+
+* {#MaterialsMorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-06) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-06.pdf|pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-06.zip|zip:file]]&rbrack;
+
 
 [[!redirects free loop spaces]]
