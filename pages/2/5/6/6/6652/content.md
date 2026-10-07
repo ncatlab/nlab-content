@@ -84,6 +84,10 @@ On the [[string/black hole correspondence principle]]:
 
 * [[Ashoke Sen]]: *How to Expose a Black Hole* &lbrack;[arXiv:2604.03720](https://arxiv.org/abs/2604.03720)&rbrack;
 
+On the [[soft graviton theorem]]:
+
+* Debanjan Karan, Babli Khatun, Raghu Mahajan, Biswajit Sahoo, [[Ashoke Sen]]: *All-Orders Classical Soft Graviton Theorems in the Newtonian Limit and Beyond* &lbrack;[arXiv:2610.07134](https://arxiv.org/abs/2610.07134)&rbrack;
+
 
 
 ## Related entries
