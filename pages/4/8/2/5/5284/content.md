@@ -299,7 +299,7 @@ See also:
 
 On [[Morse-Bott theory]] of free loop spaces of [[Riemannian manifolds]]:
 
-* {#MaterialsMorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-06) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-06.pdf|pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-06.zip|zip:file]]&rbrack;
+* {#MaterialsMorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-08) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-08.pdf|main.pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-08.zip|sources.zip:file]], [[Morse-Bott-of-Loop-Spaces_Lean_26-10-08.zip|lean.zip:file]]&rbrack;
 
 
 [[!redirects free loop spaces]]
