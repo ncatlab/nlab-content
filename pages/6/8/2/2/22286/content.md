@@ -33,7 +33,7 @@ A [[CW complex]] is locally finite if and only if it is [[locally compact topolo
 
 ## References
 
-* {#Geoghegan08} Ross Geoghegan: *Locally finite CW Complexes and Proper Homotopy*, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10)&rbrack;
+* {#Geoghegan08} [[Ross Geoghegan]]: *Locally finite CW Complexes and Proper Homotopy*, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/geoghe.pdf)&rbrack;
 
 [[!redirects locally finite cell complexes]]
 
