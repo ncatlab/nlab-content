@@ -51,6 +51,9 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) \[<a href="https://link.springer.com/book/10.1007/b97586">doi:10.1007/b97586</a>\]
 
+* {#Geoghegan08} [[Ross Geoghegan]]: *Topological methods in group theory*, Graduate Texts in Mathematics **243**, Springer (2008) \[<a href="https://doi.org/10.1007/978-0-387-74614-2">doi:10.1007/978-0-387-74614-2</a>, [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/geoghe.pdf)\]
+
+
 * [[Jeffrey Strom]]: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>, <a href="https://www.nzdr.ru/data/media/biblio/kolxoz/M/MD/MDat/Strom%20J.%20Modern%20homotopy%20theories%20(draft,%20Univ.%20of%20Michigan,%202010)(363s)_MDat_.pdf">pdf</a>\]
 
 * [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7329-0">doi:10.1007/978-1-4419-7329-0</a>\]
