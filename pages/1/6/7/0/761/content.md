@@ -9,13 +9,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
-The *Seifert-van Kampen theorem* is a classical theorem in [[algebraic topology]] which computes the [[fundamental group]] of a pointed [[topological space]]   in terms of a decomposition into [[open subsets]].
+The *Seifert-van Kampen theorem* is a classical theorem in [[algebraic topology]] which serves to break up the computation of the [[fundamental group]] of a pointed [[topological space]] into diagrams of fundamental groups of [[open subsets]].
 
 It is most naturally expressed by saying that the [[fundamental groupoid]] [[functor]] preserves certain [[colimits]].  Here there is a bifurcation in possible generalizations, however.  The colimits of spaces we consider (covers by open subsets) are both strict colimits and [[homotopy colimits]].  But we can ask the resulting colimit of groupoids to be either a [[homotopy colimit]] (i.e. a [[2-colimit]]) or a [[strict 2-colimit|strict colimit]].  The first is more natural for formal work; the second is more useful for computation.  Accordingly, we will speak of *homotopy van Kampen theorems* and *strict van Kampen theorems*.
 
@@ -219,7 +219,7 @@ There are (at least) two code functions that can be given, which are listed in s
 ## References
  {#References}
 
-The Seifert-van Kampen theorem is named after
+The Seifert-van Kampen theorem is named after:
 
 * [[Herbert Seifert]]: *Konstruction drei dimensionaler geschlossener Räume*, Berichte Sachs. Akad. Leipzig, Math.-Phys. Kl. *83* (1931) 26–66
 
@@ -229,11 +229,11 @@ Introduction and review:
 
 * [[Ronald Brown]], §6.7 & §8.4 of: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
 
-
 * [[Peter May]], chapter 2 of: *[[A Concise Course in Algebraic Topology]]*, University of Chicago Press (1999) &lbrack;[ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)&rbrack;
 
 * {#Hatcher02} [[Allen Hatcher]], section 1.2 of: *Algebraic Topology*, Cambridge University Press (2002) \[<a href="https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401">ISBN:9780521795401</a>, [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)\]
 
+* {#Geoghegan08} [[Ross Geoghegan]]; section 3.1, Thm. 3.1.18 & Thm. 6.2.11 of: *Topological methods in group theory*, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2](https://doi.org/10.1007/978-0-387-74614-2), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/geoghe.pdf)&rbrack;
 
 See also: 
 
