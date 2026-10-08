@@ -1,13 +1,22 @@
-# Quandles
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 
 ##The Idea##
 
-A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].
+A *quandle* is a [[set]] equipped with a [[binary operation]] satisfying [[axioms]] analogous to the three [[Reidemeister moves]] in [[knot theory]].  Quandle are a special class of *[[racks]]*.
 
-While mainly used to obtain invariants of [[knot|knots]], quandles are interesting algebraic structures in their own right. In particular, the definition of a quandle axiomatizes the properties of conjugation in a group.  More abstractly, we can say that a quandle is an algebraic structure where every element acts as an automorphism of that structure, fixing that element.
+While mainly used to obtain invariants of [[knots]], quandles are interesting algebraic structures in their own right. In particular, the definition of a quandle axiomatizes the properties of conjugation in a group.  More abstractly, we can say that a quandle is an algebraic structure where every element acts as an automorphism of that structure, fixing that element.
 
 
 ##Definition##
@@ -103,7 +112,7 @@ Surveys are
 
 * S. Nelson, _What is a Quandle?_ , Notices AMS **63** no.4 (2016) pp.378-380. ([pdf](http://www.ams.org/publications/journals/notices/201604/rnoti-p378.pdf))
 
-* J. Scott Carter, _A survey of quandle ideas_, ([arxiv](http://arxiv.org/abs/1002.4429)).
+* J. Scott Carter: _A survey of quandle ideas_ &lbrack;[arxiv:1002.4429](http://arxiv.org/abs/1002.4429)&rbrack;
 
 * M. Elhamdadi, _A Survey of Racks and Quandles: Some recent developments_, ([arxiv](http://arxiv.org/abs/1910.07400)).
 
