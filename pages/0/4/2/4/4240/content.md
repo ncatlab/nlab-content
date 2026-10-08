@@ -105,6 +105,8 @@ Surveys are
 
 * J. Scott Carter, _A survey of quandle ideas_, ([arxiv](http://arxiv.org/abs/1002.4429)).
 
+* M. Elhamdadi, _A Survey of Racks and Quandles: Some recent developments_, ([arxiv](http://arxiv.org/abs/1910.07400)).
+
 A monograph is
 
 * M. Elhamdadi, S. Nelson, _Quandles: An Introduction to the Algebra of Knots_ , AMS Providence 2015. ([link](http://bookstore.ams.org/stml-74))
