@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -27,11 +25,15 @@
 
 Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xena project]]):
 
-* basic [[synthetic mathematics]] [[homotopy theory]] ([[HoTT]])
+* basic [[synthetic homotopy theory]] ([[HoTT]])
 
   * [github.com/rzrn/ground_zero](https://github.com/rzrn/ground_zero)
 
   * [github.com/gebner/hott3](https://github.com/gebner/hott3)
+
+* [[homotopy groups]]:
+
+  * [github.com/Vilin97/homotopy-groups-lean](https://github.com/Vilin97/homotopy-groups-lean)
 
 * [[spectral sequences]]
 
