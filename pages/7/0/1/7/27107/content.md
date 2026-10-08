@@ -56,7 +56,6 @@ Review:
 
 * Héctor Bombín, around Fig. 9 in: *An Introduction to Topological Quantum Codes*, in: *Quantum Error Correction*, Cambridge University Press (2013) \[<a href="https://www.cambridge.org/de/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction?format=HB&isbn=9780521897877">ISBN:9780521897877</a>, [arxiv:1311.0277](https://arxiv.org/abs/1311.0277)\]
 
-
 * Paul Herringer: *The Toric Code* (2020) \[<a href="https://www.physics.rutgers.edu/grad/602/Lectures/JC_Presentations/0419/Intro_Toric_Code.pdf">pdf</a>\]
 
 See also: 
@@ -73,6 +72,10 @@ On the problem of its experimental realization:
 
 * {#VLV21} Ruben Verresen, Mikhail D. Lukin, Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
   > "Unfortunately, the experimental realization of such phases \[...\] has been exceedingly difficult."
+
+More general *surface codes*:
+
+* Austin G. Fowler, Matteo Mariantoni, John M. Martinis, Andrew N. Cleland: *Surface codes: Towards practical large-scale quantum computation*, Phys. Rev. A **86** (2012) 032324 \[<a href="https://doi.org/10.1103/PhysRevA.86.032324">doi:10.1103/PhysRevA.86.032324</a>, [arXiv:1208.0928](https://arxiv.org/abs/1208.0928)\]
 
 
 
