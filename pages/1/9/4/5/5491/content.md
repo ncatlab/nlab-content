@@ -18,9 +18,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -332,6 +330,11 @@ A discussion of quasicoherent $\infty$-stacks and D-modules in the context of [[
   _The character theory of a complex group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
 
   _Loop Spaces and Representations_ ([arXiv:1004.5120](http://arxiv.org/abs/1004.5120))
+
+See also:
+
+* Zhangqi Pan: *A Note on $n$-Representations of Simplicial Groups* &lbrack;[arXiv:2610.11576](https://arxiv.org/abs/2610.11576)&rbrack;
+
 
 
 [[!redirects infinity-representations]]
