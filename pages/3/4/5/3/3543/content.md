@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -663,6 +661,11 @@ Review and further developments:
 * {#RiveraWierstraZeinalian21} [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655), [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
 
 * {#Ivanov21} [[Sergei O. Ivanov]], *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* &lbrack;[arXiv:2111.10694](https://arxiv.org/abs/2111.10694)&rbrack;
+
+See also:
+
+* [[Nikita Golub]]: *Wedges, Rational completion and $\mathbb{Q}$-bad spaces* &lbrack;[arXiv:2610.12255](https://arxiv.org/abs/2610.12255)&rbrack;
+
 
 
 
