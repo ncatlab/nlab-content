@@ -23,6 +23,19 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
  {#LatestsEvents}
 
 
+* 2026, November 12-14
+
+  **XVI Portuguese Category Seminar**
+
+  Category theory and its connections with algebra, topology, logic and computer science. Researchers and students are welcome.
+
+  home page: [flnlucatelli.github.io/2026/pcs.html](https://flnlucatelli.github.io/2026/pcs.html)
+
+  University of Coimbra, Coimbra (Portugal)
+
+  Abstract submission deadline: October 29, 2026. Registration deadline: November 5, 2026. Registration is free.
+
+
 * 2026, August 17-21
 
   **QPL 2026**
