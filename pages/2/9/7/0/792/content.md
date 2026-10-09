@@ -195,5 +195,10 @@ using [[adjusted Weil algebra|adjusted]] [[principal 2-connections]]:
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
+For [[principal 3-bundles]] with application to the [[supergravity C-field]]:
+
+* Gianni Gagliardo, [[Christian Saemann]], [[Roberto Tellez-Dominguez]]: *Differential $T_2$-Duality and Spans of Principal 3-Bundles with Connections* &lbrack;[arXiv:2610.12383](https://arxiv.org/abs/2610.12383)&rbrack;
+
+
 
 
