@@ -401,10 +401,18 @@ Review for the case of [[finite groups]]:
 
 * S. Martin: *Mackey Theory*, chapter 12 of *[Representation Theory](https://dec41.user.srcf.net/h/II_L/representation_theory/)*, notes by [[Dexter Chua]] (2016) &lbrack;[pdf](https://dec41.user.srcf.net/h/II_L/representation_theory/12)&rbrack;
 
+
 Further developments:
 
 * Geetha Venkataraman: *On irreducibility of induced modules and an adaptation of the Wigner--Mackey method of little groups*, J. Korean Math. Soc. **50** 6 (2013) 1213-1222 &lbrack;[arXiv:0908.0026](https://arxiv.org/abs/0908.0026), [doi:10.4134/JKMS.2013.50.6.1213](https://doi.org/10.4134/JKMS.2013.50.6.1213)&rbrack;
 
-Review for the case of [[Lie groups]] (cf. *[[Wigner classification]]*):
+
+Review for the case of [[Lie groups]], in the context of [[Wigner classification]]
 
 * [[José Figueroa-O’Farrill]]: *The Theory of Induced Representations in Field Theory* &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~jmf/Teaching/Projects/Poincare/IndReps.pdf), [[Figueroa-InducedReps.pdf:file]]&rbrack;
+
+and with an eye towards [[supersymmetry]]:
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]]; Thm. 1.5.2 in: _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
+
+
