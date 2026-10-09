@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -118,7 +118,7 @@ The following examples have no classical analog:
 
 \linebreak
 
-Forther (types of) quantum gates:
+Further (types of) quantum gates:
 
 * [[Pauli gates]]
 
@@ -129,6 +129,16 @@ Forther (types of) quantum gates:
 * [[T gate]], [[S gate]]
 
 \linebreak
+
+## Properties
+
+### Universal gate sets
+ {#UniversalGateSets}
+
+A [[set]] $S$ of quantum gates is called *universal* if every [[unitary operator]] on a [[finite-dimensional Hilbert space]] may be approximated to arbitrary accuracy by a [[quantum circuit]] built from elements of $S$.
+
+See also at *[[quantum compilation]]*.
+
 
 ## Related concepts
 
