@@ -33,7 +33,7 @@ In [[quantum computation]]-theory one interprets:
 
 1. the set $\{g_0, \cdots, g_n\}$ as a given set of (operations of) [[quantum gates]] on [[qbits]]
 
-   (that the subgroup these generate is [[dense subspace|dense]] in [[SU(2)]] is said to mean that this is a *universal set* of quantum gates);
+   (that the subgroup these generate is [[dense subspace|dense]] in [[SU(2)]] is said to mean that this is a *[universal set](quantum+logic+gate#UniversalGateSets)* of quantum gates);
 
 1. the target element $g \,\in\, SU(2)$ as an intended operation on qbits (an intended quantum program);
 
