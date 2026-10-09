@@ -6,6 +6,8 @@ Alexei Yurievich Kitaev
 * [inSpire page](https://inspirehep.net/authors/1056433)
 
 
+
+
 ## Selected writings
 
 On [[quantum computation]] and [[quantum error correction]] (and stating the [[Solovay-Kitaev theorem]]):
@@ -20,7 +22,7 @@ On [[quantum circuits]] with [[mixed quantum states]]/[[density matrices]]:
 
 On [[quantum error correcting codes]] associated with planar bulk/boundary systems (precursor to [[holographic tensor networks]]):
 
-* S. B. Bravyi, [[Alexei Kitaev]], *Quantum codes on a lattice with boundary* ([arXiv:quant-ph/9811052](https://arxiv.org/abs/quant-ph/9811052))
+* [[Sergey B. Bravyi]], [[Alexei Kitaev]], *Quantum codes on a lattice with boundary* ([arXiv:quant-ph/9811052](https://arxiv.org/abs/quant-ph/9811052))
 
 On [[computation]] in general and [[quantum computation]] in particular:
 
@@ -45,7 +47,9 @@ and its [[interaction|interacting]] generalization:
 
 * [[Lukasz Fidkowski]], [[Alexei Kitaev]], *The effects of interactions on the topological classification of free fermion systems*, Phys. Rev. B **81** (2010) 134509  &lbrack;[arXiv:0904.2197](https://arxiv.org/abs/0904.2197), [doi:10.1103/PhysRevB.81.134509](https://doi.org/10.1103/PhysRevB.81.134509)&rbrack;
 
+On [[magic states]] for [[surface codes]]:
 
+* {#BravyiKitaev05} [[Sergey Bravyi]], [[Alexei Kitaev]]: *Universal quantum computation with ideal Clifford gates and noisy ancillas*, Phys. Rev. A **71** (2005) 022316 &lbrack;[doi:10.1103/PhysRevA.71.022316](https://doi.org/10.1103/PhysRevA.71.022316), [arXiv:quant-ph/0403025](https://arxiv.org/abs/quant-ph/0403025)&rbrack;
 
 
 Comprehensive discussion of [[anyons]]:
