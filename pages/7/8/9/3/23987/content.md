@@ -6,6 +6,7 @@
 </a>
 </div>
 
+
 The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* (CQTS, launched in 2021) is a research center within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
 CQTS is concerned with fundamental questions of [[quantum systems]] relevant for [[quantum technologies]] ---  [[quantum materials]], [[quantum information]], [[quantum sensing]], [[quantum computing]], [[quantum algorithms]] --- with a hallmark focus on foundations of the oft neglected but long-term necessary aspect of **[[topological quantum computing|topological stabilization]]** via hardware based on [[topological order|topologically ordered]] [[topological phases of matter|phases]] of [[quantum materials]].
@@ -3456,7 +3457,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   [[Luuk Stehouwer]] (Durham University):
 
-  **The classification of flagged topological quantum field theories**
+  **A Cobordism Hypothesis for Flagged TQFTs**
+
+  slides: [[Stehouwer-CQTS_26-10-07.pdf|pdf:file]]
 
   > The [[cobordism hypothesis]] gives a complete classification of [[extended TQFT|fully local topological quantum field theories]] (TQFTs) using [[homotopy fixed points]], standard machinery in [[algebraic topology]]. For example, it tells us how [[D=3 TQFT|3-dimensional TQFTs]] are classified by [[Morita equivalence|Morita classes]] of [[fusion categories]] with [[extra structure|extra]] [[structure]]. We prove a [[cobordism hypothesis]] for a flagged version of TQFTs in which lower-dimensional cobordisms are required to live in certain [[subcategories]] of the target. For example, when using the flagging of the Morita 3-category of fusion categories by the [[2-category]] of [[fusion categories]], [[monoidal functors]], and [[monoidal natural transformations]], one obtains a classification by [[spherical category|spherical]] fusion categories. Joint work in progress with [[Theo Johnson-Freyd]], [[Cameron Krulewski]] and [[Lukas Müller]].
 
