@@ -19,6 +19,10 @@ On a derivation of [[D-brane charge quantization in K-theory|D-brane charge quan
 
 * [[Nikita Golub]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:K from M|On the Derivation of Twisted K-Theory from M-Theory]]* \[<a href="https://arxiv.org/abs/2609.36048">arXiv:2609.36048</a>\]
 
+On [[rationalization]] of [[wedge sums]]:
+
+* [[Nikita Golub]]: *Wedges, Rational completion and $\mathbb{Q}$-bad spaces* &lbrack;[arXiv:2610.12255](https://arxiv.org/abs/2610.12255)&rbrack;
+
 
 
 
