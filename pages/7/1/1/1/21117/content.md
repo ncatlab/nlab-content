@@ -423,7 +423,7 @@ Original articles on quantum error correcting codes:
 
 * Panos Aliferis, [[Daniel Gottesman]], [[John Preskill]], *Quantum accuracy threshold for concatenated distance-3 codes*, Quant. Inf. Comput. 6 (2006) 97-165 ([arXiv:quant-ph/0504218](https://arxiv.org/abs/quant-ph/0504218))
 
-* Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 $[$[doi:10.1038/nature23460](https://doi.org/10.1038/nature23460)$]$
+* Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 \[<a href="https://doi.org/10.1038/nature23460">doi:10.1038/nature23460</a>, [arXiv:1612.07330](https://arxiv.org/abs/1612.07330)\]
 
 
     
