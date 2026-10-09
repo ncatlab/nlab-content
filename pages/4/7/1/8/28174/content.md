@@ -41,6 +41,14 @@ Surface codes are also referred to as *topological quantum error correcting code
 
 ## References
 
+Original articles:
+
+* {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*, Annals of Physics **303** 1 (2003) 2--30 &lbrack;[doi:10.1016/S0003-4916(02)00018-0](https://doi.org/10.1016/S0003-4916(02)00018-0), [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)&rbrack;
+
+* {#DennisKitaevLandahlPreskill02} [[Eric Dennis]], [[Alexei Kitaev]], [[Andrew Landahl]], [[John Preskill]]: *Topological quantum memory*, J. Math. Phys. **43** (2002) 4452--4505 &lbrack;[doi:10.1063/1.1499754](https://doi.org/10.1063/1.1499754), [arXiv:quant-ph/0110143](https://arxiv.org/abs/quant-ph/0110143)&rbrack;
+
+Survey:
+
 * Austin G. Fowler, Matteo Mariantoni, John M. Martinis, Andrew N. Cleland: *Surface codes: Towards practical large-scale quantum computation*,  Phys. Rev. A **86** (2012) 032324 &lbrack;[doi:10.1103/PhysRevA.86.032324](https://doi.org/10.1103/PhysRevA.86.032324), [arXiv:1208.0928](https://arxiv.org/abs/1208.0928)&rbrack;
 
 * [errorcorrectionzoo](https://errorcorrectionzoo.org/): *[Kitaev surface code](https://errorcorrectionzoo.org/c/surface)*
