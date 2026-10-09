@@ -27,6 +27,8 @@
 
       * [[Bell state]]
 
+      * [[magic state]]
+
     * [[quantum superposition]], [[quantum interference]]
 
     * [[quantum entanglement]]
