@@ -13,6 +13,10 @@ Review:
 
 * [[Hans J. Briegel]], [[Dan E. Browne]], [[Wolfgang Dür]], [[Robert Raussendorf]], [[Maarten Van den Nest]], *Measurement-based quantum computation*, Nature Physics **5** 1 (2009) 19-26 &lbrack;[arXiv:0910.1116](https://arxiv.org/abs/0910.1116), [doi:10.1038/nphys1157](https://doi.org/10.1038/nphys1157)&rbrack;
 
+On [[magic states]]:
+
+* {#RaussendorfHarringtonGoyal07} [[Robert Raussendorf]], Jim Harrington, Kovid Goyal: *Topological fault-tolerance in cluster state quantum computation*, New J. Phys. **9** (2007) 199 &lbrack;[doi:10.1088/1367-2630/9/6/199](https://doi.org/10.1088/1367-2630/9/6/199), [arXiv:quant-ph/0703143](https://arxiv.org/abs/quant-ph/0703143)&rbrack;
+
 Discussion of [[quantum contextuality]] via [[singular cohomology]]:
 
 * [[Cihan Okay]], [[Sam Roberts]], [[Stephen D. Bartlett]], [[Robert Raussendorf]], *Topological proofs of contextuality in quantum mechanics*, Quantum Information and Computation **17** (2017) 1135-1166 &lbrack;[arXiv:1701.01888](https://arxiv.org/abs/1701.01888), [doi:10.26421/QIC17.13-14-5](https://doi.org/10.26421/QIC17.13-14-5)&rbrack;
