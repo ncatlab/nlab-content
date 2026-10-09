@@ -4,6 +4,7 @@
 * [inSpire page](https://inspirehep.net/authors/2712706)
 
 
+
 ## Selected writings
 
 On [[categorification|higher]] [[Chern connections]] in the context of [[holomorphic bundle gerbes]] with an eye towards [[string 2-connections]]:
@@ -18,7 +19,11 @@ and application to a kind of [[topological T-duality]] for the [[supergravity C-
 
 * [[Roberto Téllez Domínguez]]: *$T_2$-Duality: Lifting Geometric T-Duality to M-theory via adjusted Lie 3-groups*, [talk at](CQTS#Tellez-DominguezApr2026) [[CQTS]] @ NYUAD (Apr 2026) &lbrack;[[TellezDominguez-CQTS2026.pdf:file]]&rbrack;
 
+* Gianni Gagliardo, [[Christian Saemann]], [[Roberto Tellez-Dominguez]]: *Differential $T_2$-Duality and Spans of Principal 3-Bundles with Connections* &lbrack;[arXiv:2610.12383](https://arxiv.org/abs/2610.12383)&rbrack;
+
+
 
 category: people
 
 [[!redirects Roberto Tellez Dominguez]]
+[[!redirects Roberto Tellez-Dominguez]]
