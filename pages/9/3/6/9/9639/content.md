@@ -949,6 +949,7 @@ See also:
 #### Specific filling fractions
  {#ReferencesSpecificFillingFractions}
 
+{#ReferencesOnNuFiveHalves}
 On the $\nu = 5/2$ FQH state:
 
 * W. Pan et al.: *Exact Quantization of the Even-Denominator Fractional Quantum Hall State at $\nu = 5/2$ Landau Level Filling Factor*, Phys. Rev. Lett. **83** (1999) 3530 \[<a href="https://doi.org/10.1103/PhysRevLett.83.3530">doi:10.1103/PhysRevLett.83.3530</a>\]
