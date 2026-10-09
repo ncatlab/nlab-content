@@ -88,6 +88,12 @@ On [[adjusted Weil algebra|adjusted]] [[connection on a smooth principal infinit
 
 * Gianni Gagliardo, [[Christian Saemann]], [[Roberto Téllez Domínguez]]: *Principal 3-Bundles with Adjusted Connections* &lbrack;[arXiv:2505.13368](https://arxiv.org/abs/2505.13368)&rbrack;
 
+and application to a kind of [[topological T-duality]] for the [[supergravity C-field]]:
+
+* Gianni Gagliardo, [[Christian Saemann]], [[Roberto Tellez-Dominguez]]: *Differential $T_2$-Duality and Spans of Principal 3-Bundles with Connections* &lbrack;[arXiv:2610.12383](https://arxiv.org/abs/2610.12383)&rbrack;
+
+
+
 ## Related  entries
 
 * [[M2-brane 3-algebra]]
