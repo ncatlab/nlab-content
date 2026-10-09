@@ -83,7 +83,14 @@ Beware of these alternative names and their subtleties:
 
 ## References
 
+### General
+
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], p xxx in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
+### As a non-Clifford gate
+
+* {#CTV2017} Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 \[<a href="https://doi.org/10.1038/nature23460">doi:10.1038/nature23460</a>, [arXiv:1612.07330](https://arxiv.org/abs/1612.07330)\]
+
 
 [[!redirects T gates]]
 
