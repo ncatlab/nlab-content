@@ -31,7 +31,12 @@ In [[quantum information theory]], by the *Clifford group* on $n$-[[qbits]] (for
 
 An [[element]] of the Clifford group, understood as a [[unitary operator]] on the [[finite-dimensional Hilbert space]] $\mathbb{C}^{2^n}$, is also called a *Clifford [[quantum gate]]* or just *Clifford gate*, for short.
 
-The [[Gottesman-Knill theorem]] states that [[quantum circuits]] which are built only from Clifford gates ("stabilizer circuits") may be efficiently [[quantum simulation|simulated]] on [[classical computers]]. Conversely this means that for a [[quantum computer]] to exhibit [[quantum advantage]] it must realize [[quantum gates]] which are non-Clifford gates.
+## Properties
+
+### Gottesman-Knill theorem
+ {#GottesmanKnillTheorem}
+
+The *[[Gottesman-Knill theorem]]* ([Gottesman 1998](#Gottesman98), [Aaronson & Gottesman 2004](#AaronsonGottesman04)) states that [[quantum circuits]] which are built only from Clifford gates ("stabilizer circuits") may be efficiently [[quantum simulation|simulated]] on [[classical computers]]. Conversely this means that for a [[quantum computer]] to exhibit [[quantum advantage]] it must realize [[quantum gates]] which are non-Clifford gates. Such as the *[[T-gate]]*.
 
 
 ## References
@@ -43,6 +48,8 @@ The origin of the attention paid to the [[normalizer subgroup]] of the [[Pauli g
 * {#Gottesman98} [[Daniel Gottesman]]: *A Theory of Fault-Tolerant Quantum Computation*, Phys. Rev. A **57** (1998) 127 &lbrack;[arXiv:quant-ph/9702029](https://arxiv.org/abs/quant-ph/9702029), [doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)&rbrack;
 
 Contrary to common claims, the term "Clifford group" for this normalizer subgroup seems to have emerged only in the following years.
+
+* {#AaronsonGottesman04} [[Scott Aaronson]], [[Daniel Gottesman]]: *Improved simulation of stabilizer circuits*, Phys. Rev. A **70** (2004) 052328 &lbrack;[doi:10.1103/PhysRevA.70.052328](https://doi.org/10.1103/PhysRevA.70.052328), [arXiv:quant-ph/0406196](https://arxiv.org/abs/quant-ph/0406196)&rbrack;
 
 Review:
 
