@@ -221,8 +221,7 @@ But  the functional
 f & \mapsto & \beta_f
 \end{array}
 \end{equation}
-is an $\mathbb{R}_{\infty}$-generalized point of $X$  because $\beta$ is a cone over the diagram $\mathcal{D}_X$.   That it to say it satisfies $\beta_{\phi \circ f} = \phi \circ \beta_f$ for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$.   
-But the hypothesis  that there exists no $x \in X$ such that equation (1) holds leads to the contradiction that there does exists an $\mathbb{R}_{\infty}$-generalized point of $X$ given by the functional $\beta_{\bullet}$ which is not an evaluation map $ev_x$ for some $x \in X$.  This contradicts the result in Theorem 3.4  that the [[restricted Yoneda embedding]] $\mathcal{Y}$ is a [[full functor]].   Hence we conclude $(X, \{f\}_{f \in \mathbb{R}_{\infty}^X})= \lim \mathcal{D}_X$.  This proves that the right [[Kan extension]] of $\iota$ along $\iota$ consists of  the identity functor on $\mathbf{Cvx}_{Meas}$  from which it readily follows that  the [[natural transformation]] $id_{\mathbf{Cvx}_{Meas}} \circ \iota \rightarrow \iota$ is the identity [[natural transformation]].
+is an $\mathbb{R}_{\infty}$-generalized point of $X$  because $\beta$ is a cone over the diagram $\mathcal{D}_X$.   That it to say it satisfies $\beta_{\phi \circ f} = \phi \circ \beta_f$ for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $f \in \mathbb{R}_{\infty}^X$.   But the hypothesis  that there exists no $x \in X$ such that equation (1) holds leads to the contradiction that there does exists an $\mathbb{R}_{\infty}$-generalized point of $X$ given by the functional $\beta_{\bullet}$ which is not an evaluation map $ev_x$ for some $x \in X$.  This contradicts the result in Theorem 3.4  that the [[restricted Yoneda embedding]] $\mathcal{Y}$ is a [[full functor]]. (When $X=\lim \mathcal{D}_X$ it follows that the Kan extension is also the identity function on morphisms.)   Hence we conclude $(X, \{f\}_{f \in \mathbb{R}_{\infty}^X})= \lim \mathcal{D}_X$.  This proves that the right [[Kan extension]] of $\iota$ along $\iota$ consists of  the identity functor on $\mathbf{Cvx}_{Meas}$  from which it readily follows that  the [[natural transformation]] $id_{\mathbf{Cvx}_{Meas}} \circ \iota \rightarrow \iota$ is the identity [[natural transformation]].
 
 \end{proof}
 
@@ -287,7 +286,7 @@ For every [[measurable space]] $X$ the space  $G(X)$ is an object in $\mathbf{Cv
 \end{lemma}
 \begin{proof} By Lemma 3.2 and the paragraph preceding that lemma we know that $G(X)$ is a measurable convex space. We need to show it also satisfies the fullness property.
 
-First note that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ because we have, for every measurable set $U$ in $X$, the property that
+Note that $\mu_X$ is an affine measurable function and that $\mu_X = \mathbb{E}_{\bullet}(id_{G(X)})$ because, for every measurable set $U$ in $X$, we have
 $$
 (ev_U \circ \mu_X)(Q) = \mu_X(Q)[U] = \int_{P \in G(X)} ev_U(P) \, dQ = \mathbb{E}_Q(ev_U) = \big(ev_U \circ \mathbb{E}_{\bullet}(id_{G(X)})\big)(Q).
 $$
@@ -313,9 +312,8 @@ $$
 Hence the required commutativity condition holds showing $\mathbb{E}$ is a natural transformation. 
 
 \end{proof}
-We denote this [[natural transformation]] by $\mathbb{E}$ rather than $\mathbb{E}_{\cdot}(id_{\bullet})$.
 
-It is now easy to verify that $\langle \mathcal{F}, \mathcal{U}, \eta, \mathbb{E} \rangle$ forms an adjunction and that the induced monad is the [[Giry monad]] $(G, \eta, \mu)$. 
+It is now easy to verify that $\langle \mathcal{F}, \mathcal{U}, \eta, \mathbb{E}_{\cdot}(id_{\bullet}) \rangle$ forms an adjunction and that the induced monad is the [[Giry monad]] $(G, \eta, \mu)$. 
 
 
  Now apply Beck's [[monadicity theorem]] (Theorem 2.2) to prove that the [[comparison functor]] 
