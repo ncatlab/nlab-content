@@ -41,6 +41,7 @@ In [[qbit]]-based [[quantum computation]], the elementary Bell state is usually 
 
 * [[quantum teleportation]]
 
+
 [[!include states and observables -- content]]
 
 
