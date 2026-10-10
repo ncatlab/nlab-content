@@ -16,10 +16,8 @@
 
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -101,6 +99,8 @@ By genuine, they mean a state that is not a product of smaller states. The two s
 Each of these states yields the structure of a commutative [[Frobenius algebra]]. $|GHZ\rangle$ yields a special CFA and $|W\rangle$ yields an "anti-special" CFA. This structure serves to uniquely identity these states (up to SLOCC) in $\mathbb{C}^2$. [1]
 
 ## Related concepts
+
+* [[entangling gate]]
 
 * [[entanglement entropy]]
 
