@@ -235,7 +235,7 @@ Also the correction-operation in the [[quantum teleportation protocol]] ("Bob's 
 
 ### Further
 
-* [[CCZ gate]]
+* [[controlled Z-gate]]
 
 
 ## Properties
