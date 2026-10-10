@@ -657,7 +657,7 @@ $$
  \,.
 $$
 
-The statement is that for all $d \in D$ this presheaf $\bar L(d)$ is [[representable functor|representable]], then it is functorially so in that there exists a functor $R \colon \mathcal{D} \to \mathcal{C}$ such that
+The statement is that if for all $d \in D$ this presheaf $\bar L(d)$ is [[representable functor|representable]], then it is functorially so in that there exists a functor $R \colon \mathcal{D} \to \mathcal{C}$ such that
 
 $$
   \bar L \;\simeq\; y \circ R
