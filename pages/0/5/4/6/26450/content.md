@@ -27,6 +27,10 @@ On [[model structures on equivariant dgc-algebras]]:
 
 * [[José M. Moreno-Fernández]], [[Bruno Stonek]]: *Algebraic models for equivariant rational homotopy theory for discrete groups* &lbrack;[arXiv:2601.17345](https://arxiv.org/abs/2601.17345)&rbrack;
 
+On higher [[Massey products]] for [[algebra over an operad|algebras]] over [[Koszul duality|Koszul]] [[operads]] along with the precise relationship to [[Koszul duality]]: 
+
+* [[Oisín Flynn-Connolly]], [[José M. Moreno-Fernández]]: _Higher order Massey products for algebras over algebraic operads_, Mathematische Zeitschrift &lbrack;[arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.48550/arXiv.2304.13411](https://doi.org/10.48550/arXiv.2304.13411)&rbrack;
+
 
 
 category: people
