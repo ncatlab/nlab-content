@@ -114,3 +114,15 @@ Monograph:
 [[!redirects Pauli-X]]
 [[!redirects Pauli-Y]]
 [[!redirects Pauli-Z]]
+
+[[!redirects X gate]]
+[[!redirects Y gate]]
+[[!redirects Z gate]]
+
+[[!redirects X-gate]]
+[[!redirects Y-gate]]
+[[!redirects Z-gate]]
+
+
+
+
