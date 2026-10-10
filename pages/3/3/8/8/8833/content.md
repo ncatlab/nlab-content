@@ -136,16 +136,16 @@ Firstly, (higher) Massey products arise from  monomial relations in cohomology:
 
 * [[J. Peter May]], _Matric Massey products_, Journal of Algebra. **12** 4 (1969) 53300568 \[<a href="https://doi.org/10.1016/0021-8693(69)90027-1">doi:10.1016/0021-8693(69)90027-1</a>\]
 
-Massey triple products were generalised to algebras over a  quadratic operads:
+Massey triple products generalised to [[algebra over an operad|algebras]] over  [[quadratic operads]]:
 
 * [[Fernando Muro]]: _Massey products for algebras over operads_, Commun. Algebra **51** 8 (2023) 3298--3313 (2023) \[<a href="https://doi.org/10.1080/00927872.2023.2181780">doi:10.1080/00927872.2023.2181780</a>\]
 
-The case of higher Massey products for Koszul operads along with the precise relationship to Koszul duality:: 
+The case of higher Massey products for [[algebra over an operad|algebras]] over [[Koszul duality|Koszul]] [[operads]] along with the precise relationship to [[Koszul duality]]: 
 
-* Oisín Flynn-Connolly, [[José M. Moreno-Fernández]]: _Higher order Massey products for algebras over algebraic operads_, Mathematische Zeitschrift (to appear) &lbrack;[arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.48550/arXiv.2304.13411](https://doi.org/10.48550/arXiv.2304.13411)&rbrack;
+* [[Oisín Flynn-Connolly]], [[José M. Moreno-Fernández]]: _Higher order Massey products for algebras over algebraic operads_, Mathematische Zeitschrift &lbrack;[arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.48550/arXiv.2304.13411](https://doi.org/10.48550/arXiv.2304.13411)&rbrack;
 
-A generalization of operadic Massey products to positive characteristic, where they are related to higher [[Steenrod operations]] and the Frobenius map: 
+A generalization of [[operad|operadic]] Massey products to [[positive characteristic]], where they are related to higher [[Steenrod operations]] and the [[Frobenius map]]: 
 
-* Oisín Flynn-Connolly" _An obstruction theory for strictly commutative algebras in positive characteristic_, Algebraic & Geometric Topology **26** (2026) 761--790 &lbrack;[arXiv:2404.16681](http://arxiv.org/abs/2404.16681), [doi:10.48550/10.2140/agt.2026.26.761](https://doi.org/10.2140/agt.2026.26.761)&rbrack;
+* [[Oisín Flynn-Connolly]]: _An obstruction theory for strictly commutative algebras in positive characteristic_, Algebraic & Geometric Topology **26** (2026) 761--790 &lbrack;[arXiv:2404.16681](http://arxiv.org/abs/2404.16681), [doi:10.48550/10.2140/agt.2026.26.761](https://doi.org/10.2140/agt.2026.26.761)&rbrack;
 
 [[!redirects Massey products]]
