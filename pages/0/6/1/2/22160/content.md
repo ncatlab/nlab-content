@@ -6,6 +6,8 @@
 * [GoogleScholar page](https://scholar.google.com/citations?user=hBEje20AAAAJ&hl=en)
 
 
+
+
 ## Selected writings
 
 
@@ -16,6 +18,10 @@ Providing rigorous theoretical foundations for the [[quantum Hall effect]]:
 On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] with a [[symmetric group]] as analogs of ([[anyon]]) [[braid groups]] in [[dimension of a manifold|dimension]] $\gt 2$:
 
 * [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
+On ([[controlled quantum gate|controlled]]) [[T-gates]], [[S-gates]] and [[Toffoli gates]]:
+
+* Jeongwan Haah, [[Matthew B. Hastings]]: *Codes and Protocols for Distilling T, controlled-S, and Toffoli Gates*, Quantum **2** 71 (2018) \[<a href="https://doi.org/10.22331/q-2018-06-07-71">doi:10.22331/q-2018-06-07-71</a>, [arXiv:1709.02832](https://arxiv.org/abs/1709.02832)\]
 
 
 On [[quantum adiabatic theorem|adiabatic transformations]] of certain 2d [[topological insulators]]:
