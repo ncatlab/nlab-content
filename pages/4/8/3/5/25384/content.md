@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -70,9 +69,10 @@ Explicitly this means that (in the conentional normalization) the:
 
 The [[Hadamard gate]] transforms the [[eigenstates]] $\vert 0 \rangle$, $\vert 1 \rangle$ of the Pauli Z-gate into those $\propto {\vert 0 \rangle} \pm {\vert 1 \rangle}$ of the Pauli-X gate, a relation that is elaborated on by the correspondingly named *[[ZX-calculus]]*.
 
+
 ## Related concepts
 
-* [[Hadamard gate]], [[T gate]], [[S gate]]
+* [[Hadamard gate]], [[T gate]], [[S gate]], [[CCZ gate]]
 
 * [[quantum computation]]
 
