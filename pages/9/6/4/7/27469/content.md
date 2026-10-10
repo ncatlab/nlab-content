@@ -111,6 +111,10 @@ For more see at *[[magic state]]*.
 
 * {#CTV2017} Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 \[<a href="https://doi.org/10.1038/nature23460">doi:10.1038/nature23460</a>, [arXiv:1612.07330](https://arxiv.org/abs/1612.07330)\]
 
+See also: 
+
+* Microsoft Azure: *[The role of T gates and T factories in quantum computing](https://learn.microsoft.com/en-us/azure/quantum/concepts-tfactories)*
+
 
 [[!redirects T gates]]
 
