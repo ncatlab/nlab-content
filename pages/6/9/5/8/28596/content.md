@@ -100,5 +100,11 @@ Circumventing the 2-dimensional no-go theorem:
  
 * {#Brown20} Benjamin J. Brown: *A fault-tolerant non-Clifford gate for the surface code in two dimensions*, Science Advances **6** (2020) eaay4929 &lbrack;[doi:10.1126/sciadv.aay4929](https://doi.org/10.1126/sciadv.aay4929), [arXiv:1903.11634](https://arxiv.org/abs/1903.11634)&rbrack;
 
+In the context of [[qtrits]]:
+
+* Hussain Anwar, Earl T. Campbell, Dan E. Browne: *Qutrit Magic State Distillation*, New J. Phys. **14** (2012) 063006 \[<a href="https://doi.org/10.1088/1367-2630/14/6/063006">doi:10.1088/1367-2630/14/6/063006</a>, [arXiv:1202.2326](https://arxiv.org/abs/1202.2326)\]
+
+
+
 [[!redirects magic states]]
 
