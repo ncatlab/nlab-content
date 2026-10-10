@@ -1345,7 +1345,7 @@ By the assumption that $R$ preserves all limits that exist, we have
   }
 \]
 
-Since the $d \overset{f}{\to} R(d)$ constitute a [[cone]] over the [[diagram]] of the $R(d)$, there is universal morphism
+Since the $d \overset{f}{\to} R(c)$ constitute a [[cone]] over the [[diagram]] of the $R(c)$, there is universal morphism
 
 $$
   d \overset{\phantom{AA} \eta_d \phantom{AA}}{\longrightarrow} R(L(d))
