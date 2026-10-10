@@ -107,6 +107,9 @@ For more see at *[[magic state]]*.
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], p xxx in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+* Jeongwan Haah, [[Matthew B. Hastings]]: *Codes and Protocols for Distilling T, controlled-S, and Toffoli Gates*, Quantum **2** 71 (2018) \[<a href="https://doi.org/10.22331/q-2018-06-07-71">doi:10.22331/q-2018-06-07-71</a>, [arXiv:1709.02832](https://arxiv.org/abs/1709.02832)\]
+
+
 ### As a non-Clifford gate
 
 * {#CTV2017} Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 \[<a href="https://doi.org/10.1038/nature23460">doi:10.1038/nature23460</a>, [arXiv:1612.07330](https://arxiv.org/abs/1612.07330)\]
