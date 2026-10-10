@@ -31,6 +31,8 @@ $ H^{p_0 + \cdots + p_k - k + 1}(X) $ and $ H^{p_0} (X) \otimes \cdots \otimes H
 The case $k=2$ is straight-forward enough: given three homogeneous classes $ [u],[v],[w] $ such that $ [u]\smile[v] = [v]\smile[w] = 0$, there are (various) choices of cochains $ s , t $ with $ d s = u \cdot v $ and $ d t = v \cdot w $.  The Massey triple product is the set of sums $ [ u \cdot t \pm s \cdot w ] $, 
 where the sign is chosen for cocyclicity.
 
+ 
+
 ## Properties
 
 ### Relation to Steenrod squares
@@ -126,5 +128,25 @@ Math. 122 N1 (1995).
 
 * [[Daniel Grady]], [[Hisham Sati]], _Massey products in differential cohomology via stacks_, J. Homotopy Relat. Struct. 13 (2017) 169-223 ([arXiv:1510.06366](http://arxiv.org/abs/1510.06366), [doi:10.1007/s40062-017-0178-y](https://doi.org/10.1007/s40062-017-0178-y)).
 
+### Generalizations
+ {#Generalizations}
+
+Massey products have been generalized in several directions.
+
+Firstly, (higher) Massey products arise from  monomial relations in cohomology. This restriction was removed by May in: 
+
+* [[J. Peter May]], _Matric Massey products_, Journal of Algebra. 12 No. 4 Pages 533-568 (1969), [doi:10.1016/0021-8693(69)90027-1](https://doi.org/10.1016/0021-8693(69)90027-1))
+
+Massey triple products were generalised to algebras over a  quadratic operad in
+
+* [[Fernando Muro]], _Massey products for algebras over operads_, Commun. Algebra 51, No. 8, 3298-3313 (2023) , ([doi:10.1080/00927872.2023.2181780](https://doi.org/10.1080/00927872.2023.2181780)).
+
+The case of higher Massey products for Koszul operads along with the precise relationship to Koszul duality is worked out in: 
+
+* Oisín Flynn-Connolly, [[José M. Moreno-Fernández]], _Higher order Massey products for algebras over algebraic operads_, Mathematische Zeitschrift (to appear), ([arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.48550/arXiv.2304.13411](https://doi.org/10.48550/arXiv.2304.13411)).
+
+Finally, a generalization of operadic Massey products to positive characteristic, where they are related to higher Steenrod operations and the Frobenius map is worked out in: 
+
+* Oisín Flynn-Connolly, _An obstruction theory for strictly commutative algebras in positive characteristic_, Algebraic & Geometric Topology 26 (2026) 761–790, ([arXiv:2404.16681](http://arxiv.org/abs/2404.16681), [doi:10.48550/10.2140/agt.2026.26.761](https://doi.org/10.2140/agt.2026.26.761)).
 
 [[!redirects Massey products]]
