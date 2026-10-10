@@ -128,7 +128,11 @@ Further (types of) quantum gates:
 
 * [[T gate]], [[S gate]]
 
-* [[CCZ gate]]
+* [[controlled quantum gate]]
+
+  * [[controlled Z-gate]]
+
+* [[entangling gate]]
 
 \linebreak
 
