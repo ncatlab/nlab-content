@@ -17,11 +17,7 @@
 
 
 
-
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -81,6 +77,9 @@ Textbook accounts:
 
 See also: 
 
+* Jeongwan Haah, [[Matthew B. Hastings]]: *Codes and Protocols for Distilling T, controlled-S, and Toffoli Gates*, Quantum **2** 71 (2018) \[<a href="https://doi.org/10.22331/q-2018-06-07-71">doi:10.22331/q-2018-06-07-71</a>, [arXiv:1709.02832](https://arxiv.org/abs/1709.02832)\]
+
+
 * Wikipedia, *[Controlled NOT gate](https://en.wikipedia.org/wiki/Controlled_NOT_gate)*
 
 * Wikipedia, *[Toffoli gate](https://en.wikipedia.org/wiki/Toffoli_gate)*
@@ -90,6 +89,7 @@ See also:
 [[!redirects CCNOT]]
 
 [[!redirects Toffoli gate]]
+[[!redirects Toffoli gates]]
 
 [[!redirects controlled NOT gate]]
 [[!redirects controlled-controlled NOT gate]]
@@ -99,3 +99,5 @@ See also:
 
 [[!redirects controlled quantum NOT gate]]
 [[!redirects controlled quantum NOT gates]]
+
+
