@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ##  Idea
@@ -234,6 +232,11 @@ The following shows the [[CNOT gate]] in its two incarnations as a classically o
 ### Quantum teleportation
 
 Also the correction-operation in the [[quantum teleportation protocol]] ("Bob's operation") is given by classically-controlled quantum gates.
+
+### Further
+
+* [[CCZ gate]]
+
 
 ## Properties
 
