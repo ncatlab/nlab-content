@@ -128,6 +128,8 @@ Further (types of) quantum gates:
 
 * [[T gate]], [[S gate]]
 
+* [[CCZ gate]]
+
 \linebreak
 
 ## Properties
