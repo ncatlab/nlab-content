@@ -1,4 +1,3 @@
-[[!redirects CCZ gate]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -92,6 +91,7 @@ The *CCZ* [[quantum gate]] is the doubly-[[controlled quantum gate|controlled]] 
 * {#BeverlandCampbellHowardKliuchnikov2020} Michael Beverland, Earl Campbell, Mark Howard, Vadym Kliuchnikov; §4.1 of: *Lower bounds on the non-Clifford resources for quantum computations*, Quantum Sci. Technol. **5** (2020) 035009 \[<a href="https://doi.org/10.1088/2058-9565/ab8963">doi:10.1088/2058-9565/ab8963</a>, [arXiv:1904.01124](https://arxiv.org/abs/1904.01124)\]
 
 [[!redirects controlled Z-gates]]
+
 
 [[!redirects CCZ-gate]]
 [[!redirects CCZ-gates]]
