@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -82,14 +81,15 @@ and its applications to [[arithmetic]] [[quantum algorithms]]:
 
 
 
-
-
-
 Explicit mentioning of the qdit-nature of the elementary gates in [[topological quantum computation]]:
 
 * {#KolganovMironovMorozov23}  [[Nikita Kolganov]], [[Sergey Mironov]], [[Andrey Morozov]], *Large $k$ topological quantum computer*, Nuclear Physics B
 **987** (2023) 116072 &lbrack;[arXiv:2105.03980](https://arxiv.org/abs/2105.03980), [doi:10.1016/j.nuclphysb.2023.116072](https://doi.org/10.1016/j.nuclphysb.2023.116072)&rbrack;
 
+
+In view of [[T-gates]]:
+
+* Andrew Glaudell, [[Neil J. Ross]], John van de Wetering, Lia Yeh: *Qutrit metaplectic gates are a subset of Clifford+T*,  Proceedings TQC 2022 (2022) 12:1--12:15 \[<a href="https://doi.org/10.4230/LIPIcs.TQC.2022.12">doi:10.4230/LIPIcs.TQC.2022.12</a>, [arXiv:2202.09235](https://arxiv.org/abs/2202.09235)\]
 
 
 [[!redirects qudits]]
