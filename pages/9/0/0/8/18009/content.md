@@ -323,7 +323,8 @@ More general discussion in ([[cohesive (infinity,1)-topos|cohesive]]) [[(infinit
 
 See also:
 
-* {#MaterialsCyclification} [[nLab materials]]: *Cyclification* (2026-10-06) &lbrack;[[Cyclification_26-10-06.pdf|pdf:file]], [[Cyclification_26-10-06.zip|zip:file]]&rbrack;
+* {#MaterialsCyclification} [[nLab materials]]: *Cyclification* (2026-10-11) &lbrack;[[Cyclification_26-10-11.pdf|main.pdf:file]], [[Cyclification_26-10-11.zip|sources.zip:file]]&rbrack;
+
 
 
 
