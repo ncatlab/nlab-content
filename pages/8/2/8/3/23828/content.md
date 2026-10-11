@@ -3,6 +3,8 @@
 
 * [institute page](https://umdphysics.umd.edu/people/faculty/current/item/718-maissam.html)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=227809)
+
 * [inSpire page](https://inspirehep.net/authors/1069787)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=7pMAOCMAAAAJ&hl=en)
