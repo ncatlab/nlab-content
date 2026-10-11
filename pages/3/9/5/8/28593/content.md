@@ -10,7 +10,7 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 \linebreak
 
-* {#Cyclification} [[nLab materials]]: *Cyclification* (2026-10-06) &lbrack;[[Cyclification_26-10-06.pdf|pdf:file]], [[Cyclification_26-10-06.zip|zip:file]]&rbrack;
+* {#Cyclification} [[nLab materials]]: *Cyclification* (2026-10-11) &lbrack;[[Cyclification_26-10-11.pdf|main.pdf:file]], [[Cyclification_26-10-11.zip|sources.zip:file]]&rbrack;
   > (on [[cyclification]])
 
 * {#MorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-11) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-11.pdf|main.pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-11.zip|sources.zip:file]], [[Morse-Bott-of-Loop-Spaces_Lean_26-10-08.zip|lean.zip:file]]&rbrack;
