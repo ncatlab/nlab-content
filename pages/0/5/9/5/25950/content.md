@@ -19,7 +19,7 @@ A modern statement and proof can be found here:
 A good reference is here:
 
 
-* [[Pavel Etingof]], [[Dmitri Nikshych]], and [[Viktor Ostrik]]. "On fusion categories." Annals of mathematics (2005): 581-642.
+* [[Pavel Etingof]], [[Dmitri Nikshych]], and [[Viktor Ostrik]]. "On fusion categories." Annals of Mathematics (2005): 581-642.
 
 
 The original discussion of rank-finiteness can be found here:
