@@ -453,3 +453,6 @@ The [above comment](#LawvereComment) by Lawvere is taken from
 
 
 [[!redirects smooth manifolds]]
+[[!redirects smoothable]]
+[[!redirects smoothable manifold]]
+[[!redirects smoothable manifolds]]
