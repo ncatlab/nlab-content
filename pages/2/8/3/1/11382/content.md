@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -79,6 +77,8 @@ Review in view of modern gravitational wave detection (see [below](#ReferencesEx
 * [[Simone Speziale]], Danièle A. Steer: *An Introduction to Gravitational Wave Theory* &lbrack;[arXiv:2508.21817](https://arxiv.org/abs/2508.21817)&rbrack;
 
 * José P. S. Lemos: *When spacetime vibrates: An introduction to gravitational waves* &lbrack;[arXiv:2512.22679](https://arxiv.org/abs/2512.22679)&rbrack;
+
+* Vitor Cardoso et al.: *The School on Gravity: from motion to commotion* &lbrack;[arXiv:2610.13514](https://arxiv.org/abs/2610.13514)&rbrack;
 
 
 
