@@ -50,6 +50,11 @@ On [[monadic decomposition]]s:
 
 * [[Jiří Adámek]], [[Horst Herrlich]], [[Walter Tholen]], _Monadic decompositions_, (<a href="https://doi.org/10.1016/0022-4049(89)90129-1">doi</a>)
 
+In [[initial algebras of endofunctors]]:
+
+* [[Jiří Adámek]], Stefan Milius, Lawrence Moss: _Initial Algebras and Terminal Coalgebras: The Theory of Fixed Points of Functors_, Cambridge University Press (2025) &lbrack;<a href="https://doi.org/10.1017/9781108884112">doi:10.1017/9781108884112</a>, draft:[pdf-archived](https://web.archive.org/web/20160304124600/https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf)&rbrack;
+
+
 ## Related entries
 
 * [[Adámek's fixed point theorem]]
