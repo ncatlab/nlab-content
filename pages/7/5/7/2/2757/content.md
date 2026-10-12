@@ -17,10 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## Idea
 
@@ -67,9 +65,9 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 ## References
 
-* [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf), [pdf-archived](https://web.archive.org/web/20160304124600/https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
+* [[Jiří Adámek]], Stefan Milius, Lawrence Moss: _Initial Algebras and Terminal Coalgebras: The Theory of Fixed Points of Functors_, Cambridge University Press (2025) &lbrack;<a href="https://doi.org/10.1017/9781108884112">doi:10.1017/9781108884112</a>, draft:[pdf-archived](https://web.archive.org/web/20160304124600/https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf)&rbrack;
 
-* [[Bart Jacobs]], Jan Rutten, _A tutorial on (co)algebras and (co)induction_, [pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf) EATCS Bulletin (1997); extended and updated version: _An introduction to (co)algebras and (co)induction_,  In: D. Sangiorgi and J. Rutten (eds), Advanced topics in bisimulation and coinduction, p.38-99, 2011, [pdf](https://web.archive.org/web/20120130215948/https://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf) 62 pp.
+* [[Bart Jacobs]], Jan Rutten: _A tutorial on (co)algebras and (co)induction_, [pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf) EATCS Bulletin (1997); extended and updated version: _An introduction to (co)algebras and (co)induction_,  In: D. Sangiorgi and J. Rutten (eds), Advanced topics in bisimulation and coinduction, p.38-99, 2011, [pdf](https://web.archive.org/web/20120130215948/https://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf) 62 pp.
 
 * Ch. 3, Formal arithmetics, in: Elliott Mendelson, _Introduction to mathematical logic_, D. Van Nostrad 1964
 
