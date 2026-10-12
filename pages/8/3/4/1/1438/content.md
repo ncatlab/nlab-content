@@ -12,9 +12,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Definition
 
@@ -206,9 +205,13 @@ Let $Ban$ be the category of complex [[Banach spaces]] and maps of [[norm]] boun
 
 * {#BlassSeven} [[Andreas Blass]], _Seven Trees in One_ ([arXiv:9405205](https://arxiv.org/abs/math/9405205))
 
-A textbook account of the basic theory is in [Chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
+Lecture notes:
 
-* [[Steve Awodey]], _Category theory_ lecture notes (2011) ([web](http://www.andrew.cmu.edu/course/80-413-713/))
+* [[Steve Awodey]]; [Chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of: _Category theory_ lecture notes (2011) &lbrack;[web](http://www.andrew.cmu.edu/course/80-413-713/)&rbrack;
+
+Monograph:
+
+* [[Jiří Adámek]], Stefan Milius, Lawrence Moss: _Initial Algebras and Terminal Coalgebras: The Theory of Fixed Points of Functors_, Cambridge University Press (2025) &lbrack;<a href="https://doi.org/10.1017/9781108884112">doi:10.1017/9781108884112</a>, draft:[pdf-archived](https://web.archive.org/web/20160304124600/https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf)&rbrack;
 
 
 The relation to [[free monads]] is discussed in 
