@@ -26,7 +26,7 @@ A collection of small categories $\mathbb{D}$ is a doctrine if, seen as a full s
 
 A doctrine is said to be sound if for every small category $C$ the following are equivalent.
 
-1. For every $D \in \mathcal{D}$ and any functor $D^{op} \to C$ the corresponding category of cocones is connected.
+1. For every $D \in \mathbb{D}$ and any functor $D^{op} \to C$ the corresponding category of cocones is connected.
 
 2. $C$-colimits commute with $D$-limits in $Set$ for all $D \in \mathbb{D}$.
 
