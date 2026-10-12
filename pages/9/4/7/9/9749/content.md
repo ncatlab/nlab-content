@@ -145,8 +145,8 @@ hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty}) &\xrightarrow{\hat{\mathbb{E}}_{P}}&
 f & \mapsto &  \int_X f \, dP
 \end{array}.
 \end{equation}
-which is (1) weakly averaging:  $\mathbb{E}_{P}(\overline{c}) = c$ for every constant function $X \xrightarrow{\overline{c}} \mathbb{R}_{\infty}$ with value $c \in\mathbb{R}_{\infty}$, and (2) scalar covariant: $\mathbb{E}_P(\lambda \cdot f) = \lambda \cdot  \mathbb{E}_P(f)$ for all $\lambda \in \mathbb{R}_{\infty}$. 
- If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$ denote the set of all weakly averaging and scalar covariant functionals from $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$  to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between  $G(X)$ and $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                  
+which is (1) weakly averaging:  $\mathbb{E}_{P}(\overline{c}) = c$ for every constant function $X \xrightarrow{\overline{c}} \mathbb{R}_{\infty}$ with value $c \in\mathbb{R}_{\infty}$, and (2) scalar [[equivariant]]: $\mathbb{E}_P(\lambda \cdot f) = \lambda \cdot  \mathbb{E}_P(f)$ for all $\lambda \in \mathbb{R}_{\infty}$. 
+ If we let $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+se}$ denote the set of all weakly averaging and scalar [[equivariant]] functionals from $hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$  to $\mathbb{R}_{\infty}$ then we have a bijective    correspondence between  $G(X)$ and $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+se}$. The correspondence is $P \mapsto \hat{\mathbb{E}}_{P}$ and $J \mapsto \hat{J}$ where the probability measure $\hat{J}$ is defined on a measurable set $U$ by $\hat{J}(U) = J(\chi_U)$.                  
 
 Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})$. Taking $X=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of affine measurable endomaps on $\mathbb{R}_{\infty}$.
 
@@ -154,7 +154,7 @@ Let $\mathbb{R}_{\infty}^X = hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}
 \begin{equation}
 \phi \big( J(f) \big) = J(\phi \circ f)
 \end{equation}
-which implies that $J$ is (1) weakly averaging, and (2) scalar covariant.
+which implies that $J$ is (1) weakly averaging, and (2) scalar equivariant.
 (Generalized points are defined in Definition 8.19 of [[Sets for Mathematics]], and several basic properties are discussed therein.)
 
 Note that if $P \in G(X)$ then the functional $\mathbb{R}_{\infty}^X \xrightarrow{\mathbb{E}_P} \mathbb{R}_{\infty}$, which is the restriction of the functional $\hat{ \mathbb{E}}_P$ to affine measurable functions, is an $\mathbb{R}$-generalized point of $X$ since, for all $f \in \mathbb{R}_{\infty}^X$ and all $\phi \in \mathbb{R}_{\infty}^{ \mathbb{R}_{\infty}}$, 
@@ -166,9 +166,9 @@ Since we are restricting the operators $\hat{\mathbb{E}}_{P}$ to operate only on
 \begin{proof}
 Let $X$ be an object in $\mathbf{Meas} \cap \mathbf{Cvx}$.  We have the inclusion function $hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty}) \xrightarrow{\iota} hom_{\mathbf{Meas}}(X, \mathbb{R}_{\infty})$ which induces the restriction mapping
 $$
-\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc} \xrightarrow{\mathbb{R}_{\infty}^{\iota}} \mathbb{R}_{\infty}^{hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})}|_{\mathbb{R}_{\infty}-generalized pt}
+\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+se} \xrightarrow{\mathbb{R}_{\infty}^{\iota}} \mathbb{R}_{\infty}^{hom_{\mathbf{Meas} \cap \mathbf{Cvx}}(X, \mathbb{R}_{\infty})}|_{\mathbb{R}_{\infty}-generalized pt}
 $$
-which is a surjective function. (The conditions on both functional spaces are identical: the elements are weakly averaging and scalar covariant.) This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+sc}$ defined by $\hat{\mathbb{E}}_P \cong \hat{\mathbb{E}}_Q$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\hat{\mathbb{E}}_P$, which in turn arises from the probability measure $P$ on $X$.
+which is a surjective function. (The conditions on both functional spaces are identical: the elements are weakly averaging and scalar [[equivariant]].) This specifies an equivalence relation on the set $\mathbb{R}_{\infty}^{hom_{\mathbf{Meas}}(X,\mathbb{R}_{\infty})}|_{wa+se}$ defined by $\hat{\mathbb{E}}_P \cong \hat{\mathbb{E}}_Q$ if and only if the restriction of those functionals are equal on the set of all affine measurable functions $X \rightarrow \mathbb{R}_{\infty}$.  Thus every $\mathbb{R}_{\infty}$-generalized point of $X$ comes from a functional $\hat{\mathbb{E}}_P$, which in turn arises from the probability measure $P$ on $X$.
 \end{proof}
 
 
