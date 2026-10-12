@@ -12,11 +12,12 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
-_Donaldson invariants_, first described by [[Simon Donaldson]] in 1986, are [[invariants]] of the [[smooth structure]] of smooth [[4-manifolds]] based on the methods behind [[Donaldson's theorem]], first described by [[Simon Donaldson]] in 1983 and improved in 1987. In particular, key informations are obtained from the [[Yang-Mills moduli space]] of the [[Yang-Mills equations]] on the [[4-manifold]], which as [[partial differential equations]] depend on the [[smooth structure]]. Donaldson invariants can distinguish these, hence are able to detect [[exotic smooth structures]].
+_Donaldson invariants_, due to [Donaldson 1986](#Donaldson1986), [1990](#Donaldson1990), are [[invariants]] of the [[smooth structure]] of smooth [[4-manifolds]] based on the methods behind [[Donaldson's theorem]], first described by [[Simon Donaldson]] in 1983 and improved in 1987. In particular, key informations are obtained from the [[Yang-Mills moduli space]] of the [[Yang-Mills equations]] on the [[4-manifold]], which as [[partial differential equations]] depend on the [[smooth structure]]. Donaldson invariants can distinguish these, hence are able to detect [[exotic smooth structures]].
 
 ## SU(2) Donaldson invariants
 
@@ -71,6 +72,12 @@ According to the classification of surfaces, every oriented closed 2-manifold (s
 For an oriented closed 3-manifold $Y$, one can consider the Donaldson invariants on the [[4-manifold]] $Y\times S^1$. For general structure groups, they relate to the [[Rozansky-Witten invariant]]s of $Y$ and for the structure group $SU(2)$, they relate to the [[Casson-Walker-Lescop invariant]] of $Y$.
 
 ## References
+
+The original articles:
+
+* {#Donaldson1986} [[Simon K. Donaldson]]: *Connections, cohomology and the intersection forms of 4-manifolds*, J. Differential Geom. **24** 3 (1986) 275--341 \[<a href="https:/doi.org/10.4310/jdg/1214440551">doi:10.4310/jdg/1214440551</a>\]
+
+* {#Donaldson1990} [[Simon K. Donaldson]]: *Polynomial invariants for smooth four-manifolds*, Topology, **29** 3 (1990) 257--315 \[<a href="https://doi.org/10.1016/0040-9383(90)90001-Z">doi:10.1016/0040-9383(90)90001-Z</a>\]
 
 See also:
 
