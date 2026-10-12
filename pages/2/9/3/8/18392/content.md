@@ -12,13 +12,14 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Construction
 
 ### Construction from the failure of smooth surgery theory
 
-Exotic $\mathbb{R}^4$ arise from the failure of smooth [[surgery theory]], in particular glueing a disc $D^4$ to its boundary sphere $S^3$ not resulting in a smooth [[4-manifold]]. Exotic 7-spheres called [[Milnor spheres]] arise from a fully analogous failure of glueing a disc $D^8$ to its boundary sphere $S^7$ not resulting in a smooth [[8-manifold]]. But the conclusions are different: In the latter case, $D^8\cong\mathbb{R}^8$ has no [[exotic smooth structure]], so $S^7$ has to in order to explain the failure. In the former case, $S^3$ has no [[exotic smooth structure]] due to [[Moise's theorem]], so $D^4\cong\mathbb{R}^4$ has to in order to explain the failure.
+[[exotic smooth structure|Exotic]]$\phantom{,}\mathbb{R}^4$s, i.e. [[smooth manifold|smooth manifolds]] [[homeomorphism|homeomorphic]] but not [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^4$, may be understood by comparison with [[exotic 7-spheres]] such as the *[[Milnor spheres]]*. In both cases there are [[closed manifold|closed]] [[topological manifold|topological]] $n$-manifolds $M$ ($n = 8$ resp. $4$) that admit no [[smooth structure]], but become smoothable once a closed $n$-[[ball]] is removed. The failure lies in gluing the ball back in. The conclusions differ, though. For $n = 8$, a [[neighbourhood]] of the removed ball can be taken to be [[diffeomorphism|diffeomorphic]] to $\Sigma \times \mathbb{R}$, where $\Sigma$ is [[homeomorphism|homeomorphic]] to [[7-sphere|$S^7$]] but not [[diffeomorphism|diffeomorphic]] to it, since otherwise a smooth disc could be glued in along $\Sigma$. So $\Sigma$ is an [[exotic 7-spheres|exotic 7-sphere]]. For $n = 4$ this cannot happen, since [[3-sphere|$S^3$]] has no [[exotic smooth structure]] (by [[Moise's theorem]]). Instead the obstruction lies in an [[exotic smooth structure]] on the 4-dimensional collar $S^3 \times \mathbb{R} \cong \mathbb{R}^4 \setminus \{0\}$ itself. This is a manifestation of the failure of smooth [[surgery theory]] in dimension 4, which also produces exotic $\mathbb{R}^4$s.
 
 #### Construction from the K3 surface
 
