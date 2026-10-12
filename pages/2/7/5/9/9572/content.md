@@ -17,7 +17,6 @@
 \tableofcontents
 
 
-
 ## Idea
 
 The notion of the _center of a monoidal category_ or the _Drinfeld center_ is a [[categorification]] of the notion of the [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
@@ -768,7 +767,9 @@ Explicit derivation of the [[fusion rules]] in the Drinfeld center of $Vec_G$:
 
 * {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: §A.3.3 in: *[[schreiber:Drinfeld Center as Local Bloch Monodromy|Drinfeld Center as Quantum State Monodromy over Bloch Hamiltonians around Defects]]* &lbrack;[arXiv:2603.22029](https://arxiv.org/abs/2603.22029)&rbrack;
 
+Further along these lines:
 
+* {#DrinfeldCenterMaterials} [[nLab materials]]: *Drinfeld Center* (2026-10-11) &lbrack;[[Drinfeld-center_26-10-11.pdf|main.pdf:file]], [[Drinfeld-center_26-10-11.zip|sources.zip:file]]&rbrack;
 
 [[!redirects Drinfeld centers]]
 
