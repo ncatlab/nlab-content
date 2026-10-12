@@ -1,10 +1,14 @@
 
-Simon Donaldson is professor for pure [[mathematics]] at Imperial College London.
+Simon Kirwan Donaldson is professor for pure [[mathematics]] at Imperial College London.
 
-
-* [website](http://www3.imperial.ac.uk/people/s.donaldson)
+* [personal page](https://www.ma.imperial.ac.uk/~skdona/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Simon_Donaldson)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36909)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Simon-Donaldson)
+
 
 ## Selected writings
  {#SelectedWritings}
@@ -18,6 +22,13 @@ Proof of [[Donaldson's theorem]], which laid the basis for [[Donaldson theory]]:
 On [[Nahm's equations]] and the [[moduli space of monopoles]]:
 
 * [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
+
+Introducing what came to be known as *[[Donaldson invariants]]*:
+
+* {#Donaldson1986} [[Simon K. Donaldson]]: *Connections, cohomology and the intersection forms of 4-manifolds*, J. Differential Geom. **24** 3 (1986) 275--341 \[<a href="https:/doi.org/10.4310/jdg/1214440551">doi:10.4310/jdg/1214440551</a>\]
+
+* {#Donaldson1990} [[Simon K. Donaldson]]: *Polynomial invariants for smooth four-manifolds*, Topology, **29** 3 (1990) 257--315 \[<a href="https://doi.org/10.1016/0040-9383(90)90001-Z">doi:10.1016/0040-9383(90)90001-Z</a>\]
+
 
 Textbook on [[4-manifolds]]:
 
@@ -41,3 +52,5 @@ On [[Yang-Mills theory]] ([[gauge theory]]) in [[mathematical physics]]:
 category: people
 
 [[!redirects S. Donaldson]]
+
+[[!redirects Simon K. Donaldson]]
