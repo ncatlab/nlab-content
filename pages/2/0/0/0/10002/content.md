@@ -58,8 +58,6 @@ Review:
 * [[Jan Manschot]], *Four-Manifold Invariants and Donaldson-Witten Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14709](https://arxiv.org/abs/2312.14709)&rbrack;
 
 [[!redirects Donaldson-Witten theory]]
-[[!redirects Donaldson invariant]]
-[[!redirects Donaldson invariants]]
 
 
 
