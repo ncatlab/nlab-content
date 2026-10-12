@@ -1,5 +1,7 @@
 
-doctoral student at Virginia Tech in the group of [[Eric Sharpe]].
+Postdoc at MPI MIS Leipzig.
+
+* [institute page](https://www.mis.mpg.de/mathematical-structures-physics)
 
 * [inSpire page](https://inspirehep.net/authors/2903796)
 
