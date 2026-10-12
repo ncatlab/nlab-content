@@ -747,9 +747,6 @@ on [[quantum information]], [[quantum material|quantum matter]]
 
   > (cf. [Supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall))
 
-\linebreak
-
-* (...)
 
 
 \linebreak
@@ -3182,7 +3179,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#AljasmiSep2025} 15 Sep 2025
 
-  Rashed Aljasmi (NYUAD):
+  [Rashed Aljasmi](http://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/rashed-aljasmi.html) (CQTS @ NYUAD):
 
   **Two dimensional Coulomb gas in a non-conservative trap**
 
@@ -3453,15 +3450,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Oct 2026
 
-* {#StehouwerOct2026} 07 Oct 2026
 
-  [[Luuk Stehouwer]] (Durham University):
 
-  **A Cobordism Hypothesis for Flagged TQFTs**
+* {#Aljasmi2026} 12 Oct 2026
 
-  slides: [[Stehouwer-CQTS_26-10-07.pdf|pdf:file]]
+  [Rashed Aljasmi](http://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/rashed-aljasmi.html) (CQTS @ NYUAD):
 
-  > The [[cobordism hypothesis]] gives a complete classification of [[extended TQFT|fully local topological quantum field theories]] (TQFTs) using [[homotopy fixed points]], standard machinery in [[algebraic topology]]. For example, it tells us how [[D=3 TQFT|3-dimensional TQFTs]] are classified by [[Morita equivalence|Morita classes]] of [[fusion categories]] with [[extra structure|extra]] [[structure]]. We prove a [[cobordism hypothesis]] for a flagged version of TQFTs in which lower-dimensional cobordisms are required to live in certain [[subcategories]] of the target. For example, when using the flagging of the Morita 3-category of fusion categories by the [[2-category]] of [[fusion categories]], [[monoidal functors]], and [[monoidal natural transformations]], one obtains a classification by [[spherical category|spherical]] fusion categories. Joint work in progress with [[Theo Johnson-Freyd]], [[Cameron Krulewski]] and [[Lukas Müller]].
+  **Light-Matter Interaction: From Weak to Ultrastrong Coupling**
+
+  cf.: [arXiv:2607.20688](https://arxiv.org/abs/2607.20688)
+
+  > This talk examines light–matter interaction across different coupling regimes, from weak coupling, where the Purcell effect controls spontaneous emission, to strong coupling, which underpins current [[quantum technologies]]. In conventional strong coupling, coherent interactions overcome dissipation while remaining small compared with the relevant bare frequencies. We then explore ultrastrong coupling, where the rotating-wave approximation breaks down and counter-rotating processes become essential, reshaping the spectrum and ground state and requiring a dressed-state treatment of dissipation and detection. Examples of exciton–photon bistability and optomechanical two-photon hopping illustrate how stronger light–matter coupling gives rise to qualitatively new dynamical and quantum effects, making this an active field of study.
 
 
 \linebreak
@@ -4834,8 +4833,20 @@ Neumann algebras**
 
   > Time permitting, I will discuss ongoing joint work with Aditya Basu and [[Domenico Fiorenza]] extending this homotopy-fiber perspective from graphs of closed differential forms to general higher [[Dirac structures]], with the aim of constructing natural comparison morphisms between their $L_\infty$-algebras and those of the ambient higher [[Courant algebroids]].
 
-
 \linebreak
+
+### Oct 2026
+
+* {#StehouwerOct2026} 07 Oct 2026
+
+  [[Luuk Stehouwer]] (Durham University):
+
+  **A Cobordism Hypothesis for Flagged TQFTs**
+
+  slides: [[Stehouwer-CQTS_26-10-07.pdf|pdf:file]]
+
+  > The [[cobordism hypothesis]] gives a complete classification of [[extended TQFT|fully local topological quantum field theories]] (TQFTs) using [[homotopy fixed points]], standard machinery in [[algebraic topology]]. For example, it tells us how [[D=3 TQFT|3-dimensional TQFTs]] are classified by [[Morita equivalence|Morita classes]] of [[fusion categories]] with [[extra structure|extra]] [[structure]]. We prove a [[cobordism hypothesis]] for a flagged version of TQFTs in which lower-dimensional cobordisms are required to live in certain [[subcategories]] of the target. For example, when using the flagging of the Morita 3-category of fusion categories by the [[2-category]] of [[fusion categories]], [[monoidal functors]], and [[monoidal natural transformations]], one obtains a classification by [[spherical category|spherical]] fusion categories. Joint work in progress with [[Theo Johnson-Freyd]], [[Cameron Krulewski]] and [[Lukas Müller]].
+
 
 
 
