@@ -1,13 +1,16 @@
 
+L. Gaunce Lewis, Jr. (1949--2006)
 
-* [webpage](http://math.syr.edu/bios/lewis-gaunce.html)
+* [institute page](https://artsandsciences.syracuse.edu/mathematics/history/gaunce-lewis/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=7720&fChrono=1)
 
 
 ## Selected writings
 
 On [[compactly generated topological spaces]]:
 
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
+* {#Lewis78} [[Gaunce Lewis]]: _Compactly generated spaces_, appendix A of: _The Stable Category and Generalized Thom Spectra_, PhD thesis Chicago (1978) &lbrack;[pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf), [pdf](https://www.irif.fr/~gaucher/cgspaceintro-latex.pdf)&rbrack;
 
 On [[stabilization]] and [[simplicial topological spaces]]:
 
