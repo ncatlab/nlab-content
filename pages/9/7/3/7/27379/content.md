@@ -28,8 +28,8 @@
   <td markdown="1">[[Polish space|Pol]]</td>
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
   <td markdown="1">[[initial topology]] of integration maps</td>
-  <td markdown="1">See characterization by [[Ernst-Erich Doberkat]]..</td>
-  <td markdown="1">[[Giry monad#Doberkat03|Doberkat '03]]</td>
+  <td markdown="1">continuous convex spaces. (Construction identical to Giry monad on [[Meas]]) [[Giry monad#algebras_over_the_giry_monad|See here]]</td>
+  <td markdown="1">[[Giry monad#Sturtz26|Sturtz'26]],  [[Giry monad#Doberkat03|Doberkat '03]]</td>
  </tr>
 <tr>
   <th markdown="1">[[Probability monad on QBS]]</th>
