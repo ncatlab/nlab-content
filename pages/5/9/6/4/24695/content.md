@@ -50,9 +50,13 @@ On [[2-Hilbert spaces]]:
 
 * [[Giovanni Ferrer]], [[Lukas Müller]], [[David Penneys]], [[Luuk Stehouwer]]: *The many faces of higher Hilbert spaces* &lbrack;[arXiv:2606.11334](https://arxiv.org/abs/2606.11334)&rbrack;
 
-On for [[K-theory]] for [[superalgebra|super]] [[Banach algebras]]:
+On [[K-theory]] for [[superalgebra|super]] [[Banach algebras]]:
 
 * [[David Aretz]], [[Luuk Stehouwer]]: *Super K-theory and group completion* &lbrack;[arXiv:2609.02407](https://arxiv.org/abs/2609.02407)&rbrack;
+
+On a flagged variant of the [[cobordism hypothesis]]:
+
+* [[Luuk Stehouwer]]: *A Cobordism Hypothesis for Flagged TQFTs*, [talk at](CQTS#StehouwerOct2026) [[CQTS]] (Oct 2026) &lbrack;transcript:[[Stehouwer-CQTS_transcript_26-10-07.pdf|pdf:file]]&rbrack;
 
 
 
