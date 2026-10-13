@@ -10,9 +10,7 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea 
 
@@ -496,7 +494,7 @@ where it is attributed to [[John C. Moore]].
 
 Review in this generality of CG weakly Hausdorff spaces:
 
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)) ([pdf](https://www.irif.fr/~gaucher/cgspaceintro-latex.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_, PhD thesis Chicago, 1978
+* {#Lewis78} [[Gaunce Lewis]]: _Compactly generated spaces_, appendix A of: _The Stable Category and Generalized Thom Spectra_, PhD thesis Chicago (1978) &lbrack;[pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf), [pdf](https://www.irif.fr/~gaucher/cgspaceintro-latex.pdf)&rbrack;
 
 * {#FritschPiccinini90} [[Rudolf Fritsch]], [[Renzo Piccinini]], Appendix A.1 of: _Cellular structures in topology_, Cambridge University Press (1990) ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf))
 
