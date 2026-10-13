@@ -17,6 +17,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -846,6 +847,11 @@ An approach to the proof of the cobordism hypothesis via [[factorization homolog
 Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may be thought of as a special case of the cobordism hypothesis) includes
 
 * {#GaudensMenichi07} Gerald Gaudens, [[Luc Menichi]],  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
+
+See also: 
+
+* [[Luuk Stehouwer]]: *A Cobordism Hypothesis for Flagged TQFTs*, [talk at](CQTS#StehouwerOct2026) [[CQTS]] (Oct 2026) &lbrack;transcript:[[Stehouwer-CQTS_transcript_26-10-07.pdf|pdf:file]]&rbrack;
+
 
 
 ### Geometric cobordisms
