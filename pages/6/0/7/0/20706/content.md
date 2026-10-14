@@ -73,6 +73,10 @@ On [[mapping spaces]] of [[group homomorphisms]] from [[finitely generated group
 
 * [[Frederick R. Cohen]], [[Mentor Stafa]], *A survey on spaces of homomorphisms to Lie groups*,  In: Callegaro F., Cohen F., De Concini C., Feichtner E., Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series, vol 14, Springer 2016 ([arXiv:1412.5668](https://arxiv.org/abs/1412.5668), [doi:10.1007/978-3-319-31580-5_15](https://doi.org/10.1007/978-3-319-31580-5_15)) 
 
+On [[loop spaces]] of [[Riemannian manifolds]] via [[geodesics]]:
+
+* Abbas Bahri, [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds* &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
+
 
 
 
