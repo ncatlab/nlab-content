@@ -39,6 +39,10 @@ Review of [[configuration spaces of points]] and their relation to [[Cohomotopy]
 
 * {#Kallel25} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
 
+On [[loop spaces]] of [[Riemannian manifolds]] via [[geodesics]]:
+
+* Abbas Bahri, [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds* &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
+
 
 
 ## Related entries
