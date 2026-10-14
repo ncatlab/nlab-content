@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -73,6 +71,14 @@ The article
 
 * {#KleinMalkiewich16} [[John Klein]], [[Cary Malkiewich]], _The transfer is functorial_, [arXiv:1603.01872](http://arxiv.org/abs/1603.01872), 
 
-claimed to establish the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers on the level of [[homotopy categories]] (without higher coherences), but contained an unfixable mistake (cf. _[Corrigendum to 'The transfer is functorial'](https://www.sciencedirect.com/science/article/pii/S0001870822005692)_). 
+claimed to establish the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers on the level of [[homotopy categories]] (without higher coherences), but contained an unfixable mistake (cf. _[Corrigendum to 'The transfer is functorial'](https://www.sciencedirect.com/science/article/pii/S0001870822005692)_)
+
+Explicit [[counterexamples]]:
+
+* [[Georg Lehner]], [[Cary Malkiewich]], Florian Naef: *The Becker--Gottlieb transfer is not functorial: An example based on units of group rings* &lbrack;[arXiv:2610.18720](https://arxiv.org/abs/2610.18720)&rbrack;
+
+* Florian Naef, Robin Stoll: *The Becker-Gottlieb transfer is not functorial: An example using $C_\infty$-algebras* &lbrack;[arXiv:2610.18718](https://arxiv.org/abs/2610.18718)&rbrack;
+
+
 
 [[!redirects transfer index conjecture]]
