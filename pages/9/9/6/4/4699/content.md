@@ -9,6 +9,20 @@ On [[string topology]] operations in the generality of (the [[ordinary homology|
 
 * [[Alastair Hamilton]], [[Andrey Lazarev]]: *Symplectic $A_\infty$-algebras and string topology operations*, Amer. Math. Soc. Transl. **224** 2 (2008) 147–157 &lbrack;[arXiv:0707.4003](https://arxiv.org/abs/0707.4003)&rbrack;
 
+On [[rational homotopy theory]] for non-[[connected spaces]]:
+
+* [[Andrey Lazarev]], [[Martin Markl]]: *Disconnected rational homotopy theory*, Advances in Mathematics **283** (2015) 303--361 \[<a href="https://doi.org/10.1016/j.aim.2015.07.009">doi:10.1016/j.aim.2015.07.009</a>, [arXiv:1305.1037](https://arxiv.org/abs/1305.1037)\]
+
+ 
+On [[Koszul duality]] duality:
+
+* [[Julian Holstein]], [[Andrey Lazarev]], *Categorical Koszul duality*, Advances in Mathematics **409** B (2022) 108644 &lbrack;[arXiv:Koszul duality2006.01706](https://arxiv.org/pdf/2006.01705.pdf), [doi:10.1016/j.aim.2022.108644](https://doi.org/10.1016/j.aim.2022.108644)&rbrack;
+
+On the [[Riemann-Hilbert correspondence]]:
+
+* [[Joseph Chuang]], [[Julian Holstein]], [[Andrey Lazarev]] _Maurer–Cartan moduli and theorems of Riemann–Hilbert type_, Applied Categorical Structures **29** (2021) 685–728 &lbrack;[doi:10.1007/s10485-021-09631-3](https://doi.org/10.1007/s10485-021-09631-3)&rbrack;
+
+
 See also:
 
 * [[Joseph Chuang]], Andrey Lazarev, _L-infinity maps and twistings_, [arxiv/0912.1215](http://arxiv.org/abs/0912.1215); 
@@ -37,14 +51,6 @@ See also:
 
 * [[Joseph Chuang]], [[Andrey Lazarev]], Def. 1.6 in: *Combinatorics and formal geometry of the master equation*,  Lett. Math. Phys. **103** (2013) 79–112  ([arXiv:1205.5970](https://arxiv.org/abs/1205.5970), [doi:10.1007/s11005-012-0586-1](https://doi.org/10.1007/s11005-012-0586-1)) 
 
- 
-On [[Koszul duality]] duality:
-
-* [[Julian Holstein]], [[Andrey Lazarev]], *Categorical Koszul duality*, Advances in Mathematics **409** B (2022) 108644 &lbrack;[arXiv:Koszul duality2006.01706](https://arxiv.org/pdf/2006.01705.pdf), [doi:10.1016/j.aim.2022.108644](https://doi.org/10.1016/j.aim.2022.108644)&rbrack;
-
-On the [[Riemann-Hilbert correspondence]]:
-
-* [[Joseph Chuang]], [[Julian Holstein]], [[Andrey Lazarev]] _Maurer–Cartan moduli and theorems of Riemann–Hilbert type_, Applied Categorical Structures **29** (2021) 685–728 &lbrack;[doi:10.1007/s10485-021-09631-3](https://doi.org/10.1007/s10485-021-09631-3)&rbrack;
 
 
 category: people
