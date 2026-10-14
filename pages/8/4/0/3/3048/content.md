@@ -20,6 +20,12 @@ On [[monoidal enriched categories]]:
 
 * {#BataninMarkl12} [[Michael Batanin]], [[Martin Markl]], Section 2 of *Centers and homotopy centers in enriched monoidal categories*, Advances in Mathematics **230** 4–6 (2012) 1811-1858 &lbrack;[doi:10.1016/j.aim.2012.04.011](https://doi.org/10.1016/j.aim.2012.04.011), [arXiv:1109.4084](https://arxiv.org/abs/1109.4084)&rbrack;
 
+
+On [[rational homotopy theory]] for non-[[connected spaces]]:
+
+* [[Andrey Lazarev]], [[Martin Markl]]: *Disconnected rational homotopy theory*, Advances in Mathematics **283** (2015) 303--361 \[<a href="https://doi.org/10.1016/j.aim.2015.07.009">doi:10.1016/j.aim.2015.07.009</a>, [arXiv:1305.1037](https://arxiv.org/abs/1305.1037)\]
+
+
 A [[2-monad|2-monadic]] characterization of [[abelian categories]]:
 
 * [[Martin Markl]], Dominik Trnka: *Lax Distributivity and a Characterization of Abelian Categories* &lbrack;[arXiv:2607.25740](https://arxiv.org/abs/2607.25740)&rbrack;
