@@ -1300,9 +1300,13 @@ Further discussion of rational homotopy theory seen within the theory of algebra
 
 * [[Jacob Lurie]], Section 1 of: DAG XIII: _[[Rational and p-Adic Homotopy Theory]]_, 2011 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]])
 
-Generalization to non-[[connected spaces]] is discussed in
+Generalization to non-[[connected spaces]]:
 
-* {#BuijsMurillo12} [[Urtzi Buijs]], [[Aniceto Murillo]], _Algebraic models of non-connected spaces and homotopy theory of $L_\infty$-algebras_, Advances in Mathematics 236 (2013): 60-91. ([arXiv:1204.4999](https://arxiv.org/abs/1204.4999))
+* {#BuijsMurillo12} [[Urtzi Buijs]], [[Aniceto Murillo]]: _Algebraic models of non-connected spaces and homotopy theory of $L_\infty$-algebras_, Advances in Mathematics **236** (2013)  60--91 &lbrack;[doi:10.1016/j.aim.2012.12.014](https://doi.org/10.1016/j.aim.2012.12.014), [arXiv:1204.4999](https://arxiv.org/abs/1204.4999)&rbrack;
+
+* [[Andrey Lazarev]], [[Martin Markl]]: *Disconnected rational homotopy theory*, Advances in Mathematics **283** (2015) 303--361 \[<a href="https://doi.org/10.1016/j.aim.2015.07.009">doi:10.1016/j.aim.2015.07.009</a>, [arXiv:1305.1037](https://arxiv.org/abs/1305.1037)\]
+
+
 
 ### Relation to Whitehead products
 
