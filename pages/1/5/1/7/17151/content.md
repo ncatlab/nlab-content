@@ -39,6 +39,10 @@ On the [[Dennis trace]] on [[algebraic K-theory]] and relating to [[bicategorica
 On the [[model structure on symmetric spectra]]:
 
 * [[Cary Malkiewich]], Maru Sarazola: *A concise proof of the stable model structure on symmetric spectra* &lbrack;[arXiv:2402.04220](https://arxiv.org/abs/2402.04220)&rbrack;
+
+Explicit [[counterexample]] to the would-be [[functor|functoriality]] of [[Becker-Gottlieb transfer]]:
+
+* [[Georg Lehner]], [[Cary Malkiewich]], Florian Naef: *The Becker--Gottlieb transfer is not functorial: An example based on units of group rings* &lbrack;[arXiv:2610.18720](https://arxiv.org/abs/2610.18720)&rbrack;
  
 
 ## Related entries
