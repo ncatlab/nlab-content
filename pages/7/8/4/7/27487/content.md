@@ -67,7 +67,7 @@ $$
 
 ### Via Geometric Realizations
 
-In a [[simplicial model category]] $C$, [[homotopy colimits]] indexed by $\Delta^{op}$ are modeled by [[geometric realization]] (see [there](geometric+realization+of+simplicial+topological+spaces#RelationToHomotopyColimit)). Therefore, the Bousfield-Kan formula for the [[homotopy colimit]] of a (pointwise [[cofibrant]]) diagram $F \colom I\to C$ is computed by
+In a [[simplicial model category]] $C$, [[homotopy colimits]] indexed by $\Delta^{op}$ are modeled by [[geometric realization]] (see [there](geometric+realization+of+simplicial+topological+spaces#RelationToHomotopyColimit)). Therefore, the Bousfield-Kan formula for the [[homotopy colimit]] of a (pointwise [[cofibrant]]) diagram $F \colon I\to C$ is computed by
 $$
   {\mathrm {hocolim}}_{I}F
     \simeq
