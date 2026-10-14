@@ -15,7 +15,7 @@
 
 ## Idea
 
-A **virtual bicategory** is a [[virtual double category]] in which every [[tight morphism]] is an identity.
+A **virtual bicategory** (or **virtual 2-category**) is a [[virtual double category]] in which every [[tight morphism]] is an identity.
 
 ## Related pages
 
@@ -27,7 +27,7 @@ Virtual bicategories are called **multi-bicategories** in:
 
 * [[J. R. B. Cockett]], [[J. Koslowski]], and [[R. A. G. Seely]], _Morphisms and modules for poly-bicategories_, Theory and Applications of Categories 11.2 (2003): 15-74.
 
-The terminology on this page was introduced by:
+The term "virtual" was introduced by:
 
 * {#CruttwellShulman} [[Geoff Cruttwell]], [[Mike Shulman]], _A unified framework for generalized multicategories_ &lbrack;[arXiv:0907.2460](http://arxiv.org/abs/0907.2460)&rbrack;
 
