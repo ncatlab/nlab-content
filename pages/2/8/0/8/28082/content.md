@@ -21,5 +21,9 @@ On the [[shape of an (infinity,1)-topos|shape of $\infty$-topoi]]:
 
 * [[Georg Lehner]]: *Shape Theory of $\infty$-Topoi: Inverse Limits, Products, and (Co)homology* &lbrack;[arXiv:2608.17525](https://arxiv.org/abs/2608.17525)&rbrack;
 
+Explicit [[counterexample]] to the would-be [[functor|functoriality]] of [[Becker-Gottlieb transfer]]:
+
+* [[Georg Lehner]], [[Cary Malkiewich]], Florian Naef: *The Becker--Gottlieb transfer is not functorial: An example based on units of group rings* &lbrack;[arXiv:2610.18720](https://arxiv.org/abs/2610.18720)&rbrack;
+
 
 category: people
