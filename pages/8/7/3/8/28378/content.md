@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[comonads]] as [[spaces]]:
+
+* [[Aaron David Fairbanks]], [[Kevin Carlson]], and [[David I. Spivak]], *Comonads as spaces* (2026) &lbrack;[arXiv:2607.15091](https://arxiv.org/abs/2607.15091), [doi:10.48550/arXiv.2607.15091](https://doi.org/10.48550/arXiv.2607.15091)&rbrack;
+
 On [[double categories]]:
 
 * [[Aaron David Fairbanks]] and [[Michael Shulman]], *Doubly weak double categories*, Applied Categorical Structures **34** 26 (2026) &lbrack;[arXiv:2506.23651](https://arxiv.org/abs/2506.23651), [doi:10.1007/s10485-026-09863-1](https://doi.org/10.1007/s10485-026-09863-1)&rbrack;
