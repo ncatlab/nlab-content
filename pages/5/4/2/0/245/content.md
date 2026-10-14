@@ -127,7 +127,7 @@ However, unlike the definition of a monoidal category as a [[bicategory]] with o
 
 
 A commutative [[monoid]] is the same as a monoid [[internalization|in the category of]] monoids.
-Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result goes back to the [1986 paper by Joyal and Street](http://maths.mq.edu.au/~street/JS1.pdf).  (There is also a notion of [[braided pseudomonoid]] that specializes directly in [[Cat]] to braided monoidal categories.)
+Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result goes back to the [1986 paper by Joyal and Street](https://web.archive.org/web/20110219234516/https://maths.mq.edu.au/~street/JS1.pdf).  (There is also a notion of [[braided pseudomonoid]] that specializes directly in [[Cat]] to braided monoidal categories.)
 
 A braided monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little 2-cubes operad]].
 
@@ -212,9 +212,9 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 The original articles on braided monoidal categories (the published version does not completely supersede the _Macquarie Math Reports_, which have some extra results):
 
-* {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
+* {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](https://web.archive.org/web/20180406034230/http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
 
-* {#JoyalStreet86} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **86-0081** (1986) &lbrack;[pdf](http://maths.mq.edu.au/~street/JS1.pdf), [[JoyalStreet-BraidedMonoidal.pdf:file]]&rbrack;
+* {#JoyalStreet86} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **86-0081** (1986) &lbrack;[pdf](https://web.archive.org/web/20110219234516/https://maths.mq.edu.au/~street/JS1.pdf), [[JoyalStreet-BraidedMonoidal.pdf:file]]&rbrack;
 
 * [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
