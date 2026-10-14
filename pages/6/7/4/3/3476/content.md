@@ -166,7 +166,7 @@ $$
       \; 
       subtr_D
         \,\colon\, 
-      \underset{a\colon A(c)}{\Pi} D\big(subtr(a)\big)
+      \underset{a\colon A(root)}{\Pi} D\big(subtr(a)\big)
       \\
       \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
       \;\;\vdash\;\;
