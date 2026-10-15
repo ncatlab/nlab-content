@@ -3,7 +3,15 @@
 
 * [institute page](https://www.queensu.ca/english/people/laura-murray)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=332035)
+
 ## Selected writings
+
+
+On [[edge modes]] in [[Maxwell theory|abelian]] [[Yang-Mills theory]] and [[abelian Chern-Simons theory]] via [[homotopical algebraic quantum field theory|homological methods]]:
+
+* Philippe Mathieu, [[Laura Murray]], [[Alexander Schenkel]], Nicholas J. Teh: *Homological perspective on edge modes in linear Yang–Mills and Chern–Simons theory*, Lett Math Phys **110** (2020) 1559--1584 \[<a href="https://doi.org/10.1007/s11005-020-01269-x">doi:10.1007/s11005-020-01269-x</a>, [arXiv:1907.10651](https://arxiv.org/abs/1907.10651)\]
+
 
 On [[scissors congruence]] via [[algebraic K-theory]]:
 
