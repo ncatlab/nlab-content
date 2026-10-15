@@ -3,6 +3,8 @@
 
 * [institute page](https://www.nottingham.ac.uk/mathematics/people/alexander.schenkel)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=175828)
+
 * [inSpire page](https://inspirehep.net/authors/1058990)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=GqUTlV4AAAAJ&hl=en)
@@ -65,6 +67,10 @@ and its [[model structure on algebras over an operad]] (with respect to the [[mo
 On [[Pontryagin duality]] for [[Cheeger-Simons differential characters]]:
 
 * [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard J. Szabo]]: *Cheeger-Simons differential characters with compact support and Pontryagin duality*, Communications in Analysis and Geometry **27** 7 (2019) 1473-1522 &lbrack;[arXiv:1511.00324](https://arxiv.org/abs/1511.00324), [doi:10.4310/CAG.2019.v27.n7.a2](https://doi.org/10.4310/CAG.2019.v27.n7.a2)&rbrack;
+
+On [[edge modes]] in [[Maxwell theory|abelian]] [[Yang-Mills theory]] and [[abelian Chern-Simons theory]] via [[homotopical algebraic quantum field theory|homological methods]]:
+
+* Philippe Mathieu, [[Laura Murray]], [[Alexander Schenkel]], Nicholas J. Teh: *Homological perspective on edge modes in linear Yang–Mills and Chern–Simons theory*, Lett Math Phys **110** (2020) 1559--1584 \[<a href="https://doi.org/10.1007/s11005-020-01269-x">doi:10.1007/s11005-020-01269-x</a>, [arXiv:1907.10651](https://arxiv.org/abs/1907.10651)\]
 
 
 On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
