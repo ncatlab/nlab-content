@@ -139,7 +139,7 @@ Often this is considered for $X^2$ the [[upper half plane]] with coordinate $x$ 
 Now, understanding ([Wen '92 (2.64)](#Wen1992))
 
 \[
-  t' \coloneqq t - c x
+  t' \coloneqq t + c x
 \]
 
 as a [[lightcone gauge]] coordinate, this reads:
