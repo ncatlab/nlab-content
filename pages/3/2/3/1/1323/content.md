@@ -65,7 +65,7 @@ is monic because it has a [[retraction]] $(1_{A \times B}, \phi): A \times B + A
 
 The composite of the coprojection $i$ with the canonical isomorphism $A \times B + A \times C \cong A \times (B + C)$, namely $1_A \times i_B: A \times B \to A \times (B + C)$, is therefore also monic. Given that $\langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle: A \to A \times (B + C)$, we conclude 
 
-$$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle = (1_A \times i_B)\langle 1, g \rangle,$$ 
+$$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle = (1_A \times i_B)\langle 1_A, g \rangle,$$ 
 
 whence $\langle 1_A, f\rangle = \langle 1_A, g\rangle: A \to A \times B$ since $1_A \times i_B$ is monic. It follows that $f = g$, as was to be shown. 
 =-- 
