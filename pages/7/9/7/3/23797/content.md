@@ -144,6 +144,8 @@ See also:
 
 * Samuel Bieri, [[Jürg Fröhlich]]: *Effective field theory and tunneling currents in the fractional quantum Hall effect*, Annals of Physics **327** 4 (2012) 959-993 \[<a href="https://doi.org/10.1016/j.aop.2011.10.012">doi:10.1016/j.aop.2011.10.012</a>, [arXiv:1107.5012](https://arxiv.org/abs/1107.5012)\]
 
+* Philippe Mathieu, [[Laura Murray]], [[Alexander Schenkel]], Nicholas J. Teh: *Homological perspective on edge modes in linear Yang–Mills and Chern–Simons theory*, Lett Math Phys **110** (2020) 1559--1584 \[<a href="https://doi.org/10.1007/s11005-020-01269-x">doi:10.1007/s11005-020-01269-x</a>, [arXiv:1907.10651](https://arxiv.org/abs/1907.10651)\]
+
 * J. Fernando Barbero G., Bogar Díaz, Juan Margalef-Bentabol, Eduardo J.S. Villaseñor: *Edge observables of the Maxwell-Chern-Simons theory*, Physical Review D, **106** (2022) 025011 \[<a href="https://doi.org/10.1103/PhysRevD.106.025011">doi:10.1103/PhysRevD.106.025011</a>, [arXiv:2204.06073](https://arxiv.org/abs/2204.06073)\]
   > (via [[Maxwell-Chern-Simons theory]])
 
