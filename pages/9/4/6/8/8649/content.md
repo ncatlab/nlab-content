@@ -116,7 +116,7 @@ reviewed in:
 
 Understanding as [[quantum anomaly]] cancellation for the [[charged particle|charged]] [[relativistic particle|particle]]:
 
-* [[Xiao-Gang Wen]], [[Edward Witten]]; §5 in: *Electric and Magnetic Charges in Superstring Models*, Nucl. Phys.B **261** (1985) 651--677 \[<a href="https://doi.org/10.1016/0550-3213(85)90592-9">doi:10.1016/0550-3213(85)90592-9</a>, [inSpire:214221](http://inspirehep.net/literature/214221)\]
+* {#WenWitten1985} [[Xiao-Gang Wen]], [[Edward Witten]]; §5 in: *Electric and Magnetic Charges in Superstring Models*, Nucl. Phys.B **261** (1985) 651--677 \[<a href="https://doi.org/10.1016/0550-3213(85)90592-9">doi:10.1016/0550-3213(85)90592-9</a>, [inSpire:214221](http://inspirehep.net/literature/214221)\]
 
  
 General review and further discussion:
