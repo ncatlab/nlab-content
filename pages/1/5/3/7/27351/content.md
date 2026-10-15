@@ -1015,6 +1015,8 @@ On the [[self-dual gauge theory|chiral]] abelian [[WZW model]] ([[edge modes]]) 
 
 * [[Irais Rubalcava-Garcia]]: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
 
+* Philippe Mathieu, [[Laura Murray]], [[Alexander Schenkel]], Nicholas J. Teh: *Homological perspective on edge modes in linear Yang–Mills and Chern–Simons theory*, Lett Math Phys **110** (2020) 1559--1584 \[<a href="https://doi.org/10.1007/s11005-020-01269-x">doi:10.1007/s11005-020-01269-x</a>, [arXiv:1907.10651](https://arxiv.org/abs/1907.10651)\]
+
 
 On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian Chern-Simons theory and on the corresponding ground state degeneracy ([[topological order]]) on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]]:
 
