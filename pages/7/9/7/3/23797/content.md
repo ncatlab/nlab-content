@@ -175,6 +175,9 @@ On edge modes via the (abelian) [[WZW model]] on the [[boundary field theory|bou
 
 * {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
 
+* Marc Geiller, Puttarak Jai-akson: *Extended actions, dynamics of edge modes, and entanglement entropy*, J. High Energ. Phys. **2020** 134 (2020) \[<a href="https://doi.org/10.1007/JHEP09(2020)134">doi:10.1007/JHEP09(2020)134</a>, [arXiv:1912.06025](https://arxiv.org/abs/1912.06025)\]
+
+
 * [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
 
 * [[Thomas G. Mertens]], Qi-Feng Wu: *Minimal Factorization of Chern-Simons Theory -- Gravitational Anyonic Edge Modes* &lbrack;[arXiv:2505.00501](https://arxiv.org/abs/2505.00501)&rbrack;
