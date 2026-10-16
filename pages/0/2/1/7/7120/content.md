@@ -99,11 +99,11 @@ See at _[global equivariant stable homotopy theory -- Relation to plain stable h
 
 ## References
 
-* {#FranjouPirashvili04} V. Franjou, [[T. Pirashvili]], _Comparison of abelian categories recollements_, Doc. Math. 9 (2004), 41&#8211;56, [MR2005c:18008](http://www.ams.org/mathscinet-getitem?mr=2054979), [pdf](http://www.math.uni-bielefeld.de/documenta/vol-09/03.pdf)
+* {#FranjouPirashvili04} V. Franjou, [[T. Pirashvili]], _Comparison of abelian categories recollements_, Doc. Math. 9 (2004), 41&#8211;56, [MR2005c:18008](http://www.ams.org/mathscinet-getitem?mr=2054979), [pdf](https://pure.mpg.de/rest/items/item_3124590_2/component/file_3438777/content)
 
 * {#BeilinsonBernsteinDeligne82} A.A. Beilinson, J. Bernstein, [[Pierre Deligne]], _Faisceaux pervers. Analysis and topology on singular spaces_, I (Luminy, 1981), 5&#8211;171, Aste'risque 100, Soc. Math. France, Paris 1982.
 
-* {#Achar2021} P. Achar. _Perverse Sheaves and Applications to Representation Theory._ Vol. 258. Mathematical Surveys and Monographs. Providence, Rhode Island: American Mathematical Society, 2021. [doi:10.1090/surv/258](https://doi.org/10.1090/surv/258).
+* {#Achar2021} Pramod N. Achar. _Perverse Sheaves and Applications to Representation Theory._ Vol. 258. Mathematical Surveys and Monographs. Providence, Rhode Island: American Mathematical Society, 2021. [doi:10.1090/surv/258](https://doi.org/10.1090/surv/258).
 
 
 In references
@@ -114,7 +114,7 @@ In references
 one studies the following kind of sources of recollement situations for triangulated categories: $k$ is a commutative [[field]], $A$ a finite dimensional unital associative $k$-algebra, $e$ an idempotent, and $D^b(A)$ the bounded derived category of right $A$-modules. Suppose $eA(1-e) = 0$ and the global dimension of $A$ is finite. Then there is a recollement of triangulated categories involving $D^b(eAe)$, $D^b(A)$ and $D^b((1-e)A(1-e))$. 
 
 * S. Koenig, _Tilting complexes, perpendicular categories and recollements of derived module categories of rings._, [MR92k:18009](http://www.ams.org/mathscinet-getitem?mr=1124785), <a href="http://dx.doi.org/10.1016/0022-4049(91)90029-2">doi</a>
-* Qinghua Chen,Yanan Lin, _Recollements of extension algebras_, Science in China 46, 4, 2003 [pdf](http://www.springerlink.com/content/h185372128726855/fulltext.pdf)
+* Qinghua Chen, Yanan Lin, _Recollements of extension algebras_, Science in China 46, 4, 2003 [pdf](http://www.springerlink.com/content/h185372128726855/fulltext.pdf)
 
 Another source of examples is due MacPherson and Vilonen
 
@@ -123,7 +123,7 @@ A.M.S. 341 (1994), 665&#8211;676, [MR94d:16012](http://www.ams.org/mathscinet-ge
 
 * Michael Artin, Grothendieck Topologies. Harvard University, 1962. 
 * Yuri Berest, Oleg Chalykh, Farkhod Eshmatov, _Recollement of deformed preprojective algebras and the Calogero-Moser correspondence_, Mosc. Math. J. 8 (2008), no. 1, 21&#8211;37, 183, [arxiv/0706.3006](http://arxiv.org/abs/0706.3006), [MR2009h:16030](http://www.ams.org/mathscinet-getitem?mr=2422265)
-* Roy Joshua, [pdf](http://www.math.osu.edu/~joshua.1/GV.pdf)
+* Roy Joshua, Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories, [pdf](http://www.math.osu.edu/~joshua.1/GV.pdf) [[JoshuaDuality.pdf:file]]
 * Yang Han, _Recollements and Hochschild theory_, [arxiv/1101.5697](http://arxiv.org/abs/1101.5697)
 
 For treatment in the setting of $\infty$-categories:
