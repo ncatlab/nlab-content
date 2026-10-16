@@ -104,7 +104,10 @@ In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structur
 
 Discussion via the [[synthetic differential geometry]] of [[differential cohesion]]:
 
-* [[Igor Khavkine]], [[Urs Schreiber]]: *[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations -- Jets and comonad structure]]*, J. Geom. Phys. (2026) &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+* [[Igor Khavkine]], [[Urs Schreiber]]: *[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations -- Jets and comonad structure]]*, J. Geom. Phys. (2026) 106025 &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238), [doi:10.1016/j.geomphys.2026.106025](https://doi.org/10.1016/j.geomphys.2026.106025)&rbrack;
+
+
+  
 
 Discussion in differentially cohesive [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
