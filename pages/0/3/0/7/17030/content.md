@@ -89,13 +89,15 @@ partially reviewed also in
 * Rekha Santhanam, Soumyadip Thandar, §2 of: *Equivariant Intrinsic Formality* &lbrack;[arXiv:2301.06824](https://arxiv.org/abs/2301.06824)&rbrack;
 
 
-See also 
+See also: 
 
-* Peter J. Kahn, _Rational Moore G-Spaces_, Transactions of the American Mathematical Society
-Vol. 298, No. 1 (1986), pp. 245-271 ([jstor:2000619](https://www.jstor.org/stable/2000619))
+* Peter J. Kahn: _Rational Moore G-Spaces_, Transactions of the American Mathematical Society **298** 1 (1986) 245--271 &lbrack;[jstor:2000619](https://www.jstor.org/stable/2000619)&rbrack;
+
+* C. Allday, V. Puppe; sections 3.3 and 3.4 of: _Cohomological methods in transformation groups_, Cambridge (1993) &lbrack;<a href=" https://doi.org/10.1017/CBO9780511526275">doi:10.1017/CBO9780511526275</a>&rbrack;
+
+* {#Golub2026} [[Nikita Golub]]: *Algebraically and geometrically minimal DG-models of diagrams of spaces* &lbrack;[arXiv:2609.34822](https://arxiv.org/abs/2609.34822)&rbrack;
 
 
 
-* C. Allday, V. Puppe, sections 3.3 and 3.4 of _Cohomological methods in transformation groups_, Cambridge 1993 (<a href=" https://doi.org/10.1017/CBO9780511526275">doi:10.1017/CBO9780511526275</a>)
 
 [[!redirects rational equivariant homotopy theory]]
