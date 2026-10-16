@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -243,7 +241,7 @@ Dedicated [[string phenomenology]] for the case of compactification on [[G₂-ma
 
 * {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl. Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
 
-* {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
+* {#Barrett06} Adam B. Barrett: _M-Theory on Manifolds with $G_2$ Holonomy_, PhD thesis Oxford (2006) &lbrack;[arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096)&rbrack;
 
 * {#BourjailyEspahbodi08} Jacob L. Bourjaily, Sam Espahbodi, _Geometrically Engineerable Chiral Matter in M-Theory_ ([arXiv:0804.1132](https://arxiv.org/abs/0804.1132))
 
