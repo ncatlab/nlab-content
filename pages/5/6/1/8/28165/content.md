@@ -19,9 +19,14 @@ On a derivation of [[D-brane charge quantization in K-theory|D-brane charge quan
 
 * [[Nikita Golub]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:K from M|On the Derivation of Twisted K-Theory from M-Theory]]* \[<a href="https://arxiv.org/abs/2609.36048">arXiv:2609.36048</a>\]
 
+On [[rational homotopy theory]] for [[diagrams]] of [[homotopy type|spaces]] (such as indexed over an [[orbit category]], for [[rational equivariant homotopy theory]]):
+
+* {#Golub2026} [[Nikita Golub]]: *Algebraically and geometrically minimal DG-models of diagrams of spaces* &lbrack;[arXiv:2609.34822](https://arxiv.org/abs/2609.34822)&rbrack;
+
 On [[rationalization]] of [[wedge sums]]:
 
 * [[Nikita Golub]]: *Wedges, Rational completion and $\mathbb{Q}$-bad spaces* &lbrack;[arXiv:2610.12255](https://arxiv.org/abs/2610.12255)&rbrack;
+
 
 
 
