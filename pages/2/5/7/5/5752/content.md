@@ -40,8 +40,8 @@ On [[higher gauge fields]] viewed through the [[variational bicomplex]]:
 
 On [[jet comonads]]:
 
+* [[Igor Khavkine]], [[Urs Schreiber]]: *[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations -- Jets and comonad structure]]*, J. Geom. Phys. (2026) 106025 &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238), [doi:10.1016/j.geomphys.2026.106025](https://doi.org/10.1016/j.geomphys.2026.106025)&rbrack;
 
-* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 On the [[Peierls bracket]]:
 
