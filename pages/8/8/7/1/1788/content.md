@@ -6,6 +6,8 @@
 
 ***
 
+[[JoshuaDuality.pdf:file]]
+
 quantum incrementer:
 
 * *A Class of Efficient Quantum Incrementer Gates for Quantum Circuit Synthesis*, International Journal of Modern Physics B **28** 01 (2014) 1350191 \[<a href="https://doi.org/10.1142/S0217979213501919">doi:10.1142/S0217979213501919</a>\]
