@@ -63,6 +63,8 @@ An article aiming at the categorification of perverse sheaves is
 
 * [[Mikhail Kapranov]], Vadim Schechtman, _Perverse Schobers_, [arxiv/1411.2772](http://arxiv.org/abs/1411.2772)
 
+* Pramod N. Achar. _Perverse Sheaves and Applications to Representation Theory._ Vol. 258. Mathematical Surveys and Monographs. Providence, Rhode Island: American Mathematical Society, 2021. [doi:10.1090/surv/258](https://doi.org/10.1090/surv/258).
+
 with a proposed application to physics
 
 * [[Mikhail Kapranov]], [[Yan Soibelman]], Lev Soukhanov. *Perverse schobers and the Algebra of the Infrared* (2020). ([arXiv:2011.00845](https://arxiv.org/abs/2011.00845)).
