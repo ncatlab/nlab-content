@@ -121,14 +121,18 @@ Morse theory on [[infinite-dimensional manifold|infinite-dimensional]] [[Hilbert
 * [[Richard S. Palais]], [[Stephen Smale]]: *A generalized Morse theory*, Bull. Amer. Math. Soc. **70** 1 (1964) 165--172 &lbrack;[doi:10.1090/S0002-9904-1964-11062-4](https://doi.org/10.1090/S0002-9904-1964-11062-4), [euclid:bams/1183525794](projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-70/issue-1/A-generalized-Morse-theory/bams/1183525794.full)&rbrack;
 
 
-Specifically for Morse function the [[kinetic energy|kinetic]] [[Dirichlet energy]] [[functional]] on [[loop spaces]]:
+Specifically for Morse function the [[kinetic energy|kinetic]] [[Dirichlet energy]] [[functional]] on ([[free loop space|free]]) [[loop spaces]] of [[Riemannian manifolds]]:
 
 * [[Wolfgang Ziller]]: *The free loop space of globally symmetric spaces*, Invent. Math. **41** (1977) 1--22 &lbrack;[doi:10.1007/BF01390161](http://doi.org/10.1007/BF01390161), [eudml:142482](https://eudml.org/doc/142482)&rbrack;
 
 * [[Alexandru Oancea]]: *Morse theory, closed geodesics, and the homology of free loop spaces*, in: *Free Loop Spaces in Geometry and Topology* IRMA Lect. Math. Theor. Phys. **24**,  EMS (2015) &lbrack;[arXiv:1406.3107 math.DG](https://arxiv.org/abs/1406.3107), [doi:10.4171/153/2](https://www.google.com/search?q=https://doi.org/10.4171/153/2)&rbrack;
 
+* [[John Morgan]]: *Morse Theory on the loop space*, lecture notes (2020) &lbrack;[pdf](https://www.math.columbia.edu/~jmorgan/The%20loop%20space.pdf), [[Morgan_LoopSpaceMorseTheory.pdf|pdf:file]]&rbrack;
+
 * {#MaterialsMorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-11) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-11.pdf|main.pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-11.zip|sources.zip:file]], [[Morse-Bott-of-Loop-Spaces_Lean_26-10-08.zip|lean.zip:file]]&rbrack;
-  > (on Morse-Bott theory of [[free loop spaces]] of [[Riemannian manifolds]]) 
+
+
+
 
 [[!redirects Morse-Bott theory]]
 
