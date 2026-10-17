@@ -193,12 +193,13 @@ On loop spaces of [[configuration spaces of points]]:
 * [[Fred Cohen]], [[Samuel Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
   > (on [[ordinary homology]] of [[loop spaces]] of configuration spaces)
 
-On loop spaces of [[Riemannian manifolds]] via [[geodesics]]:
+On loop spaces of [[Riemannian manifolds]] via piecewise [[geodesics]]:
 
-* Abbas Bahri, [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds* &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
+* [[Abbas Bahri]], [[Fred Cohen]]: *On "small geodesics" and free loop spaces* &lbrack;[arXiv:0806.0637](https://arxiv.org/abs/0806.0637)&rbrack;
 
+posthumously completed and published as:
 
-
+* [[Abbas Bahri]], [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds*, Proceedings of *[Focus Program on Algebraic Topology In memory of Fred Cohen](http://www.fields.utoronto.ca/activities/25-26/algebraic-topology)* (Fields Institute, Jul 2 -- Aug 1, 2025), [Fields Institute Communications](https://link.springer.com/series/10503), Springer (2026) &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
 
 [[!redirects loop space]]
 [[!redirects loop spaces]]
