@@ -73,9 +73,13 @@ On [[mapping spaces]] of [[group homomorphisms]] from [[finitely generated group
 
 * [[Frederick R. Cohen]], [[Mentor Stafa]], *A survey on spaces of homomorphisms to Lie groups*,  In: Callegaro F., Cohen F., De Concini C., Feichtner E., Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series, vol 14, Springer 2016 ([arXiv:1412.5668](https://arxiv.org/abs/1412.5668), [doi:10.1007/978-3-319-31580-5_15](https://doi.org/10.1007/978-3-319-31580-5_15)) 
 
-On [[loop spaces]] of [[Riemannian manifolds]] via [[geodesics]]:
+On [[loop spaces]] of [[Riemannian manifolds]] via piecewise [[geodesics]]:
 
-* Abbas Bahri, [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds* &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
+* [[Abbas Bahri]], [[Fred Cohen]]: *On "small geodesics" and free loop spaces* &lbrack;[arXiv:0806.0637](https://arxiv.org/abs/0806.0637)&rbrack;
+
+posthumously completed and published as:
+
+* [[Abbas Bahri]], [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds*, Proceedings of *[Focus Program on Algebraic Topology In memory of Fred Cohen](http://www.fields.utoronto.ca/activities/25-26/algebraic-topology)* (Fields Institute, Jul 2 -- Aug 1, 2025), [Fields Institute Communications](https://link.springer.com/series/10503), Springer (2026) &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
 
 
 
