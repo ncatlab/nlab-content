@@ -88,7 +88,7 @@ $$
   \,.
 $$
 
-This is originally due to [[Grothendieck]], whence the name. Refined accounts are in  ([Deligne 66](#Deligne66), [Verdier 68](Verdier68), [Neeman 96](#Neeman96)).
+This is originally due to [[Grothendieck]], whence the name. Refined accounts are in  ([Deligne 66](#Deligne66), [Verdier 68](#Verdier68), [Neeman 96](#Neeman96)).
 
 ### Quasicoherent sheaves in $E_\infty$-geometry
 
