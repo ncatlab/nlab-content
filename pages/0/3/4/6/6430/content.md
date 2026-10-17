@@ -61,6 +61,9 @@ On [[rational homotopy theory]] and [[differential forms]]:
 * {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]]: *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
+On [[Morse theory]] for [[Morse function]] the [[kinetic energy|kinetic]] [[Dirichlet energy]] [[functional]] on ([[free loop space|free]]) [[loop spaces]] of [[Riemannian manifolds]]:
+
+* [[John Morgan]]: *Morse Theory on the loop space*, lecture notes (2020) &lbrack;[pdf](https://www.math.columbia.edu/~jmorgan/The%20loop%20space.pdf), [[Morgan_LoopSpaceMorseTheory.pdf|pdf:file]]&rbrack;
 
 
 ## Related entries
