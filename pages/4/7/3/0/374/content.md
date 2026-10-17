@@ -53,7 +53,7 @@ Finally we mention genuine
 
 \begin{definition}\label{TheStandardDefinition}
 A **topological space** is a [[set]] $X$ equipped with a set of [[subsets]] 
-$U \subset X$, called the **[[open sets]]**, which are closed under 
+$U \subset X$, called the **[[open sets]]**, which is closed under
 
 1. finite [[intersections]],
 
