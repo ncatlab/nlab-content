@@ -41,7 +41,9 @@ Review of [[configuration spaces of points]] and their relation to [[Cohomotopy]
 
 On [[loop spaces]] of [[Riemannian manifolds]] via [[geodesics]]:
 
-* Abbas Bahri, [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds* &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
+On [[loop spaces]] of [[Riemannian manifolds]] via piecewise [[geodesics]]:
+
+* [[Abbas Bahri]], [[Fred Cohen]], Moncef Ghazel, [[Sadok Kallel]]: *Geodesic Models for Loop Spaces on Riemannian Manifolds*, Proceedings of *[Focus Program on Algebraic Topology In memory of Fred Cohen](http://www.fields.utoronto.ca/activities/25-26/algebraic-topology)* (Fields Institute, Jul 2 -- Aug 1, 2025), [Fields Institute Communications](https://link.springer.com/series/10503), Springer (2026) &lbrack;[arXiv:2610.15668](https://arxiv.org/abs/2610.15668)&rbrack;
 
 
 
