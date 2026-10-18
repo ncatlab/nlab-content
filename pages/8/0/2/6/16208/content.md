@@ -17,7 +17,10 @@
 
 ## Idea
 
-[Lean](https://leanprover.github.io/) is a [[proof assistant]] based on [[dependent type theory]]. Like [[Rocq]] and [[Agda]], it may be used to implement [[homotopy type theory]].
+[Lean](https://leanprover.github.io/) is a [[proof assistant]]/[[certified programming|proof verifier]] based on [[dependent type theory]]. 
+
+Like [[Rocq]] and [[Agda]], it may be used to implement [[homotopy type theory]]. Unlike (these) other proof assistants, [[Lean]] has become widely adopted in the mathematics community.
+
 
 ## Formalized mathematics
   {#FormslizedMathematics}
