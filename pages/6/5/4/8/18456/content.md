@@ -68,6 +68,8 @@ On [[standard model of particle physics]] and beyond ([[grand unified theory]], 
 ## Related entries
 
 * [[adinkra]]
+* [[conifold transition]]
+* [[mirror symmetry]]
 
 category: people
 
