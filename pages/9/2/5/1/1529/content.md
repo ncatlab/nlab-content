@@ -22,17 +22,17 @@ Moreover, the description of of the [[category of elements]] of a presheaf in te
 
 ## Definition
 
-Let $D$ be a [[pointed object]] in [[Cat]], i.e. a [[category]] equipped with a choice $pt_D : {*} \to D$ of one of its objects.
+Let $D$ be a [[pointed object]] in [[Cat]], i.e. a [[category]] equipped with a choice $pt_D \in \mathrm{Obj}(D)$ of one of its objects.
 
 Recall that a morphism $pt_D \to d$ in $D$ may be called a [[generalized element]] in $D$ "with domain of definition" being the object $pt_D$.
 
-For instance if $D =$ [[Set]] the canonical choice is $pt_{Set} = {*}$ [[generalized the|the]] set with a single element. Generalized elements of a set "with domain of definition" ${*}$ are just the ordinary elements of a set.
+For instance if $D =$ [[Set]] the canonical choice is $pt_{Set} = \{*\}$ [[generalized the|the]] set with a single element. Generalized elements of a set "with domain of definition" ${*}$ are just the ordinary elements of a set.
 
-Notice that the [[over category]] $({pt_D/D})$ is the category of generalized elements of $D$ with domain of definition $pt_D$:
+Notice that the [[under category]] $({pt_D/D})$ is the category of generalized elements of $D$ with domain of definition $pt_D$:
 
-* objects are such generalized elements $\delta : pt_D \to d$ of objects $d \in D$;
+* objects are pairs $(d, \delta)$ of a $d \in \mathrm{Obj}(D)$ and a generalized element $\delta : pt_D \to d$;
 
-* morphisms $\delta \to \gamma$ are given whenever a morphism $f : d \to d'$ in $D$ takes the element $\delta$ to $\delta'$, i.e. whenever there is a commuting triangle
+* morphisms $f : (d, \delta) \to (d', \delta')$ are morphims $f : d \to d'$ in $D$ taking the element $\delta$ to $\delta'$, i.e. for which the following triangle commutes:
   $$
     \array{
       && pt_D
@@ -44,7 +44,7 @@ Notice that the [[over category]] $({pt_D/D})$ is the category of generalized el
     \,.
   $$
 
-Notice that the canonical projection $(pt_D/D) \to D$ from the [[over category]] that forgets the tip of these trangles may be regarded as the [[generalized universal bundle]] for the given pointed category $D$: it is the left composite vertical morphism in the pullback
+Notice that the canonical projection $(pt_D/D) \to D$ from the [[under category]] that forgets the tip of these trangles may be regarded as the [[generalized universal bundle]] for the given pointed category $D$: it is the left composite vertical morphism in the pullback
 
 $$
   \array{
@@ -80,30 +80,29 @@ $$
 
 This means:
 
-* the objects of $El_{pt_D}(F)$ are all the generalized elements $\delta_c : pt_D \to F(c)$ for all $c \in C$;
+* the objects of $El_{pt_D}(F)$ are pairs $(c, \delta)$ of a $c \in \mathrm{Obj}(C)$, and a generalized element $\delta : pt_D \to F(c)$;
 
-* a morphism $\delta_c \to \delta_{c'}$ between two such generalized elements is a commuting triangle
+* a morphism $f : (c, \delta) \to (c', \delta')$ between two such generalized elements, is a morphism $f : c \to c'$ such that the following triangle commutes:
   $$
     \array{
       && pt_D
       \\
-      & {}^{\delta_c}\swarrow && \searrow^{\delta_{c'}}
+      & {}^{\delta}\swarrow && \searrow^{\delta'}
       \\
       F(c) && \stackrel{F(f)}{\to} && F(c')
     }
     \,.
   $$
-  for all morphisms $f : c \to c'$ in $C$.
 
 
 ## Examples
 
-##ordinary category of elements##
+### Ordinary Category of Elements##
 
-For $D = $ [[Set]] and $pt_{Set} = {*}$
+For $D = $ [[Set]] and $pt_{Set} = \{*\}$
 the above reproduces the notion of [[category of elements]] of a [[copresheaf]].
 
-##Action Groupoid##
+### Action Groupoid##
 
 Given a vector space $V$, a [[group]] $G$ recall that a [[representation]] of $G$ on $V$ 
 
@@ -124,9 +123,11 @@ $$
   \,.
 $$
 
-The category [[Vect]] of $k$-vector spaces for some [[field]] $k$ has a standard point $pt_{Vect} \to Vect$, namely the field $k$ itself, regarded as the canonical 1-dimensional $k$-vector space over itself.
+where $\mathbf{B} G$ is the [[delooping]] of $G$: the single-object groupoid whose [[automorphisms]] $g \in \mathrm{Hom}_{\mathbf{B} G}({*}, {*})$ are the elements of $G$.
 
-The corresponding [[over category]] of generalized elements of [[Vect]] $(pt_{Vect}/ Vect)$ has as objects pointed vector spaces and as morphisms linear maps of pointed vector spaces that map the chosen vectors to each other.
+The category [[Vect]] of $k$-vector spaces for some [[field]] $k$ has a standard point $pt_{Vect} = k \in \mathrm{Obj}(Vect)$, namely the field $k$ itself, regarded as the canonical 1-dimensional $k$-vector space over itself. Note that linear maps $k \to V$ are completely determined by the image of $1$ and are thus, essentially, a choice of a vector in $V$.
+
+Then the corresponding [[under category]] of generalized elements of [[Vect]] $(k / Vect)$ has as objects pointed vector spaces and as morphisms linear maps of pointed vector spaces that map the chosen vectors to each other.
 
 Now, as described in detail at [[action groupoid]] the category of generalized elements of the representation $\rho$ is the [[action groupoid]] $V//G$ of $G$ acting on $V$
 
@@ -141,7 +142,7 @@ $$
    \,.
 $$
 
-As described there, $V//G \to \mathbf{B}G$ is the [[groupoid]] incarnation of the vector bundle that is associated via $\rho$ to the universal $G$-bundle on the [[classifying space]] $B G$.
+As described there, $V//G \to \mathbf{B}G$ is the [[groupoid]] incarnation of the vector bundle that is associated via $\rho$ to the universal $G$-bundle on the [[classifying space]] $\mathbf{B}G$.
 
 ## References
 
