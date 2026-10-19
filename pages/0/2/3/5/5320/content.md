@@ -16,7 +16,7 @@ On [[homotopy type with finite homotopy groups]]
 
 On [[(infinity,1)-topos|$(\infty,1)$-toposes]] understood as *[[logoi]]*:
 
-* {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
+* {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](https://web.archive.org/web/20260922192857if_/mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
 
 Duality of dg-algebras vs. dg-coalgebras is studied in 
 
