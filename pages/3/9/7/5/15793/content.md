@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -37,7 +36,7 @@ $$
 
 Formally, there is a [[category]] of fiber bundles over manifolds with [[morphisms]] the morphisms of bundles covering morphisms of the base spaces, and there is a projection functor from fiber bundles to their base manifolds. A natural bundle is a [[section]] of this projection functor.
 
-Also "contravariantly natural" bundles such as bundle of [[covectors]] are sometimes referred to as natural bundles (e.g. [Kolář-Michor-Slovak](#KolarMichorSlovak)). But these are covariantly natural not with respect to all smooth functions between manifolds, but only for [[local diffeomorphisms]].
+Also "contravariantly natural" bundles such as bundle of [[covectors]] are sometimes referred to as natural bundles (cf. [Kolář, Michor & Slovak 1993](#KolarMichorSlovak1993)). But these are covariantly natural not with respect to all smooth functions between manifolds, but only for [[local diffeomorphisms]].
 
 ## Examples
 
@@ -59,11 +58,16 @@ Lecture notes and textbook accounts:
 
 * [[Demeter Krupka]], [[Josef Janyška]], Part 2 of: _Lectures on differential invariants_, Univerzita J. E. Purkyně, Brno (1990) &lbrack;ISBN:80-210-165-8, [researchgate](https://www.researchgate.net/publication/36792711_Lectures_on_Differential_Invariants)&rbrack;
 
-* {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
+* {#KolarMichorSlovak1993} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
 The example of the [[Schouten-Nijenhuis bracket]]:
 
 * {#Michor87} [[Peter W. Michor]], *Remarks on the Schouten-Nijenhuis bracket*,  In: Bureš, J. and Souček, V. (eds.): *Proceedings of the Winter School "Geometry and Physics"* Circolo Matematico di Palermo, Palermo (1987) 207-215 &lbrack;[dml:701423](https://dml.cz/handle/10338.dmlcz/701423), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/701423/WSGP_07-1987-1_21.pdf), [[Michor-SchoutenNijenhuisBracket.pdf:file]]&rbrack;
+
+On natural operations on [[differential forms]]:
+
+* J. Navarro, J. B. Sancho: *Natural operations on differential forms*, Differential Geometry and its Applications **38** (2015) 159--174 &lbrack;[arXiv:1412.0840](https://arxiv.org/abs/1412.0840), [doi:10.1016/j.difgeo.2014.12.003](https://doi.org/10.1016/j.difgeo.2014.12.003)&rbrack;
+
 
 
 [[!redirects natural bundles]]
