@@ -119,7 +119,7 @@ That the A-model [[Lagrangian]] arises in [[AKSZ theory]] by [[gauge fixing]] th
 
 with more details in 
 
-* {#BonechiCattaneoIraso16} Francesco Bonechi, [[Alberto Cattaneo]], Riccardo Iraso, _Comparing Poisson Sigma Model with A-model_, JHEP **10** (2016) 133 &lbrack;[arXiv:1607.03411](https://arxiv.org/abs/1607.03411), [doi:10.1007/JHEP10(2016)133](https://doi.org/10.1007/JHEP10(2016)133)&rbrack;
+* {#BonechiCattaneoIraso16} Francesco Bonechi, [[Alberto Cattaneo]], Riccardo Iraso, _Comparing Poisson Sigma Model with A-model_, JHEP **10** (2016) 133 &lbrack;[arXiv:1607.03411](https://arxiv.org/abs/1607.03411), [doi:10.1007/JHEP10(2016)133](https://doi.org/10.1007/JHEP10%282016%29133)&rbrack;
 
 Review and further discussion includes
 
