@@ -11,6 +11,10 @@ On the [[2-category]] of [[complete categories]] being [[monadic functor|monadic
 
 * [[Anders Kock]], _Limit monads in categories_, PhD thesis (advisor [[W. Lawvere]]), University of Chicago (1967) &lbrack;[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)&rbrack;
 
+On [[double dualization monads]]:
+
+* {#Kock70} [[Anders Kock]]: _On double dualization monads_, Math. Scand. **27** (1970) 151--165 &lbrack;[jstor:24489892](https://www.jstor.org/stable/24489892), [eudml:166154](https://eudml.org/doc/166154), [pdf](https://tildeweb.au.dk/au76680/DD.pdf)&rbrack;
+
 
 Introducing the notion of [[strong monads]] and relating to [[monoidal monads]] and [[commutative monads]]:
 
