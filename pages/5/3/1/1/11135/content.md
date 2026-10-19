@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -47,9 +45,9 @@ and multiplication
   \end{array}
 \]
 
-In general [[mathematics]] this [[monad]] is ubiquitous as modelling _double dualization_. For example the _Stone-Cech compactification functor_ $\beta: Top \rightarrow CpHaus$ is a universal way to map a [[topological space]] into a [[compact Hausdorff space]]. This functor dualizes into the unit interval $[0,1]$ which is a [[cogenerator]] in the [[category]] of [[compact Hausdorff spaces]].  To view this example  as a monad one simply composes the [[functor]] $\beta$ with the inclusion functor $\iota: CpHaus \rightarrow Top$. 
+In general [[mathematics]] this [[monad]] is ubiquitous as modelling _double dualization_ (cf. Ex. \ref{DoublePowerset}, Ex. \ref{DoubleDualVectorSpaces} and Rem. \ref{StoneCechCompactification} below).
 
-In [[computer science]] this [[monad (in computer science)|monad]] is used to model [[continuation-passing style]] of programming, and therefore this is also called the _continuation monad_. The idea here is that a [[morphism]] $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [[Y,S],S]$, is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
+In [[computer science]] this [[monad (in computer science)|monad]] is used to model [[continuation-passing style]] of programming, and therefore this is also called the _continuation monad_. The idea here is that a [[morphism]] $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [ [Y,S],S]$, is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
 
 
 ## Definition
@@ -79,11 +77,13 @@ We denote morphisms by terms of the [[simply typed lambda calculus]] (in the car
 
 * [[application]] $k(x)$, for $k \colon [X,S]$ and $x : X$, denotes the [[evaluation map]], $\mathrm{ev}(k \otimes x)$;
 
-* abstraction $\lambda (x : X).\, t$ denotes the [[adjunct]] ("[[currying]]") of the morphism denoted by $t$.
+* abstraction $\lambda (x : X).\, t$ denotes the [[adjunct]] ("[[currying]]") of the morphism denoted by $t$;
+
+* for terms $a : A$ and $x : X$ in disjoint contexts, $a \otimes x$ denotes their [[tensor product]], a term of type $A \otimes X$; and a morphism out of a tensor product $A \otimes X$ is specified by a term $t$ in context $a : A,\, x : X$, written as $a \otimes x \,\mapsto\, t$. (In the cartesian case, $a \otimes x$ is just the pair $(a,x)$.)
 
 By the [[universal property]] of the [[internal hom]], these terms satisfy [[beta reduction|$\beta$-reduction]] $(\lambda x.\, t)(a) = t[a/x]$ and [[eta reduction|$\eta$-reduction]] $\lambda x.\, k(x) = k$.
 
-In the cartesian case this is equivalently the usual notation in terms of [[generalized elements]]. In the general symmetric monoidal case it is legitimate here because all terms below use each [[bound variable]] exactly once (Rem. \ref{Linearity}).
+In the cartesian case this is equivalently the usual notation in terms of [[generalized elements]]. In the general symmetric monoidal case it is legitimate here because all terms below use each [[variable]] --- whether [[bound variable|bound]] or [[free variable|free]] in the context --- exactly once (Rem. \ref{Linearity}).
 
 We also write $k \circ f \,:=\, \lambda x.\, k\big(f(x)\big)$.
 \end{remark}
@@ -232,7 +232,7 @@ $$
   \mu \;:=\; [-,S] \, \epsilon \, [-,S]^{op}
   \,.
 $$
-Explicitly, the components are as follows (we write $D_S$ instead of $D$ where the dependence on $S$ needs to be shown):
+Explicitly, the components are as follows:
 
 **The underlying [[endofunctor]]** is
 $$
@@ -335,10 +335,8 @@ $$
     [ [X,S],S]
   }
 $$
-In words: $\mu_X(M)$ is the functional on continuations which, given a continuation $k \colon X \to S$, evaluates $M$ on the "evaluation at $k$" functional
+In words: $\mu_X(M)$ is the functional on continuations which, given a continuation $k \colon X \to S$, evaluates $M$ on the "evaluation at $k$"-functional
 $$
-  \mathrm{ev}_k
-    \;:=\;
   \eta_{[X,S]}(k)
     \;=\;
   \lambda \big(c : [ [X,S],S]\big).\, c(k)
@@ -346,7 +344,7 @@ $$
 $$
 hence:
 $$
-  \mu_X(M)(k) \;=\; M(\mathrm{ev}_k)
+  \mu_X(M)(k) \;=\; M\big(\eta_{[X,S]}(k)\big)
   \mathrlap{\,.}
 $$
 \end{remark}
@@ -408,7 +406,7 @@ $$
 $$
 and these agree: since $[\mu_X,S] = \big[ [\eta_{[X,S]},S],S\big] = D(\eta_{[X,S]})$, the equation $\eta_{[D X,S]} \circ \eta_{[X,S]} = D(\eta_{[X,S]}) \circ \eta_{[X,S]}$ is the naturality square of $\eta$ on the morphism $\eta_{[X,S]} \colon [X,S] \to [D X, S]$.
 
-Alternatively, in $\lambda$-notation, using only $\beta$- and $\eta$-reduction:
+Alternatively, in $\lambda$-notation, using only $\beta$- and $\eta$-reduction (for associativity, both sides reduce to the same term):
 $$
   \array{
     \arrayopts{\colalign{right center left}}
@@ -431,18 +429,32 @@ $$
     \mu_X\big(\mu_{D X}(\mathcal{M})\big)
       &=&
     \lambda k.\, \mathcal{M}\Big(\lambda C.\, C\big(\lambda c.\, c(k)\big)\Big)
-    \;=\;
+    \\
     \mu_X\big(D(\mu_X)(\mathcal{M})\big)
+      &=&
+    \lambda k.\, \mathcal{M}\big(\lambda C.\, \mu_X(C)(k)\big)
+    \;=\;
+    \lambda k.\, \mathcal{M}\Big(\lambda C.\, C\big(\lambda c.\, c(k)\big)\Big)
     \mathrlap{\,.}
   }
 $$
+This completes the argument.
 \end{proof}
 
 \begin{remark}\label{Linearity}
 **(linearity and the role of the symmetry)**
-In each of the $\lambda$-terms in Def. \ref{TheContinuationMonad} (and in Prop. \ref{KleisliExtension} and Prop. \ref{Strength} below) every bound variable occurs exactly once. Therefore these terms make sense in the [[linear type theory|internal linear type theory]] of any symmetric closed monoidal category: they use neither [[diagonal|duplication]] nor [[projection|deletion]] of variables, which is why the definition does not require $\mathcal{C}$ to be [[cartesian monoidal category|cartesian]] (see [Melliès & Tabareau 2008](#MelliesTabareau08)).
+In each of the $\lambda$-terms on this page every variable, whether bound or free in the context, occurs exactly once. Therefore these terms make sense in the [[linear type theory|internal linear type theory]] of any symmetric closed monoidal category: they use neither [[diagonal|duplication]] nor [[projection|deletion]] of variables, which is why the definition does not require $\mathcal{C}$ to be [[cartesian monoidal category|cartesian]] (see [Melliès & Tabareau 2007](#MelliesTabareau07)).
 
-On the other hand, the symmetry $\sigma$ is used, if implicitly: it is the exchange rule which allows to form $k(x)$ in the context $x : X,\, k : [X,S]$, as in the definition of $\eta_X$. In a non-symmetric [[biclosed monoidal category]] one instead has to alternate between the two one-sided internal homs, $X \mapsto [ [X,S]_r, S]_l$.
+On the other hand, the symmetry $\sigma$ is used, if implicitly: it is the exchange rule which allows to form $k(x)$ in the context $x : X,\, k : [X,S]$, as in the definition of $\eta_X$. In a non-symmetric [[biclosed monoidal category]], writing $[X,-]_r$ for the [[right adjoint]] of $(-) \otimes X$ and $[X,-]_l$ for that of $X \otimes (-)$, the hom-isomorphism of Prop. \ref{DualizationSelfAdjunction} is instead
+$$
+  \mathcal{C}\big(A,\, [X,S]_r\big)
+  \;\simeq\;
+  \mathcal{C}\big(A \otimes X,\, S\big)
+  \;\simeq\;
+  \mathcal{C}\big(X,\, [A,S]_l\big)
+  \,,
+$$
+so that one has to alternate between the two one-sided internal homs: $X \mapsto \big[ [X,S]_r, S\big]_l$.
 \end{remark}
 
 
@@ -486,7 +498,7 @@ $$
   \big)
   \,.
 $$
-This is the form in which the continuation monad appears in [Moggi (1991), Ex. 1.1](#Moggi91). In [[Haskell]]-notation, ignoring the `newtype`-wrapper of `Cont r a`:
+This is the form in which the continuation monad appears in [Moggi (1991), Ex. 1.1](#Moggi91). In [[Haskell]]-notation (ignoring that the standard libraries define `Cont r` as `ContT r Identity`, with `ContT` a `newtype`):
 
     type Cont r a = (a -> r) -> r
 
@@ -653,22 +665,52 @@ $$
 $$
 Elements of $P P X$ may be thought of as generalized [[quantifiers]] on $X$, for instance $\forall_X = \{X\}$ and $\exists_X = \{ A \subset X \,\vert\, A \neq \varnothing\}$, while $\eta_X(x)$ is the [[principal ultrafilter]] at $x$ ("evaluation at $x$").
 
-Restricting to upward closed families, to [[filters]], or to [[ultrafilters]] yields submonads, the last one being the [[ultrafilter monad]], whose [[algebras over a monad|algebras]] are the [[compact Hausdorff spaces]] (see [Leinster (2013)](#Leinster13) and the discussion of the [[Stone-Čech compactification]] above).
+Restricting to upward closed families, to [[filters]], or to [[ultrafilters]] yields submonads, the last one being the [[ultrafilter monad]], whose [[algebras over a monad|algebras]] are the [[compact Hausdorff spaces]] (see [Leinster (2013)](#Leinster13) and Rem. \ref{StoneCechCompactification} below).
 \end{example}
 
 \begin{example}\label{DoubleDualVectorSpaces}
 **(double dual vector spaces)**
-For $\mathcal{C} = \mathrm{Vect}_k$ the category of [[vector spaces]] over a [[field]] $k$, with $\otimes$ the [[tensor product of vector spaces]], and with $S = k$ the [[ground field]], the continuation monad is
+For $\mathcal{C} = \mathrm{Vect}_{\mathbb{K}}$ the category of [[vector spaces]] over a [[field]] $\mathbb{K}$, with $\otimes$ the [[tensor product of vector spaces]], and with $S = \mathbb{K}$ the [[ground field]], the continuation monad is
 $$
   V \;\mapsto\; V^{\ast\ast}
 $$
-with $\eta_V \colon V \to V^{\ast\ast}$ the canonical inclusion of a [[vector space]] into its [[dual vector space|double dual]], and with multiplication
-$\mu_V = (\eta_{V^\ast})^\ast \colon V^{\ast\ast\ast\ast} \to V^{\ast\ast}$
-the [[dual linear map]] of the canonical inclusion $V^\ast \hookrightarrow V^{\ast\ast\ast}$. This is an example where $\mathcal{C}$ is not cartesian (cf. Rem. \ref{Linearity}). On [[finite-dimensional vector spaces]] the unit $\eta$ is an isomorphism.
+with $\eta_V \colon V \to V^{\ast\ast}$ the canonical map of a [[vector space]] into its [[dual vector space|double dual]] (which is injective by the existence of [[basis|bases]], invoking the [[axiom of choice]] for infinite-dimensional $V$), and with multiplication
+$$
+  \mu_V \;=\; [\eta_{V^\ast}, \mathbb{K}] \;\colon\; V^{\ast\ast\ast\ast} \longrightarrow V^{\ast\ast}
+$$
+the [[dual linear map]] of the canonical inclusion $\eta_{V^\ast} \colon V^\ast \hookrightarrow V^{\ast\ast\ast}$ (as in Def. \ref{TheContinuationMonad}). This is an example where $\mathcal{C}$ is not cartesian (cf. Rem. \ref{Linearity}). On [[finite-dimensional vector spaces]] the unit $\eta$ is an isomorphism.
 \end{example}
 
 
 ### Further examples
+
+Not quite an example is the following:
+
+\begin{remark}\label{StoneCechCompactification}
+**(Stone-Čech compactification)**
+
+The [[Stone-Čech compactification]] functor $\beta \colon Top \to CpHaus$ is the universal way to map a [[topological space]] into a [[compact Hausdorff space]], and it is a form of double dualization into the unit [[interval]] $[0,1]$, which is a [[cogenerator]] in the [[category]] of [[compact Hausdorff spaces]] (by [[Urysohn's lemma]]): For any topological space $X$, $\beta X$ is [[homeomorphism|homeomorphic]] to the [[closure]] of the [[image]] of the map
+$$
+  \begin{array}{ccc}
+  X &\longrightarrow& [0,1]^{C(X,[0,1])}
+  \\
+  x &\mapsto& \big(h \mapsto h(x)\big)
+  \end{array}
+$$
+into the [[product topological space]] of copies of $[0,1]$ indexed by the set $C(X,[0,1])$ of [[continuous functions]] --- this map being the evident analog of the unit $\eta_X$ (Def. \ref{TheContinuationMonad}), with the internal hom replaced by the set of continuous functions.
+
+Composing $\beta$ with the inclusion [[functor]] $\iota \colon CpHaus \hookrightarrow Top$ yields a [[monad]] $\iota \circ \beta$ on $Top$. 
+
+Beware that this monad is _not_ an instance of the continuation monad of Def. \ref{TheContinuationMonad}:
+
+* [[Top|$Top$]] is not [[cartesian closed category|cartesian closed]], so that $\big[ [X,[0,1] ],[0,1]\big]$ is not available as an internal hom;
+
+* $\iota \circ \beta$ is an [[idempotent monad]] (since $CpHaus \hookrightarrow Top$ is a [[reflective subcategory]]), while continuation monads are in general not idempotent; for example on $Set$ with $S = \{0,1\}$ (Ex. \ref{DoublePowerset}) the map $\eta_{D X} \colon P P X \to P P P P X$ is not surjective, by [[Cantor's theorem]].
+
+Rather, $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. On [[discrete topological spaces]] $X$, $\beta X$ is the set of [[ultrafilters]] on $X$ (with its Stone topology), and the monad on $Set$ induced by the free/forgetful adjunction between $Set$ and $CpHaus$ is the [[ultrafilter monad]] of Ex. \ref{DoublePowerset}.
+\end{remark}
+
+Further examples are discussed at:
 
 * [[double negation monad]]
 
@@ -681,29 +723,40 @@ the [[dual linear map]] of the canonical inclusion $V^\ast \hookrightarrow V^{\a
  
 ### Algebras
 
-\begin{proposition} 
+\begin{proposition}\label{MonadicityOfDualization}
+**(monadicity of dualization over $Set$)**
 On the [[category of sets]], the functor $[-,S] \colon\mathbf{Set}^{op}\to \mathbf{Set}$ is [[monadic]] (with left adjoint $[-, S]^{op} \colon \mathbf{Set} \to \mathbf{Set}^{op}$) whenever ${|S|}\geq 2$. 
 \end{proposition} 
 
 (cf. [Hyland, Levy, Plotkin & Power 2007 Prop. 10](#HylandLevyPlotkinPower07))
 
-+-- {: .proof} 
-###### Proof 
-This boils down to the assertion that such an $S$ is an injective [[cogenerator]] in the category of sets. It is injective because it is a [[retract]] of an [[injective object]] $2^S$ (using the fact that the subobject classifier $2$ is injective), and it cogenerates because there is an injection $2 \to S$ and $2$ cogenerates. 
+\begin{proof}
+The following argument uses [[classical logic]], for instance in identifying the [[subobject classifier]] of $Set$ with the [[boolean domain]] $2$.
 
-In more detail: an object $S$ is (internally) *injective* if $[-, S]: Set^{op} \to Set$ takes (coreflexive) [[equalizers]] in $Set$ to [[coequalizers]] in $Set$. The subobject classifier $2$ is injective (by, for example, the proof of Par&eacute;&rsquo;s theorem for constructing finite colimits in an elementary topos). Since $S \times -: Set \to Set$ preserves [[connected limits]] such as equalizers, we have that $[S \times -, 2] \cong [-, 2^S]$ takes equalizers to coequalizers, i.e., $2^S$ is injective for any $S$. Then $S$, being a retract of $2^S$, has the property that $[-, S]$ takes equalizers in $Set$ to coequalizers, i.e., preserves coequalizers $Set^{op} \to Set$. 
+Since $[-,S]$ has the [[left adjoint]] $[-,S]^{op}$ (Prop. \ref{DualizationSelfAdjunction}) and $Set^{op}$ has [[reflexive coequalizers]] (these being the coreflexive [[equalizers]] in $Set$), by Beck's crude [[monadicity theorem]] it suffices to see that $[-,S]$
 
-Also $[-, S]$ reflects isomorphisms. This is because isomorphisms in $Set$ are precisely epi-monos, and $S$ being an internal cogenerator means exactly that $[-, S]$ is faithful, and faithful functors reflect monos and epis. 
+1. [[preserved colimit|preserves]] reflexive coequalizers, hence takes coreflexive equalizers in $Set$ to [[coequalizers]] in $Set$, 
 
-Since $[-, S]$ preserves coequalizers and reflects isomorphisms, we conclude that it is monadic by Beck's crude [[monadicity theorem]]. 
+1. reflects [[isomorphisms]].
 
-=-- 
+> (The alternative argument of [Hyland, Levy, Plotkin & Power 2007, Prop. 10](#HylandLevyPlotkinPower07), shows and uses that the image under $[-,S]$ of a [[coreflexive equalizer]] is a [[split coequalizer]].)
 
-\begin{remark}
-Thus the [[Eilenberg-Moore algebras]] of the continuation monad are equivalent to [[complete atomic Boolean algebras]], as the category of these is equivalent to the [[opposite category|opposite]] of the category of sets. 
+Regarding the first point: Say that $S$ is (internally) *injective* if $[-, S]$ takes coreflexive equalizers in $Set$ to coequalizers in $Set$. (The coreflexivity cannot be dropped here: For example, the equalizer of the identity and of the swap map $\tau$ on $2 = \{0,1\}$ is $\varnothing \hookrightarrow 2$, but the coequalizer of $[\mathrm{id},2]$ and $[\tau,2]$ on the 4-element set $[2,2]$ has 3 elements, while $[\varnothing,2]$ has a single element.)
+
+The [[subobject classifier]] $2$ is injective in this sense, by the proof of Par&eacute;&rsquo;s theorem (for constructing finite colimits in an elementary topos), which shows that the [[power object]] functor takes coreflexive equalizers to (split) coequalizers. Since $S \times (-) \colon Set \to Set$ preserves [[connected limits]] such as equalizers (and, as does any functor, coreflexive pairs), it follows that $[S \times -, 2] \cong [-, 2^S]$ takes coreflexive equalizers to coequalizers, i.e., that $2^S$ is injective, for any $S$. Finally, for $|S| \geq 2$, $S$ is a [[retract]] of $2^S$ --- via the map $s \mapsto \{s\}$ and the map which sends singletons to their element and all other subsets to a fixed element $s_0 \in S$ --- so that the functor $[-,S]$ is a retract of $[-,2^S]$; and since a retract of a coequalizer diagram is again a coequalizer diagram, also $S$ is injective.
+
+Regarding the second point: Since $|S| \geq 2$, the set $2$ is a retract of $S$; and since $2$ is a [[cogenerator]] in $Set$, so is $S$, which means that $[-,S]$ is [[faithful functor|faithful]]. But faithful functors reflect [[monomorphisms]] and [[epimorphisms]], and in $Set$ every morphism which is both is an isomorphism. Hence $[-, S]$ reflects isomorphisms.
+
+\end{proof}
+
+
+\begin{remark}\label{AlgebrasAsCompleteAtomicBooleanAlgebras}
+**(algebras as complete atomic Boolean algebras)**
+Thus, for $|S| \geq 2$, the [[Eilenberg-Moore algebras]] of the continuation monad on $Set$ are equivalent to [[complete atomic Boolean algebras]], as the category of these is equivalent to the [[opposite category|opposite]] of the category of sets. (For $|S| \leq 1$ the continuation monad degenerates: For $S = \ast$ it is constant on the point, while for $S = \varnothing$ it sends $\varnothing$ to itself and every other set to the point.)
 \end{remark}
 
-\begin{remark}
+\begin{remark}\label{MonadicInMultipleWays}
+**(monadic in multiple ways)**
 This illustrates the fact that a category can be monadic over $\mathbf{Set}$ in multiple ways. In other words, one should not refer to a *category* $C$ as monadic over $Set$, unless everyone agrees to which "forgetful functor" $U\colon C \to \mathbf{Set}$ is being considered -- better is to refer to a *functor* as monadic. 
 \end{remark}
 
@@ -730,11 +783,11 @@ As a [[monad]] in [[mathematics]]:
 
 As a [[monad in computer science]]:
 
-* {#Moggi91} [[Eugenio Moggi]], Exp. 1.1 in: *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
+* {#Moggi91} [[Eugenio Moggi]], Ex. 1.1 in: *Notions of computation and monads*, Information and Computation **93** 1 (1991) 55-92 &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 * {#Milewski19} [[Bartosz Milewski]], §21.2.7 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
-* [[Tarmo Uustalu]], p.27 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
+* [[Tarmo Uustalu]], p.27 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021)
 
 As a [[codensity monad]]:
 
@@ -743,14 +796,14 @@ As a [[codensity monad]]:
 
 In the generality of [[linear type theory]] as the linear [[double negation monad]]:
 
-* {#MelliesTabareau08} [[Paul-André Melliès]], Nicolas Tabareau: _Linear continuation and duality_ (2008) &lbrack;[pdf](http://hal.inria.fr/docs/00/33/91/56/PDF/linear-control.pdf)&rbrack;
+* {#MelliesTabareau07} [[Paul-André Melliès]], Nicolas Tabareau: _Linear continuations and duality_, preprint (2007) &lbrack;[hal:hal-00339156](https://hal.science/hal-00339156), [pdf](http://hal.inria.fr/docs/00/33/91/56/PDF/linear-control.pdf)&rbrack;
 
-* [[Paul-André Melliès]], _The parametric continuation monad_, Mathematical Structures in Computer Science, Festschrift in honor of Corrado B&#246;hm for his 90th birthday (2013) &lbrack;[[MelliesContinuation.pdf:file]]&rbrack;
+* [[Paul-André Melliès]], _The parametric continuation monad_, Mathematical Structures in Computer Science **27** 5 (2017) 651-680, Festschrift in honor of Corrado B&#246;hm for his 90th birthday &lbrack;[doi:10.1017/S0960129515000328](https://doi.org/10.1017/S0960129515000328), [[MelliesContinuation.pdf:file]]&rbrack;
 
 
 The characterization of algebras over the continuation monad:
 
-* {#HylandLevyPlotkinPower07} [[Martin Hyland]], [[Paul Blain Levy]], [[Gordon Plotkin]], [[John Power]]; Prop. 10 in: _Combining algebraic effects with continuations_, Theoretical Computer Science (2007) &lbrack;[pdf](https://homepages.inf.ed.ac.uk/gdp/publications/comb_cont_journal.pdf)&rbrack;
+* {#HylandLevyPlotkinPower07} [[Martin Hyland]], [[Paul Blain Levy]], [[Gordon Plotkin]], [[John Power]]; Prop. 10 in: _Combining algebraic effects with continuations_, Theoretical Computer Science **375** 1-3 (2007) 20-40 &lbrack;[pdf](https://homepages.inf.ed.ac.uk/gdp/publications/comb_cont_journal.pdf)&rbrack;
 
 A characterisation of ([[enriched monad|enriched]]) monads isomorphic to continuation monads is given in:
 
