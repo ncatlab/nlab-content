@@ -99,7 +99,7 @@ On [[topology]] and [[algebraic topology]].
 
 On [[Grothendieck toposes]] regarded as "[[logos|logoses]]":
 
-* [[Mathieu Anel]], [[Andre Joyal]], _Topo-logie_ ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
+* [[Mathieu Anel]], [[Andre Joyal]], _Topo-logie_ ([pdf](https://web.archive.org/web/20260922192857if_/mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
 
 ##### I.2.2 Spaces as infinity-groupoids (Timothy Porter)
 
