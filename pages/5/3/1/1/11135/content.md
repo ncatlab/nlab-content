@@ -684,8 +684,6 @@ the [[dual linear map]] of the canonical inclusion $\eta_{V^\ast} \colon V^\ast 
 
 ### Further examples
 
-Not quite an example is the following:
-
 \begin{remark}\label{StoneCechCompactification}
 **(Stone-Čech compactification)**
 
@@ -701,13 +699,14 @@ into the [[product topological space]] of copies of $[0,1]$ indexed by the set $
 
 Composing $\beta$ with the inclusion [[functor]] $\iota \colon CpHaus \hookrightarrow Top$ yields a [[monad]] $\iota \circ \beta$ on $Top$. 
 
-Beware that this monad is _not_ an instance of the continuation monad of Def. \ref{TheContinuationMonad}:
+To a topologist this monad is _not_ an instance of the continuation monad of Def. \ref{TheContinuationMonad} because:
 
 * [[Top|$Top$]] is not [[cartesian closed category|cartesian closed]], so that $\big[ [X,[0,1] ],[0,1]\big]$ is not available as an internal hom;
 
-* $\iota \circ \beta$ is an [[idempotent monad]] (since $CpHaus \hookrightarrow Top$ is a [[reflective subcategory]]), while continuation monads are in general not idempotent; for example on $Set$ with $S = \{0,1\}$ (Ex. \ref{DoublePowerset}) the map $\eta_{D X} \colon P P X \to P P P P X$ is not surjective, by [[Cantor's theorem]].
+However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology, and using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $beta$ as the double dual into the unit interval. 
 
-Rather, $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. On [[discrete topological spaces]] $X$, $\beta X$ is the set of [[ultrafilters]] on $X$ (with its Stone topology), and the monad on $Set$ induced by the free/forgetful adjunction between $Set$ and $CpHaus$ is the [[ultrafilter monad]] of Ex. \ref{DoublePowerset}.
+Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top.(Use the fact that, on compact Haussdorf spaces the double dual into the unit interval is an idempotent monad.)
+
 \end{remark}
 
 Further examples are discussed at:
