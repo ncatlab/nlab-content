@@ -705,7 +705,7 @@ To a topologist this monad is _not_ an instance of the continuation monad of Def
 
 However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology, and using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $beta$ as the double dual into the unit interval. 
 
-Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top.(Use the fact that, on compact Haussdorf spaces the double dual into the unit interval is an idempotent monad.)
+Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top. (Use the fact that, on compact Haussdorf spaces the double dual into the unit interval is an idempotent monad.)
 
 \end{remark}
 
