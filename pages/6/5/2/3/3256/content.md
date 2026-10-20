@@ -33,7 +33,7 @@ The Nisnevich topology plays a central role in [[motivic homotopy theory]].
 
 ## Definition
 
-An family of morphisms of [[Noetherian scheme]]s $\{p_i:V_i\to U\}$ is a **Nisnevich cover** if each $p_i$ is an [[étale map]] and if every field-valued point $Spec k\to U$ lifts to one of the $V_i$. This is a [[pretopology]] on the category of Noetherian schemes, and the associated topology is the **Nisnevich topology**.
+A family of morphisms of [[Noetherian scheme]]s $\{p_i:V_i\to U\}$ is a **Nisnevich cover** if each $p_i$ is an [[étale map]] and if every field-valued point $Spec k\to U$ lifts to one of the $V_i$. This is a [[pretopology]] on the category of Noetherian schemes, and the associated topology is the **Nisnevich topology**.
 
 The **Nisnevich site** over a [[Noetherian scheme]] $S$ usually refers to the [[site]] given by the [[category]] of [[smooth scheme]]s of finite type over $S$ equipped with the Nisnevich topology. The **small Nisnevich site** of $S$ is the subsite consisting of [[étale map|étale]] $S$-schemes.
 
@@ -75,6 +75,7 @@ This is [Morel-Voevosky, Prop. 1.16](#MV99) or [DAG XI, Thm. 2.9](#DAGXI).
 +-- {: .num_prop}
 ###### Proposition
 If $S$ is a [[Noetherian scheme]] of finite [[Krull dimension]], then the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the small Nisnevich site of $S$ has [[homotopy dimension]] $\leq\dim(S)$.
+
 
 =--
 
