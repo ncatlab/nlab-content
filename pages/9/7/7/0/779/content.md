@@ -58,6 +58,11 @@ On [[internalization]] of [[mathematical structures]] via [[sketches]]:
 
 * [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
+On a non-[[cartesian closed category|cartesian]] [[symmetric monoidal closed category|symmetric monoidal closed]] structure on [[Top]]:
+
+* [[Andrée Ehresmann]], [[Charles Ehresmann]]: *Tensor products of topological ringoids*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **19** 1 (1978) 87--112 &lbrack;<a href="https://www.numdam.org/item/CTGDC_1978__19_1_87_0/">numdam:CTGDC_1978__19_1_87_0</a>, [pdf](https://www.numdam.org/item/CTGDC_1978__19_1_87_0.pdf#page=6)&rbrack;
+
+
 
 category: people
 
