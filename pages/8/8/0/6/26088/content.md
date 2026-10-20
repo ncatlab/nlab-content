@@ -10,9 +10,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -75,11 +74,16 @@ The [[internal logic]] of symmetric monoidal closed categories is the (intuition
 * {#Borceux94} [[Francis Borceux]], §6.1 of: *Categories and Structures*, Vol 2 of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
 ### Examples
+ {#ReferencesExamples}
+
+On a non-[[cartesian closed category|cartesian]] [[symmetric monoidal closed category|symmetric monoidal closed]] structure on [[Top]]:
+
+* [[Andrée Ehresmann]], [[Charles Ehresmann]]; §1.D, Cor 1, [p. 91](https://www.numdam.org/item/CTGDC_1978__19_1_87_0.pdf#page=6) of: *Tensor products of topological ringoids*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **19** 1 (1978) 87--112 &lbrack;<a href="https://www.numdam.org/item/CTGDC_1978__19_1_87_0/">numdam:CTGDC_1978__19_1_87_0</a>, [pdf](https://www.numdam.org/item/CTGDC_1978__19_1_87_0.pdf#page=6)&rbrack;
+
 
 Proof that the [[funny tensor product]] of [[categories]] is the only other [[symmetric closed monoidal category|symmetric closed monoidal structure]] on [[Cat]] besides the [[cartesian monoidal category|cartesian monoidal structure]]:
 
 * {#FoltzLairKelly80} [[François Foltz]], [[Christian Lair]], [[G. M. Kelly]], *Algebraic categories with few monoidal biclosed structures or none*, Journal of Pure and Applied Algebra **17** 2 (1980) 171-177 &lbrack;[pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>&rbrack;
-
 
 
 
