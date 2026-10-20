@@ -11,20 +11,21 @@
 
 This page records the project
 
-* **CatDat** -- *A comprehensive database of categories and their properties*, [catdat.app](https://catdat.app).
+* **CatDat** -- *A comprehensive and searchable database of categorical structures and their properties*, [catdat.app](https://catdat.app).
 
 It has been initiated by [[Martin Brandenburg]] and welcomes contributions by the community.
 
 ## Features
 
-- **Types of Categorical Structures**: Supports [[categories]], [[functors]], and [[morphisms]].
-- **Structure Detail Pages**: Each categorical structure has a dedicated page with its definition, satisfied and unsatisfied properties, and related structures.
-- **Property Detail Pages**: Explore the definition of a property and view categorical structures that satisfy it and those that don't.
-- **Proofs and References**: Each property and implication includes a proof or reference, forming a data-driven knowledge base for category theory.
-- **Deduction System**: Automatically infers properties of categorical structures from existing ones using a database of implications.
-- **Automatic Dualization**: Automatically dualizes implications and property assignments.
-- **Searchable Database**: Find categorical structures based on satisfied properties and unsatisfied properties.
-- **Comparison Feature**: Compare multiple categorical structures to identify their differences and similarities.
+- **Four types of categorical structures**: Supports [[categories]], [[functors]], [[morphisms]], and [[symmetric monoidal categories]].
+- **Structure detail pages**: Each categorical structure has a dedicated page with its definition, satisfied and unsatisfied properties, and related structures.
+- **Property detail pages**: Explore the definition of a property and view categorical structures that satisfy it and those that don't.
+- **Proofs and references**: Each property and implication includes a proof or reference, forming a data-driven knowledge base for category theory.
+- **Deduction system**: Automatically infers properties of categorical structures from existing ones using a database of implications.
+- **Automatic dualization**: Automatically dualizes implications and property assignments.
+- **Searchable database**: Find categorical structures based on satisfied and unsatisfied properties.
+- **Comparison feature**: Compare multiple categorical structures to identify their differences and similarities.
+- **Intuitive user interface**: Usable on both mobile and desktop. Supports light/dark mode.
 
 ## Example pages
 
