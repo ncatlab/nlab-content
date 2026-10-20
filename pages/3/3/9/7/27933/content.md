@@ -230,7 +230,7 @@ Discussion of the relation to and motivation from the [[philosophy of mathematic
 \subsection{Further resources and links}
  {#ReferencesCategoryTheoryFurtherResources}
 
-* [[Martin Brandenburg]]: *[[CatDat]] -- A comprehensive database of categories and their properties* \[<a href="https://catdat.app">catdat.app</a>\]
+* [[Martin Brandenburg]]: *[[CatDat]] -- A comprehensive and searchable database of categorical structures and their properties* \[<a href="https://catdat.app">catdat.app</a>\]
 
 * _[[networks of category theorists]]_.
 
