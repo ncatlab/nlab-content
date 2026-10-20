@@ -9,14 +9,13 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Definition
 
-The [[forgetful functor]]/[[full and faithful functor|full and faithful]] [[subcategory]] embedding from [[compact topological spaces|compact]] [[Hausdorff topological spaces]] 
-into all [[topological spaces]] 
+The [[forgetful functor]]/[[full and faithful functor|full and faithful]] [[subcategory|subcategory inclusion]]  from [[compact topological spaces|compact]] [[Hausdorff topological spaces]]  into all [[topological spaces]] 
 
 $$
   U \;\colon\; Top_{CHaus} \hookrightarrow Top
@@ -28,7 +27,7 @@ $$
   \beta \;\colon\; Top \longrightarrow Top_{CHaus}
 $$
 
-which sends a general [[topological space]] to a [[compact topological spaces|compact]] [[Hausdorff topological space]], called its _Stone-&#268;ech compactification_. This hence exhibits $Top_{CHaus}$ as a [[reflective subcategory]] of all of $Top$.
+which sends a general [[topological space]] to a [[compact Hausdorff space]], called its _Stone-Čech compactification_. This hence exhibits $Top_{CHaus}$ as a [[reflective subcategory]] of all of [[Top|$Top$]].
 
 The Stone-Čech compactification is in general "very large", even for "ordinary" non-compact spaces such as the [[real line]].
 
@@ -60,7 +59,7 @@ By a theorem by Gleason, these are precisely the [[projective objects]]
 in the [[category]] of [[compact topological space|compact]]
 [[Hausdorff topological spaces]].
 
-Such spaces appear for instance as connected components of [[w-contractible rings]] as objects in the [[pro-étale site]]. See ([Bhatt-Scholze 13](#BhattScholze13)).
+Such spaces appear for instance as connected components of [[w-contractible rings]] as objects in the [[pro-étale site]]. See [Bhatt & Scholze 2013](#BhattScholze13).
 
 =--
 
@@ -80,14 +79,14 @@ Such spaces appear for instance as connected components of [[w-contractible ring
 
 Lecture notes include
 
-* Tarun Chitra, _The Stone-Cech Compactification_ 2009 [pdf](http://www.math.cornell.edu/~riley/Teaching/Topology2009/essays/chitra.pdf)
+* Tarun Chitra: _The Stone-Cech Compactification_ (2009) &lbrack;[[Chitra-StoneCech.pdf|pdf:file]]&rbrack;
 
-* Brian Bockelman, _Functional Analysis Notes, [The Stone-Cech compactification](http://www.math.unl.edu/~s-bbockel1/929/node16.html)_
+* Brian Bockelman: *The Stone-Cech compactification* &lbrack;[archive](https://web.archive.org/web/20150322234843/http://www.math.unl.edu/~s-bbockel1/929/node16.html)&rbrack;
 
 Discussion in the context of the [[pro-etale site]] is in 
 
-* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](https://arxiv.org/abs/1309.1198))
- {#BhattScholze13}
+* {#BhattScholze13} [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](https://arxiv.org/abs/1309.1198))
+ 
 
 
 See also
