@@ -49,6 +49,10 @@ Further discussion (mostly review and mostly without attribution):
 
 * Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* \[<a href="https://arxiv.org/abs/2308.09670">arXiv:2308.09670</a>\]
 
+* Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez, Richard Tuddenham: *The Anyon Atlas* \[<a href="https://arxiv.org/abs/2610.25439">arXiv:2610.25439</a>\]
+
+
+
 Approaches towards rigorous derivation of anyon fusion category structure via [[DHR theory]]/[[algebraic quantum field theory]]:
 
 * [[Pieter Naaijkens]]: *Localized endomorphisms in Kitaev's toric code on the plane*, Rev. Math. Phys. **23** (2011) 347-373 \[<a href="https://doi.org/10.1142/S0129055X1100431X">doi:10.1142/S0129055X1100431X</a>, [arXiv:1012.3857](https://arxiv.org/abs/1012.3857)\]
