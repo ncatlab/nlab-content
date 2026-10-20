@@ -43,7 +43,7 @@ The [[categorification]] of the notion of monoids is that of *[[monads]]* whose 
 The classical definition of monoids in [[Sets]], as a [[unital magma|unital]] [[associative magma]]:
 
 \begin{definition}\label{MonoidsInSets}
-A **monoid** is a [[set]] $M$ equipped with the [[structure]] if 
+A **monoid** is a [[set]] $M$ equipped with the [[structure]] of 
 
 1. (**[[binary operation]]**) a [[map]] from the [[Cartesian product]] of the set with itself to itself
 
