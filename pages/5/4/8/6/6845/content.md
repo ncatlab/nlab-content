@@ -1,6 +1,11 @@
 
+* [personal page](https://www.phys.ens.psl.eu/~julia/)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Bernard_Julia)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Bernard_Julia)
+
+* [inSpire page](http://inspirehep.net/authors/1004043)
+
+* [ResearchGate page](http://www.researchgate.net/scientific-contributions/Bernard-Julia-2054183705)
 
 ## Selected writings
 
@@ -22,7 +27,11 @@ On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") 
 
 On [[first-order formulation of gravity|first order formulation]] of [[supergravity]]:
 
-* [[Bernard Julia]], S. Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
+* [[Bernard Julia]], Sebastian Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
+
+On [[covariant phase space]] techniques suitable for [[manifolds with boundary]]:
+
+* [[Bernard Julia]], Sebastian Silva: *On covariant phase space methods* \[<a href="arxiv.org/abs/hep-th/0205072">arXiv:hep-th/0205072</a>, [inSpire](http://inspirehep.net/literature/586539a)\]
 
 On [[Eugène Cremmer]]:
 
