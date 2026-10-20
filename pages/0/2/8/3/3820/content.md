@@ -658,6 +658,10 @@ also discussed (with focus on application to [[gravity]]) in:
 
 for the case of [[manifolds with boundary]]:
 
+* [[Bernard Julia]], Sebastian Silva: *On covariant phase space methods* \[<a href="arxiv.org/abs/hep-th/0205072">arXiv:hep-th/0205072</a>, [inSpire](http://inspirehep.net/literature/586539a)\]
+  > (symplectic form depending only on [[equations of motion]])
+
+
 * [[Daniel Harlow]], [[Jie-qiang Wu]], *Covariant phase space with boundaries*,  J. High Energ. Phys. **2020** 146 (2020). &lbrack;[arXiv:1906.08616](https://arxiv.org/abs/1906.08616), <a href="https://doi.org/10.1007/JHEP10(2020)146">doi:10.1007/JHEP10(2020)146</a>&rbrack;
 
 * Juan Margalef-Bentabol, Eduardo J. S. Villaseñor, *Geometric formulation of the covariant phase space methods with boundaries*, Phys. Rev. D **103** (2021) 025011 &lbrack;[doi:10.1103/PhysRevD.103.025011](https://doi.org/10.1103/PhysRevD.103.025011), [arXiv](https://arxiv.org/abs/2008.01842)&rbrack;
