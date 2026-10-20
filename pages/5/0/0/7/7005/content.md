@@ -146,6 +146,18 @@ $$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash 
 ## Weaker variants of univalence
  {#WeakerVariants}
 
+### Equivalence implies identity
+
+The existence of a map
+
+$$A:U, B:U \vdash \mathrm{ua}(A, B): (A \simeq B) \to (A =_U B)$$
+
+alone is strictly weaker than the univalence axiom.
+[[Andrej Bauer|Bauer]] and [[Théo Winterhalter|Winterhalter]]'s cardinal model contains a non-univalent universe $U$ that admits such a map ([Winterhalter 20, Theorem 8.3.2](#Winterhalter20)).
+That $U$ is not univalent can be shown using that the cardinal model validates [[equality reflection]] ([Winterhalter 20, Theorem 8.3.1](#Winterhalter20)).
+
+### Section up to pointwise homotopy
+
 Van den Berg ([Van den Berg 20, Definition 2.13](#VanDenBerg20)) gives a definition of univalent fibration in a [[category with path objects|path category]] which can be translated into type theory as follows:
 
 $$A:U, B:U \vdash \mathrm{ua}(A, B): (A \simeq B) \to (A =_U B)$$
@@ -582,6 +594,10 @@ On a possibly weaker variant of univalence:
 * {#VanDenBerg20} [[Benno van den Berg]], Section 2.3 in _Univalent polymorphism_, Annals of Pure and Applied Logic **171** (2020) 102793 &lbrack;[arXiv:1803.10113](https://arxiv.org/abs/1803.10113), [doi:10.1016/j.apal.2020.102793](http://doi.org/10.1016/j.apal.2020.102793)&rbrack;
 
 * {#Swan24} [[Andrew Swan]], Section 4 in _A categorical formulation of Kraus' paradox_ (2024) &lbrack;[arXiv:2403.17961](https://arxiv.org/abs/2403.17961)&rbrack;
+
+On the cardinal model, which separates the univalence axiom from the existence of a map from equivalences to identities:
+
+* {#Winterhalter20} [[Théo Winterhalter]], Section 8.3 in _Formalisation and Meta-Theory of Type Theory_, PhD thesis, Université de Nantes (2020) &lbrack;[hal:tel-05425836](https://theses.hal.science/tel-05425836), [author pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf)&rbrack;
 
 Some details regarding the univalence axiom for [[weakly Tarski universes]] appeared on MathOverflow in:
 
