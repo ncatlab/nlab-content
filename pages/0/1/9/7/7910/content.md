@@ -64,7 +64,7 @@ the morphism modulating a [[prequantum circle n-bundle]], the corresponding quan
 
 ### Smooth structure
 
-The quantomorphism group for a [[symplectic manifold]] may naturally be equipped with the structure of a [[group object]] in [[ILH manifolds]] ([Omori](Omori), [Ratiu-Schmid](RatiuSchmid)), as well as in [[convenient manifolds]] ([Vizman, prop. ](#Vizman)). 
+The quantomorphism group for a [[symplectic manifold]] may naturally be equipped with the structure of a [[group object]] in [[ILH manifolds]] (cf. [Omori](#Omori), [Ratiu-Schmid](#RatiuSchmid)), as well as in [[convenient manifolds]] (cf [Vizman](#Vizman)). 
 
 ### Group extension
 
