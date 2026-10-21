@@ -12,9 +12,8 @@
 > (The special case in [[Cat]] of the general notion of *[[adjunction]]*.)
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -1637,24 +1636,24 @@ Keeping that in mind, we do list some special cases and special classes of examp
 * [[multi-adjoint]], [[weak adjoint]], [[solution set condition]]
 
 
+
 ## References
  {#References}
 
-For the basics, see any text on [[category theory]] (and see the references at _[[adjunction]]_), for instance:
+### Historical
+ {#ReferencesHistorical}
 
-* {#MacLane71} [[Saunders MacLane]], Chapter IV of: _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+The notion of [[universal morphisms]] is due to:
 
-* {#Borceux94} [[Francis Borceux]], Section 3 in Volume 1 and Section 4.2 in Volume 2 of _[[Handbook of Categorical Algebra]]_ (1994)
+* [[Pierre Samuel]]: *On universal mappings and free topological groups*, Bull. Amer. Math. Soc. **54** 6 (1948) 591--598 &lbrack;[doi:10.1090/S0002-9904-1948-09052-8](https://doi.org/10.1090/S0002-9904-1948-09052-8), [euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-54/issue-6/On-universal-mappings-and-free-topological-groups/bams/1183512049.full)&rbrack;
 
-* {#Johnstone} [[Peter Johnstone]], first pages of _[[Sketches of an Elephant]]_ (2022)
- 
-* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+The definition of an [[adjoint equivalence]] appears in 
 
-* {#Riehl} [[Emily Riehl]], Chapter 4 of _[[Category Theory in Context]]_, upcoming 2nd ed. Proposition 4.3.8. [preliminary pdf](https://emilyriehl.github.io/files/context.pdf)
+* [[Alexander Grothendieck]]: *[[Tôhoku|Sur quelques points d’algèbre homologique]]*, Tôhoku Math. J. **9** 2--3 (1957)
 
-Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
+The general idea of adjoint functors is due to:
 
-* {#Kan58} [[Daniel Kan]], *Adjoint functors*, Transactions of the American Mathematical Society **87** 2 (1958) 294-329 &lbrack;[jstor:1993102](http://www.jstor.org/stable/1993102)&rbrack;
+* {#Kan58} [[Daniel Kan]]: *Adjoint functors*, Transactions of the American Mathematical Society **87** 2 (1958) 294--329 &lbrack;[jstor:1993102](http://www.jstor.org/stable/1993102)&rbrack;
 
 and in [relation](monad#RelationToAdjunctionsAndMonadicity) to [[comonad|co]]/[[monads]] to
 
@@ -1669,19 +1668,34 @@ and its fundamental relevance for [[category theory]] was highlighted in
 The history of the idea that adjoint functors formalize aspects of [[dialectics]] is recounted in 
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982) ([doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6))
+  > (more along these lines at _[[adjoint modality]]_)
 
-  (more along these lines at _[[adjoint modality]]_)
+
+
+### General 
+
+For the basics, see any text on [[category theory]] (and see the references at _[[adjunction]]_), for instance:
+
+* {#MacLane71} [[Saunders MacLane]], Chapter IV of: _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+* {#Borceux94} [[Francis Borceux]], Section 3 in Volume 1 and Section 4.2 in Volume 2 of _[[Handbook of Categorical Algebra]]_ (1994)
+
+* {#Johnstone} [[Peter Johnstone]]; first pages of: _[[Sketches of an Elephant]]_ (2022)
+ 
+* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+
+* {#Riehl} [[Emily Riehl]], Chapter 4 of _[[Category Theory in Context]]_, upcoming 2nd ed. Proposition 4.3.8. [preliminary pdf](https://emilyriehl.github.io/files/context.pdf)
 
 See also:
 
-* Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
+* Wikipedia: *[Adjoint functors](http://en.wikipedia.org/wiki/Adjoint_functors)*
 
-* [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
+* [[The Catsters]] &lbrack;[list](http://www.youtube.com/view_play_list?p=54B49729E5102248)&rbrack;
+
 
 More on the notion of [[transformation of adjoints]]:
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
-
   > (in the context of the [[model structure on a Grothendieck construction]])
 
 
