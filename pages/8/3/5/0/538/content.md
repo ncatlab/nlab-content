@@ -139,6 +139,10 @@ Early identification of the [[universal property]] of the coproduct, for the cas
 
 * [[Otto Schreier]]; §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161--183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
 
+In modern [[category theory]]-language, the [[universal property]] of the coproduct (and its [[formal duality]] to the [[Cartesian product]] for the case of [[direct product groups]]) was first identified in:
+
+* [[Saunders MacLane]]: *Groups, Categories and Duality*, Proceedings of the National Academy of Sciences **34** 6 (1948) \[<a href="https://doi.org/10.1073/pnas.34.6.263">doi:10.1073/pnas.34.6.263</a>\]
+
 * [[Saunders MacLane]]; $(3.1')$ in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
 
 
