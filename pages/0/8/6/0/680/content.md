@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -748,9 +746,13 @@ An equivalence between representations of the category of finite-dimensional $\m
 * Nicholas Kuhn, _Generic representation theory of finite fields in nondescribing characteristic_, arxiv:1405.0318 ([link](https://arxiv.org/abs/1405.0318))
 
 
-A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discussed here:
+A [[categorification]] to a [[categorified Dold-Kan correspondence]]:
 
-* {#Dyckerhoff17} [[Tobias Dyckerhoff]], _A categorified Dold-Kan correspondence_ ([arXiv:1710.08356](https://arxiv.org/abs/1710.08356))
+* {#Dyckerhoff17} [[Tobias Dyckerhoff]], _A categorified Dold-Kan correspondence_ &lbrack;[arXiv:1710.08356](https://arxiv.org/abs/1710.08356)&rbrack;
+
+* Florian Warg: *Dold--Kan Correspondences via Morita Normalization* &lbrack;[arXiv:2610.28138](https://arxiv.org/abs/2610.28138)&rbrack;
+
+
 
 [[!redirects Dold--Kan correspondence]]
 [[!redirects Dold–Kan correspondence]]
