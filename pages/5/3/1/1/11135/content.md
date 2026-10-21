@@ -703,9 +703,9 @@ To a topologist this monad is _not_ an instance of the continuation monad of Def
 
 * [[Top|$Top$]] is not [[cartesian closed category|cartesian closed]], so that $\big[ [X,[0,1] ],[0,1]\big]$ is not available as an internal hom;
 
-However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology, and using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $beta$ as the double dual into the unit interval. 
+However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology: take the largest topology on the product set of $X$ and $Y$ such that all the constant graph functions are continuous, and endow the hom sets $hom(X,Y)$ with the smallest topology such that the point evaluation functions are continuous.  With these constructions the evaluation function $ev(f,x)=f(x)$ is continuous. Using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $beta$ as the double dual into the unit interval. 
 
-Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top. (Use the fact that, on compact Haussdorf spaces the double dual into the unit interval is an idempotent monad.)
+Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top. (Use the fact that, on compact Haussdorf spaces, the double dual into the unit interval is an isomorphism.)
 
 \end{remark}
 
