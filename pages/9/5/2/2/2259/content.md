@@ -35,6 +35,10 @@ Introducing abstract [[group cohomology]]:
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
 
+On [[abelian groups]] and identifying the [[universal property]] of ([[coproduct|co]])[[products]] for the case of [[direct product groups]] ([[free product groups]]): 
+
+* [[Saunders MacLane]]: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
 
 Introducing [[Eilenberg-MacLane spaces]]:
 
