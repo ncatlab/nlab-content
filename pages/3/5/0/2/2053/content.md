@@ -14,9 +14,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -233,11 +233,16 @@ The value of the more general construction above is that one often has much smal
 
 ## References
 
-The notion of amalgamated free products of groups is due to
+The notion of amalgamated free products of groups is due to:
 
-* [[Otto Schreier]], §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161--183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
+* [[Otto Schreier]]; §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161--183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
 
-where it is discussed (though not under any name) complete with the [[universal property]] of what today we recognize as a [[colimit]] (long before this [[category theory]]-notion was formulated in generality).
+where it is discussed (though not under any name) complete with the [[universal property]] of what today we recognize as a [[colimit]], specifically a [[coproduct]] (long before this [[category theory]]-notion was formulated in generality).
+
+This [[universal property]] was later reamplified in:
+
+* [[Saunders MacLane]]; $(3.1')$ in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
 
 The actual terminology "amalgamated free product" seems to be due to:
 
@@ -265,6 +270,9 @@ Discussion of [[subgroups]] of amalgamated from products:
 
 [[!redirects free product]]
 [[!redirects free products]]
+
+[[!redirects free product group]]
+[[!redirects free product groups]]
 
 [[!redirects amalgamated free product]]
 [[!redirects amalgamated free products]]
