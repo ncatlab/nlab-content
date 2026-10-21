@@ -239,9 +239,13 @@ The notion of amalgamated free products of groups is due to:
 
 where it is discussed (though not under any name) complete with the [[universal property]] of what today we recognize as a [[colimit]], specifically a [[coproduct]] (long before this [[category theory]]-notion was formulated in generality).
 
-This [[universal property]] was later reamplified in:
+In modern [[category theory]]-language, the [[universal property]] of the [[coproduct]] (and its [[formal duality]] to the [[Cartesian product]] for the case of [[direct product groups]]) was first identified in:
+
+* [[Saunders MacLane]]: *Groups, Categories and Duality*, Proceedings of the National Academy of Sciences **34** 6 (1948) \[<a href="https://doi.org/10.1073/pnas.34.6.263">doi:10.1073/pnas.34.6.263</a>\]
 
 * [[Saunders MacLane]]; $(3.1')$ in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
+
 
 
 The actual terminology "amalgamated free product" seems to be due to:
