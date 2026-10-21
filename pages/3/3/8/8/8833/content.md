@@ -142,7 +142,7 @@ Massey triple products generalised to [[algebra over an operad|algebras]] over  
 
 The case of higher Massey products for [[algebra over an operad|algebras]] over [[Koszul duality|Koszul]] [[operads]] along with the precise relationship to [[Koszul duality]]: 
 
-* [[Oisín Flynn-Connolly]], [[José M. Moreno-Fernández]]: _Higher order Massey products for algebras over algebraic operads_, Mathematische Zeitschrift &lbrack;[arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.48550/arXiv.2304.13411](https://doi.org/10.48550/arXiv.2304.13411)&rbrack;
+* [[Oisín Flynn-Connolly]], [[José M. Moreno-Fernández]]: _Higher order Massey products for algebras over algebraic operads_, Math. Z. 314, 39 (2026) &lbrack;[arXiv:2304.13411](http://arxiv.org/abs/2304.13411), [doi:10.1007/s00209-026-04152-y](https://doi.org/10.1007/s00209-026-04152-y)&rbrack;
 
 A generalization of [[operad|operadic]] Massey products to [[positive characteristic]], where they are related to higher [[Steenrod operations]] and the [[Frobenius map]]: 
 
