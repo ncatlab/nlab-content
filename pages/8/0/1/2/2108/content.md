@@ -19,9 +19,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -203,13 +201,13 @@ corresponding to $f$;
 
 * $\nabla_{v_f} : \Gamma_X(E) \to \Gamma_X(E)$ is the [[covariant derivative]] of sections along $v_f$ for the given choice of prequantum connection;
 
-* $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
+* $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication of sections.
 
 =--
 
 +-- {: .num_remark #OriginOfTheFormulaForPrequantumOperators}
 ###### Remark
-**(origin of the formulas for [[prequantum operators]])*
+**(origin of the formulas for [[prequantum operators]])**
 
 The formula (eq:FormulaForPrequantumOperator) may look a bit mysterious on first sight. The correction term to the [[covariant derivative]] appearing in this formula is ultimately due to the fact that with $v$ the [[Hamiltonian vector field]] corresponding to a [[Hamiltonian]] $H_v$ via
 
@@ -250,13 +248,13 @@ Historically, the traditional way to formalize the formation of the [[space of q
 
 1. choose a [Metaplectic correction](#MetaplecticCorrection);
 
-1. form the induced [[space of quantum states]] as the space of polarized sections of the [[prequantum line bundle]] tensored a certain half-form bundle.
+1. form the induced [[space of quantum states]] as the space of polarized sections of the [[prequantum line bundle]] tensored with a certain [[canonical Hilbert space of half-densities|half-density bundle]].
 
-This we discuss at 
+This we discuss at:
 
 * _[Quantum state space as space of polarized sections](#Polarizations)_
 
-This traditional route via polarizations and metaplectic corrections has the disadvantage that mathematically it is not a very natural operation.  However, under mild conditions it turns out to be [[equivalence|equivalent]] to the following mathematically very natural construction
+This traditional route via polarizations and metaplectic corrections has the disadvantage that, mathematically, it is not a very natural operation.  However, under mild conditions it turns out to be [[equivalence|equivalent]] to the following mathematically very natural construction:
 
 1. choose a [[KU-orientation]], hence a  [[spin^c structure]] of $X$ compatible with the given prequantum bundle;
 
