@@ -41,7 +41,7 @@ On [[The Rising Sea]]-analogy by [[Alexander Grothendieck]]:
 
 On [[Saunders MacLane]]:
 
-* [[Colin McLarty]]: _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. (2007) &lbrack;[pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf)&rbrack;
+* [[Colin McLarty]]: *The Last Mathematician from Hilbert's Göttingen: Saunders Mac Lane as Philosopher of Mathematics*, Brit. J. Phil. Sci. **58** 1 (2007) 77--112 \[<a href="https://doi.org/10.1093/bjps/axl030">doi:10.1093/bjps/axl030</a>\]
 
 On the need, or not, for [[Grothendieck universes]] in [[Andrew Wiles|Wiles]]' proof of [[Fermat's last theorem]]:
 
