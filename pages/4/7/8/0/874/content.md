@@ -253,15 +253,19 @@ In [[material set theory]], the existence of binary cartesian products follows f
 
 ## References
 
+The [[universal property]] of the cartesian product, for the case of [[direct product groups]], was first identified in:
+
+* [[Saunders MacLane]]; (3.1) in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
 Textbook account:
 
 * [[Francis Borceux]], Section 2.1 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
-Categories with one object and binary products are studied in:
+On categories with one object and binary products:
 
-* Aaron Gray and Keith Pardue, _Products in a Category with One Object_, [arXiv:1604.03999](https://arxiv.org/abs/1604.03999) (2016).
+* Aaron Gray and Keith Pardue, _Products in a Category with One Object_ &lbrack;[arXiv:1604.03999](https://arxiv.org/abs/1604.03999)&rbrack;
 
-* Richard Statman, _Products in a category with only one object_, [arXiv:2101.10494](https://arxiv.org/abs/2101.10494) (2021).
+* Richard Statman: _Products in a category with only one object_ &lbrack;[arXiv:2101.10494](https://arxiv.org/abs/2101.10494)&rbrack;
 
 
 category: foundational axiom
