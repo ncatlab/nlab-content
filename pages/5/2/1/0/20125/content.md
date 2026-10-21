@@ -313,7 +313,7 @@ and specifically in the [[HaPPY code]] modelling [[holographic entanglement entr
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
-* {#PYHP15} Fernando Pastawski, Beni Yoshida, [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
+* {#PYHP15} [[Fernando Pastawski]], Beni Yoshida, [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
 reviewed in
 
@@ -338,7 +338,7 @@ See also
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
 
-* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
+* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
 
 ### Relation to spin chains
 
