@@ -10,10 +10,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -42,7 +40,11 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 
 ## References
 
-* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
+* [[Oscar Zariski]], [[Pierre Samuel]]: _Commutative algebra I_, Graduate Texts in Mathematics **28**, Springer (1958, 1975) &lbrack;[ISBN:978-0-387-90089-6](https://link.springer.com/book/9780387900896), MR 0090581&rbrack;
+
+* [[Oscar Zariski]], [[Pierre Samuel]]: _Commutative algebra II_, Springer (1960, 1975) &lbrack;[ISBN:978-0-387-90171-8](https://link.springer.com/book/9780387901718), MR 0389876&rbrack;
+
+* [[Michael Atiyah]], [[Ian G. Macdonald]]: _Introduction to commutative algebra_, (1969, 1994) &lbrack;[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)&rbrack;
 
 * H. Matsumura, _Commutative algebra_, 2 vols.; see also the online summary notes by D. Murfet, [Matsumura.pdf](http://therisingsea.org/notes/Matsumura.pdf), [Matsumura-Part2.pdf](http://therisingsea.org/notes/Matsumura-Part2.pdf)
 
