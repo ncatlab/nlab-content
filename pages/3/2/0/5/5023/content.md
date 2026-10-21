@@ -160,7 +160,7 @@ For more details in this at _[[Heisenberg Lie algebra]]_ the section _[Relation 
 ### Relation to symplectomorphisms
  {#RelationToSymplectomorphisms}
 
-By the [above](#RelationToPoissonBracket), the Heisenberg group is a [[subgroup]] of the group that integrates the [[Poisson bracket]]. The latter is a [[central extension]] of the group of [[Hamiltonian symplectomorphisms]].
+By the [above](#RelationToPoissonBracket), the Heisenberg group is a [[subgroup]] of the group that integrates the [[Poisson bracket]]. The latter is a [[central extension]] of the group of [[Hamiltonian symplectomorphisms]], the *[[quantomorphism group]]*.
 
 (Of course, on a contractible [[symplectic manifold]] such as a [[symplectic vector space]], every [[symplectomorphism]] is automatically a [[Hamiltonian symplectomorphism]].)
 
