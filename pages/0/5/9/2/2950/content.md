@@ -55,6 +55,12 @@ On the [[K-theory classification of D-brane charge]]:
 
 * [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
 
+On [[Page charge]] in [[11D supergravity]]:
+
+* {#Moore04} [[Greg Moore]]: *On Flux Quantization in M-Theory*, talk at IHES (June 2004) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/IHES_TalkI_v2.pdf), [[Moore-OnFluxQuantization.pdf|pdf:file]]&rbrack;
+
+* {#Moore05} [[Greg Moore]]: *Anomalies, Gauss laws, and Page charges in M-theory*, Comptes Rendus Physique **6** (2005) 251-259 &lbrack;[arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158), [doi:10.1016/j.crhy.2004.12.005](https://doi.org/10.1016/j.crhy.2004.12.005)&rbrack;
+
 
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
