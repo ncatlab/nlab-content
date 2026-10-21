@@ -253,7 +253,9 @@ In [[material set theory]], the existence of binary cartesian products follows f
 
 ## References
 
-The [[universal property]] of the cartesian product, for the case of [[direct product groups]], was first identified in:
+The [[universal property]] of the cartesian product, for the case of [[direct product groups]] (and its [[formal duality]] to the [[coproduct]] for the case of [[free product groups]]) was first identified in:
+
+* [[Saunders MacLane]]: *Groups, Categories and Duality*, Proceedings of the National Academy of Sciences **34** 6 (1948) \[<a href="https://doi.org/10.1073/pnas.34.6.263">doi:10.1073/pnas.34.6.263</a>\]
 
 * [[Saunders MacLane]]; (3.1) in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
 
