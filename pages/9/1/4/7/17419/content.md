@@ -79,6 +79,14 @@ Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsO
 
 ## References
 
+The [[universal property]] of direct product groups understood as [[Cartesian products]] of [[groups]] (and its [[formal duality]] to the [[coproduct]] for the case of [[free product groups]]) was first identified in:
+
+* [[Saunders MacLane]]: *Groups, Categories and Duality*, Proceedings of the National Academy of Sciences **34** 6 (1948) \[<a href="https://doi.org/10.1073/pnas.34.6.263">doi:10.1073/pnas.34.6.263</a>\]
+
+* [[Saunders MacLane]]; (3.1) in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
+See also:
+
 * {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. **20** 1 (1967) 45-58 &lbrack;[euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967)&rbrack;
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]]: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
