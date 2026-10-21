@@ -2,9 +2,14 @@ Currently holds a postdoctoral research position at the University of Manchester
 
 * [personal webpage](https://gtendas.github.io/)
 
-* [google scholar](https://scholar.google.com/citations?user=VEFYpBMAAAAJ)
+* [GoogleScholar page](https://scholar.google.com/citations?user=VEFYpBMAAAAJ)
 
 ## Selected writings
+
+On [[dense functors]]:
+
+* [[Giacomo Tendas]]: *Dense functors and density presentations*, unpublished notes &lbrack;[pdf](https://gtendas.github.io/pdfs/day.pdf), [[Tendas-DenseFunctors.pdf|pdf:file]]&rbrack;
+
 
 On [[enriched category|enriched]] [[accessible categories]]:
 
