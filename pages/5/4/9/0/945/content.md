@@ -9,11 +9,9 @@
 =--
 =--
 =--
-# Contents
-* table of contents
-{:toc}
 
 
+\tableofcontents
 
 
 ## Idea
@@ -23,6 +21,20 @@ In [[topology]], a not necessarily [[continuous function|continuous]] [[function
 In [[category theory]], the concept of a **dense functor** is an analogy of this concept for [[functors]]. 
 
 An important special case that was also historically the source of the concept, is the case of a [[dense subcategory]] [[fully faithful functor|inclusion]]: a [[subcategory]] $S$ of category $C$ is _dense_ if every [[object]] $c$ of $C$ is a [[colimit]] of a [[diagram]] of objects in $S$, in a canonical way. 
+
+
+\begin{remark}\label{TerminologyAndHistory}
+**(Terminology and History)**
+ 
+[Isbell 1960](#Isbell1960) introduced [[dense subcategory|dense subcategories]] under the name *left adequate* subcategories.  He showed that while the relation of being left (or right) adequate is not transitive, being adequate (left *and* right) is transitive. This brought out interesting connections with [[set theory]] and [[measurable cardinals]].
+
+Later, [Ulmer 1968](#Ulmer1968) considered the concept for more general functors $F:C\to D$, not only inclusions $I:C\hookrightarrow D$, and introduced the name _dense_ for them. In [Gabriel & Ulmer 1971](#GabrielUlmer71) this gave rise to the notion of *[[locally presentable categories]]*.
+
+Compare also [[Lazard's criterion]] in the abelian context, due to [Lazard 1964](#Lazard's+criterion#Lazard1964).
+
+More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)-categories]] as *strongly generating* in a version (arXiv v4) of his [[Higher Topos Theory|HTT]], but that term normally means [[strong generator|something different]].
+\end{remark}
+
 
 ## Definition 
 
@@ -55,7 +67,7 @@ A [[functor]] $i \colon S \to C$ is __dense__ if it satisfies the following equi
 
 1. the [[left Kan extension]] $lan_i i$ exists, is [[pointwise Kan extension|pointwise]], and is isomorphic to the identity.
 
-1. $C$ is the closure of $S$ under [[colimits]] of a family of [[diagrams]], by which is meant a class of pairs $(F \colon L^{op} \to \mathcal{V}, P \colon L \to C)$ consisting of a [[weight]] and a diagram for that weight, and these colimits are $i$-absolute (i.e. preserved by the [[nerve]] $N_i$ of $i$). See [(Theorem 5.19 of Kelly)](#Kelly), for instance.
+1. $C$ is the closure of $S$ under [[colimits]] of a family of [[diagrams]], by which is meant a class of pairs $(F \colon L^{op} \to \mathcal{V}, P \colon L \to C)$ consisting of a [[weight]] and a diagram for that weight, and these colimits are $i$-absolute (i.e. preserved by the [[nerve]] $N_i$ of $i$), cf. [Kelly 1982 Thm 5.19](#Kelly1982).
 
 1. For every category $B$, precomposition by $i$ induces a [[full and faithful functor]]
 $$[i, 1] : S\text{-Cocts}[C, B] \to [S, B]$$
@@ -110,7 +122,7 @@ The category $Top$ of [[topological spaces]] does not have any small full subcat
 \end{example}
 
 \begin{example}
-The full subcategory of $Set^{op}$ on a countable set is dense if and only if there is not a proper class of [[measurable cardinals]].  ([Isbell](#Isbell), Section 2.5.)
+The full subcategory of $Set^{op}$ on a countable set is dense if and only if there is not a proper class of [[measurable cardinals]].  ([Isbell '60](#Isbell1960), Section 2.5.)
 In fact, $Set^{op}$ admits a small dense subcategory if and only if there is not a proper class of [[measurable cardinals]].  ([Adámek–Rosický](#LPAC), Theorem A.5.)
 \end{example}
 
@@ -151,44 +163,39 @@ The restricted Yoneda to the full subcategory spanned by $\{R\}$ is faithful, he
 * [[dominant geometric morphism]]
 
 
-## Terminology and History ##
- 
-[[John Isbell]] introduced [[dense subcategory|dense subcategories]] in a seminal paper [(Isbell 1960)](#MR0175954) under the name *left adequate*.  The dual notion of *right adequate* was also introduced and subcategories satisfying both were called *adequate*. It was also shown that while the relation of being left (or right) adequate is not transitive, being adequate is transitive. He also brought out interesting connections with [[set theory]] and [[measurable cardinals]].
-
-Later in the mid 60s, [[Friedrich Ulmer]] considered the concept for more general functors $F:C\to D$, not only inclusions $I:C\hookrightarrow D$, and introduced the name _dense_ for them.
-
-Independently, [[Pierre Gabriel]] worked on this concept and their work coalesced to what was to become the concept of a [[locally presentable category]] of their [1971 monograph](#GabrielUlmer71). It is also good to keep in mind the '_Abelian_' subcontext in the background, in particular the developments in module theory e.g. Lazard's (1964) characterization of flat modules as filtered colimits of finitely generated free modules.
-
-More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)-categories]] as *strongly generating* in a version (arXiv v4) of his [[Higher Topos Theory|HTT]], but that term normally means [[strong generator|something different]].
-
 
 ## References
+ {#References}
 
-* {#LPAC} Jiří Adámek, Jiří Rosický, _[[Locally Presentable and Accessible Categories]]_.
 
-* Tom Avery, [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
-
-* {#GabrielUlmer71} [[Pierre Gabriel|Peter Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, LNM **221** Springer Heidelberg 1971. (&#167; 3, pp.38-44)
-
-* {: #MR0175954 } {#Isbell} [[John Isbell]], _Adequate subcategories_, Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
+* {#Isbell1960} [[John Isbell]], _Adequate subcategories_, Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
  
-* [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_, Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
+* {#Isbell1964} [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_, Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
 
-* {#Kelly} [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
+* {#Ulmer1968} [[Friedrich Ulmer]]: _Properties of dense and relative adjoint functors_, J. of Algebra **8** (1968) 77--95 \[<a href="https://doi.org/10.1016/0021-8693(68)90036-7">doi:10.1016/0021-8693(68)90036-7</a>\]
 
-* [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm))
+* {#Schubert1970} [[Horst Schubert]]; section 17.2, pp.29 in:  _Kategorien II_, Springer (1970)
 
-* [[Saunders Mac Lane]], _Categories for the Working Mathematician_, Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
+* {#GabrielUlmer71} [[Peter Gabriel]], [[Friedrich Ulmer]]; § 3 in: _Lokal pr&#228;sentierbare Kategorien_, LNM **221**, Springer (1971) 38--44
 
-* [[Horst Schubert]], _Kategorien II_, Springer Heidelberg 1970. (section 17.2, pp.29ff)
+* {#MacLane1971} [[Saunders MacLane]]; section X.6, pp. 245--250 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_, J. of Algebra **8** (1968) pp.77-95.
+* {#Kelly1982} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+ 
+* {#Lawvere2006} [[William Lawvere]]: _John Isbell's Adequate Subcategories_, TopCom **11** 1 (2006) &lbrack;[archive](https://web.archive.org/web/20110714155653/http://at.yorku.ca/t/o/p/d/65.htm)&rbrack;
 
-* [[Giacomo Tendas]], *Dense functors and density presentations*, unpublished notes ([pdf](https://gtendas.github.io/pdfs/day.pdf))
 
-* {#Przybyłek2014} [[Michał Przybyłek]], _Analysis and construction of logical systems: a category-theoretic approach_ (2014), PhD thesis ([pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf)).
+* [[Giacomo Tendas]]: *Dense functors and density presentations*, unpublished notes &lbrack;[pdf](https://gtendas.github.io/pdfs/day.pdf), [[Tendas-DenseFunctors.pdf|pdf:file]]&rbrack;
+
+* {#LPAC} [[Jiří Adámek]], [[Jiří Rosický]]: _[[Locally Presentable and Accessible Categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
+
+* {#Przybyłek2014} [[Michał Przybyłek]]: _Analysis and construction of logical systems: a category-theoretic approach_, PhD thesis (2014) &lbrack;[pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf)&rbrack;
+
+* Tom Avery, [[Tom Leinster]]: _Isbell conjugacy and the reflexive completion_ &lbrack;[arXiv:2102.08290](https://arxiv.org/abs/2102.08290)&rbrack;
 
 * {#Kerodon} [[Kerodon]], 8.4.1.3 ([03VB](https://kerodon.net/tag/03VB))
+
+[[!redirects dense functors]]
 
 [[!redirects adequate subcategory]]
 [[!redirects left adequate subcategory]]
