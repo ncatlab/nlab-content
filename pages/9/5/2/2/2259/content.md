@@ -14,7 +14,7 @@ With [[Henry Whitehead]] he gave the first algebraic description of the [[homoto
 
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
 
-* [[Colin McLarty]]: *The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics*, Brit. J. Phil. Sci. (2007) &lbrack;[pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf)&rbrack;
+* [[Colin McLarty]]: *The Last Mathematician from Hilbert's Göttingen: Saunders Mac Lane as Philosopher of Mathematics*, Brit. J. Phil. Sci. **58** 1 (2007) 77--112 \[<a href="https://doi.org/10.1093/bjps/axl030">doi:10.1093/bjps/axl030</a>\]
 
 
 ## Selected writings
@@ -35,7 +35,9 @@ Introducing abstract [[group cohomology]]:
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
 
-On [[abelian groups]] and identifying the [[universal property]] of ([[coproduct|co]])[[products]] for the case of [[direct product groups]] ([[free product groups]]): 
+On [[abelian groups]] and identifying the [[category theory|category theoretic]] [[universal property]] of ([[coproduct|co]])[[products]] for the case of [[direct product groups]] ([[free product groups]]): 
+
+* [[Saunders MacLane]]: *Groups, Categories and Duality*, Proceedings of the National Academy of Sciences **34** 6 (1948) \[<a href="https://doi.org/10.1073/pnas.34.6.263">doi:10.1073/pnas.34.6.263</a>\]
 
 * [[Saunders MacLane]]: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
 
