@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -118,6 +116,11 @@ For general references see also at _[[orthogonal group]]_.
 
 
 * {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], around Theorem 4.2.23 of: _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+On higher [[homotopy groups]]:
+
+* Yoshihiro Hirato, Jin-ho Lee, Toshiyuki Miyauchi, Juno Mukai, Mariko Ohara, Juxin Yang: *Homotopy Groups of Special Orthogonal Groups in Degrees 23 to 29* &lbrack;[arXiv:2610.28447](https://arxiv.org/abs/2610.28447)&rbrack;
+
 
 
 See also
