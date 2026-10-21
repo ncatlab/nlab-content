@@ -13,9 +13,9 @@
 =--
 =--
 
-# Coproducts
-* tic
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -134,6 +134,13 @@ such that this is [[universal property|universal]] among all objects with maps f
   * [[dependent sum type]], [[dependent product type]]
 
 ## References
+
+Early identification of the [[universal property]] of the coproduct, for the case of [[free product groups]]:
+
+* [[Otto Schreier]]; §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161--183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
+
+* [[Saunders MacLane]]; $(3.1')$ in: *Duality for Groups*, Bulletin of the American Mathematical Society **56** 6 (1950) 485--516 &lbrack;[doi:10.1090/S0002-9904-1950-09427-0](https://doi.org/10.1090/S0002-9904-1950-09427-0)&rbrack;
+
 
 Textbook account:
 
