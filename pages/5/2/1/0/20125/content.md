@@ -177,10 +177,19 @@ Review and exposition:
 
 * Xavier Waintal, Chen-How Huang, Christoph W. Groth: *Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques* &lbrack;[arXiv:2601.03035](https://arxiv.org/abs/2601.03035)&rbrack;
 
+* Bram Vancraeynest-De Cuiper, Weronika Wiesiolek, [[Frank Verstraete]], _Les Houches lecture notes on tensor networks_, SciPost Physics Lecture Notes **128** (2026) ([arXiv:2512.24390v2](https://arxiv.org/abs/2512.24390v2), [doi:10.21468/SciPostPhysLectNotes.128](https://doi.org/10.21468/SciPostPhysLectNotes.128))
+
+Further resources:
+
+* [Tensor Network Initiative](https://www.perimeterinstitute.ca/research/research-initiatives/tensor-networks-initiative)
+
+* [tensornetwork.org](https://tensornetwork.org/)
 
 
+### With additional algebraic structure
 
-With [[global symmetry]]:
+
+... for [[global symmetry|global symmetries]]:
 
 * Sukhwinder Singh, Robert N. C. Pfeifer, [[Guifre Vidal]], _Tensor network decompositions in the presence of a global symmetry_, Phys. Rev. A82:050301, 2010 ([arXiv:0907.2994](https://arxiv.org/abs/0907.2994))
 
@@ -188,18 +197,28 @@ With [[global symmetry]]:
 
 * {#SinghVidal12} Sukhwinder Singh, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
 
-and extensions to [[fusion category|fusion categories]]:
+... for fermionic systems using [[super vector spaces]]:
+
+* Quinten Mortier, Lukas Devos, Lander Burgelman, Bram Vanhecke, Nick Bultinck, [[Frank Verstraete]], Jutho Haegeman, Laurens Vanderstraeten, _Fermionic tensor network methods_, SciPost Physics **18**(1), 012 (2025) ([doi:10.21468/SciPostPhys.18.1.012](https://doi.org/10.21468/SciPostPhys.18.1.012))
+
+
+... for [[anyon|anyonic]] models:
+
+* Robert N. C. Pfeifer, Philippe Corboz, Oliver Buerschaper, Miguel Aguado, Matthias Troyer, [[Guifre Vidal]], _Simulation of anyons with tensor network algorithms_, Phys. Rev. B **82**, 115126 (2010) ([doi:10.1103/PhysRevB.82.115126](https://doi.org/10.1103/PhysRevB.82.115126))
+
+* Robert N. C. Pfeifer, _Simulation of anyons using symmetric tensor network algorithms_ ([arXiv:1202.1522](https://arxiv.org/abs/1202.1522))
+
+
+* Babatunde M. Ayeni, Sukhwinder Singh, Robert N. C. Pfeifer, Gavin K. Brennen, _Simulation of braiding anyons using matrix product states_, Phys. Rev. B **93**, 165128 (2016) ([doi:10.1103/PhysRevB.93.165128](https://doi.org/10.1103/PhysRevB.93.165128))
+
+
+... and using [[fusion category|fusion categories]]:
 
 * Jakob Unfried: §5 in: *Advancing Tensor Network Simulations - Hardware Acceleration, Stable Optimization, and Symmetries*, Phd thesis, Technical University of Munich (2024). ([pdf](https://mediatum.ub.tum.de/doc/1755273/1755273.pdf))
 
 * Lukas Devos and Jutho Haegeman: *TensorKit.jl: A Julia package for large-scale tensor computations, with a hint of category theory*, (2025). ([arxiv:2508.10076](https://arxiv.org/abs/2508.10076))
 
 
-Further resources:
-
-* [Tensor Network Initiative](https://www.perimeterinstitute.ca/research/research-initiatives/tensor-networks-initiative)
-
-* [tensornetwork.org](https://tensornetwork.org/)
 
 ### Application in solid state physics
 
