@@ -142,7 +142,7 @@ The suggestion originates in
 
 * {#Witten96b} [[Edward Witten]], *Five-Brane Effective Action In M-Theory*, J. Geom. Phys. **22** 2 (1997) 103-133 &lbrack;[arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234), <a href="https://doi.org/10.1016/S0393-0440(97)80160-X">doi:10.1016/S0393-0440(97)80160-X</a>&rbrack;
 
-Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include
+Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]]:
 
 * {#HopkinsSinger02} [[Michael Hopkins]], [[Isadore Singer]]: *[[Quadratic Functions in Geometry, Topology, and M-Theory]]*  J. Differential Geom. **70** 3 (2005) 329-452  &lbrack;[euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908), [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)&rbrack;
 
@@ -150,7 +150,9 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics **263** 1 (2006) 89-132 &lbrack;[arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
 
-* {#Moore04} [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_, Comptes Rendus Physique **6** (2005) 251-259 &lbrack;[arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158), [doi:10.1016/j.crhy.2004.12.005](https://doi.org/10.1016/j.crhy.2004.12.005)&rbrack;
+* {#Moore04} [[Greg Moore]]: *On Flux Quantization in M-Theory*, talk at IHES (June 2004) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/IHES_TalkI_v2.pdf), [[Moore-OnFluxQuantization.pdf|pdf:file]]&rbrack;
+
+* {#Moore05} [[Greg Moore]]: *Anomalies, Gauss laws, and Page charges in M-theory*, Comptes Rendus Physique **6** (2005) 251-259 &lbrack;[arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158), [doi:10.1016/j.crhy.2004.12.005](https://doi.org/10.1016/j.crhy.2004.12.005)&rbrack;
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics,  Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1))
 
