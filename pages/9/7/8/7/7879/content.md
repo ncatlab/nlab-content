@@ -14,7 +14,7 @@
 
 ## Idea
 
-*Haskell* is a [[type theory|typed]] [[functional programming language]]. It is named after [[Haskell Brooks Curry]].
+*Haskell* is a [[type theory|typed]] [[functional programming language]] whose core is based on [[System F]]. It is named after [[Haskell Brooks Curry]].
 
 ## Properties
 
