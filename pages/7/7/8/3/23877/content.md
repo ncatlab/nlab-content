@@ -69,7 +69,7 @@ Equivalently, a preordered object $X$ is an [[internal category]] with $X$ the o
 +-- {: .num_remark}
 ###### Remark
 
-We can equivalently define an internal preorder $R$ as (a representing object of) a representable sub-presheaf of $\hom(-, X \times X)$ so that for each object $Y$, the composite of $R(Y) \hookrightarrow \hom(Y, X \times X) \cong \hom(Y, X) \times \hom(Y, X)$ exhibits $R(Y)$ as an preorder on the set $\hom(Y, X)$. The upshot of this definition is that it makes sense even when $C$ is not finitely complete.
+We can equivalently define an internal preorder $R$ as (a representing object of) a representable sub-presheaf of $\hom(-, X \times X)$ so that for each object $Y$, the composite of $R(Y) \hookrightarrow \hom(Y, X \times X) \cong \hom(Y, X) \times \hom(Y, X)$ exhibits $R(Y)$ as a preorder on the set $\hom(Y, X)$. The upshot of this definition is that it makes sense even when $C$ is not finitely complete.
 
 =--
 
