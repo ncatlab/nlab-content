@@ -71,13 +71,15 @@ Via [[geodesic]] motion on the [[coset space]] of the [[U-duality]] [[Kac-Moody 
 
 From lifting [[string length scale|alpha']]-corrections in [[type IIA string theory]] through the [[duality between M-theory and type IIA string theory]]:
 
-* [[James Liu]], [[Ruben Minasian]], _Higher-derivative couplings in string theory: dualities and the B-field_, Nucl. Phys. B 2013 \•[<a href="https://arxiv.org/abs/1304.3137">arXiv:1304.3137</a>\]
+* [[James Liu]], [[Ruben Minasian]], _Higher-derivative couplings in string theory: dualities and the B-field_, Nucl. Phys. B 2013 \[<a href="https://arxiv.org/abs/1304.3137">arXiv:1304.3137</a>\]
 
 Via [[type IIB supergravity]]:
 
-* [[James Liu]], [[Ruben Minasian]], Raffaele Savelli, Andreas Schachner, *Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles* \[<a href="https://arxiv.org/abs/2205.11530">arXiv:2205.11530</a>\]
+* [[James Liu]], [[Ruben Minasian]], Raffaele Savelli, Andreas Schachner: *Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles* \[<a href="https://arxiv.org/abs/2205.11530">arXiv:2205.11530</a>\]
 
 See also:
+
+* Hamid R. Bakhtiarizadeh: *Gauge field corrections to 11-dimensional supergravity via dimensional reduction*, Eur. Phys. J. C **78** (2018) 686 \[<a href="https://doi.org/10.1140/epjc/s10052-018-6152-y">doi:10.1140/epjc/s10052-018-6152-y</a>, [arXiv:1711.11313](https://arxiv.org/abs/1711.11313)\]
 
 * [[Mohammad R. Garousi]]: *Type IIA supergravity at one loop: $\alpha'^3$ terms in the metric-dilaton-RR one-form sector* \[<a href="https://arxiv.org/abs/2508.10529">arXiv:2508.10529</a>\]
 
