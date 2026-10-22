@@ -121,7 +121,7 @@ $$
 
 satisfied by [[differentials]] in [[chain complexes]] (in [[homological algebra]]). 
 
-Write $\mathbb{Z}[S]$ be the [[simplicial abelian group]] obtained form $S$ by forming degreewise the [[free abelian group]] on the set of $n$-simplices, as discussed at _[[chains on a simplicial set]]_.
+Write $\mathbb{Z}[S]$ be the [[simplicial abelian group]] obtained from $S$ by forming degreewise the [[free abelian group]] on the set of $n$-simplices, as discussed at _[[chains on a simplicial set]]_.
 
 Then using these [[formal linear combinations]] we can sum up all the $(n+1)$ face maps $\partial_i : S_n \to S_{n-1}$ into a single map:
 
