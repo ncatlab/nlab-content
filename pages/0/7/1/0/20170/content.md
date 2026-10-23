@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -58,7 +56,10 @@ See also
 
 * {#Waner80} [[Stefan Waner]], _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([JSTOR](http://www.jstor.org/stable/1998061))
 
-* {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], J. Leida and [[Yongbin Ruan]]: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf)&rbrack;
+
+* Hao Yu: *Triangulation of orbifolds with corners* &lbrack;[arXiv:2610.31001](https://arxiv.org/abs/2610.31001)&rbrack;
+
 
 
 [[!redirects equivariant triangulation theorems]]
