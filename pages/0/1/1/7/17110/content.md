@@ -108,6 +108,11 @@ On [[cohomotopy]] of 4-manifolds:
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]]: *Cohomotopy sets of 4-manifolds*, Geometry & Topology Monographs **18** (2012) 161-190 &lbrack;[arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161)&rbrack;
 
+Via [[topologically twisted D=4 super Yang-Mills theory]]:
+
+* Niklas Garner, Martijn Kool, Jan Manschot, Yuuji Tanaka: *Quantum field theory and four-manifolds: Perspectives from physics and geometry* &lbrack;[arXiv:2610.30288](https://arxiv.org/abs/2610.30288)&rbrack;
+
+
 
 ### Relation to 2d CFTs via 6d CFT
 
