@@ -437,6 +437,9 @@ See also:
 
 * F. S. Gama: *Higher-derivative $\mathcal{N}=1$ and $\mathcal{N}=2$ supersymmetric Maxwell-Chern-Simons theories at one loop in superspace* &lbrack;[arXiv:2605.01661](https://arxiv.org/abs/2605.01661)&rbrack;
 
+* Dean Carmi, Riccardo Ciccone: *Maxwell-Chern-Simons-Matter in $AdS_3$* &lbrack;[arXiv:2610.30260](https://arxiv.org/abs/2610.30260)&rbrack;
+
+
 
 
 
