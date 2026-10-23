@@ -3,13 +3,13 @@
 We give a definition of an inner automorphism in any [[category]], originally due to Bergman.
 
 Suppose $C$ is a category and $G$ is an object of $C$.
-An __inner automorphism__ of $G$ is a family of automorphisms $p_f\colon H\to H$, one for every morphism $f\colon G\to H$ in $C$, for which the following square commutes:
+An __inner automorphism__ of $G$ is a family of automorphisms $p_f\colon H\to H$, one for every morphism $f\colon G\to H$ in $C$, for which the following square commutes for every morphism $g\colon H\to K$:
 \begin{xymatrix}
 H \ar[r]^{p_f} \ar[d]_g & H \ar[d]^g \cr
 K \ar[r]_{p_{gf}} & K \cr
 \end{xymatrix}
 
-For example, if $C$ is the category of [[groups]], then every such family $p$ can be shown to satisfy $p_f(h)=f(g)hf(g)^{-1}$ for a unique element $g\in G$.
+For example, if $C$ is the category of [[groups]], then every such family $p$ can be shown to satisfy $p_f(h)=f(g) h f(g)^{-1}$ for an element $g\in G$.
 
 Bergman computes inner automorphisms for many algebraic structures, which tend to be given by a conjugation of some sort.
 
