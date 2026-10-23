@@ -94,6 +94,9 @@ See also:
 
 * [[Henning Samtleben]], Martin Weidner, *The maximal $D=7$ supergravities*, Nucl.Phys. B **725** (2005) 383-419 &lbrack;[arXiv:hep-th/0506237](https://arxiv.org/abs/hep-th/0506237), [doi:10.1016/j.nuclphysb.2005.07.028](https://doi.org/10.1016/j.nuclphysb.2005.07.028)&rbrack;
 
+* Michèle Levi: *Timelike Supersymmetric Geometries in Seven-Dimensional Supergravity* &lbrack;[arXiv:2610.31191](https://arxiv.org/abs/2610.31191)&rbrack;
+
+
 
 Discussion of [[AdS spacetime|AdS vacua]]:
 
