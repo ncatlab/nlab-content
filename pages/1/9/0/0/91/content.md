@@ -24,7 +24,7 @@
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
-Much like [[simplicial sets]] underly common [[geometric definitions of higher categories]], so globular sets underly some [[algebraic definitions of higher categories]], see [below](#AsShapesForHigherCategories).
+Much like [[simplicial sets]] underlie common [[geometric definitions of higher categories]], so globular sets underlie some [[algebraic definitions of higher categories]], see [below](#AsShapesForHigherCategories).
 
 
 
