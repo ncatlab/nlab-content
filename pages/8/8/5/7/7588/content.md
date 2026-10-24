@@ -93,7 +93,7 @@ What this account reveals is that the bundle is - using $P$ - a continuous space
 
 ## Set of points
 
-Depending on the foundational setting, a point-free space may or may not have a set of points, a discrete coreflection. This can be done in topos theory, but relies on an impredicative use of power_sets_. (Formal topology arose out of a desire to work predicatively.)
+Depending on the foundational setting, a point-free space may or may not have a set of points, a discrete coreflection. This can be done in topos theory, but relies on an impredicative use of power _sets_. (Formal topology arose out of a desire to work predicatively.)
 
 However, even when it exists, the set of points does not generally represent the space well.
 
@@ -104,7 +104,7 @@ Its sheaves are functions - the fibre maps $Z_{\bot}\to Z_{\top}$.
 
 Now consider the bundle $p\colon 1\to\mathbb{S}$ that picks out the closed point $\bot$. Its fibres over $\bot$ and $\top$ are singleton and empty. Let $q\colon Z \to \mathbb{S}$ be its discrete coreflection. Because there is a bundle map from $q$ to $p$, the fibre $Z_\top$ must be empty. But then because $q$ is a local homeomorphism, $Z_\bot$ must also be empty. $Z$, the "set of points" of $p$, is the empty space over $\mathbb{S}$.
 
-We see that a non-trivial space can have have an empty set of points for purely topological reasons, nothing to do with logic or a pathological nature of point-free spaces.
+We see that a non-trivial space can have an empty set of points for purely topological reasons, nothing to do with logic or a pathological nature of point-free spaces.
 
 
 ## Applications
