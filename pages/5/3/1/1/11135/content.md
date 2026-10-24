@@ -707,6 +707,8 @@ However the definition does not require the category to be cartesian closed. Top
 
 Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top. (Use the fact that, on compact Haussdorf spaces, the double dual into the unit interval is an isomorphism.)
 
+Another way to view this monad on Top is to view it analogously to the double dual construction on the category of Vector spaces using the contravariant hom functor $Top(*,I)$, where $I$ is the unit interval. (See Maclane, CWM, page 86. Both Top and Vct are SMCC using a tensor product construction.) Evidently the free algebras for the resulting double dualization monad on Top are compact Hausdorff spaces.
+
 \end{remark}
 
 Further examples are discussed at:
