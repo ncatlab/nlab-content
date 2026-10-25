@@ -194,7 +194,7 @@ Detailed discussion of the [[Hausdorff reflection]] is in
 
 A textbook account is in 
 
-* [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+* [[Tammo tom Dieck]], sections 2 and 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 Lecture notes include
 
