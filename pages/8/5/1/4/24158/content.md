@@ -100,12 +100,6 @@ A list of (believed to be) open problems in [[homotopy type theory]].  To add mo
 ## In cohesive homotopy type theory
  {#InCohesiveHomotopyTypeTheory}
 
-Problems in [[cohesive homotopy type theory]]:
-
-* Suppose a discrete cohesive type $A$ comes with a [[tight apartness relation]]. Then, assuming crisp [[excluded middle]] and [[axiom C1]], is the tight apartness relation on $A$ a crisp relation?
-
-* Suppose a cohesive type $A$ comes with a [[tight apartness relation]]. Then, assuming crisp [[excluded middle]] and [[axiom C1]], is the tight apartness relation on $\flat A$ in the cohesive mode [[decidable tight apartness relation|decidable]]?
-
 Problems in [[real-cohesive homotopy type theory]]:
 
 * Assuming the [[axiom of real cohesion]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
@@ -213,6 +207,8 @@ Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.or
 * What is the [[loop space of a wedge of circles]] indexed by a set without decidable equality? It is a set, and can be shown to be using the [zigzag construction](https://arxiv.org/abs/2402.12339).
 
 * Treat [[coinductive types]] in HoTT. Part of the problem is that general co-inductive types are not fully understood in ordinary type theory. Using extensionality, we obtain [[M-types]] from W-types. Resolved by Ahrens, Capriotti & Spadotti by defining coinductive types using [[indexed inductive types]]. In addition, coinductive types with typal computation rules can be postulated directly as a homotopy-terminal coalgebra via its [[universal property]] [[axiom schema]] using the [[uniqueness quantifier]]. See also the coinductive types in dependently typed [[programming languages]] such as [[cubical Agda]] and [[Narya]].
+
+* In [[cohesive homotopy type theory]], assuming crisp [[excluded middle]] and [[axiom C1]], is every [[tight apartness relation]] on a discrete cohesive type crisp, and, for a cohesive type $A$ with a tight apartness relation, is the induced relation on $\flat A$ [[decidable tight apartness relation|decidable]] in the cohesive mode? No: each is equivalent to [cohesive] excluded middle, using a construction of [[Tom de Jong]] after an idea of [[Andrew Swan]] ([TypeTopology](https://martinescardo.github.io/TypeTopology/Apartness.Properties.html)), so both fail in [[real-cohesive homotopy type theory]]. Answered in October 2026 by the AI model Claude Opus 5.5, prompted by [[Colin Zwanziger]] ([Agda formalization](https://github.com/zwanzigerc/cohesive-apartness)).
 
 ## Related pages
 
