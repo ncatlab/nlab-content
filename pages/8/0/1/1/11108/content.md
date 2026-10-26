@@ -10,9 +10,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -86,6 +86,13 @@ $$
 The bra-ket notation is due to:
 
 * {#Dirac39} [[Paul A. M. Dirac]], *A new notation for quantum mechanics*, Mathematical Proceedings of the Cambridge Philosophical Society **35** 3 (1939) 416-418 &lbrack;[doi:10.1017/S0305004100021162](https://doi.org/10.1017/S0305004100021162), [pdf](https://www.ifsc.usp.br/~lattice/wp-content/uploads/2014/02/Dirac_notation.pdf)&rbrack;
+
+Precise definition via the notion of *[[rigged Hilbert spaces]]*:
+
+* [[John E. Roberts]]: *The Dirac Bra and Ket Formalism*, J. Math. Phys. **7** (1966) 1097--1104 &lbrack;[doi:10.1063/1.1705001](https://doi.org/10.1063/1.1705001)&rbrack; 
+
+* [[John E. Roberts]]: *Rigged Hilbert spaces in quantum mechanics*, Communications in Mathematical Physics *3*  (1966)  98--119 &lbrack;[doi:10.1007/BF01645448](https://doi.org/10.1007/BF01645448)&rbrack;
+
 
 Textbook accounts:
 
