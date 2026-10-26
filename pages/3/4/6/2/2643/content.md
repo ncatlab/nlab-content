@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -59,28 +58,34 @@ $$m_x(s_{\xi}) = \xi s_{\xi}$$
 _Ugh. Lousy start on something that would be nice to understand properly. Maybe an expert can help out. John, you there?_ 
 
 
+## Related concepts
+
+* [[bra-ket]]
+
 ## References
 
-Among the original treatises on the theory of rigged Hilbert spaces is
+Among the original treatises:
 
-* [[John Roberts]], _Rigged Hilbert spaces in quantum mechanics_, Communications in Mathematical Physics, *3*  (1966)  98–119. doi:[10.1007/BF01645448](https://doi.org/10.1007/BF01645448)
+* [[John E. Roberts]]: *The Dirac Bra and Ket Formalism*, J. Math. Phys. **7** (1966) 1097--1104 &lbrack;[doi:10.1063/1.1705001](https://doi.org/10.1063/1.1705001)&rbrack; 
 
-A unification of various inequivalent approaches is claimed to be achieved in 
+* [[John E. Roberts]]: *Rigged Hilbert spaces in quantum mechanics*, Communications in Mathematical Physics *3*  (1966)  98--119 &lbrack;[doi:10.1007/BF01645448](https://doi.org/10.1007/BF01645448)&rbrack;
 
-* M. Gadella, F. Gómez, _A Unified Mathematical Formalism for the Dirac Formulation of Quantum Mechanics_, Foundations of Physics *32* (2002) 815–869, doi:[10.1023/A:1016069311589](https://doi.org/10.1023/A:1016069311589)
+Claim of a unification of various inequivalent approaches:
 
-See also
+* M. Gadella, F. Gómez, _A Unified Mathematical Formalism for the Dirac Formulation of Quantum Mechanics_, Foundations of Physics *32* (2002) 815--869 &lbrack;[doi:10.1023/A:1016069311589](https://doi.org/10.1023/A:1016069311589)&rbrack;
+
+See also:
 
 * S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics_ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
 
 Rigged Hilbert spaces are also known as [[Gelfand triple]]s, written about in his series on generalized functions
 
-* Gel'fand, I. M., and Shilov, Georgiĭ Evgenʹevich. Generalized Functions. United States, American Mathematical Society, (2016)
+* [[I. M. Gel'fand]], Georgiĭ Evgenʹevich Shilov, : *Generalized Functions* American Mathematical Society (2016)
 
-## See also
 
-Discussion on MathOverflow
 
-* [_Good references for Rigged Hilbert spaces?_](https://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)
+See also 
+
+* MathOverflow: *[Good references for Rigged Hilbert spaces?](https://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)*
 
 [[!redirects rigged Hilbert spaces]]
