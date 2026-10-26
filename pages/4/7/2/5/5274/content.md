@@ -8,9 +8,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -70,7 +69,7 @@ Usually, $B$ and $B^*$ are Banach spaces, when we say *Banach Gel'fand triple*, 
 
 Gel'fand triples were introduced by Gel'fand school about 1955 and quickly incorporated into the theory of generalized functions. 
 
-* [[I. M. Gel&#697;fand, A. G. Kostyu&#269;enko, _Expansion in eigenfunctions of differential and other operators) (Russian), Dokl. Akad. Nauk SSSR (N.S.) __103__ (1955), 349&#8211;352, [MR73136](http://www.ams.org/mathscinet-getitem?mr=73136)
+* [[I. M. Gelfand]], A. G. Kostyu&#269;enko: _Expansion in eigenfunctions of differential and other operators*, Dokl. Akad. Nauk SSSR (N.S.) __103__ (1955) 349--352 &lbrack;[MR73136](http://www.ams.org/mathscinet-getitem?mr=73136)&rbrack;
 
 * [[I. M. Gel'fand]], N. Ja. Vilenkin, _Generalized functions_, vol. 4. Some applications of harmonic analysis. Equipped Hilbert spaces, Fizmatgiz, Moscow, 1961 [MR146653](http://www.ams.org/mathscinet-getitem?mr=146653), English transl. Acad. Press 1964 [MR173945](http://www.ams.org/mathscinet-getitem?mr=173945)
 
@@ -90,19 +89,26 @@ John Roberts continued the study in the context of [[quantum mechanics]] (in his
 
 * &#1056;. &#1040;. &#1052;&#1080;&#1085;&#1083;&#1086;&#1089;, [&#1054;&#1089;&#1085;&#1072;&#1097;&#1077;&#1085;&#1085;&#1086;&#1077; &#1075;&#1080;&#1083;&#1100;&#1073;&#1077;&#1088;&#1090;&#1086;&#1074;&#1086; &#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1086;](http://dic.academic.ru/dic.nsf/enc_mathematics/3760/%D0%9E%D0%A1%D0%9D%D0%90%D0%A9%D0%95%D0%9D%D0%9D%D0%9E%D0%95), online article from (Soviet) Matem. enc.
 
-* MathOverflow question: [good-references-for-rigged-hilbert-spaces](http://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)
+* MathOverflow: *[good-references-for-rigged-hilbert-spaces](http://mathoverflow.net/questions/43313/good-references-for-rigged-hilbert-spaces)*
 
 * Feichtinger, _A Banach Gelfand triple framework for
 regularization and approximation_, [slides pdf](http://www.univie.ac.at/nuhag-php/dateien/talks/1086_eucetifeislides.pdf)
 
 A unification of various inequivalent approaches is claimed in 
 
-* M. Gadella, F. G&#243;mez, _A unified mathematical formalism for the Dirac
-formulation of quantum mechanics_  Foundations of Physics __32__, No. 6, (2002)
+* M. Gadella, F. G&#243;mez, _A unified mathematical formalism for the Dirac formulation of quantum mechanics_  Foundations of Physics __32__, No. 6, (2002)
 
 * S. Wickramasekara, A. Bohm, _Symmetry representations in the rigged Hilbert space formulation of quantum mechanics_, [math-ph/0302018](http://arxiv.org/abs/math-ph/0302018)
 
-[[!redirects Gelfand triple]]
+[[!redirects Gelfand triples]]
+
 [[!redirects Gel'fand triple]]
+[[!redirects Gel'fand triples]]
+
 [[!redirects enriched Hilbert space]]
+[[!redirects enriched Hilbert spaces]]
+
+
 [[!redirects equipped Hilbert space]]
+[[!redirects equipped Hilbert spaces]]
+
