@@ -12,7 +12,13 @@ He was born in England, but his father came from the Ll&#375;n Peninsula. He wor
 
 ## Selected writings
 
-John Roberts wrote his PhD thesis on the notion of *[[rigged Hilbert spaces]]*, a way of making [[Dirac]]'s description of [[quantum mechanics]] precise. After that he followed the [[Haag-Kastler axioms|Haag-Kastler approach]] for axiomatizing quantum theory and became one of its central proponents.
+John Roberts wrote his PhD thesis on the notion of *[[rigged Hilbert spaces]]*, a way of making precise [[Dirac]]'s [[bra-ket]] notation for [[quantum mechanics]]:
+
+* [[John E. Roberts]]: *The Dirac Bra and Ket Formalism*, J. Math. Phys. **7** (1966) 1097--1104 &lbrack;[doi:10.1063/1.1705001](https://doi.org/10.1063/1.1705001)&rbrack; 
+
+* [[John E. Roberts]]: *Rigged Hilbert spaces in quantum mechanics*, Communications in Mathematical Physics *3*  (1966)  98--119 &lbrack;[doi:10.1007/BF01645448](https://doi.org/10.1007/BF01645448)&rbrack;
+
+After that he followed the [[Haag-Kastler axioms|Haag-Kastler approach]] for axiomatizing [[quantum field theory]] and became one of its central proponents.
 
 Early on he suggested in
 
