@@ -3187,7 +3187,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > We study the nonequilibrium steady state of a two‑dimensional Coulomb gas confined by an anisotropic harmonic trap and driven by a non‑conservative rotational force. The model serves as a tractable, strongly interacting log‑gas with broad relevance across physics and beyond: it provides a simple framework for complex interactions and has a one‑to‑one correspondence with eigenvalues in [[random matrix theory]]. At zero temperature the density remains uniform on a tilted ellipse that supports concentric currents, becoming circular under sufficiently strong drive. A hydrodynamic analysis predicts these features and agrees with numerical simulations.
 
+
 \linebreak
+
 
 ### Oct 2025
 
@@ -3461,6 +3463,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   cf.: [arXiv:2607.20688](https://arxiv.org/abs/2607.20688)
 
   > This talk examines light–matter interaction across different coupling regimes, from weak coupling, where the Purcell effect controls spontaneous emission, to strong coupling, which underpins current [[quantum technologies]]. In conventional strong coupling, coherent interactions overcome dissipation while remaining small compared with the relevant bare frequencies. We then explore ultrastrong coupling, where the rotating-wave approximation breaks down and counter-rotating processes become essential, reshaping the spectrum and ground state and requiring a dressed-state treatment of dissipation and detection. Examples of exciton–photon bistability and optomechanical two-photon hopping illustrate how stronger light–matter coupling gives rise to qualitatively new dynamical and quantum effects, making this an active field of study.
+
+
+\linebreak
+
+* 27 Oct 2026
+
+  {#LuganiOct2026} [Jasleen Lugani](http://researchambit.iitd.ac.in/faculty/jasleen) (IIT Delhi):
+
+  **Engineering and manipulating quantum light using integrated photonics**
+
+  cf.: [arXiv:2402.05694](https://arxiv.org/abs/2402.05694), [arXiv:2411.17369](http://arxiv.org/abs/2411.17369)
+
+  >  Integrated photonic platforms play a crucial role in building [[quantum technology|quantum devices]]. While silicon based platforms have been traditionally used, thin film lithium niobate (TFLN) is an emerging platform having huge potential in quantum optical tasks. It combines the favourable optical properties of lithium niobate with the patterning of nanoscale waveguides using existing fabrication infrastructure, offering the realization of compact and efficient quantum light sources and fast photonic processors. In this talk, I will focus on our recent work on building quantum light sources on this platform and how it could be engineered by tailoring the dispersion properties of TFLN waveguides. These tunable quantum light sources could serve as versatile building blocks catering to a wide range of quantum optical tasks.
 
 
 \linebreak
