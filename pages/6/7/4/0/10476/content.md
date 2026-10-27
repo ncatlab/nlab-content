@@ -519,6 +519,11 @@ Some generalization to [[monoid]]-[[actions]]:
 
 * Mehmet Akif Erdal, *Homotopy theory of monoid actions via group actions and an Elmendorf style theorem*, Collectanea Mathematica (2022) &lbrack;[arXiv 1609.06785](https://arxiv.org/abs/1609.06785), [doi:10.1007/s13348-022-00388-z](https://doi.org/10.1007/s13348-022-00388-z)&rbrack;
 
+See also:
+
+* Peter Rowley: *Elmendorf's Theorem for $\infty$-categories* &lbrack;[arXiv:2610.33183](https://arxiv.org/abs/2610.33183)&rbrack;
+
+
 
 
 [[!redirects Elmendorf theorem]]
