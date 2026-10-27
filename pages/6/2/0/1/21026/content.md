@@ -30,6 +30,11 @@ On [[E-strings]] and [[4-manifolds]]:
 
 * [[Du Pei]], David H. Wu: *E-Strings and Four-Manifolds* &lbrack;[arXiv:2511.11807](https://arxiv.org/abs/2511.11807)&rbrack;
 
+On constructing D=2 [[SCFTs]] from [[error-correcting codes]]: 
+
+* [[Du Pei]]: *Construction of holomorphic SCFTs with minimal index* &lbrack;[arXiv:2610.33165](https://arxiv.org/abs/2610.33165)&rbrack;
+
+
 
 
 
