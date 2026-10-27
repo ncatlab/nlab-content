@@ -18,9 +18,9 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -76,9 +76,11 @@ Constructing D=2 SCFTs from [[error-correcting codes]] and a hint for a relation
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics , **74** 2 (2022) 573-601  &lbrack;[arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X)&rbrack;
 
-further on the resulting [[elliptic genera]]:
-
 * Kohki Kawabata, Shinichiro Yahagi, *Elliptic genera from classical error-correcting codes* &lbrack;[arXiv:2308.12592](https://arxiv.org/abs/2308.12592)&rbrack;
+  > (further on the resulting [[elliptic genera]])
+
+* [[Du Pei]]: *Construction of holomorphic SCFTs with minimal index* &lbrack;[arXiv:2610.33165](https://arxiv.org/abs/2610.33165)&rbrack;
+
 
 
 ### Relation to 2-spectral triples
