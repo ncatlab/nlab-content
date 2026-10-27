@@ -209,6 +209,11 @@ and with [[HoTT]] targets ([[Agda]]):
 [[!redirects artificial intelligence]]
 [[!redirects AI]]
 
+[[!redirects language model]]
+[[!redirects language models]]
+[[!redirects LLM]]
+[[!redirects LLMs]]
+
 [[!redirects autoformalization]]
 
 
