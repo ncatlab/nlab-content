@@ -146,6 +146,9 @@ Review:
 
 * [[Jonathan Dimock]]: _The renormalization group according to Balaban, I. Small fields_, Rev. Math. Phys. **25** 1330010 (2013) &lbrack;[doi:10.1142/S0129055X13300100](https://doi.org/10.1142/S0129055X13300100)&rbrack;
 
+[[LLM]]-assisted approach:
+
+* Ethan W. Sussman: *Yang--Mills-LLM-experiment* &lbrack;[github](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment)&rbrack;
 
 
 
