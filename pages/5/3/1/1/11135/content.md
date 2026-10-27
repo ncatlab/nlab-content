@@ -697,6 +697,25 @@ $$
 $$
 into the [[product topological space]] of copies of $[0,1]$ indexed by the set $C(X,[0,1])$ of [[continuous functions]] --- this map being the evident analog of the unit $\eta_X$ (Def. \ref{TheContinuationMonad}), with the internal hom replaced by the set of continuous functions.
 
++-- {: .standout}
+
+The nForum went down right in the middle of this alleged example being discussed (see [there](http://nforum.ncatlab.org/#narrow/channel/2-Latest-Changes/topic/continuation.20monad/near/125029)). While the renewed nForum is still not fully functional, let's have the discussion here in the entry, starting with the last message that still needs a reply: 
+
+[[Urs Schreiber|Urs]]: To reiterate, the Stone-Cech compactification of the point is the point, $\beta(\ast) = \ast$. That immediately rules out the claim of this example here.
+
+The proposal is that $[X,Y] \coloneqq C_p(X,Y)$. But this still gives $\ast \mapsto \big[ [\ast,I],I\big] \simeq C_p(I,I)$, which disagrees with the Stone-Cech compactification $\ast \mapsto \beta(\ast)=\ast$. 
+
+On the proposed restricted Yoneda argument, cf.  Theorem 2.6 [on p. 550](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=10) of Isbell's *Adequate subcategories*. This says explicitly: 
+
+> A 1-cell is not right adequate for compact spaces.
+
+ Here "1-cell" means an arc like our interval $I$, and "right adequate" means codense. So this says that the restricted Yoneda functor for the full subcategory consisting of $I$ is not fully faithful. Isbell gives counter examples on the next couple of pages. 
+
+Finally, the codensity construction for the full subcategory $\{I\}$ must retain naturality with respect to every continuous endomorphism $u:I\to I$: its functionals satisfy $\Phi(u\circ f)=u\big(\Phi(f)\big)$. This is a different condition from continuity of $\Phi:C_p(X,I)\to I$, which defines the internal double dual. So even a successful codensity calculation would need a separate justification for identifying its result with that internal double dual. But the point-example above shows that your proposed identification cannot hold.
+
+=--
+
+
 Composing $\beta$ with the inclusion [[functor]] $\iota \colon CpHaus \hookrightarrow Top$ yields a [[monad]] $\iota \circ \beta$ on $Top$. 
 
 To a topologist this monad is _not_ an instance of the continuation monad of Def. \ref{TheContinuationMonad} because:
