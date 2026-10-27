@@ -31,6 +31,9 @@ Review:
 
 * {#Blumenhagen23} [[Ralph Blumenhagen]], *Nullifying Cobordism in Quantum Gravity*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BlumenhagenMar2023), slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=jLlE_jSH0lk)\]
 
+* Matilda Delgado, Corinne Englert, Guillermo Mera Álvarez, Eduardo Velasco-Aja: *Gauge It or Break It: Lectures on Global Symmetries and the Cobordism Conjecture* \[<a href="https://arxiv.org/abs/2610.31749">arXiv:2610.31749</a>\]
+
+
 In the context of [[type IIB string theory]]:
 
 * {#DDHM2023} [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]]: *The Chronicles of IIBordia: Dualities, Bordisms, and the Swampland* \[<a href="https://arxiv.org/abs/2302.00007">arXiv:2302.00007</a>\]
