@@ -8,6 +8,10 @@ Test456
 
 ***
 
+[[!include Topos]]
+
+x
+
 
 ...
 
