@@ -282,8 +282,8 @@ Putting all of this together, we see that we exactly have a unital magma.
 
 ## Properties
 
-### Relation to accessible and locally representable categories
- {#RelationToLocallyRepresentableCategories}
+### Relation to accessible and locally presentable categories
+ {#RelationToLocallyPresentableCategories}
 
 
 \begin{proposition}
