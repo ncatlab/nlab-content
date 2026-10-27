@@ -79,9 +79,9 @@ In fact, a characterization equivalent to Def. \ref{RegularCategory} is:
 
 \begin{proposition}
 \label{CharacterizationViaImageFactorization}
-A **regular category** is a [[finitely complete category]] with a [[pullback]]-[[stable factorization system|stable]] [[image]] [[factorization system|factorizations]] in that 
+A **regular category** is a [[finitely complete category]] with [[pullback]]-[[stable factorization system|stable]] [[image]] [[orthogonal factorization system|factorizations]] in that 
 
-1. every morphism factors as a [[regular epimorphism]] followed  by a [[monomorphism]]
+1. every morphism factors as a [[strong epimorphism]] followed  by a [[monomorphism]]
 
 1. these factorizations are preserved under [[pullback]].
 
