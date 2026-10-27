@@ -30,6 +30,66 @@ The effective topos construction alluded in the above paragraph can be performed
 
 The effective topos is the category obtained from the category of sets by first freely adjoining recursively-indexed coproducts (but being careful to preserve the empty set), and then adding quotients of (pseudo-)equivalence relations. ([RobinsonRosolini](#RobinsonRosolini)).
 
+## Definition
+
+An object of the effective topos is a set $X$ along with an effective PER $E_X \subseteq \mathbb{N} \times X \times X$. This means that $(p_{2,3})_*(E_X) \subseteq X \times X$ is a [[partial equivalence relation]] on $X$, with "computational proofs" of the symmetry and transitivity properties. In particular, let us use notation $n \Vdash x \equiv y$ for $(n, x, y) \in E_X$. What we require is:
+
+* (Symmetry tracker) There exists a [[partial recursive function]] $s_X : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \equiv y,$$
+then $s_X(n)$ is defined and
+$$s_X(n) \Vdash y \equiv x.$$
+
+* (Transitivity tracker) There exists a partial recursive function $t_X : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \equiv y$$
+and
+$$m \Vdash y \equiv z,$$
+then $t_X(n, m)$ is defined and
+$$t_X(n, m) \Vdash x \equiv z.$$
+
+As for morphisms, they will be defined by equivalence classes of effective functional relations under a certain equivalence relation. In particular, an effective functional relation between objects $(X, E_X)$ and $(Y, E_Y)$ will be a subset $f \subseteq \mathbb{N} \times X \times Y$ such that using notation $n \Vdash x \xmapsto{f} y$ for $(n, x, y) \in f$, we have:
+
+* (Domain tracker) There exists a partial recursive function $d_f : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \xmapsto{f} y,$$
+then $d_f(n)$ is defined and
+$$d_f(n) \Vdash x \equiv x.$$
+
+* (Codomain tracker) There exists a partial recursive function $c_f : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \xmapsto{f} y,$$
+then $c_f(n)$ is defined and
+$$c_f(n) \Vdash y \equiv y.$$
+
+* (Image uniqueness tracker) There exists a partial recursive function $u_f : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \xmapsto{f} y_1$$
+and
+$$m \Vdash x \xmapsto{f} y_2,$$
+then $u_f(n, m)$ is defined and
+$$u_f(n, m) \Vdash y_1 \equiv y_2.$$
+
+* (Totality tracker) There exists a partial recursive function $t_f : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \equiv x,$$
+then $t_f(n)$ is defined, and there exists $y\in Y$ such that
+$$t_f(n) \Vdash x \xmapsto{f} y.$$
+
+* (Respectfulness tracker) There exists a partial recursive function $r_f : \mathbb{N}^3 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x_1 \xmapsto{f} y_1,$$
+$$m \Vdash x_1 \equiv x_2,$$
+and
+$$p \Vdash y_1 \equiv y_2,$$
+then $r_f(n, m, p)$ is defined and
+$$r_f(n, m, p) \Vdash x_2 \xmapsto{f} y_2.$$
+
+As for the equivalence relation, we will say that effective functional relations $f, g \subseteq \mathbb{N} \times X \times Y$ are equivalent if there exists an equivalence tracker, i.e. a partial recursive function $e_{f,g} : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \xmapsto{f} y,$$
+then $e_{f,g}(n)$ is defined, and
+$$e_{f,g}(n) \Vdash x \xmapsto{g} y.$$
+
+For the other pieces of data required to make this a category, first define the identity morphism on $X$ to be the equivalence class of $E_X$, i.e. the equivalence class of the effective functional relation $\operatorname{id}_X$ where $n \Vdash x \xmapsto{\operatorname{id}_X} y$ if and only if $n \Vdash x \equiv y$.
+
+As for compositions, this will be induced by the following composition operation on effective functional relations: suppose $g$ is an effective functional relation between $(X, E_X)$ and $(Y, E_Y)$, and $f$ is an effective functional relation between $(Y, E_Y)$ and $(Z, E_Z)$. Also, fix a full recursive pairing bijection $\langle {-}, {-} \rangle : \mathbb{N}^2 \to \mathbb{N}$ with full recursive projections $p_1, p_2 : \mathbb{N} \rightrightarrows \mathbb{N}$ such that $(p_1, p_2) : \mathbb{N} \to \mathbb{N}^2$ is the inverse of $\langle {-}, {-} \rangle$. Then $f \circ g \subseteq \mathbb{N} \times X \times Z$ will be the effective functional relation consisting of triples $(n, x, z)$ such that there exists $y\in Y$ with
+$$p_1(n) \Vdash x \xmapsto{g} y$$
+and
+$$p_2(n) \Vdash y \xmapsto{f} z.$$
+
 ## Related concepts
 
 * [[realizability]]
