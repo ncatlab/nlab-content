@@ -757,6 +757,11 @@ On orbifolds by [[2-groups]] in view of [[sigma-models]] inspired from [[string 
 
 * [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
 
+See also:
+
+* Jan Albert, Masaki Okada, [[Yuji Tachikawa]]: *The Art of Orbifolding by Huge Non-Abelian Groups* &lbrack;[arXiv:2610.36024](https://arxiv.org/abs/2610.36024)&rbrack;
+
+
 
 ### In condensed matter theory
  {#ReferencesInCondensedMatter}
