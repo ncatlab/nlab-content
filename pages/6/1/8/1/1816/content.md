@@ -90,6 +90,8 @@ $$p_1(n) \Vdash x \xmapsto{g} y$$
 and
 $$p_2(n) \Vdash y \xmapsto{f} z.$$
 
+For proofs that this does indeed define a category, see [[effective topos proofs|here]].
+
 ## Related concepts
 
 * [[realizability]]
