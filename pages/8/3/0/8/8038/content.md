@@ -13,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -128,6 +126,8 @@ On scattering amplitudes of [[Yang-Mills theory]] and relating to the [[amplituh
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
 
 * [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+
+* *The Disordered Universe 2025: Analytic Properties of Amplitudes and Correlators* &lbrack;[arXiv:2610.36271](https://arxiv.org/abs/2610.36271)&rbrack;
 
 See also at _[[string theory results applied elsewhere]]_ and at _[[motivic multiple zeta values]]_.
 
