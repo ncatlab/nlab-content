@@ -56,7 +56,7 @@ $$
 
 for $S^{-1} \,\coloneqq\, \varnothing$ the [[empty set]].
 
-These spheres of degenerate dimensions play an imprtant role in [[homotopy theory]], see for instance the [[cofibrantly generated model category|generating cofibrations]] in the [[classical model structure on topological spaces]] ([here](classical+model+structure+on+topological+spaces#TopologicalGeneratingCofibrations)).
+These spheres of degenerate dimensions play an important role in [[homotopy theory]], see for instance the [[cofibrantly generated model category|generating cofibrations]] in the [[classical model structure on topological spaces]] ([here](classical+model+structure+on+topological+spaces#TopologicalGeneratingCofibrations)).
 
 
 
