@@ -277,7 +277,7 @@ with values in topological spaces are to be regarded as
 equal for all practical purposes: recall that $X(U)$ is
 to be thought of as the space of all ways of mapping a probe
 space $U$ into a space $X$. It's not the single points (maps) in this
-space which matter so much, but they way they hang together. 
+space which matter so much, but the way they hang together. 
 
 * All "ways of hanging together" in a topological space $X(U)$
   are measured by a collection of groups called the 
