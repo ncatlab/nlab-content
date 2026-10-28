@@ -1,10 +1,29 @@
-# Overview
 
-We give the proofs here that are necessary to show that the definition of the [[effective topos]] does in fact give a well-defined category.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
+
+\tableofcontents
+
+## Overview
+
+Here we give the [[proofs]] that are necessary to show that the definition of the [[effective topos]] does in fact give a well-defined [[category]].
 
 In general, this follows the strategy of taking a proof that the category of partial [[setoid|setoids]] (where an object is a set equipped with a [[partial equivalence relation]] and a morphism is a respectful functional relation) is a category, and keeping track of realizers at each step. The resulting partial recursive functions will generally be closely related to the corresponding proof terms under the [[Curry-Howard correspondence]].
 
-# Equivalence relation
+## Equivalence relation
 
 We first need to show that equivalence of effective functional relations is in fact an equivalence relation.
 
