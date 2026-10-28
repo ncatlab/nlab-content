@@ -66,6 +66,9 @@ See also:
 
 * Ryohei Kobayashi, Abhinav Prem, Matthew Yu: *Realizing Braided Fusion 2-Categories as $(3+1)D$ Mixed-State Topological Orders* &lbrack;[arXiv:2610.03864](https://arxiv.org/abs/2610.03864)&rbrack;
 
+* Thibault D. Décoppet, Mateusz Stroiński, Tony Zorman: *Finite Tensor 2-Categories* &lbrack;[arXiv:2610.37016](https://arxiv.org/abs/2610.37016)&rbrack;
+
+
 
 
 
