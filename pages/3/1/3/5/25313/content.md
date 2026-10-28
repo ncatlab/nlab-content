@@ -30,7 +30,16 @@ In [[linear logic]] and its categorical models, the [[exponential modality]] ver
 
 ## In category theory
 
-... to come ...
+We can interpret [[linear logic]] in the [[category of relations]] $\mathsf{Rel}$ as follows:
+
+- $A \otimes B$ is the [[Cartesian product]] $A \times B$ of the underlying sets,
+- $A \mathbin{&amp;} B$ is the [[disjoint union]] $A \sqcup B$, and
+- $!A$ is the set $\mathcal{M}_f(A)$ of finite [[multisets]] over $A$.
+
+The Seely isomorphism then states that, for all sets $X$ and $Y$,
+\[ \mathcal{M}_f(X \sqcup Y) \cong \mathcal{M}_f(X) \times \mathcal{M}_f(Y). \]
+
+In other words, a finite multiset over a disjoint union can be uniquely decomposed into two finite multisets, one for each component.
 
 ## Related concepts
 
