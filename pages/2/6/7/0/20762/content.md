@@ -65,7 +65,7 @@ This map $\delta$ is [[continuous map|continuous]], and [[natural transformation
 
 The multiplication map makes use of the concept of [[valuation (measure theory)#integration|integration over a valuation]]. Given a valuation $\xi\in V V X$, we can define the valuation $E \xi\in V X$ as the one mapping an [[open]] set $U\subseteq X$ to 
 $$
-E \xi (U) \coloneqq \int_X \nu(U) \, d\xi(\nu).
+E \xi (U) \coloneqq \int_{V{X}} \nu(U) \, d\xi(\nu).
 $$
 This integral is well defined, since the assignment $U\mapsto \nu(U)$ is [[lower semicontinuous]]. The assignment $U\mapsto E \xi (U)$ gives a [[continuous valuation]] on $X$, and the resulting map $E: V V X \to V X$ is [[continuous map|continuous]] and [[natural transformation|natural]] in $X$. 
 
