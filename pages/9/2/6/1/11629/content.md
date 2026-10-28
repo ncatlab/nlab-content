@@ -102,6 +102,10 @@ On [[discrete torsion]]:
 
 * Philip Boyle Smith, [[Yuji Tachikawa]]: *On Generalised Discrete Torsion* &lbrack;[arXiv:2604.01225](https://arxiv.org/abs/2604.01225)&rbrack;
 
+On [[superstring]] [[orbifolds]]:
+
+* Jan Albert, Masaki Okada, [[Yuji Tachikawa]]: *The Art of Orbifolding by Huge Non-Abelian Groups* &lbrack;[arXiv:2610.36024](https://arxiv.org/abs/2610.36024)&rbrack;
+
 
 
 
