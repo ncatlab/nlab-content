@@ -44,3 +44,193 @@ n_1 & \Vdash & x \equiv x, & \quad & n_1 & \coloneqq & d_g(n) \\
 Now, it is easy to see that the function which takes $n$ and follows the steps on the right to calculate $n_5$ is a partial recursive function, which satisfies the necessary property for $e_{g,f}$.
 
 For transitivity, this is again easy: given equivalence trackers $e_{f,g}$ and $e_{g,h}$, then the composition $e_{g,h} \circ e_{f,g}$ satisfies the necessary property for $e_{f,h}$.
+
+## Well-definedness of category operations
+
+Here, we first show that $\operatorname{id}_X$ is an effective functional relation.
+
+(Domain condition) Suppose
+$$n \Vdash x \xmapsto{\operatorname{id}_X} y.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv y, & \quad & n_1 & \coloneqq & n \\
+\implies n_2 & \Vdash & y \equiv x, & \quad & n_2 & \coloneqq & s_X(n_1) \\
+\implies n_3 & \Vdash & x \equiv x, & \quad & n_3 & \coloneqq & t_X(n_1, n_2).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the necessary property for $d_{\operatorname{id}_X}$.
+
+(Codomain condition) Similarly, if we replace the last line in the proof directly above with
+$$n_3 \Vdash y \equiv y, \quad n_3 \coloneqq t_X(n_2, n_1),$$
+then the composition $n \mapsto n_3$ on the right satisfies the necessary property for $c_{\operatorname{id}_X}$.
+
+(Image uniqueness) Suppose
+$$n \Vdash x \xmapsto{\operatorname{id}_X} y_1$$
+and
+$$n \Vdash x \xmapsto{\operatorname{id}_X} y_2.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv y_1, & \quad & n_1 & \coloneqq & n, \\
+n_2 & \Vdash & x \equiv y_2, & \quad & n_2 & \coloneqq & m \\
+\implies n_3 & \Vdash & y_1 \equiv x, & \quad & n_3 & \coloneqq & s_X(n_1) \\
+\implies n_4 & \Vdash & y_1 \equiv y_2, & \quad & n_4 & \coloneqq & t_X(n_3, n_2).
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_4$ on the right satisfies the necessary property for $u_{\operatorname{id}_X}$.
+
+(Totality) Suppose
+$$n \Vdash x \equiv x.$$
+Then
+$$n \Vdash x \xmapsto{\operatorname{id}_X} x.$$
+Thus, the identity function satisfies the necessary property for $t_{\operatorname{id}_X}$.
+
+(Respectfulness) Suppose
+$$n \Vdash x_1 \xmapsto{\operatorname{id}_X} y_1,$$
+$$m \Vdash x_1 \equiv x_2,$$
+and
+$$p \Vdash y_1 \equiv y_2.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x_1 \equiv y_1, & \quad & n_1 & \coloneqq & n, \\
+n_2 & \Vdash & x_2 \equiv x_1, & \quad & n_2 & \coloneqq & s_X(m) \\
+\implies n_3 & \Vdash & x_2 \equiv y_1 & \quad & n_3 & \coloneqq & t_X(n_2, n_1) \\
+\implies n_4 & \Vdash & x_2 \equiv y_2 & \quad & n_4 & \coloneqq & t_X(n_3, p).
+\end{array}
+\]
+Therefore, the composition $(n, m, p) \mapsto n_4$ on the right satisfies the necessary property for $r_{\operatorname{id}_X}$.
+
+Similarly, we need to show that the composition of two effective functional relations $f$ between $Y$ and $Z$, and $g$ between $X$ and $Y$, is again an effective functional relation between $X$ and $Z$.
+
+(Domain condition) Suppose
+$$n \Vdash x \xmapsto{f\circ g} z.$$
+Then there exists $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \xmapsto{g} y, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \xmapsto{f} z, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & x \equiv x, & \quad & n_3 & \coloneqq & d_g(n_1).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the necessary property for $d_{f\circ g}$.
+
+(Codomain condition) Similarly, if we replace the last line in the proof directly above with
+$$n_3 \Vdash y \equiv y, \quad n_3 \coloneqq c_f(n_2),$$
+then the composition in $n \mapsto n_3$ on the right satisfies the necessary property for $c_{f\circ g}$.
+
+(Image uniqueness) Suppose
+$$n \Vdash x \xmapsto{f\circ g} z_1$$
+and
+$$m \Vdash x \xmapsto{f\circ g} z_2.$$
+Then there exist $y_1, y_2 \in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \xmapsto{g} y_1, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y_1 \xmapsto{f} z_1, & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x \xmapsto{g} y_2, & \quad & n_3 & \coloneqq & p_1(m), \\
+n_4 & \Vdash & y_2 \xmapsto{f} z_2, & \quad & n_4 & \coloneqq & p_2(m) \\
+\implies n_5 & \Vdash & y_1 \equiv y_2, & \quad & n_5 & \coloneqq & u_g(n_1, n_3) \\
+\implies n_6 & \Vdash & z_1 \equiv z_1, & \quad & n_6 & \coloneqq & d_f(n_2) \\
+\implies n_7 & \Vdash & y_2 \xmapsto{f} z_1, & \quad & n_7 & \coloneqq & r_f(n_2, n_5, n_6) \\
+\implies n_8 & \Vdash & z_1 \equiv z_2, & \quad & n_8 & \coloneqq & u_f(n_4, n_7).
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_8$ on the right satisfies the necessary property for $u_{f\circ g}$.
+
+(Totality) Suppose
+$$n \Vdash x \equiv x.$$
+Then there exists $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \xmapsto{g} y, & \quad & n_1 & \coloneqq & t_g(n) \\
+\implies n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & c_g(n_1).
+\end{array}
+\]
+It follows that there exists $z\in Z$ such that
+\[
+\begin{array}{rclcrcl}
+n_3 & \Vdash & y \xmapsto{f} z, & \quad & n_3 & \coloneqq & t_f(n_2) \\
+\implies n_4 & \Vdash & x \xmapsto{f\circ g} z, & \quad & n_4 & \coloneqq & \langle n_1, n_3.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_4$ on the right satisfies the necessary property for $t_{f\circ g}$.
+
+(Respectfulness) Suppose
+$$n \Vdash x_1 \xmapsto{f\circ g} z_1,$$
+$$m \Vdash x_1 \equiv x_2,$$
+and
+$$p \Vdash z_1 \equiv z_2.$$
+Then there exists $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x_1 \xmapsto{g} y, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \xmapsto{f} z_1, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & y \equiv y, & \quad & n_3 & \coloneqq & c_g(n_1) \\
+\implies n_4 & \Vdash & x_2 \xmapsto{g} y, & \quad & n_4 & \coloneqq & r_g(n_1, m, n_3) \\
+\implies n_5 & \Vdash & y \xmapsto{f} z_2, & \quad & n_5 & \coloneqq & r_f(n_2, n_3, p) \\
+\implies n_6 & \Vdash & x_2 \xmapsto{f\circ g} z_2, & \quad & n_6 & \coloneqq & \langle n_4, n_5 \rangle.
+\end{array}
+\]
+Therefore, the composition $(n, m, p) \mapsto n_6$ on the right satisfies the necessary property for $r_{f\circ g}$.
+
+Finally, we show that composition is well-defined up to equivalence of effective functional relations. Thus, suppose we have equivalence trackers $e_{g_1, g_2}$ and $e_{f_1, f_2}$, where $f_i$ are effective functional relations between $Y$ and $Z$, and $g_i$ are effective functional relations between $X$ and $Y$. Then whenever
+$$n \Vdash x \xmapsto{f_1 \circ g_1} z,$$
+then there exists $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \xmapsto{g_1} y, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \xmapsto{f_1} z, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & x \xmapsto{g_2} y, & \quad & n_3 & \coloneqq & e_{g_1, g_2}(n_1) \\
+\implies n_4 & \Vdash & y \xmapsto{f_2} z, & \quad & n_4 & \coloneqq & e_{f_1, f_2}(n_2) \\
+\implies n_5 & \Vdash & x \xmapsto{f_2 \circ g_2} z, & \quad & n_5 & \coloneqq & \langle n_3, n_4 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_5$ on the right satisfies the necessary property for $e_{f_1 \circ g_1, f_2 \circ g_2}$.
+
+## Identity properties
+
+In order to establish the identity properties of the category, it suffices to show that for $f$ an effective functional relation between $X$ and $Y$, $\operatorname{id}_Y \circ f$ and $f \circ \operatorname{id}_X$ are both equivalent to $f$. Thus, suppose that
+$$n \Vdash x \xmapsto{f} y.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & y \equiv y, & \quad & n_1 & \coloneqq & c_f(n) \\
+\implies n_2 & \Vdash & y \xmapsto{\operatorname{id}_Y} y, & \quad & n_2 & \coloneqq & n_1 \\
+\implies n_3 & \Vdash & x \xmapsto{\operatorname{id}_Y \circ f} y, & \quad & n_2 & \coloneqq & \langle n, n_2 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the necessary property for $e_{f, \operatorname{id}_Y \circ f}$.
+
+Similarly,
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv x, & \quad & n_1 & \coloneqq & d_f(n) \\
+\implies n_2 & \Vdash & x \xmapsto{\operatorname{id}_X} x, & \quad & n_2 & \coloneqq & n_1 \\
+\implies n_3 & \Vdash & x \xmapsto{f \circ \operatorname{id}_X} y, & \quad & n_3 & \coloneqq & \langle n_2, n \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the necessary property for $e_{f, f \circ \operatorname{id}_X}$.
+
+## Associativity of composition
+
+In order to establish associativity of composition in the category, it suffices to show that for $f$ an effective functional relation between $Z$ and $W$, $g$ an effective functional relation between $Y$ and $Z$, and $h$ an effective functional relation between $X$ and $Y$, then $f \circ (g\circ h)$ is equivalent to $(f\circ g) \circ h$. Thus, suppose that
+$$n \Vdash x \xmapsto{f\circ (g\circ h)} w.$$
+Then there exists $z\in Z$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \xmapsto{g\circ h} z, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & z \xmapsto{f} w, & \quad & n_2 & \coloneqq & p_2(n).
+\end{array}
+\]
+By the $g\circ h$ condition, we can also find $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_3 & \Vdash & x \xmapsto{h} y, & \quad & n_3 & \coloneqq & p_1(n_1), \\
+n_4 & \Vdash & y \xmapsto{g} z, & \quad & n_4 & \coloneqq & p_2(n_1) \\
+\implies n_5 & \Vdash & y \xmapsto{f\circ g} w, & \quad & n_5 & \coloneqq & \langle n_4, n_2 \rangle \\
+\implies n_6 & \Vdash & x \xmapsto{(f\circ g)\circ h} w, & \quad & n_6 & \coloneqq & \langle n_3, n_5 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_6$ on the right satisfies the necessary property for $e_{f \circ (g \circ h), (f\circ g) \circ h}$. (This composition can be described as the function $\langle \langle a, b \rangle, c \rangle \mapsto \langle a, \langle b, c \rangle \rangle$.)
