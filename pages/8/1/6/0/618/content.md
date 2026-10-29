@@ -197,4 +197,10 @@ in [[(∞,1)-category theory]] the corresponding notion is that of *[[(∞,1)-si
 
 * [[Anders Kock]], _[Postulated colimits and left exactness of Kan-extensions](http://home.imf.au.dk/kock/postulated.pdf)_
 
+See also:
+
+* Emilio Minichiello, _Coverages and Grothendieck Toposes_  \[<a
+href="https://arxiv.org/abs/2503.20664">arXiv:2503.20664</a>\]
+
+
 [[!redirects coverages]]
