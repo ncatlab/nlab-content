@@ -701,7 +701,11 @@ into the [[product topological space]] of copies of $[0,1]$ indexed by the set $
 
 The nForum went down right in the middle of this alleged example being discussed (see [there](http://nforum.ncatlab.org/#narrow/channel/2-Latest-Changes/topic/continuation.20monad/near/125029)). While the renewed nForum is still not fully functional, let's have the discussion here in the entry, starting with the last message that still needs a reply: 
 
-[[Urs Schreiber|Urs]]: To reiterate, the Stone-Cech compactification of the point is the point, $\beta(\ast) = \ast$. That immediately rules out the claim of this example here.
+\linebreak
+
+[[Urs Schreiber|Urs]]: 
+
+To reiterate, the Stone-Cech compactification of the point is the point, $\beta(\ast) = \ast$. That immediately rules out the claim of this example here.
 
 The proposal is that $[X,Y] \coloneqq C_p(X,Y)$. But this still gives $\ast \mapsto \big[ [\ast,I],I\big] \simeq C_p(I,I)$, which disagrees with the Stone-Cech compactification $\ast \mapsto \beta(\ast)=\ast$. 
 
@@ -713,7 +717,11 @@ On the proposed restricted Yoneda argument, cf.  Theorem 2.6 [on p. 550](https:/
 
 Finally, the codensity construction for the full subcategory $\{I\}$ must retain naturality with respect to every continuous endomorphism $u:I\to I$: its functionals satisfy $\Phi(u\circ f)=u\big(\Phi(f)\big)$. This is a different condition from continuity of $\Phi:C_p(X,I)\to I$, which defines the internal double dual. So even a successful codensity calculation would need a separate justification for identifying its result with that internal double dual. But the point-example above shows that your proposed identification cannot hold.
 
-[[Kirk Sturtz|Kirk]]: Let me refine my argument and current understanding of the problem. Let $CH$ denote the category of compact Hausdorf spaces, and let $\mathcal{I}$ denote the full subcategory of $CH$ consisting of just the unit interval $I=[0,1]$.
+\linebreak
+
+[[Kirk Sturtz|Kirk]]: 
+
+Let me refine my argument and current understanding of the problem. Let $CH$ denote the category of compact Hausdorf spaces, and let $\mathcal{I}$ denote the full subcategory of $CH$ consisting of just the unit interval $I=[0,1]$.
 
 \begin{lemma} The [[restricted Yoneda embedding]] $CH^{op} \xrightarrow{\mathcal{Y}} Set^{\mathcal{I}}$ is a full and faithful functor.
 \end{lemma}
@@ -738,6 +746,26 @@ Let $X$ denote any topological space, and let $\mathcal{D}_X = (X \downarrow \io
 
 But I still feel a little uncomfortable with Stone-Cech because they say ''take the closure of the image of the function $h \mapsto h(x)$ ...''
 so it's not $I^{C(X,I)}$ that we're talking about but rather a closed subspace - is that closed subspace $[[X,I],I]$?  That would certainly complete the argument.
+
+\linebreak
+
+[[Urs Schreiber|Urs]]: 
+
+First, $Nat(I^X, I)$ is not the internal double dual of Def. \ref{TheContinuationMonad}. It is the [[codensity monad]] of the one-object subcategory $\{I\}$. For the internal hom, the point-example stands.
+
+Second, the Lemma is false. The step "This forces $J = ev_a$" does not follow. Naturality gives that $J(f) \in f(A)$, hence $J(f) = f(a_f)$ for *some* $a_f$, but this $a_f$ may depend on $f$. The power maps $x \mapsto x^n$ add nothing, since they are among the $\phi$ already assumed.
+
+Isbell's counterexample is at the end of [p. 551](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=11). His "left transformation from a point $P$ to a 2-cell $S$ over a 1-cell $I$" is exactly a natural $J \colon C(S,I) \to I$. Let $S$ be a triangle with sides $a b$, $a c$, $b c$. For $h \colon S \to I$, let $J(h)$ be the unique $x$ such that some connected component of $h^{-1}(x)$ meets all three sides. Uniqueness is by the Jordan curve theorem; for existence see [p. 552](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=12).
+
+This $J$ is natural: if $K$ is such a component for $h$, then $K$ lies in a component of $(\phi \circ h)^{-1}\big(\phi(x)\big)$, which therefore also meets all three sides, so $J(\phi \circ h) = \phi\big(J(h)\big)$. In particular $J(h^n) = J(h)^n$.
+
+But $J$ is not an evaluation. For $p \in S$, let $h$ be the rescaled distance from $p$. Then $h^{-1}\big(h(p)\big) = \{p\}$ meets at most two sides, so $J(h) \neq h(p)$. Since the 2-cell is compact Hausdorff, the question of what Isbell means by "compact" does not arise.
+
+On the closure question: $Nat(I^X,I)$ is the closed subspace of $I^{C(X,I)}$ cut out by the equations $\Phi(\phi \circ f) = \phi\big(\Phi(f)\big)$. (It is this equalizer, not $I^{C(X,I)}$ itself, that is the cone.) It contains the image of $X$, hence contains $\beta X$. Equality for all $X$ is equivalent to your Lemma, and so it fails at $X = S$.
+
+What is true is the first clause of Isbell's Thm. 2.6: the 2-cell $I \times I$ *is* codense in compact spaces. There, naturality includes binary operations such as $(x,y) \mapsto (x y, 0)$, which make $J$ a ring homomorphism. Hence $\beta$ is the codensity monad of $\{I \times I\} \hookrightarrow Top$. 
+
+But that is not a continuation monad either, so I suggest removing this example here, or moving it to *[[codensity monad]]* with $I \times I$ in place of $I$.
 
 =--
 
