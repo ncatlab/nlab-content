@@ -713,6 +713,12 @@ On the proposed restricted Yoneda argument, cf.  Theorem 2.6 [on p. 550](https:/
 
 Finally, the codensity construction for the full subcategory $\{I\}$ must retain naturality with respect to every continuous endomorphism $u:I\to I$: its functionals satisfy $\Phi(u\circ f)=u\big(\Phi(f)\big)$. This is a different condition from continuity of $\Phi:C_p(X,I)\to I$, which defines the internal double dual. So even a successful codensity calculation would need a separate justification for identifying its result with that internal double dual. But the point-example above shows that your proposed identification cannot hold.
 
+[[Kirk Sturtz|Kirk]]: The question is whether, for every compact Hausdorff space, $[[A,I],I] \simeq A$.  If that is true then the point-example is not a counter example since the point is obviously a compact Hausdorff space.
+
+I am trying to digest Isbell's claim but having much difficulty. (Does anyone actually understand that proof?).  At any rate, it does not say that $I$ is not right-adequate for compact Hausdorff spaces. (Compact spaces need  not be  Hausdorff.)
+
+Regardless of this particular example, I'm trying to prove or disprove $[[A,I],I] \simeq A$ since it is important for compact Hausdorff spaces in general.  
+
 =--
 
 
