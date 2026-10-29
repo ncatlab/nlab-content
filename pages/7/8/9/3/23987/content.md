@@ -4864,7 +4864,15 @@ Neumann algebras**
 
   > The [[cobordism hypothesis]] gives a complete classification of [[extended TQFT|fully local topological quantum field theories]] (TQFTs) using [[homotopy fixed points]], standard machinery in [[algebraic topology]]. For example, it tells us how [[D=3 TQFT|3-dimensional TQFTs]] are classified by [[Morita equivalence|Morita classes]] of [[fusion categories]] with [[extra structure|extra]] [[structure]]. We prove a [[cobordism hypothesis]] for a flagged version of TQFTs in which lower-dimensional cobordisms are required to live in certain [[subcategories]] of the target. For example, when using the flagging of the Morita 3-category of fusion categories by the [[2-category]] of [[fusion categories]], [[monoidal functors]], and [[monoidal natural transformations]], one obtains a classification by [[spherical category|spherical]] fusion categories. Joint work in progress with [[Theo Johnson-Freyd]], [[Cameron Krulewski]] and [[Lukas Müller]].
 
+\linebreak
 
+* {#AhmadainOct2026} 28 Oct 2026
+
+  [Amr Ahmadain](https://scholar.google.com/citations?user=P2xKLSUAAAAJ&hl=en) (NYUAD): 
+
+  **The Algebraic Structure of Finite Gauge Transformations in Closed String Field Theory and Potential Applications**
+
+  > In this talk, I will discuss how the solution space of [[closed string|closed]] [[string field theory]] connected by finite [[gauge transformations]] can be represented as a [[Kan simplicial manifold]] and [[infinity-groupoid]]. Time permitting, I will also explain how this [[Kan complex]] can be used alongside a [[Cech cohomology|patch-by-patch description]] of [[spacetime]] to compute boundary terms. Based on work with [Jojiro Tostsuka](https://inspirehep.net/authors/2089019) at Kyoto University, Japan.
 
 
 \linebreak  
