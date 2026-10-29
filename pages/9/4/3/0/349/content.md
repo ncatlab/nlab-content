@@ -70,7 +70,7 @@ If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the
 
 =--
 
-The set of covering sieves of an object $c$ is denoted $J(c)$, and it has the following properties: if $F,F^\prime\in J(c)$, then $F\cap F^\prime\in J(c)$, and if $S$ is a sieve on $c$ with $S\supset F$, then $S\in J(c)$, see [Borceux, Proposition 3.2.5](#Borceux94) or [Mac Lane and Moerdijk, pp. 110-111](#MacLaneMoerdijk94).
+The set of covering sieves of an object $c$ is denoted $J(c)$, and it has the following properties: if $F,F^\prime\in J(c)$, then $F\cap F^\prime\in J(c)$, and if $S$ is a sieve on $c$ with $S\supset F$, then $S\in J(c)$, see [Borceux, Proposition 3.2.5](#Borceux94) or [Mac Lane and Moerdijk, pp. 110-111](#MacLaneMoerdijk94). In other words, $J(c)$ is a [[filter]] in the class of sieves on $c$ with subfunctor inclusion.
 
 A category equipped with a Grothendieck topology is called a **[[site]]**.
 
