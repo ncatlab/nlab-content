@@ -69,8 +69,6 @@ Not every hyperring is doubly distributive (see the example of the triangle hype
 
 $$ (a + b)(c + d) \subseteq a c + a d + b c + b d $$
 
-However, every hyperring $R/G$ obtained as a quotient of a ring $R$ by the above construction is doubly distributive.
-
 ### The Krasner hyperfield $\mathbb{K}$
 
 The *Krasner hyperfield* is the set $\mathbb{K} = \{0,1\}$ with multiplication given by 
