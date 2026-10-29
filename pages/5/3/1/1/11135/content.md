@@ -713,11 +713,31 @@ On the proposed restricted Yoneda argument, cf.  Theorem 2.6 [on p. 550](https:/
 
 Finally, the codensity construction for the full subcategory $\{I\}$ must retain naturality with respect to every continuous endomorphism $u:I\to I$: its functionals satisfy $\Phi(u\circ f)=u\big(\Phi(f)\big)$. This is a different condition from continuity of $\Phi:C_p(X,I)\to I$, which defines the internal double dual. So even a successful codensity calculation would need a separate justification for identifying its result with that internal double dual. But the point-example above shows that your proposed identification cannot hold.
 
-[[Kirk Sturtz|Kirk]]: The question is whether, for every compact Hausdorff space, $[[A,I],I] \simeq A$.  If that is true then the point-example is not a counter example since the point is obviously a compact Hausdorff space.
+[[Kirk Sturtz|Kirk]]: Let me refine my argument and current understanding of the problem. Let $CH$ denote the category of compact Hausdorf spaces, and let $\mathcal{I}$ denote the full subcategory of $CH$ consisting of just the unit interval $I=[0,1]$.
 
-I am trying to digest Isbell's claim but having much difficulty. (Does anyone actually understand that proof?).  At any rate, it does not say that $I$ is not right-adequate for compact Hausdorff spaces. (Compact spaces need  not be  Hausdorff.)
+\begin{lemma} The [[restricted Yoneda embedding]] $CH^{op} \xrightarrow{\mathcal{Y}} Set^{\mathcal{I}}$ is a full and faithful functor.
+\end{lemma}
+\begin{proof} 
+Let $A \in_{ob} CH$.  
+Since the morphisms of $CH$ are determined by their values on points it suffices to consider $\mathcal{Y}(\mathbf{1} \xrightarrow{a} A)$ in showing the full and faithful properties.
 
-Regardless of this particular example, I'm trying to prove or disprove $[[A,I],I] \simeq A$ since it is important for compact Hausdorff spaces in general.  
+The faithful property is immediate because $I$ is a coseparator in $CH$.  Now let $J \in Nat(I^A, I)$ so that, for all $I \xrightarrow{\phi} I$ and for all $A \xrightarrow{f} I$ 
+$$
+ J( \phi \circ f ) = \phi( J(f) ).
+$$
+Consider the continuous function $\phi(x) = x^n$, for any (all) $n \in \mathbb{N}$.  Thus $J(f^n) = (J(f))^{n}$.  This forces $J = ev_a$ for some $a \in A$, and hence $\mathcal{Y}$ is a full functor. 
+\end{proof}
+
+For any topological space $X$ let $[[X,I], I]$ denote the set $Nat( I^X, I)$. By the above lemma for every compact Hausdorff space, $[[A,I],I] \simeq A$.  Thus the point-example is not a counter example since the point is obviously a compact Hausdorff space.
+
+I am trying to digest Isbell's claim but having much difficulty. (Does anyone actually understand that proof?).  At any rate, it does not say that $I$ is not right-adequate for compact Hausdorff spaces. (Compact spaces need  not be  Hausdorff.)  By the preceding Lemma I am prone to believe that  the statement: $I$ is NOT right-adequate for $CH$  is false. (It may be true for compact spaces, but not compact Hausdorf spaces.)
+
+So now to your other point concerning the codensity construction.  First note that the notation $I^{C(X,I)}$ does not stand for the set of continuous function $\Phi:C(X,I) \rightarrow I$.  It denotes $|C(X,I)|$ copies of $I$ with the product topology.  So $I^{C(X,I)}$ is just the set of all set functions $C(X,I) \xrightarrow{\Phi} I$.
+
+Let $X$ denote any topological space, and let $\mathcal{D}_X = (X \downarrow \iota) \xrightarrow{\pi} CH \xrightarrow{\iota} Top$.  This is just how we compute the right Kan extension pointwise.  There is a cone over $\mathcal{D}_X$ with vertex $[[X,I], I]$ with projection arrows, for each continuous function $X \xrightarrow{f} A$, given by the mapping $\big(I^X \xrightarrow{J} I\big) \mapsto \big( I^A \xrightarrow{I^f} I^X \xrightarrow{J} I\big)$ which is a continuous mapping because $I^f$, and hence $I^{I^f}$ is continuous.  Now I presume $I^{C(X,I)}$ is also a cone over $\mathcal{D}_X$. (Is the argument made using ultrafilters?  I don't immediately see why the required projection arrows are continuous.)  Since $Nat(I^X,I) \subseteq I^{C(X,I)}$ I can certainly believe it is possible that $I^{C(X,I)}$ is the limit rather than $[[X,I],I]$. 
+
+But I still feel a little uncomfortable with Stone-Cech because they say ''take the closure of the image of the function $h \mapsto h(x)$ ...''
+so it's not $I^{C(X,I)}$ that we're talking about but rather a closed subspace - is that closed subspace $[[X,I],I]$?  That would certainly complete the argument.
 
 =--
 
@@ -728,7 +748,7 @@ To a topologist this monad is _not_ an instance of the continuation monad of Def
 
 * [[Top|$Top$]] is not [[cartesian closed category|cartesian closed]], so that $\big[ [X,[0,1] ],[0,1]\big]$ is not available as an internal hom;
 
-However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology: take the largest topology on the product set of $X$ and $Y$ such that all the constant graph functions are continuous, and endow the hom sets $hom(X,Y)$ with the smallest topology such that the point evaluation functions are continuous.  With these constructions the evaluation function $ev(f,x)=f(x)$ is continuous. Using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $beta$ as the double dual into the unit interval. 
+However the definition does not require the category to be cartesian closed. Top is a symmetric monoidal closed category under the tensor product topology: take the largest topology on the product set of $X$ and $Y$ such that all the constant graph functions are continuous, and endow the hom sets $hom(X,Y)$ with the smallest topology such that the point evaluation functions are continuous.  With these constructions the evaluation function $ev(f,x)=f(x)$ is continuous. Using that topology the Stone-Cech compactification monad is the double dualization monad into the unit interval, i.e., define $\beta$ as the double dual into the unit interval. 
 
 Note that then $\iota \circ \beta$ is the [[codensity monad]] of the inclusion $\iota$ (as for the codensity monad of any [[right adjoint]], see [Leinster (2013)](#Leinster13)), in line with Rem. \ref{AsCodensityMonad}. Computing the right Kan extension of the inclusion functor along itself one obtains the double dualization monad on Top. (Use the fact that, on compact Haussdorf spaces, the double dual into the unit interval is an isomorphism.)
 
