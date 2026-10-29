@@ -33,7 +33,7 @@ The original Dialectica construction in proof theory is due to:
 
 Other work in proof theory:
 
-* Avigad and Feferman, _Gödel’s Functional (“Dialectica”) Interpretation_. Available from https://www.andrew.cmu.edu/user/avigad/Papers/dialect.pdf.
+* Avigad and Feferman, _Gödel’s Functional (“Dialectica”) Interpretation_. ([pdf](https://www.andrew.cmu.edu/user/avigad/Papers/dialect.pdf)).
 
 The categorical construction originally appeared in
 
