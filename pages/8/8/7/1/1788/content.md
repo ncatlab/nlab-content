@@ -7,7 +7,8 @@
 
 ...
 
-
+* Emilio Minichiello, _Coverages and Grothendieck Toposes_  \[<a
+href="https://arxiv.org/abs/2503.20664">arXiv:2503.20664</a>\]
 
 ***
 
