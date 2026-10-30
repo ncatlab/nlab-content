@@ -1,9 +1,18 @@
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
 
 _Mathematica_ is a computer algebra software package.
 
@@ -34,10 +43,9 @@ Mathematica package for calculations with
 
 * ([[super Lie algebra|super]])[[Lie algebras]]:
 
-  [SuperLie](http://equaonline.com/math/SuperLie)
+  * *[SuperLie](http://equaonline.com/math/SuperLie)*
 
-* [[Clifford algebra]], specifically for [[D=11 supergravity]]
+* [[Clifford algebra]]:
 
-  [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]
-
+  * [[Ulf Gran]]: *Gamma* (2014) &lbrack;[Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]&rbrack;
 category: software
