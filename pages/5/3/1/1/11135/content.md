@@ -45,7 +45,7 @@ and multiplication
   \end{array}
 \]
 
-In general [[mathematics]] this [[monad]] is ubiquitous as modelling _double dualization_ (cf. Ex. \ref{DoublePowerset}, Ex. \ref{DoubleDualVectorSpaces} and Rem. \ref{StoneCechCompactification} below).
+In general [[mathematics]] this [[monad]] is ubiquitous as modelling _double dualization_ (cf. Ex. \ref{DoublePowerset} and Ex. \ref{DoubleDualVectorSpaces} below).
 
 In [[computer science]] this [[monad (in computer science)|monad]] is used to model [[continuation-passing style]] of programming, and therefore this is also called the _continuation monad_. The idea here is that a [[morphism]] $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [ [Y,S],S]$, is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
 
@@ -665,7 +665,7 @@ $$
 $$
 Elements of $P P X$ may be thought of as generalized [[quantifiers]] on $X$, for instance $\forall_X = \{X\}$ and $\exists_X = \{ A \subset X \,\vert\, A \neq \varnothing\}$, while $\eta_X(x)$ is the [[principal ultrafilter]] at $x$ ("evaluation at $x$").
 
-Restricting to upward closed families, to [[filters]], or to [[ultrafilters]] yields submonads, the last one being the [[ultrafilter monad]], whose [[algebras over a monad|algebras]] are the [[compact Hausdorff spaces]] (see [Leinster (2013)](#Leinster13) and Rem. \ref{StoneCechCompactification} below).
+Restricting to upward closed families, to [[filters]], or to [[ultrafilters]] yields submonads, the last one being the [[ultrafilter monad]], whose [[algebras over a monad|algebras]] are the [[compact Hausdorff spaces]] (see [Leinster (2013)](#Leinster13)).
 \end{example}
 
 \begin{example}\label{DoubleDualVectorSpaces}
@@ -684,100 +684,6 @@ the [[dual linear map]] of the canonical inclusion $\eta_{V^\ast} \colon V^\ast 
 
 ### Further examples
 
-\begin{remark}\label{StoneCechCompactification}
-**(Stone-Čech compactification)**
-
-The [[Stone-Čech compactification]] functor $\beta \colon Top \to CpHaus$ is the universal way to map a [[topological space]] into a [[compact Hausdorff space]], and it is a form of double dualization into the unit [[interval]] $[0,1]$, which is a [[cogenerator]] in the [[category]] of [[compact Hausdorff spaces]] (by [[Urysohn's lemma]]): For any topological space $X$, $\beta X$ is [[homeomorphism|homeomorphic]] to the [[closure]] of the [[image]] of the map
-$$
-  \begin{array}{ccc}
-  X &\longrightarrow& [0,1]^{C(X,[0,1])}
-  \\
-  x &\mapsto& \big(h \mapsto h(x)\big)
-  \end{array}
-$$
-into the [[product topological space]] of copies of $[0,1]$ indexed by the set $C(X,[0,1])$ of [[continuous functions]] --- this map being the evident analog of the unit $\eta_X$ (Def. \ref{TheContinuationMonad}), with the internal hom replaced by the set of continuous functions.
-
-+-- {: .standout}
-
-The nForum went down right in the middle of this alleged example being discussed (see [there](http://nforum.ncatlab.org/#narrow/channel/2-Latest-Changes/topic/continuation.20monad/near/125029)). While the renewed nForum is still not fully functional, let's have the discussion here in the entry, starting with the last message that still needs a reply: 
-
-\linebreak
-
-[[Urs Schreiber|Urs]]: 
-
-To reiterate, the Stone-Cech compactification of the point is the point, $\beta(\ast) = \ast$. That immediately rules out the claim of this example here.
-
-The proposal is that $[X,Y] \coloneqq C_p(X,Y)$. But this still gives $\ast \mapsto \big[ [\ast,I],I\big] \simeq C_p(I,I)$, which disagrees with the Stone-Cech compactification $\ast \mapsto \beta(\ast)=\ast$. 
-
-On the proposed restricted Yoneda argument, cf.  Theorem 2.6 [on p. 550](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=10) of Isbell's *Adequate subcategories*. This says explicitly: 
-
-> A 1-cell is not right adequate for compact spaces.
-
- Here "1-cell" means an arc like our interval $I$, and "right adequate" means codense. So this says that the restricted Yoneda functor for the full subcategory consisting of $I$ is not fully faithful. Isbell gives counter examples on the next couple of pages. 
-
-Finally, the codensity construction for the full subcategory $\{I\}$ must retain naturality with respect to every continuous endomorphism $u:I\to I$: its functionals satisfy $\Phi(u\circ f)=u\big(\Phi(f)\big)$. This is a different condition from continuity of $\Phi:C_p(X,I)\to I$, which defines the internal double dual. So even a successful codensity calculation would need a separate justification for identifying its result with that internal double dual. But the point-example above shows that your proposed identification cannot hold.
-
-\linebreak
-
-[[Kirk Sturtz|Kirk]]: 
-
-Let me refine my argument and current understanding of the problem. Let $CH$ denote the category of compact Hausdorf spaces, and let $\mathcal{I}$ denote the full subcategory of $CH$ consisting of just the unit interval $I=[0,1]$.
-
-\begin{lemma} The [[restricted Yoneda embedding]] $CH^{op} \xrightarrow{\mathcal{Y}} Set^{\mathcal{I}}$ is a full and faithful functor.
-\end{lemma}
-\begin{proof} 
-Let $A \in_{ob} CH$.  
-Since the morphisms of $CH$ are determined by their values on points it suffices to consider $\mathcal{Y}(\mathbf{1} \xrightarrow{a} A)$ in showing the full and faithful properties.
-
-The faithful property is immediate because $I$ is a coseparator in $CH$.  Now let $J \in Nat(I^A, I)$ so that, for all $I \xrightarrow{\phi} I$ and for all $A \xrightarrow{f} I$ 
-$$
- J( \phi \circ f ) = \phi( J(f) ).
-$$
-Consider the continuous function $\phi(x) = x^n$, for any (all) $n \in \mathbb{N}$.  Thus $J(f^n) = (J(f))^{n}$.  This forces $J = ev_a$ for some $a \in A$, and hence $\mathcal{Y}$ is a full functor. 
-\end{proof}
-
-For any topological space $X$ let $[[X,I], I]$ denote the set $Nat( I^X, I)$. By the above lemma for every compact Hausdorff space, $[[A,I],I] \simeq A$.  Thus the point-example is not a counter example since the point is obviously a compact Hausdorff space.
-
-I am trying to digest Isbell's claim but having much difficulty. (Does anyone actually understand that proof?).  At any rate, it does not say that $I$ is not right-adequate for compact Hausdorff spaces. (Compact spaces need  not be  Hausdorff.)  By the preceding Lemma I am prone to believe that  the statement: $I$ is NOT right-adequate for $CH$  is false. (It may be true for compact spaces, but not compact Hausdorf spaces.)
-
-So now to your other point concerning the codensity construction.  First note that the notation $I^{C(X,I)}$ does not stand for the set of continuous function $\Phi:C(X,I) \rightarrow I$.  It denotes $|C(X,I)|$ copies of $I$ with the product topology.  So $I^{C(X,I)}$ is just the set of all set functions $C(X,I) \xrightarrow{\Phi} I$.
-
-Let $X$ denote any topological space, and let $\mathcal{D}_X = (X \downarrow \iota) \xrightarrow{\pi} CH \xrightarrow{\iota} Top$.  This is just how we compute the right Kan extension pointwise.  There is a cone over $\mathcal{D}_X$ with vertex $[[X,I], I]$ with projection arrows, for each continuous function $X \xrightarrow{f} A$, given by the mapping $\big(I^X \xrightarrow{J} I\big) \mapsto \big( I^A \xrightarrow{I^f} I^X \xrightarrow{J} I\big)$ which is a continuous mapping because $I^f$, and hence $I^{I^f}$ is continuous.  Now I presume $I^{C(X,I)}$ is also a cone over $\mathcal{D}_X$. (Is the argument made using ultrafilters?  I don't immediately see why the required projection arrows are continuous.)  Since $Nat(I^X,I) \subseteq I^{C(X,I)}$ I can certainly believe it is possible that $I^{C(X,I)}$ is the limit rather than $[[X,I],I]$. 
-
-But I still feel a little uncomfortable with Stone-Cech because they say ''take the closure of the image of the function $h \mapsto h(x)$ ...''
-so it's not $I^{C(X,I)}$ that we're talking about but rather a closed subspace - is that closed subspace $[[X,I],I]$?  That would certainly complete the argument.
-
-\linebreak
-
-[[Urs Schreiber|Urs]]: 
-
-First, $Nat(I^X, I)$ is not the internal double dual of Def. \ref{TheContinuationMonad}. It is the [[codensity monad]] of the one-object subcategory $\{I\}$. For the internal hom, the point-example stands.
-
-Second, the Lemma is false. The step "This forces $J = ev_a$" does not follow. Naturality gives that $J(f) \in f(A)$, hence $J(f) = f(a_f)$ for *some* $a_f$, but this $a_f$ may depend on $f$. The power maps $x \mapsto x^n$ add nothing, since they are among the $\phi$ already assumed.
-
-Isbell's counterexample is at the end of [p. 551](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=11). His "left transformation from a point $P$ to a 2-cell $S$ over a 1-cell $I$" is exactly a natural $J \colon C(S,I) \to I$. Let $S$ be a triangle with sides $a b$, $a c$, $b c$. For $h \colon S \to I$, let $J(h)$ be the unique $x$ such that some connected component of $h^{-1}(x)$ meets all three sides. Uniqueness is by the Jordan curve theorem; for existence see [p. 552](https://webhomes.maths.ed.ac.uk/~tl/docs/Isbell_Adequate_subcategories.pdf#page=12).
-
-This $J$ is natural: if $K$ is such a component for $h$, then $K$ lies in a component of $(\phi \circ h)^{-1}\big(\phi(x)\big)$, which therefore also meets all three sides, so $J(\phi \circ h) = \phi\big(J(h)\big)$. In particular $J(h^n) = J(h)^n$.
-
-But $J$ is not an evaluation. For $p \in S$, let $h$ be the rescaled distance from $p$. Then $h^{-1}\big(h(p)\big) = \{p\}$ meets at most two sides, so $J(h) \neq h(p)$. Since the 2-cell is compact Hausdorff, the question of what Isbell means by "compact" does not arise.
-
-On the closure question: $Nat(I^X,I)$ is the closed subspace of $I^{C(X,I)}$ cut out by the equations $\Phi(\phi \circ f) = \phi\big(\Phi(f)\big)$. (It is this equalizer, not $I^{C(X,I)}$ itself, that is the cone.) It contains the image of $X$, hence contains $\beta X$. Equality for all $X$ is equivalent to your Lemma, and so it fails at $X = S$.
-
-What is true is the first clause of Isbell's Thm. 2.6: the 2-cell $I \times I$ *is* codense in compact spaces. There, naturality includes binary operations such as $(x,y) \mapsto (x y, 0)$, which make $J$ a ring homomorphism. Hence $\beta$ is the codensity monad of $\{I \times I\} \hookrightarrow Top$. 
-
-But that is not a continuation monad either, so I suggest removing this example here, or moving it to *[[codensity monad]]* with $I \times I$ in place of $I$.
-
-\linebreak
-
-[[Kirk Sturtz| Kirk]]  Thank you for the detailed response.
-I'll digest it this weekend.  I'll happily delete the example.  But I'm glad I put it in in the first place. That double dual formulation represents something of relevance which needs to be understood better.  And there is no better way to do that than by comparing it with Stone-Cech.
-Thanks!
-
-
-=--
-
-
-\end{remark}
 
 Further examples are discussed at:
 
