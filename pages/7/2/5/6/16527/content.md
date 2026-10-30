@@ -23,9 +23,7 @@ On [[Killing spinors]] in [[heterotic supergravity]]:
 
 A [[Mathematica]] package for [[Clifford algebra]], specifically for computations in [[D=11 supergravity]]:
 
-* [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]] (2014)
-
-
+* [[Ulf Gran]]: *Gamma* (2014) &lbrack;[Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]&rbrack;
 
 ## Related entries
 
