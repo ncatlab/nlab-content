@@ -489,7 +489,6 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 The notion of Clifford algebra is due to
 
 * [[William Clifford]], *Applications of Grassmann's extensive algebra*, American Journal of Mathematics **1** 4 (1878) 350-358 &lbrack;[doi:10.2307/2369379](https://doi.org/10.2307/2369379), [jstor:2369379](https://www.jstor.org/stable/2369379)&rbrack;
-
   > (referring to [[Hermann Grassmann]]'s *[[Ausdehnungslehre]]*)
 
 Further early discussion:
@@ -514,13 +513,17 @@ Standard textbook accounts:
 
 * {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
-* {#BudinichTrautman} P. Budinich, [[Andrej Trautman]]: _The Spinorial Chessboard_, Springer (1998) &lbrack;[doi:10.1007/978-3-642-83407-3](https://doi.org/10.1007/978-3-642-83407-3)&rbrack;
+* {#BudinichTrautman} P. Budinich, Andrej Trautman: _The Spinorial Chessboard_, Springer (1998) &lbrack;[doi:10.1007/978-3-642-83407-3](https://doi.org/10.1007/978-3-642-83407-3)&rbrack;
 
 * Jayme Vaz, Jr., Roldão da Rocha, _An Introduction to Clifford algebras and Spinors_, Oxford University Press, 2019. xiv+242 pp. ISBN: 978-0-19-883628-5, 978-0-19-878292-6.  [DOI](https://doi.org/10.1093/acprof:oso/9780198782926.001.0001).
 
 * D. J. H. Garling, _Clifford Algebras: an Introduction_, London Mathematical Society Student Texts, 78. Cambridge University Press, Cambridge, 2011. viii+200 pp. ISBN: 978-1-107-42219-3.  [DOI](https://doi.org/10.1017/CBO9780511972997).
 
 * Jacques Helmstetter, Artibano Micali, _Quadratic Mappings and Clifford Algebras_, Birkhäuser Verlag, Basel, 2008. xiv+504 pp. ISBN: 978-3-7643-8605-4.  [DOI](https://doi.org/10.1007/978-3-7643-8606-1).
+
+[[Mathematica]] packages for Clifford algebra:
+
+* [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]
 
 See also:
 
