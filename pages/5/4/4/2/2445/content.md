@@ -20,9 +20,7 @@
 =--
 
 
-# Contents
-* table of contents 
-{: toc}
+\tableofcontents
 
 ## Definition
 
@@ -523,7 +521,8 @@ Standard textbook accounts:
 
 [[Mathematica]] packages for Clifford algebra:
 
-* [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]
+* [[Ulf Gran]]: *Gamma* (2014) &lbrack;[Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]&rbrack;
+
 
 See also:
 
