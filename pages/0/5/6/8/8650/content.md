@@ -30,8 +30,14 @@ Mathematica is the brain child of [[Stephen Wolfram]].
 
 * Wikipedia, _[Mathematica](Mathematica)_
 
-A Mathematica package for calculations with ([[super Lie algebra|super]])[[Lie algebras]]:
+Mathematica package for calculations with 
 
-* [SuperLie](http://equaonline.com/math/SuperLie)
+* ([[super Lie algebra|super]])[[Lie algebras]]:
+
+  [SuperLie](http://equaonline.com/math/SuperLie)
+
+* [[Clifford algebra]], specifically for [[D=11 supergravity]]
+
+  [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]]
 
 category: software
