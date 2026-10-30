@@ -19,7 +19,12 @@ On [[string theory]] with an eye towards [[M-theory]]:
 
 On [[Killing spinors]] in [[heterotic supergravity]]:
 
-* [[Ulf Gran]], [[George Papadopoulos]], Diederik Roest, _Supersymmetric heterotic string backgrounds_, Phys.Lett.B656:119-126, 2007 ([arXiv:0706.4407](https://arxiv.org/abs/0706.4407))
+* [[Ulf Gran]], [[George Papadopoulos]], Diederik Roest: _Supersymmetric heterotic string backgrounds_, Phys. Lett.B **656** (2007) 119--126 &lbrack;[arXiv:0706.4407](https://arxiv.org/abs/0706.4407)&rbrack;
+
+A [[Mathematica]] package for [[Clifford algebra]], specifically for computations in [[D=11 supergravity]]:
+
+* [[Ulf Gran]]: [Gamma.m](https://fy.chalmers.se/~ulfgran/GAMMA/GAMMA.m), [[Gamma.m|Gamma.m:file]] (2014)
+
 
 
 ## Related entries
