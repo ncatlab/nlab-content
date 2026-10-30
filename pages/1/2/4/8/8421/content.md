@@ -162,6 +162,97 @@ For instance, the connectives of type theory are presentations of [[functors]], 
 
 * [[congruence rule]]
 
+## Rules
+
+Below are the rules for "NJ", the intuitionalistic version of logic. The "NK" system is obtained by adding the law of excluded middle to represent classical logic.
+
+### Axioms
+
+#### Identity
+
+$$ \frac{}{\Gamma, A \vdash A}$$
+
+#### Law of Excluded Middle
+
+$$ \frac{}{\Gamma \vdash A \vee (A \implies \bot)}$$
+
+### Weakening and Cut
+
+These inference rules are optional but make the proofs much longer without them. (citation needed)
+
+TODO
+
+### Implication
+
+#### Implication Introduction
+$$ \frac{\Gamma, A \vdash B}{\Gamma \vdash A \implies B}$$
+
+#### Implication Elimination
+$$ \frac{\Gamma \vdash A \implies B \qquad \Gamma \vdash A }{\Gamma \vdash B}$$
+
+### Conjunction
+
+#### Conjunction Introduction
+$$ \frac{\Gamma \vdash A \qquad \Gamma \vdash B }{\Gamma \vdash A \wedge B}$$
+
+#### Conjunction Elimination
+$$ \frac{\Gamma \vdash A \wedge B}{\Gamma \vdash A}$$
+$$ \frac{\Gamma \vdash A \wedge B}{\Gamma \vdash B}$$
+
+### Disjunction
+
+#### Disjunction Introduction
+$$ \frac{\Gamma \vdash A}{\Gamma \vdash A \vee B}$$
+$$ \frac{\Gamma \vdash B}{\Gamma \vdash A \vee B}$$
+
+#### Disjunction Elimination
+$$ \frac{\Gamma \vdash A \vee B \qquad \Gamma, A \vdash C \qquad \Gamma, B \vdash C}{\Gamma \vdash C}$$
+
+### Bottom
+
+#### Bottom Elimination
+
+$$ \frac{\Gamma \vdash \bot}{\Gamma \vdash A}$$
+
+Falisty $\neg A$ is simply an abbreviation for $A \implies \bot$ and the "top" element $\top$ for truth can be represented as $\bot \implies \bot$.
+
+## First order logic
+
+In addition to propositional logic, there is first order natural deduction. Here we say $x, y$ are variables and $t, s$ are terms.
+
+### Universal Quantifier
+
+#### Universal Introduction
+With the side condition that $y$ isn't free in $\Gamma$ or $A$.
+$$ \frac{\Gamma \vdash A[y/x]}{\Gamma \vdash \forall x . A}$$
+
+#### Universal Elimination
+With the side condition that $t$ is free for $x$ in $A$, ie no free variables of $t$ are bounded when $t$ replaces $x$ in $A$.
+$$ \frac{\Gamma \vdash \forall y A[y/x]}{\Gamma \vdash A[t/x]}$$
+
+### Existential Quantifier
+
+#### Existential Introduction
+With the side condition that $t$ is free for $x$ in $A$, ie no free variables of $t$ are bounded when $t$ replaces $x$ in $A$.
+$$ \frac{\Gamma \vdash A[t/x]}{\Gamma \vdash \exists x . A}$$
+
+#### Existential Elimination
+With the side condition that $y$ is not free in $\Gamma$ or $B$.
+$$ \frac{\Gamma \vdash \exists x . A \qquad \Gamma, A[y/x] \vdash B}{\Gamma \vdash B }$$
+
+
+### Equality
+
+Additionally in the usual "first order logic with equality" we have the equality term
+
+#### Equality Introduction
+$$ \frac{}{\Gamma \vdash t = t}$$
+
+#### Equality Elimination
+With the side condition that both $t$ and $s$ are free for $x$ in $A$
+$$ \frac{\Gamma \vdash A[t/x] \qquad \Gamma \vdash t = s}{\Gamma \vdash A[s/x]}$$
+
+
 ## References
 
 In a broad sense, the idea of natural deduction can be traced back to [[Aristotle]]'s **Prior Analytics** as classical work by J. Bacon, J. Corcoran and T. Smiley around 1970 has argued that his theory of [[syllogism]] can be viewed as a [[fragment]] of natural deduction. For more on this see e.g.
