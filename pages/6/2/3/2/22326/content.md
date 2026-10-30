@@ -12,9 +12,11 @@ Discussion of [[higher curvature corrections]] to [[11-dimensional supergravity]
 
 Via relaxed [[superspace]] [[torsion constraints in supergravity|torsion constraints]]:
 
-* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]]: _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 \[<a hrf="http://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
+* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]]: _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 \[<a href="http://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
 
-* [[Paul Howe]], [[Dimitrios Tsimpis]]: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 \[<a href="http://doi.org/10.1088/1126-6708/2003/09/038"></a>, [arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129)\]
+* [[Paul Howe]], [[Dimitrios Tsimpis]]: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 \[<a href="http://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129)\]
+
+* [CGNT04](#CGNT04)
 
 #### Via 11d superspace cohomology
 
