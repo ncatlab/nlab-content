@@ -5,6 +5,8 @@
 
 Let $(X,\rightarrow)$ be an [[abstract rewriting system]], i.e., a [[set]] equipped with a [[binary relation]] $\rightarrow$. Write $\rightarrow^{*}$ for the [[reflexive-transitive closure]] of $\rightarrow$. We say that $\rightarrow$ is __confluent__ iff for every $a,b,c \in X$ such that $a \rightarrow^* b$ and $a \rightarrow^* c$, there exists $d \in X$ such that $b \rightarrow^{*} d$ and $c \rightarrow^{*} d$.
 
+Note that only $\rightarrow^{*}$ occurs in the definition of confluence, not the underlying $\rightarrow$. Confluence can therefore be reframed as a property on a [[preorder]].
+
 ## Strong normalization 
 
 Say that an abstract rewriting system $(X, \rightarrow)$ is *strongly normalizing* if every sequence 
@@ -30,6 +32,12 @@ Now suppose $x \rightarrow^{*} t$ and $x \rightarrow^{*} t'$ for normal $t, t'$.
 \end{proof} 
 
 With a little extra care, the word "confluent" in the proposition can be replaced by "locally confluent", in the sense of [[locally confluent relation]]. 
+
+## Relation to directions
+
+Take any abstract rewriting system $(X, \rightarrow)$. Given a certain element $x \in X$ as the starting point, the set $\{ t \in X \mid x \rightarrow^{*} t\}$ is the set of the elements reachable from $x$ by rewrites in $\rightarrow$. When $\rightarrow$ is confluent, $\rightarrow^{*}$ restricted to that set is a [[direction]] on that set.
+
+Confluence can be seen as a local form of directedness. Again viewing $\rightarrow^{*}$ as a preorder, directedness says any two elements must have an upper bound, while confluence says that any two elements have an upper bound if they also have a lower bound.
 
 ## Related concepts
 
