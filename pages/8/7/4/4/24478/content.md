@@ -9,7 +9,6 @@
 =--
 =--
 
-# Principle of Unique Choice
 * table of contents
 {: toc}
 
