@@ -23,7 +23,9 @@ Here we give the [[proofs]] that are necessary to show that the definition of th
 
 In general, this follows the strategy of taking a proof that the category of partial [[setoid|setoids]] (where an object is a set equipped with a [[partial equivalence relation]] and a morphism is a respectful functional relation) is a category, and keeping track of realizers at each step. The resulting partial recursive functions will generally be closely related to the corresponding proof terms under the [[Curry-Howard correspondence]].
 
-## Equivalence relation
+## Category
+
+### Equivalence relation
 
 We first need to show that equivalence of effective functional relations is in fact an equivalence relation.
 
@@ -45,7 +47,7 @@ Now, it is easy to see that the function which takes $n$ and follows the steps o
 
 For transitivity, this is again easy: given equivalence trackers $e_{f,g}$ and $e_{g,h}$, then the composition $e_{g,h} \circ e_{f,g}$ satisfies the necessary property for $e_{f,h}$.
 
-## Well-definedness of category operations
+### Well-definedness of category operations
 
 Here, we first show that $\operatorname{id}_X$ is an effective functional relation.
 
@@ -189,7 +191,7 @@ n_2 & \Vdash & y \xmapsto{f_1} z, & \quad & n_2 & \coloneqq & p_2(n) \\
 \]
 Therefore, the composition $n \mapsto n_5$ on the right satisfies the necessary property for $e_{f_1 \circ g_1, f_2 \circ g_2}$.
 
-## Identity properties
+### Identity properties
 
 In order to establish the identity properties of the category, it suffices to show that for $f$ an effective functional relation between $X$ and $Y$, $\operatorname{id}_Y \circ f$ and $f \circ \operatorname{id}_X$ are both equivalent to $f$. Thus, suppose that
 $$n \Vdash x \xmapsto{f} y.$$
@@ -213,7 +215,7 @@ n_1 & \Vdash & x \equiv x, & \quad & n_1 & \coloneqq & d_f(n) \\
 \]
 Therefore, the composition $n \mapsto n_3$ on the right satisfies the necessary property for $e_{f, f \circ \operatorname{id}_X}$.
 
-## Associativity of composition
+### Associativity of composition
 
 In order to establish associativity of composition in the category, it suffices to show that for $f$ an effective functional relation between $Z$ and $W$, $g$ an effective functional relation between $Y$ and $Z$, and $h$ an effective functional relation between $X$ and $Y$, then $f \circ (g\circ h)$ is equivalent to $(f\circ g) \circ h$. Thus, suppose that
 $$n \Vdash x \xmapsto{f\circ (g\circ h)} w.$$
@@ -234,3 +236,40 @@ n_4 & \Vdash & y \xmapsto{g} z, & \quad & n_4 & \coloneqq & p_2(n_1) \\
 \end{array}
 \]
 Therefore, the composition $n \mapsto n_6$ on the right satisfies the necessary property for $e_{f \circ (g \circ h), (f\circ g) \circ h}$. (This composition can be described as the function $\langle \langle a, b \rangle, c \rangle \mapsto \langle a, \langle b, c \rangle \rangle$.)
+
+## Finite completeness
+
+### Terminal object
+
+We define the terminal object $1$ to have underlying set $\{ * \}$ and effective PER $\mathbb{N} \times \{ * \} \times \{ * \}$. For $s_1 : \mathbb{N} \dashrightarrow \mathbb{N}$ and $t_1 : \mathbb{N}^2 \dashrightarrow \mathbb{N}$, we can in fact choose any full recursive functions.
+
+Given any object $X$, we can define an effective functional relation $!_X$ between $X$ and $1$ by
+$$!_X \coloneqq \{ (n, x, *) \mid n \Vdash x \equiv x \}.$$
+Checking the required properties is easy:
+
+(Domain condition) The identity function $\mathbb{N} \to \mathbb{N}$ satisfies the required condition for $d_{!_X}$.
+
+(Codomain condition) Any full recursive function $\mathbb{N} \to \mathbb{N}$ satisfies the required condition for $c_{!_X}$.
+
+(Image uniqueness) Any full recursive function $\mathbb{N}^2 \to \mathbb{N}$ satisfies the required condition for $u_{!_X}$.
+
+(Totality condition) The identity function $\mathbb{N} \to \mathbb{N}$ satisfies the required condition for $t_{!_X}$.
+
+(Respectfulness condition) Suppose we have
+$$n \Vdash x_1 \xmapsto{!_X} y_1,$$
+$$m \Vdash x_1 \equiv x_2,$$
+and
+$$p \Vdash y_1 \equiv y_2.$$
+Then certainly $y_2 = *$, and
+$$t_X(s_X(m), m) \Vdash x_2 \equiv x_2,$$
+so
+$$t_X(s_X(m), m) \Vdash x_2 \xmapsto{!_X} *.$$
+Therefore, the function $(n, m, p) \mapsto t_X(s_X(m), m)$ satisfies the required condition for $r_{!_X}$.
+
+Now suppose we have any other effective functional relation $f$ between $X$ and $1$. Then whenever
+$$n \Vdash x \xmapsto{f} y,$$
+we have $y = *$, and
+$$d_f(n) \Vdash x \equiv x,$$
+so
+$$d_f(n) \Vdash x \xmapsto{!_X} *.$$
+Therefore, $d_f : \mathbb{N} \dashrightarrow \mathbb{N}$ satisfies the required condition for $e_{f, !_X}$, showing that $f$ is equivalent to $!_X$.
