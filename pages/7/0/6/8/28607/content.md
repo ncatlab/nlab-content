@@ -273,3 +273,98 @@ $$d_f(n) \Vdash x \equiv x,$$
 so
 $$d_f(n) \Vdash x \xmapsto{!_X} *.$$
 Therefore, $d_f : \mathbb{N} \dashrightarrow \mathbb{N}$ satisfies the required condition for $e_{f, !_X}$, showing that $f$ is equivalent to $!_X$.
+
+### Binary products
+
+Given two objects $X, Y$, we will define their binary product to have underlying set $X\times Y$, and effective PER
+$$\{ (\langle n, m \rangle, (x_1, y_1), (x_2, y_2) \mid (n \Vdash x_1 \equiv x_2) \wedge (m \Vdash y_1 \equiv y_2). \}$$
+For symmetry, we can use the function
+$$s_{X\times Y} : \langle n, m \rangle \mapsto \langle s_X(n), s_Y(m) \rangle,$$
+and for transitivity, we can use the function
+$$t_{X\times Y} : (\langle n, m \rangle, \langle n', m' \rangle) \mapsto \langle t_X(n, n'), t_Y(m, m').$$
+
+To define the first projection, we will use the effective functional relation defined by
+$$\pi_1 \coloneqq \{ (\langle n, m \rangle, (x, y), x') \mid (n \Vdash x \equiv x') \wedge (m \Vdash y \equiv y) \}.$$
+To check the required properties:
+
+(Domain condition) Suppose
+$$n \Vdash (x, y) \xmapsto{\pi_1} x'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv x', & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & x' \equiv x, & \quad & n_3 & \coloneqq & s_X(n_1) \\
+\implies n_4 & \Vdash & x \equiv x, & \quad & n_4 & \coloneqq & t_X(n_1, n_3) \\
+\implies n_5 & \Vdash & (x, y) \equiv (x, y), & \quad & n_5 & \coloneqq & \langle n_4, n_2 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_5$ on the right satisfies the required condition for $d_{\pi_1}$.
+
+(Codomain condition) Suppose
+$$n \Vdash (x, y) \xmapsto{\pi_1} x'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv x', & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & x' \equiv x, & \quad & n_3 & \coloneqq & s_X(n_1) \\
+\implies n_4 & \Vdash & x' \equiv x', & \quad & n_4 & \coloneqq & t_X(n_3, n_1).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_4$ on the right satisfies the required condition for $c_{\pi_1}$.
+
+(Uniqueness of images) Suppose
+$$n \Vdash (x, y) \xmapsto{\pi_1} x_1'$$
+and
+$$m \Vdash (x, y) \xmapsto{\pi_1} x_2'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv x_1', & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x \equiv x_2', & \quad & n_1 & \coloneqq & p_1(m), \\
+n_4 & \Vdash & y \equiv y, & \quad & n_4 & \coloneqq & p_2(m) \\
+\implies n_5 & \Vdash & x_1' \equiv x, & \quad & n_5 & \coloneqq & s_X(n_1) \\
+\implies n_6 & \Vdash & x_1' \equiv x_2', & \quad & n_6 & \coloneqq & t_X(n_5, n_3).
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_6$ on the right satisfies the required condition for $u_{\pi_1}$.
+
+(Totality) Suppose
+$$n \Vdash (x, y) \equiv (x, y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x \equiv x, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & (x, y) \xmapsto{\pi_1} x, & \quad & n_3 & \coloneqq & \langle n_1, n_2 \rangle = n.
+\end{array}
+\]
+Therefore, the identity function satisfies the required condition for $t_{\pi_1}$.
+
+(Respectfulness) Suppose
+$$n \Vdash (x_1, y_1) \xmapsto{\pi_1} x_1',$$
+$$m \Vdash (x_1, y_1) \equiv (x_2, y_2),$$
+and
+$$p \Vdash x_1' \equiv x_2'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & x_1 \equiv x_1', & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & y_1 \equiv y_1, & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x_1 \equiv x_2, & \quad & n_3 & \coloneqq & p_1(m), \\
+n_4 & \Vdash & y_1 \equiv y_2, & \quad & n_4 & \coloneqq & p_2(m) \\
+\implies n_5 & \Vdash & x_2 \equiv x_1, & \quad & n_5 & \coloneqq & s_X(n_3) \\
+\implies n_6 & \Vdash & x_2 \equiv x_1', & \quad & n_6 & \coloneqq & t_X(n_5, n_1) \\
+\implies n_7 & \Vdash & x_2 \equiv x_2', & \quad & n_7 & \coloneqq & t_X(n_6, p) \\
+\implies n_8 & \Vdash & y_2 \equiv y_1, & \quad & n_8 & \coloneqq & s_Y(n_4) \\
+\implies n_9 & \Vdash & y_2 \equiv y_2, & \quad & n_9 & \coloneqq & t_Y(n_8, n_4) \\
+\implies n_{10} & \Vdash & (x_2, y_2) \xmapsto{\pi_1} x_2', & \quad & n_{10} & \coloneqq & \langle n_7, n_9 \rangle.
+\end{array}
+\]
+Therefore, the composition $(n, m, p) \mapsto n_{10}$ on the right satisfies the required condition for $r_{\pi_1}$.
+
+Similarly, we will let $\pi_2$ be the effective functional relation between $X\times Y$ and $Y$ defined by
+$$\pi_2 \coloneqq \{ (\langle n, m \rangle, (x, y), y') \mid (n \Vdash x \equiv x) \wedge (m \Vdash y \equiv y') \}.$$
+The proof that this is an effective functional relation is similar to the proof for $\pi_1$.
