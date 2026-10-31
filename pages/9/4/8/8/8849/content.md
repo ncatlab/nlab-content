@@ -19,7 +19,7 @@
 
 ## Idea
 
-In view of the congruence of the notions of _[[homotopy type]]_ and _[[type]]_ in _[[homotopy type theory]]_ it makes sense to refer to an [[object]] in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ such as as [[Smooth∞Grpd]] as a _smooth homotopy type_ or [[smooth infinity-groupoid]].  Accordingly then an [[n-truncated]] object in $\mathbf{H}$ is a _smooth $n$-type_.
+In view of the congruence of the notions of _[[homotopy type]]_ and _[[type]]_ in _[[homotopy type theory]]_ it makes sense to refer to an [[object]] in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ such as a [[Smooth∞Grpd]] as a _smooth homotopy type_ or [[smooth infinity-groupoid]].  Accordingly then an [[n-truncated]] object in $\mathbf{H}$ is a _smooth $n$-type_.
 
 For instance a _smooth [[0-type]]_ is then an object in the [[sheaf topos]] $Sh(CartSp) \hookrightarrow Sh_\infty(CartSp) \simeq \mathbf{H}$ of [[smooth sets]].
 
