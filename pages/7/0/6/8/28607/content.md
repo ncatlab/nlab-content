@@ -368,3 +368,132 @@ Therefore, the composition $(n, m, p) \mapsto n_{10}$ on the right satisfies the
 Similarly, we will let $\pi_2$ be the effective functional relation between $X\times Y$ and $Y$ defined by
 $$\pi_2 \coloneqq \{ (\langle n, m \rangle, (x, y), y') \mid (n \Vdash x \equiv x) \wedge (m \Vdash y \equiv y') \}.$$
 The proof that this is an effective functional relation is similar to the proof for $\pi_1$.
+
+Now, suppose we have two effective functional relations, $f$ between $T$ and $X$, and $g$ between $T$ and $Y$. We will then let $(f,g)$ be the effective functional relation defined by
+$$(f, g) \coloneqq \{ (\langle n, m \rangle, t, (x, y)) \mid (n \Vdash t \xmapsto{f} x) \wedge (m \Vdash t \xmapsto{g} y) \}.$$
+To check this does indeed give an effective functional relation:
+
+(Domain condition) Suppose
+$$n \Vdash t \xmapsto{(f,g)} (x,y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{f} x, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & t \xmapsto{f} y, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & t \equiv t, & \quad & n_3 & \coloneqq & d_f(n_1).
+\end{array}
+\]
+Therefore, the composition $d_f \circ p_1$ satisfies the required condition for $d_{(f,g)}$.
+
+(Codomain condition) Suppose
+$$n \Vdash t \xmapsto{(f,g)} (x,y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{f} x, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & t \xmapsto{f} y, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & x \equiv x, & \quad & n_3 & \coloneqq c_f(n_1) \\
+\implies n_4 & \Vdash & y \equiv y, & \quad & n_4 & \coloneqq c_g(n_2) \\
+\implies n_5 & \Vdash & (x, y) \equiv (x, y), & \quad & n_5 & \coloneqq \langle n_3, n_4 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_5$ on the right satisfies the required condition for $c_({f,g})$.
+
+(Image uniqueness) Suppose
+$$n \Vdash t \xmapsto{(f,g)} (x_1, y_1)$$
+and
+$$m \Vdash t \xmapsto{(f,g)} (x_2, y_2).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{f} x_1, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & t \xmapsto{g} y_1, & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & t \xmapsto{f} x_2, & \quad & n_3 & \coloneqq & p_1(m), \\
+n_4 & \Vdash & t \xmapsto{g} y_2, & \quad & n_4 & \coloneqq & p_2(m) \\
+\implies n_5 & \Vdash & x_1 \equiv x_2 & \quad & n_5 & \coloneqq & u_f(n_1, n_3) \\
+\implies n_6 & \Vdash & y_1 \equiv y_2 & \quad & n_6 & \coloneqq & u_g(n_2, n_4) \\
+\implies n_7 & \Vdash & (x_1, y_1) \equiv (x_2, y_2) & \quad & n_7 & \coloneqq & \langle n_5, n_6 \rangle.
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_7$ on the right satisfies the required condition for $u_{(f,g)}$.
+
+(Totality) Suppose
+$$n \Vdash t \equiv t.$$
+Then
+\[
+\begin{array}{rclcrcl}
+\exists x\in X, n_1 & \Vdash & t \xmapsto{f} x, & \quad & n_1 & \coloneqq & t_f(n), \\
+\exists y\in Y, n_2 & \Vdash & t \xmapsto{g} y, & \quad & n_2 & \coloneqq & t_g(n) \\
+\implies n_3 & \Vdash & t \xmapsto{(f,g)} (x,y), & \quad & n_3 & \coloneqq & \langle n_1, n_2 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the required condition for $t_{(f,g)}$.
+
+(Respectfulness) Suppose
+$$n \Vdash t_1 \xmapsto{(f,g)} (x_1, y_1),$$
+$$m \Vdash t_1 \equiv t_2,$$
+and
+$$p \Vdash (x_1, y_1) \equiv (x_2, y_2).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t_1 \xmapsto{f} x_1 & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & t_1 \xmapsto{g} y_1 & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x_1 \equiv x_2 & \quad & n_3 & \coloneqq & p_1(p), \\
+n_4 & \Vdash & y_1 \equiv y_2 & \quad & n_4 & \coloneqq & p_2(p) \\
+\implies n_5 & \Vdash & t_2 \xmapsto{f} x_2 & \quad & n_5 & \coloneqq & r_f(n_1, m, n_3) \\
+\implies n_6 & \Vdash & t_2 \xmapsto{g} y_2 & \quad & n_6 & \coloneqq & r_f(n_2, m, n_4) \\
+\implies n_7 & \Vdash & t_2 \xmapsto{(f,g)} (x_2, y_2) & \quad & n_7 & \coloneqq & \langle n_5, n_6 \rangle.
+\end{array}
+\]
+Therefore, the composition $(n, m, p) \mapsto n_7$ on the right satisfies the required condition for $r_{(f,g)}$.
+
+We now claim that $\pi_1 \circ (f, g)$ is equivalent to $f$. Thus, suppose that
+$$n \Vdash t \xmapsto{\pi_1 \circ (f, g)} x.$$
+Then there exists $(x', y') \in X\times Y$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{(f,g)} (x', y'), & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & (x', y') \xmapsto{\pi_1} x, & \quad & n_2 & \coloneqq & p_2(n) \\
+\implies n_3 & \Vdash & t \xmapsto{f} x', & \quad & n_3 & \coloneqq & p_1(n_1), \\
+n_4 & \Vdash & t \xmapsto{g} y', & \quad & n_4 & \coloneqq & p_2(n_1), \\
+n_5 & \Vdash & x' \equiv x, & \quad & n_5 & \coloneqq & p_1(n_2), \\
+n_6 & \Vdash & y' \equiv y', & \quad & n_6 & \coloneqq & p_2(n_2) \\
+\implies n_7 & \Vdash & t \equiv t, & \quad & n_7 & \coloneqq & d_f(n_3) \\
+\implies n_8 & \Vdash & t \xmapsto{f} x, & \quad & n_8 & \coloneqq & r_f(n_3, n_7, n_5).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_8$ on the right satisfies the required condition for $e_{\pi_1 \circ (f, g), f}$. The proof that $\pi_2 \circ (f, g)$ is equivalent to $g$ is similar,
+
+Finally, to establish the uniqueness of $(f, g)$ up to equivalence, it suffices to show that the pair of morphisms $[\pi_1], [\pi_2]$ is [[jointly epimorphic family|jointly monomorphic]]. Thus, suppose we have two effective functional relations $a, b$ between $T$ and $X\times Y$ such that $\pi_i \circ a$ is equivalent to $\pi_i \circ b$, $i \in \{1,2\}$. Now suppose that
+$$n \Vdash t \xmapsto{a} (x, y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & (x, y) \equiv (x, y), & \quad & n_1 & \coloneqq & c_a(n) \\
+\implies n_2 & \Vdash & x \equiv x, & \quad & n_2 & \coloneqq & p_1(n_1), \\
+n_3 & \Vdash & y \equiv y, & \quad & n_3 & \coloneqq & p_2(n_1) \\
+\implies n_4 & \Vdash & (x, y) \xmapsto{\pi_1} x, & \quad & n_4 & \coloneqq & \langle n_2, n_3 \rangle \\
+\implies n_5 & \Vdash & t \xmapsto{\pi_1 \circ a} x, & \quad & n_5 & \coloneqq & \langle n, n_5 \rangle \\
+\implies n_6 & \Vdash & t \xmapsto{\pi_1 \circ b} x, & \quad & n_6 & \coloneqq & e_{\pi_1 \circ a, \pi_1 \circ b}(n_5) \\
+\implies \exists (x', y') \in X\times Y, n_7 & \Vdash & t \xmapsto{b} (x', y') & \quad & n_7 & \coloneqq & p_1(n_5), \\
+n_8 & \Vdash & (x', y') \xmapsto{\pi_1} x, & \quad & n_8 & \coloneqq & p_2(n_5) \\
+\implies n_9 & \Vdash & x' \equiv x, & \quad & n_9 & \coloneqq & p_1(n_8), \\
+n_{10} & \Vdash & y' \equiv y', & \quad & n_{10} & \coloneqq & p_2(n_8) \\
+\implies n_{11} & \Vdash & (x, y) \xmapsto{\pi_2} y, & \quad & n_{11} & \coloneqq & \langle n_2, n_3 \rangle \\
+\implies n_{12} & \Vdash & t \xmapsto{\pi_2 \circ a} y, & \quad & n_{12} & \coloneqq & \langle n, n_{11} \rangle \\
+\implies n_{13} & \Vdash & t \xmapsto{\pi_2 \circ b} y, & \quad & n_{13} & \coloneqq & e_{\pi_2\circ a, \pi_2\circ b}(n_{12}) \\
+\implies \exists (x'', y'') \in X\times Y, n_{14} & \Vdash & t \xmapsto{b} (x'', y''), & \quad & n_{14} & \coloneqq & p_1(n_{13}), \\
+n_{15} & \Vdash & (x'', y'') \xmapsto{\pi_2} y, & \quad & n_{15} & \coloneqq & p_2(n_{13}) \\
+\implies n_{16} & \Vdash & x'' \equiv x'', & \quad & n_{16} & \coloneqq & p_1(n_{15}), \\
+n_{17} & \Vdash & y'' \equiv y, & \quad & n_{17} & \coloneqq & p_2(n_{15}) \\
+\implies n_{18} & \Vdash & (x', y') \equiv (x'', y''), & \quad & n_{18} & \coloneqq & u_b(n_7, n_{13}) \\
+\implies n_{19} & \Vdash & x' \equiv x'', & \quad & n_{19} & \coloneqq & p_1(n_{18}), \\
+n_{20} & \Vdash & y' \equiv y'', & \quad & n_{20} & \coloneqq & p_2(n_{18}) \\
+\implies n_{21} & \Vdash & y' \equiv y, & \quad & n_{21} & \coloneqq & t_Y(n_{20}, n_{17}) \\
+\implies n_{22} & \Vdash & t \equiv t, & \quad & n_{22} & \coloneqq & d_a(n) \\
+\implies n_{23} & \Vdash & (x', y') \equiv (x, y), & \quad & n_{23} & \coloneqq & \langle n_9, n_{21} \rangle \\
+\implies n_{24} & \Vdash & t \xmapsto{b} (x, y), & \quad & n_{24} & \coloneqq & r_b(n_7, n_{22}, n_{23}).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_{24}$ on the right satisfies the required condition for $e_{a,b}$.
