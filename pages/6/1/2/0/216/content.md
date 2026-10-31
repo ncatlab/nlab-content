@@ -247,7 +247,7 @@ This is due to [Nuiten 13, theorem 3.3.1](#Nuiten13).
 
 The condition for the bibundles to be proper and submersive is quite strong. (For ordinary manifolds such a bibundle is the same as a proper submersion, which is the same as the projection of a fiber bundle.) The condition to be proper excludes for example the stacky group structures of non-commutative tori or the Lie 2-group model of the string group. The condition to be submersive exludes points of the stack, which are the inclusions of the orbits of the Lie groupoid.
 
-Both conditions can be dropped for complete [[bornological set|bornological]] convolution, which is a [[(2,1)-functor]] from the category of [[differentiable stacks]] to the Morita 2-category of complete bornological algebras ([Aretz & Blohmann 2025, theorem 6.1.1](#AretzBlohmann2025)).
+Both conditions can be dropped for complete [[bornological set|bornological]] convolution, which is a monoidal [[(2,1)-functor]] from the category of [[differentiable stacks]] to the Morita 2-category of complete bornological algebras ([Aretz & Blohmann 2025, theorem 6.1.1](#AretzBlohmann2025)).
 
 This way, much of [[noncommutative geometry]] is exhibited as actually being the [[higher geometry]] of [[differentiable stacks]] inside all [[smooth stacks]]. In particular, [[groupoid K-theory]] is realized as the [[KK-theory]] of convolution C*-algebras.
 
@@ -770,7 +770,7 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 
 Generalization to bornological convolution:
 
-* {#AretzBlohmann2025} David Aretz, [[Christian Blohmann]]: *Functoriality of bornological groupoid convolution* &lbrack;[arXiv:2508.11005](https://arxiv.org/abs/2508.11005)&rbrack;
+* {#AretzBlohmann2025} David Aretz, [[Christian Blohmann]]: _Functoriality of bornological groupoid convolution_, J. Funct. Anal. (2026), Volume: 291, Issue: 12, Article: 111618, 71. pages &lbrack;[arXiv:2508.11005](https://arxiv.org/abs/2508.11005)&rbrack;
 
 
 
