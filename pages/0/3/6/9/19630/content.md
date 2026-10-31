@@ -1,17 +1,22 @@
 
+Michael Victor Berry
+
+* [personal page](https://michaelberryphysics.wordpress.com/)
 
 * <a href="https://en.wikipedia.org/wiki/Michael_Berry_(physicist)">Wikipedia entry</a>
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=BOBTbCQAAAAJ&hl=en)
 
 ## Selected writings
 
 * *A Half-Century of Physical Asymptotics and Other Diversions
 -- Selected Works by Michael Berry*, World Scientific (2017) &lbrack;[doi:10.1142/10480](https://doi.org/10.1142/10480)&rbrack;
 
-Introducing the [[Berry phase]]:
+Introducing what came to be called the *[[Berry phase]]*:
 
-* {#Berry84} [[Michael V. Berry]], *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. Lond. A **392** (1984) 45–57 ([doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023), [jstor:2397741](https://www.jstor.org/stable/2397741))
+* {#Berry84} [[Michael V. Berry]], *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. Lond. A **392** (1984) 45--57 &lbrack;[doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023), [jstor:2397741](https://www.jstor.org/stable/&rbrack;
 
-* [[Michael Berry]], *The quantum phase, five years after*, in: *Geometric phases in physics*,  Adv. Ser. Math. Phys. **5**, World Scientific (1989) 7--28 ([[Berry-FiveYearsAfter.pdf:file]], [doi:10.1142/0613](https://doi.org/10.1142/0613))
+* [[Michael Berry]]: *The quantum phase, five years after*, in: *Geometric phases in physics*,  Adv. Ser. Math. Phys. **5**, World Scientific (1989) 7--28 &lbrack;[[Berry-FiveYearsAfter.pdf:file]], [doi:10.1142/0613](https://doi.org/10.1142/0613)&rbrack;
 
 
 Proof of the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[topology]]/[[homotopy theory]] of their [[configuration space of points]] (and leading to the [[Atiyah-Sutcliffe conjecture]]):
@@ -26,9 +31,9 @@ Proof of the [[spin-statistics theorem]] for [[non-relativistic particles]] via 
 
 On [[asymptotic series]]:
 
-* Michael Berry, C. J. Howls, _Hyperasymptotics_,  The Royal Society Proceedings: Mathematical and Physical Sciences __430__:1880 (1990) 653--668 [jstor](https://www.jstor.org/stable/79960)
+* [[Michael Berry]], C. J. Howls: _Hyperasymptotics_,  The Royal Society Proceedings: Mathematical and Physical Sciences __430__:1880 (1990) 653--668 &lbrack;[jstor:79960](https://www.jstor.org/stable/79960)&rbrack;
 
-* Michael Berry, _Asymptotics, superasymptotics, hyperasymptotics_, in  H. Segur, S. Tanveer, and H. Levine, (eds.)  _Asymptotics Beyond All Orders_,  Plenum, Amsterdam, 1991, 1--14 [doi](https://doi.org/10.1007/978-1-4757-0435-8_1)
+* [[Michael Berry]]: _Asymptotics, superasymptotics, hyperasymptotics_, in  H. Segur, S. Tanveer, and H. Levine, (eds.)  _Asymptotics Beyond All Orders_,  Plenum, Amsterdam, 1991, 1--14 &lbrack;[doi:10.1007/978-1-4757-0435-8_1](https://doi.org/10.1007/978-1-4757-0435-8_1)&rbrack;
 
 
 ## Related entries
