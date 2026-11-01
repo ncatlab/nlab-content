@@ -10,10 +10,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -292,7 +290,7 @@ Here
 
 =--
 
-For the equivalence of the first items see for instance [Joyce 96, p. 294 (4 of 38)](#Joyce96), [Joyce 00, prop. 10.1.3](#Joyce00). For the equivalence to the vanishing curvature invariant see also [Bryant 05, corollary 1](#Bryant05), and for the equivalence to the vanishing [[torsion of a G-structure]] see [Bryant 05, prop. 2](#Bryant05).
+For the equivalence of the first items see for instance [Joyce 96, p. 294](#Joyce96), [Joyce 00, prop. 10.1.3](#Joyce00). For the equivalence to the vanishing curvature invariant see also [Bryant 05, corollary 1](#Bryant05), and for the equivalence to the vanishing [[torsion of a G-structure]] see [Bryant 05, prop. 2](#Bryant05).
 
 
 +-- {: .num_remark}
@@ -348,7 +346,7 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 
 =--
 
-(See for instance [Bilal & Derendinger-Sfetsos 02](#BilalDerendingerSfetsos, [Bilal & Metzger 03](#BilalMetzger03).)
+(See for instance [Bilal & Derendinger-Sfetsos 02](#BilalDerendingerSfetsos), [Bilal & Metzger 03](#BilalMetzger03).)
 
 #### With ADE orbifold structure
  {#WithADEOrbifoldStructure}
