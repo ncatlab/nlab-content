@@ -17,11 +17,13 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
   > (on [[Drinfeld centers]])
 
 
-* {#MorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-18) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-18.pdf|main.pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-18.zip|sources.zip:file]], [[Morse-Bott-of-Loop-Spaces_Lean_26-10-18.zip|lean.zip:file]]&rbrack;
+* {#MorseBottOfLoopSpaces} [[nLab materials]]: *Morse--Bott Theory of Free Loop Spaces* (2026-10-18) &lbrack;[[Morse-Bott-of-Loop-Spaces_26-10-18.pdf|main.pdf:file]], [[Morse-Bott-of-Loop-Spaces_26-10-18.zip|sources.zip:file]], [[Morse-Bott-of-Loop-Spaces_Lean_26-10-29.zip|lean.zip:file]]&rbrack;
   > (on [[Morse-Bott theory]] of [[free loop spaces]] of [[Riemannian manifolds]])
  
 
 * ...
+
+
 
 * ...
 
