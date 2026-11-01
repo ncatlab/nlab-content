@@ -29,7 +29,7 @@ For ordinary monoidal categories, the [[biased]] and unbiased definitions coinci
 
   $$((a\otimes b\otimes c) \otimes () \otimes (d\otimes e)) \to (a\otimes b\otimes c\otimes d\otimes e)$$
 
-  and a unit map $a\to (a)$.  It is **(strictly) normal** if the later is an isomorphism (identity).  It is a special case of a [[lax algebra for a 2-monad]].  
+  and a unit map $a\to (a)$.  It is **(strictly) normal** if the latter is an isomorphism (identity).  It is a special case of a [[lax algebra for a 2-monad]].  
 
 * Dually, an **unbiased oplax monoidal category** has generalized associativity maps in the opposite direction
 
