@@ -79,7 +79,9 @@ Projects:
 <a href="https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
 </div>
 
-* (upcoming) **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization Revisited]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber)*, Hangzhou, 30 Oct--3 Nov 2026
+* **[[schreiber:ICMMP26|Electro-magnetic Flux Quantization --- IR-Completion of Higher Gauge Theories]]** <br/> keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)) <br/> Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions#:~:text=Schreiber)*, Hangzhou, 30 Oct--3 Nov 2026
+
+  slides: [pdf](/schreiber/files/Schreiber-ICMMP26_26-10-31.pdf)
 
 \linebreak
 
