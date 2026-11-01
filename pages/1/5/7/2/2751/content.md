@@ -346,6 +346,8 @@ On covariant [[Lie derivatives]] of [[section]]-valued [[differential forms]] (s
 
 * Marco Godina, Paolo Matteucci: *The Lie derivative of spinor fields: theory and applications*, Int. J. Geom. Methods Mod. Phys. **2** (2005) 159--188 \[<a href="https://doi.org/10.1142/S0219887805000624">doi:10.1142/S0219887805000624</a>, [arXiv:math/0504366](https://arxiv.org/abs/math/0504366)\]
 
+* [[Piljin Yi]], Taeyeon Kim: *Lie, Noether, Kosmann, and Diffeomorphism Anomalies Redux* &lbrack;[arXiv:2412.03667](https://arxiv.org/abs/2412.03667)&rbrack; 
+
 * [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity*, Lett Math Phys **116** 60 (2026) &lbrack;[doi:10.1007/s11005-026-02091-7](https://doi.org/10.1007/s11005-026-02091-7), [arXiv:2507.00140 math-ph](https://arxiv.org/abs/2507.00140)&rbrack;
 
 * Frederik Ďalak, [[Fridrich Valach]]: *On the generalised Lie derivative of (s)pinor fields* &lbrack;[arXiv:2607.07360](https://arxiv.org/abs/2607.07360)&rbrack;
