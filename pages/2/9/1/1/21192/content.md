@@ -1,7 +1,11 @@
 
-* [webpage](http://newton.kias.re.kr/~piljin/public_html/frameset.htm)
+* [personal page](http://newton.kias.re.kr/~piljin/public_html/frameset.htm)
 
 * [Institute page at KIAS](http://www.kias.re.kr/sub03/sub03_02_02_01_01.jsp?empid=MTAwNTc=)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=HsfL-FwAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Piljin-Yi-6709340)
 
 
 ## Selected writings
@@ -19,6 +23,11 @@ On [[hadrons]], in particular [[baryons]] as [[Skyrmions]]. via [[holographic QC
 Introducing the [[nuclear matrix model]] for [[baryons]]/[[nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
 
 * {#HashimotoIizukaYi10} [[Koji Hashimoto]], [[Norihiro Iizuka]], [[Piljin Yi]], _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
+
+On the [[covariant Lie derivative]] of [[spinors]] in relation to [[quantum anomalies]]:
+
+* [[Piljin Yi]], Taeyeon Kim: *Lie, Noether, Kosmann, and Diffeomorphism Anomalies Redux* &lbrack;[arXiv:2412.03667](https://arxiv.org/abs/2412.03667)&rbrack; 
+
 
 
 
