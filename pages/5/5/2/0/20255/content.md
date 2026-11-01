@@ -61,36 +61,54 @@ The original one-loop, flux-quantization and anomaly-inflow articles cited above
 
 #### The ordinary spacetime form and corrected flux equation
 
-The coupling $C_3\wedge I_8(R)$ belongs to the eight-derivative sector of the [[M-theory]] effective action, at order $\ell_p^6$ relative to the two-derivative action of [[D=11 supergravity]]. Its gravitational supersymmetry partners include terms schematically of the form $R^4$; a full completion also involves the four-form flux and fermions. For the different approaches to these corrections, see [[higher curvature corrections to D=11 supergravity -- references]].
+The [[interaction|coupling]] [[Lagrangian density]] $C_3\wedge I_8(R)$ belongs to the eight-derivative sector of the [[M-theory]] [[effective action]], at order $\ell_p^6$ (in the 11D [[Planck constant]]) relative to the two-derivative action of [[D=11 supergravity]]. Its gravitational supersymmetry partners include terms schematically of the form $R^4$; a full completion also involves the four-form flux and fermions. For the different approaches to these corrections, see at *[[11D supergravity]]* the section *[References -- Higher Curvature Corrections](D%3D11+N%3D1+supergravity#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity)*.
 
 On ordinary eleven-dimensional spacetime, away from magnetic sources, the bosonic anomaly-corrected flux equations are conventionally organized as
 
 \[
-\label{11dSugraBIAtOrder6}
-\begin{aligned}
-dG_4 &=0,\\
-dG_7 &=-\frac{1}{2}G_4\wedge G_4+\beta I_8(R),
+  \label{11dSugraBIAtOrder6}
+  \begin{aligned}
+    \mathrm{d}G_4 
+    &=0
+    \,,
+    \\
+    \mathrm{d}G_7 
+      &=
+    -\frac{1}{2} G_4\wedge G_4
+     \,+\,
+    \beta \, I_8(R)
+    \mathrlap{\,,}
 \end{aligned}
 \]
 
-through the order under consideration, where $\beta$ is proportional to $\ell_p^6$. Its numerical factor and sign depend on conventions for the fluxes and action; the normalization of $I_8$ here remains that of (eq:TheTerm). Reversing the convention for $G_7$ reverses both terms on the right. The corresponding superspace equation is discussed separately below.
+through the order under consideration, where the [[real number|real]] parameter $\beta$ is proportional to $\ell_p^6$. Its numerical factor and sign depend on conventions for the fluxes and action; the normalization of $I_8$ here remains that of (eq:TheTerm). Reversing the convention for $G_7$ reverses both terms on the right. The corresponding superspace equation is discussed separately below.
 
-On ordinary spacetime the second equation packages the corrected C-field equation of motion. The relation between $G_7$ and $\star G_4$ itself receives corrections, so imposing $G_7=\star G_4$ without qualification would omit part of the dynamics.
+On ordinary [[spacetime]] the second equation in (eq:11dSugraBIAtOrder6) packages the corrected C-field [[equation of motion]]. The relation between $G_7$ and $\star G_4$ itself receives corrections in $\beta$.
 
 #### The superspace eight-form and Bianchi identities
 
-Let $\mathcal{M}^{11|32}$ be the supergravity [[superspace]], with Lorentz superconnection and curvature $\mathcal{R}$. Applying the same invariant polynomial defines the closed eight-superform
+Let $\mathcal{M}^{11|32}$ be the [[11D supergravity]] [[super spacetime]], with [[Lorentz group|Lorentz]] [[spin connection]] and [[Riemann curvature]] $\mathcal{R}$. Applying the same [[invariant polynomial]] defines the closed eight-[[differential form on a supermanifold|superform]]
 
 \[
-\mathcal{I}_8(\mathcal{R})
-\;\coloneqq\;
-\frac{1}{48}\left(p_2(\mathcal{R})-\frac{1}{4} p_1(\mathcal{R})\wedge p_1(\mathcal{R})\right).
+  \mathcal{I}_8(\mathcal{R})
+  \;\coloneqq\;
+  \frac{1}{48}
+  \Big(
+    p_2(\mathcal{R})
+     -
+   \tfrac{1}{4} 
+   p_1(\mathcal{R}) \wedge p_1(\mathcal{R})
+  \Big)
+  \mathrlap{\,.}
 \]
 
-Here the $p_i(\mathcal{R})$ denote Chern-Weil superforms. The unnormalized $X_8$ of [Souères--Tsimpis, (4.1)--(4.3)](#SoueresTsimpis17) is the superform $\operatorname{tr}\mathcal{R}^4-\tfrac{1}{4}(\operatorname{tr}\mathcal{R}^2)^2=-192(2\pi)^4\mathcal{I}_8$ in the trace convention above. This construction is distinct from specifying the ordinary class $I_8(TX)$ or ordinary form $I_8(R)$. For an inclusion $i:X\hookrightarrow\mathcal{M}$ of the bosonic body, naturality gives
+Here the $p_i(\mathcal{R})$ denote [[Chern-Weil theory|Chern-Weil]] superforms. The unnormalized $X_8$ of [Souères & Tsimpis, (4.1)--(4.3)](#SoueresTsimpis17) is the superform $\operatorname{tr}\mathcal{R}^4-\tfrac{1}{4}(\operatorname{tr}\mathcal{R}^2)^2=-192(2\pi)^4\mathcal{I}_8$ in the trace convention above. This construction is distinct from specifying the ordinary class $I_8(TX)$ or ordinary form $I_8(R)$. For an inclusion $i:X\hookrightarrow\mathcal{M}$ of the bosonic body, naturality gives
 
 \[
-i^*\mathcal{I}_8(\mathcal{R})=I_8(i^*\mathcal{R}).
+  i^*\mathcal{I}_8(\mathcal{R})
+   \;=\;
+  I_8(i^*\mathcal{R})
+  \mathrlap{\,.}
 \]
 
 In the bosonic truncation this recovers the ordinary spacetime curvature expression. But the pullback does not retain all components of the superform: its decomposition $\mathcal{I}_8=\sum_{p+q=8}(\mathcal{I}_8)_{p,q}$ also includes components with $q$ odd tangent indices. The subscript $q$ counts spinorial indices, not the degree of an ordinary differential form on $X$.
@@ -98,9 +116,18 @@ In the bosonic truncation this recovers the ordinary spacetime curvature express
 Writing the flux superforms as $\mathcal{G}_4$ and $\mathcal{G}_7$, the proposed superspace extension is
 
 \[
-d\mathcal{G}_4=0,
-\qquad
-d\mathcal{G}_7=-\frac{1}{2}\mathcal{G}_4\wedge\mathcal{G}_4+\beta\mathcal{I}_8(\mathcal{R}).
+  \begin{aligned}
+  \mathrm{d}\mathcal{G}_4 
+  &= 0
+  \mathrlap{\,,}
+  \\
+  \mathrm{d}\mathcal{G}_7
+  &=
+  -\frac{1}{2}\mathcal{G}_4\wedge\mathcal{G}_4
+    +
+  \beta\mathcal{I}_8(\mathcal{R})
+  \mathrlap{\,.}
+  \end{aligned}
 \]
 
 These equations must hold in every even/odd component, compatibly with the geometric [[Bianchi identities]] and [[torsion constraints in supergravity|torsion constraints]]. The existence of the curvature superform $\mathcal{I}_8$ is not itself the open problem: the issue is finding the constrained supergravity deformation with this source.
@@ -108,26 +135,41 @@ These equations must hold in every even/odd component, compatibly with the geome
 For example, treating $\beta$ as the deformation parameter and writing
 
 \[
-\mathcal{G}_4=\mathcal{G}_4^{(0)}+\beta \mathcal{G}_4^{(1)}+\cdots,
-\qquad
-\mathcal{G}_7=\mathcal{G}_7^{(0)}+\beta \mathcal{G}_7^{(1)}+\cdots,
+ \begin{aligned}
+   \mathcal{G}_4
+   &=
+   \mathcal{G}_4^{(0)}+\beta \mathcal{G}_4^{(1)}+\cdots,
+   \\
+   \mathcal{G}_7
+   &=\mathcal{G}_7^{(0)}
+    + \beta \mathcal{G}_7^{(1)}+\cdots
+  \end{aligned}
 \]
 
 the first-order equations read
 
 \[
-d\mathcal{G}_4^{(1)}=0,
-\qquad
-d\mathcal{G}_7^{(1)}=-\mathcal{G}_4^{(0)}\wedge \mathcal{G}_4^{(1)}+\mathcal{I}_8(\mathcal{R}^{(0)}).
+  \begin{aligned}
+  \mathrm{d}\mathcal{G}_4^{(1)}
+    &= 0
+  \\
+  \mathrm{d}\mathcal{G}_7^{(1)}
+    & = 
+  -\mathcal{G}_4^{(0)} \wedge \mathcal{G}_4^{(1)}
+    +
+  \mathcal{I}_8(\mathcal{R}^{(0)})
+  \mathrlap{\,.}
+  \end{aligned}
 \]
 
-Closure of the right-hand side follows from $d\mathcal{G}_4^{(0)}=d\mathcal{G}_4^{(1)}=d\mathcal{I}_8=0$. This necessary consistency check does not establish a solution by covariant local superfields satisfying the superspace constraints. An unrestricted local primitive supplied by the Poincaré lemma is insufficient for that purpose.
+Closure of the right-hand side follows from $\mathrm{d}\mathcal{G}_4^{(0)} = \mathrm{d}\mathcal{G}_4^{(1)}  = \mathrm{d}\mathcal{I}_8 = 0$. 
+
 
 #### Superspace deformation theory and the action principle
 
-[Howe--Tsimpis](#HoweTsimpis03) describe deformations using spinorial cohomology, in particular the four-form component with four spinorial indices. They analyze the anomaly-modified seven-form identity and reconstruct low-dimensional superspace data. The geometric analysis of [Cederwall--Gran--Nilsson--Tsimpis](#CGNT04) solves the torsion Bianchi identities to first order in a general dimension-zero torsion deformation; specifying the deformation sourced by $\mathcal{I}_8$ remains an additional task.
+[Howe & Tsimpis 2003](#HoweTsimpis03) describe deformations using spinorial cohomology, in particular the four-form component with four spinorial indices. They analyze the anomaly-modified seven-form identity and reconstruct low-dimensional superspace data. The geometric analysis of [Cederwall, Gran, Nilsson & Tsimpis 2004](#CGNT04) solves the [[torsion of a metric connection|torsion]] [[Bianchi identities]] to first order in a general dimension-zero torsion deformation; specifying the deformation sourced by $\mathcal{I}_8$ remains an additional task.
 
-[Souères--Tsimpis, Sections 4--5 and Appendix C](#SoueresTsimpis17) develop the superform action principle. A closed twelve-superform $W_{12}$ admits an action construction when it is *Weil-trivial*: besides a Chern-Simons primitive $Z_{11}$, it has a gauge-invariant primitive $K_{11}$, giving the closed Lagrangian superform $K_{11}-Z_{11}$.
+[Souères & Tsimpis 2017, Sec. 4--5 & App. C](#SoueresTsimpis17) develop a *superform action principle*. A closed twelve-superform $W_{12}$ admits an action construction when it is *Weil-trivial*: besides a [[Chern-Simons form|Chern-Simons]] primitive $Z_{11}$, it has a [[gauge invariance|gauge-invariant]] primitive $K_{11}$, giving the closed Lagrangian superform $K_{11} - Z_{11}$.
 
 For the anomaly correction, a sufficient cohomological condition for the first-order construction is $\tau$-exactness of $X_{0,8}$. This is the purely spinorial component of the curvature eight-superform denoted $X_8$ in that paper, proportional to $(\mathcal{I}_8)_{0,8}$ in the notation here; it is not a component of the ordinary bosonic form $I_8(R)$. Here $\tau$ is the algebraic differential induced by the leading dimension-zero torsion. The authors reduce the possible obstruction to the $\mathrm{Spin}(1,10)$ representations $(04000)$, $(03002)$ and $(02004)$, and verify cancellation of the first and third. The $(03002)$ cancellation is left unchecked. The verified cancellations depend on the relative coefficient $-\tfrac{1}{4}$ in this curvature superform.
 
@@ -135,21 +177,26 @@ Their classification assumes perturbative solvability of the superspace Bianchi 
 
 The distinction is between a first-order action invariant, a solution of all constrained superspace Bianchi identities, and extension to higher perturbative orders. The cited superspace work supports the expected completion but does not settle all three questions. Results in selected component sectors or scattering amplitudes do not by themselves fill this gap; see the [[higher curvature corrections to D=11 supergravity -- references#I8SuperspaceDeformation|references on the superspace deformation problem]] and the surrounding bibliography.
 
+
 #### The possible order-$\ell_p^3$ deformation
 
-The order-$\ell_p^3$ class studied by [Tsimpis](#Tsimpis04) requires a separate qualification. Its relation to shifting $G_4$ by a multiple of $\ell_p^3p_1(R)$ makes its global interpretation sensitive to [[C-field flux quantization]]. On backgrounds with trivial first Pontryagin class it can be removed by a C-field redefinition; in the nontrivial case removing it changes the flux quantization condition. Its existence as a possible supersymmetric deformation does not fix a mandatory nonzero coefficient in the quantum M-theory action.
+The order-$\ell_p^3$ class studied by [Tsimpis 2004](#Tsimpis04) requires a separate qualification. Its relation to shifting $G_4$ by a multiple of $\ell_p^3p_1(R)$ makes its global interpretation sensitive to [[C-field flux quantization]]. On backgrounds with trivial first Pontryagin class it can be removed by a C-field redefinition; in the nontrivial case removing it changes the flux quantization condition. Its existence as a possible supersymmetric deformation does not fix a mandatory nonzero coefficient in the quantum M-theory action.
 
 In particular, one cannot obtain a general corrected equation merely by appending a mixed $\ell_p^3G_4\wedge\lambda(R)$ term to (eq:11dSugraBIAtOrder6). Algebraically, a change of variables $\widetilde G_4=G_4+a\ell_p^3\lambda(R)$ gives
 
 \[
--\frac{1}{2}G_4\wedge G_4
-=
--\frac{1}{2}\widetilde G_4\wedge\widetilde G_4
-+a\ell_p^3\widetilde G_4\wedge\lambda(R)
--\frac{a^2\ell_p^6}{2}\lambda(R)\wedge\lambda(R).
+  -\frac{1}{2}G_4\wedge G_4
+  \;=\;
+  -\frac{1}{2}\widetilde G_4\wedge\widetilde G_4
+  +
+  a\ell_p^3\widetilde G_4\wedge\lambda(R)
+  -
+  \frac{a^2\ell_p^6}{2}\lambda(R)\wedge\lambda(R)
+  \mathrlap{\,.}
 \]
 
 Thus even this change of flux variable produces an additional order-$\ell_p^6$ curvature term. The coefficient, global flux convention and any further corrections have to be specified together.
+
 
 ### Inflow to M5-brane anomalies
   {#InflowToM5BraneAnomaly}
