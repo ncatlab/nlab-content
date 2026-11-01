@@ -24,12 +24,12 @@
 
 The central [[theorem]] in [[persistent homology]] states how the data retained in [[persistence diagrams]]/[[barcodes]] is stable under small deformations of the initial data.
 
-Specifically, the original form of the stability theorem ([Cohen, Steiner, Edelsbrunner & Harer 2007](#CohenSteinerEdelsbrunnerHarer07)) applies to [[persistence modules]] $V(f)_\bullet$ given by the [[connected components]] of the [[level set|sub-level]] sets of a [[continuous function]] $X \xrightarrow{f} \mathbb{R}$ on some data set $X$
+Specifically, the original form of the stability theorem ([Cohen, Steiner, Edelsbrunner & Harer 2007](#CohenSteinerEdelsbrunnerHarer07)) applies to [[persistence modules]] $V(f)_\bullet$ given by the [[homology groups]] of the [[level set|sub-level]] sets of a [[continuous function]] $X \xrightarrow{f} \mathbb{R}$ on some data set $X$
 
 $$
   V(f)_l 
     \;\coloneqq\; 
-  H_0\Big(  f^{-1}\big( (-\infty, l] \big) \Big)
+  H_*\Big(  f^{-1}\big( (-\infty, l] \big) \Big)
 $$
 
 (equipped with the evident inclusions) and states that as the function $f$ is deformed to another continuous function $g$, the [[bottleneck distance]] $d_B$ 
