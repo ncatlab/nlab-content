@@ -497,3 +497,113 @@ n_{20} & \Vdash & y' \equiv y'', & \quad & n_{20} & \coloneqq & p_2(n_{18}) \\
 \end{array}
 \]
 Therefore, the composition $n \mapsto n_{24}$ on the right satisfies the required condition for $e_{a,b}$.
+
+### Equalizers
+
+Suppose we have two effective functional relations $f, g$ between $X$ and $Y$. We can then define the equalizer $E$ to have underlying set $X \times Y$, and effective PER where we will say
+$$\langle n, m, p, q \rangle \Vdash (x_1, y_1) \equiv (x_2, y_2)$$
+if and only if
+$$n \Vdash x_1 \xmapsto{f} y_1,$$
+$$m \Vdash x_1 \xmapsto{g} y_1,$$
+$$p \Vdash x_1 \equiv x_2,$$
+and
+$$q \Vdash y_1 \equiv y_2.$$
+(Here, $\langle n, m, p, q \rangle$ will be syntactic sugar for $\langle \langle \langle n, m \rangle, p \rangle, q \rangle$, and we will define corresponding projections $p_{i / 4} : \mathbb{N} \to \mathbb{N}$ for $1\le i\le 4$. We will use similar notations for other arities of tuples below.)
+
+To construct the required symmetry tracker, we can use the function which transports $n$ and $m$ to $(x_2, y_2)$ using respectfulness of $f$ and $g$, and applies symmetry to $p$ and $q$. Similarly, for the transitivity tracker, we preserve the $n$ and $m$ components of the first input, and apply transitivity to the $p$ and $q$ components.
+
+For the inclusion map, we will define an effective functional relation $i$ between $E$ and $X$ where
+$$\langle n, m, p \rangle \Vdash (x, y) \xmapsto{i} x'$$
+if and only if
+$$n \Vdash x \xmapsto{f} y,$$
+$$m \Vdash x \xmapsto{g} y,$$
+and
+$$p \Vdash x \equiv x'.$$
+
+(Domain condition) Suppose
+$$\langle n, m, p \rangle \Vdash (x, y) \xmapsto{i} x'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x \xmapsto{f} y, & & & & \\
+m & \Vdash & x \xmapsto{g} y, & & & & \\
+p & \Vdash & x \equiv x' & & & & \\
+\implies n_1 & \Vdash & x \equiv x, & \quad & n_1 & \coloneqq & d_f(n) \\
+\implies n_2 & \Vdash & y \equiv y, & \quad & n_2 &
+\coloneqq & c_f(n) \\
+\implies n_3 & \Vdash & (x, y) \equiv (x, y), & \quad & n_3 & \coloneqq & \langle n, m, n_1, n_2 \rangle.
+\end{array}
+\]
+Therefore, the composition $\langle n, m, p \rangle \mapsto n_3$ on the right satisfies the required condition for $d_i$.
+
+(Codomain condition) Suppose
+$$\langle n, m, p \rangle \Vdash (x, y) \xmapsto{i} x'.$$ Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x \xmapsto{f} y, & & & & \\
+m & \Vdash & x \xmapsto{g} y, & & & & \\
+p & \Vdash & x \equiv x' & & & & \\
+\implies n_1 & \Vdash & x' \equiv x, & \quad & n_1 & \coloneqq & s_X(p) \\
+\implies n_2 & \Vdash & x' \equiv x', & \quad & n_2 & \coloneqq & t_X(n_1, p).
+\end{array}
+\]
+Therefore, the composition $\langle n, m, p \rangle \mapsto n_2$ on the right satisfies the required condition for $c_i$.
+
+(Image uniqueness) Suppose
+$$\langle n, m, p \rangle \Vdash (x, y) \xmapsto{i} x_1'$$
+and
+$$\langle n', m', p' \rangle \Vdash (x, y) \xmapsto{i} x_2'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x \xmapsto{f} y, & & & & \\
+m & \Vdash & x \xmapsto{g} y, & & & & \\
+p & \Vdash & x \equiv x', & & & & \\
+n' & \Vdash & x \xmapsto{f} y, & & & & \\
+m' & \Vdash & x \xmapsto{g} y, & & & & \\
+p' & \Vdash & x \equiv x'' & & & & \\
+\implies n_1 & \Vdash & x' \equiv x, & \quad & n_1 & \coloneqq & s_X(p) \\
+\implies n_2 & \Vdash & x' \equiv x'', & \quad & n_2 & \coloneqq & t_X(n_1, p').
+\end{array}
+\]
+Therefore, the composition $(\langle n, m, p \rangle, \langle n', m', p' \rangle) \mapsto n_2$ on the right satisfies the required condition for $u_i$.
+
+(Totality) Suppose
+$$\langle n, m, p, q \rangle \Vdash (x, y) \equiv (x, y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x \xmapsto{f} y, & & & & \\
+m & \Vdash & x \xmapsto{g} y, & & & & \\
+p & \Vdash & x \equiv x, & & & & \\
+q & \Vdash & y \equiv y & & & & \\
+\implies n_1 & \Vdash & (x, y) \xmapsto{i} x, & \quad & n_1 & \coloneqq & \langle n, m, p \rangle.
+\end{array}
+\]
+Therefore, $\langle n, m, p, q \rangle \mapsto \langle n, m, p \rangle$ satisfies the required condition for $t_i$.
+
+(Respectfulness) Suppose
+$$\langle n, m, p \rangle \Vdash (x_1, y_1) \xmapsto{i} x_1',$$
+$$\langle n', m', p', q' \rangle \Vdash (x_1, y_1) \equiv (x_2, y_2),$$
+and
+$$n'' \Vdash x_1' \equiv x_2'.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x_1 \xmapsto{f} y_1, & & & & \\
+m & \Vdash & x_1 \xmapsto{g} y_1, & & & & \\
+p & \Vdash & x_1 \equiv x_1', & & & & \\
+n' & \Vdash & x_1 \xmapsto{f} y_1, & & & & \\
+m' & \Vdash & x_1 \xmapsto{g} y_1, & & & & \\
+p' & \Vdash & x_1 \equiv x_2, & & & & \\
+q' & \Vdash & y_1 \equiv y_2 & & & & \\
+\implies n_1 & \Vdash & x_2 \xmapsto{f} y_2, & \quad & n_1 & \coloneqq & r_f(n, p', q') \\
+\implies n_2 & \Vdash & x_2 \xmapsto{g} y_2, & \quad & n_2 & \coloneqq & r_g(m, p', q') \\
+\implies n_3 & \Vdash & x_2 \equiv x_1, & \quad & n_3 & \coloneqq & s_X(p') \\
+\implies n_4 & \Vdash & x_2 \equiv x_1', & \quad & n_4 & \coloneqq & t_X(n_3, p) \\
+\implies n_5 & \Vdash & x_2 \equiv x_2', & \quad & n_5 & \coloneqq & t_X(n_4, n'') \\
+\implies n_6 & \Vdash & (x_2, y_2) \xmapsto{i} x_2', & \quad & n_6 & \coloneqq & \langle n_1, n_2, n_5 \rangle.
+\end{array}
+\]
+Therefore, the composition $(\langle n, m, p \rangle, \langle n', m', p', q' \rangle, n'') \mapsto n_6$ on the right satisfies the required condition for $r_i$.
+
