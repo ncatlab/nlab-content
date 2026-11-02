@@ -12,7 +12,7 @@ I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful i
 
 1.  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_,  MFPS2023, [link](https://entics.episciences.org/paper/view/id/12290)
 2. [[J-B Vienney|Jean-Baptiste Vienney]], _A bialgebraic characterization of symmetric powers in $\mathbb{Q}_{\ge 0}$-linear symmetric monoidal categories_, [ArXiv](https://arxiv.org/abs/2308.02094)
-3. [[J-B Vienney|Jean-Baptiste Vienney]], _An algebra modality admitting countably many deriving transformations_, [ArXiv](https://arxiv.org/abs/2510.03953)
+3. [[J-B Vienney|Jean-Baptiste Vienney]], _Uniqueness and non-uniqueness of deriving transformations_, [ArXiv](https://arxiv.org/abs/2510.03953)
 4. [[J-B Vienney|Jean-Baptiste Vienney]], _Extracting an $\mathbb{N}$-filtered differential modality from a differential modality, [ArXiv](https://arxiv.org/abs/2604.16016)
 
 ##  Work in progress, projects and ideas
