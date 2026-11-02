@@ -141,8 +141,8 @@ For more see at *[[magic state]]*.
 
 
 
-### In practice
- {#IdeaInPractice}
+### In practice --- The Decoding Bottleneck
+ {#IdeaOfQECInPractice}
 
 
 As of the 2020s, [[quantum error correction]] (QEC) applied to noisy intermediate-scale quantum ([NISQ](quantum+computation#ReferencesNISQ)) machines is the dominant strategy paradigm, in both academia and industry, for potentially achieving meaningful commercial value [[quantum computation]] in the future. Specifically, the prevailing strategy utilizes [[surface code|surface codes]] for the encoding of logical qubits (typically considered on top of physical [superconducting qubits](superconductivity#SuperconductingQBitsReferences)) --- upon which [[Clifford gates]] are implemented natively --- supplemented by "magic state" resource distillation to implement the remaining universal [[T-gates]].
@@ -153,9 +153,9 @@ Namely, the [[quantum error correction|quantum error-correcting]] mechanism requ
 
 Even if such classical computing power is or were available, standard data cables connecting the quantum chip to an external supercomputer would introduce signal latency exceeding the coherence time of current qubits, rendering the correction commands obsolete upon arrival. Furthermore, the sheer volume of data transfer will or would transmit enormous amounts of thermal noise from the outside world into the quantum machine, jeopardizing its near-zero cooling and its [[quantum coherence]].
 
-This problem is also known as the *decoding bottleneck*. (cf. [Mishan 2025](#Mishan2025)).
+This problem is also known as the *decoding bottleneck* or *decoder bottleneck* (cf. [Mishan 2025](#Mishan2025), [Croot et al. 2025](#CrootEtAl2025), [Ivezic 2026](#Ivezic2026), hupf).
 
-To overcome this formidable scenario, the NISQ+QEC field has now turned to speculating on future classical hardware technology where Application Specific Integrated Circuit (ASICs) hardware is integrated directly into the ultra-cooled quantum refrigerator (e.g., via specialized "Cryo-CMOS" logic; cf. [Erol 2026](#Erol2026)).  However, this poses severe thermodynamic contradictions: Standard silicon transistors suffer from carrier freeze-out below $\sim 40K$, whence we need to envision an entire new kind of classical computing hardware. More generally, the cooling power at the base of a dilution refrigerator is strictly limited to a few micro-Watts. Therefore, placing a petaflop ASIC chip in near proximity to the quantum device would produce excess heat that under currently understood conditions would destroy the cryogenic environment that the quantum computer relies on.
+To overcome this formidable scenario, the NISQ+QEC field has now turned to speculating on future classical hardware technology where *Application Specific Integrated Circuit* ([ASICs](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) hardware is integrated directly into the ultra-cooled quantum refrigerator (e.g., via specialized "Cryo-CMOS" logic; cf. [Erol 2026](#Erol2026)).  However, this poses severe thermodynamic contradictions: Standard silicon transistors suffer from carrier freeze-out below $\sim 40K$, whence one needs to envision an entire *new kind of classical computing hardware*. More generally, the cooling power at the base of a dilution refrigerator is strictly limited to a few micro-Watts. Therefore, placing a petaflop ASIC chip in near proximity to the quantum device would produce excess heat that under currently understood conditions would destroy the cryogenic environment that the quantum computer relies on.
 
 In conclusion, the NISQ+QEC roadmap for achieving meaningful commercial value quantum computers is now tacitly banking on unheard of and intrinsically dubious future progress in *classical supercomputing* technology --- which, assuming it can be brought into existence, would then not be used for contentful computation itself, but would solely serve the task of preventing the memory of a quantum computer from decaying.
 
@@ -175,8 +175,25 @@ This analogy makes clear that an alternative strategy may be to actually fix the
 
 * {#Erol2026} Volkan Erol: *[Quantum Computing is No Longer a Physics Problem. It is a Systems Engineering Nightmare](https://volkan-erol.medium.com/quantum-computing-is-no-longer-a-physics-problem-it-is-a-systems-engineering-nightmare-a1ecba474ecb)*, Medium (Jan 2026) &lbrack;[[Erol2026-QECProblem.pdf:file]]&rbrack;
 
-* X. Croot et al.: *Enabling Technologies for Scalable Superconducting Quantum Computing* \[<a href="https://arxiv.org/abs/2512.15001">arXiv:2512.15001 quant-ph</a>\]
+* {#CrootEtAl2025} X. Croot et al.: *Enabling Technologies for Scalable Superconducting Quantum Computing* \[<a href="https://arxiv.org/abs/2512.15001">arXiv:2512.15001 quant-ph</a>\]
   > "The i/o of signal between qubit and control electronics is a central bottleneck to scaling. \[...\] Many proposals for long-term fault-tolerant quantum computing require qubit numbers that are orders of magnitude greater than the capacity of available fridges, even when accounting for densification of components and reduction of thermal loads per qubit. \[...\] The qubit overheads for the best FT-QEC schemes are daunting, and the implementation of decoding on the time-scale of the quantum gates (clock cycle) remains an open challenge in many leading hardware platforms. \[...\] Systems of 100k qubits would demand large fractions of the yearly world production \[of Helium\] based on naive linear scaling."
+
+* {#Ivezic2026} Marin Ivezic: *[The Decoder Bottleneck: The CRQC Challenge Nobody Is Talking About](https://postquantum.com/quantum-computing/decoder-bottleneck-crqc/)*, PostQuantum (April 2026)
+  > **The Capability Nobody Mentioned** \[...\] The decoder is the classical computer sitting next to the quantum processor, receiving a continuous stream of error syndrome measurements and determining, in real time, what corrections to apply. \[...\] Without a decoder that can keep pace with the quantum hardware, quantum error correction is an offline statistical exercise, not a fault-tolerant computation. A million qubits without a real-time decoder is a million qubits that cannot compute.
+
+  > This is the capability dimension that \[...\] is most likely to determine whether a cryptographically relevant quantum computer (CRQC) arrives in 2030 or 2045. It is the classical engineering challenge hiding inside the quantum machine, the piece that connects the quantum physics to the classical computation, and the capability that most threat assessments ignore entirely.
+
+  > The quantum computing field has trained the public, and by extension the security community, to track one number: how many qubits. Security professionals need a more sophisticated model. 
+
+  > If the decoder cannot keep up with the syndrome stream, a backlog forms. \[...\] The backlog grows exponentially, and eventually the computation fails. This is the “backlog problem,” and it is the reason that decoder speed is not a performance optimization but a hard requirement. A decoder that is 10% too slow does not produce a 10% slower computation. It produces a computation that fails entirely.
+
+  > The decoder must satisfy three simultaneous requirements. \[...\] Speed, accuracy, and scale. Getting any two of three is tractable. Getting all three simultaneously is the unsolved engineering problem at the center of the CRQC timeline.
+
+  > &lbrack;...&rbrack; **Decoding Is Harder Than It Sounds**
+
+  > &lbrack;For [superconducting qbits](superconducting+qbits+--+references)&rbrack; the decoder must complete its work within that microsecond to avoid backlog. This is the most demanding timing constraint in the quantum computing stack, and it is why [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) and [ASIC](https://technav.ieee.org/topic/application-specific-integrated-circuits/) implementations are necessary: software decoders running on conventional CPUs cannot reliably meet microsecond deadlines for codes at the distances required for cryptographic applications. The superconducting decoder challenge is fundamentally a hardware problem. The algorithm must be compiled into dedicated circuitry ([FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) or [ASIC](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) that executes in deterministic time, without the variable-latency interrupts, cache misses, and scheduling jitter that make general-purpose CPUs unsuitable for hard real-time constraints.
+
+  > &lbrack;...&rbrack; The gap between current decoder demonstrations and CRQC requirements is large and precisely quantifiable. \[...\] The progress curve is steep. But the destination \[...\] remains far ahead.
 
 
 
