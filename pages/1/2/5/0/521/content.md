@@ -19,7 +19,9 @@ Given a [[category]] $C$ and an [[object]] $c \in C$, the __under category__ (al
 
 * objects are morphisms in $C$ starting at $c$; $c \to d$
 
-* morphisms are commuting triangles 
+* morphisms are commuting triangles (a.k.a. [commutative triangle](https://ncatlab.org/nlab/show/commutative+triangle), a.k.a Abelian Triangle in [Quantum Field Theory](https://ncatlab.org/nlab/show/quantum+field+theory) )
+
+
 $
  \array{
     && c
@@ -62,7 +64,7 @@ in [[Cat]], where
 
 The left vertical morphism $c \downarrow C \to C$ is the forgetful morphism which forgets the tip of the triangles mentioned above.
 
-The [[duality|dual]] notion is an [[over category]].
+The [[duality|dual]] notion is an [[over category]] (also called slice category).
 
 
 ## Examples
