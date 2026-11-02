@@ -65,9 +65,9 @@ From [CDCW 21](#CDCW21):
 
 #### Quantum error correcting codes
 
-The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
+The simple but important special case of passive correction of erasures may be  handled by *[[quantum error correcting codes]]*:
 
-Recall that a classical [[error correcting code]] on a [[finite set]] of states $L$ is, typically, a choice of [[injection]] of $L$ into some larger set, typically a [[Cartesian power]] 
+Recall that a classical [[error correcting code]] on a [[finite set]] of states $L$ is, typically, a choice of [[injection]] of $L$ into some larger [[finite set]], typically a [[Cartesian power]] 
 
 $$
   L 
@@ -77,7 +77,7 @@ $$
   H \times \cdots \times H
 $$
 
-(often considered in the form of [[linear codes]], but classical nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]].
+(often considered in the form of [[linear codes]], but [[classical physics|classical]] nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]].
 
 For $\mathcal{L}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{L}$ into a larger Hilbert spaces, often an  $n$-fold [[tensor product]] of copies of some $\mathcal{H}$:
 
@@ -114,7 +114,7 @@ $$
   \,,
 $$
 
-such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$ (e.g. [Rowell & Wang 17, Sec. 3.2.3](#RowellWang17)).
+such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$ (cf. [Rowell & Wang 17, Sec. 3.2.3](#RowellWang17)).
 
 (Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combinations of operators that act non-trivially only on some of the tensor factors.)
 
