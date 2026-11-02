@@ -1,5 +1,6 @@
+* [Personal page](https://christophschweigert.github.io/)
 
-* [personal page](http://www.math.uni-hamburg.de/home/schweigert/)
+* [Institute page](http://www.math.uni-hamburg.de/home/schweigert/)
 
 * [Wikipedia entry](https://de.wikipedia.org/wiki/Christoph_Schweigert) (de)
 
@@ -66,7 +67,7 @@ Exposition:
 
 Lecture notes on [[Hopf algebras]] and [[quantum groups]] in view of [[topological field theory]]:
 
-* [[Christoph Schweigert]]: *Hopf algebras, quantum groups and topological field theory*, lecture notes (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/hskript.pdf)&rbrack;
+* [[Christoph Schweigert]]: *Hopf algebras, quantum groups and topological field theory*, lecture notes (2022) &lbrack;[pdf](https://christophschweigert.github.io/skripten/hskript.pdf)&rbrack;
 
 
 
