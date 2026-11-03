@@ -23,7 +23,7 @@ is [[full and faithful functor|full and faithful]].
 
 It is said to be **co-fully faithful** or **corepresentably fully faithful** if for all [[object]]s $X \in K$ , the [[functor]]
 $$K(B,X) \to K(A,X)$$
-is a full and faithful functor. Note that the shortened name "co-fully faithful" can be misleading, as a functor is corepresentably fully faithful if and only if it is representably fully faithful as a 1-cell in $Cat^{op}$ (rather than $Cat^{co}$.
+is a full and faithful functor. Note that the shortened name "co-fully faithful" can be misleading, as a functor is corepresentably fully faithful if and only if it is representably fully faithful as a 1-cell in $Cat^{op}$ (rather than $Cat^{co}$).
 
 
 ## Remarks
