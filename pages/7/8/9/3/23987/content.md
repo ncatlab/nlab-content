@@ -3480,6 +3480,20 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Nov 2026
+
+* {#RanjanNov2026} 2 Nov 2026
+
+  [Vishal Ranjan](https://scholar.google.com/citations?user=GODTx9cAAAAJ&hl=en) (Tata Institute of Fundamental Research Hyderabad):
+
+  **Millikelvin ESR spectroscopy for quantum technologies**
+
+  cf.: [arXiv:2206.04488](https://arxiv.org/abs/2206.04488), [arXiv:2102.01415](https://arxiv.org/abs/2102.01415)
+
+  > In a conventional [[electron]] [[spin resonance]] (ESR) spectrometer based on the inductive detection method, the paramagnetic [[spins]] precess in an external [[magnetic field]] radiating weak microwave signals into a resonant cavity. Despite its widespread use, ESR [[spectroscopy]] has limited sensitivity and large amounts of spins $\sim 10^12$ are necessary to accumulate sufficient signal. Exploiting recent progress in circuit-quantum electrodynamics, we have combined high quality factor [[superconductor|superconducting]] micro-resonators and noise-less [[Josephson junction|Josephson]] Parametric Amplifiers to perform ESR spectroscopy at millikelvin temperatures, reaching a new regime where the sensitivity is limited by the quantum [[vacuum fluctuations]] of the microwave field. In this talk, I will discuss this new ESR regime, its prospects for [[quantum technology]] and current activities at TIFRH.
+
+\linebreak
+
 
 
 ***
@@ -4872,6 +4886,8 @@ Neumann algebras**
 
   **The Algebraic Structure of Finite Gauge Transformations in Closed String Field Theory and Potential Applications**
 
+  slides: [[Ahmadain-CQTS2026.pdf|pdf:file]]
+
   > In this talk, I will discuss how the solution space of [[closed string|closed]] [[string field theory]] connected by finite [[gauge transformations]] can be represented as a [[Kan simplicial manifold]] and [[infinity-groupoid]]. Time permitting, I will also explain how this [[Kan complex]] can be used alongside a [[Cech cohomology|patch-by-patch description]] of [[spacetime]] to compute boundary terms. Based on work with [Jojiro Tostsuka](https://inspirehep.net/authors/2089019) at Kyoto University, Japan.
 
 
@@ -5237,6 +5253,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
   [Alfried Krupp Wissenschaftskolleg](https://www.wiko-greifswald.de/)
 
   Greifswald (6 May 2026)
+
 
 
 
