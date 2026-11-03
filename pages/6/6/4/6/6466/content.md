@@ -172,7 +172,7 @@ We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **
 
 3. Outward-open:
    $$ \forall q\colon \mathbb{Q}.\, (q \in L \implies \exists r\colon \mathbb{Q}.\, (r \in L \wedge q \lt r)) $$
-   $$ \forall q\colon \mathbb{Q}.\, (q \in U \implies \exists r\colon \mathbb{Q}.\, (r \in L \wedge r \lt q)) .$$
+   $$ \forall q\colon \mathbb{Q}.\, (q \in U \implies \exists r\colon \mathbb{Q}.\, (r \in U \wedge r \lt q)) .$$
 
 4. Located:
    $$ \forall q\colon \mathbb{Q}.\, \forall r\colon \mathbb{Q}.\, (q \lt r \implies (q \in L \vee r \in U)) .$$
