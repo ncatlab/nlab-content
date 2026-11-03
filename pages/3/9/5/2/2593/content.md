@@ -364,13 +364,13 @@ The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ 
 
   _Supersymmetry algebra cohomology I: Definition and general structure_ 	J. Math. Phys.51:122302, 2010, [arXiv](http://arxiv.org/abs/0911.2118)
 
-  _Supersymmetry algebra cohomology II: Primitive elements in 2 and 3 dimensions_ 	J. Math. Phys. 51 (2010) 112303 ([arXiv](http://arxiv.org/abs/1004.2978))
+  _Supersymmetry algebra cohomology II: Primitive elements in 2 and 3 dimensions_, J. Math. Phys. **51** (2010) 112303 &lbrack;[arXiv:1004.2978](http://arxiv.org/abs/1004.2978)&rbrack;
 
   _Supersymmetry algebra cohomology III: Primitive elements in four and five dimensions_ ([arXiv](http://arxiv.org/abs/1005.2102))
 
 and in higher dimensions more generally in
 
-* Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv](http://arxiv.org/abs/1011.4731)) .
+* {#MovshevSchwarzXu11} [[Michael Movshev]], [[Albert Schwarz]], [[Renjun Xu]]: *Homology of Lie algebra of supersymmetries and of super Poincaré Lie algebra*, Nuclear Physics B **854** (2012) 483--503 &lbrack;[arXiv:1106.0335](https://arxiv.org/abs/1106.0335), [doi:10.1016/j.nuclphysb.2011.08.023](https://doi.org/10.1016/j.nuclphysb.2011.08.023)&rbrack;
 
 On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Schwarz action functional|brane scan]]) in relation to [[integration over supermanifolds|integrable forms]] of coset [[supermanifolds]]:
 
