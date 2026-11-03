@@ -17,6 +17,8 @@
 
 ## Idea
 
+### The class
+
 In the [[string theory]] and [[M-theory]] literature, $I_8$ denotes the degree-eight [[rational cohomology|rational]] [[characteristic class]]
 
 \[
@@ -27,11 +29,14 @@ In the [[string theory]] and [[M-theory]] literature, $I_8$ denotes the degree-e
   \;\in\; H^8(X;\mathbb{Q})
 \]
 
-of a real [[vector bundle]] $E\to X$, usually the [[tangent bundle]] of spacetime. Here $p_i$ are the [[Pontryagin classes]] and multiplication denotes the [[cup product]]. For a [[spin structure|spin]] bundle, $\lambda(E)\coloneqq\tfrac{1}{2} p_1(E)$ is the [[first fractional Pontryagin class]], so that $I_8=\tfrac{1}{48}(p_2-\lambda^2)$. Although $\lambda$ is integral on spin bundles, $I_8$ need not be integral.
+of a real [[vector bundle]] $E\to X$, usually the [[tangent bundle]] $E \coloneq T X^{1,10}$ of an 11-dimensional [[spacetime]] $X^{1,10}$. Here $p_i$ denote the [[Pontryagin classes]] and multiplication denotes their [[cup product]]. For $E$ [[spin structure|spin structured]], $\lambda(E) \coloneqq \tfrac{1}{2} p_1(E)$ is the [[first fractional Pontryagin class]], so that $I_8=\tfrac{1}{48}(p_2-\lambda^2)$. Although $\lambda$ is integral on spin bundles, $I_8$ need not be integral.
 
-The same notation denotes the ordinary closed differential eight-form $I_8(R)\in\Omega^8(X)$ obtained by [[Chern-Weil theory]] from a [[affine connection|connection]] with [[curvature]] $R$. These are two related objects on ordinary spacetime: a rational characteristic class and its differential-form representative. The characteristic class describes topological constraints, whereas the ordinary form enters local [[effective actions]] and [[equations of motion]]. The notation $X_8$ is also common, but its sign and normalization vary. With the usual real-vector trace convention,
+Whe $E$ is equipped with an [[affine connection]] $\nabla$ with [[curvature]] $R = R(\nabla)$ the same notation is used for the corresponding [[curvature characteristic form]], the [[closed differential form|closed]] [[differential 8-form]] $I_8(R) \in \Omega^8_{dR}(X)$. 
+
+Sometimes $\pm I_8$ is denoted "$X_8$" and generally sign and normalization conventions vary. With the usual real-vector trace convention, we have
 
 \[
+  \label{TheChernWeilForm}
   I_8(R)
   =
   -\frac{1}{192}(2\pi)^4
@@ -40,18 +45,88 @@ The same notation denotes the ordinary closed differential eight-form $I_8(R)\in
     -
     \frac{1}{4}
    \big(\operatorname{tr}(R^2)\big)^2
-  \right).
+  \right)
+  \mathrlap{\,,}
 \]
+where multiplication now denotes [[wedge product]] of [[differential forms]].
 
-Thus a frequently used convention for $X_8$ gives $X_8=-I_8$; other authors omit the overall numerical factor. Wedge products are implicit in this curvature formula.
+By [[Chern-Weil theory]], under [[extension of scalars]] along $\mathbb{Q} \hookrightarrow \mathbb{R}$ and under the [[de Rham isomorphism]], these two expression represent the same class in [[real cohomology]] $H^8\big(E; \mathbb{R}\big)$:
 
-Physically, this polynomial governs the gravitational coupling $B_2\wedge I_8$ in [[type IIA string theory]] and its eleven-dimensional counterpart $C_3\wedge I_8$, where $C_3$ is the [[supergravity C-field]]. It contributes to [[M5-brane]] [[anomaly inflow]], to the corrected equation for the dual seven-form flux, and to [[C-field tadpole cancellation]] in compactifications on eight-manifolds. It is often called the *one-loop anomaly term*. It should not be identified with the entire M5-brane anomaly polynomial, which also depends on the [[normal bundle]].
+$$
+  \begin{array}{ccc}
+    \Omega^8_{dR}(E)
+    &\overset{}{\longrightarrow}&
+    H^8_{dR}(E) 
+    &\simeq&
+    H^8(E; \mathbb{R})
+    &\overset{}{\longleftarrow}&
+    H^8(E; \mathbb{Z})
+    \\
+    I_8(R) &&& = &&& E_8(E)
+    \mathrlap{\,.}
+  \end{array}
+$$
 
-Historically, the type IIA one-loop coupling was studied by [Vafa--Witten](#VafaWitten95), and its eleven-dimensional interpretation by [Duff--Liu--Minasian](#DuffLiuMinasian95). [Becker--Becker](#BeckerBecker96) used the correction in compactifications on eight-manifolds. Witten subsequently analyzed both [shifted C-field flux quantization](#WittenFluxQuantization96) and the [five-brane effective action](#Witten96). [Freed--Harvey--Minasian--Moore](#FreedHarveyMinasianMoore98) established the role of the bulk Chern-Simons interaction in cancellation of the remaining normal-bundle anomaly. Later developments include the [integral electric C-field charge](#DiaconescuFreedMoore03), [global five-brane anomalies](#Monnier15), and [inflow computations for wrapped M5-branes](#BBMN19).
+### As a gravitational coupling
 
-The original one-loop, flux-quantization and anomaly-inflow articles cited above concern this ordinary (bosonic) form or characteristic class; they do not thereby construct its superspace completion. A separate question is how the curvature coupling extends to a locally [[supersymmetry|supersymmetric]] interaction, including flux and fermion terms. The [[superspace]] approach of [Howe--Tsimpis](#HoweTsimpis03) and [Souères--Tsimpis](#SoueresTsimpis17) instead uses an eight-superform, written $\mathcal{I}_8(\mathcal{R})$ below, built from the superspace Lorentz curvature $\mathcal{R}$. Its components with odd tangent indices enter a deformation problem not present in the ordinary bosonic equation. Its conditional existence results and remaining cohomological checks are discussed [below](#AsHigherCurvatureCorrectionTo11dSugra).
+In [[string theory]]/[[M-theory]], $I_8$ appears in the first nontrivial [[coupling]] between the [[higher gauge fields]] and [[gravity]]:
+
+1. The [[one-loop]] [[effective action functional]] of [[type IIA string theory]] contains, in addition to that of plain [[type IIA supergravity]], a term proportional to 
+
+   \[
+     \label{TheOneLoopActionTerm}
+     \int_{X^{1,9}} B_2 \wedge I_8(R)
+   \]
+
+   for $B_2$ the [[differential 2-form|2-form]] [[gauge potential]] of the [[B-field]].
+
+   For this reason $I_8$ is widely known also as the *one-loop term*, following [Vafa & Witten 1995](#VafaWitten95), [Duff, Liu, Minasian 1995](#DuffLiuMinasian95).
+
+1. The first [[higher curvature correction]] of the [[action functional]] of [[11D supergravity]] is proportional to
+
+   \[
+     \label{TheHigherCurvatureActionTerm}
+     \int_{X^{1,10}} C_3 \wedge I_8(R)
+     \mathrlap{\,,}
+   \]
+
+   where $C_3$ is the [[differential 3-form|3-form]] [[gauge potential]] of the [[supergravity C-field]],
+
+These two terms (eq:TheOneLoopActionTerm) and (eq:TheHigherCurvatureActionTerm) are related under [[duality between M-theory and type IIA string theory]].
+
+(Here in both cases $R = R(\nabla)$ is the [[Riemann curvature]] of the respective [[Levi-Civita connection|Levi-Civita]] [[spin connection]] [[first order formulation of gravity|reflecting]] the [[field (physics)|field]] of [[gravity]].)
+
+Under passage to [[Euler-Lagrange equations of motion]], the term (eq:TheHigherCurvatureActionTerm) modifies the [[equation of motion]] of the [[supergravity C-field]] to 
+\[
+  \label{TheI8CorrectedCFieldEquationOfMotion}
+  \mathrm{d} (\star G_4)
+  =
+  \tfrac{1}{2}
+  G_4 \wedge G_4
+  + 
+  \beta I_8(R)
+\]
+for some [[real number|real]] [[coefficient]] $\beta$, carrying [[physical unit]] $\ell_P^6$, for $\ell_P$ the [[Planck length]] in 11D. Thereby $I_8$ appears then also in the [[C-field tadpole cancellation]] for [[KK-compactifications]] on [[8-manifolds]]. 
+
+### Original discussions
+ {#OriginalDiscussions}
+
+Historically, the type IIA one-loop coupling was studied by [Vafa & Witten 1995](#VafaWitten95), and its eleven-dimensional interpretation by [Duff, Liu & Minasian 1995](#DuffLiuMinasian95). [Becker & Becker 1996](#BeckerBecker96) used the correction in compactifications on eight-manifolds. [Witten 1996](#Witten96) subsequently analyzed both [shifted C-field flux quantization](#WittenFluxQuantization96) and the [[M5-brane|five-brane]] [[effective action]]. [Freed, Harvey, Minasian & Moore 1998](#FreedHarveyMinasianMoore98) established the role of the [[bulk]] [[higher Chern-Simons theory|Chern-Simons]] [[interaction]] in cancellation of the remaining normal-bundle anomaly. Later developments include discussion by [[C-field flux quantization]] by [Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), and [[anomaly inflow]] computations for [[wrapped brane|wrapped]] [[M5-branes]] by [BBMN 2019](#BBMN19).
+
+
+### Superspace refinement
+
+The original articles cited [above](#OriginalDiscussions) concern the ordinary (bosonic) form or characteristic class; leaving open
+
+1. how the curvature coupling extends to a [[local supersymmetry|locally]] [[supersymmetry|supersymmetric]] interaction, including [[flux]] and [[fermion]] ([[gravitino]]) terms,
+
+1. how implementation of the modified [[equation of motion]] (eq:TheI8CorrectedCFieldEquationOfMotion) on [[super-spacetime]] ("[[superspace]]") affects the [[torsion constraints of supergravity|torsion constraints]] of [[11D supergravity]]. 
+
+The [[superspace]] approach of [Howe & Tsimpis 2003](#HoweTsimpis03) and [Souères & Tsimpis 2017](#SoueresTsimpis17) instead uses a [[differential form on supermanifold|superform]] enhancement of $I_8(R)$ (eq:TheChernWeilForm), denoted $\mathcal{I}_8(\mathcal{R})$ [below](#TheSuperspace8Form), built from the superspace Lorentz curvature $\mathcal{R}$. Its conditional existence results and remaining cohomological checks are discussed [below](#AsHigherCurvatureCorrectionTo11dSugra).
+
 
 \linebreak
+
 
 ## Properties
 
@@ -61,7 +136,7 @@ The original one-loop, flux-quantization and anomaly-inflow articles cited above
 
 #### The ordinary spacetime form and corrected flux equation
 
-The [[interaction|coupling]] [[Lagrangian density]] $C_3\wedge I_8(R)$ belongs to the eight-derivative sector of the [[M-theory]] [[effective action]], at order $\ell_p^6$ (in the 11D [[Planck constant]]) relative to the two-derivative action of [[D=11 supergravity]]. Its gravitational supersymmetry partners include terms schematically of the form $R^4$; a full completion also involves the four-form flux and fermions. For the different approaches to these corrections, see at *[[11D supergravity]]* the section *[References -- Higher Curvature Corrections](D%3D11+N%3D1+supergravity#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity)*.
+The [[interaction|coupling]] [[Lagrangian density]] $C_3\wedge I_8(R)$ belongs to the eight-derivative sector of the [[M-theory]] [[effective action]], at order $\ell_p^6$ (in the 11D [[Planck constant]]) relative to the two-derivative action of [[D=11 supergravity]]. Its gravitational [[supersymmetry]] partners include terms schematically of the form $R^4$; a full completion also involves the [[supergravity C-field]] [[flux density]] $G_4$ and the [[gravitino]]. For the different approaches to these corrections, see at *[[11D supergravity]]* the section *[References -- Higher Curvature Corrections](D%3D11+N%3D1+supergravity#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity)*.
 
 On ordinary eleven-dimensional spacetime, away from magnetic sources, the bosonic anomaly-corrected flux equations are conventionally organized as
 
@@ -85,7 +160,9 @@ through the order under consideration, where the [[real number|real]] parameter 
 
 On ordinary [[spacetime]] the second equation in (eq:11dSugraBIAtOrder6) packages the corrected C-field [[equation of motion]]. The relation between $G_7$ and $\star G_4$ itself receives corrections in $\beta$.
 
+
 #### The superspace eight-form and Bianchi identities
+ {#TheSuperspace8Form}
 
 Let $\mathcal{M}^{11|32}$ be the [[11D supergravity]] [[super spacetime]], with [[Lorentz group|Lorentz]] [[spin connection]] and [[Riemann curvature]] $\mathcal{R}$. Applying the same [[invariant polynomial]] defines the closed eight-[[differential form on a supermanifold|superform]]
 
@@ -102,7 +179,7 @@ Let $\mathcal{M}^{11|32}$ be the [[11D supergravity]] [[super spacetime]], with 
   \mathrlap{\,.}
 \]
 
-Here the $p_i(\mathcal{R})$ denote [[Chern-Weil theory|Chern-Weil]] superforms. The unnormalized $X_8$ of [Souères & Tsimpis, (4.1)--(4.3)](#SoueresTsimpis17) is the superform $\operatorname{tr}\mathcal{R}^4-\tfrac{1}{4}(\operatorname{tr}\mathcal{R}^2)^2=-192(2\pi)^4\mathcal{I}_8$ in the trace convention above. This construction is distinct from specifying the ordinary class $I_8(TX)$ or ordinary form $I_8(R)$. For an inclusion $i:X\hookrightarrow\mathcal{M}$ of the bosonic body, naturality gives
+Here the $p_i(\mathcal{R})$ denote [[Chern-Weil theory|Chern-Weil]] superforms. The unnormalized $X_8$ of [Souères & Tsimpis, (4.1)--(4.3)](#SoueresTsimpis17) is the superform $\operatorname{tr}\mathcal{R}^4-\tfrac{1}{4}(\operatorname{tr}\mathcal{R}^2)^2=-192(2\pi)^4\mathcal{I}_8$ in the trace convention (eq:TheChernWeilForm) above. This construction is distinct from specifying the ordinary class $I_8(T X)$ or ordinary form $I_8(R)$. For an inclusion $i \colon X \hookrightarrow \mathcal{M}$ of the bosonic body, naturality gives
 
 \[
   i^*\mathcal{I}_8(\mathcal{R})
@@ -299,7 +376,7 @@ is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesFor
 
 The original one-loop coupling, flux quantization and eight-manifold compactifications:
 
-* {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]], *A One-Loop Test of String Duality*, Nuclear Physics B **447** (1995) 261--270 &lbrack;[arXiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053), [doi:10.1016/0550-3213(95)00280-6](https://doi.org/10.1016/0550-3213%2895%2900280-6)&rbrack;
+* {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]]: *A One-Loop Test of String Duality*, Nuclear Physics B **447** (1995) 261--270 &lbrack;[arXiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053), [doi:10.1016/0550-3213(95)00280-6](https://doi.org/10.1016/0550-3213%2895%2900280-6)&rbrack;
 
 * {#DuffLiuMinasian95} [[Mike Duff]], [[James Liu]], [[Ruben Minasian]], *Eleven Dimensional Origin of String/String Duality: A One Loop Test*, Nuclear Physics B **452** (1995) 261--282 &lbrack;[arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126), [doi:10.1016/0550-3213(95)00368-3](https://doi.org/10.1016/0550-3213%2895%2900368-3)&rbrack;
 
@@ -338,8 +415,6 @@ These references concern worldvolume anomalies and bulk inflow, including their 
 * {#HarveyMinasianMoore98b} [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]], *Non-abelian Tensor-multiplet Anomalies*, JHEP **09** (1998) 004 &lbrack;[arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060), [doi:10.1088/1126-6708/1998/09/004](https://doi.org/10.1088/1126-6708/1998/09/004)&rbrack;
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger: *Anomaly cancellation in M-theory: a critical review*, Nuclear Physics B **675** (2003) 416--446 &lbrack;[arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152), [doi:10.1016/j.nuclphysb.2003.10.002](https://doi.org/10.1016/j.nuclphysb.2003.10.002)&rbrack;
-
-* {#Monnier15} [[Samuel Monnier]], *Global gravitational anomaly cancellation for five-branes*, Advances in Theoretical and Mathematical Physics **19** 3 (2015) 701--724 &lbrack;[arXiv:1310.2250](https://arxiv.org/abs/1310.2250), [doi:10.4310/ATMP.2015.v19.n3.a5](https://doi.org/10.4310/ATMP.2015.v19.n3.a5)&rbrack;
 
 * {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], *Class $\mathcal{S}$ Anomalies from M-theory Inflow*, Physical Review D **99** 8 (2019) 086020 &lbrack;[arXiv:1812.04016](https://arxiv.org/abs/1812.04016), [doi:10.1103/PhysRevD.99.086020](https://doi.org/10.1103/PhysRevD.99.086020)&rbrack;
 
