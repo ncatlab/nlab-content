@@ -8,7 +8,6 @@
 
 
 
-
 \linebreak
 
 Quantum incrementers:
