@@ -239,7 +239,7 @@ In conclusion it is perfectly sufficient to define an adjoint pair of functors i
 \end{proof}
 
 \begin{remark}
-The definition of adjunctions via [[unit of an adjunction|units]] and [[counit of an adjunction|counits]] is an "elementary" definition (so that by implication, the formulation in terms of [hom-isomorphisms](adjoint functor#InTermsOfHomIsomorphism) is not elementary) in the sense that while the [[hom-functor]] formulation relies on some notion of [[hom-set|hom-*set*]], the formulation in terms of units and counits is purely in the [[first-order logic|first-order]] [[language]] of [[categories]] and makes no reference to a model of [[set theory]]. The definition via (co)units therefore gives us a definition of adjunctions even if an assumption of  [[locally small|local smallness]] is not made.
+The definition of adjunctions via [[unit of an adjunction|units]] and [[counit of an adjunction|counits]] is an "elementary" definition (so that by implication, the formulation in terms of [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) is not elementary) in the sense that while the [[hom-functor]] formulation relies on some notion of [[hom-set|hom-*set*]], the formulation in terms of units and counits is purely in the [[first-order logic|first-order]] [[language]] of [[categories]] and makes no reference to a model of [[set theory]]. The definition via (co)units therefore gives us a definition of adjunctions even if an assumption of  [[locally small|local smallness]] is not made.
 \end{remark}
 
 \begin{proof}\label{YonedaLemmaArgument}
