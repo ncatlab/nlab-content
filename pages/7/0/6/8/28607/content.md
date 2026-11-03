@@ -607,3 +607,176 @@ q' & \Vdash & y_1 \equiv y_2 & & & & \\
 \]
 Therefore, the composition $(\langle n, m, p \rangle, \langle n', m', p', q' \rangle, n'') \mapsto n_6$ on the right satisfies the required condition for $r_i$.
 
+We first claim that $f\circ i$ is equivalent to $g\circ i$. Thus, suppose
+$$\langle n, m \rangle \Vdash (x, y) \xmapsto{f\circ i} y'.$$
+Then there exists $x' \in X$ such that
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & (x, y) \xmapsto{i} x', & & & & \\
+m & \Vdash & x' \xmapsto{f} y' & & & & \\
+\implies n_1 & \Vdash & x \xmapsto{f} y, & \quad & n_1 & \coloneqq & p_{1/3}(n), \\
+n_2 & \Vdash & x \xmapsto{g} y, & \quad & n_2 & \coloneqq & p_{2/3}(n), \\
+n_3 & \Vdash & x \equiv x', & \quad & n_3 & \coloneqq & p_{3/3}(n) \\
+\implies n_4 & \Vdash & y \equiv y, & \quad & n_4 & \coloneqq & c_f(n_1) \\
+\implies n_5 & \Vdash & x' \xmapsto{f} y, & \quad & n_5 & \coloneqq & r_f(n_1, n_3, n_4) \\
+\implies n_6 & \Vdash & y \equiv y', & \quad & n_6 & \coloneqq & u_f(m, n_5) \\
+\implies n_7 & \Vdash & x' \xmapsto{g} y', & \quad & n_7 & \coloneqq & r_f(n_2, n_3, n_6) \\
+\implies n_8 & \Vdash & (x, y) \xmapsto{g\circ i} y', & \quad & n_8 & \coloneqq & \langle n, n_7 \rangle.
+\end{array}
+\]
+Therefore, the composition $\langle n, m \rangle \mapsto n_8$ on the right satisfies the required condition for $e_{f\circ i, g\circ i}$.
+
+Now, suppose we have an effective functional relation $h$ between $T$ and $X$ such that $f\circ h$ is equivalent to $g\circ h$; we then want to show $h$ factors through $i$. To this end, we will define an effective functional relation $\tilde h$ between $T$ and $E$ where
+$$\langle n, m \rangle \Vdash t \xmapsto{\tilde h} (x, y)$$
+if and only if
+$$n \Vdash t \xmapsto{h} x$$
+and
+$$m \Vdash x \xmapsto{f} y.$$
+
+The following intermediate result will be useful several times:
+\begin{lemma}
+There is a partial recursive function $\varphi : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash t \xmapsto{h} x$$
+and
+$$m \Vdash x \xmapsto{f} y,$$
+then $\varphi(n, m)$ is defined and
+$$\varphi(n, m) \Vdash x \xmapsto{g} y.$$
+\end{lemma}
+\begin{proof}
+We have
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{f\circ h} y, & \quad & n_1 & \coloneqq & \langle n, m \rangle \\
+\implies n_2 & \Vdash & t \xmapsto{g\circ h} y, & \quad & n_2 & \coloneqq & e_{f\circ h, g\circ h}(n_1) \\
+\implies \exists x'\in X, n_3 & \Vdash & t \xmapsto{h} x', & \quad & n_3 & \coloneqq & p_1(n_2), \\
+n_4 & \Vdash & x' \xmapsto{g} y, & \quad & n_4 & \coloneqq & p_2(n_2) \\
+\implies n_5 & \Vdash & x' \equiv x, & \quad & n_5 & \coloneqq & u_h(n_4, n) \\
+\implies n_6 & \Vdash & y \equiv y, & \quad & n_6 & \coloneqq & c_f(m) \\
+\implies n_7 & \Vdash & x \xmapsto{g} y, & \quad & n_7 & \coloneqq & r_g(n_4, n_5, n_6).
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_7$ on the right satisfies the required condition for $\varphi$.
+\end{proof}
+
+(Domain condition) Suppose
+$$\langle n, m \rangle \Vdash t \xmapsto{\tilde h} (x, y).$$
+Then
+$$n \Vdash t \xmapsto{h} x$$
+so
+$$d_h(n) \Vdash t \equiv t.$$
+Thus, $\langle n, m \rangle \mapsto d_h(n)$ satisfies the required condition for $d_{\tilde h}$.
+
+(Codomain condition) Suppose
+$$\langle n, m \rangle \Vdash t \xmapsto{\tilde h} (x, y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & t \xmapsto{h} x, & & & & \\
+m & \Vdash & x \xmapsto{f} y & & & & \\
+\implies n_1 & \Vdash & x \xmapsto{g} y, & \quad & n_1 & \coloneqq & \varphi(n, m) \\
+\implies n_2 & \Vdash & x \equiv x, & \quad & n_2 & \coloneqq & c_h(n) \\
+\implies n_3 & \Vdash & y \equiv y, & \quad & n_3 & \coloneqq & c_f(m) \\
+\implies n_4 & \Vdash & (x, y) \equiv (x, y), & \quad & n_4 & \coloneqq & \langle m, n_1, n_2, n_3 \rangle.
+\end{array}
+\]
+Therefore, the composition $\langle n, m \rangle \mapsto n_4$ on the right satisfies the required condition for $c_{\tilde h}$.
+
+(Image uniqueness) Suppose
+$$\langle n, m \rangle \Vdash t \xmapsto{\tilde h} (x, y)$$
+and
+$$\langle n', m' \rangle \Vdash t \xmapsto{\tilde h} (x', y').$$
+Then
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & t \xmapsto{h} x, & & & & \\
+m & \Vdash & x \xmapsto{f} y, & & & & \\
+n' & \Vdash & t \xmapsto{h} x', & & & & \\
+m' & \Vdash & x' \xmapsto{f} y' & & & & \\
+\implies n_1 & \Vdash & x \xmapsto{g} y, & \quad & n_1 & \coloneqq & \varphi(n, m) \\
+\implies n_2 & \Vdash & x \equiv x', & \quad & n_2 & \coloneqq & u_h(n, n') \\
+\implies n_3 & \Vdash & y' \equiv y', & \quad & n_3 & \coloneqq & c_f(m') \\
+\implies n_4 & \Vdash & x' \xmapsto{f} y, & \quad & n_4 & \coloneqq & r_f(m, n_2, n_3) \\
+\implies n_5 & \Vdash & y \equiv y', & \quad & n_5 & \coloneqq & u_f(n_4, m') \\
+\implies n_6 & \Vdash & (x, y) \equiv (x', y'), & \quad & n_6 & \coloneqq & \langle m, n_1, n_2, n_5 \rangle.
+\end{array}
+\]
+Therefore, the composition $(\langle n, m \rangle, \langle n', m' \rangle) \mapsto n_5$ on the right satisfies the required condition for $u_{\tilde h}$.
+
+(Totality) Suppose
+$$n \Vdash t \equiv t.$$
+Then
+\[
+\begin{array}{rclcrcl}
+\exists x\in X, n_1 & \Vdash & t \xmapsto{h} x, & \quad & n_1 & \coloneqq & t_h(n) \\
+\implies \exists y\in Y, n_2 & \Vdash & x \xmapsto{f} y, & \quad & n_2 & \coloneqq & t_f(n_1) \\
+\implies n_3 & \Vdash & t \xmapsto{\tilde h} (x, y), & \quad & n_3 & \coloneqq & \langle n_1, n_2 \rangle.
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_3$ on the right satisfies the required condition for $t_{\tilde h}$.
+
+(Respectfulness) Suppose
+$$n \Vdash t \xmapsto{\tilde h} (x, y),$$
+$$m \Vdash t \equiv t',$$
+and
+$$p \Vdash (x, y) \equiv (x', y').$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & t \xmapsto{h} x, & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & x \xmapsto{f} y, & \quad & n_2 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x \xmapsto{f} y, & \quad & n_3 & \coloneqq & p_{1/4}(p), \\
+n_4 & \Vdash & x \xmapsto{g} y, & \quad & n_4 & \coloneqq & p_{2/4}(p), \\
+n_5 & \Vdash & x \equiv x', & \quad & n_5 & \coloneqq & p_{3/4}(p), \\
+n_6 & \Vdash & y \equiv y', & \quad & n_6 & \coloneqq & p_{4/4}(p) \\
+\implies n_7 & \Vdash & t' \xmapsto{h} x', & \quad & n_7 & \coloneqq & r_h(n_1, m, n_5) \\
+\implies n_8 & \Vdash & x' \xmapsto{f} y', & \quad & n_8 & \coloneqq & r_f(n_2, n_5, n_6) \\
+\implies n_9 & \Vdash & t' \xmapsto{\tilde h} (x', y'), & \quad & n_9 & \coloneqq & \langle n_7, n_8 \rangle.
+\end{array}
+\]
+Therefore, the composition $(n, m, p) \mapsto n_9$ on the right satisfies the required condition for $r_{\tilde h}$.
+
+We now claim that $i \circ \tilde h$ is equivalent to $h$. Thus, suppose
+$$\langle n, m \rangle \Vdash t \xmapsto{i \circ \tilde h} x.$$
+Then there exists $(x', y') \in E$ such that
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & t \xmapsto{\tilde h} (x', y'), & & & & \\
+m & \Vdash & (x', y') \xmapsto{i} x & & & & \\
+\implies n_1 & \Vdash & t \xmapsto{h} x', & \quad & n_1 & \coloneqq & p_1(n), \\
+n_2 & \Vdash & x' \xmapsto{f} y', & \quad & n_3 & \coloneqq & p_2(n), \\
+n_3 & \Vdash & x' \xmapsto{f} y', & \quad & n_3 & \coloneqq & p_{1/3}(m), \\
+n_4 & \Vdash & x' \xmapsto{g} y', & \quad & n_4 & \coloneqq & p_{2/3}(m), \\
+n_5 & \Vdash & x' \equiv x, & \quad & n_5 & \coloneqq & p_{3/3}(m) \\
+\implies n_6 & \Vdash & t \equiv t, & \quad & n_6 & \coloneqq & d_h(n_1) \\
+\implies n_7 & \Vdash & t \xmapsto{h} x, & \quad & n_7 & \coloneqq & r_h(n_1, n_6, n_5).
+\end{array}
+\]
+Therefore, the composition $\langle n, m \rangle \mapsto n_7$ on the right satisfies the required condition for $e_{i \circ \tilde h, h}$.
+
+Finally, in order to establish that $\tilde h$ is unique up to equivalence, it suffices to show that the equivalence class of $i$ is a [[monomorphism]]. Thus, suppose we have two functional relations $a, b$ between $T$ and $E$ such that $i \circ a$ is equivalent to $i \circ b$. Now suppose that
+$$n \Vdash t \xmapsto{a} (x, y).$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & (x, y) \equiv (x, y), & \quad & n_1 & \coloneqq & c_a(n) \\
+\implies n_2 & \Vdash & x \xmapsto{f} y, & \quad & n_2 & \coloneqq & p_{1/4}(n_1), \\
+n_3 & \Vdash & x \xmapsto{g} y, & \quad & n_3 & \coloneqq & p_{2/4}(n_1), \\
+n_4 & \Vdash & x \equiv x, & \quad & n_4 & \coloneqq & p_{3/4}(n_1), \\
+n_5 & \Vdash & y \equiv y, & \quad & n_5 & \coloneqq & p_{4/4}(n_1) \\
+\implies n_6 & \Vdash & (x, y) \xmapsto{i} x, & \quad & n_6 & \coloneqq & \langle n_2, n_3, n_4 \rangle \\
+\implies n_7 & \Vdash & t \xmapsto{i\circ a} x, & \quad & n_7 & \coloneqq & \langle n, n_6 \rangle \\
+\implies n_8 & \Vdash & t \xmapsto{i\circ b} x, & \quad & n_8 & \coloneqq & e_{i\circ a, i\circ b}(n_7) \\
+\implies \exists (x', y')\in E, n_9 & \Vdash & t \xmapsto{b} (x', y'), & \quad & n_9 & \coloneqq & p_1(n_8), \\
+n_{10} & \Vdash & (x', y') \xmapsto{i} x, & \quad & n_{10} & \coloneqq & p_2(n_8) \\
+\implies n_{11} & \Vdash & x' \xmapsto{f} y', & \quad & n_{11} & \coloneqq & p_{1/3}(n_{10}), \\
+n_{12} & \Vdash & x' \xmapsto{g} y', & \quad & n_{12} & \coloneqq & p_{2/3}(n_{10}), \\
+n_{13} & \Vdash & x' \equiv x, & \quad & n_{13} & \coloneqq & p_{3/3}(n_{10}) \\
+\implies n_{14} & \Vdash & y' \equiv y', & \quad & n_{14} & \coloneqq & c_f(n_{11}) \\
+\implies n_{15} & \Vdash & x \xmapsto{f} y', & \quad & n_{15} & \coloneqq & r_f(n_{11}, n_{13}, n_{14}) \\
+\implies n_{16} & \Vdash & y' \equiv y, & \quad & n_{16} & \coloneqq & u_f(n_{15}, n_2) \\
+\implies n_{17} & \Vdash & (x', y') \equiv (x, y), & \quad & n_{17} & \coloneqq & \langle n_{11}, n_{12}, n_{13}, n_{16} \rangle \\
+\implies n_{18} & \Vdash & t \equiv t, & \quad & n_{18} & \coloneqq & d_a(n) \\
+\implies n_{19} & \Vdash & t \xmapsto{b} (x, y), & \quad & n_{19} & \coloneqq & r_b(n_9, n_{18}, n_{17}).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_{19}$ on the right satisfies the required condition for $e_{a, b}$.
