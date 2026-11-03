@@ -56,11 +56,14 @@ See also:
 More on implementation of [[quantum logic gates]] on [[qbits]] realized on [[nucleon]]-[[spin]], via pulse protocols in NMR-technology:
 
 * Price, Somaroo, Tseng, Gore, Fahmy,, Havel, Cory: *Construction and Implementation of NMR Quantum Logic Gates for Two Spin Systems*, Journal of Magnetic Resonance
-**140** 2 (1999) 371-378 $[$[doi;10.1006/jmre.1999.1851](https://doi.org/10.1006/jmre.1999.1851)$]$
+**140** 2 (1999) 371-378 &lbrack;[doi;10.1006/jmre.1999.1851](https://doi.org/10.1006/jmre.1999.1851)&rbrack;
 
 and analogously on [[electron]]-[[spin]]:
 
-* M. Yu. Volkov and K. M. Salikhov, *Pulse Protocols for Quantum Computing with Electron Spins as Qubits*, Appl Magn Reson **41** (2011) 145–154 $[$[doi:10.1007/s00723-011-0297-2](https://doi.org/10.1007/s00723-011-0297-2)$]$
+* M. Yu. Volkov and K. M. Salikhov, *Pulse Protocols for Quantum Computing with Electron Spins as Qubits*, Appl Magn Reson **41** (2011) 145–154 &lbrack;[doi:10.1007/s00723-011-0297-2](https://doi.org/10.1007/s00723-011-0297-2)&rbrack;
+
+* [Vishal Ranjan](https://scholar.google.com/citations?user=GODTx9cAAAAJ&hl=en): *Millikelvin ESR spectroscopy for quantum technologies*, [talk at](CQTS#RanjanNov2026) [[CQTS]] @ NYU Abu Dhabi (Nov 2026) &lbrack;[[Ranjan-CQTS2026.pdf|pdf:file]]&rbrack;
+
 
 For references on spin resonance qbits realized on a *[[nitrogen-vacancy center in diamond]]*, see there.
 
