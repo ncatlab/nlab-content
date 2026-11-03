@@ -3480,6 +3480,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+
 ### Nov 2026
 
 * {#RanjanNov2026} 2 Nov 2026
@@ -3489,6 +3490,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   **Millikelvin ESR spectroscopy for quantum technologies**
 
   cf.: [arXiv:2206.04488](https://arxiv.org/abs/2206.04488), [arXiv:2102.01415](https://arxiv.org/abs/2102.01415)
+
+  slides: [[Ranjan-CQTS2026.pdf|pdf:file]]
 
   > In a conventional [[electron]] [[spin resonance]] (ESR) spectrometer based on the inductive detection method, the paramagnetic [[spins]] precess in an external [[magnetic field]] radiating weak microwave signals into a resonant cavity. Despite its widespread use, ESR [[spectroscopy]] has limited sensitivity and large amounts of spins $\sim 10^12$ are necessary to accumulate sufficient signal. Exploiting recent progress in circuit-quantum electrodynamics, we have combined high quality factor [[superconductor|superconducting]] micro-resonators and noise-less [[Josephson junction|Josephson]] Parametric Amplifiers to perform ESR spectroscopy at millikelvin temperatures, reaching a new regime where the sensitivity is limited by the quantum [[vacuum fluctuations]] of the microwave field. In this talk, I will discuss this new ESR regime, its prospects for [[quantum technology]] and current activities at TIFRH.
 
