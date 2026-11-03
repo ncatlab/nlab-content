@@ -366,5 +366,12 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects smooth differential 4-form]]
 [[!redirects smooth differential 4-forms]]
 
+
+[[!redirects differential 8-form]]
+[[!redirects differential 8-forms]]
+[[!redirects smooth differential 8-form]]
+[[!redirects smooth differential 8-forms]]
+
+
 [[!redirects smooth differential k-form]]
 [[!redirects smooth differential k-forms]]
