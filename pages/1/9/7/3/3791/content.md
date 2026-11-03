@@ -15,8 +15,7 @@ __Albert Solomonowich Schwarz__ is a mathematician and a theoretical physicist b
 
 ## Selected writings
 
-(See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
-
+> See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.
 
 On [[general topology|general]] [[topology]], [[homotopy theory]] and [[algebraic topology]] for application to [[topological quantum field theory]] and [[topological phases of matter]]:
 
@@ -65,7 +64,7 @@ On [[supergeometry]] as taking place over the [[base topos]] on the [[site]] of 
 
 On the [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] ([[brane scan]] of [[Green-Schwarz sigma-models]]):
 
-* [[Mikhail Movshev]], [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv:1011.4731](http://arxiv.org/abs/1011.4731)) 
+* {#MovshevSchwarzXu11} [[Michael Movshev]], [[Albert Schwarz]], [[Renjun Xu]]: *Homology of Lie algebra of supersymmetries and of super Poincaré Lie algebra*, Nuclear Physics B **854** (2012) 483--503 &lbrack;[arXiv:1106.0335](https://arxiv.org/abs/1106.0335), [doi:10.1016/j.nuclphysb.2011.08.023](https://doi.org/10.1016/j.nuclphysb.2011.08.023)&rbrack;
 
 * [[Mikhail Movshev]], [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries and of super Poincar&#233; Lie algebra_, Nuclear Physics B Volume 854, Issue 2, 11 January 2012, Pages 483&#8211;503 ([arXiv:1106.0335](http://arxiv.org/abs/1106.0335))
 
