@@ -153,7 +153,7 @@ Namely, the [[quantum error correction|quantum error-correcting]] mechanism requ
 
 Even if such classical computing power is or were available, standard data cables connecting the quantum chip to an external supercomputer would introduce signal latency exceeding the coherence time of current qubits, rendering the correction commands obsolete upon arrival. Furthermore, the sheer volume of data transfer will or would transmit enormous amounts of thermal noise from the outside world into the quantum machine, jeopardizing its near-zero cooling and its [[quantum coherence]].
 
-This problem is also known as the *decoding bottleneck* or *decoder bottleneck* (cf. [Mishan 2025](#Mishan2025), [Croot et al. 2025](#CrootEtAl2025), [Ivezic 2026](#Ivezic2026), hupf).
+This problem is also known as the *decoding bottleneck* or *decoder bottleneck* (cf. [Mishan 2025](#Mishan2025), [Croot et al. 2025](#CrootEtAl2025), [Ivezic 2026](#Ivezic2026), [Mahmud at al. 2026](#MahmudEtAl2026), [Canton 2026](#Canton2026)).
 
 To overcome this formidable scenario, the NISQ+QEC field has now turned to speculating on future classical hardware technology where *Application Specific Integrated Circuit* ([ASICs](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) hardware is integrated directly into the ultra-cooled quantum refrigerator (e.g., via specialized "Cryo-CMOS" logic; cf. [Erol 2026](#Erol2026)).  However, this poses severe thermodynamic contradictions: Standard silicon transistors suffer from carrier freeze-out below $\sim 40K$, whence one needs to envision an entire *new kind of classical computing hardware*. More generally, the cooling power at the base of a dilution refrigerator is strictly limited to a few micro-Watts. Therefore, placing a petaflop ASIC chip in near proximity to the quantum device would produce excess heat that under currently understood conditions would destroy the cryogenic environment that the quantum computer relies on.
 
@@ -164,8 +164,14 @@ In conclusion, the NISQ+QEC roadmap for achieving meaningful commercial value qu
 Of course, the initial problem at the base of this story is the instability of current qubit technology. The problem is akin to that of a bucket brigade which operates with extremely leaky buckets. In this picture, the QEC-style solution is like using ever more buckets together with sophisticated machinery that cleverly catches the leaked water only to fill it back into the buckets. 
 This analogy makes clear that an alternative strategy may be to actually fix the buckets. On the quantum technology side this corresponds to the approach of [[topological quantum computing]] (cf. [Das Sarma 2022](#DasSarma22)), where it is not runtime software redundancy that stabilizes shaky qubits, but intrinsic physical effects in topological quantum hardware. However, while such topological stabilization of quantum states and topological protection of quantum gates exists in theory (and even that theory is not well developed at this point) essentially no experience with practical engineering implementation exists to date. 
 
+\linebreak
+
+**References on the decoding bottleneck:**
+
 * {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
   > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
+
+* Francesco Battistel et al.: *Real-Time Decoding for Fault-Tolerant Quantum Computing: Progress, Challenges and Outlook*, Nano Futures **7** 032003 (2023) &lbrack;[arXiv:2303.00054](https://arxiv.org/abs/2303.00054), [doi:10.1088/2399-1984/aceba6](https://doi.org/10.1088/2399-1984/aceba6)&rbrack;
 
 * {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
 
@@ -196,8 +202,25 @@ This analogy makes clear that an alternative strategy may be to actually fix the
   > &lbrack;...&rbrack; The gap between current decoder demonstrations and CRQC requirements is large and precisely quantifiable. \[...\] The progress curve is steep. But the destination \[...\] remains far ahead.
 
 
+* {#MahmudEtAl2026} Mahmud et al.: *Decoder Architectures and Computational Bottlenecks in QEC*: section IV of: *Quantum Error Correction Survey*,  IEEE Access **14** (Sep 2026) 154233--154277 &lbrack;[doi:10.1109/ACCESS.2026.3737721](https://doi.org/10.1109/ACCESS.2026.3737721)&rbrack;
 
-## Example
+* {#Canton2026} Manuel Esparcia Cantos: *[Decoders: The Quiet Bottleneck of Quantum Error Correction](https://www.linkedin.com/pulse/decoders-quiet-bottleneck-quantum-error-correction-esparcia-cantos-er0ve)*, LinkedIn (8. Oct 2026)
+
+  > &lbrack;Quantum error&rbrack; correction is a hard computational problem that has to be solved by a classical computer, in real time, faster than the quantum computer produces the next round of errors. This is the decoder, and it is one of the field's quietest and most underappreciated bottlenecks.
+
+  > This article is about the problem almost no popular account mentions. Everyone talks about qubits and codes; far fewer talk about the classical machine that has to keep up with them. Yet a fault-tolerant quantum computer is impossible without a decoder that is simultaneously accurate enough to correct the errors and fast enough to do it before the backlog explodes.
+
+  > &lbrack;...&rbrack;  In a superconducting machine, a new round of syndrome data arrives roughly every microsecond. If the decoder cannot keep pace, unprocessed syndromes pile up faster than they are cleared, a backlog that grows without bound and eventually makes the computation impossible. This is the decoding bottleneck, and it is as real an obstacle to fault tolerance as qubit quality.
+
+  > &lbrack;...&rbrack; **WHY DECODERS DESERVE MORE ATTENTION**
+
+  > The decoder is where a beautiful theory meets an unforgiving stopwatch. All the elegance of stabilizer codes and the guarantee of the threshold theorem assume, quietly, that a decoder exists which is accurate enough and fast enough. That assumption is doing enormous work. A code below threshold with a decoder too slow to keep up is not fault-tolerant in practice, no matter how good the qubits are. The classical co-processor is not a footnote to the quantum computer; it is part of the quantum computer.
+
+  > &lbrack;...&rbrack; There is a genuine tension the field has not fully resolved: the most accurate decoders tend to be the slowest, and the fastest tend to be less accurate. The whole game is beating that trade-off, and the platform that first fields a decoder both accurate enough and fast enough at scale removes one of the last quiet obstacles between below-threshold hardware and a working machine.
+
+\linebreak
+
+## Examples
 
 ### Specific examples
 
