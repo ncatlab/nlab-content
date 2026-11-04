@@ -85,8 +85,14 @@ See also:
 * Wikipedia, *[Toffoli gate](https://en.wikipedia.org/wiki/Toffoli_gate)*
 
 
+[[!redirects CNOT gates]]
+
 [[!redirects CNOT]]
 [[!redirects CCNOT]]
+
+[[!redirects CCNOT gate]]
+[[!redirects CCNOT gates]]
+
 
 [[!redirects Toffoli gate]]
 [[!redirects Toffoli gates]]
