@@ -6,4 +6,12 @@
 
 ***
 
+<center>
+<div style="margin:-40px 0px 00px 0px;">
+<img src="/nlab/files/QEC-Buckets_26-11-04.png" width="700">
+</div>
+;lsk f;sldkf ;sldkf ;sdlfk 
+</center>
+
+
 ...
