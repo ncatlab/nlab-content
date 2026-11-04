@@ -18,6 +18,7 @@
 \tableofcontents
 
 
+
 ## Idea
 
 *Quantum error correction* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]] (e.g. against [[bit flip channel|bit flip errors]]), by "correcting errors as they occur" at runtime.
@@ -63,7 +64,362 @@ From [CDCW 21](#CDCW21):
 > Holographic codes can admit erasure thresholds comparable to that of the widely-studied surface code, and likewise for their threshold against Pauli errors.  Their holographic structure also naturally leads to an organization of encoded qubits into a hierarchy of levels of protection from errors, which could be useful for applications which call for many qubits withvarying levels of protection. In particular, this is reminiscent of many schemes for magic state distillation -- and indeed, the concatenated codes utilized for magic state distillation share a similar hierarchical structure to holographic codes. The layered structure of holographic codes is also reminiscent of memory architectures in classical computers, where it is useful to have different levels of short- and long-term memory.  Although these codes have some notable drawbacks, in particular holographic stabilizer codes require nonlocal stabilizer generators, other codes such as concatenated codes suffer similar drawbacks and have still proven to be useful. Conversely, the stringent requirement of non-local stabilizer generators allows holographic codes to protect many more qubits than a topological code and in fact attain a finite nonzero encoding rate, which is typically not possible for topological codes. Nonetheless, many open questions remain about the usefulness of holographic codes for fault-tolerant quantum computing.
 
 
-#### Quantum error correcting codes
+
+#### Basic idea of QEC via the 3-qbit code
+ {#BasicIdeaOfQECVia3QBitCode}
+
+##### The classical case
+ {#TheClassicalCase}
+
+We regard [[bit]] values as elements of the [[cyclic group]] $\mathbb{Z}_{/2} = \{0,1\}$ of [[integers]] [[modulo]] 2. 
+
+1. Their [[addition]] mod 2 is the *[[exclusive disjunction|exclusive or]]* ([[xor]]) of [[bits]], denoted
+
+   $$
+     \begin{aligned}
+       0 \oplus 0 & = 1 \oplus 1 \,=\, 0
+       \\
+       0 \oplus 1 & = 1 \oplus 0 \,=\, 1
+     \mathrlap{\,,}
+     \end{aligned}
+   $$
+
+   so that $b \mapsto b \oplus 1$ is the flip of a bit $b$, 
+
+1. Their [[multiplication]] mod 2 is the logical *[[conjunction|and]]*.
+
+Now, a bit stored or transmitted in a noisy medium may get flipped with some small probability $p \in [0,1]$, and error correction is about fixing such flips. 
+
+The simplest remedy is redundancy: encode each *logical bit* by a [[triple]] of equal *physical bits*,
+
+\[
+  \label{ClassicalTripledEncoding}
+  \array{
+    \mathbb{Z}_{/2} &\longrightarrow& (\mathbb{Z}_{/2})^3
+    \\
+    b &\mapsto& (b,b,b) 
+    \mathrlap{\,.}
+  }
+\]
+
+If at most one of the bits in $(b_1, b_2, b_3)$ gets flipped, its position in the triple is exactly determined by the following [[pair]] of  *parities*:
+
+$$
+  \begin{aligned}
+    s_1 & \coloneqq  b_1 \oplus b_2
+    \\
+    s_2 & \coloneqq  b_2 \oplus b_3
+  \,,
+  \end{aligned}
+$$
+
+which vanish exactly on the codewords $(0,0,0)$ and $(1,1,1)$. This pair $(s_1,s_2)$ is hence called the *error syndrome*:
+
+\[
+  \label{SyndromeToError}
+  \begin{aligned}
+    (s_1, s_2) = (0,0) 
+      & \;\;\;\;\Leftrightarrow\;\;\;\; 
+    \text{no error}
+    \\
+    (s_1, s_2) = (1,0) 
+      & \;\;\;\;\Leftrightarrow\;\;\;\; 
+    \text{1st bit flipped}
+    \\
+    (s_1, s_2) = (1,1) 
+      & \;\;\;\;\Leftrightarrow\;\;\;\; 
+    \text{2nd bit flipped}
+    \\
+    (s_1, s_2) = (0,1) 
+      & \;\;\;\;\Leftrightarrow\;\;\;\; 
+    \text{3rd bit flipped}
+    \mathrlap{\,.}
+  \end{aligned}
+\]
+
+Hence *classical error correction* in this case proceeds by:
+
+1. **Syndrome:** Measuring the triple state and computing the error syndrome from it.
+
+1. **Decoding:** Computing from the syndrome the apparent position of the flipped bit according to (eq:SyndromeToError).
+
+1. **Correction:** Flipping that identified bit back.
+
+This prodedure:
+
+* succeeds if none or one bit flipped,
+
+* fails if two or three bits flipped.
+
+  Assuming that the bits flip independently of each other, this failure happens with probability
+
+  $$
+    \underset{
+      \text{two flips}
+    }{
+    \underbrace{
+      3 p^2 (1-p)
+    }}
+    \;+\;
+    \underset{
+      \text{three flips}
+    }{
+    \underbrace{
+      p^3
+    }}
+    \;=\;
+    3 p^2 - 2 p^3
+    \,,
+  $$
+
+  where the factor of 3 counts the choices of the pair of flipped bits. Since $p - (3p^2 - 2p^3) = p(1-p)(1-2p)$, this is smaller than the error probability $p$ of an unprotected bit as long as $p \lt 1/2$.
+
+\linebreak
+
+The key point of this classical error correction is that the error syndrome is obtained in the most direct way: by reading out, hence by *measuring*, the state of the tuple of physical bits. Classically, this does no harm, but for [[qbits]] this does not work so directly.
+
+
+##### The issue with the quantum case
+ {#TheIssueWithTheQuantumCase}
+
+As we pass from classical [[bits]] to [[quantum information theory|quantum]] bits, *[[qbits]]*, the information to be protected is that of a [[quantum state]] ${\vert \psi \rangle} = \alpha {\vert 0 \rangle} + \beta {\vert 1 \rangle}$ of a [[qbit]], encoded by the amplitudes $\alpha, \beta \in \mathbb{C}$. 
+
+The classical triple encoding (eq:ClassicalTripledEncoding) [[linear span|extends linearly]] from the canonical [[linear basis]] $\big\{ {\vert 0\rangle}, {\vert 1 \rangle} \}$ to $QBit \equiv \mathbb{C}^2$:
+
+
+\[
+  \label{QuantumTripledEncoding}
+  \begin{array}{ccc}
+    \mathbb{C}^2 &\longrightarrow& 
+    \big(\mathbb{C}^2\big)^3
+    \\
+    {\vert \psi \rangle}
+    &\mapsto&
+    {\vert \psi_L \rangle}
+    \\
+    \alpha {\vert 0\rangle} + \beta {\vert 1 \rangle}
+    &\mapsto&
+    \alpha {\vert 000 \rangle} + \beta {\vert 111 \rangle}
+    \,.
+  \end{array}
+\]
+
+In terms of [[quantum circuits]] this operation (eq:QuantumTripledEncoding) may be implemented by ${\vert \psi\rangle} \mapsto {\vert \psi \rangle} \otimes {\vert 00 \rangle}$ followed by two [[CNOT gates]] (see [below](#TheProperQuantumCase)). 
+
+
+> This (eq:QuantumTripledEncoding) is a copying operation, namely of the computational [[linear basis|basis]] states. The [[no-cloning theorem]] only rules out that copying be [[natural transformation|natural]] (in particular: independent of the choice of basis), which would instead send ${\vert \psi \rangle}$ to ${\vert \psi \rangle}^{\otimes 3}$.
+
+A flip of the $i$th qbit now acts as the [[Pauli operator]] $X_i$, hence as
+
+$$
+  X
+  \;\coloneqq\;
+  \left(
+    \array{
+      0 & 1
+      \\
+      1 & 0
+    }
+  \right)
+  \,,
+  \qquad
+  X {\vert b \rangle} \,=\, {\vert b \oplus 1 \rangle}
+$$
+
+on the $i$th tensor factor and as the identity on the others (with $X_0 \coloneqq 1$ for the error-free case). For example:
+
+$$
+  X_2 {\vert \psi_L \rangle}
+  \;=\;
+  \alpha {\vert 010 \rangle} + \beta {\vert 101 \rangle}
+  \,.
+$$
+
+Now, applying the classical strategy [above](#TheClassicalCase) verbatim would mean [[quantum measurement|measuring]] the three qbits in the computational basis. While this would reveal the syndrome, already the first measurement would [[collapse of the wavefunction|collapses]] the [[quantum state]] onto one of its two branches (here ${\vert 010 \rangle}$ or ${\vert 101 \rangle}$, with [[Born rule]] [[probability]] ${\vert \alpha \vert}^2$ or ${\vert \beta \vert}^2$, respectively). This would serve to diagnose the error, but would destroy the quantum state completely: the amplitudes $\alpha, \beta$ (the very data to be protected) would be lost.
+
+Notice, however, that the syndrome takes the same value on both branches (here $(s_1, s_2) = (1,1)$ for ${\vert 010 \rangle}$ as well as for ${\vert 101 \rangle}$). 
+
+To turn this into a [[quantum observable]], consider the [[Pauli operator]]
+
+$$
+  Z
+  \;\coloneqq\;
+  \left(
+    \array{
+      1 & 0
+      \\
+      0 & -1
+    }
+  \right)
+  \,,
+  \qquad
+  Z {\vert b \rangle} \,=\, (-1)^b {\vert b \rangle}
+  \,,
+$$
+
+with which the syndrome appears as 
+
+$$
+  \begin{aligned}
+    Z_1 Z_2 {\vert b_1 b_2 b_3 \rangle} 
+      & = 
+    (-1)^{b_1 \oplus b_2} {\vert b_1 b_2 b_3 \rangle}
+   \\
+    Z_2 Z_2 {\vert b_1 b_2 b_3 \rangle} 
+      & = 
+    (-1)^{b_2 \oplus b_3} {\vert b_1 b_2 b_3 \rangle}
+    \mathrlap{\,.}
+  \end{aligned}
+$$ 
+
+This means that each $X_i {\vert \psi_L \rangle}$ is a joint [[eigenstate]] of the syndrome *parity observables* $Z_1 Z_2$ and $Z_2 Z_3$, with [[eigenvalues]] $(-1)^{s_1}$ and $(-1)^{s_2}$, respectively. 
+
+Hence while the individual physical bits must not be measured, their parities may.
+
+This motivates adjoining auxiliary *ancilla* [[qbits]] onto which the parities are imprinted by unitary gates. A [[quantum measurement]] of just the ancillas is then a measurement on the total system which reveals the syndrome without collapsing the encoded state.
+
+
+##### The proper quantum case
+ {#TheProperQuantumCase}
+
+Concretely, consider adjoining to the logical [[Hilbert space]] $\big(\mathbb{C}^2\big)^3$ two ancilla qbits, hence pass to 
+
+$$
+  \mathscr{H}
+  \coloneqq
+  \big(\mathbb{C}^2\big)^3 
+    \otimes 
+  \underbrace{ 
+    \big(\mathbb{C}^2\big)^2
+  }_{\text{ancillary}}
+$$ 
+
+and consider on this the *imprint* [[unitary operator]]
+
+\[
+  \label{TheImprintingOperator}
+  \begin{array}{ccc}
+  \mathscr{H} &\overset{I}{\longrightarrow}& \mathscr{H}
+  \\
+  {\vert b_1 b_2 b_3 \rangle} 
+    \otimes 
+  {\vert a_1 a_2 \rangle}
+    &\mapsto&
+  {\vert b_1 b_2 b_3 \rangle} 
+    \otimes 
+  {\vert a_1 \oplus b_1 \oplus b_2 ,\, a_2 \oplus b_2 \oplus b_3 \rangle}
+  \end{array}
+\]
+
+(a [[permutation]] of the computational [[linear basis|basis]], implementable by four [[CNOT gates]]), which imprints the parities of the code qbits onto ancillas initialized in ${\vert 00 \rangle}$.
+
+Suppose that the code state has suffered at most one bit flip, so that it is $X_i {\vert \psi_L \rangle}$ for some *unknown* $i \in \{0,1,2,3\}$. Since the parities agree on both branches of $X_i {\vert \psi_L \rangle}$, we have
+
+$$
+  I\left( X_i {\vert \psi_L \rangle} \otimes {\vert 00 \rangle} \right)
+  \;=\;
+  X_i {\vert \psi_L \rangle} \otimes {\vert s_1 s_2 \rangle}
+  \,,
+$$
+
+where $(s_1, s_2)$ is the syndrome of the error $X_i$ in that $i$ may be computed from it (eq:SyndromeToError).
+
+
+Error correction now proceeds in three steps analogous to the classical case [above](#TheClassicalCase), but replacing code bit measurement by ancilla qbit [[quantum measurement]]:
+
+1. **Syndrome:** Since on the right of (eq:TheImprintingOperator) we have a product state, measuring only the ancillas yields the syndrome $(s_1, s_2)$ with certainty, while leaving the code qbits in $X_i {\vert \psi_L \rangle}$, [[collapse of the wavefunction|uncollapsed]].
+
+1. **Decoding:** From the syndrome, a classical algorithm, the *decoder*, determines $i$, here via the [above](#TheClassicalCase)) syndrome table (eq:SyndromeToError), and thereby *chooses* the correcting [[quantum gate]] $X_i$.
+
+1. *Correction:* Applying the chosen correction [[quantum gate]], which restores the code state in case of at most one bit flip error: $X_i X_i {\vert \psi_L \rangle} = {\vert \psi_L \rangle}$, since $X X = 1$.
+
+
+This is the *3-qbit bit flip code*. Its full circuit reads as follows: encoding, error, syndrome extraction by $I$, measurement, decoding and correction:
+
+\linebreak
+
+\linebreak
+
+\[
+  \label{3QBItQECcircuit} 
+\]
+
+<center>
+<div style="margin:-100px 0px 00px 0px;">
+<img src="/nlab/files/3QBit-QEC-circuit_26-11-04.png" width="700">
+</div>
+</center>
+
+The final [[quantum gates|gates]] are [[classically controlled quantum gate|classically controlled]] (double lines) by the [[quantum measurement|measurement]] outcomes.
+
+
+##### Refinements
+ {#Refinements}
+
+The [above](#TheProperQuantumCase) [[bit flip code]] does not protect against *phase flips* as reflected by the [[Pauli operator]] $Z_i$. These send ${\vert \psi_L \rangle}$ to $\alpha {\vert 000 \rangle} - \beta {\vert 111 \rangle}$, which is again a code state and hence has trivial syndrome under the [above](#TheProperQuantumCase) code: the error goes undetected and corrupts the logical state.
+
+But since the [[Hadamard gate]]
+
+$$
+  H
+  \;\coloneqq\;
+  \frac{1}{\sqrt{2}}
+  \left(
+    \array{
+      1 & 1
+      \\
+      1 & -1
+    }
+  \right)
+$$
+
+exchanges bit and phase flips, $H X H = Z$, the same scheme may be run in the Hadamard-transformed basis ${\vert {\pm} \rangle} \coloneqq H {\vert 0/1 \rangle} = \frac{1}{\sqrt{2}} \left( {\vert 0 \rangle} \pm {\vert 1 \rangle} \right)$. Hence the encoding
+
+$$
+  \begin{aligned}
+    {\vert 0 \rangle} 
+      & \mapsto
+    {\vert {+}{+}{+} \rangle}
+    \\
+    {\vert 1 \rangle} 
+      & \mapsto 
+   {\vert {-}{-}{-} \rangle}
+  \end{aligned}
+$$
+
+gives the "3-qbit *phase flip* code", with syndrome given by the parity observables $X_1 X_2$ and $X_2 X_3$. It corrects any single phase flip, but now not bit flips.
+
+Nesting the two codes, by encoding each of the three qbits of the phase flip code via the bit flip code, yields *Shor's 9-qbit code*:
+
+$$
+  \begin{aligned}
+  {\vert 0 \rangle}
+    & \mapsto
+  \frac{1}{2\sqrt{2}}
+  \left( 
+    {\vert 000 \rangle} + {\vert 111 \rangle}
+  \right)^{\otimes 3}
+  \\
+  {\vert 1 \rangle}
+    & \mapsto
+  \frac{1}{2\sqrt{2}}
+  \left( 
+    {\vert 000 \rangle} - {\vert 111 \rangle} 
+  \right)^{\otimes 3}
+  \mathrlap{\,.}
+  \end{aligned}
+$$
+
+This corrects bit flips, phase flips and their composites $X_i Z_i$ on any single qbit. In fact this suffices to correct *arbitrary* errors on a single qbit. Every operator on a qbit is a linear combination of $1$, $X$, $Z$ and $X Z$, and the syndrome measurement collapses such a superposition of errors onto one of its components, which is then corrected as before.
+
+All of these are examples of *[[stabilizer codes]]*: the code space is the joint $(+1)$-eigenspace of a commuting set of products of Pauli operators (for the bit flip code: $Z_1 Z_2$ and $Z_2 Z_3$), whose measurement via ancillas yields the error syndrome.
+
+
+
+
+
+
+#### General QEC codes
 
 The simple but important special case of passive correction of erasures may be  handled by *[[quantum error correcting codes]]*:
 
@@ -121,31 +477,27 @@ such that the information in $code(\psi)$ in some of the tensor factors $\mathca
 While this is superficially analogous to a classical [[error correcting code]], the crucial and subtle difference is that quantum error correction codes thus take place in a non-[[cartesian monoidal category|Cartesian]] [[symmetric monoidal category|symmetric]] [[monoidal category]]. For this reason, effects of [[quantum entanglement]] play a paramount role in quantum error correction codes.
 
 
-#### T-Gates and magic states
-
-The *[[Clifford group]]* of [[quantum gates]] on $n$ [[qbits]] (the [[normalizer subgroup|normalizer]] of the [[Pauli group]] in $U(2^n)$, generated by the [[Hadamard gate]] $H$, the phase gate $S = diag(1,\mathrm{i})$ and the [[CNOT gate]]) is computationally weak: By the *[Gottesman-Knill theorem](#GottesmanKnillTheorem), Clifford [[quantum circuits]] acting on stabilizer states and followed by Pauli [[quantum measurements]] are efficiently simulable on a classical computer. But adjoining any one non-Clifford gate yields a [universal gate set](quantum+logic+gate#UniversalGateSets). 
-
-The prominent choice of that extra non-Clifford gate is the *[[T-gate]]* $T = \mathrm{diag}(1, e^{\pi \mathrm{i}/4})$: The set Clifford+$T$ generates, up to global phase, a [[dense subset|dense]] [[subgroup]] of [[special unitary group|$SU(2^n)$]], so that every [[quantum circuit]] is efficiently approximated by Clifford+$T$ circuits (by the [[Solovay-Kitaev theorem]]).
- 
-The catch is that: 
-
-* *The prominent topological [[quantum error correction|quantum error-correcting codes]] like the [[surface code]] (lattice [[quantum simulations]] of [[topological order]]) protect only [[Clifford gates]].* And this is a problem of principle ([Eastin & Knill 2009](magic+state##EastinKnill09), [Bravyi & König 2013](magic+state##BravyiKoenig13)).
-
-* Also actual [[topological quantum computation]] as long as its [[anyons]] are only of [[Ising anyons|Ising type]] (such as expected, but not established, for the [$\nu = 5/2$](quantum+Hall+effect#ReferencesOnNuFiveHalves) [[FQH]] states) yields exactly only the Clifford gates. 
-
-
-The now standard strategy to work around this problem, trades the missing gate for a resource state: $T$-gates are enacted by *gate teleportation*, consuming *[[magic states]]* $\vert A \rangle = T \vert + \rangle$ via a [[CNOT gate|CNOT]], a [[Pauli gate|$Z$-]][[quantum measurement|measurement]] and a [[controlled quantum gate|classically controlled]] $S$-correction (which are all Clifford operations). 
-
-For more see at *[[magic state]]*.
 
 
 
 
-### In practice --- The Decoding Bottleneck
+
+
+
+
+
+
+
+### In practice 
+ {#InPractice}
+
+While the [[quantum error threshold theorem]] shows that quantum error correction of noisy [[quantum circuits]] is possible *in principle*, the practice of QEC *at scale* remains a major engineering challenge.
+
+
+#### The decoding bottleneck
  {#IdeaOfQECInPractice}
 
-
-As of the 2020s, [[quantum error correction]] (QEC) applied to noisy intermediate-scale quantum ([NISQ](quantum+computation#ReferencesNISQ)) machines is the dominant strategy paradigm, in both academia and industry, for potentially achieving meaningful commercial value [[quantum computation]] in the future. Specifically, the prevailing strategy utilizes [[surface code|surface codes]] for the encoding of logical qubits (typically considered on top of physical [superconducting qubits](superconductivity#SuperconductingQBitsReferences)) --- upon which [[Clifford gates]] are implemented natively --- supplemented by "magic state" resource distillation to implement the remaining universal [[T-gates]].
+As of the 2020s, [[quantum error correction]] (QEC) applied to noisy intermediate-scale quantum ([NISQ](quantum+computation#ReferencesNISQ)) machines is the dominant strategy paradigm, in both academia and industry, for potentially achieving [[quantum advantage|meaningful]] [[quantum computation]] in the future. 
 
 But in technical discussions, the physical reality of the "endgame" of this approach may be easily missed by outsiders: Even in optimistic scenarios where theoretical error thresholds are achieved, the NISQ+QEC roadmap requires envisioning a staggering future feat of quantum and classical hardware engineering, haunted by intrinsic design tensions.
 
@@ -157,16 +509,66 @@ This problem is also known as the *decoding bottleneck* or *decoder bottleneck* 
 
 To overcome this formidable scenario, the NISQ+QEC field has now turned to speculating on future classical hardware technology where *Application Specific Integrated Circuit* ([ASICs](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) hardware is integrated directly into the ultra-cooled quantum refrigerator (e.g., via specialized "Cryo-CMOS" logic; cf. [Erol 2026](#Erol2026)).  However, this poses severe thermodynamic contradictions: Standard silicon transistors suffer from carrier freeze-out below $\sim 40K$, whence one needs to envision an entire *new kind of classical computing hardware*. More generally, the cooling power at the base of a dilution refrigerator is strictly limited to a few micro-Watts. Therefore, placing a petaflop ASIC chip in near proximity to the quantum device would produce excess heat that under currently understood conditions would destroy the cryogenic environment that the quantum computer relies on.
 
+<center>
+<div style="margin:-40px 0px 00px 0px;">
+<img src="/nlab/files/QDecodingBottleneck-Cartoon_26-11-04.jpg" width="700"/>
+</div>
+<small>
+  Error correcting a reasonably powerful but noisy quantum computer will require novel classical supercomputers operating, partially, in currently unachieved cryogenic temperature regimes. [graphics from <a href="https://ncatlab.org/schreiber/show/WIKO+2026">Schreiber 2026</a>]
+</small>
+</center>
+
 In conclusion, the NISQ+QEC roadmap for achieving meaningful commercial value quantum computers is now tacitly banking on unheard of and intrinsically dubious future progress in *classical supercomputing* technology --- which, assuming it can be brought into existence, would then not be used for contentful computation itself, but would solely serve the task of preventing the memory of a quantum computer from decaying.
 
 
+<center>
+<div style="margin:-0px 0px 00px 0px;">
+<img src="/nlab/files/QEC-Buckets_26-11-04b.png" width="700">
+</div>
+<small>
+Noisy qbits are like water in a leaky bucket. In this analogy, (1.) <i>quantum error correction</i> is like continuously catching the leaking water and rapidly filling it back into the bucket, (2.) the <i>decoding bottleneck</i> is the intense amount of auxiliary  machinery and effort of pumping this requires, (3.) hardware-level <i>topological quantum</i> protection is the patching of the buckets. [graphics from <a href="https://ncatlab.org/schreiber/show/WIKO+2026">Schreiber 2026</a>]
+</small>
+</center>
 
-Of course, the initial problem at the base of this story is the instability of current qubit technology. The problem is akin to that of a bucket brigade which operates with extremely leaky buckets. In this picture, the QEC-style solution is like using ever more buckets together with sophisticated machinery that cleverly catches the leaked water only to fill it back into the buckets. 
-This analogy makes clear that an alternative strategy may be to actually fix the buckets. On the quantum technology side this corresponds to the approach of [[topological quantum computing]] (cf. [Das Sarma 2022](#DasSarma22)), where it is not runtime software redundancy that stabilizes shaky qubits, but intrinsic physical effects in topological quantum hardware. However, while such topological stabilization of quantum states and topological protection of quantum gates exists in theory (and even that theory is not well developed at this point) essentially no experience with practical engineering implementation exists to date. 
 
-\linebreak
 
-**References on the decoding bottleneck:**
+#### Aside: Hardware-level protection
+
+The initial problem at the base of the decoding bottlenck problem [above](#IdeaOfQECInPractice) is the instability of current qubit technology (*NISQ*, see [there](quantum+computation#ReferencesNISQ)). 
+
+The problem is akin to that of a bucket brigade which operates with extremely leaky buckets. In this picture, the QEC-style solution is like using ever more buckets together with sophisticated machinery that cleverly catches the leaked water only to fill it back into the buckets. 
+
+This analogy makes clear that an alternative strategy may be to actually fix the buckets. On the quantum technology side this corresponds to the approach of [[topological quantum computing]] (cf. [Das Sarma 2022](#DasSarma22)), where it is not runtime software redundancy that stabilizes shaky qubits, but intrinsic physical effects in [[topological order|topological]] [[quantum materials|quantum hardware]]. 
+
+
+However, while such topological stabilization of quantum states and topological protection of quantum gates exists in theory (and even that theory is not well developed at this point) essentially no experience with practical engineering implementation exists to date. 
+
+
+#### Nested codes and Surface codes
+ {#NestedCodesAndSurfaceCodes}
+
+An intrinsic practical problem with QEC implemented via [[quantum circuits]] as in the simple 3-qbit code example (eq:3QBItQECcircuit) [above](#BasicIdeaOfQECVia3QBitCode) is that these quantum circuits are *themselves* subject to errors, needing *themselves* another layer of QEC, and so on. This may appear to already lead to an infinite regression problem. Remarkably, the *[[quantum error threshold theorem]]* says that, in principle, a *finite* depth of nested codes is sufficient for breaking even if the baseline physical error rate $p$ is below some threshold (whence the name). 
+
+However, nested codes require non-local [[qbit]] connectivity on the quantum hardware, which becomes quickly technologically unachievable. For this reason, the nested codes that the theory of the threshold theorem considers are actually useless in practice.
+
+For this reason the community has turned instead to *[[surface codes]]*. These mimic ("[[quantum simulation|simulate]]") [[topological quantum computing|topological]] mechanisms of error protection by a lattice of qbits using only local connectivity. 
+
+While surface codes solve the non-locality of nested codes, this comes at the cost that they correct errors only in [[Clifford gates]], which are not sufficient for universal quantum computation, leaving non-Clifford gates like [[T-gates]] unprotected (see [below](#TGatesAndMagicStates)).
+
+
+#### Magic state factories
+ {#TGatesAndMagicStates}
+
+The decoding bottleneck ([above](#IdeaOfQECInPractice)) is only part of the problem of practically implementing QEC at scale. 
+
+Namely, with the currently most popular error correcting codes, which are *[[surface codes]]* ([above](#NestedCodesAndSurfaceCodes)), it is only *[[Clifford gates]]* that are error protected (after solving the decoding bottleneck), while [universal quantum computing](quantum+logic+gate#UniversalGateSets) requires further gate type (such as the [[T-gate]]) that remain uncorrected by [[surface codes]].
+
+The now standard strategy to work around this problem, trades the missing gate for a resource [[quantum state]]: [[T-gates]] are enacted by *gate teleportation*, consuming *[[magic states]]* ${\vert A \rangle} = T {\vert + \rangle}$ via a [[CNOT gate|CNOT]], a [[Pauli gate|$Z$-]][[quantum measurement|measurement]] and a [[controlled quantum gate|classically controlled]] $S$-correction (which are all Clifford operations). 
+
+This leads to the further practical problem of equipping the quantum computer with a good supply of [[magic states]], which has become a research field all in itself: "*magic state factories*". Current estimates are that "magic state distillation" alone will occupy about 90% of the quantum chip, leaving 10% for actual computation, and that this creates a bottleneck on top of and dwarfing the error correction bottlenect (cf. [NKM 2026](#NKM2026)).
+
+
+#### References: Challenges of practical QEC
 
 * {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
   > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
@@ -202,6 +604,8 @@ This analogy makes clear that an alternative strategy may be to actually fix the
   > &lbrack;...&rbrack; The gap between current decoder demonstrations and CRQC requirements is large and precisely quantifiable. \[...\] The progress curve is steep. But the destination \[...\] remains far ahead.
 
 
+* {#NKM2026} Kris Naudts, Zeynep Koruturk, Donald Harmitt: *[The Quantum Bottleneck Isn't Error Correction, It's the Magic State Factory](https://firgun.vc/insights/quantum-bottleneck-magic-state-factory)*, Firgun Ventures Insight (July 2026)
+
 * {#MahmudEtAl2026} Mahmud et al.: *Decoder Architectures and Computational Bottlenecks in QEC*: section IV of: *Quantum Error Correction Survey*,  IEEE Access **14** (Sep 2026) 154233--154277 &lbrack;[doi:10.1109/ACCESS.2026.3737721](https://doi.org/10.1109/ACCESS.2026.3737721)&rbrack;
 
 * {#Canton2026} Manuel Esparcia Cantos: *[Decoders: The Quiet Bottleneck of Quantum Error Correction](https://www.linkedin.com/pulse/decoders-quiet-bottleneck-quantum-error-correction-esparcia-cantos-er0ve)*, LinkedIn (8. Oct 2026)
@@ -226,7 +630,7 @@ This analogy makes clear that an alternative strategy may be to actually fix the
 
 #### Bit flip codes
 
-See at *[[bit flip code]]*.
+See at *[[bit flip code]]*, and the exposition of the 3-qbit code [above](#BasicIdeaOfQECVia3QBitCode).
 
 #### A 3-qutrit code
  {#A3FoldqtritCode}
