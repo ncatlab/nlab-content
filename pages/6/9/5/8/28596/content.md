@@ -30,7 +30,7 @@ The catch is that:
 * Also actual [[topological quantum computation]] as long as its [[anyons]] are only of [[Ising anyons|Ising type]] (such as expected, but not established, for the [$\nu = 5/2$](quantum+Hall+effect#ReferencesOnNuFiveHalves) [[FQH]] states) yields exactly only the Clifford gates ([Bravyi 2006](#Bravyi06), [Nayak et al. 2008, §IV.A](#NayakSimonSternFreedmanDasSarma08)). 
 
 
-The now standard strategy to work around this problem, trades the missing gate for a resource state: $T$-gates are enacted by *gate teleportation*, consuming *[[magic states]]* $\vert A \rangle = T \vert + \rangle$ via a [[CNOT gate|CNOT]], a [[Pauli gate|$Z$-]][[quantum measurement|measurement]] and a [[controlled quantum gate|classically controlled]] $S$-correction (which are all Clifford operations). 
+The now standard strategy to work around this problem, trades the missing gate for a resource state: $T$-gates are enacted by *gate teleportation*, consuming *[[magic states]]* ${\vert A \rangle} = T {\vert + \rangle}$ via a [[CNOT gate|CNOT]], a [[Pauli gate|$Z$-]][[quantum measurement|measurement]] and a [[controlled quantum gate|classically controlled]] $S$-correction (which are all Clifford operations). 
 
 These *[[magic states]]*, in turn, are encoded without protection ("state injection") and then purified by *magic state distillation* ([Bravyi & Kitaev 2005](#BravyiKitaev05)), a protocol which uses only Clifford operations and measurements to turn many noisy copies into fewer, better ones. 
  
@@ -45,6 +45,177 @@ Accordingly, the "$T$-count" (number of [[T-gates]] in a [[quantum circuit]]) ha
 1. by circumventing the 2-dimensional no-go theorem, either via 3-dimensional codes with transversal $T$ ([Bombín 2015](#Bombin15)) or via non-constant-depth protocols on the surface code itself ([Brown 2020](#Brown20)). For review see [Terhal 2015, §II.7](#Terhal15), [Campbell, Terhal & Vuillot 2017](#CampbellTerhalVuillot17).
  
 Although efficiency of magic state architectures is improving consistently [7, 8] approaching believed fundamental limits [9], large resource demands remain a serious obstacle for near-future architectures.
+
+
+## Definition
+
+Recall that, in the computational [[qbit]] basis, 
+
+* the *[[T-gate]]* is 
+
+  $$
+    T 
+      \coloneqq 
+    \left(
+    \begin{matrix}
+      1 & 0 
+      \\ 
+      0 & \omega
+    \end{matrix}
+    \right)
+    \,,
+    \;\;\;
+    \omega \coloneqq e^{\mathrm{i}\pi/4}
+  $$
+
+* the *[[S-gate]]* is
+
+  $$
+    T 
+      \coloneqq 
+    \left(
+    \begin{matrix}
+      1 & 0 
+      \\ 
+      0 & \mathrm{i}
+    \end{matrix}
+    \right)
+    \,,
+  $$
+
+* the *[[Hadamard gate]]* is
+
+  $$
+    H 
+      \coloneqq 
+    \tfrac{1}{\sqrt{2}}
+    \left(
+    \begin{matrix}
+      1 & 1 
+      \\ 
+      1 & -1
+    \end{matrix}
+    \right)
+    \,,
+  $$
+
+* the *unbiased states* are
+
+  $$
+    \begin{aligned}
+      {\vert + \rangle}
+      & \coloneqq 
+      H {\vert 0 \rangle}
+      =
+      \tfrac{1}{\sqrt{2}}
+      \big(
+        {\vert 0 \rangle}
+        +
+        {\vert 1 \rangle}
+      \big)
+      \\
+      {\vert + \rangle}
+      & \coloneqq
+      H {\vert 1 \rangle}
+      =
+      \tfrac{1}{\sqrt{2}}
+      \big(
+        {\vert 0 \rangle}
+        -
+        {\vert 1 \rangle}
+      \big)
+      \mathrlap{\,.}
+    \end{aligned}
+  $$
+
+
+Now, the *magic state* is
+
+\[
+  \label{TheMagicState}
+  {\vert T \rangle}
+  \coloneqq
+  T{\vert + \rangle}
+  =
+  \tfrac{1}{\sqrt{2}}
+  \big(
+    {\vert 0 \rangle}
+    + 
+    \omega {\vert 1 \rangle}
+  \big)
+\]
+
+## Properties
+
+### T-Gate teleportation
+
+The point of the magic state (eq:TheMagicState) is that it allows to "[[quantum teleportation|quantum teleport]]" a [[T-gate]] onto an arbitrary state ${\vert \psi \rangle} = \alpha {\vert 0 \rangle} + \beta {\vert 1 \rangle}$, via this [[quantum circuit]]:
+
+<center>
+  <img src="/nlab/files/T-Gate-teleportation_26-11-04.png" width="400"/>
+</center>
+
+Namely, from left to right, 
+
+1. the [[CNOT gate]] produces
+
+   $$
+     \begin{aligned}
+       CNOT\big(
+         {\vert \psi \rangle} \otimes {\vert T \rangle}
+       \big)
+       & =
+       \tfrac{1}{\sqrt 2}\Big( 
+         \big(
+           \alpha{\vert 0\rangle} 
+           + 
+          \omega\beta{\vert 1\rangle}
+        \big)
+          \otimes
+        {\vert 0\rangle} 
+          \;+\; 
+        \big(
+          \omega\alpha{\vert 0\rangle} 
+          + 
+          \beta{\vert 1\rangle}
+        \big)
+          \otimes
+        {\vert 1\rangle}
+      \Big)
+      \\
+      & =
+      \tfrac{1}{\sqrt 2}\Big( 
+        T{\vert\psi\rangle}
+          \otimes
+        {\vert 0\rangle} 
+         \;+\; 
+        \omega\, T^\dagger{\vert\psi\rangle}
+          \otimes
+        {\vert 1\rangle}
+       \Big).
+     \end{aligned}
+   $$
+
+2. the [[quantum measurement]] $m$ on that result produces
+
+   $$
+     \begin{cases}
+       \; T{\vert\psi\rangle} 
+         & \text{if }\; m = 0
+       \\
+      \omega\, T^\dagger{\vert\psi\rangle} 
+        & \text{if }\; m = 0
+     \end{cases}
+   $$
+
+3. the final [[classically controlled quantum gate|$m$-controlled]] [[S-gate]] hence produces the desired result of applying the [[T-gate]] to the given quantum state,
+
+   $$
+     T{\vert\psi\rangle}
+     \mathrlap{\,,}
+   $$
+
+   on the nose and manifestly so for $m = 0$, and up to what is now a global phase $\omega$ for $m = 1$, because $S T^\dagger = T$.
 
 
 ## Related concepts
