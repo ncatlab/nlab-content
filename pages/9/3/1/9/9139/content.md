@@ -55,6 +55,10 @@ Review:
 
 * Wikipedia, *[Magnetic vector potential](https://en.wikipedia.org/wiki/Magnetic_vector_potential)*
 
+In [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType):
+
+* [[Grigorios Giotopoulos]]: *Higher Groupoids of Gauge Potentials in Higher Gauge Theories admitting Weights* &lbrack;[arXiv:2611.03064](http://arxiv.org/abs/2611.03064)&rbrack;
+
 
 [[!redirects gauge potentials]]
 
