@@ -780,3 +780,99 @@ n_{13} & \Vdash & x' \equiv x, & \quad & n_{13} & \coloneqq & p_{3/3}(n_{10}) \\
 \end{array}
 \]
 Therefore, the composition $n \mapsto n_{19}$ on the right satisfies the required condition for $e_{a, b}$.
+
+## Power objects
+
+### Preliminaries
+
+Since the definition of power objects involves pullback squares and monomorphisms, it will be appropriate to establish convenient criteria for establishing both. First, we start with isomorphisms.
+
+\begin{lemma}
+Suppose $f$ is an effective functional relation between $X$ and $Y$. Then the equivalence class of $f$ is an isomorphism if and only if
+
+(a) There exists a partial recursive function $i_f : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x_1 \xmapsto{f} y$$
+and
+$$m \Vdash x_2 \xmapsto{f} y,$$
+then $i_f(n, m)$ is defined and
+$$i_f(n, m) \Vdash x_1 \equiv x_2.$$
+
+(b) There exists a partial recursive function $s_f : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash y \equiv y,$$
+then $s_f(n)$ is defined and there exists $x\in X$ such that
+$$s_f(n) \Vdash x \xmapsto{f} y.$$
+\end{lemma}
+\begin{proof}
+($\Rightarrow$) Suppose the equivalence class of $g$ is inverse to the equivalence class of $f$.
+
+To establish (a), suppose
+$$n \Vdash x_1 \xmapsto{f} y$$
+and
+$$m \Vdash x_2 \xmapsto{f} y.$$
+Then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & y \equiv y & \quad & n_1 & \coloneqq & c_f(n) \\
+\implies \exists x_3\in X, n_2 & \Vdash & y \xmapsto{g} x_3, & \quad & n_2 & \coloneqq & t_g(n_1) \\
+\implies n_3 & \Vdash & x_1 \xmapsto{g\circ f} x_3, & \quad & n_3 & \coloneqq & \langle n, n_2 \rangle \\
+\implies n_4 & \Vdash & x_1 \xmapsto{\operatorname{id}_X} x_3 & \quad & n_4 & \coloneqq & e_{g\circ f, \operatorname{id}_X}(n_3) \\
+\implies n_5 & \Vdash & x_1 \equiv x_3, & \quad & n_5 & \coloneqq & n_4 \\
+\implies n_6 & \Vdash & x_2 \xmapsto{g\circ f} x_3, & \quad & n_6 & \coloneqq & \langle m, n_2 \rangle \\
+\implies n_7 & \Vdash & x_2 \xmapsto{\operatorname{id}_X} x_3, & \quad & n_7 & \coloneqq & e_{g\circ f, \operatorname{id}_X}(n_6) \\
+\implies n_8 & \Vdash & x_2 \equiv x_3, & \quad & n_8 & \coloneqq & n_7 \\
+\implies n_9 & \Vdash & x_3 \equiv x_2, & \quad & n_9 & \coloneqq & s_X(n_8) \\
+\implies n_{10} & \Vdash & x_1 \equiv x_2, & \quad & n_{10} & \coloneqq & t_X(n_5, n_9).
+\end{array}
+\]
+Therefore, the composition $(n, m) \mapsto n_{10}$ on the right satisfies the required condition for $i_f$.
+
+To establish (b), suppose
+$$n \Vdash y \equiv y.$$
+Then there exists $x\in X$ such that
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & y \xmapsto{g} x, & \quad & n_1 & \coloneqq & t_g(n) \\
+n_2 & \Vdash & x \equiv x, & \quad & n_2 & \coloneqq & c_g(n_1) \\
+\implies \exists y' \in Y, n_3 & \Vdash & x \xmapsto{f} y', & \quad & n_3 & \coloneqq & t_f(n_2) \\
+\implies n_4 & \Vdash & y \xmapsto{f\circ g} y', & \quad & n_4 & \coloneqq & \langle n_1, n_3 \rangle \\
+\implies n_5 & \Vdash & y \xmapsto{\operatorname{id}_Y} y', & \quad & n_5 & \coloneqq & e_{f\circ g, \operatorname{id}_Y}(n_4) \\
+\implies n_6 & \Vdash & y \equiv y', & \quad & n_6 & \coloneqq & n_5 \\
+\implies n_7 & \Vdash & y' \equiv y, & \quad & n_7 & \coloneqq & s_Y(n_6) \\
+\implies n_8 & \Vdash & x \xmapsto{f} y, & \quad & n_8 & \coloneqq & r_f(n_3, n_2, n_7).
+\end{array}
+\]
+Therefore, the composition $n \mapsto n_8$ on the right satisfies the required condition for $s_f$.
+
+($\Leftarrow$) Let $f^\dagger\subseteq \mathbb{N} \times Y \times X$ be the relational inverse of $f$. Then we can see that condition (a) is exactly in the form needed for $u_{f^\dagger}$, and condition (b) is exactly in the form needed for $t_{f^\dagger}$. On the other hand, the other conditions for $f^\dagger$ to be an effective functional relation between $Y$ and $X$ are automatic: namely, we can use
+$$d_{f^\dagger} \coloneqq c_f,$$
+$$c_{f^\dagger} \coloneqq d_f,$$
+and
+$$r_{f^\dagger}(n, m, p) \coloneqq r_f(n, p, m).$$
+Thus, $f^\dagger$ is an effective functional relation between $Y$ and $X$. We now claim that the equivalence class of $f^\dagger$ is inverse to the equivalence class of $f$. To see this, suppose
+$$\langle n, m \rangle \Vdash x \xmapsto{f^\dagger \circ f} x'.$$
+Then there exists $y\in Y$ such that
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & x \xmapsto{f} y, & & & & \\
+m & \Vdash & y \xmapsto{f^\dagger} x' & & & & \\
+\implies n_1 & \Vdash & x' \xmapsto{f} y, & \quad & n_1 & \coloneqq & m \\
+\implies n_2 & \Vdash & x \equiv x', & \quad & n_2 & \coloneqq & i_f(n, n_1) \\
+\implies n_3 & \Vdash & x \xmapsto{\operatorname{id}_X} x, & \quad & n_3 & \coloneqq & n_2.
+\end{array}
+\]
+Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $i_{f^\dagger \circ f, \operatorname{id}_X}$.
+
+Similarly, suppose
+$$\langle n, m \rangle \Vdash y \xmapsto{f \circ f^\dagger} y'.$$
+Then there exists $x\in X$ such that
+\[
+\begin{array}{rclcrcl}
+n & \Vdash & y \xmapsto{f^\dagger} x, & & & & \\
+m & \Vdash & x \xmapsto{f} y' & & & & \\
+\implies n_1 & \Vdash & x \xmapsto{f} y, & \quad & n_1 & \coloneqq & n \\
+\implies n_2 & \Vdash & y \equiv y', & \quad & n_2 & \coloneqq & u_f(n_1, m) \\
+\implies n_3 & \Vdash & y \xmapsto{\operatorname{id}_Y} y', & \quad & n_3 & \coloneqq & n_2.
+\end{array}
+\]
+Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $i_{f \circ f^\dagger, \operatorname{id}_Y}$.
+\end{proof}
