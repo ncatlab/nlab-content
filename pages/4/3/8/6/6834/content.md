@@ -300,6 +300,9 @@ In the context of [[flux quantization laws]]:
 
 * [[Gregory W. Moore]], [[Vivek Saxena]]: *Differential Cohomology*, Part II of: *TASI Lectures On Topological Field Theories And Differential Cohomology* \[<a href="https://arxiv.org/abs/2510.07408">arXiv:2510.07408 hep-th</a>, [inSpire:3065857](https://inspirehep.net/literature/3065857)\]
 
+* [[Grigorios Giotopoulos]]: *Higher Groupoids of Gauge Potentials in Higher Gauge Theories admitting Weights* &lbrack;[arXiv:2611.03064](http://arxiv.org/abs/2611.03064)&rbrack;
+  > ([[infinity-groupoids]] of higher [[gauge potntials]])
+
 
 More on the [[RR-field]] as a higher gauge field (for more see at *[[D-brane charge quantization in K-theory]]*):
 
