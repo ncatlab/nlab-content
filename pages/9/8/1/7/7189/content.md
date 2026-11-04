@@ -52,7 +52,7 @@ $$
 $$
 where 
 
-* the carrier functor $\mathbb{T}^G$ is given by the end
+* the carrier functor $T^G$ is given by the end
 $$
   \mathbb{T}^G(A) = \int_{B \in \mathcal{B}} \mathcal{A}(A, GB) \pitchfork GB
 $$
