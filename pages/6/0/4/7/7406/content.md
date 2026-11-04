@@ -15,14 +15,13 @@
 
 ## Definition
 
-Let $C$ be a [[coherent category]].  Write $\tau C$ for the category whose objects are pairs $(X,F)$ where $X$ is an object of $C$ and $F$ is a [[prime filter]] on $Sub_C(X)$.  This is the full subcategory of the [[category of filters]] of $C$ spanned by the prime filters.  Let $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
+Let $C$ be a [[coherent category]]. Its category of filters, denoted by $\Lambda C$ is the category whose objects are pairs $(A,F)$, where $A\in C$ and $F\subseteq \sub_C(A)$ is a filter.  A morphism $(A,F)\to(B,G)$ in $\Lambda C$ is a germ $[\alpha]$ of local continuous maps, where a local continuous map $\alpha:(A,F)\to(B,G)$ is a morphism $\alpha:U\to B$ in $C$, where $U\in F$, such that for all $V\in G$, we have $\alpha^*(V)\in F$. Two such maps $\alpha_1:U_1\to B$ and $\alpha_2:U_2\to B$ are equivalent iff there exist $U\in F$ with $U\leq U_1\wedge U_2$ and $\alpha_1 |_U = \alpha_2|_U$.
 
-As defined by [Makkai](#Makkai), the **topos of types** $\mathbf{T}(C)$ of $C$ is the [[sheaf topos]]
+The **topos of types** of $C$, denoted by $\mathbf{T}(C)$, is [[sheaf topos]] $sh(\tau C, J_p)$, where $\tau C$ is the full subcategory of $\Lambda C$ consisting of all pairs $(A,\rho)$ where $\rho\subseteq\sub_C(A)$ is a [[prime filter]], and $J_p$ is the topology induced on $\tau C$ by the [[coherent topology]] on $\Lambda C$.
 
-$$
-  \mathbf{T}(C) \coloneqq Sh_{J_p}(\tau C)
-  \,.
-$$
+ 
+
+This definition first appeared in [Makkai](#Makkai).
 
 **Note:** The word "types" here has nothing to do with [[type theory]].  Instead, refers to the notion of [[type (in model theory)|type in model theory]].
 
