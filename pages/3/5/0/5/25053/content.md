@@ -76,6 +76,9 @@ On [[duality between M-theory and type IIA string theory|M/IIA duality]] on [[su
 
 * [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Flux Quantization on 10D Type IIA Superspace via Cyclification from 11D* \[<a href="https://arxiv.org/abs/2606.16857">arXiv:2606.16857</a>\]
 
+On [[infinity-groupoids|$\infty$-groupoids]] of higher [[gauge potentials]] in [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType):
+
+* [[Grigorios Giotopoulos]]: *Higher Groupoids of Gauge Potentials in Higher Gauge Theories admitting Weights* &lbrack;[arXiv:2611.03064](http://arxiv.org/abs/2611.03064)&rbrack;
 
 
 
