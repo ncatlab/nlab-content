@@ -62,4 +62,6 @@ See also:
 [[!redirects threshold theorem]]
 [[!redirects threshold theorems]]
 
+[[!redirects quantum error threshold theorem]]
+[[!redirects quantum error threshold theorems]]
 
