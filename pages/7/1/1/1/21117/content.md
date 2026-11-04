@@ -21,10 +21,37 @@
 
 ## Idea
 
-*Quantum error correction* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]] (e.g. against [[bit flip channel|bit flip errors]]), by "correcting errors as they occur" at runtime.
+*Quantum error correction* (QEC) is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]], by *correcting computational errors as they occur* at runtime.
+
+The need for quantum error correction is particularly urgent for the currently existing *noisy* quantum memories (cf. [NISQ](#quantum+computation#ReferencesNISQ)), which, despite their inherent instability, are widely envisioned to scale up to useful [[quantum computers]] by having them vigorously corrected by massive classical computing power; cf. discussion of the *decoding bottleneck* [below](#IdeaOfQECInPractice).
+
+What is being corrected with QEC are [[quantum computing|quantum computations]] on a [[quantum computer]], while the correction mechanisms are classical [[computations]]: During and in parallel to the execution of the [[quantum computer]], a classical computer executes an indefinite loop which in each step:
+
+1. reads out [[quantum measurement]] results on parts of the [[quantum memory]] (on the "syndromes"), 
+
+2. infers from these (via a *decoding* algorithm) potential errors that may have occured in the quantum machine, 
+
+3. [[controlled quantum gate|controls]] the quantum computer to execute [[quantum gates]] designed to counteract these errors.
+
+Hence QEC is about a [quantum/classical interaction loop](quantum+computation#ClassicalControlQuantumData):
+
+<center>
+<div style="margin:-40px 0px 00px 0px;">
+<img src="/nlab/files/QEC-interaction-loop_26-11-04.png" width="700">
+</div>
+</center>
+
+It is a nontrivial and remarkable theoretical insight (involving results such as *[[quantum error threshold theorems]]*) that such a scheme can work 
+
+* [in principle](#InTheory),
+
+but it remains a substantial engineering challenge to also make it work
+
+* [in practice](#InPractice).
 
 
-### In theory
+### In principle
+ {#InTheory}
 
 From [Ferris & Poulin 2013](#FerrisPoulin13):
 
@@ -68,10 +95,15 @@ From [CDCW 21](#CDCW21):
 #### Basic idea of QEC via the 3-qbit code
  {#BasicIdeaOfQECVia3QBitCode}
 
+It is useful and common to illustrate the basic idea of QEC with the [3-qbit code](bit+flip+code#3QbitFlipCode), since it already showcases the key stages of (1.) *encoding*, (2) *syndrome* and (3.) *correction*. But beware that practically relevant code these days are *[[surface codes]]* which are quite different in nature, see also [below](#NestedCodesAndSurfaceCodes).
+ 
+
 ##### The classical case
  {#TheClassicalCase}
 
-We regard [[bit]] values as elements of the [[cyclic group]] $\mathbb{Z}_{/2} = \{0,1\}$ of [[integers]] [[modulo]] 2. 
+Before considering quantum error correction it is useful to step back and briefly reconsider the analogous case of classical error correction.
+
+To set the stage: We regard [[bit]] values as elements of the [[cyclic group]] $\mathbb{Z}_{/2} = \{0,1\}$ of [[integers]] [[modulo]] 2. 
 
 1. Their [[addition]] mod 2 is the *[[exclusive disjunction|exclusive or]]* ([[xor]]) of [[bits]], denoted
 
@@ -334,7 +366,7 @@ Error correction now proceeds in three steps analogous to the classical case [ab
 1. *Correction:* Applying the chosen correction [[quantum gate]], which restores the code state in case of at most one bit flip error: $X_i X_i {\vert \psi_L \rangle} = {\vert \psi_L \rangle}$, since $X X = 1$.
 
 
-This is the *3-qbit bit flip code*. Its full circuit reads as follows: encoding, error, syndrome extraction by $I$, measurement, decoding and correction:
+This is the *3-qbit bit flip code*. Its full [[quantum circuit]] reads as follows: encoding, error, syndrome extraction by $I$, measurement, decoding and correction:
 
 \linebreak
 
@@ -350,7 +382,9 @@ This is the *3-qbit bit flip code*. Its full circuit reads as follows: encoding,
 </div>
 </center>
 
-The final [[quantum gates|gates]] are [[classically controlled quantum gate|classically controlled]] (double lines) by the [[quantum measurement|measurement]] outcomes.
+(The final [[quantum gates|gates]] are [[classically controlled quantum gate|classically controlled]] (double lines) by the [[quantum measurement|measurement]] outcomes.)
+
+It should be noted here that the quantum correction mechanism (eq:3QBItQECcircuit) is itself nothing but a [[quantum circuit]], hence, when physically executed, is *itself subject to quantum errors*. This is a problem that is solved *in principle* by the [[quantum error threshold theorems]], but *in practice* it makes this and similar codes actually unusable, see the discussion of *Nested codes and Surface codes* [below](#NestedCodesAndSurfaceCodes).
 
 
 ##### Refinements
