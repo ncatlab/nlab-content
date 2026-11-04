@@ -14,18 +14,18 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
 
-In [[quantum information theory]] a *bit flip code* is a [[quantum error correcting code]] to correct for [[quantum noise]] caused by [[bit flip channels]].
+In [[quantum information theory]] a *bit flip code* is a [[quantum error correction|quantum error correcting]] [[error correcting code|code]] to correct for [[quantum noise]] caused by [[bit flip channels]].
 
 ## Details
 
 ### 3-qbit flip code
+ {#3QbitFlipCode}
 
 
 The following basic example of a bit flip code encodes single [[logical qbits]] in [[triples]] of [[physical qbits]]. 
