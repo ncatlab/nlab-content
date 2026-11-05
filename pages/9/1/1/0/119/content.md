@@ -40,7 +40,7 @@ A **preorder** or **quasiorder** on a set $S$ is a [[reflexive relation|reflexiv
 ### As a graph ###
 
 A **preordered set** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$, with functions $refl:V \to E$ and  
-$$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
+$$tr:\{(g,f) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
 * for every $a \in V$, $s(refl(a)) =_V a$
