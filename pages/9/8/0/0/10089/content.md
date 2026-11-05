@@ -43,6 +43,10 @@ On non-rational [[vertex operator algebras]] from [[D=4 super Yang-Mills theory]
 
 * Siqi Chen, Anirudh Deb, [[Leonardo Rastelli]]: *Higgsless Lagrangian SCFTs and Strongly Finite VOAs* &lbrack;[arXiv:2607.08813](https://arxiv.org/abs/2607.08813)&rbrack;
 
+Formalizing [[vertex operator algebra]] on the [[Lean]] [[proof assistant]]:
+
+* Fedor K. Popov, [[Leonardo Rastelli]]: *Vertex Operator Algebras in Lean: a formal library and its companion book* &lbrack;[arXiv:2611.06616](https://arxiv.org/abs/2611.06616)&rbrack;
+
 
 
 
