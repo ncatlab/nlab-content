@@ -232,6 +232,11 @@ See also:
 
 * [[Terry Gannon]], Brandon C. Rayhaun: *Classification of Rational $c=1$ Vertex Operator Algebras and Vertex Operator Superalgebras* &lbrack;[arXiv:2609.00122](https://arxiv.org/abs/2609.00122)&rbrack;
 
+Formalization in the [[Lean]] [[proof assistant]]:
+
+* Fedor K. Popov, [[Leonardo Rastelli]]: *Vertex Operator Algebras in Lean: a formal library and its companion book* &lbrack;[arXiv:2611.06616](https://arxiv.org/abs/2611.06616)&rbrack;
+
+
 
 
 
