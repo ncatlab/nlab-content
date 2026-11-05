@@ -106,6 +106,10 @@ Math. Soc. Lecture Note Ser., vol. 315, Cambridge Univ. Press, Cambridge, 2004, 
 
 * [[Jacob Lurie]], _Elliptic Cohomology IV: Equivariant elliptic cohomology_, to appear.
 
+* Emile Bouaziz, [[Adeel A. Khan]]: *Equivariant elliptic cohomology via loop spaces* \[<a href="https://arxiv.org/abs/2611.05707">arXiv:2611.05707</a>\]
+
+
+
 
 
 ### Elliptic genera
