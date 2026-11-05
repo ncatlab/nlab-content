@@ -602,7 +602,20 @@ The now standard strategy to work around this problem, trades the missing gate f
 This leads to the further practical problem of equipping the quantum computer with a good supply of [[magic states]], which has become a research field all in itself: "*magic state factories*". Current estimates are that "magic state distillation" alone will occupy about 90% of the quantum chip, leaving 10% for actual computation, and that this creates a bottleneck on top of and dwarfing the error correction bottlenect (cf. [NKM 2026](#NKM2026)).
 
 
-#### References: Challenges of practical QEC
+#### Summary and outlook
+
+<center>
+<div style="margin:-20px 0px 00px 0px;">
+<img src="/nlab/files/bump-in-the-QEC-carpet_26-11-05.png" width="700">
+</div>
+<small>
+  The strategy of quantum error correction at scale has led to a cascade of subsequent technological problems. The currently dominant strategy for QEC at useful scale is betting on future advances in <i>classical</i> supercomputer technology.
+</small>
+</center>
+
+
+
+#### References: Practical challenges of QEC
 
 * {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
   > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
