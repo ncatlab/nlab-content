@@ -127,7 +127,7 @@ The simplest remedy is redundancy: encode each *logical bit* by a [[triple]] of 
 \[
   \label{ClassicalTripledEncoding}
   \array{
-    \mathbb{Z}_{/2} &\longrightarrow& (\mathbb{Z}_{/2})^3
+    \mathbb{Z}_{/2} &\longrightarrow& (\mathbb{Z}_{/2})^{3}
     \\
     b &\mapsto& (b,b,b) 
     \mathrlap{\,.}
@@ -145,7 +145,7 @@ $$
   \end{aligned}
 $$
 
-which vanish exactly on the codewords $(0,0,0)$ and $(1,1,1)$. This pair $(s_1,s_2)$ is hence called the *error syndrome*:
+which vanish exactly on the codewords $(0,0,0)$ and $(1,1,1)$. This pair $(s_1,s_2)$ is hence called the *error syndrome*, since it allows to uniquely identify the position of a one-it flip error (if any), as follows:
 
 \[
   \label{SyndromeToError}
@@ -208,7 +208,7 @@ This prodedure:
 
 \linebreak
 
-The key point of this classical error correction is that the error syndrome is obtained in the most direct way: by reading out, hence by *measuring*, the state of the tuple of physical bits. Classically, this does no harm, but for [[qbits]] this does not work so directly.
+A characteristic property of this classical error correction is that the error syndrome is obtained in the most direct way: by reading out, hence by *[[measurement|measuring]]*, the state of the tuple of physical bits. Classically, this does no harm, but for [[qbits]] this does not work so directly and quantum error correction needs to be a tad more clever than this.
 
 
 ##### The issue with the quantum case
@@ -223,7 +223,7 @@ The classical triple encoding (eq:ClassicalTripledEncoding) [[linear span|extend
   \label{QuantumTripledEncoding}
   \begin{array}{ccc}
     \mathbb{C}^2 &\longrightarrow& 
-    \big(\mathbb{C}^2\big)^3
+    \big(\mathbb{C}^2\big)^{\otimes_3}
     \\
     {\vert \psi \rangle}
     &\mapsto&
@@ -239,7 +239,7 @@ The classical triple encoding (eq:ClassicalTripledEncoding) [[linear span|extend
 In terms of [[quantum circuits]] this operation (eq:QuantumTripledEncoding) may be implemented by ${\vert \psi\rangle} \mapsto {\vert \psi \rangle} \otimes {\vert 00 \rangle}$ followed by two [[CNOT gates]] (see [below](#TheProperQuantumCase)). 
 
 
-> This (eq:QuantumTripledEncoding) is a copying operation, namely of the computational [[linear basis|basis]] states. The [[no-cloning theorem]] only rules out that copying be [[natural transformation|natural]] (in particular: independent of the choice of basis), which would instead send ${\vert \psi \rangle}$ to ${\vert \psi \rangle}^{\otimes 3}$.
+> This (eq:QuantumTripledEncoding) is a copying operation, namely of the computational [[linear basis|basis]] states. The *[[no-cloning theorem]]* only rules out that copying be [[natural transformation|natural]] (in particular: independent of the choice of basis), which would instead send general ${\vert \psi \rangle}$ to ${\vert \psi \rangle}^{\otimes 3}$.
 
 A flip of the $i$th qbit now acts as the [[Pauli operator]] $X_i$, hence as
 
@@ -267,7 +267,7 @@ $$
   \,.
 $$
 
-Now, applying the classical strategy [above](#TheClassicalCase) verbatim would mean [[quantum measurement|measuring]] the three qbits in the computational basis. While this would reveal the syndrome, already the first measurement would [[collapse of the wavefunction|collapses]] the [[quantum state]] onto one of its two branches (here ${\vert 010 \rangle}$ or ${\vert 101 \rangle}$, with [[Born rule]] [[probability]] ${\vert \alpha \vert}^2$ or ${\vert \beta \vert}^2$, respectively). This would serve to diagnose the error, but would destroy the quantum state completely: the amplitudes $\alpha, \beta$ (the very data to be protected) would be lost.
+Now, applying the classical strategy [above](#TheClassicalCase) verbatim would mean [[quantum measurement|measuring]] the three qbits in the computational basis. While this would reveal the syndrome, already the first measurement would [[collapse of the wavefunction|collapses]] the [[quantum state]] onto one of its two branches (here ${\vert 010 \rangle}$ or ${\vert 101 \rangle}$, with [[Born rule]] [[probability]] ${\vert \alpha \vert}^2$ or ${\vert \beta \vert}^2$, respectively). This would serve to diagnose the error, but would itself destroy the quantum state completely: the amplitudes $\alpha, \beta$ (the very data to be protected) would be lost.
 
 Notice, however, that the syndrome takes the same value on both branches (here $(s_1, s_2) = (1,1)$ for ${\vert 010 \rangle}$ as well as for ${\vert 101 \rangle}$). 
 
@@ -382,7 +382,7 @@ This is the *3-qbit bit flip code*. Its full [[quantum circuit]] reads as follow
 </div>
 </center>
 
-(The final [[quantum gates|gates]] are [[classically controlled quantum gate|classically controlled]] (double lines) by the [[quantum measurement|measurement]] outcomes.)
+(The final [[quantum gates|gates]] are [[classically controlled quantum gate|classically controlled]] (double lines) by the [[quantum measurement]] outcomes.)
 
 It should be noted here that the quantum correction mechanism (eq:3QBItQECcircuit) is itself nothing but a [[quantum circuit]], hence, when physically executed, is *itself subject to quantum errors*. This is a problem that is solved *in principle* by the [[quantum error threshold theorems]], but *in practice* it makes this and similar codes actually unusable, see the discussion of *Nested codes and Surface codes* [below](#NestedCodesAndSurfaceCodes).
 
@@ -544,7 +544,7 @@ This problem is also known as the *decoding bottleneck* or *decoder bottleneck* 
 To overcome this formidable scenario, the NISQ+QEC field has now turned to speculating on future classical hardware technology where *Application Specific Integrated Circuit* ([ASICs](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) hardware is integrated directly into the ultra-cooled quantum refrigerator (e.g., via specialized "Cryo-CMOS" logic; cf. [Erol 2026](#Erol2026)).  However, this poses severe thermodynamic contradictions: Standard silicon transistors suffer from carrier freeze-out below $\sim 40K$, whence one needs to envision an entire *new kind of classical computing hardware*. More generally, the cooling power at the base of a dilution refrigerator is strictly limited to a few micro-Watts. Therefore, placing a petaflop ASIC chip in near proximity to the quantum device would produce excess heat that under currently understood conditions would destroy the cryogenic environment that the quantum computer relies on.
 
 <center>
-<div style="margin:-40px 0px 00px 0px;">
+<div style="margin:-30px 0px 00px 0px;">
 <img src="/nlab/files/QDecodingBottleneck-Cartoon_26-11-04.jpg" width="700"/>
 </div>
 <small>
@@ -603,19 +603,21 @@ This leads to the further practical problem of equipping the quantum computer wi
 
 
 #### Summary and outlook
+ {#QECPracticalChallengesSummaryAndOutlook}
 
 <center>
 <div style="margin:-20px 0px 00px 0px;">
-<img src="/nlab/files/bump-in-the-QEC-carpet_26-11-05.png" width="700">
+<img src="/nlab/files/bump-in-the-QEC-carpet_26-11-05d.png" width="820">
 </div>
 <small>
-  The strategy of quantum error correction at scale has led to a cascade of subsequent technological problems. The currently dominant strategy for QEC at useful scale is betting on future advances in <i>classical</i> supercomputer technology.
+  <b>Pushing the bump in the carpet around.</b> The strategy of quantum error correction at scale has led to a cascade of subsequent technological problems. The currently dominant strategy for QEC at useful scale is now betting on future advances in <i>classical</i> supercomputer technology, in order to handle the decoding bottleneck and the magic state factory bottleneck of classical compute needed for fixing surface codes, which in turn were introduced to solve the impractical qbit non-locality of QEC.
 </small>
 </center>
 
 
-
 #### References: Practical challenges of QEC
+
+More on the [above](#InPractice) discussion of practical QEC challenges may be found in the following references, with some quotes highlighted:
 
 * {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
   > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
@@ -634,7 +636,7 @@ This leads to the further practical problem of equipping the quantum computer wi
   > "The i/o of signal between qubit and control electronics is a central bottleneck to scaling. \[...\] Many proposals for long-term fault-tolerant quantum computing require qubit numbers that are orders of magnitude greater than the capacity of available fridges, even when accounting for densification of components and reduction of thermal loads per qubit. \[...\] The qubit overheads for the best FT-QEC schemes are daunting, and the implementation of decoding on the time-scale of the quantum gates (clock cycle) remains an open challenge in many leading hardware platforms. \[...\] Systems of 100k qubits would demand large fractions of the yearly world production \[of Helium\] based on naive linear scaling."
 
 * {#Ivezic2026} Marin Ivezic: *[The Decoder Bottleneck: The CRQC Challenge Nobody Is Talking About](https://postquantum.com/quantum-computing/decoder-bottleneck-crqc/)*, PostQuantum (April 2026)
-  > **The Capability Nobody Mentioned** \[...\] The decoder is the classical computer sitting next to the quantum processor, receiving a continuous stream of error syndrome measurements and determining, in real time, what corrections to apply. \[...\] Without a decoder that can keep pace with the quantum hardware, quantum error correction is an offline statistical exercise, not a fault-tolerant computation. A million qubits without a real-time decoder is a million qubits that cannot compute.
+  > "**The Capability Nobody Mentioned** \[...\] The decoder is the classical computer sitting next to the quantum processor, receiving a continuous stream of error syndrome measurements and determining, in real time, what corrections to apply. \[...\] Without a decoder that can keep pace with the quantum hardware, quantum error correction is an offline statistical exercise, not a fault-tolerant computation. A million qubits without a real-time decoder is a million qubits that cannot compute.
 
   > This is the capability dimension that \[...\] is most likely to determine whether a cryptographically relevant quantum computer (CRQC) arrives in 2030 or 2045. It is the classical engineering challenge hiding inside the quantum machine, the piece that connects the quantum physics to the classical computation, and the capability that most threat assessments ignore entirely.
 
@@ -648,7 +650,7 @@ This leads to the further practical problem of equipping the quantum computer wi
 
   > &lbrack;For [superconducting qbits](superconducting+qbits+--+references)&rbrack; the decoder must complete its work within that microsecond to avoid backlog. This is the most demanding timing constraint in the quantum computing stack, and it is why [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) and [ASIC](https://technav.ieee.org/topic/application-specific-integrated-circuits/) implementations are necessary: software decoders running on conventional CPUs cannot reliably meet microsecond deadlines for codes at the distances required for cryptographic applications. The superconducting decoder challenge is fundamentally a hardware problem. The algorithm must be compiled into dedicated circuitry ([FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) or [ASIC](https://technav.ieee.org/topic/application-specific-integrated-circuits/)) that executes in deterministic time, without the variable-latency interrupts, cache misses, and scheduling jitter that make general-purpose CPUs unsuitable for hard real-time constraints.
 
-  > &lbrack;...&rbrack; The gap between current decoder demonstrations and CRQC requirements is large and precisely quantifiable. \[...\] The progress curve is steep. But the destination \[...\] remains far ahead.
+  > &lbrack;...&rbrack; The gap between current decoder demonstrations and CRQC requirements is large and precisely quantifiable. \[...\] The progress curve is steep. But the destination \[...\] remains far ahead."
 
 
 * {#NKM2026} Kris Naudts, Zeynep Koruturk, Donald Harmitt: *[The Quantum Bottleneck Isn't Error Correction, It's the Magic State Factory](https://firgun.vc/insights/quantum-bottleneck-magic-state-factory)*, Firgun Ventures Insight (July 2026)
@@ -656,8 +658,7 @@ This leads to the further practical problem of equipping the quantum computer wi
 * {#MahmudEtAl2026} Mahmud et al.: *Decoder Architectures and Computational Bottlenecks in QEC*: section IV of: *Quantum Error Correction Survey*,  IEEE Access **14** (Sep 2026) 154233--154277 &lbrack;[doi:10.1109/ACCESS.2026.3737721](https://doi.org/10.1109/ACCESS.2026.3737721)&rbrack;
 
 * {#Canton2026} Manuel Esparcia Cantos: *[Decoders: The Quiet Bottleneck of Quantum Error Correction](https://www.linkedin.com/pulse/decoders-quiet-bottleneck-quantum-error-correction-esparcia-cantos-er0ve)*, LinkedIn (8. Oct 2026)
-
-  > &lbrack;Quantum error&rbrack; correction is a hard computational problem that has to be solved by a classical computer, in real time, faster than the quantum computer produces the next round of errors. This is the decoder, and it is one of the field's quietest and most underappreciated bottlenecks.
+  > "&lbrack;Quantum error&rbrack; correction is a hard computational problem that has to be solved by a classical computer, in real time, faster than the quantum computer produces the next round of errors. This is the decoder, and it is one of the field's quietest and most underappreciated bottlenecks.
 
   > This article is about the problem almost no popular account mentions. Everyone talks about qubits and codes; far fewer talk about the classical machine that has to keep up with them. Yet a fault-tolerant quantum computer is impossible without a decoder that is simultaneously accurate enough to correct the errors and fast enough to do it before the backlog explodes.
 
@@ -667,7 +668,7 @@ This leads to the further practical problem of equipping the quantum computer wi
 
   > The decoder is where a beautiful theory meets an unforgiving stopwatch. All the elegance of stabilizer codes and the guarantee of the threshold theorem assume, quietly, that a decoder exists which is accurate enough and fast enough. That assumption is doing enormous work. A code below threshold with a decoder too slow to keep up is not fault-tolerant in practice, no matter how good the qubits are. The classical co-processor is not a footnote to the quantum computer; it is part of the quantum computer.
 
-  > &lbrack;...&rbrack; There is a genuine tension the field has not fully resolved: the most accurate decoders tend to be the slowest, and the fastest tend to be less accurate. The whole game is beating that trade-off, and the platform that first fields a decoder both accurate enough and fast enough at scale removes one of the last quiet obstacles between below-threshold hardware and a working machine.
+  > &lbrack;...&rbrack; There is a genuine tension the field has not fully resolved: the most accurate decoders tend to be the slowest, and the fastest tend to be less accurate. The whole game is beating that trade-off, and the platform that first fields a decoder both accurate enough and fast enough at scale removes one of the last quiet obstacles between below-threshold hardware and a working machine."
 
 \linebreak
 
