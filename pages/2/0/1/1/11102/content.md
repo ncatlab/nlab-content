@@ -19,7 +19,7 @@ On the [[Adams conjecture]]:
 
 
 
-On [[equivariant complex oriented cohomology theory]]:
+On [[equivariant orientation theory]]:
 
 * [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
 Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
