@@ -65,6 +65,10 @@ and of aspects of [[Seiberg-Witten theory]]:
 
 * [[Michael R. Douglas]]: *Axioms for physical reasoning: codifying the Seiberg--Witten solution in Lean* &lbrack;[arXiv:2607.06379](https://arxiv.org/abs/2607.06379)&rbrack;
 
+Formalization in [[Lean]] of [[vertex operator algebra]]:
+
+* Fedor K. Popov, [[Leonardo Rastelli]]: *Vertex Operator Algebras in Lean: a formal library and its companion book* &lbrack;[arXiv:2611.06616](https://arxiv.org/abs/2611.06616)&rbrack;
+
 
 
 [[!redirects high-energy physics]]
