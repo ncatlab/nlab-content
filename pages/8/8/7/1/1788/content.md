@@ -6,7 +6,6 @@
 
 ***
 
-[[bump-in-the-QEC-carpet_26-11-05.png:file]]
 
 
 ...
