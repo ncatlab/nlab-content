@@ -6,22 +6,22 @@ References on [[higher curvature corrections]] and their [[flux]] and [[fermion]
 #### Reviews and overviews
 {#HigherCurvatureReviews}
 
-* {#Howe04} [[Paul Howe]]: _$R^4$ terms in supergravity and M-theory_, contribution to _Deserfest: A Celebration of the Life and Works of Stanley Deser_ (preprint 2004) 137--149 &lbrack;[arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177), [inspire:657136](https://inspirehep.net/literature/657136)&rbrack;
+* {#Howe04} [[Paul Howe]]: _$R^4$ terms in supergravity and M-theory_, contribution to _Deserfest: A Celebration of the Life and Works of Stanley Deser_ (preprint 2004) 137--149 \[<a href="https://arxiv.org/abs/hep-th/0408177">arXiv:hep-th/0408177</a>, [inspire:657136](https://inspirehep.net/literature/657136)\]
 
-* {#OzkanPangSezgin24} Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], _Higher Derivative Supergravities in Diverse Dimensions_, Physics Reports **1086** (2024) 1--95 &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945), <a href="https://doi.org/10.1016/j.physrep.2024.07.002">doi:10.1016/j.physrep.2024.07.002</a>&rbrack;
+* {#OzkanPangSezgin24} Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], _Higher Derivative Supergravities in Diverse Dimensions_, Physics Reports **1086** (2024) 1--95 \[<a href="https://doi.org/10.1016/j.physrep.2024.07.002">doi:10.1016/j.physrep.2024.07.002</a>, [arXiv:2401.08945](https://arxiv.org/abs/2401.08945)\]
 
 #### Anomaly cancellation and the gravitational Chern-Simons coupling
 {#AnomalyOriginOfI8}
 
 On the origin and consistency of the coupling $C_3\wedge I_8$ to the [[I8]] term, its relation to [[M5-brane]] [[anomaly cancellation]], and the gravitational contribution to [[C-field flux quantization]]:
 
-* {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]], _A One-Loop Test of String Duality_, Nuclear Physics B **447** (1995) 261--270 &lbrack;[arXiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053)&rbrack;
+* {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]], _A One-Loop Test of String Duality_, Nuclear Physics B **447** (1995) 261--270 \[<a href="https://arxiv.org/abs/hep-th/9505053">arXiv:hep-th/9505053</a>\]
 
-* {#DuffLiuMinasian95} [[Mike Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nuclear Physics B **452** (1995) 261--282 &lbrack;[arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126)&rbrack;
+* {#DuffLiuMinasian95} [[Mike Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nuclear Physics B **452** (1995) 261--282 \[<a href="https://arxiv.org/abs/hep-th/9506126">arXiv:hep-th/9506126</a>\]
 
-* {#Witten96} [[Edward Witten]], _On Flux Quantization in M-Theory and the Effective Action_, Journal of Geometry and Physics **22** (1997) 1--13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122)&rbrack;
+* {#Witten96} [[Edward Witten]]: _On Flux Quantization in M-Theory and the Effective Action_, Journal of Geometry and Physics **22** (1997) 1--13 \[<a href="https://arxiv.org/abs/hep-th/9609122">arXiv:hep-th/9609122</a>\]
 
-* {#FHMM98} [[Daniel Freed]], [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Advances in Theoretical and Mathematical Physics **2** (1998) 601--618 &lbrack;[arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205)&rbrack;
+* {#FHMM98} [[Daniel Freed]], [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]]: _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Advances in Theoretical and Mathematical Physics **2** (1998) 601--618 \[<a href="https://arxiv.org/abs/hep-th/9803205">arXiv:hep-th/9803205</a>\]
 
 For the superspace analysis of this coupling, see [below](#I8SuperspaceDeformation).
 
@@ -33,9 +33,9 @@ For the superspace analysis of this coupling, see [below](#I8SuperspaceDeformati
 
 Via deformations of [[superspace]] [[torsion constraints in supergravity|torsion constraints]] and the cohomology controlling supersymmetric deformations:
 
-* {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.), Proceedings of _Quantization, Gauge Theory & Strings_, Moscow 2000 &lbrack;[arXiv:hep-th/0010042](https://arxiv.org/abs/hep-th/0010042)&rbrack;
+* {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.), Proceedings of _Quantization, Gauge Theory & Strings_, Moscow (2000_ \[<a href="https://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
 
-* {#CNT02} [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Spinorial cohomology and maximally supersymmetric theories_, JHEP **02** (2002) 009 &lbrack;[arXiv:hep-th/0110069](https://arxiv.org/abs/hep-th/0110069), <a href="https://doi.org/10.1088/1126-6708/2002/02/009">doi:10.1088/1126-6708/2002/02/009</a>&rbrack;
+* {#CNT02} [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Spinorial cohomology and maximally supersymmetric theories_, JHEP **02** (2002) 009 \[<a href="https://doi.org/10.1088/1126-6708/2002/02/009">doi:10.1088/1126-6708/2002/02/009</a>, [arXiv:hep-th/0110069](https://arxiv.org/abs/hep-th/0110069)\]
 
 * {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP **10** (2004) 046 &lbrack;[arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271), <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>&rbrack;
   > Includes the relation between the order-$\ell^3$ deformation and a shift of four-form flux quantization.
