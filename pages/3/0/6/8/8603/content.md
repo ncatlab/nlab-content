@@ -1,8 +1,15 @@
 * [website](https://www.preschema.com)
 
-Master's thesis:
+## Selected writings
 
-* [[Adeel Khan]], _On derived categories and noncommutative motives of varieties_, [arXiv](http://arxiv.org/abs/1401.7222).
+On [[derived categories]] and [[noncommutative motives]]:
+
+* [[Adeel Khan]]: _On derived categories and noncommutative motives of varieties_, MSc thesis &lbrack;[arXiv:1401.7222](http://arxiv.org/abs/1401.7222)&rbrack;
+
+On [[equivariant elliptic cohomology]]:
+
+* Emile Bouaziz, [[Adeel A. Khan]]: *Equivariant elliptic cohomology via loop spaces* \[<a href="https://arxiv.org/abs/2611.05707">arXiv:2611.05707</a>\]
+
 
 ## Related entries
 
@@ -16,3 +23,4 @@ category: people
 
 [[!redirects Adeel Khan Yusufzai]]
 [[!redirects Adeel Ahmad Khan]]
+[[!redirects Adeel A. Khan]]
