@@ -244,7 +244,10 @@ Monographs:
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
-* Arthur A. Sagle, Ralph E. Walde: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215-227
+* Arthur A. Sagle, Ralph E. Walde: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215--227
+
+* {#Humphreys72} [[James Humphreys]]: *Introduction to Lie Algebras and Representation Theory*, Graduate Texts in Mathematics **9**, Springer (1972) &lbrack;[doi:10.1007/978-1-4612-6398-2](https://doi.org/10.1007/978-1-4612-6398-2)&rbrack;
+
 
 * [[Nicolas Bourbaki]], _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
 
