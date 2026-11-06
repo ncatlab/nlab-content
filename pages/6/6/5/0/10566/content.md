@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -27,3 +25,4 @@ A formula for the [[character]] of [[irreducible representations]] of a [[compac
 
 * Wikipedia, _[Weyl character formula](http://en.wikipedia.org/wiki/Weyl_character_formula)_
 
+[[!redirects Weyl character formulas]]
