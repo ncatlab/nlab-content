@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -167,3 +166,11 @@ See also:
 
 [[!redirects Moonshine vertex algebras]]
 [[!redirects moonshine vertex algebras]]
+
+[[!redirects moonshine module]]
+[[!redirects moonshine modules]]
+
+[[!redirects Moonshine module]]
+[[!redirects Moonshine modules]]
+
+
