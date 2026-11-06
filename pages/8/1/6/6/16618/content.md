@@ -97,7 +97,7 @@ The use of extension systems (there called [[Kleisli triples]]) as [[monads in c
 
 This way of presenting a monad is also closely related to [[continuation-passing style]], as described in
 
-* [[Andrzej Filinski]], _Representing Monads_, POPL 1994. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.8213&rep=rep1&type=pdf))
+* [[Andrzej Filinski]]. 1994. [Representing monads](https://dl.acm.org/doi/10.1145/174675.178047), [(pdf)](https://web.archive.org/web/20130527112749/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.8213&rep=rep1&type=pdf). In Proceedings of the 21st ACM SIGPLAN-SIGACT symposium on Principles of programming languages (POPL '94). Association for Computing Machinery, New York, NY, USA, 446–457. https://doi.org/10.1145/174675.178047
 
 
 Generalization to [[pseudomonads]]:
