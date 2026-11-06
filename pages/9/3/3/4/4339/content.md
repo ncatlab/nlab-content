@@ -34,6 +34,7 @@ Examples include:
 *  The [[improper filter]] is not an [[ultrafilter]].
 *  An [[empty function]] is not a [[constant function]].
 *  A [[bottom element]] is not an [[atom]].
+*  A group [[action]] on the [[empty set]] is not a [[transitive action]].
 
 But of course one may still find definitions used that disagree (see discussion at [[connected space]] and [[empty space]], for example; and see [[possibly trivial field]] and [[possibly trivial integral domain]] for how to modify these to allow the trivial ring constructively).
 
