@@ -5,7 +5,7 @@
 
 Let $(X,\rightarrow)$ be an [[abstract rewriting system]], i.e., a [[set]] equipped with a [[binary relation]] $\rightarrow$. Write $\rightarrow^{*}$ for the [[reflexive-transitive closure]] of $\rightarrow$. We say that $\rightarrow$ is __confluent__ iff for every $a,b,c \in X$ such that $a \rightarrow^* b$ and $a \rightarrow^* c$, there exists $d \in X$ such that $b \rightarrow^{*} d$ and $c \rightarrow^{*} d$.
 
-Note that only $\rightarrow^{*}$ occurs in the definition of confluence, not the underlying $\rightarrow$. Confluence can therefore be reframed as a property on a [[preorder]].
+Note that only $\rightarrow^{*}$ occurs in the definition of confluence, not the underlying $\rightarrow$. Confluence can therefore be reframed as a property of a [[preorder]].
 
 ## Strong normalization 
 
