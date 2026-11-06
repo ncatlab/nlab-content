@@ -10,10 +10,8 @@
 =--
 =--
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -215,6 +213,28 @@ By example \ref{CoveringSpaceFundamentalGroupoid}.
 =--
 
 
+## In homotopy theory
+ {#InHomotopyTheory}
+
+More generally, given a [[Serre fibration]] $p$,
+
+$$
+  \begin{array}{ccc}
+    F &\hookrightarrow& E
+    \\
+    \big\downarrow 
+      &^{_{(pb)}}& 
+    \big\downarrow\mathrlap{^p}
+    \\
+    \ast &\longrightarrow& B
+  \end{array}
+$$
+
+over a [[connected topological space]] $B$, there is a canonical [[group action]] of the [[fundamental group]] $\pi_1(B)$ of the base space on the higher [[homotopy groups]] $\pi_{\bullet \geq 1}(F)$ of the [[fiber]] space, by [[group]] [[automorphisms]].
+
+(cf. [Steenrod 1951 §17](#Steenrod1951), [Whitehead 1978, §4.2](#Whitehead1978), [Spanier 1981 §7.2](#Spanier1981), [May 1999 May19997.3](#May1999), [UFP 2013 §2.3 & §4.8](#UFP13))
+
+
 
 ## In cohesive $\infty$-Toposes
 
@@ -224,6 +244,23 @@ Specifically, the restriction $\mathbf{B}\Omega_x \Pi(X) \hookrightarrow \Pi(X) 
 
 ## References
 
-* [[eom]], _[Monodromy transformation](https://encyclopediaofmath.org/wiki/Monodromy_transformation)_
+Discussion in [[topological homotopy theory|topological]] [[homotopy theory]]:
+
+* {#Steenrod1951} [[Norman Steenrod]], Section 17 of: _The Topology of Fibre Bundles_, Princeton Mathematical Series **14**, Princeton University Press (1951) &#91;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&#93;
+
+* {#Whitehead1978} [[George Whitehead]], Section IV.3 of: _Elements of Homotopy Theory_, Graduate Texts in Mathematics **61**, Springer (1978) &#91;[doi:10.1007/978-1-4612-6318-0](https://doi.org/10.1007/978-1-4612-6318-0)&#93;
+
+* {#Spanier1981} [[Edwin Spanier]], Section 7.2 of: _Algebraic Topology_, McGraw-Hill (1966), Springer (1981) &#91;7[doi:10.1007/978-1-4684-9322-1](https://doi.org/10.1007/978-1-4684-9322-1)&#93;
+
+* {#May1999} [[Peter May]], Section 7.3 of: _[[A Concise Course in Algebraic Topology]]_, University of Chicago Press (1999) &#91;[ISBN:9780226511832](https://press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)&#93;
+
+Formulation in [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]]; section 2.3 & 4.8 of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013) &#91;[web](https://homotopytypetheory.org/book/), [pdf](https://homotopytypetheory.org/book/hott-online.pdf)&#93;
+
+See also:
+
+* [[eom]]: _[Monodromy transformation](https://encyclopediaofmath.org/wiki/Monodromy_transformation)_
+
 
 [[!redirects monodromies]]
