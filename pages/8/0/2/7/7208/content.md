@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -285,4 +284,7 @@ On non-[[trivial representation|trivial]] [[finite-dimensional vector space|fini
 
 [[!redirects generalized Cartan matrix]]
 [[!redirects generalized Cartan matrices]]
+
+[[!redirects Serre relation]]
+[[!redirects Serre relations]]
 
