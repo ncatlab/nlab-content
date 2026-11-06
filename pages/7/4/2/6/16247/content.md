@@ -15,15 +15,15 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
 A [[Dynkin diagram]] is a labeled graph that possesses a one-to-one correspondence with a finite indecomposable reduced [[root system]], thus with a simple complex finite dimensional [[Lie algebra]] or [[Cartan matrix]]. 
 
-The construction of a [[Dynkin diagram]] from the [[Cartan Matrix]], $A = (a_{i,j})_{i,j=1}^n$ is obtained from the following procedure:
+The construction of a [[Dynkin diagram]] from the [[Cartan matrix]], $A = (a_{i,j})_{i,j=1}^n$ is obtained from the following procedure:
 
 1. Number of vertices = Number of simple roots = size of $A$ = n
 
