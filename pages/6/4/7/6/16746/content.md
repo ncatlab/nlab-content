@@ -110,17 +110,17 @@ If $\{X_i\}_{i \in I}$ is an arbitrary family of spaces such that any finite pro
 ###### Proof 
 Suppose otherwise, that $\{U_\alpha\}_{\alpha \in A}$ is an uncountable collection of pairwise disjoint inhabited open sets of $X$. Shrinking them if necessary, we may suppose each $U_\alpha$ is a basic open of the form $\prod_{i \in F_\alpha} U_{\alpha, i} \times \prod_{i \notin F_\alpha} X_i$, where $F_\alpha \subseteq I$ is a finite set. The collection $\{F_\alpha\}$ has a sunflower by the Sunflower Lemma, say with common core $S$, and without loss of generality we may suppose $\{F_\alpha\}$ *is* that sunflower (i.e., that the $\alpha$\'s used to index the sunflower are just the $\alpha \in A$: throw away any other $\alpha \in A$). Let $\pi_S: X \to \prod_{i \in S} X_i$ be the obvious projection map. We first claim that the sets $\pi_S(U_\alpha)$ are pairwise disjoint, a purely set-theoretic matter. 
 
-Suppose instead $u \in \pi_S(U_\alpha) \cap \pi_S(U_{\alpha'})$. Regard $u \in \prod_{i \in S} X_i$ as a section of the canonical projection $\sum_{i \in S} X_i \to S$. That it belongs to $\pi_S(U_\alpha)$ simply means it extends to some section $\sigma$ of the canonical map $\sum_{i \in A} X_i \to A$ such that the restriction of $\sigma$ to $F_\alpha$ factors through the inclusion $\sum_{i \in F_\alpha} U_{\alpha, i} \hookrightarrow \sum_{i \in A} X_i$, as on the left half of the following diagram: 
+Suppose instead $u \in \pi_S(U_\alpha) \cap \pi_S(U_{\alpha'})$. Regard $u \in \prod_{i \in S} X_i$ as a section of the canonical projection $\sum_{i \in S} X_i \to S$. That it belongs to $\pi_S(U_\alpha)$ simply means it extends to some section $\sigma$ of the canonical map $\sum_{i \in I} X_i \to I$ (meaning ${\sigma|}_S = u$), such that the restriction of $\sigma$ to $F_\alpha$ factors through the inclusion $\sum_{i \in F_\alpha} U_{\alpha, i} \hookrightarrow \sum_{i \in I} X_i$ via a partial section $v$, as seen on the left half of the following diagram: 
 
 $$\array{
-\sum_{i \in F_\alpha} U_{\alpha, i} & \hookrightarrow & \sum_{i \in A} X_i & \hookleftarrow & \sum_{i \in F_{\alpha'}} U_{\alpha', i} \\ 
+\sum_{i \in F_\alpha} U_{\alpha, i} & \hookrightarrow & \sum_{i \in I} X_i & \hookleftarrow & \sum_{i \in F_{\alpha'}} U_{\alpha', i} \\ 
 \mathllap{\exists v} \uparrow & & \mathllap{\sigma} \uparrow \uparrow \mathrlap{\sigma'} & & \uparrow \mathrlap{\exists w} \\ 
-F_\alpha & \hookrightarrow & A & \hookleftarrow & F_{\alpha'}\\ 
+F_\alpha & \hookrightarrow & I & \hookleftarrow & F_{\alpha'}\\ 
  & \nwarrow & & \nearrow & \\ 
  & & S & & 
 }$$ 
 
-Similarly there is a section $\sigma': A \to \sum_{i \in A} X_i$ and a partial section $w$, as shown on the right half. With the partial sections $v$ and $w$ in hand, amalgamate them to a partial section over the union $F_\alpha \cup F_{\alpha'}$ (we can do this, as $v: F_\alpha \to \sum_{i \in A}$ and $w: F_{\alpha'} \to \sum_{i \in A} X_i$ both restrict to the same map $u$ on the intersection $S = F_\alpha \cap F_{\alpha'}$). Then extend the amalgamation $v \cup w$ however you please to a full section $\sigma'': A \to \sum_{i \in A} X_i$. This $\sigma''$ belongs to both $U_\alpha$ and $U_{\alpha'}$, contradicting their disjointness, and proving the claim. 
+Similarly there is a section $\sigma': I \to \sum_{i \in I} X_i$ and a partial section $w$, as shown on the right half. With the partial sections $v$ and $w$ in hand, amalgamate them to a partial section over the union $F_\alpha \cup F_{\alpha'}$ (we can do this, as $v: F_\alpha \to \sum_{i \in I} X_i$ and $w: F_{\alpha'} \to \sum_{i \in I} X_i$ both restrict to the same map $u$ on the intersection $S = F_\alpha \cap F_{\alpha'}$). Then extend the amalgamation $v \cup w$ however you please to a full section $\sigma'': I \to \sum_{i \in I} X_i$. This $\sigma''$ belongs to both $U_\alpha$ and $U_{\alpha'}$, contradicting their disjointness, and proving the claim. 
 
 Thus the $\pi_S(U_\alpha)$ form an uncountable collection of open, inhabited, pairwise disjoint sets, contradicting the countable chain condition hypothesis on the finite product $\prod_{i \in S} X_i$. With this the proof is complete. 
 =-- 
