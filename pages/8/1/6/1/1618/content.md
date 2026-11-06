@@ -212,9 +212,9 @@ A [[local topos]] $(\Delta \dashv \Gamma \dashv coDisc) : E \to Set$ has a canon
 
 ### Over $\infty$-cohesive sites
 
-* Let [[Diff]] be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has precisely one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to the $n$-ball: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls.
+* Let [[Diff]] be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to a point in $\R^n$: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls around a fixed point. This family of points is jointly conservative, i.e. sufficient to prove that $Sh(Diff)$ has enough points, though other points also exist.
 
-  This is discussed for instance in ([Dugger, p. 36](#Dugger)) in the context of the [[model structure on simplicial presheaves]].
+  The family $(p_n)$ is discussed for instance in ([Dugger, p. 36](#Dugger)) in the context of the [[model structure on simplicial presheaves]].
 
 
 
