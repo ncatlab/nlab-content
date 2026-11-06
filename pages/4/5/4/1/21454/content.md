@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -38,6 +37,7 @@ In [[gauged supergravity]] the [[gauge symmetry|gauging]] of a [[subgroup]] of a
 
 * [[adjusted Weil algebra]]
 
+* [[Borcherds algebra]]
 
 ## References
 
@@ -80,3 +80,7 @@ survey and review:
 
 
 [[!redirects tensor hierarchies]]
+
+[[!redirects tensor hierarchy algebra]]
+[[!redirects tensor hierarchy algebras]]
+
