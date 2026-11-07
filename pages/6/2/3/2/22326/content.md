@@ -58,6 +58,11 @@ On the supersymmetric completion of $C_3\wedge I_8$, the corresponding deformati
 
 * {#Soueres18} [[Bertrand Souères]], _Supergravities in Superspace_, doctoral thesis, Lyon (2018) &lbrack;[tel:01998725](https://theses.hal.science/tel-01998725), [pdf](https://theses.hal.science/tel-01998725/document)&rbrack;
 
+An [LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]], so far to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]]:
+
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&dl=0">db</a>\]
+
+
 #### Component supersymmetry and the Noether procedure
 {#ComponentSupersymmetryCorrections}
 
