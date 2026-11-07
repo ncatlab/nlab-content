@@ -13,7 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of choice for its confinality (which might be as low as omega-naught). 
+A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of dependent choice for its confinality (which might be as low as omega-naught). That is, if $\gamma = \operatorname{cf}(\delta_0)$ is the cofinality of the least Berkeley cardinal δ₀, then γ-DC must fail; however, $\operatorname{cf}(\delta_0)$ is independent of ZF (and can be uncountable relative to a club Berkeley cardinal, in fact it is possible that this cofinality is equal to the cardinal itself), so Berkeley cardinals remain compatible with Countable Choice and (countable) Dependent Choice but not with the full Axiom of Choice.
 
 ## Definition
 
