@@ -80,6 +80,8 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 * [[moduli space of monopoles]]
 
+* [[IR-completion]]
+
 \linebreak
 
 
