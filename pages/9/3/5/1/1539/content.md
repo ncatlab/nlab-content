@@ -54,7 +54,7 @@ Equivalently, in addition to finite limits and colimits and local cartesian clos
 +-- {: .un_prop}
 ###### Definition/Proposition
 
-Let $C$ be a category with two [[Grothendieck topologies]] $J$ and $K$ such that $J\subseteq K$.  The [[full subcategory]] $BiSep(C,J,K) \hookrightarrow PSh(C)$ of the [[category of presheaves]] over $C$ consisting of the [[sheaves]] for $J$ that are also [[separated presheaves|separated]] for $K$ is a quasitopos.  A category equivalent to such a category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].
+Let $C$ be a small category with two [[Grothendieck topologies]] $J$ and $K$ such that $J\subseteq K$.  The [[full subcategory]] $BiSep(C,J,K) \hookrightarrow PSh(C)$ of the [[category of presheaves]] over $C$ consisting of the [[sheaves]] for $J$ that are also [[separated presheaves|separated]] for $K$ is a quasitopos.  A category equivalent to such a category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].
 
 =--
 
