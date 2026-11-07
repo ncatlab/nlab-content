@@ -14,9 +14,8 @@
 =--
 
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -205,5 +204,8 @@ Consideration of the relation of mathematical proof to physics icludes
 
 [[!redirects rigorous proof]]
 [[!redirects rigorous proofs]]
+
+[[!redirects mathematical proof]]
+[[!redirects mathematical proofs]]
 
 category: logic
