@@ -113,11 +113,25 @@ and specifically via the [[superembedding approach]]:
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
 
+
+On [[Borcherds algebras]] controlling [[Bianchi identities]] of [[supergravity]] [[flux densities]] in [[superspace]], including form degrees beyond the spacetime dimension:
+
+* {#GreitzHowe11a} [[Jesper Greitz]], [[Paul Howe]]: *Maximal supergravity in three dimensions: supergeometry and differential forms*, JHEP **07** (2011) 071 &lbrack;[arXiv:1103.2730](https://arxiv.org/abs/1103.2730), <a href="https://doi.org/10.1007/JHEP07(2011)071">doi:10.1007/JHEP07(2011)071</a>&rbrack;
+
+* {#GreitzHowe11b} [[Jesper Greitz]], [[Paul Howe]]: *Maximal supergravity in $D=10$: forms, Borcherds algebras and superspace cohomology*, JHEP **08** (2011) 146 &lbrack;[arXiv:1103.5053](https://arxiv.org/abs/1103.5053), <a href="https://doi.org/10.1007/JHEP08(2011)146">doi:10.1007/JHEP08(2011)146</a>&rbrack;
+
+* {#GreitzHowe12} [[Jesper Greitz]], [[Paul Howe]]: *Half-maximal supergravity in three dimensions: supergeometry, differential forms and algebraic structure*, JHEP **06** (2012) 177 &lbrack;[arXiv:1203.5585](https://arxiv.org/abs/1203.5585), <a hre="https://doi.org/10.1007/JHEP06(2012)177">doi:10.1007/JHEP06(2012)177</a>&rbrack;
+
+* {#HowePalmkvist15} [[Paul Howe]], [[Jakob Palmkvist]]: *Forms and algebras in (half-)maximal supergravity theories*, JHEP **05** (2015) 032 &lbrack;[arXiv:1503.00015](https://arxiv.org/abs/1503.00015), <a href="https://doi.org/10.1007/JHEP05(2015)032">doi:10.1007/JHEP05(2015)032</a>&rbrack;
+
+
+
+
 On [[tensor hierarchies]] in [[gauged supergravity]]:
 
-* Jesper Greitz, [[Paul Howe]], [[Jakob Palmkvist]], _The tensor hierarchy simplified_, Class. Quantum Grav. 31 (2014) 087001 ([arXiv:1308.4972](https://arxiv.org/abs/1308.4972))
+* [[Jesper Greitz]], [[Paul Howe]], [[Jakob Palmkvist]]: _The tensor hierarchy simplified_, Class. Quantum Grav. **31** (2014) 087001 &lbrack;[arXiv:1308.4972](https://arxiv.org/abs/1308.4972)&rbrack;
 
-On [[D=6 supergravity]] formukated on [[free loop space]]:
+On [[D=6 supergravity]] formulated on [[free loop space]]:
 
 * [[Paul S. Howe]], U. Lindström: *Exotic gravity theory in loop space* &lbrack;[arXiv:2412.16292](https://arxiv.org/abs/2412.16292)&rbrack;
 
