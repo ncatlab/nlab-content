@@ -30,6 +30,7 @@ A key example of a non-renormalizable QFT is [[Einstein gravity]], and there is 
 Issues that the program of asymptotic safety of gravity is facing include the following:
 
 ### Theoretical issues
+ {#TheoreticalIssues}
 
 1. All existing computations that see hints for a UV-fixed point do so by first applying a drastic truncation to the space of couplings, and then checking only whether there is a UV-fixed point for the RG-flow in the remaining small subspace. It seems unclear to which extent these approximate considerations may be extrapolated.
 
