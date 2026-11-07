@@ -191,7 +191,6 @@ and with [[HoTT]] targets ([[Agda]]):
 
 
 
-
 [[!include coupling proof assistants with machine learning -- references]]
 
 
@@ -211,6 +210,8 @@ and with [[HoTT]] targets ([[Agda]]):
 
 [[!redirects language model]]
 [[!redirects language models]]
+[[!redirects large language model]]
+[[!redirects large language models]]
 [[!redirects LLM]]
 [[!redirects LLMs]]
 
