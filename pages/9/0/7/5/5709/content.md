@@ -1309,7 +1309,7 @@ On [[neutrino]] [[masses]] and the [[standard model of particle physics]] as an 
 ### String theory and gravity coupled to gauge theory
  {#StringTheoryAndGravityCoupledToGaugeTheory}
 
-The [[string scattering amplitudes]] for [[superstrings]] are finite (fully proven so for low loop order and with various plausibility arguments for higher loop order, see at _[[string scattering amplitudes]]_ for more), hence define a UV-complete [[S-matrix]]. The corresponding low energy effective field theories are theories of [[supergravity]] coupled to [[gauge theory]]. ([[type II supergravity]], [[heterotic supergravity]]).
+The [[string scattering amplitudes]] for [[superstrings]] are finite (fully proven so for low loop order and with various plausibility arguments for higher loop order, see at _[[string scattering amplitudes]]_ for more), hence define a [[UV-completion|UV-complete]] [[S-matrix]]. The corresponding low energy effective field theories are theories of [[supergravity]] coupled to [[gauge theory]]. ([[type II supergravity]], [[heterotic supergravity]]).
 
 See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#WhatIsStringTheory)_.
 
@@ -1557,7 +1557,3 @@ For more see at _[[landscape of string theory vacua]]_.
 [[!redirects effective low-energy field theory]]
 
 
-[[!redirects UV-completion]]
-[[!redirects UV completion]]
-[[!redirects UV-completions]]
-[[!redirects UV completions]] 
