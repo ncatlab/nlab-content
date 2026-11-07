@@ -1,8 +1,9 @@
 
-### Coupling proof assistants with machine learning
+
+### On neural theorem proving
  {#CouplingProofAssistantsWithMachineLearningReferences}
 
-On coupling [[proof assistants]] with [[machine learning]]:
+On [[large language models]] producing [[mathematical proof]], notably in conjunction with [[proof assistants]]:
 
 * Li-An Yang et al, *Automatically Proving Mathematical Theorems with Evolutionary Algorithms and Proof Assistants* \[<a href="https://arxiv.org/abs/1602.07455">arXiv:1602.07455</a>\]
 
