@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -94,6 +94,7 @@ But some of these statements have been interpreted in special cases as more prec
 
 
 ### No global symmetries conjecture
+ {#NoGlobalSymmetriesConjecture}
 
 \begin{conjecture}
 A theory coupled to [[gravity]] must have no global symmetries, which means that they are either broken or gauged. 
@@ -104,6 +105,7 @@ This includes global $p$-form symmetries as well as global discrete symmetries.
 ### Completeness hypothesis
 
 \begin{conjecture}
+**([[Polchinski completeness hypothesis]])**
 A [[gauge theory]] coupled to [[gravity]] must contain physical states with all possible gauge charges consistent with [[Dirac charge quantization]].
 \end{conjecture}
 
