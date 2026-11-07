@@ -13,7 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with [[countable choice]]. In order to remove the inconsistency, one has to remove the [[axiom of countable choice]] to get bare [[ZF]] + a Berkeley cardinal. 
+A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of choice for its confinality (which might be as low as omega-naught). 
 
 ## Definition
 
