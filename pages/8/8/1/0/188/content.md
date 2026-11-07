@@ -165,6 +165,7 @@ $$\left(\sum_{i = 0}^{\mathrm{len}(a) - 1} a(i)\right) + \left(\sum_{i = 0}^{\ma
 
 * A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often known (especially outside category theory) as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
 * The set of [[endomorphism|endomorphisms]] of a given object in a category has a canonical monoid structure given by composition. 
+* The set of homeomorphism classes $M$ of compact connected surfaces is an additive monoid, with composition defined by mapping the pair $(\sigma, \sigma')$ of homeomorphism classes of surfaces $S,S'$ to the homeomorphism class $\sigma + \sigma'$ of a surface obtained through gluing $S-D_0$ with $S'-D'_0$ by identifying a circle $C=D/D_0$ in $S$ with $C'=D'/D'_0$ in $S'$ for some disks $D,D'$ with interiors $D_0,D'_0$.
 
 
 ## Remarks on notation
@@ -283,6 +284,10 @@ For more on the history of the notion:
 * {#Hollings09} Christopher Hollings, *The Early Development of the Algebraic Theory of Semigroups*, Archive for History of Exact Sciences **63** (2009) 497–536 &lbrack;[doi:10.1007/s00407-009-0044-3](https://doi.org/10.1007/s00407-009-0044-3)&rbrack;
 
 * Math.SE, *[Who invented Monoid?](https://mathoverflow.net/q/338281/381)*
+
+Introductory remarks on monoids in algebra seen in:
+
+* _[[Serge Lang]]. Algebra, Graduate Texts in Mathematics 211, Springer (2002); [doi:10.1007/978-1-4613-0041-0]
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
