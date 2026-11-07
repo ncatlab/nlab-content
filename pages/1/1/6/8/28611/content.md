@@ -31,7 +31,7 @@ where the minimality clause is further explained to mean that:
 
 > "more precisely, the [[lattice (discrete subgroup)|lattice]] of electric and magnetic [[charges]] is maximal."
 
-The term "completeness hypothesis" for this statement appears in [Banks & Seiberg 2011 p. 1](#BanksSeiberg2011). Cf. also [Harlow & Ooguri 2021 p. 1](#HarlowOoguri2021). A precise formulation appears in [SS 2025 Rem. 4.5 (v)](#SS2025).
+The term "completeness hypothesis" for this statement appears in [Banks & Seiberg 2011 p. 1](#BanksSeiberg2011), now counted as a "[[swampland conjecture]]" (cf. [Harlow & Ooguri 2021 p. 1](#HarlowOoguri2021)). A precise formulation appears in [SS 2025 Rem. 4.5 (v)](#SS2025).
 
 ## References
 
