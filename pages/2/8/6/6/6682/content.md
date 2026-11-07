@@ -65,6 +65,10 @@ Textbook on [[string theory]]:
 
     [doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)
 
+On [[Dirac charge quantization]] and introducing what came to be called the [[Polchinski completeness hypothesis]]:
+
+* [[Joseph Polchinski]]: *Monopoles, Duality, and String Theory*, Int. J. Mod. Phys. A **19S1** (2004) 145--156 \[<a href="arxiv.org/abs/hep-th/0304042">arXiv:hep-th/0304042</a>, <a href="https://doi.org/10.1142/S0217751X0401866X">doi:10.1142/S0217751X0401866X</a>\]
+
 
 
 On [[AdS/CFT duality]]:
