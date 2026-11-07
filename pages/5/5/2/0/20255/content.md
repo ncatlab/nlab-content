@@ -757,7 +757,7 @@ The superspace formulation of undeformed 11D supergravity:
 * {#CDF91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *Supergravity and Superstrings -- A Geometric Perspective*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224)&rbrack;
   > §III.8: 11D supergravity in superspace (rheonomy), including the duality-symmetric 4-form/7-form formulation (§III.8.5).
 
-* {#CandielloLechner94} [[Antonio Candiello]], [[Kurt Lechner]], *Duality in supergravity theories*, Nuclear Physics B **412** (1994) 479--501 &lbrack;[arXiv:hep-th/9309143](https://arxiv.org/abs/hep-th/9309143), [doi:10.1016/0550-3213(94)90389-1](https://doi.org/10.1016/0550-3213%2894%2990389-1)&rbrack;
+* {#CandielloLechner94} Antonio Candiello, [[Kurt Lechner]]: *Duality in supergravity theories*, Nuclear Physics B **412** (1994) 479--501 &lbrack;[arXiv:hep-th/9309143](https://arxiv.org/abs/hep-th/9309143), [doi:10.1016/0550-3213(94)90389-1](https://doi.org/10.1016/0550-3213%2894%2990389-1)&rbrack;
 
 * {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], *Flux Quantization on 11-dimensional Superspace*, JHEP **07** (2024) 082 &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), [doi:10.1007/JHEP07(2024)082](https://doi.org/10.1007/JHEP07%282024%29082)&rbrack;
   > Thm. 3.1: on a super-spacetime satisfying the bosonic torsion constraint, the duality-symmetric super-flux Bianchi identities for $(G^s_4, G^s_7)$ are equivalent to the equations of motion of 11D supergravity, proven in detail with computer algebra checks; §2.1.7 on the $I_8$-correction as expected to require relaxing the torsion constraint.
@@ -794,11 +794,17 @@ The deformation theory:
 
 Examples of complementary component calculations:
 
-* {#PVW00} [[Kasper Peeters]], [[Pierre Vanhove]], [[Anders Westerberg]], *Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints* (2000) &lbrack;[arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182)&rbrack;
+* {#PVW00} [[Kasper Peeters]], [[Pierre Vanhove]], Anders Westerberg: *Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints* (2000) &lbrack;[arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182)&rbrack;
   > Summarizes results for the gravitational sector before inclusion of gauge-field terms.
 
 * {#Hyakutake25} [[Yoshifumi Hyakutake]], *Effective Action in M-Theory: $(DF)^4$ Superinvariants* (2025) &lbrack;[arXiv:2507.14984](https://arxiv.org/abs/2507.14984)&rbrack;
   > Local supersymmetry analysis of the $(DF)^4$ sector and associated fermion bilinears.
+
+
+An [LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]], so far to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]]:
+
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&dl=0">db</a>\]
+
 
 ### Ordinary anomaly polynomials and M5-brane inflow
 
