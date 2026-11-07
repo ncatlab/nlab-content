@@ -35,7 +35,7 @@ Via deformations of [[superspace]] [[torsion constraints in supergravity|torsion
 
 * {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.), Proceedings of _Quantization, Gauge Theory & Strings_, Moscow (2000_ \[<a href="https://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
 
-* {#CNT02} [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Spinorial cohomology and maximally supersymmetric theories_, JHEP **02** (2002) 009 \[<a href="https://doi.org/10.1088/1126-6708/2002/02/009">doi:10.1088/1126-6708/2002/02/009</a>, [arXiv:hep-th/0110069](https://arxiv.org/abs/hep-th/0110069)\]
+* {#CNT02} [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Spinorial cohomology and maximally supersymmetric theories_, JHEP **02** (2002) 009 \[<a href="https://7doi.org/10.1088/1126-6708/2002/02/009">doi:10.1088/1126-6708/2002/02/009</a>, [arXiv:hep-th/0110069](https://arxiv.org/abs/hep-th/0110069)\]
 
 * {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP **10** (2004) 046 &lbrack;[arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271), <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>&rbrack;
   > Includes the relation between the order-$\ell^3$ deformation and a shift of four-form flux quantization.
@@ -60,7 +60,7 @@ On the supersymmetric completion of $C_3\wedge I_8$, the corresponding deformati
 
 An [LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]], so far to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]]:
 
-* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&dl=0">db</a>\]
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
 
 
 #### Component supersymmetry and the Noether procedure
