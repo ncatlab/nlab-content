@@ -13,11 +13,10 @@
 
 ## Idea
 
-A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with [[countable choice]]. In order to remove the inconsistency, one has to remove the [[axiom of countable choice]] to get bare [[ZF]] + a limit club Berkeley cardinal. 
-
+A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of dependent choice for the confinality of the smallest Berkeley cardinal (which might be as low as omega-naught).
 ## Definition
 
-In [[ZF]], a [[cardinal]] $\delta$ is a limit club Berkeley cardinal if it is a [[club Berkeley cardinal]] and it is the limit cardinal of [[club Berkeley cardinals]]. 
+In [[ZF]], a [[cardinal]] $\delta$ is a limit club Berkeley cardinal if it is a [[club Berkeley cardinal]] and it is the limit cardinal of [[Berkeley cardinals]]. 
 
 ## Related concepts
 
