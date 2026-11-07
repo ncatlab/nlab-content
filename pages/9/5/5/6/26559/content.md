@@ -3250,6 +3250,10 @@ Since the generalized [[nonabelian cohomology theory]] classified by the ([[homo
 \linebreak
 
 
+## Related concepts
+
+* [[IR-completion]]
+
 
 ## References
 
