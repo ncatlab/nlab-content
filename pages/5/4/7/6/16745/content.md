@@ -589,6 +589,10 @@ On the structure theory:
 
 * Elizabeth Jurisich, [[James Lepowsky]], Robert L. Wilson: *Realizations of the Monster Lie algebra*, Selecta Math. **1** (1995) 129-161 &lbrack;[arXiv:hep-th/9408037](https://arxiv.org/abs/hep-th/9408037), [doi:10.1007/BF01614075](https://doi.org/10.1007/BF01614075)&rbrack;
 
+* {#Ganter09} Nora Ganter: *Hecke operators in equivariant elliptic cohomology and generalized moonshine*, CRM Proc. Lecture Notes **47** (2009) 173-209 &lbrack;[arXiv:0706.2898](https://arxiv.org/abs/0706.2898)&rbrack;
+
+* {#Ganter13} Nora Ganter: *Power operations in orbifold Tate K-theory* (2013) &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754)&rbrack;
+
 See also:
 
 * Wikipedia: _[Monster Lie algebra](https://en.wikipedia.org/wiki/Monster_Lie_algebra)_
@@ -629,11 +633,17 @@ As algebras of [[BPS states]]:
 
 * {#PPV16} [[Natalie Paquette]], Daniel Persson, [[Roberto Volpato]]: *Monstrous BPS-Algebras and the Superstring Origin of Moonshine*, Commun. Number Theory Phys. **10** 3 (2016) 433-526 &lbrack;[arXiv:1601.05412](https://arxiv.org/abs/1601.05412), [doi:10.4310/CNTP.2016.v10.n3.a2](https://doi.org/10.4310/CNTP.2016.v10.n3.a2)&rbrack;
 
+* {#DHM23} Ben Davison, Lucien Hennecart, Sebastian Schlegel Mejia: *BPS algebras and generalised Kac-Moody algebras from $2$-Calabi-Yau categories* (2023, revised 2025) &lbrack;[arXiv:2303.12592](https://arxiv.org/abs/2303.12592)&rbrack;
+
 In the counting of [[dyons]]:
 
 * {#DVV97} [[Robbert Dijkgraaf]], [[Erik Verlinde]], [[Herman Verlinde]]: *Counting Dyons in $N=4$ String Theory*, Nucl. Phys. B **484** (1997) 543-561 &lbrack;[arXiv:hep-th/9607026](https://arxiv.org/abs/hep-th/9607026), [doi:10.1016/S0550-3213(96)00640-2](https://doi.org/10.1016/S0550-3213(96)00640-2)&rbrack;
 
 * {#ChengVerlinde08} [[Miranda Cheng]], [[Erik Verlinde]]: *Wall Crossing, Discrete Attractor Flow and Borcherds Algebra*, SIGMA **4** (2008) 068 &lbrack;[arXiv:0806.2337](https://arxiv.org/abs/0806.2337), [doi:10.3842/SIGMA.2008.068](https://doi.org/10.3842/SIGMA.2008.068)&rbrack;
+
+Symmetric products and second quantized strings:
+
+* {#DMVV97} [[Robbert Dijkgraaf]], [[Gregory Moore]], [[Erik Verlinde]], [[Herman Verlinde]]: *Elliptic Genera of Symmetric Products and Second Quantized Strings*, Commun. Math. Phys. **185** (1997) 197-209 &lbrack;[arXiv:hep-th/9608096](https://arxiv.org/abs/hep-th/9608096)&rbrack;
 
 
 ### In supergravity
