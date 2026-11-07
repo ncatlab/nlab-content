@@ -18,6 +18,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -125,11 +126,14 @@ General review and further discussion:
 
 * {#Frankel} [[Theodore Frankel]], section 16.4e of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
-* [[Luis Alvarez-Gaumé]], Frederic Zamora, Section II in:  *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1063/1.55087](https://doi.org/10.1063/1.55087)&rbrack;
+* [[Luis Alvarez-Gaumé]], Frederic Zamora; Section II in:  *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1063/1.55087](https://doi.org/10.1063/1.55087)&rbrack;
 
-* {#Freed00} [[Daniel Freed]], Section 2 of: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+* {#Freed00} [[Daniel Freed]]; Section 2 of: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
 
-* {#MangiarottiSardanashvily00} L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000 ([doi:10.1142/2524](https://doi.org/10.1142/2524))
+* {#MangiarottiSardanashvily00} L. Mangiarotti, [[Gennadi Sardanashvily]]: _Connections in Classical and Quantum Field Theory_, World Scientific (2000) &lbrack;[doi:10.1142/2524](https://doi.org/10.1142/2524)&rbrack;
+
+* [[Joseph Polchinski]]: *Monopoles, Duality, and String Theory*, Int. J. Mod. Phys. A **19S1** (2004) 145--156 \[<a href="arxiv.org/abs/hep-th/0304042">arXiv:hep-th/0304042</a>, <a href="https://doi.org/10.1142/S0217751X0401866X">doi:10.1142/S0217751X0401866X</a>\]
+ > (cf. [[Polchinski completeness hypothesis]])
 
 * [[Yakov Shnir]], Section 2.1 of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
