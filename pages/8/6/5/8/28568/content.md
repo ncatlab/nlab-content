@@ -13,7 +13,7 @@
 
 ## Idea
 
-A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of choice for the confinality of the smallest Berkeley cardinal (which might be as low as omega-naught).
+A [[large cardinal]] stronger than [[Reinhardt cardinals]] that is inconsistent with [[ZF]] with the axiom of dependent choice for the confinality of the smallest Berkeley cardinal (which might be as low as omega-naught).
 
 ## Definition
 
