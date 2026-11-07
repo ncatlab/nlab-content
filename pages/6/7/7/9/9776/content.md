@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -61,17 +60,19 @@ D6-branes are the main ingredient in type IIA [[string phenomenology]] in the gu
 
 [[!include table of branes]]
 
+
 ## References
+ {#References}
 
 The relation to the [[Kaluza-Klein monopole]] in [[M-theory]] is due to
 
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
-Further discussion and derivation of the [[Chan-Paton gauge field]] content on the D6 from the KK-monopole is discussed in 
+Further discussion and derivation of the [[Chan-Paton gauge field]] content on the D6 from the KK-monopole:
 
-* [[César Gómez]], [[Juan José Manjarín]], _A note on the dyonic D6-brane_, 6th International Workshop on Conformal Field Theory and Integrable Models, Landau Institute, Sept. 2002 ([arXiv:hep-th/0302096](http://arxiv.org/abs/hep-th/0302096))
+* [[César Gómez]], [[Juan José Manjarín]]: _A note on the dyonic D6-brane_, 6th International Workshop on Conformal Field Theory and Integrable Models, Landau Institute (2002) &lbrack;[arXiv:hep-th/0302096](http://arxiv.org/abs/hep-th/0302096)&rbrack;
 
-* [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
+* [[Juan José Manjarín]]: _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. **1** (2004) &lbrack;[arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074)&rbrack;
 
 Discussion of D6 [[intersecting branes]] for [[intersecting D-brane models]]:
 
