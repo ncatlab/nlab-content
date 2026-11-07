@@ -28,7 +28,7 @@ On [[M2-brane 3-algebras]]:
 
 On [[tensor hierarchies]] in [[gauged supergravity]]:
 
-* Jesper Greitz, [[Paul Howe]], [[Jakob Palmkvist]], _The tensor hierarchy simplified_, Class. Quantum Grav. 31 (2014) 087001 ([arXiv:1308.4972](https://arxiv.org/abs/1308.4972))
+* [[Jesper Greitz]], [[Paul Howe]], [[Jakob Palmkvist]]: _The tensor hierarchy simplified_, Class. Quantum Grav. **31** (2014) 087001 &lbrack;[arXiv:1308.4972](https://arxiv.org/abs/1308.4972)&rbrack;
 
 
 On relation of [[Borcherds algebras]] to [[tensor hierarchies]] in [[gauged supergravity]]:
