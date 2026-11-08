@@ -890,6 +890,10 @@ We start with (a slightly modified) [[Gerhard Gentzen|Gentzen's]] LJ [[sequent c
 Axioms:
 
 $$
+    \mathfrak{B}
+$$
+
+$$
     \frac{}{A \vdash_{\text{SL}} A} \; \text{ax} \qquad
     \frac{}{\bot \vdash_{\text{SL}} A}\;\text{ax} \qquad
     \frac{}{A \vdash_{\text{SL}} \top}\; \text{ax}
