@@ -22,9 +22,9 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
+
 
 
 
@@ -910,5 +910,7 @@ See also:
 * {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]],  _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](https://arxiv.org/abs/1212.3745))
 
 ...
+
+[[!redirects Koszul sign rule]]
 
 
