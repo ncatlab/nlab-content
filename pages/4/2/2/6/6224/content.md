@@ -132,6 +132,9 @@ Specifically:
 
 ## References
 
+* {#Lazard54} [[Michel Lazard]]: *Sur les groupes nilpotents et les anneaux de Lie*, Annales scientifiques de l'École Normale Supérieure, Série 3, **71** (1954) 101--190 &lbrack;[numdam:ASENS_1954_3_71_2_101_0](www.numdam.org/item/?id=ASENS_1954_3_71_2_101_0)&rbrack;
+
+
 * [[Peter Hilton]], [[Guido Mislin]], [[Joe Roitberg]] (eds.): *Localization of Nilpotent Groups and Spaces*, Mathematics Studies **55**, North-Holland (1975) &lbrack;[ISBN:978-0-444-10776-3](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/15/suppl/C)&rbrack;
 
 * [[Peter Hilton]]: _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques **26** 3 (1982) 47-78 &lbrack;[jstor:43741908](https://www.jstor.org/stable/43741908)&rbrack;
