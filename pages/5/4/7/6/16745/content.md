@@ -795,9 +795,9 @@ On the structure theory:
 
 * Elizabeth Jurisich, [[James Lepowsky]], Robert L. Wilson: *Realizations of the Monster Lie algebra*, Selecta Math. **1** (1995) 129-161 &lbrack;[arXiv:hep-th/9408037](https://arxiv.org/abs/hep-th/9408037), [doi:10.1007/BF01614075](https://doi.org/10.1007/BF01614075)&rbrack;
 
-* {#Ganter09} Nora Ganter: *Hecke operators in equivariant elliptic cohomology and generalized moonshine*, CRM Proc. Lecture Notes **47** (2009) 173-209 &lbrack;[arXiv:0706.2898](https://arxiv.org/abs/0706.2898)&rbrack;
+* {#Ganter09} [[Nora Ganter]]: *Hecke operators in equivariant elliptic cohomology and generalized moonshine*, CRM Proc. Lecture Notes **47** (2009) 173-209 &lbrack;[arXiv:0706.2898](https://arxiv.org/abs/0706.2898)&rbrack;
 
-* {#Ganter13} Nora Ganter: *Power operations in orbifold Tate K-theory* (2013) &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754)&rbrack;
+* {#Ganter13} [[Nora Ganter]]: *Power operations in orbifold Tate K-theory* (2013) &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754)&rbrack;
 
 See also:
 
@@ -887,7 +887,7 @@ The complete form spectra (including 10-form potentials) of type II supergravity
 
 * [[Eric Bergshoeff]], [[Paul Howe]], Sven F. Kerstan, [[Linus Wulff]]: *Kappa-symmetric $SL(2,\mathbb{R})$ covariant D-brane actions*, JHEP **10** (2007) 050 &lbrack;[arXiv:0708.2722](https://arxiv.org/abs/0708.2722), [doi:10.1088/1126-6708/2007/10/050](https://doi.org/10.1088/1126-6708/2007/10/050)&rbrack;
 
-* [[Eric Bergshoeff]], [[Jelle Hartong]], [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
+* [[Eric Bergshoeff]], Jelle Hartong, [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
 
 On Borcherds algebras of [[Bianchi identities]] of [[supergravity]] [[flux densities]] in [[superspace]], including form degrees beyond the spacetime dimension:
 
