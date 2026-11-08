@@ -46,7 +46,7 @@ For the purpose of the present entry this indication of a quantizaton proposal b
 
 Rather, the approach for a formalization of the quantization procedure that shall be discussed at this entry here draws from a few different sources:
 
-1. The observation that a classical background field that should serve as the input for a quantization of a $\sigma$-model that describes the dynamics of an object charged under this field is encoded by differential cocycles as as described at [[schreiber:differential cohomology in an (∞,1)-topos]].
+1. The observation that a classical background field that should serve as the input for a quantization of a $\sigma$-model that describes the dynamics of an object charged under this field is encoded by differential cocycles as described at [[schreiber:differential cohomology in an (∞,1)-topos]].
 
 1. The idea that by applying a pull-push quantization prescription a differential cocycle on a target space $X$ gives rise to a differential cocycle on a _parameter space_ $\Sigma$, which may be thought of as one of the bordisms appearing in the [[FQFT]]-description of quantum field theory. 
 
@@ -56,9 +56,9 @@ Rather, the approach for a formalization of the quantization procedure that shal
 
    The resulting pull-push operation is an example or a generalization of what [[John Baez]] discusses under the term [[groupoidification]]. 
 
-1. The observation that a differential coccycle on a [[Lorentzian manifold]] $\Sigma$ gives rise to a [[local net]] of observables, as used in the formalizaton of QFT known as [[AQFT]]. (As described [here](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf)).
+1. The observation that a differential cocycle on a [[Lorentzian manifold]] $\Sigma$ gives rise to a [[local net]] of observables, as used in the formalizaton of QFT known as [[AQFT]]. (As described [here](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf)).
 
-   So the procedure discussed here regards differential cocycles on target space as classicai field theories, regards their quantization as a way to obtain a differential cocycle on Lorentzian parameter space, and identifies this as a quantum field theory by associating a local net of observables to it. 
+   So the procedure discussed here regards differential cocycles on target space as classical field theories, regards their quantization as a way to obtain a differential cocycle on Lorentzian parameter space, and identifies this as a quantum field theory by associating a local net of observables to it. 
 
    These local nets, in turn, are akin to [[factorization algebra]]s, which in the Euclidean (meaning non-Lorentzian setting) relate back to cobordism representations via the notion of [[topological chiral homology]]. However the -- physically crucial -- Lorentzian structure invoked here is not otherwise considered in these functorial axiomatization of quantum field theory.
 
@@ -70,7 +70,7 @@ The ambient context is the [[(∞,1)-topos]] $\mathbf{H} := Sh_{(\infty,1)}(Cart
 
 * $sSet_{Quillen}$ the standard [[model structure on simplicial sets]];
  
-* and $sSet^+$ the [[model structure for Cartesian fibrations]] over the points, hence the [[simplicial model category]] for quaasi-categories.
+* and $sSet^+$ the [[model structure for Cartesian fibrations]] over the points, hence the [[simplicial model category]] for quasi-categories.
 
 For the definition of the [[schreiber:path ∞-groupoid]] functor $\mathbf{\Pi}$ and the induced theory of [[schreiber:differential cohomology in an (∞,1)-topos]], we make use of the discussion at [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
 
