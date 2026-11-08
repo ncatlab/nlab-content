@@ -61,6 +61,12 @@ A rare example of an article going beyond just dropping the term, by [[philosoph
 
 * Karen Crowther, Niels Linnemann: *Renormalizability, fundamentality and a final theory: The role of UV-completion in the search for quantum gravity*, Brit. J. Phil. Sci. **70** 2 (2019) 377--406 \[<a href="https://doi.org/10.1093/bjps/axx052">doi:10.1093/bjps/axx052</a>, <a href="https://arxiv.org/abs/1705.06777">arXiv:1705.06777</a>\]
 
+The usual [[folklore]] verbiage used in [[string theory]] appears in the abstract of:
+
+* Houri-Christina Tarazi: *UV Completeness: From Quantum Field Theory to Quantum Gravity*, PhD thesis, Harvard (2023) \[<a href="https://nbn-resolving.org//URN-3:HUL.INSTREPOS:37378030">URN-3:HUL.INSTREPOS:37378030</a>\]
+  > "Abstract: One of the main goals of theoretical physics is to describe physics at all energy scales. The usual renormalization scheme of quantum field theory provides a way to investigate the details of physical systems at different energy scales, potentially up to some energy cut-off. When a theory is predictive at arbitrarily high energies and hence the cut-off can be removed, we say the theory is UV complete. The importance of UV completeness lies in its ability to explain physical phenomena at arbitrarily small distances or high energies. However, when standard techniques from quantum field theory fail to provide such a description, new degrees of freedom are expected to become important. In this thesis, we investigate two types of UV completions; one associated with conformal field theories and the other with quantum gravity. For the former, we study the fixed points of the renormalization group where one needs to integrate-in light solitonic particles/strings in the context of supersymmetric conformal field theories. For the latter, we review the challenges of UV completing quantum gravity and the severe constraints that such a completion is expected to provide for the low-energy physics. \[...\]"
+
+
 See also: 
 
 * Wikipedia; *[Ultraviolet completion](https://en.wikipedia.org/wiki/Ultraviolet_completion)*
