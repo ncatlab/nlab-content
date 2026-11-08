@@ -30,7 +30,7 @@ The effect is that Borcherds algebras behave like [[Kac-Moody algebras]] with so
 
 For example, if no two imaginary simple roots are orthogonal, then a Borcherds algebra decomposes as a [[direct sum]] $\mathfrak{u}^- \oplus (\mathfrak{g}_J + \mathfrak{h}) \oplus \mathfrak{u}^+$, where $\mathfrak{g}_J$ is the Kac-Moody algebra of the real simple roots, $\mathfrak{h}$ is the [[Cartan subalgebra]], and $\mathfrak{u}^\pm$ are [[free Lie algebras]] ([Jurisich 1998](#Jurisich98)). 
 
-Nevertheless, most of the structure theory of [[Kac-Moody algebras]] carries over ([Borcherds 1988](#Borcherds88), [Kac 1990, §11.13](#Kac90)), notably the [[invariant polynomial|invariant]] [[bilinear form]], the root space decomposition with finite-dimensional root spaces, the Weyl group, and a version of the [[Weyl-Kac character formula]] and its denominator identity, now with an extra correction term contributed by the imaginary simple roots.
+Nevertheless, most of the structure theory of [[Kac-Moody algebras]] carries over ([Borcherds 1988](#Borcherds88), [Kac 1990, §11.13](#Kac90)), notably the invariant [[bilinear form]], the root space decomposition with finite-dimensional root spaces, the Weyl group, and a version of the [[Weyl-Kac character formula]] and its denominator identity, now with an extra correction term contributed by the imaginary simple roots.
 
 More conceptually, Borcherds algebras are essentially characterized as the [[Lie algebras]] carrying an *almost positive definite contravariant form* ([Borcherds 1988, §3](#Borcherds88), [Borcherds 1995a](#Borcherds95a)): If $\mathfrak{g} = \bigoplus_{n \in \mathbb{Z}} \mathfrak{g}_n$ is a $\mathbb{Z}$-[[graded Lie algebra]] with $\mathfrak{g}_n$ finite-dimensional for $n \neq 0$, equipped with an [[involution]] $\omega$ which maps $\mathfrak{g}_n$ to $\mathfrak{g}_{-n}$ and acts as $-1$ on $\mathfrak{g}_0$, and with an $\omega$-invariant symmetric invariant [[bilinear form]] $(-,-)$ which pairs $\mathfrak{g}_n$ only with $\mathfrak{g}_{-n}$, such that the *contravariant form*
 $$
@@ -151,7 +151,7 @@ For the Borcherds algebras as in [Borcherds 1988, §1](#Borcherds88) (with Carta
 
 * (normalization) Rescaling the $i$th row of a Borcherds-Cartan matrix by $2/a_{i i}$ for all real $i$ turns it into a symmetrizable matrix with $a_{i i} = 2$ for real $i$, and with $a_{i j} \in \mathbb{Z}$ whenever $a_{i i} = 2$. This is the normalization convention used, e.g., in [Gannon](#Gannon). [Kac 1990, §11.13](#Kac90) moreover admits non-symmetrizable matrices, for which however there is no invariant bilinear form ([Borcherds 1995a, §1](#Borcherds95a)). For symmetrizable matrices, Kac's definition agrees essentially with Def. \ref{BorcherdsAlgebra} (by [Kac 1990, Thm. 11.13.1](#Kac90), see [Borcherds 1995a, §3](#Borcherds95a)).
 
-* (superalgebras) There is an evident generalization to [[Lie superalgebras]], where some of the generators $e_i$, $f_i$ are odd. These *Borcherds superalgebras* (or *generalized Kac-Moody superalgebras*) were envisaged already in [Borcherds 1988, §5](#Borcherds88) and developed in [Ray 1995](#Ray95), [Ray 2006](#Ray06). It is mostly Borcherds superalgebras which appear in [[supergravity]] (see the references [below](#InSupergravity)).
+* (superalgebras) There is an evident generalization to [[Lie superalgebras]], where some of the generators $e_i$, $f_i$ are odd. These *Borcherds superalgebras* (or *generalized Kac-Moody superalgebras*) were envisaged already in [Borcherds 1988, §5](#Borcherds88) and developed in [Ray 1995](#Ray95), [Ray 2006](#Ray06). In the super case, item 4 of Def. \ref{UniversalBorcherdsAlgebra} with $i = j$ has content for odd isotropic $i$, where it says that $[e_i, e_i] = 0$ (see Prop. \ref{PositivePartOfIIABorcherdsSuperalgebra} for an example). It is mostly Borcherds superalgebras which appear in [[supergravity]] (see [below](#OrganizingSugraHigherGaugeFields)).
 
 =--
 
@@ -323,7 +323,7 @@ $$
   \sum_{n \geq -1}
   \mathrm{Tr}\big(g \,\vert\, V^\natural_{n+1}\big)\, q^n
 $$
-is the McKay-Thompson series of $g$. For $g = e$ this reduces to the previous identity, since $T_e = j - 744$. These identities imply recursion relations ("replication formulas") which determine each $T_g$ from its first few coefficients. Checking these coefficients proves that the $T_g$ are the Hauptmoduln predicted by Conway and Norton, hence the [[monstrous moonshine]] conjecture ([Borcherds 1992, Thm. 1.1](#Borcherds92)).
+is the McKay-Thompson series of $g$. For $g = e$ this reduces to the previous identity, since $T_e = j - 744$. These identities imply recursion relations ("replication formulas") which determine each $T_g$ from its first few coefficients. Checking these coefficients proves that the $T_g$ are the Hauptmoduln predicted by Conway and Norton, hence the [[monstrous moonshine]] conjecture ([Borcherds 1992, Thm. 1.1](#Borcherds92)). For the relation of replicability to Hecke operators and power operations in equivariant [[elliptic cohomology]] and [[Tate K-theory]] see [Ganter 2009](#Ganter09), [2013](#Ganter13).
 
 =--
 
@@ -332,7 +332,9 @@ In both examples, the denominator identity is the product expansion of an [[auto
 
 ### Algebras of BPS States
 
-In [[string theory]], Borcherds algebras appear as algebras of [[BPS states]] ([Harvey & Moore 1996](#HarveyMoore96), [1998](#HarveyMoore98)). For instance, the degeneracies of [[dyons]] in $\mathcal{N}=4$ string compactifications are given in terms of the denominator of a Borcherds superalgebra ([Dijkgraaf, Verlinde & Verlinde 1997](#DVV97)), whose Weyl group governs their [[wall crossing]] ([Cheng & Verlinde 2008](#ChengVerlinde08)). The Monster Lie algebra itself appears as an algebra of BPS states in certain heterotic string models ([Paquette, Persson & Volpato 2016](#PPV16)).
+In [[string theory]], Borcherds algebras appear as algebras of [[BPS states]] ([Harvey & Moore 1996](#HarveyMoore96), [1998](#HarveyMoore98)). For instance, the degeneracies of [[dyons]] in $\mathcal{N}=4$ string compactifications are given in terms of the denominator of a Borcherds superalgebra ([Dijkgraaf, Verlinde & Verlinde 1997](#DVV97)), whose Weyl group governs their [[wall crossing]] ([Cheng & Verlinde 2008](#ChengVerlinde08)). Closely related, the generating function of [[elliptic genera]] of [[symmetric products]], which is the partition function of second quantized strings, is (almost) an [[automorphic form]] for $O(3,2;\mathbb{Z})$ ([Dijkgraaf, Moore, Verlinde & Verlinde 1997](#DMVV97)). The Monster Lie algebra itself appears as an algebra of BPS states in certain heterotic string models ([Paquette, Persson & Volpato 2016](#PPV16)).
+
+In a mathematical formalization, the BPS algebras of 2-Calabi-Yau categories, such as those of semistable coherent sheaves on [[K3 surfaces]], of semistable [[Higgs bundles]] on curves, or of modules over [[preprojective algebras]], are the positive parts of the enveloping algebras of generalized Kac-Moody algebras ([Davison, Hennecart & Schlegel Mejia 2023](#DHM23)).
 
 
 ### Organizing SuGra higher gauge fields
@@ -340,29 +342,49 @@ In [[string theory]], Borcherds algebras appear as algebras of [[BPS states]] ([
 
 In [[supergravity]], Borcherds superalgebras organize the [[p-form]] [[higher gauge fields]] together with their [[electric-magnetic duality|duals]], via the [[Bianchi identities]] of their [[flux densities]].
 
-**The mechanism.** The [[Bianchi identities]] of the [[flux densities]] in [[supergravity]] are all of the schematic form "$d F = F \wedge F$". This means that they encode a [[Lie superalgebra]] ([Cremmer, Julia, Lü & Pope 1998a](#CJLP98a), [b](#CJLP98b)). To see this, associate to each flux density $F^X_n$ of degree $n$, hence to each potential of degree $p = n - 1$, a generator $e_X$ of degree $p$, which is even or odd according to the parity of $p$. Then all the Bianchi identities combine into the single equation
+
+#### The mechanism
+ {#TheMechanism}
+
+The [[Bianchi identities]] of the [[flux densities]] in [[supergravity]] are all of the schematic form "$\mathrm{d} F = F \wedge F$", and as such they encode a [[Lie superalgebra]] ([Cremmer, Julia, Lü & Pope 1998a](#CJLP98a), [b](#CJLP98b)):
+
+To each flux density $F^a$ of degree $\mathrm{deg}(F^a) = p_a + 1$ (the field strength of a $p_a$-form potential) associate a generator $t_a$ of degree $p_a$, which is even or odd according to the parity of $p_a$. Then all the Bianchi identities combine into the single equation
 $$
-  d \mathbb{F}
+  \mathrm{d} \mathbb{F}
   \;=\;
   \frac{1}{2} [\mathbb{F}, \mathbb{F}]
   \,,
   \;\;\;\;\;
   \mathbb{F}
   \;\coloneqq\;
-  \sum_X F^X_n\, e_X
+  \textstyle{\sum_a} F^a\, t_a
   \,,
 $$
-whose right-hand side defines a graded antisymmetric bracket on the generators. Consistency of the Bianchi identities means that applying $d$ once more makes the right-hand side vanish by itself. This is a cubic condition on the fluxes, and it is equivalent to the graded [[Jacobi identity]] for the bracket ([Greitz & Howe 2011b, §1](#GreitzHowe11b)). In [Cremmer, Julia, Lü & Pope 1998b](#CJLP98b) this leads to a "doubled" formulation of maximal supergravities, in which the [[equations of motion]] become a twisted self-duality condition on the total field strength, valued in a finite-dimensional Lie superalgebra.
+where we use the [[Koszul sign rule]]
+$$
+  \big[
+    F^a \, t_a
+    ,\,
+    F^b \, t_b
+  \big]
+  \;\coloneqq\;
+  (-1)^{\vert t_a \vert \, \mathrm{deg}(F^b)}
+  \,
+  F^a \, F^b \, [t_a, t_b]
+$$
+and the usual (left) [[Leibniz rule]] for $\mathrm{d}$. This equation defines a graded skew-symmetric bracket on the $t_a$, and consistency of the Bianchi identities, $\mathrm{d}^2 \mathbb{F} = 0$, is equivalent to the graded [[Jacobi identity]] for this bracket ([Greitz & Howe 2011b, §1](#GreitzHowe11b)).
 
-These finite-dimensional "duality superalgebras" turn out to be truncations of infinite-dimensional Borcherds superalgebras. For [[torus|toroidal]] [[KK-compactifications]] of [[M-theory]], the root lattices of these Borcherds superalgebras are the second [[integral cohomology]] lattices of [[del Pezzo surfaces]] ([Henry-Labord&#232;re, Julia & Paulot 2002](#HLJP02), [2003](#HLJP03), cf. [[mysterious duality]]). These Borcherds superalgebras may also be derived from [[E11|$E_{11}$]] ([Henneaux, Julia & Levie 2012](#HJL12)).
+In [Cremmer, Julia, Lü & Pope 1998b](#CJLP98b) this leads to a "doubled" formulation of maximal supergravities, in which the [[equations of motion]] become a twisted self-duality condition on the total field strength, valued in a [[finite-dimensional vector space|finite-dimensional]] Lie superalgebra. These "duality superalgebras" turn out to be truncations of infinite-dimensional Borcherds superalgebras, which may be derived from [[E11|$E_{11}$]] ([Henneaux, Julia & Levie 2012](#HJL12)) and whose root lattices, for [[torus|toroidal]] [[KK-compactifications]] of [[M-theory]], are the second [[integral cohomology]] lattices of [[del Pezzo surfaces]] ([Henry-Labord&#232;re, Julia & Paulot 2002](#HLJP02), [2003](#HLJP03), cf. [[mysterious duality]]).
 
-The truncation is a consequence of working on ordinary spacetime, where forms of degree greater than the spacetime dimension vanish. In [[superspace]], on the other hand, the odd basis 1-forms commute with each other, so that there are non-vanishing forms of arbitrary degree. Accordingly, in the superspace formulation the algebra of all consistent flux densities becomes the full positive part $\mathfrak{n}^+$ of the Borcherds superalgebra ([Greitz & Howe 2011b](#GreitzHowe11b)). Moreover, a superspace cohomology argument shows two further facts ([Greitz & Howe 2011b, §2](#GreitzHowe11b)):
+The truncation reflects the fact that on ordinary spacetime all forms of degree beyond the spacetime dimension vanish. On [[superspace]], where the odd basis 1-forms commute with each other, there are non-vanishing forms of arbitrary degree, and the algebra of all consistent flux densities becomes the full positive part $\mathfrak{n}^+$ of the Borcherds superalgebra ([Greitz & Howe 2011b](#GreitzHowe11b)). Moreover, a superspace cohomology argument, using the vanishing of the cohomology groups $H^{p,q}_t$ of the dimension-zero torsion for $p \gt 1$ ([Berkovits & Howe 2008](#BerkovitsHowe08)), shows ([Greitz & Howe 2011b, §2](#GreitzHowe11b)) that
 
-* once the Bianchi identities of the physical fields hold, those of all the higher-degree flux densities are automatically solvable;
+* once the Bianchi identities of the physical fields hold, those of all the higher-degree flux densities are automatically solvable,
 
-* there are no "gauge-trivial" flux densities (those with $d F = 0$) apart from exact 11-forms.
+* there are no "gauge-trivial" flux densities (those with $\mathrm{d} F = 0$) apart from exact 11-forms.
 
-The argument uses the vanishing of the relevant cohomology groups $H^{p,q}_t$ of the dimension-zero torsion for $p \gt 1$ ([Berkovits & Howe 2008](#BerkovitsHowe08)).
+
+#### Type IIA
+ {#ForTypeIIA}
 
 The case of [[type IIA supergravity]] illustrates the mechanism most transparently:
 
@@ -372,51 +394,59 @@ The case of [[type IIA supergravity]] illustrates the mechanism most transparent
 
 The bosonic flux densities of (massless) [[type IIA supergravity]] are
 
-* the [[RR-field|RR-fluxes]] $G_2$, $G_4$ and their duals $G_6$, $G_8$;
+* the [[RR-field|RR-]][[flux densities]] $F_2$, $F_4$ and their duals $F_6$, $F_8$;
 
-* the NS-flux $H_3$ (of the [[B-field]]), its dual $H_7$, and the 9-flux $H_9$ dual to the [[dilaton]];
+* the NS-[[flux density|flux]] $H_3$ (of the [[B-field]]), its dual $H_7$, and the 9-flux $H_9$ dual to the [[dilaton]];
 
-* the RR 10-flux $G_{10}$, dual to the [[Romans mass]] $G_0$, and NS 11-fluxes $H_{11}$, the field strengths of 10-form potentials.
+* the RR 10-flux $F_{10}$, dual to the [[Romans mass]] $F_0$, and NS 11-fluxes $H_{11}$, the field strengths of 10-form potentials.
 
 With [[wedge products]] understood, their [[Bianchi identities]] read ([Greitz & Howe 2011b, (2.13-14)](#GreitzHowe11b)):
 $$
   \begin{array}{rcl}
-    d H_3 &=& 0
+    \mathrm{d} H_3 &=& 0
     \\
-    d G_{2k+2} &=& H_3 \, G_{2k}
+    \mathrm{d} F_{2k+2}
+      &=&
+    H_3 \, F_{2k}
     \mathrlap{\,,
-    \;\;\;
-    k = 0, \cdots, 4
-    \,,
-    \;\;\;
-    G_0 = 0
+    \;\;\;\;\;
+    \begin{array}{l}
+      k = 0, \cdots, 4
+      \,,
+      \\
+      F_0 = 0
+    \end{array}
     }
     \\
-    d H_7 &=& \frac{1}{2} G_4 \, G_4 - G_2 \, G_6
+    \mathrm{d} H_7
+      &=&
+    \frac{1}{2} F_4 F_4 - F_2 F_6
     \\
-    d H_9 
-      &=& 
-    - H_3 \, H_7 
-    + \frac{1}{2} G_4 \, G_6 
-    - \frac{3}{2} G_2 \, G_8
-    \,,
+    \mathrm{d} H_9
+      &=&
+     + H_3 H_7
+     + \frac{1}{2} F_4 F_6
+     - \frac{3}{2} F_2 F_8
+    \mathrlap{\,,}
   \end{array}
 $$
-together with a 2-parameter family of consistent Bianchi identities for $H_{11}$. In the Romans-massive case, $G_0 = m \neq 0$, these are modified to $d G_2 = G_0 \, H_3$, and in the NS identities $G_2 \, G_{2n}$ is replaced by $G_2\, G_{2n} - G_0 \, G_{2n+2}$ for $n \geq 3$ ([Greitz & Howe 2011b, §2.2](#GreitzHowe11b), see also [Lavrinenko, Lü, Pope & Stelle 1999](#LLPS99)).
+together with a 2-parameter family of consistent Bianchi identities for $H_{11}$ (see the table in Remark \ref{IIAFluxesAndRoots} below). Here the sign of the term $H_3 H_7$ differs from that in [Greitz & Howe 2011b, (2.14)](#GreitzHowe11b), where $\mathrm{d}$ acts from the right, as is customary in superspace. In the Romans-massive case, $F_0 = m \neq 0$, these identities are modified to $\mathrm{d} F_2 = F_0 \, H_3$, and in the NS identities $F_2 \, F_{2n}$ is replaced by $F_2\, F_{2n} - F_0 F_{2n+2}$ for $n \geq 3$ ([Greitz & Howe 2011b, §2.2](#GreitzHowe11b), see also [Lavrinenko, Lü, Pope & Stelle 1999](#LLPS99)).
 
-To find the corresponding Lie superalgebra ([Greitz & Howe 2011b, §4.2](#GreitzHowe11b)), assign the even generator $e_0$ to $H_3$ and the odd generator $e_1$ to $G_2$. Then the $e_0$-component of $d \mathbb{F} = \frac{1}{2}[\mathbb{F}, \mathbb{F}]$ is
+To find the corresponding [[Lie superalgebra]] ([Greitz & Howe 2011b, §4.2](#GreitzHowe11b)), assign the even generator $e_0$ to $H_3$ and the odd generator $e_1$ to $F_2$. Since $H_3$ is the only 3-flux, we have $[e_1, e_1] = c\, e_0$ for some constant $c$, and the corresponding component of $\mathrm{d} \mathbb{F} = \frac{1}{2}[\mathbb{F}, \mathbb{F}]$ is $\mathrm{d} H_3 = \frac{c}{2} F_2 \, F_2$. Therefore $\mathrm{d} H_3 = 0$ requires that
 $$
-  d H_3 \, e_0 \;=\; \frac{1}{2} G_2 \, G_2 \, [e_1, e_1]
-  \,,
+  [e_1, e_1] \;=\; 0
+  \,.
 $$
-so that $d H_3 = 0$ requires $[e_1, e_1] = 0$. Writing $e_{01} \coloneqq [e_0, e_1]$, the generators of the higher fluxes are obtained by iterated brackets:
+The generators of the higher fluxes are then iterated brackets of $e_0$ and $e_1$:
 
-* the RR-fluxes correspond to $G_{2k} \leftrightarrow (\mathrm{ad}_{e_0})^{k-1}(e_1)$, for all $k \geq 1$;
+* the [[RR-field|RR-]][[flux densities|fluxes]] correspond to $F_{2k} \leftrightarrow (\mathrm{ad}_{e_0})^{k-1}(e_1)$, for all $k \geq 1$;
 
-* the further NS-fluxes arise from brackets of these, starting with $H_7 \leftrightarrow [e_{01}, e_{01}]$ and $H_9 \leftrightarrow [e_0, [e_{01}, e_{01}]]$.
+* the further NS-fluxes arise from brackets of these, starting with $H_7 \leftrightarrow \big[[e_0, e_1], [e_0, e_1]\big]$.
 
-The smallest Borcherds superalgebra (in the sense of Remark \ref{VariantsOfTheDefinition}) which accommodates these brackets has generators $e_i, h_i, f_i$ for $i \in \{0,1\}$, with $e_1$ and $f_1$ odd, and Cartan matrix
+The smallest Borcherds superalgebra (in the sense of Remark \ref{VariantsOfTheDefinition}) which accommodates these brackets has generators $e_i, h_i, f_i$ for $i \in \{0,1\}$, with $e_1$ and $f_1$ odd, and [[Cartan matrix]]
 $$
+  A
+  \;=\;
   \left(
   \array{
     0 & -1
@@ -426,46 +456,218 @@ $$
   \right)
   \,.
 $$
-The entries are fixed as follows:
+Its entries are fixed as follows:
 
-* $a_{1 1} = 0$ is forced by $[e_1, e_1] = 0$;
+* $a_{1 1} = 0$ is forced by $[e_1, e_1] = 0$: For odd $e_1$, $f_1$ the [[super Lie algebra|super]] [[Jacobi identity]] gives
+  $$
+    \big[f_1, [e_1, e_1]\big]
+      \;=\;
+    [h_1, e_1] - [e_1, h_1]
+      \;=\;
+    2\, a_{1 1}\, e_1
+    \mathrlap{\,,}
+  $$
+  so that $a_{1 1} \neq 0$ would imply $[e_1, e_1] \neq 0$. Conversely, for $a_{1 1} = 0$ the relation $[e_1, e_1] = 0$ is part of the definition (item 4 of Def. \ref{UniversalBorcherdsAlgebra} with $i = j$, which has content only for odd generators);
 
 * $a_{0 0} = 0$ is forced by the fact that $(\mathrm{ad}_{e_0})^n(e_1) \neq 0$ for all $n$, while there are only finitely many forms of each degree: $a_{0 0} \gt 0$ would contradict the first fact, and $a_{0 0} \lt 0$ would produce a copy of $\mathfrak{sl}(2)$ with infinite-dimensional representations, contradicting the second;
 
 * $a_{0 1} = a_{1 0} = -1$ is a normalization.
 
-Both simple roots are isotropic, so that $(e_i, h_i, f_i)$ generate Heisenberg (super)algebras.
-
-The algebra of all IIA flux densities is isomorphic to the positive part $\mathfrak{n}^+$ of this Borcherds superalgebra. A flux density of degree $2n + m + 1$ corresponds to a root $n \alpha_0 + m \alpha_1$ as follows ([Greitz & Howe 2011b, §4.2](#GreitzHowe11b)):
-
-| flux density | root | multiplicity | generator |
-|--------------|------|--------------|-----------|
-| $H_3$ | $\alpha_0$ | $1$ | $e_0$ |
-| $G_{2k}$, $\; k \geq 1$ | $(k-1)\alpha_0 + \alpha_1$ | $1$ | $(\mathrm{ad}_{e_0})^{k-1}(e_1)$ |
-| $H_{4n+3}$, $\; n \geq 1$ | $2n\, \alpha_0 + 2 \alpha_1$ | $n$ | e.g. $[e_{01}, e_{01}]$ for $n = 1$ |
-| $H_{4n+5}$, $\; n \geq 1$ | $(2n+1)\alpha_0 + 2 \alpha_1$ | $n$ | e.g. $[e_0, [e_{01}, e_{01}]]$ for $n = 1$ |
-
-In particular, the multiplicity 2 at $n = 2$ matches the two independent 11-flux and 13-flux Bianchi identities found in the superspace analysis ([Greitz & Howe 2011b, (2.15), (3.8)](#GreitzHowe11b)).
-
-Beyond the spacetime limit, most of these higher fluxes vanish in supergravity, but not all of them. The RR 12-flux $G_{12}$, corresponding to the root $5 \alpha_0 + \alpha_1$, is non-vanishing: its component with ten even and two odd superspace indices is a non-zero multiple of $e^{-\phi}\, \Gamma_{10,2}$, and its Bianchi identity $d G_{12} = H_3 \, G_{10}$ is automatically solved ([Greitz & Howe 2011b, (3.7)](#GreitzHowe11b)). The NS 13-fluxes vanish identically, but their Bianchi identities have non-vanishing terms on the right, whose sum vanishes by the cohomology argument. It has been speculated that such higher-degree forms may become non-zero once string-theoretic higher-order corrections are included ([Greitz & Howe 2011b, §5](#GreitzHowe11b)).
+Both simple roots are isotropic, so that the triples $(e_i, h_i, f_i)$ span [[Heisenberg Lie algebra|Heisenberg]] (super-)algebras.
 
 =--
+
+The positive part of this Borcherds superalgebra is as free as it can be:
+
++-- {: .num_prop #PositivePartOfIIABorcherdsSuperalgebra}
+###### Proposition
+**(positive part of the IIA Borcherds superalgebra)**
+
+Let $\mathfrak{g}$ be the Borcherds superalgebra of Example \ref{TypeIIAFormAlgebra}, and let $\mathfrak{n}^+ \subset \mathfrak{g}$ be the sub-algebra generated by $e_0$ and $e_1$.
+
+1. $\mathfrak{n}^+$ is the [[free Lie algebra|free Lie superalgebra]] $\mathbb{L}(e_0, e_1)$ on an even generator $e_0$ and an odd generator $e_1$, modulo the super-[[Lie ideal]] generated by $[e_1, e_1]$:
+   $$
+     \mathfrak{n}^+
+       \;\simeq\;
+     \mathbb{L}(e_0, e_1)
+     \big/
+     \big\langle
+       [e_1, e_1]
+     \big\rangle
+     \,.
+   $$
+
+1. No further relations appear if $\mathfrak{g}$ is understood as the contragredient Lie superalgebra of $A$, hence as the quotient by the maximal ideal which intersects the Cartan subalgebra trivially.
+
+1. Writing $x_k \coloneqq (\mathrm{ad}_{e_0})^k(e_1)$, for $k \geq 1$, there are isomorphisms
+   $$
+     \mathfrak{n}^+
+       \;\simeq\;
+     \mathbb{R} e_1
+       \ltimes
+     \mathbb{L}\big(e_0, x_1\big)
+       \;\simeq\;
+     \mathbb{R} e_1
+       \ltimes
+     \Big(
+       \mathbb{R} e_0
+       \ltimes
+       \mathbb{L}\big(x_1, x_2, x_3, \cdots\big)
+     \Big)
+     \,,
+   $$
+   where $\mathbb{L}(\cdots)$ denotes free Lie superalgebras on the given generators, all of which except $e_0$ are odd. In particular, as a [[graded vector space]]
+   $$
+     \mathfrak{n}^+
+       \;\simeq\;
+     \mathbb{R} e_0
+       \oplus
+     \mathbb{R} e_1
+       \oplus
+     \mathbb{L}\big(x_1, x_2, x_3, \cdots\big)
+     \,.
+   $$
+
+1. The [[universal enveloping algebra]] of $\mathfrak{n}^+$ is the free associative algebra on $e_0$ and $e_1$ modulo $e_1^2 = 0$. Its subspace of degree $n \alpha_0 + m \alpha_1$ has a basis given by the words with $n$ letters $e_0$ and $m$ non-adjacent letters $e_1$, of which there are $\left(\array{n+1 \\ m}\right)$. Hence the root multiplicities $\mathrm{mult}(n,m) \coloneqq \mathrm{dim}\big(\mathfrak{n}^+_{n \alpha_0 + m \alpha_1}\big)$ are determined by
+   $$
+     \prod_{n, m \geq 0}
+     \Big(
+       1 - (-1)^m \, p^n q^m
+     \Big)^{ - (-1)^m \, \mathrm{mult}(n,m) }
+     \;=\;
+     \frac{1 + q}{1 - p - p q}
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+*Item 1:* Let $\widetilde{\mathfrak{g}}$ be the Lie superalgebra generated by $e_i, f_i, h_i$, for $i \in \{0,1\}$ and with $e_1, f_1$ odd, subject only to the relations
+$$
+  [h_i, h_j] = 0
+  \,,
+  \;\;
+  [e_i, f_j] = \delta_{i j}\, h_i
+  \,,
+  \;\;
+  [h_i, e_j] = a_{i j}\, e_j
+  \,,
+  \;\;
+  [h_i, f_j] = - a_{i j}\, f_j
+  \,.
+$$
+(Since the two columns of $A$ differ, these are items 1 and 2 of Def. \ref{UniversalBorcherdsAlgebra}, by Remark \ref{TheCentralElements}.) As for Kac-Moody algebras ([Kac 1990, Thm. 1.2](#Kac90)), whose proof carries over verbatim to the super case, $\widetilde{\mathfrak{g}}$ has a triangular decomposition
+$$
+  \widetilde{\mathfrak{g}}
+    \;=\;
+  \widetilde{\mathfrak{n}}^-
+    \oplus
+  \mathfrak{h}
+    \oplus
+  \widetilde{\mathfrak{n}}^+
+$$
+with $\widetilde{\mathfrak{n}}^+ \simeq \mathbb{L}(e_0, e_1)$ and $\widetilde{\mathfrak{n}}^- \simeq \mathbb{L}(f_0, f_1)$ free. Item 3 of Def. \ref{UniversalBorcherdsAlgebra} is void, since no index is real, and item 4 amounts to $[e_1, e_1] = 0 = [f_1, f_1]$, since $[e_0, e_0] = 0 = [f_0, f_0]$ holds anyway, $e_0$ and $f_0$ being even, while $a_{0 1} \neq 0$.
+
+Let $I^+ \subset \widetilde{\mathfrak{n}}^+$ be the ideal of $\widetilde{\mathfrak{n}}^+$ generated by $r^+ \coloneqq [e_1, e_1]$. It is spanned by the elements $\mathrm{ad}_{e_{i_1}} \cdots \mathrm{ad}_{e_{i_k}}(r^+)$. Now $[f_0, r^+] = 0$, since $[f_0, e_1] = 0$, and $[f_1, r^+] = 2 a_{1 1} e_1 = 0$, as computed in Example \ref{TypeIIAFormAlgebra}. By induction on $k$, using
+$$
+  [f_j, [e_i, x]]
+    \;=\;
+  [[f_j, e_i], x]
+    \pm
+  [e_i, [f_j, x]]
+$$
+with $[f_j, e_i] \in \mathfrak{h}$, it follows that $\mathrm{ad}_{f_j}(I^+) \subset I^+$. Since also $\mathrm{ad}_{\mathfrak{h}}$ and $\mathrm{ad}_{e_i}$ preserve $I^+$, this is an ideal of all of $\widetilde{\mathfrak{g}}$. Analogously, the ideal $I^- \subset \widetilde{\mathfrak{n}}^-$ generated by $[f_1, f_1]$ is an ideal of $\widetilde{\mathfrak{g}}$. Therefore
+$$
+  \mathfrak{g}
+    \;=\;
+  \widetilde{\mathfrak{g}} \big/ \big(I^- \oplus I^+\big)
+    \;=\;
+  \widetilde{\mathfrak{n}}^- / I^-
+    \;\oplus\;
+  \mathfrak{h}
+    \;\oplus\;
+  \widetilde{\mathfrak{n}}^+ / I^+
+  \,,
+$$
+and so $\mathfrak{n}^+ = \widetilde{\mathfrak{n}}^+ / I^+ \simeq \mathbb{L}(e_0, e_1)/\langle [e_1, e_1] \rangle$. Since $A$ is non-degenerate, $\mathfrak{g}$ has no center, and adjoining outer derivations does not affect $\mathfrak{n}^+$, so that this holds for all the variants of Def. \ref{BorcherdsAlgebra}.
+
+*Item 2:* Let $J \subset \mathfrak{g}$ be an ideal with $J \cap \mathfrak{h} = 0$. Since $A$ is non-degenerate, distinct elements of the root lattice define distinct weights, so that $J = J^- \oplus J^+$ with $J^\pm \coloneqq J \cap \mathfrak{n}^\pm$. Suppose that $J^- \neq 0$, and pick a non-zero $y \in J^-$ of weight $-\beta$, with $\beta$ of minimal height. Then $[e_i, y] = 0$ for $i \in \{0,1\}$, by minimality and since $J \cap \mathfrak{h} = 0$. Hence in the [[Verma module]] $M(0) \simeq U(\mathfrak{n}^-)$ of highest weight $0$, the vector $y \cdot v_0$ is a non-zero highest weight vector of weight $-\beta$.
+
+Since $A$ is symmetric, $\mathfrak{g}$ carries an invariant even supersymmetric bilinear form with $(h_i \vert h_j) = a_{i j}$, inducing $(\alpha_i \vert \alpha_j) = a_{i j}$ on the root lattice. The corresponding generalized [[Casimir operator]] ([Kac 1990, §2.5](#Kac90), the construction carries over to the super case) commutes with $\mathfrak{g}$ and acts on highest weight vectors of weight $\lambda$ by $(\lambda \vert \lambda + 2\rho)$, where $2(\rho \vert \alpha_i) = (\alpha_i \vert \alpha_i)$, hence here by $(\lambda \vert \lambda)$. As it acts by $0$ on $M(0)$, it follows that $(\beta \vert \beta) = 0$. This is the argument of the Gabber-Kac theorem ([Kac 1990, Thm. 9.11](#Kac90)).
+
+For $\beta = n \alpha_0 + m \alpha_1$, the condition $(\beta \vert \beta) = - 2 n m = 0$ means that $\beta = n \alpha_0$ or $\beta = m \alpha_1$, with $n, m \geq 2$, since $f_i \in J$ would imply $h_i = [e_i, f_i] \in J \cap \mathfrak{h}$. But $\mathfrak{n}^-_{-n \alpha_0} = 0$ and $\mathfrak{n}^-_{- m\alpha_1} = 0$ for $n, m \geq 2$, because $[f_0, f_0] = 0$ and $[f_1, f_1] = 0$. This contradiction shows that $J^- = 0$, and analogously $J^+ = 0$.
+
+*Item 3:* On the free Lie superalgebra $\mathbb{L}(a, b)$ on an even generator $a$ and an odd generator $b$, let $D$ be the odd [[derivation]] with $D(a) = b$ and $D(b) = 0$. Then $D^2 = \tfrac{1}{2}[D, D]$ is an even derivation vanishing on the generators, so that $D^2 = 0$. Therefore the [[semidirect product]] $S \coloneqq \mathbb{R}e_1 \ltimes \mathbb{L}(a, b)$, with $e_1$ odd, $[e_1, e_1] = 0$ and $[e_1, x] = D(x)$, is a Lie superalgebra. It is generated by $e_1$ and $a$, since $b = [e_1, a]$.
+
+By item 1, there is a homomorphism $\phi \colon \mathfrak{n}^+ \to S$ with $e_0 \mapsto a$ and $e_1 \mapsto e_1$. Conversely, let $\psi \colon S \to \mathfrak{n}^+$ send $e_1 \mapsto e_1$, and on $\mathbb{L}(a,b)$ be given by $a \mapsto e_0$ and $b \mapsto [e_1, e_0]$. This is a homomorphism, because $x \mapsto \psi(D x)$ and $x \mapsto [e_1, \psi(x)]$ are odd derivations along $\psi$ which agree on the generators: on $a$ both give $[e_1, e_0]$, and on $b$ both give zero, since $[e_1, [e_1, e_0]] = \tfrac{1}{2}[[e_1, e_1], e_0] = 0$. Since $\psi \circ \phi$ and $\phi \circ \psi$ are the identity on generators, $\phi$ is an isomorphism. This gives the first isomorphism, as $[e_1, e_0] = - x_1$.
+
+The second isomorphism follows by [[Lazard elimination]] of $e_0$ from $\mathbb{L}(e_0, x_1)$, which gives $\mathbb{L}(e_0, x_1) \simeq \mathbb{R} e_0 \ltimes \mathbb{L}\big( \{ (\mathrm{ad}_{e_0})^k(x_1) \}_{k \geq 0} \big)$, using that $\mathbb{L}(e_0) = \mathbb{R} e_0$ for even $e_0$.
+
+*Item 4:* The enveloping algebra of the quotient is the quotient of $U\big(\mathbb{L}(e_0, e_1)\big) = T\big(\mathbb{R}e_0 \oplus \mathbb{R} e_1\big)$ by the two-sided ideal generated by $[e_1, e_1] = 2 e_1 e_1$. The count of words is elementary, and the product formula is the [[PBW theorem]] for Lie superalgebras, $U(\mathfrak{n}^+) \simeq \mathrm{Sym}(\mathfrak{n}^+_{even}) \otimes \wedge(\mathfrak{n}^+_{odd})$ as graded vector spaces, using that the parity of $n \alpha_0 + m \alpha_1$ is that of $m$.
+
+=--
+
++-- {: .num_remark #IIAFluxesAndRoots}
+###### Remark
+**(IIA flux densities and roots)**
+
+Under the identification of the algebra of IIA flux densities with $\mathfrak{n}^+$ ([Greitz & Howe 2011b, §4.2](#GreitzHowe11b)), a flux density of degree $2n + m + 1$ corresponds to a root $n\alpha_0 + m\alpha_1$, and it has even degree iff $m$ is odd. In the conventions [above](#TheMechanism), the identification starts out as follows:
+
+| [[flux density]]<br/> species | [[super Lie algebra]] element | [[Bianchi identity]] |
+|----|-------|------|
+| $H_3$ | $e_0$ (even) | $\mathrm{d} H_3 = 0$ |
+| $F_2$ | $e_1$ (odd) $\;\;\;\; [e_1, e_1] = 0$ | $\mathrm{d} F_2 = 0$ |
+| $F_4$ | $[e_0, e_1]$ | $\mathrm{d} F_4 = H_3 F_2$ |
+| $F_6$ | $\big[e_0, [e_0, e_1]\big]$ | $\mathrm{d} F_6 = H_3 F_4$ |
+| $H_7$ | $\big[[e_0, e_1], [e_0, e_1]\big] = -\Big[e_1, \big[e_0, [e_0, e_1]\big]\Big]$ | $\mathrm{d} H_7 = \tfrac{1}{2} F_4 F_4 - F_2 F_6$ |
+| $F_8$ | $\Big[e_0,\big[e_0, [e_0, e_1]\big]\Big]$ | $\mathrm{d} F_8 = H_3 F_6$ |
+| $H_9$ | $\Big[e_0, \big[[e_0, e_1], [e_0, e_1]\big]\Big] = 2\Big[[e_0, e_1], \big[e_0, [e_0, e_1]\big]\Big] = -\tfrac{2}{3}\Big[e_1, \Big[e_0, \big[e_0, [e_0, e_1]\big]\Big]\Big]$ | $\mathrm{d} H_9 = H_3 H_7 + \tfrac{1}{2} F_4 F_6 - \tfrac{3}{2} F_2 F_8$ |
+| $F_{10}$ | $(\mathrm{ad}_{e_0})^4(e_1)$ | $\mathrm{d} F_{10} = H_3 F_8$ |
+| $H_{11}$ | $\Big[e_0, \Big[e_0, \big[[e_0, e_1], [e_0, e_1]\big]\Big]\Big]$ | $\mathrm{d} H_{11} = H_3 H_9 - 2 F_2 F_{10} + \tfrac{1}{2} F_4 F_8$ |
+| $H'_{11}$ | $\Big[\big[e_0, [e_0, e_1]\big], \big[e_0, [e_0, e_1]\big]\Big]$ | $\mathrm{d} H'_{11} = F_2 F_{10} - F_4 F_8 + \tfrac{1}{2} F_6 F_6$ |
+| $F_{12}$ | $(\mathrm{ad}_{e_0})^5(e_1)$ | $\mathrm{d} F_{12} = H_3 F_{10}$ |
+| $K_{12}$ | $\Big[\big[e_0, [e_0, e_1]\big], \big[[e_0, e_1], [e_0, e_1]\big]\Big] = \tfrac{1}{2}\Big[e_1, \Big[\big[e_0, [e_0, e_1]\big], \big[e_0, [e_0, e_1]\big]\Big]\Big]$ | $\mathrm{d} K_{12} = - F_2 H_{11} - 2 F_2 H'_{11} + F_4 H_9 - F_6 H_7$ |
+
+The two 11-fluxes reproduce the 2-parameter family of [Greitz & Howe 2011b, (2.15)](#GreitzHowe11b), after conversion of conventions.
+
+In terms of Prop. \ref{PositivePartOfIIABorcherdsSuperalgebra}: the RR-fluxes $F_{2k+2}$, for $k \geq 1$, correspond to the free generators $x_k$, and all other flux densities except $H_3$ and $F_2$ correspond to iterated brackets of the $x_k$. In particular, the NS-fluxes beyond $H_3$ correspond to the 2-fold brackets $[x_i, x_j]$, whence the root $n \alpha_0 + 2 \alpha_1$ has multiplicity $\lfloor n/2 \rfloor$. This reproduces the two series found by [Greitz & Howe 2011b, §4.2](#GreitzHowe11b): the $(4n+3)$-fluxes at roots $2n\alpha_0 + 2\alpha_1$ and the $(4n+5)$-fluxes at roots $(2n+1)\alpha_0 + 2\alpha_1$, both of multiplicity $n$. The multiplicity 2 at $n = 2$ matches the two independent 11-flux and 13-flux Bianchi identities found in the superspace analysis ([Greitz & Howe 2011b, (2.15), (3.8)](#GreitzHowe11b)).
+
+However, $\mathfrak{n}^+$ also contains $m$-fold brackets of the $x_k$ for $m \geq 3$, which are not listed in [Greitz & Howe 2011b](#GreitzHowe11b). The first of these is the 12-flux $K_{12}$ at the root $4\alpha_0 + 3\alpha_1$, in addition to the RR 12-flux $F_{12}$ at the root $5 \alpha_0 + \alpha_1$. By Prop. \ref{PositivePartOfIIABorcherdsSuperalgebra}, item 4, the multiplicities $\mathrm{mult}(n, m)$ of the roots $n\alpha_0 + m\alpha_1$ start out as follows:
+
+| | $n = 0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ |
+|--|--|--|--|--|--|--|--|--|--|--|
+| $m = 0$ | $0$ | $1$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ |
+| $m = 1$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $m = 2$ | $0$ | $0$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ | $4$ | $4$ |
+| $m = 3$ | $0$ | $0$ | $0$ | $0$ | $1$ | $2$ | $3$ | $5$ | $7$ | $9$ |
+| $m = 4$ | $0$ | $0$ | $0$ | $0$ | $0$ | $1$ | $2$ | $5$ | $8$ | $14$ |
+| $m = 5$ | $0$ | $0$ | $0$ | $0$ | $0$ | $0$ | $1$ | $3$ | $7$ | $14$ |
+
+=--
+
+Beyond the spacetime limit, most of these higher fluxes vanish in supergravity, but not all of them. The RR 12-flux $F_{12}$ is non-vanishing: its component with ten even and two odd superspace indices is a non-zero multiple of $e^{-\phi}\, \Gamma_{10,2}$, and its Bianchi identity $\mathrm{d} F_{12} = H_3 \, F_{10}$ is automatically solved ([Greitz & Howe 2011b, (3.7)](#GreitzHowe11b)). The NS 13-fluxes vanish identically, but their Bianchi identities have non-vanishing terms on the right, whose sum vanishes by the cohomology argument. It has been speculated that such higher-degree forms may become non-zero once string-theoretic higher-order corrections are included ([Greitz & Howe 2011b, §5](#GreitzHowe11b)).
 
 +-- {: .num_remark #FluxDensitiesAsClosedNPlusValuedForms}
 ###### Remark
 **(flux densities as closed $\mathfrak{n}^+$-valued forms)**
 
-Grade $\mathfrak{n}^+$ by the potential degree $p$, so that in the IIA case $p(\alpha_0) = 2$ and $p(\alpha_1) = 1$, whence the super-parity of each root space is $p$ mod 2. This makes $\mathfrak{n}^+$ a [[graded Lie algebra|$\mathbb{Z}$-graded Lie algebra]] concentrated in positive degrees, hence an [[L-infinity algebra]] with only a binary bracket. Up to the sign convention $\mathbb{F} \mapsto - \mathbb{F}$, the combined Bianchi identity $d \mathbb{F} = \frac{1}{2}[\mathbb{F}, \mathbb{F}]$ then says that the flux densities constitute a closed [[infinity-Lie algebra valued differential form|$\mathfrak{n}^+$-valued differential form]], hence a [[dg-algebra]] homomorphism
+Grading $\mathfrak{n}^+$ by the potential degree $p$, so that in the IIA case $p(\alpha_0) = 2$ and $p(\alpha_1) = 1$, the super-parity of each root space is $p$ mod 2. This makes $\mathfrak{n}^+$ a [[graded Lie algebra|$\mathbb{Z}$-graded Lie algebra]] concentrated in positive degrees, hence an [[L-infinity algebra]] with only a binary bracket. Up to the sign convention $\mathbb{F} \mapsto - \mathbb{F}$, the combined Bianchi identity $\mathrm{d} \mathbb{F} = \frac{1}{2}[\mathbb{F}, \mathbb{F}]$ then says that the flux densities constitute a closed [[infinity-Lie algebra valued differential form|$\mathfrak{n}^+$-valued differential form]], hence a [[dg-algebra]] homomorphism
 $$
   \mathrm{CE}\big(\mathfrak{n}^+\big)
   \longrightarrow
   \Omega^\bullet_{\mathrm{dR}}(X)
 $$
-out of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{n}^+$. In the CE algebra, the generators dual to root spaces of potential degree $p$ sit in degree $p+1$. This is the form in which Bianchi identities enter [[flux quantization]].
+out of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{n}^+$, in which the generators dual to root spaces of potential degree $p$ sit in degree $p+1$. This is the form in which Bianchi identities enter [[flux quantization]].
 
-For example, in the IIA case the root spaces whose roots have $\alpha_1$-coefficient $\geq 2$ span an [[ideal]] in $\mathfrak{n}^+$. The quotient by this ideal retains only $H_3$ and the RR-fluxes $G_{2k}$, with their Bianchi identities $d H_3 = 0$ and $d G_{2k+2} = H_3 \, G_{2k}$, which are those of the twisted [[Chern character]] in [[twisted K-theory]].
+For example, in the IIA case the root spaces with $\alpha_1$-coefficient $\geq 2$ span an [[ideal]] in $\mathfrak{n}^+$ (by Prop. \ref{PositivePartOfIIABorcherdsSuperalgebra} these are the brackets of two or more of the $x_k$). The quotient by this ideal retains only $H_3$ and the RR-fluxes $F_{2k}$, with their Bianchi identities $\mathrm{d} H_3 = 0$ and $\mathrm{d} F_{2k+2} = H_3 \, F_{2k}$, which are those of the twisted [[Chern character]] in [[twisted K-theory]].
 
 =--
+
+
+#### Type IIB
+ {#ForTypeIIB}
 
 +-- {: .num_example #TypeIIBFormAlgebra}
 ###### Example
@@ -488,7 +690,7 @@ which gives the rank-2 Borcherds algebra previously considered by [Slansky 1993]
 
 * the isotropic simple root $\alpha_0$ corresponds to the lowest weight of the doublet of 3-fluxes.
 
-Flux densities of degree $2n+1$ sit at level $n$, the coefficient of $\alpha_0$. Up to level 7 their $\mathfrak{sl}(2)$-content is
+Flux densities of degree $2n+1$ sit at level $n$, the coefficient of $\alpha_0$, and the algebra of flux densities is the part of $\mathfrak{n}^+$ of positive level. Up to level 7 their $\mathfrak{sl}(2)$-content is
 $$
   \mathbf{2}
   ,\;\;
@@ -508,6 +710,10 @@ $$
 This matches, including the multiplicities of the 15-fluxes, the consistent Bianchi identities found in superspace ([Greitz & Howe 2011b, §3.1, §4.1](#GreitzHowe11b)).
 
 =--
+
+
+#### Other dimensions
+ {#ForOtherDimensions}
 
 Analogous statements hold in other dimensions:
 
@@ -529,9 +735,9 @@ Original articles:
 
 * {#Borcherds86} [[Richard Borcherds]]: *Vertex algebras, Kac-Moody algebras, and the Monster*, Proc. Natl. Acad. Sci. USA **83** 10 (1986) 3068-3071 &lbrack;[doi:10.1073/pnas.83.10.3068](https://doi.org/10.1073/pnas.83.10.3068), [pdf](https://math.berkeley.edu/~reb/papers/va/va.pdf)&rbrack;
 
-* {#Borcherds88} [[Richard Borcherds]]: *Generalized Kac-Moody algebras*, J. Algebra **115** 2 (1988) 501-512 &lbrack;[doi:10.1016/0021-8693(88)90275-X](https://doi.org/10.1016/0021-8693(88)90275-X), [pdf](https://math.berkeley.edu/~reb/papers/gkma/gkma.pdf)&rbrack;
+* {#Borcherds88} [[Richard Borcherds]]: *Generalized Kac-Moody algebras*, J. Algebra **115** 2 (1988) 501-512 &lbrack;<a href="https://doi.org/10.1016/0021-8693(88)90275-X">doi:10.1016/0021-8693(88)90275-X</a>, [pdf](https://math.berkeley.edu/~reb/papers/gkma/gkma.pdf)&rbrack;
 
-* {#Borcherds91} [[Richard Borcherds]]: *Central extensions of generalized Kac-Moody algebras*, J. Algebra **140** 2 (1991) 330-335 &lbrack;[doi:10.1016/0021-8693(91)90158-5](https://doi.org/10.1016/0021-8693(91)90158-5), [pdf](https://math.berkeley.edu/~reb/papers/central/central.pdf)&rbrack;
+* {#Borcherds91} [[Richard Borcherds]]: *Central extensions of generalized Kac-Moody algebras*, J. Algebra **140** 2 (1991) 330-335 &lbrack;<a href="https://doi.org/10.1016/0021-8693(91)90158-5">doi:10.1016/0021-8693(91)90158-5</a>, [pdf](https://math.berkeley.edu/~reb/papers/central/central.pdf)&rbrack;
 
 * {#Borcherds95a} [[Richard Borcherds]]: *A characterization of generalized Kac-Moody algebras*, J. Algebra **174** 3 (1995) 1073-1079 &lbrack;[doi:10.1006/jabr.1995.1167](https://doi.org/10.1006/jabr.1995.1167), [pdf](https://math.berkeley.edu/~reb/papers/gkmas/gkmas.pdf)&rbrack;
 
@@ -561,7 +767,7 @@ Introductions and reviews:
 
 On the structure theory:
 
-* {#Jurisich98} Elizabeth Jurisich: *Generalized Kac-Moody Lie algebras, free Lie algebras and the structure of the Monster Lie algebra*, J. Pure Appl. Algebra **126** 1-3 (1998) 233-266 &lbrack;[arXiv:1311.3258](https://arxiv.org/abs/1311.3258), [doi:10.1016/S0022-4049(96)00142-9](https://doi.org/10.1016/S0022-4049(96)00142-9)&rbrack;
+* {#Jurisich98} Elizabeth Jurisich: *Generalized Kac-Moody Lie algebras, free Lie algebras and the structure of the Monster Lie algebra*, J. Pure Appl. Algebra **126** 1-3 (1998) 233-266 &lbrack;[arXiv:1311.3258](https://arxiv.org/abs/1311.3258), <a href="https://doi.org/10.1016/S0022-4049(96)00142-9">doi:10.1016/S0022-4049(96)00142-9</a>&rbrack;
 
 * Reinhold W. Gebert, [[Jörg Teschner]]: *On the fundamental representation of Borcherds algebras with one imaginary simple root*, Lett. Math. Phys. **31** (1994) 327-334 &lbrack;[arXiv:hep-th/9310139](https://arxiv.org/abs/hep-th/9310139), [doi:10.1007/BF00762796](https://doi.org/10.1007/BF00762796)&rbrack;
 
@@ -571,9 +777,9 @@ On the structure theory:
 ### Monster Lie algebra and moonshine
  {#ReferencesMonster}
 
-* {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]]: *Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model*, Phys. Lett. B **40** (1972) 235-238 &lbrack;[doi:10.1016/0370-2693(72)90420-0](https://doi.org/10.1016/0370-2693(72)90420-0)&rbrack;
+* {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]]: *Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model*, Phys. Lett. B **40** (1972) 235-238 &lbrack;<a href="https://doi.org/10.1016/0370-2693(72)90420-0">doi:10.1016/0370-2693(72)90420-0</a>&rbrack;
 
-* {#Conway83} [[John Conway]]: *The automorphism group of the 26-dimensional even unimodular Lorentzian lattice*, J. Algebra **80** 1 (1983) 159-163 &lbrack;[doi:10.1016/0021-8693(83)90025-X](https://doi.org/10.1016/0021-8693(83)90025-X)&rbrack;
+* {#Conway83} [[John Conway]]: *The automorphism group of the 26-dimensional even unimodular Lorentzian lattice*, J. Algebra **80** 1 (1983) 159-163 &lbrack;<a href="https://doi.org/10.1016/0021-8693(83)90025-X">doi:10.1016/0021-8693(83)90025-X</a>&rbrack;
 
 * [[Richard Borcherds]], [[John Conway]], L. Queen, [[Neil Sloane]]: *A monster Lie algebra?*, Adv. Math. **53** (1984) 75-79 &lbrack;[pdf](https://math.berkeley.edu/~reb/papers/bcqs/bcqs.pdf)&rbrack;
 
@@ -581,7 +787,7 @@ On the structure theory:
 
 * {#FLM88} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman: *Vertex operator algebras and the Monster*, Pure and Applied Mathematics **134**, Academic Press (1988)
 
-* {#Borcherds90} [[Richard Borcherds]]: *The monster Lie algebra*, Adv. Math. **83** 1 (1990) 30-47 &lbrack;[doi:10.1016/0001-8708(90)90067-W](https://doi.org/10.1016/0001-8708(90)90067-W), [pdf](https://math.berkeley.edu/~reb/papers/fake/fake.pdf)&rbrack;
+* {#Borcherds90} [[Richard Borcherds]]: *The monster Lie algebra*, Adv. Math. **83** 1 (1990) 30-47 &lbrack;<a href="https://doi.org/10.1016/0001-8708(90)90067-W">doi:10.1016/0001-8708(90)90067-W</a>, [pdf](https://math.berkeley.edu/~reb/papers/fake/fake.pdf)&rbrack;
 
   (on the *fake* Monster Lie algebra)
 
@@ -625,11 +831,11 @@ See also:
 
 As algebras of [[BPS states]]:
 
-* {#HarveyMoore96} [[Jeffrey Harvey]], [[Gregory Moore]]: *Algebras, BPS States, and Strings*, Nucl. Phys. B **463** (1996) 315-368 &lbrack;[arXiv:hep-th/9510182](https://arxiv.org/abs/hep-th/9510182), [doi:10.1016/0550-3213(95)00605-2](https://doi.org/10.1016/0550-3213(95)00605-2)&rbrack;
+* {#HarveyMoore96} [[Jeffrey Harvey]], [[Gregory Moore]]: *Algebras, BPS States, and Strings*, Nucl. Phys. B **463** (1996) 315-368 &lbrack;[arXiv:hep-th/9510182](https://arxiv.org/abs/hep-th/9510182), <a href="https://doi.org/10.1016/0550-3213(95)00605-2">doi:10.1016/0550-3213(95)00605-2</a>&rbrack;
 
 * {#HarveyMoore98} [[Jeffrey Harvey]], [[Gregory Moore]]: *On the algebras of BPS states*, Commun. Math. Phys. **197** (1998) 489-519 &lbrack;[arXiv:hep-th/9609017](https://arxiv.org/abs/hep-th/9609017), [doi:10.1007/s002200050461](https://doi.org/10.1007/s002200050461)&rbrack;
 
-* [[Gregory Moore]]: *String duality, automorphic forms, and generalized Kac-Moody algebras*, Nucl. Phys. B Proc. Suppl. **67** (1998) 56-67 &lbrack;[arXiv:hep-th/9710198](https://arxiv.org/abs/hep-th/9710198), [doi:10.1016/S0920-5632(98)00120-0](https://doi.org/10.1016/S0920-5632(98)00120-0)&rbrack;
+* [[Gregory Moore]]: *String duality, automorphic forms, and generalized Kac-Moody algebras*, Nucl. Phys. B Proc. Suppl. **67** (1998) 56-67 &lbrack;[arXiv:hep-th/9710198](https://arxiv.org/abs/hep-th/9710198), <a href="https://doi.org/10.1016/S0920-5632(98)00120-0">doi:10.1016/S0920-5632(98)00120-0</a>&rbrack;
 
 * {#PPV16} [[Natalie Paquette]], Daniel Persson, [[Roberto Volpato]]: *Monstrous BPS-Algebras and the Superstring Origin of Moonshine*, Commun. Number Theory Phys. **10** 3 (2016) 433-526 &lbrack;[arXiv:1601.05412](https://arxiv.org/abs/1601.05412), [doi:10.4310/CNTP.2016.v10.n3.a2](https://doi.org/10.4310/CNTP.2016.v10.n3.a2)&rbrack;
 
@@ -637,25 +843,25 @@ As algebras of [[BPS states]]:
 
 In the counting of [[dyons]]:
 
-* {#DVV97} [[Robbert Dijkgraaf]], [[Erik Verlinde]], [[Herman Verlinde]]: *Counting Dyons in $N=4$ String Theory*, Nucl. Phys. B **484** (1997) 543-561 &lbrack;[arXiv:hep-th/9607026](https://arxiv.org/abs/hep-th/9607026), [doi:10.1016/S0550-3213(96)00640-2](https://doi.org/10.1016/S0550-3213(96)00640-2)&rbrack;
+* {#DVV97} [[Robbert Dijkgraaf]], [[Erik Verlinde]], [[Herman Verlinde]]: *Counting Dyons in $N=4$ String Theory*, Nucl. Phys. B **484** (1997) 543-561 &lbrack;[arXiv:hep-th/9607026](https://arxiv.org/abs/hep-th/9607026), <a href="https://doi.org/10.1016/S0550-3213(96)00640-2">doi:10.1016/S0550-3213(96)00640-2</a>&rbrack;
 
 * {#ChengVerlinde08} [[Miranda Cheng]], [[Erik Verlinde]]: *Wall Crossing, Discrete Attractor Flow and Borcherds Algebra*, SIGMA **4** (2008) 068 &lbrack;[arXiv:0806.2337](https://arxiv.org/abs/0806.2337), [doi:10.3842/SIGMA.2008.068](https://doi.org/10.3842/SIGMA.2008.068)&rbrack;
 
 Symmetric products and second quantized strings:
 
-* {#DMVV97} [[Robbert Dijkgraaf]], [[Gregory Moore]], [[Erik Verlinde]], [[Herman Verlinde]]: *Elliptic Genera of Symmetric Products and Second Quantized Strings*, Commun. Math. Phys. **185** (1997) 197-209 &lbrack;[arXiv:hep-th/9608096](https://arxiv.org/abs/hep-th/9608096)&rbrack;
+* {#DMVV97} [[Robbert Dijkgraaf]], [[Gregory Moore]], [[Erik Verlinde]], [[Herman Verlinde]]: *Elliptic Genera of Symmetric Products and Second Quantized Strings*, Commun. Math. Phys. **185** (1997) 197-209 &lbrack;[arXiv:hep-th/9608096](https://arxiv.org/abs/hep-th/9608096), [doi:10.1007/s002200050087](https://doi.org/10.1007/s002200050087)&rbrack;
 
 
 ### In supergravity
  {#InSupergravity}
 
-On the Lie superalgebra structure encoded by the Bianchi identities of [[p-form]] fields in [[supergravity]] ("superdualities"):
+On the [[Lie superalgebra]] structure encoded by the [[Bianchi identities]] of [[higher gauge field]] [[flux densities]] in [[supergravity]] ("superdualities"):
 
-* {#CJLP98a} [[Eugène Cremmer]], [[Bernard Julia]], [[Hong Lü]], [[Christopher Pope]]: *Dualisation of dualities I*, Nucl. Phys. B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), [doi:10.1016/S0550-3213(98)00136-9](https://doi.org/10.1016/S0550-3213(98)00136-9)&rbrack;
+* {#CJLP98a} [[Eugène Cremmer]], [[Bernard Julia]], [[Hong Lü]], [[Christopher Pope]]: *Dualisation of dualities I*, Nucl. Phys. B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
 
-* {#CJLP98b} [[Eugène Cremmer]], [[Bernard Julia]], [[Hong Lü]], [[Christopher Pope]]: *Dualisation of dualities II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535** (1998) 242-292 &lbrack;[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), [doi:10.1016/S0550-3213(98)00552-5](https://doi.org/10.1016/S0550-3213(98)00552-5)&rbrack;
+* {#CJLP98b} [[Eugène Cremmer]], [[Bernard Julia]], [[Hong Lü]], [[Christopher Pope]]: *Dualisation of dualities II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535** (1998) 242-292 &lbrack;[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>&rbrack;
 
-* {#LLPS99} I. V. Lavrinenko, [[Hong Lü]], [[Christopher Pope]], [[Kellogg Stelle]]: *Superdualities, brane tensions and massive IIA/IIB duality*, Nucl. Phys. B **555** (1999) 201-227 &lbrack;[arXiv:hep-th/9903057](https://arxiv.org/abs/hep-th/9903057), [doi:10.1016/S0550-3213(99)00307-7](https://doi.org/10.1016/S0550-3213(99)00307-7)&rbrack;
+* {#LLPS99} I. V. Lavrinenko, [[Hong Lü]], [[Christopher Pope]], [[Kellogg Stelle]]: *Superdualities, brane tensions and massive IIA/IIB duality*, Nucl. Phys. B **555** (1999) 201-227 &lbrack;[arXiv:hep-th/9903057](https://arxiv.org/abs/hep-th/9903057), <a href="https://doi.org/10.1016/S0550-3213(99)00307-7">doi:10.1016/S0550-3213(99)00307-7</a>&rbrack;
 
 Identification of these as (truncations of) Borcherds superalgebras, and relation to [[U-duality]] and [[E11]] (via [[mysterious duality]]):
 
@@ -663,15 +869,15 @@ Identification of these as (truncations of) Borcherds superalgebras, and relatio
 
 * {#HLJP03} Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Real Borcherds Superalgebras and M-theory*, JHEP **04** (2003) 060 &lbrack;[arXiv:hep-th/0212346](https://arxiv.org/abs/hep-th/0212346), [doi:10.1088/1126-6708/2003/04/060](https://doi.org/10.1088/1126-6708/2003/04/060)&rbrack;
 
-* Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse 2002 &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
+* Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse (2002) &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
 
-* {#HJL12} [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie: *$E_{11}$, Borcherds algebras and maximal supergravity*, JHEP **04** (2012) 078 &lbrack;[arXiv:1007.5241](https://arxiv.org/abs/1007.5241), [doi:10.1007/JHEP04(2012)078](https://doi.org/10.1007/JHEP04(2012)078)&rbrack;
+* {#HJL12} [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie: *$E_{11}$, Borcherds algebras and maximal supergravity*, JHEP **04** (2012) 078 &lbrack;[arXiv:1007.5241](https://arxiv.org/abs/1007.5241), <a href="https://doi.org/10.1007/JHEP04(2012)078">doi:10.1007/JHEP04(2012)078</a>&rbrack;
 
-* {#KleinschmidtPalmkvist13} [[Axel Kleinschmidt]], [[Jakob Palmkvist]]: *Oxidizing Borcherds symmetries*, JHEP **03** (2013) 044 &lbrack;[arXiv:1301.1346](https://arxiv.org/abs/1301.1346), [doi:10.1007/JHEP03(2013)044](https://doi.org/10.1007/JHEP03(2013)044)&rbrack;
+* {#KleinschmidtPalmkvist13} [[Axel Kleinschmidt]], [[Jakob Palmkvist]]: *Oxidizing Borcherds symmetries*, JHEP **03** (2013) 044 &lbrack;[arXiv:1301.1346](https://arxiv.org/abs/1301.1346), <a href="https://doi.org/10.1007/JHEP03(2013)044">doi:10.1007/JHEP03(2013)044</a>&rbrack;
 
 The Borcherds algebra relevant for [[type IIB supergravity]] was first considered in:
 
-* {#Slansky93} [[Richard Slansky]]: *An algebraic role for energy and number operators for multiparticle states*, Nucl. Phys. B **389** (1993) 349-364 &lbrack;[doi:10.1016/0550-3213(93)90325-J](https://doi.org/10.1016/0550-3213(93)90325-J)&rbrack;
+* {#Slansky93} [[Richard Slansky]]: *An algebraic role for energy and number operators for multiparticle states*, Nucl. Phys. B **389** (1993) 349-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(93)90325-J">doi:10.1016/0550-3213(93)90325-J</a>&rbrack;
 
 The complete form spectra (including 10-form potentials) of type II supergravity, in components and in superspace:
 
@@ -681,7 +887,7 @@ The complete form spectra (including 10-form potentials) of type II supergravity
 
 * [[Eric Bergshoeff]], [[Paul Howe]], Sven F. Kerstan, [[Linus Wulff]]: *Kappa-symmetric $SL(2,\mathbb{R})$ covariant D-brane actions*, JHEP **10** (2007) 050 &lbrack;[arXiv:0708.2722](https://arxiv.org/abs/0708.2722), [doi:10.1088/1126-6708/2007/10/050](https://doi.org/10.1088/1126-6708/2007/10/050)&rbrack;
 
-* [[Eric Bergshoeff]], [[Jelle Hartong]], [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), [doi:10.1007/JHEP05(2010)061](https://doi.org/10.1007/JHEP05(2010)061)&rbrack;
+* [[Eric Bergshoeff]], [[Jelle Hartong]], [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
 
 On Borcherds algebras of [[Bianchi identities]] of [[supergravity]] [[flux densities]] in [[superspace]], including form degrees beyond the spacetime dimension:
 
@@ -689,7 +895,7 @@ On Borcherds algebras of [[Bianchi identities]] of [[supergravity]] [[flux densi
 
 * {#GreitzHowe11b} [[Jesper Greitz]], [[Paul Howe]]: *Maximal supergravity in $D=10$: forms, Borcherds algebras and superspace cohomology*, JHEP **08** (2011) 146 &lbrack;[arXiv:1103.5053](https://arxiv.org/abs/1103.5053), <a href="https://doi.org/10.1007/JHEP08(2011)146">doi:10.1007/JHEP08(2011)146</a>&rbrack;
 
-* {#GreitzHowe12} [[Jesper Greitz]], [[Paul Howe]]: *Half-maximal supergravity in three dimensions: supergeometry, differential forms and algebraic structure*, JHEP **06** (2012) 177 &lbrack;[arXiv:1203.5585](https://arxiv.org/abs/1203.5585), <a hre="https://doi.org/10.1007/JHEP06(2012)177">doi:10.1007/JHEP06(2012)177</a>&rbrack;
+* {#GreitzHowe12} [[Jesper Greitz]], [[Paul Howe]]: *Half-maximal supergravity in three dimensions: supergeometry, differential forms and algebraic structure*, JHEP **06** (2012) 177 &lbrack;[arXiv:1203.5585](https://arxiv.org/abs/1203.5585), <a href="https://doi.org/10.1007/JHEP06(2012)177">doi:10.1007/JHEP06(2012)177</a>&rbrack;
 
 * {#HowePalmkvist15} [[Paul Howe]], [[Jakob Palmkvist]]: *Forms and algebras in (half-)maximal supergravity theories*, JHEP **05** (2015) 032 &lbrack;[arXiv:1503.00015](https://arxiv.org/abs/1503.00015), <a href="https://doi.org/10.1007/JHEP05(2015)032">doi:10.1007/JHEP05(2015)032</a>&rbrack;
 
@@ -711,15 +917,15 @@ The analogous derivation of the form spectra from [[E11|$E_{11}$]]:
 
 * [[Fabio Riccioni]], Duncan Steele, [[Peter West]]: *The $E_{11}$ origin of all maximal supergravities -- the hierarchy of field-strengths*, JHEP **09** (2009) 095 &lbrack;[arXiv:0906.1177](https://arxiv.org/abs/0906.1177), [doi:10.1088/1126-6708/2009/09/095](https://doi.org/10.1088/1126-6708/2009/09/095)&rbrack;
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]]: *Beyond $E_{11}$*, JHEP **05** (2017) 020 &lbrack;[arXiv:1703.01305](https://arxiv.org/abs/1703.01305), [doi:10.1007/JHEP05(2017)020](https://doi.org/10.1007/JHEP05(2017)020)&rbrack;
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]]: *Beyond $E_{11}$*, JHEP **05** (2017) 020 &lbrack;[arXiv:1703.01305](https://arxiv.org/abs/1703.01305), <a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>&rbrack;
 
 Relation to [[tensor hierarchies]] in [[gauged supergravity]]:
 
 * [[Bernard de Wit]], [[Henning Samtleben]]: *The end of the $p$-form hierarchy*, JHEP **08** (2008) 015 &lbrack;[arXiv:0805.4767](https://arxiv.org/abs/0805.4767), [doi:10.1088/1126-6708/2008/08/015](https://doi.org/10.1088/1126-6708/2008/08/015)&rbrack;
 
-* {#Palmkvist12} [[Jakob Palmkvist]]: *Tensor hierarchies, Borcherds algebras and $E_{11}$*, JHEP **02** (2012) 066 &lbrack;[arXiv:1110.4892](https://arxiv.org/abs/1110.4892), [doi:10.1007/JHEP02(2012)066](https://doi.org/10.1007/JHEP02(2012)066)&rbrack;
+* {#Palmkvist12} [[Jakob Palmkvist]]: *Tensor hierarchies, Borcherds algebras and $E_{11}$*, JHEP **02** (2012) 066 &lbrack;[arXiv:1110.4892](https://arxiv.org/abs/1110.4892), <a href="https://doi.org/10.1007/JHEP02(2012)066">doi:10.1007/JHEP02(2012)066</a>&rbrack;
 
-* {#Palmkvist12b} [[Jakob Palmkvist]]: *Borcherds and Kac-Moody extensions of simple finite-dimensional Lie algebras*, JHEP **06** (2012) 003 &lbrack;[arXiv:1203.5107](https://arxiv.org/abs/1203.5107), [doi:10.1007/JHEP06(2012)003](https://doi.org/10.1007/JHEP06(2012)003)&rbrack;
+* {#Palmkvist12b} [[Jakob Palmkvist]]: *Borcherds and Kac-Moody extensions of simple finite-dimensional Lie algebras*, JHEP **06** (2012) 003 &lbrack;[arXiv:1203.5107](https://arxiv.org/abs/1203.5107), <a href="https://doi.org/10.1007/JHEP06(2012)003">doi:10.1007/JHEP06(2012)003</a>&rbrack;
 
 * {#Palmkvist14} [[Jakob Palmkvist]]: *The tensor hierarchy algebra*, J. Math. Phys. **55** (2014) 011701 &lbrack;[arXiv:1305.0018](https://arxiv.org/abs/1305.0018), [doi:10.1063/1.4858335](https://doi.org/10.1063/1.4858335)&rbrack;
 
@@ -727,9 +933,9 @@ Relation to [[tensor hierarchies]] in [[gauged supergravity]]:
 
 Relation to [[exceptional generalized geometry]]:
 
-* {#Palmkvist15} [[Jakob Palmkvist]]: *Exceptional geometry and Borcherds superalgebras*, JHEP **11** (2015) 032 &lbrack;[arXiv:1507.08828](https://arxiv.org/abs/1507.08828), [doi:10.1007/JHEP11(2015)032](https://doi.org/10.1007/JHEP11(2015)032)&rbrack;
+* {#Palmkvist15} [[Jakob Palmkvist]]: *Exceptional geometry and Borcherds superalgebras*, JHEP **11** (2015) 032 &lbrack;[arXiv:1507.08828](https://arxiv.org/abs/1507.08828), <a href="https://doi.org/10.1007/JHEP11(2015)032">doi:10.1007/JHEP11(2015)032</a>&rbrack;
 
-* [[Martin Cederwall]], [[Jakob Palmkvist]]: *Superalgebras, constraints and partition functions*, JHEP **08** (2015) 036 &lbrack;[arXiv:1503.06215](https://arxiv.org/abs/1503.06215), [doi:10.1007/JHEP08(2015)036](https://doi.org/10.1007/JHEP08(2015)036)&rbrack;
+* [[Martin Cederwall]], [[Jakob Palmkvist]]: *Superalgebras, constraints and partition functions*, JHEP **08** (2015) 036 &lbrack;[arXiv:1503.06215](https://arxiv.org/abs/1503.06215), <a href="https://doi.org/10.1007/JHEP08(2015)036">doi:10.1007/JHEP08(2015)036</a>&rbrack;
 
 including the induced [[L-infinity algebras]]:
 
