@@ -5243,7 +5243,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 
 ### May 2026
 
-<div style="float:right;margin:-50px 0px -10px 20px;">
+<div style="float:right;margin:-100px 0px -10px 20px;">
 <a href="https://ncatlab.org/schreiber/files/ModPhysGloMath-260507.pdf#page=1"><img src="/schreiber/files/WIKO-CoverSlide-260218.png" width="400"></a></div>
 
 
@@ -5258,10 +5258,19 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
   Greifswald (6 May 2026)
 
 
+\linbreak
 
+\linebreak
 
 
 \linebreak  
+
+
+## Members
+
+<img src="/schreiber/files/CQTS-group-photo_2026.png" width="900">
+
+<img src="/schreiber/files/CQTS-whiteboard-photo_2026.png" width="900">
 
 
 
