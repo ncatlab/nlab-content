@@ -60,6 +60,88 @@ For more details see
 
 * [[fully formal ETCS]].
 
+## As First Order Logic
+(Citations needed for this whole section).
+
+Here we present ETCS as a finite-arity first logic with equality. We use a two sorted version, with sorts $Ar$ and $Ob$ representing arrows and objects. A one sorted version is possible by using the identity morphisms to represent objects. We will use $\forall_{Ar}, \exists_{Ar}$ and $\forall_{Ob}, \exists_{Ob}$ to quantify over the sorts respectively.
+
+The signature has three function symbols representing the domain, codomain, and identity morphism.
+
+$$ dom, cod : Ar \to Ob $$
+$$ id : Ob \to Ar $$
+
+and one relation symbol representing function composition.
+
+$$ C : Ar \times Ar \times Ar $$
+
+Intuitively $C(a, b, c)$ means $a \circ b = c$.
+
+We abbreviate the proposition $dom(m) = A \wedge cod(m) = B$ to $m : A \to B$.
+
+###### Identity morphism
+
+The identity morphism on object $A$ has domain and codomain of $A$.
+
+$$\forall_{Ob} A \quad (dom(id(A)) = A) \wedge (cod(id(A)) = A)$$
+
+###### Composition
+
+Composition of functions keeps the domain of first and the codomain of the second.
+
+$$\forall_{Ar} a \forall_{Ar} b \forall_{Ar} c \quad C(a, b, c) \implies \Big( dom(c) = dom(b) \wedge cod(c) = cod(a) \Big)$$
+
+If one function has a domain of another's codomain they can be composed.
+
+$$\forall_{Ar} a \forall_{Ar} b \qquad \Big(dom(a) = cod(b)\Big) \iff \Big( \exists_{Ar} c \quad C(a, b, c)\Big)$$
+
+Composition is injective.
+
+$$\forall_{Ar} a \forall_{Ar} b \forall_{Ar} c \forall_{Ar} d \quad \Big(C(a, b, c) \wedge C(a, b, d)\Big) \implies c = d$$
+
+Composition is assosiative
+
+$$\forall_{Ar} a \forall_{Ar} b \forall_{Ar} c \forall_{Ar} f \forall_{Ar} g \forall_{Ar} k \quad \Big(C(a, b, f) \wedge C(b, c, g) \wedge C(a, g, k) \Big) \implies C(f, c, k)$$
+
+Composition with identity doesn't do anything.
+
+todo
+
+###### Terminal
+
+$$\exists_{Ob} T \forall_{Ob} X \exists!_{Ar} t \quad (t : X \to T) $$
+
+###### Products
+
+todo
+
+###### Equalizers
+
+todo
+
+###### Exponentials
+
+todo
+
+###### Classifier
+
+todo
+
+###### Natural numbers
+
+todo
+
+###### Well pointed
+
+todo
+
+###### Nontriviality
+
+todo
+
+###### Axiom of choice
+
+todo
+
 ## A constructive view
 
 [[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as:
