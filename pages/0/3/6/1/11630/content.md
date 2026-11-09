@@ -367,6 +367,8 @@ String theory [[partition functions]] as [[automorphic forms]] for U-duality gro
 
 * {#GRV10} [[Michael Green]], Jorge G. Russo, Pierre Vanhove, _Automorphic properties of low energy string amplitudes in various dimensions_ ([arXiv:1001.2535](http://arxiv.org/abs/1001.2535))
 
+[[!redirects U-dualities]]
+
 [[!redirects U-duality]]
 [[!redirects U-duality groups]]
 
