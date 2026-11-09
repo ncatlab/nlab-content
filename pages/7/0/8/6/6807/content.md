@@ -248,15 +248,20 @@ See also:
 There remains the problem of existence of a sensible ground state of the BFSS model. 
 
 * [[Bernard de Wit]], M. Luscher, [[Hermann Nicolai]], _The Supermembrane Is Unstable_, Nucl.Phys. B320 (1989) 135-159 ([spire:266584](http://inspirehep.net/record/266584), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
- 
 
-For a new attempt at solving this problem, and for pointers to previous attempts see
+
+A new attempt:
 
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
 Volume 910, September 2016, Pages 665-684 ([arXiv:1504.04071](https://arxiv.org/abs/1504.04071))
 
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _Measure of the potential valleys of the supermembrane theory_, Physics Letters B
 Volume 797, 2019, 134873 ([arXiv:1811.05758](https://arxiv.org/abs/1811.05758))
+
+See also:
+
+* Alexander Michel, Jaroslav Scheinpflug, [[Xi Yin]]: *99.9...% of the $SU(2)$ BFSS ground state* &lbrack;[arXiv:2611.09837](https://arxiv.org/abs/2611.09837)&rbrack;
+
 
 ### Graviton scattering
  {#ReferencesGravitonScattering}
