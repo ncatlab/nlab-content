@@ -21,6 +21,11 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
   > (on [[Morse-Bott theory]] of [[free loop spaces]] of [[Riemannian manifolds]])
  
 
+* {#Monodromy} [[nLab materials]]: *Monodromy in Homotopy Type Theory* (2026-11-09) &lbrack;<a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.pdf">main.pdf</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.tex">main.tex</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/agda/NLabMonodromy.agda">agda</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/tree/main/alignment">alignment</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda">GitHub</a>&rbrack;
+  > (on [[monodromy]]; Cubical Agda type-checked)
+
+
+
 * ...
 
 
