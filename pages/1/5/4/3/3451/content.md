@@ -299,11 +299,20 @@ For the underlying constructions in homotopy type theory, see [UFP 2013, §§2.3
 
 ### Formalization in Cubical Agda
 
-A machine-checked Cubical Agda construction of transport-based
-monodromy, together with its mathematical exposition and
-source-to-formalization correspondence, is available at:
+A machine-checked formalization of the transport-based monodromy constructions discussed above is available in [[Cubical Agda]].
 
-[Agda formalization](PUBLIC_URL)
+The formalization covers transport equivalences, identity and composition compatibility, loop-space monodromy, pointed transport, induced equivalences on higher homotopy groups, and explicit change-of-basepoint constructions.
+
+The accompanying mathematical exposition (Shadow Paper) provides a detailed account of these constructions, together with their mathematical references and explicit correspondences to the formal code.
+
+* [Cubical Agda source code](https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/agda/NLabMonodromy.agda)
+* [Mathematical exposition (Shadow Paper)](https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.pdf)
+* [Mathematics-to-Agda correspondence](https://github.com/hw4375-collab/Monodromy-CubicalAgda/tree/main/alignment)
+* [Repository and reproducibility instructions](https://github.com/hw4375-collab/Monodromy-CubicalAgda)
+
+The implementation has been type-checked with Agda 2.8.0 and Cubical Library v0.9. Mathematical and semantic review is pending.
+
+The current formalization does not establish the full fundamental-group action on fixed-basepoint higher homotopy groups discussed in the preceding section.
 
 
 ## In cohesive $\infty$-Toposes
