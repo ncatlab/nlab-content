@@ -55,9 +55,9 @@ A proposal for understanding [[tensor hierarchies]] as [[dg-Lie algebra]]/[[L-in
 
 * [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
-Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
+Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism and [[Borcherds algebra]]:
 
-* [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+* [[Martin Cederwall]], [[Simon Jonsson]], [[Jakob Palmkvist]], [[Ingmar Saberi]]: *Canonical supermultiplets and their Koszul duals*,  Commun. Math. Phys. **405** (2024) 127 &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258), [doi:10.1007/s00220-024-04990-z](https://doi.org/10.1007/s00220-024-04990-z)&rbrack;
 
 On hyperbolic [[Kac-Moody algebras]] in view of their role in [[U-duality]]-covariant [[supergravity]]:
 
