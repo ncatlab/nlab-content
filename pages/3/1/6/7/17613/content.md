@@ -1,6 +1,12 @@
 
-* [webpage](http://www.people.fas.harvard.edu/~xiyin/Site/Home.html)
 
+* [personal page](https://sites.google.com/view/xi-yin/home)
+
+* [institute page](https://www.physics.harvard.edu/people/facpages/yin)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=255277)
+
+* [inSpire page](https://inspirehep.net/authors/982693)
 
 ## Selected writings
 
@@ -14,8 +20,14 @@ On the [[M5-brane elliptic genus]]:
 
 * [[Davide Gaiotto]], [[Xi Yin]], _Examples of M5-Brane Elliptic Genera_, JHEP 0711:004, 2007 ([arXiv:hep-th/0702012](https://arxiv.org/abs/hep-th/0702012))
 
+On the [[ground state]] of the [[BFSS matrix model]]:
 
-## Related $n$Lab entries
+* Alexander Michel, Jaroslav Scheinpflug, [[Xi Yin]]: *99.9...% of the $SU(2)$ BFSS ground state* &lbrack;[arXiv:2611.09837](https://arxiv.org/abs/2611.09837)&rbrack;
+
+
+
+
+## Related entries
 
 * [[black holes in string theory]]
 
