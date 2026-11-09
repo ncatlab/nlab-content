@@ -943,6 +943,10 @@ including the induced [[L-infinity algebras]]:
 
 * {#LavauPalmkvist20} [[Sylvain Lavau]], [[Jakob Palmkvist]]: *Infinity-enhancing of Leibniz algebras*, Lett. Math. Phys. **110** (2020) 3121-3152 &lbrack;[arXiv:1907.05752](https://arxiv.org/abs/1907.05752), [doi:10.1007/s11005-020-01324-7](https://doi.org/10.1007/s11005-020-01324-7)&rbrack;
 
+See also:
+
+* [[Martin Cederwall]], [[Simon Jonsson]], [[Jakob Palmkvist]], [[Ingmar Saberi]]: *Canonical supermultiplets and their Koszul duals*,  Commun. Math. Phys. **405** (2024) 127 &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258), [doi:10.1007/s00220-024-04990-z](https://doi.org/10.1007/s00220-024-04990-z)&rbrack;
+
 
 [[!redirects Borcherds algebra]]
 [[!redirects Borcherds algebras]]
