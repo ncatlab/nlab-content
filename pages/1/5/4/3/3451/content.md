@@ -243,9 +243,17 @@ Let $B$ be a type and $P:B\to\mathcal{U}$ a [[type family]], with associated [[d
 
 $$
 \begin{array}{ccc}
-P(b) & \longrightarrow & \displaystyle\sum_{x:B}P(x) \\
-\big\downarrow && \big\downarrow\mathrlap{^{\mathrm{pr}_1}} \\
-\ast & \xrightarrow{\ b\ } & B.
+  P(b) 
+  & \longrightarrow & 
+  \textstyle{\sum_{x:B}} P(x) 
+  \\
+  \big\downarrow 
+   && 
+  \big\downarrow\mathrlap{^{\mathrm{pr}_1}} 
+  \\
+  \ast 
+  & \xrightarrow{\ b\ } & B
+  \mathrlap{\,.}
 \end{array}
 $$
 
@@ -255,18 +263,30 @@ Thus, a family of types over $B$ determines a fibration whose fibers are specifi
 
 For a path $p:x=_B y$, [[transport]] determines a map $p_*:P(x)\to P(y)$. By [[path induction]], transport along a reflexivity path is the identity, while transport along the inverse path provides a homotopy inverse. Hence every path induces an [[equivalence]] $P(x)\simeq P(y)$.
 
-Moreover, transport is compatible with [[path|path composition]]. Given composable paths $p:x=y$ and $q:y=z$, the triangle
+Moreover, transport is compatible with [[path]] [[concatenation]]. Given composable paths $p \colon x=y$ and $q \colon  y=z$, the triangle
 
-$$
-\begin{array}{ccc}
-P(x) & \xrightarrow{\ p_*\ } & P(y) \\
-& \searrow_{\mathrlap{(p\cdot q)_*}} &
-\big\downarrow\mathrlap{^{q_*}} \\
-&& P(z)
-\end{array}
-$$
+\begin{tikzcd}
+  & 
+  P(y)
+  \ar[
+    dr,
+    "{ q_\ast }"
+  ]
+  \\
+  P(x)
+  \ar[
+    ur,
+    "{ p_\ast }"
+  ]
+  \ar[
+    rr,
+    "{ (p \cdot q)_\ast }"'
+  ]
+  &&
+  P(z)
+\end{tikzcd}
 
-commutes up to [[homotopy]], expressing $(p\cdot q)_*\sim q_*\circ p_*$.
+[[commuting diagram|commutes]] up to [[homotopy]], expressing $(p\cdot q)_* \sim q_* \circ p_*$.
 
 Now fix a basepoint $b_0:B$ and write $F\coloneqq P(b_0)$. Restricting transport to the [[loop space]] $\Omega(B,b_0)\coloneqq(b_0=_B b_0)$ yields the **monodromy map**
 
