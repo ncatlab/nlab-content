@@ -234,6 +234,76 @@ over a [[connected topological space]] $B$, there is a canonical [[group action]
 
 (cf. [Steenrod 1951 §17](#Steenrod1951), [Whitehead 1978, §4.2](#Whitehead1978), [Spanier 1981 §7.2](#Spanier1981), [May 1999 May19997.3](#May1999), [UFP 2013 §2.3 & §4.8](#UFP13))
 
+## In homotopy type theory
+{#InHomotopyTypeTheory}
+
+In [[homotopy type theory]], [[monodromy]] arises naturally from the [[transport]] of [[dependent type|dependent types]] along [[path|paths]]. This gives an intrinsic formulation of monodromy, without first specifying a path-lifting operation in a topological total space.
+
+Let $B$ be a type and $P:B\to\mathcal{U}$ a [[type family]], with associated [[dependent sum type|dependent sum]] $E\coloneqq\sum_{b:B}P(b)$ and projection $\mathrm{pr}_1:E\to B$. For each $b:B$, the [[homotopy fiber]] of this projection over $b$ is equivalent to $P(b)$, as exhibited by the [[homotopy pullback]] square
+
+$$
+\begin{array}{ccc}
+P(b) & \longrightarrow & \displaystyle\sum_{x:B}P(x) \\
+\big\downarrow && \big\downarrow\mathrlap{^{\mathrm{pr}_1}} \\
+\ast & \xrightarrow{\ b\ } & B.
+\end{array}
+$$
+
+Thus, a family of types over $B$ determines a fibration whose fibers are specified by the family itself.
+
+### Transport and monodromy
+
+For a path $p:x=_B y$, [[transport]] determines a map $p_*:P(x)\to P(y)$. By [[path induction]], transport along a reflexivity path is the identity, while transport along the inverse path provides a homotopy inverse. Hence every path induces an [[equivalence]] $P(x)\simeq P(y)$.
+
+Moreover, transport is compatible with [[path|path composition]]. Given composable paths $p:x=y$ and $q:y=z$, the triangle
+
+$$
+\begin{array}{ccc}
+P(x) & \xrightarrow{\ p_*\ } & P(y) \\
+& \searrow_{\mathrlap{(p\cdot q)_*}} &
+\big\downarrow\mathrlap{^{q_*}} \\
+&& P(z)
+\end{array}
+$$
+
+commutes up to [[homotopy]], expressing $(p\cdot q)_*\sim q_*\circ p_*$.
+
+Now fix a basepoint $b_0:B$ and write $F\coloneqq P(b_0)$. Restricting transport to the [[loop space]] $\Omega(B,b_0)\coloneqq(b_0=_B b_0)$ yields the **monodromy map**
+
+$$
+\operatorname{mon}_{P,b_0}
+:
+\Omega(B,b_0)\longrightarrow\operatorname{Aut}(F),
+\qquad
+\gamma\mapsto\gamma_*.
+$$
+
+Here $\operatorname{Aut}(F)$ denotes the type of self-equivalences of $F$. The identity and composition properties of transport give the corresponding compatibility with the loop-space structure. In this sense, monodromy is the action of loops on the fiber induced by the dependent type family.
+
+### Induced equivalences on homotopy groups
+
+Passing from fiber self-equivalences to [[homotopy group|homotopy groups]] introduces a subtlety concerning basepoints.
+
+Given $f_0:F$ and a loop $\gamma:b_0=b_0$, transport determines $f_1\coloneqq\gamma_*(f_0):F$, which need not coincide with $f_0$. Consequently, the fiber self-equivalence canonically determines an equivalence of [[pointed type|pointed types]] $(F,f_0)\simeq_*(F,f_1)$, and hence induces group isomorphisms
+
+$$
+\pi_n(F,f_0)\cong\pi_n(F,f_1),
+\qquad n\geq 1.
+$$
+
+To obtain an automorphism of a single fixed-basepoint homotopy group, one must account for the change of basepoint. A specified path $r:f_1=f_0$, for instance, supplies an additional identification between the two based homotopy groups.
+
+Thus, while transport canonically defines monodromy on the underlying fiber, its formulation as an action of the [[fundamental group]] $\pi_1(B,b_0)$ by automorphisms of $\pi_n(F,f_0)$ requires further attention to the basepoint data and its compatibility with loop composition.
+
+For the underlying constructions in homotopy type theory, see [UFP 2013, §§2.3 and 4.8](#UFP13).
+
+### Formalization in Cubical Agda
+
+A machine-checked Cubical Agda construction of transport-based
+monodromy, together with its mathematical exposition and
+source-to-formalization correspondence, is available at:
+
+[Agda formalization](PUBLIC_URL)
 
 
 ## In cohesive $\infty$-Toposes
