@@ -58,3 +58,6 @@ I am particularly interested in the role of human mathematical judgment in this 
 * **When Proof No Longer Means Understanding** — Mathematics Club and Program of Mathematics, New York University Abu Dhabi, November 5, 2026.
 
 category: people
+
+
+[[nLab formalization index]]
