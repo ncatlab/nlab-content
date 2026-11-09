@@ -218,4 +218,7 @@ Via [[classifying spaces]] and ([[cohesive homotopy theory|cohesive]]) [[homotop
 [[!redirects categorified symmetry]]
 [[!redirects categorified symmetries]]
 
+[[!redirects higher global symmetry]]
+[[!redirects higher global symmetries]]
+
 
