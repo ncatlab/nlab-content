@@ -37,9 +37,9 @@ On holomorphic [[topological twist|twists]] of [[superconformal algebras]]:
 
 * [[Ingmar Saberi]], [[Brian Williams]], *Superconformal algebras and holomorphic field theories* ([arXiv:1910.04120](https://arxiv.org/abs/1910.04120))
 
-Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
+Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism and [[Borcherds algebra]]:
 
-* [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+* [[Martin Cederwall]], [[Simon Jonsson]], [[Jakob Palmkvist]], [[Ingmar Saberi]]: *Canonical supermultiplets and their Koszul duals*,  Commun. Math. Phys. **405** (2024) 127 &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258), [doi:10.1007/s00220-024-04990-z](https://doi.org/10.1007/s00220-024-04990-z)&rbrack;
 
 
 On manifestly [[supersymmetry|supersymmetric]] [[action functionals]] for [[11D supergravity]] via pure spinor [[superfields]] on [[superspace]] and application to [[topologically twisted supergravity]]:
