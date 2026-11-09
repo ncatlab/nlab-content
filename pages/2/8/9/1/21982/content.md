@@ -277,7 +277,7 @@ Also, actual checks of the proposal that D-brane charge is given by K-theory, vi
 
 The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
 
-* {#Erler13} [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 \[<a href="https://doi.org/10.1007/JHEP11(2013)007">doi:10.1007/JHEP11(2013)007</a>, [arXiv:1308.4400](https://arxiv.org/abs/1308.4400)\]
+* {#Erler13} [[Theodore Erler]]: _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 \[<a href="https://doi.org/10.1007/JHEP11(2013)007">doi:10.1007/JHEP11(2013)007</a>, [arXiv:1308.4400](https://arxiv.org/abs/1308.4400)\]
 
 which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)) with:
 
@@ -285,7 +285,7 @@ which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=3
 
 See also:
 
-* {#Erler19} [[Theodore Erler]]: _Four Lectures on Analytic Solutions in Open String Field Theory_ ([arXiv:1912.00521](https://arxiv.org/abs/1912.00521), [spire:1768105](https://inspirehep.net/literature/1768105))
+* {#Erler19} [[Theodore Erler]]: _Four Lectures on Analytic Solutions in Open String Field Theory_ \[<a href="https://arxiv.org/abs/1912.00521">arXiv:1912.00521</a>, [spire:1768105](https://inspirehep.net/literature/1768105)\]
 
 which still lists (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among open problems of [[string field theory]], the question:
 
@@ -295,6 +295,7 @@ Then there is the fundamental problem that the K-theory conjecture ignores/contr
 
 * [[Pinak Banerjee]] et al.: *[[schreiber:Flux Quantization of Type IIA|Flux Quantization of Type IIA in Unstable K-Theory]]* \[<a href="https://arxiv.org/abs/2605.25035">arXiv:2605.25035</a>\]
 
+* [[Nikita Golub]] et al.: *[[schreiber:K from M|On the Derivation of K-Theory from M-Theory]]* &lbrack;[arXiv:2609.36048](https://arxiv.org/abs/2609.36048)&rbrack;
 
 
 
