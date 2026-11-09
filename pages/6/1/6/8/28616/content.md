@@ -27,13 +27,13 @@ My academic background is in pure mathematics, with research interests in [[homo
 
 ## Research
 
-My research lies at the intersection of mathematical logic, [[dependent type theory]], and higher-dimensional mathematics, with a particular interest in the relationship between mathematical meaning and formal proof.
+My research lies at the intersection of [[mathematical logic]], [[dependent type theory]], and [[higher category theory|higher-dimensional mathematics]], with a particular interest in the relationship between mathematical meaning and [[formal proof]].
 
 I am interested in how mathematical structures and arguments can be translated between different mathematical languages while preserving their underlying meaning. In particular, I study the semantic faithfulness of AI-assisted mathematical formalization: how a machine-checkable proof can be explicitly related to the mathematical statement and reasoning from which it originates.
 
-My current work involves [[homotopy type theory]], [[higher category theory]], and formalization in Cubical Agda and [[Lean]]. I am also working under the research guidance of [[Urs Schreiber]] on the formalization of homotopy-theoretic constructions in Cubical Agda.
+My current work involves [[homotopy type theory]], [[higher category theory]], and formalization in Cubical Agda and [[Lean]]. I am also working under the research guidance of [[Urs Schreiber]] on the formalization of [[homotopy theory|homotopy-theoretic]] constructions in [[Cubical Agda]].
 
-More broadly, I am interested in the role of higher-dimensional structures in the foundations of mathematical reasoning, and in how formal methods may reshape the relationship between mathematical proof and mathematical understanding.
+More broadly, I am interested in the role of [[higher structure|higher-dimensional structures]] in the foundations of mathematical reasoning, and in how formal methods may reshape the relationship between mathematical proof and mathematical understanding.
 
 ## Projects
 
