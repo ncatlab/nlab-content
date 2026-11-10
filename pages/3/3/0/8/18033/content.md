@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -118,6 +116,7 @@ For [[superconformal field theory]], such as [[D=4 N=1 SYM]], [[D=4 N=2 SYM]], [
 
 
 ### In AdS/CFT
+ {#ReferencesInAdSCFT}
 
 Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a precise and detailed construction of [[large-N limit|large-N]] but also [[large 1/N limit|small N]]
 and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory]]/[[M-theory]]:
