@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -22,7 +20,7 @@ There are various hints (originally observed in [Witten 95](#Witten95)) that all
 
 The "reasons to doubt" that interpretation is that the [[M2-brane]] does not support a [[perturbation theory]] the way that the [[superstring]] does. This is part of the reason why the actual nature of "M-theory" remains mysterious. On the other hand, later it was argued that there is a regularization of the M2-brane worldvolume theory, which makes it becomes the [[BFSS matrix model]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). In reaction to these developments it was suggested that "M-theory" could be read as "matrix theory".
 
-> {#MagicMysteryQuote} Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 2014, last paragraph](#Witten14))
+> {#MagicMysteryQuote} Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 2014](#Witten14), last paragraph, [p. 14](https://ncatlab.org/nlab/files/WittenKyotoPrizeLecture.pdf#page=14))
 
 The defining characteristic of M-theory is that it exhibits [[duality between M-theory and type IIA string theory|duality with type IIA string theory]] in the following way:
 
@@ -30,7 +28,9 @@ The defining characteristic of M-theory is that it exhibits [[duality between M-
 \[
   \label{MTheoryDiagram}
   \array{
-      M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
+      \text{M-Theory(?)} 
+        &\stackrel{low\;energy\;limit}{\to}& 
+      \text{11d Supergravity}
       \\
       {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}
       \Bigg\downarrow 
@@ -38,9 +38,9 @@ The defining characteristic of M-theory is that it exhibits [[duality between M-
       \Bigg\downarrow
       {}^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
       \\
-      type IIA string theory 
+      \text{type IIA string theory }
         &\stackrel{low\;energy\;effective\;QFT}{\to}&  
-      10d Supergravity
+      \text{10d Supergravity}
   }
 \]
 
@@ -181,11 +181,11 @@ The following is a collection of quotes from authors that highlight the open pro
 
 > String theory at its finest is, or should be, a new branch of geometry. $[\ldots]$ I would consider trying to elucidate this proper generalization of geometry as the central problem of physics, certainly the central problem of string theory. $[\ldots]$ What should have happened, by rights, is that the  correct mathematical structures should have been developed in the twenty-first or twenty-second century, and then finally physicists should have invented string theory as a physical theory that is made possible by these structures. $[\ldots]$ we are paying the price for the fact that we didn't come by this thing in the usual way. 
 
+
 \linebreak
 
-[Duff 1996, totality of Section 6](#Duff96) (right after the idea of M-theory was formulated):
-
-> The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes.
+{#Duff1996MysteryQuote} [Duff 1996](#Duff96) (right after the idea of M-theory was formulated):
+> The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes. &lbrack;totality of §6, [p. 18](https://arxiv.org/pdf/hep-th/9608117#page=17)&rbrack;
 
 \linebreak
 
@@ -458,7 +458,7 @@ The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[B
 
 Recollections include the last paragraph of 
 
-* {#Witten14} [[Edward Witten]], _Adventures in Physics and Math_, [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf), [[WittenKyotoPrizeLecture.pdf:file]])
+* {#Witten14} [[Edward Witten]]: _Adventures in Physics and Math_, Kyoto Prize lecture (2014) &lbrack;[web](https://bhavana.org.in/adventures-in-physics-and-maths/), [pdf](https://www.ias.edu/sites/default/files/sns/files/KyotoComemorativeLecture.pdf), [[WittenKyotoPrizeLecture.pdf:file]]&rbrack;
 
 
 
