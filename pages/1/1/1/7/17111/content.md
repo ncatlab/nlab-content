@@ -35,7 +35,7 @@ $$
     }
   \right)
   \;\;\;
-   with
+   \quad with \quad
   \;\;
    {\vert u\vert}^2 + {\vert v\vert}^2 = 1
   \,,
@@ -109,7 +109,7 @@ $$
     }
   \right)
   \;\;
-  with
+  \quad with \quad
   t \in U(1) \hookrightarrow \mathbb{C}
   \,.
 $$
@@ -132,7 +132,7 @@ $$
     }
   \right)
   \;\;\;  
-  with
+  \quad with \quad
   \;\;
   x,y,z \in \mathbb{R}
   \,.
