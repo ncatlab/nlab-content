@@ -1,7 +1,12 @@
 
+Stanley Deser (1931--2023)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stanley_Deser)
 
 * [[Marc Henneaux]], Rafael I. Nepomechie, Domenico Seminara: *Preface to Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2509.10618](https://arxiv.org/abs/2509.10618)&rbrack;
+
+* [[Michael J. Duff]], [[Kellogg S. Stelle]]: *Stanley Deser 19th March 1931 -- 21st April 2023*,  Biographical Memoirs of Fellows of the Royal Society (2026) \[<a href="https://doi.org/10.1098/rsbm20025.0047">doi:10.1098/rsbm20025.0047</a>, [arXiv:2611.11323](https://arxiv.org/abs/2611.11323)\]
+
 
 
 ## Selected writings
