@@ -70,6 +70,9 @@ On consistent [[KK-compactification]] of [[D=11 supergravity]] on [[Calabi-Yau 3
 
 * Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) &lbrack;[arXiv:2412.00186](https://arxiv.org/abs/2412.00186), <a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>&rbrack;
 
+On [[Stanley Deser]]:
+
+* [[Michael J. Duff]], [[Kellogg S. Stelle]]: *Stanley Deser 19th March 1931 -- 21st April 2023*,  Biographical Memoirs of Fellows of the Royal Society (2026) \[<a href="https://doi.org/10.1098/rsbm20025.0047">doi:10.1098/rsbm20025.0047</a>, [arXiv:2611.11323](https://arxiv.org/abs/2611.11323)\]
 
 
 ## Related entries
