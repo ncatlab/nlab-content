@@ -6,6 +6,6 @@
 
 ***
 
-[[higher curvature corrections to D=11 supergravity -- section]]
+
 
 ...
