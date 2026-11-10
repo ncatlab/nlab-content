@@ -25,7 +25,7 @@ There are many ways of defining the [[circle type]] as a [[higher inductive type
 ### As the generic self-identification
   {#GenericSelfIdentification}
 
-Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
+Let $a =_A b$ denote the [[identification type]] between elements $a$ and $b$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
 In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
 
