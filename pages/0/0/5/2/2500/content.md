@@ -349,9 +349,9 @@ In non-Lorenzian signature it is also possible to consider
 
 ## Phenomenology
 
-Discussion of evidence for supergravity from [[experiment]]/[[phenomenology]] includes the following:
+Supergravity plausibly may have a role in [[cosmic inflation]], see the discussion [there](cosmic+inflation#SupergravityModels).
 
-in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobinsky model of cosmic inflation]], which is strongly preferred by experiment, further improves after embedding into supergravity.
+[Dalianis & Farakos 2015](#DalianisFarakos15) argued that the [[Starobinsky model of cosmic inflation]], which is strongly preferred by experiment, further improves after embedding into supergravity.
 
 
 ## Related concepts
