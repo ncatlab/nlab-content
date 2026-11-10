@@ -102,7 +102,7 @@ See _[[ekpyrotic cosmology]]_.
 ### Supergravity models
  {#SupergravityModels}
 
-There are [[scalar fields]] in [[D=4 N=1 supergravity]] that naturally serve as inflatons.
+There are [[scalar fields]] in [[D=4 N=1 supergravity]] that naturally serve as [[inflatons]].
 
 
 #### $\alpha$-Attractor mechanism
