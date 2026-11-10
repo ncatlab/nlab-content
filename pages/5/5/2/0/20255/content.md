@@ -810,19 +810,18 @@ An [LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningRe
 
 These references concern worldvolume anomalies and bulk inflow, including their global refinements, rather than a solution of the eleven-dimensional superspace deformation problem.
 
-* {#Witten96} [[Edward Witten]], *Five-Brane Effective Action in M-Theory*, Journal of Geometry and Physics **22** 2 (1997) 103--133 &lbrack;[arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234), [doi:10.1016/S0393-0440(97)80160-X](https://doi.org/10.1016/S0393-0440%2897%2980160-X)&rbrack;
+* {#Witten96} [[Edward Witten]]: *Five-Brane Effective Action in M-Theory*, Journal of Geometry and Physics **22** 2 (1997) 103--133 &lbrack;[arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234), [doi:10.1016/S0393-0440(97)80160-X](https://doi.org/10.1016/S0393-0440%2897%2980160-X)&rbrack;
 
 * {#FreedHarveyMinasianMoore98} [[Daniel Freed]], [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]], *Gravitational Anomaly Cancellation for M-Theory Fivebranes*, Advances in Theoretical and Mathematical Physics **2** 3 (1998) 601--618 &lbrack;[arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205), [doi:10.4310/ATMP.1998.v2.n3.a8](https://doi.org/10.4310/ATMP.1998.v2.n3.a8)&rbrack;
 
-* {#HarveyMinasianMoore98b} [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]], *Non-abelian Tensor-multiplet Anomalies*, JHEP **09** (1998) 004 &lbrack;[arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060), [doi:10.1088/1126-6708/1998/09/004](https://doi.org/10.1088/1126-6708/1998/09/004)&rbrack;
+* {#HarveyMinasianMoore98b} [[Jeffrey Harvey]], [[Ruben Minasian]], [[Gregory Moore]]: *Non-abelian Tensor-multiplet Anomalies*, JHEP **09** (1998) 004 &lbrack;[arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060), [doi:10.1088/1126-6708/1998/09/004](https://doi.org/10.1088/1126-6708/1998/09/004)&rbrack;
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger: *Anomaly cancellation in M-theory: a critical review*, Nuclear Physics B **675** (2003) 416--446 &lbrack;[arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152), [doi:10.1016/j.nuclphysb.2003.10.002](https://doi.org/10.1016/j.nuclphysb.2003.10.002)&rbrack;
 
 * {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], *Class $\mathcal{S}$ Anomalies from M-theory Inflow*, Physical Review D **99** 8 (2019) 086020 &lbrack;[arXiv:1812.04016](https://arxiv.org/abs/1812.04016), [doi:10.1103/PhysRevD.99.086020](https://doi.org/10.1103/PhysRevD.99.086020)&rbrack;
 
-{#BBMN19}
+* {#BBMN19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]]: *Anomaly Inflow for M5-branes on Punctured Riemann Surfaces*, JHEP **06** (2019) 123 &lbrack;[arXiv:1904.07250](https://arxiv.org/abs/1904.07250), [doi:10.1007/JHEP06(2019)123](https://doi.org/10.1007/JHEP06%282019%29123)&rbrack;
 
-* {#BahBonettiMinasianNardoni19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], *Anomaly Inflow for M5-branes on Punctured Riemann Surfaces*, JHEP **06** (2019) 123 &lbrack;[arXiv:1904.07250](https://arxiv.org/abs/1904.07250), [doi:10.1007/JHEP06(2019)123](https://doi.org/10.1007/JHEP06%282019%29123)&rbrack;
 
 ### Global and topological formulations
 
