@@ -134,6 +134,11 @@ On the early history of the notion of *[[M-theory]]*:
 
 * [[Michael Duff]]: *M-history without the M*, Contemporary Physics **57** 1 (2016) &lbrack;[arXiv:1501.04098](http://arxiv.org/abs/1501.04098), [doi:10.1080/00107514.2014.992964](https://doi.org/10.1080/00107514.2014.992964)&rbrack;
 
+On [[Stanley Deser]]:
+
+* [[Michael J. Duff]], [[Kellogg S. Stelle]]: *Stanley Deser 19th March 1931 -- 21st April 2023*,  Biographical Memoirs of Fellows of the Royal Society (2026) \[<a href="https://doi.org/10.1098/rsbm20025.0047">doi:10.1098/rsbm20025.0047</a>, [arXiv:2611.11323](https://arxiv.org/abs/2611.11323)\]
+
+
 
 ## Interviews
 
@@ -215,4 +220,5 @@ category: people
 
 [[!redirects Mike Duff]]
 
+[[!redirects Michael J. Duff]]
 [[!redirects Mike J. Duff]]
