@@ -6,9 +6,9 @@ See the [discussion of the corrections, their physical origin and the open probl
 #### Reviews and overviews
 {#HigherCurvatureReviews}
 
-* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_, in _Deserfest: A Celebration of the Life and Works of Stanley Deser_, pp. 137--149 (2004 preprint). [arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177), [INSPIRE](https://inspirehep.net/literature/657136)
+* {#Howe04} [[Paul Howe]]: _$R^4$ terms in supergravity and M-theory_, in _Deserfest: A Celebration of the Life and Works of Stanley Deser_ (2004) 137--149 \[<a href="https://arxiv.org/abs/hep-th/0408177">arXiv:hep-th/0408177</a>, [inspire:657136](https://inspirehep.net/literature/657136)\]
 
-* {#OzkanPangSezgin24} Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], _Higher Derivative Supergravities in Diverse Dimensions_, Physics Reports **1086** (2024) 1--95. [arXiv:2401.08945](https://arxiv.org/abs/2401.08945), [doi](https://doi.org/10.1016/j.physrep.2024.07.002)
+* {#OzkanPangSezgin24} Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]]: _Higher Derivative Supergravities in Diverse Dimensions_, Physics Reports **1086** (2024) 1--95 \[<a href="https://doi.org/10.1016/j.physrep.2024.07.002">doi:10.1016/j.physrep.2024.07.002</a>, [arXiv:2401.08945](https://arxiv.org/abs/2401.08945)\]
 
 #### Anomaly cancellation and the gravitational Chern–Simons coupling
 {#AnomalyOriginOfI8}
@@ -33,7 +33,9 @@ For the physical origin of $C_3\wedge I_8$, compare the type IIA one-loop calcul
 ##### Relaxed torsion constraints and spinorial cohomology
 {#TorsionAndSpinorialCohomology}
 
-* {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in _Quantization, Gauge Theory & Strings_, Moscow (2000). [arXiv:hep-th/0010042](https://arxiv.org/abs/hep-th/0010042)
+* {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]]: _Generalised 11-dimensional supergravity_, in: _Quantization, Gauge Theory & Strings_, Moscow (2000) \[<a href="https://arxiv.org/abs/hep-th/0010042">arXiv:hep-th/0010042</a>\]
+
+* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]]: *Manifestly supersymmetric M-theory*, JHEP 0010 (2000) 041 \[<a href="https://doi.org/10.1088/1126-6708/2000/10/041">doi:10.1088/1126-6708/2000/10/041</a>, [arXiv:hep-th/0007035](https://arxiv.org/abs/hep-th/0007035)\]
 
 * {#CNT02} [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Spinorial cohomology and maximally supersymmetric theories_, JHEP **02** (2002) 009. [arXiv:hep-th/0110069](https://arxiv.org/abs/hep-th/0110069), [doi](https://doi.org/10.1088/1126-6708/2002/02/009)
 
@@ -52,14 +54,13 @@ See also the [superspace discussion at $I_8$](I8#WhatIsKnownAndWhatIsOpen).
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _Action principle and the supersymmetrization of Chern-Simons terms in eleven-dimensional supergravity_, Physical Review D **95** (2017) 026013. §4.2 and Appendix C give the sufficient condition and the representation checks. §4.3 treats extension beyond first order. [arXiv:1612.02021](https://arxiv.org/abs/1612.02021), [doi](https://doi.org/10.1103/PhysRevD.95.026013)
 
-* {#Soueres18} [[Bertrand Souères]], _Supergravities in Superspace_, doctoral thesis, Lyon (2018). [Thesis and full text](https://theses.hal.science/tel-01998725)
+* {#Soueres18} [[Bertrand Souères]], _Supergravities in Superspace_, doctoral thesis, Lyon (2018) &lbrack;[hal:tel-01998725](https://theses.hal.science/tel-01998725)&rbrack;
 
-* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]], _Existence Proof of Curvature Corrected 11D Superspace Supergravity_, AI-generated working materials, note of 7 November 2026 and handoff of 10 November 2026. The handoff states its second-order hypotheses and identifies compatibility at arbitrary order as open. [Project materials](https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0)
-
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
 #### Component supersymmetry and the Noether procedure
 {#ComponentSupersymmetryCorrections}
 
-* {#PVW01} [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric higher-derivative actions in ten and eleven dimensions, the associated superalgebras and their formulation in superspace_, Classical and Quantum Gravity **18** (2001) 843--890. [arXiv:hep-th/0010167](https://arxiv.org/abs/hep-th/0010167), [doi](https://doi.org/10.1088/0264-9381/18/5/307)
+* {#PVW01} [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg: _Supersymmetric higher-derivative actions in ten and eleven dimensions, the associated superalgebras and their formulation in superspace_, Classical and Quantum Gravity **18** (2001) 843--890 \[<a href="https://doi.org/10.1088/0264-9381/18/5/307">doi:10.1088/0264-9381/18/5/307</a>, [arXiv:hep-th/0010167](https://arxiv.org/abs/hep-th/0010167)\]
 
 * {#PVW00} [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ (2000). [arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182)
 
@@ -69,7 +70,7 @@ See also the [superspace discussion at $I_8$](I8#WhatIsKnownAndWhatIsOpen).
 
 * {#Hyakutake07} [[Yoshifumi Hyakutake]], _Toward the Determination of $R^3F^2$ Terms in M-theory_, Progress of Theoretical Physics **118** (2007) 109--119. [arXiv:hep-th/0703154](https://arxiv.org/abs/hep-th/0703154), [doi](https://doi.org/10.1143/PTP.118.109)
 
-* {#Hyakutake25} [[Yoshifumi Hyakutake]], _Effective Action in M-Theory: $(DF)^4$ Superinvariants_, JHEP **09** (2025) 165. Studies the $(DF)^4$ sector and fermion bilinears by local supersymmetry. [arXiv:2507.14984](https://arxiv.org/abs/2507.14984), [doi](https://doi.org/10.1007/JHEP09%282025%29165)
+* {#Hyakutake25} [[Yoshifumi Hyakutake]], _Effective Action in M-Theory: $(D F)^4$ Superinvariants_, JHEP **09** (2025) 165. Studies the $(D F)^4$ sector and fermion bilinears by local supersymmetry [arXiv:2507.14984](https://arxiv.org/abs/2507.14984), [doi](https://doi.org/10.1007/JHEP09%282025%29165)
 
 #### Generalized Lichnerowicz formula
 {#LichnerowiczCorrections}
