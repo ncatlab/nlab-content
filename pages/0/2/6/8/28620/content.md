@@ -1,61 +1,68 @@
-
-
-### Higher curvature corrections to 11D SuGra
+### Higher curvature corrections to 11D supergravity
  {#HigherCurvatureCorrectionsTo11DSugra}
 
-As the low-energy [[effective field theory]] of [[M-theory]], eleven-dimensional supergravity is expected to receive [[higher curvature corrections]], together with their [[flux]] and [[fermion]] completions (cf. the references listed [below](#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity).
+Eleven-dimensional [[supergravity]] is meant to describe the long-[[wavelength]] dynamics of the [[graviton]], the [[supergravity C-field|three-form]] $C_3$ and the [[gravitino]] of [[M-theory]]. The first local [[higher curvature correction]] visible in flat-space [[graviton]] [[scattering]] has eight derivatives. Two features of this correction are particularly well established. The four-graviton [[scattering amplitude]] fixes a quartic-curvature coupling, and cancellation of the gravitational anomaly of an [[M5-brane]] requires a coupling $C_3\wedge I_8(R)$ with a definite coefficient. What remains only partly known is the nonlinear supersymmetric interaction of all three fields on a general background. ([Chester, Pufu & Yin, §1](#ChesterPufuYin18), [Duff, Liu & Minasian, §3](#DuffLiuMinasian95), [Souères & Tsimpis, §§1, 4–5](#SoueresTsimpis17), [Aggarwal et al., §§1, 5](#AggarwalEtAl26))
 
+#### What is the expansion in the Planck length?
+ {#ElevenDimensionalDerivativeExpansion}
 
+Consider a process of wavelength $L$, or a weakly curved background of curvature radius $L$. A Riemann tensor counts as two derivatives. An interaction $\ell_p^6 R^4$, where $R^4$ stands for contractions of four Riemann tensors, therefore contributes at relative order $(\ell_p/L)^6$ compared with the Einstein term. The low-energy limit is $L\gg\ell_p$, equivalently $E\ell_p\ll1$ in units $\hbar=c=1$.
 
-Corrections are labeled by powers of the 11D [[Planck length]] $\ell_p$). The leading local correction usually considered is at eight-derivative order, with coefficient of order $\ell_p^6$ relative to the two-derivative action. Its gravitational sector contains contractions of four Riemann tensors, schematically $R^4$, while [[M5-brane]] [[anomaly cancellation]] requires a coupling $C_3\wedge I_8$ to the gravitational characteristic form [[I8|$I_8$]].  [Tsimpis 2004](#Tsimpis04) discusses an $R^4$-term correction at order $\ell^3_{P}$ related to  [[shifted C-field flux quantization]].
+Uncompactified M-theory is expected to have “no dimensionless coupling constant”. One can set $\ell_p$ equal to one by choosing units and still perform experiments at different energies in those units. The numbers multiplying independent interactions are data of the theory, to be determined by matching. Restoring $\hbar$, with $c=1$, gives $\ell_p^9\propto\hbar G_{11}$, where $G_{11}$ is Newton's constant. A correction proportional to $\ell_p^6$ thus disappears in the classical limit at fixed $G_{11}$ and $L$. A classical gravity theory with an independently specified length could contain the same curvature polynomial. ([Chester, Pufu & Yin, §1 and footnote 9](#ChesterPufuYin18))
 
+Compactification adds a scale. On a circle of radius $R_{11}$, the ratio $R_{11}/\ell_p=g_s^{2/3}$, in the usual Planck-length convention, determines the [[string coupling constant]] of [[type IIA string theory]]. Varying this modulus varies the ten-dimensional coupling. ([Witten, §2](#WittenStringDynamics95))
 
-These corrections have been studied using eleven-dimensional [[scattering amplitudes]], [[dimensional reduction]] and [[string duality]], component [[supersymmetry]], [[superspace]] methods, and [[AdS-CFT duality]]. See the [[higher curvature corrections to D=11 supergravity -- references|bibliography]], and the overview in [Ozkan, Pang & Sezgin 2024](#OzkanPangSezgin24). The results include explicit couplings in selected field sectors and substantial [[scattering amplitude]] checks; they do not yet amount to an explicit complete nonlinear supersymmetric eight-derivative action. For example, [Aggarwal et al. 2026](#AggarwalEtAl26) establishes detailed four-point agreement with type IIA string amplitudes, while explicitly noting that the corrections beyond four points remain only partially known.
+#### In what sense are the corrections quantum?
+ {#QuantumMeaningOf11DCorrections}
 
-#### Superspace deformation theory
-{#HigherCurvatureSuperspaceDeformations}
+* **The ten-dimensional string calculation.** The type IIA interaction $B_2\wedge I_8(R)$ occurs at genus one of the closed string. This is the origin of the name *one-loop term* for [[I8|$I_8$]]. At the same order $\alpha'^3$ relative to the Einstein term, there is already a gravitational $R^4$ interaction at genus zero. Powers of $\alpha' E^2$ count derivatives, while each additional handle of the worldsheet costs a power of $g_s^2$. In the eleven-dimensional decompactification limit the IIA tree contribution is suppressed and the genus-one combination survives as a local 11D interaction. ([Vafa & Witten](#VafaWitten95), [Gross & Witten](#GrossWitten86), [Souères & Tsimpis, (1.1)–(1.6)](#SoueresTsimpis17))
 
-In the [[superspace]] formulation, higher-derivative corrections require deformations of the usual [[torsion constraints in supergravity|torsion constraints]] and super-flux components. Spinorial cohomology organizes these deformations modulo field redefinitions and gauge equivalences [Cederwall, Nilsson & Tsimpis 2002](#CNT02).
+* **The eleven-dimensional anomaly argument.** Starting with the classical supergravity action, one can ask which extra interactions preserve local supersymmetry. That question alone leaves the overall coefficient of a first-order deformation free. Additional physical input comes from quantizing the chiral fields on a magnetic five-brane. Their gravitational anomaly requires [[anomaly inflow]] with a fixed normalization once the five-brane charge is specified. The quantum anomaly arises on the six-dimensional worldvolume. The corresponding inflow comes from varying the classical bulk coupling $C_3\wedge I_8(R)$ in the presence of the brane. The cubic bulk coupling also contributes to cancellation of the normal-bundle anomaly. On circle reduction, the component of $C_3$ with one leg along the circle gives $B_2$, reproducing the type IIA curvature coupling. ([Duff, Liu & Minasian, §3](#DuffLiuMinasian95), [Hořava & Witten, discussion following (1.14)](#HoravaWittenBoundary96), [Freed et al.](#FHMM98))
 
-Writing $G_{p,q}$ for the component of a super-form with $p$ vector and $q$ spinor indices, [Howe & Tsimpis 2003, Section 4](#HoweTsimpis03) shows [[perturbation theory|perturbatively]] that a deformation with trivial class $[G_{0,4}]$ is trivial. A genuine deformation therefore requires a nontrivial four-spinor component of the closed four-form $G_4$. First-order deformations are encoded by
-$$
-  [G_{0,4}^{(1)}]
-    \in 
-  H_F^{0,4}(phys)
-  \mathrlap{\,,}
-$$
-where the [[coefficients]] are local expressions in the supergravity fields and their derivatives. Given this datum, the [[superspace]] [[Bianchi identities]] provide a procedure for reconstructing the remaining corrections. The paper explicitly analyzes the lowest-dimensional identities and the induced dimension-zero torsion deformation.
+* **Loops of the eleven-dimensional bulk fields.** With a momentum cutoff $\Lambda$, the one-loop four-graviton amplitude of two-derivative supergravity contains a local term proportional to $\Lambda^3 t_8t_8R^4$. Its finite coefficient requires matching. On a circle this same 11D loop also gives a finite, radius-dependent term which reproduces the type IIA *tree-level* four-graviton coupling. Even in uncompactified space one can distinguish two orders experimentally in principle. In the amplitude divided by its tree value, the matched local $R^4$ term is of order $(E\ell_p)^6$, while the nonanalytic threshold from a loop of massless supergravity fields is of order $(E\ell_p)^9$ at fixed scattering angle. Thus a power of $\ell_p$ labels an order in energy. Assigning a loop order requires specifying which fields are being quantized. ([Green, Gutperle & Vanhove, (10)–(11)](#GreenGutperleVanhove97), [Chester, Pufu & Yin, (1.1)–(1.3)](#ChesterPufuYin18))
 
-Complementarily, [Cederwall, Gran, Nilsson & Tsimpis 2005](#CGNT04) solves the geometric [[superspace]] [[Bianchi identities]] to first order in a general dimension-zero [[supertorsion|torsion]] deformation. This supplies reconstruction equations, but does not itself determine the particular deformation representing the M-theory correction.
+There is a close analogue in [[5-dimensional supergravity]]. Local supersymmetry gives a completion of $A\wedge\operatorname{tr}(R\wedge R)$. Integrating out charged massive fields gives a one-loop shift of its coefficient. One calculation determines how the interaction fits into supergravity. The other determines what a specified spectrum contributes to it. ([Hanaki, Ohashi & Tachikawa](#HanakiOhashiTachikawa07), [Bonetti, Grimm & Hohenegger](#BonettiGrimmHohenegger13))
 
-#### The anomaly-corrected seven-form Bianchi identity
+#### What is known at eight derivatives?
+ {#KnownEightDerivative11DCouplings}
+
+* **Four gravitons.** The first local correction to the four-graviton amplitude, divided by the tree amplitude of two-derivative supergravity, is $\ell_{11}^6 s t u/(3\cdot 2^7)$ in the conventions of Chester, Pufu & Yin. Here $s,t,u$ are the Mandelstam invariants and $2\kappa_{11}^2=(2\pi)^5\ell_{11}^9$ in their length convention. They recover this coefficient independently from a correlation function of the [[ABJM model]]. In a covariant action the purely gravitational terms can be represented, up to field redefinitions and overall normalization, by $t_8t_8R^4-\frac{1}{4!}\epsilon_{11}\epsilon_{11}R^4$ in the conventions of Souères & Tsimpis. The four-graviton amplitude sees the $t_8t_8$ contraction. The leading expansion of the double-epsilon term is a total derivative, so it first contributes to graviton scattering at five points. ([Chester, Pufu & Yin, (1.1)–(1.3) and footnote 9](#ChesterPufuYin18), [Souères & Tsimpis, (1.5)–(1.6)](#SoueresTsimpis17))
+
+* **One three-form and four gravitons.** The characteristic form in the inflow coupling is $I_8(R)=\frac{1}{48}\big(p_2(R)-\frac14 p_1(R)^2\big)$ in the convention of [[I8]]. Its first vertex about flat space with vanishing background flux has five external fields. An eleven-dimensional [[superparticle]] calculation recovers its tensor structure and leaves the ultraviolet normalization to be supplied separately. ([Anguelova, Grassi & Vanhove, §6.2, especially (6.27)](#AnguelovaGrassiVanhove04))
+
+* **Flux and gravitini.** Writing $G_4$ for the four-form field strength, the bosonic four-point interactions include $R^2(\nabla G_4)^2$ and $(\nabla G_4)^4$. Their circle reduction has been checked against type IIA string amplitudes, including amplitudes with Ramond–Ramond fields. Component supersymmetry has also fixed particular gravitino bilinears and constrained five-field terms of type $R^3G_4^2$. As Aggarwal et al. put it, “At higher points there are only partial results”. ([Peeters, Plefka & Stern](#PeetersPlefkaStern05), [Aggarwal et al., §§1, 3–5](#AggarwalEtAl26), [Peeters, Vanhove & Westerberg](#PVW01), [Hyakutake 2007](#Hyakutake07), [Hyakutake 2025](#Hyakutake25))
+
+An earlier power of $\ell_p$ occurs in the study of flux quantization. In the four-form deformation complex, the groups at orders $\ell_p$ and $\ell_p^2$ vanish. At order $\ell_p^3$ a class is represented by a shift of $G_4$ proportional to $\ell_p^3 p_1(R)$. Locally one can absorb it by shifting $C_3$ by a Lorentz Chern–Simons form. Globally it can change the [[shifted C-field flux quantization|flux quantization law]]. This accounts for the order $\ell_p^3$ in Tsimpis's analysis. The quartic-curvature interaction in graviton scattering occurs at order $\ell_p^6$. ([Tsimpis, (4.11)–(4.18)](#Tsimpis04), [discussion at $I_8$](I8#TheOrderEll3Deformation))
+
+##### The anomaly-corrected seven-form Bianchi identity
  {#AnomalyCorrectedSuperFluxBianchiIdentity}
 
-The approach of [Howe & Tsimpis 2003, Section 5](#HoweTsimpis03) studies the [[I8]]-deformed super-flux [[Bianchi identities]]:
+Away from brane sources, the corrected bosonic $C_3$ equation can be written to this order as
 $$
-  \mathrm{d} G_4 = 0,
-  \qquad
-  \mathrm{d} G_7 
-    = 
-  \tfrac{1}{2} G_4\wedge G_4
-    +
-  \beta 
-  I_8,
-  \qquad
-  \beta = O(\ell_p^6)
-  \mathrlap{\,.}
+  \mathrm{d}G_4=0,\qquad
+  \mathrm{d}G_7+\tfrac12 G_4\wedge G_4=\beta I_8(R),
+  \qquad \beta=O(\ell_p^6).
 $$
-The sought solution is a local covariant deformation built from the supergravity fields, compatible with the geometric superspace Bianchi identities. The bosonic duality relation between $G_7$ and $G_4$ must also receive corrections.
+Here the signs are those of [the flux equation at $I_8$](I8#TheOrdinarySpacetimeForm), and $\beta$ includes the normalization of the fluxes. The gauge-invariant interactions involving $G_4$ also contribute to this equation, through the corrected duality relation $G_7=\star G_4+O(\ell_p^6)$. A measurable consequence in a compactification on a smooth compact Calabi–Yau fourfold $Y$ is that $\int_Y I_8=\chi(Y)/24$ contributes to the [[C-field tadpole cancellation|membrane tadpole]], constraining the net M2-brane charge and the four-form flux. ([Souères & Tsimpis, (4.2)–(4.11)](#SoueresTsimpis17), [Sethi, Vafa & Witten](#SethiVafaWitten96), [Becker & Becker](#BeckerBecker96), [Witten, §3](#WittenFluxQuantization96))
 
-[Souères & Tsimpis 2017, Sections 4--5 and Appendix C](#SoueresTsimpis17) reduces an essential existence question to the $\tau$-exactness of the purely spinorial component $X_{0,8}$ of the anomaly polynomial. Here $\tau$ is the algebraic differential induced by dimension-zero torsion. They prove that this exactness suffices for the first-order superinvariant. Of three potentially obstructing representations, with $B_5$ Dynkin labels $(04000)$, $(03002)$ and $(02004)$, they establish cancellation of the first and third; the $(03002)$ cancellation remains unchecked.
+#### What remains to be constructed in superspace?
+ {#HigherCurvatureSuperspaceDeformations}
 
-Thus the [[superspace]] construction has substantial supporting evidence but retains an unresolved existence step. Conditional uniqueness at this order, assuming an invariant at least quartic in fields, does not establish existence. Extension to all orders is a further obstruction problem, not a consequence of first-order supersymmetry alone.
+On [[superspace]] the curvature source has components with spinor indices. The flux and [[torsion constraints in supergravity|torsion]] Bianchi identities must hold in those components as well. *First order* here means first order in the coefficient $\beta$. Even at first order the answer may depend nonlinearly on all the fields. There are three distinct questions.
 
-Compare the references on [Anomaly-corrected Bianchi identities and the superform action principle](#I8SuperspaceDeformation) below.
+1. **Does the anomaly coupling belong to a first-order superinvariant, and when is it unique?** Howe & Tsimpis qualify their uniqueness argument with “Provided that this equation is consistent”. They also assume that the invariant begins at least quartically in the fields. Souères & Tsimpis give a sufficient condition for constructing it. Let $X_{0,8}$ denote the component with eight spinor indices of their anomaly superform $X_8$, proportional to the superspace $I_8$. If $X_{0,8}$ is exact for the algebraic differential $\tau$ induced by the dimension-zero torsion, then $G_4^{(0)}\wedge X_8$ has a gauge-invariant superform primitive on undeformed on-shell superspace. The superform action principle then gives the invariant. Of three potentially obstructing $\mathrm{Spin}(1,10)$ representations, they verify the cancellation of $(04000)$ and $(02004)$. Their paper leaves the $(03002)$ cancellation unchecked. The quartic hypothesis matters for uniqueness. Assuming a perturbative solution of the Bianchi identities, they identify at least two independent eight-derivative invariants when lower powers of the fields are allowed. Only one has the required anomaly coupling. ([Howe & Tsimpis, §5, following (56)](#HoweTsimpis03), [Souères & Tsimpis, §§4.1–4.2, 5 and Appendix C](#SoueresTsimpis17))
 
+2. **What are the actual corrected geometry and field equations?** In the four-form formulation a first-order deformation is encoded by $[G^{(1)}_{0,4}]\in H_F^{0,4}(\mathrm{phys})$. The subscripts count vector and spinor indices, and the coefficients are local expressions in the supergravity fields and their derivatives. Given a representative, the Bianchi identities relate it to the change in dimension-zero torsion and hence to the field equations. Cederwall, Gran, Nilsson & Tsimpis solve the geometric identities to first order for general torsion-deformation tensors. To obtain the explicit M-theory equations one must still construct the particular tensors selected by the anomaly and extract their component couplings, including the gravitino terms. ([Howe & Tsimpis, §§4, 6](#HoweTsimpis03), [Cederwall, Gran, Nilsson & Tsimpis, §3 and Appendix B](#CGNT04), [details at $I_8$](I8#WhatIsKnownAndWhatIsOpen))
 
-#### Phenomenology of higher order corrections
+3. **Does the deformation extend to higher orders?** Already at second order the first-order change in the supersymmetry transformations acts on the first-order action. Its variation has to be cancelled by further local corrections. Each order presents a compatibility question. Independent invariants can also first occur at higher derivative orders, with coefficients requiring their own determination. The [November 2026 nLab working materials](#ExistenceOfCurvatureCorrected11DSuGra) describe a proposed continuation of the $I_8$ deformation with its leading coefficient kept symbolic. Their overview reports a second-order result under stated hypotheses on the local complex, comparison maps, sources and extensions. It lists compatibility at arbitrary order as open. ([Howe & Tsimpis, §7](#HoweTsimpis03), [Souères & Tsimpis, §4.3 and footnote 2](#SoueresTsimpis17))
 
-For potential effects of 11D SuGra higher curvature corrections in a [[Starobinsky model of cosmic inflation]] see [there](Starobinsky+model+of+cosmic+inflation#EmbeddingIntoSupergravity).
+#### What would the full tower determine?
+ {#PhysicalContentOf11DCurvatureCorrections}
 
+Particular observables are known beyond eight derivatives. In the uncompactified four-graviton amplitude the coefficient of $D^4R^4$ vanishes and the coefficient of $D^6R^4$ is known. Here $D$ denotes a covariant derivative. Numerical conformal bootstrap calculations have also found evidence in ABJM data for the scaling expected from the unprotected $D^8R^4$ interaction. It is possible to know a later four-point coefficient while higher-point couplings at an earlier order are still being worked out. ([Binder, Chester & Pufu](#BinderChesterPufu20), [Green & Vanhove](#GreenVanhove06), [Chester, Dempsey & Pufu, §3.2](#ChesterDempseyPufu25))
 
+Knowing all local interactions of the massless multiplet, with their physical coefficients up to field redefinitions, would supply the vertices for low-energy scattering to every derivative order. Loops of the light fields then supply nonlocal contributions such as massless thresholds. On compactification one could calculate corrections to flux backgrounds and compare lower-dimensional couplings with string amplitudes, including the effects of Kaluza–Klein modes where appropriate. Even the leading correction changes the geometry of supersymmetric compactifications of special holonomy. ([Chester, Pufu & Yin, §1](#ChesterPufuYin18), [Green, Gutperle & Vanhove](#GreenGutperleVanhove97), [Lü, Pope, Stelle & Townsend](#LuPopeStelleTownsend04))
+
+At energies of order $1/\ell_p$ the derivative expansion loses its ordering by size. An [[ultraviolet completion]] would have to define observables there and account for the nonperturbative states and dynamics, including those of membranes and five-branes. The global quantization of the $C$-field also requires information beyond a local Lagrangian density. The next question would be which microscopic dynamics reproduce the entire low-energy expansion and determine observables beyond it. The recovery of the $R^4$ coefficient from ABJM gives a concrete example of how such a proposal can be tested. ([Witten on flux quantization](#WittenFluxQuantization96), [Diaconescu, Freed & Moore](#DiaconescuFreedMoore03), [Banks et al. on matrix theory](#BFSSMatrix97), [Chester, Pufu & Yin](#ChesterPufuYin18))
+
+See the [references by method and application](#ReferencesOnHigherCurvatureCorrectionsIn11dSupergravity). Applications to inflation are discussed at [Starobinsky model of cosmic inflation](Starobinsky+model+of+cosmic+inflation#EmbeddingIntoSupergravity).
