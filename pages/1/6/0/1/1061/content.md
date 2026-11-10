@@ -14,7 +14,6 @@
 =--
 
 
-# Preadditive categories
 * table of contents
 {: toc}
 
