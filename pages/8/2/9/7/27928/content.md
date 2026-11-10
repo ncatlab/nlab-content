@@ -429,6 +429,9 @@ The [[lattice gauge theory|lattice]] formulation:
 
 * Andrea Bulgarelli, Maria Cristina Diamantini, Nico Dichter, Lena Funcke, Tobias Hartung, Karl Jansen, Enrique Rico Ortega, Simran Singh, Lorenzo Spera: *Toward Hamiltonian simulations of Maxwell-Chern-Simons theory: constant modes and gauge field truncation* &lbrack;[arXiv:2607.00082](https://arxiv.org/abs/2607.00082)&rbrack;
 
+* Ze-An Xu, Jing-Yuan Chen: *Framing Anomaly in Lattice Chern-Simons-Maxwell Theory* &lbrack;[arXiv:2601.04318](https://arxiv.org/abs/2601.04318)&rbrack;
+
+
 
 
 See also:
