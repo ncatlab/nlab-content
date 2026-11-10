@@ -45,82 +45,40 @@ $N=1$ [[supergravity]] in $d = 11$, hence on an [[11-manifold]].
 
 ### The higher Chern-Simons term
 
-> under construction
-
+Let $X^{11}$ be spin and put $\lambda=\tfrac12 p_1(TX)$. In the convention of [[I8]] the gravitational characteristic class is
 $$
-  \int_X
-  \left(
-  \frac{1}{6} 
-  \left(
-    C \wedge G \wedge G
-    -
-    C \wedge
-    \frac{1}{8}
-    \left(
-      p_2 + (\frac{1}{2}p_1)^2 
-    \right)
+  I_8(TX)=\frac{p_2(TX)-\lambda^2}{48}.
+$$
+Write $I_8(R)$ for its Chern–Weil representative. In membrane charge units put $g_4=G_4/(2\pi)$ and locally $g_4=\mathrm{d}c_3$. With the overall sign of [Witten, (4.4)](#WittenFluxQuantization96), the local expression for the topological part of the action is
+$$
+  \frac{S_{\mathrm{top}}}{2\pi}
+   =\int_{X^{11}}\left(
+      -\frac16\,c_3\wedge g_4\wedge g_4
+      +c_3\wedge I_8(R)
+    \right).
+$$
+This formula applies directly when the potential is globally a form. For a topologically nontrivial [[supergravity C-field]], defining the phase involves [[shifted C-field flux quantization]] and the global definition of the fermion phase. ([Witten, §§2, 4–5](#WittenFluxQuantization96), [Diaconescu, Freed & Moore](#DiaconescuFreedMoore03))
+
+**What is integral?** Consider a closed spin eight-manifold $Y$ and evaluate the characteristic classes of $TY$. The [[index]] of its [[Dirac operator|spin Dirac operator]] gives
+$$
+  \operatorname{ind}D_Y=\int_Y\frac{7\lambda^2-p_2}{1440},
+  \qquad
+  \int_Y I_8=\frac18\int_Y\lambda^2-30\,\operatorname{ind}D_Y .
+$$
+The curvature contribution alone can be fractional. On a smooth sextic fourfold in $\mathbb{CP}^5$, for instance, $\int_Y I_8=\chi(Y)/24=2610/24=435/4$. In the present sign convention $\int_Y I_8$ is the number called $J$ by Witten. ([Witten, (3.1)–(3.2)](#WittenFluxQuantization96), [Sethi, Vafa & Witten, §2.1](#SethiVafaWitten96))
+
+The [[C-field tadpole cancellation|membrane tadpole]] also includes the flux. Write $[g_4]=a+\lambda/2$ in real cohomology, with $a$ the image of an integral class. Since $\lambda\bmod 2$ is the fourth [[Wu class]] of $Y$, one has $\int_Y a^2\equiv\int_Y a\lambda\pmod 2$. Consequently
+$$
+  \int_Y\left(
+    I_8(R)-\frac{1}{2} g_4\wedge g_4
   \right)
-  \right)
+    =
+    -30\,indD_Y
+       -\frac{1}{2}\int_Y a(a+\lambda)
+     \;\in\;\mathbb{Z} 
+   \mathrlap{\,.}
 $$
-
-where $p_i$ is the $i$th [[Pontryagin class]].
-
-$$
-  \lambda \coloneqq \frac{1}{2}p_1
-  \,.
-$$
-
-Concerning the integrality of the [[I8]]-term
-
-$$
-  I_8 \coloneqq \frac{1}{48}(p_2 + (\lambda)^2)
-$$
-
-on a [[spin structure|spin manifold]] $X$.
-([Witten96, p.9](#Witten96))
-
-First, the [[index]] of a [[Dirac operator]] on $X$ is
-
-$$
-  I = \frac{1}{1440}(7 (\frac{1}{2}p_1)^2 - p_2) \in \mathbb{Z}
-  \,.
-$$
-
-Notice that $1440 = 6 \times 8 \times 30$. So
-
-$$
-  p_2 - (\frac{1}{2}p_2)^2 = 6 ( (\frac{1}{2}p_1)^2 - 30 \times 8 I) 
-$$
-
-is divisible by 6. 
-
-Assume that $(\frac{1}{2}p_1)$ is further divisible by 2 (see the relevant discussion at _[[M5-brane]]_).
-
-$$
-  (\frac{1}{2}p_1) = 2 x
-  \,.
-$$
-
-Then the above becomes
-
-$$
-  p_2 - (\frac{1}{2}p_2)^2 = 24 ( x^2 - 30 \times 2 I) 
-$$
-
-and hence then $p_2 + (\frac{1}{2}p_1)^2$ is divisible at least by 24.
-
-But moreover, on a [[spin structure|Spin manifold]]
-the [[first fractional Pontryagin class]] $\frac{1}{2}p_1$ is 
-the [[Wu class]] $\nu_4$ (see there). By definition this means that
-
-$$
-  x^2 = x (\frac{1}{2}p_1) \; mod \; 2
-$$
-
-and so when $(\frac{1}{2}p_1)^2$ is further divisible by 2 we have that 
-$p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
-
-
+In particular, when $\lambda$ is divisible by two, zero flux is allowed by the shifted quantization law and the curvature contribution $\int_Y I_8$ is itself an integer. ([Witten, (1.2) and (3.1)–(3.5)](#WittenFluxQuantization96))
 
 ### The hidden deformation
 
@@ -476,11 +434,11 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 * {#Witten96} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_ ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
 
 
-* {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J.Geom.Phys.22:103-133, 1997 ([arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234))
+* {#WittenFiveBrane96} [[Edward Witten]]: _Five-Brane Effective Action In M-Theory_, J. Geom. Phys. **22** (1997) 103--133 &lbrack;[arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234)&rbrack;
 
-* {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
+* {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv. Theor. Math.Phys. **2** (1998) 601--618 &lbrack;[arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205)&rbrack;
 
-* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
+* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger: _Anomaly cancellation in M-theory: a critical review_, Nucl. Phys. B **675** (2003) 416--446 &lbrack;[arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152)&rbrack;
 
 * {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
  
