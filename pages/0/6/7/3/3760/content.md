@@ -123,6 +123,20 @@ $R$.  Heuristically an [[identity among the relations]] of $\mathcal{P}$ is such
 which equals 1. 
 
 
+## Homotopy-theoretic interpretation
+
+A [[group presentation]] admits a realization in [[homotopy type theory]] as a [[homotopy pushout]], obtained by attaching 2-cells to a [[wedge sum]] of circles along the loops corresponding to its relators.
+
+For a presentation $P = \langle X \mid R \rangle$, the resulting space $C_P$ has fundamental group isomorphic to the presented group $G_P$, and its [[1-truncation]] is pointed-equivalent to the [[classifying space]] $B G_P$:
+
+$$
+\|C_P\|_1 \simeq_* B G_P.
+$$
+
+For the explicit construction, its interpretation in homotopy type theory, and its motivation from [[topological quantum computation]], see [[group presentation as a homotopy pushout]].
+
+
+
 ##Transformations of a group presentation##
 
 Given a group presentation, it is natural to perform transformations using substitutions, say adding in one new symbol for a string of generators, and adjusting the presentation accordingly.  The valid transformations that do not change the group being presented are formalised as the [[Tietze transformation]]s.
