@@ -857,10 +857,10 @@ n & \Vdash & x \xmapsto{f} y, & & & & \\
 m & \Vdash & y \xmapsto{f^\dagger} x' & & & & \\
 \implies n_1 & \Vdash & x' \xmapsto{f} y, & \quad & n_1 & \coloneqq & m \\
 \implies n_2 & \Vdash & x \equiv x', & \quad & n_2 & \coloneqq & i_f(n, n_1) \\
-\implies n_3 & \Vdash & x \xmapsto{\operatorname{id}_X} x, & \quad & n_3 & \coloneqq & n_2.
+\implies n_3 & \Vdash & x \xmapsto{\operatorname{id}_X} x', & \quad & n_3 & \coloneqq & n_2.
 \end{array}
 \]
-Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $i_{f^\dagger \circ f, \operatorname{id}_X}$.
+Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $e_{f^\dagger \circ f, \operatorname{id}_X}$.
 
 Similarly, suppose
 $$\langle n, m \rangle \Vdash y \xmapsto{f \circ f^\dagger} y'.$$
@@ -874,5 +874,87 @@ m & \Vdash & x \xmapsto{f} y' & & & & \\
 \implies n_3 & \Vdash & y \xmapsto{\operatorname{id}_Y} y', & \quad & n_3 & \coloneqq & n_2.
 \end{array}
 \]
-Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $i_{f \circ f^\dagger, \operatorname{id}_Y}$.
+Therefore, the composition $\langle n, m \rangle \mapsto n_3$ on the right satisfies the required condition for $e_{f \circ f^\dagger, \operatorname{id}_Y}$.
+\end{proof}
+
+\begin{lemma}
+Given appropriate effective functional relations $h,f,g$, then
+$$E \underset{\quad [h] \quad}{\to}X\underoverset{\quad [g] \quad}{[f]}{\rightrightarrows}Y$$
+is an equalizer diagram if and only if
+
+(a) $f\circ h$ is equivalent to $g\circ h$.
+
+(b) There is a partial recursive function $i_h : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash e_1 \xmapsto{h} x$$
+and
+$$m \Vdash e_2 \xmapsto{h} x,$$
+then $i_h(n, m)$ is defined and
+$$i_h(n, m) \Vdash e_1 \equiv e_2.$$
+
+(c) There is a partial recursive function $eq_{h,f,g} : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x \xmapsto{f} y$$
+and
+$$m \Vdash x \xmapsto{g} y,$$
+then $eq_{h,f,g}(n, m)$ is defined and there exists $e\in E$ such that
+$$eq_{h,f,g}(n, m) \Vdash e \xmapsto{h} x.$$
+\end{lemma}
+\begin{proof}
+The diagram being an equalizer diagram, when (a) is satisfied, is equivalent to the induced effective functional relation $\tilde h$ being an isomorphism. It is then straightforward to check that (b) is equivalent to the effective injectivity of $\tilde h$, and (c) is equivalent to the effective surjectivity of $\tilde h$.
+\end{proof}
+
+\begin{lemma}
+Given appropriate effective functional relations $f,g,h,j$, then
+\[
+\begin{array}{rcl}
+X & \overset{[f]}{\to} & Y \\
+[g] \downarrow & & \downarrow [h] \\
+Z & \underset{[j]}{\to} & W
+\end{array}
+\]
+is a pullback square if and only if
+
+(a) $h\circ f$ is equivalent to $j \circ g$.
+
+(b) There is a partial recursive function $i_{f,g} : \mathbb{N}^4 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x_1 \xmapsto{f} y,$$
+$$m \Vdash x_2 \xmapsto{f} y,$$
+$$p \Vdash x_1 \xmapsto{g} z,$$
+and
+$$q \Vdash x_2 \xmapsto{g} z,$$
+then
+$i_{f,g}(n,m,p,q)$ is defined, and
+$$i_{f,g}(n,m,p,q) \Vdash x_1 \equiv x_2.$$
+
+(c) There are partial recursive functions $pb^1_{f,g,h,j} : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ and $pb^2_{f,g,h,j} : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash y \xmapsto{h} w$$
+and
+$$m \Vdash z \xmapsto{j} w,$$
+then $pb^1_{f,g,h,j}(n, m)$ and $pb^2_{f,g,h,j}(n, m)$ exists, and there exists $x\in X$ such that
+$$pb^1_{f,g,h,j}(n, m) \Vdash x \xmapsto{f} y$$
+and
+$$pb^2_{f,g,h,j}(n, m) \Vdash x \xmapsto{g} z.$$
+\end{lemma}
+
+\begin{proof}
+By abstract nonsense, the pullback condition is equivalent to $[(f, g)] : X \to Y\times Z$ being an equalizer of $[h \circ \pi_1] : Y \times Z \to W$ and $[j \circ \pi_2] : Y \times Z \to W$. It is then straightforward to check that the conditions above are equivalent to the conditions in the respective parts of the equalizer lemma.
+\end{proof}
+
+\begin{corollary}
+If $f$ is an effective functional relation between $X$ and $Y$, then the equivalence class $[f]$ of $f$ is a monomorphism if and only if there exists a partial recursive function $i_f : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash x_1 \xmapsto{f} y$$
+and
+$$m \Vdash x_2 \xmapsto{f} y,$$
+then $i_f(n, m)$ is defined and
+$$i_f(n, m) \Vdash x_1 \equiv x_2.$$
+\end{corollary}
+\begin{proof}
+By abstract nonsense, $[f]$ is a monomorphism if and only if
+\[
+\begin{array}{rcl}
+X & \overset{\operatorname{id}_X}{\to} & X \\
+\operatorname{id}_X \downarrow & & \downarrow [f] \\
+X & \underset{[f]}{\to} & Y
+\end{array}
+\]
+is a pullback square. However, in this particular pullback square, conditions (a) and (b) are automatically satisfied, whereas condition (c) is easily equivalent to the existence of $i_f$.
 \end{proof}
