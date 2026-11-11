@@ -183,7 +183,7 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
      \label{BinaryOperationInSecondModel}
      (c,d) \cdot (a,b) 
      \,\coloneqq\, 
-     \big( c, t(d,a,b) \big)
+     \big( t(c,d,a), b \big)
      \,.
    \] 
 
@@ -216,12 +216,11 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
 
    so that $Str(H)$ is closed under this operation.  
 
-   The first axiom of a  heap shows that $Str(H)$ contains the [[neutral element]] $t(-,x,x)$, for any  $x$), and the [[inverse element]] of $t(\cdot,a,b)$ is $t(\cdot,b,a)$; thus  $Str(H)$ is a subgroup of the symmetric group of $H$.
+   The first axiom of a  heap shows that $Str(H)$ contains the [[neutral element]] $t(a,a,-)$ (for any  $a$), and the [[inverse element]] of $t(a,b,-)$ is $t(b,a,-)$; thus  $Str(H)$ is a subgroup of the symmetric group of $H$.
 
 It remains to see that these constructions all agree and are functorial.
 
-First to show that the [[equivalence relation]] used in the second construction is symmetric, and that it coincides with that implicitly used in the first construction, notice that 
-the following are equivalent:
+First to show that the [[equivalence relation]] used in the second construction is symmetric, and that it coincides with that implicitly used in the third construction, notice that the following are equivalent:
 
 * (i) the bijections $t(a,b,-)$ and $t(a',b',-)$ coincide
 
@@ -241,12 +240,11 @@ $$ t(t(a,b,b'),b',b) = t(a,b,t(b',b',b)) = t(a,b,b) = a$$
 so $t(a',b',b) = a$.   (iii) implies (ii) by a similar argument.
 
 (i) follows from (ii) by the calculation:
-\[ t(a',b',x) = t(a',b',t(b,b,x))= t(t(a',b',b),b,x)
-t(a,b,x)\]
+\[ t(a,b,x) = t(a,b,t(b',b',x)) = t(t(a,b,b'),b',x) = t(a',b',x). \]
 
 Since the composition laws can also be seen to agree, the second two constructions of $Str(H)$ are canonically isomorphic.  
 
-To compare them to the first construction, observe that for a fixed $\mathrm{e} \in H$, any equivalence class contains a unique pair of the form $(\mathrm{e},a)$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(\mathrm{e},b,c)$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
+To compare them to the first construction, observe that for a fixed $\mathrm{e} \in H$, any equivalence class contains a unique pair of the form $(a,\mathrm{e})$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(b,c,\mathrm{e})$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
 
 Finally, the second construction is manifestly functorial.
 \end{proof}
