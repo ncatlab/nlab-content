@@ -31,7 +31,7 @@ Given a group $G$, a $G$-torsor is often defined to be a [[free action|free]] an
 
 \begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is an [[inhabited set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the [[shear map]] $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
 
-Since we can state that the shear map is an isomorphism by positing an inverse map $f: T \times T \to T \times G$ and giving equations that state it is an inverse, the only non-equational part of the definition is that $T$ be inhabited.  If $T$ is not required to be [[inhabited]] (that is, possibly [[empty set|empty]]), we call it a *[[pseudo-torsor]]*.
+Since we can state that the shear map is an isomorphism by positing an inverse map $f: T \times T \to G \times T$ and giving equations that state it is an inverse, the only non-equational part of the definition is that $T$ be inhabited.  If $T$ is not required to be [[inhabited]] (that is, possibly [[empty set|empty]]), we call it a *[[pseudo-torsor]]*.
 
 Asking that the [[shear map]] $a \times p_2$ be an [[isomorphism]] is the same as to say that the action is both [[free action|free]] and [[transitive action|transitive]], hence [[regular action|regular]] if [[inhabited set|inhabited]]: free-ness corresponds to [[injectivity]] of the [[shear map]], and transitivity corresponds to [[surjectivity]] of the [[shear map]]. 
 
