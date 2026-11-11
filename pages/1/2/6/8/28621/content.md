@@ -293,6 +293,7 @@ The presentation pushout supplies a general construction of the classifying spac
 
 
 
+
 ## Formalization in Cubical Agda
 
 The construction described above has been partially formalized in [[Cubical Agda]], using higher inductive types for suspensions, circles, pushouts, and truncations.
@@ -303,10 +304,11 @@ $$
 c_P : G_P \longrightarrow \pi_1(\|C_P\|_1).
 $$
 
-The principal formally verified result is the surjectivity of this homomorphism. Injectivity and the resulting classifying-space equivalence have not yet been established in the formal development.
+The principal formally verified result is the surjectivity of this homomorphism. Injectivity, the resulting group isomorphism, and the classifying-space equivalence remain open in the formal development.
 
-The accompanying Shadow Paper, Cubical Agda source code, and statement-to-source alignment records are available in [[nLab materials#GroupPresentationPushout]].
+All modules in the development have been type-checked in Cubical Agda. The accompanying Shadow Paper provides a mathematical exposition with explicit references to the corresponding formal definitions and proofs.
 
+The Shadow Paper, Cubical Agda source code, and complete project repository are available in [[nLab materials#GroupPresentationPushout]].
 
 ## Related concepts
 
