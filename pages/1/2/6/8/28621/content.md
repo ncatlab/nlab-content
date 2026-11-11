@@ -291,6 +291,23 @@ In the work of Myers, Sati, and Schreiber on topological quantum gates, homotopy
 
 The presentation pushout supplies a general construction of the classifying space of a presented group. The specification of quantum gates additionally requires suitable geometric or representation-theoretic data.
 
+
+
+## Formalization in Cubical Agda
+
+The construction described above has been partially formalized in [[Cubical Agda]], using higher inductive types for suspensions, circles, pushouts, and truncations.
+
+The formal development constructs a suspension-based generator space, interprets relations as loops, and forms the corresponding homotopy pushout and its 1-truncation. It also defines the algebraic group associated with the presentation and a canonical homomorphism
+
+$$
+c_P : G_P \longrightarrow \pi_1(\|C_P\|_1).
+$$
+
+The principal formally verified result is the surjectivity of this homomorphism. Injectivity and the resulting classifying-space equivalence have not yet been established in the formal development.
+
+The accompanying Shadow Paper, Cubical Agda source code, and statement-to-source alignment records are available in [[nLab materials#GroupPresentationPushout]].
+
+
 ## Related concepts
 
 * [[group presentation]]
