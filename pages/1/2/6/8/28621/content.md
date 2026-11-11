@@ -383,8 +383,8 @@ Discussion in [[homotopy type theory]]:
 
 See also:
 
-* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
 
+* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006), §§4.5–4.7 (adjunction spaces and cell complexes) and §9.1 (the van Kampen theorem for adjunction spaces) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
 
 
 category: group theory
