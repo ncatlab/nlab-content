@@ -67,7 +67,7 @@ $$
 
 is the *[[Chevalley-Eilenberg algebra]]*, and if $\mathfrak{g}$ is finite-dimensional this equals $\Lambda^* \mathfrak{g}^*$.
 
-The [[cochain cohomology]] of these ([[underlying]]) [[cochain complexes]] is the Lie algebra cohomology of $\mathrak{g}$ with [[coefficients]] in $M$.
+The [[cochain cohomology]] of these ([[underlying]]) [[cochain complexes]] is the Lie algebra cohomology of $\mathfrak{g}$ with [[coefficients]] in $M$.
  
 ### Via $\infty$-Lie algebras
 
