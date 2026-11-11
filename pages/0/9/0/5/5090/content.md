@@ -11,9 +11,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ##The Knot Group of a Knot##
 
@@ -420,3 +419,6 @@ Alexander's original paper uses a method which is more closely related to the De
 
 
 category: knot theory
+
+[[!redirects knot groups]]
+
