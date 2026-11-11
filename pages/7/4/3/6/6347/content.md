@@ -185,6 +185,8 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 * Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
 
+[[!redirects type II string theories]]
+
 [[!redirects type II superstring]]
 [[!redirects type II string]]
 [[!redirects type II superstrings]]
