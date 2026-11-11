@@ -12,9 +12,8 @@
 
 
 
-# Finitely presented groups
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -46,7 +45,7 @@ On (finitely) presented groups as [[fundamental groups]] of ([[finite cell compl
 
 * [[Joseph J. Rotman]], around Thm. 7.34 in: *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)$]$ 
 
-* Behrooz Mashayekhy, Hanieh Mirebrahimi, *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511-515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
+* Behrooz Mashayekhy, Hanieh Mirebrahimi: *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511--515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
 
 
 
