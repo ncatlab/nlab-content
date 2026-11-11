@@ -25,6 +25,10 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
   > (on [[monodromy]]; Cubical Agda type-checked)
 
 
+* {#GroupPresentationPushout} [[nLab materials]]: *Group Presentations as Homotopy Pushouts* (2026-11-11) &lbrack;<a href="PDF_URL">main.pdf</a>, <a href="TEX_URL">main.tex</a>, <a href="AGDA_URL">agda</a>, <a href="ALIGNMENT_URL">alignment</a>, <a href="GITHUB_URL">GitHub</a>&rbrack;
+  > (on [[group presentation as a homotopy pushout]]; Cubical Agda type-checked; canonical homomorphism surjectivity verified)
+
+
 
 * ...
 
