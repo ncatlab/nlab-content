@@ -372,7 +372,12 @@ Classical discussion in terms of [[fundamental groups]] of [[CW-complexes]]:
 
 * {#Hatcher02} [[Allen Hatcher]]; §1.2 of: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
+* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006), §§4.5–4.7 ([[adjunction spaces]] and [[cell complexes]]) and §9.1 (the [[van Kampen theorem]] for [[adjunction spaces]]) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
+
 * Behrooz Mashayekhy, Hanieh Mirebrahimi: *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511--515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
+
+
+
 
 Discussion in [[homotopy type theory]]:
 
@@ -381,10 +386,6 @@ Discussion in [[homotopy type theory]]:
 * [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]]; p. 64 of: *Topological Quantum Gates in Homotopy Type Theory*, Comm. Math. Phys. **405** 172 (2024) &lbrack;[doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8), [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
 
 
-See also:
-
-
-* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006), §§4.5–4.7 (adjunction spaces and cell complexes) and §9.1 (the van Kampen theorem for adjunction spaces) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
 
 
 category: group theory
