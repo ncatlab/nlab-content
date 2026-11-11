@@ -23,7 +23,7 @@ The concept is due to [[Dmitri Pavlov]].
 
 ## Definitions
 
-At present, there is no purely [[order theory|order-theoretic]] definition of measurable locales.  However, there are a few other ways of defining them.
+At present, there is no purely [[order theory|order-theoretic]] definition of measurable locales.  (An equivalent problem was posed by [[von Neumann]] and has remained open ever since, see the references below.)  However, there are a few other ways of defining them.
 
 ### In classical mathematics
 
@@ -112,6 +112,17 @@ For a development of [[measure theory]] in this context, see
 
 * [[Georg Lehner]], _Measure theory via Locales_, [arXiv](https://arxiv.org/abs/2510.08826).
 
+The problem of characterizing measurable locales among all complete Boolean algebras without referring to measures was posed (in an equivalent formulation) by [[von Neumann]] in 1937 and has remained open ever since.  Two conjectures posed in relation to this problem by von Neumann and Maharam were disproved by Talagrand in 2008.  A survey of the problem (written prior to Talagrand's work):
+
+* Bohuslav Balcar, [[Thomas Jech]], _Weak Distributivity, A Problem of Von Neumann and the Mystery of Measurability_, Bulletin of Symbolic Logic 12:2 (2006), 241-266.  [DOI](https://doi.org/10.2178/bsl/1146620061), [PDF](https://personal.science.psu.edu/txj1/preprints/myst-publ.pdf).
+
+The von Neumann and Maharam conjectures were resolved in the negative by Talagrand in 2008:
+
+* [[Michel Talagrand]], _Maharam’s problem_, Annals of Mathematics 168:3 (2008), 981-1009.  [DOI](https://doi.org/10.4007/annals.2008.168.981), [PDF](https://arxiv.org/abs/math/0601689).
+
+The closely related concept of a measure algebra is studied in detail in:
+
+* [[David H. Fremlin]], _[[Measure Theory]]_, Volume 3, Parts I and II.
 
 [[!redirects measurable locale]]
 [[!redirects measurable locales]]
