@@ -21,12 +21,15 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
   > (on [[Morse-Bott theory]] of [[free loop spaces]] of [[Riemannian manifolds]])
  
 
-* {#Monodromy} [[nLab materials]]: *Monodromy in Homotopy Type Theory* (2026-11-09) &lbrack;<a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.pdf">main.pdf</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.tex">main.tex</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/agda/NLabMonodromy.agda">agda</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/tree/main/alignment">alignment</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda">GitHub</a>&rbrack;
+* {#Monodromy} [[nLab materials]]: *Monodromy in Homotopy Type Theory* (2026-11-09) &lbrack;<a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/paper/main.pdf">main.pdf</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda/blob/main/agda/NLabMonodromy.agda">agda</a>, <a href="https://github.com/hw4375-collab/Monodromy-CubicalAgda">GitHub</a>&rbrack;
   > (on [[monodromy]]; Cubical Agda type-checked)
 
 
-* {#GroupPresentationPushout} [[nLab materials]]: *Group Presentations as Homotopy Pushouts* (2026-11-11) &lbrack;<a href="PDF_URL">main.pdf</a>, <a href="TEX_URL">main.tex</a>, <a href="AGDA_URL">agda</a>, <a href="ALIGNMENT_URL">alignment</a>, <a href="GITHUB_URL">GitHub</a>&rbrack;
-  > (on [[group presentation as a homotopy pushout]]; Cubical Agda type-checked; canonical homomorphism surjectivity verified)
+
+
+* {#GroupPresentationPushout} [[nLab materials]]: *Group Presentations as Homotopy Pushouts: A Cubical Agda Formalization* (2026-11-11) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/main/papers/GroupPresentations/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/main/src/GroupPresentation">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda">GitHub</a>&rbrack;
+  > (on [[group presentation as a homotopy pushout]]; Cubical Agda type-checked)
+
 
 
 
