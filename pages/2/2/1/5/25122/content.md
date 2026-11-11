@@ -19,9 +19,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -30,6 +28,10 @@ The notion of *homotopy pushout* is
 * the generalization of the notion of *[[pushout]]* to [[homotopy theory]], hence from [[1-category]]-[[category theory]] to [[(infinity,1)-category|$\infty$-category]] theory, and here often understood as a [[derived functor]] of the pushout-functor
 
 * the [[formal duality|formal dual]] to the notion of [[homotopy pullback]]. For the moment, see there for more details.
+
+## Examples
+
+* [[group presentations as homotopy pushouts]]
 
 ## Related concepts
 
