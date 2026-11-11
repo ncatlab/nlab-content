@@ -4893,6 +4893,17 @@ Neumann algebras**
 
   > In this talk, I will discuss how the solution space of [[closed string|closed]] [[string field theory]] connected by finite [[gauge transformations]] can be represented as a [[Kan simplicial manifold]] and [[infinity-groupoid]]. Time permitting, I will also explain how this [[Kan complex]] can be used alongside a [[Cech cohomology|patch-by-patch description]] of [[spacetime]] to compute boundary terms. Based on work with [Jojiro Tostsuka](https://inspirehep.net/authors/2089019) at Kyoto University, Japan.
 
+\linebreak
+
+### Nov 2026
+
+* {#PaquetteNov2026} [[Natalie Paquette]] (University of Washington):
+
+  **Twists of IKKT and BFSS**
+
+  cf.: [arXiv:2602.22318](https://arxiv.org/abs/2602.22318)
+
+  > [[supersymmetry|Supersymmetric]] [[matrix models]] (in certain limits) are conjectured to describe [[string theory]] and [[supergravity]] in higher dimensions. I will discuss how [[topological twist|twisting]] isolates tractable sectors of the [[BFSS matrix model|BFSS]] and [[IKKT matrix model|IKKT matrix theories]], relating their [[perturbative quantum field theory|perturbative]] [[large N limit|large-$N$]] [[observables]] to geometric descriptions of twisted [[type II string theories]]. I will then describe new [[topological twist|twists]] of [[IKKT matrix model|IKKT]] at [[large N limit|infinite N]] that require [[noncommutative geometry|noncommutative]] matrix [[background field|backgrounds]]. Around these [[background field|backgrounds]], the [[matrix models]] describe holomorphic and [[topological field theories]] on [[D-branes]]. The emphasis will be on geometric intuition and concrete examples. This talk is based on [2602.22318](https://arxiv.org/abs/2602.22318) and work to appear in collaboration with [[Fabian Hahner]].
 
 \linebreak  
 
