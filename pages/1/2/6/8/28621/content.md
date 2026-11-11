@@ -1,14 +1,31 @@
 
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
 
 ## Idea
+ {#Idea}
 
-A [[group presentation]] may be realized homotopy-theoretically by attaching 2-cells to a [[wedge sum]] of circles along loops representing the defining relations.
+The notion of [[group presentations]] may be realized [[homotopy theory|homotopy-theoretically]] by attaching [[2-cells]] to a [[wedge sum]] of [[circles]] along [[loops]] representing the defining [[relations]].
 
-In [[homotopy type theory]], this construction is expressed by a [[homotopy pushout]]. Its [[1-truncation]] gives a model for the [[classifying space]] of the presented group.
+This is a [[homotopy pushout]]-construction that has notably a neat formulation in [[homotopy type theory]]. Its [[1-truncation]] gives a model for the [[classifying space]] $B G$  and more generally of the *[[moduli stack]]* or *[[delooping groupoid]]* $\mathbf{B}G$ of the presented group.
 
-This construction relates the algebraic description of a group by generators and relations to its description as the fundamental group of a connected space.
+This construction relates the algebraic description of a group by [[generators and relations]] to its description as the [[fundamental group]] of a [[connected homotopy type|connected space]].
 
 
 
@@ -19,7 +36,9 @@ A [[group presentation]] can be realized geometrically by representing generator
 Let $X$ be a set of generators and $R$ a set of relators, equipped with a function $r:R\to F(X)$, where $F(X)$ is the [[free group]] on $X$. The presented group is
 
 $$
-G_P := F(X)/\langle\!\langle r(R)\rangle\!\rangle,
+  G_P 
+    \coloneqq 
+  F(X)/\langle\!\langle r(R)\rangle\!\rangle,
 $$
 
 where $\langle\!\langle r(R)\rangle\!\rangle$ denotes the [[normal closure]] of the relators. The construction below realizes this quotient at the level of fundamental groups.
@@ -29,7 +48,7 @@ where $\langle\!\langle r(R)\rangle\!\rangle$ denotes the [[normal closure]] of 
 Consider the pointed space
 
 $$
-W_X := \bigvee_{x\in X} S^1,
+  W_X \coloneqq \bigvee_{x\in X} S^1,
 $$
 
 the [[wedge sum]] of circles indexed by $X$, with all circles identified at a common basepoint. Each generator $x\in X$ determines a distinguished based loop $\gamma_x:S^1\to W_X$.
@@ -53,12 +72,14 @@ To impose the relation $r(a)=1$, one attaches a disk $D^2$ along $\rho_a$. The d
 Collecting these loops gives an attaching map $\rho:R\times S^1\to W_X$, defined by $\rho(a,z)=\rho_a(z)$. The presentation space is the [[homotopy pushout]]
 
 $$
-C_P :=
-\operatorname{hocolim}
-\left(
-W_X \xleftarrow{\rho} R\times S^1
-\xrightarrow{\mathrm{pr}_1} R
-\right).
+  C_P 
+  \coloneqq
+  \operatorname{hocolim}
+  \big(
+    W_X \xleftarrow{\rho} R\times S^1
+      \xrightarrow{\mathrm{pr}_1} 
+    R
+  \big).
 $$
 
 Here $\mathrm{pr}_1:R\times S^1\to R$ sends each circle to its indexing relator. Equivalently, the construction attaches one 2-cell for every relator:
@@ -163,7 +184,8 @@ Throughout this section, $X$ and $R$ are regarded as sets (0-types), and $P=(X,R
 Instead of starting with a wedge of circles, consider the [[suspension]] of the coproduct of the unit type and the generator set:
 
 $$
-S_X := \operatorname{Susp}(\mathbf{1}+X).
+  S_X \coloneqq \operatorname{Susp}(\mathbf{1}+X)
+  \mathrlap{\,.}
 $$
 
 The suspension has two distinguished points, $\mathsf{north}$ and $\mathsf{south}$, together with a meridian
@@ -174,13 +196,14 @@ $$
 
 for each $a:\mathbf{1}+X$.
 
-The unit summand provides a distinguished reference meridian $m_*:=\mathsf{merid}(\mathsf{inl}(*))$. Every generator $x:X$ provides another meridian $m_x:=\mathsf{merid}(\mathsf{inr}(x))$.
+The unit summand provides a distinguished reference meridian $m_* \coloneqq \mathsf{merid}\big(\mathsf{inl}(*)\big)$. Every generator $x:X$ provides another meridian $m_x \coloneqq \mathsf{merid}(\mathsf{inr}(x))$.
 
 Taking $\mathsf{north}$ as the basepoint, define the generator loop
 
 $$
-\gamma_x := m_x\cdot m_*^{-1}
-:\mathsf{north}=\mathsf{north}.
+  \gamma_x \coloneqq m_x\cdot m_*^{-1}
+   : \mathsf{north} = \mathsf{north}
+  \mathrlap{\,.}
 $$
 
 The reference meridian is not an additional group generator. Rather, it allows each generator meridian to be converted into a loop based at $\mathsf{north}$.
@@ -188,9 +211,10 @@ The reference meridian is not an additional group generator. Rather, it allows e
 For a set $X$, the resulting pointed type is equivalent to the wedge of circles indexed by $X$:
 
 $$
-(S_X,\mathsf{north})
-\simeq_*
-\bigvee_{x\in X}S^1.
+  (S_X,\mathsf{north})
+  \simeq_*
+  \bigvee_{x\in X}S^1
+  \mathrlap{\,.}
 $$
 
 Consequently, its fundamental group is the free group on $X$.
@@ -204,10 +228,11 @@ These operations allow words in the generators to be interpreted as loops. In pa
 For a word $w=x_1^{\varepsilon_1}\cdots x_k^{\varepsilon_k}$, where each $\varepsilon_i\in\{+1,-1\}$, its associated loop is
 
 $$
-\gamma_w :=
-\gamma_{x_1}^{\varepsilon_1}\cdot
-\ldots\cdot
-\gamma_{x_k}^{\varepsilon_k}.
+  \gamma_w \coloneqq
+  \gamma_{x_1}^{\varepsilon_1}\cdot
+  \ldots\cdot
+  \gamma_{x_k}^{\varepsilon_k}
+  \mathrlap{\,.}
 $$
 
 The empty word is interpreted as the constant path. Concatenation of words corresponds to concatenation of loops, and freely reduced words determine the same element of the fundamental group.
@@ -215,7 +240,8 @@ The empty word is interpreted as the constant path. Concatenation of words corre
 More precisely, passing to homotopy classes of loops gives the canonical identification
 
 $$
-F(X)\cong\pi_1(S_X,\mathsf{north}).
+  F(X) \cong \pi_1(S_X,\mathsf{north}).
+  \mathrlap{\,.}
 $$
 
 Thus, the free group is recovered from the fundamental group of the suspension-based generator type.
@@ -251,12 +277,16 @@ $$
 Explicitly,
 
 $$
-C_P^{\mathrm{HoTT}} :=
-\operatorname{Pushout}
-\left(
-S_X \xleftarrow{\rho} R\times S^1
-\xrightarrow{\mathrm{pr}_1} R
-\right).
+  C_P^{\mathrm{HoTT}} \coloneqq
+  \operatorname{Pushout}
+  \big(
+    S_X 
+      \xleftarrow{\rho} 
+    R\times S^1
+      \xrightarrow{\mathrm{pr}_1} 
+    R
+  \big)
+  \mathrlap{\,.}
 $$
 
 As a [[higher inductive type]], the pushout has point constructors for the two sides of the span and path constructors identifying their images for each element of $R\times S^1$.
@@ -266,7 +296,8 @@ These identifications provide null-homotopies of the relator loops in the result
 The resulting type is connected, and its fundamental group is the group specified by the presentation:
 
 $$
-\pi_1(C_P^{\mathrm{HoTT}})\cong G_P.
+ \pi_1(C_P^{\mathrm{HoTT}}) \cong G_P
+ \mathrlap{\,.}
 $$
 
 However, the pushout may retain nontrivial higher homotopy information. Applying [[1-truncation]] produces a connected 1-type whose fundamental group is $G_P$.
@@ -274,8 +305,9 @@ However, the pushout may retain nontrivial higher homotopy information. Applying
 Hence, there is a pointed equivalence
 
 $$
-\left\|C_P^{\mathrm{HoTT}}\right\|_1
-\simeq_* BG_P.
+  \left\|C_P^{\mathrm{HoTT}}\right\|_1
+    \simeq_* 
+  BG_P.
 $$
 
 This expresses the [[classifying space]] of a presented group entirely in terms of higher inductive types, path operations and truncation. It is the internal homotopy-type-theoretic counterpart of the classical presentation complex.
@@ -313,23 +345,48 @@ The Shadow Paper, Cubical Agda source code, and complete project repository are 
 ## Related concepts
 
 * [[group presentation]]
+
 * [[free group]]
+
 * [[homotopy pushout]]
+
 * [[pushout type]]
+
 * [[higher inductive type]]
+
 * [[classifying space]]
+
 * [[fundamental group]]
+
 * [[Seifert-van Kampen theorem]]
+
 * [[topological quantum computation]]
 
+
 ## References
+ {#References}
 
-* Ronald Brown, *Topology and Groupoids*, Booksurge, 2006.
+Classical discussion in terms of [[fundamental groups]] of [[CW-complexes]]:
 
-* Allen Hatcher, *Algebraic Topology*, Cambridge University Press, 2002, especially Section 1.2.
+* [[Joseph J. Rotman]]; Thm. 7.34 in: *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
 
-* The Univalent Foundations Program, *Homotopy Type Theory: Univalent Foundations of Mathematics*, Institute for Advanced Study, 2013.
+* {#Hatcher02} [[Allen Hatcher]]; §1.2 of: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
-* David Jaz Myers, Hisham Sati and Urs Schreiber, *Topological Quantum Gates in Homotopy Type Theory*, Communications in Mathematical Physics (2024).
+* Behrooz Mashayekhy, Hanieh Mirebrahimi: *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511--515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
+
+Discussion in [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]]; Ex. 8.7.17 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, Institute for Advanced Study (2013)
+
+* [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]]; p. 64 of: *Topological Quantum Gates in Homotopy Type Theory*, Comm. Math. Phys. **405** 172 (2024) &lbrack;[doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8), [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
+
+
+See also:
+
+* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
+
+
 
 category: group theory
+
+[[!redirects group presentations as homotopy pushouts]]
