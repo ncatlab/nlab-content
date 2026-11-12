@@ -11,7 +11,7 @@ This page is to record the reference:
 
   \linebreak
 
-  Elsevier (2024)
+  Academic Press (2025)
 
   [ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)
 
