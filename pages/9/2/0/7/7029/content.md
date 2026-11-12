@@ -101,7 +101,7 @@ In the form (eq:FreeActionWitnessedByMonomorphicShearMap) the definition of free
   Let $\mathcal{C}$ be a [[category]] with [[finite products]], let $G \,\in\, Grp(\mathcal{C})$ be an [[internal group]] and $G \curvearrowright X \,\in\, G Act(\mathcal{C}) $ an [[internal action]]:
 
 $$
-  G \times X \xrightarrow{\;\; rho \;\;} X
+  G \times X \xrightarrow{\;\; \rho \;\;} X
   \,.
 $$
 
