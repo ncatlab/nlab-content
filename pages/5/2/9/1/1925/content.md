@@ -280,7 +280,7 @@ $$
 
 obeying
 
-$$ (x/y) y = x $$
+$$ (x/y) y = x \qquad \text{and} \qquad (g x)/x = g$$
 
 Given a group $G$ together with a $G$-torsor $X$, we can make $X$ into a heap by giving it the ternary operation
 
@@ -291,7 +291,7 @@ X \times X \times X &\to& X \\
 $$
 
 Conversely, from any heap $H$ we can construct a group $G$ together with a $G$-torsor whose underlying set is $H$ itself.
-To see this, note that the group $G = Str(H)$ (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
+To see this, note that the group $G = Str(H)$ (Prop. \ref{PrinIsEssentiallySurjective}) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
 
 This action is 
 
