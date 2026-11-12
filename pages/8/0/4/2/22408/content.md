@@ -36,7 +36,7 @@ $$
   }
 $$
 
-form the [[Cartesian product]] of (the [[objects]] underlying) $G$ and $A$ to that of $A$ with itself, whose first component is the [[action]] morphism (eq:ActionMorphism) and whose second component is the [[projection]] onto the second factor (or the other way around, equivalently).
+from the [[Cartesian product]] of (the [[objects]] underlying) $G$ and $A$ to that of $A$ with itself, whose first component is the [[action]] morphism (eq:ActionMorphism) and whose second component is the [[projection]] onto the second factor (or the other way around, equivalently).
 
 The action $(A,\rho)$ is called:
 
