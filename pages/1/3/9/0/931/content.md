@@ -80,15 +80,15 @@ Given a torsor $(T,t)$, we send it to the pair $(LTrans(T),T)$,
 where $LTrans(T)$ is a subgroup of the group of bijections on the set $T$
 comprising precisely the bijections of the form $c\mapsto t(a,b,c)$
 for some elements $a,b\in T$.
-The group $G$ acts on $T$ by evaluation: $gt=g(t)$.
+The group $G$ acts on $T$ by evaluation: $g t = g(t)$.
 
 Mapping $(T,t)\mapsto (LTrans(T),T)\mapsto (T,t)$ gives back the same torsor
 $(T,t)$ that we started from.
 
-Mapping $(G,T)\mapsto (T,t)\mapsto (LTrans(T),t)$ produces
-a torsor $(LTrans(T),t)$ that is naturally isomorphic to $(G,T)$
+Mapping $(G,T)\mapsto (T,t)\mapsto (LTrans(T),T)$ produces
+a torsor $(LTrans(T),T)$ that is naturally isomorphic to $(G,T)$
 via the isomorphism
-$$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto gt),\qquad t\mapsto t.$$
+$$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto g t),\qquad t\mapsto t.$$
 
 ### Trivialisation {#TrivialisationInSets}
 
@@ -110,6 +110,7 @@ In fact we can improve the above result to show that any $G$-torsor is isomorphi
 \begin{defn} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. A _trivialisation_ of $\underline{T}$ is an [[isomorphism]] of $G$-torsors between $T$ and the underlying $G$-torsor of $G$. \end{defn} 
 
 \begin{rmk}
+\label{RemarkGroupStructureFromTrivialisation}
 The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} lets us see that any choice of element of $T$ gives rise to a trivialisation.
 
 Note also that a trivialization equips $T$ with a _choice_ of group structure making it isomorphic to $G$, since we can use it to transfer the group structure from $G$ to $T$.  \end{rmk} 
@@ -118,7 +119,9 @@ Note also that a trivialization equips $T$ with a _choice_ of group structure ma
 
 Torsors can be transported, or in other words pushed forward, along group homomorphisms, as we shall now show. (See also at *[G-space -- change of structure group](topological+G-space#ChangeOfGroupsAndFixedLoci)*).
 
-\begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times T \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by left multiplication, namely that given by $\left( g, \left[ (g', t') \right] \right) \mapsto \left[ \left(g g', t' \right) \right]$, where $\left[ p \right]$, for some $p \in G_2 \times T$, denotes the [[orbit]] of $p$ with respect to the action of $G_1$ on $G_2 \times T$. \end{prpn}
+\begin{prpn}
+\label{PropositionTorsorChangeOfStructureGroup}
+Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times T \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by left multiplication, namely that given by $\left( g, \left[ (g', t') \right] \right) \mapsto \left[ \left(g g', t' \right) \right]$, where $\left[ p \right]$, for some $p \in G_2 \times T$, denotes the [[orbit]] of $p$ with respect to the action of $G_1$ on $G_2 \times T$. \end{prpn}
 
 \begin{proof} We shall demonstrate that the map 
 
@@ -177,7 +180,7 @@ More generally, one may consider torsors over some base space $B$ (in other word
 
 A __$G$-torsor__, without any base space given, can also simply be an inhabited transitive free $G$-[[action|set]], which is the same as a principal $G$-bundle over the [[point]]. The notion may also be defined in any category with products: a torsor over a [[group object]] $G$ is a [[well-supported object]] $E$ together with a $G$-action $\alpha: G \times E \to E$ such that the arrow 
 
-$$\langle \pi_1, \alpha \rangle: G \times E \to E \times E$$ 
+$$\langle \alpha, \pi_2 \rangle: G \times E \to E \times E$$ 
 
 is an [[isomorphism]].
 
