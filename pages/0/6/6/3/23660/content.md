@@ -101,7 +101,7 @@ Survey and review:
 Implementation in [cubical](Agda#CubicalAgda) 
 [[Agda]]:
 
-* Jackson Brough: *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda* &lbrack;[arXiv:2604.24782](https://arxiv.org/abs/2604.24782)&rbrack;
+* Jackson Brough: *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda*, BSc thesis (2026) &lbrack;[arXiv:2604.24782](https://arxiv.org/abs/2604.24782), [pdf](https://users.cs.utah.edu/~blg/resources/pdf/jackson-brough-cubicalreals-2026.pdf), [github](https://github.com/utahplt/hott-reals)&rbrack;
 
 
 
