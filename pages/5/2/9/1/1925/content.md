@@ -297,15 +297,15 @@ This action is
 
 * [[transitive action|transitive]] 
 
-  by $t(a,a,b) = b$
+  since $t(b,a,a) = b$
 
 and
 
 * [[free action|free]]
 
-  since if $t(a,b,c) = a$ then by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,c) = b$ and also $t(b,b,c) = c$.  
+  since if $t(a,b,c) = c$ then $t(a,b,x) = t(a,b,t(c,c,x)) = t(t(a,b,c),c,x) = t(c,c,x) = x$ for each $x$, so $t(a,b,-)$ is the identity.
 
-Therefore, $H$ is an $Str(H)$-[[torsor]] (over a point).  
+Therefore, $H$ is an $Str(H)$-[[torsor]].  
 
 Conversely, any [[torsor]] $H$ over a group $G$ becomes a heap, by defining 
 
