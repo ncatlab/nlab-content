@@ -67,7 +67,7 @@ There is a [translation by Tim Hosgood](https://translations.thosgood.com/fga/).
 
 (Bois Marie is the name of an area of woodland at Bures-sur-Yvette, where the [[math institutions|IHÉS]] is situated.)
 
- _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. In $n$lab we have pages on  [[SGA1]], and [[SGA4]]. 
+ _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. In $n$lab we have pages on [[SGA1]], [[SGA3]], [[SGA4]], and [[SGA6]]. 
 
 The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars.
 
