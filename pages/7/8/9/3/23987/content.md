@@ -2175,6 +2175,21 @@ $\phantom{-----------}$Tuesday, May 20
 \linebreak
 
 
+### Nov 2026
+ {#WorkshopsNov2026} 
+
+16 Nov 2026
+
+**CQTS Research Symposium 2026**
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CQTS-ResearchSymposium_Nov2026.png" width="850"/>
+</center>
+
+
+
+\linebreak
+
 
 ***
 
