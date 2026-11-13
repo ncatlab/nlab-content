@@ -67,9 +67,7 @@ There is a [translation by Tim Hosgood](https://translations.thosgood.com/fga/).
 
 (Bois Marie is the name of an area of woodland at Bures-sur-Yvette, where the [[math institutions|IHÉS]] is situated.)
 
- _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. In $n$lab we have pages on [[SGA1]], [[SGA3]], [[SGA4]], and [[SGA6]]. 
-
-The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars.
+ _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. SGA is divided into parts 1, 2, 3, 4, 4½, 5, 6, and 7 (the [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars). In $n$lab we have pages on [[SGA1]], [[SGA3]], [[SGA4]], and [[SGA6]]. 
 
 [[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture | Weil conjectures]] which appeared before SGA5).
 
