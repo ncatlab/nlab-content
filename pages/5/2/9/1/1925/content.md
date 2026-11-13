@@ -181,9 +181,9 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
 
    \[
      \label{BinaryOperationInSecondModel}
-     (c,d) \cdot (a,b) 
+     (a,b) \cdot (c,d) 
      \,\coloneqq\, 
-     \big( t(c,d,a), b \big)
+     \big( t(a,b,c), d \big)
      \,.
    \] 
 
@@ -208,9 +208,9 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
    Notice here that 
 
    \[ 
-      t(c,d,-) \cdot_{Str(H)} t(a,b,-) 
+      t(a,b,-) \cdot_{Str(H)} t(c,d,-) 
       \;=\;
-      t\big(c,d,t(a,b,-)\big) \;=\; t\big(t(c,d,a),b,-\big)
+      t\big(a,b,t(c,d,-)\big) \;=\; t\big(t(a,b,c),d,-\big)
       \,, 
    \]
 
@@ -230,7 +230,7 @@ First to show that the [[equivalence relation]] used in the second construction 
 
 Namely:
 
-(ii) follows from (i) and $t(a,a,b) = b$.
+(ii) follows from (i) and $t(a',b',b') = a'$.
 
 (ii) implies (iii) as follows.  Given $t(a,b,b') = a'$, we have
 $t(t(a,b,b'),b',b) = t(a',b',b)$, but 
@@ -305,16 +305,7 @@ and
 
   since if $t(a,b,c) = c$ then $t(a,b,x) = t(a,b,t(c,c,x)) = t(t(a,b,c),c,x) = t(c,c,x) = x$ for each $x$, so $t(a,b,-)$ is the identity.
 
-Therefore, $H$ is an $Str(H)$-[[torsor]].  
-
-Conversely, any [[torsor]] $H$ over a group $G$ becomes a heap, by defining 
-
-$$
-  t(a,b,c) \,\coloneqq\, g \cdot c
-  \,,
-$$
-
-where $g\in G$ is the unique group element such that $g\cdot b = a$.
+Therefore, $H$ is an $Str(H)$-[[torsor]].
 
 In fact, the category $Heap$ is [[equivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$. 
 
