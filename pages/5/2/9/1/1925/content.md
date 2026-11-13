@@ -329,9 +329,9 @@ $$\beta, \gamma: F(Str(H) \times H) \rightrightarrows Str(H) \ast F(H)$$
 
 where $\beta$ is the composition of $F(\alpha): F(Str(H) \times H) \to F(H)$ followed by the coproduct coprojection $F(H) \to Str(H) \ast F(H)$, and $\gamma$ is the unique group homomorphism that extends the function 
 
-$$Str(H) \times H \to Str(H) \ast H$$ 
+$$Str(H) \times H \to Str(H) \ast F(H)$$ 
 
-mapping a pair $(\theta, h)$ to their product $\theta \cdot h$ in the group $Str(H) \ast H$. 
+mapping a pair $(\theta, h)$ to their product $\theta \cdot h$ in the group $Str(H) \ast F(H)$. 
 
 The meaning of the construction is that group homomorphisms $Str(H) \ast F(H) \to G$ that factor through the coequalizer are in natural bijection with pairs 
 
