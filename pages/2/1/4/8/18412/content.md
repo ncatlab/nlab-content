@@ -1,6 +1,22 @@
-[[!redirects Gian Francesco Giudice]]
+
+<div style="float:right;margin:-30px 0px 00px 20px;">
+<a href="https://nyuad.nyu.edu/en/academics/divisions/science/faculty/gian-francesco-giudice.html">
+<img src="https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/science/faculty/gian-francesco-giudice/jcr:content/bio-info/image.adaptive.m1790696876020/290.jpg" width="260"></a>
+</div>
+
+
+Gian Francesco Giudice
+
+* [instiute page](https://theory.cern/giudice-gian-francesco/) (CERN)
+
+* [institute page](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/gian-francesco-giudice.html) (NYUAD)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Gian_Francesco_Giudice)
+
+* [inSpire page](https://inspirehep.net/authors/1008272)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Gian-F-Giudice-2044415715)
+
 
 ## Selected writings
 
@@ -18,13 +34,20 @@ On [[Higgs field]] [[vacuum stability]]:
 
 On [[split supersymmetry]] in view of [[Higgs field]] [[vacuum stability]]:
 
-* [[Gian Giudice]], [[Alessandro Strumia]], _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
+* [[Gian Giudice]], [[Alessandro Strumia]]: _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
 
 On [[naturalness]]:
 
-* [[Gian Francesco Giudice]], _The Dawn of the Post-Naturalness Era_ ([arXiv:1710.07663](https://arxiv.org/abs/1710.07663))
+* [[Gian Francesco Giudice]]: _The Dawn of the Post-Naturalness Era_ &lbrack;[arXiv:1710.07663](https://arxiv.org/abs/1710.07663))&rbrack;
 
-## related $n$Lab entries
+On [[cosmology]] and [[cosmic inflation]]:
+
+* [[Gian Giudice]]: *Before the Big Bang*, Copernicus Books, Springer (2024) &lbrack;[doi:10.1007/978-3-031-69933-7](https://doi.org/10.1007/978-3-031-69933-7)&rbrack;
+
+* Space Café Podcast: *[What happened before the Big Bang? CERN's head of theoretical physics Gian Giudice has a hunch](www.buzzsprout.com/1915816/episodes/15899051)* (Oct 2024)
+
+
+## Related entries
 
 * [[naturalness]]
 
@@ -33,3 +56,6 @@ On [[naturalness]]:
 * [[Higgs field]]
 
 category: people
+
+
+[[!redirects Gian Francesco Giudice]]
