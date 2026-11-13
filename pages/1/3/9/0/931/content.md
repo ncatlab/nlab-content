@@ -94,7 +94,7 @@ $$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto g t),\qquad t\mapsto t.$$
 
 \begin{prpn} \label{PropositionTorsorIsomorphicAsSetToStructureGroup} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. If $T$ is non-empty, it is isomorphic to the underlying set of $G$. \end{prpn}
 
-\begin{proof} Let $t$ be an [[element]] of $T$. The following diagram is [[pullback]] square:
+\begin{proof} Let $t$ be an [[element]] of $T$. The following diagram is a [[pullback]] square:
 
 \begin{centre}
   \begin{tikzcd}
