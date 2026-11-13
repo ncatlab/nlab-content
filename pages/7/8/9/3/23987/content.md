@@ -2152,16 +2152,6 @@ $\phantom{-----------}$Tuesday, May 20
 
 \linebreak
 
-### May 2026
-
-* {#QIQM2026} (*postponed*) 
-
-  **Quantum Information and Quantum Matter 2026**
-
-  New York University Abu Dhabi
-
-\linebreak
-
 
 ### July 2026
 
