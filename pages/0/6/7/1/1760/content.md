@@ -15,9 +15,9 @@
 =--
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -206,12 +206,11 @@ Along similar lines, the delooping of a [[braided monoidal category]] produces a
 
 * [[May recognition theorem]]
 
+* [[delooping via torsors]]
+
 * [[loop space object]], [[free loop space object]],
 
-  * **delooping**
-
   * [[loop space]], [[free loop space]], [[derived loop space]]
-
 
 * [[suspension object]]
 
