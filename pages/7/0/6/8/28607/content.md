@@ -1005,14 +1005,14 @@ n_1 & \Vdash & y \in T, & \quad & n_1 & \coloneqq & \varphi_p(r_1, r_2) \\
 \implies n_3 & \Vdash & y \in U, & \quad & n_3 & \coloneqq & \varphi_{p'}(n_1, n_2).
 \end{array}
 \]
-Here, we can show that the composition $(n, m, p, q, n', m', p', q', r_1, r_2) \mapsto n_3$ is a partial recursive function, using the evaluation axiom for the admissible numbering $\varphi$. Now, using the currying axiom for $\varphi$, we can show there is a full recursive function $t_2 : \mathbb{N}^8 \to \mathbb{N}$ such that $\varphi_{t_2(n, m, p, q, n', m', p', q')}$ is always a binary partial recursive function $\mathbb{N}^2 \dashrightarrow \mathbb{N}$, and $\varphi_{t_2(n, m, p, q, n', m', p', q')}(r_1, r_2)$ gives the same partial function.
+Here, we can show that the composition $(n, m, p, q, n', m', p', q', r_1, r_2) \mapsto n_3$ is a partial recursive function, using the evaluation axiom for the admissible numbering $\varphi$. Now, using the currying axiom for $\varphi$, we can show there is a full recursive function $t_3 : \mathbb{N}^8 \to \mathbb{N}$ such that $\varphi_{t_3(n, m, p, q, n', m', p', q')}$ is always a binary partial recursive function $\mathbb{N}^2 \dashrightarrow \mathbb{N}$, and $\varphi_{t_3(n, m, p, q, n', m', p', q')}(r_1, r_2)$ gives the same partial function.
 
 A similar proof constructs a full recursive function $t_3 : \mathbb{N}^8 \to \mathbb{N}$ such that whenever
 $$r_1 \Vdash x \in U$$
 and
 $$r_2 \Vdash x \equiv y,$$
 then
-$$\varphi_{t_3(n, m, p, q, n', m', p', q')}(r_1, r_2) \Vdash y \in S.$$
+$$\varphi_{t_4(n, m, p, q, n', m', p', q')}(r_1, r_2) \Vdash y \in S.$$
 Then the function
-$$(\langle n, m, p, q \rangle, \langle n', m', p', q' \rangle) \mapsto \langle n, m', t_2(n, m, p, q, n', m', p', q'), t_3(n, m, p, q, n', m', p', q') \rangle$$
+$$(\langle n, m, p, q \rangle, \langle n', m', p', q' \rangle) \mapsto \langle n, m', t_3(n, m, p, q, n', m', p', q'), t_4(n, m, p, q, n', m', p', q') \rangle$$
 satisfies the required condition for $t_{PX}$.
