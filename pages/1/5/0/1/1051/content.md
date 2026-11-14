@@ -17,7 +17,7 @@
 
 A __directed limit__ (or __codirected limit__) is a [[limit]] $\underset{\leftarrow}\lim F$ of a functor $F\colon J \to C$ whose [[source]] [[category]] $J$ is a downward-[[direction|directed set]].
 
-More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a limit over a functor $J \to C$ is called **$\kappa$-directed limit**.
+More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has a lower bound. Then a limit over a functor $J \to C$ is called **$\kappa$-directed limit**.
 
 If the directed set is an [[ordinal]], one speaks of a [[sequential limit]].
 
