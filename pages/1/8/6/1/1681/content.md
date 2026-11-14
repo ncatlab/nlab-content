@@ -320,3 +320,9 @@ The [[topological K-theory]] of EM-spaces is discussed in
 [[!redirects Eilenberg--Mac Lane spaces]]
 [[!redirects Eilenberg–Mac Lane spaces]]
 [[!redirects Eilenberg–MacLane space]]
+
+
+[[!redirects Eilenberg-Mac Lane type]]
+[[!redirects Eilenberg-Mac Lane types]]
+[[!redirects Eilenberg--Mac Lane type]]
+[[!redirects Eilenberg--Mac Lane types]]
