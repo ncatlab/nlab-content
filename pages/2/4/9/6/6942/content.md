@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -129,3 +127,6 @@ For more see also the references at *[[algebraic stack]]*.
 [[!redirects higher moduli stacks]]
 
 [[!redirects modulus]]
+
+[[!redirects moduli type]]
+[[!redirects moduli types]]
