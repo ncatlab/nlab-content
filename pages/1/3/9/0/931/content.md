@@ -304,12 +304,21 @@ For the detailed construction, its relation to [[delooping]], and its formalizat
 ## Related concepts
 
 * [[homogeneous space]]
+
 * [[principal bundle]] / [[associated bundle]]
+
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
 * [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
 * [[descent along a torsor]], [[Schneider's descent theorem]]
+
+* [[delooping via torsors]]
+
 * [[Hopf-Galois extension]], [[quantum homogeneous space]],
+
 * [[noncommutative principal bundle]], [[quantum heap]]
 
 * [[physical unit]]
@@ -377,10 +386,9 @@ On viewing torsors as [[enriched categories]] (namely, [[Cauchy complete]]/[[cop
 
 * [Torsors and Enriched Categories](https://golem.ph.utexas.edu/category/2013/06/torsors_and_enriched_categorie.html), [[Simon Willerton]], [[n-category café]]
 
+* [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]]; esp. Lemma 5.8 of: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) &lbrack;[doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8), [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
 
-* D. Myers, H. Sati, U. Schreiber, _Topological Quantum Gates in Homotopy Type Theory_, especially Lemma 5.8, [arXiv:2303.02382](https://arxiv.org/abs/2303.02382).
-
-* H. Wang, _Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization_, 2026, accompanying formalization in [Topological Quantum Programming in Cubical Agda](https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda). Draft in preparation.
+* [[Hongwei Wang]]: _Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization_ (2026) accompanying formalization in [Topological Quantum Programming in Cubical Agda](https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda). Draft in preparation.
 
 
 [[!redirects torsors]]
