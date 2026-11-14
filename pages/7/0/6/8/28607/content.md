@@ -1016,3 +1016,57 @@ $$\varphi_{t_4(n, m, p, q, n', m', p', q')}(r_1, r_2) \Vdash y \in S.$$
 Then the function
 $$(\langle n, m, p, q \rangle, \langle n', m', p', q' \rangle) \mapsto \langle n, m', t_3(n, m, p, q, n', m', p', q'), t_4(n, m, p, q, n', m', p', q') \rangle$$
 satisfies the required condition for $t_{PX}$.
+
+The next step will be to define the universal subobject $\ni_X$ of $PX \times X$. The idea will be to use the same underlying set as $PX \times X$, but extend the product PER with the requirement that the second component is an element of the first. Thus, we will define
+$$\langle n, m, p \rangle \Vdash (S, x) \equiv_{\ni_X} (T, y)$$
+if and only if
+$$n \Vdash S \equiv_{PX} T,$$
+$$m \Vdash x \equiv_X y,$$
+and
+$$p \Vdash x \in S.$$
+The only nontrivial proof required here is for symmetry, where we can use the respectfulness condition that is part of $n \Vdash S \equiv_{PX} T$.
+
+Likewise, the canonical inclusion morphism will be the restriction of the product equivalence relation (similarly to the construction of the inclusion morphism for equalizers above). Specifically,
+$$n \Vdash (S, x) \xmapsto{\operatorname{inc}_{\ni_X}} (T, y)$$
+if and only if
+$$n \Vdash (S, x) \equiv_{\ni_X} (T, y).$$
+It will be straightforward to use the above monomorphism criterion to verify this does induce a monomorphism.
+
+Now, the crucial requirement is to construct, given a subobject $V \xhookrightarrow{[\operatorname{inc}_V]} U \times X$, an effective functional relation $\sigma$ between $V$ and $PX$ such that we get a pullback diagram
+\[
+\begin{array}{rcl}
+V & \to & \ni_X \\
+\operatorname{inc}_V \downarrow & & \downarrow \operatorname{inc}_{\ni_X} \\
+U \times X & \underset{\sigma \times \operatorname{id}_X}{\to} & PX \times X.
+\end{array}
+\]
+The natural idea here is to specify that $u \xmapsto{\sigma} S$ if $u$ is in the natural domain of the PER on $U$, and $S$ is equivalent to the $u$-slice of $V$. Specifically, we will say that
+$$\langle n, m, p \rangle \Vdash u \xmapsto{\sigma} S$$
+if and only if
+
+(a)
+$$n \Vdash u \equiv u.$$
+
+(b) Whenever
+$$q \Vdash v \xmapsto{\operatorname{inc}_V} (u, x),$$
+then $\varphi_m(q)$ is defined, and
+$$\varphi_m(q) \Vdash x \in S.$$
+
+(c) Whenever
+$$q \Vdash x \in S,$$
+then $\varphi_p(q)$ is defined, and there exists $v\in V$ such that
+$$\varphi_p(q) \Vdash v \xmapsto{\operatorname{inc}_V} (u, x).$$
+
+From here, there are many conditions to check, but each one should be fairly straightforward using the techniques shown so far.
+
+We also need to check uniqueness of $\sigma$; for this, it suffices to check that whenever we have another effective functional relations $\sigma'$ with pullback square
+\[
+\begin{array}{rcl}
+V & \to & \ni_X \\
+\operatorname{inc}_V \downarrow & & \downarrow \operatorname{inc}_{\ni_X} \\
+U \times X & \underset{\sigma' \times \operatorname{id}_X}{\to} & PX \times X
+\end{array}
+\]
+then $\sigma'$ is equivalent to $\sigma$. The idea here would be: if we were working with partial setoids, suppose we had $u \xmapsto{\sigma'} S$. Then whenever $x \in S$, that induces an element $(S, x)$ of $\ni_X$, and we get the necessary hypotheses to apply the pullback condition with $\sigma_1$, and get an element of $V$ which maps to $(u, x)$. Conversely, whenever $(u, x)$ is in the image of $V$, then applying the commutativity of the diagram for $\sigma'$, we get $x\in S$. This establishes the non-trivial conditions to have $u \xmapsto{\sigma} S$.
+
+Tracing this proof and tracking realizers of equivalences and mappings appropriately will lift this to a proof of the same fact in the effective topos.
