@@ -170,3 +170,5 @@ Some examples of type theories with a hierarchy of universes are as follows:
 [[!redirects universe level]]
 [[!redirects universe levels]]
 
+[[!redirects universe-level]]
+
