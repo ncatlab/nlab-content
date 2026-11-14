@@ -272,6 +272,29 @@ living in $C/P$. As argued above, the vertical arrow on the left is an isomorphi
 Thus, a $G$-torsor in a category with products can be tautologically interpreted in terms of $G$-actions on objects $P$ which become trivialized upon pulling back to the slice $C/P$. 
 
 
+## In homotopy type theory {#torsors-in-hott}
+
+In [[homotopy type theory]], a left torsor for a set-level group $G$ is a set $X$ equipped with a left $G$-action such that
+
+$$
+\|X\|_{-1}
+\qquad\text{and}\qquad
+\prod_{x:X}\prod_{y:X}
+\operatorname{isContr}
+\left(
+\sum_{g:G}(g\cdot x=y)
+\right).
+$$
+
+These conditions express mere inhabitation and a unique transporter between any two points, without selecting an origin.
+
+
+In a univalent universe, the type of left $G$-torsors has a natural [[moduli space|moduli]] interpretation. The [[structure identity principle]] identifies its paths with equivariant equivalences. The regular torsor defines a basepoint, and the resulting moduli type is a connected [[homotopy 1-type|1-type]] whose loop space at this basepoint is equivalent, as an underlying type, to $G$.
+
+For the detailed construction, its relation to [[delooping]], and its formalization in Cubical Agda, see [[torsor delooping]].
+
+
+
 ## Generalizations
 
 * Instead of a torsor over a group, one can consider a torsor over a [[category]]. See [[torsor with structure category]]. 
@@ -353,6 +376,12 @@ See also
 On viewing torsors as [[enriched categories]] (namely, [[Cauchy complete]]/[[copower|copowered]] categories enriched in a [[group]] seen as a [[discrete category]]):
 
 * [Torsors and Enriched Categories](https://golem.ph.utexas.edu/category/2013/06/torsors_and_enriched_categorie.html), [[Simon Willerton]], [[n-category café]]
+
+
+* D. Myers, H. Sati, U. Schreiber, _Topological Quantum Gates in Homotopy Type Theory_, especially Lemma 5.8, [arXiv:2303.02382](https://arxiv.org/abs/2303.02382).
+
+* H. Wang, _Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization_, 2026, accompanying formalization in [Topological Quantum Programming in Cubical Agda](https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda). Draft in preparation.
+
 
 [[!redirects torsors]]
 
