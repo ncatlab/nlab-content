@@ -79,16 +79,16 @@ Then the following are equivalent:
 \begin{proof}
   The first condition is equivalent to 
   $$
-    P \times_X P \rightrightarrows P \to X
+    G \times P \rightrightarrows P \to X
   $$
   being a [[coequalizer]], the second to
   $$
-    P \times G \rightrightarrows P \to X
+    P \times_X P \rightrightarrows P \to X
   $$
   being a coequalizer. But the pseudo-principality condition 
   says that we have an [[isomorphism]] (the [[shear map]])
   $$
-    P \times_X P \simeq P \times G
+    G \times P \simeq P \times_X P
   $$
   which identifies these two [[diagrams]].
 \end{proof}
