@@ -783,8 +783,6 @@ Therefore, the composition $n \mapsto n_{19}$ on the right satisfies the require
 
 ## Power objects
 
-### Preliminaries
-
 Since the definition of power objects involves pullback squares and monomorphisms, it will be appropriate to establish convenient criteria for establishing both. First, we start with isomorphisms.
 
 \begin{lemma}
@@ -899,7 +897,7 @@ then $eq_{h,f,g}(n, m)$ is defined and there exists $e\in E$ such that
 $$eq_{h,f,g}(n, m) \Vdash e \xmapsto{h} x.$$
 \end{lemma}
 \begin{proof}
-The diagram being an equalizer diagram, when (a) is satisfied, is equivalent to the induced effective functional relation $\tilde h$ being an isomorphism. It is then straightforward to check that (b) is equivalent to the effective injectivity of $\tilde h$, and (c) is equivalent to the effective surjectivity of $\tilde h$.
+The diagram being an equalizer diagram, when (a) is satisfied, is equivalent to the induced effective functional relation $\tilde h$ between $E$ and the actual equalizer being an isomorphism. It is then straightforward to check that (b) is equivalent to the effective injectivity of $\tilde h$, and (c) is equivalent to the effective surjectivity of $\tilde h$.
 \end{proof}
 
 \begin{lemma}
@@ -936,7 +934,7 @@ $$pb^2_{f,g,h,j}(n, m) \Vdash x \xmapsto{g} z.$$
 \end{lemma}
 
 \begin{proof}
-By abstract nonsense, the pullback condition is equivalent to $[(f, g)] : X \to Y\times Z$ being an equalizer of $[h \circ \pi_1] : Y \times Z \to W$ and $[j \circ \pi_2] : Y \times Z \to W$. It is then straightforward to check that the conditions above are equivalent to the conditions in the respective parts of the equalizer lemma.
+By an easy categorical argument, the pullback condition is equivalent to $[(f, g)] : X \to Y\times Z$ being an equalizer of $[h \circ \pi_1] : Y \times Z \to W$ and $[j \circ \pi_2] : Y \times Z \to W$. It is then straightforward to check that the conditions above are equivalent to the conditions in the respective parts of the equalizer lemma.
 \end{proof}
 
 \begin{corollary}
@@ -948,7 +946,7 @@ then $i_f(n, m)$ is defined and
 $$i_f(n, m) \Vdash x_1 \equiv x_2.$$
 \end{corollary}
 \begin{proof}
-By abstract nonsense, $[f]$ is a monomorphism if and only if
+By an easy categorical argument, $[f]$ is a monomorphism if and only if
 \[
 \begin{array}{rcl}
 X & \overset{\operatorname{id}_X}{\to} & X \\
@@ -958,3 +956,63 @@ X & \underset{[f]}{\to} & Y
 \]
 is a pullback square. However, in this particular pullback square, conditions (a) and (b) are automatically satisfied, whereas condition (c) is easily equivalent to the existence of $i_f$.
 \end{proof}
+
+In what follows, we will need to fix a choice of an [[admissible numbering]] $\varphi$ of the partial recursive functions.
+
+Now, if we have an object $X$, we will define its power object $PX$ to have underlying set $P_{\mathbf{Set}}(\mathbb{N} \times X)$. For an element $S$, which is a subset of $\mathbb{N} \times X$, we will use the notation $n \Vdash x \in S$ for $(n, x) \in S$. We then define the effective PER on $PX$ such that
+$$\langle n, m, p, q \rangle \Vdash S \equiv T$$
+if and only if
+
+(a) (Domain condition on $S$) $\varphi_n : \mathbb{N} \dashrightarrow \mathbb{N}$ is unary, and whenever
+$$r \Vdash x \in S,$$
+then $\varphi_n(r)$ exists, and
+$$\varphi_n(r) \Vdash x \equiv x.$$
+
+(b) (Domain condition on $T$) $\varphi_m : \mathbb{N} \dashrightarrow \mathbb{N}$ is unary, and whenver
+$$r \Vdash x \in T,$$
+then $\varphi_m(r)$ exists, and
+$$\varphi_m(r) \Vdash x \equiv x.$$
+
+(c) (Combination of respectfulness and $S \subseteq T$) $\varphi_p : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ is binary, and whenever
+$$r_1 \Vdash x \in S$$
+and
+$$r_2 \Vdash x \equiv y,$$
+then $\varphi_p(r_1, r_2)$ exists, and
+$$\varphi_p(r_1, r_2) \Vdash y \in T.$$
+
+(d) (Combination of respectfulness and $T \subseteq S$) $\varphi_q : \mathbb{N}^2 \dashrightarrow \mathbb{N}$ is binary, and whenever
+$$r_1 \Vdash x \in T$$
+and
+$$r_2 \Vdash x \equiv y,$$
+then $\varphi_q(r_1, r_2)$ exists, and
+$$\varphi_q(r_1, r_2) \Vdash y \in S.$$
+
+Effective symmetry is obvious from the definition, with $s_{PX}(\langle n, m, p, q \rangle) \coloneqq \langle m, n, q, p \rangle.$
+
+For transitivity, suppose
+$$\langle n, m, p, q \rangle \Vdash S \equiv T$$
+and
+$$\langle n', m', p', q' \rangle \Vdash T \equiv U.$$
+Then whenever
+$$r_1 \Vdash x \in S$$
+and
+$$r_2 \Vdash x \equiv y,$$
+then
+\[
+\begin{array}{rclcrcl}
+n_1 & \Vdash & y \in T, & \quad & n_1 & \coloneqq & \varphi_p(r_1, r_2) \\
+\implies n_2 & \Vdash & y \equiv y, & \quad & n_2 & \coloneqq & \varphi_m(n_1) \\
+\implies n_3 & \Vdash & y \in U, & \quad & n_3 & \coloneqq & \varphi_{p'}(n_1, n_2).
+\end{array}
+\]
+Here, we can show that the composition $(n, m, p, q, n', m', p', q', r_1, r_2) \mapsto n_3$ is a partial recursive function, using the evaluation axiom for the admissible numbering $\varphi$. Now, using the currying axiom for $\varphi$, we can show there is a full recursive function $t_2 : \mathbb{N}^8 \to \mathbb{N}$ such that $\varphi_{t_2(n, m, p, q, n', m', p', q')}$ is always a binary partial recursive function $\mathbb{N}^2 \dashrightarrow \mathbb{N}$, and $\varphi_{t_2(n, m, p, q, n', m', p', q')}(r_1, r_2)$ gives the same partial function.
+
+A similar proof constructs a full recursive function $t_3 : \mathbb{N}^8 \to \mathbb{N}$ such that whenever
+$$r_1 \Vdash x \in U$$
+and
+$$r_2 \Vdash x \equiv y,$$
+then
+$$\varphi_{t_3(n, m, p, q, n', m', p', q')}(r_1, r_2) \Vdash y \in S.$$
+Then the function
+$$(\langle n, m, p, q \rangle, \langle n', m', p', q' \rangle) \mapsto \langle n, m', t_2(n, m, p, q, n', m', p', q'), t_3(n, m, p, q, n', m', p', q') \rangle$$
+satisfies the required condition for $t_{PX}$.
