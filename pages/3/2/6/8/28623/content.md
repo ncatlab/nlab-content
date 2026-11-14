@@ -1,73 +1,103 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-In [[homotopy type theory]], a fundamental characterization of [[delooping]] is that **any delooping of a group is equivalent to the type of torsors for that group**.
+In [[homotopy type theory]], a fundamental characterization of [[delooping]] is that **the delooping of a [[group]] is [[type equivalence|equivalent]] to the [[type]] of [[torsors]] for that group**:
 
-Let $G$ be a set-level group and let $(BG,\mathrm{pt})$ be a pointed connected $1$-type equipped with a group-compatible identification of its loop space with $G$. Then, up to the appropriate universe-level adjustment, there is an equivalence
+For  $G$ a [[group]] [[internalization|internal]] to [[Set]] ([[0-truncated]] [[types]]) there is (up to appropriate [[universe-level]] adjustment) an [[type equivalence|equivalence]]
 
-$$
-BG\simeq \mathrm{GTors}_L(G).
-$$
-
-Here $\mathrm{GTors}_L(G)$ denotes the moduli type of left $G$-torsors.
-
-The central question is how such an equivalence can be constructed explicitly.
-
-The key observation is that for every point $t:BG$, the path type
 
 $$
-P_t:=(\mathrm{pt}=t)
+  \mathbf{B}G \simeq G\mathrm{Tors}_L(G).
 $$
 
-naturally carries a $G$-torsor structure, where the group acts by path concatenation. This gives a map
+between:
+
+1. the [[delooping groupoid]] $(\mathbf{B} G,\mathrm{pt})$ (a [[pointed type|pointed]] [[connected type|connected]] [[1-type]] equipped with a group-compatible identification of its [[loop space]]/[[identity]] with $G$, $Id_{pt,pt} \mathbf{B}G \simeq G$
+
+2. the [[moduli type]] of left $G$-[[torsors]].
+
+We make this explicit below.
+
+The key observation is that for every [[term]] $t \colon \mathbf{B}G$, the [[path type]]
 
 $$
-BG\to \mathrm{GTors}_L(G),
-\qquad t\mapsto P_t.
+  P_t
+    \coloneqq
+  (\mathrm{pt} = t)
 $$
 
-The theorem asserts that this construction is an equivalence.
+naturally carries a $G$-[[torsor]] [[mathematical structure|structure]], where the group [[group action|acts]] by path [[concatenation]]. This gives a [[function]]
 
-This characterization reveals a relationship between algebraic symmetries and identity types: the group structure of $G$ is represented by loops in $BG$, while the points of $BG$ can be recovered as torsors for those symmetries.
+$$
+  \begin{array}{ccc}
+    \mathbf{B}G &\longrightarrow& G\mathrm{Tors}_L(G)
+    \\
+    t & \mapsto&  P_t
+    \mathrlap{\,.}
+  \end{array}
+$$
 
-The following sections explain the construction, its mathematical proof, and its realization in [[Cubical Agda]], with explicit references to the machine-checked declarations.
+and the theorem asserts that this function exhibits an [[type equivalence|equivalence]].
+
+This characterization reveals a relationship between algebraic [[symmetries]] and [[identity types]]: the [[group]] [[mathematical structure|structure]] of $G$ is represented by loops in $\mathbf{B}G$, while the points of $\mathbf{B}G$ can be recovered as torsors for those symmetries.
+
+The following sections explain the construction, its mathematical proof, and its implementation in [[Cubical Agda]], with explicit references to the machine-checked declarations.
 
 ## Construction
 
 ### Left torsors
 
-Let $G$ be a group whose underlying type is a set. A left $G$-action on a set $X$ is an operation
+Let $G$ be a [[group]] whose [[underlying]] [[type]] is a [[set]] (meaning: an [[h-set]]). A left $G$-[[group action|action]] on a set $X$ is an operation
 
 $$
-G\times X\to X,\qquad (g,x)\mapsto g\cdot x
+  \begin{array}{ccc}
+    G\times X &\longrightarrow& X
+    \\
+    (g,x) &\mapsto& g\cdot x
+  \end{array}0
 $$
 
-satisfying the usual unit and associativity laws.
+satisfying the usual [[unitality|unit]] and [[associativity]] laws.
 
-For $x,y:X$, define the type of transporters by
-
-$$
-\operatorname{Trans}_G(x,y)
-:=
-\sum_{g:G}(g\cdot x=y).
-$$
-
-A left $G$-torsor is a left action such that
+For $x,y:X$, define the *type of transporters* by
 
 $$
-\|X\|_{-1}
+  \operatorname{Trans}_G(x,y)
+  \coloneqq
+  \sum_{g:G}(g\cdot x=y).
+$$
+
+A *left $G$-torsor* is a left action such that
+
+$$
+  \|X\|_{-1}
 $$
 
 and
 
 $$
-\prod_{x:X}\prod_{y:X}
-\operatorname{isContr}(\operatorname{Trans}_G(x,y)).
+  \prod_{x:X}\prod_{y:X}
+  \operatorname{isContr}(\operatorname{Trans}_G(x,y)).
 $$
 
-The first condition asserts mere inhabitation without selecting a distinguished element. The second says that every pair of points admits a unique transporter.
+The first condition asserts mere [[inhabited type|inhabitation]] without selecting a distinguished element. The second says that every pair of points admits a unique transporter.
 
 For any chosen $x:X$, the orbit map
 
@@ -85,7 +115,7 @@ The **regular left torsor** is $G$ itself, equipped with left multiplication.
 Fix a univalent universe of small sets. Let
 
 $$
-\mathrm{GTors}_L(G)
+  G\mathrm{Tors}_L(G)
 $$
 
 denote the type of small left $G$-torsors.
@@ -103,14 +133,14 @@ Hence identity paths in the moduli type encode the symmetries of torsor structur
 The regular left torsor determines a distinguished point
 
 $$
-T_{\mathrm{reg}}:\mathrm{GTors}_L(G).
+T_{\mathrm{reg}}: G\mathrm{Tors}_L(G).
 $$
 
 ## Delooping properties
 
 ### Connectedness and truncation
 
-The moduli type $\mathrm{GTors}_L(G)$ is connected.
+The moduli type $G\mathrm{Tors}_L(G)$ is connected.
 
 Indeed, any torsor $T$ is merely inhabited. Given a temporary choice $x:T$, the orbit map gives an equivariant equivalence between the regular torsor and $T$. The structure identity principle turns this into a path
 
@@ -120,7 +150,7 @@ $$
 
 Since connectedness requires only the propositional truncation of this path, the choice of $x$ can be eliminated.
 
-Moreover, $\mathrm{GTors}_L(G)$ is a $1$-type. By the structure identity principle, its identity types are equivalent to types of equivariant equivalences between sets, which are themselves sets.
+Moreover, $G\mathrm{Tors}_L(G)$ is a $1$-type. By the structure identity principle, its identity types are equivalent to types of equivariant equivalences between sets, which are themselves sets.
 
 Thus the moduli of torsors is a pointed connected $1$-type.
 
@@ -129,7 +159,7 @@ Thus the moduli of torsors is a pointed connected $1$-type.
 At the regular basepoint, the loop type is
 
 $$
-\Omega(\mathrm{GTors}_L(G),T_{\mathrm{reg}})
+\Omega(G\mathrm{Tors}_L(G),T_{\mathrm{reg}})
 \simeq
 \operatorname{Aut}_G(T_{\mathrm{reg}}).
 $$
@@ -161,7 +191,7 @@ $$
 Combining these equivalences yields
 
 $$
-\Omega(\mathrm{GTors}_L(G),T_{\mathrm{reg}})
+\Omega(G\mathrm{Tors}_L(G),T_{\mathrm{reg}})
 \simeq G.
 $$
 
@@ -180,16 +210,16 @@ This explains how the multiplication of $G$ is represented by composition of ide
 
 The central result of the torsor delooping construction is that **any delooping of a group is equivalent to the type of torsors for that group**.
 
-This is the content of Lemma 5.8 in Myers--Sati--Schreiber, *Topological Quantum Gates in Homotopy Type Theory*.
+This is the content of [Myers, Sati & Schreiber 2024, Lem 5.8](#MyersSatiSchreiber2024)
 
 ### Statement
 
 **Lemma (Any delooping is equivalent to the type of torsors).**
 
-Let $G$ be a group, and let $(BG,\mathrm{pt})$ be a delooping of $G$: a pointed connected $1$-type equipped with a looping equivalence
+Let $G$ be a group, and let $(\mathbf{B}G,\mathrm{pt})$ be a delooping of $G$: a pointed connected $1$-type equipped with a looping equivalence
 
 $$
-\ell:\Omega_{\mathrm{pt}}BG\simeq G
+\ell:\Omega_{\mathrm{pt}}\mathbf{B}G\simeq G
 $$
 
 compatible with the group structures.
@@ -197,29 +227,29 @@ compatible with the group structures.
 Then the assignment
 
 $$
-F:BG\to\mathrm{GTors}_L(G),
+F : \mathbf{B}G\to G\mathrm{Tors}_L(G),
 \qquad
 t\mapsto
-\operatorname{Id}_{BG}(\mathrm{pt},t)
+\operatorname{Id}_{\mathbf{B}G}(\mathrm{pt},t)
 $$
 
-defines an equivalence between $BG$ and the type of left $G$-torsors.
+defines an equivalence between $\mathbf{B}G$ and the type of left $G$-torsors.
 
 The group action on the identity type is induced by concatenation of identifications, using the inverse of the given looping equivalence.
 
 ### Construction of the group action
 
-Fix a point $t:BG$, and define
+Fix a point $t:\mathbf{B}G$, and define
 
 $$
-P_t:=\operatorname{Id}_{BG}(\mathrm{pt},t).
+P_t:=\operatorname{Id}_{\mathbf{B}G}(\mathrm{pt},t).
 $$
 
 Given $g:G$, the inverse looping equivalence determines a loop
 
 $$
 \ell^{-1}(g):
-\operatorname{Id}_{BG}(\mathrm{pt},\mathrm{pt}).
+\operatorname{Id}_{\mathbf{B}G}(\mathrm{pt},\mathrm{pt}).
 $$
 
 Concatenation with this loop defines the action
@@ -246,7 +276,7 @@ We first verify that $P_t$ is a left $G$-torsor.
 
 **Mere inhabitation.**
 
-Since $BG$ is connected, for every $t:BG$ there merely exists an identification from $\mathrm{pt}$ to $t$:
+Since $\mathbf{B}G$ is connected, for every $t:\mathbf{B}G$ there merely exists an identification from $\mathrm{pt}$ to $t$:
 
 $$
 \|P_t\|_{-1}.
@@ -259,7 +289,7 @@ This establishes the inhabitation condition without choosing a distinguished pat
 Let
 
 $$
-p,q:\operatorname{Id}_{BG}(\mathrm{pt},t).
+p,q:\operatorname{Id}_{\mathbf{B}G}(\mathrm{pt},t).
 $$
 
 We wish to construct a group element $g:G$ satisfying
@@ -341,19 +371,19 @@ $$
 defines a map
 
 $$
-F:BG\to\mathrm{GTors}_L(G).
+F:\mathbf{B}G\to G\mathrm{Tors}_L(G).
 $$
 
 It remains to prove that $F$ is an equivalence.
 
-The source $BG$ is a pointed connected $1$-type by assumption. The type of left $G$-torsors is also a pointed connected $1$-type, with the regular torsor as its distinguished point.
+The source $\mathbf{B}G$ is a pointed connected $1$-type by assumption. The type of left $G$-torsors is also a pointed connected $1$-type, with the regular torsor as its distinguished point.
 
 At $t=\mathrm{pt}$, the associated torsor is
 
 $$
 P_{\mathrm{pt}}
 =
-\operatorname{Id}_{BG}(\mathrm{pt},\mathrm{pt}).
+\operatorname{Id}_{\mathbf{B}G}(\mathrm{pt},\mathrm{pt}).
 $$
 
 The looping equivalence identifies this torsor with the regular left $G$-torsor.
@@ -375,7 +405,7 @@ We now apply the fundamental lemma for pointed connected types: a pointed map be
 Consequently,
 
 $$
-BG\simeq\mathrm{GTors}_L(G).
+\mathbf{B}G\simeq G\mathrm{Tors}_L(G).
 $$
 
 This completes the proof of the torsor characterization of deloopings.
@@ -407,9 +437,10 @@ rather than the direction of $\ell$ above. These formulations correspond by inve
 The checked theorem also makes the required universe adjustment explicit:
 
 $$
-\operatorname{Lift}_{\ell+1}(BG)
-\simeq
-\mathrm{GTors}_L(G).
+  \operatorname{Lift}_{\ell+1}(\mathbf{B}G)
+  \simeq
+  G\mathrm{Tors}_L(G)
+  \mathrlap{\,.}
 $$
 
 This is an equivalence of underlying types. The basepoint comparison is checked separately; no additional pointed-equivalence or group-isomorphism package is claimed.
@@ -448,18 +479,33 @@ This development formalizes the set-level homotopy-theoretic construction. It do
 ## Related concepts
 
 * [[torsor]]
+
 * [[group action]]
+
 * [[delooping]]
+
 * [[classifying space]]
+
 * [[homotopy type theory]]
+
 * [[univalence]]
+
 * [[structure identity principle]]
+
 * [[Eilenberg-Mac Lane space]]
 
 ## References
+ {#References}
 
-* D. J. Myers, H. Sati, U. Schreiber, *Topological Quantum Gates in Homotopy Type Theory*, Communications in Mathematical Physics 405 (2024), especially the discussion of torsor deloopings and path torsors. [arXiv:2303.02382](https://arxiv.org/abs/2303.02382).
+* {#MyersSatiSchreiber2024} [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]]; §5.2, esp. Lem. 5.5--5.8 of: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) &lbrack;[doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8), [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
 
-* The [Cubical Agda library](https://github.com/agda/cubical), providing univalence, the structure identity principle, higher inductive Eilenberg--Mac Lane types, and connected-type equivalence results.
+* The [Cubical Agda library](https://github.com/agda/cubical), 
+  > providing [[univalence]], the [[structure identity principle]], [[higher inductive type|higher inductive]] [[Eilenberg--Mac Lane types]], and [[connected type]] equivalence results
 
-* H. Wang, *Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization*, 2026, draft in preparation. Associated source: [Topological Quantum Programming in Cubical Agda](https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda).
+* [[Hongwei Wang]]: *Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization*, draft in preparation (2026) &lbrack;[github](https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda)&rbrack;
+
+[[!redirects deloopings via torsors]]
+
+[[!redirects torsor delooping]]
+[[!redirects torsor deloopings]]
+
