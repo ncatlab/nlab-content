@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -39,6 +39,8 @@ This may be understood as the "[[delooping]]" of $G$ in the ambient [[(infinity,
 
 * [[pointed connected groupoid]]
 
+* [[delooping via torsors]]
+
 ## References
 
 For more see at 
@@ -47,5 +49,6 @@ For more see at
 
 [[!redirects delooping groupoids]]
 
-
+[[!redirects delooping stack]]
+[[!redirects delooping stacks]]
 
