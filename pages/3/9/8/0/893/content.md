@@ -31,6 +31,7 @@ Other considerations such as the [[internal logic]] of [[categories]] also led t
 
 There are other principles that are often associated with classical logic, which still seemed self-evident at a time, but maybe less so than the principle of excluded middle. One such is the [[set theory|set-theoretic]] _[[axiom of choice]]_ or one of its equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, includes both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
 
+Similarily to how [[intuitionistic logic]] can be computationally interpreted with simply typed [[lambda-calculus]], classical logic can be computationally interpreted with [[lambda-mu-calculus]].
 
 ## Details
 
