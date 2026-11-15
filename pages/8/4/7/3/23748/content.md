@@ -789,7 +789,7 @@ The above statements make adiabatic transport of gapped ground states a means fo
 
 The original formulation:
 
-* {#BornFock28} [[Max Born]], [[Vladimir A. Fock]]: *Beweis des Adiabatensatzes*, Zeitschrift für Physik **51** (1928) 165-180 &lbrack;[doi:10.1007/BF01343193](https://doi.org/10.1007/BF01343193)&rbrack;
+* {#BornFock28} [[Max Born]], [[Vladimir A. Fock]]: *Beweis des Adiabatensatzes*, Zeitschrift für Physik **51** (1928) 165--180 &lbrack;[doi:10.1007/BF01343193](https://doi.org/10.1007/BF01343193)&rbrack;
 
 * {#Kato50} [[Tosio Kato]]: *On the Adiabatic Theorem of Quantum Mechanics*, J. Phys. Soc. Jpn. **5** (1950) 435-439 &lbrack;[doi:10.1143/JPSJ.5.435](https://doi.org/10.1143/JPSJ.5.435)&rbrack;
 
