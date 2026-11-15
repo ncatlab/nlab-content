@@ -9,9 +9,8 @@
 =--
 =--
 
-# Line integrals
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -140,3 +139,7 @@ See also
 
 [[!redirects contour integration]]
 [[!redirects contour integrations]]
+
+[[!redirects contour]]
+[[!redirects contours]]
+
