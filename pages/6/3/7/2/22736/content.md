@@ -69,3 +69,6 @@ Streamlined [[effective field theory]] for [[Fermi liquids]] using the [[coadjoi
 [[!redirects Fermi liquid]]
 [[!redirects Fermi liquids]]
 
+[[!redirects Fermi energy]]
+[[!redirects Fermi energies]]
+
