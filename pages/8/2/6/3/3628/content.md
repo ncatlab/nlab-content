@@ -118,3 +118,8 @@ Relation to the [[Magnus expansion]]:
 
 [[!redirects time-ordered exponential]]
 [[!redirects time-ordered exponentials]]
+
+[[!redirects path-ordered exponential]]
+[[!redirects path-ordered exponentials]]
+
+
