@@ -13,9 +13,10 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
+
 
 ## Definition
 
@@ -96,3 +97,6 @@ See also:
 
 [[!redirects unitary linear map]]
 [[!redirects unitary linear maps]]
+
+[[!redirects unitary equivalence]]
+[[!redirects unitary equivalences]]
