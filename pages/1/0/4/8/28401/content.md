@@ -53,7 +53,7 @@ For $|m|=1$ with $n\geq 3$, Furata's theorem is exactly Donaldson's prior work. 
 The indefinite even intersection form $\pm 4E_8\oplus 5H$ isn't the [[intersection form]] of a [[oriented]] [[closed manifold|closed]] [[smooth manifold|smooth]] [[4-manifold]].
 \end{proposition}
 
-([Scorpan 05, p. 248](#Scorpan05))
+([Furuta & Kametani & Matsue 01](#FurutaKametaniMatsue01) [Scorpan 05, p. 248](#Scorpan05))
 
 ## Related entries
 
@@ -61,7 +61,9 @@ The indefinite even intersection form $\pm 4E_8\oplus 5H$ isn't the [[intersecti
 
 ## References
 
-* {#Furuta95} [[Mikio Furuta]]: *Monopole Equation and the 11/8-Conjecture*, Mathematical Research Letters **8** (2001) 279-291 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a5](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
+* {#Furuta95} [[Mikio Furuta]]: *Monopole Equation and the 11/8-Conjecture*, Mathematical Research Letters **8** 3 (2001) 279-291 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a5](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
+
+* {#FurutaKametaniMatsue01} [[Mikio Furuta]], [[Yukio Kametani]], [[Hirofumi Matsue]]: *Spin $4$-manifolds with signature $=-32$*, Mathematical Research Letters **8** 3 (2001) 293-301 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a6](https://doi.org/10.4310/MRL.2001.v8.n3.a6)&rbrack;
 
 * {#Scorpan05} [[Alexandru Scorpan]], _The Wild World of 4-Manifolds_, American Mathematical Society (2005) &lbrack;[ISBN 978-1470468613](https://bookstore.ams.org/fourman)&rbrack;
 
