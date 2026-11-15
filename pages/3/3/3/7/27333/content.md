@@ -15,4 +15,8 @@ Inroducing the [Furuta-Bauer invariants](Seiberg-Witten+theory#ReferencesSeiberg
 
 * {#FurutaKametaniMatsueMinami07} [[Mikio Furuta]], Yukio Kametani, Hirofumi Matsue, Norihiko Minami: *Homotopy theoretical considerations of the Bauer–Furuta stable homotopy Seiberg–Witten invariants*, Geometry and Topology Monographs **10** (2007) 155-166 &lbrack;[doi:10.2140/gtm.2007.10.155](http://dx.doi.org/10.2140/gtm.2007.10.155), [arXiv:0903.4462](https://arxiv.org/abs/0903.4462)&rbrack;
 
+Proof of a special case of the [[11/8 conjecture]]:
+
+* {#FurutaKametaniMatsue01} [[Mikio Furuta]], [[Yukio Kametani]], [[Hirofumi Matsue]]: *Spin $4$-manifolds with signature $=-32$*, Mathematical Research Letters **8** 3 (2001) 293-301 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a6](https://doi.org/10.4310/MRL.2001.v8.n3.a6)&rbrack;
+
 category: people
