@@ -43,9 +43,9 @@ $$\Delta = \alpha : A, \beta : B, \gamma : C, \dots$$
 
 The usual lambda calculus rules stay the same by simply ignoring $\Delta$. For example lambda abstraction is the same.
 
-$$\frac{\Gamma, a : A; \Delta \vdash b : B}{\Gamma \vdash \lambda a . b : A \to B}$$
+$$\frac{\Gamma, a : A; \Delta \vdash b : B}{\Gamma ; \Delta \vdash \lambda a . b : A \to B}$$
 
-But the calculus has some additional rules added. For example given a an element $t : A$ and a continuation $\alpha : A$ one can pass $t$ into $\alpha$ and it will jump somewhere else in the program giving $[\alpha]a : \bot$.
+But the calculus has some additional rules added. For example given a an element $t : A$ and a continuation $\alpha : A$ one can pass $t$ into $\alpha$ and it will jump somewhere else in the program giving $[\alpha]t : \bot$.
 
 $$\frac{\Gamma; \Delta, \alpha : A\vdash t : A}{\Gamma; \Delta, \alpha : A \vdash [\alpha] t : \bot}$$
 
