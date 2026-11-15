@@ -49,7 +49,7 @@ Since then,
 
 * {#Barkan22} [[Shaul Barkan]], [[Rune Haugseng]], [[Jan Steinebrunner]], _Envelopes for Algebraic Patterns_, (2022) ([arXiv:2208.07183](https://arxiv.org/abs/2208.07183))
 
-[[!redirects indexed coproducs]]
+[[!redirects indexed coproducts]]
 
 [[!redirects indexed product]]
 [[!redirects indexed products]]
