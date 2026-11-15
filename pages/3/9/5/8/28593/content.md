@@ -32,8 +32,9 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 **G**
 
-* {#GroupPresentationPushout} [[nLab materials]]: *Group Presentations as Homotopy Pushouts: A Cubical Agda Formalization* (2026-11-11) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/main/papers/GroupPresentations/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/main/src/GroupPresentation">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda">GitHub</a>&rbrack;
-  > (on [[group presentations as homotopy pushouts]]; Cubical Agda type-checked)
+* {#GroupPresentationPushout} [[nLab materials]]: *Group Presentations as Homotopy Pushouts: A Cubical Agda Formalization* (2026-11-11) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/group-presentation-v0.1/papers/GroupPresentations/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/group-presentation-v0.1/src/GroupPresentation">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/group-presentation-v0.1">GitHub</a>&rbrack;
+ > (on [[group presentations as homotopy pushouts]]; Cubical Agda type-checked)
+
 
 **H**
 
@@ -66,6 +67,15 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 **S**
 
 **T**
+
+
+**T**
+
+* {#TorsorDelooping} [[nLab materials]]: *Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization* (2026-11-15) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/torsor-delooping-v0.1/papers/TorsorDelooping/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/torsor-delooping-v0.1/src/TorsorDelooping">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/torsor-delooping-v0.1">GitHub</a>&rbrack;
+ > (on [[delooping via torsors]]; Cubical Agda type-checked)
+
+**U**
+
 
 **U**
 
