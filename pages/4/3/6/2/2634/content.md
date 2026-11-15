@@ -10,9 +10,8 @@
 =--
 
 
-# Hamiltonians
-* table of contents
-{: toc}
+\tableofcontents
+
 
 Disambiguation: there is an unrelated notion of a Hamilton or Hamiltonian operator also called [[nabla]] in [[vector analysis]]. 
 
@@ -127,3 +126,6 @@ Named after [[William Rowan Hamilton]].
 [[!redirects hamilton operator]]
 [[!redirects Hamilton operators]]
 [[!redirects hamilton operators]]
+
+[[!redirects Schrödinger operator]]
+[[!redirects Schrödinger operators]]
