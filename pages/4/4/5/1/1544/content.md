@@ -13,9 +13,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -458,3 +457,6 @@ Discussion of connection form (mostly on trivial bundles) in [[synthetic differe
 [[!redirects connections on a circle bundle]]
 [[!redirects connections on circle bundles]]
 
+
+[[!redirects connection form]]
+[[!redirects connection forms]]
