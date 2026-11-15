@@ -12,6 +12,12 @@ On [[smooth structures]] on the [[Barlow surface]]:
 
 * {#Kotschick89} [[Dieter Kotschick]], _On manifolds homeomorphic to $\mathbb{C}P^2\#8\overline{\mathbb{C}P^2}$_, Invent. Math. **95** 3, pp. 591-600 (1989) &lbrack;[doi:10.1007/BF01393892](https://link.springer.com/article/10.1007/BF01393892)&rbrack;
 
+On [[fundamental groups]] of [[4-manifolds]]:
+
+* {#Kotschick92a} [[Dieter Kotschick]], _All Fundamental Groups are almost Complex_, Bull. Lond. Math. Soc. **24**  4, pp. 377–378 (July 1992) &lbrack;[doi:10.1112/blms/24.4.377](https://doi.org/10.1112/blms/24.4.377)&rbrack; 
+
+* {#Kotschick92b} [[Dieter Kotschick]], _All Fundamental Groups are almost Contact_, Bull. Lond. Math. Soc. **24** 5, pp. 493-494 (1992) &lbrack;[doi:10.1112/blms/24.5.493](https://doi.org/10.1112/blms/24.5.493)&rbrack;
+
 On [[Seiberg-Witten invariants]] and [[symplectic manifolds]]:
 
 * {#KotschickSWsymplectic95} [[Dieter Kotschick]], _The Seiberg-Witten invariants of symplectic four-manifolds_ (1995) &lbrack;[pdf](https://users.math.msu.edu/users/parker/993Spring11/Kotschick.pdf)&rbrack;
