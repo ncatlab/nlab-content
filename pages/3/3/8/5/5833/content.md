@@ -14,9 +14,9 @@
 =--
 
 
-# The Riesz representation theorems
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Summary
 
@@ -66,6 +66,8 @@ $$ C_0(X)^* \cong RM(X) .$$
 
 
 ## References
+
+Named after [[Frigyes Riesz]]
 
 A proof of Theorem \ref{Cc} in [[constructive mathematics]] (in the case where $X$ is a [[compact Hausdorff space]]) is given in:
 
