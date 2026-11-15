@@ -9,10 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+
+\tableofcontents
 
 ## In quantum mechanics
 
@@ -117,3 +116,5 @@ Relation to the [[Magnus expansion]]:
 
 [[!redirects Dyson series]]
 
+[[!redirects time-ordered exponential]]
+[[!redirects time-ordered exponentials]]
