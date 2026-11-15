@@ -14,9 +14,8 @@
 =--
 
 
-# Analytic functions
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -94,4 +93,11 @@ Textbook accounts:
 [[!redirects analytic functions]]
 [[!redirects analytic map]]
 [[!redirects analytic maps]]
+
 [[!redirects complex analytic]]
+[[!redirects complex analytic function]]
+[[!redirects complex analytic functions]]
+
+[[!redirects real analytic]]
+[[!redirects real analytic function]]
+[[!redirects real analytic functions]]
