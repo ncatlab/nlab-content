@@ -17,6 +17,7 @@
 
 
 ## Idea
+ {#Idea}
 
 In [[solid state physics]], *Bloch's theorem* ([Bloch 1929](#Bloch29)) says that the [[energy]] [[eigenstates]] of a single [[electron]] in a [[crystal]] --- hence of a [[Schrödinger operator]] with [[periodic function|periodic]] [[potential energy|potential]] --- may be chosen to be *Bloch waves* (*Bloch states*): [[plane waves]] $e^{i k \cdot x}$ modulated by a [[function]] $u_k$ which is periodic with respect to the crystal [[lattice]] $\Lambda$:
 
@@ -38,9 +39,19 @@ Conceptually, Bloch's theorem is an instance of [[harmonic analysis]] on the [[a
 
 For *tight-binding models* with $N$ orbitals per unit cell (Def. \ref{TightBindingHamiltonian}, Rem. \ref{TerminologyTightBinding}) the Bloch Hamiltonian is simply a map from the [[Brillouin torus]] to the space of [[Hermitian matrix|Hermitian]] $N \times N$ [[matrices]] (Prop. \ref{BlochTheoremForTightBindingModels}), which is the more regular the more local the hopping is (Prop. \ref{RegularityOfBlochHamiltonians}). The condition that the crystal is a band [[insulator]] means that these maps take values in the subspace of Hermitian matrices with a [[spectral gap]] at the [[Fermi energy]], which is [[homotopy equivalence|homotopy equivalent]] to a [[disjoint union]] of [[Grassmannians]] (Prop. \ref{SpaceOfGappedBlochHamiltonians}). Therefore deformation classes of gapped Bloch Hamiltonians are classified by the [[topological K-theory]] of the [[Brillouin torus]], which is the starting point of the [[K-theory classification of topological phases of matter]] (Rem. \ref{KTheoryClassification}).
 
+
 The tight-binding case captures the general situation of a [[Schrödinger operator]] with periodic potential (Prop. \ref{BlochFloquetDecomposition}) restricted to an isolated family of bands, at least whenever the corresponding *Bloch bundle* over the [[Brillouin torus]] is [[trivial bundle|trivializable]], as is automatic in the presence of [[time-reversal symmetry]] in [[dimension]] $d \leq 3$ (Prop. \ref{TrivialityOfBlochBundles}, Prop. \ref{ReductionToTightBinding}, Rem. \ref{BlochHamiltoniansOfElectronsInCrystals}).
 
-The analogous statement with spatial translations replaced by time translations, hence for Hamiltonians periodic in time, is the theorem of [[Floquet theory]] ([Floquet 1883](#Floquet1883)), which historically predates Bloch's theorem; hence one also speaks of *Bloch-Floquet theory*.
+The analogous statement with spatial t0ranslations replaced by time translations, hence for Hamiltonians periodic in time, is the theorem of [[Floquet theory]] ([Floquet 1883](#Floquet1883)), which historically predates Bloch's theorem; hence one also speaks of *Bloch-Floquet theory*.
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="/nlab/files/BlochTheoremSchematics_26-11-15.png" width="850"/>
+</div>
+<small>
+  Under Bloch's theorem, the Hamiltonian of a single electron in a crystal lattice is decomposed into one Bloch Hamiltonian of internal orbital motion per plane wave vector k ranging over the Brillouin torus of electron quasimomenta in the crystal. The result is a map from the Brillouin torus to the space of accessible internal Bloch Hamiltonians.
+</small>
+</center>
 
 
 ## Statement
