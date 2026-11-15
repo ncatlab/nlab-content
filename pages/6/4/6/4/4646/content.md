@@ -13,12 +13,23 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-A [[connection on a bundle]] $\nabla$ for $\pi : P \to X$ a $G$-[[principal bundle]] encodes data that assigns to each path $\gamma : [0,1] \to X$ a [[homomorphism]]
-$$tra_\nabla(\gamma) : P_{\gamma(0)} \to P_{\gamma(1)}$$
-between the [[fiber|fibers]] of the bundle, such that this assignment depends well (e.g. smoothly) on the choice of path and is compatible with composition of paths.
+A [[connection on a bundle]], $\nabla$, induces an assignment to each [[path]] $\gamma : [0,1] \to X$ in the base space $X$ of a [[homomorphism]]
+$$tra_\nabla(\gamma) \colon P_{\gamma(0)} \to P_{\gamma(1)}$$
+between the [[fibers]] of the [[bundle]] $P$ over $X$, such that this assignment depends well (e.g. smoothly) on the choice of path and is compatible with composition of paths.
 
-This assignment is called the _parallel transport_ of the connection.
+This assignment is called the _parallel transport_ of the connection. Along closed paths ([[loops]]) it is also called the *[[holonomy]]* of the connection. For [[flat connections]] one also says that it exhibits a *[[local system]]* of [[fibers]] over $X$.
+
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="/nlab/files/ParellelVectorTransport_26-11-15.png" width="600"/>
+</div>
+<small>
+  The <em>parallel transport</em> of a connection on a vector bundle assigns a vector space fiber to each point in the base and a linear map between the endpoint fibers to any path between these points, compatible with composition and the identity for constant paths. For closed paths (loops) this parallel transport is an endomorphism of the base point fiber then also called <em>holonomy</em>.
+</small>
+</center>
 
 
 ### The idea of parallelism
