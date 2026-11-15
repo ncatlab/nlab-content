@@ -11,15 +11,15 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
 A [[vector space]]/[[module]] over the [[field]] of [[complex numbers]].
 
 ## Related concepts
+
+* [[complex Hilbert space]]
 
 * [[rational vector space]]
 
