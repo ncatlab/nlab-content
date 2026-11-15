@@ -24,7 +24,7 @@
 
 A Hilbert space is (see Def. \ref{HilbertSpace} for details):
 
-1. a ([[real vector space|real]] or,  usually, [[complex vector space|complex]]) [[vector space]], possibly of infinite [[dimension of a vector space|dimension]],
+1. a ([[real vector space|real]] or,  usually, [[complex Hilbert space|complex]]) [[vector space]], possibly of infinite [[dimension of a vector space|dimension]],
 
 1. equipped with a positive definite [[Hermitian form|Hermitian]] [[inner product]], 
 
