@@ -6,13 +6,13 @@ $$
 \frac{d(f\circ\gamma)}{dt} |_{t=0} = 0.
 $$
 
-The critical point is **regular** if for one (or equivalently any) chart $\phi : U^{\open}\to \mathbb{R}^n$, where $p\in U$ and $\phi(p) = 0\in \mathbb{R}^n$, the Hessian matrix
+The critical point is **nondegenerate** if for one (or equivalently any) chart $\phi : U^{\open}\to \mathbb{R}^n$, where $p\in U$ and $\phi(p) = 0\in \mathbb{R}^n$, the Hessian matrix
 
 $$\left(\frac{\partial^2 (f\circ \phi^{-1})}{\partial x^i\partial x^j}|_{0}\right)_{ij} $$
 
 is a nondegenerate (i.e. maximal rank) matrix.  
 
-The **Morse lemma** states that for any regular critical point $p$ of $f$ there is a chart $\phi: U\to \mathbb{R}^n$ around $p$ such that the function in these coordinates is quadratic:
+The **Morse lemma** states that for any nondegenerate critical point $p$ of $f$ there is a chart $\phi: U\to \mathbb{R}^n$ around $p$ such that the function in these coordinates is quadratic:
 
 $$(f\circ\phi^{-1})(x^1,\ldots,x^n) = f(p) +\sum_{i=1}^k x_i^2 - \sum_{j=k+1}^n x_j^2$$
 
