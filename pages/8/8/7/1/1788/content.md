@@ -11,6 +11,9 @@
 \linebreak
 
 
+## New Pathways to Topological Order
+
+
 **[[quantum adiabatic transport]]**
 
 <center>
@@ -55,6 +58,18 @@
 <img src="/nlab/files/BlochTheoremSchematics_26-11-15.png" width="950"/>
 </div>
 </center>
+
+\linebreak
+\linebreak
+
+**[[Bloch's theorem|Bloch]] [[Hopfions]]**
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="/nlab/files/BlochHopfion_26-11-15.png" width="800"/>
+</div>
+</center>
+
 
 \linebreak
 \linebreak
