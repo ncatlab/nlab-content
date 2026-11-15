@@ -60,6 +60,7 @@ This characterization reveals a relationship between algebraic [[symmetries]] an
 
 The following sections explain the construction, its mathematical proof, and its implementation in [[Cubical Agda]], with explicit references to the machine-checked declarations.
 
+
 ## Construction
 
 ### Left torsors
@@ -71,7 +72,7 @@ $$
     G\times X &\longrightarrow& X
     \\
     (g,x) &\mapsto& g\cdot x
-  \end{array}0
+  \end{array}
 $$
 
 satisfying the usual [[unitality|unit]] and [[associativity]] laws.
@@ -79,34 +80,52 @@ satisfying the usual [[unitality|unit]] and [[associativity]] laws.
 For $x,y:X$, define the *type of transporters* by
 
 $$
-  \operatorname{Trans}_G(x,y)
+  \mathrm{Trans}_G(x,y)
   \coloneqq
   \sum_{g:G}(g\cdot x=y).
 $$
 
-A *left $G$-torsor* is a left action such that
-
-$$
-  \|X\|_{-1}
-$$
-
-and
+A *left $G$-[[torsor]]* is a left action on a set $X$ equipped with a term of type $\|X\|_{-1}$ and a proof of
 
 $$
   \prod_{x:X}\prod_{y:X}
-  \operatorname{isContr}(\operatorname{Trans}_G(x,y)).
+  \operatorname{isContr}(\mathrm{Trans}_G(x,y)).
 $$
 
-The first condition asserts mere [[inhabited type|inhabitation]] without selecting a distinguished element. The second says that every pair of points admits a unique transporter.
+The first condition $\|X\|_{-1}$ asserts mere [[inhabited type|inhabitation]] without selecting a distinguished element. The second says that every pair of points admits a unique transporter; one should verify that this is indeed the HoTT presentation of [[free action|free]] and [[transitive group action|transitive]].
 
 For any chosen $x:X$, the orbit map
 
 $$
-\operatorname{orb}_x:G\to X,
-\qquad g\mapsto g\cdot x
+  \begin{array}{ccc}
+    G &\longrightarrow& X
+    \\
+    g &\mapsto& g\cdot x
+  \end{array}
 $$
 
-is an equivalence. Thus a choice of origin identifies a torsor with the group, but this identification is not part of the torsor structure.
+is an [[equivalence]]. Given $y:X$, consider the [[fiber]] of the orbit map over $y$:
+
+$$
+\begin{aligned}
+\mathrm{fib}_{\mathrm{orb}_x}(y)
+  &= \sum_{g:G}(\mathrm{orb}_x(g)=y) \\
+  &= \sum_{g:G}(g\cdot x=y) \\
+  &= \mathrm{Trans}_G(x,y).
+\end{aligned}
+$$
+
+In [[homotopy type theory]], a function is an equivalence if and only if every fiber is [[contractible type|contractible]]. Therefore we have
+
+$$
+\left(
+\prod_{y:X}\operatorname{isContr}(\mathrm{Trans}_G(x,y))
+\right)
+\to
+\operatorname{isEquiv}(\mathrm{orb}_x).
+$$
+
+Thus a choice of origin identifies a torsor with the group, but this identification is not part of the torsor structure.
 
 The **regular left torsor** is $G$ itself, equipped with left multiplication.
 
