@@ -79,6 +79,10 @@ For a generalization to _virtual_ ultracategories, a categorification of [[ rela
 
 * {#HamadGen} Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack;
 
+For an analogue of virtual ultracategories based on filters rather than ultrafilters:
+
+* Gabriel Saadia, Umberto Tarantino, *Categorified convergence: dropping the 'ultra' from 'virtual ultracategories'* &lbrack;[arXiv:2611.08124](https://arxiv.org/abs/2611.08124)&rbrack;
+
 
 For a different notion of ultracategory:
 
