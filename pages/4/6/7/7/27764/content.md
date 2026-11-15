@@ -18,6 +18,11 @@ Introducing the concept of [[anomalous velocity]] for movement of [[electron]] s
 
 * Ganesh Sundaram, [[Qian Niu]]: *Wave-packet dynamics in slowly perturbed crystals: Gradient corrections and Berry-phase effects*, Rev. B **59** (1999) 14915 &lbrack;[doi:10.1103/PhysRevB.59.14915](https://doi.org/10.1103/PhysRevB.59.14915)&rbrack;
 
+On [[Berry phases]] and the [[quantum adiabatic theorem]]:
+
+* {#BMKNZ03} Arno Bohm, Ali Mostafazadeh, Hiroyasu Koizumi, [[Qian Niu]], Joseph Zwanziger: *The Geometric Phase in Quantum Systems*, Texts and Monographs in Physics, Springer (2003) &lbrack;[doi:10.1007/978-3-662-10333-3](https://doi.org/10.1007/978-3-662-10333-3)&rbrack;
+
+
 Review of this, the induced [[anomalous Hall effect]] and other [[Berry phase]]-effects on [[electrons]] in [[solid state physics]]:
 
 * Di Xiao, Junren Shi, [[Qian Niu]]: *Berry phase correction to electron density of states in solids*, Phys. Rev. Lett. **95** (2005) 137204 &lbrack;[arXiv:cond-mat/0502340](https://arxiv.org/abs/cond-mat/0502340), [doi:10.1103/PhysRevLett.95.137204](https://doi.org/10.1103/PhysRevLett.95.137204)&rbrack;
