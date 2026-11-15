@@ -936,3 +936,10 @@ References which make explicit that the standard model of [[topological quantum 
 
 [[!redirects adiabatic theorem]]
 [[!redirects adiabatic theorems]]
+
+[[!redirects quantum adiabatic transport]]
+[[!redirects quantum adiabatic transports]]
+
+[[!redirects adiabatic quantum transport]]
+[[!redirects adiabatic quantum transports]]
+
