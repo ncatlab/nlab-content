@@ -11,34 +11,90 @@
 \linebreak
 
 
-## New Pathways to Topological Order
+\linebreak
+\linebreak
+
+
+\linebreak
+\linebreak
+
+**New Pathways to Topological Order**
+
+
+\linebreak
+\linebreak
+
+
+\tableofcontents
+
+
+\linebreak
+\linebreak
+
+
+\linebreak
+\linebreak
+
+\linebreak
+\linebreak
+
+
+### Motivation
+
+\linebreak
+
+**[the decoding bottleneck](quantum+error+correction#IdeaOfQECInPractice)**
+
+<center>
+<div style="margin:-0px 0px 00px 0px;">
+<img src="/nlab/files/QEC-Buckets_26-11-04b.png" width="760">
+</div>
+</center>
+
+\linebreak
+\linebreak
+
+\linebreak
+
+### What is Topological Order?
+
+\linebreak
 
 
 **[[quantum adiabatic transport]]**
 
 <center>
 <div style="margin:-20px 0px -10px 00px;">
-<img src="/nlab/files/ParellelVectorTransport_26-11-15.png" width="600"/>
+<img src="/nlab/files/ParellelVectorTransport_26-11-16.png" width="750"/>
 </div>
 </center>
 
+
+
 \linebreak
 \linebreak
+\linebreak
+
 
 **[[holonomy]]**, **[[homotopy]]**, **[[monodromy]]**:
 
-
 <center>
 <div style="margin:-20px 0px -10px 00px;">
-<img src="/nlab/files/HolonomyHomotopyMonodromy_25-11-15.png" width="550"/>
+<img src="/nlab/files/HolonomyHomotopyMonodromy_25-11-15.png" width="650"/>
 </div>
 </center>
 
 \linebreak
 \linebreak
+\linebreak
+
+
+### Standard anyons
+
+\linebreak
+
 
 **[[braiding]]**
-
 
 <center>
 <div style="margin:-20px 0px -10px 00px;">
@@ -48,10 +104,28 @@
 
 
 \linebreak
+
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="/nlab/files/AdiabaticBraidingOfDefects_26-11-16.png" width="830"/>
+</div>
+</center>
+
+
+\linebreak
+\linebreak
 \linebreak
 
-**[[Bloch's theorem]]**
 
+
+### Novel anyons?
+
+\linebreak
+\linebreak
+
+
+**[[Bloch's theorem]]**
 
 <center>
 <div style="margin:-20px 0px -10px 00px;">
@@ -59,8 +133,29 @@
 </div>
 </center>
 
+
 \linebreak
 \linebreak
+\linebreak
+
+
+For 2-band [[fractional Chern insulators]] 
+
+the classifying space of Bloch Hamiltonians 
+
+is the *Bloch sphere* $\mathbb{C}P^1$
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*ZtLUJ7OJJ-mtn5VvBJvUuA.png" width="550"/>
+</div>
+</center>
+
+
+\linebreak
+\linebreak
+\linebreak
+
 
 **[[Bloch's theorem|Bloch]] [[Hopfions]]**
 
@@ -71,6 +166,36 @@
 </center>
 
 
+
+\linebreak
+\linebreak
+\linebreak
+\linebreak
+
+
+**Theorem:** [[schreiber:FQAH Anyons|APL 128 (2026)]]
+
+$$
+  \pi_1\, 
+  Map\big(
+    T^2
+    ,
+    \mathbb{C}P^1
+  \big)
+  \;\simeq\;
+  \text{integer Heisenberg group}
+$$
+
+<center>
+<div style="margin:-20px 0px -10px 00px;">
+<img src="/nlab/files/TorusMonodromy_26-11-16.png" width="500"/>
+</div>
+</center>
+
+
+
+
+\linebreak
 \linebreak
 \linebreak
 
