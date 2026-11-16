@@ -2168,7 +2168,7 @@ $\phantom{-----------}$Tuesday, May 20
 ### Nov 2026
  {#WorkshopsNov2026} 
 
-16 Nov 2026
+{#Symposium2026} 16 Nov 2026
 
 **CQTS Research Symposium 2026**
 
@@ -2177,6 +2177,26 @@ $\phantom{-----------}$Tuesday, May 20
 </center>
 
 
+{#CQTSSymposium2026Materials} *Symposium talk materials:*
+
+* [[Nikita Golub]]: 
+
+  **M-theory and Geometry of Loops
+on the Four Sphere**
+
+  slides: [[Golub_CQTS-Symposium-2026.pdf|pdf:file]]
+
+  cf.: [[schreiber:K from M|arXiv:2609.36048]]
+
+* [[Urs Schreiber]]:
+
+  **New Pathways to Topological Order**
+
+  slides: [[schreiber:CQTS Symposium 2026|web]]
+
+  cf.: [[schreiber:FQAH Anyons|doi:10.1063/5.0305441]]
+
+* ...
 
 \linebreak
 
