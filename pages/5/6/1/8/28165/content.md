@@ -3,6 +3,8 @@ Nikita (Nick) Golub
 
 * [institute page](https://math-cs.spbu.ru/en/people/nikita-golub/) (old, joining NYU AD now)
 
+* [inSpire page](https://inspirehep.net/authors/3208795)
+
 ## Selected writings
 
 On [[fr-codes]]:
@@ -18,6 +20,9 @@ On ([[Sullivan minimal model|minimal models]] in) [[equivariant rational homotop
 On a derivation of [[D-brane charge quantization in K-theory|D-brane charge quantization in]] [[twisted K-theory]] by [[double dimensional reduction]] from [[geometry of physics -- flux quantization|electromagnetic flux quantization]] in [[11D supergravity|11D]] ([[schreiber:Hypothesis H]]):
 
 * [[Nikita Golub]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:K from M|On the Derivation of Twisted K-Theory from M-Theory]]* \[<a href="https://arxiv.org/abs/2609.36048">arXiv:2609.36048</a>\]
+
+* [[Nikita Golub]]: *M-theory and Geometry of Loops on the Four Sphere*, talk at [CQTS Symposium 2026](CQTS#Symposium2026), [[CQTS]] @ NYU Abu Dhabi (Nov 2026) &lbrack;[[Golub_CQTS-Symposium-2026.pdf|pdf:file]]&rbrack;
+
 
 On [[rational homotopy theory]] for [[diagrams]] of [[homotopy type|spaces]] (such as indexed over an [[orbit category]], for [[rational equivariant homotopy theory]]):
 
