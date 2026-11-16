@@ -108,7 +108,7 @@ Problems in [[real-cohesive homotopy type theory]]:
 
 * Assuming the [[axiom of real cohesion]] and crisp [[excluded middle]], does the [[full fan theorem]] hold cohesively? (i.e. is [[Cantor space]] a [[spatial locale]]?)
 
-* What is the $(\infty,1)$-topos theoretic interpretation of the [[axiom of real cohesion]]?
+* How does Shulman's [[axiom of real cohesion]] fit into cohesive topos theory?
 
 * Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s model of [[real-cohesive homotopy type theory]] without resorting to crispness. 
 
