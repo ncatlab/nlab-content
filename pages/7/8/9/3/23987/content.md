@@ -2196,6 +2196,14 @@ on the Four Sphere**
 
   cf.: [[schreiber:FQAH Anyons|doi:10.1063/5.0305441]]
 
+* {#SingSymposium2026} [[Vivek Singh]]:
+
+  **Topological Inspired Entanglement Signals and Quiver Decomposition**
+
+  slides: [[Singh_CQTS-Symposium-2026.pdf|pdf:file]]
+
+  cf.: [arXiv:2611.07455](https://arxiv.org/abs/2611.07455)
+
 * ...
 
 \linebreak
@@ -5316,6 +5324,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 \linebreak
 
 \linebreak
+
 
 
 
