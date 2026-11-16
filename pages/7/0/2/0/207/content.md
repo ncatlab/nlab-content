@@ -19,7 +19,7 @@
 
 ## Disambiguation
 
-in [[logic]], [[higher category theory]], and the [[foundations]] of mathematics, _equality_ is a notion of when two objects of a collection are considered to be the same objects. 
+in [[logic]], [[higher category theory]], and the [[foundations of mathematics]], _equality_ is a notion of when two objects of a collection are considered to be the same objects. 
 
 Here is a list of distinctions between different notions of _equality_, in different contexts, where possibly all the following pairs of notions are, in turn, "the same", just expressed in terms of different terminologies:
 
