@@ -38,6 +38,7 @@ The following lists the center's public activities, notably local events and loc
 \end{imagefromfile}
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -2200,7 +2201,7 @@ on the Four Sphere**
 
   **Topological Inspired Entanglement Signals and Quiver Decomposition**
 
-  slides: [[Singh_CQTS-Symposium-2026.pdf|pdf:file]]
+  slides: [[VSingh_CQTS-Symposium-2026.pdf|pdf:file]]
 
   cf.: [arXiv:2611.07455](https://arxiv.org/abs/2611.07455)
 
