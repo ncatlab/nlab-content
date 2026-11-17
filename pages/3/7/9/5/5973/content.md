@@ -43,12 +43,27 @@ There are, potentially, many different kinds of "2-type theory" with different u
 
 ## References
 
-On 2-type theory:
+On (2,1)-type theory:
 
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+  see also:
+
+  * [[Martin Hofmann]], *The groupoid interpretation of type theory, a personal retrospective*, talk at *[[HoTT at DMV2015]]* (2015) &lbrack;[[HofmannDMV.pdf|slides:file]]&rbrack;
+
+  * Ethan Lewis, Max Bohnet, *The groupoid model of type theory*, seminar notes (2017) &lbrack;[pdf](https://staff.fnwi.uva.nl/b.vandenberg3/Onderwijs/Homotopy_Type_Theory_2017/HoTT-bohnet-lewis-handout.pdf), [[LewisBohnet.GroupoidModelOfTT.pdf:file]]&rbrack;
+
+On 2-type theory:
 
 * [[R.A.G. Seely]], *Modeling computations: a 2-categorical framework*, LICS 1987 ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
 
 * {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
+
+* [[Dan Licata]], Chapters 7 and 8 of: _Dependently Typed Programming with Domain-Specific Logics_, PhD thesis (2011) &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf)&rbrack;
+
+* [[Robert Harper]], [[Dan Licata]]: _2-Dimensional directed type theory_, Mathematical Foundations of Programming Semantics 2011 &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf), [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf)&rbrack;
+
+* [[Robert Harper]], [[Dan Licata]]: _Canonicity for 2-Dimensional Type Theory_, POPL 2012 &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf)&rbrack;
 
 * [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
 
