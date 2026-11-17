@@ -56,7 +56,9 @@ See also the [superspace discussion at $I_8$](I8#WhatIsKnownAndWhatIsOpen).
 
 * {#Soueres18} [[Bertrand Souères]], _Supergravities in Superspace_, doctoral thesis, Lyon (2018) &lbrack;[hal:tel-01998725](https://theses.hal.science/tel-01998725)&rbrack;
 
-* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *[[schreiber:The I8 Project|The $I_8$-Project --- Steps in Computational M-Theory]]* (2026-11-17) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
+
+
 #### Component supersymmetry and the Noether procedure
 {#ComponentSupersymmetryCorrections}
 
