@@ -967,6 +967,7 @@ $$
     $.
 \end{definition}
 
+testing the new nForum
 
 -- comment ?
 // comment ?
