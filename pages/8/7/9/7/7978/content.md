@@ -523,3 +523,6 @@ Related books:
 ### Appendix E. Orbits and Morse-Bott Theory in Compact Lie Groups
 
 category: reference
+
+
+[[!redirects The Geometry of Physics -- An Introduction]]
