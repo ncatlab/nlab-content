@@ -32,6 +32,12 @@ On topos theory and fragments of geometric logic
 
 * [[Ivan Di Liberti]], [[Lingyuan Ye]]: *Logic and concepts in the 2-category of topoi* &lbrack;[arXiv:2504.16690](https://arxiv.org/abs/2504.16690)&rbrack;
 
+* [[Ivan Di Liberti]], [[Lingyuan Ye]]: _Craig interpolation for subgeometric logics_ (2026) &lbrack;[arXiv:2601.11221](https://arxiv.org/abs/2601.11221)&rbrack;
+
+* [[Ivan Di Liberti]], [[Umberto Tarantino]], [[Lingyuan Ye]]: _Conceptual completeness for subgeometric logics_ (2026) &lbrack;[arXiv:2607.02250](https://arxiv.org/abs/2607.02250)&rbrack;
+
+* [[Ivan Di Liberti]], [[Umberto Tarantino]], [[Lingyuan Ye]]: _Logics vs doctrines, a mirror symmetry_ (2026) &lbrack;[arXiv:2610.29771](https://arxiv.org/abs/2610.29771)&rbrack;
+
 More specifically, in [[Higher Topology]] and the  [[Scott adjunction]]:
 
 * [[Ivan Di Liberti]]: *The Scott adjunction* &lbrack;[arXiv:2009.07320](https://arxiv.org/abs/2009.07320)&rbrack;
@@ -45,9 +51,6 @@ More specifically, in [[Higher Topology]] and the  [[Scott adjunction]]:
 Generalizing [[Lawvere theories]] to partial [[algebraic theories]]:
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]]: *Functorial semantics for partial theories* &lbrack;[arXiv:2011.06644](https://arxiv.org/abs/2011.06644)&rbrack;
-
-
-
 
 
 On [[judgements]], [[natural deduction]] and [[dependent type theory]]:
