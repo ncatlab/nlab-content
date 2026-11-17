@@ -25,9 +25,6 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 **E**
 
-* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *Existence Proof of Curvature Corrected 11D Superspace Supergravity* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
-  > ([LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]], so far to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]])
-
 **F**
 
 **G**
@@ -39,6 +36,7 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 **H**
 
 **I**
+
 
 **J**
 
@@ -70,6 +68,10 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 
 **T**
+
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *The $I_8$-Project --- Steps in Computational M-Theory* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
+  > ([LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]] to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]])
+
 
 * {#TorsorDelooping} [[nLab materials]]: *Torsors, Univalence, and Delooping: A Mathematical Companion to a Cubical Agda Formalization* (2026-11-15) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/torsor-delooping-v0.1/papers/TorsorDelooping/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/torsor-delooping-v0.1/src/TorsorDelooping">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/torsor-delooping-v0.1">GitHub</a>&rbrack;
  > (on [[delooping via torsors]]; Cubical Agda type-checked)
