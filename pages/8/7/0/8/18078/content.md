@@ -1,3 +1,4 @@
+
 \begin{tikzpicture}[scale=2, >=latex]
   \usetikzlibrary{decorations.markings}
   \tikzset{mid->/.style={
@@ -966,8 +967,6 @@ $$
         \end{cases}
     $.
 \end{definition}
-
-testing the new nForum
 
 -- comment ?
 // comment ?
