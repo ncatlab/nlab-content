@@ -181,4 +181,5 @@ On higher curvature corrections to [[heterotic supergravity]]:
 [[!redirects higher derivative correction]]
 [[!redirects higher derivative corrections]]
 
-
+[[!redirects R^4 interaction]]
+[[!redirects R^4 interactions]]
