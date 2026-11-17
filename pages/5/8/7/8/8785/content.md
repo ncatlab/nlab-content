@@ -161,7 +161,7 @@ $$
 
 * {#Voisin02} [[Claire Voisin]], section 2.3 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
-* {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+* {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](https://ncatlab.org/nlab/files/MaddockDolbeault09.pdf))
  
 * {#GunningRossi} [[Robert C. Gunning]], [[Hugo Rossi]], *Analytic functions of several complex variables*, Prentice-Hall Inc., Englewood Cliffs (1965) 
 
@@ -170,7 +170,7 @@ $$
 
 A [[formal geometry]] version:
 
-* Shilin Yu, _Dolbeault dga of a formal neighborhood_, [arxiv/1206.5155](http://arxiv.org/abs/1206.5155); _The Dolbeault dga of the formal neighborhood of a diagonal_, [arxiv/1211.1567](http://arxiv.org/abs/1211.1567)
+* Shilin Yu, _Dolbeault dga of a formal neighborhood_, Trans. Amer. Math. Soc. **368** (2016) 7809--7843 &lbrack;[doi:10.1090/tran6646](https://doi.org/10.1090/tran6646), [arxiv/1206.5155](https://arxiv.org/abs/1206.5155)&rbrack;; _The Dolbeault dga of the formal neighborhood of a diagonal_, J. Noncommut. Geom. **9** 1 (2015) 161--184 &lbrack;[doi:10.4171/JNCG/190](https://doi.org/10.4171/jncg/190), [arxiv/1211.1567](https://arxiv.org/abs/1211.1567)&rbrack;
 
 [[!redirects Dolbeault complexes]]
 
