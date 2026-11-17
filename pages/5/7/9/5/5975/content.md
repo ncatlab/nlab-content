@@ -152,6 +152,11 @@ On [[2-categories]] of [[theory|1-theories]]:
 
 * [[Ivan Di Liberti]], [[Lingyuan Ye]]: _Logics and concepts in the 2-category of Topoi_ (2025) &lbrack;[arXiv:2504.16690](http://arxiv.org/abs/2504.16690)&rbrack;
 
+* [[Ivan Di Liberti]], [[Lingyuan Ye]]: _Craig interpolation for subgeometric logics_ (2026) &lbrack;[arXiv:2601.11221](https://arxiv.org/abs/2601.11221)&rbrack;
+
+* [[Ivan Di Liberti]], [[Umberto Tarantino]], [[Lingyuan Ye]]: _Conceptual completeness for subgeometric logics_ (2026) &lbrack;[arXiv:2607.02250](https://arxiv.org/abs/2607.02250)&rbrack;
+
+* [[Ivan Di Liberti]], [[Umberto Tarantino]], [[Lingyuan Ye]]: _Logics vs doctrines, a mirror symmetry_ (2026) &lbrack;[arXiv:2610.29771](https://arxiv.org/abs/2610.29771)&rbrack;
 
 
 On [[(∞,2)-topoi]]:
