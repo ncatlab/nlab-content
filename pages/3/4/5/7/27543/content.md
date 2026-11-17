@@ -27,4 +27,8 @@ On [[large language models]] producing [[mathematical proof]], notably in conjun
 
 * Kaiyu Yang et al.: *Formal Mathematical Reasoning: A New Frontier in AI* \[<a href="https://arxiv.org/abs/2412.16075">arXiv:2412.16075</a>\]
 
+* Ahmad Rammal, Niket Patel, Fabian Gloeckle, Amaury Hayat, Julia Kempe, Remi Munos, Charles Arnal, Vivien Cabannes: *Formalizing Mathematics at Scale* \[<a href="https://arxiv.org/abs/2605.29955">arXiv:2605.29955</a>\]
+  > (*ATLAS* project)
+
+
 
