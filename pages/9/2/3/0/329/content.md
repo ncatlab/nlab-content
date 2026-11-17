@@ -147,7 +147,7 @@ satisfying the following properties:
 1. for each $a \overset{f}\to b \overset{g}\to c$, the horizontal composite $\Id_g \circ \Id_f$ equals $\Id_{g \circ f}$,
 1. for each $f \overset{\alpha}\Rightarrow g \overset{\beta}\Rightarrow h\colon a \to b$ and $i \overset{\gamma}\Rightarrow j \overset{\delta}\Rightarrow k\colon b \rightarrow c$, the horizontal composite $(\delta \bullet \gamma) \circ (\beta \bullet \alpha)$ equals the vertical composite $(\delta \circ \beta) \bullet (\gamma \circ \alpha)$,
 1. for each $\alpha\colon f\Rightarrow g\colon a\to b$, the horizontal composites $\alpha \circ \Id_{\id_a}$ and $\Id_{\id_b} \circ \alpha$ both equal $\alpha$,
-1. for each $\alpha\colon f \Rightarrow g\colon a\to b$, $\beta\colon h \Rightarrow i\colon b\to c$ and $\gamma\colon j\Rightarrow k\colon c\to d$, the horizontal composites $(\gamma \bullet \beta) \bullet \alpha$ and $\gamma \bullet (\beta \bullet \alpha)$ are equal.
+1. for each $\alpha\colon f \Rightarrow g\colon a\to b$, $\beta\colon h \Rightarrow i\colon b\to c$ and $\gamma\colon j\Rightarrow k\colon c\to d$, the horizontal composites $(\gamma \circ \beta) \circ \alpha$ and $\gamma \circ (\beta \circ \alpha)$ are equal.
 
 Note that for the structure, the first four items are the same as before whereas the preceding two items for whiskerings are replaced by the item for horizontal composition. For the properties, the first four items are the same as before whereas the preceding eight items for whiskerings have been replaced by four items for horizontal composition.
 
