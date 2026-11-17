@@ -201,7 +201,7 @@ On the other hand, some properties are *not* preserved by the completions.
 
 ## Examples
 
-(to be written...)
+(to be written…)
 
 * The category [[Set]] of [[Bishop set|Bishop sets]] is the ex/lex completion of the category of [[hSet|hSets]] in a theory without [[quotient sets|quotients]]. 
 
