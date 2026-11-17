@@ -21,7 +21,7 @@ On [[cubical type theory]] based on [[category of cubes|categories of cubes]] wi
 
 On the relationship between the [[univalence axiom]] and [[function extensionality]]:
 
-* [[Evan Cavallo]], [[Jonas Höfer]], _Univalence without function extensionality_ (2026) &lbrack;[arXiv:2605.00812](https://arxiv.org/abs/2605.00812)&rbrack;
+* [[Evan Cavallo]], [[Jonas Höfer]], _Univalence without function extensionality_, Proceedings of MFPS XLII, Electronic Notes in Theoretical Informatics and Computer Science **6** (2026) &lbrack;[arXiv:2605.00812](https://arxiv.org/abs/2605.00812),[doi:10.46298/entics.19622](https://doi.org/10.46298/entics.19622)&rbrack;
 
 On [[algebraic weak factorization systems]] and the [[algebraic small object argument]]:
 
