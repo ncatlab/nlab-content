@@ -69,6 +69,7 @@ with [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
 
 This appears notably in the [[bosonic field|bosonic]] sector of [[D=5 supergravity]] (which is an [[Einstein-Maxwell theory|Einstein-Maxwell]]-[[D=5 Chern-Simons theory]]).
 
+Expressions of just the same form but with the flux density $F$ in degree 4 govern the [[supergravity C-field]] in [[11D supergravity]] (see also there at *[relation to 5D supergravity](D%3D11+N%3D1+supergravity#RelationTo5DSupergravity)*), which is hence a *[[higher gauge field|higher]]* Maxwell-Chern-Simons field.
 
 
 ## Properties
@@ -480,7 +481,7 @@ Simons Theory for Landau-Ginzburg Theory*, thesis, Uppsala (2023) &lbrack;[pdf](
 
 
 
-### In 5d
+### In 5D
 
 In the context of minimal [[D=5 supergravity]]:
 
@@ -510,7 +511,9 @@ With [[QFT with defects|defects]]:
 
 * Jeremias Aguilera Damia, Riccardo Argurio, Eduardo Garcia-Valdecasas: *Non-Invertible Defects in 5d, Boundaries and Holography*, SciPost Phys. **14** 067 (2023) &lbrack;[arXiv:2207.02831](https://arxiv.org/abs/2207.02831), [doi:10.21468/SciPostPhys.14.4.067](https://doi.org/10.21468/SciPostPhys.14.4.067)&rbrack;
 
+### In 11D
 
+For references on [[higher gauge field|higher]] 4-form MCS theory in 11D see the *[[supergravity C-field]]*in *[[11D supergravity]]*.
 
 
 
@@ -532,6 +535,9 @@ With [[QFT with defects|defects]]:
 
 [[!redirects Maxwell-Chern-Simons field]]
 [[!redirects Maxwell-Chern-Simons fields]]
+
+[[!redirects Maxwell--Chern--Simons field]]
+[[!redirects Maxwell--Chern--Simons fields]]
 
 
 
