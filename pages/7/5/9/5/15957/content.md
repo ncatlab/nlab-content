@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Idea
 
 An idea/principle that inspired/underlies the [[theory (physics)]] of [[gravity]] called _[[general relativity]]_.
@@ -13,3 +25,4 @@ An idea/principle that inspired/underlies the [[theory (physics)]] of [[gravity]
 
 * at 4:18 in this [video](https://www.youtube.com/watch?v=E43-CfukEgs)
 
+[[!redirects Einstein equivalence principle]]
