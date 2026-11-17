@@ -69,7 +69,7 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 **T**
 
-* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *The $I_8$-Project --- Steps in Computational M-Theory* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
+* {#ExistenceOfCurvatureCorrected11DSuGra} [[nLab materials]]: *[[schreiber:The I8 Project|The $I_8$-Project --- Steps in Computational M-Theory]]* (2026-11-07) \[<a href="https://www.dropbox.com/scl/fo/weluevnfxeyn4fhl0ou8n/ADq5grV2u3xYry6Z_2Nlt6g?rlkey=z75tlj3hejfu5yzmnu1qec6ss&st=q56u9pi2&dl=0">db</a>\]
   > ([LLM generated](machine+learning#CouplingProofAssistantsWithMachineLearningReferences) [[proof]] of existence of [[higher curvature corrections|higher curvature corrected]] [[superspace]] [[11D supergravity]] to second order in the [[I8|$I_8$]]-deformation of the [[supergravity C-field|$G_7$]]-[[Bianchi identity]])
 
 
