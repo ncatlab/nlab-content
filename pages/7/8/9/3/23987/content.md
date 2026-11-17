@@ -2180,7 +2180,13 @@ $\phantom{-----------}$Tuesday, May 20
 
 {#CQTSSymposium2026Materials} *Symposium talk materials:*
 
-* [[Nikita Golub]]: 
+* {#GladyshevSymposium2026} [Sviatoslav Gladyshev](https://ateno.co/): 
+
+  **The Hidden Geometry of Excitons --- Can we have topological excitons in biased bilayer graphene?**
+
+  slides: [[Gladyshev_CQTS-Symposium-2026.pdf|pdf:file]], [animated](https://sviatoslavgladyshev.github.io/cqts-exciton-talk/)
+
+* {#GolubSymposium2026} [[Nikita Golub]]: 
 
   **M-theory and Geometry of Loops
 on the Four Sphere**
@@ -2189,7 +2195,7 @@ on the Four Sphere**
 
   cf.: [[schreiber:K from M|arXiv:2609.36048]]
 
-* [[Urs Schreiber]]:
+* {#SchreiberSymposium2026} [[Urs Schreiber]]:
 
   **New Pathways to Topological Order**
 
