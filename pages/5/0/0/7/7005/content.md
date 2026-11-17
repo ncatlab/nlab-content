@@ -156,6 +156,20 @@ alone is strictly weaker than the univalence axiom.
 [[Andrej Bauer|Bauer]] and [[Théo Winterhalter|Winterhalter]]'s cardinal model contains a non-univalent universe $U$ that admits such a map ([Winterhalter 20, Theorem 8.3.2](#Winterhalter20)).
 That $U$ is not univalent can be shown using that the cardinal model validates [[equality reflection]] ([Winterhalter 20, Theorem 8.3.1](#Winterhalter20)).
 
+### Categorical univalence
+ {#CategoricalUnivalence}
+
+Any universe $U$ is the type of objects of a [[wild category]] whose type of morphisms from $A:U$ to $B:U$ is the function type $A \to B$.
+It is a [[univalent category]] if the canonical map
+
+$$A:U, B:U \vdash \mathrm{idtoiso}(A,B) : (A =_U B) \to (A \cong B)$$
+
+is an equivalence, where $A \cong B$ is the type of maps $A \to B$ equipped with left and right inverses up to equality of functions.
+The axiom that $U$ defines a univalent category is called **categorical univalence** in [Cavallo and Höfer 26](#CavalloHofer26).
+
+Assuming [[function extensionality]], categorical univalence of $U$ is equivalent to univalence of $U$.
+Without function extensionality, however, categorical univalence is strictly weaker, and in particular does not itself imply function extensionality ([Cavallo and Höfer 26, Theorem 5.6](#CavalloHofer26)).
+
 ### Section up to pointwise homotopy
 
 Van den Berg ([Van den Berg 20, Definition 2.13](#VanDenBerg20)) gives a definition of univalent fibration in a [[category with path objects|path category]] which can be translated into type theory as follows:
@@ -340,9 +354,10 @@ See ([Shulman 15](#Shulman12), [UF 13](UF13))
 ### Relation to function extensionality
   {#UnivalenceFunctionExtensionality}
 
-The univalence axiom implies [[function extensionality]].
+The univalence axiom for a universe $U$ implies [[function extensionality]] for dependent function types between types in $U$. This result is due to Voevodsky. A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
-A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
+However, at least one [weaker variant](#WeakerVariants) of the univalence axiom ([categorical univalence](#CategoricalUnivalence)) does not imply function extensionality, which shows that the implication from univalence to function extensionality depends on subtle details in the way equivalence is defined.
+See [Cavallo and Höfer 26](#CavalloHofer26) for more discussion.
 
 ### Relation to large elimination of the interval type
 
@@ -594,6 +609,10 @@ On a possibly weaker variant of univalence:
 * {#VanDenBerg20} [[Benno van den Berg]], Section 2.3 in _Univalent polymorphism_, Annals of Pure and Applied Logic **171** (2020) 102793 &lbrack;[arXiv:1803.10113](https://arxiv.org/abs/1803.10113), [doi:10.1016/j.apal.2020.102793](http://doi.org/10.1016/j.apal.2020.102793)&rbrack;
 
 * {#Swan24} [[Andrew Swan]], Section 4 in _A categorical formulation of Kraus' paradox_ (2024) &lbrack;[arXiv:2403.17961](https://arxiv.org/abs/2403.17961)&rbrack;
+
+On a variant of univalence that is weaker in the absence of function extensionality:
+
+* {#CavalloHofer26} [[Evan Cavallo]], [[Jonas Höfer]], _Univalence without function extensionality_, Proceedings of MFPS XLII, Electronic Notes in Theoretical Informatics and Computer Science **6** (2026) &lbrack;[arXiv:2605.00812](https://arxiv.org/abs/2605.00812),[doi:10.46298/entics.19622](https://doi.org/10.46298/entics.19622)&rbrack;
 
 On the cardinal model, which separates the univalence axiom from the existence of a map from equivalences to identities:
 
