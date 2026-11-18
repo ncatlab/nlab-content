@@ -10,4 +10,6 @@ On the [[Arnold conjecture]] and [[Morava K-theory]]:
 
 * [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
 
+category: people
+
 [[!redirects M. Abouzaid]]
