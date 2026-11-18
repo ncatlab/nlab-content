@@ -70,4 +70,6 @@ On the [[swampland cobordism conjecture]]:
 
 * [[Crane-Yetter model]]
 
+category: people
+
 [[!redirects H. Ooguri]]
