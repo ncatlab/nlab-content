@@ -11,9 +11,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -950,7 +949,7 @@ The concept originates with
 
 Traditional review includes
 
-* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.3 of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]]; section 15.5.3 of: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992)
 
 Discussion in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative QFT]] formulated in [[causal perturbation theory]]/[[perturbative AQFT]] is in:
 
