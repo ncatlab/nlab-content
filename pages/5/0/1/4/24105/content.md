@@ -4,7 +4,7 @@ Each code consists of three parts; the first two digits denote the broadest disc
 
 ## Examples
 
-A few examples are listed below based on MSC2020. Each discipline and topic, if appropriate, is linked to a corresponding article.
+A few examples are listed below based on MSC2020; each discipline and topic, if appropriate, is linked to a corresponding article.
 
 - 18-XX: [[category theory]], [[homological algebra]]
   - 18Axx: general theory of categories and functors
