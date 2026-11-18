@@ -120,6 +120,9 @@ See also:
 
 * {#Rashed2022} Hussain S. Rashed: *A Coarse Approach to the Freudenthal Compactification and Ends of Groups*, PhD thesis, Univerity of Tennessee (2022) &lbrack;[utk_graddiss:7138](https://trace.tennessee.edu/utk_graddiss/7138)&rbrack;
 
+* Fadi Mezher: *A bordism perspective on ends of manifolds* &lbrack;[arXiv:2611.23166](https://arxiv.org/abs/2611.23166)&rbrack;
+
+
 
 [[!redirects end compactification]]
 [[!redirects end compactifications]]
