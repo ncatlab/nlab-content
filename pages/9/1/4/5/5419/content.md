@@ -40,5 +40,7 @@ notas &#1091; simposia del &#1052;&#1077;&#1093;. Mat. Soc. 1 (1975) 199-227.
 
 * [[Snaith's theorem]]
 
+category: people
+
 [[!redirects V. P. Snaith]]
 [[!redirects Snaith]]
