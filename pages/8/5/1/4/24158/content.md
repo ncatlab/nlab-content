@@ -102,17 +102,17 @@ A list of (believed to be) open problems in [[homotopy type theory]].  To add mo
 
 Problems in [[real-cohesive homotopy type theory]]:
 
+* Construct a real-cohesive homotopy type theory in [[multimodal dependent type theory]] a la [GKNB21](https://arxiv.org/abs/2011.15021) and prove the results of [Shulman16](https://arxiv.org/abs/1509.07584) in the multimodal dependent type theory
+
+* How does Shulman's [[axiom of real cohesion]] fit into cohesive topos theory?
+
 * Assuming the [[axiom of real cohesion]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
 
 * Assuming the [[axiom of real cohesion]] and crisp [[excluded middle]], prove that the [[analytic Markov's principle]] is cohesively true. 
 
 * Assuming the [[axiom of real cohesion]] and crisp [[excluded middle]], does the [[full fan theorem]] hold cohesively? (i.e. is [[Cantor space]] a [[spatial locale]]?)
 
-* How does Shulman's [[axiom of real cohesion]] fit into cohesive topos theory?
-
 * Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s model of [[real-cohesive homotopy type theory]] without resorting to crispness. 
-
-* Construct a real-cohesive homotopy type theory in [[multimodal dependent type theory]] a la [GKNB21](https://arxiv.org/abs/2011.15021) and prove the results of [Shulman16](https://arxiv.org/abs/1509.07584) in the multimodal dependent type theory
 
 See also the commented list of problems at:
 
