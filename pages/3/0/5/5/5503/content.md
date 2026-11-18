@@ -93,7 +93,7 @@ An $L$-structure $M$, as an $L$-algebra with extra properties, defines a **compl
 ### Operads, Monads and Lawvere theories
  {#OperadsMonadsAndLawvereTheories}
 
-Structures from [[universal algebra]], [[higher algebra]] and [[categorical logic]] that conveniently allow tospeak about [[theories]] and their [[models]] are [[operads]], [[monads]] and [[Lawvere theories]]. Each of these may be understood as characterizing a [[theory]]. Its [[models]] then are the corresponging algebras, see at _[[algebra over an operad]]_, _[[algebra over a monad]]_ and _[[algebra over a Lawvere theory]]_, respectively.
+Structures from [[universal algebra]], [[higher algebra]] and [[categorical logic]] that conveniently allow to speak about [[theories]] and their [[models]] are [[operads]], [[monads]] and [[Lawvere theories]]. Each of these may be understood as characterizing a [[theory]]. Its [[models]] then are the corresponging algebras, see at _[[algebra over an operad]]_, _[[algebra over a monad]]_ and _[[algebra over a Lawvere theory]]_, respectively.
 
 
 ### Higher-order logic
