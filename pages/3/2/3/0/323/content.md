@@ -15,9 +15,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -32,9 +30,9 @@ In the [[category]] [[Set]] a 'pullback' is a [[subset]] of the [[cartesian prod
 
 the 'pullback' of this diagram is the [[subset]] $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that the [[equation]] $f(a) = g(b)$ holds.  
 
-A pullback is therefore the [[categorical semantics]] of an _[[equation]]_.
+Pullbacks are therefore the [[categorical semantics]] for _[[equations]]_.
 
-This construction comes up, for example, when $A$ and $B$ are [[fiber bundles]] over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a __fibered product__ (or _fiber product_ or _fibre product_).
+This construction comes up, for example, when $A$ and $B$ are [[fiber bundles]] over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, pullbacks are sometimes called __fibered products__ (or _fiber products_ or _fibre products_).
 
 In this case, the fiber of $A \times_C B$ over a [[generalized element|(generalized)]] element $x$ of $C$ is the ordinary [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.  Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view. 
 
@@ -68,7 +66,7 @@ $$ p_B h = q_B\,.$$
 
 Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[limit]].
 
-In a category $\mathcal{C}$ with elements $A$,$B$,$C$, the fiber product $A \times_C B$ is the product of $h_1:A \rightarrow C$ and $h_2:B \rightarrow C$ in the category $\mathcal{C}_{/C}$.
+In a category $\mathcal{C}$ with elements $A$,$B$,$C$, the [[fiber product]] $A \times_C B$ is the [[Cartesian product]] of $h_1:A \rightarrow C$ and $h_2:B \rightarrow C$ in the [[slice category]] $\mathcal{C}_{/C}$.
 
 
 ## Definition
