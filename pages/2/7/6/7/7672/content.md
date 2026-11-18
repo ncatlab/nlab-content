@@ -576,11 +576,16 @@ and in higher [[chromatic homotopy theory]]:
 
 Discussion in [[p-adic geometry]]:
 
-* {#Clausen11} Dustin Clausen, _$p$-adic J-homomorphisms and a product formula_ ([arXiv:1110.5851](https://arxiv.org/abs/1110.5851))
+* {#Clausen11} Dustin Clausen, _$p$-adic J-homomorphisms and a product formula_ &lbrack;[arXiv:1110.5851](https://arxiv.org/abs/1110.5851)&rbrack;
+
+In relation to the [[cobordism hypothesis]]:
+
+* Amartya Shekhar Dubey, [[Luuk Stehouwer]]: *The J-Homomorphism From Localising The Cobordism Hypothesis* &lbrack;[arXiv:2611.19615](https://arxiv.org/abs/2611.19615)&rbrack;
 
 
 
-The [[complex geometry|complex]] J-homomorphism is discussed in 
+
+On the [[complex geometry|complex]] J-homomorphism:
 
 * [[Victor Snaith]], _The complex J-homomorphism_, Proc. London Math. Soc. (1977) s3-34 (2): 269-302 ([journal](http://plms.oxfordjournals.org/content/s3-34/2/269.full.pdf+html))
 
