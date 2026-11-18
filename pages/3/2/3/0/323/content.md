@@ -36,7 +36,7 @@ A pullback is therefore the [[categorical semantics]] of an _[[equation]]_.
 
 This construction comes up, for example, when $A$ and $B$ are [[fiber bundles]] over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a __fibered product__ (or _fiber product_ or _fibre product_).
 
-In this case, the fiber of $A \times_C B$ over a [[generalized element|(generalized)]] element $x$ of $C$ is the ordinary [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.  Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view.
+In this case, the fiber of $A \times_C B$ over a [[generalized element|(generalized)]] element $x$ of $C$ is the ordinary [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.  Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view. 
 
 Note that there are maps $p_A\colon X \to A$, $p_B\colon X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this [[commuting diagram|square commute]]:
 
@@ -67,6 +67,8 @@ and
 $$ p_B h = q_B\,.$$
 
 Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[limit]].
+
+In a category $\mathcal{C}$ with elements $A$,$B$,$C$, the fiber product $A \times_C B$ is the product of $h_1:A \rightarrow C$ and $h_2:B \rightarrow C$ in the category $\mathcal{C}_{/C}$.
 
 
 ## Definition
