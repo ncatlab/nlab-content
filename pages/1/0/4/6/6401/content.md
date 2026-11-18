@@ -113,7 +113,7 @@ The claim of the derivation of $D=11$ supergravity in [[supergeometry]], by solv
 
 and in the mild variation (using a manifestly [[duality-symmetric C-field|duality-symmetric]] super-[[supergravity C-field|C-field]] [[flux density]]) due to
 
-* [Castellani, D'Auria & Fré 1991, §III.8.5](#CastellaniDAuriaFré91)
+* [Castellani, D'Auria & Fré 1991, §III.8.5](/nlab/show/D'Auria-Fré-Regge+formulation+of+supergravity#CastellaniDAuriaFre)
 
 A proof of this claim is laid out in 
 
