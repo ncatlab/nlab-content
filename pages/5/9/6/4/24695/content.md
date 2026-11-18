@@ -58,6 +58,10 @@ On a flagged variant of the [[cobordism hypothesis]]:
 
 * [[Luuk Stehouwer]]: *A Cobordism Hypothesis for Flagged TQFTs*, [talk at](CQTS#StehouwerOct2026) [[CQTS]] (Oct 2026) &lbrack;transcript:[[Stehouwer-CQTS_transcript_26-10-07.pdf|pdf:file]]&rbrack;
 
+On the [[J-homomorphism]] in relation to the [[cobordism hypothesis]]:
+
+* Amartya Shekhar Dubey, [[Luuk Stehouwer]]: *The J-Homomorphism From Localising The Cobordism Hypothesis* &lbrack;[arXiv:2611.19615](https://arxiv.org/abs/2611.19615)&rbrack;
+
 
 
 category: people
