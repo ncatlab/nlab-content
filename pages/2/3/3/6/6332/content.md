@@ -40,7 +40,7 @@ On [[lenses (in computer science)]]:
 
 * [[Michael Johnson]], [[Robert Rosebrugh]], *The more legs the merrier: A new composition for symmetric (multi-)lenses*, EPTCS **333** (2021) 92-107 &lbrack;[arXiv:2101.10482](https://arxiv.org/abs/2101.10482), [doi:10.4204/EPTCS.333.7](https://doi.org/10.4204/EPTCS.333.7)&rbrack;
 
-
+category: people
 
 [[!redirects Bob Rosebrugh]]
 [[!redirects Rosebrugh]]
