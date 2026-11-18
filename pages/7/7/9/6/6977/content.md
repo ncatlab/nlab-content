@@ -9,7 +9,6 @@
 =--
 =--
 
-# Final and initial lifts
 * table of contents
 {: toc}
 
