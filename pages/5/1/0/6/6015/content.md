@@ -15,4 +15,6 @@ On [[tensor triangulated geometry]]:
 
 * [[Henning Krause]]: *Tensor triangular geometry --- Notes for an Oberwolfach Seminar* &lbrack;[arXiv:2605.19983](https://arxiv.org/abs/2605.19983)&rbrack;
 
+category: people
+
 [[!redirects H. Krause]]
