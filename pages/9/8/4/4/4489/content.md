@@ -19,6 +19,7 @@ See also:
 
 * T. Brzeziński, A. Vazquez Marquez and [[J. Vercruysse]], _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Applied Categorical Structures, 19, (2011), 821–858.
 
+category: people
 
 [[!redirects Tomasz Brzeziński]]
 [[!redirects T. Brzeziński]]
