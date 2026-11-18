@@ -10,9 +10,9 @@
 =--
 
 
-# Cayley--Dickson construction
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -437,7 +437,7 @@ In more detail, the quaternions are described as the group algebra $\mathbb{R}[\
 
 This point of view also clarifies the common claim that algebras in the Cayley-Dickson process lose "nice" properties after more iterations. Rather, a more precise claim is that these nice properties are weakened. In the case of the octonions, these are better regarded as associative *up to* a nontrivial cocycle.
 
-This highlights that a more suitable point of view to study the algebras arising in the Cayley-Dickson process is [[higher algebra]]. As noted in e.g. ([p.8 of Baez (2002)](#Baez02)), the octonions are indeed associative, when viewed as a [[monoid object]] [[internalization|internal]] to the [[tensor category]] which is the [[fusion category]] of $\mathbb{Z}_2^3$-graded real vector spaces with nontrivial [[associator]] defined by the twisting $3$-cocycle.
+This highlights that a more suitable point of view to study the algebras arising in the Cayley-Dickson process is [[higher algebra]]. As noted for instance in [Baez 2002 p 8](#Baez02), the octonions are indeed associative when viewed as a [[monoid object]] [[internalization|internal]] to the [[tensor category]] which is the [[fusion category]] of $\mathbb{Z}_2^3$-graded real vector spaces with nontrivial [[associator]] defined by the twisting $3$-cocycle.
 
 This seems to suggest a pattern regarding the rest of the $2^n$-gons, as of now unproven(?). For instance, the sedenions could be realized as a twist of the group algebra $\mathbb{R}[\mathbb{Z}_2^4]$ by a 4-cocycle $Z^4(\mathbb{Z}_2^4,\mathbb{R}^{\times})$, and as such would have fewer nice properties *as a 1-algebra*. Yet as a higher algebra it would retain its nice properties: it would correspond to the [[fusion 2-category]] of $\mathbb{Z}_2^4$-graded [[2-vector space|2-vector spaces]] twisted by a group 4-cocycle.
 
