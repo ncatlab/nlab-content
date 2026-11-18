@@ -5,7 +5,7 @@
 
 ## Idea
 
-A 'stuff type' is a type of [[stuff]] that can placed on [[finite sets]], e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  
+A 'stuff type' is a type of [[stuff]] that can be placed on [[finite sets]], e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  
 
 ## Definition
 
