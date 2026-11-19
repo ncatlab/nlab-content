@@ -3,9 +3,9 @@
 
 ## Idea ##
 
-The [[HoTT book complex number]] are the [[complex numbers]] constructed over the [[HoTT book real number]], as developed in Section 11.3 of the [[Homotopy Type Theory book]].
+The [[HoTT book complex number]] are the [[complex numbers]] constructed over the [[HoTT book real number]], as developed in Section 11.3 of [UFP 2013](#UFP13).
 
-Let $\mathbb{R}_H$ denote the [[type]] of HoTT book real numbers. The corresponding complex number type $\mathbb{C}_H$ is defined as the [[Cartesian product]] $\mathbb{R}_H \times \mathbb{R}_H$, equipped with the usual complex addition and multiplication.
+Let $\mathbb{R}_H$ denote the [[type]] of [[HoTT book real numbers]]. The corresponding complex number type $\mathbb{C}_H$ is defined as the [[Cartesian product]] $\mathbb{R}_H \times \mathbb{R}_H$, equipped with the usual complex addition and multiplication.
 
 Although the underlying construction is elementary, establishing its algebraic properties within [[constructive mathematics]] is non-trivial and depends on the corresponding properties of the HoTT book reals. In particular, the treatment of nonzero elements and multiplicative [[inverse]]s requires distinguishing constructive [[apartness]] from the mere [[negation]] of [[equality]].
 
@@ -184,12 +184,12 @@ This is distinct from merely establishing the existence of the corresponding [[e
 
 In the homotopy-theoretic formulation of [[topological quantum computation]], complex coefficients and multiplicative twisting play a central role in the construction of [[local system]]s and [[twisted cohomology]].
 
-In particular, the homotopy-theoretic description of [[topological quantum gate]]s by Myers, Sati, and Schreiber involves twisting data valued in the delooping of the discrete multiplicative group of nonzero complex numbers.
+In particular, the homotopy-theoretic description of [[topological quantum gate|topological quantum gates]] by [MySS 2024](#MySS24) involves twisting data valued in the delooping of the discrete multiplicative group of nonzero complex numbers.
 
 Such twisting data may be expressed by a map of the form
 
 $$
-\tau:X\longrightarrow B\mathbb{C}_H^\times.
+  \tau:X\longrightarrow B\mathbb{C}_H^\times.
 $$
 
 The associated complex-valued [[dependent type]] family provides a setting in which [[transport]] along [[path]]s in $X$ induces [[monodromy]] on the corresponding [[fiber]]s.
@@ -215,11 +215,12 @@ A complete computational realization of the quantum gate construction requires f
 - [[topological quantum computation]]
 - [[Center for Quantum and Topological Systems]]
 
+
 ## References ##
 
 * {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 * Jackson Brough, *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda*, 2026. [arXiv:2604.24782](https://arxiv.org/abs/2604.24782).
 
-* [[David Jaz Myers]], [[Hisham Sati]], and [[Urs Schreiber]], *Topological Quantum Gates in Homotopy Type Theory*, Communications in Mathematical Physics, 2024. [arXiv:2303.02382](https://arxiv.org/abs/2303.02382).
+* {#MySS24} [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]]: : *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) &lbrack;[doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8), [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
 
