@@ -44,6 +44,10 @@ Something similar (derived [[orbifolds]]):
 
 * [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) &lbrack;[pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf), [[Joyce-DOrbifolds.pdf:file]]&rbrack;
 
+On [[A-infinity algebras]] and [[A-infinity categories]] via [[quasi-categories]]:
+
+* [[Dominic Joyce]]: *An ∞-category approach to A∞-algebras and A∞-categories* &lbrack;[arXiv:2611.24690](https://arxiv.org/abs/2611.24690)&rbrack;
+
 
 ## Related entries
 
