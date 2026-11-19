@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -78,6 +76,11 @@ Discussion related to the [[cosmological constant]] in models of [[M-theory on G
 * {#CarlosLukasMorris04} Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on $G_2$ manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
 
 which concludes that with taking [[non-perturbative effects]] from membrane instantons into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
+
+See also:
+
+* Pietro Benetti Genolini, [[Jerome P. Gauntlett]], Jaeha Park, [[James Sparks]]: *Localizing the M-Theory Path Integral: Membrane Instantons* &lbrack;[arXiv:2611.23369](https://arxiv.org/abs/2611.23369)&rbrack;
+
 
 
 [^footnote]: This relation was pointed out by [[Hisham Sati]].
