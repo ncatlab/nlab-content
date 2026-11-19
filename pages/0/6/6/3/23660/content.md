@@ -88,6 +88,8 @@ The [[analytic functions]], such as the [[exponential function]], the [[sine fun
 
 * [[Escardo-Simpson real numbers]]
 
+* [[HoTT book complex number]]
+
 ## References ##
 
 * {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
