@@ -59,6 +59,10 @@ On [[D=4 supergravity]] on [[spindle orbifolds]]:
 
 * Igal Arav, [[Jerome P. Gauntlett]], Jaeha Park, Matthew M. Roberts, Christopher Rosen: *Spindle solutions with hyperscalars in $D=4$ gauged supergravity* &lbrack;[arXiv:2605.04140](https://arxiv.org/abs/2605.04140)&rbrack;
 
+On [[membrane instantons]]:
+
+* Pietro Benetti Genolini, [[Jerome P. Gauntlett]], Jaeha Park, [[James Sparks]]: *Localizing the M-Theory Path Integral: Membrane Instantons* &lbrack;[arXiv:2611.23369](https://arxiv.org/abs/2611.23369)&rbrack;
+
 
 ## Related entries
 
