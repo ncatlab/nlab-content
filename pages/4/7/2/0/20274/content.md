@@ -30,6 +30,10 @@ On the [[AGT correspondence]]:
 
 * Christopher Couzens, Alice Lüscher, [[James Sparks]]: *Localizing punctures in M-theory*,  J. High Energ. Phys. **2026** 180 (2026) \[<a href="https://doi.org/10.1007/JHEP02(2026)180">doi:10.1007/JHEP02(2026)180</a>, [arXiv:2511.03397 hep-th](https://arxiv.org/abs/2511.03397)&rbrack;
 
+On [[membrane instantons]]:
+
+* Pietro Benetti Genolini, [[Jerome P. Gauntlett]], Jaeha Park, [[James Sparks]]: *Localizing the M-Theory Path Integral: Membrane Instantons* &lbrack;[arXiv:2611.23369](https://arxiv.org/abs/2611.23369)&rbrack;
+
 
 ## Related entries
 
