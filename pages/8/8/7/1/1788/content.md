@@ -7,25 +7,83 @@
 
 ***
 
+\begin{tikzcd}
+  X^{11}
+  \ar[d]
+  \ar[r]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  L S^4
+  \ar[d]
+  \ar[r]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  \ast
+  \ar[d]
+  \\
+  X^{10}
+  \ar[r]
+  &
+  \mathrm{Cyc} S^4
+  \ar[r]
+  & 
+  B S^1
+\end{tikzcd}
+
 
 \begin{tikzcd}
-  \mathrm{Cyc}\, S^4
-  \ar[r, hook]
-  &
-  \text{???}
+  X'
+  \ar[r]
+  \ar[d, hook]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  & 
+  (\ast \times \mathbb{R}^3)_+
+  \ar[d, hook]
   \\
-  \mathrm{SmlCyc}_0 S^4
-  \ar[r, hook]
-  \ar[u, hook]
+  X^{11}
+  \ar[d]
+  \ar[r]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
   &
-  \sqcup_n \mathrm{SmlCyc}_n S^4
-  \ar[u, hook]
+  (S^1 \times \mathbb{R}^3)_+
+  \ar[r, hook]
+  \ar[d]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  L S^4
+  \ar[d]
+  \ar[r]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  \ast
+  \ar[d]
   \\
-  \mathrm{MinCyc}_0 S^4
-  \ar[r, hook]
-  \ar[u, hook]
+  X^{10}
+  \ar[r]
   &
-  \sqcup_n  \mathrm{MinCyc}_n S^4
-  \ar[u, hook]
+  B S^1
+    \vee 
+  S^3 
+  \ar[r]
+  &
+  \mathrm{Cyc} S^4
+  \ar[r]
+  & 
+  B S^1
+\end{tikzcd}
+
+
+\begin{tikzcd}
+  S^2 
+   \ar[r, "{ n }"]
+   \ar[d, hook]
+  &
+  B S^1
+  \ar[d]
+  \\
+  D^3
+  \ar[r, hook]
+  &
+  \mathrm{MinCyc}_n S^4
 \end{tikzcd}
 ...
