@@ -21,7 +21,13 @@ $$ \array { E \\ \downarrow^{\mathrlap{p}} \\ B } $$
 
 One often refers to such a bundle simply as $E$, even though $B$ is really part of the data.
 
-For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundle over $x$ is the [[pullback]] $x^* E$.
+For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundle over $x$ is the [[pullback]] $x^* E$:
+
+$$ \array{
+  x^* E && \longrightarrow && E \\
+  \downarrow && && \downarrow^{\mathrlap{p}} \\
+  U && \longrightarrow^{x} && B
+} $$
 
 Given two bundles $E_1$ and $E_2$ over $B$, then a _morphism of bundles over $B$_ is a [[morphism]] $E_1 \to E_2$ which makes this [[commuting diagram|diagram commute]]:
 
