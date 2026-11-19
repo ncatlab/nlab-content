@@ -51,7 +51,7 @@ and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh0
 
 * {#Romans86} [[L. J. Romans]]: _Massive $N = 2a$ supergravity in ten dimensions_ , Physics Letters B **169** 4 (1986) 374--380 \[<a href="https://doi.org/10.1016/0370-2693(86)90375-8">doi:10.1016/0370-2693(86)90375-8</a>, [spire:17727](http://inspirehep.net/record/17727)\]
 
-* {#Tsimpis05} [[Dimitrios Tsimpis]], _Massive IIA supergravities_, JHEP 0510:057, 2005 ([arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214))
+* {#Tsimpis05} [[Dimitrios Tsimpis]]: _Massive IIA supergravities_, JHEP 0510:057 (2005) &lbrack;[arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214), [arXiv:10.1088/1126-6708/2005/10/057](https://doi.org/10.1088/1126-6708/2005/10/057)&rbrack;
 
 ### Black branes
 
