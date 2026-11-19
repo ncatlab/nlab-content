@@ -76,7 +76,7 @@ A (small) **$V$-category** $C$ (or **$V$-enriched category** or **category enric
 
 * for each object $a \in Obj(C)$ a morphism $j_a : I \to C(a,a)$ -- called the _identity [[global element|element]]_ 
 
-* such the following diagrams commute:
+* such that the following diagrams commute:
 
 for all $a,b,c,d \in Obj(C)$:
 
