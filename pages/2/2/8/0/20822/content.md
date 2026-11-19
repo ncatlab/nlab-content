@@ -31,7 +31,7 @@ The lift of Romans supergravity to to [[string theory]] is known as _[[massive t
 
 The mass term makes Romans supergravity have [[black brane]]-solutions corresponding to [[D8-branes]] 
 
-([Bergshoess-de Roo-Green-Papadopoulos-Townsend 96](#BergshoessdeRooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
+([Bergshoeff, de Roo, Green, Papadopoulos & Townsend 96](#BergshoeffdeBooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
 
 and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh02b))
 
