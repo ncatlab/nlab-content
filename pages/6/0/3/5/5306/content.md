@@ -9,7 +9,7 @@ Yves Lafont is a Professor at the _Universit&#233; de la M&#233;diterran&#233;e 
 
 On [[formal logic|formal]] [[logic]] and [[formal proof|formal]] [[proof]] [[proof theory|theory]] ([[type theory|typed]] [[lambda-calculus|$\lambda$-calculus]], [[linear logic]],  [[coherence spaces]], ...)
 
-* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendices by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
 
 
