@@ -15,12 +15,7 @@
 =--
 
 
-
-
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea 
 
@@ -162,6 +157,8 @@ More [[category theory]] and [[homotopy theory]] of $A_\infty$-categories is dis
 See also 
 
 * [[Yong-Geun Oh]], [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
+
+* [[Dominic Joyce]]: *An ∞-category approach to A∞-algebras and A∞-categories* &lbrack;[arXiv:2611.24690](https://arxiv.org/abs/2611.24690)&rbrack;
 
 ### For $A_\infty$-categories in the wider sense ##
 
