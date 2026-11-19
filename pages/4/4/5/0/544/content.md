@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -190,9 +188,14 @@ A brief survey is in section 1.8 of
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002. &lbrack;[doi:10.1090/surv/096](https://doi.org/10.1090/surv/096)&rbrack;
 
 
-The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analogues of [[minimal model]]s for $A_\infty$ algebras. It was published in TAC much later.
+Onthe possibility of obtaining analogues of [[minimal models]] for $A_\infty$ algebras:
 
 * [[Alain Prouté]], _Alg&#232;bres diff&#233;rentielles fortement homotopiquement associatives ($A_\infty$-alg&#232;bres)_, thesis, available as [Reprints in Theory and Applications of Categories, No. 21, 2011, pp. 1&#8211;99](http://www.logique.jussieu.fr/~alp/these_A_Proute-TAC.pdf)
+
+See also:
+
+* [[Dominic Joyce]]: *An ∞-category approach to A∞-algebras and A∞-categories* &lbrack;[arXiv:2611.24690](https://arxiv.org/abs/2611.24690)&rbrack;
+
 
 [[!redirects A-infinity-algebras]]
 [[!redirects A-infinity algebra]]
