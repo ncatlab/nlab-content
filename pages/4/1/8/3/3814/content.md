@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -370,6 +368,10 @@ London was a turning point $[$...$]$ Ellis' catalog well reflected the state  of
 * [[Steven Weinberg]]: *The Conceptual Basis of the Standard Model: Steven Weinberg*, concluding talk at: *[The Standard Model at 50](https://artsci.case.edu/smat50/)*, 1-4 June 2018, Cleveland &lbrack;video:[YT](https://youtu.be/nydSHnv1ABI?list=PLBELrG1nZ2U6H3I1il4NhNVNcdUVUE5Ye)&rbrack;
 
 * [[John Iliopoulos]]: *From Many Models to ONE THEORY*, talk at Plectics Labs Perspectives In Theoretical Physics Series (July 2024)  &lbrack;[arXiv:2501.10233](https://arxiv.org/abs/2501.10233), video:[YT](https://youtu.be/ECUBXySE0pI)&rbrack;
+
+On the history of attempts at going beyond the standard model:
+
+* [[Savas Dimopoulos]]: *The BSM Rollercoaster, 1980--2000* &lbrack;[arXiv:2611.25060](https://arxiv.org/abs/2611.25060)&rbrack;
 
 
 
