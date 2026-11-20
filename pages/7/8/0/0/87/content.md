@@ -220,7 +220,7 @@ However, we can form the product anafunctor without using choice. The specificat
 $$
   \sigma(A \leftarrow D \rightarrow B) = (A, B),\;\; \tau(A \leftarrow D \rightarrow B) = D.
 $$
-Given product diagrams $A \leftarrow D \rightarrow B$ and $A' \leftarrow D' \rightarrow B'$, and a map $(f, g): (A, B) \to (A', C')$ in $C \times C$, we obtain $P(f, g): D \to D'$ by the universal property of the product. The compatibility conditions are easy to check.
+Given product diagrams $A \leftarrow D \rightarrow B$ and $A' \leftarrow D' \rightarrow B'$, and a map $(f, g): (A, B) \to (A', B')$ in $C \times C$, we obtain $P(f, g): D \to D'$ by the universal property of the product. The compatibility conditions are easy to check.
 
 ### Anafunctor from functor
 Suppose we have a usual functor $F: C \to D$. Then we can obtain an anafunctor as the span
