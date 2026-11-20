@@ -216,6 +216,7 @@ and with [[HoTT]] targets ([[Agda]]):
 [[!redirects LLMs]]
 
 [[!redirects autoformalization]]
+[[!redirects autoformalizations]]
 
 
 category: applications, probability
