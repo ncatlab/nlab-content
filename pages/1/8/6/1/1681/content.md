@@ -91,7 +91,7 @@ of the [[tensor product]]  with $A$ of the [[free abelian group]] on the underly
 
 =--
 
-([Aguilar-Gitler-Prieto 02, def. 6.4.20](#AguilarGitlerPrieto02))
+([Aguilar, Gitler & Prieto 2002, def. 6.4.20](#AguilarGitlerPrieto02))
 
 
 +-- {: .num_prop #ReducedALinearizationOfnSphereIsEMSpace}
@@ -116,7 +116,7 @@ $$
 
 =--
 
-([Aguilar-Gitler-Prieto 02, corollary 6.4.23](#AguilarGitlerPrieto02))
+([Aguilar, Gitler & Prieto 2002, corollary 6.4.23](#AguilarGitlerPrieto02))
 
 
 +-- {: .num_remark}
@@ -257,7 +257,7 @@ Early review is in
 
 Textbook accounts:
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf), [doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+* {#AguilarGitlerPrieto02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]]: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf), [doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586)&rbrack;
   > (EM-spaces are constructed in section 6, the cohomology theory they represent is discussed in section 7.1, and its equivalence to singular cohomology is Corollary 12.1.20)
 
 
