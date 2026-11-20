@@ -40,6 +40,11 @@ The original articles:
 
   reprinted in: *Supergravities in Diverse Dimensions*, World Scientific (1989) 1282--1309  &lbrack;[doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083)&rbrack;
 
+Exposition:
+
+* Karim Benakli: *Scherk-Schwarz Compactifications: From Circles to Strings* &lbrack;[arXiv:2611.25014](https://arxiv.org/abs/2611.25014)&rbrack;
+
+
 ### Examples and applications
 
 In [[geometric engineering of QFT|geometrically engineering]] of non-supersymmetric [[QCD]] from the [[D=5 super Yang-Mills theory]] on [[D4-branes]] by [[wrapped brane|wrapping]] these on a Scherk-Schwarz circle (the [[Witten-Sakai-Sugimoto model]]):
