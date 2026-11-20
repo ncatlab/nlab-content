@@ -470,13 +470,11 @@ The [[empty type]], [[unit type]], [[type of booleans]], and [[FinSet]] are all 
 
 ## See also
 
-For universes as a replacement for type judgments, see
+* [[Russell universe]], for universes as a replacement for type judgments 
 
-* [[Russell universe]]
+* [[type universe]], for the general notion of a universe of small types
 
-Regarding the general notion of types of small types, see 
-
-* [[type universe]]
+* [[Coquand universe]]
 
 Other mathematical structures and their univalent counterparts:
 
