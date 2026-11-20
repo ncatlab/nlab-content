@@ -40,7 +40,6 @@ An important special case over [[finite fields]] is called the **Riemann--Weil c
 
 * [[Peter Sarnak]]: *The Riemann Hypothesis*, Millennium Prize Problems Lecture Series, Harvard (April 2026) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_41526/), video:[yt](https://youtu.be/DtaFyE9BcXw)&rbrack;
 
-
 See also
 
 * Wikipedia, _[Riemann hypothesis](http://en.wikipedia.org/wiki/Riemann_hypothesis)_
@@ -72,6 +71,9 @@ Identification of the zeros of the [[Riemann zeta function]] with the spectrum o
 * David J. Platt, _Isolating some non-trivial zeros of zeta_, Mathematics of Computation 86 (2017), 2449-2467 ([doi:10.1090/mcom/3198 ](https://doi.org/10.1090/mcom/3198 ))
 
 
+Claim of an [[autoformalization|AI-generated proof]]:
+
+* [[Levent Alpöge]]: *I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis* (2026-11-20) &lbrack;[alpo.ge/remark.pdf](https://alpo.ge/remark.pdf), [[Alpoge-RHremark_26-11-20.pdf|pdf:file]], [alpo.ge/lean.tar.gz.part01](https://alpo.ge/lean.tar.gz.part01), [alpo.ge/lean.tar.gz.part14](https://alpo.ge/lean.tar.gz.part14)&rbrack;
 
 [[!redirects Riemann hypothesis]]
 [[!redirects Riemann conjecture]]
