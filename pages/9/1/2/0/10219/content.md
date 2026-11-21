@@ -9,7 +9,6 @@
 =--
 =--
 
-# Split supports
 * table of contents
 {: toc}
 
