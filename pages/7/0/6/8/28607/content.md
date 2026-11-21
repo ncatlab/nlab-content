@@ -1057,9 +1057,15 @@ $$q \Vdash x \in S,$$
 then $\varphi_p(q)$ is defined, and there exists $v\in V$ such that
 $$\varphi_p(q) \Vdash v \xmapsto{\operatorname{inc}_V} (u, x).$$
 
-From here, there are many conditions to check, but each one should be fairly straightforward using the techniques shown so far.
+From here, there are many conditions to check, but each one should be fairly straightforward using the techniques shown so far. To elaborate on some of the more salient points:
 
-We also need to check uniqueness of $\sigma$; for this, it suffices to check that whenever we have another effective functional relations $\sigma'$ with pullback square
+First, to check the totality condition on $\sigma$, given $u \in U$ define $S \subseteq \mathbb{N} \times X$ such that $n \Vdash x \in S$ if and only if there exists $v\in V$ such that $n \Vdash v \xmapsto{\operatorname{inc}_V} (u, x)$; then show that if $u \equiv u$, then $u \xmapsto{\sigma} S$. Tracking realizers through this proof shows how to construct the required partial recursive function $t_{\sigma}$. The other conditions for $\sigma$ to be an effective functional relation are easy.
+
+Now, if $v \xmapsto{\operatorname{inc}_V} (u, x)$ and $u \xmapsto{\sigma} S$, then $x \in S$. From this (and again tracking realizers) we can conclude that $(\sigma \times \operatorname{id}) \circ \operatorname{inc}_V$ also satisfies the codomain condition for an effective functional relation between $V$ and $\ni_X$. The other conditions are also easy to check (reusing this proof in the totality condition). We thus conclude that $(\sigma \times \operatorname{id}) \circ \operatorname{inc}_V$ also induces a morphism from $V \to \ni_X$, and then checking commutativity of the square including this morphism is easy.
+
+For the other conditions in the pullback square lemma above: the joint monomorphism condition on the two maps from $V$ follows immediately from the assumption that $\operatorname{inc}_V$ is a monomorphism, and the monomorphism lemma above. Now, if $(S', x') \xmapsto{\operatorname{inc}_{\ni_X}} (S, x)$ and $(u, x'') \xmapsto{\sigma \times \operatorname{id}} (S, x)$, then $S \equiv S'$; $x \equiv x' \equiv x''$; and $u \xmapsto{\sigma} S$. From the domain condition on $(S', x')$, we know $x' \in S'$, so $x\in S$. Therefore, from the definition of $\sigma$, we can find $v\in V$ such that $v \xmapsto{\operatorname{inc}_V} (u, x'')$ and therefore $v \xmapsto{\operatorname{inc}_V} (u, x)$ also. It is also easy to see that $v \xmapsto (S', x')$ under the factor relation between $V$ and $\ni_X$. As before, if you track realizers through this proof, then you will be able to construct the required partial recursive functions.
+
+We also need to check uniqueness of $\sigma$; for this, it suffices to check that whenever we have another effective functional relation $\sigma'$ with pullback square
 \[
 \begin{array}{rcl}
 V & \to & \ni_X \\
@@ -1067,6 +1073,6 @@ V & \to & \ni_X \\
 U \times X & \underset{\sigma' \times \operatorname{id}_X}{\to} & PX \times X
 \end{array}
 \]
-then $\sigma'$ is equivalent to $\sigma$. The idea here would be: if we were working with partial setoids, suppose we had $u \xmapsto{\sigma'} S$. Then whenever $x \in S$, that induces an element $(S, x)$ of $\ni_X$, and we get the necessary hypotheses to apply the pullback condition with $\sigma_1$, and get an element of $V$ which maps to $(u, x)$. Conversely, whenever $(u, x)$ is in the image of $V$, then applying the commutativity of the diagram for $\sigma'$, we get $x\in S$. This establishes the non-trivial conditions to have $u \xmapsto{\sigma} S$.
+then $\sigma'$ is equivalent to $\sigma$. The idea here would be: if we were working with partial setoids, suppose we had $u \xmapsto{\sigma'} S$. Then whenever $x \in S$, that induces an element $(S, x)$ of $\ni_X$, and we get the necessary hypotheses to apply the pullback condition with $\sigma'$, and get an element of $V$ which maps to $(u, x)$. Conversely, whenever $(u, x)$ is in the image of $V$, then applying the commutativity of the diagram for $\sigma'$, we get $x\in S$. This establishes the non-trivial conditions to have $u \xmapsto{\sigma} S$.
 
 Tracing this proof and tracking realizers of equivalences and mappings appropriately will lift this to a proof of the same fact in the effective topos.
