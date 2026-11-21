@@ -8,8 +8,8 @@
 =--
 =--
 
-* table of contents
-{: toc}
+
+\tableofcontents
 
 
 ## Definition ##
@@ -193,33 +193,13 @@ This is due to ([Butz](#Butz)) and ([Moerdijk](#Moerdijk)).
 
 ## Examples 
 
-### General
 
-* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points (def. \ref{EnoughPoints}): a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
+\begin{example}
+For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points (def. \ref{EnoughPoints}): a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
+\end{example}
 
-* Points of [[over-toposes]] are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
-
-### Rings and algebraic theories
- {#Rings}
-
-The category of points of the presheaf topos over $Ring_{fp}^{op}$, the dual of the category of finitely presented [[rings]], is the category of all rings (without a size or presentation restriction). In fact this holds for any [[algebraic theory]], not only for the theory of commutative rings. See also at  _[[Gabriel-Ulmer duality]]_, _[[flat functors]]_.
-
-
-
-### Of a local topos
-
-A [[local topos]] $(\Delta \dashv \Gamma \dashv coDisc) : E \to Set$ has a canonical point, $(\Gamma \dashv coDisc) : Set \to E$. Morover, this point is an [[initial object]] in the category of all points of $E$ (see _[Equivalent characterizations](local+geometric+morphism#EquivalentCharacterizations)_ at _[[local topos]]_.)
-
-### Over $\infty$-cohesive sites
-
-* Let [[Diff]] be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to a point in $\R^n$: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls around a fixed point. This family of points is jointly conservative, i.e. sufficient to prove that $Sh(Diff)$ has enough points, though other points also exist.
-
-  The family $(p_n)$ is discussed for instance in ([Dugger, p. 36](#Dugger)) in the context of the [[model structure on simplicial presheaves]].
-
-
-
-### Toposes with enough points
-
+\begin{example}
+**(toposes with enough points)**
 The following classes of topos have enough points (def. \ref{EnoughPoints}).
 
 * every [[presheaf topos]];
@@ -228,9 +208,39 @@ The following classes of topos have enough points (def. \ref{EnoughPoints}).
 
 * every [[Galois topos]] (see ([Zoghaib](#Zoghaib))).
 
-### Toposes without points
+\end{example}
 
-In contrast with point-set topology where non empty spaces tautologically have points there are non trivial toposes lacking points just like in pointfree topology there are nontrivial [[locale|locales]] without points. From a logical perspective these toposes correspond to consistent [[geometric theory|geometric theories]] lacking models in Set. Classical examples are provided by toposes of sheaves on complete atomless Boolean algebras (see Barr ([1974](#Barr74)) or for an example due to [[Pierre Deligne|Deligne]] [[SGA4]], p.412).
+
+\begin{example}
+Points of [[over-toposes]] are discussed at [over-topos -- Points](over-topos#Points">over topos -- points)
+\end{example}
+
+
+\begin{example}\label{Rings}
+**(Rings and algebraic theories)**
+The category of points of the presheaf topos over $Ring_{fp}^{op}$, the dual of the category of finitely presented [[rings]], is the category of all rings (without a size or presentation restriction). In fact this holds for any [[algebraic theory]], not only for the theory of commutative rings. See also at  _[[Gabriel-Ulmer duality]]_, _[[flat functors]]_.
+\end{example}
+
+
+\begin{example}
+**(of a local topos)**
+A [[local topos]] $(\Delta \dashv \Gamma \dashv coDisc) : E \to Set$ has a canonical point, $(\Gamma \dashv coDisc) : Set \to E$. Morover, this point is an [[initial object]] in the category of all points of $E$ (see _[Equivalent characterizations](local+geometric+morphism#EquivalentCharacterizations)_ at _[[local topos]]_.)
+\end{example}
+
+
+\begin{example}\label{ToposOfSmoothSets}
+**(of the topos of smooth sets)**
+Let [[Diff]] be a [[small category]] version of the category of [[smooth manifolds]] (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $SmthSet \coloneqq Sh(Diff)$ (of *[[smooth sets]]*) has one point $p_n$ per [[natural number]] $n \in \mathbb{N}$ , corresponding to a point in $\R^n$: the [[stalk]] of a sheaf on $Diff$ at that point is the [[colimit]] over the result of evaluating the sheaf on all $n$-dimensional smooth [[open balls]] around a given point (the [[germ]] of a smooth manifold). This family of points is jointly conservative, i.e. sufficient to prove that $Sh(Diff)$ has enough points (cf. [Dugger 1998  p. 36](#Dugger1998)) in the context of the [[model structure on simplicial presheaves]]).
+
+But $SmthSet$ has a [[proper class]] of further points: The general topos points of $SmthSet$ are the *[[ind-object|ind-]]germs* of smooth manifolds, hence are the [[filtered colimits]] of the points described above.
+\end{example}
+
+
+
+\begin{example}
+**(toposes without points)**
+In contrast with [[point-set topology]] where non empty spaces tautologically have points there are non trivial toposes lacking points just like in pointfree topology there are nontrivial [[locale|locales]] without points. From a logical perspective these toposes correspond to consistent [[geometric theory|geometric theories]] lacking models in Set. Classical examples are provided by toposes of sheaves on complete atomless Boolean algebras (see Barr ([1974](#Barr74)) or for an example due to [[Pierre Deligne|Deligne]] [[SGA4]], p.412).
+\end{example}
 
 ## Related concepts
 
@@ -273,8 +283,8 @@ See also
 
 Points of the sheaf topos over the category of [[manifold]]s are discussed in
 
-* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
- {#Dugger}
+* {#Dugger1998} [[Dan Dugger]]: _Sheaves and homotopy theory_ (1998) &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)&rbrack;
+ 
 
 
 Toposes without points are discused in the homonymous paper
