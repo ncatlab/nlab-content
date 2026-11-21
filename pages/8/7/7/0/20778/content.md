@@ -60,7 +60,7 @@ The **1-Wasserstein space** over $X$ is the space $P X$ of Radon probability mea
 
 * If $X$ is [[complete metric space|complete]], so is $P X$.
 
-* If $X$ is [[separable space|separable]], so if $P X$.
+* If $X$ is [[separable space|separable]], so is $P X$.
 
 * If $X$ is [[compact]], so is $P X$.
 
