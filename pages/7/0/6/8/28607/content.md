@@ -19,7 +19,7 @@
 
 ## Overview
 
-Here we give the [[proofs]] that are necessary to show that the definition of the [[effective topos]] does in fact give a well-defined [[category]].
+Here we give the [[proofs]] that are necessary to show that the definition of the [[effective topos]] does in fact give a well-defined [[category]], and in fact an [[elementary topos]] with a [[natural numbers object]].
 
 In general, this follows the strategy of taking a proof that the category of partial [[setoid|setoids]] (where an object is a set equipped with a [[partial equivalence relation]] and a morphism is a respectful functional relation) is a category, and keeping track of realizers at each step. The resulting partial recursive functions will generally be closely related to the corresponding proof terms under the [[Curry-Howard correspondence]].
 
@@ -1076,3 +1076,112 @@ U \times X & \underset{\sigma' \times \operatorname{id}_X}{\to} & PX \times X
 then $\sigma'$ is equivalent to $\sigma$. The idea here would be: if we were working with partial setoids, suppose we had $u \xmapsto{\sigma'} S$. Then whenever $x \in S$, that induces an element $(S, x)$ of $\ni_X$, and we get the necessary hypotheses to apply the pullback condition with $\sigma'$, and get an element of $V$ which maps to $(u, x)$. Conversely, whenever $(u, x)$ is in the image of $V$, then applying the commutativity of the diagram for $\sigma'$, we get $x\in S$. This establishes the non-trivial conditions to have $u \xmapsto{\sigma} S$.
 
 Tracing this proof and tracking realizers of equivalences and mappings appropriately will lift this to a proof of the same fact in the effective topos.
+
+## Natural numbers object
+
+We will show that the object $N$ with underlying set $\mathbb{N}$ and effective PER
+$$E_N \coloneqq \{ (n, n, n) \mid n \in \mathbb{N} \}$$
+is a natural numbers object. First, it is easy to see that
+$$s_N \coloneqq \operatorname{id}_{\mathbb{N}}$$
+and
+$$t_N(n, m) \coloneqq n$$
+work to show that $E_N$ is indeed an effective PER.
+
+For the required morphisms, we will define
+$$z \coloneqq \mathbb{N} \times \{ (*, 0) \} \subseteq \mathbb{N} \times 1 \times N$$
+and
+$$s \coloneqq \{ (n, n, n+1) \mid n \in \mathbb{N} \} \subseteq \mathbb{N} \times N \times N.$$
+It is easy to check the required conditions for $z$ to induce a morphism $1 \to N$ and for $s$ to induce a morphism $N \to N$.
+
+Now for the universal property, suppose we have an effective functional relation $f$ between $Y$ and $X$, and an effective functional relation $g$ between $X$ and $X$. We will then define an effective functional relation $h$ between $N \times Y$ and $X$ such that
+$$\langle n, m, \langle p_1, \ldots, p_n \rangle \rangle \Vdash (q, y) \xmapsto{h} x$$
+if and only if $q = n$, and there exists a sequence $x_0, x_1, \ldots, x_{n-1}, x_n = x$ in $X$ such that
+$$m \Vdash y \xmapsto{f} x_0$$
+and
+$$p_i \Vdash x_{i-1} \xmapsto{g} x_i, \quad 1 \le i \le n.$$
+
+(Domain condition) Take
+$$d_h : \langle n, m, \vec p \rangle \mapsto \langle n, d_f(m) \rangle.$$
+
+(Codomain condition) Take
+$$c_h : \langle n, m, \vec p \rangle \mapsto c_g(p_n)$$
+(or $\langle n, m, \langle \rangle \rangle \mapsto c_f(m)$ in the case $n=0$ so that $\vec p$ is an empty tuple).
+
+(Image uniqueness) Suppose we have
+$$\langle n, m, \vec p \rangle \Vdash (n, y) \xmapsto{h} x$$
+and
+$$\langle n, m', \vec p' \rangle \Vdash (n, y) \xmapsto{h} x'$$
+with witness sequences $x_0, \ldots, x_{n-1}$ and $x_0', \ldots, x_{n-1}'$ respectively.
+Then
+$$u_g(m, m') \Vdash x_0 \equiv x_0'.$$
+Also, whenever
+$$q \Vdash x_i \equiv x_i'$$
+for $1 \le i &lt; n$, then
+$$r_g(p_{i+1}, q, c_g(p_{i+1}) \Vdash x_i' \xmapsto{f} x_{i+1}.$$
+Thus,
+$$u_g(p_{i+1}, r_g(p_{i+1}, q, c_g(p_{i+1})), p_{i+1}') \Vdash x_{i+1} \equiv x_{i+1}'.$$
+Therefore, it is easy to write a program which iterates this inductive step to get a realizer of $x = x_n \equiv x_n' = x'$.
+
+(Totality) Take
+$$t_h : n \mapsto \langle n, t_f(n), \langle t_g(c_f(t_f(n)), t_g(c_g(t_g(c_f(t_f(n)), \ldots, (t_g \circ c_g)^{n-1}(t_g(c_f(t_f(n)))) \rangle \rangle.$$
+
+(Respectfulness) If
+$$\langle n, m, \vec p \rangle \Vdash (n, y) \xmapsto{h} x,$$
+$$n \Vdash n \equiv n,$$
+$$q \Vdash y \equiv y',$$
+and
+$$r \Vdash x \equiv x',$$
+then use respectfulness of $f$ along with $q$ to modify $m$ into a realizer of mapping $y' \xmapsto{f} x_0$, and use respectfulness of $g$ along with $r$ to modify $p_n$ into a realizer of mapping $x_{n-1} \xmapsto{g} x'$. (Or, if $n=0$, replace $m$ with $r_f(m, q, r)$.) It is straightforward to see that this defines a partial recursive function satisfying the required condition for $r_h$.
+
+Now, to check the required conditions on $h$, first we need to show that $f$ is equivalent to $h \circ (z \circ !_Y, \operatorname{id}_Y)$ where the second composand is a relation between $Y$ and $N\times Y$. This is easy: first, if $m \Vdash y \xmapsto{f} x$, we see that
+$$y \xmapsto{(z \circ !_Y, \operatorname{id}_Y)} (0, y);$$
+and
+$$\langle 0, m, \langle \rangle \Vdash (0, y) \xmapsto{h} x.$$
+Therefore,
+$$y \xmapsto{h \circ (z \circ !_Y, \operatorname{id}_Y)} x,$$
+and as usual it is straightforward to track realizers through the proof and get the required partial recursive function to witness the equivalence.
+
+Similarly, we need to show that $h \circ (s \times \operatorname{id}_Y)$ is equivalent to $g \circ h$. Thus, suppose
+$$m \Vdash (n, y) \xmapsto{g\circ h} x.$$
+Then there is $x_n \in X$ such that we get a decomposition
+$$(n, m', \vec p) \Vdash (n, y) \xmapsto{h} x_n$$
+and
+$$q \Vdash x_n \xmapsto{g} x.$$
+Choose a witness sequence $x_0, \ldots, x_{n-1}, x_n = x_n$ of intermediate results. Then we also have
+$$(n, y) \xmapsto{s \times \operatorname{id}_Y} (n+1, y)$$
+and
+$$(n+1, m', \langle \vec p, q \rangle) \Vdash (n+1, y) \xmapsto{h} x.$$
+It follows that
+$$(n, y) \xmapsto{h \circ (s \times \operatorname{id}_Y)} x,$$
+and as before tracking realizers through the proof gives the required witness of equivalence.
+
+Finally, to show uniqueness of $h$, suppose we have another effective functional relation $h'$ between $N \times Y$ and $X$ such that $f$ is equivalent to $h' \circ (z \circ !_Y, \operatorname{id}_Y)$, and $h' \circ (s \times \operatorname{id}_Y)$ is equivalent to $g \circ h'$. We then prove by induction on $n$ that if
+$$(n, y) \xmapsto{h} x,$$
+then
+$$(n, y) \xmapsto{h'} x.$$
+For the base case $n=0$, if
+$$(0, y) \xmapsto{h} x,$$
+then
+$$y \xmapsto{(z \circ !_Y, \operatorname{id}_Y)} (0, y).$$
+Therefore,
+$$y \xmapsto{f} x,$$
+and we can conclude
+$$(0, y) \xmapsto{h'} x.$$
+
+Similarly, suppose the statement holds for $n$. Then if
+$$(n+1, y) \xmapsto{h} x,$$
+then
+$$(n, y) \xmapsto{s \times \operatorname{id}_Y} (n+1, y),$$
+so
+$$(n, y) \xmapsto{g\circ h} x.$$
+Therefore, we can find $x' \in X$ such that
+$$(n, y) \xmapsto{h} x'$$
+and
+$$x' \xmapsto{g} x.$$
+From the inductive hypothesis,
+$$(n, y) \xmapsto{h'} x'$$
+and we can conclude that
+$$(n+1, y) \xmapsto{h'} x$$
+as well.
+
+If we track realizers through this proof, we can get a recursively defined function (with recursion in $n$) which gives the required equivalence tracker. (And given a realizer of $(n, y) \xmapsto{h} x$, we can extract $n$ by applying $d_h$ to get a realizer of $(n, y) \equiv (n, y)$; then applying $\pi_1$ gives a realizer of $n \equiv n$, which must be exactly $n$.)
