@@ -46,7 +46,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-* Jan 2027 --- details to appear here
+* spring 2027 --- details to appear here
 
 \linebreak
 
