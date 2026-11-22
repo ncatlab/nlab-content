@@ -1,4 +1,7 @@
 
+> **Disambiguation.** Here the term *topological category* is understood in a tradition motivated by examples of [[concrete categories]] in [[topology]] and does *not* refer to [[internal category|categories internal to]] or [[enriched category|enriched in]] in [[Top]] (for which cf. *[[topologically enriched category]]* instead).  The term *[[topological groupoid]]* (which *is* an [[internal groupoid]] in [[Top]]) is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$, in the sense used here, is [[terminal category|trivial]].  On the other hand, there is use of the term 'topological functor', which  we tend to avoid other than below.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,9 +13,6 @@
 =--
 
 \tableofcontents
-
-
-> **Terminology warning.** Here the term *topological category* is understood in a tradition motivated by examples of [[concrete categories]] in [[topology]] and does *not* refer to [[internal category|categories internal to]] or [[enriched category|enriched in]] in [[Top]] (cf. *[[topologically enriched category]]* instead).  The term *[[topological groupoid]]* (which *is* an [[internal groupoid]] in [[Top]]) is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$, in the sense used here, is [[terminal category|trivial]].  On the other hand, there is use of the term 'topological functor', which  we tend to avoid other than below.
 
 
 ## Idea
