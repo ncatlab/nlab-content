@@ -213,6 +213,11 @@ $$
 
 ## References
 
+### General
+
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]]: *Nuts and Bolts*, section 10.3 of: _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213--393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
+
+
 ### In 5d gravity
 
 Original articles:
@@ -246,7 +251,8 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
   also in: [[Michael Duff]] (ed.): _[[The World in Eleven Dimensions]]_ 57--60 
 
-* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
+* {#Townsend95} [[Paul Townsend]]: _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184--187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068), <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>&rbrack;
+
 
 * {#Hull97} [[Chris Hull]]: _Gravitational Duality, Branes and Charges_, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162), <a href="https://doi.org/10.1016/S0550-3213(97)00501-4">doi:10.1016/S0550-3213(97)00501-4</a>&rbrack;
 
@@ -254,9 +260,9 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#Sen97b} [[Ashoke Sen]], _Dynamics of Multiple Kaluza-Klein Monopoles in M- and String Theory_, Adv. Theor. Math. Phys. 1:115-126, 1998 ([arXiv:hep-th/9707042](https://arxiv.org/abs/hep-th/9707042))
 
-* {#Sen97c} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+* {#Sen97c} [[Ashoke Sen]]: _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001 (1997) &lbrack;[arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123), [doi:10.1088/1126-6708/1997/09/001](http://doi.org/10.1088/1126-6708/1997/09/001)&rbrack;
 
-* {#IMSY98} Nissan Itzhaki, [[Juan Maldacena]], Jacob Sonnenschein, Shimon Yankielowicz, _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 1998 ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
+* {#IMSY98} [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]]: _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D **58** (1998) 046004 &lbrack;[arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042), [doi:10.1103/PhysRevD.58.046004](https://doi.org/10.1103/PhysRevD.58.046004)&rbrack;
 
 * {#Asano00} Masako Asano, _Compactification and Identification of Branes in the Kaluza-Klein monopole backgrounds_ ([arXiv:hep-th/0003241](https://arxiv.org/abs/hep-th/0003241))
 
