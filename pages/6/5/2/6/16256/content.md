@@ -306,7 +306,7 @@ Relation to [[massive type IIA string theory]]:
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], p. 45 of: _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys. Rept. **392** (2004) 121-189 &lbrack;[arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191)&rbrack;
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]]; p. 45 of: _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys. Rept. **392** (2004) 121--189 &lbrack;[arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191), [doi:10.1016/j.physrep.2003.10.017](https://doi.org/10.1016/j.physrep.2003.10.017)&rbrack;
 
 ### Relation to black holes
 
