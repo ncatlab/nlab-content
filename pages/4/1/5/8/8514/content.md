@@ -172,5 +172,9 @@ According to [[Peter Scholze]], there is a mistake in Joshi's proof at Propositi
 
 * [[Peter Scholze]], *Global character of ABC/Szpiro inequalities*, [MathOverflow (version: 2024-03-29)](https://mathoverflow.net/q/467995). 
 
+According to Edison Mai's Lean formalization of Kirti Joshi's proof, there is a gap in Joshi's proof at Corollary 9.11.1.1, which is Joshi's equivalent of Mochizuki's Corollary 3.12:
+
+* Edison Mai, *KirtiJoshi-abc* [github](https://github.com/Ember-Institute/KirtiJoshi-abc/releases/tag/BadEnd)
+
 [[!redirects abc-conjecture]]
 [[!redirects abc]]
