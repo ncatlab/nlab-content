@@ -59,7 +59,7 @@ The map which send an [[undirected simple graph]] $G$ to the pair $(C(G), V(G))$
 
 The terminology "coherence space" seems to be due to:
 
-* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), Section 8 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendices by [[Paul Taylor]] and [[Yves Lafont]]), Section 8 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
 Other references say instead "coherent space":
 
