@@ -238,6 +238,9 @@ See also:
 
 * Manuel Artime, [[Ralph Blumenhagen]], Thomas Raml: *A Quantum-Mechanical Model for the M5-Brane* &lbrack;[arXiv:2609.25207](https://arxiv.org/abs/2609.25207)&rbrack;
 
+* Carmine Montella: *A matrix model of an M5--brane on a plane--wave background* &lbrack;[arXiv:2611.26687](https://arxiv.org/abs/2611.26687)&rbrack;
+
+
 
 
 
