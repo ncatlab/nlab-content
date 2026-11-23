@@ -104,18 +104,15 @@ A rng with a unit must have an identity.
 \end{prop}
 
 \begin{proof}
-Let $R$ be a rng with a unit $u$;\linebreak
-
-for any $a,b\in R$ define ${}_a u^{-1}$ as the unique element s.t. $a= {}_a u^{-1} \cdot u$, and define $u^{-1}_b$ as the unique element s.t. $b= u\cdot u^{-1}_b$;\linebreak
-the goal is to show that $u^{-1}_u= {}_u u^{-1}$ which is the identity of $R$.
+Let $R$ be a rng with a unit $u$, and take $e_l,e_r \in R$ so that $u e_r = e_l u = u$;\linebreak
 
 Just observe that
 
-* $a\cdot u^{-1}_u= {}_a u^{-1}\cdot u \cdot u^{-1}_u= {}_a u^{-1} \cdot u = a$ for any $a\in R$;
+* Given $x\in R$ there is an $a\in R$ such that $x = u a = e_l u a = e_l x$, therefore $e_l$ is a left identity;
 
-* $ {}_u u^{-1} \cdot b= {}_u u^{-1} \cdot u\cdot u^{-1}_b=u\cdot u^{-1}_b=b$ for any $b\in R$;
+* Given $y\in R$ there is a $b\in R$ such that $y = b u = b u e_r = y e_r$, therefore $e_r$ is a right identity;
 
-* $u^{-1}_u = {}_u u^{-1} \cdot u^{-1}_u = {}_u u^{-1}$ by the previous two points.
+* $e_l = e_l e_r = e_r$ by the previous two points.
 
 \end{proof}
 
