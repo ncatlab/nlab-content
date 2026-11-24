@@ -35,6 +35,10 @@ A [[topological twist]] of [[supergravity]].
 
 * Jay Cushing, [[Gregory W. Moore]], [[Martin Rocek]], [[Vivek Saxena]]: *Superconformal Gravity And The Topology Of Diffeomorphism Groups* &lbrack;[arXiv:2311.08394](https://arxiv.org/abs/2311.08394), [spire:2722361](https://inspirehep.net/literature/2722361)&rbrack;
 
+* [[Fabian Hahner]]: *The Pure Spinor Superfield Formalism and Twisted Supergravity*, PhD thesis, Heidelberg (2024) &lbrack;[pdf](http://archiv.ub.uni-heidelberg.de/volltextserver/34380/1/Thesis-Fabian-Hahner.pdf), [doi:10.11588/heidok.00034380](https://doi.org/10.11588/heidok.00034380)&rbrack;
+  > (via [[pure spinors]])
+
+
 On twisted [[D=11 supergravity]]:
 
 * [[Surya Raghavendran]], [[Ingmar Saberi]], [[Brian R. Williams]]: *Twisted eleven-dimensional supergravity*, Commun. Math. Phys. **402** (2023) 1103–1166 &lbrack;[arXiv:2111.03049](https://arxiv.org/abs/2111.03049), [doi:10.1007/s00220-023-04745-2](https://doi.org/10.1007/s00220-023-04745-2)&rbrack;
