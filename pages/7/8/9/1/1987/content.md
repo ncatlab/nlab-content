@@ -4,7 +4,7 @@ I left academia for industry in 2013, but I do still have many of the same inter
 
 ## Selected writings
 
-Unified account of [[Löb's theorem]]/[[Gödel's second incompleteness theorem]], [[Kripke semantics]] for [[provability logic]], and [[guarded recursion]], via [[essentially algebraic theories]] which "self-internalize":
+Unified account of [[Löb's theorem]]/[[Gödel's second incompleteness theorem]], [[Kripke semantics]] for [[provability logic]], and [[guarded recursion]], via [[essentially algebraic theories]] which "self-internalize" (see [[introspective theory]]):
 
 * [[Sridhar Ramesh]], *Introspective Theories and Geminal Categories*, PhD thesis, Berkeley (2023) &lbrack;[escholarship:3mn0c475](https://escholarship.org/uc/item/3mn0c475), [[Ramesh-IntrospectiveTheories.pdf:file]]&rbrack;
 
