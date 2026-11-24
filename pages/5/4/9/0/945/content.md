@@ -122,8 +122,7 @@ The category $Top$ of [[topological spaces]] does not have any small full subcat
 \end{example}
 
 \begin{example}
-The full subcategory of $Set^{op}$ on a countable set is dense if and only if there is not a proper class of [[measurable cardinals]].  ([Isbell '60](#Isbell1960), Section 2.5.)
-In fact, $Set^{op}$ admits a small dense subcategory if and only if there is not a proper class of [[measurable cardinals]].  ([Adámek–Rosický](#LPAC), Theorem A.5.)
+The full subcategory of $Set^{op}$ on a countably infinite set is dense if and only if there are no [[measurable cardinals]] ([Isbell '60](#Isbell1960), item 2.5, p. 549). More generally, $Set^{op}$ admits a small dense subcategory if and only if there is not a proper class of [[measurable cardinals]].  ([Adámek–Rosický](#LPAC), Theorem A.5.)
 \end{example}
 
 \begin{example}
