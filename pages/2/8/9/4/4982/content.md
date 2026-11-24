@@ -58,6 +58,9 @@ A [[symplectic geometry|symplecto]]/[[Poisson geometry|Poisson]] geometrically o
 
 * [[Nikita Nekrasov]], Paul Wiegmann: *Fluid dynamics as intersection problem* &lbrack;[arXiv:2512.25053](https://arxiv.org/abs/2512.25053)&rbrack;
 
+* [[Nikita Nekrasov]], Paul Wiegmann: *Relativistic Hydrodynamics as an Intersection Problem* &lbrack;[arXiv:2611.28735](https://arxiv.org/abs/2611.28735)&rbrack;
+
+
 
 
 [[!redirects fluid dynamics]]
