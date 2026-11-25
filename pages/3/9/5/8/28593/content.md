@@ -14,6 +14,10 @@ Supplementary materials for [[HomePage|$n$Lab]] entries that go beyond what reas
 
 **C**
 
+* {#ConstructiveComplexDelooping} [[nLab materials]]: *Constructive Complex Units and Their Torsor Delooping in Cubical Agda* (2026-11-23) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/main/papers/ConstructiveComplexDelooping/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/main/src/ConstructiveComplex">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda">GitHub</a>&rbrack;
+  > (on [[HoTT book complex number]] and [[delooping via torsors]]; Cubical Agda type-checked)
+
+
 * {#Cyclification} [[nLab materials]]: *Cyclification* (2026-10-11) &lbrack;[[Cyclification_26-10-11.pdf|main.pdf:file]], [[Cyclification_26-10-11.zip|sources.zip:file]]&rbrack;
   > (on [[cyclification]])
 
