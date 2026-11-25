@@ -7,6 +7,8 @@
 
 ***
 
+$\beta^3$
+
 \begin{tikzcd}
   X^{11}
   \ar[d]
