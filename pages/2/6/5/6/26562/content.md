@@ -118,7 +118,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
-* [[point-free measure theory|Point-free measure theory]]: [Moss-Perrone'22](#det_submonad) and [Fritz-Lorenzin'25](#quantum_measurable).
+* [[point-free measure theory|Point-free measure theory]]: [Moss-Perrone'22](#det_submonad), [Fritz-Lorenzin'25](#quantum_measurable), [Loregian-Lorenzin'26](#lore_lore).
 
 * [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales).
 
@@ -186,7 +186,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Quantum versions of Markov categories: [Parzygnat'20](#quantum_markov) and [Fritz-Lorenzin'23](#quantum_definetti).
 
-* Quantum versions of measurable spaces: [Fritz-Lorenzin'25](#quantum_measurable).
+* Quantum versions of measurable spaces: [Fritz-Lorenzin'25](#quantum_measurable), [Loregian-Lorenzin'26](#lore_lore).
 
 (...)
 
@@ -466,6 +466,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#entropy_diversity} Tom Leinster, _Entropy and Diversity_, Cambridge University Press, 2021. 
 
 * {#imprecise_graded} Jack Liell-Cock and [[Sam Staton]], _Compositional imprecise probability_, POPL 2025. ([arXiv](https://arxiv.org/abs/2405.09391))
+
+* {#lore_lore} Antonio Lorenzin and Fosco Loregian, _Monadicity of noncommutative measurable spaces over C\*-algebras_, 2026. ([arXiv](https://arxiv.org/abs/2611.32363))
 
 * {#probabilistic_triangulation} Antonio Lorenzin and [[Fabio Zanasi]], _An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models_, 2025. ([arXiv](https://arxiv.org/abs/2503.11820))
 
