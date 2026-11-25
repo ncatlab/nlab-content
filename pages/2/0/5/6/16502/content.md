@@ -3,7 +3,7 @@ Felix Cherubini (previously: Felix Wellen)
 
 * [personal page](http://felix-cherubini.de)
 
-* [institute page](https://www.gu.se/en/about/find-staff/felixcherubini)
+* [institute page](https://www.uni-augsburg.de/de/fakultaet/mntf/math/prof/alg/arbeitsgruppe/felix-cherubini-wellen/)
 
 * [github page](https://github.com/felixwellen)
 
