@@ -53,11 +53,18 @@ and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh0
 
 * {#Tsimpis05} [[Dimitrios Tsimpis]]: _Massive IIA supergravities_, JHEP 0510:057 (2005) &lbrack;[arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214), [arXiv:10.1088/1126-6708/2005/10/057](https://doi.org/10.1088/1126-6708/2005/10/057)&rbrack;
 
+See also:
+
+* Euihun Joung, J. A. Rosabal: *Romans Mass from a $GL(1,\mathbb{R})$ Topological Field Theory with Boundary* &lbrack;[arXiv:2611.32437](https://arxiv.org/abs/2611.32437)&rbrack;
+
+
 ### Black branes
 
 #### D8-branes
 
 As a [[black brane]] the [[D8-brane]] was identified as a solution to [[Romans supergravity]]/[[massive type IIA string theory]] in
+
+* [[Eric Bergshoeff]], [[Michael B. Green]], [[George Papadopoulos]], [[Paul K. Townsend]]: *The IIA super-eightbrane* &lbrack;[arXiv:hep-th/9511079](https://arxiv.org/abs/hep-th/9511079)&rbrack;
 
 * {#BergshoeffdeBooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]]: _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B **470** (1996) 113--135 \[<a href="http://doi.org/10.1016/0550-3213(96)00171-X">doi:10.1016/0550-3213(96)00171-X</a>, [arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150)\]
 
