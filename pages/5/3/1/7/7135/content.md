@@ -90,6 +90,8 @@ On centrally extended [[supersymmetry]] [[super Lie algebras]] in [[string theor
 
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
 
+* [[Eric Bergshoeff]], [[Michael B. Green]], [[George Papadopoulos]], [[Paul K. Townsend]]: *The IIA super-eightbrane* &lbrack;[arXiv:hep-th/9511079](https://arxiv.org/abs/hep-th/9511079)&rbrack;
+
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], [[Mees de Roo]], [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
 
