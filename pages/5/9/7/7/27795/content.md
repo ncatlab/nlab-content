@@ -126,4 +126,6 @@ More details in [FL'25, Section 4](#fritz_lorenzin).
 
 * {#fritz_lorenzin} [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
 
+* {#lore_lore} Fosco Loregian and Antonio Lorenzin, _Monadicity of noncommutative measurable spaces over C\*-algebras_, 2026. ([arXiv](https://arxiv.org/abs/2611.32363))
+
 category: probability
