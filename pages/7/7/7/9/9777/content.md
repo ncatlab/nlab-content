@@ -12,9 +12,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -96,6 +94,8 @@ Here we are showing
 ### As black brane solutions
 
 As a [[black brane]] the D8 was identified as a solution to [[Romans supergravity]]/[[massive type IIA string theory]] in
+
+* [[Eric Bergshoeff]], [[Michael B. Green]], [[George Papadopoulos]], [[Paul K. Townsend]]: *The IIA super-eightbrane* &lbrack;[arXiv:hep-th/9511079](https://arxiv.org/abs/hep-th/9511079)&rbrack;
 
 * {#BergshoeffdeBooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], [[Mees de Roo]], [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B **470** (1996) 113-135 &lbrack;[arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150)&rbrack;
 
