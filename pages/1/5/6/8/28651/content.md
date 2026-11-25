@@ -218,6 +218,11 @@ A complete computational realization of the quantum gate construction requires f
 
 ## References ##
 
+* {#ConstructiveComplexDelooping} [[nLab materials]]: *Constructive Complex Units and Their Torsor Delooping in Cubical Agda* (2026-11-23) &lbrack;<a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/blob/main/papers/ConstructiveComplexDelooping/main.pdf">main.pdf</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda/tree/main/src/ConstructiveComplex">agda</a>, <a href="https://github.com/HongweiWang42/TopologicalQuantumProgramming-CubicalAgda">GitHub</a>&rbrack;
+  > (constructive complex commutative ring, multiplicative units group and torsor delooping; Cubical Agda type-checked)
+
+
+
 * {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 * Jackson Brough, *Formalizing the Real Numbers in Homotopy Type Theory with Cubical Agda*, 2026. [arXiv:2604.24782](https://arxiv.org/abs/2604.24782).
