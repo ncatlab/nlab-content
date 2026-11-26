@@ -867,13 +867,41 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 Examples of Kan extensions that are not point-wise are discussed in [Borceux, exercise 3.9.7](#Borceux).
 
+### Restriction and (co-)extension of presheaves
+
+* The image and pre-image maps of a function
+
+Let $X$ be a set, and identify it with the [[discrete category]] on $X$ (having one object for each element of $X$ and no morphisms except identities). Let $2$ denote the [[walking morphism|category of truth values]] with objects $0$ and $1$ and a single morphism from $0$ to $1$. By taking [[characteristic function|characteristic functions]], each subset $A$ of $X$ corresponds to a unique functor from $X$ to $2$. (Notice that, since $X$ is discrete, $X \cong X^\text{op}$. Thus, the power set of $X$, ordered by inclusion, is just the [[posetal category|posetal]] category of $2$-valued presheaves on $X$.)
+
+Given a set $Y$ and a function $f : X \to Y$, pre-composing with $f$ gives a functor from $[Y,2]$ to $[X,2]$. Under the correspondence between power sets and $2$-valued presheaf categories, this pre-composition functor $f^* : [Y,2] \to [X,2]$ is just the pre-image map $f^{-1} : \mathcal{P}(Y) \to \mathcal{P}(X)$. If we denote the indicator function of a subset $B$ of $Y$ by $\chi_B : Y \to 2$ and similarly for subsets of $X$, then we have 
+
+$$
+  \chi_B \circ f = \chi_{f^{-1}(B)}.
+$$
+
+Taking the left Kan extension along $f$ gives a functor $Lan_f : [X,2] \to [Y,2]$ (alternatively denoted by $f_*$). This functor corresponds to the direct image map $f : \mathcal{P}(X) \to \mathcal{P}(Y)$. That is, for all subsets $A$ of $X$, 
+
+$$
+  Lan_f \chi_A = \chi_{f(A)}.
+$$
+
+This is another way to formulate the fact that the direct image map is left-adjoint to the pre-image map.
+
+Taking the right Kan extension along $f$ corresponds to the "universal image" map $f_! : \mathcal{P}(X) \to \mathcal{P}(Y)$, which takes an arbitrary subset $A$ of $X$ to the set $f_!(A) = \{y \in Y : f^{-1}(\{y\}) \subseteq A\}$. That is,
+
+$$
+  Ran_f \chi_A = \chi_{f_!(A)}.
+$$
+
+The "universal image" map is right-adjoint to the pre-image map.
+
 ### Restriction and extension of sheaves 
 
 For more on the following see also 
 
 * [[restriction and extension of sheaves]]
 
-The basic example for left Kan extensions using the above pointwise formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
+A basic example for left Kan extensions using the above pointwise formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
 On the other hand, given a presheaf $G$ over $Y$ we can not
 define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider approximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to [[sheafification|sheafify]]. The result is sheaf-theoretic pullback 
 $$
