@@ -90,7 +90,7 @@ $$p_1(n) \Vdash x \xmapsto{g} y$$
 and
 $$p_2(n) \Vdash y \xmapsto{f} z.$$
 
-For proofs that this does indeed define a category, see [[effective topos proofs|here]].
+For proofs that this does indeed define a category, and in fact an elementary topos with a natural numbers object, see [[effective topos proofs|here]].
 
 ## Related concepts
 
