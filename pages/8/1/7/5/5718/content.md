@@ -77,7 +77,7 @@ $$
 $$
 
 The extension class $[J^1(E)]\in\mathrm{Ext}_{\mathcal{O}_X}^1(E,E\otimes\Omega_X^1)$ of this exact sequence is called the Atiyah class of $E$, and is somewhat equivalent to the first Chern class of $E$.
-Note that the Atiyah class is exactly the obstruction to the Atiyah exact sequence admitting a splitting, and a (holomorphic) splitting of the Atiyah exact sequence is exactly a Koszul connection.
+Note that the Atiyah class is exactly the obstruction to the Atiyah exact sequence admitting a splitting, and a splitting of the Atiyah exact sequence is exactly a Koszul connection: the splitting being $\mathcal{O}_X$-linear gives the product rule for a connection; the classical definition of a connection is recovered by looking at the first component of such a splitting, which is *not* $\mathcal{O}_X$-linear. See also [[Atiyah Lie algebroid]]
 
 
 
