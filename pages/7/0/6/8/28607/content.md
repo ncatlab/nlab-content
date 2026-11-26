@@ -23,6 +23,8 @@ Here we give the [[proofs]] that are necessary to show that the definition of th
 
 In general, this follows the strategy of taking a proof that the category of partial [[setoid|setoids]] (where an object is a set equipped with a [[partial equivalence relation]] and a morphism is a respectful functional relation) is a category, and keeping track of realizers at each step. The resulting partial recursive functions will generally be closely related to the corresponding proof terms under the [[Curry-Howard correspondence]].
 
+(Note that even though this is a special case of proofs for general constructions of a [[realizability topos]] or the topos corresponding to a [[tripos]], seeing the concrete versions of the proofs for this particular case is likely to be more accessible for those new to the subject.)
+
 ## Category
 
 ### Equivalence relation
@@ -1185,3 +1187,115 @@ $$(n+1, y) \xmapsto{h'} x$$
 as well.
 
 If we track realizers through this proof, we can get a recursively defined function (with recursion in $n$) which gives the required equivalence tracker. (And given a realizer of $(n, y) \xmapsto{h} x$, we can extract $n$ by applying $d_h$ to get a realizer of $(n, y) \equiv (n, y)$; then applying $\pi_1$ gives a realizer of $n \equiv n$, which must be exactly $n$.)
+
+## Derived properties
+
+The following sections give constructions of objects which exist in a general elementary topos, but for which more concrete or accessible descriptions are available for the effective topos.
+
+### Global sections
+
+\begin{proposition}
+The global sections functor $\operatorname{Hom}(1, {-}) : \mathbf{Eff} \to \mathbf{Set}$ is isomorphic to the functor which takes an object $(X, E_X)$ to the quotient of the partial equivalence relation $(p_{2,3})_*(E_X)$.
+\end{proposition}
+\begin{proof}
+Given any effective functional relation $f$ between $1$ and $X$, we have $0 \Vdash * \equiv *$, so there exists $x \in X$ such that $t_f(0) \Vdash * \xmapsto{f} x$ and thus $c_f(t_f(0)) \Vdash x \equiv x$. Therefore, $x$ is in the natural domain of the PER $(p_{2,3})_*(E_X)$. Furthermore, if we have any other choice $x'$ such that $t_f(0) \Vdash * \xmapsto{f} x'$, then $u_f(t_f(0), t_f(0)) \Vdash x \equiv x'$. Thus, we get a well-defined equivalence class in the quotient.
+
+For the reverse direction, for any $x \in X$ and $n \in \mathbb{N}$ such that $n \Vdash x \equiv x$, we can define an effective functional relation $f$ between $1$ and $X$ such that $m \Vdash * \xmapsto{f} x'$ if and only if $m \Vdash x \equiv x'$. Checking the required conditions for $f$ to be an effective functional relation is straightforward.
+
+It is also straightforward to check that the operations above are inverse natural transformations.
+\end{proof}
+
+### Subobject classifier
+
+Since the subobject classifier can be recovered as $P(1)$, it is easy to see the result is isomorphic to the following object:
+
+The underlying set of $\Omega$ is $P_{\mathbf{Set}}(\mathbb{N})$. We interpret $p \subseteq \mathbb{N}$ as representing a truth value, with notation $a \Vdash p$ for $a \in p$. For two truth values $p, q$, say $n \Vdash p \rightarrow q$ if $\varphi_n$ is a unary partial recursive function, and whenever
+$$a \Vdash p,$$
+then $\varphi_n(a)$ is defined, and
+$$\varphi_n(a) \Vdash q.$$
+Now the effective PER will be denoted by $\leftrightarrow$, where
+$$\langle n, m \rangle \Vdash p \leftrightarrow q$$
+if and only if
+$$n \Vdash p \rightarrow q$$
+and
+$$m \Vdash q \rightarrow p.$$
+
+### Exponentials
+
+Given two objects $(X, E_X)$ and $(Y, E_Y)$, we can describe their exponential as follows: the underlying set of $[X, Y]$ is $P_{\mathbf{Set}}(\mathbb{N} \times X \times Y)$. Realizers of equivalence $f \equiv g$ in the PER can be described as tuples
+\[
+\begin{array}{c}
+\langle \lceil d_f \rceil, \lceil c_f \rceil, \lceil u_f \rceil, \lceil t_f \rceil, \lceil r_f \rceil, \\
+\lceil d_g \rceil, \lceil c_g \rceil, \lceil u_g \rceil, \lceil t_g \rceil, \lceil r_g \rceil, \\
+\lceil e_{f,g} \rceil \rangle
+\end{array}
+\]
+where $\varphi_{\lceil d_f \rceil}$ satisfies the condition for $d_f$, and so on.
+
+(In fact, the distinction between this description, and the construction in a general elementary topos as a certain subobject of $P(X\times Y)$, is not as wide a distinction as it is in many examples of topoi, for instance in sheaf topoi.)
+
+Similarly, if we have an effective functional relation $f$ between $X$ and $Z$, and an effective functional relation $g$ between $Y$ and $Z$, then we can describe the relative exponential $[f, g]_Z$ as follows: the underlying set is $P_{\mathbf{Set}}(\mathbb{N} \times X \times Y) \times Z$. In the functionality conditions, make the following adjustments:
+
+* For $d_h$, replace the $x \equiv x$ conclusion with $x \xmapsto{f} z$.
+
+* Similarly, for $c_h$, replace the $y \equiv y$ conclusion with $y \xmapsto{g} z$.
+
+* Similarly, for $t_h$, replace the $x \equiv x$ hypothesis with $x \xmapsto{f} z$.
+
+* Add a realizer for $z \equiv z'$ to the tuple (which will be needed in case $z$ is not in the image of $f$ so that the empty set works as the first component).
+
+### Finite colimits
+
+Suppose we have a finite category $I$ and a functor $X : I \to \mathbf{Eff}$. We can informally describe the colimit of $X$ as follows: The underlying set will be $\bigsqcup_{i\in I} X_i$. Realizers of equivalence $x \equiv y$ will roughly be encodings of a zigzag path through $I$ from the index of $x$ to the index of $y$, and a tuple of realizers for the morphisms of the path, such that there exists a compatible sequence of intermediate elements $x_0 = x, x_1, x_2, \ldots, x_n = y$.
+
+Note that as usual, there are a couple situations where the general description simplifies substantially. For instance, the initial object simply has underlying set $\emptyset$, equipped with the empty set as its effective PER.
+
+Similarly, for a binary coproduct, any path is simply a sequence of identity morphisms on either $i=1$ or $i=2$. The corresponding sequence of realizers can be collapsed into one using the symmetry and transitivity conditions. Thus, the binary coproduct $(X, E_X) \sqcup (Y, E_Y)$ has underlying set $X \sqcup Y$, and the effective PER is equivalent to
+\[
+\begin{array}{c}
+E_{X\sqcup Y} \coloneqq \{ (2n, x_1, x_2) \in \mathbb{N} \times X \times X \mid (n, x_1, x_2) \in E_X \} \cup \\
+\{ (2n+1, y_1, y_2) \in \mathbb{N} \times Y \times Y \mid (n, y_1, y_2) \in E_Y \}.
+\end{array}
+\]
+
+Likewise, if we have a congruence $q_1, q_2 : E \rightrightarrows X$, then any zigzag path can be extended so its endpoints are at $X$; and using the congruence properties, the zigzag path can be collapsed (or an empty path extended using reflexivity) to one of the form of $q_1$ reversed followed by $q_2$. Thus, the coequalizer of $q_1$ and $q_2$ can be described as follows: $X / E$ has the same underlying set as $X$, but it is equipped with the PER where
+$$\langle n, m \rangle \Vdash x \equiv_{X / E} y$$
+if and only if there exists $e \in E$ such that
+$$n \Vdash e \xmapsto{q_1} x$$
+and
+$$m \Vdash e \xmapsto{q_2} y.$$
+
+As a special case, since $\mathbf{Eff}$ is regular, images can be described as quotients of kernel pairs. Using this, if $f$ is an effective functional relation between $X$ and $Y$, then we can describe $\operatorname{im}([f])$ as follows: it has the same underlying set as $Y$, but it is equipped with the PER where
+$$\langle n, m \rangle \Vdash y_1 \equiv_{\operatorname{im}([f])} y_2$$
+if and only if
+$$n \Vdash y_1 \equiv_Y y_2$$
+and there exists $x\in X$ such that
+$$m \Vdash x \xmapsto{f} y_1.$$
+
+Now, using the fact that every epimorphism in $\mathbf{Eff}$ is regular, and $[f]$ is a regular epimorphism if and only if the canonical morphism $\operatorname{im}([f]) \to Y$ is an isomorphism, we can derive this condition:
+\begin{lemma}
+If $f$ is an effective functional relation between $X$ and $Y$, then $[f]$ is an epimorphism if and only if there exists a partial recursive function $s_f : \mathbb{N} \dashrightarrow \mathbb{N}$ such that whenever
+$$n \Vdash y \equiv y,$$
+then $s_f(n)$ is defined and there exists $x\in X$ such that
+$$s_f(n) \Vdash x \xmapsto{f} y.$$
+\end{lemma}
+
+### Partial morphism classifiers
+
+Probably the easiest way to construct partial morphism classifiers in $\mathbf{Eff}$ is to use the generic construction as the subobject of $PX$ consisting of the subsingletons, and then apply some simplifications. This will result in a description similar to that of $PX$ above. Namely, $\tilde X$ will have the same underlying set as $PX$, but in the equipped PER, the equivalence realizer tuple will be extended by a subsingleton condition encoded by $s$. Here $\varphi_s$ must be a binary partial recursive function $\mathbb{N}^2 \dashrightarrow \mathbb{N}$ such that whenever
+$$r_1 \Vdash x_1 \in S$$
+and
+$$r_2 \Vdash x_2 \in S,$$
+then $\varphi_s(r_1, r_2)$ is defined and
+$$\varphi_s(r_1, r_2) \Vdash x_1 \equiv x_2.$$
+
+### W-objects
+
+In contrast to the generic construction of W-objects in an elementary topos with natural numbers object, we can give fairly concrete constructions of W-objects in the effective topos. In general, roughly speaking we can apply the W-object construction on underlying sets. Then, to define the effective PER, a realizer of equivalence will be a pair where the first element is an encoding describing the shared "shape" of two elements, and the second element is a tuple of realizers of equivalence for each component of that "shape".
+
+For example, consider the "list" W-object construction, where given an object $X$, we want an initial object $\mathrm{list}(X)$ equipped with morphisms $\mathrm{nil}_X : 1 \to \mathrm{list}(X)$ and $\mathrm{cons}_X : X \times \mathrm{list}(X) \to \mathrm{list}(X)$. Following the description above, the underlying set will be $\bigsqcup_{n=0}^\infty X^n$. The effective PER will be that
+$$\langle n, \langle p_1, \ldots, p_n \rangle \rangle \Vdash \ell_1 \equiv \ell_2$$
+if and only if $\ell_1, \ell_2$ are both in the $X^n$ component, and
+$$p_i \Vdash (\ell_1)_i \equiv (\ell_2)_i, \quad 1 \le i \le n.$$
+
+(Compare this to the generic construction of $\mathrm{list}(X)$ as a certain subobject of $[N, \tilde X]$ which would be significantly more difficult to work with in practice if expanded. This would hold even with the simplification that $[N, \tilde X]$ is isomorphic to a modification of the above construction of $[N, X]$ where we drop the totality conditions.)
