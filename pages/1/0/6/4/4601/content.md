@@ -52,3 +52,5 @@ Any [[preordered set]] is a thin category. In particular so are [[poset|posets]]
 
 [[!redirects thin category]]
 [[!redirects thin categories]]
+[[!redirects posetal category]]
+[[!redirects posetal categories]]
