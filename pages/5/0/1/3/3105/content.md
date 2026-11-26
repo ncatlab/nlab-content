@@ -646,9 +646,14 @@ Discussion of Whitehead products in [[rational homotopy theory]] (cf. *[[the co-
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J. C. Thomas, Prop. 13.16 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
+* Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ &lbrack;[arXiv:1106.4080](https://arxiv.org/abs/1106.4080)&rbrack;
+
+
 * [[Francisco Belchí]], [[Urtzi Buijs]], [[José M. Moreno-Fernández]], [[Aniceto Murillo]]: *Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL*, Linear Algebra and its Applications **520** (2017) 16-31 &lbrack;[arXiv:1604.01478 math.AT](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008)&rbrack;
         
-* Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
+
+* [[Urtzi Buijs]], [[José M. Moreno-Fernández]]: *Formality criteria in terms of higher Whitehead brackets*, Topology and its Applications **267** (2019) 106901 &lbrack;[arXiv:1902.03034](https://arxiv.org/abs/1902.03034), [doi:10.1016/j.topol.2019.106901](https://doi.org/10.1016/j.topol.2019.106901)&rbrack;
+
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]; [p. 105](https://ncatlab.org/schreiber/files/NonabelianCharacterWS250114c.pdf#page=115) in: *[[schreiber:The Character Map in Non-Abelian Cohomology]]*, World Scientific (2023) &lbrack;[doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
