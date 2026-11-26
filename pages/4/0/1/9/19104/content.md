@@ -19,6 +19,9 @@ On [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] in [[rational
 
 * [[Francisco Belchí]], [[Urtzi Buijs]], [[José M. Moreno-Fernández]], [[Aniceto Murillo]]: *Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL*, Linear Algebra and its Applications **520** (2017) 16-31 &lbrack;[arXiv:1604.01478 math.AT](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008)&rbrack;
 
+* [[Urtzi Buijs]], [[José M. Moreno-Fernández]]: *Formality criteria in terms of higher Whitehead brackets*, Topology and its Applications **267** (2019) 106901 &lbrack;[arXiv:1902.03034](https://arxiv.org/abs/1902.03034), [doi:10.1016/j.topol.2019.106901](https://doi.org/10.1016/j.topol.2019.106901)&rbrack;
+
+
 On [[rational homotopy theory]] with general [[fundamental groups]]:
 
 * [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
