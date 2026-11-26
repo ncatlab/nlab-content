@@ -15,9 +15,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -228,6 +227,10 @@ Surveys of the state of and perspectives on the field:
 
 * *Visions in Quantum Gravity*, notes from participants of *[Quantum Gravity: from gravitational EFTs to UV complete approaches](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) 2024, SciPost Phys. Comm. Rep. **11** (2025) &lbrack;[arXiv:2412.08696](https://arxiv.org/abs/2412.08696), [videos](https://www.youtube.com/@Quantumgravity.nordita/playlists), [doi:10.21468/SciPostPhysCommRep.11](https://doi.org/10.21468/SciPostPhysCommRep.11)&rbrack;
 
+
+Claim of successful quantization of 4D Einstein gravity:
+
+* [[Venkatesa Chandrasekaran]]: *An algebraic quantization of gravity from the null cone* &lbrack;[arXiv:2611.34924](https://arxiv.org/abs/2611.34924)&rbrack;
 
 
 ### As a perturbative quantum field theory
