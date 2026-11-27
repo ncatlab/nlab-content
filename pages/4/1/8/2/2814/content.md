@@ -353,6 +353,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[monoidal (∞,n)-functor]]
 
+* [[monoidal natural transformation]]
+
 
 ## References
 
