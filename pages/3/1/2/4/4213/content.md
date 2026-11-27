@@ -101,7 +101,7 @@ Let $K = $ [[Cat]] and $T$ the 2-monad whose 2-algebras are [[monoidal categorie
 
 The above theorem then asserts
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 For two [[adjoint functors]] $(L \dashv R)$ between monoidal categories, $L$ is oplax monoidal precisely if $R$ is lax monoidal.
@@ -110,7 +110,7 @@ For two [[adjoint functors]] $(L \dashv R)$ between monoidal categories, $L$ is 
 
 Moreover:
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 For two [[lax monoidal functors]] $L \dashv R$ between monoidal categories to be [[monoidal adjunction|monoidally adjoint]] it is necessary and sufficient that:
 
