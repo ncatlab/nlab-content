@@ -106,7 +106,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 * Any topological space has a "homotopy double groupoid" whose objects are points, whose morphisms of both types are paths (so it is edge-symmetric), and whose 2-cells are homotopies.
 
-* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[oplax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]]; see [[double category of algebras]].
+* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[oplax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s. See ([Shulman 11, Example 4.8](#Shulman11)). An analogous double category can be constructed involving the algebras for any [[2-monad]]; see [[double category of algebras]].
 
 * There is a [[double category of model categories]] whose [[objects]] are [[model categories]], whose horizontal arrows are the right [[Quillen functor]]s, vertical arrows the left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
 
@@ -362,7 +362,7 @@ See also:
 
 * [[Ronnie Brown]]  and [[Philip Higgins]], [The equivalence of $\infty$-groupoids and crossed  complexes,](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_371_0/CTGDC_1981__22_4_371_0.pdf)  _Cah. Top. G&#233;om. Diff_. 22 (1981) 371-386.
 
-* [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf), _New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
+* {#Shulman11} [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf), _New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
 * {#Myers16} [[David Jaz Myers]], _String diagrams for double categories and (virtual) equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
 
