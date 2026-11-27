@@ -8,7 +8,25 @@
 ***
 
 
-[[lax morphism|lax $T$-morphisms]]
++-- {: .num_theorem #DoctrinalAdjunctionBijection}
+###### Theorem
+
+Let $f \dashv u$ be an [[adjunction]] in some [[2-category]] $K$ and let $T$ be a [[2-monad]] on $K$.
+
+There is a [[bijection]] between [[2-morphism]]s $\bar u$ making $(u,\bar u)$ a lax $T$-morphism and 2-morphisms $\tilde f$ making $(f,\tilde f)$ a colax $T$-morphism; it is given by taking [[mates]] with respect to the adjunctions $T f \dashv T u$ and $f \dashv u$.
+
+=--
+
+The proof ([Kelly](#Kelly))
+relies solely on the properties of the mate correspondence.
+
++-- {: .num_prop #strength}
+###### Proposition
+
+Assume the hypotheses of Theorem \ref{DoctrinalAdjunctionBijection}. Suppose $(u,\bar u)$ and $(f,\tilde f)$ are respectively a lax and colax $T$-morphism in mutual correspondence under the bijection in Theorem \ref{DoctrinalAdjunctionBijection}. 
+For the unit and counit of the adjunction $f \dashv u$ to be $T$-transformations, and hence for the adjunction to live in $T$-$Alg_l$, it is necessary and sufficient that $\tilde f$ have an inverse $\bar f$ that makes $(f,\bar f)$ into a lax $T$-morphism, and hence $(f,\bar f)$ into a strong $T$-morphism.
+
+=--
 
 $\beta^3$
 
