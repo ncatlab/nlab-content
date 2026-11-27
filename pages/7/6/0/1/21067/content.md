@@ -105,6 +105,7 @@ Let $(A,a)$ and $(B,b)$ be $T$-algebras. A **[[homomorphism]] of $T$-algebras** 
 \end{tikzcd}
 
 The [[category]] formed by $T$-algebras and their homomorphisms is known as the **[[Eilenberg-Moore category]]** of $T$ and often denoted by $\mathcal{C}^T$.
+For the (co)laxification of the notion of homomorphism of algebras, see the [[lax morphism#for_algebras_of_2monads|relevant section in the article for lax morphisms]].
 
 
 ### Free algebras
