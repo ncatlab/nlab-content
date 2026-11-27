@@ -7,15 +7,8 @@
 
 ***
 
-+-- {: .num_cor
-#IWantToReferThis}
-###### Corollary
-For two [[lax monoidal functors]] $L \dashv R$ between monoidal categories to be [[monoidal adjunction|monoidally adjoint]] it is necessary and sufficient that:
 
-1. $L \dashv R$ as functors
-2. $L$ is strong monoidal, and the inverse of the lax monoidal structure on $L$ is the [[mate]] of the lax monoidal structure of $R$.
-
-=--
+It is possible to (co)laxify the notion of morphism, see the [[lax morphism#for_algebras_of_2monads|relevant section in the article for lax morphisms]].
 
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
