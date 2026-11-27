@@ -21,7 +21,7 @@
 
 _Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]], may be lifted to the category $T$-$Alg_l$ for some [[2-monad]] $T$ on $K$.  
 
-Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, [[lax morphism|lax T-morphisms]], and $T$-transformations, but the result works as well for pseudo algebras.
+Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, [[lax morphism|lax $T$-morphisms]], and $T$-transformations, but the result works as well for pseudo algebras.
 
 The term 'doctrinal' refers to the concept [[doctrine]], in particular to its definition as a [2-monad](doctrine#as_2monads).
 
@@ -68,7 +68,7 @@ Let $(f, \bar f)$ and $(u, \bar u)$ be [[colax morphisms]] of $T$-algebras.
 Suppose $f \dashv u$ as functors.
 
 1. There is a bijection between lax structures on $f$ and colax structures on $u$.
-2. The adjunction $f \dashv u$ lifts to an adjunction $(f, \bar f) \dashv (u, \bar u)$ if and only if the lax structure $\tilde u$ on $u$ induced by $(f,\bar f)$ is inverse to $\bar u$ (meaning, in particulat, that $(u,\bar u)$ is strong).
+2. The adjunction $f \dashv u$ lifts to an adjunction $(f, \bar f) \dashv (u, \bar u)$ if and only if the lax structure $\tilde u$ on $u$ induced by $(f,\bar f)$ is inverse to $\bar u$ (meaning, in particular, that $(u,\bar u)$ is strong).
 
 =--
 
