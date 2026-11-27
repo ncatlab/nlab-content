@@ -53,10 +53,12 @@ is called the *upper central series* of $G$, and Proposition \ref{center} shows 
 
 * [[elementary group]]
 
+* [[finite abelian group]]
+
 ## References
 
-* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](https://web.archive.org/web/20221207013946/http://www.isama.org/jms/m317/handouts/finabel.pdf))
- 
+* {#Sullivan} John Sullivan: _Classification of finite abelian groups_ (2003) &lbrack;[[Sullivan-FiniteAbGroups.pdf:file]]&rbrack;
+
 
 
 [[!redirects p-primary groups]]
