@@ -8,15 +8,7 @@
 ***
 
 
-It is possible to (co)laxify the notion of morphism, see the [[lax morphism#for_algebras_of_2monads|relevant section in the article for lax morphisms]].
-
-+-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
-###### Proposition
-**(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
-
-Consider a pair of [[adjoint functors]] 
-
-=--
+[[lax morphism|lax $T$-morphisms]]
 
 $\beta^3$
 
