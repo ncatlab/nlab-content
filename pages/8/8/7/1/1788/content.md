@@ -7,6 +7,24 @@
 
 ***
 
++-- {: .num_cor
+#IWantToReferThis}
+###### Corollary
+For two [[lax monoidal functors]] $L \dashv R$ between monoidal categories to be [[monoidal adjunction|monoidally adjoint]] it is necessary and sufficient that:
+
+1. $L \dashv R$ as functors
+2. $L$ is strong monoidal, and the inverse of the lax monoidal structure on $L$ is the [[mate]] of the lax monoidal structure of $R$.
+
+=--
+
++-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
+###### Proposition
+**(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
+
+Consider a pair of [[adjoint functors]] 
+
+=--
+
 $\beta^3$
 
 \begin{tikzcd}
