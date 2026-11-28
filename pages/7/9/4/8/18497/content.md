@@ -35,7 +35,12 @@ The original observation:
 
 Relation to [[Borcherds algebras]]:
 
-* Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
+* {#HLJP02} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Borcherds symmetries in M-theory*, JHEP **04** (2002) 049 &lbrack;[arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070), [doi:10.1088/1126-6708/2002/04/049](https://doi.org/10.1088/1126-6708/2002/04/049)&rbrack;
+
+* {#HLJP03} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Real Borcherds Superalgebras and M-theory*, JHEP **04** (2003) 060 &lbrack;[arXiv:hep-th/0212346](https://arxiv.org/abs/hep-th/0212346), [doi:10.1088/1126-6708/2003/04/060](https://doi.org/10.1088/1126-6708/2003/04/060)&rbrack;
+
+* [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse (2002) &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
+
 
 ### Via RHT
 
