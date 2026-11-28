@@ -48,10 +48,17 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 * [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
 
 
+On the complete [[flux density]] species (including 10-form potentials) of [[type IIB supergravity]], in components and on [[superspace]] (cf. the *[IIB Borcherds hierarchy](Borcherds+algebra#ForTypeIIB)*):
+
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Sven F. Kerstan]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA ten-forms and the gauge algebras of maximal supergravity theories*, JHEP **07** (2006) 018 &lbrack;[arXiv:hep-th/0602280](https://arxiv.org/abs/hep-th/0602280), [doi:10.1088/1126-6708/2006/07/018](https://doi.org/10.1088/1126-6708/2006/07/018)&rbrack;
+
+* [[Eric Bergshoeff]], [[Jelle Hartong]], [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
+
+
 
 On [[D9-branes]]:
 
-* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], [[Sven F. Kerstan]], [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
 
 
 On [[gauged supergravity|gauged]] [[D=9 supergravity]]:
