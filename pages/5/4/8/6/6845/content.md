@@ -25,6 +25,13 @@ On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") 
 
 * {#CJLP98b} [[Eugène Cremmer]], [[Bernard Julia]], [[Hong Lü]], [[Christopher Pope]]: *Dualisation of dualities II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535** (1998) 242-292 &lbrack;[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>&rbrack;
 
+and via [[mysterious duality]]:
+
+* {#HLJP02} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Borcherds symmetries in M-theory*, JHEP **04** (2002) 049 &lbrack;[arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070), [doi:10.1088/1126-6708/2002/04/049](https://doi.org/10.1088/1126-6708/2002/04/049)&rbrack;
+
+* {#HLJP03} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Real Borcherds Superalgebras and M-theory*, JHEP **04** (2003) 060 &lbrack;[arXiv:hep-th/0212346](https://arxiv.org/abs/hep-th/0212346), [doi:10.1088/1126-6708/2003/04/060](https://doi.org/10.1088/1126-6708/2003/04/060)&rbrack;
+
+* [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse (2002) &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
 
 
 On [[first-order formulation of gravity|first order formulation]] of [[supergravity]]:
