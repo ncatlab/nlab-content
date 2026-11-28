@@ -43,7 +43,7 @@ The [[Green-Schwarz sigma-model]] description of $(p,q)$-9-branes via cocycles o
 
 See also:
 
-* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], [[Sven F. Kerstan]], [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
 
 The suggestion of all stable D-brane configurations arise via [[tachyon condensation]] from D9-brane/[[anti D-brane|anti]]-D-brane pairs, leading to [[D-brane charge quantization in K-theory]]:
 
