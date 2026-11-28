@@ -865,11 +865,11 @@ On the [[Lie superalgebra]] structure encoded by the [[Bianchi identities]] of [
 
 Identification of these as (truncations of) Borcherds superalgebras, and relation to [[U-duality]] and [[E11]] (via [[mysterious duality]]):
 
-* {#HLJP02} Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Borcherds symmetries in M-theory*, JHEP **04** (2002) 049 &lbrack;[arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070), [doi:10.1088/1126-6708/2002/04/049](https://doi.org/10.1088/1126-6708/2002/04/049)&rbrack;
+* {#HLJP02} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Borcherds symmetries in M-theory*, JHEP **04** (2002) 049 &lbrack;[arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070), [doi:10.1088/1126-6708/2002/04/049](https://doi.org/10.1088/1126-6708/2002/04/049)&rbrack;
 
-* {#HLJP03} Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Real Borcherds Superalgebras and M-theory*, JHEP **04** (2003) 060 &lbrack;[arXiv:hep-th/0212346](https://arxiv.org/abs/hep-th/0212346), [doi:10.1088/1126-6708/2003/04/060](https://doi.org/10.1088/1126-6708/2003/04/060)&rbrack;
+* {#HLJP03} [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Real Borcherds Superalgebras and M-theory*, JHEP **04** (2003) 060 &lbrack;[arXiv:hep-th/0212346](https://arxiv.org/abs/hep-th/0212346), [doi:10.1088/1126-6708/2003/04/060](https://doi.org/10.1088/1126-6708/2003/04/060)&rbrack;
 
-* Pierre Henry-Labord&#232;re, [[Bernard Julia]], Louis Paulot: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse (2002) &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
+* [[Pierre Henry-Labordère]], [[Bernard Julia]], [[Louis Paulot]]: *Symmetries in M-theory: Monsters, Inc.*, talk at Cargèse (2002) &lbrack;[arXiv:hep-th/0303178](https://arxiv.org/abs/hep-th/0303178)&rbrack;
 
 * {#HJL12} [[Marc Henneaux]], [[Bernard Julia]], J&#233;r&#244;me Levie: *$E_{11}$, Borcherds algebras and maximal supergravity*, JHEP **04** (2012) 078 &lbrack;[arXiv:1007.5241](https://arxiv.org/abs/1007.5241), <a href="https://doi.org/10.1007/JHEP04(2012)078">doi:10.1007/JHEP04(2012)078</a>&rbrack;
 
@@ -879,15 +879,15 @@ The Borcherds algebra relevant for [[type IIB supergravity]] was first considere
 
 * {#Slansky93} [[Richard Slansky]]: *An algebraic role for energy and number operators for multiparticle states*, Nucl. Phys. B **389** (1993) 349-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(93)90325-J">doi:10.1016/0550-3213(93)90325-J</a>&rbrack;
 
-The complete form spectra (including 10-form potentials) of type II supergravity, in components and in superspace:
+The complete [[flux density]] species (including 10-form potentials) of [[type IIB supergravity]], in components and on [[superspace]]:
 
-* [[Eric Bergshoeff]], Mees de Roo, Sven F. Kerstan, [[Fabio Riccioni]]: *IIB supergravity revisited*, JHEP **08** (2005) 098 &lbrack;[arXiv:hep-th/0506013](https://arxiv.org/abs/hep-th/0506013), [doi:10.1088/1126-6708/2005/08/098](https://doi.org/10.1088/1126-6708/2005/08/098)&rbrack;
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Sven F. Kerstan]], [[Fabio Riccioni]]: *IIB supergravity revisited*, JHEP **08** (2005) 098 &lbrack;[arXiv:hep-th/0506013](https://arxiv.org/abs/hep-th/0506013), [doi:10.1088/1126-6708/2005/08/098](https://doi.org/10.1088/1126-6708/2005/08/098)&rbrack;
 
-* [[Eric Bergshoeff]], Mees de Roo, Sven F. Kerstan, [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA ten-forms and the gauge algebras of maximal supergravity theories*, JHEP **07** (2006) 018 &lbrack;[arXiv:hep-th/0602280](https://arxiv.org/abs/hep-th/0602280), [doi:10.1088/1126-6708/2006/07/018](https://doi.org/10.1088/1126-6708/2006/07/018)&rbrack;
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Sven F. Kerstan]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA ten-forms and the gauge algebras of maximal supergravity theories*, JHEP **07** (2006) 018 &lbrack;[arXiv:hep-th/0602280](https://arxiv.org/abs/hep-th/0602280), [doi:10.1088/1126-6708/2006/07/018](https://doi.org/10.1088/1126-6708/2006/07/018)&rbrack;
 
-* [[Eric Bergshoeff]], [[Paul Howe]], Sven F. Kerstan, [[Linus Wulff]]: *Kappa-symmetric $SL(2,\mathbb{R})$ covariant D-brane actions*, JHEP **10** (2007) 050 &lbrack;[arXiv:0708.2722](https://arxiv.org/abs/0708.2722), [doi:10.1088/1126-6708/2007/10/050](https://doi.org/10.1088/1126-6708/2007/10/050)&rbrack;
+* [[Eric Bergshoeff]], [[Paul Howe]], [[Sven F. Kerstan]], [[Linus Wulff]]: *Kappa-symmetric $SL(2,\mathbb{R})$ covariant D-brane actions*, JHEP **10** (2007) 050 &lbrack;[arXiv:0708.2722](https://arxiv.org/abs/0708.2722), [doi:10.1088/1126-6708/2007/10/050](https://doi.org/10.1088/1126-6708/2007/10/050)&rbrack;
 
-* [[Eric Bergshoeff]], Jelle Hartong, [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
+* [[Eric Bergshoeff]], [[Jelle Hartong]], [[Paul Howe]], [[Tomás Ortín]], [[Fabio Riccioni]]: *IIA/IIB Supergravity and Ten-forms*, JHEP **05** (2010) 061 &lbrack;[arXiv:1004.1348](https://arxiv.org/abs/1004.1348), <a href="https://doi.org/10.1007/JHEP05(2010)061">doi:10.1007/JHEP05(2010)061</a>&rbrack;
 
 On Borcherds algebras of [[Bianchi identities]] of [[supergravity]] [[flux densities]] in [[superspace]], including form degrees beyond the spacetime dimension:
 
